@@ -1,22 +1,22 @@
 ---
-title: Miglioramenti al progetto per il primo trimestre 2024
+title: Miglioramenti ai progetti per il primo trimestre 2024
 description: Miglioramenti al progetto nel primo trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Miglioramenti al progetto per il primo trimestre 2024
+# Miglioramenti ai progetti per il primo trimestre 2024
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2024, consulta [Panoramica delle versioni del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Assegnazioni intelligenti più rilevanti
 

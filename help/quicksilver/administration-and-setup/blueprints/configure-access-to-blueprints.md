@@ -4,18 +4,18 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurare l’accesso ai blueprint
 description: In qualità di amministratore di sistema, puoi consentire agli utenti di richiedere l’installazione di blueprint impostando una coda di richieste per archiviare le richieste. In questa posizione, puoi tenere traccia e aggiornare le richieste da un’unica posizione.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Configurare l’accesso ai blueprint
+# Configurare l’accesso alle blueprint
 
 Tutti gli utenti di [!DNL Adobe Workfront] possono sfogliare il catalogo di blueprint.
 
@@ -34,7 +34,7 @@ In qualità di amministratore di sistema, puoi:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ In qualità di amministratore di sistema, puoi:
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -57,7 +57,7 @@ In qualità di amministratore di sistema, puoi:
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

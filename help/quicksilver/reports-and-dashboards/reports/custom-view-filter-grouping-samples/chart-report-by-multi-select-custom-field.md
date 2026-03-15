@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Tracciare un report in base a un campo personalizzato a selezione multipla
 description: È possibile tracciare un report in base a un campo personalizzato a selezione multipla solo dopo aver creato un campo calcolato aggiuntivo che acquisisce le scelte selezionate nel campo personalizzato a selezione multipla.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Creare un grafico per un rapporto in base a un campo personalizzato a selezione multipla
+# Creare un grafico per un rapporto da un campo personalizzato a selezione multipla
 
 <!--Audited: 11/2024-->
 
@@ -41,7 +41,7 @@ Tuttavia, se non è possibile disporre di campi separati per ogni opzione di un 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Tuttavia, se non è possibile disporre di campi separati per ogni opzione di un 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -62,13 +62,13 @@ Tuttavia, se non è possibile disporre di campi separati per ogni opzione di un 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,10 +91,10 @@ Non è possibile creare un grafico in un report facendo riferimento a un campo p
 
 Per creare un campo calcolato che faccia riferimento a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
-* Campo personalizzato a selezione multipla in un modulo personalizzato.\
+* Un campo personalizzato a selezione multipla in un modulo personalizzato.\
   Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Modulo personalizzato con campo personalizzato a selezione multipla associato agli oggetti.
+* Modulo personalizzato con il campo personalizzato a selezione multipla associato agli oggetti.
 * Valori per il campo personalizzato a selezione multipla per ciascun oggetto.
 
 Per generare il campo personalizzato calcolato che fa riferimento al campo personalizzato a selezione multipla:
@@ -120,12 +120,12 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
    ![Campo personalizzato a selezione multipla calcolato](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facoltativo) Se il campo personalizzato a selezione multipla è già incluso in questo modulo e se il modulo è già associato a oggetti, abilitare l&#39;opzione **Applica ai calcoli esistenti**.
+1. (Facoltativo) Se il campo personalizzato a selezione multipla è già incluso nel modulo e se il modulo è già associato a oggetti, abilitare l&#39;opzione **Applica a calcoli esistenti**.
 
-   In questo modo il nuovo campo calcolato viene compilato automaticamente con il valore del campo personalizzato a selezione multipla che viene aggiunto ai moduli già allegati agli oggetti.
+   In questo modo si garantisce che il nuovo campo calcolato venga compilato automaticamente con il valore del campo personalizzato a selezione multipla quando viene aggiunto ai moduli già associati agli oggetti.
 
-1. Fare clic su **Applica**.
-1. Fare clic su **Salva e chiudi**.
+1. Fai clic su **Applica**.
+1. Fai clic su **Salva e chiudi**.
 
    Il campo personalizzato calcolato viene aggiunto al modulo personalizzato e, se il modulo è attualmente associato a oggetti, il campo viene compilato con le informazioni del campo personalizzato a selezione multipla.
 

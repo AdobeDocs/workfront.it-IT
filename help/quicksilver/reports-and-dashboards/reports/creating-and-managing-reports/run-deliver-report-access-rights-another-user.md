@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Eseguire e consegnare un report con i diritti di accesso di un altro utente
+title: Eseguire e consegnare un rapporto con i diritti di accesso di un altro utente
 description: Per impostazione predefinita, gli utenti possono visualizzare solo gli oggetti di un report per il quale dispongono delle autorizzazioni di visualizzazione.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
-# Eseguire e consegnare un report con i diritti di accesso di un altro utente
+# Eseguire e consegnare un rapporto con i diritti di accesso di un altro utente
 
 <!-- Audited: 11/2024 -->
 
 Per impostazione predefinita, gli utenti possono visualizzare solo gli oggetti di un report per il quale dispongono delle autorizzazioni di visualizzazione.
 
-È possibile consentire a tutti gli utenti di visualizzare in un report gli stessi risultati di un altro utente, indipendentemente dal loro livello di accesso o di autorizzazione sugli oggetti all&#39;interno del report.
+È possibile consentire a tutti gli utenti di visualizzare gli stessi risultati in un report di un altro utente, indipendentemente dal livello di accesso o di autorizzazione per gli oggetti all&#39;interno del report.
 
 Se esegui un rapporto con i diritti di accesso di un altro utente con un livello di accesso superiore (ad esempio, i diritti di accesso di un amministratore di Adobe Workfront), tutti gli utenti che dispongono delle autorizzazioni per visualizzare il rapporto possono visualizzare le informazioni contenute nel rapporto come l’utente specificato nel generatore di rapporti. Puoi impostare questa opzione sia per i rapporti trovati dagli utenti nell’interfaccia di Workfront, sia per i rapporti consegnati agli utenti come allegato a un messaggio e-mail.
 
@@ -30,7 +30,7 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -49,17 +49,17 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
+   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
      <td> <p>Visualizzare le autorizzazioni per un report per visualizzare il report consegnato</p>
      <p>Gestire le autorizzazioni per un report per eseguire il report</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Compilando il campo **Esegui report con i diritti di accesso di:** si garantisce che un report contenga gli stessi dati, indipendentemente dall&#39;utente che accede al report. Il report viene visualizzato come per l&#39;utente specificato.
 
-Per essere in grado di visualizzare il report, gli utenti che vi accedono devono disporre almeno delle autorizzazioni di visualizzazione. Se l&#39;utente elencato nel campo **Esegui il report con i diritti di accesso di:** è disattivato, il report non verrà più visualizzato per gli altri utenti con cui è condiviso.
+Gli utenti che accedono al report devono disporre almeno delle autorizzazioni di visualizzazione sul report per poterlo visualizzare. Se l&#39;utente elencato nel campo **Esegui report con diritti di accesso di:** è disattivato, il report non verrà più visualizzato per gli altri utenti con cui è condiviso.
 
 Per eseguire un report con i diritti di accesso di un altro utente:
 
@@ -78,26 +78,26 @@ Per eseguire un report con i diritti di accesso di un altro utente:
 
 1. Fare clic su **Impostazioni report**.
 
-1. Nel campo **Esegui il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente con cui si desidera visualizzare il report, quindi selezionarlo quando viene visualizzato nell&#39;elenco.\
+1. Nel campo **Esegui il report con diritti di accesso di:**, inizia a digitare il nome dell&#39;utente con cui desideri visualizzare il report, quindi selezionalo quando lo visualizzi nell&#39;elenco.\
    ![Esegui con diritti di accesso di](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
-   >Gli utenti con un livello di accesso inferiore che sono autorizzati a generare report non possono selezionare un utente diverso da se stessi per il campo **Esegui report con diritti di accesso di:**.
+   >Gli utenti con un livello di accesso inferiore autorizzati a generare report non possono selezionare un utente diverso da se stessi per il campo **Esegui report con diritti di accesso di:**.
 
 1. Fai clic su **Fine**.
 1. Fai clic su **Salva e Chiudi**.\
-   Il report viene ora visualizzato per tutti gli utenti con cui è condiviso come se fosse visualizzato dall&#39;utente specificato nel campo **Esegui il report con i diritti di accesso di:**.
+   Il report ora viene visualizzato per tutti gli utenti con cui è condiviso, come se fosse visualizzato dall&#39;utente specificato nel campo **Esegui il report con diritti di accesso di:**.
 
 >[!IMPORTANT]
 >
->L&#39;immissione di un utente diverso dall&#39;utente connesso per il campo **Esegui il report con i diritti di accesso di:** ha effetto sulle informazioni visualizzate nel report se il report contiene un filtro che utilizza un carattere jolly che fa riferimento all&#39;utente connesso. Il report viene visualizzato in base al valore specificato in **Esegui il report con i diritti di accesso di:** anziché in base a quanto definito nel filtro con caratteri jolly.
+>L&#39;immissione di un utente diverso dall&#39;utente connesso per **Esegui il report con il campo Diritti di accesso di:** influisce sulle informazioni visualizzate nel report se il report contiene un filtro che utilizza un carattere jolly che fa riferimento all&#39;utente connesso. Il report viene visualizzato in base al valore specificato nel campo **Esegui report con diritti di accesso di:** anziché in base a quanto definito nel filtro con caratteri jolly.
 >
->Per ulteriori informazioni sui caratteri jolly per i campi utente, vedere la sezione &quot;Variabili basate sull&#39;utente&quot; in [Panoramica sulle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Per ulteriori informazioni sui caratteri jolly per i campi utente, vedere la sezione &quot;Variabili basate su utente&quot; in [Panoramica sulle variabili dei filtri con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Consegna di un report con i diritti di accesso di un altro utente
 
-Puoi impostare i rapporti da consegnare come allegati a un messaggio e-mail. Puoi impostare questi rapporti consegnati in modo che vengano visualizzati così come sono per gli utenti di un livello di accesso più alto, in modo che tutti gli utenti possano visualizzare le stesse informazioni nei rapporti consegnati. Gli utenti che vedranno il rapporto consegnato nell’e-mail devono essere aggiunti all’elenco Invia a dei destinatari all’interno della consegna del rapporto. Per ulteriori informazioni sulla configurazione di un report per la consegna, consulta l&#39;articolo [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Puoi impostare i report da inviare come allegati a un’e-mail. È possibile impostare questi report distribuiti in modo che vengano visualizzati per gli utenti di un livello di accesso superiore, in modo che tutti gli utenti possano visualizzare le stesse informazioni nei report distribuiti. Gli utenti che vedranno recapitare il report nell’e-mail devono essere aggiunti all’elenco dei destinatari di Invia a all’interno della consegna del report. Per ulteriori informazioni sulla configurazione di un report per la consegna, consulta l&#39;articolo [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Per consegnare un report con i diritti di accesso di un altro utente:
 
@@ -106,16 +106,16 @@ Per consegnare un report con i diritti di accesso di un altro utente:
 1. Seleziona il rapporto che desideri consegnare con i diritti di accesso di un altro utente.
 1. Fai clic sul nome del rapporto per selezionarlo.
 1. Fai clic su **Azioni report**.
-1. Fare clic su **Invia report**.
+1. Fai clic su **Invia report**.
 
-1. Nel campo **Consegna il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente che si desidera visualizzare nel report come quando viene consegnato in un&#39;e-mail, quindi selezionarlo quando viene visualizzato nell&#39;elenco. L’impostazione predefinita è il nome dell’utente che genera il rapporto.\
+1. Nel campo **Invia questo report con i diritti di accesso di:**, inizia a digitare il nome dell&#39;utente che desideri venga visualizzato nel report come quando viene inviato tramite e-mail, quindi selezionalo quando lo vedi nell&#39;elenco. L&#39;impostazione predefinita è il nome dell&#39;utente che crea il report.\
    ![Report inviato con diritti di accesso di](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
-   >Gli utenti con un livello di accesso inferiore che sono autorizzati a generare report non possono selezionare un utente diverso da loro per il campo **Consegna il report con i diritti di accesso di:**.
+   >Gli utenti con un livello di accesso inferiore autorizzati a generare report non possono selezionare un utente diverso da se stessi per il campo **Invia questo report con i diritti di accesso di:**.
 
-1. Selezionare il **Formato** che si desidera venga visualizzato nel messaggio di posta elettronica:
+1. Selezionare il **Formato** che si desidera venga visualizzato nel messaggio e-mail:
 
    * HTML
    * PDF
@@ -130,21 +130,21 @@ Per consegnare un report con i diritti di accesso di un altro utente:
 
 ## Limitazioni per i rapporti con una colonna Source
 
-Nei seguenti rapporti viene visualizzata una colonna Source in cui è possibile visualizzare informazioni sull&#39;oggetto padre:
+Nei seguenti rapporti viene visualizzata una colonna Origine in cui puoi visualizzare informazioni sull’oggetto padre:
 
-* Rapporti sui problemi
-* Rapporti orari
-* Report documenti
+* Rapporti problema
+* Rapporti ora
+* Rapporti documento
 
-Se gli utenti non dispongono delle autorizzazioni per l’oggetto principale di un problema, un’ora o un documento, la colonna Source del rapporto risulta vuota, anche se il rapporto è configurato per la visualizzazione, o per essere consegnato con i diritti di accesso di un altro utente.
+Se gli utenti non dispongono delle autorizzazioni per l’oggetto padre di un problema, un’ora o un documento, la colonna Origine del rapporto risulta vuota, anche se il rapporto è configurato per la visualizzazione, o per essere consegnato con i diritti di accesso di un altro utente.
 
-Per visualizzare informazioni sull&#39;oggetto padre nel report, è consigliabile aggiungere una colonna per l&#39;oggetto padre in cui è possibile visualizzare il nome dell&#39;oggetto padre.
+Per visualizzare informazioni sull’oggetto padre nel rapporto, è consigliabile aggiungere una colonna per l’oggetto padre in cui è possibile visualizzare il nome del padre.
 
-Ad esempio, puoi aggiungere uno dei seguenti elementi a un rapporto con una colonna Source:
+Ad esempio, puoi aggiungere uno dei seguenti elementi a un rapporto con una colonna Origine:
 
-* Le colonne Nome progetto, Nome attività o Nome problema in un documento o in una relazione sulle ore.
-* Le colonne Nome progetto o Nome attività di un report sui problemi.
-* Colonna che utilizza espressioni in modalità testo che fa riferimento a tutti e tre gli oggetti. Di seguito è riportato un esempio per un rapporto di ore:
+* Le colonne Nome progetto, Nome attività o Nome problema a un rapporto ora o documento.
+* Le colonne Nome progetto o Nome attività a un rapporto problema.
+* Colonna che utilizza espressioni in modalità testo che fa riferimento a tutti e tre gli oggetti. Di seguito è riportato un esempio per un report relativo a un&#39;ora:
 
   ```
   displayname=Custom Source

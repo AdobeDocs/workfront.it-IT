@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Condividere un dashboard
+title: Condividere una dashboard
 description: L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare le dashboard quando assegnano i livelli di accesso. Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare o gestire dashboard specifiche a cui si ha accesso per la condivisione.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Condividere un dashboard
+# Condividere una dashboard
 
 <!-- Audited: 1/2025 -->
 
@@ -29,7 +29,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,10 +40,10 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
     <td> 
    <p>Chiaro o superiore</p>
-   <p>Revisione o successiva</p>
+   <p>Revisione o superiore</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,13 +51,13 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza autorizzazioni o versioni successive per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 
 Oltre alle considerazioni seguenti, vedere anche [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni di gestione per tale dashboard.
+* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni Gestione.
 
 * Puoi condividere dashboard che hai creato con altri singoli utenti, team, gruppi, mansioni o aziende. Puoi anche condividere dashboard creati da altri utenti e che sono stati condivisi con te.
 * Puoi anche condividerli con l’intera organizzazione rendendoli visibili a livello di sistema.
@@ -82,7 +82,7 @@ Oltre alle considerazioni seguenti, vedere anche [Condividere report, dashboard 
 
   Per informazioni sulla visualizzazione delle autorizzazioni ereditate, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-## Condividere un dashboard
+## Condividere una dashboard
 
 La condivisione di uno o più dashboard da un elenco è identica.
 
@@ -90,7 +90,7 @@ La condivisione di uno o più dashboard da un elenco è identica.
 
    Oppure
 
-   Fai clic sul nome di un dashboard, quindi fai clic su **Azioni dashboard** > **Condivisione**.
+   Fare clic sul nome di un dashboard, quindi su **Azioni dashboard** > **Condivisione**.
 
    ![](assets/unshimmed-share-dashboard.png)
 

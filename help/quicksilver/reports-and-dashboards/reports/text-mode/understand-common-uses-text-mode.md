@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Panoramica sugli usi comuni della modalità testo
 description: Panoramica sugli usi comuni della modalità testo
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi espandere le funzionalità di reporting utilizzando la modalità testo nei 
 
 Questo articolo illustra solo alcuni esempi comuni di dove probabilmente dovresti utilizzare la modalità testo per espandere le funzionalità di reporting o campi personalizzati calcolati in Adobe Workfront. Per un elenco più ampio di esempi, consulta:
 
-* [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Esempi di viste, filtri e raggruppamenti personalizzati: indice degli articoli](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
@@ -73,7 +73,7 @@ Per esempi dei motivi più comuni per l&#39;utilizzo della modalità testo in un
 * [Visualizzazione: nascondere il contenuto di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [Visualizzazione: visualizza un&#39;immagine invece di una stringa in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Visualizzazione: visualizzazione dei rientri delle attività in un elenco attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [Visualizza: calcolo delle differenze di data e ora](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [Vista: calcolare le differenze di data e ora](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 ## Utilizzare la modalità testo nei filtri {#use-text-mode-in-filters}
 
@@ -97,4 +97,4 @@ Per esempi dei motivi più comuni per l’utilizzo della modalità testo in un r
 * [Raggruppamento: organizza i risultati dell&#39;elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Raggruppamento: aggiungere un quarto raggruppamento a un elenco](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Raggruppamento: modifica il nome visualizzato in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Raggruppamento: indica se i risultati di un raggruppamento devono essere compressi o espansi utilizzando la modalità testo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Raggruppamento: indicare se i risultati di un raggruppamento devono essere compressi o espansi utilizzando la modalità testo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)

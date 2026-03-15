@@ -4,17 +4,17 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Panoramica sullo stato di completamento dell'iterazione
 description: Le informazioni di completamento descritte in questo articolo vengono visualizzate sopra il grafico a dispersione.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
 
 ---
 
-# Panoramica sullo stato di completamento dell&#39;iterazione
+# Panoramica sullo stato di completamento dell’iterazione
 
 Le informazioni di completamento descritte in questo articolo vengono visualizzate sopra il grafico a dispersione.
 

@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorizzare le storie per colore sulla bacheca Scrum
 description: L'associazione di colore predefinita delle storie della bacheca Scrum varia a seconda che la bacheca delle storie si trovi su un'iterazione o su un progetto.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ L&#39;associazione colore predefinita delle storie varia a seconda che la bachec
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Gestione del limite WIP (Work In Progress) nel Kanban Board
 description: È possibile configurare un limite WIP (Work In Progress) per ogni colonna della bacheca Kanban. Il limite WIP è semplicemente un'avvertenza visiva e non impedisce al team di avere più elementi in ogni colonna di stato rispetto al limite impostato.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -34,14 +34,14 @@ Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,14 +1,14 @@
 ---
 title: Miglioramenti della bozza nel primo trimestre del 2025
 description: Miglioramenti della bozza nel primo trimestre del 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2025.
 
-Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2025, consulta [Panoramica delle versioni del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Aggiornamento visualizzatore bozze desktop
 

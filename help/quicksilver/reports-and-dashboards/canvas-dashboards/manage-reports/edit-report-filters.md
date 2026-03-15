@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modificare i filtri dei rapporti in un dashboard di Canvas
+title: Modificare i filtri dei rapporti in una dashboard dell’area di lavoro
 description: Puoi modificare i filtri dei rapporti dopo averli applicati a un dashboard Area di lavoro.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 9%
+ht-degree: 44%
 
 ---
 
-# Modificare i filtri dei rapporti in un dashboard di Canvas
+# Modificare i filtri dei rapporti in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ Puoi modificare i filtri dei rapporti una volta applicati a un dashboard di Canv
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,7 +44,7 @@ Puoi modificare i filtri dei rapporti una volta applicati a un dashboard di Canv
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard</p> 
 <p>Piano</p> 
@@ -57,14 +57,14 @@ Puoi modificare i filtri dei rapporti una volta applicati a un dashboard di Canv
   </td> 
   </tr>  
         <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti
@@ -102,11 +102,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ### Variabili filtro per caratteri jolly basati sulla data
 
-Le opzioni con caratteri jolly basate sulla data possono essere utilizzate in combinazione con qualsiasi attributo del filtro data. Per informazioni sull&#39;aggiunta di un carattere jolly basato sulla data a un report, vedere l&#39;articolo [Utilizzare caratteri jolly basati sulla data per generalizzare i report](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Le opzioni con caratteri jolly basati sulla data possono essere utilizzate in combinazione con qualsiasi attributo del filtro data. Per informazioni sull’aggiunta di un carattere jolly basato sulla data a un rapporto, consulta l’articolo [Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
->Se crei un calcolo di data e ora che non include una porzione di ora o che utilizza i caratteri jolly $$TODAY o $$NOW, il sistema utilizza la data in base al fuso orario UTC (Coordinated Universal Time) e non al fuso orario locale. Questo può causare un risultato di data imprevisto.
+>Se crei un calcolo di data e ora che non include una parte oraria o che utilizza i caratteri jolly $$TODAY o $$NOW, il sistema utilizza la data in base al fuso orario UTC (Tempo coordinato universale) e non al fuso orario locale. Questo può causare un risultato di data imprevisto.
 
 Puoi scegliere uno dei seguenti caratteri jolly basati sulla data:
 
@@ -115,17 +115,17 @@ Puoi scegliere uno dei seguenti caratteri jolly basati sulla data:
  <col> 
  <tbody> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$OGGI</strong> </p> </td> 
-   <td> <p>È consigliabile creare filtri sensibili alla data utilizzando questo carattere jolly in modo da evitare di creare nuovamente il filtro domani, la prossima settimana o il mese prossimo.</p> <p>Ad esempio, se desideri visualizzare tutte le attività con scadenza precedente a oggi, puoi utilizzare la seguente regola in un filtro attività: <em>Data inizio pianificata inferiore a $$TODAY</em>.</p> <p>$$TODAY è sempre uguale a mezzanotte per il giorno corrente.</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
+   <td> <p>È consigliabile creare filtri basati sulle date per utilizzare questo carattere jolly in modo da evitare di creare nuovamente il filtro domani, la prossima settimana o il mese prossimo.</p> <p>Ad esempio, se desideri visualizzare tutte le attività con scadenza precedente a oggi, puoi utilizzare la seguente regola in un filtro attività: <em>Data di inizio pianificata precedente a $$TODAY</em>.</p> <p>$$TODAY è sempre uguale a mezzanotte per il giorno corrente.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>È simile al carattere jolly $$TODAY ma include la data e l'ora correnti. $$NOW corrisponde alla data e all'ora correnti.</p> <p>Ad esempio, se desideri visualizzare tutte le ore inserite fino all'ora corrente, puoi usare la seguente regola nel filtro ore: <em>Data inizio pianificata minore di $$NOW</em>.</p> <p>Nota: questo carattere jolly non è supportato nella pianificazione risorse.</p> </td> 
+   <td> <p>È simile al carattere jolly $$TODAY ma include la data e l’ora correnti. $$NOW corrisponde alla data e all’ora correnti.</p> <p>Ad esempio, se desideri visualizzare tutte le ore inserite fino all’ora corrente, puoi utilizzare la seguente regola in un filtro ore: <em>Data di inizio pianificata precedente a $$NOW</em>.</p> <p>Nota: questo carattere jolly non è supportato nella pianificazione risorse.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), è possibile combinare i caratteri jolly riportati sopra con i seguenti:
+Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), puoi combinare i caratteri jolly indicati in precedenza con i seguenti:
 
 | Attributi |   |
 |---|---|
@@ -134,25 +134,25 @@ Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), è
 | **d** | giorno |
 | **w** | settimana |
 | **m** | mese |
-| **a** | anno |
+| **y** | anno |
 
 {style="table-layout:auto"}
 
 | **Qualificatori** | |
 |---|---|
-| **b** | inizio del periodo (senza un attributo specificato, per impostazione predefinita inizia la settimana: domenica) |
-| **e** | fine periodo (senza un attributo specificato, per impostazione predefinita fine settimana: sabato) |
+| **b** | inizio del periodo (senza un attributo specificato, il valore predefinito è impostato all’inizio della settimana: domenica) |
+| **e** | fine del periodo (senza un attributo specificato, il valore predefinito è impostato alla fine della settimana: sabato) |
 
 {style="table-layout:auto"}
 
 | **Operatori** | |
 |---|---|
-| **+** | aggiungi valore al valore jolly |
-| **-** | sottrai valore da valore jolly |
+| **+** | aggiungi valore al valore carattere jolly |
+| **-** | sottrai valore dal valore carattere jolly |
 
 {style="table-layout:auto"}
 
-Ad esempio, il carattere jolly `$$TODAYb+2w` fa riferimento a &quot;2 settimane dall&#39;inizio di questa settimana&quot;. Il carattere jolly *`$$NOW+2h` fa riferimento a &quot;2 ore da ora&quot;.
+Ad esempio, il carattere jolly `$$TODAYb+2w` fa riferimento a “2 settimane dall’inizio di questa settimana”. Il carattere jolly *`$$NOW+2h` fa riferimento a “2 ore da ora”.
 
 ### Variabili filtro con caratteri jolly dell&#39;utente connesso
 
@@ -255,7 +255,7 @@ Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabell
         <li>Non uguale</li>
         </ul></td>
         <td>Attivando l'opzione <b>Imposta data relativa</b>, è possibile applicare caratteri jolly per la data relativa per rendere il report più dinamico e adattabile autonomamente in base a periodi di date comuni. 
-         <ul><li>$$OGGI</li>
+         <ul><li>$$TODAY</li>
          <li>$$NOW</li>
          </ul>
         </td>

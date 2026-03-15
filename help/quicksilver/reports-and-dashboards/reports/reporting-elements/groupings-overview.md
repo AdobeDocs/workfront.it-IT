@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Panoramica sui raggruppamenti in Adobe Workfront
 description: È possibile aggiungere raggruppamenti per gestire il layout delle informazioni nei report e negli elenchi.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
-title: Configura Scrum
+title: Configurare Scrum
 description: Puoi configurare le seguenti opzioni per i team Scrum Agile durante o dopo la creazione del team.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ Per informazioni sulla configurazione di un team Kanban, vedere [Configurare Kan
   </tr>
 
 <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
@@ -59,7 +59,7 @@ Per informazioni sulla configurazione di un team Kanban, vedere [Configurare Kan
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

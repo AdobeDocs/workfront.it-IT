@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Creare e gestire i team agili
 description: Per informazioni su come creare e gestire i team Agile, consulta Creare un team Agile.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%

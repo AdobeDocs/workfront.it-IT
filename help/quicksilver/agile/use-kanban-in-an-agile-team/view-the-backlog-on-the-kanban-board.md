@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Aggiungi il backlog al Kanban Board
-description: Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board. La colonna [!UICONTROL Backlog] nella  [!DNL Kanban] bacheca contiene i primi 20 elementi del backlog nella [!DNL Kanban] bacheca. Per poter essere visualizzate nel backlog, le attività e le Issues devono appartenere ad un progetto con uno stato che equivale a Current (Corrente).
-author: Jenny
+title: Aggiungere il backlog alla bacheca kanban
+description: Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sulla bacheca kanban. La colonna [!UICONTROL Backlog] nella bacheca [!DNL Kanban] contiene i primi 20 elementi del backlog nella bacheca [!DNL Kanban] . Le attività e i problemi devono appartenere a un progetto con uno stato uguale a Corrente per essere visualizzati nel backlog.
+author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
 # Aggiungi il backlog alla bacheca [!UICONTROL Kanban]
 
-Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board. La colonna [!UICONTROL Backlog] nella bacheca [!DNL Kanban] contiene i primi 20 elementi del backlog nella bacheca [!DNL Kanban]. Le attività e i problemi devono appartenere a un progetto con uno stato che equivale a [!UICONTROL Corrente] per essere visualizzati nel backlog.
+Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sulla bacheca kanban. La colonna [!UICONTROL Backlog] nella bacheca [!DNL Kanban] contiene i primi 20 elementi del backlog nella bacheca [!DNL Kanban]. Affinché le attività e i problemi vengano visualizzati nel backlog, è necessario che appartengano a un progetto con uno stato uguale a [!UICONTROL Corrente].
 
 ## Requisiti di accesso
 
@@ -32,14 +32,14 @@ Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,13 +49,13 @@ Per impostazione predefinita, la colonna [!UICONTROL Backlog] è nascosta. Per v
 
 {{step1-to-team}}
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team di [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Vai alla bacheca Kanban in cui desideri visualizzare il backlog.
-1. Fare clic su **[!UICONTROL Mostra backlog]**.
+1. Vai alla bacheca kanban in cui desideri visualizzare il backlog.
+1. Fai clic su **[!UICONTROL Mostra backlog]**.
 
 >[!NOTE]
 >
->Se aggiungi più team a un elemento del backlog, l’attività o il problema viene visualizzato solo nel backlog del team principale. Il team principale è il team assegnato per primo.
+>Se si aggiungono più team a un elemento backlog, l&#39;attività o il problema viene visualizzato solo nel backlog del team principale. Il team principale è il primo team assegnato.
 
 Per ulteriori informazioni sul backlog, vedere [Gestione del backlog Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungere attività o problemi esistenti a una bacheca Workfront
 description: È possibile aggiungere qualsiasi attività o problema a una bacheca in Adobe Workfront da una vista a elenco o report.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col>
@@ -34,20 +34,20 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Licenza Adobe Workfront</td>
+   <td role="rowheader">Licenza di Adobe Workfront</td>
    <td>
    <p>Standard</p> 
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader">Autorizzazioni oggetto</td>
+   <td role="rowheader">Autorizzazioni sugli oggetti</td>
    <td>Visualizza o autorizzazioni superiori per l’attività o il problema </td>
   </tr>
  </tbody>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,9 +68,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
+   Per una bacheca: l’operazione o il problema viene aggiunto alla bacheca come scheda. Se alla bacheca sono stati applicati criteri colonna per lo stato, la carta viene aggiunta nella colonna corrispondente al suo stato. Altrimenti, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
 
-   Per informazioni sui criteri delle colonne, vedere [Gestisci colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Per informazioni sui criteri colonna, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
    Per un flusso di lavoro: l’attività o il problema viene aggiunto all’elenco delle schede del flusso di lavoro come scheda non pianificata.
 
@@ -88,7 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
+   Per una bacheca: l’operazione o il problema viene aggiunto alla bacheca come scheda. Se alla bacheca sono stati applicati criteri colonna per lo stato, la carta viene aggiunta nella colonna corrispondente al suo stato. Altrimenti, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
 
    Per informazioni sui criteri delle colonne, vedere [Gestisci colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
@@ -105,4 +105,4 @@ Per informazioni sulle visualizzazioni, vedere [Creare o modificare le visualizz
 
 1. Fai clic sul nome di una bacheca per aprire l’attività o il problema collegato sulla bacheca.
 
-   ![Seleziona una bacheca](assets/select-board-in-column.png)
+   ![Selezionare una bacheca](assets/select-board-in-column.png)

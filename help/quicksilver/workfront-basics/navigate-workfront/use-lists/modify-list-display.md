@@ -3,16 +3,16 @@ navigation-topic: use-lists
 title: Modificare la modalità di visualizzazione di un elenco
 description: In [!DNL Adobe Workfront] puoi personalizzare la visualizzazione di un elenco. Gli altri utenti che visualizzano l'elenco non visualizzano le modifiche.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Modificare la modalità di visualizzazione di un elenco
+# Modificare la visualizzazione di un elenco
 
 <!--Audited: 11/2024-->
 
@@ -34,7 +34,7 @@ Per informazioni sulla modifica delle informazioni visualizzate nell&#39;elenco,
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,18 +45,18 @@ Per informazioni sulla modifica delle informazioni visualizzate nell&#39;elenco,
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva </p>
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva </p>
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione  dei progetti.</p></td> 
+   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione [!UICONTROL] dei progetti.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per la visualizzazione applicata all'elenco</p>  </td> 
   </tr> 
  </tbody> 

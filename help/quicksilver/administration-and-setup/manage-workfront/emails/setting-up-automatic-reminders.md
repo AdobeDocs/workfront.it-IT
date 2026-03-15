@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Impostare promemoria automatici
 description: Puoi impostare promemoria automatici per attivare le notifiche e-mail quando tutte le attività o i problemi sono in scadenza, in ritardo o in prossimità della data di completamento pianificata.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Un promemoria automatico può essere inviato a uno o più dei seguenti:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Un promemoria automatico può essere inviato a uno o più dei seguenti:
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 

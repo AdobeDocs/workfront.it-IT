@@ -3,24 +3,24 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: URL esterno tramite campo dati personalizzato'
-description: È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un campo personalizzato calcolato denominato "URL personalizzato" in una visualizzazione attività.
-author: Nolan
+description: È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un campo personalizzato calcolato denominato "URL personalizzato" in una visualizzazione delle attività.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Visualizza: URL esterno tramite campo dati personalizzato
+# Visualizzazione: URL esterno che utilizza campo dati personalizzato
 
 <!--Audited: 11/2024-->
 
 È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un **campo personalizzato calcolato** denominato &quot;URL personalizzato&quot; in una **visualizzazione attività**.
 
-Questo consente di collegare rapidamente alcuni oggetti in una visualizzazione a determinate aree dell’applicazione direttamente dai rapporti.
+Ciò consente di collegare rapidamente determinati oggetti in una visualizzazione a determinate aree dell’applicazione direttamente dai report.
 
 Quando crei un campo personalizzato calcolato, devi innanzitutto creare il campo, quindi creare la visualizzazione.
 
@@ -30,7 +30,7 @@ Utilizzando gli stessi passaggi, è possibile creare campi personalizzati calcol
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,23 +41,23 @@ Utilizzando gli stessi passaggi, è possibile creare campi personalizzati calcol
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un rapporto</p>
+   <p>Standard o piano per modificare un report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per informazioni sulla creazione di un campo personalizzato calcolato, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile creare un campo personalizzato calcolato per le attività denominato &quot;URL personalizzato&quot;. Questo campo è collegato direttamente alla scheda secondaria **Panoramica** nella scheda **Dettagli attività**.
+Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile creare un campo personalizzato calcolato per le attività denominato &quot;URL personalizzato&quot;. Questo campo si collega direttamente alla scheda secondaria **Panoramica** nella scheda **Dettagli attività**.
 
 1. Crea un campo personalizzato calcolato.
 1. Nel campo Calcolo immettere il codice seguente:
@@ -86,7 +86,7 @@ L&#39;attività **Visualizza** nell&#39;esempio seguente visualizza il campo per
 Per personalizzare questa visualizzazione:
 
 1. Consente di passare a un elenco di attività.
-1. Espandi il menu a discesa **Visualizza** nella parte superiore dell&#39;elenco delle attività.
+1. Espandere il menu a discesa **Visualizza** nella parte superiore dell&#39;elenco delle attività.
 1. Fare clic su **Personalizza visualizzazione**.
 1. Rimuove tutte le colonne all&#39;interno della vista, ad eccezione della prima colonna.
 1. Fai clic sull’intestazione della prima colonna.
@@ -137,4 +137,4 @@ Per personalizzare questa visualizzazione:
 
    In questo esempio, la colonna &#39;column.1.&#39; Le righe visualizzano il valore nel campo &quot;URL personalizzato&quot; come collegamento nella sezione **Panoramica** dell&#39;attività; &quot;colonna.2.&quot; visualizza il valore archiviato nel **campo URL** dell&#39;attività.
 
-1. Fai clic su **Fine** > **Salva visualizzazione**.
+1. Fai clic su **Fine** > **Salva vista**.

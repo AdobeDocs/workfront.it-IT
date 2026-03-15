@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Modificare l’ordine delle storie sulla bacheca Scrum
 description: L'ordine in cui le storie vengono visualizzate sulla bacheca delle storie non indica la priorità. Tuttavia, può influenzare la priorità percepita rendendo le storie più visibili. Per impostazione predefinita, i brani vengono visualizzati in ordine alfabetico in ogni colonna [!UICONTROL status] dello storyboard.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Quando riordinate le colonne sullo storyboard, tutte le modifiche apportate veng
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -42,7 +42,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

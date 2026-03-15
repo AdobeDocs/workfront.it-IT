@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Modifica la larghezza e l'ordine delle colonne
+title: Modificare la larghezza e l’ordine delle colonne
 description: Leggi questo articolo per scoprire le linee guida sulla larghezza delle colonne e come modificare la larghezza e l’ordine delle colonne in Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Modifica la larghezza e l&#39;ordine delle colonne
+# Modificare la larghezza e l’ordine delle colonne
 
 <!-- Audited: 11/2024 -->
 
@@ -38,7 +38,7 @@ Di seguito sono riportate le linee guida sul funzionamento delle larghezze delle
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,10 +49,10 @@ Di seguito sono riportate le linee guida sul funzionamento delle larghezze delle
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader">Licenza di Adobe Workfront</strong></td> 
    <td> 
-    <p>Collaboratore o versione successiva</p>
-    <p>Richiedi o superiore</p>
+    <p>Collaboratore o successiva</p>
+    <p>Richiedente o successiva</p>
    </td>
   </tr> 
   <tr> 
@@ -61,18 +61,18 @@ Di seguito sono riportate le linee guida sul funzionamento delle larghezze delle
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
     <td> <p>Gestire le autorizzazioni per un report per modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Modifica la larghezza e l&#39;ordine delle colonne
+## Modificare la larghezza e l’ordine delle colonne
 
 Puoi modificare la larghezza e l’ordine delle colonne nei rapporti nei seguenti modi:
 

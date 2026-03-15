@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Installare una blueprint
 description: Puoi installare una blueprint nell’ambiente di produzione o in un ambiente Sandbox.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi installare una blueprint nell’ambiente di produzione o in un ambiente San
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Puoi installare una blueprint nell’ambiente di produzione o in un ambiente San
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -47,7 +47,7 @@ Puoi installare una blueprint nell’ambiente di produzione o in un ambiente San
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

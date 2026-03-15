@@ -5,17 +5,17 @@ keywords: calcolato,aggregati,avanzato,visualizzazioni
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Raggruppamento: visualizza il risultato dell''aggregazione di più valori calcolati in un raggruppamento'
 description: È possibile utilizzare la modalità testo in una colonna per visualizzare un calcolo tra due campi nella visualizzazione di un report o di un elenco. Ogni riga visualizza il calcolo per ogni oggetto nel report o nell'elenco.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento
+# Raggruppamento: visualizzare il risultato dell’aggregazione di più valori calcolati in un raggruppamento
 
 <!--Audited: 10/2024-->
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -48,13 +48,13 @@ ht-degree: 0%
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

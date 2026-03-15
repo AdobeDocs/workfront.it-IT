@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Incorporare una pagina web esterna in una dashboard
 description: Puoi incorporare una pagina web esterna in una dashboard per fornire accesso alle informazioni correlate provenienti da altri sistemi all’interno di Adobe Workfront o da altre pagine Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
 >
 >
 >* Le pagine del dashboard non sono più supportate come pagine esterne incorporate nei dashboard. Anche se i dashboard esistenti non verranno modificati automaticamente per rimuovere queste pagine esterne, qualsiasi modifica a un dashboard che include tale riferimento non potrà essere salvata fino a quando il riferimento non verrà rimosso o modificato.
->  &#x200B;> In particolare, i seguenti sottodomini Workfront.com non sono più supportati:
+> In particolare, i seguenti sottodomini Workfront.com non sono più supportati:
 >
 >     * /dashboard&#x200B;
 >     * /dashboard/:ID&#x200B;
@@ -51,7 +51,7 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -73,13 +73,13 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
    <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr>  
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Modificare l’accesso al dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

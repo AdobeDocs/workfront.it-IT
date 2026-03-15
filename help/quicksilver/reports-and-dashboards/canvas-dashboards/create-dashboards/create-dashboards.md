@@ -1,23 +1,23 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Creare un dashboard Canvas
+title: Creare una dashboard dell’area di lavoro
 description: Con le dashboard di Canvas, puoi creare e aggiungere rapporti a una dashboard personalizzabile per visualizzare rapidamente i dati dell’account.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
-# Creare un dashboard Canvas
+# Creare una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Inviate un feedback relativo alla vostra esperienza seguendo le istruzioni nella sezione [Fornisci feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) nell&#39;articolo Panoramica della versione beta dei dashboard di Canvas.<br>
 >In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
@@ -44,7 +44,7 @@ Con le dashboard di Canvas, puoi creare e aggiungere rapporti a una dashboard pe
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard </p> 
 <p>Piano</p> 
@@ -59,16 +59,16 @@ Con le dashboard di Canvas, puoi creare e aggiungere rapporti a una dashboard pe
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti
 
 I dashboard dell’area di lavoro devono essere abilitati nella configurazione del modello di layout degli elementi di navigazione a sinistra della pagina dei dashboard.
 
-## Creare un dashboard
+## Creare una dashboard
 
-I dashboard di Canvas offrono un’ampia varietà di opzioni e configurazioni da utilizzare per la creazione di un dashboard. In questa sezione verrà illustrato il processo generale di creazione di un dashboard.
+I dashboard di Canvas offrono un’ampia gamma di opzioni e configurazioni che puoi utilizzare durante la creazione di un dashboard. In questa sezione verrà illustrato il processo generale di creazione di un dashboard.
 
 {{step1-to-dashboards}}
 
@@ -95,7 +95,7 @@ I dashboard di Canvas offrono un’ampia varietà di opzioni e configurazioni da
       <tr>
       <td role="rowheader"><strong>Valuta</strong></td>
       <td>Scegliere il tipo di valuta predefinito per il dashboard. <br>
-      <br>Gli utenti possono passare da un tipo di valuta all'altro quando filtrano il dashboard. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</td>
+      <br>Quando si filtra il dashboard, gli utenti possono passare da un tipo di valuta a un altro. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</td>
      </tr>
     </tbody>
    </table>
@@ -114,7 +114,7 @@ Per ulteriori informazioni, vedere [Generare un report KPI](/help/quicksilver/re
 * **Grafico**: questo report visualizza i dati come grafico a barre, a colonne, a linee o a torta.
 Per ulteriori informazioni, vedere [Generare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
-* **Tabella**: questo report visualizza i dati in un formato tabella.
-Per ulteriori informazioni, vedere [Generare un report tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+* **Tabella**: questo report visualizza i dati in formato tabella.
+Per ulteriori informazioni, vedere [Creare un report di tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 Per ulteriori informazioni sull&#39;aggiunta di un report esistente a un dashboard, vedere [Aggiungere un report esistente a un dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).

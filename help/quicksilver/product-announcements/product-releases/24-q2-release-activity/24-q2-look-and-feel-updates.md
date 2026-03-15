@@ -1,11 +1,11 @@
 ---
 title: Aggiornamenti look-and-feel durante l’intervallo di tempo di rilascio del secondo trimestre 2024
 description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rilascio del secondo trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili con la versione del secondo trim
 >
 >Rilascio per tutti i clienti: con la versione 24.2 (15 febbraio 2024)
 
-I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una bacheca sono stati aggiornati per corrispondere meglio ad altri modelli e-mail di Adobe e per migliorare la chiarezza e l’usabilità.
+I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una bacheca sono stati aggiornati per combaciare meglio con gli altri modelli e-mail di Adobe e migliorare la chiarezza e l’usabilità.
 
 ## Nuovi aggiornamenti look-and-feel delle schede nell’area Forms personalizzata
 

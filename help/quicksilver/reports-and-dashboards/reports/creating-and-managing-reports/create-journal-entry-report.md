@@ -1,18 +1,18 @@
 ---
 title: Rapporto sull'area Aggiornamenti con un rapporto sulle scritture contabili
 description: Il rapporto Voce diario evidenzia gli aggiornamenti di sistema dall’area Aggiornamenti di progetti, attività, problemi e altri oggetti precedentemente disponibili solo tramite l’API Adobe Workfront. Anche se si tratta di un rapporto avanzato destinato a casi d’uso specifici, il formato più digeribile consente di creare un rapporto più semplice sull’attività del progetto e sugli aggiornamenti del sistema in Workfront.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2763'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Rapporto sull&#39;area Aggiornamenti con un rapporto Voce diario
+# Eseguire un rapporto sull’area Aggiornamenti con un rapporto voce diario
 
 <!-- Audited: 11/2024 -->
 
@@ -33,7 +33,7 @@ Il rapporto Voce diario può mostrare:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Il rapporto Voce diario può mostrare:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -55,13 +55,13 @@ Il rapporto Voce diario può mostrare:
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza le autorizzazioni per gli oggetti che contengono le voci diario visualizzate nel report</p> <p>Dopo la creazione, otterrai le autorizzazioni di gestione per il report</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Visualizzare le autorizzazioni per gli oggetti che contengono le scritture contabili visualizzate nel report</p> <p>Dopo averlo creato, otterrai le autorizzazioni Gestisci per il report</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,9 +73,9 @@ Prima di poter eseguire le azioni descritte in questo articolo, è necessario ve
 
   Per informazioni su come aggiungere i campi di cui si desidera tenere traccia in Workfront, vedere [Configurare gli aggiornamenti di sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-## Panoramica del rapporto Voce diario
+## Panoramica del rapporto Scrittura contabile
 
-Poiché il report Voce diario esegue query sugli aggiornamenti di sistema, può restituire un numero significativo di risultati. Per questo motivo, è consigliabile filtrare in base a oggetti specifici, ad esempio progetti, programmi, portfolio, gruppi e così via, durante la creazione del report.
+Poiché il rapporto Scrittura contabile esegue una query sugli aggiornamenti di sistema, può restituire un numero significativo di risultati. Per questo motivo, durante la creazione del report è consigliabile applicare un filtro a oggetti specifici, ad esempio progetti, programmi, portfolio, gruppi e così via.
 
 Per ulteriori informazioni sui diversi tipi di oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -96,8 +96,8 @@ La visualizzazione predefinita per questo report contiene le colonne seguenti:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Nome Campo</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Nome del campo interessato. A seconda della modalità di impostazione del report, questa colonna potrebbe contenere i campi Stato, ID proprietario, Nome attività, Data di completamento pianificata o altri campi.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
+   <td><strong>Nome campo</strong> </td> 
+   <td> <p><span style="font-weight: normal;">Nome del campo interessato. A seconda della modalità di impostazione del report, questa colonna potrebbe contenere i campi Stato, ID proprietario, Nome attività, Data completamento pianificata o altri campi.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Tipo di modifica</strong> </td> 
@@ -201,8 +201,8 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
       <td> <p>Chiave per lo stato precedente. Di seguito sono riportate le chiavi di stato per gli stati predefiniti del progetto:</p> 
        <ul> 
         <li> <p> <strong>CUR</strong>: corrente</p> </li> 
-        <li> <p><strong>DED</strong>: inattivo</p> </li> 
-        <li> <p><strong>ONH</strong>: In attesa</p> </li> 
+        <li> <p><strong>DED</strong>: Morto</p> </li> 
+        <li> <p><strong>ONH</strong>: in attesa</p> </li> 
         <li> <p><strong>PLN</strong>: pianificazione</p> </li> 
         <li> <p><strong>CPL</strong>: completato</p> </li> 
         <li> <p><strong>RICHIESTA</strong>: richiesta</p> </li> 
@@ -304,10 +304,10 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data inserimento</p> </td> 
-      <td> <p>La data in cui l’attività o il problema è stato eliminato.</p> </td> 
+      <td> <p>Data in cui è stata eliminata l'attività o il problema.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modificato da Nome</p> </td> 
+      <td> <p style="font-weight: bold;">Modificato per nome</p> </td> 
       <td> <p>Nome dell’utente che ha eliminato l’attività o il problema.</p> </td> 
      </tr> 
      <tr> 
@@ -518,23 +518,23 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome attività</p> <p>(Facoltativo)</p> </td> 
-      <td> <p>Nome delle attività del progetto per le quali è stata modificata la Data di completamento pianificata.</p> </td> 
+      <td> <p>Nome delle attività del progetto per le quali è stata modificata la data di completamento pianificata.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome Issue</p> <p>(Facoltativo)</p> </td> 
-      <td>Nome dei problemi del progetto per i quali è stata modificata la Data di completamento pianificata.</td> 
+      <td>Nome dei problemi del progetto per i quali è stata modificata la data di completamento pianificata.</td> 
      </tr> 
     </tbody> 
    </table>
 
    Per ulteriori informazioni sull&#39;aggiunta di colonne, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
+1. Nella scheda **Filtri**, fare clic su **Aggiungi regola filtro**, quindi aggiungere quanto segue:
 
    * **Nome Campo** > **Uguale** > **Data**
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
-   ![Filtro modifica data di completamento pianificata](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtro di modifica della data di completamento pianificata](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -645,4 +645,4 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
 1. Fai clic su **Salva e Chiudi**.
 
-   Viene visualizzato il nuovo rapporto sulle scritture contabili.
+   Viene visualizzato il report delle nuove scritture contabili.

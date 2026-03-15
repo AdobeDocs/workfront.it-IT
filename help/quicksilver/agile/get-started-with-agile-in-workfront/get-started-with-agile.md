@@ -5,14 +5,14 @@ keywords: agile
 navigation-topic: agile-navigation-topic
 title: Introduzione a  [!DNL Agile] in [!DNL Adobe Workfront]
 description: Consulta questi articoli per iniziare a utilizzare Agile in Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 

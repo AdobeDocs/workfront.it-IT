@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copiare un report calendario
 description: Se è stato creato un calendario, è possibile copiarlo e utilizzarlo come punto di partenza per un nuovo calendario.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ Inoltre, se si dispone dell&#39;accesso [!UICONTROL Gestisci] a un calendario di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Inoltre, se si dispone dell&#39;accesso [!UICONTROL Gestisci] a un calendario di
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
@@ -45,13 +45,13 @@ Inoltre, se si dispone dell&#39;accesso [!UICONTROL Gestisci] a un calendario di
    <td> <p> Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l’accesso al report del calendario</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

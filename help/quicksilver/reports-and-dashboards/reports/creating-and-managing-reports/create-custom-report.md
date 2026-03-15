@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creare un rapporto personalizzato
 description: Puoi fornire l’accesso alle informazioni di cui la tua organizzazione ha bisogno all’interno di Adobe Workfront creando rapporti. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Per ulteriori informazioni sulla creazione e la gestione dei rapporti, compresi 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sulla creazione e la gestione dei rapporti, compresi 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -50,13 +50,13 @@ Per ulteriori informazioni sulla creazione e la gestione dei rapporti, compresi 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Ottieni le autorizzazioni di gestione per i rapporti creati</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -249,7 +249,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Fare clic su **Salva + Chiudi** per salvare il report.
 
-### Aggiungere un grafico a un report {#add-a-chart-to-a-report}
+### Aggiungere un grafico a un rapporto {#add-a-chart-to-a-report}
 
 1. Inizia a creare un report come descritto nella sezione [Creare un report](#create-a-report) in questo articolo.
 1. Nel generatore di report, selezionare la scheda **Grafico**, quindi selezionare il tipo di grafico che si desidera aggiungere.

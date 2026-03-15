@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Eliminare o archiviare una scheda da una bacheca
 description: Quando elimini una scheda da una bacheca, questa viene eliminata definitivamente e non può essere ripristinata. Quando si archivia una scheda, questa viene inviata all'archivio e può essere successivamente ripristinata nella bacheca.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,7 @@ Le schede archiviate non vengono sincronizzate con attività e problemi di Workf
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,16 +38,16 @@ Le schede archiviate non vengono sincronizzate con attività e problemi di Workf
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

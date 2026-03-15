@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Spostare una storia Agile
 description: Puoi spostare una storia Agile in un’iterazione diversa (per i team Scrum) o nel backlog (per i team Kanban e Scrum).
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -32,18 +32,18 @@ Puoi spostare una storia Agile in un’iterazione diversa (per i team Scrum) o n
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l’accesso alla storia</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

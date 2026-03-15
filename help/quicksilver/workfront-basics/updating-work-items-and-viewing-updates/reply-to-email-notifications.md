@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Rispondi alle notifiche e-mail
+title: Rispondere alle notifiche e-mail
 description: Puoi rispondere alle notifiche e-mail di Workfront generate dai commenti fatti a progetti, attività, problemi e altri oggetti per aggiungere risposte ai commenti originali inseriti nell’applicazione Adobe Workfront.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Rispondi alle notifiche e-mail
+# Rispondere alle notifiche e-mail
 
 <!-- Audited: April 2024-->
 
@@ -21,8 +21,8 @@ A seconda della configurazione delle notifiche e-mail, potresti ricevere una not
 
 È possibile rispondere a un aggiornamento da una notifica e-mail nei modi seguenti:
 
-* Utilizza il pulsante Commento all’interno dell’e-mail per tornare a Workfront e rispondere all’aggiornamento nell’area Aggiornamenti.
-* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta di Workfront al commento originale.
+* Utilizza il pulsante Commento nell&#39;e-mail per tornare a Workfront e rispondere all&#39;aggiornamento nell&#39;area Aggiornamenti.
+* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta Workfront al commento originale.
 
 <!--
 >[!NOTE]
@@ -30,7 +30,7 @@ A seconda della configurazione delle notifiche e-mail, potresti ricevere una not
 >Replying to updates by email is not available for environments on Cluster 6.
 -->
 
-Puoi rispondere all’e-mail di Workfront generata dai commenti ai seguenti oggetti:
+Puoi rispondere all’e-mail Workfront generata dai commenti aggiunti ai seguenti oggetti:
 
 * Progetto
 * Attività
@@ -44,7 +44,7 @@ Puoi rispondere all’e-mail di Workfront generata dai commenti ai seguenti ogge
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col> 
@@ -55,25 +55,25 @@ Puoi rispondere all’e-mail di Workfront generata dai commenti ai seguenti ogge
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> <p>Per problemi e documenti:</p>
 
-<ul><li><p>Collaboratore o versione successiva</p></li>
-   <li><p>Richiedi o superiore</p></li></ul>
+<ul><li><p>Collaboratore o successiva</p></li>
+   <li><p>Richiedente o successiva</p></li></ul>
 
 <p>Per tutti gli altri oggetti:</p>
-   <ul><li><p>Chiaro o superiore</p></li>
-   <li><p>Revisione o successiva</p></li></ul>
+   <ul><li><p>Leggero o superiore</p></li>
+   <li><p>Revisione o superiore</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore agli oggetti in cui si desidera pubblicare la risposta</p> </td> 
+   <td> <p>Visualizza o consente di accedere in modo più efficiente agli oggetti in cui si desidera pubblicare la risposta</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazione oggetto</strong></td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti in cui desideri pubblicare la risposta</p> </td> 
+   <td> <p>Visualizzare o aumentare le autorizzazioni per gli oggetti in cui si desidera pubblicare la risposta</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,15 +116,15 @@ Quando ricevi una notifica e-mail, puoi aprire rapidamente l’oggetto Workfront
    ![email.png](assets/email-350x202.png)
 1. Fai clic su **Commento** dalla notifica e-mail.
 
-   La pagina Dettagli dell&#39;oggetto viene visualizzata in Workfront.
+   La pagina Dettagli dell’oggetto si apre in Workfront.
 
 1. Vai all’aggiornamento a cui desideri aggiungere una risposta.
 
-   Oltre a visualizzare gli utenti attivamente coinvolti nella conversazione, puoi vedere chi è stato taggato in ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Oltre a visualizzare gli utenti che partecipano attivamente alla conversazione, è possibile visualizzare i tag di ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti sottoscritti all&#39;oggetto, ricevono una notifica ogni volta che viene eseguito un aggiornamento o una risposta sull&#39;oggetto. Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti durante gli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. Fai clic su **Rispondi,** immetti la tua risposta, quindi fai clic su **Rispondi**.
 
-   La risposta viene aggiunta come nuovo commento al thread di commenti.
+   La risposta viene aggiunta come nuovo commento al thread di commento.
 
 ## Aggiungere un aggiornamento a un oggetto rispondendo a una notifica e-mail
 
@@ -136,9 +136,9 @@ Quando ricevi una notifica e-mail di Workfront, puoi aggiungere rapidamente un a
 >
 >* Per evitare errori di invio, gli utenti di Outlook devono eliminare il contenuto dell&#39;e-mail esistente prima di digitare la risposta.
 
-Per aggiungere un aggiornamento a un messaggio e-mail di Workfront:
+Per aggiungere un aggiornamento a un’e-mail Workfront:
 
-1. Dall’applicazione e-mail, apri l’e-mail di Workfront a cui desideri rispondere, quindi apri una finestra e-mail di risposta dall’e-mail originale.
+1. Dall’applicazione e-mail, apri l’e-mail di Workfront a cui desideri rispondere, quindi apri una finestra di e-mail di risposta dall’e-mail originale.
 
    >[!NOTE]
    >
@@ -150,4 +150,4 @@ Per aggiungere un aggiornamento a un messaggio e-mail di Workfront:
    Gli allegati non sono consentiti e l’eventuale formattazione Rich Text applicata a un aggiornamento in un messaggio e-mail non viene visualizzata nell’aggiornamento quando viene visualizzata nella scheda Aggiornamenti.
 1. Fai clic su **Invia**.
 
-   L’aggiornamento viene aggiunto come risposta al thread di comunicazione dell’oggetto.
+   L&#39;aggiornamento viene aggiunto come risposta al thread di comunicazione dell&#39;oggetto.

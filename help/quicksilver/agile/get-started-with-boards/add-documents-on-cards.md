@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungi documenti su schede
 description: È possibile aggiungere documenti alle schede collegate su Schede Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Aggiungi documenti su schede
+# Aggiungere documenti sulle schede
 
 È possibile aggiungere documenti alle schede collegate su Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e i documenti aggiunti all’attività o al problema sono visibili sulla scheda. Gli stessi tipi di file sono supportati in entrambe le aree. Per ulteriori informazioni sui documenti in Workfront, vedi [Aggiungere documenti ad Adobe Workfront dal file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,20 +34,20 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Configurazioni del livello di accesso</td>
-   <td>Modifica accesso ai documenti</td>
+   <td>Accesso in modifica ai documenti</td>
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

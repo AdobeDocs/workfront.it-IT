@@ -1,18 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicare un rapporto in un dashboard Canvas
+title: Duplicare un rapporto in una dashboard dell’area di lavoro
 description: Puoi duplicare un rapporto in un dashboard di Canvas.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# Duplicare un rapporto in un dashboard Canvas
+# Duplicare un rapporto in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,7 +45,7 @@ ht-degree: 2%
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard </p> 
 <p>Piano</p> 
@@ -57,14 +58,14 @@ ht-degree: 2%
   </td> 
   </tr>  
       <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti

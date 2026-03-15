@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Panoramica sulla modalità testo
 description: È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

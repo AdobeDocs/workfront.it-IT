@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Creare o modificare viste in Adobe Workfront
 description: È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 <!-- Audited: 11/2024 -->
 
-È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
+È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront potete utilizzare diversi tipi di viste.
 
 In questo articolo viene descritto come creare e modificare le visualizzazioni standard per elenchi e report.
 
@@ -36,26 +36,26 @@ Per ulteriori informazioni, vedere [Panoramica delle visualizzazioni in Adobe Wo
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader">Licenza di Adobe Workfront</strong></td> 
    <td> 
-    <p>Collaboratore o versione successiva</p>
-    <p>Richiedi o superiore</p>
+    <p>Collaboratore o successiva</p>
+    <p>Richiedente o successiva</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modifica l’accesso a Rapporti, Dashboard, Calendari per creare una visualizzazione in un rapporto</p>
+   <td> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p> <p>Modificare l’accesso a Report, Dashboard, Calendari per creare una visualizzazione in un report</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Creare o personalizzare una visualizzazione
@@ -64,7 +64,7 @@ Il processo di creazione o personalizzazione di una vista varia a seconda che si
 
 ### Creare o personalizzare una visualizzazione standard {#create-or-customize-a-standard-view}
 
-Potete creare una nuova vista standard oppure personalizzare una vista standard esistente creata in precedenza.
+È possibile creare una nuova visualizzazione standard oppure personalizzare una visualizzazione standard esistente creata in precedenza.
 
 1. Fare clic sul menu a discesa **Visualizza** in qualsiasi elenco in cui si desidera creare o personalizzare una visualizzazione.
 
@@ -79,7 +79,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
    * Aggiungere una colonna facendo clic su **Aggiungi colonna**, digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
-   * Nell&#39;area **Impostazioni colonna** fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:
+   * Nell&#39;area **Impostazioni colonna**, fare clic su **Riepiloga questa colonna per** e scegliere come visualizzare i dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -92,7 +92,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
            </ul></td> 
           </tr> 
           <tr>
-           <td role="rowheader"><strong>Campi valuta</strong></td> 
+           <td role="rowheader"><strong>Campi Valuta</strong></td> 
            <td><ul>
            <li>Conteggio</li>
          <li>Sum</li>
@@ -102,7 +102,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
          </ul></td> 
           </tr> 
          <tr>
-           <td role="rowheader"><strong>Campi stringa e booleani</strong></td> 
+           <td role="rowheader"><strong>Stringa e campi booleani</strong></td> 
            <td><ul><li>Conteggio</li></ul>
            <p>Nota: Workfront in genere non consiglia di riepilogare un campo booleano in base al conteggio, perché il valore sarà sempre true/false.</p></td> 
           </tr> 
@@ -111,11 +111,11 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
      >[!NOTE]
      >
-     >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si riepilogano i valori dei campi seguenti nei raggruppamenti:
+     >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio le attività padre, quando si riepilogano i valori dei campi seguenti nei raggruppamenti:
      >   
-     > * Tutti i campi relativi al numero e alla divisa, ad eccezione delle ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate), riepilogano i valori solo per le attività figlio e per le attività autonome. Non riepilogano i valori per le attività padre o i padri dei padri.
-     > * Ore effettive riepiloga i valori per le attività padre principale e le attività autonome; non riepiloga i numeri per le attività padre o figlio.
-     > * I campi dati personalizzati per i valori numerici e di valuta riepilogano tutte le attività: padri, figli, padri e attività autonome.
+     > * Tutti i campi relativi a numeri e divise, tranne Ore effettive (ad esempio, Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo effettivo/pianificato, Ore pianificate), consentono di riepilogare i valori solo per i task figlio e per i task autonomi. Non riepilogano i valori per le attività principali o le principali delle principali.
+     > * Ore effettive riepiloga i valori delle attività principali e autonome, ma non i numeri delle attività principali o secondarie.
+     > * I campi dati personalizzati per i valori numerici e di valuta riepilogano tutte le attività: principali, secondarie, principali e autonome.
      >
      >Per ulteriori informazioni sull&#39;utilizzo dei raggruppamenti in un report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -127,7 +127,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Etichetta colonna personalizzata</strong></td> 
-           <td><p>Specifica un’etichetta personalizzata per la colonna. Questa etichetta sostituisce quella predefinita. Per evitare problemi di compatibilità, si consiglia di utilizzare solo caratteri UTF-8.</p></td> 
+           <td><p>Specificare un'etichetta personalizzata per la colonna. Questa etichetta sostituisce l'etichetta predefinita. Si consiglia di utilizzare solo caratteri UTF-8 per evitare problemi di compatibilità.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Formato campo</strong></td> 
@@ -135,7 +135,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Mostra questa colonna quando in un dashboard</strong></td> 
-           <td><p>Selezionare questa opzione per visualizzare questa colonna in un dashboard quando il report viene visualizzato affiancato a un altro report. Se questa opzione non è selezionata, questa colonna non viene visualizzata quando si visualizza il report su un dashboard in cui i report vengono visualizzati affiancati.</p></td> 
+           <td><p>Selezionare questa opzione per visualizzare questa colonna in un dashboard quando il report viene visualizzato affiancato a un altro report. Quando questa opzione non è selezionata, questa colonna non viene visualizzata quando si visualizza il report in un dashboard in cui i report vengono visualizzati l’uno accanto all’altro.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regole colonna</strong></td> 
@@ -148,7 +148,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
 1. (Condizionale) Se hai selezionato **Opzioni avanzate**, fai clic su **Fine**.
 
-1. Fai clic su **Salva visualizzazione** per creare una nuova visualizzazione o per sostituire la visualizzazione corrente con le modifiche.\
+1. Fai clic su **Salva vista** per creare una nuova vista o per sostituire la vista corrente con le modifiche.\
    Oppure\
    Fai clic su **Salva come nuova visualizzazione** per salvare le modifiche come nuova visualizzazione.
 
@@ -158,15 +158,15 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
    Il modo in cui la vista viene salvata dipende dal tuo accesso. Se la vista è stata creata in origine, è possibile salvare le modifiche; in caso contrario, viene richiesto di salvare una versione. Le modifiche apportate alla visualizzazione hanno un impatto sugli utenti con cui la visualizzazione è stata condivisa.
 
-### Creare o personalizzare una visualizzazione Bacheca {#create-or-customize-an-agile-view}
+### Creare o personalizzare una visualizzazione della bacheca {#create-or-customize-an-agile-view}
 
-Puoi gestire i progetti seguendo una metodologia Agile utilizzando una vista Bacheca.
+Puoi gestire i progetti seguendo una metodologia Agile utilizzando una vista della bacheca.
 
-Le viste Bacheca sono disponibili solo per gli elenchi di attività e problemi relativi a un progetto.
+Le visualizzazioni bacheca sono disponibili solo per gli elenchi di attività e problemi di un progetto.
 
 Sono preconfigurati, ma puoi modificarne alcune impostazioni.
 
-Per ulteriori informazioni sulle visualizzazioni Agile o Bacheca, consulta l&#39;articolo [Gestione di un progetto Agile nella visualizzazione Bacheca](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per ulteriori informazioni sulle viste Agile o Bacheca, consulta l&#39;articolo [Gestione di un progetto Agile nella vista Bacheca](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

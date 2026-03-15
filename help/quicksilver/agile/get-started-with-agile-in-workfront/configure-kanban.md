@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
-title: Configura Kanban
+title: Configurare Kanban
 description: Puoi configurare le seguenti opzioni per i team Kanban Agile durante o dopo la creazione del team.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 2%
 * Scrum
 * Kanban
 
-Questo articolo descrive come configurare le impostazioni per un team Kanban. Dopo aver creato un team Agile e scelto la metodologia Kanban, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
+Questo articolo descrive come configurare le impostazioni per un team kanban. Dopo aver creato un team Agile e aver scelto la metodologia Kanban, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
 
-* Se le storie vengono stimate in punti o ore
-* Le colonne di stato sulla bacheca delle storie di Agile
+* Se i brani sono stimati in punti o ore
+* Le colonne di stato nel story board di Agile
 * Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie di Agile
 * Limite WIP (Work In Progress)
 * Come aggiungere automaticamente brani dal backlog
-* Per quanto tempo le carte rimangono sul Kanban Board
+* Per quanto tempo le carte rimangono sulla bacheca kanban
 
 Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -49,7 +49,7 @@ Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scru
   </tr>
 
 <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
@@ -62,7 +62,7 @@ Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scru
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,13 +80,13 @@ Per configurare il modo in cui le storie vengono stimate per il team Agile:
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
 
-1. Nella sezione **[!UICONTROL Agile]**, nell&#39;area **[!UICONTROL Stima storie in]**, selezionare se si desidera utilizzare punti o ore per stimare la dimensione (carico di lavoro) delle storie. Se selezionate Punti (Points), specificate quante ore corrispondono a 1 punto. Il valore predefinito è 1 punto = 8 ore. Questo è il numero di ore pianificate che vengono aggiunte alla storia.
+1. Nella sezione **[!UICONTROL Agile]**, nell&#39;area **[!UICONTROL Stima storie in]**, selezionare se si desidera utilizzare punti o ore per stimare la dimensione (carico di lavoro) delle storie. Se selezionate Punti, specificate quante ore corrispondono a 1 punto. Il valore predefinito è 1 punto = 8 ore. Questo è il numero di ore pianificate che vengono aggiunte alla storia.
 
-   **Esempio:** se hai selezionato di stimare le storie in punti e 1 punto equivale a 8 ore e una storia è stimata in 3 punti, alla storia vengono aggiunte 24 ore pianificate.
+   **Esempio:** se hai scelto di stimare le storie in punti e 1 punto equivale a 8 ore e una storia viene stimata in 3 punti, alla storia vengono aggiunte 24 ore pianificate.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Configurare le colonne di stato sullo storyboard Agile
+## Configurare le colonne di stato nel storyboard di Agile
 
 Puoi definire gli stati che esistono sullo storyboard per il team Agile. Questi sono gli unici stati visualizzati sullo storyboard.
 
@@ -114,7 +114,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
    >
    >Solo gli stati bloccati a livello di sistema sono disponibili per la selezione. Non è possibile selezionare stati specifici del gruppo. Lo stato della prima colonna corrisponde sempre a **[!UICONTROL Nuovo]**.
 
-   È possibile aggiungere stati personalizzati se sono stati configurati dall&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   È possibile aggiungere stati personalizzati se sono stati configurati dall&#39;amministratore di [!DNL Workfront]. Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
@@ -127,24 +127,24 @@ Per impostazione predefinita, nella scheda delle storie per le attività e i pro
 * Nome della storia con un collegamento diretto all’attività o al problema
 * Il nome del progetto con un collegamento diretto al progetto
 * Questo collegamento viene visualizzato solo per i brani, non per le sottoattività
-* Descrizione dell’attività o del problema
+* Descrizione dell&#39;attività o del problema
 * Impegno attuale
 * Visualizzare e modificare la percentuale di completamento regolando la percentuale stessa o il numero di punti o ore completate
 * Utenti assegnati
 
-È possibile visualizzare dati aggiuntivi, inclusi dati personalizzati, sulle schede delle storie. È possibile visualizzare campi aggiuntivi sulle schede delle storie per diversi motivi. Ad esempio, potresti voler visualizzare l’ID cliente se stai lavorando su storie per più clienti all’interno dell’iterazione, oppure potresti voler visualizzare la Data di inizio del progetto o la Data di completamento del progetto.
+È possibile visualizzare dati aggiuntivi, inclusi dati personalizzati, sulle schede delle storie. È possibile visualizzare campi aggiuntivi sulle schede delle storie per diversi motivi. Ad esempio, è possibile visualizzare l&#39;ID cliente se si stanno lavorando su storie per più clienti all&#39;interno dell&#39;iterazione o se si desidera visualizzare la data di inizio o di completamento del progetto.
 
 >[!NOTE]
 >
->Se si utilizza un campo personalizzato in una scheda brani, il nome non può contenere un punto.
+>Se si utilizza un campo personalizzato in una story card, il nome non può contenere un punto.
 
-Per configurare le schede delle storie assegnate al team Agile in modo da visualizzare campi aggiuntivi:
+Per configurare le storycard assegnate al team Agile in modo da visualizzare campi aggiuntivi:
 
 {{step1-to-team}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull’icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team Agile da gestire.
+1. Seleziona il team Agile che desideri gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
@@ -154,7 +154,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
    ![Campi aggiuntivi](assets/agile-additional-fields-kanban.png)
 
 1. Seleziona il nome del campo da aggiungere.
-1. Digita **[!UICONTROL Nome visualizzato]** per il campo da visualizzare sulla storia o sulla scheda problema.
+1. Digitare il **[!UICONTROL Nome visualizzato]** per il campo da visualizzare nel brano o nella scheda segnaletica.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare il limite WIP
@@ -192,9 +192,9 @@ Puoi configurare i brani del backlog da aggiungere automaticamente alla prima co
 
 {{step1-to-team}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull’icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team Kanban da gestire.
+1. Selezionare il team kanban che si desidera gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)

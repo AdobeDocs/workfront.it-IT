@@ -2,19 +2,19 @@
 content-type: faq
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: I dati delle colonne condivise non vengono visualizzati nei rapporti del dashboard
+title: I dati delle colonne condivise non vengono mostrati nei rapporti della dashboard
 description: I dati delle colonne condivise non vengono visualizzati quando il rapporto viene inserito in un layout con dashboard a più colonne, ma in un layout a colonna singola. Vengono inoltre sostituite le interruzioni di riga.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# I dati delle colonne condivise non vengono visualizzati nei rapporti del dashboard
+# I dati delle colonne condivise non vengono mostrati nei rapporti della dashboard
 
 ## Problema
 

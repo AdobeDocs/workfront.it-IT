@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Inviare annunci
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare la pagina Annunci per inviare annunci agli utenti.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Per informazioni sulla visualizzazione degli annunci, vedere [Visualizzare e ges
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Per informazioni sulla visualizzazione degli annunci, vedere [Visualizzare e ges
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Puoi inoltrare facilmente i messaggi ricevuti da Workfront agli utenti del tuo s
 
 1. Specifica le seguenti informazioni aggiuntive:
 
-   | Oggetto | Specifica un oggetto per l’annuncio. |
+   | Soggetto | Specifica un oggetto per l’annuncio. |
    |---|---|
    | Digita qui il messaggio | Specifica il contenuto del messaggio. L’editor di messaggi consente di includere markup comuni, tra cui grassetto, corsivo, sottolineato, elenchi puntati e numerati e collegamenti ipertestuali. |
    | Allegati | Fai clic su **Aggiungi allegato,** quindi individua e seleziona il file da allegare al messaggio. |

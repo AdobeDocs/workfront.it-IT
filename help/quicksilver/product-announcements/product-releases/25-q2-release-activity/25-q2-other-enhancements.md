@@ -1,20 +1,20 @@
 ---
-title: Altri miglioramenti durante il periodo di rilascio del secondo trimestre 2025
+title: Altri miglioramenti durante l’arco temporale di rilascio del secondo trimestre 2025
 description: Altri miglioramenti durante il periodo di rilascio del secondo trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Altri miglioramenti durante il periodo di rilascio del secondo trimestre 2025
+# Altri miglioramenti durante l’arco temporale di rilascio del secondo trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
@@ -22,11 +22,11 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Produzione per tutti i clienti: 6 marzo 2025
+>Produzione per tutti i clienti: venerdì 6 marzo 2025
 
 Workfront ora dispone di versioni delle sottoscrizioni agli eventi. La nuova versione non è una modifica all’API Workfront, ma piuttosto una modifica alla funzionalità di abbonamento agli eventi.
 
-La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, gli abbonamenti esistenti non si interrompano, consentendo di testare e aggiornare alla nuova versione senza interruzioni nell’abbonamento agli eventi.
+La possibilità di aggiornare o eseguire il downgrade delle sottoscrizioni eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, le sottoscrizioni esistenti non vengano interrotte, consentendo di testarle e aggiornarle alla nuova versione senza interruzioni nella sottoscrizione eventi.
 
 Per ulteriori informazioni sulle differenze tra le due versioni, vedere l&#39;articolo [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 

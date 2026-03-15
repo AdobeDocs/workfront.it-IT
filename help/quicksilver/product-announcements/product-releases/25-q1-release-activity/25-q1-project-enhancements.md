@@ -1,22 +1,22 @@
 ---
-title: Miglioramenti al progetto per il primo trimestre 2025
-description: Miglioramenti al progetto per il primo trimestre 2025
-author: Nolan
+title: Miglioramenti ai progetti per il primo trimestre 2025
+description: Miglioramenti ai progetti per il primo trimestre 2025
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-# Miglioramenti al progetto per il primo trimestre 2025
+# Miglioramenti ai progetti per il primo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2025, consulta [Panoramica delle versioni del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Assegnazioni più rilevanti rimosse da Anteprima e Produzione per ambienti a rilascio rapido
 

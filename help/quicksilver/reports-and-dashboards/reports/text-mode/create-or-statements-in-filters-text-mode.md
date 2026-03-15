@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Creare istruzioni "OR" nei filtri in modalità testo
+title: Creare istruzioni “OR” nei filtri di modalità testo
 description: È possibile includere più istruzioni quando si crea un filtro in elenchi e report.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Creare istruzioni &quot;OR&quot; nei filtri in modalità testo
+# Creare istruzioni “OR” nei filtri di modalità testo
 
 È possibile includere più istruzioni quando si crea un filtro in elenchi e report.
 
-Per informazioni sulla creazione di filtri, consulta i seguenti articoli:
+For information about creating filters, see the following articles:
 
-* [Panoramica filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Modificare un filtro utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operatori filtro modalità testo
@@ -43,7 +43,7 @@ Workfront dispone di 2 operatori di filtro che collegano ogni istruzione di filt
   Complete_Mod=lt
   ```
 
-* **OR**: quando si uniscono due istruzioni di filtro dell&#39;operatore OR, si indica che si desidera soddisfare una delle due istruzioni.
+* **OR**: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.
 
   >[!TIP]
   >
@@ -79,9 +79,9 @@ La sintassi della modalità testo per un filtro OR deve contenere i seguenti ele
   >
   >L’operatore OR distingue tra maiuscole e minuscole e utilizza sempre lettere maiuscole.
 
-  In un filtro possono essere presenti più istruzioni OR. In questo caso, a ogni istruzione OR viene assegnato un numero, nell&#39;ordine in cui si desidera applicare le istruzioni.
+  In un filtro possono essere presenti più istruzioni OR. In this case, every OR statement receives a number, in the order you want the statements applied.
 
-  **Esempio:** Per filtrare le attività con data di completamento pianificata di oggi o con percentuale di completamento inferiore al 100% OPPURE con stato Nuovo, utilizzare il codice della modalità testo seguente:
+  **Example:**  To filter for tasks that have a Planned Completion Date of Today OR a Percent Complete lower than 100% OR a Status of New use the following text mode code:
 
   ```
   plannedCompletionDate=$$TODAY

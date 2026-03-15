@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Panoramica delle schede
 description: Le bacheche Adobe Workfront sono strumenti flessibili che consentono la collaborazione in team fornendo l’accesso a una bacheca condivisa contenente colonne e schede.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

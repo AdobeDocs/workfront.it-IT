@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gestire la visualizzazione Amministratore delle bacheche
 description: La Vista di amministrazione delle bacheche contiene un elenco di tutte le bacheche del tuo account che gli amministratori di sistema possono utilizzare per ottenere un’istantanea rapida dei dettagli complessivi delle bacheche.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ Da quest’area, puoi eseguire le seguenti azioni:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
         <p> Piano </p></td> 
   </tr> 
@@ -50,7 +50,7 @@ Da quest’area, puoi eseguire le seguenti azioni:
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

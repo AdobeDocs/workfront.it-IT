@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Aggiornare lo stato delle storie sul Kanban Board
 description: Puoi cambiare lo stato di una storia direttamente dal Kanban Board per riflettere l’avanzamento delle storie.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi cambiare lo stato di una storia direttamente dalla bacheca [!UICONTROL Kanb
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,18 +36,18 @@ Puoi cambiare lo stato di una storia direttamente dalla bacheca [!UICONTROL Kanb
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aggiornare lo stato delle storie sul Kanban Board
+## Aggiornare lo stato delle storie sulla bacheca Kanban
 
 {{step1-to-team}}
 

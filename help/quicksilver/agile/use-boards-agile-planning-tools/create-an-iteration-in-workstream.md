@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Creare un’iterazione in un flusso di lavoro
 description: Un'iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team Agile possono fare riferimento a un’iterazione come sprint.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -35,16 +35,16 @@ Un&#39;iterazione è una quantità di tempo riservata per il completamento del l
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

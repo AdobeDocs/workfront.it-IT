@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Creare un rapporto di tabella in un dashboard di Canvas
+title: Generare un rapporto della tabella in una dashboard dell’area di lavoro
 description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare i dati in formato tabella.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
-# Creare un rapporto di tabella in un dashboard di Canvas
+# Generare un rapporto della tabella in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard </p> 
 <p>Piano</p> 
@@ -61,17 +61,17 @@ Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti
 
-È necessario creare un dashboard prima di creare un rapporto di tabella.
+Per creare un report di tabella, è necessario creare un dashboard.
 
 
-## Creare un rapporto di tabella in un dashboard di Canvas
+## Generare un rapporto della tabella in una dashboard dell’area di lavoro
 
-Sono disponibili molte opzioni di configurazione per la creazione di un rapporto di tabella. In questa sezione ti guideremo attraverso il processo generale di creazione di un elemento.
+Sono disponibili numerose opzioni di configurazione per la creazione di un report di tabella. In questa sezione, vi illustreremo il processo generale di creazione di un file.
 
 {{step1-to-dashboards}}
 
@@ -79,11 +79,11 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
-1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
+1. Nella casella **Crea dashboard**, immettere il **Nome** e la **Descrizione** del dashboard.
 
 1. Fai clic su **Crea**.
 
-1. Nella casella **Aggiungi report** selezionare **Crea report**.
+1. Nella casella **Aggiungi report**, seleziona **Crea report**.
 
 1. Sul lato sinistro, selezionare **Tabella**.
 
@@ -164,7 +164,7 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
     </tr>
     <tr>
     <td><strong>Nome documento</strong></td>
-    <td>Document Version &gt; Document &gt; type <em>Name</em> nella casella di ricerca.</td>
+    <td>Versione documento &gt; Documento &gt; digita <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     <tr>
     <td><strong>Versione documento</strong></td>
@@ -180,24 +180,24 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
     </tr>
     <tr>
     <td><strong>Data richiesta</strong></td>
-    <td>Documento Approvazione &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+    <td>Approvazione documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
     </tr>
     <tr>
     <td><strong>Approvatore</strong></td>
-    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
+    <td>Approvazione documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     </table>
 
 
-   *I partecipanti alla fase di approvazione sono troncati a _Pa fase di approvazione_
+   *I partecipanti della fase di approvazione sono troncati a _Pa fase di approvazione_
 
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+1. Segui i passaggi riportati di seguito per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
-   1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
-   1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
+   1. Fare clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
+   1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
    1. Seleziona **Stato**.
-   1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_ nella casella di testo.
+   1. Impostare l&#39;operatore su **Uguale a**, quindi digitare _approvazione in sospeso_ nella casella di testo.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -208,21 +208,21 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
 
 Gli utenti con l’accesso Visualizzazione o Modifica dei dati finanziari nel loro livello di accesso continueranno a visualizzare i dati finanziari nelle visualizzazioni del dashboard di Canvas, anche se l’autorizzazione Visualizza dati finanziari viene rimossa a livello di task o progetto.
 
-* Gli utenti che non dispongono dei diritti relativi ai dati finanziari a livello di accesso non visualizzeranno i dati finanziari nei rapporti.
-* Gli utenti che visualizzano i dati finanziari sono limitati ai record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non vedranno i valori finanziari per i record a cui non possono accedere.
-* I creatori dei rapporti devono essere cauti nell’includere dati finanziari nelle dashboard e devono prestare attenzione a chi condividono le dashboard per evitare accessi involontari.
+* Gli utenti che non dispongono dei diritti relativi ai dati finanziari a livello di accesso non vedranno i dati finanziari nei rapporti.
+* Gli utenti che possono vedere i dati finanziari, li vedono solo per i record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non potranno vedere i valori finanziari per i record a cui non possono accedere.
+* Per evitare che persone non autorizzate possano accedere a dati finanziari, chi crea i rapporti deve valutare attentamente se includere dati finanziari nelle dashboard e con chi condividere le dashboard stesse.
 
-Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente possibile.
+Si tratta di un limite noto che intendiamo correggere il più rapidamente possibile.
 
-### Utilizzo del selettore di campo
+### Utilizzo del selettore di campi
 
-L&#39;elenco a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
+Il menu a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per restringere le scelte in un selettore di campi per facilitare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionare un oggetto entità di base.
 
 * **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
-* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
-* **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
+* **Oggetti Workfront**: oggetti del flusso di lavoro Workfront nativi.
+* **Tipi di record di Planning**: tipi di record personalizzati definiti in Workfront Planning.
 
-![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
+![Menu a discesa Sezioni](assets/sections-dropdown.png)
 
 Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Sezioni** viene aggiornato con le opzioni del tipo di campo applicabili tra cui scegliere.
 

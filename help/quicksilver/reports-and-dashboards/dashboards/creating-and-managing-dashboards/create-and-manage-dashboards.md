@@ -4,14 +4,14 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Creare e gestire i Cruscotti
 description: Leggi questi articoli per scoprire come creare dashboard in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 10%
+ht-degree: 34%
 
 ---
 
@@ -31,5 +31,5 @@ Questa sezione contiene i seguenti articoli:
 * [Condividi dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
 * [Incorpora una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
 * [Incorporare una coda di richieste in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
-* [Rimuovere una pagina esterna da un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-* [Panoramica delle dashboard di Canvas](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Rimuovere una pagina esterna da una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+* [Panoramica delle dashboard dell’area di lavoro](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

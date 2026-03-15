@@ -4,13 +4,13 @@ keywords: utente,delega,report,delegato,approvazione
 navigation-topic: create-and-manage-reports
 title: Creare un rapporto di delega utente
 description: Creare un rapporto di delega utente
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni sulla delega delle approvazioni, vedere [Delegare la 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sulla delega delle approvazioni, vedere [Delegare la 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -63,13 +63,13 @@ Per ulteriori informazioni sulla delega delle approvazioni, vedere [Delegare la 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
  <td> <p>Visualizzare le autorizzazioni per gli elementi le cui approvazioni sono delegate e per gli utenti coinvolti nella delega</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

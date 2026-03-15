@@ -3,19 +3,19 @@ content-type: reference
 product-area: reporting
 keywords: audit,trail,personalizzato,campo
 navigation-topic: calculate-custom-data-reports
-title: 'Esempio di campo personalizzato calcolato: visualizzazione della cronologia di modifica di un campo'
+title: 'Esempio di campo personalizzato calcolato: visualizzare la cronologia di modifica di un campo'
 description: Se gli utenti aggiornano regolarmente i campi personalizzati e desideri acquisire un registro di tutte le modifiche apportate a un campo nonché una data in cui tali modifiche vengono apportate, puoi acquisire queste informazioni in un campo personalizzato calcolato.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Esempio di campo personalizzato calcolato: visualizzazione della cronologia di modifica di un campo
+# Esempio di campo personalizzato calcolato: visualizzare la cronologia di modifica di un campo
 
 Se gli utenti aggiornano regolarmente i campi personalizzati e desideri acquisire un registro di tutte le modifiche apportate a un campo nonché una data in cui tali modifiche vengono apportate, puoi acquisire queste informazioni in un campo personalizzato calcolato.
 
@@ -37,7 +37,7 @@ Questa operazione consente di:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +48,7 @@ Questa operazione consente di:
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
    <td>
       <p>Standard</p>
       <p>Piano</p></td>
@@ -58,7 +58,7 @@ Questa operazione consente di:
    <td> <p>Accesso amministrativo a Forms personalizzato</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Gestire le autorizzazioni sui moduli personalizzati</p></td> 
   </tr> 
  </tbody> 
@@ -83,14 +83,14 @@ Per aggiungere un campo calcolato che visualizza la cronologia di modifica di un
 
    1. Fare clic su **Testo su riga singola**.
    1. Specifica un **etichetta** per il campo personalizzato. Ad esempio, puoi denominarlo &quot;Istruzioni&quot;.
-   1. Fare clic su **Applica**.
+   1. Fai clic su **Applica**.
 
 1. Fare clic su **Calcolato** per aggiungere al modulo un campo personalizzato calcolato.
 1. Specifica un **etichetta** per il campo personalizzato calcolato. Ad esempio, è possibile denominarlo &quot;Istruzioni Modifica cronologia&quot;.
 
    Questo è il campo che acquisirà eventuali modifiche apportate al primo campo creato (&quot;Istruzioni&quot;).
 
-1. Fare clic su **Salva e chiudi**.
+1. Fai clic su **Salva e chiudi**.
 1. Fare clic sul nome del modulo in cui sono stati aggiunti due campi per riaprirlo.
 1. Fai clic sul campo personalizzato calcolato **Istruzioni Modifica cronologia**, quindi copia e incolla quanto segue nella casella **Calcolo**:
 
@@ -103,7 +103,7 @@ Per aggiungere un campo calcolato che visualizza la cronologia di modifica di un
 
    Questa è l&#39;impostazione predefinita.
 
-1. Fare clic su **Salva e chiudi**.
+1. Fai clic su **Salva e chiudi**.
 
    Ora, quando si allega il modulo personalizzato a un oggetto e successivamente qualcuno modifica le informazioni nel campo **Istruzioni**, il campo **Cronologia modifiche istruzioni** visualizza il valore più recente, seguito dalla data corrente tra parentesi e da una barra verticale. Se vengono apportate ulteriori modifiche, queste vengono aggiunte a queste informazioni nello stesso modo.
 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Formattare le date nei report in modalità testo
+title: Formattare le date nei rapporti in modalità testo
 description: Le date possono essere configurate per la visualizzazione in diversi formati nei rapporti ed elenchi in Adobe Workfront. Per stabilire un formato data, è necessario modificare la riga formato valore del codice della modalità testo nella colonna.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Formattare le date nei report in modalità testo
+# Formattare le date nei rapporti in modalità testo
 
 <!-- Audited: 1/2025 -->
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sull&#39;applicazione della formattazione condizional
 | **Formato** | Esempio  | ***formato valore=*** |
 |---|---|---|
 | GG/MM/AA | 10/11/18 | `atDate` |
-| DD/MM/YY | 10/11/18 12:00 pm | `longAtDate` |
+| DD/MM/YY | 10/11/18 12:00pm | `longAtDate` |
 | GG/MM/AA | 10/11/18 | `shortAtDate` |
 | Mth, DD, YR | 11 ottobre 2018 | `mediumAtDate` |
 | DW, mese, giorno, anno | lunedì 11 ottobre 2018 | `partialAtDate` |

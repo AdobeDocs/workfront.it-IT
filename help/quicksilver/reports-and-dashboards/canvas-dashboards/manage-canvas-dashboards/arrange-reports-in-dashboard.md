@@ -1,36 +1,36 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Disporre i rapporti in un dashboard Area di lavoro
-description: Puoi organizzare la visualizzazione dei rapporti in un dashboard di Canvas dopo che sono stati aggiunti a uno.
-author: Courtney and Jenny
+title: Disporre i rapporti in una dashboard dell’area di lavoro
+description: Puoi disporre la modalità di visualizzazione dei report in un dashboard dell’area di lavoro dopo che sono stati aggiunti a uno.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
-# Disporre i rapporti in un dashboard Area di lavoro
+# Disporre i rapporti in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>La funzione Dashboard Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Durante questa fase, alcune parti della caratteristica potrebbero non essere complete o funzionare come previsto. Inviate un feedback relativo alla vostra esperienza seguendo le istruzioni nella sezione [Fornisci feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) nell&#39;articolo Panoramica della versione beta dei dashboard di Canvas.<br>
+>Se hai un feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contatta l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
 >* Piattaforma Google Cloud
 
 
-Una volta aggiunto un rapporto a un dashboard di Canvas, questo viene visualizzato come widget di rapporto nel dashboard in modo da poterne visualizzare rapidamente i dati. Dopo aver aggiunto più rapporti, puoi impostare le dimensioni di ciascun widget in modo che si adattino al meglio al contenuto del rapporto all’interno del dashboard, quindi regolare la posizione di ciascun widget per visualizzare i dati in modo più efficace.
+Una volta aggiunto un report a un dashboard dell’area di lavoro, questo viene visualizzato come widget di report nel dashboard, in modo da poter visualizzare rapidamente i dati a colpo d’occhio. Una volta aggiunti più report, puoi impostare le dimensioni di ciascun widget in modo che si adattino al meglio al contenuto del report all’interno del dashboard e quindi regolare la posizione di ciascun widget per visualizzare i dati in modo più efficace.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -45,7 +45,7 @@ Una volta aggiunto un rapporto a un dashboard di Canvas, questo viene visualizza
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard </p> 
 <p>Piano</p> 
@@ -54,38 +54,38 @@ Una volta aggiunto un rapporto a un dashboard di Canvas, questo viene visualizza
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
-   <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
+   <td><p>Modificare l’accesso a report, dashboard e calendari</p>
   </td> 
   </tr>  
         <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti
 
-È necessario aggiungere i rapporti a una dashboard prima di poterli ridisporre.
+È necessario aggiungere report a un dashboard prima di riorganizzarli.
 
-## Disporre i rapporti in un dashboard
+## Disporre i report in un dashboard
 
 {{step1-to-dashboards}}
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Nella pagina **Dashboard area di lavoro**, seleziona **Modifica layout** nell&#39;angolo superiore destro. I widget del rapporto diventano modificabili.
+1. Nella pagina **Dashboard Canvas**, seleziona **Modifica layout** nell&#39;angolo superiore destro. I widget del report diventano modificabili.
 
-1. Fai clic su e trascina un widget di report in una nuova posizione sulla pagina.
+1. Fare clic e trascinare un widget di report in una nuova posizione nella pagina.
 
    ![Sposta widget report](assets/moving-report-widget.png)
 
-1. (Facoltativo) Per regolare la lunghezza e la larghezza di un widget di report, fai clic sull&#39;icona **Ridimensiona** ![Ridimensiona](assets/resize-icon.png) nell&#39;angolo inferiore destro del widget, quindi regola le dimensioni in base alle esigenze.
+1. (Facoltativo) Per regolare la lunghezza e la larghezza di un widget di report, fate clic e tenete premuta l&#39;icona **Ridimensiona** ![Ridimensiona](assets/resize-icon.png) nell&#39;angolo inferiore destro del widget, quindi regolate le dimensioni in base alle esigenze.
 
-1. Ripetere i passaggi 4-5 per ogni widget che si desidera ridisporre.
+1. Ripetete i passaggi 4-5 per ogni widget che desiderate riorganizzare.
 
-1. Fai clic su **Salva** nell&#39;angolo superiore destro.
+1. Fai clic su **Salva** nell&#39;angolo in alto a destra.

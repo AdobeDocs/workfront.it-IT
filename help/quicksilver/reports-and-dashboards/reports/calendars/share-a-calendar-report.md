@@ -3,24 +3,24 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Condividere un rapporto calendario
 description: Puoi condividere un calendario con altri utenti e renderlo disponibile pubblicamente, consentendo a un utente senza una licenza di  [!DNL Adobe Workfront]  di visualizzarlo.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Condivisione di un report calendario
+# Condividere un report calendario
 
 
 È possibile condividere un calendario con altri utenti e renderlo disponibile pubblicamente, consentendo a un utente senza una licenza [!DNL Adobe Workfront] di visualizzarlo.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 1%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Light</p>
        <p>Rivedi</p></td> 
   </tr> 
@@ -42,13 +42,13 @@ ht-degree: 1%
    <td> <p> Accesso a report, dashboard e calendari in visualizzazione o superiore</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Visualizza o autorizzazioni superiori per il report calendario, con accesso alla condivisione</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

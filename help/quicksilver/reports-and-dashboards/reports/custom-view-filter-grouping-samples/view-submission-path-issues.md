@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: Percorso di invio per i problemi'
 description: È possibile visualizzare il percorso attraverso il quale un problema è stato inviato nella visualizzazione di un report del problema. Il percorso indica la coda, il gruppo di argomenti e l’argomento della coda in cui è stato inviato il problema originariamente.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Visualizza: percorso di invio per i problemi
+# Visualizzazione: percorso di invio per i problemi
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -45,13 +45,13 @@ ht-degree: 0%
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

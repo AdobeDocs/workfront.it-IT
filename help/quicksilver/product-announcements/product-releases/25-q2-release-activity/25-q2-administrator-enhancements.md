@@ -1,20 +1,20 @@
 ---
 title: Miglioramenti per gli amministratori del secondo trimestre 2025
 description: Miglioramenti per gli amministratori del secondo trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99caa38d-cf0a-4986-b0fe-976cb3b29c58
-source-git-commit: 4cd5a6fca97958c8ba072fab391fd939f531f479
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Miglioramenti per gli amministratori del secondo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2025 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 

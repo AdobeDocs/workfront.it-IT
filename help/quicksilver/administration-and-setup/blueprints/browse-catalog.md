@@ -4,17 +4,17 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Sfoglia il catalogo dei blueprint e richiedi l’installazione di blueprint
 description: I blueprint forniscono elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Tutti gli [!DNL Adobe Workfront] utenti possono sfogliare il catalogo dei blueprint. È inoltre possibile richiedere all'amministratore di  [!DNL Workfront]  di installare un blueprint specifico, se l'amministratore ha abilitato le richieste blueprint.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Sfoglia il catalogo dei blueprint e richiedi l’installazione dei blueprint
+# Sfogliare il catalogo dei blueprint e richiederne l’installazione
 
 I blueprint forniscono elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Tutti gli utenti di [!DNL Adobe Workfront] possono sfogliare il catalogo di blueprint. È inoltre possibile richiedere all&#39;amministratore [!DNL Workfront] di installare un blueprint specifico, se l&#39;amministratore ha abilitato le richieste blueprint.
 
@@ -22,7 +22,7 @@ Solo l’amministratore di sistema può installare i blueprint. Per informazioni
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Solo l’amministratore di sistema può installare i blueprint. Per informazioni
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Collaboratore o versione successiva</p><p>Richiedente o versione successiva</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td><p>Collaboratore o successiva</p><p>Richiedente o versione successiva</p>
   </td> 
   </tr> 
  </tbody> 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Panoramica sulla consegna dei rapporti
-description: Panoramica sulla consegna dei rapporti
-author: Nolan
+title: Panoramica sulla consegna del rapporto
+description: Panoramica sulla consegna del rapporto
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica sulla consegna dei rapporti
+# Panoramica sulla consegna del rapporto
 
 <!-- Audited: 11/2024 -->
 
@@ -21,176 +21,176 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
 -->
 
-È possibile pianificare i rapporti in modo che vengano consegnati automaticamente agli utenti in base a una pianificazione definita oppure inviare i rapporti una tantum manualmente. Quando invii un rapporto da Adobe Workfront, l’utente riceve un’e-mail con il rapporto Workfront in un allegato separato.
+È possibile pianificare l&#39;invio automatico dei report agli utenti in base a una pianificazione definita oppure l&#39;invio dei report una tantum, manualmente. Quando invii un report da Adobe Workfront, l’utente riceve un’e-mail con il report Workfront in un allegato separato.
 
-Per informazioni sulla configurazione di un report per la consegna, consulta l&#39;articolo [Pianificare una consegna automatica del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Per informazioni sull&#39;impostazione di un report per la consegna, vedere l&#39;articolo [Pianificare la consegna automatica di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Non è possibile pianificare la consegna dei rapporti né distribuirli manualmente nell’ambiente Sandbox di anteprima. Per ulteriori informazioni sulla Sandbox di anteprima, consulta l&#39;articolo [Ambiente Sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-Per ulteriori informazioni sulla consegna di report nell&#39;ambiente Sandbox di anteprima, vedere l&#39;articolo [Inviare un report nell&#39;ambiente Sandbox di anteprima](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+Non è possibile pianificare la consegna dei report, né consegnarli manualmente nell’ambiente Sandbox di anteprima. Per ulteriori informazioni sull’ambiente sandbox di anteprima, consulta l’articolo [Ambiente sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+Per ulteriori informazioni sul recapito dei report nell’ambiente Sandbox di anteprima, consulta l’articolo [Inviare un report nell’ambiente Sandbox di anteprima](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
-## Limiti di consegna dei rapporti
+## Limiti di recapito dei report
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
 -->
 
-Quando pianifichi i rapporti per la consegna, tieni presente quanto segue:
+Quando si programmano i rapporti per la consegna, tenere presente quanto segue:
 
-* Puoi pianificare fino a 10 consegne ripetute di rapporti per qualsiasi rapporto.
-* È possibile pianificare la consegna di un report solo se l&#39;utente è l&#39;autore del report. Se devi inviare un rapporto che non hai creato, puoi inviarlo manualmente.
+* È possibile pianificare fino a 10 consegne ripetute di report per ogni report specifico.
+* È possibile pianificare la consegna di un report solo se si è l&#39;autore del report. Se devi inviare un report che non hai creato, puoi inviarlo manualmente.
 
 ## Limiti di esportazione
 
-Esistono diversi limiti di dimensione che influiscono sulla visualizzazione dei rapporti in Workfront e sulla modalità di esportazione tramite un’esportazione manuale, un rapporto consegnato o tramite l’API:
+Esistono diversi limiti di dimensione che influiscono sulla visualizzazione dei report in Workfront e sulla modalità di esportazione tramite un’esportazione manuale, un report fornito o tramite l’API:
 
-* **Dimensione file 10 MB:** Limite dimensione file per qualsiasi report esportato pianificato per la consegna. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato un collegamento tramite e-mail in cui è possibile scaricare il file, anziché il report esportato allegato.
+* **10MB file size:** File size limit for any exported report scheduled for delivery. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato per e-mail un collegamento tramite il quale è possibile scaricare il file, anziché il report di esportazione allegato.
 
   >[!NOTE]
   >
-  >I file .xlsx di Excel di dimensioni superiori a 10 MB non generano un messaggio e-mail. Puoi esportare manualmente il rapporto in questo formato. Per informazioni sull&#39;esportazione di report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >I file .xlsx di Excel di dimensioni superiori a 10 MB non generano messaggi e-mail. È possibile esportare manualmente il report in questo formato. Per informazioni sull&#39;esportazione di report, vedere [Esportare dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 righe:** il numero di righe di dati consentite in un&#39;esportazione di report per file .pdf e delimitati da tabulazioni.
 
-  Per i file .xls di Excel, questo limite è **65.000 righe**.
+  Per i file xls di Excel, questo limite è di **65.000 righe**.
 
-  Per i file .xlsx di Excel, questo limite è **100.000 righe**.
+  Per i file xlsx di Excel, questo limite è di **100.000 righe**.
 
-  Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe di dati, il file esportato avrà 50.000 righe.
+  Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel report. Ad esempio, se in un report sono presenti 6 raggruppamenti e 50.000 righe di dati, il file esportato conterrà 50.000 righe.
 
-  Se il report contiene più elementi di questi limiti, viene visualizzato un messaggio di errore che indica che l&#39;esportazione e la consegna del report non hanno esito positivo. Riduci il numero di elementi visualizzati sullo schermo a un numero inferiore o uguale a questi limiti per poter fornire i risultati. Se desideri esportare tutti i dati, ti consigliamo di utilizzare i filtri per ottenere caricamenti di dati più piccoli, quindi di eseguire più esportazioni. Per ulteriori informazioni, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Se il report contiene più elementi di questi limiti, viene visualizzato un messaggio di errore che indica che l’esportazione e la consegna del report non sono riuscite. Ridurre il numero di elementi visualizzati sullo schermo a un numero minore o uguale a questi limiti per poter fornire i risultati. Se si desidera esportare tutti i dati, si consiglia di utilizzare i filtri per ottenere carichi di dati più piccoli, quindi eseguire più esportazioni. Per ulteriori informazioni, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Questi limiti si applicano a:
+  Tali limiti si applicano a:
 
    * Esportazione manuale di un report.
-   * Un rapporto pianificato.
-   * Un’esportazione tramite un’integrazione API.
-   * Dati esportati tramite kick-start.
+   * Un report pianificato.
+   * Esportazione tramite un’integrazione API.
+   * Dati esportati mediante avvio.
 
-     Per ulteriori informazioni sull&#39;esportazione di dati tramite Kick-Start, vedere l&#39;articolo [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Per ulteriori informazioni sull&#39;esportazione di dati tramite avvii, vedere l&#39;articolo [Esportare dati da Adobe Workfront tramite avvii](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >È possibile esportare 50.000 righe in un file di avvio, ma solo in un file in formato Excel.
+     >Puoi esportare 50.000 righe in un file di avvio rapido, ma solo in un file in formato Excel.
 
    * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
 
      Per ulteriori informazioni sull&#39;esportazione delle informazioni sull&#39;utilizzo per un progetto, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65.530 collegamenti ipertestuali:** Si tratta di un limite imposto da Excel ai documenti che contengono più di 65.530 collegamenti ipertestuali. Non è possibile aprire questi documenti quando vengono esportati manualmente o inviati in un report consegnato. Si noti che un documento di Excel può contenere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.
-* **256 colonne**: limite imposto da Excel ai documenti contenenti più di 256 colonne. Questi documenti non possono essere esportati manualmente o inviati in un report consegnato. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.
+* **65.530 collegamenti ipertestuali:** Limite imposto da Excel ai documenti contenenti più di 65.530 collegamenti ipertestuali. Questi documenti non possono essere aperti quando vengono esportati manualmente o inviati in un report consegnato. Si noti che un documento di Excel può avere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre. Questo limite esiste solo per i file di Excel e non per gli altri formati supportati.
+* **256 colonne**: limite imposto da Excel ai documenti contenenti più di 256 colonne. Questi documenti non possono essere esportati manualmente o inviati in un report consegnato. Questo limite esiste solo per i file di Excel e non per gli altri formati supportati.
 
-Se tenti di esportare dati oltre il limite, potresti non ricevere tutti i dati previsti nell’esportazione. Piuttosto, un rapporto modificato viene prodotto entro il limite.
+Se si tenta di esportare dati oltre il limite, è possibile che non vengano ricevuti tutti i dati previsti nell&#39;esportazione. Piuttosto, viene prodotto un report modificato entro il limite.
 
-Inoltre, l’esecuzione dei rapporti che richiedono più di 60 minuti verrà interrotta.
+Inoltre, i report che richiedono più di 60 minuti verranno arrestati.
 
 In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico Workfront.
 
-## Comprendere i timestamp sui report consegnati
+## Informazioni sulle marche temporali per i report consegnati
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-Quando ricevi un report tramite e-mail, la marca temporale e il formato orario sul report potrebbero non corrispondere a quelli di Workfront, se il report dovesse essere visualizzato in Workfront nello stesso momento in cui è stato consegnato.
+Quando ricevi un report tramite e-mail, la marca temporale e il formato dell’ora nel report potrebbero non corrispondere a quelli in Workfront, se visualizzi il report in Workfront contemporaneamente alla consegna.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
-* Quando visualizzi un rapporto nel browser, la marca temporale e il formato del rapporto corrispondono alle impostazioni internazionali e al fuso orario del browser, come definiti nelle impostazioni del browser.
-* Quando il rapporto viene consegnato tramite e-mail, viene consegnato con la marca temporale e il formato che corrispondono alla lingua utente e al fuso orario specificati nel profilo Workfront.\
-  Per ulteriori informazioni sulla lingua utente e sul fuso orario in Workfront, vedere l&#39;articolo [Modifica del profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Quando si visualizza un report nel browser, la marca temporale e il formato del report corrispondono alle impostazioni internazionali e al fuso orario del browser, come definito nelle impostazioni del browser.
+* Quando il report viene inviato tramite e-mail, il report viene inviato con la marca temporale e il formato che corrispondono alle impostazioni internazionali dell’utente e al fuso orario specificati nel profilo Workfront.\
+  Per ulteriori informazioni sulle impostazioni internazionali dell&#39;utente e sul fuso orario in Workfront, vedere l&#39;articolo [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Rapporti con una visualizzazione speciale {#reports-with-a-special-view}
+## Report con una visualizzazione speciale {#reports-with-a-special-view}
 
-Quando si applica una visualizzazione speciale a un rapporto, la visualizzazione speciale viene visualizzata in nella scheda Dettagli del rapporto in Workfront.
+Quando si applica una visualizzazione speciale a un report, la visualizzazione speciale viene visualizzata nella scheda Dettagli del report in Workfront.
 
-Quando pianifichi la consegna di un rapporto con una visualizzazione speciale, la scheda Dettagli viene consegnata nell’allegato dell’e-mail inviata, anziché nella visualizzazione speciale.
+Quando pianifichi la consegna di un report con una visualizzazione speciale, la scheda Dettagli viene fornita nell’allegato dell’e-mail inviata, anziché nella visualizzazione speciale.
 
-Di seguito sono riportate le viste speciali:
+Le viste seguenti sono considerate speciali:
 
-* Vista Milestone (Attività cardine) in un report di progetto
-* Visualizzazione Gantt per un report di progetti o attività
+* Visualizzazione Cardine in un report Progetto
+* Visualizzazione Gantt in una relazione Progetto o Attività
 * Report con un grafico come scheda predefinita
 
 >[!NOTE]
 >
->Se nel rapporto è presente anche una scheda Matrice oltre alla scheda predefinita con una visualizzazione speciale, il rapporto viene consegnato così come viene visualizzato nella scheda Matrice.
+>Se nel report è presente anche una scheda Matrice oltre alla scheda predefinita con una vista speciale, il report viene consegnato così come viene visualizzato nella scheda Matrice.
 
-Per ulteriori informazioni su come applicare una visualizzazione speciale a un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per ulteriori informazioni su come applicare una visualizzazione speciale a un report, vedere l&#39;articolo [Creazione di un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Utilizzare il file consegnato
 
-Quando invii un rapporto da Workfront, l’utente riceve un’e-mail con il rapporto in un allegato separato.
+Quando invii un report da Workfront, l’utente riceve un’e-mail con il report in un allegato separato.
 
-* [Oggetto, nome allegato e titolo report](#subject-line-attachment-name-and-report-title)
-* [Marca temporale](#timestamps)
-* [Marchio](#branding)
+* [Oggetto, nome allegato e titolo del report](#subject-line-attachment-name-and-report-title)
+* [Timestamp](#timestamps)
+* [Branding](#branding)
 * [Formattazione](#formatting)
 * [Collegamenti](#links)
 
-### Oggetto, nome dell’allegato e titolo del rapporto {#subject-line-attachment-name-and-report-title}
+### Oggetto, nome dell&#39;allegato e titolo del report {#subject-line-attachment-name-and-report-title}
 
-Per ulteriori informazioni sulla riga dell&#39;oggetto dell&#39;e-mail del report consegnato, vedere [Pianificare una consegna automatica del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Per ulteriori informazioni sull&#39;oggetto dell&#39;e-mail del report inviato, vedere [Pianificare la consegna automatica di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 Il nome del report allegato è: *The_Name_Of_The_Report* seguito dal formato di file esportato.
 
-Se hai pianificato che il rapporto consegnato venisse formattato come file PDF o HTML, il titolo del rapporto sarà:
+Se hai pianificato la formattazione del report consegnato come file PDF o HTML, il titolo del report sarà:
 
 *Nome del report.*
 
-I rapporti pianificati per essere consegnati in formato Excel, Excel (.xlsx) o TSV non hanno un titolo.
+I report pianificati per essere consegnati in formato Excel, Excel (.xlsx) o TSV non hanno un titolo.
 
 >[!NOTE]
 >
->Se il report include una descrizione, questa verrà inclusa nel file esportato, se il file è formattato come file PDF o HTML.
+>Se il report include una descrizione, verrà incluso nel file esportato, se il file è formattato come file PDF o HTML.
 
 ### Marca temporale {#timestamps}
 
-Un timestamp viene visualizzato sul file allegato solo se il formato del file è .pdf. Il timestamp si trova nel piè di pagina del file allegato.
+Un timestamp viene visualizzato nel file allegato solo se il formato del file è .pdf. La marca temporale si trova nel piè di pagina del file allegato.
 
 La marca temporale include:
 
 * Data
 * Ora
-* Fuso orario in cui è stato inviato il report
+* Fuso orario di invio del report
 
 ### Branding {#branding}
 
-Se l’amministratore di Workfront ha aggiunto un branding personalizzato all’istanza di Workfront, i rapporti inviati in formato .pdf includono anche il logo personalizzato.
+Se il tuo amministratore Workfront ha aggiunto elementi di branding personalizzati alla tua istanza Workfront, i report inviati in formato .pdf includono anche il tuo logo personalizzato.
 
 I report inviati in tutti gli altri formati non possono essere personalizzati con il tuo logo.
 
-Per ulteriori informazioni sul branding dell&#39;istanza Workfront, consulta l&#39;articolo [Contrassegna l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Per ulteriori informazioni sul branding dell&#39;istanza di Workfront, consulta l&#39;articolo [Aggiungere il tuo branding all&#39;istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formattazione {#formatting}
 
-La scheda Dettagli di un rapporto viene sempre visualizzata quando un rapporto viene inviato o pianificato per una consegna, a meno che il rapporto non abbia una visualizzazione speciale.
+La scheda Dettagli di un report viene sempre visualizzata quando un report viene inviato o programmato per una consegna, a meno che il report non abbia una visualizzazione speciale.
 
-Se il report ha una formattazione speciale nell’applicazione web, il report deve essere consegnato con la formattazione speciale quando le schede Dettagli e Matrice vengono consegnate solo per i file .pdf ed Excel.
+Se il report ha una formattazione speciale nell’applicazione Web, il report deve essere fornito con la formattazione speciale quando le schede Dettagli e Matrice vengono fornite solo per i file .pdf ed Excel.
 
-Il filtro, la visualizzazione o il raggruppamento del report non sono inclusi nel file consegnato. La descrizione del report viene inclusa solo quando il report viene inviato come file PDF.
+Il filtro, la visualizzazione o il raggruppamento del report non vengono inclusi nel file consegnato. La descrizione del report viene inclusa solo quando lo invii come file PDF.
 
-Per ulteriori informazioni sulla ricezione di report con visualizzazione speciale, vedere l&#39;articolo [Report con visualizzazione speciale](#reports-with-a-special-view).\
+Per ulteriori informazioni sulla ricezione di report con una visualizzazione speciale, vedere l&#39;articolo [Report con una visualizzazione speciale](#reports-with-a-special-view).\
 Per ulteriori informazioni sulla selezione della scheda predefinita di un report e sulla formattazione speciale, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Collegamenti {#links}
 
-Quando si invia un report da Workfront al formato PDF o Excel, tutti i collegamenti di lavoro presenti nel documento originale rimangono attivi nel file inviato. I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporta il collegamento.
+Quando si invia un rapporto dal formato Workfront al formato PDF o Excel, tutti i collegamenti di lavoro esistenti nel documento originale rimangono attivi nel file inviato. I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporti il collegamento.
 
-Anche il nome del rapporto nel messaggio e-mail è un collegamento.
+Anche il nome del report nel messaggio e-mail è un collegamento.
 
-## Rapporto sui rapporti pianificati
+## Report sui report pianificati
 
-Puoi verificare se un rapporto è stato configurato per essere consegnato creando quanto segue:
+Per verificare se un report è stato configurato per essere inviato, creare quanto segue:
 
-* **Una visualizzazione** per l&#39;oggetto Report in un elenco o in un report per report: creare una visualizzazione in un elenco di report o in un report per report e aggiungere la colonna seguente alla visualizzazione:\
+* **Una visualizzazione** per l&#39;oggetto Report in un elenco o in un report per i report: creare una visualizzazione in un elenco di report o in un report per i report e aggiungere la colonna seguente alla visualizzazione:\
   *Nome rapporto programmato.\
   *I nomi di tutte le consegne programmate per quel rapporto sono elencati nella colonna di un elenco puntato.\
-  ![report_pianificati_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Un filtro** per l&#39;oggetto report: creare un filtro in un elenco di report o in un report in report con l&#39;istruzione seguente: *L&#39;ID report pianificato non è vuoto*.\
+* **Un filtro** per l&#39;oggetto Report: creare un filtro in un elenco di report o in un report di report con l&#39;istruzione seguente: *L&#39;ID report pianificato non è vuoto*.\
   Verranno visualizzati solo i report pianificati nell&#39;elenco o nel report.\
   ![Filtro report pianificato](assets/qs-scheduled-report-filter-350x101.png)\
-  Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di un report sui report, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di un report sui report, vedere [Creazione di un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

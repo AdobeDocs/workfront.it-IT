@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Modifica impostazioni team
 description: Gli amministratori di Workfront e gli utenti con una licenza Pianificazione o Lavoro possono modificare le Impostazioni team.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# Modifica impostazioni team
+# Modificare le impostazioni dei team
 
 In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Work], puoi modificare [!UICONTROL Impostazioni team].
 
@@ -32,7 +32,7 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Work o successiva</p></td>
@@ -40,11 +40,11 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Modifica impostazioni team
+## Modificare le impostazioni dei team
 
 {{step1-to-team}}
 

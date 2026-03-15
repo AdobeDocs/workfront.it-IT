@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Dimostrazioni video di schede madri Workfront
 description: Questi video presentano i diversi tipi di bacheche disponibili in Adobe Workfront e mostrano esempi di come utilizzare le bacheche nel lavoro quotidiano.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Dimostrazioni video di schede madri Workfront
+# Dimostrazioni video per le bacheche Workfront
 
 <!--Audited: 12/2023-->
 

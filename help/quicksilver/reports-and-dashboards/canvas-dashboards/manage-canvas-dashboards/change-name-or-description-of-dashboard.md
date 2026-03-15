@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modificare il nome o la descrizione di un dashboard Area di lavoro
+title: Modificare il nome o la descrizione di una dashboard dell’area di lavoro
 description: È possibile modificare il nome o la descrizione di un dashboard Area di lavoro dopo averlo creato.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# Modificare il nome o la descrizione di un dashboard Area di lavoro
+# Modificare il nome o la descrizione di una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Eventuali modifiche apportate a una dashboard avranno un impatto su tutti gli ut
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +47,7 @@ Eventuali modifiche apportate a una dashboard avranno un impatto su tutti gli ut
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard</p> 
 <p>Piano</p> 
@@ -60,14 +60,14 @@ Eventuali modifiche apportate a una dashboard avranno un impatto su tutti gli ut
   </td> 
   </tr>  
     <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti

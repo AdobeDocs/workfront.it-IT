@@ -3,23 +3,23 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Aggiungere eventi ad hoc a un rapporto calendario
 description: Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc funge semplicemente da promemoria nel calendario e non è associato a un progetto, un’attività o un problema.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 1%
+ht-degree: 29%
 
 ---
 
-# Aggiungere eventi ad hoc a un report calendario
+# Aggiungere eventi ad-hoc a un report calendario
 
 Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc funge semplicemente da promemoria nel calendario e non è associato a un progetto, un’attività o un problema.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc funge sempliceme
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
@@ -41,18 +41,18 @@ Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc funge sempliceme
    <td> <p> Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l’accesso al report del calendario</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-## Aggiungere eventi ad hoc a un report calendario
+## Aggiungere eventi ad-hoc a un report calendario
 
 1. Vai al Calendario a cui desideri aggiungere un evento ad hoc.
 1. Fai clic su **Aggiungi** nella parte superiore del calendario.

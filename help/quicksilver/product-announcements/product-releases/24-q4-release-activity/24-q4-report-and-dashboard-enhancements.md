@@ -1,20 +1,20 @@
 ---
 title: Miglioramenti al rapporto e al dashboard del quarto trimestre 2024
 description: Miglioramenti al rapporto e al dashboard del quarto trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # Miglioramenti al rapporto e al dashboard del quarto trimestre 2024
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima per report e dashboard con la versione del quarto trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima per report e dashboard con la versione del quarto trimestre 2024. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2024, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 

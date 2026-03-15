@@ -4,18 +4,18 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Elenco dei blueprint disponibili
 description: I  [!DNL Adobe Workfront] blueprint elencati sono disponibili per l'installazione da parte degli amministratori di sistema.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
 
 ---
 
-# Elenco dei blueprint disponibili
+# Elenco di blueprint disponibili
 
 <!-- Audited: 5/2025 -->
 

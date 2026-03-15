@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Fare riferimento alle raccolte in un rapporto
-description: Fare riferimento alle raccolte in un rapporto
-author: Nolan
+title: Raccolte di riferimento in un rapporto
+description: Raccolte di riferimento in un rapporto
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Fare riferimento alle raccolte in un rapporto
+# Raccolte di riferimento in un rapporto
 
 <!-- Audited: 1/2025 -->
 
@@ -23,7 +23,7 @@ Per ulteriori informazioni sulla creazione di un report in Workfront, vedere [Cr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla creazione di un report in Workfront, vedere [Cr
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
      <p>Standard</p>
      <p>Piano</p>
@@ -45,13 +45,13 @@ Per ulteriori informazioni sulla creazione di un report in Workfront, vedere [Cr
    <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Gestire le autorizzazioni per una visualizzazione, un filtro o un raggruppamento </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,11 +61,11 @@ Un insieme è un elenco di oggetti collegati a un altro oggetto.
 
 In Workfront sono disponibili le due relazioni seguenti tra gli oggetti:
 
-* **Relazione uno-a-uno**: un oggetto può essere collegato a un solo altro oggetto alla volta.\
+* **Relazione uno-a-uno**: un oggetto può essere collegato solo a un altro oggetto alla volta.\
   Ad esempio, un progetto può essere collegato a un solo portfolio alla volta.
 
-* **Relazione uno-a-molti**: un oggetto può essere collegato a diversi altri oggetti contemporaneamente.\
-  Ad esempio, un progetto può avere più attività. In questo caso, l&#39;elenco delle attività costituisce una raccolta per il progetto.
+* **Relazione uno-a-molti**: un oggetto può essere collegato a più oggetti contemporaneamente.\
+  Ad esempio, un progetto può avere più attività. In questo caso, l&#39;elenco delle attività costituisce un insieme per il progetto.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Per ulteriori informazioni sulla tabella API Explorer, vedere [API Explorer](../
 
 Per scoprire su quali raccolte è possibile generare un rapporto:
 
-1. Vai a [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Passa a [Esplora API](../../../wf-api/general/api-explorer.md).
 1. Trova l’oggetto del rapporto.
 1. Seleziona la scheda **raccolte**.
 
@@ -127,23 +127,23 @@ Ad esempio, puoi fare riferimento alle raccolte di attività o problemi da un ra
 
 È possibile fare riferimento a un insieme di oggetti nella visualizzazione di un report per visualizzare gli attributi degli oggetti associati all&#39;oggetto del report.
 
-Ad esempio, è possibile visualizzare le informazioni sulle attività o sui problemi in un report di progetto creando una colonna di raccolta per le attività o i problemi nella visualizzazione del report.
+È possibile, ad esempio, visualizzare le informazioni sulle attività o sull&#39;emissione in un report di progetto creando una colonna di raccolta per le attività o l&#39;emissione nella visualizzazione del report.
 
 È possibile visualizzare informazioni sulle attività o sui problemi, ad esempio nomi, date, assegnatari principali, percentuale di completamento e così via nella visualizzazione della raccolta.
 
-Nella visualizzazione le informazioni sulle attività o sui problemi vengono visualizzate in formato elenco, con ogni riga dell&#39;elenco che rappresenta le informazioni su un&#39;attività o un problema. L&#39;elenco delle attività o dei problemi e i relativi campi vengono visualizzati sulla stessa riga del progetto a cui appartengono le attività o i problemi.
+Nella visualizzazione vengono visualizzate le informazioni su un&#39;attività o un problema in un formato elenco e ogni riga dell&#39;elenco rappresenta le informazioni su un&#39;attività o un problema. L&#39;elenco delle attività o dei problemi e i relativi campi vengono visualizzati nella stessa riga del progetto a cui appartengono le attività o i problemi.
 
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Aggiungere una colonna della raccolta in una visualizzazione report](#add-a-collection-column-in-a-report-view)
 * [Comprendere le righe di una visualizzazione raccolta in modalità testo](#understand-the-lines-of-a-collection-view-in-text-mode)
-* [Limitazioni di una visualizzazione raccolta](#limitations-of-a-collection-view)
+* [Limitazioni della visualizzazione di una raccolta](#limitations-of-a-collection-view)
 
-### Aggiungere una colonna di raccolta in una visualizzazione report {#add-a-collection-column-in-a-report-view}
+### Aggiungere una colonna della raccolta in una visualizzazione Report {#add-a-collection-column-in-a-report-view}
 
-Per aggiungere una colonna di raccolta in una visualizzazione report:
+Per aggiungere una colonna della raccolta in una visualizzazione Report:
 
-1. Fai clic sull&#39;icona del menu **Principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Menu principale** del menu ![principale](assets/main-menu-icon.png), quindi fai clic su **Report**.
 1. Fare clic su **Nuovo report**.
 1. Seleziona l’oggetto del rapporto.
 1. Esci dal report e, utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determina quali raccolte sono disponibili per l&#39;oggetto selezionato per il report.
@@ -174,13 +174,13 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
    ```
 
 1. Sostituisci **Nome colonna** con il nome della colonna nella riga `displayname`.
-1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta nella riga `listmethod`, come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta nella riga `listmethod`, come visualizzato in [Esplora API](../../../wf-api/general/api-explorer.md).
 
-1. Sostituisci il campo **oggetto raccolta** con il nome del campo dell&#39;oggetto raccolta nella riga `valuefield`, come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Sostituisci **il campo dell&#39;oggetto raccolta** con il nome del campo dell&#39;oggetto raccolta nella riga `valuefield`, come visualizzato in [Esplora API](../../../wf-api/general/api-explorer.md).
 
-   È possibile sostituire **valuefield** con **valueexpression**, se si desidera creare un&#39;espressione personalizzata nella visualizzazione.
+   È possibile sostituire **valorefield** con **valoreexpression**, se si desidera creare un&#39;espressione personalizzata nella visualizzazione.
 
-   Per ulteriori informazioni sulle espressioni personalizzate calcolate, vedere [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Per ulteriori informazioni sulle espressioni personalizzate calcolate, vedere [Panoramica sulle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Ad esempio, se si desidera visualizzare un elenco delle attività in un report di progetto. Questa raccolta utilizza una riga `valuefield` per fare riferimento ai nomi delle attività.
 
@@ -231,15 +231,15 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
    ![Report di progetto con raccolta attività e assegnatari](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Fai clic su **Salva**.
-1. (Facoltativo) Continua a modificare il rapporto.
+1. (Facoltativo) Continuate a modificare il report.
 
    Oppure
 
-   Fare clic su **Salva + Chiudi** per salvare il report.
+   Fai clic su **Salva + Chiudi** per salvare il report.
 
-#### Comprendere le righe di una visualizzazione raccolta in modalità testo
+#### Comprendere le linee di una raccolta Visualizzare in modalità Testo
 
-Nella tabella seguente vengono descritte le righe di una raccolta in modalità testo:
+Le righe di una visualizzazione in modalità testo per una raccolta sono evidenziate nella tabella seguente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -266,7 +266,7 @@ Nella tabella seguente vengono descritte le righe di una raccolta in modalità t
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore barra. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori della raccolta sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
+   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&amp;zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore barra. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori dell'insieme sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nome colonna</em> </td> 
@@ -274,20 +274,20 @@ Nella tabella seguente vengono descritte le righe di una raccolta in modalità t
   </tr> 
   <tr> 
    <td><code>listmethod=nested(collection object name).list</code> </td> 
-   <td> <p> Questa riga definisce la raccolta a cui si fa riferimento.</p> <p>Sostituire <strong>nome oggetto raccolta</strong> con il nome dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. Questo valore è in genere la forma plurale del nome dell'oggetto raccolta.</p> </td> 
+   <td> <p> Questa riga definisce la raccolta a cui si fa riferimento.</p> <p>Sostituire <strong>nome oggetto raccolta</strong> con il nome dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. Questo valore è in genere la forma plurale del nome dell'oggetto insieme.</p> </td> 
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Questa riga definisce il campo a cui si fa riferimento dall'oggetto insieme.</p> <p>Sostituisci il campo <strong>oggetto raccolta</strong> con il nome del campo dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Puoi sostituire questa riga con:</p> <p><strong>valueexpression</strong>=campi/campi oggetto raccolta calcolati</p> <p>Utilizzando <strong>valueexpression</strong>, puoi  visualizza un’espressione personalizzata calcolata nella colonna.</p> <p>Per ulteriori informazioni su come formattare <strong>righe di espressione di valore</strong>, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>.</p> </td> 
+   <td> <p>Questa riga definisce il campo a cui si fa riferimento dall'oggetto insieme.</p> <p>Sostituire <strong>il campo dell'oggetto della raccolta</strong> con il nome del campo dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Esplora API</a>.</p> <p>Puoi sostituire questa riga con:</p> <p><strong>valueexpression</strong>=campi/campi oggetto raccolta calcolati</p> <p>Utilizzando <strong>valueexpression</strong>, puoi  visualizza un’espressione personalizzata calcolata nella colonna.</p> <p>Per ulteriori informazioni su come formattare <strong>righe di espressione di valore</strong>, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Limitazioni di una visualizzazione raccolta {#limitations-of-a-collection-view}
+#### Limitazioni della visualizzazione di una raccolta {#limitations-of-a-collection-view}
 
-Quando crei una vista di raccolta, considera le seguenti limitazioni:
+Quando si crea una vista di raccolta, tenere presente le limitazioni riportate di seguito.
 
-* Non è possibile controllare l&#39;ordine di visualizzazione dei dati della raccolta.
+* Non è possibile controllare l&#39;ordine di visualizzazione dei dati di raccolta.
 * Non è possibile applicare la formattazione condizionale a una visualizzazione raccolta.
 * Non è possibile impostare un oggetto di un insieme come collegamento selezionabile.
 * Non è possibile creare una visualizzazione raccolta di un&#39;altra raccolta.\
@@ -312,12 +312,12 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
 1. Fai clic sull&#39;icona del menu **Principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
 1. Fare clic su **Nuovo report**.
-1. Seleziona l’oggetto del rapporto.
-1. Esci dal report e, utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determina quali raccolte sono disponibili per l&#39;oggetto selezionato per il report.
+1. Selezionare l&#39;oggetto del report.
+1. Allontanati dal report e utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determinate le raccolte disponibili per l&#39;oggetto selezionato per il report.
 
-   Per ulteriori informazioni sulla selezione dell&#39;oggetto della raccolta, vedere la sezione [Trova gli oggetti della raccolta e i relativi campi in API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in questo articolo.
+   Per ulteriori informazioni sulla selezione dell&#39;oggetto della raccolta, vedere la sezione [Trova oggetti della raccolta e i relativi campi in Esplora API](#find-collection-objects-and-their-fields-in-the-api-explorer) in questo articolo.
 
-   Prendere nota del nome dell&#39;oggetto per l&#39;insieme.
+   Prendere nota del nome dell&#39;oggetto dell&#39;insieme.
 
 1. Utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), vai all&#39;elenco dei campi per l&#39;oggetto che desideri visualizzare nell&#39;insieme.
 
@@ -353,7 +353,7 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
    ![Attività solo marketing nel progetto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
-1. Per filtrare in base al nome di un problema, utilizza il seguente codice:
+1. Per filtrare per il nome di un problema, utilizzate il codice seguente:
 
    ```
    issues:name=Marketing
@@ -362,7 +362,7 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
    >[!TIP]
    >
-   >Si noti che è necessario utilizzare `issues` per il nome dell&#39;oggetto della raccolta, anziché `optask`, che è il modo in cui vengono visualizzati i problemi in API Explorer.
+   >Si noti che è necessario utilizzare `issues` per il nome dell&#39;oggetto della raccolta, anziché `optask`, ovvero il modo in cui vengono visualizzati i problemi in Esplora API.
 
 1. Fai clic su **Fine**.
 1. (Facoltativo) Continua a modificare il rapporto.
@@ -393,9 +393,9 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 1. Creare un filtro con un riferimento a una raccolta come descritto nella sezione [Fare riferimento a una raccolta nel filtro di un report](#reference-a-collection-in-the-filter-of-a-report) in questo articolo.
 1. Fare clic su **Impostazioni report**.
 1. Fai clic su **Prompt dei rapporti**.
-1. Fare clic su **Aggiungi prompt**.
-1. Fare clic su **Prompt personalizzato**.
-1. Specifica il nome della richiesta nel campo **Field**&#x200B;**name**.
+1. Fai clic su **Aggiungi prompt**.
+1. Fai clic su **Messaggio personalizzato**.
+1. Specificare il nome del prompt nel campo ******nome**.
 
 1. Specificare un&#39;etichetta **per elemento a discesa**.
 1. Specifica quanto segue nel campo **Condizione**:
@@ -405,13 +405,13 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
    ```
 
 1. (Facoltativo) Specifica se questa scelta viene visualizzata per impostazione predefinita nel prompt.
-1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md). Questo valore è in genere la forma plurale del nome dell&#39;oggetto raccolta.
-1. Sostituisci il campo **oggetto raccolta** con il nome del campo dell&#39;oggetto raccolta, come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Sostituisci **nome oggetto raccolta** con il nome dell&#39;oggetto raccolta come visualizzato in [API Explorer](../../../wf-api/general/api-explorer.md). Questo valore è in genere la forma plurale del nome dell&#39;oggetto insieme.
+1. Sostituisci **il campo dell&#39;oggetto raccolta** con il nome del campo dell&#39;oggetto raccolta, come visualizzato in [Esplora API](../../../wf-api/general/api-explorer.md).
 1. Sostituire **il valore dell&#39;oggetto raccolta** con il valore dell&#39;oggetto raccolta visualizzato in Workfront.
 
    Ad esempio, se si filtrano progetti in cui il nome dell&#39;attività contiene &quot;Marketing&quot;, sostituire **il valore dell&#39;oggetto raccolta** con **marketing**.
 
-1. Sostituisci **il valore del modificatore** con un modificatore valido.
+1. Sostituire **il valore del modificatore** con un modificatore valido.
 
    Per un elenco dei modificatori, vedere [Filtro e modificatori di condizione](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -437,7 +437,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 
    >[!NOTE]
    >
-   >È necessario utilizzare **issues** per il nome dell&#39;oggetto raccolta. API Explorer non offre al momento un nome di oggetto raccolta per i problemi.
+   >È necessario utilizzare **issues** per il nome dell&#39;oggetto raccolta. Al momento, API Explorer non offre un nome di oggetto raccolta per i problemi.
 
 1. Fai clic su **Fine**.
 1. (Facoltativo) Continua a modificare il rapporto.

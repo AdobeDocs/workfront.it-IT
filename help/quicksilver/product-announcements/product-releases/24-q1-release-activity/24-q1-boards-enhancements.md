@@ -1,14 +1,14 @@
 ---
 title: Miglioramenti alle schede madri per il primo trimestre 2024
 description: Miglioramenti alle schede madri per il primo trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2024 alle bacheche. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 24.1.
 
-Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2024, consulta [Panoramica delle versioni del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 Per informazioni dettagliate su come acconsentire alle nuove funzionalità delle bacheche prima del rilascio trimestrale, consulta [Accettazione anticipata delle funzionalità per le bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 

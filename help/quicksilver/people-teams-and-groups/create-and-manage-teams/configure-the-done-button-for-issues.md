@@ -3,13 +3,13 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configurare il pulsante Fine per i problemi
 description: Il pulsante Done (Fine) può impostare automaticamente lo stato di un’attività o di un problema. Per impostazione predefinita, Adobe Workfront contrassegna un problema come Risolto quando un assegnatario fa clic su Fine sul proprio elemento di lavoro.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICO
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICO
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>
@@ -55,7 +55,7 @@ Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICO
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >   * [!UICONTROL Richiesta di Modifica]
    >   * [!UICONTROL Segnalazione Bug]
 
-   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte &#x200B;]&quot;, oltre ai diversi stati scelti per il team.
+   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte ]&quot;, oltre ai diversi stati scelti per il team.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 

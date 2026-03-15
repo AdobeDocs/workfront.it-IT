@@ -1,23 +1,23 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 'Aggiungi rapporti: indice articolo'
+title: 'Aggiungere rapporto: indice degli articoli'
 description: Visualizza gli articoli in questa sezione.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: ca819287f6a541d188c67b65465fe314c7b3109e
+exl-id: 9be0ae99-f810-49f9-987c-e4f93ef1a86a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
-
-# Aggiungi rapporti: indice articolo
+# Aggiungere rapporto: indice degli articoli
 
 Questa sezione contiene i seguenti articoli:
 
-* [Aggiungere un rapporto esistente a un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-* [Creare un rapporto KPI in un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-* [Creare un rapporto di grafico in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-* [Creare un rapporto di tabella in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* [Aggiungere un rapporto esistente a una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+* [Generare un rapporto KPI in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+* [Generare un rapporto del grafico in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+* [Generare un rapporto della tabella in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)

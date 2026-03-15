@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-reports
-title: 'Gestisci rapporti: indice articoli'
+title: 'Gestire rapporti: indice degli articoli'
 description: Visualizza gli articoli in questa sezione.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 0%
+ht-degree: 60%
 
 ---
 
-# Gestisci rapporti: indice articoli
+# Gestire rapporti: indice degli articoli
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Modificare un rapporto in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-* [Modificare i filtri dei rapporti in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-* [Duplicare un rapporto in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
-* [Eliminare un rapporto in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+* [Modificare un rapporto in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+* [Modificare i filtri dei rapporti in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+* [Duplicare un rapporto in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+* [Eliminare un rapporto in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)

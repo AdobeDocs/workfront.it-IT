@@ -2,20 +2,20 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Visualizzazione personalizzata, filtro e raggruppamento di esempi: indice articolo"
+title: 'Esempi di raggruppamento, filtro e viste personalizzate: indice degli articoli'
 description: Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggruppamenti che puoi utilizzare nel tuo account Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo
+# Esempi di raggruppamento, filtro e viste personalizzate: indice degli articoli
 
 <!-- Audited: 12/2023 -->
 
@@ -48,7 +48,7 @@ Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggr
 * [Visualizzazione: visualizza un&#39;immagine invece di una stringa in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Visualizzazione: oggetti non inclusi nell&#39;interfaccia standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
 * [Visualizzazione: visualizza le informazioni originali sul problema negli elenchi di attività o progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-* [Visualizzazione: visualizza le informazioni su programma e Portfolio in una visualizzazione attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+* [Visualizzazione: visualizza le informazioni su programmi e Portfolio in una visualizzazione attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [Visualizzazione: visualizzazione dei rientri delle attività in un elenco attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Visualizza: report di documenti con collegamento a una bozza](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
 * [Visualizzazione: modifica definitivamente la larghezza di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
@@ -66,14 +66,14 @@ Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggr
 * [Visualizza: dettagli predecessore](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [Visualizza: progetto con tutti gli utenti e i ruoli del team di progetto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Visualizza: elenco di utenti del progetto con mansioni](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
-* [Visualizzazione: rimozione di un collegamento a un oggetto in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [Visualizzazione: rimuovere un collegamento a un oggetto in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
 * [Visualizzazione: elementi di reporting utilizzati nei report](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-* [Visualizzazione: oggetti risolvibili in un report di attività o di progetto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+* [Visualizzazione: oggetti risolvibili in un rapporto di attività o di progetto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
@@ -85,7 +85,7 @@ Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggr
 * [Visualizzazione: attività interessate da eccezioni di pianificazione](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
 * [Visualizzazione: URL esterno tramite campo dati personalizzato](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
 * [Visualizza: percentuale di disponibilità FTE per il ruolo utente](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-* [Visualizza: indisponibilità personale dell&#39;utente](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+* [Visualizzazione: indisponibilità personale dell’utente](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
@@ -103,7 +103,7 @@ Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggr
 * [Filtro: il report Approvazione bozza omette le versioni precedenti della bozza](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
 * [Filtro: creare più regole di filtro che fanno riferimento allo stesso campo (istruzioni &quot;AND&quot;)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [Filtro: visualizza report pianificati per la consegna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [Filtro: consente di visualizzare gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [Filtro: visualizzare gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## Esempi di raggruppamenti personalizzati
 
@@ -130,7 +130,7 @@ Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggr
 * [Report o elenchi: visualizza gli utenti associati a un oggetto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
 * [Rapporto: ore preventivate](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
 * [Report: attività e problema combinati Visualizzazione e raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
-* [Creare un grafico per un rapporto in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
+* [Creare un grafico per un rapporto da un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

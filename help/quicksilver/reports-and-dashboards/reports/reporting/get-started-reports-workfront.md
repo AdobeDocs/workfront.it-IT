@@ -3,11 +3,11 @@ content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Introduzione ai rapporti
-description: I rapporti forniscono visibilità su ciò che sta accadendo con gli utenti e il lavoro. Utilizzando i rapporti, puoi visualizzare informazioni sugli oggetti in Adobe Workfront.
-author: Nolan
+description: I report forniscono visibilità su ciò che sta accadendo con gli utenti e il lavoro. Utilizzando i report, potete visualizzare informazioni sugli oggetti in Adobe Workfront.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-I rapporti forniscono visibilità su ciò che sta accadendo con gli utenti e il lavoro. Utilizzando i rapporti, puoi visualizzare informazioni sugli oggetti in Adobe Workfront.
+I report forniscono visibilità su ciò che sta accadendo con gli utenti e il lavoro. Utilizzando i report, potete visualizzare informazioni sugli oggetti in Adobe Workfront.
 
-Per informazioni su come comprendere gli oggetti e come segnalarli nell&#39;applicazione Workfront, vedi [Panoramica sugli oggetti di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per informazioni sulla comprensione degli oggetti e su come possono essere segnalati nell&#39;applicazione Workfront, vedere [Panoramica degli oggetti Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Elementi del rapporto
+## Elementi del report
 
-I rapporti sono una combinazione dei seguenti tre elementi in Workfront:
+I report sono una combinazione dei tre elementi seguenti in Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ I rapporti sono una combinazione dei seguenti tre elementi in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filtro</td> 
-   <td> <li>Controlla la quantità di informazioni visualizzate in un report.</li> <li>Per informazioni sui filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri</a>.</li> <li>Per informazioni sui modificatori di filtro, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtro e di condizione</a>.</li> <li>Puoi filtrare utilizzando i caratteri jolly, per rendere i filtri più generali e dare loro maggiore flessibilità di utilizzo.</li> <li>Per informazioni sull'utilizzo dei caratteri jolly nei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabili filtro con caratteri jolly</a>.</li> </td> 
+   <td> <li>Controlla la quantità di informazioni visualizzate in un report.</li> <li>Per informazioni sui filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri</a>.</li> <li>Per informazioni sui modificatori di filtro, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtro e di condizione</a>.</li> <li>È possibile filtrare utilizzando i caratteri jolly per rendere i filtri più generali e renderli più flessibili nell'utilizzo.</li> <li>Per informazioni sull'utilizzo dei caratteri jolly nei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabili filtro con caratteri jolly</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Per migliorare i rapporti, puoi aggiungere i seguenti elementi:
 * Un grafico: una rappresentazione visiva dei risultati nel rapporto.\
   Per informazioni sui report grafico, vedere [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Un raggruppamento di matrici: riepiloga le informazioni del rapporto in un formato di tabella aggregata.\
+* Un raggruppamento di matrici: riepiloga le informazioni del report in un formato di tabella aggregata.\
   Per informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Un prompt: un filtro aperto che puoi personalizzare e applicare in modo diverso ogni volta che esegui il rapporto.\
@@ -68,21 +68,21 @@ Un altro modo per migliorare la pertinenza delle informazioni incluse nei rappor
 
 ## Rapporti di sistema
 
-Workfront fornisce diversi rapporti di sistema caricati nel sistema per impostazione predefinita.\
-Dopo aver inserito le informazioni nel sistema, puoi utilizzare questi rapporti per visualizzarle visivamente.
+Workfront fornisce diversi rapporti di sistema che vengono caricati nel sistema per impostazione predefinita.\
+Dopo aver inserito le informazioni nel sistema, è possibile utilizzare questi report per visualizzare le informazioni visivamente.
 
-Per ulteriori informazioni su come accedere ai report di sistema e quali report di sistema sono disponibili, vedere [Utilizzare i report incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Per ulteriori informazioni su come accedere ai report di sistema e sui report di sistema disponibili, vedere [Utilizzo dei report incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
-## Creare rapporti
+## Creazione di report
 
-Oltre ai rapporti sul sistema forniti da Workfront, puoi creare rapporti personalizzati per soddisfare le esigenze della tua organizzazione.
+Oltre ai report di sistema forniti da Workfront, è possibile creare report personalizzati in base alle esigenze dell&#39;organizzazione.
 
-Per creare un rapporto è possibile effettuare una delle seguenti operazioni:
+Per creare un report, effettua una delle seguenti operazioni:
 
-* Crea un rapporto da zero.
-* Copia un rapporto esistente.
+* Crea un report da zero.
+* Copia un report esistente.
 
-  Per copiare un report creato da un altro utente è necessario disporre almeno dell&#39;autorizzazione Visualizzazione. Per ulteriori informazioni sulla copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+  Per copiare un report creato da un altro utente, è necessario disporre almeno dell&#39;autorizzazione Visualizzazione. Per ulteriori informazioni sulla copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Per informazioni sulla creazione di report, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -115,25 +115,25 @@ Puoi vedere chi possiede un report esaminando il campo **Inserito da**.
 
 ### Creare rapporti nell’interfaccia di generazione {#create-reports-in-the-builder-interface}
 
-Per creare un nuovo rapporto, è consigliabile utilizzare prima l’interfaccia di creazione del rapporto. L’interfaccia offre un set di strumenti semplificati che ti guida attraverso la creazione di elementi per creare il rapporto desiderato. Puoi selezionare dagli elenchi e aggiungere oggetti e campi a tutti gli elementi di reporting.\
-Per ulteriori informazioni sulla creazione di report nell&#39;interfaccia di creazione report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per creare un nuovo rapporto, è consigliabile utilizzare prima l’interfaccia di creazione del rapporto. L’interfaccia offre un set di strumenti semplificato che consente di assemblare gli elementi per creare il report desiderato. Sono disponibili oggetti e campi che è possibile selezionare da elenchi e aggiungere a tutti gli elementi di reporting.\
+Per ulteriori informazioni sulla creazione di report nell&#39;interfaccia di generazione dei report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Per un elenco degli oggetti per i quali è possibile creare un report, vedere la sezione [Report sugli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) nell&#39;articolo [Panoramica sugli oggetti di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per un elenco degli oggetti su cui è possibile creare report, vedere la sezione [Report sugli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) nell&#39;articolo [Panoramica sugli oggetti Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Per ulteriori informazioni sui campi che è possibile visualizzare nei report, vedere [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-### Creare rapporti in modalità testo {#create-reports-in-text-mode}
+### Creazione di report in modalità Testo {#create-reports-in-text-mode}
 
-Talvolta potresti non essere in grado di trovare alcuni campi nell’interfaccia del generatore, ma potrebbero essere disponibili nell’API.\
-Per informazioni sui campi disponibili nell&#39;API, vedere l&#39;articolo [API Explorer](../../../wf-api/general/api-explorer.md).
+A volte potresti non essere in grado di trovare determinati campi nell’interfaccia del generatore, ma potrebbero essere disponibili nell’API.\
+Per informazioni sui campi disponibili nell&#39;API, vedere l&#39;articolo [Esplora API](../../../wf-api/general/api-explorer.md).
 
 Per informazioni sull&#39;utilizzo di API Explorer, vedere l&#39;articolo [Utilizzo di API Explorer](../../../wf-api/general/using-api-explorer.md).
 
 >[!NOTE]
 >
->Non è possibile creare rapporti nell’interfaccia di Workfront su oggetti non disponibili nel generatore di rapporti. Tuttavia, puoi creare rapporti sui campi associati agli oggetti nel Report Builder se tali campi sono disponibili tramite l’API. A tale scopo, è necessario utilizzare l&#39;interfaccia Modalità testo.
+>Non è possibile creare report nell&#39;interfaccia di Workfront per gli oggetti non disponibili in Generatore report. Tuttavia, puoi creare report sui campi associati agli oggetti nel generatore report, se tali campi sono disponibili tramite l’API. A tale scopo, è necessario utilizzare l’interfaccia Modalità testo.
 
-La modalità testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell&#39;interfaccia della modalità standard.
+La modalità Testo consente di creare visualizzazioni, filtri, raggruppamenti e richieste più complesse consentendo di utilizzare campi non disponibili nell&#39;interfaccia della modalità standard.
 
 #### Terminologia della modalità testo {#text-mode-terminology}
 
@@ -145,13 +145,13 @@ Per ulteriori dettagli sulla sintassi di Workfront per la modalità testo, veder
 
 Al di fuori dei rapporti sui campi non disponibili nell’interfaccia del generatore, puoi utilizzare la modalità Testo per visualizzare calcoli o confronti tra determinati campi.
 
-Per un elenco degli usi più comuni della modalità testo in un report, vedere [Panoramica degli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Per un elenco degli usi più comuni della modalità Testo in un report, vedere [Panoramica sugli usi comuni della modalità Testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Per informazioni sull&#39;inclusione dei dati personalizzati calcolati nei report, vedere [Dati personalizzati calcolati nei report](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Per informazioni sull&#39;inclusione di dati personalizzati calcolati nei report, vedere [Dati personalizzati calcolati nei report](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Per informazioni sul confronto dei campi nella formattazione condizionale, vedere [Confrontare i campi nella formattazione condizionale](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
-È inoltre possibile fare riferimento ai campi della raccolta utilizzando la modalità Testo nei rapporti.\
+È inoltre possibile fare riferimento ai campi della raccolta utilizzando la modalità Testo nei report.\
 Per informazioni sull&#39;utilizzo della modalità testo per visualizzare le informazioni sulla raccolta in un report, vedere [Riferimento alle raccolte in un report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 #### Esempi di modalità testo {#text-mode-samples}
@@ -162,7 +162,7 @@ Per sfogliare questa libreria e utilizzare alcuni esempi offerti, vedere l&#39;a
 
 ## Schede di un rapporto
 
-Un rapporto può contenere diverse schede quando lo si esegue nell’interfaccia.
+Un report può contenere diverse schede quando viene eseguito nell’interfaccia.
 
 Per informazioni sull&#39;esecuzione di un report, vedere l&#39;articolo [Eseguire un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
@@ -176,16 +176,16 @@ Nella scheda Dettagli di un report vengono visualizzati l&#39;oggetto dei report
 
 >[!IMPORTANT]
 >
->Le informazioni nella scheda Dettagli possono essere visualizzate in modo diverso rispetto alla scheda Grafico in base al fuso orario.\
->Ad esempio, un utente in California ha completato un&#39;attività alle 21:00 PST del 12 febbraio. :30 Quando un utente di New York visualizza un rapporto che include il completamento di questa attività, la Data di completamento effettiva viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico, perché è stata completata alle 12:30 del mattino EST del 13 febbraio. Tuttavia, nel grafico viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l’elemento del grafico.
+>Le informazioni nella scheda Dettagli potrebbero essere visualizzate in modo diverso rispetto alla scheda Grafico in base al fuso orario.\
+>Ad esempio, un utente in California ha completato un&#39;attività alle 21:00 PST il 12 febbraio. :30 Quando un utente di New York visualizza un report che include il completamento di questa attività, la data di completamento effettivo viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico perché è stata completata alle 12:30 del 13 febbraio EST. Nel grafico, tuttavia, viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l&#39;elemento grafico.
 
 ### Scheda Riepilogo {#summary-tab}
 
-I rapporti che includono un raggruppamento dispongono di una scheda Riepilogo.
+I report che includono un raggruppamento dispongono di una scheda Riepilogo.
 
-Le stesse informazioni visualizzate in formato elenco nella scheda Dettagli vengono riepilogate e aggregate in base ai raggruppamenti nel rapporto della scheda Riepilogo.
+Le stesse informazioni visualizzate in formato elenco nella scheda Dettagli vengono riepilogate e aggregate in base ai raggruppamenti nel report nella scheda Riepilogo.
 
-Per informazioni sui raggruppamenti, vedere [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Per informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ### Scheda Matrice {#matrix-tab}
 
@@ -224,18 +224,18 @@ Dopo aver creato un rapporto, puoi condividerlo con altri utenti.
 
 ### Concedere autorizzazioni di condivisione a un report {#give-sharing-permissions-to-a-report}
 
-È possibile assegnare autorizzazioni di condivisione a un altro utente per visualizzare o gestire un report creato. Puoi assegnare a un altro utente un livello di autorizzazioni uguale o inferiore al tuo. È inoltre possibile rendere pubblico un report utilizzando le autorizzazioni di condivisione. Per informazioni sulla condivisione di un report, vedere [Condividere un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+È possibile assegnare autorizzazioni di condivisione a un altro utente per visualizzare o gestire un report creato. È possibile assegnare a un altro utente un livello di autorizzazioni uguale o inferiore al proprio. È inoltre possibile rendere pubblico un report utilizzando le autorizzazioni di condivisione. Per informazioni sulla condivisione di un report, vedere [Condividere un report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-### Pianificare la consegna di un rapporto {#schedule-a-report-delivery}
+### Pianificare la consegna di un report {#schedule-a-report-delivery}
 
-Puoi pianificare un rapporto per la consegna. Gli utenti con cui stai condividendo il report ricevono un’e-mail con un allegato dei risultati del report. L&#39;allegato può essere nei seguenti formati:
+È possibile programmare un rapporto per la consegna. Gli utenti con cui condividi il report ricevono un messaggio e-mail con un allegato dei risultati del report. L&#39;allegato può essere nei seguenti formati:
 
 * HTML
 * PDF
 * Excel
 * .TSV
 
-Per informazioni sulla pianificazione della consegna di un report, vedi [Panoramica della consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Per informazioni sulla pianificazione della consegna di un report, vedere [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ### Esportare i risultati di un rapporto {#export-the-results-of-a-report}
 
@@ -264,9 +264,9 @@ Per informazioni sulla creazione e l&#39;utilizzo dei calendari, vedere [Panoram
 Dopo aver creato i rapporti e averli condivisi con altri utenti, puoi tenere traccia della frequenza con cui utilizzano tali rapporti.
 Per informazioni sull&#39;utilizzo del report, tra cui la frequenza con cui vengono visualizzati, l&#39;utente e le dashboard in cui vengono visualizzati, vedere l&#39;articolo [Panoramica sull&#39;utilizzo del report](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
 
-## Termini comuni utilizzati in riferimento ai rapporti
+## Termini comuni utilizzati in riferimento ai report
 
-I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
+I seguenti termini sono utilizzati in riferimento ai report di Workfront:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -310,7 +310,7 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
      <li>Colonna</li> 
      <li>Barra</li> 
      <li>Torta</li> 
-     <li>Linee</li> 
+     <li>LINE</li> 
      <li>Indicatori</li> 
      <li>Bolla</li> 
     </ul> <p>Per ulteriori informazioni sull'aggiunta di grafici ai report, vedere l'articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Aggiungere un grafico a un report</a>.</p> </td> 
@@ -321,15 +321,15 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
   </tr> 
   <tr> 
    <td>Espressione</td> 
-   <td>Un'espressione è una formula scritta in modalità testo per trasmettere le informazioni da cercare o visualizzare quando si utilizza l'interfaccia in modalità testo. In genere si tratta di una riga in un'istruzione Text Mode più grande.</td> 
+   <td>Un’espressione è una formula scritta in modalità Testo per trasmettere le informazioni da cercare o visualizzare quando si utilizza l’interfaccia in modalità Testo. Si tratta in genere di una riga in un'istruzione Text Mode più grande.</td> 
   </tr> 
   <tr> 
    <td>Campi</td> 
-   <td> <p>Si riferisce agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Portfolio Manager" è un campo per l'oggetto Portfolio.</p> <p>È inoltre possibile creare e aggiungere campi personalizzati ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
+   <td> <p>Fa riferimento agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Gestione Portfoli" è un campo per l’oggetto Portfolio.</p> <p>È inoltre possibile creare campi personalizzati da aggiungere ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nome campo </td> 
-   <td>Valore di un attributo visualizzato in una visualizzazione o utilizzato nella condizione di un filtro o come elemento comune di un raggruppamento. Le opzioni per Nome campo dipendono dalla selezione di Source campo.</td> 
+   <td>Valore di un attributo visualizzato in una visualizzazione o utilizzato nella condizione di un filtro oppure come elemento comune di un raggruppamento. Le opzioni per Nome campo dipendono dalla selezione Origine campo.</td> 
   </tr> 
   <tr> 
    <td>Sorgente Campo </td> 
@@ -341,7 +341,7 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
   </tr> 
   <tr> 
    <td>Modulo </td> 
-   <td>Utilizzato in modo intercambiabile con "Modulo personalizzato". I campi e le sezioni vengono aggiunti ai moduli, che vengono quindi allegati a un oggetto per estendere il numero di campi che è possibile associare a un oggetto.</td> 
+   <td>Utilizzato in modo intercambiabile con "Modulo personalizzato". I campi e le sezioni vengono aggiunti ai moduli, che vengono quindi associati a un oggetto per estendere il numero di campi che è possibile associare a un oggetto.</td> 
   </tr> 
   <tr> 
    <td>Raggruppamento </td> 

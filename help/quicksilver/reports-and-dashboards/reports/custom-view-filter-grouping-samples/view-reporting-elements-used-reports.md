@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: Elementi di reporting utilizzati nei rapporti'
 description: In questa vista vengono visualizzati la vista, il filtro e il raggruppamento utilizzati per creare ogni rapporto in Adobe Workfront quando lo si utilizza in un elenco di rapporti.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Visualizza: elementi di reporting utilizzati nei rapporti
+# Visualizzazione: elementi di reporting utilizzati nei rapporti
 
 <!--Audited: 11/2024-->
 
@@ -26,7 +26,7 @@ In questa vista vengono visualizzati la vista, il filtro e il raggruppamento uti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ In questa vista vengono visualizzati la vista, il filtro e il raggruppamento uti
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -47,13 +47,13 @@ In questa vista vengono visualizzati la vista, il filtro e il raggruppamento uti
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

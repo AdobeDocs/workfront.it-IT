@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Configurare la perdita di dati della scheda
 description: Puoi configurare una bacheca in modo che le schede vengano archiviate, o possano cadere dalla bacheca, secondo una pianificazione.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ Quando una scheda cade dalla bacheca, viene archiviata. Puoi visualizzare le sch
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,16 +33,16 @@ Quando una scheda cade dalla bacheca, viene archiviata. Puoi visualizzare le sch
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

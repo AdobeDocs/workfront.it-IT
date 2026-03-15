@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Raggruppare un report per un campo personalizzato a selezione multipla
-description: Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
-author: Nolan
+title: Raggruppare un report in base a un campo personalizzato a selezione multipla
+description: È possibile eseguire il raggruppamento in base al valore di un campo personalizzato a selezione multipla in un report di Adobe Workfront solo utilizzando la modalità testo.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
+È possibile eseguire il raggruppamento in base al valore di un campo personalizzato a selezione multipla in un report di Adobe Workfront solo utilizzando la modalità testo.
 
 Di seguito sono riportati alcuni esempi di campi personalizzati a selezione multipla:
 
@@ -34,12 +34,12 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
   Per ulteriori informazioni, vedere [Tracciare un report in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Gli elementi con una delle scelte selezionate vengono conteggiati una sola volta.
 
-  Ad esempio, se si dispone di un campo personalizzato Casella di controllo con le opzioni Scelta 1 e Scelta 2 e si allega il modulo alle attività, le attività con le opzioni Scelta 1 e Scelta 2 selezionate vengono raggruppate separatamente dalle attività con la sola scelta 1 o Scelta 2 selezionate.
+  Ad esempio, se si dispone di un campo personalizzato Casella di controllo con le opzioni Scelta 1 e Scelta 2 e si allega il modulo alle attività, le attività con entrambe le opzioni Scelta 1 e Scelta 2 selezionate vengono raggruppate separatamente dalle attività con solo Scelta 1 o Scelta 2 selezionate.
 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -60,13 +60,13 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,13 +98,13 @@ Per raggruppare in base a un campo personalizzato a selezione multipla in un rap
    </pre>
 
 1. Sostituisci &quot;Nome campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato nell’istanza di Workfront.
-1. Fare clic su **Salva e chiudi**.
+1. Fai clic su **Salva e chiudi**.
 
    Gli oggetti nel report sono raggruppati in base ai valori del campo personalizzato a selezione multipla.
 
    ![Raggruppamento del campo a selezione multipla](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
-   I nomi dei raggruppamenti del rapporto sono i nomi del campo personalizzato a selezione multipla seguiti dai valori selezionati nel campo.
+   Il nome dei raggruppamenti del report corrisponde ai nomi del campo personalizzato a selezione multipla seguito dai valori selezionati nel campo.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

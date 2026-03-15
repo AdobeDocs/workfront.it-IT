@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visualizzazione: visualizzazione delle informazioni su programmi e Portfolio in una visualizzazione attività'
-description: In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
-author: Nolan
+title: 'Visualizza: consente di visualizzare le informazioni sul programma e sul Portfolio in una visualizzazione delle attività.'
+description: In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili in Generatore report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Visualizza: visualizza le informazioni su Programma e Portfolio in una visualizzazione delle attività
+# Visualizzazione: mostrare informazioni su Programma e Portfolio in una vista attività
 
-In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili in Generatore report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
 
-Nella visualizzazione sono inoltre disponibili collegamenti a Progetto, Programma e Portfolio da un elenco di attività.
+Nella visualizzazione sono inoltre disponibili collegamenti a Project, Program e Portfolio da un elenco di attività.
 
 ![Visualizza programma e portfolio](assets/view--program-and-portfolio-350x116.png)
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,33 +35,33 @@ Nella visualizzazione sono inoltre disponibili collegamenti a Progetto, Programm
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un rapporto</p>
+   <p>Standard o piano per modificare un report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Visualizzare le informazioni su programmi e Portfolio in una visualizzazione delle attività
+## Visualizzare le informazioni sul programma e sul Portfolio in una visualizzazione delle attività
 
 1. Consente di passare a un elenco di attività.
-1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
+1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
 
-1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, fare clic su **Passa a modalità testo**, quindi su **Modifica modalità testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
+1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, fare clic su **Passa alla modalità Testo**, quindi su **Modifica modalità Testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
 
    ```
    column.0.descriptionkey=name
@@ -132,4 +132,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    column.3.width=150 
    ```
 
-1. Fai clic su **Fine** > **Salva visualizzazione**.
+1. Fai clic su **Fine** > **Salva vista**.

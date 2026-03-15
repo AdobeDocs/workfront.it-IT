@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Inviare un rapporto nell’ambiente Sandbox di anteprima
+title: Inviare un rapporto nell’ambiente sandbox di anteprima
 description: Le informazioni presenti in questa pagina si riferiscono alle funzionalità disponibili solo negli ambienti Sandbox di anteprima e aggiornamento personalizzato. Questa funzionalità non è disponibile nell’ambiente di produzione.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Inviare un rapporto nell’ambiente Sandbox di anteprima
+# Inviare un rapporto nell’ambiente sandbox di anteprima
 
 <!-- Audited: 11/2024 -->
 
@@ -35,7 +35,7 @@ A seconda della posizione in cui pianifichi i rapporti, la funzionalità di cons
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ A seconda della posizione in cui pianifichi i rapporti, la funzionalità di cons
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -59,13 +59,13 @@ A seconda della posizione in cui pianifichi i rapporti, la funzionalità di cons
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
      <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

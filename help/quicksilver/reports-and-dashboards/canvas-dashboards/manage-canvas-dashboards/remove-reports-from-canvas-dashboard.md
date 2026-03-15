@@ -3,14 +3,14 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Rimuovere rapporti da un dashboard
 description: Puoi rimuovere i rapporti da una dashboard dopo che sono stati aggiunti.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Dopo aver creato una dashboard e avervi aggiunto i rapporti, puoi rimuovere i ra
 
 La rimozione di un rapporto da un dashboard è permanente. Se devi aggiungere nuovamente un rapporto dopo che è stato eliminato, dovrai ricrearlo.
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -33,16 +33,16 @@ La rimozione di un rapporto da un dashboard è permanente. Se devi aggiungere nu
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Piano Adobe Workfront</p></td> 
    <td> 
 <p>Qualsiasi </p> 
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Corrente: Piano </p> 
-<p>Nuovo: Standard</p> 
+<p>Nuovo: standard</p> 
    </td> 
    </tr> 
   </tr> 
@@ -53,14 +53,14 @@ La rimozione di un rapporto da un dashboard è permanente. Se devi aggiungere nu
   </tr>  
     </tr>  
         <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti

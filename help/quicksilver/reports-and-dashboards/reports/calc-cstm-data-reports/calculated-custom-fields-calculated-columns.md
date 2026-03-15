@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Campi personalizzati calcolati e colonne calcolate
 description: Per aggregare diversi campi in Adobe Workfront e visualizzare tale valore aggregato in un nuovo campo, è possibile creare un campo personalizzato calcolato in un modulo personalizzato o una colonna calcolata in una visualizzazione.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -34,11 +34,11 @@ Anche se le funzioni utilizzate sono le stesse, la sintassi per la creazione di 
 
 Ad esempio:
 
-* In un campo personalizzato, in un modulo personalizzato per le attività, puoi utilizzare quanto segue per generare il nome del progetto principale dell’attività a cui è allegato il modulo personalizzato:
+* In un campo personalizzato, in un modulo personalizzato per le attività, dovresti utilizzare quanto segue per generare il nome del progetto principale dell’attività a cui è allegato il modulo personalizzato:
 
   `{project}.{name}`
 
-* In una colonna personalizzata di un report, utilizzare quanto segue per aggiungere una colonna personalizzata Nome progetto a un report attività:
+* In una colonna personalizzata di un rapporto, utilizza quanto segue per aggiungere una colonna personalizzata Nome progetto a un rapporto di attività:
 
   `valuefield=project:name`
 
@@ -69,13 +69,13 @@ Le differenze tra le due sintassi sono:
    <td> <p>Non racchiudere i nomi dei campi tra parentesi quadre o parentesi quando li si utilizza in una riga <code>valuefield </code>.</p> <p>Racchiudere i nomi dei campi tra parentesi graffe quando li si utilizza in una riga <code>valueexpression</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Separa i campi per periodi</td> 
+   <td>Separa i campi con dei punti</td> 
    <td> <p>Separa i campi con due punti quando li utilizzi in una riga <code>valuefield</code>.</p> <p>Separa i campi per punti quando li utilizzi in una riga <code>valueexpression</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personalizzata calcolata, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personalizzata calcolata, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Quando utilizzare i campi personalizzati calcolati
 
@@ -91,7 +91,7 @@ Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personali
 * Modifica in blocco di più oggetti quando si fa clic su **Ricalcola espressioni** dal menu Altro in un elenco di oggetti.
 * Modifica di un modulo personalizzato quando **Aggiorna calcoli precedenti** è abilitato per il campo personalizzato calcolato.
 
-Per ulteriori informazioni, vedere [Modificare le informazioni nei campi modulo personalizzato](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzato](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Quando utilizzare le colonne calcolate in una visualizzazione
 
@@ -114,4 +114,4 @@ Per esempi di campi personalizzati calcolati, vedere [Dati personalizzati calcol
 Per esempi di colonne personalizzate calcolate nelle viste, vedi i seguenti articoli:
 
 * [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Esempi di raggruppamento, filtro e viste personalizzate: indice degli articoli](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

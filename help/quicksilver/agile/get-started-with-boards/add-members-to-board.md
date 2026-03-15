@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungere o rimuovere membri da una bacheca
 description: Le persone devono essere aggiunte alla bacheca come membri prima che possano visualizzare la bacheca e essere assegnate alle schede.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Aggiungere o rimuovere membri da una bacheca
+# Aggiungere o rimuovere i membri da una bacheca
 
 Persone e team devono essere aggiunti alla bacheca come membri prima che possano visualizzarla.
 
@@ -21,7 +21,7 @@ Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,16 +32,16 @@ Per impostazione predefinita, il proprietario è il creatore di una bacheca. Il 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

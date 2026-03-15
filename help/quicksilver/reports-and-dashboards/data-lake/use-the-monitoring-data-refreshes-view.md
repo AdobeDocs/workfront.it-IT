@@ -1,20 +1,21 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Connessione dati
+title: Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Data Connect
 description: Con Data Connect, gli amministratori di Workfront possono accedere ai record dettagliati degli ultimi aggiornamenti apportati alla data del data del data lake durante l’aggiornamento più recente.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Connessione dati
+# Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Data Connect
 
-La visualizzazione Aggiornamenti dati di monitoraggio visualizza gli aggiornamenti recenti apportati alla data del data del data lake durante l&#39;aggiornamento più recente. I dati di questa visualizzazione vengono aggiornati dopo ogni completamento corretto di un caricamento di dati.
+La visualizzazione Aggiornamenti dati di monitoraggio mostra gli aggiornamenti recenti apportati alla data del lago dati durante l&#39;aggiornamento più recente. I dati di questa visualizzazione vengono aggiornati dopo ogni completamento di un caricamento dati.
 
 A causa dell&#39;elevato volume di dati e della complessità delle aggregazioni, la visualizzazione Aggiornamenti dati di monitoraggio mostra solo le visualizzazioni oggetto aggiornate nelle ultime 2 settimane. Se in questa visualizzazione manca un tipo di record specifico, è probabile che ciò sia dovuto a una mancanza di attività in tale arco temporale.
 
@@ -77,7 +78,7 @@ Le colonne della vista Aggiornamenti dati di monitoraggio contengono le informaz
                 <tr>
         <td>ELIMINATO</td>
         <td>Numero </td>
-        <td>Un conteggio degli eventi del record DELETE acquisiti tra gli aggiornamenti dei dati precedenti e più recenti per il tipo di oggetto. </td>
+        <td>Conteggio degli eventi dei record DELETE acquisiti tra l'aggiornamento dei dati precedente e quello più recente per il tipo di oggetto. </td>
     </tr>
                 <tr>
         <td>TOTALE</td>
@@ -87,4 +88,3 @@ Le colonne della vista Aggiornamenti dati di monitoraggio contengono le informaz
         <br><b>Nota</b>: non corrisponde al numero totale di record interessati dagli eventi CREATE, UPDATE o DELETE, poiché lo stesso record può essere CREATO e AGGIORNATO più volte nell'intervallo tra gli aggiornamenti.  </td>
     </tr>
    </table>
-

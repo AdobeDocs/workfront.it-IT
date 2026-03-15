@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Operatori condizione nelle espressioni personalizzate calcolate
+title: Operatori di condizione nelle espressioni personalizzate calcolate
 description: È possibile utilizzare operatori di condizione o modificatori per la creazione di dati personalizzati calcolati in Adobe Workfront quando si utilizza la modalità testo.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -28,10 +28,10 @@ Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 
 * Viste
 * Raggruppamenti
-* Campi personalizzati calcolati
+* Configurare campi personalizzati
 * Regole di business
 
-Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [&#x200B; Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Per ulteriori informazioni sulla creazione delle istruzioni “IF”, consulta [Panoramica delle istruzioni “IF”](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Gli esempi in questa guida illustrano l’utilizzo degli operatori condizione nei campi personalizzati calcolati. Puoi utilizzarli anche in colonne o raggruppamenti personalizzati calcolati, seguendo la sintassi corretta per i campi personalizzati calcolati nei rapporti.
 
@@ -66,7 +66,7 @@ In Workfront puoi utilizzare i seguenti modificatori di condizioni:
    <td>Utilizzare questo operatore per indicare che la condizione viene soddisfatta quando il primo campo dell'istruzione è maggiore del secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
-   <td>Maggiore o uguale a </td> 
+   <td>È maggiore di o uguale a </td> 
    <td>&gt;= </td> 
    <td>Utilizzare questo operatore per indicare che la condizione è soddisfatta quando il primo campo dell'istruzione è maggiore o uguale al secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 

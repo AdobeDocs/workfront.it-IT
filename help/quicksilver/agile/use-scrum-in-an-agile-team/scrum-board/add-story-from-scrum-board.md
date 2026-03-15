@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Aggiungi storie e problemi dalla bacheca Scrum
 description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca Scrum, oppure aggiungere una storia o un problema esistente dalla bacheca.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -23,9 +23,9 @@ Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -40,13 +40,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
   </tr>
    <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Accesso [!UICONTROL Gestisci] al progetto in cui si trova l'attività o il problema </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL Name]</strong></td>
+        <td><strong>[!UICONTROL Nome]</strong></td>
         <td>(Obbligatorio) Nome della storia o del problema.</td>
     </tr>
     <tr>
@@ -73,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>Progetto padre </strong></td>
+        <td><strong>Progetto padre [!UICONTROL]</strong></td>
         <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>

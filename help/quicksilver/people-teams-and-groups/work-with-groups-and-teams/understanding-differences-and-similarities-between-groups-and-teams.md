@@ -3,14 +3,14 @@ content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Gruppi e team in Workfront
-description: I gruppi e i team sono raccolte di utenti in Adobe Workfront. Scopri le differenze e le analogie tra gruppi e team.
-author: Jenny and Becky
+description: I gruppi e i team sono raccolte di utenti in Adobe Workfront. Scopri le differenze e le somiglianze tra gruppi e team.
+author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-I gruppi e i team sono insiemi di utenti in [!DNL Adobe Workfront].
+I gruppi e i team sono raccolte di utenti in [!DNL Adobe Workfront].
 
 Anche se è possibile designare un solo Gruppo predefinito e un Team predefinito per utente, ogni utente può appartenere a un numero illimitato di team o gruppi. Tuttavia, per evitare confusione, consigliamo che ogni utente appartenga a un numero limitato di team e gruppi.
 
@@ -34,11 +34,11 @@ Per ulteriori informazioni sulla creazione e la gestione dei gruppi, vedere [Cre
 
 ## Utilizzare i team per rappresentare la struttura di lavoro in un reparto
 
-È consigliabile configurare i team in modo che corrispondano alla struttura di lavoro quotidiana dei team dipartimentali.
+Ti consigliamo di configurare i team in modo che corrispondano alla struttura di lavoro quotidiana dei team di reparto.
 
-È possibile, ad esempio, disporre di un team Payroll, di un team Accounts Payable e di un team Accounts Receivable. In genere, le persone di ciascuno di questi team lavorano su progetti, attività o problemi simili per tali team.
+Ad esempio, è possibile disporre di un team Payroll, di un team Accounts Payable e di un team Accounts Receivable. In genere, gli utenti di ciascuno di questi team lavorano su progetti, attività o problemi simili per tali team.
 
-Per ulteriori informazioni sulla creazione e la gestione dei team, vedere [Creare e gestire i team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+Per ulteriori informazioni sulla creazione e la gestione dei team, vedere [Creazione e gestione dei team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
 ## Confronto delle funzionalità di gruppo e team
 
@@ -47,7 +47,7 @@ La tabella seguente illustra le differenze e le analogie tra gruppi e team:
 | **Funzionalità** | **Gruppo** | **Team** |
 |---|---|---|
 | Un planner può creare |  | ✓ |
-| Solo un amministratore di Workfront può creare | ✓ |  |
+| Solo un amministratore Workfront può creare | ✓ |  |
 | Condividere gli oggetti | ✓ | ✓ |
 | Assegna un&#39;attività |  | ✓ |
 | Assegnare un problema |  | ✓ |
@@ -58,11 +58,11 @@ La tabella seguente illustra le differenze e le analogie tra gruppi e team:
 | Visualizza nell’area Persone o Team |  | ✓ |
 | Visualizza elenco Lavori in corso |  | ✓ |
 | Filtrare gli utenti nella pianificazione risorse | ✓ | ✓ |
-| Filtrare gli utenti nel Bilanciatore dei carichi di lavoro | ✓ | ✓ |
-| Filtrare gli utenti nel rapporto Utilizzo | ✓ | ✓ |
-| Visibilità dei percorsi delle milestone per un progetto o un modello | ✓ |  |
-| Visibilità di Custom Forms | ✓ |  |
-| Visibilità degli Schedules | ✓ |  |
+| Filtrare gli utenti nel bilanciamento del carico di lavoro | ✓ | ✓ |
+| Filtrare gli utenti nel report Utilizzo | ✓ | ✓ |
+| Visibilità dei percorsi cardine per un progetto o un modello | ✓ |  |
+| Visibilità del Forms personalizzato | ✓ |  |
+| Visibilità delle pianificazioni | ✓ |  |
 | Assegna profili scheda orario | ✓ | ✓ |
 | Assegna modelli di layout | ✓ | ✓ |
 | Qualsiasi utente con una licenza Pianificazione può assegnarla a un altro utente |  | ✓ |

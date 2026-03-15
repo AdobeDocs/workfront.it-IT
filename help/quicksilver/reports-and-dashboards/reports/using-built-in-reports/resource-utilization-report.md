@@ -2,20 +2,20 @@
 content-type: overview
 product-area: reporting
 navigation-topic: using-built-in-reports
-title: Panoramica del rapporto Utilizzo risorse
+title: Panoramica sul rapporto Utilizzazione risorse
 description: I rapporti Utilizzo consentono di visualizzare l'avanzamento o il costo di uno o più progetti in un unico rapporto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Panoramica del rapporto Utilizzo risorse
+# Panoramica sul rapporto Utilizzazione risorse
 
 <!--Audited: 11/2024-->
 

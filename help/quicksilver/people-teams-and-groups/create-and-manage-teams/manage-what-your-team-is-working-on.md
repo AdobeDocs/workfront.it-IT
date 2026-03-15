@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Gestire le attività del team
 description: È disponibile una visualizzazione calendario delle attività e dei problemi su cui il team sta attualmente lavorando. È possibile assegnare articoli non assegnati, adeguare le assegnazioni correnti, adeguare le allocazioni correnti e altro ancora.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Gestire il lavoro del team
+# Gestire su cosa lavora il team
 
 Nella sezione [!UICONTROL Richieste team] del team è disponibile un elenco di elementi su cui il team sta lavorando.
 

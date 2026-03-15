@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Stampare un dashboard
+title: Stampare una dashboard
 description: È possibile stampare o esportare un dashboard in un file con estensione PDF. Per stampare un dashboard, è necessario disporre dell'autorizzazione per visualizzarlo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Stampare un dashboard
+# Stampare una dashboard
 
 <!-- Audited: 1/2025 -->
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,10 +36,10 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
-      <p>Lavoro o superiore</p>
+      <p>Work o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -47,13 +47,13 @@ ht-degree: 0%
    <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr>  
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Le seguenti informazioni non sono incluse nel file del dashboard stampato o espo
 * Qualsiasi altra formattazione specifica di Workfront
 * A seconda delle dimensioni dei report e del numero e della larghezza delle singole colonne, l’esportazione e la stampa di un dashboard potrebbero causare la disattivazione di alcune colonne.
 
-## Stampare un dashboard
+## Stampare una dashboard
 
 1. Passare alla dashboard che si desidera stampare.
 1. Effettuare una delle seguenti operazioni:

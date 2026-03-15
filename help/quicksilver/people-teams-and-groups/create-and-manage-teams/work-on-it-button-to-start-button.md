@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Sostituisci il pulsante Lavoraci con un pulsante Start
 description: La configurazione predefinita di Adobe Workfront include un pulsante Lavoraci per le attività e i problemi visualizzati per gli elementi assegnati.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ La configurazione predefinita di [!DNL Adobe Workfront] include un pulsante [!UI
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ La configurazione predefinita di [!DNL Adobe Workfront] include un pulsante [!UI
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>
@@ -44,7 +44,7 @@ La configurazione predefinita di [!DNL Adobe Workfront] include un pulsante [!UI
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

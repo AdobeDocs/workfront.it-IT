@@ -3,28 +3,28 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: Mostra attività padre fino a 4 livelli di profondità'
-description: Questa visualizzazione delle attività mostra il nome dell'attività nella prima colonna e (se esistono) fino a 4 attività padre in colonne separate nello stesso elenco.
-author: Nolan
+description: Questa visualizzazione delle attività mostra il nome dell'attività nella prima colonna e (se esistono) fino a 4 attività principali in colonne separate dello stesso elenco.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Visualizza: mostra le attività padre fino a 4 livelli di profondità
+# Visualizzazione: mostrare le attività padre fino a 4 livelli di profondità
 
 <!--Audited: 11/2024-->
 
-Questa visualizzazione delle attività mostra il nome dell&#39;attività nella prima colonna e (se esistono) fino a 4 attività padre in colonne separate nello stesso elenco.
+Questa visualizzazione delle attività mostra il nome dell&#39;attività nella prima colonna e (se esistono) fino a 4 attività principali in colonne separate dello stesso elenco.
 
 ![parent_tasks_4_levels_deep.png](assets/parent-tasks-4-levels-deep-350x29.png)
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,34 +35,34 @@ Questa visualizzazione delle attività mostra il nome dell&#39;attività nella p
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un rapporto</p>
+   <p>Standard o piano per modificare un report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## Mostra attività padre fino a 4 livelli
+## Mostra attività principali fino a 4 livelli
 
 1. Consente di passare a un elenco di attività.
-1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
-1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa a modalità testo** > **Modifica modalità testo**.
-1. Rimuovere il testo trovato nella casella **Modalità testo** e sostituirlo con il seguente codice:
+1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità Testo** > **Modifica modalità Testo**.
+1. Rimuovi il testo trovato nella casella **Modalità testo** e sostituiscilo con il codice seguente:
 
 
    ```
@@ -147,6 +147,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    column.4.width=150
    ```
 
-1. Fai clic su **Fine** > **Salva visualizzazione**.
+1. Fai clic su **Fine** > **Salva vista**.
 
-   Il nome dell&#39;attività viene visualizzato nella prima colonna e, se l&#39;attività ha padri, nelle colonne rimanenti vengono visualizzati fino a 4 padri.
+   Il nome dell&#39;attività viene visualizzato nella prima colonna e, se l&#39;attività ha elementi padre, nelle colonne rimanenti vengono visualizzati fino a 4 elementi padre.

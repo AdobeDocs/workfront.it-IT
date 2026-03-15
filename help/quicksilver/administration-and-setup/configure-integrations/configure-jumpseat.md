@@ -6,12 +6,12 @@ title: Configurare l’integrazione JumpSeat
 description: Puoi integrare  [!DNL JumpSeat] con [!DNL Workfront] per creare guide personalizzate interne al prodotto.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -53,7 +53,7 @@ ht-degree: 6%
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +90,7 @@ Per configurare l&#39;integrazione di [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

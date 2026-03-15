@@ -6,12 +6,12 @@ title: Nascondi rapporti incorporati
 description: Adobe Workfront dispone di un ampio elenco di rapporti predefiniti a cui gli utenti possono accedere e visualizzare. In qualità di amministratore di Workfront, puoi modificare il livello di accesso di un utente per nascondere i rapporti incorporati in modo che gli utenti non possano accedervi.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront dispone di un ampio elenco di rapporti predefiniti a cui gli ute
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Adobe Workfront dispone di un ampio elenco di rapporti predefiniti a cui gli ute
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -45,7 +45,7 @@ Adobe Workfront dispone di un ampio elenco di rapporti predefiniti a cui gli ute
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

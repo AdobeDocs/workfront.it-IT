@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Report o elenchi: visualizza gli utenti associati a un oggetto'
-description: Puoi visualizzare gli utenti, i ruoli e i team associati agli oggetti nei rapporti o negli elenchi, nonché farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento per utenti, mansioni o team associati agli oggetti.
-author: Lisa and Jenny
+title: 'Rapporti o elenchi: visualizzare gli utenti associati a un oggetto'
+description: È possibile visualizzare gli utenti, i ruoli di lavoro e i team associati agli oggetti nei report o negli elenchi e farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento per utenti, mansioni o team associati agli oggetti.
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Report o elenchi: visualizza gli utenti associati a un oggetto
+# Rapporti o elenchi: visualizzare gli utenti associati a un oggetto
 
-Puoi visualizzare gli utenti, i ruoli e i team associati agli oggetti nei rapporti o negli elenchi, nonché farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento per utenti, mansioni o team associati agli oggetti.
+È possibile visualizzare gli utenti, i ruoli di lavoro e i team associati agli oggetti nei report o negli elenchi e farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento in base a utenti, ruoli di lavoro o team associati a oggetti.
 
 Puoi visualizzare o filtrare per utenti, ruoli o team associati ai seguenti oggetti:
 
@@ -38,7 +38,7 @@ Puoi visualizzare o filtrare per utenti, ruoli o team associati ai seguenti ogge
   </tr> 
   <tr> 
    <td role="rowheader">Problemi</td> 
-   <td>Puoi visualizzare e filtrare per tutti gli utenti, le mansioni e i team assegnati a un problema in un rapporto sui problemi.</td> 
+   <td>È possibile visualizzare e filtrare in base a tutti gli utenti, i ruoli di lavoro e i team assegnati a un problema in un report di problema.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portfolio</td> 
@@ -57,11 +57,11 @@ Puoi visualizzare o filtrare per utenti, ruoli o team associati ai seguenti ogge
 
 ![Progetto con informazioni su utente e ruolo](assets/project-with-user-and-role-information-report-350x100.png)
 
-Per informazioni sulla creazione di un report di progetto per visualizzare tutti gli utenti e i relativi ruoli nel progetto, vedere [Visualizza: elenco di utenti del progetto con ruoli](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Per informazioni sulla creazione di un report di progetto per visualizzare tutti gli utenti e i relativi ruoli nel progetto, vedere [Visualizza: elenco di utenti del progetto con ruoli di processo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-Non è possibile filtrare gli utenti o i ruoli associati ai progetti in un filtro di progetto.
+Non è possibile filtrare gli utenti o i ruoli di lavoro associati ai progetti in un filtro di progetto.
 
-## Visualizza tutti gli utenti, le mansioni o i team assegnati a un&#39;attività
+## Visualizzare tutti gli utenti, i ruoli di lavoro o i team assegnati a un&#39;attività
 
 È possibile visualizzare tutti gli utenti, i ruoli o i team assegnati a un&#39;attività nella visualizzazione di un elenco di attività o di un report aggiungendo il campo Assegnazioni alla visualizzazione.
 
@@ -77,9 +77,9 @@ Puoi filtrare in base agli utenti, alle mansioni o ai team assegnati alle attivi
 
 ## Visualizza tutti gli utenti, le mansioni o i team assegnati a un problema
 
-È possibile visualizzare tutti gli utenti, i ruoli o i team assegnati a un problema nella visualizzazione di un elenco o di un report di problemi aggiungendo il campo Assegnazioni alla visualizzazione.
+È possibile visualizzare tutti gli utenti, i ruoli o i team assegnati a un problema nella visualizzazione di un elenco di problemi o di un report aggiungendo il campo Assegnazioni alla visualizzazione.
 
-Puoi filtrare in base agli utenti, alle mansioni o ai team assegnati ai problemi facendo riferimento ai campi seguenti in un filtro dei problemi:
+Puoi filtrare in base agli utenti, ai ruoli di lavoro o ai team assegnati ai problemi facendo riferimento ai seguenti campi in un filtro per problemi:
 
 * Assegnazione Utente
 * Assegnazioni Ruoli
@@ -95,8 +95,8 @@ Non puoi filtrare gli utenti o i ruoli associati ai progetti in un filtro portfo
 
 ## Visualizza tutti gli utenti e i ruoli associati a un programma
 
-È possibile visualizzare tutti gli utenti e i ruoli associati a un programma visualizzandoli in un report di progetto e quindi raggruppando il report per Programma.
+È possibile visualizzare tutti gli utenti e i ruoli associati a un programma visualizzandoli in un report del progetto e quindi raggruppandoli per programma.
 
-Per informazioni sulla creazione di un report di progetto per visualizzare tutti gli utenti e i relativi ruoli nel progetto, vedere [Visualizza: elenco di utenti del progetto con ruoli](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Per informazioni sulla creazione di un report di progetto per visualizzare tutti gli utenti e i relativi ruoli nel progetto, vedere [Visualizza: elenco di utenti del progetto con ruoli di processo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-Non è possibile filtrare gli utenti o i ruoli associati ai progetti in un programma o in un filtro di progetto.
+Non è possibile filtrare gli utenti o i ruoli di lavoro associati ai progetti in un programma o in un filtro di progetto.

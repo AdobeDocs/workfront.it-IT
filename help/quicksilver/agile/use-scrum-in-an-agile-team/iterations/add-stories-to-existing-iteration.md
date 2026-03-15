@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Aggiungi storie a un'iterazione esistente
 description: È possibile aggiungere storie a un'iterazione in molti modi.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Aggiungere brani a un&#39;iterazione esistente
+# Aggiungere storie a un’iterazione esistente
 
 È possibile aggiungere brani a un&#39;iterazione in uno dei seguenti modi:
 
@@ -35,18 +35,18 @@ ht-degree: 3%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
    <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l'accesso al progetto a cui appartiene il brano </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

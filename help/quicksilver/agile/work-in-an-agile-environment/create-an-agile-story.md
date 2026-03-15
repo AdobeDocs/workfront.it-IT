@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Creare una storia Agile
 description: Puoi creare una storia Agile su un’iterazione in vari modi. Dopo aver creato un brano Agile, potete aggiungere sottoattività al brano.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -36,18 +36,18 @@ Per informazioni su come gestire il brano dopo che è stato aggiunto all&#39;ite
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l'accesso al progetto a cui appartiene il brano </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,15 +88,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Specificate la stima per il brano. Se il team Agile è configurato per stimare le storie in punti, per impostazione predefinita 1 punto equivale a 8 ore. Le stime vengono aggiunte come [!UICONTROL Lavoro Necessario] alla storia.<br>Ad esempio, se si stima una storia come 3 punti, il comportamento predefinito consiste nell'aggiungere 24 [!UICONTROL Planned Hours] alla storia.<br>Se un brano contiene sottoattività, tenere presente che le stime combinate di tutte le sottoattività determinano la stima del brano principale. Per ulteriori informazioni, vedere <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Aggiungere brani a un'iterazione esistente</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre </strong></td>
+      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
       <td>Inizia a digitare il nome del progetto a cui sarà associata questa storia.<br>Per impostazione predefinita, il colore del brano viene visualizzato con lo stesso colore degli altri brani di questo progetto.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Attività Padre]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Attività padre]</strong></td>
       <td>Dopo aver scelto un progetto padre, è possibile scegliere un'attività padre. Quando si seleziona un'attività padre, il brano viene creato come sottoattività dell'attività padre nel progetto selezionato.<br>Iniziare a digitare il nome dell'attività padre per il brano, quindi fare clic su di esso quando viene visualizzato nell'elenco a discesa.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Campi personalizzati]</strong></td>
       <td>Seleziona i moduli personalizzati da aggiungere alla storia.</td>
      </tr>
     </tbody>

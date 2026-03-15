@@ -1,14 +1,14 @@
 ---
 content-type: overview
-title: Panoramica di riepilogo
+title: Panoramica del riepilogo
 description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le informazioni sugli elementi di lavoro direttamente da un elenco di attività, documenti o da altre aree di [!DNL Adobe Workfront]  che visualizzano attività e problemi.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -57,7 +57,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario </td> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +71,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario </td> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

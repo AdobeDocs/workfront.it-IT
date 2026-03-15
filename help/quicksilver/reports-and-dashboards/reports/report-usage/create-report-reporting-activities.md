@@ -3,24 +3,24 @@ product-area: reporting
 keywords: modifica,proprietario,condiviso,report,condivisione,esecuzione,utente,accesso,diritti,inserito,ultimo,visualizzato,data,report,attività
 navigation-topic: report-usage
 title: Creare un rapporto sulle attività di reporting
-description: Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l'esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
-author: Nolan
+description: Quando crei un report sui report, puoi identificare informazioni specifiche sul report, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che intendi eliminare e così via.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 # Creare un rapporto sulle attività di reporting
 
-Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l&#39;esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
+Quando crei un report sui report, puoi identificare informazioni specifiche sul report, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che intendi eliminare e così via.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,23 +31,23 @@ Quando si crea un report sui report, è possibile identificare informazioni spec
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
+   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,14 +62,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    | Campo | Descrizione |
    |---|---|
-   | **Esegui come utente: Nome** | Questo è l&#39;utente specificato in **Esegui il report con i diritti di accesso di:** nel report. Se l&#39;utente è disattivato, il report non viene visualizzato per nessuno con cui è condiviso. |
+   | **Esegui come utente: nome** | Questo è l&#39;utente specificato in **Esegui il report con i diritti di accesso di:** nel report. Se l&#39;utente è disattivato, il report non viene visualizzato per nessuno con cui è condiviso. |
    | **Condiviso con** | Queste sono tutte le entità con cui è condiviso il report. |
    | **Inserito da** | Questo è il proprietario del rapporto. |
    | **Data ultima visualizzazione** | Data e ora dell&#39;ultima visualizzazione del report da parte di un utente. |
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Per limitare l’elenco dei rapporti a specifici utenti disattivati:
+1. (Facoltativo) Per limitare l’elenco dei report a specifici utenti disattivati:
 
    1. Seleziona la scheda **Filtri**, quindi fai clic su **Aggiungi regola filtro**.
 
@@ -88,17 +88,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Vengono visualizzate le informazioni del rapporto.
 
-1. (Facoltativo) Esporta il report in Excel e salvalo nel computer.\
+1. (Facoltativo) Esporta il report in Excel e salvalo sul computer.\
    Per informazioni sull&#39;esportazione di un report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Aggiornare le informazioni su un report
 
-Dopo aver creato il rapporto, puoi aggiornarlo in base alle esigenze.
+Dopo aver creato il report, puoi aggiornarlo in base alle esigenze.
 
 1. Vai al rapporto che desideri aggiornare.
 1. A seconda dell&#39;azione che si desidera eseguire, eseguire una delle operazioni seguenti:
 
-   * Aggiornare **Esegui il report con i diritti di accesso di:** a un utente attivo: per ulteriori informazioni, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+   * Aggiorna il report **Esegui il report con i diritti di accesso di:** a un utente attivo: per ulteriori informazioni, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
    * Creare una copia del report: per ulteriori informazioni, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
    * Eliminare un report: per ulteriori informazioni, vedere la sezione [Creare una copia esatta di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) dell&#39;articolo [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

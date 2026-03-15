@@ -1,20 +1,20 @@
 ---
 title: Miglioramenti alla verifica e alla gestione dei documenti nel terzo trimestre del 2025
 description: Miglioramenti alla verifica e alla gestione dei documenti nel terzo trimestre del 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 2ff08963018c83e8d4fe88446f26efc115111a5e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # Miglioramenti alla verifica e alla gestione dei documenti nel terzo trimestre del 2025
 
-Questa pagina descrive tutti i miglioramenti alla gestione dei documenti apportati con la versione del terzo trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti alla gestione dei documenti apportati con la versione del terzo trimestre 2025 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
@@ -49,7 +49,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.50.
 
 Questo aggiornamento include aggiornamenti interni degli strumenti e non influisce sulle funzionalità dell’utente finale.
 
-Questo aggiornamento è sia per Mac che per Windows.
+Questo aggiornamento è valido sia per Mac che per Windows.
 
 ## Nuova integrazione di Proofing e GenStudio for Performance Marketing
 
@@ -57,7 +57,7 @@ Questo aggiornamento è sia per Mac che per Windows.
 >
 >* Versione di produzione per tutti i clienti: 12 giugno 2025
 
-Siamo entusiasti di introdurre una nuova integrazione tra Proofing e GenStudio for Performance Marketing. Con questa integrazione, puoi
+Siamo entusiasti di introdurre una nuova integrazione tra Proofing e GenStudio for Performance Marketing. Con questa nuova integrazione puoi:
 
 * Utilizzare i modelli di approvazione di Workfront per definire i flussi di lavoro di approvazione
 
@@ -77,7 +77,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.48.
 
 Questo aggiornamento è una correzione di un problema per mantenere il Visualizzatore desktop compatibile con i sistemi operativi Mac. L&#39;Electron fu declassato a 34.4.0 e il Chromium a 132.
 
-Questo aggiornamento è sia per Mac che per Windows.
+Questo aggiornamento è valido sia per Mac che per Windows.
 
 
 ## Assets in una cartella Google collegata deve essere aggiunto singolarmente per essere visualizzato in Workfront

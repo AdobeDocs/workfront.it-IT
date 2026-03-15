@@ -1,17 +1,17 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: '"Reporting Canvas beta: overview" (Reporting Canvas beta: panoramica)'
+title: 'Reporting Canvas beta: panoramica'
 description: Informazioni sul programma beta per il prossimo strumento Reporting Canvas per Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ Per fornire il consenso ad altri utenti che non sono amministratori di Workfront
    >Gli utenti a cui si concede l&#39;accesso a Reporting Canvas avranno accesso a **tutti** i dati nel sistema in sola lettura, indipendentemente dalle autorizzazioni standard per la visualizzazione di tali dati.
 
 1. Fai clic su **Salva**.
-1. Aggiungi l&#39;icona **Generazione rapporti (versione beta)** nel modello di layout principale di ogni utente selezionato. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Aggiungi l&#39;icona **Generazione rapporti (versione beta)** nel modello di layout principale di ogni utente selezionato. Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Ogni utente deve quindi passare individualmente all&#39;icona **Reporting (beta)** nel menu principale e accettare i termini e le condizioni.
 
 ### Invia feedback
@@ -119,7 +119,7 @@ Per fornire la versione beta ai nostri clienti il prima possibile, l’abbiamo r
 No. La versione beta utilizza una copia dei dati dell’organizzazione che viene inserita nell’area di lavoro dei rapporti. Anche se questo significa che sei sicuro di sperimentare durante la versione beta senza il rischio di influenzare i dati importanti, significa anche che la modifica in linea dei dati nell’Area di lavoro di reporting non sarà disponibile fino al lancio ufficiale.
 +++
 
-+++Posso rinunciare alla versione beta dopo l’iscrizione?
++++Posso rinunciare alla versione beta una volta che mi sono iscritto?
 
 Un amministratore di Workfront non può rinunciare alla versione beta, ma può essere rimosso effettuando le seguenti operazioni:
 

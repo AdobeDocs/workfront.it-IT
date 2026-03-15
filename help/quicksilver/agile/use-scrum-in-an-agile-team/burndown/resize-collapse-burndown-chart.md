@@ -1,27 +1,27 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Ridimensionare e comprimere il grafico Burndown
-description: È possibile ridimensionare o comprimere il grafico a bruciatura per regolare lo spazio occupato sullo storyboard.
-author: Jenny
+title: Ridimensionare e comprimere il grafico a discesa
+description: È possibile ridimensionare o comprimere il grafico a dispersione per regolare la quantità di spazio occupata nell'area brani.
+author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Ridimensionare e comprimere il grafico a dispersione
+# Ridimensionare e comprimere il grafico lavoro
 
-È possibile ridimensionare o comprimere il grafico a bruciatura per regolare lo spazio occupato sullo storyboard.
+È possibile ridimensionare o comprimere il grafico a dispersione per regolare la quantità di spazio occupata nell&#39;area brani.
 
-Qualsiasi modifica apportata alle dimensioni o alla visibilità del grafico a burn-down è visibile solo all&#39;utente e viene reimpostata quando si cancella la cache del browser.
+Tutte le modifiche apportate alle dimensioni o alla visibilità del grafico a dispersione sono visibili solo all&#39;utente che le ha apportate e vengono reimpostate quando si cancella la cache del browser.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +34,14 @@ Qualsiasi modifica apportata alle dimensioni o alla visibilità del grafico a bu
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Chiaro o superiore</p> 
-   <p>Revisione o successiva</p> </td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Leggero o superiore</p> 
+   <p>Revisione o superiore</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,17 +49,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-to-team}}
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Passare all&#39;iterazione contenente il grafico a burn-down che si desidera ridimensionare.
-1. Passa il puntatore del mouse sulla linea inferiore del grafico a burn-down, quindi trascina il grafico fino a ottenere le dimensioni desiderate.
-   ![Ridimensionare il grafico di burn-down](assets/burndown-resize.png)
+1. Passare all&#39;iterazione che contiene il grafico di masterizzazione da ridimensionare.
+1. Passare il puntatore del mouse sulla linea inferiore del grafico di masterizzazione, quindi trascinare il grafico fino a ottenere le dimensioni desiderate.
+   ![Ridimensionare il grafico di masterizzazione](assets/burndown-resize.png)
 
-## Comprimi il grafico a dispersione
+## Comprimi il grafico di masterizzazione
 
 {{step1-to-team}}
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Passare all&#39;iterazione contenente il grafico a burn-down che si desidera comprimere.
-1. Fai clic sull&#39;icona a forma di freccia a sinistra della barra di stato [!UICONTROL Percent Complete].
+1. Passare all&#39;iterazione che contiene il grafico di masterizzazione da comprimere.
+1. Fare clic sull&#39;icona della freccia a sinistra della barra di stato [!UICONTROL Percentuale completamento].

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Creare o modificare una bacheca
-description: Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca o modificare una bacheca esistente.
-author: Jenny
+title: Creazione o modifica di una bacheca
+description: Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca o modificarne una esistente.
+author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca o modificare una bacheca esistente.
+Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca o modificarne una esistente.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,16 +32,16 @@ Dal dashboard [!UICONTROL bacheche], puoi creare una nuova bacheca o modificare 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,30 +55,30 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    | Modello | Descrizione |
    |---------|----------|
-   | Bacheca base | Sulla bacheca sono disponibili tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Sulla bacheca sono disponibili tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. |
-   | Bacheca Kanban | Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna Acquisizione. Per informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Bacheca retrospettiva | Sulla bacheca sono fornite le seguenti colonne: Cosa è andato bene? Cosa si può migliorare? Chi dovremmo festeggiare? Cosa possiamo fare per muoverci più velocemente? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
-   | Bacheca dinamica | Nella bacheca sono disponibili le seguenti colonne: Non selezionato, Nuovo, In corso, In sospeso e Completo. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. La colonna Non selezionato può essere rinominata ma non eliminata. Questa colonna contiene tutte le schede con uno stato che non corrisponde a nessuno degli altri stati della colonna.) <p>I criteri di colonna predefiniti assegnano le schede alle colonne in base al loro stato. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Bacheca base | Nella bacheca sono disponibili tre colonne predefinite. Potete aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nella bacheca sono disponibili tre colonne predefinite. Potete aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. |
+   | Bacheca Kanban | Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e Bloccato. Potete aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna di input. Per informazioni, vedere [Aggiungere una colonna di aspirazione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per verificare i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare una di queste policy predefinite. Per informazioni, consulta [Gestire le colonne delle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Bacheca retrospettiva | Le seguenti colonne sono fornite sulla bacheca: Che cosa è andato bene? Cosa potrebbe essere migliorato? Chi dovremmo celebrare? Cosa possiamo fare per muoverci più velocemente? Potete aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
+   | Bacheca dinamica | Nella bacheca sono disponibili le seguenti colonne: Non selezionato, Nuovo, In corso, In sospeso e Completo. Potete aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. La colonna Non selezionato può essere rinominata ma non eliminata. Questa colonna contiene tutte le schede con uno stato che non corrisponde a nessuno degli altri stati della colonna.) <p>I criteri di colonna predefiniti assegnano le schede alle colonne in base al loro stato. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Solo per una scheda dinamica, segui i passaggi della procedura guidata di configurazione:
 
-   1. Digitare un nome per la bacheca e fare clic su [!UICONTROL **Avanti**].
+   1. Digita un nome per la bacheca e fai clic su [!UICONTROL **Avanti**].
    1. Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**] per inserire attività e problemi nella bacheca.
    1. Cerca e seleziona [!UICONTROL **Assegnazioni**] per inserire attività e problemi nella bacheca.
 
-      Tutti gli oggetti vengono visualizzati sulla bacheca come schede collegate.
+      Tutti gli oggetti vengono visualizzati sulla scheda come schede collegate.
 
-      Il contatore [!UICONTROL **Schede da aggiungere**] indica il numero di schede che verranno aggiunte alla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore mostra 100. Se aggiungi un’assegnazione utente e tale persona è assegnata a 5 attività sul progetto, il contatore mostra 5.
-
-      >[!NOTE]
-      >
-      >Il limite di schede per le bacheche dinamiche è di 700 attività e 700 problemi, per un totale di 1.400 schede. Un numero elevato di schede sulla scheda può influire sulle prestazioni della scheda. Tutte le schede archiviate, sia nascoste che visibili, vengono conteggiate per questo limite.
-
-   1. (Facoltativo) Seleziona [!UICONTROL **Non archiviare le schede completate**] per inserire le attività e i problemi completati nella bacheca come schede visibili nella colonna Completati. Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca vengono inserite nella bacheca come schede archiviate.
+      Il contatore [!UICONTROL **Schede da aggiungere**] indica quante schede saranno presenti sulla bacheca. Se ad esempio si seleziona un progetto con 100 attività e problemi, il contatore indica 100. Se si aggiunge un&#39;assegnazione utente e la persona viene assegnata a 5 attività del progetto, il contatore indica 5.
 
       >[!NOTE]
       >
-      >Per impostazione predefinita, le schede archiviate non vengono visualizzate sulla bacheca. Per visualizzare le schede archiviate, devi attivare un’impostazione di configurazione e filtrare la bacheca per visualizzarle. Per ulteriori dettagli, vedere [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >Il limite di schede dinamiche è di 700 operazioni e 700 problemi, per un totale di 1.400 schede. Un numero elevato di schede può influire sulle prestazioni della scheda. Tutte le schede archiviate, sia nascoste che visibili, vengono conteggiate ai fini del raggiungimento di questo limite.
+
+   1. (Facoltativo) Selezionare [!UICONTROL **Non archiviare le schede completate**] per inserire le attività completate e i problemi nella scheda come schede visibili nella colonna Completato. Quando questa opzione non è selezionata, le schede completate al momento della creazione della scheda vengono inserite nella scheda come schede archiviate.
+
+      >[!NOTE]
+      >
+      >Per impostazione predefinita, le schede archiviate non vengono visualizzate sulla bacheca. Per visualizzare le schede archiviate, è necessario attivare un&#39;impostazione di configurazione e quindi filtrare la scheda per visualizzare le schede archiviate. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    1. (Facoltativo) Fai clic su [!UICONTROL **Usa filtri avanzati**] per visualizzare altre opzioni di filtro.
 
@@ -88,14 +88,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    1. Dopo aver aggiunto i filtri, fai clic su [!UICONTROL **Crea bacheca**].
 
-1. Digitare un nome per la bacheca nel campo **[!UICONTROL Bacheca]** e premere Invio.
-1. Configura la bacheca come necessario.
+1. Digita un nome per la bacheca nel campo **[!UICONTROL Bacheca]** e premi Invio.
+1. Configura la bacheca in base alle esigenze.
 
-   Per informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md), [Gestire le colonne della bacheca](../../agile/get-started-with-boards/manage-board-columns.md), [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare schede connesse in bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md), [Gestire le colonne delle bacheche](../../agile/get-started-with-boards/manage-board-columns.md), [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Fai clic su **[!UICONTROL Tutte le bacheche]** per tornare alla dashboard delle bacheche.
+1. Fai clic su **[!UICONTROL Tutte le bacheche]** per tornare al dashboard delle bacheche.
 
-   Puoi anche individuare il menu a discesa con il nome della bacheca corrente e fare clic su di esso per passare a un’altra bacheca.
+   Puoi anche individuare il menu a discesa con il nome della bacheca corrente e fare clic su di essa per passare a un’altra bacheca.
 
    ![Elenco delle bacheche](assets/boards-button-list-of-boards-350x188.png)
 
@@ -106,11 +106,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Nel dashboard, seleziona la bacheca da aprire.
 1. Modifica la bacheca in base alle esigenze. Puoi fare clic sul nome della bacheca per rinominarla.
 
-   Per sincronizzare le schede collegate con Workfront e inserire nuove attività e problemi nella scheda o nella colonna Acquisizione, fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della scheda e seleziona **[!UICONTROL Sincronizza elementi connessi]**.
+   Per sincronizzare le schede collegate con Workfront e inserire nuove attività e problemi nella scheda o nella colonna di immissione, fare clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della scheda e selezionare **[!UICONTROL Sincronizza elementi connessi]**.
 
-   Per informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md), [Gestire le colonne della bacheca](../../agile/get-started-with-boards/manage-board-columns.md) e [Aggiungere una scheda a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+   Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](../../agile/get-started-with-boards/add-members-to-board.md), [Gestire le colonne delle bacheche](../../agile/get-started-with-boards/manage-board-columns.md) e [Aggiungere una scheda a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
-1. Fai clic su **[!UICONTROL Tutte le bacheche]** per tornare alla dashboard delle bacheche.
+1. Fai clic su **[!UICONTROL Tutte le bacheche]** per tornare al dashboard delle bacheche.
 
-   Puoi anche individuare il menu a discesa con il nome della bacheca corrente e fare clic su di esso per passare a un’altra bacheca.
+   Puoi anche individuare il menu a discesa con il nome della bacheca corrente e fare clic su di essa per passare a un’altra bacheca.
 

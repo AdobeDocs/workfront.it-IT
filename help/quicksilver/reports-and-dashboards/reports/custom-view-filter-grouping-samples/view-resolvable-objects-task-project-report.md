@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizzazione: oggetti risolvibili in un report di attività o di progetto'
 description: È possibile visualizzare un elenco di tutti gli oggetti risolvibili in una visualizzazione o in un report di progetti o attività.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Visualizzazione: oggetti risolvibili in un report di attività o di progetto
+# Visualizzazione: oggetti risolvibili in un rapporto di attività o di progetto
 
 <!--Audited: 11/2024-->
 
@@ -28,7 +28,7 @@ Questa visualizzazione è identica per attività e progetti.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Questa visualizzazione è identica per attività e progetti.
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
    <p>Standard o piano per modificare un rapporto</p>
@@ -49,13 +49,13 @@ Questa visualizzazione è identica per attività e progetti.
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

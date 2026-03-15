@@ -2,20 +2,20 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Creare e gestire i rapporti
+title: Creare e gestire rapporti
 description: Scopri come creare e gestire i rapporti
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# Creare e gestire i rapporti
+# Creare e gestire rapporti
 
 <!-- Audited: 11/2024 -->
 
@@ -24,7 +24,7 @@ Questa sezione contiene i seguenti articoli:
 * [Crea un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 * [Crea un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 * [Esegui un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
-* [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
+* [Creare un rapporto con matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [Crea una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
 * [Filtrare i report per intervalli di tempo](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

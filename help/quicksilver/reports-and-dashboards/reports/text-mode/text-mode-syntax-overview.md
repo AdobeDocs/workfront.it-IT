@@ -3,14 +3,14 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Panoramica sulla sintassi della modalità testo
 description: È possibile utilizzare l’interfaccia in modalità testo per creare visualizzazioni, filtri, raggruppamenti e prompt personalizzati più complessi in elenchi e rapporti. La modalità testo consente di accedere ai campi e ai relativi attributi non disponibili nell'interfaccia della modalità standard.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Per informazioni e considerazioni sulla modalità testo prima di iniziare, veder
 
 Per un elenco completo di tutti i campi da segnalare e dei relativi attributi, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, visita la sezione Informazioni sul sito Adobe Experience League.
+Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, tra cui classi, video e tutorial, visita la sezione Scopri sul sito Adobe Experience League.
 
 ## Considerazioni sulla sintassi della modalità testo
 
@@ -42,34 +42,34 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
    * È possibile visualizzare in una visualizzazione un oggetto che si trova a tre oggetti distanti dall&#39;oggetto report o elenco.
    * Non è possibile fare riferimento a oggetti che si trovano a più di 2 oggetti lontani dall&#39;oggetto principale in un raggruppamento, un filtro o un prompt personalizzato.
 
-  **Esempio:** È possibile visualizzare il nome o il GUID del proprietario del Portfolio in una visualizzazione delle attività:
+  **Esempio:** È possibile visualizzare il nome o il GUID del proprietario di Portfolio in una visualizzazione delle attività:
 
   `valuefield=project:portfolio:ownerID`
 
-  Non è possibile raggruppare, filtrare o richiedere il proprietario del Portfolio in una visualizzazione delle attività:
+  Non è possibile raggruppare, filtrare o richiedere il proprietario di Portfolio in una visualizzazione delle attività:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-  In questi esempi, l&#39;ID proprietario Portfolio è a tre oggetti dall&#39;oggetto dell&#39;elenco.
+  In questi esempi, l&#39;ID proprietario Portfolio si trova a tre oggetti dall&#39;oggetto dell&#39;elenco.
 
-  Per informazioni sulla gerarchia degli oggetti in Workfront, vedi:
+  Per informazioni sulla gerarchia degli oggetti in Workfront, consultate:
 
    * [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Se possibile, utilizza i caratteri jolly per rendere più dinamici i rapporti e gli elenchi ed evitare di duplicarli per utenti diversi e con timeline simili.
 
-## Panoramica del caso Camel
+## Cenni preliminari su Camel Case
 
-Quando si fa riferimento ai campi Workfront o ai relativi attributi in modalità testo, Workfront richiede di digitarne i nomi in Camel Case. In questo caso, i campi single-name vengono scritti in minuscolo. I campi composti vengono digitati in base al seguente schema:
+Quando fate riferimento ai campi Workfront o ai loro attributi in modalità testo, Workfront richiede di digitare i nomi in maiuscolo/minuscolo. In questo caso, i campi con nome singolo sono scritti in minuscolo. I campi composti vengono scritti in base al seguente schema:
 
 `camelCaseSyntax`
 
 >[!IMPORTANT]
 >
->Tutti gli elementi di reporting seguono questo pattern di maiuscole/minuscole.
+>Tutti gli elementi di reporting seguono questo modello di casing.
 
-Le caratteristiche del corpo del cammello sono:
+Le caratteristiche dell&#39;alloggiamento del cammello sono:
 
 * La prima parola inizia sempre con una lettera minuscola.
 * Le parole seguenti iniziano sempre con una lettera maiuscola.
@@ -95,7 +95,7 @@ Esistono le seguenti somiglianze tra la sintassi dei set di elementi di reportin
   Per ulteriori informazioni, consulta:
 
    * [Modifica un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [Aggiungere un prompt a un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Sintassi per visualizzazioni e raggruppamenti
 
@@ -157,7 +157,7 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
   Per informazioni sul modo in cui gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-* Quando fai riferimento a un campo personalizzato, utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
+* Quando si fa riferimento a un campo personalizzato, utilizzare il nome del campo esattamente come viene visualizzato nell&#39;interfaccia.
 
   **Esempio:** Per fare riferimento a un campo personalizzato del progetto con l&#39;etichetta Dettagli aggiuntivi in una visualizzazione delle attività, utilizzare la riga seguente:
 
@@ -175,9 +175,9 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
 La creazione di un raggruppamento calcolato è simile alla creazione di una colonna calcolata in una visualizzazione.
 
-Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpression`:
+Quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpression`, vengono applicate le regole seguenti:
 
-* Utilizza Camel Case per fare riferimento direttamente ai campi e racchiudere ogni campo tra parentesi graffe.
+* Utilizza le maiuscole/minuscole per fare riferimento direttamente ai campi e racchiudere ogni campo tra parentesi graffe.
 
   **Esempio:** Per visualizzare il campo Nome attività in una colonna dell&#39;attività utilizzando `valueexpression`, utilizzare la riga seguente:
 
@@ -196,11 +196,11 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Per informazioni sul modo in cui gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
+  Per informazioni su come gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [Esplora API](../../../wf-api/general/api-explorer.md).
 
-* Quando si fa riferimento a un campo personalizzato, utilizza le regole seguenti:
+* Quando si fa riferimento a un campo personalizzato, utilizzare le regole seguenti:
 
-   * Utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
+   * Utilizzare il nome del campo esattamente come viene visualizzato nell&#39;interfaccia.
    * Anteponi al nome del campo &quot;DE:&quot;.
    * Racchiudere il campo tra parentesi graffe.
    * Separare i campi correlati all&#39;oggetto in base ai punti.
@@ -216,20 +216,20 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
 #### `Valueformat` panoramica per visualizzazioni e raggruppamenti
 
-La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=`. Questo indica a Workfront in quale formato restituire il valore specificato nelle righe `valuefield` o `valueexpression`. Sebbene sia possibile utilizzare vari formati per le righe `valueformat`, si consiglia di utilizzare sempre il seguente valore quando si utilizza `valueexpression`:
+La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è la riga `valueformat=`. Questo indica a Workfront in quale formato restituire il valore specificato nelle righe `valuefield` o `valueexpression`. Sebbene sia possibile utilizzare vari formati per le `valueformat` righe, si consiglia di utilizzare sempre il valore seguente quando si utilizza `valueexpression`:
 
 `valueformat=HTML`
 
 Per ulteriori valori `valueformat`, vedere anche i seguenti articoli:
 
-* [Formattare le date nei report in modalità testo](../../reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Formattare le date nei rapporti in modalità testo](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formattare numeri, valuta e valori percentuali nei rapporti in modalità testo](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-#### `width` panoramica per le visualizzazioni
+#### Panoramica di `width` per le visualizzazioni
 
-`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche.
+`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. In Workfront è disponibile un valore di larghezza consigliato per ogni campo, ma in base al tipo di campo e al formato, è possibile apportare modifiche.
 
-Utilizzare la riga di codice `usewidths=true` aggiuntiva per applicare la larghezza specificata per la colonna.
+Utilizza la riga di codice `usewidths=true` aggiuntiva per applicare la larghezza specificata per la colonna.
 
 **Esempio:** Per visualizzare una colonna con una larghezza di 80 pixel, utilizzare le righe seguenti:
 
@@ -239,9 +239,9 @@ Utilizzare la riga di codice `usewidths=true` aggiuntiva per applicare la larghe
 
 #### `stretch` panoramica per le visualizzazioni
 
-`stretch` viene utilizzato per identificare quali colonne occupano spazio aggiuntivo non necessario per la visualizzazione. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti 250 pixel aggiuntivi che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
+`stretch` viene utilizzato per identificare quali colonne occupano spazio aggiuntivo non necessario per la vista. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti ulteriori 250 pixel che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
 
-L&#39;estensione di una colonna viene applicata quando si utilizza la riga di codice aggiuntiva `usewidths=true` per almeno una delle colonne della visualizzazione.
+L’estensione di una colonna viene applicata quando viene utilizzata la riga di codice aggiuntiva `usewidths=true` per almeno una delle colonne della vista.
 
 **Esempio:** Per indicare che una colonna può utilizzare il 70% dello spazio vuoto in una visualizzazione, utilizzare le righe seguenti:
 
@@ -259,8 +259,8 @@ La sintassi per la creazione di filtri è simile a quella per la creazione di pr
 
 Per informazioni sulla creazione di filtri e prompt personalizzati, consulta:
 
-* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Aggiungere un prompt a un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 Per informazioni sulla creazione di filtri in modalità testo, vedere [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -279,7 +279,7 @@ Per creare filtri e prompt personalizzati in modalità testo, puoi utilizzare i 
 
      Questo è il connettore predefinito tra le istruzioni di filtro.
 
-   * OPPURE
+   * O
 
      >[!TIP]
      >

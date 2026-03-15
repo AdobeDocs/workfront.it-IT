@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visualizza: problemi relativi al nome società del creatore'
-description: In questa visualizzazione del problema viene visualizzato il nome dell’azienda associata all’utente che ha inviato il problema.
-author: Nolan
+title: 'Visualizza: problemi con la ragione sociale del cedente'
+description: Questa visualizzazione del problema visualizza il nome dell'azienda associato all'utente che ha inviato il problema.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Visualizza: problemi relativi al nome società del creatore
+# Visualizzazione: problemi relativi al nome azienda del referente
 
 <!--Audit: 11/2024-->
 
-In questa visualizzazione del problema viene visualizzato il nome dell’azienda associata all’utente che ha inviato il problema.
+Questa visualizzazione del problema visualizza il nome dell&#39;azienda associato all&#39;utente che ha inviato il problema.
 
 ![custom_view_for_issues_with_originator_company_name.png](assets/custom-view-for-issues-350x33.png)
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,34 +35,34 @@ In questa visualizzazione del problema viene visualizzato il nome dell’azienda
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un rapporto</p>
+   <p>Standard o piano per modificare un report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## Visualizza i problemi con il nome società del mittente
+## Visualizza problemi con la ragione sociale del creatore
 
 1. Vai a un elenco di problemi.
-1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
-1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente e fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
+1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo** e infine su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
 
 
    ```
@@ -131,5 +131,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    column.5.width=151
    ```
 
-1. Fai clic su **Fine** > **Salva visualizzazione**.
-1. (Facoltativo) Aggiorna il nome della visualizzazione, quindi fai clic su **Salva visualizzazione**.
+1. Fai clic su **Fine** > **Salva vista**.
+1. (Facoltativo) Aggiornare il nome della visualizzazione, quindi fare clic su **Salva visualizzazione**.

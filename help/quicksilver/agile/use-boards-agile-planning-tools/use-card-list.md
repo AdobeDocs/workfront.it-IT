@@ -4,17 +4,17 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Utilizzare l’elenco delle schede
 description: È possibile creare un elenco di schede in un flusso di lavoro e aggiungere le schede alle iterazioni.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Utilizza l’elenco delle schede
+# Utilizzare l’elenco delle schede
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ L’elenco delle schede può fungere da backlog di lavoro per il flusso di lavor
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,16 +37,16 @@ L’elenco delle schede può fungere da backlog di lavoro per il flusso di lavor
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL Name]</strong></td> 
+      <td><strong>[!UICONTROL Nome]</strong></td> 
       <td>Il nome della carta.</td> 
      </tr> 
      <tr> 
@@ -70,7 +70,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Una descrizione del Card.</td> 
      </tr>
      <tr> 
-      <td><strong>Stima </strong></td> 
+      <td><strong>Stima [!UICONTROL]</strong></td> 
       <td>Numero stimato di ore per il completamento della carta. Questa è solo una immissione manuale.</td> 
      </tr>
      <tr> 
@@ -93,9 +93,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Visualizza schede
 
-Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Vista elenco**] nella scheda Elenco schede.
+Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Visualizzazione elenco**] nella scheda Elenco schede.
 
-Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Visualizzazione iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
+Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Vista iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
 
 Per modificare una scheda esistente, selezionarla nell&#39;elenco e fare clic su [!UICONTROL **Modifica**].
 

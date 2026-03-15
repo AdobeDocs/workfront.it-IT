@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Creare un team
 description: Per impostazione predefinita, quando crei un team diventi il proprietario del team.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ Per informazioni su come un amministratore di [!DNL Adobe Workfront] può creare
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>
@@ -42,7 +42,7 @@ Per informazioni su come un amministratore di [!DNL Adobe Workfront] può creare
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

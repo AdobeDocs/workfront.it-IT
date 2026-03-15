@@ -1,19 +1,20 @@
 ---
 title: Miglioramenti al progetto per il secondo trimestre 2025
 description: Miglioramenti al progetto per il secondo trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+exl-id: b20300d7-77d6-46f5-a458-23f7b84ef29b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # Miglioramenti al progetto per il secondo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 

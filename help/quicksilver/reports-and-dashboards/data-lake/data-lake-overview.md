@@ -4,14 +4,14 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Panoramica di Workfront Data Connect
 description: Panoramica di Workfront Data Connect
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
@@ -29,10 +29,10 @@ Gli abbonati saranno in grado di collegare il loro strumento di business intelli
 
 Per ulteriori informazioni su Data Connect, vedere gli articoli seguenti:
 
-* [Creare un account o una connessione di lettura per Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Creare un account lettore o una connessione per Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Stabilire una connessione a Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
-* [Dizionario dati Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [Esempi di query Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
+* [Dizionario dei dati di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
+* [Esempi di query di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
 * [Visualizzare le metriche di utilizzo di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)
-* [Utilizzare la visualizzazione dati Cronologia processo in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-* [Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+* [Utilizzare la visualizzazione dati Cronologia processo in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+* [Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)

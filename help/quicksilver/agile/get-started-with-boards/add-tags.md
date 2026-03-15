@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungi tag
-description: Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi quindi filtrare in base a tali tag per visualizzare le relative schede.
-author: Jenny
+description: È possibile aggiungere tag alle schede per mostrarne visivamente la somiglianza. Puoi quindi filtrare in base a tali tag per visualizzare le schede correlate.
+author: Courtney
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-# Aggiungi tag
+# Aggiungere tag
 
-Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi quindi filtrare in base a tali tag per visualizzare le relative schede.
+È possibile aggiungere tag alle schede per mostrarne visivamente la somiglianza. Puoi quindi filtrare in base a tali tag per visualizzare le schede correlate.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi q
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,16 +34,16 @@ Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi q
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella finestra di dialogo [!UICONTROL Gestione tag], seleziona [!UICONTROL **Aggiungi tag**] nella sezione [!UICONTROL Tag bacheca].
 1. Digita il nome del tag nella casella evidenziata, quindi scegli un colore per il tag dal menu a discesa. Il tag viene salvato automaticamente.
-1. (Facoltativo) Ripeti i passaggi 4-5 per creare altri tag.
+1. (Condizionale) Ripetete i passaggi 4-5 per creare ulteriori tag.
 1. Fai clic su **[!UICONTROL Fine]** nell&#39;angolo superiore destro della casella.
 
    ![Gestione tag](assets/tag-manager-2023.png)
@@ -69,16 +69,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >
 >I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
 
-I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso di lavoro.
+I tag del flusso di lavoro sono disponibili per tutte le bacheche in un flusso di lavoro.
 
 {{step1-to-boards}}
 
-1. Nel dashboard fare clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
+1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un flusso di lavoro.
 1. Apri una bacheca. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) accanto al nome della bacheca, quindi scegli **[!UICONTROL Gestione tag]**.
 
    Oppure
 
-   Fare clic su [!UICONTROL **Configura**] per aprire il pannello [!UICONTROL Configura flusso di lavoro]. Quindi fare clic su **[!UICONTROL Gestione tag]**.
+   Fare clic su [!UICONTROL **Configura**] per aprire il pannello [!UICONTROL Configura flusso di lavoro]. Fai quindi clic su **[!UICONTROL Gestione tag]**.
 
 1. Nella finestra di dialogo [!UICONTROL Gestione tag], seleziona [!UICONTROL **Aggiungi tag**] nella sezione Tag del flusso di lavoro.
 1. Digita il nome del tag nella casella evidenziata, quindi scegli un colore per il tag dal menu a discesa. Il tag viene salvato automaticamente.
@@ -98,7 +98,7 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso d
 
 1. Nella casella **[!UICONTROL Tag]** digitare il nome di un tag esistente e selezionarlo dai risultati della ricerca.\
    Oppure\
-   Fai clic sull&#39;icona **[!UICONTROL Modifica]**&#x200B; ![Modifica tag](assets/boards-edittag-30x29.png) e crea un nuovo tag in Gestione tag. Fai clic su **Fine** per tornare alla scheda, quindi seleziona il tag sulla scheda.
+   Fate clic sull&#39;icona **[!UICONTROL Modifica]**&#x200B;2}Modifica tag![ e create un nuovo tag in Gestione tag. ](assets/boards-edittag-30x29.png) Fai clic su **Fine** per tornare alla scheda, quindi seleziona il tag sulla scheda.
 1. Fai clic su **Chiudi**.
 
 ## Modificare un tag
@@ -131,5 +131,5 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso d
 
    ![Seleziona Gestione Tag](assets/boards-tagmanager-350x189.png)
 
-1. Trova il tag da eliminare, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina tag](assets/copy-of-boards-delete-30x27.png).
+1. Individuare il tag da eliminare, quindi fare clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina tag](assets/copy-of-boards-delete-30x27.png).
 1. Fai clic su **[!UICONTROL Fine]**.

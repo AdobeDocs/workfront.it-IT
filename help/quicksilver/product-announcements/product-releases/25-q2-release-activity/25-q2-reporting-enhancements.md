@@ -1,20 +1,20 @@
 ---
 title: Miglioramenti al reporting per il secondo trimestre 2025
 description: Miglioramenti al reporting per il secondo trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Miglioramenti al reporting per il secondo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti al reporting e al dashboard apportati con la versione del secondo trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti al reporting e al dashboard apportati con la versione del secondo trimestre 2025 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 

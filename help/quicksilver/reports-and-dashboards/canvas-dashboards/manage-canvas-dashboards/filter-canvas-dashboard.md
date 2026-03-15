@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Filtrare un dashboard di Canvas
+title: Filtrare una dashboard dell’area di lavoro
 description: Puoi applicare un filtro a un dashboard di Canvas dopo averlo creato.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Filtrare un dashboard di Canvas
+# Filtrare una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt f
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard</p> 
 <p>Piano</p> 
@@ -59,14 +59,14 @@ Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt f
   </tr> 
     </tr>  
         <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr> 
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti

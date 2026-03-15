@@ -2,16 +2,16 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: Bacheca Scrum
-description: Leggi gli articoli in questa sezione per scoprire come utilizzare la bacheca Scrum in Workfront.
-author: Jenny
+title: Scrum Board
+description: Consulta gli articoli di questa sezione per scoprire come utilizzare la bacheca Scrum in Workfront.
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: ce032f98-4716-4ed7-99f3-c7ebf0a16a70
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [[!UICONTROL Panoramica bacheca Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
-* [Aggiungi un&#39;attività secondaria a una storia esistente nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
-* [Assegna utenti a una storia sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* Panoramica della bacheca [[!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
+* [Aggiungere una sottoattività a un brano esistente nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
+* [Assegnare gli utenti a una storia nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 * [Classificare le storie per colore sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
-* [Modifica l&#39;ordine delle storie sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
+* [Modifica dell&#39;ordine dei brani nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
 * [Filtra per utente sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
 * [Aggiungi storie e problemi dalla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
-* [Gestisci storie e problemi sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-* [Aggiorna lo stato delle storie e delle sottoattività nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
-* [Visualizza e modifica le informazioni sulla storia sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
+* [Gestire storie e problemi sulla bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
+* [Aggiornare lo stato delle storie e delle sottoattività nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+* [Visualizza e modifica le informazioni sulla storia nella bacheca [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)

@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Gestire il backlog Agile
 description: Attività e problemi possono essere assegnati a un team Agile e aggiunti al backlog del team come storie, a seconda della metodologia Agile utilizzata dal team.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,18 +41,18 @@ Le attività o i problemi possono essere assegnati al team (e successivamente ag
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l'accesso al progetto a cui appartiene il brano </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -152,15 +152,15 @@ Per creare una storia dal backlog:
       <td>Specificate un punto o una stima oraria per il brano. Le stime influiscono sul grafico a dispersione. Il grafico a burn-down per un'iterazione è accurato solo se ogni storia contiene una stima accurata. Se fornisci una stima puntuale, devi avere già indicato nelle impostazioni del team quante ore ogni punto rappresenta.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre </strong></td>
+      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
       <td>Inizia a digitare il nome del progetto in cui verrà creato il brano, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Attività Padre]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Attività padre]</strong></td>
       <td>(Facoltativo) Iniziate a digitare il nome dell'attività padre a cui è subordinato il brano, quindi fate clic sul nome quando viene visualizzato nell'elenco a discesa.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Campi personalizzati]</strong></td>
       <td> (Facoltativo) Seleziona i moduli personalizzati da aggiungere a questa storia.</td>
      </tr>
     </tbody>

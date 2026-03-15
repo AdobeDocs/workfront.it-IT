@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Utilizzare le date previste in un rapporto di calendario
 description: Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. È possibile utilizzare i campi Data prevista in un report calendario per attività, problemi e progetti.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Un report calendario è un report dinamico che fornisce una rappresentazione vis
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Un report calendario è un report dinamico che fornisce una rappresentazione vis
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
@@ -45,13 +45,13 @@ Un report calendario è un report dinamico che fornisce una rappresentazione vis
    <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Gestire l’accesso al report del calendario</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,8 +89,8 @@ Fai clic su **[!UICONTROL + Nuovo calendario]**, immetti il nome del progetto, q
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
       <td><p>Scegliere <strong>[!UICONTROL Date previste]</strong>. Per ulteriori informazioni sulle date previste, consulta </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Panoramica della data di inizio prevista del progetto</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Panoramica della data di completamento prevista per progetti, attività e problemi</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Panoramica sulla data di inizio prevista del progetto</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Panoramica sulla data di completamento prevista per progetti, attività e problemi</a><br></li>
        </ul></td>
      </tr>
      <tr>
@@ -106,8 +106,8 @@ Fai clic su **[!UICONTROL + Nuovo calendario]**, immetti il nome del progetto, q
       <td role="rowheader"><strong>[!UICONTROL Passa alle date effettive quando disponibili]</strong></td>
       <td><p>Il calendario passa automaticamente alle date effettive quando sono disponibili. <br>Scegliere <strong>[!UICONTROL Sì]</strong> o <strong>[!UICONTROL No]</strong> per passare alle date effettive quando disponibili. Per ulteriori informazioni sulle date effettive, consulta</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Panoramica della data di inizio effettiva del progetto </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Panoramica della data di completamento effettiva del progetto </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Panoramica sulla data di inizio effettivo del progetto </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Panoramica sulla data di completamento effettiva del progetto </a></li>
        </ul></td>
      </tr>
     </tbody>

@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Aggiungere un’attività secondaria a una storia esistente nella bacheca Scrum
 description: Quando create sottoattività per i brani esistenti, tenete presente l'impostazione Modalità di completamento per il progetto, poiché questo influisce sul modo in cui i brani vengono aggiornati.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Quando create sottoattività per i brani esistenti, tenete presente quanto segue
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -46,17 +46,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
   </tr>
    <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td>Accesso [!UICONTROL Contribute] o [!UICONTROL Manage] all'attività su cui si trova la sottoattività </td> 
   </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aggiungi un’attività secondaria a una storia esistente sulla bacheca Scrum
+## Aggiungere un’attività secondaria a una storia esistente sulla bacheca Scrum
 
 {{step1-to-team}}
 
@@ -102,11 +102,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Lavoro Necessario]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Ore pianificate]</strong></td>
       <td> (Disponibile solo nei progetti) Specifica il numero di ore pianificate per l'attività.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignment]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Assegnazione]</strong></td>
       <td>Iniziare a digitare il nome del team a cui si desidera assegnare la sottoattività, quindi fare clic su di esso quando viene visualizzato nell'elenco a discesa.</td>
      </tr>
     </tbody>

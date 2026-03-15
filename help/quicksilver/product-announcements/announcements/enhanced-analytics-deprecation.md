@@ -1,19 +1,19 @@
 ---
 navigation-topic: announcements
-title: Guida all’obsolescenza di Enhanced Analytics
+title: Guida sulla rimozione delle funzionalità di analisi avanzate
 description: Questa pagina contiene informazioni sulla prossima rimozione di Enhanced Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Guida all’obsolescenza di Enhanced Analytics
+# Guida sulla rimozione delle funzionalità di analisi avanzate
 
 A causa di un utilizzo in calo e di funzionalità limitate, Analytics avanzato diventerà presto obsoleto da Adobe Workfront. Abbiamo rilasciato Workfront Data Connect come alternativa in grado di replicare le visualizzazioni Analytics avanzate attualmente in uso, oltre a creare nuove e potenti visualizzazioni che non erano possibili con Enhanced Analytics. Per garantire una transizione corretta per la tua organizzazione, questa pagina contiene informazioni su ciò che esattamente cambierà, consigli su come prepararti per la transizione e risposte alle domande frequenti.
 
@@ -49,10 +49,10 @@ Utilizza le query negli articoli seguenti per creare visualizzazioni dati simili
 
 
 * [Query KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-* [Query piano di volo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Query piano di esecuzione](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Query attività progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Query mappa ad albero progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-* [Attività per query team](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+* [Query attività per team](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Richiedi assistenza
 

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 'Panoramica degli strumenti di pianificazione agile: indice dell’articolo'
+title: 'Panoramica degli strumenti di pianificazione Agile: indice degli articoli'
 description: Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione Agile sulle bacheche.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 0%
+ht-degree: 37%
 
 ---
 
-# Panoramica degli strumenti di pianificazione agile: indice dell’articolo
+# Panoramica degli strumenti di pianificazione Agile: indice degli articoli
 
 <!-- Audited: 5/2025 -->
 
@@ -44,9 +44,9 @@ Questa sezione contiene i seguenti articoli:
 * [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Utilizzare i gruppi su una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrazione delle schede Kanban del team Agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Migrazione delle schede Kanban del team Agile alle bacheche Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
-* [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Utilizzare l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [Configurare il backlog in una bacheca del flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
 * [Rivedere le metriche di iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

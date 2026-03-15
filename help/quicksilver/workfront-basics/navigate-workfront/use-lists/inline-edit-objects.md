@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: Modifica in linea elementi in un elenco in [!DNL Adobe Workfront]
 description: È possibile modificare gli oggetti in linea quando vengono visualizzati in un elenco o in un report. Quando si modificano le informazioni sugli oggetti visualizzati in un elenco o in un report, l'oggetto viene aggiornato immediatamente.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Sebbene la maggior parte degli oggetti visualizzati negli elenchi o nei report s
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,10 +48,10 @@ Sebbene la maggior parte degli oggetti visualizzati negli elenchi o nei report s
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva </p>
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva </p>
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Sebbene la maggior parte degli oggetti visualizzati negli elenchi o nei report s
    <td> <p>Accesso di [!UICONTROL Edit] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare le attività in linea in un progetto, è necessario l'accesso [!UICONTROL Edit] ai progetti.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>[!UICONTROL Gestisci]</p> <p>È inoltre necessario disporre delle autorizzazioni per modificare alcuni campi, ad esempio campi personalizzati, stato e così via.</p>  </td> 
   </tr> 
  </tbody> 

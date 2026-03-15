@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Esempio di campo personalizzato calcolato: visualizza il manager dell’autore di un problema sul modulo personalizzato relativo al problema'
+title: 'Esempio di campo personalizzato calcolato: visualizzare il manager del creatore di un problema sul modulo personalizzato relativo al problema'
 description: Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome del responsabile dell’autore di un problema in un modulo personalizzato allegato al problema. Utilizzando la stessa istruzione, è possibile creare campi calcolati simili per progetti, problemi e altri oggetti.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Esempio di campo personalizzato calcolato: visualizza il manager dell’autore di un problema sul modulo personalizzato relativo al problema
+# Esempio di campo personalizzato calcolato: visualizzare il manager del creatore di un problema sul modulo personalizzato relativo al problema
 
 Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome del responsabile dell’autore di un problema in un modulo personalizzato allegato al problema. Utilizzando la stessa istruzione, è possibile creare campi calcolati simili per progetti, problemi e altri oggetti.
 
@@ -26,7 +26,7 @@ Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
    <td>
       <p>Standard</p>
       <p>Piano</p></td>
@@ -47,7 +47,7 @@ Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome
    <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Contribuire all’accesso all’oggetto in cui è allegato il modulo con l’accesso Modifica modulo personalizzato</p></td> 
   </tr> 
  </tbody> 

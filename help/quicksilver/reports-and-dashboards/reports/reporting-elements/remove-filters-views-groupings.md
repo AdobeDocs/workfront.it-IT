@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Rimuovere filtri, visualizzazioni e raggruppamenti
-description: È possibile rimuovere un filtro, una visualizzazione o un raggruppamento da elenchi e report se sono stati creati o condivisi con l'utente. Non è possibile rimuovere filtri, viste o raggruppamenti predefiniti.
-author: Nolan
+description: È possibile rimuovere un filtro, una visualizzazione o un raggruppamento da elenchi e report creati o condivisi. Non è possibile rimuovere filtri, viste o raggruppamenti predefiniti.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 11/2024 -->
 
-È possibile rimuovere un filtro, una visualizzazione o un raggruppamento da elenchi e report se sono stati creati o condivisi con l&#39;utente. Non è possibile rimuovere filtri, viste o raggruppamenti predefiniti.
+È possibile rimuovere un filtro, una visualizzazione o un raggruppamento da elenchi e report creati o condivisi. Non è possibile rimuovere filtri, viste o raggruppamenti predefiniti.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,10 +32,10 @@ ht-degree: 1%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader">Licenza di Adobe Workfront</strong></td> 
    <td> 
-    <p>Collaboratore o versione successiva</p>
-    <p>Richiedi o superiore</p>
+    <p>Collaboratore o successiva</p>
+    <p>Richiedente o successiva</p>
    </td>
   </tr> 
   <tr> 
@@ -44,14 +44,14 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
     <td> <p>Visualizzare le autorizzazioni con accesso per condividere il filtro, la visualizzazione o il raggruppamento che si desidera rimuovere</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,20 +63,20 @@ Utilizzando l’interfaccia standard di generazione, puoi anche eliminare i filt
 
 Impossibile rimuovere o eliminare i filtri predefiniti di sistema.
 
-### Considerazioni sulla rimozione o eliminazione di filtri tramite il generatore standard
+### Considerazioni sulla rimozione o l&#39;eliminazione di filtri mediante il generatore standard
 
-Quando rimuovi o elimini un filtro con il generatore standard esistono gli scenari seguenti:
+Quando si rimuove o si elimina un filtro mediante il generatore standard, si possono verificare i seguenti scenari:
 
-* Se il filtro è stato condiviso con te e lo rimuovi, viene rimosso solo per te. L’utente che l’ha creato originariamente e tutti gli altri utenti con cui è stato condiviso hanno ancora accesso al filtro.
-* Se il filtro è di tua proprietà e lo elimini, viene rimosso dal sistema di Workfront. Il filtro non è più disponibile per gli utenti con cui l’hai condiviso in precedenza.
+* Se il filtro è stato condiviso e lo rimuovi, il filtro viene rimosso solo per te. L’utente con cui è stato creato originariamente e tutti gli altri utenti con cui è stato condiviso possono comunque accedere al filtro.
+* Se si è proprietari del filtro e lo si elimina, il filtro viene rimosso dal sistema Workfront. Il filtro non è più disponibile per gli utenti con cui lo hai condiviso in precedenza.
 * Se sei un amministratore di Workfront, puoi eliminare il filtro che viene eliminato definitivamente per tutti gli utenti, incluso il proprietario.
 
-### Rimuovere un filtro tramite il generatore standard
+### Rimuovere un filtro utilizzando il generatore standard
 
-1. Consente di accedere a un elenco di progetti, attività, problemi, portafogli, programmi, utenti, modelli o gruppi.
-1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
-1. Passa il puntatore del mouse su un filtro in **Condiviso con me**, fai clic sul menu **Altro** ![Altro](assets/more-icon-spectrum.png), quindi fai clic su **Rimuovi**.
-1. Selezionare **Rimuovi** nel messaggio di conferma per rimuovere definitivamente il filtro.
+1. Consente di accedere a un elenco di progetti, attività, problemi, portfolio, programmi, utenti, modelli o gruppi.
+1. Fare clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png).
+1. Passa con il mouse sopra un filtro in **Condiviso con me**, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon-spectrum.png), quindi fai clic su **Rimuovi**.
+1. Seleziona **Rimuovi** nel messaggio di conferma per rimuovere definitivamente il filtro.
 
 ### Eliminare un filtro con il generatore standard
 
@@ -86,7 +86,7 @@ Quando rimuovi o elimini un filtro con il generatore standard esistono gli scena
 
    ![Elimina filtro](assets/new-filters-more-menu-options-with-delete.png)
 
-1. (Facoltativo) Fai clic su **Annulla** nel messaggio di conferma per evitare l&#39;eliminazione e tornare all&#39;elenco dei filtri.
+1. (Facoltativo) Fare clic su **Annulla** nel messaggio di conferma per evitare l&#39;eliminazione e tornare all&#39;elenco dei filtri.
 1. Fai clic su **Elimina** nel messaggio di conferma per confermare l&#39;eliminazione.
 
    Il filtro viene eliminato per te e per tutti gli utenti che disponevano delle autorizzazioni necessarie.
@@ -97,14 +97,14 @@ Quando rimuovi o elimini un filtro con il generatore standard esistono gli scena
 
 ### Considerazioni sulla rimozione di filtri, viste e raggruppamenti tramite il generatore legacy
 
-La modalità di rimozione di un elemento di reporting dipende dal fatto che sia stato creato inizialmente o che sia stato condiviso con te.
+La modalità di rimozione di un elemento di reporting dipende dal fatto che sia stato creato inizialmente o condiviso con te.
 
-Quando si rimuove un filtro, una visualizzazione o un raggruppamento, si verificano gli scenari seguenti:
+Quando si rimuove un filtro, una visualizzazione o un raggruppamento, si verificano i seguenti scenari:
 
-* **Se l&#39;elemento è stato creato e rimosso**, l&#39;elemento verrà rimosso dal sistema Workfront. Non è più disponibile per gli utenti con cui l’hai condiviso in precedenza.
-* **Se l&#39;elemento è stato condiviso con te e lo rimuovi**, l&#39;elemento verrà rimosso solo per te. L’utente che l’ha creato originariamente e tutti gli altri utenti con cui è stato condiviso hanno ancora accesso a esso.
+* **Se l&#39;elemento è stato creato e rimosso**, l&#39;elemento viene rimosso dal sistema Workfront. Non è più disponibile per gli utenti con cui l&#39;hai condiviso in precedenza.
+* **Se l&#39;elemento è stato condiviso con te e lo rimuovi**, l&#39;elemento viene rimosso solo per te. L’utente con cui è stato creato originariamente e tutti gli altri utenti con cui è stato condiviso possono ancora accedervi.
 
-### Rimuovere un filtro, una visualizzazione o un raggruppamento mediante il generatore di versioni precedenti
+### Rimuovere un filtro, una vista o un raggruppamento utilizzando il Generatore legacy
 
 1. Consente di passare a un elenco di oggetti o a un report.
 1. (Condizionale) Da un elenco, fai clic sull&#39;icona **Filtro**, **Visualizzazione** o **Raggruppamento**, quindi passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento che desideri rimuovere, fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png), quindi **Rimuovi**. Il filtro, la visualizzazione o il raggruppamento vengono rimossi.
@@ -112,7 +112,7 @@ Quando si rimuove un filtro, una visualizzazione o un raggruppamento, si verific
 
    Viene visualizzata la finestra di dialogo **I miei raggruppamenti**, **I miei filtri,** o **Le mie visualizzazioni**.
 
-   Tutti gli elementi di reporting per i quali disponi dei diritti di rimozione sono disponibili per la rimozione. Gli altri elementi di reporting vengono visualizzati in grigio.
+   Tutti gli elementi di reporting per i quali disponi dei diritti di rimozione sono disponibili per la rimozione. Altri elementi di reporting vengono visualizzati in grigio.
 
 1. Fai clic sull&#39;icona **x** accanto a qualsiasi elemento di reporting che desideri rimuovere.
 1. (Condizionale) Fai clic su **Sì, eliminalo** se hai selezionato di eliminare un filtro, una visualizzazione o un raggruppamento che hai creato e successivamente condiviso con altri utenti. Il filtro, la visualizzazione o il raggruppamento verranno eliminati dal sistema Workfront.
