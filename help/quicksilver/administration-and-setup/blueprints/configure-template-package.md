@@ -89,7 +89,7 @@ Prima di installare il modello, è inoltre possibile definirne la proprietà. È
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!Proprietario modello UICONTROL]<strong></td>
+        <td><strong>[!UICONTROL Proprietario modello]<strong></td>
         <td>Questa persona riceve le autorizzazioni [!UICONTROL Manage] per il modello e diventerà il proprietario del progetto quando il modello verrà utilizzato per creare un progetto.</td>
     </tr>
     <tr>

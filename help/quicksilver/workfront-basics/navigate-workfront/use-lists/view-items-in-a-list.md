@@ -196,7 +196,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
     <ul> 
      <li> <p>[!UICONTROL Documenti]</p> </li> 
      <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL click a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!Portfoli UICONTROL] &gt; [!UICONTROL seleziona un portfolio] &gt;[!Programmi UICONTROL] &gt;[!UICONTROL seleziona un programma] &gt;[!Documenti UICONTROL]</p> </li> 
+     <li> <p>[!UICONTROL Portfoli] &gt; [!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Documenti]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] un progetto &gt; [!UICONTROL Issues] &gt;[!UICONTROL click an issue] &gt; [!UICONTROL Documents]</p> </li> 
@@ -251,14 +251,14 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco di moduli personalizzati</td> 
    <td> 
     <ul> 
-     <li>[!Installazione UICONTROL] &gt;[!Forms personalizzato UICONTROL] </li> 
+     <li>[!UICONTROL Installazione] &gt;[!UICONTROL Forms personalizzato] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
     <td>Elenco di gruppi o sottogruppi</td> 
    <td> 
     <ul> 
-     <li> <p>[!Configurazione UICONTROL] &gt;[!Gruppi UICONTROL]</p> </li>
+     <li> <p>[!UICONTROL Configurazione] &gt;[!UICONTROL Gruppi]</p> </li>
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL click the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
@@ -266,28 +266,28 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei team</td> 
    <td> 
     <ul> 
-     <li> <p>[!Installazione UICONTROL] &gt;[!UICONTROL Teams]</p> </li> 
+     <li> <p>[!UICONTROL Installazione] &gt;[!UICONTROL Teams]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>Elenco delle società</td> 
    <td> 
     <ul> 
-     <li> <p>[!Configurazione UICONTROL] &gt;[!Società UICONTROL]</p> </li> 
+     <li> <p>[!UICONTROL Configurazione] &gt;[!UICONTROL Società]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>Elenco di pianificazioni</td> 
    <td> 
     <ul> 
-     <li> <p>[!Installazione UICONTROL] &gt;[!Pianificazioni UICONTROL]</p> </li> 
+     <li> <p>[!UICONTROL Installazione] &gt;[!UICONTROL Pianificazioni]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>Elenco dei modelli di layout</td> 
    <td> 
     <ul> 
-     <li> <p>[!Configurazione UICONTROL] &gt;[!Modelli Layout UICONTROL]</p> </li> 
+     <li> <p>[!UICONTROL Configurazione] &gt;[!UICONTROL Modelli Layout]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
@@ -466,7 +466,7 @@ Nella tabella seguente vengono elencate molte delle icone disponibili nella barr
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Grafico di Gantt]</td> 
-   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt [!UICONTROL].</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
+   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt .</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -491,7 +491,7 @@ Nella tabella seguente vengono elencate molte delle icone disponibili nella barr
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL], vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo  per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di , vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -500,7 +500,7 @@ Nella tabella seguente vengono elencate molte delle icone disponibili nella barr
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!Commento UICONTROL] /[!Aggiornamento UICONTROL]</td> 
+   <td>[!UICONTROL Commento] /[!UICONTROL Aggiornamento]</td> 
    <td> <p>Digitare un commento o un aggiornamento.</p> </td> 
   </tr> 
  </tbody> 

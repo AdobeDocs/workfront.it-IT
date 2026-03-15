@@ -112,7 +112,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td>La modifica della descrizione comporta anche la modifica della descrizione nell'oggetto [!DNL Workfront] connesso. Puoi aggiungere degli URL nella descrizione, che diventeranno collegamenti cliccabili una volta salvata la scheda.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!Colonna UICONTROL]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Colonna]</strong></td>
       <td>Selezionare la colonna per la scheda.</td>
      </tr>
      <tr>
@@ -126,7 +126,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td>La modifica di questa data determina anche la modifica della data di completamento pianificata per l'oggetto [!DNL Workfront] connesso.</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>[!Stima UICONTROL]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Stima]</strong></td>
       <td><p>Numero di ore per il completamento della scheda.</p><p>La modifica della stima modifica anche il valore dei punti del brano nell'oggetto [!DNL Workfront] connesso.</p></td>
      </tr>
      <tr>
@@ -152,7 +152,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestione delle sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Elenco di controllo UICONTROL]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Elenco di controllo]</strong></td>
       <td><p>Fare clic su <strong>[!UICONTROL Aggiungi elemento elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Viene aggiunto automaticamente un altro elemento. Continua a immettere titoli per aggiungere altri elementi.</p>
       <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p></td>
      </tr>
@@ -170,7 +170,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiornamento del lavoro</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Attività di sistema UICONTROL]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Attività di sistema]</strong></td> 
       <td><p>Se <strong>Attività di sistema</strong> è abilitato come sezione scheda, l'attività verrà visualizzata in quest'area.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati in una scheda</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Aggiornamenti rilevati dal sistema</a>.</p></td>
      </tr>     
     </tbody> 

@@ -57,7 +57,7 @@ Puoi creare istruzioni &quot;IF&quot; in Workfront utilizzando il seguente forma
 
 * **Operatore condizione** = si tratta dell&#39;operatore che consente di creare la condizione dell&#39;istruzione &quot;IF&quot;. Ad esempio, &quot;è uguale a&quot; o &quot;è maggiore di&quot; sono operatori di condizione. Per un elenco degli operatori di condizioni utilizzabili nelle istruzioni, vedere [Operatori di condizioni nelle espressioni personalizzate calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = Si tratta della variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
+* **True**&#x200B;**Expression** = Si tratta della variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
 
 * **Espressione False** = Si tratta della variabile &quot;False&quot;, che indica all&#39;equazione quale indicatore visualizzare quando i criteri della condizione non sono soddisfatti (indicatori falsi).
 

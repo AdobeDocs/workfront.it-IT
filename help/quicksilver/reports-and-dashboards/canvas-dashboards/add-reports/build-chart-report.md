@@ -161,7 +161,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 Segui i passaggi riportati di seguito per configurare la sezione **Filtro**:
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
 1. Selezionare **Modifica filtro**.
 1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che deve soddisfare il campo.
 1. (Facoltativo) Fare clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fare clic sull&#39;operatore per modificarlo in OR.

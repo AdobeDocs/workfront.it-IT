@@ -65,11 +65,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
         <td>Descrizione dell'elemento.</td>
     </tr>
     <tr>
-        <td><strong>[!Stima UICONTROL]</strong></td>
+        <td><strong>[!UICONTROL Stima]</strong></td>
         <td>Numero stimato di ore o punti per l'articolo.</td>
     </tr>
     <tr>
-        <td><strong>[!Progetto padre UICONTROL]</strong></td>
+        <td><strong>[!UICONTROL Progetto padre]</strong></td>
         <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Iniziate a digitare il nome di un progetto, quindi selezionatelo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>

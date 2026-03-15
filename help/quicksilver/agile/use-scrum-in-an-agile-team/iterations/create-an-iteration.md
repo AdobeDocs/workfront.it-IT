@@ -62,7 +62,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!Nome iterazione UICONTROL]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome iterazione]</strong></td> 
       <td>Immettere il nome dell'iterazione.</td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ Utilizzare la funzionalità [!UICONTROL Iterazione del piano] per creare un&#39;
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!Nome iterazione UICONTROL]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome iterazione]</strong></td> 
       <td>Specificare un nome per l'iterazione.</td> 
      </tr> 
      <tr> 
@@ -122,7 +122,7 @@ Utilizzare la funzionalità [!UICONTROL Iterazione del piano] per creare un&#39;
       <td> Specificare la data di inizio dell'iterazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!Data Di Fine UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Data Di Fine]</strong> </td> 
       <td><p>Specificare la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non più lunga di 4 settimane dalla data di inizio.</p><p>Suggerimento: assicurati di scegliere un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi, come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>. In alternativa, per includere i giorni non lavorativi specifici del team, i team Agile possono scegliere di utilizzare una pianificazione alternativa (come descritto in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Utilizzare una pianificazione alternativa per i grafici di masterizzazione</a>).</p></td> 
      </tr> 
      <tr> 
@@ -130,7 +130,7 @@ Utilizzare la funzionalità [!UICONTROL Iterazione del piano] per creare un&#39;
       <td>Specificare la percentuale di attivazione del team. Se tutti i membri del team si concentreranno completamente su questa iterazione, l'attenzione sarà al 100%.<br>[!DNL Workfront] precompila questo campo con il valore medio delle iterazioni precedenti del team. Se questa è la prima iterazione del team, il valore predefinito di questo campo è 0.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><br><strong>[!Capacità UICONTROL]</strong></td> 
+      <td role="rowheader"><br><strong>[!UICONTROL Capacità]</strong></td> 
       <td> Specificare la capacità per l'iterazione. Questo è il numero di punti o ore che il team è in grado di raggiungere nell’iterazione. Il numero immesso deve essere uguale o maggiore del numero di punti o ore dalla somma di tutti i brani nell'iterazione.<br>[!DNL Workfront] precompila questo campo con il valore medio delle iterazioni passate del team. Se si tratta della prima iterazione del team, il valore del campo è 0 per impostazione predefinita.</td> 
      </tr> 
      <tr> 

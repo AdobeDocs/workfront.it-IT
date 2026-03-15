@@ -57,7 +57,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario [!UICONTROL]</td> 
+   <td>Attività in una scheda orario </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +71,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario [!UICONTROL]</td> 
+   <td>Problemi in una scheda orario </td> 
   </tr>
 
 <tr data-mc-conditions=""> 

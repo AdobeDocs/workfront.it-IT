@@ -126,9 +126,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: principali, secondarie, principali e autonome. Se il report matrice è stato creato per visualizzare Ore pianificate o Ore effettive nella colonna **Valore**, tenere presente che le ore o le informazioni sui costi per qualsiasi oggetto padre, ad esempio le attività padre, non vengono visualizzate nel report matrice. Per visualizzare le ore sugli oggetti padre, è necessario visualizzare la scheda **Dettagli**.
      >   
      >   
-     >
+     >**Regole condizionali:** Impostare le regole di formattazione per i valori aggregati.\
 
-   **Regole condizionali:** Impostare le regole di formattazione per i valori aggregati.\
    Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Dopo aver definito la regola, fai clic su **Aggiungi regola**, quindi su **Fine** per salvarla.
 
 1. Fare clic sulla scheda **Filtri** per definire le informazioni da visualizzare nel report.

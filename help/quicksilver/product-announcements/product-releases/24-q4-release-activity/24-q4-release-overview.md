@@ -63,7 +63,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Livello di accesso ora disponibile nella promozione dell'ambiente</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>Per espandere le funzionalità di promozione dell’ambiente, è stata aggiunta la possibilità di includere i livelli di accesso. Ora è possibile configurare un livello di accesso in un ambiente Sandbox e quindi promuovere tale livello di accesso all’ambiente di produzione.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -80,7 +80,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Un contatore nei moduli personalizzati mostra il numero di campi</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>I moduli personalizzati sono limitati a 500 campi. In un modulo lungo può essere difficile sapere quanti campi sono presenti nel modulo e se ci si avvicina al limite. Un contatore è stato aggiunto ai moduli personalizzati in basso a sinistra. Il contatore indica il numero di campi utilizzati nel modulo ed è sempre visibile durante lo scorrimento all'interno del progettista del modulo.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -97,7 +97,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Un'opzione "Seleziona tutto" è ora disponibile nei modelli di layout</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>Per semplificare la visualizzazione e la visualizzazione dei campi con modelli di layout, è stata aggiunta una casella di controllo "Seleziona tutto" alle aree Panoramica e Finanza della visualizzazione Dettagli in un modello di layout. Questa opzione è disponibile se hai selezionato Progetto, Attività, Problema, Portfolio o Programma in "Personalizza ciò che viene visualizzato dagli utenti".</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -114,7 +114,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ripristino dei pacchetti di promozione dell'ambiente</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Per rendere la promozione dell'ambiente più flessibile e facile da usare, abbiamo attivato la funzionalità di rollback. Ora è possibile ripristinare i pacchetti entro 24 ore, in modo da ripristinare più facilmente le configurazioni precedenti interessate da un pacchetto di promozione dell'ambiente.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -193,7 +193,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Aggiungere rapidamente revisori e approvatori precedenti alle nuove versioni del documento</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Ora è possibile aggiungere rapidamente revisori e approvatori di versioni di documenti precedenti.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -229,7 +229,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Aggiornamenti al widget In attesa della mia approvazione nella nuova pagina principale</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Sono state apportate le seguenti modifiche al widget In attesa di approvazione:</p>
                         <ul>
                             <li>Rinominato widget: il nome di questo widget è ora Approvazioni personali.</li>
@@ -251,7 +251,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introduzione alle priorità: un'esperienza Workfront più semplice, semplice e intuitiva per i proprietari delle attività</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Le priorità migliorano l'attenzione e la produttività per consentire ai clienti di ottenere di più in meno tempo.</p>
                     <p>Con Priorità, puoi godere di:</p>
                         <ul>
@@ -293,7 +293,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti dell'esperienza di accesso all'integrazione di Outlook</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>L’esperienza di accesso per l’integrazione con Outlook è stata semplificata: tutti i clienti possono visualizzare lo stesso pulsante per accedere a Workfront, indipendentemente dal fatto che siano abilitati IMS. I passaggi di accesso successivi rimangono diversi per le istanze IMS e non IMS, ma la pagina iniziale è la stessa per tutti gli utenti.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -329,7 +329,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
-                    [!BADGE In produzione per rilascio rapido ]{type=Positive}
+                    [!BADGE In produzione per rilascio rapido &#x200B;]{type=Positive}
                     <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -347,7 +347,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
-                    [!BADGE In produzione per rilascio rapido ]{type=Positive}
+                    [!BADGE In produzione per rilascio rapido &#x200B;]{type=Positive}
                     <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -384,7 +384,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correzione dei problemi di copia/incolla per il visualizzatore di correzione del desktop</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>È stato risolto un problema a causa del quale il contenuto veniva incollato in modo errato nella sezione Aggiornamenti del Visualizzatore correzione desktop.</p>
                     <p>Nuova versione: 2.1.39</p>
                 </td>
@@ -402,7 +402,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correzione schermo vuoto per gli utenti di Windows che usano il visualizzatore di correzione del desktop</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>È stato risolto un problema relativo alla nuova versione 2.1.36 del Visualizzatore correzione desktop, a causa del quale alcuni utenti di Windows visualizzavano una schermata vuota dopo l’apertura del visualizzatore. </p>
                     <p>Nuova versione per gli utenti Windows: 2.1.37</p>
                 </td>
@@ -420,7 +420,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamento di Chromium per il visualizzatore di correzione per il desktop</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Stiamo aggiornando Desktop Proofing Viewer per supportare Chromium 126.0.6478.127 che risolverà i problemi con gli elementi dell'interfaccia utente nelle prove interattive.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -456,7 +456,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect disponibile per nuovi piani</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Workfront Data Connect sarà disponibile per le organizzazioni che dispongono di uno dei nuovi piani Workfront. Data Connect consente alle aziende di accedere ai dati come data lake sicuro e scalabile, che può essere analizzato e visualizzato utilizzando strumenti di business intelligence o archiviato esternamente. Inoltre, le organizzazioni possono utilizzare Data Connect per visualizzare le analisi dei dati precedentemente non disponibili, ad esempio l'analisi delle tendenze basata sul tempo, la mappatura delle variabili e l'analisi dei dati di sistema esterni in combinazione con i dati di Workfront.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -480,7 +480,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Riepiloga progetti o aggiornamenti con un clic</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>Per visualizzare più facilmente le aree di rilievo di un progetto o di un flusso di aggiornamento, sono stati aggiunti i pulsanti Riepiloga in tali aree di Workfront. Ora puoi fare clic sul pulsante per generare un riepilogo nell’Assistente AI.</p><p>In precedenza, gli utenti potevano aprire l’Assistente IA e digitare un messaggio per richiedere di creare un riepilogo del progetto o del flusso di aggiornamento.</p>
                 </td>
                 <td><p><b>Disponibile in queste date:</b></p>
@@ -497,7 +497,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilità generale di Adobe Workfront Planning</a></p>
-                    [!BADGE In Produzione ]{type=Informative}
+                    [!BADGE In Produzione &#x200B;]{type=Informative}
                     <p>Workfront Planning è disponibile per tutti i clienti che hanno acquistato una licenza Workfront Planning, oltre alla licenza Workfront. Per ulteriori informazioni su Workfront Planning, contattare il rappresentante dell'account.</p>
                     <p>Per informazioni aggiornate sulla versione di Workfront Planning ogni trimestre, vedere la sezione <a href="#workfront-planning-enhancements">Miglioramenti di Workfront Planning</a> di seguito.</p>
                 </td>
@@ -512,7 +512,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Assistente Adobe AI disponibile in Workfront</a></p>
-                    [!BADGE In produzione ]{type=Informative}
+                    [!BADGE In produzione &#x200B;]{type=Informative}
                     <p>Per facilitare l’esecuzione del tuo lavoro, abbiamo aggiunto l’Assistente di intelligenza artificiale di Adobe a Workfront. L'Assistente all'intelligenza artificiale consente di:</p>
                     <ul>
                         <li>Riepilogando elementi di lavoro e documenti, è possibile acquisire rapidamente una conoscenza generale di attività, progetti e risorse.</li>

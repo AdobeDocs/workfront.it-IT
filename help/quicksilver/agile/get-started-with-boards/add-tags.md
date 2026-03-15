@@ -98,7 +98,7 @@ I tag del flusso di lavoro sono disponibili per tutte le bacheche in un flusso d
 
 1. Nella casella **[!UICONTROL Tag]** digitare il nome di un tag esistente e selezionarlo dai risultati della ricerca.\
    Oppure\
-   Fate clic sull&#39;icona **[!UICONTROL Modifica]**&#x200B;2}Modifica tag![ e create un nuovo tag in Gestione tag. ](assets/boards-edittag-30x29.png) Fai clic su **Fine** per tornare alla scheda, quindi seleziona il tag sulla scheda.
+   Fate clic sull&#39;icona **[!UICONTROL Modifica]**&#x200B;2&rbrace;Modifica tag![&#x200B; e create un nuovo tag in Gestione tag. &#x200B;](assets/boards-edittag-30x29.png) Fai clic su **Fine** per tornare alla scheda, quindi seleziona il tag sulla scheda.
 1. Fai clic su **Chiudi**.
 
 ## Modificare un tag

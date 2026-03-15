@@ -266,7 +266,7 @@ Le righe di una visualizzazione in modalità testo per una raccolta sono evidenz
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&amp;zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore barra. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori dell'insieme sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
+   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore barra. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori dell'insieme sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nome colonna</em> </td> 
@@ -395,7 +395,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 1. Fai clic su **Prompt dei rapporti**.
 1. Fai clic su **Aggiungi prompt**.
 1. Fai clic su **Messaggio personalizzato**.
-1. Specificare il nome del prompt nel campo ******nome**.
+1. Specificare il nome del prompt nel campo **&#x200B;**&#x200B;**nome**.
 
 1. Specificare un&#39;etichetta **per elemento a discesa**.
 1. Specifica quanto segue nel campo **Condizione**:

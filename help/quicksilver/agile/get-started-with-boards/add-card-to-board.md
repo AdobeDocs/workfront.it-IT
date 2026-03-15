@@ -69,19 +69,19 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!Nome UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome]</strong> </td> 
       <td>Il nome della carta.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!Descrizione UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong> </td> 
       <td>Descrizione della scheda. Puoi aggiungere degli URL nella descrizione, che diventeranno collegamenti cliccabili una volta salvata la scheda.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Colonna UICONTROL]</strong> </td> 
-      <td>Selezionare la colonna per la scheda. Se si lascia vuoto il campo <strong>[!Colonna UICONTROL]</strong>, la scheda verrà inserita nella prima colonna a sinistra della scheda.</td>
+      <td role="rowheader"><strong>[!UICONTROL Colonna]</strong> </td> 
+      <td>Selezionare la colonna per la scheda. Se si lascia vuoto il campo <strong>[!UICONTROL Colonna]</strong>, la scheda verrà inserita nella prima colonna a sinistra della scheda.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Stato UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Stato]</strong> </td> 
       <td>Selezionare uno stato per la scheda. Se si fa clic su <strong>[!UICONTROL Mark Complete]</strong> nella parte superiore della scheda, lo stato viene automaticamente modificato in [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
@@ -89,7 +89,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Selezionare una data di scadenza per la scheda. </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Stima UICONTROL]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Stima]</strong></td> 
       <td>Digitare il numero stimato di ore per il completamento della scheda. Si tratta solo di una immissione manuale.</td>
      </tr>
      <tr> 
@@ -101,15 +101,15 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Cercare e selezionare i tag per la scheda. Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungere tag</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!Connessione UICONTROL]</strong> </td>
+      <td role="rowheader"><strong>[!UICONTROL Connessione]</strong> </td>
       <td>È possibile connettere una scheda ad hoc a un'attività [!DNL Workfront] o a un problema. Per ulteriori informazioni, consulta "Convertire una scheda ad hoc in una scheda collegata" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare schede connesse su schede</a>.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Elenco di controllo UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Elenco di controllo]</strong> </td> 
       <td> <p>Fare clic su <strong>[!UICONTROL Aggiungi elemento elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Viene aggiunto automaticamente un altro elemento. Continua a immettere titoli per aggiungere altri elementi.</p> <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestione degli elementi dell'elenco di controllo nelle schede</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!Commenti UICONTROL]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
       <td><p>Fare clic nel campo <strong>[!UICONTROL Nuovo commento]</strong> e digitare il commento. Usate gli strumenti di formattazione per formattare il testo. (Le immagini non sono disponibili nei commenti su schede ad hoc.) Per assegnare tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L'utente non deve necessariamente essere un membro della bacheca.</p><p><strong>NOTA:</strong> al momento, gli utenti con tag nei commenti su schede ad hoc non ricevono una notifica e-mail.
       </p><p>Fare clic su <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
       <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiornamento del lavoro</a>.</p></td>
