@@ -2,22 +2,22 @@
 product-area: requests
 navigation-topic: create-requests
 title: Visualizza richieste inviate
-description: Scopri le aree di Adobe Workfront in cui puoi visualizzare le richieste che hai inviato o che un altro utente ha inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
+description: Scopri le aree di Adobe Workfront in cui puoi visualizzare le richieste che tu o qualcun altro avete inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 6%
 
 ---
 
 # Visualizzare le richieste inviate
 
-Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
+Puoi visualizzare le richieste che tu o qualcun altro avete inviato o le richieste che avete iniziato ma che non avete mai finito di inviare. Le richieste non completate vengono salvate come bozze.
 
 Puoi individuare le richieste inviate nelle seguenti aree di Adobe Workfront:
 
@@ -31,9 +31,9 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
 
   >[!NOTE]
   >
-  >* È possibile visualizzare solo le proprie bozze di richieste.
-  >* Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco.
-  >* Le bozze create nell’esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.
+  >* Puoi visualizzare solo le tue richieste bozza.
+  >* Nella nuova esperienza di richiesta, le richieste e le bozze presentate si trovano nello stesso elenco.
+  >* Le bozze create nell’esperienza precedente non vengono visualizzate nella nuova esperienza Richiesta.
 
 ## Requisiti di accesso
 
@@ -45,7 +45,9 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td> <p>Qualsiasi pacchetto Adobe Workfront o Adobe Workflow</p> 
+   <p>Qualsiasi pacchetto Adobe Workfront Planning</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -61,10 +63,12 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Visualizza autorizzazioni o versioni successive nelle richieste</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Prodotto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,7 +85,7 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 ### Visualizzare le richieste inviate nella nuova esperienza di richiesta
 
-È possibile visualizzare le richieste inviate nell&#39;area Richieste, che include collegamenti a oggetti creati da richieste Planning.
+È possibile visualizzare le richieste inviate nell&#39;area Richieste, che include i collegamenti agli oggetti creati dalle richieste di Adobe Workfront Planning.
 
 >[!NOTE]
 >
@@ -107,8 +111,8 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
    Per informazioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna **Stato**. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
-   * **Bozza**: questa richiesta non è ancora stata inviata.
-   * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
+   * **Bozza**: la richiesta non è stata ancora inviata.
+   * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno di essi ha aperto la richiesta.
    * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
    * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata. Questa richiesta non creerà un record.
    * **In corso**:
@@ -132,16 +136,16 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 1. (Condizionale) Se la tua organizzazione ha acquistato un pacchetto Workfront Planning, fai clic sulla scheda **Workfront** per visualizzare le richieste di Workfront.
 1. Fai clic su **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
 
-   È possibile visualizzare fino a 2.000 richieste, che possono essere visualizzate su più pagine.
+   Puoi visualizzare fino a 2000 richieste che possono essere visualizzate su più pagine.
 
    >[!TIP]
    >
-   >Non è possibile personalizzare le colonne nell’elenco delle richieste inviate.
+   >Non è possibile personalizzare le colonne nell&#39;elenco Richieste inviate.
 
-   ![Richieste inviate: nuovo elenco](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Richieste inviate nuovo elenco](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
-1. Per impostazione predefinita, vengono visualizzate le seguenti colonne:
+1. Per impostazione predefinita vengono visualizzate le seguenti colonne:
 
    <table style="table-layout:auto"> 
       <col> 
@@ -155,11 +159,11 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
    </tr> 
       <tr> 
          <td role="rowheader">Convertito in</td> 
-         <td> <p>Nome dell'oggetto di risoluzione, che può essere un'attività o un progetto a cui è stata convertita la richiesta. </p> <p>Fare clic sul nome dell'attività o del progetto per aprirli. </p> <p>Se la richiesta non è stata convertita, questo campo è vuoto. </p> </td> 
+         <td> <p>Nome dell'oggetto di risoluzione che può essere un'attività o un progetto in cui è stata convertita la richiesta. </p> <p>Fare clic sul nome dell'attività o del progetto per aprirli. </p> <p>Se la richiesta non è stata convertita, questo campo è vuoto. </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Percorso</td> 
-         <td>Il nome della coda di richieste, dei gruppi di argomenti e degli argomenti della coda in cui la richiesta è stata inviata in origine. </td> 
+         <td>Nome della coda di richieste, dei gruppi di argomenti e degli argomenti della coda in cui la richiesta è stata inviata in origine. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Stato</td> 
@@ -167,7 +171,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
       </tr> 
       <tr> 
          <td role="rowheader">Data inserimento</td> 
-         <td>La data in cui la richiesta è stata inviata o la data in cui è stato creato l’oggetto di risoluzione se la richiesta è stata eliminata al momento della conversione. </td> 
+         <td>Data in cui è stata inviata la richiesta o la data in cui è stato creato l'oggetto di risoluzione se la richiesta è stata eliminata al momento della conversione. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Data ultimo aggiornamento</td> 
