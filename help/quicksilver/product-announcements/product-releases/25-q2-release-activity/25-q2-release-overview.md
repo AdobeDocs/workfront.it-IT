@@ -318,7 +318,7 @@ L’interfaccia di Adobe Workfront è in fase di aggiornamento per migliorare l�
 
 >[!IMPORTANT]
 >
->La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home).
 >
 >Ogni articolo della documentazione di Fusion corrente contiene un collegamento all’articolo corrispondente nella nuova posizione. Aggiorna i segnalibri.
 >
