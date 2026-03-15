@@ -1,14 +1,14 @@
 ---
 title: Modificare le impostazioni di un team dall'area di configurazione
 description: In qualità di amministratore di Adobe Workfront, puoi modificare le impostazioni di un team dall’area Configurazione. È possibile aggiungere utenti a un team, impostare il modello di layout di un team e impostare la modalità di registrazione dello stato al completamento degli elementi di lavoro da parte di un team.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 6%
+source-wordcount: '595'
+ht-degree: 13%
 
 ---
 
@@ -27,22 +27,21 @@ Per informazioni sui team, consulta [Panoramica sui team](../../../people-teams-
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

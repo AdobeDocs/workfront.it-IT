@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: In qualità di amministratore di Adobe Workfront, puoi creare un team dall’area Configurazione.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 15%
 
 ---
 
@@ -28,22 +28,21 @@ In qualità di amministratore di Adobe Workfront, puoi creare un team dall’are
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -53,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
