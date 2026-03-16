@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 4%
+source-wordcount: '987'
+ht-degree: 5%
 
 ---
 
@@ -84,7 +84,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++
 
-## Approvare una richiesta per creare un record
+## Approvare una richiesta Planning per creare un record
 
 Dopo che gli utenti aggiungono richieste a un modulo di richiesta di tipo record associato a un’approvazione, la richiesta viene inviata agli approvatori.
 
@@ -93,32 +93,34 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 * Una notifica in-app
 * Una notifica e-mail
 
+Per informazioni sull’approvazione delle richieste provenienti da notifiche, consulta i seguenti articoli:
+
+* [Gestire le notifiche e-mail di Pianificazione di Adobe Workfront](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Gestire le notifiche in-app di Pianificazione di Adobe Workfront](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
 
 Puoi approvare le richieste di creazione di record dalla richiesta stessa o dal widget Approvazioni personali nella Home.
 
-* [Approvare una richiesta dalla richiesta in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Approvare una richiesta dal widget Le mie approvazioni nella Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Approvare una richiesta Planning da una notifica o dall&#39;area Richieste
 
-### Approvare una richiesta dalla richiesta in Workfront Planning
+1. Apri la richiesta effettuando una delle seguenti operazioni:
 
-1. (Condizionale) Se utilizzi l’esperienza di richiesta legacy in Workfront, apri la richiesta effettuando una delle seguenti operazioni:
-
-   * Se hai accesso a Workfront Planning e puoi visualizzare almeno un&#39;area di lavoro, fai clic su **Main Menu** ![Dots main menu](assets/dots-menu.png) nell&#39;angolo superiore destro della schermata o sul **Main Menu** ![Lines main menu](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Requests** > **Submitted** > **Planning** e fai clic sulla richiesta con lo stato di **Pending review** o **In review**.
+   * Fai clic sul **menu principale** ![menu principale Linee](assets/lines-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Richieste** > **Utilizza nuova esperienza** e fai clic sulla richiesta con lo stato di **Revisione in sospeso**.
 
      >[!TIP]
      >
-     >Se non disponi dell’accesso a Workfront Planning o se non disponi dell’accesso per visualizzare alcuna area di lavoro, puoi accedere a una richiesta per approvarla solo utilizzando l’e-mail o le notifiche in-app.
+     >* Se non disponi dell’accesso a Workfront Planning o se non disponi dell’accesso per visualizzare alcuna area di lavoro, puoi accedere a una richiesta per approvarla solo utilizzando l’e-mail o le notifiche in-app.
+     >* Non è possibile accedere alle richieste Planning dall&#39;esperienza di richiesta legacy.
 
    * Fai clic sull&#39;icona dell&#39;area **Notifications** ![Notifications area icon in Unified Shell](assets/notifications-area-icon-unified-shell.png) nell&#39;angolo superiore destro della schermata e fai clic sulla notifica relativa a una richiesta in attesa della tua approvazione per aprire la richiesta.
-   * Vai alla notifica e-mail nell&#39;e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su **Apri richiesta** per aprire la richiesta. <!--add the name of the button here, from the email-->
+   * Vai alla notifica e-mail nell&#39;e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su **Apri richiesta** per aprire la richiesta.
 
    La pagina della richiesta si apre in modalità di sola lettura.
 
    ![Pagina richiesta di sola lettura in stato di revisione](assets/read-only-reqeust-page-in-review-status.png)
-1. Se utilizzi la nuova esperienza di richiesta in Workfront, fai clic su **Menu principale** ![Menu principale punti](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![Menu principale righe](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** e fai clic sulla richiesta che desideri approvare con lo stato di **Revisione in sospeso**.
 1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![Approvazioni](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni:
 
@@ -132,21 +134,20 @@ Puoi approvare le richieste di creazione di record dalla richiesta stessa o dal 
    * **Completato**: la richiesta è approvata.
    * **Rifiutata**: richiesta rifiutata.
 
-   La richiesta rimane nell’area Richieste di Workfront.
+   La richiesta rimane nell&#39;area **Richieste** di Workfront.
 
 ### Approvare una richiesta dal widget Le mie approvazioni nella Home
 
 {{step1-to-home}}
 
-Oppure
+1. Vai al widget **Le mie approvazioni** in **Home**.
 
-Fai clic sull&#39;icona [!UICONTROL Home] ![Home icon](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi individua il widget Approvazioni personali.
+   ![Widget Approvazioni personali in Home](assets/my-approvals-widget-in-home.png)
+1. Individuare la richiesta di Planning che si desidera approvare o rifiutare.
 
-1. Individuare l&#39;oggetto che si desidera approvare o rifiutare.
+1. (Facoltativo) Aggiungi un commento facendo clic sulla freccia a discesa accanto a **Approva** o **Rifiuta**, digitando la nota e facendo clic su **Aggiungi**.
 
-1. (Facoltativo) Per aggiungere un commento, fai clic sulla freccia a discesa accanto a Approva o Rifiuta, digita la nota e fai clic su Aggiungi.
-
-1. Scegliere una delle opzioni seguenti:
+1. Fare clic su una delle seguenti opzioni:
 
    * **Approva**: questa operazione approva la richiesta. Viene creato immediatamente un record per il tipo di record associato al modulo di richiesta dopo che tutti gli approvatori hanno approvato la richiesta.
    * **Rifiuta**: la richiesta viene rifiutata anche se l&#39;utente è l&#39;unico approvatore a rifiutarla. Non viene creato alcun record per il tipo di record associato al modulo di richiesta.

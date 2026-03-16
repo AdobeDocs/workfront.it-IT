@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 1%
+source-wordcount: '657'
+ht-degree: 2%
 
 ---
 
 
-# Gestire le notifiche e-mail di Adobe Workfront Planning
+# Gestire le notifiche e-mail di Pianificazione di Adobe Workfront
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -53,12 +53,12 @@ ht-degree: 1%
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Chiaro o superiore</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr> 
@@ -180,6 +180,13 @@ Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [G
 dopo aver inviato una richiesta o dopo che una richiesta inviata è stata approvata o rifiutata. Il mittente dell’e-mail è Adobe Workfront.
 
 1. (Facoltativo) Fai clic su **Apri richiesta**. Verrà aperta la richiesta in Workfront Planning.
+
+1. Nell&#39;angolo superiore destro della richiesta, fare clic sul pulsante **Rivedi e approva**, quindi fare clic su una delle opzioni seguenti:
+
+   * **Approva** per approvare la richiesta. Quando si approva una richiesta di Planning, viene creato un record.
+   * **Rifiuta** per rifiutare la richiesta. Quando si rifiuta una richiesta in Workfront Planning, non viene creato alcun record. La richiesta viene salvata nell&#39;area Richieste con stato **Rifiutata**.
+
+   ![Pulsante Esamina e approva nella richiesta di Planning](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. Fai clic sull&#39;icona **Notifiche** ![Icona area Notifiche Unified Shell](assets/notifications-area-icon-unified-shell.png) nell&#39;angolo superiore destro della schermata per accedere alla pagina **Notifiche**.
 

@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
 
-# Gestione delle notifiche in-app di Adobe Workfront Planning
+# Gestire le notifiche in-app di Pianificazione di Adobe Workfront
 
 {{planning-important-intro}}
 
@@ -46,12 +46,12 @@ ht-degree: 1%
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Chiaro o superiore</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr> 
@@ -155,8 +155,16 @@ OLD:
 
 ## Gestire le notifiche in-app quando si richiedono e si concedono le autorizzazioni
 
-Ricevi notifiche in-app quando qualcuno ti richiede o ti concede autorizzazioni per una visualizzazione o un’area di lavoro. <!--<span class="preview">or record</span>-->
+Ricevi notifiche in-app quando qualcuno ti richiede o ti concede autorizzazioni per una visualizzazione, un’area di lavoro o un tipo di record. <!--<span class="preview">or record</span>-->
 
 Per informazioni sulla richiesta, la concessione o il rifiuto delle autorizzazioni, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).
 
 Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [Gestione preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Gestire le notifiche in-app quando si approvano o rifiutano le richieste Planning
+
+Ricevi una notifica in-app quando qualcuno invia una richiesta di approvazione o quando qualcuno approva una richiesta che hai inviato.
+
+Per informazioni sull&#39;invio delle richieste, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+
+Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
