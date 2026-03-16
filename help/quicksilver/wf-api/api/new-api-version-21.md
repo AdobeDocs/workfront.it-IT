@@ -1,25 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 21 dell’API
+title: Novità nella versione API 21
 description: Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione 21 dell’API presenta le seguenti modifiche rispetto alla versione 20.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 3%
+source-wordcount: '929'
+ht-degree: 14%
 
 ---
 
-# Novità della versione 21 dell’API
+# Novità nella versione API 21
 
 >[!IMPORTANT]
 >
->Questa modifica della versione API comporta una modifica che potrebbe influire sulle chiamate API esistenti. Ciò è dovuto al fatto che API versione 21 utilizza sottoscrizioni evento versione 2.
+>Questa modifica alla versione API comporta delle interruzioni e potrebbe interessare le chiamate API esistenti. Ciò è dovuto al fatto che la versione 21 dell’API utilizza la versione 2 delle sottoscrizioni eventi.
 >
-> Per i campi a selezione multipla, la versione 2 delle sottoscrizioni eventi invia sempre come array. La versione 1 ha inviato un array se sono selezionati più valori. Se è stato selezionato un solo valore, viene inviata una stringa.
+> Per i campi a selezione multipla, la versione 2 di Sottoscrizioni eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
 
 Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione 21 dell’API presenta le seguenti modifiche rispetto alla versione 20.
 
@@ -274,7 +275,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
 
 ### Approvazione (APPROVAZIONE)
 
-Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un’attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l’elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table>
   <col/>
@@ -483,7 +484,7 @@ Un oggetto Parameter è un campo personalizzato.
             <p>È stato aggiunto il seguente valore possibile:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (RTF lessicale)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Un oggetto Work è un&#39;interfaccia comune ereditata sia da Task che da OpTask
     </tr>
   </tbody>
 </table>
-
-
