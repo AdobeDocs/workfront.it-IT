@@ -7,10 +7,11 @@ description: È possibile abilitare lo storage aziendale Adobe per la propria or
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -65,5 +66,10 @@ Per abilitare lo storage aziendale Adobe per la tua organizzazione:
    >L’attivazione di questa opzione consente agli utenti di selezionare il provider di archiviazione al momento della creazione di un nuovo progetto. lo storage aziendale è etichettato come &quot;Nuovo progetto&quot; in quanto è il provider di storage predefinito. Lo storage Workfront legacy è etichettato come &quot;Progetto legacy&quot;.
    >
    >![nuove opzioni progetto e progetto legacy](assets/new-esm-project.png)
+
+1. Nel menu a discesa Si applica a, scegliere una delle seguenti opzioni:
+
+   - **Intera organizzazione**: questa opzione applica il provider di archiviazione predefinito all&#39;intero ambiente Workfront. Ogni volta che un utente crea un nuovo progetto, viene utilizzato il provider di archiviazione predefinito.
+   - **Gruppi specifici**: questa opzione applica il provider di archiviazione predefinito solo a gruppi specifici all&#39;interno dell&#39;organizzazione. Ogni volta che un utente nei gruppi specificati crea un nuovo progetto, verrà utilizzato il provider di archiviazione predefinito
 
 1. Fai clic su **Salva**.
