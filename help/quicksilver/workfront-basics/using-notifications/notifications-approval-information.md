@@ -6,16 +6,21 @@ description: Le notifiche seguenti ti avvisano delle attività di approvazione c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '697'
+ht-degree: 1%
 
 ---
 
 # Notifiche: informazioni sull’approvazione
 
 Le notifiche seguenti ti avvisano delle attività di approvazione che si verificano su un elemento di lavoro a cui sei coinvolto. Per informazioni sulla configurazione delle notifiche ricevute, vedere [Modificare le proprie notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+>[!NOTE]
+>
+>Queste notifiche si applicano solo alle approvazioni di documenti legacy. I controlli di notifica per le approvazioni di documenti unificate non sono attualmente disponibili.
+
 
 Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-notifications.md).
 

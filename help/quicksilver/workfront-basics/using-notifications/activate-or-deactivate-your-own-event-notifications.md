@@ -2,19 +2,19 @@
 product-area: setup
 navigation-topic: notifications
 keywords: modifica,e-mail,notifica,impostazioni
-title: Modifica le tue notifiche e-mail
+title: Modificare le proprie notifiche e-mail
 description: Questo articolo descrive come gestire le notifiche e-mail nel profilo utente.
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
-# Modifica le tue notifiche e-mail
+# Modificare le proprie notifiche e-mail
 
 <!-- Audited: 1/2024 -->
 
@@ -30,11 +30,11 @@ Per ulteriori informazioni sulle notifiche e-mail, vedi [[!DNL Adobe Workfront] 
 >
 >* Se si attiva un tipo di notifica e successivamente si scopre che non vengono ricevute notifiche di quel tipo, è possibile che tale tipo non sia applicabile al ruolo.
 >* L&#39;amministratore di [!DNL Workfront] o un amministratore gruppo non può configurare le notifiche per [!DNL Workfront Goals]. Per ulteriori informazioni sulle notifiche configurabili dall&#39;amministratore [!DNL Workfront], vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Per informazioni sulla configurazione di singole notifiche per [!DNL Workfront Goals], continuare a leggere questo articolo.
->
+>* Le notifiche di approvazione si applicano solo alle approvazioni di documenti legacy. I controlli di notifica per le approvazioni di documenti unificate non sono attualmente disponibili.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
