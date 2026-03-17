@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 6%
 
 ---
@@ -67,16 +67,13 @@ Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvaz
 
 * **Approvazioni per singolo utilizzo**: nel progetto o nell&#39;attività in cui risiede la risorsa, il coordinatore del progetto può assegnare revisori e approvatori e impostare una scadenza di completamento. Ai revisori e agli approvatori viene inviato un promemoria tramite e-mail 72 ore prima della scadenza, 24 ore prima della scadenza e quindi sulla scadenza stessa.
 
-  Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
 * **Modelli di approvazione**: nell&#39;area Configurazione di Workfront i coordinatori del progetto possono creare modelli di approvazione riutilizzabili. All’interno di un modello, gli utenti possono aggiungere revisori e approvatori e specificare un arco temporale di completamento. Quando il modello di approvazione viene applicato a una risorsa, la scadenza viene calcolata a partire dall’intervallo di tempo specificato.
 
   Una volta creato, un modello può essere applicato a una risorsa per iniziare il processo formale di revisione e approvazione in Workfront.
 
   Per ulteriori informazioni, vedere [Creare un modello di workflow di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-  ![Assegna modello](assets/assign-template.png)
 
 ### Rivedere e approvare le risorse nel visualizzatore Frame.io
 
