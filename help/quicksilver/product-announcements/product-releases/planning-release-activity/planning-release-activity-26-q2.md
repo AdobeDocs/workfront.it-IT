@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 13%
@@ -81,7 +81,7 @@ Ora solo gli amministratori di sistema possono scegliere tra le seguenti opzioni
 
 Per impostazione predefinita, le aree di lavoro sono impostate sull’autorizzazione &quot;Solo gli utenti invitati possono accedere&quot;.
 
-Prima di questa modifica, non era possibile scegliere queste autorizzazioni di condivisione dell’area di lavoro.
+Prima di questa modifica, la possibilità di scegliere queste autorizzazioni di condivisione dell’area di lavoro non esisteva.
 
 Per informazioni, consulta Condividere le aree di lavoro (help/quicksilver/planning/access/share-workspaces.md).
 

@@ -1,11 +1,11 @@
 ---
 title: Panoramica sul rilascio del secondo trimestre 2026
-description: This page provides information about functionality that is included in the Second Quarter 2026 release. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
+description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2026. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 38%
@@ -14,9 +14,9 @@ ht-degree: 38%
 
 # Panoramica sul rilascio del secondo trimestre 2026
 
-This page provides information about functionality that is included in the Second Quarter 2026 release scheduled for April 2026.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2026 pianificata per aprile 2026.
 
-I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. This page will be updated with additional enhancements as the Second Quarter 2026 release nears its planned Production release.
+I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
 
 <!-- Keep commented until Final Preview release.
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Rilascio mensile | Rilascio trimestrale |
 >|----|----|
->| <ul><li>26,2 (12 febbraio 2026)</li><li>26,3 (12 marzo 2026)</li><li>26,4 (15 aprile 2026)</li></ul> | <ul><li>26.1 (16 aprile 2026)</li></ul> |
+>| <ul><li>26.2 (12 febbraio 2026)</li><li>26.3 (12 marzo 2026)</li><li>26.4 (15 aprile 2026)</li></ul> | <ul><li>26.1 (16 aprile 2026)</li></ul> |
 >
 >Tieni presente che per la versione finale di ogni trimestre (26.4 questo trimestre), gli utenti che seguono la pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo (15 aprile 2026).
 >
@@ -39,10 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
-* [Document enhancements](#document-enhancements)
+* [Miglioramenti ai documenti](#document-enhancements)
 * [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
-* [Requesting enhancements](#requesting-enhancements)
+* [Richiesta di miglioramenti](#requesting-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -60,7 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Custom Quarters removed from Project Preferences</a><p>È stata spostata l’area Trimestre personalizzato dalla sezione Preferenze progetto. È ora una sezione autonoma del programma di installazione.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestri personalizzati rimossi dalle preferenze del progetto</a><p>L’area Trimestre personalizzato è stata spostata dalla sezione Preferenze progetto. Ora è una sezione indipendente in Configurazione.</p>
         </td>
         <td><p>venerdì 5 marzo 2026</p></td>
         <td><p>giovedì 15 aprile 2026</p></td>
@@ -68,7 +68,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Comprimi sezione modulo personalizzata per impostazione predefinita</a><p>Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Comprimi sezione modulo personalizzato per impostazione predefinita</a><p>Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.</p>
         </td>
         <td><p>venerdì 26 febbraio 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -76,21 +76,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Il tipo di campo RTF è ora disponibile nei moduli personalizzati</a><p>The new <b>Rich text</b> field type in custom forms is a robust text editor, with formatting options such as superscript and subscript, headings, and tables, in addition to the traditional options of bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. The character limit remains 15,000.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Il tipo di campo Rich Text è ora disponibile nei moduli personalizzati</a><p>Il nuovo tipo di campo <b>Rich text</b> nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.</p>
         </td>
         <td><p>venerdì 29 gennaio 2026</p></td>
         <td><p>venerdì 12 febbraio 2026</p>
-            <p>This feature has been temporarily removed from the Production environment on February 13, 2026.</p></td>
+            <p>Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.</p></td>
         <td><p>Da definire</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuovi indirizzi IP per le notifiche e-mail Workfront</a><p></p>
-            <p>Stiamo aggiornando gli indirizzi IP utilizzati per inviare le notifiche e-mail da Workfront. Se la tua organizzazione mantiene un elenco di indirizzi e-mail o firewall consentiti, <b>devi</b> aggiungere i nuovi indirizzi IP di seguito per garantire la continuità del recapito delle notifiche di Workfront.</p><p>Questi aggiornamenti si applicano a tutti i messaggi e-mail in uscita generati dall'applicazione Workfront, inclusi approvazioni, promemoria, notifiche di prova e altri messaggi di sistema.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuovi indirizzi IP per le notifiche e-mail di Workfront</a><p></p>
+            <p>Stiamo aggiornando gli indirizzi IP utilizzati per inviare notifiche e-mail da Workfront. Se l'organizzazione mantiene un inserisco nell'elenco Consentiti di posta elettronica o di firewall, <b>devi</b> aggiungere i nuovi indirizzi IP di seguito per garantire la continuità della consegna delle notifiche di Workfront.</p><p>Questi aggiornamenti si applicano a tutte le e-mail in uscita generate dall’applicazione Workfront, incluse approvazioni, promemoria, notifiche di bozze e altri messaggi di sistema.</p>
             <ul>
             <li>USA:
             <ul>
-            <li>206 55 149 212</li>
+            <li>206.55.149.212</li>
             <li>206.55.149.214</li>
             <li>206.55.149.215</li>
             <li>206.55.149.213</li>
@@ -99,8 +99,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </li>
             <li>UE: 
             <ul>
-            <li>24.110.76.224</li>
-            <li>24.110.76.223</li>
+            <li>24 110 76 224</li>
+            <li>24 110 76 223</li>
             </ul>
             </li>
             </ul> </p>
@@ -126,8 +126,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestrale</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Unified Review &amp; Approval powered by Workfront and Frame.io</a><p></p>
-            <p>Siamo lieti di introdurre la funzione di revisione e approvazione unificata basata su Workfront e Frame.io, un'esperienza di revisione e approvazione semplificata che unisce pianificazione, verifica e collaborazione in un unico flusso di lavoro connesso.
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Revisione e approvazione unificate basate su Workfront e Frame.io</a><p></p>
+            <p>Siamo entusiasti di presentare la revisione e l'approvazione unificate basate su Workfront e Frame.io, un'esperienza di revisione e approvazione semplificata che riunisce pianificazione, verifica e collaborazione in un unico flusso di lavoro connesso.
  </p>
         </td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -136,7 +136,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Flussi di lavoro di approvazione in più fasi disponibili per le approvazioni unificate</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Flussi di lavoro di approvazione in più fasi disponibili per approvazioni unificate</a><p></p>
             <p>I flussi di lavoro di approvazione in più fasi sono ora disponibili nelle approvazioni unificate, consentendo alle organizzazioni di applicare processi di approvazione strutturati e ripetibili che riflettono il modo in cui il lavoro viene rivisto nel mondo reale. </p>
         </td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -146,7 +146,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Configurare e utilizzare modelli di flusso di lavoro di approvazione in più fasi</a><p></p>
-            <p>È ora possibile configurare e riutilizzare i modelli di flusso di lavoro di approvazione in più fasi, semplificando l'applicazione di regole di governance coerenti in flussi di lavoro di approvazione ripetibili. </p>
+            <p>Ora puoi configurare e riutilizzare modelli di flusso di lavoro di approvazione in più fasi, semplificando l’applicazione di una governance coerente ai diversi flussi di lavoro di approvazione ripetibili. </p>
         </td>
         <td><p>venerdì 12 marzo 2026</p></td>
         <td><p>giovedì 15 aprile 2026</p></td>
@@ -170,7 +170,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestrale</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Updated experience when and single- or bulk-assigning template tasks </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> We have updated the Assignments section in the Edit Template Tasks box when editing single template tasks or editing them in bulk.  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Esperienza aggiornata con l'assegnazione singola o in blocco delle attività modello </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> È stata aggiornata la sezione Assegnazioni nella casella Modifica attività modello quando si modificano attività modello singole o in blocco.  </p>
         </td>
         <td><p>venerdì 5 febbraio 2026</p></td>
         <td><p>A partire dal 5 febbraio 2026</p></td>
@@ -178,11 +178,11 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Esperienza aggiornata durante l'assegnazione singola o in blocco di attività </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> È stata aggiornata la sezione Assegnazioni nella casella Modifica attività quando si modificano singole attività o in blocco. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Esperienza aggiornata con l'assegnazione singola o in blocco delle attività </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> È stata aggiornata la sezione Assegnazioni nella casella Modifica attività quando si modificano singole attività o in blocco. </p>
         </td>
         <td><p>martedì 26 gennaio 2026</p></td>
-        <td><p>Starting February 5, 2026</p></td>
-        <td><p>Starting February 5, 2026</p></td>
+        <td><p>A partire dal 5 febbraio 2026</p></td>
+        <td><p>A partire dal 5 febbraio 2026</p></td>
     </tr>
             </tbody>
         </table>
@@ -202,8 +202,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">New Authentication Options for Data Connect Connection</a><p></p>
-            <p>You can now authenticate to Data Connect using RSA keys or Programmatic Access Tokens (PAT) connections, adding more secure and flexible alternatives to traditional username/password credentials. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni di autenticazione per la connessione dati</a><p></p>
+            <p>È ora possibile eseguire l'autenticazione a Data Connect utilizzando le chiavi RSA o le connessioni PAT (Programmatic Access Tokens), aggiungendo alternative più sicure e flessibili alle credenziali tradizionali di nome utente/password. </p>
         </td>
         <td><p>venerdì 12 marzo 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -211,8 +211,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Etichette dei campi personalizzati visualizzate durante la compilazione dei report</a><p></p>
-            <p>L’etichetta del campo personalizzato viene ora visualizzata prima del nome del campo e dell’oggetto negli strumenti di creazione del report, per facilitare l’individuazione dei campi. Le etichette dei campi vengono visualizzate anche quando si definiscono filtri, visualizzazioni e raggruppamenti negli elenchi.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Etichette campi personalizzati visualizzate durante la creazione dei report</a><p></p>
+            <p>L’etichetta del campo personalizzato viene ora visualizzata prima del nome del campo e dell’oggetto negli strumenti di creazione dei rapporti, facilitando l’individuazione dei campi. Le etichette dei campi vengono visualizzate anche quando si definiscono filtri, visualizzazioni e raggruppamenti negli elenchi.</p>
         </td>
         <td><p>venerdì 26 febbraio 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -221,7 +221,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Cartelle report condivisibili</a><p></p>
-            <p>Ora puoi organizzare e condividere i rapporti utilizzando cartelle di rapporti condivisibili. Questa nuova funzione consente ai team che gestiscono grandi volumi di report di mantenere un controllo degli accessi scalabile e coerente.</p>
+            <p>Ora puoi organizzare e condividere i rapporti utilizzando cartelle di rapporti condivisibili. Questa nuova funzione consente ai team che gestiscono grandi volumi di rapporti di mantenere un controllo degli accessi scalabile e coerente.</p>
         </td>
         <td><p>venerdì 26 febbraio 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -229,8 +229,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>I grafici che raggruppano i dati per data ora presentano etichette di data più chiare e leggibili. Con questo aggiornamento, le etichette delle date vengono regolate in modo dinamico in base all’opzione Raggruppa per selezionata, ad esempio giorno, settimana, mese o anno, semplificando la lettura e l’interpretazione immediata dei grafici.</p><p>Note: Canvas Dashboards is currently in beta.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Sono state migliorate le etichette di data per i raggruppamenti di grafici nei dashboard di Canvas</a><p></p>
+            <p>I grafici che raggruppano i dati per data ora presentano etichette di data più chiare e leggibili. Con questo aggiornamento, le etichette delle date vengono regolate in modo dinamico in base all’opzione Raggruppa per selezionata, ad esempio giorno, settimana, mese o anno, semplificando la lettura e l’interpretazione immediata dei grafici.</p><p>Nota: Canvas Dashboards è attualmente in versione beta.</p>
         </td>
         <td><p>venerdì 26 febbraio 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -239,7 +239,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
              </tbody>
         </table>
 
-### Requesting enhancements
+### Richiesta di miglioramenti
 
 <table>
             <col style="width: 50%;" />
@@ -253,8 +253,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestrale</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Esperienza di condivisione aggiornata per visualizzazioni avanzate</a><p></p>
-            <p>Nell'area Nuove richieste, quando si condivide una visualizzazione avanzata con un utente e si assegnano le autorizzazioni di visualizzazione, l'utente può modificare gli elementi di visualizzazione e tali modifiche vengono salvate nelle preferenze personali dell'utente. È ora possibile salvare una copia della visualizzazione che include le modifiche o ripristinare le impostazioni originali della visualizzazione condivisa. Possono inoltre condividere la vista copiata con altri utenti. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Esperienza di condivisione aggiornata per le visualizzazioni avanzate</a><p></p>
+            <p>Nell’area Nuove richieste, quando condividi una vista avanzata con un utente e concedi le autorizzazioni di visualizzazione, l’utente può modificare gli elementi della vista e tali modifiche vengono salvate nelle preferenze personali dell’utente. È ora possibile salvare una copia della visualizzazione che includa le modifiche apportate o ripristinare le impostazioni originali della visualizzazione condivisa. Possono inoltre condividere la vista copiata con altri utenti. </p>
         </td>
            <td><p>venerdì 26 febbraio 2026</p></td>
         <td><p>venerdì 12 marzo 2026</p></td>
@@ -328,19 +328,19 @@ Questo aggiornamento è valido sia per Mac che per Windows.
 
 ## Annunci
 
-### Workfront Planning Trial is now available
+### È ora disponibile la versione di prova di Workfront Planning
 
-[!BADGE Off schedule]{type=Neutral}
+[!BADGE Pianificazione disattivata]{type=Neutral}
 
 >[!NOTE]
 >
 >* Anteprima e produzione per tutti: 2 marzo 2026
->* Prima di poter accedere all&#39;ambiente di prova di Planning, è necessario accettare il contratto di prova disponibile nell&#39;ambiente.
->* Non è necessario firmare il contratto Adobe AI Agent per utilizzare Planning Designer durante il periodo di prova.
+>* Prima di poter accedere all&#39;ambiente di prova di Planning, è necessario accettare il contratto di prova disponibile nell&#39;ambiente in uso.
+>* Non è necessario firmare il contratto di Adobe AI Agent per utilizzare Planning Designer durante il periodo di prova.
 
-La versione di prova di Workfront Planning è ora disponibile per tutti i clienti Workfront.
+Workfront Planning Trial è ora disponibile per tutti i clienti Workfront.
 
-La versione di prova gratuita offre ai clienti Workfront un accesso di 60 giorni con licenza Prime a Workfront Planning, a partire dal 2 marzo 2026. Il periodo di prova termina il 1° maggio 2026.
+La versione di prova gratuita offre ai clienti di Workfront l’accesso a Workfront Planning con una licenza Prime di 60 giorni a partire dal 2 marzo 2026. Il periodo di prova termina il 1° maggio 2026.
 
 La versione di prova gratuita di Workfront Planning offre le seguenti funzionalità:
 
@@ -348,9 +348,9 @@ La versione di prova gratuita di Workfront Planning offre le seguenti funzionali
 * Dati di esempio per darti un’idea su dove iniziare
 * Formazione e guida interne al prodotto
 * Indica chiaramente le milestone durante la configurazione, personalizzate per ruoli specifici.
-* Planning Designer: un assistente basato sull&#39;intelligenza artificiale che consente di creare l&#39;ambiente desiderato
+* Planning Designer: un assistente basato sull’intelligenza artificiale che consente di creare l’ambiente desiderato
 
-For more information, see [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md).
+Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita di Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### Versione 21 dell’API
 
@@ -360,7 +360,7 @@ La versione 21 dell’API di Workfront è stata rilasciata il 23 ottobre 2025. N
 >
 >Questa modifica alla versione API comporta delle interruzioni e potrebbe interessare le chiamate API esistenti. Ciò è dovuto al fatto che la versione 21 dell’API utilizza la versione 2 delle sottoscrizioni eventi.
 >
-> For multi-select fields, Event Subscriptions version 2 always sends as an array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
+> Per i campi a selezione multipla, la versione 2 delle sottoscrizioni di eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
 
 Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 21 dell’API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
