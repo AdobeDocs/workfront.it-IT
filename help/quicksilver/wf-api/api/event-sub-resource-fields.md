@@ -1,20 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Campi delle risorse di abbonamento agli eventi
-description: Campi delle risorse di abbonamento agli eventi
+title: Campi delle risorse di sottoscrizione a eventi
+description: Campi delle risorse di sottoscrizione a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 11%
+source-wordcount: '1051'
+ht-degree: 19%
 
 ---
 
-# Campi delle risorse di abbonamento agli eventi
+# Campi delle risorse di sottoscrizione a eventi
 
 I campi delle risorse di abbonamento agli eventi rappresentano trigger per gli eventi che fanno sì che una sottoscrizione agli eventi invii un messaggio in uscita a un endpoint configurato. Quando si modifica un campo della risorsa, viene attivato un evento UPDATE.
 
@@ -89,7 +89,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Fase di approvazione<p>(Subs evento v2)</p></td> 
-   <td>fase_approvazione</td> 
+   <td>approval_stage</td> 
    <td>approvalID</td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Partecipante fase di approvazione<p>(Subs evento v2)</p></td> 
-   <td>approval_stage_Participant</td> 
+   <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Assegnazione</td> 
-   <td>ASSEGNA</td> 
+   <td>ASSGN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -396,7 +396,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Azienda</td> 
-   <td>AZIENDA</td> 
+   <td>CMPY</td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -1706,7 +1706,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>PORTA</td> 
+   <td>PORT</td> 
    <td>accessoriIDs</td> 
   </tr> 
   <tr> 
@@ -2236,7 +2236,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Tipo di record<p><p>(Subs evento v2)</p> </td> 
-   <td>TIPO_RECORD </td> 
+   <td>RECORD_TYPE </td> 
    <td>colore</td> 
   </tr> 
   <tr> 
@@ -2446,7 +2446,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Piano per gestione del personale<p>(Subs evento v2)</p></td> 
-   <td>PERSONALE</td> 
+   <td>STAFFP</td> 
    <td>accessoriIDs</td> 
   </tr> 
   <tr> 
@@ -2588,7 +2588,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>url</td> 
   </tr> 
   <tr> 
-   <td>Valore parametro piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>Valore parametro del piano per gestione del personale <p>(Subs evento v2)</p></td> 
    <td>SPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2647,7 +2647,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Risorse del piano per gestione del personale <p>(Subs evento v2)</p></td> 
-   <td>PERSONALE</td> 
+   <td>STAFFR</td> 
    <td>accessoriIDs</td> 
   </tr> 
   <tr> 
@@ -2734,7 +2734,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>Valore attributo risorsa piano assegnazione personale<p>(Subs evento v2)</p></td> 
+   <td>Valore attributo risorsa del piano per gestione del personale<p>(Subs evento v2)</p></td> 
    <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2782,7 +2782,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>Impostazione valore attributo risorsa piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>Impostazione valore attributo risorsa del piano per gestione del personale <p>(Subs evento v2)</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2809,7 +2809,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
   <tr> 
-   <td>Valore parametro risorsa piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>Valore parametro risorsa del piano per gestione del personale <p>(Subs evento v2)</p></td> 
    <td>SRPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2885,6 +2885,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3248,7 +3253,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Scheda orario</td> 
-   <td>SCHEDA</td> 
+   <td>TSHET</td> 
    <td>approverID</td> 
   </tr> 
   <tr> 
@@ -3533,7 +3538,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
    <td>Area di lavoro<p><p>(Subs evento v2)</p></td> 
-   <td>WORKSPACE</td> 
+   <td>AREA DI LAVORO</td> 
    <td>colore</td> 
   </tr> 
   <tr> 
