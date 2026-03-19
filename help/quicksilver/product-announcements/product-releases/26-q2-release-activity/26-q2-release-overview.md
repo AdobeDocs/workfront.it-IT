@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 38%
+source-wordcount: '1496'
+ht-degree: 35%
 
 ---
 
@@ -316,13 +316,11 @@ Al momento, in questa versione non sono presenti aggiornamenti per i seguenti el
 
 ## Aggiornamenti del visualizzatore di bozza desktop
 
-### Versione 2.1.54
+### Versione 2.1.55
 
-**Rilascio in produzione per tutti i clienti: 11 dicembre 2025**
+Versione di produzione per tutti i clienti: 19 marzo 2025
 
-Il Visualizzatore di bozza per desktop è stato aggiornato dalla versione 2.1.52 alla 2.1.54 e ha incluso aggiornamenti interni relativi agli strumenti, senza interessare le funzionalità dell’utente finale.
-
-Anche la versione 2.1.53 ha incluso modifiche interne agli strumenti.
+Il Visualizzatore bozze desktop è stato aggiornato a da 2.1.54 a 2.1.55. Questo aggiornamento includeva aggiornamenti interni degli strumenti e non influiva sulle funzionalità dell’utente finale.
 
 Questo aggiornamento è valido sia per Mac che per Windows.
 
