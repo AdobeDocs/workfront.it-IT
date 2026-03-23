@@ -2,14 +2,14 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Aggiungere una colonna di aspirazione a una bacheca
-description: Facoltativamente, è possibile aggiungere alla bacheca una colonna di input che richiama automaticamente attività e problemi come schede collegate quando vengono aggiunte in Workfront, in base ai filtri definiti.
+title: Aggiungere una colonna Acquisizione a una bacheca
+description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acquisizione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunte in Workfront, in base ai filtri definiti.
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1023'
 ht-degree: 8%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 8%
 
 Facoltativamente, puoi aggiungere alla bacheca una colonna di acquisizione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunte in [!DNL Workfront] in base ai filtri definiti. La colonna Acquisizione può fungere da colonna di backlog per un team Kanban, da posizione di acquisizione per un team di supporto per visualizzare i problemi man mano che vengono aggiunti a una coda di richieste o per qualsiasi altro scopo.
 
-Su una tavola è consentita una sola colonna di aspirazione, che appare sempre come colonna più a sinistra.
+È consentita una sola colonna di acquisizione su una bacheca, che viene sempre visualizzata come la colonna più a sinistra.
 
-La colonna di aspirazione non è disponibile su una scheda dinamica. Tuttavia, è possibile aggiornare i filtri che definiscono quali schede vengono inserite in una scheda dinamica. Quando si modificano questi filtri su una scheda dinamica, le impostazioni della scheda che non fanno parte dell’attività o del problema di Workfront (ad esempio i tag) vengono ripristinate.
+La colonna Acquisizione non è disponibile su una bacheca dinamica. Tuttavia, puoi aggiornare i filtri che definiscono quali schede vengono inserite in una bacheca dinamica. Quando si modificano questi filtri su una scheda dinamica, le impostazioni della scheda che non fanno parte dell’attività o del problema di Workfront (come i tag) vengono reimpostate.
 
 >[!NOTE]
 >
 >Per motivi di sicurezza, solo il proprietario di una bacheca può modificarne i filtri nel pannello Configura.
 
-La colonna relativa all&#39;assunzione è limitata a 300 operazioni e a 300 problemi. L&#39;ordine predefinito degli articoli nella colonna di immissione è il seguente:
+La colonna Assunzione è limitata a 300 attività e 300 problemi. L’ordine predefinito degli elementi nella colonna Acquisizione è il seguente:
 
 Attività:
 
@@ -74,12 +74,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Creare una colonna di aspirazione utilizzando filtri semplici
+## Creare una colonna di acquisizione utilizzando filtri semplici
 
 {{step1-to-boards}}
 
 1. Nel dashboard, seleziona una bacheca.
-1. Fai clic su **Configure** a destra della bacheca per aprire il pannello **Configure**.
+1. Fai clic su **Configura** a destra della bacheca per aprire il pannello **Configura**.
 1. Seleziona la sezione **Bacheca**. Vengono visualizzati nuovi campi.
 1. Attiva **acquisizione dinamica di elementi nella bacheca**. La colonna dell’aspirazione vuota viene visualizzata sul lato sinistro della bacheca.
 
@@ -108,7 +108,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    >[!NOTE]
    >
-   >È possibile filtrare la colonna di input in modo da includere sia le attività che i problemi, ma è necessario impostare i filtri separatamente per ogni tipo di oggetto.
+   >È possibile filtrare la colonna Acquisizione in modo da includere sia attività che problemi, ma è necessario impostare i filtri separatamente per ogni tipo di oggetto.
    >
    >Inoltre, sono disponibili filtri salvati e filtri di sistema predefiniti da selezionare.
 
@@ -130,23 +130,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    ![Inserimento di un nuovo nome di filtro](assets/save-as-modal.png)
 
-1. Fate clic sulla X nella parte superiore del pannello dei filtri per chiuderlo.
+1. Fai clic sulla X nella parte superiore del pannello del filtro per chiuderlo.
 
-1. (Facoltativo) Per condividere il filtro con altri utenti, passa il mouse sul filtro salvato, fai clic sul menu **[!UICONTROL Altro]** ![Icona di menu Altro](assets/more-menu.png) e seleziona **[!UICONTROL Condividi]**. Scegli gli utenti o i team con cui condividere nella casella **Condivisione filtri**. Per ulteriori informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Facoltativo) Per condividere il filtro con altri utenti, passa il puntatore del mouse sul filtro salvato, fai clic sul menu **[!UICONTROL Altro]** ![Icona altro menu](assets/more-menu.png) e seleziona **[!UICONTROL Condividi]**. Scegliere gli utenti o i team con cui condividere nella casella **Condivisione filtro**. Per ulteriori informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Facoltativo) Per includere sia attività che problemi nella colonna Acquisizione, fare clic su **[!UICONTROL Filtra origini]** e selezionare l&#39;altro oggetto per creare un altro filtro.
 1. Dopo aver aggiunto i filtri, controlla la colonna Acquisizione per verificare che vengano visualizzate le attività e i problemi corretti.
 
-   ![Colonna di aspirazione](assets/intake-column-added3.png)
+   ![Colonna acquisizione](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
-   >Potete aggiornare i filtri in qualsiasi momento aprendo il pannello Configura, facendo clic su **[!UICONTROL Origini filtro]** e selezionando **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+   >Puoi aggiornare i filtri in qualsiasi momento aprendo il pannello Configura, facendo clic su **[!UICONTROL Filtra origini]** e selezionando **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
 
-## Usare la colonna di aspirazione
+## Utilizzare la colonna Acquisizione
 
-Le schede nella colonna di input non possono essere modificate finché non vengono spostate in altre colonne della scheda. È possibile fare clic sulla scheda per aprirla in una visualizzazione di sola lettura oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l&#39;attività o il problema in una nuova scheda del browser.
-
-È possibile riordinare manualmente gli articoli nella colonna di immissione.
+Le schede nella colonna Acquisizione non sono modificabili finché non vengono spostate in altre colonne della bacheca. Puoi fare clic sulla scheda per aprirla in una visualizzazione di sola lettura, oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l&#39;attività o il problema in una nuova scheda del browser.
 
 Le icone in alto a destra nella colonna Acquisizione mostrano quante schede ci sono attualmente nella colonna e quanti filtri vengono applicati.
 
