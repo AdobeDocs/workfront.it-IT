@@ -5,10 +5,10 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
+source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 10%
+source-wordcount: '1491'
+ht-degree: 9%
 
 ---
 
@@ -80,6 +80,19 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
+
+
+## Abilita il riempimento del modulo basato sull’intelligenza artificiale per la tua organizzazione
+
+>[!NOTE]
+>
+>Il riempimento dei moduli basato su IA è abilitato a livello di organizzazione e non può essere abilitato o disabilitato per utenti o livelli di accesso specifici.
+
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Fare clic su **Sistema**, quindi in Sistema fare clic su **Preferenze**.
+1. Nella sezione delle preferenze di IA, accertati che **Abilita IA** sia attivato.
+1. Attiva **Riempimento modulo AI**.
+1. Per disattivare il riempimento modulo basato sull&#39;intelligenza artificiale, disattivare **Compilazione modulo IA**.
 
 ## Ottieni suggerimenti da un prompt di testo
 
