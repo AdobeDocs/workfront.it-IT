@@ -6,9 +6,9 @@ description: Puoi chiedere agli utenti di approvare un documento caricato in Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 6%
 
 ---
@@ -24,4 +24,4 @@ Puoi chiedere agli utenti di approvare un documento caricato in Workfront. Per i
 >La verifica non è disponibile se l&#39;organizzazione utilizza lo storage aziendale. È invece possibile utilizzare Revisione e approvazione di Workfront con l&#39;integrazione Frame.io. Per ulteriori informazioni sullo storage aziendale o sull&#39;integrazione Frame.io, vedere
 >
 >* [Panoramica di Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Panoramica dell&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

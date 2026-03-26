@@ -6,9 +6,9 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '562'
 ht-degree: 6%
 
 ---
@@ -111,4 +111,4 @@ Per rivedere un documento:
 
 ## Esaminare un documento dal visualizzatore Frame.io
 
-Per rivedere un documento dal visualizzatore Frame.io, l&#39;istanza di Workfront deve essere integrata con Frame.io. Per ulteriori informazioni, vedere [Panoramica sull&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Per rivedere un documento dal visualizzatore Frame.io, l&#39;istanza di Workfront deve essere integrata con Frame.io. Per ulteriori informazioni, vedere [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
