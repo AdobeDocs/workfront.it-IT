@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
 
-# Creare gerarchie area di lavoro
+# Creare gerarchie di aree di lavoro
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -22,7 +22,9 @@ ht-degree: 1%
 
 In qualità di responsabile dell&#39;area di lavoro, in Adobe Workfront Planning è possibile creare più gerarchie di aree di lavoro tra tipi di record.
 
-Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare una gerarchia che organizzi tali connessioni. Le gerarchie organizzano i tipi di record e di oggetti in relazioni padre-figlio e possono contenere fino a quattro livelli di tipi di oggetto.
+Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare una gerarchia che organizzi tali connessioni.
+
+Le gerarchie organizzano i tipi di record e di oggetti in relazioni padre-figlio e possono contenere fino a 4 tipi di oggetto ciascuno. Puoi creare fino a 5 gerarchie in un’unica area di lavoro.
 
 Se non esiste già una connessione tra due tipi di record, è possibile crearla durante l&#39;impostazione della gerarchia. Una volta definita, la gerarchia stabilisce un percorso strutturato tra tipi di record correlati all’interno dell’area di lavoro.
 
@@ -53,12 +55,12 @@ Oppure
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -70,8 +72,6 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++
 
 ## Creare una gerarchia di workspace
-
-Puoi creare fino a 5 gerarchie in un’unica area di lavoro.
 
 {#step1-to-planning}
 
@@ -158,6 +158,10 @@ Ogni tipo di oggetto aggiuntivo diventa figlio dei tipi di oggetto precedenti.
 
    * **Modifica**: apre la casella **Modifica gerarchia** in cui è possibile apportare modifiche.
    * **Elimina**: la gerarchia verrà eliminata definitivamente. Non è possibile recuperare le gerarchie eliminate. I campi di connessione non vengono eliminati.
+
+1. (Facoltativo) Fare clic sul nome dell&#39;ultimo tipo di record nella gerarchia, quindi sul nome di un record nella visualizzazione del tipo di record. Verrà aperta la pagina dei dettagli del record. Trovare la gerarchia creata nel breadcrumb di un record nella parte superiore della pagina del record.
+
+   Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 

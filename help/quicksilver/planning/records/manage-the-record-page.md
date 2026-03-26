@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 0%
+source-wordcount: '1648'
+ht-degree: 2%
 
 ---
 
 
-# Gestire il layout della pagina record
+# Gestire il layout della pagina dei record
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -32,11 +32,11 @@ In questo articolo viene descritto come modificare il layout e l&#39;aspetto di 
 
 È necessario creare tipi di record e record prima di iniziare a modificare le pagine dei record.
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
-* [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* [Crea record](/help/quicksilver/planning/records/create-records.md)
+* [Creare record](/help/quicksilver/planning/records/create-records.md)
 
 ## Requisiti di accesso
 
@@ -59,12 +59,12 @@ Per informazioni, vedere i seguenti articoli:
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
    <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
@@ -282,19 +282,23 @@ Si verificano le seguenti situazioni:
    * Selezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare tutti i campi nella visualizzazione tabella del record, inclusi quelli nascosti.
    * Deselezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
+1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli. <span class="preview">Se non riesci a visualizzare il nome di un record nella breadcrumb, fai clic su **Altro**. In questo modo la breadcrumb viene visualizzata su più righe. Fai clic su **Meno** per ridurre la breadcrumb e visualizzarla su una riga.</span>
 
+   >[!TIP]
+   >
+   >Per visualizzare le breadcrumb nella pagina dei dettagli del record, è necessario che nell&#39;area di lavoro siano presenti tipi di record, record e gerarchie connessi.
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 

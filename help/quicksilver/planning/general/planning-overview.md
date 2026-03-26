@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: 6cc42c6f9e6a5088e94d26034f03a3fafce2d0c3
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 75%
+source-wordcount: '2357'
+ht-degree: 76%
 
 ---
 
 # Introduzione alla Pianificazione di Adobe Workfront
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+<!--
+this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
@@ -106,7 +108,8 @@ The following features are currently available in Workfront Planning:
 
 -->
 
-<!--OLD: 
+<!--
+OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -287,7 +290,8 @@ Puoi creare campi personalizzati dei seguenti tipi:
 * Approvato da
 * Data di approvazione
 * <span class="preview">ID record</span>
-  <!--update the screen shot above-->
+
+<!--update the screen shot above-->
 
 ### Tipi di record, record e campi collegati
 
@@ -336,11 +340,13 @@ Per informazioni sulla connessione di tipi di record, record e sulla creazione d
 * [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Collegare i record](/help/quicksilver/planning/records/connect-records.md)
 
-<!--not yet:* Fields are reusable across Record Types.  -->
+<!--
+not yet:* Fields are reusable across Record Types.
+-->
 
 ### Gerarchie
 
-Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare gerarchie che organizzino tali connessioni. Le gerarchie organizzano i tipi di record e di oggetti in relazioni padre-figlio e possono contenere fino a quattro livelli di tipi di oggetto.
+Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare gerarchie per organizzare tali connessioni. Le gerarchie organizzano i tipi di record e di oggetti in relazioni padre-figlio e possono contenere fino a quattro tipi di oggetti.
 
 ![Gerarchie nell&#39;area Impostazioni area di lavoro](assets/hierarchies-in-workspace-settings-area.png)
 
@@ -371,7 +377,9 @@ Di seguito sono riportati i tipi di viste che puoi applicare alla pagina del tip
 * **Vista calendario**: mostra i record che dispongono almeno di due campi di tipo Data in un formato calendario.
   ![Esempio di vista calendario](assets/calendar-view-example.png)
 
-<!-- add List view here when it's possible to display Planning RTs in it??-->
+<!--
+add List view here when it's possible to display Planning RTs in it??
+-->
 
 Per ulteriori informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -448,7 +456,8 @@ Per individuare la Pianificazione di Workfront:
   <!--
     >[!NOTE]
     >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
 * [Moduli della Pianificazione di Adobe Workfront per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli della Pianificazione di Adobe Workfront, puoi attivare uno scenario quando si verificano eventi nella Pianificazione di Workfront. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata al tuo account Pianificazione di Adobe Workfront.
 

@@ -5,20 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+exl-id: de066d44-d214-47cc-8483-37c2623585ea
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-
-
 # Panoramica della gerarchia e delle breadcrumb
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 In qualità di responsabile del workspace, in Adobe Workfront Planning è possibile definire gerarchie flessibili ma strutturate tra tipi di record connessi e altri tipi di oggetti.
 
@@ -79,12 +78,13 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 
 Quando si creano gerarchie tra tipi di record, vengono generate breadcrumb per i record che appartengono a tali tipi di record.
 
-Ad esempio, se si crea una gerarchia e si collegano Campagne con Tattiche, quindi con Attività e quindi con Progetti, quando si passa a un record di qualsiasi tipo connesso nella gerarchia, è possibile visualizzare la posizione del record nella gerarchia.
+Ad esempio, se crei una gerarchia e colleghi Campagne con Tattiche, quindi con Attività, quando passi a un record di qualsiasi tipo connesso nella gerarchia, puoi visualizzare la posizione nella gerarchia in cui si trova il record. Se il record viene visualizzato in più aree di lavoro, è possibile visualizzare i percorsi in ogni area di lavoro <span class="preview">a partire dal nome dell&#39;area di lavoro nella breadcrumb.</span>
 
-![Breadcrumb](assets/breadcrumbs-on-project.png)
+![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
+* Le breadcrumb vengono visualizzate nell’area di anteprima di un record e nella pagina dei dettagli dei record.
 * Se un tipo di record fa parte di più gerarchie, è possibile passare da una gerarchia all&#39;altra dalla breadcrumb del record nella pagina del record.
 * Se il tipo di record in una gerarchia dispone di più record, è possibile selezionare i record dalla breadcrumb.
 * Le breadcrumb funzionano in Workfront e Planning.
@@ -93,5 +93,3 @@ Considera quanto segue:
 
   Per ulteriori informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 * Quando si modifica un record, le modifiche sono visibili da tutte le aree di lavoro e da tutte le gerarchie di cui fa parte il record.
-
-
