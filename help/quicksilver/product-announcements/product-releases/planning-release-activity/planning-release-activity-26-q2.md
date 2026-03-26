@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,18 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Riprogettazione breadcrumb
+
+>[!NOTE]
+>
+>Anteprima: 26 marzo 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È stato riprogettato il modo in cui le breadcrumb vengono visualizzate tra i tipi di record e i record. Ora, quando si fa clic su Altro nella riga delle breadcrumb, i nomi dei record e degli oggetti vengono visualizzati su più righe. Prima di questo miglioramento, facendo clic su Altro venivano visualizzati i nomi dei record e degli oggetti nei menu a discesa.
+
+Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <!--
 
