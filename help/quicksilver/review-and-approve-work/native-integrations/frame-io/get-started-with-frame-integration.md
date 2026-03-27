@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '970'
 ht-degree: 4%
 
 ---

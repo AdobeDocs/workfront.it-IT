@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Panoramica sulla revisione e sull’approvazione unificata
-description: Ulteriori informazioni sulla revisione e le approvazioni unificate basate su Workfront e Frame.io.
+description: Ulteriori informazioni sulla revisione e l'approvazione unificate fornite da Workfront e Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Panoramica sulla revisione e sull’approvazione unificata
 
-Le revisioni e le approvazioni unificate basate su Workfront e Frame.io consentono ai coordinatori dei progetti di gestire i progetti e pianificare il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate possono rivedere e approvare le risorse in Frame.io.
+La revisione e l&#39;approvazione unificate basate su Workfront e Frame.io consentono ai coordinatori dei progetti di gestire i progetti e pianificare il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate possono rivedere e approvare le risorse in Frame.io.
 
 ## Requisiti di integrazione
 
@@ -32,12 +32,12 @@ Le revisioni e le approvazioni unificate basate su Workfront e Frame.io consento
 
 ## Basato sullo storage aziendale Adobe
 
-La revisione e le approvazioni unificate si basano sullo storage aziendale Adobe, una soluzione di storage basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe, inclusi Workfront e Frame.io. <!--, and Creative Cloud.-->
+La revisione e l&#39;approvazione unificate si basano sullo storage aziendale Adobe, una soluzione di storage basata su cloud che funge da archivio centrale per le risorse dei prodotti aziendali Adobe, inclusi Workfront e Frame.io. <!--, and Creative Cloud.-->
 
 I principali vantaggi dello storage aziendale Adobe includono:
 
 * Livello di storage unificato per risorse creative e di gestione del lavoro
-* Autorizzazioni centralizzate tramite Adobe Identity Management System (IMS) per il controllo sicuro degli accessi
+* Autorizzazioni centralizzate con Adobe Identity Management System (IMS) per il controllo sicuro degli accessi
 * Visibilità completa delle risorse in Workfront e Frame.io <!--, and Creative Cloud apps -->
 * Storage scalabile e gestione delle quote per le esigenze aziendali
 
@@ -45,7 +45,7 @@ Per ulteriori dettagli, consulta [Panoramica sull&#39;archiviazione aziendale di
 
 ## Revisione e approvazione unificate
 
-Con la revisione e le approvazioni unificate, puoi:
+Con la revisione e l&#39;approvazione unificate, puoi:
 
 * Crea e gestisci revisioni e approvazioni direttamente da Workfront
 * Monitorare lo stato di revisioni e approvazioni in tempo reale
@@ -72,7 +72,7 @@ Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approv
 
 Per le richieste di bozze video, il limite massimo annuale è fissato al 10% del totale delle licenze Workfront a pagamento di un&#39;organizzazione: Standard e Light. Questo limite viene applicato a livello di organizzazione.
 
-Gli amministratori di Workfront riceveranno notifiche quando l’utilizzo raggiunge l’80% e il 100% del limite.
+Gli amministratori di Workfront ricevono notifiche quando l’utilizzo raggiunge l’80% e il 100% del limite.
 
 Questo limite non si applica ai clienti Frame.io Enterprise.
 
@@ -84,7 +84,7 @@ Il visualizzatore Frame.io supporta tutti i tipi comuni di video, immagini, audi
 
 Il visualizzatore Frame.io è il visualizzatore predefinito per tutti i flussi di lavoro di revisione e approvazione di Workfront. È incluso automaticamente per tutti gli utenti di Workfront con una licenza a pagamento. Non è richiesta alcuna licenza Frame.io aggiuntiva per utilizzare il visualizzatore Frame.io per le revisioni e le approvazioni.
 
-Se la tua organizzazione desidera sfruttare le funzionalità Frame.io aggiuntive disponibili con questa integrazione, ad esempio per caricare le risorse direttamente nei progetti in Frame.io, puoi acquistare una licenza Enterprise Frame.io. Contatta il rappresentante del tuo account Adobe per pianificare una demo ed esplorare i vantaggi della soluzione Frame.io completa.
+Se la tua organizzazione desidera sfruttare le funzionalità Frame.io aggiuntive disponibili con questa integrazione, ad esempio per caricare le risorse direttamente nei progetti in Frame.io, puoi acquistare una licenza Frame.io Enterprise. Contatta il rappresentante del tuo account Adobe per pianificare una demo ed esplorare i vantaggi della soluzione Frame.io completa.
 
 La funzionalità Workfront Proofing non è disponibile con questa integrazione.
 
@@ -96,7 +96,7 @@ Per ulteriori informazioni sulla gestione dei progetti in Workfront, vedere [Pro
 
 ### Struttura imposta e convenzioni di denominazione
 
-Poiché la revisione e le approvazioni unificate vengono create utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate per la gestione di progetti e documenti.
+Poiché la revisione e l’approvazione unificate vengono create utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate durante la gestione di progetti e documenti.
 
 * I nomi degli oggetti devono essere univoci e non possono essere duplicati
 * Lo storage aziendale Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica
