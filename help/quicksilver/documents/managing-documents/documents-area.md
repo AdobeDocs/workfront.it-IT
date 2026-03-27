@@ -7,9 +7,9 @@ description: Nell’area Documenti puoi organizzare, gestire e visualizzare i me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzar
 
 È possibile esaminare e approvare i documenti nell&#39;area nuovi documenti utilizzando il visualizzatore Frame.io.
 
-Per ulteriori informazioni, vedere [Introduzione all&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Gestione versioni
 

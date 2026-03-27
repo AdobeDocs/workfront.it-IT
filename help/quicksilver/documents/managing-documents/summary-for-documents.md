@@ -7,9 +7,9 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '696'
 ht-degree: 13%
 
 ---
@@ -140,7 +140,7 @@ Utilizza la sezione Approvazioni per creare un flusso di lavoro di approvazione.
 
 Per ulteriori informazioni sulle approvazioni e su Frame.io, consulta
 
-* [Introduzione all’integrazione di Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Crea una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Approvazioni di riepilogo dei documenti nella nuova esperienza documenti](assets/summary-approvals.png)
