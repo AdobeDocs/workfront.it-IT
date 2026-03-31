@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 6%
 
 ---
@@ -226,17 +226,21 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
 
-{{step1-to-requests}}
+1. Esegui una delle operazioni seguenti:
 
-1. Per accedere al widget Richieste personali nella Home:
+   {{step1-to-requests}}
+
+   1. Per accedere al widget **Richieste personali** in **Home**:
 
    {{step1-to-home}}
 
-   1. Individuare il widget Richieste personali.
+   1. Individua il widget **Richieste personali**.
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta da copiare, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta da copiare, quindi fai clic sul menu **Altre** accanto al nome.
+
+   ![Altro menu](assets/more-menu.png)
 
 1. Fai clic su **Copia**
 

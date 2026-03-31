@@ -1,28 +1,33 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Eliminare una bozza di richiesta di nuovo invio
-description: È possibile eliminare le richieste inviate o le bozze di richieste.
+title: Eliminare una richiesta inviata o una bozza di richiesta
+description: È possibile eliminare le richieste inviate o le bozze di richieste in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 8%
+source-wordcount: '688'
+ht-degree: 9%
 
 ---
 
 # Eliminare una richiesta inviata o una bozza di richiesta
 
-Puoi eliminare le richieste inviate o le bozze di richieste create nella nuova esperienza di richiesta. Anche gli amministratori di Workfront e gli amministratori dell&#39;area di lavoro di Planning possono eliminare le richieste.
+È possibile eliminare le richieste o le bozze di richieste inviate da Adobe Workfront o Adobe Workfront Planning oppure disporre delle autorizzazioni di gestione per.
 
-Nell’esperienza di richiesta precedente, puoi eliminare le bozze di richieste. Non è possibile eliminare le richieste inviate.
+Gli amministratori di Workfront e i responsabili dell&#39;area di lavoro di Workfront Planning possono inoltre eliminare le richieste e le bozze di richieste che non hanno creato.
 
-Per informazioni, consulta:
+Non è possibile visualizzare le richieste Planning nell’esperienza di richiesta legacy.
+
+Questo articolo descrive come eliminare le bozze di richiesta nella nuova esperienza di richiesta. L&#39;eliminazione delle richieste Workfront e Planning o delle relative bozze è identica.
+
+Per ulteriori informazioni, consulta:
 
 * [Crea e invia richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Creare richieste da bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [Inviare richieste di Pianificazione di Adobe Workfront per creare record](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Requisiti di accesso
 
@@ -34,7 +39,9 @@ Per informazioni, consulta:
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront o flusso di lavoro</p>
+
+<p>Qualsiasi pacchetto Workfront Planning per gestire le richieste Planning </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -44,17 +51,15 @@ Per informazioni, consulta:
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Per eliminare le richieste non create, è necessario essere un amministratore di Workfront o un amministratore dell'area di lavoro di Planning.</p><p>Per eliminare le bozze nell’esperienza di richiesta legacy, è necessario disporre dell’accesso in modifica ai problemi.</p>  </td> 
+   <td> <p>Per eliminare le richieste non create, è necessario essere un amministratore di Workfront o un manager dell'area di lavoro di Planning.</p><p>Devi disporre dell'accesso in Modifica ai Problemi.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Per eliminare la richiesta o la bozza nella nuova esperienza di richiesta, è necessario averla creata.</p><p>Per eliminare le bozze nell’esperienza di richiesta legacy, è necessario disporre dell’accesso in modifica ai problemi.</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Prodotto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
-  </tr> 
- </tbody> 
+   <td> <p>È necessario aver creato la richiesta o la bozza per eliminarla nella nuova esperienza di richiesta oppure essere un amministratore di Workfront o un manager dell'area di lavoro di Planning per eliminare le bozze di richieste non inviate.
+   </p><p>Devi disporre delle autorizzazioni di modifica per i problemi che stai eliminando.</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
@@ -63,25 +68,31 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Elimina richieste o bozze di richieste nella nuova esperienza richiedente
 
-Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Richieste personali nella Home.
+È possibile eliminare richieste e bozze nelle aree seguenti:
 
-* Gli amministratori di Workfront possono eliminare le richieste e le bozze dalla propria organizzazione.
-* Gli amministratori dell&#39;area di lavoro di Workfront Planning possono eliminare le richieste e le bozze nell&#39;area di lavoro di Planning gestita.
+* Nell’area Richieste di Workfront
+* Nel widget Richieste personali nella Home
+* Da una pagina di richiesta
+
+I seguenti utenti possono eliminare le bozze di richiesta:
+
+* Gli amministratori di Workfront possono eliminare le richieste e le bozze inviate da loro o da altri utenti.
+* I responsabili dell&#39;area di lavoro di Workfront Planning possono eliminare le richieste e le bozze nell&#39;area di lavoro di Planning gestita.
 * Gli utenti possono eliminare le richieste e le bozze che hanno inviato.
 
-### Eliminare una richiesta dal menu a tre punti
+### Eliminare una richiesta o una bozza dall’area Richieste o dal widget Richieste personali nella Home
 
 {{step1-to-requests}}
 
-1. Per accedere al widget Richieste personali nella Home:
+1. Per accedere al widget **Richieste personali** in **Home**:
 
    {{step1-to-home}}
 
-   1. Individuare il widget Richieste personali.
+   1. Individua il widget **Richieste personali**.
 
-      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Per ulteriori informazioni sul widget **Richieste personali**, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta o sulla bozza da eliminare, quindi fai clic sul menu **Altro** ![Altro](assets/more-menu.png)
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in **Home**, passa il puntatore sulla richiesta o sulla bozza da eliminare, quindi fai clic sul menu **Altro** ![Altro](assets/more-menu.png)
 
 1. Fai clic su **Elimina**
 
@@ -97,49 +108,54 @@ Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Rich
 
    La richiesta o la bozza viene eliminata.
 
-### Richieste di eliminazione in blocco
+   Le richieste eliminate vengono salvate nel Cestino e un amministratore Workfront può recuperarle per un massimo di 30 giorni. Le bozze non possono essere recuperate.
+
+### Richieste di eliminazione in blocco da un elenco
 
 {{step1-to-requests}}
 
-1. Per accedere al widget Richieste personali nella Home:
+1. Per accedere al widget **Richieste personali** in **Home**:
 
    {{step1-to-home}}
 
-   1. Individuare il widget Richieste personali.
+   1. Individua il widget **Richieste personali**.
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Nell&#39;elenco Richieste o nel widget Richieste personali fare clic sulla casella a sinistra di ogni richiesta che si desidera eliminare.
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** fare clic sulla casella a sinistra di ogni richiesta che si desidera eliminare.
 1. Nella barra blu nella parte inferiore della pagina, fai clic su **Elimina**.
 
    >[!NOTE]
    >
-   >Se l’opzione Elimina non è visibile nella barra blu, non disponi dell’autorizzazione per eliminare una o più delle richieste selezionate.
-
-</div>
-
-## Eliminare le bozze di richiesta nell’esperienza di richiesta legacy
-
-È possibile eliminare le richieste bozze dopo averle salvate come bozze se non le si ritiene più rilevanti. Non è possibile recuperare le bozze di richieste eliminate.
+   >Se l&#39;opzione **Elimina** non è visibile nella barra blu, non si dispone dell&#39;autorizzazione per eliminare una o più richieste selezionate.
 
 ### Prerequisiti per l’eliminazione di bozze di richieste
 
 Prima di eliminare una bozza di richiesta, è necessario effettuare le seguenti operazioni:
 
-* Inizia a creare una richiesta. In questo modo la richiesta viene salvata automaticamente come bozza nella sezione Bozze .
+* Inizia a creare una richiesta. In questo modo la richiesta viene salvata automaticamente come bozza nella sezione Bozze.
 
   Per informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-### Eliminare una bozza di richiesta
+## Eliminare le bozze di richiesta nell’esperienza di richiesta legacy
+
+È possibile eliminare le richieste bozze dopo averle salvate come bozze se non le si ritiene più rilevanti. Non è possibile recuperare le bozze di richieste eliminate.
+
+Non è possibile accedere alle richieste di Planning o alle relative bozze dall&#39;esperienza di richiesta legacy.
 
 {{step1-to-requests}}
 
-1. Seleziona **Bozze** nel pannello a sinistra.
+1. Fai clic su **Bozze** nel pannello a sinistra.
 
    In questo elenco vengono visualizzate tutte le bozze di tutte le code di richieste.
 
-1. (Facoltativo) Fai clic su **Filtra per tipo di richiesta** nell&#39;angolo superiore destro dell&#39;elenco delle bozze, quindi seleziona la coda di richieste che contiene le bozze da visualizzare.
 1. Selezionare una bozza nell&#39;elenco, quindi fare clic su **Elimina** nella parte superiore dell&#39;elenco.
 1. Fai clic su **Sì, elimina**.
 
    La bozza viene eliminata e non può essere recuperata.
+
+
+
+
+
+

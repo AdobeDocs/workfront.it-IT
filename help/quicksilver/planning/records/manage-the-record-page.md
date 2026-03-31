@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
+source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 2%
@@ -282,23 +282,25 @@ Si verificano le seguenti situazioni:
    * Selezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare tutti i campi nella visualizzazione tabella del record, inclusi quelli nascosti.
    * Deselezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
 
-     <!--
+   </div>
+
+   <!--
       replace with this when they fix the UI text:
       * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
       * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
       -->
 
-   </div>
-
    >[!TIP]
    >
    ><span class="preview">L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
-1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli. <span class="preview">Se non riesci a visualizzare il nome di un record nella breadcrumb, fai clic su **Altro**. In questo modo la breadcrumb viene visualizzata su più righe. Fai clic su **Meno** per ridurre la breadcrumb e visualizzarla su una riga.</span>
+
+1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli. <span class="preview">
+
+   Se non riesci a visualizzare il nome di un record nel breadcrumb, fai clic su **Altro**. In questo modo la breadcrumb viene visualizzata su più righe. Fai clic su **Meno** per ridurre la breadcrumb e visualizzarla su una riga.</span>
 
    >[!TIP]
    >
    >Per visualizzare le breadcrumb nella pagina dei dettagli del record, è necessario che nell&#39;area di lavoro siano presenti tipi di record, record e gerarchie connessi.
-
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 

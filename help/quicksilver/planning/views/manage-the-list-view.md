@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In Adobe Workfront Planning è possibile visualizzare i progetti e i relativi campi in una vista a elenco quando si accede a tali progetti nella pagina Record connessi di un record. <!--change 'projects' to other objects when they become available and the location of the list view-->
+È possibile visualizzare gli oggetti nella vista a elenco nelle seguenti aree di Workfront Planning:
 
-In questo articolo viene descritto come creare o modificare una visualizzazione elenco che visualizza i progetti nella pagina Record collegati di un record e come modificare i progetti nella visualizzazione. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* Pagina record connessi per i progetti nell&#39;area dei dettagli di un record
+
+  ![Progetti nella pagina dei record connessi nella vista a elenco](assets/projects-on-connected-records-page-list-view.png)
+
+* Elenco di moduli di richiesta a livello di tipo di record
+
+  ![Moduli di richiesta nella vista a elenco](assets/request-forms-in-list-view.png)
+
+In questo articolo viene descritto come spostarsi, creare o modificare una vista elenco che visualizza gli oggetti in Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Requisiti di accesso
 
@@ -72,35 +80,62 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni sulle visualizzazioni elenco
 
-* Non è possibile visualizzare tutti i tipi di oggetto nelle pagine dei tipi di record in una visualizzazione elenco.
+* Considerare quanto segue per la visualizzazione elenco delle pagine dei record connessi:
 
-  È possibile visualizzare i seguenti oggetti in una vista a elenco solo quando vengono visualizzati nella pagina Record collegati di un record:
-
-   * Progetti Workfront
+   * È possibile visualizzare i progetti solo nella vista a elenco della pagina record connessi di un record. La visualizzazione elenco non è disponibile per altri tipi di oggetto o record in una pagina di record connessi.
 
   Per informazioni sulla creazione di una pagina di record connessi, vedere [Aggiungere una pagina di record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Prima di poter visualizzare una vista elenco in una pagina di record connessi di un record, è necessario collegare i progetti Workfront con i tipi di record di Planning. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Prima di poter visualizzare una vista elenco in una pagina di record connessi di un record, è necessario collegare i progetti Workfront con i tipi di record di Planning. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * È possibile creare più visualizzazioni elenco per i progetti nella pagina record connessi di un record.
+
+* Considera quanto segue per la visualizzazione elenco dei moduli di richiesta:
+
+   * Non è possibile creare o modificare visualizzazioni elenco aggiuntive per i moduli di richiesta di Planning. Workfront crea una vista elenco per i moduli di richiesta. <!--this will change-->
+
+     Per informazioni sui moduli di richiesta, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* A seconda della posizione in cui viene visualizzata, non tutte le visualizzazioni elenco presentano gli stessi elementi descritti in questo articolo.
 
 
 ## Gestire una vista a elenco {#manage-a-list-view}
 
-Le visualizzazioni elenco sono simili agli elenchi avanzati. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Le visualizzazioni elenco sono simili agli elenchi avanzati. La maggior parte degli elementi delle viste avanzate è disponibile anche nelle viste elenco in Workfront Planning.
 
+Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
 {{step1-to-planning}}
 
-1. Fai clic su una scheda dell’area di lavoro, quindi fai clic su una scheda del tipo di record.
-1. Da qualsiasi visualizzazione, fare clic sul nome di un record per aprire la pagina di anteprima o i dettagli del record.
-1. Aggiungere una **pagina Record connessi** per i progetti connessi come descritto nell&#39;articolo [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+1. (Conditional) To access a projects connected page, do the following: 
 
-   Nella pagina Record collegati vengono visualizzati i progetti connessi al record nella vista a elenco.
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![Progetti nella pagina dei record connessi nella vista a elenco](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (Facoltativo) Per modificare la vista a elenco, effettuate una delle seguenti operazioni:
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. Espandere il menu delle viste a discesa nell&#39;angolo superiore destro dell&#39;elenco per selezionare un&#39;altra vista oppure fare clic su **Nuova vista** e crearne un&#39;altra.
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. Passare a una visualizzazione elenco in una delle aree seguenti:
+
+   * Pagina Record collegati nell&#39;area dei dettagli di un record
+   * Pagina Moduli di richiesta di un record
+
+1. (Condizionale) Se disponibile, effettuare una delle seguenti operazioni per modificare la vista a elenco:
+
+   1. Espandere il menu delle viste a discesa nell&#39;angolo superiore sinistro dell&#39;elenco per selezionare un&#39;altra vista oppure fare clic su **Nuova vista** e crearne un&#39;altra.
 
       Le visualizzazioni sono condivise in tutto il sistema. Se si crea una visualizzazione Progetti per un tipo di record, è possibile visualizzarla su altri tipi di record che visualizzano progetti collegati.
 
@@ -116,6 +151,17 @@ Le visualizzazioni elenco sono simili agli elenchi avanzati. Per ulteriori infor
       >* Non è possibile modificare le visualizzazioni di sistema.
       >
       >* <span class="preview">È possibile reimpostare una visualizzazione condivisa con l&#39;utente che dispone solo delle autorizzazioni di visualizzazione, dopo averla modificata per ripristinarne le preferenze originali, oppure è possibile copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
 
    1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) per aggiungere un filtro alla visualizzazione. I risultati vengono filtrati immediatamente nell’elenco. Non è possibile salvare e denominare i filtri. I filtri vengono ricordati quando accedi alla pagina in futuro e fanno parte di visualizzazioni condivise.
    1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per selezionare le colonne da visualizzare o da nascondere nella visualizzazione.
@@ -133,7 +179,13 @@ Non è possibile rimuovere il campo principale nella vista a elenco visualizzato
       <span class="preview">Effettuare le seguenti operazioni: </span>
 
       1. Fai clic su **Aggiungi condizione**.
-      1. <span class="preview">Nella riga **If**, selezionare un campo e scegliere un valore di campo, quindi fare clic su **Aggiungi condizione**. </span>
+      1. <span class="preview">Nella riga **If**, selezionare un campo, scegliere un valore di campo e aggiungere un modificatore. I modificatori cambiano a seconda del tipo di campo scelto. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Per la formattazione condizionale sono disponibili solo i campi visibili nella visualizzazione elenco.</span>
+
+      1. <span class="preview">(Facoltativo) Anziché aggiungere un valore di campo, fare clic sull&#39;icona **Confronta con un altro campo** ![Confronta con un altro campo](assets/compare-to-another-field-icon.png) e scegliere un campo di cui si desidera confrontare il valore con il valore del campo selezionato. Ad esempio, puoi filtrare i progetti il cui Proprietario progetto corrisponde allo Sponsor del progetto. </span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ Non è possibile rimuovere il campo principale nella vista a elenco visualizzato
 
       1. Fare clic sul connettore **Or** tra le condizioni per passare a **And** e indicare che è necessario soddisfare più condizioni contemporaneamente. **Or** è il connettore predefinito.
       1. Nella riga **Formato** selezionare un campo per indicare la colonna da formattare. <!--edit this area, if it changes names??-->
-      1. (Facoltativo) Fai clic sull&#39;icona **cerchio colore** ![icona cerchio colore](assets/color-circle.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore.
+      1. (Facoltativo) Fai clic sull&#39;icona **cerchio colore** ![icona cerchio colore](assets/color-circle.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. Attivare l&#39;impostazione **Applica a riga** per applicare la formattazione all&#39;intera riga del campo che soddisfa le condizioni.
       1. (Facoltativo) Fai clic su **Aggiungi condizione** nella casella **Formato** per aggiungere un&#39;altra regola per un altro campo e ripetere i passaggi precedenti.
       1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutta la formattazione.
@@ -160,6 +212,8 @@ La formattazione viene applicata immediatamente alla visualizzazione elenco.
 Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
       </div>
+
+   <!--leave these here-->
 
 1. (Facoltativo) Aggiungi una parola chiave nella casella di ricerca nell’angolo superiore destro dell’elenco per cercare un elemento.
 
@@ -178,9 +232,9 @@ Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare c
 
    Oppure
 
-   Seleziona uno o più elementi e osserva la barra delle azioni nella parte inferiore dell’elenco, quindi fai clic su una delle seguenti opzioni:
+   Seleziona uno o più elementi e osserva la barra delle azioni nella parte inferiore dell’elenco, quindi fai clic su uno dei seguenti, se disponibile:
 
-   * **Elimina** per eliminare il progetto. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. Gli amministratori di Workfront possono recuperare i progetti eliminati fino a 30 giorni dopo la loro eliminazione.
+   * **Elimina** per eliminare l&#39;elemento. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. Gli amministratori di Workfront possono recuperare i progetti eliminati fino a 30 giorni dopo la loro eliminazione. L’eliminazione di un modulo non comporta l’eliminazione delle richieste o dei record creati al momento dell’invio del modulo.
    * **Disconnetti** per disconnettere il progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente.
 
    ![Barra delle azioni nella visualizzazione Elenco della pagina Record connessi](assets/actions-bar-connected-records-page-list-view.png)

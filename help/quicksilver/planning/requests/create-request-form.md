@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3568'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,11 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** o **Gestisci moduli di richiesta**, se disponi già di un modulo e desideri crearne di nuovi.
+
+   Viene aperta la pagina **Moduli di richiesta** e le richieste vengono visualizzate nella vista a elenco.
+
+   ![Pagina moduli di richiesta](assets/request-forms-in-list-view.png)
+
 1. (Condizionale) Se si desidera aggiungere un altro modulo, fare clic su **Nuovo modulo di richiesta**.
 
    Viene visualizzata la casella **Crea modulo di richiesta**.

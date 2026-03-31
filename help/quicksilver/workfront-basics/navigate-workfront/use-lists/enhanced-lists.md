@@ -5,9 +5,9 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 2%
 
 ---
@@ -156,7 +156,7 @@ Alcune colonne consentono di salvare un nome personalizzato per il titolo della 
 
    Il nome della nuova colonna viene visualizzato nell&#39;elenco.
 
-## Aggiungere e rimuovere colonne con Gestione colonne
+### Aggiungere e rimuovere colonne con Gestione colonne
 
 È possibile utilizzare **Gestione colonne** in alcuni elenchi avanzati per aggiungere e rimuovere facilmente colonne nell&#39;elenco. È possibile aggiungere o rimuovere come colonne in un elenco avanzato sia i campi di sistema che quelli personalizzati già esistenti in Workfront.
 
@@ -283,11 +283,13 @@ Per ordinare le singole colonne:
 
    ![Ordina per colonna](assets/glist-sort-by-column.png)
 
-Per ordinare il lavoro in un raggruppamento:
-
-1. Fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
+1. (Facoltativo) Per ordinare il lavoro all&#39;interno di un raggruppamento, fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
 
    ![Ordina in un raggruppamento](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >L’ordinamento varia in base al tipo di campo in base al quale viene eseguito l’ordinamento.
 
 ### Cerca in un elenco avanzato
 

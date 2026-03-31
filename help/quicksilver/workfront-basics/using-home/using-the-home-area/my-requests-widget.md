@@ -6,10 +6,10 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 8%
+source-wordcount: '659'
+ht-degree: 11%
 
 ---
 
@@ -36,8 +36,8 @@ Il widget Richieste personali visualizza le richieste inviate. Puoi filtrare le 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>Qualsiasi pacchetto di Workfront o flusso di lavoro</p>
-   <p>Qualsiasi pacchetto Workfront Planning per accedere alle richieste Workfront Planning e ai relativi oggetti creati</p>
+   <td> <p>Qualsiasi pacchetto Workfront o flusso di lavoro</p>
+   <p>Qualsiasi pacchetto di Workfront Planning per accedere alle richieste di Workfront Planning e ai relativi oggetti creati</p>
     </td> 
   </tr> 
   <tr> 
@@ -53,11 +53,11 @@ Il widget Richieste personali visualizza le richieste inviate. Puoi filtrare le 
    </tr> 
    -->
    <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
-   <td> <p>Visualizzare o accedere a un livello superiore a qualsiasi oggetto a cui si è assegnati tag in una conversazione o per il quale è necessario risolvere un'approvazione (progetti, attività, problemi, documenti)</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo a qualsiasi oggetto per il quale si è taggati in una conversazione o per il quale è necessario risolvere un'approvazione (progetti, attività, problemi, documenti)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
-   <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per progetti, attività, problemi e documenti a cui sono stati aggiunti tag in una conversazione o per i quali è necessario risolvere un'approvazione</p> </td> 
+   <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per progetti, attività, problemi e documenti a cui vengono assegnati tag in una conversazione o in cui è necessario risolvere un'approvazione</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,80 +78,110 @@ Per istruzioni, vedere la sezione [Creare una richiesta](/help/quicksilver/workf
 
 Per istruzioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filtrare richieste
+## Gestire le informazioni nell&#39;elenco delle richieste nel widget Richieste personali
 
-Il widget Richieste personali dispone di un filtro personalizzabile che consente di controllare quali richieste vengono visualizzate nel widget. Puoi configurare questo filtro per campi e valori diversi e sovrapporre le condizioni utilizzando gli operatori AND e OR.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-Per configurare il filtro nel widget Richieste personali:
+To configure the filter in the My Requests widget:
+-->
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo a **Home**.
-1. Nel widget **Richieste personali**, fare clic su **Filtro**.
-1. Seleziona il campo in base al quale desideri filtrare. Le opzioni disponibili sono:
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
+1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, aggiorna i seguenti elementi di visualizzazione per l’elenco:
 
-   * Area di lavoro
-   * Tipo di oggetto
-   * Data inserimento
-   * Modulo di richiesta
-   * Stato
-   * Immesso da
-   * Campi personalizzati dalla richiesta o dall&#39;oggetto creato
+   * Visualizzazione
+   * Filtro
+   * Colonne
 
-1. Nel campo successivo, seleziona l’operatore da utilizzare per questa condizione di filtro. Gli operatori disponibili dipendono dal campo scelto.
-1. (Condizionale) Se a destra dell’operatore viene visualizzato un campo, seleziona il valore in base al quale desideri filtrare.
-1. (Facoltativo) Per aggiungere un&#39;altra condizione di filtro, fare clic su **Aggiungi condizione** e ripetere i passaggi 4-6.
-1. (Facoltativo e condizionale) Se sono presenti più condizioni, cambiare il valore And o Or facendo clic su **And** o **Or** a sinistra della condizione.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-Il filtro viene salvato automaticamente.
+   Per ulteriori informazioni sulla gestione delle informazioni nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
+   * Status
+   * Entered by
+   * Custom fields from the request or from the created object   
+
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
+
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
 >Se l&#39;organizzazione ha acquistato Workfront Planning oltre ad Adobe Workfront, il widget Richieste personali includerà le richieste Workfront e Workfront Planning.
 > 
->* Per filtrare solo le richieste Workfront, impostare il filtro su **Tipo di oggetto** > **Con uno dei** > **Problemi**.
->* Per filtrare solo le richieste di Workfront Planning, impostare il filtro su **Tipo di oggetto** > **Non presenta** > **Problemi**.
+>* Per filtrare solo le richieste Workfront, impostare il filtro su **Tipo di oggetto** > **Ha uno di** > **Problemi**.
+>* Per filtrare solo le richieste di Workfront Planning, impostare il filtro su **Tipo di oggetto** > **Non contiene** > **Problemi**.
 
-## Regolare o aggiungere colonne
+<!--
 
-È possibile scegliere le colonne disponibili da visualizzare nel widget Richieste personali e impostarne l&#39;ordine.
+## Adjust or add columns
 
-Le colonne disponibili includono:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Soggetto
-* Oggetto creato
-* Tipo di oggetto
-* Stato
-* Modulo di richiesta
-* Data inserimento
-* Immesso da
+Available columns include:
 
-Per regolare le colonne del widget Richieste personali:
+* Subject
+* Created object
+* Object type
+* Status
+* Request form
+* Entry date
+* Entered by
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
-1. Nel widget **Richieste personali**, fare clic su **Colonne**.
-1. (Facoltativo) Per riordinare le colonne, fare clic sull&#39;handle di trascinamento ![handle di trascinamento](assets/drag-handle.png) della colonna che si desidera spostare e trascinarlo nelle posizioni desiderate. La colonna nella parte superiore dell&#39;elenco viene visualizzata nel widget Richieste personali come prima colonna.
-1. (Facoltativo) Utilizza l’interruttore per nascondere o mostrare la colonna nell’elenco delle richieste.
-1. Per aggiungere un campo personalizzato come colonna, fai clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) nell&#39;angolo superiore destro dell&#39;elenco, quindi fai clic sull&#39;icona più accanto al campo personalizzato che desideri aggiungere come colonna al widget.
+To adjust the columns on the My Requests widget:
 
-   I campi personalizzati nei moduli allegati all’oggetto nell’elenco sono disponibili per l’aggiunta come colonne.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-Le preferenze delle colonne vengono salvate automaticamente.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-## Creare una vista
+Column preferences are saved automatically.
 
-È possibile creare visualizzazioni nel widget Richieste personali per modificare il modo in cui vengono visualizzate le informazioni nell&#39;elenco delle richieste.
+-->
 
-Quando si utilizzano le visualizzazioni nel widget Richieste personali, tenere presente quanto segue:
+<!--
 
-* Una vista nel widget Richieste personali contiene le colonne e i filtri applicati alla vista.
-* Potete creare viste e condividerle con altri utenti. I filtri e le colonne selezionati per la visualizzazione prima della condivisione vengono inclusi nelle visualizzazioni condivise.
-* Di seguito è riportata una vista di sistema che non è possibile modificare, condividere o eliminare:
+## Create a view
 
-   * Visualizzazione predefinita richieste unificate widget
-* La creazione e la modifica di una visualizzazione nel widget Richieste personali è simile a quella degli elenchi avanzati. Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+You can create views in the My Requests widget to change the way the information displays in the request list. 
 
-## Cerca richieste
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
+
+## Richieste di ricerca
 
 Per cercare richieste specifiche nel widget Richieste personali:
 
@@ -172,7 +202,7 @@ Per cercare richieste specifiche nel widget Richieste personali:
 >I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un oggetto. Se una richiesta di Workfront viene convertita in un progetto o in un altro oggetto, il collegamento all’oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo a **Home**.
+1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
 1. Individuare la richiesta che ha creato l&#39;oggetto.
 1. Fare clic sul nome dell&#39;oggetto nella colonna **Oggetto creato** per la richiesta.
 

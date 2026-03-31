@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 1%
+source-wordcount: '2026'
+ht-degree: 2%
 
 ---
 
@@ -28,13 +28,13 @@ Dopo che un responsabile dell&#39;area di lavoro crea un modulo di richiesta per
 
 È possibile inviare una richiesta di Workfront Planning dalle aree seguenti:
 
-* Dall’area Richieste di Workfront.
+* Dall’area Richieste di Workfront o dal widget Richieste personali nella Home.
 * Da un collegamento diretto al modulo di richiesta condiviso.
-* Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* Dalla pagina del tipo di record, quando si aggiunge un nuovo record inviando una richiesta. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
 
-Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning. Le richieste creano record per il tipo di record associato al modulo di richiesta. <!--double check on the external users-->
+I responsabili Workspace possono creare moduli di richiesta che è possibile utilizzare come utente o come persona esterna per inviare richieste ai tipi di record di Planning. Le richieste creano record per il tipo di record associato al modulo di richiesta.
 
 Per informazioni su come un manager area di lavoro può creare un modulo di richiesta e associarlo a un tipo di record, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -107,12 +107,12 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
   Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * I record creati mediante l’invio di moduli di richiesta sono collegati alla richiesta originale. Impossibile rimuovere la connessione.
 * Puoi visualizzare sia i record creati che le richieste utilizzate per crearli nelle seguenti aree:
-   * Area Richieste in Workfront
+   * Area Richieste in Workfront.
 
   <div class="preview">
 
-   * Pagine del tipo di record in Workfront Planning
-   * Area Dettagli record in Workfront Planning
+   * In un campo connesso di una pagina del tipo di record in Workfront Planning quando si aggiunge la richiesta come record connesso.
+   * In un campo connesso dell&#39;area Dettagli di un record in Workfront Planning quando si aggiunge la richiesta come record connesso.
 
   </div>
 
@@ -120,11 +120,9 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
   >
   ><span class="preview">È possibile visualizzare il nome della richiesta nel campo Oggetto nell&#39;area Richieste di Workfront o nel campo Richiesta originale di connessione in Workfront Planning. </span>
 
-
-
-* Le richieste inviate vengono visualizzate nell’area Richieste di Workfront.
 * Le richieste Planning inviate sono visibili solo nella nuova esperienza di richiesta. Non è possibile visualizzare le richieste Planning nell’esperienza di richiesta legacy.
-Per informazioni, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+  Per informazioni, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 * Esistono limitazioni nella visualizzazione di determinati tipi di campo in un modulo di richiesta o nella pagina dei dettagli della richiesta dopo l’invio di un modulo.
 
   Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -136,8 +134,8 @@ Per informazioni, vedere [Creare e inviare richieste](/help/quicksilver/manage-w
 
 {{step1-to-requests}}
 
-1. Abilita **Passa a una nuova esperienza** nell&#39;angolo superiore destro dello schermo.
-L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiesta di Workfront Planning nell&#39;area **Richieste** di Workfront.
+1. Attiva l&#39;impostazione **Usa nuova esperienza** nell&#39;angolo superiore destro dello schermo.
+L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta di Workfront Planning nell&#39;area **Richieste** di Workfront.
 
    >[!TIP]
    >
@@ -149,12 +147,25 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
    >
    >* Puoi accedere alla visualizzazione di almeno un’area di lavoro.
 
-1. Fai clic sulla barra **Quale richiesta desideri inviare** per aprire un elenco di moduli di richiesta.
+1. Fare clic su **Quale richiesta si desidera inviare?** barra per aprire un elenco di moduli di richiesta.
 1. Selezionare un modulo di richiesta dall&#39;elenco o iniziare a digitare il nome del modulo di richiesta, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
    Viene visualizzata una finestra con il nome del modulo di richiesta nella parte superiore.
-1. Aggiorna i campi disponibili nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
-1. (Condizionale) Se la tua organizzazione consente il riempimento dei moduli con tecnologia AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA.
+
+   >[!TIP]
+   >
+   >Le code di richieste di Workfront contengono il nome della coda e il nome del modulo nell’elenco delle richieste. I moduli delle richieste di Planning visualizzano solo il nome del modulo nell&#39;elenco delle richieste.
+
+1. Aggiorna il campo **Oggetto**. Questo è il nome della richiesta. Questo è un campo obbligatorio.
+1. Aggiorna il campo **Name**. Questo è il nome del record futuro.
+
+   >[!TIP]
+   >
+   >Il campo **Name** è univoco per la tua organizzazione e potrebbe contenere un&#39;etichetta diversa nella tua istanza di Workfront. Il campo è il campo principale del record.
+
+1. Aggiorna i campi rimanenti nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
+1. (Condizionale) Se la tua organizzazione consente il **riempimento modulo** basato su AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
+
 
    Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Fai clic su **Invia**.
@@ -172,14 +183,14 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
       * **Tipo di oggetto**: nome dell&#39;area di lavoro e del tipo di record in cui sono stati creati i record dalla richiesta in Planning.
       * **Stato**: lo stato dell&#39;oggetto della richiesta.
       * **Modulo di richiesta**: nome del modulo di richiesta associato al tipo di record in Planning.
+     <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
 
-   * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta viene aggiunta all&#39;elenco Richieste nell&#39;area Richieste Workfront e nel widget Richieste personali con lo stato In attesa di revisione. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo che è stato approvato dagli approvatori.
+   * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta viene aggiunta all&#39;elenco Richieste nell&#39;area Richieste Workfront e al widget Richieste personali con stato **Revisione in sospeso**. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo che è stato approvato dagli approvatori.
 
      Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">È possibile aggiungere il campo Connessione richiesta originale a un tipo di record in Planning per visualizzare il nome della richiesta originale che ha creato un record. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">È possibile aggiungere il campo di connessione **Richiesta originale** a un tipo di record in Planning per visualizzare il nome della richiesta originale che ha creato un record. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * La richiesta è visibile solo al proprietario, all&#39;approvatore e agli utenti che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema.
-
    * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
    * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
 
@@ -190,33 +201,42 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
      >L’e-mail di conferma o di notifica dell’approvazione contiene un collegamento alla richiesta.
 
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma, per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
-1. (Facoltativo) Nell’elenco delle richieste, effettua una delle seguenti operazioni:
+1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, aggiorna i seguenti elementi di visualizzazione per l’elenco:
 
-   * Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste da visualizzare nell&#39;elenco Richieste.
+   * Visualizzazione
+   * Filtro
+   * Colonne
 
-     ![Modifica dei filtri nell&#39;area Richieste](assets/filters-editing-box-in-requests-planning-tab.png)
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-     Puoi filtrare in base ai seguenti campi:
+   Per informazioni, vedere [Creare e gestire le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-      * **Workspace**: area di lavoro a cui è associato il modulo di richiesta.
-      * **Tipo di record**: il tipo di record a cui è associato il modulo di richiesta.
-      * **Data di ingresso**: la data in cui la richiesta è stata inviata.
-      * **Modulo di richiesta**: nome del modulo di richiesta utilizzato per inviare la richiesta.
-      * **Stato**: lo stato della richiesta.
-      * **Inserito da**: nome dell&#39;utente che ha aggiunto la richiesta. Se la richiesta è stata aggiunta da un utente esterno a Workfront, il campo **Immesso da** visualizza `N/A`.
-      * **Stato oggetto creato**: lo stato del record creato.
-
-     È possibile unire più filtri con **And** o **Or**.
-L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
-
-   * Fai clic su **Colonne** per aprire la casella **Visibilità campi e ordine**, quindi nascondi, mostra o ridisponi le colonne nell&#39;elenco delle richieste.
-
-     >[!TIP]
-     >
-     >Impossibile aggiungere altre colonne.
-
-     ![Casella di modifica colonne nell&#39;area Richieste](assets/columns-editing-box-in-requests-planning-tab.png)
-   * Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro dell&#39;elenco richieste per aprire **Gestione colonne** e aggiungere o rimuovere colonne nell&#39;elenco richieste.
+   <!--   
+   1. (Optional) From the requests list, do any of the following:
+      * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+         ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+         You can filter by the following fields:  
+         * **Workspace**: The workspace the request form is associated with.
+         * **Object type**: The record type the request form is associated with.
+         * **Entry date**: The date when the request was submitted.
+         * **Request form**: The name of the request form used to submit the request.
+         * **Status**: The status of the request.
+         * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+        You can have multiple filters joined by either **And** or **Or**.
+         The request list is filtered automatically, as you add the filter conditions. 
+      * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+         >[!TIP]
+         >
+         >You cannot add any more columns. 
+         ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+      * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+   -->
 
 1. Fai clic sul nome di una richiesta nell’elenco.
 
@@ -233,15 +253,17 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il campo principale del record non è stato aggiornato nel modulo di richiesta, il nome del record nel campo Record della richiesta viene visualizzato come **Senza titolo**.
    >
-   >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
+   >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
 ## Inviare una richiesta a Workfront Planning da un collegamento condiviso a un modulo di richiesta
 
-Le informazioni contenute in questa sezione sono valide solo per gli utenti di Workfront che inviano una richiesta da un collegamento condiviso. Le persone esterne non possono accedere alle aree interne di Workfront, come Richieste o Home.
+Le informazioni in questa sezione sono valide solo per gli utenti che inviano una richiesta da un collegamento condiviso e che potrebbero non disporre di un account Workfront.
+
+Gli utenti esterni non possono accedere alle aree interne di Workfront, ad esempio **Richieste** o **Home**.
 
 1. Passare al collegamento condiviso con l&#39;utente da un tipo di record di Workfront Planning.
 
@@ -255,53 +277,60 @@ Le informazioni contenute in questa sezione sono valide solo per gli utenti di W
 
 1. Fai clic su **Invia**.
 
-   Il modulo viene inviato e si verificano gli eventi seguenti:
+   Il modulo viene inviato e si ottiene una conferma.
 
-   * Se il modulo di richiesta non è stato associato a un’approvazione, la richiesta viene aggiunta all’elenco Richieste nell’area Richieste Workfront e al widget Richieste personali nella Home e viene aggiunto un nuovo record al tipo di record associato al modulo.
+   Se il modulo è associato a un&#39;approvazione, è necessario approvarlo prima di creare un record.
 
-   * Se il modulo di richiesta era associato a un’approvazione, la richiesta viene aggiunta all’elenco Richieste nell’area Richieste Workfront e nel widget Richieste personali. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo l&#39;approvazione di tutti gli approvatori.
+1. (Facoltativo) Fai clic su **Invia un&#39;altra richiesta** per aggiungere un&#39;altra richiesta allo stesso collegamento condiviso.
 
-     Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+<!--
+   * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
+   
+   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     >[!IMPORTANT]
-     >
-     >Puoi visualizzare solo le richieste inviate da te o da altri utenti alle aree di lavoro per le quali disponi almeno delle autorizzazioni di visualizzazione. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema. <!--ensure this is correct; asking team in slack-->
+      >[!IMPORTANT]
+      >
+      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
+   
+   
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+      >[!NOTE]
+      >
+      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+   
+   <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
 
-   * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
-   * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
 
-     >[!NOTE]
-     >
-     >L’e-mail e la notifica in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
+1. (Optional) Click **View your request** to open the request in Workfront.
 
-   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
-1. (Facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.
+Or
 
-   <!--Or-->
+Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
 
-   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
+   The request details page opens. 
 
-1. (Facoltativo) Fai clic su **Menu principale** > **Richieste** per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
+   ![Request page with comment](assets/new-request-page-with-comment.png)
 
-   Viene visualizzata la pagina dei dettagli della richiesta.
+1. (Optional) Enter a comment in the **Comments** area.
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
-   ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
-
-1. (Facoltativo) Immettere un commento nell&#39;area Commenti.
-1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.
-
-   La pagina del record viene visualizzata in Workfront Planning.
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
-   >* Se il nome del record non è stato aggiunto al modulo di richiesta, il nome del record nel campo Record della richiesta viene visualizzato come **Senza titolo**.
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
-   >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
 
-1. (Facoltativo) Fare clic sul nome del **tipo di oggetto**.
+1. (Optional) Click the name of the **Object type**. 
 
-   La pagina del tipo di record viene visualizzata in Workfront Planning.
+   The record type page opens in Workfront Planning. 
+
+-->
 
 ## Creare una richiesta copiando una richiesta esistente
 
@@ -309,15 +338,35 @@ Le informazioni contenute in questa sezione sono valide solo per gli utenti di W
 
 Questa funzione è disponibile solo nella nuova esperienza di richiesta.
 
-Per istruzioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Copiare una richiesta Planning esistente e inviarla come nuova è simile a copiare una richiesta Workfront esistente.
+
+Per ulteriori informazioni, vedere [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Creare bozze e richieste da bozze esistenti
 
 Puoi creare una bozza di una richiesta, quindi tornare alla bozza e inviarla come richiesta in un secondo momento.
 
-Questa funzione è disponibile solo nella nuova esperienza di richiesta.
+Questa funzione è disponibile solo nella nuova esperienza di richiesta. La creazione di bozze e richieste da bozze esistenti in Workfront Planning è identica alla creazione di bozze da Adobe Workfront.
 
-Per istruzioni, consulta [Creare richieste da bozze](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
+Per ulteriori informazioni, vedere [Creare richieste dalle bozze](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+## Eliminare bozze o richieste inviate
+
+È possibile eliminare le richieste inviate o le relative bozze quando si utilizza la nuova esperienza di richiesta.
+
+Quando si elimina una richiesta di Planning, si verificano gli eventi seguenti:
+
+* Impossibile recuperare la richiesta.
+* Il record creato dalla richiesta non viene eliminato.
+* Non è possibile recuperare le bozze eliminate. Nessun record associato alle bozze.
+
+L&#39;eliminazione delle richieste Planning è simile all&#39;eliminazione delle richieste Workfront.
+
+Per informazioni, vedere [Eliminare una richiesta inviata o una bozza di richiesta](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+
+
+
 
 
 

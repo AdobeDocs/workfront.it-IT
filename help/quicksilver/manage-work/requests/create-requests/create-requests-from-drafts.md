@@ -6,7 +6,7 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 6%
@@ -27,7 +27,8 @@ Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td> <p>Qualsiasi pacchetto Adobe Workfront o flusso di lavoro</p>
+   <p>Qualsiasi pacchetto Adobe Workfront Planning per creare richieste per Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -38,12 +39,9 @@ Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Prodotto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
