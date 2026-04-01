@@ -6,10 +6,10 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Prende 2 semplici passaggi:
 
 **Passaggio 1**: se non si dispone ancora di un ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID(). Utilizza la prima per effettuare l’accesso con l’indirizzo e-mail e la password di un utente oppure, se disponi del token di autenticazione e dell’indirizzo e-mail dell’utente, con il secondo metodo.
 
-**Passaggio 2:**&#x200B;È ora di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Accertati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
+**Passaggio 2:** È ora di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Accertati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
 
 Se accedi al tuo account, verrà visualizzata la bozza.
 
