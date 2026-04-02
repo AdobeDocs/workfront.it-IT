@@ -5,14 +5,17 @@ title: Gestire le approvazioni con il widget Le mie approvazioni
 description: Il widget Approvazioni personali visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate in un'unica posizione. Qui puoi filtrare e organizzare le approvazioni, prendere decisioni e delegare le approvazioni in base alle esigenze.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 16%
 
 ---
 
 # Gestire le approvazioni con il widget Le mie approvazioni
+
+{{highlighted-preview}}
 
 Il widget Approvazioni personali visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate in un&#39;unica posizione. Qui puoi filtrare e organizzare le approvazioni, prendere decisioni e delegare le approvazioni in base alle esigenze.
 
@@ -28,7 +31,7 @@ Il widget Approvazioni personali supporta le approvazioni dai seguenti oggetti W
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +42,9 @@ Il widget Approvazioni personali supporta le approvazioni dai seguenti oggetti W
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +52,7 @@ Il widget Approvazioni personali supporta le approvazioni dai seguenti oggetti W
    <td> <p>Accesso di visualizzazione o accesso successivo agli oggetti associati alle approvazioni</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p></td> 
   </tr> 
  </tbody> 
@@ -70,9 +73,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >Le approvazioni assegnate a Ruoli o Gruppi non vengono visualizzate nella Home. Le approvazioni assegnate ai team vengono visualizzate nel widget Approvazioni personali per ogni membro del team.
 
 
+1. <span class="preview">(Condizionale) Fai clic sul menu a discesa **Ordina**, quindi seleziona **Primi** più recenti per visualizzare le approvazioni aggiunte più di recente.</span>
+
+
+1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona Schermo intero ![Icona Schermo intero](assets/full-screen.png) per aprire il widget Approvazioni personali a schermo intero.</span>
+
 1. Seleziona l’elemento in cui desideri prendere una decisione di approvazione.
 
    ![Widget approvazioni personali](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Fai clic su una delle opzioni disponibili quando prendi una decisione di approvazione nel pannello a destra. Le seguenti opzioni vengono visualizzate nell&#39;angolo superiore destro della pagina, a seconda del tipo di elemento che si sta approvando:
 
