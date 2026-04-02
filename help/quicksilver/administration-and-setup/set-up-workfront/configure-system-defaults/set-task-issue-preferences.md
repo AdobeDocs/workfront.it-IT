@@ -99,7 +99,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo di entrate]</td> 
-    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong>[!UICONTROL]</strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
+    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong></strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
          <p>Per informazioni sui diversi tipi di ricavi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p></td> 
     </tr> 
     <tr> 

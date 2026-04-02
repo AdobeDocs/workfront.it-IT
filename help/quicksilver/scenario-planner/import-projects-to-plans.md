@@ -249,7 +249,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Progetto]</td> 
-      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto [!UICONTROL], il progetto è stato eliminato.</p> </td> 
+      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto , il progetto è stato eliminato.</p> </td> 
      </tr> 
     </tbody> 
    </table>
