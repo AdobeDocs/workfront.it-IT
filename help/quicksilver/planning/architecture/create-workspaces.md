@@ -6,20 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '1188'
+ht-degree: 2%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Creare aree di lavoro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -45,16 +47,19 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> <p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
+<p>Qualsiasi pacchetto Workfront o flusso di lavoro</p> 
+<p>Qualsiasi pacchetto di Workfront Planning</p>
+<p>Un pacchetto Workfront Planning Prime o versione successiva <span class="preview">per creare più aree di lavoro alla volta</span></p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
+   <p><span class="preview">L’amministratore di sistema può creare più aree di lavoro contemporaneamente utilizzando il bundle di modelli basato su best practice</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -65,7 +70,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -120,11 +126,33 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Crea un’area di lavoro
 
-È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning. Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning.
+
+Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+È possibile creare aree di lavoro nei modi seguenti:
+
+* Creare un’area di lavoro da zero o da un modello
+
+  Per informazioni, vedere la sezione [Creare un&#39;area di lavoro da zero o da un modello](#create-a-workspace-from-scratch-or-from-a-template) in questo articolo.
+* Creare un&#39;area di lavoro utilizzando Planning Designer basato sull&#39;intelligenza artificiale. Questa funzione è attualmente disponibile solo per un numero limitato di clienti in un programma Beta.
+
+  Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+<div class="preview">
+
+* Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
+
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+
+</div>
+
+### Creare un’area di lavoro da zero o da un modello
 
 {{step1-to-planning}}
 
@@ -134,9 +162,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. (Facoltativo e condizionale) Fare clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti:
 
-   * Base: Marketing Management
-   * Avanzato: Marketing Management
-   * Enterprise: Marketing Management
+   * Base: Gestione del marketing
+   * Avanzato: Gestione del marketing
+   * Enterprise: Gestione del marketing
    * Gestione vendite
    * Gestione dei prodotti
 
@@ -179,7 +207,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro in qualsiasi sezione.
 
-   Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Per ulteriori informazioni sulla modifica e l&#39;eliminazione di tipi di record in un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
@@ -192,5 +220,59 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >Per gli utenti attualmente sottoposti a transizione ad Adobe Identity Management System (IMS), le aree di lavoro create da utenti solo di Workfront che non sono utenti IMS vengono visualizzate come create da **System**.
    >
    >Per informazioni su IMS, consulta [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+<div class="preview">
+
+### Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
+
+>[!IMPORTANT]
+>
+>La creazione di più aree di lavoro alla volta utilizzando il bundle di modelli di best practice è disponibile solo quando sono soddisfatti i seguenti prerequisiti:
+>
+>* La tua organizzazione ha acquistato un pacchetto Workfront Planning Prime o Ultimate.
+>* Sei un amministratore di sistema
+
+Puoi utilizzare un bundle di modelli per più aree di lavoro per creare 6 aree di lavoro con un clic.
+
+I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, visualizzazioni e campi per aiutarti a iniziare con l’implementazione di Planning.
+
+>[!IMPORTANT]
+>
+>Tutti i nomi di aree di lavoro, tipi di record, campi e record inclusi nel bundle sono esempi e non riflettono il proprio ambiente.
+>
+>È consigliabile utilizzare questo bundle di modelli come esempio di una struttura Planning e procedere con la creazione di oggetti che riflettono il flusso di lavoro dell&#39;organizzazione.
+
+{{step1-to-planning}}
+
+1. Fai clic su **Crea area di lavoro**
+
+   Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
+
+1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
+1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
+
+   * 1.Classificazioni globali e tassonomie
+
+     Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
+
+     In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
+   * 2.Fréscopa Global Marketing
+   * 3.Marketing sociale Fréscopa
+   * 4.Fréscopa Media e PR
+   * 5.Eventi globali di Fréscopa
+   * 6.Leadership della società esecutiva Fréscopa
+
+1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su Indietro per tornare alla casella **Crea area di lavoro** oppure su Usa modelli per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
+
+   Le aree di lavoro vengono create e visualizzate nelle schede **Aree di lavoro** in e **Tutte le aree di lavoro** per gli amministratori di sistema. Tutti gli utenti con licenza Standard visualizzeranno le aree di lavoro nella propria area di lavoro dopo che un amministratore di sistema le avrà create e condivise con loro.
+
+1. Inizia a modificare le aree di lavoro create e ad aggiungere tipi di record, record, visualizzazioni e campi pertinenti per la tua organizzazione.
+
+   Per ulteriori informazioni sulle best practice per l&#39;implementazione di Workfront, vedere gli articoli nella sezione [Best practice di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+   Per informazioni sulla modifica delle aree di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+</div>
+
 
 

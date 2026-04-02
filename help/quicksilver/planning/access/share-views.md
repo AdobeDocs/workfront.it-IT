@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 1%
 
 ---
@@ -37,7 +39,8 @@ ht-degree: 1%
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Requisiti di accesso
 
@@ -61,7 +64,7 @@ Oppure
  </tr>
 
 <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
   </td> 
   </tr> 
@@ -71,7 +74,7 @@ Oppure
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  <p>Gestire le autorizzazioni per una visualizzazione</p> 
    <p><b>IMPORTANTE</b></p> 
    <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
@@ -91,7 +94,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni durante la condivisione delle visualizzazioni
 
@@ -214,12 +219,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >
    >* Quando condividi una visualizzazione con un utente, nel campo vengono visualizzate anche la mansione principale <span class="preview"> e l&#39;e-mail</span>. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
 
-
    * **Tutti gli utenti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
 
 1. Nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    ![Condivisione di una visualizzazione con gruppi](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(Facoltativo) Quando esegui una condivisione con un gruppo, un team, una mansione o una società, passa il puntatore del mouse sul nome dell&#39;entità e fai clic sulla freccia rivolta a destra per espandere un elenco di utenti che ricevono le autorizzazioni. </span>
+
+   ![Condividi visualizzazione con il team](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizzazione
@@ -294,8 +302,16 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
    >
    >Le visualizzazioni senza un utente o un&#39;icona globale sono visualizzazioni create dall&#39;utente e non sono condivise con altri utenti. Le viste non condivise sono visibili solo a te.
 
-
 1. (Facoltativo) Incolla il collegamento copiato in un messaggio e-mail, chat, documento o in un commento di Workfront per condividerlo con altri utenti.
+
+   <div class="preview">
+
+   Quando altri utenti aprono una visualizzazione pubblica, visualizzano le seguenti informazioni sulla visualizzazione nell’intestazione:
+
+   * Nome e icona della visualizzazione
+   * Nome del tipo di record visualizzato nella visualizzazione
+
+   </div>
 
 ## Copiare un collegamento in una visualizzazione
 

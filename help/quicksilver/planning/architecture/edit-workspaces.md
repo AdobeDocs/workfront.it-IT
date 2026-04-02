@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 2%
 
 ---
 
 
 # Modificare le aree di lavoro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -29,6 +33,16 @@ Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e 
 Per informazioni sulla creazione di aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Tutte le modifiche apportate a un&#39;area di lavoro sono visibili a tutti coloro che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro.
+
+È possibile modificare un&#39;area di lavoro nei modi seguenti:
+
+* Manualmente.
+
+  Questo articolo descrive come modificare manualmente un’area di lavoro.
+
+* Utilizzo di Planning Designer basato sull’intelligenza artificiale. Questa funzionalità è attualmente disponibile solo in un programma Beta limitato.
+
+  Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## Requisiti di accesso
 
@@ -53,12 +67,12 @@ Oppure
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -69,7 +83,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,7 +138,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    <td>  <p>Manage permissions to the workspace </p>   </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Modificare un’area di lavoro
 
@@ -141,6 +157,16 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
 Oppure
    * Fai clic sull&#39;icona **cerca** ![icona Cerca](assets/search-icon.png) nell&#39;angolo superiore destro della pagina Aree di lavoro per cercare un&#39;area di lavoro per nome e fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
+
+   >[!TIP]
+   >
+   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:</span>
+   >
+   >* <span class="preview">CTRL+K per Windows</span>
+   >* <span class="preview">⌘+K per Mac</span>
+   >
+   >![Casella di ricerca globale](assets/global-search-box.png)
+
 1. Fai clic su **Modifica**.
 
    Viene visualizzata la casella **Modifica area di lavoro**.
@@ -174,7 +200,7 @@ Oppure
 
 1. (Facoltativo) Fare clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro.
 
-   Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record, fai clic sul menu **Altro** ![Altro](assets/more-menu.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica** per modificare l&#39;aspetto di un tipo di record.
 

@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 2%
+source-wordcount: '1375'
+ht-degree: 5%
 
 ---
 
 
-# Gestire le visualizzazioni record
+# Gestire le viste dei record
 
 <!--
 
@@ -65,8 +67,8 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfront Planning, vedere anche i seguenti articoli:
 
-* [Eliminare le visualizzazioni record](/help/quicksilver/planning/views/delete-record-views.md)
-* [Visualizzazioni record duplicate](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Eliminare le viste dei record](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicare le viste dei record](/help/quicksilver/planning/views/duplicate-record-views.md)
 * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 
 
@@ -91,13 +93,13 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
@@ -115,7 +117,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
@@ -281,9 +285,19 @@ Per informazioni sulle visualizzazioni elenco, vedere [Gestire la visualizzazion
    ![Crea riquadro di visualizzazione](assets/create-view-box.png)
 
 1. (Facoltativo) Per modificare una visualizzazione esistente, fai clic sul menu a discesa a destra del nome della visualizzazione corrente, quindi digita il nome di una visualizzazione nel campo **Cerca** e premi Invio sulla tastiera.
+
+   >[!TIP]
+   >
+   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le visualizzazioni:</span>
+   >
+   >* <span class="preview">CTRL+K per Windows</span>
+   >* <span class="preview">⌘+K per Mac</span>
+   >
+   >![Casella di ricerca globale](assets/global-search-box.png)
+
 1. (Facoltativo) Dal menu a discesa della vista, trascina le viste in ordine di preferenza.
 
-   ![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
+   ![Menu a discesa dei tipi di viste dall’elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condizionale) Fai clic su **Avanti** durante la creazione di una visualizzazione calendario o sequenza temporale.
 
@@ -322,8 +336,8 @@ Per informazioni sulle visualizzazioni elenco, vedere [Gestire la visualizzazion
 1. (Facoltativo) Per gestire un tipo specifico di visualizzazione, vedi i seguenti articoli:
 
    * [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
-   * [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
-   * [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+   * [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+   * [Gestire la vista calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
 ## Abilitare l&#39;indicatore di presenza in tempo reale in una visualizzazione
 

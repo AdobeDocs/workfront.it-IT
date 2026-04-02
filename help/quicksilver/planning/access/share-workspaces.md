@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 3%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 3%
 Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori in Adobe Workfront Planning.
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni sulla condivisione delle aree di lavoro
 
@@ -174,6 +179,10 @@ Per condividere un’area di lavoro con altri utenti:
    >* Oltre a team, gruppi, aziende e ruoli, puoi condividere solo con gli utenti che sono stati aggiunti al Adobe Admin Console. Non è possibile aggiungere utenti solo Workfront. Per informazioni, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* Quando condividi un&#39;area di lavoro con un utente, nel campo vengono visualizzati anche la mansione principale <span class="preview"> e l&#39;e-mail</span>. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
+
+1. <span class="preview">(Facoltativo) Quando esegui una condivisione con un gruppo, un team, una mansione o una società, passa il puntatore del mouse sul nome dell&#39;entità e fai clic sulla freccia rivolta a destra per espandere un elenco di utenti che ricevono le autorizzazioni. </span>
+
+   ![Condividi area di lavoro con un gruppo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizzazione

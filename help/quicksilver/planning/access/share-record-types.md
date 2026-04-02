@@ -6,17 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 1%
+source-wordcount: '1586'
+ht-degree: 2%
 
 ---
 
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-# Condividere tipi di record
+# Condividere i tipi di record
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -58,7 +60,7 @@ Oppure
  </tr>
 
 <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
   </td> 
   </tr> 
@@ -68,7 +70,7 @@ Oppure
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  <p>Gestire le autorizzazioni per un’area di lavoro e un tipo di record</p>  
    <p><b>IMPORTANTE</b></p>
    <p>Solo gli utenti con le autorizzazioni di gestione di un'area di lavoro possono condividere le autorizzazioni di gestione di un tipo di record</p></td> 
@@ -89,7 +91,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni durante la condivisione dei tipi di record
 
@@ -215,11 +219,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    1. Seleziona **Disattiva** dal menu a discesa **Autorizzazioni ereditate**.
 
-   >[!TIP]
-   >
-   >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record.
+      >[!TIP]
+      >
+      >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record.
 
    1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un livello di autorizzazione diverso da quello che hanno per l&#39;area di lavoro.
+   1. <span class="preview">(Facoltativo) Quando esegui una condivisione con un gruppo, un team, una mansione o una società, passa il puntatore del mouse sul nome dell&#39;entità e fai clic sulla freccia rivolta a destra per espandere un elenco di utenti che ricevono le autorizzazioni. </span>
+
+      ![Condividi tipo di record con gruppo](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Scegli un livello di autorizzazione.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Gli utenti con cui hai condiviso il tipo di record ricevono una notifica in-app 
 
    Gli utenti che sono stati rimossi dall&#39;accesso al tipo di record non ricevono più alcuna notifica del fatto che non dispongono più di queste autorizzazioni.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 
