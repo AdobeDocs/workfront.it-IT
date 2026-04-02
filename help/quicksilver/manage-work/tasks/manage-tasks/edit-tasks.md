@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 4%
+source-wordcount: '4076'
+ht-degree: 5%
 
 ---
 
-# Modifica attività
+# Modificare le attività
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
 
@@ -48,10 +55,11 @@ Potete modificare le informazioni sulle attività create o sulle quali disponete
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Any</p> </td> 
+   <td>  <p>Per utilizzare i tipi di costo e di ricavi orari utente e ruolo e aggiungere un rapporto straordinario: Ultimate flusso di lavoro</p>
+      <p>Per modificare tutte le altre impostazioni e utilizzare tutti gli altri tipi di ricavi e costi: qualsiasi pacchetto Workfront o Workflow</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -60,7 +68,7 @@ Potete modificare le informazioni sulle attività create o sulle quali disponete
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> 
     <ul> 
      <li> <p>Concedere le autorizzazioni per un'attività per modificare le informazioni seguenti nell'area Dettagli attività: </p>
@@ -82,7 +90,8 @@ Potete modificare le informazioni sulle attività create o sulle quali disponete
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ Potete modificare le informazioni sulle attività create o sulle quali disponete
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitazioni per la modifica delle attività
 
@@ -189,7 +199,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    1. Per ulteriori informazioni sulla modifica delle informazioni nella scheda Dettagli attività, vedere gli articoli seguenti:
 
       * [Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-      * [Gestire i dati finanziari delle attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+      * [Gestire le finanze dell”attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facoltativo) Se non sono presenti moduli personalizzati allegati all&#39;attività, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
    1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
@@ -421,7 +431,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Durata per Occorrenza</td> 
-      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
+      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
 
    Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td>
    </tr> 
@@ -494,7 +504,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    <p><b>NOTA</b>
 
-   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
+   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso indica il passaggio effettivo dei giorni solari.
 
    L&#39;orario regolare prende in considerazione le festività, i fine settimana e le ferie e le esclude dalla Durata dell&#39;attività. Per ulteriori informazioni sulla durata dell&#39;attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell&#39;attività</a>. </p>
    </div> 
@@ -505,7 +515,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
       <b>NOTA</b>
       <p>
-      Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
+      Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
       </p>
 
    </td> 
@@ -572,6 +582,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
         <li> <p>Ore Fisse </p> </li> 
         <li> <p> Ore Utente </p> </li> 
         <li> <p> Ore Ruolo</p> </li> 
+        <li> <p> <span class="preview">Ore Utente e Ruolo</span></p> </li> 
        </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p> Non Fatturabile </p> </li> 
       <li> <p>Ore Utente </p> </li> 
       <li> <p>Ore Ruolo </p> </li> 
+      <li> <p> <span class="preview">Ore Utente e Ruolo</span></p> </li> 
       <li> <p>Ore Fisse </p> </li> 
       <li> <p>Ore utente con limite </p> </li> 
       <li> <p>Ore ruolo con limite </p> </li> 
+      <li> <p> <span class="preview">Ore Utente e Ruolo con Cap</span></p> </li> 
       <li> <p>Ore Utente più Fisso </p> </li> 
       <li> <p>Ore Ruolo più Fisso </p> </li> 
+      <li> <p> <span class="preview">Ore Utente e Ruolo più Fisso</span></p> </li> 
       <li> <p>Reddito Fisso </p> </li> 
-       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedi<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> . </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
+       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedere <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> e <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Panoramica sulla gerarchia dei ricavi e dei costi</a>. </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Rapporto ore di straordinario</span></td> 
+      <td><span class="preview"><p>Immettere il moltiplicatore del lavoro straordinario per l'attività, ad esempio 1,5 o 2,0. Il valore predefinito è 1,0 (nessun moltiplicatore). Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definire una proporzione di lavoro straordinario</a>.</p><p>Per visualizzare il campo Rapporto lavoro straordinario:</p>
+       <ul>
+       <li>Il Tipo di Reddito dell'attività deve essere Ore Utente e Ruolo. Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Panoramica sulla gerarchia dei ricavi e dei costi</a>.</li>
+       <li>Il campo deve essere abilitato nel modello di layout, per l'area Finanza nella visualizzazione Dettagli attività. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizzare la visualizzazione Dettagli utilizzando un modello di layout</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono incl
 
 Per informazioni sul salvataggio di attività in blocco, vedere la sezione &quot;Modifica attività in blocco&quot; nell&#39;articolo [Modifica attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

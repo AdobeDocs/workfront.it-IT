@@ -7,20 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
-ht-degree: 1%
+source-wordcount: '7855'
+ht-degree: 2%
 
 ---
 
-# Modifica progetti
+# Modificare progetti
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,10 +52,11 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Per impostare i tassi di cambio a livello di sistema per il progetto e mantenere i tassi di fatturazione del progetto: Workflow Ultimate</p>
+      <p>Per modificare tutte le altre impostazioni: qualsiasi pacchetto Workfront o Workflow</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -60,7 +65,7 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> 
      <p>Gestire le autorizzazioni per un progetto</p> 
      </td> 
@@ -72,7 +77,8 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Limitazioni per la modifica dei progetti
 
@@ -153,7 +160,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
    1. Per ulteriori informazioni sulla modifica delle informazioni nella scheda Project Details (Dettagli progetto), vedere gli articoli seguenti:
 
       * [Gestire le informazioni nell&#39;area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-      * [Gestire le informazioni nell&#39;area Finanza progetto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+      * [Gestire informazioni nell’area Finanze di progetto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Facoltativo) Per allegare un modulo personalizzato, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
    1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
@@ -399,11 +406,12 @@ Quando selezioni più di un progetto per modificarli in blocco e, esistono i seg
 
 Per modificare i campi nell&#39;area Finanza:
 
-
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Finanza** nel pannello a sinistra.
 
    ![Area contabilità nella casella di modifica del progetto](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Aggiornare le seguenti informazioni finanziarie per il progetto:
 
@@ -411,9 +419,17 @@ Per modificare i campi nell&#39;area Finanza:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Utilizza tassi di cambio effettivi in base alla data dal sistema</span></strong></td>
+      <td><p><span class="preview">Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</span></p> <p><span class="preview">È inoltre necessario selezionare la <strong>Data tasso di cambio</strong> da cui iniziare, quando l'opzione è selezionata.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Mantieni informazioni sulle tariffe di fatturazione del progetto</span></strong></td>
+      <td><p><span class="preview">Quando si abilita questa opzione, tutte le tariffe di fatturazione delle assegnazioni vengono bloccate in modo permanente alla tariffa applicabile più elevata della gerarchia di fatturazione. Questa è una selezione una tantum e non puoi disattivare l’opzione una volta che il progetto ha assegnazioni o ore. Dopo il mantenimento, le tariffe di fatturazione delle assegnazioni non possono essere modificate, modificate o sostituite in alcun punto del progetto.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Valuta</strong> </td> 
-      <td> <p> <p>Specifica la valuta per il progetto, se è diversa da quella predefinita del sistema. Non puoi cambiare la valuta di un progetto se sono già presenti informazioni finanziarie. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita. </p> <p>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.<br></p> </p> </td> 
+      <td> <p>Specifica la valuta per il progetto, se è diversa da quella predefinita del sistema. Non puoi cambiare la valuta di un progetto se sono già presenti informazioni finanziarie. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita. </p> <p>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -756,7 +772,7 @@ Quando modifichi progetti in blocco, tieni presente quanto segue:
 
   L’aggiunta di un nuovo Responsabile risorse quando si modificano progetti in blocco aggiunge tale Responsabile a tutti i progetti selezionati. Se ai progetti selezionati sono associati altri responsabili delle risorse, questi rimangono nei progetti oltre a quello aggiunto tramite la modifica in blocco.
 
-* Quando si selezionano progetti che hanno valori diversi per lo stesso campo, nel campo viene visualizzato un indicatore &quot;Più valori&quot; nella casella Modifica progetti. I campi costituiti da caselle di controllo, pulsanti di scelta e interruttori dispongono accanto di un indicatore &quot;Più valori&quot;.
+* Quando si selezionano progetti che hanno valori diversi per lo stesso campo, nel campo viene visualizzato un indicatore &quot;Più valori&quot; nella casella Modifica progetti. I campi costituiti da caselle di controllo, pulsanti di scelta e interruttori mostrano l’indicatore “Valori multipli” accanto.
 
   ![Indicatore di più valori per le date nella casella di modifica in blocco dei progetti](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
@@ -850,7 +866,8 @@ Per ulteriori informazioni sulla modifica dell&#39;area di accesso, vedere la se
 1. Fai clic su **Salva**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

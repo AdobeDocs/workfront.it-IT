@@ -7,14 +7,18 @@ description: L'amministratore di Adobe Workfront consente agli utenti di visuali
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1465'
 ht-degree: 7%
 
 ---
 
 # Condivisione di un documento su un sistema di archiviazione Workfront legacy
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 L’amministratore di Workfront controlla chi può visualizzare o modificare i documenti nell’area Livelli di accesso in Configurazione. Per ulteriori informazioni, consulta [Concedere l’accesso ai documenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -79,7 +83,7 @@ Per impostazione predefinita, l’utente che carica un documento in Workfront di
 
    ![Condividi documento](assets/share-a-document-350x160.png)
 
-1. Nel campo **Concedi l&#39;accesso al documento**, iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere il documento, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al documento**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, del <span class="preview">o del profilo di business</span> con cui si desidera condividere il documento, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -122,7 +126,7 @@ Per impostazione predefinita, l’utente che carica un documento in Workfront di
 
    ![Icona Condividi](assets/share-documents-in-bulk.png)
 
-1. Nel campo **Concedi l&#39;accesso al documento**, iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere i documenti, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al documento**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, del <span class="preview">o del profilo di business</span> con cui desideri condividere i documenti, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >

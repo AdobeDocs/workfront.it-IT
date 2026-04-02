@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 9%
+source-wordcount: '1612'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +22,8 @@ ht-degree: 9%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso personalizzati e applicarli agli utenti. Quando si lavora con i livelli di accesso, è importante comprendere in che modo collaborano con le autorizzazioni per gli oggetti concesse dagli utenti quando condividono gli oggetti tra loro. Per ulteriori informazioni sui livelli di accesso, vedere:
 
@@ -191,8 +195,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td role="rowheader">Non consentire mai agli utenti di eliminare le notifiche</td> 
       <td>Impedisce agli utenti di eliminare gli annunci nel Centro notifiche. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Inviare annunci</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Consenti agli utenti di accedere ai marchi</td> 
+      <td>Consente agli utenti di accedere e gestire i Marchi GenStudio in Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Concedere l'accesso alle autorizzazioni del brand</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">(Facoltativo) Per impedire agli utenti con questo livello di accesso di visualizzare campi specifici, aggiungere i campi nella sezione Aggiungi campi con restrizioni.</span>
+
+   <span class="preview">In questa sezione è possibile cercare sia i campi nativi che quelli personalizzati. È previsto un limite di 20 campi con restrizioni.</span>
+
+   <span class="preview">I campi sono limitati quando il livello di accesso viene assegnato a un utente come livello di accesso principale o tramite un profilo di business. Per ulteriori informazioni sui profili aziendali, vedere [Panoramica sui profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+
+   <span class="preview">Un campo con restrizioni è ancora visibile agli utenti nel sistema, ma viene visualizzato come vuoto oppure visualizza N/D invece dei dati effettivi.</span>
 
 1. (Condizionale e facoltativo) Se il sistema Workfront è configurato per utenti che appartengono a più società, limita la visibilità ad altri utenti in base alla società a cui appartengono nella sezione **Le persone in altre società devono visualizzare solo gli utenti di**.
 

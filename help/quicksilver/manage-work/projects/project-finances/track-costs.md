@@ -7,10 +7,10 @@ description: Puoi tenere traccia dei costi per progetti, attività e problemi in
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 0%
+source-wordcount: '2755'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,39 @@ ht-degree: 0%
 
 <!-- Audited: 02/2024 -->
 
+{{highlighted-preview}}
+
 Puoi tenere traccia dei costi per progetti, attività e problemi in Adobe Workfront.
 
-## Calcolo dei costi in Workfront
+<div class="preview">
+
+## Calcolo dei costi in Workfront - Pacchetto Workflow Ultimate
+
+Per tenere traccia dei costi, è necessario associare utenti e mansioni alle tariffe orarie.
+
+Le tariffe orarie rappresentano gli importi dei costi per unità di lavoro associati alle mansioni o agli utenti. Moltiplicando le tariffe per le ore lavorative si generano costi per progetti, attività o problemi.
+
+Esistono i seguenti scenari:
+
+* Se il tipo di costo delle attività è Ore utente, la tariffa oraria utente calcola i costi dell&#39;attività e del progetto.
+
+  Per informazioni sull&#39;associazione degli utenti alle tariffe, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+* Se il tipo di costo delle attività è Ore mansione, la tariffa oraria della mansione calcola i costi dell&#39;attività e del progetto.
+
+  Per informazioni sull&#39;associazione di mansioni alle tariffe, vedere [Creare e gestire mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* Se il tipo di costo delle attività è Ore utente e Ruolo, la gerarchia delle tariffe calcola i costi delle attività e del progetto.
+
+  Per informazioni sulla sostituzione della tariffa utente a livello di progetto, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+  Per informazioni sulla gerarchia dei tassi di costo, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+* Workfront calcola solo il costo effettivo per i problemi e i problemi non hanno un tipo di costo. Per ulteriori informazioni, vedere la sezione [Analisi dei costi in Workfront per i problemi](#how-workfront-tracks-costs-for-issues) in questo articolo.
+
+</div>
+
+## Calcolo dei costi in Workfront - tutti gli altri pacchetti
 
 Per tenere traccia dei costi, è necessario associare utenti e mansioni alle tariffe orarie.
 
@@ -49,7 +79,7 @@ Per ulteriori informazioni sul calcolo degli indici di prestazioni dei costi, ve
 
 * [Calcola indice prestazioni costi (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md)
 * [Calcola indice prestazioni programma costi](../../../manage-work/projects/project-finances/calculate-csi.md)
-* [Calcola indice prestazioni Schedule (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
+* [Calcolare l’Indice prestazioni pianificazione (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 ## Come Workfront tiene traccia dei costi per attività e progetti
 
@@ -79,7 +109,7 @@ In Workfront è possibile tenere traccia di diversi tipi di costi per attività 
      <td>Costi effettivi manodopera</td> 
      <td> <p>Sono calcolati con la seguente formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
      <p><strong>NOTA</strong>
-     <p>Workfront calcola il costo effettivo della manodopera utilizzando le ore effettive legacy. Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visualizza ore effettive</a>. </p>
+     <p>Workfront calcola il costo effettivo della manodopera utilizzando le ore effettive legacy. Per ulteriori informazioni, consulta <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visualizzare le ore effettive</a>. </p>
 
   </td> 
     </tr> 
@@ -154,7 +184,7 @@ La tariffa oraria nella formula considera eventuali modifiche effettive alla dat
 >[!NOTE]
 >
 >Il Costo di Spesa Reale del progetto viene calcolato come segue:
->&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Questi costi non vengono duplicati nel calcolo del costo effettivo. Ad esempio, se un Costo Fisso fa parte del Costo Spesa Reale del progetto, non viene aggiunto separatamente al Costo Reale.
 
@@ -191,11 +221,15 @@ Nella tabella seguente vengono descritti i tipi di costo dei task disponibili in
       <li>Se si assegnano più risorse a un'attività, Workfront adegua i calcoli per il Costo pianificato in base alla percentuale dell'attività assegnata a ciascuna risorsa.</li>
       <li>Per i tassi di costo effettivi per data, il costo manodopera pianificata è la somma dei costi pianificati di ogni periodo di tempo coperto dall'attività.</li>
       <li>Il valore del campo Costo pianificato può variare a seconda che il Costo pianificato venga visualizzato dall'attività stessa o dal rapporto Utilizzo.<br><strong>Quando si visualizza il Costo pianificato dall'attività stessa:</strong> Il campo Costo pianificato prende in considerazione il campo Costo orario impostato a livello di mansione (quando il campo Costo orario non è stato impostato a livello di utente).<br><strong>Quando si visualizza Costo pianificato dal report Utilizzo del progetto:</strong> Il campo Costo pianificato non tiene conto del campo Costo orario impostato a livello di mansione. Se invece si desidera che il rapporto Utilizzo prenda in considerazione il campo Costo/Ora impostato a livello Mansione, è necessario impostare il tipo di costo dell'attività su Ore mansione. </li> 
-     </ul> </p> <p><strong>Il costo effettivo</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Se il costo effettivo della manodopera è calcolato in base a:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Ad esempio, un utente nel suo profilo ha una tariffa Costo orario di 20 $. Quando si registrano 5 ore per un'attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente non è associata una tariffa Costo orario, il Costo effettivo viene calcolato in base alla tariffa Costo orario della mansione principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: i costi effettivi vengono calcolati in base alla tariffa Costo orario per l'utente che registra l'ora, indipendentemente da chi è assegnato all'attività. Inoltre, la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> </td> 
+     </ul> </p> <p><strong>Il costo effettivo</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Se il costo effettivo della manodopera è calcolato in base a:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Ad esempio, un utente nel suo profilo ha una tariffa Costo orario di 20 $. Quando si registrano 5 ore per un'attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente non è associata una tariffa Costo orario, il Costo effettivo viene calcolato in base alla tariffa Costo orario della mansione principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: i costi effettivi vengono calcolati in base alla tariffa Costo orario per l'utente che registra l'ora, indipendentemente da chi è assegnato all'attività. Inoltre, la tariffa oraria di costo nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ore Ruolo</p> </td>
-   <td> <p><strong>Il costo pianificato</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dove il costo manodopera pianificata dell'attività viene calcolato in base a:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: se si assegnano più risorse a un'attività, Workfront adegua i calcoli per le ore pianificate in base alla percentuale dell'attività assegnata a ciascuna risorsa. Inoltre, la tariffa oraria nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p><strong>Il costo effettivo</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Dove il costo effettivo manodopera task viene calcolato in base a:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Ad esempio, un'attività viene assegnata a una mansione o a un utente con una mansione per la quale la tariffa oraria è di 20 $. Quando un utente registra 5 ore per un’attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente assegnato all'attività non è associata alcuna mansione, il costo effettivo viene calcolato in base alla tariffa oraria del relativo Ruolo principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: le ore effettive di un task Ore ruolo vengono calcolate in base ai ruoli degli utenti associati al task e non ai ruoli associati all'utente che registra l'ora. Inoltre, la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p>Se l'amministratore di Workfront ha abilitato l'impostazione <strong>Assegna mansioni alle ore manualmente</strong> nell'area Preferenze schede orario e ore in Configurazione e l'ora di accesso dell'utente all'attività seleziona un ruolo diverso da associare a questo orario, il costo effettivo di un'attività oraria mansione viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull'abilitazione dell'ora di registrazione per una mansione specifica, vedere l'articolo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze di ora e scheda orario</a>.</p> </p> </td> 
+   <td> <p><strong>Il costo pianificato</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dove il costo manodopera pianificata dell'attività viene calcolato in base a:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: se si assegnano più risorse a un'attività, Workfront adegua i calcoli per le ore pianificate in base alla percentuale dell'attività assegnata a ciascuna risorsa. Inoltre, la tariffa oraria nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p><strong>Il costo effettivo</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Dove il costo effettivo manodopera task viene calcolato in base a:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Ad esempio, un'attività viene assegnata a una mansione o a un utente con una mansione per la quale la tariffa oraria è di 20 $. Quando un utente registra 5 ore per un’attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente assegnato all'attività non è associata alcuna mansione, il costo effettivo viene calcolato in base alla tariffa oraria del relativo Ruolo principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: le ore effettive di un task Ore ruolo vengono calcolate in base ai ruoli degli utenti associati al task, non ai ruoli associati all'utente che registra l'ora. Inoltre, la tariffa oraria di costo nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p>Se l'amministratore di Workfront ha abilitato l'impostazione <strong>Assegna mansioni alle ore manualmente</strong> nell'area Preferenze schede orario e ore in Configurazione e l'ora di accesso dell'utente all'attività seleziona un ruolo diverso da associare a questo orario, il costo effettivo di un'attività oraria mansione viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull'abilitazione dell'ora di registrazione per una mansione specifica, vedere l'articolo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze di ora e scheda orario</a>.</p> </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p><span class="preview">Orario per utente e mansione</span></p> </td> 
+   <td> <p><span class="preview"><strong>Il costo pianificato</strong> è calcolato con la formula seguente:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Dove il costo manodopera pianificata dell'attività viene calcolato in base a:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>Il costo effettivo</strong> è calcolato con la formula seguente:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Dove il costo effettivo manodopera task viene calcolato in base a:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ore Fisse</p> </td> 

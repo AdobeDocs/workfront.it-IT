@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 7%
 
 ---
 
-# Personalizzare le intestazioni degli oggetti utilizzando un modello di layout
+# Personalizzare le intestazioni degli oggetti con un modello layout
+
+{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront o di amministratore di gruppo, puoi utilizzare un modello di layout per configurare i campi che gli utenti visualizzano nell’intestazione dell’oggetto quando aprono la pagina di un oggetto.
 
 >[!IMPORTANT]
 >
->La personalizzazione delle intestazioni degli oggetti è attualmente disponibile per progetti, attività e problemi.
+>La personalizzazione delle intestazioni degli oggetti è attualmente disponibile per progetti, attività, problemi, <span class="preview">portfolio, programmi, modelli, record di fatturazione, team, gruppi, utenti, società, gruppi e schede di valutazione.</span>
 
 ![Campi intestazione oggetto](assets/object-header-fields.png)
 
@@ -44,7 +46,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -64,10 +66,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Personalizzare le intestazioni degli oggetti
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Nel menu a discesa **Personalizza gli utenti**, seleziona **Progetti**, **Attività** o **Problemi**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. Nel menu a discesa **Personalizza gli utenti visualizzati**, seleziona un oggetto di cui desideri personalizzare l&#39;intestazione.
 1. Nella sezione [!UICONTROL Campi intestazione], passa il puntatore del mouse sui campi correnti ed effettua una delle seguenti operazioni:
    * Fai clic sull&#39;icona **x** per rimuovere un campo
 
@@ -75,12 +74,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Fai clic sull&#39;icona **grab** e tieni premuto per trascinare il campo in una nuova posizione.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![I campi intestazione oggetto nascondono e spostano le icone](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. È possibile avere fino a cinque campi nell&#39;intestazione di un oggetto.
-Se sono già stati selezionati cinque campi, è necessario rimuovere un campo prima di poterne aggiungere uno nuovo.
+
+   Se sono già stati selezionati cinque campi, è necessario rimuovere un campo prima di poterne aggiungere uno nuovo.
+
 1. Nella casella **Aggiungi campo** digitare il nome di un campo personalizzato o di un campo Workfront nativo che si desidera aggiungere, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Il campo viene aggiunto a destra della casella Aggiungi campo e verrà visualizzato come primo campo nell&#39;angolo superiore destro dell&#39;intestazione dell&#39;oggetto.
 
    >[!TIP]
@@ -89,7 +88,7 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
    >
    >* Quando un utente modifica un campo personalizzato nell’intestazione che è contenuto in un modulo personalizzato non allegato all’oggetto, il modulo personalizzato viene aggiunto automaticamente all’oggetto.
    >
-   >* Quando aggiungi il campo &quot;Risolto da&quot; all’intestazione di un problema, il campo diventa &quot;Risolto da un problema, un’attività o un progetto&quot;, quando al problema è associato un oggetto di risoluzione.
+   >* Quando aggiungi il campo &quot;Risolto da&quot; all’intestazione di un problema, il campo diventa &quot;Risolto da un problema, un’attività o un progetto&quot; se al problema è associato un oggetto di risoluzione.
 
    ![Aggiungi campo all&#39;intestazione](assets/add-field-to-header-in-lt-list.png)
 

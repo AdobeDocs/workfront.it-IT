@@ -6,14 +6,18 @@ description: Puoi condividere un calendario con altri utenti e renderlo disponib
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '614'
 ht-degree: 8%
 
 ---
 
 # Condividere un report calendario
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 
 È possibile condividere un calendario con altri utenti e renderlo disponibile pubblicamente, consentendo a un utente senza una licenza [!DNL Adobe Workfront] di visualizzarlo.
@@ -63,7 +67,7 @@ Per condividere un calendario in [!DNL Workfront]:
 1. Vai al calendario che desideri condividere.
 1. Fai clic sul menu **Altro** accanto al nome del calendario, quindi fai clic su **Condivisione**.
    ![calendario altro menu](assets/more-menu-calendar.png)
-1. Nel campo **[!UICONTROL Concedi accesso al calendario]**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società che desideri condividere il calendario, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
+1. Nel campo **[!UICONTROL Concedi l&#39;accesso al calendario a]**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società <span class="preview">o del profilo aziendale</span> che desideri condividere il calendario, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
    Per informazioni sull&#39;impostazione delle autorizzazioni, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facoltativo) Ripeti il passaggio 3 per ogni utente, team, ruolo o gruppo a cui desideri concedere l’accesso al calendario.

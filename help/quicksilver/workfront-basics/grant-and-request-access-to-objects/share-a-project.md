@@ -6,16 +6,20 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 7%
+source-wordcount: '1600'
+ht-degree: 8%
 
 ---
 
 # Condividere un progetto
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare progetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -37,7 +41,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> 
    </td> 
@@ -47,13 +51,13 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +78,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * Quando si condivide un progetto, tutte le attività, i problemi e i documenti ereditano le stesse autorizzazioni, se non diversamente specificato.
 
-  Per informazioni sulla gestione dell&#39;accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sulla gestione dell&#39;accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
   L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -144,7 +148,7 @@ Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un ogg
 
    ![Pulsante Condividi progetto](assets/share-project.png)
 
-1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il progetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere il progetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -164,7 +168,8 @@ Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un ogg
    >Per ulteriori informazioni su come specificare i valori predefiniti di condivisione per i progetti nel Livello d&#39;Accesso, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
-   >this note also appears in Understanding Project Permissions-->
+   >this note also appears in Understanding Project Permissions
+   -->
 
 
 1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questo progetto:
@@ -190,7 +195,7 @@ Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un ogg
 
    ![Progetti di condivisione in blocco](assets/bulk-share-icon.png)
 
-1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere i progetti, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere i progetti, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >

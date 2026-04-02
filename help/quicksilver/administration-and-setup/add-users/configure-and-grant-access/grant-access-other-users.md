@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td> 
   </tr> 
@@ -41,27 +41,27 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Configurazione dell’accesso agli utenti
 
-È possibile gestire le informazioni che gli utenti possono visualizzare e modificare per altri utenti utilizzando un livello di accesso predefinito o personalizzato. Gli utenti con le licenze Pianificazione e Lavoro predefinite possono visualizzare le informazioni di contatto di altri utenti. Uno dei seguenti utenti può creare e modificare altri utenti:
+È possibile gestire le informazioni che gli utenti possono visualizzare e modificare per altri utenti utilizzando un livello di accesso predefinito o personalizzato. Gli utenti con le licenze Standard, Plan e Work predefinite possono visualizzare le informazioni di contatto di altri utenti. Uno dei seguenti utenti può creare e modificare altri utenti:
 
 * Un amministratore Workfront.
 
-  Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Per ulteriori informazioni, consulta [Concedere a un utente l’accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Utente con una licenza Pianificazione predefinita che ha anche accesso agli utenti, come spiegato in questo articolo.
+* Utente con una licenza Standard o Plan predefinita che ha anche accesso agli utenti, come spiegato in questo articolo.
 
   Gli utenti che non possono vedere solo gli utenti della propria società o della società principale hanno accesso alla modifica solo per gli utenti che possono vedere. Per ulteriori informazioni, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Utente con una licenza Pianificazione predefinita specificato anche come manager di un altro utente.
+* Utente con una licenza Standard o Plan predefinita che è anche specificato come manager di un altro utente.
 
   Gli utenti che dispongono dell’accesso di modifica al loro livello di accesso possono gestire gli utenti che fanno riferimento a loro. Per informazioni sulla gestione di un utente, vedere [Visualizzare l&#39;organigramma](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* L&#39;utente con una licenza Pianificazione predefinita che ha creato un utente può disattivare, eliminare o modificare l&#39;utente creato. Per informazioni sulla creazione di nuovi utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* L’utente con una licenza Standard o Plan predefinita che ha creato un utente può disattivare, eliminare o modificare l’utente creato. Per informazioni sulla creazione di nuovi utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configurare l’accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato
 
@@ -81,7 +81,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Crea</strong> </td> 
+      <td role="rowheader"><strong>Creare </strong> </td> 
       <td> <p>Consente agli utenti di creare utenti.<br>Questa opzione è attivata per impostazione predefinita.</p> 
      <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p>
         </td>  

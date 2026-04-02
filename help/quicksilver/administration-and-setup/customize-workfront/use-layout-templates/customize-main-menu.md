@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 6%
+source-wordcount: '777'
+ht-degree: 10%
 
 ---
 
 # Personalizzare il menu principale utilizzando un modello di layout
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -47,7 +49,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
        <p>L’aggiunta di applicazioni personalizzate al menu principale è disponibile solo per le organizzazioni con licenza per Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -88,7 +90,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      >[!NOTE]
      >
-     >Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >Pianificazione scanari richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
    * Team
    * Utenti
@@ -122,7 +124,28 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      >
      > Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-1. Effettua una delle seguenti operazioni:
+<div class="preview">
+
+Nell’ambiente di anteprima:
+
+1. Effettua una delle seguenti operazioni per **Elementi nativi**:
+
+   * Nascondi ![Nascondi icona](assets/remove-icon---x-in-circle.png) elementi che non si desidera visualizzare nel menu principale.
+   * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) elementi da visualizzare nel menu principale.
+   * Trascina ![icona Trascina](assets/move-icon---dots.png) elementi per modificarne l&#39;ordine di visualizzazione nel menu principale.
+
+1. Effettua una delle seguenti operazioni per gli elementi **System**:
+
+   * Nascondi ![Nascondi icona](assets/remove-icon---x-in-circle.png) elementi che non si desidera visualizzare nel menu principale.
+   * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) elementi da visualizzare nel menu principale.
+
+</div>
+
+>[!NOTE]
+>
+><span class="preview">Impossibile modificare l&#39;ordine degli elementi di sistema. Questi elementi vengono sempre visualizzati nella parte inferiore del menu principale quando sono attivi.</span>
+
+1. Nell’ambiente di produzione, effettua una delle seguenti operazioni:
 
    * Nascondi ![Icona Nascondi](assets/remove-icon---x-in-circle.png) **Elementi attivi** che non desideri visualizzare
    * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) **Elementi disponibili** da visualizzare nel menu principale.

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 0%
+source-wordcount: '3478'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -36,7 +36,7 @@ Per informazioni sugli utenti che aggiornano i propri profili, vedere [Configura
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,11 @@ Per informazioni sugli utenti che aggiornano i propri profili, vedere [Configura
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td><p>Qualsiasi</p></td> 
+   <td><p>Per modificare il profilo di un utente: qualsiasi pacchetto Workfront o Workflow</p>
+       <p>Per impostare gli attributi dei tassi e la sostituzione dei tassi di costo: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -105,7 +106,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   Non è possibile reimpostare la password di un amministratore Workfront.
 
 * **&lt;Configurazione SSO> Nome utente**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il nome utente SSO viene visualizzato in questo campo. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
-* **Consenti solo autenticazione &lt;Configurazione SSO>**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront e ha aggiornato tutti gli utenti per l&#39;autenticazione SSO, questo campo è selezionato per impostazione predefinita. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
+* **Consenti solo autenticazione &lt;SSO Configuration>**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront e ha aggiornato tutti gli utenti per l&#39;SSO, questo campo è selezionato per impostazione predefinita. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
 
   Quando questo campo è selezionato, l’utente deve accedere a Workfront con le proprie credenziali SSO. Deselezionando questa opzione, gli utenti potranno accedere a Workfront con le credenziali Workfront.
 
@@ -223,13 +224,13 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Il valore predefinito del campo è 1, che indica che un utente spende l’intero FTE per il lavoro effettivo relativo al progetto.
 
-  Il sistema utilizza questo numero per calcolare la disponibilità dell&#39;utente per il lavoro effettivo correlato al progetto.
+  Il sistema utilizza questo numero per calcolare la disponibilità dell’utente per il lavoro effettivo correlato al progetto.
 
-  Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, consulta [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
   Eccezioni alla pianificazione e indisponibilità possono influire anche sulla capacità dell&#39;utente.
 
-  Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area Configura. Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area Configura. Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
   >[!TIP]
   >
@@ -264,9 +265,11 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Per informazioni sulla configurazione delle preferenze di Gestione risorse, vedere [Configurare le preferenze di Gestione risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  <span class="preview">(Facoltativo) Le assegnazioni di mansioni con data di validità vengono utilizzate nei calcoli finanziari se la mansione dell&#39;utente cambia durante un progetto.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">Fare clic su **Definisci ruoli per data**, selezionare **Ruolo principale** e **Altri ruoli**, quindi immettere la percentuale di allocazione per ogni ruolo. I ruoli possono essere gli stessi dei ruoli esistenti (utilizzando percentuali diverse) o nuovi ruoli. Selezionare la data di inizio in cui questi ruoli diventano attivi. Questa può essere una data futura. Quando i ruoli più recenti diventano attivi, è possibile fare clic su **Mostra ruoli precedenti** per visualizzare i ruoli precedenti inattivi.</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Pianificazione**: associare una pianificazione all&#39;utente. La pianificazione dell&#39;utente calcola la sequenza temporale delle attività a cui l&#39;utente è assegnato.
 
@@ -305,9 +308,9 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Se le Preferenze di Gestione risorse a livello di sistema sono impostate su La pianificazione dell&#39;utente, il valore specificato in questo campo viene ignorato e l&#39;utente viene considerato disponibile in base a quanto specificato nella programmazione.
 
-  Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, consulta [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * **Pool di Risorse**: Associa l&#39;utente ai Pool di Risorse. Per ulteriori informazioni, vedere [Associare i pool di risorse agli utenti](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 * **Tariffa di costo**: importo del costo orario per l&#39;utente.
@@ -315,6 +318,8 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
   Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del tasso di costo per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La tariffa di costo 1 non avrà una data di inizio e l&#39;ultima tariffa di costo non avrà una data di fine.
 
   Alcune date vengono aggiunte automaticamente. Ad esempio, se il tasso di costo 1 non ha una data di fine e si aggiunge il tasso di costo 2 con una data di inizio del 1° maggio 2023, al tasso di costo 1 verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
+
+* <span class="preview">**Sovrascrittura tasso di costo consentita**: attivare questa opzione per consentire le sostituzioni tasso di costo per questo utente nei progetti. Per ulteriori informazioni, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
 
 * **Tariffa di fatturazione**: la quantità di fatturazione all&#39;ora per l&#39;utente.
 
@@ -333,6 +338,28 @@ Associa a questo utente un modulo personalizzato esistente. È necessario creare
 >Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterni e i campi nativi di Workfront, sono disponibili solo quando si apre il record utente nella pagina dei dettagli e non nella finestra di dialogo Modifica utente. Dall’elenco degli utenti, fai clic sul nome utente per aprire i dettagli.
 
 Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Attributi
+
+Gli attributi delle tariffe sono supportati nelle aree di Workfront in cui le tariffe esistono, ad esempio i ruoli e gli utenti. Quando gli attributi vengono applicati al profilo di un utente, le assegnazioni vengono risolte automaticamente in base alle tariffe corrette.
+
+1. Fare clic su **Aggiungi nuovo set**.
+1. Selezionare i valori degli attributi.
+
+   L’amministratore di Workfront imposta gli attributi disponibili. Ad esempio agenzia, ubicazione, centro di costo, cliente o altri attributi necessari per l&#39;organizzazione.
+
+1. (Facoltativo) Per aggiungere un altro set di attributi con date di validità:
+
+   1. Fare clic su **Aggiungi nuovo set**.
+   1. Seleziona una **Data di fine** per il set di attributi corrente.
+
+      La **Data inizio** per il set successivo viene aggiunta automaticamente.
+
+   1. Aggiungere i valori degli attributi per il successivo set di attributi. Questi valori hanno effetto dalla data di inizio.
+
+</div>
 
 ### Commento
 

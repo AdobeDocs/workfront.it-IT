@@ -4,14 +4,16 @@ description: Puoi condividere un portfolio con altri utenti se disponi delle aut
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 7%
 
 ---
 
 # Condividere un portfolio
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai portafogli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -33,7 +35,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> 
    </td> 
@@ -43,13 +45,13 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +84,7 @@ Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [I
 
    ![Pulsante Condividi portfolio](assets/share-portfolio-button.png)
 
-1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere il portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -115,7 +117,7 @@ Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [I
 
    ![Condividi portfolio in blocco](assets/bulk-share-portfolios.png)
 
-1. Nel campo **Concedi accesso portfolio a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere i portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere i portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >

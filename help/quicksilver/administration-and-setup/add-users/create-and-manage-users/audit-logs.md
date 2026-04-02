@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
+source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1578'
 ht-degree: 3%
 
 ---
 
-# Panoramica dei registri di audit
+# Panoramica dei registri di controllo
 
 <!--Audited: 08/2025-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 In qualità di amministratore di Adobe Workfront, puoi tenere traccia delle modifiche utente attivate nel sistema negli ultimi 90 giorni utilizzando i registri di audit descritti di seguito.
 
@@ -65,7 +67,8 @@ In ogni voce del registro di controllo vengono registrati i campi riportati di s
 ## Tipi di registro di controllo e azioni che li attivano
 
 * [Livello d&#39;Accesso](#access-level)
-* [Regole di business](#business-rules)
+* [Profili aziendali](#business-profiles)
+* <span class="preview">[Regole aziendali](#business-rules)</span>
 * [Società](#company)
 * [Condizione](#condition)
 * [Campo personalizzato](#custom-field)
@@ -98,6 +101,18 @@ Il sistema genera una voce di registro del livello di accesso quando un utente e
      >Il sistema non registra alcuna modifica delle autorizzazioni per Financial Data o all&#39;interno dei seguenti tipi di accesso: Visualizza e Modifica.
      >
      >Ad esempio, se un utente modifica il tipo di accesso Planner da Vista a Modifica, il sistema non visualizza le informazioni contenute nel menu a discesa Ottimizza impostazioni.
+
+<div class="preview">
+
+### Profili aziendali
+
+Il sistema genera una voce del registro di controllo Profilo aziendale quando un utente esegue una delle operazioni seguenti:
+
+* Crea un profilo aziendale
+* Modifica un profilo aziendale:
+* Elimina un profilo aziendale
+
+</div>
 
 ### Regole di business
 

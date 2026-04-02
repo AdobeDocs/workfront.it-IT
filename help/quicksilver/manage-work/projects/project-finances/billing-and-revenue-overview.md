@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Panoramica su fatturazione e ricavi
+title: Panoramica su fatturazione ed entrate
 description: In qualità di project manager, puoi utilizzare le tariffe di fatturazione per acquisire i ricavi dai tuoi progetti.
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3691'
-ht-degree: 0%
+source-wordcount: '4542'
+ht-degree: 1%
 
 ---
 
-# Panoramica su fatturazione e ricavi
+# Panoramica su fatturazione ed entrate
 
 <!-- Audited: 1/2024 -->
 
@@ -28,8 +30,8 @@ Questo articolo descrive come tenere traccia dei ricavi per i progetti. I ricavi
 
 Quando si lavora con le tariffe di fatturazione, considera quanto segue:
 
-* Per gestire le tariffe di fatturazione è necessaria una licenza Pianificazione o Standard con accesso in modifica ai dati finanziari.\
-  Per ulteriori informazioni sulla concessione dell&#39;accesso ai dati finanziari, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+* Per gestire le tariffe di fatturazione è necessaria una licenza Pianificazione o Standard con accesso in modifica ai dati finanziari (in particolare alle tariffe di fatturazione).
+Per ulteriori informazioni sulla concessione dell&#39;accesso ai dati finanziari, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Le tariffe di fatturazione sono quantità di ricavi per unità di lavoro associate a mansioni o utenti.
 
@@ -49,10 +51,21 @@ Quando si lavora con le tariffe di fatturazione, considera quanto segue:
 >
 >I tassi che calcolano i ricavi appartengono all’utente che registra l’ora o alle sue mansioni.
 
-* [Tariffe di fatturazione utente](#user-billing-rates)
-* [Tariffe di fatturazione mansione](#job-role-billing-rates)
-* [Tariffe di fatturazione fisse per progetti o attività](#fixed-billing-rates-for-projects-or-tasks)
-* [Sostituisci tariffe di fatturazione](#override-billing-rates)
+### Tariffe di fatturazione della carta di credito
+
+{{ultimate-package}}
+
+Quando si dispone dell&#39;accesso per modificare le schede di tariffa, è possibile definire schede di tariffa con più tariffe di fatturazione per ruolo, in base ad attributi quali ubicazione e gruppo o agenzia. Gli attributi sono configurabili fino a cinque livelli.
+
+Per applicare le tariffe a un progetto, è necessario allegare una scheda delle tariffe. Quando una tariffa è bloccata sulla scheda tariffa, non può essere sostituita a livello di progetto.
+
+I tassi delle schede dei tassi fanno parte della gerarchia per la determinazione dei tassi, in base al tipo di ricavi del task.
+
+Per ulteriori informazioni sulla creazione di schede di frequenza, vedere [Gestire le schede di frequenza](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+Per ulteriori informazioni sulla gerarchia dei tassi, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+![Scheda frequenza campione](assets/sample-rate-card-march2026.png)
 
 ### Tariffe di fatturazione utente {#user-billing-rates}
 
@@ -64,11 +77,11 @@ Per ulteriori informazioni sulla creazione di utenti, vedere l&#39;articolo [Agg
 
 ### Tariffe di fatturazione mansione {#job-role-billing-rates}
 
-In qualità di amministratore di Adobe Workfront, quando crei una mansione, puoi associarla alle tariffe di fatturazione valide per data specificando i valori per i campi Fatturazione ad ore e le date per le tariffe.
+In qualità di amministratore di Adobe Workfront, quando crei una mansione, puoi associarla alle tariffe di fatturazione valide per data specificando i valori e le date delle tariffe.
 
-È possibile definire il valore di un tasso di fatturazione di una mansione utilizzando la valuta di base del sistema Workfront o un&#39;altra valuta personalizzata.
+È possibile definire il valore di un tasso di fatturazione di una mansione utilizzando la valuta di base del sistema Workfront o un&#39;altra valuta. Nei tassi di cambio di sistema devono essere definite anche valute aggiuntive.
 
-Per ulteriori informazioni sulla creazione di ruoli e sull&#39;override della relativa valuta, vedere l&#39;articolo [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per ulteriori informazioni sulla creazione di ruoli, vedere l&#39;articolo [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ![Modifica costi mansione e tariffe di fatturazione](assets/edit-job-role-multiple-billing-rates-new.png)
 
@@ -81,7 +94,24 @@ Oltre alle tariffe orarie dell&#39;utente e della mansione, è possibile avere a
 
 Per ulteriori informazioni sulle modalità di utilizzo delle tariffe di fatturazione fisse per il calcolo dei ricavi, vedere [Panoramica sui tipi di ricavi dell&#39;attività](#overview-of-task-revenue-types).
 
-### Sostituisci tariffe di fatturazione {#override-billing-rates}
+<div class="preview">
+
+### Sostituisci tariffe di fatturazione - Pacchetto Ultimate per flusso di lavoro
+
+>[!IMPORTANT]
+>
+>Puoi sovrascrivere le tariffe di fatturazione associate alle mansioni o agli utenti a livello di progetto. Non è possibile sostituire le tariffe fisse.
+
+A livello di progetto, puoi:
+
+* Sostituisci una tariffa di fatturazione per una mansione (con attributi applicati, ad esempio ubicazione, gruppo o agenzia).
+* Sostituisci una tariffa di fatturazione per un utente specifico su quel progetto.
+
+Le sostituzioni delle tariffe di fatturazione non sono generiche. Ad esempio, non è possibile ignorare &quot;Designer&quot; come ruolo. Al contrario, sostituisci &quot;Designer - New York - Agenzia X&quot; per il periodo di validità della data pertinente. Le sostituzioni rispettano la gerarchia delle tariffe di fatturazione, pertanto il sistema le applica sempre in ordine di precedenza.
+
+</div>
+
+### Sostituisci tariffe di fatturazione - tutti gli altri pacchetti
 
 >[!IMPORTANT]
 >
@@ -95,7 +125,7 @@ Per ulteriori informazioni sulle modalità di utilizzo delle tariffe di fatturaz
 
 * Un progetto specifico
 
-  Per ulteriori informazioni sulla creazione di tariffe di fatturazione della mansione specifiche per un progetto, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione della mansione e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Per ulteriori informazioni sulla creazione di tariffe di fatturazione della mansione specifiche per un progetto, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Tracciare gli importi dei ricavi
 
@@ -135,10 +165,6 @@ Non è possibile visualizzare la Retribuzione effettiva a livello di problema, m
 
 *Per le ore effettive, le tariffe dell’utente si riferiscono sempre all’utente che registra le ore o alle tariffe delle sue mansioni. Per informazioni su quando Workfront utilizza le tariffe dell&#39;utente e quando utilizza le tariffe delle mansioni, vedere la sezione [Calcoli ricavi](#revenue-calculations) in questo articolo.
 
-<!--Note from the table for Planned Revenue line: 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    -->
-
 Ad esempio, se un&#39;attività con Tipo di retribuzione oraria utente è pianificata in modo da richiedere 2 ore e l&#39;utente a essa assegnato ha una tariffa oraria di $ 30 all&#39;ora, la retribuzione pianificata dell&#39;attività è di $ 60. Al termine dell’attività, se l’utente registra solo 1,5 ore come tempo effettivo trascorso per terminarla, l’importo del Ricavo effettivo è pari a $ 45. Se un altro utente non assegnato all’attività registra l’ora, la Retribuzione effettiva viene calcolata in base alle tariffe di fatturazione dell’utente.
 
 È possibile registrare i ricavi nei modi seguenti:
@@ -155,14 +181,20 @@ Ad esempio, se un&#39;attività con Tipo di retribuzione oraria utente è pianif
 
 ## Panoramica sui tipi di retribuzione delle attività {#overview-of-task-revenue-types}
 
-Per impostazione predefinita, il Tipo di retribuzione di tutte le nuove attività viene impostato in base alle Preferenze attività e problemi specificate dall&#39;amministratore del Workfront o del gruppo.\
+Per impostazione predefinita, il Tipo di retribuzione per tutte le nuove attività viene impostato in base alle Preferenze attività e problema specificate dall’amministratore del Workfront o del gruppo.
+
 Per ulteriori informazioni sulla definizione delle preferenze per attività e problemi per l&#39;istanza di Workfront, vedere l&#39;articolo [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Il proprietario del progetto può modificare il tipo di retribuzione delle attività e il tipo di retribuzione fissa per i progetti.\
-Per ulteriori informazioni su come specificare il reddito fisso di un progetto, vedere l&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).\
-Per ulteriori informazioni su come specificare il tipo di retribuzione di un&#39;attività, vedere l&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Il proprietario del progetto può modificare il tipo di ricavi delle attività e il reddito fisso dei progetti.
 
-È possibile applicare i tipi di retribuzione seguenti alle attività o ai progetti:
+Per ulteriori informazioni sull&#39;impostazione del reddito fisso di un progetto, vedere l&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni sull&#39;impostazione del tipo di retribuzione di un&#39;attività, vedere l&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+>[!NOTE]
+>
+><span class="preview">È necessario disporre del pacchetto Ultimate del flusso di lavoro per disporre del tipo di reddito Orario utente e Ruolo.</span>
+
+Puoi applicare i seguenti tipi di ricavi alle attività o ai progetti:
 
 <table border="1" cellspacing="15"> 
  <col> 
@@ -191,6 +223,10 @@ Questo è il Tipo di Reddito predefinito quando si crea un&#39;attività.</p> </
    <td> <p>Questo tipo può essere utilizzato solo per le attività.</p> <p>Questo tipo è simile a Ore utente, ma utilizza tassi di ruolo anziché tassi utente.</p> <p><strong>NOTA</strong><br>Una mansione può anche avere più tariffe di fatturazione con date di validità.</p></td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">Orario per utente e mansione</span></p> </td> 
+   <td> <p><span class="preview">Questo tipo può essere utilizzato solo per le attività.</span></p> <p><span class="preview">Questo tipo esamina le informazioni relative sia all'utente che al ruolo per determinare la frequenza appropriata.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>Ore utente con limite</p> </td> 
    <td> <p>Questo tipo può essere utilizzato solo per le attività.</p> <p>Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un massimale che puoi specificare. <br>Ad esempio, se la tariffa di fatturazione di un utente è di $25, ma l'importo limite per l'attività è di $20 e l'utente registra un'ora, la retribuzione effettiva per l'attività è di $20. </p> </td> 
   </tr> 
@@ -199,6 +235,10 @@ Questo è il Tipo di Reddito predefinito quando si crea un&#39;attività.</p> </
    <td> <p>Questo tipo può essere utilizzato solo per le attività.</p> <p>Questo tipo è simile a Ore utente con limite, ma utilizza tassi di ruolo anziché tassi utente. </p> </td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">Ore utente e ruolo con limite</span></p> </td> 
+   <td> <p><span class="preview">Questo tipo può essere utilizzato solo per le attività.</span></p> <p><span class="preview">Le attività vengono fatturate ogni ora come in Ore utente e Ruolo, ma hanno un tetto massimo che puoi specificare.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>Ore Utente più Fisso</p> </td> 
    <td> <p>Questo tipo può essere utilizzato solo per le attività. </p> <p>Le attività vengono fatturate ogni ora come in Ore utente, ma hanno un importo fisso che puoi aggiungere alla tariffa utente. L'importo fisso specificato per l'attività può essere incluso nei record di fatturazione per il progetto. L'importo fisso non viene moltiplicato per le ore dell'attività. Solo la tariffa di fatturazione dell’utente lo fa. </p> </td> 
   </tr> 
@@ -206,6 +246,10 @@ Questo è il Tipo di Reddito predefinito quando si crea un&#39;attività.</p> </
    <td> <p>Ore Ruolo più Fisso</p> </td> 
    <td> <p>Questo tipo può essere utilizzato solo per le attività. </p> <p>Le attività vengono fatturate ogni ora come in Ore Ruolo, ma dispongono di un importo fisso aggiuntivo che è possibile aggiungere alla tariffa del ruolo. L'importo fisso specificato per l'attività può essere incluso nei record di fatturazione per il progetto. L'importo fisso non viene moltiplicato per le ore dell'attività. Solo la tariffa di fatturazione della mansione lo fa. </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p><span class="preview">Orario per utente e mansione più fisso</span></p> </td> 
+   <td> <p><span class="preview">Questo tipo può essere utilizzato solo per le attività.</span></p> <p><span class="preview">Le attività vengono fatturate ogni ora come nelle Ore Utente e Ruolo, ma hanno un importo fisso aggiuntivo che puoi aggiungere alla tariffa. L'importo fisso specificato per l'attività può essere incluso nei record di fatturazione per il progetto. L'importo fisso non viene moltiplicato per le ore dell'attività.</span></p></td> 
+  </tr>
   <tr> 
    <td> <p>Ore Fisse</p> </td> 
    <td> <p>Questo tipo può essere utilizzato solo per le attività.</p> <p>L'importo massimo o fisso impostato per l'attività moltiplicato per il numero di ore immesse per l'attività (indipendentemente dall'utente o dalle mansioni) corrisponde all'importo di fatturazione.</p> </td> 
@@ -236,6 +280,7 @@ Per ulteriori informazioni sui tipi di lavoro, vedere l&#39;articolo [Gestione d
 ## Calcoli dei ricavi
 
 * [Calcolo dei ricavi per le attività in base alle assegnazioni di utenti e ruoli](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)
+* [Calcolo ricavi per progetti](#revenue-calculations-for-projects)
 
 ### Calcolo dei ricavi per le attività in base alle assegnazioni di utenti e ruoli {#revenue-calculations-for-tasks-based-on-user-and-role-assignments}
 
@@ -246,9 +291,17 @@ Quando si calcolano i ricavi per un&#39;attività, tenere presente quanto segue:
 * Per il ricavo effettivo, se l&#39;utente o la mansione dispone di più tariffe di fatturazione con date di validità, il ricavo dell&#39;attività è la somma dei ricavi di ogni periodo di tempo in cui l&#39;utente ha registrato il tempo. Il reddito pianificato si basa sulle ore pianificate per i periodi di tempo.
 * In caso di più assegnatari sulle attività, gli scenari descritti di seguito si applicano a ciascun assegnatario.
 
-Esiste una gerarchia del tasso utilizzato nei calcoli dei ricavi in base alle assegnazioni delle attività.
+Il sistema utilizza una gerarchia per determinare quale tasso viene utilizzato nei calcoli dei ricavi in base alle assegnazioni delle attività.
 
 Se l&#39;amministratore di Workfront ha abilitato l&#39;impostazione **Assegna mansioni alle ore manualmente** nell&#39;area Preferenze schede orario e ore e l&#39;ora di accesso dell&#39;utente al progetto seleziona un ruolo diverso da associare a questo orario, la Retribuzione effettiva dell&#39;attività o del progetto viene sempre calcolata in base al ruolo associato all&#39;ora. Per informazioni sull&#39;abilitazione dell&#39;ora di registrazione per una mansione specifica, vedere l&#39;articolo [Configurare le preferenze di ora e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+<div class="preview">
+
+Per il tipo di ricavi Orario utente e Ruolo, è possibile definire una mansione per la fatturazione sia a livello di progetto che a livello di assegnazione. Se è definito a livello di progetto per un utente specifico, tale ruolo si propaga automaticamente a tutte le assegnazioni dell&#39;utente durante il periodo di validità della data per il quale è stato applicato. Se necessario, è comunque possibile sostituire questo tasso a livello di assegnazione. Ad esempio, la mansione principale di un utente è Designer, ma hai impostato la sua mansione per la fatturazione su un progetto come Senior Designer per il mese di agosto. Tutte le attività a cui sono assegnati in agosto utilizzeranno automaticamente la tariffa di fatturazione Senior Designer.
+
+Tuttavia, per un&#39;attività specifica, è possibile sostituire il ruolo solo per tale assegnazione, in modo da riflettere il lavoro fatturato. In questo modo, il sistema supporta la coerenza a livello di progetto e la flessibilità a livello di assegnazione. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia ricavi e costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) e [Creare assegnazioni avanzate](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+</div>
 
 Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base al tipo di ricavi e alla natura dell&#39;assegnazione delle attività:
 
@@ -270,21 +323,22 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
      <td>0,00 $</td> 
      <td> Se un utente ha una tariffa di fatturazione nel suo profilo, questa viene utilizzata per calcolare la Retribuzione Pianificata. In caso contrario, viene utilizzata la tariffa di fatturazione del sistema per la mansione principale. <br><p><b>NOTA</b> L'utente può essere assegnato all'attività con una delle sue mansioni secondarie, ma in questo caso viene utilizzata la frequenza della mansione principale.</p><p>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicati i tassi corretti.</p></td> 
-     <td><p><span class="preview">Se al progetto è allegata una scheda tariffa, la Retribuzione pianificata viene calcolata in base alla mansione dalla scheda tariffa.</span></p> <p><span class="preview">Le tariffe di fatturazione possono essere sostituite a livello di progetto.</span></p></td> 
+     <td>La tariffa di fatturazione di sistema della mansione assegnata all'attività viene utilizzata per calcolare la Retribuzione pianificata. Le tariffe di fatturazione possono essere sostituite a livello di progetto.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria fatturazione per retribuzione effettiva</td> 
-     <td>Se l’utente che registra le ore ha una tariffa di fatturazione nel suo profilo, viene utilizzata tale tariffa. 
-     <br><span class="preview">Quando si registra l'ora per un utente o un ruolo che dispone di un'assegnazione specifica della posizione nelle assegnazioni avanzate, viene utilizzata la tariffa della posizione.</span>
+     <td>Se l’utente che registra le ore ha una tariffa di fatturazione nel suo profilo, viene utilizzata tale tariffa.
      <br>In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale. Se all'utente o al suo ruolo principale non è associata alcuna tariffa di fatturazione, il Ricavo effettivo è pari a $0,00. <br><p><b>NOTA</b>
 
   Ai fini del calcolo, vengono prese in considerazione solo le tariffe associate all&#39;utente che registra l&#39;ora, anche quando un altro utente è assegnato all&#39;attività.</p></td>
-  <td>Se l’utente che registra le ore ha una tariffa di fatturazione nel suo profilo, viene utilizzata tale tariffa. <br><span class="preview">Quando si registra l'ora per un utente o un ruolo che dispone di un'assegnazione specifica della posizione nelle assegnazioni avanzate, viene utilizzata la tariffa della posizione.</span><br>In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale. Se all'utente o al suo ruolo principale non è associata alcuna tariffa di fatturazione, il Ricavo effettivo è pari a $0,00. <br><p><b>NOTA</b>
+
+  <td>Se l’utente che registra le ore ha una tariffa di fatturazione nel suo profilo, viene utilizzata tale tariffa. <br>In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale. Se all'utente o al suo ruolo principale non è associata alcuna tariffa di fatturazione, il Ricavo effettivo è pari a $0,00. <br><p><b>NOTA</b>
 
   Ai fini del calcolo, vengono prese in considerazione solo le tariffe associate all&#39;utente che registra l&#39;ora, anche quando un altro utente è assegnato all&#39;attività.</p></td>
+
   <td>Se l’utente che registra le ore ha una tariffa di fatturazione nel suo profilo, viene utilizzata tale tariffa. In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale.<br><p><b>NOTA</b>
 
-  Se al tempo di registrazione dell&#39;utente non è associata alcuna tariffa di fatturazione e l&#39;utente non dispone di una mansione o di una tariffa di fatturazione per la propria mansione, viene utilizzata la tariffa della mansione associata all&#39;attività. Se non esiste una tariffa di fatturazione per questa mansione, il ricavo è pari a $ 0,00</p></td>
+  Se al tempo di registrazione dell&#39;utente non è associata alcuna tariffa di fatturazione e l&#39;utente non dispone di una mansione o di una tariffa di fatturazione per la propria mansione, viene utilizzata la tariffa della mansione associata all&#39;attività. Se non esiste una tariffa di fatturazione per questa mansione, il ricavo è pari a $ 0,00.</p></td>
   </tr> 
    </tbody> 
   </table>
@@ -307,69 +361,27 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
      <td>0,00 $</td> 
      <td><p>Workfront esamina il ruolo che l’utente svolge nell’attività per calcolare la Retribuzione Pianificata. <br>Se l'utente non è associato ad alcun ruolo nell'attività, il ricavo è $0,00.</p> <p><strong>NOTA</strong><br>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicate le tariffe corrette.</p> </td> 
-     <td><p><span class="preview">Se al progetto è allegata una scheda tariffa, la Retribuzione pianificata viene calcolata in base alla mansione dalla scheda tariffa.</span></p> <p><span class="preview">Le tariffe di fatturazione possono essere sostituite a livello di progetto.</span></p></td> 
+     <td>La tariffa di fatturazione della mansione assegnata all'attività viene utilizzata per calcolare la Retribuzione pianificata. Le tariffe di fatturazione possono essere sostituite a livello di progetto.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria fatturazione per retribuzione effettiva</td> 
-     <td>Workfront utilizza la tariffa di fatturazione della mansione principale dell’utente che registra l’ora. <br><span class="preview">Quando si registra l'ora per un utente o un ruolo che dispone di un'assegnazione specifica della posizione nelle assegnazioni avanzate, viene utilizzata la tariffa della posizione.</span> <br>Se all'utente che registra l'ora non è associata alcuna mansione o se alla mansione principale non è associata alcuna tariffa di fatturazione, il reddito effettivo è pari a $0,00. </td> 
-     <td> Se l'utente che registra l'ora è assegnato all'attività, la tariffa di fatturazione della mansione associata all'utente sull'attività viene utilizzata per calcolare la Retribuzione effettiva. <br><span class="preview">Quando si registra l'ora per un utente o un ruolo che dispone di un'assegnazione specifica della posizione nelle assegnazioni avanzate, viene utilizzata la tariffa della posizione.</span> <br>In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale. Se l'utente non ha una mansione principale o se la mansione principale non ha una tariffa di fatturazione, il reddito effettivo è pari a $0,00. </td> 
+     <td>Workfront utilizza la tariffa di fatturazione della mansione principale dell’utente che registra l’ora. <br>Se all'utente che registra l'ora non è associata alcuna mansione o se alla mansione principale non è associata alcuna tariffa di fatturazione, la retribuzione effettiva è di $0,00. </td> 
+     <td> Se l'utente che registra l'ora è assegnato all'attività, la tariffa di fatturazione della mansione associata all'utente sull'attività viene utilizzata per calcolare la Retribuzione effettiva. <br>In caso contrario, viene utilizzata la tariffa di fatturazione della mansione principale. Se l'utente non ha una mansione principale o se la mansione principale non ha una tariffa di fatturazione, il reddito effettivo è pari a $0,00. </td> 
      <td>Se una delle mansioni dell’utente che registra l’ora è assegnata all’attività, viene utilizzata la frequenza di tali mansioni. Se la mansione assegnata all'attività non è associata all'utente che registra l'ora, per calcolare la Retribuzione effettiva viene utilizzata la tariffa di fatturazione del ruolo principale dell'utente. Se l'utente non dispone di una mansione o non è presente alcuna tariffa associata alla mansione principale, viene utilizzata la tariffa della mansione assegnata all'attività. </td> 
     </tr> 
    </tbody> 
   </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Ideal table but does not come across Markdown</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<tbody>
-<tr>
-<td colspan="3">Revenue Type = User Hourly</td>
-<td colspan="4">Revenue Type = Role Hourly</td>
-</tr>
-<tr>
-<td> <p> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Planned Revenue</strong> </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><note type="note">
-The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.
-</note></p> </td>
-<td> <p> The system billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p>Workfront looks at the job role that the user fulfills on the task to calculate the Planned Revenue. <br>If the user is not associated with any role on the task, the Revenue is $0.00. </p> </td>
-<td> <p>The billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> <p> </p> <p> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Actual Revenue</strong> </p> </td>
-<td colspan="2"> <p>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><note type="note">
-Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.
-</note></p> </td>
-<td> If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><note type="note">
-If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00
-</note></td>
-<td> <p>Workfront uses the billing rate of the primary job role of the user logging the time. <br>If the user logging the time has no job role associated with them, or if the primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p> If the user logging the time is assigned to the task, the billing rate of the job role associated with the user on the task is used to calculate the Actual Revenue. Otherwise, the billing rate of their primary job role is used. If the user has no primary job role or if their primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p>If one of the job roles of the user logging the time is assigned to the task, that job role rate is used. If the job role assigned to the task is not associated with the user logging the time, then the billing rate of the primary role of the user is used to calculate the Actual Revenue. If the user does not have a job role or there is no rate associated with their primary job role, then the rate of the job role assigned to the task is used. </p> </td>
-</tr>
-</tbody>
-</table>
+<div class="preview">
+
+* **Il tipo di retribuzione dell&#39;attività è Ore Utente e Ruolo**
+
+| Tariffa di fatturazione oraria | Nessuna assegnazione | Assegnazione utente | Assegnazione ruolo |
+| --- | --- | --- | --- |
+| Tariffa oraria di fatturazione per la retribuzione pianificata | 0,00 $ | Quando un utente viene assegnato, il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportati un tasso di cambio bloccato, un tasso inserito manualmente sull&#39;assegnazione, il Ruolo per fatturazione sull&#39;assegnazione, la sostituzione della tariffa di fatturazione dell&#39;utente a livello di progetto, il Ruolo per fatturazione a livello di progetto, la tariffa del sistema utente e la tariffa del ruolo principale dell&#39;utente. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando viene assegnata una mansione, il sistema cerca prima una tariffa di fatturazione mantenuta, quindi una tariffa a schede bloccata per la mansione nell&#39;assegnazione. Quindi cerca una percentuale di mansioni aggiunta manualmente sull’assegnazione. Se tale tariffa non viene trovata, cerca una tariffa per mansioni a livello di progetto, prima da una scheda tariffa e quindi dalla tariffa di sistema. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Tariffa oraria fatturazione per retribuzione effettiva | Ai fini del calcolo, vengono prese in considerazione solo le tariffe associate all&#39;utente che registra l&#39;ora, anche quando un altro utente è assegnato all&#39;attività. <p> Il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportate una tariffa bloccata, una sostituzione della tariffa di fatturazione sul progetto, la mansione per la fatturazione, la tariffa a livello di sistema sul profilo utente del proprietario e la tariffa di fatturazione della mansione principale del proprietario. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando un utente viene assegnato, il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportati un tasso di cambio bloccato, un tasso inserito manualmente sull&#39;assegnazione, il Ruolo per fatturazione sull&#39;assegnazione, la sostituzione della tariffa di fatturazione dell&#39;utente a livello di progetto, il Ruolo per fatturazione a livello di progetto, la tariffa del sistema utente e la tariffa del ruolo principale dell&#39;utente. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando viene assegnata una mansione, il sistema cerca prima una tariffa di fatturazione mantenuta, quindi una tariffa a schede bloccata per la mansione nell&#39;assegnazione. Quindi cerca una percentuale di mansioni aggiunta manualmente sull’assegnazione. Se tale tariffa non viene trovata, cerca una tariffa per mansioni a livello di progetto, prima da una scheda tariffa e quindi dalla tariffa di sistema. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+
 </div>
--->
 
 ### Calcolo ricavi per progetti
 

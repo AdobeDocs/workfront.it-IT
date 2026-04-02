@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 14%
+source-wordcount: '1555'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso correnti. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+> Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso precedenti, consulta [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
@@ -32,7 +32,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 >[!NOTE]
 >
 >* Questo articolo descrive le funzionalità disponibili per i livelli di accesso nel nuovo modello di pacchetto Workfront. Per visualizzare le funzionalità disponibili nel modello di pacchetto corrente, vedere [Funzionalità disponibili per ogni tipo di oggetto per vari livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Per un elenco delle funzionalità disponibili per i diversi pacchetti del modello più recente, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/it/products/workfront/pricing.html).
+>* Per un elenco delle funzionalità disponibili per i diversi pacchetti del modello più recente, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Progetti
 
@@ -59,6 +59,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Gestire i rischi | ✓ |   |   |   |
 | Gestisci dati finanziari | ✓ |   |   |   |
 | Aggiungi/modifica spese | ✓ |   |   |   |
+| <span class="preview">Allegare una scheda tariffa</span> | ✓ |   |   |   |
 | Allega modelli | ✓ |   |   |   |
 | Salva come modello | ✓ |   |   |   |
 | Aggiungere/modificare un caso di business | ✓ |   |   |   |
@@ -256,6 +257,36 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 ## Utenti
 
+<div class="preview">
+
+Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
+
+| Azione | Standard | Light | Collaboratore | Utente esterno** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| Crea | ✓* |   |   |   |
+| Elimina | ✓* |   |   |   |
+| Modifica tariffe di fatturazione | ✓* |   |   |   |
+| Modifica informazioni di contatto | ✓* |   |   |   |
+| Modifica tariffe di costo | ✓* |   |   |   |
+| Modifica dati finanziari generali | ✓* |   |   |   |
+| Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente | ✓* |   |   |   |
+| Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano | ✓* |   |   |   |
+| Visualizza utenti | ✓ | ✓ | ✓ |   |
+| Visualizza informazioni di contatto | ✓ | ✓ | ✓ |   |
+| Visualizza tariffe di fatturazione | ✓* |   |   |   |
+| Visualizza tariffe di costo | ✓* |   |   |   |
+| Visualizza dati finanziari generale | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
+
+&#42;&#42;Gli utenti esterni possono cercare solo altri utenti.
+
+</div>
+
+Nell’ambiente di produzione sono disponibili le seguenti opzioni:
+
 | Azione | Standard | Light | Collaboratore | Utente esterno** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Crea | ✓* |   |   |   |
@@ -270,6 +301,63 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 &#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
 
 &#42;&#42;Gli utenti esterni possono cercare solo altri utenti.
+
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## Team
 
@@ -306,6 +394,34 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 Solo gli utenti con una licenza Standard possono avere accesso completo ai dati finanziari.
 
+<div class="preview">
+
+Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
+
+| Azione | Standard | Light | Collaboratore | Utente esterno |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| Modifica tariffe di fatturazione | ✓&#42; |   |   |   |
+| Modifica tariffe di costo | ✓&#42; |   |   |   |
+| Modifica dati finanziari generali | ✓&#42; |   |   |   |
+| Visualizza tariffe di fatturazione | ✓&#42; | ✓&#42; |   |   |
+| Visualizza tariffe di costo | ✓&#42; | ✓&#42; |   |   |
+| Visualizza dati finanziari generale | ✓&#42; | ✓&#42; |   |   |
+| Gestire i record di fatturazione | ✓ |   |   |   |
+| Gestire le spese | ✓ |   |   |   |
+| Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
+| Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |   |
+| Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ |   |   |
+| Creare rischi nei progetti | ✓ |   |   |   |
+| Visualizzare i rischi sui progetti | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
+
+</div>
+
+Nell’ambiente di produzione sono disponibili le seguenti opzioni:
+
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifica fatturazione mansioni e tassi di costo | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 | Gestire i record di fatturazione | ✓ |   |   |   |
 | Gestire le spese | ✓ |   |   |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Gestione schede tariffarie</span> | ✓ |   |   |   |
 | Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
 | Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |   |
 | Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ |   |   |
@@ -367,6 +482,26 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 >Gli utenti possono visualizzare un piano creato da un altro utente solo se con essi è condiviso un collegamento al piano.
 
 &#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un&#39;iniziativa, è necessario che abbiano accesso ai dati finanziari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+<div class="preview">
+
+## Schede tariffa
+
+Solo gli utenti con una licenza Standard possono avere accesso completo alle schede di tariffa.
+
+| Azione | Standard | Light | Collaboratore | Utente esterno |
+|-------------------|------------|---------|---------------|---------------|
+| Visualizzazione | ✓ | ✓ |   |   |
+| Modifica | ✓ |   |   |   |
+| Crea | ✓* |   |   |   |
+| Elimina | ✓* |   |   |   |
+| Condividi | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
+
+</div>
 
 ## Area Obiettivi Workfront
 

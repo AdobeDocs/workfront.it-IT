@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -34,10 +34,10 @@ In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td>Any</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
     <p>Standard</p>
    <p>Piano</p>
@@ -50,7 +50,7 @@ In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,13 +61,18 @@ Quando consenti agli utenti di accedere ai dati finanziari in Workfront, conside
 * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
 * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può creare un rischio per un progetto. Per ulteriori informazioni, vedere [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * È inoltre possibile utilizzare un livello di accesso per determinare quali attività di gestione delle risorse un utente può utilizzare per preventivare o visualizzare l&#39;allocazione delle risorse. Per informazioni, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview">L&#39;accesso alle tariffe di fatturazione, ai tassi di costo e alla finanza generale è separato, consentendo un controllo più preciso per diversi ruoli utente che gestiscono dettagli finanziari complessi. La contabilità generale è costituita da dati finanziari aggiuntivi che non includono fatturazione e tassi di costo.</span>
 
 ## Configurare l’accesso degli utenti ai dati finanziari utilizzando un livello di accesso personalizzato
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Dati finanziari, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Ottimizzare l&#39;accesso ai dati finanziari](assets/financial-data-access-fine-tune.png)
+
+   Immagine di esempio nell’ambiente di produzione:
+   ![Ottimizzare l&#39;accesso ai dati finanziari](assets/financial-data-fine-tune-nwe.png)
 
 1. (Facoltativo) Nell&#39;area **Consenti accesso amministrativo per**, selezionare le opzioni seguenti:
 
@@ -126,24 +131,18 @@ Un utente che non ha accesso ai dati finanziari non ha accesso ai seguenti eleme
 
 * Sezione Finanza in Oggetti progetto e attività
 * Business case
-* Tariffe di fatturazione e record di fatturazione
-* <span class="preview">Classifica schede</span>
-* Costo orario e fatturazione all&#39;ora in base alle preferenze utente
-
-  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
-
+* Tariffe di fatturazione e record di fatturazione sui progetti
+* Costo all’ora e fatturazione all’ora sui profili utente
 * Costo orario e fatturazione all&#39;ora per le mansioni
 
-  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
-
-### Visualizza accesso
+### Accesso in visualizzazione
 
 Un utente con accesso di visualizzazione ai dati finanziari può visualizzare (non modificare) quanto segue:
 
 * Sezione Finanza in Oggetti progetto e attività
 * Business case
-* Tariffe di fatturazione e record di fatturazione
-* Costo orario e fatturazione all&#39;ora in base alle preferenze utente
+* Tariffe di fatturazione e record di fatturazione sui progetti
+* Costo all’ora e fatturazione all’ora sui profili utente
 
   È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
@@ -151,15 +150,14 @@ Un utente con accesso di visualizzazione ai dati finanziari può visualizzare (n
 
   È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
-### Modifica accesso
+### Accesso per la modifica
 
 L’utente con accesso in modifica ai dati finanziari può visualizzare e modificare quanto segue:
 
 * Sezione Finanza in Oggetti progetto e attività
 * Business case
-* Tariffe di fatturazione e record di fatturazione
-* <span class="preview">Classifica schede</span>
-* Costo orario e fatturazione all&#39;ora in base alle preferenze utente
+* Tariffe di fatturazione, record di fatturazione e tassi di costo per i progetti
+* Costo all’ora e fatturazione all’ora sui profili utente
 
   È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.
 

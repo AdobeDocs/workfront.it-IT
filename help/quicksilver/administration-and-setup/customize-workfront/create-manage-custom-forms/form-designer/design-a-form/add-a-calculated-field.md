@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
 workflow-type: tm+mt
-source-wordcount: '2506'
-ht-degree: 1%
+source-wordcount: '2714'
+ht-degree: 9%
 
 ---
 
 # Aggiungere campi calcolati a un modulo
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 È possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
 
@@ -56,7 +58,7 @@ Un campo personalizzato calcolato può contenere:
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -104,22 +106,22 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. (Condizionale) Fare clic su **Verifica la presenza di conflitti** per esaminare tutti gli oggetti che potrebbero essere interessati dalla modifica della formula nel campo calcolato.
 
-   Se a un oggetto sono allegati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. La modifica della formula non è consentita se la modifica potrebbe causare un conflitto.
+   Se a un oggetto sono associati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. Modificare una formula non è consentito se può causare un conflitto.
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi.
 
    >[!NOTE]
    >
-   >È possibile aggiungere fino a 500 campi e widget in un singolo modulo personalizzato. Tuttavia, il calo delle prestazioni può verificarsi quando in un modulo esistono più di 100 moduli, a seconda della complessità.
+   >In un singolo modulo personalizzato puoi aggiungere fino a 500 campi. Tuttavia, se in un modulo sono presenti più di 100 campi, potrebbe verificarsi un calo delle prestazioni a seconda della complessità.
    >
    >
-   >Esempi di moduli complessi includono moduli con parametri a catena, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
+   >Esempi di moduli complessi includono moduli con parametri a cascata, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
 
-1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un’altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Fare clic su **Salva e chiudi**.
+   Fai clic su **Salva e chiudi**.
 
 ## Aggiungi un nuovo campo calcolato
 
@@ -137,9 +139,9 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Sul lato sinistro della schermata, trovare **Calcolato** e trascinarlo in una sezione dell&#39;area di lavoro.
 
-   ![Trascina campo nella sezione](assets/drag-field-to-section.png)
+   ![Trascina il campo nella sezione](assets/drag-field-to-section.png)
 
-1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
+1. Sul lato a destra della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -167,7 +169,23 @@ Per riutilizzare un campo personalizzato calcolato esistente:
      </tr> 
      <tr>
       <td>Attivo</td>
-      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+      <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Autorizzazione automatica</span></td>
+      <td><span class="preview"><p>Attivare questa opzione per consentire alle autorizzazioni per la contabilità di provenire automaticamente dai campi utilizzati nella formula. Le definizioni di autorizzazione sono visualizzate nel campo Tipo di autorizzazione per la contabilità, di seguito.</p><p>L'accesso è obbligatorio per tutti i campi della formula. Ad esempio, se due campi vengono utilizzati in un campo calcolato e a uno di essi è applicata l’autorizzazione di fatturazione e al secondo è applicata l’autorizzazione di costo, l’utente deve disporre delle autorizzazioni per visualizzare sia la fatturazione che le tariffe per visualizzare il valore calcolato.</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
+      <td><p><span class="preview">Quando il campo Autorizzazione automatica è disattivato, è possibile selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare il campo personalizzato. Qualsiasi formato è consentito per i campi calcolati. I campi utilizzati nella formula determinano se il campo è attivo. Se il campo delle autorizzazioni è vuoto, i campi della formula non supportano le autorizzazioni per la contabilità.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
+      <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
+      <li><p><strong>Fatturazione:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione</p></li>
+      <li><p><strong>Costo:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe</p></li>
+      </ul>
+      <p><span class="preview">Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>
@@ -329,8 +347,8 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
     </tbody> 
    </table>
 
-1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un’altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Fare clic su **Salva e chiudi**.
+   Fai clic su **Salva e chiudi**.

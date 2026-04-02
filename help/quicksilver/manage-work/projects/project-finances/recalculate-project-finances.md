@@ -6,20 +6,20 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 2%
 
 ---
 
-# Ricalcolare i dati finanziari del progetto
+# Ricalcolare le finanze di progetto
 
 I dati finanziari vengono calcolati su un progetto in base alle modifiche apportate alle ore registrate per il progetto o ai tassi utilizzati per calcolare costi e ricavi.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ I dati finanziari vengono calcolati su un progetto in base alle modifiche apport
    <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -40,7 +40,7 @@ I dati finanziari vengono calcolati su un progetto in base alle modifiche apport
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ I tassi di ricavi possono variare ai seguenti livelli:
   Per ulteriori informazioni, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello aziendale](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Livello Progetto (per mansioni)\
-  Per ulteriori informazioni sull&#39;override delle tariffe dei ruoli a livello di progetto, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Per ulteriori informazioni sulla sostituzione delle tariffe per i ruoli a livello di progetto, vedere l&#39;articolo [Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Ad esempio, la tariffa di fatturazione di un utente cambia durante il corso di un progetto da $ 50 a $ 75 all’ora e desideri che tutti i dati esistenti rimangano calcolati alla tariffa precedente ($ 50 e ora). Tuttavia, quando i dati finanziari del progetto vengono ricalcolati, per le attività che dispongono già di dati finanziari esistenti i ricavi vengono aggiornati in modo da riflettere la nuova tariffa di fatturazione (di $ 75 all&#39;ora).
 
@@ -112,7 +112,7 @@ Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#
 
 Quando le tariffe di fatturazione cambiano per le mansioni a livello di progetto, puoi mantenere i ricavi esistenti che sono già stati calcolati sul progetto utilizzando più sostituzioni di tariffe di fatturazione che sono bloccate entro un intervallo di tempo specificato.
 
-Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di fatturazione, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi in un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di fatturazione, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione e sul calcolo delle entrate in un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >

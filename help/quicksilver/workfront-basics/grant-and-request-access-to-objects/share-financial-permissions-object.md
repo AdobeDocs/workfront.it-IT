@@ -6,14 +6,18 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 17%
 
 ---
 
 # Condividere le autorizzazioni finanziarie su un oggetto
+
+{{highlighted-preview}}
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -23,7 +27,8 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,7 +69,7 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Piano</p> 
    </td> 
@@ -74,13 +79,14 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
    <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi e dati finanziari</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno le autorizzazioni Visualizza informazioni finanziarie</p></td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno le autorizzazioni Visualizza informazioni finanziarie</p>
+   <p><span class="preview">Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno Visualizza tariffe di fatturazione, Visualizza tariffe di costo o Visualizza autorizzazioni di contabilità generale</span></p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,12 +95,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 Quando si concedono autorizzazioni finanziarie agli oggetti, tenere presente quanto segue:
 
 * Puoi concedere autorizzazioni finanziarie a progetti, attività e problemi.
-* Le autorizzazioni possono essere ereditate: se si dispone delle autorizzazioni Visualizza contabilità per un progetto, si ereditano automaticamente le autorizzazioni Visualizza contabilità per le attività e i problemi del progetto.
+* Le autorizzazioni possono essere ereditate: se si dispone delle autorizzazioni Visualizza contabilità generale per un progetto, si ereditano automaticamente le autorizzazioni Visualizza contabilità generale per le attività e i problemi del progetto.
 
 Per concedere autorizzazioni finanziarie a un oggetto:
 
 1. Passare a un&#39;attività, un progetto o un problema che si desidera condividere con altri utenti.
-1. Accanto al nome dell&#39;oggetto fare clic sul menu Altro ![](assets/more-icon.png), quindi su **Condivisione**.
+1. Fare clic su **Condividi** accanto al nome dell&#39;oggetto.
 
 1. Nel campo **Concedi a `<Object name>` l&#39;accesso a** inizia a digitare il nome di un utente, un team, una mansione, un gruppo o un&#39;azienda con cui desideri condividere l&#39;oggetto.
 
@@ -102,16 +108,18 @@ Per concedere autorizzazioni finanziarie a un oggetto:
    >
    >Puoi condividere un oggetto solo con utenti attivi, team, ruoli o aziende.
 
-1. Se viene visualizzato un menu a discesa a destra del nome selezionato, fare clic su una delle opzioni disponibili:
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona una delle seguenti opzioni:
 
    * **Visualizza**
    * **Contribuisci**
    * **Gestisci**
 
-1. Nello stesso menu a discesa, fare clic su **Impostazioni avanzate**, quindi eseguire una delle operazioni seguenti:
+1. Nello stesso menu a discesa, fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione, quindi effettua una delle seguenti operazioni:
 
    * Se hai selezionato una delle tre opzioni del passaggio precedente, assicurati che sia selezionato **Visualizza contabilità**.
    * Se hai selezionato **Gestisci contabilità** nel passaggio precedente, assicurati che sia selezionato **Gestisci contabilità**.
+   * <span class="preview">Per qualsiasi livello di autorizzazione, selezionare **Visualizza tariffe di fatturazione**, **Visualizza tariffe di costo** e **Visualizza contabilità generale** in base alle esigenze.</span>
+   * <span class="preview">Solo per le autorizzazioni **Gestisci**, seleziona **Modifica tariffe di fatturazione**, **Modifica tariffe** e **Modifica contabilità generale** in base alle esigenze.</span>
 
 1. Fai clic su **Salva**.
 
@@ -153,6 +161,42 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
   </tr> 
   <tr> 
    <td>Visualizza dati finanziari</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Modifica tariffe di fatturazione</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Modifica tariffe di costo</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Modifica dati finanziari generali</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Visualizza tariffe di fatturazione</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Visualizza tariffe di costo</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Visualizza dati finanziari generale</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

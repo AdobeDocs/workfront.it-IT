@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 2%
+source-wordcount: '1228'
+ht-degree: 5%
 
 ---
 
 # Personalizzare il pannello sinistro utilizzando un modello di layout
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -46,10 +48,10 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
    <td><p>Qualsiasi</p>
-       <p>L’aggiunta di applicazioni personalizzate al menu principale è disponibile solo per le organizzazioni con licenza per Adobe App Builder.</p></td> 
+       <p>L’aggiunta di applicazioni personalizzate al pannello a sinistra è disponibile solo per le organizzazioni con licenza Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -86,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>[!UICONTROL Progetto]</td> 
       <td>Nome di un progetto</td> 
       <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
@@ -96,7 +98,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività], [!UICONTROL Sottoattività], [!UICONTROL Problemi], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Spese], [!UICONTROL Predecessori], [!UICONTROL Applicazione Personalizzata]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Issue]</td> 
+      <td>[!UICONTROL Problema]</td> 
       <td>Nome di un problema</td> 
       <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli problema], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Applicazione personalizzata]**</td> 
      </tr> 
@@ -111,12 +113,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>[!UICONTROL Modello]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Attività Modello]</td> 
+      <td>[!UICONTROL Attività modello]</td> 
       <td>Nome di un'attività modello</td> 
       <td>[!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività Modello], [!UICONTROL Sottoattività], [!UICONTROL Spese], [!UICONTROL Approvazioni], [!UICONTROL Predecessori]</td>
      </tr>
@@ -128,14 +130,19 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Fatturazione]</td> 
+      <td> [!UICONTROL Record della fatturazione]</td> 
       <td>Nome di un record di fatturazione per un progetto</td> 
       <td>[!UICONTROL Dettagli record fatturazione], [!UICONTROL Ore fatturabili], [!UICONTROL Spese fatturabili], [!UICONTROL Retribuzioni fisse]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
+     </tr> 
+     <tr> 
+      <td><span class="preview">[!UICONTROL Resource]</span></td> 
+      <td><span class="preview">[!UICONTROL Resource] nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (non può essere nascosto), [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -143,7 +150,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>[!UICONTROL Nuova Richiesta], [!UICONTROL Richieste Inviate], [!UICONTROL Tutte Le Richieste], [!UICONTROL Bozze]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Dashboards]</td> 
+      <td>[!UICONTROL Dashboard]</td> 
       <td>Nome di un dashboard</td> 
       <td>[!UICONTROL I Miei Dashboard], [!UICONTROL Dashboard Condivisi], [!UICONTROL Tutti I Dashboard]</td> 
      </tr> 
@@ -167,6 +174,21 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Nome di un'iterazione</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
+     <tr> 
+       <td><span class="preview">[!UICONTROL Dettagli utente]</span></td> 
+       <td><span class="preview">Nome di un utente</span></td> 
+       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
+       <td><span class="preview">Nome di una scheda tariffe</span></td> 
+       <td><span class="preview">[!UICONTROL Ruoli e tariffe], [!UICONTROL Dettagli scheda tariffa], [!UICONTROL Tipo di spesa e tariffe]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Gruppo]</span></td> 
+       <td><span class="preview">Nome di un gruppo</span></td> 
+       <td><span class="preview">[!UICONTROL Membri gruppo], [!UICONTROL Membri sottogruppo], [!UICONTROL Dettagli gruppo], [!UICONTROL Preferenze progetto], [!UICONTROL Preferenze attività e problemi], [!UICONTROL Schede orario e ore], [!UICONTROL Sottogruppi], [!UICONTROL Stati], [!UICONTROL Notifiche evento], [!UICONTROL Portfolio], [!UICONTROL Programmi], [!UICONTROL Progetti], [!UICONTROL Modelli], [!UICONTROL Eliminati Di Recente], [!UICONTROL Ripristinati Di Recente], [!UICONTROL Approvazioni], [!UICONTROL Aziende], [!UICONTROL Team], [!UICONTROL Pianificazioni], [!UICONTROL Profili Scheda Orario], [!UICONTROL Modelli Layout]</span></td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -200,7 +222,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
-   **Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del pannello sinistro. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. Nell&#39;elenco **[!UICONTROL Pannello sinistro]**, eseguire una delle operazioni seguenti per determinare gli elementi visualizzati dagli utenti nel pannello sinistro per l&#39;area [!DNL Workfront] o il tipo di oggetto selezionato:

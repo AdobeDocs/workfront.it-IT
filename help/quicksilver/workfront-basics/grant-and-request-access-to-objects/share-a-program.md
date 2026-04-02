@@ -7,14 +7,16 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '918'
+ht-degree: 6%
 
 ---
 
 # Condividere un programma
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 
 L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare i programmi al momento dell’assegnazione del livello di accesso. Per poter accedere alla modifica di un programma è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai programmi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -37,7 +39,7 @@ Le autorizzazioni sono specifiche per ciascun elemento in Workfront e definiscon
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> 
    </td> 
@@ -47,13 +49,13 @@ Le autorizzazioni sono specifiche per ciascun elemento in Workfront e definiscon
    <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +91,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Pulsante Condividi programma](assets/share-program-button.png)
 
-1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere il programma, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere il programma, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -125,7 +127,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Programmi di condivisione in blocco](assets/bulk-share-programs.png)
 
-1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere i programmi, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere i programmi, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >

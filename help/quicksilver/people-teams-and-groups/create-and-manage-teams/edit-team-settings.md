@@ -6,10 +6,12 @@ description: Gli amministratori di Workfront e gli utenti con una licenza Pianif
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 10%
+source-wordcount: '494'
+ht-degree: 9%
 
 ---
 
@@ -86,5 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
       * [Configura il pulsante [!UICONTROL Fine] per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Configura il pulsante [!UICONTROL Fine] per i problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+   * Allegare un modulo personalizzato. Per ulteriori informazioni, vedere [Aggiungere un modulo personalizzato a un oggetto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.

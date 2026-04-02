@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 20%
 
 <!-- Audited: 2/2024 -->
 
+{{highlighted-preview}}
+
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso correnti. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+> Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso precedenti, consulta [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 
@@ -31,7 +33,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
 
   >[!NOTE]
   >
-  >Quando un altro utente condivide un oggetto, può specificare le autorizzazioni che limitano la possibilità di modificarlo. Per ulteriori informazioni, vedere [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Quando un altro utente condivide un oggetto, può specificare le autorizzazioni che limitano la possibilità di modificarlo. Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -105,6 +107,13 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
         <td>Visualizzazione</td>
     </tr>
     <tr>
+        <td><span class="preview">Ruoli</span></td>
+        <td>Modifica</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
+        <td>Nessun accesso</td>
+    </tr>
+    <tr>
         <td>Team</td>
         <td>Modifica</td>
         <td>Visualizzazione</td>
@@ -140,6 +149,13 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
         <td>Nessun accesso</td>
     </tr>
     <tr>
+        <td><span class="preview">Schede tariffa</span></td>
+        <td>Modifica</td>
+        <td>Visualizzazione</td>
+        <td>Nessun accesso</td>
+        <td>Nessun accesso</td>
+    </tr>
+    <tr>
         <td>Workfront Goals</td>
         <td>Modifica</td>
         <td>Modifica</td>
@@ -154,7 +170,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
 
 >[!NOTE]
 >
->* Gli utenti con una licenza Light o una licenza Contributor dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Gli utenti con una licenza Light o una licenza Contributor dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, consulta [Panoramica delle licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >* Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
 >
@@ -176,4 +192,5 @@ Nei seguenti articoli sono disponibili informazioni dettagliate sui livelli di a
 * [Concedi l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Concedi l&#39;accesso alla gestione delle risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Concedi l&#39;accesso a Pianificazione scenario](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Concedere l’accesso alle schede tariffa](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Concedere l’accesso agli obiettivi di Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

@@ -3,19 +3,21 @@ title: Aggiungere regole logiche a campi e Forms personalizzati
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: È possibile decidere quali sezioni di un modulo personalizzato devono essere visualizzate o ignorate in base alle scelte effettuate da un utente durante la compilazione.
+description: Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 0%
+source-wordcount: '3485'
+ht-degree: 2%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
+
+{{highlighted-preview}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -27,7 +29,7 @@ Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,10 +37,11 @@ Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td><p>Qualsiasi</p></td> 
+   <td> <p>Per applicare la visualizzazione avanzata, il valore predefinito, la formattazione condizionale o la logica di modificabilità: Workflow Prime o versione successiva</p>
+         <p>Per applicare tutti gli altri tipi di logica: qualsiasi pacchetto Workfront o Workflow</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -53,20 +56,30 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Visualizzare e saltare le icone della logica
+## Icone indicatore logico
 
-Nei moduli personalizzati vengono visualizzate icone per indicare quando viene applicata la logica di visualizzazione o di salto a determinati campi. Le icone di un campo nel progettista del modulo indicano che la logica viene applicata al campo.
+I moduli personalizzati visualizzano icone per indicare quando viene applicata la logica ai campi.
 
-| Icona | Posizione nel campo in Progettazione moduli | Definizione |
-|--- |--- |--- |
-| ![Logica di visualizzazione per il campo di destinazione](assets/display-logic-bottom-left.png) | In basso a sinistra | Il campo è il campo di destinazione per la logica di visualizzazione. Se nel modulo viene effettuata una selezione specifica, viene visualizzato questo campo. |
-| ![Definisci l&#39;icona della logica di visualizzazione](assets/display-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di visualizzazione. Una selezione o un valore specifico in questo campo visualizza il campo di destinazione. |
-| ![Logica di salto per il campo di destinazione](assets/skip-logic-bottom-left.png) | In basso a sinistra | Il campo è il campo di destinazione per la logica di salto. Se nel modulo viene effettuata una selezione specifica, il modulo passa a questo campo e i campi intermedi sono nascosti. |
-| ![Definisci l&#39;icona per ignorare la logica](assets/skip-logic-bottom-right.png) | In basso a destra | Il campo definisce la logica di salto. Una selezione o un valore specifico in questo campo ignora altri campi e passa direttamente al campo di destinazione. |
+<span class="preview">Fare clic su **Mostra logica** nell&#39;intestazione di Progettazione moduli per visualizzare o nascondere le icone per i diversi tipi di logica dei campi.</span>
 
-![Icone logiche](assets/logic-icons-3.png)
+| Icona | Definizione |
+| --- | --- |
+| ![Logica di visualizzazione per il campo di destinazione](assets/display-logic-bottom-right.png) | Il campo è il campo di destinazione in cui viene applicata la logica di visualizzazione. Se nel modulo viene effettuata una selezione specifica, viene visualizzato questo campo. |
+| ![Icona logica di visualizzazione per il campo di riferimento](assets/display-logic-bottom-left.png) | Il campo è il campo di riferimento per la logica di visualizzazione. Una selezione o un valore specifico in questo campo visualizza il campo di destinazione. |
+| ![Logica di salto per il campo di destinazione](assets/skip-logic-bottom-right.png) | Il campo è il campo di destinazione in cui viene applicata la logica di salto. Una selezione o un valore specifico in questo campo ignora altri campi e passa direttamente al campo di riferimento. |
+| ![Icona Ignora logica per il campo di riferimento](assets/skip-logic-bottom-left.png) | Il campo è il campo di riferimento per la logica di salto. Se nel campo di destinazione viene effettuata una selezione specifica, il modulo passa a tale campo e i campi intermedi sono nascosti. |
+| ![Logica di convalida per il campo di destinazione](assets/validation-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica di convalida. Una selezione o un valore specifico nel campo di riferimento determina se la convalida non riesce. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di convalida. |
+| ![Logica di convalida per il campo di riferimento](assets/validation-logic-reference-field.png) | Il campo è il campo di riferimento per la logica di convalida. Una selezione o un valore specifico in questo campo determina se la convalida non riesce nel campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di convalida. |
+| ![Logica del valore predefinito per il campo di destinazione](assets/default-value-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica del valore predefinito. Il valore predefinito viene determinato da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica del valore predefinito.</span> |
+| ![Logica del valore predefinito per il campo di riferimento](assets/default-value-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica del valore predefinito. Una selezione o un valore specifico in questo campo determina il valore predefinito nel campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica del valore predefinito.</span> |
+| ![Logica di formattazione per il campo di destinazione](assets/formatting-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica di formattazione. La formattazione viene determinata da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione.</span> |
+| ![Logica di formattazione per il campo di riferimento](assets/formatting-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica di formattazione. Una selezione o un valore specifico in questo campo determina la formattazione del campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione.</span> |
+| ![Logica di modificabilità per il campo di destinazione](assets/editability-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica di modificabilità. Il campo può essere modificabile o di sola lettura quando vengono soddisfatte le condizioni definite. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità.</span> |
+| ![Logica di modificabilità per il campo di riferimento](assets/editability-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica di modificabilità. Quando le condizioni definite vengono soddisfatte in questo campo, la logica viene applicata al campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità.</span> |
 
-Seleziona un campo a cui è applicata la logica per visualizzare le regole di logica esistenti nelle impostazioni del campo.
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+Solo per visualizzare e saltare la logica, seleziona un campo per visualizzare le regole di logica esistenti nelle impostazioni del campo.
 
 ![Regole logiche](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
 
 La logica di visualizzazione definisce quali campi personalizzati vengono visualizzati nel modulo quando l’utente seleziona un valore specifico in un campo a scelta multipla. La logica viene aggiunta al campo di destinazione, che viene visualizzato solo quando il valore è selezionato.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">Questa procedura descrive la modalità di base per la logica di visualizzazione. È disponibile anche la logica di visualizzazione avanzata. Per ulteriori informazioni, vedere [Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato](#add-advanced-display-logic-to-a-custom-form), in questo articolo.</span>
 
 {{step-1-to-setup}}
 
@@ -126,60 +137,66 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
    Le icone della logica di visualizzazione vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+La logica di visualizzazione avanzata per i campi modulo personalizzati consente di creare una logica complessa utilizzando le formule. È possibile applicare questa logica ai seguenti tipi di campo: testo a riga singola, paragrafo, testo con formattazione, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, riferimento al campo nativo, typeahead, calcolato, data, gruppo di caselle di controllo e pulsanti di scelta.
 
-### Examples
+>[!NOTE]
+>
+>Questa procedura descrive la modalità avanzata per la logica di visualizzazione. È disponibile anche la logica di visualizzazione di base. Per ulteriori informazioni, vedere [Aggiungere la logica di visualizzazione a un modulo personalizzato](#add-display-logic-to-a-custom-form), in questo articolo.
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### Esempi
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+È possibile utilizzare una logica di visualizzazione avanzata per controllare la visibilità delle sezioni dei moduli personalizzati in base ai ruoli utente e alla visibilità di un campo in base allo stato di un altro campo.
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+Alla sezione predefinita del modulo non viene applicata alcuna logica, in modo che sia sempre visibile a tutti gli utenti.
+
+Utilizzando la condizione seguente, la sezione Risorse richieste viene visualizzata solo quando un utente con il ruolo di Responsabile risorse visualizza il modulo.
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+```123abc``` rappresenta l&#39;ID ruolo del Responsabile risorse.
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+![Sezione modulo visualizzata per il ruolo](assets/advanced-display-on-form1.png)
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+La stessa condizione con un ID ruolo diverso viene applicata alla sezione Indicatori prestazioni chiave finanziari progetto per definire che solo il ruolo di Financial Advisor può visualizzare la sezione.
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo al termine del progetto. Questa logica viene applicata direttamente al campo anziché a una sezione del modulo. Non è necessario specificare quale ruolo può visualizzare il campo, in quanto è già definito nella sezione in cui si trova il campo.
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![Campo visibile nel progetto completo](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### Definire la logica di visualizzazione avanzata
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori dettagli, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aggiungi i campi al modulo in base alle esigenze.
+1. Selezionare il campo a cui applicare la logica e fare clic su **Aggiungi logica**.
+1. Selezionare la scheda **Visualizzazione** nel generatore di logica.
+1. Attiva **Modalità avanzata**.
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   Questa opzione può essere attivata automaticamente, per i campi che non supportano la modalità semplice di logica di visualizzazione.
 
-1. Build the display condition in the editor.
+   ![Modalità avanzata per la logica di visualizzazione](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. Crea la condizione di visualizzazione nell’editor.
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   Per ulteriori informazioni sui calcoli e sulle espressioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) e [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Fai clic su **Applica**.
+
+   La logica viene applicata al campo e l’icona della logica di visualizzazione viene aggiunta nel progettista del modulo.
+
+   >[!NOTE]
+   >
+   >La logica di visualizzazione avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
 
 </div>
--->
 
 ## Aggiungere la logica di salto a un modulo personalizzato
 
@@ -211,13 +228,63 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
    Le icone di salto della logica vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
+<div class="preview">
+
+## Aggiungere la logica del valore predefinito a un modulo personalizzato
+
+La logica dei valori predefiniti consente di configurare i valori predefiniti per i campi modulo personalizzati utilizzando le formule. Il valore predefinito viene visualizzato quando vengono soddisfatte le condizioni definite. Un valore predefinito può essere un valore statico o dinamico che fa riferimento ad altri campi all&#39;interno dell&#39;oggetto. Anche se il valore predefinito può fare riferimento ad altri campi, non verrà modificato con la modifica di altri campi del modulo.
+
+Puoi applicare la logica avanzata del valore predefinito ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla. riferimento campo nativo, typeahead, gruppo di caselle di controllo e pulsanti di scelta.
+
+>[!TIP]
+>
+>Un valore predefinito viene applicato una sola volta a un campo personalizzato quando il modulo personalizzato viene allegato all’oggetto. Se la formula del valore predefinito dipende dal valore di un altro campo, il valore nell&#39;altro campo deve esistere già quando il modulo personalizzato viene allegato.
+
+>[!NOTE]
+>
+>La logica dei valori standard predefiniti nel progettista di moduli esiste ancora. Se entrambi i tipi vengono applicati allo stesso campo, la logica avanzata ha la precedenza. Per informazioni sulla logica standard dei valori predefiniti, vedere [Aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Esempio
+
+Utilizzando la formula seguente, il campo a discesa a selezione multipla a cui viene applicata la logica estrae il relativo valore predefinito dalla descrizione del progetto quando lo stato del progetto è Pianificazione.
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+Quando il modulo personalizzato viene allegato a un progetto e lo stato del progetto è Pianificazione, il valore del campo Descrizione progetto viene utilizzato come valore predefinito nel campo a selezione multipla. Poiché si tratta di un campo a selezione multipla, è possibile inserire più valori quando i valori corrispondono alla descrizione. Se il valore della descrizione non corrisponde a nessuna delle opzioni per la selezione multipla, il campo a selezione multipla non avrà un valore predefinito e l’utente può selezionare un valore dal menu a discesa.
+
+### Definire la logica del valore predefinito
+
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori dettagli, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aggiungi i campi al modulo in base alle esigenze.
+1. Selezionare il campo a cui applicare la logica e fare clic su **Aggiungi logica**.
+1. Selezionare la scheda **Valore predefinito** nel generatore di logica.
+
+   ![Generatore di logica del valore predefinito](assets/default-value-blank-editor.png)
+
+1. Crea la condizione del valore predefinito nell’editor.
+
+   Per ulteriori informazioni sui calcoli e sulle espressioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) e [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Fai clic su **Applica**.
+
+   La logica viene applicata al campo nel progettista del modulo.
+
+   >[!NOTE]
+   >
+   >La logica dei valori predefiniti non è supportata nella modalità di anteprima di Progettazione moduli.
+
+</div>
+
 ## Aggiungere una logica di convalida a un modulo personalizzato
 
 La logica di convalida viene creata utilizzando le formule e può essere resa semplice o complessa in base alle esigenze. La convalida può essere basata sui valori di altri campi o sullo stato degli oggetti ed è possibile fornire un messaggio di errore per i casi in cui la convalida non riesce.
 
 Se il campo con la logica applicata soddisfa le condizioni di convalida definite quando un utente compila il modulo personalizzato, il campo viene evidenziato e viene visualizzato il messaggio di errore.
 
-È possibile applicare la logica di convalida ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, completamento automatico, data, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica di convalida ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, ricerca esterna a selezione multipla, completamento automatico, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 ### Esempi
 
@@ -252,7 +319,7 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 
    Per ulteriori informazioni sui calcoli e sulle espressioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) e [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    La logica viene applicata al campo nel progettista del modulo.
 
@@ -260,22 +327,21 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
    >
    >La logica di convalida non è supportata nella modalità di anteprima di Progettazione moduli.
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## Aggiungere logica di formattazione a un modulo personalizzato
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+La logica di formattazione evidenzia un valore di campo quando soddisfa le condizioni definite. La formattazione applicata funzionerà su più campi contemporaneamente.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+È possibile applicare la logica di formattazione ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, ricerca esterna a selezione multipla, completamento automatico, calcolo, data, gruppo di caselle di controllo e pulsanti di scelta.
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+La formattazione applicata ai moduli personalizzati è distinta dalla formattazione applicata agli elenchi e ai report. Per informazioni sulla formattazione dei report, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Example
+### Esempio
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+Utilizzando la condizione seguente, il campo Budget appare rosso quando l&#39;utente immette un valore pari o superiore a 1000. Il campo appare giallo quando l’utente immette un valore pari o superiore a 500.
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+Per aggiungere una definizione di formattazione al passaggio del mouse, utilizza il campo Istruzioni nel modulo personalizzato. Ad esempio, un messaggio nel campo Budget potrebbe indicare &quot;Immettere un budget entro un intervallo ragionevole. I valori superiori a 500 sono un avviso e quelli superiori a 1000 sono considerati troppo elevati.&quot;
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### Definire la logica di formattazione
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori dettagli, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aggiungi i campi al modulo in base alle esigenze.
+1. Selezionare il campo a cui applicare la logica e fare clic su **Aggiungi logica**.
+1. Selezionare la scheda **Formattazione** nel generatore di logica.
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![Generatore logica di formattazione](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. Crea la condizione di formattazione nell’editor.
 
-   You can add up to five formatting rules per field.
+   È possibile aggiungere fino a cinque regole di formattazione per campo.
 
-   The field highlighting color options are:
+   Le opzioni di colore per l&#39;evidenziazione dei campi sono:
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   Le opzioni di formattazione del testo sono:
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   È possibile utilizzare un solo colore per funzione, insieme a un massimo di tre opzioni di formattazione del testo aggiuntive. Se non viene specificata alcuna opzione colore, viene applicato il colore predefinito del sistema.
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Per ulteriori informazioni sui calcoli e sulle espressioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) e [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. Fai clic su **Applica**.
+
+   La logica viene applicata al campo nel progettista del modulo.
+
+   >[!NOTE]
+   >
+   >La logica di formattazione non è supportata nella modalità di anteprima di Progettazione moduli.
 
 </div>
--->
+
+<div class="preview">
+
+## Aggiungere una logica di modificabilità a un modulo personalizzato
+
+La logica di modificabilità determina se un campo modulo personalizzato può essere modificato o se è di sola lettura. Questa logica viene creata utilizzando formule e, quando il campo soddisfa le condizioni definite, può essere impostata come modificabile o di sola lettura.
+
+È possibile applicare la logica di modificabilità ai seguenti tipi di campo: testo a riga singola, paragrafo, testo con formattazione, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, typeahead, data, gruppo di caselle di controllo e pulsanti di scelta.
+
+### Esempio
+
+Utilizzando la formula seguente, il campo con logica applicata è modificabile solo quando in un altro campo denominato Radio è selezionata l’opzione Abilitato.
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+Utilizzando la formula seguente, il campo Descrizione può essere modificato solo se è vuoto. Una volta immesso, il valore diventa di sola lettura.
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+Utilizzando la formula seguente, il campo con logica applicata è modificabile solo quando un utente con il ruolo di Responsabile risorse visualizza il modulo.
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### Definire la logica di modificabilità
+
+{{step-1-to-setup}}
+
+1. Fare clic su **Forms personalizzato**.
+1. Crea un nuovo modulo personalizzato o apri un modulo esistente. Per ulteriori dettagli, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aggiungi i campi al modulo in base alle esigenze.
+1. Selezionare il campo a cui applicare la logica e fare clic su **Aggiungi logica**.
+1. Seleziona la scheda **Modificabilità** nel generatore di logica.
+
+   ![Generatore di logica di modificabilità](assets/editability-blank-editor.png)
+
+1. Crea la condizione di modificabilità nell’editor.
+
+   Per ulteriori informazioni sui calcoli e sulle espressioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) e [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Fai clic su **Applica**.
+
+   La logica viene applicata al campo nel progettista del modulo.
+
+   >[!NOTE]
+   >
+   >La logica di modificabilità non è supportata nella modalità di anteprima di Progettazione moduli.
+
+</div>

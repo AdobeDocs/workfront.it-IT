@@ -6,14 +6,17 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 7%
+source-wordcount: '1222'
+ht-degree: 10%
 
 ---
 
 # Condividere un’attività
+
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare le attività quando assegna i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso alle attività, vedere [Concedere l&#39;accesso alle attività](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -35,7 +38,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> 
    </td> 
@@ -45,13 +48,13 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,7 +90,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Specificare le autorizzazioni per uno qualsiasi degli oggetti padre dell&#39;attività: progetto, programma o portfolio. Le attività ereditano le autorizzazioni dagli oggetti padre. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova l&#39;attività. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi.  Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi.  Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -101,7 +104,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Pulsante Condividi attività](assets/share-task-button.png)
 
-1. Nel campo **Concedi l&#39;accesso all&#39;attività a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso all&#39;attività a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere l&#39;attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -138,7 +141,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Attività di condivisione in blocco](assets/bulk-share-tasks.png)
 
-1. Nel campo **Concedi l&#39;accesso alle attività**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere le attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso all&#39;attività a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere le attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >

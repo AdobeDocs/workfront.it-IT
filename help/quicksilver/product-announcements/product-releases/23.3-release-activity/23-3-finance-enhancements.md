@@ -1,18 +1,18 @@
 ---
-title: 23.3 Miglioramenti apportati alla gestione finanziaria
-description: 23.3 Miglioramenti apportati alla gestione finanziaria
+title: 23.3 - Miglioramenti per la gestione finanziaria
+description: 23.3 - Miglioramenti per la gestione finanziaria
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
-# 23.3 Miglioramenti apportati alla gestione finanziaria
+# 23.3 - Miglioramenti per la gestione finanziaria
 
 Questa pagina descrive tutti i miglioramenti apportati a Financial Management con la versione 23.3.
 
@@ -25,7 +25,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >
 >Questa funzione sarà disponibile nelle seguenti date:
 >
->* Versione di anteprima: 29 giugno 2023
+>* Rilascio in anteprima: venerdì 29 giugno 2023
 >
 >* Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
 >
@@ -40,4 +40,4 @@ Inoltre, i set di ruoli con data di validità sono ora disponibili nel profilo u
 
 Una nuova funzione, denominata Tariffe, consente di definire più tariffe di fatturazione per mansione, in base alla posizione. Una tariffa di fatturazione per una mansione e un&#39;ubicazione può includere anche date di validità. È possibile allegare ai progetti schede di tariffa per applicare tutte le informazioni sulla tariffa in una sola volta per la mansione e la posizione specifiche. I ruoli basati sulla posizione possono essere assegnati anche alle attività con la possibilità di modificare le tariffe a livello di assegnazione.
 
-Per ulteriori informazioni, consulta [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) e [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per ulteriori informazioni, vedere [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

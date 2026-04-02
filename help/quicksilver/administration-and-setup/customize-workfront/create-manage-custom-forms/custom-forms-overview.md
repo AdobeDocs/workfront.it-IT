@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 12%
+source-wordcount: '397'
+ht-degree: 20%
 
 ---
 
 # Panoramica dei moduli personalizzati
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -30,6 +32,16 @@ Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quo
 Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare e rilasciare i campi all’interno delle sezioni durante la progettazione del modulo. È possibile ridimensionare il lato destro dello schermo per disporre di più spazio per le opzioni di campo.
 
 Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+Immagine di esempio nell’ambiente di anteprima:
+
+![Progettazione moduli di esempio](assets/form-designer-example-032526.png)
+
+</div>
+
+Immagine di esempio nell’ambiente di produzione:
 
 ![Progettazione moduli di esempio](assets/form-designer-example.png)
 
@@ -52,7 +64,7 @@ In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a u
 * Calcolato
 * Data
 * Gruppo di caselle di controllo
-* Pulsanti di opzione
+* Pulsanti di scelta
 * Testo descrittivo
 * Interruzione di sezione
 * Adobe XD
@@ -81,7 +93,7 @@ Gli utenti possono allegare moduli personalizzati ai seguenti tipi di oggetti:
 * Spesa
 * Gruppo
 * Iterazione
-* Fatturazione
+* Record della fatturazione
 
 Per ulteriori informazioni sull&#39;associazione di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

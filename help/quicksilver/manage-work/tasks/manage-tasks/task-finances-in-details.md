@@ -6,18 +6,22 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 7%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
-# Gestire i dati finanziari delle attività nella sezione Dettagli attività
+# Gestire le finanze dell”attività nella sezione Dettagli attività
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
+
+{{highlighted-preview}}
 
 È possibile visualizzare o modificare le informazioni finanziarie di un task accedendo all&#39;area Panoramica della sezione Dettagli task. In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare.
 
@@ -33,10 +37,11 @@ Per informazioni sulla modifica di tutte le informazioni finanziarie per un&#39;
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Per utilizzare i tipi di costo e di ricavi orari utente e ruolo e aggiungere un rapporto straordinario: Ultimate flusso di lavoro</p>
+      <p>Per modificare tutte le altre impostazioni e utilizzare tutti gli altri tipi di ricavi e costi: qualsiasi pacchetto Workfront o Workflow</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -45,7 +50,7 @@ Per informazioni sulla modifica di tutte le informazioni finanziarie per un&#39;
    <td> <p>Modificare l’accesso a Progetti e Attività</p> <p>Visualizza l'accesso ai dati finanziari o superiore</p> <p>È necessario disporre dell'accesso Modifica ai dati finanziari per modificare le informazioni finanziarie sulle attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza le autorizzazioni per l'attività che includono Visualizza contabilità o versioni successive</p> <p>Per modificare le informazioni finanziarie relative ai task è necessario disporre delle autorizzazioni Gestione per il task che includono Modifica dati finanziari</p></td> 
   </tr> 
  </tbody> 
@@ -55,7 +60,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -77,7 +83,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modificare i dati finanziari dell&#39;attività nella sezione Dettagli attività
 
@@ -117,6 +124,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
         <li> <p>Ore Fisse </p> </li> 
         <li> <p> Ore Utente </p> </li> 
         <li> <p> Ore Ruolo</p> </li> 
+        <li> <p> <span class="preview">Ore Utente e Ruolo</span></p> </li> 
        </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -126,13 +134,16 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
         <li> <p> Non Fatturabile </p> </li> 
         <li> <p>Ore Utente </p> </li> 
         <li> <p>Ore Ruolo </p> </li> 
+        <li> <p> <span class="preview">Ore Utente e Ruolo</span></p> </li>
         <li> <p>Ore Fisse </p> </li> 
         <li> <p>Ore utente con limite </p> </li> 
-        <li> <p>Ore ruolo con limite </p> </li> 
+        <li> <p>Ore ruolo con limite </p> </li>
+        <li> <p> <span class="preview">Ore Utente e Ruolo con Cap</span></p> </li> 
         <li> <p>Ore Utente più Fisso </p> </li> 
         <li> <p>Ore Ruolo più Fisso </p> </li> 
+        <li> <p> <span class="preview">Ore Utente e Ruolo più Fisso</span></p> </li>
         <li> <p>Reddito Fisso </p> </li> 
-       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedi<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> . </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
+       </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedere<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a> e <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Panoramica sulla gerarchia dei ricavi e dei costi</a>. </p> <p>L'amministratore di Workfront o l'amministratore di gruppo seleziona l'impostazione Tipo di retribuzione predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Costo Pianificato</td> 
@@ -150,8 +161,17 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       <td role="rowheader">Entrate effettive</td> 
       <td> <p>Si tratta di un calcolo che mostra i ricavi associati all'attività in base alle ore effettive, al tipo di ricavi e alla tariffa oraria per gli utenti o i ruoli. Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Rapporto ore di straordinario</span></td> 
+      <td><span class="preview"><p>Immettere il moltiplicatore del lavoro straordinario per l'attività, ad esempio 1,5 o 2,0. Il valore predefinito è 1,0 (nessun moltiplicatore). Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definire una proporzione di lavoro straordinario</a>.</p><p>Per visualizzare il campo Rapporto lavoro straordinario:</p>
+       <ul>
+       <li>Il Tipo di Reddito dell'attività deve essere Ore Utente e Ruolo. Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Panoramica sulla gerarchia dei ricavi e dei costi</a>.</li>
+       <li>Il campo deve essere abilitato nel modello di layout, per l'area Finanza nella visualizzazione Dettagli attività. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizzare la visualizzazione Dettagli utilizzando un modello di layout</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>Si tratta di metriche delle prestazioni delle attività che mostrano le prestazioni dell'attività in un determinato momento. I relativi valori vengono calcolati in base al metodo dell'indice delle prestazioni del progetto.<br>Per ulteriori informazioni, vedere i seguenti articoli:</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcola indice prestazioni costi (IPC)</a> </p> </li> 
@@ -166,4 +186,4 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
     </tbody> 
    </table>
 
-1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva**&#x200B;**Modifiche**.
+1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva modifiche**.

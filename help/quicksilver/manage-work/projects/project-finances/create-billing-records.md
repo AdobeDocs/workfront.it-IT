@@ -5,14 +5,14 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 1%
+source-wordcount: '1633'
+ht-degree: 3%
 
 ---
 
-# Crea record fatturazione
+# Creare record di fatturazione
 
 <!-- Audited: 6/2025 -->
 
@@ -22,7 +22,7 @@ Non è possibile creare record di fatturazione per le attività, ma solo per i p
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Non è possibile creare record di fatturazione per le attività, ma solo per i p
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -43,7 +43,7 @@ Non è possibile creare record di fatturazione per le attività, ma solo per i p
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ Puoi aggiungere ore a una fatturazione quando sono soddisfatte le seguenti condi
      >[!NOTE]
      >
      >È possibile sostituire le tariffe di fatturazione per le mansioni a livello di progetto.\
-     >Per ulteriori informazioni, vedere la sezione &quot;Override delle tariffe di fatturazione dei ruoli a livello di progetto&quot; nell&#39;articolo [Panoramica dell&#39;override delle tariffe di fatturazione dei ruoli e del calcolo dei ricavi su un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Per ulteriori informazioni, vedere la sezione &quot;Override delle tariffe di fatturazione dei ruoli a livello di progetto&quot; nell&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Se l&#39;opzione Richiedi l&#39;approvazione del tempo per questo progetto è selezionata in Impostazioni progetto, il proprietario del progetto deve approvare le ore registrate.\
   Per ulteriori informazioni, vedere [Richiedere l&#39;approvazione del tempo per un progetto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
