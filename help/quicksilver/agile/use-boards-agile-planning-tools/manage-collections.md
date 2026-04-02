@@ -7,7 +7,9 @@ description: Un flusso di lavoro è un gruppo configurabile di schede e schede p
 author: Courtney
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 5%
@@ -71,10 +73,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 |---------|----------|
 | Bacheca base | Sulla bacheca sono disponibili tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
 | Bacheca Kanban | Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna Acquisizione. Per informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| Bacheca retrospettiva | Le seguenti colonne sono fornite sulla bacheca: Che cosa è andato bene? Cosa potrebbe essere migliorato? Chi dovremmo celebrare? Cosa possiamo fare per muoverci più velocemente? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
-| Processo iterazione | Bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. Impossibile aggiungere colonne alla bacheca. <p>Per verificare i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare una di queste policy predefinite. Per informazioni, consulta [Gestire le colonne delle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Bacheca retrospettiva | Sulla bacheca sono fornite le seguenti colonne: Cosa è andato bene? Cosa si può migliorare? Chi dovremmo festeggiare? Cosa possiamo fare per muoverci più velocemente? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Nessun criterio colonna applicato. |
+| Processo iterazione | Bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le seguenti colonne: Backlog, Nuovo, In corso, Completo e In sospeso. Non è possibile aggiungere colonne alla bacheca. <p>Per rivedere i criteri predefiniti per ogni colonna, fare clic sul menu [!UICONTROL **Altro**] in una colonna e selezionare [!UICONTROL **Modifica**]. Puoi modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-Per ulteriori informazioni sulla configurazione della bacheca, consulta [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Per ulteriori informazioni sulla configurazione della bacheca, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Filtrare l’elenco delle bacheche in un flusso di lavoro
 
@@ -86,11 +88,11 @@ Quando nell&#39;elenco delle bacheche vengono applicati filtri diversi da quelli
 1. Fare clic sulla scheda [!UICONTROL **Bacheche**] se non è già visualizzata.
 1. Fai clic su [!UICONTROL **Filtro**].
 1. Seleziona le bacheche che desideri visualizzare per stato (bacheche archiviate, bacheche attive o tutte).
-1. Seleziona le bacheche che desideri visualizzare per modello.
+1. Seleziona le bacheche da visualizzare per modello.
 
 ## Aggiungere membri a un flusso di lavoro
 
-Prima di poter visualizzare il flusso di lavoro e il relativo contenuto, è necessario aggiungere persone e team al flusso di lavoro come membri. Un membro del flusso di lavoro può aggiungere e rimuovere membri nel flusso di lavoro e vedere quali bacheche sono presenti nel flusso di lavoro.
+È necessario aggiungere persone e team al flusso di lavoro come membri prima che possano visualizzarne il flusso e il contenuto. Un membro del flusso di lavoro può aggiungere e rimuovere membri nel flusso di lavoro e vedere quali bacheche sono presenti nel flusso di lavoro.
 
 >[!NOTE]
 >
@@ -105,11 +107,11 @@ Prima di poter visualizzare il flusso di lavoro e il relativo contenuto, è nece
 
 ## Aggiungere origini a un flusso di lavoro
 
-Un&#39;origine determina da dove provengono le schede nel flusso di lavoro.
+Una sorgente determina la provenienza delle schede nel flusso di lavoro.
 
 {{step1-to-boards}}
 
-1. Fare clic sull&#39;icona [!UICONTROL **Origini**] ![Origini](assets/sources-icon.png) per definire un&#39;origine per l&#39;importazione delle schede nel flusso di lavoro. Al momento, l&#39;unica origine disponibile è [!DNL Adobe Workfront].
+1. Fai clic sull&#39;icona [!UICONTROL **Origini**] ![Origini](assets/sources-icon.png) per definire un&#39;origine per l&#39;importazione di schede nel flusso di lavoro. Al momento, l&#39;unica origine disponibile è [!DNL Adobe Workfront].
 1. Aggiungi filtri per importare attività e problemi da Workfront come schede.
 
    L’aggiunta di filtri per le origini del flusso di lavoro è identica all’aggiunta di filtri avanzati per una colonna di acquisizione su una bacheca di base o su una bacheca Kanban. Per ulteriori informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
@@ -125,6 +127,6 @@ Un&#39;origine determina da dove provengono le schede nel flusso di lavoro.
 
    Il numero totale di carte, il numero di carte puntate e il numero di iterazioni sono visualizzati nella sezione Elenco carte. Fai clic su [!UICONTROL **Visualizza elenco**] per aprire l&#39;elenco e aggiungere schede. Per ulteriori informazioni, vedere [Utilizzare l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se un&#39;iterazione è già stata definita, vengono visualizzati la data di inizio, il numero di carte e il numero di punti. Fare clic su [!UICONTROL **Visualizza bacheca**] per aprire la bacheca iterazioni. Per ulteriori informazioni, vedere [Creare un&#39;iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Se è già stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Fare clic su [!UICONTROL **Visualizza bacheca**] per aprire la bacheca di iterazione. Per ulteriori informazioni, vedere [Creare un&#39;iterazione in un workflow](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. (Facoltativo) Espandere [!UICONTROL **Tag**] per aggiungere tag al flusso di lavoro. Cercate un tag o digitate un nuovo nome di tag nella casella di ricerca e premete Invio per crearlo.
+1. Espandi [!UICONTROL **Tag**] per aggiungere tag al flusso di lavoro (facoltativo). Cercare un tag o digitare un nuovo nome di tag nella casella di ricerca e premere Invio per crearlo.

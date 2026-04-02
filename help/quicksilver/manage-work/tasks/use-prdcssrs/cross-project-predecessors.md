@@ -6,14 +6,16 @@ description: Un predecessore di Progetto Incrociato è un'attività da cui dipen
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Creare predecessori per più progetti
+# Creare predecessori tra progetti
 
 <!--Audited: 12/2024-->
 
@@ -35,7 +37,7 @@ Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Panoramic
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +48,7 @@ Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Panoramic
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -55,7 +57,7 @@ Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Panoramic
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività e il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -65,7 +67,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the tasks and the projects</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creare un predecessore per più progetti
 

@@ -5,7 +5,9 @@ description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 3%
@@ -14,11 +16,13 @@ ht-degree: 3%
 
 # Panoramica di [!UICONTROL Riepilogo]
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 È possibile utilizzare il pannello [!UICONTROL Riepilogo] per rivedere e aggiornare le informazioni sugli elementi di lavoro direttamente da un elenco di attività, problemi, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
 
@@ -57,7 +61,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario </td> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +75,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario </td> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

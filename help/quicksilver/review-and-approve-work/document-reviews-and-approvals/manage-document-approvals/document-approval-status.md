@@ -6,10 +6,12 @@ description: Vengono elencati e spiegati gli stati di decisione del documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -28,7 +30,7 @@ Sono disponibili i seguenti stati:
             <tbody>
                  <tr>
                     <td>
-                        Revisione in sospeso</p>
+                        In attesa di revisione</p>
                     </td>
                     <td>
                         <ul>
@@ -107,9 +109,11 @@ Sono disponibili i seguenti stati:
                     </td>
                     <td>
                         <ul>
-                           <!--<li>
+                           <!--
+                           <li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>-->
+                            </li>
+                            -->
                             <li>
                                 <p>Tutti gli approvatori possono aver dato decisioni di "Approvato"
                             </li>

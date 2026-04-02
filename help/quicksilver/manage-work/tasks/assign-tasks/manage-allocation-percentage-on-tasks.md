@@ -6,10 +6,12 @@ description: La percentuale di allocazione rappresenta la quantità di tempo in 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -17,13 +19,15 @@ ht-degree: 5%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 
 La percentuale di allocazione rappresenta la quantità di tempo in cui una risorsa assegnata deve lavorare su un&#39;attività in un giorno. Rappresenta la percentuale di un giorno lavorativo (in base alla programmazione dell&#39;utente o del progetto) in cui una risorsa viene allocata per l&#39;intera durata dell&#39;attività.
@@ -47,7 +51,7 @@ La percentuale di allocazione rappresenta la quantità di tempo in cui una risor
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p>
    </td> 
@@ -57,7 +61,7 @@ La percentuale di allocazione rappresenta la quantità di tempo in cui una risor
    <td>Modifica l'accesso alle Attività</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
    <p>Modifica le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività quando modifichi attività utilizzando la precedente esperienza.</p>
    <p><b>NOTA</b></p>

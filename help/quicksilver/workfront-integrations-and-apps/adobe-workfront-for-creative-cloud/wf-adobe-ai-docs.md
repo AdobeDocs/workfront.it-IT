@@ -6,10 +6,12 @@ description: Puoi caricare le tue bacheche grafiche come documenti per una revis
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,13 +21,14 @@ Puoi caricare i tuoi progetti come documenti per una rapida revisione e approvaz
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any </td> 
   </tr> 
@@ -35,7 +38,8 @@ Puoi caricare i tuoi progetti come documenti per una rapida revisione e approvaz
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
@@ -44,7 +48,7 @@ Puoi caricare i tuoi progetti come documenti per una rapida revisione e approvaz
    <td> <p>Modifica accesso a [!UICONTROL Documents]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o superiore all'oggetto in cui si desidera caricare un documento.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 

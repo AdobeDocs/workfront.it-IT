@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Aggiungere una pagina Record connessi a un record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 È possibile visualizzare informazioni da record o oggetti connessi aggiungendo una scheda per una pagina Record connessi a un record in Adobe Workfront Planning. In questo modo i record connessi in una vista tabella vengono aggiunti alla scheda.
 
@@ -76,17 +80,17 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
    <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
@@ -309,7 +313,7 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
    * Fai clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto viene automaticamente connesso al record corrente.
 
      Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Fai clic su **Crea record &#x200B;** nell’angolo superiore destro della visualizzazione per aggiungere progetti esistenti. I progetti vengono immediatamente collegati al record selezionato.
+   * Fai clic su **Crea record **nell’angolo superiore destro della visualizzazione per aggiungere progetti esistenti. I progetti vengono immediatamente collegati al record selezionato.
 
    * Passa il puntatore del mouse sul nome di un progetto nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png), quindi fai clic su **Visualizza** per aprire il progetto in un&#39;altra scheda
 
@@ -332,7 +336,8 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
 
    Per ulteriori informazioni sulla gestione degli oggetti in una visualizzazione elenco, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-<!-- this is repetitive from an earlier section above: 
+<!--
+ this is repetitive from an earlier section above: 
 
 ## Manage multiple views from the connected records page
 
@@ -361,13 +366,16 @@ To manage multiple views from the connected records page:
    * **Export** 
    * **Delete**
 
-   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   <!--
+   not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
       >[!TIP]
       >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types.
+      -->
 
 
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<!--
+No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups

@@ -6,10 +6,12 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. È possibile registrare i rischi durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi.
 
@@ -35,7 +39,7 @@ I rischi possono essere associati ai costi, ma il costo rischio effettivo non in
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +52,7 @@ I rischi possono essere associati ai costi, ma il costo rischio effettivo non in
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> <p>Standard </p>
    <p>Piano </p> </td> 
   </tr> 
@@ -57,7 +61,7 @@ I rischi possono essere associati ai costi, ma il costo rischio effettivo non in
    <td> <p>Modifica accesso a progetti e dati finanziari</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p> Gestire le autorizzazioni che includono Gestisci dati finanziari per il progetto per il quale si desidera creare o modificare i rischi </p> </td> 
   </tr> 
  </tbody> 

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Visualizza i problemi
+title: Visualizzare problemi
 description: È possibile visualizzare i problemi associati a un progetto, un'attività o un'iterazione.
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Visualizza i problemi
+# Visualizzare problemi
 
 <!--Audited: 10/2025-->
 
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,20 +34,20 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Collaboratore o versione successiva</p></li> <li><p>Licenza leggera o superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p></li>
+   <ul><li><p>Collaboratore o successiva</p></li> <li><p>Licenza leggera o superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p></li>
 
 Oppure
 
-<ul><li><p>Richiedi o superiore</p></li> <li><p>Rivedi o una licenza superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p></li></ul> </td> 
+<ul><li><p>Richiedente o successiva</p></li> <li><p>Rivedi o una licenza superiore per visualizzare i problemi nella sezione Problemi di un progetto.</p></li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Visualizza l’accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni per il problema</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ Oppure
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 

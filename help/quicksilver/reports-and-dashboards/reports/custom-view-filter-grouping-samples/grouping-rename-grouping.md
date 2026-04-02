@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Raggruppamento: modificare il nome visualizzato in un raggruppamento'
-description: È possibile rinominare i raggruppamenti in elenchi e report in modo che acquisiscano maggiore familiarità con gli utenti.
+description: È possibile rinominare i raggruppamenti in elenchi e rapporti in modo più familiare agli utenti.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 13%
@@ -18,13 +20,13 @@ ht-degree: 13%
 
 <!--Audited: 01/2024-->
 
-È possibile rinominare i raggruppamenti in modo che acquisiscano maggiore familiarità con gli utenti.
+È possibile rinominare i raggruppamenti in modo da renderli più familiari agli utenti.
 
 Ad esempio, quando applichi il raggruppamento Nome Portfolio standard a un elenco di progetti, il nome del raggruppamento viene visualizzato come *Portfolio: Nome:`<name of portfolio>`*.
 
 ![Raggruppamento per nome non modificato](assets/grouping-unedited-name-350x167.png)
 
-È possibile modificare questo raggruppamento utilizzando la modalità testo per visualizzare un nome più facilmente leggibile.
+È possibile modificare questo raggruppamento utilizzando la modalità testo per visualizzare un nome più facile da leggere.
 
 ![Raggruppamento per nome modificato](assets/grouping-edited-name-350x160.png)
 
@@ -44,15 +46,15 @@ Ad esempio, quando applichi il raggruppamento Nome Portfolio standard a un elenc
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,35 +67,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 Per modificare il nome visualizzato in un raggruppamento di progetti:
 
-1. Vai a un elenco di progetti.
-1. Dal menu a discesa **Raggruppamento**, seleziona **Nuovo raggruppamento**.
+1. Consente di passare a un elenco di progetti.
+1. Dal menu a discesa **Raggruppamento**, selezionare **Nuovo raggruppamento**.
 
-1. Fai clic su **Aggiungi raggruppamento** e inizia a digitare &quot;Nome Portfolio&quot; nel campo **Raggruppa per:**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. Fare clic su **Aggiungi raggruppamento** e iniziare a digitare &quot;Nome Portfolio&quot; nel campo **Raggruppa per:**, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
 1. Fare clic su **Passa alla modalità testo**.
-1. Effettuate una delle seguenti operazioni:
+1. Eseguire una delle operazioni seguenti:
 
-   * Aggiungere il codice seguente al testo esistente disponibile nella casella **Raggruppa report**:
+   * Aggiungi il codice seguente al testo esistente disponibile nella casella **Raggruppa il report**:
 
 
      `group.0.displayname=Your Value`
 
 
-     Ad esempio, aggiungete il codice seguente per modificare il nome visualizzato in &quot;Portfolio&quot;:
+     Ad esempio, aggiungi il seguente codice per cambiare il nome visualizzato in &quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
-   * Rimuovi tutte le righe dell’interfaccia della modalità testo del raggruppamento che contengono la parola &quot;nome&quot;, quindi aggiungi la riga:
+   * Rimuovi tutte le righe dell’interfaccia in modalità testo del raggruppamento contenenti la parola &quot;name&quot;, quindi aggiungi la riga:
 
      `group.0.name=Your Value`
 
-     Ad esempio, aggiungete il codice seguente per modificare il nome visualizzato in &quot;Portfolio&quot;:
+     Ad esempio, aggiungi il seguente codice per cambiare il nome visualizzato in &quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 
      >[!TIP]
      >
-     >È inoltre possibile lasciare vuote le righe `group.0.name=` e `group.0.displayname=`, nel qual caso il raggruppamento mostra il valore in base al quale si esegue il raggruppamento.
+     >È inoltre possibile lasciare vuote le righe `group.0.name=` e `group.0.displayname=`, nel qual caso il raggruppamento mostra il valore in base al quale si sta effettuando il raggruppamento.
 
 
      ![Raggruppamento per nome modificato senza nome](assets/grouping-edited-name-no-name-350x162.png)

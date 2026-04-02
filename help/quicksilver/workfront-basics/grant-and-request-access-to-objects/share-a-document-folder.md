@@ -6,10 +6,12 @@ description: È possibile condividere una cartella e il relativo contenuto dall'
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +32,8 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
-<!--drafted for P&P
+<!--
+drafted for P&P
 (I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
 
 <table style="table-layout:auto"> 
@@ -72,7 +75,7 @@ ht-degree: 2%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Chiaro o superiore</p> 
    <p>Revisione o successiva</p> 
    </td> 
@@ -82,13 +85,13 @@ ht-degree: 2%
    <td> <p>Visualizza accesso ai documenti</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione a un oggetto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,22 +6,26 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 # Convertire un’attività in un progetto
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Quando il completamento di un&#39;attività di un progetto richiede una quantità di lavoro maggiore di quella pianificata in origine, è possibile convertirla in un progetto.
 
@@ -38,7 +42,7 @@ Quando il completamento di un&#39;attività di un progetto richiede una quantit�
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p> </td> 
   </tr> 
@@ -47,7 +51,7 @@ Quando il completamento di un&#39;attività di un progetto richiede una quantit�
    <td> <p>Modifica accesso ad attività e progetti</p> <p>Accesso di visualizzazione o superiore ai modelli quando si converte in un progetto utilizzando un modello</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un’attività</p> <p>Visualizzare le autorizzazioni su un modello, se si converte in un progetto utilizzando un modello</p> <p>Dopo aver creato il progetto, disporrai delle autorizzazioni di gestione per il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -57,7 +61,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +85,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sulla conversione di attività in progetti
 

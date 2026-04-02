@@ -6,15 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3265'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Crea record
+# Creare record
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -43,7 +45,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
 * [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+* [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Requisiti di accesso
 
@@ -65,12 +67,12 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record. </p>
    <p>Visualizza o autorizzazioni superiori per l'area di lavoro e il tipo di record per creare record utilizzando il pulsante Richiedi record nella pagina record</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
@@ -84,7 +86,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -144,7 +147,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni durante la creazione di record
 
@@ -219,7 +223,8 @@ Viene aperto il modulo di richiesta del tipo di record.
    * Se si aggiungono record utilizzando un foglio di calcolo CSV o Excel, al tipo di record verranno aggiunti più record.
    * Se hai aggiunto la richiesta inviando un modulo di richiesta, viene aggiunta una nuova richiesta nell’area Richieste di Workfront.
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -485,7 +490,7 @@ Per informazioni sulla duplicazione dei record, vedere [Record duplicati](/help/
 
 È possibile creare i seguenti tipi di oggetto quando si collegano da altri record:
 
-* Record di Workfront Planning
+* Record Pianificazione di Workfront
 * Oggetti Workfront
 
 In questa sezione viene descritto come creare record di Workfront Planning durante la connessione da altri record.
@@ -552,7 +557,7 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 È possibile importare record quando si importano tipi di record utilizzando un file CSV o Excel.
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Creare record importando record da un file CSV o Excel
 

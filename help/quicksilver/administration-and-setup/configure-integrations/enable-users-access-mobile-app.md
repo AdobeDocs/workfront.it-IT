@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 27%
@@ -60,6 +62,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **[!UICONTROL Salva].**
 
-Per informazioni su come utilizzare l&#39;app mobile [!DNL Workfront] dopo che è stata abilitata per il sito, vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Per informazioni su come utilizzare l&#39;app mobile [!DNL Workfront] dopo che è stata abilitata per il sito, vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 Per informazioni sull&#39;utilizzo di [!DNL Workfront for Outlook], vedere la sezione [Utilizzo di [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

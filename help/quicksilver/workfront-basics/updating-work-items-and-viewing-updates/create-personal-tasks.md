@@ -6,10 +6,12 @@ description: Le attività personali sono richieste di lavoro ad hoc inviate a un
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -45,7 +47,7 @@ Indipendentemente dalla modalità di aggiunta di un&#39;attività personale, è 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,7 @@ Indipendentemente dalla modalità di aggiunta di un&#39;attività personale, è 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
    <p>Standard<p>
    <p>Piano</p>
@@ -78,7 +80,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Creare una richiesta di lavoro personale

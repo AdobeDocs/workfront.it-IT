@@ -1,12 +1,14 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: Migrazione delle schede kanban Agile Team alle schede madri Workfront
-description: Puoi migrare i tuoi elementi di lavoro da una bacheca Agile team Kanban a una bacheca Workfront nuova o esistente.
+title: Migrazione delle schede Kanban del team Agile alle schede madri Workfront
+description: Puoi migrare gli elementi di lavoro da una bacheca Kanban del team Agile a una bacheca Workfront nuova o esistente.
 author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 13%
@@ -15,11 +17,11 @@ ht-degree: 13%
 
 # Migrazione delle schede Kanban del team Agile alle bacheche Workfront
 
-Puoi migrare i tuoi elementi di lavoro da una bacheca Agile team Kanban a una bacheca Workfront nuova o esistente. Quando esegui la migrazione, tutte le schede nella scheda kanban vengono copiate nella scheda Workfront. Non è consentito scegliere schede specifiche.
+Puoi migrare gli elementi di lavoro da una bacheca Kanban del team Agile a una bacheca Workfront nuova o esistente. Quando esegui la migrazione, tutte le schede sulla bacheca Kanban vengono copiate nella bacheca Workfront. Non è consentito scegliere schede specifiche.
 
-La posizione delle schede sulla scheda madre Workfront si basa su criteri colonna. (Ad esempio, una policy potrebbe spostare tutte le carte con uno stato di &quot;In corso&quot; in una colonna specifica. Per ulteriori informazioni sui criteri di colonna, consulta [Gestire le colonne delle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se non sono presenti criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra della bacheca. Al momento, le schede nella colonna Backlog nella scheda precedente non vengono aggiunte alla scheda Workfront.
+Il posizionamento delle schede sulla bacheca Workfront si basa su criteri colonna. Ad esempio, una policy potrebbe spostare tutte le carte con lo stato &quot;In corso&quot; in una colonna specifica. Per ulteriori informazioni sui criteri di colonna, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se non sono presenti criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra della bacheca. Al momento, le schede nella colonna Backlog nella bacheca legacy non vengono aggiunte alla bacheca Workfront.
 
-Le schede non vengono rimosse dalla bacheca Agile team Kanban e le modifiche allo stato della scheda verranno sincronizzate con entrambe le bacheche. Puoi mantenere entrambe le schede attive fino a quando non sei pronto per passare alle schede madri Workfront.
+Le schede non vengono rimosse dalla bacheca Kanban del team Agile e le modifiche di stato delle schede verranno sincronizzate con entrambe le bacheche. È possibile mantenere entrambe le schede attive fino a quando non si è pronti a passare alle schede Workfront.
 
 ## Requisiti di accesso
 
@@ -47,26 +49,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Migrare le schede kanban a una nuova bacheca
+## Migrare schede Kanban a una nuova bacheca
 
 {{step1-to-team}}
 
-1. Accedi a una bacheca kanban.
+1. Accedi a un Kanban Board.
 1. Fai clic su [!UICONTROL **Aggiungi alle bacheche**] e seleziona [!UICONTROL **Nuova bacheca**].
-1. Nella finestra di dialogo [!UICONTROL Aggiungi a nuova bacheca], digita un nome per la nuova bacheca (il nome della bacheca [!UICONTROL Kanban] corrente viene visualizzato automaticamente) e fai clic su [!UICONTROL **Aggiungi**].
+1. Nella finestra di dialogo [!UICONTROL Aggiungi a nuova bacheca], digita un nome per la nuova bacheca (viene visualizzato automaticamente il nome della bacheca [!UICONTROL Kanban] corrente) e fai clic su [!UICONTROL **Aggiungi**].
 
-   ![Aggiungere schede kanban alla nuova bacheca](assets/add-kanban-cards-to-new-board-dialog.png)
+   ![Aggiungi schede Kanban a una nuova bacheca](assets/add-kanban-cards-to-new-board-dialog.png)
 
-1. (Facoltativo) Nel messaggio di operazione completata, fai clic sul collegamento per aprire la nuova bacheca.
+1. (Facoltativo) Nel messaggio di successo visualizzato, fai clic sul collegamento per aprire la nuova bacheca.
 
-## Migrare schede kanban a una scheda esistente
+## Migrare schede Kanban a una bacheca esistente
 
 {{step1-to-team}}
 
-1. Accedi a una bacheca kanban.
+1. Accedi a un Kanban Board.
 1. Fai clic su [!UICONTROL **Aggiungi alle bacheche**] e seleziona [!UICONTROL **Bacheca esistente**].
-1. Nella finestra di dialogo [!UICONTROL Aggiungi a bacheca esistente], cerca e seleziona la bacheca in cui migrare le schede. Fai quindi clic su [!UICONTROL **Aggiungi**].
+1. Nella finestra di dialogo [!UICONTROL Aggiungi alla bacheca esistente], cerca e seleziona la bacheca in cui migrare le schede. Quindi fare clic su [!UICONTROL **Aggiungi**].
 
-   ![Aggiungere schede kanban alla bacheca esistente](assets/add-kanban-cards-to-existing-board-dialog.png)
+   ![Aggiungi schede Kanban alla bacheca esistente](assets/add-kanban-cards-to-existing-board-dialog.png)
 
-1. (Facoltativo) Nel messaggio di operazione completata, fai clic sul collegamento per aprire la bacheca.
+1. (Facoltativo) Nel messaggio di successo visualizzato, fai clic sul collegamento per aprire la bacheca.

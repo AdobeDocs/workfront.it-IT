@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Carica tavole da disegno di XD come documenti in Workfront
+title: Caricare le tavole da disegno di XD come documenti in Workfront
 description: Potete caricare le vostre tavole da disegno come documenti per una rapida revisione e approvazione o semplicemente per archiviarle in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,14 +22,15 @@ Puoi caricare le tue tavole da disegno come documenti per una revisione e approv
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,7 +39,8 @@ Puoi caricare le tue tavole da disegno come documenti per una revisione e approv
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
@@ -45,7 +49,7 @@ Puoi caricare le tue tavole da disegno come documenti per una revisione e approv
    <td> <p>Modifica accesso a [!UICONTROL Documents]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di [!UICONTROL View] o versione successiva all'oggetto in cui si desidera caricare un documento.</p> </td> 
   </tr> 
  </tbody> 

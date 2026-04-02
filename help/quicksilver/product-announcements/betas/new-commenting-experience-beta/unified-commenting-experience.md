@@ -1,7 +1,7 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-experience-beta
-title: Nuova esperienza di commento
+title: Nuova esperienza dei commenti
 description: È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 author: Alina
 feature: Product Announcements
@@ -9,14 +9,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
-# Nuova esperienza di commento
+# Nuova esperienza dei commenti
 
 <!--take out legacy, preview, prod references from below-->
 
@@ -61,7 +63,8 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Quando si modifica la casella del profilo di un utente, l’impostazione &quot;Mostra percentuale di completamento all’aggiornamento dello stato&quot; viene rimossa. È stata rimossa la funzionalità di aggiornamento della percentuale di completamento di un’attività o di un problema.
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

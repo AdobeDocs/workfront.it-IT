@@ -7,7 +7,9 @@ description: Leggi questo articolo per saperne di più sul consenso anticipato a
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -33,7 +35,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <th><strong>Stato</strong></th> 
   </tr>
   <tr>
-   <td>Area [!UICONTROL Bacheche] nel menu principale </td>
+   <td>Area [!UICONTROL Bacheche] nel menu principale [!UICONTROL]</td>
    <td>Rilasciato</td>
   </tr>
     <tr>
@@ -61,7 +63,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Aggiungi limiti di [!UICONTROL Work in Progress] alle colonne</td>
+   <td>Aggiungi limiti [!UICONTROL Work In Progress] alle colonne</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
@@ -73,7 +75,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Aggiungi dettagli elemento elenco di controllo</td>
+   <td>Aggiungi dettagli voce elenco di controllo</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
@@ -89,15 +91,15 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Filtra le schede collegate per progetto</td>
+   <td>Filtra schede collegate per progetto</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Definire il decadimento della carta</td>
+   <td>Definire la perdita di dati della carta</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Cerca una bacheca e ordina il dashboard</td>
+   <td>Cerca una bacheca e ordina la dashboard</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
@@ -125,11 +127,11 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Creare iterazioni</td>
+   <td>Creare le iterazioni</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Definire l'elenco delle schede o il backlog</td>
+   <td>Definire l’elenco delle schede o il backlog</td>
    <td>Rilasciato</td>
   </tr>
   <tr>
@@ -177,27 +179,27 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Visualizzare documenti su schede collegate</td>
+   <td>Visualizza documenti su schede collegate</td>
    <td>Rilasciato</td>
   </tr>
  </tbody>
 </table>
 
-## Accetta le funzioni iniziali
+## Consenso alle funzioni anticipate
 
 ### Disponibilità
 
-Le prime funzioni delle bacheche sono disponibili per tutte le organizzazioni. Il coinvolgimento è completamente facoltativo.
+Tutte le organizzazioni possono accedere alle funzioni iniziali delle bacheche. Il coinvolgimento è completamente facoltativo.
 
-### Accetta
+### Consenso accordato
 
-Solo [!DNL Workfront] amministratori possono attivare le funzionalità iniziali per le bacheche. Quando un amministratore di [!DNL Workfront] abilita le funzioni iniziali, tutti gli utenti dell&#39;organizzazione hanno aderito.
+Solo gli amministratori di [!DNL Workfront] possono dare il consenso alle funzioni anticipate per le bacheche. Quando un amministratore [!DNL Workfront] abilita le funzioni anticipate, tutti gli utenti dell&#39;organizzazione hanno acconsentito.
 
 {{step1-to-boards}}
 
-1. Fai clic su ![Opzione per la funzione iniziale](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Opzione per la funzione iniziale]) nella parte superiore della schermata del dashboard.
-1. Fai clic su **[!UICONTROL Abilita]**.
-1. Inizia a utilizzare le funzioni iniziali delle bacheche.
+1. Fai clic su ![Anteprima consenso funzionalità](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Anteprima consenso funzionalità]) nella parte superiore della schermata del dashboard.
+1. Fare clic su **[!UICONTROL Abilita]**.
+1. Iniziare a utilizzare le funzioni iniziali delle schede madri.
 
 ## Invia feedback
 
@@ -208,23 +210,23 @@ Solo [!DNL Workfront] amministratori possono attivare le funzionalità iniziali 
 
 ### Come posso sapere se la mia organizzazione ha acconsentito alle funzioni iniziali?
 
-Contatta l&#39;amministratore di [!DNL Workfront] per sapere se ha attivato le funzionalità iniziali per le bacheche.
+Contattare l&#39;amministratore [!DNL Workfront] per verificare se sono state attivate le funzionalità precedenti per le bacheche.
 
-### Le funzioni iniziali possono essere attivate solo per determinati utenti?
+### È possibile abilitare le funzioni anticipate solo per determinati utenti?
 
-Quando l&#39;amministratore di [!DNL Workfront] abilita le funzioni iniziali per le bacheche, tutti gli utenti dell&#39;organizzazione hanno aderito.
+Quando l&#39;amministratore [!DNL Workfront] abilita le funzioni anticipate per le bacheche, tutti gli utenti dell&#39;organizzazione hanno acconsentito.
 
-Tuttavia, l&#39;amministratore di [!DNL Workfront] può nascondere l&#39;opzione Bacheche dal [!UICONTROL menu principale] per singoli utenti o gruppi di utenti con un modello di layout. Per informazioni, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Tuttavia, l&#39;amministratore [!DNL Workfront] può nascondere l&#39;opzione Bacheche dal [!UICONTROL menu principale] per singoli utenti o gruppi di utenti con un modello di layout. Per informazioni, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
 >Ciò non impedisce agli utenti di accedere alle bacheche utilizzando un URL. Impedisce loro solo di visualizzare l&#39;opzione [!DNL Boards] nel [!UICONTROL menu principale].
 
-### Posso annullare le prime funzionalità dopo aver effettuato l’iscrizione?
+### Posso rinunciare alle funzioni precedenti una volta che mi sono unito?
 
-Solo [!DNL Workfront] amministratori possono annullare la ricezione delle funzionalità iniziali. Se un amministratore di [!DNL Workfront] disattiva le funzioni iniziali, tutti gli utenti dell&#39;organizzazione sono esclusi.
+Solo gli amministratori [!DNL Workfront] possono rinunciare alla ricezione di funzionalità anticipate. Se un amministratore di [!DNL Workfront] disabilita le funzionalità precedenti, tutti gli utenti dell&#39;organizzazione vengono esclusi.
 
 {{step1-to-boards}}
 
-1. Nella parte superiore della schermata del dashboard, fai clic su ![Opzione iniziale della funzione abilitata](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Opzione iniziale della funzione abilitata]).
-1. Fai clic su **[!UICONTROL Disabilita]**.
+1. Fai clic su ![Anteprima consenso funzionalità abilitata](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Anteprima consenso funzionalità abilitata]) nella parte superiore della schermata del dashboard.
+1. Fare clic su **[!UICONTROL Disattiva]**.

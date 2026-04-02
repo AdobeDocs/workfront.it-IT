@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Richiedi un progetto
+title: Richiedere un progetto
 description: È possibile richiedere l'approvazione di un progetto prima di iniziare a lavorarci. Si consiglia di creare un Business Case per un nuovo progetto, in modo da poter delineare alcuni dei punti chiave che si desidera raggiungere completandolo, nonché di presentare al team di gestione il proprio budget di lavoro e spese. La compilazione del Business Case e l'invio del progetto per l'approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l'approvazione, lo stato del progetto diventa Richiesto.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Richiedi un progetto
+# Richiedere un progetto
 
 <!--Audited: 10/2025-->
 
@@ -45,7 +47,7 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licenza di Adobe Workfront</p> </td> 
    <td> <p>Standard</p>
    <p>Piano</p>
    </td> 
@@ -57,7 +59,7 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Quando crei una richiesta di progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> 
    <p>Se richiedi un progetto da un portfolio o da un programma, devi disporre delle autorizzazioni di gestione per il portfolio e il programma.</p>
    </td> 
@@ -69,7 +71,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,9 +98,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Richiedi un progetto
+## Richiedere un progetto
 
 1. Esegui una delle operazioni seguenti:
 

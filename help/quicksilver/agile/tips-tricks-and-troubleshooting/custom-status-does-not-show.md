@@ -3,11 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
 title: Gli stati personalizzati non vengono visualizzati nella bacheca delle storie di Agile
-description: Se si desidera utilizzare uno stato personalizzato in un storyboard Agile, l'amministratore di  [!DNL Adobe Workfront]  deve prima creare tale stato personalizzato come stato a livello di sistema.
+description: Se desideri utilizzare uno stato personalizzato in una bacheca delle storie di Agile, il tuo amministratore  [!DNL Adobe Workfront]  deve prima creare tale stato personalizzato come stato a livello di sistema.
 author: Courtney
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 24%
@@ -16,4 +18,4 @@ ht-degree: 24%
 
 # Gli stati personalizzati non vengono visualizzati nella bacheca delle storie di Agile
 
-Se si desidera utilizzare uno stato personalizzato in un storyboard Agile, l&#39;amministratore di [!DNL Adobe Workfront] deve prima creare tale stato personalizzato come stato a livello di sistema. Per ulteriori informazioni, chiedere all&#39;amministratore di [!DNL Workfront] di vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Se si desidera utilizzare uno stato personalizzato in una bacheca delle storie di Agile, l&#39;amministratore di [!DNL Adobe Workfront] deve prima creare tale stato personalizzato come stato a livello di sistema. Per ulteriori informazioni, chiedere all&#39;amministratore di [!DNL Workfront] di vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

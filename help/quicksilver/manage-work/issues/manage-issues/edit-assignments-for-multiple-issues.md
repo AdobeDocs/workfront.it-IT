@@ -6,10 +6,12 @@ description: Modificare le assegnazioni utente per più problemi in un elenco
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -20,18 +22,20 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 È possibile modificare simultaneamente le assegnazioni degli utenti a più problemi. Per informazioni sulla modifica o l’assegnazione di problemi uno alla volta, consulta anche i seguenti articoli:
 
 * [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md)
+* [Assegnare problemi](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -52,16 +56,16 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <td>Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore a progetti e attività per assegnare un problema</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per il problema</p> <p>Quando si assegnano più problemi, contribuire con autorizzazioni o versioni successive al progetto o all’attività in cui si trova il problema.</p>  </td> 
   </tr> 
  </tbody> 
@@ -132,7 +136,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fai clic su **Salva**.
 
 
-   <!--Old functionality for assignments for issues - before November 2025:
+   <!--
+   Old functionality for assignments for issues - before November 2025:
    1. (Conditional) In the Production environment, do the following: 
    1. Go to the **Assignments** section, then select **Assignee**.
       ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
@@ -159,7 +164,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
          1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
           * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
             * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
-      1. Click **Save Changes**.-->
+      1. Click **Save Changes**.
+      -->
 
 
 

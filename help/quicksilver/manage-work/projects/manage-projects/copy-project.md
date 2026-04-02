@@ -7,10 +7,12 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -53,7 +55,7 @@ Non è possibile copiare i progetti in blocco.
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,10 +63,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td> <p>Pacchetto Adobe Workfront</p> </td>  
-   <td>Any</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
    <td> <p>Standard</p> 
    <p>Piano</p>
       </td> 
@@ -73,17 +75,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Modificare l’accesso ai progetti con la possibilità di creare e copiare progetti</p> </td> 
   </tr>
 
-<td> <p>Autorizzazioni oggetto </p> </td> 
+<td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +113,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni
 

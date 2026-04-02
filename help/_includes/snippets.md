@@ -1,5 +1,5 @@
 ---
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 2%
@@ -8,7 +8,8 @@ ht-degree: 2%
 # Frammenti
 
 <!-- 
-Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. 
+-->
 
 <!-- General -->
 
@@ -16,7 +17,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 

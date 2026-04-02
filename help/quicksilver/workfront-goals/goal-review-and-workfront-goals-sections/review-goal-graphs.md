@@ -6,7 +6,9 @@ description: Puoi visualizzare lo stato complessivo dei tuoi obiettivi e la loro
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 8%
@@ -76,7 +78,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Tipi di grafici in Obiettivi Workfront
 

@@ -7,26 +7,30 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Assegna attività
+# Assegnare attività
 
 <!--Audited: 10/2025-->
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>-->
+</div>
+-->
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
@@ -54,7 +58,7 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
 * [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Imposta la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Panoramica sull’assegnazione del lavoro nel bilanciamento dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisiti di accesso
 
@@ -66,10 +70,10 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p>
    </td> 
@@ -79,7 +83,7 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
    <td> <p>Modificare l’accesso a Progetti e Attività</p> <p>Accesso di visualizzazione o superiore agli utenti</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td>Autorizzazioni di contribuzione o di livello superiore per l'attività</td>
   </tr>
  </tbody>
@@ -100,8 +104,10 @@ Per istruzioni su come modificare questa impostazione, vedere le informazioni su
 
 * Un team non può essere un assegnatario principale di un&#39;attività o di un problema. Solo un utente o una mansione può essere designata come principale per un’attività o un problema.
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
-You cannot make a team be a Primary on a task/ issue. (Alina) -->
+<!--
+ If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina)
+-->
 
 * Le attività e i problemi di un progetto possono essere assegnati prima a uno o più team o mansioni. Quando il progetto è pronto per iniziare, potrebbe essere necessario assegnarlo anche agli utenti:
 
@@ -275,7 +281,8 @@ Per assegnare le attività in un elenco:
 -->
 
 
-<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+<!--
+Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
 
 ### Assign multiple tasks in bulk from a list in the Production environment
 

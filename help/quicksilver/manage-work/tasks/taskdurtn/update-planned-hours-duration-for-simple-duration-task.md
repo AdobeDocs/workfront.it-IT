@@ -6,14 +6,16 @@ description: Per impostazione predefinita, Adobe Workfront calcola la durata di 
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice
+# Aggiornare le ore pianificate e la durata di un’attività con un tipo di durata semplice
 
 Per impostazione predefinita, Adobe Workfront calcola la durata di un&#39;attività con un tipo di durata semplice in base alla quantità di ore pianificate. Tuttavia, in alcune aree di Workfront è anche possibile modificare manualmente la quantità di ore pianificate e la durata di un&#39;attività di durata semplice.
 
@@ -36,7 +38,7 @@ Questo articolo descrive come aggiornare le ore e la durata pianificate per un&#
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard o superiore</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -45,7 +47,7 @@ Questo articolo descrive come aggiornare le ore e la durata pianificate per un&#
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modifica l'accesso alle Attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire l’accesso all’attività </p></td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,9 +81,10 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Aggiornare le ore e la durata pianificate di un&#39;attività con un tipo di durata semplice
+## Aggiornare le ore pianificate e la durata di un’attività con un tipo di durata semplice
 
 >[!IMPORTANT]
 >

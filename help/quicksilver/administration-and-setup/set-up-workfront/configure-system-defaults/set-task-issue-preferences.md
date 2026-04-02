@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2228'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,12 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
-Linked to Converting Issues.-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.
+-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze a livello di sistema per le attività e i problemi. Queste preferenze influiscono sul modo in cui gli utenti creano attività e problemi in [!DNL Workfront].
@@ -34,7 +40,7 @@ Per impostazione predefinita, le preferenze relative a attività e problemi sono
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +53,7 @@ Per impostazione predefinita, le preferenze relative a attività e problemi sono
   <tr> 
    <td>[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+       <p>[!UICONTROL Piano]</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
@@ -84,16 +90,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Data Inizio]</td> 
+    <td role="rowheader">[!UICONTROL Data di inizio]</td> 
     <td> <p>Determina la data di inizio predefinita per le nuove attività dei project manager. La data di inizio per le nuove attività può essere la data di inizio pianificata del progetto o il giorno in cui l'attività viene creata.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>Tipo di durata  </p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Tipo di durata] </p> </td> 
     <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata attività</a></p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Tipo di retribuzione]</td> 
-    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong></strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
+    <td role="rowheader">[!UICONTROL Tipo di entrate]</td> 
+    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong>[!UICONTROL]</strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
          <p>Per informazioni sui diversi tipi di ricavi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p></td> 
     </tr> 
     <tr> 

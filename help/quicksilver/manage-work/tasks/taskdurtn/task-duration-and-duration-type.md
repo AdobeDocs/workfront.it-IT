@@ -2,26 +2,30 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: Panoramica sulla durata e sul tipo di durata dell'attività
+title: Panoramica sulla durata dell’attività e sul tipo di durata
 description: La Durata attività è la differenza tra la Data di completamento pianificata e la Data di inizio pianificata dell'attività. La Durata indica l'intervallo di tempo disponibile per il completamento dell'attività.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Panoramica sulla durata e sul tipo di durata dell&#39;attività
+# Panoramica sulla durata dell’attività e sul tipo di durata
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 La Durata attività è la differenza tra la Data di completamento pianificata e la Data di inizio pianificata dell&#39;attività. La Durata indica l&#39;intervallo di tempo disponibile per il completamento dell&#39;attività.
 
@@ -103,7 +107,7 @@ Se si desidera indicare che la durata di un&#39;attività è di 3 giorni trascor
 
 Quando si indica la durata di un&#39;attività, tenere presente quanto segue:
 
-* Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
+* Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso indica il passaggio effettivo dei giorni solari.
 * I giorni rappresentano i giorni lavorativi definiti nel sistema ed è configurabile nell’area Configura. Nella maggior parte dei casi, un giorno consiste di 8 ore.
 * L&#39;orario regolare (giorni o giorni lavorativi) tiene conto delle festività, dei fine settimana e delle indisponibilità e le esclude dalla Durata dell&#39;attività.
 * Quando si indica la Durata di un&#39;attività in settimane, Workfront calcola la Durata in giorni e ore in base alle impostazioni Giornate lavorative tipiche e Ore tipiche per giorno lavorativo impostate dall&#39;amministratore di Workfront nell&#39;area Preferenze progetto di configurazione.
@@ -170,7 +174,7 @@ Quando un&#39;attività diventa padre, la durata tra la data di inizio pianifica
 
 Quando i figli utilizzano l&#39;unità di durata Giorni trascorsi e il padre utilizza l&#39;unità di durata Giorni, potrebbero verificarsi discrepanze nel modo in cui Workfront calcola la durata dell&#39;attività padre.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * L&#39;unità di durata Giorni trascorsi rappresenta i giorni di calendario, che sono sempre costituiti da 24 ore al giorno.
 * L&#39;unità di durata Giorni rappresenta il giorno lavorativo definito nel sistema ed è configurabile. Nella maggior parte dei casi, è costituito da 8 ore al giorno.

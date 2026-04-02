@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtro: Visualizza report pianificati per la consegna'
-description: Questo filtro di report visualizza tutti i report che devono essere consegnati automaticamente in Adobe Workfront. È consigliabile utilizzarla con la visualizzazione standard.
+title: 'Filtro: visualizzare i rapporti pianificati per la consegna'
+description: Questo filtro per la generazione di rapporti mostra tutti i rapporti pianificati per essere consegnati automaticamente in Adobe Workfront. È meglio utilizzarlo con la visualizzazione standard.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 27%
@@ -18,7 +20,7 @@ ht-degree: 27%
 
 <!--Audited: 10/2024-->
 
-Questo filtro di report visualizza tutti i report che devono essere consegnati automaticamente in Adobe Workfront. È consigliabile utilizzarla con la visualizzazione standard.
+Questo filtro per la generazione di rapporti mostra tutti i rapporti pianificati per essere consegnati automaticamente in Adobe Workfront. È meglio utilizzarlo con la visualizzazione standard.
 
 ## Requisiti di accesso
 
@@ -36,15 +38,15 @@ Questo filtro di report visualizza tutti i report che devono essere consegnati a
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,15 +55,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Filtro recapito report
+## Filtro di consegna del rapporto
 
 Per applicare questo filtro:
 
-1. Consente di passare a un elenco di report.
+1. Passare a un elenco di report.
 
-1. Dal menu a discesa **Filtro**, seleziona **Nuovo filtro**.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
-1. Fai clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 
 1. Nell&#39;area **Imposta regole filtro per il report**, copiare e incollare il codice seguente:
 

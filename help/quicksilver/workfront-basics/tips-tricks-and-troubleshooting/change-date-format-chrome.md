@@ -7,7 +7,9 @@ description: Per modificare il formato della data per le date in [!DNL Adobe Wor
 feature: Get Started with Workfront
 author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -58,7 +60,8 @@ In Workfront è possibile modificare i formati delle date nei modi seguenti, a s
 
   Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--drafted because we should not document steps for a third-party application
+<!--
+drafted because we should not document steps for a third-party application
 
 To change your language settings in Chrome:
 

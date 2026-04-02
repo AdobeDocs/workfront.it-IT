@@ -6,21 +6,25 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3154'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Aggiorna lavoro
+# Aggiornare lavoro
 
 <!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -64,7 +68,7 @@ Per ulteriori informazioni sul commento su schede, obiettivi e record in Workfro
 
 * [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-* [Gestisci commenti record](/help/quicksilver/planning/records/manage-record-comments.md)
+* [Gestire i commenti dei record](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Requisiti di accesso
 
@@ -81,11 +85,11 @@ Per ulteriori informazioni sul commento su schede, obiettivi e record in Workfro
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> <p>Per problemi e documenti:</p>
 
-<ul><li><p>Collaboratore o versione successiva</p></li>
-   <li><p>Richiedi o superiore</p></li></ul>
+<ul><li><p>Collaboratore o successiva</p></li>
+   <li><p>Richiedente o successiva</p></li></ul>
 
 <p>Per tutti gli altri oggetti:</p>
    <ul><li><p>Chiaro o superiore</p></li>
@@ -98,7 +102,7 @@ Per ulteriori informazioni sul commento su schede, obiettivi e record in Workfro
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
   </tr> 
  </tbody> 
@@ -108,7 +112,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -170,12 +175,12 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       * Un elenco di oggetti
       * Una scheda orario
       * Pagina Home
-      * Il Bilanciatore dei carichi di lavoro
+      * Bilanciamento dei carichi di lavoro
 
      Per ulteriori informazioni, consulta i seguenti articoli:
 
-      * [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+      * [Panoramica del riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Aggiornare gli elementi di lavoro nel bilanciamento dei carichi di lavoro utilizzando il riepilogo](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -652,13 +657,16 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+<!--
+ with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
->Iterations display the legacy commenting experience.-->
+>Iterations display the legacy commenting experience.
+-->
 
-<!--old message, before Auhust 17: 
+<!--
+old message, before Auhust 17: 
 
 >[!NOTE]
 >

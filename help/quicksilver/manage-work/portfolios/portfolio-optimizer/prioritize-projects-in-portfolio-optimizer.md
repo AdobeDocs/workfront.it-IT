@@ -1,15 +1,17 @@
 ---
-title: Assegnare la priorità ai progetti in Portfolio Optimizer
+title: Assegnare priorità ai progetti in ottimizzatore portfolio
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 description: Puoi assegnare la priorità ai progetti in Portfolio Optimizer per stabilire l’ordine in cui devono essere completati.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -47,14 +49,14 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e </p>  </td>
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e [!UICONTROL]</p>  </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p>  </td> 
   </tr> 
  </tbody> 
@@ -64,7 +66,8 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modifica la priorità dei progetti in [!UICONTROL Portfolio Optimizer]
 

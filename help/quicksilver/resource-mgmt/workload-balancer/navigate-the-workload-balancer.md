@@ -1,19 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Navigare nel Bilanciatore dei carichi di lavoro
+title: Esplorare il bilanciamento dei carichi di lavoro
 description: Utilizza il Bilanciatore dei carichi di lavoro per comprendere la disponibilità delle risorse e per assegnare lavoro agli utenti. Questo articolo illustra come utilizzare le icone e le impostazioni disponibili per aggiornare la visualizzazione e navigare nel Bilanciatore dei carichi di lavoro.
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Navigare nel Bilanciatore dei carichi di lavoro
+# Esplorare il bilanciamento dei carichi di lavoro
 
 <!--Audited: 12/2024-->
 
@@ -21,11 +23,11 @@ Utilizza il Bilanciatore dei carichi di lavoro in Adobe Workfront per assegnare 
 
 Il Bilanciatore dei carichi di lavoro è disponibile in più aree di Adobe Workfront. La navigazione è simile in tutte le aree.
 
-Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavor
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -46,13 +48,13 @@ Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavor
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li> 
     </ul>
    </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</td> 
   </tr> 
  </tbody> 
@@ -96,15 +98,15 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
 
 Per ulteriori informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi anche i seguenti articoli:
 
-* [Individuare il Bilanciatore dei carichi di lavoro](../workload-balancer/locate-workload-balancer.md)
-* [Filtrare le informazioni nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md)
-* [Condividere il Bilanciatore dei carichi di lavoro con un collegamento](../workload-balancer/share-link-for-workload-balancer.md)
+* [Individuare il bilanciamento dei carichi di lavoro](../workload-balancer/locate-workload-balancer.md)
+* [Filtrare le informazioni nel bilanciamento dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md)
+* [Condividere il bilanciamento dei carichi di lavoro con un collegamento](../workload-balancer/share-link-for-workload-balancer.md)
 * [Aggiorna elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Per informazioni sulla gestione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedi anche i seguenti articoli:
 
-* [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigare nel Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse
 
@@ -182,7 +184,7 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. Utilizzare lo scorrimento orizzontale per visualizzare la sequenza temporale degli elementi di lavoro che si estendono oltre i limiti dello schermo.
 1. Fai clic sulle icone **avanti o indietro** ![Indietro e avanti](assets/back-and-forward-icons.png) nell&#39;angolo superiore sinistro per spostarti nella timeline, quindi fai clic su **Oggi** per tornare alla settimana corrente.
-1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **&#x200B;**&#x200B;sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
+1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **** sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
 
    ![Selezione calendario](assets/calendar-date-picker-wb.png)
 
@@ -348,7 +350,7 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. Fai clic su **Assegnazioni in blocco** per assegnare elementi di lavoro in blocco.
 
-   Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il bilanciamento dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 1. Trascina gli elementi dall&#39;area **Lavoro non assegnato** o da un utente e rilasciali su un altro utente per assegnarli.
 
    Per ulteriori informazioni, consulta [Assegnare il lavoro nel Bilanciatore dei carichi di lavoro trascinandolo](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
@@ -496,7 +498,8 @@ Puoi accedere al Bilanciatore dei carichi di lavoro sul tuo profilo utente.
 1. Continuare a navigare nel Bilanciatore dei carichi di lavoro di un utente come descritto nella sezione [Passare al Bilanciatore dei carichi di lavoro per più progetti](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) di questo articolo.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

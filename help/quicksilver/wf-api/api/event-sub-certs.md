@@ -7,16 +7,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Configurare Client TLS per la sottoscrizione di eventi
+# Configurare Client TLS per la sottoscrizione a eventi
 
-<!--Configuring Client TLS for Event Subscription
+<!--
+Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
 Examples for Server configuration
 NGINX
@@ -92,7 +95,7 @@ Listen 443
 </Directory>
 ```
 
-Per ulteriori informazioni, vedi  
+Per ulteriori informazioni, consulta  
 
 * [Autenticazione client e controllo degli accessi](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
 * [Modulo Apache mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)

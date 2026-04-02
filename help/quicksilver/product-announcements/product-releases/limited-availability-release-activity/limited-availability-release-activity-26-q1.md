@@ -8,15 +8,17 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-
-# Attività della versione del primo trimestre 2026 per le funzioni di disponibilità limitata di Adobe Workfront
+# Attività sul rilascio del primo trimestre 2026 delle funzioni con disponibilità limitata di Adobe Workfront
 
 Questo articolo descrive le funzioni di disponibilità limitata di Workfront rilasciate durante il primo trimestre del 2026.
 
@@ -61,19 +63,20 @@ Nella ricerca avanzata delle assegnazioni, la selezione di un&#39;opzione per **
 
 L&#39;indicatore KPI ore pianificate nella schermata Assegnazioni avanzate non è più modificabile quando la durata dell&#39;attività è 0. In precedenza era possibile modificare le ore pianificate ma le modifiche non venivano salvate.
 
-### Aggiornamenti di manutenzione della settimana dal 30 novembre al 6 dicembre 2025
+### Aggiornamenti di manutenzione - Settimana dal 30 novembre al 6 dicembre 2025
 
 **Campo Data tasso di cambio nascosto quando non vengono utilizzati i tassi di cambio validi per la data**
 
 Il campo **Data tasso di cambio** nell&#39;area Dettagli progetto > Contabilità è ora nascosto quando la casella di controllo **Usa tassi di cambio validi per la data dal sistema** non è selezionata. In precedenza, durante la modifica di un progetto, il campo data veniva visualizzato nei dettagli del progetto anche quando i tassi di cambio validi per la data non erano abilitati.
 
-### Aggiornamenti di manutenzione della settimana dal 4 al 10 gennaio 2026
+### Aggiornamenti di manutenzione - Settimana dal 4 al 10 gennaio 2026
 
 **I tassi di ruolo ora consentono intervalli nelle date di validità**
 
 Le date di validità sui tassi di ruolo ora consentono i gap, anche se non sono consentite date sovrapposte. Durante un intervallo, altre aree della gerarchia delle tariffe di fatturazione vengono utilizzate per determinare la tariffa di fatturazione, in base al tipo di ricavi di un&#39;attività.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

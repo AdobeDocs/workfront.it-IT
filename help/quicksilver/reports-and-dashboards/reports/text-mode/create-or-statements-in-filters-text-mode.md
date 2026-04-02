@@ -6,7 +6,9 @@ description: È possibile includere più istruzioni quando si crea un filtro in 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 4%
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 È possibile includere più istruzioni quando si crea un filtro in elenchi e report.
 
-For information about creating filters, see the following articles:
+Per informazioni sulla creazione di filtri, consulta i seguenti articoli:
 
 * [Panoramica sui filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Modificare un filtro utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
@@ -43,7 +45,7 @@ Workfront dispone di 2 operatori di filtro che collegano ogni istruzione di filt
   Complete_Mod=lt
   ```
 
-* **OR**: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.
+* **OR**: quando si uniscono due istruzioni di filtro dell&#39;operatore OR, si indica che si desidera soddisfare una delle due istruzioni.
 
   >[!TIP]
   >
@@ -79,9 +81,9 @@ La sintassi della modalità testo per un filtro OR deve contenere i seguenti ele
   >
   >L’operatore OR distingue tra maiuscole e minuscole e utilizza sempre lettere maiuscole.
 
-  In un filtro possono essere presenti più istruzioni OR. In this case, every OR statement receives a number, in the order you want the statements applied.
+  In un filtro possono essere presenti più istruzioni OR. In questo caso, a ogni istruzione OR viene assegnato un numero, nell&#39;ordine in cui si desidera applicare le istruzioni.
 
-  **Example:**  To filter for tasks that have a Planned Completion Date of Today OR a Percent Complete lower than 100% OR a Status of New use the following text mode code:
+  **Esempio:** Per filtrare le attività con data di completamento pianificata di oggi o con percentuale di completamento inferiore al 100% OPPURE con stato Nuovo, utilizzare il codice della modalità testo seguente:
 
   ```
   plannedCompletionDate=$$TODAY

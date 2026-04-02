@@ -6,7 +6,9 @@ description: Le notifiche seguenti ti avvisano delle attività di approvazione c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -37,17 +39,17 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Una richiesta di approvazione del problema delegata è stata completata</strong> </p> <p>Un'approvazione del problema delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Approvazione/Rifiuto effettuato per conto dell'utente da] &lt;Nome utente&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Approval Information] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
+   <td> <p><strong>Una richiesta di approvazione del problema delegata è stata completata</strong> </p> <p>Un'approvazione del problema delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Approvazione/rifiuto effettuato per conto dell'utente da] &lt;Nome utente&gt;</em></p> <p>L'oggetto della notifica del digest giornaliero è:<em> [!UICONTROL Digest of Approval Information] &lt;Data del digest giornaliero&gt;</em></p> </td> 
    <td> <p>Nome problema<br>Nome progetto<br>Numero di riferimento problema<br>Nome dell'utente che ha approvato/rifiutato il problema a tuo nome<br>Decisione approvazione<br>Stato problema<br>Nome dell'utente che ha richiesto l'approvazione<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Numero di riferimento progetto<br>*Nome progetto<br>*Numero totale di approvazioni problemi delegate<br>*Nome problema<br>*Nome approvatore<br>*Data del riepilogo giornaliero<br><br></p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Richiesta di approvazione progetto delegata completata</strong> </p> <p>Un'approvazione di progetto delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Approvazione progetto/Rifiuto effettuato per conto dell'utente da] &lt;Nome utente&gt;</em></p> <p><em>L'oggetto della notifica del riepilogo giornaliero è: [!UICONTROL Digest of Approval Information] &lt;Data del riepilogo giornaliero&gt;</em> </p> </td> 
+   <td> <p><strong>Richiesta di approvazione progetto delegata completata</strong> </p> <p>Un'approvazione di progetto delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Project Approval/ Rejection Made on Your Behalf by] &lt;Nome utente&gt;</em></p> <p><em>L'oggetto della notifica del riepilogo giornaliero è: [!UICONTROL Digest of Approval Information] &lt;Data del riepilogo giornaliero&gt;</em> </p> </td> 
    <td> Nome progetto<br>[!UICONTROL Nome Portfolio]<br>[!UICONTROL Numero di riferimento progetto]<br>Nome dell'utente che ha approvato/rifiutato il progetto per tuo conto<br>[!UICONTROL Decisione di approvazione]<br>[!UICONTROL Stato progetto]<br>Nome dell'utente che ha richiesto l'approvazione<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Numero di riferimento progetto<br>*Nome progetto<br>*Nome approvatore<br>[!UICONTROL *Data del riepilogo giornaliero]<br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Una richiesta di approvazione attività delegata è stata completata</strong> </p> <p>Un'approvazione dell'attività delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Approvazione attività/ Rifiuto effettuato per conto dell'utente] &lt;Nome utente&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Approval Information] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
+   <td> <p><strong>Una richiesta di approvazione attività delegata è stata completata</strong> </p> <p>Un'approvazione dell'attività delegata a un altro utente è stata approvata o rifiutata da tale utente.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Approvazione attività/ Rifiuto effettuato per conto dell'utente] &lt;Nome utente&gt;</em></p> <p>L'oggetto della notifica del digest giornaliero è:<em> [!UICONTROL Digest of Approval Information] &lt;Data del digest giornaliero&gt;</em></p> </td> 
    <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha approvato/rifiutato l'attività per tuo conto<br>Decisione di approvazione<br>Stato attività<br>Nome dell'utente che ha richiesto l'approvazione<br><strong>Ulteriori dettagli</strong> pulsante<br>*Numero di riferimento progetto<br>*Nome progetto<br>*Numero totale di approvazioni attività delegate<br>*Nome attività<br>*Nome approvatore<br>*Data del riepilogo giornaliero<br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 

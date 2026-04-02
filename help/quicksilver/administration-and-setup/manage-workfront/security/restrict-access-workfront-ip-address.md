@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +22,8 @@ ht-degree: 2%
 <!--
 >[!IMPORTANT]
 >
->This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release.
+-->
 
 È possibile configurare un Adobe Workfront di di inserire nell&#39;elenco Consentiti che limiti l’accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 
@@ -28,7 +31,7 @@ Questi indirizzi IP o intervalli di indirizzi IP devono essere forniti dall&#39;
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +42,7 @@ Questi indirizzi IP o intervalli di indirizzi IP devono essere forniti dall&#39;
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -53,7 +56,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Inserire nell&#39;elenco Consentiti Altri
+## Altri
 
 Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di posta elettronica. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
@@ -65,7 +68,7 @@ Dopo l&#39;aggiunta degli indirizzi IP al Workfront di di inserire nell&#39;elen
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Sistema** > **Informazioni cliente**
+1. Fai clic su **Sistema** > **Informazioni cliente.**
 
 1. Nella sezione **inserisco nell&#39;elenco Consentiti IP** selezionare **Abilita inserisco nell&#39;elenco Consentiti IP.**
 

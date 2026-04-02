@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 3%
@@ -64,7 +66,8 @@ Una volta attivata, la conservazione non può essere disattivata.
 
 Quando si copia un piano di assegnazione del personale con il flag attivato, il flag viene automaticamente disattivato nella copia. Il responsabile delle risorse deve attivare il flag se necessario nel nuovo piano di assegnazione del personale.
 
-<!--### Title
+<!--
+### Title
 
 >[!NOTE]
 >

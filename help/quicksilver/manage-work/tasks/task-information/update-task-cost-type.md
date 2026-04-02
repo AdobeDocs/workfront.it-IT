@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Aggiorna tipo di costo attività
+title: Aggiornare il tipo di costo dell”attività
 description: Il Costo pianificato e il Costo effettivo delle attività e i relativi Costi manodopera sono determinati dal Tipo di costo di ogni attività.
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
-# Aggiorna tipo di costo attività
+# Aggiornare il tipo di costo dell”attività
 
 Il Costo pianificato e il Costo effettivo delle attività e i relativi Costi manodopera sono determinati dal Tipo di costo di ogni attività.
 
@@ -34,7 +36,7 @@ Per informazioni sul tracciamento dei costi in Adobe Workfront, consulta [Tracci
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p> </td> 
   </tr> 
@@ -43,7 +45,7 @@ Per informazioni sul tracciamento dei costi in Adobe Workfront, consulta [Tracci
    <td> <p>Modifica accesso a progetti, attività e dati finanziari</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Contribuire o accedere ad autorizzazioni superiori per un progetto</p> <p>Gestire le autorizzazioni per un’attività</p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Contribute or higher permissions to a project</p> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Configurare il tipo di costo di una singola attività
 

@@ -6,10 +6,12 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 0%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto. È possibile utilizzare la vista Milestone (Attività cardine) per visualizzare tutte le attività cardine associate alle attività all&#39;interno dei progetti visualizzati.
 
@@ -39,7 +43,7 @@ La vista Milestone (Attività cardine) è disponibile quando si visualizza un el
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,10 +54,10 @@ La vista Milestone (Attività cardine) è disponibile quando si visualizza un el
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader">Licenza di Adobe Workfront</strong></td> 
    <td> 
     <p>Standard</p>
-    <p>Lavoro o superiore</p>
+    <p>Work o successiva</p>
    </td>
   </tr> 
   <tr> 
@@ -62,14 +66,14 @@ La vista Milestone (Attività cardine) è disponibile quando si visualizza un el
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
     <td> <p>Visualizzare le autorizzazioni per un report di progetti per applicare la vista Milestone a un report</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -140,7 +144,8 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
    * A rischio - blu
    * In ritardo - rosso
 
-  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+  <!--
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
       * On Time  
       ![On time icon](assets/gantt-ontime.png)
       * Behind  
@@ -149,7 +154,9 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
       ![At risk icon](assets/gantt-atrisk.png)
       * Late  
       ![Late icon](assets/gantt-late.png)
-      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+      
+      get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc
+   -->
 
   È possibile disattivare la visualizzazione di queste icone di stato, come descritto nella sezione [Configurare le informazioni visualizzate nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.
 
@@ -196,10 +203,12 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
    * A rischio - giallo
    * In difficoltà - rosso
 
-  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+  <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
       * On Target
       * At Risk
-      * In Trouble -->
+      * In Trouble
+      -->
 
 
 ## Configurare le informazioni da visualizzare nella vista Milestone {#configure-what-information-displays-in-the-milestone-view}

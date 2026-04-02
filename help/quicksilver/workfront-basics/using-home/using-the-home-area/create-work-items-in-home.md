@@ -6,10 +6,12 @@ description: È possibile creare elementi di lavoro e progetti dall'area [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -19,13 +21,13 @@ ht-degree: 2%
 
 Da Home, puoi
 
-* Inviare richieste
+* Inviano richieste
 * Aggiungi attività e problemi a progetti specifici
 * Crea progetti da un modello, un progetto vuoto o importa un progetto MS.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Da Home, puoi
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td>
     <p>Standard</p> 
-    <p>Lavoro o superiore</p> </td> 
+    <p>Work o successiva</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -50,7 +52,7 @@ Da Home, puoi
    <td>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso a [!UICONTROL Edit] o versione successiva per le attività</p> </td> 
   </tr> 
  </tbody> 
@@ -141,7 +143,7 @@ Puoi creare una richiesta direttamente dall’area Home:
 
 Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Creare un progetto
+## Crea un progetto
 
 Puoi creare un progetto direttamente dall’area Home:
 
@@ -164,7 +166,8 @@ Puoi creare un progetto direttamente dall’area Home:
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

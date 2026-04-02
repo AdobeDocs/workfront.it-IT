@@ -6,7 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 10%
@@ -43,7 +45,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
    <td role="rowheader">Licenza di Adobe Workfront</td> 
     <td> 
    <p>Chiaro o superiore</p>
-   <p>Revisione o superiore</p>
+   <p>Revisione o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -71,7 +73,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 
 Oltre alle considerazioni seguenti, vedere anche [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni Gestione.
+* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni di gestione per tale dashboard.
 
 * Puoi condividere dashboard che hai creato con altri singoli utenti, team, gruppi, mansioni o aziende. Puoi anche condividere dashboard creati da altri utenti e che sono stati condivisi con te.
 * Puoi anche condividerli con l’intera organizzazione rendendoli visibili a livello di sistema.
@@ -90,7 +92,7 @@ La condivisione di uno o più dashboard da un elenco è identica.
 
    Oppure
 
-   Fare clic sul nome di un dashboard, quindi su **Azioni dashboard** > **Condivisione**.
+   Fai clic sul nome di un dashboard, quindi fai clic su **Azioni dashboard** > **Condivisione**.
 
    ![](assets/unshimmed-share-dashboard.png)
 

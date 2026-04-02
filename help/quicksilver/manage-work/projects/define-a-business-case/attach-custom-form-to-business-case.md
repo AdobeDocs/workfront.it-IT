@@ -5,10 +5,12 @@ description: I Forms personalizzati vengono utilizzati per raccogliere informazi
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -43,7 +45,7 @@ Per ulteriori informazioni sulla creazione di un Forms personalizzato, vedere l&
    <td> <p>Modifica accesso ai progetti</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p>  </td> 
   </tr> 
  </tbody> 
@@ -81,7 +83,9 @@ Per allegare un modulo personalizzato:
 
    ![Espandi dettagli modulo personalizzato](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select **Edit Custom Form**.  
+<!--
+1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** .
+-->

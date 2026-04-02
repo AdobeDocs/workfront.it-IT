@@ -7,14 +7,16 @@ description: Un Programma è una raccolta di progetti che hanno caratteristiche 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Panoramica sui programmi
+# Panoramica dei programmi
 
 <!-- Audited: 08/2025 -->
 
@@ -41,14 +43,14 @@ Per creare e gestire i portfolio, è necessario disporre dei seguenti diritti di
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Portfolio] e [!UICONTROL Programs]</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per modificare un programma o aggiungervi progetti</p>
    <p>Gestire le autorizzazioni per il portfolio a cui appartiene il programma </p>
    <p>Visualizzare le autorizzazioni di un programma per visualizzarlo</p>
@@ -60,7 +62,8 @@ Per creare e gestire i portfolio, è necessario disporre dei seguenti diritti di
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Considerazioni sull’utilizzo dei programmi

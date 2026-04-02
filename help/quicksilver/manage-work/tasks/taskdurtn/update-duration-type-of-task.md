@@ -6,14 +6,16 @@ description: Il tipo di durata di un'attività identifica la relazione tra il nu
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 12%
+ht-degree: 21%
 
 ---
 
-# Aggiornare il tipo di durata di un&#39;attività
+# Aggiornare il tipo di durata di un’attività
 
 Il tipo di durata di un&#39;attività identifica la relazione tra il numero di risorse assegnate a un&#39;attività, l&#39;impegno totale e la durata totale dell&#39;attività. Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -30,7 +32,7 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard o superiore</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -39,7 +41,7 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modifica l'accesso alle Attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire l’accesso all’attività </p></td> 
   </tr> 
  </tbody> 
@@ -49,7 +51,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,14 +75,15 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Aggiornare il tipo di durata di un&#39;attività
+## Aggiornare il tipo di durata di un’attività
 
 Oltre ad aggiornare il Tipo di durata di un&#39;attività come descritto in questo articolo, è anche possibile aggiornare il Tipo di durata quando si modifica un&#39;attività o si effettuano assegnazioni avanzate. Per ulteriori informazioni, consulta:
 
 * [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Creare assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 Per aggiornare il Tipo di durata di un&#39;attività:
 

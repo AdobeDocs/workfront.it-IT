@@ -7,7 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 1%
@@ -23,7 +25,8 @@ La revisione dei documenti Workfront con il visualizzatore Frame.io consente di 
 Per ulteriori informazioni sull&#39;integrazione di Frame.io con Workfront, consulta [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--## Access requirements
+<!--
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -55,7 +58,8 @@ Per ulteriori informazioni sull&#39;integrazione di Frame.io con Workfront, cons
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++ -->
++++
+-->
 
 ## Prerequisiti
 

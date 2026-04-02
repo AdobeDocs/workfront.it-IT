@@ -1,31 +1,33 @@
 ---
-title: Miglioramenti alla gestione delle risorse per il terzo trimestre 2024
-description: Miglioramenti alla gestione delle risorse per il terzo trimestre 2024
+title: Miglioramenti alla gestione delle risorse nel terzo trimestre 2024
+description: Miglioramenti alla gestione delle risorse nel terzo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti alla gestione delle risorse per il terzo trimestre 2024
+# Miglioramenti alla gestione delle risorse nel terzo trimestre 2024
 
-Questa pagina descrive tutti i miglioramenti della gestione delle risorse apportati con la versione del terzo trimestre 2024 all’ambiente Preview. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del terzo trimestre 2024.
+Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del terzo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, vedere [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Tempo di assenza ora riportato nel servizio di bilanciamento del carico di lavoro
+## Il tempo libero ora si riflette nel Bilanciatore dei carichi di lavoro
 
 >[!NOTE]
 >
->Versione di anteprima: 6 giugno 2024; Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)
+>Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (18 luglio 2024)
 
-Per regolare in modo uniforme il lavoro quando l&#39;assegnatario principale di un&#39;attività ha programmato un orario di riposo, il servizio di bilanciamento del carico di lavoro ora rialloca le ore sia agli utenti principali che a quelli secondari quando viene ricalcolata la cronologia del progetto. (Questa funzione è disponibile solo se l&#39;amministratore di Workfront ha abilitato l&#39;impostazione Tempo utente disattivato nell&#39;area Configurazione per tenere conto del tempo di disattivazione dell&#39;utente.)
+Per regolare facilmente il lavoro quando l’assegnatario principale di un’attività ha programmato un’indisponibilità, il Bilanciatore dei carichi di lavoro ora riassegna le ore sia agli utenti principali che a quelli secondari quando la sequenza temporale del progetto viene ricalcolata. (Questa funzione è disponibile solo se l’amministratore di Workfront ha attivato l’impostazione Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente.)
 
-In precedenza, le ore non venivano riallocate quando la timeline veniva ricalcolata.
+In precedenza, le ore non venivano riallocate al momento del ricalcolo della timeline.
 
-Per ulteriori informazioni, vedere [Gestione delle allocazioni utente nel servizio di bilanciamento del carico di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Per ulteriori informazioni, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

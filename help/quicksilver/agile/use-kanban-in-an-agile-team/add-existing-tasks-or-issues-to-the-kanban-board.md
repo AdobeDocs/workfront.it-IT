@@ -6,7 +6,9 @@ description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 9%
@@ -72,7 +74,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
 
 {{step1-to-reports}}
 
-1. Selezionare il task o il rapporto di emissione che contiene l&#39;elemento di lavoro che si desidera aggiungere alla bacheca kanban.
+1. Selezionare l&#39;attività o il report di problemi contenente l&#39;elemento di lavoro che si desidera aggiungere alla bacheca Kanban.
 1. Selezionare uno o più elementi di lavoro da aggiungere.
 1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png), quindi seleziona **Aggiungi a bacheca Kanban**. Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi a**].
 1. Nel campo **Kanban Board**, digita il nome del team Kanban, quindi selezionalo dal menu a discesa.
@@ -93,8 +95,8 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
 
 1. Selezionare il dashboard contenente l&#39;elemento di lavoro che si desidera aggiungere al Kanban Board.
 1. Selezionare uno o più elementi di lavoro da aggiungere.
-1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Icona Altro](assets/more-icon.png), quindi seleziona **Aggiungi alla bacheca kanban**. Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi a**].
-1. Nel campo **Scheda kanban**, digita il nome del team kanban, quindi selezionalo dal menu a discesa.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png), quindi seleziona **Aggiungi a bacheca Kanban**. Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi a**].
+1. Nel campo **Kanban Board**, digita il nome del team Kanban, quindi selezionalo dal menu a discesa.
 
    >[!NOTE]
    >

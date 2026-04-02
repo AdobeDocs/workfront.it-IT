@@ -6,14 +6,16 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# Effettua assegnazioni intelligenti
+# Effettuare assegnazioni Smart
 
 <!--Audited: 07/2024-->
 
@@ -38,7 +40,7 @@ Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazion
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p>
    </td> 
@@ -48,7 +50,7 @@ Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazion
    <td> <p>Modifica l'accesso ad Attività e Issues</p> <p>Accesso ai progetti di visualizzazione o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td>Autorizzazioni di tipo Contribuisci o più elevato con la possibilità di effettuare assegnazioni su attività e problemi</td>
   </tr>
  </tbody>
@@ -58,7 +60,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Effettua assegnazioni intelligenti
+## Effettuare assegnazioni Smart
 
 Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizioni in cui è possibile effettuare assegnazioni in Workfront.
 
@@ -72,10 +74,12 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
 
 1. Posizionare il cursore nel campo Assegnazioni e attendere due secondi.
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
    Le assegnazioni Smart vengono visualizzate nelle sezioni seguenti<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 

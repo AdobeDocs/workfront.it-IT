@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visualizza: problemi con le informazioni di approvazione'
-description: Nella visualizzazione dei problemi riportata di seguito vengono illustrati il processo di approvazione, la fase, i nomi degli approvatori e lo stato del problema prima dell'approvazione. Alcuni di questi campi non sono accessibili tramite il generatore di interfacce standard.
+title: 'Visualizza: problemi relativi alle informazioni di approvazione'
+description: La seguente visualizzazione del problema mostra il processo di approvazione, la fase, i nomi degli approvatori e lo stato del problema prima che l’approvazione fosse concessa. Alcuni di questi campi non sono accessibili tramite il generatore di interfacce standard.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 18%
@@ -18,7 +20,7 @@ ht-degree: 18%
 
 <!--Audited: 11/2024-->
 
-Nella visualizzazione dei problemi riportata di seguito vengono illustrati il processo di approvazione, la fase, i nomi degli approvatori e lo stato del problema prima dell&#39;approvazione. Alcuni di questi campi non sono accessibili tramite il generatore di interfacce standard.
+La seguente visualizzazione del problema mostra il processo di approvazione, la fase, i nomi degli approvatori e lo stato del problema prima che l’approvazione fosse concessa. Alcuni di questi campi non sono accessibili tramite il generatore di interfacce standard.
 
 ![custom_issue_view_with_approval_info.png](assets/custom-issue-view-with-approval-info-350x46.png)
 
@@ -38,15 +40,15 @@ Nella visualizzazione dei problemi riportata di seguito vengono illustrati il pr
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,14 +58,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Visualizza problemi con le informazioni di approvazione
+## Visualizza i problemi con le informazioni sull&#39;approvazione
 
 1. Vai a un elenco di problemi.
-1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente e fare clic su **Passa alla modalità Testo**, quindi su **Modifica modalità Testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente e fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
    ```
    column.0.descriptionkey=name
@@ -144,5 +146,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    column.6.width=200
    ```
 
-1. Fai clic su **Fine** > **Salva vista**.
-1. (Facoltativo) Aggiornare il nome della visualizzazione, quindi fare clic su **Salva visualizzazione**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.
+1. (Facoltativo) Aggiorna il nome della visualizzazione, quindi fai clic su **Salva visualizzazione**.

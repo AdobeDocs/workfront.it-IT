@@ -6,10 +6,12 @@ description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazio
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -49,7 +51,8 @@ I grafici [!UICONTROL Gantt] in [!DNL Workfront] forniscono una rappresentazione
 
 ### Elenco attività [!UICONTROL Grafico di Gantt] {#task-list-gantt-chart}
 
-<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In a Project
 
@@ -58,7 +61,8 @@ I grafici [!UICONTROL Gantt] in [!DNL Workfront] forniscono una rappresentazione
 
 * In a [!UICONTROL Template]
 
-* In a [!UICONTROL Task] report-->
+* In a [!UICONTROL Task] report
+-->
 
 Per accedere all&#39;elenco attività [!UICONTROL Grafico di Gantt] di un progetto o di un modello:
 
@@ -91,17 +95,19 @@ Per accedere all&#39;elenco attività [!UICONTROL Grafico di Gantt] di un proget
 
 1. Inizia a modificare le attività come descritto nei seguenti articoli:
 
-   * [Configurare la modalità di visualizzazione delle informazioni nel Diagramma di Gantt](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
-   * [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../use-the-gantt-chart/update-info-task-list-gantt.md)
+   * [Configurare la modalità di visualizzazione delle informazioni sul grafico di Gantt](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [Aggiornare le informazioni nel grafico di Gantt dell’elenco di attività](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Elenco progetti [!UICONTROL Grafico di Gantt] {#project-list-gantt-chart}
 
-<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In the [!UICONTROL Projects] area
 * In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
-* In a [!UICONTROL Project] report-->
+* In a [!UICONTROL Project] report
+-->
 
 Per accedere all&#39;elenco dei progetti [!UICONTROL Grafico di Gantt]:
 

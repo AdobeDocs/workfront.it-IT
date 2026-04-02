@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Importare un progetto da Microsoft Project
+title: Importare un progetto da progetto di Microsoft
 description: Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti i tuoi progetti in un’unica applicazione. Ogni volta che importate un progetto da Microsoft Project, viene creato un nuovo progetto in Workfront.
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
-# Importare un progetto da Microsoft Project
+# Importare un progetto da progetto di Microsoft
 
 <!-- Audited: 10/2025 -->
 
@@ -27,7 +29,7 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,7 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
     <p>Piano</p>
    </td> 
@@ -50,7 +52,7 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto</p>
    <p>Se aggiungi un progetto a un portfolio o a un programma, devi disporre delle autorizzazioni di gestione per il portfolio e il programma.</p>
    </td> 
@@ -59,11 +61,12 @@ Puoi importare progetti da Microsoft Project ad Adobe Workfront e gestire tutti 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--old permissions model: 
+<!--
+old permissions model: 
 
 <table style="table-layout:auto"> 
  <col> 

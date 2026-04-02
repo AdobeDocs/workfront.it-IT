@@ -6,7 +6,9 @@ description: Puoi disattivare i team che non utilizzi più conservando i dati st
 author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 10%
@@ -15,7 +17,7 @@ ht-degree: 10%
 
 # Disattivare o eliminare un team
 
-Puoi disattivare i team che non utilizzi più conservando i dati storici associati. Gli amministratori di [!DNL Adobe Workfront] possono riattivare un team in qualsiasi momento dall&#39;area Team in Configurazione. Se disattivi un team, questo non verrà più visualizzato nelle seguenti aree:
+Puoi disattivare i team che non utilizzi più conservando i dati storici associati. Gli amministratori di [!DNL Adobe Workfront] possono riattivare un team in qualsiasi momento dall&#39;area Team in Configurazione. Se si disattiva un team, il team non verrà più visualizzato nelle seguenti aree:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -24,23 +26,23 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Campi Typeahead nei moduli personalizzati</p> </li> 
+     <li> <p>Campi typeahead nei moduli personalizzati</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Finestra di dialogo per la condivisione degli oggetti</p> </li> 
-     <li> <p>[!UICONTROL Profilo Utente]*</p> </li> 
+     <li> <p>Finestra di dialogo Condivisione per gli oggetti</p> </li> 
+     <li> <p>[!UICONTROL User Profile]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p>Menu a discesa di selezione principale nell'area [!UICONTROL Teams]</p> </li> 
-     <li> <p>Typeahead [!UICONTROL Assignments]</p> </li> 
-     <li> <p>Finestra di dialogo della bacheca [!UICONTROL Add to Kanban] in un progetto</p> </li> 
+     <li> <p>[Assegnazioni UICONTROL] completamento automatico</p> </li> 
+     <li> <p>Finestra di dialogo [!UICONTROL Aggiungi a Kanban] in un progetto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I team disattivati non vengono visualizzati durante la ricerca di un team, ma verranno comunque visualizzati nel [!UICONTROL team principale] e in altri team se l&#39;utente è stato assegnato al team prima della disattivazione.
+I team disattivati non vengono visualizzati durante la ricerca di un team, ma verranno comunque visualizzati nel [!UICONTROL Team predefinito] e in Altri team se l&#39;utente è stato assegnato al team prima della disattivazione.
 
 ## Requisiti di accesso
 
@@ -62,7 +64,7 @@ I team disattivati non vengono visualizzati durante la ricerca di un team, ma ve
   </tr> 
   <tr>
    <td>Configurazioni del livello di accesso</td>
-   <td><p>Per disattivare un team, non è necessaria alcuna configurazione.</p>
+   <td><p>Per disattivare un team, non è richiesta alcuna configurazione.</p>
    <p>Per eliminare un team, è necessario essere un amministratore di sistema.</p></td>
   </tr>
  </tbody> 
@@ -80,16 +82,16 @@ Eventuale lavoro assegnato al team prima della disattivazione rimane assegnato. 
 >
 >Puoi creare un rapporto per filtrare le attività o i problemi per i quali il team disattivato è ancora assegnato.
 
-Quando si utilizzano le code di richiesta, se si disattiva un team assegnato come team predefinito in una regola di routing, il team rimane e le richieste vengono ancora instradate al team disattivato. Si consiglia di aggiornare le regole di routing con i team attivi prima di disattivare il team.
+Quando si utilizzano le code di richieste, se si disattiva un team assegnato come team predefinito in una regola di routing, il team rimane e le richieste vengono ancora instradate al team disattivato. Prima di disattivare il team, è consigliabile aggiornare le regole di instradamento con i team attivi.
 
 {{step1-to-team}}
 
-1. Fai clic sull’icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull&#39;icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    ![](assets/edit-team-settings.png)
 
-1. Deselezionare la casella di controllo **[!UICONTROL Attivo]** nelle impostazioni del team.
+1. Deselezionare la casella di controllo **[!UICONTROL È attivo]** nelle impostazioni del team.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Limitazioni note della disattivazione di un team
@@ -100,15 +102,15 @@ I team disattivati vengono visualizzati nelle seguenti aree:
 
 ## Eliminare un team
 
-Solo un amministratore di sistema può eliminare un team. Se sei il proprietario di un team (ma non un amministratore) e provi a eliminare un team, visualizzerai un messaggio di errore.
+Solo un amministratore di sistema può eliminare un team. Se il proprietario del team (ma non l&#39;amministratore) tenta di eliminare un team, verrà visualizzato un messaggio di errore.
 
 Per eliminare un team:
 
 {{step1-to-team}}
 
-1. Fai clic sull’icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull&#39;icona **[!DNL Switch team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Elimina]**.
 
    ![](assets/edit-team-settings.png)
 
-1. Fai clic su [!UICONTROL **Conferma**] nel messaggio di conferma per eliminare definitivamente il team. I team eliminati non possono essere recuperati.
+1. Fai clic su [!UICONTROL **Conferma**] nel messaggio di conferma per eliminare definitivamente il team. Non è possibile recuperare i team eliminati.

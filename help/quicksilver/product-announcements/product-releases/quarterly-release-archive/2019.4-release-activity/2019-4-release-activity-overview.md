@@ -7,10 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 74ca298c-daac-4119-97cd-251b9f7f0efc
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -52,31 +54,39 @@ La versione 2019.4 contiene i seguenti miglioramenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Visualizzazione aggiornata dei nuovi elenchi</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Visualizzazione aggiornata dei nuovi elenchi</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --> <span style="color: #ff0000;">- Modificato</span></p> <p>Gli elenchi Progetto, Attività e Ore ora hanno un aspetto aggiornato. Gli altri elenchi che si prevedeva di aggiornare con la versione 2019.4 verranno aggiornati con una versione futura.</p> </td> 
+     -->
+     <span style="color: #ff0000;">- Modificato</span></p> <p>Gli elenchi Progetto, Attività e Ore ora hanno un aspetto aggiornato. Gli altri elenchi che si prevedeva di aggiornare con la versione 2019.4 verranno aggiornati con una versione futura.</p> </td>
    <td> <p>Versione di anteprima: 4 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuova struttura applicata agli elenchi per report, attività modello, Portfoli e altro ancora</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuova struttura applicata agli elenchi per report, attività modello, portafogli e altro ancora</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;"> -Rimossa dalla versione</span> </p> <p>Il nuovo schema di elenco è ora disponibile per molti altri tipi di elenco.</p> </td> 
+     -->
+     <span style="color: #ff0000;"> - Rimosso dalla versione</span> </p> <p>Il nuovo schema di elenco è ora disponibile per molti altri tipi di elenco.</p> </td>
    <td> <p>Versione di anteprima: 11 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuova descrizione comando aggiunta ai filtri rapidi</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuova descrizione comando aggiunta ai filtri rapidi</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
-     --> </p> <p> Invece di utilizzare la funzionalità nativa del browser per trovare un elemento in un elenco, è possibile utilizzare i filtri rapidi in tutti gli elenchi riprogettati. </p> </td> 
+     -->
+     </p> <p> Invece di utilizzare la funzionalità nativa del browser per trovare un elemento in un elenco, è possibile utilizzare i filtri rapidi in tutti gli elenchi riprogettati. </p> </td>
    <td> <p>Versione di anteprima: 11 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuove scelte rapide per filtri rapidi</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuove scelte rapide per filtri rapidi</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New shortcuts for quick filters</a>
-     --> </p> <p>I promemoria tramite scelte rapide da tastiera sono ora disponibili nella casella di ricerca dei filtri rapidi negli elenchi per semplificare l’accesso ai filtri.</p> </td> 
+     -->
+     </p> <p>I promemoria tramite scelte rapide da tastiera sono ora disponibili nella casella di ricerca dei filtri rapidi negli elenchi per semplificare l’accesso ai filtri.</p> </td>
    <td> <p>Versione di anteprima: 30 agosto 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
  </tbody> 
@@ -89,37 +99,47 @@ La versione 2019.4 contiene i seguenti miglioramenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">App Workfront per iPad</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">App Workfront per iPad</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
-     --> </p> <p>Workfront fornisce ora una nuova app mobile progettata e ottimizzata appositamente per iPad. </p> <p>Per ulteriori informazioni sull'utilizzo di Workfront sia su iPad che su iPhone, vedere <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">Adobe Workfront per iOS</a>.</p> </td> 
+     -->
+     </p> <p>Workfront fornisce ora una nuova app mobile progettata e ottimizzata appositamente per iPad. </p> <p>Per ulteriori informazioni sull'utilizzo di Workfront sia su iPad che su iPhone, vedere <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">Adobe Workfront per iOS</a>.</p> </td>
    <td> <p>Versione di anteprima: nessuna disponibilità di anteprima</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Elimina oggetti tramite l'app Mobile in Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Elimina oggetti tramite l'app Mobile in Android</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
-     --> </p> <p>Ora puoi eliminare oggetti come attività, problemi e schede orario nell’app mobile di Android.</p> </td> 
+     -->
+     </p> <p>Ora puoi eliminare oggetti come attività, problemi e schede orario nell’app mobile di Android.</p> </td>
    <td> <p>Versione di anteprima: 4 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Converti attività, problemi e richieste in un progetto utilizzando l'app mobile su Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Converti attività, problemi e richieste in un progetto utilizzando l'app mobile su Android</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
-     --> </p> <p>Ora è possibile convertire singole Attività, Problemi e Richieste in progetti nell’app mobile Workfront su Android.</p> </td> 
+     -->
+     </p> <p>Ora è possibile convertire singole Attività, Problemi e Richieste in progetti nell’app mobile Workfront su Android.</p> </td>
    <td> <p>Versione di anteprima: 4 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Accedi ai preferiti esistenti e aggiungi nuovi preferiti su dispositivi mobili</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Accedi ai preferiti esistenti e aggiungi nuovi preferiti su dispositivi mobili</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
-     --> </p> <p>Ora puoi accedere al menu Preferiti nell’app mobile Workfront sia sui dispositivi iOS che su quelli Android. È possibile accedere agli elementi esistenti dal menu Preferiti e aggiungere nuovi elementi al menu Preferiti.</p> </td> 
+     -->
+     </p> <p>Ora puoi accedere al menu Preferiti nell’app mobile Workfront sia sui dispositivi iOS che su quelli Android. È possibile accedere agli elementi esistenti dal menu Preferiti e aggiungere nuovi elementi al menu Preferiti.</p> </td>
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigazione aggiornata in Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigazione aggiornata in Android</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
-     --> </p> <p>La navigazione nell’app mobile di Android è più simile a quella per l’accesso a Workfront in un browser</p> </td> 
+     -->
+     </p> <p>La navigazione nell’app mobile di Android è più simile a quella per l’accesso a Workfront in un browser</p> </td>
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -132,19 +152,23 @@ La versione 2019.4 contiene i seguenti miglioramenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Bilanciatore dei carichi di lavoro beta</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Bilanciatore dei carichi di lavoro beta</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
-     --> </p> <p>Il Bilanciatore dei carichi di lavoro fornisce una nuova interfaccia per la gestione del carico di lavoro delle risorse. L'intenzione è quella di sostituire l'Utilità di pianificazione risorse in futuro.</p> </td> 
+     -->
+     </p> <p>Il Bilanciatore dei carichi di lavoro fornisce una nuova interfaccia per la gestione del carico di lavoro delle risorse. L'intenzione è quella di sostituire l'Utilità di pianificazione risorse in futuro.</p> </td>
    <td> <p>Versione di anteprima: 11 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Colonne personalizzate di Programmazione risorse</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Colonne personalizzate di Programmazione risorse</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource&nbsp;Planner custom columns</a>
-     --> </p> <p>Ora è possibile personalizzare le colonne visualizzate nella Programmazione delle risorse in modo da includere solo le informazioni più interessanti.</p> </td> 
+     -->
+     </p> <p>Ora è possibile personalizzare le colonne visualizzate nella Programmazione delle risorse in modo da includere solo le informazioni più interessanti.</p> </td>
    <td> <p>Versione di anteprima: 24 ottobre 2019</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
  </tbody> 
@@ -157,13 +181,15 @@ La versione 2019.4 contiene i seguenti miglioramenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Avviare un flusso di lavoro di verifica automatizzata da un documento Adobe CC</a> <!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Avvia un flusso di lavoro di verifica automatizzata da un documento Adobe CC</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-other-enhancements-742784455?language=en_US&amp;r=10&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Start an automated proofing workflow from an Adobe CC document</a>
-     --></p> <p>Senza uscire da Adobe CC, è possibile avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato.</p> </td> 
+     -->
+     </p> <p>Senza uscire da Adobe CC, puoi avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato.</p> </td>
    <td> <p>Versione di anteprima: nessuna disponibilità di anteprima</p> <p>Versione di produzione: novembre 2019 con la versione 2019.4</p> </td> 
   </tr> 
   <!--
@@ -207,12 +233,12 @@ La versione 2019.4 contiene i seguenti miglioramenti:
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione 2019.4, vedi [Aggiornamenti di manutenzione di Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Notifiche
+## Annunci
 
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 * [API versione 3 non più supportata](#api-version-3-no-longer-supported)
 * [Termina il supporto di TLS 1.0 e 1.1](#tls-1-0-and-1-1-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione applicazione Flash](#flash-application-removal)
 * [Webinar Q4 sulla roadmap dei prodotti](#q4-product-roadmap-webinar)
 
 ### Varie opzioni Single Sign-On da rimuovere {#various-single-sign-on-options-to-be-removed}
@@ -294,11 +320,11 @@ TLS 1.2 to be required in Workfront
 [](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Rimozione applicazione di Flash {#flash-application-removal}
+### Rimozione dell&#39;applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Per informazioni dettagliate sugli strumenti Flash legacy e sulle relative sostituzioni, vedere [Sostituzione di strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

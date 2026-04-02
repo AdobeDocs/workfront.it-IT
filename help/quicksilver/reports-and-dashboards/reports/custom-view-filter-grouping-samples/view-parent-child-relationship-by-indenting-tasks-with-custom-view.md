@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: consente di visualizzare la relazione padre-figlio in un task rientrando i task.'
-description: È possibile mantenere la distinzione tra relazioni padre-figlio in un elenco attività esportato aggiungendo una visualizzazione personalizzata all'elenco attività e verificando che tale visualizzazione sia selezionata prima dell'esportazione dell'elenco.
+description: Per mantenere la distinzione tra relazioni padre e figlio in un elenco di attività esportato, aggiungere una visualizzazione personalizzata all'elenco di attività e assicurarsi che sia selezionata prima di esportare l'elenco.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 21%
@@ -18,9 +20,9 @@ ht-degree: 21%
 
 <!--Audited: 11/2024-->
 
-È possibile mantenere la distinzione tra relazioni padre-figlio in un elenco attività esportato aggiungendo una visualizzazione personalizzata all&#39;elenco attività e verificando che tale visualizzazione sia selezionata prima dell&#39;esportazione dell&#39;elenco.
+Per mantenere la distinzione tra relazioni padre e figlio in un elenco di attività esportato, aggiungere una visualizzazione personalizzata all&#39;elenco di attività e assicurarsi che sia selezionata prima di esportare l&#39;elenco.
 
-![Rientro figlio padre](assets/parent-child-indented-custom-view-350x94.png)
+![Rientro figlio principale](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Requisiti di accesso
 
@@ -38,15 +40,15 @@ ht-degree: 21%
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,14 +58,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Visualizzare la relazione padre-figlio in un&#39;attività rientrando le attività
+## Visualizzare la relazione padre-figlio in un&#39;attività applicando un rientro alle attività
 
-1. Passare al progetto con l&#39;elenco delle attività che si desidera esportare.
-1. Fai clic sul menu a discesa **Visualizza** e seleziona **Nuova vista**.
-1. Fare clic nell&#39;intestazione di colonna **Nome attività**.
-1. Seleziona **Passa alla modalità testo** nell&#39;angolo in alto a destra.
-1. Fai clic su **Modifica modalità testo** e rimuovi tutto il testo esistente.
-1. Incollate il testo seguente:
+1. Vai al progetto con l’elenco attività che desideri esportare.
+1. Fai clic sul menu a discesa **Visualizza** e seleziona **Nuova visualizzazione**.
+1. Fai clic sull&#39;intestazione della colonna **Nome attività**.
+1. Selezionare **Passa alla modalità testo** nell&#39;angolo superiore destro.
+1. Fare clic su **Modifica modalità testo** e rimuovere tutto il testo esistente.
+1. Incolla il testo seguente:
 
 
    ```
@@ -76,4 +78,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    valueformat=HTML
    ```
 
-1. Fai clic su **Fine** > **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.

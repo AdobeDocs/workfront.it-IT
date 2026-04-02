@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Raggruppamento: Ripartizione percentuale attività 2'
-description: 'In questo raggruppamento di attività personalizzato è possibile visualizzare le attività raggruppate in base a un intervallo di valori di percentuale di completamento. Le suddivisioni mostrano il valore di completamento percentuale di incrementi di 10 punti percentuali: 1-10%, 11-20%, ecc.'
+title: 'Raggruppamento: Raggruppamento percentuale attività 2'
+description: 'In questo raggruppamento di attività personalizzato è possibile visualizzare le attività raggruppate per un intervallo dei valori di percentuale di completamento. I raggruppamenti mostrano il valore percentuale di completamento degli incrementi di 10 punti percentuali: 1-10%, 11-20%, ecc.'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 18%
@@ -18,9 +20,9 @@ ht-degree: 18%
 
 <!--Audited: 10/2024-->
 
-In questo raggruppamento di attività personalizzato è possibile visualizzare le attività raggruppate in base a un intervallo di valori di percentuale di completamento. I raggruppamenti mostrano il valore percentuale di completamento degli incrementi di 10 punti percentuali: 1-10%, 11-20%, ecc.
+In questo raggruppamento di attività personalizzato è possibile visualizzare le attività raggruppate per un intervallo dei valori di percentuale di completamento. I raggruppamenti mostrano il valore percentuale di completamento degli incrementi di 10 punti percentuali: 1-10%, 11-20%, ecc.
 
-Il raggruppamento seguente organizza i progetti in base al valore della percentuale di completamento in uno di questi raggruppamenti:
+Il raggruppamento seguente organizza i progetti in base al valore percentuale di completamento in uno di questi raggruppamenti:
 
 * 0%
 * 1-10%
@@ -35,7 +37,7 @@ Il raggruppamento seguente organizza i progetti in base al valore della percentu
 * 91-99%
 * 100%
 
-![task_10__breakbreakgroup_grouping.png](assets/task-10--breakdown-grouping-350x547.png)
+![attività_10__breakdown_grouping.png](assets/task-10--breakdown-grouping-350x547.png)
 
 ## Requisiti di accesso
 
@@ -57,11 +59,11 @@ Il raggruppamento seguente organizza i progetti in base al valore della percentu
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Ripartizione percentuale per attività
+## Raggruppa per ripartizione percentuale attività
 
 Per applicare questo raggruppamento:
 

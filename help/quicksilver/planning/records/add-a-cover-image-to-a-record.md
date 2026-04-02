@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Aggiungere una copertina a un record
+# Aggiungere un’immagine di copertina a un record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ Per informazioni sulla modifica dei record, vedere [Modifica record](/help/quick
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -50,12 +54,12 @@ Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/arch
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record  </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr>   
@@ -67,7 +71,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++   
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -123,13 +128,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni sulle immagini di copertina della pagina di registrazione
 
 È possibile personalizzare la pagina di un record aggiungendo un&#39;immagine di copertina.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * Un&#39;immagine di copertina è univoca per un record e non si applica a tutti i record dello stesso tipo.
 * È possibile aggiungere solo file di immagine come immagini di copertina.
@@ -138,7 +144,7 @@ Considera quanto segue:
 * Non è possibile aggiungere immagini di copertina da una visualizzazione record.
 * Workfront carica automaticamente un&#39;immagine di copertina ogni volta che si crea un record. In seguito potrai modificare questa immagine.
 
-## Aggiungere una copertina a un record
+## Aggiungere un’immagine di copertina a un record
 
 È possibile personalizzare un record aggiungendo un&#39;immagine di copertina nella parte superiore dell&#39;anteprima del record o della pagina.
 

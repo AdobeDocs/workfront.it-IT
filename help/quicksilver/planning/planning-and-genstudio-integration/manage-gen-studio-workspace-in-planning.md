@@ -6,15 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can view the GenStudio workspace from Planning and update information in both systems.
@@ -27,11 +30,13 @@ recommendations: noDisplay, noCatalog
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
-# Gestire l’area di lavoro di GenStudio in Adobe Workfront Planning
+# Gestire l’area di lavoro di GenStudio in Pianificazione di Adobe Workfront
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 L’area di lavoro Adobe GenStudio for Performance Marketing è disponibile in Adobe Workfront Planning quando la tua azienda ha acquistato entrambi i prodotti e l’istanza di Workfront è integrata con l’istanza aziendale di GenStudio.
 
@@ -75,7 +80,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <p> Adobe GenStudio for Performance Marketing</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
@@ -83,12 +88,12 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
@@ -110,7 +115,8 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -141,7 +147,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -161,7 +167,8 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni sulla gestione di un&#39;area di lavoro GenStudio in Workfront Planning
 
@@ -195,8 +202,10 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    </table>
 
 * L&#39;aggiornamento della configurazione dell&#39;area di lavoro, dei tipi di record, delle visualizzazioni e dei campi per un&#39;area di lavoro di GenStudio è identico all&#39;aggiornamento di un&#39;area di lavoro di Workfront Planning con i relativi elementi.
-<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy. -->
+<!--
+Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy.
+-->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -217,7 +226,7 @@ CAN YOU DO THIS??
 
 {{step1-to-planning}}
 
-Viene visualizzata la pagina principale di Workfront Planning.
+Si apre la pagina principale della Pianificazione di Workfront.
 
 1. Fai clic su **Altre aree di lavoro** e trova un&#39;area di lavoro con un&#39;indicazione creata dal **sistema** e con il tag **GenStudio** sulla relativa scheda.
 
@@ -243,7 +252,7 @@ Viene visualizzata la pagina principale di Workfront Planning.
 
    * **Modifica**
 
-     Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+     Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
      <!--* **Delete** - this will generate an error message, per Iskuhi, so don't document as an option/ possibility-->
 
      <!--For information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). -->
@@ -308,7 +317,7 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
    * Fare clic su **+ Visualizza** per creare una visualizzazione per il tipo di record GenStudio.
 
-     Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+     Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
    * Fai clic sull&#39;icona **Schermo intero** ![Apri visualizzazione completa nell&#39;icona Schermo intero](assets/open-full-screen-icon.png) per aprire qualsiasi visualizzazione in modalità a schermo intero.
 
@@ -316,7 +325,7 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
      È ad esempio possibile modificare il filtro, i raggruppamenti, l&#39;ordinamento e le impostazioni di una visualizzazione, se disponibili.
 
-     Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+     Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 1. Per aggiungere record, eseguire una delle operazioni seguenti:
 
@@ -395,7 +404,8 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
    >* Puoi modificare la configurazione di un campo GenStudio solo se disponi delle autorizzazioni di gestione in GenStudio.
    >* Non è possibile eliminare un campo GenStudio.
 
-<!--Is this just Preview?? Or direct to Prod?? 
+<!--
+Is this just Preview?? Or direct to Prod?? 
 
 ## Create workspace hierarchies in the GenStudio workspace
 

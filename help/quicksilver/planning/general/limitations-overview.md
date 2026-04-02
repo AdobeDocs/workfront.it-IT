@@ -6,21 +6,25 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
-# Panoramica sui limiti degli oggetti di Adobe Workfront Planning
+# Panoramica sui limiti degli oggetti di pianificazione di Adobe Workfront
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -68,7 +72,8 @@ Per informazioni sui prezzi e sulla creazione di pacchetti di Workfront Planning
 -->
 
 
-<!--OLD limitations (before GA:)
+<!--
+OLD limitations (before GA:)
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -86,6 +91,8 @@ Per informazioni sui prezzi e sulla creazione di pacchetti di Workfront Planning
 -->
 <!--| Size of CSV of Excel file you can import* | 5MB |-->
 
-<!--[!IMPORTANT]
+<!--
+[!IMPORTANT]
 >
->*This functionality has been temporarily removed and it will be available at a later date.-->
+>*This functionality has been temporarily removed and it will be available at a later date.
+-->

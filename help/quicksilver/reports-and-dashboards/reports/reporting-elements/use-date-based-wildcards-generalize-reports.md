@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti
-description: È possibile generalizzare un report utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting.
+description: È possibile generalizzare un rapporto utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 10%
@@ -17,17 +19,17 @@ ht-degree: 10%
 
 <!-- Audited: 11/2024 -->
 
-È possibile generalizzare un report utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting.
+È possibile generalizzare un rapporto utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting.
 
-Ad esempio, se si desidera creare un report che mostri le attività con una data di inizio pianificata specifica, è possibile utilizzare il controllo selezione data calendario in un filtro per selezionare una data specifica. Tuttavia, se si desidera creare un report che mostri le attività che hanno la Data di inizio pianificata entro un determinato periodo di tempo dalla data di accesso al report, è possibile utilizzare un carattere jolly che indica che quando un utente visualizza il report, vengono visualizzate le informazioni relative a un periodo di tempo rilevante per il momento in cui visualizza il report.
+Ad esempio, se desideri creare un rapporto che mostri le attività con una data di inizio pianificata specifica, puoi utilizzare il selettore data calendario in un filtro per selezionare una data specifica. Tuttavia, se si desidera creare un report che mostri le attività che hanno la Data inizio pianificata entro un determinato intervallo di tempo dalla data in cui si accede al report, è possibile utilizzare un carattere jolly che indica che quando un utente visualizza il report, vengono visualizzate le informazioni per un intervallo di tempo rilevante per il momento in cui visualizza il report.
 
-Ad esempio nell&#39;ultima settimana, nell&#39;ultimo anno, nelle prossime due settimane e così via. In questo modo, il report viene creato una volta, ma poiché si utilizza un carattere jolly nel filtro, si ottengono risultati diversi ogni volta che un utente lo legge perché si adatta al giorno in cui esegue il report.
+Ad esempio nell’ultima settimana, nell’ultimo anno, nelle prossime due settimane, ecc. In questo modo, il report verrà generato una volta, ma poiché si utilizza un carattere jolly nel filtro, il risultato sarà diverso ogni volta che qualcuno lo legge, in quanto si adatta al giorno in cui viene eseguito il report.
 
-È possibile utilizzare caratteri jolly basati su date per la creazione dei seguenti elementi di reporting:
+Puoi utilizzare caratteri jolly basati sulla data per creare i seguenti elementi di reporting:
 
 * Filtri
-* Suggerimenti personalizzati
-* Visualizzazioni durante l&#39;aggiunta di regole per le colonne
+* Richieste personalizzate
+* Visualizzazioni durante l’aggiunta di regole per le colonne
 
 ## Requisiti di accesso
 
@@ -50,12 +52,12 @@ Ad esempio nell&#39;ultima settimana, nell&#39;ultimo anno, nelle prossime due s
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p> <p>Modificare l’accesso a report, dashboard e calendari per modificare gli elementi di reporting in un report</p>
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-    <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p></td> 
+    <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p></td> 
    </td> 
   </tr> 
  </tbody> 
@@ -67,25 +69,25 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-Per poter aggiungere variabili jolly a un report, è necessario crearlo.
+È necessario creare un report prima di poter aggiungere variabili con caratteri jolly.
 
 Per informazioni sulla creazione di un report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Procedure
+## Passaggi pratici
 
-Per inserire un carattere jolly basato su date in un report:
+Per inserire un carattere jolly basato sulla data in un report:
 
-1. Passare a un report per il quale si desidera inserire un carattere jolly basato su date.
+1. Passare a un report per il quale si desidera inserire un carattere jolly basato sulla data.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.
 1. Fare clic sulla scheda **Filtri**.
-1. Fare clic su **Aggiungi regola filtro**.
-1. Inizia a digitare il nome del campo in base al quale filtrare i dati.\
+1. Fai clic su **Aggiungi una regola filtro**.
+1. Inizia a digitare il nome del campo in base al quale desideri filtrare.\
    È necessario digitare i campi che fanno riferimento a una data.
-1. Selezionare **Uguale** nel menu a discesa per la variabile di filtro.
+1. Seleziona **Uguale** nel menu a discesa per la variabile filtro.
 
    >[!TIP]
    >
-   >Quando si utilizzano i caratteri jolly in Adobe Workfront, è sempre necessario selezionare la variabile di filtro **Equal**.
+   >È sempre necessario selezionare la variabile di filtro **Equal** quando si utilizzano i caratteri jolly in Adobe Workfront.
 
 1. Fare clic sull&#39;interruttore **Imposta data relativa**, quindi nella casella di testo visualizzata digitare: `$$TODAY` se si desidera visualizzare informazioni su un evento che si verifica nello stesso giorno in cui viene eseguito il report.
 
@@ -93,12 +95,12 @@ Per inserire un carattere jolly basato su date in un report:
 
    Digitare `$$NOW` se si desidera visualizzare informazioni su un evento che si verifica alla stessa data e ora di esecuzione del report.
 
-   Questa data è sempre diversa, in quanto cambia a seconda della data in cui il report viene effettivamente visualizzato da un utente. pertanto, le informazioni contenute nel report sono diverse nei vari giorni.
+   Questa data è sempre diversa, in quanto cambia con la data in cui il rapporto viene effettivamente visualizzato da un utente. le informazioni contenute nel rapporto sono quindi diverse da un giorno all’altro.
 
-1. (Facoltativo) Se si desidera visualizzare informazioni che si verificano entro un periodo di tempo successivo alla data di esecuzione del report, digitare `$$TODAY+1w` per visualizzare le informazioni nella settimana successiva oppure `$$TODAY+2m` per visualizzare le informazioni nei due mesi successivi. Puoi anche indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
-1. (Facoltativo) Se si desidera visualizzare informazioni su un evento verificatosi in un intervallo di tempo precedente alla data di esecuzione del report, digitare `$$TODAY-1w` per visualizzare le informazioni della settimana precedente oppure `$$TODAY-2m` per visualizzare le informazioni dei due mesi precedenti. Puoi anche indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
+1. (Facoltativo) Se si desidera visualizzare le informazioni che si verificano in un intervallo di tempo successivo alla data di esecuzione del report, digitare `$$TODAY+1w` per visualizzare le informazioni nella settimana successiva oppure `$$TODAY+2m` per visualizzare le informazioni nei due mesi successivi. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
+1. (Facoltativo) Se si desidera visualizzare informazioni su un evento che si è verificato in un intervallo di tempo precedente alla data di esecuzione del report, digitare `$$TODAY-1w` per visualizzare le informazioni della settimana precedente oppure `$$TODAY-2m` per visualizzare le informazioni dei due mesi precedenti. È inoltre possibile indicare gli intervalli di tempo per trimestri, ore, giorni o anni.
 
-   Per un elenco completo degli attributi, dei qualificatori e degli operatori che è possibile utilizzare nei caratteri jolly basati su date, vedere l&#39;articolo [Panoramica sulle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Per un elenco completo degli attributi, dei qualificatori e degli operatori che è possibile utilizzare nei caratteri jolly basati sulla data, vedere l&#39;articolo [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Fai clic su **Salva e Chiudi**.
 
@@ -107,7 +109,7 @@ Per inserire un carattere jolly basato su date in un report:
 Vedi anche:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [Creazione o modifica di filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Creare o modificare filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Utilizzare la formattazione condizionale nelle viste](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

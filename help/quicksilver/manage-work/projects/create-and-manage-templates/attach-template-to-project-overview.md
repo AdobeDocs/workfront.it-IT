@@ -3,19 +3,21 @@ content-type: overview
 product-area: templates
 keywords: sovrascrivi,campo,sovrascritto
 navigation-topic: templates-navigation-topic
-title: Panoramica dell’associazione di un modello a un progetto
+title: Panoramica del collegamento di un modello a un progetto
 description: Quando si allega un modello a un progetto esistente, si modificano alcune informazioni del progetto in base a quelle del modello. Alcune informazioni sul progetto rimangono invariate.
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# Panoramica dell’associazione di un modello a un progetto
+# Panoramica del collegamento di un modello a un progetto
 
 Quando si allega un modello a un progetto esistente, si modificano alcune informazioni del progetto in base a quelle del modello. Alcune informazioni sul progetto rimangono invariate.
 
@@ -327,7 +329,8 @@ Nella tabella seguente viene descritto il comportamento predefinito per i campi 
 
 
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2> </h2>

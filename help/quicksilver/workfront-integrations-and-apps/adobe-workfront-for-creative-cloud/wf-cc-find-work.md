@@ -6,10 +6,12 @@ description: Trova il lavoro che ti è stato assegnato in Adobe Workfront senza 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,13 +23,14 @@ Trovare il lavoro assegnato all&#39;utente in [!DNL Adobe Workfront] senza uscir
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ Trovare il lavoro assegnato all&#39;utente in [!DNL Adobe Workfront] senza uscir
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
@@ -67,8 +71,8 @@ Utilizza l&#39;opzione [!UICONTROL Ordina per] per raggruppare elementi simili i
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Scadenza]</li> 
-     <li>[!UICONTROL Name]</li> 
+     <li>[!UICONTROL Data di scadenza]</li> 
+     <li>[!UICONTROL Nome]</li> 
      <li>[!UICONTROL Nome progetto]</li> 
      <li>[!UICONTROL Mia Priorità]</li> 
     </ul> </td> 

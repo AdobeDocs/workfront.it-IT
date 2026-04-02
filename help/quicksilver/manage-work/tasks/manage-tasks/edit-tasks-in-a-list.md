@@ -6,7 +6,9 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 4%
@@ -17,13 +19,15 @@ ht-degree: 4%
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell&#39;elenco. Per informazioni su altri modi per modificare le attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -37,10 +41,10 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard<p>
    <p>Work o successiva</p>
     </td> 
@@ -50,7 +54,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di contribuzione o superiori per l'attività e il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -60,7 +64,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +89,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sulla modifica delle attività in un elenco {#considerations-about-editing-tasks-in-a-list}
 
@@ -284,7 +290,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
    ![Abilitare l&#39;impostazione di salvataggio manuale](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Fare clic su **Applica**. Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
+1. Fai clic su **Applica**. Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
 
    ![Barra degli strumenti di salvataggio manuale](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
@@ -300,7 +306,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
    Oppure
 
-   Fare clic sull&#39;icona **Modalità del menu** Altro![&#x200B; nell&#39;elenco delle attività](assets/more-icon-task-list.png).
+   Fare clic sull&#39;icona **Modalità del menu** Altro![ nell&#39;elenco delle attività](assets/more-icon-task-list.png).
 
 1. (Facoltativo) Seleziona una delle seguenti opzioni:
 
@@ -535,7 +541,8 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 1. Fai clic su **Salva**.
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -600,4 +607,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

@@ -6,10 +6,12 @@ description: In Adobe Workfront è possibile spostare le attività in progetti d
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1377'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 3%
 <!--Audited: 5/2025-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Puoi spostare le attività in Adobe Workfront tra i seguenti oggetti:
@@ -47,7 +51,7 @@ Puoi spostare le attività in Adobe Workfront tra i seguenti oggetti:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard </p> 
  <p>Work o successiva</p> </td> 
   </tr> 
@@ -56,7 +60,7 @@ Puoi spostare le attività in Adobe Workfront tra i seguenti oggetti:
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività</p> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto con la possibilità di aggiungere attività</p>  </td> 
   </tr> 
  </tbody> 
@@ -66,7 +70,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sullo spostamento delle attività
 
@@ -149,7 +155,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
 1. Cercare un&#39;attività nel sistema Workfront.
 1. Fare clic sul nome dell&#39;attività per aprirla.
-1. Fai clic sull&#39;icona **del menu a discesa** Altro![&#x200B; accanto al nome dell&#39;attività, quindi fai clic su &#x200B;](assets/main-more-icon.png)Sposta in **.** Viene visualizzato il pannello laterale **Sposta attività**.
+1. Fai clic sull&#39;icona **del menu a discesa** Altro![ accanto al nome dell&#39;attività, quindi fai clic su ](assets/main-more-icon.png)Sposta in **.** Viene visualizzato il pannello laterale **Sposta attività**.
 
 1. (Facoltativo) Aggiorna **Nome attività**. L&#39;attività si sposta con il nuovo nome nella nuova posizione.
 
@@ -265,7 +271,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

@@ -7,10 +7,12 @@ description: Panoramica sull’impegno di lavoro
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -34,15 +36,17 @@ In qualità di project manager, è possibile decidere come stimare la quantità 
     <ul> 
      <li>Questo è il metodo predefinito. </li> 
      <li>È possibile aggiornare manualmente le ore pianificate solo per le attività con tipo di durata Assegnazione calcolata o Semplice. </li> 
-    </ul> <p>Per informazioni sulle ore pianificate, vedi <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sulle ore pianificate</a>. </p> </td> 
+    </ul> <p>Per informazioni sulle ore pianificate, consulta <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sulle ore pianificate</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Impegno di lavoro </td> 
-   <td> <p>Etichetta manuale che definisce se è necessario uno sforzo giornaliero minimo, medio o elevato per completare un'attività. <!--
+   <td> <p>Etichetta manuale che definisce se è necessario uno sforzo giornaliero minimo, medio o elevato per completare un'attività.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Considera quanto segue su Impegno di lavoro:</p> 
+     -->
+     </p> <p>Considera quanto segue su Impegno di lavoro:</p>
     <ul> 
      <li>Questo campo è disponibile solo per le attività con tipo di durata semplice. </li> 
      <li>Puoi abilitare l’uso di questa etichetta e definire la percentuale di orario di lavoro associata a livello di progetto. </li> 
@@ -70,7 +74,7 @@ Questo articolo descrive l&#39;impegno di lavoro e il modo in cui utilizzarlo pe
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p>
    </td> 
@@ -80,7 +84,7 @@ Questo articolo descrive l&#39;impegno di lavoro e il modo in cui utilizzarlo pe
    <td> <p>Modificare l’accesso a Progetti e Attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un progetto e le relative attività</p>  </td> 
   </tr> 
  </tbody> 
@@ -90,7 +94,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni per l’utilizzo dell’impegno di lavoro
 
@@ -151,7 +157,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    Per ulteriori informazioni sull&#39;aggiornamento del campo Impegno di lavoro per un&#39;attività, vedere gli articoli seguenti:
 
    * La sezione &quot;Panoramica&quot; nell&#39;articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-   * [Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * [Gestire le informazioni sull”attività nell”area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Livelli di impegno di lavoro {#levels-of-work-effort}
 

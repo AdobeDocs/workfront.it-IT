@@ -5,7 +5,9 @@ description: In [!DNL Adobe Workfront] puoi personalizzare la visualizzazione di
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 6%
@@ -53,7 +55,7 @@ Per informazioni sulla modifica delle informazioni visualizzate nell&#39;elenco,
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione  dei progetti.</p></td> 
+   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione [!UICONTROL] dei progetti.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 

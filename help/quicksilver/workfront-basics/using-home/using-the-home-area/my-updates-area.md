@@ -1,24 +1,28 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Utilizzare l'area I miei aggiornamenti
+title: Utilizzare l’area I miei aggiornamenti
 description: Puoi usare l'area [!UICONTROL I miei aggiornamenti] per rivedere rapidamente le approvazioni in attesa della tua decisione o le conversazioni in cui sei stato incluso.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Utilizza l&#39;area [!UICONTROL I miei aggiornamenti]
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Puoi usare l&#39;area [!UICONTROL I miei aggiornamenti] per rivedere rapidamente le approvazioni in attesa della tua decisione o le conversazioni in cui sei stato incluso.
@@ -31,7 +35,7 @@ Se si dispone di un tipo di licenza diverso da Revisione, l&#39;amministratore d
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,15 +47,15 @@ Se si dispone di un tipo di licenza diverso da Revisione, l&#39;amministratore d
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
    <td> <p>Accesso di visualizzazione o superiore a qualsiasi oggetto per il quale si è taggati in una conversazione o per il quale è necessario risolvere un'approvazione (progetti, attività, problemi, documenti)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per progetti, attività, problemi e documenti a cui vengono assegnati tag in una conversazione o in cui è necessario risolvere un'approvazione</p> </td> 
   </tr> 
  </tbody> 

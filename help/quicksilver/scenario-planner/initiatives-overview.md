@@ -7,7 +7,9 @@ description: La Pianificazione scenario è disponibile solo nella nuova esperien
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Per visualizzare i seguenti indicatori finanziari relativi a un&#39;iniziativa, 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Planned Benefit]</td> 
+   <td role="rowheader">[!UICONTROL Vantaggio pianificato]</td> 
    <td>Si tratta di un inserimento manuale in cui è possibile stimare il beneficio complessivo che il reparto otterrebbe completando questa iniziativa. </td> 
   </tr> 
   <tr> 
@@ -96,14 +98,16 @@ Per visualizzare i seguenti indicatori finanziari relativi a un&#39;iniziativa, 
  </tbody> 
 </table>
 
-<!--drafted content from People Costs:
+<!--
+drafted content from People Costs:
 (NOTE: drafted below)</p> 
        <p>Depending on whether the plan is set up to use FTEs or hours, Workfront uses the following formulas to calculate People Cost:</p> 
        <ul> 
         <li> <p>When using FTEs: </p> <p><code>People Costs = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>, where 160 is the total number of working hours in a month. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span style="font-weight: normal;"> When estimating resources using FTEs,(NOTE: drafted and yellow and fix the rest of the sentence)
       <p>When using hours:</p> 
       <p><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> 
-      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>-->
+      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>
+      -->
 
 ## Informazioni sulle iniziative nei rapporti
 
@@ -118,7 +122,7 @@ Puoi visualizzare le informazioni sull’iniziativa nei rapporti, come descritto
    <td><b>Informazioni iniziativa</b></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Initiative] </td> 
+   <td>[!UICONTROL Iniziativa] </td> 
    <td>Nome, Durata, Date di inizio e fine, Immesso da, ID, Data ultima pubblicazione*, Tutti i campi del progetto, compresi i campi personalizzati*</td> 
   </tr> 
   <tr> 
@@ -126,7 +130,7 @@ Puoi visualizzare le informazioni sull’iniziativa nei rapporti, come descritto
    <td>Tutte le informazioni sull'iniziativa elencate in precedenza, ID (mansione), Progetto*, Ore pianificate assegnazione progetto*, Ore mansione iniziativa, Conteggio (mansione), Tutti i campi del progetto, inclusi i campi personalizzati*</td> 
   </tr> 
   <tr> 
-   <td><p>Progetto *</p></td> 
+   <td><p>Progetto [!UICONTROL]*</p></td> 
    <td> <p>Tutte le informazioni sull'iniziativa elencate in precedenza*</p> </td> 
   </tr> 
  </tbody> 

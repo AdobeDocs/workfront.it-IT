@@ -6,10 +6,12 @@ description: La priorità delle iniziative è importante perché le iniziative r
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +27,7 @@ Per informazioni sulla creazione delle iniziative, vedere [Creare e modificare l
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Per informazioni sulla creazione delle iniziative, vedere [Creare e modificare l
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +63,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--<table style="table-layout:auto"> 
+<!--
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +98,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aggiornare le priorità dell’iniziativa
 

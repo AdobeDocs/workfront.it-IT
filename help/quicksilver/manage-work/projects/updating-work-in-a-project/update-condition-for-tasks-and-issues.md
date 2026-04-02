@@ -6,22 +6,26 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Aggiorna condizione per attività e problemi
+# Aggiornare condizione per attività e problemi
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 La condizione di un’attività o di un problema è un flag applicato a tale attività o problema per indicarne la direzione. Diverso dallo stato dell&#39;elemento di lavoro, che indica la fase corrente di sviluppo dell&#39;elemento.
 
@@ -42,7 +46,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <ul><li><p>Standard per le attività</p></li>
    <li><p>Collaboratore o versione successiva per i problemi</p></li></ul>
@@ -56,7 +60,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
    <td> <p>Visualizzare o accedere ai progetti in modo più avanzato</p> <p>Modificare l’accesso ad attività e problemi </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi per visualizzarne la condizione</p>
    <p>Autorizzazioni di Contribute su attività e problemi per aggiornare la condizione</p>
   </td> 
@@ -68,7 +72,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +105,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -152,11 +158,13 @@ Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvi
 >* [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-<!--old Condition update - in the commenting stream: 
+<!--
+old Condition update - in the commenting stream: 
 Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue.
+-->
 
 Puoi aggiornare manualmente la Condizione delle attività e dei problemi in varie aree di Workfront. Nelle sezioni seguenti viene descritto come aggiornare manualmente la condizione di attività e problemi.
 

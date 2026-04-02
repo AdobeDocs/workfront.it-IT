@@ -7,10 +7,12 @@ description: Puoi condividere un piano creato in Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +52,7 @@ ht-degree: 4%
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +64,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -97,7 +100,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -237,7 +241,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizzazione </td> 
+      <td role="rowheader">[!UICONTROL Vista]</td> 
       <td>Gli utenti con cui condividi il piano disporranno delle autorizzazioni necessarie per visualizzarlo. Non possono modificare le informazioni sul piano, aggiungere iniziative, scenari o pubblicare scenari. </td> 
      </tr> 
      <tr> 

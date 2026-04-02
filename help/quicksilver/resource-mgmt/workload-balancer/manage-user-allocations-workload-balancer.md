@@ -6,14 +6,16 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro
+# Gestire le allocazioni degli utenti nel bilanciamento dei carichi di lavoro
 
 <!-- Audited: 01/2024 -->
 
@@ -21,7 +23,7 @@ In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e
 
 ## Requisiti di accesso {#access-requirements}
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +34,7 @@ In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -42,13 +44,13 @@ In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li> 
     </ul>
    </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute o versioni successive che includono l'opzione Assegna assegnazioni alle attività e ai problemi per i quali si desidera gestire le allocazioni. </p> <p>Oppure </p> <p>Gestisci le autorizzazioni per le attività per le quali desideri aggiornare le ore pianificate, oltre ad aggiornare le allocazioni. Per informazioni sull'aggiornamento delle ore pianificate nel Bilanciatore dei carichi di lavoro, consulta la sezione <a href="#update-task-planned-hours-when-managing-user-allocations">Aggiorna le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in questo articolo.</p> </td> 
   </tr> 
  </tbody> 
@@ -68,13 +70,14 @@ Questo articolo descrive come aggiornare le allocazioni orarie giornaliere, sett
 
 È possibile visualizzare l’allocazione utente come ore o come valore percentuale nel Bilanciatore dei carichi di lavoro. È possibile regolare le ore o le percentuali.
 
-Le allocazioni utente sono incluse nel numero di ore pianificate di un elemento di lavoro. Per informazioni sulle ore pianificate, vedi [Panoramica sulle ore pianificate](../../manage-work/tasks/task-information/planned-hours.md).
+Le allocazioni utente sono incluse nel numero di ore pianificate di un elemento di lavoro. Per informazioni sulle ore pianificate, consulta [Panoramica sulle ore pianificate](../../manage-work/tasks/task-information/planned-hours.md).
 
 Le ore pianificate dell&#39;attività vengono distribuite equamente tra tutti i giorni all&#39;interno della Durata dell&#39;attività per l&#39;utente assegnato all&#39;attività. Se ad esempio un&#39;attività ha una durata di 5 giorni e un totale di 10 ore pianificate, il numero di allocazioni giornaliere per l&#39;attività sarà di 2 ore. L’assegnazione settimanale è di 10 ore. Ciò significa che un utente è assegnato a lavorare sull&#39;attività per 2 ore al giorno. Tuttavia, è possibile modificare manualmente l’allocazione giornaliera per l’utente utilizzando il Bilanciatore dei carichi di lavoro.
 
 >[!CAUTION]
 >
->Il Bilanciatore dei carichi di lavoro visualizza solo <!--up to 1000 Planned Hours per work item per user, and--> per un massimo di 1000 giorni di durata di un elemento. Le allocazioni nel Bilanciatore dei carichi di lavoro vengono visualizzate come zero dopo il raggiungimento del limite di 1000 giorni. È consigliabile suddividere le attività in sottoattività più piccole <!--to accommodate a larger number of Planned Hours or--> per durate superiori a 1000 giorni.
+>Il Bilanciatore dei carichi di lavoro visualizza solo <!--up to 1000 Planned Hours per work item per user, and--> per un massimo di 1000 giorni di durata di un elemento. Le allocazioni nel Bilanciatore dei carichi di lavoro vengono visualizzate come zero dopo il raggiungimento del limite di 1000 giorni. È consigliabile suddividere le attività in sottoattività più piccole per durate superiori a 1000 giorni.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Quando si individuano le allocazioni giornaliere, settimanali o mensili per attività o problemi nel Bilanciatore dei carichi di lavoro, tenere presente quanto segue:
 
@@ -206,7 +209,7 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
       >[!NOTE]
       >
-      >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 1. Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) per un elemento di lavoro, quindi fai clic su **Modifica allocazioni**.
 

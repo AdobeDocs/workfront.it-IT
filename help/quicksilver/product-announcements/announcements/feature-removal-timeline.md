@@ -7,10 +7,12 @@ description: Diverse funzioni sono state eliminate gradualmente dal prodotto Ado
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -39,32 +41,37 @@ Diverse funzioni sono state eliminate gradualmente dal prodotto Adobe Workfront.
    <td>Non più supportato con la versione 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Programmazione delle risorse</p> <p>Il Bilanciatore dei carichi di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul Bilanciatore dei carichi di lavoro, consulta <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p> </td> 
+   <td> <p>Pianificazione risorse</p> <p>Il Bilanciatore dei carichi di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul Bilanciatore dei carichi di lavoro, consulta <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p> </td> 
    <td> </td> 
    <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>—</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un’esperienza migliore rispetto alla versione precedente di Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un’esperienza migliore rispetto alla versione precedente di Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Rimosso dalla piattaforma Workfront il 31 marzo 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>In Workfront sono ora disponibili diversi strumenti in sostituzione di ogni strumento basato su Flash. Per informazioni più dettagliate, vedi <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Sostituzione degli strumenti basati sul Flash in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>In Workfront sono ora disponibili diversi strumenti in sostituzione di ogni strumento basato su Flash. Per informazioni più dettagliate, vedi <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Sostituzione degli strumenti basati su Flash in Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Rimosso dalla piattaforma Workfront il 19 novembre 2020</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

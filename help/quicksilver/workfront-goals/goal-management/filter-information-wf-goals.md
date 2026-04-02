@@ -6,7 +6,9 @@ description: Puoi visualizzare gli obiettivi che tu o chiunque altro hai aggiunt
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 7%
@@ -72,7 +74,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Panoramica dei filtri negli Obiettivi di Workfront
 
@@ -193,9 +197,11 @@ Puoi creare un filtro da zero o modificare uno dei filtri incorporati.
       <tbody> 
        <tr> 
         <td>Tutto</td> 
-        <td> <p>Tutti gli obiettivi nel sistema, indipendentemente da chi li ha creati, da quale periodo di tempo si riferiscono o da chi sia il proprietario. Questo è il filtro predefinito e non puoi modificarlo. </p> <!--
+        <td> <p>Tutti gli obiettivi nel sistema, indipendentemente da chi li ha creati, da quale periodo di tempo si riferiscono o da chi sia il proprietario. Questo è il filtro predefinito e non puoi modificarlo. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personale</td> 

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Visualizzare tutti gli aggiornamenti in un report Nota
+title: Visualizzare tutti gli aggiornamenti in un rapporto Nota
 description: Per visualizzare tutti gli aggiornamenti inseriti da un utente per un oggetto, è possibile creare un report di note che visualizza tutti gli aggiornamenti.
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Visualizzare tutti gli aggiornamenti in un report Nota
+# Visualizzare tutti gli aggiornamenti in un rapporto Nota
 
 <!-- Audited: 10/2025 -->
 
@@ -42,7 +44,7 @@ Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene vi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p> </td> 
   </tr> 
@@ -55,7 +57,7 @@ Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene vi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni sugli oggetti nel rapporto</p>
    </td> 
   </tr> 
@@ -66,7 +68,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -96,7 +99,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creare un rapporto di nota
 

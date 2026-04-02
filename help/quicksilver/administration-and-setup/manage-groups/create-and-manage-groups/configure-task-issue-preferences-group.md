@@ -9,18 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 # Configurare le preferenze per attività e problemi per un gruppo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Se i gruppi dell’organizzazione devono configurare una preferenza per attività o problemi indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore di gruppo, puoi configurare la preferenza per il gruppo e influenzerà tutte le attività o i problemi associati al gruppo.
 
@@ -43,7 +47,7 @@ Per informazioni su come l&#39;amministratore di Workfront sblocca le preferenze
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +58,7 @@ Per informazioni su come l&#39;amministratore di Workfront sblocca le preferenze
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -140,9 +144,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
        <ul> 
         <li><strong>Mantieni il problema originale e collegane la risoluzione all'attività</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell'attività. Lo stato del problema diventa automaticamente Chiuso al completamento dell’attività.</li> 
         <li><strong>Consenti al contatto principale di accedere all'attività</strong>: consente al contatto principale (autore del problema) di accedere all'attività per esaminarla, apportare aggiornamenti e rimanere informato sull'avanzamento</li> 
-        <li> <p><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: consente all'utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un'attività.</p> <!--
+        <li> <p><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: consente all'utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un'attività.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -168,7 +174,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td> <p> Consente di determinare se consentire l’eliminazione di attività o problemi in cui sono registrate le ore. Questa opzione è selezionata per impostazione predefinita.</p> 
        <div> 
         <p><b>Suggerimento</b>: questa impostazione si applica anche all'eliminazione di progetti con attività o problemi con ore registrate. Questa impostazione non si applica all’eliminazione di progetti in cui il tempo viene registrato direttamente per il progetto. </p> 
-        <p>Considera quanto segue:</p> 
+        <p>Considera i seguenti aspetti:</p> 
         <ul> 
          <li> <p>Quando viene selezionato, quando si elimina un'attività o un problema si riceve un avviso informativo. L’avviso ricorda che se l’attività o il problema ha registrato ore, queste verranno spostate nel progetto o eliminate. Puoi configurare se le ore vengono eliminate o spostate nel progetto nell’area Preferenze scheda orario e ore della Configurazione. Dopo aver confermato di aver visualizzato l’avviso, l’attività o il problema viene eliminato. Per ulteriori informazioni sulla configurazione delle preferenze per le ore e la scheda orario, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze per le ore e la scheda orario</a>. </p> <p>Suggerimento: <span>Quando si elimina un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o vengono mantenute in base alle impostazioni nell'area Preferenze scheda orario e ore della configurazione</span>. </p> </li> 
          <li><span>Quando si deseleziona questa opzione, viene visualizzato un avviso proibitivo quando si elimina un'attività o un problema con ore registrate o quando si elimina un progetto con ore registrate per le attività o i problemi</span> <span>.</span> L'avviso specifica che l'amministratore non consente l'eliminazione di attività o problemi con ore registrate. Impossibile eliminare le attività, i problemi<span> o i progetti con ore registrate per attività e problemi</span>. </li> 
@@ -188,7 +194,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader">Consenti agli utenti di spostare attività e problemi con ore registrate</td> 
       <td> <p> Consente di determinare se consentire lo spostamento di attività o problemi in cui vengono registrate le ore. Questa opzione è selezionata per impostazione predefinita.</p> 
-       <p>Considera quanto segue:</p> 
+       <p>Considera i seguenti aspetti:</p> 
         <ul> 
          <li> Quando è selezionato, puoi spostare le attività e i problemi con tempo registrato. Le ore vengono spostate anche con le attività o i problemi. </li>
       <li>Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando sposti un’attività o un problema con ore registrate. L'avviso specifica che l'amministratore non consente lo spostamento di attività o problemi con ore registrate. Impossibile spostare in un altro progetto le attività o i problemi registrati. È possibile spostare le attività con ore registrate all’interno dello stesso progetto, anche deselezionando questa opzione.  </li></ul>

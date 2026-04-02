@@ -7,10 +7,12 @@ description: È possibile configurare le informazioni visualizzate sia nel Diagr
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,18 +46,19 @@ ht-degree: 0%
    <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti e attività</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto e alle attività</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Comprendere le opzioni di visualizzazione
 
@@ -100,17 +104,17 @@ La tabella seguente descrive le opzioni di visualizzazione per il [!UICONTROL Di
   <tr> 
    <td role="rowheader">[!UICONTROL Assegnazioni]</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="assignments_in_gantt.png" style="width: 312;height: 203;"> </td> 
-   <td> <p>Mostra gli assegnatari delle attività. Passa il puntatore del mouse sul collegamento Dettagli accanto al nome dell’assegnatario per visualizzare informazioni più dettagliate su di esso, inclusa la percentuale della sua allocazione all’attività.</p> <p>Gli assegnatari non vengono visualizzati nel grafico [!UICONTROL Gantt] quando il grafico [!UICONTROL Gantt] viene esportato in PDF. Quando il grafico di Gantt  viene esportato in PDF, gli assegnatari vengono visualizzati solo nell'elenco delle attività.</p> </td> 
+   <td> <p>Mostra gli assegnatari delle attività. Passa il puntatore del mouse sul collegamento Dettagli accanto al nome dell’assegnatario per visualizzare informazioni più dettagliate su di esso, inclusa la percentuale della sua allocazione all’attività.</p> <p>Gli assegnatari non vengono visualizzati nel grafico [!UICONTROL Gantt] quando il grafico [!UICONTROL Gantt] viene esportato in PDF. Quando il grafico di Gantt [!UICONTROL] viene esportato in PDF, gli assegnatari vengono visualizzati solo nell'elenco delle attività.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Baseline]</td> 
+   <td role="rowheader">[!UICONTROL Linea di base]</td> 
    <td> <img src="assets/baselines-sandbox-gantt.png" alt="baseline_sandbox_gantt.png"> </td> 
-   <td> <p>Snapshot del progetto che rappresenta i dati chiave del progetto inclusi nel piano di progetto iniziale. Le linee di base possono essere acquisite in tutta la timeline del progetto. Quando si abilita la visualizzazione delle linee di base nel diagramma di Gantt , selezionare la linea di base che si desidera visualizzare. È possibile visualizzare una sola linea di base nel diagramma di Gantt  alla volta, che verrà visualizzata sotto forma di una barra grigia.</p> <p>Per ulteriori informazioni sulle previsioni, vedere <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Creare le previsioni del progetto</a>.</p> </td> 
+   <td> <p>Snapshot del progetto che rappresenta i dati chiave del progetto inclusi nel piano di progetto iniziale. Le linee di base possono essere acquisite in tutta la timeline del progetto. Quando si abilita la visualizzazione delle linee di base nel diagramma di Gantt [!UICONTROL], selezionare la linea di base che si desidera visualizzare. È possibile visualizzare una sola linea di base nel diagramma di Gantt [!UICONTROL] alla volta, che verrà visualizzata sotto forma di una barra grigia.</p> <p>Per ulteriori informazioni sulle previsioni, vedere <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Creare le previsioni del progetto</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Commit Date]</td> 
+   <td role="rowheader">[!UICONTROL Data di impegno]</td> 
    <td> <img src="assets/commit-dates-sandbox-243x226.png" alt="commit_dates_sandbox.png" style="width: 243;height: 226;"> </td> 
-   <td> <p>La data indicata da un assegnatario come impegno di quando l'attività verrà completata viene visualizzata con un marcatore nel diagramma di Gantt . </p> <p>Per ulteriori informazioni sulle date di commit, vedere <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] overview</a>.</p> </td> 
+   <td> <p>La data indicata da un assegnatario come impegno di quando l'attività verrà completata viene visualizzata con un marcatore nel diagramma di Gantt [!UICONTROL]. </p> <p>Per ulteriori informazioni sulle date di commit, vedere <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL % completato]</td> 
@@ -135,12 +139,12 @@ La tabella seguente descrive le opzioni di visualizzazione per il [!UICONTROL Di
   <tr> 
    <td role="rowheader">[!UICONTROL Predecessors]</td> 
    <td> <img src="assets/predecessor-2-269x200.png" alt="predecessor_2.png" style="width: 269;height: 200;"> </td> 
-   <td> <p>Riga da un'attività all'altra che mostra la relazione predecessore tra le due attività. Per evidenziare una singola linea predecessore, posizionare il cursore su di essa. Fai clic su di esso per mantenerlo evidenziato. È possibile evidenziare una sola riga predecessore alla volta.</p> <p>Accanto a qualsiasi attività con una relazione predecessore che si estende su più pagine nel diagramma di Gantt o su qualsiasi attività con un predecessore per più progetti viene visualizzata l'icona [!UICONTROL Predecessor].</p> <p>Fai clic sull'icona [!UICONTROL Predecessore] per visualizzare tutte le attività predecessore e successore e i relativi dettagli, ad esempio il nome dell'attività, il tipo di relazione predecessore e le date chiave.</p> <p>Nota: il diagramma di Gantt  in un elenco di progetti visualizza informazioni sui predecessori tra progetti. Per ulteriori informazioni su come creare relazioni di predecessori tra progetti diversi, vedi <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Creare predecessori tra progetti</a></p> <p>Per ulteriori informazioni sui predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Applica predecessori</a>.</p> </td> 
+   <td> <p>Riga da un'attività all'altra che mostra la relazione predecessore tra le due attività. Per evidenziare una singola linea predecessore, posizionare il cursore su di essa. Fai clic su di esso per mantenerlo evidenziato. È possibile evidenziare una sola riga predecessore alla volta.</p> <p>Accanto a qualsiasi attività con una relazione predecessore che si estende su più pagine nel diagramma di Gantt o su qualsiasi attività con un predecessore per più progetti viene visualizzata l'icona [!UICONTROL Predecessor].</p> <p>Fai clic sull'icona [!UICONTROL Predecessore] per visualizzare tutte le attività predecessore e successore e i relativi dettagli, ad esempio il nome dell'attività, il tipo di relazione predecessore e le date chiave.</p> <p>Nota: il diagramma di Gantt [!UICONTROL] in un elenco di progetti visualizza informazioni sui predecessori tra progetti. Per ulteriori informazioni su come creare relazioni di predecessori tra progetti diversi, vedi <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Creare predecessori tra progetti</a></p> <p>Per ulteriori informazioni sui predecessori, vedere <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Applica predecessori</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Stato di avanzamento di </td> 
+   <td role="rowheader">[!UICONTROL Stato di avanzamento]</td> 
    <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__Oct._2017.png"></p> <p>[!UICONTROL Dietro]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind__ott._2017.png"></p> <p>[!UICONTROL A Rischio]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>In Ritardo        <img src="assets/task-late-oct.2017.png" alt="task_late_ott.2017.png"></p> </td> 
-   <td> <p> </p> <p>Stato dell'avanzamento corrente di una determinata attività. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell'attività </a>.</p> </td> 
+   <td> <p> </p> <p>Stato dell'avanzamento corrente di una determinata attività. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell'attività [!UICONTROL]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Date Previste</td> 

@@ -3,11 +3,13 @@ product-area: reporting
 keywords: modifica,proprietario,condiviso,report,condivisione,esecuzione,utente,accesso,diritti,inserito,ultimo,visualizzato,data,report,attività
 navigation-topic: report-usage
 title: Creare un rapporto sulle attività di reporting
-description: Quando crei un report sui report, puoi identificare informazioni specifiche sul report, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che intendi eliminare e così via.
+description: Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l'esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 9%
@@ -16,7 +18,7 @@ ht-degree: 9%
 
 # Creare un rapporto sulle attività di reporting
 
-Quando crei un report sui report, puoi identificare informazioni specifiche sul report, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per essere eseguiti con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che intendi eliminare e così via.
+Quando si crea un report sui report, è possibile identificare informazioni specifiche, che possono includere se i report sono assegnati a utenti disattivati, se i report sono impostati per l&#39;esecuzione con i diritti di accesso di un utente disattivato, se gli utenti accedono a un report che si intende eliminare e così via.
 
 ## Requisiti di accesso
 
@@ -38,7 +40,7 @@ Quando crei un report sui report, puoi identificare informazioni specifiche sul 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p></td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -62,14 +64,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    | Campo | Descrizione |
    |---|---|
-   | **Esegui come utente: nome** | Questo è l&#39;utente specificato in **Esegui il report con i diritti di accesso di:** nel report. Se l&#39;utente è disattivato, il report non viene visualizzato per nessuno con cui è condiviso. |
+   | **Esegui come utente: Nome** | Questo è l&#39;utente specificato in **Esegui il report con i diritti di accesso di:** nel report. Se l&#39;utente è disattivato, il report non viene visualizzato per nessuno con cui è condiviso. |
    | **Condiviso con** | Queste sono tutte le entità con cui è condiviso il report. |
    | **Inserito da** | Questo è il proprietario del rapporto. |
    | **Data ultima visualizzazione** | Data e ora dell&#39;ultima visualizzazione del report da parte di un utente. |
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Per limitare l’elenco dei report a specifici utenti disattivati:
+1. (Facoltativo) Per limitare l’elenco dei rapporti a specifici utenti disattivati:
 
    1. Seleziona la scheda **Filtri**, quindi fai clic su **Aggiungi regola filtro**.
 
@@ -88,17 +90,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    Vengono visualizzate le informazioni del rapporto.
 
-1. (Facoltativo) Esporta il report in Excel e salvalo sul computer.\
+1. (Facoltativo) Esporta il report in Excel e salvalo nel computer.\
    Per informazioni sull&#39;esportazione di un report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Aggiornare le informazioni su un report
 
-Dopo aver creato il report, puoi aggiornarlo in base alle esigenze.
+Dopo aver creato il rapporto, puoi aggiornarlo in base alle esigenze.
 
 1. Vai al rapporto che desideri aggiornare.
 1. A seconda dell&#39;azione che si desidera eseguire, eseguire una delle operazioni seguenti:
 
-   * Aggiorna il report **Esegui il report con i diritti di accesso di:** a un utente attivo: per ulteriori informazioni, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+   * Aggiornare **Esegui il report con i diritti di accesso di:** a un utente attivo: per ulteriori informazioni, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
    * Creare una copia del report: per ulteriori informazioni, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
    * Eliminare un report: per ulteriori informazioni, vedere la sezione [Creare una copia esatta di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) dell&#39;articolo [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

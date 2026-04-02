@@ -6,10 +6,12 @@ description: È possibile creare piani utilizzando Workfront Scenario Planner qu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2399'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +53,7 @@ ht-degree: 0%
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +65,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creare o modificare i piani
 
@@ -159,7 +163,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Digitare un nome per il piano. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
@@ -182,7 +186,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
       <td> <p>Selezionare il mese e l'anno in cui si desidera che inizi il piano. In questo campo è possibile selezionare solo mesi. [!DNL Workfront] presuppone che la data di inizio del piano sia il primo giorno del mese selezionato e che la data di fine sia l'ultimo giorno della fine del mese nella sua durata. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Duration]</td> 
+      <td role="rowheader">[!UICONTROL Durata]</td> 
       <td> <p>Dal menu a discesa, seleziona una delle seguenti durate:</p> 
        <ul> 
         <li>1 anno. Questa è la durata predefinita. </li> 
@@ -207,9 +211,9 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 
    | Opzione menu a discesa | Descrizione |
    |---|---|
-   | [!UICONTROL Mese] | Visualizza la timeline per mese. Questa è l&#39;opzione predefinita e unica per un piano annuale. |
+   | [!UICONTROL Month] | Visualizza la timeline per mese. Questa è l&#39;opzione predefinita e unica per un piano annuale. |
    | [!UICONTROL Trimestre] | Visualizza la timeline per trimestre. Questa opzione è disponibile solo quando la [!UICONTROL durata] del piano è di 3 o 5 anni. Questa è l&#39;opzione predefinita per un piano triennale. |
-   | [!UICONTROL Anno] | Visualizza la timeline per anno. Questa opzione è disponibile solo quando la [!UICONTROL durata] del piano è di 5 anni. Questa è l&#39;opzione predefinita per un piano quinquennale. |
+   | [!UICONTROL Year] | Visualizza la timeline per anno. Questa opzione è disponibile solo quando la [!UICONTROL durata] del piano è di 5 anni. Questa è l&#39;opzione predefinita per un piano quinquennale. |
 
 1. (Facoltativo) Scorri da sinistra a destra per visualizzare l’intera durata del piano.
 1. (Facoltativo) Fai clic sulla riga dell&#39;indicatore **[!UICONTROL Oggi]** per tornare al giorno corrente.
@@ -253,7 +257,8 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
         <li> <p><strong>[!UICONTROL Total required]</strong> (per ore): numero totale di ore richieste per tutti i mesi durante la durata del piano.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (per FTE): numero massimo di FTE richiesti per uno qualsiasi dei mesi durante la durata del piano. </p> </li> 
        </ul> <p>Suggerimento: il numero <span>massimo</span> di FTE <span> o il numero totale di ore</span> richiesti per quella mansione viene visualizzato dopo l'inizio dell'aggiunta delle iniziative. Per informazioni sull'aggiunta di iniziative a un piano, vedere <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Creare e modificare le iniziative in [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
@@ -309,7 +314,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
       <td> <p><span>A seconda che si sia scelto di utilizzare le ore o l'FTE per il piano, esaminare</span> il numero mensile di FTE dei ruoli o le ore richieste per lo scenario nei campi seguenti: </p> 
        <ul> 
         <li> <p><strong>[!UICONTROL Obbligatorio] (max &lt;numero di FTE&gt;)</strong>: il numero tra parentesi indica il numero massimo di ruoli richiesti per uno qualsiasi dei mesi per lo scenario. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Richiesto] (totale &lt;numero di ore&gt;)</strong>: il numero tra parentesi indica il numero totale di ore richieste per tutti i mesi dello scenario.</span> </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Obbligatorio] (totale &lt;numero di ore&gt;)</strong>: il numero tra parentesi indica il numero totale di ore richieste per tutti i mesi dello scenario.</span> </p> </li> 
        </ul> <p>Suggerimento: non è possibile modificare il numero richiesto di FTE <span>o ore</span> per la mansione. Questo numero viene popolato per lo scenario dopo che hai iniziato ad aggiungere iniziative e i relativi requisiti di mansione. </p> </td> 
      </tr> 
      <tr> 

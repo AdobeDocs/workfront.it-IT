@@ -7,10 +7,12 @@ description: Il giorno di inizio della settimana nella scheda orario non corrisp
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +36,8 @@ Se la scheda orario è stata creata manualmente, il giorno di inizio della setti
 Ad esempio, con Email Locale impostato su Inglese (Stati Uniti), la settimana nella scheda orario inizia di domenica. In alternativa, con Email Locale impostato su Inglese (Regno Unito), la settimana nella scheda orario inizia di lunedì.
 
 
-<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
+<!--
+This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
 ## Problem
 

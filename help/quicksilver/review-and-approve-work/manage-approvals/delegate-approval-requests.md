@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Delega richiesta di approvazione
+title: Delegare la richiesta di approvazione
 description: La delega delle richieste di approvazione ti consente di assegnare a un altro utente il compito di approvare le richieste per un determinato periodo di tempo, ad esempio se ti trovi fuori sede in vacanza.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Delega richiesta di approvazione
+# Delegare la richiesta di approvazione
 
 Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Puoi delegare le assegnazioni di attività e problemi, oppure puoi delegare le richieste di approvazione. Questo articolo descrive come delegare le richieste di approvazione. Per informazioni sulla delega delle assegnazioni di attività e problemi, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -35,7 +37,7 @@ Non puoi delegare le approvazioni di schede orario, documenti o bozze.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +50,7 @@ Non puoi delegare le approvazioni di schede orario, documenti o bozze.
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td>
    <p>Contribuisci o versione successiva</p>
    <p>Revisione o successiva</p> 
@@ -154,7 +156,8 @@ Per delegare le approvazioni a un altro utente:
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (Condizionale) Effettua una delle seguenti operazioni:
 

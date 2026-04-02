@@ -6,14 +6,16 @@ description: È possibile visualizzare o modificare le informazioni di un'attivi
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività
+# Gestire le informazioni sull”attività nell”area Panoramica dettagli attività
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
@@ -42,7 +44,7 @@ In questo articolo viene descritto come visualizzare o modificare le informazion
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront </p> </td> 
+   <td> <p>Licenza di Adobe Workfront </p> </td> 
    <td><p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -51,7 +53,7 @@ In questo articolo viene descritto come visualizzare o modificare le informazion
    <td> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se disponi del livello di accesso corretto ma non riesci ancora a modificare la sezione Dettagli dell’attività, chiedi all’Adobe Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Autorizzazioni Contribute o superiori per il progetto</p> <p>Visualizzare le autorizzazioni per l'attività per visualizzare le informazioni nella sezione Dettagli. </p> 
    <p>Autorizzazioni di Contribute per l'attività per aggiornare le seguenti informazioni nella sezione Dettagli:</p>
 
@@ -69,7 +71,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -99,7 +102,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modificare le informazioni sull&#39;attività nella sezione Panoramica dei dettagli attività
 
@@ -351,11 +355,11 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Frequenza ricorrenza</td> 
-      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Frequenza con cui si verificano le attività nella ricorrenza. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> </td> 
+      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Frequenza con cui si verificano le attività nella ricorrenza. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Durata per Occorrenza</td> 
-      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p><strong>NOTA</strong></p> <p> Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td> 
+      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Visualizza la durata di ciascuna attività ricorrente. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p><strong>NOTA</strong></p> <p> Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td> 
      </tr> 
     </tbody> 
    </table>

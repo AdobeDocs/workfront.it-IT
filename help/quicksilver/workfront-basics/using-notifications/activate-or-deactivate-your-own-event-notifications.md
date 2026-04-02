@@ -7,7 +7,9 @@ description: Questo articolo descrive come gestire le notifiche e-mail nel profi
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 5%

@@ -7,7 +7,9 @@ description: È possibile creare un elenco di schede in un flusso di lavoro e ag
 author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 9%
@@ -70,7 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td>Una descrizione del Card.</td> 
      </tr>
      <tr> 
-      <td><strong>Stima </strong></td> 
+      <td><strong>Stima [!UICONTROL]</strong></td> 
       <td>Numero stimato di ore per il completamento della carta. Questa è solo una immissione manuale.</td> 
      </tr>
      <tr> 
@@ -93,9 +95,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Visualizza schede
 
-Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Visualizzazione elenco**] nella scheda Elenco schede.
+Per visualizzare tutte le schede del flusso di lavoro in un unico elenco, fare clic su [!UICONTROL **Vista elenco**] nella scheda Elenco schede.
 
-Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Vista iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
+Per visualizzare tutte le schede del flusso di lavoro raggruppate per iterazione, fare clic su [!UICONTROL **Visualizzazione iterazione**]. Le schede non pianificate vengono visualizzate nel proprio gruppo.
 
 Per modificare una scheda esistente, selezionarla nell&#39;elenco e fare clic su [!UICONTROL **Modifica**].
 

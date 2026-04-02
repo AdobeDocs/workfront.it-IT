@@ -6,10 +6,12 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1541'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla Pianificazione di Adobe Workfront, una funzionalità aggiuntiva di Adobe Workfront.
 >
 >L&#39;organizzazione deve disporre di un pacchetto Workfront Planning Prime o di una versione successiva per supportare le funzionalità consigliate in questo articolo.
 >
->Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -57,7 +59,7 @@ Di seguito sono riportati i livelli di una corretta implementazione di Planning 
 
    * **Persone:** Le parti interessate per questo livello possono essere Marketing Officer, Vice President Marketing o altri lead strategici.
 
-  Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+  Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Livello 2: tattiche di canale (Workfront Planning)**
 
@@ -111,7 +113,7 @@ Devi innanzitutto stabilire un’area di lavoro centralizzata per le classificaz
 
 Per informazioni, consulta:
 
-* [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
 
 * [Panoramica del tipo di record in più aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
@@ -208,7 +210,8 @@ Questo consente di:
 * **Non creare silos:** Verificare che i tipi di record siano condivisi tra le aree di lavoro in modo che i team non digitino nuovamente gli stessi dati.
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

@@ -6,10 +6,12 @@ description: È possibile visualizzare le informazioni sugli oggetti in [!DNL Ad
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -32,12 +34,14 @@ Ad esempio, per accedere all’intestazione di un progetto:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Intestazioni personalizzabili
 
@@ -85,20 +89,20 @@ Per impostazione predefinita, nell’intestazione del progetto vengono visualizz
    <td> <p>Accanto al nome del progetto viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td role="rowheader">[!UICONTROL Percentuale completata]</td> 
    <td>Non puoi modificare la percentuale di completamento del progetto nell’intestazione.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Proprietario Progetto]</td> 
+   <td role="rowheader">[!UICONTROL Proprietario del progetto]</td> 
    <td> <p>È possibile modificare [!UICONTROL Project Owner] (Proprietario progetto) nell'intestazione.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data di completamento Pianificata] </td> 
+   <td role="rowheader">[!UICONTROL Data di completamento pianificata] </td> 
    <td> <p>Puoi modificare il progetto [!UICONTROL Planned Completion Date] (Data di completamento pianificata) e l’ora nell’intestazione se il progetto è pianificato a partire da [!UICONTROL Completion Date] (Data di completamento pianificata). Se il progetto è pianificato a partire da [!UICONTROL Start Date], queste informazioni vengono aggiornate dalle attività del progetto.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione  </td> 
-   <td> <p>Quando si imposta il tipo di condizione  del progetto su Manual, è possibile aggiornare il progetto [!UICONTROL Condition] nell'intestazione.</p></td> 
+   <td role="rowheader">[!UICONTROL Condizione] </td> 
+   <td> <p>Quando si imposta il tipo di condizione [!UICONTROL] del progetto su Manual, è possibile aggiornare il progetto [!UICONTROL Condition] nell'intestazione.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato]</td> 
@@ -129,11 +133,11 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti padre dell’attività vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre dell’attività vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività  viene visualizzata a sinistra del nome dell'attività.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività</td> 
@@ -148,7 +152,7 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
    <td> <p>Accanto al nome dell'attività viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Se viene visualizzata l'icona Dipendenza, è possibile fare clic su di essa per visualizzare eventuali predecessori o successori dell'attività.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td role="rowheader">[!UICONTROL Percentuale completata]</td> 
    <td>È possibile modificare la percentuale di completamento dell'attività nell'intestazione.</td> 
   </tr> 
   <tr> 
@@ -160,7 +164,7 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
    <td> <p>Se l'attività è assegnata all'utente, è possibile fare clic sul pulsante [!UICONTROL Lavoraci] <span>o [!UICONTROL Avvia attività]</span> per indicare che si sta lavorando sull'attività oppure sul pulsante [!UICONTROL Fine] per indicare che l'attività è stata completata.</p> <p><span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start Task], vedere <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start]</a></span>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
+   <td role="rowheader">[!UICONTROL Data di completamento pianificata]</td> 
    <td> <p>È possibile modificare l'attività [!UICONTROL Planned Completion Date] <span> e l'ora</span> nell'intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
   </tr> 
   <tr> 
@@ -192,7 +196,7 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti principali del problema vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti principali del problema vengono visualizzati nella breadcrumb. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
@@ -211,7 +215,7 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
    <td> <p>Accanto al nome del problema viene visualizzata l'area azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Se viene visualizzata l'icona [!UICONTROL Dependency], è possibile fare clic su di essa per visualizzare eventuali predecessori o successori del problema.</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td role="rowheader">[!UICONTROL Percentuale completata]</td> 
    <td> <p>Puoi modificare la percentuale di completamento del problema dall’intestazione.</p> </td> 
   </tr> 
   <tr> 
@@ -223,7 +227,7 @@ Per impostazione predefinita, l’intestazione del problema include le seguenti 
    <td>Se il problema è stato assegnato, puoi fare clic sul pulsante [!UICONTROL Lavoraci] <span>o [!UICONTROL Avvia problema]</span> per indicare che stai lavorando sul problema, oppure sul pulsante [!UICONTROL Fine] per indicare che il problema è stato completato.<span>Per informazioni sulla sostituzione del pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start Task], vedere</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante [!UICONTROL Work On It] con un pulsante [!UICONTROL Start]</a></span><span>.</span></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
+   <td role="rowheader">[!UICONTROL Data di completamento pianificata]</td> 
    <td> <p>Puoi modificare il problema [!UICONTROL Planned Completion Date] <span> e ora</span> nell'intestazione.</p> <p>Suggerimento: si noti che [!UICONTROL Commit Date] non è visibile nell'intestazione. È possibile visualizzarlo nella pagina [!UICONTROL Details].</p> </td> 
   </tr> 
   <tr> 
@@ -255,7 +259,7 @@ L’intestazione del programma visualizza le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con il nome del Portfolio</td> 
-   <td> <p>È possibile accedere a [!UICONTROL Portfolio] dall'intestazione del [!UICONTROL Program]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>È possibile accedere a [!UICONTROL Portfolio] dall'intestazione del [!UICONTROL Program]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
@@ -278,7 +282,7 @@ L’intestazione del programma visualizza le seguenti informazioni:
    <td> <p>Accanto al nome del programma, viene visualizzata l'area delle azioni che include l'opzione <b>Condividi</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td role="rowheader">[!UICONTROL Percentuale completata]</td> 
    <td> <p>Impossibile modificare il [!UICONTROL Percent Complete] del programma nell'intestazione. Queste informazioni vengono aggiornate dai progetti nel programma.</p> <p>Suggerimento: per impostazione predefinita, la percentuale di completamento del programma corrisponde alla media dei valori di completamento dei progetti in un [!UICONTROL Current] o [!UICONTROL Approved Status] appartenente al programma.</p> </td> 
   </tr> 
   <tr> 
@@ -286,12 +290,12 @@ L’intestazione del programma visualizza le seguenti informazioni:
    <td> <p>È possibile modificare [!UICONTROL Program Manager] nell'intestazione. È lo stesso del [!UICONTROL Proprietario del programma].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
+   <td role="rowheader">[!UICONTROL Data di completamento pianificata]</td> 
    <td>Non è possibile modificare il programma [!UICONTROL Planned Completion Date] (Data di completamento pianificata) nell'intestazione. Queste informazioni vengono aggiornate dalla [!UICONTROL Planned Completion Date] (Data di completamento pianificata) dei progetti nel programma.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione progetti attivi </td> 
-   <td>Questo è un calcolo della percentuale di progetti attivi nel programma per cui la condizione  è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble].</td> 
+   <td role="rowheader">Condizione progetti attivi [!UICONTROL]</td> 
+   <td>Questo è un calcolo della percentuale di progetti attivi nel programma per cui la condizione [!UICONTROL] è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble].</td> 
   </tr> 
  </tbody> 
 </table>
@@ -354,7 +358,7 @@ L’intestazione del portfolio include le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Valore Netto]</td> 
-   <td>Calcolo del valore netto di  per tutti i progetti nel portfolio.</td> 
+   <td>Calcolo del valore netto di [!UICONTROL] per tutti i progetti nel portfolio.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,11 +400,11 @@ L’intestazione del modello visualizza le seguenti informazioni:
    <td> <p>Accanto al nome del modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proprietario del modello </td> 
+   <td role="rowheader">Proprietario del modello [!UICONTROL]</td> 
    <td>È possibile modificare il campo [!UICONTROL Proprietario modello] nell'intestazione.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Duration]</td> 
+   <td role="rowheader">[!UICONTROL Durata]</td> 
    <td>La durata del modello. Non puoi modificare questo campo nell’intestazione.</td> 
   </tr> 
  </tbody> 
@@ -424,11 +428,11 @@ Nell&#39;intestazione dell&#39;attività modello vengono visualizzate le seguent
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb per oggetti padre</td> 
-   <td> <p>Gli oggetti padre dell’attività modello vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre dell’attività modello vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività  viene visualizzata a sinistra del nome dell'attività modello.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività modello.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività modello</td> 
@@ -447,7 +451,7 @@ Nell&#39;intestazione dell&#39;attività modello vengono visualizzate le seguent
    <td>È possibile modificare le [!UICONTROL Assignments] dell'attività modello nell'intestazione.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Completion Day]</td> 
+   <td role="rowheader">[!UICONTROL Giorno di completamento]</td> 
    <td>Questo è il giorno in cui l’attività modello deve essere completata, nella durata del modello.</td> 
   </tr> 
  </tbody> 
@@ -471,7 +475,7 @@ Nell&#39;intestazione del record fatturazione vengono visualizzate le seguenti i
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb per oggetti padre</td> 
-   <td> <p>Gli oggetti padre del record fatturazione vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre del record fatturazione vengono visualizzati nella breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
@@ -534,7 +538,8 @@ L’intestazione utente mostra le seguenti informazioni:
   <tr> 
    <td role="rowheader">Nome dell’utente e titolo</td> 
    <td> <p> Il titolo dell’utente viene visualizzato in lettere maiuscole sopra il nome. Non è possibile modificare il nome dell’utente nell’intestazione.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -624,7 +629,7 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona arancione <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> dell'iterazione  viene visualizzata a sinistra del nome dell'iterazione.</p> </td> 
+   <td> <p>L'icona arancione <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> dell'iterazione [!UICONTROL] viene visualizzata a sinistra del nome dell'iterazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell'iterazione</td> 
@@ -639,11 +644,11 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
    <td> <p>Accanto al nome dell'iterazione viene visualizzata l'area delle azioni.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Proprietario</td> 
-   <td>Proprietario  dell'iterazione. Impossibile modificare [!UICONTROL Owner] nell'intestazione.</td> 
+   <td>Proprietario [!UICONTROL] dell'iterazione. Impossibile modificare [!UICONTROL Owner] nell'intestazione.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timeline]</td> 
-   <td>La sequenza temporale di  mostra le date di inizio e di fine dell'iterazione. Impossibile modificare la sequenza temporale  nell'intestazione.</td> 
+   <td>La sequenza temporale di [!UICONTROL] mostra le date di inizio e di fine dell'iterazione. Impossibile modificare la sequenza temporale [!UICONTROL] nell'intestazione.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team]</td> 
@@ -722,7 +727,7 @@ Nell&#39;intestazione del documento vengono visualizzate le seguenti informazion
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con oggetti padre</td> 
-   <td> <p>Gli oggetti padre del documento vengono visualizzati nel breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>Gli oggetti padre del documento vengono visualizzati nel breadcrumb. Facendo clic sul nome di un oggetto padre, questo viene aperto.</p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica dei breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
@@ -838,7 +843,7 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
    <td>Nella casella [!UICONTROL Ruolo] è possibile visualizzare il numero di ruoli disponibili per il piano rispetto al numero di ruoli richiesti. Facendo clic sulla casella è possibile regolare i ruoli disponibili.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Informazioni finanziarie di </td> 
+   <td role="rowheader">Informazioni finanziarie di [!UICONTROL]</td> 
    <td>Nella casella [!UICONTROL Financial] è possibile visualizzare il budget, il costo e la percentuale di utilizzo per il piano. Facendo clic sulla casella è possibile adeguare l'importo del budget e determinare se i costi delle persone sono inclusi nel piano.</td> 
   </tr> 
   <tr> 
@@ -912,7 +917,7 @@ L’intestazione dell’obiettivo mostra le seguenti informazioni:
    <td>Intervallo di tempo durante il quale l’obiettivo deve essere completato. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione </td> 
+   <td role="rowheader">[!UICONTROL Condizione]</td> 
    <td>La condizione dell’obiettivo indica se l’obiettivo è sul target da completare in tempo o se è in ritardo </td> 
   </tr> 
   <tr> 

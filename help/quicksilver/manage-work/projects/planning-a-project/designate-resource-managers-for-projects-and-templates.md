@@ -6,14 +6,16 @@ description: È possibile designare Responsabili risorse per un progetto per ind
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Designare Responsabili risorse per un progetto o un modello
+# Designare i responsabili delle risorse per un progetto o un modello
 
 <!--
 <p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
@@ -23,7 +25,8 @@ ht-degree: 3%
 
 È possibile designare Responsabili risorse per un progetto per indicare chi è responsabile della gestione delle risorse del progetto. Questo è un campo informativo e non è connesso ad alcun strumento di gestione delle risorse.
 
-<!-- drafted for res scheduling deprecation blurb for preview release
+<!--
+ drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
   
 >[!CAUTION]  
@@ -50,7 +53,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -59,7 +62,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td> <p>Modificare l’accesso a progetti e modelli</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni sul progetto o sul modello</p>
 
 </td> 
@@ -71,7 +74,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +104,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sui Responsabili risorse
 

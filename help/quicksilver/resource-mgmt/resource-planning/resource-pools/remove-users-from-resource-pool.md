@@ -6,10 +6,12 @@ description: Sebbene non vi sia alcun limite al numero di utenti che è possibil
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -23,7 +25,7 @@ Per ulteriori informazioni sui pool di risorse, vedere [Panoramica sui pool di r
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Per ulteriori informazioni sui pool di risorse, vedere [Panoramica sui pool di r
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td>
   </tr> 
@@ -69,7 +71,9 @@ Oppure\
    ![Rimuovi utenti dal Pool di Risorse](assets/remove-users-from-resource-pool.png)
 
 1. Fai clic sull’icona X a livello di utente per rimuovere un utente dal Pool di Risorse. Vengono rimossi da tutti gli elenchi in cui compaiono.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Fai clic su **Salva**.

@@ -6,7 +6,9 @@ description: Utilizzare la formattazione condizionale in modalità testo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 4%
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 <!--Audited: 01/2025-->
 
-Il generatore di interfacce standard offre un&#39;ampia flessibilità nella creazione di elementi di reporting per soddisfare le esigenze dell&#39;organizzazione.
+Il generatore di interfacce standard offre un’ampia gamma di flessibilità nella creazione di elementi di reporting per soddisfare le esigenze della tua organizzazione.
 
 È possibile applicare la formattazione condizionale a una visualizzazione utilizzando l&#39;interfaccia standard.\
 Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale a una visualizzazione, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
@@ -58,9 +60,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Formattazione condizionale in modalità testo
 
-La modalità Testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi consentendo di utilizzare campi non disponibili nell&#39;interfaccia standard.
+La modalità testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell&#39;interfaccia standard.
 
-Per un elenco completo di tutti i campi da segnalare, consulta [Esplora API](../../../wf-api/general/api-explorer.md).
+Per un elenco completo di tutti i campi da segnalare, consulta [API Explorer](../../../wf-api/general/api-explorer.md).
 
 Per ulteriori informazioni sull&#39;utilizzo della sintassi in modalità testo, vedere [Panoramica sulla sintassi in modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
@@ -68,7 +70,7 @@ Per ulteriori informazioni sull&#39;utilizzo della sintassi in modalità testo, 
 
 >[!NOTE]
 >
-> L’utilizzo dello stile CSS per personalizzare la formattazione condizionale non è supportato. Dovete invece utilizzare le opzioni di formattazione predefinite disponibili in Adobe Workfront.
+> L’utilizzo dello stile CSS per personalizzare la formattazione condizionale non è supportato. Utilizza invece le opzioni di formattazione predefinite disponibili in Adobe Workfront.
 
 ## Aggiungere la formattazione condizionale alle visualizzazioni
 
@@ -95,7 +97,7 @@ Per aggiungere la formattazione condizionale a una visualizzazione nell&#39;inte
 
 ### Impostazioni colonna {#column-settings}
 
-Per poter aggiungere la formattazione condizionale alle visualizzazioni, è necessario avere familiarità con l&#39;interfaccia della modalità testo.
+È necessario avere familiarità con l&#39;interfaccia in modalità testo prima di poter aggiungere la formattazione condizionale alle visualizzazioni.
 
 Quando si utilizza la formattazione condizionale in una visualizzazione, è possibile personalizzare i seguenti elementi di una colonna:
 
@@ -123,12 +125,12 @@ Per ulteriori informazioni, vedere [Formattare numeri, valuta e valori percentua
 
 ### Regole colonna {#column-rules}
 
-Le regole di colonna consentono di aggiungere immagini, colore, formattazione e sostituzioni di testo all’interno di una visualizzazione. Le regole di colonna possono essere stabilite in modo indipendente oppure possono contenere più condizioni per una colonna.
+Le regole di colonna consentono di aggiungere immagini, colore, formattazione e sostituzioni di testo all’interno di una visualizzazione. Le regole di colonna possono essere stabilite in modo indipendente o possono contenere più condizioni per una colonna.
 
 * [Formattazione condizionale](#conditional-formatting)
 * [Più formati condizionali](#multiple-conditional-formats)
 * [Applica testo](#apply-text)
-* [Applica formati riga](#apply-row-formats)
+* [Applica formati righe](#apply-row-formats)
 * [Applicare le immagini](#apply-images)
 
 #### Formattazione condizionale {#conditional-formatting}
@@ -138,9 +140,9 @@ Quando si incorpora un colore o si formatta un testo, è necessario applicare un
 >[!NOTE]
 >
 >La formattazione condizionale potrebbe non essere supportata nelle colonne unite.\
->Per ulteriori informazioni sull&#39;unione di colonne con la modalità Testo, vedere [Visualizzazione: unione di informazioni da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>Per ulteriori informazioni sull&#39;unione delle colonne con la modalità testo, vedere [Visualizzazione: unire le informazioni di più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-Inserite il codice seguente in qualsiasi colonna in cui desiderate aggiungere la formattazione condizionale:
+Inserisci il seguente codice in qualsiasi colonna in cui desideri aggiungere la formattazione condizionale:
 
 ```
 styledef.case.0.comparison.leftmethod= [field name]
@@ -266,7 +268,7 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 
 Se si desidera sostituire i valori predefiniti che vengono inseriti in una colonna con un valore scelto, è possibile applicare del testo alla colonna.
 
-In un report di progetto, ad esempio, impostare il valore della colonna Data inizio pianificata in modo che non venga visualizzata la data di inizio pianificata per il progetto, ma il testo &#39;Non oggi&#39;. Utilizza il seguente codice per la colonna Data inizio pianificata:
+Ad esempio, in un rapporto di progetto, imposta il valore della colonna Data inizio pianificata in modo da non visualizzare la data di inizio pianificata per il progetto, ma il testo &quot;Non oggi&quot;. Utilizza il seguente codice per la colonna Data inizio pianificata:
 
 ```
 case.0.comparison.leftmethod=plannedStartDate
@@ -287,7 +289,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Le righe che iniziano con `case.0.` utilizzano confronti tra maiuscole e minuscole per identificare l&#39;utilizzo del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l&#39;utilizzo del testo tramite l&#39;espressione `truetext`. Assicurati di impostare `truetext` su un valore, invece di lasciarlo vuoto.
+>Le righe che iniziano con `case.0.` confronti tra casi d&#39;uso per identificare l&#39;uso del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l&#39;utilizzo del testo tramite l&#39;espressione `truetext`. Assicurarsi di impostare `truetext` su un valore, anziché lasciarlo vuoto.
 
 ![Applica esempio di testo](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
@@ -323,7 +325,7 @@ row.0.styledef.case.0.comparison.truetext=
 
 #### Applicare le immagini {#apply-images}
 
-Analogamente alla formattazione con il testo, le immagini possono essere utilizzate per visualizzare informazioni nei report. Workfront dispone di numerose immagini incorporate per trasmettere informazioni visive in un&#39;impostazione di report. Per utilizzare le immagini nell&#39;impostazione di formattazione condizionale, è necessaria l&#39;istruzione seguente:
+Analogamente alla formattazione con il testo, le immagini possono essere utilizzate per visualizzare informazioni nei rapporti. Workfront dispone di diverse immagini incorporate per trasmettere informazioni visive in un&#39;impostazione di rapporto. Per utilizzare le immagini nell’impostazione della formattazione condizionale è necessaria l’istruzione seguente:
 
 ```
 image.case.0.comparison.leftmethod= [field name]
@@ -335,7 +337,7 @@ image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
 ```
 
-In un report di progetto, ad esempio, si desidera creare una colonna in cui visualizzare un carattere per ogni data di completamento pianificata che non corrisponde alla data corrente. Utilizza il seguente codice in modalità testo per aggiungere l’icona alla colonna:
+Ad esempio, in un rapporto di progetto, desideri creare una colonna in cui visualizzare un volto disordinato per ogni Data di completamento pianificata che non sia uguale alla data odierna. Utilizza il seguente codice in modalità testo per aggiungere l’icona alla colonna:
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -364,7 +366,7 @@ Per utilizzare le immagini disponibili, applica il codice e i valori seguenti:
 | Contrassegno blu ![Contrassegno blu](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
 | Contrassegno verde ![Contrassegno verde](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
 | Contrassegno rosso ![Contrassegno rosso](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Contrassegno giallo ![Contrassegno giallo](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Flag giallo ![Flag giallo](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
 | Cerchio nero ![Cerchio nero](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | Cerchio blu ![Cerchio blu](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
 | Cerchio grigio ![Cerchio grigio](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
@@ -408,12 +410,12 @@ Quando si aggiungono aggregatori a una colonna in modalità testo, tenere presen
   valueformat=compound
 ```
 
-Se si desidera aggregare i valori di tutte le righe del raggruppamento della visualizzazione, è possibile aggiungere il codice seguente per aggiungere i valori dell&#39;aggregatore:
+Quando si desidera aggregare i valori di tutte le righe nel raggruppamento della visualizzazione, è possibile aggiungere il codice seguente per aggiungere i valori aggregatore:
 
 `aggregator.valuefield=workRequired` (la riga `aggregator.valuefield` deve essere uguale a `valuefield` che descrive la colonna)
 
 `aggregator.valueformat=compound` (la riga `aggregator.valueformat` deve avere lo stesso valore di `valueformat` che descrive la colonna)
 
-`aggregator.function=SUM` (riga obbligatoria che indica come si desidera aggregare la colonna, in questo caso si desidera aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento)
+`aggregator.function=SUM` (riga obbligatoria che indica come aggregare la colonna. In questo caso, aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento)
 
 `aggregator.displayformat=minutesAsHoursString` (poiché le ore sono archiviate in Workfront in pochi minuti, si desidera indicare `displayformat` per le ore archiviate in pochi minuti)

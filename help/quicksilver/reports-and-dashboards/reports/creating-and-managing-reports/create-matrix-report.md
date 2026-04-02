@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creare un rapporto matrice
-description: I report matrice presentano informazioni di riepilogo in un formato di tabella aggregata, rendendo più semplice la visualizzazione rispetto a un elenco come in un report tradizionale.
+description: I report matrice presentano informazioni di riepilogo in un formato di tabella aggregata, semplificando la visualizzazione rispetto a un elenco in un report tradizionale.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 4%
@@ -21,13 +23,13 @@ I report matrice presentano informazioni di riepilogo in un formato di tabella a
 
 È possibile creare un report matrice per qualsiasi report contenente 2 o più raggruppamenti. Un report tradizionale può contenere fino a 3 raggruppamenti e un report matrice può contenere fino a 4 raggruppamenti.
 
-Si supponga, ad esempio, di voler creare un rapporto Ore che visualizzi le ore registrate durante un periodo di 3 mesi e che desideri che il rapporto sia organizzato in base a chi ha inserito le ore, nonché in base al mese e alla settimana.
+Ad esempio, desideri creare un rapporto sulle ore che visualizzi le ore registrate durante un periodo di 3 mesi e che sia organizzato in base a chi ha inserito le ore, nonché in base al mese e alla settimana.
 
-![Panoramica sulla matrice dei report](assets/report-matrix-overview-350x123.png)
+![Panoramica sulla matrice dei rapporti](assets/report-matrix-overview-350x123.png)
 
-## Visualizzazione dei dati in un report a matrice
+## Visualizzazione dei dati in un rapporto matrice
 
-Le informazioni nel report matrice vengono sempre visualizzate come valore numerico. Nella maggior parte dei casi, le colonne contenenti un valore numerico sono indicate per la visualizzazione in un rapporto matrice (ad esempio ore registrate e costo effettivo).
+Le informazioni nel rapporto matrice vengono sempre visualizzate come valore numerico. Nella maggior parte dei casi, le colonne contenenti un valore numerico sono indicate per la visualizzazione in un rapporto matrice (ad esempio ore registrate e costo effettivo).
 
 Tuttavia, altre colonne (ad esempio Stato) possono ancora essere visualizzate nel rapporto matrice come illustrato nell&#39;immagine seguente:\
 ![Stato matrice](assets/report-matrix-status-350x73.png)
@@ -53,7 +55,7 @@ Tuttavia, altre colonne (ad esempio Stato) possono ancora essere visualizzate ne
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -68,13 +70,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Configurare un rapporto matrice
 
-1. Crea un report tradizionale che contiene dati numerici nell’output del report.\
-   Per informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Crea un rapporto tradizionale che contiene dati numerici nell’output del rapporto.\
+   Per informazioni su come creare un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Vai al report creato nel passaggio 1, fai clic su **Azioni report**, quindi seleziona **Modifica**.
 
 1. (Condizionale) Se hai già creato una visualizzazione e desideri applicarla a questo report, fai clic su **Applica una visualizzazione esistente**, quindi seleziona la visualizzazione dall&#39;elenco a discesa.
-1. (Condizionale) Se si desidera creare una nuova visualizzazione per il report, effettuare le operazioni riportate di seguito.
+1. (Condizionale) Se desideri creare una nuova visualizzazione per il rapporto, completa i passaggi seguenti:
 
    1. Fare clic sulla scheda **Colonne (visualizzazione)**, quindi selezionare una colonna che si desidera riepilogare nel report matrice.
    1. Nell&#39;area **Impostazioni colonna** fare clic sull&#39;elenco a discesa **Riepiloga colonna per**, quindi selezionare una delle opzioni disponibili per il riepilogo delle informazioni.
@@ -94,7 +96,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    1. Selezionare **Passa al raggruppamento di matrici** nell&#39;angolo superiore destro dell&#39;interfaccia del generatore.
    1. Nella sezione **Raggruppamenti righe**, identifica il raggruppamento di righe, che stabilisce i raggruppamenti orizzontali della tabella.
    1. (Facoltativo) Per aggiungere un ulteriore raggruppamento di righe, fare clic su **Aggiungi raggruppamento di righe secondario**.
-   1. Nella sezione **Raggruppamenti di colonne** identificare il raggruppamento di colonne che stabilisce i raggruppamenti verticali della tabella.
+   1. Nella sezione **Raggruppamenti di colonne** identificare il raggruppamento di colonne, che stabilisce i raggruppamenti verticali della tabella.
    1. (Facoltativo) Per aggiungere un ulteriore raggruppamento di colonne, fare clic su **Aggiungi raggruppamento di colonne secondario**.
    1. (Condizionale) Se aggiungi un raggruppamento per data, specifica anche se i risultati sono raggruppati per giorno, settimana, mese, trimestre o anno.\
       ![Opzioni raggruppamento per data](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
@@ -121,18 +123,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      >
      >   
      >   
-     >   * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività principali o le principali delle principali.
-     >   * Ore effettive aggregano i valori delle attività principali e autonome, ma non i numeri delle attività principali o secondarie.
-     >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: principali, secondarie, principali e autonome. Se il report matrice è stato creato per visualizzare Ore pianificate o Ore effettive nella colonna **Valore**, tenere presente che le ore o le informazioni sui costi per qualsiasi oggetto padre, ad esempio le attività padre, non vengono visualizzate nel report matrice. Per visualizzare le ore sugli oggetti padre, è necessario visualizzare la scheda **Dettagli**.
+     >   * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
+     >   * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
+     >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome. Se hai creato il report matrice per visualizzare le ore pianificate o le ore effettive nella colonna **Valore**, tieni presente che le ore o le informazioni sui costi per qualsiasi oggetto padre (come le attività padre) non vengono visualizzate nel report matrice. Per visualizzare le ore sugli oggetti padre, è necessario visualizzare la scheda **Dettagli**.
      >   
      >   
-     >**Regole condizionali:** Impostare le regole di formattazione per i valori aggregati.\
+     >
 
-   Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Dopo aver definito la regola, fai clic su **Aggiungi regola**, quindi su **Fine** per salvarla.
+   **Regole condizionali:** Impostare le regole di formattazione per i valori aggregati.\
+   Dopo aver aggiunto una regola, è possibile definire stili di campo e di testo per la visualizzazione dei campi corrispondenti alla regola. Fai clic su **Aggiungi regola** al termine della definizione della regola, quindi su **Fine** per salvare la regola.
 
-1. Fare clic sulla scheda **Filtri** per definire le informazioni da visualizzare nel report.
+1. Fai clic sulla scheda **Filtri** per definire quali informazioni verranno visualizzate nel rapporto.
 1. (Condizionale) Se hai già creato un filtro e desideri applicarlo a questo report, fai clic su **Applica un filtro esistente**, quindi seleziona il filtro dall&#39;elenco a discesa.
-1. (Condizionale) Per creare un nuovo filtro per questo report, vedere [Filtro e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+1. (Condizionale) Se desideri creare un nuovo filtro per questo report, vedi [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -141,6 +144,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    </MadCap:conditionalText>
    -->
 
-   per informazioni sui vari qualificatori che è possibile utilizzare durante la creazione dei filtri.
+   per informazioni sui vari qualificatori che è possibile utilizzare per la creazione dei filtri.
 
-1. Fare clic su **Salva+Chiudi** per salvare e visualizzare il report matrice.
+1. Fai clic su **Salva+Chiudi** per salvare e visualizzare il report matrice.

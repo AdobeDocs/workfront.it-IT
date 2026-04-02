@@ -6,14 +6,16 @@ description: Puoi esportare i progetti Adobe Workfront in Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
-# Esportare un progetto in un progetto Microsoft
+# Esportare un progetto in progetto di Microsoft
 
 Puoi esportare i progetti Adobe Workfront in Microsoft Project.
 
@@ -37,7 +39,7 @@ Puoi esportare i progetti Adobe Workfront in Microsoft Project.
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p>
 
@@ -48,7 +50,7 @@ Puoi esportare i progetti Adobe Workfront in Microsoft Project.
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p> Visualizza o autorizzazioni superiori per il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -58,7 +60,8 @@ Puoi esportare i progetti Adobe Workfront in Microsoft Project.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +86,8 @@ Puoi esportare i progetti Adobe Workfront in Microsoft Project.
    <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Esportare un progetto da Workfront a Microsoft Project
 

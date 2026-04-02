@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Attività sulla versione di Adobe Workfront Planning per il 2023
+# Attività sulla versione di pianificazione di Adobe Workfront per il per il 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -28,11 +30,11 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 Nella tabella seguente viene illustrata la sequenza temporale del rilascio di Workfront Planning:
 
-| Ora | Versione |
+| Ora | del prossimo maggio (?) |
 |--------------------|-----------------------------------------|
 | Agosto - dicembre 2023 | Versione beta di Workfront Planning* |
 | Gennaio - agosto 2024 | Rilascio anticipato di Workfront Planning* |
-| 28 agosto 2024 | Disponibilità generale di Workfront Planning |
+| giovedì 28 agosto 2024 | Disponibilità generale di Workfront Planning |
 
 *Le fasi beta e rilascio anticipato erano disponibili per un gruppo limitato di clienti.
 
@@ -42,7 +44,7 @@ Nella tabella seguente viene illustrata la sequenza temporale del rilascio di Wo
 
 Anteprima e produzione: 27 dicembre 2023
 
-È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista timeline. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista timeline. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Settimana del 18 dicembre 2023
 
@@ -126,7 +128,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 ### Collegare i record delle funzionalità di pianificazione con Adobe Experience Manager Assets
 
-Versione di anteprima: 14 dicembre 2023
+Rilascio in anteprima: venerdì 14 dicembre 2023
 
 Versione di produzione: 21 dicembre 2023
 
@@ -144,7 +146,8 @@ Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le
 
 * Gli utenti con funzionalità di pianificazione possono visualizzare il nome delle risorse collegate, nonché i valori dei campi connessi nelle funzionalità di pianificazione.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -160,10 +163,10 @@ Anteprima e produzione: 5 dicembre 2023
 
 È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una visualizzazione tabella di tipo record. Questa funzionalità è ora supportata per i seguenti tipi di campi:
 
-* Persone
+* People
 * Campi record collegati
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * Per i campi che visualizzano più valori è possibile copiare e incollare valori di campo da un campo all&#39;altro.
 
@@ -183,7 +186,7 @@ Anteprima e produzione: 28 novembre 2023
 
 È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una vista tabella di tipo record di capacità di pianificazione.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo di capacità di pianificazione dello stesso tipo del campo in cui si incollano le informazioni.
 
@@ -191,7 +194,7 @@ Considera quanto segue:
 
 * Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
 
-   * Persone
+   * People
 
    * Campi di sistema
 
@@ -227,7 +230,7 @@ Sono stati introdotti i seguenti tipi di campi per i record delle funzionalità 
 
 I valori dei campi creati da questi tipi di campo sono di sola lettura e acquisiscono il nome dell&#39;utente che ha creato o modificato per ultimo un record oppure la data in cui il record è stato creato o modificato per ultimo.
 
-Per ulteriori informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+Per ulteriori informazioni, consulta [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Passare a oggetti Workfront da un record delle funzionalità di pianificazione
 
@@ -324,7 +327,7 @@ Anteprima e produzione: 5 settembre 2023
 
 È ora possibile collegare un record di funzionalità di pianificazione con le società e i gruppi Workfront. È innanzitutto necessario creare una connessione tra un tipo di record della funzionalità di pianificazione e i tipi di oggetto società e gruppi di Workfront. È quindi possibile collegare un singolo record della funzionalità di pianificazione del tipo di record selezionato a singole società e gruppi Workfront.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * È necessario creare una connessione tra i tipi di record delle funzionalità di pianificazione e i tipi di oggetto Società e gruppo di Workfront per ogni Workspace.
 
@@ -336,7 +339,7 @@ Considera quanto segue:
 
   Per ulteriori informazioni, consulta i seguenti articoli:
 
-   * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 
 ### Supporto URL per campi di testo a riga singola
@@ -363,7 +366,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 Anteprima e produzione: 24 agosto 2023
 
-È ora possibile collegare un record delle funzionalità di pianificazione con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record delle funzionalità di pianificazione e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portafogli specifici che creano un tipo di record Programma Workfront di sola lettura o Workfront Portfolio nella stessa area di lavoro. Considera quanto segue:
+È ora possibile collegare un record delle funzionalità di pianificazione con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record delle funzionalità di pianificazione e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portafogli specifici che creano un tipo di record Programma Workfront di sola lettura o Workfront Portfolio nella stessa area di lavoro. Considera i seguenti aspetti:
 
 * I tipi di record del connettore Workfront sono univoci per ogni area di lavoro.
 * È possibile collegare più record delle funzionalità di pianificazione allo stesso programma o portfolio Workfront e più programmi e portfolio allo stesso record delle funzionalità di pianificazione.
@@ -460,7 +463,7 @@ Ora è stato introdotto un requisito in base al quale i nomi dei campi di un tip
 
 Anteprima e produzione: 5 giugno 2023
 
-È ora possibile collegare un record delle funzionalità di pianificazione ai progetti Workfront. Per stabilire la connessione tra i record delle funzionalità di pianificazione e i progetti Workfront, è necessario creare un tipo di record delle funzionalità di pianificazione del connettore. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione da tutti gli altri tipi di record al record del connettore utilizzando il campo Relazione. Considera quanto segue:
+È ora possibile collegare un record delle funzionalità di pianificazione ai progetti Workfront. Per stabilire la connessione tra i record delle funzionalità di pianificazione e i progetti Workfront, è necessario creare un tipo di record delle funzionalità di pianificazione del connettore. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione da tutti gli altri tipi di record al record del connettore utilizzando il campo Relazione. Considera i seguenti aspetti:
 
 * È necessario disporre di un tipo di record connettore per Workfront per ogni Workspace.
 * È possibile collegare più record delle funzionalità di pianificazione allo stesso progetto Workfront e più progetti allo stesso record delle funzionalità di pianificazione.

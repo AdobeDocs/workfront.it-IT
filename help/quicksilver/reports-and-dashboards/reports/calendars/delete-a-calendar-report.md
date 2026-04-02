@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Eliminare un report Calendario
-description: È possibile eliminare un calendario di propria proprietà o condiviso da altri utenti. Una volta eliminato, il calendario diventa inaccessibile agli utenti con cui lo hai condiviso.
+title: Eliminare un report calendario
+description: Puoi eliminare un calendario di tua proprietà o condiviso con te da altri utenti. Una volta eliminato, il calendario diventa inaccessibile agli utenti con cui lo hai condiviso.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 27%
@@ -15,9 +17,9 @@ ht-degree: 27%
 
 # Eliminare un report calendario
 
-È possibile eliminare un calendario di propria proprietà o condiviso da altri utenti. Una volta eliminato, il calendario diventa inaccessibile agli utenti con cui lo hai condiviso.
+Puoi eliminare un calendario di tua proprietà o condiviso con te da altri utenti. Una volta eliminato, il calendario diventa inaccessibile agli utenti con cui lo hai condiviso.
 
-Non è possibile eliminare il calendario predefinito se non si dispone di un calendario alternativo esistente. Se si tenta di eliminare tutti i calendari, il sistema crea automaticamente un calendario predefinito.
+Non è possibile eliminare il calendario predefinito a meno che non sia già disponibile un calendario alternativo. Se si tenta di eliminare tutti i calendari, il sistema crea automaticamente un calendario predefinito.
 
 ## Requisiti di accesso
 
@@ -40,11 +42,11 @@ Non è possibile eliminare il calendario predefinito se non si dispone di un cal
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p> Modificare l’accesso a report, dashboard e calendari</p></td> 
+   <td> <p> Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td>Gestione dell'accesso al report del calendario, con accesso per eliminarlo</td> 
+   <td>Gestire l’accesso al report del calendario, con l’accesso per eliminarlo</td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,8 +58,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Eliminare un report calendario
 
-1. Passare al calendario da eliminare.
-1. Fai clic sul menu a discesa **Altro** accanto al Calendario.
+1. Passare al calendario che si desidera eliminare.
+1. Fare clic sul menu **Altro** accanto al menu a discesa Calendario.
    ![calendario altro menu](assets/more-menu-calendar.png)
 
 1. Selezionare **[!UICONTROL Elimina]** dall&#39;elenco a discesa.

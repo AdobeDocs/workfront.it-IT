@@ -6,10 +6,12 @@ description: Se necessario, puoi aggiornare manualmente lo stato di un progetto 
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -38,7 +40,7 @@ Per ulteriori informazioni sulla modalità di completamento del progetto, vedere
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Piano</p>
    </td> 
@@ -48,7 +50,7 @@ Per ulteriori informazioni sulla modalità di completamento del progetto, vedere
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni sul progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +61,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sull’aggiornamento a stati specifici
 

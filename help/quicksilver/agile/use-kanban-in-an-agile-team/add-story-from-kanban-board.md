@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Aggiungi storie e problemi dalla bacheca kanban
-description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca kanban.
+title: Aggiungi storie e problemi da Kanban Board
+description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca Kanban.
 author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 20%
@@ -15,7 +17,7 @@ ht-degree: 20%
 
 # Aggiungi storie e problemi dalla bacheca [!UICONTROL Kanban]
 
-Puoi creare rapidamente un nuovo brano o problema direttamente dalla bacheca [!UICONTROL Kanban].
+Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca [!UICONTROL Kanban].
 
 ## Requisiti di accesso
 
@@ -38,7 +40,7 @@ Puoi creare rapidamente un nuovo brano o problema direttamente dalla bacheca [!U
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td>Gestire l'accesso all'attività o al problema </td> 
+   <td>Gestire l’accesso all’attività o al problema </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,18 +49,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Crea un nuovo brano o problema dalla bacheca kanban
+## Crea nuova storia o problema dal Kanban Board
 
 {{step1-to-team}}
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
-1. Fai clic su **[!UICONTROL Aggiungi]** sul lato destro della scheda kanban e seleziona **[!UICONTROL Nuova storia]** o **[!UICONTROL Nuovo problema]**.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team di [!UICONTROL Kanban] dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic su **[!UICONTROL Aggiungi]** sul lato destro della bacheca Kanban e seleziona **[!UICONTROL Nuova storia]** o **[!UICONTROL Nuovo problema]**.
 1. Nella finestra di dialogo **[!UICONTROL Nuovo]**, aggiungi le seguenti informazioni:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Nome]</strong></td>
-        <td>(Obbligatorio) Il nome del brano o del problema.</td>
+        <td>(Obbligatorio) Nome della storia o del problema.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Descrizione]</strong></td>
@@ -66,11 +68,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Stima]</strong></td>
-        <td>Numero stimato di ore o punti per l'articolo.</td>
+        <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Progetto padre]</strong></td>
-        <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Iniziate a digitare il nome di un progetto, quindi selezionatelo quando viene visualizzato nell’elenco.</td>
+        <td><strong>Progetto padre [!UICONTROL]</strong></td>
+        <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>
 

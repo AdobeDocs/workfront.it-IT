@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +31,8 @@ I campi formula generano un nuovo valore utilizzando i valori esistenti di altri
 
 Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
-<!--do we need these for an overview article?
+<!--
+do we need these for an overview article?
 
 ## Access requirements
 
@@ -70,7 +73,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 -->
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -127,7 +131,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerazioni sui campi formula
 
@@ -209,21 +214,21 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>Restituisce una stringa concatenata per delimitatore.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce una stringa concatenata per delimitatore.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>ARRAYJOIN(delimitatore,matrice)</code>
 </p>
    </td></tr>
     <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
-   <td> <p>Restituisce una matrice con valori univoci.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce una matrice con valori univoci.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>ARRAYUNIQUE(array)</code>
 </p>
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Restituisce l'ID di un record. Ogni record ha un ID univoco.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce l'ID di un record. Ogni record ha un ID univoco.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>{ID}</code>
 </p>
@@ -236,7 +241,7 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
    </td></tr>
   <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>Imposta il fuso orario di una data e un’ora su un fuso orario specifico.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Imposta il fuso orario di una data e un’ora su un fuso orario specifico.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
@@ -244,7 +249,7 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Restituisce il numero di settimana in un anno. Facoltativamente, puoi indicare il giorno in cui inizia la settimana (usa 1 per domenica o 2 per lunedì). Se omesso, le settimane iniziano di domenica, per impostazione predefinita.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce il numero di settimana in un anno. Facoltativamente, puoi indicare il giorno in cui inizia la settimana (usa 1 per domenica o 2 per lunedì). Se omesso, le settimane iniziano di domenica, per impostazione predefinita.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>WEEKOFYEAR(date,2)</code>
 o

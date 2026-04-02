@@ -6,10 +6,12 @@ description: Oltre a creare un modello di progetto da zero, puoi anche copiarne 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +23,7 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 È necessario disporre dei seguenti diritti di accesso.
 
@@ -34,7 +36,7 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -43,7 +45,7 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
    <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per un modello</p>  </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sulla copia dei modelli
 

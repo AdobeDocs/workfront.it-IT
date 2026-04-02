@@ -6,10 +6,12 @@ description: Puoi importare progetti esistenti in un piano. I progetti importati
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ Puoi importare progetti esistenti in un piano. I progetti importati vengono conv
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +53,7 @@ Puoi importare progetti esistenti in un piano. I progetti importati vengono conv
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> <p>Accesso di visualizzazione o superiore ai progetti.</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Visualizza o autorizzazioni superiori per i progetti.</p></td> 
   </tr> 
  </tbody> 
@@ -63,7 +65,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Considerazioni sull&#39;importazione di progetti nei piani come nuove iniziative
 
@@ -155,16 +159,18 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
   </tr> 
   <tr> 
    <td>Progetto [!UICONTROL Lavoro Necessario] associato alle mansioni assegnate ad attività o problemi</td> 
-   <td> <p><span>A seconda che il piano sia impostato per l'utilizzo di FTE o ore, le [!UICONTROL Ore pianificate] delle attività nel progetto diventano </span> [!UICONTROL FTE richieste] <span>o [!UICONTROL Ore richieste] nel piano</span>. </p> <p>Per informazioni sulla configurazione di un piano per l'utilizzo di FTE o ore, vedere <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani in [!DNL Scenario Planner]</a>. </p> <p>Considera quanto segue:</p> 
+   <td> <p><span>A seconda che il piano sia impostato per l'utilizzo di FTE o ore, le [!UICONTROL Ore pianificate] delle attività nel progetto diventano </span> [!UICONTROL FTE richieste] <span>o [!UICONTROL Ore richieste] nel piano</span>. </p> <p>Per informazioni sulla configurazione di un piano per l'utilizzo di FTE o ore, vedere <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani in [!DNL Scenario Planner]</a>. </p> <p>Considera i seguenti aspetti:</p> 
     <ul> 
      <li> <p>[!DNL Workfront] utilizza le mansioni assegnate alle attività e ai problemi o le mansioni a cui gli utenti assegnati alle attività o ai problemi sono associati nel progetto e le trasferisce alla nuova iniziativa come Mansioni richieste. </p> </li> 
      <li> <p>Quando il piano è impostato per l’utilizzo di FTE, le ore pianificate associate ai ruoli sulle attività e sui problemi del progetto vengono prima convertite in FTE. Questo FTE viene quindi assegnato alla mansione dell’iniziativa. <span>Le ore pianificate sono equamente distribuite in [!DNL Workfront]. Se un'attività o un problema dura più mesi, la quantità di ore pianificate per ogni mese della durata dell'iniziativa viene convertita in FTE mensile e trasferita a ogni mese dell'iniziativa.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><span>Ad esempio, se un'attività è assegnata a una mansione per 80 ore pianificate in settembre, la mansione importata visualizza 0,5 FTE per l'iniziativa in settembre.</span> </p> </li> 
      <li> <p>[!DNL Workfront] calcola l’FTE dei Ruoli richiesti associati all’iniziativa utilizzando la formula seguente:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Suggerimento: [!DNL Scenario Planner] presuppone che vi siano 160 ore lavorative in un mese.</p> <p>Ad esempio, se un progetto ha una durata di 1200 minuti e una mansione sul progetto è associata a 600 minuti di ore pianificate, il valore FTE è 0,5. Durante l’importazione del progetto, l’FTE del ruolo richiesto per la nuova iniziativa creata è 0,5 per ogni mese dell’iniziativa. </p> </li> 
-     <li>Quando una mansione viene assegnata a un'attività sul progetto con zero ore pianificate, l'FTE richiesto per la mansione dell'iniziativa è zero per impostazione predefinita. <!--
+     <li>Quando una mansione viene assegnata a un'attività sul progetto con zero ore pianificate, l'FTE richiesto per la mansione dell'iniziativa è zero per impostazione predefinita.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>Quando una mansione viene assegnata a un'attività sul progetto con una durata pari a zero [!UICONTROL Duration], l'FTE <span>o le ore</span> richieste per la mansione dell'iniziativa è pari a zero per impostazione predefinita, anche se l'attività ha le ore pianificate. </li> 
     </ul> </td> 
   </tr> 
@@ -238,12 +244,12 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
       <td>Questa è la durata dell'iniziativa in mesi. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Initiative]</td> 
+      <td role="rowheader">[!UICONTROL Iniziativa]</td> 
       <td>Le date di inizio e fine dell’iniziativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Progetto </td> 
-      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto , il progetto è stato eliminato.</p> </td> 
+      <td role="rowheader">[!UICONTROL Progetto]</td> 
+      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto [!UICONTROL], il progetto è stato eliminato.</p> </td> 
      </tr> 
     </tbody> 
    </table>

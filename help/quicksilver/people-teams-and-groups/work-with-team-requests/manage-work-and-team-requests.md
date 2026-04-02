@@ -7,7 +7,9 @@ description: Una richiesta rappresenta un'attività o un'assegnazione di problem
 author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 9%
@@ -16,7 +18,7 @@ ht-degree: 9%
 
 # Gestire il lavoro e le richieste dei team
 
-Una richiesta rappresenta un&#39;attività in sospeso o un&#39;assegnazione di problema. Le richieste di lavoro vengono effettuate a singoli utenti e le richieste di team a team.
+Una richiesta rappresenta un&#39;attività o un&#39;assegnazione di problema in sospeso. Le richieste di lavoro vengono inviate ai singoli utenti e le richieste dei team ai team.
 
 >[!NOTE]
 >
@@ -39,7 +41,7 @@ Una richiesta rappresenta un&#39;attività in sospeso o un&#39;assegnazione di p
    <td>
    <p>Per assegnare o lavorare su una richiesta:
    <p>Chiaro o superiore</p>
-  <p>Revisione o superiore</p>
+  <p>Revisione o successiva</p>
    <p>Per riassegnare una richiesta:
    <p>Standard</p>
    <p>Work o successiva</p></td>
@@ -63,7 +65,7 @@ I team possono essere assegnati ad attività e problemi in uno dei seguenti modi
 
 * Tramite il [!UICONTROL Diagramma di Gantt]
 * Da un elenco di attività o problemi (singolarmente o in blocco)
-* Quando un&#39;attività o un problema viene creato o modificato
+* Quando un’attività o un problema viene creato o modificato
 * Tramite regole di instradamento su una richiesta (solo problemi)
 
 Puoi assegnare manualmente una richiesta a un team dalla pagina del team, come descritto in questa sezione.
@@ -80,15 +82,15 @@ Per assegnare manualmente una richiesta a un team dalla pagina del team:
 
 1. Compila le informazioni nella casella visualizzata.
 1. Fai clic su **[!UICONTROL Invia richiesta]**.\
-   Al team viene ora assegnata una nuova attività che viene visualizzata nella scheda Richieste team. Questa attività non è attualmente associata a un progetto, ma può essere spostata, come descritto in [Attività di spostamento](../../manage-work/tasks/manage-tasks/move-tasks.md).
+   Al team viene ora assegnata una nuova attività che viene visualizzata nella scheda Richieste team. Questa attività non è attualmente associata a un progetto, ma può essere spostata, come descritto in [Sposta attività](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-## Richieste di riassegnazione {#reassign-requests}
+## Riassegna richieste {#reassign-requests}
 
-Puoi riassegnare le richieste assegnate al tuo team:
+Puoi riassegnare le richieste assegnate al team:
 
 {{step1-to-team}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia icona team](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
+1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 1. Nel pannello di navigazione a sinistra, seleziona **[!UICONTROL Richieste team]**.
 1. Fai clic sull&#39;icona **[!UICONTROL Riassegna]**.
 

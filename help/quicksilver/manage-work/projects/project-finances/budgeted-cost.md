@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Calcola costo preventivato
+title: Calcolare il costo preventivato
 description: Calcola lo stato di avanzamento del progetto di registrazione dei costi preventivati con un report Utilizzo
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Calcola costo preventivato
+# Calcolare il costo preventivato
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,9 +77,11 @@ Il Costo preventivato riportato nell&#39;area Budget risorse del Business Case o
     </tr> 
     <tr> 
      <td>Costo preventivato progetto</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Report del progetto</p> <p>Rapporto Progetto (Dati finanziari)</p> <p>Report attività</p> <p>Rapporto Issue</p> <p>Report ore preventivate</p> <p>Per ulteriori informazioni sulla creazione di un report, vedere l'articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Creare un report personalizzato</a>.</p> </td> 
+      -->
+      <p>Report del progetto</p> <p>Rapporto Progetto (Dati finanziari)</p> <p>Report attività</p> <p>Rapporto Issue</p> <p>Report ore preventivate</p> <p>Per ulteriori informazioni sulla creazione di un rapporto, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Creare un rapporto personalizzato</a>.</p> </td>
     </tr> 
    </tbody> 
   </table>

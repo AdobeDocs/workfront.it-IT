@@ -6,14 +6,16 @@ description: La Condizione di un progetto è un flag posizionato su di esso per 
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Aggiorna condizione per un progetto
+# Aggiornare condizione per un progetto
 
 La Condizione di un progetto è un flag posizionato su di esso per indicare se il lavoro associato a esso sta andando senza problemi o se hai incontrato blocchi stradali. Questo è diverso dallo Stato del progetto, che indica se ci stai lavorando attivamente o meno.
 
@@ -34,7 +36,7 @@ L&#39;amministratore di Adobe Workfront può creare condizioni personalizzate pe
    <td><p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
   <p>Standard</p>
    <p>Piano</p>
@@ -45,7 +47,7 @@ L&#39;amministratore di Adobe Workfront può creare condizioni personalizzate pe
    <td> <p>Visualizzare o accedere ai progetti in modo più avanzato</p> <p>Modificare l’accesso ad attività e problemi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi per visualizzarne la condizione</p>
    <p>Gestire le autorizzazioni su attività e problemi per aggiornare la condizione</p>
      </td> 
@@ -57,7 +59,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Imposta automaticamente la condizione
 

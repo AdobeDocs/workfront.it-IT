@@ -1,19 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Esamina progetti richiesti
+title: Rivedere i progetti richiesti
 description: Le richieste di progetto vengono visualizzate come progetti con stato [!UICONTROL Richiesto] in Adobe Workfront. Questo articolo descrive come rivedere le richieste di progetto.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Esamina progetti richiesti
+# Rivedere i progetti richiesti
 
 <!--Audited: 10/2025-->
 
@@ -32,7 +34,7 @@ Quando si inviano più richieste di progetto per la revisione, l&#39;ufficio di 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,14 +47,14 @@ Quando si inviano più richieste di progetto per la revisione, l&#39;ufficio di 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard] </p> 
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di [!UICONTROL View] o versione successiva ai portafogli</p> <p>Accesso [!UICONTROL Edit] ai progetti</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL View] o superiori per il portfolio</p> <p>Autorizzazioni [!UICONTROL Manage] per aggiornare lo stato dei progetti</p>  </td> 
   </tr> 
  </tbody> 
@@ -62,7 +64,8 @@ Quando si inviano più richieste di progetto per la revisione, l&#39;ufficio di 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ Quando si inviano più richieste di progetto per la revisione, l&#39;ufficio di 
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Revisione dei progetti richiesti in un report di progetto
 

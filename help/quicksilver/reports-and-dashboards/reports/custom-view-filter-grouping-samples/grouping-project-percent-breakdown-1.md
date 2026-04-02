@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Raggruppamento: Ripartizione percentuale progetto 1'
-description: In questo raggruppamento di progetti personalizzato è possibile visualizzare i progetti raggruppati in base a un intervallo di valori di percentuale di completamento.
+title: 'Raggruppamento: Raggruppamento percentuale progetto 1'
+description: In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per un intervallo dei loro valori percentuali di completamento.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 20%
@@ -18,9 +20,9 @@ ht-degree: 20%
 
 <!--Audited: 10/2024-->
 
-In questo raggruppamento di progetti personalizzato è possibile visualizzare i progetti raggruppati in base a un intervallo di valori di percentuale di completamento. Le suddivisioni mostrano il valore percentuale di completamento con incrementi di 25 punti percentuali: 0-25%, 26-50%, 51-75% ecc.
+In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per un intervallo dei loro valori percentuali di completamento. I raggruppamenti mostrano il valore percentuale di completamento degli incrementi di 25 punti percentuali: 0-25%, 26-50%, 51-75% ecc.
 
-Il raggruppamento seguente organizza i progetti in base al valore della percentuale di completamento in uno di questi raggruppamenti:
+Il raggruppamento seguente organizza i progetti in base al valore percentuale di completamento in uno di questi raggruppamenti:
 
 * 0%
 * 1-25%
@@ -29,7 +31,7 @@ Il raggruppamento seguente organizza i progetti in base al valore della percentu
 * 76-99%
 * 100%
 
-![percent_complete_Breakdown_custom_project_grouping_25__increments.png](assets/percent-complete-breakdown-custom-350x56.png)
+![percent_complete_breakdown_custom_project_grouping_25__increments.png](assets/percent-complete-breakdown-custom-350x56.png)
 
 ## Requisiti di accesso
 
@@ -47,15 +49,15 @@ Il raggruppamento seguente organizza i progetti in base al valore della percentu
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,14 +66,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Raggruppa per ripartizione percentuale progetto
+## Raggruppa per raggruppamento percentuale progetto
 
 Per applicare questo raggruppamento:
 
-1. Vai a un elenco di progetti.
-1. Dal menu a discesa **Raggruppamento**, seleziona **Nuovo raggruppamento**.
+1. Consente di passare a un elenco di progetti.
+1. Dal menu a discesa **Raggruppamento**, selezionare **Nuovo raggruppamento**.
 
-1. Fai clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Rimuovi il testo nella casella e incolla il seguente codice nello spazio disponibile:
 
    ```
@@ -83,4 +85,4 @@ Per applicare questo raggruppamento:
    ```
 
 1. Fai clic su **Fine** > **Salva raggruppamento**.
-1. (Facoltativo) Aggiornare il nome del raggruppamento, quindi fare clic su **Salva raggruppamento**.
+1. (Facoltativo) Aggiorna il nome del raggruppamento, quindi fai clic su **Salva raggruppamento**.

@@ -5,10 +5,12 @@ description: Puoi utilizzare una scorecard per misurare il livello di allineamen
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +24,7 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
    <p>Prime o versione successiva</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>  
@@ -44,7 +46,7 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
    <td> <p>Modifica accesso ai progetti</p> <p>Visualizzare o accedere ai portafogli in modo più avanzato</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Gestire le autorizzazioni per un progetto</p> <p>Visualizza o autorizzazioni superiori per un portfolio</p> </td> 
   </tr> 
  </tbody> 
@@ -100,7 +102,8 @@ Per applicare una scorecard a un progetto:
 
    La scheda di valutazione è ora associata al progetto e il progetto ha un punteggio.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 
@@ -195,7 +198,7 @@ Per ulteriori informazioni sulle informazioni visualizzate in Portfolio Optimize
 
    Per ulteriori informazioni sulla generazione del punteggio di allineamento di un portfolio, vedere [Generare un punteggio di allineamento per un portfolio](#generate-an-alignment-score-for-a-portfolio).
 
-## Panoramica del punteggio di Portfolio Optimizer
+## Panoramica del punteggio di ottimizzatore portfolio
 
 Esiste una differenza tra il punteggio di allineamento e il punteggio dell’ottimizzatore del portfolio di un progetto.
 

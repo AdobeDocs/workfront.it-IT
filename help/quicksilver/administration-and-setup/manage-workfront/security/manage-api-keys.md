@@ -8,32 +8,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
 # Gestire le chiavi API
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 
 
 >[!IMPORTANT]
 >
->Workfront non consiglia più di utilizzare l&#39;endpoint `/login` o le chiavi API. Utilizza invece uno dei seguenti metodi di autenticazione:
+>Workfront non consiglia più di utilizzare l’endpoint `/login` o le chiavi API. Utilizza invece uno dei seguenti metodi di autenticazione:
 >
 >* Autenticazione server con JWT
 >* Autenticazione utente con OAuth2
 >
 >Per istruzioni sulla configurazione di questi metodi di autenticazione, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Per istruzioni sull&#39;utilizzo dell&#39;autenticazione server in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Per istruzioni sull’utilizzo dell’autenticazione server in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->Per istruzioni sull&#39;utilizzo dell&#39;autenticazione utente in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Per istruzioni sull’utilizzo dell’autenticazione utente in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Per ridurre al minimo le vulnerabilità di sicurezza API, gli amministratori di Adobe Workfront possono gestire le chiavi API utilizzate per consentire alle applicazioni di accedere a Workfront per conto di un utente.
 
@@ -61,7 +64,7 @@ Esempi di applicazioni che sfruttano l’API di Workfront sono:
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -176,9 +179,9 @@ Se sei preoccupato di una particolare violazione di sicurezza relativa al tuo si
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa sezione si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
+>La procedura descritta in questa sezione viene applicata solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
 >
->Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l’organizzazione abbia effettuato o meno l’onboarding in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >

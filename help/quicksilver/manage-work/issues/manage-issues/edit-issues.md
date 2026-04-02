@@ -8,24 +8,28 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Modifica problemi
+# Modificare i problemi
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te.
 
@@ -33,7 +37,7 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,18 +48,18 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <ul><li>Collaboratore o versione successiva</li>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <ul><li>Collaboratore o successiva</li>
    <li>Chiaro o superiore per modificare i problemi nella sezione Problemi di un’attività o di un progetto</li></ul>
    Oppure:
-   <ul><li>Richiedi o superiore</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
+   <ul><li>Richiedente o successiva</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute a un problema per modificare i campi seguenti nell’area Dettagli: </p>
    <ul>
    <li>Descrizione</li>
@@ -72,7 +76,8 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitazioni durante la modifica dei problemi
 
@@ -348,7 +354,8 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
    >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. (Facoltativo) Fai clic su **Assegna a me** per assegnare il problema a te stesso.

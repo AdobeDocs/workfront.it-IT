@@ -6,7 +6,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 10%
@@ -17,7 +19,7 @@ ht-degree: 10%
 
 Puoi personalizzare la riga dell’oggetto delle e-mail attivate dalle notifiche dell’evento:
 
-La modifica dell’oggetto ha effetto su tutti gli utenti del sistema, indipendentemente dal livello di accesso del destinatario. Gli utenti visualizzano tutti gli oggetti e i campi inclusi nell’oggetto dell’e-mail.
+La modifica dell&#39;oggetto ha effetto su tutti gli utenti del sistema, indipendentemente dal livello di accesso del destinatario. Gli utenti visualizzano tutti gli oggetti e i campi inclusi nell’oggetto dell’e-mail.
 
 Alcune notifiche di eventi hanno più righe dell’oggetto, il che significa che tali notifiche di eventi possono avere più oggetti e-mail in base alle loro funzionalità.
 
@@ -69,9 +71,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**.
 
-1. Fare clic sulla scheda **Notifiche eventi**.
-1. Fare clic sul nome della notifica dell&#39;evento che si desidera personalizzare per aprire la casella **Notifica evento**.
-1. Nella casella **Riga oggetto e-mail** modificare il testo e i campi, compresi quelli personalizzati, nell&#39;oggetto del messaggio e-mail.
+1. Fai clic sulla scheda **Notifiche evento**.
+1. Fare clic sul nome della notifica evento che si desidera personalizzare per aprire la casella **Notifica evento**.
+1. Nella casella **Riga oggetto e-mail** modificare il testo e i campi, inclusi i campi personalizzati, nell&#39;oggetto e-mail.
 
    I nomi dei campi aggiunti devono corrispondere alla sintassi Camel Case della struttura del nostro database. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
@@ -87,9 +89,9 @@ Ad esempio, &quot;Qualcuno mi include in un aggiornamento diretto&quot; ha due d
 
 Se un utente viene incluso in una conversazione sull’attività, sul problema, sull’attività modello o sul documento, viene generato un messaggio e-mail con la prima riga dell’oggetto. L&#39;oggetto contiene &quot;referenceObject:name&quot; e il sistema definisce l&#39;oggetto e visualizza il nome appropriato nel campo dell&#39;oggetto. L’oggetto dell’e-mail sarà simile al seguente: &quot;Commento sull’attività 123 nel progetto ABC&quot;.
 
-Se aggiunto a una conversazione di progetto, verrà generato un messaggio e-mail con il secondo oggetto. Qui la riga dell&#39;oggetto contiene &quot;topReferenceObject:name&quot; e di nuovo Workfront identifica l&#39;oggetto a cui è stato fatto riferimento e restituirà il nome dell&#39;oggetto anziché &quot;topReferenceObject:name&quot; nell&#39;oggetto. L’oggetto dell’e-mail sarebbe simile a questo: &quot;Commenta sul progetto ABC.&quot;
+Se aggiunta a una conversazione di progetto, verrà generata un’e-mail con il secondo oggetto. Qui l&#39;oggetto contiene &quot;topReferenceObject:name&quot; e di nuovo Workfront identifica l&#39;oggetto a cui si è fatto riferimento e restituirà il nome dell&#39;oggetto invece di &quot;topReferenceObject:name&quot; nell&#39;oggetto. L’oggetto dell’e-mail sarà simile al seguente: &quot;Commento sul progetto ABC&quot;.
 
-Per modificare l&#39;oggetto dell&#39;e-mail e aggiungere altri campi a uno dei due oggetti, vedere [Personalizzare l&#39;oggetto dell&#39;e-mail per le notifiche degli eventi](#customize-email-subject-lines-for-event-notifications) in questo articolo.
+Per modificare le righe dell&#39;oggetto e-mail e aggiungere campi aggiuntivi a entrambe le righe dell&#39;oggetto, vedere [Personalizzare le righe dell&#39;oggetto e-mail per le notifiche dell&#39;evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.
 
 ## Personalizzare le righe dell’oggetto dell’e-mail per le e-mail con più azioni
 

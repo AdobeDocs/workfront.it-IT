@@ -3,17 +3,19 @@ title: Confronto delle funzionalità tra i diversi modelli di licenza
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: accesso,livello,sistema,amministratore,standard,luce,collaboratore
+keywords: accesso,livello,sistema,amministratore,standard,light,collaboratore
 navigation-topic: access-levels
 description: Vedi un confronto tra le funzionalità disponibili per diverse licenze nel modello di licenze legacy e nuovo.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -39,8 +41,10 @@ Nella tabella seguente sono illustrate le funzionalità disponibili per le licen
   <tr> 
    <th> </th> 
    <th colspan="5">[!UICONTROL Legacy]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+   <!--
+   <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
+   -->
    <th colspan="3">[!UICONTROL Nuovo]</th> 
    </tr> 
  </thead> 
@@ -49,7 +53,7 @@ Nella tabella seguente sono illustrate le funzionalità disponibili per le licen
    <th> </th> 
    <th>[!UICONTROL Planner]</th> 
    <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Reviewer]</th> 
+   <th>[!UICONTROL Revisore]</th> 
   <th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL Esterno]</th>
    <th>[!UICONTROL Standard]</th> 
@@ -136,7 +140,7 @@ Nella tabella seguente sono illustrate le funzionalità disponibili per le licen
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Inviare richieste</td> 
+   <td>Inviano richieste</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -381,5 +385,7 @@ Nella tabella seguente sono illustrate le funzionalità disponibili per le licen
 </table>
 
 
-<!--WFPlanning is Ultimate only>
+<!--
+WFPlanning is Ultimate only>
+-->
 <!--Environment promotion is Prime and Ultimate only-->

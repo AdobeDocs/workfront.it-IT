@@ -6,14 +6,16 @@ description: Il progresso degli obiettivi è guidato da indicatori di progresso 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront
+# Panoramica sulla condizione e sull’avanzamento degli obiettivi in Obiettivi Adobe Workfront
 
 <!--Audited for P&P only: 4/2025-->
 
@@ -21,11 +23,12 @@ ht-degree: 1%
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -40,7 +43,8 @@ ht-degree: 1%
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 Adobe Workfront calcola automaticamente il progresso dell’obiettivo in base al progresso dei suoi indicatori di progresso.

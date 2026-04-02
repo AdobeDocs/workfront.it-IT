@@ -6,22 +6,26 @@ description: Puoi modificare le informazioni sui portfolio che hai creato o che 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 # Modificare i portfolio
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Puoi modificare le informazioni sui portfolio che hai creato o che altri utenti hanno creato se li hanno condivisi con te.
 
@@ -29,7 +33,7 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,14 +46,14 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
   <tr> 
    <td role="rowheader">Licenze Adobe [!DNL Workfront]</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
    <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Portfolio]</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un portfolio</p>
    <p>Autorizzazioni [!UICONTROL Gestisci] per i progetti nel portfolio per aggiungerli o rimuoverli</p>  </td> 
   </tr> 
@@ -60,7 +64,8 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +92,8 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Modificare i portfolio
 
@@ -177,7 +183,7 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td> <p>Aggiorna il nome del portfolio. </p> <p><b>SUGGERIMENTO</b></p> 
       <p>Il campo Nome non è disponibile quando si seleziona più di un portfolio. </p> </td> 
      </tr> 
@@ -190,7 +196,7 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
       <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. È lo stesso del [!UICONTROL Portfolio Owner]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come Portfolio Manager, questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: puoi aggiornare rapidamente il gestore portfolio nell’intestazione del portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Group]</td> 
+      <td role="rowheader">[!UICONTROL Gruppo]</td> 
       <td> <p>Aggiungi il nome di un singolo gruppo se il gruppo è associato al portfolio o se ne ha la responsabilità di completarlo. </p> <p>Suggerimento  <p>Quando si accede al campo [!UICONTROL Group] dalla pagina [!UICONTROL Portfolio Details], eseguire le operazioni seguenti: </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Questa opzione non è disponibile nella casella [!UICONTROL Modifica Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 

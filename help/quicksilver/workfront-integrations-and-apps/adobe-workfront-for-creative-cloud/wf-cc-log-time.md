@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Registra tempo utilizzando il plug-in Adobe Workfront
+title: Registrare il tempo utilizzando il plug-in Adobe Workfront
 description: È possibile registrare il tempo per i progetti, le attività e i problemi su cui si sta lavorando direttamente nelle applicazioni Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -21,14 +23,15 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,7 +39,8 @@ ht-degree: 2%
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
@@ -46,7 +50,7 @@ ht-degree: 2%
    <td> <p>Accesso a [!UICONTROL Edit] per attività o problemi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazione [!UICONTROL Log Hours] per l'attività o il problema</p> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +64,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{cc-install-prereq}}
 
-## Registra tempo utilizzando il plug-in Adobe Workfront
+## Registrare il tempo utilizzando il plug-in Adobe Workfront
 
 L&#39;amministratore [!DNL Workfront] determina quali tipi di ore specifiche del progetto sono disponibili come descritto in [Gestire i tipi di ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 

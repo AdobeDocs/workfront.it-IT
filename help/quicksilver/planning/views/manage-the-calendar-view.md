@@ -1,23 +1,27 @@
 ---
-title: Gestire la visualizzazione calendario
+title: Gestire la vista calendario
 description: È possibile visualizzare i record e i relativi campi in una visualizzazione calendario. In questo articolo viene descritto come creare una visualizzazione calendario e modificarne o eliminarne una esistente.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Gestire la visualizzazione calendario
+# Gestire la vista calendario
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -47,13 +51,13 @@ Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come ges
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
@@ -70,7 +74,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++ 
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,13 +137,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Gestire una visualizzazione calendario {#manage-a-calendar-view}
 
 <!--insert screen shot of calendar view-->
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * È possibile creare una visualizzazione Calendario solo se a un tipo di record sono associati almeno due campi data. Quando a un tipo di record è associato uno o nessun campo data, l&#39;opzione della visualizzazione Calendario non è attiva.
 
@@ -154,7 +160,7 @@ Per gestire una vista calendario:
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare il calendario.
 1. Creare una visualizzazione calendario come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Esempio di visualizzazione calendario](assets/calendar-view-example.png)
+   ![Esempio di vista calendario](assets/calendar-view-example.png)
 
    I record associati al tipo di record selezionato vengono visualizzati come barre in un calendario. Per impostazione predefinita, il colore delle barre corrisponde al colore dell&#39;icona del record.
 
@@ -325,7 +331,7 @@ Il numero di record visualizzati nel calendario varia a seconda del numero di ca
 
 1. Creare una visualizzazione calendario per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Facoltativo) Visualizza la visualizzazione calendario per mese, quindi fai clic su **Altezza riga** nella barra degli strumenti del calendario.
-1. Scegli una delle seguenti opzioni:
+1. Scegli una tra le opzioni seguenti:
 
    <table>
     <thead>

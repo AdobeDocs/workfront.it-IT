@@ -2,12 +2,14 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Panoramica sul grafico a discesa Agile
-description: Il grafico a comparsa fornisce una rappresentazione visiva dell'avanzamento dei brani nell'iterazione o nel progetto. Il tasso di sovraccarico effettivo viene misurato rispetto al tasso di sovraccarico ideale per l'iterazione o la sequenza temporale del progetto.
+title: Panoramica del grafico Burndown Agile
+description: Il grafico burndown fornisce una rappresentazione visiva dell'avanzamento delle storie nell'iterazione o nel progetto. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per l’iterazione o la timeline del progetto.
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -16,22 +18,22 @@ ht-degree: 0%
 
 # Panoramica sul grafico lavoro di Agile
 
-Il grafico a comparsa fornisce una rappresentazione visiva dell’avanzamento delle storie nell’iterazione. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per la timeline di iterazione.
+Il grafico a burn-down fornisce una rappresentazione visiva dell&#39;avanzamento delle storie nell&#39;iterazione. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per la timeline di iterazione.
 
-Il grafico a dispersione viene adattato in base al giorno selezionato. Il giorno corrente è quello predefinito. Quando si seleziona un giorno precedente, tutti i dati nel grafico a dispersione e tutti i valori nella sezione [!UICONTROL stato completamento] sopra il grafico a dispersione vengono ricalcolati per rappresentare i dati così come erano alla fine del giorno selezionato. È possibile selezionare i giorni passati o il giorno corrente, ma non i giorni futuri.
+Il grafico a burn-down viene regolato in base al giorno selezionato. Il giorno corrente è quello predefinito. Quando viene selezionato un giorno precedente, tutti i dati nel grafico a dispersione e tutti i valori nella sezione [!UICONTROL stato di completamento] sopra il grafico a dispersione vengono ricalcolati per rappresentare i dati così come erano alla fine del giorno selezionato. È possibile selezionare i giorni passati o il giorno corrente, ma non i giorni futuri.
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
 ## Indicatori visivi
 
-Il grafico a dispersione contiene i seguenti indicatori visivi:
+Il grafico a burn-down contiene i seguenti indicatori visivi:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Inizio velocità di masterizzazione ideale"> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Inizio tasso di burndown ideale"> </td> 
    <td> <p>Percentuale di burndown ideale in base a quando è iniziata l'iterazione.</p> <p>Questa riga non viene visualizzata se l’ambito dell’iterazione non cambia mai (le ore o i punti non vengono mai aggiunti o rimossi).</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero. Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -39,16 +41,16 @@ Il grafico a dispersione contiene i seguenti indicatori visivi:
    <td> <p>Percentuale di burndown ideale in base alle storie o alle attività correnti.</p> <p>La velocità di burn-down ideale corrente (linea blu continua) differisce dalla velocità di burndown ideale originale (linea blu punteggiata) quando le ore o i punti vengono aggiunti o rimossi dall'iterazione dopo l'inizio dell'iterazione.</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero.</p> <p>Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Velocità effettiva di masterizzazione in rosso"> </td> 
-   <td> <p>Il tasso di masterizzazione effettivo viene visualizzato in rosso quando il tasso di masterizzazione è inferiore all'ideale (più punti o ore rimanenti al giorno rispetto al calcolo di masterizzazione ideale).</p> <p>La seguente formula viene utilizzata per calcolare il tasso di masterizzazione effettivo:</p> <p>[SOMMA (valore orario o punto del lavoro in corso * percentuale di completamento) + valore orario o punto del lavoro completato]</p> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Percentuale di burn-down effettiva in rosso"> </td> 
+   <td> <p>Il tasso di burndown effettivo viene visualizzato in rosso quando il tasso di burndown è inferiore all’ideale (più punti o ore rimanenti al giorno rispetto al calcolo del burndown ideale).</p> <p>La formula seguente viene utilizzata per calcolare il tasso di burn-down effettivo:</p> <p>[SOMMA (valore punto o ora del lavoro in corso * percentuale di completamento) + valore punto o ora del lavoro completato]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Percentuale di burn-down effettiva in verde"> </td> 
-   <td> <p>Il tasso di burndown effettivo viene visualizzato in verde quando il tasso di burndown è uguale o migliore dell’ideale (sono rimasti meno punti al giorno del calcolo del burndown ideale).</p> <p>La seguente formula viene utilizzata per calcolare il tasso di masterizzazione effettivo:</p> <p>[SOMMA (valore orario o punto del lavoro in corso * percentuale di completamento) + valore orario o punto del lavoro completato]</p> </td> 
+   <td> <p>Il tasso di burndown effettivo viene visualizzato in verde quando il tasso di burndown è uguale o migliore dell’ideale (sono rimasti meno punti al giorno del calcolo del burndown ideale).</p> <p>La formula seguente viene utilizzata per calcolare il tasso di burn-down effettivo:</p> <p>[SOMMA (valore punto o ora del lavoro in corso * percentuale di completamento) + valore punto o ora del lavoro completato]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modifica dell&apos;ambito"> </td> 
-   <td> <p>Modifica dell'ambito (vengono aggiunti o rimossi punti o ore dall'iterazione).</p> <p>Le modifiche apportate all’ambito vengono sempre visualizzate come linea verticale a metà giornata. Inoltre, un punto blu viene visualizzato a metà di qualsiasi giorno in cui si è verificata una modifica dell’ambito.</p> <p>L'asse verticale del grafico a bruciatura mostra i punti o le ore del brano.</p> </td> 
+   <td> <p>Modifica dell’ambito (le ore o i punti vengono aggiunti o rimossi dall’iterazione).</p> <p>Le modifiche di ambito vengono sempre visualizzate come una linea verticale a metà giornata. Inoltre, un punto blu viene visualizzato nel mezzo di qualsiasi giorno in cui si è verificata una modifica dell’ambito.</p> <p>L'asse verticale del grafico a bruciatura mostra i punti o le ore del brano.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modifica nell’intervallo di date"> </td> 
@@ -63,15 +65,15 @@ Il grafico a dispersione contiene i seguenti indicatori visivi:
        <li> <p>Modificato manualmente</p> </li> 
        <li> <p>Il numero di punti o ore viene aggiornato sulla storia</p> </li> 
       </ul></li>  
-     <li>Lo stato del brano viene modificato in [!UICONTROL Complete]</li> 
+     <li>Lo stato del brano è cambiato in [!UICONTROL Complete]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Effetto dei giorni di assenza sul grafico di masterizzazione {#how-days-off-affect-the-burndown-chart}
+## Effetti dei giorni liberi sul grafico a dispersione {#how-days-off-affect-the-burndown-chart}
 
-La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico a dispersione utilizza la programmazione predefinita per definire i giorni lavorativi, come descritto in  [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in  [Crea una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
 I team Agile possono incorporare giorni non lavorativi specifici del team definendo una pianificazione alternativa (come descritto nell&#39;articolo [Utilizzare una pianificazione alternativa del team per i grafici a dispersione](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Questa pianificazione alternativa viene quindi riportata nel grafico a discesa di qualsiasi iterazione assegnata al team. La pianificazione alternativa influisce solo sul grafico a dispersione.
 

@@ -6,14 +6,16 @@ description: Talvolta possono verificarsi conflitti tra le pianificazioni delle 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
-# Ritardo livellamento attività di aggiornamento
+# Aggiornare il ritardo livellamento dell”attività
 
 Talvolta possono verificarsi conflitti tra le pianificazioni delle attività di un progetto. È possibile livellare le risorse o risolvere i conflitti tra risorse riprogrammando le risorse e le attività in modo che tutte le attività possano essere completate entro una pianificazione realistica. Per informazioni sul livellamento delle attività, vedere [Livellare le risorse nel Diagramma di Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
@@ -34,7 +36,7 @@ Se si aggiunge un ritardo di livellamento a un&#39;attività, la data di complet
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -43,7 +45,7 @@ Se si aggiunge un ritardo di livellamento a un&#39;attività, la data di complet
    <td> <p>Modifica accesso ad attività e progetti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività </p> <p>Autorizzazioni Contribute o superiori per i progetti</p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to Tasks </p> <p>Contribute or higher permissions to Projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aggiungere un ritardo di livellamento a un&#39;attività
 
@@ -105,7 +109,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
    >[!TIP]
    >
-   >Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
+   >Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso indica il passaggio effettivo dei giorni solari.
 
 1. Fai clic su **Salva**.
 

@@ -9,10 +9,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -20,16 +22,20 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record
+-->
 
-<!--<div class="preview">
+<!--
+<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>-->
+</div>
+-->
 
 I tipi di ore sono etichette utilizzate per definire le ore inserite. È possibile associare i tipi di ore alle ore inserite.
 
@@ -57,7 +63,7 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +76,7 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
   <tr> 
    <td>[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+       <p>[!UICONTROL Piano]</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
@@ -118,7 +124,7 @@ Per creare i tipi di lavoro:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Immettere un nome di tipo di ora facilmente riconoscibile nel sistema.</td> 
      </tr> 
      <tr> 
@@ -165,7 +171,7 @@ In qualità di amministratore [!DNL Workfront], puoi modificare i tipi di lavoro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Immettere un nome di tipo di ora facilmente riconoscibile nel sistema.</td> 
      </tr> 
      <tr> 

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Team Requests Overview
-description: Team requests are found in the Teams area in the Main Menu.
+title: Panoramica delle richieste di team
+description: Le richieste dei team si trovano nell’area Team nel menu principale.
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -18,36 +20,36 @@ ht-degree: 0%
 
 ## Comprendere le richieste del team
 
-Richieste team trovate nell&#39;area [!UICONTROL Team] nel [!UICONTROL Menu principale]. Click on the [!UICONTROL Team Requests] icon ![Request icon](assets/request-icon.png) in the left panel to view team requests.
+Richieste team trovate nell&#39;area [!UICONTROL Team] nel [!UICONTROL Menu principale]. Fai clic sull&#39;icona [!UICONTROL Richieste team] ![Icona richiesta](assets/request-icon.png) nel pannello a sinistra per visualizzare le richieste team.
 
 >[!NOTE]
 >
 >I team Agile non dispongono di richieste team.
 
-The [!UICONTROL Team Requests] tab shows the requests awaiting assignment for the team that is currently selected in the drop-down list. The number in parentheses indicates how many items are ready to be worked on.
+La scheda [!UICONTROL Richieste team] mostra le richieste in attesa di assegnazione per il team attualmente selezionato nell&#39;elenco a discesa. Il numero tra parentesi indica il numero di elementi pronti per essere lavorati.
 
-A team request represents a pending work item that is not assigned to a specific user. Instead, it is assigned to a team, and any member of that team can volunteer to accept responsibility for the item. If a user volunteers to work on a team request, the user is accepting the work assignment as their own. The task is assigned to the individual user in addition to the team.
+Una richiesta team rappresenta un elemento di lavoro in sospeso non assegnato a un utente specifico. Viene invece assegnato a un team, e qualsiasi membro di quel team può offrirsi volontario per accettare la responsabilità per l’elemento. Se un utente si offre volontario per lavorare su una richiesta del team, accetta l’assegnazione del lavoro come propria. L’attività viene assegnata al singolo utente oltre che al team.
 
 >[!NOTE]
 >
->A team request should not be used for collaborative task assignments. If you need to assign multiple users to work together on a task, do this through [!UICONTROL Advanced Assignments] and not through Team requests. For more information, see [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+>Non utilizzare una richiesta team per assegnazioni di attività collaborative. Se devi assegnare più utenti per lavorare insieme su un&#39;attività, esegui questa operazione tramite [!UICONTROL Assegnazioni avanzate] e non tramite richieste del team. Per ulteriori informazioni, vedere [Creare assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-## Understand the [!UICONTROL Ready to Start] and [!UICONTROL All] options
+## Comprendere le opzioni [!UICONTROL Pronto per iniziare] e [!UICONTROL Tutti]
 
-There are two options at the top of the Team Requests section: [!UICONTROL Ready to Start] and [!UICONTROL All].
+Nella parte superiore della sezione Richieste team sono disponibili due opzioni: [!UICONTROL Pronto per iniziare] e [!UICONTROL Tutto].
 
 L&#39;opzione [!UICONTROL Pronto per l&#39;avvio] mostra solo le attività e i problemi che soddisfano tutti i criteri seguenti:
 
-* All predecessors have met the conditions for their predecessor dependency types.\
-  For example, if the type of predecessor relationship is [!UICONTROL Finish-Start] (predecessor task must finish before the dependent task can start), the predecessor must be marked as [!UICONTROL Complete]. (For more information about predecessor dependency types, see [Overview of task dependency types](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
+* Tutti i predecessori hanno soddisfatto le condizioni per i tipi di dipendenza predecessori.\
+  Ad esempio, se il tipo di relazione predecessore è [!UICONTROL Fine-Inizio] (l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare), il predecessore deve essere contrassegnato come [!UICONTROL Completo]. Per ulteriori informazioni sui tipi di relazione predecessore, vedere [Panoramica sui tipi di relazione attività](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* The logged-in user is the person assigned to these tasks and issues (for work requests), or the selected team is assigned to these tasks and issues (for team requests).
-* The project status is in a status of [!UICONTROL Current].
-* The [!UICONTROL Projected Start Date] or [!UICONTROL Planned Start Date] has passed or is scheduled to begin within two weeks from today&#39;s date (or no [!UICONTROL Projected Start Date] or [!UICONTROL Planned Start Date] has been defined).
-* The [!UICONTROL Handoff Date] has already occurred or will occur within two weeks from the current date.
+* L’utente connesso è la persona assegnata a queste attività e problemi (per le richieste di lavoro), oppure il team selezionato è assegnato a queste attività e problemi (per le richieste di team).
+* Lo stato del progetto è [!UICONTROL Corrente].
+* La [!UICONTROL Data inizio prevista] o la [!UICONTROL Data inizio prevista] è passata o è prevista entro due settimane dalla data odierna (oppure non è stata definita alcuna [!UICONTROL Data inizio prevista] o [!UICONTROL Data inizio prevista]).
+* La [!UICONTROL Data handoff] si è già verificata o si verificherà entro due settimane dalla data corrente.
 
 >[!NOTE]
 >
->If the task meets the first three criteria and has a Handoff date within two weeks of the current date, it will show as [!UICONTROL Ready to Start] even if the Planned/Projected dates are further out than two weeks. If the task doesn&#39;t have a Handoff date, then the Planned/Projected dates must be within two weeks of the current date.
+>Se l&#39;attività soddisfa i primi tre criteri e ha una data di handoff entro due settimane dalla data corrente, verrà visualizzata come [!UICONTROL Pronta per iniziare] anche se le date pianificate/previste sono più di due settimane. Se l&#39;attività non ha una data Handoff, le date Pianificato/Previsto devono essere entro due settimane dalla data corrente.
 
-The [!UICONTROL All] option shows all tasks and issues on current projects that are assigned to the logged-in user or all tasks or issues assigned to the team.
+L&#39;opzione [!UICONTROL Tutte] mostra tutte le attività e i problemi dei progetti correnti assegnati all&#39;utente connesso o tutte le attività o i problemi assegnati al team.

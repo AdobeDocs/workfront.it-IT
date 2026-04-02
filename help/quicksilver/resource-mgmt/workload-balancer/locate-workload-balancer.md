@@ -2,19 +2,21 @@
 product-area: resource-management
 keywords: lavoro,team,personale,risorse
 navigation-topic: the-workload-balancer
-title: Individuare il Bilanciatore dei carichi di lavoro
+title: Individuare il bilanciamento dei carichi di lavoro
 description: Il Bilanciatore dei carichi di lavoro è disponibile per più progetti nell’area Risorse, per un team, per un progetto e per un utente.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Individuare il Bilanciatore dei carichi di lavoro
+# Individuare il bilanciamento dei carichi di lavoro
 
 È possibile utilizzare il Bilanciatore dei carichi di lavoro per pianificare le risorse per il lavoro o esaminarne la disponibilità e le allocazioni correnti.
 
@@ -38,7 +40,7 @@ Questo articolo descrive le aree in cui è possibile accedere al Bilanciatore de
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Questo articolo descrive le aree in cui è possibile accedere al Bilanciatore de
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p>
        <p><span class="preview">Nota: tutti gli utenti possono accedere al Bilanciatore dei carichi di lavoro nei propri profili utente, senza alcun requisito di licenza.</span></p></td>
@@ -59,12 +61,12 @@ Questo articolo descrive le aree in cui è possibile accedere al Bilanciatore de
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Visualizza le autorizzazioni o versioni successive per i progetti, le attività e i problemi</td> 
   </tr> 
  </tbody> 
@@ -197,4 +199,5 @@ For a project:
    * Assign work to any user that might not be on the project.
 
    * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.-->
+   * Adjust user allocations to work items.
+   -->

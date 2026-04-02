@@ -6,19 +6,23 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Panoramica campo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -34,7 +38,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
   Per informazioni sulla gestione dei campi, vedi anche i seguenti articoli:
 
-   * [Modifica impostazioni campo](/help/quicksilver/planning/fields/edit-fields.md)
+   * [Modificare le impostazioni dei campi](/help/quicksilver/planning/fields/edit-fields.md)
    * [Elimina campi](/help/quicksilver/planning/fields/delete-fields.md)
 
 * I campi associati a un tipo di record sono disponibili per essere associati a tutti i record di quel tipo. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
@@ -77,7 +81,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
       * Quando crei un’area di lavoro da un modello.
 
-        Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+        Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
       * Quando si importano tipi di record utilizzando un file Excel o CSV.
 

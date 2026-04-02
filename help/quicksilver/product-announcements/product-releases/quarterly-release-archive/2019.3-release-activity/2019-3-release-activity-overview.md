@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Panoramica sull’attività della versione 2019.3
+title: Panoramica sull’attività sulla versione 2019.3
 description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.3 di. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di produzione la settimana del 19 agosto 2019. Per date e ore specifiche che spiegano quando la versione è stata resa disponibile, consulta il sito attendibile di Workfront.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1296'
+ht-degree: 2%
 
 ---
 
-# Panoramica sull’attività della versione 2019.3
+# Panoramica sull’attività sulla versione 2019.3
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.3 di. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 
@@ -28,7 +30,7 @@ Per visualizzare un elenco dei miglioramenti rilasciati dopo la versione 2019.3,
 
 La versione 2019.3 contiene i seguenti miglioramenti:
 
-### Miglioramenti al progetto
+### Miglioramenti ai progetti
 
 * [Il filtro Apri ora mostra più risultati in un elenco di problemi](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#changes)
 
@@ -158,14 +160,16 @@ La versione 2019.3 contiene i seguenti miglioramenti:
 
 * [Elimina oggetti tramite l&#39;app Mobile in iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   Ora puoi eliminare oggetti come attività, problemi e schede orario nell’app Mobile. Per eliminare l&#39;oggetto è necessario disporre delle autorizzazioni corrette.
 
 * [Reimpostare la password utilizzando l’app mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   Puoi usare l’app Workfront Mobile per reimpostare la password, se l’hai dimenticata.
@@ -182,7 +186,7 @@ La versione 2019.3 contiene i seguenti miglioramenti:
 
 Abbiamo aggiunto diversi miglioramenti a livello di aspetto per migliorare la tua esperienza nell’app mobile di Workfront.
 
-### Miglioramenti Home
+### Miglioramenti alla Home
 
 * [Aggiornamenti al look and feel in Home](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md#new3)
 
@@ -355,13 +359,13 @@ Nel generatore di moduli personalizzati è stato creato un nuovo tipo di campo d
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante il rilascio della versione 2019.3, consulta .
 
-## Notifiche
+## Annunci
 
 * [La nuova esperienza Workfront beta è ora disponibile in Anteprima](#the-new-workfront-experience-beta-now-available-in-preview)
 * [Libreria Workfront ora disponibile](#workfront-library-now-available)
 * [API versione 3 non più supportata](#api-version-3-no-longer-supported)
 * [Termina il supporto di TLS 1.0 e 1.1](#tls-1-0-and-1-1-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione applicazione Flash](#flash-application-removal)
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 * [Webinar Q3 sulla roadmap dei prodotti](#q3-product-roadmap-webinar)
 
@@ -399,11 +403,11 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Rimozione applicazione di Flash {#flash-application-removal}
+### Rimozione dell&#39;applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Per informazioni dettagliate sugli strumenti Flash legacy e sulle relative sostituzioni, vedere [Sostituzione di strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

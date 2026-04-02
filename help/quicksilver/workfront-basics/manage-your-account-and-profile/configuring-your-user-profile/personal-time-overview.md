@@ -7,10 +7,12 @@ description: È importante indicare in Adobe Workfront quando si verifica l’as
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +51,7 @@ Gli strumenti di gestione delle risorse utilizzano anche il proprio tempo libero
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Per configurare il proprio periodo di inattività personale, è necessario disporre di:</p>
         <p>Standard (per configurare il proprio tempo libero personale)</p>
         <p>Lavoro o superiore (per configurare il proprio tempo libero personale)</p> </td>
@@ -81,8 +83,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Calendario personale per ferie](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   -->
 
 1. Seleziona **[!UICONTROL Tutto il giorno]** se stai prendendo una giornata libera.
 

@@ -6,7 +6,9 @@ description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 12%
@@ -66,12 +68,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-Per creare un report di tabella, è necessario creare un dashboard.
+È necessario creare un dashboard prima di creare un rapporto di tabella.
 
 
 ## Generare un rapporto della tabella in una dashboard dell’area di lavoro
 
-Sono disponibili numerose opzioni di configurazione per la creazione di un report di tabella. In questa sezione, vi illustreremo il processo generale di creazione di un file.
+Sono disponibili molte opzioni di configurazione per la creazione di un rapporto di tabella. In questa sezione ti guideremo attraverso il processo generale di creazione di un elemento.
 
 {{step1-to-dashboards}}
 
@@ -79,11 +81,11 @@ Sono disponibili numerose opzioni di configurazione per la creazione di un repor
 
 1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
-1. Nella casella **Crea dashboard**, immettere il **Nome** e la **Descrizione** del dashboard.
+1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 
 1. Fai clic su **Crea**.
 
-1. Nella casella **Aggiungi report**, seleziona **Crea report**.
+1. Nella casella **Aggiungi report** selezionare **Crea report**.
 
 1. Sul lato sinistro, selezionare **Tabella**.
 
@@ -164,7 +166,7 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
     </tr>
     <tr>
     <td><strong>Nome documento</strong></td>
-    <td>Versione documento &gt; Documento &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+    <td>Document Version &gt; Document &gt; type <em>Name</em> nella casella di ricerca.</td>
     </tr>
     <tr>
     <td><strong>Versione documento</strong></td>
@@ -180,24 +182,24 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
     </tr>
     <tr>
     <td><strong>Data richiesta</strong></td>
-    <td>Approvazione documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+    <td>Documento Approvazione &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
     </tr>
     <tr>
     <td><strong>Approvatore</strong></td>
-    <td>Approvazione documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
+    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     </table>
 
 
-   *I partecipanti della fase di approvazione sono troncati a _Pa fase di approvazione_
+   *I partecipanti alla fase di approvazione sono troncati a _Pa fase di approvazione_
 
 
-1. Segui i passaggi riportati di seguito per configurare la sezione **Filtro**:
+1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
-   1. Fare clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
-   1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
+   1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
-   1. Impostare l&#39;operatore su **Uguale a**, quindi digitare _approvazione in sospeso_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_ nella casella di testo.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -212,17 +214,17 @@ Gli utenti con l’accesso Visualizzazione o Modifica dei dati finanziari nel lo
 * Gli utenti che possono vedere i dati finanziari, li vedono solo per i record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non potranno vedere i valori finanziari per i record a cui non possono accedere.
 * Per evitare che persone non autorizzate possano accedere a dati finanziari, chi crea i rapporti deve valutare attentamente se includere dati finanziari nelle dashboard e con chi condividere le dashboard stesse.
 
-Si tratta di un limite noto che intendiamo correggere il più rapidamente possibile.
+Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente possibile.
 
-### Utilizzo del selettore di campi
+### Utilizzo del selettore di campo
 
-Il menu a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per restringere le scelte in un selettore di campi per facilitare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionare un oggetto entità di base.
+L&#39;elenco a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
 
 * **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
-* **Oggetti Workfront**: oggetti del flusso di lavoro Workfront nativi.
-* **Tipi di record di Planning**: tipi di record personalizzati definiti in Workfront Planning.
+* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
+* **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
 
-![Menu a discesa Sezioni](assets/sections-dropdown.png)
+![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
 
 Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Sezioni** viene aggiornato con le opzioni del tipo di campo applicabili tra cui scegliere.
 

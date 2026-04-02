@@ -6,10 +6,12 @@ description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato m
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +50,7 @@ Per informazioni generali sulla delega del lavoro, vedere [Panoramica sul lavoro
 >* Per gli elementi che vengono assegnati dopo l&#39;avvio della delega, può essere necessaria un&#39;ora dopo l&#39;assegnazione dell&#39;elemento per [!DNL Workfront] per condividere gli elementi appena assegnati con il delegato.
 
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,8 +61,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p><p>Revisione o successiva</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p><p>Revisione o successiva</p>
 
 >[!NOTE]
 >
@@ -73,7 +75,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o consente di accedere ad autorizzazioni superiori per le attività o i problemi assegnati</p> 
     </td> 
   </tr> 
@@ -84,7 +86,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -191,7 +194,8 @@ Puoi lasciare scadere una delega se hai selezionato una Data di fine oppure puoi
 
 ## Individua le informazioni sul lavoro delegato e sui delegati
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 Quando si delegano attività e problemi, in [!DNL Workfront] sono presenti diverse aree in cui è possibile visualizzare il lavoro delegato o chi sono i delegati.

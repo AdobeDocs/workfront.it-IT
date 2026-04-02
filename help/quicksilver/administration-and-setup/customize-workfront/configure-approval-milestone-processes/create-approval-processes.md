@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +30,7 @@ Questo articolo descrive come creare processi di approvazione globali a livello 
 Per informazioni sulle approvazioni associate a documenti o bozze, vedi i seguenti articoli:
 
 * [Richiedi approvazioni documenti](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
-* [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Panoramica flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Per informazioni sulle approvazioni associate a documenti o bozze, vedi i seguen
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,7 @@ Per informazioni sulle approvazioni associate a documenti o bozze, vedi i seguen
 
 </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
  <p>Piano</p> 
 </td> 
@@ -75,7 +77,8 @@ Per informazioni sulle approvazioni associate a documenti o bozze, vedi i seguen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Per informazioni sulle approvazioni associate a documenti o bozze, vedi i seguen
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Creare un processo di approvazione globale a livello di sistema o di gruppo per gli elementi di lavoro
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    Se stai creando un processo di approvazione a livello di gruppo, fai clic su **Gruppi** ![Icona Gruppi](assets/groups-icon.png), fai clic sul nome del gruppo, quindi su **Approvazioni**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 

@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Contrassegnare gli elementi di lavoro come completati utilizzando il plug-in Adobe Workfront
+title: Contrassegnare gli elementi di lavoro completati utilizzando il plug-in Adobe Workfront
 description: Puoi rimanere nelle applicazioni Adobe Creative Cloud e completare senza problemi il tuo lavoro in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -21,14 +23,15 @@ Puoi rimanere nelle seguenti applicazioni di [!DNL Adobe Creative Cloud] e compl
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -37,7 +40,8 @@ Puoi rimanere nelle seguenti applicazioni di [!DNL Adobe Creative Cloud] e compl
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
@@ -46,7 +50,7 @@ Puoi rimanere nelle seguenti applicazioni di [!DNL Adobe Creative Cloud] e compl
    <td> <p>Modifica accesso a [!UICONTROL Documents]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di [!UICONTROL View] o versione successiva all'oggetto in cui si desidera caricare un documento.</p> </td> 
   </tr> 
  </tbody> 

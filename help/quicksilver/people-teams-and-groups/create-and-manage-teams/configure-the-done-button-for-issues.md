@@ -6,7 +6,9 @@ description: Il pulsante Done (Fine) può impostare automaticamente lo stato di 
 author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 4%
@@ -91,7 +93,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    >   * [!UICONTROL Richiesta di Modifica]
    >   * [!UICONTROL Segnalazione Bug]
 
-   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte &#x200B;]&quot;, oltre ai diversi stati scelti per il team.
+   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte ]&quot;, oltre ai diversi stati scelti per il team.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 

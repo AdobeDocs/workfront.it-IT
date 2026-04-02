@@ -1,19 +1,21 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Esporta un elenco di schede orario
+title: Esportare un elenco di schede orario
 description: In qualità di responsabile persone o approvatore scheda orario, potrebbe essere necessario scaricare un elenco di schede orario per visualizzare rapidamente le informazioni sulle schede orario delle persone di cui sei responsabile. Per farlo, esporta un elenco di schede orario.
 author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
-# Esporta un elenco di schede orario
+# Esportare un elenco di schede orario
 
 <!--Audited: 8/2024-->
 
@@ -21,7 +23,7 @@ In qualità di responsabile persone o approvatore scheda orario, potrebbe essere
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +34,7 @@ In qualità di responsabile persone o approvatore scheda orario, potrebbe essere
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Chiaro o superiore </p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
@@ -41,7 +43,7 @@ In qualità di responsabile persone o approvatore scheda orario, potrebbe essere
    <td> <p>Visualizzare o accedere ad altre attività e problemi</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +53,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old permissions:
+<!--
+Old permissions:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,9 +79,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.-->
+*To find out what plan or license type you have, contact your Workfront administrator.
+-->
 
-## Esporta un elenco di schede orario
+## Esportare un elenco di schede orario
 
 {{step1-to-timesheets}}
 

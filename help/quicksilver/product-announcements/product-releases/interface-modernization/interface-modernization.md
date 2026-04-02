@@ -1,18 +1,20 @@
 ---
-title: Modernizzazione dell'interfaccia
+title: Modernizzazione dell’interfaccia
 description: In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo apportando in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '9443'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Modernizzazione dell&#39;interfaccia
+# Modernizzazione dell’interfaccia
 
 In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo apportando in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe. Salvo diversa indicazione, queste modifiche sono principalmente di tipo visivo e non altereranno in modo significativo i flussi di lavoro.
 
@@ -47,7 +49,7 @@ La nuova finestra di dialogo è ora coerente con altre aree di Workfront. La fun
 
 Sono state aggiornate le finestre di dialogo per l’aggiunta e la modifica di società con un design più moderno che è coerente con altre aree di Workfront.
 
-Per ulteriori informazioni, vedere [Creare e modificare società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Per ulteriori informazioni, consulta [Creare e modificare le aziende](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Progetti
 
@@ -409,7 +411,8 @@ Abbiamo aggiornato l’aspetto di un elenco di progetti o di un rapporto quando 
 
 L’elenco o il rapporto dei progetti ora corrisponde alla progettazione di altre aree di Workfront. Per informazioni, vedere [Utilizzare la vista Milestone](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -421,7 +424,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### Aggiornamento dell’interfaccia durante la modifica in serie dei modelli
 
@@ -454,7 +458,7 @@ Per informazioni, vedere [Convertire un&#39;attività in un progetto](/help/quic
 * Aggiunta di progetti ai portfolio
 * Aggiunta di programmi ai portfolio
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
 * [Aggiungere un programma esistente a un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [Aggiungere progetti a un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
@@ -529,13 +533,15 @@ Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](
 
 Per informazioni, vedere [Creare una coda di richieste](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente su diversi oggetti
 
@@ -550,11 +556,11 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 La casella Send update to user (Invia aggiornamento a utente) ora corrisponde ad altre aree di Workfront quando si invia un aggiornamento a uno o più utenti.
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
 * [Inviare messaggi diretti ad altri utenti](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
 * [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
-* [Gestire le appartenenze a società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+* [Gestire le appartenenze alle aziende](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Esperienza aggiornata durante la modifica di un Gruppo di argomenti in un progetto o modello
 
@@ -932,7 +938,8 @@ Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### Modifiche di aspetto delle caselle Nuovo gruppo di argomenti e Modifica gruppo di argomenti di un progetto
@@ -1449,7 +1456,7 @@ Questo aggiornamento include modifiche visive agli elenchi e alle barre degli st
 * Attività modello
 * Gruppi di argomenti
 * Scorecard
-* Schedule
+* Pianificazioni
 
 Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

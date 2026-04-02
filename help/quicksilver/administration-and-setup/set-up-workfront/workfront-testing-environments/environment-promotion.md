@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -65,13 +67,13 @@ Per un elenco degli oggetti promozionali e dei relativi oggetti secondari promoz
 
 ## Autenticazione
 
-L’API autentica ogni richiesta per garantire che il client abbia accesso alla visualizzazione o alla modifica di un oggetto richiesto.
+L’API autentica ciascuna richiesta per garantire che il client abbia accesso alla visualizzazione o alla modifica di un oggetto richiesto.
 
 L’autenticazione viene eseguita trasmettendo un ID sessione o una chiave API, che può essere fornita utilizzando il seguente metodo:
 
-### Autenticazione intestazione richiesta
+### Autenticazione tramite intestazione della richiesta
 
-Il metodo preferito per l’autenticazione consiste nel trasmettere un’intestazione di richiesta denominata SessionID contenente il token di sessione. Questo ha il vantaggio di essere sicuro contro gli attacchi di [Cross-Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) e di non interferire con l&#39;URI a scopo di caching.
+Il metodo preferito per l’autenticazione consiste nel trasmettere un’intestazione di richiesta denominata SessionID contenente il token di sessione. Questo presenta il vantaggio di essere progetto dagli attacchi di [Cross-Site Request Forgery (CSRF, Falsificazione di richieste tra siti)](https://it.wikipedia.org/wiki/Cross-site_request_forgery) e di non interferire con l’URI ai fini della memorizzazione in cache.
 
 Di seguito è riportato un esempio di intestazione di richiesta:
 
@@ -522,7 +524,7 @@ Per ogni oggetto promozione verrà impostato uno dei seguenti `actions`:
  <col> 
  <tbody> 
   <tr> 
-   <td>CREA</td> 
+   <td>CREATE</td> 
    <td><p>Quando non è possibile trovare un record corrispondente nell’ambiente di destinazione, l’azione viene impostata su CREATE.</p><p>Quando questa azione viene impostata in <code>translationmap</code> fornito all'endpoint <code>/install</code>, il servizio di installazione creerà il record.</p></td> 
   </tr> 
   <tr> 
@@ -1117,7 +1119,8 @@ La risposta include lo stato `{uuid of the created installation}` e `202 - ACCEP
 
 Esempio: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

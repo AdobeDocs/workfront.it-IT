@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 8%
@@ -50,26 +52,26 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-  In questi esempi, l&#39;ID proprietario Portfolio si trova a tre oggetti dall&#39;oggetto dell&#39;elenco.
+  In questi esempi, l’ID proprietario di Portfolio è a tre oggetti dall’oggetto dell’elenco.
 
-  Per informazioni sulla gerarchia degli oggetti in Workfront, consultate:
+  Per informazioni sulla gerarchia degli oggetti in Workfront, vedi:
 
    * [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Se possibile, utilizza i caratteri jolly per rendere più dinamici i rapporti e gli elenchi ed evitare di duplicarli per utenti diversi e con timeline simili.
 
-## Cenni preliminari su Camel Case
+## Panoramica del caso Camel
 
-Quando fate riferimento ai campi Workfront o ai loro attributi in modalità testo, Workfront richiede di digitare i nomi in maiuscolo/minuscolo. In questo caso, i campi con nome singolo sono scritti in minuscolo. I campi composti vengono scritti in base al seguente schema:
+Quando si fa riferimento ai campi Workfront o ai relativi attributi in modalità testo, Workfront richiede di digitarne i nomi in Camel Case. In questo caso, i campi single-name vengono scritti in minuscolo. I campi composti vengono digitati in base al seguente schema:
 
 `camelCaseSyntax`
 
 >[!IMPORTANT]
 >
->Tutti gli elementi di reporting seguono questo modello di casing.
+>Tutti gli elementi di reporting seguono questo pattern di maiuscole/minuscole.
 
-Le caratteristiche dell&#39;alloggiamento del cammello sono:
+Le caratteristiche del corpo del cammello sono:
 
 * La prima parola inizia sempre con una lettera minuscola.
 * Le parole seguenti iniziano sempre con una lettera maiuscola.
@@ -157,7 +159,7 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
   Per informazioni sul modo in cui gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-* Quando si fa riferimento a un campo personalizzato, utilizzare il nome del campo esattamente come viene visualizzato nell&#39;interfaccia.
+* Quando fai riferimento a un campo personalizzato, utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
 
   **Esempio:** Per fare riferimento a un campo personalizzato del progetto con l&#39;etichetta Dettagli aggiuntivi in una visualizzazione delle attività, utilizzare la riga seguente:
 
@@ -175,9 +177,9 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
 La creazione di un raggruppamento calcolato è simile alla creazione di una colonna calcolata in una visualizzazione.
 
-Quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpression`, vengono applicate le regole seguenti:
+Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpression`:
 
-* Utilizza le maiuscole/minuscole per fare riferimento direttamente ai campi e racchiudere ogni campo tra parentesi graffe.
+* Utilizza Camel Case per fare riferimento direttamente ai campi e racchiudere ogni campo tra parentesi graffe.
 
   **Esempio:** Per visualizzare il campo Nome attività in una colonna dell&#39;attività utilizzando `valueexpression`, utilizzare la riga seguente:
 
@@ -196,11 +198,11 @@ Quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpressi
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Per informazioni su come gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [Esplora API](../../../wf-api/general/api-explorer.md).
+  Per informazioni sul modo in cui gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-* Quando si fa riferimento a un campo personalizzato, utilizzare le regole seguenti:
+* Quando si fa riferimento a un campo personalizzato, utilizza le regole seguenti:
 
-   * Utilizzare il nome del campo esattamente come viene visualizzato nell&#39;interfaccia.
+   * Utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
    * Anteponi al nome del campo &quot;DE:&quot;.
    * Racchiudere il campo tra parentesi graffe.
    * Separare i campi correlati all&#39;oggetto in base ai punti.
@@ -216,7 +218,7 @@ Quando si fa riferimento a oggetti Workfront utilizzando una riga `valueexpressi
 
 #### `Valueformat` panoramica per visualizzazioni e raggruppamenti
 
-La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è la riga `valueformat=`. Questo indica a Workfront in quale formato restituire il valore specificato nelle righe `valuefield` o `valueexpression`. Sebbene sia possibile utilizzare vari formati per le `valueformat` righe, si consiglia di utilizzare sempre il valore seguente quando si utilizza `valueexpression`:
+La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=`. Questo indica a Workfront in quale formato restituire il valore specificato nelle righe `valuefield` o `valueexpression`. Sebbene sia possibile utilizzare vari formati per le righe `valueformat`, si consiglia di utilizzare sempre il seguente valore quando si utilizza `valueexpression`:
 
 `valueformat=HTML`
 
@@ -225,9 +227,9 @@ Per ulteriori valori `valueformat`, vedere anche i seguenti articoli:
 * [Formattare le date nei rapporti in modalità testo](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formattare numeri, valuta e valori percentuali nei rapporti in modalità testo](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-#### Panoramica di `width` per le visualizzazioni
+#### `width` panoramica per le visualizzazioni
 
-`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. In Workfront è disponibile un valore di larghezza consigliato per ogni campo, ma in base al tipo di campo e al formato, è possibile apportare modifiche.
+`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche.
 
 Utilizza la riga di codice `usewidths=true` aggiuntiva per applicare la larghezza specificata per la colonna.
 

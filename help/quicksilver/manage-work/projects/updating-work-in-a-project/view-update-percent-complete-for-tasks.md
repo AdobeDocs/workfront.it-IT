@@ -6,14 +6,16 @@ description: È possibile aggiornare la percentuale di completamento di un'attiv
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Visualizza e aggiorna la percentuale di completamento per le attività
+# Visualizzare e aggiornare la percentuale di completamento delle attività
 
 <!--Audited: 05/2025-->
 
@@ -34,7 +36,7 @@ Aggiornare la percentuale di completamento per i problemi è simile ad aggiornar
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p>
    </td> 
@@ -44,7 +46,7 @@ Aggiornare la percentuale di completamento per i problemi è simile ad aggiornar
    <td> <p>Modifica l'accesso alle Attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per l’attività</p>  </td> 
   </tr> 
  </tbody> 
@@ -54,7 +56,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,7 +82,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the task</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aree in cui è possibile aggiornare la percentuale di completamento di un&#39;attività
 

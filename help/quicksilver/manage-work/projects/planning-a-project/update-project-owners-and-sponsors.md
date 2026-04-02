@@ -6,15 +6,17 @@ description: Quando crei un progetto in Adobe Workfront, l’utente viene automa
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Aggiorna proprietari e sponsor del progetto
+# Aggiornare proprietari e sponsor del progetto
 
 <!--Audited: 07/2024-->
 
@@ -32,7 +34,7 @@ Per informazioni sui proprietari e gli sponsor dei progetti, vedere [Panoramica 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +45,7 @@ Per informazioni sui proprietari e gli sponsor dei progetti, vedere [Panoramica 
    <td> <p>Qualsiasi</p> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Per informazioni sui proprietari e gli sponsor dei progetti, vedere [Panoramica 
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Modificare le autorizzazioni per un progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +64,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aggiornare il proprietario di un progetto
 

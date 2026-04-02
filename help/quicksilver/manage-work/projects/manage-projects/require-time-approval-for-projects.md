@@ -6,14 +6,16 @@ description: Puoi configurare il progetto in modo che le ore registrate vengano 
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Richiede l&#39;approvazione del tempo per un progetto
+# Richiedere l’approvazione del tempo per un progetto
 
 <!--audited: 08/2024-->
 
@@ -37,7 +39,7 @@ Per ulteriori informazioni sui record di fatturazione, vedere l&#39;articolo [Cr
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Per richiedere l'approvazione del tempo per il progetto:</p>
    <ul><li><p>Standard</p></li>
    <li><p>Piano</p></li></ul>
@@ -52,7 +54,7 @@ Per ulteriori informazioni sui record di fatturazione, vedere l&#39;articolo [Cr
    <td> <p>Modifica accesso ai progetti</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza le autorizzazioni per il progetto o versione successiva</p>
   </tr> 
   <tr> 
@@ -77,7 +79,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,9 +125,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Richiede l&#39;approvazione del tempo per un progetto
+## Richiedere l’approvazione del tempo per un progetto
 
 Per richiedere l&#39;approvazione del project manager per le ore relative al progetto:
 

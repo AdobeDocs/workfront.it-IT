@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Impostazioni degli obiettivi di Adobe Workfront
+title: Impostazioni degli Obiettivi di Adobe Workfront
 description: Scopri le notifiche relative agli obiettivi e come condividere un obiettivo in Obiettivi di Adobe Workfront, nei seguenti articoli.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
-# Impostazioni degli obiettivi di Adobe Workfront
+# Impostazioni degli Obiettivi di Adobe Workfront
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -23,11 +25,12 @@ ht-degree: 0%
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,8 @@ ht-degree: 0%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Scopri le notifiche relative agli obiettivi e come condividere un obiettivo in Obiettivi di Adobe Workfront, nei seguenti articoli:
 

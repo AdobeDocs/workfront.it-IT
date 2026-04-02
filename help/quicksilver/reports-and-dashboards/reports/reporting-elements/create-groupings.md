@@ -6,7 +6,9 @@ description: Puoi creare un raggruppamento personalizzato da zero o personalizza
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 13%
@@ -44,7 +46,7 @@ Puoi creare un raggruppamento personalizzato da zero o personalizzarne uno esist
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p> <p>Modificare l’accesso a Report, Dashboard, Calendari per creare un raggruppamento in un report</p>
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per creare un raggruppamento in un rapporto</p>
    </td> 
   </tr> 
   <tr> 
@@ -69,9 +71,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 1. Fare clic su **+ Nuovo raggruppamento**.
 Il generatore di interfacce per la creazione dei lanci di raggruppamento.
 
-1. Nell&#39;area **Anteprima raggruppamento**, fare clic su **Aggiungi raggruppamento** per definire come organizzare le informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel report.
+1. Nell&#39;area **Anteprima raggruppamento** fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
 
-1. Iniziare a digitare il nome del campo che rappresenta il modo in cui si desidera organizzare le informazioni nel report, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
+1. Iniziare a digitare il nome del campo che rappresenta la modalità di organizzazione delle informazioni nel report, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 1. (Facoltativo e condizionale) Quando crei un raggruppamento in un elenco aggiornato, seleziona **Comprimi questo raggruppamento per impostazione predefinita** se desideri che i risultati del raggruppamento vengano visualizzati compressi anziché espansi. Questa impostazione è disabilitata per impostazione predefinita e i risultati del raggruppamento vengono sempre visualizzati nell&#39;elenco espanso.
 
    Per informazioni sugli elenchi aggiornati e legacy, vedere la sezione [Differenza tra gli elenchi aggiornati e legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell&#39;articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -88,7 +90,7 @@ Il generatore di interfacce per la creazione dei lanci di raggruppamento.
 1. Ripeti i passaggi 4, 5 e 6 per definire raggruppamenti aggiuntivi.\
    È possibile definire fino a tre raggruppamenti per organizzare le informazioni. È possibile organizzare ulteriormente le informazioni con un massimo di quattro raggruppamenti creando un rapporto matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Fai clic su **Salva raggruppamento**.
+1. Fare clic su **Salva raggruppamento**.
 
 ## Informazioni aggiuntive
 

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Raggruppamento: gruppo principale del proprietario del progetto in un elenco di ore'
-description: È possibile visualizzare il nome del gruppo principale del proprietario del progetto in un elenco o in un report ore.
+title: 'Raggruppamento: Gruppo predefinito del proprietario del progetto in un elenco di ore'
+description: Puoi visualizzare il nome del Gruppo Predefinito del Proprietario del Progetto in un elenco o report di ore.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 22%
@@ -18,11 +20,11 @@ ht-degree: 22%
 
 <!--Audited: 10/2024-->
 
-È possibile visualizzare il nome del gruppo principale del proprietario del progetto in un elenco o in un report ore.
+Puoi visualizzare il nome del Gruppo Predefinito del Proprietario del Progetto in un elenco o report di ore.
 
 Il raggruppamento raggruppa inoltre i risultati in base al nome del proprietario del progetto e al nome del progetto.
 
-![raggruppamento_per_progetto_proprietario_casa_gruppo.png](assets/grouping-for-project-owner-home-group-350x51.png)
+![raggruppamento_per_proprietario_progetto_gruppo_home.png](assets/grouping-for-project-owner-home-group-350x51.png)
 
 ## Requisiti di accesso
 
@@ -40,15 +42,15 @@ Il raggruppamento raggruppa inoltre i risultati in base al nome del proprietario
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,14 +59,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Raggruppa per home Gruppo del proprietario del progetto in un elenco di ore
+## Raggruppa per gruppo predefinito del proprietario del progetto in un elenco di ore
 
 Per applicare questo raggruppamento:
 
 1. Consente di passare a un elenco di ore.
-1. Dal menu a discesa **Raggruppamento**, seleziona **Nuovo raggruppamento**.
+1. Dal menu a discesa **Raggruppamento**, selezionare **Nuovo raggruppamento**.
 
-1. Fai clic su **Passa alla modalità testo**.
+1. Fare clic su **Passa alla modalità testo**.
 1. Rimuovi il testo nell&#39;area **Raggruppa per**.
 1. Sostituisci il testo con il seguente codice:
 
@@ -90,4 +92,4 @@ textmode=true
 ```
 
 1. Fai clic su **Fine** > **Salva raggruppamento**.
-1. (Facoltativo) Aggiornare il nome del raggruppamento, quindi fare clic su **Salva raggruppamento**.
+1. (Facoltativo) Aggiorna il nome del raggruppamento, quindi fai clic su **Salva raggruppamento**.

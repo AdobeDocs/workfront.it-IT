@@ -7,10 +7,12 @@ description: Puoi creare progetti da iniziative esistenti e aggiornare progetti 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +25,7 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +46,10 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
   </tr> 
     <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e </p></td> 
+   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <ul> 
      <li>Autorizzazioni [!UICONTROL Manage] per il piano </li> 
      <li>Autorizzazioni [!UICONTROL Manage] per i progetti pubblicati</li> 
@@ -63,7 +65,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
     </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Prerequisiti

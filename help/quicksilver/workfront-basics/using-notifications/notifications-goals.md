@@ -1,19 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifiche: Obiettivi'
-description: 'Notifiche: Obiettivi'
+title: 'Notifiche: obiettivi'
+description: 'Notifiche: obiettivi'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
-# Notifiche: Obiettivi
+# Notifiche: obiettivi
 
 Puoi abilitare le notifiche e-mail per gli eventi che si verificano in [!DNL Adobe Workfront Goals] nel tuo profilo. Un utente con una licenza [!UICONTROL Plan] può abilitarli anche per altri utenti. Per informazioni, vedere [[!DNL Adobe Workfront] notifiche](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -23,7 +25,7 @@ Puoi abilitare le notifiche e-mail per gli eventi che si verificano in [!DNL Ado
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,12 +38,12 @@ Puoi abilitare le notifiche e-mail per gli eventi che si verificano in [!DNL Ado
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td>
-   <p>Collaboratore o versione successiva</p>
-    <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+    <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Prodotti aggiuntivi</strong></td> 
-   <td>[!DNL Workfront Goals] <p>Per informazioni su [!DNL Workfront Goals], vedere <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] panoramica</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>Per informazioni su [!DNL Workfront Goals], consulta la panoramica <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
@@ -95,7 +97,8 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

@@ -6,7 +6,9 @@ description: È possibile modificare le impostazioni di un report per definirne 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 14%
@@ -90,11 +92,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      </tr> 
      <tr> 
       <td role="rowheader">Mostra la visualizzazione Griglia risorse nella scheda Dettagli</td> 
-      <td> <p>(Solo report utente) Selezionare questa opzione per visualizzare la griglia delle risorse nella scheda Dettagli del report.</p> <p>Nota: quando si applica la visualizzazione Tabella risorse a un report utente, il report mostra solo i progetti che si trovano nello stato Corrente. Se si desidera visualizzare i progetti in qualsiasi altro stato, è possibile utilizzare la scheda Utilizzo utente nell'area Persone della barra di navigazione globale e applicare la visualizzazione griglia risorse. <!--
+      <td> <p>(Solo report utente) Selezionare questa opzione per visualizzare la griglia delle risorse nella scheda Dettagli del report.</p> <p>Nota: quando si applica la visualizzazione Tabella risorse a un report utente, il report mostra solo i progetti che si trovano nello stato Corrente. Se si desidera visualizzare i progetti in qualsiasi altro stato, è possibile utilizzare la scheda Utilizzo utente nell'area Persone della barra di navigazione globale e applicare la visualizzazione griglia risorse.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Mostra una visualizzazione speciale nella scheda Dettagli</td> 

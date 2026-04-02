@@ -1,15 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Ottimizzare i progetti in Portfolio Optimizer
+title: Ottimizzare i progetti in ottimizzatore portfolio
 description: È possibile utilizzare [!UICONTROL Portfolio Optimizer] per assegnare la priorità ai progetti in base ai punteggi e ad altri valori. L’Optimizer prende in considerazione importanti informazioni sul progetto come il costo, l’allineamento, il rischio e il ROI per assegnare la priorità ai progetti in base a ciò che è più importante per te.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,9 +21,9 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,14 +38,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e </p>  </td>
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e [!UICONTROL]</p>  </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p>  </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,9 +81,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Ottimizzare i progetti in Portfolio Optimizer
+## Ottimizzare i progetti in ottimizzatore portfolio
 
 1. Apri un Portfolio, quindi fai clic su **[!UICONTROL Ottimizzazione Portfolio]** nel pannello a sinistra.
 

@@ -7,7 +7,9 @@ description: I blueprint forniscono elementi di base per aiutarti a creare un si
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 10%
@@ -56,7 +58,7 @@ Il catalogo mostra tutti i blueprint disponibili per la tua organizzazione. Per 
    * Caso d&#39;uso (ad esempio [!UICONTROL Risorse umane] o [!UICONTROL Marketing])
    * Livello di maturità ([!UICONTROL gestito] o [!UICONTROL integrato])
    * Stato installazione ([!UICONTROL installato] o non [!UICONTROL installato])
-   * Tipo di blueprint (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Struttura organizzativa], [!UICONTROL Modello di progetto]<!--, Request Queue, Setup Feature-->)
+   * Tipo di blueprint ([!UICONTROL Dashboard], [!UICONTROL Struttura organizzativa], [!UICONTROL Modello di progetto]<!-- above Custom Form; here, Request Queue, Setup Feature-->)
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Dettagli]** su una blueprint per scoprire come funziona.
 

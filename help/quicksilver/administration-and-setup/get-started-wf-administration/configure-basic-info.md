@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -36,7 +38,7 @@ Durante la configurazione del sistema Adobe Workfront, puoi gestire i dettagli d
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -83,7 +85,8 @@ Per accedere alla pagina Informazioni cliente:
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Configura informazioni di base {#configure-basic-info}
 

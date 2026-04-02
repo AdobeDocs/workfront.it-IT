@@ -7,7 +7,9 @@ description: È possibile tracciare un report in base a un campo personalizzato 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 6%
@@ -91,10 +93,10 @@ Non è possibile creare un grafico in un report facendo riferimento a un campo p
 
 Per creare un campo calcolato che faccia riferimento a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
-* Un campo personalizzato a selezione multipla in un modulo personalizzato.\
+* Campo personalizzato a selezione multipla in un modulo personalizzato.\
   Per informazioni sulla creazione di moduli personalizzati e sull&#39;aggiunta di campi personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Modulo personalizzato con il campo personalizzato a selezione multipla associato agli oggetti.
+* Modulo personalizzato con campo personalizzato a selezione multipla associato agli oggetti.
 * Valori per il campo personalizzato a selezione multipla per ciascun oggetto.
 
 Per generare il campo personalizzato calcolato che fa riferimento al campo personalizzato a selezione multipla:
@@ -120,9 +122,9 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
    ![Campo personalizzato a selezione multipla calcolato](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facoltativo) Se il campo personalizzato a selezione multipla è già incluso nel modulo e se il modulo è già associato a oggetti, abilitare l&#39;opzione **Applica a calcoli esistenti**.
+1. (Facoltativo) Se il campo personalizzato a selezione multipla è già incluso in questo modulo e se il modulo è già associato a oggetti, abilitare l&#39;opzione **Applica ai calcoli esistenti**.
 
-   In questo modo si garantisce che il nuovo campo calcolato venga compilato automaticamente con il valore del campo personalizzato a selezione multipla quando viene aggiunto ai moduli già associati agli oggetti.
+   In questo modo il nuovo campo calcolato viene compilato automaticamente con il valore del campo personalizzato a selezione multipla che viene aggiunto ai moduli già allegati agli oggetti.
 
 1. Fai clic su **Applica**.
 1. Fai clic su **Salva e chiudi**.
@@ -134,12 +136,14 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 1. (Facoltativo) Per fare in modo che tutti i campi calcolati in base ai quali si desidera creare il grafico vengano compilati con valori, è necessario ricalcolare le espressioni personalizzate su tutti gli oggetti del report.
 Per informazioni sul ricalcolo delle espressioni, vedere [Modificare le informazioni nei campi personalizzati](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   <!--
+   from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
    ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**.
+   -->
 
 1. Vai al report in cui desideri aggiungere il grafico per il campo calcolato che fa riferimento al campo personalizzato a selezione multipla.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.

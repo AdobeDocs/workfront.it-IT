@@ -1,14 +1,16 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Esportare il diagramma di Gantt in PDF
+title: Esportare il grafico di Gantt in PDF
 description: Puoi esportare il grafico Gantt in una PDF. In seguito, puoi stamparlo o allegarlo a un messaggio e-mail per condividerlo con altri utenti.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +22,7 @@ Puoi esportare il [!UICONTROL Grafico di Gantt] in un PDF. In seguito, puoi stam
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +42,18 @@ Puoi esportare il [!UICONTROL Grafico di Gantt] in un PDF. In seguito, puoi stam
    <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti e attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto e alle attività</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +136,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Ad esempio, se visualizzi il [!UICONTROL Grafico di Gantt] per un progetto che contiene 50 attività, ma desideri visualizzare solo 10 attività nel [!UICONTROL Grafico di Gantt] esportato, seleziona le 10 attività che desideri visualizzare.
 
 1. Fare clic sull&#39;icona della stampante ![Icona della stampante](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
-Viene visualizzata la finestra di dialogo Esporta in PDF&#x200B;**[!UICONTROL .]**
+Viene visualizzata la finestra di dialogo Esporta in PDF**[!UICONTROL .]**
 
    ![Finestra di dialogo Esporta in PDF](assets/exported-gantt-ui-350x225.png)
 

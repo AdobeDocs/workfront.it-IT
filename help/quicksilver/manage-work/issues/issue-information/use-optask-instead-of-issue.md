@@ -6,14 +6,16 @@ description: Il nome di un problema viene visualizzato come opTask nel database 
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Utilizza &quot;opTask&quot; e &quot;issue&quot; quando si fa riferimento a problemi
+# Utilizzare “opTask” e “problema” quando si fa riferimento ai problemi
 
 <!--Audited: 08/2025-->
 
@@ -29,8 +31,10 @@ Utilizza il nome del campo `opTask` quando si fa riferimento a problemi nei segu
 
   Per ulteriori informazioni sull&#39;utilizzo della modalità testo in un report, vedere [Cenni preliminari sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * Quando aggiorni i campi del problema in un foglio di importazione dati Kick-Start.
 

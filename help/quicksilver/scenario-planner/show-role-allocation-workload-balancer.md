@@ -6,10 +6,12 @@ description: Dopo aver collegato progetti e iniziative, puoi gestirne l’alloca
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +27,7 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
    <td> <p>Accesso di visualizzazione o superiore ai progetti.</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p> Visualizza o autorizzazioni superiori per un progetto.</p></td> 
   </tr> 
  </tbody> 
@@ -61,7 +63,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Mostra allocazione ruoli per progetti e iniziative nel [!UICONTROL Bilanciatore dei carichi di lavoro]
 
@@ -141,7 +145,7 @@ Se la società ha acquistato una licenza [!DNL Workfront Scenario Planner], è p
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Ruolo]</td> 
+      <td role="rowheader">[!UICONTROL Mansione]</td> 
       <td> <p>I nomi dei ruoli associati a uno dei seguenti elementi:</p> 
        <ul> 
         <li> <p>attività sul progetto</p> </li> 
@@ -154,12 +158,12 @@ Se la società ha acquistato una licenza [!DNL Workfront Scenario Planner], è p
       <td>Il numero di ore richieste associate a ogni ruolo nell'iniziativa per la durata totale dell'iniziativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Lavoro Necessario]</td> 
+      <td role="rowheader">[!UICONTROL Ore pianificate]</td> 
       <td>Il numero di ore pianificate associate a ogni mansione nelle attività o nei problemi sul progetto per la durata totale del progetto. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>Differenza tra le ore necessarie per l'iniziativa e le ore pianificate associate al lavoro sul progetto. [!DNL Workfront] calcola la varianza  utilizzando questa formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Quando le risorse sono pianificate per più ore rispetto a quelle richieste per l'iniziativa, la [!UICONTROL Variance] è negativa e viene visualizzata in rosso. Ciò significa che le risorse sono sovrassegnate. </p> </td> 
+      <td> <p>Differenza tra le ore necessarie per l'iniziativa e le ore pianificate associate al lavoro sul progetto. [!DNL Workfront] calcola la varianza [!UICONTROL] utilizzando questa formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Quando le risorse sono pianificate per più ore rispetto a quelle richieste per l'iniziativa, la [!UICONTROL Variance] è negativa e viene visualizzata in rosso. Ciò significa che le risorse sono sovrassegnate. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -180,7 +184,7 @@ Se la società ha acquistato una licenza [!DNL Workfront Scenario Planner], è p
    * Ridurre il numero di ore pianificate per una mansione che mostra le risorse sovrassegnate o aggiungere più risorse alle attività e distribuire più ore pianificate alle nuove risorse. È possibile aggiornare le assegnazioni o il numero di ore pianificate per le attività o i problemi durante la modifica. Per ulteriori informazioni, consulta i seguenti articoli:
 
       * [Modifica attività](../manage-work/tasks/manage-tasks/edit-tasks.md)
-      * [Modifica problemi](../manage-work/issues/manage-issues/edit-issues.md)
+      * [Modificare i problemi](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >

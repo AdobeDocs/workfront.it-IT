@@ -1,7 +1,7 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: Nuova attività di rilascio esperienza di commento
+title: Nuova attività di rilascio sull’esperienza dei commenti
 description: Rivedi l’attività di rilascio settimanale per la nuova esperienza di commento di Adobe Workfront.
 author: Alina
 feature: Product Announcements
@@ -9,14 +9,16 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1870'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Nuova attività di rilascio esperienza di commento
+# Nuova attività di rilascio sull’esperienza dei commenti
 
 <!--take the badge out when it comes to production GA for everyone-->
 
@@ -24,7 +26,8 @@ ht-degree: 0%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]
@@ -105,7 +108,7 @@ Questa sarà l’unica esperienza di commento per questi oggetti, poiché l’es
 
 Per ulteriori informazioni, vedere [Nuova esperienza di aggiunta di commenti](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Versione di anteprima: 17 agosto 2023
+Rilascio in anteprima: venerdì 17 agosto 2023
 
 Versione di produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -133,7 +136,7 @@ Abbiamo riprogettato il nuovo flusso di commenti per conferirgli un aspetto più
 
 Per ulteriori informazioni, vedere [Panoramica della scheda Aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Versione di anteprima: 17 agosto 2023
+Rilascio in anteprima: venerdì 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -151,7 +154,7 @@ Per supportare questa modifica, abbiamo rinominato anche il pulsante &quot;Comme
 
 Per ulteriori informazioni, vedere [Nuova esperienza di aggiunta di commenti](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-Versione di anteprima: 17 agosto 2023
+Rilascio in anteprima: venerdì 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -161,7 +164,7 @@ Produzione per la versione trimestrale: con la versione 23.10 (ottobre 2023)
 
 Per una migliore visibilità dei tag assegnati agli utenti in un aggiornamento, ora vengono visualizzati i nomi degli utenti (fino a due utenti) a cui è stato applicato il tag in un aggiornamento. Per ulteriori informazioni, vedere [Assegnare tag ad altri in aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-Versione di anteprima: 17 agosto 2023
+Rilascio in anteprima: venerdì 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -183,7 +186,7 @@ Anteprima e produzione: 10 agosto 2023
 
 Il proprietario di un commento viene ora taggato automaticamente in un thread. Prima di questo aggiornamento, solo gli utenti ai quali sono stati assegnati tag utilizzando i tag &quot;@name&quot; o aggiungendoli alla sezione &quot;Assegna tag a persone o team&quot; visualizzata nell’elenco degli utenti ai tag. Con questo, ora puoi rimuovere il proprietario di un commento dal thread, se necessario, anche se non era stato applicato loro alcun tag manuale in precedenza.
 
-Versione di anteprima: 12 luglio 2023
+Rilascio in anteprima: giovedì 12 luglio 2023
 
 Versione di produzione: 13 luglio 2023
 
@@ -193,9 +196,9 @@ Versione di produzione: 13 luglio 2023
 
 Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la registrazione dell’ora dalla sezione Aggiornamenti.
 
-Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni, consulta [Tempo di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Versione di anteprima: 5 luglio 2023
+Rilascio in anteprima: giovedì 5 luglio 2023
 
 Versione di produzione: con la versione 23.3 (luglio 2023)
 
@@ -281,7 +284,7 @@ Produzione: 1 giugno 2023
 
 #### Tempo di connessione nella nuova esperienza Beta per commenti
 
-È possibile registrare il tempo per problemi, attività e progetti dall’area Aggiornamenti quando si utilizza la nuova esperienza Beta per la creazione di commenti. Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+È possibile registrare il tempo per problemi, attività e progetti dall’area Aggiornamenti quando si utilizza la nuova esperienza Beta per la creazione di commenti. Per ulteriori informazioni, consulta [Tempo di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Anteprima: 1 giugno 2023
 
@@ -317,19 +320,19 @@ Disponibile per il commento del problema esperienza Beta e per gli obiettivi Wor
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
-### 20 aprile 2023
-
-È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
-
-Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
-
-### 17 aprile 2023
+### venerdì 20 aprile 2023
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+
+### martedì 17 aprile 2023
+
+È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
+
+Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 
 ### Settimana del 6 aprile 2023

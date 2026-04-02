@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Crea problemi
+# Creare problemi
 
 <!--Audited: 08/2025-->
 
@@ -39,7 +41,7 @@ Puoi anche aggiungere problemi ai progetti come richieste. Per informazioni, con
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,19 +52,19 @@ Puoi anche aggiungere problemi ai progetti come richieste. Per informazioni, con
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
-   <ul><li>Collaboratore o versione successiva</li>
+   <ul><li>Collaboratore o successiva</li>
    <li>Chiaro o superiore per modificare i problemi nella sezione Problemi di un’attività o di un progetto</li></ul>
    Oppure
-   <ul><li>Richiedi o superiore</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
+   <ul><li>Richiedente o successiva</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute o superiori con la possibilità di aggiungere problemi all’attività o al progetto in cui si crea il problema</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +74,8 @@ Puoi anche aggiungere problemi ai progetti come richieste. Per informazioni, con
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Puoi anche aggiungere problemi ai progetti come richieste. Per informazioni, con
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -172,7 +176,7 @@ Viene visualizzata la casella Nuovo problema.
 
    >[!TIP]
    >
-   >I Tipi di richiesta devono essere abilitati nella sezione Dettagli coda e anche durante la creazione dell’Argomento coda per essere visualizzati come selezione nel modulo Nuovo problema. Per informazioni, vedere i seguenti articoli:
+   >I Tipi di richiesta devono essere abilitati nella sezione Dettagli coda e anche durante la creazione dell’Argomento coda per essere visualizzati come selezione nel modulo Nuovo problema. Per ulteriori informazioni, consulta:
    >
    >* [Creare una coda di richieste](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >* [Crea argomenti coda](../../requests/create-and-manage-request-queues/create-queue-topics.md)

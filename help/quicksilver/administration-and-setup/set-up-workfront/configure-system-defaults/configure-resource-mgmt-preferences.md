@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+<!--
+Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
@@ -27,7 +30,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le [!U
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +43,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le [!U
   <tr> 
    <td>[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL Plan]</p></td>
+       <p>[!UICONTROL Piano]</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
@@ -150,7 +153,7 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
 
      >[!INFO]
      >
-     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL &#x200B; dell&#39;utente è 0,35.]
+     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL  dell&#39;utente è 0,35.]
      >
      >Se l&#39;utente ha 2 ore di inattività in un giorno, le sue [!UICONTROL FTE] settimanali disponibili verranno calcolate come segue:
      >
@@ -158,7 +161,8 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
      >
 
-     <!--This used to be the calculation before we implemented the Work Time field: 
+     <!--
+      This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

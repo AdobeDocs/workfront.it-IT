@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Modificare un rapporto in una dashboard dell’area di lavoro
-description: Puoi modificare un report del dashboard di Canvas dopo averlo creato.
+description: Puoi modificare un rapporto del dashboard Area di lavoro dopo averlo creato.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 12%
@@ -17,7 +19,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Durante questa fase, alcune parti della caratteristica potrebbero non essere complete o funzionare come previsto. Inviate un feedback relativo alla vostra esperienza seguendo le istruzioni nella sezione [Fornisci feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) nell&#39;articolo Panoramica della versione beta dei dashboard di Canvas.<br>
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
 >In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
@@ -27,7 +29,7 @@ ht-degree: 12%
 
 Dopo aver aggiunto i rapporti a un dashboard di Canvas, puoi modificare le informazioni del rapporto per modificare i dati visualizzati nel dashboard.
 
-Eventuali modifiche apportate a un report avranno effetto su tutti gli utenti che hanno accesso al dashboard che lo contiene.
+Eventuali modifiche apportate a un rapporto avranno un impatto su tutti gli utenti che hanno accesso al dashboard che lo contiene.
 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
@@ -70,9 +72,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-Prima di poter modificare un report, è necessario aggiungerlo a un dashboard.
+È necessario aggiungere un report a un dashboard prima di modificarlo.
 
-Per ulteriori informazioni, vedere [Creare un dashboard area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Modificare un rapporto
 
@@ -89,9 +91,9 @@ Per ulteriori informazioni, vedere [Creare un dashboard area di lavoro](/help/qu
 1. (Facoltativo) Se si modifica un rapporto KPI, modificare le informazioni come necessario nelle sezioni seguenti:
 
    * **Dettagli**
-   * **Genera indicatore KPI**
+   * **Genera KPI**
    * **Filtri**
-   * **Impostazioni colonna di espansione**
+   * **Impostazioni colonna espansione**
    * **Impostazioni gruppo di espansione**
 
    Per ulteriori informazioni su queste sezioni, vedere [Generare un report KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
@@ -104,20 +106,20 @@ Per ulteriori informazioni, vedere [Creare un dashboard area di lavoro](/help/qu
    * **Impostazioni colonna espansione**
    * **Impostazioni gruppo di espansione**
 
-   Per ulteriori informazioni su queste sezioni, vedere [Creare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+   Per ulteriori informazioni su queste sezioni, vedere [Generare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
-1. (Facoltativo) Se si modifica un report Tabella, modificare le informazioni in base alle esigenze nelle sezioni seguenti:
+1. (Facoltativo) Se stai modificando un rapporto di tabella, modifica le informazioni secondo necessità nelle sezioni seguenti:
 
    * **Dettagli**
-   * **Tabella di compilazione**
+   * **Genera tabella**
    * **Filtri**
    * **Impostazioni gruppo**
 
-   Per ulteriori informazioni su queste sezioni, vedere [Creare un report di tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+   Per ulteriori informazioni su queste sezioni, vedere [Generare un report di tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
-1. Fai clic su **Salva** per aggiornare il report.
+1. Fai clic su **Salva** per aggiornare il rapporto.
 
-## Modificare un report esistente
+## Modificare un rapporto esistente
 
 Quando modifichi un rapporto esistente, i dati del rapporto selezionati sovrascriveranno i dati attualmente visualizzati nel widget. Se desideri aggiungere un ulteriore rapporto esistente invece di sostituirne uno, ti consigliamo di creare un widget di rapporto separato.
 

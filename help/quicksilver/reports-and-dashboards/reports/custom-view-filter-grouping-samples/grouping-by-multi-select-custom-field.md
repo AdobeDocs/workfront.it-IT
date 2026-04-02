@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Raggruppare un report in base a un campo personalizzato a selezione multipla
-description: È possibile eseguire il raggruppamento in base al valore di un campo personalizzato a selezione multipla in un report di Adobe Workfront solo utilizzando la modalità testo.
+title: Raggruppare un report per un campo personalizzato a selezione multipla
+description: Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 10%
@@ -18,7 +20,7 @@ ht-degree: 10%
 
 <!--Audited: 10/2024-->
 
-È possibile eseguire il raggruppamento in base al valore di un campo personalizzato a selezione multipla in un report di Adobe Workfront solo utilizzando la modalità testo.
+Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront solo utilizzando la modalità testo.
 
 Di seguito sono riportati alcuni esempi di campi personalizzati a selezione multipla:
 
@@ -34,7 +36,7 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
   Per ulteriori informazioni, vedere [Tracciare un report in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Gli elementi con una delle scelte selezionate vengono conteggiati una sola volta.
 
-  Ad esempio, se si dispone di un campo personalizzato Casella di controllo con le opzioni Scelta 1 e Scelta 2 e si allega il modulo alle attività, le attività con entrambe le opzioni Scelta 1 e Scelta 2 selezionate vengono raggruppate separatamente dalle attività con solo Scelta 1 o Scelta 2 selezionate.
+  Ad esempio, se si dispone di un campo personalizzato Casella di controllo con le opzioni Scelta 1 e Scelta 2 e si allega il modulo alle attività, le attività con le opzioni Scelta 1 e Scelta 2 selezionate vengono raggruppate separatamente dalle attività con la sola scelta 1 o Scelta 2 selezionate.
 
 
 ## Requisiti di accesso
@@ -61,7 +63,7 @@ Per informazioni sull&#39;utilizzo della modalità testo, vedere l&#39;articolo 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +106,7 @@ Per raggruppare in base a un campo personalizzato a selezione multipla in un rap
 
    ![Raggruppamento del campo a selezione multipla](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
-   Il nome dei raggruppamenti del report corrisponde ai nomi del campo personalizzato a selezione multipla seguito dai valori selezionati nel campo.
+   I nomi dei raggruppamenti del rapporto sono i nomi del campo personalizzato a selezione multipla seguiti dai valori selezionati nel campo.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -1,15 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Individuare Portfolio Optimizer
+title: Individuare l’ottimizzatore portfolio
 description: Puoi trovare [!UICONTROL Portfolio Optimizer] quando accedi a un portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +21,7 @@ Puoi trovare [!UICONTROL Portfolio Optimizer] quando accedi a un portfolio.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +36,14 @@ Puoi trovare [!UICONTROL Portfolio Optimizer] quando accedi a un portfolio.
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e </p>  </td>
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e [!UICONTROL]</p>  </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p>  </td> 
   </tr> 
  </tbody> 
@@ -51,7 +53,8 @@ Puoi trovare [!UICONTROL Portfolio Optimizer] quando accedi a un portfolio.
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,7 +77,8 @@ Puoi trovare [!UICONTROL Portfolio Optimizer] quando accedi a un portfolio.
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Individua [!UICONTROL Portfolio Optimizer]
 

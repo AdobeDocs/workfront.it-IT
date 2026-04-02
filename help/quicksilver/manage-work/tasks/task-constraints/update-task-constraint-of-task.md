@@ -6,14 +6,16 @@ description: I vincoli dell'attività determinano quando un'attività deve inizi
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
-# Aggiornare il vincolo attività di un&#39;attività
+# Aggiornare il vincolo attività di un’attività
 
 I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e finire in un progetto. Per ulteriori informazioni, vedere [Panoramica sui vincoli delle attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -30,7 +32,7 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -39,7 +41,7 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modifica l'accesso alle Attività</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire l’accesso all’attività</p></td> 
   </tr> 
  </tbody> 
@@ -49,7 +51,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,9 +75,10 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Aggiornare il vincolo attività di un&#39;attività
+## Aggiornare il vincolo attività di un’attività
 
 1. Fai clic su **Menu principale** > **Progetti**, quindi fai clic su un progetto per accedervi.
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.

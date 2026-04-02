@@ -1,17 +1,19 @@
 ---
 content-type: overview
-title: Panoramica delle breadcrumb
+title: Panoramica dei breadcrumb
 description: Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica delle breadcrumb
+# Panoramica dei breadcrumb
 
 Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto. Ogni oggetto nel percorso della breadcrumb ha un’etichetta che visualizza il tipo di oggetto. La pagina su cui ti trovi attualmente viene visualizzata sia nell’intestazione della pagina che alla fine del percorso della breadcrumb in corsivo. Nell&#39;esempio seguente, questa è l&#39;attività &quot;[!UICONTROL Condividi con Brand Team]&quot;.
 
@@ -44,7 +46,8 @@ Per spostarsi tra le breadcrumb, è inoltre possibile utilizzare i tasti seguent
 
 
 
-<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+<!--
+drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 
 ## Multi-object breadcrumbs
 

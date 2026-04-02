@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 6%
@@ -95,7 +97,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    <tr> 
       <td role="rowheader">Soggetto </td> 
-      <td>Aggiungi il testo che viene visualizzato nella riga Oggetto del messaggio e-mail, quando viene inviato il messaggio e-mail generato dal modello. Questo è un campo obbligatorio.</td> 
+      <td>Aggiungi il testo visualizzato nella riga Oggetto dell’e-mail quando viene inviato il messaggio e-mail generato dal modello. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
@@ -119,9 +121,9 @@ La formattazione di HTML può arricchire i modelli e-mail, come illustrato nelle
 
 ### Collegamento a oggetti Workfront {#link-to-workfront-objects}
 
-È possibile includere collegamenti ai campi di Workfront utilizzando il carattere jolly `$$` per indicare al generatore di posta elettronica di cercare i valori dal database associato a un oggetto specifico.
+È possibile includere collegamenti ai campi di Workfront utilizzando il carattere jolly `$$` per indicare al generatore di e-mail di cercare i valori dal database associato a un oggetto specifico.
 
-Ad esempio, il corpo dell&#39;e-mail di una notifica che avvisa l&#39;assegnatario dell&#39;attività che l&#39;attività sta per iniziare può seguire questa struttura:
+Ad esempio, il corpo dell’e-mail di una notifica che avvisa l’assegnatario dell’attività che l’attività sta per iniziare può seguire questa struttura:
 
 ```html
 <html>
@@ -143,11 +145,11 @@ Ad esempio, il corpo dell&#39;e-mail di una notifica che avvisa l&#39;assegnatar
 </html>
 ```
 
-Per ottenere il valore &quot;jolly&quot; per un oggetto, effettuate una delle seguenti operazioni:
+Per ottenere il valore &quot;jolly&quot; per un oggetto, effettuare una delle seguenti operazioni:
 
-* Fai riferimento a Esplora API e seleziona i nomi degli oggetti dalla scheda Campi di qualsiasi oggetto. Per ulteriori informazioni su API Explorer, vedere [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Fai riferimento a API Explorer e seleziona i nomi degli oggetti dalla scheda Campi di qualsiasi oggetto. Per ulteriori informazioni su API Explorer, vedere [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilizzare il valore `valuefield` trovato all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, vedere [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilizza il valore `valuefield` che trovi all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, vedere [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Il valore `heading` può essere il nome dell&#39;oggetto, come si desidera che venga visualizzato nel corpo dell&#39;e-mail.
 
@@ -234,13 +236,13 @@ Un Progetto Gestito È In Ritardo
 </html>
 ```
 
-Questo genera un messaggio e-mail simile al seguente:
+Questo genera un’e-mail simile alla seguente:
 
-![Messaggio di posta elettronica del progetto in ritardo](assets/project-became-late-email.png)
+![E-mail del progetto in ritardo](assets/project-became-late-email.png)
 
-#### Promemoria Attività o Problema in procinto di iniziare {#task-or-issue-about-to-start-reminder-example}
+#### Promemoria attività o problema in procinto di iniziare {#task-or-issue-about-to-start-reminder-example}
 
-È inoltre possibile creare una notifica promemoria per un&#39;attività o un problema imminente.
+Puoi anche creare una notifica di promemoria per un’attività o un problema imminente.
 
 Il seguente codice può essere incluso in un modello e-mail da utilizzare per le notifiche di promemoria su attività e problemi inviate un numero qualsiasi di giorni prima della data di inizio pianificata dell’attività o del problema.
 

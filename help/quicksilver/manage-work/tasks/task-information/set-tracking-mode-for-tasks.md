@@ -6,14 +6,16 @@ description: La modalità di tracciamento di un’attività determina il modo in
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
-# Imposta modalità di verifica per le attività
+# Impostare modalità di tracciamento per le attività
 
 <!--Audited: 01/2025-->
 
@@ -34,7 +36,7 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
 
 <p>Work o successiva</p> 
@@ -45,7 +47,7 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
    <td> <p>Modifica l'accesso alle Attività </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un’attività</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
 
 +++
 
-<!--old: 
+<!--
+old: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,7 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
 
 -->
 
-## Imposta modalità di verifica per le attività
+## Impostare modalità di tracciamento per le attività
 
 1. Vai all’attività per la quale vuoi impostare la modalità di tracciamento.
 1. Fai clic sull&#39;icona **Altro** ![Altro su un oggetto](assets/qs-more-icon-on-an-object.png)accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.

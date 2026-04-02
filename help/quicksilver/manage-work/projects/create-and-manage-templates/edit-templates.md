@@ -6,7 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4971'
 ht-degree: 3%
@@ -76,7 +78,8 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,7 +110,8 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
    </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modificare un modello {#edit-a-template}
 
@@ -585,12 +589,15 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 
    Ora, quando utilizzi questo modello per creare un progetto, tutte queste impostazioni verranno trasferite al nuovo progetto.
 
-<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+<!--
+I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+-->
 
-<!-- This section is here by mistake - it should be maybe in layout templates?? 
+<!--
+ This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -627,7 +634,8 @@ Editing templates in bulk differs depending on which environment you are using.
 
 ### Edit templates in bulk in the Production environment 
 
-*****************and hide the first line below************ -->
+*****************and hide the first line below************
+-->
 
 {{step1-to-templates}}
 
@@ -1264,7 +1272,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
-   <!--drafted section below for the edit template story: 
+   <!--
+   drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
 

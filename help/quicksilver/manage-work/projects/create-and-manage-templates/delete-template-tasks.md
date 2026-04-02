@@ -7,10 +7,12 @@ description: Se non è più necessario, è possibile eliminare le attività mode
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +27,7 @@ Se non è più necessario, è possibile eliminare le attività modello. Le attiv
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Se non è più necessario, è possibile eliminare le attività modello. Le attiv
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> <p>Standard</p>
    <p>Piano</p> </td> 
   </tr> 
@@ -45,7 +47,7 @@ Se non è più necessario, è possibile eliminare le attività modello. Le attiv
    <td> <p>Modificare l’accesso ai modelli</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p> </td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Consente di gestire le autorizzazioni per un modello.</p> <p>Impossibile condividere un'attività modello.</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Eliminare un’attività modello
 

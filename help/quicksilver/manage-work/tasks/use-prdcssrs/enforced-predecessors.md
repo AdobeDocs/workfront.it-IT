@@ -6,14 +6,16 @@ description: I predecessori sono attività da cui dipendono altre attività per 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Imponi predecessori
+# Applicare predecessori
 
 <!-- Audited: 11/2025 -->
 
@@ -37,7 +39,7 @@ Se viene applicato un predecessore, l&#39;attività successore non può iniziare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +50,7 @@ Se viene applicato un predecessore, l&#39;attività successore non può iniziare
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -57,7 +59,7 @@ Se viene applicato un predecessore, l&#39;attività successore non può iniziare
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività e il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -67,7 +69,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Imponi un predecessore a livello di attività
 

@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -56,7 +58,7 @@ Questa integrazione è compatibile solo con [!DNL SharePoint Online]. Le istanze
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -156,8 +158,8 @@ Se una risorsa è stata caricata per la prima volta in [!DNL Workfront] e quindi
 
 Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite l&#39;integrazione legacy di [!DNL SharePoint], è necessario riconfigurare l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint] e mantenere aggiornato il segreto client di SharePoint.
 
-* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Riconfigura l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint]
 
@@ -170,7 +172,7 @@ La riconfigurazione dell&#39;integrazione legacy di [!DNL SharePoint] consente a
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **[!UICONTROL Documenti]** nell&#39;area di navigazione a sinistra, quindi seleziona **[!UICONTROL Provider di cloud]**.
-1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint] (Graph API)]** siano entrambe abilitate.
+1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint](Graph API)]** siano entrambe abilitate.
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Seleziona **[!UICONTROL Documenti]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL [!DNL SharePoint]Integrazione]**.
 1. Seleziona il segno di spunta a sinistra dell&#39;elenco per tutte le integrazioni esistenti, quindi seleziona **[!UICONTROL Disattiva]**.
@@ -185,9 +187,11 @@ Il segreto client [!DNL SharePoint] scade una volta all&#39;anno. Per garantire 
 >
 > Poiché [!DNL SharePoint] segreti client sono gestiti da [!DNL Microsoft], le funzionalità e le procedure del segreto client potrebbero cambiare in base agli aggiornamenti a [!DNL SharePoint] effettuati da [!DNL Microsoft]. Consultare sempre la documentazione di [!DNL Microsoft] per informazioni aggiornate sulle procedure e sulle funzionalità in [!DNL SharePoint].
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
 1. Generare un nuovo segreto client come descritto in [Sostituire un segreto client in scadenza in un  [!DNL SharePoint] componente aggiuntivo](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copia il segreto client in un percorso sicuro.
@@ -483,7 +487,8 @@ Per visualizzare una raccolta siti in [!DNL Workfront], è necessario soddisfare
 
   Per verificare questa situazione in [!DNL SharePoint], controllare le autorizzazioni della raccolta siti in SharePoint.
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -511,4 +516,5 @@ Per informazioni sul collegamento di cartelle da provider esterni, vedere [Colle
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

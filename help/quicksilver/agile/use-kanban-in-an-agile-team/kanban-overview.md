@@ -3,11 +3,13 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Panoramica Kanban
-description: Leggi questo articolo per comprendere meglio come funziona la bacheca kanban.
+description: Leggi questo articolo per comprendere meglio come funziona la bacheca Kanban.
 author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -18,9 +20,9 @@ ht-degree: 1%
 
 <!-- Audited: 01/2024 -->
 
-Le sezioni seguenti consentono di comprendere meglio il funzionamento della scheda [!UICONTROL Kanban].
+Le sezioni seguenti consentono di comprendere meglio il funzionamento della bacheca [!UICONTROL Kanban].
 
-Per una descrizione della metodologia K[!UICONTROL anban], consulta [Creare un team Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Per una descrizione della metodologia K[!UICONTROL anban], vedere [Creare un team Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Se sei interessato a migrare da una bacheca del team Agile [!UICONTROL Kanban] a [!DNL Workfront] [!UICONTROL Bacheche], consulta [Migrare le schede del team Agile [!UICONTROL Kanban] a [!DNL Workfront] bacheche](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -34,15 +36,15 @@ La bacheca [!UICONTROL Kanban] è costituita dai seguenti elementi:
 
 Per ulteriori informazioni, consulta [Aggiornare lo stato delle storie sulla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Gli stati dei brani possono essere personalizzati per il progetto modificando la visualizzazione Agile, come descritto nella sezione [[!UICONTROL Creare o personalizzare una visualizzazione Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Creare o modificare visualizzazioni in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Gli stati delle storie possono essere personalizzati per il progetto modificando la visualizzazione Agile, come descritto nella sezione [[!UICONTROL Creare o personalizzare una visualizzazione Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Creare o modificare le visualizzazioni in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >
->Per impostazione predefinita, sulla bacheca kanban sono visualizzate al massimo cinquanta schede, ma puoi fare clic su **[!UICONTROL Mostra più]** per visualizzare altre schede.
+>Per impostazione predefinita, nel Kanban Board sono visualizzate al massimo cinquanta schede, ma puoi fare clic su **[!UICONTROL Mostra altro]** per visualizzare altre schede.
 
-## Relazione tra sottoattività e brani
+## Relazione tra le sottoattività e i brani
 
-Se un brano contiene sottoattività, non potete aggiornare le informazioni sul brano principale stesso, ad esempio i punti/ore o la percentuale di completamento. Inoltre, non puoi spostare la storia in tutta la bacheca [!UICONTROL Kanban] per aggiornarne lo stato. Piuttosto, qualsiasi modifica apportata alle sottoattività del brano viene riflessa sul brano. I punti o le ore del brano combinato per tutte le sottoattività determinano i punti o le ore del brano principale.
+Se un brano contiene sottoattività, non è possibile aggiornare alcuna informazione sul brano principale stesso, ad esempio punti/ore o percentuale di completamento. Inoltre, non puoi spostare la storia in tutta la bacheca [!UICONTROL Kanban] per aggiornarne lo stato. Piuttosto, qualsiasi modifica apportata alle sottoattività del brano viene riflessa sul brano. I punti o le ore del brano combinato per tutte le sottoattività determinano i punti o le ore del brano principale.
 
 Ad esempio, se una storia ha una sola sottoattività valutata in 4 punti, anche la storia stessa ha 4 punti. Se modificate il valore del punto della sottoattività in 3, il valore del punto del brano padre viene modificato in 3. Se create un&#39;altra sottoattività sullo stesso brano e impostate il valore del punto per tale sottoattività su 4, il valore del punto del brano viene modificato su 7 in modo da riflettere il valore del punto combinato per entrambe le sottoattività.
 
@@ -52,9 +54,9 @@ La stessa logica si applica alle sottoattività di secondo livello (sottoattivit
 
 Quando utilizzi la bacheca Kanban, puoi effettuare le seguenti operazioni:
 
-* [Aggiungere una sottoattività a un brano esistente nella bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
+* [Aggiungi un&#39;attività secondaria a una storia esistente nella bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
 * [Aggiungi attività o problemi esistenti alla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
-* [Assegnare gli utenti a una storia nella bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [Assegna utenti a una storia sulla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Aggiungi storie e problemi dalla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
 * [Elimina storie o problemi dalla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
 * [Modificare le informazioni della storia](../../agile/use-kanban-in-an-agile-team/edit-story-information.md)

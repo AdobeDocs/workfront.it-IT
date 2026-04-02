@@ -7,7 +7,9 @@ description: Utilizzando i caratteri jolly nei filtri, puoi fare riferimento a u
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
@@ -18,12 +20,14 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Utilizzando i caratteri jolly puoi fare riferimento a una data o a un utente generico invece che a una data o un utente specifico. In questo modo, gli elementi creati sono dinamici; i risultati cambiano a seconda del contesto in cui vengono utilizzati.
 
@@ -128,9 +132,11 @@ Puoi scegliere tra le seguenti variabili basate sull’utente:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>La variabile più comune basata sull’utente è $$USER.ID. In questo modo viene sempre restituito l’ID dell’utente connesso. Questo è l’ID utilizzato per identificare l’utente che ha creato ciascun oggetto e le relative assegnazioni di lavoro.</p> <p>Se utilizzato nei rapporti, questo carattere jolly riduce il numero di rapporti da creare nel sistema. Puoi creare un rapporto e condividerlo con diversi utenti; i risultati cambiano a seconda dell’utente connesso e che esamina il rapporto.</p> <p>Ad esempio, per generare un rapporto per tutti i problemi assegnati all’utente connesso, è possibile utilizzare la seguente regola in un filtro di problemi: <em>Assegnato a ID è uguale a $$USER.ID</em>.</p> <p>Workfront utilizza questa variabile nei seguenti filtri incorporati:</p> 
+    -->
+    <p>La variabile più comune basata sull’utente è $$USER.ID. In questo modo viene sempre restituito l’ID dell’utente connesso. Questo è l’ID utilizzato per identificare l’utente che ha creato ciascun oggetto e le relative assegnazioni di lavoro.</p> <p>Se utilizzato nei rapporti, questo carattere jolly riduce il numero di rapporti da creare nel sistema. Puoi creare un rapporto e condividerlo con diversi utenti; i risultati cambiano a seconda dell’utente connesso e che esamina il rapporto.</p> <p>Ad esempio, per generare un rapporto per tutti i problemi assegnati all’utente connesso, è possibile utilizzare la seguente regola in un filtro di problemi: <em>Assegnato a ID è uguale a $$USER.ID</em>.</p> <p>Workfront utilizza questa variabile nei seguenti filtri incorporati:</p>
     <ul> 
      <li>I miei rapporti</li> 
      <li>I miei progetti</li> 

@@ -6,14 +6,16 @@ description: Se un progetto è associato a un gruppo, è possibile applicare sia
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Applica stati al lavoro associato a un gruppo
+# Applicare stati al lavoro associato a un gruppo
 
 <!--
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
@@ -27,7 +29,7 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,7 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p> </td> 
   </tr> 
@@ -47,7 +49,7 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +59,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aggiorna gruppo di progetti e stato
 

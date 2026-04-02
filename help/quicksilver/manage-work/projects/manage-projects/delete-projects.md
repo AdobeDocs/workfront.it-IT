@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
-# Elimina progetti
+# Eliminare progetti
 
 <!--Audited: 07/2024-->
 
@@ -37,7 +39,7 @@ Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
    <td> <p>Standard</p>
    <p>Piano</p> 
    </td> 
@@ -45,7 +47,7 @@ Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
     <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso ai progetti con la possibilità di creare ed eliminare progetti</p> </td> 
   </tr> 
-    <td> <p>Autorizzazioni oggetto</p> </td> 
+    <td> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Modifica l'accesso a Progetti, Attività, Problemi con la possibilità di eliminare progetti, attività e problemi</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Comprendere il processo di eliminazione dei progetti
 
@@ -124,7 +128,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Tariffe di fatturazione
    * Record fatturazione
 
-     Non puoi eliminare un progetto con Record fatturazione con lo stato Fatturato. Per ulteriori informazioni, vedere [Creare record fatturazione](../../projects/project-finances/create-billing-records.md).
+     Non puoi eliminare un progetto con Record fatturazione con lo stato Fatturato. Per ulteriori informazioni, consulta [Creare record di fatturazione](../../projects/project-finances/create-billing-records.md).
 
 * A seconda del modo in cui l’amministratore di Workfront configura le preferenze per l’eliminazione di progetti, attività o problemi nelle preferenze per le schede orario e le ore dell’istanza di Workfront, le ore registrate per le attività, i problemi o il progetto vengono gestite in uno dei seguenti modi durante l’eliminazione del progetto:
 
@@ -139,7 +143,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Se il progetto eliminato è collegato all’unica iniziativa pubblicata da un piano, viene rimossa anche l’indicazione che il piano è stato pubblicato.
    * Se recuperi un progetto eliminato, il progetto viene recuperato, ma il relativo collegamento all’iniziativa non viene ripristinato e l’area Pianificazione scenario non viene più visualizzata in Dettagli progetto.
 
-     Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     Pianificazione scanari richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
      Per informazioni sui progetti collegati alle iniziative in Scenario Planner, vedere [Aggiornare o creare progetti pubblicando iniziative in Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -149,7 +153,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Se recuperi il progetto eliminato, viene ripristinato anche il progetto come attività dell’obiettivo.
 
-     È necessaria una licenza aggiuntiva. Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     È richiesta una licenza aggiuntiva. Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
      Per informazioni sull&#39;associazione dei progetti agli obiettivi, vedere [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
@@ -179,9 +183,9 @@ Puoi eliminare i progetti da un elenco di progetti.
 
 >[!NOTE]
 >
->Le informazioni presenti in questa sezione si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questa sezione si riferiscono alla Pianificazione di Workfront di Adobe, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

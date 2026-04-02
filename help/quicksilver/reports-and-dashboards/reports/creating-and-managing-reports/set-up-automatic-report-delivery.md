@@ -1,19 +1,21 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Pianificare la consegna automatica dei rapporti
-description: Pianificare la consegna automatica dei rapporti
+title: Pianificare una consegna di rapporto automatica
+description: Pianificare una consegna di rapporto automatica
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Pianificare la consegna automatica dei rapporti
+# Pianificare una consegna di rapporto automatica
 
 <!-- Audited: 4/2025 -->
 
@@ -27,7 +29,7 @@ Per ulteriori informazioni, inclusi i limiti di dimensione che possono influenza
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,7 @@ Per ulteriori informazioni, inclusi i limiti di dimensione che possono influenza
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -51,13 +53,13 @@ Per ulteriori informazioni, inclusi i limiti di dimensione che possono influenza
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
      <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -190,7 +192,8 @@ Per eliminare una consegna di rapporti pianificata:&#x200B;
 
 1. Fai clic su **Elimina** per confermare.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

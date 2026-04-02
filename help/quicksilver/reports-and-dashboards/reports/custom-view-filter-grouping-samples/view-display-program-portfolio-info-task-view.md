@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visualizza: consente di visualizzare le informazioni sul programma e sul Portfolio in una visualizzazione delle attività.'
-description: In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili in Generatore report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+title: 'Visualizzazione: visualizzazione delle informazioni su programmi e Portfolio in una visualizzazione attività'
+description: In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 18%
@@ -16,9 +18,9 @@ ht-degree: 18%
 
 # Visualizzazione: mostrare informazioni su Programma e Portfolio in una vista attività
 
-In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili in Generatore report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
 
-Nella visualizzazione sono inoltre disponibili collegamenti a Project, Program e Portfolio da un elenco di attività.
+Nella visualizzazione sono inoltre disponibili collegamenti a Progetto, Programma e Portfolio da un elenco di attività.
 
 ![Visualizza programma e portfolio](assets/view--program-and-portfolio-350x116.png)
 
@@ -38,15 +40,15 @@ Nella visualizzazione sono inoltre disponibili collegamenti a Project, Program e
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,14 +56,14 @@ Nella visualizzazione sono inoltre disponibili collegamenti a Project, Program e
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Visualizzare le informazioni sul programma e sul Portfolio in una visualizzazione delle attività
+## Visualizzare le informazioni su programmi e Portfolio in una visualizzazione delle attività
 
 1. Consente di passare a un elenco di attività.
-1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, fare clic su **Passa alla modalità Testo**, quindi su **Modifica modalità Testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, fare clic su **Passa a modalità testo**, quindi su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
    ```
    column.0.descriptionkey=name
@@ -132,4 +134,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    column.3.width=150 
    ```
 
-1. Fai clic su **Fine** > **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.

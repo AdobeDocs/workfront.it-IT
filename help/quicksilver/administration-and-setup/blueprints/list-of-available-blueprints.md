@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -31,7 +33,7 @@ Questo blueprint contiene un modello che l&#39;organizzazione dei servizi profes
 Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team finanziari per organizzare le attività relative alla pianificazione del budget annuale. Il modello consente di impostare le aspettative con i responsabili delle unità aziendali e li guida attraverso il processo per richiedere e riservare i budget durante il processo di pianificazione annuale.
 
 **[!UICONTROL Dashboard linea di base]**
-Questo blueprint contiene una dashboard che consente di prendere decisioni di progetto più intelligenti e veloci. Le linee di base consentono di confrontare ciò che è stato pianificato e ciò che è accaduto, consentendo di individuare rapidamente le attività problematiche, le fasi di valutazione e le tendenze del progetto. Il dashboard della linea di base include i seguenti rapporti: Linea di base | Progetti in corso, linea di base | Progetti completati, linea di base | Attività in corso e linea di base | Attività completate.
+Questo blueprint contiene una dashboard che consente di prendere decisioni di progetto più intelligenti e veloci. Le linee di base consentono di confrontare ciò che è stato pianificato e ciò che è accaduto, consentendo di individuare rapidamente le attività problematiche, le fasi di valutazione e le tendenze del progetto. Il dashboard Previsione include i seguenti rapporti: Previsione | Progetti in corso, Previsione | Progetti completati, Previsione | Attività in corso e Previsione | Attività completate.
 
 **[!UICONTROL Piano di consegna dei servizi contrattuali]**
 Questo blueprint contiene un modello che organizza il lavoro relativo alla fornitura di servizi rivolti al cliente. Esso è inteso a creare un approccio uniforme per la fornitura di servizi oggetto di contratto.
@@ -72,7 +74,7 @@ Questo blueprint contiene la configurazione delle strutture organizzative da esp
 **[!UICONTROL Configurazione organizzazione IT]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso di utilizzo di Information Technology.
 
-**[!UICONTROL Nozioni di base sull&#39;istanza ereditata | Elenco di controllo]**
+**[!UICONTROL Nozioni di base ereditate dell&#39;istanza | Elenco di controllo]**
 Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 
 **[!UICONTROL Esecuzione campagna integrata]**
@@ -138,15 +140,15 @@ Questo blueprint contiene un modello che l&#39;organizzazione di servizi profess
 **[!UICONTROL Dashboard di manutenzione amministratore di sistema]**
 Questo blueprint contiene un singolo dashboard per aiutare gli amministratori di sistema a mantenere e pulire periodicamente il sistema da vari disagi che potrebbero accumularsi nel tempo.
 
-**Realizzazione valore | Dashboard dei valori core**
+**Realizzazione valore | Dashboard valore core**
 
 Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a misurare il valore di Workfront. Questi rapporti aiutano a tradurre i vantaggi della centralizzazione del lavoro e della gestione dei processi di lavoro in valori misurabili che puoi monitorare nel tempo per ottenere risultati migliori.
 
-**Realizzazione valore | Distribuisci dashboard dei servizi rivolti al client**
+**Realizzazione valore | Distribuisci dashboard servizi rivolti al client**
 
 Questo blueprint contiene un’unica dashboard con 8 rapporti per aiutarti a sfruttare i vantaggi di Workfront. Questi rapporti sono progettati per aiutarti a tradurre i servizi rivolti ai clienti in un valore misurabile che puoi monitorare nel tempo per ottenere risultati migliori.
 
-**Realizzazione valore | Gestisci dashboard flussi di lavoro di conformità**
+**Realizzazione valore | Gestisci flussi di lavoro conformità dashboard**
 
 Questo blueprint contiene un singolo dashboard con 7 rapporti per aiutarti a realizzare il valore di Workfront. Per l’uso quotidiano o in settori altamente regolamentati, questi rapporti, che consentono di risparmiare tempo, favoriscono la responsabilità e migliorano i risultati nel tempo, aiutando a tenere traccia e gestire i flussi di lavoro e le esigenze di conformità.
 

@@ -7,10 +7,12 @@ description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -41,7 +43,7 @@ Per informazioni sulla delega delle approvazioni di progetti, attività e proble
 
 Per informazioni su come delegare attività e problemi, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Panoramica su delega attività e problemi
+## Panoramica su come delegare attività e problemi
 
 Quando deleghi attività e problemi, tieni presente quanto segue:
 

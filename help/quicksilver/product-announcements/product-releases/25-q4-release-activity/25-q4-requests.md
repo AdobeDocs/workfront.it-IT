@@ -1,20 +1,22 @@
 ---
-title: Richieste di miglioramenti per il quarto trimestre 2025
-description: Richieste di miglioramenti per il quarto trimestre 2025
+title: Miglioramenti alle richieste del quarto trimestre 2025
+description: Miglioramenti alle richieste del quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Richieste di miglioramenti per il quarto trimestre 2025
+# Miglioramenti alle richieste del quarto trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima alle richieste con la versione del quarto trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima alle richieste con la versione del quarto trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
@@ -22,9 +24,9 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Anteprima: 2 ottobre 2025
->&#x200B;>Versione rapida di produzione: 15 ottobre 2025
->&#x200B;>Produzione per tutti: 16 ottobre 2025
+>Anteprima: venerdì 2 ottobre 2025
+>Rilascio rapido in produzione: giovedì 15 ottobre 2025
+>Produzione per tutti: venerdì 16 ottobre 2025
 
 Per visualizzare più facilmente le informazioni necessarie, è stata aggiunta la possibilità di creare e salvare viste nell’area Richieste. Ora puoi salvare una vista, inclusi i filtri e le configurazioni di colonna, e passare da una vista all’altra. Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
 
@@ -32,7 +34,8 @@ In precedenza, non era possibile salvare i filtri e le configurazioni di colonna
 
 Per informazioni e istruzioni, vedere [Creare visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,15 +48,16 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Aggiornamenti alla richiesta di esperienza
 
 >[!NOTE]
 >
 >* Anteprima: 21 agosto 2025
->* Versione rapida di produzione: 11 settembre 2025
->* Produzione per tutti i clienti: 16 ottobre 2025
+>* Rilascio rapido in produzione: venerdì 11 settembre 2025
+>* Produzione per tutti i clienti: venerdì 16 ottobre 2025
 
 Per migliorare l’esperienza utente nell’esecuzione delle richieste in Workfront e Workfront Planning, è stata aggiornata la sezione delle richieste.
 

@@ -7,28 +7,32 @@ description: La Data conferma è la data in cui un utente assegnato a un’attiv
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Panoramica sulla data di conferma
+# Panoramica data impegno
 
 <!--Audited: 05/2025-->
 
-<!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+ <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 La Data conferma è la data in cui un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata di un&#39;attività o di un problema, in quanto si tratta di una stima più realistica della data di completamento fornita solo dall&#39;utente responsabile del lavoro.
 
 Per informazioni sulla data di completamento pianificata, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-## Panoramica sulla data di conferma
+## Panoramica data impegno
 
 Quando si lavora con le date di commit, considera quanto segue:
 
@@ -92,7 +96,8 @@ L’impostazione manuale della data di conferma per un’attività o un problema
   >* [Personalizzare il pannello Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
-<!--this is no longer possible: 
+<!--
+this is no longer possible: 
 >[!NOTE]
 >
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.

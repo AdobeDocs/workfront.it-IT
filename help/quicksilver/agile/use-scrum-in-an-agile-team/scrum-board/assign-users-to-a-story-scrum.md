@@ -1,19 +1,21 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Assegnare gli utenti a una storia nella bacheca Scrum
+title: Assegnare utenti a una storia sulla bacheca Scrum
 description: Leggi questo articolo per scoprire come assegnare gli utenti a una storia sulla bacheca Scrum.
 author: Courtney
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 18%
 
 ---
 
-# Assegnare gli utenti a una storia nella bacheca [!UICONTROL Scrum]
+# Assegna utenti a una storia sulla bacheca [!UICONTROL Scrum]
 
 ## Requisiti di accesso
 
@@ -40,18 +42,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Assegnare gli utenti a una storia nella bacheca [!UICONTROL Scrum]
+## Assegna utenti a una storia sulla bacheca [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Icona Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Accedete all’iterazione Agile o al progetto che contiene la storyboard in cui desiderate assegnare gli utenti. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
-1. Accedete al riquadro della storia in cui desiderate aggiungere un utente.
-1. Fai clic sull’avatar del team nel riquadro del brano (o su un avatar dell’utente, se ne è già assegnato uno), inizia a digitare il nome dell’utente che desideri assegnare al brano, quindi fai clic sul nome quando viene visualizzato. Puoi anche scegliere un utente suggerito.
+1. Passa all’iterazione o al progetto Agile che contiene la bacheca delle storie in cui desideri assegnare gli utenti. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Passare alla sezione della storia sulla bacheca delle storie in cui si desidera aggiungere un utente.
+1. Fai clic sull’avatar del team nel riquadro del brano (o su un avatar utente, se ne è già stato assegnato uno), inizia a digitare il nome dell’utente che desideri assegnare al brano, quindi fai clic sul nome quando viene visualizzato. Puoi anche scegliere un utente suggerito.
 
    >[!TIP]
    >
-   >Potete anche assegnare un ruolo a un brano. Puoi assegnare solo utenti attivi e ruoli attivi.
+   >Puoi anche assegnare una mansione a una storia. Puoi assegnare solo utenti attivi e ruoli attivi.
 
-   ![Aggiungere un&#39;assegnazione alla scheda brani](assets/addassignmenttostorycard-350x472.png)
+   ![Aggiungi assegnazione alla scheda delle storie](assets/addassignmenttostorycard-350x472.png)

@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Utilizzare la formattazione condizionale nelle viste
-description: Quando condividi i tuoi report con altri utenti in Adobe Workfront, valuta la possibilità di personalizzare la visualizzazione dei report, per facilitare la lettura di determinate informazioni o semplicemente per metterti in risalto.
+description: Quando condividi i tuoi rapporti con altri utenti in Adobe Workfront, prendi in considerazione la possibilità di personalizzare la visualizzazione dei rapporti per semplificare la lettura di determinate informazioni o distinguerti facilmente.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 8%
@@ -17,23 +19,23 @@ ht-degree: 8%
 
 <!-- Audited: 11/2024 -->
 
-Quando condividi i tuoi report con altri utenti in Adobe Workfront, valuta la possibilità di personalizzare la visualizzazione dei report, per facilitare la lettura di determinate informazioni o semplicemente per metterti in risalto.
+Quando condividi i tuoi rapporti con altri utenti in Adobe Workfront, prendi in considerazione la possibilità di personalizzare la visualizzazione dei rapporti per semplificare la lettura di determinate informazioni o distinguerti facilmente.
 
-È possibile personalizzare la scheda Dettagli dei report aggiungendo formattazione speciale o condizionale alla visualizzazione dei report.
+È possibile personalizzare la scheda Dettagli dei rapporti aggiungendo formattazione speciale o condizionale alla visualizzazione dei rapporti.
 
 Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-La formattazione condizionale delle colonne nella visualizzazione del report consente di impostare regole che influiscono sulla visualizzazione del report. Quando tali condizioni o regole sono soddisfatte, viene applicata la formattazione speciale.
+Formattando le colonne in modo condizionale nella visualizzazione del rapporto, è possibile impostare regole che influiscono sulla modalità di visualizzazione del rapporto. Quando tali condizioni o regole vengono soddisfatte, viene applicata la formattazione speciale.
 
-Se, ad esempio, la percentuale di completamento di un&#39;attività è inferiore al 20%, è possibile evidenziare il campo visualizzando il numero di percentuale in grassetto, testo rosso e un colore di sfondo giallo.
+Se ad esempio la percentuale di completamento di un&#39;attività è inferiore al 20%, è possibile evidenziare il campo visualizzando il numero in grassetto, in rosso e con un colore di sfondo giallo.
 
-Con una visualizzazione con formattazione condizionale è possibile:
+Con una vista con formattazione condizionale è possibile:
 
-* Modificare l&#39;intestazione di una colonna.
-* Change the value of a column to customized text or an image.
-* Format the display of a field by changing the font type, color, alignment, or the color of the background.
+* Modifica l’intestazione di una colonna.
+* Modificate il valore di una colonna in testo personalizzato o immagine.
+* Formattare la visualizzazione di un campo modificando il tipo di carattere, il colore, l&#39;allineamento o il colore dello sfondo.
 
-The changes you make in the view of the report take effect only in the Details tab of the report. These changes do not affect the Summary, Matrix, or Chart tabs of the report.
+Le modifiche apportate nella visualizzazione del report hanno effetto solo nella scheda Dettagli del report. Queste modifiche non influiscono sulle schede Riepilogo, Matrice o Grafico del rapporto.
 
 ## Requisiti di accesso
 
@@ -50,13 +52,13 @@ The changes you make in the view of the report take effect only in the Details t
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</strong></td> 
    <td> 
-    <p>Visualizzazione standard o piano per report</p>
-    <p>Contributor or Request for list views</p>
+    <p>Standard o piano per le visualizzazioni dei rapporti</p>
+    <p>Collaboratori o richieste di visualizzazioni elenco</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l'accesso a filtri, viste, raggruppamenti</p> <p>Modificare l’accesso a report, dashboard, calendari per modificare una visualizzazione in un report</p>
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare una visualizzazione in un rapporto</p>
    </td> 
   </tr> 
   <tr> 
@@ -81,19 +83,19 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
 
 {{step1-to-reports}}
 
-1. Click the name of a report where you want to create a conditionally-formatted view
+1. Fare clic sul nome di un report in cui si desidera creare una visualizzazione con formattazione condizionale
 
    Oppure
 
-   Click **New Report**, then select an object type to build a new report.
+   Fai clic su **Nuovo report**, quindi seleziona un tipo di oggetto per generare un nuovo report.
 
-1. (Conditional) If you edit an existing report, click **Report Actions**, then click **Edit**.
+1. (Condizionale) Se modifichi un rapporto esistente, fai clic su **Azioni rapporto**, quindi su **Modifica**.
 
-1. In the **Columns (View)** tab, click to select an existing column, or click **Add Column** to create a column.
-1. In the **Show in this column** field in the upper-left corner of the report builder, select the field you want to display in the new column.
+1. Nella scheda **Colonne (Visualizzazione)**, fare clic per selezionare una colonna esistente oppure fare clic su **Aggiungi colonna** per creare una colonna.
+1. Nel campo **Mostra in questa colonna** nell&#39;angolo superiore sinistro del Report Builder, selezionare il campo che si desidera visualizzare nella nuova colonna.
 1. Fare clic su **Opzioni avanzate**.
 
-1. Specificate le seguenti informazioni:
+1. Specifica le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +103,15 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Etichetta colonna personalizzata</strong></td> 
-      <td> <p>Specify a name for the column.</p> <p>If you are editing an existing column, specifying a name here changes the existing column name.</p> </td> 
+      <td> <p>Specificare un nome per la colonna.</p> <p>Se si sta modificando una colonna esistente, specificando un nome si modifica anche il nome della colonna esistente.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato campo</strong></td> 
-      <td>Scegliete il formato in cui viene visualizzato il valore nella colonna. A seconda del campo colonna, è possibile impostare la modalità di visualizzazione di date, numeri o valuta. Questa opzione non è visualizzata in tutte le colonne.</td> 
+      <td>Scegli il formato in cui viene visualizzato il valore nella colonna. A seconda del campo colonna, questo consente di impostare la visualizzazione di date, numeri o valuta. Questa opzione non è visualizzata in tutte le colonne.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostra questa colonna quando in un dashboard</strong></td> 
-      <td>Selezionare questo campo se si desidera che la colonna venga visualizzata quando il report viene inserito in un dashboard. La colonna viene sempre visualizzata quando si esamina il report all'esterno di un dashboard.</td> 
+      <td>Seleziona questo campo se desideri che la colonna venga visualizzata quando il rapporto viene inserito in un dashboard. La colonna viene sempre visualizzata quando si esamina il rapporto all’esterno di un dashboard.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -122,12 +124,12 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
    </note>
    -->
 
-1. In the **When the:** section, set a condition statement for the column.
+1. Nella sezione **When:**, impostare un&#39;istruzione di condizione per la colonna.
 
-   For example: &quot;when the Task Percent Complete Equals (Case Sensitive) 50.&quot;
-1. In the **Show the field like this:** section specify what this field looks like when the condition defined above is met.
+   Ad esempio: &quot;quando la percentuale di completamento dell&#39;attività è uguale a (distinzione maiuscole/minuscole) 50&quot;.
+1. Nella sezione **Mostra il campo come:** specificare l&#39;aspetto del campo quando viene soddisfatta la condizione definita sopra.
 
-   Specificate le seguenti informazioni:
+   Specifica le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,56 +137,56 @@ Per informazioni sulla creazione di un report, vedere [Creare un report](../../.
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Colore testo</strong></td> 
-      <td> <p>Selezionate il colore in cui il testo viene visualizzato mediante il selettore colore.</p> <p><b>NOTA</b></p> <p> Se il campo contiene un collegamento ipertestuale, le selezioni del colore del testo non vengono applicate a questo campo.</p> </td> 
+      <td> <p>Selezionare il colore in cui il testo viene visualizzato utilizzando il selettore colore.</p> <p><b>NOTA</b></p> <p> Se il campo contiene un collegamento ipertestuale, le selezioni del colore del testo non vengono applicate al campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato testo</strong></td> 
-      <td>Scegliere se visualizzare il testo in grassetto o in corsivo.</td> 
+      <td>Seleziona se visualizzare il testo in grassetto o corsivo.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Allineamento testo</strong></td> 
-      <td>Seleziona se allineare il testo a destra, al centro o a sinistra all’interno della colonna.</td> 
+      <td>Selezionare se allineare il testo a destra, al centro o a sinistra all'interno della colonna.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Informazioni di base</strong></td> 
-      <td>Seleziona il colore dello sfondo per il testo utilizzando il selettore colore.</td> 
+      <td>Selezionare il colore dello sfondo per il testo utilizzando il selettore colore.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostra icona</strong></td> 
-      <td>Selezionate una delle 16 icone disponibili per visualizzare un'icona anziché il valore effettivo della colonna.</td> 
+      <td>Se desideri visualizzare un’icona invece del valore effettivo di questa colonna, selezionala da una delle 16 icone.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostra testo</strong></td> 
-      <td> <p>Selezionare questa opzione per visualizzare un'etichetta personalizzata per la colonna anziché il valore effettivo. Specificate il testo da visualizzare anziché il valore nel campo fornito.</p> <p><b>IMPORTANTE</b></p> <p>La selezione di <strong>Mostra testo</strong> disabilita la possibilità di modificare il testo in linea in questa colonna.<br>Inoltre, non è possibile modificare il valore di una colonna Predecessore perché contiene logica incorporata.</p> </td> 
+      <td> <p>Selezionare questa opzione per visualizzare un'etichetta personalizzata per la colonna anziché il valore effettivo. Specifica il testo da visualizzare al posto del valore nel campo fornito.</p> <p><b>IMPORTANTE</b></p> <p>Se si seleziona <strong>Mostra testo</strong>, non sarà possibile modificare il testo in linea in questa colonna.<br>Inoltre, non è possibile modificare il valore di una colonna Predecessore perché contiene una logica incorporata.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Applica a tutta la riga</strong></td> 
-      <td>Select this option to apply settings to the entire row rather than applying settings to just the selected column.</td> 
+      <td>Selezionare questa opzione per applicare le impostazioni all'intera riga anziché alla sola colonna selezionata.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Add Rule**.\
-   You can add additional rules to the same column, or add rules to other columns.
+1. Fai clic su **Aggiungi regola**.\
+   Puoi aggiungere altre regole alla stessa colonna o ad altre colonne.
 
-   Rules are applied in the order that they were created. They are combined but they do not overwrite each other, though a column rule takes precedence over a row rule on the same cell.
+   Le regole vengono applicate nell&#39;ordine in cui sono state create. Sono combinate ma non si sovrascrivono a vicenda, anche se una regola di colonna ha la precedenza su una regola di riga sulla stessa cella.
 
    **ESEMPIO 1**
 
-   Puoi innanzitutto creare una regola in base alla quale, quando un progetto è impostato sullo stato Edificio, il colore del testo è viola e grassetto. Viene quindi creata una seconda regola che indica che quando il nome di un&#39;attività non è vuoto, il colore del testo è rosso e corsivo e il colore di sfondo è verde. In questo esempio si verifica quanto segue:
+   Innanzitutto, puoi creare una regola in cui si specifichi che quando un progetto è nello Stato di creazione, il colore del testo è viola e grassetto. Viene quindi creata una seconda regola che indica che quando il nome di un&#39;attività non è vuoto, il colore del testo è rosso e corsivo e il colore di sfondo è verde. In questo esempio si verifica quanto segue:
 
-   * Le attività il cui Stato progetto è Generato vengono visualizzate in viola e grassetto. If the task name is not blank, tasks also have a green background.
-   * Tasks whose Project Status is anything other than Building (and the Task Name is not blank) are displayed in a red and italicized text with a green background.
+   * Le attività di cui viene generato lo stato del progetto vengono visualizzate in viola e grassetto. Se il nome dell&#39;attività non è vuoto, le attività hanno anche uno sfondo verde.
+   * Le attività il cui Stato progetto è diverso da Creazione (e il cui Nome attività non è vuoto) vengono visualizzate in un testo rosso e in corsivo con uno sfondo verde.
 
    **ESEMPIO 2**
 
-   Creare una regola nella colonna Data completamento pianificato progetto che influisca sull&#39;intera riga, rendendo lo sfondo grigio se il progetto viene annullato, ad esempio quando lo stato del progetto è Morto. Quindi crea una regola di colonna che renda lo sfondo rosso quando la Data di completamento pianificata del progetto è precedente alla data odierna (ovvero il progetto è in ritardo). In questo esempio, se a un progetto annullato è associata una data di completamento in ritardo, la cella verrà visualizzata in rosso anche se le altre celle nella riga sono grigie. Per correggere questa formattazione:
+   Creare nella colonna Data di completamento pianificata del progetto una regola che influisca sull&#39;intera riga, rendendo grigio lo sfondo se il progetto viene annullato, ad esempio quando lo stato del progetto è Inattivo. Quindi crea una regola di colonna che attivi lo sfondo in rosso quando la Data di completamento pianificata del progetto è inferiore a oggi (ovvero il progetto è in ritardo). In questo esempio, se un progetto annullato presenta una data di completamento in ritardo, tale cella verrà visualizzata in rosso anche se le altre celle nella riga sono grigie. Per correggere questa formattazione:
 
-   * Modifica la formattazione per la data di completamento pianificata ed elimina la regola di colonna per lo sfondo rosso nei progetti in ritardo.
-   * Aggiungi una regola di colonna con la stessa formattazione della regola di riga (sfondo grigio quando Stato progetto = Morto).
+   * Modifica la formattazione per Data di completamento pianificata ed elimina la regola di colonna per lo sfondo rosso sui progetti in ritardo.
+   * Aggiungi una regola di colonna con la stessa formattazione della regola di riga (sfondo grigio quando Stato progetto = Inattivo).
    * Aggiungi nuovamente la regola di colonna per lo sfondo rosso nei progetti in ritardo.
-   * Quando salvi le regole e la vista, lo sfondo rosso non viene applicato a un progetto annullato.
+   * Quando salvi le regole e la visualizzazione, lo sfondo rosso non viene applicato a un progetto annullato.
 
 1. Fai clic su **Salva**.
 1. Fai clic su **Salva e Chiudi**.\
-   Nel report, gli utenti visualizzano le modifiche apportate al formato se sono state soddisfatte le condizioni specificate.
+   Nel report, gli utenti visualizzano le modifiche al formato se sono state soddisfatte le condizioni specificate.

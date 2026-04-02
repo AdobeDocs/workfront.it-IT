@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -36,7 +38,7 @@ Le modifiche apportate nelle preferenze del sistema hanno un impatto su tutti gl
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +49,7 @@ Le modifiche apportate nelle preferenze del sistema hanno un impatto su tutti gl
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -103,7 +105,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
         <li>Calendario</li>
        </ul><p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>Importante</b>: se questa opzione è disabilitata, il livello di accesso per gli utenti esterni non è disponibile nell'istanza di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Livelli di accesso incorporati</a>.</p> </td> 
      </tr> 
-     <!--<tr> 
+     <!--
+     <tr> 
       <td role="rowheader">Require external users to register with a password</td> 
       <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
@@ -114,7 +117,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr> -->
+     </tr>
+     -->
      <tr> 
       <td role="rowheader">Help URL</td> 
       <td>Consente di definire un sito di assistenza personalizzato interno in cui l’icona Help (Guida) del Main Menu (Menu principale) può essere visualizzata. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurare un URL della Guida personalizzato</a>.</p></td> 
@@ -137,7 +141,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
-      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente Sandbox di anteprima di Adobe Workfront</a>.</p></td> 
+      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente sandbox di anteprima di Adobe Workfront</a>.</p></td> 
     </tbody> 
    </table>
 

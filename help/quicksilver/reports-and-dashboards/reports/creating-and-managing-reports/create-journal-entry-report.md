@@ -5,7 +5,9 @@ author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2763'
 ht-degree: 6%
@@ -56,7 +58,7 @@ Il rapporto Voce diario può mostrare:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Visualizzare le autorizzazioni per gli oggetti che contengono le scritture contabili visualizzate nel report</p> <p>Dopo averlo creato, otterrai le autorizzazioni Gestisci per il report</p> </td> 
+   <td> <p>Visualizza le autorizzazioni per gli oggetti che contengono le voci diario visualizzate nel report</p> <p>Dopo la creazione, otterrai le autorizzazioni di gestione per il report</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,9 +75,9 @@ Prima di poter eseguire le azioni descritte in questo articolo, è necessario ve
 
   Per informazioni su come aggiungere i campi di cui si desidera tenere traccia in Workfront, vedere [Configurare gli aggiornamenti di sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-## Panoramica del rapporto Scrittura contabile
+## Panoramica del rapporto Voce diario
 
-Poiché il rapporto Scrittura contabile esegue una query sugli aggiornamenti di sistema, può restituire un numero significativo di risultati. Per questo motivo, durante la creazione del report è consigliabile applicare un filtro a oggetti specifici, ad esempio progetti, programmi, portfolio, gruppi e così via.
+Poiché il report Voce diario esegue query sugli aggiornamenti di sistema, può restituire un numero significativo di risultati. Per questo motivo, è consigliabile filtrare in base a oggetti specifici, ad esempio progetti, programmi, portfolio, gruppi e così via, durante la creazione del report.
 
 Per ulteriori informazioni sui diversi tipi di oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -96,8 +98,8 @@ La visualizzazione predefinita per questo report contiene le colonne seguenti:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Nome campo</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Nome del campo interessato. A seconda della modalità di impostazione del report, questa colonna potrebbe contenere i campi Stato, ID proprietario, Nome attività, Data completamento pianificata o altri campi.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
+   <td><strong>Nome Campo</strong> </td> 
+   <td> <p><span style="font-weight: normal;">Nome del campo interessato. A seconda della modalità di impostazione del report, questa colonna potrebbe contenere i campi Stato, ID proprietario, Nome attività, Data di completamento pianificata o altri campi.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Tipo di modifica</strong> </td> 
@@ -201,8 +203,8 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
       <td> <p>Chiave per lo stato precedente. Di seguito sono riportate le chiavi di stato per gli stati predefiniti del progetto:</p> 
        <ul> 
         <li> <p> <strong>CUR</strong>: corrente</p> </li> 
-        <li> <p><strong>DED</strong>: Morto</p> </li> 
-        <li> <p><strong>ONH</strong>: in attesa</p> </li> 
+        <li> <p><strong>DED</strong>: inattivo</p> </li> 
+        <li> <p><strong>ONH</strong>: In attesa</p> </li> 
         <li> <p><strong>PLN</strong>: pianificazione</p> </li> 
         <li> <p><strong>CPL</strong>: completato</p> </li> 
         <li> <p><strong>RICHIESTA</strong>: richiesta</p> </li> 
@@ -304,10 +306,10 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data inserimento</p> </td> 
-      <td> <p>Data in cui è stata eliminata l'attività o il problema.</p> </td> 
+      <td> <p>La data in cui l’attività o il problema è stato eliminato.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modificato per nome</p> </td> 
+      <td> <p style="font-weight: bold;">Modificato da Nome</p> </td> 
       <td> <p>Nome dell’utente che ha eliminato l’attività o il problema.</p> </td> 
      </tr> 
      <tr> 
@@ -324,8 +326,10 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
    * **Cambia tipo** > **Uguale** > **Elimina**
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**
 
-     <!--WRITER check link; this png file has spaces
-     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     <!--
+     WRITER check link; this png file has spaces
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     -->
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -518,23 +522,23 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome attività</p> <p>(Facoltativo)</p> </td> 
-      <td> <p>Nome delle attività del progetto per le quali è stata modificata la data di completamento pianificata.</p> </td> 
+      <td> <p>Nome delle attività del progetto per le quali è stata modificata la Data di completamento pianificata.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome Issue</p> <p>(Facoltativo)</p> </td> 
-      <td>Nome dei problemi del progetto per i quali è stata modificata la data di completamento pianificata.</td> 
+      <td>Nome dei problemi del progetto per i quali è stata modificata la Data di completamento pianificata.</td> 
      </tr> 
     </tbody> 
    </table>
 
    Per ulteriori informazioni sull&#39;aggiunta di colonne, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Nella scheda **Filtri**, fare clic su **Aggiungi regola filtro**, quindi aggiungere quanto segue:
+1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
 
    * **Nome Campo** > **Uguale** > **Data**
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
-   ![Filtro di modifica della data di completamento pianificata](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtro modifica data di completamento pianificata](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -645,4 +649,4 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
 1. Fai clic su **Salva e Chiudi**.
 
-   Viene visualizzato il report delle nuove scritture contabili.
+   Viene visualizzato il nuovo rapporto sulle scritture contabili.

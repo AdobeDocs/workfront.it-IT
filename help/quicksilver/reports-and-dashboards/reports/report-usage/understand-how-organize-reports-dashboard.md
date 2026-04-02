@@ -7,7 +7,9 @@ description: Puoi vedere se un rapporto viene aggiunto a una dashboard in Adobe 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 9%
@@ -16,20 +18,20 @@ ht-degree: 9%
 
 # Come organizzare i rapporti su un dashboard
 
-## Accesso alle informazioni del dashboard in un elenco di report
+## Accedere alle informazioni del dashboard in un elenco di report
 
-Potete vedere se un report viene aggiunto a una dashboard in Adobe Workfront. Ciò può risultare utile quando si decide quali rapporti è possibile conservare e quali eliminare dal sistema. Se i report si trovano nei dashboard, gli utenti potrebbero comunque fare affidamento su di essi. Si consiglia di non eliminare i report elencati nei dashboard utilizzati dagli utenti.\
-Per ulteriori informazioni sull&#39;aggiunta di report ai dashboard, vedere l&#39;articolo [Aggiungere un report a un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
+Puoi vedere se un rapporto viene aggiunto a una dashboard in Adobe Workfront. Ciò può essere utile quando si decide quali rapporti è possibile mantenere e quali possono essere eliminati dal sistema. Se i rapporti si trovano su dashboard, gli utenti potrebbero ancora fare affidamento su di essi. È consigliabile non eliminare i rapporti elencati nelle dashboard utilizzate dagli utenti.\
+Per ulteriori informazioni sull&#39;aggiunta di report alle dashboard, vedere l&#39;articolo [Aggiungere un report a una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
 
-Per verificare se un report viene aggiunto a un dashboard, eseguire una delle operazioni seguenti:
+Per verificare se un rapporto viene aggiunto a un dashboard, eseguire una delle operazioni seguenti:
 
-* Creazione di una visualizzazione per un elenco di report e inclusione delle informazioni del dashboard nelle colonne
-* Filtraggio di un elenco di report in base a uno o più dashboard specifici che si è certi siano utilizzati attivamente
+* Creazione di una visualizzazione per un elenco di rapporti e inclusione delle informazioni del dashboard nelle colonne
+* Filtrare un elenco di rapporti in base a uno o più dashboard specifici che sai di essere utilizzati attivamente
 * Creazione di un report per l&#39;oggetto report e utilizzo di una visualizzazione o di un filtro che includa le informazioni del dashboard
 
 Chiunque può creare una vista o un filtro, ma per creare un rapporto è necessario disporre dell&#39;accesso in modifica ai rapporti nel proprio livello di accesso.\
 Per ulteriori informazioni sull&#39;accesso ai report, vedere l&#39;articolo [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).\
-Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [Creazione di un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Requisiti di accesso
 
@@ -55,7 +57,7 @@ Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p></td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,26 +70,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 >[!WARNING]
 >
->L’inclusione della colonna Dashboard in un elenco di report può aumentare notevolmente i tempi di caricamento, in particolare per gli elenchi di report lunghi.
+>L’inclusione della colonna Dashboard in un elenco di rapporti può aumentare notevolmente i tempi di caricamento, in particolare per gli elenchi di rapporti lunghi.
 
-Per creare una visualizzazione con informazioni sul dashboard per un elenco di report:
+Per creare una vista con le informazioni del dashboard per un elenco di report:
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Report**.
-1. Nell&#39;elenco dei report, fare clic sul menu a discesa **Visualizza**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
+1. Nell&#39;elenco dei report fare clic sul menu a discesa **Visualizza**.
 1. Fare clic su **Nuova visualizzazione**.
 1. Fai clic su **Aggiungi colonna**.
 1. Inizia a digitare &quot;Dashboard&quot; nel campo **Inizia a digitare il nome del campo**.
-1. Nell&#39;oggetto **Report**, seleziona **Dashboard**.
+1. Nell&#39;oggetto **Report**, selezionare **Dashboard**.
 
 1. Fai clic su **Salva vista**.\
-   I dashboard in cui viene visualizzato un report nella colonna Dashboard dell’elenco dei report.\
+   Le dashboard in cui viene visualizzato un report vengono visualizzate nella colonna Dashboard dell’elenco dei report.\
    ![Dashboard nel report](assets/qs-dashboards-in-report-view.png)
 
-## Filtrare un elenco di report in base alle informazioni del dashboard
+## Filtrare un elenco di rapporti in base alle informazioni del dashboard
 
-Per filtrare un elenco di report in base alle informazioni del dashboard:
+Per filtrare un elenco di rapporti in base alle informazioni del dashboard:
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Report**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 
 1. Nell&#39;elenco dei report fare clic sul menu a discesa **Filtro**.
 1. Fai clic su **Nuovo filtro**, quindi fai clic su **Aggiungi una regola filtro**.
@@ -96,7 +98,7 @@ Per filtrare un elenco di report in base alle informazioni del dashboard:
 
 1. Nell&#39;oggetto **Dashboards**, selezionare **Name**.
 
-1. Selezionare **Uguale a** nel menu a discesa del modificatore, quindi iniziare a digitare il nome del dashboard in base al quale si desidera filtrare. Puoi selezionare più dashboard per il filtro.\
+1. Seleziona **Uguale** nel menu a discesa del modificatore, quindi inizia a digitare il nome del dashboard in base al quale desideri filtrare. Puoi selezionare più dashboard per il filtro.\
    ![Dashboard nei filtri dei report](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Fai clic su **Salva e Chiudi**.\

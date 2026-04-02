@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Merge Information from Multiple Columns in One Shared Column'
-description: You can merge the information that displays in multiple separate columns and display it in one shared column.
+title: 'Visualizzazione: unire informazioni da più colonne in una colonna condivisa'
+description: È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 4%
@@ -18,7 +20,7 @@ ht-degree: 4%
 
 <!-- Audited: 11/2024 -->
 
-You can merge the information that displays in multiple separate columns and display it in one shared column.
+È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
 
 ## Requisiti di accesso
 
@@ -40,11 +42,11 @@ You can merge the information that displays in multiple separate columns and dis
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,19 +61,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 * È possibile unire due colonne adiacenti e visualizzare le informazioni di ciascuna colonna separate da un&#39;interruzione di riga oppure unire le informazioni in due colonne adiacenti senza separatori tra le informazioni di ciascuna colonna.
 * È possibile unire le informazioni di più colonne applicando la stessa sintassi descritta in questo articolo a una colonna già condivisa e a una adiacente.
 * La riga `valueformat=HTML` è obbligatoria in una colonna condivisa. In caso contrario, le colonne non contengono informazioni (saranno vuote) quando il rapporto viene esportato da Adobe Workfront.
-* Conditional formatting may not be supported in merged columns.
+* La formattazione condizionale potrebbe non essere supportata nelle colonne unite.
 
-  The following exceptions exist:
+  Esistono le seguenti eccezioni:
 
-   * When viewing information in Workfront, the formatting of the first column is kept and the formatting for all other columns is ignored if the columns that make up a merged column have different formatting from one another,.
-   * When exporting the view to a PDF file, conditional formatting applies to the first column in a merged column.
+   * Quando si visualizzano le informazioni in Workfront, la formattazione della prima colonna viene mantenuta e la formattazione di tutte le altre colonne viene ignorata se le colonne che compongono una colonna unita hanno una formattazione diversa,.
+   * Quando si esporta la visualizzazione in un file PDF, la formattazione condizionale viene applicata alla prima colonna di una colonna unita.
    * Quando si esporta la visualizzazione in un file Excel, le colonne unite vengono visualizzate come colonne separate. Le singole colonne visualizzano anche le rispettive regole di formattazione condizionale.
 
-* Columns with the **viewalias** attribute can limit the amount of columns that you can merge. To avoid these limits, avoid using the **viewalias** attribute. If you must include the **viewalias** attribute in a column, make sure that it is the last item listed in the column.
+* Le colonne con l&#39;attributo **viewalias** possono limitare la quantità di colonne che è possibile unire. Per evitare questi limiti, evitare di utilizzare l&#39;attributo **viewalias**. Se devi includere l&#39;attributo **viewalias** in una colonna, accertati che sia l&#39;ultimo elemento elencato nella colonna.
 
-* If you export a list with shared columns to an Excel or Tab Delimited format, these columns are separated out in the exported file.
+* Se si esporta un elenco con colonne condivise in un formato Excel o delimitato da tabulazioni, queste colonne vengono separate nel file esportato.
 
-* When one or both of the columns display a `tile` type field, a forced line-break is automatically introduced in the merged column. For example, Text Fields with Formatting are `tile` type fields. In this case, there is a line code of `type=tile` when viewing the columns in Text Mode.
+* Quando una o entrambe le colonne visualizzano un campo di tipo `tile`, nella colonna unita viene automaticamente introdotta un&#39;interruzione di riga forzata. I campi di testo con formattazione, ad esempio, sono campi di tipo `tile`. In questo caso, il codice di riga `type=tile` è presente quando si visualizzano le colonne in modalità testo.
 
 ## Unisci dati da due colonne senza interruzione di riga
 
@@ -79,9 +81,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 >[!TIP]
 >
->Questo approccio è consigliato quando si uniscono due colonne che non possono mai visualizzare contemporaneamente un valore per lo stesso record. Ad esempio, in un rapporto Elemento di lavoro è possibile unire le colonne Nome problema e Nome attività senza un&#39;interruzione di riga tra di esse, in quanto un elemento di lavoro non può mai avere contemporaneamente un Nome problema e un Nome attività. Un elemento di lavoro può essere un problema o un&#39;attività in Workfront.
+>Questo approccio è consigliato quando si uniscono due colonne che non possono mai mostrare un valore per lo stesso record contemporaneamente. Ad esempio, in un rapporto Elemento di lavoro, è possibile unire le colonne Nome problema e Nome attività senza un&#39;interruzione di riga tra di esse perché un elemento di lavoro non può mai avere contemporaneamente un nome problema e un nome attività. Un elemento di lavoro può essere un problema o un’attività in Workfront.
 
-Per unire i dati di due colonne senza un&#39;interruzione di riga:
+Per unire i dati di due colonne senza interruzioni di riga:
 
 1. Consente di passare a un elenco di oggetti.
 1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare la visualizzazione.
@@ -94,10 +96,10 @@ Per unire i dati di due colonne senza un&#39;interruzione di riga:
 
    È necessario anteporre al numero di colonna della prima colonna il numero di tale colonna. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell&#39;elenco o del report etichettato come `column.0.`.
 
-   If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column.
+   Se condividi più colonne, assicurati di aggiungere il numero di colonna nelle righe di codice che contengono le informazioni di condivisione per ciascuna colonna.
 
 
-   **EXAMPLE:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project Name, Planned Start Date, and Project Owner&#39;s name and there is no break between the three values:
+   **ESEMPIO:** Di seguito è riportato il codice in modalità testo per una colonna unita che contiene tre colonne separate, a partire dalla seconda colonna dell&#39;elenco. I valori uniti sono Nome progetto, Data inizio pianificata e Nome del proprietario del progetto e non vi è alcuna interruzione tra i tre valori:
 
    ```
    column.1.valuefield=name
@@ -110,18 +112,18 @@ Per unire i dati di due colonne senza un&#39;interruzione di riga:
    column.3.valueformat=HTML
    ```
 
-   ![Shared column with no line breaks](assets/shared-column-no-line-breaks-350x142.png)
+   ![Colonna condivisa senza interruzioni di riga](assets/shared-column-no-line-breaks-350x142.png)
 
 
-1. Fai clic su **Fine**, quindi su **Salva vista**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
 
 ## Unisci dati da due colonne con un’interruzione di riga
 
 Per unire i dati di più colonne in modo da visualizzarli in una colonna comune con un&#39;interruzione di riga tra i valori di ciascuna colonna, eseguire le operazioni seguenti:
 
 1. Consente di passare a un elenco di oggetti.
-1. Dal menu a discesa **Visualizza**, selezionare una visualizzazione, quindi fare clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) per modificare la visualizzazione.
-1. Aggiungete una terza colonna tra le due colonne da unire.
+1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare la visualizzazione.
+1. Aggiungere una terza colonna tra le due colonne che si desidera unire.
 
    >[!TIP]
    >
@@ -145,9 +147,9 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
 
    Se la colonna combinata si trova al centro della vista, le colonne vengono numerate in base alla loro posizione nella vista. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell&#39;elenco o del report etichettato come `column.0.`.
 
-   If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information.
+   Se condividi più di una colonna, assicurati di aggiungere il numero della colonna nelle righe di codice che contengono le informazioni di condivisione.
 
-   **EXAMPLE:** The following is the text mode code for a shared column that contains Project Name, Planned Start Date, and Project Owner&#39;s name with a line break. The shared column is the second column of a project view.
+   **ESEMPIO:** Di seguito è riportato il codice in modalità testo per una colonna condivisa contenente il nome del progetto, la data di inizio pianificata e il nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
 
    ```
    column.1.displayname=Project_StartDate_Owner
@@ -171,6 +173,6 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    column.5.valueformat=HTML 
    ```
 
-   ![Shared column with line breaks](assets/shared-column-with-line-breaks-350x199.png)
+   ![Colonna condivisa con interruzioni di riga](assets/shared-column-with-line-breaks-350x199.png)
 
-1. Fai clic su **Fine**, quindi su **Salva vista**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.

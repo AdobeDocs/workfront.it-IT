@@ -6,10 +6,12 @@ description: È possibile pianificare le risorse per un singolo progetto per ind
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 10%
+ht-degree: 25%
 
 ---
 
@@ -32,7 +34,7 @@ ht-degree: 10%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -42,12 +44,12 @@ ht-degree: 10%
     <ul> 
      <li> <p>Gestione risorse</p> </li> 
      <li> <p>Progetti</p> </li> 
-     <li> <p>Attività</p> </li> 
+     <li> <p>Tasks</p> </li> 
      <li> <p>Problemi</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute o superiori per progetti, attività e problemi </p>  </td> 
   </tr> 
  </tbody> 
@@ -57,7 +59,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 You must have the following access to perform the steps in this article:
 
@@ -88,7 +91,8 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pianificare le risorse per un progetto
 
@@ -100,6 +104,6 @@ You must have the following access to perform the steps in this article:
    Per informazioni sulla programmazione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedi i seguenti articoli:
 
    * [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
-   * [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+   * [Gestire le allocazioni degli utenti nel bilanciamento dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 

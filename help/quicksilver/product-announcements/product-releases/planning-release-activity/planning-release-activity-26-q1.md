@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
-title: Attività della versione del primo trimestre 2026 per Adobe Workfront Planning
+title: Attività sul rilascio del primo trimestre 2026 di Pianificazione di Adobe Workfront
 description: Questa è l’attività di rilascio per il prodotto Adobe Workfront Planning per il primo trimestre 2026.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Attività della versione del primo trimestre 2026 per Adobe Workfront Planning
+# Attività sul rilascio del primo trimestre 2026 di Pianificazione di Adobe Workfront
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del primo trimestre 2026.
 
@@ -28,9 +30,9 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 15 gennaio 2026
->Versione rapida di produzione: 15 gennaio 2026
+>Rilascio rapido in produzione: 15 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
->[!BADGE Fuori programma]{type=Neutral}
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 È ora possibile condividere i tipi di record globali aggiunti a un&#39;area di lavoro secondaria da tale area di lavoro. Gli utenti riceveranno inoltre le stesse autorizzazioni per tutti i record nell&#39;area di lavoro secondaria condivisa.
 
@@ -48,9 +50,9 @@ Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di la
 >[!NOTE]
 >
 >Anteprima: 15 gennaio 2026
->Versione rapida di produzione: 15 gennaio 2026
+>Rilascio rapido in produzione: 15 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
->[!BADGE Fuori programma]{type=Neutral}
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 I record aggiunti a un tipo di record globale in un&#39;area di lavoro secondaria sono visibili solo da tale area di lavoro o dall&#39;area di lavoro principale originale del tipo di record. Prima di questo aggiornamento, i record aggiunti a un&#39;area di lavoro secondaria erano visibili anche da altre aree di lavoro secondarie per le quali si disponeva di autorizzazioni di visualizzazione.
 
@@ -60,8 +62,8 @@ Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di la
 
 >[!NOTE]
 >
->Anteprima: 23 dicembre 2025
->Versione rapida di produzione: 14 gennaio 2026
+>Anteprima: mercoledì 23 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
 
 È ora possibile definire gerarchie flessibili ma strutturate tra tipi di record o di oggetti.
@@ -84,8 +86,8 @@ Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrum
 
 >[!NOTE]
 >
->Anteprima: 23 dicembre 2025
->Versione rapida di produzione: 14 gennaio 2026
+>Anteprima: mercoledì 23 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
 
 Quando si creano gerarchie tra tipi di record, vengono generate breadcrumb per i record che appartengono a tali tipi di record.
@@ -101,7 +103,7 @@ Per informazioni, vedere [Panoramica della gerarchia e delle breadcrumb](/help/q
 
 >[!NOTE]
 >
->Anteprima: 19 dicembre 2025
+>Anteprima: sabato 19 dicembre 2025
 >Velocità di produzione: 14 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
 
@@ -119,10 +121,10 @@ Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/he
 >[!NOTE]
 >
 >Anteprima: 18 dicembre 2025
->Versione rapida di produzione: 14 gennaio 2026\
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
-Per essere certi di visualizzare le informazioni necessarie in modo più semplice, è stata aggiunta la possibilità di condividere le visualizzazioni nella pagina dei record Progetti connessi. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi.
+Per essere certi di visualizzare le informazioni necessarie in modo più semplice, è stata aggiunta la possibilità di condividere le visualizzazioni nella pagina dei record Progetti connessi. Ora puoi condividere le viste con altri utenti, team o gruppi.
 
 Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -131,14 +133,14 @@ Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/he
 >[!NOTE]
 >
 >Anteprima: 18 dicembre 2025
->Versione rapida di produzione: 14 gennaio 2026\
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
-Per facilitare il filtraggio delle connessioni dei progetti a te applicabili, è stato creato un carattere jolly per l&#39;utente corrente. Ora, quando si filtra, è possibile selezionare &quot;Me (logged in user)&quot; (Io utente connesso). Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco delle richieste.
+Per facilitare il filtraggio delle connessioni dei progetti a te applicabili, è stato creato un carattere jolly per l&#39;utente corrente. Ora, quando applichi un filtro, puoi selezionare “Me (utente connesso)”. Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco delle richieste.
 
-Questa funzione può risultare utile quando si aggiunge un filtro a una visualizzazione che verrà utilizzata da più utenti. Ogni utente visualizzerà i risultati dei filtri ad esso applicabili.
+Questa funzione può essere utile quando aggiungi un filtro a una vista che verrà utilizzata da più utenti. Ciascun utente visualizzerà i risultati dei filtri che lo riguardano.
 
-Il carattere jolly è disponibile nei campi in cui il valore è un utente.
+Il carattere jolly è disponibile nei campi in cui il valore corrisponde a un utente.
 
 Per ulteriori informazioni sulla configurazione delle visualizzazioni delle connessioni al progetto, inclusi i filtri, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -163,7 +165,7 @@ Sono stati apportati i seguenti miglioramenti alla pagina principale delle aree 
 
 * La scheda **Altre aree di lavoro** è stata rinominata **Tutte le aree di lavoro** e include tutte le aree di lavoro per le quali si dispone almeno delle autorizzazioni di visualizzazione, incluse quelle create dall&#39;utente.
 
-Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
 ## Aggiunta del campo Connessione marchio a Prodotti e utenti tipo per impostazione predefinita nell’area di lavoro di GenStudio
@@ -171,9 +173,9 @@ Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/ar
 >[!NOTE]
 >
 >Anteprima: 11 dicembre 2025
->Versione rapida di produzione: 11 dicembre 2025
+>Rilascio rapido in produzione: 11 dicembre 2025
 >Produzione per tutti: 11 dicembre 2025
->[!BADGE Fuori programma]{type=Neutral}
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Il campo di connessione con il marchio GenStudio for Performance Marketing viene ora aggiunto per impostazione predefinita ai tipi di record Prodotti e utenti tipo nell’area di lavoro GenStudio di Workfront Planning.
 
@@ -188,9 +190,9 @@ Per informazioni, vedere [Introduzione all&#39;integrazione di Adobe Workfront P
 >[!NOTE]
 >
 >Anteprima: 11 dicembre 2025
->Versione rapida di produzione: 11 dicembre 2025
+>Rilascio rapido in produzione: 11 dicembre 2025
 >Produzione per tutti: 11 dicembre 2025
->[!BADGE Fuori programma]{type=Neutral}
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 È stato aggiunto un guardrail che impedisce la rimozione delle autorizzazioni degli utenti di GenStudio for Performance Marketing dagli oggetti di Workfront Planning. Grazie a questo miglioramento, non sarà più possibile rimuovere gli utenti di GenStudio dall&#39;area di lavoro di GenStudio in Planning, né disabilitare le autorizzazioni ereditate per i tipi di record nell&#39;area di lavoro di GenStudio, se tali autorizzazioni includono gli utenti di GenStudio. Prima di questo miglioramento, se rimuovessi questi utenti dall’area di lavoro di GenStudio in Planning, perderebbero le autorizzazioni per i tipi di record anche in GenStudio.
 
@@ -204,8 +206,8 @@ Per informazioni, vedere [Introduzione all&#39;integrazione di Adobe Workfront P
 
 >[!NOTE]
 >
->Anteprima: 3 dicembre 2025
->Versione rapida di produzione: 4 dicembre 2025
+>Anteprima: giovedì 3 dicembre 2025
+>Rilascio rapido in produzione: venerdì 4 dicembre 2025
 >Produzione per tutti: 15 gennaio 2026
 
 
@@ -219,7 +221,7 @@ Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Anteprima: 13 novembre 2025
->Versione rapida di produzione: 13 novembre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
 >Produzione per tutti: 13 novembre 2025
 
 È ora possibile collegare i tipi di record di Workfront Planning ai Marchi di Adobe GenStudio for Performance Marketing. La tua organizzazione deve avere sia Workfront Planning che Adobe GenStudio for Performance Marketing.
@@ -232,7 +234,7 @@ Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/p
 >[!NOTE]
 >
 >Anteprima: 6 novembre 2025
->Versione rapida di produzione: 11 dicembre 2025
+>Rilascio rapido in produzione: 11 dicembre 2025
 >Produzione per tutti: 15 gennaio 2026
 
 È ora possibile cercare un campo specifico durante la creazione di un elemento di visualizzazione in una visualizzazione del tipo di record. Sono state aggiunte caselle di ricerca quando si crea un filtro, si ordina, si raggruppa o quando si configurano i campi o i colori delle righe. Prima di questo miglioramento, era sufficiente scorrere l’elenco dei campi disponibili.
@@ -246,8 +248,8 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 
 >[!NOTE]
 >
->Anteprima: 16 ottobre 2025
->Versione rapida di produzione: 13 novembre 2025
+>Anteprima: venerdì 16 ottobre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
 >Produzione per tutti: 15 gennaio 2026
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
@@ -264,14 +266,14 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Configurare le funzionalità tra aree di lavoro diverse per il tipo di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-* [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [Aggiungere tipi di record esistenti da un’altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
 ## Nuovo limite per i campi di connessione per un tipo di record
 
 >[!NOTE]
 >
->Anteprima: 16 ottobre 2025
->Versione rapida di produzione: 13 novembre 2025
+>Anteprima: venerdì 16 ottobre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
 >Produzione per tutti: 15 gennaio 2026
 
 È stato introdotto un limite di 30 campi di connessione per ogni tipo di record.
@@ -284,8 +286,8 @@ Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/hel
 
 >[!NOTE]
 >
->Anteprima: 16 ottobre 2025
->Versione rapida di produzione: 13 novembre 2025
+>Anteprima: venerdì 16 ottobre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
 >Produzione per tutti: 15 gennaio 2026
 
 Quando si aggiungono scelte di campo a un campo a selezione singola o multipla, Workfront assegnerà valori univoci di facile utilizzo a ciascuna scelta. Prima di questo miglioramento, Workfront generava un ID alfanumerico difficile da comprendere e utilizzare nelle chiamate API e in altre integrazioni.

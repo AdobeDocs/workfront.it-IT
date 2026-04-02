@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: visualizzare solo gli elementi con stato di approvazione'
-description: È possibile visualizzare solo gli elementi in un determinato stato attualmente in attesa di approvazione. Funziona allo stesso modo per qualsiasi altro oggetto con uno stato di approvazione.
+description: È possibile visualizzare solo gli elementi con un determinato stato attualmente in In attesa di approvazione. Funziona allo stesso modo per qualsiasi altro oggetto con uno stato di approvazione.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 22%
@@ -18,7 +20,7 @@ ht-degree: 22%
 
 <!--Audited: 10/2024-->
 
-È possibile visualizzare solo gli elementi in un determinato stato attualmente in attesa di approvazione. Funziona allo stesso modo per qualsiasi altro oggetto con uno stato di approvazione.
+È possibile visualizzare solo gli elementi con un determinato stato attualmente in In attesa di approvazione. Funziona allo stesso modo per qualsiasi altro oggetto con uno stato di approvazione.
 
 È possibile inserire i seguenti oggetti in uno stato di approvazione:
 
@@ -42,15 +44,15 @@ ht-degree: 22%
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di un filtro </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,17 +61,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Visualizza solo gli articoli nello stato di approvazione
+## Visualizza solo gli elementi nello stato di approvazione
 
-1. Vai a un elenco di progetti.
-1. Dal menu a discesa **Filtro**, seleziona **Nuovo filtro**.
-1. Scegliere di filtrare in base a **Progetto: Stato**, quindi selezionare lo stato in base al quale si desidera filtrare dall&#39;elenco.
+1. Consente di passare a un elenco di progetti.
+1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
+1. Scegli di filtrare per **Progetto: Stato**, quindi seleziona dall&#39;elenco lo stato in base al quale desideri filtrare.
 
-   Ad esempio, in un report di progetto, aggiungere **Stato uguale pianificazione**, se si desidera visualizzare solo i progetti con stato **Pianificazione - In attesa di approvazione**.
-1. Fai clic su **Modalità testo**.
-1. Modifica la riga `status` aggiungendo **:A** alla chiave a 3 lettere dello stato:
+   In un report di progetti, ad esempio, aggiungere **Stato uguale a pianificazione** se si desidera visualizzare solo i progetti con stato **Pianificazione - In attesa di approvazione**.
+1. Fare clic su **Modalità testo**.
+1. Modificare la riga `status` aggiungendo **:A** alla chiave di 3 lettere dello stato:
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. Fai clic su **Applica** > **Salva come nuovo**.
 
-   Nell&#39;elenco vengono visualizzati solo i progetti con stato Pianificazione - Approvazione in sospeso.
+   Nell&#39;elenco vengono visualizzati solo i progetti con stato Pianificazione - In attesa di approvazione.

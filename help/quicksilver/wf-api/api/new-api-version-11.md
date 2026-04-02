@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 11 dell’API
+title: Novità nella versione API 11
 description: ReportableBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa per la generazione di rapporti. Sono disponibili campi di riferimento, campi core e campi predefiniti assenti in OraPreventivata.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Novità della versione 11 dell’API
+# Novità nella versione API 11
 
 * [Risorse aggiunte](#added-resources)
 * [Risorse rimosse](#removed-resources)
@@ -40,9 +42,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -81,9 +85,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -211,7 +219,7 @@ ReportableBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa
    <td>Operazioni</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">COUNT</li> 
+     <li style="font-weight: bold;">CONTEGGIO</li> 
      <li style="font-weight: bold;">GET</li> 
      <li style="font-weight: bold;">RAPPORTO </li> 
      <li style="font-weight: bold;">SEARCH</li> 
@@ -277,7 +285,8 @@ Nessuna risorsa rimossa per API v11.
      <li><a href="#templateassignment" class="MCXref xref">AssegnazioneModello</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">AttivitàModello</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Scheda orario</a> </li> 
-     <li><a href="#update" class="MCXref xref">Aggiorna</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Aggiorna</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">NotaUtente</a> </li> 
@@ -321,7 +330,7 @@ Se un utente non ha accesso a un oggetto in Workfront di cui ha bisogno, può ri
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">azione</p> <p>È stato aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.  </p> </li> 
+     <li> <p style="font-weight: bold;">action</p> <p>È stato aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -349,7 +358,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
 
 ### Approvazione {#approval}
 
-Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un’attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l’elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -438,7 +447,7 @@ Un oggetto ApprovalProcess è un&#39;approvazione in più passaggi che può esse
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -499,7 +508,7 @@ Un oggetto Category è un modulo personalizzato. È possibile creare report per 
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,7 +533,7 @@ Un oggetto Company rappresenta un&#39;organizzazione costituita da un insieme di
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -580,7 +589,8 @@ Un oggetto Customer rappresenta un&#39;organizzazione che utilizza un&#39;istanz
        <li style="font-weight: normal;">CONDITION_OPTASK (condizioni problema)  </li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -604,9 +614,11 @@ Un oggetto Customer rappresenta un&#39;organizzazione che utilizza un&#39;istanz
 
 Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate da un cliente per l&#39;istanza di Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -639,7 +651,7 @@ Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate
    <td>Azioni</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>getMetadataDetailsForDocument</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>getMetadataDetailsForDocument</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -689,7 +701,7 @@ Un oggetto Iteration rappresenta una singola iterazione Agile. Le iterazioni son
  </tbody> 
 </table>
 
-### Modello di layout {#layout-template}
+### Modello layout {#layout-template}
 
 Un oggetto modello di layout rappresenta una particolare disposizione di elementi layout, ad esempio il menu principale, il pannello di navigazione o l&#39;area Home. I modelli di layout possono essere assegnati a utenti, team, gruppi o mansioni.
 
@@ -708,7 +720,7 @@ Un oggetto modello di layout rappresenta una particolare disposizione di element
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>showHomeTimestamps</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>showHomeTimestamps</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -733,7 +745,7 @@ Una milestone è un indicatore di un&#39;attività che indica che si tratta di u
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -758,7 +770,7 @@ Un oggetto Note è un commento o un aggiornamento effettuato su un oggetto Workf
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>piace</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>piace</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -791,7 +803,7 @@ Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di 
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -805,7 +817,7 @@ Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di 
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>percentComplete</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>percentComplete</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -877,7 +889,7 @@ Un oggetto Program è un sottoinsieme all&#39;interno di un portfolio, in cui è
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -915,7 +927,7 @@ I progetti sono elementi di lavoro all’interno di Workfront e costituiscono un
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -991,7 +1003,7 @@ La risorsa ReservedTime ha aggiunto il flag REPORTABLE.
    <td>Operazioni</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>MODIFICA</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>MODIFICA</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1057,7 +1069,7 @@ Un oggetto ScheduledReport rappresenta un report configurato per la consegna.
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager del Portfolio e le loro risposte consentono al manager di capire quanto un progetto sia in linea con gli obiettivi del portfolio.
+Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager Portfolio e le loro risposte consentono al manager di comprendere quanto un progetto sia in linea con gli obiettivi del portfolio.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1116,7 +1128,7 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1164,14 +1176,14 @@ Un oggetto Template rappresenta un pattern per un progetto. I progetti possono e
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1217,7 +1229,7 @@ Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un oggetto T
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1275,9 +1287,11 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -1285,7 +1299,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>loginAsAccessRules</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>loginAsAccessRules</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1300,7 +1314,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
    <td>Query</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>userAdmins</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>userAdmins</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1324,7 +1338,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
    <td>Query</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>myAllObjectTypesUnreadNotifications</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>myAllObjectTypesUnreadNotifications</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1373,7 +1387,7 @@ Un oggetto Work è un&#39;interfaccia comune ereditata sia da Task che da OpTask
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

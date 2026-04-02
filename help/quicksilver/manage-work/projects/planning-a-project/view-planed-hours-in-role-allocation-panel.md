@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
+title: Visualizzare le ore pianificate per il progetto nel pannello Allocazione ruoli
 description: È possibile visualizzare l'allocazione dei ruoli per tutte le mansioni assegnate agli elementi di lavoro in un progetto nel pannello Allocazione ruoli del progetto.
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
+# Visualizzare le ore pianificate per il progetto nel pannello Allocazione ruoli
 
 È possibile visualizzare l&#39;allocazione dei ruoli per tutte le mansioni assegnate agli elementi di lavoro in un progetto nel pannello Allocazione ruoli del progetto.
 
@@ -43,7 +45,7 @@ ht-degree: 5%
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p> </td> 
@@ -55,7 +57,7 @@ ht-degree: 5%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per il progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -65,7 +67,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 able style="table-layout:auto"> 
  <col> 
@@ -88,7 +91,8 @@ able style="table-layout:auto">
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -102,7 +106,7 @@ Devi avere i seguenti:
 
 * Attività e problemi con una durata superiore a zero.
 
-## Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
+## Visualizzare le ore pianificate per il progetto nel pannello Allocazione ruoli
 
 {{step1-to-projects}}
 

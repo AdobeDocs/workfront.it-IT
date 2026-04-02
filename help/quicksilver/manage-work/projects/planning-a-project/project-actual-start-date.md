@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Panoramica della data di inizio effettiva del progetto
+title: Panoramica sulla data di inizio effettivo del progetto
 description: I progetti, le attività e i problemi hanno una data di inizio effettiva in Adobe Workfront. Per le attività e i problemi, si tratta della data in cui sono stati contrassegnati come In corso. Per i progetti, questa è la data in cui la prima attività del progetto è contrassegnata come In corso o è stata completata.
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Panoramica della data di inizio effettiva del progetto
+# Panoramica sulla data di inizio effettivo del progetto
 
 I progetti, le attività e i problemi hanno una data di inizio effettiva in Adobe Workfront. Per le attività e i problemi, si tratta della data in cui sono stati contrassegnati come In corso. Per i progetti, questa è la data in cui la prima attività del progetto è contrassegnata come In corso o è stata completata.
 
@@ -31,7 +33,7 @@ I progetti, le attività e i problemi hanno una data di inizio effettiva in Adob
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Chiaro o superiore</p> 
    <p>Revisione o successiva</p> </td> 
   </tr> 
@@ -40,7 +42,7 @@ I progetti, le attività e i problemi hanno una data di inizio effettiva in Adob
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto</p>  </td> 
   </tr> 
  </tbody> 
@@ -50,7 +52,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sulle date di inizio effettive in Workfront
 

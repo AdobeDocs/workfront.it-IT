@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 2%
@@ -19,9 +21,11 @@ ht-degree: 2%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare le preferenze predefinite per tutti i progetti creati nel sistema. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema.
@@ -124,7 +128,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Imposta automaticamente la condizione del progetto in base allo stato di avanzamento]</td> 
-   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione  di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
+   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione [!UICONTROL] di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Crea automaticamente linee di base]</p> </td> 
@@ -139,7 +143,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Stima al completamento &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Stima al completamento ]</p> </td> 
    <td> <p>Determinare i dati utilizzati da [!DNL Workfront] per calcolare la stima [!UICONTROL al completamento] (EAC) che rappresenta il costo totale previsto di un progetto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcola a livello di progetto]</strong>: EAC per l'attività padre e il progetto vengono determinati immettendo [!UICONTROL Ore effettive] o [!UICONTROL Costo effettivo manodopera] nelle formule EAC. Questo calcolo include [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese] aggiunti direttamente all'attività o al progetto padre.</li> 

@@ -2,19 +2,21 @@
 product-area: projects;user-management
 keywords: modifica,moduli,RTF,testo,speciale,formato,campi,personalizzato,informazioni,personalizza,oggetti
 navigation-topic: work-with-custom-forms
-title: Modificare le informazioni nei campi modulo personalizzati
+title: Modificare le informazioni nei campi modulo personalizzato
 description: È possibile modificare le informazioni di un modulo personalizzato dopo che il modulo è stato allegato a un oggetto. Per informazioni sull'aggiunta di moduli personalizzati agli oggetti, vedere Aggiungere un modulo personalizzato a un oggetto.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Modificare le informazioni nei campi modulo personalizzati
+# Modificare le informazioni nei campi modulo personalizzato
 
 <!--Audited: 10/2025-->
 
@@ -33,16 +35,16 @@ ht-degree: 3%
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Licenza Adobe Workfront</p> </td> 
-   <td> <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <td role="rowheader"> <p>Licenza di Adobe Workfront</p> </td> 
+   <td> <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso all’oggetto per il quale si desidera modificare il modulo personalizzato</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Autorizzazioni oggetto</p> </td> 
+   <td role="rowheader"> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> 
     <ul> 
      <li> <p>Autorizzazioni Contribute o superiori per l'oggetto per il quale si desidera modificare il modulo personalizzato</p> </li> 
@@ -57,7 +59,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -212,7 +216,7 @@ Per ricalcolare espressioni personalizzate da un elenco di oggetti:
 1. Passare a un elenco o a un report di progetti e selezionare uno o più dei seguenti tipi di oggetti:
 
    * Progetti
-   * Attività
+   * Tasks
    * Problemi
    * Portfolio
    * Programmi

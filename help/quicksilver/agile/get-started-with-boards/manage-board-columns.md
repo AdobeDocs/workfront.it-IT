@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gestisci colonne bacheca
-description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need. You can also define column policies.
+description: Per impostazione predefinita, una nuova bacheca contiene tre colonne. È possibile aggiungere altre colonne, modificare l'ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie. Puoi anche definire i criteri per le colonne.
 author: Courtney
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 4%
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 <!-- Audited: 05/2024 -->
 
-A new board contains three columns by default. È possibile aggiungere altre colonne, modificare l&#39;ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie.
+Per impostazione predefinita, una nuova bacheca contiene tre colonne. È possibile aggiungere altre colonne, modificare l&#39;ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie.
 
 Le impostazioni delle colonne includono i criteri, che consentono di definire le opzioni per ciò che accade a una scheda quando viene spostata in quella colonna.
 
@@ -51,7 +53,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Add a column to a board
+## Aggiungere una colonna a una bacheca
 
 {{step1-to-boards}}
 
@@ -68,9 +70,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 ## Riordinare le colonne su una bacheca
 
 1. Accedi alla bacheca.
-1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location.
+1. Trascinare le colonne nell&#39;ordine corretto. Assicurarsi di selezionare la parte superiore della colonna prima di trascinarla in un&#39;altra posizione.
 
-   ![Drag and drop column](assets/boards-dragdropcolumn.png)
+   ![Trascina la colonna](assets/boards-dragdropcolumn.png)
 
 ## Rinominare una colonna della bacheca
 
@@ -92,7 +94,7 @@ Quando elimini una colonna da una bacheca, non può essere recuperata.
    >
    >Impossibile eliminare le colonne che contengono schede, incluse le schede archiviate. Se tenti di eliminare una colonna che contiene schede, devi scegliere un’altra colonna per tali schede.
 
-## Display card count
+## Visualizza conteggio schede
 
 Puoi utilizzare un’impostazione di configurazione per visualizzare il numero di schede in ogni colonna.
 
@@ -101,15 +103,15 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 1. Accedi alla bacheca.
 1. Fai clic su **[!UICONTROL Configura]** a destra della bacheca per aprire il pannello Configura.
 1. Espandi **[!UICONTROL Colonna]**.
-1. Turn on **[!UICONTROL Display a column card count]**.
+1. Attiva **[!UICONTROL Visualizza un numero di colonne della scheda]**.
 
-   ![Turn on card counter](assets/display-card-count.png)
+   ![Attiva contatore schede](assets/display-card-count.png)
 
-   The card counter appears at the top of each column.
+   Il contatore di schede viene visualizzato nella parte superiore di ogni colonna.
 
-1. Fare clic su **[!UICONTROL Nascondi configurazione]** per chiudere il pannello [!UICONTROL Configura].
+1. Fai clic su **[!UICONTROL Nascondi configurazione]** per chiudere il pannello [!UICONTROL Configura].
 
-## Define column settings and policies
+## Definire le impostazioni e i criteri delle colonne
 
 I criteri colonna includono l&#39;aggiornamento automatico dei valori dei campi e l&#39;impostazione di un limite work in progress.
 
@@ -129,15 +131,15 @@ Una scheda rimarrà in una colonna in cui viene posizionata se lo stato della sc
 
    ![Impostazioni e criteri colonna](assets/boards-column-policies-enabled.png)
 
-1. (Optional) Set a value for the card status:
+1. (Facoltativo) Imposta un valore per lo stato della scheda:
 
-   1. Select the **[!UICONTROL Status]** check box.
+   1. Selezionare la casella di controllo **[!UICONTROL Stato]**.
 
-   1. Select the status to apply to a card when it is moved to this column.
+   1. Selezionare lo stato da applicare a una scheda quando viene spostata in questa colonna.
 
-      ![Status for columns](assets/boards-column-status.png)
+      ![Stato per le colonne](assets/boards-column-status.png)
 
-      The status translation options for connected cards are also displayed. La traduzione dello stato non si applica alle schede ad hoc. Queste opzioni determinano lo stato personalizzato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
+      Vengono visualizzate anche le opzioni di traduzione dello stato per le schede collegate. La traduzione dello stato non si applica alle schede ad hoc. Queste opzioni determinano lo stato personalizzato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
 
    1. Seleziona uno stato [!UICONTROL **Personalizzato**] da applicare alla scheda per le attività e per i problemi.
 
@@ -165,11 +167,11 @@ Una scheda rimarrà in una colonna in cui viene posizionata se lo stato della sc
       * **[!UICONTROL Aggiungi su tag]:** I tag selezionati vengono aggiunti all&#39;elenco esistente di tag su una scheda quando viene spostata in questa colonna.
       * **[!UICONTROL Ignora tag]:** I tag selezionati sovrascrivono tutti gli altri tag e diventano gli unici tag di una scheda quando viene spostata in questa colonna.
 
-   1. Seleziona i tag dall’elenco a discesa. Only tags already created in the [!UICONTROL Tag Manager] are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+   1. Seleziona i tag dall’elenco a discesa. Solo i tag già creati in [!UICONTROL Tag Manager] sono disponibili per la scelta. Per informazioni sull&#39;aggiunta di nuovi tag, vedere [Aggiungi tag](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
-      ![Tags for column](assets/boards-column-tags.png)
+      ![Tag per colonna](assets/boards-column-tags.png)
 
-1. Enable the **[!UICONTROL Work in progress limit]** policy to limit the number of cards that can be added to the column. Then, type the limit number in the **[!UICONTROL Set limit]** field.
+1. Abilita il criterio **[!UICONTROL Limite work in progress]** per limitare il numero di schede che possono essere aggiunte alla colonna. Digitare quindi il numero di limite nel campo **[!UICONTROL Imposta limite]**.
 
    ![Limite WIP per colonna](assets/boards-wip-limit-in-column.png)
 

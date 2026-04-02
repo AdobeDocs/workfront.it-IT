@@ -6,14 +6,16 @@ description: È possibile aggiornare lo stato di un problema per informare gli a
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Aggiorna stato problema
+# Aggiornare stato del problema
 
 <!--Audited: 01/2024-->
 
@@ -32,9 +34,9 @@ ht-degree: 5%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -42,7 +44,7 @@ ht-degree: 5%
    <td> <p>Modifica l'accesso alle Issues</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per il problema</p> </td> 
   </tr> 
  </tbody> 
@@ -52,7 +54,8 @@ ht-degree: 5%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ ht-degree: 5%
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Stati problemi
 
@@ -98,7 +102,7 @@ Il tuo amministratore Adobe Workfront può aggiungere stati personalizzati per i
 Per ulteriori informazioni sugli stati personalizzati e sui tipi di problemi, consulta i seguenti articoli:
 
 * [Crea o modifica uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
-* [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md)
+* [Creare problemi](../../../manage-work/issues/manage-issues/create-issues.md)
 
 Puoi aggiornare manualmente gli stati dei problemi oppure puoi consentire a Workfront di aggiornarli automaticamente quando si verificano determinate azioni.
 
@@ -140,7 +144,8 @@ Per aggiornare manualmente lo stato del problema nell’intestazione del problem
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 

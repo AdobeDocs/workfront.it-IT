@@ -2,18 +2,20 @@
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigare in un Portfolio
-description: Spostarsi all’interno di un portfolio
+description: Navigare in un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Spostarsi all’interno di un portfolio
+# Navigare in un portfolio
 
 <!--Audited: 08/2025-->
 
@@ -23,7 +25,7 @@ ht-degree: 2%
 
 In [!DNL Adobe Workfront], un portfolio rappresenta una raccolta di progetti che competono per le stesse risorse, budget, pianificazione e priorità. Lo scopo principale del portfolio è quello di aiutare i dirigenti e i project manager a scegliere di lavorare su progetti che offrono i maggiori vantaggi a un&#39;organizzazione.
 
-Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del portfolio](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Per ulteriori informazioni sui portfolio, consulta [Informazioni sulla metodologia dei portfolio](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Requisiti di accesso
 
@@ -41,14 +43,14 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard] </p>
-   <p>[!UICONTROL Plan] </p> </td> 
+   <p>[!UICONTROL Piano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Visualizza o autorizzazioni superiori per i progetti</p>  </td> 
   </tr> 
  </tbody> 
@@ -58,7 +60,8 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,9 +87,10 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
-## Spostarsi all’interno di un portfolio
+## Navigare in un portfolio
 
 {{step1-to-portfolios}}
 

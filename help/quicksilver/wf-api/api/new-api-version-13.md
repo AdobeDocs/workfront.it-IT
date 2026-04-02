@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 13 dell’API
+title: Novità nella versione API 13
 description: Adobe Workfront ha rilasciato la versione API 13 il 22 aprile 2021. La versione 13 dell’API presenta le seguenti modifiche rispetto alla versione 12.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Novità della versione 13 dell’API
+# Novità nella versione API 13
 
 Adobe Workfront ha rilasciato la versione API 13 il 22 aprile 2021. La versione 13 dell’API presenta le seguenti modifiche rispetto alla versione 12.
 
@@ -87,7 +89,7 @@ Per ulteriori informazioni sui livelli di accesso, vedere [Funzionamento dei liv
 
 ### BreadCrumb {#breadcrumb}
 
-Un oggetto BreadCrumb rappresenta un elemento nella gerarchia padre/figlio di un elemento di lavoro di Workfront. Le breadcrumb indicano in che modo un elemento di lavoro si inserisce nella struttura più ampia di Portfoli, progetti, progetti e attività.
+Un oggetto BreadCrumb rappresenta un elemento nella gerarchia padre/figlio di un elemento di lavoro di Workfront. Le breadcrumb indicano in che modo un elemento di lavoro si inserisce nella struttura più ampia di portafogli, progetti, progetti e attività.
 
 Per ulteriori informazioni sulle breadcrumb, consulta [Panoramica delle breadcrumb nella nuova esperienza Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -310,9 +312,11 @@ I progetti sono elementi di lavoro all’interno di Workfront e costituiscono un
    <td> <p>Campi diretti</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -399,7 +403,7 @@ Un oggetto Team è un insieme di Utenti che possono essere assegnati a un elemen
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -417,7 +421,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -442,14 +446,14 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -2,15 +2,17 @@
 product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Creare e confrontare scenari di piano nella Pianificazione scenario
+title: Creare e confrontare scenari di piano nella pianificazione scenari
 description: Quando si pianifica la strategia a lungo termine dell'azienda, è possibile che all'inizio vi siano molte informazioni che non si hanno o non si pensano. Ci vuole tempo e sperimentazione per arrivare a una strategia finale che le parti interessate possano accettare. L'esecuzione di un'analisi "what if" per creare più scenari per il piano può aiutare a prevedere e valutare con precisione le circostanze potenziali e, in ultima analisi, a sviluppare il miglior piano possibile.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +24,7 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +48,7 @@ Quando si pianifica la strategia a lungo termine dell&#39;azienda, è possibile 
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> </td> 
   </tr> 
  </tbody> 
@@ -58,7 +60,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creare scenari
 
@@ -183,7 +187,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
      </tr> 
      <tr> 
       <td>Utilizzo</td> 
-      <td>La percentuale di utilizzo del budget  per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di , vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>La percentuale di utilizzo del budget [!UICONTROL] per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di [!UICONTROL], vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Valore Netto</td> 

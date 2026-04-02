@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -35,7 +37,7 @@ Per informazioni generali sulle attività ricorrenti, compreso l&#39;impatto del
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -44,7 +46,7 @@ Per informazioni generali sulle attività ricorrenti, compreso l&#39;impatto del
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> 
    <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> 
     </td> 
@@ -56,7 +58,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Creare un’attività ricorrente
 
@@ -124,7 +128,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Giorno</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>L'attività viene ripetuta ogni giorno, ogni 2 giorni, ogni 3 giorni e così via, a seconda della cadenza selezionata. È possibile configurare le attività in modo che vengano ripetute fino a ogni 6 giorni. L'impostazione predefinita è 1 giorno. </p> </td> 
      </tr> 
      <tr> 
@@ -136,7 +140,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       <td> <p> L'attività viene ripetuta ogni settimana, ogni 2 settimane, ogni 3 settimane e così via, a seconda della cadenza selezionata.</p> <p>Nel campo <strong>Ripeti</strong>, seleziona il giorno della settimana in cui desideri eseguire ogni attività. Puoi selezionare più giorni. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Mese</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>L'attività viene ripetuta ogni mese, ogni 2 mesi, ogni 3 mesi e così via, a seconda della cadenza selezionata. Puoi scegliere tra 1 e 12 mesi. </p> <p>Nel campo <strong>Ripeti</strong>, seleziona una delle seguenti opzioni per eseguire l'attività:</p> 
        <ul> 
         <li> <p><strong>ogni mese il giorno &lt;data mese&gt;</strong> </p> <p>È possibile selezionare i giorni da 1 a 30 oppure selezionare <strong>last</strong>. Ad esempio, è possibile selezionare "ogni mese il 30". </p> </li> 

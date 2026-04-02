@@ -6,7 +6,9 @@ description: È possibile aggiungere qualsiasi attività o problema a una bachec
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 7%
@@ -68,9 +70,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   Per una bacheca: l’operazione o il problema viene aggiunto alla bacheca come scheda. Se alla bacheca sono stati applicati criteri colonna per lo stato, la carta viene aggiunta nella colonna corrispondente al suo stato. Altrimenti, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
+   Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
 
-   Per informazioni sui criteri colonna, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Per informazioni sui criteri delle colonne, vedere [Gestisci colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
    Per un flusso di lavoro: l’attività o il problema viene aggiunto all’elenco delle schede del flusso di lavoro come scheda non pianificata.
 
@@ -88,7 +90,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   Per una bacheca: l’operazione o il problema viene aggiunto alla bacheca come scheda. Se alla bacheca sono stati applicati criteri colonna per lo stato, la carta viene aggiunta nella colonna corrispondente al suo stato. Altrimenti, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
+   Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
 
    Per informazioni sui criteri delle colonne, vedere [Gestisci colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
@@ -105,4 +107,4 @@ Per informazioni sulle visualizzazioni, vedere [Creare o modificare le visualizz
 
 1. Fai clic sul nome di una bacheca per aprire l’attività o il problema collegato sulla bacheca.
 
-   ![Selezionare una bacheca](assets/select-board-in-column.png)
+   ![Seleziona una bacheca](assets/select-board-in-column.png)

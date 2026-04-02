@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +33,7 @@ Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID c
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +44,7 @@ Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID c
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -158,7 +160,7 @@ Viene visualizzata la casella **Nuova applicazione OAuth2**.
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Questo è lo stesso nome che hai assegnato all’app. Questo campo non può essere vuoto.</td> 
      </tr> 
      <tr> 
@@ -180,7 +182,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
 >* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (centro dati UE)
->* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (data center di Azure)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (centro dati Azure)
 
 {{step-1-to-setup}}
 
@@ -218,7 +220,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Abilita questa opzione affinché, ogni volta che viene utilizzato il token di aggiornamento, ne venga emesso uno nuovo. L’applicazione deve archiviare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Scadenza token di aggiornamento assoluto di </td> 
+      <td role="rowheader">Scadenza token di aggiornamento assoluto di [!UICONTROL]</td> 
       <td> <p>Seleziona il periodo di tempo per il quale desideri che esista un token di aggiornamento prima della scadenza. Quando scade, gli utenti devono accedere di nuovo all’integrazione. Seleziona "[!UICONTROL Nessuna scadenza]" se non desideri che il token di aggiornamento scada.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -230,7 +232,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Puoi aggiungere un logo per rendere questa app più identificabile. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Questo è lo stesso nome che hai assegnato all’app. Questo campo non può essere vuoto.</td> 
      </tr> 
      <tr> 
@@ -290,7 +292,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Puoi aggiungere un logo per rendere questa app più identificabile. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Questo è lo stesso nome che hai assegnato all’app. Questo campo non può essere vuoto.</td> 
      </tr> 
      <tr> 
@@ -314,9 +316,11 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
    </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Fai clic su **[!UICONTROL Salva]**.
 

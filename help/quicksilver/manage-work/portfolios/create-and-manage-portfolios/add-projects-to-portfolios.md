@@ -6,10 +6,12 @@ description: È consigliabile aggiungere progetti ai portfolio quando vengono av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 08/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 È consigliabile aggiungere progetti ai portfolio quando vengono avviati. Tuttavia, puoi aggiungerli a un portfolio in qualsiasi momento della loro durata.
 
@@ -30,7 +34,7 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +48,14 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td><p>Standard</p> 
-   <p>[!UICONTROL Plan] </p> </td> 
+   <p>[!UICONTROL Piano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Portafogli di accesso a [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p>  </td> 
   </tr> 
  </tbody> 
@@ -61,7 +65,8 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +91,8 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aggiungere un progetto a un portfolio
 

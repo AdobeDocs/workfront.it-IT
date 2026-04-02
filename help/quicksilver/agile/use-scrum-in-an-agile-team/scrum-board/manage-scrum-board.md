@@ -1,23 +1,25 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Manage Stories and Issues on the Scrum Board
-description: You can move a story or issue from the Scrum board to another iteration or to the backlog, or delete it from the Scrum board. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
+title: Gestione di storie e problemi sulla bacheca Scrum
+description: Puoi spostare una storia o un problema dalla bacheca Scrum a un’altra iterazione o nel backlog, oppure eliminarlo dalla bacheca Scrum. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall'amministratore di sistema.
 author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 10%
 
 ---
 
-# Manage stories and issues on the [!UICONTROL Scrum] board
+# Gestisci storie e problemi sulla bacheca [!UICONTROL Scrum]
 
-You can move a story or issue from the [!UICONTROL Scrum] board to another iteration or to the backlog, or delete it from the [!UICONTROL Scrum] board. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall&#39;amministratore di sistema.
+È possibile spostare una storia o un problema dalla bacheca [!UICONTROL Scrum] a un&#39;altra iterazione o nel backlog oppure eliminarlo dalla bacheca [!UICONTROL Scrum]. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall&#39;amministratore di sistema.
 
-To remove a task or issue from the iteration without deleting it or sending it to the backlog, go to the project and remove the Agile team from the assignment column. This removes the task or issue from the Scrum board, but it remains on the project.
+Per rimuovere un’attività o un problema dall’iterazione senza eliminarlo o inviarlo al backlog, vai al progetto e rimuovi il team Agile dalla colonna delle assegnazioni. In questo modo l’attività o il problema viene rimosso dalla bacheca Scrum, ma rimane nel progetto.
 
 ## Requisiti di accesso
 
@@ -39,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td>[!UICONTROL Manage] access to the task or issue </td> 
+   <td>Accesso [!UICONTROL Gestisci] all'attività o al problema </td> 
   </tr>
  </tbody> 
 </table>
@@ -48,17 +50,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Move a story or issue from the [!UICONTROL Scrum] board
+## Sposta una storia o un problema dalla bacheca [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
+1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
-1. Click the **[!UICONTROL More]** icon on the story or issue, and select **[!UICONTROL Move to]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** sulla storia o sul problema e seleziona **[!UICONTROL Sposta in]**.
 
-   ![Delete or move story from Scrum board](assets/scrum-delete-move-story.png)
+   ![Elimina o sposta la storia dalla bacheca Scrum](assets/scrum-delete-move-story.png)
 
-1. On the confirmation message, choose either:
+1. Nel messaggio di conferma, scegli:
 
    <table style="table-layout:auto">
     <tr>
@@ -67,23 +69,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Backlog]</strong></td>
-        <td>Select to move the story or issue to the team's backlog.</td>
+        <td>Seleziona questa opzione per spostare la storia o il problema nel backlog del team.</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >The work item [!UICONTROL Planned Start Date] and [!UICONTROL Planned Completion Date] are affected by a setting on the [!UICONTROL Edit Team] page. For information, see the section [[!UICONTROL Configure] how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >L&#39;elemento di lavoro [!UICONTROL Data inizio pianificata] e [!UICONTROL Data completamento pianificata] è interessato da un&#39;impostazione nella pagina [!UICONTROL Modifica team]. Per informazioni, vedere la sezione [[!UICONTROL Configurare] come vengono applicate le date quando si aggiungono elementi di lavoro a un&#39;iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Fare clic su **[!UICONTROL Sposta]**.
 
-## Delete a story or issue from the [!UICONTROL Scrum] board
+## Elimina una storia o un problema dalla bacheca [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
+1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
-1. Click the **[!UICONTROL More]** icon on the story or issue, and select **[!UICONTROL Delete Story]** or **[!UICONTROL Delete Issue]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** sulla storia o sul problema e seleziona **[!UICONTROL Elimina storia]** o **[!UICONTROL Elimina problema]**.
 
    ![Elimina o sposta la storia dalla bacheca Scrum](assets/scrum-delete-move-story.png)
 

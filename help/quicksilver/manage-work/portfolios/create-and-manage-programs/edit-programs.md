@@ -6,14 +6,16 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Modifica programmi
+# Modificare i programmi
 
 È possibile modificare le informazioni relative ai programmi creati dall&#39;utente o da altri utenti se questi li hanno condivisi con l&#39;utente.
 
@@ -34,14 +36,14 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso a [!UICONTROL Edit] ai programmi</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un programma</p>  </td> 
   </tr> 
  </tbody> 
@@ -51,7 +53,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Modifica programmi
+## Modificare i programmi
 
 1. Passa al **[!UICONTROL menu principale]**.
 1. Fai clic su **[!UICONTROL Programmi]**, quindi fai clic sul nome di un programma per aprirlo.
@@ -150,17 +152,19 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td> <p>Inizia a digitare il nome di un utente che desideri indicare come responsabile del programma, quindi selezionalo quando viene visualizzato nell’elenco. Questa è la persona che può supervisionare il lavoro definito nei progetti del programma. </p> <p><b><p>IMPORTANTE</b></p> <p>Quando si designa un utente come Responsabile del programma, questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il programma e i progetti nel programma. </p> <p><b>SUGGERIMENTO</b></p> <p>Puoi aggiornare rapidamente il responsabile del programma nell’intestazione del programma. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Group]</td> 
+      <td role="rowheader">[!UICONTROL Gruppo]</td> 
       <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è associato al programma o se è responsabile del completamento. </p> <p><b>SUGGERIMENTO</b></p>  <p>Quando si accede al campo [!UICONTROL Group] dalla pagina [!UICONTROL Program Details], eseguire le operazioni seguenti per assicurarsi di selezionare il gruppo corretto: </p> <p>Passa il puntatore del mouse sul nome del gruppo e fai clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> accanto a esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Questa opzione non è disponibile nella casella [!UICONTROL Modifica programma]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--this was removed from the unshimmed version - asking on the epic:
+   <!--
+   this was removed from the unshimmed version - asking on the epic:
    <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
 1. Fai clic su **[!UICONTROL Salva]** oppure continua a modificare le sezioni seguenti.

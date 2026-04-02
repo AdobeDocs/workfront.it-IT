@@ -1,19 +1,21 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Contatta l’Assistenza clienti
+title: Contattare l’Assistenza clienti
 description: In qualità di cliente di Adobe Workfront, puoi contattare il team di Assistenza clienti di Workfront telefonicamente o inviando un ticket online. Questo articolo include istruzioni su come contattare l’Assistenza clienti e su come visualizzare e gestire i casi di assistenza.
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Contatta l’Assistenza clienti
+# Contattare l’Assistenza clienti
 
 <!--Audited: 12/2023-->
 
@@ -36,12 +38,12 @@ In qualità di cliente [!DNL Adobe Workfront], puoi contattare il team di Assist
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -53,7 +55,7 @@ In qualità di cliente [!DNL Adobe Workfront], puoi contattare il team di Assist
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,8 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 * EMEA: +44 800 169 0454
 * Australia: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 >Solo i contatti autorizzati del supporto (o gli utenti autorizzati al supporto) possono inviare ticket di supporto online.
 
 
-1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com/it), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
+1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +140,8 @@ In caso di domande o problemi durante l’invio di una richiesta, chiama il team
 1. (Facoltativo) Per chiudere il caso, fare clic sul pulsante **[!UICONTROL Chiudi caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=it)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

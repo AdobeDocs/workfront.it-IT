@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: URL esterno tramite campo dati personalizzato'
-description: È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un campo personalizzato calcolato denominato "URL personalizzato" in una visualizzazione delle attività.
+description: È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un campo personalizzato calcolato denominato "URL personalizzato" in una visualizzazione attività.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 8%
@@ -20,7 +22,7 @@ ht-degree: 8%
 
 È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un **campo personalizzato calcolato** denominato &quot;URL personalizzato&quot; in una **visualizzazione attività**.
 
-Ciò consente di collegare rapidamente determinati oggetti in una visualizzazione a determinate aree dell’applicazione direttamente dai report.
+Questo consente di collegare rapidamente alcuni oggetti in una visualizzazione a determinate aree dell’applicazione direttamente dai rapporti.
 
 Quando crei un campo personalizzato calcolato, devi innanzitutto creare il campo, quindi creare la visualizzazione.
 
@@ -44,7 +46,7 @@ Utilizzando gli stessi passaggi, è possibile creare campi personalizzati calcol
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -66,7 +68,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 Per informazioni sulla creazione di un campo personalizzato calcolato, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile creare un campo personalizzato calcolato per le attività denominato &quot;URL personalizzato&quot;. Questo campo si collega direttamente alla scheda secondaria **Panoramica** nella scheda **Dettagli attività**.
+Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile creare un campo personalizzato calcolato per le attività denominato &quot;URL personalizzato&quot;. Questo campo è collegato direttamente alla scheda secondaria **Panoramica** nella scheda **Dettagli attività**.
 
 1. Crea un campo personalizzato calcolato.
 1. Nel campo Calcolo immettere il codice seguente:
@@ -86,7 +88,7 @@ L&#39;attività **Visualizza** nell&#39;esempio seguente visualizza il campo per
 Per personalizzare questa visualizzazione:
 
 1. Consente di passare a un elenco di attività.
-1. Espandere il menu a discesa **Visualizza** nella parte superiore dell&#39;elenco delle attività.
+1. Espandi il menu a discesa **Visualizza** nella parte superiore dell&#39;elenco delle attività.
 1. Fare clic su **Personalizza visualizzazione**.
 1. Rimuove tutte le colonne all&#39;interno della vista, ad eccezione della prima colonna.
 1. Fai clic sull’intestazione della prima colonna.
@@ -137,4 +139,4 @@ Per personalizzare questa visualizzazione:
 
    In questo esempio, la colonna &#39;column.1.&#39; Le righe visualizzano il valore nel campo &quot;URL personalizzato&quot; come collegamento nella sezione **Panoramica** dell&#39;attività; &quot;colonna.2.&quot; visualizza il valore archiviato nel **campo URL** dell&#39;attività.
 
-1. Fai clic su **Fine** > **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.

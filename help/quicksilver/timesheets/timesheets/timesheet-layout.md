@@ -7,22 +7,26 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Panoramica del layout della scheda orario
+# Panoramica del layout dei timesheet
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 Questo articolo descrive il layout delle schede orario in Adobe Workfront, consentendoti di comprendere meglio come personalizzare e utilizzare le schede orario per registrare l’ora.
 
@@ -97,7 +101,7 @@ La barra degli strumenti include le seguenti opzioni:
 * L’icona a schermo intero per visualizzare la scheda orario in modalità a schermo intero.
 * Il pulsante **Apri riepilogo** (o **Chiudi riepilogo**) consente di aprire o chiudere il pannello Riepilogo per visualizzare informazioni aggiuntive su attività o problemi. Questo pulsante non è disponibile per i progetti.
 
-Per ulteriori informazioni, vedere [Tempo di connessione](../create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni, consulta [Tempo di registrazione](../create-and-manage-timesheets/log-time.md).
 
 ## Piè di pagina scheda orario
 
@@ -107,13 +111,13 @@ Puoi fare clic sui pulsanti **Invia per approvazione**, **Chiudi**, **Approva** 
 
 Questa area contiene anche informazioni sull’ultimo salvataggio della scheda orario. Tutte le modifiche apportate alle informazioni nella scheda orario vengono salvate automaticamente.
 
-## Ruolo
+## Mansione
 
 ![Ruoli](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
 È possibile selezionare una mansione diversa da associare alle ore inserite. L&#39;amministratore di Workfront deve abilitare l&#39;impostazione **Assegnare manualmente le mansioni alle ore inserite**. La mansione specificata al momento dell’assegnazione dell’attività o il problema viene visualizzato per impostazione predefinita. Se non ti è stata assegnata una mansione per l’attività o il problema, il tuo Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-È possibile registrare più ore per lo stesso elemento di lavoro per ruoli diversi. Per ulteriori informazioni, vedere [Tempo di connessione](../create-and-manage-timesheets/log-time.md).
+È possibile registrare più ore per lo stesso elemento di lavoro per ruoli diversi. Per ulteriori informazioni, consulta [Tempo di registrazione](../create-and-manage-timesheets/log-time.md).
 
 ## Tipo di ora
 
@@ -121,7 +125,7 @@ Questa area contiene anche informazioni sull’ultimo salvataggio della scheda o
 
 È possibile selezionare diversi tipi di ore da associare alle ore inserite in ogni elemento. Questo campo viene visualizzato solo quando l’amministratore di Workfront lo abilita per il tuo ambiente. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-È possibile registrare più ore per lo stesso elemento di lavoro per tipi di ore diversi. Per ulteriori informazioni, vedere [Tempo di connessione](../create-and-manage-timesheets/log-time.md).
+È possibile registrare più ore per lo stesso elemento di lavoro per tipi di ore diversi. Per ulteriori informazioni, consulta [Tempo di registrazione](../create-and-manage-timesheets/log-time.md).
 
 ## Area Aggiornamenti nel pannello a sinistra
 
@@ -151,8 +155,10 @@ L’intervallo di tempo viene visualizzato con incrementi di una settimana inter
 
 Per informazioni, consulta [Creare una scheda orario monouso](../create-and-manage-timesheets/create-tmshts.md) o [Creare, modificare e assegnare profili della scheda orario](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
-<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
-You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
+<!--
+drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.
+-->
 
 ## Commenti immissione ore
 

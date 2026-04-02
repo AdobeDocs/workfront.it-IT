@@ -1,33 +1,37 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Creare un progetto
+title: Crea un progetto
 description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi creare progetti da zero, utilizzare un modello o convertire problemi o attività in progetti.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Creare un progetto
+# Crea un progetto
 
 <!--remove Preview and Production references-->
 
 <!-- Audited: 110/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 I progetti rappresentano una grande quantità di lavoro che deve essere fatto in Adobe Workfront.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +42,7 @@ I progetti rappresentano una grande quantità di lavoro che deve essere fatto in
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
         <p>Piano</p> </td> 
   </tr> 
@@ -47,7 +51,7 @@ I progetti rappresentano una grande quantità di lavoro che deve essere fatto in
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto.</p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +61,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +86,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Modi per creare progetti
@@ -109,7 +115,7 @@ Puoi creare un progetto in Workfront utilizzando uno dei seguenti metodi:
 
 * Pubblicare un’iniziativa da uno scenario in Adobe Workfront Scenario Planner.
 
-  Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
   Per informazioni sulla creazione di progetti dalle iniziative di pubblicazione, vedere [Aggiornare o creare progetti pubblicando iniziative in Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -131,7 +137,7 @@ Prima di iniziare, è necessario assicurarsi che:
 
 Quando crei un progetto, Workfront applica a esso una serie di impostazioni predefinite. Ad esempio, le modalità Stato, Gruppo e Pianificazione sono predefinite al momento della creazione di un progetto.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * In qualità di amministratore di Workfront o di un gruppo, puoi configurare le impostazioni predefinite per un nuovo progetto durante la configurazione delle Preferenze di progetto per l’intera istanza di Workfront o per un gruppo.
 * Workfront applica le impostazioni del gruppo, se presenti, prima di applicare quelle impostate dall&#39;amministratore Workfront.

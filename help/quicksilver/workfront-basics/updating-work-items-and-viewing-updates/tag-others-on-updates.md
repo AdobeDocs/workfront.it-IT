@@ -6,14 +6,16 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Assegna tag ad altri utenti in caso di aggiornamenti
+# Taggare gli utenti sugli aggiornamenti
 
 <!--Audited: April, 2024-->
 
@@ -66,11 +68,11 @@ Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo l
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> <p>Per problemi e documenti:</p>
 
-<ul><li><p>Collaboratore o versione successiva</p></li>
-   <li><p>Richiedi o superiore</p></li></ul>
+<ul><li><p>Collaboratore o successiva</p></li>
+   <li><p>Richiedente o successiva</p></li></ul>
 
 <p>Per tutti gli altri oggetti:</p>
    <ul><li><p>Chiaro o superiore</p></li>
@@ -92,7 +94,8 @@ Per informazioni, consulta [Requisiti di accesso per la documentazione di Workfr
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,9 +118,10 @@ Per informazioni, consulta [Requisiti di accesso per la documentazione di Workfr
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Assegna tag ad altri utenti in caso di aggiornamenti
+## Taggare gli utenti sugli aggiornamenti
 
 Puoi assegnare tag ad altri utenti in caso di aggiornamenti nei modi seguenti:
 

@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualizza: ore con informazioni attività padre'
-description: In questa visualizzazione per ora vengono visualizzati il nome dell'attività in cui sono state registrate le ore e il nome dell'attività padre.
+description: In questa visualizzazione ore vengono visualizzati il nome dell'attività in cui sono state registrate le ore e il nome dell'attività padre.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 22%
@@ -18,7 +20,7 @@ ht-degree: 22%
 
 <!--Audited: 11/2024-->
 
-In questa visualizzazione per ora vengono visualizzati il nome dell&#39;attività in cui sono state registrate le ore e il nome dell&#39;attività padre.
+In questa visualizzazione ore vengono visualizzati il nome dell&#39;attività in cui sono state registrate le ore e il nome dell&#39;attività padre.
 
 ![custom_hour_view_with_task_and_parent_task_info.png](assets/custom-hour-view-with-task-and-parent-task-info-350x55.png)
 
@@ -38,15 +40,15 @@ In questa visualizzazione per ora vengono visualizzati il nome dell&#39;attivit�
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,15 +58,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Visualizza ore con informazioni attività padre
+## Visualizza le ore con le informazioni sull&#39;attività padre
 
 1. Consente di passare a un elenco di ore.
-1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
 1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità testo**.
-1. Fai clic su **Modifica modalità testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
+1. Fare clic su **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
 
 
@@ -124,5 +126,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    column.2.width=150
    ```
 
-1. Fai clic su **Fine**, quindi su **Salva vista**.
+1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
 

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Riepilogare gli aggiornamenti con l’Assistente AI
+title: Riepilogare gli aggiornamenti con l’Assistente IA
 description: Gli Aggiornamenti fanno parte di un oggetto che include un pulsante che utilizza l’Assistente IA per riepilogare gli aggiornamenti.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Riepilogare gli aggiornamenti con l’Assistente AI
+# Riepilogare gli aggiornamenti con l’Assistente IA
 
 L’Assistente AI di Workfront può riepilogare il contenuto del flusso di aggiornamento, consentendoti di comprendere rapidamente i commenti e le discussioni che si verificano intorno a un oggetto Workfront.
 
@@ -27,7 +29,7 @@ L’Assistente AI di Workfront può riepilogare il contenuto del flusso di aggio
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,13 +41,13 @@ L’Assistente AI di Workfront può riepilogare il contenuto del flusso di aggio
       </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    </td>
   </tr>
 
 <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Visualizza o autorizzazioni superiori per gli oggetti di cui visualizzare gli aggiornamenti</p>
    </td>
   </tr>
@@ -57,7 +59,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,7 +78,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -84,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   Per ulteriori informazioni, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) nell&#39;articolo Panoramica dell&#39;Assistente IA.
 * L’amministratore di Workfront deve abilitare l’Assistente AI per il tuo livello di accesso.
 
-  Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Per ulteriori informazioni, consulta [Abilitare o disabilitare l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Riepiloga utilizzando il pulsante Riepiloga commenti
 

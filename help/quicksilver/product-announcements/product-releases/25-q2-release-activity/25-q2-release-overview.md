@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 18%
@@ -16,7 +18,7 @@ ht-degree: 18%
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2025. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 
-<span class="preview">Le funzioni Off-cycle (quelle rilasciate alla produzione prima della data di rilascio del secondo trimestre 2025) sono evidenziate in giallo.</span>
+<span class="preview">Le funzioni fuori ciclo (quelle rilasciate in produzione prima della data di rilascio del secondo trimestre 2025) sono evidenziate in giallo.</span>
 
 ## Pianificazione della versione
 
@@ -26,7 +28,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 
 | Rilascio mensile | Rilascio trimestrale |
 | ----------------- | ----------------- |
-| <ul><li>25,2 (13 febbraio 2025)</li><li>25.3 (13 marzo 2025)</li><li>25.4 (10 aprile 2025)</li></ul> | <ul><li>25.4 (10 aprile 2025)</li></ul> |
+| <ul><li>25.2 (13 febbraio 2025)</li><li>25.3 (13 marzo 2025)</li><li>25.4 (10 aprile 2025)</li></ul> | <ul><li>25.4 (10 aprile 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -53,8 +55,8 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti alla logica dei moduli personalizzati</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
-            <p>Il generatore di logica dei moduli personalizzati dispone di un'interfaccia aggiornata che offre maggiore spazio per la creazione di regole logiche. Questo nuovo design può essere più facilmente adattato a tipi di logica aggiuntivi che potrebbero essere aggiunti in futuro.</p><p>Oltre alle opzioni di visualizzazione e salta logica correnti, è disponibile anche la logica di convalida.</p>
+            Miglioramenti alla logica dei moduli personalizzati</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
+            <p>Il generatore di logica dei moduli personalizzati dispone di un’interfaccia aggiornata che offre più spazio per la creazione di regole logiche. Questo nuovo design può accogliere più facilmente ulteriori tipi di logica che potrebbero essere aggiunti in futuro.</p><p>Oltre alle opzioni di visualizzazione e salta logica correnti, è disponibile anche la logica di convalida.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -68,27 +70,28 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Espressioni aggiunte ai campi personalizzati calcolati</a></p>
-            [!BADGE In Produzione &#x200B;]{type=Informative}
-            <p>Le seguenti espressioni sono ora disponibili nei campi personalizzati calcolati da Workfront: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT e ADDHOUR. Le definizioni e gli esempi di ogni espressione sono disponibili nell'editor di calcolo e nell'Experience League.</p>
+            [!BADGE In produzione ]{type=Informative}
+            <p>Nei campi personalizzati calcolati di Workfront sono ora disponibili le seguenti espressioni: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT e ADDHOUR. Le definizioni e gli esempi di ciascuna espressione sono disponibili nell’editor di calcolo e in Experience League.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Rilascio in anteprima: sabato 31 gennaio 2025</li>
-                <span class="preview"><li>Rilascio per produzione per tutti i clienti: 31 gennaio 2025</li></span>
+                <span class="preview"><li>Versione di produzione per tutti i clienti: 31 gennaio 2025</li></span>
             </ul>
         </td>
     </tr>                          
 </tbody>
 </table>
 
-### Miglioramenti della gestione dei documenti
+### Miglioramenti alla gestione dei documenti
 
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+<!--
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             New document approval decision buttons available in proofing viewer</a></p>
@@ -101,13 +104,14 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
                 <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>   -->                     
+    </tr>
+    -->
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiornamento del visualizzatore di correzione del desktop </a></p>[!BADGE In Produzione &#x200B;]{type=Informative}
-            <p>Il Visualizzatore correzione desktop è stato aggiornato alla versione 2.1.45. Questo aggiornamento consente al visualizzatore di utilizzare
-            <ul><li>Electron versione 35</li><li>Chromium versione 134</li><ul></p>
+            Aggiornamento visualizzatore bozze desktop </a></p>[!BADGE In produzione ]{type=Informative}
+            <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.45. Questo aggiornamento consente di utilizzare
+            <ul><li>Electron versione 35</li><li>Cromo versione 134</li><ul></p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -120,14 +124,14 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modificare più documenti contemporaneamente in un report di documenti </a></p>[!BADGE In Produzione &#x200B;]{type=Informative}
-            <p>Ora puoi modificare più documenti contemporaneamente in un report documento. È possibile modificare le descrizioni e aggiornare i moduli personalizzati.</p>
+            Modificare più documenti contemporaneamente in un report di documenti </a></p>[!BADGE In produzione ]{type=Informative}
+            <p>È ora possibile modificare più documenti contemporaneamente in un rapporto di documento. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Rilascio in anteprima: venerdì 6 febbraio 2025</li>
-                <span class="preview"><li>Rilascio per produzione per tutti i clienti: 13 marzo 2025</li></span>
+                <span class="preview"><li>Versione di produzione per tutti i clienti: 13 marzo 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -143,10 +147,10 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti delle bozze nell’app per dispositivi mobili (solo iOS)</a><p>[!BADGE In Produzione &#x200B;]{type=Informative}</p></p>
-            <p>Nell’app mobile Adobe Workfront sono disponibili diversi miglioramenti per la verifica della funzionalità:
+            Miglioramenti alle bozze nell’app mobile (solo iOS)</a><p>[!BADGE In produzione ]{type=Informative}</p></p>
+            <p>Sono disponibili diversi miglioramenti per la funzionalità di bozza nell’app mobile di Adobe Workfront:
             <ul>
-            <li>Ora puoi aprire un file di prova dall’applicazione e-mail per dispositivi mobili, da un collegamento condiviso con te. In precedenza, i collegamenti dalle e-mail non erano supportati e dovevi accedere alle prove dall'app mobile Workfront.</li>
+            <li>Ora puoi aprire un file di bozza dalla tua app e-mail mobile, da un collegamento condiviso con te. In precedenza, i collegamenti dalle e-mail non erano supportati e si doveva accedere alle bozze dall’app mobile di Workfront.</li>
             <li>I file di bozza multimediali sono ora supportati nell’app mobile.</li>
             </ul>
             </p>
@@ -159,7 +163,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
             </ul>
             <p><b>Disponibile in questi ambienti:</b></p>
             <ul>
-                <li>App iOS per dispositivi mobili</li>
+                <li>app mobile di iOS</li>
             </ul>
         </td>
     </tr>                          
@@ -175,7 +179,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>È ora possibile aggiungere un commento a un progetto mentre lo si modifica nella casella Modifica progetto. Puoi anche aggiungere un commento a più progetti contemporaneamente quando li modifichi in blocco. Prima di questo aggiornamento, questa funzionalità non esisteva durante la modifica dei progetti.</p>
         </td>
         <td>
@@ -199,8 +203,8 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            I dati relativi all’approvazione dei documenti e alle decisioni sono ora disponibili in Data Connect</a><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
-            <p>È ora possibile accedere ai dati per le approvazioni dei documenti e le decisioni in Data Connect. Questo set di dati collega le approvazioni dei documenti dalle funzionalità di verifica di Workfront e le approvazioni Frame.io che si verificano sui documenti di Workfront. Ora potrai illustrare la durata del ciclo, il numero di cicli e gli impatti della timeline per le approvazioni in ritardo tramite le visualizzazioni BI.</p>
+            I dati relativi all’approvazione dei documenti e alle decisioni sono ora disponibili in Data Connect</a><p>[!BADGE In produzione ]{type=Informative}</p>
+            <p>È ora possibile accedere ai dati per le approvazioni dei documenti e le decisioni in Data Connect. Questo set di dati collega le approvazioni dei documenti dalle funzionalità di verifica di Workfront e le approvazioni Frame.io che si verificano sui documenti di Workfront. Ora puoi illustrare l’impatto della durata del ciclo, del numero di cicli e della timeline per le approvazioni in ritardo tramite visualizzazioni di BI.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -212,11 +216,11 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno coerente con altre aree di Workfront. Esistono piccole differenze di funzionalità rispetto al calendario Workfront corrente, tra cui:
             <ul>
             <li>Come aggiungere elementi ad hoc al calendario</li>
-            <li>Come creare e rinominare il calendario</li>
+            <li>Creazione e ridenominazione del calendario</li>
             <li>Le azioni del calendario sono state spostate in un menu Altro accanto al nome del calendario</li>
             <li>Un nuovo pannello laterale per la visualizzazione delle informazioni del calendario</li>
             <li>E altro ancora</li>
@@ -225,7 +229,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Rilascio in anteprima: venerdì 27 febbraio 2025</li>
-                <li>Questa funzione verrà rilasciata in Produzione in tre fasi: a partire dalla versione 25.4 (10 aprile 2025) e fino al 17 aprile 2024</li>
+                <li>Questa funzione verrà rilasciata in produzione in tre fasi: a partire dalla versione 25.4 (10 aprile 2025) e fino al completamento del 17 aprile 2024</li>
             </ul>
         </td>
     </tr>                          
@@ -242,7 +246,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Effettua l’aggiornamento alla nuova versione dell’abbonamento agli eventi con gli endpoint di aggiornamento della versione</a></p>
-            [!BADGE In produzione &#x200B;]{type=Informative}
+            [!BADGE In produzione ]{type=Informative}
             <p>Workfront ora dispone di versioni delle sottoscrizioni agli eventi. Questa nuova versione non cambia l’API Workfront, ma la funzionalità di sottoscrizione eventi. È possibile cambiare gli abbonamenti agli eventi alla nuova versione senza creare uno spazio vuoto nell’abbonamento agli eventi</p>
         </td>
         <td>
@@ -255,7 +259,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p><p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
+            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -270,13 +274,13 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
             Aggiornamenti look-and-feel durante l’arco temporale del secondo trimestre 2025</a></p>
-            <p>Aggiornamenti minori all’aspetto di varie aree dell’applicazione Adobe Workfront vengono effettuati nell’arco di tempo del secondo trimestre 2025. Esamina le singole note sulla versione per le date di rilascio specifiche.</p>
+            <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del secondo trimestre 2025. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Versione di anteprima: per tutto l’arco temporale della versione del secondo trimestre 2025</li>
-                <span class="preview"><li>Rilascio per produzione: esamina le note sulla versione per date specifiche</li></span>
+                <li>Versione di anteprima: nell’arco temporale di rilascio del secondo trimestre 2025</li>
+                <span class="preview"><li>Versione di produzione: consulta le note sulla versione per date specifiche</li></span>
             </ul>
         </td>
     </tr>
@@ -287,19 +291,19 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 
 Le seguenti funzionalità verranno presto rimosse da Workfront:
 
-#### Versione API 2-15 obsoleta
+#### API versione 2-15 obsoleta
 
-Poiché continuiamo a migliorare la piattaforma Workfront, è fondamentale mantenere aggiornate le API. Ciò garantisce prestazioni e sicurezza ottimali e supporta nuove funzionalità. Pertanto, le versioni 2-15 delle API di Workfront verranno dichiarate obsolete.
+Continuando a migliorare la piattaforma Workfront, è fondamentale mantenere aggiornate le API. Questo garantisce prestazioni e sicurezza ottimali e supporta nuove funzionalità. Stiamo pertanto dichiarando obsolete le versioni 2-15 delle API di Workfront.
 
-* **Settembre 2025**: le versioni API 2-14, che non sono attualmente supportate, diventeranno obsolete. Dopo questa data, queste versioni non saranno più accessibili.
+* **Settembre 2025**: le versioni 2-14 delle API, attualmente non supportate, diventeranno obsolete. Dopo questa data, queste versioni non saranno più accessibili.
 * **Dicembre 2025**: la versione 15 dell&#39;API diventerà obsoleta.
 
 #### Stiamo rimuovendo la vista Agile legacy in un progetto
 
-La vista Agile legacy in un progetto verrà rimossa da Workfront con la versione 25.3 del 13 marzo 2025. Puoi comunque visualizzare le attività in una visualizzazione Agile in un progetto facendo clic sull’icona Bacheche. Gli strumenti Agile legacy esistenti sono ancora disponibili nell’area Teams.
+La vista Agile legacy in un progetto verrà rimossa da Workfront con la versione 25.3 del 13 marzo 2025. Puoi comunque visualizzare le attività in una visualizzazione Agile in un progetto facendo clic sull’icona Bacheche. Gli strumenti Agile legacy esistenti sono ancora disponibili nell’area Team.
 
-L’immagine seguente mostra l’opzione Agile legacy che verrà rimossa:
-![collegamento alla vista Agile legacy](assets/project-agile-board-view.png)
+L’immagine seguente mostra l’opzione legacy Agile che verrà rimossa:
+![collegamento visualizzazione Agile legacy](assets/project-agile-board-view.png)
 
 
 #### Obsolescenza avanzata di Analytics
@@ -318,7 +322,7 @@ L’interfaccia di Adobe Workfront è in fase di aggiornamento per migliorare l�
 
 >[!IMPORTANT]
 >
->La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home).
+>La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 >
 >Ogni articolo della documentazione di Fusion corrente contiene un collegamento all’articolo corrispondente nella nuova posizione. Aggiorna i segnalibri.
 >
@@ -328,7 +332,7 @@ Le nuove funzioni di Workfront Fusion sono disponibili nell’ambiente di Produz
 
 ### Miglioramenti di Pianificazione di Workfront
 
-Nuove funzioni di Pianificazione di Workfront sono disponibili nell’ambiente di Produzione. Per ulteriori informazioni sulle funzioni più recenti, vedere [Attività sulla versione di Adobe Workfront Planning per il secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+Nuove funzioni di Pianificazione di Workfront sono disponibili nell’ambiente di Produzione. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività sulla versione di Adobe Workfront Planning Second Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 ### Miglioramenti di Workfront Scenario Planner
 

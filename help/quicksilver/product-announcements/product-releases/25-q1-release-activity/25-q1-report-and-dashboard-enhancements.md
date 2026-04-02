@@ -1,20 +1,22 @@
 ---
-title: Miglioramenti al report e al dashboard per il primo trimestre 2025
-description: Miglioramenti al report e al dashboard per il primo trimestre 2025
+title: Miglioramenti al rapporto e al dashboard per il primo trimestre 2025
+description: Miglioramenti al rapporto e al dashboard per il primo trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 14%
 
 ---
 
-# Miglioramenti al report e al dashboard per il primo trimestre 2025
+# Miglioramenti al rapporto e al dashboard per il primo trimestre 2025
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente Preview con la versione del primo trimestre 2025 a livello di report e dashboard. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima per report e dashboard con la versione del primo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2025, consulta [Panoramica delle versioni del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
@@ -22,18 +24,18 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 15 gennaio 2025; Versione di produzione per tutti i clienti: 15 gennaio 2025
+>Versione di anteprima: 15 gennaio 2025; versione di produzione per tutti i clienti: 15 gennaio 2025
 
-Abbiamo aggiunto il supporto per le seguenti entità in Data Connect:
+È stato aggiunto il supporto per le seguenti entità in Data Connect:
 
-* Utente del team di progetto
-* Ruolo utente team di progetto
-* Ore a budget da segnalare
-* Conteggio statistiche visualizzazione report
+* Utente team progetto
+* Ruolo utente team progetto
+* Ore preventivate da segnalare
+* Conteggio delle statistiche della vista rapporto
 * Responsabile risorse
 * Nota Rich Text
 
-Abbiamo inoltre aggiunto il nostro sostegno alle seguenti entità specifiche delle agenzie:
+Abbiamo anche aggiunto il supporto per le seguenti entità specifiche per le agenzie:
 
 * Profilo aziendale
 * Regola di business
@@ -41,26 +43,26 @@ Abbiamo inoltre aggiunto il nostro sostegno alle seguenti entità specifiche del
 * Categoria risorsa non manodopera
 * Posizione utente
 
-Per ulteriori informazioni, vedere [Dizionario dei dati di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
+Per ulteriori informazioni, vedere [Dizionario dati di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
-## Limite di 25 report, pagine esterne o calendari nei dashboard
+## Limite di 25 rapporti, pagine esterne o calendari nei dashboard
 
 >[!NOTE]
 >
->Versione di anteprima: 16 dicembre 2024; Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
+>Versione di anteprima: 16 dicembre 2024; versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)
 
-Per mantenere le prestazioni del dashboard, è stato implementato un limite al numero totale di report, pagine esterne o calendari che è possibile inserire in un dashboard. Durante la creazione di un nuovo dashboard, è possibile aggiungere un massimo di 25 elementi.
+Per mantenere le prestazioni della dashboard, è stato implementato un limite al numero totale di report, pagine esterne o calendari che è possibile inserire in una dashboard. Durante la creazione di un nuovo dashboard, è possibile aggiungere un massimo di 25 elementi.
 
-I dashboard esistenti che superano questo limite visualizzano un avviso che segnala che vengono visualizzati solo i 25 elementi superiori e che, una volta modificato, il dashboard non può essere salvato finché il numero di elementi inclusi non viene ridotto a un massimo di 25.
+I dashboard esistenti che superano questo limite visualizzano un avviso che indica che vengono visualizzati solo i 25 elementi più in alto e che, una volta modificato, il dashboard non può essere salvato finché il numero di elementi inclusi non viene ridotto a un massimo di 25.
 
 Per ulteriori informazioni, vedere [Creare un dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-## Pulsante per la creazione di account per il lettore per la prima volta di Data Connect
+## Pulsante per la creazione del primo account lettore per Data Connect
 
 >[!NOTE]
 >
->Rilascio per produzione per tutti i clienti: 14 novembre 2024
+>Versione di produzione per tutti i clienti: 14 novembre 2024
 
-Agli amministratori che accedono a Data Connect per la prima volta viene ora offerta la possibilità di creare un nuovo account lettore di Snowflake facendo clic su un singolo pulsante. Il processo richiede alcuni minuti, ma non richiede ulteriori azioni.
+Agli amministratori che accedono a Data Connect per la prima volta viene ora offerta l’opzione di creare un nuovo account Snowflake Reader facendo clic su un singolo pulsante. Il completamento del processo richiede alcuni minuti, ma non richiede ulteriori azioni.
 
-Per ulteriori informazioni sulla configurazione di Data Connect, vedere [Creazione di un account di lettura per il Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+Per ulteriori informazioni sulla configurazione di Data Connect, vedere [Creare un account di lettura per Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).

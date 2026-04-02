@@ -7,14 +7,16 @@ description: Lag è il tempo che deve trascorrere dopo il completamento di un pr
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Panoramica sui tipi di ritardo
+# Panoramica sui tipi di attesa
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +26,7 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -44,7 +46,7 @@ Le date Pianificato, Previsto e Stimato delle attività successore vengono calco
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività e il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -54,7 +56,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Tipi di Lag {#lag-types}
 
@@ -181,7 +185,7 @@ Quando si utilizzano i tag negativi, considera le seguenti regole:
 
    * **Giorni**
    * **Giorni di calendario**
-   * **Percentuale**
+   * **Percent**
    * **Giorno della settimana**
    * **Giorno della settimana (diverso da zero)**
 

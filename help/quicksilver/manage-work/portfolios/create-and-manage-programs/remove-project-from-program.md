@@ -6,10 +6,12 @@ description: Quando non è più necessario, è possibile rimuovere un progetto d
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -38,14 +40,14 @@ ht-degree: 6%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p> 
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Accesso a portafogli, programmi e progetti tramite [!UICONTROL Edit]</p> <p>Per eliminare i progetti è necessario disporre dell'accesso [!UICONTROL Delete].</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio, il programma e il progetto</p> <p>Per eliminare il progetto, è necessario disporre delle autorizzazioni [!UICONTROL Delete]. </p> <p>Per impostazione predefinita, dopo aver creato un programma, si dispone di autorizzazioni [!UICONTROL Manage].</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +57,8 @@ ht-degree: 6%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+-->
 
 ## Rimuovere un progetto da un programma
 

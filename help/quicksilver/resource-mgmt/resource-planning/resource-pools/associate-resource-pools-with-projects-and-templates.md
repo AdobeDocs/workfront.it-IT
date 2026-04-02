@@ -6,17 +6,20 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Associare i pool di risorse a progetti e modelli
+# Associare pool di risorse a progetti e modelli
 
 
-<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
+<!--
+ drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
 Also - take out all the references to Preview and Prod at prod final
 -->
@@ -41,7 +44,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +55,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td>
   </tr> 
@@ -61,7 +64,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Gestisci gruppi di risorse</p> <p>Modificare l’accesso a progetti, modelli e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestisci le autorizzazioni per i progetti, i modelli e gli utenti a cui vuoi associare i Pool di Risorse</td> 
   </tr> 
  </tbody> 
@@ -115,7 +118,7 @@ Per associare i pool di risorse a più progetti in blocco:
 
 1. Fai clic su **Salva modifiche**.\
    Quando i pool di risorse sono associati ai progetti o ai modelli, è possibile preventivare le allocazioni utente per i progetti all&#39;interno della Programmazione delle risorse.\
-   Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Per ulteriori informazioni sulla pianificazione risorse, consulta [Panoramica sulla pianificazione risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Per ulteriori informazioni su come modificare i progetti in blocco, vedere la sezione &quot;Modifica progetti in blocco&quot; in [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 

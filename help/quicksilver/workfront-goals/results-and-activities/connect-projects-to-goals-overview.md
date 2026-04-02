@@ -8,7 +8,9 @@ description: È possibile collegare i progetti agli obiettivi per indicare il mo
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 12%
@@ -81,7 +83,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -135,7 +138,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerazioni sulla connessione dei progetti agli obiettivi
 
@@ -154,7 +158,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 * Non è possibile aggiornare manualmente l’avanzamento di un progetto dall’obiettivo a cui è associato il progetto. Al contrario, Workfront calcola la percentuale di completamento del progetto e Workfront Goals calcola l’avanzamento dell’obiettivo utilizzando questa percentuale di completamento. Questo aggiorna l’obiettivo in tempo reale dopo gli aggiornamenti della percentuale del progetto.
 * La durata del progetto può essere al di fuori del periodo di tempo di un obiettivo. Se un progetto dura più a lungo della scadenza dell’obiettivo, puoi comunque chiudere l’obiettivo e considerarlo completato, ma la percentuale di completamento dell’obiettivo non sarà del 100%. La percentuale di completamento del progetto non viene più aggiornata in base all’obiettivo.
 
-<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+<!--
+this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 

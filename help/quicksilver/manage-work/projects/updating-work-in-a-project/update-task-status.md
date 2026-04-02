@@ -6,14 +6,16 @@ description: È possibile aggiornare lo stato di un'attività per informare gli 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Aggiorna stato attività
+# Aggiornare stato attività
 
 <!--Audited: 10/2024-->
 
@@ -36,7 +38,7 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p>
    </td> 
@@ -46,7 +48,7 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
    <td> <p>Modifica l'accesso alle Attività</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per l’attività</p> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +58,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sull&#39;aggiornamento dello stato delle attività
 
@@ -129,7 +133,8 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
    >
    >  Solo gli assegnatari delle attività possono aggiornare la Data di conferma.
 
-<!--old functionality in old commenting: 
+<!--
+old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -142,7 +147,8 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)
+     -->
 
 ## Aggiorna automaticamente lo stato delle attività
 

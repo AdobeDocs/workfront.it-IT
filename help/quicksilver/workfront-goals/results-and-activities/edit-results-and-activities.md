@@ -7,7 +7,9 @@ description: Dopo che l’amministratore di Adobe Workfront ti ha concesso l’a
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 13%
@@ -78,7 +80,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -132,7 +135,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerazioni durante la modifica di risultati e attività
 

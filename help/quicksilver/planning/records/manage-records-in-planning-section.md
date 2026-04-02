@@ -6,10 +6,12 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
@@ -61,7 +65,7 @@ ht-degree: 0%
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
    <p>In Workfront, visualizzare o autorizzazioni superiori per un progetto, portfolio o programma</a> </p> 
    <p>In Workfront Planning:</p>
@@ -79,7 +83,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -145,7 +150,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 
 ## Gestire i record nella sezione Pianificazione
@@ -156,8 +162,10 @@ La sezione Pianificazione è disponibile per i seguenti oggetti Workfront:
 * Progetto
 * Portfolio
 * Programma
-<!--* Group
-* Company-->
+<!--
+* Group
+* Company
+-->
 
 ### Considerazioni sulla sezione Pianificazione degli oggetti di Workfront
 
@@ -165,9 +173,9 @@ Quando si visualizzano i record di Workfront Planning dalla sezione Planning di 
 
 * I tipi di record di Workfront Planning devono prima essere connessi ai tipi di oggetto di Workfront.
 
-  Per informazioni, vedere i seguenti articoli:
+  Per ulteriori informazioni, consulta:
 
-   * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 * È possibile visualizzare la sezione Planning da un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
 * Un tipo di record viene visualizzato nell&#39;area di pianificazione di un oggetto Workfront solo quando si abilita il campo Crea corrispondente nell&#39;impostazione del tipo di record collegato durante la creazione della connessione tra due tipi di record.

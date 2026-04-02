@@ -7,26 +7,30 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2958'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Modifica le attività modello
+# Modificare attività modello
 
 <!--Audited: 11/2025-->
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Dopo aver creato un modello, è possibile modificare le informazioni relative alle attività del modello. Le informazioni aggiornate in un&#39;attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
 
@@ -48,10 +52,10 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano </p></td> 
   </tr> 
@@ -60,7 +64,7 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
    <td> <p>Modificare l’accesso ai modelli</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti </td> 
    <td> <p>Consente di gestire le autorizzazioni per un modello. </p> <p>Impossibile condividere un'attività modello. </p> </td> 
   </tr> 
  </tbody> 
@@ -70,7 +74,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +99,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -104,7 +110,7 @@ Prima di iniziare, è necessario
 
   Per informazioni sulla creazione di un modello, vedere [Creare un modello di progetto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
-## Modifica le attività modello
+## Modificare attività modello
 
 È possibile modificare un&#39;attività modello utilizzando le aree Modifica attività modello o Dettagli attività modello.
 
@@ -300,7 +306,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
    </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Durata per Occorrenza</td> 
-   <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
+   <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
 
    Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td>
    </tr> 
@@ -371,7 +377,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
 
    <p><b>NOTA</b>
 
-   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
+   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso indica il passaggio effettivo dei giorni solari.
 
    L&#39;orario regolare prende in considerazione le festività, i fine settimana e le ferie e le esclude dalla Durata dell&#39;attività. Per ulteriori informazioni sulla durata dell&#39;attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell&#39;attività</a>. </p>
    </div> 
@@ -382,7 +388,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
    <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
    <b>NOTA</b>
    <p>
-   Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
+   Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
    </p>
 
    </td> 
@@ -568,7 +574,8 @@ I moduli vengono aggiunti automaticamente alle attività create dal modello.
    Quando un utente crea un progetto a partire da questo modello, tutte le impostazioni applicate alle attività modello diventano le impostazioni delle attività progetto.
 
 
-<!--Temporary content for Assignments redesign:
+<!--
+Temporary content for Assignments redesign:
 
 Editing template tasks differs depending on which environment you choose to edit the tasks. 
 
@@ -826,7 +833,8 @@ You can edit a template task using the Edit Template Task or Template Task Detai
        <ul> 
        <li>Only active approval processes display in the list. </li> 
        <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
+       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
        <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
        <ul> 
        <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -1246,4 +1254,5 @@ You can also add custom forms to the future tasks of a project when the project 
 
 <div class="preview">
 
-### Edit template tasks in the Preview environment-->
+### Edit template tasks in the Preview environment
+-->

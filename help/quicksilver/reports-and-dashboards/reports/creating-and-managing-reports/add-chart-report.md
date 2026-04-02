@@ -6,7 +6,9 @@ description: Puoi migliorare i rapporti aggiungendo un grafico. È possibile agg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2739'
 ht-degree: 2%
@@ -105,23 +107,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 Per aggiungere un grafico **Colonna** al report:
 
-1. Iniziare ad aggiungere un grafico al report, come descritto in [Aggiungere un grafico a un report](#add-a-chart-to-a-report).
+1. Inizia ad aggiungere un grafico al tuo report, come descritto in [Aggiungi un grafico a un report](#add-a-chart-to-a-report).
 
 1. Nel campo **Asse sinistro**, selezionare i valori che si desidera includere sull&#39;asse Y del grafico, quindi selezionare la modalità di riepilogo delle informazioni nel campo **Riepilogato per**.
 
-1. (Facoltativo) Fate clic su **Colori personalizzati** per assegnare i colori preferiti a ciascuna colonna.\
+1. (Facoltativo) Fai clic su **Colori personalizzati** per assegnare colori preferiti a ciascuna colonna.\
    Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori dei grafici](#customize-chart-colors).
 
 1. Nel campo **Asse inferiore (X)** selezionare il raggruppamento che si desidera includere nel grafico.
 
-1. (Facoltativo) Fare clic su **Mostra in 3D** per visualizzare il grafico in una vista tridimensionale.
+1. (Facoltativo) Fare clic su **Mostra in 3D** per visualizzare il grafico in una visualizzazione tridimensionale.
 
 1. (Facoltativo) **Raggruppa colonne**: selezionare questa opzione per definire la modalità di raggruppamento delle colonne.\
-   Selezionate una delle seguenti opzioni:
+   Selezionare una delle opzioni seguenti:
 
-   * Fate clic su una delle seguenti opzioni per selezionare la modalità di visualizzazione delle colonne raggruppate:
+   * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle colonne raggruppate:
 
-      * **Affiancato**
+      * **Affiancati**
       * **In pila**
       * **Sovrapposizione al 100%**
 
@@ -208,7 +210,7 @@ Per aggiungere un grafico **Line** al report:
    (Facoltativo) Fai clic su **Colori personalizzati** per personalizzare i colori del nuovo raggruppamento.\
    Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori dei grafici](#customize-chart-colors).
 
-1. (Facoltativo) Fare clic su **Grafico combinato** per combinare le linee di un valore aggiuntivo.\
+1. (Facoltativo) Fai clic su **Grafico combinato** per combinare le righe di un valore aggiuntivo.\
    Considera tra le seguenti opzioni:
 
    * Selezionare il valore che si desidera includere nel grafico, nonché la modalità di riepilogo delle informazioni.
@@ -218,11 +220,11 @@ Per aggiungere un grafico **Line** al report:
 
 ### Grafico a barre {#gauge-chart}
 
-In un grafico **Sagoma** viene visualizzato il numero di record che soddisfano determinati criteri in un formato di misuratore. L&#39;indicatore del contatore indica il numero di record che soddisfano i criteri selezionati nella visualizzazione e nel raggruppamento del report. Non è necessario un raggruppamento di report per configurare un grafico di contatore.
+Un grafico **Misuratore** visualizza il numero di record che soddisfano determinati criteri in un formato di contatore. L&#39;indicatore del contatore punta al numero di record che soddisfano i criteri selezionati nella visualizzazione e nel raggruppamento del report. Non è necessario un raggruppamento di rapporti per configurare un grafico a contatori.
 
-Per aggiungere un grafico **indicatore** al report:
+Per aggiungere un grafico **Misuratore** al report:
 
-1. Iniziare ad aggiungere un grafico al report, come descritto in [Aggiungere un grafico a un report](#add-a-chart-to-a-report).
+1. Inizia ad aggiungere un grafico al tuo report, come descritto in [Aggiungi un grafico a un report](#add-a-chart-to-a-report).
 
 1. Nel campo **Valori**, selezionare i valori che si desidera visualizzare nel report, quindi selezionare la modalità di riepilogo delle informazioni nel campo **Riepilogato per**. Se si seleziona **Conteggio record**, i valori visualizzati sono l&#39;oggetto del report.
 
@@ -271,17 +273,17 @@ Per aggiungere un grafico a **bolle** al report:
 
    ![Stato attività come colore bolla](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   Tuttavia, se avete selezionato **Stato attività** per il campo **Bolle**, non potete selezionare un campo **Colore bolla**. Inoltre, non è possibile selezionare **Nome progetto** per il campo **Colore bolle**, anche se si seleziona **Nome progetto** per il campo **Bolle**.
+   Tuttavia, se hai selezionato **Stato attività** per il campo **Bolle**, non puoi selezionare un campo **Colore bolla**. Inoltre, non puoi selezionare **Nome progetto** per il campo **Colore bolla**, nemmeno quando selezioni **Nome progetto** per il campo **Bolle**.
 
    ![Impossibile selezionare il colore della bolla](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
-1. Fai clic su **Salva + Chiudi** per salvare le modifiche nel generatore di interfacce.
+1. Fai clic su **Salva + Chiudi** per salvare le modifiche apportate al generatore di interfacce.
 
 ## Personalizzare i colori del grafico {#customize-chart-colors}
 
-È possibile consentire a Workfront di selezionare i colori degli elementi del grafico oppure personalizzarli durante l&#39;aggiunta di un grafico ai report. Se il grafico contiene un singolo raggruppamento che rappresenta una metrica, ad esempio un report delle attività che mostra il numero di attività raggruppate per data di completamento effettiva, ogni risultato del raggruppamento viene visualizzato con lo stesso colore.
+È possibile consentire a Workfront di selezionare i colori degli elementi del grafico oppure personalizzarli durante l&#39;aggiunta di un grafico ai report. Se il grafico contiene un singolo raggruppamento che rappresenta una metrica, ad esempio un report di attività che mostra il numero di attività raggruppate per data di completamento effettiva, ogni risultato del raggruppamento viene visualizzato con lo stesso colore.
 
-È possibile scegliere un solo colore per i campi visualizzati nella visualizzazione del report. È possibile scegliere più colori, uno per ogni opzione, per i campi visualizzati in Raggruppamento del report.
+È possibile scegliere un solo colore per i campi visualizzati nella visualizzazione del report. È possibile scegliere diversi colori, uno per ogni opzione, per i campi visualizzati nel Raggruppamento del report.
 
 >[!IMPORTANT]
 >
@@ -305,23 +307,23 @@ Per personalizzare i colori dei grafici:
 1. Prendi in considerazione di selezionare una delle seguenti opzioni:
 
    * **Usa un solo colore**: tutti gli elementi del grafico verranno visualizzati nel colore selezionato.
-   * **Aggiungi colore**: aggiungi un colore personale per un possibile valore del campo selezionato.
-   * **Rimuovi tutto**: selezionate questa opzione per rimuovere tutti i valori dei campi e i colori specificati sopra.
+   * **Aggiungi colore**: aggiungi un colore personalizzato per un possibile valore del campo selezionato.
+   * **Rimuovi tutto**: selezionare questa opzione per rimuovere tutti i valori di campo e i colori specificati sopra.
    * **Nessun valore**: selezionare questo campo e un colore personalizzato per visualizzare la colonna del grafico che raggruppa gli elementi &quot;nessun valore&quot;. Si tratta di elementi che non possono essere raggruppati in base alle opzioni del campo selezionato nel raggruppamento.
    * **Tutti gli altri valori**: selezionare questo campo e un colore personalizzato per visualizzare tutti gli altri elementi del grafico le cui opzioni non sono definite in precedenza.
 
      >[!NOTE]
      >
-     >I colori modificati più di recente vengono visualizzati a destra del pulsante **Colori personalizzati**. Quando passi il mouse su un colore, viene visualizzato il nome del campo associato. Potete anche fare clic su un colore per modificarlo senza riaprire **Colori personalizzati**.
+     >I colori modificati più di recente vengono visualizzati a destra del pulsante **Colori personalizzati**. Quando passi il mouse su un colore, viene visualizzato il nome del campo associato. Puoi anche fare clic su un colore per modificarlo senza riaprire **Colori personalizzati**.
 
 1. Per scegliere un colore:
-Fate clic all’interno del selettore colore per selezionare un colore.
+Fate clic all&#39;interno del selettore colore per selezionare un colore.
 OPPURE
-Specificate un valore esadecimale per il colore.
+Specificare un valore esadecimale per il colore.
 
-1. Fate clic in un punto qualsiasi esterno alla finestra di dialogo Colori personalizzati per chiuderla. I colori selezionati vengono salvati automaticamente.
+1. Fate clic in un punto qualsiasi all&#39;esterno della finestra di dialogo Colori personalizzati (Custom Colors) per chiuderla. I colori selezionati vengono salvati automaticamente.
 
-1. Fai clic su **Salva + Chiudi** per salvare il grafico ed eseguire il report.
+1. Fare clic su **Salva + Chiudi** per salvare il grafico ed eseguire il report.
 
 ## Esportare un grafico
 

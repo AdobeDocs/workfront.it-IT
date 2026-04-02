@@ -7,14 +7,16 @@ description: Gli stati obiettivo indicano se un obiettivo è attivo e sta regist
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront
+# Panoramica sullo stato degli obiettivi in Obiettivi Adobe Workfront
 
 <!--Audited: 4/2025-->
 
@@ -22,11 +24,12 @@ ht-degree: 4%
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 4%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 ## Considerazione durante l’aggiornamento degli stati degli obiettivi in Obiettivi di Workfront
 
@@ -63,7 +67,7 @@ ht-degree: 4%
    * [Crea obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
    * [Attiva obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Elimina e disattiva obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Chiudere e riaprire gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+   * [Chiudere e riaprire gli obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Panoramica degli stati degli obiettivi in Obiettivi di Workfront
 

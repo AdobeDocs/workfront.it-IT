@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +33,7 @@ Per informazioni su tutti i tipi di log di controllo e su cosa li genera, vedere
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -44,7 +46,7 @@ Per informazioni su tutti i tipi di log di controllo e su cosa li genera, vedere
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -56,11 +58,12 @@ Per informazioni su tutti i tipi di log di controllo e su cosa li genera, vedere
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old: 
+<!--
+Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <td><p>System Administrator</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Visualizzare i registri di audit
 
@@ -109,7 +113,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    ![Registri di controllo](assets/audit-logs.png)
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 1. (Facoltativo) Fai clic su **Cancella** per ripristinare le modifiche apportate ai filtri.
 
 ## Esportare i registri di audit

@@ -5,10 +5,12 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -16,11 +18,11 @@ ht-degree: 0%
 
 Abbiamo rimosso tutti gli strumenti basati su Flash da Adobe Workfront Classic.
 
-Gli strumenti di sostituzione basati sugli standard attuali sono ora disponibili in Workfront. Queste modifiche sono in linea con la fine del supporto per i prodotti di Flash, come annunciato da Adobe.
+Gli strumenti di sostituzione basati sugli standard attuali sono ora disponibili in Workfront. Queste modifiche sono in linea con la fine del supporto dei prodotti Flash, come annunciato da Adobe.
 
 ## Date importanti
 
-Le seguenti date sono importanti per il processo di rimozione di tutti gli strumenti basati sul Flash in Workfront:
+Le seguenti date sono importanti per il processo di rimozione di tutti gli strumenti basati su Flash in Workfront:
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -34,7 +36,7 @@ Le seguenti date sono importanti per il processo di rimozione di tutti gli strum
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **19 novembre 2020**: tutti gli strumenti basati sul Flash sono stati rimossi da tutti i prodotti Workfront.
+* **19 novembre 2020**: tutti gli strumenti basati su Flash sono stati rimossi da tutti i prodotti Workfront.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,11 +45,11 @@ Le seguenti date sono importanti per il processo di rimozione di tutti gli strum
   </MadCap:conditionalText>
   -->
 
-## Strumenti basati su Flash legacy
+## Strumenti legacy basati su Flash
 
 Gli strumenti elencati nelle sezioni seguenti sono stati rimossi dal sistema Workfront e sostituiti con nuove soluzioni.
 
-Per informazioni sugli strumenti di sostituzione, vedere [Strumenti basati sul Flash legacy e relativi strumenti di sostituzione](#legacy-flash-based-tools-and-their-replacements) in questo articolo.
+Per informazioni sugli strumenti di sostituzione, vedere [Strumenti legacy basati su Flash e relativi strumenti di sostituzione](#legacy-flash-based-tools-and-their-replacements) in questo articolo.
 
 ### Gestione risorse
 
@@ -80,7 +82,7 @@ Per informazioni sugli strumenti di sostituzione, vedere [Strumenti basati sul F
 * L&#39;opzione Usa nuova area di pianificazione nella scheda secondaria Pianificazione della scheda Gestione del personale di un progetto che rimuove l&#39;area di pianificazione legacy o Team Builder. In questo caso, la timeline Pianificazione ora viene visualizzata per impostazione predefinita.
 * Scheda Allocazione nel profilo utente
 
-### Report
+### Rapporti
 
 Le seguenti funzioni di reporting sono state rimosse:
 
@@ -102,10 +104,10 @@ Le seguenti funzioni di reporting sono state rimosse:
 ### Gantt legacy
 
 * Tutte le viste Gantt legacy dagli elenchi di progetti e attività, nonché le opzioni per report e reporting
-* Schede secondarie Gantt legacy in Portfoli e programmi
+* Schede secondarie Gantt legacy in portfolio e programmi
 * Scheda secondaria Gantt legacy in un elenco di attività modello su un modello, visualizzazione Gantt legacy nella scheda Attività secondarie di un&#39;attività modello e in un report attività modello
 
-### Verifica
+### Verifica bozze
 
 Il visualizzatore di bozze legacy è stato sostituito con il nuovo visualizzatore di bozze web e il nuovo visualizzatore di bozze desktop per la maggior parte dei clienti ed è stato rimosso per tutti i clienti a novembre 2020.
 
@@ -116,7 +118,7 @@ Il visualizzatore di bozze legacy è stato sostituito con il nuovo visualizzator
 Per ulteriori informazioni, consulta le risorse seguenti:
 
 * [Verifica delle bozze nel visualizzatore bozze Web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [Esaminare le bozze nel Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Rivedere le bozze nel Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
@@ -133,7 +135,7 @@ Per ulteriori informazioni, consulta le risorse seguenti:
 </div>
 -->
 
-## Strumenti basati su Flash legacy e loro sostituti {#legacy-flash-based-tools-and-their-replacements}
+## Strumenti legacy basati su Flash e loro sostituzioni {#legacy-flash-based-tools-and-their-replacements}
 
 Salvo diversa indicazione, tutte le feature legacy sono state sostituite da nuove, come illustrato nella tabella seguente.
 
@@ -171,15 +173,17 @@ Salvo diversa indicazione, tutte le feature legacy sono state sostituite da nuov
   </tr> 
   <tr> 
    <td> <p><strong>Stime risorse</strong> </p> <p>La scheda Stime risorse in ogni gruppo di risorse esistente ha lo stesso scopo di Responsabile del budget risorse, solo nel contesto di un gruppo di risorse esistente. Questo strumento presenta le stesse limitazioni di Gestione budget risorse e dei Pool di risorse legacy: dati imprecisi e immissione manuale della disponibilità. </p> </td> 
-   <td> <p>Con il calcolo automatico della disponibilità utente, le Stime di Risorse sono diventate obsolete e sono state rimosse.</p> <p>Lo strumento viene eliminato nei gruppi di risorse legacy e nelle Stime di risorse legacy nel caso aziendale di un progetto. <!--
+   <td> <p>Con il calcolo automatico della disponibilità utente, le Stime di Risorse sono diventate obsolete e sono state rimosse.</p> <p>Lo strumento viene eliminato nei gruppi di risorse legacy e nelle Stime di risorse legacy nel caso aziendale di un progetto.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Capacity Planner</strong> </p> <p>Il Capacity Planner era uno strumento di Workfront per la definizione del budget delle risorse e l'assegnazione delle priorità ai progetti all'interno di un Pool di Risorse Legacy, in base alla disponibilità delle risorse. Data l'incompletezza dei dati delle stime delle risorse e del responsabile del budget risorse che ha fornito le informazioni per il Capacity Planner, è stato necessario verificare la priorità del progetto in base alla disponibilità degli utenti.</p> <p>L'utilizzo di un singolo pool di risorse legacy che includeva tutti i ruoli nel sistema è stato lo scenario più comune, che ha causato problemi di prestazioni con il Capacity Planner che ha tentato di caricare un gran numero di progetti.</p> </td> 
-   <td> <p><strong>Visualizzazione progetto della Programmazione risorse</strong> </p> <p>Nella visualizzazione basata sul progetto della Programmazione delle risorse, è possibile preventivare le risorse e assegnare priorità ai progetti in modo analogo a come si faceva nella Programmazione delle capacità legacy. A differenza dello strumento legacy, ora sono supportati più dati e le informazioni disponibili sono più precise, tenendo conto sia del tempo libero degli utenti che delle eccezioni di pianificazione.</p> <p>Le informazioni disponibili, pianificate e preventivate sono immediatamente visibili in modo che i responsabili delle risorse possano verificare se il numero di persone necessarie per eseguire il lavoro è sufficiente e se i piani di progetto superano le stime di budget iniziali.</p> <p> Per informazioni sull'utilizzo della visualizzazione Progetto nella Programmazione delle risorse, vedere <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Panoramica sulla programmazione delle risorse</a></p> <p><strong>Pianificazione scenario</strong> </p> <p>Per la pianificazione a lungo termine della capacità, la modellazione di scenari what-if e la definizione delle priorità, abbiamo anche introdotto Workfront Scenario Planner . </p> <p>La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a>. </p> </td> 
+   <td> <p><strong>Visualizzazione progetto della Programmazione risorse</strong> </p> <p>Nella visualizzazione basata sul progetto della Programmazione delle risorse, è possibile preventivare le risorse e assegnare priorità ai progetti in modo analogo a come si faceva nella Programmazione delle capacità legacy. A differenza dello strumento legacy, ora sono supportati più dati e le informazioni disponibili sono più precise, tenendo conto sia del tempo libero degli utenti che delle eccezioni di pianificazione.</p> <p>Le informazioni disponibili, pianificate e preventivate sono immediatamente visibili in modo che i responsabili delle risorse possano verificare se il numero di persone necessarie per eseguire il lavoro è sufficiente e se i piani di progetto superano le stime di budget iniziali.</p> <p> Per informazioni sull'utilizzo della visualizzazione Progetto nella Programmazione delle risorse, vedere <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Panoramica sulla programmazione delle risorse</a></p> <p><strong>Pianificazione scenario</strong> </p> <p>Per la pianificazione a lungo termine della capacità, la modellazione di scenari what-if e la definizione delle priorità, abbiamo anche introdotto Workfront Scenario Planner . </p> <p>La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica su Pianificazione scenari</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Stime risorse legacy (caso aziendale)</strong> </p> <p>È possibile utilizzare l'area Stime risorse legacy del Business Case per preventivare una determinata quantità di ore e costi di manodopera nell'ambito della pianificazione del progetto e della richiesta di risorse. Questa visualizzazione non forniva alcuna visibilità sulla disponibilità delle risorse, il che risultava in richieste approssimative di risorse e una maggiore possibilità di rifiutare il lavoro di progetto.</p> </td> 
@@ -201,7 +205,7 @@ Salvo diversa indicazione, tutte le feature legacy sono state sostituite da nuov
     <ul> 
      <li> <p><strong>Per la fase analitica:</strong> </p> 
       <ul> 
-       <li> <p><strong>Bilanciatore dei carichi di lavoro</strong>: utilizzare il Bilanciatore dei carichi di lavoro per visualizzare il carico di lavoro degli utenti a un livello più granulare. Quando si utilizza il Bilanciatore dei carichi di lavoro, è possibile visualizzare gli utenti che dispongono di disponibilità nel carico di lavoro per completare l'attività in tempo. Questo include i dettagli relativi alle ferie e alle eccezioni alla pianificazione. </p> <p>Per informazioni sul Bilanciatore dei carichi di lavoro, consulta <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p> </li> 
+       <li> <p><strong>Bilanciatore dei carichi di lavoro</strong>: utilizzare il Bilanciatore dei carichi di lavoro per visualizzare il carico di lavoro degli utenti a un livello più granulare. Quando si utilizza il Bilanciatore dei carichi di lavoro, è possibile visualizzare gli utenti che dispongono di disponibilità nel carico di lavoro per completare l'attività in tempo. Questo include i dettagli relativi alla non disponibilità e alle eccezioni di pianificazione. </p> <p>Per informazioni sul Bilanciatore dei carichi di lavoro, consulta <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p> </li> 
        <li> <p><strong>Visualizzazione utente della Programmazione delle risorse</strong><strong>:</strong> Quando si tenta di capire a un livello superiore a quali progetti sono assegnati gli utenti, utilizzare la Visualizzazione utente della Programmazione delle risorse. Questo consente di vedere su cosa stanno lavorando gli utenti e le loro sovrassegnazioni e sottoassegnazioni per un intervallo di tempo specifico. La Programmazione delle risorse fornisce anche una visualizzazione dell’allocazione complessiva degli utenti nel suo insieme, nonché la visibilità sulle Ore effettive registrate, utile per analizzare l’avanzamento del lavoro svolto. </p> <p>Per informazioni sull'utilizzo della Vista utente nella Programmazione delle risorse, vedere la sezione <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">Utilizzare la Vista utente per visualizzare le Ore disponibili, pianificate ed effettive o FTE </a> in <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Panoramica sulla Programmazione delle risorse</a></p> </li> 
       </ul> </li> 
      <li><strong>Per la fase tattica:</strong> 
@@ -212,7 +216,8 @@ Salvo diversa indicazione, tutte le feature legacy sono state sostituite da nuov
          <li>Gestire le allocazioni degli utenti agli elementi di lavoro. </li>
          <li>Condividi il Bilanciatore dei carichi di lavoro con altri utenti che potrebbero non avere visibilità nell’area Persone. Utilizza la funzionalità di collegamento condivisibile per condividere un collegamento al Bilanciatore dei carichi di lavoro e incorporarlo in dashboard personalizzati. Tutti gli utenti con accesso a Visualizza utenti possono visualizzare queste dashboard quando vengono condivise.</li>
         </ul><p>Il Bilanciatore dei carichi di lavoro è disponibile nell’area Persone. </p><p>Per informazioni sul Bilanciatore dei carichi di lavoro, consulta <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,24 +233,25 @@ Salvo diversa indicazione, tutte le feature legacy sono state sostituite da nuov
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Grafico di Gantt Legacy, Elenco Attività</strong> </p> <p> Il Grafico di Gantt legacy presente nell'elenco delle attività consente agli utenti di visualizzare visivamente la timeline del progetto e di eseguire la pianificazione dello scenario what-if senza apportare modifiche al database. Il grafico Gantt legacy si basava sulla tecnologia di Flash, che presentava rischi per la sicurezza. </p> </td> 
-   <td> <p><strong>Grafico di Gantt,</strong> <strong>Elenco Attività</strong></p> <p> Il nuovo Diagramma di Gantt basato su HTML ha lo stesso scopo del Gantt legacy. Gli utenti possono visualizzare la timeline del progetto ed eseguire la pianificazione dello scenario what-if senza apportare modifiche al database passando all’opzione Salvataggio manuale dalla barra degli strumenti dell’elenco di attività. </p> <p>Il nuovo Diagramma di Gantt è interattivo quando si utilizza l’opzione Salvataggio automatico, che è possibile utilizzare quando si desidera salvare automaticamente le modifiche nel momento in cui si verificano. </p> <p>Il nuovo Diagramma di Gantt dell’elenco delle attività si basa sulla tecnologia più recente ed è affidabile. Questo nuovo diagramma di Gantt si trova direttamente nell'elenco delle attività ed è facilmente accessibile quando si lavora sull'elenco delle attività senza cambiare scheda o senza modificare la visualizzazione. </p> <p>Sebbene il nuovo diagramma di Gantt offra le stesse funzionalità del grafico precedente, vi sono alcune differenze nelle caratteristiche rispetto al diagramma precedente. </p> <p> La scheda secondaria Gantt legacy in un elenco di attività modello su un modello, la vista Gantt legacy nella scheda Attività secondarie di un'attività modello e il grafico Gantt legacy in un report Attività modello sono stati sostituiti anche con il grafico Gantt basato su HTML. </p> <p>Se si utilizza il Grafico di Gantt legacy principalmente per la visualizzazione semplice e le modifiche rapide e non si utilizza il grafico effettivo, la nuova opzione Pianificazione sequenza temporale consente di apportare modifiche rapide ai campi di pianificazione chiave. Dalla barra degli strumenti dell'elenco di task è possibile selezionare Pianificazione sequenza temporale anziché Salvataggio automatico.</p> <p>Per ulteriori informazioni sul salvataggio di un elenco di attività tramite l'opzione Pianificazione sequenza temporale, vedere la sezione "Salvare manualmente le modifiche in un elenco di attività quando si seleziona l'opzione Pianificazione sequenza temporale" nell'articolo <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modificare le attività in un elenco</a>. </p> </td> 
+   <td> <p><strong>Grafico di Gantt Legacy, Elenco Attività</strong> </p> <p> Il Grafico di Gantt legacy presente nell'elenco delle attività consente agli utenti di visualizzare visivamente la timeline del progetto e di eseguire la pianificazione dello scenario what-if senza apportare modifiche al database. Il grafico Gantt legacy era basato sulla tecnologia Flash, che presentava rischi per la sicurezza. </p> </td> 
+   <td> <p><strong>Grafico di Gantt,</strong> <strong>Elenco Attività</strong></p> <p> Il nuovo Gantt Chart basato su HTML ha lo stesso scopo del Gantt legacy. Gli utenti possono visualizzare la timeline del progetto ed eseguire la pianificazione dello scenario what-if senza apportare modifiche al database passando all’opzione Salvataggio manuale dalla barra degli strumenti dell’elenco di attività. </p> <p>Il nuovo Diagramma di Gantt è interattivo quando si utilizza l’opzione Salvataggio automatico, che è possibile utilizzare quando si desidera salvare automaticamente le modifiche nel momento in cui si verificano. </p> <p>Il nuovo Diagramma di Gantt dell’elenco delle attività si basa sulla tecnologia più recente ed è affidabile. Questo nuovo diagramma di Gantt si trova direttamente nell'elenco delle attività ed è facilmente accessibile quando si lavora sull'elenco delle attività senza cambiare scheda o senza modificare la visualizzazione. </p> <p>Sebbene il nuovo diagramma di Gantt offra le stesse funzionalità del grafico precedente, vi sono alcune differenze nelle caratteristiche rispetto al diagramma precedente. </p> <p> La scheda secondaria Gantt legacy in un elenco di attività modello su un modello, la visualizzazione Gantt legacy nella scheda Attività secondarie di un'attività modello e il grafico Gantt legacy in un report Attività modello sono stati sostituiti anche con il grafico Gantt basato su HTML. </p> <p>Se si utilizza il Grafico di Gantt legacy principalmente per la visualizzazione semplice e le modifiche rapide e non si utilizza il grafico effettivo, la nuova opzione Pianificazione sequenza temporale consente di apportare modifiche rapide ai campi di pianificazione chiave. Dalla barra degli strumenti dell'elenco di task è possibile selezionare Pianificazione sequenza temporale anziché Salvataggio automatico.</p> <p>Per ulteriori informazioni sul salvataggio di un elenco di attività tramite l'opzione Pianificazione sequenza temporale, vedere la sezione "Salvare manualmente le modifiche in un elenco di attività quando si seleziona l'opzione Pianificazione sequenza temporale" nell'articolo <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modificare le attività in un elenco</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Grafico di Gantt legacy per un elenco di progetti</strong> </p> <p>Il Grafico di Gantt legacy nell’elenco dei progetti consentiva agli utenti di visualizzare i progetti e le relative attività in un’unica schermata. Senza uscire dal contesto dell’elenco dei progetti, gli utenti potevano visualizzare i dettagli delle attività di un progetto e le dipendenze tra i progetti. Il grafico Gantt legacy nell’elenco dei progetti si basava sulla tecnologia di Flash, che presentava rischi per la sicurezza. </p> </td> 
+   <td> <p><strong>Grafico di Gantt legacy per un elenco di progetti</strong> </p> <p>Il Grafico di Gantt legacy nell’elenco dei progetti consentiva agli utenti di visualizzare i progetti e le relative attività in un’unica schermata. Senza uscire dal contesto dell’elenco dei progetti, gli utenti potevano visualizzare i dettagli delle attività di un progetto e le dipendenze tra i progetti. Il grafico Gantt legacy nell’elenco dei progetti era basato sulla tecnologia Flash, che presentava rischi per la sicurezza. </p> </td> 
    <td> <p><strong>Grafico di Gantt, Elenco Progetti</strong> </p> <p>Il grafico di Gantt basato su HTML ha lo stesso scopo del grafico Gantt legacy. Gli utenti possono visualizzare i progetti e le relative attività in un’unica visualizzazione per identificare visivamente le dipendenze tra progetti e attività. Il diagramma di Gantt dell’elenco dei progetti si trova direttamente nell’elenco dei progetti. Il nuovo grafico Gantt ha un'interfaccia moderna ed è basato sulla tecnologia più recente.</p> <p>Per informazioni sul diagramma di Gantt con l'elenco dei progetti, vedere <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Visualizzare le informazioni nel diagramma di Gantt </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Finestre di dialogo di condivisione per report, calendari e documenti</strong> </p> <p>Quando si condividevano report, calendari e documenti, le finestre di dialogo utilizzate erano basate sulla tecnologia di Flash.</p> </td> 
-   <td> <p>L'esperienza di condivisione di report, calendari e documenti in Workfront non è cambiata. Tuttavia, l’esperienza non si basa più sul Flash.</p> <p>Per ulteriori informazioni sulla condivisione di questi elementi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica sulle autorizzazioni di condivisione per gli oggetti</a>.</p> </td> 
+   <td> <p><strong>Finestre di dialogo di condivisione per report, calendari e documenti</strong> </p> <p>Quando si condividevano report, calendari e documenti, le finestre di dialogo utilizzate erano basate sulla tecnologia Flash.</p> </td> 
+   <td> <p>L'esperienza di condivisione di report, calendari e documenti in Workfront non è cambiata. Tuttavia, l'esperienza non si basa più su Flash.</p> <p>Per ulteriori informazioni sulla condivisione di questi elementi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Panoramica sulle autorizzazioni di condivisione per gli oggetti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Visualizzatore di bozze legacy</strong> </p> <p>Il visualizzatore di bozze legacy era un visualizzatore di bozze basato su web che forniva funzionalità di bozza per bozze statiche, video e interattive.</p> </td> 
-   <td> <p><strong>Visualizzatore bozze Web e Visualizzatore bozze desktop</strong> </p> <p>Il visualizzatore bozze web fornisce funzionalità di bozza per bozze statiche e video.</p> <p>Il Visualizzatore bozze desktop fornisce funzionalità di bozza per le bozze interattive, oltre a fornire supporto completo per le bozze statiche e video.</p> <p>Il formato di file SWF non è più supportato da nessuno dei principali provider ed è stato sostituito con i banner HTML5 per la verifica. </p> <p>Per informazioni più dettagliate sulle differenze tra i visualizzatori di bozze disponibili, vedere <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differenze tra il visualizzatore di bozze Web e la panoramica del visualizzatore di bozze desktop</a>.</p> </td> 
+   <td> <p><strong>Visualizzatore bozze Web e Visualizzatore bozze desktop</strong> </p> <p>Il visualizzatore bozze web fornisce funzionalità di bozza per bozze statiche e video.</p> <p>Il Visualizzatore bozze desktop fornisce funzionalità di bozza per le bozze interattive, oltre a fornire supporto completo per le bozze statiche e video.</p> <p>Il formato di file SWF non è più supportato da nessuno dei principali provider ed è stato sostituito con banner HTML5 per la verifica. </p> <p>Per informazioni più dettagliate sulle differenze tra i visualizzatori di bozze disponibili, vedere <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differenze tra il visualizzatore di bozze Web e la panoramica del visualizzatore di bozze desktop</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

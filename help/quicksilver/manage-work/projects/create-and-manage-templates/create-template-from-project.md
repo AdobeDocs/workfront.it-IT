@@ -1,20 +1,22 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Crea modello da progetto
+title: Creare modello dal progetto
 description: È possibile creare modelli quando si salva un progetto esistente come modello.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
-# Crea modello da progetto
+# Creare modello dal progetto
 
 <!--Audited: 10/2025-->
 
@@ -34,7 +36,7 @@ Dopo aver salvato un progetto esistente come modello, è possibile utilizzare il
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +47,7 @@ Dopo aver salvato un progetto esistente come modello, è possibile utilizzare il
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -54,17 +56,18 @@ Dopo aver salvato un progetto esistente come modello, è possibile utilizzare il
    <td> <p>Modificare l’accesso ai modelli</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto </p> <p>Dopo la creazione, si ottengono le autorizzazioni di gestione per il modello</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -86,9 +89,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Crea modello da progetto
+## Creare modello dal progetto
 
 1. Vai al progetto che desideri salvare come modello.
 1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi **Salva come modello**.

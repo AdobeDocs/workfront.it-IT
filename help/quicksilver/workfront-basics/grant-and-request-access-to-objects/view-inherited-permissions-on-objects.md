@@ -6,10 +6,12 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -25,7 +27,8 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +69,7 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> 
    </td> 
@@ -76,13 +79,13 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
    <td> <p>Accesso di visualizzazione o superiore sugli oggetti per i quali si desidera visualizzare le autorizzazioni</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per gli oggetti per i quali si desidera visualizzare le autorizzazioni</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

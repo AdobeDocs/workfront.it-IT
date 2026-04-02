@@ -6,10 +6,12 @@ description: Quando si assegnano utenti o ruoli a un’attività, questi vengono
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -20,13 +22,15 @@ ht-degree: 4%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Le ore di allocazione rappresentano la quantità totale di tempo per cui una risorsa assegnata deve lavorare su un&#39;attività. Le ore rappresentano il tempo allocato da un utente a un determinato giorno o giorno feriale, settimana o mese per l&#39;intera durata dell&#39;attività.
 
@@ -49,7 +53,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p>
    </td> 
@@ -59,7 +63,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
    <td>Modifica l'accesso alle Attività</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
    <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano attività utilizzando la precedente esperienza.</p> 
    <p><b>NOTA</b></p>
@@ -73,9 +77,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+<!--
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
 
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
+-->
 
 
 ## Considerazioni sulla modifica delle ore di allocazione per un&#39;attività

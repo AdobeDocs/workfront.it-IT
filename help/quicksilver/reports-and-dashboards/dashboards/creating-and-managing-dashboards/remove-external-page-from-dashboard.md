@@ -2,11 +2,13 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Rimuovere una pagina esterna da una dashboard
-description: È possibile rimuovere una pagina esterna da un dashboard se non è più necessaria.
+description: Se non è più necessario, è possibile rimuovere una pagina esterna da un dashboard.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 22%
@@ -17,9 +19,9 @@ ht-degree: 22%
 
 <!-- Audited: 1/2025 -->
 
-È possibile rimuovere una pagina esterna da un dashboard se non è più necessaria.
+Se non è più necessario, è possibile rimuovere una pagina esterna da un dashboard.
 
-Tuttavia, non è possibile eliminare una pagina esterna dopo che è stata creata in Adobe Workfront. Puoi eliminare una pagina esterna solo utilizzando l’API. Per informazioni sull&#39;API Workfront, consulta [Nozioni di base sull&#39;API](../../../wf-api/general/api-basics.md). Per informazioni sulla creazione di pagine esterne, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Tuttavia, non puoi eliminare una pagina esterna dopo che è stata creata in Adobe Workfront. Puoi eliminare una pagina esterna solo utilizzando l’API. Per informazioni sull&#39;API Workfront, vedere [Nozioni di base sull&#39;API](../../../wf-api/general/api-basics.md). Per informazioni sulla creazione di pagine esterne, vedere [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Requisiti di accesso
 
@@ -42,7 +44,7 @@ Tuttavia, non è possibile eliminare una pagina esterna dopo che è stata creata
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard e calendari</p></td> 
+   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -57,16 +59,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Rimuovere una pagina esterna da un dashboard
 
-1. Vai al dashboard che contiene la pagina esterna che desideri eliminare.
+1. Passare alla dashboard contenente la pagina esterna da eliminare.
 
-1. Fai clic su **Azioni dashboard**, quindi fai clic su **Modifica**.
+1. Fai clic su **Azioni dashboard**, quindi su **Modifica**.
 
    ![Modifica dashboard](assets/unshimmed-edit-dashboard.png)
 
-1. Sul lato destro dello schermo, individua la pagina esterna che desideri rimuovere e fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
+1. Nella parte destra dello schermo individuare la pagina esterna da rimuovere e fare clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
 
    ![Icona Elimina pagina esterna nel dashboard](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Fai clic su **Salva + Chiudi** nell&#39;angolo in basso a sinistra.
 
-   La pagina esterna verrà rimossa dal dashboard selezionato. La pagina esterna rimane in Workfront ed è possibile accedervi da un report. Per informazioni, vedere la sezione &quot;Visualizzare pagine esterne in un report&quot; nell&#39;articolo [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   In questo modo la pagina esterna viene rimossa dal dashboard selezionato. La pagina esterna rimane in Workfront ed è accessibile da un report. Per informazioni, vedere la sezione &quot;Visualizzare pagine esterne in un report&quot; nell&#39;articolo [Incorporare una pagina Web esterna in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).

@@ -6,10 +6,12 @@ description: Puoi organizzare i progetti aggiungendoli ai programmi all’intern
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 08/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Puoi organizzare i progetti aggiungendoli ai programmi all’interno dei portfolio. È possibile avere più progetti all&#39;interno di un programma, ma è possibile associare un solo programma a un progetto.
 
@@ -33,7 +37,7 @@ Per informazioni sulla creazione di programmi, vedere [Creare un programma](../.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,14 +50,14 @@ Per informazioni sulla creazione di programmi, vedere [Creare un programma](../.
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p> 
-   <p>[!UICONTROL Plan] </p> </td> 
+   <p>[!UICONTROL Piano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
    <td> <p>Accesso a programmi o versione successiva di [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il programma</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +67,8 @@ Per informazioni sulla creazione di programmi, vedere [Creare un programma](../.
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +94,8 @@ Per informazioni sulla creazione di programmi, vedere [Creare un programma](../.
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Aggiungere un progetto a un programma esistente
 

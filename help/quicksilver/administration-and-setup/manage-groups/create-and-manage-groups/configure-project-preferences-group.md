@@ -3,12 +3,14 @@ title: Configurare le preferenze del progetto per un gruppo
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-description: Adobe Workfront Se l'amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
+description: Se l'amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2839'
 ht-degree: 3%
@@ -22,7 +24,7 @@ ht-degree: 3%
 
 <span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Adobe Workfront Se l&#39;amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
+Se l&#39;amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
 
 Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 

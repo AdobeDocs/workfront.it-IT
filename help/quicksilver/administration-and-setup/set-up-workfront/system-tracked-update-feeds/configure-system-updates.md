@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# Configurare gli aggiornamenti di sistema
+# Configurare gli aggiornamenti del sistema
 
 <!-- Audited: 08/2025 -->
 
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront] genera aggiornamenti automatici di sistema nell&#39;area [!UICONTROL Aggiornamenti] di un oggetto per registrare i seguenti eventi:
 
@@ -48,7 +51,7 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +64,7 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Piano]</p>
    </td> 
   </tr>  
   <tr> 
@@ -75,7 +78,8 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Determinare i campi [!DNL Workfront] tracciati per un tipo di oggetto
 

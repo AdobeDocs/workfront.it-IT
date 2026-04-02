@@ -6,7 +6,9 @@ description: Adobe Workfront consente ai team Agile di completare il lavoro in m
 author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 5%
@@ -122,7 +124,7 @@ Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](..
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p><b>NOTA</b></p> <p> Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori dei gruppi possono passare all'area [!UICONTROL Team] dal menu principale  e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
+      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p><b>NOTA</b></p> <p> Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori dei gruppi possono passare all'area [!UICONTROL Team] dal menu principale [!UICONTROL] e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Membri Team]</strong> </td> 
@@ -131,7 +133,7 @@ Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](..
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong> </td> 
       <td><p>Digitare una descrizione per il team.</p> <p>La descrizione viene visualizzata in alto a destra nell'area [!UICONTROL Teams] quando il team è selezionato.</p>
-      <p>Se la descrizione è lunga, è possibile fare clic su di essa per visualizzare la descrizione completa in un pop-up. Se si dispone dell'accesso per modificare le impostazioni del team di , è anche possibile modificare la descrizione direttamente nel pop-up.</p></td>
+      <p>Se la descrizione è lunga, è possibile fare clic su di essa per visualizzare la descrizione completa in un pop-up. Se si dispone dell'accesso per modificare le impostazioni del team di [!UICONTROL], è anche possibile modificare la descrizione direttamente nel pop-up.</p></td>
      </tr> 
     </tbody> 
    </table>

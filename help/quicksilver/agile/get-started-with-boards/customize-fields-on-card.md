@@ -6,7 +6,9 @@ description: È possibile personalizzare i campi visualizzati su una scheda disa
 author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 7%
@@ -28,7 +30,7 @@ Puoi anche visualizzare i campi personalizzati creati in precedenza. Non puoi pr
 
 >[!NOTE]
 >
->Eventuali personalizzazioni dei campi applicate solo alla bacheca in cui stai lavorando.
+>Tutte le personalizzazioni dei campi apportate vengono applicate solo alla bacheca in cui stai lavorando.
 
 ## Requisiti di accesso
 
@@ -67,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    La maggior parte dei campi e delle sezioni è attivata per impostazione predefinita.
 
 1. Disattiva un campo o una sezione per disattivarla in entrambe le visualizzazioni a schede.
-1. Fare clic sull&#39;icona Nascondi ![Icona Nascondi](assets/eye-hide-icon.png) accanto a un campo o a una sezione per nasconderlo nella visualizzazione condensata.
+1. Fare clic sull&#39;icona Nascondi ![Icona Nascondi](assets/eye-hide-icon.png) accanto a un campo o a una sezione per nasconderlo nella visualizzazione ridotta.
 1. Per visualizzare tutti i campi e le sezioni in entrambe le visualizzazioni, fare clic su [!UICONTROL **Ripristina tutti i campi sul valore predefinito**].
 1. Fai clic su [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
 
@@ -78,9 +80,9 @@ I campi personalizzati sono disponibili sulle schede collegate. Sono visibili so
 I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni elementi personalizzati potrebbero essere disponibili per la modifica solo sul campo originale e non sulla scheda.
 
 1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
-1. Espandere [!UICONTROL **Schede**].
-1. In [!UICONTROL Campi carta], fai clic su [!UICONTROL **Aggiungi campo personalizzato**].
-1. Selezionare [!UICONTROL **Attività**] o [!UICONTROL **Problema**].
+1. Espandi [!UICONTROL **Schede**].
+1. In [!UICONTROL Campi scheda], fai clic su [!UICONTROL **Aggiungi campo personalizzato**].
+1. Seleziona [!UICONTROL **Attività**] o [!UICONTROL **Problema**].
 
    Vengono visualizzate le categorie dei campi disponibili per le attività o i problemi. Espandere una categoria per visualizzare tutti i campi. È inoltre possibile cercare un campo.
 
@@ -88,11 +90,11 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
 
    >[!NOTE]
    >
-   >I seguenti tipi di campo non sono disponibili per l’aggiunta alle schede: Adobe XD, Image, PDF, Video.
+   >Non sono disponibili i seguenti tipi di campo da aggiungere alle schede: Adobe XD, Immagine, PDF, Video.
 
 1. Selezionare il nome del campo.
-1. (Facoltativo) Fare clic nel campo **[!UICONTROL Valore campo]** per cambiare il campo personalizzato.
-1. (Facoltativo) Modificare l&#39;**[!UICONTROL etichetta del campo]** nel nome del campo che si desidera visualizzare sulle schede.
+1. (Facoltativo) Fai clic nel campo **[!UICONTROL Valore campo]** per modificare il campo personalizzato in un altro.
+1. (Facoltativo) Modifica l&#39;**[!UICONTROL etichetta campo]** con il nome del campo che desideri visualizzare sulle schede.
 1. Dopo aver apportato le modifiche desiderate, fare clic su [!UICONTROL **Salva campo**].
 
    ![Etichetta e valore campo personalizzato](assets/save-custom-field-value-label.png)
@@ -101,20 +103,20 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
 
 >[!NOTE]
 >
->Se successivamente rinominate il campo personalizzato in Workfront, dovete modificare l’etichetta del campo nel pannello Configura in modo che corrisponda, altrimenti il campo non verrà visualizzato sulle schede.
+>Se successivamente rinominate il campo personalizzato in Workfront, è necessario modificare l’etichetta del campo nel pannello Configura in modo che corrisponda, altrimenti il campo non viene visualizzato sulle schede.
 
 ## Visualizzare o nascondere le schede archiviate
 
 È necessario attivare un&#39;impostazione di configurazione per visualizzare le schede archiviate su una bacheca.
 
 1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
-1. Espandere [!UICONTROL **Schede**].
-1. Attiva [!UICONTROL **Visualizza schede archiviate sulla scheda**].
+1. Espandi [!UICONTROL **Schede**].
+1. Attiva [!UICONTROL **Visualizza schede archiviate sulla bacheca**].
 
-   Ora puoi filtrare la bacheca per visualizzare tutte le schede archiviate. Per i dettagli, consulta [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   Ora puoi filtrare la bacheca per mostrare tutte le schede che sono state archiviate. Per ulteriori dettagli, vedere [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 1. Fai clic su [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
 
 ## Configurare la perdita di dati della scheda
 
-Per rimuovere automaticamente le schede dalla bacheca dopo un determinato periodo di tempo, vedere [Configurazione del decadimento delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Per rimuovere automaticamente le schede dalla bacheca dopo un certo periodo di tempo, vedi [Configurare la perdita di dati delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

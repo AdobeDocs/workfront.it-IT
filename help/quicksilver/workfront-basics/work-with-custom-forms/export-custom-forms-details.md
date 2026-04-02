@@ -4,10 +4,12 @@ description: È possibile esportare le informazioni della panoramica e del modul
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 3%
 Questa funzionalità è supportata per i seguenti oggetti:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Portfolio
 * Programmi
@@ -46,9 +48,9 @@ Questa funzionalità è supportata per i seguenti oggetti:
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Licenza Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Licenza di Adobe Workfront</p> </td> 
    <td><p>Per i problemi:</p>
-   <ul><li><p>Collaboratore o versione successiva</p></li>
+   <ul><li><p>Collaboratore o successiva</p></li>
    <li><p>Richiedente o versione successiva</p> </li></ul>
    <p>Per progetti e attività:</p>
    <ul><li><p>Chiaro o superiore</p></li>
@@ -60,7 +62,7 @@ Questa funzionalità è supportata per i seguenti oggetti:
    <td> <p>Visualizza o successiva per Progetti, Attività e Problemi</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Autorizzazioni oggetto</p> </td> 
+   <td role="rowheader"> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Visualizza o autorizzazioni superiori per il progetto, l'attività o il problema di cui si desidera esportare il modulo</p> </td> 
   </tr> 
  </tbody> 
@@ -70,7 +72,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 

@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +41,7 @@ Un&#39;azienda è un&#39;unità organizzativa in [!DNL Adobe Workfront] che può
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licenza</p> </td> 
-   <td><p>[!UICONTROL Plan]</p>
+   <td><p>[!UICONTROL Piano]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -155,7 +157,7 @@ Per aggiungere o modificare una società:
 1. Se si sta eliminando una società impostata come società principale o utilizzata in un altro oggetto, selezionare una società in sostituzione di quella che si sta eliminando. La società selezionata diventa la società principale o sostituisce la società eliminata sugli oggetti a cui è assegnata.
 1. Fai clic su **Elimina**.
 
-## Gestire le appartenenze a società
+## Gestire le appartenenze alle aziende
 
 Per informazioni sulla gestione delle appartenenze per una società esistente, vedere [Gestire le appartenenze a società](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
@@ -183,7 +185,8 @@ Per informazioni su come gli utenti ottengono l&#39;accesso amministrativo alle 
 
 Per informazioni sulla gestione di una società nell&#39;area [!UICONTROL Configurazione], vedere [Creare o modificare una società in [!DNL Workfront]](#create-or-edit-a-company-in-workfront) in questo articolo.
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

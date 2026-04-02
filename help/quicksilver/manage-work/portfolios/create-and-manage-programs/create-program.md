@@ -6,10 +6,12 @@ description: Un programma rappresenta una raccolta di progetti che condividono u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto.
 I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio.
@@ -44,24 +48,25 @@ Ad esempio, puoi avere un Portfolio Marketing Fiscal Year 2024 che contiene tutt
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan]</p> </td> 
+   <p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso a portafogli e programmi tramite [!UICONTROL Edit] </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Per impostazione predefinita, dopo aver creato un programma, si dispone di autorizzazioni [!UICONTROL Manage].</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +90,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modalità di creazione dei programmi
 
@@ -162,7 +168,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td> <p>Iniziare a digitare il nome dell'utente che si desidera utilizzare come responsabile del programma, quindi fare clic sul nome dell'utente quando viene visualizzato nell'elenco a discesa. È lo stesso del [!UICONTROL Proprietario del programma]. </p> <p>Suggerimento: puoi anche aggiornare il Responsabile del programma nell’intestazione del programma. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Group] </td> 
+      <td role="rowheader">[!UICONTROL Gruppo] </td> 
       <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è proprietario del programma o se ne è responsabile. </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
@@ -229,7 +235,7 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td role="rowheader">[!UICONTROL Percentuale completata]</td> 
    <td> <p>Impossibile modificare il [!UICONTROL Percent Complete] del programma nell'intestazione. Queste informazioni vengono aggiornate dai progetti nel programma. Per impostazione predefinita, la percentuale di completamento del programma corrisponde alla media dei valori della percentuale di completamento dei progetti in uno stato [!UICONTROL Current] o [!UICONTROL Approved] che appartengono al programma.</p> </td> 
   </tr> 
   <tr> 
@@ -237,12 +243,12 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
    <td> <p>Puoi modificare il Responsabile del programma nell’intestazione. È lo stesso del [!UICONTROL Proprietario del programma]. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data di completamento Pianificata]</td> 
+   <td role="rowheader">[!UICONTROL Data di completamento pianificata]</td> 
    <td>Non puoi modificare la Data di completamento pianificata del programma nell’intestazione. Queste informazioni vengono aggiornate dai progetti nel programma. La data di completamento pianificata dell'ultimo progetto del programma diventa la data di completamento pianificata del programma.  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione progetti attivi </td> 
-   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione  è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
+   <td role="rowheader">Condizione progetti attivi [!UICONTROL]</td> 
+   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione [!UICONTROL] è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,9 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 8%
@@ -91,8 +93,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. (Facoltativo) Se visualizzi il calendario nelle visualizzazioni **Mese** o **Settimana**, puoi modificare la visualizzazione del calendario con le seguenti opzioni:
 
-   <!--   * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
+   <!--
+         * To include or exclude weekends:
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
+      -->
 
    * Per modificare rapidamente le date visualizzate:
 

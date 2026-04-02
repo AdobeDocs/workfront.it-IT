@@ -7,10 +7,12 @@ description: Per poter attivare un obiettivo, devi aggiungere risultati, attivit
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -22,11 +24,12 @@ ht-degree: 3%
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 3%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Quando si crea un obiettivo, lo stato dell&#39;obiettivo è Bozza. Per informazioni sulla creazione degli obiettivi, vedere [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -86,7 +90,7 @@ Quando si lavora con i risultati, considera quanto segue:
 
 Per ulteriori informazioni sui risultati, vedere l&#39;elenco delle somiglianze tra risultati e attività nella sezione [Somiglianze tra risultati, attività e progetti](#similarities-between-results-activities-and-projects) in questo articolo.
 
-## Panoramica sulle attività
+## Panoramica delle attività
 
 <!--
 This will have additional types in the future - add another section for types?
@@ -201,7 +205,7 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Offrono un intervallo di valori tra i valori iniziale e finale che illustra quanto sei vicino a raggiungerli. La prossimità al valore finale calcola un valore di Avanzamento per l'obiettivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

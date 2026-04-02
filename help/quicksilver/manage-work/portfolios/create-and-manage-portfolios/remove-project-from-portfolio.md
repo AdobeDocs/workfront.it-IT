@@ -6,10 +6,12 @@ description: È possibile rimuovere un progetto da un portfolio e associarlo a u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
@@ -36,14 +38,14 @@ ht-degree: 5%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan] </p> </td> 
+   <p>[!UICONTROL Piano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p>Accesso di [!UICONTROL Edit] ai portfolio</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio e i progetti da rimuovere</p>
    <p>Autorizzazioni [!UICONTROL Manage] con accesso [!UICONTROL Delete] ai progetti per eliminarli dal portfolio</p> </td> 
   </tr> 
@@ -54,7 +56,8 @@ ht-degree: 5%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Rimuovere un progetto da un portfolio
 

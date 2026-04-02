@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Creare una relazione predecessore nell'elenco delle attività
+title: Creare una relazione predecessore nell’elenco delle attività
 description: È possibile utilizzare le attività predecessore (o solo i predecessori) per collegare attività che dipendono da altre attività per iniziare o completare. Ad esempio, non si desidera ospitare una parte (attività dipendente) prima di inviare gli inviti (attività predecessore).
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Creare una relazione predecessore nell&#39;elenco delle attività
+# Creare una relazione predecessore nell’elenco delle attività
 
 <!-- Audited: 5/2025 -->
 
@@ -27,11 +29,11 @@ Puoi visualizzare i predecessori delle attività nelle seguenti aree di Adobe Wo
 * Nel diagramma di Gantt.
 * Nella sezione Predecessori di un&#39;attività dipendente.
 
-Per ulteriori informazioni, vedere [Panoramica sui predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Per ulteriori informazioni, consulta [Panoramica dei predecessori delle attività](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +44,7 @@ Per ulteriori informazioni, vedere [Panoramica sui predecessori delle attività]
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -51,7 +53,7 @@ Per ulteriori informazioni, vedere [Panoramica sui predecessori delle attività]
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per le attività e il progetto</p></td> 
   </tr> 
  </tbody> 
@@ -61,7 +63,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Creare un predecessore
 
@@ -106,7 +110,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    >
    >1. Digita il Numero di riferimento del progetto del predecessore seguito da due punti e dal numero dell’attività. Digitare ad esempio *765021:12* indica che il numero di riferimento del progetto del predecessore è 765021 e che il predecessore è l&#39;attività numero 12 nel progetto.
    >
-   >1. Aggiungi il tipo di dipendenza per questo predecessore. Per ulteriori informazioni, consulta [Creare predecessori per più progetti](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >1. Aggiungi il tipo di dipendenza per questo predecessore. Per ulteriori informazioni, consulta [Creare predecessori tra progetti](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >
    >1. Premere **Invio**.
    >

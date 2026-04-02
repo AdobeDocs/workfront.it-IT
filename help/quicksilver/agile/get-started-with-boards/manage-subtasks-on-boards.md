@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gestione delle sottoattività nelle bacheche
-description: L'utilizzo di sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro.
+description: L'utilizzo delle sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro.
 author: Courtney
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 12%
@@ -15,7 +17,7 @@ ht-degree: 12%
 
 # Gestire le attività secondarie nelle bacheche
 
-L&#39;utilizzo di sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro. Una sottoattività aggiunta a una scheda di una bacheca Workfront viene aggiunta anche all&#39;attività nel progetto Workfront. Per ulteriori informazioni sulle sottoattività e sulle attività a livello di progetto, vedere [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+L&#39;utilizzo delle sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro. All’attività nel progetto Workfront viene aggiunta anche un’attività secondaria che aggiungi a una scheda di una bacheca Workfront. Per ulteriori informazioni sulle sottoattività e sulle attività a livello di progetto, vedere [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 Le sottoattività sono disponibili solo sulle schede collegate e non sui problemi. Per informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle schede](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -56,23 +58,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-   Le eventuali sottoattività esistenti per questa attività vengono visualizzate nella scheda della sezione Sottoattività, sopra le voci dell&#39;elenco di controllo. Fare clic sull&#39;icona [!UICONTROL **Cerca**] per cercare una sottoattività.
+   Tutte le sottoattività esistenti per questa attività vengono visualizzate sulla scheda nella sezione Sottoattività, sopra le voci dell’elenco di controllo. Fai clic sull&#39;icona [!UICONTROL **Cerca**] per cercare un&#39;attività secondaria.
 
-1. Per aggiungere una nuova sottoattività, scegliere [!UICONTROL **Aggiungi sottoattività**]. Digitare quindi il titolo della sottoattività e premere Invio.
+1. Per aggiungere una nuova sottoattività, fare clic su [!UICONTROL **Aggiungi sottoattività**]. Digitare quindi il titolo dell&#39;attività secondaria e premere Invio.
 
    Il contatore nella parte superiore dell&#39;elenco mostra il numero di sottoattività completate e il numero totale di sottoattività.
 
-1. Fare clic sull&#39;icona ![Dettagli](assets/checklist-chevron.png) per aprire la casella dei dettagli della sottoattività. Il nome della sottoattività viene visualizzato nella parte superiore.
+1. Fai clic sull&#39;icona ![Dettagli](assets/checklist-chevron.png) per aprire la casella dei dettagli della sottoattività. Il nome dell&#39;attività secondaria viene visualizzato nella parte superiore.
 1. (Facoltativo) Aggiungi i dettagli della sottoattività.
 
-   Queste informazioni vengono aggiunte anche alla sottoattività nel progetto [!DNL Workfront].
+   Queste informazioni vengono aggiunte anche all&#39;attività secondaria nel progetto [!DNL Workfront].
 
-   Tutti i campi di una scheda collegata sono disponibili nei dettagli della sottoattività, incluse le sottoattività aggiuntive. Per informazioni su uno di questi campi, vedere [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Tutti i campi di una scheda connessa sono disponibili nei dettagli delle sottoattività, incluse le sottoattività aggiuntive. Per informazioni su uno di questi campi, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Fare clic su **[!UICONTROL Chiudi]** per tornare ai dettagli della scheda e all&#39;elenco completo delle sottoattività.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare ai dettagli della scheda e all&#39;elenco completo delle sottoattività.
 
-   Per spostarsi nella gerarchia, è inoltre possibile utilizzare gli indicatori nella parte superiore dei dettagli delle sottoattività.
+   È inoltre possibile utilizzare le breadcrumb nella parte superiore dei dettagli delle sottoattività per spostarsi nella gerarchia.
 
-   Gli assegnatari e la data di scadenza vengono visualizzati nella sottoattività nell&#39;elenco.
+   Gli assegnatari e la data di scadenza vengono visualizzati nell&#39;attività secondaria dell&#39;elenco.
 
-1. Per copiare una sottoattività, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sull&#39;elemento e selezionare **[!UICONTROL Copia]**.
+1. Per copiare un&#39;attività secondaria, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sull&#39;elemento e selezionare **[!UICONTROL Copia]**.

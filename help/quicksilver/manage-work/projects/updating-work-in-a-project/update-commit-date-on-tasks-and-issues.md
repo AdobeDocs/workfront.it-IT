@@ -6,23 +6,27 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# Aggiorna le date di conferma per attività e problemi
+# Aggiornare le date impegno per attività e problemi
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni su Conferma date in Adobe Workfront, consulta [Panoramica sulla conferma data](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -41,7 +45,7 @@ Puoi aggiornare manualmente la data di conferma di un’attività o di un proble
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <ul>
    <li><p>Standard per le attività</p> </li>
@@ -60,7 +64,7 @@ Puoi aggiornare manualmente la data di conferma di un’attività o di un proble
    <td> <p>Modifica l'accesso ad Attività e Issues</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per l’attività o il problema</p>
    <p> Per aggiornare la data del commit, devi essere assegnato all’attività o al problema </p>
     </td> 
@@ -72,7 +76,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -108,13 +113,14 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
 Prima di poter modificare la Data di conferma di un’attività o di un problema, è necessario essere assegnati all’attività o al problema di cui è necessario aggiornare la Data di conferma.
 
-## Aggiorna le date di conferma per attività e problemi
+## Aggiornare le date impegno per attività e problemi
 
 
 Puoi aggiornare la Data di conferma di un’attività o di un problema nelle seguenti aree di Workfront:

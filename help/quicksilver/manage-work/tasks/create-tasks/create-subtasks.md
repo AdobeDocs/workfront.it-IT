@@ -6,14 +6,16 @@ description: In Adobe Workfront, le attività possono avere relazioni padre-figl
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Crea sottoattività
+# Creare attività secondarie
 
 <!-- Audited: 01/2025 -->
 
@@ -32,7 +34,7 @@ In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attivi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -41,7 +43,7 @@ In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attivi
    <td> <p>Modifica accesso ad attività e progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> 
    <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> 
     </td> 
@@ -53,7 +55,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,9 +81,10 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Crea sottoattività
+## Creare attività secondarie
 
 È possibile creare sottoattività dall&#39;elenco delle attività o dalla sezione delle sottoattività delle attività.
 

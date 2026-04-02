@@ -3,11 +3,13 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Panoramica sulle viste in Adobe Workfront
-description: È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell'elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una visualizzazione.
+description: È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell'elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una vista.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell&#39;elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una visualizzazione. Per informazioni sugli oggetti di Adobe Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell&#39;elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una vista. Per informazioni sugli oggetti di Adobe Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerazioni sulle visualizzazioni
 
@@ -27,8 +29,8 @@ ht-degree: 2%
 
   Per informazioni sulla concessione dell&#39;accesso, vedere [Concedere l&#39;accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Il livello di autorizzazioni di una visualizzazione determina il modo in cui viene salvata. Se la vista è stata creata in origine, è possibile salvare le modifiche, altrimenti viene richiesto di salvare una versione della vista. Se si apportano modifiche a una visualizzazione condivisa con altri utenti, anche tali modifiche verranno applicate.
-* È possibile personalizzare una visualizzazione condivisa solo se l&#39;utente che la ha condivisa ha concesso l&#39;accesso alla gestione. Per informazioni sulla condivisione di una visualizzazione, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Il livello di autorizzazioni di una visualizzazione determina il modo in cui viene salvata. Se la vista è stata creata in origine, è possibile salvare le modifiche, altrimenti viene richiesto di salvare una versione della vista. Le modifiche apportate a una visualizzazione condivisa con altri utenti hanno un impatto anche su di esse.
+* È possibile personalizzare una visualizzazione condivisa solo se l&#39;utente che l&#39;ha condivisa concede l&#39;accesso Gestisci. Per informazioni sulla condivisione di una visualizzazione, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Potete personalizzare le viste esistenti, creare viste basate su viste esistenti o creare viste da zero.
 
@@ -47,11 +49,11 @@ Di seguito sono riportati i tipi di visualizzazione che è possibile applicare a
     </tr>
     <tr>
         <td><strong>Vista Gantt</strong></td>
-        <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto, a un elenco di progetti oppure aggiungerlo a un'attività o a una relazione sul progetto. È possibile personalizzare le informazioni visualizzate nella visualizzazione Gantt utilizzando le opzioni predefinite incorporate. Tutti gli utenti che dispongono dell'accesso per visualizzare attività o progetti possono visualizzarli nella visualizzazione Gantt. Per informazioni, vedere <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introduzione al diagramma di Gantt</a>.</td>
+        <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto o a un elenco di progetti oppure aggiungerlo a un report di attività o di progetto. È possibile personalizzare le informazioni visualizzate nella vista Gantt utilizzando le opzioni predefinite incorporate. Tutti gli utenti con accesso per visualizzare attività o progetti possono visualizzarli nella visualizzazione Gantt. Per informazioni, vedere <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introduzione al Diagramma di Gantt</a>.</td>
        </tr>
 
 <tr>
-        <td><strong>Vista migliorata</strong></td>
+        <td><strong>Visualizzazione avanzata</strong></td>
         <td>Le visualizzazioni avanzate si basano su elenchi avanzati. Sono disponibili in alcune aree di Workfront. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci e hanno un aspetto diverso rispetto alle visualizzazioni o agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca. Per informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">Utilizzare elenchi avanzati</a></td>
        </tr>    
 </table>
@@ -66,13 +68,13 @@ Potete condividere gli elementi di una vista standard.
 
 Per informazioni su come condividere una visualizzazione standard, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Non è possibile condividere le visualizzazioni Gantt e Bacheca. Chiunque abbia accesso alle aree in cui vengono visualizzate queste viste può visualizzare le stesse informazioni.
+Non è possibile condividere le visualizzazioni Gantt e Bacheca. Tutti coloro che hanno accesso alle aree in cui vengono visualizzate queste visualizzazioni possono visualizzare le stesse informazioni.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
 ## Rimuovere una visualizzazione
 
-La possibilità di rimuovere una vista funziona in modo diverso a seconda che la vista sia stata creata inizialmente o condivisa con te. Non è possibile rimuovere una visualizzazione predefinita.
+La possibilità di rimuovere una vista funziona in modo diverso a seconda che la vista sia stata creata inizialmente o che sia stata condivisa con te. Non è possibile rimuovere una vista predefinita.
 
 Non è possibile rimuovere le visualizzazioni Gantt o Bacheca.
 

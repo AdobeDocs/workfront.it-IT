@@ -5,7 +5,9 @@ description: Scopri l’Assistente IA in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -150,7 +152,7 @@ Utilizza le seguenti parole chiave nei tuoi prompt per fornire contesto e aiutar
 Quando inserisci il prompt, includi la frase `using (keyword)`.
 
 | Parola chiave | Effetto |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Interagisce con Workfront. |
 | `planning` | Interagisce con Pianificazione di Workfront. |
 | `help` | Restituisce informazioni dalla documentazione di Experience League. |

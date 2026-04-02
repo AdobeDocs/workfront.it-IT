@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visualizza: attività con scostamento date'
-description: Questa visualizzazione delle attività è simile alla visualizzazione "Tutte le date" fornita con l’account Adobe Workfront. In questa visualizzazione sono incluse le colonne Variazione, che calcolano la differenza in giorni tra le date.
+title: 'Visualizza: Attività con tutte le date Varianza'
+description: Questa visualizzazione delle attività è simile alla visualizzazione "Tutte le date" fornita con il tuo account Adobe Workfront. In questa visualizzazione sono incluse le colonne Varianza, che calcolano la differenza in giorni tra le date.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 14%
@@ -18,16 +20,16 @@ ht-degree: 14%
 
 <!--Audited: 11/2024-->
 
-Questa visualizzazione delle attività è simile alla visualizzazione &quot;Tutte le date&quot; fornita con l’account Adobe Workfront. Questa visualizzazione include *colonne Varianza*, che calcolano la differenza in giorni tra le date seguenti:
+Questa visualizzazione delle attività è simile alla visualizzazione &quot;Tutte le date&quot; fornita con il tuo account Adobe Workfront. Questa particolare visualizzazione include *colonne Varianza*, che calcolano la differenza in giorni tra le seguenti date:
 
 * Date di inizio pianificate e previste
 * Date di inizio pianificate ed effettive
 * Date di completamento pianificate e previste
-* Date di completamento pianificate e effettive
+* Date di completamento pianificate ed effettive
 
-Questa visualizzazione rappresenta un esempio di colonne calcolate, in cui è possibile prendere i valori di due colonne diverse e collegarli tramite un calcolo per ottenere un terzo valore. In questo caso, si sottrae la data 1 dalla data 2.
+Questa vista rappresenta un esempio di colonne calcolate, in cui è possibile prendere i valori di due colonne diverse e collegarli tramite un calcolo per ottenere un terzo valore. In questo caso, si sottrae la data 1 dalla data 2.
 
-Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [Panoramica sugli usi comuni della modalità Testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Visualizza attività con tutte le date](assets/view-task-with-all-dates-variance.png)
 
@@ -47,15 +49,15 @@ Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione,
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
-   <p>Standard o piano per modificare un report</p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,14 +67,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Visualizza attività con scostamento di tutte le date
+## Visualizza attività con varianza di tutte le date
 
 1. Consente di passare a un elenco di attività.
-1. Dal menu a discesa **Visualizza**, seleziona **Nuova vista**.
+1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 
-1. Nell&#39;area **Anteprima colonna**, eliminare tutte le colonne tranne una.
-1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa alla modalità Testo** > **Modifica modalità Testo**.
-1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il codice seguente:
+1. Nell&#39;area **Anteprima colonna** eliminare tutte le colonne tranne una.
+1. Fare clic sull&#39;intestazione della colonna rimanente, quindi fare clic su **Passa a modalità testo** > **Modifica modalità testo**.
+1. Rimuovere il testo trovato nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
    ```
    column.1.descriptionkey=name
@@ -284,4 +286,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    row.0.styledef.case.0.comparison.usefield=false
    ```
 
-1. Fai clic su **Fine** > **Salva vista**.
+1. Fai clic su **Fine** > **Salva visualizzazione**.

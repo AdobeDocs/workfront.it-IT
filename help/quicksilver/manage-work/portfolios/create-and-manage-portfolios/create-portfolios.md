@@ -6,10 +6,12 @@ description: Un Portfolio è una raccolta di progetti in competizione per le ste
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +25,7 @@ Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,14 +38,14 @@ Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL Plan] </p> </td> 
+   <p>[!UICONTROL Piano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di [!UICONTROL Edit] ai portfolio</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Dopo aver creato un portfolio, disponi delle autorizzazioni di gestione per esso</p>  </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Modi per creare i portfolio
 

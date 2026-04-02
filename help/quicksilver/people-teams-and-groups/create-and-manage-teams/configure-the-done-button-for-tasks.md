@@ -2,11 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configurare il pulsante Fine per le attività
-description: Il pulsante Done (Fine) può impostare automaticamente lo stato di un’attività o di un problema. Per impostazione predefinita, Adobe Workfront contrassegna un'attività come Completata quando un assegnatario fa clic su Fine sul relativo elemento di lavoro.
+description: Il pulsante Done (Fine) può impostare automaticamente lo stato di un’attività o di un problema. Per impostazione predefinita, Adobe Workfront contrassegna un’attività come Completata quando un assegnatario fa clic su Fine sul relativo elemento di lavoro.
 author: Courtney
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 6%
@@ -19,15 +21,15 @@ Il pulsante [!UICONTROL Fine] può impostare automaticamente lo stato di un&#39;
 
 >[!NOTE]
 >
->Il pulsante Fine viene visualizzato come Contrassegna come fatto in tutte le aree di Workfront.
+>Il pulsante Done (Fine) viene visualizzato come Mark as done (Contrassegna come completato) in tutte le aree di Workfront.
 
 ## Panoramica
 
 Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICONTROL Fine] per associarlo a determinati stati nel sistema. Il pulsante [!UICONTROL Fine] funziona in due modi diversi per le attività in [!UICONTROL Workfront]:
 
-* Se all&#39;utente è assegnato un team locale, un amministratore di [!DNL Workfront] o un utente con una licenza di [!UICONTROL Piano] può configurare il pulsante [!UICONTROL Fine] in modo che rifletta determinati stati per i membri del team. Vedere [Configurare il pulsante [!UICONTROL Fine] per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
-* Se l&#39;utente non dispone di un [!UICONTROL team principale], ma ha [!UICONTROL altri team] nel profilo, Workfront cerca l&#39;impostazione del pulsante [!UICONTROL Fine] in uno dei team associati all&#39;utente. La selezione è casuale e per l&#39;attività viene utilizzato lo stato associato a uno dei team.
-* Se all&#39;utente non è assegnato un team locale, il pulsante [!UICONTROL Fine] per le attività è associato a uno stato completo. Non sono disponibili opzioni di configurazione in questo scenario. Il pulsante [!UICONTROL Fine] viene impostato automaticamente su questo stato.
+* Se all&#39;utente è assegnato un team predefinito, un amministratore [!DNL Workfront] o un utente con una licenza [!UICONTROL Plan] può configurare il pulsante [!UICONTROL Done] per riflettere determinati stati per i membri del team. Vedi [Configurare il pulsante [!UICONTROL Fine] per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
+* Se l&#39;utente non ha un [!UICONTROL Team predefinito], ma ha [!UICONTROL Altri team] nel suo profilo, Workfront cerca l&#39;impostazione del pulsante [!UICONTROL Fine] su uno qualsiasi dei team associati all&#39;utente. La selezione è casuale e per l’attività viene utilizzato lo stato associato a uno dei team.
+* Se all&#39;utente non è assegnato un team predefinito, il pulsante [!UICONTROL Fine] per le attività è associato a uno stato completo. Non sono disponibili opzioni di configurazione in questo scenario. Il pulsante [!UICONTROL Fine] viene impostato automaticamente su questo stato.
 
 ## Requisiti di accesso
 
@@ -56,7 +58,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Configura il pulsante [!UICONTROL Fine] per un team
 
-È possibile modificare lo stato applicato all&#39;elemento di lavoro con il pulsante [!UICONTROL Fine]. È inoltre possibile impostare più stati e consentire all&#39;utente di scegliere lo stato appropriato.
+È possibile cambiare lo stato applicato all&#39;elemento di lavoro con il pulsante [!UICONTROL Fine]. È inoltre possibile impostare più stati e consentire all&#39;utente di scegliere lo stato appropriato.
 
 {{step1-to-team}}
 
@@ -68,11 +70,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    >[!NOTE]
    >
-   >Quando si selezionano gli stati per attività o problemi, tenere presente quanto segue:
+   >Quando selezioni gli stati per attività o problemi, considera quanto segue:
    >
-   >* Quando si seleziona uno stato per ogni tipo di elemento di lavoro, lo stato dell&#39;attività o del problema viene impostato su tale stato quando un utente fa clic su [!UICONTROL Fine] sul relativo elemento. Se si impostano più stati per ogni tipo di elemento di lavoro, viene aggiunto un menu a discesa al pulsante [!UICONTROL Fine] e l&#39;utente deve selezionare uno stato per modificare lo stato dell&#39;elemento di lavoro.
-   >* È possibile associare solo stati a livello di sistema al pulsante [!UICONTROL Fine]. Non è possibile associare gli stati specifici del gruppo agli stati degli elementi di lavoro.
-   >* Quando un utente assegnato all&#39;elemento posiziona l&#39;elemento nello stato associato al pulsante [!UICONTROL Fine], l&#39;elemento viene visualizzato come [!UICONTROL Fine] per l&#39;utente, indipendentemente dal fatto che lo stato selezionato sia [!UICONTROL Completato] o [!UICONTROL Chiuso] o uno stato di lavoro.
+   >* Quando si seleziona uno stato per ogni tipo di elemento di lavoro, lo stato dell&#39;attività o del problema viene impostato su tale stato quando un utente fa clic su [!UICONTROL Fine] sul relativo elemento. Se si impostano più stati per ogni tipo di elemento di lavoro, al pulsante [!UICONTROL Fine] viene aggiunto un menu a discesa e l&#39;utente deve scegliere uno stato per modificare lo stato dell&#39;elemento di lavoro.
+   >* È possibile associare solo gli stati a livello di sistema al pulsante [!UICONTROL Fine]. Non è possibile associare gli stati specifici del gruppo agli stati degli elementi di lavoro.
+   >* Quando un utente assegnato all&#39;elemento inserisce l&#39;elemento nello stato associato al pulsante [!UICONTROL Fine], l&#39;elemento viene visualizzato come [!UICONTROL Fine] per tale utente indipendentemente dal fatto che lo stato selezionato sia [!UICONTROL Completato] o [!UICONTROL Chiuso] o uno stato funzionante.
    >   
    >   
    >  Ad esempio, se si associa il pulsante [!UICONTROL Fine] a [!UICONTROL In corso], l&#39;elemento di lavoro verrà visualizzato come [!UICONTROL Fine] per l&#39;utente che modifica lo stato da [!UICONTROL Nuovo] a [!UICONTROL In corso].
@@ -86,11 +88,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    >   * [!UICONTROL Richiesta di Modifica]
    >   * [!UICONTROL Segnalazione Bug]
 
-   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa verrà visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte personale]&quot;, oltre ai diversi stati scelti per il team.
+   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte ]&quot;, oltre ai diversi stati scelti per il team.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Associare gli utenti a un team principale
+## Associa utenti a un team predefinito
 
 Per rendere visibili agli utenti le modifiche apportate alla funzionalità del pulsante [!UICONTROL Fine], è possibile rendere il team di cui sono state modificate le impostazioni il team predefinito degli utenti.
 
@@ -102,7 +104,7 @@ Per associare utenti a un team predefinito:
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi fai clic su **[!UICONTROL Modifica]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Nella sezione **[!UICONTROL Organizzazione]**, seleziona il campo **[!UICONTROL Team principale]**. Inizia a digitare il nome del team di cui desideri associare le impostazioni agli utenti. Fai clic sul nome del team quando lo visualizzi nell&#39;elenco.
+1. Nella sezione **[!UICONTROL Organizzazione]**, seleziona il campo **[!UICONTROL Team predefinito]**. Inizia a digitare il nome del team di cui desideri associare le impostazioni agli utenti. Fare clic sul nome del team quando viene visualizzato nell&#39;elenco.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.\
    Gli utenti selezionati sono ora associati a un team predefinito.

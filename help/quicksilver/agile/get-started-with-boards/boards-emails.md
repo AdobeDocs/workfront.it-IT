@@ -2,12 +2,14 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Bacheche Notifiche e preferenze tramite e-mail
-description: Le bacheche Adobe Workfront ti inviano un messaggio e-mail quando vieni aggiunto a una bacheca e quando ti viene assegnata una scheda.
+title: Bacheche Notifiche e preferenze e-mail
+description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
 author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 22%
@@ -16,9 +18,9 @@ ht-degree: 22%
 
 # Preferenze e notifiche e-mail delle bacheche
 
-[!DNL Adobe Workfront] [!UICONTROL Bacheche] ti invia un&#39;e-mail quando vieni aggiunto a una bacheca e quando ti viene assegnata una carta. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle bacheche le e-mail che desideri ricevere.
+[!DNL Adobe Workfront] [!UICONTROL Bacheche] ti invia un&#39;e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle Bacheche quali e-mail desideri ricevere.
 
-Riceverai un messaggio e-mail anche quando aggiungi un commento a una scheda collegata, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, vedere [Modifica delle notifiche e-mail personali](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti con tag nei commenti su schede ad hoc non ricevono una notifica e-mail.
+Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento su una scheda connessa, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, vedere [Modificare le proprie notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
 
 ## Requisiti di accesso
 
@@ -51,7 +53,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 {{step1-to-boards}}
 
 1. Fai clic su [!UICONTROL **Preferenze**] nel dashboard delle bacheche.
-1. Seleziona se desideri ricevere e-mail relative all’aggiunta a una bacheca e all’assegnazione a una scheda.
+1. Seleziona se desideri ricevere e-mail per essere aggiunto a una bacheca e assegnato a una scheda.
 
    ![Preferenze e-mail bacheche](assets/boards-email-preferences.png)
 

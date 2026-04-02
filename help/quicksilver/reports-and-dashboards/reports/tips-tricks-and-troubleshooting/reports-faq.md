@@ -7,7 +7,9 @@ description: Domande frequenti sui rapporti
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 4%
@@ -22,7 +24,7 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
 -->
 
-Di seguito sono riportate le domande frequenti sui report.
+Di seguito sono riportate le domande frequenti sui rapporti.
 
 ## Requisiti di accesso
 
@@ -45,11 +47,11 @@ Di seguito sono riportate le domande frequenti sui report.
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a report, dashboard, calendari</p>  </td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Gestire le autorizzazioni per un report</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +82,7 @@ Le ore pianificate vengono memorizzate in minuti.
 
 A seconda del campo Ore effettive che si desidera utilizzare per il calcolo, le formule corrette sono:
 
-* Per le ore effettive precedenti memorizzate in minuti:
+* Per le ore effettive legacy memorizzate in minuti:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
@@ -100,11 +102,11 @@ Se il grafico contiene meno di 50 elementi, il valore di ciascun elemento viene 
 
 ## Perché il report restituisce troppi risultati per visualizzare il grafico?
 
-Quando eseguo un report con un grafico, viene visualizzato il messaggio di errore &quot;Wow there... Questo report ha restituito MOLTI dati, rendendo il grafico illeggibile. Considerare la possibilità di restringere i risultati aggiungendo un filtro o modificando i raggruppamenti nel grafico.&quot;
+Quando eseguo un report con un grafico, viene visualizzato il messaggio di errore &quot;Wow there... Questo report ha restituito MOLTI dati, rendendo il grafico illeggibile. È consigliabile limitare i risultati aggiungendo un filtro o modificando i raggruppamenti nel grafico.&quot;
 
 ### Risposta
 
-Questo errore indica che il grafico contiene fino a 618 risultati distinti, ad esempio più di 618 barre in un grafico a barre. Per risolvere il problema di visualizzazione, è necessario perfezionare i risultati modificando il filtro corrente e raggruppando le selezioni.
+Questo errore indica che il grafico contiene fino a 618 risultati distinti, ad esempio più di 618 barre in un grafico a barre. Per risolvere il problema di visualizzazione, è necessario perfezionare i risultati modificando il filtro e raggruppando le selezioni correnti.
 
 Per informazioni sulla modifica di filtri e raggruppamenti, vedere gli articoli [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -117,13 +119,13 @@ Per informazioni sulla modifica di filtri e raggruppamenti, vedere gli articoli 
 
 Per un elenco completo delle variabili filtro con caratteri jolly basate sull&#39;utente, vedere [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-## Perché i dati del report sembrano incompleti?
+## Perché i dati nel report sembrano incompleti?
 
 ### Risposta
 
-Questo può accadere nella maggior parte dei casi se si dispone di un accesso limitato che impedisce di visualizzare gli elementi nel sistema. Inoltre, gli elementi che desiderate visualizzare non vengono condivisi con voi.
+Questo può accadere nella maggior parte dei casi se disponi di un accesso limitato che impedisce la visualizzazione degli elementi nel sistema. Inoltre, gli elementi che desideri visualizzare non sono condivisi con te.
 
-L’autore del report può modificare il report per eseguirlo con i diritti di accesso di un amministratore di sistema o di qualsiasi utente del piano che ha accesso a visualizzare i dati.
+Il creatore del report può modificarlo per eseguirlo con i diritti di accesso di un amministratore di sistema o di qualsiasi utente del piano che abbia accesso alla visualizzazione dei dati.
 
 Per ulteriori informazioni, vedere [Eseguire e recapitare un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -131,9 +133,9 @@ Per ulteriori informazioni, vedere [Eseguire e recapitare un report con i diritt
 
 ### Risposta
 
-Per visualizzare tutte le attività o tutti i problemi assegnati all&#39;utente, sia che si tratti del proprietario (o dell&#39;assegnatario principale) o meno, utilizzare il seguente filtro in un&#39;attività o in un rapporto di emissione:
+Per visualizzare tutte le attività o i problemi assegnati, sia che tu sia il Proprietario (o l’Assegnatario principale) o meno, utilizza il seguente filtro in un rapporto di attività o problemi:
 
-1. Accedere a un&#39;attività o a una segnalazione di problemi.
+1. Accedere a un report di attività o problemi.
 1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**.
 
 1. Nel campo **Inizia a digitare il nome del campo ...**, inizia a digitare **Nome utenti assegnazione**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
@@ -145,15 +147,15 @@ Per visualizzare tutte le attività o tutti i problemi assegnati all&#39;utente,
 1. Seleziona il modificatore **Equal**.
 1. Inizia a digitare *$$USER.ID* nella casella di testo e selezionalo dall&#39;elenco a discesa visualizzato.\
    In questo modo potrai visualizzare tutte le attività e i problemi assegnati all’utente connesso. È possibile sostituire il carattere jolly con un nome utente specifico.\
-   ![Attività assegnate all&#39;utente](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Attività assegnate a me](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Fai clic su **Salva e Chiudi**.
 
-## Perché i collegamenti Aggiungi problemi/Aggiungi attività non vengono visualizzati nella parte inferiore degli elenchi Problemi e Attività di un progetto?
+## Perché i collegamenti Aggiungi problemi/Aggiungi attività non vengono visualizzati in fondo agli elenchi Problemi e attività di un progetto?
 
 ### Risposta
 
-In primo luogo, assicurati di disporre delle autorizzazioni e dell’accesso corretti per aggiungere problemi e attività a un progetto. In questo caso, dovresti visualizzare i collegamenti **Aggiungi problemi** e **Aggiungi attività** nella parte inferiore degli elenchi **Problemi** e **Attività**.
+Innanzitutto, assicurati di disporre dell’accesso e delle autorizzazioni corretti per aggiungere problemi e attività a un progetto. In questo caso, dovresti visualizzare i collegamenti **Aggiungi problemi** e **Aggiungi attività** nella parte inferiore degli elenchi **Problemi** e **Attività**.
 
 Tuttavia, ci sono alcuni elementi che potrebbero impedire la visualizzazione di questi collegamenti:
 
@@ -163,8 +165,8 @@ Tuttavia, ci sono alcuni elementi che potrebbero impedire la visualizzazione di 
 * Se a questi elenchi è applicato un **Raggruppamento**, i collegamenti non vengono visualizzati. Rimuovi il **Raggruppamento** e i collegamenti da visualizzare per aggiungere problemi e attività ai progetti.\
   Per informazioni sulla creazione di raggruppamenti, vedere [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* Se a questi elenchi è applicata una **visualizzazione** la cui valuta è diversa da quella predefinita per il progetto, i collegamenti non verranno visualizzati. Modifica la **visualizzazione** nella **valuta originale del progetto** e i collegamenti dovrebbero essere visualizzati in modo da poter aggiungere problemi e attività ai progetti.\
-  Per ulteriori informazioni sulla modifica della valuta nella visualizzazione, vedere [Creazione di report sui dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Se a questi elenchi è applicata una **Visualizzazione** con una valuta selezionata diversa da quella predefinita per il progetto, i collegamenti non vengono visualizzati. Modifica la **visualizzazione** in **valuta originale del progetto** e i collegamenti dovrebbero essere visualizzati in modo da poter aggiungere problemi e attività ai progetti.\
+  Per ulteriori informazioni sulla modifica della valuta nella visualizzazione, vedere [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![Valuta progetto](assets/nwe-project-original-currency-350x229.png)
 
@@ -178,15 +180,15 @@ Le informazioni possono essere aggiornate manualmente in un rapporto memorizzato
 Per ulteriori informazioni sull&#39;aggiornamento di un report nella cache, vedere [Eseguire un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 Le informazioni possono essere aggiornate manualmente in un dashboard memorizzato nella cache.\
-Per ulteriori informazioni sull&#39;aggiornamento di un dashboard memorizzato nella cache, vedere la sezione [Visualizzare dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) nell&#39;articolo [Introduzione ai dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Per ulteriori informazioni sull&#39;aggiornamento di un dashboard memorizzato nella cache, vedere la sezione [Dashboard di visualizzazione](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) nell&#39;articolo [Introduzione ai dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
-## È possibile modificare il proprietario di un report?
+## Posso cambiare il proprietario di un report?
 
 ### Risposta
 
-Non è possibile modificare il proprietario di un report. Tuttavia, l’utente che ha creato il report può consentire ad altri utenti di modificarlo. Il modo in cui gli utenti possono modificare un report dipende dal tipo di utente che si sta utilizzando.
+Non è possibile cambiare il proprietario di un report. Tuttavia, l’utente che ha creato il rapporto può consentire ad altri utenti di modificarlo. Il modo in cui puoi consentire agli utenti di modificare un rapporto dipende dal tipo di utente che sei.
 
-* Gli amministratori di sistema possono consentire agli utenti con una licenza del piano di modificare i report configurando l&#39;opzione Modifica nella riga Report per includere l&#39;accesso a Crea un report.\
+* Gli amministratori di sistema possono consentire agli utenti con una licenza Pianificazione di modificare i rapporti configurando l’opzione Modifica nella riga Rapporti per includere l’accesso a Crea un rapporto.\
   Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Tutti gli utenti finali con accesso per creare e condividere report possono consentire ad altri di modificare singoli report condividendoli e assegnando ad altri utenti le autorizzazioni di gestione per tali report.\
@@ -198,21 +200,21 @@ Se disponi delle autorizzazioni necessarie per visualizzare o gestire un rapport
 
 ### Risposta
 
-A volte, il proprietario del report è anche l&#39;utente specificato nel campo **Esegui report con diritti di accesso di:** nel report. Se il report **Esegui il report con i diritti di accesso di:** utente è stato disattivato, il report non verrà più visualizzato per gli utenti che hanno condiviso il report. In tal caso, è possibile rendere nuovamente accessibile il report lasciando vuoto **Esegui il report con i diritti di accesso di:** o immettendo un utente attivo nel campo.
+A volte, il proprietario del report è anche l&#39;utente specificato nel campo **Esegui report con i diritti di accesso di:** nel report. Se **Esegui il report con i diritti di accesso di:** utente è disattivato, il report non verrà più visualizzato per gli utenti che hanno condiviso il report con loro. In questo caso, è possibile rendere nuovamente accessibile il report lasciando vuoto **Esegui il report con i diritti di accesso di:** o immettendo un utente attivo nel campo.
 
-Per ulteriori informazioni sul campo **Esegui questo report con diritti di accesso di:**, vedere [Esegui e recapita un report con diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Per informazioni sull&#39;identificazione di tutti i report di proprietà degli utenti disattivati, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Per ulteriori informazioni sul campo **Esegui il report con i diritti di accesso di:**, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Per informazioni sull&#39;identificazione di tutti i report di proprietà di utenti disattivati, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
-## Come si accede a una dashboard contenente un report di proprietà di un utente eliminato?
+## Come posso accedere a una dashboard contenente un report di proprietà di un utente eliminato?
 
 ### Risposta
 
-Quando elimini un utente, puoi comunque accedere a tutti i report creati, ma vengono eliminati anche tutti i dashboard che includevano il report. Ciò significa che non è più possibile accedere a quanto segue:
+Quando elimini un utente, puoi comunque accedere a tutti i rapporti creati, ma vengono eliminati anche tutti i dashboard che includevano il rapporto. Ciò significa che non è più possibile accedere ai seguenti elementi:
 
 * Un dashboard che contiene il report, inclusi i dashboard nel pannello sinistro di un oggetto
 
-Per ulteriori informazioni sulle implicazioni dell&#39;eliminazione di un utente, vedere [Eliminare gli utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+Per ulteriori informazioni sulle implicazioni dell&#39;eliminazione di un utente, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
-Se disponi dell’accesso in visualizzazione al report, puoi effettuare le seguenti operazioni:
+Se disponi dell’accesso di visualizzazione al rapporto, puoi effettuare le seguenti operazioni:
 
 1. Crea una copia del rapporto.\
    Per informazioni su come creare una copia di un report, vedere [Creare una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

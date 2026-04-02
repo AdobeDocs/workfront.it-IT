@@ -1,25 +1,27 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Cerca, filtra e ordina commenti bozza
+title: Cercare, filtrare e ordinare commenti della bozza
 description: Puoi cercare, filtrare e ordinare i commenti della bozza per navigare facilmente nel feedback sul contenuto.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Cerca, filtra e ordina commenti bozza
+# Cercare, filtrare e ordinare commenti della bozza
 
 Puoi cercare, filtrare e ordinare i commenti della bozza per navigare facilmente nel feedback sul contenuto.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +32,7 @@ Puoi cercare, filtrare e ordinare i commenti della bozza per navigare facilmente
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
@@ -39,7 +41,7 @@ Puoi cercare, filtrare e ordinare i commenti della bozza per navigare facilmente
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,9 +91,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Azioni</strong> </td> 
-      <td>Visualizza solo i commenti corrispondenti all'azione selezionata.Nessuna azione. Le azioni devono essere abilitate nel sistema. Per ulteriori informazioni, consulta .<!--
+      <td>Visualizza solo i commenti corrispondenti all'azione selezionata.Nessuna azione. Le azioni devono essere abilitate nel sistema. Per ulteriori informazioni, consulta .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Opzioni di filtro generali</strong> </td> 

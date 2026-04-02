@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Crea linee di base progetto
+title: Creare linee di base di progetto
 description: Una previsione è un'istantanea del progetto che rappresenta le informazioni chiave incluse nel piano di progetto iniziale o in un dato momento durante il ciclo di vita del progetto.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Crea linee di base progetto
+# Creare linee di base di progetto
 
 <!-- Audited: 08/2025 -->
 
@@ -23,7 +25,7 @@ Una previsione è un&#39;istantanea del progetto che rappresenta le informazioni
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Una previsione è un&#39;istantanea del progetto che rappresenta le informazioni
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
     <td><p>Standard</p>
         <p>Piano</p> </td> 
   </tr> 
@@ -43,7 +45,7 @@ Una previsione è un&#39;istantanea del progetto che rappresenta le informazioni
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni per il progetto o versione successiva per visualizzare le linee di base</p> <p>Gestire le autorizzazioni per il progetto per creare linee di base</p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +55,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerazioni sull&#39;utilizzo delle linee di base
 

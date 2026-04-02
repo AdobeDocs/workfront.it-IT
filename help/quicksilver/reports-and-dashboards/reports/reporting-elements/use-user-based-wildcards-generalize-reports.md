@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Utilizzare caratteri jolly basati sull’utente per generalizzare i rapporti
-description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
+description: È possibile generalizzare un rapporto utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 15%
@@ -17,13 +19,13 @@ ht-degree: 15%
 
 <!-- Audited: 11/2024 -->
 
-You can generalize a report by using wildcards instead of specific information when building certain reporting elements. For example, if you want to create a report that shows the tasks assigned to a specific user, you can use the user&#39;s name in the Assigned To field of the filter. Tuttavia, se si desidera creare un report che mostra le attività assegnate all&#39;utente connesso, indipendentemente dall&#39;utente, è possibile utilizzare un carattere jolly che indichi che quando un utente visualizza il report, vengono visualizzate solo le informazioni che lo riguardano. This way, you build the report once but because you use a wildcard in the filter it produces different results every time someone else reads it.
+È possibile generalizzare un rapporto utilizzando caratteri jolly anziché informazioni specifiche durante la creazione di determinati elementi di reporting. Ad esempio, se si desidera creare un report che mostri le attività assegnate a un utente specifico, è possibile utilizzare il nome dell&#39;utente nel campo Assegnato a del filtro. Tuttavia, se si desidera creare un report che mostra le attività assegnate all&#39;utente connesso, indipendentemente dall&#39;utente, è possibile utilizzare un carattere jolly che indichi che quando un utente visualizza il report, vengono visualizzate solo le informazioni che lo riguardano. In questo modo, il rapporto verrà generato una sola volta, ma poiché si utilizza un carattere jolly nel filtro, si otterranno risultati diversi ogni volta che verrà letto da un altro utente.
 
-You can use user-based wildcards when building the following reporting elements:
+Puoi utilizzare caratteri jolly basati sugli utenti per creare i seguenti elementi di reporting:
 
 * Filtri
-* Custom prompts
-* Views when adding rules for columns
+* Richieste personalizzate
+* Visualizzazioni durante l’aggiunta di regole per le colonne
 
 ## Requisiti di accesso
 
@@ -46,12 +48,12 @@ You can use user-based wildcards when building the following reporting elements:
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Edit access to Reports, Dashboards, Calendars to edit reporting elements in a report</p>
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-    <td> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p></td> 
+    <td> <p>Gestire le autorizzazioni per un report per modificare gli elementi di reporting in un report</p> <p>Gestire le autorizzazioni per una visualizzazione o un filtro per modificarle</p></td> 
    </td> 
   </tr> 
  </tbody> 
@@ -63,22 +65,22 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-You must create a report before you can add a wildcard variable to it.
+È necessario creare un report prima di aggiungere una variabile con caratteri jolly.
 
 Per istruzioni sulla creazione di report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## How-to steps
+## Passaggi pratici
 
-To insert a user-based wildcard in a report:
+Per inserire un carattere jolly basato sull&#39;utente in un report:
 
-1. Go to a report for which you want to insert a user-based wildcard.
+1. Passare a un report per il quale si desidera inserire un carattere jolly basato sull&#39;utente.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.
 
-1. Click the **Filters** tab.
+1. Fare clic sulla scheda **Filtri**.
 1. Fai clic su **Aggiungi una regola filtro**.
-1. Start typing the name of the field that you want to filter by.\
-   You must type fields that reference the user object or information about users.
-1. Select **Equal** in the drop-down menu for the filter variable.
+1. Inizia a digitare il nome del campo in base al quale desideri filtrare.\
+   È necessario digitare i campi che fanno riferimento all&#39;oggetto utente o alle informazioni sugli utenti.
+1. Seleziona **Uguale** nel menu a discesa per la variabile filtro.
 
    >[!TIP]
    >
@@ -86,7 +88,7 @@ To insert a user-based wildcard in a report:
 
 1. Nella casella **Inizia a digitare il nome ...** digitare: `$$USER.ID` o `$$USER.name` se si desidera che nel report vengano visualizzate le informazioni relative all&#39;utente che effettua l&#39;accesso, in base al nome. È possibile inserire altri caratteri jolly che fanno riferimento al gruppo, al team, alla società o ad altre informazioni dell&#39;utente connesso.
 
-   For a complete list of user-based wildcards, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Per un elenco completo dei caratteri jolly basati sull&#39;utente, vedere [Panoramica sulle variabili dei filtri con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Fai clic su **Salva e Chiudi**.
 
@@ -95,8 +97,8 @@ To insert a user-based wildcard in a report:
 Vedi anche:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Creare o modificare filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Utilizzare la formattazione condizionale nelle viste](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

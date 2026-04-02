@@ -7,7 +7,9 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4139'
 ht-degree: 1%
@@ -38,7 +40,7 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Luce o superiore per registrare le ore di un progetto, attività, problema o ore generali su una scheda orario</p>
 
@@ -52,7 +54,7 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
    <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td>
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td>
   </tr> 
  </tbody> 
@@ -73,7 +75,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 * Il tempo registrato nella scheda orario viene applicato immediatamente all’attività, al problema o al progetto.
 * Le schede orario includono il tempo totale per tutte le date registrate. I fine settimana sono sempre inclusi, anche quando i calcoli della sequenza temporale sono stati configurati per escluderli (come descritto in [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Il numero massimo di elementi visualizzati in una scheda orario è 45. Se sono presenti più di 45 elementi le cui date corrispondono all’intervallo di tempo della scheda orario, vengono visualizzati solo gli elementi aggiornati più di recente.
-* Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, vedere [Creare record fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
+* Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, consulta [Creare record di fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
 * Per impostazione predefinita, le attività personali non vengono visualizzate nella scheda orario. Le attività personali vengono visualizzate nella scheda orario solo quando sono registrate. Dopo aver registrato l&#39;ora in un&#39;attività personale, è possibile aggiungere l&#39;attività alla scheda attività e rimarrà nella scheda attività se rimane bloccata. Per ulteriori informazioni, vedere [Creare elementi di lavoro e progetti dall&#39;area Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Registra ore {#log-time-section}
@@ -362,7 +364,8 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 
    Nel campo **Ore totali** della casella Registra ora vengono visualizzate tutte le ore registrate per il progetto, l&#39;attività o il problema da tutti gli utenti.
 
-<!--#### Log time on a work item from the legacy Home area
+<!--
+#### Log time on a work item from the legacy Home area
 
 1. In the **Work List** area, select the item where you want to log time.
 1. In the right panel, click **Log Time**.  
@@ -374,7 +377,8 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. -->
+   The logged time displays in the object's Hours section, nad in your timesheet.
+   -->
 
 ### Progetto, attività o problema {#project-task-or-issue}
 

@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 4%
@@ -71,14 +73,14 @@ Questo articolo descrive come rispondere ai commenti della maggior parte degli o
    <li><p>Richiedente o successiva</p></li></ul>
 
 <p>Per tutti gli altri oggetti:</p>
-   <ul><li><p>Leggero o superiore</p></li>
-   <li><p>Revisione o superiore</p></li></ul>
+   <ul><li><p>Chiaro o superiore</p></li>
+   <li><p>Revisione o successiva</p></li></ul>
 
 </td>  
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
-   <td> <p>Accesso in visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> </td> 
+   <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
@@ -91,7 +93,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,7 +119,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Rispondere a un aggiornamento o a una risposta in Workfront
 
@@ -133,22 +137,22 @@ La risposta a un commento nella sezione Aggiornamenti di un oggetto è simile pe
 
    Fare clic sulla scheda **Tutti**, quindi fare clic su **Rispondi in commenti** per aprire il commento nella scheda Commenti e rispondere. Non è possibile rispondere nella scheda Tutto.
 
-1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta al preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato con una linea grigia verticale.
-1. Fai clic su **Rispondi**.
+1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
+1. Fai clic su **Risposta**.
 
-   ![Rispondi per aggiornare la casella vuota](assets/reply-to-update-empty-box.png)
+   ![Risposta per aggiornare la casella vuota](assets/reply-to-update-empty-box.png)
 
-   Nella parte inferiore della casella **Aggiungi risposta...** è possibile visualizzare gli utenti che partecipano attivamente alla conversazione e aggiungerne altri o rimuovere quelli che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti sottoscritti all&#39;oggetto, ricevono una notifica ogni volta che viene eseguito un aggiornamento o una risposta sull&#39;oggetto. Puoi anche aggiungere tag a più utenti per includerli nella risposta.  Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti durante gli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Nella parte inferiore della casella **Aggiungi risposta...** è possibile visualizzare gli utenti coinvolti attivamente nella conversazione e aggiungerne altri o rimuovere quelli non più rilevanti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Per aggiungere altre risposte a una risposta esistente, inizia a digitare nella casella **Aggiungi risposta ...** oppure fai clic su **Rispondi** nel commento originale. La tua risposta viene aggiunta alla fine del thread.
+   >   Per aggiungere altre risposte a una risposta esistente, puoi iniziare a digitare nella casella **Aggiungi risposta ...** oppure fare clic su **Rispondi** nel commento originale. La risposta viene aggiunta alla fine del thread.
 
-1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti RTF. Per informazioni sull&#39;utilizzo di RTF o altre funzionalità di aggiornamento, vedere [Lavoro di aggiornamento](../updating-work-items-and-viewing-updates/update-work.md).
+1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti Testo formattato. Per informazioni sull&#39;utilizzo di Rich Text o di altre funzionalità di aggiornamento, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Fai clic su **Invia** per salvare la risposta.
 
-1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento a cui desideri rispondere per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento a cui desideri rispondere per altre opzioni di gestione della risposta. Per ulteriori informazioni, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -179,14 +183,14 @@ A seconda della configurazione delle notifiche e-mail, potresti ricevere una not
 
 È possibile rispondere a un aggiornamento da una notifica e-mail nei modi seguenti:
 
-* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta Workfront al commento originale.
+* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta di Workfront al commento originale.
 * Utilizza il pulsante Commento all’interno dell’e-mail per tornare a Workfront e rispondere all’aggiornamento nell’area Aggiornamenti.
 
-Di seguito è riportato un esempio di notifica e-mail attivata in seguito a un aggiornamento eseguito nella scheda Aggiornamenti di un&#39;attività:
+Di seguito è riportato un esempio di notifica e-mail attivata in seguito a un aggiornamento effettuato nella scheda Aggiornamenti di un’attività:
 
 ![email.png](assets/email-350x202.png)
 
-Per informazioni, vedere [Rispondere alle notifiche e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+Per informazioni, vedere [Risposta alle notifiche e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
 
 

@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 9%
@@ -19,16 +21,16 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.<br>
->Se hai un feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contatta l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
 >* Piattaforma Google Cloud
 
-Dashboard Canvas è una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di report in un&#39;area di lavoro che offre molte opzioni di layout flessibili, tra cui il ridimensionamento, il trascinamento e altro ancora.
+I dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro che offre diverse opzioni di layout flessibili, tra cui ridimensionamento, trascinamento e rilascio di e altro ancora.
 
-Per ulteriori informazioni, consulta [Panoramica dei dashboard di area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Per ulteriori informazioni, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Requisiti di accesso
 
@@ -56,7 +58,7 @@ Per ulteriori informazioni, consulta [Panoramica dei dashboard di area di lavoro
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
-   <td><p>Accesso come amministratore di sistema per abilitare i dashboard Canvas</p>
+   <td><p>Accesso amministratore di sistema per abilitare i dashboard di Canvas</p>
   </td> 
   </tr>  
 </tbody> 
@@ -76,17 +78,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    >
    > Il pulsante **Partecipa a Canvas Dashboards beta** è accessibile solo agli amministratori di sistema. Tutti gli altri utenti visualizzeranno questo pulsante in uno stato disattivato.
 
-1. Verifica i termini nella casella **Accordo beta**, quindi fai clic su **Accordo**. Ora sei iscritto alla versione beta. Tieni presente che potrebbero essere necessari alcuni minuti affinché i tuoi dati Workfront diventino completamente accessibili in Dashboard Canvas.
+1. Rivedi i termini nella casella **Contratto Beta**, quindi fai clic su **Contratto**. Ora sei iscritto alla versione beta. Tieni presente che potrebbero essere necessari alcuni minuti perché i dati Workfront diventino completamente accessibili nelle dashboard di Canvas.
 
    >[!NOTE]
    >
-   >Una volta accettati i termini beta, le funzionalità del dashboard Canvas sono abilitate per tutti gli utenti nell’ambiente Workfront. Qualsiasi utente con accesso Visualizza e Gestisci ai dashboard potrà visualizzare e modificare i dashboard di Canvas in base al proprio livello di accesso.<br>
-   >Tieni presente che la visibilità della pagina di destinazione dei dashboard di Canvas è controllata tramite il modello di layout assegnato dall&#39;utente. Per ulteriori informazioni, vedere [Creare e gestire modelli di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+   >Una volta accettati i termini beta, le funzionalità del dashboard Canvas vengono abilitate per tutti gli utenti nell’ambiente Workfront. Tutti gli utenti con l&#39;accesso Visualizza e Gestisci ai dashboard potranno visualizzare e modificare i dashboard di Canvas in base al proprio livello di accesso.<br>
+   >La visibilità della pagina di destinazione delle dashboard di Canvas è controllata tramite il modello di layout assegnato dall’utente. Per ulteriori informazioni, vedere [Creare e gestire modelli di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 
 ## Fornire feedback
 
-Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Per condividere la tua esperienza con noi, segui le istruzioni riportate di seguito.
+Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Segui le istruzioni qui sotto per condividere la tua esperienza con noi.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
@@ -94,17 +96,17 @@ Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso dell
 
 1. Fai clic sul pulsante **Lascia un feedback** nell&#39;intestazione della pagina.
 
-1. Nella pagina **Feedback beta dashboard area di lavoro**, inserite un **oggetto del feedback** e una **descrizione del feedback**.
+1. Nella pagina **Feedback Beta** dei dashboard dell&#39;area di lavoro immettere un **oggetto del feedback** e una **descrizione del feedback**.
 
-1. (Facoltativo) Nella sezione **Altri dettagli**, seleziona il tipo di attività correlata al tuo feedback nel menu a discesa **Attività di reporting**.
+1. (Facoltativo) Nella sezione **Altri dettagli**, seleziona il tipo di attività correlata al tuo feedback nell&#39;elenco a discesa **Attività di reporting**.
 
-1. (Facoltativo) Selezionare il tipo di oggetto per il quale si desidera lasciare il feedback nell&#39;elenco a discesa **Tipo di oggetto report**.
+1. (Facoltativo) Seleziona il tipo di oggetto per il quale vuoi lasciare un feedback nell&#39;elenco a discesa **Tipo di oggetto report**.
 
 1. (Facoltativo) Se sono presenti dati mancanti, selezionare la casella di controllo **Dati previsti mancanti**, quindi descrivere i dati mancanti nella casella di testo visualizzata.
 
-1. (Facoltativo) Se il tuo feedback è correlato a una richiesta di documentazione, seleziona la casella di controllo **Richiesta di documentazione**.
+1. (Facoltativo) Se il tuo feedback è relativo a una richiesta di documentazione, seleziona la casella di controllo **Richiesta di documentazione**.
 
-1. (Facoltativo) Nella sezione **Informazioni su di te**, specifica le informazioni per i seguenti campi:
+1. (Facoltativo) Nella sezione **Informazioni su di te**, specifica le informazioni per i campi seguenti:
    * **Nome cliente**
    * **Nome**
    * **Ruolo di reporting**

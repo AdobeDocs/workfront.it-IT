@@ -7,10 +7,12 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -50,9 +52,9 @@ ht-degree: 4%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licenza Adobe Workfront</td> 
-  <td> <p>Collaboratore o versione successiva</p>
- <p>Richiedi o superiore</p> 
+  <td role="rowheader">Licenza di Adobe Workfront</td> 
+  <td> <p>Collaboratore o successiva</p>
+ <p>Richiedente o successiva</p> 
 </td> 
  </tr> 
   <tr> 
@@ -61,7 +63,7 @@ ht-degree: 4%
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Consente di gestire le autorizzazioni per l'oggetto al quale si desidera allegare un modulo personalizzato.</p> <p>Autorizzazioni di visualizzazione o superiori per il modulo personalizzato, con autorizzazione per <b>Allega a dati personalizzati</b> oggetti (progetti, attività e problemi).</td> 
   </tr> 
  </tbody> 
@@ -71,7 +73,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +101,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to  Custom  Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prerequisiti
 
@@ -146,7 +150,8 @@ L’amministratore di Workfront o un utente con una licenza Pianificazione e l�
 È possibile aggiungere moduli personalizzati a più oggetti selezionandoli in un elenco.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+-->
 
 >[!NOTE]
 >

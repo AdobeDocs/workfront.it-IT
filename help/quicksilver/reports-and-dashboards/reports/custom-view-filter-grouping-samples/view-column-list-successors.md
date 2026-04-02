@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Add a List of Task Successors in a Column'
-description: You can add a column to a task view to show a list of the successors of the tasks. The Task Successors column includes the number of the successor as well as the name.
+title: 'Visualizzazione: aggiunta di un elenco di successori attività in una colonna'
+description: È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. La colonna Successori attività include il numero del successore e il nome.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 22%
@@ -18,9 +20,9 @@ ht-degree: 22%
 
 <!--Audited: 11/2024-->
 
-You can add a column to a task view to show a list of the successors of the tasks. The **Task Successors** column includes the number of the successor as well as the name.
+È possibile aggiungere una colonna a una visualizzazione delle attività per visualizzare un elenco dei successori delle attività. La colonna **Successori attività** include il numero del successore e il nome.
 
-![task_view_with_a_list_of_successors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
+![visualizzazione_attività_con_un_elenco_di_successori_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Requisiti di accesso
 
@@ -56,15 +58,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 +++
 
 
-## Add a list of task successors in a column
+## Aggiungere un elenco di successori attività in una colonna
 
-To add this column to a task view:
+Per aggiungere questa colonna a una visualizzazione delle attività:
 
-1. Go to a task list.
-1. Expand the **View** drop-down menu, and click **New View**.
+1. Consente di passare a un elenco di attività.
+1. Espandere il menu a discesa **Visualizza** e fare clic su **Nuova visualizzazione**.
 1. Fai clic su **Aggiungi colonna**.
-1. Click **Switch to Text Mode**, then click **Edit Text Mode**.
-1. Remove all text in the **Edit Text Mode** box, and replace it with the following code:
+1. Fare clic su **Passa alla modalità testo**, quindi su **Modifica modalità testo**.
+1. Rimuovere tutto il testo nella casella **Modifica modalità testo** e sostituirlo con il seguente codice:
 
    ```
    displayname=Task Successors
