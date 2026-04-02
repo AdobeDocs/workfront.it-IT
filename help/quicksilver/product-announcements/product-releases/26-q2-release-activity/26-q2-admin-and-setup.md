@@ -5,10 +5,12 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 6%
+source-wordcount: '551'
+ht-degree: 7%
 
 ---
 
@@ -17,6 +19,22 @@ ht-degree: 6%
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## I collaboratori IA sono ora disponibili
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Per facilitare l’utilizzo dell’intelligenza artificiale nel lavoro quotidiano, abbiamo creato i collaboratori di intelligenza artificiale. I collaboratori IA sono un modo per integrare gli agenti IA nei progetti e nelle attività. Puoi configurare un collaboratore AI con le linee guida del brand, quindi assegnarlo a un’attività come faresti con un utente.
+
+Attualmente, i collaboratori IA possono essere utilizzati per rivedere il contenuto. In futuro saranno disponibili più funzionalità di AI Collaborator.
+
+<!--
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## I trimestri personalizzati sono ora disponibili come pagina separata in Configurazione
 

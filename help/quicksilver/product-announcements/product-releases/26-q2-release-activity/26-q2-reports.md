@@ -5,9 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
@@ -17,6 +19,38 @@ ht-degree: 8%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del secondo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Eseguire rapporti come utente specifico nei dashboard di Canvas
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+>
+>Canvas Dashboards è attualmente in versione beta.
+
+Ora puoi configurare i rapporti sulle dashboard di Canvas in modo che vengano eseguiti come utente specifico. Quando è abilitato, il rapporto mostra i dati in base all’accesso dell’utente selezionato, anziché alle autorizzazioni del visualizzatore.
+
+Ciò garantisce dati più coerenti e affidabili tra i visualizzatori del dashboard, anche quando l’accesso alle aree di lavoro di Planning, ai tipi di record o alle impostazioni di autorizzazione è diverso.
+
+Per ulteriori informazioni, vedere [Generare un report KPI in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Creare un report grafico in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) o [Creare un report tabella in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+## La Distribuzione Pianificata Dei Rapporti Ora Supporta Le E-Mail Basate Su Collegamenti
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Invece di generare e allegare un file, questa opzione invia un’e-mail contenente un collegamento diretto al rapporto in Workfront, consentendo ai destinatari di visualizzare i dati più recenti nell’applicazione.
+
+L’opzione Collegamento è ora il tipo di consegna predefinito per le nuove regole di consegna dei rapporti pianificate, mentre rimangono disponibili i formati basati su file esistenti (HTML, PDF, Excel e TSV).
+
+Con questa modifica, abbiamo anche aggiornato l’aspetto dell’e-mail di consegna del rapporto.
+
+Per ulteriori informazioni, consulta [Pianificare la consegna automatica di un report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Nuove opzioni di autenticazione per la connessione dati
 

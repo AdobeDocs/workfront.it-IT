@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 13%
+source-wordcount: '1882'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +23,138 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Nuova funzionalità per aumentare l&#39;altezza delle righe nella vista a elenco
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È stata aggiunta una nuova impostazione per regolare l’altezza delle righe nella vista a elenco.
+
+Per ulteriori informazioni, consulta Gestire la visualizzazione a elenco (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Aggiungi il nome del tipo di record e l&#39;icona di visualizzazione alle visualizzazioni condivise pubblicamente
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Per fare in modo che i destinatari comprendano sempre la visualizzazione ricevuta quando aprono un collegamento condiviso pubblicamente a un tipo di record, alla pagina di visualizzazione condivisa è stato aggiunto il nome del tipo di record, oltre all’icona di visualizzazione e al nome della visualizzazione.
+
+Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md)
+
+## Nuova funzionalità di raggruppamento aggiunta all’elenco Moduli di richiesta
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Per una migliore organizzazione delle informazioni, è stata aggiunta la possibilità di raggruppare gli elementi nella pagina Moduli di richiesta di un tipo di record.
+
+Prima di questo miglioramento, questa funzionalità non esisteva in quest’area.
+
+Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Espandere l&#39;elenco delle entità condivise per visualizzare gli utenti
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È ora possibile espandere gruppi, team, società e ruoli per visualizzare i relativi membri quando si condivide un&#39;area di lavoro o una visualizzazione con essi. Prima di questo miglioramento, gli elenchi di appartenenze erano disponibili per questi oggetti solo quando si condividevano tipi di record.
+
+Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Modello di best practice per l&#39;implementazione di Workfront Planning in più aree di lavoro
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Stiamo introducendo un pacchetto modello per semplificare l’implementazione di Workfront Planning all’interno della tua organizzazione. Installando il modello di framework delle best practice, è possibile creare fino a sei aree di lavoro contenenti tutte le informazioni necessarie per iniziare a spostare la pianificazione strategica in Workfront.
+
+Il modello per più aree di lavoro contiene un modello globale che stabilisce i tipi di record di base che è possibile utilizzare in qualsiasi area di lavoro personalizzata creata. Inoltre, il modello include altre 5 aree di lavoro che è possibile utilizzare come esempi e che sono interconnesse tra loro e con altri oggetti in Workfront.
+
+Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Questo miglioramento è disponibile solo per i clienti con un pacchetto Prime o superiore.
+
+## Ricerca globale di oggetti di Workfront Planning da qualsiasi pagina di Workfront Planning
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È ora possibile cercare aree di lavoro, tipi di record o visualizzazioni da qualsiasi pagina di Workfront Planning utilizzando le combinazioni di tasti seguenti da qualsiasi pagina di Planning:
+
+* CTRL+K per Windows
+* ⌘+K per Mac
+
+È inoltre possibile cercare aree di lavoro, tipi di record o visualizzazioni dalla nuova casella di ricerca aggiunta alla pagina di destinazione di Planning.
+
+Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Applicare una formattazione condizionale aggiuntiva a un elenco di progetti nella pagina connessa di un record
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È ora possibile applicare una formattazione condizionale aggiuntiva a un elenco di progetti nella pagina connessa di un record.
+
+Le nuove funzionalità di formattazione condizionale includono:
+
+* Aggiungi colore al testo
+
+* Applicare il grassetto o il corsivo al testo in una cella
+
+* Possibilità di applicare la formattazione condizionale a un’intera riga
+
+Prima di questo miglioramento, esisteva solo la possibilità di aggiungere colore allo sfondo di una cella.
+
+Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Sono stati aggiunti nomi personalizzati per i filtri nella vista a elenco
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Nella vista a elenco sono stati aggiunti i seguenti nomi personalizzati per un filtro team, gruppo, azienda e ruolo:
+
+* Il mio team principale, I miei team
+
+* Il mio gruppo predefinito, I miei gruppi
+
+* Il mio ruolo principale, I miei ruoli
+
+* La mia azienda
+
+Affinché le opzioni del filtro siano visibili, i campi devono esistere sugli oggetti visualizzati nella vista.
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Riprogettazione breadcrumb
 
