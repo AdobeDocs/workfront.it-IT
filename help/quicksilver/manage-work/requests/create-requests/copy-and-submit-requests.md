@@ -6,10 +6,12 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 6%
+source-wordcount: '1615'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +30,9 @@ Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. I
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront o flusso di lavoro</p>
+
+<p>Qualsiasi pacchetto Workfront Planning da copiare e inviare richieste Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -44,10 +48,12 @@ Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. I
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Prodotto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Prerequisiti
 
 È necessario disporre di una richiesta inviata in precedenza da te o da un utente dell’organizzazione per poterla copiare e inviare nuovamente. Se la richiesta appartiene a un altro utente, è necessario disporre almeno dell&#39;accesso alla visualizzazione per poterla copiare e inviare come nuova richiesta.
+
+Puoi copiare e inviare nuovamente uno dei seguenti tipi di richieste:
+
+* Una richiesta Workfront, inviata a una coda di richieste
+* Una richiesta di Workfront Planning sottomessa a un modulo di richiesta Planning, se la società ha acquistato un pacchetto Planning.
 
 ## Considerazioni sulla copia e l’invio delle richieste come nuove
 
@@ -92,7 +103,51 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   >
   >La richiesta copiata non è collegata a un oggetto di risoluzione.
 
+## Copiare e inviare richieste nella nuova esperienza richiedente
+
+È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
+
+1. Esegui una delle operazioni seguenti:
+
+   {{step1-to-requests}}
+
+   1. Per accedere al widget **Richieste personali** in **Home**:
+
+   {{step1-to-home}}
+
+   1. Individua il widget **Richieste personali**.
+
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta da copiare, quindi fai clic sul menu **Altre** accanto al nome.
+
+   ![Altro menu](assets/more-menu.png)
+
+1. Fai clic su **Copia**
+
+   Oppure
+
+   Fare clic con il pulsante destro del mouse sulla richiesta selezionata, quindi scegliere **Copia**.
+
+   >[!TIP]
+   >
+   >Se non disponi dell’accesso per la creazione di problemi, ricevi un avviso che informa che l’amministratore non ti ha consentito di creare richieste.
+
+1. (Facoltativo) Aggiorna tutte le informazioni della richiesta copiata. I campi disponibili dipendono dalla coda o dal modulo di richiesta utilizzati per la richiesta.
+
+   Quando si immettono o si modificano valori di campo nella richiesta copiata, questi vengono salvati come bozza.
+
+1. Fai clic su **Invia**.
+
+   La richiesta copiata viene inviata come nuova richiesta.
+
+   Gli oggetti di risoluzione della richiesta originale non vengono copiati.
+
+   Quando si copia e si risottomette una richiesta di Planning, viene creato un altro record per il tipo di record associato al modulo della richiesta originale.
+
 ## Copiare e inviare richieste nell’esperienza di richiesta legacy
+
+Se la società ha acquistato un pacchetto Workfront Planning, non è possibile copiare e inviare richieste Planning nell&#39;esperienza di richiesta legacy.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    La richiesta copiata viene inviata come nuova richiesta nella coda richieste specificata.
 
-## Copiare e inviare richieste nella nuova esperienza richiedente
 
-È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
-
-1. Esegui una delle operazioni seguenti:
-
-   {{step1-to-requests}}
-
-   1. Per accedere al widget **Richieste personali** in **Home**:
-
-   {{step1-to-home}}
-
-   1. Individua il widget **Richieste personali**.
-
-      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta da copiare, quindi fai clic sul menu **Altre** accanto al nome.
-
-   ![Altro menu](assets/more-menu.png)
-
-1. Fai clic su **Copia**
-
-   Oppure
-
-   Fare clic con il pulsante destro del mouse sulla richiesta selezionata, quindi scegliere **Copia**.
-
-   >[!TIP]
-   >
-   >Se non disponi dell’accesso per la creazione di problemi, ricevi un avviso che informa che l’amministratore non ti ha consentito di creare richieste.
-
-1. (Facoltativo) Aggiorna tutte le informazioni della richiesta copiata. I campi disponibili dipendono dalla coda o dal modulo di richiesta utilizzati per la richiesta.
-
-   Quando si immettono o si modificano valori di campo nella richiesta copiata, questi vengono salvati come bozza.
-
-1. Fai clic su **Invia**.
-
-   La richiesta copiata viene inviata come nuova richiesta.
 
 

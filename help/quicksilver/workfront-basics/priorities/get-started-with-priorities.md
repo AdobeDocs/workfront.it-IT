@@ -1,15 +1,17 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Introduzione alle priorità
+title: Introduzione alla funzione Priorità
 description: Priorities è un’esperienza semplice e intuitiva, personalizzata per i titolari delle attività.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 3%
+source-wordcount: '1018'
+ht-degree: 4%
 
 ---
 
@@ -103,7 +105,7 @@ Dopo aver filtrato il lavoro, puoi raggruppare gli elementi in base a
 * Stato
 * Progetto
 
-Per ulteriori informazioni, consulta [Filtrare e raggruppare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Per ulteriori informazioni, consulta [Filtrare, raggruppare e ordinare il tuo lavoro in base alle priorità](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Assegna priorità agli elementi di lavoro importanti con Il mio focus
 
@@ -196,7 +198,7 @@ Dalla scheda Documenti relativa a un’attività o a un problema, puoi
 
 Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando Recupera riepiloga aggiornamenti, documenti caricati, approvazioni e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni.
 
-Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Per ulteriori informazioni, consulta [Recuperare il lavoro nelle Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![Recuperami](assets/catch-me-up.png)
 
@@ -210,4 +212,5 @@ Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un�
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

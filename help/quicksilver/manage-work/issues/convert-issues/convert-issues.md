@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1541'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +33,7 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
 * L&#39;amministratore di Workfront o l&#39;amministratore di gruppo ha già impostato le preferenze per ciò che accade a un problema, la sua risoluzione e l&#39;accesso del suo contatto principale quando viene convertito in un progetto o un&#39;attività, come descritto in [Configurare le preferenze per l&#39;attività e il problema a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront rimuove tutte le approvazioni associate a problemi durante la conversione.
 * Workfront sovrascrive l’oggetto risolutivo del problema quando lo si converte in un’attività o in un progetto. La nuova attività o il nuovo problema diventa il nuovo oggetto risolutivo del problema dopo la conversione.
-* Considera quanto segue:
+* Considera i seguenti aspetti:
 
    * Durante la conversione, potrebbe essere richiesto se si desidera mantenere il problema e la sua risoluzione legati al progetto o all&#39;attività che si sta creando.
    * Se si mantiene il problema, lo stato e la percentuale di completamento del progetto o dell&#39;attività aggiornano automaticamente lo stato e la percentuale di completamento del problema quando si verificano modifiche al progetto, all&#39;attività o al problema oppure quando Workfront ricalcola la timeline.
@@ -164,7 +166,8 @@ Nella tabella seguente sono elencate le informazioni sul progetto e se viene tra
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ La tabella seguente illustra quali campi dei problemi sono visibili dai progetti
 >[!CAUTION]
 >
 >Se il contatto principale di un problema cambia o se il problema viene scollegato dal progetto o dall’attività dopo la conversione del problema, il nome dell’iniziatore del problema convertito non viene aggiornato e viene visualizzato il contatto principale originale del problema al momento della conversione.
+
+## Visualizza il problema originale e gli oggetti convertiti dagli elenchi delle richieste
+
+Puoi visualizzare il problema originale e gli oggetti convertiti nell’area Richieste e il widget Richieste personali nella Home.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+
+* [Visualizzare le richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Utilizzare il widget Le mie richieste](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

@@ -6,14 +6,22 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 11%
+source-wordcount: '777'
+ht-degree: 6%
 
 ---
 
 # Utilizzare il widget Le mie richieste
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,7 +78,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 È possibile creare una richiesta direttamente dal widget Richieste personali.
 
-Per istruzioni, vedere la sezione [Creare una richiesta](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) nell&#39;articolo [Creare elementi di lavoro e progetti dall&#39;area Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per istruzioni, vedere la sezione [Creare una richiesta](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) nell&#39;articolo [Creare elementi di lavoro e progetti dall&#39;area Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copiare una richiesta
 
@@ -81,6 +89,7 @@ Per istruzioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-
 ## Gestire le informazioni nell&#39;elenco delle richieste nel widget Richieste personali
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
-1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, aggiorna i seguenti elementi di visualizzazione per l’elenco:
+1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, crea o aggiorna i seguenti elementi di visualizzazione per l’elenco:
 
    * Visualizzazione
    * Filtro
    * Colonne
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Per ulteriori informazioni sulla gestione delle informazioni nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Gruppo
+   * Formatta celle
+   * Altezza riga
+
+   </div>
+
+   Per ulteriori informazioni sull&#39;aggiornamento degli elementi di visualizzazione nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Per filtrare solo le richieste di Workfront Planning, impostare il filtro su **Tipo di oggetto** > **Non contiene** > **Problemi**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Per cercare richieste specifiche nel widget Richieste personali:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
 1. Nella barra di ricerca in alto a destra del widget Richieste personali, immettere il termine che si desidera cercare.
 
@@ -199,12 +208,25 @@ Per cercare richieste specifiche nel widget Richieste personali:
 
 >[!NOTE]
 >
->I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un oggetto. Se una richiesta di Workfront viene convertita in un progetto o in un altro oggetto, il collegamento all’oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza.
+>Quando abilitate la nuova esperienza richieste nell&#39;area Richieste, nel widget Richieste personali sono presenti i collegamenti dell&#39;elenco Richieste del widget Richieste personali degli oggetti seguenti:
+>
+>* Richieste Planning e Workfront nel campo Oggetto.
+>* Record di Planning creati dalle richieste di Planning nel campo Oggetto creato.
+>* <span class="preview">Attività e problemi di Workfront convertiti da richieste Workfront nel campo Oggetto creato nell&#39;ambiente di anteprima.</span>
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
 1. Individuare la richiesta che ha creato l&#39;oggetto.
 1. Fare clic sul nome dell&#39;oggetto nella colonna **Oggetto creato** per la richiesta.
 
    Viene visualizzata la pagina dell&#39;oggetto.
+
+   >[!TIP]
+   >
+   >Nell&#39;ambiente di produzione solo i record di Planning hanno un collegamento nel campo **Oggetto creato**.
+   >   
+   ><span class="preview">Nell&#39;ambiente di anteprima, le attività e i progetti Workfront convertiti da problemi e i record Planning creati da richieste Planning hanno un collegamento nel campo **Oggetto creato**.</span>
+   >
+
+
 

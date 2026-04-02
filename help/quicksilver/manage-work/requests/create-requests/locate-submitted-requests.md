@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1441'
+ht-degree: 4%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 6%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
 
@@ -90,6 +88,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Visualizzare le richieste inviate nell’area Richieste
 
+Puoi visualizzare le richieste inviate nell’area Richieste o nel widget Richieste personali nella Home.
+
+Per informazioni sulle Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’esperienza di richiesta nuova o legacy.
 
 * [Visualizzare le richieste inviate nella nuova esperienza di richiesta](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 >* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna **Object type**.
 >* Per impostazione predefinita, nell’elenco dell’area Richieste vengono visualizzate fino a 50 richieste. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
-È possibile visualizzare le richieste inviate nell&#39;area Richieste, che include collegamenti ai record creati dalle richieste di Adobe Workfront Planning nell&#39;ambiente di produzione <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
+Puoi visualizzare le richieste inviate nell’area Richieste e nel widget Richieste personali nella Home.
 
 >[!NOTE]
 >
->I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un record.
+>Quando abilitate la nuova esperienza richieste, nell&#39;area Richieste e nel widget Richieste personali sono presenti i collegamenti dell&#39;elenco Richieste:
 >
->Se una richiesta di Workfront viene convertita in un progetto o in un altro oggetto, il collegamento all’oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Richieste Planning e Workfront nel campo Oggetto.
+>* Record di Planning creati dalle richieste di Planning nel campo Oggetto creato.
+>* <span class="preview">Attività e problemi di Workfront convertiti da richieste Workfront nel campo Oggetto creato dell&#39;ambiente di anteprima. </span>
 
 Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 
@@ -135,13 +129,13 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
    * Filtro
    * Colonne
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Gruppo
+   * Formatta celle
+   * Altezza riga
+
+   </div>
 
    Per ulteriori informazioni sulla gestione delle informazioni nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -292,7 +286,8 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 
 1. Fai clic su **Bozze** per visualizzare tutte le richieste bozze. Workfront salva un numero illimitato di bozze per ogni coda di richieste in questa cartella. Quando si immette una nuova richiesta per un argomento della coda che presenta già una bozza, viene richiesto di utilizzare una bozza esistente. Per ulteriori informazioni, vedere [Creare richieste dalle bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

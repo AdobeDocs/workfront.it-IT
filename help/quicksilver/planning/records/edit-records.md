@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 1%
 
 ---
@@ -69,7 +71,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -122,7 +125,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## Considerazioni sulla modifica dei record
 
@@ -142,7 +146,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da , <span class="preview">ID record</span>)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
-* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www.
 * È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * È possibile modificare l&#39;ordine dei campi nella pagina dei dettagli di un record. Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 * È possibile modificare le date di inizio e di fine di un record ridimensionando o riposizionando i record nelle visualizzazioni Timeline e Calendario.
@@ -187,6 +191,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 1. (Condizionale) Fare clic sulla scheda di una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per creare una visualizzazione tabella. La vista tabella deve essere quella predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di vista all&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
+1. (Facoltativo) Fare clic sulla casella di ricerca e aggiungere una parola chiave per trovare il record da modificare.
+
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
    ![Modifica campo paragrafo record con visualizzazione tabella di formattazione](assets/edit-record-paragraph-field-with-formatting-table-view.png)

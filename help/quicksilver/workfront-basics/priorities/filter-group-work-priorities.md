@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtrare e raggruppare il lavoro con priorità
+title: Filtrare, raggruppare e ordinare il lavoro con priorità
 description: È possibile utilizzare i filtri per trovare il lavoro desiderato e quindi applicare un raggruppamento per mantenerlo organizzato.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 11%
 
 ---
 
-# Filtrare e raggruppare il lavoro con priorità
+# Filtrare, raggruppare e ordinare il lavoro con Priorità
 
 È possibile utilizzare i filtri per trovare il lavoro che si sta cercando e quindi applicare un raggruppamento per mantenerlo organizzato.
 
@@ -21,9 +21,9 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,10 +36,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
-   <p>Richiedi o superiore</p>
-   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedente o successiva</p>
+   <p>Collaboratore o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
   </tr> 
  </tbody> 

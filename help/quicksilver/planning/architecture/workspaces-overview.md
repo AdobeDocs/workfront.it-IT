@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 4%
 
 ---
 
 # Panoramica delle aree di lavoro
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 
    * Da zero
    * Utilizzo di un modello. I modelli contengono un numero preconfigurato di tipi di record e i relativi campi.
+   * Utilizzo di Planning Designer basato sull’intelligenza artificiale. Questa funzione è attualmente in Beta.
+   * <span class="preview">Utilizzo di un bundle di modelli con più aree di lavoro.</span>
 
-  Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+  Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Le aree di lavoro sono strutture all’interno delle quali lavorano le unità organizzative (un team, un gruppo, un reparto o una divisione). Non possono essere associati a campi. Solo i tipi di record all&#39;interno di un&#39;area di lavoro possono essere associati ai campi.
 
   Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -40,7 +47,7 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
    * Per gli amministratori di sistema, le aree di lavoro vengono visualizzate nelle seguenti schede:
 
       * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
-      * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro nel sistema.
+      * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema.
 
    * Per tutti gli altri utenti, le aree di lavoro create e quelle condivise con gli altri utenti vengono visualizzate nell&#39;area Workspace.
 

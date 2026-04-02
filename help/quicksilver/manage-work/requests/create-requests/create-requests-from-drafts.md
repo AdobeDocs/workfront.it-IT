@@ -6,9 +6,11 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 6%
 
 ---
@@ -58,7 +60,9 @@ Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti
 
 ## Creare richieste da bozze
 
-La procedura per la creazione di richieste da bozze varia tra la nuova esperienza di richiesta e l’esperienza legacy.
+È possibile creare richieste dalle bozze sia per le richieste Workfront che per quelle Planning.
+
+La creazione di richieste dalle bozze differisce tra la nuova esperienza di richiesta e l’esperienza legacy.
 
 * [Creare richieste da bozze nella nuova esperienza di richiesta](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Creare richieste da bozze nell’esperienza di richiesta legacy](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
 
 1. Dopo aver completato le informazioni per la richiesta, fai clic su **Invia**.
 
-   Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
+   Quando inviate la richiesta, la bozza viene sostituita con la nuova richiesta e non può essere ripristinata come bozza.
 
 ### Creare richieste da bozze nell’esperienza di richiesta legacy
+
+>[!NOTE]
+>
+>Non è possibile creare richieste da bozze di richieste Planning utilizzando l&#39;esperienza legacy.
+
 
 {{step1-to-requests}}
 

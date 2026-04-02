@@ -5,9 +5,11 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 2%
 
 ---
@@ -63,6 +65,12 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
 | <span class="preview">Elenco dei report</span> | <span class="preview">I report (**Utilizza cartelle condivisibili** devono essere attivati)</span> |
+| <span class="preview">Elenco di mansioni e tariffe in Configurazione</span> | <span class="preview">Configurazione > Schede tariffarie > selezionare una scheda tariffaria > Ruoli lavorativi e tariffe</span> |
+| <span class="preview">Elenco delle traduzioni</span> | <span class="preview">Configurazione > Localizzazione</span> |
+| <span class="preview">Elenco di snapshot</span> | <span class="preview">Progetto > Snapshot</span> |
+| <span class="preview">Elenco risorse per fatturazione</span> | <span class="preview">Progetto > Risorsa per fatturazione</span> |
+| <span class="preview">Nuove assegnazioni avanzate per un&#39;attività</span> | <span class="preview">Attività > Assegnazioni > Avanzate </span> |
+
 
 ## Aggiungere elementi a un elenco avanzato
 
@@ -110,6 +118,9 @@ A seconda dell’elenco avanzato che stai visualizzando, effettua una delle segu
    * Visualizzazione
    * Modifica
    * Elimina
+   * Copia
+   * Sposta nella cartella
+   * Condividi
 
    Se non è disponibile alcuna azione per l&#39;elemento selezionato, sulla barra delle azioni viene visualizzato &quot;Nessuna azione disponibile&quot;.
 
@@ -178,15 +189,33 @@ Per aggiungere e rimuovere colonne:
 
    L’elenco aggiorna le colonne in base alle scelte effettuate.
 
+<div class="preview">
+
+### Modificare l&#39;altezza della riga in una visualizzazione
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+1. Fare clic sull&#39;icona **Altezza riga** ![Icona Altezza riga](assets/row-height-icon.png) in un elenco avanzato.
+
+   La lunghezza verticale di una riga viene aggiornata. Scegli una tra le opzioni seguenti:
+   * Piccola
+   * Standard. Questa è la scelta predefinita.
+   * Canale
+   * Alta
+
+</div>
+
 ## Aggiornare gli elementi dell’elenco avanzati
 
 I seguenti elementi sono componenti di un elenco avanzato:
 
-* Visualizza: definisce le colonne, i filtri e i raggruppamenti nell’elenco con le impostazioni predefinite
-* Filtri: limita la quantità di informazioni visualizzate nell’elenco
-* Raggruppamenti: organizza le voci di elenco in base ai campi comuni
-* Ordina: dispone gli elementi di un elenco in base all&#39;ordine identificato per un determinato campo
-* Ricerca: trova rapidamente un elemento utilizzando una parola chiave di ricerca
+* **Visualizzazione**: definisce le colonne, i filtri e i raggruppamenti nell&#39;elenco con le impostazioni predefinite
+* **Filtri**: limita la quantità di informazioni visualizzate nell&#39;elenco
+* **Raggruppamenti**: organizza gli elementi dell&#39;elenco in base ai campi comuni
+* **Ordinamento**: dispone gli elementi di un elenco in base all&#39;ordine identificato per un campo specifico
+* **Ricerca**: trova rapidamente un elemento utilizzando una parola chiave di ricerca
 
 ### Applicare e creare viste
 
@@ -208,102 +237,6 @@ Per applicare o creare una vista:
 1. (Facoltativo) Raggruppa gli elementi nell’elenco. Per ulteriori informazioni, vedere [Raggruppare gli elementi in un elenco avanzato](#group-items-in-an-enhanced-list).
 
    Le modifiche alle viste vengono salvate automaticamente. Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
-
-### Filtrare gli elementi in un elenco avanzato
-
->[!NOTE]
->
->Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
-
-I filtri consentono di ridurre la quantità di informazioni visualizzate nell’elenco.
-
-1. Fai clic su **Filtro** sopra l&#39;elenco.
-1. Nella casella Filtro fare clic su **Aggiungi condizione**.
-1. Seleziona un campo in base al quale filtrare.
-1. Seleziona un modificatore di filtro, ad esempio &quot;Ha uno di&quot;, &quot;Non ha nessuno di&quot;, &quot;È prima&quot; o &quot;È dopo&quot;. Le opzioni del modificatore variano a seconda del tipo di campo in base al quale si sta filtrando.
-1. Seleziona il valore o i valori del campo. A seconda del tipo di campo in base al quale si sta filtrando, è possibile che venga richiesto di selezionare l&#39;elemento da un elenco, cercarlo o utilizzare un calendario per selezionare un intervallo di date.
-
-   ![Filtro in elenchi avanzati](assets/glist-filter-with-options.png)
-
-   Il filtro viene applicato automaticamente all’elenco.
-
-   >[!TIP]
-   >
-   >Per applicare un carattere jolly utente corrente, selezionare **Utente connesso** come valore del campo. Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco. Questo carattere jolly è disponibile nei campi in cui il valore è un utente.
-
-1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro.
-
-   È possibile unire più filtri tramite un connettore AND o OR.
-
-1. Quando il filtro viene applicato, è possibile aprire nuovamente le opzioni **Filtro** per modificare le opzioni del filtro o cancellare tutti i filtri.
-
-   Un indicatore viene visualizzato sul pulsante **Filtro** quando si applica un filtro all&#39;elenco.
-
-   ![Indicatore filtro applicato](assets/glist-filter-applied-indicator.png)
-
-### Raggruppa elementi in un elenco avanzato
-
->[!NOTE]
->
->Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
-
-I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri specifici.
-
-Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è possibile modificarli.
-
-1. Fai clic su **Gruppo** sopra l&#39;elenco.
-1. Seleziona un raggruppamento per organizzare l’elenco.
-
-   ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
-
-1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L’opzione predefinita consiste nel visualizzare l’elenco con tutti i raggruppamenti espansi.
-1. Quando si applica il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppa per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
-
-   ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
-
-   Un indicatore viene visualizzato sul pulsante **Gruppo** quando si applica un raggruppamento all&#39;elenco.
-
-   ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
-
-### Ordinare in un elenco avanzato
-
->[!NOTE]
->
->Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
-
-Per ordinare le singole colonne:
-
-1. Passa il puntatore del mouse sulla colonna, quindi fai clic sulla freccia giù e seleziona **Ordina**.
-
-   Un&#39;icona accanto al nome di una colonna indica che l&#39;elenco è ordinato in base ai valori della colonna e alla direzione dell&#39;ordinamento.
-
-   >[!NOTE]
-   >
-   >Alcune colonne potrebbero non essere ordinabili, a seconda dell’elenco.
-
-   ![Ordina per colonna](assets/glist-sort-by-column.png)
-
-1. (Facoltativo) Per ordinare il lavoro all&#39;interno di un raggruppamento, fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
-
-   ![Ordina in un raggruppamento](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >L’ordinamento varia in base al tipo di campo in base al quale viene eseguito l’ordinamento.
-
-### Cerca in un elenco avanzato
-
->[!NOTE]
->
->Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
-
-1. digitare una parola chiave in base alla quale si desidera eseguire la ricerca nella casella Cerca nell&#39;angolo superiore destro dell&#39;elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
-
-   ![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >La ricerca esamina tutte le colonne di tutte le voci di elenco. Se l&#39;elenco è lungo, la ricerca include elementi che potrebbero essere necessari per scorrere. Quando l’elenco viene filtrato, la ricerca esamina solo ciò che è attualmente visualizzato.
 
 ### Condividere una visualizzazione
 
@@ -381,3 +314,165 @@ Quando una visualizzazione condivisa con l&#39;utente non dispone dell&#39;autor
    ![Copia e reimposta le opzioni di visualizzazione](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Applicare la formattazione condizionale a una visualizzazione
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+La formattazione condizionale consente di evidenziare informazioni importanti nella visualizzazione in base a criteri comuni.
+
+1. Fare clic sull&#39;icona **Formatta celle** ![Formatta celle icona](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**.
+
+1. Fai clic su **Aggiungi condizione**.
+1. Nella riga **If**, selezionare un campo, scegliere un valore di campo e aggiungere un modificatore. I modificatori cambiano a seconda del tipo di campo scelto.
+
+   >[!TIP]
+   >
+   >Solo i campi visibili nell’elenco avanzato sono disponibili per la formattazione condizionale.
+
+1. (Facoltativo) Anziché aggiungere un valore di campo, fare clic sull&#39;icona **Confronta con un altro campo** ![Confronta con un altro campo](assets/compare-to-another-field-icon.png) e scegliere un campo di cui si desidera confrontare il valore con il valore del campo selezionato. Ad esempio, è possibile confrontare i campi Oggetto e Descrizione negli elementi della richiesta.
+
+   >[!TIP]
+   >
+   >Solo i campi visibili nella vista a elenco sono disponibili per la formattazione condizionale. I campi da confrontare devono essere dello stesso tipo.
+
+1. (Facoltativo) Fai clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.
+
+   >[!TIP]
+   >
+   >È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.
+
+1. Fare clic sul connettore **Or** tra le condizioni per passare a **And** e indicare che è necessario soddisfare più condizioni contemporaneamente. **Or** è il connettore predefinito.
+1. Nella riga **Formato** selezionare un campo per indicare la colonna da formattare.
+1. (Facoltativo) Fai clic sull&#39;icona **cerchio colore** ![icona Formato colore](assets/color-format-icon.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore nell&#39;area **Riempimento cella** per modificare il colore dello sfondo in una cella o scegliere un colore dall&#39;area **Colore testo** per modificare il colore del testo in una cella.
+1. Fai clic sull&#39;icona **Formato testo** ![Icona Formato testo](assets/text-format-icon.png) e seleziona una delle seguenti opzioni per formattare il testo in una cella:
+   * Grassetto
+   * Corsivo
+
+1. Attivare l&#39;impostazione **Applica a riga** per applicare la formattazione all&#39;intera riga del campo che soddisfa le condizioni.
+
+1. (Facoltativo) Fai clic su **Aggiungi condizione** nella casella **Formato** per aggiungere un&#39;altra regola per un altro campo e ripetere i passaggi precedenti.
+1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutta la formattazione.
+1. Fare clic all&#39;esterno della casella **Formato** per chiuderla.
+
+   In questo modo si ritorna alla vista elenco.
+La formattazione viene applicata immediatamente alla visualizzazione elenco.
+Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
+
+</div>
+
+### Filtrare gli elementi in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+I filtri consentono di ridurre la quantità di informazioni visualizzate nell’elenco.
+
+1. Fai clic su **Filtro** sopra l&#39;elenco.
+1. Nella casella Filtro fare clic su **Aggiungi condizione**.
+1. Seleziona un campo in base al quale filtrare.
+1. Seleziona un modificatore di filtro, ad esempio &quot;Ha uno di&quot;, &quot;Non ha nessuno di&quot;, &quot;È prima&quot; o &quot;È dopo&quot;. Le opzioni del modificatore variano a seconda del tipo di campo in base al quale si sta filtrando.
+1. Seleziona il valore o i valori del campo. A seconda del tipo di campo in base al quale si sta filtrando, è possibile che venga richiesto di selezionare l&#39;elemento da un elenco, cercarlo o utilizzare un calendario per selezionare un intervallo di date.
+
+   ![Filtro in elenchi avanzati](assets/glist-filter-with-options.png)
+
+   Il filtro viene applicato automaticamente all’elenco.
+
+   >[!TIP]
+   >
+   ><span class="preview">Per applicare un filtro personalizzato, selezionare una delle opzioni seguenti per un valore di campo:</span>
+   >
+   ><div class="preview">
+   >
+   >* **Utente connesso** per fare riferimento all&#39;utente connesso nei campi relativi agli utenti.
+   >
+   >* **I miei team** o **Il mio team principale** per fare riferimento ai tuoi team nei campi che si riferiscono ai team.
+   >
+   >* **I miei gruppi** o **Il mio gruppo predefinito** fa riferimento ai tuoi gruppi nei campi che fanno riferimento ai gruppi.
+   >
+   >* **La mia azienda** per fare riferimento alla tua azienda nei campi che si riferiscono alle aziende.
+   > 
+   >* **I miei ruoli** o **Il mio ruolo principale** per fare riferimento alle tue mansioni nei campi che fanno riferimento alle mansioni.
+   >
+   ></div>
+
+1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro.
+
+   È possibile unire più filtri tramite un connettore AND o OR.
+
+1. Quando il filtro viene applicato, è possibile aprire nuovamente le opzioni **Filtro** per modificare le opzioni del filtro o cancellare tutti i filtri.
+
+   Un indicatore viene visualizzato sul pulsante **Filtro** quando si applica un filtro all&#39;elenco.
+
+   ![Indicatore filtro applicato](assets/glist-filter-applied-indicator.png)
+
+### Raggruppa elementi in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri specifici.
+
+Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è possibile modificarli.
+
+1. Fai clic su **Gruppo** sopra l&#39;elenco.
+1. Seleziona un raggruppamento per organizzare l’elenco.
+
+   ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
+
+1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L’opzione predefinita consiste nel visualizzare l’elenco con tutti i raggruppamenti espansi.
+1. Quando si applica il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppa per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
+
+   ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
+
+   Un indicatore viene visualizzato sul pulsante **Gruppo** quando si applica un raggruppamento all&#39;elenco.
+
+   ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
+
+### Ordinare in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Per ordinare le singole colonne:
+
+1. Passa il puntatore del mouse sulla colonna, quindi fai clic sulla freccia giù e seleziona **Ordina**.
+
+   Un&#39;icona accanto al nome di una colonna indica che l&#39;elenco è ordinato in base ai valori della colonna e alla direzione dell&#39;ordinamento.
+
+   >[!NOTE]
+   >
+   >Alcune colonne potrebbero non essere ordinabili, a seconda dell’elenco.
+
+   ![Ordina per colonna](assets/glist-sort-by-column.png)
+
+1. (Facoltativo) Per ordinare il lavoro all&#39;interno di un raggruppamento, fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
+
+   ![Ordina in un raggruppamento](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >L’ordinamento varia in base al tipo di campo in base al quale viene eseguito l’ordinamento.
+
+### Cerca in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+1. Digitare la parola chiave in base alla quale si desidera eseguire la ricerca nella casella Cerca nell&#39;angolo superiore destro dell&#39;elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+
+   ![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La ricerca esamina tutte le colonne di tutte le voci di elenco. Se l&#39;elenco è lungo, la ricerca include elementi che potrebbero essere necessari per scorrere. Quando l’elenco viene filtrato, la ricerca esamina solo ciò che è attualmente visualizzato.
+
+

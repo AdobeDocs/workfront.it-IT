@@ -6,9 +6,11 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 6%
 
 ---
@@ -180,7 +182,7 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 
    ![Pulsante Progettazione con IA nella pagina Aree di lavoro](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Fai clic su **Crea con IA**. <!--update this when they change it to Generate with AI-->
+1. Fai clic su **Crea con IA** o su **Crea area di lavoro**, quindi utilizza la finestra di richiesta nella parte superiore per indicare il tipo di area di lavoro che desideri creare. <!--update this when they change it to Generate with AI-->
 
    Viene visualizzata la finestra **Planning Designer**. <!--remove the Beta tag here when this removes from Beta-->
 

@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 
 ### Inizia a creare un modulo di richiesta
 
-È possibile creare un modulo di richiesta dal tipo di record associato al modulo<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+È possibile creare un modulo di richiesta dal tipo di record associato al modulo, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Creare un modulo di richiesta da un tipo di record
 
@@ -160,8 +162,6 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -414,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Gestisci moduli di richiesta**.
 
-   Tutte le maschere di richiesta associate al tipo di record vengono visualizzate in una vista tabella.
+   Viene aperta la pagina **Moduli di richiesta** e tutti i moduli di richiesta associati al tipo di record vengono visualizzati in una vista tabella.
+1. (Facoltativo) Aggiorna i seguenti elementi di visualizzazione nella pagina **Moduli di richiesta** per modificare la modalità di visualizzazione delle informazioni nella tabella:
+
+   * Colonne
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Facoltativo) Passa il puntatore del mouse sul nome di un modulo di richiesta nella visualizzazione tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo e fai clic su una delle seguenti opzioni:
 
@@ -423,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Condividi**: fare clic qui per modificare gli utenti che hanno accesso al modulo.
    * **Copia collegamento**: fare clic qui per copiare rapidamente il collegamento del modulo di richiesta senza aprire il modulo.
    * **Elimina**: fare clic qui per eliminare il modulo. Tutte le richieste e i record aggiunti utilizzando il modulo non vengono eliminati. Impossibile recuperare il modulo.
+
+   <!--update screen shot at preview:-->
 
    ![Altro menu nel modulo di richiesta dall&#39;elenco dei moduli di richiesta](assets/more-menu-on-request-form-from-request-forms-list.png)
 
