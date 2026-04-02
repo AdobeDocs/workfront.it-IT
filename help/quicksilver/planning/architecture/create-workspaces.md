@@ -148,7 +148,7 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
 * Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
-  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
 
 </div>
 
