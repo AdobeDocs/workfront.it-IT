@@ -7,7 +7,8 @@ description: In qualità di amministratore di Adobe Workfront, puoi configurare 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ebc342b65bee6a8c5ba0edbe2e990ec2775a9055
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
+source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
@@ -76,7 +77,7 @@ Per assegnare un profilo:
 1. Fai clic sulla scheda **Profili di prodotto assegnati**.
 1. Fare clic su **Assegna profilo**.
 1. Nel popup, seleziona **Adobe GenStudio** dall&#39;elenco dei prodotti, quindi fai clic su **Applica**.
-1. Seleziona il profilo **Adobe GenStudio system manager**.
+1. Seleziona il profilo **Editor di Adobe GenStudio Foundation**.
 1. Fai clic su **Applica**.
 1. Fai clic su **Salva**.
 
