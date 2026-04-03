@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 11%
+source-wordcount: '1363'
+ht-degree: 10%
 
 ---
 
 # Generare un rapporto KPI in una dashboard dell’area di lavoro
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -98,6 +100,14 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
       >[!NOTE]
       >
       >La descrizione verrà utilizzata come didascalia sotto il valore dell’indicatore KPI. Se non si immette una descrizione, verrà generata automaticamente una didascalia in base all&#39;aggregatore e al tipo di aggregazione selezionati nei passaggi seguenti.
+
+   1. <span class="preview">(Facoltativo) In **Esegui il report con i diritti di accesso di**, iniziare a digitare il nome dell&#39;utente di cui si desidera utilizzare le autorizzazioni, quindi selezionare l&#39;utente quando viene visualizzato nell&#39;elenco. Quando configuri un report per l’esecuzione come altro utente, tutti gli utenti del dashboard visualizzano gli stessi dati, indipendentemente dal proprio livello di accesso. Se non selezioni un utente, ogni visualizzatore visualizza i dati in base alle proprie autorizzazioni.
+
+      >[!IMPORTANT]
+      >
+      >Se l’utente selezionato viene disattivato o perde l’accesso alle aree di lavoro o ai tipi di record rilevanti, il rapporto potrebbe visualizzare dati incompleti o non essere riprodotto correttamente.
+
+</span>
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
 
