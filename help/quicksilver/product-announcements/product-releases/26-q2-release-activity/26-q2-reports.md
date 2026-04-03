@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,29 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nel
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Campo versione corrente per Versioni documento
+
+>[!NOTE]
+>
+>Anteprima: 2 aprile 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È stato aggiunto un campo booleano `currentVersion` all&#39;oggetto Document Version per semplificare l&#39;identificazione e la creazione di report sull&#39;ultima versione di un documento.
+Con questo aggiornamento:
+
+* È possibile utilizzare `currentVersion` in filtri, visualizzazioni, raggruppamenti e grafici.
+* Il campo è disponibile nel selettore di campi Canvas per i rapporti Versione documento.
+
+* Quando viene caricata una nuova versione:
+
+   * La nuova versione è contrassegnata come `TRUE`
+   * Le versioni precedenti sono contrassegnate come `FALSE`
+
+* I rapporti possono identificare in modo coerente le versioni correnti tra le dashboard di Canvas e i rapporti legacy
+
+I filtri esistenti per i report classici che utilizzano `isCurrentVersion` o `isDocumentCurrentVersion` continuano a funzionare come documentato.
+
 ## La Distribuzione Pianificata Dei Rapporti Ora Supporta Le E-Mail Basate Su Collegamenti
 
 >[!NOTE]
@@ -28,7 +51,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >Rilascio rapido in produzione: giovedì 15 aprile 2026
 >Produzione per tutti: venerdì 16 aprile 2026
 
-Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Invece di generare e allegare un file, questa opzione invia un’e-mail contenente un collegamento diretto al rapporto in Workfront, consentendo ai destinatari di visualizzare i dati più recenti nell’applicazione.
+Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Anziché generare e allegare un file, questa opzione invia un messaggio e-mail contenente un collegamento diretto al report in Workfront, consentendo ai destinatari di visualizzare{{$include }} i dati più aggiornati nell&#39;applicazione.
 
 L’opzione Collegamento è ora il tipo di consegna predefinito per le nuove regole di consegna dei rapporti pianificate, mentre rimangono disponibili i formati basati su file esistenti (HTML, PDF, Excel e TSV).
 

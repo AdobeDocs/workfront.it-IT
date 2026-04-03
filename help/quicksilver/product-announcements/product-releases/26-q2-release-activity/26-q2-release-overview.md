@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2263'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Trimestrale</strong></td>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Provisioning dei fondamenti di GenStudio abilitato per supportare i collaboratori IA </a><p></p>
             <p>Il 31 marzo 2026 è stato effettuato il provisioning di tutti i clienti Workfront per GenStudio Foundation e gli amministratori di sistema di Admin Console avranno ricevuto un’e-mail per informarli di questa aggiunta. Il provisioning di questo prodotto viene eseguito solo in modo che i clienti Workfront possano dare ai marchi l’accesso ai clienti Workfront in base alle esigenze per il rilascio dei collaboratori IA. Il prodotto è solo un meccanismo di accesso ai Marchi e non sono disponibili funzionalità aggiuntive.</p><p>Ai clienti non verrà addebitato alcun costo per questo nuovo prodotto.</p>
@@ -251,6 +251,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td><strong>Trimestrale</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Campo della versione corrente per le versioni del documento </a><p></p>
+            <p>È stato aggiunto un campo booleano <code>currentVersion</code> all'oggetto Document Version per semplificare l'identificazione e la creazione di report sull'ultima versione di un documento.</p>
+        </td>
+        <td><p>venerdì 2 aprile 2026</p></td>
+        <td><p>giovedì 15 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Consegna Pianificata Dei Report Ora Supporta Le E-Mail Basate Su Collegamenti</a><p></p>
             <p>Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Invece di generare e allegare un file, questa opzione invia un’e-mail contenente un collegamento diretto al rapporto in Workfront, consentendo ai destinatari di visualizzare i dati più recenti nell’applicazione.</p>
