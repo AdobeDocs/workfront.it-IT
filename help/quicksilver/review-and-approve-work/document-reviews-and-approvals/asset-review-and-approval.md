@@ -6,7 +6,9 @@ description: Panoramica dei sistemi disponibili per la revisione e l'approvazion
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -62,10 +64,9 @@ Per ulteriori informazioni sul reporting, vedere [Creare un dashboard di report 
 
 * Accedere alle richieste di revisione e approvazione nel widget Approvazioni personali nell’area Home
 
+* Utilizza il revisore dei contenuti per automatizzare le revisioni di conformità del brand. Per ulteriori informazioni, vedere [Introduzione a Revisore contenuto Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 * Utilizza il visualizzatore Frame.io per rivedere e approvare i documenti. Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
-
-* Utilizza IA Reviewer per automatizzare le revisioni di conformità del brand. Per ulteriori informazioni, consulta [Introduzione a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
 
 ## Approvazioni bozza
 
