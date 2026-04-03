@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 25%
@@ -20,7 +20,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -252,6 +252,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Consegna Pianificata Dei Report Ora Supporta Le E-Mail Basate Su Collegamenti</a><p></p>
+            <p>Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Invece di generare e allegare un file, questa opzione invia un’e-mail contenente un collegamento diretto al rapporto in Workfront, consentendo ai destinatari di visualizzare i dati più recenti nell’applicazione.</p>
+        </td>
+        <td><p>sabato 3 aprile 2026</p></td>
+        <td><p>giovedì 15 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Eseguire i report come utente specifico nei dashboard di Canvas</a><p></p>
             <p>Ora puoi configurare i rapporti sulle dashboard di Canvas in modo che vengano eseguiti come utente specifico. Quando è abilitato, il rapporto mostra i dati in base all’accesso dell’utente selezionato, anziché alle autorizzazioni del visualizzatore.</p>
         </td>
@@ -259,16 +268,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td><p>giovedì 15 aprile 2026</p></td>
         <td><p>venerdì 16 aprile 2026</p></td>
     </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Consegna Pianificata Dei Report Ora Supporta Le E-Mail Basate Su Collegamenti</a><p></p>
-            <p>Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Invece di generare e allegare un file, questa opzione invia un’e-mail contenente un collegamento diretto al rapporto in Workfront, consentendo ai destinatari di visualizzare i dati più recenti nell’applicazione.</p>
-        </td>
-        <td><p>venerdì 2 aprile 2026</p></td>
-        <td><p>giovedì 15 aprile 2026</p></td>
-        <td><p>venerdì 16 aprile 2026</p></td>
-    </tr>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni di autenticazione per la connessione dati</a><p></p>
             <p>È ora possibile eseguire l'autenticazione a Data Connect utilizzando le chiavi RSA o le connessioni PAT (Programmatic Access Tokens), aggiungendo alternative più sicure e flessibili alle credenziali tradizionali di nome utente/password. </p>
