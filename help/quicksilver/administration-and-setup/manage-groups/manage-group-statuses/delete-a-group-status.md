@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 8%
 
 ---
 
-# Eliminare lo stato di un gruppo
+# Eliminare uno stato del gruppo
 
 In qualità di amministratore di gruppo, puoi eliminare uno stato per un gruppo che gestisci se non è configurato come obbligatorio o bloccato a livello di sistema o per un gruppo più alto nella gerarchia.
 
@@ -30,7 +30,7 @@ Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -56,16 +56,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Eliminare lo stato di un gruppo
+## Eliminare uno stato del gruppo
 
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**.
 1. Fare clic sul nome del gruppo di primo livello.
 1. Nel pannello sinistro fai clic su **Stati**.
-1. Nell&#39;elenco degli stati visualizzati, passa il cursore sullo stato che desideri eliminare, quindi fai clic su **Elimina** quando viene visualizzato all&#39;estrema destra.
+1. Nell&#39;elenco degli stati visualizzati, selezionare la casella di controllo dello stato che si desidera eliminare, quindi fare clic su **Elimina** nel banner nella parte inferiore della schermata.
 
-   ![Elimina](assets/hover-click-delete.jpg)
+   ![Elimina](assets/delete-status.png)
 
 1. Nella casella visualizzata, selezionare uno stato per designare uno stato sostitutivo per gli oggetti (progetti, attività, problemi e processi di approvazione) che utilizzavano lo stato che si sta eliminando.
 
@@ -84,7 +84,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
         Per informazioni sugli stati predefiniti di Workfront, vedere [Accedere all&#39;elenco degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accedere all&#39;elenco degli stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) e le informazioni sui 4 stati dei problemi richiesti in [Accedere all&#39;elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Fare clic su **Elimina stato**.
+1. Fai clic su **Elimina**.
 
    Se lo stato eliminato era lo stato predefinito per quel tipo nel gruppo, lo stato di sostituzione prende il suo posto.
 

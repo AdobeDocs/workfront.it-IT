@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare stati personalizza
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,13 +40,13 @@ In qualità di amministratore di Adobe Workfront, puoi creare stati personalizza
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,13 +67,13 @@ Quando crei uno stato personalizzato per l’intera organizzazione, puoi configu
 
 1. (Condizionale) Se stai creando o modificando uno stato per l&#39;uso a livello di sistema, assicurati che **Stati di sistema** sia selezionato nella casella in alto a destra.
 
-   ![Stati di sistema](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Stati di sistema](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    Oppure
 
    Se lo stato è per un gruppo o un sottogruppo, iniziare a digitare il nome del gruppo nell&#39;angolo superiore destro, quindi selezionarlo quando viene visualizzato.
 
-   ![Stati di sistema per il gruppo](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Stati di sistema per il gruppo](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problemi**) che si desidera associare allo stato.
 
@@ -81,9 +81,9 @@ Quando crei uno stato personalizzato per l’intera organizzazione, puoi configu
 
    Oppure
 
-   Se stai modificando uno stato esistente, passa il puntatore del mouse su di esso, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
+   Se stai modificando uno stato esistente, fai clic sulla casella di controllo di tale stato, quindi fai clic su **Modifica** nel banner nella parte inferiore della schermata.
 
-   ![Modifica stato personalizzato](assets/custom-status-edit.png)
+   ![Modifica stato personalizzato](assets/edit-in-banner.png)
 
 1. Configura lo stato utilizzando le seguenti opzioni:
 

@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 2%
+source-wordcount: '1327'
+ht-degree: 4%
 
 ---
 
-# Creare o modificare lo stato di un gruppo
+# Creare o modificare uno stato del gruppo
 
 In qualità di amministratore di gruppo, puoi creare stati personalizzati per un gruppo che gestisci. Questo consente di eliminare la necessità di decine di stati personalizzati a livello di azienda e consente una maggiore autonomia nelle gerarchie di gruppo.
 
@@ -42,7 +42,7 @@ Per informazioni generali sugli stati, vedere [Panoramica sugli stati](../../../
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -90,11 +90,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Oppure
 
-   Per modificare uno stato esistente, passa il puntatore del mouse sullo stato da modificare, quindi fai clic sull&#39;opzione **Modifica** visualizzata all&#39;estrema destra.
+   Se stai modificando uno stato esistente, fai clic sulla casella di controllo di tale stato, quindi fai clic su **Modifica** nel banner nella parte inferiore della schermata.
 
-   ![Stati gruppo](assets/group-statuses-edit.jpg)
+   ![Stati gruppo](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Puoi modificare uno stato per il gruppo solo se:
    >      
    >* È possibile gestire il gruppo per il quale è stato creato lo stato
@@ -166,15 +167,16 @@ Gli amministratori di gruppi o gli amministratori di Workfront possono creare un
 
 1. Se sei un amministratore di Workfront, crea uno stato sbloccato a livello di sistema come descritto in [Crea o modifica uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. Nella casella in alto a destra, elimina **Stati di sistema**, inizia a digitare il nome di un gruppo in cui vuoi nascondere lo stato, quindi fai clic sul nome quando viene visualizzato.
-1. Passa il puntatore del mouse sullo stato che desideri nascondere al gruppo, quindi fai clic su **Modifica** quando viene visualizzato.
+1. Fai clic sulla casella di controllo dello stato che desideri modificare, quindi fai clic su **Modifica** nel banner nella parte inferiore della schermata.
 
-   ![Modifica stato](assets/hover-click-edit.jpg)
+
+   ![Modifica stato](assets/group-statuses-edit-new.png)
 
 1. Abilita l&#39;opzione **Nascondi stato** visualizzata.
 
    ![Nascondi stato](assets/hide-group-status.png)
 
-1. Fai clic su **Salva**.
+1. Fai clic su **Aggiorna**.
 
    Lo stato è inattivo e non è più visibile a tutti gli utenti del gruppo.
 
