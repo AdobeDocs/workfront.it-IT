@@ -47,7 +47,7 @@ Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione l
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
-the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/it-it/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/it-it/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Miglioramenti di Adobe Workfront
