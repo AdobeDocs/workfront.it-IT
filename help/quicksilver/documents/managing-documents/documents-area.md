@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -74,9 +74,7 @@ La pagina Dettagli documento fornisce una versione in scala più completa dei De
 
 ## Nuova area documento
 
->[!NOTE]
->
->L’area documenti globali non è disponibile nella nuova esperienza dell’area documenti. È possibile accedere ai documenti solo da programmi, portafogli, progetti, attività o problemi.
+La nuova area documenti è disponibile solo per le organizzazioni che utilizzano lo storage aziendale. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Utilizzare il pannello di riepilogo
 
@@ -106,3 +104,9 @@ Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approv
 ### Cartelle a livello di sistema per le autorizzazioni dei documenti
 
 Workfront crea automaticamente una cartella a livello di sistema quando il primo documento viene caricato su un’attività o un problema. Queste cartelle ereditano le autorizzazioni dall’attività o dal problema e sono visibili nell’area documenti a livello di progetto. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Questo è il modo principale in cui le autorizzazioni vengono gestite per i documenti nell&#39;area nuovi documenti. Per ulteriori informazioni, vedere [Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+## Considerazioni
+
+* La nuova area dei documenti è ottimizzata per schermi di larghezza pari o superiore a 1024 pixel. Se si dispone di una schermata più piccola, è possibile che si verifichino problemi di accesso al pannello Riepilogo.
+
+* L’area documenti globali non è disponibile nella nuova esperienza dell’area documenti. È possibile accedere ai documenti solo da programmi, portafogli, progetti, attività o problemi.
