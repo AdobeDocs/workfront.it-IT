@@ -7,13 +7,13 @@ description: Gli attributi della tariffa estendono la funzionalità delle schede
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8e948d1c90a9d528c7ffd4963e14630ae7577e70
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
 
 ---
-
 
 # Definire gli attributi dei tassi
 
@@ -85,16 +85,18 @@ Gli attributi delle tariffe sono supportati in tutte le aree in cui sono present
 * Sostituzioni a livello di progetto: applica gli attributi quando aggiorni i tassi a livello di progetto.
 * Ruoli (in Configurazione): imposta le percentuali predefinite dei ruoli con gli attributi.
 * Utenti (profili utente): assegna attributi nativi ai singoli utenti in modo che le loro assegnazioni vengano risolte automaticamente in base alle percentuali corrette.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->I ruoli di lavoro non supportano gli attributi del tasso direttamente a livello di oggetto. Sono collegate agli attributi della tariffa attraverso le tariffe definite su di essi.
 
 Quando è possibile creare assegnazioni segnaposto associate ai valori di attributo corretti, le tariffe verranno compilate di conseguenza.
 
 * Per le mansioni, quando successivamente sostituite il segnaposto con un utente reale, il sistema reimposta automaticamente gli attributi dell&#39;assegnazione a quelli definiti nel profilo dell&#39;utente. A questo punto, gli attributi non possono più essere modificati a livello di assegnazione. Ereditano gli attributi dall’utente per preservare la coerenza ed evitare il disallineamento tra gli attributi utente e le tariffe applicate.
-  <!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Requisiti di accesso
 
@@ -201,5 +203,3 @@ I filtri devono essere sempre configurati in entrambe le direzioni. Se l&#39;att
    * (Solo per tipo di filtro attributi) **Campo di riferimento**: campo dell&#39;attributo di riferimento che deve corrispondere, ad esempio ID agenzia.
 
 1. Fai clic su **Salva** per ogni attributo per salvare le proprietà e i filtri.
-
-

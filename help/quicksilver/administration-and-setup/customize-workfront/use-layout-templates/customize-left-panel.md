@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1226'
 ht-degree: 5%
 
 ---
@@ -136,12 +136,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Resource]</span></td> 
-      <td><span class="preview">[!UICONTROL Resource] nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Resource] nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
       <td><span class="preview">[!UICONTROL Planner] (non può essere nascosto), [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
@@ -182,7 +182,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
        <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
        <td><span class="preview">Nome di una scheda tariffe</span></td> 
-       <td><span class="preview">[!UICONTROL Ruoli e tariffe], [!UICONTROL Dettagli scheda tariffa], [!UICONTROL Tipo di spesa e tariffe]</span></td> 
+       <td><span class="preview">[!UICONTROL Ruoli e tariffe] (non può essere nascosto), [!UICONTROL Rate Card Details]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Gruppo]</span></td> 
@@ -201,20 +201,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
       </tr>
      --> 
     </tbody> 

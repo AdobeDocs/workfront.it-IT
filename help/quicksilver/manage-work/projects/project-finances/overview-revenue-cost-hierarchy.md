@@ -6,9 +6,10 @@ title: Panoramica sulla gerarchia ricavi e costi
 description: Questo articolo illustra il processo passo passo per determinare le tariffe di fatturazione e di costo appropriate per le mansioni e gli utenti per il tipo di reddito Orario utente e mansione e per il tipo di costo.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ Per fornire calcoli finanziari precisi, Workfront utilizza le tariffe di fattura
 
 Le sezioni in questo articolo descrivono il processo passo per passo per determinare la fatturazione e i tassi di costo appropriati per le mansioni e gli utenti per il tipo di reddito Orario utente e ruolo e per il tipo di costo.
 
+>[!NOTE]
+>
+>La gerarchia dei tassi illustrata in questo articolo viene utilizzata solo quando all&#39;attività viene applicato il tipo di costo o di ricavi Orario utente e ruolo.
+
 Per ulteriori informazioni sulle tariffe di fatturazione, i tipi di ricavi e il metodo di calcolo dei ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Eccezioni per la gerarchia e il tipo di ricavi Orario utente e Ruolo
+
+* Le tariffe aziendali non sono supportate all’interno della gerarchia.
+* Per i calcoli della gerarchia viene utilizzato solo il ruolo primario. Non vengono utilizzati altri ruoli.
+* Quando il tipo di reddito di un&#39;attività è Ore utente e Ruolo, un utente che ha registrato ore sull&#39;attività non può essere rimosso da tale attività.
 
 ## Panoramica delle date di validità
 
@@ -232,4 +243,3 @@ Workfront esegue ricerche nelle proprietà utente del proprietario in base a que
    * Successivamente, il sistema cerca il tasso di ruolo a livello di sistema, tenendo conto delle date di validità.
 
 1. Se non viene trovata nessuna di queste tariffe, la tariffa di fatturazione è 0.
-
