@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 2%
@@ -421,7 +421,7 @@ I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri 
 
 Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è possibile modificarli.
 
-1. Fai clic su **Gruppo** sopra l&#39;elenco.
+1. Fai clic su **Raggruppamento** sopra l&#39;elenco.
 1. Seleziona un raggruppamento per organizzare l’elenco.
 
    ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
@@ -431,7 +431,7 @@ Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è pos
 
    ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
 
-   Un indicatore viene visualizzato sul pulsante **Gruppo** quando si applica un raggruppamento all&#39;elenco.
+   Un indicatore viene visualizzato sul pulsante **Raggruppamento** quando viene applicato un raggruppamento all&#39;elenco.
 
    ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
 
@@ -453,7 +453,7 @@ Per ordinare le singole colonne:
 
    ![Ordina per colonna](assets/glist-sort-by-column.png)
 
-1. (Facoltativo) Per ordinare il lavoro all&#39;interno di un raggruppamento, fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
+1. (Facoltativo) Per ordinare il lavoro all&#39;interno di un raggruppamento, fai clic su **Raggruppamento**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
 
    ![Ordina in un raggruppamento](assets/sort-in-groups.png)
 

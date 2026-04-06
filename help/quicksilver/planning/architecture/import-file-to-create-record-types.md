@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,14 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    Oppure
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
+
+   >[!TIP]
+   >
+   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:</span>
+   >
+   >* <span class="preview">CTRL+K per Windows</span>
+   >* <span class="preview">⌘+K per Mac</span>
+
 1. Fare clic su **Aggiungi tipo di record**.
 1. Fare clic su **Carica dal file**.
 1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per cercarne uno, quindi selezionalo.
@@ -186,7 +194,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.

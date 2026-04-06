@@ -8,21 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 5%
+source-wordcount: '463'
+ht-degree: 4%
 
 ---
 
 
 # Eliminare le aree di lavoro
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -152,6 +151,14 @@ Old:
    * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
 Oppure
    * Fai clic sull&#39;icona **cerca** ![icona Cerca](assets/search-icon.png) nell&#39;angolo superiore destro della pagina Aree di lavoro per cercare un&#39;area di lavoro per nome e fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
+
+   >[!TIP]
+   >
+   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:</span>
+   >
+   >* <span class="preview">CTRL+K per Windows</span>
+   >* <span class="preview">⌘+K per Mac</span>
+
 1. Fai clic su **Elimina**.
 
    ![Conferma eliminazione definitiva area di lavoro](assets/permanently-delete-workspace-confirmation.png)

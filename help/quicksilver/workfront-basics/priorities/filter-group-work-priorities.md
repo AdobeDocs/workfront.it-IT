@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,8 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 1. Fai clic su **Gruppi** in alto a sinistra nell&#39;elenco lavori.
 1. Selezionare un gruppo per organizzare l&#39;elenco lavori.
-   ![Gruppi](assets/groups-new.png)
+
+![Gruppi](assets/groups-new.png)
 
 +++Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
 
@@ -172,7 +173,7 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 È possibile trascinare singoli elementi di lavoro da una categoria all&#39;altra quando si esegue il raggruppamento in base a Mia priorità o Stato.
 
-1. Raggruppa il tuo lavoro per **Stato** o **Mia priorità**.
+1. Raggruppa i tuoi lavori per **Stato** o **Stato attivo**.
 2. Passa il puntatore del mouse sull&#39;elemento di lavoro per fare clic sull&#39;icona **Trascina** e spostarlo nella categoria desiderata.
    ![icona di trascinamento](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Per ordinare le singole colonne, passare alla colonna e fare clic sulla freccia 
 
 ### Espandere o comprimere tutte le sezioni del gruppo
 
-Per espandere o comprimere tutte le sezioni del gruppo, aprire **Gruppo** e fare clic su **Espandi tutto** o **Comprimi tutto**.
+Per espandere o comprimere tutte le sezioni del gruppo, aprire **Gruppo** e fare clic su **Espandi tutto** se i raggruppamenti sono compressi o **Comprimi tutto** se i raggruppamenti sono espansi.
 
 ![Espandi o comprimi gruppi](assets/expand-collapse-groups.png)

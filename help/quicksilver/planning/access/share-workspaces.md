@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 3%
@@ -160,15 +160,23 @@ Per condividere un’area di lavoro con altri utenti:
 
    * Se si è un amministratore di sistema, selezionare una delle opzioni seguenti:</span>
 
-      * <span class="preview">**L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita. </span>
-      * <span class="preview">**Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.</span>
+     <div class="preview">
+
+      * **L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita.
+      * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.
+
+     </div>
 
    * <span class="preview">(Condizionale) Se si è un manager dell&#39;area di lavoro con una licenza Standard, è possibile visualizzare una delle selezioni seguenti, ma non è possibile modificarle:</span>
 
-      * <span class="preview">**L&#39;accesso è consentito solo agli invitati**. Impostazione predefinita.</span>
-      * <span class="preview">**Tutti nel sistema possono visualizzare**</span>
+     <div class="preview">
 
-     <span class="preview">È necessario chiedere a un amministratore di sistema di modificare un&#39;autorizzazione globale per un&#39;area di lavoro.</span>
+      * **L&#39;accesso è consentito solo agli invitati**. Questa è l&#39;impostazione predefinita.
+      * **Tutti nel sistema possono visualizzare**
+
+     È necessario chiedere a un amministratore di sistema di modificare un&#39;autorizzazione globale per un&#39;area di lavoro.
+
+     </div>
 
 1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1200'
 ht-degree: 2%
 
 ---
@@ -148,11 +148,11 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
 * Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
-  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
 
   >[!TIP]
   >
-  >Non è possibile creare più aree di lavoro contemporaneamente a meno che non si utilizzi il bundle di modelli best practice.
+  >È possibile creare più aree di lavoro contemporaneamente solo utilizzando il bundle di modelli best practice.
 
 
 </div>

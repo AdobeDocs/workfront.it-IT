@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 1%
@@ -211,7 +211,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
    <div class="preview">
 
-   * Gruppo
+   * Raggruppamento
    * Formatta celle
    * Altezza riga
 
@@ -259,7 +259,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

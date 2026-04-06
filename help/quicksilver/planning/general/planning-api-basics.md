@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 2%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
-# Nozioni di base sulle API di Adobe Workfront Planning
+# Nozioni di base sulle API di pianificazione di Adobe Workfront
 
 {{planning-important-intro}}
 
@@ -38,14 +38,14 @@ Per ulteriori informazioni sui campi di ricerca esterna, vedere [Esempi di campi
 
 ### Operazioni
 
-Gli oggetti vengono manipolati inviando una richiesta HTTP al relativo URI univoco. L&#39;operazione da eseguire è specificata dal metodo HTTP.
+Gli oggetti vengono manipolati inviando una richiesta HTTP al relativo URI univoco. L’operazione da eseguire è specificata dal metodo HTTP.
 
 I metodi HTTP standard corrispondono alle operazioni seguenti:
 
 * **GET** - Recupera un oggetto per ID, cerca tutti gli oggetti tramite una query
-* **POST** - Inserisce un nuovo oggetto
-* **PUT** - Modifica un oggetto esistente
-* **DELETE** - Elimina un oggetto
+* **POST**: inserisce un nuovo oggetto
+* **PUT**: modifica un oggetto esistente
+* **DELETE**: elimina un oggetto
 
 Per ulteriori dettagli ed esempi di ciascuna operazione, vedere la [documentazione per gli sviluppatori API di Workfront Planning](https://developer.adobe.com/wf-planning/).
 
@@ -93,7 +93,7 @@ Workfront Planning supporta i seguenti modificatori di ricerca:
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Restituisce record il cui valore di campo non è vuoto  </td>
+        <td>Restituisce record il cui valore di campo è vuoto  </td>
         <td><ul><li>“” </li><li>null </li><ul>  </td>
     </tr>
     <tr>
@@ -299,7 +299,7 @@ Ad esempio, la richiesta
 ..
 ```
 
-restituisce una risposta simile alla seguente:
+restituisce una risposta simile a quanto segue:
 
 
 ```
@@ -313,7 +313,7 @@ restituisce una risposta simile alla seguente:
 
 ### Ordinamento dei risultati della query nell’API
 
-Puoi ordinare i risultati in base a qualsiasi campo se aggiungi quanto segue alla chiamata API:
+Puoi ordinare i risultati in base a qualsiasi campo aggiungendo quanto segue alla chiamata API:
 
 
 `/v1/records/search`
@@ -366,6 +366,6 @@ Corpo della richiesta:
 } 
 ```
 
-Per assicurarti che i risultati siano impaginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che l’impaginazione non si ripeta né salti i risultati.
+Per assicurarti che i risultati siano paginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che l’impaginazione non si ripeta né salti i risultati.
 
 Per ulteriori informazioni sull&#39;ordinamento, vedere [Ordinamento dei risultati della query nell&#39;API](#sorting-query-results-in-the-api) in questo articolo.
