@@ -136,12 +136,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Resource]</span></td> 
-      <td><span class="preview">[!UICONTROL Resource] nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Resource] nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
       <td><span class="preview">[!UICONTROL Planner] (non può essere nascosto), [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
