@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 9%
 
 ---
@@ -74,6 +74,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 <div class="preview">
 
 ## Visualizzazioni di sistema per le richieste
+
+>[!NOTE]
+>
+>Le visualizzazioni di sistema potrebbero non essere disponibili nell&#39;ambiente di anteprima. Saranno disponibili in Produzione per tutti i clienti il 16 aprile 2026.
 
 Oltre alle viste che è possibile creare autonomamente, Workfront offre le seguenti viste di sistema per l&#39;area Richieste e il widget Richieste personali nella Home:
 

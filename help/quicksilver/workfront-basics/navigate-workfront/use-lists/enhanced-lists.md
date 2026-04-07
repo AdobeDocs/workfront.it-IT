@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2915'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
 | <span class="preview">Elenco dei report</span> | <span class="preview">I report (**Utilizza cartelle condivisibili** devono essere attivati)</span> |
-| <span class="preview">Elenco di mansioni e tariffe in Configurazione</span> | <span class="preview">Configurazione > Schede tariffarie > selezionare una scheda tariffaria > Ruoli lavorativi e tariffe</span> |
+| <span class="preview">Elenco di mansioni e tariffe in una scheda tariffe</span> | <span class="preview">Configurazione > Schede tariffarie > selezionare una scheda tariffaria > Ruoli lavorativi e tariffe</span> |
 | <span class="preview">Elenco delle traduzioni</span> | <span class="preview">Configurazione > Localizzazione</span> |
 | <span class="preview">Elenco di snapshot</span> | <span class="preview">Progetto > Snapshot</span> |
 | <span class="preview">Elenco risorse per fatturazione</span> | <span class="preview">Progetto > Risorsa per fatturazione</span> |
