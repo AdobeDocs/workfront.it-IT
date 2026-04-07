@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 30%
+source-wordcount: '602'
+ht-degree: 29%
 
 ---
 
@@ -68,9 +68,7 @@ Per informazioni, vedere [Creare e gestire le visualizzazioni nell&#39;area Rich
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026
->Versione rapida di produzione: 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Le viste predefinite non avranno una versione di anteprima e saranno rilasciate direttamente in produzione il 16 aprile.
 
 Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le seguenti viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home:
 
