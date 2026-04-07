@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '985'
 ht-degree: 4%
 
 ---
@@ -35,8 +35,6 @@ Per ulteriori informazioni su Frame.io, vedere [Guida introduttiva a Frame.io](h
 * Gli utenti possono appartenere a una sola istanza di Workfront all’interno dell’organizzazione IMS.
 
 * L’istanza di Workfront deve essere abilitata sullo storage aziendale Adobe Unified Experience e Adobe.
-
-* L’integrazione deve essere configurata da Adobe Professional Services.
 
 ## Avvio e pianificazione del lavoro in Workfront
 
