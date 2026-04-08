@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -86,6 +86,8 @@ Utilizza **snapshot del progetto** per gestire i progetti in modo più efficace 
 
 Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del progetto](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[Visualizza una dimostrazione video delle istantanee del progetto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Le istantanee del progetto sono disponibili solo per le organizzazioni nel pacchetto Workflow Ultimate.
@@ -96,6 +98,8 @@ Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del proge
 **I profili aziendali** forniscono accesso sicuro e scalabile al sistema e contribuiscono a rafforzare la governance aziendale.
 
 Per ulteriori informazioni, vedere [Panoramica dei profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[Visualizza una dimostrazione video dei profili aziendali.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ Inoltre, le autorizzazioni per visualizzare sia i dati relativi ai costi che que
 ### Miglioramenti a campi e moduli personalizzati
 
 La logica avanzata nei moduli personalizzati fornisce informazioni più chiare e una gestione più accurata dei progetti e delle finanze.
+
+[Visualizza una dimostrazione video del modulo personalizzato e dei miglioramenti apportati ai campi.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 I miglioramenti ai moduli personalizzati includono:
 
@@ -159,6 +165,8 @@ Nei modelli di layout, è possibile personalizzare le intestazioni e i menu di n
 
 Per ulteriori informazioni, consulta [Creare e gestire modelli layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[Visualizza una dimostrazione video dei miglioramenti apportati al modello di layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Localizzazione personalizzata
 
 >[!NOTE]
@@ -171,6 +179,8 @@ Ad esempio, puoi impostare l’etichetta &quot;Target Audience&quot; per tradurr
 
 Per ulteriori informazioni, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[Visualizza una dimostrazione video della localizzazione personalizzata.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automatizzare le azioni con le regole aziendali
 
 >[!NOTE]
@@ -180,3 +190,6 @@ Per ulteriori informazioni, vedere [Configurare la localizzazione personalizzata
 Gli amministratori di Workfront possono ora configurare le regole business per automatizzare le azioni per l&#39;oggetto creato, modificato o modificato quando vengono soddisfatte determinate condizioni. Le azioni disponibili includono la condivisione dell&#39;oggetto o l&#39;associazione di un modulo personalizzato all&#39;oggetto.
 
 Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[Visualizza una dimostrazione video dei miglioramenti delle regole business.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
