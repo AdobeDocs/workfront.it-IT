@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Senza l&#39;accesso o le autorizzazioni corrette, potresti non essere in grado di visualizzare l&#39;area [!UICONTROL Scenari] di[!DNL &#x200B; Adobe Workfront] né di gestire piani o iniziative per la tua organizzazione. La gestione di piani e iniziative include la creazione, la modifica e l&#39;eliminazione.
+Senza l&#39;accesso o le autorizzazioni corrette, potresti non essere in grado di visualizzare l&#39;area [!UICONTROL Scenari] di[!DNL  Adobe Workfront] né di gestire piani o iniziative per la tua organizzazione. La gestione di piani e iniziative include la creazione, la modifica e l&#39;eliminazione.
 
 ## Accesso necessario per visualizzare e utilizzare [!DNL Adobe Workfront Scenario Planner]
 
@@ -55,22 +55,22 @@ Prima di poter accedere a [!DNL Workfront Scenario Planner], è necessario verif
    * [!UICONTROL Chiaro] o versione successiva
    * [!UICONTROL Revisore] o versione successiva
 
-  <!--
+<!--
     Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]
-        -->
+-->
 
-  <!--
+<!--
     Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
-      -->
+-->
 
 * L&#39;amministratore di [!DNL Workfront] deve concedere a [!UICONTROL View] o [!UICONTROL Edit] l&#39;accesso a [!DNL Scenario Planner] nel proprio livello di accesso.
 
