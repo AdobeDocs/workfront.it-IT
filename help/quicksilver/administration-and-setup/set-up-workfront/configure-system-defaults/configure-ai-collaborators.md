@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 5%
+source-wordcount: '407'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Ad esempio, puoi configurare un collaboratore IA di tipo revisore con le linee g
 
 I tipi di Collaboratore IA disponibili includono:
 
-* Revisore: crea un collaboratore utilizzando brand o brand brain (cervello del marchio), quindi assegna il collaboratore come revisore delle risorse.
+* Revisore: crea un collaboratore utilizzando i marchi<!-- or Adobe Brand Intelligence-->, quindi assegna il collaboratore come revisore delle risorse.
 
   Per ulteriori informazioni, vedere [Introduzione a Revisore contenuto Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -85,9 +85,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >Attualmente, è disponibile solo il tipo Revisore. In futuro saranno disponibili più tipi di collaboratori IA.
 
 1. Nel campo Nome collaboratore immettere un nome per il collaboratore. Questo è il nome visualizzato nell&#39;elenco degli assegnatari disponibili per un&#39;attività.
-1. Seleziona se il collaboratore utilizzerà un marchio o un cervello del marchio per le sue recensioni.
-1. (Condizionale) Se il Collaboratore IA utilizzerà un Brand Brain, seleziona il tenant che utilizzerà.
-1. (Condizionale) Se il Collaboratore IA utilizza un Brand, seleziona il brand e la linea guida del brand che utilizzerà.
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Seleziona il marchio e la linea guida del marchio che utilizzerà.
 1. Fai clic su **Salva**.
 
 ## Gestisci collaboratori IA
