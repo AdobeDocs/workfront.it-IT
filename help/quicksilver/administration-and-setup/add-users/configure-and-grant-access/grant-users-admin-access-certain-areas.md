@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per concedere agli utenti con una licenza Pianificazione l’accesso amministrativo a determinate aree del sistema.
+In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per concedere agli utenti con una licenza Standard o Plan l’accesso amministrativo a determinate aree del sistema.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>   <p>Standard</p>
    <p>Piano</p></td> 
   </tr> 
@@ -46,11 +46,11 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Concedere agli utenti del piano l&#39;accesso amministrativo ad alcune aree di Workfront
+## Concedere agli utenti Standard o Plan l&#39;accesso amministrativo ad alcune aree di Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Mansioni</td> 
-      <td> <p>Con questo accesso, l’utente può effettuare le seguenti operazioni:</p> 
+      <td> <p><span class="preview"><b>NOTA</b>: nell'ambiente di anteprima, l'accesso ai ruoli è controllato come tipo di oggetto nel livello di accesso. Vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Concedere l'accesso alle mansioni</a>.</span></p>
+      <p>Con questo accesso, l’utente può effettuare le seguenti operazioni:</p> 
        <ul> 
         <li>Visualizza e modifica i ruoli esistenti</li> 
         <li>Aggiungi nuove mansioni</li> 
         <li>Modifica fatturazione mansioni e tassi di costo</li> 
-       </ul> <p><b>IMPORTANTE</b>: se si concede a un utente Planner l'accesso amministrativo alle mansioni, l'impostazione di accesso ai dati finanziari Modifica fatturazione mansione e tassi di costo viene abilitata automaticamente per l'utente. In seguito, se si disabilita l'accesso amministrativo alle mansioni per l'utente Planner, le mansioni saranno ancora visibili perché l'impostazione Modifica fatturazione mansione e tassi di costo è ancora abilitata. Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concedere l'accesso ai dati finanziari</a>.</p> </td> 
+       </ul> <p><b>IMPORTANTE</b>: se si concede a un utente Standard o Plan l'accesso amministrativo alle mansioni, l'impostazione di accesso ai dati finanziari Modifica fatturazione mansione e tassi di costo viene abilitata automaticamente per l'utente. In seguito, se si disabilita l'accesso amministrativo alle mansioni per l'utente Standard o Piano, le mansioni saranno ancora visibili perché l'impostazione Modifica fatturazione mansione e tassi di costo è ancora abilitata. Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concedere l'accesso ai dati finanziari</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milestone nel mio gruppo</td> 

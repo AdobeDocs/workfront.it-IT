@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,8 @@ Le funzionalità avanzate di Adobe Workfront per le operazioni aziendali rappres
 >Queste funzioni sono disponibili solo per le organizzazioni nel pacchetto Workflow Ultimate.
 
 Prevedi, tieni traccia e ottimizza le tue finanze con gerarchie di costi e tariffe di fatturazione a più livelli.
+
+[Visualizza una dimostrazione video di 13 minuti delle funzionalità avanzate di Financial Management.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 I miglioramenti alla gestione finanziaria includono:
 

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 96%
 
 ---
@@ -102,6 +102,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Filtri, viste e raggruppamenti |   |   | ✓ |
 | Documenti |   |   | ✓ |
 | Utenti |   |   | ✓ |
+| Ruoli |   |   | ✓ |
+| Team |   |   | ✓ |
 | Modelli |   |   | ✓ |
 | Dati finanziari |   |   | ✓ |
 | Gestione delle risorse |   |   | ✓ |
@@ -204,7 +206,13 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Ruoli</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Team</td> 
    <td> </td> 
    <td>✓</td> 
@@ -285,7 +293,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Rapporti (inclusi dashboard e rapporti del calendario) |   | ✓ (solo la scheda Dettagli) |   |
 | Filtri, viste e raggruppamenti |   |   | ✓ |
 | Documento |   |   | ✓ |
-| Utente |   | ✓ |   |
+| Utenti |   | ✓ |   |
+| Ruoli |   | ✓ |   |
 | Team |   | ✓ |   |
 | Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |
@@ -334,7 +343,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Rapporti (inclusi dashboard e rapporti del calendario) |   | ✓ (Solo per i rapporti del calendario; nessuna possibilità di condividere i rapporti) |   |
 | Filtri, viste e raggruppamenti | ✓ |   |   |
 | Documento |   | ✓ (Nessuna possibilità di condividere i documenti) |   |
-| Utente |   | ✓ |   |
+| Utenti |   | ✓ |   |
+| Ruoli | ✓ |   |   |
 | Team | ✓ |   |   |
 | Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |

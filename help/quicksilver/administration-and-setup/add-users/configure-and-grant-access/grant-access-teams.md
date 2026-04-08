@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td> 
   </tr> 
@@ -40,11 +40,11 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configurare l’accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato
+## Configurare l’accesso degli utenti alla modifica dei team tramite un livello di accesso personalizzato
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Team, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
@@ -78,7 +78,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">Creare</td>
+         <td role="rowheader">Crea</td>
          <td><p>Consente agli utenti con una licenza Pianificazione o Lavoro di creare team.</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
         </tr>
         <tr>
@@ -125,4 +125,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Accesso ai team per tipo di licenza
 
-Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i problemi, vedere la sezione [Team](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i team, vedere la sezione [Team](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
