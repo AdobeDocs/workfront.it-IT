@@ -87,7 +87,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Nel campo Nome collaboratore immettere un nome per il collaboratore. Questo è il nome visualizzato nell&#39;elenco degli assegnatari disponibili per un&#39;attività.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Seleziona il marchio e la linea guida del marchio che utilizzerà.
+1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Seleziona il marchio e la linea guida del marchio che utilizzerà.
 1. Fai clic su **Salva**.
 
 ## Gestisci collaboratori IA
