@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Questa pagina descrive i miglioramenti per gli amministratori apportati con la v
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## I collaboratori IA sono ora disponibili
+## È ora disponibile Content Review AI Collaborator
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >Rilascio rapido in produzione: giovedì 15 aprile 2026
 >Produzione per tutti: venerdì 16 aprile 2026
 
-Per facilitare l’utilizzo dell’intelligenza artificiale nel lavoro quotidiano, abbiamo creato i collaboratori di intelligenza artificiale. I collaboratori IA sono un modo per integrare gli agenti IA nei progetti e nelle attività. Puoi configurare un collaboratore AI con le linee guida del brand, quindi assegnarlo a un’attività come faresti con un utente.
+Per semplificare l’utilizzo dell’intelligenza artificiale nelle attività quotidiane, abbiamo creato il Collaboratore IA per la revisione dei contenuti. Collaborator è un modo per integrare gli agenti di intelligenza artificiale nei progetti e nelle attività. Puoi configurare un collaboratore AI con le linee guida del brand, quindi assegnarlo a un’attività come faresti con un utente.
 
-Attualmente, i collaboratori IA possono essere utilizzati per rivedere il contenuto. In futuro saranno disponibili più funzionalità di AI Collaborator.
+Attualmente, la revisione del contenuto è l’unico collaboratore AI disponibile. In futuro saranno disponibili più funzionalità di AI Collaborator.
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+Per ulteriori informazioni, vedere [Configurare i collaboratori IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## I trimestri personalizzati sono ora disponibili come pagina separata in Configurazione
 
