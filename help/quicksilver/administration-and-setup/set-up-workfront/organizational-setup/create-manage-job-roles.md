@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 2%
+source-wordcount: '1703'
+ht-degree: 1%
 
 ---
 
@@ -69,8 +69,7 @@ Per creare una mansione:
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Ruoli]**.
-1. Fare clic su **[!UICONTROL Nuova mansione]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Fai clic su **[!UICONTROL Nuova mansione] <span class="preview">> Crea nuova mansione**.</span>
 1. Immettere le informazioni nei campi riportati di seguito.
 
    * **Nome**: indicare un nome per la mansione. Questo è il nome visualizzato ovunque in Workfront, dove viene visualizzato il campo Ruolo.

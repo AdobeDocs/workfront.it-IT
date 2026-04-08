@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 6%
@@ -15,6 +15,8 @@ ht-degree: 6%
 # Concedere agli utenti l&#39;accesso amministrativo a determinate aree
 
 <!--Linked in several places, do not rename or change URL.-->
+
+{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per concedere agli utenti con una licenza Standard o Plan l’accesso amministrativo a determinate aree del sistema.
 
