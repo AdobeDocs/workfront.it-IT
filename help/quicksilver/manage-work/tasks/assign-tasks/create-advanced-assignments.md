@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * Determina quale utente deve essere designato come proprietario o assegnatario principale dell’attività o del problema.
 * Specifica il ruolo che ogni utente svolge quando lavora sull&#39;attività o sul problema.
 * <span class="preview">Aggiungere informazioni sulla fatturazione e sulla tariffa a livello di assegnazione.</span>
-* <span class="preview">Rivedere i dettagli seguenti per ogni assegnazione: ore pianificate in base al tempo, costo totale e ricavi totali.</span>
+* <span class="preview">Rivedere i dettagli seguenti per ogni assegnazione: ore pianificate, costo totale e ricavi totali.</span>
 
 >[!NOTE]
 >
