@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 1%
 
 ---
@@ -125,6 +125,10 @@ Questo layout di Assegnazioni avanzate si applica solo alle attività. Per i pro
 1. Esaminare le informazioni sulla durata dell&#39;attività in base alle esigenze. Questi campi sono tutti di sola visualizzazione da Assegnazioni avanzate e puoi aggiornarli nell’attività.
 
    Per informazioni sulla durata dell&#39;attività, sui tipi di durata, sulle unità di tempo e sulle ore pianificate, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   >[!NOTE]
+   >
+   >Se una colonna di dati che desideri visualizzare non è visualizzata, puoi aggiungerla. Vedere [Aggiungi e rimuovi colonne nell&#39;elenco Assegnazioni avanzate](#add-and-remove-columns-on-the-advanced-assignments-list), di seguito.
 
 1. (Facoltativo) Seleziona **Ore**, **FTE** o **Percentuale** per visualizzare le allocazioni.
 
