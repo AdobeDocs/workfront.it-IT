@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 94%
 
 ---
@@ -302,16 +302,16 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
       <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Qualsiasi formato è consentito per i campi calcolati.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
       <li><p><strong>Fatturazione:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione</p></li>
       <li><p><strong>Costo:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe</p></li>
       </ul>
-      <p><span class="preview">Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</span></p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Testo su riga singola</li>
        <li>Paragrafo</li>
        </ul></td>
@@ -458,16 +458,16 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </tr> 
     <tr>
       <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Qualsiasi formato è consentito per i campi calcolati.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
       <li><p><strong>Fatturazione:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione</p></li>
       <li><p><strong>Costo:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe</p></li>
       </ul>
-      <p><span class="preview">Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</span></p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Pulsanti di scelta</li>
        <li>Gruppo di caselle di controllo</li>
        <li>Elenco a discesa a selezione singola</li>
@@ -723,14 +723,14 @@ Per aggiungere una ricerca esterna:
      </tr> 
      <tr>
       <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Qualsiasi formato è consentito per i campi calcolati.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
       <li><p><strong>Fatturazione:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione</p></li>
       <li><p><strong>Costo:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe</p></li>
       </ul>
-      <p><span class="preview">Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</span></p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: “USA”},
          { name: “Canada”}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
