@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ Pochi secondi dopo aver inviato la richiesta di revisione e approvazione, nel pa
 Il revisore dei contenuti non è progettato per essere un responsabile delle decisioni nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
 
 ![Feedback revisore contenuto](assets/ai-reviewer-output.png)
+
+## Come vengono calcolati i punteggi
+
+Il revisore dei contenuti calcola i punteggi in modo diverso a seconda del tipo di revisione:
+
+* Revisione immagine: questo punteggio riflette il rapporto tra le linee guida approvate e quelle non riuscite.
+* Copia revisione: questo punteggio utilizza una ponderazione bilanciata dei risultati soggettivi e oggettivi. Le linee guida oggettive (visualizzate in &quot;Correggi&quot;) sono ponderate tre volte di più rispetto alle linee guida soggettive (visualizzate in &quot;Considera&quot;).
+
+Poiché le linee guida oggettive hanno più peso nelle revisioni delle copie, consigliamo di scrivere linee guida concrete e misurabili nel tuo marchio. Per ulteriori informazioni, consulta la sezione [Best practice per la scrittura delle linee guida per i marchi](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) nell&#39;articolo Creare e gestire i marchi per il revisore dei contenuti.
 
 ## Visualizza punteggio e feedback
 

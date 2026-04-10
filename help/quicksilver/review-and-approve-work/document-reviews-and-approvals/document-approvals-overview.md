@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 0%
@@ -404,7 +404,7 @@ Sì. Poiché l’integrazione utilizza lo storage aziendale Adobe, si applicano 
 
 * I documenti all’interno dello stesso progetto non possono condividere un nome.
 
-* Programmi, portfolio, progetti, modelli, attività, problemi, documenti e nomi di cartelle di documenti non possono contenere i seguenti caratteri speciali: `\\ / : \* ? \" \| \< \>` e sono limitati a 255 caratteri.
+* Programmi, portfolio, progetti, modelli, attività, problemi, documenti e nomi di cartelle di documenti non possono contenere i seguenti caratteri speciali: `\ / : * ? " | < >` e sono limitati a 255 caratteri.
 
 Workfront rinomina automaticamente gli oggetti o i documenti in base alle esigenze per evitare conflitti.
 

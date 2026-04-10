@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
@@ -129,3 +129,12 @@ Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contr
 
 
 1. Al termine, fai clic su **Pubblica** per rendere il brand disponibile per il revisore dei contenuti.
+
+
+## Best practice per la scrittura di linee guida per i marchi
+
+*  Scrivi le linee guida del brand che descrivono i criteri misurabili. Il revisore dei contenuti valuta i contenuti letteralmente, quindi le regole oggettive producono punteggi più coerenti di quelli soggettivi.
+
+* Cerca parole come &quot;evitare&quot;, &quot;mantenere&quot; o &quot;assicurarsi&quot; nelle linee guida. Questi segnali spesso indicano una regola che puoi stringere. Sostituisci l’istruzione vaga con un elenco specifico di parole, formati o limiti. Ad esempio, sostituisci &quot;evita i comuni luoghi comuni di sci&quot; con &quot;non utilizzare &#39;gnar&#39;, &#39;pow&#39; o &#39;shred&#39;&quot;.
+
+* Se non è possibile rimuovere la soggettività, restringerla. Sostituire gli aggettivi ampi con vincoli specifici. Ad esempio, &quot;Diretto e orientato all&#39;azione&quot; diventa &quot;Diretto e orientato all&#39;azione; omettere parole di riempimento e linguaggio di copertura&quot;.
