@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/it/enterprise/kb/network-endpoints.html).
+>Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -46,7 +46,7 @@ Se il firewall o il server di posta è configurato in modo da consentire l&#39;a
 
 È inoltre necessario aprire alcune porte per crittografare i messaggi e-mail al momento della consegna.
 
-## Workfront inserire nell&#39;elenco Consentiti utilizzabili
+## Workfront utilizzabili
 
 Se l&#39;organizzazione dispone del piano Enterprise, è inoltre possibile configurare due Workfront di inserire nell&#39;elenco Consentiti:
 
@@ -69,12 +69,6 @@ Per individuare il cluster dell&#39;organizzazione:
 Per ulteriori informazioni, vedere la sezione [Visualizzare il cluster e il piano Workfront dell&#39;organizzazione](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) nell&#39;articolo [Panoramica del firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di
-
->[!IMPORTANT]
->
->Alcune integrazioni Workfront non funzionano quando il inserisco nell&#39;elenco Consentiti di è abilitato perché non possono essere configurate con un indirizzo IP statico. Per utilizzare le seguenti integrazioni, devi disabilitare il inserisco nell&#39;elenco Consentiti di.
->
->* Workfront per Outlook
 
 * [Indirizzi IP per consentire i cluster 1, 2, 3, 5, 7, 8 e 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Indirizzi IP da consentire per il cluster 4](#ip-addresses-to-allow-for-cluster-4)
@@ -330,7 +324,7 @@ Per consentire a Workfront Fusion di accedere al sistema, aggiungi i seguenti in
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] nel cluster di Microsoft Azure</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] nel cluster Microsoft Azure</td> 
    <td> 
     <ul> 
      <li>20.36.133.48/28</li> 
@@ -356,7 +350,7 @@ Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] nel cluster di Microsoft Azure</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] nel cluster Microsoft Azure</p> </td> 
    <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 

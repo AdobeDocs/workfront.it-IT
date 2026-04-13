@@ -3,20 +3,20 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Panoramica del firewall
+title: Panoramica sul firewall
 description: Poiché Adobe Workfront comunica con la rete della tua organizzazione, il firewall di quest’ultima deve essere configurato in modo da consentire tale comunicazione. I firewall sono misure di sicurezza altamente efficaci che funzionano separando la rete di un'organizzazione da Internet. Garantiscono che solo i dati e il traffico di rete selezionati possano essere spostati all’interno o all’esterno della rete dell’organizzazione. Il firewall consente o blocca i dati in base al sito che invia o riceve i dati. In qualità di amministratore di Adobe Workfront, devi assicurarti che i dati inviati a o da Workfront possano passare attraverso il firewall dell’organizzazione.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 1%
 
 ---
 
-# Panoramica del firewall
+# Panoramica sul firewall
 
 Poiché Adobe Workfront comunica con la rete della tua organizzazione, il firewall di quest’ultima deve essere configurato in modo da consentire tale comunicazione. I firewall sono misure di sicurezza altamente efficaci che funzionano separando la rete di un&#39;organizzazione da Internet. Garantiscono che solo i dati e il traffico di rete selezionati possano essere spostati all’interno o all’esterno della rete dell’organizzazione. Il firewall consente o blocca i dati in base al sito che invia o riceve i dati. In qualità di amministratore di Adobe Workfront, devi assicurarti che i dati inviati a o da Workfront possano passare attraverso il firewall dell’organizzazione.
 
@@ -72,11 +72,10 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Integrazioni Adobe Workfront</td> 
-   <td>Informare l'amministratore di rete se si utilizza uno dei seguenti elementi:
+   <td role="rowheader">Integrazioni di Adobe Workfront</td> 
+   <td>Informare l'amministratore di rete se si utilizza quanto segue:
     <ul>
      <li><p>Workfront per Microsoft Teams</p></li>
-     <li><p>Workfront per Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 

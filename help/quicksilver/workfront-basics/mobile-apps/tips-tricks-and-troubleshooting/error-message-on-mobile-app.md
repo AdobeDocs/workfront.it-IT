@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: "Messaggio di errore sull'app mobile  [!DNL Adobe Workfront] : 'L'account non è abilitato per l'API.'"
-description: "Messaggio di errore sull'app mobile  [!DNL Adobe Workfront] : 'L'account non è abilitato per l'API.'"
+title: 'Messaggio di errore sull''app mobile  [!DNL Adobe Workfront] : ''Il tuo account non è abilitato per l''API.'''
+description: 'Messaggio di errore sull''app mobile  [!DNL Adobe Workfront] : ''Il tuo account non è abilitato per l''API.'''
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ L&#39;amministratore di [!DNL Workfront] non ha abilitato l&#39;ambiente [!DNL W
 1. Passare all&#39;area **[!UICONTROL Configurazione]**.
 1. Espandere il menu **[!UICONTROL Sistema]**, quindi fare clic su **[!UICONTROL Preferenze]**.
 
-1. Nella sezione **[!UICONTROL Sicurezza]** selezionare **[!UICONTROL Consenti alle persone di utilizzare le applicazioni mobili di [!DNL Workfront] e l&#39;opzione [!DNL Workfront Outlook] Componente aggiuntivo]** per abilitarlo.
+1. Nella sezione **[!UICONTROL Sicurezza]**, seleziona l&#39;opzione **[!UICONTROL Consenti alle persone di utilizzare le applicazioni mobili di [!DNL Workfront]]** per abilitarla.
 
 1. Fai clic su **[!UICONTROL Salva]**.\
-   Tutti gli utenti del sistema possono ora accedere a [!DNL Workfront] dalle loro app mobili e da [!DNL Outlook].
+   Tutti gli utenti del sistema possono ora accedere a [!DNL Workfront] dalle loro app mobili.

@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Panoramica di [!DNL Adobe Workfront] oggetti
+title: Panoramica degli oggetti di [!DNL Adobe Workfront]
 description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database [!DNL Workfront] . Gli oggetti sono ciò che determina le informazioni in [!DNL Workfront]. Per ulteriori informazioni su questi oggetti, consulta questo articolo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 3%
 
 ---
 
-# Panoramica di [!DNL Adobe Workfront] oggetti
+# Panoramica degli oggetti di [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 <***Linked to several articles, do not remove/ change. 
 -->
 
-Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database [!DNL Workfront]. Gli oggetti sono ciò che guida le informazioni in [!DNL Workfront].
+Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database di [!DNL Workfront]. Gli oggetti sono ciò che guida le informazioni in [!DNL Workfront].
 
 È importante comprendere il modo in cui gli oggetti sono definiti in [!DNL Workfront] per poter utilizzare l&#39;oggetto corretto per le esigenze dell&#39;organizzazione.
 
@@ -124,17 +124,7 @@ Nelle aree seguenti viene visualizzato il nome aggiornato degli oggetti:
 * [!UICONTROL Salva] pulsanti
 * File esportati
 * E-mail
-* App mobili
-
-### Aree di [!DNL Workfront] che non riflettono i nomi oggetto personalizzati
-
-Nelle seguenti aree non viene visualizzato il nome aggiornato degli oggetti:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* Componente aggiuntivo [!DNL Outlook]
+* App per dispositivi mobili
 
 ### Implicazioni della personalizzazione dei nomi degli oggetti
 
@@ -239,7 +229,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 
 * [!UICONTROL Progetto]
 * [!UICONTROL Attività]
-* [!UICONTROL Ora]
+* [!UICONTROL Hour]
 * [!UICONTROL Problema]
 * [!UICONTROL Utente]
 * Livello [!UICONTROL Accesso]
@@ -316,7 +306,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Rischio]
 * [!UICONTROL Tipo di Rischio]
 * [!UICONTROL Pianificazione]
-* [!UICONTROL Scorecard]
+* [!UICONTROL Scheda di valutazione]
 * [!UICONTROL Team]
 * [!UICONTROL Modello]
 * [!UICONTROL Attività modello]
