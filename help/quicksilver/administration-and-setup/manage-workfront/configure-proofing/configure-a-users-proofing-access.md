@@ -8,14 +8,14 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 3%
 
 ---
 
-# Configurare l’accesso alle verifiche di un utente
+# Configurare l’accesso alle bozze di un utente
 
 In qualità di amministratore Adobe Workfront o amministratore Workfront Proof, puoi configurare l’accesso di un utente per creare e visualizzare bozze in Workfront e Workfront Proof.
 
@@ -23,9 +23,9 @@ Per informazioni sulle funzionalità di verifica disponibili per la verifica di 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,19 +49,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
 +++
-
-## Abilitare e disabilitare la verifica per un utente (solo piani legacy) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Se l&#39;organizzazione utilizza un piano Select o Premium Workfront legacy come amministratore di Workfront, è possibile abilitare e disabilitare la funzionalità di verifica per l&#39;utente.
-
-Quando si abilita la verifica per un utente, Workfront abilita l’opzione per la generazione automatica delle bozze dell’utente.
-
-Anche se è possibile abilitare un utente come utente di verifica, per passare direttamente all&#39;interfaccia di Workfront Proof dal menu principale di Workfront è necessario disporre delle autorizzazioni di amministratore. Per informazioni su come abilitare questa opzione per tutti gli utenti di verifica nel sistema Workfront, vedere [Configurare l&#39;accesso a Workfront Proof tramite il menu principale di Workfront per tutti gli utenti](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. Nel **menu principale**, seleziona **Utenti**.
-
-1. Seleziona un utente, quindi fai clic sull&#39;icona **Modifica**.
-1. Nella sezione **Accesso**, seleziona o deseleziona **L&#39;utente può generare bozze**.
 
 ## Configurare il profilo di autorizzazione di una bozza utente
 
