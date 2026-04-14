@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
+source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
 workflow-type: tm+mt
-source-wordcount: '3865'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Per ulteriori informazioni sulla gestione dei progetti in Workfront, vedere [Pro
 
 Poiché la revisione e l’approvazione unificate vengono create utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate durante la gestione di progetti e documenti.
 
-* L&#39;archiviazione aziendale di Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica.
+* I programmi e i progetti non possono avere lo stesso nome se appartengono allo stesso portfolio.
 * I documenti non possono avere lo stesso nome se appartengono allo stesso progetto.
 * I nomi degli oggetti non possono contenere i seguenti caratteri speciali: \ / : * ? &quot; | &lt; >
 * I nomi degli oggetti possono contenere un massimo di 255 caratteri.
@@ -399,7 +399,9 @@ I principali vantaggi dello storage aziendale Adobe includono:
 
 Sì. Poiché l’integrazione utilizza lo storage aziendale Adobe, si applicano le seguenti convenzioni:
 
-* I nomi degli oggetti e dei documenti devono essere univoci all&#39;interno dello stesso elemento padre nella gerarchia delle cartelle.
+* I programmi e i progetti non possono avere lo stesso nome se appartengono allo stesso portfolio.
+
+* I nomi dei documenti devono essere univoci all&#39;interno dello stesso elemento padre nella gerarchia delle cartelle.
 
 * I documenti all’interno dello stesso progetto non possono condividere un nome.
 
