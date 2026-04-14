@@ -9,10 +9,10 @@ role: Developer
 exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3106cb32d1f4cb962c1b16238ef17adcaa5766f1
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >
 >Questa modifica alla versione API comporta delle interruzioni e potrebbe interessare le chiamate API esistenti. Ciò è dovuto al fatto che la versione 21 dell’API utilizza la versione 2 delle sottoscrizioni eventi.
 >
-> Per i campi a selezione multipla, la versione 2 di Sottoscrizioni eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
+> Per i campi a selezione multipla, la versione 2 delle sottoscrizioni di eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
 
 Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione 21 dell’API presenta le seguenti modifiche rispetto alla versione 20.
 
