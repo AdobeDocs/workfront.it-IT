@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1172'
 ht-degree: 8%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 8%
 (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare gli oggetti quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso agli oggetti, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -173,7 +171,7 @@ La condivisione di filtri, viste e raggruppamenti nell’interfaccia legacy è i
 
 1. Completa una delle seguenti operazioni, a seconda di chi desideri condividere con:
 
-   **Per condividere con singoli utenti, team, ruoli, gruppi o società:** Nel campo fornito, iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> che si desidera condividere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
+   **Per condividere con singoli utenti, team, ruoli, gruppi o società:** Nel campo specificato iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo aziendale che si desidera condividere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.\
    Ripeti questa procedura per condividere l’accesso con più utenti, team, ruoli, gruppi o aziende.
 
    >[!TIP]

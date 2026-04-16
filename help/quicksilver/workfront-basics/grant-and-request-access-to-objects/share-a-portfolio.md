@@ -4,16 +4,14 @@ description: Puoi condividere un portfolio con altri utenti se disponi delle aut
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '892'
+ht-degree: 7%
 
 ---
 
 # Condividere un portfolio
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai portafogli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [I
 
    ![Pulsante Condividi portfolio](assets/share-portfolio-button.png)
 
-1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere il portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo di business con cui vuoi condividere il portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [I
 
    ![Condividi portfolio in blocco](assets/bulk-share-portfolios.png)
 
-1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere i portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al portfolio**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo aziendale con cui vuoi condividere i portfolio, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [I
 Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile concedere agli utenti quando si consente loro di visualizzare o gestire un Portfolio:
 
 | **Azioni** | **Gestisci** | **Visualizza** |
-|---|---|---|
-| Modifica dettagli Portfolio | ✓ |   |
+| --- | --- | --- |
+| Modifica dettagli Portfolio | ✓ | |
 | Visualizza un Portfolio | ✓ | ✓ |
-| Eliminare un Portfolio | ✓ |   |
-| Allegare un modulo personalizzato | ✓ |   |
-| Modificare un campo personalizzato | ✓ |   |
-| Aggiungere o rimuovere un programma&#42; | ✓ |   |
-| Aggiungere o rimuovere un progetto&#42; | ✓ |   |
-| Approvare un progetto | ✓ |   |
-| Ottimizzazione Portfolio&#42; | ✓ |   |
+| Eliminare un Portfolio | ✓ | |
+| Allegare un modulo personalizzato | ✓ | |
+| Modificare un campo personalizzato | ✓ | |
+| Aggiungere o rimuovere un programma&#42; | ✓ | |
+| Aggiungere o rimuovere un progetto&#42; | ✓ | |
+| Approvare un progetto | ✓ | |
+| Ottimizzazione Portfolio&#42; | ✓ | |
 | Aggiungi cartella documenti&#42; | ✓ | ✓ |
 | Aggiungi un documento | ✓ | ✓ |
 | Aggiornamenti/commenti | ✓ | ✓ |
 | Condividi | ✓ | ✓ |
-| Condividi a livello di sistema |   | ✓ |
-| Modifica tariffe di fatturazione&#42; | ✓ |   |
-| Modifica tariffe&#42; | ✓ |   |
-| Modifica contabilità generale&#42; | ✓ |   |
+| Condividi a livello di sistema | | ✓ |
+| Modifica tariffe di fatturazione&#42; | ✓ | |
+| Modifica tariffe&#42; | ✓ | |
+| Modifica contabilità generale&#42; | ✓ | |
 | Visualizza tariffe di fatturazione&#42; | ✓ | ✓ |
 | Visualizza tariffe di costo&#42; | ✓ | ✓ |
 | Visualizza contabilità generale&#42; | ✓ | ✓ |

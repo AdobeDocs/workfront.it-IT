@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 5%
 
 ---
 
 # Creare e modificare le regole di business
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. La convalida delle regole aziendali consente di migliorare la qualità dei dati e l&#39;efficienza operativa impedendo azioni che potrebbero compromettere l&#39;integrità dei dati.
 
-<!--
+Le organizzazioni che dispongono del pacchetto Workflow Ultimate possono inoltre configurare regole business per automatizzare le azioni per l&#39;oggetto creato, modificato o modificato quando vengono soddisfatte determinate condizioni. Le azioni disponibili includono la condivisione dell’oggetto o l’associazione di un modulo personalizzato all’oggetto.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Una singola regola business può essere assegnata a un solo oggetto. Ad esempio, se si crea una regola business per non modificare i progetti in determinate condizioni, non è possibile applicare la stessa regola alle attività. È necessario creare una regola business separata con le stesse condizioni per le attività.
 
@@ -91,7 +78,7 @@ Il formato della convalida di una regola business è &quot;Se la condizione defi
 
 La sintassi per le proprietà e le altre funzioni di una regola business è identica a quella di un campo calcolato di un modulo personalizzato. Per ulteriori informazioni sulla sintassi, vedere [Aggiungere campi calcolati con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Per informazioni sulle istruzioni IF, vedere [&#x200B; Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Per informazioni sulle istruzioni IF, vedere [ Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Per informazioni sui caratteri jolly basati sugli utenti, vedere [Utilizzare caratteri jolly basati sugli utenti per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -261,7 +248,7 @@ IF({status} = "APR", true)
    * L&#39;&quot;oggetto&quot; è il tipo di oggetto selezionato durante la creazione della regola business. Viene visualizzato nell’intestazione della finestra di dialogo.
    * L’&quot;azione&quot; è il trigger selezionato per la regola: crea, modifica o elimina l’oggetto.
    * Poiché l&#39;oggetto e l&#39;azione sono già definiti, non vengono inclusi nella formula.
-   * Il messaggio di errore personalizzato <span class="preview"> è incluso solo se la regola è per la convalida e </span> viene visualizzato all&#39;utente quando attiva la regola business. Dovrebbe fornire istruzioni chiare su cosa è andato storto e su come correggere il problema.
+   * Il messaggio di errore personalizzato viene incluso solo se la regola è per la convalida e viene visualizzato all&#39;utente quando attiva la regola business. Dovrebbe fornire istruzioni chiare su cosa è andato storto e su come correggere il problema.
 
      Puoi includere un URL statico nel messaggio di errore, per collegare alla documentazione o ad altre pagine utili per guidare l’utente nella modifica della sua azione entro il vincolo della regola.
 
@@ -283,21 +270,19 @@ IF({status} = "APR", true)
 
    Per gli altri pacchetti, questa opzione è preselezionata.
 
-1. <span class="preview">(Condizionale) Per automatizzare un&#39;altra azione, selezionare l&#39;azione. </span>
+1. (Condizionale) Per automatizzare un’altra azione, seleziona l’azione.
 
-   <span class="preview">Per informazioni dettagliate su queste azioni, vedere la sezione [Opzioni di automazione delle regole business](#business-rule-automation-options) in questo articolo.</span>
+   Per informazioni dettagliate su queste azioni, vedere la sezione [Opzioni di automazione delle regole business](#business-rule-automation-options) in questo articolo.
 
    >[!NOTE]
    >
-   ><span class="preview">L&#39;organizzazione deve essere inclusa nel pacchetto Ultimate del flusso di lavoro per utilizzare azioni oltre alla convalida. Se queste altre opzioni non sono disponibili, l&#39;organizzazione non è inclusa nel pacchetto Workflow Ultimate.</span>
+   >Per utilizzare le azioni oltre alla convalida, la tua organizzazione deve far parte del pacchetto Ultimate del flusso di lavoro. Se queste altre opzioni non sono disponibili, significa che l&#39;organizzazione non è inclusa nel pacchetto Workflow Ultimate.
 
 1. Fai clic su **Salva** al termine della creazione della regola business.
 
 >[!NOTE]
 >
 >Dopo aver aggiunto una regola business, è necessario verificarla aggiungendo, modificando o eliminando l&#39;oggetto associato per assicurarsi che la regola venga applicata correttamente.
-
-<div class="preview">
 
 ### Opzioni di automazione delle regole di business
 
@@ -311,8 +296,6 @@ IF({status} = "APR", true)
 |---|---|
 | Allega un modulo personalizzato | Seleziona il modulo personalizzato da aggiungere |
 | Condividi l’oggetto | Selezionare le persone, i ruoli, i gruppi, le aziende o i livelli di accesso con cui si desidera condividere l&#39;oggetto. |
-
-</div>
 
 ## Attivare una regola aziendale
 

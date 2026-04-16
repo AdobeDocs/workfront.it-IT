@@ -10,9 +10,9 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1590'
 ht-degree: 8%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 8%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso personalizzati e applicarli agli utenti. Quando si lavora con i livelli di accesso, è importante comprendere in che modo collaborano con le autorizzazioni per gli oggetti concesse dagli utenti quando condividono gli oggetti tra loro. Per ulteriori informazioni sui livelli di accesso, vedere:
 
@@ -203,13 +201,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    </table>
 
 
-1. <span class="preview">(Facoltativo) Per impedire agli utenti con questo livello di accesso di visualizzare campi specifici, aggiungere i campi nella sezione Aggiungi campi con restrizioni.</span>
+1. (Facoltativo) Per impedire agli utenti con questo livello di accesso di visualizzare campi specifici, aggiungere i campi nella sezione Aggiungi campi con restrizioni.</span>
 
-   <span class="preview">In questa sezione è possibile cercare sia i campi nativi che quelli personalizzati. È previsto un limite di 20 campi con restrizioni.</span>
+   Puoi cercare sia i campi nativi che quelli personalizzati in questa sezione. È previsto un limite di 20 campi con restrizioni.
 
-   <span class="preview">I campi sono limitati quando il livello di accesso viene assegnato a un utente come livello di accesso principale o tramite un profilo di business. Per ulteriori informazioni sui profili aziendali, vedere [Panoramica sui profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+   I campi sono limitati quando il livello di accesso viene assegnato a un utente come livello di accesso principale o tramite un profilo di business. Per ulteriori informazioni sui profili aziendali, vedere [Panoramica sui profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-   <span class="preview">Un campo con restrizioni è ancora visibile agli utenti nel sistema, ma viene visualizzato come vuoto oppure visualizza N/D invece dei dati effettivi.</span>
+   Un campo con restrizioni è ancora visibile agli utenti nel sistema, ma viene visualizzato come vuoto o visualizza N/A invece dei dati effettivi.
 
 1. (Condizionale e facoltativo) Se il sistema Workfront è configurato per utenti che appartengono a più società, limita la visibilità ad altri utenti in base alla società a cui appartengono nella sezione **Le persone in altre società devono visualizzare solo gli utenti di**.
 

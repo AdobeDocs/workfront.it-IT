@@ -7,16 +7,14 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '914'
 ht-degree: 6%
 
 ---
 
 # Condividere un programma
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 
 L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare i programmi al momento dell’assegnazione del livello di accesso. Per poter accedere alla modifica di un programma è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai programmi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -91,7 +89,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Pulsante Condividi programma](assets/share-program-button.png)
 
-1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, di <span class="preview">o del profilo di business</span> con cui desideri condividere il programma, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo aziendale con cui si desidera condividere il programma, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -127,7 +125,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    ![Programmi di condivisione in blocco](assets/bulk-share-programs.png)
 
-1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società, <span class="preview">o del profilo di business</span> con cui desideri condividere i programmi, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Concedi l&#39;accesso al programma**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo aziendale con cui si desidera condividere i programmi, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -155,8 +153,8 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile concedere agli utenti quando si consente loro di visualizzare o gestire un programma:
 
-| **Azioni** | **Gestisci** | **Visualizza** |
-|---|---|---|
+| **Azioni** | **Gestisci** **Visualizza** |
+| --- | --- |--- |
 | Modifica dettagli programma | ✓ |   |
 | Visualizzare un programma | ✓ | ✓ |
 | Eliminare un programma | ✓ |   |
