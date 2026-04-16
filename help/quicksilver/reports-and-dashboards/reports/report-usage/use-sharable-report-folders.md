@@ -8,16 +8,14 @@ feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 5%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
 # Utilizzare cartelle di rapporti condivisibili
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 <!-- This article is linked in the UI -->
 

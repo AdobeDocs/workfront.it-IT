@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 6%
 
 ---
 
 # Creare un flusso di lavoro di approvazione documento
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
@@ -60,51 +58,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-
-## Creare una richiesta di revisione o approvazione del documento dalla pagina del documento nell’ambiente di produzione
-
-1. Passa il puntatore del mouse sul documento, quindi fai clic su Dettagli documento.
-   ![Dettagli documento](assets/doc-details.png)
-
-1. Accanto al nome del documento, seleziona la versione del documento per cui desideri creare un’approvazione nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Fai clic su **Approvazioni** nel pannello a sinistra.
-
-1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
-
-1. Per aggiungere un responsabile approvazione, fare clic su **Responsabile approvazione** e iniziare a digitare il nome di un utente o di un team.
-
-1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
-
-   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
-
-1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
-
-## Creare una richiesta di revisione o approvazione del documento dal pannello Riepilogo documento nell’ambiente di produzione
-
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-
-1. Fare clic sul documento desiderato e viene aperto il pannello a sinistra Riepilogo documento per tale documento.
-
-1. Seleziona la versione del documento per cui desideri creare un’approvazione nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, quindi fai clic su **Aggiungi**.
-
-![Aggiungi approvatori nel riepilogo documenti](assets/doc-summary-add-approvers.png)
-
-1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
-
-1. Per aggiungere un responsabile approvazione, fare clic su **Responsabile approvazione** e iniziare a digitare il nome di un utente o di un team.
-
-1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
-
-   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
-
-1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
-
-<div class="preview">
-
-## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nell’ambiente di anteprima nell’area documenti legacy
+## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nell’area dei documenti legacy
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Archiviazione Workfront e archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -148,7 +102,6 @@ Per creare un flusso di lavoro di approvazione:
 
    ![Dettagli documento](assets/new-stage.png)
 
-</div>
 
 ## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nella nuova area del documento
 

@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 7%
+source-wordcount: '650'
+ht-degree: 10%
 
 ---
 
 # Caricare una nuova versione del documento e richiedere un’approvazione
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Se un documento è contrassegnato come &quot;Da lavorare&quot; in una revisione precedente, è possibile caricare una nuova versione nel documento originale e avviare un altro ciclo di approvazioni. Dopo aver caricato una nuova versione del documento, le versioni precedenti vengono bloccate.
 
@@ -64,51 +62,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 
-## Trascina la selezione per aggiungere una nuova versione nell’ambiente di produzione
 
->[!NOTE]
->
->Il trascinamento della selezione non funziona con Internet Explorer.
-
-
-Se è necessario eseguire un altro ciclo di revisione e approvazione su un documento, è possibile creare una nuova versione del documento in Workfront.
-
-È possibile aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nella pagina Dettagli documento.
-
-Per aggiungere una nuova versione:
-
-1. Passare al documento in Workfront.
-1. Trascinare il nuovo file sopra il documento precedente. Viene creata automaticamente una nuova versione.
-
-1. Al termine del caricamento del documento, selezionarlo e fare clic su **Dettagli documento**.
-   ![Aprire la pagina dei dettagli del documento](assets/open-doc-details.png)
-
-
-1. Nel pannello a sinistra, fai clic su **Approvazioni**, quindi su **Aggiungi**.
-
-1. Per aggiungere tutti i partecipanti precedenti, fare clic su **Aggiungi tutti**. È inoltre possibile aggiungere nuovi partecipanti o rimuovere i partecipanti precedenti in base alle esigenze.
-
-
-1. Per aggiungere un modello di approvazione esistente, fai clic sul pulsante Modello e inizia a digitare il nome di un modello.
-
-   >[!TIP]
-   >
-   >   Gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili dall’area Configurazione. Per ulteriori informazioni, vedere [Creare un modello di workflow di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
-
-1. Dopo aver aggiunto tutti i revisori e gli approvatori, fare clic su **Invia richiesta**. I partecipanti vengono informati via e-mail.
-
-   ![invia nuova versione per l&#39;approvazione](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Trascinare la selezione per aggiungere una nuova versione nell&#39;ambiente di anteprima nell&#39;area documenti legacy
+## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Archiviazione Workfront e archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -175,8 +130,3 @@ Per aggiungere una nuova versione:
 
    ![richiede l&#39;approvazione](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

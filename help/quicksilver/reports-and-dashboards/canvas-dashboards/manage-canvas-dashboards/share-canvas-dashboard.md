@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 9%
@@ -16,8 +16,6 @@ ht-degree: 9%
 ---
 
 # Condividere una dashboard dell’area di lavoro
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +84,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 * Quando un dashboard viene distribuito tramite un modello di layout, a tutte le risorse assegnate al modello di layout viene concessa un’autorizzazione di visualizzazione automatica per il dashboard (e i relativi report).
 
-* <span class="preview">Quando un report su un dashboard è configurato con l&#39;opzione Esegui come utente, tutti i visualizzatori visualizzano i dati in base alle autorizzazioni dell&#39;utente selezionato anziché alle proprie. Ciò significa che i visualizzatori potrebbero visualizzare dati a cui normalmente non hanno accesso. Se alcuni report in un dashboard utilizzano Esegui come utente e altri no, i visualizzatori potrebbero visualizzare dati non coerenti tra i report.</span>
+* Quando un report su un dashboard è configurato con l’opzione Esegui come utente, tutti i visualizzatori visualizzano i dati in base alle autorizzazioni dell’utente selezionato anziché alle proprie. Ciò significa che i visualizzatori potrebbero visualizzare dati a cui normalmente non hanno accesso. Se alcuni rapporti in un dashboard utilizzano Esegui come utente e altri no, i visualizzatori potrebbero visualizzare dati non coerenti tra i rapporti.
 
 
 ## Condividere una dashboard dell’area di lavoro

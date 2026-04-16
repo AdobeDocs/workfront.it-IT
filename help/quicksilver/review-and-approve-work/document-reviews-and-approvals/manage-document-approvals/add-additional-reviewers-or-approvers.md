@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 4%
+source-wordcount: '544'
+ht-degree: 6%
 
 ---
 
 # Aggiungere altri approvatori o revisori a un flusso di lavoro di approvazione dei documenti
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile aggiungere altri approvatori o revisori a un flusso di lavoro di approvazione di un documento che dispone già di approvazioni in sospeso.
 
@@ -59,31 +57,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 
-## Aggiungere ulteriori approvatori o revisori dalla pagina Dettagli documento nell’ambiente di produzione
 
-1. Passare alla pagina del documento facendo clic sul nome del documento, quindi selezionare la versione del documento a cui si desidera aggiungere un approvatore o un revisore nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Seleziona **Approvazioni** nel pannello a sinistra. Tutti gli approvatori e i revisori esistenti sono elencati qui.
-
-1. Per aggiungere un approvatore, accertati che la casella di controllo **Approvatore** sia selezionata, quindi inizia a digitare nella casella di testo **Revisori**. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente la casella di controllo **Approvatore** prima di digitare.
-
-1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
-
-## Aggiungere ulteriori approvatori o revisori dal Riepilogo documento nell’ambiente di produzione
-
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-
-1. Fare clic sul documento necessario per aprire il pannello Riepilogo documento.
-
-1. Selezionare la versione del documento a cui si desidera aggiungere un approvatore o un revisore nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Scorri verso il basso fino alla sezione **Approvazioni** nel pannello Riepilogo documento, in cui sono elencati tutti gli approvatori e i revisori esistenti. Per aggiungere un approvatore, accertati che la casella di controllo **Approvatore** sia selezionata, quindi inizia a digitare nella casella di testo **Revisori**. Puoi aggiungere utenti o team di Workfront per nome. Se invece desideri aggiungere un revisore, deseleziona semplicemente la casella di controllo **Approvatore** prima di digitare.
-
-1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
-
-<div class="preview">
-
-## Aggiungere ulteriori approvatori o revisori dal Riepilogo documento nell&#39;ambiente di anteprima nell&#39;area documenti legacy
+## Aggiungere ulteriori approvatori o revisori dal Riepilogo documento nell&#39;area documenti legacy
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Archiviazione Workfront e archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -108,7 +83,6 @@ Per aggiungere altri approvatori o revisori dal Riepilogo documento:
 1. Ripetere i passaggi 5-6 per aggiungere altri approvatori o revisori.
 Dopo il salvataggio, i partecipanti aggiunti ricevono una notifica e-mail che indica che per il documento è necessaria la loro approvazione o revisione.
 
-</div>
 
 
 ## Aggiungere ulteriori approvatori o revisori dal Riepilogo documento nell&#39;area dei nuovi documenti

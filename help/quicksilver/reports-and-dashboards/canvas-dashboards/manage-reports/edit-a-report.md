@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 10%
@@ -16,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Modificare un rapporto in una dashboard dell’area di lavoro
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -88,13 +86,11 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
    ![Modifica un report](assets/edit-report-box.png)
 
-1. <span class="preview">Nella finestra di dialogo **Configura**, modificare le informazioni nelle sezioni elencate a sinistra. Queste sezioni variano a seconda del tipo di rapporto che stai modificando.
+1. Nella finestra di dialogo **Configura**, modifica le informazioni nelle sezioni elencate a sinistra. Queste sezioni variano a seconda del tipo di rapporto che stai modificando.
 
    >[!TIP]
    >
    >La sezione Dettagli per tutti i tipi di report include un&#39;opzione **Esegui il report con i diritti di accesso di**. Utilizza questa opzione per specificare un utente le cui autorizzazioni vengono utilizzate per eseguire il rendering dei dati del rapporto, in modo che tutti i visualizzatori del dashboard vedano gli stessi dati. Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Creare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) o [Creare un report tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-   </span>
 
 1. (Facoltativo) Se si modifica un rapporto KPI, modificare le informazioni come necessario nelle sezioni seguenti:
 

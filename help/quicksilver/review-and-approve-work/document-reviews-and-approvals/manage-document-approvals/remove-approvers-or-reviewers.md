@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 4%
+source-wordcount: '516'
+ht-degree: 7%
 
 ---
 
 # Rimuovere approvatori o revisori da un flusso di lavoro di approvazione documento
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile rimuovere singoli approvatori o revisori da una risorsa o da un documento dopo averli assegnati.
 
@@ -62,40 +60,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 
-## Rimuovere gli approvatori o i revisori dalla pagina Dettagli documento nell’ambiente di produzione
-
-1. Vai alla pagina del documento facendo clic sul nome del documento, quindi seleziona la versione del documento per la quale desideri rimuovere un’approvazione nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Seleziona **Approvazioni** nel pannello a sinistra.
-
-1. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![Elimina](../assets/delete.png) che compare dopo il nome.
-
-   La richiesta di approvazione o di revisione viene rimossa e l&#39;approvatore riceve una notifica che indica che la sua approvazione non è più necessaria. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
-
-1. (Facoltativo) Per abbassare di livello un approvatore a revisore anziché rimuoverlo completamente, deselezionare la casella di controllo **Approvatore** in base al nome.
-
-1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
-
-## Rimuovere gli approvatori o i revisori dal Riepilogo documento nell’ambiente di produzione
-
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-
-1. Fare clic sul documento necessario per aprire il pannello Riepilogo documento per tale documento.
-
-1. Selezionare la versione del documento per la quale si desidera rimuovere un approvatore o un revisore nel menu a discesa della versione. La versione più recente è selezionata per impostazione predefinita.
-
-1. Scorri verso il basso fino alla sezione **Approvazioni** nel pannello Riepilogo documento. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![Elimina](../assets/delete.png) che compare dopo il nome.
-
-   La richiesta di approvazione o di revisione viene rimossa e l&#39;approvatore riceve una notifica che indica che la sua approvazione non è più necessaria. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
-
-1. (Facoltativo) Per abbassare di livello un approvatore a revisore anziché rimuoverlo completamente, deselezionare la casella di controllo **Approvatore** in base al nome.
-
-1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
-
-
-<div class="preview">
-
-## Rimuovere approvatori o revisori da un flusso di lavoro di approvazione nell’ambiente di anteprima nell’area documenti legacy
+## Rimuovere approvatori o revisori da un flusso di lavoro di approvazione nell&#39;area documenti legacy
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Archiviazione Workfront e archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -146,4 +111,5 @@ Per creare un flusso di lavoro di approvazione:
 1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
 
    ![rimuovere partecipanti da una fase](assets/add-or-remove-participants.png)
+
 1. Fai clic su **Salva**.

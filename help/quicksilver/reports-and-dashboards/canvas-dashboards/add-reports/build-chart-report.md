@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 7%
@@ -16,9 +16,6 @@ ht-degree: 7%
 ---
 
 # Generare un rapporto del grafico in una dashboard dell’area di lavoro
-
-{{highlighted-preview}}
-
 
 >[!IMPORTANT]
 >
@@ -105,13 +102,12 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
       >
       >È possibile visualizzare in un grafico un massimo di 60 serie. Se questa casella è selezionata, tutte le serie al di sopra del limite vengono consolidate in un raggruppamento **Altro** nel grafico.
 
-   1. <span class="preview">(Facoltativo) In **Esegui il report con i diritti di accesso di**, iniziare a digitare il nome dell&#39;utente di cui si desidera utilizzare le autorizzazioni, quindi selezionare l&#39;utente quando viene visualizzato nell&#39;elenco. Quando configuri un report per l’esecuzione come altro utente, tutti gli utenti del dashboard visualizzano gli stessi dati, indipendentemente dal proprio livello di accesso. Se non selezioni un utente, ogni visualizzatore visualizza i dati in base alle proprie autorizzazioni.
+   1. (Facoltativo) Nel campo **Esegui il report con i diritti di accesso di**, inizia a digitare il nome dell&#39;utente di cui desideri utilizzare le autorizzazioni, quindi seleziona l&#39;utente quando viene visualizzato nell&#39;elenco. Quando configuri un report per l’esecuzione come altro utente, tutti gli utenti del dashboard visualizzano gli stessi dati, indipendentemente dal proprio livello di accesso. Se non selezioni un utente, ogni visualizzatore visualizza i dati in base alle proprie autorizzazioni.
 
       >[!IMPORTANT]
       >
       >Se l’utente selezionato viene disattivato o perde l’accesso alle aree di lavoro o ai tipi di record rilevanti, il rapporto potrebbe visualizzare dati incompleti o non essere riprodotto correttamente.
 
-   </span>
 
 1. Scegliere il tipo di grafico da creare:
    * [Grafico a barre, a colonne o a linee](#bar-column-or-line-chart)
@@ -175,7 +171,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 Segui i passaggi seguenti per configurare la sezione **Filtro**:
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selezionare **Modifica filtro**.
 1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
 1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.

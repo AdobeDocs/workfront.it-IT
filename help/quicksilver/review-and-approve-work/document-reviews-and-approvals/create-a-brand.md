@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 7%
@@ -17,8 +17,6 @@ ht-degree: 7%
 ---
 
 # Creare e gestire i brand per il revisore dei contenuti
-
-{{highlighted-preview-article-level}}
 
 Il revisore dei contenuti utilizza le linee guida del brand per valutare i contenuti durante il processo di revisione. Puoi creare marchi in Workfront caricando file PDF che contengono le linee guida per i marchi o immettendo manualmente gli elementi del marchio.
 
