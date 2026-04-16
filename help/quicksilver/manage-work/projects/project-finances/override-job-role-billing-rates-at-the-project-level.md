@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Sostituisci tariffe di fatturazione mansione a livello di progetto
-description: In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
+description: Questo articolo descrive come sostituire le tariffe di fatturazione dei ruoli di sistema per un progetto.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 6%
 
 ---
 
 # Sostituire tariffe di fatturazione della mansione a livello di progetto
-
-{{highlighted-preview}}
 
 In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 
@@ -56,7 +54,7 @@ Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi sul 
   </tr> 
   <tr> 
    <td>Autorizzazioni sugli oggetti</td> 
-   <td>Gestisci le autorizzazioni per il progetto che includono Modifica dati finanziari </td> 
+   <td>Gestisci le autorizzazioni per il progetto che include Modifica tariffe di fatturazione </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ Per sostituire una tariffa di fatturazione per un progetto:
 
    Oppure
 
-   <span class="preview">Fai clic su **Tariffe** nel pannello a sinistra e, se non è già selezionata, fai clic sulla scheda **Fatturazione**.</span>
+   Fai clic su **Tariffe** nel pannello a sinistra, quindi sulla scheda **Fatturazione**, se non è già selezionata.
 
-1. Fai clic su **Aggiungi tariffa di fatturazione** > **Nuova tariffa di fatturazione**.
-
-   Oppure
-
-   <span class="preview">Fare clic su **Aggiungi tariffa di fatturazione > Nuova tariffa di fatturazione mansione**.</span>
+1. Fai clic su **Aggiungi tariffa di fatturazione > Nuova tariffa di fatturazione mansione**.
 
    Viene visualizzata la casella Nuova tariffa di fatturazione.
 
 1. Nel campo **Mansione**, selezionare la mansione per la quale si desidera modificare la tariffa di fatturazione.
 
-1. <span class="preview">(Facoltativo) Selezionare qualsiasi attributo per la tariffa di fatturazione, ad esempio agenzia o ubicazione.</span>
+1. (Facoltativo) Seleziona gli attributi per la tariffa di fatturazione, ad esempio agenzia o ubicazione.
 
-   <span class="preview">L&#39;amministratore di sistema definisce gli attributi della tariffa nell&#39;area Configura.</span>
+   L’amministratore di sistema definisce gli attributi della tariffa nell’area Setup (Configura).
 
 1. Selezionare **Valuta** per la sostituzione della tariffa di fatturazione.
 1. Nel campo **Tariffa di fatturazione**, inserisci la sostituzione della tariffa di fatturazione, quindi fai clic su **Salva** per sostituire la tariffa di fatturazione una volta

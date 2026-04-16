@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 17%
 
 ---
 
 # Condividere le autorizzazioni finanziarie su un oggetto
-
-{{highlighted-preview}}
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno le autorizzazioni Visualizza informazioni finanziarie</p>
-   <p><span class="preview">Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno Visualizza tariffe di fatturazione, Visualizza tariffe di costo o Visualizza autorizzazioni di contabilità generale</span></p></td> 
+   <td> Visualizza autorizzazioni o versioni successive per progetti, attività e problemi che includono almeno Visualizza tariffe di fatturazione, Visualizza tariffe di costo e Visualizza autorizzazioni di contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Quando si concedono autorizzazioni finanziarie agli oggetti, tenere presente qua
 
 * Puoi concedere autorizzazioni finanziarie a progetti, attività e problemi.
 * Le autorizzazioni possono essere ereditate: se si dispone delle autorizzazioni Visualizza contabilità generale per un progetto, si ereditano automaticamente le autorizzazioni Visualizza contabilità generale per le attività e i problemi del progetto.
+* La concessione di autorizzazioni per la fatturazione e le tariffe consente all&#39;utente di visualizzare o modificare le tariffe relative a tale oggetto. Le autorizzazioni per la contabilità generale consentono all&#39;utente di visualizzare o modificare i campi di contabilità generale (non correlati alla fatturazione o ai tassi di costo) sull&#39;oggetto.
 
 Per concedere autorizzazioni finanziarie a un oggetto:
 
@@ -116,10 +114,8 @@ Per concedere autorizzazioni finanziarie a un oggetto:
 
 1. Nello stesso menu a discesa, fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione, quindi effettua una delle seguenti operazioni:
 
-   * Se hai selezionato una delle tre opzioni del passaggio precedente, assicurati che sia selezionato **Visualizza contabilità**.
-   * Se hai selezionato **Gestisci contabilità** nel passaggio precedente, assicurati che sia selezionato **Gestisci contabilità**.
-   * <span class="preview">Per qualsiasi livello di autorizzazione, selezionare **Visualizza tariffe di fatturazione**, **Visualizza tariffe di costo** e **Visualizza contabilità generale** in base alle esigenze.</span>
-   * <span class="preview">Solo per le autorizzazioni **Gestisci**, seleziona **Modifica tariffe di fatturazione**, **Modifica tariffe** e **Modifica contabilità generale** in base alle esigenze.</span>
+   * Per qualsiasi livello di autorizzazione, selezionare **Visualizza tariffe di fatturazione**, **Visualizza tariffe di costo** e **Visualizza contabilità generale** in base alle esigenze.
+   * Per **Gestire solo le autorizzazioni**, selezionare **Modifica tariffe di fatturazione**, **Modifica tariffe** e **Modifica contabilità generale** in base alle esigenze.
 
 1. Fai clic su **Salva**.
 
@@ -148,55 +144,37 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Gestisci/Visualizza fatturazione mansione e tassi di costo</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Gestisci/Visualizza fatturazione utente e tassi di costo</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Visualizza dati finanziari</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Modifica tariffe di fatturazione</span></td> 
+   <td>Modifica tariffe di fatturazione</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Modifica tariffe di costo</span></td> 
+   <td>Modifica tariffe di costo</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Modifica dati finanziari generali</span></td> 
+   <td>Modifica dati finanziari generali</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Visualizza tariffe di fatturazione</span></td> 
+   <td>Visualizza tariffe di fatturazione</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Visualizza tariffe di costo</span></td> 
+   <td>Visualizza tariffe di costo</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Visualizza dati finanziari generale</span></td> 
+   <td>Visualizza dati finanziari generale</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
 &#42;Richiede l&#39;accesso aggiuntivo a Gestione risorse.
 
 Per informazioni sull&#39;accesso a Gestione risorse, vedere [Concedere l&#39;accesso a Gestione risorse](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

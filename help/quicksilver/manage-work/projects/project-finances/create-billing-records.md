@@ -5,9 +5,9 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Non è possibile creare record di fatturazione per le attività, ma solo per i p
   </tr> 
   <tr> 
    <td>Autorizzazioni sugli oggetti</td> 
-   <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
+   <td>Gestisci le autorizzazioni per il progetto con le autorizzazioni per Modifica tariffe di fatturazione e Finanza generale</td> 
   </tr> 
  </tbody> 
 </table>

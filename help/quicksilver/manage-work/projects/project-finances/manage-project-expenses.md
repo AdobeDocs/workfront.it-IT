@@ -6,14 +6,14 @@ description: Il processo di creazione e gestione delle spese è lo stesso sia pe
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 9%
 
 ---
 
-# Gestisci spese progetto
+# Gestire le spese di progetto
 
 <!-- Audited: 6/2025 -->
 
@@ -23,7 +23,7 @@ L&#39;importo totale delle spese di tutte le attività e di tutti i progetti con
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,18 +34,18 @@ L&#39;importo totale delle spese di tutte le attività e di tutti i progetti con
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
-   <p>Lavoro o superiore</p></td> 
+   <p>Work o successiva</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Contribuire o accedere ad autorizzazioni superiori per il progetto, con le autorizzazioni per visualizzare o gestire le finanze</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Autorizzazioni di contribuzione o di livello superiore per il progetto, con le autorizzazioni per visualizzare o modificare dati finanziari generali</td> 
   </tr> 
  </tbody> 
 </table>

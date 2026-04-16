@@ -6,10 +6,10 @@ description: In qualità di amministratore di Adobe Workfront, puoi assegnare un
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 15%
+source-wordcount: '611'
+ht-degree: 19%
 
 ---
 
@@ -147,6 +147,36 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Visualizza tariffe di fatturazione</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Visualizza tariffe di costo</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Visualizza dati finanziari generale</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Modifica tariffe di fatturazione</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Modifica tariffe di costo</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Modifica dati finanziari generali</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Aggiungi documenti</p> <p>Suggerimento: a volte gli utenti aggiungono documenti a un modello di progetto pensando di aggiungerli a un progetto. Disabilitando questa impostazione è possibile evitare che ciò si verifichi per i destinatari.</p> </td> 
    <td>  </td> 

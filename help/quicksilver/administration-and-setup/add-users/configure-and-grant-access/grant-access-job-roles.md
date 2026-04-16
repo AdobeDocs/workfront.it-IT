@@ -1,20 +1,18 @@
 ---
 title: Concedere l’accesso ai ruoli
 description: In qualità di amministratore di Adobe Workfront, puoi definire l’accesso di un utente ai ruoli lavorativi in Workfront attraverso il suo livello di accesso.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 12%
+source-wordcount: '379'
+ht-degree: 11%
 
 ---
 
 # Concedere l’accesso alle mansioni
-
-{{highlighted-preview-article-level}}
 
 In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di un utente alle mansioni tramite il suo livello di accesso, come spiegato in [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -59,14 +57,20 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    ![Ottimizzare l&#39;accesso alle mansioni](assets/job-role-access-view-fine-tune.png)
 
-   Gli utenti con l&#39;accesso **Visualizza** possono visualizzare le mansioni esistenti e, facoltativamente, le tariffe di fatturazione, le tariffe di costo e la contabilità generale della mansione.
+   Gli utenti con l&#39;accesso **Visualizza** possono visualizzare le mansioni esistenti ed effettuare le seguenti operazioni:
+
+   * Visualizza tariffe di fatturazione per mansioni
+   * Visualizza tassi di costo per mansioni
+   * Visualizza campi contabilità generale (non correlati a fatturazione o tassi di costo) sulle mansioni
 
    Gli utenti con l&#39;accesso **Modifica** possono visualizzare e modificare le mansioni esistenti e, facoltativamente, eseguire le operazioni seguenti:
 
    * Crea nuove mansioni
    * Eliminare le mansioni
-   * Visualizza tariffe fatturazione mansione, tassi di costo e contabilità generale
-   * Modifica tariffe fatturazione mansione, tassi di costo e contabilità generale
+   * Modifica tariffe di fatturazione per le mansioni
+   * Modifica tassi di costo per mansioni
+   * Modifica campi contabilità generale (non correlati a fatturazione o tassi di costo) sulle mansioni
+   * Visualizza tassi di fatturazione mansione, tassi di costo e campi finanziari generali
 
 1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configurare l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedere l&#39;accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. Al termine, fare clic su **Salva**.

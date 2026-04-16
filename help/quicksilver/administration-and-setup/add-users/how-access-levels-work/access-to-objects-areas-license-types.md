@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 31%
@@ -19,8 +19,6 @@ ht-degree: 31%
 # Accesso a oggetti e aree tramite licenze
 
 <!-- Audited: 2/2024 -->
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -107,7 +105,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
         <td>Visualizzazione</td>
     </tr>
     <tr>
-        <td><span class="preview">Ruoli</span></td>
+        <td>Ruoli</td>
         <td>Modifica</td>
         <td>Visualizzazione</td>
         <td>Visualizzazione</td>
@@ -149,7 +147,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
         <td>Nessun accesso</td>
     </tr>
     <tr>
-        <td><span class="preview">Schede tariffa</span></td>
+        <td>Schede tariffa</td>
         <td>Modifica</td>
         <td>Visualizzazione</td>
         <td>Nessun accesso</td>

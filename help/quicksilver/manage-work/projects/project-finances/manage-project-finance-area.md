@@ -6,14 +6,14 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 4%
+source-wordcount: '1277'
+ht-degree: 6%
 
 ---
 
-# Gestire le informazioni nell&#39;area Finanza progetto
+# Gestire informazioni nell’area Finanze di progetto
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -34,7 +34,7 @@ ht-degree: 4%
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td>
+   <td role="rowheader">Licenza di Adobe Workfront</td>
    <td>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p></td> 
@@ -44,8 +44,8 @@ ht-degree: 4%
    <td> <p>Visualizzare o accedere ai progetti e ai dati finanziari</p> <p>Modifica l'accesso a Progetti e Dati finanziari per modificare le informazioni finanziarie sul progetto</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni View Finance</p> <p>Consente di gestire le autorizzazioni per il progetto, tra cui Gestisci dati finanziari, per modificare le informazioni finanziarie per il progetto</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Visualizzare le autorizzazioni per un progetto o versione successiva che includono le autorizzazioni Visualizza contabilità generale</p> <p>Gestisci le autorizzazioni per il progetto, inclusa la modifica di dati finanziari generali, per modificare le informazioni finanziarie per il progetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,14 +128,6 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
      <tr> 
       <td role="rowheader">Entrate fatturate</td> 
       <td> <p>Ricavi fatturati ai clienti o ad altre parti e registrati nelle Fatturazioni. Per ulteriori informazioni sui record di fatturazione, vedere l'articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Creare record di fatturazione</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

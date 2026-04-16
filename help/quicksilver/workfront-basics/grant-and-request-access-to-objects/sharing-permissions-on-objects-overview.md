@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: grant-and-request-access-to-objects
-title: Panoramica delle autorizzazioni di condivisione sugli oggetti
+title: Panoramica sulle autorizzazioni di condivisione sugli oggetti
 description: È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l'utente.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 1%
+source-wordcount: '1353'
+ht-degree: 3%
 
 ---
 
-# Panoramica delle autorizzazioni di condivisione sugli oggetti
+# Panoramica sulle autorizzazioni di condivisione sugli oggetti
 
 <!-- Audited: 12/2023 -->
 
@@ -55,10 +55,12 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 * **Report, dashboard e calendari**: per informazioni, vedere [Condividere report, dashboard e calendari](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Inoltre, vedi i seguenti articoli:
 
    * [Condividere un rapporto in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Condividere un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Condivisione di un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Condividere una dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Condividere un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filtri, visualizzazioni e raggruppamenti**: per informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Biglietti da visita**: per informazioni, consulta [Condividere una scheda](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Piani**: per informazioni, vedere [Condividere un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
      <li><p>Visualizza l'oggetto</p></li> 
      <li><p>Aggiungere documenti all'oggetto</p></li> 
      <li><p>Aggiungi problemi all'oggetto (se si tratta di un'attività o di un progetto)</p></li> 
-     <li><p>Visualizza informazioni finanziarie sull'oggetto</p></li> 
+     <li><p>Visualizza tariffe di costo, tariffe di fatturazione o informazioni finanziarie generali sull'oggetto</p></li> 
      <li> <p>Condividi l’oggetto<br></p> <p>Quando si condivide l'oggetto, è possibile concedere ad altri utenti lo stesso livello di autorizzazione disponibile solo per l'oggetto e non per un livello superiore.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
     <ul> 
      <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribuisci</li> 
      <li>Elimina</li> 
-     <li>Gestire le informazioni finanziarie</li> 
+     <li>Gestisce i tassi di costo, le tariffe di fatturazione o le informazioni finanziarie generali</li> 
     </ul> </td> 
   </tr> 
   <tr> 

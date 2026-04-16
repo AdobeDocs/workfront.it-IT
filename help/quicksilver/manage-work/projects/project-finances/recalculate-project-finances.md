@@ -6,9 +6,9 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1632'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ I dati finanziari vengono calcolati su un progetto in base alle modifiche apport
   </tr> 
   <tr> 
    <td>Autorizzazioni sugli oggetti</td> 
-   <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
+   <td>Gestisci le autorizzazioni per il progetto con le autorizzazioni per Modifica tariffe di costo, Modifica tariffe di fatturazione e Modifica contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ Quando i dati finanziari per un progetto vengono ricalcolati, Workfront ricalcol
 
 Le aliquote dei ricavi possono cambiare durante la durata di un progetto.
 
-Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, vedere l&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, vedere [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 I tassi di ricavi possono variare ai seguenti livelli:
 
 * Livello di sistema (per le mansioni)\
-  Per ulteriori informazioni sulla creazione di ruoli con tariffe di fatturazione a livello di sistema, vedere l&#39;articolo [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Per ulteriori informazioni sulla creazione di ruoli con tariffe di fatturazione a livello di sistema, vedere [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Livello utente\
-  Per ulteriori informazioni sulla modifica delle informazioni sulle tariffe di fatturazione per gli utenti, vedere l&#39;articolo [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Per ulteriori informazioni sulla modifica delle informazioni sulle tariffe di fatturazione per gli utenti, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Livello aziendale (per mansioni)\
   Per ulteriori informazioni, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello aziendale](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* Livello Progetto (per mansioni)\
-  Per ulteriori informazioni sulla sostituzione delle tariffe per i ruoli a livello di progetto, vedere l&#39;articolo [Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* Livello della scheda della tariffa
+Per ulteriori informazioni sulle schede tariffarie, vedere [Gestione delle schede tariffarie](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* Livello del progetto (per mansioni, utenti e schede di valutazione)\
+  Per ulteriori informazioni sulla sostituzione delle tariffe a livello di progetto, vedere [Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Ad esempio, la tariffa di fatturazione di un utente cambia durante il corso di un progetto da $ 50 a $ 75 all’ora e desideri che tutti i dati esistenti rimangano calcolati alla tariffa precedente ($ 50 e ora). Tuttavia, quando i dati finanziari del progetto vengono ricalcolati, per le attività che dispongono già di dati finanziari esistenti i ricavi vengono aggiornati in modo da riflettere la nuova tariffa di fatturazione (di $ 75 all&#39;ora).
 
@@ -106,13 +109,13 @@ Quando le tariffe di fatturazione cambiano a qualsiasi livello indicato sopra, �
 
 Quando non si ricalcolano i dati finanziari sul progetto o quando si bloccano le ore registrate in un record di fatturazione fatturato, le ore registrate dopo le modifiche della tariffa verranno calcolate con la nuova tariffa e le ore registrate prima delle modifiche della tariffa rimarranno calcolate con la tariffa precedente.
 
-Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
+Per ulteriori informazioni sulla creazione dei record di fatturazione, vedere [Creare i record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Preservare i ricavi del progetto utilizzando più sostituzioni delle tariffe di fatturazione {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Quando le tariffe di fatturazione cambiano per le mansioni a livello di progetto, puoi mantenere i ricavi esistenti che sono già stati calcolati sul progetto utilizzando più sostituzioni di tariffe di fatturazione che sono bloccate entro un intervallo di tempo specificato.
 
-Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di fatturazione, vedere l&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione e sul calcolo delle entrate in un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di fatturazione, vedere [Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di 
 I tassi di costo possono variare ai seguenti livelli:
 
 * Livello di sistema (per mansioni)\
-  Per ulteriori informazioni sulla creazione di ruoli con tassi di costo a livello di sistema, vedere l&#39;articolo [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Per ulteriori informazioni sulla creazione di ruoli con tassi di costo a livello di sistema, vedere [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Livello utente\
-  Per ulteriori informazioni sulla modifica delle informazioni sulle tariffe per gli utenti, vedere l&#39;articolo [Modifica profilo utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Per ulteriori informazioni sulla modifica delle informazioni sulle tariffe degli utenti, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Quando le tariffe di fatturazione cambiano a qualsiasi livello indicato sopra, puoi mantenere i costi esistenti che sono già stati calcolati sul progetto bloccando il tempo registrato sul progetto e calcolato utilizzando la tariffa precedente in una registrazione di fatturazione con lo stato Fatturato. Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Livello progetto (per utenti)
+Per ulteriori informazioni sulla sostituzione delle tariffe utente, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+Quando le tariffe di fatturazione cambiano a qualsiasi livello indicato sopra, puoi mantenere i costi esistenti che sono già stati calcolati sul progetto bloccando il tempo registrato sul progetto e calcolato utilizzando la tariffa precedente in una registrazione di fatturazione con lo stato Fatturato. Per ulteriori informazioni sulla creazione dei record di fatturazione, vedere [Creare i record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 È inoltre possibile evitare di utilizzare l&#39;opzione Ricalcola contabilità manuale se non si desidera creare un record di fatturazione, come descritto nella sezione [Ricalcolare manualmente i dati finanziari per un progetto](#manually-recalculate-finances-for-a-project) in questo articolo.
 
@@ -148,13 +154,13 @@ Se i tassi cambiano durante la durata di un progetto e si desidera che i calcoli
 
 1. Vai al progetto in cui desideri ricalcolare i dati finanziari e fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto.
 
-   ![Elenco a discesa Livello di progetto](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Elenco a discesa Livello di progetto](assets/project-level-more-dropdown.png)
 
    Oppure
 
    Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![Ricalcola espressioni](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ricalcola dati finanziari](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ Per ricalcolare manualmente i dati finanziari di più progetti:
 1. Consente di passare a un elenco di progetti.
 1. Seleziona diversi progetti nell&#39;elenco, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![Ricalcola espressioni](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ricalcola dati finanziari](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

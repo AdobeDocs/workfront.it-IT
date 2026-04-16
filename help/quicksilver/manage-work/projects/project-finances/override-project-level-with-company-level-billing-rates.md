@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
-description: Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
+title: Sostituire tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di azienda
+description: Sostituire tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di azienda
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 14%
 
 ---
 
-# Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
+# Sostituire tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di azienda
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -23,7 +23,7 @@ Puoi configurare un progetto in modo che utilizzi le tariffe di fatturazione a l
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Puoi configurare un progetto in modo che utilizzi le tariffe di fatturazione a l
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -44,8 +44,8 @@ Puoi configurare un progetto in modo che utilizzi le tariffe di fatturazione a l
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Gestisci le autorizzazioni per il progetto con le autorizzazioni per Modifica tariffe di fatturazione e Finanza generale</td> 
   </tr> 
  </tbody> 
 </table>

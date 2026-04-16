@@ -6,16 +6,15 @@ title: Sostituisci tassi di costo utente a livello di progetto
 description: In questo articolo viene descritto come sostituire i tassi di costo degli utenti del sistema per un progetto.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 5%
 
 ---
 
 # Sostituisci i tassi di costo utente a livello di progetto
-
-{{highlighted-preview-article-level}}
 
 Puoi specificare la tariffa per un utente su un progetto specifico. Questa tariffa a livello di progetto sostituisce la tariffa a livello di sistema per questo utente. Per calcolare il costo, Workfront utilizza la tariffa a livello di progetto della mansione, anziché la tariffa a livello di sistema.
 
@@ -50,7 +49,7 @@ Per ulteriori informazioni sul calcolo dei costi del progetto, vedere [Panoramic
   </tr> 
   <tr> 
    <td>Autorizzazioni sugli oggetti</td> 
-   <td>Gestisci le autorizzazioni per il progetto che includono Modifica dati finanziari </td> 
+   <td>Gestisci le autorizzazioni per il progetto che includono Modifica tassi di costo </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Per ulteriori informazioni, vedere [Modificare il profilo di un utente](/help/qu
 
    Workfront applica il tasso di ruolo di sostituzione alle ore che si verificano durante questi intervalli di tempo durante il calcolo del costo sul progetto.
 
-   Non devono esserci intervalli tra gli intervalli di tempo di due tassi di sostituzione. La **Data inizio** di una tariffa di sostituzione deve essere il giorno immediatamente successivo alla **Data fine** della data di sostituzione precedente.
+   Workfront consente di lasciare degli spazi tra i tempi di override, ma riceverai un avviso per confermare che è intenzionale.
 
    Non è necessario specificare una data di inizio per il primo tasso di sostituzione né una data di fine per l&#39;ultimo tasso di sostituzione.
 
@@ -107,5 +106,3 @@ Per ulteriori informazioni, vedere [Modificare il profilo di un utente](/help/qu
    Se viene registrata un’ora dopo la data di completamento pianificata del progetto, viene utilizzata l’ultima tariffa di costo.
 
 1. Fai clic su **Salva**.
-
-
