@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2362'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td><strong>Trimestrale</strong></td>
    <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Individuazione e riutilizzo più rapidi dei contenuti con Content Advisor per AEM Assets in Workfront </a><p></p>
+            <p>Content Advisor è ora disponibile in Workfront con l'integrazione Adobe Experience Manager Assets, semplificando l'individuazione e il riutilizzo dei contenuti di alto valore esistenti.</p>
+        </td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
+   <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Provisioning dei fondamenti di GenStudio abilitato per supportare i collaboratori IA </a><p></p>
             <p>Il 31 marzo 2026 è stato effettuato il provisioning di tutti i clienti Workfront per GenStudio Foundation e gli amministratori di sistema di Admin Console avranno ricevuto un’e-mail per informarli di questa aggiunta. Il provisioning di questo prodotto viene eseguito solo in modo che i clienti Workfront possano dare ai marchi l’accesso ai clienti Workfront in base alle esigenze per il rilascio dei collaboratori IA. Il prodotto è solo un meccanismo di accesso ai Marchi e non sono disponibili funzionalità aggiuntive.</p><p>Ai clienti non verrà addebitato alcun costo per questo nuovo prodotto.</p>
         </td>
@@ -197,6 +206,16 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Funzionalità Enterprise Operations ora disponibili in Adobe Workfront</a><p></p>
             <p>Le funzionalità avanzate di Adobe Workfront per le operazioni aziendali rappresentano un modo unificato e scalabile per gestire finanze, progetti e accesso aziendale. Queste funzionalità forniscono la visibilità e il controllo necessari alle aziende per operare in modo redditizio ed efficiente.</p><p>I seguenti aggiornamenti sono inclusi in queste funzionalità:<ul><li>Gestione finanziaria avanzata, inclusi attributi di tasso, schede di tasso, un'esperienza di assegnazione avanzata riprogettata, tassi di cambio validi per data e ulteriori funzionalità avanzate</li><li>Tracciamento dei dati cronologici, incluse le istantanee del progetto</li><li>Autorizzazioni Enterprise, inclusi i profili business e tariffe di costo e fatturazione separate nei livelli di accesso e nelle autorizzazioni per gli oggetti</li><li>Miglioramenti ai moduli e ai campi personalizzati: includono nuovi tipi di logica avanzati, un’impostazione del tipo di autorizzazione Finanza sui campi in formato valuta, la possibilità di aggiungere moduli personalizzati a più oggetti e miglioramenti all’interfaccia di progettazione dei moduli</li><li>Miglioramenti al modello di layout: includono la personalizzazione delle intestazioni e dei menu di navigazione a sinistra di più oggetti, l’aggiornamento delle opzioni del menu principale nei modelli di layout e la personalizzazione del menu Altro</li><li>Localizzazione personalizzata, inclusa la possibilità di definire termini e frasi personalizzati in lingue diverse</li><li>Miglioramenti apportati alle regole business, inclusa la possibilità di automatizzare le azioni per l'oggetto creato, modificato o modificato quando vengono soddisfatte determinate condizioni</li></ul></p>
+ </p>
+        </td>
+        <td><p>venerdì 2 aprile 2026</p></td>
+        <td><p>giovedì 15 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Intervalli consentiti sulle tariffe con data di validità</a><p></p>
+            <p>Workfront ti consente di lasciare degli intervalli tra le date di fatturazione e le tariffe di costo, ma riceverai un avviso per confermare che è intenzionale.</p>
  </p>
         </td>
         <td><p>venerdì 2 aprile 2026</p></td>

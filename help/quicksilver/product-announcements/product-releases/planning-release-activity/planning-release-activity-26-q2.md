@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 12%
 
 ---
@@ -24,6 +24,25 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Contenuto verificato è ora disponibile sui record connessi a Adobe Experience Manager
+
+>[!NOTE]
+>
+>Anteprima: 16 aprile 2026
+>Rilascio rapido in produzione: venerdì 16 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È ora possibile accedere a Experience Manager Content Advisor in Workfront Planning. Contenuto verificato consente di:
+
+* Scopri i contenuti utilizzando suggerimenti avanzati o dettagli brevi della campagna
+* Valutare rapidamente l&#39;idoneità dei contenuti visualizzando i dettagli chiave prima del riutilizzo
+* Individuare e riutilizzare i frammenti di contenuto
+* Esplora le raccolte per identificare i contenuti correlati sul brand
+
+È possibile selezionare risorse o frammenti di contenuto da Contenuto verificato da utilizzare nei campi collegati in Planning.
+
+Per ulteriori informazioni su come accedere a Contenuto verificato da Workfront Planning, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ## Nuova funzionalità per aumentare l&#39;altezza delle righe nella vista a elenco
 

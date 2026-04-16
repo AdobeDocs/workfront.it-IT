@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -192,4 +192,23 @@ Gli amministratori di Workfront possono ora configurare le regole business per a
 Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Visualizza una dimostrazione video dei miglioramenti delle regole business.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Intervalli consentiti sui tassi con data di validità
+
+>[!NOTE]
+>
+>Questa funzione è disponibile per le organizzazioni su tutti i pacchetti Workfront e Workflow.
+>Tieni presente che le schede di valutazione sono disponibili solo per le organizzazioni nel pacchetto Workflow Ultimate.
+
+Workfront ti consente di lasciare degli intervalli tra le date di fatturazione e le tariffe di costo, ma riceverai un avviso per confermare che è intenzionale.
+
+Possono esserci degli intervalli tra gli intervalli di date in cui esistono delle tariffe:
+
+* Tariffe per una mansione
+* Tariffe per un profilo utente
+* Tariffe su una scheda tariffaria
+* Quando si esegue l’override di uno di questi tassi a livello di progetto
+
+Per ulteriori informazioni, vedere [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) e [Gestire le schede tariffarie](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
