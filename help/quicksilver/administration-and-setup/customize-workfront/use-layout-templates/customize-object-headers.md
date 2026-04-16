@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 7%
@@ -17,13 +17,11 @@ ht-degree: 7%
 
 # Personalizzare le intestazioni degli oggetti con un modello layout
 
-{{highlighted-preview}}
-
 In qualità di amministratore di Adobe Workfront o di amministratore di gruppo, puoi utilizzare un modello di layout per configurare i campi che gli utenti visualizzano nell’intestazione dell’oggetto quando aprono la pagina di un oggetto.
 
 >[!IMPORTANT]
 >
->La personalizzazione delle intestazioni degli oggetti è attualmente disponibile per progetti, attività, problemi, <span class="preview">portfolio, programmi, modelli, record di fatturazione, team, utenti, società, gruppi e schede di valutazione.</span>
+>La personalizzazione delle intestazioni degli oggetti è attualmente disponibile per progetti, attività, problemi, portfolio, programmi, modelli, record di fatturazione, team, utenti, aziende, gruppi e schede di valutazione.
 
 ![Campi intestazione oggetto](assets/object-header-fields.png)
 

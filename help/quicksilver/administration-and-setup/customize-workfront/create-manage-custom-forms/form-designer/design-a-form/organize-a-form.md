@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 4%
 
 ---
 
 # Organizzare un modulo e visualizzarne l’anteprima
-
-{{preview-fast-release-general}}
 
 È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
@@ -85,8 +83,8 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
       <td role="rowheader">Descrizione</td> 
       <td>Digita del testo per spiegare agli utenti a cosa serve la sezione. Questo viene visualizzato sotto l’etichetta della sezione nel modulo personalizzato.</td> 
      </tr> 
-      <td><span class="preview">Compresso per impostazione predefinita</span></td>
-      <td><span class="preview">Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Selezionare questa opzione per comprimere la sezione per impostazione predefinita all'apertura del modulo.</span></td>
+      <td>Compresso per impostazione predefinita</td>
+      <td>Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Selezionare questa opzione per comprimere la sezione per impostazione predefinita all'apertura del modulo.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Aggiungi logica</p></td> 
-      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> se a tutti i singoli campi di un'interruzione di sezione viene applicata la logica di visualizzazione e tutti i campi sono nascosti come risultato della logica, l'intera sezione verrà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto con la finestra di progettazione del modulo</a>.</p></td> 
+      <td><p>Utilizza la logica di visualizzazione per specificare se la sezione deve essere visualizzata nel modulo, in base alle selezioni effettuate dagli utenti nei campi personalizzati a scelta multipla durante la compilazione del modulo.</p><p><strong>NOTA:</strong> se a tutti i singoli campi di un'interruzione di sezione viene applicata la logica di visualizzazione e tutti i campi sono nascosti come risultato della logica, l'intera sezione verrà nascosta nel modulo personalizzato. Ciò si verifica anche se la logica di visualizzazione non viene applicata all’interruzione di sezione.</p><p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Aggiungere regole di logica a campi e moduli personalizzati</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

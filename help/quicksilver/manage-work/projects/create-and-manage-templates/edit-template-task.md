@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3008'
 ht-degree: 7%
 
 ---
@@ -52,8 +52,9 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
+   <td>  <p>Per utilizzare i tipi di costo e di ricavi orari per utente e ruolo: Ultimate del flusso di lavoro</p>
+      <p>Per modificare tutte le altre impostazioni e utilizzare tutti gli altri tipi di ricavi e costi: qualsiasi pacchetto Workfront o Workflow</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
@@ -439,6 +440,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
         <li> <p style="font-weight: normal;"><span>Ore Fisse</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Ore Utente</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Ore Ruolo</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Orario per utente e mansione</p> </li>
        </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
         <li> <p style="font-weight: normal;">Non Fatturabile</p> </li> 
         <li> <p style="font-weight: normal;">Ore Utente</p> </li> 
         <li> <p style="font-weight: normal;">Ore Ruolo</p> </li> 
+        <li> <p style="font-weight: normal;">Orario per utente e mansione</p> </li>
         <li> <p style="font-weight: normal;">Ore Fisse</p> </li> 
         <li> <p style="font-weight: normal;">Ore utente con limite</p> </li> 
         <li> <p style="font-weight: normal;">Ore ruolo con limite</p> </li> 
+        <li> <p style="font-weight: normal;">Orario per utente e mansione con limite</p> </li>
         <li> <p style="font-weight: normal;">Ore Utente più Fisso</p> </li> 
         <li> <p style="font-weight: normal;">Ore Ruolo più Fisso</p> </li> 
+        <li> <p style="font-weight: normal;">Orario per utente e mansione più fisso</p> </li>
         <li> <p style="font-weight: normal;">Reddito Fisso</p> </li> 
        </ul> <p>Per ulteriori informazioni sul tracciamento dei ricavi, vedere <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p> </td> 
      </tr> 

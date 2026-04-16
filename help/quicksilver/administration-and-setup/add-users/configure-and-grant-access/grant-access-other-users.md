@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 9%
+source-wordcount: '898'
+ht-degree: 7%
 
 ---
 
@@ -66,15 +66,34 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 ## Configurare l’accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Per modificare la capacità degli utenti con una licenza Pianificazione o Lavoro di visualizzare i profili di altri utenti:
+1. Per modificare la possibilità degli utenti con una licenza Standard, Plan o Work di visualizzare informazioni per altri utenti, fai clic sull&#39;icona a forma di ingranaggio ![icona a forma di ingranaggio](assets/gear-icon-settings.png) sul pulsante **Visualizza** a destra di **Utenti**, quindi seleziona le opzioni di visualizzazione che desideri concedere nella casella **Ottimizza le impostazioni**:
 
-   1. Fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** a destra di **Utenti**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza tariffe di fatturazione</strong> </td> 
+      <td> Consente agli utenti di visualizzare le tariffe di fatturazione sui profili utente.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza informazioni contatto</strong> </td> 
+      <td> Consente agli utenti di visualizzare le pagine dei dettagli utente di altri utenti.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza tariffe</strong> </td> 
+      <td> Consente agli utenti di visualizzare i tassi di costo nei profili utente.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza contabilità generale</strong> </td> 
+      <td> Consente agli utenti di visualizzare i campi di contabilità generale (non correlati a fatturazione o tassi di costo) sui profili utente.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Disabilita **Visualizza info contatto**, quindi fai clic sulla X per chiudere la casella **Ottimizza le impostazioni**.
+   ![Ottimizza impostazioni utente visualizzazione](assets/fine-tune-view-users.png)
 
-      ![ottimizzare le impostazioni utente](assets/fine-tune-users.png)
-
-1. Per modificare la possibilità degli utenti con l&#39;accesso alla licenza Pianificazione di modificare altri utenti, fare clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Modifica** a destra di **Utenti**, quindi selezionare le funzionalità che si desidera concedere:
+1. Per modificare la possibilità degli utenti con un accesso alla licenza Standard o Plan di modificare altri utenti, fai clic sull&#39;icona a forma di ingranaggio ![icona a forma di ingranaggio](assets/gear-icon-settings.png) sul pulsante **Modifica** a destra di **Utenti**, quindi seleziona le opzioni di modifica che desideri concedere nella casella **Ottimizza le impostazioni**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      <tr> 
       <td role="rowheader"><strong>Elimina</strong> </td> 
       <td> <p> Consente agli utenti di eliminare gli utenti che hanno creato personalmente.<br>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifica tariffe di fatturazione</strong> </td> 
+      <td> Consente agli utenti di modificare le tariffe di fatturazione sui profili utente.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifica tariffe</strong> </td> 
+      <td> Consente agli utenti di modificare i tassi di costo nei profili utente.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifica contabilità generale</strong> </td> 
+      <td> Consente agli utenti di modificare i campi di contabilità generale (non correlati a fatturazione o tassi di costo) nei profili utente.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Amministratore utenti (tutti gli utenti)</strong> </td> 
@@ -108,6 +139,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
          <li><p>Reimposta password utente</p><p><b>NOTA</b>: un amministratore di gruppo non può accedere come amministratore di Workfront né reimpostare la password di tale amministratore.</p></li>
         </ul><p>Questa opzione è disabilitata per impostazione predefinita.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza tariffe di fatturazione</strong> </td> 
+      <td> Consente agli utenti di visualizzare le tariffe di fatturazione sui profili utente.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Visualizza tariffe</strong> </td> 
+      <td> Consente agli utenti di visualizzare i tassi di costo nei profili utente.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza contabilità generale</strong> </td> 
+      <td> Consente agli utenti di visualizzare i campi di contabilità generale (non correlati a fatturazione o tassi di costo) sui profili utente.</td>
+     </tr>
     </tbody> 
    </table>
 

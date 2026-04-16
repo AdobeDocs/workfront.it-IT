@@ -9,7 +9,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 10%
@@ -17,8 +18,6 @@ ht-degree: 10%
 ---
 
 # Panoramica delle funzionalità delle operazioni aziendali
-
-{{highlighted-preview-article-level}}
 
 Le funzionalità avanzate delle operazioni aziendali rappresentano un modo unificato e scalabile per gestire finanze, risorse, progetti e accesso aziendale. Queste funzionalità forniscono la visibilità e il controllo necessari alle aziende per operare in modo redditizio ed efficiente.
 
@@ -36,7 +35,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Le istantanee del progetto in Workfront consentono di visualizzare le differenze tra le istantanee (scattate in una data e in un&#39;ora specifiche) e i dati correnti del progetto in modo rapido e preciso, consentendo di gestire i progetti in modo più efficace e di prendere decisioni migliori. I confronti tra istantanee mostrano l&#39;evoluzione del progetto.
 
-Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del progetto](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)
+Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del progetto](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
 ## Autorizzazioni Enterprise
 
@@ -57,11 +56,10 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Puoi aggiungere traduzioni personalizzate in Adobe Workfront per le etichette inserite dagli utenti, consentendo ai team di adattare la lingua alla terminologia e alle esigenze locali. In questo modo è possibile creare esperienze più coerenti, accessibili e allineate a livello globale all’interno del sistema.
 
-Per ulteriori informazioni, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+Per ulteriori informazioni, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 ## Azioni aziendali
 
 È ora possibile configurare le regole business per automatizzare le azioni per l&#39;oggetto creato, modificato o modificato quando vengono soddisfatte determinate condizioni. Le azioni disponibili includono la condivisione dell&#39;oggetto o l&#39;associazione di un modulo personalizzato all&#39;oggetto.
 
-Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-
+Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).

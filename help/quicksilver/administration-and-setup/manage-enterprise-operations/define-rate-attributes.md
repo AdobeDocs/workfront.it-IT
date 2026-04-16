@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Definire gli attributi dei tassi
-
-{{highlighted-preview-article-level}}
 
 Gli attributi della tariffa estendono la funzionalità delle schede e delle tariffe di Adobe Workfront consentendoti di aggiungere ulteriori dimensioni alle tariffe oltre il ruolo lavorativo. Ciò è fondamentale per le agenzie e le aziende in cui le tariffe variano non solo in base al ruolo, ma anche in base a fattori quali agenzia, ubicazione, marchio, centro di costo o altri.
 Combinando questi attributi, Workfront può selezionare automaticamente la tariffa corretta per le assegnazioni, garantendo l&#39;accuratezza e la coerenza finanziaria tra i progetti.

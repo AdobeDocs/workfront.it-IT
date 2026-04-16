@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 10%
@@ -26,8 +26,6 @@ ht-degree: 10%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 In qualità di amministratore di Adobe Workfront o di un gruppo, puoi creare e modificare modelli di layout per personalizzare i seguenti elementi di layout in Workfront per i tuoi utenti:
 
 * Menu principale
@@ -36,8 +34,8 @@ In qualità di amministratore di Adobe Workfront o di un gruppo, puoi creare e m
 * Pannello di Riepilogo
 * Visualizzazioni, filtri e raggruppamenti utilizzati dagli utenti con elenchi e rapporti.
 * Terminologia su schermo
-* <span class="preview">Intestazioni oggetto</span>
-* <span class="preview">Menu Altro (menu a tre punti) per un oggetto</span>
+* Intestazioni oggetto
+* Menu Altro (menu a tre punti) per un oggetto
 
 Dopo aver creato o modificato un modello di layout, è possibile assegnarlo a singoli utenti, team, gruppi o mansioni.
 

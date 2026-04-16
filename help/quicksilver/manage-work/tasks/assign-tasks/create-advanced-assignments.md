@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 1%
@@ -17,8 +17,6 @@ ht-degree: 1%
 ---
 
 # Creare assegnazioni avanzate
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * Regola e ridistribuisci il numero di ore assegnate a ciascun assegnatario.
 * Determina quale utente deve essere designato come proprietario o assegnatario principale dell’attività o del problema.
 * Specifica il ruolo che ogni utente svolge quando lavora sull&#39;attività o sul problema.
-* <span class="preview">Aggiungere informazioni sulla fatturazione e sulla tariffa a livello di assegnazione.</span>
-* <span class="preview">Rivedere i dettagli seguenti per ogni assegnazione: ore pianificate, costo totale e ricavi totali.</span>
+* Aggiungere informazioni sulla fatturazione e sulla tariffa a livello di assegnazione.
+* Rivedere i dettagli seguenti per ogni assegnazione: ore pianificate, costo totale e ricavi totali.
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<div class="preview">
-
 ## Creazione di assegnazioni avanzate - Pacchetto Workflow Ultimate
 
 Questo layout di Assegnazioni avanzate si applica solo alle attività. Per i problemi, vedi [Crea assegnazioni avanzate - tutti gli altri pacchetti](#create-advanced-assignments--all-other-packages).
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. Vai al progetto a cui desideri assegnare un&#39;attività.
 1. Fai clic su **Attività** o **Problemi** nel pannello a sinistra, quindi sul nome di un&#39;attività nell&#39;elenco.
@@ -313,8 +317,6 @@ Si noti che non si tratta di un elenco completo e che il campo modificato non vi
    ![Finestra Visualizza per date](assets/resource-changes-view-by-dates.png)
 
    Dopo aver esaminato i dati, fare clic sulla freccia in alto a sinistra per tornare alla finestra Assegnazioni avanzate.
-
-</div>
 
 ## Crea assegnazioni avanzate - tutti gli altri pacchetti
 

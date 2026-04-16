@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 0%
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -57,7 +57,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 >
 >Per ulteriori informazioni, vedere [Come più tipi di oggetto possono influire sulle autorizzazioni di interruzione di sezione](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
-
 {{step-1-to-setup}}
 
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
@@ -66,11 +65,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Selezionare il modulo personalizzato a cui si desidera aggiungere altri tipi di oggetto, quindi fare clic su ![Icona Modifica](assets/edit-icon2.png).
 
-1. Nella parte superiore del modulo fare clic sul segno più + dopo **Tipi di oggetto**, quindi selezionare il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
+1. Nella parte superiore del modulo fare clic su **Tipi di oggetto**, quindi selezionare il tipo che si desidera aggiungere nel menu visualizzato. Puoi ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
 
-   ![Aggiungi nuovo oggetto](assets/add-new-object.png)
+   ![Aggiungi nuovo oggetto](assets/add-new-object-to-custom-form-041026.png)
 
-1. Fare clic su **Salva e chiudi**.
+1. Fai clic su **Salva e chiudi**.
 
    >[!TIP]
    >
@@ -92,9 +91,5 @@ Per eliminare un tipo di oggetto:
 
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 1. Seleziona il modulo personalizzato da modificare, quindi fai clic sull&#39;![icona Modifica](assets/edit-icon2.png).
-1. Fare clic sulla X su uno qualsiasi dei **Tipi di oggetto** che si desidera eliminare dal modulo.
-
-   ![Elimina tipi di oggetto](assets/delete-object-types.png)
-
-1. (Facoltativo) Ripetere il passaggio precedente per qualsiasi altro tipo di oggetto che si desidera rimuovere dal modulo.
+1. Nella parte superiore del modulo fare clic su **Tipi di oggetto**, quindi deselezionare le caselle di controllo relative agli oggetti che si desidera eliminare dal modulo.
 1. Fai clic su **Applica**, quindi su **Salva e chiudi**.

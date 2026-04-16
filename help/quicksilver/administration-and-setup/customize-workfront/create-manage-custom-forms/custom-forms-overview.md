@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 20%
+source-wordcount: '390'
+ht-degree: 22%
 
 ---
 
 # Panoramica dei moduli personalizzati
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ Il progettista di moduli dispone di un&#39;area di lavoro in stile area di lavor
 
 Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Immagine di esempio nell’ambiente di anteprima:
-
 ![Progettazione moduli di esempio](assets/form-designer-example-032526.png)
-
-</div>
-
-Immagine di esempio nell’ambiente di produzione:
-
-![Progettazione moduli di esempio](assets/form-designer-example.png)
 
 ## Campi e widget personalizzati
 
@@ -61,6 +49,7 @@ In Workfront è possibile aggiungere i seguenti tipi di campi personalizzati a u
 * Ricerca esterna
 * Riferimento di campo nativo
 * Automatico
+* Connessione al campo Planning
 * Calcolato
 * Data
 * Gruppo di caselle di controllo
@@ -92,8 +81,11 @@ Gli utenti possono allegare moduli personalizzati ai seguenti tipi di oggetti:
 * Portfolio
 * Spesa
 * Gruppo
+* Mansione
+* Team
 * Iterazione
 * Record della fatturazione
+* Scheda tariffa
 
 Per ulteriori informazioni sull&#39;associazione di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

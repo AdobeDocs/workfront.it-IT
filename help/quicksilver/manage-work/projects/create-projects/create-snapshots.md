@@ -5,9 +5,8 @@ title: Creare e visualizzare le istantanee del progetto
 description: Le istantanee in Adobe Workfront consentono di visualizzare le differenze tra le istantanee (acquisite in una data e in un’ora specifiche) e i dati correnti del progetto.
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 2%
@@ -15,8 +14,6 @@ ht-degree: 2%
 ---
 
 # Creare e visualizzare le istantanee del progetto
-
-{{highlighted-preview-article-level}}
 
 I project manager spesso devono confrontare i dati passati di un progetto con lo stato corrente per prendere decisioni informate e vedere come sono cambiati i loro progetti nel tempo.
 
@@ -212,4 +209,3 @@ Per applicare o creare una vista:
 1. (Facoltativo) Filtra l’elenco. Per ulteriori informazioni, vedere [Filtrare gli elementi in un elenco](#filter-items-in-a-list).
 
 Le modifiche alle viste vengono salvate automaticamente. Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate. Per ulteriori informazioni sulle visualizzazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

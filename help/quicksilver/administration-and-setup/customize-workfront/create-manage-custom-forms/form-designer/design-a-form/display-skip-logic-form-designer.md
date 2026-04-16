@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3544'
 ht-degree: 2%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
-
-{{highlighted-preview}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -60,7 +58,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 I moduli personalizzati visualizzano icone per indicare quando viene applicata la logica ai campi.
 
-<span class="preview">Fare clic su **Mostra logica** nell&#39;intestazione di Progettazione moduli per visualizzare o nascondere le icone per i diversi tipi di logica dei campi.</span>
+Fare clic su **Mostra logica** nell&#39;intestazione di Progettazione moduli per visualizzare o nascondere le icone per i diversi tipi di logica dei campi.
 
 | Icona | Definizione |
 | --- | --- |
@@ -70,14 +68,14 @@ I moduli personalizzati visualizzano icone per indicare quando viene applicata l
 | ![Icona Ignora logica per il campo di riferimento](assets/skip-logic-bottom-left.png) | Il campo è il campo di riferimento per la logica di salto. Se nel campo di destinazione viene effettuata una selezione specifica, il modulo passa a tale campo e i campi intermedi sono nascosti. |
 | ![Logica di convalida per il campo di destinazione](assets/validation-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica di convalida. Una selezione o un valore specifico nel campo di riferimento determina se la convalida non riesce. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di convalida. |
 | ![Logica di convalida per il campo di riferimento](assets/validation-logic-reference-field.png) | Il campo è il campo di riferimento per la logica di convalida. Una selezione o un valore specifico in questo campo determina se la convalida non riesce nel campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di convalida. |
-| ![Logica del valore predefinito per il campo di destinazione](assets/default-value-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica del valore predefinito. Il valore predefinito viene determinato da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica del valore predefinito.</span> |
-| ![Logica del valore predefinito per il campo di riferimento](assets/default-value-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica del valore predefinito. Una selezione o un valore specifico in questo campo determina il valore predefinito nel campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica del valore predefinito.</span> |
-| ![Logica di formattazione per il campo di destinazione](assets/formatting-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica di formattazione. La formattazione viene determinata da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione.</span> |
-| ![Logica di formattazione per il campo di riferimento](assets/formatting-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica di formattazione. Una selezione o un valore specifico in questo campo determina la formattazione del campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione.</span> |
-| ![Logica di modificabilità per il campo di destinazione](assets/editability-logic-icon.png) | <span class="preview">Il campo è il campo di destinazione in cui viene applicata la logica di modificabilità. Il campo può essere modificabile o di sola lettura quando vengono soddisfatte le condizioni definite. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità.</span> |
-| ![Logica di modificabilità per il campo di riferimento](assets/editability-logic-reference-field.png) | <span class="preview">Il campo è il campo di riferimento per la logica di modificabilità. Quando le condizioni definite vengono soddisfatte in questo campo, la logica viene applicata al campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità.</span> |
+| ![Logica del valore predefinito per il campo di destinazione](assets/default-value-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica del valore predefinito. Il valore predefinito viene determinato da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica dei valori predefinita. |
+| ![Logica del valore predefinito per il campo di riferimento](assets/default-value-logic-reference-field.png) | Il campo è il campo di riferimento per la logica del valore predefinito. Una selezione o un valore specifico in questo campo determina il valore predefinito nel campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica dei valori predefinita. |
+| ![Logica di formattazione per il campo di destinazione](assets/formatting-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica di formattazione. La formattazione viene determinata da una selezione o da un valore specifico nel campo di riferimento. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione. |
+| ![Logica di formattazione per il campo di riferimento](assets/formatting-logic-reference-field.png) | Il campo è il campo di riferimento per la logica di formattazione. Una selezione o un valore specifico in questo campo determina la formattazione del campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di formattazione. |
+| ![Logica di modificabilità per il campo di destinazione](assets/editability-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica di modificabilità. Il campo può essere modificabile o di sola lettura quando vengono soddisfatte le condizioni definite. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità. |
+| ![Logica di modificabilità per il campo di riferimento](assets/editability-logic-reference-field.png) | Il campo è il campo di riferimento per la logica di modificabilità. Quando le condizioni definite vengono soddisfatte in questo campo, la logica viene applicata al campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità. |
 
-<!-- ![Logic icons](assets/logic-icons-3.png) -->
+[Icone logiche](assets/custom-form-logic-icon-samples.png)
 
 Solo per visualizzare e saltare la logica, seleziona un campo per visualizzare le regole di logica esistenti nelle impostazioni del campo.
 
@@ -109,7 +107,7 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
 >[!NOTE]
 >
-><span class="preview">Questa procedura descrive la modalità di base per la logica di visualizzazione. È disponibile anche la logica di visualizzazione avanzata. Per ulteriori informazioni, vedere [Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato](#add-advanced-display-logic-to-a-custom-form), in questo articolo.</span>
+>Questa procedura descrive la modalità di base per la logica di visualizzazione. È disponibile anche la logica di visualizzazione avanzata. Per ulteriori informazioni, vedere [Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato](#add-advanced-display-logic-to-a-custom-form), in questo articolo.
 
 {{step-1-to-setup}}
 
@@ -120,7 +118,7 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 1. Selezionare la scheda **Visualizzazione** nel generatore di logica.
 1. Fai clic su **Aggiungi regola di visualizzazione**.
 
-   ![Generatore di logica di visualizzazione](assets/simple-display-logic1-val-only-in-menu.png)
+   ![Generatore di logica di visualizzazione](assets/simple-display-logic1.png)
 
 1. Segui i passaggi seguenti per creare l’istruzione logica nel generatore.
 
@@ -135,9 +133,7 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
 1. Fare clic su **Applica** al termine della creazione dell&#39;istruzione logica.
 
-   Le icone della logica di visualizzazione vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
-
-<div class="preview">
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
 ## Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato
 
@@ -180,7 +176,7 @@ Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo a
 1. Selezionare la scheda **Visualizzazione** nel generatore di logica.
 1. Attiva **Modalità avanzata**.
 
-   Questa opzione può essere attivata automaticamente, per i campi che non supportano la modalità semplice di logica di visualizzazione.
+   Questa opzione può essere attivata automaticamente, per i tipi di campo che non supportano la modalità semplice di logica di visualizzazione.
 
    ![Modalità avanzata per la logica di visualizzazione](assets/advanced-display-logic-blank-editor.png)
 
@@ -190,13 +186,11 @@ Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo a
 
 1. Fai clic su **Applica**.
 
-   La logica viene applicata al campo e l’icona della logica di visualizzazione viene aggiunta nel progettista del modulo.
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
    >[!NOTE]
    >
    >La logica di visualizzazione avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
-
-</div>
 
 ## Aggiungere la logica di salto a un modulo personalizzato
 
@@ -211,7 +205,7 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 1. Seleziona la scheda **Ignora** nel generatore di logica.
 1. Fai clic su **Aggiungi regola di salto**.
 
-   ![Ignora generatore di logica](assets/skip-logic1-val-only-in-menu.png)
+   ![Ignora generatore di logica](assets/skip-logic1.png)
 
 1. Segui i passaggi seguenti per creare l’istruzione logica nel generatore.
 
@@ -226,9 +220,7 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
 1. Fare clic su **Applica** al termine della creazione dell&#39;istruzione logica.
 
-   Le icone di salto della logica vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
-
-<div class="preview">
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
 ## Aggiungere la logica del valore predefinito a un modulo personalizzato
 
@@ -270,13 +262,11 @@ Quando il modulo personalizzato viene allegato a un progetto e lo stato del prog
 
 1. Fai clic su **Applica**.
 
-   La logica viene applicata al campo nel progettista del modulo.
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
    >[!NOTE]
    >
    >La logica dei valori predefiniti non è supportata nella modalità di anteprima di Progettazione moduli.
-
-</div>
 
 ## Aggiungere una logica di convalida a un modulo personalizzato
 
@@ -313,7 +303,7 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 1. Selezionare il campo a cui applicare la logica e fare clic su **Aggiungi logica**.
 1. Selezionare la scheda **Convalida** nel generatore di logica.
 
-   ![Generatore logica di convalida](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![Generatore logica di convalida](assets/validation-logic-blank-editor.png)
 
 1. Crea la condizione di convalida nell’editor, incluso il messaggio di errore da visualizzare quando la convalida non viene soddisfatta.
 
@@ -321,13 +311,11 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 
 1. Fai clic su **Applica**.
 
-   La logica viene applicata al campo nel progettista del modulo.
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
    >[!NOTE]
    >
    >La logica di convalida non è supportata nella modalità di anteprima di Progettazione moduli.
-
-<div class="preview">
 
 ## Aggiungere logica di formattazione a un modulo personalizzato
 
@@ -386,15 +374,11 @@ IF(
 
 1. Fai clic su **Applica**.
 
-   La logica viene applicata al campo nel progettista del modulo.
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
    >[!NOTE]
    >
    >La logica di formattazione non è supportata nella modalità di anteprima di Progettazione moduli.
-
-</div>
-
-<div class="preview">
 
 ## Aggiungere una logica di modificabilità a un modulo personalizzato
 
@@ -440,10 +424,8 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Fai clic su **Applica**.
 
-   La logica viene applicata al campo nel progettista del modulo.
+   La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
    >[!NOTE]
    >
    >La logica di modificabilità non è supportata nella modalità di anteprima di Progettazione moduli.
-
-</div>

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
+source-wordcount: '5076'
 ht-degree: 3%
 
 ---
@@ -268,7 +268,7 @@ Old:
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Finanza**.
 
-   ![Modifica sezione contabilità della casella modello](assets/edit-template-box-finance-section.png)
+   ![Modifica sezione contabilità della casella modello](assets/edit-template-finance-section-040626.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Mantieni informazioni sulle tariffe di fatturazione del progetto</strong></td>
+      <td><p>Quando si abilita questa opzione, tutte le tariffe di fatturazione delle assegnazioni vengono bloccate in modo permanente alla tariffa applicabile più elevata della gerarchia di fatturazione. Questa è una selezione una tantum e non puoi disattivare l’opzione una volta che il progetto ha assegnazioni o ore. Dopo il mantenimento, le tariffe di fatturazione delle assegnazioni non possono essere modificate, modificate o sostituite in alcun punto del progetto.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Utilizza tassi di cambio effettivi in base alla data dal sistema</strong></td>
+      <td><p>Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</p> <p>È inoltre necessario selezionare la <strong>Data tasso di cambio</strong> da cui iniziare, quando l'opzione è selezionata.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Valuta</strong></td> 
       <td><p>Specifica la valuta per il progetto futuro, se è diversa da quella predefinita del sistema. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita.<br>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p></td> 

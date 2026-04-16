@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 5%
@@ -20,8 +20,6 @@ ht-degree: 5%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront, puoi impostare i tassi di cambio in Workfront. Ciò include quanto segue:
 
@@ -93,8 +91,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. (Facoltativo) Per eliminare una valuta, seleziona la casella di controllo accanto al nome della valuta e seleziona **Elimina** nella barra delle azioni nella parte inferiore della schermata. Impossibile eliminare la valuta predefinita.
 
-<div class="preview">
-
 ## Impostare le date di validità sui tassi di cambio di una divisa
 
 Le date di validità dei tassi di cambio di una valuta sono configurate in modo che un valore di tasso termini in una data specifica e inizi un altro tasso. Il tasso di cambio per la data corretta viene quindi utilizzato nei calcoli finanziari.
@@ -116,8 +112,6 @@ Le date di validità dei tassi di cambio di una valuta sono configurate in modo 
 1. Digitare il nuovo valore **Tasso di cambio**.
 1. (Facoltativo) Fare clic su **Aggiungi tasso effettivo data** per aggiungere altri tassi di cambio con date effettive per questa valuta.
 1. Fai clic su **Salva**.
-
-</div>
 
 ## Consenti agli utenti di modificare la valuta predefinita per un progetto
 

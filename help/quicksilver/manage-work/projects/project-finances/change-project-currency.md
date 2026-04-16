@@ -6,7 +6,7 @@ description: In qualità di Project Manager, puoi configurare un progetto in mod
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 7%
@@ -59,7 +59,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 * Se non si specifica una valuta diversa per un progetto, Workfront presuppone che la valuta del progetto sia la valuta predefinita del sistema. Per informazioni sulla valuta predefinita a livello di sistema, vedere [Impostare i tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * Per impostazione predefinita, tutti gli utenti con licenza completa hanno accesso alla visualizzazione delle valute e dei tassi di cambio. L&#39;amministratore di Workfront deve concedere un accesso amministrativo aggiuntivo per **Tassi di cambio** per consentire agli utenti di impostare tassi specifici sui progetti.
 * I tassi di cambio in Workfront non sono dinamici. Il valore viene impostato da un amministratore e deve essere aggiornato quando si verificano modifiche nei tassi di cambio.
-* <span class="preview">Se le date di validità vengono applicate a una valuta e ai relativi tassi di cambio, il tasso di cambio potrebbe cambiare durante la durata del progetto. Per informazioni sui tassi di cambio con data di validità, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).</span>
+* Se le date di validità vengono applicate a una valuta e ai relativi tassi di cambio, il tasso di cambio potrebbe cambiare durante la durata del progetto. Per informazioni sui tassi di cambio con data di validità, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * Quando si crea un report per riflettere la valuta in un progetto, per impostazione predefinita tutti i report sono raggruppati in base alla valuta predefinita del progetto. Se si crea un report con più progetti con tassi di cambio diversi, tutti i raggruppamenti applicati al progetto riflettono il tasso di cambio predefinito a livello di sistema. Per ulteriori informazioni, vedere l&#39;articolo [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configurare la valuta per un progetto
@@ -79,6 +79,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!NOTE]
    >
-   ><span class="preview">Se per questo progetto è attivata l&#39;impostazione **Usa tassi di cambio validi in base alla data dall&#39;impostazione di sistema**, le sostituzioni dei tassi di cambio non sono consentite. Per ulteriori informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).</span>
+   >Se per questo progetto è attivata l&#39;impostazione **Usa tassi di cambio validi per data dal sistema**, le sostituzioni dei tassi di cambio non sono consentite. Per ulteriori informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 1. Fai clic su **Salva modifiche**.

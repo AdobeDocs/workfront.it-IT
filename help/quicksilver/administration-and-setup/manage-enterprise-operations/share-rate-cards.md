@@ -7,7 +7,8 @@ description: Puoi condividere una scheda tariffaria con utenti, mansioni, gruppi
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 13%
@@ -15,8 +16,6 @@ ht-degree: 13%
 ---
 
 # Condividere una scheda tariffaria
-
-{{highlighted-preview-article-level}}
 
 Puoi condividere una scheda tariffaria con utenti, mansioni, gruppi, team, aziende e profili aziendali.
 
@@ -70,4 +69,3 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fai clic su [!UICONTROL **Salva**].
 
    Per ulteriori informazioni sulla condivisione, vedere [Condividere un oggetto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

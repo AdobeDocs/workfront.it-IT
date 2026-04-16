@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '3466'
+source-wordcount: '3417'
 ht-degree: 3%
 
 ---
 
 # Modificare il profilo di un utente
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 3%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -319,15 +317,19 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del tasso di costo per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La tariffa di costo 1 non avrà una data di inizio e l&#39;ultima tariffa di costo non avrà una data di fine.
 
-  Alcune date vengono aggiunte automaticamente. Ad esempio, se il tasso di costo 1 non ha una data di fine e si aggiunge il tasso di costo 2 con una data di inizio del 1° maggio 2023, al tasso di costo 1 verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**Sovrascrittura tasso di costo consentita**: attivare questa opzione per consentire le sostituzioni tasso di costo per questo utente nei progetti. Per ulteriori informazioni, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+  Workfront ti consente di lasciare degli spazi tra gli intervalli di date, ma riceverai un avviso per confermare che è intenzionale.
+
+* **Sovrascrittura tasso di costo consentita**: attivare questa opzione per consentire le sostituzioni tasso di costo per questo utente nei progetti. Per ulteriori informazioni, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Tariffa di fatturazione**: la quantità di fatturazione all&#39;ora per l&#39;utente.
 
   Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della tariffa di fatturazione per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La tariffa di fatturazione 1 non avrà una data di inizio e l&#39;ultima tariffa di fatturazione non avrà una data di fine.
 
-  Alcune date vengono aggiunte automaticamente. Ad esempio, se la Tariffa di fatturazione 1 non ha una data di fine e aggiungi un secondo con una data di inizio del 1° maggio 2023, alla Tariffa di fatturazione 1 viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  Workfront ti consente di lasciare degli spazi tra gli intervalli di date, ma riceverai un avviso per confermare che è intenzionale.
 
   ![Costo utente e tariffe di fatturazione](assets/user-cost-billing-rates-2025.png)
 
@@ -340,8 +342,6 @@ Associa a questo utente un modulo personalizzato esistente. È necessario creare
 >Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterni e i campi nativi di Workfront, sono disponibili solo quando si apre il record utente nella pagina dei dettagli e non nella finestra di dialogo Modifica utente. Dall’elenco degli utenti, fai clic sul nome utente per aprire i dettagli.
 
 Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-<div class="preview">
 
 ### Attributi
 
@@ -360,8 +360,6 @@ Gli attributi delle tariffe sono supportati nelle aree di Workfront in cui le ta
       La **Data inizio** per il set successivo viene aggiunta automaticamente.
 
    1. Aggiungere i valori degli attributi per il successivo set di attributi. Questi valori hanno effetto dalla data di inizio.
-
-</div>
 
 ### Commento
 

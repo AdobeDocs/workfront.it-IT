@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 1%
+source-wordcount: '1219'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +21,11 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >Con la versione 25.11, la valuta di sostituzione per le mansioni è stata rimossa in Produzione. (La rimozione è avvenuta il 30 ottobre nell’ambiente di anteprima). Invece di avere una valuta di base e di sostituire le valute, ora è disponibile una valuta per le mansioni e i costi e le tariffe di fatturazione sono definiti utilizzando tale valuta.
 
-In qualità di amministratore [!DNL Adobe Workfront] o di utente con accesso amministrativo ai Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione. Per informazioni sull&#39;accesso amministrativo in [!DNL Workfront], vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+In qualità di amministratore [!DNL Adobe Workfront] o di utente Standard con accesso in modifica alle mansioni, puoi creare mansioni che possono essere assegnate agli utenti ed eliminare mansioni predefinite non rilevanti per la tua organizzazione. Per informazioni sull&#39;accesso amministrativo in [!DNL Workfront], vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -69,7 +67,7 @@ Per creare una mansione:
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Ruoli]**.
-1. Fai clic su **[!UICONTROL Nuova mansione] <span class="preview">> Crea nuova mansione**.</span>
+1. Fai clic su **[!UICONTROL Nuovo ruolo] > Crea nuovo ruolo**.
 1. Immettere le informazioni nei campi riportati di seguito.
 
    * **Nome**: indicare un nome per la mansione. Questo è il nome visualizzato ovunque in Workfront, dove viene visualizzato il campo Ruolo.
@@ -83,45 +81,7 @@ Per creare una mansione:
 
      Per informazioni sulla disattivazione dei ruoli, vedere [Disattivare i ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Valuta**: per impostazione predefinita viene visualizzata la valuta di base. L&#39;amministratore di Workfront aggiunge la valuta di base nell&#39;area Configura. È possibile modificare la selezione in un&#39;altra valuta disponibile e modificare la valuta in intervalli di tempo con data di validità.
-
-     >[!TIP]
-     >
-     >In questo campo sono disponibili solo le valute disponibili nell&#39;area Tassi di cambio del sistema. Se è impostata una sola valuta, sarà disponibile solo quella.
-
-     Per informazioni sull&#39;impostazione della valuta di base in Workfront, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Per informazioni sulla modifica della valuta di un progetto, vedere [Modificare la valuta del progetto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Tariffa di costo**: tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Inserire il tasso utilizzando la valuta selezionata.
-
-     Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del costo/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa non avrà una data di inizio e l&#39;ultima tariffa non avrà una data di fine.
-
-     Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2025, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2025, in modo che non esistano spazi vuoti.
-
-     Per informazioni su come Workfront calcola i costi, vedere [Tracciare i costi](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Quando modifichi una mansione esistente, puoi ordinare l’elenco in modo da visualizzare la data di inizio più recente nella parte superiore dell’elenco dei tassi.
-
-   * **Tariffa di fatturazione**: tariffa oraria di fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Inserire il tasso utilizzando la valuta selezionata.
-
-     Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della fatturazione/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.
-
-     Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e aggiungi una seconda con una data di inizio del 1° maggio 2025, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2025 in modo che non esistano spazi vuoti.
-
-     Per informazioni su come Workfront calcola i ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >Quando modifichi una mansione esistente, puoi ordinare l’elenco in modo da visualizzare la data di inizio più recente nella parte superiore dell’elenco dei tassi.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Fai clic su **[!UICONTROL Crea ruolo]**. Il ruolo è ora disponibile per essere assegnato ad attività, problemi, approvazioni oppure puoi condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedere [Panoramica sulle mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di una mansione, vedere [Elimina mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Aggiungere tariffe e attributi a una mansione
 
@@ -176,7 +136,9 @@ Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quic
 
    Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della fatturazione/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.
 
-   Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e aggiungi un secondo con una data di inizio del 1° maggio, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile in modo che non esistano spazi.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront ti consente di lasciare degli spazi tra gli intervalli di date, ma riceverai un avviso per confermare che è intenzionale.
 
    Per informazioni su come Workfront calcola i ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -202,8 +164,6 @@ Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quic
 
 1. Fai clic su [!UICONTROL **Salva**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quic
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

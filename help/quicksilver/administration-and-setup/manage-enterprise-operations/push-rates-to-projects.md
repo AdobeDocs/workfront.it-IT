@@ -7,7 +7,8 @@ description: Una scheda tariffa rappresenta l’accordo contrattuale con il clie
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 10%
@@ -15,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Modifiche della velocità push nei progetti
-
-{{highlighted-preview-article-level}}
 
 Quando una scheda tariffe è allegata a un progetto <!--or a staffing plan-->, è comunque possibile regolare le tariffe sulla scheda tariffe. Quindi, puoi facoltativamente inviare tali tariffe ai progetti <!--and staffing plans --> a cui è allegata la scheda delle tariffe. Se non esegui il push delle nuove tariffe, le tariffe originali rimangono sul progetto<!-- or staffing plan-->.
 

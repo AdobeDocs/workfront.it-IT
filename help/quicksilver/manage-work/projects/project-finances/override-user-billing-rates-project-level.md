@@ -6,7 +6,8 @@ title: Sostituisci tariffe di fatturazione utente a livello di progetto
 description: Questo articolo descrive come sovrascrivere le tariffe di fatturazione degli utenti del sistema per un progetto.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 4%
@@ -14,8 +15,6 @@ ht-degree: 4%
 ---
 
 # Sostituire le tariffe di fatturazione degli utenti a livello di progetto
-
-{{highlighted-preview-article-level}}
 
 In qualità di project manager, puoi specificare la tariffa di fatturazione di un utente in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questo utente. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione dell’utente a livello di progetto, anziché la tariffa di fatturazione a livello di sistema.
 

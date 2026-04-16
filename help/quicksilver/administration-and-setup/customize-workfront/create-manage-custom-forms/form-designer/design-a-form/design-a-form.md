@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 94%
 
 ---
@@ -63,17 +63,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fai clic su **Nuovo modulo personalizzato.**
 1. Seleziona i tipi di oggetto a cui desideri allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
-<div class="preview">
-
-Immagine di esempio nell’ambiente di anteprima:
-
-![Scegliere i tipi di oggetto](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Immagine di esempio nell’ambiente di produzione:
-
-![Scegliere i tipi di oggetto](assets/new-custom-form-select-objects.png)
+   ![Scegliere i tipi di oggetto](assets/new-custom-form-select-objects-032526.png)
 
 +++ Espandere per visualizzare l&#39;elenco degli oggetti che supportano i moduli personalizzati.
 
@@ -89,9 +79,7 @@ Immagine di esempio nell’ambiente di produzione:
 * Iterazione
 * Record della fatturazione
 * Gruppo
-* <span class="preview">Team</span>
-
-<div class="preview">
+* Team
 
 Se ti trovi nel pacchetto Workflow Ultimate, puoi anche creare moduli personalizzati per questi oggetti:
 
@@ -99,15 +87,10 @@ Se ti trovi nel pacchetto Workflow Ultimate, puoi anche creare moduli personaliz
 * Scheda tariffa
 * Assegnazione
 
-</div>
-
 +++
 
 1. Nell’area **Aggiungi nome modulo** digita il titolo del modulo personalizzato.
-1. <span class="preview">(Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere associato a più oggetti, fare clic su **Tipi di oggetto** nell&#39;intestazione del progettista del modulo. Selezionare i tipi di oggetto che si desidera aggiungere e deselezionare tutti i tipi di oggetto che si desidera eliminare dal modulo.</span>
-1. (Facoltativo) Se desideri aggiungere altri tipi di oggetto al modulo in modo che possa essere associato più oggetti, fai clic sull’icona **Aggiungi** ![icona Aggiungi oggetti](assets/add-objects-icon.png) accanto a **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu che viene visualizzato. Puoi ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
-
-   Dopo aver aggiunto più oggetti al modulo, puoi fare clic sulla X su un tipo di oggetto per eliminarlo dal modulo.
+1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic su **Tipi di oggetto** nell&#39;intestazione del progettista del modulo. Selezionare i tipi di oggetto che si desidera aggiungere e deselezionare qualsiasi tipo di oggetto che si desidera eliminare dal modulo.
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ Per aggiungere un campo di testo:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <td>Tipo di autorizzazione finanziaria</td>
+      <td><p>Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</p>
       <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
@@ -457,8 +440,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <td>Tipo di autorizzazione finanziaria</td>
+      <td><p>Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</p>
       <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
@@ -721,8 +704,8 @@ Per aggiungere una ricerca esterna:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</span></p>
+      <td>Tipo di autorizzazione finanziaria</td>
+      <td><p>Selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare questo campo personalizzato. Selezionare il formato Valuta.</p>
       <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
@@ -753,12 +736,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: “USA”},
          { name: “Canada”}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

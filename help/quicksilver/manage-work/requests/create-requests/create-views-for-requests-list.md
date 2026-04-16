@@ -8,23 +8,25 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 10%
 
 ---
 
 
 # Creare e gestire le viste nell’area Richieste
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Se utilizzi la nuova esperienza di richiesta in Adobe Workfront, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri, disposizione delle colonne <span class="preview"> e raggruppamenti.</span>
+-->
 
+Se utilizzi la nuova esperienza di richiesta in Adobe Workfront, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri, disposizione delle colonne e raggruppamenti.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-<div class="preview">
-
 ## Visualizzazioni di sistema per le richieste
-
->[!NOTE]
->
->Le visualizzazioni di sistema potrebbero non essere disponibili nell&#39;ambiente di anteprima. Saranno disponibili in Produzione per tutti i clienti il 16 aprile 2026.
 
 Oltre alle viste che è possibile creare autonomamente, Workfront offre le seguenti viste di sistema per l&#39;area Richieste e il widget Richieste personali nella Home:
 
@@ -88,8 +84,6 @@ Oltre alle viste che è possibile creare autonomamente, Workfront offre le segue
 * **Richieste aperte**: richieste inviate da te o da altri utenti in code o per aree di lavoro per le quali disponi delle autorizzazioni di visualizzazione e ancora aperte. Questo non è disponibile per il widget Richieste personali.
 
 Non è possibile modificare le viste di sistema. Puoi modificarne gli elementi, quindi copiare la vista e modificare o condividere la copia.
-
-</div>
 
 ## Creare una visualizzazione per le richieste
 
@@ -128,14 +122,9 @@ Modificando una vista, è possibile modificare i seguenti elementi della vista:
 * Nome
 * Filtri
 * Colonne
-
-<div class="preview">
-
 * Raggruppamento
 * Formatta celle
 * Altezza riga
-
-</div>
 
 Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * Le modifiche alle viste vengono salvate automaticamente.
-> * Le modifiche apportate alle visualizzazioni sono visibili a tutti gli utenti che utilizzano la visualizzazione <span class="preview">solo quando si condivide una nuova copia della visualizzazione dopo aver apportato modifiche.</span>
+> * Le modifiche apportate alle viste sono visibili a tutti gli utenti che utilizzano la vista solo quando si condivide una nuova copia della vista dopo averla modificata.
 > * Utilizza il carattere jolly del filtro **Me (utente connesso)** in qualsiasi campo il cui valore è utenti.
 
 ## Aggiungere la vista richieste a un modello di layout
@@ -206,9 +195,9 @@ Puoi condividere le viste create con altri utenti, team, gruppi o aziende.
 
 Dopo aver condiviso una vista, gli altri utenti possono visualizzare gli elementi di vista aggiornati modificati per la vista prima di condividerla.
 
-<span class="preview">Se aggiorna la visualizzazione, le modifiche apportate non saranno visibili agli altri utenti, a meno che non creino una copia della stessa visualizzazione e non mantengano le modifiche prima di condividere la copia.
+Se la vista viene aggiornata, le modifiche apportate non saranno visibili agli altri utenti, a meno che non creino una copia della stessa vista e non mantengano le modifiche prima di condividere la copia.
 
-Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

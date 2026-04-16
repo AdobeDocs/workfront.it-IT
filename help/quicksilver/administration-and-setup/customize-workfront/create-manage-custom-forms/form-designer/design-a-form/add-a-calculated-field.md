@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 9%
@@ -18,8 +18,6 @@ ht-degree: 9%
 # Aggiungere campi calcolati a un modulo
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 È possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
 
@@ -172,26 +170,26 @@ Per riutilizzare un campo personalizzato calcolato esistente:
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Autorizzazione automatica</span></td>
-      <td><span class="preview"><p>Attivare questa opzione per consentire alle autorizzazioni per la contabilità di provenire automaticamente dai campi utilizzati nella formula. Le definizioni di autorizzazione sono visualizzate nel campo Tipo di autorizzazione per la contabilità, di seguito.</p><p>L'accesso è obbligatorio per tutti i campi della formula. Ad esempio, se due campi vengono utilizzati in un campo calcolato e a uno di essi è applicata l’autorizzazione di fatturazione e al secondo è applicata l’autorizzazione di costo, l’utente deve disporre delle autorizzazioni per visualizzare sia la fatturazione che le tariffe per visualizzare il valore calcolato.</p></span></td>
+      <td>Autorizzazione automatica</td>
+      <td><p>Attivare questa opzione per consentire alle autorizzazioni per la contabilità di provenire automaticamente dai campi utilizzati nella formula. Le definizioni di autorizzazione sono visualizzate nel campo Tipo di autorizzazione per la contabilità, di seguito.</p><p>L'accesso è obbligatorio per tutti i campi della formula. Ad esempio, se due campi vengono utilizzati in un campo calcolato e a uno di essi è applicata l’autorizzazione di fatturazione e al secondo è applicata l’autorizzazione di costo, l’utente deve disporre delle autorizzazioni per visualizzare sia la fatturazione che le tariffe per visualizzare il valore calcolato.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Tipo di autorizzazione finanziaria</span></td>
-      <td><p><span class="preview">Quando il campo Autorizzazione automatica è disattivato, è possibile selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare il campo personalizzato. Qualsiasi formato è consentito per i campi calcolati. I campi utilizzati nella formula determinano se il campo è attivo. Se il campo delle autorizzazioni è vuoto, i campi della formula non supportano le autorizzazioni per la contabilità.</span></p>
-      <ul span class="preview">
+      <td>Tipo di autorizzazione finanziaria</td>
+      <td><p>Quando il campo Autorizzazione automatica è disattivato, è possibile selezionare il tipo di autorizzazione per la contabilità che gli utenti devono avere prima di poter visualizzare o modificare il campo personalizzato. Qualsiasi formato è consentito per i campi calcolati. I campi utilizzati nella formula determinano se il campo è attivo. Se il campo delle autorizzazioni è vuoto, i campi della formula non supportano le autorizzazioni per la contabilità.</p>
+      <ul>
       <li><p><strong>Nessuna autorizzazione richiesta:</strong> Tutti gli utenti possono visualizzare questo campo</p></li>
       <li><p><strong>Generale:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale</p></li>
       <li><p><strong>Fatturazione:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione</p></li>
       <li><p><strong>Costo:</strong> gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe</p></li>
       </ul>
-      <p><span class="preview">Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</span></p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limitare l'accesso ai dati finanziari nei campi personalizzati</a>.</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. Nella casella **Calcolo**, inizia a generare il calcolo:
-   1. Fai clic su **Ingrandisci** per aprire l&#39;editor di calcolo e generare il calcolo.</p>
+   1. Fai clic su **Ingrandisci** per aprire l&#39;editor di calcolo e generare il calcolo.
 Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto.
 
       Ogni campo deve essere racchiuso tra parentesi graffe. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.

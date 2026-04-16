@@ -6,7 +6,8 @@ title: Definire una proporzione di lavoro straordinario
 description: È possibile definire un rapporto di lavoro straordinario per un task per adeguare il calcolo della Retribuzione pianificata per le assegnazioni del task.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 11%
@@ -14,8 +15,6 @@ ht-degree: 11%
 ---
 
 # Definire una proporzione di lavoro straordinario
-
-{{highlighted-preview-article-level}}
 
 Quando si aggiunge una proporzione di lavoro straordinario a un&#39;attività, questa viene applicata a tutte le assegnazioni dell&#39;attività. Moltiplica tutte le ore pianificate per tale attività e influisce sui calcoli delle retribuzioni pianificate.
 
@@ -87,4 +86,3 @@ Il campo **Rapporto lavoro straordinario** deve essere abilitato nel modello di 
 1. Fai clic su **Dettagli attività** nel pannello a sinistra.
 1. Nell&#39;area **Finanza** immettere il moltiplicatore del lavoro straordinario nel campo **Rapporto lavoro straordinario**.
 1. Fai clic su **Salva modifiche**.
-

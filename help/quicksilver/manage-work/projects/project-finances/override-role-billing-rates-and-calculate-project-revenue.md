@@ -6,7 +6,7 @@ description: È possibile utilizzare le tariffe di fatturazione per calcolare i 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4653'
 ht-degree: 1%
@@ -15,16 +15,12 @@ ht-degree: 1%
 
 # Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto
 
-{{highlighted-preview}}
-
 È possibile utilizzare le tariffe di fatturazione per calcolare i ricavi sui progetti moltiplicandoli per le ore dedicate al progetto. Per ulteriori informazioni sulle tariffe di fatturazione e sui ricavi, vedere l&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Panoramica delle tariffe di fatturazione e dei tipi di retribuzione dei task
 
 In qualità di amministratore di Adobe Workfront, puoi associare le tariffe di fatturazione sia agli utenti che alle mansioni.\
 Per ulteriori informazioni sulla creazione di utenti e sull&#39;associazione di tali utenti alle tariffe di fatturazione, vedere l&#39;articolo [Aggiungere utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Per ulteriori informazioni sulla creazione di ruoli e sull&#39;associazione di tali ruoli alle tariffe di fatturazione, vedere l&#39;articolo [Creare e gestire ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-
-<div class="preview">
 
 ### Panoramica - Pacchetto Workflow Ultimate
 
@@ -50,8 +46,6 @@ Per calcolare le entrate per i progetti in base alle tariffe di fatturazione deg
 
 Per ulteriori informazioni su **Tipo di retribuzione** e tariffe di fatturazione, vedere [Panoramica su fatturazione e retribuzioni](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-</div>
-
 ### Panoramica - tutti gli altri pacchetti Workfront e Workflow
 
 Le tariffe di fatturazione associate agli utenti non possono essere sostituite.
@@ -65,8 +59,6 @@ Per calcolare le entrate per i progetti in base alle tariffe di fatturazione del
 * Ore ruolo più fisso
 
 Per ulteriori informazioni su **Tipo di retribuzione** e tariffe di fatturazione, vedere [Panoramica su fatturazione e retribuzioni](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-<div class="preview">
 
 ## La gerarchia delle sostituzioni delle tariffe di fatturazione durante il calcolo dei ricavi - Pacchetto Workflow Ultimate
 
@@ -87,8 +79,6 @@ A una mansione può essere associata una tariffa di fatturazione nei seguenti mo
   I tassi di ruolo modificati nel progetto avranno effetto solo su tale progetto.
 
   Per informazioni sulla sostituzione delle tariffe dei ruoli per il progetto, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello di progetto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
-</div>
 
 ## La gerarchia delle sostituzioni delle tariffe di fatturazione durante il calcolo dei ricavi - tutti gli altri pacchetti Workfront e Workflow
 
@@ -123,19 +113,17 @@ A una mansione può essere associata una tariffa di fatturazione nei seguenti mo
 
 In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 
-<span class="preview">È inoltre possibile allegare al progetto una scheda delle tariffe, che importerà le tariffe di fatturazione della mansione dalla scheda delle tariffe nel progetto.</span>
+Puoi anche allegare al progetto una scheda delle tariffe, che importerà nel progetto le tariffe di fatturazione della mansione dalla scheda delle tariffe.
 
 Per informazioni su come sostituire le tariffe di fatturazione dei ruoli a livello di progetto, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello di progetto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi sul progetto, vedere la sezione [Calcoli ricavi per le attività basati sulle assegnazioni di utenti e ruoli](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<span class="preview">Per informazioni su come allegare una scheda tariffe a un progetto, vedere [Allegare una scheda tariffe a un progetto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Per informazioni su come allegare una scheda tariffe a un progetto, vedere [Allegare una scheda tariffe a un progetto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 >[!NOTE]
 >
 >Nel caso del reddito effettivo, le tariffe di fatturazione applicate alle ore aggiunte a una fatturazione contrassegnata come Fatturata, non devono essere influenzate dalle sostituzioni delle tariffe di fatturazione che si verificano dopo la fatturazione della fatturazione.
-
-<div class="preview">
 
 ## Panoramica della sezione Tariffe di fatturazione di un pacchetto Project - Workflow Ultimate
 
@@ -158,8 +146,6 @@ Se si dispone di più tariffe di fatturazione sostitutive per una mansione speci
 >Quando la **Data inizio** o la **Data fine** è vuota per un tasso valido per la data, Workfront presuppone che il primo tasso di sostituzione sia applicato per tutte le ore con una data precedente alla **Data fine** della prima sostituzione e che l&#39;ultimo tasso di sostituzione sia applicato per tutte le ore con una data successiva alla **Data inizio** dell&#39;ultima sostituzione.
 >Se viene registrata un’ora prima della data di inizio pianificata del progetto, viene utilizzata la prima tariffa di fatturazione.\
 >Se viene registrata un’ora dopo la data di completamento pianificata del progetto, viene utilizzata l’ultima tariffa di fatturazione.
-
-</div>
 
 ## Panoramica della sezione Tariffe di fatturazione di un progetto - Tutti gli altri pacchetti Workfront e Workflow
 
@@ -217,9 +203,9 @@ Se si dispone di più tariffe di fatturazione sostitutive per una mansione speci
 
 Quando calcoli la Retribuzione pianificata in base a una sostituzione della tariffa di fatturazione una tantum, considera quanto segue:
 
-* Quando il tipo di retribuzione **1&rbrace; di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
 
-* <span class="preview">Quando il tipo di retribuzione **&#x200B;**&#x200B;di un&#39;attività è **Ore utente e mansione**, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore utente e mansione **, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività.** Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Quando la tariffa di fatturazione della mansione è stata sostituita a livello di progetto, Workfront utilizza la tariffa di sostituzione del progetto per calcolare la Retribuzione pianificata.
 * Quando un&#39;attività ha più assegnazioni, la Retribuzione pianificata viene calcolata moltiplicando la tariffa di fatturazione della mansione di ciascuna assegnazione e la rispettiva allocazione delle Ore pianificate.
@@ -234,11 +220,9 @@ Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi pian
 
 Quando calcoli la Retribuzione pianificata in base a più sostituzioni delle tariffe di fatturazione, considera quanto segue:
 
-* Quando il tipo di retribuzione **1&rbrace; di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
 
   Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi pianificati, vedere la sezione &quot;Informazioni sui calcoli dei ricavi per le attività basate sulle assegnazioni di utenti e ruoli&quot; nell&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-<div class="preview">
 
 * Se il tipo di retribuzione **Tipo di retribuzione** di un&#39;attività è **Ore utente e mansione** e un utente non è assegnato, Workfront moltiplica le Ore pianificate di un&#39;attività per una di queste per calcolare la Retribuzione pianificata per l&#39;attività:
 
@@ -246,8 +230,6 @@ Quando calcoli la Retribuzione pianificata in base a più sostituzioni delle tar
    * Il tasso di ruolo del progetto, che può provenire da una scheda dei tassi o dal livello di sistema.
 
   Per ulteriori informazioni sulla mansione utilizzata per calcolare il reddito pianificato, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) e la sezione [Calcoli ricavi per le attività basati sulle assegnazioni utente e ruolo](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) nell&#39;articolo [Panoramica sulla fatturazione e sul reddito](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-</div>
 
 * In caso di sostituzioni di più tariffe di fatturazione, la tariffa in base alla quale vengono moltiplicate le ore pianificate cambia durante un&#39;attività. Per impostazione predefinita, Workfront distribuisce le ore pianificate in modo uniforme per tutta la durata di un&#39;attività, allocando un numero uguale di ore per ogni giorno dell&#39;attività. Quando si calcolano le **retribuzioni pianificate** per un&#39;attività, Workfront moltiplica l&#39;Ora pianificata al giorno per la tariffa di fatturazione di quel giorno. In caso di tariffe di fatturazione multiple, quella tariffa potrebbe essere diversa ogni giorno.
 
@@ -295,7 +277,7 @@ Quando si calcola il reddito effettivo in base a una sostituzione della tariffa 
 
   Per ulteriori informazioni sulla mansione utilizzata per calcolare il **ricavo effettivo**, vedere la sezione &quot;Informazioni sui calcoli dei ricavi per le attività basate sulle assegnazioni di utenti e ruoli&quot; nell&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-* <span class="preview">Quando il tipo di retribuzione **&#x200B;**&#x200B;di un&#39;attività è **Ore utente e mansione**, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore utente e mansione **, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività.** Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Se la tariffa di fatturazione della mansione è stata sostituita a livello di progetto, Workfront utilizza la tariffa di sostituzione del progetto per calcolare la Retribuzione effettiva. Quando si sostituisce la tariffa di fatturazione della mansione nel progetto, il **Ricavo effettivo** del progetto viene ricalcolato automaticamente utilizzando la nuova tariffa adeguata.
 
@@ -312,7 +294,7 @@ Quando si calcola il reddito effettivo in base a più sostituzioni della tariffa
 
 * Se il tipo di retribuzione **Tipo di retribuzione** di un&#39;attività è **Ore ruolo**, Workfront moltiplica le **Ore effettive** dell&#39;attività con la tariffa di fatturazione dei ruoli assegnati all&#39;attività per calcolare le **Entrate effettive** dell&#39;attività. Le ore effettive sono ore registrate direttamente nell&#39;attività.
 
-* <span class="preview">Quando il tipo di retribuzione **&#x200B;**&#x200B;di un&#39;attività è **Ore utente e mansione**, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore utente e mansione **, Workfront utilizza una gerarchia per determinare la tariffa di fatturazione per ogni attività.** Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * In caso di sostituzioni di più tariffe di fatturazione, la tariffa in base alla quale le **Ore effettive** vengono moltiplicate per calcolare le **Entrate effettive** potrebbe cambiare durante la durata di un&#39;attività. Workfront utilizza la tariffa di fatturazione della mansione il cui intervallo di tempo corrisponde alla **Data di ingresso** delle ore registrate per l&#39;attività per calcolare il **Ricavo effettivo.**
 
@@ -348,7 +330,7 @@ In questi casi, il numero di ore pianificate al giorno potrebbe essere diverso t
 
 Quando calcoli la Retribuzione Pianificata per utenti in fusi orari diversi, considera quanto segue:
 
-* Per le attività con **Tipo di retribuzione** di **Ore ruolo** o <span class="preview">**Ore utente e ruolo**</span> e assegnate a mansioni, **Retribuzione pianificata** viene calcolato moltiplicando le **Ore pianificate** di un&#39;attività per la tariffa di fatturazione della mansione.
+* Per le attività con **Tipo di retribuzione** di **Ore ruolo** o **Ore utente e ruolo** e assegnate a mansioni, **Retribuzione pianificata** viene calcolato moltiplicando le **Ore pianificate** di un&#39;attività per la tariffa di fatturazione della mansione.
 
 * Le **ore pianificate** sono distribuite in modo uniforme nell&#39;arco della **Durata** dell&#39;attività.
 
@@ -365,7 +347,7 @@ Quando calcoli la Retribuzione Pianificata per utenti in fusi orari diversi, con
 
 Quando si calcola la Retribuzione effettiva per utenti con fusi orari diversi, tenere presente quanto segue:
 
-* Se il tipo di retribuzione **Tipo di retribuzione** di un&#39;attività è **Ore ruolo** o <span class="preview">**Ore utente e ruolo**</span>, Workfront moltiplica le **Ore effettive** dell&#39;attività con la tariffa di fatturazione dei ruoli assegnati all&#39;attività per calcolare la **Retribuzione effettiva**. Le ore effettive sono ore registrate direttamente nell&#39;attività.
+* Se il tipo di retribuzione **Tipo di retribuzione** di un&#39;attività è **Ore ruolo** o **Ore utente e ruolo**, Workfront moltiplica le **Ore effettive** dell&#39;attività con la tariffa di fatturazione dei ruoli assegnati all&#39;attività per calcolare la **Retribuzione effettiva**. Le ore effettive sono ore registrate direttamente nell&#39;attività.
 
 * In caso di sostituzioni di più tariffe di fatturazione, Workfront utilizza la tariffa di fatturazione della mansione il cui intervallo di tempo corrisponde alla **Data di ingresso** delle ore registrate per l&#39;attività per calcolare **Entrate effettive**.
 

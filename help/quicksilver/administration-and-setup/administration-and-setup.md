@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 93%
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Gli amministratori possono controllare e personalizzare l’esperienza utente in
 * [Personalizzare Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [Gestire Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [Gestire i gruppi](../administration-and-setup/manage-groups/manage-groups.md)
-* [Gestisci operazioni aziendali: indice articolo](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+* [Gestire le operazioni aziendali](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
 * [Configurare le integrazioni](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [Blueprint](../administration-and-setup/blueprints/blueprints.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per l’amministrazione e la configurazione](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

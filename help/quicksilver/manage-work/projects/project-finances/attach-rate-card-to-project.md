@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 8%
@@ -13,8 +13,6 @@ ht-degree: 8%
 ---
 
 # Allegare una scheda tariffaria a un progetto
-
-{{highlighted-preview-article-level}}
 
 Le schede tariffa memorizzano più tariffe di fatturazione per mansione, in base agli attributi. Ad esempio, potresti avere un ruolo di Designer con sede a Parigi per l’Agenzia A, un altro Designer con sede a Parigi per l’Agenzia B e un terzo Designer con sede a New York non assegnato a un’agenzia, ciascuno con tariffe di fatturazione diverse. Tuttavia, gli attributi non sono necessari per le mansioni su una scheda tariffa. Gli attributi fungono da strumenti per stabilire tassi più granulari. Una tariffa di fatturazione su una scheda tariffa può anche essere data di validità, in modo che la tariffa inizi e termini in date specificate.
 

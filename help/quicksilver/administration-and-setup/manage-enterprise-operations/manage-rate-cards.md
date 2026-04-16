@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Gestire le schede tariffa
-
-{{highlighted-preview-article-level}}
 
 Una scheda tariffa rappresenta l’accordo contrattuale con il cliente in cui vengono definite le tariffe orarie per le mansioni che completeranno il lavoro. In una scheda tariffa è possibile definire più tariffe di fatturazione per mansione, in base ad attributi quali agenzia, ubicazione o centro di costo. Gli attributi univoci della tariffa sono configurati nell’area Configura. Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 

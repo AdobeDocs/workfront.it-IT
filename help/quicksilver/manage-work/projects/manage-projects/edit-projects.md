@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 2%
@@ -409,9 +409,7 @@ Per modificare i campi nell&#39;area Finanza:
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Finanza** nel pannello a sinistra.
 
-   ![Area contabilità nella casella di modifica del progetto](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Area contabilità nella casella di modifica del progetto](assets/edit-project-finance-section.png)
 
 1. Aggiornare le seguenti informazioni finanziarie per il progetto:
 
@@ -420,12 +418,12 @@ Per modificare i campi nell&#39;area Finanza:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Utilizza tassi di cambio effettivi in base alla data dal sistema</span></strong></td>
-      <td><p><span class="preview">Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</span></p> <p><span class="preview">È inoltre necessario selezionare la <strong>Data tasso di cambio</strong> da cui iniziare, quando l'opzione è selezionata.</span></p></td> 
+      <td><strong>Utilizza tassi di cambio effettivi in base alla data dal sistema</strong></td>
+      <td><p>Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</p> <p>È inoltre necessario selezionare la <strong>Data tasso di cambio</strong> da cui iniziare, quando l'opzione è selezionata.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Mantieni informazioni sulle tariffe di fatturazione del progetto</span></strong></td>
-      <td><p><span class="preview">Quando si abilita questa opzione, tutte le tariffe di fatturazione delle assegnazioni vengono bloccate in modo permanente alla tariffa applicabile più elevata della gerarchia di fatturazione. Questa è una selezione una tantum e non puoi disattivare l’opzione una volta che il progetto ha assegnazioni o ore. Dopo il mantenimento, le tariffe di fatturazione delle assegnazioni non possono essere modificate, modificate o sostituite in alcun punto del progetto.</span></p></td>
+      <td><strong>Mantieni informazioni sulle tariffe di fatturazione del progetto</strong></td>
+      <td><p>Quando si abilita questa opzione, tutte le tariffe di fatturazione delle assegnazioni vengono bloccate in modo permanente alla tariffa applicabile più elevata della gerarchia di fatturazione. Questa è una selezione una tantum e non puoi disattivare l’opzione una volta che il progetto ha assegnazioni o ore. Dopo il mantenimento, le tariffe di fatturazione delle assegnazioni non possono essere modificate, modificate o sostituite in alcun punto del progetto.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Valuta</strong> </td> 

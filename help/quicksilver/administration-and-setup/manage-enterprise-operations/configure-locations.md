@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 9%
@@ -16,8 +16,6 @@ ht-degree: 9%
 ---
 
 # Configurare le posizioni
-
-{{highlighted-preview-article-level}}
 
 Puoi configurare le posizioni predefinite disponibili per assegnare gli attributi ai ruoli nelle schede tariffa. In questo modo le schede dei tassi riflettono accuratamente i tassi di mercato in ogni località.
 

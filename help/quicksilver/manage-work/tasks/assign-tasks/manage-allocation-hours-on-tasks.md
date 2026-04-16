@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 10%
+source-wordcount: '591'
+ht-degree: 9%
 
 ---
 
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Assicurarsi che il **Tipo di durata** dell&#39;attività sia **Semplice**.
 1. Modifica il campo **Allocazioni** per ogni assegnatario dell&#39;attività. Si tratta delle allocazioni complessive per ogni assegnazione a questa attività, per l&#39;intera durata dell&#39;attività. Questo potrebbe anche aggiornare le **ore pianificate** complessive dell&#39;attività.
 
+   Potresti visualizzare una di queste schermate a seconda del pacchetto Workfront o del flusso di lavoro della tua organizzazione.
+
    ![Modifica allocazioni](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Modifica allocazioni](assets/new-aa-allocation-by-hour.png)
 
 1. Fai clic su **Salva**.

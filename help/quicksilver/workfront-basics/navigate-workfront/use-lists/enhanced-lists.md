@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 ---
 
 # Utilizzare gli elenchi avanzati
-
-{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -64,13 +62,12 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
-| <span class="preview">Elenco dei report</span> | <span class="preview">I report (**Utilizza cartelle condivisibili** devono essere attivati)</span> |
-| <span class="preview">Elenco di mansioni e tariffe in una scheda tariffe</span> | <span class="preview">Configurazione > Schede tariffarie > selezionare una scheda tariffaria > Ruoli lavorativi e tariffe</span> |
-| <span class="preview">Elenco delle traduzioni</span> | <span class="preview">Configurazione > Localizzazione</span> |
-| <span class="preview">Elenco di snapshot</span> | <span class="preview">Progetto > Snapshot</span> |
-| <span class="preview">Elenco risorse per fatturazione</span> | <span class="preview">Progetto > Risorsa per fatturazione</span> |
-| <span class="preview">Nuove assegnazioni avanzate per un&#39;attività</span> | <span class="preview">Attività > Assegnazioni > Avanzate </span> |
-
+| Elenco dei rapporti | I report (**Utilizza cartelle condivisibili** devono essere attivati) |
+| Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
+| Elenco delle traduzioni | Configurazione > Localizzazione |
+| Elenco di snapshot | Progetto > Snapshot |
+| Elenco delle risorse per la fatturazione | Progetto > Risorsa per fatturazione |
+| Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
 
 ## Aggiungere elementi a un elenco avanzato
 
@@ -189,8 +186,6 @@ Per aggiungere e rimuovere colonne:
 
    L’elenco aggiorna le colonne in base alle scelte effettuate.
 
-<div class="preview">
-
 ### Modificare l&#39;altezza della riga in una visualizzazione
 
 >[!NOTE]
@@ -204,8 +199,6 @@ Per aggiungere e rimuovere colonne:
    * Standard. Questa è la scelta predefinita.
    * Canale
    * Alta
-
-</div>
 
 ## Aggiornare gli elementi dell’elenco avanzati
 
@@ -261,17 +254,15 @@ Per condividere una visualizzazione:
 
    * **Visualizzazione**: gli utenti possono applicare la visualizzazione all&#39;elenco ma non condividerlo.
 
-     <span class="preview">Quando gli utenti con accesso in visualizzazione aggiornano la visualizzazione, le modifiche vengono salvate nelle preferenze personali dell&#39;utente. Un punto blu sul nome della visualizzazione (nelle **Viste condivise** dell&#39;utente) indica che alla visualizzazione sono applicati aggiornamenti personali.</span>
+     Quando gli utenti con accesso in visualizzazione aggiornano la visualizzazione, le modifiche vengono salvate nelle preferenze personali dell’utente. Un punto blu sul nome della visualizzazione (nelle **Viste condivise** dell&#39;utente) indica che alla visualizzazione sono applicati aggiornamenti personali.
 
    * **Gestisci**: gli utenti possono rinominare, condividere o eliminare la visualizzazione e modificarne gli elementi.
 
-     <span class="preview">Quando gli utenti di Gestione accesso apportano modifiche alla visualizzazione, tutti gli utenti che hanno la visualizzazione condivisa con loro visualizzeranno tali aggiornamenti quando la visualizzazione viene applicata all&#39;elenco.</span>
+     Quando gli utenti di Gestione accesso apportano modifiche alla vista, tutti gli utenti che hanno la vista condivisa con loro visualizzeranno tali aggiornamenti quando la vista viene applicata all’elenco.
 
 1. Fai clic su **Salva**.
 
-   <span class="preview">Se si condivide una visualizzazione con un utente e quindi si rimuove tale accesso, la visualizzazione verrà rimossa dalle **visualizzazioni condivise** dell&#39;utente. Se all&#39;utente è stata applicata la visualizzazione condivisa quando viene rimosso il relativo accesso, viene applicata la visualizzazione predefinita di sistema.</span>
-
-<div class="preview">
+   Se si condivide una visualizzazione con un utente e quindi si rimuove tale accesso, la visualizzazione verrà rimossa dalle **visualizzazioni condivise** dell&#39;utente. Se all’utente è stata applicata la vista condivisa quando il suo accesso viene rimosso, viene applicata la vista predefinita di sistema.
 
 ### Copiare una visualizzazione
 
@@ -291,10 +282,6 @@ Quando una visualizzazione viene condivisa con l&#39;utente e non si dispone del
    >
    >L&#39;opzione **Copia con preferenze** è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente.
 
-</div>
-
-<div class="preview">
-
 ### Reimpostare una visualizzazione
 
 >[!NOTE]
@@ -312,10 +299,6 @@ Quando una visualizzazione condivisa con l&#39;utente non dispone dell&#39;autor
    >L&#39;opzione **Ripristina impostazioni predefinite** è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente corrente.
 
    ![Copia e reimposta le opzioni di visualizzazione](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-<div class="preview">
 
 ### Applicare la formattazione condizionale a una visualizzazione
 
@@ -363,8 +346,6 @@ La formattazione condizionale consente di evidenziare informazioni importanti ne
 La formattazione viene applicata immediatamente alla visualizzazione elenco.
 Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
-</div>
-
 ### Filtrare gli elementi in un elenco avanzato
 
 >[!NOTE]
@@ -385,9 +366,7 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 
    >[!TIP]
    >
-   ><span class="preview">Per applicare un filtro personalizzato, selezionare una delle opzioni seguenti per un valore di campo:</span>
-   >
-   ><div class="preview">
+   >Per applicare un filtro personalizzato, seleziona una delle seguenti opzioni per un valore di campo:
    >
    >* **Utente connesso** per fare riferimento all&#39;utente connesso nei campi relativi agli utenti.
    >
@@ -398,8 +377,6 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
    >* **La mia azienda** per fare riferimento alla tua azienda nei campi che si riferiscono alle aziende.
    > 
    >* **I miei ruoli** o **Il mio ruolo principale** per fare riferimento alle tue mansioni nei campi che fanno riferimento alle mansioni.
-   >
-   ></div>
 
 1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro.
 

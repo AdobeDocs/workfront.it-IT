@@ -7,17 +7,15 @@ description: Quando si crea un campo personalizzato, è possibile definire impos
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 9%
 
 ---
 
-
 # Limitare l’accesso ai dati finanziari nei campi personalizzati
-
-{{highlighted-preview-article-level}}
 
 Quando si crea un campo personalizzato, è possibile definire impostazioni facoltative per limitare l&#39;accesso ai dati finanziari. In questo modo, gli utenti che dispongono di determinate autorizzazioni impostate nei loro livelli di accesso possono visualizzare i dati e non possono visualizzare dati finanziari a cui non dovrebbero avere accesso.
 
@@ -119,4 +117,3 @@ Quando l’utente visualizza i progetti in un elenco o in un rapporto:
 L’esportazione dei dettagli del progetto mostra gli stessi valori dei campi finanziari (o campi vuoti) dell’elenco.
 
 Durante la modifica in blocco di entrambi i progetti, i campi Fatturazione e Finanza generale sono di sola lettura e i campi Costo sono N/D.
-

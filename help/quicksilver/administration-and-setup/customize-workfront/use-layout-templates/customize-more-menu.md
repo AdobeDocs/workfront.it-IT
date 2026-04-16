@@ -8,7 +8,8 @@ description: 'È possibile utilizzare un modello di layout per determinare le op
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2faeea4f8128b7858232048d687c270a1e3709f5
+exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
+source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 10%
@@ -16,8 +17,6 @@ ht-degree: 10%
 ---
 
 # Personalizzare il menu Altro utilizzando un modello di layout
-
-{{highlighted-preview-article-level}}
 
 È possibile utilizzare un modello di layout per determinare le opzioni visualizzate quando un utente fa clic sul menu Altro (il menu a tre punti ) durante la visualizzazione dei seguenti oggetti in Adobe Workfront: progetti, attività, problemi, portafogli e programmi.
 
