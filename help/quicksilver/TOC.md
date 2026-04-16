@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
 workflow-type: tm+mt
-source-wordcount: '13922'
+source-wordcount: '13932'
 ht-degree: 97%
 
 ---
@@ -314,7 +314,7 @@ ht-degree: 97%
             * [2020.2 - Miglioramenti per la gestione delle risorse: Bilanciamento dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Versione 20.1 {#release-20-1}
             * [Panoramica sulla versione 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
-            * [2020.1 - Miglioramenti per gli elenchi &#x200B;](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
+            * [2020.1 - Miglioramenti per gli elenchi ](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 - Miglioramenti per dispositivi mobili](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
             * [2020.1 - Altri miglioramenti](product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md)
             * [Miglioramenti per il progetto 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md)
@@ -433,7 +433,7 @@ ht-degree: 97%
          * [Nuova attività di rilascio sull’esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Domande frequenti sulla nuove esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Amministrazione e configurazione {#administration-and-setup}
-   * [Amministrazione e configurazione: indice degli articoli &#x200B;](administration-and-setup/administration-and-setup.md)
+   * [Amministrazione e configurazione: indice degli articoli ](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
       * [Introduzione all’amministrazione: indice articoli](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Panoramica sulla definizione degli obiettivi per l’implementazione di Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -1189,7 +1189,8 @@ ht-degree: 97%
       * Adobe Workfront per Experience Manager Assets e Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront per Experience Manager Assets e Assets Essentials: indice degli articoli](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Panoramica sulle integrazioni Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-         * [Collegare risorse e cartelle da Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Collegare risorse e cartelle con Experience Manager Assets Content Advisor](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Collegare risorse e cartelle da Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
          * [Visualizzare i metadati mappati per Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Visualizzare o scaricare una risorsa collegata da Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [Inviare un documento a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
@@ -2291,10 +2292,10 @@ ht-degree: 97%
       * [Aggiornare un elemento di Adobe Workfront da G Suite utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront per Outlook {#workfront-for-outlook}
       * [Adobe Workfront per Outlook: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
+   *  Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica su Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [&#x200B; Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [ Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Accedere a Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Cercare e condividere elementi Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
       * [Creare attività Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
