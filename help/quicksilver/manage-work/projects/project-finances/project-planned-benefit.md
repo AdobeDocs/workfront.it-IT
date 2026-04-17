@@ -7,14 +7,14 @@ description: Il benefit pianificato è l'importo stimato di denaro di cui un'org
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
-# Panoramica del beneficio pianificato del progetto
+# Panoramica del vantaggio pianificato del progetto
 
 Il benefit pianificato è l&#39;importo stimato di denaro di cui un&#39;organizzazione potrebbe beneficiare se un progetto è completato.
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni sul calcolo del valore netto di un progetto, vedere l
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Per ulteriori informazioni sul calcolo del valore netto di un progetto, vedere l
    <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -46,8 +46,8 @@ Per ulteriori informazioni sul calcolo del valore netto di un progetto, vedere l
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Gestisci le autorizzazioni per il progetto con le autorizzazioni per Modifica contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>

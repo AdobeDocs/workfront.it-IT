@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola stima al completamento (EAC)
+title: Calcolare la Stima al completamento (EAC)
 description: Come metrica delle prestazioni, la stima al completamento (CES) rappresenta il costo totale previsto del progetto o dell'attività al completamento.
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 5%
 
 ---
 
-# Calcola stima al completamento (EAC)
+# Calcolare la Stima al completamento (EAC)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
@@ -37,7 +37,7 @@ Come impostazione, ti consente di definire come deve essere calcolato il valore 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p></td>  
@@ -47,8 +47,8 @@ Come impostazione, ti consente di definire come deve essere calcolato il valore 
    <td>Accesso ai progetti e ai dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni Visualizza contabilità</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni per Visualizza contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>

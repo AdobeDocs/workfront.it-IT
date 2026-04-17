@@ -2,25 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola indice prestazioni Schedule (SPI)
+title: Calcolare l’Indice prestazioni pianificazione (SPI)
 description: L'indice delle prestazioni della pianificazione (SPI) descrive il rapporto tra la pianificazione pianificata e la pianificazione effettiva.
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '397'
+ht-degree: 18%
 
 ---
 
-# Calcola indice prestazioni Schedule (SPI)
+# Calcolare l’Indice prestazioni pianificazione (SPI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-L&#39;indice delle prestazioni della pianificazione (SPI) descrive il rapporto tra la pianificazione pianificata e la pianificazione effettiva. Adobe Workfront calcola l’SPI a livello di progetto e di attività. I project manager esaminano questa metrica per verificare se le attività o i progetti sono in fase di verifica in anticipo o in ritardo rispetto alla programmazione.
+L&#39;indice delle prestazioni della pianificazione (SPI) descrive il rapporto tra la pianificazione pianificata e la pianificazione effettiva. Adobe Workfront calcola l’indice SPI ai livelli di progetto e di attività. Questa metrica viene tracciata dai project manager e le attività o i progetti sono attualmente in anticipo o in ritardo rispetto alla pianificazione.
 
 ## Requisiti di accesso
 
@@ -35,7 +35,7 @@ L&#39;indice delle prestazioni della pianificazione (SPI) descrive il rapporto t
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p></td>  
@@ -45,8 +45,8 @@ L&#39;indice delle prestazioni della pianificazione (SPI) descrive il rapporto t
    <td>Accesso ai progetti e ai dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni Visualizza contabilità</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni per Visualizza contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>

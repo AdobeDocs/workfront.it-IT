@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola indice prestazioni costi (IPC)
+title: Calcolare l’Indice prestazioni costi (CPI)
 description: L'indice di prestazioni dei costi (IPC) descrive la relazione a livello di progetto o task tra il costo pianificato e il costo effettivo. I project manager esaminano questa metrica per identificare le attività o i progetti che registrano il sovraccosto in un determinato momento.
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 3%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
-# Calcola indice prestazioni costi (IPC)
+# Calcolare l’Indice prestazioni costi (CPI)
 
 <!-- Audited: 5/2025 -->
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-L&#39;indice di prestazioni dei costi (IPC) descrive la relazione a livello di progetto o task tra il costo pianificato e il costo effettivo. I project manager esaminano questa metrica per identificare le attività o i progetti che registrano il sovraccosto in un determinato momento. Il costo può essere misurato in ore o in valuta, a seconda del metodo PIM (Performance Index Method). Per ulteriori informazioni sull&#39;impostazione del metodo di indicizzazione delle prestazioni, vedere [Impostare il metodo di indicizzazione delle prestazioni (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+L&#39;indice di prestazioni dei costi (IPC) descrive la relazione a livello di progetto o task tra il costo pianificato e il costo effettivo. Questa metrica viene utilizzata dai project manager per tracciare eventuali scostamenti al di sotto o al di sopra del costo rispetto a singole attività o progetti in un determinato momento. Il costo può essere misurato in ore o in valuta, a seconda del metodo PIM (Performance Index Method). Per ulteriori informazioni sull&#39;impostazione del metodo di indicizzazione delle prestazioni, vedere [Impostare il metodo di indicizzazione delle prestazioni (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Solo le organizzazioni che richiedono immissione di ore possono utilizzare l&#39;IPC. Inoltre, i valori PIM basati sui costi sono accurati solo nelle organizzazioni che dispongono di tassi di costo definiti per gli assegnatari delle attività (mansioni o utenti).
 
@@ -39,7 +39,7 @@ Solo le organizzazioni che richiedono immissione di ore possono utilizzare l&#39
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p></td>  
@@ -49,8 +49,8 @@ Solo le organizzazioni che richiedono immissione di ore possono utilizzare l&#39
    <td>Accesso ai progetti e ai dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni Visualizza contabilità</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Visualizza o autorizzazioni superiori per il progetto con autorizzazioni per Visualizza contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>

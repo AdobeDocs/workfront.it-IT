@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Impostare il metodo PIM (Performance Index Method)
+title: Impostare il Metodo indice prestazioni (PIM)
 description: Il metodo PIM (Performance Index Method) per il progetto controlla il metodo utilizzato da Adobe Workfront per calcolare le metriche delle prestazioni del progetto, quali l'indice delle prestazioni dei costi (CPI, Cost Performance Index), l'indice delle prestazioni del programma (CSI, Cost Schedule Performance Index), l'indice delle prestazioni del programma (SPI, Schedule Performance Index) e la stima al completamento (EAC, Estimate At Completion).
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 12%
 
 ---
 
-# Impostare il metodo PIM (Performance Index Method)
+# Impostare il Metodo indice prestazioni (PIM)
 
 Il metodo PIM (Performance Index Method) per il progetto controlla il metodo utilizzato da Adobe Workfront per calcolare le metriche delle prestazioni del progetto, quali l&#39;indice delle prestazioni dei costi (CPI, Cost Performance Index), l&#39;indice delle prestazioni del programma (CSI, Cost Schedule Performance Index), l&#39;indice delle prestazioni del programma (SPI, Schedule Performance Index) e la stima al completamento (EAC, Estimate At Completion).
 
@@ -24,7 +24,7 @@ Workfront calcola questi valori utilizzando i seguenti elementi:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Workfront calcola questi valori utilizzando i seguenti elementi:
    <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -45,8 +45,8 @@ Workfront calcola questi valori utilizzando i seguenti elementi:
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td>Gestisci le autorizzazioni per il progetto con le autorizzazioni per Modifica contabilità generale</td> 
   </tr> 
  </tbody> 
 </table>

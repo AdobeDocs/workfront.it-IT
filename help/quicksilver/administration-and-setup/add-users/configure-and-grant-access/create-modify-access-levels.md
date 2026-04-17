@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 8%
+source-wordcount: '1423'
+ht-degree: 9%
 
 ---
 
@@ -124,17 +124,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
        </ul><p><b>NOTA</b>: questo non consente all'utente di creare nuovi tipi di spesa.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mansioni</td> 
-      <td> Con questo accesso, l’utente può effettuare le seguenti operazioni: 
-       <ul> 
-        <li>Visualizza e modifica i ruoli esistenti</li> 
-        <li>Aggiungi nuove mansioni</li> 
-        <li>Modifica fatturazione mansioni e tassi di costo</li> 
-       </ul> 
-       <p>Per informazioni importanti sull'accesso ai dati finanziari disponibili per un utente Standard o Planner con accesso amministrativo a ruoli, vedere <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utenti Standard o Planner con accesso amministrativo a ruoli</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Milestone nel mio gruppo</td> 
       <td>Visualizza tutti i percorsi milestone nel sistema nel menu Percorsi milestone in Configurazione. Gli utenti possono anche modificare o eliminare qualsiasi percorso milestone appartenente a uno qualsiasi dei loro gruppi. Gli utenti non possono gestire (modificare o eliminare) percorsi milestone non assegnati al proprio gruppo di gruppi.<p>Senza questo accesso, gli utenti possono solo visualizzare i percorsi milestone esistenti e applicarli ai progetti che hanno accesso per gestire.</p></td> 
      </tr> 
@@ -226,13 +215,29 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    Per informazioni su come un amministratore di Adobe assegna un livello di accesso Amministratore di sistema a un utente, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Utenti Standard o Planner con accesso amministrativo alle mansioni {#planner-users}
+<!--
 
-Se si concede a un utente Standard o Planner l&#39;accesso amministrativo alle mansioni, l&#39;impostazione Modifica fatturazione mansione e tassi di costo viene abilitata automaticamente per l&#39;utente.
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-Successivamente, se si disabilita l&#39;accesso amministrativo alle mansioni per l&#39;utente, le mansioni saranno ancora visibili perché l&#39;impostazione Modifica fatturazione mansione e tassi di costo è ancora abilitata.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
-Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, vedere [Concedere l&#39;accesso ai dati finanziari](grant-access-financial.md).
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 
