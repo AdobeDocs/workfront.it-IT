@@ -104,7 +104,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Fai clic sul menu **Altro** per il progetto, quindi fai clic su **Imposta ore pianificate dei ruoli come preventivate**.\
      Le ore preventivate per ciascun ruolo vengono calcolate utilizzando la formula seguente:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget delle risorse, vedere l&#39;articolo [Accesso necessario per il preventivo delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo****:
+Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#x200B;**&#x200B;**:
 
 1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
@@ -174,8 +174,8 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo**
    * Nella colonna **BDG** specificare manualmente un numero di ore preventivate, FTE o costo per le mansioni.\
      In questo modo le ore preventivate per ruolo vengono distribuite alle ore preventivate del progetto per i progetti che puoi gestire.
 
-   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
-     *
+   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**&#x200B;Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
