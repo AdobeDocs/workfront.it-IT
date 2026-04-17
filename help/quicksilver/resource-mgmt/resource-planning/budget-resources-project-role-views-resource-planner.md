@@ -6,14 +6,14 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 3%
 
 ---
 
-# Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo
+# Risorse di budget in pianificazione risorse utilizzando le viste Progetto e Ruolo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)</p>
@@ -29,11 +29,11 @@ Prima di iniziare a inserire le informazioni sul budget nella Programmazione del
 
 * [Panoramica sulla programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 * [Accesso necessario per preventivare le risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-* [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della pianificazione risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,16 +44,16 @@ Prima di iniziare a inserire le informazioni sul budget nella Programmazione del
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso ai dati finanziari per preventivare le risorse in base al costo</p> <p>Modifica accesso a progetti e utenti</p></td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modificare l'accesso ai dati finanziari, incluso l'accesso a Modifica tassi di costo e Modifica contabilità generale, per preventivare le risorse in base al costo</p> <p>Modifica accesso a progetti e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni</p></td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Fai clic sul menu **Altro** per il progetto, quindi fai clic su **Imposta ore pianificate dei ruoli come preventivate**.\
      Le ore preventivate per ciascun ruolo vengono calcolate utilizzando la formula seguente:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget delle risorse, vedere l&#39;articolo [Accesso necessario per il preventivo delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#x200B;**&#x200B;**:
+Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo****:
 
 1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
@@ -174,8 +174,8 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#
    * Nella colonna **BDG** specificare manualmente un numero di ore preventivate, FTE o costo per le mansioni.\
      In questo modo le ore preventivate per ruolo vengono distribuite alle ore preventivate del progetto per i progetti che puoi gestire.
 
-   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**&#x200B;Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
-     &#x200B;*
+   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

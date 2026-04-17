@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7859'
 ht-degree: 2%
 
 ---
@@ -396,12 +396,12 @@ Per modificare le informazioni sui moduli personalizzati durante la modifica di 
 
 A seconda del livello di accesso e dell’autorizzazione sul progetto, esistono i seguenti scenari:
 
-* Se si dispone dell&#39;accesso di visualizzazione ai dati finanziari e delle autorizzazioni di visualizzazione dei dati finanziari sul progetto, è possibile visualizzare solo i campi nella sezione Finanza. Non è possibile modificare i campi in questa sezione.
-* Se si dispone dell&#39;accesso in modifica ai dati finanziari e delle autorizzazioni Gestisci dati finanziari sul progetto, è possibile aggiornare i campi in questa sezione.
+* Se si dispone dell&#39;accesso Visualizzazione dati finanziari e delle autorizzazioni Visualizzazione contabilità generale sul progetto, è possibile visualizzare solo i campi nella sezione Finanza. Non è possibile modificare i campi in questa sezione.
+* Se si dispone dell&#39;accesso in Modifica ai dati finanziari e delle autorizzazioni Modifica dati finanziari generali sul progetto, è possibile aggiornare i campi in questa sezione.
 
 Quando selezioni più di un progetto per modificarli in blocco e, esistono i seguenti scenari:
 
-* Se si seleziona almeno un progetto per il quale si dispone delle autorizzazioni Visualizza contabilità (anziché Gestisci contabilità), è possibile visualizzare solo i campi di questa sezione per tutti i progetti selezionati. Non è possibile modificare in blocco i campi nella sezione Finanza.
+* Se si seleziona almeno un progetto per il quale si dispone delle autorizzazioni Visualizza contabilità generale (anziché Modifica contabilità generale), è possibile visualizzare solo i campi di questa sezione per tutti i progetti selezionati. Non è possibile modificare in blocco i campi nella sezione Finanza.
 * Se si seleziona almeno un progetto per il quale non si dispone di autorizzazioni per la contabilità, questa sezione non viene visualizzata.
 
 Per modificare i campi nell&#39;area Finanza:

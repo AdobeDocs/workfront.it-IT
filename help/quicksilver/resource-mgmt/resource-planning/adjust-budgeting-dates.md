@@ -6,14 +6,14 @@ description: Se si riscontrano sovrassegnazioni di risorse dopo averle preventiv
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '506'
+ht-degree: 9%
 
 ---
 
-# Adeguare le date di budget nella Programmazione risorse
+# Correggere le date di budget in pianificazione risorse
 
 Se si riscontrano sovrassegnazioni di risorse dopo averle preventivate nella Programmazione risorse, è possibile esplorare gli scenari di simulazione spostando le ore preventivate, l&#39;FTE o i costi in un altro intervallo di tempo. In base ai risultati ottenuti in questi scenari, è possibile adeguare le ore, il FTE o il costo preventivati.
 
@@ -21,7 +21,7 @@ Le sovrassegnazioni possono essere visualizzate quando le ore preventivate, il v
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +32,18 @@ Le sovrassegnazioni possono essere visualizzate quando le ore preventivate, il v
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p></td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica l'accesso ai dati finanziari che include l'accesso a Modifica tassi di costo e Modifica contabilità generale</p>
+   <p>Modifica accesso a progetti e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p></td> 
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni, con la possibilità di modificare i tassi di costo e le informazioni finanziarie generali</p></td> 
   </tr> 
  </tbody> 
 </table>

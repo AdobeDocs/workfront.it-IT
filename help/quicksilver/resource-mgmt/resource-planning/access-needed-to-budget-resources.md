@@ -7,10 +7,10 @@ description: È possibile visualizzare e gestire le informazioni sulla pianifica
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ Per preventivare le risorse, gestire i gruppi di risorse e visualizzare le infor
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>  
@@ -55,13 +55,13 @@ Per preventivare le risorse, gestire i gruppi di risorse e visualizzare le infor
        <li> <p>Accesso per gestire i gruppi di risorse, se è necessario gestire i gruppi di risorse.</p> </li> 
       </ul> <p>Per informazioni sul livello di accesso Gestione risorse, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Concedere l'accesso a Gestione risorse</a>.</p> </li> 
      <li> <p>Modifica l'accesso a Progetti e Utenti. </p> </li> 
-     <li> <p> Modificare l'accesso ai dati finanziari nel proprio livello di accesso, se è necessario visualizzare o gestire le informazioni in base al costo.</p> <p>Per ulteriori informazioni sul livello di accesso ai dati finanziari, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concedere l'accesso ai dati finanziari</a>.</p> </li> 
+     <li> <p> Modificare l'accesso ai dati finanziari nel proprio livello di accesso che include l'accesso a Visualizza o Modifica tassi di costo e Visualizza o Modifica contabilità generale, se è necessario visualizzare o gestire le informazioni in base al costo.</p> <p>Per ulteriori informazioni sul livello di accesso ai dati finanziari, vedere l'articolo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Concedere l'accesso ai dati finanziari</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per il progetto che includono le autorizzazioni Gestisci dati finanziari.</p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulle autorizzazioni finanziarie per un progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Condividere le autorizzazioni finanziarie su un oggetto</a></a>.</p>
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Consente di gestire le autorizzazioni per il progetto, incluse le autorizzazioni Modifica tassi di costo e Modifica contabilità generale.</p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulle autorizzazioni finanziarie per un progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Condividere le autorizzazioni finanziarie su un oggetto</a></a>.</p>
 
 <p><b>NOTA:</b> quando si impostano le risorse nel budget nella visualizzazione Ruolo, se si dispone di autorizzazioni di gestione inferiori per almeno un progetto elencato sotto il ruolo, non è possibile preventivare ore, FTE o Costo per il ruolo. Puoi preventivare solo i progetti per i quali disponi delle autorizzazioni di gestione.</p> </td> 
   </tr> 

@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7099'
+source-wordcount: '7110'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
      <li> <p>Progetti</p> </li> 
      <li> <p>Portfolio</p> </li> 
      <li> <p>Programmi</p> </li> 
-     <li> <p>Dati finanziari, se si desidera visualizzare le informazioni in base al costo</p> </li> 
+     <li> <p>Dati finanziari che includono l'accesso a Visualizza tassi di costo e Visualizza contabilità generale, se si desidera visualizzare le informazioni in base al costo</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

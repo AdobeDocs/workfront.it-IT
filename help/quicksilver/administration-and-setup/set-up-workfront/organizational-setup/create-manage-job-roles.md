@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 2%
@@ -51,7 +51,7 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente Standard con ac
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Accesso amministrativo ai Ruoli</td>
+   <td>Modifica accesso a Ruoli</td>
   </tr> 
  </tbody> 
 </table>

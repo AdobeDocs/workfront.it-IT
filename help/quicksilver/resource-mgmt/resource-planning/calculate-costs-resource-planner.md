@@ -6,14 +6,14 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 0%
+source-wordcount: '1412'
+ht-degree: 3%
 
 ---
 
-# Calcola i costi nella Programmazione delle risorse
+# Calcolare i costi in pianificazione risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla comprensione delle informazioni nella Programma
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,17 +45,18 @@ Per ulteriori informazioni sulla comprensione delle informazioni nella Programma
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p></td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica l'accesso ai dati finanziari che include l'accesso a Modifica tassi di costo e Modifica contabilità generale</p>
+   <p>Modifica accesso a progetti e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p></td>
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni, con la possibilità di modificare i tassi di costo e le informazioni finanziarie generali</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -182,7 +183,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **&#x200B;**&#x200B;per l&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **** per l&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 

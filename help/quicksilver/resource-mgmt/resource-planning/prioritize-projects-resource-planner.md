@@ -6,14 +6,14 @@ description: I progetti sono elencati in ordine di priorità nella Programmazion
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 2%
+source-wordcount: '1302'
+ht-degree: 4%
 
 ---
 
-# Assegna priorità ai progetti nella Programmazione delle risorse
+# Assegnare priorità ai progetti in pianificazione risorse
 
 I progetti sono elencati in ordine di priorità nella Programmazione delle risorse, con il progetto più importante in alto.
 
@@ -30,17 +30,18 @@ I progetti sono elencati in ordine di priorità nella Programmazione delle risor
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p></td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica l'accesso ai dati finanziari che include l'accesso a Modifica tassi di costo e Modifica contabilità generale</p>
+    <p>Modifica accesso a progetti e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p></td>
+   <td>Autorizzazioni sugli oggetti</td> 
+   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni, con la possibilità di modificare i tassi di costo e le informazioni finanziarie generali</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ Per modificare la Priorità di pianificazione del progetto:
 >
 >Per assegnare la priorità ai progetti in Portfolio Optimizer, l’azienda deve disporre di un pacchetto Prime o Workfront di livello superiore.
 >
->Per ulteriori informazioni sui pacchetti Workfront, vedere [Pacchetti e prezzi Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
+>Per ulteriori informazioni sui pacchetti Workfront, vedere [Pacchetti e prezzi Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Per informazioni sull&#39;assegnazione delle priorità ai progetti in Portfolio Optimizer, vedere [Assegnare priorità ai progetti in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

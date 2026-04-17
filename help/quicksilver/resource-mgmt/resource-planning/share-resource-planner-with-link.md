@@ -6,14 +6,14 @@ description: Adobe Workfront può generare un URL univoco per la Visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 1%
+source-wordcount: '649'
+ht-degree: 7%
 
 ---
 
-# Condividere la visualizzazione utente di Programmazione delle risorse con un collegamento
+# Condividere la visualizzazione utente di pianificazione risorse con un collegamento
 
 Adobe Workfront può generare un URL univoco per la Visualizzazione utente della Programmazione delle risorse, che puoi incorporare in una dashboard come pagina esterna, oppure aprire separatamente in una nuova scheda del browser. Questa funzione è utile quando si condividono le informazioni sulla Programmazione delle risorse con utenti che potrebbero non avere accesso diretto all&#39;area Risorse.
 
@@ -21,7 +21,7 @@ Adobe Workfront può generare un URL univoco per la Visualizzazione utente della
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,16 +33,16 @@ Adobe Workfront può generare un URL univoco per la Visualizzazione utente della
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse, Progetti e Utenti</p> <p>Visualizzazione dell'accesso ai dati finanziari per visualizzare le informazioni sui costi</p></td> 
+   <td> <p>Accesso di visualizzazione o superiore a Gestione risorse, Progetti e Utenti</p> <p>Visualizza l'accesso ai dati finanziari, incluso l'accesso a Visualizza tassi di costo e Visualizza contabilità generale, per visualizzare le informazioni sui costi</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti da visualizzare nella Programmazione delle risorse</p></td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 Quando generi l’URL univoco per la visualizzazione utente della Programmazione risorse, considera quanto segue:
 
 * Puoi ottenere un URL univoco solo per la Visualizzazione utente. L’opzione per generare l’URL non esiste nelle visualizzazioni Progetto o Ruolo.
-* Puoi condividere l’URL con altri utenti, inclusi gli utenti con licenza Lavoro e Revisione.\
+* Puoi condividere l’URL con altri utenti, tra cui Lavoro, Collaboratore e Rivedi utenti con licenza.\
   Devono avere accesso per visualizzare altri utenti per poter visualizzare le informazioni nella Programmazione delle risorse dall&#39;URL condiviso con loro.
 * Le seguenti informazioni vengono salvate quando condividi l’URL con altri utenti:
 
