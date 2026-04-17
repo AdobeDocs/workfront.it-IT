@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 4%
+source-wordcount: '1377'
+ht-degree: 5%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 4%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
 
@@ -112,7 +112,7 @@ Puoi visualizzare le richieste inviate nell’area Richieste e nel widget Richie
 >
 >* Richieste Planning e Workfront nel campo Oggetto.
 >* Record di Planning creati dalle richieste di Planning nel campo Oggetto creato.
->* <span class="preview">Attività e problemi di Workfront convertiti da richieste Workfront nel campo Oggetto creato dell&#39;ambiente di anteprima. </span>
+>* Le attività e i problemi di Workfront convertiti dalle richieste di Workfront nel campo Oggetto creato.
 
 Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 
@@ -128,14 +128,9 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
    * Visualizzazione
    * Filtro
    * Colonne
-
-   <div class="preview">
-
-   * **Raggruppamento**
+   * Raggruppamento
    * Formatta celle
    * Altezza riga
-
-   </div>
 
    Per ulteriori informazioni sulla gestione delle informazioni nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 

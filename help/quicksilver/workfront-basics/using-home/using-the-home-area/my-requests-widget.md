@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 6%
+source-wordcount: '694'
+ht-degree: 7%
 
 ---
 
 # Utilizzare il widget Le mie richieste
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * Visualizzazione
    * Filtro
    * Colonne
-
-   <div class="preview">
-
    * Raggruppamento
    * Formatta celle
    * Altezza riga
-
-   </div>
 
    Per ulteriori informazioni sull&#39;aggiornamento degli elementi di visualizzazione nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -212,7 +209,7 @@ Per cercare richieste specifiche nel widget Richieste personali:
 >
 >* Richieste Planning e Workfront nel campo Oggetto.
 >* Record di Planning creati dalle richieste di Planning nel campo Oggetto creato.
->* <span class="preview">Attività e problemi di Workfront convertiti da richieste Workfront nel campo Oggetto creato nell&#39;ambiente di anteprima.</span>
+>* Le attività e i problemi di Workfront convertiti dalle richieste di Workfront nel campo Oggetto creato.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**, quindi fai clic su di esso per aggiungerlo alla **Home**.
@@ -223,10 +220,7 @@ Per cercare richieste specifiche nel widget Richieste personali:
 
    >[!TIP]
    >
-   >Nell&#39;ambiente di produzione solo i record di Planning hanno un collegamento nel campo **Oggetto creato**.
-   >   
-   ><span class="preview">Nell&#39;ambiente di anteprima, le attività e i progetti Workfront convertiti da problemi e i record Planning creati da richieste Planning hanno un collegamento nel campo **Oggetto creato**.</span>
-   >
+   >Le attività e i progetti Workfront convertiti da problemi e i record Planning creati da richieste Planning hanno un collegamento nel campo **Oggetto creato**.
 
 
 

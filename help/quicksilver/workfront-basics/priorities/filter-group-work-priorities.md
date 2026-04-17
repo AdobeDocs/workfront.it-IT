@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 11%
@@ -153,8 +153,8 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 {{step1-to-priorities}}
 
-1. Fai clic su **Gruppi** in alto a sinistra nell&#39;elenco lavori.
-1. Selezionare un gruppo per organizzare l&#39;elenco lavori.
+1. Fai clic su **Raggruppamento** in alto a sinistra nell&#39;elenco lavori.
+1. Selezionare un raggruppamento per organizzare l&#39;elenco lavori.
 
 ![Gruppi](assets/groups-new.png)
 
@@ -179,11 +179,11 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 ## Ordinare il lavoro
 
-### Ordina in gruppi
+### Ordinare in raggruppamenti
 
-Per ordinare il lavoro all&#39;interno di un gruppo, apri **Gruppo** e seleziona se desideri ordinare in ordine crescente o decrescente.
+Per ordinare il lavoro all&#39;interno di un raggruppamento, apri **Raggruppamento** e seleziona se desideri ordinare in ordine crescente o decrescente.
 
-![Ordina in gruppi](assets/sort-in-groups.png)
+![Ordina in raggruppamenti](assets/sort-in-groups.png)
 
 ### Ordinare le colonne
 

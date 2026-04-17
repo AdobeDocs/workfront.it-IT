@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 4%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 4%
 
 # Collegare tipi di record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare i tipi di record:</span>
+     >È possibile utilizzare la seguente combinazione di tastiera per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare tipi di record:
      >
-     >* <span class="preview">CTRL+K per Windows</span>
-     >* <span class="preview">⌘+K per Mac</span>
+     >* CTRL+K per Windows
+     >* ⌘+K per Mac
      >
      >![Casella di ricerca globale](assets/global-search-box.png)
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 
      ![Selezione connessione progetto Workfront](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * Tipo di oggetto **richiesta originale** dalla sezione **Tipi di oggetto Workfront**.
 
@@ -254,8 +253,6 @@ Old:
      >* [Inviare le richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md).
 
      ![Selezione connessione richiesta originale](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * **Experience Manager** dalla sezione **Applicazioni Adobe**.
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >L’amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L’amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi ad Experience Manager, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* Non è possibile aggiungere campi di riferimento da un&#39;altra applicazione come campi di ricerca. Ad esempio, non è possibile aggiungere un gruppo di progetti o una società come campo di ricerca in Planning quando ci si connette a progetti Workfront.
+   >* Non è possibile aggiungere campi di riferimento da un&#39;altra applicazione come campi di ricerca. Ad esempio, non è possibile aggiungere Progetto, Gruppo o Società come campo di ricerca in Planning quando ci si connette a progetti Workfront.
    >
-   >* Nell’ambiente di produzione non è possibile aggiungere campi utente di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca. <span class="preview">È possibile aggiungere campi utente come campi di ricerca nell&#39;ambiente di anteprima.</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
    >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
-   >* Nell’ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. <span class="preview">È possibile aggiungere campi Persone come campi di ricerca nell&#39;ambiente di anteprima.</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Fai clic su **Crea**.
 

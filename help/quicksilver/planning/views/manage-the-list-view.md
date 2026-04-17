@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* Non è possibile modificare le visualizzazioni di sistema.
       >
-      >* <span class="preview">È possibile reimpostare una visualizzazione condivisa con l&#39;utente che dispone solo delle autorizzazioni di visualizzazione, dopo averla modificata per ripristinarne le preferenze originali, oppure è possibile copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* È possibile reimpostare una visualizzazione condivisa con l&#39;utente che dispone solo delle autorizzazioni necessarie per la visualizzazione, dopo averla modificata per ripristinarne le preferenze originali, oppure copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) per aggiungere un filtro alla visualizzazione. I risultati vengono filtrati immediatamente nell’elenco. Non è possibile salvare e denominare i filtri. I filtri vengono ricordati quando accedi alla pagina in futuro e fanno parte di visualizzazioni condivise.
 
       >[!TIP]
       >
-      ><span class="preview">Per applicare un filtro personalizzato, selezionare una delle opzioni seguenti per un valore di campo:
-      >
-      ><div class="preview">
+      >Per applicare un filtro personalizzato, seleziona una delle seguenti opzioni per un valore di campo:
       >
       >* **Utente connesso** per fare riferimento all&#39;utente connesso nei campi relativi agli utenti.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **La mia azienda** per fare riferimento alla tua azienda nei campi che si riferiscono alle aziende.
       > 
       >* **I miei ruoli** o **Il mio ruolo principale** per fare riferimento alle tue mansioni nei campi che fanno riferimento alle mansioni.
-      >
-      ></div>
 
    1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per selezionare le colonne da visualizzare o da nascondere nella visualizzazione.
    1. Passa il puntatore del mouse sul nome di una colonna, fai clic sulla freccia rivolta verso il basso a sinistra del nome della colonna, quindi fai clic su una delle seguenti opzioni:
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       È possibile aggiungere solo campi esistenti alla visualizzazione elenco.
 Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
 
-   1. <span class="preview">Fare clic sull&#39;icona **Formatta celle** ![Formatta celle](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**.</span> <!--change the name of the box when they update it-->
-      <span class="preview">Effettuare le seguenti operazioni: </span>
+   1. Fare clic sull&#39;icona **Formatta celle** ![Formatta celle icona](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**. <!--change the name of the box when they update it-->
+Effettua le seguenti operazioni:
 
-      1. <span class="preview">Fare clic su **Aggiungi condizione**.</span>
-      1. <span class="preview">Nella riga **If**, selezionare un campo, scegliere un valore di campo e aggiungere un modificatore. I modificatori cambiano a seconda del tipo di campo scelto. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">Per la formattazione condizionale sono disponibili solo i campi visibili nella visualizzazione elenco.</span>
-
-      1. <span class="preview">(Facoltativo) Anziché aggiungere un valore di campo, fare clic sull&#39;icona **Confronta con un altro campo** ![Confronta con un altro campo](assets/compare-to-another-field-icon.png) e scegliere un campo di cui si desidera confrontare il valore con il valore del campo selezionato. Ad esempio, puoi confrontare i campi Proprietario progetto e Sponsor progetto. </span>
+      1. Fai clic su **Aggiungi condizione**.
+      1. Nella riga **If**, selezionare un campo, scegliere un valore di campo e aggiungere un modificatore. I modificatori cambiano a seconda del tipo di campo scelto.
 
          >[!TIP]
          >
-         ><span class="preview">Per la formattazione condizionale sono disponibili solo i campi visibili nella visualizzazione elenco. I campi da confrontare devono essere dello stesso tipo. </span>
+         >Solo i campi visibili nella vista a elenco sono disponibili per la formattazione condizionale.
 
-      1. <span class="preview">(Facoltativo) Fare clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.</span>
+      1. (Facoltativo) Anziché aggiungere un valore di campo, fare clic sull&#39;icona **Confronta con un altro campo** ![Confronta con un altro campo](assets/compare-to-another-field-icon.png) e scegliere un campo di cui si desidera confrontare il valore con il valore del campo selezionato. Ad esempio, puoi confrontare i campi Proprietario progetto e Sponsor progetto.
 
          >[!TIP]
          >
-         ><span class="preview">È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.</span>
+         >Solo i campi visibili nella vista a elenco sono disponibili per la formattazione condizionale. I campi da confrontare devono essere dello stesso tipo.
 
-      1. <span class="preview">Fare clic sul connettore **Or** tra le condizioni per passare a **And** e per indicare che è necessario soddisfare più condizioni contemporaneamente. **O** è il connettore predefinito.</span>
-      1. <span class="preview">Nella riga **Formato**, selezionare un campo per indicare la colonna da formattare.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **cerchio colore** ![icona cerchio colore](assets/color-circle.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore nell&#39;area **Riempimento cella** per modificare il colore dello sfondo in una cella o scegliere un colore dall&#39;area **Colore testo** per modificare il colore del testo in una cella.</span>
-      1. <span class="preview">Fare clic sull&#39;icona **Formato testo** ![Icona Formato testo](assets/text-format-icon.png) e selezionare una delle opzioni seguenti per formattare il testo in una cella:</span>
-         * <span class="preview">Grassetto</span>
-         * <span class="preview">Corsivo</span>
+      1. (Facoltativo) Fai clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.
 
-      1. <span class="preview">Attiva l&#39;impostazione **Applica a riga** per applicare la formattazione all&#39;intera riga del campo che soddisfa le condizioni.</span>
-      1. <span class="preview">(Facoltativo) Fare clic su **Aggiungi condizione** nella casella **Formato** per aggiungere un&#39;altra regola per un altro campo e ripetere i passaggi precedenti.</span>
-      1. <span class="preview">(Facoltativo) Fare clic su **Cancella tutto** per rimuovere tutta la formattazione.</span>
-      1. <span class="preview">Fare clic all&#39;esterno della casella **Formato** per chiuderla.</span>
+         >[!TIP]
+         >
+         >È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.
 
-         <span class="preview">Viene ripristinata la visualizzazione elenco.</span>
-         <span class="preview">La formattazione viene applicata immediatamente alla visualizzazione elenco.</span>
-         <span class="preview">Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.</span>
+      1. Fare clic sul connettore **Or** tra le condizioni per passare a **And** e indicare che è necessario soddisfare più condizioni contemporaneamente. **Or** è il connettore predefinito.
+      1. Nella riga **Formato** selezionare un campo per indicare la colonna da formattare. <!--edit this area, if it changes names??-->
+      1. (Facoltativo) Fai clic sull&#39;icona **cerchio colore** ![icona cerchio colore](assets/color-circle.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore nell&#39;area **Riempimento cella** per modificare il colore dello sfondo in una cella o scegliere un colore dall&#39;area **Colore testo** per modificare il colore del testo in una cella.
+      1. Fai clic sull&#39;icona **Formato testo** ![Icona Formato testo](assets/text-format-icon.png) e seleziona una delle seguenti opzioni per formattare il testo in una cella:
+         * Grassetto
+         * Corsivo
 
-   1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) &lt;!-hanno aggiornato questo a &quot;Raggruppamento&quot;??-> per raggruppare gli elementi nell’elenco in base a un campo comune. Selezionare una delle opzioni oppure utilizzare la barra di ricerca per trovare un campo.</span>
+      1. Attivare l&#39;impostazione **Applica a riga** per applicare la formattazione all&#39;intera riga del campo che soddisfa le condizioni.
+      1. (Facoltativo) Fai clic su **Aggiungi condizione** nella casella **Formato** per aggiungere un&#39;altra regola per un altro campo e ripetere i passaggi precedenti.
+      1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutta la formattazione.
+      1. Fare clic all&#39;esterno della casella **Formato** per chiuderla.
 
-      <span class="preview">Il campo deve essere una colonna nell&#39;elenco prima di poter essere raggruppato in base a esso. Non tutti i tipi di campo possono essere utilizzati per i raggruppamenti.</span>
+         In questo modo si ritorna alla vista elenco.
+La formattazione viene applicata immediatamente alla visualizzazione elenco.
+Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
-   1. <span class="preview">Fare clic sull&#39;icona **Altezza riga** ![Icona Altezza riga](assets/row-height-icon.png) per aggiornare la lunghezza verticale di una riga. Scegliere una delle opzioni seguenti: </span>
+   1. (Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> per raggruppare gli elementi nell&#39;elenco in base a un campo comune. Seleziona una delle opzioni oppure utilizza la barra di ricerca per trovare un campo.
 
-      <div class="preview">
+      Il campo deve essere una colonna nell&#39;elenco prima di poter essere raggruppato in base a esso. Non tutti i tipi di campo possono essere utilizzati per i raggruppamenti.
+
+   1. Fai clic sull&#39;icona **Altezza riga** ![Icona Altezza riga](assets/row-height-icon.png) per aggiornare la lunghezza verticale di una riga. Scegli una tra le opzioni seguenti:
 
       * Piccola
       * Standard. Questa è la scelta predefinita.
       * Canale
       * Alta
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
