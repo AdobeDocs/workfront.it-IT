@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 24%
@@ -20,7 +20,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -515,3 +515,5 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 ### Aggiornamenti della formazione
 
 Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione “Novità” della [pagina dei tutorial di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+
+

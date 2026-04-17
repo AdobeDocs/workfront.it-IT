@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 9%
@@ -144,3 +144,5 @@ Con i modelli di flusso di lavoro di approvazione, puoi:
 * Garantire il coinvolgimento delle parti interessate nella fase giusta
 
 Per ulteriori informazioni, vedere [Creare un modello di workflow di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+
