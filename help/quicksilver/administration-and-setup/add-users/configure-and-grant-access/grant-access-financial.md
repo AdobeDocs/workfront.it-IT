@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '787'
 ht-degree: 6%
 
 ---
 
 # Concedere l’accesso ai dati finanziari
-
-{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di un utente ai seguenti elementi tramite il suo livello di accesso, come spiegato in [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -61,18 +59,14 @@ Quando consenti agli utenti di accedere ai dati finanziari in Workfront, conside
 * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
 * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può creare un rischio per un progetto. Per ulteriori informazioni, vedere [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * È inoltre possibile utilizzare un livello di accesso per determinare quali attività di gestione delle risorse un utente può utilizzare per preventivare o visualizzare l&#39;allocazione delle risorse. Per informazioni, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
-* <span class="preview">L&#39;accesso alle tariffe di fatturazione, ai tassi di costo e alla finanza generale è separato, consentendo un controllo più preciso per diversi ruoli utente che gestiscono dettagli finanziari complessi. La contabilità generale è costituita da dati finanziari aggiuntivi che non includono fatturazione e tassi di costo.</span>
+* L’accesso alle tariffe di fatturazione, ai tassi di costo e alla finanza generale è separato, consentendo un controllo più preciso per diversi ruoli utente che gestiscono dettagli finanziari complessi. La finanza generale è un dato finanziario aggiuntivo che non include fatturazione e tassi di costo.
 
 ## Configurare l’accesso degli utenti ai dati finanziari utilizzando un livello di accesso personalizzato
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Dati finanziari, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Ottimizzare l&#39;accesso ai dati finanziari](assets/financial-data-access-fine-tune.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Ottimizzare l&#39;accesso ai dati finanziari](assets/financial-data-fine-tune-nwe.png)
 
 1. (Facoltativo) Nell&#39;area **Consenti accesso amministrativo per**, selezionare le opzioni seguenti:
 
@@ -131,36 +125,66 @@ Un utente che non ha accesso ai dati finanziari non ha accesso ai seguenti eleme
 
 * Sezione Finanza in Oggetti progetto e attività
 * Business case
-* Tariffe di fatturazione e record di fatturazione sui progetti
-* Costo all’ora e fatturazione all’ora sui profili utente
-* Costo orario e fatturazione all&#39;ora per le mansioni
+* Record fatturazione per progetti
+* Tariffe di fatturazione e tassi di costo sui progetti
+
+<!--  
+
+* Cost per hour and billing per hour on user profiles
+* Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### Accesso in visualizzazione
 
 Un utente con accesso di visualizzazione ai dati finanziari può visualizzare (non modificare) quanto segue:
 
 * Sezione Finanza in Oggetti progetto e attività
+
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
+
 * Business case
-* Tariffe di fatturazione e record di fatturazione sui progetti
-* Costo all’ora e fatturazione all’ora sui profili utente
+* Record fatturazione per progetti
+* Tariffe di fatturazione e tassi di costo sui progetti
 
   È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
 
-* Costo orario e fatturazione all&#39;ora per le mansioni
+<!--  
 
-  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Visualizza nel passaggio 4 precedente.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->
 
 ### Accesso per la modifica
 
 L’utente con accesso in modifica ai dati finanziari può visualizzare e modificare quanto segue:
 
 * Sezione Finanza in Oggetti progetto e attività
+
+  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.
+
 * Business case
-* Tariffe di fatturazione, record di fatturazione e tassi di costo per i progetti
-* Costo all’ora e fatturazione all’ora sui profili utente
+* Record fatturazione per progetti
+* Tariffe di fatturazione e tassi di costo sui progetti
 
   È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.
 
-* Costo orario e fatturazione all&#39;ora per le mansioni
+<!--  
 
-  È possibile configurarlo utilizzando l&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante Modifica nel passaggio 4 precedente.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+

@@ -8,7 +8,7 @@ author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 10%
@@ -16,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Concedere l’accesso alle schede tariffa
-
-{{highlighted-preview-article-level}}
 
 In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di un utente alle schede di valutazione attraverso il suo livello di accesso, come spiegato in [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
