@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 1%
+source-wordcount: '1269'
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* **Se la tua organizzazione è stata integrata in Adobe Admin Console, devi creare gli amministratori di sistema tramite Adobe Admin Console.**
+>* **È necessario creare gli amministratori di sistema tramite Adobe Admin Console.**
 >
 >   Per istruzioni sulla creazione di amministratori di sistema in Adobe Admin Console, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -29,24 +29,25 @@ ht-degree: 1%
 >
 >   Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
->* **Se l&#39;organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni a Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
->  &#x200B;>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
->* **Se l&#39;organizzazione non utilizza il Single Sign-On (SSO)**, è possibile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
+>* **Se l’organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni ad Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
+>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
+>* **Se l’organizzazione non utilizza il Single Sign-On (SSO)**, puoi aggiungere utenti non amministratori di sistema direttamente in Workfront. Anche se è possibile aggiungere utenti in Adobe Admin Console, aggiungerli in Workfront consente di configurarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
 
-
-Puoi aggiungere utenti in Adobe Workfront creando singoli utenti da zero o copiando quelli esistenti.
-
-Per informazioni su come importare più utenti contemporaneamente, vedere [Importare utenti](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 <!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+
+You can add users in Adobe Workfront by creating individual users from scratch or by copying existing users.
+
+For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 -->
+
+In qualità di amministratore di Adobe, puoi aggiungere utenti ad Adobe Workfront aggiungendoli al tuo profilo di prodotto Workfront in Adobe Admin Console. Per istruzioni, vedere [Gestire gli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +58,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -124,9 +125,9 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
    >
    >* Se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il campo Consenti solo autenticazione &lt;Configurazione SSO> è nascosto se si disabilita l&#39;invito e-mail. Il campo ID federazione o Nome utente &lt;Configurazione SSO> rimane visibile.
    >
-   >* Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+   >* Poiché la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
    >
-   >   Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+   >   Per gli utenti Adobe esistenti, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
 1. Fai clic su **Aggiungi questa persona**.
 
@@ -141,8 +142,8 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
    >* Se l’utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti e un aggiornamento della schermata non rimuove il badge In attesa di approvazione, puoi approvare l’utente manualmente.
    >
    >   1. Vai a Configurazione > Utenti.
-   >   1. Selezionare uno o più utenti nell&#39;elenco Utenti.
-   >   1. Fai clic sul menu a tre punti nell’intestazione dell’elenco.
+   >   1. Seleziona uno o più utenti nell’elenco Utenti.
+   >   1. Fai clic sul menu con i tre punti nell’intestazione dell’elenco.
    >   1. Seleziona **Approva**.
    >   1. Dopo alcuni minuti, aggiorna la pagina.
 
@@ -181,6 +182,6 @@ Se hai selezionato l’opzione per inviare un invito all’utente, questo dovreb
 
 >[!NOTE]
 >
->Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+>Poiché la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
 >
->Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+>Per gli utenti Adobe esistenti, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.

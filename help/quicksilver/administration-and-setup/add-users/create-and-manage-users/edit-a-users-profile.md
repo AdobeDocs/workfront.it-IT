@@ -8,25 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3425'
 ht-degree: 3%
 
 ---
 
 # Modificare il profilo di un utente
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 In qualità di amministratore di Adobe Workfront, puoi creare utenti e gestire i profili di quelli esistenti. Per informazioni sulla creazione di utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -90,7 +79,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
   Se utilizzi il elenco Consentiti di gestione delle e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di gestione dei messaggi di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
-  Se la tua organizzazione è stata migrata a Adobe Admin Console, non puoi modificare l’indirizzo e-mail di un utente in Workfront. L’indirizzo e-mail dell’utente è impostato in Adobe Admin Console.
+  Poiché la tua organizzazione è stata migrata a Adobe Admin Console, non puoi modificare l’indirizzo e-mail di un utente in Workfront. L’indirizzo e-mail dell’utente è impostato in Adobe Admin Console.
 
 * **Modifica password**: fare clic su questo pulsante per reimpostare la password dell&#39;utente. È necessario immettere la propria password prima di reimpostare quella di un altro utente.
 
@@ -126,7 +115,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 * **Informazioni processo**: informazioni sul processo, come il titolo del processo (nel campo **Titolo**) e l&#39;area di competenza di cui è responsabile l&#39;utente (nel campo **Informazioni su**).
 * **Informazioni di contatto**: numero di telefono dell&#39;utente (in **Numero di telefono**, **Est.** e **Campi Numero cellulare**) e indirizzo (nei campi **Indirizzo**, **Città**, **Stato**, **Codice postale** e **Paese**).
 
-  Se l&#39;utente è abilitato per Unified User Management (UUM) o Adobe Identity Management System (IMS), il campo **Paese** nella sezione Informazioni contatto accetta solo i valori del codice paese (ad esempio, US, GB, IN).
+  Il campo **Paese** nella sezione Informazioni di contatto accetta solo valori di codice paese (ad esempio, US, GB, IN).
 
 ### Preferenze
 
@@ -399,8 +388,8 @@ Digita il commento da inviare all’utente e alla sezione Aggiornamenti del suo 
        <ul> 
       <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li>
 
-      <li><p><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront to this user.</p>
-      <p><b>NOTE:</b> When your organization is on the Adobe Unified Experience, the user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
+      <li><p><b>Email Locale</b>: The user's preferred email locale. </p>
+      <p><b>NOTE:</b> The user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
       
       <li><b>Receive emails from this test environment</b>: Check this option if you want to receive email notifications from the environment that you are currently logged in.
       <p><b>NOTE</b></p>

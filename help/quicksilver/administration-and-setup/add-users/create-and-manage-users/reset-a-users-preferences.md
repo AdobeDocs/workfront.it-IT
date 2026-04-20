@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '305'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ I singoli utenti possono inoltre reimpostare le proprie preferenze utente.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +36,13 @@ I singoli utenti possono inoltre reimpostare le proprie preferenze utente.
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,25 +120,13 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 1. Selezionare **Accedi Come**.
 1. Inizia a digitare il nome dell’utente di cui desideri reimpostare le preferenze, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
 1. Seleziona **Accedi**.
-1. Se per la tua organizzazione non è stato eseguito l’onboarding in Adobe Unified Experience, segui questo passaggio:
+1. Nel campo URL nella parte superiore del browser Web, aggiungi `/resetUser` dopo `workfront`.
 
-   * Nel campo URL nella parte superiore del browser Web, aggiungi `/resetUser` dopo `workfront.com`.
-
-     >[!NOTE]
-     >
-     >È sensibile a maiuscole e minuscole. La U deve essere in maiuscolo e i caratteri rimanenti devono essere minuscoli. Ad esempio:
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. Se la tua organizzazione è stata integrata in Adobe Unified Experience, segui questo passaggio:
-
-   * Nel campo URL nella parte superiore del browser Web, aggiungi `/resetUser` dopo `workfront`.
-
-     >[!NOTE]
-     >
-     >È sensibile a maiuscole e minuscole. La U deve essere in maiuscolo e i caratteri rimanenti devono essere minuscoli. Ad esempio:
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >È sensibile a maiuscole e minuscole. La U deve essere in maiuscolo e i caratteri rimanenti devono essere minuscoli. Ad esempio:
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Premere **Invio**.
 

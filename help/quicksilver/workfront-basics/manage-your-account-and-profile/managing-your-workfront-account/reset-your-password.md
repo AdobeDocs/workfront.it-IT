@@ -1,78 +1,93 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Reimposta la password
+title: Ripristinare la password
 description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
+source-git-commit: 75611cc7c90a3f5935466f2d40ee1bb8243e0e10
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-# Reimposta la password
+# Ripristinare la password
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>
+>Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
 
 {{important-not-on-aec}}
 
-È possibile reimpostare la password di [!DNL Adobe Workfront]. Come misura di sicurezza importante, ti consigliamo di farlo regolarmente.
+You can reset your [!DNL Adobe Workfront] password. As an important security measure, we recommend that you do this regularly.
 
 >[!NOTE]
 >
->Un amministratore di [!DNL Workfront] può configurare le restrizioni delle password personalizzate, come spiegato in [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) e [Configurare i criteri delle password per l&#39;autenticazione](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
-><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
+>[!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
-## Requisiti di accesso
+<!--
+## Access requirements
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col>
+ </col> 
+ <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td>Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Reimposta la password in [!DNL Adobe Workfront]
+## Reset your password in [!DNL Adobe Workfront]
 
 {{step1-click-profile-pic}}
 
-![Apri il menu principale e seleziona il tuo nome utente.](assets/main-menu-options-350x481.png)
+   ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. Fai clic sull&#39;icona **[!UICONTROL Altro menu]** ![Altro](assets/more-icon.png), quindi su **[!UICONTROL Modifica]**.
+1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. Nella casella **[!UICONTROL Modifica persona]** che visualizza, in **[!UICONTROL Informazioni personali]**, fare clic su **[!UICONTROL Cambia password]**.
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Change password]**.
 
-   ![Cambia password](assets/edit-user-change-password.png)
+   ![Click Change password](assets/edit-user-change-password.png)
 
-   Se la tua organizzazione ha integrato [!DNL Workfront] con una soluzione SSO, potresti essere indirizzato per reimpostare le password tramite il sistema SSO quando fai clic su **[!UICONTROL Cambia password]**. In questo modo viene ripristinata la password SSO che influisce sull&#39;accesso a tutte le altre applicazioni all&#39;interno dell&#39;organizzazione.
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Change password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
-1. Digitare la vecchia password, quindi digitare la nuova password due volte.
+1. Type your old password, then type the new password you want twice.
 
-   La password deve avere almeno 8 caratteri e contenere due dei seguenti tipi di caratteri:
+   Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * Lettere maiuscole
-   * Lettere minuscole
-   * Numeri
-   * Caratteri speciali (come ! @ # $ %)
+   * Uppercase letters
+   * Lowercase letters
+   * Numbers
+   * Special characters (such as ! @ # $ %)
 
-   Le regole delle password potrebbero essere più severe di questa, a seconda delle impostazioni di configurazione impostate dall&#39;amministratore [!DNL Workfront].
+   Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Click **[!UICONTROL Save]**.
+
+-->

@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 9%
+source-wordcount: '1473'
+ht-degree: 8%
 
 ---
 
@@ -61,8 +61,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per utilizzare il riempimento modulo basato su IA per compilare una richiesta utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
 
-* L’organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
-* Adobe Unified Experience deve essere abilitata
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * L’organizzazione deve disporre di un piano Workfront Ultimate, Prime o Select
 * Adobe deve disporre di un accordo Adobe Gen AI firmato registrato
 

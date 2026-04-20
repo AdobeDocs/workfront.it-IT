@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Utilizzando il Single Sign-On (SSO), è possibile passare gli attributi da Activ
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Utilizzando il Single Sign-On (SSO), è possibile passare gli attributi da Activ
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -60,75 +60,6 @@ Quando mappate gli attributi, tenete presente quanto segue:
   Esempio: se mappi &quot;cognome&quot; e aggiorni il loro nome in Workfront senza aggiornare il valore nel loro provider di identità, il cognome verrà sovrascritto in modo che corrisponda al valore di qualsiasi elemento presente nel provider di identità alla successiva connessione dell’utente.
 
 ## Mappare gli attributi utente per la tua organizzazione
-
-La procedura per la mappatura degli attributi varia a seconda che l’organizzazione utilizzi o meno l’esperienza unificata di Adobe.
-
-Per determinare se la tua organizzazione utilizza l’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
-
-| URL | Esperienza Adobe |
-|---|---|
-| (NomeSocietà).my.workfront.com | Esperienza classica |
-| experience.adobe.com | Esperienza unificata Adobe |
-
-* [Mappatura degli attributi utente nell’esperienza classica](#map-user-attributes-in-the-classic-experience)
-* [Mappatura degli attributi utente nell’esperienza unificata di Adobe](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Mappatura degli attributi utente nell’esperienza classica
-
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
-
-1. Fare clic su **Sistema** > **Single Sign-On (SSO)**.
-
-1. Nel menu a discesa **Tipo**, fare clic su **SAML 2.0**.
-
-1. Fare clic su **Mappa attributi utente**.
-
-   ![Mappa attributi utente](assets/map-user-attributes.png)
-
-1. Nella riga di opzioni visualizzata, mappa gli attributi necessari per gli utenti di Workfront.
-
-   Puoi mappare attributi come Indirizzo, Manager, Ruolo, Gruppo predefinito e così via.
-
-   Le mappature degli attributi funzionano con un rapporto di 1:1. Ad esempio, non è possibile impostare ogni gruppo a cui appartiene un utente, ma solo uno per utente.
-
-   >[!IMPORTANT]
-   >
-   >È sconsigliato mappare i livelli di accesso nelle mappature degli attributi. In tal caso, presta attenzione quando imposti il valore predefinito per evitare di rimuovere inavvertitamente Admin Access.
-
-   Nella tabella seguente vengono illustrati i campi che è possibile utilizzare per mappare gli attributi:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Attributo utente Workfront</td> 
-      <td>Scegli il nome dell'attributo di cui stai eseguendo la mappatura</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Attributo di directory</td> 
-      <td>Digitare l'etichetta dell'attributo SSO che si desidera utilizzare.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Valore predefinito</td> 
-      <td> <p>Dopo aver scelto un attributo utente di Workfront, se il valore è NULL durante la connessione, questo campo viene compilato con il valore predefinito corrispondente nel sistema. Digita un valore qui solo se intendi applicare le regole di mappatura attributi (vedi passaggio 7). Il valore predefinito funge da eccezione a tali regole.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Facoltativo) Fai clic su **Regole** per aggiungere una regola all&#39;attributo.
-
-   1. Nell’elenco a discesa, scegli il modificatore di attributo che desideri utilizzare.
-   1. Nei 2 campi a destra, digita il valore dell’attributo della directory e il valore con cui desideri sostituirlo.
-
-      ![Campi regola](assets/rule-fields.png)
-
-   Puoi fare clic su **Aggiungi regola** per aggiungere altre regole all&#39;attributo.
-
-1. (Facoltativo) Per mappare altri attributi utente, fare clic su **Aggiungi mappatura** e ripetere i passaggi 6-7.
-1. Fai clic su **Salva**.
-
-### Mappatura degli attributi utente nell’esperienza unificata di Adobe
 
 1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-left.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 

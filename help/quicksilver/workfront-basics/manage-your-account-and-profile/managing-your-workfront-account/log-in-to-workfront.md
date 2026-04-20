@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '54'
+ht-degree: 31%
 
 ---
 
@@ -19,100 +19,110 @@ ht-degree: 100%
 
 <!--Audited: 2024-->
 
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>
+>Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-Per accedere a [!DNL Adobe Workfront] sono necessarie le seguenti informazioni:
+You need the following information to log in to [!DNL Adobe Workfront]:
 
-* **URL di accesso:** questo è l’URL univoco dell’azienda, che deve avere questo formato: **`yourCompanyDomain.my.workfront.com`**.\
-   Se sei configurato per il Single Sign-On (SSO), l’URL potrebbe essere stato modificato dall’amministratore [!DNL Workfront]. Per ulteriori informazioni sull’accesso a [!DNL Workfront] con SSO, consulta [Accedere a  [!DNL Workfront]  con SSO](#log-in-to-workfront-with-sso) in questo articolo.
+* **A login URL:** This is your company's unique URL, which should have this format: **`yourCompanyDomain.my.workfront.com`**.\
+   If you are set up for single sign-on (SSO), your URL might have been changed by your [!DNL Workfront] administrator. For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  Il nome di dominio dell’azienda è stabilito da [!DNL Workfront]. Per cambiare il nome di dominio, contatta il nostro team di Assistenza clienti. Per informazioni su come contattare il nostro team di Assistenza clienti, consulta [Contattare l’Assistenza clienti](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+   The domain name for your company is established by [!DNL Workfront]. To change your domain name, contact our Customer Support team. For information about how to contact our Customer Support team, see [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-* **Nome utente:** l’amministratore [!DNL Workfront] configura il nome utente.
-* **Password:** se il sistema non è configurato per l’SSO, impostare la password [!DNL Workfront] dopo aver ricevuto un invito e-mail dall’amministratore [!DNL Workfront].
+* **A username:** Your [!DNL Workfront] administrator sets up your user name.
+* **A password:** If your system is not set up for SSO, you set up your [!DNL Workfront] password after receiving an email invitation from the [!DNL Workfront] administrator.
 
-  Per ulteriori informazioni sull’accesso a [!DNL Workfront] con SSO, consulta [Accedere a  [!DNL Workfront]  con SSO](#log-in-to-workfront-with-sso) in questo articolo.
+   For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  Per ulteriori informazioni sulla ricezione di inviti e-mail e sulla creazione di una password [!DNL Workfront], consulta [Ricevere inviti e-mail e creare una password per  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+   For more information about receiving email invitations and creating a [!DNL Workfront] password, see [Receive email invitations and create a password for [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-## Requisiti di accesso
+## Access requirements
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza di Adobe Workfront</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>Collaboratore o successiva</p>
-   <p>Richiedente o successiva</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Accedere a [!DNL Workfront] senza SSO
+## Log in to [!DNL Workfront] without SSO
 
-Se l’amministratore [!DNL Workfront] non ha configurato [!DNL Workfront] per l’integrazione con la soluzione SSO, sarà necessario un nuovo nome utente e una nuova password per Workfront. Per informazioni sulla configurazione di Workfront per l’integrazione con una soluzione SSO, consulta [Panoramica del Single Sign-On in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+If your [!DNL Workfront] administrator did not set up [!DNL Workfront] to integrate with your SSO solution, you will need a new username and password for Workfront. For information about configuring Workfront to integrate with an SSO solution, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-Per accedere a [!DNL Workfront] utilizzando il nome utente e la password [!DNL Workfront]:
+To log into [!DNL Workfront] using your [!DNL Workfront] username and password:
 
-1. Apri una finestra del browser, quindi digita l’URL univoco dell’azienda, che deve avere il seguente formato: **`yourCompanyDomain.my.workfront.com`**.
+1. Open a browser window, then type in the unique URL of your company, which should have the following format: **`yourCompanyDomain.my.workfront.com`**.
 
-   Per ulteriori informazioni sui browser supportati per [!DNL Workfront], consulta [[!DNL Adobe Workfront] requisiti del browser](../../../workfront-basics/workfront-browser-requirements.md).
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. Nella schermata di accesso, immetti il nome utente e la password.
+1. In the login screen, enter your username and password.
 
-   Il nome utente è in genere l’indirizzo e-mail associato al tuo account [!DNL Workfront]. Se hai dimenticato la password, consulta [Reimpostare la password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+   Your username is typically the email address associated with your [!DNL Workfront] account. If you forgot your password, see [Reset your password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-1. (Condizionale) Se l’URL di accesso [!DNL Workfront] dell’organizzazione non contiene un dominio, è necessario specificare il dominio nel campo [!UICONTROL Dominio].
-1. Fai clic su **[!UICONTROL Accesso]**.
+1. (Conditional) If your organization's [!DNL Workfront] login URL doesn't contain a domain, you must specify your domain in the [!UICONTROL Domain] field.
+1. Click **[!UICONTROL Login]**.
 
-## Accedi a [!DNL Workfront] con SSO
+## Log in to [!DNL Workfront] with SSO
 
-Se l’amministratore [!DNL Workfront] ha integrato [!DNL Workfront] con una soluzione Single Sign-On, è necessario contattarlo per ottenere le informazioni necessarie per l’accesso a [!DNL Workfront]. Per ulteriori informazioni sull’integrazione di Workfront con una soluzione SSO, consulta [Panoramica sul Single Sign-On in  [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+If your [!DNL Workfront] administrator integrated [!DNL Workfront] with a single sign-on solution, you should contact them for the information needed for your logging in to [!DNL Workfront]. For more information about integrating Workfront with an SSO solution, see [Overview of single sign-on in [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-Per accedere a [!DNL Workfront] utilizzando il nome utente e la password SSO:
+To log in to [!DNL Workfront] using your SSO username and password:
 
-1. Apri una finestra del browser.
+1. Open a browser window.
 
-   Per ulteriori informazioni sui browser supportati per [!DNL Workfront], consulta [[!DNL Adobe Workfront] requisiti del browser](../../../workfront-basics/workfront-browser-requirements.md).
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. Digita l’URL univoco dell’azienda.
+1. Type the unique URL of your company.
 
-   Se l’amministratore [!DNL Workfront] non ha modificato l’URL predefinito di [!DNL Workfront], questo deve avere il seguente formato:
+   If your [!DNL Workfront] administrator did not change the default [!DNL Workfront] URL, it should have the following format:
 
    **`yourCompanyDomain.my.workfront.com`**
 
-1. L’amministratore [!DNL Workfront] può garantire che l’URL sia corretto.
-1. Nella schermata di accesso, immetti il nome utente e la password.
+1. Your [!DNL Workfront] administrator can ensure that you have the correct URL.
+1. On the login screen, enter your username and password.
 
-   Il nome utente e la password sono in genere il nome utente e la password di rete, che utilizzi per tutte le applicazioni. Se hai dimenticato la password o il nome utente, utilizza gli strumenti forniti nel tuo ambiente per reimpostarli oppure contatta l’amministratore [!DNL Workfront].
+   Your username and password are typically your network user name and password, which you use for all your applications. If you forgot your password or your user name, use the tools provided in your environment for resetting them, or contact your [!DNL Workfront] administrator.
 
-   L’aspetto della schermata di accesso cambia a seconda della soluzione SSO utilizzata e del modo in cui è stata configurata dall’amministratore [!DNL Workfront].
+   The look and feel of your login screen changes depending on what SSO solution you use and the way it was configured by your [!DNL Workfront] administrator.
 
-1. Completa l’accesso.
+1. Complete your login.
 
-## Accedere all’app mobile [!DNL Workfront] tramite il dominio dell’azienda
+## Log in to the [!DNL Workfront] mobile app using company domain
 
-1. Avvia l’app mobile [!DNL Workfront], quindi fai clic su **Accedi con il dominio dell’azienda**.
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with company domain**.
 
-1. Digita il dominio dell’organizzazione.
+1. Type your organization's domain.
 
-   Si tratta del dominio SAML se l’organizzazione utilizza l’SSO.
+   This is the SAML domain if your organization is using SSO.
 
    >[!TIP]
    >
-   >In genere si tratta del nome dell’azienda. In caso di dubbi, contatta l’amministratore [!DNL Workfront].
+   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.-->
 
 <!--
 1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
@@ -133,30 +143,30 @@ Per accedere a [!DNL Workfront] utilizzando il nome utente e la password SSO:
 1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
 -->
 
-1. (Condizionale) Se effettui l’accesso per la prima volta, verrà visualizzata una pagina in cui viene richiesta l’autorizzazione all’accesso all’account da parte dell’app mobile [!DNL Workfront]. Fai clic su **Consenti accesso** per continuare.
+<!--1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
 
-1. Vieni reindirizzato a una pagina Web che consente di accedere in modo identico al sito desktop. Questo processo varia a seconda della configurazione Workfront dell’organizzazione. Per ulteriori informazioni, consulta [Accedere a  [!DNL Workfront]  senza SSO](#log-in-to-workfront-without-sso) o [Accedere a  [!DNL Workfront]  con SSO](#log-in-to-workfront-with-sso).
+1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
 
-   Una volta completato, verrai reindirizzato all’app mobile e connesso.
+   Once complete, you are redirected by to the mobile app and signed in.
 
-1. Tocca **[!UICONTROL OK, ho capito]** o **[!UICONTROL GUIDA INTRODUTTIVA]** per spostarti tra i tutorial visualizzati.
+1. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   Questi tutorial vengono visualizzati solo al primo accesso all’app. Vengono visualizzati di nuovo solo quando disinstalli e reinstalli l’app mobile [!DNL Workfront] o se accedi come altro utente. Dopo aver chiuso i tutorial, l’area visualizzata è quella selezionata per la visualizzazione
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
 
-## Accedi all’app mobile [!DNL Workfront] utilizzando l’ID [!DNL Adobe]
+## Log in to the [!DNL Workfront] mobile app using [!DNL Adobe] ID
 
-1. Avvia l’app mobile [!DNL Workfront], quindi fai clic su **Accedi con l’ID [!DNL Adobe]**.
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with [!DNL Adobe] ID**.
 
 >[!NOTE]
 >
->Per gli utenti iOS su IMS, puoi selezionare **Accedi con il dominio dell’azienda** e utilizzare il dominio fornito dall’amministratore [!DNL Workfront] per accedere con il tuo ID [!DNL Adobe].
+>For iOS users on IMS, you can select **Sign in with company domain** and use the domain provided by your [!DNL Workfront] administrator to log in using your [!DNL Adobe] ID.
 
-1. Digita il tuo indirizzo e-mail, quindi fai clic su **Continua**.
+1. Type in your email, then click **Continue**.
 
-1. (Condizionale) Seleziona l’account che desideri utilizzare per accedere. In genere, questo sarà l’**account aziendale o dell’istituto di istruzione** se l’ID [!DNL Adobe] è associato a un’organizzazione.
+1. (Conditional) Select the account you would like to use to log in. Typically, this will be **Company or School Account** if your [!DNL Adobe] ID is associated with an organization. 
 
-1. (Condizionale) Seleziona un profilo da utilizzare se il tuo account è associato a più di un’organizzazione.
+1. (Conditional) Select a profile to use if your account is associated with more than one organization.
 
-1. Oraa hai effettuato l’accesso. Tocca **[!UICONTROL OK, ho capito]** o **[!UICONTROL GUIDA INTRODUTTIVA]** per spostarti tra i tutorial visualizzati.
+1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   Questi tutorial vengono visualizzati solo al primo accesso all’app. Vengono visualizzati di nuovo solo quando disinstalli e reinstalli l’app mobile [!DNL Workfront] o se accedi come altro utente. Dopo aver chiuso i tutorial, l’area visualizzata è quella selezionata per la visualizzazione
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show-->

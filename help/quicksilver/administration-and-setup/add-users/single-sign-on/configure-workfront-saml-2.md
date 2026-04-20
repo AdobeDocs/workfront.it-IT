@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 8%
+source-wordcount: '103'
+ht-degree: 11%
 
 ---
 
@@ -27,163 +27,171 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Admin Console.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in Adobe Admin Console.
 >
->Per mappare gli attributi utente nelle organizzazioni che hanno effettuato l&#39;onboarding in Adobe Admin Console, consulta [Mappare gli attributi utente nell&#39;esperienza unificata di Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell&#39;articolo Mappare gli attributi utente.
+>Poiché tutte le organizzazioni sono ora integrate in Adobe Admin Console, la procedura non è più disponibile.
+>
+>Per mappare gli attributi utente nelle organizzazioni che hanno effettuato l&#39;onboarding in Adobe Admin Console, vedi [Mappare gli attributi utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell&#39;articolo Mappare gli attributi utente.
 
-In qualità di amministratore di Adobe Workfront, puoi configurare le applicazioni web e mobili Workfront per l’integrazione con una soluzione SAML (Security Assertion Markup Language) 2.0 per il Single Sign-On (SSO).
+<!--Remove me October 2026-->
 
-Dopo aver configurato SAML 2.0 in Workfront, come descritto nelle sezioni seguenti, è possibile mantenere la configurazione, come descritto in [Aggiornare i metadati SAML 2.0 nel provider di identità](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+<!--
 
-## Requisiti di accesso
+As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+After you have configured SAML 2.0 in Workfront, as described in the following sections, you can maintain the configuration, as described in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td><p>Qualsiasi</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Standard</p><p>Piano</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Abilitare l’autenticazione in Workfront con SAML 2.0
+## Enable authentication to Workfront with SAML 2.0
 
 {{step-1-to-setup}}
 
-1. Fare clic su **Sistema** > **Single Sign-On (SSO).**
+1. Click **System** > **Single Sign-On (SSO).**
 
-1. Nell&#39;elenco a discesa **Tipo** selezionare **SAML 2.0.**
+1. In the **Type** drop-down list, select **SAML 2.0.**
 
-1. Nella parte superiore delle opzioni visualizzate, fai clic su **Scarica metadati SAML 2.0** per scaricare il file sul computer.
+1. Near the top of the options that appear, click **Download SAML 2.0 Metadata** to download the file on your computer.
 
-   Il provider di identità SAML 2.0 richiede un file XML con le informazioni generate nell&#39;istanza di Workfront. Dopo aver scaricato il file, devi accedere al server del provider di identità SAML 2.0 e caricare il file XML dei metadati SAML 2.0 di Workfront.
+   Your SAML 2.0 Identity Provider requires an XML file with information generated in your Workfront instance. After downloading the file, you must access your SAML 2.0 Identity Provider server and upload the Workfront SAML 2.0 Metadata XML file there.
 
-1. Specifica le seguenti informazioni in Workfront:
+1. Specify the following information in Workfront:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">ID provider servizi </td>
-      <td> Questo URL, già compilato per te, identifica Workfront nel tuo provider di identità. Esempio: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td role="rowheader">Service Provider ID </td>
+      <td> This URL, already populated for you, identifies Workfront to your identity provider. For example: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
      </tr>
      <tr>
-      <td role="rowheader">Tipo di associazione</span> </td>
-      <td> <p>Selezionare il metodo supportato dal server IDP per l'invio delle informazioni di autenticazione:</p>
+      <td role="rowheader">Binding Type</span> </td>
+      <td> <p>Select the method supported by your IDP server for sending authentication information:</p>
        <ul>
        <li>POST</li>
-       <li>REINDIRIZZAMENTO</li>
+       <li>REDIRECT</li>
        </ul> </td>
      </tr>
      <tr>
-      <td role="rowheader">Compila i campi dai metadati del provider di identità </td> 
-      <td>Nella soluzione SAML 2.0 Identity Provider, esportare un file XML dei metadati del provider di servizi e salvarlo in una posizione temporanea nel computer. Seleziona <strong>Scegli file</strong>, quindi individua e seleziona il file salvato per aggiungerlo alla configurazione di Workfront.</td> 
+      <td role="rowheader">Populate fields from Identity Provider Metadata </td> 
+      <td>In your SAML 2.0 Identity Provider solution, export a Service Provider Metadata XML file and save it to a temporary location on your computer. Select <strong>Choose File</strong>, then find and select the file you saved to add it to your Workfront configuration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">URL portale di accesso</span> </td> 
-      <td>Inserisci il portale di accesso comune della tua organizzazione. Questo è l’URL in cui gli utenti accedono per accedere a Workfront e a tutte le altre applicazioni integrate con SAML 2.0.</td> 
+      <td role="rowheader">Login Portal URL</span> </td> 
+      <td>Enter your organization's common login portal. This is the URL where users log in to access Workfront and all other applications integrated with SAML 2.0.</td> 
      </tr>
      <tr>
-      <td role="rowheader">URL disconnessione</span> </td> 
-      <td> <p>Immettere l'URL di disconnessione per il server IDP. Workfront invia una richiesta HTTP a questo URL prima di uscire da Workfront. Questa operazione consente di chiudere la sessione dell'utente sul server remoto quando viene chiusa la sessione di Workfront.</p> <p><b>NOTA</b>: l'utente viene reindirizzato all'URL di disconnessione solo se nel profilo utente è abilitata l'opzione <strong>Consenti solo autenticazione SAML 2.0</strong>.</p> </td>
+      <td role="rowheader">Sign-Out URL</span> </td> 
+      <td> <p>Enter the sign-out URL for the IDP server. Workfront sends an HTTP request to this URL before signing out of Workfront. This closes the user's session on the remote server when the Workfront session is closed.</p> <p><b>NOTE</b>:  You are redirected to the sign-out URL only if you have the option <strong>Only Allow SAML 2.0 Authentication</strong> enabled in your user profile.</p> </td>
      </tr>
      <tr>
-      <td role="rowheader">Cambia URL password </td> 
-      <td> <p> Specifica l’URL a cui verranno reindirizzati gli utenti per modificare le password. </p> <p>Poiché le credenziali SAML 2.0 vengono utilizzate per accedere a Workfront, gli utenti devono essere reindirizzati a una pagina in cui possono modificare la password SAML 2.0 invece di completare questa attività tramite Workfront.</p> </td> 
+      <td role="rowheader">Change Password URL </td> 
+      <td> <p> Specify the URL where users will be redirected to change their passwords. </p> <p>Because the SAML 2.0 credentials are used to access Workfront, users must be redirected to a page where they can change their SAML 2.0 password instead of completing this activity through Workfront.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Algoritmodi Hash sicuro </td> 
-      <td> <p>Selezionare l'algoritmo SHA (Secure Hash Algorithm) supportato dall'IDP:</p> 
+      <td role="rowheader">Secure Hash Algorithm </td> 
+      <td> <p>Select the Secure Hash Algorithm (SHA) that your IDP supports:</p> 
        <ul> 
        <li>SHA-1</li> 
        <li>SHA-256</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Provisioning automatico utenti</span> </td> 
-      <td> <p>Questa opzione crea automaticamente un utente nel sistema quando un nuovo utente con nome utente e password della directory tenta di accedere a Workfront per la prima volta.</p> <p>Per creare utenti in Workfront, è necessario mappare gli attributi dei dati di Workfront con i seguenti attributi dei dati utente nel provider di directory:</p> 
+      <td role="rowheader">Auto-Provision Users</span> </td> 
+      <td> <p>This option automatically creates a user in the system when a new user with a directory username and password attempts to log in to Workfront for the first time.</p> <p>To create users in Workfront, you must map Workfront data attributes with the following user data attributes in your directory provider:</p> 
        <ul> 
-       <li>Nome</li> 
-       <li>Cognome</li> 
-       <li>Indirizzo email</li> 
+       <li>First Name</li> 
+       <li>Last Name</li> 
+       <li>Email Address</li> 
        </ul> 
-       <p>Quando si seleziona la casella di controllo, vengono visualizzate le seguenti opzioni:</p> 
+       <p>When you select the check box, the following options display:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
-       <p>Selezionare l'attributo utente di Workfront che si desidera mappare dall'elenco a discesa, quindi specificare l'attributo di directory corrispondente nella directory utente.</p> 
-       <p>Il campo <strong>Attributo directory</strong> deve contenere il nome dell'attributo di directory della tabella degli attributi utente salvata durante il test della configurazione SAML 2.0.</p> 
-       <p>È possibile impostare un valore Workfront predefinito nel campo <strong>Valore predefinito</strong>. Puoi anche impostare regole in base ai valori del provider di identità SAML 2.0.</p> 
-       <p><b>AVVISO</b>: Workfront tenta di mappare gli attributi elencati di seguito ogni volta che un utente accede al sistema. Per questo motivo, si sconsiglia di mappare i livelli di accesso. Se un attributo è mappato in modo errato, è possibile rimuovere facilmente l'accesso amministrativo. Fai clic su <strong>Aggiungi mapping</strong> per aggiungere altre regole.
+       <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> 
+       <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> 
+       <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> 
+       <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click <strong>Add Mapping</strong> to add additional rules.
        </p> 
-       <p>Puoi mappare i seguenti attributi di Workfront:</p> 
+       <p>You can map the following Workfront attributes:</p> 
       <ul> 
-      <li> <p>Livello di accesso</p> </li> 
-      <li> <p>Indirizzo</p> </li> 
-      <li> <p>Indirizzo2</p> </li> 
-      <li> <p>Fatturazione oraria</p> </li> 
-      <li> <p>Città</p> </li> 
-      <li> <p>Azienda</p> </li> 
-      <li> <p>Costo orario</p> </li> 
-      <li> <p>Indirizzo email</p> </li> 
-      <li> <p>Estensione</p> </li> 
-      <li> <p>Nome</p> </li> 
-      <li> <p>Gruppo Home</p> </li> 
-      <li> <p>Team predefinito</p> </li> 
-      <li> <p>Ruolo</p> </li> 
-      <li> <p>Cognome</p> </li> 
-      <li> <p>Modello layout</p> </li> 
+      <li> <p>Access Level</p> </li> 
+      <li> <p>Address</p> </li> 
+      <li> <p>Address2</p> </li> 
+      <li> <p>Billing Per Hour</p> </li> 
+      <li> <p>City</p> </li> 
+      <li> <p>Company</p> </li> 
+      <li> <p>Cost Per Hour</p> </li> 
+      <li> <p>Email Address</p> </li> 
+      <li> <p>Extension</p> </li> 
+      <li> <p>First Name</p> </li> 
+      <li> <p>Home Group</p> </li> 
+      <li> <p>Home Team</p> </li> 
+      <li> <p>Job Role</p> </li> 
+      <li> <p>Last Name</p> </li> 
+      <li> <p>Layout Template</p> </li> 
       <li> <p>Manager</p> </li> 
-      <li> <p>Cellulare</p> </li> 
-      <li> <p>Numero di telefono</p> </li> 
-      <li> <p>Codice di avviamento postale</p> </li> 
-      <li> <p>Pianificazione</p> </li> 
-      <li> <p>Stato</p> </li> 
-      <li> <p>Profilo scheda orario</p> </li> 
-      <li> <p>Titolo</p> </li> 
+      <li> <p>Mobile Phone</p> </li> 
+      <li> <p>Phone Number</p> </li> 
+      <li> <p>Postal Code</p> </li> 
+      <li> <p>Schedule</p> </li> 
+      <li> <p>State</p> </li> 
+      <li> <p>Timesheet Profile</p> </li> 
+      <li> <p>Title</p> </li> 
       </ul>
-      <p>Fai clic su <strong>Salva</strong> al termine della mappatura degli attributi utente.</p> </td> 
+      <p>Click <strong>Save</strong> when you are finished mapping user attributes.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Certificato </td> 
-      <td> <p>Carica un certificato SSL valido per garantire una connessione sicura tra il servizio di autenticazione e Workfront. Per gli account On Demand, è sempre necessario un certificato. Puoi ottenere questo certificato dal tuo amministratore di sistema SAML 2.0.</p> </td> 
+      <td role="rowheader">Certificate </td> 
+      <td> <p>Upload a valid SSL certificate to ensure a secure connection between the authentication service and Workfront. For OnDemand accounts, a certificate is always required. You can obtain this certificate from your SAML 2.0 system administrator.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Eccezione amm. </td> 
-      <td> <p>Consente agli amministratori di Workfront di accedere a Workfront con il proprio accesso a Workfront. Se questa opzione non è selezionata, gli amministratori di Workfront devono utilizzare il nome utente e la password SAML 2.0.</p> 
-      <p>Workfront tenta innanzitutto di accedere a Workfront tramite SAML 2.0 per gli utenti con il livello di accesso Amministratore di sistema di Workfront. Se l'autenticazione SAML 2.0 non riesce, Workfront utilizza l'autenticazione locale per gli amministratori di Workfront.</p> 
-      <p>È consigliabile selezionare sempre questa opzione in modo che l'amministratore di Workfront possa accedere a Workfront se il provider SAML 2.0 non è temporaneamente disponibile.</p> </td> 
+      <td role="rowheader">Admin Exemption </td> 
+      <td> <p>Allows Workfront administrators to access Workfront using their Workfront login. If this option is not selected, Workfront administrators must use their SAML 2.0 username and password.</p> 
+      <p>Workfront first attempts to log in to Workfront via SAML 2.0 for users with the Workfront System Administrator access level. If the SAML 2.0 authentication fails, Workfront uses local authentication for Workfront administrators.</p> 
+      <p>We recommend that you always have this option selected so that your Workfront administrator can log in to Workfront if your SAML 2.0 provider is ever temporarily unavailable.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Abilita </td> 
-      <td> <p>Attiva l'SSO sul sistema Workfront. Assicurati di aver comunicato le istruzioni di accesso agli utenti.</p> <p>Dopo aver abilitato la configurazione SSO in Workfront, è necessario abilitare l'impostazione <strong>Consenti solo autenticazione SAML 2.0</strong> per tutti gli utenti in modo che possano utilizzare SSO.</p> <p>Per ulteriori informazioni sull'aggiornamento degli utenti per l'SSO, vedere <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aggiornare gli utenti per il Single Sign-On</a>.</p> <p>Per ulteriori informazioni sulle impostazioni utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
+      <td role="rowheader">Enable </td> 
+      <td> <p>Activates SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p> <p>After you enable your SSO configuration in Workfront, you must enable the <strong>Only Allow SAML 2.0 Authentication</strong> setting for all users so that they can use SSO.</p> <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> <p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Conferma configurazione </td> 
+      <td role="rowheader">Confirm Configuration </td> 
       <td> 
-      <p>Fare clic su <strong>Verifica connessione</strong> per verificare che Workfront e il provider di identità SAML 2.0 possano comunicare tra loro. Questa connessione ha esito positivo solo se sono stati scambiati i file XML.
+      <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.
       </p> 
-      <p>Dopo aver verificato correttamente il collegamento tra il provider di identità SAML 2.0 e Workfront, verrà visualizzata una schermata simile a quella riportata di seguito.</p>
-      <p><b>NOTA</b>: questa schermata viene visualizzata in un pop-up del browser, quindi accertati di disabilitare i blocchi pop-up nel browser.</p>
-      <p>Salvare le informazioni visualizzate nella tabella per utilizzarle successivamente.</p>
+      <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you will see a screen similar to the image below.</p>
+      <p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.</p>
+      <p>Save the information displayed in the table for later use.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **Salva** per salvare la configurazione SAML 2.0.
+1. Click **Save** to save the SAML 2.0 configuration.
+
+-->

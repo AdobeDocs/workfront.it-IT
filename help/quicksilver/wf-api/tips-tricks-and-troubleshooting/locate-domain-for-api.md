@@ -7,18 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 29%
 
 ---
 
 # Formato del dominio per le chiamate API di Adobe Workfront
 
-Quando effettui una chiamata API all&#39;API Workfront, utilizzi il dominio della tua organizzazione nella chiamata. Il formato di questo URL di dominio varia a seconda che l’organizzazione sia stata integrata in Adobe Unified Shell.
+Quando effettui una chiamata API all&#39;API Workfront, utilizzi il dominio della tua organizzazione nella chiamata.
 
-Per sapere se la tua organizzazione si trova in Adobe Unified Shell, esamina l’URL visualizzato quando visualizzi una pagina di Workfront.
+L’URL creato per la chiamata API dipende dall’URL utilizzato per connettersi a Workfront.
 
 | L’URL di Workfront inizia con: | URL per chiamate API: |
 |---|---|
@@ -26,7 +26,7 @@ Per sapere se la tua organizzazione si trova in Adobe Unified Shell, esamina l�
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Per sapere se la tua organizzazione si trova in Adobe Unified Shell, esamina l�
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td> 
   </tr> 

@@ -1,18 +1,18 @@
 ---
-title: Panoramica sullo stato del progetto
+title: Panoramica dello stato del progetto
 content-type: reference
 description: La funzione Integrità del progetto utilizza la potenza di AI Assistant per fornire immediatamente una valutazione delle prestazioni dei progetti.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Panoramica sullo stato del progetto
+# Panoramica dello stato del progetto
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard</p> 
    </td> 
@@ -58,7 +58,7 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
      <p>Accesso in visualizzazione Programmi per visualizzare lo stato di integrità del progetto per tutti i progetti di un programma</p>
   </td> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestione delle autorizzazioni per i progetti per applicare le configurazioni di integrità del progetto </p>
      <p>Visualizza autorizzazioni per progetti per visualizzare le configurazioni di integrità del progetto </p>
   </td> 
@@ -68,7 +68,7 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Iscriviti alla versione beta di Project Health
@@ -77,11 +77,13 @@ Per poter utilizzare l’integrità del progetto, nella tua organizzazione deve 
 
 Per abilitare l’Assistente AI e l’integrità del progetto per la tua organizzazione, devono essere applicate tutte le seguenti condizioni:
 
+<!--Remove me October 2026-->
+
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe Identity Management System (IMS).
 * La tua organizzazione deve disporre di un pacchetto Workfront o Workflow Select, Prime o Ultimate.
 * L’esperienza unificata di Adobe deve essere abilitata.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
-* L’amministratore di Workfront deve abilitare l’Assistente IA per gli utenti dell’organizzazione. L’Assistente AI è abilitato tramite i livelli di accesso.
+* L’amministratore di Workfront deve abilitare l’Assistente IA per gli utenti dell’organizzazione. L’Assistente IA è abilitato tramite i livelli di accesso.
 * Entrambe le opzioni Abilita IA e Integrità progetto devono essere selezionate nella sezione Preferenze IA dell’area Preferenze di sistema in Configurazione.
 
   ![Sezione Preferenze AI](assets/ai-preferences.png)
@@ -136,7 +138,7 @@ Le condizioni del progetto forniscono un’istantanea di base sulle prestazioni 
 
 Per ulteriori informazioni sulle condizioni del progetto, consulta i seguenti articoli:
 
-* [Aggiorna condizione per un progetto](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Aggiornare condizione per un progetto](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
 * [Condizioni personalizzate](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Elenco stati integrità progetto e programma

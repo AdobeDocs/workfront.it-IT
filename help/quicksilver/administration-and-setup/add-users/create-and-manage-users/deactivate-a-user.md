@@ -10,7 +10,7 @@ role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 6%
@@ -25,18 +25,6 @@ ht-degree: 6%
 >abstract="La disattivazione di un utente fa sì che venga rimosso da Workfront e Frame.io. Gli utenti disattivati possono essere riattivati in un secondo momento."
 
 <!--Audited 5/2025-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
--->
 
 Se un utente abbandona l’organizzazione, si consiglia di disattivarlo nel sistema per evitare di creare confusione per altri utenti quando li aggiunge agli aggiornamenti o li assegna al lavoro. Quando disattivi un utente, gli altri utenti non visualizzano più il proprio nome durante la ricerca di persone nel sistema.
 

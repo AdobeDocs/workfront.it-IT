@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 10%
+source-wordcount: '370'
+ht-degree: 11%
 
 ---
 
 # Configurare la localizzazione personalizzata
 
-La localizzazione personalizzata consente di definire termini e frasi personalizzati in lingue diverse. Workfront visualizza questi termini nella lingua impostata nelle impostazioni Adobe Identity Management (IMS) dell’utente. Se l’utente non utilizza Adobe IMS, i termini vengono visualizzati nella lingua impostata nelle impostazioni del browser dell’utente.
+La localizzazione personalizzata consente di definire termini e frasi personalizzati in lingue diverse. Workfront visualizza questi termini nella lingua impostata nelle impostazioni Adobe Identity Management (IMS) dell’utente.
 
 Ad esempio, puoi impostare l’etichetta &quot;Target Audience&quot; per tradurre in tedesco la parola &quot;Zielgruppe&quot;. Qualsiasi utente che utilizza come lingua principale del browser il tedesco vede la parola &quot;Zielgruppe&quot; come un’etichetta per qualsiasi campo etichettato &quot;Target Audience&quot; in inglese.
 

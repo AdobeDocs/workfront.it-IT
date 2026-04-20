@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1478'
 ht-degree: 3%
 
 ---
@@ -263,17 +263,23 @@ Per ulteriori informazioni sulla configurazione dei ruoli, vedere [Creare e gest
 
 ### Tentativo di accesso {#login-attempt}
 
-Il sistema genera una voce del registro di controllo Tentativo di accesso quando un utente esegue una delle seguenti operazioni:
+<!--Delete me October 2026-->
 
-* Effettua l’accesso, esce o non riesce dopo un tentativo di accesso in Workfront (in un browser e nell’app mobile).
-* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso nell’integrazione con Workfront (ad esempio, Workfront per Slack)
-* Accedi o esce dall’API Workfront
+<!--
 
-I registri dei tentativi di accesso non vengono registrati quando un amministratore di Workfront utilizza la funzione Accedi come.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Questa opzione non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+>Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgiti all’amministratore di rete o IT.
 
 ### Priorità {#priority}
 
@@ -366,7 +372,7 @@ Il sistema genera una voce del registro di controllo utente quando un utente ese
 
   >[!NOTE]
   >
-  >Questa opzione non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+  >Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgiti all’amministratore di rete o IT.
 
 * Elimina un utente
 * Modifica il livello di accesso, la società, il team o il gruppo di un utente

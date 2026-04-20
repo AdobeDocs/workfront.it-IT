@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1571'
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 4%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Dopo che la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>
+>**Poiché tutte le organizzazioni sono state migrate a Adobe Admin Console, le informazioni contenute in questo articolo non sono più rilevanti e verranno rimosse nel prossimo futuro.**
 >
 >Per istruzioni su come concedere l&#39;accesso completo come amministratore in Adobe Admin Console, vedere [Gestire gli utenti in Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -36,7 +40,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare un altro amministr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +51,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare un altro amministr
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p></td> 
   </tr> 
@@ -58,7 +62,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare un altro amministr
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Concedere a un singolo utente l&#39;accesso completo come amministratore di sistema
@@ -188,7 +192,7 @@ Gli utenti con una licenza Pianificazione che possono modificare le funzionalit�
    <td> <p>Se l'accesso amministrativo al gruppo è abilitato nel livello di accesso e il gruppo è designato come amministratore di gruppo, è possibile accedere come utenti del gruppo amministrato e dei relativi sottogruppi. Non possono accedere come amministratore di sistema.<br>Per ulteriori informazioni sull'abilitazione dell'accesso amministrativo di gruppo per gli utenti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schedule</td> 
+   <td>Pianificazioni</td> 
    <td>Accesso completo</td> 
    <td> <p>Nessun accesso per modificare le pianificazioni.</p> <p>Accesso per aggiungere pianificazioni esistenti ad altri utenti, a livello di utente. </p> </td> 
   </tr> 

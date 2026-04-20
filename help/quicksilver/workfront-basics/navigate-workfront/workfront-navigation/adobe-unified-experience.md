@@ -6,10 +6,10 @@ description: L'accesso a  [!DNL Workfront]  tramite Adobe Experience Cloud offre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '688'
+ht-degree: 4%
 
 ---
 
@@ -18,13 +18,6 @@ ht-degree: 3%
 <!--Audited: 10/2024-->
 
 L&#39;accesso a [!DNL Workfront] tramite [!DNL Adobe Experience Cloud] offre un&#39;esperienza unificata per la gestione di tutte le applicazioni di [!DNL Adobe]. La gestione delle singole identità consente di accedere da un’unica posizione, senza più URL o ID di accesso.
-
-Se l&#39;organizzazione utilizza Adobe Unified Experience, l&#39;URL utilizzato per accedere a Workfront inizia con `experience.adobe.com`.
-
-| URL | Esperienza Adobe |
-|------------|------------|
-| (NomeSocietà).my.workfront.com | Esperienza Workfront |
-| experience.adobe.com | Esperienza unificata Adobe |
 
 ## Requisiti di accesso
 
@@ -39,9 +32,9 @@ Se l&#39;organizzazione utilizza Adobe Unified Experience, l&#39;URL utilizzato 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
-   <td> <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
+   <td> <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +87,7 @@ Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud], è possibile
 Utilizza l&#39;icona [!UICONTROL Main Menu] ![Main Menu icon](assets/main-menu-icon-left-nav.png) a sinistra della barra di navigazione [!DNL Workfront] per passare alle pagine a cui hai accesso. Le opzioni disponibili nel [!UICONTROL menu principale] dipendono da:
 
 * **Configurazioni del modello di layout**: per informazioni su come un amministratore di [!DNL Workfront] può modificare il [!UICONTROL menu principale] da un modello di layout, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Tipo di licenza**: per informazioni sulle configurazioni predefinite per i diversi tipi di licenza, vedere [Comprendere la navigazione per un utente con licenza [!UICONTROL Revisione]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprendere la navigazione per un utente con licenza [!UICONTROL Lavoro]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo di licenza**: per informazioni sulle configurazioni predefinite per i diversi tipi di licenza, vedere [Comprendere la navigazione per un utente con licenza [!UICONTROL Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprendere la navigazione per un utente con licenza [!UICONTROL Work]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menu principale](assets/main-menu-options-left-nav.png)
 

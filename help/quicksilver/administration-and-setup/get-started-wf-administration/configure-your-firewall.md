@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/it/enterprise/kb/network-endpoints.html).
+>Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 0%
 >Il modo in cui un’organizzazione configura il proprio inserisco nell&#39;elenco Consentiti di è univoco per ogni organizzazione. Collabora con il tuo team IT per identificare la procedura aziendale e implementare queste aggiunte.
 
 Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di posta elettronica. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront e consente i seguenti processi:
-
-* Invio di messaggi dall’applicazione Workfront
-
-  >[!NOTE]
-  >
-  >Questa opzione non è disponibile se l’istanza Workfront della tua organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 * Utilizzo dei webhook dei documenti durante la configurazione di integrazioni di documenti personalizzate
 * Utilizzo delle sottoscrizioni agli eventi di Workfront
@@ -442,7 +436,7 @@ Se l&#39;organizzazione utilizza il filtro di rete in uscita, aggiungere i domin
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Se la tua organizzazione utilizza l’esperienza unificata di Adobe, utilizza i seguenti domini. Questi domini sono coperti in `*.adobe.com`, ma possono essere aggiunti se si desidera.
+Poiché la tua organizzazione si trova nell’esperienza unificata di Adobe, utilizza i seguenti domini. Questi domini sono coperti in `*.adobe.com`, ma possono essere aggiunti se si desidera.
 
 * &lt;dominio>.my.workfront.adobe.com
 * &lt;dominio>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Se la tua organizzazione utilizza l’esperienza unificata di Adobe, utilizza i 
 
 
 Per Workfront Fusion, aggiungi i seguenti domini:
+
+<!--Remove me October 2026-->
 
 * Per l’organizzazione non inclusa nell’esperienza unificata di Adobe:
    * app.workfrontfusion.com (US AWS)

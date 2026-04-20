@@ -6,18 +6,14 @@ description: Quando un utente ha più schede del browser aperte, Workfront potre
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 29%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
 # Più schede del browser causano la disconnessione di Workfront
-
->[!IMPORTANT]
->
->Questo problema è presente solo per le organizzazioni che sono state caricate in Adobe IMS.
 
 ## Problema
 

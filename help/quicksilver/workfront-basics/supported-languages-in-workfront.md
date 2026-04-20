@@ -8,10 +8,10 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '964'
+ht-degree: 97%
 
 ---
 
@@ -100,7 +100,7 @@ Per ulteriori informazioni su Workfront Fusion, consulta [Panoramica di Adobe Wo
 
 Puoi modificare la lingua in cui visualizzi Workfront e quella delle e-mail in uscita modificando le seguenti impostazioni:
 
-* La lingua nel browser (per gli utenti non su Adobe Admin Console)
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * La lingua principale e secondaria del profilo AEM (per gli utenti su Adobe Admin Console)
 * Le impostazioni locali e-mail utente e le Informazioni cliente nel tuo account Workfront.
 
@@ -117,14 +117,18 @@ Per determinare se la tua organizzazione ha effettuato la migrazione ad Adobe Ad
 * [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
 * [Modificare le impostazioni locali e-mail utente e Workfront](#change-the-workfront-and-user-locales)
 
-### Modificare la lingua del browser {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Se nell’organizzazione non è stata effettuata la migrazione ad Adobe Admin Console, quando modifichi la lingua del browser l’interfaccia di Workfront verrà mostrata in tale lingua.\
-Per ulteriori informazioni sulle lingue supportate da Workfront, consulta [Lingue supportate in Adobe Workfront](#supported-languages).
+<!--
 
-La lingua del browser deve essere modificata su base individuale dell’utente.
+### Change the browser language {#change-the-browser-language}
 
-Per informazioni specifiche su come modificare la lingua del browser, consulta il menu “Aiuto” del browser in uso.
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### Modificare la lingua di Adobe Experience Cloud
 
@@ -159,20 +163,23 @@ Per modificare le impostazioni locali e-mail predefinite di Workfront:
 
 ### Modificare le impostazioni locali e-mail utente {#change-the-user-locale}
 
-Quando modifichi le impostazioni locali dell’e-mail utente, puoi modificare la lingua, la data e il formato del numero utilizzati nei messaggi in uscita. Queste impostazioni sostituiscono le impostazioni di sistema selezionate nell’area Info cliente di Configura.
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->Quando la tua organizzazione utilizza Adobe Unified Experience, le preferenze della lingua vengono memorizzate nel profilo Adobe e le impostazioni locali dell’e-mail non vengono utilizzate. Consulta [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
+>Le preferenze della lingua vengono memorizzate nel profilo Adobe e le impostazioni internazionali dell’e-mail non vengono utilizzate. Consulta [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
 
-Per modificare le impostazioni locali dell’e-mail utente:
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. Fai clic sull’immagine del profilo utente.
+1. Click your user profile picture.
 
-1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. Nella sezione **Preferenze**, fai clic sull’elenco a discesa **Lingua e-mail** per selezionare la lingua in cui desideri visualizzare le e-mail di Workfront.
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Fai clic su **Salva modifiche**.
+1. Click **Save Changes**.-->

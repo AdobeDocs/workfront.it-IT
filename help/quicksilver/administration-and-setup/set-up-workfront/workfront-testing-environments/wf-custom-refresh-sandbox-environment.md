@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 1%
+source-wordcount: '1584'
+ht-degree: 2%
 
 ---
 
@@ -29,13 +29,13 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Inoltre, esiste un costo aggiuntivo per ottenere la sandbox di aggiornamento personalizzata che non è necessaria per la sandbox di anteprima.
 >
->  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,19 +189,25 @@ Per pianificare l’aggiornamento della sandbox di aggiornamento del cliente:
 >[!NOTE]
 >
 >La consegna dei rapporti e le notifiche push nell’app mobile sono sempre disabilitate per l’ambiente Sandbox di aggiornamento personalizzato. Né l&#39;utente né l&#39;amministratore [!DNL Workfront] possono abilitare la consegna dei report o le notifiche push per l&#39;app mobile quando si accede all&#39;ambiente Sandbox di aggiornamento personalizzato.\
->Per ulteriori informazioni sulle consegne di report per l&#39;ambiente di produzione, vedi [Panoramica sulla consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Per ulteriori informazioni sulle notifiche push nell&#39;app mobile per l&#39;ambiente di produzione, vedi la sezione in .
+>Per ulteriori informazioni sulle consegne di report per l&#39;ambiente di produzione, vedere [Panoramica sulla consegna dei report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Configurare il Single Sign-On nella sandbox di aggiornamento personalizzata
+<!--
 
-Se desideri configurare la sandbox di aggiornamento personalizzata in modo che funzioni con una soluzione Single Sign-On, puoi farlo configurandola separatamente dall’ambiente di produzione. La configurazione SSO nella Sandbox di aggiornamento personalizzata è indipendente dalla configurazione SSO nell’ambiente di produzione.\
-Quando aggiorni la Sandbox di aggiornamento personalizzata, le informazioni SSO non vengono copiate dall’ambiente di produzione per sovrascrivere la configurazione Sandbox di aggiornamento personalizzata.
+Remove me October 2026
 
-I passaggi per configurare il single sign-on nella Sandbox di aggiornamento personalizzata sono simili a quelli per la configurazione nell’ambiente di produzione.\
-Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con SSO, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Non è disponibile se l&#39;istanza [!DNL Workfront] dell&#39;organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Ricalcolo automatico delle sequenze temporali del progetto
 
