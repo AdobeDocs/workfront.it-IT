@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
+source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 4%
 
 ---
@@ -79,10 +79,6 @@ I collaboratori di IA per l’analisi dei revisori possono essere configurati pe
 
 * **Marchi**: i marchi vengono creati in Workfront. Puoi creare marchi in Workfront caricando file PDF che contengono le linee guida per i marchi o immettendo manualmente gli elementi del marchio.
 * <span class="preview">**Adobe Brand Intelligence**: quando un collaboratore AI rivede una risorsa utilizzando Adobe Brand Intelligence, puoi visualizzare i commenti del revisore in Frame.io.  </span>
-
->[!NOTE]
->
->Il revisore dei contenuti non è disponibile negli ambienti sandbox.
 
 
 {{step-1-to-setup}}
