@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4067'
 ht-degree: 3%
 
 ---
@@ -251,7 +251,7 @@ Per gestire una vista timeline:
 
    >[!TIP]
    >
-   >Non è possibile ridimensionare e trascinare i record nella timeline per i tipi di oggetto Workfront e AEM Assets visualizzati nei raggruppamenti.
+   >Non è possibile ridimensionare e trascinare i record nella timeline per i tipi di oggetto Workfront e Adobe Experience Manager visualizzati nei raggruppamenti.
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)

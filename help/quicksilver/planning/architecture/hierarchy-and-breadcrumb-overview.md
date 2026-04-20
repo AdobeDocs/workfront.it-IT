@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 * Non è possibile aggiungere i seguenti tipi di oggetto in una gerarchia:
    * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
    * Tutti gli altri oggetti di Workfront.
-   * AEM Assets.
+   * AEM Assets o Frammenti di contenuto.
 * Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
 
   È possibile, ad esempio, disporre di un tipo di record Campaign con Tattiche di pianificazione e Progetti Workfront come elementi figlio nella stessa gerarchia dell&#39;area di lavoro.

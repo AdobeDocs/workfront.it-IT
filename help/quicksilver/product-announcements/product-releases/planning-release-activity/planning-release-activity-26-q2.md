@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >Anteprima: 16 aprile 2026
 >Rilascio rapido in produzione: venerdì 16 aprile 2026
 >Produzione per tutti: venerdì 16 aprile 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 È ora possibile accedere a Experience Manager Content Advisor in Workfront Planning. Contenuto verificato consente di:
 
@@ -187,21 +188,18 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/qui
 
 Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-<!--
-
-## New field type for Record ID  
+## Nuovo tipo di campo per ID record
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Anteprima: 12 marzo 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+È stato aggiunto un nuovo tipo di campo per ID record. Questo è un indicatore alfanumerico generato dal sistema che identifica in modo univoco ogni record. Il campo viene visualizzato in qualsiasi visualizzazione record e nell&#39;area dei dettagli del record.
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Consenti agli utenti non amministratori di rendere collegabile un tipo di record
 

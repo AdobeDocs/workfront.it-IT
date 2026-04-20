@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3603'
 ht-degree: 1%
 
 ---
@@ -482,7 +482,7 @@ For information on creating automations in other areas of Workfront Planning, se
    >
    >* Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
    >
-   >     * Connessioni Workfront o AEM Assets
+   >     * Connessioni Workfront o Adobe Experience Manager
    >     * People
    >
 

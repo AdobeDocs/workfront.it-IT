@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * Campi di connessione a Workfront, a tipi di oggetto AEM Assets o a Marchi GenStudio.
-   * Campi di ricerca da record di Planning, oggetti Workfront, AEM Assets o Marchi GenStudio connessi.
+   * Campi di connessione a Workfront, tipi di oggetto Adobe Experience Manager o Marchi GenStudio.
+   * Ricercare campi da record di Planning, oggetti Workfront, Adobe Experience Manager o Marchi GenStudio connessi.
    * Campi formula
    * Data di creazione, Creato da
    * Data ultima modifica, Autore ultima modifica
@@ -194,7 +194,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.
@@ -203,7 +203,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 
    >[!TIP]
    >
-   >È possibile eseguire il mapping solo ai campi dei record connessi a Workfront Planning. Non è possibile eseguire il mapping a campi da connessioni Workfront, AEM Assets o GenStudio Brands. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;importazione di tipi di record tramite un file Excel o CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in questo articolo.
+   >È possibile eseguire il mapping solo ai campi dei record connessi a Workfront Planning. Non è possibile eseguire il mapping a campi da connessioni Workfront, Adobe Experience Manager o GenStudio Brands. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;importazione di tipi di record tramite un file Excel o CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in questo articolo.
 
 1. (Condizionale) Dopo aver aggiornato le informazioni sul campo, fai clic su **Salva**.
 

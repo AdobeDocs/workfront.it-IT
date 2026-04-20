@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 2%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * Campi di connessione ai tipi di oggetto Workfront e AEM Assets. È possibile eseguire il mapping solo dei campi di connessione ai tipi di record di Planning.
-   * Campi di ricerca da record di Planning o oggetti Workfront e AEM Assets connessi
+   * Campi di connessione ai tipi di oggetto Workfront e Adobe Experience Manager. È possibile eseguire il mapping solo dei campi di connessione ai tipi di record di Planning.
+   * Campi di ricerca da record di Planning o oggetti Workfront e Adobe Experience Manager connessi
    * Campi formula
    * Data di creazione, Creato da
    * Data ultima modifica, Autore ultima modifica
