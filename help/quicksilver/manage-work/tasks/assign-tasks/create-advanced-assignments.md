@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3457'
 ht-degree: 1%
 
 ---
@@ -96,13 +96,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Questo layout di Assegnazioni avanzate si applica solo alle attività. Per i problemi, vedi [Crea assegnazioni avanzate - tutti gli altri pacchetti](#create-advanced-assignments--all-other-packages).
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>La vecchia esperienza Assegnazioni avanzate è quella predefinita. Devi attivare manualmente la nuova esperienza con il pulsante in alto a destra della finestra Assegnazioni avanzate.
+>Per informazioni sulla vecchia esperienza, vedi [Crea assegnazioni avanzate - tutti gli altri pacchetti](#create-advanced-assignments--all-other-packages), di seguito.
 
 1. Vai al progetto a cui desideri assegnare un&#39;attività.
 1. Fai clic su **Attività** o **Problemi** nel pannello a sinistra, quindi sul nome di un&#39;attività nell&#39;elenco.
