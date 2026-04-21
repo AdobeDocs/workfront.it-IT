@@ -6,14 +6,14 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 8bd433c11334d3ecd12afc98ee2d33fac06826f3
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 1%
+source-wordcount: '2448'
+ht-degree: 2%
 
 ---
 
-# Filtrare le informazioni nel Bilanciatore dei carichi di lavoro
+# Filtrare le informazioni nel bilanciamento dei carichi di lavoro
 
 <!-- Audited: 6/2025 -->
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei carichi di lavoro per visualizzare e gestire il carico di lavoro degli utenti. Per informazioni più generali sul Bilanciatore dei carichi di lavoro, vedi i seguenti articoli:
 
 * [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-* [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* [Esplorare il bilanciamento dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
 >
@@ -36,6 +36,8 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
+
 <table style="table-layout:auto"> 
  <col> 
  <col>
@@ -45,7 +47,7 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -55,14 +57,14 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li>
      <li>Filtri, visualizzazioni e raggruppamenti</li>
     </ul>
     <p>Modificare l’accesso a Filtri, Viste e Raggruppamenti durante la creazione o la modifica di filtri </p> </td>
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</p>
    <p>Gestire le autorizzazioni per i filtri da modificare o eliminare</p>
    </td> 
@@ -71,6 +73,8 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
 </table>
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Panoramica dei filtri nel Bilanciatore dei carichi di lavoro
 
