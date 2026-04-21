@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 8%
@@ -51,7 +51,7 @@ I filtri esistenti per i report classici che utilizzano `isCurrentVersion` o `is
 >Rilascio rapido in produzione: giovedì 15 aprile 2026
 >Produzione per tutti: venerdì 16 aprile 2026
 
-Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Anziché generare e allegare un file, questa opzione invia un messaggio e-mail contenente un collegamento diretto al report in Workfront, consentendo ai destinatari di visualizzare{{$include }} i dati più aggiornati nell&#39;applicazione.
+Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Anziché generare e allegare un file, questa opzione invia un messaggio e-mail contenente un collegamento diretto al report in Workfront, consentendo ai destinatari di visualizzare `{{$include }}` i dati più aggiornati nell&#39;applicazione.
 
 L’opzione Collegamento è ora il tipo di consegna predefinito per le nuove regole di consegna dei rapporti pianificate, mentre rimangono disponibili i formati basati su file esistenti (HTML, PDF, Excel e TSV).
 

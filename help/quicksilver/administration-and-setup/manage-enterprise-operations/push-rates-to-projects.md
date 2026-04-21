@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 10%
@@ -17,7 +17,9 @@ ht-degree: 10%
 
 # Modifiche della velocità push nei progetti
 
-Quando una scheda tariffe è allegata a un progetto <!--or a staffing plan-->, è comunque possibile regolare le tariffe sulla scheda tariffe. Quindi, puoi facoltativamente inviare tali tariffe ai progetti <!--and staffing plans --> a cui è allegata la scheda delle tariffe. Se non esegui il push delle nuove tariffe, le tariffe originali rimangono sul progetto<!-- or staffing plan-->.
+Quando una scheda tariffe è allegata a un progetto <!--or a staffing plan-->, è comunque possibile regolare le tariffe sulla scheda tariffe. Quindi, puoi facoltativamente inviare tali tassi ai progetti a cui è allegata la scheda dei tassi. Se non premi i nuovi tassi, quelli originali rimangono sul progetto.
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 Per informazioni su come allegare una scheda tariffe a un progetto, vedere [Allegare una scheda tariffe a un progetto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -60,7 +62,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fare clic sul nome della scheda tariffe nell&#39;elenco Schede tariffe.
 1. Nella schermata Rate Card > Job Roles and Rates (Scheda tariffa > Ruoli e tariffe), verifica che le tariffe siano corrette e modifica eventuali tariffe in base alle esigenze.
 1. Fai clic su [!UICONTROL **Push changes**].
-1. Nella finestra di dialogo [!UICONTROL **Applica a tutti i progetti**]<!--/staffing plans-->, tutti i progetti <!--and staffing plans --> che utilizzano questa scheda tariffe sono selezionati per impostazione predefinita. Se non si desidera che un progetto <!--or staffing plan --> applichi le modifiche della tariffa, è necessario deselezionarlo.
+1. Nella finestra di dialogo [!UICONTROL **Applica a tutti i progetti**], tutti i progetti che utilizzano questa scheda tariffe sono selezionati per impostazione predefinita. Se non desiderate che un progetto applichi le modifiche di tariffa, dovete deselezionarlo.
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. Fai clic su [!UICONTROL **Salva**].
 
    I nuovi tassi ora si riflettono sui progetti <!--and staffing plans --> che utilizzano la scheda dei tassi.

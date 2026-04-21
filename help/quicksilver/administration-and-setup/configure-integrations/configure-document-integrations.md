@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le int
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -56,7 +56,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le int
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,8 +69,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -80,7 +80,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Microsoft SharePoint]
 
-  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Provider di documenti cloud di terze parti:
 
@@ -138,7 +138,7 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Nome dell’integrazione personalizzata. Questo è il nome visualizzato dagli utenti quando utilizzano l’integrazione all’interno di Workfront.</td> 
      </tr> 
      <tr> 
@@ -163,7 +163,7 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URL autenticazione]</td> 
+      <td role="rowheader">[!UICONTROL URL di autenticazione]</td> 
       <td>L’URL completo utilizzato per l’autenticazione dell’utente. [!DNL Workfront] passa a questo indirizzo come parte del processo di provisioning OAuth.</td> 
      </tr> 
      <tr> 
@@ -175,7 +175,7 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
       <td>ID client OAut per questa integrazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Segreto client]</td> 
+      <td role="rowheader">[!UICONTROL Client Secret] (Segreto client)</td> 
       <td>Il segreto client OAut per questa integrazione.</td> 
      </tr> 
      <tr> 

@@ -8,7 +8,7 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 97%
@@ -128,7 +128,8 @@ For more information about what languages are supported by Workfront, see [Suppo
 
 The browser language must be changed on an individual user basis.
 
-See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
+See the "Help" menu for your browser for specific information about how to change the language of your browser.
+-->
 
 ### Modificare la lingua di Adobe Experience Cloud
 
@@ -164,15 +165,15 @@ Per modificare le impostazioni locali e-mail predefinite di Workfront:
 ### Modificare le impostazioni locali e-mail utente {#change-the-user-locale}
 
 <!--
-
-
-When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.
+-->
 
 >[!NOTE]
 >
 >Le preferenze della lingua vengono memorizzate nel profilo Adobe e le impostazioni internazionali dell’e-mail non vengono utilizzate. Consulta [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in questo articolo.
 
-<!--To change your User Email Locale:
+<!--
+To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
@@ -182,4 +183,5 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Click **Save Changes**.-->
+1. Click **Save Changes**.
+-->

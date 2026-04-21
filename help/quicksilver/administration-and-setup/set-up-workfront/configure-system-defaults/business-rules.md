@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 5%
 
 ---
@@ -78,7 +78,7 @@ Il formato della convalida di una regola business è &quot;Se la condizione defi
 
 La sintassi per le proprietà e le altre funzioni di una regola business è identica a quella di un campo calcolato di un modulo personalizzato. Per ulteriori informazioni sulla sintassi, vedere [Aggiungere campi calcolati con la finestra di progettazione del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Per informazioni sulle istruzioni IF, vedere [&#x200B; Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Per informazioni sulle istruzioni IF, vedere [ Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Per informazioni sui caratteri jolly basati sugli utenti, vedere [Utilizzare caratteri jolly basati sugli utenti per generalizzare i report](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -224,14 +224,9 @@ IF({status} = "APR", true)
    * Piano per gestione del personale
    * Modello
    * Risorse del piano per gestione del personale
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Digita **Nome** per la regola business nella finestra di dialogo del generatore di regole.
-1. Nel campo **È attivo**, selezionare se la regola deve essere attiva al momento del salvataggio.
-
-   Se si seleziona **No**, la regola verrà salvata come inattiva e sarà possibile attivarla in un secondo momento.
+   -->
 
 1. Selezionare un **Trigger** per la regola business. Le opzioni sono:
 
@@ -306,4 +301,3 @@ Per attivare una regola business:
 1. Selezionare la regola business nell&#39;elenco di regole e fare clic sull&#39;icona Modifica.
 1. Selezionare **Sì** per **È attivo** nella finestra di dialogo della regola business.
 1. Fai clic su **Salva**.
-
