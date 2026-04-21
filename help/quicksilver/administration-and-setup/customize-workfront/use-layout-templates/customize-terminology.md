@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 9%
+source-wordcount: '641'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Dopo aver salvato un modello di layout in cui è stata modificata la terminologi
 >[!NOTE]
 >
 >* È possibile che si verifichino problemi grammaticali o di altro tipo quando si personalizzano le etichette. Ad esempio, se modifichi &quot;Problema&quot; in &quot;Richiesta&quot;, nell’interfaccia utente potrebbero essere presenti posizioni in cui viene visualizzata la frase &quot;Una richiesta&quot;. Per ulteriori informazioni, vedere [Implicazioni della personalizzazione dei nomi degli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) nell&#39;articolo [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* Per personalizzare le traduzioni terminologiche in lingue diverse dall&#39;inglese, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
