@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '835'
+ht-degree: 2%
 
 ---
 
 # Creare tipi di record importando informazioni da un file CSV o Excel
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * Data ultima modifica, Autore ultima modifica
    * Data di approvazione, Approvato da
    * People
-   * <span class="preview">ID record</span>
+   * ID record
 
 Per importare tipi di record utilizzando un file Excel o CSV:
 
@@ -159,10 +161,10 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 
    >[!TIP]
    >
-   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:</span>
+   >È possibile utilizzare la seguente combinazione di tastiera per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:
    >
-   >* <span class="preview">CTRL+K per Windows</span>
-   >* <span class="preview">⌘+K per Mac</span>
+   >* CTRL+K per Windows
+   >* ⌘+K per Mac
 
 1. Fare clic su **Aggiungi tipo di record**.
 1. Fare clic su **Carica dal file**.
@@ -194,7 +196,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.

@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 3%
 
 ---
@@ -217,10 +217,14 @@ Per le best practice sull&#39;implementazione di Workfront Planning, vedere [Bes
 1. (Condizionale e obbligatorio) In qualità di amministratore di Workfront, firma il contratto di prova gratuita.
 
    Per informazioni, vedere la sezione [Iscriviti alla prova gratuita di Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) in questo articolo.
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-shell.png), quindi fai clic su **Planning**. Accanto all&#39;icona viene visualizzata l&#39;etichetta **Versione di valutazione**.
+1. (Condizionale) Dopo che il contratto di prova è stato firmato da un amministratore di Workfront, fare clic sull&#39;icona **del** menu principale![](assets/main-menu-shell.png), quindi fare clic su uno dei seguenti elementi per accedere all&#39;area **Planning**:
+
+   * **Pianificazione**. Accanto all&#39;icona viene visualizzata l&#39;etichetta **Versione di valutazione**.
+   * **Progetti**, **Richieste**, **Calendari**, quindi fai clic su **Esplora i calendari delle campagne**
+   * **Portfolio**, **Programmi** o da un portfolio o programma    quindi fare clic su **Esplora gerarchie personalizzate**.
 
    L&#39;area **Planning** verrà aperta nella scheda **Aree di lavoro di esempio**.
-1. Esamina le seguenti aree di lavoro disponibili nella scheda **Aree di lavoro di esempio**:
+1. Rivedi le seguenti aree di lavoro nella scheda **Aree di lavoro di esempio**:
 
    * **Classificazioni globali e tassonomie**: contiene tipi di oggetti Planning di esempio che sono alla base di un sistema di record di marketing.
 

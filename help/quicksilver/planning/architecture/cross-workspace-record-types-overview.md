@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Panoramica del tipo di record in più aree di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -234,7 +236,7 @@ Per utilizzare i tipi di record collegabili, effettuare le seguenti operazioni:
 
    >[!TIP]
    >
-   ><span class="preview">Solo gli amministratori di sistema possono designare un tipo di record come collegabile da tutte le aree di lavoro del sistema. Tutti gli altri gestori del workspace possono designare aree di lavoro specifiche da cui connettersi al tipo di record. </span>
+   >Solo gli amministratori di sistema possono designare un tipo di record come collegabile da tutte le aree di lavoro del sistema. Tutti gli altri gestori del workspace possono designare aree di lavoro specifiche da cui connettersi al tipo di record.
    >
    >Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Connettersi a un tipo di record designato come collegabile da un&#39;altra area di lavoro gestita.

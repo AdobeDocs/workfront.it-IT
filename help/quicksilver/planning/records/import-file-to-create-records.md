@@ -8,19 +8,21 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 2%
+source-wordcount: '830'
+ht-degree: 3%
 
 ---
 
 
 # Creare record importando informazioni da un file CSV o Excel
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -149,7 +151,7 @@ Old:
    * Data ultima modifica, Autore ultima modifica
    * Data di approvazione, Approvato da
    * People
-   * <span class="preview">ID record</span>
+   * ID record
    * Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione. Solo gli utenti con le autorizzazioni di gestione per l&#39;area di lavoro possono importare nuove scelte.
 
 ## Creare record importando un file CSV o Excel

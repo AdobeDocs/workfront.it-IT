@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 4%
 
 # Creare tipi di record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -198,10 +200,10 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 
    >[!TIP]
    >
-   ><span class="preview">È possibile utilizzare la combinazione di tastiera seguente per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:</span>
+   >È possibile utilizzare la seguente combinazione di tastiera per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare le aree di lavoro:
    >
-   >* <span class="preview">CTRL+K per Windows</span>
-   >* <span class="preview">⌘+K per Mac</span>
+   >* CTRL+K per Windows
+   >* ⌘+K per Mac
    >
    >![Casella di ricerca globale](assets/global-search-box.png)
 

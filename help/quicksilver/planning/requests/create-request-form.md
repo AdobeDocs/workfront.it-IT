@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
-ht-degree: 1%
+source-wordcount: '3185'
+ht-degree: 2%
 
 ---
 
@@ -21,10 +21,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
       * Creato da, Ultima modifica da, Approvato da
       * Data di creazione, Data ultima modifica, Data approvazione
-      * <span class="preview">ID record</span>
+      * ID record
       * Campi di ricerca di oggetti Workfront
       * Campi di ricerca dei record connessi di Workfront Planning
 
@@ -172,12 +173,7 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 I dettagli del modulo sono suddivisi in schede.
 
 * La scheda **Modulo** consente di aggiungere campi ed elementi di contenuto al modulo
-* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo e di impostare le opzioni di completamento della richiesta.
-
-  >[!NOTE]
-  >
-  ><span class="preview">Nell&#39;ambiente di anteprima, la scheda Impostazioni ha sostituito la scheda Configurazione.</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* La scheda **Impostazioni** consente di impostare un processo di approvazione per il modulo e di impostare le opzioni di completamento della richiesta.
 
 #### Imposta dettagli modulo
 
@@ -203,7 +199,7 @@ I dettagli del modulo sono suddivisi in schede.
      >* Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo al momento dell&#39;invio della richiesta.
      >* Quando in un modulo di richiesta manca il campo **Oggetto** ma è presente un campo Nome per il nome del record futuro, al nome della richiesta viene automaticamente assegnato lo stesso nome del record creato.
      >* Quando nel modulo di richiesta mancano i campi **Subject** e **Name**, la richiesta viene denominata in base al seguente pattern: `< Request form name > < Entry date of the request >`; il record è denominato **Untitled**.
-     >* <span class="preview">Per visualizzare le informazioni del campo **Oggetto** in Workfront Planning, è possibile aggiungere il campo di connessione **Richiesta originale** al tipo di record associato al modulo di richiesta. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
+     >* Per visualizzare le informazioni del campo **Oggetto** in Workfront Planning, è possibile aggiungere il campo di connessione **Richiesta originale** al tipo di record associato al modulo di richiesta. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * Tutti i campi associati al tipo di record.
 
@@ -239,49 +235,48 @@ I dettagli del modulo sono suddivisi in schede.
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
 1. Continuare con una delle operazioni seguenti:
 
-   * [Imposta dettagli configurazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione
-   * <span class="preview">[Configurare le impostazioni](#configure-settings) se si desidera configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * [Configurare le impostazioni](#configure-settings) se si desidera configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione
    * [Completare la creazione del modulo di richiesta](#complete-request-form-creation) se non si desidera configurare ulteriori impostazioni.
 
-#### Configurare i dettagli della configurazione
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->Questa scheda è disponibile solo nell’ambiente di produzione.
+>This tab is available only in the Production environment.
 
-Nella scheda Configurazione puoi impostare il processo di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
-1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. (Facoltativo) Se desideri aggiungere approvatori, fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente o un team al campo **Approvatori** per approvare nuove richieste per questo modulo record.
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![Scheda Configurazione](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
-   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
-   * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
-   * Se un team è impostato come approvatore, è necessaria una sola decisione del team.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.
-1. (Condizionale) Se hai selezionato la richiesta da contrassegnare come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indicano quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
-1. Passa a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Creazione modulo di richiesta completata](#complete-request-form-creation).
-
-<div class="preview">
+-->
 
 ### Configurare le impostazioni
-
->[!NOTE]
->
->Questa scheda è disponibile solo nell’ambiente di anteprima.
 
 Nella scheda Impostazioni, puoi impostare le regole di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
 
@@ -349,8 +344,6 @@ Le opzioni di completamento consentono di impostare se una richiesta è contrass
 1. (Condizionale) Se hai selezionato la richiesta da contrassegnare come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indicano quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 1. Passa a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Creazione modulo di richiesta completata](#complete-request-form-creation).
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Creazione modulo di richiesta completa
 
 1. Creare e configurare il modulo come descritto in [Iniziare a creare un modulo di richiesta](#begin-creating-a-request-form) e [Configurare i dettagli per il modulo di richiesta](#set-up-details-for-the-request-form).
-1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo e la relativa **Descrizione**, quindi fai clic su **Salva**.
 
 1. Fai clic su **Pubblica** per pubblicare il modulo e ottenere un collegamento univoco.
 
    Si verificano le seguenti situazioni:
 
    * Il pulsante **Pubblica** è stato rimosso.
+
+     Il modulo diventa disponibile nell’area Richieste del menu Principale in Workfront.
    * Il pulsante **Annulla pubblicazione** è stato aggiunto al modulo. Facendo clic su di esso, il modulo non sarà accessibile.
    * Un pulsante **Condividi** è stato aggiunto al modulo.
-   * Il modulo diventa disponibile nell’area Richieste del menu Principale in Workfront.
 
 1. Fai clic su **Condividi** per condividere il modulo con altri.
 
    Per informazioni sulla condivisione di un modulo di richiesta, vedere la sezione [Condividere un modulo di richiesta](#share-a-request-form) in questo articolo
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
-   Viene aperta la vista tabella **Moduli di richiesta** alla quale viene aggiunto il modulo.
+   Viene aperta la visualizzazione elenco **Moduli di richiesta** alla quale viene aggiunto il modulo.
 
 ## Gestire i moduli di richiesta esistenti
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (Facoltativo) Aggiorna i seguenti elementi di visualizzazione nella pagina **Moduli di richiesta** per modificare la modalità di visualizzazione delle informazioni nella tabella:
 
    * Colonne
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * Raggruppamento
+   * Altezza riga
 
    Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Condividi**: fare clic qui per modificare gli utenti che hanno accesso al modulo.
    * **Copia collegamento**: fare clic qui per copiare rapidamente il collegamento del modulo di richiesta senza aprire il modulo.
    * **Elimina**: fare clic qui per eliminare il modulo. Tutte le richieste e i record aggiunti utilizzando il modulo non vengono eliminati. Impossibile recuperare il modulo.
-
-   <!--update screen shot at preview:-->
 
    ![Altro menu nel modulo di richiesta dall&#39;elenco dei moduli di richiesta](assets/more-menu-on-request-form-from-request-forms-list.png)
 

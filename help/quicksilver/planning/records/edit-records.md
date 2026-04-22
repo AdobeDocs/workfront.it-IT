@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 1%
 
 # Modificare i record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * I seguenti tipi di campi vengono aggiornati automaticamente e non è possibile modificarne i valori manualmente:
    * Campi collegati da altri record
    * Campi di tipo formula
-   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da , <span class="preview">ID record</span>)
+   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da, ID record)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www.
@@ -345,7 +346,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    Quando l’impostazione è disattivata, gli avatar e i nomi sono elencati nell’area dell’indicatore in tempo reale e i campi in fase di modifica non vengono evidenziati.
 
-   ![Indicatore di tempo reale: casella di anteprima record espansa](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Casella di anteprima record espanso indicatore in tempo reale](assets/real-time-indicator-expanded-record-preview-box.png)
 
 1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 

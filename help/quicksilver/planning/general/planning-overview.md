@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 76%
+source-wordcount: '2268'
+ht-degree: 79%
 
 ---
 
@@ -23,9 +23,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -291,7 +292,7 @@ Puoi creare campi personalizzati dei seguenti tipi:
 * Data ultima modifica
 * Approvato da
 * Data di approvazione
-* <span class="preview">ID record</span>
+* ID record
 
 <!--update the screen shot above-->
 
@@ -333,9 +334,6 @@ Se ad esempio colleghi un tipo di record Campagna a un tipo di oggetto Progetto 
 >   * Ultima modifica eseguita da
 >   * Campi di digitazione di Workfront (inclusi campi come Proprietario del progetto o Sponsor del progetto)
 >
->* Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca dal record o dal tipo di oggetto connesso in produzione, <span class="preview">ma è possibile aggiungerli nell&#39;ambiente di anteprima:</span>
->
->   * Persone
 
 Per informazioni sulla connessione di tipi di record, record e sulla creazione di campi collegati, consulta gli articoli seguenti:
 

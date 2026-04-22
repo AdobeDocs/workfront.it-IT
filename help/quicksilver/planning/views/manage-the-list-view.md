@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -261,8 +261,6 @@ Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare c
 
    * **Elimina** per eliminare l&#39;elemento. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. Gli amministratori di Workfront possono recuperare i progetti eliminati fino a 30 giorni dopo la loro eliminazione. L’eliminazione di un modulo non comporta l’eliminazione delle richieste o dei record creati al momento dell’invio del modulo.
    * **Disconnetti** per disconnettere il progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente.
-
-     <!--update screen shot at preview release-->
 
      ![Barra delle azioni nella visualizzazione Elenco della pagina Record connessi](assets/actions-bar-connected-records-page-list-view.png)
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 # Creare aree di lavoro
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
    <td> 
 <p>Qualsiasi pacchetto Workfront o flusso di lavoro</p> 
 <p>Qualsiasi pacchetto di Workfront Planning</p>
-<p>Un pacchetto Workfront Planning Prime o versione successiva <span class="preview">per creare più aree di lavoro alla volta</span></p>
+<p>Un pacchetto Workfront Planning Prime o versione successiva per la creazione di più aree di lavoro alla volta</p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
-   <p><span class="preview">L’amministratore di sistema può creare più aree di lavoro contemporaneamente utilizzando il bundle di modelli basato su best practice</p>
+   <p>L’amministratore di sistema può creare più aree di lavoro contemporaneamente utilizzando il bundle di modelli basato su best practice</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,18 +146,13 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
   Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
-  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
 
   >[!TIP]
   >
   >È possibile creare più aree di lavoro contemporaneamente solo utilizzando il bundle di modelli best practice.
-
-
-</div>
 
 ### Creare un’area di lavoro da zero o da un modello
 
@@ -226,8 +223,6 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
    >
    >Per informazioni su IMS, consulta [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-<div class="preview">
-
 ### Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
 >[!IMPORTANT]
@@ -277,8 +272,6 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
    Per ulteriori informazioni sulle best practice per l&#39;implementazione di Workfront, vedere gli articoli nella sezione [Best practice di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Per informazioni sulla modifica delle aree di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-</div>
 
 
 

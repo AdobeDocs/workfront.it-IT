@@ -8,16 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
 workflow-type: tm+mt
-source-wordcount: '5686'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -32,10 +32,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -252,7 +253,7 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
    * [Data ultima modifica](#last-modified-date)
    * [Data di approvazione](#approved-date)
    * [Approvato da](#approved-by)
-   * <span class="preview">[ID record](#record-id)</span>
+   * [ID record](#record-id)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -590,7 +591,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.
@@ -630,7 +631,9 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
 
 >[!TIP]
 >
->* Quando aggiungi il nome di un utente in un campo Persone, nel campo vengono visualizzati anche la mansione principale <span class="preview">e l&#39;e-mail</span> dell&#39;utente. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
+>* Quando aggiungi il nome di un utente in un campo Persone, nel campo vengono visualizzati anche la mansione principale e l’e-mail dell’utente. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
+>
+>* Nei campi Persone vengono visualizzati solo gli utenti che sono stati aggiunti al Adobe Admin Console. Gli utenti di Workfront non vengono visualizzati quando si tenta di aggiungerli in un campo Persone.
 >
 >* I campi Persone vengono visualizzati come tipo di campo di riferimento (o connessione) in un generatore di moduli di richiesta.
 >
@@ -812,8 +815,6 @@ Puoi utilizzare il tipo di campo Approvato da per aggiungere l’ultimo utente c
 
    Il nuovo campo Approvato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
 
-<span class="preview">
-
 ## ID record
 
 È possibile utilizzare il tipo di campo ID record per visualizzare un identificatore di sola lettura generato dal sistema per ogni record.
@@ -834,8 +835,6 @@ Impossibile modificare manualmente il valore di un campo ID record.
 1. Fai clic su **Crea**.
 
    Il nuovo campo ID record viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con un valore alfanumerico.
-
-</span>
 
 
 <!--

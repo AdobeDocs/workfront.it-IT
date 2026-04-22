@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 # Gestire il layout della pagina dei record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 Quando si aggiungono sezioni a una pagina record, tenere presente quanto segue:
 
+* È possibile aggiungere sezioni solo quando vengono visualizzati tutti i campi di un record. Non è possibile aggiungere sezioni quando si nascondono i campi nascosti in una visualizzazione tabella.
 * Non esiste alcun limite al numero di sezioni che è possibile includere in una pagina.
 * Impossibile avere una sezione vuota. È necessario disporre di almeno un campo in una sezione.
 * È possibile trascinare i campi da una sezione all&#39;altra. Per ulteriori informazioni, vedere la sezione [Gestione dei campi nell&#39;anteprima record o nella pagina dei dettagli](#manage-fields-in-the-records-details-tab) in questo articolo.
@@ -196,7 +199,7 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
+   L&#39;anteprima del record viene visualizzata nella vista.
 
    ![Casella Dettagli](assets/details-box.png)
 
@@ -275,32 +278,24 @@ Si verificano le seguenti situazioni:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
+   L&#39;anteprima del record viene visualizzata nella vista.
 
    ![Casella Dettagli](assets/details-box.png)
 
-1. <span class="preview">(Facoltativo e condizionale) A seconda dei campi che si desidera visualizzare nella pagina Dettagli, eseguire una delle operazioni seguenti:</span>
+1. (Facoltativo e condizionale) A seconda dei campi che si desidera visualizzare nella pagina Dettagli, effettuare una delle seguenti operazioni:
 
-   <div class="preview">
 
-   * Selezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare tutti i campi nella visualizzazione tabella del record, inclusi quelli nascosti.
-   * Deselezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
+   * Selezionare l&#39;impostazione **Mostra tutti i campi** per includere tutti i campi del record nella pagina **Dettagli**. Questa è l&#39;impostazione predefinita.
+   * Deselezionare l&#39;impostazione **Mostra tutti i campi** per escludere dalla pagina **Dettagli** i campi del record nascosti nella vista tabella del record.
 
-   </div>
+     >[!TIP]
+     >
+     >* L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile quando si apre la pagina Dettagli del record in una finestra del browser.
+     >* Non è possibile aggiungere sezioni alla pagina di un record quando si escludono i campi nascosti nella casella Anteprima dettagli.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli.
 
-   >[!TIP]
-   >
-   ><span class="preview">L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
-
-1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli. <span class="preview">
-
-   Se non riesci a visualizzare il nome di un record nel breadcrumb, fai clic su **Altro**. In questo modo la breadcrumb viene visualizzata su più righe. Fai clic su **Meno** per ridurre la breadcrumb e visualizzarla su una riga.</span>
+   Se non riesci a visualizzare il nome di un record nel breadcrumb, fai clic su **Altro**. In questo modo la breadcrumb viene visualizzata su più righe. Fai clic su **Meno** per ridurre la breadcrumb e visualizzarla su una riga.
 
    >[!TIP]
    >

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 In Adobe Workfront Planning è possibile configurare i tipi di record in modo che funzionino in più aree di lavoro.
 
@@ -83,22 +85,20 @@ Oppure
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td>
-   <p>Nell’ambiente di produzione: </p>
-   <p>Per rendere globale un record:</p>
-   <ul><li>Standard o superiore</li></ul>
-   <p>Per rendere collegabile un record:</p>
-   <ul><li>Amministratore di sistema</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>Nell’ambiente di anteprima:</p>
-   <p>Per rendere globale un record:</p>
+<p>Per rendere globale un record:</p>
    <ul><li>Standard o superiore</li></ul>
    <p>Per rendere collegabile un record:</p>
 
 <ul><li>Standard per rendere un record collegabile da aree di lavoro specifiche</li>
    <li>L’amministratore di sistema deve rendere un record collegabile da tutte le aree di lavoro</li></ul>
-   </div>
 
 
 </td> 
@@ -240,7 +240,7 @@ Per configurare un tipo di record come globale:
 
    Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza <span class="preview">un&#39;icona simile **per il tipo di record globale** ![per il tipo di record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) che include una freccia che indica che il tipo di record è stato importato da un&#39;altra area di lavoro. Quando passi il cursore sull&#39;icona globale dell&#39;area di lavoro secondaria, puoi imparare il nome dell&#39;area di lavoro originale.</span>
+   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza un&#39;icona del tipo di record **Global** simile all&#39;icona del tipo di record globale nell&#39;area di lavoro secondaria![ che include una freccia che indica che il tipo di record è stato importato da un&#39;altra area di lavoro. ](assets/global-icon-secondary-workspace.png) Quando passi il cursore sull’icona globale del workspace secondario, puoi imparare il nome del workspace originale.
 1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
 1. (Facoltativo) Rivedi l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nella sezione **Aree di lavoro in cui viene utilizzato questo tipo di record**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
 
@@ -276,9 +276,9 @@ Per configurare un tipo di record come globale:
 
    Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
-1. <span class="preview">(Condizionale) A seconda della licenza di cui si dispone,</span> scegliere le aree di lavoro in cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
+1. (Condizionale) A seconda della licenza di cui si dispone, scegliere tra le aree di lavoro a cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
 
-   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione. <span class="preview">Questa opzione è disabilitata per i manager dell&#39;area di lavoro con una licenza Standard. Solo gli amministratori di sistema possono attivare la connessione dei tipi di record da tutte le aree di lavoro.</span>
+   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione. Questa opzione è disabilitata per i manager dell’area di lavoro con una licenza Standard. Solo gli amministratori di sistema possono attivare la connessione di tipi di record da tutte le aree di lavoro.
    * **Aree di lavoro specifiche**: aggiungere dal menu a discesa i nomi delle aree di lavoro a cui i responsabili dell&#39;area di lavoro possono connettersi a questo tipo di record.
 
 1. (Condizionale) Fai clic su **Salva** nella casella **Modifica tipo di record** oppure fai clic sulla freccia indietro a sinistra di **Impostazioni** nell&#39;intestazione della pagina per salvare le modifiche.

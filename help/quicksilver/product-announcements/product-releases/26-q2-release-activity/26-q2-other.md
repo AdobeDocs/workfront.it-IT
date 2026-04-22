@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 29%
+source-wordcount: '609'
+ht-degree: 28%
 
 ---
 
@@ -68,7 +68,10 @@ Per informazioni, vedere [Creare e gestire le visualizzazioni nell&#39;area Rich
 
 >[!NOTE]
 >
->Le viste predefinite non avranno una versione di anteprima e saranno rilasciate direttamente in produzione il 16 aprile.
+>Le viste predefinite non avranno una versione di anteprima e verranno rilasciate direttamente in produzione.
+>Anteprima: da definire
+>Rilascio rapido produzione: da definire
+>Produzione per tutti: da definire
 
 Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le seguenti viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home:
 

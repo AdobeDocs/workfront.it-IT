@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
 
 # Panoramica delle aree di lavoro
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -35,7 +37,7 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
    * Da zero
    * Utilizzo di un modello. I modelli contengono un numero preconfigurato di tipi di record e i relativi campi.
    * Utilizzo di Planning Designer basato sull’intelligenza artificiale. Questa funzione è attualmente in Beta.
-   * <span class="preview">Utilizzo di un bundle di modelli con più aree di lavoro.</span>
+   * Utilizzo di un bundle di modelli per più aree di lavoro.
 
   Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 

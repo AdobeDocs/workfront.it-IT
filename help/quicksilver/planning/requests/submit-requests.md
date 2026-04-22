@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2400'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 1%
 # Inviare richieste di Pianificazione di Adobe Workfront per creare record
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
-<!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -108,17 +109,12 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 * I record creati mediante l’invio di moduli di richiesta sono collegati alla richiesta originale. Impossibile rimuovere la connessione.
 * Puoi visualizzare sia i record creati che le richieste utilizzate per crearli nelle seguenti aree:
    * Area Richieste in Workfront.
-
-  <div class="preview">
-
    * In un campo connesso di una pagina del tipo di record in Workfront Planning quando si aggiunge la richiesta come record connesso.
    * In un campo connesso dell&#39;area Dettagli di un record in Workfront Planning quando si aggiunge la richiesta come record connesso.
 
-  </div>
-
   >[!TIP]
   >
-  ><span class="preview">È possibile visualizzare il nome della richiesta nel campo Oggetto nell&#39;area Richieste di Workfront o nel campo Richiesta originale di connessione in Workfront Planning. </span>
+  >È possibile visualizzare il nome della richiesta nel campo Oggetto nell&#39;area Richieste di Workfront o nel campo Richiesta originale di connessione in Workfront Planning.
 
 * Le richieste Planning inviate sono visibili solo nella nuova esperienza di richiesta. Non è possibile visualizzare le richieste Planning nell’esperienza di richiesta legacy.
 
@@ -185,13 +181,13 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
       * **Tipo di oggetto**: nome dell&#39;area di lavoro e del tipo di record in cui sono stati creati i record dalla richiesta in Planning.
       * **Stato**: lo stato dell&#39;oggetto della richiesta.
       * **Modulo di richiesta**: nome del modulo di richiesta associato al tipo di record in Planning.
-      * <span class="preview">**Stato oggetto creato**: lo stato del record creato.</span>
+      * **Stato oggetto creato**: lo stato del record creato.
 
    * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta viene aggiunta all&#39;elenco Richieste nell&#39;area Richieste Workfront e al widget Richieste personali con stato **Revisione in sospeso**. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo che è stato approvato dagli approvatori.
 
      Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">È possibile aggiungere il campo di connessione **Richiesta originale** a un tipo di record in Planning per visualizzare il nome della richiesta originale che ha creato un record. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * È possibile aggiungere il campo di connessione **Richiesta originale** a un tipo di record in Planning per visualizzare il nome della richiesta originale che ha creato un record. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
    * La richiesta è visibile solo al proprietario, all&#39;approvatore e agli utenti che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema.
    * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
    * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
@@ -208,15 +204,9 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    * Visualizzazione
    * Filtro
    * Colonne
-
-   <div class="preview">
-
    * Raggruppamento
    * Formatta celle
    * Altezza riga
-
-   </div>
-
 
    Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -259,7 +249,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -304,7 +294,7 @@ Gli utenti esterni non possono accedere alle aree interne di Workfront, ad esemp
      >
      >L’e-mail e la notifica in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
-   <span class="preview"> Dopo l&#39;approvazione della richiesta e la creazione del record, nei campi Approvato da e Approvato vengono visualizzate le informazioni sull&#39;approvazione nel record.</span>
+     Dopo l’approvazione della richiesta e la creazione del record, nei campi Approvato da e Data approvata vengono visualizzate le informazioni relative all’approvazione nel record.
 
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.
 

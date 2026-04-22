@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 15%
+source-wordcount: '241'
+ht-degree: 19%
 
 ---
 
 # Personalizzare le colonne dell’elenco di lavoro Priorità
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--I think this article can point to the Enhanced lists article for managing the view-->
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 È possibile personalizzare le colonne dell’elenco lavori in Priorità per supportare il modo in cui si lavora.
@@ -86,8 +90,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 >
 >La colonna Nome è fissa e non può essere spostata.
 
-<div class="preview">
-
 ### Modificare l&#39;altezza della riga nell&#39;elenco delle priorità
 
 {{step1-to-priorities}}
@@ -102,5 +104,3 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    * Alta
 
    L’elenco viene aggiornato immediatamente.
-
-</div>
