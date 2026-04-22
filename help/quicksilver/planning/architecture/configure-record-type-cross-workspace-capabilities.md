@@ -240,7 +240,7 @@ Per configurare un tipo di record come globale:
 
    Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza un&#39;icona del tipo di record **Global** simile all&#39;icona del tipo di record globale nell&#39;area di lavoro secondaria![ che include una freccia che indica che il tipo di record è stato importato da un&#39;altra area di lavoro. ](assets/global-icon-secondary-workspace.png) Quando passi il cursore sull’icona globale del workspace secondario, puoi imparare il nome del workspace originale.
+   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza un&#39;icona del tipo di record **Global** simile all&#39;icona del tipo di record globale nell&#39;area di lavoro secondaria![&#x200B; che include una freccia che indica che il tipo di record è stato importato da un&#39;altra area di lavoro. &#x200B;](assets/global-icon-secondary-workspace.png) Quando passi il cursore sull’icona globale del workspace secondario, puoi imparare il nome del workspace originale.
 1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
 1. (Facoltativo) Rivedi l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nella sezione **Aree di lavoro in cui viene utilizzato questo tipo di record**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
 
