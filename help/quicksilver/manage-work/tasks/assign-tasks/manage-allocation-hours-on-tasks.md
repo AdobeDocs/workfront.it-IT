@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 9%
+source-wordcount: '559'
+ht-degree: 10%
 
 ---
 
@@ -65,10 +65,14 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
   <tr> 
    <td>Autorizzazioni sugli oggetti</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano attività utilizzando la precedente esperienza.</p> 
-   <p><b>NOTA</b></p>
+   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività.</p> 
+   <!--
+   Not true anymore:
+   <p><b>NOTE</b></p>
    <p>
-   Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
+   You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -76,13 +80,6 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
-
 
 ## Considerazioni sulla modifica delle ore di allocazione per un&#39;attività
 

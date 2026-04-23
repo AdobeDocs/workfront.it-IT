@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 3%
@@ -88,7 +88,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -259,7 +259,7 @@ Si apre la pagina principale della Pianificazione di Workfront.
 
 1. Fai clic su **Condividi** nell&#39;angolo superiore destro per condividere l&#39;area di lavoro con altri.
 
-   Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+   Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
 
    >[!NOTE]
    >
@@ -363,17 +363,17 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
    >
    >I record eliminati possono essere recuperati dalla vista tabella Cestino eliminato di recente in Workfront Planning. I record eliminati da GenStudio possono essere recuperati anche dal contenitore Eliminato di recente in Workfront Planning.
 
-   Per informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md)
+   Per informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 1. Fai clic sull’icona + nell’angolo superiore destro della vista tabella per creare quanto segue:
 
    * Campi
 
-     Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md)
+     Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
    * Connessioni
 
-     Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+     Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
      I campi creati dall’area di lavoro di GenStudio sono visibili nelle seguenti aree:
 
