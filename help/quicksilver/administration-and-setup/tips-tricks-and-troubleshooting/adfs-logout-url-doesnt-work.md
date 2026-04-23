@@ -9,20 +9,24 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 13%
 
 ---
 
-# L&#39;URL di disconnessione ADFS non funziona
+# L’URL di disconnessione ADFS non funziona
 
 <!-- Audited: 1/2024 -->
+
+<!--Remove me October 2026-->
 
 >[!IMPORTANT]
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in [!UICONTROL Adobe Admin Console].
+>
+>Poiché tutte le organizzazioni sono ora state integrate in Adobe Admin Console, questo articolo verrà rimosso nel prossimo futuro.
 >
 >Se la tua organizzazione è stata integrata in [!UICONTROL Adobe Admin Console], vedi [Differenze di amministrazione basate su Platform ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -34,7 +38,7 @@ Se il problema persiste, contattare l&#39;amministratore del sito e fornire il s
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -8,20 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 8%
 
 ---
 
-# Visualizza informazioni di accesso utente
+# Visualizzare le informazioni di accesso utente
 
 Puoi vedere con quale frequenza gli utenti accedono ad Adobe Workfront, nonché l’ultima volta che hanno effettuato l’accesso, indicando che desideri includere queste informazioni nella visualizzazione di un elenco di utenti o in un rapporto per gli utenti.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Puoi vedere con quale frequenza gli utenti accedono ad Adobe Workfront, nonché 
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -63,11 +63,6 @@ L’accesso a Workfront può essere considerato come un accesso a Workfront in u
 * App mobili Workfront (dispositivi iOS o Android)
 * Qualsiasi integrazione Workfront supportata con un’altra applicazione di terze parti (ad esempio Slack)
 * Qualsiasi integrazione personalizzata tra Workfront e un’altra applicazione di terze parti.
-* API di Workfront
-
-  >[!NOTE]
-  >
-  >L’accesso a Workfront tramite l’API Workfront è disponibile solo per le organizzazioni che non sono ancora state caricate nella piattaforma aziendale Adobe.
 
 ## Visualizzare le informazioni sull&#39;utilizzo in un elenco di utenti o in un report
 
