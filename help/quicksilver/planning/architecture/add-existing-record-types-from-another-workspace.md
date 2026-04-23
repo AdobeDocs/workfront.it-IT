@@ -1,5 +1,5 @@
 ---
-title: Aggiungi tipi di record esistenti da un altro Workspace
+title: Add Existing Record Types from Another Workspace
 description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile aggiungere un tipo di record esistente creato in un'altra area di lavoro.
 feature: Workfront Planning
 role: User, Admin
@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -20,19 +20,21 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 In qualità di responsabile dell&#39;area di lavoro, è possibile aggiungere un tipo di record esistente in un&#39;altra area di lavoro a un&#39;area di lavoro gestita in Adobe Workfront Planning.
 
-Prima di poter aggiungere un tipo di record globale alle aree di lavoro gestite come tipo di record esistente, è necessario che il manager dell&#39;area di lavoro indichi un tipo di record. I responsabili di Workspace possono definire un tipo di record globale quando li creano o li modificano, definendo le impostazioni per più aree di lavoro del tipo di record.
+A workspace manager must first designate a record type as a global record type before you can add it into workspaces you manage as an existing record type. Workspace managers can designate a record type as global when they create or edit them, by defining the record type&#39;s cross-workspace settings.
 
 Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-Questo articolo descrive come aggiungere un tipo di record da uno esistente.
+This article describes how you can add a record type from an existing one.
 
-Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale, vedere anche l&#39;articolo [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Before adding records to a workspace from a global record type, also see the article [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Requisiti di accesso
@@ -63,7 +65,7 @@ Oppure
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -125,36 +127,36 @@ And
 1. Passare a un&#39;area di lavoro in cui si desidera creare un tipo di record (area di lavoro secondaria).
 1. Inizia a creare un tipo di record come descritto nell&#39;articolo [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md), quindi fai clic su **Aggiungi esistente**. <!--check this - the option might have been renamed in the UI-->
 
-   ![Modale per aggiungere il tipo di record con opzione da aggiungere da un&#39;altra area di lavoro](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![Modal to add record type with option to add from another workspace](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
-   >Se non sono presenti tipi di record configurati per l&#39;aggiunta ad altre aree di lavoro nel sistema, l&#39;opzione **Aggiungi esistente** non viene visualizzata.
+   >When there are no record types configured to be added to other workspaces in your system, the **Add existing** option does not display.
 
 1. Fai clic su **Continue** (Continua).
-1. Nella casella **Scegli il tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
+1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   <span class="preview">Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **tipo di record globale** ![icona Record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) viene visualizzata nella scheda del tipo di record. </span>
-   <span class="preview">L&#39;icona del tipo di record globale include una freccia visualizzata in un tipo di record nell&#39;area di lavoro secondaria per indicare che il tipo di record è stato aggiunto da un tipo di record esistente.</span>
+   The record type is added to the secondary workspace that you selected and the **global record type** icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) displays on the record type&#39;s card.
+The global record type icon includes an arrow when displayed on a record type in the secondary workspace, to indicate that the record type was added from an existing record type.
 
-   Si verificano le seguenti situazioni:
+   The following things occur:
 
-   * Vengono aggiunte anche le seguenti informazioni dal tipo di record globale esistente:
+   * The following information is also added from the existing global record type:
 
       * Tutti i campi originali
       * Tutte le connessioni record
    * Non è possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record dall&#39;area di lavoro secondaria.
-   * È possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record in tale area di lavoro, solo nell&#39;area di lavoro originale, se si dispone almeno delle autorizzazioni di visualizzazione per tale area di lavoro.
-   * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.
+   * You can view records added from the original workspace of the record type in that workspace, only in the original workspace, if you have at least View permissions to that workspace.
+   * The read-only **Workspace** field is added to the new record type table view. The field displays the workspace where each record was created.
 
      >[!NOTE]
      >
-     >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
+     >You cannot edit the new record type&#39;s appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
      >
 
-1. <span class="preview">(Facoltativo) Passare il puntatore sull&#39;icona del tipo di record globale ![Icona del record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) per visualizzare il nome dell&#39;area di lavoro originale da cui è stato aggiunto il tipo di record. </span>
-1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
-1. (Facoltativo) Fare clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fare clic su una delle opzioni seguenti:
+1. (Optional) Hover over the global record type icon ![Global record icon on the secondary workspace](assets/global-icon-secondary-workspace.png) to view the name of the original workspace where the record type was added from.
+1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace.
+1. (Optional) Click the **More** menu on the new record type&#39;s card or to the right of the record type name on its page, then click one of the following:
 
    * **Condividi** per condividere il tipo di record dall&#39;area di lavoro secondaria.
    * **Elimina** per eliminare il tipo di record dall&#39;area di lavoro secondaria. L&#39;eliminazione dei tipi di record dall&#39;area di lavoro secondaria comporta anche l&#39;eliminazione dei record aggiunti dall&#39;area di lavoro secondaria.

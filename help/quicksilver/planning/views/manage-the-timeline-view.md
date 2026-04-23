@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 3%
 
 ---
 
 # Gestire la vista timeline
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -155,12 +156,12 @@ Considera i seguenti aspetti:
 
    * Quando le date di inizio e fine non hanno valori
    * Quando le date di inizio o fine non hanno valore
-   * Quando la data di inizio è successiva alla data di fine
+   * When the Start date is after the End date
 
-Per gestire una vista timeline:
+To manage a timeline view:
 
-1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
-1. Creare una visualizzazione timeline come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Go to the record type page for which you want to view the timeline.
+1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
 
@@ -194,7 +195,7 @@ Per gestire una vista timeline:
    >Dopo aver impostato i trimestri personalizzati nell&#39;area Configura, nella vista timeline vengono visualizzati i trimestri personalizzati anziché quelli classici.
    >Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.
+1. (Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.
 
    >[!TIP]
    >
@@ -267,11 +268,11 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* I filtri creati per una visualizzazione timeline funzionano in modo indipendente dai filtri di qualsiasi altra visualizzazione applicata allo stesso tipo di record.
+* The filters you create for a timeline view work independently from the filters in any other view applied to the same record type.
 
-* I filtri sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati filtri diversi.
+* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them.
 
-* Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso filtro attualmente applicato.
+* Two users looking at the same timeline view see the same filter that is currently applied.
 
 * Non è possibile assegnare un nome ai filtri creati per una vista timeline.
 
@@ -405,22 +406,18 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della timeline.
 
-   <span class="preview">![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegliere un campo diverso** e cercare un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
-1. <span class="preview">(Facoltativo e condizionale) A seconda del tipo di campo selezionato per il raggruppamento, selezionare una delle opzioni di ordinamento seguenti per ordinare i raggruppamenti in ordine crescente o decrescente: </span>
-
-   <div class="preview">
+1. (Facoltativo e condizionale) A seconda del tipo di campo selezionato per il raggruppamento, selezionare una delle seguenti opzioni di ordinamento per ordinare i raggruppamenti in ordine crescente o decrescente:
 
    * **A -> Z** o **Z -> A** per campi Select, campi Text, campi Paragraph, record o oggetti connessi, campi People
    * **0 -> 9** o **9 -> 0** per i campi Numero, Valuta o Percentuale.
    * **meno recente -> più recente** o **più recente -> meno recente** per i campi Data
 
-   </div>
-
-   <span class="preview"> I raggruppamenti nella visualizzazione timeline sono ordinati di conseguenza. I record all&#39;interno dei raggruppamenti vengono ordinati in base all&#39;ordine della relativa **data di inizio**, che è l&#39;ordinamento predefinito. </span>
+   I raggruppamenti nella vista timeline vengono ordinati di conseguenza. I record all&#39;interno dei raggruppamenti vengono ordinati in base all&#39;ordine della relativa **data di inizio**, che è l&#39;ordinamento predefinito.
 
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
@@ -513,7 +510,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
-   Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire il colore del record principale e dei record collegati.
+   You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view.
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -542,11 +539,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    * **Raggruppamento**: il colore dei record corrisponde a quello indicato per i raggruppamenti. Questa opzione è disattivata se non avete applicato raggruppamenti alla vista timeline.
    * **Nessuno**: i record vengono visualizzati in una barra bianca.
 
-1. (Condizionale) Se hai selezionato **Valori campo** per i colori del record, seleziona un campo dal menu a discesa **Corrispondenza colore del record con**.
+1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu.
 
-   ![Menu a discesa del selettore dei campi nella visualizzazione timeline](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Field selector drop-down menu in timeline view](assets/field-selector-drop-down-menu-timeline-view.png)
 
-   Nel menu a discesa vengono visualizzati solo i campi con opzioni codificate a colori.
+   Only fields with color-coded options display in the drop-down menu.
 
    Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 
@@ -612,9 +609,9 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
    >[!IMPORTANT]
    >
-   >    Quando si visualizzano più record connessi nel raggruppamento, questi non sono in ordine gerarchico.
+   >    When you display multiple connected records in the breakdown, they are not in hierarchical order.
    >
-   >Ad esempio, se visualizzi la timeline delle campagne e aggiungi Prodotti e quindi Programmi al raggruppamento, i Programmi non sono necessariamente connessi prima ai Prodotti.
+   >For example, if you are viewing the campaigns&#39; timeline and you add Products and then Programs to the breakdown, Programs are not necessarily connected to the Products first.
    >
    >Sia Prodotti che Programmi devono essere connessi alle campagne per essere visualizzati come opzioni di suddivisione e puoi aggiungerli al raggruppamento in qualsiasi ordine.
 

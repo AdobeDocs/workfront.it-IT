@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -137,7 +137,6 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
    >[!TIP]
    >
-   >Questa impostazione è disponibile solo quando l’istanza di Workfront è integrata in Adobe Unified Experience.
    >
    >Per poter inviare richieste di Workfront Planning in quest&#39;area, è necessario soddisfare le seguenti condizioni:
    >
@@ -192,11 +191,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
    * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
 
-     >[!NOTE]
-     >
-     >L’e-mail e la notifica in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
-     >
-     >L’e-mail di conferma o di notifica dell’approvazione contiene un collegamento alla richiesta.
+     L’e-mail di conferma o di notifica dell’approvazione contiene un collegamento alla richiesta.
 
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma, per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
 1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, aggiorna i seguenti elementi di visualizzazione per l’elenco:
@@ -249,7 +244,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -289,10 +284,6 @@ Gli utenti esterni non possono accedere alle aree interne di Workfront, ad esemp
 
    * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
    * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
-
-     >[!NOTE]
-     >
-     >L’e-mail e la notifica in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
      Dopo l’approvazione della richiesta e la creazione del record, nei campi Approvato da e Data approvata vengono visualizzate le informazioni relative all’approvazione nel record.
 

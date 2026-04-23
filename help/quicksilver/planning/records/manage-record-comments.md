@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## Considerazioni sul commento a un record
 
 * È possibile aggiungere commenti e risposte ai record in Workfront Planning, nella sezione Commenti di un record.
@@ -158,10 +156,6 @@ Old:
   Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Workfront Planning e i commenti aggiunti al record di pianificazione del progetto Workfront non vengono visualizzati in Workfront.
 
 * Puoi assegnare tag a utenti o team per attirare l’attenzione su un aggiornamento. Sia gli utenti taggati singolarmente che quelli dei team taggati ricevono una notifica in-app e un’e-mail sull’aggiornamento.
-
-  >[!NOTE]
-  >
-  >   Solo gli utenti dei clienti che hanno effettuato l’onboarding con Adobe Unified Experience ricevono sia una notifica in-app che una notifica e-mail. Per determinare se la tua azienda utilizza l&#39;esperienza unificata di Adobe, consulta [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * È possibile aggiungere un aggiornamento ai record ed esaminare la cronologia delle modifiche dalle seguenti aree di Workfront Planning:
 
@@ -197,7 +191,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL + Y (⌘+y per Mac) per ripetere una modifica
-1. (Facoltativo e condizionale) Se l&#39;istanza di Workfront fa parte di Adobe Unified Experience, aggiungi **@** seguito dal nome di un utente o di un team per assegnare loro il tag nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
+1. Aggiungi **@** seguito dal nome di un utente o di un team per assegnare loro i tag nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
 
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon o collegamenti all’aggiornamento per migliorare il contenuto.
 

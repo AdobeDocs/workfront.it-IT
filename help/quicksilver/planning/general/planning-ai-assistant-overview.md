@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 7%
 
 ---
@@ -115,9 +115,9 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 ## Accedere all’Assistente AI nell’area Pianificazione
 
-1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Dots main menu](assets/dots-main-menu.png) nell&#39;angolo superiore destro dello schermo oppure sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile.
+1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) in alto a sinistra, quindi fai clic su **Planning**.
 
-. Fare clic su **Pianificazione**. Verrà visualizzata l&#39;area Pianificazione.
+   Verrà visualizzata l&#39;area Pianificazione.
 
 1. Fai clic su una **scheda dell&#39;area di lavoro**.
 

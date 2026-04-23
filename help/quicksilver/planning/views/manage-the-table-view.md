@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -229,9 +230,9 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    >[!TIP]
    >
-   >Le modifiche apportate alla larghezza e all&#39;ordine delle colonne sono permanenti e visibili a tutti gli utenti che accedono al tipo di record.
+   >The changes you make to the column width and order are permanent and visible to all users who access the record type.
 
-1. Passa il puntatore del mouse sull&#39;intestazione della colonna, quindi fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
+1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
 
    Oppure
 
@@ -241,7 +242,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >
    >Il numero di campi nascosti viene visualizzato a sinistra dell’icona Campi nella barra degli strumenti.
    >
-   ><span class="preview">Per impostazione predefinita, i campi nascosti non vengono visualizzati nella casella di anteprima **Dettagli** del record. Tutti i campi vengono visualizzati nella pagina Dettagli del record. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   >Per impostazione predefinita, i campi nascosti non vengono visualizzati nella casella di anteprima **Dettagli** del record. Tutti i campi vengono visualizzati nella pagina Dettagli del record. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Fai clic sull&#39;icona **Campi** e abilita l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
@@ -309,9 +310,9 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * Puoi filtrare per campi di ricerca che visualizzano più valori.
 
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un filtro per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nel filtro che si sta creando per il tipo di record Attività.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project&#39;s Budget in the filter you are creating for the Activity record type.
 
-Per aggiungere un filtro a una vista tabella:
+To add a filter to a table view:
 
 1. Creare una visualizzazione tabella per una pagina del tipo di record, come descritto nell&#39;articolo [Gestione visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Seleziona una vista tabella, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
@@ -401,7 +402,7 @@ Per aggiungere un filtro a una vista tabella:
 
       ![Filtri multilivello nelle visualizzazioni](assets/multi-tiered-filters-in-views.png)
 
-   L’elenco dei record viene filtrato automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
@@ -443,7 +444,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell&#39;intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
+   Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
 
 1. (Condizionale) Nella casella **Ordina record per** fare clic su uno dei campi suggeriti oppure su **Scegli un campo diverso** e cerca un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -506,7 +507,7 @@ Per aggiungere un raggruppamento:
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
-   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
+   ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -583,8 +584,8 @@ Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visua
 
 Quando si visualizza la vista tabella, è inoltre possibile visualizzare il campo che un altro utente sta modificando al momento della visualizzazione del record.
 
-1. Passare a una pagina del tipo di record e aprire qualsiasi visualizzazione.
-1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view.
 1. Fai clic sul menu a discesa accanto agli avatar, per attivare l&#39;impostazione **Mostra collaboratori**. L&#39;impostazione è attivata per impostazione predefinita.
 
    ![Mostra/nascondi collaboratori selezionati](assets/show-collaborators-toggle-selected.png)
@@ -601,11 +602,11 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">(Facoltativo) Fare clic sul triangolo nell&#39;angolo superiore destro della cella contenente il campo modificato da altri. Viene visualizzato un elenco di utenti che stanno modificando il campo.</span>
+1. (Facoltativo) Fai clic sul triangolo nell’angolo superiore destro della cella che contiene il campo modificato da altri. Viene visualizzato un elenco degli utenti che stanno modificando il campo.
 
 >[!TIP]
 >
-><span class="preview">Gli indicatori di presenza in tempo reale visualizzano gli utenti che stanno modificando un campo in qualsiasi punto di Workfront Planning. Ciò include la vista tabella o l&#39;area Dettagli del record.</span>
+>Gli indicatori di presenza in tempo reale visualizzano gli utenti che stanno modificando un campo in qualsiasi punto di Workfront Planning. Ciò include la vista tabella o l&#39;area Dettagli del record.
 
 
 

@@ -3,16 +3,16 @@ title: Configurare le preferenze del progetto per un gruppo
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-description: Se l'amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
+description: If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2688'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 3%
 # Configurare le preferenze di progetto per un gruppo
 
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Se l&#39;amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
 
@@ -60,7 +62,7 @@ Per informazioni su come un amministratore di Workfront sblocca una preferenza d
   </tr>
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
+   <td>You must be a group administrator of the group or a system administrator.</td>
   </tr>
  </tbody> 
 </table>
@@ -79,15 +81,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel pannello a sinistra, fai clic sull&#39;icona **Gruppi** ![Gruppi](assets/groups-icon.png).
 
-1. Fai clic sul nome del gruppo di cui desideri configurare le preferenze di progetto.
-1. Nel pannello a sinistra, fai clic su **Preferenze progetto**.
-1. Nella pagina visualizzata, continua con una delle 4 sezioni elencate di seguito per configurare le preferenze per lo stato del progetto, le timeline, i casi di business e la vita dopo la morte.
+1. Click the name of  the group whose project preferences you want to configure.
+1. In the left panel, click **Project Preferences**.
+1. On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.
 
    >[!TIP]
    >
-   >Se passi il cursore del mouse su una preferenza e viene visualizzato un suggerimento che informa che è bloccata, puoi chiedere all’amministratore di Workfront di sbloccarla per tutti i gruppi dell’organizzazione.
+   >If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
 
-* [Stato progetto](#project-status)
+* [Project Status](#project-status)
 * [Timeline](#timelines)
 * [Casi di studio](#business-cases)
 * [Vita dopo la morte](#life-after-death)
@@ -169,7 +171,7 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
  <tbody> 
   <tr> 
    <td role="rowheader"><b>Pianifica da</b></td> 
-   <td> <p>Determina se i nuovi progetti devono essere programmati dalla data di inizio o dalla data di completamento al momento della creazione.</p> 
+   <td> <p>Determine whether new projects are scheduled from Start Date or from Completion Date when they are created.</p> 
     <ul> 
      <li><strong>Data inizio</strong>: per impostazione predefinita, le nuove attività vengono impostate sul vincolo Il più presto possibile e ai project manager viene richiesto di specificare una data inizio pianificata per il progetto.</li> 
      <li><strong>Data di completamento</strong>: per impostazione predefinita, le nuove attività vengono impostate sul vincolo Attività il più tardi possibile e ai project manager viene richiesto di specificare una data di completamento pianificata per il progetto.</li> 
@@ -179,8 +181,8 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
    <td role="rowheader"><b>Indisponibilità utente</b></td> 
    <td> <p>Determinare se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate per l'attività in un progetto.</p> 
     <ul> 
-     <li> <p><strong>Considerare l'indisponibilità dell'utente per le durate dell'attività</strong>: qualsiasi indisponibilità pianificata per l'assegnatario principale di un'attività regola le date pianificate dell'attività se l'indisponibilità si verifica durante la durata dell'attività. Questa è l'impostazione predefinita. </p> <p>Ad esempio, se un'attività con un vincolo Il più presto possibile è programmata per iniziare il 1° giugno e completare il 3 giugno e l'assegnatario principale ha il 2 giugno contrassegnato per l'indisponibilità, le date pianificate dell'attività vengono aggiornate dal 1° al 4 giugno.</p> <p><b>IMPORTANTE</b>: la durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività.</p> </li> 
-     <li><strong>Ignora indisponibilità utente durante l'attività</strong>: le date pianificate di ogni attività in un progetto rimangono invariate rispetto a quelle pianificate in origine, anche se l'assegnatario principale di un'attività presenta un'indisponibilità durante la sua durata.</li> 
+     <li> <p><strong>Consider user time off in task durations</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. Questa è l'impostazione predefinita. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p><b>IMPORTANT</b>: The Duration of the task does not change when you select this setting. Solo le date pianificate cambiano, a seconda del Vincolo attività.</p> </li> 
+     <li><strong>Ignore user time off in task durations</strong>: The planned dates of each task on a project remain as originally planned, even if the Primary Assignee of a task has time off during its duration.</li> 
     </ul> <p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
     <ul> 
      <li>Quando modifichi questa impostazione, solo i progetti e i modelli creati dopo la modifica ereditano l’impostazione aggiornata. </li> 
@@ -190,16 +192,16 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
        <li>La data di completamento pianificata</li> 
        <li>Entrambe le date</li> 
        <li>Nessuna data. </li> 
-      </ul> <p>Ad esempio, se un'attività ha un vincolo di date fisse, le date non vengono modificate quando l'assegnatario principale presenta un'indisponibilità, anche se è selezionata l'opzione Considera indisponibilità dell'utente nella durata dell'attività. Per informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Panoramica sui vincoli delle attività</a>.</p> </li> 
+      </ul> <p>For example, if a task has a Constraint of Fixed Dates, the dates do not adjust when the Primary Assignee has time off, even if the option Consider user time off in task duration is selected. Per informazioni sui vincoli delle attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Panoramica sui vincoli delle attività</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>Le sequenze temporali del progetto verranno ricalcolate automaticamente</strong> </p> </td> 
    <td> <p>Determina quando viene ricalcolata la timeline di un progetto. Per informazioni sul ricalcolo della sequenza temporale del progetto, vedere <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare le sequenze temporali del progetto</a>.</p> <p>Le seguenti opzioni sono attivate per impostazione predefinita. È possibile selezionare una o più delle seguenti impostazioni:</p> 
     <ul> 
-     <li> <p><strong>Ogni notte</strong>: selezionare questa opzione per ricalcolare le sequenze temporali del progetto ogni notte. Eventuali modifiche apportate al progetto che potrebbero influenzare la timeline non sono immediatamente visibili. Workfront​​​ ricalcola le sequenze temporali di notte solo per i progetti in cui sono soddisfatte entrambe le seguenti condizioni:</p> <p> 
+     <li> <p><strong>Every night</strong>: Select this to recalculate project timelines every night. Any changes you make to the project that might affect the timeline are not immediately visible. Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
        <ul> 
-        <li>Hanno lo stato Attuale</li> 
+        <li>Have a status of Current</li> 
         <li>Hai ricevuto un aggiornamento negli ultimi 3 mesi</li> 
        </ul> </p> </li> 
      <li> <p><strong>Quando l'ambito di un progetto cambia</strong>: selezionare questa opzione per ricalcolare immediatamente le sequenze temporali del progetto quando si verifica una modifica dell'ambito del progetto. Per informazioni su cosa costituisce una modifica dell'ambito del progetto, vedere <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare le sequenze temporali del progetto</a>.</p> </li> 
@@ -233,15 +235,17 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
      <li><strong>Giorni lavorativi tipici per settimana</strong>: imposta la settimana lavorativa standard per gli utenti che lavoreranno ai progetti. Il valore predefinito è 5 giorni.</li> 
     </ul> <p>Queste 2 opzioni convertono i giorni in ore o le settimane in giorni.</p> <p>Se ad esempio si dispone di un'attività con 8 ore pianificate e la durata viene calcolata in base alle ore pianificate, Workfront converte tali ore in giorni in modo da visualizzare la Durata come giorni.</p> <p>Nel campo Giorni lavorativi tipici per settimana, Workfront calcola il valore FTE (Full Time Equivalent) per il sistema. Questo è ciò che utilizza Workfront per calcolare le allocazioni per gli utenti.</p> <p>Questi valori vengono utilizzati per la pianificazione delle sequenze temporali dei progetti, la definizione del budget per le risorse o la registrazione del tempo rispetto ai progetti. </p> <p>Non vengono utilizzati quando si stabiliscono schede orario per gli utenti nel sistema, come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurare le preferenze per le ore e la scheda orario</a>.</p> <p><b>NOTA</b>: gli amministratori di Workfront non possono sbloccare le preferenze Calcoli sequenza temporale.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Trimestri personalizzati</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">L'area Trimestri personalizzati è stata rimossa dalla sezione Preferenze progetto del gruppo nell'ambiente di anteprima.</span>
-   <p>I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. Un amministratore di Workfront può aggiungere più trimestri personalizzati nell'area <b>Configurazione</b>. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p>  
-   <p><b>IMPORTANTE<b></p>
-   <p>Non puoi modificare la configurazione del Trimestre personalizzato come amministratore di gruppo. <p>Gli amministratori di Workfront non possono sbloccare le preferenze Trimestri personalizzati in modo che possano gestirle.</p> <p>L'area Trimestri personalizzati è di sola lettura per gli amministratori di gruppi.</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -263,8 +267,8 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
    <td role="rowheader"> <p><strong>Dopo aver contrassegnato un progetto come completato, è ancora possibile</strong> </p> </td> 
    <td> <p>Determina le regole per l'organizzazione (o il gruppo, se stai configurando le preferenze di progetto per un gruppo) relative alla possibilità di eliminare un'attività o un problema dopo che lo stato del progetto è stato contrassegnato come Completo.</p> 
     <ul> 
-     <li><strong>Elimina attività</strong>: consente agli utenti di eliminare le attività da un progetto dopo che è stato contrassegnato come completato.<br></li> 
-     <li><strong>Elimina problemi</strong>: consente agli utenti di eliminare i problemi da un progetto dopo che è stato contrassegnato come completato.</li> 
+     <li><strong>Delete Tasks</strong>: Allows users to delete tasks from a project after the project has been marked Complete.<br></li> 
+     <li><strong>Delete Issues</strong>: Allows users to delete issues from a project after the project has been marked Complete.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -273,8 +277,8 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
     <ul> 
      <li><strong>Aggiungi e modifica attività</strong> Consente agli utenti di: 
       <ul> 
-       <li>Modifica le attività all’interno di un progetto dopo che il progetto è stato contrassegnato come Completo, Inattivo o In attesa di approvazione. Ciò include l'aggiunta di ore e la modifica delle voci di spesa per un'attività.</li> 
-       <li>Aggiungere attività a un progetto.</li> 
+       <li>Modifica le attività all’interno di un progetto dopo che il progetto è stato contrassegnato come Completo, Inattivo o In attesa di approvazione. This includes adding hours and changing expense entries on a task.</li> 
+       <li>Add tasks to a project.</li> 
       </ul></li> 
      <li><strong>Aggiungi e modifica problemi</strong>: consente agli utenti di: 
       <ul> 

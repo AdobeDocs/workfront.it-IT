@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 9%
+source-wordcount: '699'
+ht-degree: 8%
 
 ---
 
@@ -71,17 +71,19 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
    <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
    <li><p>Qualsiasi pacchetto Workflow e un pacchetto Planning Prime e Ultimate</p></li></ul> </td></tr>
 
-<tr>
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
+<!--
+   <tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-   <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
-   <p><b>IMPORTANTE</b></p>
-   <p>Solo gli utenti aggiunti a Adobe Identity Management System (IMS) possono ottenere le autorizzazioni necessarie e essere aggiunti ai campi di Planning.</p>
-   <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience per Workfront</a>. </p>
+   <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+   <p><b>IMPORTANT</b></p>
+   <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
+   <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
-  </tr>
-  <tr>
+  -->
+
+<tr>
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td>
    <td>
    <ul><li><p>Qualsiasi, per visualizzare le informazioni di Workfront Planning</p></li>

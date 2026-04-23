@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2615'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Imposta automaticamente la condizione del progetto in base allo stato di avanzamento]</td> 
-   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione  di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
+   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione [!UICONTROL] di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Crea automaticamente linee di base]</p> </td> 
@@ -143,7 +143,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Stima al completamento &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Stima al completamento ]</p> </td> 
    <td> <p>Determinare i dati utilizzati da [!DNL Workfront] per calcolare la stima [!UICONTROL al completamento] (EAC) che rappresenta il costo totale previsto di un progetto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcola a livello di progetto]</strong>: EAC per l'attività padre e il progetto vengono determinati immettendo [!UICONTROL Ore effettive] o [!UICONTROL Costo effettivo manodopera] nelle formule EAC. Questo calcolo include [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese] aggiunti direttamente all'attività o al progetto padre.</li> 
@@ -239,12 +239,14 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
      <li><strong>[!UICONTROL Giorni lavorativi tipici alla settimana]</strong>: imposta la settimana lavorativa standard per gli utenti che lavorano sui progetti. Il valore predefinito è 5 giorni.</li> 
     </ul> <p>Queste 2 opzioni convertono i giorni in ore o le settimane in giorni.</p> <p>Ad esempio, se un'attività ha 8 ore pianificate e la durata è calcolata in base alle ore pianificate, [!DNL Workfront] le converte in giorni in modo da visualizzare la Durata come giorni.</p> <p>Dal campo Tipico [!UICONTROL giorni lavorativi alla settimana], [!DNL Workfront] calcola il valore FTE (Full Time Equivalent) per il sistema. Questo è ciò che [!DNL Workfront] utilizza per calcolare le allocazioni per gli utenti.</p> <p>Questi valori vengono utilizzati per la pianificazione delle sequenze temporali dei progetti, la definizione del budget per le risorse o la registrazione del tempo rispetto ai progetti. </p> <p>Non vengono utilizzati quando si stabiliscono schede orario per gli utenti nel sistema, come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet and hour preferences</a>.</p> <p><b>NOTA</b>:</p> <p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Timeline Calculation].</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Trimestri Personalizzati]</p> </td> 
-   <td> <span class="preview">L'area Trimestri personalizzati è stata rimossa dalla sezione Preferenze progetto nell'ambiente di anteprima.</span> 
-   <span class="preview">Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p></span>
-   <p>Nell’ambiente di produzione, configura i trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati.   <p><b>NOTA</b>: </p><p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Trimestri personalizzati] e gli amministratori di gruppi non possono modificare queste impostazioni a livello di gruppo.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

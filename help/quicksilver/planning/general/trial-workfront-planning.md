@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2209'
 ht-degree: 3%
 
 ---
@@ -65,8 +65,6 @@ Per partecipare alla prova gratuita di Workfront Planning, la società deve sodd
 
   La versione di prova di Workfront Planning non è disponibile per i pacchetti Workfront legacy.
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-* Avere accesso al Adobe Admin Console
-* Fa parte del sistema Identity Management (IMS)
 * Accetta il contratto di prova legale disponibile nell’istanza Workfront della tua organizzazione tra il 26 gennaio e il 1 aprile 2026 . Per accettare il contratto di prova è necessario essere un amministratore Workfront.
 
 ## Panoramica delle date importanti

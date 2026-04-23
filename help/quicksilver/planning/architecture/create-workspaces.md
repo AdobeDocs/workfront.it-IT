@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
    <td> 
 <p>Qualsiasi pacchetto Workfront o flusso di lavoro</p> 
 <p>Qualsiasi pacchetto di Workfront Planning</p>
-<p>Un pacchetto Workfront Planning Prime o versione successiva per la creazione di più aree di lavoro alla volta</p>
+<p>A Workfront Planning Prime or higher package to create multiple workspaces at a time</p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
@@ -62,7 +62,7 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -148,13 +148,13 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
 * Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
-  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
 
   >[!TIP]
   >
-  >È possibile creare più aree di lavoro contemporaneamente solo utilizzando il bundle di modelli best practice.
+  >You can create multiple workspaces at one time only when you use the best-practice template bundle.
 
-### Creare un’area di lavoro da zero o da un modello
+### Create a workspace from scratch or from a template
 
 {{step1-to-planning}}
 
@@ -167,10 +167,10 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
    * Base: Gestione del marketing
    * Avanzato: Gestione del marketing
    * Enterprise: Gestione del marketing
-   * Gestione vendite
-   * Gestione dei prodotti
+   * Sales management
+   * Product management
 
-   Viene visualizzata la casella di anteprima del modello.
+   The template preview box opens.
 
    È possibile indicare i tipi di record operativi, le tassonomie e il numero di campi associati a ciascun modello.
 
@@ -184,9 +184,9 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
    Fai clic su **Indietro**, quindi su **Nuova area di lavoro** per creare un&#39;area di lavoro da zero.
 
-   Viene creato uno dei seguenti tipi di aree di lavoro:
+   One for the following types of workspaces is created:
 
-   * Area di lavoro vuota denominata **Workspace senza titolo** in cui è possibile iniziare ad aggiungere tipi di record manualmente quando si crea un&#39;area di lavoro da zero.
+   * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch.
    * Area di lavoro denominata in base al modello selezionato, popolata con tipi di record di esempio. È possibile personalizzare ulteriormente i tipi di record e il workspace.
 
    Per gli amministratori di Workfront, la nuova area di lavoro viene visualizzata nella scheda **Aree di lavoro in cui sono presente**.
@@ -195,15 +195,15 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
 1. Fai clic sul nome del workspace nell’intestazione del nuovo workspace per rinominarlo, quindi premi Invio.
 
-1. (Facoltativo e condizionale) Se l&#39;area di lavoro è stata creata da un modello, fare clic all&#39;interno del nome delle sezioni **Tipi di record operativi** o **Tassonomie**
+1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections
 
    Oppure
 
-   Passa il mouse sul nome di una sezione, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la sezione.
+   Hover the name of a section, then click the **More** menu ![More menu](assets/more-menu.png), then click **Rename** to rename the section.
 
    >[!TIP]
    >
-   >È possibile rinominare qualsiasi sezione da qualsiasi area di lavoro, anche se non è stata creata.
+   >You can rename any section from any workspace, even if you didn&#39;t create the section.
 
    Per ulteriori informazioni sulla modifica delle aree di lavoro, inclusa la modifica delle sezioni dell&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
@@ -217,11 +217,10 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
    Il nome dell’utente che ha creato l’area di lavoro viene salvato nella scheda dell’area di lavoro come Proprietario.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Per gli utenti attualmente sottoposti a transizione ad Adobe Identity Management System (IMS), le aree di lavoro create da utenti solo di Workfront che non sono utenti IMS vengono visualizzate come create da **System**.
+   >Le aree di lavoro create da utenti di sola Workfront che non sono stati aggiunti alla visualizzazione di Adobe Admin Console come create dal **sistema**.
    >
-   >Per informazioni su IMS, consulta [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
@@ -230,11 +229,11 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 >La creazione di più aree di lavoro alla volta utilizzando il bundle di modelli di best practice è disponibile solo quando sono soddisfatti i seguenti prerequisiti:
 >
 >* La tua organizzazione ha acquistato un pacchetto Workfront Planning Prime o Ultimate.
->* Sei un amministratore di sistema
+>* You are a System Administrator
 
-Puoi utilizzare un bundle di modelli per più aree di lavoro per creare 6 aree di lavoro con un clic.
+You can use a multi-workspace template bundle to create 6 workspaces with one click.
 
-I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, visualizzazioni e campi per aiutarti a iniziare con l’implementazione di Planning.
+The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation.
 
 >[!IMPORTANT]
 >
@@ -249,12 +248,12 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
 
    Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
 
-1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
-1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
+1. Click **Review workspace setup** in the **Start here (Recommended)** area.
+1. (Optional) Click **Preview** inside any of the following predefined workspace templates to open the Preview box for each template:
 
-   * 1.Classificazioni globali e tassonomie
+   * 1.Global Classifications &amp; Taxonomies
 
-     Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
+     The Global Classifications &amp; Taxonomies template includes all the record types and fields we recommend that you create in your environment for a successful implementation of Workfront Planning.
 
      In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
    * 2.Fréscopa Global Marketing
@@ -271,7 +270,7 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
 
    Per ulteriori informazioni sulle best practice per l&#39;implementazione di Workfront, vedere gli articoli nella sezione [Best practice di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-   Per informazioni sulla modifica delle aree di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   For information about editing workspaces, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
 

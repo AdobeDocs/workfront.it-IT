@@ -1,6 +1,6 @@
 ---
-title: Panoramica della gerarchia e delle breadcrumb
-description: In qualità di responsabile del workspace, in Adobe Workfront Planning è possibile definire gerarchie flessibili ma strutturate tra tipi di record connessi e altri tipi di oggetti. Le gerarchie sono connessioni tra tipi di record o tra tipi di record e un progetto Workfront.
+title: Hierarchy and Breadcrumb Overview
+description: As a workspace manager, you can define flexible but structured hierarchies between connected record types and other object types in Adobe Workfront Planning. Hierarchies are connections between record types, or between record types and a Workfront project.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,14 +8,14 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# Panoramica della gerarchia e delle breadcrumb
+# Hierarchy and breadcrumb overview
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -25,40 +25,40 @@ ht-degree: 0%
 
 In qualità di responsabile del workspace, in Adobe Workfront Planning è possibile definire gerarchie flessibili ma strutturate tra tipi di record connessi e altri tipi di oggetti.
 
-Le gerarchie sono connessioni tra tipi di record o tra tipi di record e un progetto Workfront.
+Hierarchies are connections between record types, or between record types and a Workfront project.
 
-Per informazioni sulla creazione di gerarchie, vedere [Creare gerarchie di aree di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+For information about creating hierarchies, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
-Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree di lavoro:
+The following are benefits of using hierarchies in your workspaces:
 
-* Organizzare il lavoro in modo che rifletta il modo in cui i team pianificano, operano e distribuiscono.
-* Per consentire agli utenti di capire dove si trovano, come si connettono i tipi di record e come la strategia fluisce nell’esecuzione facendo riferimento a un set di breadcrumb che indicano la loro posizione nel sistema.
-* Per migliorare la navigazione e creare chiarezza e continuità in tutti i flussi di lavoro.
+* To organize work in a way that reflects how your teams actually plan, operate, and deliver.
+* For users to understand where they are, how record types connect, and how strategy flows into execution by referring to a set of breadcrumbs that indicate their place in the system.
+* To offer a better navigation, and create clarity and continuity across all workflows.
 * Definire flussi che si adattino al funzionamento dell&#39;organizzazione, supportando flessibilità e coerenza in tutte le fasi del lavoro.
 
-## Considerazioni durante l’utilizzo delle gerarchie
+## Considerations when working with hierarchies
 
-* Puoi creare fino a 5 gerarchie per un’area di lavoro.
+* You can create up to 5 hierarchies for one workspace.
 * In una gerarchia è possibile connettere fino a 4 tipi di record e di oggetti.
 * In una gerarchia di workspace è possibile connettere solo i seguenti tipi di oggetto:
    * Tipi di record che appartengono all&#39;area di lavoro in cui si stanno creando le gerarchie.
    * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo tipo di oggetto in una gerarchia.
 * Non è possibile aggiungere i seguenti tipi di oggetto in una gerarchia:
    * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
-   * Tutti gli altri oggetti di Workfront.
-   * AEM Assets o Frammenti di contenuto.
-* Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
+   * All other Workfront objects.
+   * Adobe Experience Manager Assets or Content Fragments.
+* Hierarchies can include both Planning record types and Workfront projects at the same time.
 
   È possibile, ad esempio, disporre di un tipo di record Campaign con Tattiche di pianificazione e Progetti Workfront come elementi figlio nella stessa gerarchia dell&#39;area di lavoro.
 
 * Se esiste già una connessione tra i tipi di record selezionati, il sistema riutilizza la connessione esistente.
 * Se non esiste alcuna connessione, Workfront ne creerà una come parte dell’impostazione della gerarchia.
-* L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso per i record e i tipi di oggetto che si desidera includere in una gerarchia.
-* Non è possibile eliminare un tipo di record se fa parte di una gerarchia.
-* Non è possibile eliminare un campo di connessione se il tipo di record a cui si fa riferimento nel campo fa parte di una gerarchia. Prima di eliminare il tipo di record, è necessario rimuovere il tipo di record dalla gerarchia o eliminare la gerarchia.
-* È possibile eliminare un campo di ricerca da un tipo di record connesso. Impossibile recuperare le informazioni nel campo.
+* The **Create corresponding field on linked record type** setting must be turned on for the connected field for records and object types that you want to include in a hierarchy.
+* You cannot delete a record type if it is part of a hierarchy.
+* You cannot delete a connection field if the record type referenced in the field is part of a hierarchy. You must first remove the record type from the hierarchy or delete the hierarchy before you can delete the record type.
+* You can delete a lookup field from a connected record type. The information in the field cannot be recovered.
 * Di seguito sono riportate le regole per l&#39;impostazione della gerarchia:
-   * Un tipo di record può avere un solo tipo di record padre in una determinata area di lavoro.
+   * A record type can only have one parent record type in a given workspace.
 
      Ad esempio, un tipo di record Tattico non può avere come padre sia un tipo di record Campagna che un tipo di record Obiettivo nella stessa area di lavoro.
    * Un tipo di record può essere il padre in più gerarchie.
@@ -73,7 +73,7 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
    * Un tipo di record non può essere il padre in una gerarchia e il figlio in un&#39;altra gerarchia nello stesso workspace.
    * I tipi di record globali possono essere visualizzati in più aree di lavoro all&#39;interno di più gerarchie, dopo essere stati aggiunti a tali aree.
 
-     Ad esempio, se una campagna è un tipo di record globale e fa parte di una gerarchia in Workspace 1, può essere aggiunta come tipo di record esistente a Workspace 2 e può far parte di una gerarchia. Tuttavia, non può far parte di una gerarchia in Workspace 2 solo se designato come tipo di record globale in Workspace 1, ma non aggiunto a Workspace 2.
+     For example, if a Campaign is a global record type and part of a hierarchy in Workspace 1, it can be added as an existing record type to Workspace 2 and can be part of a hierarchy there. Tuttavia, non può far parte di una gerarchia in Workspace 2 solo se designato come tipo di record globale in Workspace 1, ma non aggiunto a Workspace 2.
    * Quando i tipi di record connessi fanno parte di gerarchie, è possibile collegare un record da un tipo di record figlio a un massimo di 10 record da un tipo di record padre.
 
      Ad esempio, se crei una gerarchia tra Campagne come record principale e Persona come record secondario, puoi collegare la stessa persona a un massimo di 10 campagne.
@@ -82,7 +82,7 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 
 Quando si creano gerarchie tra tipi di record, vengono generate breadcrumb per i record che appartengono a tali tipi di record.
 
-Ad esempio, se crei una gerarchia e colleghi Campagne con Tattiche, quindi con Attività, quando passi a un record di qualsiasi tipo connesso nella gerarchia, puoi visualizzare la posizione nella gerarchia in cui si trova il record. Se il record viene visualizzato in più aree di lavoro, è possibile visualizzare i percorsi in ogni area di lavoro a partire dal nome dell’area di lavoro nella breadcrumb.
+Ad esempio, se crei una gerarchia e colleghi Campagne con Tattiche, quindi con Attività, quando passi a un record di qualsiasi tipo connesso nella gerarchia, puoi visualizzare la posizione nella gerarchia in cui si trova il record. If the record displays in multiple workspaces, you can view the paths in each workspace starting with the workspace name in the breadcrumb.
 
 ![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 8%
+source-wordcount: '490'
+ht-degree: 7%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 8%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+<!-- no longer needed: 
 >[!IMPORTANT]
 >
->La funzionalità descritta in questo articolo è disponibile solo quando l’organizzazione è stata integrata in Adobe Unified Experience.
+>The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
 >
->Per ulteriori informazioni, consulta [Adobe Unified Experience per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
+>For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+-->
 
 È possibile richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro quando qualcuno condivide con te un collegamento alla visualizzazione o all&#39;area di lavoro a cui non hai accesso.
 
@@ -182,7 +183,7 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
 1. (Facoltativo e condizionale) Se non disponi delle autorizzazioni necessarie per visualizzare l&#39;area di lavoro, aggiungi un messaggio personalizzato nella casella disponibile, quindi fai clic su **Richiedi accesso**.
 
-   Tutti gli utenti con autorizzazioni di gestione per la visualizzazione o l’area di lavoro ricevono le notifiche seguenti per la richiesta di accesso:
+   All users with Manage permissions to the view or the workspace receive the following notifications for the access request:
    * Una notifica in-app
      ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail

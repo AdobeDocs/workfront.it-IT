@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2977'
 ht-degree: 4%
 
 ---
@@ -93,7 +93,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -253,13 +253,13 @@ Old:
      ![Selezione connessione richiesta originale](assets/original-request-connection-selection.png)
 
 
-   * **Experience Manager** dalla sezione **Applicazioni Adobe**.
+   * **Experience Manager** dalla sezione **Applicazioni Adobe**, per connettersi ad AEM Assets o a frammenti di contenuto.
 
      ![Selezione connessione AEM Assets](assets/aem-assets-connection-selection-041326.png)
 
      Viene visualizzata una nuova scheda di connessione per il record o il tipo di oggetto selezionato.
 
-   * Un **Marchio** da Adobe GenStudio for Performance Marketing dalla sezione **Adobe GenStudio**
+   * **Marchi** da Adobe GenStudio for Performance Marketing dalla sezione **Adobe GenStudio**
 
      ![Selezione connessione marchio GenStudio](assets/brand-genstudio-connection-selection.png)
 
@@ -314,7 +314,7 @@ Old:
 
    >[!NOTE]
    >
-   >L’amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi ad Experience Manager, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
