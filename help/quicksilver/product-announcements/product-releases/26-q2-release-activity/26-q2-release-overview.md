@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2343'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -394,9 +394,9 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Viste predefinite aggiunte all'elenco delle richieste nell'area Richieste e widget Richieste personali </a><p></p>
             <p>Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home.</p>
         </td>
-           <td><p>N/D</p><p>Le viste predefinite non avranno una versione di anteprima e verranno rilasciate direttamente in produzione. </p></td>
-        <td><p>Da definire</p></td>
-        <td><p>Da definire</p></td>
+           <td><p>venerdì 23 aprile 2026</p></td>
+        <td><p>venerdì 23 aprile 2026</p></td>
+        <td><p>venerdì 23 aprile 2026</p></td>
  </tr>
     <tr>
         <td>

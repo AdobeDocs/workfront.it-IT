@@ -5,9 +5,9 @@ feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,13 @@ Benvenuti nella pagina Home della documentazione tecnica e del prodotto Adobe Wo
 
 >[!TAB Versione più recente]
 
-* [Panoramica sul rilascio del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+* [Panoramica sul rilascio del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [Attività sulla versione di Pianificazione di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
 * [Attività sulla versione di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 >[!TAB Rilasci del 2026]
 
+* [Panoramica sul rilascio del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [Panoramica sul rilascio del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [Panoramica del rilascio del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Attività sulla versione di Pianificazione di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
@@ -51,7 +52,7 @@ Benvenuti nella pagina Home della documentazione tecnica e del prodotto Adobe Wo
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -123,7 +124,7 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 ### Esplorare le sezioni di apprendimento e formazione
 
 * **Materiale per la formazione**: vai alla pagina [Formazione Workfront](https://experienceleague.adobe.com/it/browse/workfront) per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali di formazione a pagamento all’indirizzo [learning.adobe.com](https://learning.adobe.com/).
-* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?lang=it&Solution=Workfront#courses) che ti guidano attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
+* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guidano attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
 
 ### Trovare risposte nei forum della community
 
