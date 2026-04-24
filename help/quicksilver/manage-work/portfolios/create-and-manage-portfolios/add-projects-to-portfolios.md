@@ -1,17 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Aggiungere progetti a un Portfolio
-description: È consigliabile aggiungere progetti ai portfolio quando vengono avviati. Tuttavia, puoi aggiungerli a un portfolio in qualsiasi momento della loro durata.
+title: Add Projects to a Portfolio
+description: We recommend that you add projects to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,26 @@ ht-degree: 5%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-È consigliabile aggiungere progetti ai portfolio quando vengono avviati. Tuttavia, puoi aggiungerli a un portfolio in qualsiasi momento della loro durata.
+We recommend that you add projects to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
 
-Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
+Consider the following when adding projects to portfolios:
 
-* Anche se un portfolio può contenere un numero illimitato di progetti, puoi associare un solo portfolio a un progetto.
-* Un progetto rimane in un portfolio fino a quando non viene rimosso o associato a un altro portfolio.
+* You can associate only one portfolio with a project.
+* A project remains in a portfolio until it is removed or associated with another portfolio.
+* A portfolio may contain an unlimited number of projects.
+
+>[!CAUTION]
+>
+>   Inherited permissions may not be applied correctly when used across a large number of child objects.
+>   
+>   To help avoid inherited permissions issues, we recommend the following:
+>
+>   * Limit the number of child objects (projects) under a single parent (portfolio or program). We recommend no more than 10,000 projects per portfolio or program.
+>   * Reduce inheritance depth by applying permissions at a lower-level object.
+>
+>     For example, apply permissions directly at the project level rather than rely on the permissions inherited from the portfolio to the program, and then to the project.
+>   * Split programs to contain fewer projects, which reduces permission complexity.
+
 
 ## Requisiti di accesso
 
@@ -52,16 +66,16 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
-   <td> <p>Portafogli di accesso a [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Autorizzazioni [!UICONTROL Manage] per i progetti</p>  </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,17 +108,17 @@ Old:
 </table>
 -->
 
-## Aggiungere un progetto a un portfolio
+## Add a project to a portfolio
 
-1. Vai a un portfolio, quindi fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra.
+1. Go to a portfolio, then click **[!UICONTROL Projects]** in the left panel.
 
-   ![Portfolio con progetti](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio with projects](assets/qs-portfolio-with-projects-350x90.png)
 
-1. Fare clic su **[!UICONTROL Nuovo progetto]** e selezionare un metodo per aggiungere un progetto.
+1. Click **[!UICONTROL New Project]** and select a method for adding a project.
 
    >[!TIP]
    >
-   >Impossibile aggiungere un progetto quando si visualizza l&#39;elenco dei progetti nella visualizzazione [!UICONTROL Milestone].
+   >You cannot add a project when you view the list of projects in the [!UICONTROL Milestone] view.
 
    Selezionare una delle opzioni seguenti:
 
@@ -113,39 +127,39 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Progetto Esistente]</td> 
-      <td> <p>Aggiungi un progetto già creato.</p> </td> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nuovo Progetto]</td> 
-      <td> <p>Aggiungi un nuovo progetto. </p> <p>Per ulteriori informazioni sulla creazione di un nuovo progetto, vedere <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Creare un progetto</a>. </p> </td> 
+      <td role="rowheader">[!UICONTROL New Project]</td> 
+      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Importa un progetto da [!DNL MS Project]] </td> 
-      <td> <p>Aggiungere un progetto esportato in precedenza da [!DNL MS Project] e salvato nel computer. </p> <p>Per ulteriori informazioni sulla creazione di un nuovo progetto importandolo da [!DNL Microsoft Project], vedere <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importare un progetto da [!DNL Microsoft Project]</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
-      <td> <p>Richiesta di approvazione di un progetto.</p> <p>Per informazioni sulla richiesta di progetti, vedere <a href="../../../manage-work/projects/create-projects/request-project.md">Richiesta di un progetto</a>. </p> </td> 
+      <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nuovo da modello]</td> 
-      <td> <p>Aggiungi un nuovo progetto utilizzando un modello esistente. </p> <p>Per ulteriori informazioni sulla creazione di un progetto da un modello, vedere <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Creare un progetto utilizzando un modello</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![Menu a discesa Nuovo progetto](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condizionale) Se hai selezionato di aggiungere un progetto esistente, viene visualizzata la casella **Aggiungi progetti**. <!--check this after UI changes-->
+1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
 
-   ![Aggiungi progetto esistente](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![Add existing project](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. Inizia a digitare il nome di un progetto nel campo **[!UICONTROL Aggiungi progetti a questo Portfolio]**, quindi fai clic su di essi quando compaiono nell&#39;elenco.  <!--check this after UI changes-->
+1. Start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
 
-   È possibile aggiungere più progetti.
+   You can add more than one project.
 
-1. (Facoltativo) Se decidi di non aggiungerlo al portfolio, fai clic sull&#39;icona **X** a destra del nome del progetto per rimuoverlo dall&#39;elenco.
+1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
