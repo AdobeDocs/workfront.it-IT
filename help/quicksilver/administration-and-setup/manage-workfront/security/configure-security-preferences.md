@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 11%
+source-wordcount: '773'
+ht-degree: 10%
 
 ---
 
@@ -127,24 +127,28 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
       <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
      </tr>
+      <tr> 
+      <td role="rowheader">Abilitare lo storage aziendale Adobe </td> 
+      <td>Consente di abilitare o disabilitare Adobe Enterprise Storage per l'intera organizzazione o per gruppi specifici. Per ulteriori informazioni su Adobe Enterprise Storage, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Abilitare Adobe Enterprise Storage per la tua organizzazione</a>.</td> 
+     </tr>
      <tr> 
       <td role="rowheader">Abilita IA </td> 
       <td>Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Completamento automatico modulo </td> 
-      <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
+      <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
-      <td>&gt;Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+      <td>&gt;Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
-      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente sandbox di anteprima di Adobe Workfront</a>.</p></td> 
+      <td>Lets you access your Workfront test environments. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente sandbox di anteprima di Adobe Workfront</a>.</p></td> 
     </tbody> 
    </table>
 
 1. Fai clic su **Salva**.
 
-   Le modifiche salvate in questa pagina influiscono sull&#39;esperienza di tutti gli utenti di Workfront e di tutti coloro che interagiscono con il sistema come utenti esterni.
+   The changes that you saved here affect the experience of all the users in Workfront and anyone who interacts with the system as an external user.
