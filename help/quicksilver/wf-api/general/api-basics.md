@@ -492,19 +492,19 @@ Gli aggiornamenti agli oggetti vengono sempre eseguiti per ID utilizzando l’UR
 ### Specificare le modifiche JSON
 
 Come mostrato nell’esempio seguente, puoi utilizzare il parametro della richiesta degli aggiornamenti per specificare i campi da aggiornare utilizzando la sintassi JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
 
 ### Esecuzione di aggiornamenti nidificati
 
 Alcuni oggetti dispongono di raccolte private che possono essere aggiornate. Nell’esempio seguente viene illustrato come sovrascrivere le assegnazioni esistenti per una determinata attività:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Mentre gli aggiornamenti apportati al livello superiore sono parziali, gli aggiornamenti a una raccolta o a un oggetto nidificato sostituiscono completamente la raccolta esistente. Per modificare una singola assegnazione su un’attività senza interessare gli oggetti, utilizza una richiesta PUT sull’assegnazione anziché sull’attività.
 
 Nell’esempio seguente un progetto diventa una coda pubblica dell’help-desk. Le proprietà della coda esistenti vengono sostituite.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Utilizzo del parametro della richiesta di azione
 
