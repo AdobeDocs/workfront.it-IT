@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 0%
+source-wordcount: '1576'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate in Admin Console. Poiché tutte le organizzazioni sono ora state integrate in Adobe Admin Console, è necessario eseguire questa azione tramite Adobe Admin Console.
 >
->Per configurare il tuo dopo che l&#39;organizzazione è stata integrata in Adobe Admin Console, vedi [Domini per le app e i servizi Adobe](https://helpx.adobe.com/it/enterprise/kb/network-endpoints.html).
+>Per configurare il tuo dopo che l&#39;organizzazione è stata integrata in Adobe Admin Console, vedi [Domini per le app e i servizi Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, vedi [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -88,16 +88,16 @@ Se l&#39;ambiente di produzione si trova nel cluster 1, 2, 3, 5, 7, 8 o 9, è ne
    <td role="rowheader">Per SSO, webhook di documenti o altre funzionalità</td> 
    <td> 
     <ul> 
-     <li>35 160 0 242</li> 
-     <li>34 213 36 118</li> 
-     <li>3 209 27 146</li> 
-     <li>18 205 251,4</li> 
-     <li>34 211 224,9</li> 
-     <li>54 218 48 56</li> 
+     <li>35.160.0.242</li> 
+     <li>34.213.36.118</li> 
+     <li>3.209.27.146</li> 
+     <li>18.205.251.4</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
      <li>52.36.154.34</li> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
      <li>54.203.255.135/32</li> 
      <li>35.155.2.51/32</li> 
      <li>52.34.192.77/32</li> 
@@ -107,18 +107,18 @@ Se l&#39;ambiente di produzione si trova nel cluster 1, 2, 3, 5, 7, 8 o 9, è ne
    <td role="rowheader">Per ricevere e-mail dall’applicazione Workfront</td> 
    <td> 
     <ul> 
-     <li>54 240 60 174</li> 
-     <li>54 240 60 175</li> 
-     <li>13 58 86 183</li> 
-     <li>34 209 181 84</li> 
-     <li>35 161 82 137</li> 
+     <li>54.240.60.174</li> 
+     <li>54.240.60.175</li> 
+     <li>13.58.86.183</li> 
+     <li>34.209.181.84</li> 
+     <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54 71 252 65</li>
-     <li>23 251 237 107</li> 
-     <li>23 251 237 108</li> 
-     <li>23 251 237 109</li> 
-     <li>23 251 237 106</li> 
+     <li>54.71.252.65</li>
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
+     <li>23.251.237.109</li> 
+     <li>23.251.237.106</li> 
      <li>206.55.149.212</li>
      <li>206.55.149.214</li>
      <li>206.55.149.215</li>
@@ -140,7 +140,7 @@ Se l’ambiente di produzione si trova nel cluster 4, aggiungi i seguenti indiri
 * 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
-* 69,169. 230,232
+* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -171,14 +171,14 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
    <td role="rowheader">Per ricevere e-mail dall’applicazione Workfront</td> 
    <td> 
     <ul> 
-     <li>34 94 227 64</li> 
-     <li>34 94 227 65</li> 
-     <li>34 94 227 66</li> 
-     <li>34 94 227 67</li> 
-     <li>34 66 82 64</li> 
-     <li>34 66 82 65</li> 
-     <li>34 66 82 66</li> 
-     <li>34 66 82 67</li> 
+     <li>34.94.227.64</li> 
+     <li>34.94.227.65</li> 
+     <li>34.94.227.66</li> 
+     <li>34.94.227.67</li> 
+     <li>34.66.82.64</li> 
+     <li>34.66.82.65</li> 
+     <li>34.66.82.66</li> 
+     <li>34.66.82.67</li> 
     <li>206.55.149.212</li>
    <li>206.55.149.214</li>
    <li>206.55.149.215</li>
@@ -190,21 +190,21 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
    <td role="rowheader">Per utilizzare il servizio e-mail</td> 
    <td> 
     <ul> 
-     <li>54 240 60 174</li> 
-     <li>54 240 60 175</li> 
-     <li>13 58 86 183</li> 
-     <li>34 209 181 84</li> 
-     <li>35 161 82 137</li> 
+     <li>54.240.60.174</li> 
+     <li>54.240.60.175</li> 
+     <li>13.58.86.183</li> 
+     <li>34.209.181.84</li> 
+     <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54 71 252 65 </li> 
+     <li>54.71.252.65 </li> 
     </ul> </td> 
   </tr> 
     <tr> 
    <td role="rowheader">Per utilizzare il servizio e-mail Mailgun</td> 
    <td> 
     <ul> 
-     <li>143 55 228 56 </li> 
+     <li>143.55.228.56 </li> 
      <li>209.61.151.229</li> 
      <li>69.72.43.7</li> 
     </ul> </td> 
@@ -235,21 +235,21 @@ Per ricevere e-mail dall&#39;applicazione Workfront sul cluster 11, aggiungere i
    <td role="rowheader">Per ricevere e-mail dall'applicazione Workfront quando si utilizza un'unità di test</td> 
    <td> 
     <ul> 
-     <li>69 42 126 188 </li> 
-     <li>66 119 37 185</li> 
-     <li>66 119 37 186</li> 
+     <li>69.42.126.188 </li> 
+     <li>66.119.37.185</li> 
+     <li>66.119.37.186</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Per le integrazioni SSO e documenta webhook quando si utilizza un’unità di test</td> 
    <td> 
     <ul> 
-     <li> <p>69 42 126 188:</p> <p>Per consentire agli utenti di ricevere e-mail da Workfront, questo indirizzo deve essere aggiunto anche al tuo elenco Consentiti di accesso a cui si è sottoposti.</p> </li> 
-     <li>66 119 37 186</li> 
-     <li>66 119 37 167</li> 
-     <li>54 244 142 219</li> 
+     <li> <p>69.42.126.188:</p> <p>Per consentire agli utenti di ricevere e-mail da Workfront, questo indirizzo deve essere aggiunto anche al tuo elenco Consentiti di accesso a cui si è sottoposti.</p> </li> 
+     <li>66.119.37.186</li> 
+     <li>66.119.37.167</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -268,22 +268,22 @@ Per tutti gli ambienti, aggiungi i seguenti indirizzi IP per ricevere i payload 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52 208 159 124</li> 
-     <li>54 220 93 204</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
-     <li>34 254 76 122</li> 
-     <li>34 252 250 191</li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Per clienti in paesi diversi dall'Europa</td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
-     <li>44 241 82 96</li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
      <li>52.36.154.34</li> 
-     <li>34 211 224,9</li> 
-     <li>54 218 48 56</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
      <li>52.39.217.230</li> 
     </ul> </td> 
   </tr> 
@@ -303,19 +303,19 @@ Per consentire a Workfront Fusion di accedere al sistema, aggiungi i seguenti in
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Centro dati Adobe Workfront USA</p> </td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
      <li>100.20.126.137</li>
-     <li>34 223 32,4</li>
+     <li>34.223.32.4</li>
      <li>52.39.176.220</li>
     </ul> </td> 
   </tr> 
@@ -371,35 +371,35 @@ Il dominio jira.workfront.com deve essere accessibile anche dai server aziendali
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52 208 159 124</li> 
-     <li>54 220 93 204</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
-     <li>34 254 76 122</li> 
-     <li>34 252 250 191</li> 
-     <li>35 162 128 73</li> 
-     <li>52 42 25 64</li> 
-     <li>34 213 36 118</li> 
-     <li>35 160 0 242 </li> 
-     <li> <p>3 209 27 146</p> </li> 
-     <li> <p>18 205 251,4</p> </li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
+     <li>35.162.128.73</li> 
+     <li>52.42.25.64</li> 
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242 </li> 
+     <li> <p>3.209.27.146</p> </li> 
+     <li> <p>18.205.251.4</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Per clienti in paesi diversi dall'Europa</td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
-     <li>44 241 82 96</li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
      <li>52.36.154.34</li> 
-     <li>34 211 224,9</li> 
-     <li>54 218 48 56</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
      <li>52.39.217.230</li> 
-     <li>35 162 128 73</li> 
-     <li>52 42 25 64</li> 
-     <li>34 213 36 118</li> 
-     <li>35 160 0 242 </li> 
-     <li>3 209 27 146</li> 
-     <li>18 205 251,4</li> 
+     <li>35.162.128.73</li> 
+     <li>52.42.25.64</li> 
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242 </li> 
+     <li>3.209.27.146</li> 
+     <li>18.205.251.4</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -507,46 +507,46 @@ Per utilizzare varie funzioni, è necessario aggiungere i seguenti indirizzi IP 
    <td role="rowheader">Prod-US (cluster 1, 2, 3, 5 e 7)</td> 
    <td> 
     <ul> 
-    <li>35 84 172 250</li>
-     <li>34 213 36 118</li> 
-     <li>35 160 0 242</li> 
-     <li>3 209 27 146</li> 
-     <li>18 205 251,4</li> 
-     <li>35 165 152 202</li> 
-     <li>54 184 151 122</li> 
-     <li>35 84 40 190</li> 
-     <li>54 218 48 56</li> 
-     <li>34 211 224,9</li> 
+    <li>35.84.172.250</li>
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242</li> 
+     <li>3.209.27.146</li> 
+     <li>18.205.251.4</li> 
+     <li>35.165.152.202</li> 
+     <li>54.184.151.122</li> 
+     <li>35.84.40.190</li> 
+     <li>54.218.48.56</li> 
+     <li>34.211.224.9</li> 
      <li>52.36.154.34</li> 
-     <li>34 232 138 38</li> 
-     <li>54 237 6 156</li> 
-     <li>54 237 12 32</li> 
-     <li>44 241 82 96</li> 
-     <li>54 244 142 219</li> 
+     <li>34.232.138.38</li> 
+     <li>54.237.6.156</li> 
+     <li>54.237.12.32</li> 
+     <li>44.241.82.96</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>52 207 47 153</li> 
+     <li>52.207.47.153</li> 
      <li>50.16.118.214</li> 
-     <li>52 54 180 191</li> 
+     <li>52.54.180.191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (cluster 4)</td> 
    <td> 
     <ul> 
-    <li>34 255 252 190</li>
-     <li>34 246 27 40</li> 
-     <li>52 208 123 166</li> 
-     <li>3 121 91 129</li> 
-     <li>3 122 11 35</li> 
-     <li>34 241 103 51</li> 
-     <li>46 51 203 201</li> 
-     <li>54 247 174 227</li> 
-     <li>52 208 159 124</li> 
+    <li>34.255.252.190</li>
+     <li>34.246.27.40</li> 
+     <li>52.208.123.166</li> 
+     <li>3.121.91.129</li> 
+     <li>3.122.11.35</li> 
+     <li>34.241.103.51</li> 
+     <li>46.51.203.201</li> 
+     <li>54.247.174.227</li> 
+     <li>52.208.159.124</li> 
      <li>52.17.130.201</li> 
-     <li>34 252 250 191</li> 
+     <li>34.252.250.191</li> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> <p><b>NOTA</b>: le opzioni del server DNS non sono più supportate.</p> </td> 
   </tr> 
  </tbody> 
@@ -562,20 +562,20 @@ Per utilizzare varie funzioni, è necessario aggiungere i seguenti indirizzi IP 
    <td role="rowheader"> <p>Prod-US (cluster 1, 2, 3, 5 e 7)</p> </td> 
    <td> 
     <ul> 
-     <li> 23 251 237 106</li> 
-     <li>23 251 237 107</li> 
-     <li>23 251 237 108</li> 
-     <li>54 240 60 174</li> 
-     <li>54 240 60 175</li> 
+     <li> 23.251.237.106</li> 
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
+     <li>54.240.60.174</li> 
+     <li>54.240.60.175</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (cluster 4)</td> 
    <td> 
     <ul> 
-     <li>23 251 239 98</li> 
-     <li>69 169 230 231</li> 
-     <li>69 169 230 232</li> 
+     <li>23.251.239.98</li> 
+     <li>69.169.230.231</li> 
+     <li>69.169.230.232</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

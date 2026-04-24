@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 98%
+source-wordcount: '4461'
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 restituisce una risposta JSON simile alla seguente:
 
 
-<pre> {<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Progetto appena creato",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
+<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Progetto appena creato",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ L’API utilizza la stessa autenticazione basata su cookie usata dall’interfac
 >
 >La procedura descritta in questa sezione si applicava solo alle organizzazioni che non erano ancora state caricate su Adobe Business Platform. Poiché tutte le organizzazioni sono ora state integrate in Adobe Business Platform, **l&#39;accesso a Workfront tramite l&#39;API Workfront non è più disponibile**.
 >
->Per un elenco delle procedure che differiscono a seconda che l’organizzazione abbia effettuato o meno l’onboarding in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, vedi [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Utilizzando un nome utente e una password validi, puoi utilizzare la seguente richiesta per ottenere un ID sessione:
 
@@ -302,13 +302,13 @@ quindi utilizza la seguente chiamata API con le relative istruzioni OR multiple:
 
 Un potenziale problema nell’utilizzo dei parametri URL per i filtri di ricerca è che Workfront analizza alcuni parametri prima di verificare la presenza di diversi metodi di autenticazione (ad esempio nome utente, password, apiKey, cookie). In questo caso, i parametri non vengono utilizzati come filtri nella chiamata. 
 
-Per evitare questo problema, puoi inserire questi valori nei parametri del filtro con formattazione JSON. Ad esempio, se desideri filtrare in base al nome utente testuser, anziché utilizzare
+Per evitare questo problema, puoi inserire questi valori nei parametri del filtro con formattazione JSON. Ad esempio, se desideri filtrare in base al nome utente testuser, anziché utilizzare 
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>passa il parametro URL in un filtro, come illustrato nell’esempio seguente:
 <pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
 #### Utilizzo del parametro di richiesta mappa
 
-Per impostazione predefinita, i dati restituiti da una ricerca sono un array JSON. A seconda del caso d’uso, potrebbe essere più efficiente ottenere il risultato come oggetto JSON indicizzato per ID. Questa operazione può essere eseguita utilizzando il parametro della richiesta mappa. Ad esempio, la richiesta
+Per impostazione predefinita, i dati restituiti da una ricerca sono un array JSON. A seconda del caso d’uso, potrebbe essere più efficiente ottenere il risultato come oggetto JSON indicizzato per ID. Questa operazione può essere eseguita utilizzando il parametro della richiesta mappa. Ad esempio, la richiesta 
 <pre>/attask/api/v15.0/task/search?map=true</pre>restituisce una risposta indicizzata per ID simile alla seguente:
 <pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NUOVo",<br>            "name": "prima attività",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "seconda attività",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
@@ -330,7 +330,7 @@ Per un elenco dei possibili riferimenti ai campi, consulta [API Explorer](../../
 
 È possibile cercare oggetti nidificati. Per impostazione predefinita, gli oggetti nidificati vengono restituiti solo con il nome e l’ID. Ad esempio, per ottenere tutti i problemi insieme ai relativi proprietari, utilizza la seguente richiesta:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Se sono necessarie ulteriori informazioni, puoi richiedere un campo nidificato utilizzando la sintassi dei due punti. Ad esempio, la richiesta seguente cerca tutti i problemi insieme al nome, all’ID, al titolo e al numero di telefono del proprietario
-<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>e restituisce quanto segue:
+<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>e restituisce quanto segue: 
 <pre>{<br>    "name": "un problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Specialista delle operazioni",<br>        "phoneNumber": "555-1234",<br>        "name": "Utente amministratore",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Recupero raccolte nidificate
@@ -348,7 +348,7 @@ Per impostazione predefinita, vengono restituiti solo il nome e l’ID di ciascu
 
 Puoi recuperare campi dati personalizzati con il prefisso “DE:”. Ad esempio, per richiedere un progetto con un parametro denominato “CustomText”, utilizza la seguente richiesta:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>che restituirebbe
-<pre>{<br>    "name": "progetto dati personalizzati",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "attività b" <br>}</pre>Inoltre puoi recuperare tutti i dati personalizzati per un oggetto richiedendo il campo parameterValues. Ad esempio,
+<pre>{<br>    "name": "progetto dati personalizzati",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "attività b" <br>}</pre>Inoltre puoi recuperare tutti i dati personalizzati per un oggetto richiedendo il campo parameterValues. Ad esempio, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>restituisce dati simili ai seguenti:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -382,7 +382,7 @@ Questa operazione funziona per la maggior parte dei campi in Workfront.
 
 ### Considerazione dei limiti delle query
 
-Quando esegui una query su un oggetto, è necessario prestare particolare attenzione alla relazione tra oggetti correlati e limitazioni della ricerca.Ad esempio, come illustrato nella tabella seguente, una query per progetti può restituire non più di 2.000 progetti. Questi 2.000 progetti sono considerati “oggetti principali”. Se esegui una query per il campo Attività dei progetti, il campo Attività, che è una raccolta, diventa un oggetto secondario dell’oggetto principale Progetto. Una query per il campo Attività può includere migliaia di attività nei progetti. In totale, il numero combinato di oggetti (progetti e attività) restituiti non può superare il massimo di 50.000.
+Quando esegui una query su un oggetto, è necessario prestare particolare attenzione alla relazione tra oggetti correlati e limitazioni della ricerca. Ad esempio, come illustrato nella tabella seguente, una query per progetti può restituire non più di 2.000 progetti. Questi 2.000 progetti sono considerati “oggetti principali”. Se esegui una query per il campo Attività dei progetti, il campo Attività, che è una raccolta, diventa un oggetto secondario dell’oggetto principale Progetto. Una query per il campo Attività può includere migliaia di attività nei progetti. In totale, il numero combinato di oggetti (progetti e attività) restituiti non può superare il massimo di 50.000.
 
 Per garantire prestazioni ottimali, la tabella seguente mostra le limitazioni imposte alle richieste di ricerca. 
 
@@ -436,7 +436,7 @@ Per garantire prestazioni ottimali, la tabella seguente mostra le limitazioni im
 Per ignorare il limite predefinito di query per il numero di risultati e consentirne 200, puoi includere il filtro `$$LIMIT=200` nella query, come illustrato nell’esempio seguente:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Per garantire affidabilità e prestazioni per altri tenant nel sistema, il limite massimo di risultati consentito per query è di 2.000 oggetti. Se tenti di specificare un limite maggiore, verrà visualizzato un messaggio di errore `IllegalArgumentException`.
+Per garantire affidabilità e prestazioni per altri tenant nel sistema, il limite massimo di risultati consentito per query è di 2.000 oggetti. Se tenti di specificare un limite maggiore, verrà visualizzato un messaggio di errore `IllegalArgumentException`. 
 
 Pertanto, è consigliabile considerare l’utilizzo di risposte paginate per set di dati di grandi dimensioni. Per specificare il primo risultato da restituire, aggiungi il filtro `$$FIRST`. Ad esempio, la seguente richiesta restituisce i risultati 201-250 per una query:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -487,29 +487,29 @@ La risposta per una richiesta PUT è identica a una richiesta GET. In entrambi i
 ### Modifica di oggetti
 
 Gli aggiornamenti agli oggetti vengono sempre eseguiti per ID utilizzando l’URI univoco dell’oggetto. I campi da aggiornare vengono specificati come parametri di richiesta. Ad esempio, per modificare il nome di un progetto puoi inviare una richiesta simile alla seguente:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=New Project Name</pre>Poiché l’aggiornamento richiede un ID, questa operazione non riuscirà (senza inserimento) se l’oggetto non esiste sul server.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Nome nuovo progetto <br>PUT /attask/api/v15.0/project?id=4c7..&amp;name=Nuovo nome progetto</pre>Poiché l’aggiornamento richiede un ID, questa operazione non riuscirà (senza inserimento) se l’oggetto non esiste sul server.
 
 ### Specificare le modifiche JSON
 
 Come mostrato nell’esempio seguente, puoi utilizzare il parametro della richiesta degli aggiornamenti per specificare i campi da aggiornare utilizzando la sintassi JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
 
 ### Esecuzione di aggiornamenti nidificati
 
 Alcuni oggetti dispongono di raccolte private che possono essere aggiornate. Nell’esempio seguente viene illustrato come sovrascrivere le assegnazioni esistenti per una determinata attività:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Mentre gli aggiornamenti apportati al livello superiore sono parziali, gli aggiornamenti a una raccolta o a un oggetto nidificato sostituiscono completamente la raccolta esistente. Per modificare una singola assegnazione su un’attività senza interessare gli oggetti, utilizza una richiesta PUT sull’assegnazione anziché sull’attività.
 
 Nell’esempio seguente un progetto diventa una coda pubblica dell’help-desk. Le proprietà della coda esistenti vengono sostituite.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Utilizzo del parametro della richiesta di azione
 
 Alcuni oggetti supportano azioni aggiuntive che possono essere eseguite in aggiunta a semplici modifiche. Puoi specificare queste azioni utilizzando il parametro della richiesta di azione. Ad esempio, la richiesta seguente ricalcola la timeline per un determinato progetto:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculattimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculattimeline </pre>
 
 ### Spostare gli di oggetti
 
@@ -517,7 +517,7 @@ Di seguito viene illustrata la sintassi per lo spostamento di un’attività da 
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8..</pre>Un esempio per ogni tipo di azione è fornito qui: (??)
 <pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Solo l’azione Sposta richiede l’identificazione di attributi aggiuntivi per specificare il progetto in cui deve essere spostato l’elemento di lavoro.
 
-Di seguito è riportato un esempio di ciascun tipo di azione:
+Di seguito è riportato un esempio di ciascun tipo di azione: 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Condividere di oggetti

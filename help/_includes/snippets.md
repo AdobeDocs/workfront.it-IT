@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2317'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -120,7 +120,7 @@ Per assicurarsi di associare il gruppo corretto al team, posizionare il puntator
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Admin Console.
 >
->Se la tua organizzazione è stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Se la tua organizzazione è stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Passaggio 1 - Accesso agli utenti {#step-1-to-users}
 
