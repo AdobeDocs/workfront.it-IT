@@ -5,9 +5,10 @@ title: Collegare risorse e cartelle da Experience Manager Assets Essentials
 description: Puoi collegare una risorsa o una cartella da Experience Manager Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti. Assets inviato da Assets Essentials non viene conteggiato per l’archiviazione complessiva dei documenti in Workfront. I documenti caricati e inviati da Workfront ad Assets Essentials vengono conteggiati ai fini dello storage complessivo.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
@@ -17,6 +18,8 @@ ht-degree: 12%
 Puoi collegare una risorsa o una cartella da Experience Manager Assets Essentials a qualsiasi oggetto Adobe Workfront che supporta i documenti.
 
 Per collegare risorse e cartelle da Experience Manager Assets utilizzando Contenuto verificato, vedere [Collegare risorse e cartelle con Contenuto verificato basato su Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+
+Se ti trovi nell&#39;archiviazione aziendale, consulta [Utilizzare Adobe Experience Manager con l&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Requisiti di accesso

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
+source-wordcount: '14070'
 ht-degree: 96%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 96%
       * [Panoramica delle versioni di prodotto](product-announcements/product-releases/product-releases.md)
       * [Procedura e pianificazione del rilascio di Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Preparazione per un rilascio trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
-      * Versione del terzo trimestre 2026 {#release-26-q3}
-         * [Panoramica sul rilascio del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * Versione Q3 2026 {#release-26-q3}
+         * [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
          * [Terzo trimestre 2026 Richiesta di miglioramenti](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * Versione del secondo trimestre 2026 {#release-26-q2}
-         * [Panoramica sul rilascio del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+         * [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Miglioramenti per gli amministratori del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Miglioramenti ai documenti del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
          * [Miglioramenti delle operazioni aziendali nel secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
@@ -237,7 +237,7 @@ ht-degree: 96%
          * [21.1 Altri miglioramenti](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Attività sulla versione di Pianificazione di Adobe Workfront{#planning-release-activity}
          * [Attività sulla versione di Pianificazione di Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-         * [Attività sul rilascio del secondo trimestre 2026 di Pianificazione di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+         * [Attività della versione del secondo trimestre 2026 per Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Attività sul rilascio del primo trimestre 2026 di Pianificazione di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Attività sul rilascio del quarto trimestre 2025 di Pianificazione di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Attività sul rilascio del terzo trimestre 2025 di Pianificazione di Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
@@ -317,7 +317,7 @@ ht-degree: 96%
             * [2020.2 - Miglioramenti per la gestione delle risorse: Bilanciamento dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Versione 20.1 {#release-20-1}
             * [Panoramica sulla versione 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
-            * [2020.1 - Miglioramenti per gli elenchi &#x200B;](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
+            * [2020.1 - Miglioramenti per gli elenchi](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 - Miglioramenti per dispositivi mobili](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
             * [2020.1 - Altri miglioramenti](product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md)
             * [Miglioramenti per il progetto 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md)
@@ -436,7 +436,7 @@ ht-degree: 96%
          * [Nuova attività di rilascio sull’esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Domande frequenti sulla nuove esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Amministrazione e configurazione {#administration-and-setup}
-   * [Amministrazione e configurazione: indice degli articoli &#x200B;](administration-and-setup/administration-and-setup.md)
+   * [Amministrazione e configurazione: indice degli articoli](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
       * [Introduzione all’amministrazione: indice articoli](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Panoramica sulla definizione degli obiettivi per l’implementazione di Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -1872,7 +1872,7 @@ ht-degree: 96%
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Panoramica sul processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Richiedere le approvazioni dei documenti](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Richiedi approvazione documento legacy](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Approvare il lavoro](review-and-approve-work/manage-approvals/approving-work.md)
       * [Visualizzare le approvazioni](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Ricordare agli approvatori delle approvazioni inviate](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -2298,7 +2298,7 @@ ht-degree: 96%
    * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica su Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [&#x200B; Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Accedere a Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Cercare e condividere elementi Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
       * [Creare attività Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)

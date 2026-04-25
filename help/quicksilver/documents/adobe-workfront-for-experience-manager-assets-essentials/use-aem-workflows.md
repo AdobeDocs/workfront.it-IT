@@ -6,10 +6,10 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 0%
+source-wordcount: '1023'
+ht-degree: 7%
 
 ---
 
@@ -21,12 +21,13 @@ Quando un progetto viene creato utilizzando un modello di progetto a cui è asse
 
 >[!NOTE]
 >
->I flussi di lavoro sono disponibili solo in un’integrazione Adobe Experience Manager as a Cloud Service. Non sono disponibili nelle integrazioni con Adobe Experience Manager Assets Essentials.
+>I flussi di lavoro sono disponibili solo in un’integrazione Adobe Experience Manager as a Cloud Service. Non sono disponibili nelle integrazioni con Adobe Experience Manager Assets Essentials.<br>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.
 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +40,8 @@ Quando un progetto viene creato utilizzando un modello di progetto a cui è asse
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
@@ -52,16 +53,16 @@ Quando un progetto viene creato utilizzando un modello di progetto a cui è asse
    </tr>
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,52 +92,52 @@ Prima di iniziare,
 
 1. Le modifiche vengono salvate automaticamente. <!-- do they though??-->
 
-## Aggiungere un flusso di lavoro a un progetto
+## Add a workflow to a project
 
-Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flusso di lavoro a un progetto esistente. In entrambi i casi, per aggiungere il flusso di lavoro verrà utilizzato un modello di progetto.
+You can add a workflow when creating a project, or add a workflow to an existing project. In both cases, you will use a project template to add the workflow.
 
-### Aggiungere un flusso di lavoro durante la creazione di un progetto
+### Add a workflow when creating a project
 
-1. Inizia a creare un progetto.
+1. Begin creating a project.
 
-   Per istruzioni, vedere [Creare un progetto utilizzando un modello](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   For instructions, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
-1. Quando selezioni un modello per il progetto, seleziona il modello contenente i flussi di lavoro che desideri utilizzare per questo progetto.
-1. (Facoltativo) Modificare i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
+1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
+1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
 
-### Aggiungere un flusso di lavoro a un progetto esistente
+### Add a workflow to an existing project
 
 >[!NOTE]
 >
->I flussi di lavoro eseguiti al momento della creazione di un progetto (ad esempio la creazione di una cartella collegata) non vengono eseguiti quando il modello viene allegato a un progetto esistente. Vengono eseguiti solo quando un progetto viene creato da un modello.
+>Workflows that run when a project is created (such as linked folder creation) do not run when the template is attached to an existing project. They only run when a project is created from a template.
 
-1. Inizia ad aggiungere un modello al progetto.
+1. Begin adding a template to the project.
 
-   Per istruzioni, vedere [Allegare un modello a un progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   For instructions, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-1. Quando selezioni un modello per il progetto, seleziona il modello contenente i flussi di lavoro che desideri utilizzare per questo progetto.
-1. (Facoltativo) Modificare i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
+1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
+1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
 
 
-### Modificare i valori del flusso di lavoro in un progetto
+### Edit workflow values in a project
 
-Puoi modificare i valori del flusso di lavoro a livello di progetto. I valori del flusso di lavoro a livello di progetto sostituiscono i valori impostati nel modello di progetto, che sostituiscono i valori predefiniti impostati nell’integrazione Adobe Experience Manager Assets.
+You can edit workflow values on the project level. Project-level workflow values override values set on the project template, which override the default values set in the Adobe Experience Manager Assets integration.
 
-Tutti i valori del flusso di lavoro sono disponibili in:
+All workflow values can be found in:
 
-* La sezione Flussi di lavoro o cartelle collegate della finestra Crea progetto o Modifica progetto.
-* La sezione Adobe Experience Manager del menu di navigazione a sinistra.
+* The Workflows or Linked folders section of the Create project or Edit project window.
+* The Adobe Experience Manager section of the left navigation.
 
 
   >[!NOTE]
   >
-  >Se queste aree non sono visibili, l’amministratore di Workfront non ha abilitato i flussi di lavoro per la tua organizzazione.
+  >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
 
 
 
@@ -144,7 +145,7 @@ Tutti i valori del flusso di lavoro sono disponibili in:
 
 >[!NOTE]
 >
->Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
 
 Per modificare il flusso di lavoro per le cartelle collegate:
 

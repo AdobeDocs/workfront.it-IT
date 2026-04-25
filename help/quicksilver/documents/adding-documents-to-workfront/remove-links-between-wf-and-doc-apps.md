@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 14%
 
 ---
@@ -38,7 +38,7 @@ Poiché il servizio documenti è quello che consente il collegamento a Workfront
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
@@ -81,8 +81,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel menu a discesa Opzioni, fare clic su **Disconnetti dall&#39;unità**.
 
-## Rimuovere i collegamenti tra Workfront e altri provider di archiviazione documenti
+## Remove the links between Workfront and Other Document Storage Providers
 
-È necessario chiamare il team di supporto per disconnettere Microsoft One Drive o WebDAM da Workfront.
+You must call our Support Team to disconnect Microsoft One Drive or WebDAM from Workfront.
 
-Per informazioni su come contattare il team di supporto, vedere [Contattare l&#39;assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

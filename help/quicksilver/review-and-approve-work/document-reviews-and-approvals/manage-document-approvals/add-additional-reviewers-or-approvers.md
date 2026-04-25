@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '566'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,8 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront per gestire le approvazioni utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire le approvazioni utilizzando lo storage aziendale Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -78,21 +79,21 @@ Per aggiungere altri approvatori o revisori dal Riepilogo documento:
 
 1. Una volta aggiunto il nome, scegliere se si tratta di un approvatore o di un revisore.
 
-   ![elenco a discesa approvatore o revisore](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. Ripetere i passaggi 5-6 per aggiungere altri approvatori o revisori.
-Dopo il salvataggio, i partecipanti aggiunti ricevono una notifica e-mail che indica che per il documento è necessaria la loro approvazione o revisione.
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+Once you save, the participants added receive an email notification that their approval or review is needed on the document.
 
 
 
-## Aggiungere ulteriori approvatori o revisori dal Riepilogo documento nell&#39;area dei nuovi documenti
+## Add additional approvers or reviewers from the Document Summary in the new documents area
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 
-1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
    ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
 
@@ -103,10 +104,10 @@ Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede
 
 1. Una volta aggiunto il nome, scegliere se si tratta di un approvatore o di un revisore.
 
-   ![elenco a discesa approvatore o revisore](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. Ripetere i passaggi 5-6 per aggiungere altri approvatori o revisori.
-Dopo il salvataggio, i partecipanti aggiunti ricevono una notifica e-mail che indica che per il documento è necessaria la loro approvazione o revisione.
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+Once you save, the participants added receive an email notification that their approval or review is needed on the document.
 
 
 

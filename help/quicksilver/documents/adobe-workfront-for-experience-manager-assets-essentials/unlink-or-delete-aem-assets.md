@@ -6,16 +6,20 @@ description: Puoi scollegare o eliminare da Adobe Experience Manager Assets gli 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 10%
 
 ---
 
 # Scollegare o eliminare risorse e cartelle da Experience Manager Assets o Assets Essentials
 
 Puoi scollegare o eliminare da Adobe Experience Manager Assets gli elementi collegati a Workfront.
+
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.
 
 ## Eliminare un documento o una cartella collegata in Workfront
 
@@ -30,8 +34,8 @@ Quando si elimina un documento o una cartella collegata in Workfront, questo vie
 
 Quando si elimina un documento o una cartella collegata dall&#39;applicazione esterna, il documento o la cartella rimane nel sistema Workfront fino a quando non viene eliminato anche da Workfront.
 
-* Per eliminare una risorsa da Adobe Experience Manager as a Cloud Service, vedi [Elimina risorse](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) nella documentazione di Adobe Experience Manager as a Cloud Service.
-* Per eliminare una risorsa da Adobe Experience Manager Assets Essentials, consulta [Eliminare risorse o cartelle](https://experienceleague.adobe.com/it/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) nella documentazione di Adobe Experience Manager Assets Essentials.
+* Per eliminare una risorsa da Adobe Experience Manager as a Cloud Service, vedi [Elimina risorse](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) nella documentazione di Adobe Experience Manager as a Cloud Service.
+* Per eliminare una risorsa da Adobe Experience Manager Assets Essentials, consulta [Eliminare risorse o cartelle](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) nella documentazione di Adobe Experience Manager Assets Essentials.
 
 
 

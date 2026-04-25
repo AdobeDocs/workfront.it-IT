@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '378'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,8 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
@@ -153,7 +154,7 @@ Nella finestra di anteprima non è possibile visualizzare i seguenti formati di 
 Per visualizzare l&#39;anteprima di un documento:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
-1. Individuare il documento necessario, quindi fare clic sul nome del documento.
-   ![Anteprima documento](assets/preview-new-doc.png)
+1. Find the document you need, then click the document name.
+   ![Document preview](assets/preview-new-doc.png)
 
 

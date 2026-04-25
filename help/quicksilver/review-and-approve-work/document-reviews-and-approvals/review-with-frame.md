@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 8%
 
 ---
 
@@ -25,10 +25,10 @@ La revisione dei documenti Workfront con il visualizzatore Frame.io consente di 
 Per ulteriori informazioni sull&#39;integrazione di Frame.io con Workfront, consulta [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,29 +37,30 @@ Per ulteriori informazioni sull&#39;integrazione di Frame.io con Workfront, cons
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi pacchetto Workfront per gestire le approvazioni utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire le approvazioni utilizzando lo storage aziendale Adobe</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Licenze Adobe Workfront</td> 
+   <td> <p>Richiedente o successiva</p>
+   <p>Collaboratore o successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Modifica l'accesso all'oggetto associato al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
--->
+
 
 ## Prerequisiti
 
@@ -70,7 +71,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 In qualità di revisore, puoi aggiungere commenti e contrassegnare le risorse. Al termine, puoi contrassegnare la recensione come completata in Workfront. Per far avanzare la risorsa nel processo di approvazione, non è necessario contrassegnare la revisione come completata.
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-o
+oppure
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]
@@ -92,7 +93,7 @@ Il documento non passa a uno stato approvato finché tutti gli approvatori asseg
 Per prendere una decisione su un documento:
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-o
+oppure
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]

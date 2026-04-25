@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 84%
+source-wordcount: '925'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ Durante la modifica in blocco di moduli personalizzati nei documenti, tieni pres
 >[!BEGINSHADEBOX]
 
 **Esempio**
-Potresti disporre di un modulo personalizzato con un campo contenente tre caselle di controllo (Opzione 1, Opzione 2 e Opzione 3) dove l’Opzione 1 è deselezionata per tutti i documenti selezionati, mentre le Opzioni 2 e 3 sono selezionate per alcuni documenti e deselezionate per altri. Se desideri selezionare l’Opzione 1 per tutti i documenti, prima di salvare le modifiche è necessario che anche le opzioni 2 e 3 corrispondano per tutti i progetti selezionati. Quindi è necessario selezionarle o deselezionarle in modo che corrispondano a tutti i progetti selezionati. Se non modifichi alcuna opzione, puoi salvare il campo così com’è e i documenti manterranno la selezione corrente per tutte le opzioni.
+È possibile che sia disponibile un modulo personalizzato con un campo casella di controllo con tre caselle di controllo (Opzione 1, Opzione 2 e Opzione 3) e che l&#39;Opzione 1 sia deselezionata per tutti i documenti selezionati e che le Opzioni 2 e 3 siano selezionate per alcuni documenti e deselezionate per altri documenti selezionati. Se desideri selezionare l’Opzione 1 per tutti i documenti, prima di salvare le modifiche è necessario che anche le opzioni 2 e 3 corrispondano per tutti i progetti selezionati. Quindi è necessario selezionarle o deselezionarle in modo che corrispondano a tutti i progetti selezionati. Se non modifichi alcuna opzione, puoi salvare il campo così com’è e i documenti manterranno la selezione corrente per tutte le opzioni.
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,8 @@ Potresti disporre di un modulo personalizzato con un campo contenente tre casell
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
@@ -127,7 +128,7 @@ Per modificare i documenti in blocco:
 
 1. Accedi a un rapporto di documenti esistente.
 oppure
-crea un rapporto di documenti come descritto in [Creare un rapporto personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Creare un report di documenti come descritto in [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Seleziona i documenti che desideri modificare.
 1. Fai clic sull’icona Modifica ![icona Modifica](assets/edit-icon.png).
 1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ciascun documento è diversa, nella casella della descrizione verrà visualizzato _Valori multipli_. Puoi aggiungere la stessa descrizione per tutti i documenti, ma non puoi modificare le descrizioni dei singoli documenti durante la modifica in blocco.

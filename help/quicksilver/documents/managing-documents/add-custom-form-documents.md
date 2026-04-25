@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Aggiungere o modificare un modulo personalizzato a un documento
-description: È possibile aggiungere un modulo personalizzato a un documento o a una versione di un documento per acquisire informazioni aggiuntive o metadati specifici per le risorse.
+description: You can add a custom form to a document or to a document version to capture additional information or metadata specific to your assets.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 15%
+source-wordcount: '513'
+ht-degree: 14%
 
 ---
 
 # Aggiungere o modificare un modulo personalizzato a un documento
 
-È possibile aggiungere un modulo personalizzato a un documento o a una versione di un documento per acquisire informazioni aggiuntive o metadati specifici per le risorse.
+You can add a custom form to a document or to a document version to capture additional information or metadata specific to your assets.
 
 ## Requisiti di accesso
 
@@ -29,7 +29,8 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
@@ -54,54 +55,54 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-* Il modulo personalizzato deve essere condiviso con te
+* The custom form must be shared with you
 
-## Aggiungere un modulo personalizzato nell&#39;area documenti legacy
+## Add a custom form in the legacy documents area
 
 Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-Per aggiungere un modulo personalizzato a un documento:
+To add a custom form to a document:
 
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona **Riepilogo** ![Icona Riepilogo](assets/summary-panel-icon.png), quindi individua la sezione **Dettagli**.
-1. Nella casella **Aggiungi modulo personalizzato** iniziare a digitare e selezionare un modulo personalizzato. Il modulo viene salvato automaticamente nel documento.
+1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section.
+1. In the **Add custom form** box, begin typing and select a custom form. The form saves automatically to the document.
 
    >[!NOTE]
    >
-   >Nel menu a discesa vengono visualizzati solo i moduli personalizzati attivi. È possibile aggiungere fino a 10 moduli personalizzati per documento. Se devi creare un modulo personalizzato, vedi [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Modificare un modulo personalizzato nell’area documenti legacy
+## Edit a custom form in the legacy documents area
 
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona **Riepilogo** ![Icona Riepilogo](assets/summary-panel-icon.png), quindi individua la sezione **Dettagli** nella parte superiore.
-1. Fai clic su **Modifica** nell&#39;angolo superiore destro, quindi espandi il modulo desiderato.
-1. Apporta le modifiche necessarie, quindi fai clic su **Salva**.
+1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section near the top.
+1. Click **Edit** in the top-right corner, then expand the desired form.
+1. Make the needed changes, then click **Save**.
 
-   ![Modifica modulo personalizzato](assets/edit-custom-form-350x265.png)
+   ![Edit custom form](assets/edit-custom-form-350x265.png)
 
-## Aggiungere un modulo personalizzato nella nuova area del documento
+## Add a custom form in the new document area
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Per aggiungere un modulo personalizzato a un documento:
+To add a custom form to a document:
 
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Selezionare il documento desiderato.
-1. Nella sezione **Dettagli** a destra, fai clic su **Modifica**.
-   ![pulsante modifica nella sezione dei dettagli](assets/edit-custom-form.png)
-1. Nel campo **Forms** personalizzato, iniziare a digitare e selezionare un modulo personalizzato.
-1. Fai clic su **Salva**. Il modulo personalizzato viene visualizzato nella sezione dei dettagli.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**.
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** field, begin typing and select a custom form.
+1. Fai clic su **Salva**. The custom form appears in the details section.
 
 
-## Modificare un modulo personalizzato nella nuova area del documento
+## Edit a custom form in the new document area
 
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Selezionare il documento desiderato.
-1. Nella sezione **Dettagli** a destra, fai clic su **Modifica**.
-   ![pulsante modifica nella sezione dei dettagli](assets/edit-custom-form.png)
-1. Nella sezione **Forms personalizzato** trovare il modulo che si desidera modificare.
-1. Apporta le modifiche necessarie, quindi fai clic su **Salva**.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**.
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** section, find the form you want to edit.
+1. Make the needed changes, then click **Save**.

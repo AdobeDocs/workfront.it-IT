@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Richiedi un documento
-description: È possibile richiedere un documento su qualsiasi oggetto che supporti Documenti.
+description: You can request a document on any object that supports Documents.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 11%
+source-wordcount: '405'
+ht-degree: 10%
 
 ---
 
-# Richiedi un documento
+# Request a document
 
-È possibile richiedere un documento su qualsiasi oggetto che supporti Documenti.
+You can request a document on any object that supports Documents.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
@@ -53,33 +53,33 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Richiedi un documento
+## Request a document
 
-1. Passare all&#39;area in cui si desidera che risieda il documento richiesto.
-1. Fare clic sulla scheda **Documenti**. 
-1. Fai clic sul menu a discesa **Aggiungi nuovo**.
+1. Go to the area where you want the document you are requesting to reside.
+1. Click the **Documents** tab. 
+1. Click the **Add New** drop-down menu.
 
-1. Fai clic su **Richiedi un documento**.
+1. Click **Request a Document**.
 
-   Viene visualizzata la finestra di dialogo Richiedi un documento.
+   The Request a Document dialog box is displayed.
 
-   ![richiesta_documento.png](assets/document-request-350x242.png)
+   ![document_request.png](assets/document-request-350x242.png)
 
-1. Iniziare a digitare il nome dell&#39;utente da cui si richiede il documento, quindi selezionarlo quando viene visualizzato nell&#39;elenco a discesa. Nell’elenco a discesa vengono visualizzati solo gli utenti con licenza Adobe Workfront.
+1. Begin typing the name of the user who you are requesting the document from, then select it when it appears in the drop-down list. Only licensed Adobe Workfront users appear as options in the drop-down list.
 
    >[!NOTE]
    >
-   >Se sul tuo account è abilitata la [panoramica delle licenze legacy](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md), puoi inviare una richiesta a qualsiasi indirizzo e-mail. In [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) è presente un&#39;impostazione che determina se gli utenti e-mail esterni devono creare una password prima di interagire con Workfront. 
+   >If you have the [Legacy licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) enabled on your account, you can send a request to any email address. There is a setting in the [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) that determines whether or not these external email users need to create a password before interacting with Workfront. 
 
-1. Descrivi il motivo della richiesta del documento.
-1. Fai clic su **Invia richiesta**.
+1. Describe the reason you are requesting the document.
+1. Click **Send Request**.
 
-   Quando si effettua una richiesta a un utente, nell&#39;area documenti viene aggiunto un segnaposto. Puoi inviare un promemoria all’utente o annullare la richiesta da questo segnaposto. L’utente riceve una notifica Workfront e un’e-mail relativa alla richiesta.
+   When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request.
 
-   Se questa preferenza è abilitata, l’utente riceve una notifica e-mail e una notifica in-app. Per ulteriori informazioni sulle notifiche e-mail, vedi [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-   Puoi fare clic sul collegamento che si trova nella notifica e-mail, quindi caricare il documento. Oppure puoi fare clic sulla notifica in-app. Ogni opzione ti indirizza alla pagina del profilo utente in cui puoi caricare il documento richiesto.
+   You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
 
-1. Dopo aver caricato il documento, la persona che lo ha richiesto può accedere al documento nella propria area **Documenti** personale.
+1. After you upload the document, the person who requested it can access the document in their personal **Documents** area.
 
-   Per accedere all&#39;area **Documenti** personale, fai clic sull&#39;immagine del profilo utente nell&#39;angolo superiore destro di qualsiasi pagina di Workfront, fai clic sul tuo nome e quindi sulla scheda **Documenti**.
+   You can access your personal **Documents** area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the **Documents** tab.

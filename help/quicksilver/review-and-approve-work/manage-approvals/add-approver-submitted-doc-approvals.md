@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Aggiungi ulteriori approvatori alle approvazioni documenti inviate
+title: Aggiungere ulteriori approvatori alle approvazioni dei documenti inviate
 description: È possibile aggiungere ulteriori approvatori all’approvazione di un documento direttamente dall’area Home.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 19%
 
 ---
 
-# Aggiungi ulteriori approvatori alle approvazioni documenti inviate
+# Aggiungere ulteriori approvatori alle approvazioni dei documenti inviate
 
 È possibile aggiungere ulteriori approvatori all’approvazione di un documento direttamente dall’area Home.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,12 +27,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td><p>Qualsiasi pacchetto Workfront per gestire le approvazioni utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire le approvazioni utilizzando lo storage aziendale Adobe</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
+   <p>Collaboratore o successiva</p> 
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +41,7 @@ ht-degree: 0%
    <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard e calendari, documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p></td> 
   </tr> 
  </tbody> 
@@ -50,7 +51,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Aggiungi ulteriori approvatori alle approvazioni documenti inviate
+## Aggiungere ulteriori approvatori alle approvazioni dei documenti inviate
 
 1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 

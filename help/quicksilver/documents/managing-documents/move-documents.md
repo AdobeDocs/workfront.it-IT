@@ -2,29 +2,29 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Spostare i documenti
-description: Un utente con diritti di gestione su un documento può spostare il documento in un altro oggetto.
+description: A user with manage rights on a document can move the document to another object.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 14%
+source-wordcount: '431'
+ht-degree: 13%
 
 ---
 
 # Spostare i documenti
 
-Un utente con diritti di gestione su un documento può spostare il documento in un altro oggetto.
+A user with manage rights on a document can move the document to another object.
 
-Per completare l&#39;azione, l&#39;utente deve inoltre disporre delle autorizzazioni necessarie per aggiungere documenti al nuovo oggetto. 
+The user must also have permissions to add documents to the new object to complete this action. 
 
-Quando si sposta un documento, con il documento verrà spostato anche uno dei seguenti elementi:
+When you move a document, any of the following will also move with the document:
 
-* Versioni dei documenti
-* Bozze dei documenti
+* Document versions
+* Document proofs
 * Approvazioni documenti
 
 ## Requisiti di accesso
@@ -37,7 +37,8 @@ Quando si sposta un documento, con il documento verrà spostato anche uno dei se
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
+   <td><p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
@@ -51,7 +52,7 @@ Quando si sposta un documento, con il documento verrà spostato anche uno dei se
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>Accesso in gestione al documento</p> <p>Autorizzazione per aggiungere documenti al nuovo oggetto</p></td> 
+   <td> <p>Accesso in gestione al documento</p> <p>Permission to add Documents to the new object</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,31 +61,31 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Spostare un documento nell&#39;area dei documenti legacy
+## Move a document in the legacy documents area
 
 Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-Per spostare un documento:
+To move a document:
 
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona **Sposta** ![Sposta icona](assets/move-document--25x19.png).
-   ![Posizione icona di spostamento a pagina](assets/move-doc-legacy.png)
+1. Click the **Move** icon ![Move icon](assets/move-document--25x19.png).
+   ![Move icon location on page](assets/move-doc-legacy.png)
 
-1. Dal menu a discesa nella casella visualizzata, fare clic su **Problema**, **Progetto** o **Attività** per indicare il tipo di oggetto in cui si desidera spostare il documento. 
+1. From the drop-down menu in the box that appears, click **Issue**, **Project** or **Task** to indicate the type of object where you want to move the document. 
 
-1. Digitare il nome dell&#39;**Issue**, **Project** o **Task** nella casella di testo.
+1. Type the name of the **Issue**, **Project** or **Task** in the text box.
 
    >[!NOTE]
    >
-   >È possibile passare a un altro progetto, attività o problema utilizzando l&#39;archiviazione Workfront precedente.
+   >You can only move to another project, task, or issue using legacy Workfront storage.
 
 1. Fai clic su **Termina**.
 
-È inoltre possibile spostare un documento dalla pagina Dettagli documento.
+You can also move a document from the Document Details page.
 
-## Spostare un documento nell&#39;area dei nuovi documenti
+## Move a document in the new documents area
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 

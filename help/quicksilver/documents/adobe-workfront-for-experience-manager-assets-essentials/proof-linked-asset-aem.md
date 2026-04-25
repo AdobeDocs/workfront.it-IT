@@ -6,10 +6,10 @@ description: Dopo aver collegato una risorsa da Experience Manager Assets Essent
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -17,11 +17,16 @@ ht-degree: 2%
 
 Dopo aver collegato una risorsa da Experience Manager Assets Essentials, puoi creare una bozza e assegnare gli utenti per rivederla e aggiungere commenti alla risorsa.
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Da lì puoi aggiungere risorse da Experience Manager Assets, rivederle e approvarle con il visualizzatore Frame.io. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
 ## Requisiti di accesso
 
 <!-- Audited: 4/2025 -->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +40,7 @@ Dopo aver collegato una risorsa da Experience Manager Assets Essentials, puoi cr
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -44,16 +49,16 @@ Dopo aver collegato una risorsa da Experience Manager Assets Essentials, puoi cr
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o versione successiva</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

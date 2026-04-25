@@ -1,43 +1,44 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configurare l’integrazione di Experience Manager Assets Essentials
-description: Collega il tuo lavoro con i contenuti in Experience Manager Assets Essentials.
+title: Configure the Experience Manager Assets Essentials Integration
+description: Connect your work with your content in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 6%
 
 ---
 
 # Configurare l’integrazione di Experience Manager Assets Essentials
 
-Collega il tuo lavoro con i contenuti in Experience Manager Assets Essentials&#x200B;:
+Connect your work with your content in Experience Manager Assets Essentials&#x200B;:
 
-* Invio di risorse e metadati da Adobe Workfront a Experience Manager Assets Essentials&#x200B;
-* Collega le risorse da Experience Manager Assets Essentials ai tuoi progetti e attività in Workfront&#x200B;
-* Semplificare i flussi di lavoro di controllo delle versioni per le risorse inviate a Experience Manager Assets Essentials
+* Push assets and metadata from Adobe Workfront to Experience Manager Assets Essentials&#x200B;
+* Link assets from Experience Manager Assets Essentials to your projects and tasks in Workfront&#x200B;
+* Facilitate versioning workflows for assets pushed to Experience Manager Assets Essentials
 
 >[!NOTE]
 >
->È inoltre possibile connettere più archivi Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets per più ID organizzazione. Segui le istruzioni di configurazione in questo articolo per ogni integrazione da configurare.
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you&#39;d like to set up.<br>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
-   <td><strong>Pacchetto Adobe Workfront</strong>
+   <td><strong>Adobe Workfront package</strong>
    </td>
    <td>Qualsiasi
    </td>
   </tr>
   <tr>
-   <td><strong>Licenze Adobe Workfront</strong>
+   <td><strong>Adobe Workfront licenses</strong>
    </td>
    <td>
    <p>Standard</p>
@@ -45,46 +46,48 @@ Collega il tuo lavoro con i contenuti in Experience Manager Assets Essentials&#x
    </td>
   </tr>
   <tr>
-   <td><strong>Prodotti aggiuntivi</strong>
+   <td><strong>Additional products</strong>
    </td>
-   <td>Devi disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente.
+   <td>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user.
    </td>
   </tr>
   <tr>
-   <td><strong>Autorizzazioni di Experience Manager</strong>
+   <td><strong>Experience Manager permissions</strong>
    </td>
-   <td>Devi disporre dell’accesso in scrittura alla cartella di destinazione nell’integrazione di Experience Manager.
+   <td>You must have write access to the destination folder in the Experience Manger integration.
    </td>
   </tr>
   <tr>
    <td><strong>Configurazioni del livello di accesso</strong>
    </td>
-   <td>Per configurare un’integrazione Experience Manager è necessario essere un amministratore di Workfront. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 +++
 
-## Configurare l’integrazione
+## Set up the integration
 
 {{step-1-to-setup}}
 
-1. Seleziona **Documenti** ![icona documenti](assets/document-icon.png) nel pannello a sinistra, quindi seleziona **Integrazione Experience Manager**.
-1. Selezionare **Aggiungi integrazione Experience Manager**.
-1. Specifica quanto segue:
+1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Integration**.
+1. Select **Add Experience Manager Integration**.
+1. Specify the following:
 
    <table>
    <tr>
       <td><strong>Nome</strong>
       </td>
-      <td>Immettere il nome che si desidera venga visualizzato dagli utenti nel pulsante Aggiungi nuovo nell'area Documenti.
+      <td>Enter the name you want users to see in the Add new button in the Documents area.
       </td>
    </tr>
    <tr>
-      <td><strong>URL di navigazione</strong>
+      <td><strong>Navigation URL</strong>
       </td>
       <td>Il sistema compila automaticamente l’URL di navigazione. Questo URL viene utilizzato per collegare all’istanza Assets Essentials della tua organizzazione dal menu principale per un accesso rapido.
       </td>
@@ -111,7 +114,7 @@ Mappa i dati oggetto Workfront ai campi degli elementi multimediali delle risors
 
 Prima di iniziare, è necessario
 
-* Configura uno schema metadati in Experience Manager Assets Essentials come descritto in [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* Configura uno schema metadati in Experience Manager Assets Essentials come descritto in [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Facoltativo) Configura i campi modulo personalizzati in Workfront. Workfront dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campi Workfront e Experience Manager Assets supportati
@@ -126,7 +129,7 @@ Per mappare più campi di testo a riga singola alle parole chiave, immettere un 
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=it).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: approvals
-title: Panoramica del processo di approvazione
+title: Panoramica sul processo di approvazione
 description: È possibile creare un processo di approvazione e allegarlo a un oggetto per assicurarsi che gli utenti designati verifichino determinate modifiche prima che l'oggetto progredisca.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
-# Panoramica del processo di approvazione
+# Panoramica sul processo di approvazione
 
 <!-- Audited: 12/2023 -->
 
@@ -78,7 +78,9 @@ Per informazioni sulla creazione di un processo di approvazione a livello di sis
      >     Se ad esempio si dispone di un&#39;approvazione dell&#39;attività associata allo stato In corso, al momento della concessione dell&#39;approvazione lo stato dell&#39;attività verrà automaticamente modificato in In corso. Non può cambiare automaticamente il suo stato in Completato o in qualsiasi altro stato non associato all’approvazione.
      >   
      >   
-     >* Le entità associate a un processo di approvazione possono essere utenti, ruoli o team. Gli utenti sono in ultima analisi responsabili dell’accettazione o del rifiuto dell’approvazione. Puoi assegnare le approvazioni agli utenti che svolgono un determinato ruolo nel progetto. Ad esempio, puoi assegnare un’approvazione a un Proprietario del progetto o a uno Sponsor. Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >
+
+   * Le entità associate a un processo di approvazione possono essere utenti, ruoli o team. Gli utenti sono in ultima analisi responsabili dell’accettazione o del rifiuto dell’approvazione. Puoi assegnare le approvazioni agli utenti che svolgono un determinato ruolo nel progetto. Ad esempio, puoi assegnare un’approvazione a un Proprietario del progetto o a uno Sponsor. Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Esistono i seguenti scenari:
 
@@ -145,11 +147,17 @@ Quando un utente del progetto cambia lo stato in Pronto per la stampa, il redatt
 
 Dopo che entrambi hanno approvato la brochure in Workfront, lo stato del progetto cambia in Pronto per la stampa.
 
-## Processi di approvazione dei documenti
+## Processi di approvazione dei documenti legacy
 
-Le approvazioni dei documenti vengono utilizzate per un&#39;approvazione più generale. Il feedback viene acquisito in formato chat nella scheda Aggiornamenti. È possibile utilizzare i pulsanti di approvazione per approvare, rifiutare o approvare con modifiche.
 
-Per aggiungere approvatori a un documento dopo che è stato caricato in Workfront, vedi [Richiedi approvazioni documento](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Le approvazioni di documenti legacy vengono utilizzate per un’approvazione più generale. Il feedback viene acquisito in formato chat nella scheda Aggiornamenti. È possibile utilizzare i pulsanti di approvazione per approvare, rifiutare o approvare con modifiche.
+
+Per aggiungere approvatori a un documento dopo che è stato caricato in Workfront, vedi [Richiedi un&#39;approvazione documento legacy](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>In Workfront sono attualmente disponibili diverse opzioni di approvazione dei documenti. Per ulteriori informazioni, vedere [Funzionalità disponibile per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Processi di approvazione bozza
 
