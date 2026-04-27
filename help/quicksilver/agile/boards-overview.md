@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Utilizzando le bacheche è possibile:
 
 Per informazioni sull&#39;utilizzo delle funzionalità di base delle bacheche, vedere [Introduzione alle bacheche: indice articolo](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione Agile nelle bacheche, consulta [Panoramica sugli strumenti di pianificazione Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Per informazioni sull&#39;utilizzo di una bacheca in un progetto, vedere [Gestire un progetto in Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per informazioni sull&#39;utilizzo di una bacheca in un progetto, vedere [Gestire un progetto Agile nella vista bacheca](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Puoi anche accedere alle bacheche nell’app mobile. Per informazioni, vedere [[!DNL Adobe Workfront] [!UICONTROL Bacheche] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
