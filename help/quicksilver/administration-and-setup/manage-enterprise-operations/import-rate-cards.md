@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Per ulteriori informazioni sulle schede tariffarie, vedere [Gestione delle sched
 * La sequenza della scheda Rate Card della scheda RATE_RTCRD deve corrispondere all&#39;ordine delle schede della scheda RTCRD (1 per la prima, 2 per la seconda, ecc.).
 * Le date di inizio e di fine devono seguire i formati consentiti.
 * Le schede delle tariffe possono essere importate senza tariffe e aggiornate in un secondo momento.
-* Gli attributi personalizzati (Agenzia, Centro di costo, ecc.) possono variare. Per informazioni sui requisiti, rivolgiti all’amministratore di sistema.
+* Attributi personalizzati (Agenzia, Centro di costo, ecc.) può variare. Per informazioni sui requisiti, rivolgiti all’amministratore di sistema.
 * Le righe eliminate nel modello non elimineranno i record esistenti nel sistema.
 
 ## Requisiti di accesso
@@ -153,7 +153,7 @@ Assicurati che le date non si sovrappongano a meno che non sia previsto.
    * **Valore** (facoltativo): valore della velocità numerica, ad esempio 150. Il valore predefinito è 0.
    * **Valuta** (facoltativo): la valuta per il tasso, ad esempio USD, EUR, GBP. Il valore predefinito è la valuta di sistema.
    * **Bloccato** (facoltativo): indica se la tariffa è bloccata. I valori validi sono True o False.
-   * **Attributi** (facoltativo/personalizzato): le ultime colonne (Agenzia, Posizione, Centro di costo, ecc.) sono Attributi di tasso che differiscono in base alla configurazione del cliente. Si tratta di campi personalizzabili che possono variare a seconda dell’ambiente del cliente.
+   * **Attributi** (facoltativo/personalizzato): ultime colonne (Agenzia, Posizione, Centro di costo, ecc.) sono Attributi di tasso che differiscono in base alla configurazione del cliente. Si tratta di campi personalizzabili che possono variare a seconda dell’ambiente del cliente.
 
      Esempio: Agenzia = &quot;1: Agenzia&quot;, Posizione = &quot;Chicago&quot;, Centro di costo = &quot;22: Centro di costo&quot;
 
@@ -179,37 +179,37 @@ In questa scheda puoi definire le connessioni tra risorse e alias per una scheda
 
 1. Immettere le informazioni su ogni riga:
 
-   * **Scheda tariffa** (obbligatorio): nome o numero di sequenza della scheda tariffa a cui appartengono la risorsa e l&#39;alias. La scheda tariffa deve essere elencata nella scheda RTCRD.
+   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
 
-     Per un numero di sequenza: se la scheda delle tariffe è la prima che hai elencato nella scheda RTCRD (riga 2), immetti 1. Se si trattava del secondo, immettere 2 e così via.
+     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. Se si trattava del secondo, immettere 2 e così via.
 
-   * **Mansione** (obbligatorio se non si utilizzano il tipo di spesa e la categoria di risorse non manodopera): la mansione a cui è connesso l&#39;alias. Può essere il nome o l’ID della mansione. L’importazione riconoscerà entrambi.
+   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. Può essere il nome o l’ID della mansione. L’importazione riconoscerà entrambi.
 
      Esempio: Designer o _68c0234e00000541dd8c0757723daa68_
 
-   * **Tipo di spesa** (obbligatorio se non si utilizzano la mansione e la categoria di risorse non manodopera): il tipo di spesa a cui è connesso l&#39;alias. Può essere il nome del tipo di spesa o l&#39;ID del tipo di spesa. L’importazione riconoscerà entrambi.
+   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. L’importazione riconoscerà entrambi.
 
-     Esempio: viaggio o _68c0234e00000541dd8c0757723daa68_
+     Example: Travel or _68c0234e00000541dd8c0757723daa68_
 
-   * **Categoria risorsa non manodopera** (obbligatorio se non si utilizzano la mansione e il tipo di spesa): la categoria della risorsa non manodopera a cui è connesso l&#39;alias. Può essere il nome della categoria o l’ID della categoria. L’importazione riconoscerà entrambi.
+   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. Può essere il nome della categoria o l’ID della categoria. L’importazione riconoscerà entrambi.
 
      Esempio: fotocamera o _68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >Impossibile immettere tutte e tre le colonne **Mansione**, **Tipo di spesa** e **Categoria risorse non manodopera**. Uno è obbligatorio.
+     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. Uno è obbligatorio.
 
-   * **Alias risorsa**: alias immesso nella scheda RSAL.
+   * **Resource Alias**: The alias entered on the RSALS tab.
 
-### Requisiti di formattazione della data
+### Date formatting requirements
 
-Durante la preparazione dei dati della scheda tariffe per l&#39;importazione, è necessario assicurarsi che le colonne di data siano formattate come **Generale** e non come **Data**.
+When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
 
-Se le colonne sono impostate sul formato Data, il sistema potrebbe interpretare erroneamente i valori durante il processo di importazione, causando errori o caricamenti non riusciti. L’utilizzo del formato Generale mantiene la rappresentazione numerica o testuale non elaborata della data, consentendo al sistema di convalidare e applicare correttamente i valori.
+If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. Using the General format preserves the raw numeric or text representation of the date, allowing the system to correctly validate and apply the values.
 
-Seguendo questi passaggi si eviteranno problemi inutili e si garantirà un&#39;importazione fluida e accurata dei dati sui tassi.
+Following these steps will prevent unnecessary issues and ensure a smooth and accurate import of rate data.
 
-1. Prima di salvare o caricare il file, seleziona le colonne della data nel foglio di calcolo.
+1. Before saving or uploading the file, select the date columns in the spreadsheet.
 1. Cambia il formato della colonna in **Generale**.
 1. Verifica che i valori vengano ancora visualizzati correttamente (ad esempio, 01/01/2025 o 2025-01-01).
 
@@ -231,6 +231,16 @@ Seguendo questi passaggi si eviteranno problemi inutili e si garantirà un&#39;i
 ## Aggiorna le schede delle tariffe esistenti
 
 Puoi aggiornare le tariffe nelle schede delle tariffe esistenti utilizzando lo stesso modello Excel e caricare tali modifiche in Workfront.
+
+Per aggiornare i tassi esistenti è necessaria solo la scheda RATE_RTCRD (Impostazione tassi).
+
+>[!NOTE]
+>
+>Il caricamento delle tariffe per una scheda tariffe esistente sovrascrive tutte le mansioni e le tariffe correnti nella scheda tariffe.
+>
+>Ad esempio, se disponi di 5 ruoli con tariffe sulla scheda tariffa esistente e il file Excel ha 1 ruolo, la scheda tariffa avrà 1 ruolo dopo il caricamento. Per mantenere le altre 5 mansioni e le relative tariffe nella scheda delle tariffe, è necessario includerle nel file Excel.
+
+Per aggiornare le schede delle tariffe esistenti:
 
 {{step-1-to-setup}}
 
