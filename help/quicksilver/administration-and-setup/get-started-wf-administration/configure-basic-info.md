@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
 
 # Configurare le informazioni di base per il sistema
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -66,23 +68,30 @@ Per accedere alla pagina Informazioni cliente:
 
    Le sezioni disponibili nell’area Informazioni cliente sono:
 
-   * **Informazioni di base**
+* **Informazioni di base**
 
-     Per informazioni sulla configurazione delle informazioni di base in Workfront, vedere [Configurare le informazioni di base](#configure-basic-info).
+  Per informazioni sulla configurazione delle informazioni di base in Workfront, vedere [Configurare le informazioni di base](#configure-basic-info).
 
-   * **Impostazioni chiave API**
 
-     Per informazioni sulle impostazioni delle chiavi API, vedere [Gestione chiavi API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **Inserisco nell&#39;elenco Consentiti IP**
+* <span class="preview">**Panoramica archiviazione**
 
-     Per informazioni sull&#39;aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso del firewall all&#39;interno del sistema di gestione delle relazioni con i clienti](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  Per informazioni sulla verifica dell&#39;utilizzo e della quota di archiviazione dei documenti, vedere [Controllare i limiti di archiviazione dei documenti](../../documents/managing-documents/check-document-storage.md).</span>
 
-   * **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica**
 
-     Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di posta elettronica di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **Impostazioni chiave API**
 
-   <!--
+  Per informazioni sulle impostazioni delle chiavi API, vedere [Gestione chiavi API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+
+* **Inserisco nell&#39;elenco Consentiti IP**
+
+  Per informazioni sull&#39;aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso del firewall all&#39;interno del sistema di gestione delle relazioni con i clienti](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+* **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica**
+
+  Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di posta elettronica di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ Per configurare la sezione Informazioni di base nell&#39;area Informazioni clien
       <td role="rowheader">Lingua predefinita per e-mail</td> 
       <td>Controlla la lingua, la data e il formato numerico utilizzati nei messaggi e-mail in uscita. La lingua selezionata è quella predefinita al momento della creazione di nuovi utenti. Gli utenti possono modificare le proprie impostazioni locali nel proprio profilo utente. Quando gli utenti modificano le impostazioni locali, la lingua, la data e il formato del numero nelle e-mail inviate da Workfront corrispondono alle preferenze del profilo. Per ulteriori informazioni sulla modifica delle preferenze del profilo, vedere <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurare le impostazioni personali</a>.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Quota archivio</td> 
-      <td> <p>Quantità di spazio di archiviazione dei documenti disponibile nell'istanza di Workfront.<br>La quota contiene documenti caricati direttamente in Workfront.<br>Non include:</p> 
-       <ul> 
-        <li>Documenti collegati a Workfront da qualsiasi altro provider di servizi di terze parti (SharePoint, Google Drive, Webdam, Box, Dropbox o qualsiasi altro provider di Document Asset Management).</li> 
-        <li>I tuoi dati Workfront (progetti, attività, problemi, utenti e così via).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 

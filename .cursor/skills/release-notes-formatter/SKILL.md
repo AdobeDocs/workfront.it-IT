@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Formatta e convalida le note sulla versione di Workfront per coerenza, struttura corretta e collegamento corretto. Da utilizzare solo per i file delle note sulla versione nelle directory delle versioni di prodotto o quando l’utente cita note sulla versione, versioni di prodotto o versioni trimestrali. Non applicare ad articoli tutorial o alla documentazione generale.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Regole:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corpo**: descrizione funzione, quindi collegamento alla documentazione
+5. **Corpo**: descrizione funzione, quindi collegamento alla documentazione
 
 #### Pagine Panoramica
 
@@ -90,10 +90,10 @@ Regole:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 per area di prodotto** con tabella delle funzionalità di HTML (vedere [reference.md](reference.md#overview-feature-table))
+5. **H3 per area di prodotto** con tabella delle funzionalità di HTML (vedere [reference.md](reference.md#overview-feature-table))
    - All&#39;interno di ogni tabella, **prima le funzionalità più recenti**. La riga più recente viene visualizzata nella parte superiore della tabella (dopo la riga di intestazione)
 
-&#x200B;6. **Sezioni finali** (H2): note sulla versione per altre aree, aggiornamenti del visualizzatore per la verifica del desktop, annunci, versione API, aggiornamenti di manutenzione, aggiornamenti di formazione
+6. **Sezioni finali** (H2): note sulla versione per altre aree, aggiornamenti del visualizzatore per la verifica del desktop, annunci, versione API, aggiornamenti di manutenzione, aggiornamenti di formazione
 
 ### Passaggio 3: Convalidare i collegamenti
 
@@ -115,7 +115,7 @@ Regole:
 
 Applica queste correzioni durante la formattazione:
 
-| Problema | Correzione |
+| Problema | Correggi |
 |-------|-----|
 | Trimestre collegamento panoramica errato | Aggiorna per corrispondere al trimestre del file |
 | Blocco date `>[!NOTE]` mancante | Aggiungi blocco dopo l&#39;intestazione della funzionalità H2 |
@@ -124,6 +124,32 @@ Applica queste correzioni durante la formattazione:
 | Spazi aggiuntivi nelle linee del callout | Ritaglia spazio vuoto finale |
 | HTML nelle pagine dell’area prodotti | Mantieni come markdown (HTML è solo per tabelle di panoramica) |
 | Manca `exl-id` | Escludilo — non generarne uno |
+
+### Passaggio 6: aggiornare il sommario
+
+Ogni volta che crei una pagina delle note sulla versione di **new** (panoramica o area prodotti), aggiungila a `help/quicksilver/TOC.md` con la stessa modifica. Una pagina non inclusa nel sommario non verrà visualizzata nella navigazione pubblicata, anche se i collegamenti presenti nella tabella panoramica vi fanno riferimento.
+
+Dove aggiungerlo:
+
+- Il sommario include una sezione al trimestre sotto un&#39;intestazione come `* 2026 Q3 Release {#release-26-q3}`. Se il titolo del trimestre non esiste ancora (prima pagina di un nuovo trimestre), aggiungilo sopra il trimestre precedente in modo che sia in alto il trimestre più recente.
+- Sotto l’intestazione del trimestre, elenca le pagine nell’ordine seguente:
+   1. **Panoramica** (`Third Quarter 2026 release overview`).
+   2. **Pagine dell&#39;area di prodotto** in ordine alfabetico per nome area (amministratore, documenti, operazioni dell&#39;organizzazione, progetti, reporting, richiesta).
+   3. **Altri miglioramenti** sono stati apportati per ultimi (sempre dopo le aree alfabetiche dei prodotti).
+
+Ogni voce del sommario è un collegamento di markdown che utilizza il titolo della pagina e il percorso assoluto dell’archivio:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Abbina il rientro (sei spazi) alle voci circostanti. Utilizzare la pagina H1 come testo di collegamento, ad esempio `Documents enhancements`, `Requesting enhancements` (non `Requests`), in modo che le etichette del sommario corrispondano ai trimestri precedenti.
+
+Errori comuni da evitare:
+
+- Creazione di una pagina dell&#39;area di prodotto senza aggiungerla al sommario.
+- Collegamento alla panoramica di un trimestre diverso dalla nuova pagina dell’area di prodotto (passaggio 3).
+- Inserire le pagine di un nuovo trimestre sotto l&#39;intestazione del trimestre precedente.
 
 ## Convenzioni di denominazione dei file
 
@@ -159,6 +185,7 @@ Durante la revisione di un file delle note sulla versione, verificare:
 - [ ] Nessun collegamento interno interrotto
 - [ ] I collegamenti di ancoraggio nella panoramica corrispondono agli ID sezione H3
 - [ Le funzionalità di ] sono ordinate in ordine di novità (sia nelle pagine dell&#39;area di prodotto che nelle tabelle di panoramica)
+- [ ] Le nuove pagine delle note sulla versione sono elencate in `help/quicksilver/TOC.md` nel trimestre corretto, con la prima panoramica e le aree di prodotto in ordine alfabetico (Altre ultime)
 
 ## Risorse aggiuntive
 
