@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1736'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,8 @@ Per configurare il modo in cui le storie vengono stimate per il team Agile:
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
-   ![Modifica team](assets/edit-team-settings-350x205.png)
+
+   ![Modifica team](assets/edit-team-settings-scrum.png)
 
 1. Nella sezione **[!UICONTROL Agile]**, nell&#39;area **[!UICONTROL Stima storie in]**, selezionare se si desidera utilizzare punti o ore per stimare la dimensione (carico di lavoro) delle storie. Se selezionate Punti (Points), specificate quante ore corrispondono a 1 punto. Il valore predefinito è 1 punto = 8 ore. Questo è il numero di ore pianificate che vengono aggiunte alla storia.
 
@@ -106,16 +107,12 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
-
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
 
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Nella sezione **[!UICONTROL Agile]**, individua l&#39;area **[!UICONTROL Storyboard]**.
-
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi colonna]** per aggiungere una colonna di stato aggiuntiva alla bacheca delle storie.
 1. (Facoltativo) Trascinate una colonna di stato utilizzando l&#39;indicatore di trascinamento per riordinare le colonne di stato sulla bacheca delle storie. Impossibile spostare la prima colonna e trascinare un&#39;altra colonna davanti alla prima colonna.
 
@@ -164,12 +161,10 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
-
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
-Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
 
-   ![Modifica team](assets/edit-team-settings-350x205.png)
+   Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
 
 1. Nella sezione **[!UICONTROL Agile]** digitare un nome di campo per individuarlo.
 
@@ -188,13 +183,10 @@ Per modificare il comportamento con cui i colori vengono assegnati alle storie p
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
-
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
-   Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
+   Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
 
 1. Nella sezione [!UICONTROL Agile], nell&#39;area [!UICONTROL Associa colore scheda a], selezionare una delle opzioni seguenti:
 
@@ -209,7 +201,6 @@ Per modificare il comportamento con cui i colori vengono assegnati alle storie p
         Se l&#39;amministratore di sistema ha configurato le priorità personalizzate per il sistema [!DNL Workfront], la priorità più alta è rossa, la seconda più alta è gialla e la terza più alta è verde.
    * **[!UICONTROL Proprietario attività]**: tutti i brani con lo stesso assegnatario primario sono dello stesso colore. L&#39;assegnatario principale è l&#39;utente che è stato assegnato per primo all&#39;attività.
 
-
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare la modalità di applicazione delle date quando si aggiungono elementi di lavoro a un’iterazione
@@ -220,12 +211,15 @@ Per impostazione predefinita, quando si aggiunge un elemento di lavoro a un&#39;
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
-Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
-1. Nella sezione [!UICONTROL Agile], in [!UICONTROL Quando un elemento di lavoro viene aggiunto a un&#39;iterazione], selezionare una delle opzioni seguenti:
+
+   Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
+
+1. Nella sezione [!UICONTROL Agile], in [!UICONTROL **Quando un elemento di lavoro viene aggiunto a un&#39;iterazione**], selezionare una delle opzioni seguenti:
 
    * **[!UICONTROL Modificare la data di inizio pianificata e la data di completamento pianificata in modo che corrispondano alle date di inizio e di fine dell&#39;iterazione]**: quando si aggiungono elementi di lavoro a un&#39;iterazione, le date degli elementi di lavoro vengono modificate in base alle date dell&#39;iterazione.
 
      Per ulteriori informazioni sulla modifica delle date, vedere la sezione [Comprendere in che modo l&#39;aggiunta di storie influisce sulle date delle attività](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) nell&#39;articolo [Aggiungere storie a un&#39;iterazione esistente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
    * **[!UICONTROL Non modificare la Data inizio pianificata e la Data completamento pianificata in modo che corrispondano alle date di inizio e di fine dell&#39;iterazione]**: quando gli elementi di lavoro vengono aggiunti a un&#39;iterazione, gli elementi di lavoro mantengono le date originali.
 
    Se si modifica l&#39;opzione data, le date per gli elementi di lavoro già presenti nell&#39;iterazione non vengono modificate.

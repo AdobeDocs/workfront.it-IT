@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1562'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Questo articolo descrive come configurare le impostazioni per un team Kanban. Do
 * Come aggiungere automaticamente brani dal backlog
 * Per quanto tempo le carte rimangono sul Kanban Board
 
-For information about configuring a Scrum team, see [Configure Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
+Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisiti di accesso
 
@@ -76,19 +76,19 @@ Per configurare il modo in cui le storie vengono stimate per il team Agile:
 
 {{step1-to-team}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL di]** Cambia team![](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella casella di ricerca.
+1. Fai clic sull&#39;icona ![](assets/switch-team-icon.png) di **[!UICONTROL Cambia team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella casella di ricerca.
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
 
-   ![Modifica team](assets/edit-team-settings-350x205.png)
+   ![Modifica team](assets/edit-team-settings-kanban.png)
 
 1. Nella sezione **[!UICONTROL Agile]**, nell&#39;area **[!UICONTROL Stima storie in]**, selezionare se si desidera utilizzare punti o ore per stimare la dimensione (carico di lavoro) delle storie. Se selezionate Punti (Points), specificate quante ore corrispondono a 1 punto. Il valore predefinito è 1 punto = 8 ore. Questo è il numero di ore pianificate che vengono aggiunte alla storia.
 
-   **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
+   **Esempio:** se hai selezionato di stimare le storie in punti e 1 punto equivale a 8 ore e una storia è stimata in 3 punti, alla storia vengono aggiunte 24 ore pianificate.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Configure status columns on the Agile story board
+## Configurare le colonne di stato sullo storyboard Agile
 
 Puoi definire gli stati che esistono sullo storyboard per il team Agile. Questi sono gli unici stati visualizzati sullo storyboard.
 
@@ -100,9 +100,6 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Nella sezione **[!UICONTROL Agile]**, individua l&#39;area **[!UICONTROL Storyboard]**.
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi colonna]** per aggiungere una colonna di stato aggiuntiva alla bacheca delle storie.
@@ -116,7 +113,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
    >
    >Solo gli stati bloccati a livello di sistema sono disponibili per la selezione. Non è possibile selezionare stati specifici del gruppo. Lo stato della prima colonna corrisponde sempre a **[!UICONTROL Nuovo]**.
 
-   You can add custom statuses if your [!DNL Workfront] administrator has configured them. Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   È possibile aggiungere stati personalizzati se sono stati configurati dall&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
@@ -148,15 +145,12 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 
 1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Nella sezione **[!UICONTROL Agile]** digitare un nome di campo per individuarlo.
 
    ![Campi aggiuntivi](assets/agile-additional-fields-kanban.png)
 
-1. Select the name of the field you&#39;d like to add.
-1. Type the **[!UICONTROL Display name]** for the field to show on the story or issue card.
+1. Seleziona il nome del campo da aggiungere.
+1. Digita **[!UICONTROL Nome visualizzato]** per il campo da visualizzare sulla storia o sulla scheda problema.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare il limite WIP
@@ -173,9 +167,6 @@ Per limitare WIP per il team Kanban:
 
 1. Seleziona il team Kanban da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Nella sezione **[!UICONTROL Agile]** della sezione **[!UICONTROL Metodologia]** verificare che sia selezionato Kanban.
 
 1. Nella sezione **[!UICONTROL Storyboard]**, nel campo **[!UICONTROL Limite WIP]**, specifica il numero massimo di elementi consentiti in ogni colonna dello storyboard Agile [!UICONTROL Kanban]. È possibile impostare un limite diverso per ogni colonna. Il limite massimo che è possibile impostare per ogni colonna è 100.
@@ -192,13 +183,13 @@ Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team 
 
 Puoi configurare i brani del backlog da aggiungere automaticamente alla prima colonna della bacheca [!UICONTROL Kanban] subito dopo aver spostato un elemento da tale colonna.
 
-You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to use this funcitionality.
+Per utilizzare questa funzionalità è necessario abilitare l&#39;impostazione **Mostra backlog** nella bacheca [!UICONTROL Kanban].
 
-Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), the next story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board].
+Ogni volta che un brano viene spostato dalla colonna [!UICONTROL In corso] in una colonna dello storyboard che rappresenta uno stato [!UICONTROL Completo] (o uno stato che equivale a [!UICONTROL Completo]), il brano successivo della colonna Backlog viene spostato automaticamente nella colonna [!UICONTROL Nuovo] della [!UICONTROL bacheca Kanban].
 
-The next story is the incomplete story with the lowest backlog order number that meets all of the following criteria:
+La storia successiva è la storia incompleta con il numero di ordine di backlog più basso che soddisfa tutti i seguenti criteri:
 
-* It is assigned to the team.
+* Viene assegnato al team.
 * Non dispone di una data di completamento effettiva (ovvero, non è ancora completa).
 * Non è già su un Kanban Board.
 * Appartiene a un progetto con uno stato corrente.
@@ -213,9 +204,6 @@ Per aggiungere automaticamente brani dal backlog alla bacheca [!UICONTROL Kanban
 
 1. Seleziona il team Kanban da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Seleziona **[!UICONTROL Aggiungi automaticamente la storia successiva dal backlog]** per configurare l&#39;aggiunta automatica dell&#39;elemento successivo dal backlog alla colonna **[!UICONTROL New]** quando un elemento viene spostato fuori dalla colonna **[!UICONTROL In corso]**.
 
 
@@ -227,12 +215,9 @@ Puoi scegliere per quanto tempo le schede completate rimangono sulla bacheca [!U
 
 {{step1-to-team}}
 
-1. (Optional) Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
-1. Select the Kanban team.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team Kanban dal menu a discesa o cerca un team nella barra di ricerca.
+1. Seleziona il team Kanban.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
-
-   ![Modifica team](assets/edit-team-settings-350x205.png)
-
 1. Nel menu a discesa **[!UICONTROL Numero di giorni in cui le schede completate rimangono nel Kanban Board]**, seleziona un valore.
 
    Puoi scegliere un numero da 1 a 30 giorni.
