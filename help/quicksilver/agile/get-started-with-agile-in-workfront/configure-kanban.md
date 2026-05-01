@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1561'
 ht-degree: 4%
 
 ---
@@ -121,7 +121,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 Quando si aggiungono campi alle schede delle storie, i campi sono di sola visualizzazione e vengono visualizzati solo quando il campo è popolato.
 
-Per impostazione predefinita, nella scheda delle storie per le attività e i problemi vengono visualizzati i seguenti tipi di dati:
+Per impostazione predefinita, nella scheda delle storie vengono visualizzati i seguenti tipi di dati per le attività e i problemi:
 
 * Nome della storia con un collegamento diretto all’attività o al problema
 * Il nome del progetto con un collegamento diretto al progetto
@@ -204,7 +204,7 @@ Per aggiungere automaticamente brani dal backlog alla bacheca [!UICONTROL Kanban
 
 1. Seleziona il team Kanban da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
-1. Seleziona **[!UICONTROL Aggiungi automaticamente la storia successiva dal backlog]** per configurare l&#39;aggiunta automatica dell&#39;elemento successivo dal backlog alla colonna **[!UICONTROL New]** quando un elemento viene spostato fuori dalla colonna **[!UICONTROL In corso]**.
+1. Seleziona **[!UICONTROL Aggiungi automaticamente la storia successiva dal backlog]** per configurare l&#39;elemento successivo dal backlog da aggiungere automaticamente alla colonna **[!UICONTROL New]** quando un elemento viene spostato fuori dalla colonna **[!UICONTROL In corso]**.
 
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.

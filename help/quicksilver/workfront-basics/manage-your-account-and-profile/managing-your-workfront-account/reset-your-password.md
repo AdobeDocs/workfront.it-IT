@@ -6,20 +6,36 @@ description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come mis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '103'
+ht-degree: 5%
 
 ---
 
 # Ripristinare la password
 
+>[!NOTE]
+>
+>La modifica della password ne comporta la modifica per tutte le applicazioni di [!DNL Adobe CX Enterprise].
+
+Password non gestita in [!DNL Workfront].
+
+Se l&#39;organizzazione utilizza un&#39;applicazione separata per la gestione delle password, la password verrà modificata tramite tale provider.
+
+Se la password è gestita da [!DNL Adobe], è possibile modificarla nell&#39;account Adobe.
+
+[Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Per ulteriori informazioni sulla modifica della password, contattare l&#39;amministratore.
+
+<!--
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 

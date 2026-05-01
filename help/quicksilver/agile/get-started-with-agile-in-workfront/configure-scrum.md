@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1733'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Questo articolo descrive come configurare le impostazioni per un team Scrum. Dop
 
 * Se le storie vengono stimate in punti o ore
 * Colonne di stato sullo storyboard Agile per iterazioni e progetti
-* Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie di Agile
+* Campi aggiuntivi da visualizzare nelle schede bacheca delle storie di Agile
 * Come vengono utilizzati gli indicatori di colore per le storie sulla bacheca delle storie di Agile
 * Applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione
 
