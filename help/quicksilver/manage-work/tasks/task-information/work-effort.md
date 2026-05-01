@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 4%
+source-wordcount: '1532'
+ht-degree: 3%
 
 ---
 
@@ -41,17 +41,17 @@ In qualità di project manager, è possibile decidere come stimare la quantità 
   <tr> 
    <td role="rowheader">Impegno di lavoro </td> 
    <td> <p>Etichetta manuale che definisce se è necessario uno sforzo giornaliero minimo, medio o elevato per completare un'attività.
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>Considera quanto segue su Impegno di lavoro:</p>
-    <ul> 
-     <li>Questo campo è disponibile solo per le attività con tipo di durata semplice. </li> 
-     <li>Puoi abilitare l’uso di questa etichetta e definire la percentuale di orario di lavoro associata a livello di progetto. </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    Il livello di impegno è stimato essere una percentuale della quantità giornaliera di tempo di lavoro. (NOTA: conservare la bozza. Vazgen ha detto che non è necessario, ma in attesa del feedback degli utenti)
+    
+    —>
+    &lt;/p> &lt;p>Considera quanto segue sull&#39;impegno di lavoro:&lt;/p>
+    &lt;ul>
+    &lt;li>Questo campo è disponibile solo per le attività con un tipo di durata semplice. &lt;/li>
+    &lt;li>Puoi abilitare l&#39;uso di questa etichetta e definire la percentuale di tempo di lavoro associata a essa a livello di progetto. &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 

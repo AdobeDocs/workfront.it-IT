@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 4%
+source-wordcount: '1556'
+ht-degree: 3%
 
 ---
 
@@ -136,7 +136,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
      >
      >Se si lascia vuoto il campo Data di fine e l&#39;opzione Nessuna data di fine non è selezionata, la delega viene impostata solo per il giorno corrente.
 
-     ![Casella dei delegati espansa](assets/delegate-box-expanded-in-home.png)
+     ![Casella Delegate espansa](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Fai clic su [!UICONTROL **Salva**].
@@ -156,9 +156,9 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
    * Il pulsante [!UICONTROL **Delega**] nell&#39;area [!UICONTROL **Home**] diventa [!UICONTROL **Modifica delega**] per indicare che è attiva una delega.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![Pulsante Modifica delega](assets/edit-delegation-button-on-my-work-widget.png)

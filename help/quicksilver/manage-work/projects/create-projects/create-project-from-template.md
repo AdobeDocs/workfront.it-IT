@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 3%
+source-wordcount: '1388'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro o sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, se disponibile, quindi fai clic su **Projects** ed espandi **New Project**.
+   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Projects** ed espandi **New Project**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
 
      >[!TIP]
@@ -153,15 +153,34 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    ![Seleziona un modello preferito](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Oppure
-
-   Effettua le seguenti operazioni:
+   Oppure effettuare le seguenti operazioni:
 
    1. Fai clic su **Nuovo progetto dal modello**.
-   1. Nel campo **Cerca modelli**, inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell&#39;elenco.
-   1. Rivedi i dettagli del modello a destra.
+   1. (Facoltativo) Nel campo **Cerca modelli**, inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell&#39;elenco.
+   1. Fare clic sul nome di uno dei seguenti tipi di modelli per sceglierli:
 
-      I dettagli del modello includono quanto segue:
+      * Un modello di archiviazione Workfront
+
+        I modelli di archiviazione Workfront visualizzano l&#39;icona ![Archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+
+        I documenti sul modello e sui progetti futuri verranno archiviati in Workfront.
+      * Un modello di archiviazione Adobe
+
+        I documenti sul modello e sui progetti futuri verranno memorizzati nell’archivio aziendale di Adobe.
+
+      >[!NOTE]
+      >
+      >* L’utilizzo di un modello di storage aziendale Adobe consente di creare un progetto di storage aziendale Adobe.
+      >
+      >* L&#39;utilizzo di un modello di storage Workfront consente di creare un progetto di storage Workfront.
+      >
+      >* Quando si utilizza un modello di storage aziendale Adobe da un portfolio o da un programma di storage Workfront, il progetto è un progetto di storage aziendale Adobe e il portfolio o il programma vengono convertiti in oggetti di storage aziendale Adobe. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
+      >
+      > Non tutti i clienti dispongono di entrambi i tipi di archiviazione dei documenti.
+      >
+      >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+   1. Rivedi i seguenti dettagli del modello a destra:
 
       * Durata modello
       * Proprietario del modello
@@ -207,9 +226,17 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
 
+   Per i progetti di archiviazione Adobe viene creata automaticamente una cartella documenti con lo stesso nome del progetto, nella sezione Documenti del progetto.
+
 ## Creare un progetto da un modello nell’area Modelli
 
 Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello iniziando dal modello.
+
+>[!NOTE]
+>
+>I modelli associati all&#39;archiviazione documenti di Workfront creano progetti legacy di archiviazione Workfront. I modelli associati all’archiviazione di documenti aziendali Adobe creano progetti di archiviazione Adobe. Non tutti i clienti dispongono di entrambi i tipi di storage.
+>
+>Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 1. Fare clic su **Crea progetto**.
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
+
+   Per i progetti di archiviazione Adobe viene creata automaticamente una cartella documenti con lo stesso nome del progetto, nella sezione Documenti del progetto.

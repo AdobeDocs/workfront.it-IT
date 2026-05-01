@@ -2,26 +2,26 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Tipi di durata nei progetti Adobe Workfront e Microsoft
+title: Tipi di durata in Adobe Workfront e progetto di Microsoft
 description: I Tipi di durata disponibili in Adobe Workfront sono diversi dai corrispondenti in Microsoft Project, denominati Tipi di attività. A volte questo può creare confusione durante l’esportazione o l’importazione di progetti tra Workfront e Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 2%
+source-wordcount: '257'
+ht-degree: 11%
 
 ---
 
-# Tipi di durata nei progetti Adobe Workfront e Microsoft
+# Tipi di durata in Adobe Workfront e progetto di Microsoft
 
 I Tipi di durata disponibili in Adobe Workfront sono diversi dai corrispondenti in Microsoft Project, denominati Tipi di attività. A volte questo può creare confusione durante l’esportazione o l’importazione di progetti tra Workfront e Microsoft Project.
 
 Per informazioni sull&#39;importazione e l&#39;esportazione di progetti tra Workfront e Microsoft Project, vedere gli articoli seguenti:
 
 * [Esporta un progetto in Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Importare un progetto da Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
+* [Importare un progetto da progetto di Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 
 ## Tipi di durata nei progetti Workfront e Microsoft
 
@@ -51,8 +51,8 @@ Quando si importano progetti da Microsoft Project in Workfront, le Fixed Unit di
 <!--
 <note type="warning">
 When a task has Calculated Work as the Duration Type and the default Duration Type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 (drafting this because it is misleading)
-</MadCap:conditionalText>
+ 
 </note>
 -->

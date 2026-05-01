@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2368'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront Planning offre visibilità centralizzata nel ciclo di vita del m
 >
 >* Il periodo di iscrizione è terminato il 1° aprile 2026 ed è ora chiuso.
 >
->* Se hai accettato il contratto di prova e ti sei iscritto alla prova, questo sarà disponibile tra le seguenti date: 2 marzo - 1 maggio 2026.
+>* Se hai accettato il contratto di prova e ti sei iscritto alla prova, questo sarà disponibile tra le seguenti date: 2 marzo - 1 maggio 2026. L’accesso rimarrà attivo fino al 15 maggio 2026.
 >
 >* La versione di prova è disponibile per 60 giorni dal suo lancio e non per 60 giorni dal momento in cui è stata aggiunta.
 >
@@ -98,7 +98,7 @@ Di seguito sono riportate le date importanti associate all&#39;offerta di prova 
    * Banner di prova di Workfront Planning.
    * La preferenza **Rivedi contratto di prova** è stata rimossa dall&#39;area **Configurazione**.
 
-* **1 maggio 2026**: la versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso.
+* **1 maggio 2026**: la versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso. L’accesso rimarrà attivo fino al 15 maggio 2026.
 
   Se hai partecipato alla versione di prova, Workfront protegge i tuoi dati al termine della versione di prova. Tuttavia, non potrai più accedervi dopo tale data.
 
@@ -127,7 +127,7 @@ Tutti gli utenti dell&#39;organizzazione ricevono il pacchetto Workfront Plannin
 
 * **Dopo Il 1° Maggio 2026:**
 
-  Tutti gli utenti del sistema hanno rimosso l&#39;accesso a Workfront Planning e Workfront protegge i dati.
+  L’accesso alla sperimentazione rimarrà attivo fino al 15 maggio 2026. Dopo il 15 maggio, tutti gli utenti del sistema avranno l&#39;accesso a Workfront Planning rimosso e Workfront protegge i tuoi dati.
 
 ## Ulteriori informazioni su Workfront Planning
 
@@ -174,7 +174,7 @@ La prova è iniziata e la tua organizzazione ha ricevuto l’accesso per avviare
 
 >[!WARNING]
 >
->Il periodo di consenso termina il 1° aprile 2026. Tuttavia, le funzioni di prova di Planning sono disponibili fino al 1° maggio 2026.
+>Il periodo di consenso termina il 1° aprile 2026. Tuttavia, le funzioni di prova di Planning sono disponibili fino al 15 maggio 2026.
 
 1. (Condizionale) Accedi ad Adobe Workfront come amministratore di sistema.
 
@@ -188,7 +188,7 @@ La prova è iniziata e la tua organizzazione ha ricevuto l’accesso per avviare
 1. (Condizionale) Se ti trovi nell&#39;area **Configurazione**, passa alla sezione **Altre preferenze**, quindi fai clic su **Rivedi il contratto di prova**.
 1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
 
-   La tua organizzazione è ora iscritta alla prova di Workfront Planning fino al 1° maggio 2026.
+   La tua organizzazione è ora iscritta alla prova di Workfront Planning fino al 1° maggio 2026. L’accesso rimarrà attivo fino al 15 maggio 2026.
 
    Dopo l&#39;accettazione del contratto di prova si verificano le seguenti situazioni:
 
@@ -207,6 +207,19 @@ Per ulteriori informazioni sull&#39;utilizzo di Workfront Planning, vedere [Intr
 
 Per le best practice sull&#39;implementazione di Workfront Planning, vedere [Best practice di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Invia feedback su Planning
+
+Per inviare un feedback sulla tua esperienza con Workfront Planning:
+
+1. Accedi a Workfront e apri qualsiasi pagina.
+1. Trova il breve sondaggio nell&#39;angolo inferiore destro di qualsiasi pagina di Workfront e rispondi alle domande, quindi fai clic su **Avanti**.
+
+   ![Sondaggio di prova promozionale](assets/promo-trial-survey.png)
+
+1. Nella seconda diapositiva, rispondere alle domande, quindi fare clic su **Invia**.
+
+   Il tuo feedback viene inviato al nostro team di gestione dei prodotti.
+
 
 ## Experience Workfront Planning attraverso la versione di prova gratuita
 
@@ -215,11 +228,11 @@ Per le best practice sull&#39;implementazione di Workfront Planning, vedere [Bes
 1. (Condizionale e obbligatorio) In qualità di amministratore di Workfront, firma il contratto di prova gratuita.
 
    Per informazioni, vedere la sezione [Iscriviti alla prova gratuita di Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) in questo articolo.
-1. (Condizionale) Dopo che il contratto di prova è stato firmato da un amministratore di Workfront, fare clic sull&#39;icona **del** menu principale![](assets/main-menu-shell.png), quindi fare clic su uno dei seguenti elementi per accedere all&#39;area **Planning**:
+1. (Condizionale) Dopo che il contratto di prova è stato firmato da un amministratore di Workfront, fare clic sull&#39;icona ![](assets/main-menu-shell.png) del **menu principale**, quindi fare clic su uno dei seguenti elementi per accedere all&#39;area **Planning**:
 
    * **Pianificazione**. Accanto all&#39;icona viene visualizzata l&#39;etichetta **Versione di valutazione**.
    * **Progetti**, **Richieste**, **Calendari**, quindi fai clic su **Esplora i calendari delle campagne**
-   * **Portfolio**, **Programmi** o da un portfolio o programma    quindi fare clic su **Esplora gerarchie personalizzate**.
+   * **Portfolio**, **Programmi** o da un portfolio o programma, quindi fare clic su **Esplora gerarchie personalizzate**.
 
    L&#39;area **Planning** verrà aperta nella scheda **Aree di lavoro di esempio**.
 1. Rivedi le seguenti aree di lavoro nella scheda **Aree di lavoro di esempio**:
@@ -242,7 +255,7 @@ Per le best practice sull&#39;implementazione di Workfront Planning, vedere [Bes
 
 1. Fai clic su **Crea area di lavoro** per creare la tua area di lavoro.
 
-   Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    In qualità di amministratore di sistema, le nuove aree di lavoro vengono visualizzate nelle schede **Tutte le aree di lavoro** e **Aree di lavoro in cui sono presente**.
 

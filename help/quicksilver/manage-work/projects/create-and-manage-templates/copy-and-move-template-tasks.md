@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2234'
 ht-degree: 5%
 
 ---
@@ -108,6 +108,10 @@ Quando si spostano le attività modello, considera quanto segue:
 
    * Milestone.
 
+* Non è possibile copiare o spostare un’attività modello da un modello di archiviazione Workfront a un modello di archiviazione Adobe. Anche il contrario è vero. Non tutti i clienti dispongono di entrambi i tipi di storage.
+
+  Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copia attività modello
 
 È possibile copiare una singola attività modello oppure più attività modello in blocco.
@@ -117,9 +121,9 @@ Quando si spostano le attività modello, considera quanto segue:
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Condizionale) Fai clic sull&#39;icona **Altro** del menu ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
+1. (Condizionale) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
 Viene visualizzata la casella Copia attività modello (Copy Template Task).
-   ![Casella attività modello Copu](assets/copy-template-task-box-unshimmed.png)
+   ![Casella attività Copia modello](assets/copy-template-task-box-unshimmed.png)
 1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
 
    >[!TIP]
@@ -128,11 +132,18 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 
 1. Inizia a digitare il nome del **modello di destinazione** in cui desideri copiare l&#39;attività modello nel campo **Seleziona modello di destinazione**, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
+   >[!TIP]
+   >
+   >Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
+
    Il nome del modello corrente viene visualizzato per impostazione predefinita. Se si desidera copiare l&#39;attività modello all&#39;interno dello stesso modello, lasciare questo campo invariato.
 
    >[!TIP]
    >
-   >Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
+   >È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. Non tutti i clienti hanno accesso a più tipi di archiviazione dei documenti.
+   >
+   >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Condizionale) Fai clic su **richiedi l&#39;accesso** per richiedere l&#39;accesso al modello di destinazione, se non hai accesso al modello selezionato.
 1. (Facoltativo) Continua a copiare l’attività modello nel modello di destinazione selezionato senza richiedere l’accesso se disponi dell’accesso per aggiungere attività modello a una delle attività modello nel modello di destinazione.
@@ -240,7 +251,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Facoltativo) Fai clic sull&#39;icona **Altro** del menu ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
+1. (Facoltativo) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
 Viene visualizzata la casella Sposta attività modello (Move Template Task).
    ![Sposta casella attività modello](assets/move-template-task-box-unshimmed.png)
 
@@ -254,7 +265,11 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
 
    >[!TIP]
    >
-   >Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
+   >* Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
+   >
+   >* È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. Non tutti i clienti hanno accesso a più tipi di archiviazione dei documenti.
+   >
+   >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condizionale) Fai clic su **richiedi l&#39;accesso** per richiedere l&#39;accesso al modello, se non hai accesso al modello di destinazione.
 1. (Facoltativo) Continua a spostare l’attività modello nel modello di destinazione selezionato senza richiedere l’accesso, se disponi dell’accesso per aggiungere attività modello a una delle attività modello nel modello di destinazione.
@@ -291,7 +306,6 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
       <li> Iniziare non Prima di</li>
       <li> Iniziare non Dopo di</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Facoltativo) Fai clic su **Seleziona elemento principale** nel pannello a sinistra, quindi seleziona l&#39;attività modello nel modello di destinazione che desideri diventi l&#39;elemento principale dell&#39;attività modello spostata.
 

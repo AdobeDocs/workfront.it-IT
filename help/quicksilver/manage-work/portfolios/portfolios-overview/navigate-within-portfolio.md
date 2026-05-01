@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 7%
+source-wordcount: '697'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni sui portfolio, consulta [Informazioni sulla metodolog
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -113,7 +113,7 @@ Nell&#39;area [!UICONTROL Dettagli Portfolio] all&#39;interno di un portfolio ve
    * Il portfolio [!UICONTROL Alignment]
    * Il portfolio [!UICONTROL Valore netto]
 
-1. (Facoltativo)   Fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra per visualizzare i progetti associati al portfolio selezionato, quindi seleziona uno dei seguenti filtri dal menu a discesa **[!UICONTROL Filtro]**:
+1. (Facoltativo) Fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra per visualizzare i progetti associati al portfolio selezionato, quindi seleziona uno dei seguenti filtri dal menu a discesa **[!UICONTROL Filtro]**:
 
    * **[!UICONTROL Attivo]**: include tutti i progetti associati al portfolio selezionato con i seguenti stati:
 
@@ -150,6 +150,22 @@ Per informazioni sui programmi, vedere la sezione [Creare e gestire i programmi]
    Per informazioni sull&#39;utilizzo di Portfolio Optimizer, vedere la sezione [Gestione progetti in Portfolio Optimizer: article index](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Facoltativo) Fai clic su **Documenti** nel pannello a sinistra per allegare documenti al portfolio.
+
+   >[!NOTE]
+   >
+   >L&#39;aggiunta di documenti ai portfolio varia a seconda del tipo di storage utilizzato dall&#39;organizzazione per Workfront.
+   >Alcuni clienti possono avere accesso a entrambi i seguenti ambienti di storage dei documenti:
+   >
+   >  * **Archiviazione legacy di Workfront**: i portfolio che utilizzano questa archiviazione presentano l&#39;icona dell&#39;archiviazione legacy ![Icona dell&#39;archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+   >  * **Archiviazione aziendale di Adobe**
+   >
+   >L&#39;amministratore di Workfront decide quale storage utilizza la società o consente di scegliere con quale storage associare ciascun portfolio.
+   >Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >L&#39;aggiunta di documenti ai portfolio varia a seconda del tipo di storage utilizzato.
+   >
+   >Per informazioni, consulta [Aggiungere documenti ad Adobe Workfront dal file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiornamenti]** nel pannello a sinistra per aggiungere commenti al flusso di aggiornamento del portfolio. Per informazioni, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/qs-more-icon-on-an-object.png) per effettuare una delle seguenti operazioni:
 

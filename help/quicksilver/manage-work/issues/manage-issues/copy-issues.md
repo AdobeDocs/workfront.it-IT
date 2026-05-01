@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1056'
 ht-degree: 5%
 
 ---
@@ -119,6 +119,9 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 * **Quando un problema è associato a una coda di richieste:** Quando si copia un problema in un altro oggetto e il problema è associato a una coda di richieste, il problema copiato non è più associato alla coda originale da cui ha avuto origine il primo problema.
 * **Quando un documento è allegato al problema:** Quando si copia un problema in un altro oggetto a cui è associato un documento, anche il documento e le relative versioni passano al nuovo problema. Eventuali bozze o approvazioni associate al documento non vengono spostate.
 * **Quando un problema è collegato a un documento o a una cartella:** Quando si copia un problema che include documenti o cartelle collegati a un servizio di terze parti come Google Drive, i collegamenti ai documenti vengono trasferiti al problema copiato.
+* **Quando si copiano problemi tra progetti con tipi di archiviazione diversi**: non è possibile copiare un problema da un progetto di archiviazione Workfront a un progetto di archiviazione Adobe. Anche il contrario è vero. Non tutti i clienti dispongono di entrambi i tipi di storage.
+
+  Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Copiare i problemi in un elenco
 
@@ -138,9 +141,9 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 1. Continua a copiare il problema, come descritto nella sezione [Copia un singolo problema](#copy-a-single-issue) a partire dal passaggio 2.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    (NOTE: ensure step number stays accurate)
-   </MadCap:conditionalText>
+    
    -->
 
 ## Copiare un singolo problema {#copy-a-single-issue}
