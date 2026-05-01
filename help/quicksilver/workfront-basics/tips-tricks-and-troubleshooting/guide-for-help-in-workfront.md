@@ -43,12 +43,12 @@ Per ulteriori informazioni su [!DNL Workfront], è possibile:
  <tbody> 
   <tr> 
    <td><strong>Estrai [!DNL Workfront] il [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>Puoi utilizzare la barra di ricerca nella parte superiore di <a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> per trovare un articolo specifico, una discussione o un corso di formazione. Consideralo come il tuo motore di ricerca per tutti gli elementi [!DNL Workfront].</p> <p>Qui puoi anche trovare risorse come</p> 
+   <td> <p>Puoi utilizzare la barra di ricerca nella parte superiore di <a href="https://experienceleague.adobe.com/it/docs/workfront">https://experienceleague.adobe.com/it/docs/workfront</a> per trovare un articolo specifico, una discussione o un corso di formazione. Consideralo come il tuo motore di ricerca per tutti gli elementi [!DNL Workfront].</p> <p>Qui puoi anche trovare risorse come</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/it/docs/workfront/using/home">Documentazione</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home">Tutorial</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/it/docs/workfront/using/product-announcements/product-releases/product-releases">Versioni</a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">Documentazione API</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">Documentazione API</a> </p> </li> 
      <li> <p>E altro ancora!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -70,7 +70,7 @@ Per ulteriori informazioni su [!DNL Workfront], è possibile:
   </tr> 
   <tr> 
    <td><strong>Apprendi on-demand e approfondisci con [!DNL Workfront] corso di formazione</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a pianificatori, lavoratori, collaboratori e amministratori di sistema di iniziare a utilizzare le funzionalità chiave di [!DNL Workfront].<br>Espandi le tue conoscenze di [!DNL Workfront]</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sugli argomenti di tuo interesse.<br></td> 
+   <td><a href="https://experienceleague.adobe.com/it">Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a pianificatori, lavoratori, collaboratori e amministratori di sistema di iniziare a utilizzare le funzionalità chiave di [!DNL Workfront].<br>Espandi le tue conoscenze di [!DNL Workfront]</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sugli argomenti di tuo interesse.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,15 +84,15 @@ Le risorse seguenti possono essere utili per determinare come utilizzare [!DNL W
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] risorse evidenziazione clienti</a> </td> 
+   <td><a href="https://business.adobe.com/it/resources/main.html?Products=Workfront">[!DNL Workfront] risorse evidenziazione clienti</a> </td> 
    <td>Questa è la tua fonte di partenza per webinar, ebook, white paper, video e report.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Case study </a></td> 
+   <td><a href="https://business.adobe.com/it/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Case study </a></td> 
    <td>Leggi l'articolo completo di oltre 60 case study per approfondire le problematiche dei clienti e [!DNL Workfront] soluzioni e vantaggi.</td> 
   </tr> 
   <tr> 
-   <td>Community <a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront]</a> </td> 
+   <td>Community <a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it">[!DNL Workfront]</a> </td> 
    <td>La community di [!DNL Workfront] consente di conversare con [!DNL Workfront] utenti ed esperti di tutto il mondo. Sono sempre lì per aiutarti a rispondere alle tue domande o per indicarti la direzione giusta.</td> 
   </tr> 
  </tbody> 
@@ -145,8 +145,8 @@ Le risorse seguenti sono utili per ottenere ulteriori informazioni sull&#39;API 
 
 | [[!DNL Adobe Workfront] integrazioni](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | È possibile integrare [!DNL Workfront] con applicazioni di terze parti. Le integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e personalizzarla in base alle esigenze della tua organizzazione. Questo articolo della knowledge base descrive le opzioni di integrazione e ti indirizza nella direzione successiva. |
 |---|---|
-| [[!DNL Workfront] integrazioni incorporate](https://business.adobe.com/products/workfront/integrations.html) | Le integrazioni integrate gratuite di Workfront consentono a te e al tuo team di passare senza problemi alla piattaforma Workfront mantenendo gli stessi flussi di lavoro e processi. |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Consente di collegare [!DNL Workfront] a più di 100 applicazioni, semplificando l&#39;automazione dei processi aziendali critici senza codice. |
+| [[!DNL Workfront] integrazioni incorporate](https://business.adobe.com/it/products/workfront/integrations.html) | Le integrazioni integrate gratuite di Workfront consentono a te e al tuo team di passare senza problemi alla piattaforma Workfront mantenendo gli stessi flussi di lavoro e processi. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home) | Consente di collegare [!DNL Workfront] a più di 100 applicazioni, semplificando l&#39;automazione dei processi aziendali critici senza codice. |
 
 {style="table-layout:auto"}
 
@@ -165,8 +165,8 @@ Per sapere cosa è stato risolto in un aggiornamento di manutenzione settimanale
 
 The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
 
-| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045?profile.language=it#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=it) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->
