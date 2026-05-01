@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi
 
 ![Diagramma che mostra il flusso di lavoro unificato di revisione e approvazione, con i coordinatori del progetto che gestiscono il lavoro in Workfront e i revisori e gli approvatori che forniscono feedback e prendono decisioni nel visualizzatore Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## Requisiti di integrazione
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* L’istanza di Workfront deve essere abilitata in Adobe Unified Experience.
-
+-->
 
 ## Basato sullo storage aziendale Adobe
 
@@ -134,7 +135,7 @@ Nella tabella seguente viene illustrato il mapping delle autorizzazioni di Workf
 
 ### Gestione dei documenti in Workfront
 
-I documenti caricati su Workfront vengono memorizzati nello storage aziendale di Adobe e sono accessibili sia in Workfront che in Frame.io. Quando carichi un documento in un’attività o un problema in Workfront, viene creata una cartella generata dal sistema nell’archiviazione aziendale di Adobe che eredita le autorizzazioni dall’attività o dal problema. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Per ulteriori informazioni sui documenti in Workfront, vedere [Panoramica sulla nuova area documenti](/help/quicksilver/documents/managing-documents/documents-area.md) e [Autorizzazioni oggetto e panoramica del livello di accesso per il modello di archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+I documenti caricati su Workfront vengono memorizzati nello storage aziendale di Adobe e sono accessibili sia in Workfront che in Frame.io. Quando carichi un documento in un’attività o un problema in Workfront, viene creata una cartella generata dal sistema nell’archiviazione aziendale di Adobe che eredita le autorizzazioni dall’attività o dal problema. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Per ulteriori informazioni sui documenti in Workfront, vedere [Panoramica sulla nuova area Documenti](/help/quicksilver/documents/managing-documents/documents-area.md) e [Autorizzazioni oggetto e panoramica del livello di accesso per il modello di archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Limitazioni dell’esperienza documentale
 

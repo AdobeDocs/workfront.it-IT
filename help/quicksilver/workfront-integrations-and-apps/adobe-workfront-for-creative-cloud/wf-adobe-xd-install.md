@@ -8,10 +8,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 8%
+source-wordcount: '502'
+ht-degree: 9%
 
 ---
 
@@ -141,4 +141,3 @@ Per risolvere il problema:
 
 1. Immetti il dominio Workfront. Il dominio deve essere `company-name.my.workfront.com` e non `experience.adobe.com`.
 
-Per trovare il tuo dominio Workfront se usi Adobe Unified Experience, vai a

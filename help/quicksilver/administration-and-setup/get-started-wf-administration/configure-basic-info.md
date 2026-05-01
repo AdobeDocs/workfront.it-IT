@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 6%
 
 ---
@@ -68,30 +68,15 @@ Per accedere alla pagina Informazioni cliente:
 
    Le sezioni disponibili nell’area Informazioni cliente sono:
 
-* **Informazioni di base**
+   | Sezione | Ulteriori informazioni |
+   |---------|-----------------|
+   | **Informazioni di base** | Per informazioni sulla configurazione delle informazioni di base in Workfront, vedere [Configurare le informazioni di base](#configure-basic-info). |
+   | <span class="preview">**Panoramica archiviazione**</span> | <span class="preview">Per informazioni sulla verifica dell&#39;utilizzo e della quota di archiviazione dei documenti, vedere [Controllare i limiti di archiviazione dei documenti](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Impostazioni chiave API** | Per informazioni sulle impostazioni delle chiavi API, vedere [Gestione chiavi API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **Inserisco nell&#39;elenco Consentiti IP** | Per informazioni sull&#39;aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso del firewall all&#39;interno del sistema di gestione delle relazioni con i clienti](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica** | Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di posta elettronica di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
-  Per informazioni sulla configurazione delle informazioni di base in Workfront, vedere [Configurare le informazioni di base](#configure-basic-info).
-
-
-
-* <span class="preview">**Panoramica archiviazione**
-
-  Per informazioni sulla verifica dell&#39;utilizzo e della quota di archiviazione dei documenti, vedere [Controllare i limiti di archiviazione dei documenti](../../documents/managing-documents/check-document-storage.md).</span>
-
-
-* **Impostazioni chiave API**
-
-  Per informazioni sulle impostazioni delle chiavi API, vedere [Gestione chiavi API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-
-* **Inserisco nell&#39;elenco Consentiti IP**
-
-  Per informazioni sull&#39;aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso del firewall all&#39;interno del sistema di gestione delle relazioni con i clienti](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-* **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica**
-
-  Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di posta elettronica di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
