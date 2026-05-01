@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -312,9 +312,9 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
    <p>Per informazioni, consulta <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gestire la vista timeline</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Data di completamento preventivata]</td> 
-   <td> <p>Questo campo è obsoleto. Qualsiasi informazione mostrata in questo campo è correlata a una funzione rimossa da [!DNL Workfront]. Questo campo non può essere aggiornato. </p>
+   <tr> 
+  <td>[!UICONTROL Data di completamento preventivata]</td> 
+  <td> <p>Questo campo è obsoleto. Qualsiasi informazione mostrata in questo campo è correlata a una funzione rimossa da [!DNL Workfront]. Questo campo non può essere aggiornato. </p>
    <p> Questo campo è ancora visibile nei rapporti e negli elenchi del [!UICONTROL progetto].</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> Per informazioni sul budget degli utenti nella [!DNL Resource Planner], consulta l’articolo <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget per le risorse nella [!DNL Resource Planner] utilizzando le viste [!UICONTROL Progetto] e [!UICONTROL Ruolo]</a>. </p> 
     <p>Le ore preventivate nell’area [!UICONTROL Budget risorse] del [!UICONTROL Caso di business] o della [!UICONTROL Pianificazione risorse] vengono visualizzate nelle seguenti aree di [!DNL Workfront] e con i seguenti nomi:</p> 
      <table style="table-layout:auto"> 
@@ -387,24 +387,20 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo manodopera preventivato]</td> 
@@ -431,8 +427,6 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Grafico lavoro]</td> 
@@ -496,10 +490,8 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   </tr> 
    <tr> 
    <td>[!UICONTROL Può iniziare]</td> 
-   <td> <p>Questo campo indica se un’attività è pronta per iniziare a essere elaborata. Se l’inizio è pronto per essere elaborato, sul campo [!UICONTROL Può iniziare] sull’attività è impostato [!UICONTROL True]. </p> <p>Per ulteriori informazioni, consulta la panoramica del campo <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">“[!UICONTROL Può iniziare]” per le attività</a>.</p>
-
-
-</td>
+   <td> <p>Questo campo indica se un’attività è pronta per iniziare a essere elaborata. Se l’inizio è pronto per essere elaborato, sul campo [!UICONTROL Può iniziare] sull’attività è impostato [!UICONTROL True]. </p> <p>Per ulteriori informazioni, consulta la panoramica del campo <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">“[!UICONTROL Può iniziare]” per le attività</a>.</p> 
+  </td>
   </tr>
   <!--
   <tr> 
@@ -1638,7 +1630,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li> <p>Per i problemi, puoi aggiornare manualmente questo campo. Le ore pianificate del problema non vengono aggiunte alle ore pianificate del progetto. </p> <p><b>SUGGERIMENTO</b></p> <p>In un rapporto sui problemi, uno dei campi [!UICONTROL Ore pianificate] viene sostituito dal campo [!UICONTROL Lavoro]. Nel campo viene visualizzato il numero di ore pianificate per il problema. Per ulteriori informazioni, consulta i campi “lavoro” o “[!UICONTROL Lavoro]” in questa tabella. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata  dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
+     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata [!UICONTROL] dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Per i progetti, [!DNL Workfront] calcola le ore pianificate aggiungendo tutte le ore pianificate da tutte le attività del progetto. </p> </li> 
