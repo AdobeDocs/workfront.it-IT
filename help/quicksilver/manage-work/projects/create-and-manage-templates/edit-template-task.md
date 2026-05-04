@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 7%
 
 ---
@@ -123,13 +123,19 @@ Prima di iniziare, è necessario
 1. Per modificare informazioni limitate sull&#39;attività modello, eseguire le operazioni seguenti:
    1. (Facoltativo) Fai clic su **Aggiornamenti** nel pannello a sinistra per aggiungere aggiornamenti all&#39;attività modello. Gli aggiornamenti delle attività del modello non vengono trasferiti alle attività del progetto quando il modello viene utilizzato per creare un progetto.
    1. (Facoltativo) Fai clic su **Documenti** nel pannello a sinistra per aggiungere documenti all&#39;attività modello. I documenti verranno trasferiti alle attività del progetto quando si utilizza il modello per creare il progetto.
+
+      >[!TIP]
+      >
+      >L’aggiunta di documenti a un’attività modello varia a seconda che l’organizzazione utilizzi l’archiviazione Workfront o Adobe per archiviare i documenti. Per informazioni, consulta [Aggiungere documenti ad Adobe Workfront dal file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
    1. (Condizionale) Per modificare informazioni limitate su un&#39;attività modello, fai clic su **Dettagli attività modello** nel pannello a sinistra, quindi vai alle aree della sezione Dettagli per modificare le informazioni per ogni area.
    1. (Facoltativo) Effettuate una delle seguenti operazioni:
       * Fai clic sull&#39;icona **Comprimi tutto** ![Comprimi tutto](assets/collapse-all-icon.png) per comprimere tutte le aree.
       * Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
 
+
          * Panoramica
-         * Forms personalizzato
+         * Moduli personalizzati
 I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli personalizzati allegati all’attività modello.
          * Finanz
 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
