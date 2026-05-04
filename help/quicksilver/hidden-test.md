@@ -3,16 +3,16 @@ title: Test nascosto
 description: test nascosto
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 25c6a73ca1f7580606a361c93a7c10d2f01271c2
+source-git-commit: aa90f5437ddd4ff7476271a322926e5eaf24d6b4
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 34%
 
 ---
 
 # Test nascosto
 
-4 maggio
+Maggio 4 Ape
 
 File nascosto utilizzato per testare i tempi di pubblicazione in un archivio più grande.
 
@@ -224,7 +224,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta i
    <td> 
 <p>Qualsiasi pacchetto di Adobe Workfront Workflow e qualsiasi pacchetto di Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Piattaforma Adobe Workfront (****richiamarlo o inserirlo nell’articolo collegato in basso???*****)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience per Workfront</a>. </p> 
