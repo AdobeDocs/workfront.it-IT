@@ -2,17 +2,16 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Carica documenti e bozze da  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
-description: Carica documenti e bozze da  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
+title: Caricare documenti e bozze dal  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
+description: Caricare documenti e bozze dal  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
-hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -63,7 +62,7 @@ Per tornare a un singolo file in [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td><strong>EPUB e EPUB fisso</strong>
+    <td><strong>EPUB e EPUB-FIXED</strong>
     </td>
     <td>Non sono necessari adeguamenti.
     </td>
@@ -75,7 +74,7 @@ Per tornare a un singolo file in [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td><strong>JPG-</strong>
+    <td><strong>JPG</strong>
     </td>
     <td>Seleziona <strong>Intervalli</strong> e digita un numero di pagina. 
     <p>

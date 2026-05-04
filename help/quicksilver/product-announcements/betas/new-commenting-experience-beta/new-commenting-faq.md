@@ -1,22 +1,21 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-faq
-title: Domande frequenti sulle nuove esperienze di commento
+title: Domande frequenti sulla nuove esperienza dei commenti
 description: Questo articolo contiene un elenco delle domande più frequenti sulla nuova esperienza di commento.
 author: Alina
 feature: Product Announcements
 role: User, Admin
 hide: true
-hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 0%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
-# Domande frequenti sulle nuove esperienze di commento
+# Domande frequenti sulla nuove esperienza dei commenti
 
 Questo articolo contiene un elenco delle domande più frequenti sulla nuova esperienza di commento.
 

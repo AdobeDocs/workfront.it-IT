@@ -5,18 +5,17 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 1%
 
 ---
 
 # Miglioramenti al progetto del terzo trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
@@ -53,13 +52,13 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 
 >[!IMPORTANT]
 >
->A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->&#x200B;>Esistono i seguenti scenari:
+>A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un’attività o un problema.<br>
+>Esistono i seguenti scenari:
 >
 >* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
 >* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
->  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
->  &#x200B;><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
+><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

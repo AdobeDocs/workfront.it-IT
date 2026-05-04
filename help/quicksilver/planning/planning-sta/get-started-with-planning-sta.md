@@ -1,12 +1,11 @@
 ---
 title: Guida introduttiva ad Adobe Planning Standalone
 description: Questo articolo descrive i vantaggi che si possono trarre dall'utilizzo della versione autonoma di Adobe Workfront Planning.
-hidefromtoc: true
 hide: true
 exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

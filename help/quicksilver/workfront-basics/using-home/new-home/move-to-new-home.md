@@ -5,17 +5,16 @@ title: Passa dalla home legacy alla nuova home
 description: La pagina Home legacy verrà rimossa da Workfront il 10/17 con la versione Q4. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili nella nuova home e consigli per spostare gli utenti nella nuova esperienza Home.
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 5%
+source-wordcount: '1667'
+ht-degree: 6%
 
 ---
 
-# Passa dalla home legacy alla nuova home
+# Passare dalla Home legacy alla nuova Home
 
 La pagina Home legacy verrà rimossa da Workfront il 10/17 con la versione Q4. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili nella nuova home e consigli per gli amministratori di Workfront che spostano gli utenti nella nuova esperienza Home.
 
@@ -46,7 +45,7 @@ Il widget Il mio lavoro è stato creato in forma di widget per rispecchiare il p
 |------------|-----------|
 | ![](assets/filter-list-legacy.png) | ![](assets/filter-list-my-work.png) |
 
-#### Delega lavoro
+#### Delegare il lavoro
 
 Gli utenti possono comunque delegare il lavoro dalla Nuova Home nei seguenti widget:
 
@@ -119,7 +118,7 @@ Oltre al pannello Riepilogo, gli utenti possono utilizzare le azioni rapide per
 * Registra ore
 * Aggiungi un aggiornamento
 * Aggiornare un modulo personalizzato
-* Carica un file
+* Caricare un file
 
 Per individuare il menu Azioni rapide, passa il puntatore sull&#39;elemento di lavoro. L&#39;elenco delle azioni rapide viene visualizzato accanto al pulsante **Lavoraci** o **Fine**.
 
@@ -272,7 +271,7 @@ Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova e
 
 **Formazione**
 
-* [Rimuovi, aggiungi e ridisponi i widget nell&#39;esercitazione Home](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Rimuovi, aggiungi e ridisponi i widget nell’esercitazione Home](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Nozioni di base sui lavoratori in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

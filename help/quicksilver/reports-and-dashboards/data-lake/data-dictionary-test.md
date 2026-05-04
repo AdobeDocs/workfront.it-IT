@@ -7,14 +7,13 @@ description: Per accedere ai dati di Data Connect, è necessario innanzitutto cr
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # Test
 
@@ -32,17 +31,17 @@ ht-degree: 8%
  <tr>
         <td>Livello di accesso</td>
          <td>Livello di accesso</td>
-        <td>ACSLVL | Livello d'Accesso</td>
+        <td>ACSLVL | Livello d'accesso</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
      <tr>
-         <td colspan="4"><strong>Campo relazioni</strong> <br>
+         <td colspan="4"><strong>Campo Relazioni</strong> <br>
          ACCESSLEVELID (self): Self<br>
-         APPGLOBALID: non una relazione; utilizzato per scopi interni dell'applicazione<br>
+         APPGLOBALID: non una relazione; utilizzato per scopi di applicazione interni<br>
          LASTUPDATEDBYID: USER_CURRENT | ID UTENTE<br>
-         LEGACYACCESSLEVELID: non una relazione; utilizzato per scopi interni dell'applicazione<br>
-         OBJID: ID dell'oggetto identificato nel campo OBJCODE <br>
+         LEGACYACCESSLEVELID: non una relazione; utilizzato per scopi interni all'applicazione<br>
+         OBJID: ID dell'oggetto identificato nel campo OBJCODE. <br>
          SYSID: non una relazione. Utilizzato per applicazioni interne.</td>
     </tr>
 </table>
@@ -61,16 +60,16 @@ ht-degree: 8%
  <tr>
         <td>Livello di accesso</td>
          <td>Livello di accesso</td>
-        <td>ACSLVL | Livello d'Accesso</td>
+        <td>ACSLVL | Livello d'accesso</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
      <tr>
-         <td colspan="4"><strong>Campo relazioni</strong> <br>
+         <td colspan="4"><strong>Campo Relazioni</strong> <br>
          <ul>
             <li>ACCESSLEVELID (self): Self</li>
             <li>APPGLOBALID: non una relazione; utilizzato per scopi di applicazione interni</li>
-            <li>LASTUPDATEDBYID: USER_CURRENT | USERID</li>
+            <li>LASTUPDATEDBYID: USER_CURRENT | ID UTENTE</li>
             <li>LEGACYACCESSLEVELID: non una relazione; utilizzato per scopi interni all'applicazione</li>
             <li>OBJID: ID dell'oggetto identificato nel campo OBJCODE.</li>
             <li>SYSID: non una relazione. Utilizzato per applicazioni interne.</li>

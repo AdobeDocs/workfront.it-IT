@@ -6,12 +6,11 @@ description: È possibile installare AppBuilder in Dettagli documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---

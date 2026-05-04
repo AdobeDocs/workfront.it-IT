@@ -2,12 +2,11 @@
 title: App mobile Workfront Proof per tablet
 description: L'app per tablet  [!DNL Workfront Proof]  ti consente di rivedere e approvare in modo semplice le bozze quando sei in movimento. L'app è disponibile per il download per tutti, non devi essere un utente di  [!DNL Workfront Proof]  per poter rivedere le bozze sul tuo tablet o telefono.
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 0%
+source-wordcount: '1995'
+ht-degree: 1%
 
 ---
 
@@ -143,7 +142,7 @@ Il testo di verifica in movimento si trova effettivamente nell&#39;app tablet [!
 
    | **[!UICONTROL Evidenzia]** | Evidenzia il testo e lo copia nella casella del commento. |
    |---|---|
-   | **[!UICONTROL Sostituisci]** | Aggiunge [[!UICONTROL REPLACE]] e [[!UICONTROL WITH]] nella casella del commento insieme al testo, semplificando la raccomandazione del testo di sostituzione. |
+   | **[!UICONTROL Replace]** | Aggiunge [[!UICONTROL REPLACE]] e [[!UICONTROL WITH]] nella casella del commento insieme al testo, semplificando la raccomandazione del testo di sostituzione. |
    | **[!UICONTROL Elimina]** | Barra il testo e aggiunge [DELETE] alla casella dei commenti. |
    | **[!UICONTROL Inserisci dopo]** | Aggiunge [INSERT AFTER] alla casella dei commenti. |
 

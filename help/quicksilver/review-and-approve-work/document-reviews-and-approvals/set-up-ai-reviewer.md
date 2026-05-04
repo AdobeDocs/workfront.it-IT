@@ -7,14 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 17%
 
 ---
 
@@ -79,7 +78,7 @@ Per aggiungere un revisore dei contenuti:
 
    Una volta creato il revisore IA, gli utenti possono aggiungere il revisore AI modelli di approvazione o alle singole approvazioni.
 
-   Per ulteriori informazioni, consulta  
+   Per ulteriori informazioni, consulta
 
    * [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
