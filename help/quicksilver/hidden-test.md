@@ -3,7 +3,7 @@ title: Test nascosto
 description: test nascosto
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: b54bc5e09435f9c20b35c27d1c91bc3bc28ed528
+source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 34%
@@ -224,7 +224,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta i
    <td> 
 <p>Qualsiasi pacchetto di Adobe Workfront Workflow e qualsiasi pacchetto di Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Piattaforma Adobe Workfront (****richiamarlo o inserirlo nell’articolo collegato in basso???*****)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience per Workfront</a>. </p> 
