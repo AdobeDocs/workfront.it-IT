@@ -18,4 +18,4 @@ ht-degree: 12%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Impossibile accedere all&#39;app mobile  [!DNL Workfront Proof] ](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+* [Impossibile accedere all&#39;app mobile  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
