@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 4d0f729ad2ea8813d9d6fea18d29cad9ec5aaf41
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,8 @@ ht-degree: 7%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-<!-- no longer needed: 
+<!-- 
+no longer needed: 
 >[!IMPORTANT]
 >
 >The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
@@ -183,7 +184,7 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
 1. (Facoltativo e condizionale) Se non disponi delle autorizzazioni necessarie per visualizzare l&#39;area di lavoro, aggiungi un messaggio personalizzato nella casella disponibile, quindi fai clic su **Richiedi accesso**.
 
-   All users with Manage permissions to the view or the workspace receive the following notifications for the access request:
+   Tutti gli utenti con autorizzazioni di gestione per la visualizzazione o l’area di lavoro ricevono le notifiche seguenti per la richiesta di accesso:
    * Una notifica in-app
      ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
