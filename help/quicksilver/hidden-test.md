@@ -2,12 +2,11 @@
 title: Test nascosto
 description: test nascosto
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 2%
+ht-degree: 34%
 
 ---
 
@@ -31,7 +30,7 @@ Contatta Bob in caso di problemi.
 
 ## Requisiti di accesso (questo è un esempio quando il pacchetto rimane invariato e viene aggiornata la riga delle licenze)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,14 +44,14 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> <p>Chiaro o superiore</p>
-   <p>Lavoro o superiore</p></td> 
+   <p>Work o successiva</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per un modello</p>  </td> 
   </tr> 
  </tbody> 
@@ -62,7 +61,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
 
 ## Requisiti di accesso
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,16 +72,16 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
-   <p>Lavoro o superiore</p></td> 
+   <p>Work o successiva</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per un modello</p>  </td> 
   </tr> 
  </tbody> 
@@ -92,7 +91,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di accesso
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -103,7 +102,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
   </td> 
   </tr> 
@@ -112,7 +111,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per un modello</p>  </td> 
   </tr> 
  </tbody> 
@@ -123,7 +122,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di accesso (questo è un esempio in cui la nuova funzione esiste solo nei pacchetti 2023/2025)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -147,11 +146,11 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisiti di accesso (questo è un esempio in cui è necessario disporre di altri prodotti)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -175,7 +174,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## I pacchetti 2017 devono essere rimossi dalla riga dei pacchetti
@@ -202,7 +201,7 @@ Pacchetto: selezione pianificazione, numero primo pianificazione, pianificazione
 
 ## Requisiti di accesso per la maggior parte di Workfront Planning
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -226,12 +225,12 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
 <td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+<p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience per Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p> Standard</p> 
   </td> 
   </tr> 
@@ -241,7 +240,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -260,7 +259,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 >Se la tua azienda ha acquistato Adobe Scenario Planner in passato, è stata esentata dalla clausola di salvaguardia. La Pianificazione scenario non è più disponibile per l&#39;acquisto.
 
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +282,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p>  </td> 
   </tr> 
  </tbody> 

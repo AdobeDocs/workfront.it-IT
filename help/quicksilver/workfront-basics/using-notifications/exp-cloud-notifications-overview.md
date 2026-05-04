@@ -5,14 +5,13 @@ description: Adobe Workfront ha unificato tutti i prodotti di esperienze digital
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
-source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica delle notifiche di Experience Cloud
 
@@ -101,4 +100,3 @@ Se devi riprogrammare la transizione, coordinati con il team del tuo account o c
 
 No. Tutte le integrazioni e le automazioni esistenti continueranno a funzionare come di consueto.
 +++
-

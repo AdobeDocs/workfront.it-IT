@@ -1,13 +1,12 @@
 ---
 title: Panoramica dei dashboard di Canvas
 description: Puoi creare dashboard di Canvas che integrano le visualizzazioni di Reporting Canvas con rapporti tradizionali e presentano nuove opzioni di layout.
-hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---

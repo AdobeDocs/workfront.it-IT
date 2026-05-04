@@ -8,12 +8,11 @@ feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -28,6 +27,6 @@ ht-degree: 0%
 
 I seguenti articoli documentano le funzioni rese disponibili nella nuova esperienza di commento:
 
-* [Nuova attività di rilascio esperienza di commento](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [Nuova esperienza di commento](../new-commenting-experience-beta/unified-commenting-experience.md)
-* [Domande frequenti sulle nuove esperienze di commento](../new-commenting-experience-beta/new-commenting-faq.md)
+* [Nuova attività di rilascio sull’esperienza dei commenti](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [Nuova esperienza dei commenti](../new-commenting-experience-beta/unified-commenting-experience.md)
+* [Domande frequenti sulla nuove esperienza dei commenti](../new-commenting-experience-beta/new-commenting-faq.md)

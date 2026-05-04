@@ -1,15 +1,14 @@
 ---
 title: Panoramica dell’autenticazione avanzata
 description: Nascosto dalla ricerca e dal menu di navigazione a sinistra
-hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 10%
+source-wordcount: '509'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +29,7 @@ La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Funzionalità</strong> </p> </th> 
+   <th> <p><strong>Funzione</strong> </p> </th> 
    <th><strong>Autenticazione legacy</strong> </th> 
    <th><strong>Autenticazione avanzata 1.0</strong> </th> 
    <th> <p>Autenticazione avanzata 2.0</p> </th> 

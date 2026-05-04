@@ -6,15 +6,14 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 hide: true
-hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 2%
+source-wordcount: '2031'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +93,7 @@ Anteprima e produzione per tutti i clienti: 24 agosto 2023
 
 ### Settimana del 14 agosto 2023
 
-[Guarda una dimostrazione video di tutte le funzioni rilasciate durante la settimana del 14 agosto 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
+[Guarda un video dimostrativo di tutte le funzioni rilasciate durante la settimana del 14 agosto 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nuova esperienza di commento per oggetti aggiuntivi
 
@@ -108,7 +107,7 @@ Questa sarà l’unica esperienza di commento per questi oggetti, poiché l’es
 
 Per ulteriori informazioni, vedere [Nuova esperienza di aggiunta di commenti](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Rilascio in anteprima: venerdì 17 agosto 2023
+Versione di anteprima: 17 agosto 2023
 
 Versione di produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -136,7 +135,7 @@ Abbiamo riprogettato il nuovo flusso di commenti per conferirgli un aspetto più
 
 Per ulteriori informazioni, vedere [Panoramica della scheda Aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Rilascio in anteprima: venerdì 17 agosto 2023
+Versione di anteprima: 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -154,7 +153,7 @@ Per supportare questa modifica, abbiamo rinominato anche il pulsante &quot;Comme
 
 Per ulteriori informazioni, vedere [Nuova esperienza di aggiunta di commenti](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-Rilascio in anteprima: venerdì 17 agosto 2023
+Versione di anteprima: 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -164,7 +163,7 @@ Produzione per la versione trimestrale: con la versione 23.10 (ottobre 2023)
 
 Per una migliore visibilità dei tag assegnati agli utenti in un aggiornamento, ora vengono visualizzati i nomi degli utenti (fino a due utenti) a cui è stato applicato il tag in un aggiornamento. Per ulteriori informazioni, vedere [Assegnare tag ad altri in aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-Rilascio in anteprima: venerdì 17 agosto 2023
+Versione di anteprima: 17 agosto 2023
 
 Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 
@@ -186,7 +185,7 @@ Anteprima e produzione: 10 agosto 2023
 
 Il proprietario di un commento viene ora taggato automaticamente in un thread. Prima di questo aggiornamento, solo gli utenti ai quali sono stati assegnati tag utilizzando i tag &quot;@name&quot; o aggiungendoli alla sezione &quot;Assegna tag a persone o team&quot; visualizzata nell’elenco degli utenti ai tag. Con questo, ora puoi rimuovere il proprietario di un commento dal thread, se necessario, anche se non era stato applicato loro alcun tag manuale in precedenza.
 
-Rilascio in anteprima: giovedì 12 luglio 2023
+Versione di anteprima: 12 luglio 2023
 
 Versione di produzione: 13 luglio 2023
 
@@ -198,7 +197,7 @@ Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la
 
 Per ulteriori informazioni, consulta [Tempo di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Rilascio in anteprima: giovedì 5 luglio 2023
+Versione di anteprima: 5 luglio 2023
 
 Versione di produzione: con la versione 23.3 (luglio 2023)
 

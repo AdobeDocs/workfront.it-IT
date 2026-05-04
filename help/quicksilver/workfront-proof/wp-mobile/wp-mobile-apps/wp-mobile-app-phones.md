@@ -1,17 +1,16 @@
 ---
-title: app mobile Workfront Proof
+title: App Workfront Proof per dispositivi mobili
 description: Scopri l’app mobile di Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 
 ---
 
-# app mobile Workfront Proof
+# App Workfront Proof per dispositivi mobili
 
 >[!IMPORTANT]
 >
@@ -41,7 +40,7 @@ L&#39;app [!DNL Workfront Proof] rileva automaticamente il tipo di dispositivo i
 
 >[!NOTE]
 >
->Non è possibile rivedere i file SWF o i file audio, ad esempio MP3 su dispositivi iOS, a causa delle limitazioni software dei dispositivi mobili. Se desideri rivedere una bozza creata da un file SWF o da un file audio su un dispositivo mobile, convertendola in un formato supportato prima di caricarla in [!DNL Workfront Proof].
+>Non è possibile rivedere i file SWF o i file audio, ad esempio MP3 su dispositivi iOS, a causa delle limitazioni software dei dispositivi mobili. Se desideri rivedere una bozza creata da un file SWF o da un file audio su un dispositivo mobile, convertila in un formato supportato prima di caricarla in [!DNL Workfront Proof].
 
 ## Guida introduttiva all’app
 

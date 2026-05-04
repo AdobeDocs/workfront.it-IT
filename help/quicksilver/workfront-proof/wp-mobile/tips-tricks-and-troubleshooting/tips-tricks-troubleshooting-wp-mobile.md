@@ -1,13 +1,12 @@
 ---
-title: Suggerimenti, trucchi e risoluzione dei problemi per l'app mobile  [!DNL Workfront Proof]
+title: 'Suggerimenti, trucchi e risoluzione dei problemi per l''app mobile  [!DNL Workfront Proof] '
 description: Scopri come risolvere i problemi di Workfront Proof Mobile.
 hide: true
-hidefromtoc: true
 exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
