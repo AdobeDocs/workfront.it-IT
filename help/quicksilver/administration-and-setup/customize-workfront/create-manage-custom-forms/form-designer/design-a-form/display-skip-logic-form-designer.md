@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 2%
@@ -151,9 +151,9 @@ Alla sezione predefinita del modulo non viene applicata alcuna logica, in modo c
 
 Utilizzando la condizione seguente, la sezione Risorse richieste viene visualizzata solo quando un utente con il ruolo di Responsabile risorse visualizza il modulo.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-```123abc``` rappresenta l&#39;ID ruolo del Responsabile risorse.
+`123abc` rappresenta l&#39;ID ruolo del Responsabile risorse.
 
 ![Sezione modulo visualizzata per il ruolo](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ La stessa condizione con un ID ruolo diverso viene applicata alla sezione Indica
 
 Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo al termine del progetto. Questa logica viene applicata direttamente al campo anziché a una sezione del modulo. Non è necessario specificare quale ruolo può visualizzare il campo, in quanto è già definito nella sezione in cui si trova il campo.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Campo visibile nel progetto completo](assets/advanced-display-on-form2.png)
 
