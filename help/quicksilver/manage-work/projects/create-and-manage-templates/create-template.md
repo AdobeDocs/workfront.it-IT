@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 11%
+source-wordcount: '901'
+ht-degree: 9%
 
 ---
 
@@ -114,7 +114,26 @@ Old:
 
 1. Fare clic su **Nuovo modello**.
 
-   Il modello è senza titolo.
+1. (Condizionale) A seconda dell&#39;archiviazione documenti utilizzata dall&#39;organizzazione, fare clic su una delle opzioni seguenti:
+
+   * **Nuovo modello**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo modello (archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+
+     Questa opzione viene visualizzata solo quando nell&#39;area Consenti impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione** è selezionato.
+
+     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     Un modello viene creato e il suo nome predefinito segue i seguenti modelli, a seconda del Workfront di archiviazione utilizzato per i documenti:
+
+      * **Modello senza titolo** per modello di archiviazione Workfront.
+
+        Un modello di archiviazione Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+
+      * **Modello senza titolo - &lt; Mese giorno, anno ora.minuto.secondo >** per un modello di archiviazione Adobe
+
+        >[!IMPORTANT]
+        >
+        >I modelli che utilizzano l’archiviazione Adobe devono avere nomi univoci.
 
    ![Nuovo modello](assets/create-template-nwe-2022-350x102.png)
 
