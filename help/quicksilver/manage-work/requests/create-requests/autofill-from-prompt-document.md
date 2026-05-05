@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1463'
 ht-degree: 8%
 
 ---
@@ -93,7 +93,7 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 >
 >Il riempimento dei moduli basato su IA è abilitato a livello di organizzazione e non può essere abilitato o disabilitato per utenti o livelli di accesso specifici.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Fare clic su **Sistema**, quindi in Sistema fare clic su **Preferenze**.
 1. Nella sezione delle preferenze di IA, accertati che **Abilita IA** sia attivato.
 1. Attiva **Riempimento modulo AI**.
