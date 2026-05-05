@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 9%
 
 ---
@@ -171,7 +171,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
      </tr>
      <tr>
       <td>Autorizzazione automatica</td>
-      <td><p>Attivare questa opzione per consentire alle autorizzazioni per la contabilità di provenire automaticamente dai campi utilizzati nella formula. Le definizioni di autorizzazione sono visualizzate nel campo Tipo di autorizzazione per la contabilità, di seguito.</p><p>L'accesso è obbligatorio per tutti i campi della formula. Ad esempio, se due campi vengono utilizzati in un campo calcolato e a uno di essi è applicata l’autorizzazione di fatturazione e al secondo è applicata l’autorizzazione di costo, l’utente deve disporre delle autorizzazioni per visualizzare sia la fatturazione che le tariffe per visualizzare il valore calcolato.</p></td>
+      <td><p>Attivare questa opzione per consentire alle autorizzazioni per la contabilità di provenire automaticamente dai campi utilizzati nella formula. Le definizioni di autorizzazione sono visualizzate nel campo Tipo di autorizzazione per la contabilità, di seguito.</p><p>L'accesso è obbligatorio per tutti i campi della formula. Ad esempio, se un campo calcolato utilizza due campi, uno con autorizzazioni di fatturazione e uno con autorizzazioni di costo, l’utente deve disporre delle autorizzazioni per visualizzare entrambi i campi per visualizzare il valore calcolato.</p></td>
      </tr>
      <tr>
       <td>Tipo di autorizzazione finanziaria</td>
