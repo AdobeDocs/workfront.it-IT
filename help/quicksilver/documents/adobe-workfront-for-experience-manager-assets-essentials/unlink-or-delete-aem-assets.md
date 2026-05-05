@@ -6,7 +6,7 @@ description: Puoi scollegare o eliminare da Adobe Experience Manager Assets gli 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -19,7 +19,7 @@ Puoi scollegare o eliminare da Adobe Experience Manager Assets gli elementi coll
 
 >[!NOTE]
 >
->Questa funzionalità non è disponibile nell&#39;area nuovi documenti.
+>Questa funzionalità non è disponibile nella nuova area Documenti.
 
 ## Eliminare un documento o una cartella collegata in Workfront
 

@@ -10,10 +10,10 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 10%
+source-wordcount: '357'
+ht-degree: 9%
 
 ---
 
@@ -34,8 +34,8 @@ Per ulteriori informazioni sull&#39;archiviazione aziendale Adobe, vedere [Panor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacchetto Workfront</td> 
-   <td><p>Qualsiasi</p></td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi pacchetto flusso di lavoro</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -75,3 +75,7 @@ Per abilitare lo storage aziendale Adobe per la tua organizzazione:
    - **Gruppi specifici**: questa opzione applica il provider di archiviazione predefinito solo a gruppi specifici all&#39;interno dell&#39;organizzazione. Ogni volta che un utente nei gruppi specificati crea un nuovo progetto, verrà utilizzato il provider di archiviazione predefinito
 
 1. Fai clic su **Salva**.
+
+   >[!NOTE]
+   >
+   >I progetti esistenti mantengono il modello di archiviazione con cui sono stati creati. Ad esempio, i progetti che utilizzano lo storage aziendale Adobe continuano a utilizzare lo storage aziendale Adobe dopo aver modificato la preferenza di archiviazione predefinita.

@@ -6,7 +6,7 @@ description: Se stai creando un progetto tramite Workfront Fusion e desideri inc
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 11%
@@ -20,7 +20,7 @@ Se stai creando un progetto tramite Workfront Fusion e desideri includere nel pr
 >[!NOTE]
 >
 >I flussi di lavoro sono disponibili solo in un’integrazione Adobe Experience Manager as a Cloud Service. Non sono disponibili nelle integrazioni con Adobe Experience Manager Assets Essentials.<br>
->Questa funzionalità non è disponibile nell&#39;area nuovi documenti.
+>Questa funzionalità non è disponibile nella nuova area Documenti.
 
 
 ## Requisiti di accesso
