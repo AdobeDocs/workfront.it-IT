@@ -5,10 +5,10 @@ description: È possibile individuare facilmente gli elementi in [!DNL Adobe Wor
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 1%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 Puoi visualizzare la casella [!UICONTROL Cerca] nell&#39;angolo superiore destro di qualsiasi pagina in [!DNL Workfront].
 
-![Icona Ricerca nella barra di navigazione](assets/search-globalnavigationbar-350x62.png)
+![Icona Ricerca nella barra di navigazione](assets/search-unified-shell-2026.png)
 
 È necessario disporre delle autorizzazioni per visualizzare un oggetto prima di trovarlo in una ricerca. Per questo motivo, i risultati della ricerca variano da utente a utente.
 
 ## Requisiti di accesso
 
-+++ Espandi questa sezione per visualizzare l’accesso necessario per eseguire i passaggi descritti in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,23 +37,23 @@ Puoi visualizzare la casella [!UICONTROL Cerca] nell&#39;angolo superiore destro
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva<p>
-   <p>Richiedi o superiore </p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva<p>
+   <p>Richiedente o successiva </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL View] al tipo di oggetto </p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p></td> 
+   <td>Accesso [!UICONTROL View] al tipo di oggetto/td&gt; 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>È necessario disporre delle autorizzazioni per visualizzare un oggetto prima di trovarlo in una ricerca.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td>È necessario disporre delle autorizzazioni per visualizzare un oggetto prima di trovarlo in una ricerca.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,9 +64,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 È possibile cercare i seguenti oggetti in Workfront:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
-* Report
+* Rapporti
 * Utenti
 * Modelli
 * Documenti
@@ -105,8 +105,9 @@ Considera le seguenti limitazioni quando utilizzi [!UICONTROL Ricerca] in [!DNL 
 * Le ricerche non distinguono tra maiuscole e minuscole.
 * [!DNL Workfront] non corregge o non comprende gli errori di battitura.
 * La ricerca in [!DNL Workfront] non supporta i caratteri jolly.
-* La ricerca in [!DNL Workfront] supporta ricerche parziali di parole, ma non ricerche di sottostringhe.\
-   Ad esempio, la parola chiave di ricerca &quot;stand&quot; restituirebbe risultati che includono la parola &quot;standard&quot;, ma non risultati che includono la parola &quot;comprendi&quot;.
+* La ricerca in [!DNL Workfront] supporta ricerche parziali di parole, ma non ricerche di sottostringhe.
+
+  Ad esempio, la parola chiave di ricerca &quot;stand&quot; restituirebbe risultati che includono la parola &quot;standard&quot;, ma non risultati che includono la parola &quot;comprendi&quot;.
 
 ## Ricerca di più parole
 
@@ -190,11 +191,11 @@ Per eseguire una ricerca di base:
 
 1. (Facoltativo) Per cercare un oggetto specifico, fare clic sul menu a discesa **[!UICONTROL Tutti]** e selezionare l&#39;oggetto che si desidera cercare.
 
-   ![Ricerca per tipo di oggetto](assets/search-objecttype.png)
+   ![Ricerca per tipo di oggetto](assets/search-by-object-type-2026.png)
 
 1. Nella casella **[!UICONTROL Cerca]**, inizia a digitare le informazioni che stai cercando.
 Per informazioni sui campi in cui viene eseguita la ricerca in [!DNL Workfront], vedere la sezione seguente in questo articolo: [Comprendere la ricerca](#understand-search).
-   ![Menu a discesa di ricerca](assets/qs-search-drop-down-highlighted-350x234.png)
+   ![Menu a discesa di ricerca](assets/search-dropdown-suggestions-2026.png)
 
    Quando si inizia a digitare nella barra di ricerca, [!DNL Workfront] formula raccomandazioni in base alla cronologia di visualizzazione ed evidenzia in blu la parola chiave che si sta cercando.
 
@@ -208,7 +209,7 @@ Per informazioni sui campi in cui viene eseguita la ricerca in [!DNL Workfront],
 
    >[!NOTE]
    >
-   >A volte, le varianti di una parola vengono visualizzate nell’elenco degli elementi trovati.\
+   >A volte, le varianti di una parola vengono visualizzate nell’elenco degli elementi trovati.
    >Ad esempio, la ricerca di &quot;marketing&quot; mostra oggetti che contengono &quot;marketing&quot; o &quot;mercato&quot; nel nome.
 
 1. (Facoltativo) Se la ricerca ha generato troppi risultati, perfeziona la ricerca come descritto in [Perfeziona una ricerca di base](#refine-a-basic-search).
@@ -250,7 +251,8 @@ Per eseguire una ricerca avanzata:
 1. Nell&#39;angolo superiore destro di qualsiasi pagina in [!DNL Workfront], fare clic sull&#39;icona **[!UICONTROL Cerca]** ![Icona Ricerca](assets/search-icon.png). Viene visualizzato il menu **Ricerca**.
 
 1. Nella parte inferiore del menu **Ricerca**, fare clic su **[!UICONTROL Ricerca avanzata]**. Viene aperta la pagina **Ricerca** con la scheda **Ricerca avanzata** selezionata per impostazione predefinita.
-   ![Ricerca avanzata](assets/qs-advanced-search-350x224.png)
+
+   ![Ricerca avanzata](assets/advanced-search-2026.png)
 
 
 1. Selezionare il tipo di oggetto che si sta cercando. **[!UICONTROL Attività]** è selezionato per impostazione predefinita.

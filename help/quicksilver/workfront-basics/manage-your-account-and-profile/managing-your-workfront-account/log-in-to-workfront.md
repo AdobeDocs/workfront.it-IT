@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 31%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,35 @@ ht-degree: 31%
 
 <!--Audited: 2024-->
 
+Per Workfront e tutte le applicazioni Adobe CX Enterprise viene utilizzato un login.
+
+Per informazioni, vedere [Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).
+
+## Accedi a [!DNL Workfront]
+
+Dopo aver effettuato l&#39;accesso a CX Enterprise, è possibile visualizzare tutte le [!DNL Workfront] organizzazioni e ambienti a cui si ha accesso facendo clic sul selettore organizzazione nell&#39;area di navigazione superiore. Selezionare l&#39;organizzazione o l&#39;ambiente [!DNL Workfront] in cui si desidera lavorare. Gli ambienti possono includere [!UICONTROL Anteprima] e [!UICONTROL Sandbox], se utilizzati dalla tua organizzazione.
+
+![Visualizza [!DNL Workfront] organizzazioni e ambienti](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>La prima volta che si accede a CX Enterprise, l&#39;organizzazione utilizza per impostazione predefinita la prima voce dell&#39;elenco alfabetico. Al successivo accesso, l’organizzazione utilizza per impostazione predefinita l’ultima visitata.
+
+[!DNL Workfront] viene visualizzato nell&#39;elenco dei prodotti CX Enterprise a cui si ha accesso. È possibile scegliere [!DNL Workfront] nel menu di accesso rapido della home page di CX Enterprise oppure utilizzare il commutatore di prodotto ![Commutatore di prodotto](assets/main-menu-icon.png) per modificare le applicazioni in qualsiasi momento.
+
+![Selezionare [!DNL Workfront] per accedere all&#39;applicazione](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Se una sessione della scheda del browser scade in una pagina in cui è aperto Workfront e si dispone di una sessione Workfront attiva in un&#39;altra scheda del browser, è possibile ricaricare la scheda scaduta per riaprire la pagina Workfront.
+
+<!--
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
