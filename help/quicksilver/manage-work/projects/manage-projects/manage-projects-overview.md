@@ -8,14 +8,14 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 14%
 
 ---
 
-# Gestisci progetti: indice articoli
+# Gestire progetti: indice degli articoli
 
 Questa sezione contiene i seguenti articoli:
 
@@ -38,5 +38,6 @@ Questa sezione contiene i seguenti articoli:
 * [Comunicazione con i membri del team del progetto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [Gestione di un progetto Agile nella visualizzazione Bacheca](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Panoramica sui limiti del progetto](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [Comprendere le metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md)
-* [Riepilogare gli aggiornamenti con l’Assistente AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Comprendere la metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Riepilogare gli aggiornamenti con l’Assistente IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
