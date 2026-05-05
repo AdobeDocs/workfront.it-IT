@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '977'
 ht-degree: 4%
 
 ---
@@ -27,11 +27,9 @@ Per ulteriori informazioni su Frame.io, vedere [Guida introduttiva a Frame.io](h
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-<!--
-## Integration requirements
+## Requisiti di accesso
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
--->
+* Per utilizzare il visualizzatore Frame.io e lo storage aziendale Adobe, il contratto Workfront deve includere una SKU Workfront V2. Per ulteriori informazioni, vedere le domande frequenti in [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
 
 ## Avvio e pianificazione del lavoro in Workfront
 
