@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Fare clic su **Mostra logica** nell&#39;intestazione di Progettazione moduli per
 | ![Logica di modificabilità per il campo di destinazione](assets/editability-logic-icon.png) | Il campo è il campo di destinazione in cui viene applicata la logica di modificabilità. Il campo può essere modificabile o di sola lettura quando vengono soddisfatte le condizioni definite. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità. |
 | ![Logica di modificabilità per il campo di riferimento](assets/editability-logic-reference-field.png) | Il campo è il campo di riferimento per la logica di modificabilità. Quando le condizioni definite vengono soddisfatte in questo campo, la logica viene applicata al campo di destinazione. Il campo di destinazione e il campo di riferimento possono essere gli stessi per la logica di modificabilità. |
 
-[Icone logiche](assets/custom-form-logic-icon-samples.png)
+![Icone logiche](assets/custom-form-logic-icon-samples.png)
 
 Solo per visualizzare e saltare la logica, seleziona un campo per visualizzare le regole di logica esistenti nelle impostazioni del campo.
 
