@@ -8,17 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
 
 # Creare un modello di flusso di lavoro di approvazione per i documenti
 
-Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un progetto, un’attività o un problema.
-
+Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un oggetto.
 >[!IMPORTANT]
 >
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -92,7 +91,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Fai clic su **Salva**.
 
-Una volta creato, il modello può essere applicato ai documenti nell’area Documenti di un progetto, un’attività o un problema per avviare il processo formale di revisione e approvazione in Workfront.
+Una volta creato, il modello può essere applicato ai documenti nell&#39;area Documenti di un oggetto per avviare il processo formale di revisione e approvazione in Workfront.
 
 
 

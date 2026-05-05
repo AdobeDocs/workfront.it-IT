@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 6%
@@ -91,9 +91,9 @@ Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinist
 
 Per informazioni sulla condivisione di cartelle, vedere [Condividere una cartella di documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Creare cartelle di documenti nell&#39;area nuovi documenti
+## Creare cartelle di documenti nella nuova area Documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Cartelle generate dal sistema
 
@@ -142,7 +142,7 @@ Per spostare una cartella:
 
    ![sposta cartella](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### Eliminare una cartella
 

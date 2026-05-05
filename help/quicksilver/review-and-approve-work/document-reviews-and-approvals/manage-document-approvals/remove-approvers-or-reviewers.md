@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 6%
@@ -83,20 +83,20 @@ Per rimuovere approvatori o revisori da un flusso di lavoro di approvazione:
 
 1. (Facoltativo) Per cambiare il ruolo di un approvatore in revisore o viceversa, fare clic sul menu a discesa accanto al nome utente e selezionare il nuovo ruolo.
 
-1. Repeat the previous step to remove any additional approvers or reviewers.
+1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
 
 </div>
 
 
-## Remove approvers or reviewers to an approval workflow in the new document area
+## Rimuovere approvatori o revisori da un flusso di lavoro di approvazione nella nuova area Documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Per creare un flusso di lavoro di approvazione:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
+1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
 
    ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
 
@@ -109,8 +109,8 @@ Per creare un flusso di lavoro di approvazione:
 
 1. (Facoltativo) Per cambiare il ruolo di un approvatore in revisore o viceversa, fare clic sul menu a discesa accanto al nome utente e selezionare il nuovo ruolo.
 
-1. Repeat the previous step to remove any additional approvers or reviewers.
+1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
 
-   ![remove participants from a stage](assets/add-or-remove-participants.png)
+   ![rimuovere partecipanti da una fase](assets/add-or-remove-participants.png)
 
 1. Fai clic su **Salva**.

@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ In Workfront sono attualmente disponibili due versioni dell&#39;area Documenti: 
 
 Sono disponibili due tipi di aree Documenti. Funzionalità e funzionalità identiche per:
 
-* **Area Documenti in un programma, portfolio, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![Icona Documenti](assets/document-icon-12x14.png) nel pannello a sinistra durante la visualizzazione di un progetto, un&#39;attività o un problema.
+* **Area Documenti in un programma, portfolio, modello, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![Icona Documenti](assets/document-icon-12x14.png) nel pannello a sinistra durante la visualizzazione di un progetto, un&#39;attività o un problema.
 
 * **Area documenti globali:** Elenca tutti i documenti a cui si ha accesso in Workfront. Per accedere a quest&#39;area, fare clic su **Documenti** ![Icona Documenti](assets/document-icon.png) nel menu principale ![Icona Menu principale](assets/main-menu-icon.png).
 
@@ -60,7 +60,7 @@ Una volta presa la decisione relativa alla bozza, questa viene visualizzata nell
 
 ### Cartelle
 
-In un progetto, un&#39;attività o un problema in cui vengono caricati documenti, è possibile impostare cartelle per organizzare i documenti. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
+È possibile impostare le cartelle per organizzare i documenti. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
 Nell&#39;area Documenti globale è possibile impostare due tipi di cartelle per organizzare i documenti a cui si ha accesso:
 
@@ -72,9 +72,9 @@ Nell&#39;area Documenti globale è possibile impostare due tipi di cartelle per 
 
 La pagina Dettagli documento fornisce una versione in scala più completa dei Dettagli documento nel Riepilogo a destra.
 
-## Nuova area documento
+## Area Nuovi documenti
 
-La nuova area documenti è disponibile solo per le organizzazioni che utilizzano lo storage aziendale. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+La nuova area Documenti è disponibile solo per le organizzazioni che utilizzano lo storage aziendale. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Utilizzare il pannello di riepilogo
 
@@ -82,19 +82,19 @@ Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzar
 
 #### Revisione e approvazione con Frame.io
 
-È possibile esaminare e approvare i documenti nell&#39;area nuovi documenti utilizzando il visualizzatore Frame.io.
+È possibile esaminare e approvare i documenti nella nuova area Documenti utilizzando il visualizzatore Frame.io.
 
 Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Gestione versioni
 
-È possibile caricare nuove versioni di un documento nell&#39;area nuovi documenti. Quando carichi una nuova versione, questa viene mantenuta e vi si può accedere dal pannello Riepilogo. Le versioni vengono automaticamente denominate con la data e l’ora del caricamento, ma possono essere rinominate in base alle esigenze.
+È possibile caricare nuove versioni di un documento nella nuova area Documenti. Quando carichi una nuova versione, questa viene mantenuta e vi si può accedere dal pannello Riepilogo. Le versioni vengono automaticamente denominate con la data e l’ora del caricamento, ma possono essere rinominate in base alle esigenze.
 
 È inoltre possibile avviare un nuovo flusso di lavoro di approvazione per una versione specifica di un documento.
 
 #### Visualizza cronologia documenti
 
-È possibile visualizzare la cronologia di un documento nell&#39;area nuovi documenti. La cronologia include i seguenti tipi di informazioni:
+È possibile visualizzare la cronologia di un documento nella nuova area Documenti. La cronologia include i seguenti tipi di informazioni:
 
 * Quando il documento è stato caricato
 * Quando sono state caricate nuove versioni
@@ -103,10 +103,10 @@ Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approv
 
 ### Cartelle a livello di sistema per le autorizzazioni dei documenti
 
-Workfront crea automaticamente una cartella a livello di sistema quando il primo documento viene caricato su un’attività o un problema. Queste cartelle ereditano le autorizzazioni dall’attività o dal problema e sono visibili nell’area documenti a livello di progetto. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Questo è il modo principale in cui le autorizzazioni vengono gestite per i documenti nell&#39;area nuovi documenti. Per ulteriori informazioni, vedere [Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront crea automaticamente una cartella a livello di sistema quando il primo documento viene caricato su un’attività o un problema. Queste cartelle ereditano le autorizzazioni dall’attività o dal problema e sono visibili nell’area documenti a livello di progetto. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Questa è la modalità principale di gestione delle autorizzazioni per i documenti nella nuova area Documenti. Per ulteriori informazioni, vedere [Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Considerazioni
 
-* La nuova area dei documenti è ottimizzata per schermi di larghezza pari o superiore a 1024 pixel. Se si dispone di una schermata più piccola, è possibile che si verifichino problemi di accesso al pannello Riepilogo.
+* La nuova area Documenti è ottimizzata per schermi larghi 1024 pixel o più. Se si dispone di una schermata più piccola, è possibile che si verifichino problemi di accesso al pannello Riepilogo.
 
-* L’area documenti globali non è disponibile nella nuova esperienza dell’area documenti. È possibile accedere ai documenti solo da programmi, portafogli, progetti, attività o problemi.
+* L’area Documenti globale non è disponibile nella nuova esperienza Area Documenti. È possibile accedere ai documenti solo da programmi, portafogli, progetti, attività o problemi.

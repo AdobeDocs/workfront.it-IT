@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 11%
@@ -75,9 +75,9 @@ Per visualizzare l&#39;anteprima di un documento:
    * .normale
    * .pdf
 
-## Visualizzare in anteprima un documento nell&#39;area dei nuovi documenti
+## Visualizzare in anteprima un documento nell&#39;area Nuovi documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Impossibile visualizzare in anteprima alcuni formati di file.
 
@@ -154,7 +154,7 @@ Nella finestra di anteprima non è possibile visualizzare i seguenti formati di 
 Per visualizzare l&#39;anteprima di un documento:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
-1. Find the document you need, then click the document name.
-   ![Document preview](assets/preview-new-doc.png)
+1. Individuare il documento necessario, quindi fare clic sul nome del documento.
+   ![Anteprima documento](assets/preview-new-doc.png)
 
 

@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Scarica documenti
-description: You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.
+description: È possibile scaricare documenti da Adobe Workfront singolarmente o in blocco. I documenti possono essere scaricati da qualsiasi area contenente documenti in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 12%
 
 ---
 
-# Download documents
+# Scarica documenti
 
-You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront. 
+È possibile scaricare documenti da Adobe Workfront singolarmente o in blocco. I documenti possono essere scaricati da qualsiasi area contenente documenti in Workfront. 
 
 ## Requisiti di accesso
 
@@ -44,7 +44,7 @@ You can download documents from Adobe Workfront either individually or in bulk. 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
-   <td> <p>View access to the object that contains the document</p> </td> 
+   <td> <p>Accesso di visualizzazione all'oggetto che contiene il documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,40 +53,40 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Download documents in the legacy documents area
+## Scaricare i documenti nell&#39;area documenti legacy
 
 Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-### Download an individual document in the legacy documents area
+### Scaricare un singolo documento nell&#39;area documenti legacy
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
+1. Fai clic sull&#39;icona **Scarica selezionati** ![Scarica selezionati](assets/download-icon.png).
 
-![download an individual document](assets/legacy-doc-download.png)
+![scarica un singolo documento](assets/legacy-doc-download.png)
 
-### Download multiple documents simultaneously in the legacy documents area
+### Download simultaneo di più documenti nell&#39;area documenti legacy
 
-You can download multiple documents simultaneously.
+È possibile scaricare più documenti contemporaneamente.
 
-1. Go to the Documents area containing the documents you want to download.
-1. (Optional) Select the individual documents that you want to download from the list of documents.
+1. Passare all&#39;area Documenti contenente i documenti da scaricare.
+1. (Facoltativo) Selezionare i singoli documenti da scaricare dall&#39;elenco dei documenti.
 
    >[!NOTE]
    >
-   >Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded in bulk.
+   >I documenti collegati a Workfront da Box, Dropbox, Google Drive e così via non possono essere scaricati in blocco.
 
-1. (Optional) Select the folders that contain the documents you want to download from the list of folders.
-1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
+1. (Facoltativo) Selezionare dall&#39;elenco delle cartelle le cartelle contenenti i documenti che si desidera scaricare.
+1. Fare clic sull&#39;icona Scarica selezionati ![Icona Scarica selezionati](assets/download-icon.png).
 
-   Folders are downloaded as .zip files and are limited to 4GB.
+   Le cartelle vengono scaricate come file .zip e sono limitate a 4 GB.
 
-## Download documents in the new documents area
+## Scarica documenti nella nuova area Documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
-1. Find the documents you need, then click **Download**.
+1. Trova i documenti necessari, quindi fai clic su **Scarica**.
 
-![Download document](assets/download-new-doc.png)
+![Scarica documento](assets/download-new-doc.png)

@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 76%
@@ -98,10 +98,10 @@ Per modificare i documenti in blocco:
     </table>
 1. Fai clic su **Salva**.
 
-## Modificare i documenti in blocco nell&#39;area nuovi documenti
+## Modificare i documenti in blocco nella nuova area Documenti
 
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Per modificare i documenti in blocco:
 

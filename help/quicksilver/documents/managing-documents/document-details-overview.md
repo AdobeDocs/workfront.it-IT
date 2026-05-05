@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -68,9 +68,9 @@ Se sei nel flusso di lavoro della bozza, puoi eseguire le azioni seguenti dalla 
    ![Dettagli documento](assets/doc-details-legacy.png)
 
 
-## Nuova area documento
+## Area Nuovi documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 È possibile eseguire le azioni seguenti per i documenti dalla pagina Dettagli documento:
 
@@ -96,7 +96,7 @@ Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede
 ![Icona del menu Altro per i dettagli del documento](assets/more-menu-new-doc.png)
 
 
-### Aprire il pannello Dettagli documento nell&#39;area Nuovi documenti
+### Aprire il pannello Dettagli documento nella nuova area Documenti
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 1. Selezionare il documento, quindi fare clic su **Visualizza dettagli**.

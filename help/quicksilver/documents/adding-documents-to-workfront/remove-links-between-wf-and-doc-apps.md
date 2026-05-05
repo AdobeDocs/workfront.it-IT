@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 14%
@@ -25,8 +25,8 @@ Poiché il servizio documenti è quello che consente il collegamento a Workfront
 
 >[!NOTE]
 >
->Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
->Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Questa funzionalità non è disponibile nella nuova area Documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 
@@ -81,8 +81,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel menu a discesa Opzioni, fare clic su **Disconnetti dall&#39;unità**.
 
-## Remove the links between Workfront and Other Document Storage Providers
+## Rimuovere i collegamenti tra Workfront e altri provider di archiviazione documenti
 
-You must call our Support Team to disconnect Microsoft One Drive or WebDAM from Workfront.
+È necessario chiamare il team di supporto per disconnettere Microsoft One Drive o WebDAM da Workfront.
 
-For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Per informazioni su come contattare il team di supporto, vedere [Contattare l&#39;assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
