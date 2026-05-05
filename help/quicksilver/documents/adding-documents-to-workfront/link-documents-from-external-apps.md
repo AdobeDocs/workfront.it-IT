@@ -8,10 +8,10 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 3%
+source-wordcount: '2636'
+ht-degree: 2%
 
 ---
 
@@ -122,7 +122,9 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 >[!IMPORTANT]
 >
->Dropbox memorizza i documenti in base al percorso del file. Per questo motivo, se un file collegato da Dropbox viene spostato, rinominato o eliminato, diventa inaccessibile in Workfront.
+>* Dropbox memorizza i documenti in base al percorso del file. Per questo motivo, se un file collegato da Dropbox viene spostato, rinominato o eliminato, diventa inaccessibile in Workfront.
+>* L&#39;esplorazione delle cartelle condivise di OneDrive nel selettore di file non è supportata. Per collegare un file condiviso con te, utilizza la barra di ricerca nel selettore di file di OneDrive per individuare il file per nome, quindi selezionalo per aggiungerlo a Workfront.
+
 
 1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire il documento.
 1. Fare clic su **Aggiungi nuovo**, quindi sul provider di documenti esterno in cui si desidera collegare i documenti a Workfront.
