@@ -1,20 +1,19 @@
 ---
 navigation-topic: workfront-navigation
-title: Accedi all’Aiuto di Adobe Workfront
+title: Accedere alla guida di Adobe Workfront
 description: Workfront offre una vasta gamma di contenuti per aiutarti a trovare le risposte alle tue domande sulle funzionalità dei vari prodotti Workfront.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 940e19e707790fea7de428b55ce677eedb9ab32c
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
 # Accedi alla Guida di [!DNL Adobe Workfront]
 
 [!DNL Workfront] offre una vasta gamma di contenuti per aiutarti a trovare le risposte alle tue domande sulle funzionalità dei vari prodotti offerti da [!DNL Workfront].
-
 
 ## Accedi alla documentazione di [!DNL Adobe Workfront] su Experience League
 
@@ -25,10 +24,15 @@ Oltre alla ricerca della documentazione di supporto, è possibile accedere alle 
 * Esercitazioni Workfront: per ulteriori informazioni, consulta [[!DNL Workfront] Esercitazioni](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: per ulteriori informazioni, vedere [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=it).
-* [!UICONTROL [!DNL Workfront] Community]: per ulteriori informazioni, vedere [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it)
+* [!UICONTROL [!DNL Workfront] Community]: per ulteriori informazioni, vedere [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it).
 
 ## Accedi alla Guida dall&#39;interno di [!DNL Workfront]
 
 {{step1-click-main-menu}}
 
 1. Fare clic sull&#39;icona **[!UICONTROL Guida]** ![Guida](assets/help-icon.png).
+
+>[!NOTE]
+>
+>Puoi accedere all’Aiuto anche dall’icona del centro assistenza in alto a destra nell’intestazione. Per ulteriori informazioni, vedere [Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).
+

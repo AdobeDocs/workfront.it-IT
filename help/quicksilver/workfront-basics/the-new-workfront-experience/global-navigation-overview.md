@@ -5,7 +5,7 @@ description: La barra di navigazione superiore, visualizzata nella parte superio
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 1%
@@ -29,14 +29,6 @@ Per impostazione predefinita, l’icona Home apre l’area Home. Per ulteriori i
 L’amministratore di Workfront può personalizzare l’icona Home per aprire una pagina diversa creando un modello di layout e assegnandovi tale modello. Per ulteriori informazioni, vedere [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## [!UICONTROL Menu principale]
-
-<!--
->[!IMPORTANT]
->
->The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
->
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
--->
 
 L&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon-left-nav.png) apre [!UICONTROL Main Menu], da cui è possibile passare a un&#39;area diversa di Workfront.
 
