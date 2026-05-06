@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 2%
 
 ---
@@ -282,22 +282,30 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
          <td> <p>Specifica la data in cui selezioni <strong>Pianifica da data di completamento</strong>. </p> <p>Campo di sola lettura quando si seleziona <strong>Pianifica dalla data di inizio</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indica un Portfolio a cui appartiene il progetto. È necessario creare un Portfolio prima di visualizzarlo nell'elenco a discesa. Solo i portfolio attivi possono essere associati a un progetto. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.
-         <p><b>NOTA</b></p>
-         <p>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</p>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td>Indica un Portfolio a cui appartiene il progetto. È necessario creare un Portfolio prima di visualizzarlo nell'elenco a discesa. Solo i portfolio attivi possono essere associati a un progetto. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.
+      <p><b>NOTE</b></p>
+      <ul>
+      <li>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</li>
+      <li>Se l'organizzazione utilizza sia i tipi di archiviazione documenti Workfront che Adobe, non è possibile associare un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe. Anche il contrario è vero. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
+      Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
          <td> <p>Se hai selezionato un Portfolio per il progetto, specifica un Programma per il progetto. Alcuni portafogli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Solo i programmi attivi possono essere associati a un progetto. </p> <p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p> 
-      <p><b>NOTA</b></p>
-         <p>Per poter aggiungere o rimuovere il programma dal progetto, è necessario disporre delle autorizzazioni di gestione.</p>   
-      </td> 
+      <p><b>NOTE</b></p>
+      <ul>
+      <li>Per poter aggiungere o rimuovere il programma dal progetto, è necessario disporre delle autorizzazioni di gestione.</li>
+      <li>Se l'organizzazione utilizza sia i tipi di archiviazione documenti Workfront che Adobe, non è possibile associare un progetto di archiviazione Workfront a un programma di archiviazione Adobe. Anche il contrario è vero. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti. I programmi ereditano il tipo di storage dal portfolio a cui appartengono. </li></ul>
+
+   Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Gruppo</strong></td> 
-         <td> <p> <p>Specifica il nome del gruppo associato al progetto. </p>Questo campo è obbligatorio. Non puoi avere un progetto che non è associato a un gruppo. </p> <p>Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> Per impostazione predefinita, quando viene creato un progetto, viene automaticamente associato uno dei seguenti gruppi, a meno che non si specifichi un gruppo diverso:</p> 
+         <td> <p> <p>Specifica il nome del gruppo associato al progetto. </p>Questo è un campo obbligatorio. Non puoi avere un progetto che non è associato a un gruppo. </p> <p>Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> Per impostazione predefinita, quando viene creato un progetto, viene automaticamente associato uno dei seguenti gruppi, a meno che non si specifichi un gruppo diverso:</p> 
          <ul> 
          <li> <p><span>Quando il progetto viene creato dall'area Progetti, il gruppo predefinito dell'autore del progetto è associato al progetto.</span> </p> <p>Ciò si verifica anche quando il progetto viene creato dalla sezione Progetti di un portfolio o di un programma.</p> </li> 
          <li> <p>Quando il progetto viene creato dalla pagina principale di un gruppo nell’area Configura, tale gruppo viene associato al progetto.</p> </li> 
@@ -795,6 +803,10 @@ Quando modifichi progetti in blocco, tieni presente quanto segue:
   >Ad esempio, potresti avere un campo casella di controllo con tre caselle di controllo (Opzione1, Opzione 2 e Opzione 3) e l’Opzione 1 è deselezionata per tutti i progetti e le Opzioni 2 e 3 sono selezionate per alcuni progetti e deselezionate per altri progetti selezionati. Se si desidera selezionare l&#39;opzione 1 per tutti i progetti, prima di salvare le modifiche è necessario far corrispondere le opzioni 2 e 3 per tutti i progetti selezionati. È quindi necessario selezionarli o deselezionarli in modo che corrispondano a tutti i progetti selezionati. Se non si modifica alcuna opzione, è possibile salvare il campo così come è e i progetti mantengono la selezione corrente per tutte le opzioni.
 
 * Quando si selezionano più progetti che appartengono a gruppi diversi, gli stati visualizzati nel campo Stato sono stati a livello di sistema e non a livello di gruppo.
+
+* Quando si selezionano più progetti che hanno diversi tipi di archiviazione dei documenti e si desidera aggiornare Portfolio o il programma per i progetti selezionati, non è possibile associare un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe. Anche il contrario è vero. In questo caso, assicurarsi di selezionare solo i progetti che hanno tipi di archiviazione simili alla volta.
+
+  L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
 Per modificare i progetti in blocco:
 

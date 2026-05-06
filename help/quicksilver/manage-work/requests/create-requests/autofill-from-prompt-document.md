@@ -2,14 +2,14 @@
 title: Utilizzare Compilazione modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 content-type: reference
 description: È possibile utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta immettendo un prompt o fornendo un documento.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >Per utilizzare questa funzionalità, l’organizzazione deve soddisfare i requisiti per utilizzare l’Assistente di intelligenza artificiale di Workfront. Per informazioni dettagliate, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come le e-mail o i documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
+Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come e-mail o documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
 Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area Richieste Workfront e in Workfront Planning.
 
@@ -192,7 +192,7 @@ Stiamo pianificando una campagna simile agli annunci sociali per le feste che ab
 
 ## Ottieni suggerimenti in base a un documento caricato
 
-Il riempimento di un modulo basato sull’intelligenza artificiale può compilare una richiesta utilizzando prompt o documenti che possono suggerire valori di campo in base a un documento caricato.
+Il riempimento di un modulo basato sull’intelligenza artificiale può compilare una richiesta utilizzando i prompt o può suggerire valori di campo in base a un documento caricato.
 
 Questo tipo di suggerimento controlla anche le richieste precedenti per contesti simili. Ad esempio, se il prompt indica che la richiesta è per un determinato client, Workfront può individuare e immettere automaticamente l’indirizzo di fatturazione per tale client, in base alle richieste precedenti.
 
@@ -309,7 +309,7 @@ Quando si carica un documento in AI Form Fill (Compila modulo IA), considera qua
    Oppure
 
    Trascina il documento dal gestore di file nella casella **Carica file nel modulo di richiesta di compilazione automatica**.
-1. Fai clic su **Compila il modulo** di **Compila la sezione**.
+1. Fai clic su **Compila il modulo** o **Compila la sezione**.
 
    Workfront genera suggerimenti per il modulo.
 1. Per ogni suggerimento di campo, selezionare **Accetta** o **Rifiuta** per il campo.

@@ -6,9 +6,9 @@ description: Puoi eliminare problemi o richieste in Adobe Workfront se disponi d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
@@ -78,6 +78,8 @@ Quando si elimina un problema, vengono eliminati anche i seguenti oggetti associ
 * Documenti
 
   Non è possibile eliminare un problema a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
+
+  Non è possibile ripristinare singoli documenti eliminati al momento dell&#39;eliminazione del problema dalla scheda Documenti nel Cestino. È possibile ripristinare i documenti eliminati solo quando il problema è stato eliminato al momento del ripristino.
 
 * Note
 * Approvazioni

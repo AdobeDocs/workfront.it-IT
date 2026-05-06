@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -297,7 +297,7 @@ Old:
       <td><p>Specifica se le metriche del costo realizzato del progetto futuro vengono calcolate in base alle ore o ai costi. Per ulteriori informazioni sul metodo dell'indice delle prestazioni, vedere <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo dell'indice delle prestazioni (PIM)</a>. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Benef Pian</strong></td> 
+      <td role="rowheader"><strong>Beneficio pianificato</strong></td> 
       <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. </p><p>Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Portfolio Optimizer, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer</a>. </p></td> 
      </tr> 
      <tr> 
@@ -305,7 +305,7 @@ Old:
       <td><p>Specificare il Costo fisso per i progetti creati da questo modello. Questo valore è diverso dal costo manodopera che deriva dalle ore del progetto e dal costo spesa che deriva dall'importo delle spese del progetto. Il Costo Fisso di un progetto viene preso in considerazione nel calcolo del Valore Netto di un progetto e fa parte del Costo Preventivato.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Reddito Fisso</strong></td> 
+      <td role="rowheader"><strong>Entrate fisse</strong></td> 
       <td><p>Specifica il Reddito Fisso per i progetti creati da questo modello.</p></td> 
      </tr>
 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>Selezionare una delle opzioni seguenti:<br></p> 
        <ul> 
-       <li> <p><strong>Automatico e al momento della modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (al momento della modifica). Anche la timeline del progetto viene aggiornata ogni notte (Automatico).<br>Questa è l'impostazione consigliata per questo campo in quanto garantisce che la sequenza temporale del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
+       <li> <p><strong>Automatico e al momento della modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (al momento della modifica). Anche la sequenza temporale del progetto viene aggiornata ogni notte (Automatica).<br>Questa è l'impostazione consigliata per questo campo in quanto garantisce che la sequenza temporale del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>Solo modifica</strong>: la sequenza temporale del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale. È possibile selezionare questa opzione se le modifiche si verificano raramente nel progetto o in altri progetti da cui dipende la sequenza temporale.<br></p> </li> 
@@ -438,8 +438,8 @@ Old:
        <td role="rowheader"><strong>Gruppi di risorse</strong> </td> 
        <td> <p>Specifica i pool di risorse associati al modello. I pool di risorse sono insiemi di utenti necessari contemporaneamente per il completamento di un progetto. Per ulteriori informazioni sui pool di risorse, consulta <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> <p> <p><b>NOTA</b>
 
-       Quando si modificano i modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei modelli.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+       Quando si modificano i modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati qui sovrascriveranno i singoli pool di risorse dei modelli.&lt;/p> &lt;/p> &lt;/td>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>Richiede l'approvazione del tempo per questo progetto</strong></td>
@@ -761,6 +761,8 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 Puoi aggiungere i seguenti elementi alle attività nel modello:
 
 * Documenti
+
+  Per ulteriori informazioni, vedere [Modifica attività modello](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 * Spese
 
   Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).

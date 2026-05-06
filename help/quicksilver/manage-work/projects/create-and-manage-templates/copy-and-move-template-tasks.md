@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Quando si spostano le attività modello, considera quanto segue:
 
    * Milestone.
 
-* Non è possibile copiare o spostare un’attività modello da un modello di archiviazione Workfront a un modello di archiviazione Adobe. Anche il contrario è vero. Non tutti i clienti dispongono di entrambi i tipi di storage.
+* Non è possibile copiare o spostare un’attività modello da un modello di archiviazione Workfront a un modello di archiviazione Adobe. Anche il contrario è vero. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -140,7 +140,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 
    >[!TIP]
    >
-   >È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. Non tutti i clienti hanno accesso a più tipi di archiviazione dei documenti.
+   >È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
    >
    >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -267,7 +267,7 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
    >
    >* Puoi anche iniziare a digitare il Numero di riferimento o immettere l’ID del modello. Questo potrebbe aiutarti a distinguere tra modelli con nomi identici.
    >
-   >* È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. Non tutti i clienti hanno accesso a più tipi di archiviazione dei documenti.
+   >* È necessario scegliere un modello con un tipo di memorizzazione del documento simile. Non è possibile copiare le attività modello in un modello con un tipo di archiviazione diverso da quello del modello originale. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
    >
    >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
