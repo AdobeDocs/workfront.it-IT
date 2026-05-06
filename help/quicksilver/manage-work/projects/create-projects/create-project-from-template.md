@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -176,7 +176,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       >
       >* Quando si utilizza un modello di storage aziendale Adobe da un portfolio o da un programma di storage Workfront, il progetto è un progetto di storage aziendale Adobe e il portfolio o il programma vengono convertiti in oggetti di storage aziendale Adobe. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
       >
-      > Non tutti i clienti dispongono di entrambi i tipi di archiviazione dei documenti.
+      > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
       >
       >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -234,7 +234,7 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 
 >[!NOTE]
 >
->I modelli associati all&#39;archiviazione documenti di Workfront creano progetti legacy di archiviazione Workfront. I modelli associati all’archiviazione di documenti aziendali Adobe creano progetti di archiviazione Adobe. Non tutti i clienti dispongono di entrambi i tipi di storage.
+>I modelli associati all&#39;archiviazione documenti di Workfront creano progetti legacy di archiviazione Workfront. I modelli associati all’archiviazione di documenti aziendali Adobe creano progetti di archiviazione Adobe. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 >
 >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

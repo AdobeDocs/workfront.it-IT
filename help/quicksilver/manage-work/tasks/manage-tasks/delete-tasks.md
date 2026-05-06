@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '830'
 ht-degree: 6%
 
 ---
@@ -109,6 +109,8 @@ Considera i seguenti aspetti:
    * Documenti
 
   Non è possibile eliminare un&#39;attività a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
+
+  Non è possibile ripristinare singoli documenti eliminati al momento dell&#39;eliminazione dell&#39;attività dalla scheda Documenti nel Cestino. È possibile ripristinare i documenti eliminati solo quando l&#39;attività è stata eliminata durante il ripristino.
 
    * Problemi
    * Sottoattività

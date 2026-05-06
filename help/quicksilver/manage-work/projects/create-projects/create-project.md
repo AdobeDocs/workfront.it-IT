@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1629'
 ht-degree: 3%
 
 ---
@@ -97,7 +97,7 @@ Puoi creare un progetto in Workfront utilizzando uno dei seguenti metodi:
 * Crea un progetto da zero senza utilizzare un modello. Questo articolo descrive come creare un progetto da zero.
 
 * Copia un progetto esistente.\
-  Per ulteriori informazioni sulla copia del progetto, vedere [Copiare un progetto](../../../manage-work/projects/manage-projects/copy-project.md).
+  Per ulteriori informazioni sulla copia di un progetto, vedere [Copiare un progetto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilizza un modello.\
   Per ulteriori informazioni sull&#39;utilizzo di un modello per creare un nuovo progetto, vedere [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -167,14 +167,19 @@ Considera i seguenti aspetti:
 
      Se utilizzi un modello durante la creazione del progetto convertendo il problema, consulta il secondo scenario qui sopra per capire quale gruppo e quale Stato di Workfront si applica al nuovo progetto.
 
-* La posizione in cui vengono memorizzati i documenti in un progetto e i relativi oggetti secondari (attività e problemi) dipende da ciò che l&#39;amministratore di Workfront sceglie come impostazione predefinita per Preferenze di archiviazione nell&#39;area Preferenze di sistema di Configura. A seconda della posizione in cui vengono archiviati i documenti nell’istanza di Workfront, è possibile creare i seguenti tipi di progetti:
+* La posizione in cui vengono memorizzati i documenti per un progetto e per i relativi oggetti secondari (attività e problemi) dipende da ciò che l&#39;amministratore di Workfront sceglie come impostazione predefinita per Preferenze di archiviazione nell&#39;area Preferenze di sistema di Configura. A seconda della posizione in cui vengono archiviati i documenti nell’istanza di Workfront, è possibile creare i seguenti tipi di progetti:
 
    * Progetti di storage Workfront legacy
    * Progetti Adobe per lo storage aziendale.
 
   Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* Quando si crea un progetto di archiviazione dell&#39;organizzazione, nella sezione **Documenti** del progetto viene creata una cartella documenti con lo stesso nome del progetto. Dopo aver aggiunto le attività al progetto, le cartelle con il nome dell&#39;attività vengono aggiunte alla sezione **Documenti** di ogni attività.
+  >[!TIP]
+  >
+  > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
+
+
+* Quando si crea un progetto di archiviazione aziendale, nella sezione **Documenti** del progetto viene creata una cartella documenti con lo stesso nome del progetto. Dopo aver aggiunto le attività al progetto, le cartelle con il nome dell&#39;attività vengono aggiunte alla sezione **Documenti** di ogni attività.
 
 Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -204,15 +209,16 @@ Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per 
 
      >[!NOTE]
      >
-     >Quando si crea un progetto di storage aziendale da un portfolio o da un programma di storage Workfront, il portfolio o il programma viene convertito in oggetti di storage aziendale. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
+     >* Quando si crea un progetto di storage aziendale da un portfolio o da un programma di storage Workfront, il portfolio o il programma viene convertito in oggetti di storage aziendale. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
+     >* L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
      Viene creato un progetto il cui nome predefinito segue i seguenti pattern, a seconda del Workfront di archiviazione utilizzato per i documenti:
 
-      * **Progetto senza titolo** per un progetto di archiviazione Workfront.
+      * `Untitled Project` per un progetto di archiviazione Workfront.
 
         Un progetto di archiviazione Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
-      * **Progetto senza titolo - &lt; Mese giorno, anno ora.minuto.secondo >** per un progetto di archiviazione Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` per un progetto di archiviazione Adobe
 
         >[!IMPORTANT]
         >

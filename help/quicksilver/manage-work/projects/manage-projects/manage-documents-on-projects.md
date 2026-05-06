@@ -6,9 +6,9 @@ description: A seconda che l'amministratore di Workfront scelga per impostazione
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Questa preferenza consente di memorizzare automaticamente i documenti allegati a
 
 >[!IMPORTANT]
 >
->Non tutti i clienti hanno accesso sia allo storage Workfront che a quello Adobe. Alcuni clienti hanno accesso solo a Workfront, mentre altri hanno accesso solo allo storage Adobe Enterprise per impostazione predefinita. Per i clienti che non hanno accesso allo storage Workfront non è necessaria alcuna configurazione.
+>La tua istanza di Workfront potrebbe non avere accesso sia allo storage Workfront che a quello Adobe. Alcune istanze di Workfront hanno accesso solo a Workfront, mentre altre hanno accesso solo allo storage Adobe Enterprise per impostazione predefinita. Non è necessaria alcuna configurazione per i clienti con accesso a un solo tipo di storage.
 
 L&#39;amministratore di Workfront può effettuare una delle seguenti operazioni:
 
@@ -120,7 +120,7 @@ I clienti possono avere accesso a una delle seguenti funzionalità di archiviazi
   >* I programmi ereditano il tipo di storage dal portfolio.
 
 
-I documenti memorizzati sugli oggetti nell’archivio di Workfront vengono gestiti in modo diverso rispetto a quelli archiviati nell’archivio aziendale di Adobe.
+I documenti memorizzati sugli oggetti nell’archiviazione Workfront vengono gestiti in modo diverso rispetto a quelli memorizzati nell’archiviazione aziendale Adobe.
 
 Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -179,7 +179,7 @@ Quando si lavora con i modelli, considera quanto segue:
 * Quando si crea un modello di archiviazione aziendale Adobe, Workfront crea una cartella nella sezione Documenti del modello in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del modello, la cartella viene rinominata in base al nuovo nome del modello.
 * Puoi utilizzare un modello di archiviazione Workfront per creare progetti di archiviazione Workfront; puoi utilizzare un modello di archiviazione Adobe per creare un progetto di archiviazione Adobe.
 * È possibile allegare un modello di archiviazione Workfront a un progetto di archiviazione Adobe senza che questo modifichi il percorso di archiviazione del progetto.
-* È possibile allegare un modello di archiviazione Adobe a un progetto di archiviazione Workfront senza che questo modifichi il percorso di archiviazione del progetto.
+* È possibile allegare un modello di archiviazione Adobe a un progetto di archiviazione Workfront senza che questo modifichi il percorso di archiviazione del progetto. I documenti contenuti nella cartella di archiviazione di Adobe per il modello vengono aggiunti direttamente al progetto, senza la cartella, mentre i documenti contenuti nelle cartelle delle attività del modello vengono aggiunti alle cartelle associate alle attività del progetto nella sezione Documenti delle attività.
 
 ### Gestione dei documenti per le attività modello
 

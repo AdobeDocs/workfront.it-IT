@@ -9,9 +9,9 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1106'
 ht-degree: 10%
 
 ---
@@ -99,7 +99,7 @@ Old:
 
 * Se il progetto presenta attività o problemi con ore registrate, l’amministratore di Workfront o del gruppo deve consentire l’eliminazione di tali attività configurando le Preferenze attività e problemi nell’istanza Workfront per consentire l’eliminazione del progetto che contiene le attività.
 
-  Per ulteriori informazioni sull&#39;eliminazione di attività, problemi o progetti in cui sono registrate ore, vedere la sezione &quot;Eliminazione&quot; in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per ulteriori informazioni sull&#39;abilitazione dell&#39;eliminazione di attività, problemi o progetti in cui sono registrate ore, vedere la sezione &quot;Eliminazione&quot; in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -114,6 +114,8 @@ Old:
    * Documenti
 
      Non è possibile eliminare un progetto a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
+
+     Non è possibile ripristinare singoli documenti eliminati al momento dell&#39;eliminazione del progetto dalla scheda Documenti nel Cestino. È possibile ripristinare i documenti eliminati solo quando il progetto è stato eliminato al momento del ripristino.
 
    * Attività
    * Sottoattività

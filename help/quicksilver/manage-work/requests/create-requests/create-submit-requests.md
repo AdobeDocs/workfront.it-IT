@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2685'
+source-wordcount: '2795'
 ht-degree: 3%
 
 ---
@@ -309,7 +309,14 @@ Per creare una richiesta nell’app web Workfront:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documenti</strong> </td> 
-      <td> <p>Aggiungi documenti alla tua richiesta. </p> <p> A seconda della configurazione della coda di richieste, la sezione Documenti potrebbe essere visualizzata prima o dopo i campi personalizzati. </p> <p>I documenti caricati su Workfront vengono memorizzati per 24 ore in una bozza di richiesta. Successivamente, è necessario ricollegarli quando si torna alla modifica e si invia la bozza. I documenti collegati da altre unità vengono salvati in modo permanente nella bozza. </p> </td> 
+      <td> <p>Aggiungi documenti alla tua richiesta. </p> <p> A seconda della configurazione della coda di richieste, la sezione Documenti potrebbe essere visualizzata prima o dopo i campi personalizzati. </p> <p>I documenti caricati su Workfront vengono memorizzati per 24 ore in una bozza di richiesta. Successivamente, è necessario ricollegarli quando si torna alla modifica e si invia la bozza. I documenti collegati da altre unità vengono salvati in modo permanente nella bozza. </p> 
+      <p>A seconda del tipo di archiviazione dei documenti selezionato dall’amministratore di Workfront per l’ambiente in uso, i documenti allegati alle richieste vengono aggiunti ai seguenti elementi:</p>
+      <ul><li>Per le richieste che utilizzano l’archiviazione Workfront, i documenti vengono aggiunti alla sezione Documenti della richiesta appena creata.</li>
+      <li>Per le richieste che utilizzano l’archiviazione aziendale di Adobe, i documenti vengono aggiunti a una nuova cartella con lo stesso nome della richiesta, automaticamente aggiunta alla richiesta durante il processo di invio. </li></ul>
+      <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</p>
+      <p>Il tipo di archiviazione problema e richiesta viene ereditato dal progetto. </p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.</p> 
+      </td> 
      </tr> 
     </tbody> 
    </table>

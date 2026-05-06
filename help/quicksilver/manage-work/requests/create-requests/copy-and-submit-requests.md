@@ -8,9 +8,9 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1734'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 # Copiare e inviare richieste
 
 
-Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
+Quando invii frequentemente richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta. La richiesta viene inviata alla stessa coda di richieste della richiesta originale.
 
 ## Requisiti di accesso
 
@@ -232,16 +232,16 @@ Se la società ha acquistato un pacchetto Workfront Planning, non è possibile c
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Assegnazioni</strong></span> </td> 
-      <td> <p>Indica il nome di un utente attivo, una mansione o un team a cui assegnare la richiesta. </p> <p> È possibile specificare più utenti, mansioni o team. </p> <p>A seconda di come è stata impostata la coda di richieste, potresti essere in grado di assegnare la richiesta solo a uno o due tipi di risorse, anziché a tutti e tre. </p> <p>È consigliabile utilizzare le regole di instradamento per le code di richieste in modo che possano essere instradate automaticamente alle risorse appropriate. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">A seconda di come è stata impostata la coda di richieste, potresti essere in grado di assegnare alla richiesta un solo tipo di risorsa (ad esempio, utenti). Se alla coda di richieste è associata anche una regola di instradamento che instrada automaticamente la richiesta a un tipo diverso di risorsa (ad esempio, un team), la richiesta viene assegnata sia all'entità specificata manualmente durante l'invio della richiesta (utenti) sia alla risorsa specificata nella regola di instradamento (team).</p> <p style="font-weight: normal;">Per ulteriori informazioni, consulta i seguenti articoli:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crea regole di routing</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Indica il nome di un utente attivo, una mansione o un team a cui assegnare la richiesta. </p> <p> È possibile specificare più utenti, mansioni o team. </p> <p>A seconda di come è stata impostata la coda di richieste, potresti essere in grado di assegnare la richiesta solo a uno o due tipi di risorse, anziché a tutti e tre. </p> <p>È consigliabile utilizzare le regole di instradamento per le code di richieste in modo che possano essere instradate automaticamente alle risorse appropriate. </p>
+      <p><p style="font-weight: normal;">A seconda di come è stata impostata la coda di richieste, potresti essere in grado di assegnare alla richiesta un solo tipo di risorsa (ad esempio, utenti). Se alla coda di richieste è associata anche una regola di instradamento che instrada automaticamente la richiesta a un tipo diverso di risorsa (ad esempio, un team), la richiesta viene assegnata sia all'entità specificata manualmente durante l'invio della richiesta (utenti) sia alla risorsa specificata nella regola di instradamento (team).</p> <p style="font-weight: normal;">Per ulteriori informazioni, consulta i seguenti articoli:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crea regole di routing</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>Ore pianificate</strong> </td> 
       <td> <p>Stimare quante ore occorrerebbe per completare la richiesta.</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ Se la società ha acquistato un pacchetto Workfront Planning, non è possibile c
       <td role="rowheader"><strong>Documenti</strong> </td> 
       <td> <p>Aggiungi documenti alla tua richiesta. I documenti allegati alla richiesta originale non vengono trasferiti alla richiesta copiata.</p> <p><b>SUGGERIMENTO</b>
 
-   A seconda della configurazione della coda di richieste, la sezione Documenti potrebbe essere visualizzata prima o dopo i campi personalizzati.</p> <p> </p> </td>
-   </tr> 
+   A seconda della configurazione della coda di richieste, la sezione Documenti potrebbe essere visualizzata prima o dopo i campi personalizzati.</p> <p> </p>
+   <p>A seconda del tipo di archiviazione dei documenti selezionato dall’amministratore di Workfront per l’ambiente in uso, i documenti allegati alle richieste vengono aggiunti ai seguenti elementi:</p>
+      <ul><li>Per le richieste che utilizzano l’archiviazione Workfront, i documenti vengono aggiunti alla sezione Documenti della richiesta appena creata.</li>
+      <li>Per le richieste che utilizzano l’archiviazione aziendale di Adobe, i documenti vengono aggiunti a una nuova cartella con lo stesso nome della richiesta, automaticamente aggiunta alla richiesta durante il processo di invio. </li></ul>
+      <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</p>
+      <p>Il tipo di archiviazione problema e richiesta viene ereditato dal progetto. </p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 
