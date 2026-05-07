@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 4%
 
 ---
@@ -94,6 +94,13 @@ Old:
 ## Considerazioni
 
 * Quando si converte un problema in un progetto, è previsto un limite di elaborazione di 5 minuti. Se al problema è allegato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
+* Se l&#39;organizzazione utilizza sia l&#39;archiviazione documenti aziendali legacy di Workfront che Adobe, esistono i seguenti scenari quando si converte un problema in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Un problema di storage Workfront crea un progetto di storage Workfront.
+   * Un problema di storage aziendale Adobe crea un progetto di storage Adobe.
+   * L’utilizzo di un modello di archiviazione Workfront per convertire un problema di archiviazione Adobe crea un progetto di archiviazione Adobe.
+   * L’utilizzo di un modello di archiviazione Adobe per convertire un problema di archiviazione Workfront crea un progetto di archiviazione Workfront.
+
+     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convertire un problema in un progetto
 
@@ -190,7 +197,7 @@ Old:
 
    >[!TIP]
    >
-   >Se hai aggiunto dei modelli all&#39;elenco Preferiti, puoi passare il puntatore del mouse sul menu [!UICONTROL **Modelli preferiti**] e fare clic sul modello che desideri utilizzare.
+   >Se hai aggiunto dei modelli all&#39;elenco Preferiti, passa il cursore del mouse sul menu [!UICONTROL **Modelli preferiti**] e fai clic sul modello che desideri utilizzare.
 
    Viene visualizzata la casella Nuovo progetto da modello (New Project from Template).
 
@@ -225,6 +232,14 @@ Old:
 
    ![Converti in progetto](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
+   >[!TIP]
+   >
+   >* L’utilizzo di un modello di archiviazione Workfront per convertire un problema di archiviazione Adobe crea un progetto di archiviazione Adobe.
+   >* L’utilizzo di un modello di archiviazione Adobe per convertire un problema di archiviazione Workfront crea un progetto di archiviazione Workfront.
+   >
+   >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+
 1. Se un campo è già popolato nel modello, il campo viene precompilato nella casella [!UICONTROL Converti in progetto]. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    >[!TIP]
@@ -258,20 +273,20 @@ Old:
      >
      >Oppure, se i gruppi di livello superiore dell’organizzazione li hanno configurati separatamente, le opzioni disponibili dipendono dal gruppo selezionato per il nuovo progetto al passaggio 6. Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Fare clic su [!UICONTROL **Forms personalizzato**] ed eseguire una delle operazioni seguenti:
+1. Fare clic su [!UICONTROL **Forms personalizzato**] ed eseguire una delle operazioni seguenti:
 
-      * Esamina i moduli personalizzati allegati al modello. Si trasferiranno al nuovo progetto.
-      * Esamina i moduli personalizzati allegati al problema. Se sono anche moduli di progetto, verranno trasferiti al progetto.
-      * Assicurati che tutti i campi obbligatori contengano informazioni valide.
-      * Ridisporre i moduli personalizzati trascinandoli ![Icona Trascina](assets/drag-object-icon.png) nella posizione desiderata.
-      * Fai clic sull&#39;icona **x** a destra di qualsiasi modulo che non desideri trasferire al progetto.
-      * Se necessario, trasferisci le informazioni del modulo personalizzato dal problema al progetto.
+   * Esamina i moduli personalizzati allegati al modello. Si trasferiranno al nuovo progetto.
+   * Esamina i moduli personalizzati allegati al problema. Se sono anche moduli di progetto, verranno trasferiti al progetto.
+   * Assicurati che tutti i campi obbligatori contengano informazioni valide.
+   * Ridisporre i moduli personalizzati trascinandoli ![Icona Trascina](assets/drag-object-icon.png) nella posizione desiderata.
+   * Fai clic sull&#39;icona **x** a destra di qualsiasi modulo che non desideri trasferire al progetto.
+   * Se necessario, trasferisci le informazioni del modulo personalizzato dal problema al progetto.
 
-        >[!TIP]
-        >
-        >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati del progetto.
-        >* Se al problema e al progetto è allegato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie. Per ulteriori informazioni, consulta [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
-        >* Se un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato al problema, per il nuovo progetto viene utilizzato il valore del campo del problema. Tuttavia, se il campo personalizzato è vuoto nel problema, viene utilizzato il valore del modello.
+     >[!TIP]
+     >
+     >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati del progetto.
+     >* Se al problema e al progetto è allegato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie. Per ulteriori informazioni, consulta [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Se un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato al problema, per il nuovo progetto viene utilizzato il valore del campo del problema. Tuttavia, se il campo personalizzato è vuoto nel problema, viene utilizzato il valore del modello.
 
 1. (Facoltativo) Se necessario, imposta ulteriori dettagli &#x200B; progetto (proprietario del progetto, date del progetto) e attività.
 

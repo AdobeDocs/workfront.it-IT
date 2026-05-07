@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 6%
+source-wordcount: '1259'
+ht-degree: 5%
 
 ---
 
@@ -95,10 +95,23 @@ Old:
 * Tutte le sotto-attività, le Issues e le Note vengono riportate nel nuovo progetto.
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
 * Durante la conversione di un’attività in un progetto, è previsto un limite di elaborazione di 5 minuti. Se all&#39;attività è associato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
+* Se l&#39;organizzazione utilizza sia l&#39;archiviazione documenti aziendali legacy di Workfront che Adobe, esistono i seguenti scenari durante la conversione di un&#39;attività in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Un&#39;attività di archiviazione Workfront crea un progetto di archiviazione Workfront.
+   * Un&#39;attività di storage aziendale Adobe crea un progetto di storage Adobe.
+   * L’utilizzo di un modello di archiviazione Workfront per convertire un’attività di archiviazione Adobe crea un progetto di archiviazione Adobe.
+   * L’utilizzo di un modello di archiviazione Adobe per convertire un’attività di archiviazione Workfront crea un progetto di archiviazione Workfront.
+
+     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+     >[!TIP]
+     >
+     >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
+
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.
 * Gli assegnatari delle attività e l’utente che converte l’attività nel progetto diventano utenti condivisi nel progetto.
 * La data di inizio del progetto viene impostata sulla data di inizio dell&#39;attività.
 * Nella tabella seguente sono elencate le informazioni relative al progetto e l&#39;eventuale trasferimento dal modello o dall&#39;attività:
+
 
   <table style="table-layout:auto"> 
   <col> 

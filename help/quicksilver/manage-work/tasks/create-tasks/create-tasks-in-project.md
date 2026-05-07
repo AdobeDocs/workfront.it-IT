@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1116'
 ht-degree: 4%
 
 ---
@@ -167,6 +167,12 @@ Per creare attività su un progetto:
 
    1. (Condizionale e facoltativo) Se desideri che l&#39;attività sia ricorrente, aggiorna il campo **Frequenza ricorrenza**. Per ulteriori informazioni sulla creazione di attività ricorrenti, vedere [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Facoltativo) Fai clic su **Documenti** nel pannello a sinistra per allegare un documento alla nuova attività, quindi fai clic su **Aggiungi o collega file** per aggiungere un documento all&#39;attività dal tuo computer, da un altro servizio o per collegare documenti e cartelle dal tuo computer o da un altro servizio.
+
+      >[!TIP]
+      >
+      >Se l&#39;organizzazione dispone dell&#39;accesso all&#39;archiviazione dei documenti aziendali legacy di Workfront e Adobe, l&#39;area Documenti per le attività potrebbe essere visualizzata in modo diverso a seconda del tipo di archiviazione utilizzato dall&#39;attività. Le attività ereditano il tipo di archiviazione dal progetto.
+      >
+      >Per informazioni, consulta [Aggiungere documenti ad Adobe Workfront dal file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Condizionale) Se al passaggio 5 hai fatto clic su **Aggiungi altre attività**, inizia a immettere le informazioni sull&#39;attività utilizzando la modifica in linea, quindi premi Invio.
 
