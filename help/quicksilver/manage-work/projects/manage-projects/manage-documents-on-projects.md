@@ -6,9 +6,9 @@ description: A seconda che l'amministratore di Workfront scelga per impostazione
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Questa preferenza consente di memorizzare automaticamente i documenti allegati a
 
 >[!IMPORTANT]
 >
->La tua istanza di Workfront potrebbe non avere accesso sia allo storage Workfront che a quello Adobe. Alcune istanze di Workfront hanno accesso solo a Workfront, mentre altre hanno accesso solo allo storage Adobe Enterprise per impostazione predefinita. Non è necessaria alcuna configurazione per i clienti con accesso a un solo tipo di storage.
+>La tua istanza di Workfront potrebbe non avere accesso allo storage Workfront e Adobe. Alcune istanze di Workfront hanno accesso solo a Workfront, mentre altre hanno accesso solo allo storage Adobe Enterprise per impostazione predefinita. Non è necessaria alcuna configurazione per i clienti con accesso a un solo tipo di storage.
 
 L&#39;amministratore di Workfront può effettuare una delle seguenti operazioni:
 
@@ -124,7 +124,7 @@ I documenti memorizzati sugli oggetti nell’archiviazione Workfront vengono ges
 
 Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Le sezioni seguenti documentano il funzionamento dell’archiviazione dei documenti per gli oggetti Workfront quando sono disponibili le opzioni di archiviazione aziendale Workfront e Adobe.
+Nelle sezioni seguenti viene illustrato il funzionamento dell&#39;archiviazione dei documenti per gli oggetti Workfront quando nello stesso ambiente esistono opzioni di archiviazione aziendale Workfront e Adobe.
 
 ### Gestione documenti per progetti
 
@@ -133,6 +133,8 @@ Quando si lavora con i progetti, considera quanto segue:
 * Quando si crea un progetto di archiviazione aziendale Adobe, Workfront crea una cartella nella sezione Documenti del progetto in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del progetto. Impossibile eliminare o rinominare manualmente la cartella. La cartella viene rinominata se modificate il nome del progetto in modo che corrisponda al nuovo nome del progetto.
 * Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio o programma di storage Workfront legacy, il portfolio o il programma viene automaticamente convertito in un oggetto di storage aziendale Adobe.
 * Non è possibile creare un progetto di storage Workfront per un portfolio o un programma di storage aziendale Adobe.
+* Quando si importa un progetto da MS Project, Workfront crea un progetto di storage Workfront, anche quando l&#39;amministratore di Workfront ha impostato lo storage Adobe Enterprise come predefinito per il sistema.
+* Quando si creano progetti utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il progetto. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
 ### Gestione dei documenti per portfolio
 
@@ -142,6 +144,7 @@ Quando si lavora con i portfolio, considera quanto segue:
 * Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio di storage Workfront legacy, il portfolio viene automaticamente convertito in un oggetto di storage aziendale Adobe.
 * Se il portfolio convertito aveva già dei documenti allegati, questi rimangono memorizzati nello storage Workfront. I nuovi documenti vengono inoltre archiviati nell&#39;archivio Workfront.
 * Se il portfolio convertito non aveva documenti allegati nello storage Workfront, i nuovi documenti vengono memorizzati nello storage aziendale Adobe.
+* Quando si creano i portfolio utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il portfolio. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
 ### Gestione documenti per programmi
 
@@ -151,6 +154,7 @@ Quando si lavora con i programmi, considera quanto segue:
 * Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio di storage Workfront legacy, il portfolio viene automaticamente convertito in un oggetto di storage aziendale Adobe.
 * Se al programma convertito erano già allegati dei documenti, questi rimangono memorizzati nell&#39;archivio Workfront. I nuovi documenti vengono inoltre archiviati nell&#39;archivio Workfront.
 * Se il programma convertito non aveva documenti allegati nello storage Workfront, i nuovi documenti vengono memorizzati nello storage aziendale Adobe.
+* Quando si creano programmi utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il programma. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
 ### Gestione dei documenti per le attività
 
@@ -171,6 +175,7 @@ Quando si lavora con i problemi, tieni presente quanto segue:
 * È possibile rinominare ed eliminare la cartella documenti dal problema di archiviazione aziendale di Adobe, che comporta anche l’eliminazione dei documenti nella cartella. Dopo aver aggiunto nuovi documenti al problema, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i progetti Adobe di archiviazione aziendale, la cartella documenti relativa a un problema viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il progetto.
 * Non è possibile copiare o spostare un problema da un progetto di archiviazione Workfront a uno di archiviazione Adobe. Non è inoltre possibile fare l&#39;inverso.
+* Quando si invia una richiesta con un documento allegato a un progetto di archiviazione Workfront, l&#39;area Documenti della richiesta visualizza il documento utilizzando il tipo di archiviazione del progetto, anche quando la preferenza predefinita di archiviazione del sistema è Adobe Enterprise.
 
 ### Gestione dei documenti per i modelli di progetto
 
