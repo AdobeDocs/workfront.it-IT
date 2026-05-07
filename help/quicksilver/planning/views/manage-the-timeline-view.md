@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 3%
 
 ---
@@ -212,8 +212,14 @@ Per gestire una vista timeline:
       * **Anno**: visualizza trimestri e mesi con indicazione dell&#39;anno.
       * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
       * **Mese**: visualizza settimane e giorni.
+
+     >[!TIP]
+     >
+     >La visualizzazione della sequenza temporale visualizza solo le settimane fiscali in base ai trimestri classici. Se l’amministratore di Workfront attiva Trimestri personalizzati nell’area Configura, le informazioni sulla settimana non vengono visualizzate nella vista timeline.
+
 1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
 1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. L&#39;opzione **Standard** è quella predefinita.  <!--check to see if they updated the name of the setting here-->
+
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 

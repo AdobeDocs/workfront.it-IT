@@ -6,9 +6,9 @@ description: A seconda che l'amministratore di Workfront scelga per impostazione
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Quando si lavora con le attività, tenere presente quanto segue:
 * È possibile rinominare ed eliminare la cartella documenti dall&#39;attività di archiviazione aziendale di Adobe, che elimina anche i documenti contenuti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i progetti Adobe di archiviazione aziendale, la cartella documenti di un&#39;attività viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il progetto.
 * Non è possibile copiare o spostare un’attività da un progetto di archiviazione Workfront a uno di archiviazione Adobe. Non è inoltre possibile fare l&#39;inverso.
+* Durante la conversione di un&#39;attività in un progetto sono presenti i seguenti scenari: <!--this info also duplicated in Convert tasks to projects-->
+   * Un&#39;attività di archiviazione Workfront crea un progetto di archiviazione Workfront.
+   * Un&#39;attività di storage aziendale Adobe crea un progetto di storage Adobe.
+   * L’utilizzo di un modello di archiviazione Workfront per convertire un’attività di archiviazione Adobe crea un progetto di archiviazione Adobe.
+   * L’utilizzo di un modello di archiviazione Adobe per convertire un’attività di archiviazione Workfront crea un progetto di archiviazione Workfront.
 
 ### Gestione dei documenti per problemi
 
@@ -176,6 +181,11 @@ Quando si lavora con i problemi, tieni presente quanto segue:
 * Per i progetti Adobe di archiviazione aziendale, la cartella documenti relativa a un problema viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il progetto.
 * Non è possibile copiare o spostare un problema da un progetto di archiviazione Workfront a uno di archiviazione Adobe. Non è inoltre possibile fare l&#39;inverso.
 * Quando si invia una richiesta con un documento allegato a un progetto di archiviazione Workfront, l&#39;area Documenti della richiesta visualizza il documento utilizzando il tipo di archiviazione del progetto, anche quando la preferenza predefinita di archiviazione del sistema è Adobe Enterprise.
+* Durante la conversione di un problema in un progetto sono presenti i seguenti scenari: <!--this info also duplicated in Convert an issue to a project-->
+   * Un problema di storage Workfront crea un progetto di storage Workfront.
+   * Un problema di storage aziendale Adobe crea un progetto di storage Adobe.
+   * L’utilizzo di un modello di archiviazione Workfront per convertire un problema di archiviazione Adobe crea un progetto di archiviazione Adobe.
+   * L’utilizzo di un modello di archiviazione Adobe per convertire un problema di archiviazione Workfront crea un progetto di archiviazione Workfront.
 
 ### Gestione dei documenti per i modelli di progetto
 
