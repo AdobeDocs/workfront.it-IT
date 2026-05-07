@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 3%
 
 ---
@@ -156,12 +156,12 @@ Considera i seguenti aspetti:
 
    * Quando le date di inizio e fine non hanno valori
    * Quando le date di inizio o fine non hanno valore
-   * When the Start date is after the End date
+   * Quando la data di inizio è successiva alla data di fine
 
-To manage a timeline view:
+Per gestire una vista timeline:
 
-1. Go to the record type page for which you want to view the timeline.
-1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
+1. Creare una visualizzazione timeline come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
 
@@ -175,7 +175,7 @@ To manage a timeline view:
 
    Esistono i seguenti scenari:
 
-   * Se sono stati rilevati spazi vuoti o sovrapposizioni tra le date dei trimestri, è possibile che venga inviata una notifica che informa che è ora possibile impostare i trimestri personalizzati e che potrebbe essere necessario modificarli.
+   * Se sono stati rilevati spazi vuoti o sovrapposizioni tra le date dei trimestri, potresti ricevere una notifica che indica che ora è possibile impostare i trimestri personalizzati e che potrebbe essere necessario modificarli.
 
      ![Notifica trimestri personalizzati mancante o intervalli tra i trimestri](assets/custom-quarter-notification-missing-or-gaps.png)
 
@@ -195,7 +195,7 @@ To manage a timeline view:
    >Dopo aver impostato i trimestri personalizzati nell&#39;area Configura, nella vista timeline vengono visualizzati i trimestri personalizzati anziché quelli classici.
    >Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-1. (Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.
 
    >[!TIP]
    >
@@ -268,11 +268,11 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* The filters you create for a timeline view work independently from the filters in any other view applied to the same record type.
+* I filtri creati per una visualizzazione timeline funzionano in modo indipendente dai filtri di qualsiasi altra visualizzazione applicata allo stesso tipo di record.
 
-* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them.
+* I filtri sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati filtri diversi.
 
-* Two users looking at the same timeline view see the same filter that is currently applied.
+* Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso filtro attualmente applicato.
 
 * Non è possibile assegnare un nome ai filtri creati per una vista timeline.
 
@@ -287,7 +287,7 @@ Per aggiungere un filtro a una vista timeline:
 1. Seleziona una visualizzazione timeline, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
-   * **Selezionare un campo** per cercare un campo o selezionarlo dall&#39;elenco.
+   * **Selezionare un campo** per cercare un campo e selezionarlo dall&#39;elenco.
 
    * **Selezionare un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare.
 
@@ -389,7 +389,7 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+&lt;!—!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -510,7 +510,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
-   You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view.
+   Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire il colore del record principale e dei record collegati.
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -539,11 +539,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    * **Raggruppamento**: il colore dei record corrisponde a quello indicato per i raggruppamenti. Questa opzione è disattivata se non avete applicato raggruppamenti alla vista timeline.
    * **Nessuno**: i record vengono visualizzati in una barra bianca.
 
-1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu.
+1. (Condizionale) Se hai selezionato **Valori campo** per i colori del record, seleziona un campo dal menu a discesa **Corrispondenza colore del record con**.
 
-   ![Field selector drop-down menu in timeline view](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Menu a discesa del selettore dei campi nella visualizzazione timeline](assets/field-selector-drop-down-menu-timeline-view.png)
 
-   Only fields with color-coded options display in the drop-down menu.
+   Nel menu a discesa vengono visualizzati solo i campi con opzioni codificate a colori.
 
    Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 
@@ -567,8 +567,8 @@ Quando si suddivide la sequenza temporale dei record in base ai tipi di record c
 * È possibile visualizzare i record connessi nella visualizzazione timeline solo quando si visualizzano i record in modalità Standard. Non potete utilizzare l&#39;opzione Raggruppamento (Breakdown) nella modalità Compatta della vista timeline.
 * Utilizzando la funzione Raggruppamento (Breakdown), potete visualizzare quanto segue nella vista timeline:
    * Record di Workfront Planning connessi al tipo di record selezionato.
-   * Tipi di oggetto Workfront o risorse Experience Manager connesse al tipo di record selezionato.
-   * Record di Workfront Planning o oggetti di un&#39;altra applicazione connessi a record connessi al tipo di record selezionato.
+   * Tipi di oggetto Workfront o Experience Manager connessi al tipo di record selezionato.
+   * Record o oggetti di Workfront Planning provenienti da altre applicazioni connesse a record connessi al tipo di record selezionato.
 
      Ad esempio, puoi collegare le campagne ai portfolio. Inoltre, è possibile collegare un altro tipo di record, prodotti, con progetti e con campagne. Quando crei la visualizzazione timeline della campagna, puoi suddividere le campagne per portfolio, prodotti e progetti.
 
@@ -581,7 +581,7 @@ Quando si suddivide la sequenza temporale dei record in base ai tipi di record c
 Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 * È possibile visualizzare solo i tipi di record associati ad almeno due campi data.
 * I campi data per i tipi di record che si desidera visualizzare nella visualizzazione timeline devono essere visibili nella visualizzazione per tabella del tipo di record selezionato, come campi di ricerca.
-* Le date di inizio e di fine dei tipi di record che si desidera visualizzare nella vista timeline devono essere in ordine cronologico. Ad esempio, se un record ha una data di inizio 31 gennaio e una data di fine 1 gennaio, non viene visualizzato nella visualizzazione della sequenza temporale. Per ulteriori informazioni, vedere la sezione [Gestire una visualizzazione della sequenza temporale](#manage-a-timeline-view) in questo articolo.
+* Le date di inizio e di fine dei tipi di record che si desidera visualizzare nella visualizzazione timeline devono essere in ordine cronologico. Ad esempio, se un record ha una data di inizio 31 gennaio e una data di fine 1 gennaio, non viene visualizzato nella visualizzazione della sequenza temporale. Per ulteriori informazioni, vedere la sezione [Gestire una visualizzazione della sequenza temporale](#manage-a-timeline-view) in questo articolo.
 * È possibile includere nella suddivisione di un record un limite di 5 tipi di record.
 
 #### Suddividere i record connessi
@@ -609,9 +609,9 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
    >[!IMPORTANT]
    >
-   >    When you display multiple connected records in the breakdown, they are not in hierarchical order.
+   >    Quando si visualizzano più record connessi nel raggruppamento, questi non sono in ordine gerarchico.
    >
-   >For example, if you are viewing the campaigns&#39; timeline and you add Products and then Programs to the breakdown, Programs are not necessarily connected to the Products first.
+   >Ad esempio, se visualizzi la timeline delle campagne e aggiungi Prodotti e quindi Programmi al raggruppamento, i Programmi non sono necessariamente connessi prima ai Prodotti.
    >
    >Sia Prodotti che Programmi devono essere connessi alle campagne per essere visualizzati come opzioni di suddivisione e puoi aggiungerli al raggruppamento in qualsiasi ordine.
 
@@ -619,7 +619,7 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
    >[!TIP]
    >
-   >Seleziona **Non mostrare più** in **Passa alla visualizzazione Standard?Casella**, prima di cambiare visualizzazione.
+   >Seleziona **Non mostrare più** in **Passa alla visualizzazione Standard?** prima di cambiare visualizzazione.
    >
    >Questa preferenza viene memorizzata solo per il browser corrente. Se si modificano browser o computer, sarà necessario selezionare nuovamente questa preferenza.
    >
