@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 5%
+source-wordcount: '1411'
+ht-degree: 4%
 
 ---
 
@@ -210,7 +210,11 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 
    >[!TIP]
    >
-   >Se il pannello Riepilogo è già aperto, l&#39;icona Apri riepilogo diventa Chiudi riepilogo.
+   >* Se il pannello Riepilogo è già aperto, l&#39;icona Apri riepilogo diventa Chiudi riepilogo.
+   >
+   >* Se la tua organizzazione utilizza l’archiviazione dei documenti aziendali di Adobe, non puoi aggiungere documenti alle richieste di archiviazione di Adobe nel pannello Riepilogo.
+   >
+   >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Facoltativo e condizionale) Fai clic sull&#39;icona **X** in alto a destra o sull&#39;icona **Chiudi riepilogo** ![Chiudi riepilogo con testo](assets/close-summary-with-text-nwe.png) per chiudere il pannello Riepilogo.
 

@@ -6,9 +6,9 @@ description: A seconda che l'amministratore di Workfront scelga per impostazione
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Quando si lavora con le attività, tenere presente quanto segue:
    * Un&#39;attività di storage aziendale Adobe crea un progetto di storage Adobe.
    * L’utilizzo di un modello di archiviazione Workfront per convertire un’attività di archiviazione Adobe crea un progetto di archiviazione Adobe.
    * L’utilizzo di un modello di archiviazione Adobe per convertire un’attività di archiviazione Workfront crea un progetto di archiviazione Workfront.
+* Non è possibile aggiungere documenti alle attività di archiviazione di Adobe nel pannello Riepilogo.
 
 ### Gestione dei documenti per problemi
 
@@ -186,6 +187,7 @@ Quando si lavora con i problemi, tieni presente quanto segue:
    * Un problema di storage aziendale Adobe crea un progetto di storage Adobe.
    * L’utilizzo di un modello di archiviazione Workfront per convertire un problema di archiviazione Adobe crea un progetto di archiviazione Adobe.
    * L’utilizzo di un modello di archiviazione Adobe per convertire un problema di archiviazione Workfront crea un progetto di archiviazione Workfront.
+* Non è possibile aggiungere documenti a problemi di archiviazione di Adobe nel pannello Riepilogo.
 
 ### Gestione dei documenti per i modelli di progetto
 
