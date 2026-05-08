@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7110'
+source-wordcount: '7120'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
    <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
-     <li> <p>Gestione risorse </p> </li> 
+     <li> <p>Gestione delle risorse </p> </li> 
      <li> <p>Progetti</p> </li> 
      <li> <p>Portfolio</p> </li> 
      <li> <p>Programmi</p> </li> 
@@ -139,7 +139,7 @@ Quando si tiene traccia delle ore, nel rapporto Utilizzo sono disponibili le seg
    <td scope="col"><strong>Ore preventivate</strong> </td> 
    <td scope="col"> <p>Il totale delle ore preventivate per i progetti inclusi. È possibile visualizzare le ore preventivate totali per l'intera durata dei progetti inclusi oppure le ore preventivate totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p>Le ore preventivate sono compilate dalle informazioni disponibili nell'area Budget risorse del Business Case o della Programmazione risorse<em>.</em></p> <p>Le ore preventivate vengono visualizzate nel rapporto Utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore preventivate vengono riepilogate in base alla mansione e al singolo utente nel report Utilizzo, come segue:<br><strong>Utente singolo:</strong> Le ore preventivate vengono riepilogate per ogni utente nel report Utilizzo. Queste ore preventivate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.<br><strong>Mansione:</strong> le ore preventivate sono riepilogate per mansione nel report sull'utilizzo.<br>Le ore preventivate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:
+     <li> Le ore preventivate vengono riepilogate in base alla mansione e al singolo utente nel report Utilizzo, come segue:<br><strong>Utente singolo:</strong> Le ore preventivate vengono riepilogate per ogni utente nel report Utilizzo. Queste ore preventivate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. (È possibile espandere la riga della mansione corrispondente per visualizzare un elenco di utenti con quella mansione.)<br><strong>Mansione:</strong> Le ore preventivate sono riepilogate per mansione nel report sull'utilizzo.<br>Le ore preventivate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:
      <ul>
      <li>Il ruolo è definito come il ruolo principale dell'utente assegnato all'attività o al problema a cui sono associate le ore preventivate. </li> 
        <li>Quando si visualizzano le informazioni sull'utilizzo per un singolo progetto, viene utilizzata la mansione dell'utente a cui sono state assegnate le ore, indipendentemente dal fatto che l'attività o il problema non sia stato assegnato, che a un altro utente non sia stata assegnata alcuna mansione, che a un altro utente sia stata assegnata una mansione diversa o che sia stato assegnato un altro team.</li> 
@@ -218,7 +218,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
    <td><strong>Ore effettive</strong> </td> 
    <td> <p> Le ore totali registrate per le attività, i problemi, <span>e sul progetto</span> per i progetti inclusi. È possibile visualizzare le ore effettive totali per la durata complessiva dei progetti inclusi oppure le ore effettive totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p><strong>Avviso:</strong> il report sull'utilizzo include le ore registrate nel progetto, le attività figlio, i problemi e le attività padre con almeno un'assegnazione. Non include le ore registrate per le attività padre senza assegnazioni. È consigliabile non utilizzare le attività padre come attività di lavoro e assegnare solo le attività figlio alle risorse. </p> <p>Le ore effettive vengono visualizzate nel rapporto sull'utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel report sull'utilizzo nella riga della mansione corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
+     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. (È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.)<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel report sull'utilizzo nella riga del ruolo corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
       <ul> 
        <li>Il ruolo è definito come il ruolo principale dell’utente che ha registrato le ore</li> 
        <li>Nessuna assegnazione per l’attività o il problema</li> 
