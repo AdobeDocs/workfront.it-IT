@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2825'
 ht-degree: 4%
 
 ---
@@ -306,7 +306,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
    Oppure
 
-   Fare clic sull&#39;icona **Modalità del menu** Altro![&#x200B; nell&#39;elenco delle attività](assets/more-icon-task-list.png).
+   Fare clic sull&#39;icona ![Modalità del menu **Altro** nell&#39;elenco delle attività](assets/more-icon-task-list.png).
 
 1. (Facoltativo) Seleziona una delle seguenti opzioni:
 
@@ -469,29 +469,33 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 1. (Facoltativo) Digita un aggiornamento per l&#39;attività nell&#39;area **Aggiornamenti**.
 1. Fare clic su una delle icone o aree seguenti per accedere all&#39;attività e modificare le informazioni a livello di attività:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documenti</td> 
-      <td>Aggiungi documenti all'attività. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Moduli personalizzati</td> 
-      <td>Aggiungere o rimuovere moduli personalizzati o aggiornare le informazioni sui moduli.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ore</td> 
-      <td>Registra ore.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approvazioni</td> 
-      <td>Aggiungi approvazioni attività.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documenti</td> 
+         <td><p>Aggiungi documenti all'attività.</p>
+         <p><b>NOTA</b></p>
+         <p>Se l'organizzazione utilizza l'archiviazione di documenti aziendali Adobe, non è possibile aggiungere documenti alle attività nel pannello Riepilogo per le attività di archiviazione Adobe.</p>
+         <p>Per informazioni, consulta <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Moduli personalizzati</td> 
+         <td>Aggiungere o rimuovere moduli personalizzati o aggiornare le informazioni sui moduli.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Ore</td> 
+         <td>Registra ore.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Approvazioni</td> 
+         <td>Aggiungi approvazioni attività.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Fai clic su **X** nell&#39;angolo superiore destro del pannello per chiuderlo.
 

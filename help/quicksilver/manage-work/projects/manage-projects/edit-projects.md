@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       <p><b>NOTE</b></p>
       <ul>
       <li>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</li>
-      <li>Se l'organizzazione utilizza sia i tipi di archiviazione documenti Workfront che Adobe, non è possibile associare un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe. Anche il contrario è vero. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
+      <li>Se l'organizzazione utilizza sia lo storage aziendale legacy Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di storage diversi. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
       Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>. 
       </td> 
       </tr> 

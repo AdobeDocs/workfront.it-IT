@@ -6,14 +6,14 @@ description: È possibile aprire il pannello Riepilogo nel Bilanciatore dei cari
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 12%
 
 ---
 
-# Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo
+# Aggiornare gli elementi di lavoro nel bilanciamento dei carichi di lavoro utilizzando il riepilogo
 
 Puoi utilizzare il pannello Riepilogo di un’attività o di un problema per aggiornare informazioni importanti per tale elemento. nel Bilanciatore dei carichi di lavoro.
 
@@ -21,7 +21,7 @@ Il pannello Riepilogo è disponibile per le attività e i problemi nelle aree La
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Il pannello Riepilogo è disponibile per le attività e i problemi nelle aree La
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -48,7 +48,7 @@ Il pannello Riepilogo è disponibile per le attività e i problemi nelle aree La
    </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Contribuire o concedere autorizzazioni più elevate ai progetti, alle attività e ai problemi</td> 
   </tr> 
  </tbody> 
@@ -91,6 +91,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >Se si passa dalla sezione Riepilogo alla sezione Sottoattività per aggiungere sottoattività, l&#39;attività originale viene rimossa, perché le attività padre non vengono visualizzate nel Bilanciatore dei carichi di lavoro.
 
    Per ulteriori informazioni sull&#39;aggiornamento delle informazioni tramite Riepilogo, vedere [Panoramica di Riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!NOTE]
+   >
+   >Se l’organizzazione utilizza l’archiviazione dei documenti aziendali di Adobe, non è possibile aggiungere documenti agli elementi di lavoro dell’archiviazione di Adobe nel pannello Riepilogo.
+   >
+   >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condizionale) Se hai aperto una delle sezioni dell&#39;elemento di lavoro, fai clic sul **pulsante Indietro** del browser per tornare al Bilanciatore dei carichi di lavoro.
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro del riepilogo per chiuderlo.

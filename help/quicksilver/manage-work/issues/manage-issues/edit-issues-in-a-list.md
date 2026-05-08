@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 6%
 
 ---
@@ -152,10 +152,15 @@ Puoi modificare un problema in un elenco utilizzando il pannello Riepilogo.
 
    | Icona | Azione |
    |---|---|
-   | Documenti ![icona Documenti](assets/documents-icon-in-summary.png) | Fai clic **qui per aggiungere** documenti al problema. |
+   | Documenti* ![Icona Documenti](assets/documents-icon-in-summary.png) | Fai clic **qui per aggiungere** documenti al problema. |
    | Dettagli ![Icona Dettagli](assets/details-icon-in-summary.png) | Fai clic su per aggiornare le informazioni sul problema. |
    | Ore ![Tempo di registrazione](assets/log-time-icon-in-summary.png) | Fai clic su per registrare le ore. |
    | Approvazioni ![Icona Approvazioni](assets/approvals-icon-in-summary.png) | Fai clic su per aggiungere approvazioni problemi. |
+
+   *Se la tua organizzazione utilizza l’archiviazione di documenti aziendali Adobe, non puoi aggiungere documenti ai problemi di archiviazione di Adobe nel pannello Riepilogo.
+
+   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Apri riepilogo** oppure sull&#39;icona **X** in alto a destra del riepilogo per chiudere il pannello e modificare il problema in linea.
 
