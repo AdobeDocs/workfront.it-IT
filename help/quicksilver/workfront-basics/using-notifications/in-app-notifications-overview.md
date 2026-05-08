@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: notifications
-title: Panoramica delle notifiche in-app
+title: Panoramica sulle notifiche in-app
 description: 'In questo articolo sono elencate le notifiche in-app che puoi ricevere. Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 2%
 
 ---
 
-# Panoramica delle notifiche in-app
+# Panoramica sulle notifiche in-app
 
 In questo articolo sono elencate le notifiche in-app che puoi ricevere. Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.
 

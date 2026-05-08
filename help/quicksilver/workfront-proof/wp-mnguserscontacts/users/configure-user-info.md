@@ -7,7 +7,7 @@ description: Configura informazioni utente tramite  [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%

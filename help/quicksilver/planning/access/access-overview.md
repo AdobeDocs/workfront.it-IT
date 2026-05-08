@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 8%
@@ -54,24 +54,21 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td>
    <td>
    <p>Qualsiasi pacchetto Workfront e Planning</p>
    <p>Qualsiasi pacchetto di Workflow e Planning</p>
-
-<p><b>NOTA</b></p>
-
-<p>Per accedere ai tipi di record collegabili:</p>
+   <p><b>NOTA</b></p>
+   <p>Per accedere ai tipi di record collegabili:</p>
    <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning</p></li>
    <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime e Ultimate</p></li></ul>
 
 <p>Per accedere ai tipi di record globali:</p>
    <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
    <li><p>Qualsiasi pacchetto Workflow e un pacchetto Planning Prime e Ultimate</p></li></ul> </td></tr>
-
-<!--
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -80,22 +77,21 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-
-<tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td>
    <td>
    <ul><li><p>Qualsiasi, per visualizzare le informazioni di Workfront Planning</p></li>
    <li><p>Standard, per creare aree di lavoro e viste</p></li></ul>
     </td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
    <ul>
@@ -107,17 +103,17 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
     <li><p>Gli amministratori di sistema non possono accedere alle viste che non hanno creato. </p></li></ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Modello layout</p></td>
    <td> 
-<p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p>
-<p> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa l’opzione Planning nelle seguenti aree:</p>
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p>
+   <p> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa l’opzione Planning nelle seguenti aree:</p>
    <ul><li>Menu principale</li>
    <li>Pannello a sinistra di progetti, portfolio e programmi</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>
