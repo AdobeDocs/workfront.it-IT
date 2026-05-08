@@ -9,8 +9,8 @@ feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 1%
+source-wordcount: '2115'
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
   Per informazioni sulle attività padre, vedere gli articoli seguenti:
 
    * [Panoramica attività](../../manage-work/tasks/task-information/tasks-overview.md)
-   * [Crea sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md)
+   * [Creare attività secondarie](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
   >
@@ -185,8 +185,8 @@ Prima di iniziare a definire il budget delle risorse nella Programmazione risors
   Per visualizzare le informazioni sulle ore nella Programmazione delle risorse per gli utenti o i ruoli associati alle attività padre, è necessario assegnarli anche alle attività figlio. La Programmazione delle risorse non visualizza le informazioni delle attività padre.
 
 * Le attività e i problemi hanno un valore per Ore pianificate maggiore di zero.
-* Le attività e i problemi hanno un valore per la durata maggiore di zero.
-* Le Date Pianificate dei problemi rientrano nella timeline del progetto.
+* Le attività e i problemi hanno un valore per Durata maggiore di zero.
+* Le Date pianificate dei problemi rientrano nella timeline del progetto.
 
 ### Prerequisiti a livello di sistema {#system-level-prerequisites}
 
@@ -196,9 +196,9 @@ Prima di iniziare a definire il budget delle risorse nella Programmazione risors
 
 L&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.
 
-Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Individua la Programmazione delle risorse
+## Individuare la pianificazione risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
@@ -296,7 +296,7 @@ Per ulteriori informazioni sul metodo di calcolo dei costi in Pianificazione ris
 </div>
 -->
 
-## Filtrare le informazioni nella Programmazione delle risorse
+## Filtrare le informazioni in pianificazione risorse
 
 È possibile ridurre il numero di progetti, ruoli o utenti visualizzati in Pianificazione risorse creando un filtro.\
 Per ulteriori informazioni, vedere l&#39;articolo [Informazioni sul filtro in Pianificazione risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).

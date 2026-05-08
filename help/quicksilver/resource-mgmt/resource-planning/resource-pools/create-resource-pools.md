@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 9%
+source-wordcount: '545'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,7 @@ I pool di risorse sono insiemi di utenti che consentono di gestire più facilmen
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ I pool di risorse sono insiemi di utenti che consentono di gestire più facilmen
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td>
   </tr> 
@@ -44,7 +44,7 @@ I pool di risorse sono insiemi di utenti che consentono di gestire più facilmen
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Gestisci gruppi di risorse</p> <p>Modificare l’accesso a progetti, modelli e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestisci le autorizzazioni per i progetti, i modelli e gli utenti a cui vuoi associare i Pool di Risorse</td> 
   </tr> 
  </tbody> 
@@ -86,7 +86,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
          <li><strong>Ruoli</strong>: tutti gli utenti associati a tale ruolo vengono aggiunti al Pool di Risorse.</li>
          <li><strong>Società</strong>: tutti gli utenti della società vengono aggiunti al Pool di Risorse.</li>
         </ul><p>Suggerimento: puoi aggiungere solo utenti attivi, team, <span>ruoli,</span> o aziende.</p><br>Potrebbe essere necessario scorrere verso il basso la finestra di dialogo per visualizzare tutti gli utenti nel Pool di Risorse.
-        <p>Nota: se un utente diventa membro di un gruppo, team, società o è associato a una mansione dopo che il gruppo, il team, la società o la mansione sono stati aggiunti al Pool di risorse, il nuovo membro non viene aggiunto automaticamente al Pool di risorse. <br>Se un utente appartiene al team, al gruppo, alla società e alla mansione che si sta aggiungendo, l'utente verrà aggiunto una sola volta al Pool di Risorse.<br>Gli utenti disattivati dopo essere stati aggiunti al Pool di Risorse vengono visualizzati in grigio nell'elenco degli utenti e contrassegnati come disattivati.</p></p></td>
+        <p>Nota: se un utente diventa membro di un gruppo, team, società o è associato a una mansione dopo che il gruppo, il team, la società o la mansione sono stati aggiunti al Pool di risorse, il nuovo membro non viene aggiunto automaticamente al Pool di risorse. <br>Se un utente appartiene al team, al gruppo, alla società e alla mansione che si sta aggiungendo, l'utente verrà aggiunto una sola volta al pool di risorse.<br>Gli utenti disattivati dopo essere stati aggiunti al pool di risorse verranno visualizzati in grigio nell'elenco degli utenti e contrassegnati come disattivati.</p></p></td>
      </tr>
     </tbody>
    </table>
