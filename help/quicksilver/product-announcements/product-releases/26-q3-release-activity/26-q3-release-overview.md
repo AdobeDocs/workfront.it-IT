@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 53%
@@ -76,7 +76,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Trimestrale</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Viste predefinite aggiunte all'elenco delle richieste nell'area Richieste e nel widget Richieste personali</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Viste predefinite aggiunte all'elenco delle richieste nell'area Richieste e nel widget Richieste personali</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home.</p>
             </td>
             <td><p>23 aprile 2026</p></td>
@@ -85,6 +85,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
     </tbody>
 </table>
+
 
 ## Note sulla versione per altre aree
 
