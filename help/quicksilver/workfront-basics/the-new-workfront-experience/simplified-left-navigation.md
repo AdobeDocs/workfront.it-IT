@@ -6,10 +6,10 @@ description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannell
 
 ## Requisiti di accesso
 
-+++Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannell
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td>
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> 
    </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ Il pannello sinistro è disponibile per i seguenti oggetti:
 >[!IMPORTANT]
 >
 >Se nel pannello sinistro viene visualizzata una sola sezione per impostazione predefinita, ad esempio **[!UICONTROL Tutti i progetti]** nell&#39;area **[!UICONTROL Progetti]**, un amministratore di [!DNL Workfront] deve aggiungere almeno un dashboard a quest&#39;area durante la creazione di un modello di layout e assegnare l&#39;utente a tale modello prima che il pannello sinistro venga visualizzato in tale area.
->&#x200B;>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Il pannello a sinistra è disponibile per le seguenti aree:
 
@@ -89,7 +89,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 
@@ -168,7 +168,7 @@ Le sezioni seguenti vengono visualizzate nel pannello a sinistra per l&#39;area 
         <td>Visualizza tutti i progetti a cui è possibile accedere. Utilizza il menu a discesa [!UICONTROL Filter] per modificare i progetti da visualizzare</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td><strong>[!UICONTROL Dashboard]</strong></td>
         <td>È possibile visualizzare tutte le dashboard aggiunte dall'amministratore [!DNL Workfront] al pannello sinistro per l'area [!UICONTROL Projects] nel modello di layout. Questi dashboard hanno nomi personalizzati per il tuo ambiente.</td>
     </tr>
 </table>
@@ -236,6 +236,7 @@ Le sezioni seguenti vengono visualizzate nel pannello a sinistra per l&#39;area 
     </tr>
 </table>
 -->
+
 Per informazioni su come utilizzare il pannello a sinistra nell&#39;area [!UICONTROL Obiettivi], consulta la sezione [Utilizzare il pannello di navigazione a sinistra](#use-the-left-navigation-panel) in questo articolo.
 
 ## Utilizza il pannello di navigazione a sinistra

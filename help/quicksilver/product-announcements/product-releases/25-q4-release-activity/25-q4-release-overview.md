@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 39%
+source-wordcount: '2457'
+ht-degree: 40%
 
 ---
 
@@ -36,7 +36,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.8 (14 agosto 2025)</li><li>25.9 (11 settembre 2025)</li><li>25.10 (16 ottobre 2025)</li></ul> | <ul><li>25.10 (16 ottobre 2025)</li></ul> |
 >
->Tieni presente che per il rilascio finale di ogni trimestre (25.10 questo trimestre), gli utenti che seguono la pianificazione del rilascio rapido riceveranno il rilascio con un giorno di anticipo (giovedì 15 ottobre 2025).
+>Tieni presente che per la versione finale di ogni trimestre (le 25.10 di questo trimestre), gli utenti che seguono la pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo (15 ottobre 2025).
 >
 >Per ulteriori informazioni sul processo di rilascio rapido, consulta [Abilitare o disabilitare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -60,7 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
     <tr>
         <td>
@@ -125,7 +125,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
     <tr>
         <td>
@@ -147,7 +147,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
     <tr>
         <td>
@@ -199,7 +199,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
     <tr>
         <td>
@@ -229,17 +229,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
-      <!--
-      <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
-            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+        <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+    </td>
+    <td>August 21, 2025</td>
+    <td>September 11, 2025</td>
+    <td>October 16, 2025</td>
     </tr>
     -->
     <tr>
@@ -287,7 +287,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
   <tr>
         <td>
@@ -321,7 +321,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
      <tr>
         <td>
@@ -373,7 +373,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
-        <td><strong>Ogni trimestre</strong></td>
+        <td><strong>Trimestrale</strong></td>
     </tr>
     <tr>
         <td>
@@ -475,15 +475,15 @@ Per garantire maggiore stabilità e scalabilità alle integrazioni, è stato ado
 Per le esigenze di integrazione dell’organizzazione è consigliabile utilizzare Workfront Automation and Inegration con Google Workspace.
 Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
-### Versione 20 dell’API
+### API versione 20
 
-La versione 20 dell’API di Workfront è stata rilasciata il lunedì 4 maggio 2025. Nella versione 20 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Workfront API versione 20 è stato rilasciato il 4 maggio 2025. Per API versione 20, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 20 dell’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Aggiornamenti di manutenzione per Workfront
+### Aggiornamenti di manutenzione di Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante il rilascio del primo trimestre 2025, consulta [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
 

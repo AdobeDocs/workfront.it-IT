@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 5%
+source-wordcount: '1130'
+ht-degree: 8%
 
 ---
 
@@ -169,11 +169,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Selezionare l'attività di progetto che si desidera come predecessore delle attività in questo modello.</td> 
+      <td role="rowheader">Seleziona l’attività del progetto da impostare come predecessore per le attività di questo modello.</td> 
       <td> <p>Fare clic all'interno della casella del campo per visualizzare un elenco di attività di progetto, quindi selezionare l'attività che deve essere completata prima che le attività del modello possano iniziare. In alternativa, puoi saltare questo passaggio e impostare relazioni all’interno del progetto dopo aver allegato il modello. </p> <p> Selezionare le informazioni relative al <strong>Tipo di dipendenza</strong>, al <strong>Tempo di ritardo</strong> e se si desidera applicare il predecessore selezionando la casella di controllo <strong>Applica predecessore</strong>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Selezionare l'attività di progetto che si desidera utilizzare come padre delle attività in questo modello.</td> 
+      <td role="rowheader">Selezionare l'attività del progetto da impostare come attività padre in questo modello.</td> 
       <td> <p>Selezionare l'attività di progetto che si desidera designare come attività padre per tutte le attività modello. Se non si effettua una selezione, tutte le attività modello vengono visualizzate alla fine delle attività progetto correnti. Puoi saltare questo passaggio e spostare le attività all’interno del progetto dopo aver allegato il modello.</p>
       <p><b>NOTA</b></p>
       <p>Se è stata selezionata un'attività modello padre con figli aggiuntivi, solo l'attività progetto padre verrà visualizzata come predecessore dopo essere stata aggiunta al progetto. Le attività modello figlio non visualizzeranno un predecessore.</p>
