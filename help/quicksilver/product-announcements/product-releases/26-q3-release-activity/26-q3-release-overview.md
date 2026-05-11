@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
+source-git-commit: 1c303f7ce5f44b2515797f8b4af7b673274ca00b
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 43%
@@ -123,7 +123,7 @@ Questo aggiornamento è valido sia per Mac che per Windows.
 
 ## Annunci
 
-API versione 22
+### API versione 22
 
 La versione 22 dell’API di Workfront è stata rilasciata l’8 maggio 2026. Per API versione 22, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
