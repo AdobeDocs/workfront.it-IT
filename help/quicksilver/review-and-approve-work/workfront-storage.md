@@ -6,7 +6,7 @@ description: Pianifica il rollout di Workfront sullo storage aziendale Adobe. Sc
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 8daaeacae50e0f0245c2783fd6c827da192ae706
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
@@ -219,3 +219,4 @@ Per informazioni dettagliate sull&#39;impatto sui tipi di scenario comuni e su c
 * [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [L’area Documenti](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+
