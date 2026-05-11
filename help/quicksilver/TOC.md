@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14106'
 ht-degree: 95%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 95%
    * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
    * [Panoramica sulla revisione e sull’approvazione unificata](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [Introduzione alla revisione e all’approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [Passare a Workfront sullo storage aziendale Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [Panoramica sul documento limitato e sulla decisione di bozza per utenti non pagati](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[Configura revisori IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * Approvazioni lavoro {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 95%
       * [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Aggiornare gli scenari di Workfront Fusion per la revisione e l’approvazione unificate](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [Visualizzare il numero di decisioni su bozze e documenti per tutti gli utenti](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Schede orario {#timesheets}
    * [Timesheet: indice degli articoli](timesheets/timesheets-all.md)
