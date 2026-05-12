@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 3%
@@ -21,6 +21,13 @@ ht-degree: 3%
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
+
+<!--
+and remove the IMPORTANT below - it conflicts with this one: 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
+-->
 
 Adobe Workfront Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi.
 
@@ -255,7 +262,7 @@ Per inviare un feedback sulla tua esperienza con Workfront Planning:
 
 1. Fai clic su **Crea area di lavoro** per creare la tua area di lavoro.
 
-   Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    In qualità di amministratore di sistema, le nuove aree di lavoro vengono visualizzate nelle schede **Tutte le aree di lavoro** e **Aree di lavoro in cui sono presente**.
 
