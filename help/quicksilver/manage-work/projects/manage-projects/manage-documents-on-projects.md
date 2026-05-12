@@ -6,9 +6,9 @@ description: A seconda che l'amministratore di Workfront scelga per impostazione
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Nelle sezioni seguenti viene illustrato il funzionamento dell&#39;archiviazione 
 Quando si lavora con i progetti, considera quanto segue:
 
 * Quando si crea un progetto di archiviazione aziendale Adobe, Workfront crea una cartella nella sezione Documenti del progetto in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del progetto. Impossibile eliminare o rinominare manualmente la cartella. La cartella viene rinominata se modificate il nome del progetto in modo che corrisponda al nuovo nome del progetto.
-* Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio o programma di storage Workfront legacy, il portfolio o il programma viene automaticamente convertito in un oggetto di storage aziendale Adobe.
+* Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio o programma di storage Workfront legacy, il portfolio o il programma viene automaticamente convertito in un oggetto di storage aziendale Adobe, se il portfolio o il programma non dispone di documenti allegati prima dell&#39;aggiunta del progetto.
 * Non è possibile creare un progetto di storage Workfront per un portfolio o un programma di storage aziendale Adobe.
 * Quando si importa un progetto da MS Project, Workfront crea un progetto di storage Workfront, anche quando l&#39;amministratore di Workfront ha impostato lo storage Adobe Enterprise come predefinito per il sistema.
 * Quando si creano progetti utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il progetto. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
@@ -141,9 +141,11 @@ Quando si lavora con i progetti, considera quanto segue:
 Quando si lavora con i portfolio, considera quanto segue:
 
 * Quando si crea un portfolio di storage aziendale Adobe, Workfront crea una cartella nella sezione Documenti del portfolio in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del portfolio. Impossibile eliminare o rinominare manualmente la cartella. La cartella viene rinominata se modifichi il nome del portfolio in modo che corrisponda al nuovo nome del portfolio.
-* Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio di storage Workfront legacy, il portfolio viene automaticamente convertito in un oggetto di storage aziendale Adobe.
-* Se il portfolio convertito aveva già dei documenti allegati, questi rimangono memorizzati nello storage Workfront. I nuovi documenti vengono inoltre archiviati nell&#39;archivio Workfront.
-* Se il portfolio convertito non aveva documenti allegati nello storage Workfront, i nuovi documenti vengono memorizzati nello storage aziendale Adobe.
+
+* Quando si aggiunge un progetto di storage Adobe a un portfolio di storage Workfront e al portfolio non è allegato alcun documento, il portfolio viene convertito in un portfolio di storage Adobe.
+* Quando si aggiunge un progetto di storage Adobe a un portfolio di storage Workfront e al portfolio sono allegati dei documenti, lo storage dei documenti del portfolio rimane sullo storage Workfront. Tuttavia, l&#39;icona di archiviazione legacy di Workfront per il portfolio ![Icona di archiviazione legacy](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
+* Non puoi aggiungere un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe.
+
 * Quando si creano i portfolio utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il portfolio. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
 ### Gestione documenti per programmi
@@ -151,9 +153,11 @@ Quando si lavora con i portfolio, considera quanto segue:
 Quando si lavora con i programmi, considera quanto segue:
 
 * Quando si crea un programma di archiviazione aziendale Adobe, Workfront crea una cartella nella sezione Documenti del programma in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del programma, la cartella viene rinominata in base al nuovo nome del programma.
-* Quando si crea o si sposta un progetto di storage aziendale Adobe in un portfolio di storage Workfront legacy, il portfolio viene automaticamente convertito in un oggetto di storage aziendale Adobe.
-* Se al programma convertito erano già allegati dei documenti, questi rimangono memorizzati nell&#39;archivio Workfront. I nuovi documenti vengono inoltre archiviati nell&#39;archivio Workfront.
-* Se il programma convertito non aveva documenti allegati nello storage Workfront, i nuovi documenti vengono memorizzati nello storage aziendale Adobe.
+
+* Quando aggiungi un progetto di archiviazione Adobe a un programma di archiviazione Workfront e al programma non è allegato alcun documento, il programma viene convertito in un programma di archiviazione Adobe.
+* Quando aggiungi un progetto di archiviazione Adobe a un programma di archiviazione Workfront e al programma sono allegati dei documenti, l’archiviazione dei documenti del programma rimane nell’archiviazione Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront per il programma ![Icona dell&#39;archiviazione legacy di portfolio](assets/legacy-storage-project-icon.png) è stata rimossa dal programma.
+* Non puoi aggiungere un progetto di archiviazione Workfront a un programma di archiviazione Adobe.
+
 * Quando si creano programmi utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il programma. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
 ### Gestione dei documenti per le attività

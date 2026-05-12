@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 3%
@@ -177,7 +177,6 @@ Considera i seguenti aspetti:
   >[!TIP]
   >
   > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
-
 
 * Quando si crea un progetto di archiviazione aziendale, nella sezione **Documenti** del progetto viene creata una cartella documenti con lo stesso nome del progetto. Dopo aver aggiunto le attività al progetto, le cartelle con il nome dell&#39;attività vengono aggiunte alla sezione **Documenti** di ogni attività.
 

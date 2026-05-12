@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
@@ -119,6 +119,10 @@ Quando si sposta un&#39;attività, tenere presente quanto segue:
 
    * Le Milestone
 
+* Se l&#39;organizzazione utilizza sia lo storage aziendale legacy Workfront che Adobe, non è possibile spostare le attività tra progetti che utilizzano tipi di storage diversi.
+
+  Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Spostare le attività in un elenco
 
 {{step1-to-projects}}
@@ -155,7 +159,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
 1. Cercare un&#39;attività nel sistema Workfront.
 1. Fare clic sul nome dell&#39;attività per aprirla.
-1. Fai clic sull&#39;icona **del menu a discesa** Altro![&#x200B; accanto al nome dell&#39;attività, quindi fai clic su &#x200B;](assets/main-more-icon.png)Sposta in **.** Viene visualizzato il pannello laterale **Sposta attività**.
+1. Fai clic sull&#39;icona ![&#128279;](assets/main-more-icon.png) del menu a discesa **Altro** accanto al nome dell&#39;attività, quindi fai clic su **Sposta in**. Viene visualizzato il pannello laterale **Sposta attività**.
 
 1. (Facoltativo) Aggiorna **Nome attività**. L&#39;attività si sposta con il nuovo nome nella nuova posizione.
 
