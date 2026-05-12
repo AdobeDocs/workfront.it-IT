@@ -159,7 +159,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
 1. Cercare un&#39;attività nel sistema Workfront.
 1. Fare clic sul nome dell&#39;attività per aprirla.
-1. Fai clic sull&#39;icona ](assets/main-more-icon.png) del menu a discesa **Altro** accanto al nome dell&#39;attività, quindi fai clic su **Sposta in**. ![Viene visualizzato il pannello laterale **Sposta attività**.
+1. Fai clic sull&#39;icona ![&#128279;](assets/main-more-icon.png) del menu a discesa **Altro** accanto al nome dell&#39;attività, quindi fai clic su **Sposta in**. Viene visualizzato il pannello laterale **Sposta attività**.
 
 1. (Facoltativo) Aggiorna **Nome attività**. L&#39;attività si sposta con il nuovo nome nella nuova posizione.
 
@@ -275,7 +275,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >
