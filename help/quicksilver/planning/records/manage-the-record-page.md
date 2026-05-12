@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1646'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ Si verificano le seguenti situazioni:
 
    ![Casella Dettagli](assets/details-box.png)
 
-1. (Facoltativo e condizionale) A seconda dei campi che si desidera visualizzare nella pagina Dettagli, effettuare una delle seguenti operazioni:
+1. (Facoltativo e condizionale) <!--If you are using the Production environment,--> A seconda dei campi che si desidera visualizzare nella pagina Dettagli, eseguire una delle operazioni seguenti:
 
 
    * Selezionare l&#39;impostazione **Mostra tutti i campi** per includere tutti i campi del record nella pagina **Dettagli**. Questa è l&#39;impostazione predefinita.
@@ -292,6 +292,33 @@ Si verificano le seguenti situazioni:
      >
      >* L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile quando si apre la pagina Dettagli del record in una finestra del browser.
      >* Non è possibile aggiungere sezioni alla pagina di un record quando si escludono i campi nascosti nella casella Anteprima dettagli.
+
+
+   <!--
+   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+      >[!TIP]
+      >
+      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
+   -->
+   <!--
+   <div class="preview">
+   In the Preview environment, continue with the following: 
+   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+         >[!TIP]
+         >
+         >* Custom pages are visible by everyone who accesses the record. 
+         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+         >[!TIP]
+         >
+         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
+      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+   </div>
+   -->
 
 1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli.
 
