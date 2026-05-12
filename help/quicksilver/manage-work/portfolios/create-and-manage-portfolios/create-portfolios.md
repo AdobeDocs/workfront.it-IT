@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 4%
+source-wordcount: '884'
+ht-degree: 3%
 
 ---
 
@@ -97,13 +97,18 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
   Per informazioni sull&#39;importazione di dati tramite Kick-Start in Workfront, vedere [Importare dati in Adobe Workfront utilizzando un modello Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Aggiungere i portfolio quando vengono collegati da un tipo di record in Workfront Planning.
+* Aggiungere i portfolio da Workfront Planning nei modi seguenti:
 
-  È necessario disporre di una nuova licenza Workfront e di una licenza Workfront Planning aggiuntiva per Workfront Planning.
-
-  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
+   * Collegandoli da un tipo di record in Workfront Planning.
 
   Per informazioni sulla creazione di portafogli tramite l&#39;aggiunta di tali portafogli ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
+   * Utilizzo delle automazioni di Workfront Planning.
+
+  Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  È necessario disporre di una nuova licenza Workfront e di un pacchetto Workfront Planning aggiuntivo per Workfront Planning.
+
+  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
 
 
 ## Creare un portfolio
@@ -111,8 +116,35 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 {{step1-click-main-menu}}
 
 1. Fai clic su **[!UICONTROL Portfolio]**.
-1. Fare clic su **[!UICONTROL Nuovo Portfolio]**.
-1. Sostituisci **[!UICONTROL Portfolio senza titolo]** con il nome desiderato per il portfolio.
+
+1. (Condizionale) A seconda dell&#39;archiviazione documenti utilizzata dall&#39;organizzazione, fare clic su una delle opzioni seguenti:
+
+   * **Nuovo portfolio**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo portfolio (archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+
+     Questa opzione viene visualizzata solo quando nell&#39;area Consenti impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione** è selezionato.
+
+     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
+
+     Viene creato un portfolio il cui nome predefinito segue i seguenti pattern, a seconda del Workfront di archiviazione utilizzato per i documenti:
+
+      * `Untitled Portfolio` per un portfolio di archiviazione Workfront.
+
+        Un portfolio di archiviazione Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona portfolio di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` per un portfolio di archiviazione Adobe
+
+        >[!IMPORTANT]
+        >
+        >I portfolio che utilizzano lo storage aziendale Adobe devono avere nomi univoci.
+
+     Per i portfolio di archiviazione Adobe, nell’area Documenti viene creata automaticamente una nuova cartella di documenti con lo stesso nome del portfolio.
+
+1. Sostituisci il nome del portfolio con un nuovo nome nell’intestazione del portfolio.
 
    Il nome può contenere fino a 255 caratteri.
 

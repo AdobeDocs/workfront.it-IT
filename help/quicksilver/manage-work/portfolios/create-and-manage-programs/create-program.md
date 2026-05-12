@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 5%
 
 ---
@@ -106,13 +106,18 @@ Old:
   Per informazioni sull&#39;importazione di dati tramite Kick-Start in Workfront, vedere [Importare dati in Adobe Workfront utilizzando un modello Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Aggiungere i programmi quando vengono collegati da un tipo di record in Workfront Planning.
+* Creare programmi da Workfront Planning nei modi seguenti:
 
-  È necessario disporre di un pacchetto Workfront Planning aggiuntivo.
+   * Collegandoli da un tipo di record in Workfront Planning.
 
-  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+  Per informazioni sulla creazione di programmi tramite l&#39;aggiunta di tali record ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
+   * Utilizzo delle automazioni di Workfront Planning.
 
-  Per informazioni sulla creazione di portafogli tramite l&#39;aggiunta di tali portafogli ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
+  Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  È necessario disporre di una nuova licenza Workfront e di un pacchetto Workfront Planning aggiuntivo per Workfront Planning.
+
+  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
 
 ## Creare un programma
 
@@ -247,8 +252,8 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
    <td>Non puoi modificare la Data di completamento pianificata del programma nell’intestazione. Queste informazioni vengono aggiornate dai progetti nel programma. La data di completamento pianificata dell'ultimo progetto del programma diventa la data di completamento pianificata del programma.  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione progetti attivi </td> 
-   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione  è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
+   <td role="rowheader">Condizione progetti attivi [!UICONTROL]</td> 
+   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione [!UICONTROL] è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
   </tr> 
  </tbody> 
 </table>

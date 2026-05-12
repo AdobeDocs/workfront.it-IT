@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: cc5bdfed0b5bdc56d0042436c19abde65eb5f3bc
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 13%
+source-wordcount: '1064'
+ht-degree: 14%
 
 ---
 
@@ -32,9 +32,34 @@ Per ulteriori informazioni sui campi di ricerca esterna, vedere [Esempi di campi
 >
 >Per informazioni, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-## URL API di Workfront Planning
+## Versioni API di Workfront Planning
 
-<!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
+* Versione 1.0 - rilasciata a luglio 2024
+
+  Per ulteriori informazioni, vedere la sezione [Workfront Planning API versione 1.0](#workfront-planning-api-version-10) in questo articolo.
+  <!--
+    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1.0" when Version 2 releases
+    -->
+
+<!--
+* Version 2.0 - released in May 2026
+
+    For more information, see the section [Workfront Planning API Version 2.0](#workfront-planning-api-version-20) in this article.
+-->
+
+## Workfront Planning API versione 1.0
+
+Workfront Planning API versione 1.0 è stato rilasciato a luglio 2024.
+
+Nelle sezioni seguenti sono descritte le funzionalità disponibili in Workfront API versione 1.0.
+
+<!--
+Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
+-->
+
+<!--
+For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
+-->
 
 ### Operazioni
 
@@ -94,7 +119,7 @@ Workfront Planning supporta i seguenti modificatori di ricerca:
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>Restituisce record il cui valore di campo è vuoto  </td>
-        <td><ul><li>“” </li><li>null </li><ul>  </td>
+        <td><ul><li>"" </li><li>null </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -366,6 +391,32 @@ Corpo della richiesta:
 } 
 ```
 
-Per assicurarti che i risultati siano paginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che l’impaginazione non si ripeta né salti i risultati.
+Per assicurarti che i risultati siano paginati correttamente, utilizza un parametro di ordinamento. Questo consente di restituire i risultati nello stesso ordine, in modo che la paginazione non ripeta né ignori dei risultati.
 
 Per ulteriori informazioni sull&#39;ordinamento, vedere [Ordinamento dei risultati della query nell&#39;API](#sorting-query-results-in-the-api) in questo articolo.
+
+<!--
+
+## Workfront Planning API Version 2.0
+
+Version 2.0 of the Workfront Planning API was released in May 2026. 
+
+In addition to all the information contained in Version 1.0, the following enhancements were added in Version 2.0: 
+
+* Search by the user's Workfront ID field instead of the user's IMS ID.
+
+    This is applicable to custom People fields, as well as system fields such as Created By and Last Updated By fields.
+
+* Ability to search by external connections (Workfront or AEM objects) via the API.
+
+* Ability to link cross-workspace shared records through API. 
+
+* Support all CRUD operations for workspaces, record types, fields, and views. 
+
+* Enable permissions sharing for all sharable entities via API. 
+
+    This includes workspaces, record types, and views. (***********and in the future also records and fields.*********)
+
+* Support for uploading record thumbnail through API. 
+
+-->
