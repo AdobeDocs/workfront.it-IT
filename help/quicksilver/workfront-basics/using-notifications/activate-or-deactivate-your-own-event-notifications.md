@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 5%
 
 ---
@@ -65,9 +65,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step1-click-profile-pic}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica utente]**.
 
-1. Nella casella **[!UICONTROL Modifica persona]** visualizzata, vai alla sezione **[!UICONTROL Notifiche]**.
+1. Nella casella **[!UICONTROL Modifica utente]** visualizzata, vai alla sezione **[!UICONTROL Notifiche]**.
 
 1. Fare clic su una categoria per visualizzare le impostazioni di notifica correlate a tale categoria.
 
@@ -83,10 +83,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Per la categoria **[!UICONTROL Comunicazione]**, è possibile selezionare singole notifiche solo per la consegna immediata. Affinché le notifiche vengano recapitate in un riepilogo giornaliero, è necessario selezionarle tutte.
 
-   Se tutte le notifiche e-mail per una determinata categoria sono attivate, la casella nel titolo della categoria viene visualizzata come selezionata. Se tutte le notifiche e-mail in una determinata categoria sono disattivate, la casella viene deselezionata. Se alcune notifiche sono attivate e altre sono disattivate, la casella di controllo della categoria viene visualizzata come una linea retta.\
+   Se tutte le notifiche e-mail per una determinata categoria sono attivate, la casella nel titolo della categoria viene visualizzata come selezionata. Se tutte le notifiche e-mail in una determinata categoria sono disattivate, la casella viene deselezionata. Se alcune notifiche sono attivate e altre sono disattivate, la casella di controllo della categoria viene visualizzata come una linea retta.
+
    Quando modifichi un&#39;impostazione di notifica, viene visualizzata l&#39;etichetta **[!UICONTROL Modificato]** per tale impostazione di notifica, per informarti che l&#39;impostazione di notifica è stata modificata.
 
-1. Se hai selezionato delle notifiche da inviare come riepilogo giornaliero, seleziona l&#39;ora del giorno in cui desideri riceverla nella parte superiore della sezione **[!UICONTROL Notifiche]** nel menu **[!UICONTROL Invia riepilogo giornaliero tramite posta elettronica dopo]**.
+1. Se hai selezionato delle notifiche da inviare come riepilogo giornaliero, seleziona l&#39;ora del giorno in cui desideri riceverla nella parte superiore della sezione **[!UICONTROL Notifiche]** nel menu **[!UICONTROL Invia digest giornaliero tramite e-mail dopo]**.
 
    ![Digest giornaliero: scegli ora del giorno](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -97,4 +98,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Ricevi e-mail da sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Fai clic su **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva]**.

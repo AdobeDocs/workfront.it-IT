@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2954'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/ar
 
 Per informazioni sulla creazione di record, Consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
-&lt;!— menziona qui che i campi nella visualizzazione Dettagli sono gli stessi di quelli nella visualizzazione tabella — questo articolo è collegato da Gestisci visualizzazioni record uno per fare riferimento a queste informazioni—>
+&lt;!— menziona qui che i campi nella visualizzazione Dettagli sono gli stessi di quelli nella visualizzazione tabella. Questo articolo è collegato da Gestisci visualizzazioni record per fare riferimento a queste informazioni—>
 
 ## Requisiti di accesso
 
@@ -147,7 +147,7 @@ Old:
    * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da, ID record)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
-* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www.
+* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
 * È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * È possibile modificare l&#39;ordine dei campi nella pagina dei dettagli di un record. Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 * È possibile modificare le date di inizio e di fine di un record ridimensionando o riposizionando i record nelle visualizzazioni Timeline e Calendario.
@@ -319,6 +319,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
 
+   <!--update screenshot for new details views preview-->
+
    ![Casella Dettagli](assets/details-box.png)
 
 1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
@@ -373,6 +375,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
      ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
 
      Viene visualizzata la pagina del record.
+
+     <!--update screenshot for new details views preview-->
 
      ![Pagina dettagli](assets/details-page.png)
 

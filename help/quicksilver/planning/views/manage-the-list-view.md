@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1803'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 È possibile visualizzare gli oggetti nella vista a elenco nelle seguenti aree di Workfront Planning:
 
-* Pagina record connessi per i progetti nell&#39;area dei dettagli di un record
+* Pagina record connessi per progetti nell&#39;area dei dettagli di un record <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
 
   ![Progetti nella pagina dei record connessi nella vista a elenco](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       È possibile aggiungere solo campi esistenti alla visualizzazione elenco.
 Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. Fare clic sull&#39;icona **Formatta celle** ![Formatta celle icona](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**. <!--change the name of the box when they update it-->
 Effettua le seguenti operazioni:
 
@@ -232,7 +227,7 @@ Effettua le seguenti operazioni:
 La formattazione viene applicata immediatamente alla visualizzazione elenco.
 Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
-   1. (Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> per raggruppare gli elementi nell&#39;elenco in base a un campo comune. Seleziona una delle opzioni oppure utilizza la barra di ricerca per trovare un campo.
+   1. (Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) per raggruppare gli elementi nell&#39;elenco in base a un campo comune. Seleziona una delle opzioni oppure utilizza la barra di ricerca per trovare un campo.
 
       Il campo deve essere una colonna nell&#39;elenco prima di poter essere raggruppato in base a esso. Non tutti i tipi di campo possono essere utilizzati per i raggruppamenti.
 
@@ -243,7 +238,7 @@ Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare c
       * Canale
       * Alta
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Facoltativo) Aggiungi una parola chiave nella casella di ricerca nell’angolo superiore destro dell’elenco per cercare un elemento.
 
@@ -253,19 +248,21 @@ Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare c
 
    * Fai clic su **Connetti record** nell&#39;angolo superiore destro dell&#39;elenco per aggiungere elementi esistenti.
    * Fai clic su **Nuova riga** in fondo all&#39;elenco per aggiungere nuovi elementi.
-1. Fare clic sul nome di un elemento collegato nell&#39;elenco per aprirlo in un&#39;altra scheda del browser.
+1. Fare clic sul nome di un elemento nell&#39;elenco per aprirlo in un&#39;altra scheda del browser.
 1. Fare doppio clic all&#39;interno di una cella dell&#39;elenco per modificare le informazioni di un campo, quindi premere Invio per salvare le modifiche.
 
    Alcuni campi sono di sola lettura. Ad esempio, la percentuale di completamento di un progetto è un campo calcolato dal sistema e non è possibile modificarlo manualmente.
 
-1. Passa il puntatore del mouse sul nome di un elemento nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png) e fai clic su **Visualizza** per aprire il progetto in un&#39;altra scheda
+1. Passa il puntatore del mouse sul nome di un elemento nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png) e fai clic su **Visualizza** per aprire l&#39;elemento in un&#39;altra scheda
 
    Oppure
 
-   Seleziona uno o più elementi e osserva la barra delle azioni nella parte inferiore dell’elenco, quindi fai clic su uno dei seguenti, se disponibile. A seconda dell&#39;area da cui si accede alla vista a elenco, fare clic su una delle opzioni seguenti:
+   Seleziona uno o più elementi e osserva la barra delle azioni nella parte inferiore dell’elenco, quindi fai clic su uno dei seguenti, se disponibile.
+
+   A seconda dell&#39;area da cui si accede alla vista a elenco, fare clic su una delle opzioni seguenti:
 
    * **Elimina** per eliminare l&#39;elemento. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. Gli amministratori di Workfront possono recuperare i progetti eliminati fino a 30 giorni dopo la loro eliminazione. L’eliminazione di un modulo non comporta l’eliminazione delle richieste o dei record creati al momento dell’invio del modulo.
-   * **Disconnetti** per disconnettere il progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente.
+   * **Disconnetti** nella pagina Progetti connessi, per disconnettere un progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente.
 
      ![Barra delle azioni nella visualizzazione Elenco della pagina Record connessi](assets/actions-bar-connected-records-page-list-view.png)
 

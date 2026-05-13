@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 5%
 
 ---
@@ -178,12 +178,16 @@ Considera i seguenti aspetti:
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
+   <!--update screen shot for new details views preview-->
+
    ![Anteprima dettagli](assets/details-box.png)
 
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Viene visualizzata la pagina del record.
+
+   <!--update screen shot for new details views preview-->
 
    ![Pagina dettagli](assets/details-page.png)
 
@@ -207,6 +211,8 @@ La casella **Copertina record** si apre nella scheda **Carica**.
 1. Fare clic su **Usa immagine**.
 
    L’immagine viene caricata nella parte superiore della pagina dei dettagli o dell’anteprima del record e le modifiche vengono salvate automaticamente.
+
+   <!--update screen shot for new details views preview-->
 
    ![Registra pagina con immagine di copertina](assets/record-page-with-cover-image.png)
 
