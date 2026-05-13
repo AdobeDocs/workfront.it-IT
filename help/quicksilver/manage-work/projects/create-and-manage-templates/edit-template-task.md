@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3123'
 ht-degree: 7%
 
 ---
@@ -583,6 +583,23 @@ I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. Fai clic su **Salva**.
 
    Quando un utente crea un progetto a partire da questo modello, tutte le impostazioni applicate alle attività modello diventano le impostazioni delle attività progetto.
+
+
+## Modificare le attività modello in un elenco
+
+È possibile modificare l&#39;attività modello in un elenco nelle aree seguenti:
+
+* La sezione Attività modello di un modello
+* Un report attività modello
+
+La modifica delle attività modello in un elenco è simile alla modifica delle attività progetto in un elenco.
+
+>[!TIP]
+>
+>Nessuna modalità di pianificazione disponibile per le attività modello.
+
+
+Per informazioni, vedere [Modificare le attività in un elenco](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 
 <!--
