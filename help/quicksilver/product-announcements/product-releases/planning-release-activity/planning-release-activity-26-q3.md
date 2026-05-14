@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -55,35 +55,32 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
-## Custom views for a record's Details page 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
 -->
+
+## Visualizzazioni personalizzate per la pagina Dettagli di un record
+
+>[!NOTE]
+>
+>Anteprima: 14 maggio 2026>Versione rapida di produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+
+Per consentire una migliore flessibilità nella visualizzazione delle informazioni nella pagina dei dettagli di un record, è stata introdotta la possibilità di creare visualizzazioni personalizzate per questa pagina.
+
+Oltre ad aggiungere due visualizzazioni di pagina dei dettagli già create che contengono tutti i campi dei record o solo i campi visibili nella visualizzazione tabella, è ora possibile creare visualizzazioni personalizzate per le pagine dei dettagli di un record. Le visualizzazioni create sono visibili a tutti coloro che possono accedere al record.
+
+Questo aggiornamento rimuove l&#39;impostazione **Mostra tutti i campi** e la sostituisce con le visualizzazioni dei dettagli personalizzate.
+
+Per informazioni, vedere [Gestire la pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Aggiungere raggruppamenti a una pagina record Progetti connessi
+
+>[!NOTE]
+>
+>Anteprima: 14 maggio 2026\
+>Velocità di produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+
+È ora possibile raggruppare le informazioni nella pagina dei record connessi ai progetti di un record in Workfront Planning. Questa funzionalità non esisteva in quest’area prima di questo miglioramento.
+
+Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 
 <!--
