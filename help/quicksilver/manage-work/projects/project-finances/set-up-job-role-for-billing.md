@@ -7,9 +7,9 @@ description: Workfront consente di fatturare un utente con una mansione diversa 
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ Per assegnare una mansione per la fatturazione a livello di progetto:
 1. Selezionare la **mansione** da utilizzare come mansione per la fatturazione per questo utente in questo progetto.
 1. (Facoltativo) Fai clic su **Aggiungi mansione** per definire le date di validità della mansione per la fatturazione. Immetti le date **Inizio** e **Fine** per la mansione.
 
-[Aggiungi mansione per la fatturazione a livello di progetto](assets/jrfb-project-level.png)
+   ![Aggiungi ruolo per fatturazione a livello di progetto](assets/jrfb-project-level.png)
 
 1. Fai di nuovo clic su **Aggiungi mansione** per specificare ulteriori ruoli di fatturazione per diversi periodi di tempo.
 1. Fai clic su **Salva**.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 5%
 
 ---
@@ -88,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td>[!UICONTROL Progetto]</td> 
       <td>Nome di un progetto</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Resource for Billing], [!UICONTROL Billing Records], [!UICONTROL Spese], [!UICONTROL Ore], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Persone], [!UICONTROL Utilizzazione], [!UICONTROL Dettagli coda], [!UICONTROL Regole di routing], [!UICONTROL Argomento coda], [!UICONTROL Gruppo argomenti], [!UICONTROL Metriche], [!UICONTROL Pianificazione]*, [!UICONTROL applicazione personalizzata]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Attività]</td> 
@@ -204,7 +204,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tbody> 
    </table>
 
-   *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    **Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del pannello sinistro. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
