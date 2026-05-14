@@ -6,9 +6,9 @@ description: Inventariare, classificare e correggere gli scenari Workfront Fusio
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Gli scenari Fusion esistenti basati su Workfront Proof si basano su moduli speci
 
 | Tipo di scenario | Impatto | Percorso in avanti |
 |---|---|---|
-| Creazione e instradamento delle bozze | Interruzioni | Rigenera utilizzando l’API di approvazione unificata |
-| Webhook sullo stato della bozza | Interruzioni | Rigenera con nuovi trigger di evento di approvazione |
-| Trigger di caricamento documento | Parziale: è necessario ripetere il test | Controlla e riprova dopo la migrazione |
+| Creazione e instradamento delle bozze | Interruzioni | Rigenera utilizzando l’API di approvazione unificata nel terzo trimestre del 2026 |
+| Webhook sullo stato della bozza | Interruzioni | Ricostruisci con nuovi trigger di evento di approvazione nel terzo trimestre 2026 |
+| Trigger di caricamento documento | Parziale: è necessario ripetere il test | Audit e nuovo test dopo la migrazione nel terzo trimestre 2026 |
 | Notifiche promemoria approvazione | Interruzioni | Sostituisci con scadenze modello di approvazione |
 | Indirizzamento delle decisioni di approvazione | Interruzioni | Rigenera utilizzando i nuovi campi di stato delle decisioni |
 | Rapporti di approvazione personalizzati | Parziale: i nomi dei campi possono cambiare | Mappa i campi legacy al nuovo schema |
