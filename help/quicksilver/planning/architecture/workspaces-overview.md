@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 4%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 4%
 
 Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità organizzativa che rappresenta il ciclo di vita lavorativa e i processi dell’unità. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
+<!--update screenshot with preview-->
 
 ![Account amministratore pagina di destinazione aree di lavoro](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
       * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
       * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema.
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * Per tutti gli altri utenti, le aree di lavoro create e quelle condivise con gli altri utenti vengono visualizzate nell&#39;area Workspace.
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * I tipi di record contenuti in un&#39;area di lavoro devono riflettere il ciclo di vita lavorativa e i concetti di un&#39;unità organizzativa.
 
