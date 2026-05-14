@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a0294e107bffab97b64d5c94187515a01f914190
+source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 42%
+source-wordcount: '705'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -36,6 +36,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti ai documenti](#documents-enhancements)
+* [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
 
 ### Miglioramenti ai documenti
@@ -52,11 +53,44 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Trimestrale</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Visualizza i badge di stato di Experience Manager Assets e approvazione nell'area Documenti</a>
+                <p>Le risorse collegate nell’area Documenti ora visualizzano i badge di stato che indicano se un file è stato inviato ad Adobe Experience Manager Assets insieme al relativo stato di approvazione corrente.</p>
+            </td>
+            <td><p>14 maggio 2026</p></td>
+            <td><p>14 maggio 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Visualizza utilizzo archiviazione aziendale di Adobe</a>
                 <p>La pagina Informazioni cliente in Configurazione ora include una nuova sezione Panoramica dello storage con i contatori di utilizzo per lo storage aziendale Adobe.</p>
             </td>
             <td><p>30 aprile 2026</p></td>
             <td><p>14 maggio 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti al reporting
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">È stata migliorata la precisione dei dati nei report del dashboard Canvas</a>
+                <p>Le query dei report del dashboard Canvas ora sono strutturate in modo da evitare righe duplicate quando i filtri o i campi si incrociano tra record correlati, pertanto i conteggi, le somme e altri aggregati restituiscono valori precisi.</p>
+            </td>
+            <td><p>14 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
             <td><p>16 luglio 2026</p></td>
         </tr>
     </tbody>
@@ -95,8 +129,6 @@ Le nuove funzioni di Workfront Fusion sono disponibili nell’ambiente di Produz
 
 ### Miglioramenti di Pianificazione di Workfront
 
-A questo punto della versione non sono presenti miglioramenti di Workfront Planning.
-
 <!--
 New features in Workfront Planning are available in Production.
 -->
@@ -133,10 +165,35 @@ Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della vers
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 <!--
+### Workfront Planning API version 2 
+
+Available for all customers: May 14, 2026.
+
+Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
+
+Version 2 also brings improvements to URL structure, error handling, pagination, filtering, and permissions, in addition to  including partial updates via PATCH, bulk record operations, and more.
+
+Version 1 remains available, although we recommend you switch to using Version 2.
+
+NOTE: The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
+
+For information, see Adobe Workfront Planning API basics (/help/quicksilver/planning/general/planning-api-basics.md). 
+
+For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
+
+-->
+
+### Chiusura della versione di valutazione di Workfront Planning in corso
+
+La versione di prova di Workfront Planning verrà chiusa il 15 maggio 2026.
+
+Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita di Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
+<!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
