@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 2%
 
 # Gestire il layout della pagina dei record
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -288,7 +286,7 @@ Si verificano le seguenti situazioni:
 
    ![Casella Dettagli](assets/details-box.png)
 
-1. (Facoltativo e condizionale) <!--If you are using the Production environment,--> A seconda dei campi che si desidera visualizzare nella pagina Dettagli, eseguire una delle operazioni seguenti:
+1. (Facoltativo e condizionale) Se utilizzi l’ambiente Produzione, a seconda dei campi che desideri visualizzare nella pagina Dettagli, effettua una delle seguenti operazioni:
 
 
    * Selezionare l&#39;impostazione **Mostra tutti i campi** per includere tutti i campi del record nella pagina **Dettagli**. Questa è l&#39;impostazione predefinita.
@@ -300,36 +298,37 @@ Si verificano le seguenti situazioni:
      >* Non è possibile aggiungere sezioni alla pagina di un record quando si escludono i campi nascosti nella casella Anteprima dettagli.
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview">(Facoltativo e condizionale) Se si utilizza l&#39;ambiente Anteprima, l&#39;area dei dettagli viene aperta per impostazione predefinita nella visualizzazione **Campi della visualizzazione Tabella selezionati**. In questo modo vengono visualizzati solo i campi visibili nella vista tabella. </span>
+
+   >[!TIP]
+   >
+   > <span class="preview">La visualizzazione **Campi di visualizzazione tabella selezionati** è disponibile solo quando si visualizzano record nella visualizzazione tabella.</span>
+
+<div class="preview">
+
+Nell’ambiente di anteprima, continua con quanto segue:
+
+1. Per visualizzare tutti i campi, espandi il menu a discesa della visualizzazione della pagina, quindi seleziona **Tutti i campi**.
+1. (Facoltativo) Fai clic su **Nuovi dettagli** per aggiungere una nuova pagina e personalizzarla, quindi effettua le seguenti operazioni:
+
+   1. Nella casella **Crea visualizzazione**, aggiungi un nome per la nuova visualizzazione della pagina dei dettagli, quindi fai clic su **Crea**.
+   1. Passa il puntatore del mouse sui campi nella visualizzazione e fai clic sull&#39;icona **Nascondi campo** ![Nascondi icona campo](assets/hide-field-in-details-page-icon.png) a sinistra dei campi, per nascondere il campo.
+
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
+      >* Le pagine personalizzate sono visibili da tutti gli utenti che accedono al record.
+      >* L&#39;ultima visualizzazione di pagina scelta sarà quella che viene aperta per impostazione predefinita quando si apre un altro record dello stesso tipo.
 
-   In the Preview environment, continue with the following: 
-   
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+   1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Campi](assets/fields-icon.png) nella parte superiore della pagina dei dettagli, quindi nascondi o mostra i campi nella pagina Dettagli.
+
+      >[!TIP]
+      >
+      >L&#39;icona **Campi** non è disponibile quando si visualizza la pagina dei dettagli nella **visualizzazione Tabella selezionata** o nelle **visualizzazioni Tutti i campi**.
+
+   1. (Facoltativo) Per modificare il nome della visualizzazione di una pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-menu.png) , quindi fai clic su **Modifica**.
+   1. (Facoltativo) Per eliminare una visualizzazione di pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Altro](assets/more-menu.png), quindi fai clic su **Elimina**, quindi su **Elimina** per confermare. Non è possibile recuperare le visualizzazioni pagina dei dettagli eliminate.
+
+</div>
 
 1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli.
 
