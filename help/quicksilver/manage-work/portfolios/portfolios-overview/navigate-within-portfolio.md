@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 6%
@@ -47,7 +47,7 @@ Per ulteriori informazioni sui portfolio, consulta [Informazioni sulla metodolog
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -157,10 +157,10 @@ Per informazioni sui programmi, vedere la sezione [Creare e gestire i programmi]
    >Alcuni clienti possono avere accesso a entrambi i seguenti ambienti di storage dei documenti:
    >
    >  * **Archiviazione legacy di Workfront**: i portfolio che utilizzano questa archiviazione presentano l&#39;icona dell&#39;archiviazione legacy ![Icona dell&#39;archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
-   >  * **Archiviazione aziendale di Adobe**
+   >  * **Archiviazione cloud Adobe**
    >
    >L&#39;amministratore di Workfront decide quale storage utilizza la società o consente di scegliere con quale storage associare ciascun portfolio.
-   >Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
    >
    >L&#39;aggiunta di documenti ai portfolio varia a seconda del tipo di storage utilizzato.
    >

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '841'
 ht-degree: 6%
 
 ---
@@ -123,7 +123,7 @@ Quando un utente di Workfront invia un’e-mail a Workfront, si verificano le se
   >
   >* I file MSG non sono supportati e non verranno allegati al problema in Workfront.
   >
-  >* Se l’ambiente dispone dell’accesso sia all’archiviazione dei documenti aziendali legacy di Workfront che di Adobe, le richieste ereditano dal progetto il tipo di archiviazione dei documenti, indipendentemente da ciò che l’amministratore di Workfront ha selezionato per la preferenza di archiviazione predefinita nell’area Configura. Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+  >* Se l’ambiente dispone dell’accesso sia all’archiviazione cloud legacy di Workfront che Adobe per i documenti, le richieste ereditano dal progetto il relativo tipo di archiviazione, indipendentemente da quale sia la preferenza di archiviazione predefinita selezionata dall’amministratore di Workfront nell’area Configura. Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 * L’utente che invia l’e-mail diventa il contatto principale del nuovo problema in Workfront.
 * Il corpo del testo dell’e-mail non può superare i 4.000 caratteri.

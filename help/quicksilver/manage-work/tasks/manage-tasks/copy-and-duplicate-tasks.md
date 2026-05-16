@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Quando copi un’attività, tieni presente quanto segue:
 
 * È possibile copiare un&#39;attività alla volta oppure più attività contemporaneamente quando si modificano le attività in un elenco.
 
-* Se l&#39;organizzazione utilizza sia lo storage aziendale legacy Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di storage diversi.
+* Se la tua organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non puoi copiare attività tra progetti che utilizzano tipi di archiviazione diversi.
 
   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -249,7 +249,7 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 

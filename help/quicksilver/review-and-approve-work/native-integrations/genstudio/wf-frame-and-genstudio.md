@@ -11,7 +11,7 @@ hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 7%
@@ -70,7 +70,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 * Workfront e GenStudio for Performance Marketing devono essere distribuiti nella stessa organizzazione Identity Management System (IMS).
 
-* L’istanza Workfront deve avere lo storage aziendale Adobe abilitato. Per ulteriori informazioni, vedere [Abilitare lo storage aziendale di Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+* L’istanza di Workfront deve avere l’archiviazione cloud Adobe abilitata. Per ulteriori informazioni, vedere [Abilitare l&#39;archiviazione cloud Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 
 ## Utilizzare i modelli di approvazione unificata di Workfront per definire i flussi di lavoro di approvazione
@@ -87,7 +87,7 @@ Per ulteriori informazioni sulla creazione di modelli di flusso di lavoro di app
 
 Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro di approvazione unificato, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
 
-Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore Frame.io
 
@@ -106,4 +106,4 @@ Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere
 
 Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

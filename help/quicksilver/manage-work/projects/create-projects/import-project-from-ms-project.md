@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 9%
 
 ---
@@ -128,7 +128,7 @@ Puoi creare un progetto dall&#39;area **Progetti** nel **Menu principale** o dal
 
    >[!CAUTION]
    >
-   >Se l’istanza di Workfront ha accesso sia all’archiviazione dei documenti di Workfront che di Adobe, l’importazione di un progetto da MS Project crea un progetto di archiviazione Workfront, anche quando l’amministratore di Workfront ha impostato l’archiviazione Adobe Enterprise come predefinita per il sistema.
+   >Se l’istanza di Workfront ha accesso sia all’archiviazione cloud Workfront che Adobe per i documenti, l’importazione di un progetto da MS Project crea un progetto di archiviazione Workfront legacy, anche quando l’amministratore di Workfront ha impostato l’archiviazione cloud Adobe come predefinita per il sistema.
    >
    >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

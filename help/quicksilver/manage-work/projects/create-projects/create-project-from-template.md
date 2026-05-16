@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -159,22 +159,22 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
    1. (Facoltativo) Nel campo **Cerca modelli**, inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell&#39;elenco.
    1. Fare clic sul nome di uno dei seguenti tipi di modelli per sceglierli:
 
-      * Un modello di archiviazione Workfront
+      * Un modello di storage Workfront legacy
 
-        I modelli di archiviazione Workfront visualizzano l&#39;icona ![Archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+        i modelli di archiviazione legacy di Workfront visualizzano un&#39;icona di archiviazione legacy ![icona di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
         I documenti sul modello e sui progetti futuri verranno archiviati in Workfront.
-      * Un modello di archiviazione Adobe
+      * Un modello di archiviazione cloud Adobe
 
-        I documenti sul modello e sui progetti futuri verranno memorizzati nell’archivio aziendale di Adobe.
+        I documenti sul modello e sui progetti futuri verranno memorizzati nell’archiviazione cloud di Adobe.
 
       >[!NOTE]
       >
-      >* L’utilizzo di un modello di storage aziendale Adobe consente di creare un progetto di storage aziendale Adobe.
+      >* L’utilizzo di un modello di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
       >
-      >* L&#39;utilizzo di un modello di storage Workfront consente di creare un progetto di storage Workfront.
+      >* L&#39;utilizzo di un modello di storage Workfront legacy consente di creare un progetto di storage Workfront legacy.
       >
-      >* Quando si utilizza un modello di storage aziendale Adobe da un portfolio o da un programma di storage Workfront, il progetto è un progetto di storage aziendale Adobe e il portfolio o il programma vengono convertiti in oggetti di storage aziendale Adobe. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
+      >* Quando utilizzi un modello di archiviazione cloud Adobe da un portfolio o programma di archiviazione Workfront legacy, il progetto è un progetto di archiviazione cloud Adobe e il portfolio o il programma vengono convertiti anche in oggetti di archiviazione cloud Adobe. Tutti gli altri progetti di storage Workfront legacy nell&#39;ambito dello stesso portfolio o programma rimangono invariati.
       >
       > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
       >
@@ -226,7 +226,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
 
-   Per i progetti di archiviazione Adobe viene creata automaticamente una cartella documenti con lo stesso nome del progetto, nella sezione Documenti del progetto.
+   Per i progetti di archiviazione cloud Adobe nella sezione Documenti del progetto viene creata automaticamente una cartella documenti con lo stesso nome del progetto.
 
 ## Creare un progetto da un modello nell’area Modelli
 
@@ -234,7 +234,7 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 
 >[!NOTE]
 >
->I modelli associati all&#39;archiviazione documenti di Workfront creano progetti legacy di archiviazione Workfront. I modelli associati all’archiviazione di documenti aziendali Adobe creano progetti di archiviazione Adobe. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
+>I modelli associati all&#39;archiviazione documenti di Workfront creano progetti di archiviazione Workfront legacy. I modelli associati all’archiviazione cloud di Adobe per i documenti consentono di creare progetti di archiviazione cloud di Adobe. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 >
 >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -261,4 +261,4 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
 
-   Per i progetti di archiviazione Adobe viene creata automaticamente una cartella documenti con lo stesso nome del progetto, nella sezione Documenti del progetto.
+   Per i progetti di archiviazione cloud Adobe nella sezione Documenti del progetto viene creata automaticamente una cartella documenti con lo stesso nome del progetto.

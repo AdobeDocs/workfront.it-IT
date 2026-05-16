@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 6%
 
 ---
 
 # Creare cartelle di documenti
 
-I documenti possono essere organizzati in cartelle. In Workfront sono attualmente disponibili due versioni dell&#39;area Documenti: l&#39;area documenti legacy e l&#39;area nuovi documenti. La versione utilizzata dall&#39;organizzazione dipende dal fatto che l&#39;organizzazione si basi su sistemi di storage Workfront o aziendali legacy. Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sullo storage aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+I documenti possono essere organizzati in cartelle. In Workfront sono attualmente disponibili due versioni dell&#39;area Documenti: l&#39;area documenti legacy e l&#39;area nuovi documenti. La versione utilizzata dalla tua organizzazione dipende dal fatto che la tua organizzazione utilizzi sistemi di archiviazione legacy Workfront o Adobe Cloud Storage. Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 
@@ -30,7 +30,7 @@ I documenti possono essere organizzati in cartelle. In Workfront sono attualment
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
-<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p> </td> 
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando l’archiviazione cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -51,7 +51,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Creare cartelle di documenti nell&#39;area documenti legacy
 
-Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Per informazioni sulla condivisione di cartelle, vedere [Condividere una cartell
 
 ## Creare cartelle di documenti nella nuova area Documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Cartelle generate dal sistema
 
@@ -130,7 +130,7 @@ Le cartelle generate dal sistema possono essere spostate in un altro progetto, a
 
 >[!NOTE]
 >
->Nella finestra di dialogo Sposta sono disponibili solo i progetti, le attività e i problemi che utilizzano lo stesso tipo di archiviazione. Se ad esempio si sposta una cartella in un progetto di archiviazione aziendale, saranno disponibili solo i progetti, le attività e i problemi che utilizzano l&#39;archiviazione aziendale.
+>Nella finestra di dialogo Sposta sono disponibili solo i progetti, le attività e i problemi che utilizzano lo stesso tipo di archiviazione. Ad esempio, se sposti una cartella in un progetto di archiviazione cloud Adobe, sono disponibili per lo spostamento solo i progetti, le attività e i problemi che utilizzano l’archiviazione cloud Adobe.
 
 
 Per spostare una cartella:

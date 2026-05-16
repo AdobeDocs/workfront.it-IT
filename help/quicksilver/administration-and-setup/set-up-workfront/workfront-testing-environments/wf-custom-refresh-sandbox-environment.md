@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Inoltre, esiste un costo aggiuntivo per ottenere la sandbox di aggiornamento personalizzata che non è necessaria per la sandbox di anteprima.
 >
->  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Requisiti di accesso
 
@@ -81,6 +81,12 @@ La sandbox di aggiornamento personalizzata contiene i dati di produzione effetti
 If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
 </note>
 -->
+
+## Archiviazione cloud Adobe nella Sandbox di aggiornamento personalizzata
+
+L’archiviazione cloud Adobe è disponibile nella Sandbox di aggiornamento personalizzata in modo da poterla testare prima di abilitarla in produzione. Tuttavia, il visualizzatore Frame.io non è disponibile in ambienti sandbox, pertanto l’esperienza di revisione e approvazione unificata deve essere convalidata in produzione.
+
+Dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe, devi aggiornare la sandbox di aggiornamento personalizzata per accedere alla funzionalità di archiviazione cloud di Adobe nella sandbox. Al termine dell’aggiornamento, puoi iniziare a testare l’archiviazione cloud Adobe. Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Accedere alla sandbox di aggiornamento personalizzata dall’ambiente di produzione {#access-the-custom-refresh-sandbox-from-your-production-environment}
 

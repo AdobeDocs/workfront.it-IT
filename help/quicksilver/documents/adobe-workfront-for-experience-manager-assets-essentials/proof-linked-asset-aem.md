@@ -6,9 +6,9 @@ description: Dopo aver collegato una risorsa da Experience Manager Assets Essent
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,7 @@ Dopo aver collegato una risorsa da Experience Manager Assets Essentials, puoi cr
 >[!NOTE]
 >
 >Questa funzionalità non è disponibile nella nuova area Documenti.<br>
->Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Da lì puoi aggiungere risorse da Experience Manager Assets, rivederle e approvarle con il visualizzatore Frame.io. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Da lì puoi aggiungere risorse da Experience Manager Assets, rivederle e approvarle con il visualizzatore Frame.io. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Requisiti di accesso
 

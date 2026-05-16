@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 5%
@@ -264,7 +264,7 @@ Se la società ha acquistato un pacchetto Workfront Planning, non è possibile c
    A seconda della configurazione della coda di richieste, la sezione Documenti potrebbe essere visualizzata prima o dopo i campi personalizzati.</p> <p> </p>
    <p>A seconda del tipo di archiviazione dei documenti selezionato dall’amministratore di Workfront per l’ambiente in uso, i documenti allegati alle richieste vengono aggiunti ai seguenti elementi:</p>
       <ul><li>Per le richieste che utilizzano l’archiviazione Workfront, i documenti vengono aggiunti alla sezione Documenti della richiesta appena creata.</li>
-      <li>Per le richieste che utilizzano l’archiviazione aziendale di Adobe, i documenti vengono aggiunti a una nuova cartella con lo stesso nome della richiesta, automaticamente aggiunta alla richiesta durante il processo di invio. </li></ul>
+      <li>Per le richieste che utilizzano l’archiviazione cloud di Adobe, i documenti vengono aggiunti a una nuova cartella con lo stesso nome della richiesta, automaticamente aggiunta alla richiesta durante il processo di invio. </li></ul>
       <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</p>
       <p>Il tipo di archiviazione problema e richiesta viene ereditato dal progetto. </p>
       <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.</p>

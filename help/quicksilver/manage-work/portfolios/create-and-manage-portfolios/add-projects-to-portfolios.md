@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >Se l&#39;organizzazione utilizza sia l&#39;archiviazione dei documenti aziendali legacy di Workfront che Adobe, si verificano i seguenti scenari:
+   >Se la tua organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe per i documenti, esistono i seguenti scenari:
    >
    >
-   >* Quando si aggiunge un progetto di storage Adobe a un portfolio di storage Workfront e al portfolio non è allegato alcun documento, il portfolio viene convertito in un portfolio di storage Adobe.
-   >* Quando si aggiunge un progetto di storage Adobe a un portfolio di storage Workfront e al portfolio sono allegati dei documenti, lo storage dei documenti del portfolio rimane sullo storage Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront ![Icona dell&#39;archiviazione legacy di Workfront](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
-   >* Non puoi aggiungere un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe.
+   >* Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy e al portfolio non è allegato alcun documento, il portfolio viene convertito in un portfolio di archiviazione cloud Adobe.
+   >* Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy a cui sono allegati dei documenti, il portfolio di archiviazione dei documenti rimane nello storage Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront ![Icona dell&#39;archiviazione legacy di Workfront](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
+   >* Non puoi aggiungere un progetto di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe.
    >
    >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >

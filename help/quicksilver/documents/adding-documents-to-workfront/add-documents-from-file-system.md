@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1317'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 4%
 Adobe Workfront attualmente dispone dei seguenti due tipi di archiviazione dei documenti:
 
 * Storage Workfront legacy
-* Storage aziendale Adobe
+* Archiviazione cloud Adobe
 
-Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sullo storage aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ L’aggiunta di documenti a Workfront varia a seconda della versione dell’area
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage Workfront legacy</p>
-<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p></td> 
+<p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando l’archiviazione cloud Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
@@ -55,7 +55,7 @@ L’aggiunta di documenti a Workfront varia a seconda della versione dell’area
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Archiviazione Workfront legacy: modifica accesso ai documenti</p> 
-   <p>Archiviazione aziendale: l'accesso di modifica ai documenti è abilitato per impostazione predefinita e non può essere modificato</p>
+   <p>Adobe Cloud Storage: l’accesso di modifica ai documenti è abilitato per impostazione predefinita e non può essere modificato</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront legacy, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area Documenti legacy.
 
-Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 In Workfront è possibile aggiungere documenti alle seguenti aree:
 
@@ -146,7 +146,7 @@ Per aggiungere un documento:
 
 ## Aggiungere documenti a Workfront nella nuova area Documenti
 
-È possibile aggiungere documenti agli oggetti utilizzando il modello di storage aziendale Adobe. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Puoi aggiungere documenti agli oggetti utilizzando il modello di archiviazione cloud Adobe. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Funzionalità non attualmente supportata nella nuova area Documenti:
 
@@ -160,7 +160,7 @@ Funzionalità non attualmente supportata nella nuova area Documenti:
 
 ### Aggiungere documenti a Workfront nella nuova area Documenti
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Per aggiungere un documento:
 
@@ -174,22 +174,22 @@ Se hai bisogno di informazioni sul caricamento di nuove versioni di un documento
 
 Una cartella con lo stesso nome dell&#39;oggetto in cui si sta caricando il documento viene creata automaticamente nella sezione Documenti e il documento viene aggiunto alla cartella.
 
-## Sicurezza dei documenti per lo storage aziendale
+## Sicurezza dei documenti per l’archiviazione cloud di Adobe
 
 Workfront impedisce ai virus e ad altri contenuti dannosi di accedere al sito tramite i documenti nei seguenti modi:
 
 **Rilevamento dei file danneggiati in Workfront**
 
-La scansione dei documenti viene attivata automaticamente per gli oggetti che utilizzano il modello di storage aziendale Adobe.
+La scansione dei documenti viene attivata automaticamente per gli oggetti che utilizzano il modello di archiviazione cloud Adobe.
 
 Tutti i file di dimensioni inferiori a 500 MB vengono scansionati al momento del caricamento. I file superiori a 500 MB non vengono analizzati. Se Workfront rileva un documento danneggiato, questo viene rimosso automaticamente.
 
 **Limitazioni per i nomi dei file**
 
-Poiché questa integrazione viene creata utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate per la gestione di progetti e documenti.
+Poiché questa integrazione viene creata utilizzando l’archiviazione cloud di Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate durante la gestione di progetti e documenti.
 
 * I nomi degli oggetti devono essere univoci e non possono essere duplicati
-* Lo storage aziendale Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica
+* L’archiviazione cloud di Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica
 * I documenti non possono avere lo stesso nome se appartengono allo stesso progetto
 * I nomi dei documenti non possono contenere i seguenti caratteri speciali: `\ / : * ? " | < >`
 * I nomi dei documenti non possono superare i 255 caratteri

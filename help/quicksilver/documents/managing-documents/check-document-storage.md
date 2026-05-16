@@ -2,16 +2,16 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Verificare i limiti di archiviazione dei documenti
-description: In qualità di amministratore di Adobe Workfront, puoi visualizzare l’utilizzo e la quota di archiviazione dei documenti nella pagina Informazioni cliente. La visualizzazione dello storage dipende dal fatto che l'organizzazione utilizzi lo storage legacy Workfront o lo storage aziendale Adobe.
+description: In qualità di amministratore di Adobe Workfront, puoi visualizzare l’utilizzo e la quota di archiviazione dei documenti nella pagina Informazioni cliente. La modalità di visualizzazione dell’archiviazione dipende dal fatto che l’organizzazione utilizzi l’archiviazione Workfront legacy o l’archiviazione cloud Adobe.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 8%
+source-wordcount: '491'
+ht-degree: 7%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 8%
 
 Anche se non esistono restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront include una quota di archiviazione totale. In qualità di amministratore di Workfront, puoi monitorare l’utilizzo e la quota dall’area Configurazione della pagina Informazioni cliente.
 
-La visualizzazione dello storage dipende dal fatto che l’organizzazione utilizzi lo storage legacy Workfront o lo storage aziendale Adobe:
+La modalità di visualizzazione dell’archiviazione dipende dal fatto che l’organizzazione utilizzi l’archiviazione legacy Workfront o l’archiviazione cloud Adobe:
 
 * Se utilizzi l&#39;archiviazione legacy di Workfront, vedi [Archiviazione legacy di Workfront](#legacy-workfront-storage) in questo articolo.
-* Se utilizzi l&#39;archiviazione aziendale Adobe, vedi [Archiviazione aziendale Adobe](#adobe-enterprise-storage) in questo articolo.
+* Se utilizzi l&#39;archiviazione cloud Adobe, vedi [Archiviazione cloud Adobe](#adobe-cloud-storage) in questo articolo.
 
-  Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 
@@ -40,7 +40,7 @@ La visualizzazione dello storage dipende dal fatto che l’organizzazione utiliz
   <tr data-mc-conditions=""> 
    <td role="rowheader">piano Workfront</td> 
    <td> <p>Qualsiasi pacchetto Workfront per gestire i documenti utilizzando lo storage legacy</p>
-      <p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando lo storage aziendale Adobe</p> </td> 
+      <p>Qualsiasi pacchetto di flusso di lavoro per gestire i documenti utilizzando l’archiviazione cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza di Adobe Workfront</td> 
@@ -72,18 +72,14 @@ La quota di archiviazione viene aggiornata quotidianamente per mostrare il conte
 
 <div class="preview">
 
-## Storage aziendale Adobe
+## Archiviazione cloud Adobe
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, la quota di archiviazione viene segnalata come un’unica allocazione in pool che combina l’archiviazione fornita tramite la licenza Workfront e qualsiasi archiviazione fornita tramite un componente aggiuntivo Frame.io Enterprise. Non esiste un limite massimo per l&#39;utilizzo dello storage; gli utenti possono continuare a caricare i documenti anche quando l&#39;utilizzo supera la quota.
 
 ### Visualizzazione dell&#39;utilizzo dello storage nelle informazioni del cliente
 
-Per controllare l&#39;archiviazione di documenti aziendali Adobe:
+Per verificare la presenza di documenti nell’archiviazione cloud di Adobe:
 
 {{step-1-to-setup}}
 
@@ -91,11 +87,11 @@ Per controllare l&#39;archiviazione di documenti aziendali Adobe:
 1. Passare alla sezione **Panoramica archiviazione**.
 1. Controlla l’utilizzo. La panoramica dello storage mostra la quota di storage in pool e suddivide l&#39;utilizzo in:
 
-   * I progetti legacy di Workfront e i progetti di storage aziendale Adobe vengono visualizzati nella barra blu.
+   * I progetti legacy di Workfront e i progetti di Adobe cloud storage vengono visualizzati nella barra blu.
    * I progetti autonomi con frame vengono visualizzati nella barra verde. Questi progetti sono separati da Workfront e sono disponibili solo se si dispone di una licenza Frame.io Enterprise.
 
 
-![Utilizzo dello storage aziendale Adobe nelle informazioni sul cliente](assets/storage-usage.png)
+![Utilizzo dell&#39;archiviazione cloud Adobe nelle informazioni sul cliente](assets/storage-usage.png)
 
 I dati di utilizzo vengono aggiornati regolarmente in modo da visualizzare un conteggio aggiornato.
 

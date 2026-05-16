@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: Aggiornare gli scenari di Workfront Fusion per la revisione e l’approvazione unificate
-description: Inventariare, classificare e correggere gli scenari Workfront Fusion basati su Workfront Proofing legacy mentre l'organizzazione adotta lo storage aziendale Adobe e la revisione e l'approvazione unificate.
+description: Inventariare, classificare e correggere scenari Workfront Fusion basati su versioni precedenti di Workfront Proofing man mano che la tua organizzazione adotta l’archiviazione cloud Adobe e la revisione e l’approvazione unificate.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 # Aggiornare gli scenari di Workfront Fusion per la revisione e l’approvazione unificate
 
-Gli scenari Workfront Fusion basati su versioni precedenti di Workfront Proofing non funzionano automaticamente con i progetti di storage aziendale Adobe. I moduli specifici della bozza, i webhook e gli endpoint API hanno equivalenti diretti in alcuni casi e cambiamenti significativi in altri. Questo articolo consente di inventariare gli scenari interessati, classificarli e decidere un percorso di correzione prima di inserire i team che dipendono da tali scenari nel rollout dello storage aziendale Adobe.
+Gli scenari Workfront Fusion basati su versioni precedenti di Workfront Proofing non funzionano automaticamente con i progetti Adobe Cloud Storage. I moduli specifici della bozza, i webhook e gli endpoint API hanno equivalenti diretti in alcuni casi e cambiamenti significativi in altri. Questo articolo consente di inventariare gli scenari interessati, classificarli e decidere un percorso di correzione prima di inserire nel rollout dell’archiviazione cloud Adobe i team che dipendono da tali scenari.
 
-Gli scenari con ambito di progetti Workfront legacy continuano a funzionare come fanno attualmente. Il lavoro di correzione descritto in questo articolo si applica agli scenari che si intende eseguire sui progetti di storage aziendale Adobe.
+Gli scenari con ambito di progetti Workfront legacy continuano a funzionare come fanno attualmente. Il lavoro di monitoraggio e aggiornamento descritto in questo articolo si applica agli scenari che intendi eseguire sui progetti di archiviazione cloud di Adobe.
 
 I connettori di fusione con supporto nativo per revisione e approvazione unificate saranno disponibili nel terzo trimestre del 2026. Pianifica la ricostruzione ora, ma consigliamo di attendere i nuovi connettori prima di generare. Gli scenari saranno più semplici e affidabili di quelli che sostituiranno.
 
 Linee guida dettagliate sull’automazione saranno pubblicate insieme alla versione del connettore Fusion Q3 2026. Utilizza questo articolo per fare l’inventario e classificare gli scenari ora in modo da essere pronti ad agire una volta che la guida sarà disponibile.
 
-Per un riepilogo di alto livello delle modifiche apportate al passaggio dell&#39;organizzazione a Workfront su Adobe Enterprise Storage, vedere [Passare a Workfront su Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Per un riepilogo di alto livello delle modifiche apportate quando l&#39;organizzazione passa a Workfront sull&#39;archiviazione cloud Adobe, vedi [Passa a Workfront sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 
-## Quali sono le modifiche per Fusion sui progetti di storage aziendale Adobe
+## Modifiche per i progetti Fusion su Adobe Cloud Storage
 
 Gli scenari Fusion esistenti basati su Workfront Proof si basano su moduli specifici per le bozze, trigger di webhook ed endpoint API che non fanno parte del modello dati unificato di revisione e approvazione. La tabella seguente mappa i tipi di scenario comuni in base all’impatto previsto e al percorso futuro:
 
@@ -54,9 +54,9 @@ Esamina ogni scenario in base alla tua logica di business specifica per decidern
 
 Per pianificare ed eseguire la correzione di Fusion, utilizzare il seguente approccio:
 
-1. **Inventario ora.** Recupera un elenco completo degli scenari di Fusion attivi e assegna i tag a tutti quelli che fanno riferimento alla creazione di bozze, allo stato della bozza, alle approvazioni di documenti o al routing di approvazione. Non attendere l&#39;attivazione dello storage aziendale Adobe.
+1. **Inventario ora.** Recupera un elenco completo degli scenari di Fusion attivi e assegna i tag a tutti quelli che fanno riferimento alla creazione di bozze, allo stato della bozza, alle approvazioni di documenti o al routing di approvazione. Non aspettare fino a quando l’archiviazione cloud di Adobe non sarà stata abilitata.
 1. **Classifica ogni scenario** come Modifica, Ricompila o Ritira in base ai criteri della sezione precedente.
-1. **Sospendi gli scenari dipendenti dalla bozza** prima di inserire nel programma pilota per lo storage aziendale di Adobe i team che dipendono da essi. L’esecuzione di automazioni basate su bozze obsolete rispetto al nuovo modello può causare errori invisibili all’utente o azioni duplicate.
+1. **Sospendi gli scenari dipendenti dalla bozza** prima di inserire nel programma pilota per l&#39;archiviazione cloud di Adobe i team che dipendono da essi. L’esecuzione di automazioni basate su bozze obsolete rispetto al nuovo modello può causare errori invisibili all’utente o azioni duplicate.
 1. **Utilizzare i modelli di approvazione per sostituire la logica di routing semplice.** I modelli di approvazione nativi in più fasi con automazione delle scadenze possono gestire molti casi d’uso che in precedenza richiedevano Fusion. Per ulteriori informazioni, consulta [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 1. **Attendere gli aggiornamenti del connettore Fusion per il terzo trimestre 2026 prima di ricompilare.** I connettori aggiornati espongono i moduli progettati appositamente per la revisione e l’approvazione unificate e rendono le ricostruzioni notevolmente più semplici e affidabili. Si sconsiglia di ricostruire a fronte della versione 22 dell’API di Workfront in anticipo. Se procedi per uno scenario critico dal punto di vista temporale, pianifica di rivedere tale lavoro una volta rilasciati i nuovi connettori.
 1. **Verifica gli scenari ricostruiti end-to-end in un&#39;istanza sandbox** prima di abilitarli in produzione. Presta particolare attenzione ai payload di abbonamento agli eventi; i nomi dei campi e lo schema sono diversi dagli eventi di bozza precedenti.
@@ -67,7 +67,7 @@ Per pianificare ed eseguire la correzione di Fusion, utilizzare il seguente appr
 
 ## Articoli correlati
 
-* [Passare a Workfront sullo storage aziendale Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+* [Passare a Workfront sull’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
 * [Panoramica sulla revisione e sull’approvazione unificata](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

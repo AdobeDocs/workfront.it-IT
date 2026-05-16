@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 La verifica viene inclusa automaticamente per tutte le licenze in Workfront. Le licenze determinano ciò che gli utenti possono fare.
 
-<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
+<!--Workfront instances using Adobe cloud storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
 I precedenti pacchetti Workfront 2017 includono la verifica automatica delle licenze Lavoro e Piano se si dispone dei piani Workfront pro, business o enterprise. Questi piani vengono gradualmente eliminati.
 

@@ -2,28 +2,28 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Abilitare lo storage aziendale Adobe per la tua organizzazione
-description: È possibile abilitare lo storage aziendale Adobe per la propria organizzazione per utilizzare una soluzione di storage unificato per tutti i prodotti Adobe.
+title: Abilitare l’archiviazione cloud Adobe per la tua organizzazione
+description: Puoi abilitare l’archiviazione cloud di Adobe per la tua organizzazione per utilizzare una soluzione di archiviazione unificata per tutti i prodotti Adobe.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 9%
+source-wordcount: '459'
+ht-degree: 7%
 
 ---
 
-# Abilitare lo storage aziendale Adobe per la tua organizzazione
+# Abilitare l’archiviazione cloud Adobe per la tua organizzazione
 
-Lo storage aziendale Adobe è una soluzione di storage unificato per tutti i prodotti Adobe. Si tratta di una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe.
+Adobe Cloud Storage è una soluzione di archiviazione unificata per tutti i prodotti Adobe. Si tratta di una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe.
 
-Lo storage aziendale Adobe è abilitato per impostazione predefinita per i nuovi clienti e può essere abilitato per i clienti esistenti al rinnovo del contratto.
+L’archiviazione cloud di Adobe è abilitata per impostazione predefinita per i nuovi clienti e può essere abilitata per i clienti esistenti al momento del rinnovo del contratto.
 
-Per ulteriori informazioni sull&#39;archiviazione aziendale Adobe, vedere [Panoramica sull&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 
@@ -52,20 +52,20 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Abilitare lo storage aziendale Adobe per la tua organizzazione
+## Abilitare l’archiviazione cloud Adobe per la tua organizzazione
 
-Per abilitare lo storage aziendale Adobe per la tua organizzazione:
+Per abilitare l’archiviazione cloud Adobe per la tua organizzazione:
 
 {{step-1-to-setup}}
 
 1. Seleziona **Sistema** nel menu di navigazione a sinistra, quindi seleziona **Preferenze**.
 1. Scorri verso il basso fino alla sezione **Preferenze di archiviazione**.
-1. Nel menu a discesa Default, selezionare **Adobe enterprise storage**.
-1. (Facoltativo) Se si desidera utilizzare una combinazione di storage aziendale Adobe e storage Workfront legacy, selezionare la casella di controllo **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+1. Nel menu a discesa Predefinito, seleziona **Adobe Cloud Storage**.
+1. (Facoltativo) Se desideri utilizzare una combinazione di archiviazione cloud Adobe e archiviazione Workfront legacy, seleziona la casella di controllo **Consenti all&#39;utente di selezionare il provider di archiviazione**.
 
    >[!NOTE]
    >
-   >L’attivazione di questa opzione consente agli utenti di selezionare il provider di archiviazione al momento della creazione di un nuovo progetto. lo storage aziendale è etichettato come &quot;Nuovo progetto&quot; in quanto è il provider di storage predefinito. Lo storage Workfront legacy è etichettato come &quot;Progetto legacy&quot;.
+   >L’attivazione di questa opzione consente agli utenti di selezionare il provider di archiviazione al momento della creazione di un nuovo progetto. L’archiviazione cloud di Adobe è etichettata come &quot;Nuovo progetto&quot; in quanto è il provider di archiviazione predefinito. Lo storage Workfront legacy è etichettato come &quot;Progetto legacy&quot;.
    >
    >![nuove opzioni progetto e progetto legacy](assets/new-esm-project.png)
 
@@ -78,4 +78,10 @@ Per abilitare lo storage aziendale Adobe per la tua organizzazione:
 
    >[!NOTE]
    >
-   >I progetti esistenti mantengono il modello di archiviazione con cui sono stati creati. Ad esempio, i progetti che utilizzano lo storage aziendale Adobe continuano a utilizzare lo storage aziendale Adobe dopo aver modificato la preferenza di archiviazione predefinita.
+   >I progetti esistenti mantengono il modello di archiviazione con cui sono stati creati. Ad esempio, i progetti che utilizzano l’archiviazione cloud di Adobe continuano a utilizzare l’archiviazione cloud di Adobe dopo aver modificato la preferenza di archiviazione predefinita.
+
+## Archiviazione cloud Adobe in ambienti sandbox
+
+L&#39;archiviazione cloud di Adobe è disponibile in [!DNL Workfront] ambienti sandbox, che consentono di testare la funzionalità descritta in questo articolo prima di implementarla in produzione. Tuttavia, il visualizzatore Frame.io non è disponibile in sandbox, pertanto l’esperienza completa di revisione e approvazione unificata deve essere convalidata in produzione.
+
+Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe. L’aggiornamento consente alla sandbox di accedere alla funzionalità di archiviazione cloud di Adobe e di iniziare a testarla. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
