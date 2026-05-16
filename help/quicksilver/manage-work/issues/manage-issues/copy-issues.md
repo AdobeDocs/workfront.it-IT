@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1061'
 ht-degree: 5%
 
 ---
@@ -119,7 +119,7 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 * **Quando un problema è associato a una coda di richieste:** Quando si copia un problema in un altro oggetto e il problema è associato a una coda di richieste, il problema copiato non è più associato alla coda originale da cui ha avuto origine il primo problema.
 * **Quando un documento è allegato al problema:** Quando si copia un problema in un altro oggetto a cui è associato un documento, anche il documento e le relative versioni passano al nuovo problema. Eventuali bozze o approvazioni associate al documento non vengono spostate.
 * **Quando un problema è collegato a un documento o a una cartella:** Quando si copia un problema che include documenti o cartelle collegati a un servizio di terze parti come Google Drive, i collegamenti ai documenti vengono trasferiti al problema copiato.
-* **Quando si copiano problemi tra progetti con tipi di archiviazione diversi**: non è possibile copiare un problema da un progetto di archiviazione Workfront a un progetto di archiviazione Adobe. Anche il contrario è vero. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
+* **Quando si copiano problemi tra progetti con tipi di archiviazione diversi**: non è possibile copiare un problema da un progetto di archiviazione Workfront legacy a un progetto di archiviazione cloud Adobe. Anche il contrario è vero. L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

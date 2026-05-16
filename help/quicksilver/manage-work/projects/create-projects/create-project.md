@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 3%
 
 ---
@@ -170,15 +170,15 @@ Considera i seguenti aspetti:
 * La posizione in cui vengono memorizzati i documenti per un progetto e per i relativi oggetti secondari (attività e problemi) dipende da ciò che l&#39;amministratore di Workfront sceglie come impostazione predefinita per Preferenze di archiviazione nell&#39;area Preferenze di sistema di Configura. A seconda della posizione in cui vengono archiviati i documenti nell’istanza di Workfront, è possibile creare i seguenti tipi di progetti:
 
    * Progetti di storage Workfront legacy
-   * Progetti Adobe per lo storage aziendale.
+   * Progetti di archiviazione cloud Adobe.
 
-  Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+  Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
   >[!TIP]
   >
   > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
-* Quando si crea un progetto di archiviazione aziendale, nella sezione **Documenti** del progetto viene creata una cartella documenti con lo stesso nome del progetto. Dopo aver aggiunto le attività al progetto, le cartelle con il nome dell&#39;attività vengono aggiunte alla sezione **Documenti** di ogni attività.
+* Quando si crea un progetto di Adobe Cloud Storage, nella sezione **Documents** del progetto viene creata una cartella documenti con lo stesso nome. Dopo aver aggiunto le attività al progetto, le cartelle con il nome dell&#39;attività vengono aggiunte alla sezione **Documenti** di ogni attività.
 
 Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -199,29 +199,29 @@ Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per 
 
 1. (Condizionale) A seconda dell&#39;archiviazione documenti utilizzata dall&#39;organizzazione, fare clic su una delle opzioni seguenti:
 
-   * **Nuovo progetto**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
-   * **Nuovo progetto (archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo progetto**, quando l&#39;amministratore di Workfront sceglie **Adobe Cloud Storage** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo progetto (archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Archiviazione cloud Adobe** o **Workfront legacy** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
 
      Questa opzione viene visualizzata solo quando nell&#39;area Consenti impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione** è selezionato.
 
-     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
-     >* Quando si crea un progetto di storage aziendale da un portfolio o da un programma di storage Workfront, il portfolio o il programma viene convertito in oggetti di storage aziendale. Tutti gli altri progetti di storage Workfront appartenenti allo stesso portfolio o programma rimangono invariati.
+     >* Quando crei un progetto di archiviazione cloud Adobe da un portfolio o programma di archiviazione Workfront legacy, il portfolio o il programma viene convertito anche in oggetti di archiviazione cloud Adobe. Tutti gli altri progetti di storage Workfront legacy nell&#39;ambito dello stesso portfolio o programma rimangono invariati.
      >* L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 
      Viene creato un progetto il cui nome predefinito segue i seguenti pattern, a seconda del Workfront di archiviazione utilizzato per i documenti:
 
-      * `Untitled Project` per un progetto di archiviazione Workfront.
+      * `Untitled Project` per un progetto di archiviazione legacy di Workfront.
 
-        Un progetto di archiviazione Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+        Un progetto di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
-      * `Untitled Project - < Month day, year hour.minute.second >` per un progetto di archiviazione Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` per un progetto di archiviazione cloud Adobe
 
         >[!IMPORTANT]
         >
-        >I progetti che utilizzano lo storage aziendale Adobe devono avere nomi univoci.
+        >I progetti che utilizzano Adobe Cloud Storage devono avere nomi univoci.
 
 
 1. Nell’intestazione del progetto, aggiorna il nome del progetto. Premi Invio per salvare il nome.

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 4%
@@ -119,7 +119,7 @@ Quando si sposta un&#39;attività, tenere presente quanto segue:
 
    * Le Milestone
 
-* Se l&#39;organizzazione utilizza sia lo storage aziendale legacy Workfront che Adobe, non è possibile spostare le attività tra progetti che utilizzano tipi di storage diversi.
+* Se la tua organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non puoi spostare le attività tra progetti che utilizzano tipi di archiviazione diversi.
 
   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

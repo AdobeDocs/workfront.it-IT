@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       <p><b>NOTE</b></p>
       <ul>
       <li>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</li>
-      <li>Se l'organizzazione utilizza sia lo storage aziendale legacy Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di storage diversi. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
+      <li>Se la tua organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non puoi copiare attività tra progetti che utilizzano tipi di archiviazione diversi. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
       Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       <p><b>NOTE</b></p>
       <ul>
       <li>Per poter aggiungere o rimuovere il programma dal progetto, è necessario disporre delle autorizzazioni di gestione.</li>
-      <li>Se l'organizzazione utilizza sia i tipi di archiviazione documenti Workfront che Adobe, non è possibile associare un progetto di archiviazione Workfront a un programma di archiviazione Adobe. Anche il contrario è vero. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti. I programmi ereditano il tipo di storage dal portfolio a cui appartengono. </li></ul>
+      <li>Se la tua organizzazione utilizza sia l’archiviazione cloud Workfront che Adobe per i documenti, non puoi associare un progetto di archiviazione Workfront legacy a un programma di archiviazione cloud Adobe. Anche il contrario è vero. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti. I programmi ereditano il tipo di storage dal portfolio a cui appartengono. </li></ul>
 
    Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>.
 
@@ -804,7 +804,7 @@ Quando modifichi progetti in blocco, tieni presente quanto segue:
 
 * Quando si selezionano più progetti che appartengono a gruppi diversi, gli stati visualizzati nel campo Stato sono stati a livello di sistema e non a livello di gruppo.
 
-* Quando si selezionano più progetti che hanno diversi tipi di archiviazione dei documenti e si desidera aggiornare Portfolio o il programma per i progetti selezionati, non è possibile associare un progetto di archiviazione Workfront a un portfolio di archiviazione Adobe. Anche il contrario è vero. In questo caso, assicurarsi di selezionare solo i progetti che hanno tipi di archiviazione simili alla volta.
+* Quando si selezionano più progetti che hanno diversi tipi di archiviazione dei documenti e si desidera aggiornare Portfolio o il programma per i progetti selezionati, non è possibile associare un progetto di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe. Anche il contrario è vero. In questo caso, assicurarsi di selezionare solo i progetti che hanno tipi di archiviazione simili alla volta.
 
   L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 

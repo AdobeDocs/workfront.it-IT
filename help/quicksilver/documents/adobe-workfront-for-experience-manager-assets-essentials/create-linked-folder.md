@@ -7,9 +7,9 @@ description: In Workfront puoi creare una cartella collegata con Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ Se una risorsa viene eliminata o spostata da una cartella collegata all’intern
 >[!NOTE]
 >
 >Questa funzionalità non è disponibile nella nuova area Documenti.<br>
->Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Da lì puoi aggiungere risorse da Experience Manager Assets o Assets Essentials, ma non potrai creare una cartella collegata.
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Da lì puoi aggiungere risorse da Experience Manager Assets o Assets Essentials, ma non potrai creare una cartella collegata.
 
 ## Requisiti di accesso
 

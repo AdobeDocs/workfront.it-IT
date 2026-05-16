@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Per ulteriori informazioni sull&#39;invio di risorse a Experience Manager Assets
 
 Per ulteriori informazioni sugli stati di approvazione, vedere [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-## Visualizzazione dell&#39;utilizzo dello storage aziendale Adobe
+## Visualizzazione dell’utilizzo dell’archiviazione cloud Adobe
 
 >[!NOTE]
 >
 >Anteprima: 30 aprile 2026>Versione rapida di produzione: 14 maggio 2026>Produzione per tutti: 16 luglio 2026
 
-La pagina Informazioni cliente in Configurazione ora include una nuova sezione Panoramica dello storage con i contatori di utilizzo per lo storage aziendale Adobe.
+La pagina Informazioni cliente in Configurazione ora include una nuova sezione Panoramica archiviazione con contatori di utilizzo per l’archiviazione cloud Adobe.
 
 Gli amministratori di Workfront ricevono automaticamente notifiche e-mail quando l’utilizzo dello storage raggiunge il 75%, l’85% e il 100% della quota.
 

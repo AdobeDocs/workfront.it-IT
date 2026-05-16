@@ -6,9 +6,9 @@ description: È possibile aprire il pannello Riepilogo nel Bilanciatore dei cari
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 12%
 
 ---
@@ -94,7 +94,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!NOTE]
    >
-   >Se l’organizzazione utilizza l’archiviazione dei documenti aziendali di Adobe, non è possibile aggiungere documenti agli elementi di lavoro dell’archiviazione di Adobe nel pannello Riepilogo.
+   >Se la tua organizzazione utilizza l’archiviazione cloud Adobe per i documenti, non puoi aggiungere documenti agli elementi di lavoro dell’archiviazione cloud Adobe nel pannello Riepilogo.
    >
    >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

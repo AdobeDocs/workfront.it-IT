@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -119,12 +119,12 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
 1. (Condizionale) A seconda dell&#39;archiviazione documenti utilizzata dall&#39;organizzazione, fare clic su una delle opzioni seguenti:
 
-   * **Nuovo portfolio**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
-   * **Nuovo portfolio (archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Adobe Enterprise** o **Legacy Workfront** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo portfolio**, quando l&#39;amministratore di Workfront sceglie **Adobe Cloud Storage** o **Legacy Workfront** e ha selezionato o meno l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
+   * **Nuovo portfolio (Archiviazione legacy)**, quando l&#39;amministratore di Workfront sceglie **Archiviazione cloud Adobe** o **Workfront legacy** e seleziona anche l&#39;impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione**.
 
      Questa opzione viene visualizzata solo quando nell&#39;area Consenti impostazione **Consenti all&#39;utente di selezionare il provider di archiviazione** è selezionato.
 
-     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Per ulteriori informazioni, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
      Viene creato un portfolio il cui nome predefinito segue i seguenti pattern, a seconda del Workfront di archiviazione utilizzato per i documenti:
 
-      * `Untitled Portfolio` per un portfolio di archiviazione Workfront.
+      * `Untitled Portfolio` per un portfolio di archiviazione Workfront legacy.
 
-        Un portfolio di archiviazione Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona portfolio di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+        Un portfolio di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona portfolio di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` per un portfolio di archiviazione Adobe
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` per un portfolio di archiviazione cloud Adobe
 
         >[!IMPORTANT]
         >
-        >I portfolio che utilizzano lo storage aziendale Adobe devono avere nomi univoci.
+        >I portfolio che utilizzano l’archiviazione cloud di Adobe devono avere nomi univoci.
 
-     Per i portfolio di archiviazione Adobe, nell’area Documenti viene creata automaticamente una nuova cartella di documenti con lo stesso nome del portfolio.
+     Per i portfolio di archiviazione cloud Adobe, nell’area Documenti viene creata automaticamente una nuova cartella di documenti con lo stesso nome del portfolio.
 
 1. Sostituisci il nome del portfolio con un nuovo nome nell’intestazione del portfolio.
 

@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1418'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Condivisione di documenti nell&#39;area documenti legacy
 
-Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Condividere un singolo documento nell&#39;area documenti legacy
 
@@ -314,9 +314,9 @@ L&#39;azione &#42; è condivisa sia da Cartelle documenti che da Cartelle docume
 ## Condivisione di documenti nella nuova area Documenti
 
 
-Workfront sta passando alla soluzione di storage aziendale Adobe per offrire una maggiore connettività con i prodotti Adobe Creative Cloud. Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront sta passando alla soluzione di archiviazione cloud Adobe per offrire una maggiore connettività con i prodotti Adobe Creative Cloud. Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Se la tua istanza di Workfront utilizza lo storage aziendale Adobe, non puoi condividere direttamente singoli documenti. Puoi invece gestire l’accesso al progetto, all’attività o al problema. Per ulteriori informazioni, vedere [Funzionamento delle autorizzazioni per i documenti](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Se la tua istanza di Workfront utilizza l’archiviazione cloud di Adobe, non puoi condividere direttamente singoli documenti. Puoi invece gestire l’accesso al progetto, all’attività o al problema. Per ulteriori informazioni, vedere [Funzionamento delle autorizzazioni per i documenti](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 >[!IMPORTANT]
 >

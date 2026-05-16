@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 9%
+source-wordcount: '870'
+ht-degree: 3%
 
 ---
 
@@ -24,9 +24,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 >[!NOTE]
 >
->Anteprima: 16 aprile 2026
->Rilascio rapido in produzione: venerdì 16 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 16 aprile 2026>Versione rapida di produzione: 16 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Content Advisor è ora disponibile in Workfront con l&#39;integrazione Adobe Experience Manager Assets, semplificando l&#39;individuazione e il riutilizzo dei contenuti di alto valore esistenti.
 
@@ -45,9 +43,7 @@ Questa integrazione consente ai team di ridurre la creazione di contenuti duplic
 
 >[!NOTE]
 >
->Anteprima: 31 marzo 2026
->Rilascio rapido in produzione: mercoledì 31 marzo 2026
->Produzione per tutti: mercoledì 31 marzo 2026
+>Anteprima: 31 marzo 2026>Versione rapida di produzione: 31 marzo 2026>Produzione per tutti: 31 marzo 2026
 
 Il 31 marzo 2026 è stato effettuato il provisioning di tutti i clienti Workfront per GenStudio Foundation e gli amministratori di sistema di Admin Console avranno ricevuto un’e-mail per informarli di questa aggiunta. Il provisioning di questo prodotto viene eseguito solo in modo che i clienti Workfront possano dare ai marchi l’accesso ai clienti Workfront in base alle esigenze per il rilascio dei collaboratori IA. Il prodotto è solo un meccanismo di accesso ai Marchi e non sono disponibili funzionalità aggiuntive.
 
@@ -57,9 +53,7 @@ Ai clienti non verrà addebitato alcun costo per questo nuovo prodotto.
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 2 aprile 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Sono stati aggiunti i seguenti miglioramenti al widget Le mie approvazioni nella Home:
 
@@ -76,9 +70,7 @@ Per ulteriori informazioni, consulta [Gestire le approvazioni con il widget Appr
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 
 Siamo entusiasti di presentare la revisione e l&#39;approvazione unificate basate su Workfront e Frame.io, un&#39;esperienza di revisione e approvazione semplificata.
@@ -101,21 +93,19 @@ Rivedi e approva i contenuti direttamente nel visualizzatore Frame.io ed elimina
 
 Invia facilmente le risorse approvate direttamente a Adobe Experience Manager. Questa integrazione consente di accelerare l’attivazione dei contenuti collegando i flussi di lavoro di revisione e approvazione con la gestione dei contenuti a valle. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Accesso allo storage aziendale Adobe
+#### Accesso all’archiviazione cloud di Adobe
 
-Adobe enterprise storage è una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. L&#39;integrazione di Workfront e Frame.io è basata sullo storage aziendale Adobe e consente una perfetta collaborazione e gestione delle risorse tra queste piattaforme.
+Adobe Cloud Storage è una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. L&#39;integrazione di Workfront e Frame.io è basata sull&#39;archiviazione cloud Adobe e consente la collaborazione e la gestione delle risorse tra queste piattaforme.
 
-L’accesso allo storage aziendale Adobe apre inoltre la strada a future integrazioni di gestione delle risorse con altri prodotti Adobe, come Adobe Creative Cloud.
+L’accesso all’archiviazione cloud di Adobe spiana la strada anche a future integrazioni di gestione delle risorse con altri prodotti Adobe, come Adobe Creative Cloud.
 
-Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Flussi di lavoro di approvazione in più fasi disponibili per le approvazioni unificate
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 I flussi di lavoro di approvazione in più fasi sono ora disponibili nelle approvazioni unificate, consentendo alle organizzazioni di applicare processi di approvazione strutturati e ripetibili che riflettono il modo in cui il lavoro viene rivisto nel mondo reale. Con le approvazioni in più fasi, puoi:
 
@@ -131,9 +121,7 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Ora puoi configurare e riutilizzare modelli di flusso di lavoro di approvazione in più fasi, semplificando l’applicazione di una governance coerente ai diversi flussi di lavoro di approvazione ripetibili.
 
