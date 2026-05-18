@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 5%
+source-wordcount: '1025'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Le iterazioni sono un componente chiave per i team Scrum Agile nella pianificazi
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,11 +81,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Specificare la capacità per l'iterazione. Questo è il numero di punti o ore che il team è in grado di raggiungere nell’iterazione. Il numero immesso deve essere uguale o maggiore del numero di punti o ore dalla somma di tutti i brani nell'iterazione.<br>[!DNL Workfront] precompila questo campo con una capacità di 50 per impostazione predefinita. </td> 
+      <td> Specificare la capacità per l'iterazione. Questo è il numero di punti o ore che il team è in grado di raggiungere nell’iterazione. Il numero immesso deve essere uguale o maggiore del numero di punti o ore dalla somma di tutti i brani nell'iterazione.<br>[!DNL Workfront] precompila questo campo con 50 capacità per impostazione predefinita. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Specifica la percentuale di attivazione del team. Se tutti i membri del team si concentreranno completamente su questa iterazione, l’attenzione si concentrerà al 100%.<br>[!DNL Workfront] precompila questo campo con 100% per impostazione predefinita. </td> 
+      <td>Specifica la percentuale di attivazione del team. Se tutti i membri del team si concentreranno completamente su questa iterazione, lo stato attivo sarà 100%.<br>[!DNL Workfront] precompila questo campo con 100% per impostazione predefinita. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Specifica la percentuale di attivazione del team. Se tutti i membri del team si concentreranno completamente su questa iterazione, l’attenzione si concentrerà al 100%.<br>[!DNL Workfront] precompila questo campo con il valore medio delle iterazioni passate del team. Se si tratta della prima iterazione del team, il valore del campo è 0 per impostazione predefinita.</td> 
+      <td>Specifica la percentuale di attivazione del team. Se tutti i membri del team si concentreranno completamente su questa iterazione, lo stato attivo sarà 100%.<br>[!DNL Workfront] precompila questo campo con il valore medio delle iterazioni passate del team. Se si tratta della prima iterazione del team, il valore del campo è 0 per impostazione predefinita.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Capacity]</strong></td> 
@@ -142,7 +142,7 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Salva].** L&#39;iterazione è stata creata.
+1. Fai clic su **[!UICONTROL Salva].** Viene creata l&#39;iterazione.
 
 ## Aggiungere attività o problemi a un&#39;iterazione esistente nella scheda Backlog
 

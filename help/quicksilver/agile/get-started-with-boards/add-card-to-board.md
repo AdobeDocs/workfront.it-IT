@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '873'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Puoi aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro de
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Seleziona una data di scadenza per la scheda. </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Stima </strong></td> 
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td> 
       <td>Digitare il numero stimato di ore per il completamento della scheda. Questa è solo una immissione manuale.</td>
      </tr>
      <tr> 
@@ -103,7 +103,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Cerca e seleziona i tag per la scheda. Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Connessione]</strong> </td>
+      <td role="rowheader"><strong>[!Connessione UICONTROL]</strong> </td>
       <td>È possibile collegare una scheda ad hoc a un'attività o a un problema [!DNL Workfront]. Per ulteriori informazioni, vedere "Convertire una scheda ad hoc in una scheda connessa" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare schede collegate nelle bacheche</a>.</td>
      </tr>
      <tr> 
