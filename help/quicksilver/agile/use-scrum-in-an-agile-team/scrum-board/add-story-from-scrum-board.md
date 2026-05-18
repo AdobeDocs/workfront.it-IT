@@ -75,7 +75,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
         <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>Progetto padre [!UICONTROL]</strong></td>
+        <td><strong>Progetto padre </strong></td>
         <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>
