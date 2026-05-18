@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5539dea2754b38ba7a00b90b1d1ff10ff6309991
 workflow-type: tm+mt
-source-wordcount: '14119'
-ht-degree: 95%
+source-wordcount: '14174'
+ht-degree: 94%
 
 ---
 
@@ -940,6 +940,11 @@ ht-degree: 95%
       * [Abilitare o disabilitare l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Compilazione automatica di una richiesta tramite IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [Panoramica dello stato del progetto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
+   * {hide-from-toc} server Workfront MCP {#workfront-mcp-server}
+      * {hide-from-toc}[Server MCP Workfront: indice articolo](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * {hide-from-toc}[Panoramica del server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * {hide-from-toc}[Configurare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * {hide-from-toc}[Utilizza il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
    * Aggiornare elementi di lavoro e visualizzare aggiornamenti {#update-work-items-view-updates}
       * [Aggiornare elementi di lavoro e visualizzare aggiornamenti: indice articoli](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Panoramica sulla sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
