@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 13%
+source-wordcount: '360'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Puoi migrare gli elementi di lavoro da una bacheca Kanban del team Agile a una bacheca Workfront nuova o esistente. Quando esegui la migrazione, tutte le schede sulla bacheca Kanban vengono copiate nella bacheca Workfront. Non è consentito scegliere schede specifiche.
 
-Il posizionamento delle schede sulla bacheca Workfront si basa su criteri colonna. Ad esempio, una policy potrebbe spostare tutte le carte con lo stato &quot;In corso&quot; in una colonna specifica. Per ulteriori informazioni sui criteri di colonna, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se non sono presenti criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra della bacheca. Al momento, le schede nella colonna Backlog nella bacheca legacy non vengono aggiunte alla bacheca Workfront.
+Il posizionamento delle schede sulla bacheca Workfront si basa su criteri colonna. Ad esempio, una policy potrebbe spostare tutte le carte con lo stato &quot;In corso&quot; in una colonna specifica. Per ulteriori informazioni sui criteri delle colonne, vedere [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se non ci sono criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra sulla bacheca. Al momento, le schede nella colonna Backlog nella bacheca legacy non vengono aggiunte alla bacheca Workfront.
 
 Le schede non vengono rimosse dalla bacheca Kanban del team Agile e le modifiche di stato delle schede verranno sincronizzate con entrambe le bacheche. È possibile mantenere entrambe le schede attive fino a quando non si è pronti a passare alle schede Workfront.
 
@@ -45,7 +45,7 @@ Le schede non vengono rimosse dalla bacheca Kanban del team Agile e le modifiche
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
