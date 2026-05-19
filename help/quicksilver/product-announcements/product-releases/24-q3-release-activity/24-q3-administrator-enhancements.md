@@ -7,14 +7,14 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '707'
+ht-degree: 3%
 
 ---
 
 # Miglioramenti per gli amministratori del terzo trimestre 2024
 
-Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni, vedere [Creare e modificare le regole business](/hel
 
 >[!IMPORTANT]
 >
->Le regole aziendali sono disponibili solo per le organizzazioni che utilizzano il nuovo piano Ultimate.
+>Le regole business sono disponibili solo per le organizzazioni che utilizzano il nuovo piano Ultimate.
 
 ## Progettazione moduli personalizzati generalmente disponibile in Adobe Workfront
 
@@ -60,11 +60,11 @@ In precedenza, gli oggetti dovevano essere configurati negli ambienti di produzi
 
 Per ulteriori informazioni sulla promozione dell&#39;ambiente, vedere [Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
->La promozione dell&#39;ambiente è disponibile solo per le organizzazioni che aderiscono ai nuovi piani Prime o Ultimate.
+>La promozione dell’ambiente è disponibile solo per le organizzazioni che utilizzano i nuovi piani Prime o Ultimate.
 >
 
 ## Condivisione di moduli personalizzati e campi personalizzati nella finestra di progettazione moduli personalizzati
@@ -87,7 +87,7 @@ Per ulteriori informazioni, vedere [Condividere un modulo personalizzato](/help/
 
 Questa funzione è disponibile sia con il designer di moduli personalizzati che con il generatore di moduli personalizzati legacy.
 
-Per ulteriori informazioni, vedere [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Per ulteriori informazioni, consulta [Aggiungere o modificare un campo personalizzato, un’interruzione di sezione o un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Tipo di campo a discesa a selezione multipla disponibile nel progettista del modulo
 

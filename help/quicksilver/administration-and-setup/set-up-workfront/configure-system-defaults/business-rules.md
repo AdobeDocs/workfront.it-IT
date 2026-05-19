@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      Puoi includere un URL statico nel messaggio di errore, per collegare alla documentazione o ad altre pagine utili per guidare l’utente nella modifica della sua azione entro il vincolo della regola.
 
-     In questo esempio, &quot;Ulteriori informazioni&quot; si collegherà all’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L&#39;URL deve essere tra parentesi, ma il testo del collegamento tra parentesi non è obbligatorio. Puoi visualizzare l’URL completo, che sarà un collegamento cliccabile.
+     In questo esempio, &quot;Ulteriori informazioni&quot; verrà collegato all&#39;URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL deve essere tra parentesi, ma non è necessario inserire il testo del collegamento tra parentesi. Puoi visualizzare l’URL completo, che sarà un collegamento cliccabile.
 
    ![Finestra di dialogo Aggiungi regola business](assets/add-business-rule-new.png)
 

@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 14%
+source-wordcount: '336'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima per report e dashboard con la versione del primo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2025, consulta [Panoramica delle versioni del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Nuove entità disponibili in Data Connect
 

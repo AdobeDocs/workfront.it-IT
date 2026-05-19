@@ -1,6 +1,6 @@
 ---
 title: Panoramica sul rilascio del primo trimestre 2025
-description: Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del primo trimestre 2025. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
+description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del primo trimestre 2025. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,14 +9,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2786'
-ht-degree: 13%
+source-wordcount: '2976'
+ht-degree: 8%
 
 ---
 
 # Panoramica sul rilascio del primo trimestre 2025
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del primo trimestre 2025. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del primo trimestre 2025. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 
 <span class="preview">Le funzioni fuori ciclo (quelle rilasciate in produzione prima della data di rilascio del primo trimestre 2025) sono evidenziate in giallo.</span>
 
@@ -70,7 +70,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: mercoledì 16 gennaio 2024</li>
+                <li>Versione di anteprima: 16 gennaio 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -85,7 +85,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: 23 ottobre 2025</li>
+                <li>Versione di anteprima: 6 gennaio 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -100,7 +100,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: 23 ottobre 2025</li>
+                <li>Versione di anteprima: 6 gennaio 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -115,7 +115,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -130,7 +130,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 21 novembre 2024</li>
+                <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -146,7 +146,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 21 novembre 2024</li>
+                <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -162,7 +162,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 21 novembre 2024</li>
+                <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -178,7 +178,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: mercoledì 29 ottobre 2024</li>
+                <li>Versione di anteprima: 29 ottobre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -212,7 +212,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: giovedì 18 dicembre 2024</li>
+                <li>Versione di anteprima: 18 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -244,7 +244,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 21 novembre 2024</li>
+                <li>Versione di anteprima: 21 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -260,7 +260,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 7 novembre 2024</li>
+                <li>Versione di anteprima: 7 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -299,7 +299,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 9 gennaio 2025</li>
+                <li>Versione di anteprima: 9 gennaio 2025</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -315,7 +315,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: sabato 20 dicembre 2024</li>
+                <li>Versione di anteprima: 20 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -330,7 +330,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -351,7 +351,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -372,7 +372,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -387,7 +387,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 12 dicembre 2024</li>
+                <li>Versione di anteprima: 12 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -402,7 +402,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 5 dicembre 2024</li>
+                <li>Versione di anteprima: 5 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -423,7 +423,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 14 novembre 2024</li>
+                <li>Versione di anteprima: 14 novembre 2024</li>
                 <li><span class="preview">Versione di produzione per tutti i clienti: 14 novembre 2024</span></li>
             </ul>
         </td>
@@ -438,7 +438,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: giovedì 6 novembre 2024</li>
+                <li>Versione di anteprima: 6 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -471,7 +471,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -504,7 +504,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: mercoledì 2 gennaio 2024</li>
+                <li>Versione di anteprima: 2 gennaio 2024</li>
                 <li><span class="preview">Versione di produzione per tutti i clienti: 9 gennaio 2025</span></li>
             </ul>
         </td>
@@ -528,7 +528,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 7 novembre 2024</li>
+                <li>Versione di anteprima: 7 novembre 2024</li>
                 <li><span class="preview">Versione di produzione per tutti i clienti: 7 novembre 2024</span></li>
             </ul>
         </td>
@@ -560,7 +560,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: giovedì 15 gennaio 2025</li>
+                <li>Versione di anteprima: 15 gennaio 2025</li>
                 <li>Versione di produzione per tutti i clienti: 15 gennaio 2025</li>
             </ul>
         </td>
@@ -575,7 +575,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: martedì 16 dicembre 2024</li>
+                <li>Versione di anteprima: 16 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
         </td>
@@ -590,7 +590,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 14 novembre 2024</li>
+                <li>Versione di anteprima: 14 novembre 2024</li>
                 <li><span class="preview">Versione di produzione per tutti i clienti: 14 novembre 2024</span></li>
             </ul>
         </td>
@@ -621,7 +621,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 19 dicembre 2024</li>
+                <li>Versione di anteprima: 19 dicembre 2024</li>
                 <li>Versione di produzione per tutti i clienti per la casa: da annunciare</li>
                 <li>Versione di produzione per tutti i clienti per I miei aggiornamenti: 19 giugno 2025</li>
             </ul>
@@ -650,7 +650,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 21 novembre 2024</li>
+                <li>Versione di anteprima: 21 novembre 2024</li>
                 <li><span class="preview">Versione di produzione per tutti i clienti: 5 dicembre 2024</span></li>
             </ul>
         </td>
@@ -665,7 +665,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: martedì 11 novembre 2024</li>
+                <li>Versione di anteprima: 11 novembre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -681,7 +681,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 31 ottobre 2024</li>
+                <li>Versione di anteprima: 31 ottobre 2024</li>
                 <li>Produzione per rilascio rapido: con la versione 24.11 (14 novembre 2024)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.1 (16 gennaio 2025)</li>
             </ul>
@@ -740,15 +740,15 @@ A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Qu
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Versione 19 dell’API
+### API versione 19
 
-Nella versione 19 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Per API versione 19, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 19 dell’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Aggiornamenti di manutenzione per Workfront
+### Aggiornamenti di manutenzione di Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante il rilascio del primo trimestre 2025, consulta [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
