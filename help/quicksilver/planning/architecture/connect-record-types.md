@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3035'
 ht-degree: 4%
 
 ---
@@ -310,7 +310,7 @@ Old:
    >
    > È necessario creare moduli personalizzati in Workfront per gli oggetti selezionati prima che vengano visualizzati in questo elenco.
 
-1. (Condizionale) Quando si seleziona di connettersi ad Experience Manager, scegliere un archivio dal menu a discesa **Archivio Experience Manager** nella sezione **Collega risorse dal seguente archivio**. Questo campo è obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager.
+1. (Condizionale) Quando si seleziona di connettersi ad Experience Manager, scegliere un archivio dal menu a discesa **Archivio Experience Manager** nella sezione **Collega risorse dal seguente archivio**. Questo è un campo obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager.
 
    >[!NOTE]
    >
@@ -337,11 +337,15 @@ Old:
 
 1. Selezionare **Seleziona campi di ricerca** per aggiungere campi dal tipo di record a cui ci si connette. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
-   >[!TIP]
+   >[!NOTE]
    >
    >* Oltre ai campi di sistema come Nome e Descrizione, è possibile aggiungere i seguenti tipi di campi come campi di ricerca da tipi di oggetto di un&#39;altra applicazione:
    >   * Campi utente, come Proprietario progetto o Sponsor, dei progetti Workfront.
    >   * Campi di riferimento, come Gruppo di progetti o Società di progetti da progetti Workfront.
+   >* Per i frammenti di contenuto AEM sono supportati solo i campi seguenti: <!--this information is also in "Connect record types overview"-->
+   >   * Creato da e Creato in
+   >   * Modificato da e modificato in
+   >
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
    >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2261'
 ht-degree: 2%
 
 ---
@@ -131,29 +131,36 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
       * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
       * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
 
-   * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette. <!--not sure if this is also possible for content fragments-->
+   * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
 
-     È possibile collegare campi di altri tipi di record o oggetti di un&#39;altra applicazione al tipo di record di Workfront Planning.
+     Quando si aggiungono campi di ricerca, considera quanto segue:
 
-     I campi collegati sono di sola lettura e visualizzano automaticamente le informazioni dei record connessi.
+      * È possibile collegare campi di altri tipi di record o oggetti di un&#39;altra applicazione al tipo di record di Workfront Planning.
 
-     È possibile fare riferimento a campi di ricerca di altri tipi di record o oggetti in formule, filtri o raggruppamenti.
+      * I campi di ricerca sono di sola lettura e visualizzano automaticamente le informazioni dei record connessi.
 
-     Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
+      * Non tutti i campi sono supportati per essere collegati da Workfront Planning. Ad esempio, per i frammenti di contenuto AEM sono supportati solo i campi seguenti: <!--this information is also in "Connect record types"-->
+
+         * Creato da e Creato in
+         * Modificato da e modificato in
+
+      * È possibile fare riferimento a campi di ricerca di altri tipi di record o oggetti in formule, filtri o raggruppamenti.
+
+        Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si sceglie di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati, come stabilito in Workfront.
 
      >[!IMPORTANT]
      >
      >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati o dalle autorizzazioni in altre aree di lavoro.
 
-     I campi record collegati sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
+      * I campi record collegati sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
 
-     I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
+      * I campi di ricerca collegati sono preceduti da un’icona che identifica il tipo di campo. I campi di ricerca sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
-     >[!TIP]
-     >
-     >Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
-     >
-     >Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+        >[!TIP]
+        >
+        >Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
+        >
+        >Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
    * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
