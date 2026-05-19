@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Dizionario dati Workfront Data Connect
+title: Dizionario dei dati di Workfront Data Connect
 description: Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8904'
-ht-degree: 9%
+source-wordcount: '8722'
+ht-degree: 10%
 
 ---
 
-# Dizionario dati Workfront Data Connect
+# Dizionario dei dati di Workfront Data Connect
 
 Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
 
@@ -109,7 +109,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 
 >[!NOTE]
 >
->È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
+>È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati a valle non è preparato a gestire colonne aggiuntive durante l’aggiunta.<br>
 >Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
@@ -119,7 +119,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -187,7 +187,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -257,7 +257,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -326,7 +326,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -384,7 +384,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -436,7 +436,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -548,7 +548,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -557,7 +557,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <td>Assegnazione</td>
             <td>Assegnazione</td>
-            <td>ASSEGNA</td>
+            <td>ASSGN</td>
             <td>Assegnazione</td>
             <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
         </tr>
@@ -655,7 +655,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -778,7 +778,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -836,7 +836,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -906,7 +906,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1024,7 +1024,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1099,7 +1099,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1205,7 +1205,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1275,7 +1275,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1333,7 +1333,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1397,7 +1397,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1461,7 +1461,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1525,7 +1525,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1534,7 +1534,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <td>Azienda</td>
             <td>Azienda</td>
-            <td>AZIENDA</td>
+            <td>CMPY</td>
             <td>Azienda</td>
             <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
         </tr>
@@ -1601,7 +1601,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1647,7 +1647,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1708,15 +1708,15 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >
 >Tipo di record identificato tramite la proprietà `enumClass`. I tipi previsti sono:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>TASK_PRIORITARIO</li>
->&gt;<li>GRAVITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>TASK_STATO</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>TASK_PRIORITARIO</li>
+&gt;<li>GRAVITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>TASK_STATO</li></ul>
 
 
 ### Documento
@@ -1726,7 +1726,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1890,7 +1890,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -1962,7 +1962,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2033,7 +2033,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2094,7 +2094,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2189,7 +2189,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2307,7 +2307,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2353,7 +2353,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2411,7 +2411,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2457,7 +2457,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2554,7 +2554,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2612,7 +2612,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2730,7 +2730,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2787,7 +2787,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -2874,7 +2874,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3014,7 +3014,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3071,7 +3071,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3147,7 +3147,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3333,7 +3333,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3402,7 +3402,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3460,7 +3460,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3518,7 +3518,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3594,7 +3594,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3670,7 +3670,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3734,7 +3734,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -3950,7 +3950,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4008,7 +4008,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4066,7 +4066,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4253,7 +4253,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4310,7 +4310,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4362,7 +4362,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4414,7 +4414,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4536,7 +4536,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4604,7 +4604,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4678,7 +4678,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4736,7 +4736,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4745,7 +4745,7 @@ Autonomo</td>
         <tr>
             <td>Portfolio</td>
             <td>Portfolio</td>
-            <td>PORTA</td>
+            <td>PORT</td>
             <td>Portfolio</td>
             <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
         </tr>
@@ -4817,7 +4817,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4868,7 +4868,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -4950,7 +4950,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5166,7 +5166,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5229,7 +5229,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5293,7 +5293,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5369,7 +5369,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5415,7 +5415,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5467,7 +5467,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5531,7 +5531,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5589,7 +5589,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5653,7 +5653,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5711,7 +5711,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5757,7 +5757,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5808,7 +5808,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5890,7 +5890,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -5936,7 +5936,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6005,7 +6005,7 @@ Autonomo</td>
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6071,7 +6071,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6080,7 +6080,7 @@ Disponibilità limitata dei clienti
         <tr>
             <td>Piano per gestione del personale</td>
             <td>Piano per gestione del personale</td>
-            <td>PERSONALE</td>
+            <td>STAFFP</td>
             <td>Piano per gestione del personale</td>
             <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
         </tr>
@@ -6164,7 +6164,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6173,7 +6173,7 @@ Disponibilità limitata dei clienti
         <tr>
             <td>Risorse del piano per gestione del personale</td>
             <td>Risorse del piano per gestione del personale</td>
-            <td>PERSONALE</td>
+            <td>STAFFR</td>
             <td>Risorse del piano per gestione del personale</td>
             <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
         </tr>
@@ -6241,7 +6241,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6311,7 +6311,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6505,7 +6505,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6563,7 +6563,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6651,7 +6651,7 @@ Disponibilità limitata dei clienti
 
 >[!NOTE]
 >
->Nelle tabelle degli oggetti Team sono archiviati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
+>Nelle tabelle degli oggetti Team sono memorizzati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
 >Ciascuno di questi tipi di team è rappresentato insieme nelle visualizzazioni del data lake di Data Connect. Per isolare il tipo specifico di team da restituire, è necessario filtrare in base alla colonna `teamtype`. Ad esempio, se desideri solo i team tradizionali che fanno parte delle strutture organizzative, configurate nell’area Team dell’applicazione, potresti avere una query simile alla seguente: <code>seleziona * da teams_current dove teamtype = &quot;ADHOC&quot;;</code>
 
 ### Membro team
@@ -6661,7 +6661,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6719,7 +6719,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6783,7 +6783,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -6917,7 +6917,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7010,7 +7010,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7138,7 +7138,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7198,7 +7198,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7338,7 +7338,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7426,7 +7426,7 @@ Disponibilità limitata dei clienti
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Tabella SCHEMA non specificata. Il valore di questa tabella viene fornito nella colonna SCHEMANAME. SCHEMANAME identifica l'indicatore KPI (ad esempio, plannedRevenueRate, plannedCostRate, actualRevenue, ecc.) a cui è connesso il record.</td>
+             <td>Tabella SCHEMA non specificata. Il valore di questa tabella viene fornito nella colonna SCHEMANAME. SCHEMANAME identifica l'indicatore KPI (ad esempio, plannedRevenueRate, plannedCostRate, actualRevenue, ecc.) che il record è connesso a.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7482,7 +7482,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7626,7 +7626,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7769,7 +7769,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7778,7 +7778,7 @@ Disponibilità limitata dei clienti
         <tr>
             <td>Scheda orario</td>
             <td>Scheda orario</td>
-            <td>SCHEDA</td>
+            <td>TSHET</td>
             <td>Scheda orario</td>
             <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
         </tr>
@@ -7845,7 +7845,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7909,7 +7909,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -7984,7 +7984,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8059,7 +8059,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8123,7 +8123,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8198,7 +8198,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8377,7 +8377,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8435,7 +8435,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8493,7 +8493,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8551,7 +8551,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8615,7 +8615,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8667,7 +8667,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8725,7 +8725,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>
@@ -8777,7 +8777,7 @@ Disponibilità limitata dei clienti
         <tr>
             <th>Nome entità Workfront</th>
             <th>Riferimenti interfaccia</th>
-            <th>Documentazione delle API</th>
+            <th>Riferimento API</th>
             <th>Etichetta API</th>
             <th>Visualizzazioni Data Lake</th>
         </tr>

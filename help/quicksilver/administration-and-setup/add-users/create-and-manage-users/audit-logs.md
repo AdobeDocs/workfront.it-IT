@@ -10,7 +10,7 @@ role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1488'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgiti all’amministratore di rete o IT.
+>Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 ### Priorità {#priority}
 
@@ -372,7 +372,7 @@ Il sistema genera una voce del registro di controllo utente quando un utente ese
 
   >[!NOTE]
   >
-  >Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgiti all’amministratore di rete o IT.
+  >Poiché tutte le organizzazioni sono state integrate in Adobe Admin Console, questa funzione non è più disponibile.Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 * Elimina un utente
 * Modifica il livello di accesso, la società, il team o il gruppo di un utente
