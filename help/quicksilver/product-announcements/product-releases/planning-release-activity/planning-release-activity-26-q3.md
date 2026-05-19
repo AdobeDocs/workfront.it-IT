@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Nuova finestra di anteprima per i frammenti di contenuto nella vista tabella
+## Nuova finestra di anteprima per frammenti di contenuto AEM
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ Per una migliore visibilità durante l’utilizzo dei frammenti di contenuto di 
 Questa funzionalità era precedentemente disponibile per le risorse AEM e ora è stata aggiunta ai frammenti di contenuto.
 
 Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+
+## I campi di ricerca sono ora disponibili per i frammenti di contenuto di AEM in Workfront Planning
+
+>[!NOTE]
+>
+>Anteprima: 14 maggio 2026>Versione rapida di produzione: 14 maggio 2026>Produzione per tutti: 14 maggio 2026>[!BADGE Fuori pianificazione]{type=Neutral}
+
+Ora è possibile aggiungere i seguenti campi di ricerca quando si collega un tipo di record Planning a un frammento di contenuto di AEM:
+
+* Creato da
+* Data creazione
+* Modificato da
+* Modificato
+
+Prima di questo miglioramento, i campi di ricerca erano disponibili solo per le risorse e le cartelle di AEM.
+
+Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--
 
