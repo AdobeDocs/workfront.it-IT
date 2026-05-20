@@ -6,9 +6,9 @@ description: Pianifica il rollout di Workfront sull’archiviazione cloud Adobe.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ La tabella seguente riepiloga le principali differenze quando si passa all’arc
 | [Area nuovi documenti](#the-new-documents-area) | L&#39;area Documenti riprogettata e unificata sostituisce l&#39;area Documenti legacy. | Area Documenti non globale. Accedere ai documenti da un programma, portfolio, progetto, attività o problema. |
 | [Autorizzazioni documento](#document-permissions) | I documenti ereditano le autorizzazioni dal progetto, dall&#39;attività o dal problema a cui sono collegati. | Impossibile condividere o impostare autorizzazioni per singoli documenti. Puoi gestire tutti gli accessi tramite l’oggetto modale Share in Workfront, che si propaga nelle cartelle di documenti generate dal sistema. |
 | [Mappatura autorizzazioni oggetto](#object-permissions-mapping) | Le autorizzazioni Gestione e Contribuisci di Workfront sono mappate su Modifica e condividi in Frame.io. Visualizza le mappe solo per commenti. | Le autorizzazioni vengono gestite in Workfront. Sia gli utenti Manage che Contribute acquisiscono la funzionalità di condivisione esterna in Frame.io. |
-| [Visualizzatore recensioni e approvazioni](#review-and-approval-viewer) | Il visualizzatore Frame.io sostituisce il visualizzatore di bozze di Workfront. | Incluso per tutti gli utenti di Workfront con una licenza a pagamento. Supporta markup, commenti con marca temporale, cronologia delle versioni, dispositivi mobili, formati 40+, file fino a 500 GB. |
+| [Visualizzatore recensioni e approvazioni](#review-and-approval-viewer) | Il visualizzatore Frame.io sostituisce il visualizzatore di bozze di Workfront. | Incluso per tutti gli utenti di Workfront, inclusi gli utenti esterni assegnati a una revisione o approvazione. Supporta markup, commenti con marca temporale, cronologia delle versioni, dispositivi mobili, formati 40+, file fino a 500 GB. |
 | [Regole di denominazione degli oggetti](#object-naming-rules) | Si applicano rigide regole di denominazione: nomi univoci all’interno di un portfolio o progetto, nessun carattere speciale, nessun punto finale o spazio, limite di 255 caratteri. | Workfront rinomina automaticamente gli oggetti in caso di conflitti. Modelli di audit che generano nuovi nomi e strutture di progetto. |
 | [Portabilità oggetto](#object-portability) | È possibile spostare, copiare e convertire oggetti solo tra modelli di memorizzazione simili. | Gli oggetti di archiviazione cloud Adobe non possono essere spostati in progetti legacy o viceversa. Se si sposta un progetto di archiviazione cloud Adobe in un portfolio o programma legacy, l’elemento principale viene convertito nell’archiviazione cloud Adobe. |
 | [Funzionalità non disponibili](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, il visualizzatore documenti di Workfront, i documenti preferiti e i documenti di richiesta non fanno parte dell’esperienza. | Gli oggetti legacy mantengono queste funzionalità. Workfront Proof non riceverà un nuovo investimento e verrà ritirato in una versione futura. |
@@ -102,7 +102,7 @@ Per ulteriori informazioni, consulta [Autorizzazioni oggetto e panoramica del li
 
 ### Visualizzatore recensioni e approvazioni
 
-Sugli oggetti di archiviazione cloud Adobe, il visualizzatore Frame.io è l’area di revisione e approvazione al posto di Workfront Proof. Il visualizzatore Frame.io è incluso per tutti gli utenti di Workfront con una licenza a pagamento.
+Sugli oggetti di archiviazione cloud Adobe, il visualizzatore Frame.io è l’area di revisione e approvazione al posto di Workfront Proof. Il visualizzatore Frame.io è incluso per tutti gli utenti di Workfront senza costi aggiuntivi, inclusi gli utenti esterni assegnati a una revisione o approvazione.
 
 Il visualizzatore Frame.io fornisce:
 
