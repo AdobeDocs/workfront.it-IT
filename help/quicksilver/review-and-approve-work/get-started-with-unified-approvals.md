@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Per ulteriori informazioni su Frame.io, vedere [Guida introduttiva a Frame.io](h
 
 I coordinatori dei progetti possono creare progetti e pianificare il lavoro in Workfront. I progetti creati in un’istanza con l’integrazione Frame.io abilitata utilizzano l’archiviazione cloud Adobe, che consente di archiviare e gestire le risorse all’interno dell’ecosistema Adobe.
 
-Se la tua organizzazione dispone di una licenza Frame.io Enterprise, i progetti creati in Workfront sono visibili anche in Frame.io, consentendo agli utenti di interagire e caricare le risorse in entrambi i prodotti.
+Se la tua organizzazione dispone di una licenza Frame.io Enterprise, i progetti creati in Workfront sono visibili anche in Frame.io, consentendo agli utenti di interagire e caricare le risorse in entrambi i prodotti. In Frame.io, tutti i progetti collegati a Workfront sono raggruppati in un unico Workspace denominato **Progetti collegati a Workfront**. Per informazioni dettagliate sull&#39;aspetto e il comportamento dei progetti collegati in Frame.io, vedi [Panoramica dell&#39;integrazione di Adobe Workfront](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview) nella documentazione di Frame.io.
 
 Per informazioni sull’archiviazione cloud di Adobe o sui progetti in Frame.io, consulta
 
