@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 5%
@@ -95,7 +95,7 @@ Old:
 * Tutte le sotto-attività, le Issues e le Note vengono riportate nel nuovo progetto.
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
 * Durante la conversione di un’attività in un progetto, è previsto un limite di elaborazione di 5 minuti. Se all&#39;attività è associato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
-* Se l&#39;organizzazione utilizza l&#39;archiviazione cloud legacy di Workfront e Adobe per i documenti, esistono i seguenti scenari durante la conversione di un&#39;attività in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+* Quando l&#39;organizzazione utilizza l&#39;archiviazione cloud legacy di Workfront e Adobe per i documenti, esistono i seguenti scenari durante la conversione di un&#39;attività in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
    * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
    * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
    * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.

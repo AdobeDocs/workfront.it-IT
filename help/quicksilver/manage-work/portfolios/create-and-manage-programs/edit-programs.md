@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1160'
 ht-degree: 5%
 
 ---
@@ -154,8 +154,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader">[!UICONTROL Gruppo]</td> 
       <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è associato al programma o se è responsabile del completamento. </p> <p><b>SUGGERIMENTO</b></p>  <p>Quando si accede al campo [!UICONTROL Group] dalla pagina [!UICONTROL Program Details], eseguire le operazioni seguenti per assicurarsi di selezionare il gruppo corretto: </p> <p>Passa il puntatore del mouse sul nome del gruppo e fai clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> accanto a esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Questa opzione non è disponibile nella casella [!UICONTROL Modifica programma]. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL È Attivo]</td> 
+      <td> <p>Seleziona questa impostazione se desideri che il programma sia attivo e che gli utenti lo trovino per associarlo ai progetti.</p>
+   <p>Se questa opzione è deselezionata, il programma non viene visualizzato nel campo Programma relativo a un progetto o a un modello. </p>
+   <p>Questa impostazione è selezionata per impostazione predefinita. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--

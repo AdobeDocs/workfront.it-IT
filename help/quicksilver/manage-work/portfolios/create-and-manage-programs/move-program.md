@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 14%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Aggiungere un programma esistente a un portfolio
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## Aggiungere un programma esistente a un portfolio
 
+>[!NOTE]
+>
+>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe per i documenti, esistono i seguenti scenari:
+>
+>
+>* Quando aggiungi un programma di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy e al portfolio non è allegato alcun documento, il portfolio viene convertito in archiviazione cloud Adobe.
+>* Quando aggiungi un programma di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy a cui sono allegati dei documenti, il portfolio di archiviazione dei documenti rimane nello storage Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront ![Icona dell&#39;archiviazione legacy di Workfront](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
+>* Non puoi aggiungere un programma di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe.
+>
+>Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+>
+>Non tutte le istanze di Workfront dispongono di entrambi i tipi di archiviazione dei documenti.
+
+Per aggiungere un programma esistente a un altro portfolio:
+
 1. Vai a un portfolio, quindi fai clic su **[!UICONTROL Programmi]** nel pannello a sinistra.
 1. Fai clic su **[!UICONTROL Nuovo programma]**.
 1. Fare clic su **[!UICONTROL Programma esistente]**.
@@ -108,3 +123,4 @@ Old:
 1. Fare clic su **[!UICONTROL Aggiungi programmi]**.
 
    Il programma viene visualizzato nella scheda **[!UICONTROL Programmi]** del portfolio selezionato.
+
