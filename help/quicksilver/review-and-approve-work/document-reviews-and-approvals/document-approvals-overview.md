@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Il visualizzatore Frame.io supporta tutti i tipi comuni di video, immagini, audi
 
 #### Accesso e licenze per il visualizzatore Frame.io
 
-Il visualizzatore Frame.io è il visualizzatore predefinito per tutti i flussi di lavoro di revisione e approvazione di Workfront. È incluso automaticamente per tutti gli utenti di Workfront con una licenza a pagamento. Non è richiesta alcuna licenza Frame.io aggiuntiva per utilizzare il visualizzatore Frame.io per le revisioni e le approvazioni.
+Il visualizzatore Frame.io è il visualizzatore predefinito per tutti i flussi di lavoro di revisione e approvazione di Workfront. Viene incluso automaticamente per tutti gli utenti Workfront, inclusi gli utenti esterni assegnati a una revisione o approvazione, senza costi aggiuntivi. Non è richiesta alcuna licenza Frame.io aggiuntiva per utilizzare il visualizzatore Frame.io per le revisioni e le approvazioni.
 
 Se la tua organizzazione desidera sfruttare le funzionalità Frame.io aggiuntive disponibili con questa integrazione, ad esempio per caricare le risorse direttamente nei progetti in Frame.io, puoi acquistare una licenza Frame.io Enterprise. Contatta il rappresentante del tuo account Adobe per pianificare una demo ed esplorare i vantaggi della soluzione Frame.io completa.
 
@@ -180,7 +180,7 @@ Per utilizzare la revisione e l’approvazione unificate, è necessario soddisfa
 
 **È necessaria una licenza Frame.io per utilizzare questa integrazione?**
 
-No. Il visualizzatore Frame.io viene incluso automaticamente per tutti gli utenti di Workfront con una licenza a pagamento senza costi aggiuntivi. Non è necessaria una licenza Frame.io separata per rivedere e approvare le risorse tramite Workfront.
+No. Il visualizzatore Frame.io viene incluso automaticamente per tutti gli utenti di Workfront senza costi aggiuntivi, compresi gli utenti esterni invitati a rivedere o approvare le risorse. Non è necessaria una licenza Frame.io separata per rivedere e approvare le risorse tramite Workfront.
 
 Se la tua organizzazione desidera accedere a funzionalità Frame.io aggiuntive, ad esempio per caricare le risorse direttamente nei progetti in Frame.io, puoi acquistare una licenza Enterprise Frame.io. Per ulteriori informazioni, contatta il rappresentante del tuo account Adobe.
 

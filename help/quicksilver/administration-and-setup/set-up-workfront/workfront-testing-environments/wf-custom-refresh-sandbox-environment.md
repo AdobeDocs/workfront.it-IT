@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1792'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Inoltre, esiste un costo aggiuntivo per ottenere la sandbox di aggiornamento personalizzata che non è necessaria per la sandbox di anteprima.
 >
->  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Requisiti di accesso
 
@@ -240,3 +240,12 @@ Per l’ambiente Sandbox di aggiornamento personalizzato, il ricalcolo notturno 
 
    * Notifiche promemoria
    * Notifiche automatiche di promemoria in ritardo o anticipato
+
+### Nota sulle regole business
+
+Le regole business vengono intenzionalmente escluse dagli aggiornamenti dell’ambiente Sandbox e di anteprima di Workfront. A differenza della maggior parte dei dati, le regole business sono trattate come configurazione specifica dell’ambiente, simile a Utenti. Ogni ambiente può mantenere un set distinto di regole personalizzate in base allo scopo (ad esempio, test, sviluppo o produzione).
+
+L’inclusione delle regole business in un aggiornamento sovrascriverebbe queste configurazioni, compromettendo potenzialmente le regole impostate intenzionalmente dagli amministratori in ambienti non di produzione.
+
+Se devi spostare le Regole business tra ambienti diversi, utilizza la Promozione ambiente, che consente di trasferire in modo selettivo gli oggetti di configurazione con il controllo della tempistica e dell’ambito. Per ulteriori informazioni, vedere [Panoramica sullo spostamento di oggetti tra ambienti Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+
