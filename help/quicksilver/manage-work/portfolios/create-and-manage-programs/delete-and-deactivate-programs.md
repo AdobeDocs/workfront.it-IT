@@ -5,10 +5,11 @@ title: Eliminare e disattivare i programmi
 description: Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio. È possibile eliminare o disattivare un programma quando diventa irrilevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 7%
 
 ---
 
@@ -38,20 +39,20 @@ Quando un programma diventa irrilevante, puoi effettuare una delle seguenti oper
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Piano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso a portafogli e programmi tramite [!UICONTROL Edit] </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni di [!UICONTROL Manage] per il portfolio</p> <p>Per impostazione predefinita, dopo aver creato un programma, si dispone di autorizzazioni [!UICONTROL Manage].</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +74,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step1-to-programs}}
 
 1. Fare clic sul nome di un programma per aprirlo.
-1. Fai clic sul menu **Altro** a destra del nome del programma, quindi fai clic su **Disattiva programma**.
+1. Esegui una delle operazioni seguenti:
+
+   * Fai clic sul menu **Altro** a destra del nome del programma, quindi fai clic su **Disattiva programma**.
+   * Fai clic sul menu **Altro** a destra del programma, quindi fai clic su **Modifica**
+
+     Oppure
+
+     Fai clic sulla sezione **Dettagli programma** nel pannello a sinistra e deseleziona la casella **È attivo**.
 
    Il programma viene disattivato immediatamente e si verificano i seguenti eventi:
 

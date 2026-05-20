@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Quando copi un’attività, tieni presente quanto segue:
 
 * È possibile copiare un&#39;attività alla volta oppure più attività contemporaneamente quando si modificano le attività in un elenco.
 
-* Se la tua organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non puoi copiare attività tra progetti che utilizzano tipi di archiviazione diversi.
+* Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di archiviazione diversi.
 
   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

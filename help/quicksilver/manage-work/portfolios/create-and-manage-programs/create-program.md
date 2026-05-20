@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 5%
+source-wordcount: '1449'
+ht-degree: 4%
 
 ---
 
 # Creare un programma
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -127,17 +127,27 @@ Old:
 
    * Crea un programma dall&#39;area [!UICONTROL Programmi]:
 
-      1. Fare clic su **[!UICONTROL Programmi]** nel menu principale.
+      1. Fare clic su **[!UICONTROL Programmi]** nel [!DNL **Menu principale**] ![Menu principale](assets/lines-main-menu.png).
       1. Fai clic su **[!UICONTROL Nuovo programma]**.
       1. Nella casella visualizzata digitare il nome di un Portfolio esistente nel campo **[!UICONTROL Seleziona Portfolio]**.
       1. Digitare il nome del nuovo programma nel campo **[!UICONTROL Nome]**.
       1. Fai clic su **[!UICONTROL Salva]**.
    * Crea un programma dall&#39;area [!UICONTROL Portfolio]:
 
-      1. Fai clic su **[!UICONTROL Portfolio]** nel [!UICONTROL Menu principale], quindi apri un portfolio.
+      1. Fai clic su **[!UICONTROL Portfolio]** nel [!DNL **Menu principale**] ![Menu principale](assets/lines-main-menu.png), quindi apri un portfolio.
       1. Nel pannello a sinistra, fai clic su **[!UICONTROL Programmi]**.
       1. Fai clic sul menu a discesa **[!UICONTROL Nuovo programma]**, quindi su **[!UICONTROL Nuovo programma]**.
+   * Aggiungi un programma esistente:
+      1. Fai clic su **[!UICONTROL Portfolio]** nel [!DNL **Menu principale**] ![Menu principale](assets/lines-main-menu.png), quindi apri un portfolio.
+      1. Nel pannello a sinistra, fai clic su **[!UICONTROL Programmi]**.
+      1. Fai clic sul menu a discesa **[!UICONTROL Nuovo programma]**, quindi **[!UICONTROL Programma esistente]**.
+      1. Inizia a digitare il nome di un programma esistente o fai clic sul menu a discesa e selezionalo dall’elenco.
 
+     >[!NOTE]
+     >
+     >Quando l’organizzazione utilizza sia archivi di documenti cloud Workfront legacy che Adobe, non è possibile aggiungere a un programma un progetto con un tipo di archiviazione diverso da quello del programma.
+     >L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
+     >Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condizionale) Se il programma è stato creato da un portfolio, specificare il nome del programma nel campo **[!UICONTROL Programma senza titolo]**.
 
@@ -172,13 +182,20 @@ Old:
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
       <td> <p>Iniziare a digitare il nome dell'utente che si desidera utilizzare come responsabile del programma, quindi fare clic sul nome dell'utente quando viene visualizzato nell'elenco a discesa. È lo stesso del [!UICONTROL Proprietario del programma]. </p> <p>Suggerimento: puoi anche aggiornare il Responsabile del programma nell’intestazione del programma. </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Gruppo] </td> 
       <td> <p>Aggiungere il nome di un singolo gruppo se il gruppo è proprietario del programma o se ne è responsabile. </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL È Attivo] </td> 
+   <td> <p>Seleziona questa impostazione se desideri che il programma sia attivo e che gli utenti lo trovino per associarlo ai progetti.</p>
+   <p>Se questa opzione è deselezionata, il programma non viene visualizzato nel campo Programma relativo a un progetto o a un modello. </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -210,7 +227,7 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Informazioni intestazione</td> 
+   <td role="rowheader"><strong>Informazioni intestazione</strong></td> 
    <td> <strong>Note</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
   </tr> 
   <tr> 
    <td role="rowheader">Nome del tipo di oggetto e stato di attivazione</td> 
-   <td>La parola "Programma" viene visualizzata con un'icona arancione quando si visualizza un programma. Accanto alla parola "[!UICONTROL Disattivato]" viene visualizzata la struttura grigia se il programma non è contrassegnato come [!UICONTROL Attivo]. </td> 
+   <td>La parola "Programma" viene visualizzata con un'icona arancione quando si visualizza un programma. La parola "[!UICONTROL Disattivato]" viene visualizzata accanto a essa se il programma non è contrassegnato come [!UICONTROL È attivo] nell'area [!UICONTROL **Dettagli programma**]. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Il settore d'azione del programma </td> 
    <td> <p>Fare clic su una delle opzioni seguenti per accedere a ulteriori informazioni o opzioni di modifica per il programma:</p> 
     <ul> 
      <li>Icona a forma di stella per aggiungere il programma all'elenco dei preferiti</li> 
+     <li>Pulsante [!UICONTROL **Condividi**] per condividerlo con altri utenti</li> 
      <li> <p>Il menu [!UICONTROL Altro] <img src="assets/qs-more-menu.png"> consente di eseguire una delle operazioni seguenti: </p> 
       <ul> 
        <li>Modifica il programma</li> 
        <li>Disattivala. Quando un programma viene disattivato, non è più possibile associarlo ai progetti a livello di progetto. </li> 
        <li> <p>Eliminalo. L’eliminazione del programma non comporta l’eliminazione dei progetti al suo interno. Elimina l'associazione dei progetti al programma. </p> </li> 
-       <li>Condividi con altri</li> 
+       <li>Ricalcolare le espressioni per il programma. Ricalcola tutti i campi personalizzati calcolati nel modulo personalizzato del programma. </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

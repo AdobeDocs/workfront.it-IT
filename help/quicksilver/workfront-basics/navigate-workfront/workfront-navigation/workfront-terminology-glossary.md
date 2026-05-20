@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Solo su modifica]</td> 
    <td> <p>Uno dei tipi di [!UICONTROL Aggiornamento del progetto]. Quando questa opzione è selezionata, le timeline del [!UICONTROL Progetto previsto] e [!UICONTROL Pianificato] vengono aggiornate solo quando viene effettuato un aggiornamento o una modifica al progetto o a un’attività all’interno del progetto. Non aggiorna il progetto ogni notte.</p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selezionare il tipo di aggiornamento del progetto </a>.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL Nell'archiviazione legacy di Workfront]</td> 
+   <td>  <p>L'icona di archiviazione legacy di Workfront <img src="assets/legacy-storage-project-icon.png"> indica che un oggetto è associato all'archiviazione documenti di Workfront. </p> 
+   <p>L'icona viene visualizzata accanto al nome di un oggetto, nell'intestazione dell'oggetto o in alcuni elenchi. </p>
+   <p>Alcuni clienti hanno sia Workfront legacy che Adobe Cloud Document Storage. I documenti possono essere archiviati in uno di questi ambienti per i clienti che dispongono di entrambi i tipi di storage.</p>
+   <p>I seguenti oggetti possono avere l’archiviazione di documenti cloud Workfront o Adobe:</p>
+   <ul><li>Progetti</li>
+   <li>Portfolio</li>
+   <li>Programmi</li>
+   <li>Modelli</li>
+   <li>Attività</li>
+   <li>Problemi</li>
+   <li>Attività modello</li></ul>
+   <p>Solo i progetti, i portfolio, i programmi e i modelli possono visualizzare l'icona Su memoria Workfront legacy. </p>
+   <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti. 
+  <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Panoramica sull'archiviazione cloud Adobe</a>. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Attività operativa]</td> 

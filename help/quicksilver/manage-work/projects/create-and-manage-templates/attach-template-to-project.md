@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 8%
+source-wordcount: '1179'
+ht-degree: 7%
 
 ---
 
@@ -114,6 +114,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 ## Allega un modello a un progetto esistente {#attach-a-template-to-an-existing-project}
 
 È possibile allegare un modello a un progetto dalla pagina del progetto o da un elenco o report di progetti.
+
+>[!NOTE]
+>
+>Quando l’organizzazione utilizza sia l’archiviazione dei documenti cloud Workfront che Adobe, è possibile allegare un modello utilizzando un tipo di archiviazione diverso rispetto a quello del progetto. Ciò non modifica l’archiviazione del documento per il progetto.
+>
+>Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 
