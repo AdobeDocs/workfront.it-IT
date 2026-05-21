@@ -5,10 +5,10 @@ description: Consulta l’elenco degli articoli disponibili sul server MCP di Ad
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-source-git-commit: 4517d45ecc653d27d435a8192a612241120dd33f
+source-git-commit: 152486b7850e01f3de23f22bbe3729c5cd3d3aa2
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -19,3 +19,4 @@ Questa sezione contiene i seguenti articoli:
 * [Panoramica del server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
 * [Configurare il server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
 * [Utilizzare il server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+* [Strumenti server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
