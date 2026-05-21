@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2222'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,7 @@ La tabella seguente descrive i requisiti di accesso e autorizzazioni per utilizz
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -171,7 +171,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -376,13 +376,15 @@ Considera quanto segue sui campi del tipo di record di GenStudio:
 
 È possibile creare connessioni tra tipi di record nelle aree di lavoro di GenStudio in cui si dispone delle autorizzazioni di gestione.
 
+<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
+
 In Workfront Planning è possibile effettuare le seguenti connessioni tra i tipi di record di GenStudio e altri tipi di record o oggetti:
 
 * Due tipi di record GenStudio
 * Un tipo di record GenStudio e un tipo di record Planning dello stesso workspace
 * Un tipo di record GenStudio e un tipo di record Planning da un&#39;altra area di lavoro, se i tipi di record sono configurati per la connessione da un&#39;altra area di lavoro.
 * Un tipo di record GenStudio e un tipo di oggetto Workfront (progetti, portafogli, programmi, società, gruppi)
-* Un tipo di record GenStudio e un tipo di oggetto AEM.
+* Un tipo di record GenStudio e un tipo di oggetto AEM. È necessario disporre di una licenza per Adobe Experience Manager per accedere agli oggetti di AEM, oltre a una licenza per Workfont Planning e per Adobe GenStudio for Performance Marketing.
 * tipi di record GenStudio e marchi GenStudio. Per impostazione predefinita, la connessione Marchi viene aggiunta ai tipi di record Prodotti e utenti tipo.
 
 ### Moduli di richiesta e automazioni nel tipo di record GenStudio

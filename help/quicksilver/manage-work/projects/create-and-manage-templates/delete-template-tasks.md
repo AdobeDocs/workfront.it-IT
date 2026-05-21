@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Se non è più necessario, è possibile eliminare le attività modello. Le attiv
 
 >[!NOTE]
 >
->Non è possibile recuperare le attività modello eliminate. Puoi recuperare un modello che recupera anche tutte le attività sul modello. Se elimini le attività modello (e non il modello), non potrai mai recuperarle.
+>Non è possibile recuperare le attività modello eliminate e le relative informazioni aggiuntive (assegnazioni, documenti, approvazioni). Puoi recuperare un modello che recupera anche tutte le attività sul modello. Se elimini le attività modello (e non il modello), non potrai mai recuperarle.
 
 
 ## Requisiti di accesso
