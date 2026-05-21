@@ -6,10 +6,10 @@ description: È possibile utilizzare i modelli di progetto per acquisire la magg
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 5%
 
 ---
 
@@ -56,9 +56,9 @@ Durante la creazione dei modelli, considera quanto segue:
   Per informazioni sulla durata, vedere i seguenti articoli:
 
    * [Panoramica della durata e del tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Panoramica della durata del progetto](../../../manage-work/projects/planning-a-project/project-duration.md)
+   * [Panoramica sulla durata del progetto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Per informazioni sulle ore pianificate, vedi [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
+  Per informazioni sulle ore pianificate, consulta [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Aggiungere le relazioni precedenti tra le attività alla fine, quando si ha una chiara comprensione dell&#39;intero piano di progetto futuro. L’aggiunta di predecessori alle attività modello è simile all’aggiunta di predecessori alle attività di un progetto.
 
@@ -70,6 +70,20 @@ Durante la creazione dei modelli, considera quanto segue:
   Per informazioni sulla creazione di approvazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Per informazioni sull&#39;associazione di un processo di approvazione a un elemento di lavoro, vedere [Associare un processo di approvazione nuovo o esistente a un lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Decidere quale archivio documenti utilizzare per i progetti futuri. Alcune organizzazioni hanno accesso ai seguenti tipi di archiviazione dei documenti:
+
+   * Storage Workfront legacy
+   * Archiviazione cloud Adobe
+
+  L&#39;aggiunta di documenti varia a seconda del tipo di archiviazione scelto. Il tipo di archiviazione scelto per i modelli influirà sul tipo di archiviazione che erediteranno i progetti futuri.
+
+  L’aggiunta di modelli ai progetti esistenti non influisce sul tipo di archiviazione del progetto.
+
+  Per ulteriori informazioni, consulta anche:
+
+   * [Creare un modello di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+   * [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Modi per creare i modelli
 
