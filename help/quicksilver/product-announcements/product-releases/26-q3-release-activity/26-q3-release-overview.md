@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 36%
+source-wordcount: '785'
+ht-degree: 34%
 
 ---
 
@@ -36,6 +36,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti ai documenti](#documents-enhancements)
+* [Miglioramenti di Financial Management](#financial-management-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>30 aprile 2026</p></td>
             <td><p>14 maggio 2026</p></td>
             <td><p>16 luglio 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti di Financial Management
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Gli attributi di tariffa non possono essere modificati una volta utilizzati nelle tariffe</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Una volta aggiunto un attributo a una frequenza in Workfront, non è più possibile modificarlo e i relativi filtri nell’area Setup (Configura). In questo modo viene preservata l'integrità dei dati e si evita che i tassi vengano modificati accidentalmente quando gli attributi vengono aggiornati.</p>
+            </td>
+            <td><p>21 maggio 2026</p></td>
+            <td><p>21 maggio 2026</p></td>
+            <td><p>21 maggio 2026</p></td>
         </tr>
     </tbody>
 </table>
