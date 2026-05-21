@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
+source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 2%
@@ -202,3 +202,4 @@ I filtri devono essere sempre configurati in entrambe le direzioni. Se l&#39;att
    * (Solo per tipo di filtro attributi) **Campo di riferimento**: campo dell&#39;attributo di riferimento che deve corrispondere, ad esempio ID agenzia.
 
 1. Fai clic su **Salva** per ogni attributo per salvare le proprietà e i filtri.
+
