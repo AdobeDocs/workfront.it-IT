@@ -10,9 +10,9 @@ role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2867'
 ht-degree: 4%
 
 ---
@@ -357,7 +357,7 @@ Per creare una coda di richieste:
    * **Pubblica come coda di richieste della Guida**: selezionare questa opzione per identificare il progetto come coda di richieste. Tutti i problemi in arrivo vengono considerati richieste.\
      Se questa opzione non è selezionata, il progetto si comporta come un progetto standard in Workfront e tutti i problemi in arrivo sono problemi.
 
-   * **Chi può aggiungere richieste a questa coda?**: selezionare gli utenti autorizzati ad aggiungere richieste a questa coda. Puoi consentire ai seguenti gruppi di persone di visualizzare la Coda richieste nell’area Richieste della barra di navigazione globale quando aggiungono una nuova richiesta:
+   * **Chi può aggiungere richieste a questa coda?**: selezionare gli utenti che possono accedere per aggiungere richieste a questa coda. Puoi consentire ai seguenti gruppi di persone di visualizzare la Coda richieste nell’area Richieste della barra di navigazione globale quando aggiungono una nuova richiesta:
 
      | Chi può inserire le richieste | Descrizione |
      |---|---|
@@ -521,8 +521,8 @@ Per ulteriori informazioni su come impostare il sistema Ore tipiche per giorno l
 
      | Quali utenti possono visualizzare tutti i campi nel modulo di richiesta | Descrizione |
      |---|---|
-     | Tutti gli utenti (Full License) | Tutti gli utenti che dispongono di una licenza Pianificazione possono visualizzare i campi selezionati e non selezionati. |
-     | Persone con accesso di visualizzazione al progetto (licenza Pianificazione) | Gli utenti con una licenza Pianificazione che dispongono anche dei diritti di visualizzazione per questo progetto possono visualizzare i campi selezionati e non selezionati. Gli altri utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
+     | Tutti gli utenti (Full License) | Tutti gli utenti che dispongono di una licenza Standard o Plan possono visualizzare i campi selezionati e non selezionati. |
+     | Persone con accesso di visualizzazione al progetto (licenza Pianificazione) | Gli utenti con una licenza Standard o Plan che dispongono anche dei diritti di visualizzazione per questo progetto possono visualizzare i campi selezionati e non selezionati. Gli altri utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
      | Nessun utente | Nessun utente può visualizzare i campi non selezionati. Tutti gli utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. Questa è la selezione predefinita. |
 
    * **Forms personalizzato**: selezionare un modulo personalizzato da associare alla coda richieste dal menu a discesa. È possibile selezionare più moduli, quindi trascinarli e rilasciarli nell&#39;ordine in cui si desidera che vengano visualizzati nel modulo di richiesta.

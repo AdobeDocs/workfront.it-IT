@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 9%
+source-wordcount: '1545'
+ht-degree: 5%
 
 ---
 
@@ -65,7 +65,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * Per impostazione predefinita, il creatore di un progetto dispone delle autorizzazioni per gestire il progetto ed è anche designato come proprietario del progetto. Se il progetto è assegnato a un altro proprietario, anche tale utente dispone delle autorizzazioni necessarie per gestire il progetto. Quando il creatore del progetto (o il proprietario) condivide il progetto con altri utenti, concede a questi ultimi determinate autorizzazioni per controllare ciò che possono fare mentre lavorano sul progetto.
 
-  Tuttavia, se un proprietario del progetto non dispone di una licenza Pianificazione o Standard, non ha accesso completo alla gestione del progetto. Solo un utente con una licenza Plan o Standard può disporre delle autorizzazioni per gestire un progetto. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Tuttavia, se un proprietario del progetto non dispone di una licenza Standard o Plan, non ha accesso completo alla gestione del progetto. Solo un utente con una licenza Standard o Plan può disporre delle autorizzazioni necessarie per gestire un progetto. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Puoi condividere i progetti singolarmente, oppure puoi condividerne più di uno alla volta. La condivisione di progetti è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un progetto:
@@ -85,7 +85,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 ## Limitazioni per i diversi tipi di licenza
 
 * Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i lavoratori, l&#39;autorizzazione di condivisione più elevata è Contribute.
-* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
+* Gli utenti con una licenza Collaboratore o Richiesta possono visualizzare le informazioni sul progetto, ma hanno un accesso limitato al progetto.
 * Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
 * Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
 

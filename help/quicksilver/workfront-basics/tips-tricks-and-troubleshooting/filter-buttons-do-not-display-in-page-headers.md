@@ -6,10 +6,10 @@ description: Leggi questo articolo per risolvere i problemi relativi ai pulsanti
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 19%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 3%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
    <td>Pacchetto Adobe Workfront
    </td>
-   <td> <p>PRIME o ULTIMATE</p>
-    <p>Flusso di lavoro Ultimate</p>
-   </td>
+   <td>Qualsiasi</td>
   </tr>
   <tr>
    <td>Licenze Adobe Workfront

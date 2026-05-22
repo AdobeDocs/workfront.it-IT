@@ -6,26 +6,24 @@ description: Leggi questo articolo per risolvere i problemi relativi al filtro P
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '180'
+ht-degree: 23%
 
 ---
 
-# Il filtro Progetti in corso include risultati imprevisti
+# Il filtro Progetti a cui partecipo include risultati imprevisti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
    <td>Pacchetto Adobe Workfront
    </td>
-   <td> <p>PRIME o ULTIMATE</p>
-    <p>Flusso di lavoro Ultimate</p>
-   </td>
+   <td>Qualsiasi</td>
   </tr>
   <tr>
    <td>Licenze Adobe Workfront

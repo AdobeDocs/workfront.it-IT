@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 17%
+source-wordcount: '339'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   Per impostazione predefinita, gli utenti con una licenza Pianificazione, Lavoro, Revisore o Richiesta dispongono di capacità di visualizzazione e modifica complete. Gli utenti con una licenza per utenti esterni non hanno accesso a filtri, viste e raggruppamenti.
+   Per impostazione predefinita, gli utenti con una licenza Standard, Pianifica, Lavoro, Luce, Revisore, Collaboratore o Richiesta dispongono di capacità di visualizzazione e modifica complete. Gli utenti con una licenza Utente esterno non hanno accesso a filtri, viste e raggruppamenti.
 
    <!--
    If this changes, undraft section with table below
@@ -67,13 +67,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    Dopo aver creato il livello di accesso, puoi assegnarlo a un utente. Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
+## Accesso a filtri, visualizzazioni e raggruppamenti per tipo di licenza
+
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con filtri, visualizzazioni e raggruppamenti, vedere la sezione [Filtri, visualizzazioni e raggruppamenti](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) nell&#39;articolo [Funzionalità disponibili per ogni tipo di oggetto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
 <!--
-## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+Drafting out this section for now because the table is redundant since all four license types can do everything.
 
-In questa tabella sono elencati gli elementi che un amministratore di Workfront può consentire agli utenti con ogni tipo di licenza di utilizzare filtri, visualizzazioni e raggruppamenti. Per informazioni sui tipi di licenza di Workfront, vedere [Panoramica sulle licenze di Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 <table style="table-layout:auto">
 <col>
@@ -83,51 +86,51 @@ In questa tabella sono elencati gli elementi che un amministratore di Workfront 
 <col>
 <thead>
 <tr>
-<th> Azione </th>
-<th> Pianificatore </th>
-<th> Collaboratore </th>
-<th> Revisore </th>
-<th> Richiedente </th>
+<th> Action </th>
+<th> Planner </th>
+<th> Worker </th>
+<th> Reviewer </th>
+<th> Requester </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Modificare filtri, viste e raggruppamenti</td>
+<td>Edit filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Creare filtri, viste e raggruppamenti</td>
+<td>Create filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Visualizzare filtri, visualizzazioni e raggruppamenti</td>
+<td>View filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Eliminare filtri, viste e raggruppamenti</td>
+<td>Delete filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Condividere filtri, visualizzazioni e raggruppamenti</td>
+<td>Share filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Condividere filtri, visualizzazioni e raggruppamenti a livello di sistema</td>
+<td>Share filters, views, and groupings system-wide</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -135,3 +138,5 @@ In questa tabella sono elencati gli elementi che un amministratore di Workfront 
 </tr>
 </tbody>
 </table>
+
+-->

@@ -8,9 +8,9 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '3702'
 ht-degree: 3%
 
 ---
@@ -700,7 +700,7 @@ Nell&#39;intestazione del gruppo vengono visualizzate le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in uso] </td> 
-   <td> <p>Nella casella [!UICONTROL Licenses in use] viene visualizzato il numero di utenti di licenze [!UICONTROL Plan] e [!UICONTROL Work] nel gruppo e nei relativi sottogruppi. È possibile fare clic sui numeri per visualizzare queste informazioni per tutti e 5 i tipi di licenza.</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Visualizzare il numero di licenze allocate e utilizzate in un gruppo nella nuova esperienza [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Nella casella [!UICONTROL Licenses in use] viene visualizzato il numero di utenti di licenze [!UICONTROL Standard] o [!UICONTROL Plan] e [!UICONTROL Work] nel gruppo e nei relativi sottogruppi. È possibile fare clic sui numeri per visualizzare queste informazioni per tutti i tipi di licenza.</p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Visualizzare il numero di licenze allocate e utilizzate in un gruppo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
@@ -747,7 +747,7 @@ Nell&#39;intestazione del documento vengono visualizzate le seguenti informazion
   </tr> 
   <tr> 
    <td role="rowheader">Area [!UICONTROL Decision] di approvazione</td> 
-   <td> L'area [!UICONTROL Decisions] viene visualizzata nell'angolo superiore destro dell'intestazione del documento. Questa area varia in base alla fase di approvazione e al fatto che si sia un approvatore, un revisore o nessuno dei due. <ul><li> <p>Se si è un approvatore, è possibile utilizzare le icone seguenti per gestire le approvazioni del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rifiuta]</p> <p>Per ulteriori informazioni sulle decisioni di approvazione, vedere <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approvazione del lavoro</a>.</li><li><p>Se si è un revisore, è possibile fare clic sul pulsante Completa revisione personale per indicare che è stato rivisto il documento.</p><p>Per ulteriori informazioni sulla revisione di un documento, vedere <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Rivedere un documento</a>.</p></li><li>In caso contrario, quest'area mostra lo stato di revisione e approvazione corrente del documento.</li><ul></p> </td> 
+   <td> L'area [!UICONTROL Decisions] viene visualizzata nell'angolo superiore destro dell'intestazione del documento.Questa area varia in base alla fase di approvazione e al fatto che tu sia un approvatore, un revisore o nessuno dei due. <ul><li> <p>Se si è un approvatore, è possibile utilizzare le icone seguenti per gestire le approvazioni del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approva]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rifiuta]</p> <p>Per ulteriori informazioni sulle decisioni di approvazione, vedere <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approvazione del lavoro</a>.</li><li><p>Se si è un revisore, è possibile fare clic sul pulsante Completa revisione personale per indicare che è stato rivisto il documento.</p><p>Per ulteriori informazioni sulla revisione di un documento, vedere <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Rivedere un documento</a>.</p></li><li>In caso contrario, quest'area mostra lo stato di revisione e approvazione corrente del documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,10 +7,10 @@ description: In Workfront puoi creare una cartella collegata con Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 11%
+source-wordcount: '491'
+ht-degree: 10%
 
 ---
 
@@ -59,7 +59,7 @@ Se una risorsa viene eliminata o spostata da una cartella collegata all’intern
   <tr>
    <td><strong>Configurazioni del livello di accesso</strong>
    </td>
-   <td>Per configurare un’integrazione Experience Manager è necessario essere un amministratore di Workfront. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
+   <td>Per configurare un’integrazione Experience Manager è necessario essere un amministratore di Workfront. Una volta configurata, gli utenti con una licenza Standard o Plan possono impostare cartelle collegate su singoli progetti.
    </td>
   </tr>
 </table>

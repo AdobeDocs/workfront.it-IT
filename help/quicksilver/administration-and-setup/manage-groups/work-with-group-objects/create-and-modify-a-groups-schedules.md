@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 10%
 
 ---
 
@@ -25,13 +25,13 @@ Per informazioni generali sulla creazione e la modifica di una pianificazione, v
 
 >[!NOTE]
 >
->Gli amministratori di gruppi e gli utenti con una licenza Pianificazione che possono modificare altri utenti possono aggiungere una pianificazione a livello di sistema o di gruppo a un altro utente quando modificano il suo profilo.
+>Gli amministratori di gruppi e gli utenti con una licenza Standard o Plan che possono modificare altri utenti possono aggiungere una pianificazione a livello di sistema o di gruppo a un altro utente quando modificano il suo profilo.
 
 Per informazioni sull&#39;utilizzo delle pianificazioni nella pianificazione delle risorse, vedere [Panoramica pianificazioni](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) e [Panoramica pianificazione risorse](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Per informazioni sull&#39;utilizzo delle pianificazioni nella pianificazione del
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>

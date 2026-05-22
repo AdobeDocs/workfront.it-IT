@@ -11,10 +11,10 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
+source-wordcount: '513'
+ht-degree: 9%
 
 ---
 
@@ -74,7 +74,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Considerazioni per la creazione e la gestione di modelli di layout
 
 * Gli utenti possono personalizzare alcune aree del proprio layout. Quando si modifica un modello di layout, le modifiche vengono unite alle personalizzazioni apportate senza sovrascriverle o reimpostarle. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout.
-* Gli amministratori di gruppi e gli utenti con una licenza Pianificazione che possono modificare altri utenti possono aggiungere modelli di layout a livello di sistema e di gruppo agli utenti che possono gestire durante la modifica del profilo.
+* Gli amministratori di gruppi e gli utenti con una licenza Standard o Plan che possono modificare altri utenti possono aggiungere modelli di layout a livello di sistema e di gruppo agli utenti che possono gestire durante la modifica del profilo.
 * Gli amministratori di gruppi non possono assegnare modelli di layout a mansioni o team.
 
 Per ulteriori informazioni sui modelli layout, vedere [Modelli layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
