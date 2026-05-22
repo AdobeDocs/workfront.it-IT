@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5192'
 ht-degree: 2%
 
 ---
@@ -251,10 +251,14 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
    * [Data di creazione](#created-date)
    * [Ultima modifica eseguita da](#last-modified-by)
    * [Data ultima modifica](#last-modified-date)
-   * [Data di approvazione](#approved-date)
-   * [Approvato da](#approved-by)
    * [ID record](#record-id)
-     <!--* [Object](#object-field-type)-->
+   <!--
+    * [Approved date](#approved-date)
+    * [Approved by](#approved-by)
+    -->
+   <!--
+    * [Object](#object-field-type)
+    -->
 
    >[!IMPORTANT]
    >
@@ -754,66 +758,69 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
 1. Fai clic su **Crea**.
 
    Il nuovo campo Ultima modifica del tipo di data viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o data e ora) dell’ultima modifica apportata al record.
+<!--
 
-### Data di approvazione
+### Approved date
 
-È possibile utilizzare il tipo di campo Data approvata per aggiungere la data in cui una richiesta è stata approvata e ha determinato la creazione del record. Questo campo è di sola lettura e viene compilato automaticamente con la data (e facoltativamente con l’ora) in cui la richiesta è stata approvata dall’ultimo approvatore. In questo caso, la data di approvazione deve coincidere con la data di creazione del record.
-
->[!TIP]
->
->Il campo Data approvata viene compilato con informazioni solo per i record creati inviando un modulo di richiesta associato agli approvatori.
->
->Se il modulo è associato a più approvatori, nel campo Data approvazione viene registrata solo la data dell&#39;ultima decisione di approvazione.
-
-1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Data di creazione**.
-
-   ![Tipo di campo data approvata](assets/approved-date-field-type.png)
-
-   1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-
-   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
-   * **Formato data**: selezionare uno dei formati seguenti:
-
-      * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
-      * **Standard**: 05/16/2023
-      * **Lungo**: 16 maggio 2023
-      * **Europeo**: 16/05/2023
-      * **ISO**: 16/05/2023
-
-   * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
-
-     Selezionare una delle opzioni seguenti:
-
-      * **24hr**: ad esempio: 18:00
-      * **12hr**: ad esempio: 6:00 PM
-
-1. Fai clic su **Crea**.
-
-   Il nuovo campo del tipo di data Approvato viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o la data e l’ora) in cui la richiesta di record è stata approvata, se il record è stato creato inviando una richiesta associata agli approvatori.
-
-### Approvato da
-
-Puoi utilizzare il tipo di campo Approvato da per aggiungere l’ultimo utente che ha approvato la richiesta per creare un record. Questo campo è di sola lettura e viene compilato automaticamente con il nome dell’utente che ha approvato la richiesta di creazione del record.
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
 
 >[!TIP]
 >
->Il campo Approvato da viene compilato con informazioni solo per i record creati inviando un modulo di richiesta associato agli approvatori.
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
 >
->Se il modulo è associato a più approvatori, il nome di tutti gli approvatori viene registrato nel campo Data approvazione, separato da virgole.
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
 
-1. Inizia a creare un campo come descritto nella sezione [Creare campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Approvato da**.
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
 
-   ![Approvato per tipo di campo](assets/approved-by-field-type.png)
+   1. Add the following information in the **New field** tab:
 
-1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
 
-   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
-   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
 
-1. Fai clic su **Crea**.
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
 
-   Il nuovo campo Approvato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
 
 ## ID record
 
