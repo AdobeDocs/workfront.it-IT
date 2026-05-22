@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21957'
+ht-degree: 97%
 
 ---
 
@@ -686,6 +686,10 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
    <td>Un menu, situato sul lato sinistro dello schermo, in cui le voci vengono modificate in modo da essere correlate ai contenuti attivi. Ad esempio, quando un utente visualizza un progetto, il [!UICONTROL Menu contestuale] mostrerà collegamenti a informazioni e strumenti relativi al progetto.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Collaboratore]</td> 
+   <td><p>In genere è un tipo di licenza. Un utente con una licenza di [!UICONTROL Contributor] può inviare richieste per l'esecuzione di nuovi lavori nel sistema.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica dei livelli di accesso</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Referente problema convertito]</td> 
    <td>Un campo in un rapporto di progetti o attività che mostra informazioni sull’utente che è il [!UICONTROL Contatto principale] di un problema quando questo viene convertito in un progetto o in un’attività. Il campo viene visualizzato anche nella sezione [!UICONTROL Dettagli progetto] in cui viene visualizzato il nome del [!UICONTROL Contatto principale] del problema convertito. Consulta anche “[!UICONTROL Contatto principale]” in questo articolo.</td> 
   </tr> 
@@ -1278,6 +1282,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>In una visualizzazione o in un rapporto di [!UICONTROL Gruppo], questo campo mostra il numero massimo di licenze [!UICONTROL Lavoro] che possono essere assegnate agli utenti che hanno il rispettivo gruppo designato come proprio [!UICONTROL Gruppo predefinito].</p> </td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>In genere è un tipo di licenza. Un utente con una licenza [!UICONTROL Light] può rivedere e approvare elementi di lavoro nel sistema.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica dei livelli di accesso</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Utente limitato]</td> 
    <td>Tipo di licenza che consente la creazione di un [!DNL Access Level] che contiene privilegi di sola visualizzazione, con la possibilità di inviare problemi, inserire note e caricare documenti.</td> 
   </tr> 
@@ -1651,7 +1659,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li> <p>Per i problemi, puoi aggiornare manualmente questo campo. Le ore pianificate del problema non vengono aggiunte alle ore pianificate del progetto. </p> <p><b>SUGGERIMENTO</b></p> <p>In un rapporto sui problemi, uno dei campi [!UICONTROL Ore pianificate] viene sostituito dal campo [!UICONTROL Lavoro]. Nel campo viene visualizzato il numero di ore pianificate per il problema. Per ulteriori informazioni, consulta i campi “lavoro” o “[!UICONTROL Lavoro]” in questa tabella. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata  dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
+     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata [!UICONTROL] dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Per i progetti, [!DNL Workfront] calcola le ore pianificate aggiungendo tutte le ore pianificate da tutte le attività del progetto. </p> </li> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>Le colonne Nome progetto o Nome attività a un rapporto problema. </li> </ul>
     Per ulteriori informazioni, consulta <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Eseguire e consegnare un rapporto con i diritti di accesso di un altro utente</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>Questo è di un tipo di licenza completa nel sistema [!DNL Workfront]. Gli utenti devono disporne per accedere a tutte le funzioni in [!DNL Workfront].</p><p>Per le licenze di questo modello, non esiste un equivalente di Lavoro. Gli utenti che in precedenza disponevano di una licenza Lavoro diventano utenti Standard con tutte le funzionalità di tale licenza.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica dei livelli di accesso</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Data di inizio]</td> 
    <td> <p>La data in cui il lavoro su un elemento è impostato per l’inizio. In [!DNL Workfront] sono presenti diverse date di inizio: </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
