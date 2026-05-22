@@ -6,18 +6,18 @@ description: La definizione di una WBS (Work Breakdown Structure) per un progett
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1755'
 ht-degree: 1%
 
 ---
 
-# Determinare la struttura funzionale di un progetto
+# Determinare la struttura dettaglio lavoro in un progetto
 
 La definizione di una WBS (Work Breakdown Structure) per un progetto è un insieme di attività che alla fine delinea il piano del progetto. Il WBS divide il risultato del progetto in elementi di lavoro gestibili, che possono essere utilizzati per definire le attività cardine e organizzare le assegnazioni di lavoro.
 
-Per creare la struttura funzionale di un progetto, è necessario disporre di una licenza Pianificazione con accesso Modifica ai progetti. Potrebbe essere necessario un accesso aggiuntivo ad altre aree di Adobe Workfront, a seconda del numero di attività eseguite durante la creazione di WBS.
+Per creare la struttura funzionale di un progetto, è necessario disporre di una licenza Standard o Pianificazione con accesso in modifica ai progetti. Potrebbe essere necessario un accesso aggiuntivo ad altre aree di Adobe Workfront, a seconda del numero di attività eseguite durante la creazione di WBS.
 
 È consigliabile mantenere il progetto nello stato Pianificazione mentre si apportano modifiche alla struttura funzionale del progetto, per evitare notifiche da attivare per gli utenti del team di progetto.
 
@@ -70,7 +70,7 @@ Per definire i risultati e i risultati finali WBS in Workfront, è consigliabile
 
 Dopo aver creato l&#39;attività cardine e la struttura delle attività di base del progetto, è possibile stimare il tempo necessario per completare il progetto complessivo definendo vincoli e durate delle attività.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * I vincoli di attività definiscono quando il lavoro su un&#39;attività deve iniziare o terminare.
 
@@ -82,12 +82,12 @@ Considera quanto segue:
 
   A seconda del Tipo di durata dell&#39;attività, è possibile modificare la durata di un&#39;attività durante il ciclo di vita di un progetto, ma questo influirà anche sulla sequenza temporale del progetto. Per informazioni sulla durata di un&#39;attività, vedere l&#39;articolo [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
-## Assegna attività
+## Assegnare attività
 
 Dopo aver definito la durata e i vincoli di ogni attività, è possibile determinare chi dispone del tempo e delle competenze necessarie per eseguire il lavoro. In Workfront è possibile assegnare attività alle seguenti entità:
 
 * Utenti\
-  Solo gli utenti con un livello di accesso Planner o Worker possono essere assegnati alle attività. Sebbene sia possibile assegnare le attività a richiedenti e revisori, questi non possono completarle. Per questo motivo, si sconsiglia di assegnare loro le attività.
+  Solo gli utenti con un livello di accesso Standard, Planner o Worker possono essere assegnati alle attività. Sebbene sia possibile assegnare le attività a richiedenti e revisori, questi non possono completarle. Per questo motivo, si sconsiglia di assegnare loro le attività.
 
   Per informazioni sui livelli di accesso e sulla definizione delle operazioni che gli utenti possono eseguire con gli oggetti di Workfront, vedere [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -180,7 +180,7 @@ I seguenti elementi di una struttura funzionale di un progetto possono essere sa
 * Documenti
 * Spese e altre informazioni finanziarie
 * Obiettivi
-* Tipi di Ora
+* Tipi di ora
 * Struttura coda richieste
 * Notifiche promemoria
 * Rischi

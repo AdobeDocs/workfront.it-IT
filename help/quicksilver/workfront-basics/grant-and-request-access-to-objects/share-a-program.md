@@ -7,9 +7,9 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '925'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 # Condividere un programma
 
 
-L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare i programmi al momento dell’assegnazione del livello di accesso. Per poter accedere alla modifica di un programma è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai programmi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
+L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare i programmi al momento dell’assegnazione del livello di accesso. Per poter accedere alla modifica di un programma è necessario disporre di una licenza Standard o Plan. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai programmi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
 Oltre al livello di accesso concesso, è possibile ricevere autorizzazioni per visualizzare o gestire programmi specifici da utenti che possono condividerli con l&#39;utente. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -77,7 +77,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
   Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Puoi rimuovere le autorizzazioni ereditate dal programma. Per ulteriori informazioni sulla rimozione delle autorizzazioni dagli oggetti, vedere   [Rimuovi le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Puoi rimuovere le autorizzazioni ereditate dal programma. Per ulteriori informazioni sulla rimozione delle autorizzazioni dagli oggetti, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Condividere un programma
 

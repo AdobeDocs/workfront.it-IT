@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 5%
+source-wordcount: '992'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Quando visualizzi un gruppo che gestisci nell’area Gruppi, puoi visualizzare e
 
 Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire queste operazioni anche per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
-Per informazioni su come gli utenti con una licenza Pianificazione possono creare un team, vedere [Creare un team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Per informazioni su come gli utenti con una licenza Standard o Plan possono creare un team, vedere [Creare un team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 Per informazioni su come un amministratore di Workfront può creare un team, vedere [Creare un team dall&#39;area Configurazione](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
@@ -38,7 +38,7 @@ Per informazioni su come un amministratore di Workfront può creare un team, ved
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>

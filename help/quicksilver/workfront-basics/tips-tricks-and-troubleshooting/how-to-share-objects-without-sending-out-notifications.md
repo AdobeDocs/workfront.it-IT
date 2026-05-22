@@ -5,13 +5,13 @@ title: Come condividere gli oggetti senza generare notifiche
 description: Scopri come condividere gli oggetti ed evitare l’invio di notifiche relative a questa modifica. Questa funzione è particolarmente utile quando si condividono oggetti in blocco.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '577'
+ht-degree: 11%
 
 ---
-
 
 # Come condividere gli oggetti senza generare notifiche
 
@@ -36,23 +36,20 @@ Se è necessario condividere più oggetti con più persone (in blocco), ma non s
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuova licenza: Standard</p> 
-   Oppure
-   <p>Licenza corrente: Piano</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
@@ -64,13 +61,13 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,9 +107,3 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 1. Fai clic su **Salva modifiche**.
 
    Gli oggetti sono stati condivisi con gli utenti selezionati e nessuno di loro ha ricevuto notifiche e-mail relative a questa modifica.
-
-
-
-
-
-

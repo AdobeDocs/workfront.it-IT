@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Scenario: se desideri che i promemoria vengano attivati su tutte le attività e 
 
 Le seguenti caratteristiche sono specifiche per le notifiche di promemoria:
 
-* Può essere creato da un amministratore o da qualsiasi utente con una licenza Pianificazione e accesso amministrativo agli Avvisi di Promemoria
+* Può essere creato da un amministratore o da qualsiasi utente con una licenza Standard of Plan e accesso amministrativo agli Avvisi di Promemoria
 * Può essere associato solo manualmente a un oggetto
 * È possibile inviare una notifica solo per l&#39;oggetto associato
 * Può essere inviato a vari soggetti interessati all&#39;oggetto, come proprietario, creatore, approvatore o assegnatario

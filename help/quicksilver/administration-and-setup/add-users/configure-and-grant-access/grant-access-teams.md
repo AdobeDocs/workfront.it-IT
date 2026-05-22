@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '677'
 ht-degree: 11%
 
 ---
@@ -71,7 +71,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
        </tbody>
       </table>
 
-   * **Modifica**: se stai configurando il modo in cui gli utenti con una licenza Pianificazione e Lavoro possono gestire i team, modifica una delle seguenti opzioni:
+   * **Modifica**: se stai configurando il modo in cui gli utenti con una licenza Standard, Plan o Work possono gestire i team, modifica una delle seguenti opzioni:
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
        <tbody>
         <tr>
          <td role="rowheader">Crea</td>
-         <td><p>Consente agli utenti con una licenza Pianificazione o Lavoro di creare team.</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
+         <td><p>Consente agli utenti con una licenza Standard, Plan o Work di creare team.</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Elimina</td>
-         <td><p> Consente agli utenti con una licenza Pianificazione di eliminare i team a cui hanno accesso per la modifica (non disponibile per gli utenti con una licenza Lavoro).</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
+         <td><p> Consente agli utenti con una licenza Standard o Pianificazione di eliminare i team a cui hanno accesso per la modifica (non disponibile per gli utenti con una licenza Lavoro).</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Modifica team nei gruppi che gestisco (solo per amministratori di gruppi)</td>
-         <td><p>Consente agli utenti con licenza Pianificazione che sono designati come amministratori di gruppi di modificare i team associati ai gruppi che gestiscono.</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
+         <td><p>Consente agli utenti con licenza Standard o Pianificazione designati come amministratori di gruppi di modificare i team associati ai gruppi che gestiscono.</p><p>Questa opzione è attivata per impostazione predefinita.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Modifica i team a cui collaboro</td>
-         <td><p>Consente agli utenti di pianificare la licenza o la licenza Lavoro per modificare i team di cui sono membri.</p><p>Questa opzione è disabilitata per impostazione predefinita.</p></td>
+         <td><p>Consente agli utenti con una licenza Standard, Pianificazione o Lavoro di modificare i team di cui sono membri.</p><p>Questa opzione è disabilitata per impostazione predefinita.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Visualizza i team associati ai miei gruppi</td>
@@ -125,4 +125,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Accesso ai team per tipo di licenza
 
-Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i team, vedere la sezione [Team](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i team, vedere la sezione [Team](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

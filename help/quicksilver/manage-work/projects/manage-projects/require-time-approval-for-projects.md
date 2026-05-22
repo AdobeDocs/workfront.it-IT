@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 6%
 
 ---
@@ -66,7 +66,7 @@ Per ulteriori informazioni sui record di fatturazione, vedere l&#39;articolo [Cr
        <li>Se disponi delle autorizzazioni di gestione per il progetto, puoi approvare o rifiutare le ore registrate sul progetto da qualsiasi altro utente.</li>
        <li> Se disponete dell'accesso Contribuisci o Visualizza al progetto, potrete approvare o rifiutare solo le ore registrate dall'utente o da qualsiasi altro utente che vi segnala.<br></li>
       </ul></li> 
-     <li>Disponi di una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. In questo caso:
+     <li>Si dispone di una licenza Standard o Full con accesso amministrativo a Timesheets &amp; Hours. In questo caso:
       <ul>
        <li>Puoi approvare o rifiutare qualsiasi ora per i progetti per i quali disponi almeno delle autorizzazioni di visualizzazione. </li>
       </ul></li> 

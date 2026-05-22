@@ -8,16 +8,14 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 13%
 
 ---
 
 # Accesso necessario per gestire le risorse nel bilanciamento dei carichi di lavoro
-
-{{preview-fast-release-general}}
 
 Senza l&#39;accesso o le autorizzazioni corrette, potrebbe non essere possibile visualizzare o gestire le assegnazioni di lavoro nel Bilanciatore dei carichi di lavoro.
 
@@ -55,7 +53,7 @@ The following table illustrates the connection between the Workfront plan your c
  </tbody> 
 </table>
 
-For information about the Workfront plans, see [Our Plans](https://business.adobe.com/it/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 -->
@@ -90,7 +88,7 @@ Per visualizzare il Bilanciatore dei carichi di lavoro è necessario disporre de
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">Tutti gli utenti hanno accesso alla visualizzazione del Bilanciatore dei carichi di lavoro sui propri profili. Questo non è limitato dalla licenza o dal livello di accesso. Il Bilanciatore dei carichi di lavoro in un profilo utente è di sola lettura e non è possibile modificare assegnazioni e allocazioni.</span>
+Tutti gli utenti possono visualizzare il Bilanciatore dei carichi di lavoro sui propri profili. Questo non è limitato dalla licenza o dal livello di accesso. Il Bilanciatore dei carichi di lavoro in un profilo utente è di sola lettura e non è possibile modificare assegnazioni e allocazioni.
 
 ## Accesso necessario per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro
 
@@ -124,8 +122,4 @@ Per gestire il Bilanciatore dei carichi di lavoro è necessario disporre dei seg
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

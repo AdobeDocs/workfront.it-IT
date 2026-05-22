@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ Per un elenco completo delle variabili filtro con caratteri jolly basate sull&#3
 
 Questo può accadere nella maggior parte dei casi se disponi di un accesso limitato che impedisce la visualizzazione degli elementi nel sistema. Inoltre, gli elementi che desideri visualizzare non sono condivisi con te.
 
-Il creatore del report può modificarlo per eseguirlo con i diritti di accesso di un amministratore di sistema o di qualsiasi utente del piano che abbia accesso alla visualizzazione dei dati.
+Il creatore del report può modificarlo per eseguirlo con i diritti di accesso di un amministratore di sistema o di qualsiasi utente Standard o Plan che abbia accesso alla visualizzazione dei dati.
 
 Per ulteriori informazioni, vedere [Eseguire e recapitare un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -188,7 +188,7 @@ Per ulteriori informazioni sull&#39;aggiornamento di un dashboard memorizzato ne
 
 Non è possibile cambiare il proprietario di un report. Tuttavia, l’utente che ha creato il rapporto può consentire ad altri utenti di modificarlo. Il modo in cui puoi consentire agli utenti di modificare un rapporto dipende dal tipo di utente che sei.
 
-* Gli amministratori di sistema possono consentire agli utenti con una licenza Pianificazione di modificare i rapporti configurando l’opzione Modifica nella riga Rapporti per includere l’accesso a Crea un rapporto.\
+* Gli amministratori di sistema possono consentire agli utenti con una licenza Standard o Plan di modificare i rapporti configurando l’opzione Modifica nella riga Rapporti per includere l’accesso a Crea un rapporto.\
   Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Tutti gli utenti finali con accesso per creare e condividere report possono consentire ad altri di modificare singoli report condividendoli e assegnando ad altri utenti le autorizzazioni di gestione per tali report.\

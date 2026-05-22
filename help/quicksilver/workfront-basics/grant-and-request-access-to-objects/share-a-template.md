@@ -6,16 +6,16 @@ description: In qualità di amministratore di Adobe Workfront, puoi assegnare un
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 19%
+source-wordcount: '596'
+ht-degree: 15%
 
 ---
 
 # Condividere un modello
 
-In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso agli utenti per autorizzarli a visualizzare o modificare i modelli. Per poter accedere a Modifica modelli, l’utente deve disporre di una licenza per uno dei piani disponibili.
+In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso agli utenti per autorizzarli a visualizzare o modificare i modelli. Per poter accedere ai modelli di modifica, l&#39;utente deve disporre di una licenza Standard o Plan.
 
 Per ulteriori informazioni sulla concessione dell&#39;accesso ai modelli, vedere [Concedere l&#39;accesso ai modelli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -48,7 +48,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 * Quando si condivide un modello o un progetto creato dal modello, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati al modello o al progetto.
 
-  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta   [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Quando si condivide un modello, tutte le attività e i documenti modello, nonché i problemi relativi al progetto futuro creato dal modello, ereditano le stesse autorizzazioni, se non diversamente specificato.
 

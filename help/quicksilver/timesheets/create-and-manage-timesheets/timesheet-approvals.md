@@ -6,14 +6,14 @@ description: Il processo di approvazione delle schede orario fornisce ai respons
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 6%
 
 ---
 
-# Approvare una scheda orario
+# Approvare un timesheet
 
 <!--Audited: 8/2024-->
 
@@ -25,7 +25,7 @@ Per informazioni sull&#39;invio di una scheda orario, vedere [Inviare una scheda
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col> 
@@ -36,7 +36,7 @@ Per informazioni sull&#39;invio di una scheda orario, vedere [Inviare una scheda
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>
@@ -56,11 +56,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 In genere, le schede orario vengono approvate da responsabili funzionali o dal personale delle risorse umane. Le schede orario in genere non vengono approvate dai project manager. I project manager possono approvare i progetti connessi all&#39;ora, ma i team o i responsabili delle risorse umane devono approvare le schede orario.
 
-Durante la creazione del profilo della scheda orario viene definito un approvatore della scheda orario. È necessario disporre di una licenza Pianificazione per essere designato come approvatore.
+Durante la creazione del profilo della scheda orario viene definito un approvatore della scheda orario. Per essere designato come approvatore è necessario disporre di una licenza Standard o Pianificazione.
 
 Per ulteriori informazioni sulla designazione degli approvatori della scheda orario, vedere la sezione [Creare o modificare un profilo della scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) nell&#39;articolo [Creare, modificare e assegnare profili della scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-## Approvare una scheda orario
+## Approvare un timesheet
 
 Puoi approvare qualsiasi scheda orario inviata se sei stato designato come approvatore. Quando una scheda orario viene inviata per l&#39;approvazione, la scheda orario è elencata nel widget **Approvazioni personali** nell&#39;area **Home**. Per ulteriori informazioni, vedere [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).
 

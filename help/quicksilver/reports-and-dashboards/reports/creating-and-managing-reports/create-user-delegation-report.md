@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 17%
+source-wordcount: '332'
+ht-degree: 16%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-In Adobe Workfront, gli utenti possono delegare le approvazioni di progetti, attività e problemi ad altri utenti per assicurarsi che le loro approvazioni siano gestite quando sono fuori sede. Gli utenti con una licenza Pianificazione possono creare un report Delega utenti per visualizzare:
+In Adobe Workfront, gli utenti possono delegare le approvazioni di progetti, attività e problemi ad altri utenti per assicurarsi che le loro approvazioni siano gestite quando sono fuori sede. Gli utenti con una licenza Standard o Plan possono creare un report Delega utenti per visualizzare:
 
 * Chi ha delegato le proprie approvazioni di attività, problemi e progetti a un altro utente
 * Quali utenti hanno delegato le approvazioni di attività, problemi e progetti loro assegnate

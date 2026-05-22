@@ -4,16 +4,16 @@ description: Puoi condividere un portfolio con altri utenti se disponi delle aut
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 7%
+source-wordcount: '901'
+ht-degree: 6%
 
 ---
 
 # Condividere un portfolio
 
-Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai portafogli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare i portfolio durante l’assegnazione del livello di accesso. Per poter accedere alla modifica di un portfolio, è necessario disporre di una licenza Standard o Plan. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai portafogli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 Oltre al livello di accesso che ti è stato concesso, puoi anche ricevere le autorizzazioni per visualizzare o gestire portfolio specifici da parte di utenti che possono condividerli con te. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 

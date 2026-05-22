@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '767'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Il pulsante [!UICONTROL Fine] può impostare automaticamente lo stato di un&#39;
 
 Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICONTROL Fine] per associarlo a determinati stati nel sistema. Il pulsante [!UICONTROL Fine] funziona in due modi diversi per le attività in [!UICONTROL Workfront]:
 
-* Se all&#39;utente è assegnato un team predefinito, un amministratore [!DNL Workfront] o un utente con una licenza [!UICONTROL Plan] può configurare il pulsante [!UICONTROL Done] per riflettere determinati stati per i membri del team. Vedi [Configurare il pulsante [!UICONTROL Fine] per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
+* Se all&#39;utente è assegnato un team predefinito, un amministratore [!DNL Workfront] o un utente con una licenza [!UICONTROL Standard] o [!UICONTROL Plan] può configurare il pulsante [!UICONTROL Done] per riflettere determinati stati per i membri del team. Vedi [Configurare il pulsante [!UICONTROL Fine] per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
 * Se l&#39;utente non ha un [!UICONTROL Team predefinito], ma ha [!UICONTROL Altri team] nel suo profilo, Workfront cerca l&#39;impostazione del pulsante [!UICONTROL Fine] su uno qualsiasi dei team associati all&#39;utente. La selezione è casuale e per l’attività viene utilizzato lo stato associato a uno dei team.
 * Se all&#39;utente non è assegnato un team predefinito, il pulsante [!UICONTROL Fine] per le attività è associato a uno stato completo. Non sono disponibili opzioni di configurazione in questo scenario. Il pulsante [!UICONTROL Fine] viene impostato automaticamente su questo stato.
 
@@ -88,7 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    >   * [!UICONTROL Richiesta di Modifica]
    >   * [!UICONTROL Segnalazione Bug]
 
-   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte &#x200B;]&quot;, oltre ai diversi stati scelti per il team.
+   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte ]&quot;, oltre ai diversi stati scelti per il team.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
@@ -98,7 +98,7 @@ Per rendere visibili agli utenti le modifiche apportate alla funzionalità del p
 
 Per associare utenti a un team predefinito:
 
-1. Fai clic sull&#39;icona **[!UICONTROL del]** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
 
 1. Fare clic su **[!UICONTROL Utenti]**, quindi selezionare l&#39;utente o gli utenti che si desidera associare a un team predefinito.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi fai clic su **[!UICONTROL Modifica]**.\

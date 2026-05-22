@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1558'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare un altro amministr
 >Questo è diverso dall&#39;utilizzo di un livello di accesso per concedere agli utenti l&#39;accesso amministrativo a determinate aree del sistema. Per ulteriori informazioni vedi quanto segue:
 >
 >* [Concedi agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Accesso di un amministratore di Workfront e accesso di un utente del piano con diritti amministrativi](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in questo articolo
+>* [Accesso di un amministratore di Workfront e accesso di un utente Standard o Plan con diritti amministrativi](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in questo articolo
 >
 
 ## Requisiti di accesso
@@ -80,17 +80,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    L’utente ora dispone dei diritti completi di amministratore di sistema nel sistema.
 
-## Accesso di un amministratore di Workfront e accesso di un utente del piano con diritti amministrativi  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Accesso di un amministratore di Workfront e accesso di un utente Standard o Plan con diritti di amministratore  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-Le due tabelle seguenti mostrano la differenza tra i diritti di accesso di un utente con un livello di accesso Amministratore di sistema di Workfront e quelli di un utente con una licenza Pianificazione con alcuni diritti amministrativi.
+Le due tabelle seguenti mostrano la differenza tra i diritti di accesso di un utente con un livello di accesso Amministratore di sistema di Workfront e quelli di un utente con una licenza Standard o Pianificazione con alcuni diritti amministrativi.
 
 Gli amministratori di Workfront possono visualizzare tutti gli oggetti del sistema, indipendentemente da chi li ha creati, crearne di nuovi e modificare o eliminare quelli esistenti. Hanno accesso completo a tutti gli oggetti nel sistema.
 
-Gli utenti con una licenza Pianificazione che possono modificare le funzionalità in un’area hanno accesso completo alle funzionalità in tale area.
+Gli utenti con una licenza Standard o Plan che possono modificare le funzionalità in un’area hanno accesso completo alle funzionalità di tale area.
 
 >[!NOTE]
 >
->Gli utenti con una licenza Pianificazione designati come amministratori di gruppi possono eseguire alcune delle azioni consentite per gli amministratori di Workfront. Possono eseguire queste azioni solo per i gruppi che amministrano, i loro sottogruppi e gli utenti in questi gruppi e sottogruppi. Per ulteriori informazioni, vedere [Amministratori di gruppi](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Gli utenti con una licenza Standard o Plan designati come amministratori di gruppi possono eseguire alcune delle azioni consentite per gli amministratori di Workfront. Possono eseguire queste azioni solo per i gruppi che amministrano, i loro sottogruppi e gli utenti in questi gruppi e sottogruppi. Per ulteriori informazioni, vedere [Amministratori di gruppi](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Accesso all’area Setup (Configurazione)](#access-to-the-setup-area)
 * [Accesso agli oggetti](#access-to-objects)
@@ -105,7 +105,7 @@ Gli utenti con una licenza Pianificazione che possono modificare le funzionalit�
   <tr> 
    <th>Area/oggetto</th> 
    <th>Amministratore Workfront </th> 
-   <th>Utente con una licenza Pianificazione e alcuni diritti amministrativi</th> 
+   <th>Utente con una licenza Standard o Plan e alcuni diritti di amministratore</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,7 +187,7 @@ Gli utenti con una licenza Pianificazione che possono modificare le funzionalit�
   <tr> 
    <td>Accedi come</td> 
    <td>Accesso completo </td> 
-   <td> <p>Se l'accesso amministrativo al gruppo è abilitato nel livello di accesso e il gruppo è designato come amministratore di gruppo, è possibile accedere come utenti del gruppo amministrato e dei relativi sottogruppi. Non possono accedere come amministratore di sistema.<br>Per ulteriori informazioni sull'abilitazione dell'accesso amministrativo di gruppo per gli utenti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
+   <td> <p>Se l'accesso amministrativo al gruppo è abilitato nel livello di accesso e il gruppo è designato come amministratore di gruppo, è possibile accedere come utenti del gruppo amministrato e dei relativi sottogruppi. Impossibile accedere come amministratore di sistema.<br>Per ulteriori informazioni sull'abilitazione dell'accesso amministrativo ai gruppi per gli utenti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Pianificazioni</td> 
@@ -419,7 +419,7 @@ Gli utenti con una licenza Pianificazione che possono modificare le funzionalit�
   <tr> 
    <td>Utenti</td> 
    <td>Accesso completo</td> 
-   <td> <p>Accesso limitato</p> <p>Non possono assegnare gruppi a utenti per i quali non sono amministratori di gruppi o a gruppi non pubblici.</p> <p>Non possono assegnare agli utenti un livello di accesso superiore al loro livello di accesso.</p> <p>Se l’accesso amministrativo al gruppo è abilitato al livello di accesso e il gruppo è designato come amministratore di gruppo, è possibile reimpostare la password di e accedere come utenti del gruppo che amministrano e dei relativi sottogruppi. Non è possibile reimpostare la password o accedere come amministratore di sistema.<br>Per ulteriori informazioni sull'abilitazione dell'accesso amministrativo di gruppo per gli utenti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
+   <td> <p>Accesso limitato</p> <p>Non possono assegnare gruppi a utenti per i quali non sono amministratori di gruppi o a gruppi non pubblici.</p> <p>Non possono assegnare agli utenti un livello di accesso superiore al loro livello di accesso.</p> <p>Se l’accesso amministrativo al gruppo è abilitato al livello di accesso e il gruppo è designato come amministratore di gruppo, è possibile reimpostare la password di e accedere come utenti del gruppo che amministrano e dei relativi sottogruppi. Non possono reimpostare la password o accedere come amministratore di sistema.<br>Per ulteriori informazioni sull'abilitazione dell'accesso amministrativo ai gruppi per gli utenti, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
