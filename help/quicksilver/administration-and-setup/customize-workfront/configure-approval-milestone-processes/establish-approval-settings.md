@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: In qualità di amministratore di Adobe Workfront, puoi determinare le impostazioni globali per i processi di approvazione in Workfront. Queste impostazioni hanno effetto su tutti i processi di approvazione degli elementi di lavoro nel sistema.
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '835'
+ht-degree: 8%
 
 ---
 
@@ -21,30 +21,32 @@ In qualità di amministratore di Adobe Workfront, puoi determinare le impostazio
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td><p>Piano</p>
+   <p>Standard<p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>È necessario essere amministratore di sistema o disporre di una licenza Pianificazione con accesso amministrativo ai processi di approvazione</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>È necessario essere amministratore di sistema o disporre di una licenza Pianificazione con accesso amministrativo ai processi di approvazione</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +92,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader">Consenti agli utenti di richiamare le richieste di nuova creazione in attesa di approvazione</td> 
       <td> <p>Seleziona questa opzione per configurare se gli utenti possono richiamare un problema o una richiesta in attesa di approvazione per il loro primo stato. È possibile associare il primo stato di un problema o di una richiesta a un processo di approvazione configurando le code delle richieste. </p> 
-      <p>Per ulteriori informazioni sulle code di richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>.</p> 
+      <p>Per ulteriori informazioni sulle code delle richieste, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda delle richieste</a>.</p> 
       <p>Esegui una delle operazioni seguenti:</p> 
        <ul> 
        <li>Selezionare questa opzione per consentire agli utenti di richiamare un'approvazione per il primo stato di un problema o di una richiesta. In questo caso, può visualizzare il pulsante Recall&lt; (Richiama) su un nuovo problema o richiesta con stato in attesa di approvazione. Quando sceglie di richiamare il problema, riceve un avviso che indica che anche il problema verrà eliminato. Il problema viene cancellato dopo che hanno confermato di averlo richiamato. </li> 

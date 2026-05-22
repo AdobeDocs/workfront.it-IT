@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3551'
 ht-degree: 2%
 
 ---
@@ -230,9 +230,9 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    >[!TIP]
    >
-   >The changes you make to the column width and order are permanent and visible to all users who access the record type.
+   >Le modifiche apportate alla larghezza e all&#39;ordine delle colonne sono permanenti e visibili a tutti gli utenti che accedono al tipo di record.
 
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. Passa il puntatore del mouse sull&#39;intestazione della colonna, quindi fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
 
    Oppure
 
@@ -310,9 +310,9 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * Puoi filtrare per campi di ricerca che visualizzano più valori.
 
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project&#39;s Budget in the filter you are creating for the Activity record type.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un filtro per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nel filtro che si sta creando per il tipo di record Attività.
 
-To add a filter to a table view:
+Per aggiungere un filtro a una vista tabella:
 
 1. Creare una visualizzazione tabella per una pagina del tipo di record, come descritto nell&#39;articolo [Gestione visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Seleziona una vista tabella, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
@@ -402,7 +402,7 @@ To add a filter to a table view:
 
       ![Filtri multilivello nelle visualizzazioni](assets/multi-tiered-filters-in-views.png)
 
-   The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   L’elenco dei record viene filtrato automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
@@ -444,7 +444,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
    Oppure
 
-   Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
+   Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell&#39;intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
 
 1. (Condizionale) Nella casella **Ordina record per** fare clic su uno dei campi suggeriti oppure su **Scegli un campo diverso** e cerca un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -480,7 +480,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+&lt;!—!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -507,7 +507,7 @@ Per aggiungere un raggruppamento:
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
-   ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -574,7 +574,7 @@ To sort grouped records:
    >
    >* Se l&#39;opzione Applica all&#39;intera riga è disattivata, solo il lato sinistro del campo Principale visualizza un indicatore di colore stretto con il colore selezionato. L&#39;impostazione è disattivata per impostazione predefinita.
    >
-   >* Non è possibile applicare colori di riga a un&#39;intera riga se nella visualizzazione per tabella è selezionato almeno un raggruppamento.
+   >* Non è possibile applicare colori di riga a un&#39;intera riga se nella visualizzazione per tabella è selezionato almeno un raggruppamento. Il colore del ruolo si applica solo a sinistra della cella del campo principale quando si applicano i raggruppamenti alla tabella.
 
 1. Fare clic all&#39;esterno della casella **Colori riga** per chiuderla. I colori vengono applicati automaticamente.
 
@@ -584,8 +584,8 @@ Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visua
 
 Quando si visualizza la vista tabella, è inoltre possibile visualizzare il campo che un altro utente sta modificando al momento della visualizzazione del record.
 
-1. Go to a record type page and open any view.
-1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view.
+1. Passare a una pagina del tipo di record e aprire qualsiasi visualizzazione.
+1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
 1. Fai clic sul menu a discesa accanto agli avatar, per attivare l&#39;impostazione **Mostra collaboratori**. L&#39;impostazione è attivata per impostazione predefinita.
 
    ![Mostra/nascondi collaboratori selezionati](assets/show-collaborators-toggle-selected.png)

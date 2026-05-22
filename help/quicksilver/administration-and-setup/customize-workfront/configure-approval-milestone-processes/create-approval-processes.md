@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: È possibile creare un processo di approvazione che gli utenti possono allegare a un elemento di lavoro (progetto, attività, problema, modello o attività modello), a un documento o a una bozza. Un processo di approvazione garantisce che gli assegnatari designati dell'oggetto rivedano alcune modifiche prima che l'oggetto progredisca nel sistema.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2231'
 ht-degree: 4%
