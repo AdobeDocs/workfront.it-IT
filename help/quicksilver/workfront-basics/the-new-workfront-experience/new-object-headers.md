@@ -102,7 +102,7 @@ Per impostazione predefinita, nell’intestazione del progetto vengono visualizz
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Condizione] </td> 
-   <td> <p>Quando si imposta il tipo di condizione [!UICONTROL] del progetto su Manual, è possibile aggiornare il progetto [!UICONTROL Condition] nell'intestazione.</p></td> 
+   <td> <p>Quando si imposta il tipo di condizione  del progetto su Manual, è possibile aggiornare il progetto [!UICONTROL Condition] nell'intestazione.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato]</td> 
@@ -137,7 +137,7 @@ Per impostazione predefinita, l&#39;intestazione dell&#39;attività include le s
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività  viene visualizzata a sinistra del nome dell'attività.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività</td> 
@@ -294,8 +294,8 @@ L’intestazione del programma visualizza le seguenti informazioni:
    <td>Non è possibile modificare il programma [!UICONTROL Planned Completion Date] (Data di completamento pianificata) nell'intestazione. Queste informazioni vengono aggiornate dalla [!UICONTROL Planned Completion Date] (Data di completamento pianificata) dei progetti nel programma.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione progetti attivi [!UICONTROL]</td> 
-   <td>Questo è un calcolo della percentuale di progetti attivi nel programma per cui la condizione [!UICONTROL] è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble].</td> 
+   <td role="rowheader">Condizione progetti attivi </td> 
+   <td>Questo è un calcolo della percentuale di progetti attivi nel programma per cui la condizione  è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble].</td> 
   </tr> 
  </tbody> 
 </table>
@@ -358,7 +358,7 @@ L’intestazione del portfolio include le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Valore Netto]</td> 
-   <td>Calcolo del valore netto di [!UICONTROL] per tutti i progetti nel portfolio.</td> 
+   <td>Calcolo del valore netto di  per tutti i progetti nel portfolio.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ L’intestazione del modello visualizza le seguenti informazioni:
    <td> <p>Accanto al nome del modello viene visualizzata l’area delle azioni.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proprietario del modello [!UICONTROL]</td> 
+   <td role="rowheader">Proprietario del modello </td> 
    <td>È possibile modificare il campo [!UICONTROL Proprietario modello] nell'intestazione.</td> 
   </tr> 
   <tr> 
@@ -432,7 +432,7 @@ Nell&#39;intestazione dell&#39;attività modello vengono visualizzate le seguent
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività [!UICONTROL] viene visualizzata a sinistra del nome dell'attività modello.</p> </td> 
+   <td> <p>L'icona verde <img src="assets/nwe-tasks-icon.png"> dell'attività  viene visualizzata a sinistra del nome dell'attività modello.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell’attività modello</td> 
@@ -629,7 +629,7 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
  <tbody> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
-   <td> <p>L'icona arancione <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> dell'iterazione [!UICONTROL] viene visualizzata a sinistra del nome dell'iterazione.</p> </td> 
+   <td> <p>L'icona arancione <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> dell'iterazione  viene visualizzata a sinistra del nome dell'iterazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nome dell'iterazione</td> 
@@ -644,11 +644,11 @@ Nell&#39;intestazione dell&#39;iterazione vengono visualizzate le seguenti infor
    <td> <p>Accanto al nome dell'iterazione viene visualizzata l'area delle azioni.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Proprietario</td> 
-   <td>Proprietario [!UICONTROL] dell'iterazione. Impossibile modificare [!UICONTROL Owner] nell'intestazione.</td> 
+   <td>Proprietario  dell'iterazione. Impossibile modificare [!UICONTROL Owner] nell'intestazione.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timeline]</td> 
-   <td>La sequenza temporale di [!UICONTROL] mostra le date di inizio e di fine dell'iterazione. Impossibile modificare la sequenza temporale [!UICONTROL] nell'intestazione.</td> 
+   <td>La sequenza temporale di  mostra le date di inizio e di fine dell'iterazione. Impossibile modificare la sequenza temporale  nell'intestazione.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team]</td> 
@@ -843,7 +843,7 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
    <td>Nella casella [!UICONTROL Ruolo] è possibile visualizzare il numero di ruoli disponibili per il piano rispetto al numero di ruoli richiesti. Facendo clic sulla casella è possibile regolare i ruoli disponibili.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Informazioni finanziarie di [!UICONTROL]</td> 
+   <td role="rowheader">Informazioni finanziarie di </td> 
    <td>Nella casella [!UICONTROL Financial] è possibile visualizzare il budget, il costo e la percentuale di utilizzo per il piano. Facendo clic sulla casella è possibile adeguare l'importo del budget e determinare se i costi delle persone sono inclusi nel piano.</td> 
   </tr> 
   <tr> 
