@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1499'
 ht-degree: 8%
 
 ---
@@ -269,13 +269,13 @@ I tipi di campo di Workfront determinano se un determinato campo può essere com
 <li>Casella di controllo</li>
 <li>Pulsanti di scelta</li>
 <li>Menu a discesa a selezione singola e multipla</li>
+<li>Ricerca esterna</li>
+<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Riferimenti</li>
+<li>Campi incorporati di Workfront Planning</li>
 </ul>
 </td>
 <td><li>Automatico</li>
-<li>Ricerca esterna</li>
-<li>Ricerca interna</li>
-<li>Riferimenti</li>
-<li>Campi incorporati di WF Planning</li>
 </ul>
 </td>
 </tr>
@@ -330,3 +330,4 @@ Se non ricevi i suggerimenti previsti, la causa potrebbe essere una delle seguen
 
 * È necessario disporre di almeno un mese di dati della richiesta nel sistema prima che possa suggerire valori di campo da richieste precedenti.
 * Potresti non aver seguito i guardrail di caricamento del documento durante il caricamento di un documento da cui estrarre i suggerimenti. Per ulteriori informazioni, vedi [Guardrail di caricamento documenti](#document-upload-guardrails) in questo articolo.
+* Il riempimento di un modulo IA può riempire un valore di un campo di ricerca esterno. Tuttavia, se il campo di ricerca esterno ha una dipendenza da un campo formula, l’IA non può recuperare le opzioni del campo in modo accurato e non compilerà tale valore di campo.
