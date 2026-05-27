@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 5%
@@ -163,3 +163,5 @@ Puoi scoprire chi ha ereditato l’accesso a un campo personalizzato o a un widg
 ### Rimuovere l&#39;accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
 Se devi rimuovere l’accesso a un campo personalizzato o a un widget in un modulo personalizzato condiviso, devi annullare la condivisione del modulo. Per istruzioni, vedere la sezione [Rimuovere l&#39;accesso a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) nell&#39;articolo [Condividere un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+
+
