@@ -10,14 +10,16 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '863'
 ht-degree: 10%
 
 ---
 
 # Configurare le preferenze di sistema
+
+{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -127,7 +129,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
       <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">Applica sempre i campi obbligatori nella modifica in blocco</span></td>
+      <td><span class="preview"><p>Consente di scegliere se obbligare gli utenti a immettere le informazioni nei campi obbligatori durante la modifica in blocco di oggetti.</p> <p>Quando questa opzione è selezionata, i campi obbligatori devono avere dei valori prima di essere salvati in modalità di modifica collettiva. Se nel campo obbligatorio manca un valore per almeno un oggetto selezionato in blocco, il salvataggio non è consentito.</p> <p>Se questa opzione non è selezionata, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">Abilita archiviazione cloud Adobe </td> 
       <td>Consente di abilitare o disabilitare l’archiviazione cloud di Adobe per l’intera organizzazione o per gruppi specifici. Per ulteriori informazioni sull'archiviazione cloud Adobe, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Abilitare l'archiviazione cloud Adobe per la tua organizzazione</a>.</td> 
      </tr>
@@ -141,7 +147,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr>
      <tr> 
       <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
-      <td>&gt;Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
