@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4a3fd0413e1bfd582b89247bf76453c87caca024
+source-git-commit: 80ca77043b0feac9579a4c41298c05afa8af1756
 workflow-type: tm+mt
 source-wordcount: '3153'
 ht-degree: 2%
@@ -469,6 +469,5 @@ Per ordinare le singole colonne:
    >[!NOTE]
    >
    >La ricerca esamina tutte le colonne di tutte le voci di elenco. Se l&#39;elenco è lungo, la ricerca include elementi che potrebbero essere necessari per scorrere. Quando l’elenco viene filtrato, la ricerca esamina solo ciò che è attualmente visualizzato.
-
 
 
