@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
@@ -190,3 +190,4 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
 1. Nella casella Condivisione fare clic sul menu a discesa a destra del nome dell&#39;utente, del team, della mansione, del gruppo, della società o del profilo aziendale che non si desidera più avere accesso speciale al modulo e selezionare **Rimuovi**.
 1. (Facoltativo) Ripetere il passaggio precedente per gli altri nomi che si desidera rimuovere.
 1. Fai clic su **Salva**.
+
