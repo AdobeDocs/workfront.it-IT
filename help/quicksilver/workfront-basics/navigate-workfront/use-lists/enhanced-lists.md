@@ -1,20 +1,22 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Usa elenchi avanzati
-description: Gli elenchi avanzati utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard
+description: Gli elenchi avanzati utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
+source-git-commit: 4a3fd0413e1bfd582b89247bf76453c87caca024
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '3153'
 ht-degree: 2%
 
 ---
 
 # Utilizzare gli elenchi avanzati
+
+{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -83,20 +85,32 @@ A seconda dell’elenco avanzato che stai visualizzando, effettua una delle segu
 
    Gli elenchi avanzati supportano i seguenti tipi di campi:
 
-   * Testo
-   * Numero
-   * Valuta
-   * Data
-   * Data e ora
-   * Menu a discesa a selezione singola/multipla
-   * Automatico
-   * Paragrafo
-   * Assegnatario (uno o più)
-   * Selettore colore
+   * Testo a riga singola: è possibile immettere informazioni alfanumeriche limitate.
+   * Numero: è necessario immettere le informazioni in un formato numerico.
+   * Divisa: è necessario immettere le informazioni in un formato numerico preceduto da un simbolo di divisa.
+   * Data: utilizza il calendario per selezionare una data.
+   * Data e ora: utilizza il calendario per selezionare una data e un’ora.
+   * Menu a discesa a selezione singola o multipla: selezionare una o più opzioni da un menu a discesa. <span class="preview">Se sono supportate in un elenco, è possibile creare nuove opzioni direttamente dal menu a discesa quando non viene trovato alcun risultato.</span>
+   * Automatico: digitare il nome di un oggetto esistente (ad esempio, il nome di un gruppo o di un progetto) e sceglierlo dall&#39;elenco dei suggerimenti.
+   * Paragrafo: è possibile inserire più righe di informazioni alfanumeriche.
+   * Assegnatario (uno o più): selezionare uno o più utenti come assegnatari della voce di elenco.
+   * Selettore colore: scegli un colore dal selettore oppure digita un codice come Esadecimale o RGB.
+
+   <div class="preview">
+
+   I campi a discesa Assegnatario, Selezione singola e Selezione multipla supportano i seguenti comandi da tastiera:
+
+   * Utilizzare le frecce su e giù della tastiera per spostarsi nell&#39;elenco degli elementi.
+   * Premere la barra spaziatrice per selezionare un elemento.
+   * Premere il tasto Canc per rimuovere un elemento selezionato.
+
+   </div>
 
    >[!NOTE]
    >
    >Ogni tipo di campo ha le proprie opzioni di modifica. Alcuni campi potrebbero essere di sola lettura.
+   >
+   >Non tutti gli elenchi supportano tutti i tipi di campo.
 
 ![Esempio di elenco avanzato](assets/glist-exchange-rates.png)
 
@@ -153,6 +167,8 @@ A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascond
    Un indicatore viene visualizzato sul pulsante **Colonne** quando le colonne sono nascoste. L&#39;indicatore non viene visualizzato quando si riordinano le colonne.
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
+
+   Alcuni elenchi consentono inoltre di trascinare e rilasciare le colonne nell’ordine desiderato.
 
 ### Rinomina colonne
 
