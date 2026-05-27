@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 2%
@@ -224,9 +224,9 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
 
    1. Seleziona **Disattiva** dal menu a discesa **Autorizzazioni ereditate**.
 
-   >[!TIP]
-   >
-   >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il record.
+      >[!TIP]
+      >
+      >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il record.
 
    1. (Facoltativo) Seleziona **Solo gli invitati possono accedere** dall&#39;area **Chi ha accesso**. È necessario indicare singoli utenti, gruppi, team o società con cui condividere i record.
 
