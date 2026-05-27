@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
-ht-degree: 94%
+source-wordcount: '7447'
+ht-degree: 92%
 
 ---
 
@@ -223,7 +223,7 @@ Per aggiungere un campo di testo:
     <td>Disponibile per </td>
     </tr>
     <tr>
-    <td>Dimensioni</td>
+    <td>Dimensione</td>
     <td><p>(Facoltativo) Cambia le dimensioni dei campi di testo nel modulo.<p>
    </td>
     <td><ul>
@@ -237,7 +237,7 @@ Per aggiungere un campo di testo:
     <tr>
     <td>Etichetta</td>
     <td><p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare le etichette in qualsiasi momento.<p>
-    <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p></td>
+    <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p></td>
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
@@ -272,7 +272,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Formato</td>
-    <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Note</b>:   
+    <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Nota</b>:   
     <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se intendi utilizzare il campo in calcoli matematici, assicurati di selezionare il formato Numero o Valuta.</li> 
     <li>Quando selezioni Numero o Valuta, il sistema tronca automaticamente i numeri che iniziano con 0.</li>
@@ -393,7 +393,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </tr>
     <tr> 
      <td role="rowheader">Etichetta</td> 
-     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td> 
+     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td> 
      <td><ul>
     <li>Pulsanti di scelta</li>
     <li>Gruppo di caselle di controllo</li>
@@ -576,7 +576,7 @@ Per aggiungere campi di digitazione e campi di date:
      <tr> 
       <td role="rowheader">Nome</td> 
       <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. I campi Etichetta e Nome non sono sincronizzati. Questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.</p> 
-      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td>
+      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td>
     <td><ul>
     <li>Campo di digitazione</li>
     <li>Data</li>
@@ -607,7 +607,7 @@ Per aggiungere campi di digitazione e campi di date:
          <li>Nelle app Workfront per dispositivi mobili iOS e Android sono supportati i seguenti tipi di oggetti: Utente, Azienda, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>Campo di digitazione</li>
+    <li>Automatico</li>
     </ul></td>
      </tr>
      <tr>
@@ -622,7 +622,7 @@ Per aggiungere campi di digitazione e campi di date:
        <p><b>Suggerimento:</b> puoi creare un rapporto per testare il filtro prima di aggiungerlo direttamente al campo di digitazione. Questo ti consentirà di verificare che il filtro restituisca gli oggetti corretti. Quindi puoi passare alla modalità testo nel rapporto, copiare l’istruzione della modalità testo e aggiungerla al filtro del campo di digitazione.</p>
        <p><b>Nota</b>:
        <ul> 
-        <li>Se stai modificando un modulo personalizzato esistente, l’aggiunta di un filtro a un campo di digitazione non rimuove gli oggetti (al di fuori dell’ambito del filtro) che gli utenti hanno già aggiunto utilizzando quel campo. </li> 
+        <li>Se stai modificando un modulo personalizzato esistente, l’aggiunta di un filtro a un campo di digitazione non rimuove gli oggetti (al di fuori dell’ambito del filtro) che gli utenti hanno già aggiunto utilizzando quel campo.</li> 
         <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo di digitazione, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
         </ul></p></td> 
       <td>
@@ -698,7 +698,7 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Formato</td>
       <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p>
       <p><strong>Nota:</strong></p>
-      <ul><li>Puoi modificare il tipo di formato dopo il salvataggio del modulo, con unico limite: tutti i valori esistenti negli oggetti devono poter essere convertiti al nuovo tipo. Ad esempio, se il tipo di formato è Testo e un oggetto contiene il valore “abc”, non potrai convertire il campo e visualizzerai un errore che indica l’impossibilità del sistema di convertire “abc” in numero/valuta. Per utilizzare il campo nei calcoli matematici, assicurati di selezionare un formato Numero o Valuta.</li>
+      <ul><li>Puoi modificare il tipo di formato dopo il salvataggio del modulo, con unico limite: tutti i valori esistenti negli oggetti devono poter essere convertiti al nuovo tipo. Ad esempio, se il tipo di formato è Testo e un oggetto memorizza il valore "abc", non è possibile convertire il campo e viene visualizzato un errore che indica che il sistema non può convertire "abc" in numero/valuta. Se intendi utilizzare il campo in calcoli matematici, assicurati di selezionare il formato Numero o Valuta.</li>
       <li>Quando selezioni Numero o Valuta, il sistema tronca automaticamente i numeri che iniziano con 0.</li>
       <li>Il limite di caratteri per i campi Numero è 16. Inoltre puoi utilizzare un campo Testo per inserire numeri ed evitare il limite.</li>
       </ul></td>
@@ -716,7 +716,7 @@ Per aggiungere una ricerca esterna:
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">URL di base dell’API</td> 
+      <td role="rowheader">URL API base</td> 
       <td><p>Digita o incolla l’URL per l’API.</p><p>L’URL dell’API deve restituire il contenuto JSON delle opzioni che desideri visualizzare nel menu a discesa. Puoi utilizzare il campo Percorso JSON per selezionare i valori specifici dal JSON restituito da utilizzare come opzioni del menu a discesa.</p><p>Quando inserisci l’URL dell’API, puoi facoltativamente passare i seguenti valori nell’URL:</p>
       <ul>
       <li>$$HOST: rappresenta l’host corrente di Workfront e può essere utilizzato per effettuare/cercare chiamate API verso l’API di Workfront. Quando si utilizza questo carattere jolly, l’autenticazione viene gestita automaticamente e gli utenti non devono inviare intestazioni di autenticazione. Gli utenti, ad esempio, possono cercare le attività utilizzando l’URL di base <code>$$HOST/attask/api/task/search</code>; questo consentirà di effettuare la ricerca e di selezionare i valori da un elenco di attività restituito.</li>
@@ -725,7 +725,7 @@ Per aggiungere una ricerca esterna:
       <p><strong>Nota:</strong> se non utilizzi $$QUERY e l’utente digita del testo nella casella di ricerca, le opzioni già disponibili verranno ridotte. Tuttavia, se utilizzi $$QUERY e l’utente digita qualsiasi carattere, viene eseguita una nuova chiamata di rete all’API. Pertanto, se l’API contiene più di 2000 valori e l’API supporta l’esecuzione di query, puoi utilizzare $$QUERY per effettuare ricerche non solo tra i 2000 valori esistenti, ma dall’API originale con le opzioni ridotte.</p></li>
       <li><p>{fieldName}: dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri a cascata per le opzioni a discesa, passando il valore di un campo già selezionato al campo di ricerca esterna per filtrare le opzioni. Ad esempio, il campo Area geografica esiste già nel modulo e stai restringendo un elenco di paesi provenienti dall’API solo a quelli che si trovano in un’area geografica specifica.</p>
       <p>Per un campo di ricerca esterna che dipende da altri campi (utilizzando la sintassi {fieldName}), le opzioni restituite dall’API sono limitate a quelle che corrispondono a eventuali stringhe o valori inseriti negli altri campi. Questa funzionalità non è supportata negli elenchi e nei rapporti.</p></li>
-      <li>{referenceObject}.{fieldName}: dove il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. Ad esempio, portfolioID={project}.{portfolioID}</li></ul>
+      <li>{referenceObject}.{fieldName} - Dove il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. (ad esempio, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>Suggerimento:</strong> rivedi la documentazione dell’API che stai utilizzando per le query specifiche che puoi definire.</p></td>
      </tr>
      <tr> 
@@ -734,14 +734,14 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
+      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
-         { name: “USA”},
-         { name: “Canada”}
-       &rbrace;
-      &rbrace;
+      {
+       dati: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -900,24 +900,32 @@ In questa tabella sono elencati i campi nativi disponibili per gli oggetti speci
 
 | Nome campo | Progetto | Attività | Problema | Modello | Attività modello | Portfolio | Programma | Gruppo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| <span class="preview"> Vantaggio effettivo </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
 | Data di completamento effettiva | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durata effettiva | ✓ |   |   |   |   |   |   |   |
 | Ore effettive | ✓ |   | ✓ |   |   |   |   |   |
 | Data di inizio effettiva | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Budget <span class="preview"> </span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | Azienda | ✓ |   |   | ✓ |   |   |   |   |
 | Condizione | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tipo di condizione | ✓ |   |   | ✓ |   |   |   |   |
+| <span class="preview"> Valuta </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Descrizione | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Durata |   | ✓ |   |   | ✓ |   |   |   |
 | Tipo di durata |   | ✓ |   |   | ✓ |   |   |   |
 | Unità di durata |   | ✓ |   |   | ✓ |   |   |   |
 | Inserito da | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Data inserimento | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| <span class="preview"> data tasso di cambio </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| <span class="preview"> Costo Fisso </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> Reddito Fisso </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Gruppo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Ultimo aggiornamento di | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Data ultimo aggiornamento | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Proprietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| <span class="preview"> Metodo indice prestazioni </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> beneficio pianificato </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Data di completamento pianificata | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durata pianificata | ✓ |   |   | ✓ |   |   |   |   |
 | Ore pianificate | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ In questa tabella sono elencati i campi nativi disponibili per gli oggetti speci
 | Stato | ✓ | ✓ |   |   |   |   |   |   |
 | Punti storia |   | ✓ |   |   |   |   |   |   |
 | Modello | ✓ |   |   |   |   |   |   |   |
+| <span class="preview"> Costo Totale Stimato </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> Ricavi Totali Stimati </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+Questi tipi di oggetto modulo personalizzati aggiuntivi supportano anche riferimenti a campi nativi.
+
+* Record fatturazione: campo Reddito fisso
+* Documento: campi Nome, Descrizione
+* Società: campi Nome, Gruppo
+* Scheda tariffa: campi Nome, Descrizione, Società, Gruppo
+* Mansione: campi Nome, Descrizione
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -987,7 +1015,7 @@ In questa tabella sono elencati i campi nativi disponibili per gli oggetti speci
       <td>
      </tr>
      <tr>
-      <td>Attivo</td>
+      <td>Attiva</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
      <tr> 
@@ -1140,7 +1168,7 @@ Per aggiungere un campo di tipo Pianificazione connessione:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td>Attivo</td>
+      <td>Attiva</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
       </tbody> 
@@ -1174,6 +1202,4 @@ Un’app può essere incorporata in un modulo personalizzato Workfront utilizzan
 ## Organizzare e visualizzare in anteprima un modulo con il designer dei moduli
 
 Per informazioni su come organizzare un modulo personalizzato con interruzioni di sezione e visualizzare un’anteprima del modulo, consulta [Organizzare e visualizzare in anteprima un modulo con il designer dei moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
 
