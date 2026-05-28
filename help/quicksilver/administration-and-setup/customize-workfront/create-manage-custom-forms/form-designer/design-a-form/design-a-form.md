@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 92%
+source-wordcount: '7342'
+ht-degree: 91%
 
 ---
 
@@ -65,29 +65,29 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Scegliere i tipi di oggetto](assets/new-custom-form-select-objects-032526.png)
 
-+++ Espandere per visualizzare l&#39;elenco degli oggetti che supportano i moduli personalizzati.
+   +++ Espandere per visualizzare l&#39;elenco degli oggetti che supportano i moduli personalizzati.
 
-* Progetto
-* Attività
-* Problema/Richiesta
-* Portfolio
-* Documento
-* Programma
-* Spesa
-* Utente
-* Azienda
-* Iterazione
-* Record della fatturazione
-* Gruppo
-* Team
+   * Progetto
+   * Attività
+   * Problema/Richiesta
+   * Portfolio
+   * Documento
+   * Programma
+   * Spesa
+   * Utente
+   * Azienda
+   * Iterazione
+   * Record della fatturazione
+   * Gruppo
+   * Team
 
-Se ti trovi nel pacchetto Workflow Ultimate, puoi anche creare moduli personalizzati per questi oggetti:
+   Se ti trovi nel pacchetto Workflow Ultimate, puoi anche creare moduli personalizzati per questi oggetti:
 
-* Mansione
-* Scheda tariffa
-* Assegnazione
+   * Mansione
+   * Scheda tariffa
+   * Assegnazione
 
-+++
+   +++
 
 1. Nell’area **Aggiungi nome modulo** digita il titolo del modulo personalizzato.
 1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic su **Tipi di oggetto** nell&#39;intestazione del progettista del modulo. Selezionare i tipi di oggetto che si desidera aggiungere e deselezionare qualsiasi tipo di oggetto che si desidera eliminare dal modulo.
@@ -155,8 +155,8 @@ Ciascun nome di campo personalizzato deve essere univoco nell’istanza Workfron
 
 >[!NOTE]
 >
->Sebbene sia possibile farlo, è consigliabile non modificare il nome dopo che tu o altri utenti avete iniziato a utilizzare il modulo personalizzato in Workfront. Se lo facessi, il sistema non riconoscerebbe più il campo personalizzato nei punti di riferimento in altre aree di Workfront.
->Ad esempio, se aggiungi il campo personalizzato a un rapporto e in seguito ne cambi il nome, Workfront non lo riconoscerà all’interno del rapporto che smetterà di funzionare correttamente finché non aggiungerai nuovamente il campo utilizzando il nuovo nome.
+>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
+>Ad esempio, se si aggiunge il campo personalizzato a un report e successivamente si modifica il nome, Workfront non lo riconosce nel report e non funzionerà più correttamente se non viene nuovamente aggiunto al report utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi incorporati di Workfront.
 >
@@ -237,7 +237,7 @@ Per aggiungere un campo di testo:
     <tr>
     <td>Etichetta</td>
     <td><p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare le etichette in qualsiasi momento.<p>
-    <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p></td>
+    <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p></td>
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
@@ -260,7 +260,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Istruzioni</td>
-    <td>Digita eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
+    <td>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -393,7 +393,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </tr>
     <tr> 
      <td role="rowheader">Etichetta</td> 
-     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td> 
+     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td> 
      <td><ul>
     <li>Pulsanti di scelta</li>
     <li>Gruppo di caselle di controllo</li>
@@ -426,7 +426,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </tr> 
     <tr> 
     <td role="rowheader">Formato</td> 
-    <td> <p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Note</b>:   
+    <td> <p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Nota</b>:   
      <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se intendi utilizzare il campo in calcoli matematici, assicurati di selezionare il formato Numero o Valuta.<br></li> 
     <li>Quando selezioni Numero o Valuta, il sistema tronca automaticamente i numeri che iniziano con 0.</li>
@@ -576,7 +576,7 @@ Per aggiungere campi di digitazione e campi di date:
      <tr> 
       <td role="rowheader">Nome</td> 
       <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. I campi Etichetta e Nome non sono sincronizzati. Questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.</p> 
-      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sui nomi e le etichette dei campi</a>.</p> </td>
+      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td>
     <td><ul>
     <li>Campo di digitazione</li>
     <li>Data</li>
@@ -607,7 +607,7 @@ Per aggiungere campi di digitazione e campi di date:
          <li>Nelle app Workfront per dispositivi mobili iOS e Android sono supportati i seguenti tipi di oggetti: Utente, Azienda, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>Automatico</li>
+    <li>Campo di digitazione</li>
     </ul></td>
      </tr>
      <tr>
@@ -734,12 +734,12 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
+      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
       <pre>
       &lbrace;
        dati: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+         { name: “USA”},
+         { name: “Canada”}
        &rbrace;
       &rbrace;
       </pre>
@@ -928,7 +928,7 @@ In questa tabella sono elencati i campi nativi disponibili per gli oggetti speci
 | <span class="preview"> beneficio pianificato </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Data di completamento pianificata | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durata pianificata | ✓ |   |   | ✓ |   |   |   |   |
-| Ore pianificate | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Lavoro Necessario | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
 | Data di inizio pianificata | ✓ |   |   |   |   |   |   |   |
 | Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | Priorità | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
@@ -1015,7 +1015,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
-      <td>Attiva</td>
+      <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
      <tr> 
@@ -1063,7 +1063,7 @@ Per aggiungere un file Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo XD.</p> 
-      <p><b>Nota</b>: l’impostazione Accesso al collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
+      <p><b>Nota</b>: l'impostazione Accesso collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
    </td> 
      </tr> 
      <tr> 
@@ -1168,7 +1168,7 @@ Per aggiungere un campo di tipo Pianificazione connessione:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td>Attiva</td>
+      <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
       </tbody> 
