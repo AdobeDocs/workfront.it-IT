@@ -8,14 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 315ec33fdcb79c6ba739a40de92be92e829a96d5
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 6%
+source-wordcount: '1473'
+ht-degree: 3%
 
 ---
 
 # Creare un flusso di lavoro di approvazione documento
+
+{{highlighted-preview}}
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
@@ -59,7 +61,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nell’area dei documenti legacy
+## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nell’area dei documenti legacy in Produzione
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -104,7 +106,61 @@ Per creare un flusso di lavoro di approvazione:
    ![Dettagli documento](assets/new-stage.png)
 
 
-## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nella nuova area Documenti
+<div class="preview">
+
+## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nell’area dei documenti legacy in Anteprima
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+Per creare un flusso di lavoro di approvazione:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+
+1. Fare clic sul documento necessario per aprire il pannello Riepilogo documento per tale documento.
+
+1. Selezionare la versione del documento per cui si desidera creare un&#39;approvazione nel menu a discesa versione. La versione più recente è selezionata per impostazione predefinita.
+
+1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**.
+
+1. Compila i seguenti dettagli:
+
+   <table>
+   <tr>
+   <td><strong>Nome fase</strong></td>
+   <td>Aggiungete un nome di fase. È possibile modificare il nome in modo che sia più descrittivo, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi nomi o e-mail</strong></td>
+   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   </tr>
+   <tr>
+   <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
+   <td>La prima persona che prende una decisione completa la fase.</td>
+   </tr>
+   <tr>
+   <td><strong>Scadenza il (facoltativo)</strong></td>
+   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi messaggio personalizzato (facoltativo)</strong></td>
+   <td>Digitare un messaggio nella casella di testo <strong>Aggiungi messaggio personalizzato</strong>. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront.
+   <p>Quando si aggiunge una seconda fase, <strong>Mostra questo messaggio in tutte le fasi</strong> è selezionato per impostazione predefinita. Lascia selezionata questa opzione per utilizzare lo stesso messaggio in ogni fase. Per utilizzare un messaggio diverso per ogni fase, deselezionare <strong>Mostra il messaggio in tutte le fasi</strong>, quindi digitare il messaggio specifico per la fase nella casella di testo <strong>Aggiungi messaggio personalizzato</strong> di ogni fase, in base alle esigenze.</p></td>
+   </tr>
+   </table>
+
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altre fasi in base alle esigenze.
+
+   >[!NOTE]
+   >
+   >* Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
+   >* Se modifichi un messaggio personalizzato dopo la creazione del flusso di lavoro di approvazione, a tutti i partecipanti esistenti viene inviata una notifica e-mail aggiornata. Se aggiungi un partecipante in un secondo momento, il messaggio personalizzato viene incluso nella notifica e-mail.
+
+   ![Aggiungere un messaggio personalizzato a una fase](assets/add-custom-message.jpeg)
+
+</div>
+
+
+## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nella nuova area Documenti in Produzione
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -112,7 +168,7 @@ Per creare un flusso di lavoro di approvazione:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 
-1. Fai clic sul documento, quindi sull’icona Approvazioni a destra della pagina.
+1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
 
    ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
 
@@ -144,6 +200,58 @@ Per creare un flusso di lavoro di approvazione:
    >Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
 
    ![Dettagli documento](assets/new-stage.png)
+
+
+<div class="preview">
+
+## Creare un flusso di lavoro di approvazione dal pannello Riepilogo nella nuova area Documenti in Anteprima
+
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Per creare un flusso di lavoro di approvazione:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+
+1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
+
+   ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
+
+1. Fai clic su **Crea flusso di lavoro**, quindi compila i seguenti dettagli:
+
+   <table>
+   <tr>
+   <td><strong>Nome fase</strong></td>
+   <td>Aggiungete un nome di fase. È possibile modificare il nome in modo che sia più descrittivo, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi nomi o e-mail</strong></td>
+   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   </tr>
+   <tr>
+   <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
+   <td>La prima persona che prende una decisione completa la fase.</td>
+   </tr>
+   <tr>
+   <td><strong>Scadenza il (facoltativo)</strong></td>
+   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi messaggio personalizzato (facoltativo)</strong></td>
+   <td>Digitare un messaggio nella casella di testo <strong>Aggiungi messaggio personalizzato</strong>. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront.
+   <p>Quando si aggiunge una seconda fase, <strong>Mostra questo messaggio in tutte le fasi</strong> è selezionato per impostazione predefinita. Lascia selezionata questa opzione per utilizzare lo stesso messaggio in ogni fase. Per utilizzare un messaggio diverso per ogni fase, deselezionare <strong>Mostra il messaggio in tutte le fasi</strong>, quindi digitare il messaggio specifico per la fase nella casella di testo <strong>Aggiungi messaggio personalizzato</strong> di ogni fase.</p></td>
+   </tr>
+   </table>
+
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altre fasi in base alle esigenze.
+
+   >[!NOTE]
+   >
+   >* Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
+   >* Se modifichi un messaggio personalizzato dopo la creazione del flusso di lavoro di approvazione, a tutti i partecipanti esistenti viene inviata una notifica e-mail aggiornata. Se aggiungi un partecipante in un secondo momento, il messaggio personalizzato viene incluso nella notifica e-mail.
+
+   ![Aggiungere un messaggio personalizzato a una fase](assets/add-custom-message.jpeg)
+
+</div>
 
 
 
