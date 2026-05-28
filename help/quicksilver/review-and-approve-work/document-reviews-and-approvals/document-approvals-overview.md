@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # Panoramica sulla revisione e sull’approvazione unificata
+
+{{highlighted-preview}}
 
 La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.
 I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
@@ -303,7 +305,9 @@ Attualmente, i modelli di approvazione supportano singoli utenti e team.
 
 Sì. Gli approvatori e i revisori ricevono notifiche e-mail quando vengono assegnati a una revisione o approvazione. Anche le e-mail di promemoria automatizzati vengono inviate 72 ore prima della scadenza, 24 ore prima e alla scadenza stessa.
 
-La possibilità di personalizzare i messaggi di notifica e-mail non è attualmente disponibile, ma è inclusa nella roadmap del prodotto.
+In Produzione, la possibilità di personalizzare i messaggi di notifica e-mail non è attualmente disponibile, ma si trova nella roadmap del prodotto.
+
+<span class="preview">In Anteprima è possibile aggiungere un messaggio personalizzato a ogni fase di un flusso di lavoro di approvazione. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront. È possibile utilizzare lo stesso messaggio per ogni fase o un messaggio diverso per ogni fase e il messaggio può contenere fino a 500 caratteri. Se modifichi un messaggio personalizzato dopo la creazione del flusso di lavoro di approvazione, a tutti i partecipanti esistenti viene inviata una notifica e-mail aggiornata. Se aggiungi un partecipante in un secondo momento, il messaggio personalizzato viene incluso nella notifica e-mail. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
