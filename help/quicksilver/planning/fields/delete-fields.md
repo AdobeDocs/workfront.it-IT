@@ -8,10 +8,10 @@ author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 2%
+source-wordcount: '733'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 # Elimina campi
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -181,7 +180,14 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. Fai clic su **Elimina** per confermare.
+1. <span class="preview">(Condizionale) Se il campo che si sta eliminando fa parte di un modulo di richiesta, viene visualizzata la casella **Elimina campo** per indicare i moduli che saranno interessati dalle modifiche. Eseguire una delle operazioni seguenti:</span>
+
+   <div class="preview">
+
+   * Fare clic sulla freccia rivolta a destra per visualizzare le maschere interessate dalla modifica, quindi fare clic sul nome della maschera per aprire la maschera in una nuova scheda e decidere se si desidera mantenere il campo nella maschera o apportare ulteriori modifiche alla maschera.
+   * Fai clic su **Elimina** per eliminare il campo da tutte le aree in cui viene visualizzato.
+
+   </div>
 
    Non è possibile recuperare i campi eliminati.
 

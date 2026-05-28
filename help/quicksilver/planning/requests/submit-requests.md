@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2582'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -101,7 +101,9 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 ## Considerazioni sull&#39;invio di richieste a Workfront Planning
 
-* Non è possibile modificare una richiesta in Workfront dopo averla inviata.
+* Nell’ambiente di produzione non è possibile modificare una richiesta in Workfront dopo averla inviata.
+
+  <span class="preview">Nell&#39;ambiente di anteprima è possibile modificare una richiesta inviata solo prima che venga creato un record. Una volta creato il record, non è più possibile modificare la richiesta inviata. </span>
 * Ogni richiesta sottomessa crea un record per il tipo di record associato al modulo utilizzato, se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.
 * I record creati mediante l&#39;invio di moduli di richiesta sono identici ai record aggiunti tramite qualsiasi altro metodo in Workfront Planning.
 
@@ -144,7 +146,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    >* Puoi accedere alla visualizzazione di almeno un’area di lavoro.
 
-1. Fare clic su **Quale richiesta si desidera inviare?** barra per aprire un elenco di moduli di richiesta.
+1. Fai clic su **Quale richiesta desideri inviare?** per aprire un elenco di moduli di richiesta.
 1. Selezionare un modulo di richiesta dall&#39;elenco o iniziare a digitare il nome del modulo di richiesta, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
    Viene visualizzata una finestra con il nome del modulo di richiesta nella parte superiore.
@@ -193,7 +195,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
      L’e-mail di conferma o di notifica dell’approvazione contiene un collegamento alla richiesta.
 
-1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma, per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
+1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma o sul nome della richiesta nell&#39;elenco per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
 1. (Facoltativo) Per gestire la modalità di visualizzazione delle informazioni nell’elenco delle richieste, aggiorna i seguenti elementi di visualizzazione per l’elenco:
 
    * Visualizzazione
@@ -234,6 +236,17 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
 
 1. (Facoltativo) Immetti un commento nell&#39;area **Commenti**.
+1. <span class="preview">(Facoltativo e condizionale) Se la richiesta è in attesa di approvazione e hai aperto la richiesta, fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della richiesta, quindi fai clic su **Modifica** o fai doppio clic sui campi nella richiesta per modificarli. </span>
+
+   >[!NOTE]
+   >
+   >  <div class="preview">
+   >
+   >   * La modifica di una richiesta è possibile solo quando un record non è ancora stato creato e la richiesta è in attesa di approvazione.
+   >   * Alcuni campi sono di sola lettura e non è possibile modificarli.
+   >  * Non è più possibile modificare una richiesta dopo la creazione di un record.
+   >
+   >  </div>
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.
 
    La pagina del record viene visualizzata in Workfront Planning.
@@ -340,9 +353,17 @@ Quando si elimina una richiesta di Planning, si verificano gli eventi seguenti:
 * Il record creato dalla richiesta non viene eliminato.
 * Non è possibile recuperare le bozze eliminate. Nessun record associato alle bozze.
 
-L&#39;eliminazione delle richieste Planning è simile all&#39;eliminazione delle richieste Workfront.
+L&#39;eliminazione di richieste Planning da un elenco è simile all&#39;eliminazione di richieste Workfront.
 
 Per informazioni, vedere [Eliminare una richiesta inviata o una bozza di richiesta](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+Per eliminare una richiesta di Planning dopo l&#39;apertura della richiesta:
+
+1. Aprire una richiesta di Planning facendo clic sul relativo nome nell&#39;elenco Richieste.
+1. Fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della richiesta, quindi fai clic su **Elimina**.
+1. Fai clic su D **e** lete nella casella **Elimina definitivamente** per confermare.
+
+   La richiesta viene eliminata e non può essere recuperata.
 
 
 
