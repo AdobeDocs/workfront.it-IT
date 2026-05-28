@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: fb0698cc00e2bd12c613a63bb407615c439d2198
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 34%
+source-wordcount: '1374'
+ht-degree: 20%
 
 ---
 
@@ -35,10 +35,63 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 
 ## Miglioramenti in Adobe Workfront
 
+* [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti di Financial Management](#financial-management-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
+* [Altri miglioramenti](#other-enhancements)
+
+### Miglioramenti per gli amministratori
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Testo formattato che sostituisce testo con tipo di campo Formattazione</a>
+                <p>Il nuovo tipo di campo <b>Rich text</b> nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Campi finanziari nativi supportati nei moduli personalizzati</a>
+                <p>Ora puoi includere i campi finanziari nativi di Workfront nei moduli personalizzati. In precedenza, i campi finanziari non erano supportati.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">I moduli personalizzati possono essere condivisi a livello di sistema con accesso per allegare</a>
+                <p>Ai moduli personalizzati è stata aggiunta la nuova opzione di condivisione "Tutti nel sistema possono visualizzare e allegare". Quando si seleziona questa opzione, tutti gli utenti a livello di sistema possono allegare il modulo ad altri oggetti.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuova preferenza di sistema per applicare i campi obbligatori nella modifica in blocco</a>
+                <p>Una nuova preferenza di sistema consente ora di applicare i campi obbligatori nella modifica in blocco, in modo che gli oggetti modificati in blocco non possano essere salvati a meno che tutti i campi obbligatori non contengano valori.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Miglioramenti ai documenti
 
@@ -52,6 +105,26 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
+                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+            </td>
+            <td><p>TBD</p></td>
+            <td><p>TBD</p></td>
+            <td><p>TBD</p></td>
+        </tr>
+        -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Aggiungere un messaggio personalizzato a una fase del flusso di lavoro di approvazione documento</a>
+                <p>È ora possibile aggiungere un messaggio personalizzato a ogni fase del flusso di lavoro di approvazione di un documento. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Visualizza i badge di stato di Experience Manager Assets e approvazione nell'area Documenti</a>
@@ -111,6 +184,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Trimestrale</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Campi dati valuta personalizzati nei report del dashboard Canvas</a>
+                <p>I rapporti del dashboard Canvas ora supportano campi di dati valuta personalizzati come colonne, filtri, raggruppamenti e aggregazioni, anche quando nella configurazione del sistema sono configurati più tassi di cambio.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">È stata migliorata la precisione dei dati nei report del dashboard Canvas</a>
                 <p>Le query dei report del dashboard Canvas ora sono strutturate in modo da evitare righe duplicate quando i filtri o i campi si incrociano tra record correlati, pertanto i conteggi, le somme e altri aggregati restituiscono valori precisi.</p>
             </td>
@@ -135,12 +217,54 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Trimestrale</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introduzione di nuovi stati di richiesta</a>
+                <p>Per ottenere più contesto sullo stato delle richieste, vengono introdotti nuovi stati per le richieste: Nuovo, In sospeso e Annullato. Lo stato "Completato" è stato rinominato "Completato".</p>
+            </td>
+            <td><p>27 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Viste predefinite aggiunte all'elenco delle richieste nell'area Richieste e nel widget Richieste personali</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home.</p>
             </td>
             <td><p>23 aprile 2026</p></td>
             <td><p>23 aprile 2026</p></td>
             <td><p>23 aprile 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Altri miglioramenti
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connetti la tua piattaforma di gestione dell'intelligenza artificiale a Workfront con il server Workfront MCP</a>
+                <p>Il nuovo server MCP di Workfront collega Workfront a una piattaforma di intelligenza artificiale supportata, ad esempio Claude o ChatGPT, per trovare, creare, aggiornare e gestire gli elementi di Workfront attraverso una conversazione in lingua naturale. Attualmente disponibile solo per i clienti negli Stati Uniti che utilizzano AWS.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti elenco avanzati</a>
+                <p>Sono stati aggiornati diversi tipi di campo negli elenchi avanzati per includere la navigazione da tastiera e altri miglioramenti.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -189,24 +313,23 @@ Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della vers
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-<!--
-### Workfront Planning API version 2 
 
-Available for all customers: May 14, 2026.
+### Workfront Planning API versione 2
 
-Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1. You can now create, update, and delete workspaces, record types, and fields programmatically, in addition to fully manage records.
+Disponibile per tutti i clienti: 28 maggio 2026.
 
-Version 2 also brings improvements to URL structure, error handling, pagination, filtering, and permissions, in addition to  including partial updates via PATCH, bulk record operations, and more.
+È ora disponibile la versione 2 dell&#39;API di pianificazione di Workfront, che estende in modo significativo le funzionalità della versione 1. È ora possibile creare, aggiornare ed eliminare aree di lavoro, tipi di record e campi a livello di programmazione, oltre a gestire completamente i record.
 
-Version 1 remains available, although we recommend you switch to using Version 2.
+La versione 2 apporta inoltre miglioramenti alla struttura degli URL, alla gestione degli errori, all’impaginazione, ai filtri e alle autorizzazioni, oltre a includere aggiornamenti parziali tramite PATCH, operazioni di registrazione in blocco e altro ancora.
 
-NOTE: The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.
+La versione 1 rimane disponibile, anche se si consiglia di passare all&#39;utilizzo della versione 2.
 
-For information, see Adobe Workfront Planning API basics (/help/quicksilver/planning/general/planning-api-basics.md). 
+NOTA: il connettore Workfront Planning per Fusion non è stato aggiornato all’API versione 2 e continuerà a utilizzare la versione 1 fino a nuovo avviso.
 
-For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation.
+Per informazioni, consulta Nozioni di base sulle API di Adobe Workfront Planning (/help/quicksilver/planning/general/planning-api-basics.md).
 
--->
+Per le specifiche API di Workfront Planning, vedere la documentazione per gli sviluppatori [Workfront Planning API](https://developer.adobe.com/wf-planning/).
+
 
 ### Chiusura della versione di valutazione di Workfront Planning in corso
 

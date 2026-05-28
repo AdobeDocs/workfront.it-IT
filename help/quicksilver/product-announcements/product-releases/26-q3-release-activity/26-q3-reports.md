@@ -4,10 +4,10 @@ description: Miglioramenti al reporting per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
@@ -17,11 +17,23 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nel
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Campi di dati valuta personalizzati nei rapporti del dashboard Area di lavoro
+
+>[!NOTE]
+>
+>Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+
+I rapporti del dashboard Canvas ora supportano campi di dati valuta personalizzati come colonne, filtri, raggruppamenti e aggregazioni, anche quando nella configurazione del sistema sono configurati più tassi di cambio. Quando un campo dati valuta personalizzato viene visualizzato come colonna o aggregazione, i valori vengono convertiti nella valuta selezionata nell’interruttore del tasso di cambio del dashboard, a meno che il campo non sia bloccato a livello di report.
+
+Vengono ora visualizzati i rapporti che in precedenza non riuscivano con un messaggio di &quot;campo limitato&quot; dopo l’aggiunta di una seconda valuta del tasso di cambio. I campi della valuta di pianificazione rimangono limitati quando vengono definiti più tassi di cambio.
+
+Per ulteriori informazioni, vedere [Utilizzare i campi di valuta nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
+
 ## Miglioramento della precisione dei dati nei rapporti del dashboard di Canvas
 
 >[!NOTE]
 >
->Anteprima: 14 maggio 2026>Versione rapida di produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 14 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 >
 >Canvas Dashboards è attualmente in versione beta.
 
