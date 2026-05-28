@@ -4,10 +4,10 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '473'
+ht-degree: 2%
 
 ---
 
@@ -17,15 +17,20 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Collegare la piattaforma di intelligenza artificiale a Workfront con il server Workfront MCP
+
+## Collegare Workfront agli strumenti AI con Workfront MCP Server
 
 >[!NOTE]
 >
 >Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
-Utilizza Workfront dalla piattaforma di intelligenza artificiale già in uso. Il nuovo server MCP di Workfront collega Workfront a una piattaforma di intelligenza artificiale supportata, ad esempio Claude o ChatGPT, per trovare, creare, aggiornare e gestire gli elementi di Workfront attraverso una conversazione in lingua naturale. Richiedi le attività scadute, invia la data di fine di un progetto, invia un promemoria agli approvatori o aggiorna il budget di una campagna e la piattaforma di gestione dell’intelligenza artificiale ti utilizzerà in Workfront.
+Il contesto operativo del tuo team è Workfront. Ora, con Workfront MCP Server, tale contesto diventa utilizzabile dall’interno degli strumenti di intelligenza artificiale già utilizzati dal team.
 
-Il server MCP di Workfront funziona con qualsiasi piattaforma di intelligenza artificiale compatibile con MCP, fornendo ai team una base flessibile per il lavoro basato sull’intelligenza artificiale in Workfront.
+Collega Workfront a qualsiasi piattaforma di intelligenza artificiale compatibile con MCP, tra cui Claude, ChatGPT, Copilot, Gemini e altro ancora, e utilizza il linguaggio naturale per trovare, creare, aggiornare e gestire elementi Workfront senza lasciare lo strumento di intelligenza artificiale desiderato. Richiedi le attività scadute, invia la data di fine di un progetto, invia un promemoria agli approvatori, aggiorna il budget di una campagna e la piattaforma AI esegue automaticamente il lavoro in Workfront.
+
+Inoltre, con le competenze di Claude in materia di intelligenza artificiale e le attività pianificate, puoi andare anche oltre, automatizzando flussi di lavoro ricorrenti che vengono eseguiti in modo proattivo rispetto ai dati live di Workfront. Ad esempio, un briefing sul progetto del lunedì mattina, un rapporto settimanale sulla capacità, un controllo mensile dello stato della campagna, impostandolo una volta e AI lo gestisce automaticamente, in base al contesto completo dell’operazione.
+
+Questa è la base di un sistema di gestione del lavoro per gli agenti, in cui l’intelligenza artificiale si basa sui dati operativi più ricchi e gli esseri umani e l’intelligenza artificiale collaborano per mantenere il lavoro in movimento a piena velocità.
 
 >[!IMPORTANT]
 >
