@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '933'
 ht-degree: 10%
 
 ---
@@ -148,6 +148,14 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
       <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Strumenti MCP di sola lettura</span></td> 
+      <td><span class="preview">Consente al server MCP di Workfront di eseguire operazioni di lettura sui dati di Workfront, ad esempio la ricerca o l'elenco di progetti, attività o altri elementi. Questa opzione è attivata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Scrittura strumenti MCP</span></td> 
+      <td><span class="preview">Consente al server MCP di Workfront di eseguire azioni di creazione, aggiornamento ed eliminazione sui dati di Workfront. Questa opzione è disabilitata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
