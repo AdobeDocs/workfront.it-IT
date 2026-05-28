@@ -10,7 +10,7 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 63fc3b2c3ce58501333cad6155243a9fbed1f00b
+source-git-commit: af0475ae27fe92937b803083ef4577e7bc0283a9
 workflow-type: tm+mt
 source-wordcount: '7342'
 ht-degree: 91%
@@ -736,12 +736,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: “USA”},
          { name: “Canada”}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1202,6 +1202,3 @@ Un’app può essere incorporata in un modulo personalizzato Workfront utilizzan
 ## Organizzare e visualizzare in anteprima un modulo con il designer dei moduli
 
 Per informazioni su come organizzare un modulo personalizzato con interruzioni di sezione e visualizzare un’anteprima del modulo, consulta [Organizzare e visualizzare in anteprima un modulo con il designer dei moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
-
