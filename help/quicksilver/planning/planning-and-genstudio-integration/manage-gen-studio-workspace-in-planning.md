@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 3%
+source-wordcount: '1769'
+ht-degree: 4%
 
 ---
 
@@ -304,7 +304,7 @@ Si apre la pagina principale della Pianificazione di Workfront.
 Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
       * **Condividi la visualizzazione corrente**
 Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
-      * **Copia collegamento visualizzazione**
+      * **Copia il collegamento di visualizzazione**
 Un collegamento alla visualizzazione viene copiato negli Appunti.
       * **Esporta la visualizzazione corrente**
 Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
@@ -377,17 +377,34 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
      I campi creati dall’area di lavoro di GenStudio sono visibili nelle seguenti aree:
 
-      * Visualizzazioni di Workfront Planning
-      * Dettagli record di Workfront Planning
-      * Dettagli record GenStudio
+      * Visualizzazioni di Workfront Planning in Workfront Planning
+      * Dettagli dei record di Workfront Planning in Workfront Planning
+      * Dettagli del record GenStudio in GenStudio for Performance Marketing
 
      >[!NOTE]
      >
-     >* Puoi aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
+     >* Puoi aggiungere campi solo se disponi delle autorizzazioni di gestione in GenStudio.
      >* I campi creati in Workfront Planning non sono visibili nella vista a elenco in GenStudio.
      >
      >* È possibile connettere qualsiasi tipo di record GenStudio al tipo di record Brands GenStudio.
      >  Prodotti e utenti tipo sono collegati ai Marchi per impostazione predefinita.
+     >
+     >* È possibile collegare i tipi di record di GenStudio in Planning con AEM Assets o Frammenti di contenuto in Adobe Experience Manager. Per connettersi agli oggetti di AEM è necessario disporre di una licenza di AEM.
+     >
+
+1. (Facoltativo) Se hai connesso tipi di record di GenStudio dall’area di lavoro di GenStudio in Planning con risorse o frammenti di contenuto di AEM, effettua le seguenti operazioni per passare ad AEM e visualizzare le informazioni sui record di GenStudio:
+
+   1. (Condizionale) Da una risorsa AEM connessa nell&#39;area di lavoro di GenStudio, fai clic sul nome della risorsa, quindi fai clic sull&#39;icona **Apri in AEM** ![Apri in AEM](assets/open-in-aem-icon.png) per aprire la risorsa in AEM.
+   1. Fai clic sulla scheda **Campaign** nel pannello di destra.
+
+      Il nome della campagna connessa alla risorsa viene visualizzato nel campo **Campaign**. Questo campo è di sola lettura.
+Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Campagna** della risorsa in modalità di sola lettura.
+   1. (Condizionale) Da un frammento di contenuto di AEM connesso nell&#39;area di lavoro di GenStudio in Planning, fai clic sul nome del frammento di contenuto, quindi fai clic sull&#39;icona **Apri in AEM** ![Apri in AEM icona](assets/open-in-aem-icon.png) per aprire il frammento di contenuto in AEM.
+   1. Fai clic sull&#39;icona **Home** ![Home in AEM](assets/home-icon-in-aem.png) per passare a un elenco di frammenti di contenuto, quindi fai clic sull&#39;icona **informazioni** ![Informazioni in AEM](assets/info-icon-in-aem.png) a destra del nome del frammento di contenuto.
+   1. Fai clic sulla scheda **Metadati** nel pannello di destra.
+
+      Il nome della campagna connessa al frammento di contenuto viene visualizzato nel campo **xdm: campaignName**. Questo campo è di sola lettura. <!--tried to log a bug to rename this field-->
+Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Metadati** del frammento di contenuto in modalità di sola lettura.
 
 1. Passa il puntatore del mouse su un campo nella vista a tabella, quindi fai clic sul menu a discesa per effettuare una delle seguenti operazioni:
 
