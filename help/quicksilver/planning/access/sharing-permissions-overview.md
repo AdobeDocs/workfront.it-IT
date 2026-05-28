@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 5%
+source-wordcount: '1114'
+ht-degree: 6%
 
 ---
 
@@ -60,15 +60,30 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
 
+<!--
+<div class="preview">
+
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+-->
 
 * Viste
 
    * È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle relative autorizzazioni per accedere alle aree di lavoro.
    * Quando si condivide una visualizzazione, vengono condivisi tutti gli elementi della visualizzazione, inclusi filtri, raggruppamenti, ordinamento o Impostazioni.
    * Quando si condivide una visualizzazione, i record visibili nella visualizzazione non vengono condivisi. I record devono essere condivisi condividendo le aree di lavoro.
-   * È possibile condividere una visualizzazione pubblicamente con utenti esterni all&#39;organizzazione quando si genera un collegamento pubblico per una visualizzazione.Gli utenti che accedono alla pagina record da un collegamento pubblico possono visualizzare tutti i record e i relativi campi, inclusi i record e i campi collegati.
+   * È possibile condividere una visualizzazione pubblicamente con persone esterne all&#39;organizzazione quando si genera un collegamento pubblico per una visualizzazione.Gli utenti che accedono alla pagina record da un collegamento pubblico possono visualizzare tutti i record e i relativi campi, inclusi quelli collegati.
 
   Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Considerazioni sulla condivisione di oggetti in Adobe Workfront Planning
 
@@ -78,15 +93,11 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 * Gli amministratori di sistema possono gestire tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
 * Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Gli amministratori di sistema possono disporre delle autorizzazioni necessarie solo per gestire una visualizzazione.
 
-* Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati.
-
-  >[!IMPORTANT]
-  >
-  >Gli utenti con cui si desidera condividere gli oggetti di Planning devono essere aggiunti al Adobe Admin Console. Non è possibile condividere oggetti Planning con utenti di Workfront che non sono stati aggiunti al Adobe Admin Console.
+* Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi associati per impostazione predefinita.
 
 * È possibile condividere gli oggetti Planning nei modi seguenti:
 
-   * Internamente, è possibile condividere un&#39;area di lavoro, una vista o un tipo di record con le seguenti entità Workfront:
+   * Internamente, è possibile condividere oggetti di Workfront Planning con le seguenti entità Workfront:
 
       * Utenti
       * Gruppi
@@ -181,6 +192,8 @@ Esistono i seguenti scenari:
 
 Le autorizzazioni dei record vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
+<!--In the Production environment, -->
+
 Di seguito sono riportati i livelli di autorizzazione per i record:
 
 
@@ -190,6 +203,42 @@ Di seguito sono riportati i livelli di autorizzazione per i record:
 | Elimina | ✓ | ✓ |       |
 | Modifica | ✓ | ✓ |       |
 | Visualizzazione | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
+-->
 
 ### Autorizzazioni per registrare i campi
 

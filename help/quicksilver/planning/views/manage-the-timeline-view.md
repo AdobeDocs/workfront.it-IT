@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 3%
 
 ---
 
 # Gestire la vista timeline
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 * È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
 * Puoi filtrare per campi di ricerca che visualizzano più valori.
+* <span class>È possibile filtrare i tipi di record nella visualizzazione timeline o qualsiasi tipo di record connesso che fa parte della struttura di suddivisione nella visualizzazione. </span>
 
 Per aggiungere un filtro a una vista timeline:
 
 1. Creare una visualizzazione timeline per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleziona una visualizzazione timeline, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
+1. Seleziona una visualizzazione timeline, quindi fai clic su **Filtri** nell&#39;angolo superiore sinistro della tabella.
+1. <span class>(Condizionale)Se hai aggiunto una struttura di suddivisione alla visualizzazione timeline, espandi il tipo di record nel primo elenco a discesa nella casella del filtro. Si tratta del tipo di record di cui si sta visualizzando la vista timeline. </span>
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
    * **Selezionare un campo** per cercare un campo e selezionarlo dall&#39;elenco.
@@ -374,14 +376,19 @@ Per aggiungere un filtro a una vista timeline:
    * **OR**: è necessario soddisfare una delle condizioni specificate.
 Questa è l&#39;opzione predefinita.
 
-   1. (Facoltativo) Aggiungi altri raggruppamenti di filtri e aggiungili da **AND** o da **OR** operatori.
-
-      ![Filtri multilivello nelle visualizzazioni](assets/multi-tiered-filters-in-views.png)
+1. (Facoltativo) Aggiungi altri raggruppamenti di filtri e aggiungili da **AND** o da **OR** operatori.
 
    L’elenco dei record viene filtrato automaticamente in base ai criteri di filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
+1. <span class="preview">(Facoltativo e condizionale) Se hai aggiunto una struttura di suddivisione alla vista timeline, espandi il tipo di record nel seguente menu a discesa e ripeti gli stessi passaggi indicati sopra per aggiungere un filtro per un tipo di record incluso nel raggruppamento. </span>
+
+   <span class="preview"> Ripetizione per ogni tipo di record nel raggruppamento.</span>
+
+   ![Filtro a più livelli con suddivisione per la visualizzazione della timeline](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">È possibile filtrare i tipi di record di suddivisione solo dalla visualizzazione della sequenza temporale.</span>
 1. (Facoltativo) Fai clic su **Filtri** o in qualsiasi altro punto della pagina per chiudere la casella dei filtri. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
