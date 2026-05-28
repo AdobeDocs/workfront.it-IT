@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * Quando li importi utilizzando un file CSV o Excel.
 
-        Per ulteriori informazioni, vedere [Creare tipi di record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+        Per ulteriori informazioni, vedere la sezione [Creare tipi di record importando informazioni da un file CSV o Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) in questo articolo.
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         Questo articolo descrive come creare tipi di record da zero.
 
       * Aggiungendoli da un&#39;altra area di lavoro
-Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Per informazioni, vedere la sezione [Creare tipi di record aggiungendo quelli esistenti da un&#39;altra area di lavoro](#create-record-types-by-adding-existing-ones-from-another-workspace) in questo articolo.
 
 
 * È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.

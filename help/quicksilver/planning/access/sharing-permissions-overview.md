@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 6%
+source-wordcount: '1372'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 6%
 
 # Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* Record
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * Puoi condividere i documenti con le persone all’interno della tua organizzazione.
+   * Per impostazione predefinita, gli utenti ereditano le autorizzazioni dall’area di lavoro e dal tipo di record.
+   * Non è possibile condividere un record con un livello di autorizzazione superiore o inferiore a quello dell&#39;utente sul tipo di record.
+
+  Per ulteriori informazioni, vedere [Condividi record](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Viste
 
@@ -190,11 +183,9 @@ Esistono i seguenti scenari:
 
 ### Autorizzazioni per i record
 
-Le autorizzazioni dei record vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
+Per impostazione predefinita, le autorizzazioni dei record vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
-<!--In the Production environment, -->
-
-Di seguito sono riportati i livelli di autorizzazione per i record:
+Nell’ambiente di produzione, i livelli di autorizzazione per i record sono i seguenti:
 
 
 |        | Gestione | Contribuisci | Visualizzazione |
@@ -204,41 +195,36 @@ Di seguito sono riportati i livelli di autorizzazione per i record:
 | Modifica | ✓ | ✓ |       |
 | Visualizzazione | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+Nell&#39;ambiente di anteprima i livelli di autorizzazione per i record sono i seguenti:
 
-|        | Manage |  View  |
+|        | Gestione | Visualizzazione |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| Crea | ✓ |       |
+| Elimina | ✓ |       |
+| Modifica | ✓ |       |
+| Visualizzazione | ✓ | ✓ |
 
+Le autorizzazioni dei record vengono sempre ereditate quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
+È possibile rimuovere le autorizzazioni ereditate del record ricevute dal tipo di record. I responsabili di Workspace e i creatori di record conservano le autorizzazioni di gestione per il record.
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+Non è possibile assegnare agli utenti autorizzazioni di livello inferiore o superiore per il record rispetto a quelle disponibili per il tipo di record.
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+Esistono i seguenti scenari:
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Autorizzazioni per Workspace e il tipo di record | Autorizzazioni ereditate automaticamente per un record | Possibili autorizzazioni di record quando le autorizzazioni ereditate sono disattivate (concesse manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| Gestione | Gestione | Gestisci, Rimuovi autorizzazioni* |
+| Contribuisci | Gestione | Gestisci, Rimuovi autorizzazioni* |
+| Visualizzazione | Visualizzazione | Visualizza, Rimuovi autorizzazioni* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*Quando si rimuovono le autorizzazioni da un record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
 
 </div>
--->
 
 ### Autorizzazioni per registrare i campi
 
@@ -284,7 +270,10 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e g
 | Visualizzazione | ✓ |
 | Applica | ✓ |
 
-*Gli utenti devono disporre di autorizzazioni View (Visualizzazione) o superiori per un&#39;area di lavoro per poter accedere a questa visualizzazione.
+>[!NOTE]
+>
+>*Gli utenti devono disporre di autorizzazioni View (Visualizzazione) o superiori per un&#39;area di lavoro per poter accedere a questa visualizzazione.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:
