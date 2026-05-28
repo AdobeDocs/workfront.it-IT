@@ -5,7 +5,7 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 6%
@@ -191,4 +191,4 @@ Quando Adobe rilascia una nuova versione del server Workfront MCP, la piattaform
 Stiamo lavorando per aggiungere in futuro i seguenti strumenti al server Workfront MCP:
 
 * Commenti
-* Bacheca
+* Bacheche

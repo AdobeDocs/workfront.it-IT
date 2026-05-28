@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 169feed0dd802fb7c51521044a10fd0ce875cb4f
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 9%
@@ -50,3 +50,4 @@ Per una migliore organizzazione dell’elenco delle richieste, sono state aggiun
 Un amministratore di Workfront può aggiungere o rimuovere le visualizzazioni da un modello di layout. Non è possibile modificare, eliminare o condividere le viste. Puoi copiarli e aggiornarli o condividerne una copia.
 
 Per informazioni, vedere [Creare e gestire le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+

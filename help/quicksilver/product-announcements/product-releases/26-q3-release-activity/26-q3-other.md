@@ -4,7 +4,7 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 169feed0dd802fb7c51521044a10fd0ce875cb4f
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -56,3 +56,4 @@ Alcuni miglioramenti all’interfaccia sono stati apportati ai campi di riferime
 Inoltre, l’esperienza di trascinamento delle colonne (negli elenchi in cui è disponibile il trascinamento della selezione) è stata migliorata visivamente.
 
 Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+

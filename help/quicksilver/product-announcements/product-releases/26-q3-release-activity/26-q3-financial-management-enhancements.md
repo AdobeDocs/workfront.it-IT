@@ -4,10 +4,10 @@ description: Miglioramenti di Financial Management per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,10 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 21 maggio 2026>Versione rapida di produzione: 21 maggio 2026>Produzione per tutti: 21 maggio 2026>Questa funzione è disponibile solo per le organizzazioni incluse nel pacchetto Workflow Ultimate.
+>Anteprima: 21 maggio 2026>Versione rapida produzione: 21 maggio 2026>Produzione per tutti: 21 maggio 2026>Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate.
 
 Una volta aggiunto un attributo a una frequenza in Workfront, non è più possibile modificarlo e i relativi filtri nell’area Setup (Configura). In questo modo viene preservata l&#39;integrità dei dati e si evita che i tassi vengano modificati accidentalmente quando gli attributi vengono aggiornati.
 
 Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
 
