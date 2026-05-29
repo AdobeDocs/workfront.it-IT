@@ -8,29 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 4%
+source-wordcount: '855'
+ht-degree: 3%
 
 ---
 
 
 # Aggiungere una miniatura a un record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 È possibile associare record a miniature univoche in Adobe Workfront Planning per renderle facilmente riconoscibili.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
-Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -60,7 +58,7 @@ Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/ar
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record  </p>  
+   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro, un tipo di record e <span class="preview">le autorizzazioni di gestione per un record</span> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr>   
 </tbody> 
@@ -123,7 +121,7 @@ Old:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">record</span> </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 

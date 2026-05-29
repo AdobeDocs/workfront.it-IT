@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1789'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 2%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ ht-degree: 2%
    <p>In Workfront Planning:</p>
    <ul><li>Visualizzare le autorizzazioni per un'area di lavoro e un tipo di record per visualizzare tutti i record collegati </li>
    Oppure
-   <li> Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per connettere o disconnettere i record</a></li></ul> 
+   <li> Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record e <span class="preview">Gestione delle autorizzazioni per un record</span> per connettere o disconnettere i record</a></li></ul> 
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p> 
   </td>
   </tr>   
@@ -263,7 +262,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 * È possibile associare un solo tipo di record a un campo di connessione Planning. Non esiste alcun limite al numero di campi di connessione di Planning presenti in un modulo.
 * Per allegare un modulo personalizzato con un campo personalizzato della connessione Planning a un oggetto Workfront, è necessario disporre dell&#39;accesso e delle autorizzazioni corretti per l&#39;oggetto, il record e Workfront Planning.
 * Per poter connettere o disconnettere record dal campo di connessione Planning di un oggetto Workfront, è necessario disporre delle autorizzazioni Contribute per un&#39;area di lavoro in Workfront Planning.
-* I tipi di record di Workfront Planning devono prima essere connessi ai tipi di oggetto di Workfront. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).In questo modo i record di Workfront Planning sono accessibili da Workfront.
+* I tipi di record di Workfront Planning devono prima essere connessi ai tipi di oggetto di Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).In questo modo i record di Workfront Planning sono accessibili da Workfront.
 * È possibile connettere o disconnettere record dal campo di connessione Planning di un oggetto Workfront solo per gli oggetti che possono disporre di connessioni Workfront Planning.
 
   È possibile, ad esempio, allegare ai task un modulo personalizzato con un campo di connessione Planning, ma non collegare oggetti di Workfront Planning ai task.

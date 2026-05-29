@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### Tipi di licenza e autorizzazioni per aree di lavoro e tipi di record
 
-Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni Contribute o Manage per aree di lavoro e tipi di record. Anche le autorizzazioni Contribute e Manage per le aree di lavoro e i tipi di record vengono trasferite a record e campi.
+Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni Contribute o Manage per aree di lavoro e tipi di record. Per impostazione predefinita, anche le autorizzazioni Contribute (Contribuisci) e Manage (Gestisci) per le aree di lavoro e i tipi di record vengono trasferite a record e campi.
 
 Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
 

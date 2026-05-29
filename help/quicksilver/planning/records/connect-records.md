@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3665'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 
 # Connetti record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -97,7 +97,7 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
    <ul><li><p>Una licenza Adobe Experience Manager e un’integrazione tra Adobe Experience Manager e Workfront per collegare risorse AEM o frammenti di contenuto con tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza di Adobe GenStudio for Performance Marketing per collegare i tipi di record ai Marchi GenStudio o per accedere all’area di lavoro di GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -114,7 +114,9 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
   </tr>
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per la connessione dei record. </p>  
+   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per la connessione dei record.</p>
+   <p><span class="preview">Gestisci le autorizzazioni per il record da cui ti stai connettendo</span></p>
+   <p><span class="preview">Visualizza o autorizzazioni superiori per il record a cui ti connetti</span></p>
    <p>Visualizzare o autorizzazioni superiori per un'area di lavoro e un tipo di record per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
    <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
@@ -407,7 +409,7 @@ Dopo aver creato una connessione tra un tipo di record e oggetti Adobe Experienc
 
 >[!NOTE]
 >
->I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 >Quando si collegano record dall&#39;area di lavoro GenStudio in Planning a oggetti AEM (risorse e frammenti di contenuto), le informazioni di GenStudio vengono visualizzate automaticamente sugli oggetti AEM in AEM. Le informazioni di AEM vengono visualizzate per i record di GenStudio nei campi di ricerca aggiunti quando la connessione viene effettuata in Workfront Planning. Per informazioni, vedere [Gestire l&#39;area di lavoro di GenStudio in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
@@ -453,11 +455,11 @@ Per connettere i record agli oggetti Adobe Experience Manager:
    >[!IMPORTANT]
    >
    > Puoi collegare in Experience Manager solo le risorse a cui hai accesso. Una volta connessi, tutti gli utenti di Workfront Planning possono visualizzare le risorse in Workfront Planning, indipendentemente dal loro accesso in Experience Manager Assets.
-   > Per ulteriori informazioni su Contenuto verificato, vedere [Utilizzare Contenuto verificato per accedere al contenuto di AEM nelle applicazioni Adobe](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Per ulteriori informazioni su Contenuto verificato, vedere [Utilizzare Contenuto verificato per accedere al contenuto di AEM nelle applicazioni Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dalla scheda **Frammenti di contenuto**, seleziona i frammenti di contenuto da aggiungere al campo record collegato.
 
-   Per ulteriori informazioni sui frammenti di contenuto, vedere [Utilizzare Contenuto verificato per accedere al contenuto di AEM nelle applicazioni Adobe](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Per ulteriori informazioni sui frammenti di contenuto, vedere [Utilizzare Contenuto verificato per accedere al contenuto di AEM nelle applicazioni Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Al termine della scelta delle risorse o dei frammenti di contenuto, fare clic su **Seleziona**. <!-- we might change this to Connect-->
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2013'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Per ulteriori informazioni, consulta:
   <tr>
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
-   <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record </p>  
+   <p>Autorizzazioni di Contribute o superiori per un'area di lavoro e un tipo di record e <span class="preview">Gestione delle autorizzazioni per un record</span> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
   </td>
   </tr>   
