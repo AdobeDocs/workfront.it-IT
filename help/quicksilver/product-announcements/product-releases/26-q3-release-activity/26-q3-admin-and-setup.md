@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3d8439efd8a92042098fbf995aacf2fe3add43f2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -66,3 +66,5 @@ Per ulteriori informazioni, vedere [Condividi modulo personalizzato](/help/quick
 Attualmente, quando si modificano oggetti in blocco, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.
 
 Una nuova preferenza di sistema ora consente di applicare i campi obbligatori nella modifica in blocco. Per non consentire il salvataggio di oggetti modificati in blocco a meno che tutti i campi obbligatori non contengano valori, selezionare l&#39;opzione **Applica sempre i campi obbligatori nella modifica in blocco** nella pagina Configurazione > Sistema > Preferenze.
+
+Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
