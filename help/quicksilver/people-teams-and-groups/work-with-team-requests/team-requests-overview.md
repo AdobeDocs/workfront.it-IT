@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Richieste team trovate nell&#39;area [!UICONTROL Team] nel [!UICONTROL Menu prin
 >
 >I team Agile non dispongono di richieste team.
 
-La scheda [!UICONTROL Richieste team] mostra le richieste in attesa di assegnazione per il team attualmente selezionato nell&#39;elenco a discesa. Il numero tra parentesi indica il numero di elementi pronti per essere lavorati.
+La scheda [!UICONTROL Richieste team] mostra le richieste in attesa di assegnazione per il team attualmente selezionato nell&#39;elenco a discesa. Il numero tra parentesi indica il numero di elementi pronti per essere lavorati. La scheda [!UICONTROL Richieste team] può visualizzare fino a 2.000 richieste per un team.
 
 Una richiesta team rappresenta un elemento di lavoro in sospeso non assegnato a un utente specifico. Viene invece assegnato a un team, e qualsiasi membro di quel team può offrirsi volontario per accettare la responsabilità per l’elemento. Se un utente si offre volontario per lavorare su una richiesta del team, accetta l’assegnazione del lavoro come propria. L’attività viene assegnata al singolo utente oltre che al team.
 

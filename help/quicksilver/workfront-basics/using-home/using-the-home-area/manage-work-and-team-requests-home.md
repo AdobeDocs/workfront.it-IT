@@ -6,10 +6,10 @@ description: Quando le attività e i problemi vengono assegnati all'utente, veng
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 2%
+source-wordcount: '808'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Quando le attività e i problemi vengono assegnati all&#39;utente, vengono elenc
    <td> <p>Accesso a [!UICONTROL Edit] per attività e problemi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p></td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Gli elementi di lavoro assegnati vengono visualizzati nel widget Il mio lavoro i
 
 Puoi selezionare filtri che visualizzano elementi pronti per l’uso oppure elementi su cui stai già lavorando.
 
-In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4&rbrace; nell&#39;area &#x200B;]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4} nell&#39;area [!UICONTROL Home]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).]
 
 Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 
@@ -85,7 +85,9 @@ Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 
 ## Accedere a una richiesta team nel widget Richiesta team
 
-Puoi accedere a una richiesta assegnata al tuo team direttamente dal widget Richieste team nell&#39;area [!UICONTROL Home]. Per ulteriori informazioni sulle richieste del team, vedere [Panoramica delle richieste del team](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Puoi accedere a una richiesta assegnata al tuo team direttamente dal widget Richieste team nell&#39;area [!UICONTROL Home]. Il widget [!UICONTROL Richieste team] può visualizzare fino a 2.000 richieste per un team.
+
+Per ulteriori informazioni sulle richieste del team, vedere [Panoramica delle richieste del team](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 Per accedere a una richiesta team:
 
