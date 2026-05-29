@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1443'
 ht-degree: 20%
 
 ---
@@ -248,6 +248,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Visualizzazione aggiornata delle e-mail di notifica dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Le notifiche e-mail per i commenti nella sezione Aggiornamenti hanno un nuovo aspetto che si allinea alla progettazione e-mail più ampia di Adobe. Il thread dei commenti precedenti non è più incluso nel corpo dell’e-mail.</p>
+            </td>
+            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
+            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
+            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connetti la tua piattaforma di gestione dell'intelligenza artificiale a Workfront con il server Workfront MCP</a>
