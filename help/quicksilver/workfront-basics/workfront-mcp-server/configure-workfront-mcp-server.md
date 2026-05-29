@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Prima di poter collegare Workfront a una piattaforma di intelligenza artificiale
 
 * Disporre di un account [!DNL Adobe Workfront] attivo con l&#39;autorizzazione per accedere ai dati che si desidera utilizzare
 * Avere accesso a una piattaforma agente di IA come [!DNL Claude]
+* L’istanza di Workfront deve essere abilitata su Adobe Identity Management System (IMS).
 
 ### Prerequisiti per l’amministrazione
 
@@ -233,5 +234,9 @@ No. Ogni connessione collega una piattaforma AI agente a una singola istanza Wor
 ### Quale amministratore abilita questa impostazione?
 
 Sia l’amministratore di Workfront che l’amministratore della piattaforma di intelligenza artificiale. L&#39;amministratore di Workfront abilita l&#39;accesso al server MCP sul lato Workfront. L’amministratore della piattaforma di intelligenza artificiale consente l’accesso a Workfront dal lato della piattaforma. Per [!DNL Claude], l&#39;amministratore Enterprise di [!DNL Claude] abilita il connettore [!DNL Adobe Workfront].
+
+### Posso utilizzare il server Workfront MCP se la mia istanza Workfront non è abilitata su Adobe Identity Management System (IMS)?
+
+No. Per utilizzare il server MCP di Workfront, l’istanza di Workfront deve essere abilitata su Adobe Identity Management System (IMS). Se non sei sicuro se la tua istanza è abilitata su IMS, contatta il tuo amministratore Workfront.
 
 +++
