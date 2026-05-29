@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ La pagina **Notifiche** viene aperta in Adobe Experience Cloud. Vengono visualiz
 
 ## Gestire le notifiche e-mail quando si richiedono e si concedono le autorizzazioni
 
-1. (Condizionale e facoltativo) Dopo che un utente ha richiesto o concesso le autorizzazioni per l&#39;accesso a un tipo di oggetto Planning, passare all&#39;indirizzo di posta elettronica che informa della richiesta di autorizzazione. Il mittente dell’e-mail è Adobe Experience Cloud.
+1. (Condizionale e facoltativo) Dopo che qualcuno ti ha richiesto o concesso le autorizzazioni per accedere a un oggetto Planning, vai all’e-mail che ti informa della richiesta di autorizzazione. Il mittente dell’e-mail è Adobe Experience Cloud.
 
 1. (Facoltativo) Fai clic sul messaggio nella casella **Workfront** all&#39;interno dell&#39;e-mail.
 
@@ -180,8 +180,7 @@ Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [G
 
 ## Gestire le notifiche e-mail relative all&#39;invio, all&#39;approvazione o al rifiuto di richieste di Workfront Planning
 
-1. (Facoltativo) Vai all’e-mail che ti invia Workfront
-dopo aver inviato una richiesta o dopo che una richiesta inviata è stata approvata o rifiutata. Il mittente dell’e-mail è Adobe Workfront.
+1. (Facoltativo) Vai all’e-mail che Workfront ti invia dopo che hai inviato una richiesta o dopo che una richiesta che hai inviato è stata approvata o rifiutata. Il mittente dell’e-mail è Adobe Workfront.
 
 1. (Facoltativo) Fai clic su **Apri richiesta**. Verrà aperta la richiesta in Workfront Planning.
 

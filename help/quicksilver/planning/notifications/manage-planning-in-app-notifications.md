@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -54,14 +54,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
+   <td>   <p>Visualizzare o modificare le autorizzazioni per un'area di lavoro </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
-   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

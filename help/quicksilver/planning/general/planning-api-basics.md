@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2232'
 ht-degree: 3%
 
 ---
@@ -61,17 +61,20 @@ Il controllo delle versioni dell’API di Planning viene eseguito tramite il per
 
 Di seguito sono elencate le versioni supportate correnti:
 
-| Versione | Data di rilascio |
-|-----------|----------------|
-| Versione 1 | Luglio 2024 |
-| Versione 2 | Maggio 2026 |
-
 <!--
 
 (*****************add deprecation date column above, when we have one*****************)
 
 -->
 
+| Versione | Data di rilascio |
+|-----------|----------------|
+| Versione 1 | Luglio 2024 |
+| Versione 2 | Maggio 2026 |
+
+>[!NOTE]
+>
+>Il connettore Workfront Planning per Workfront Fusion non è stato aggiornato all’API versione 2 e continuerà a utilizzare la versione 1 fino a nuovo avviso.
 
 Per ulteriori informazioni sulle versioni supportate correnti, vedere l&#39;articolo [Documentazione per gli sviluppatori API di Workfront Planning](https://developer.adobe.com/wf-planning).
 

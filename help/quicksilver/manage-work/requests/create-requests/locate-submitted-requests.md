@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1561'
 ht-degree: 4%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 4%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
 
@@ -101,7 +103,9 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 >[!NOTE]
 >
->* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna **Object type**.
+>* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco.
+>     Il **tipo di oggetto** di una richiesta di Planning è denominato seguendo questo modello: `< Name of workspace > > < Name of record type >`. Ad esempio, il tipo di oggetto di una richiesta Planning potrebbe essere denominato `Marketing workspace > Campaigns`.\
+>     Il **tipo di oggetto** di una richiesta Workfront è `Issue`.
 >* Per impostazione predefinita, nell’elenco dell’area Richieste vengono visualizzate fino a 50 richieste. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
 Puoi visualizzare le richieste inviate nell’area Richieste e nel widget Richieste personali nella Home.
@@ -134,18 +138,27 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
 
    Per ulteriori informazioni sulla gestione delle informazioni nell&#39;elenco delle richieste, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna **Stato**. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
+1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna **Stato**.
 
-   * **Bozza**: questa richiesta non è ancora stata inviata.
-   * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
-   * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
-   * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata. Questa richiesta non creerà un record.
+   >[!IMPORTANT]
+   >
+   >L&#39;amministratore di Workfront può configurare alcuni stati di richiesta di Workfront nell&#39;area **Configurazione**. Per informazioni, vedere [Creare o modificare uno stato](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   >
+   >Alcuni stati delle richieste Workfront e tutti gli stati delle richieste Planning sono codificati da Workfront. Non è possibile personalizzarli, rinominarli o aggiungerne altri dello stesso tipo.
+
+   Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
+
+   * <span class="preview">**Nuovo**: la richiesta è nuova e nessuno ha iniziato a lavorarci. </span>
+   * **Bozza**: questa richiesta non è ancora stata inviata. Questo stato è hardcoded.
+   * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta. Questo stato è hardcoded.
+   * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione. Questo stato è hardcoded.
+   * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata. Questa richiesta non creerà un record. Questo stato è hardcoded.
    * **In corso**:
       * Richieste Workfront: la richiesta è stata convertita e i lavori sono in corso.
       * Richieste di Workfront Planning: il completamento della richiesta viene mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
-
-        Per ulteriori informazioni, vedere [Configurare i dettagli della configurazione](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) nell&#39;articolo Creare e gestire un modulo di richiesta in Adobe Workfront Planning.
-   * **Complete**: richiesta completata.
+   * **In sospeso**: disponibile per le richieste Workfront e impostata manualmente dagli utenti.
+   * <span class="preview">**Annullato**: per le richieste Workfront.</span> <!--checking with Khach)-->
+   * <span class="preview">**Completo**: è stato creato il record di Planning che completa la richiesta. (Solo Planning)</span>
 
 ### Visualizzare le richieste inviate nell’esperienza di richiesta legacy
 

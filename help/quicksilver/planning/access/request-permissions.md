@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 7%
+source-wordcount: '597'
+ht-degree: 6%
 
 ---
 
 # Richiedere le autorizzazioni per una vista o un’area di lavoro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ Oppure
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  <p>Dopo aver concesso la richiesta di autorizzazione, puoi ottenere le seguenti autorizzazioni:</p>
    <ul><li><p>Visualizzare o gestire una visualizzazione</p></li>
-   <li><p>Visualizzare, contribuire o gestire per un'area di lavoro</p></li></ul>  
+   <li><p>Visualizzare, contribuire o gestire per un'area di lavoro</p></li>
+   <li><p>Visualizzare, contribuire o gestire per un tipo di record</p></li>
+   <li><p><span class="preview">Visualizzare o gestire un record</span></p></li>
+   </ul>  
    <p>Solo gli utenti con le autorizzazioni di gestione per un’area di lavoro e una visualizzazione possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 -->
 
 
-## Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro
+## Richiedi autorizzazioni
 
-La richiesta di autorizzazioni per una visualizzazione è simile alla richiesta di autorizzazioni per un&#39;area di lavoro.
+La richiesta di autorizzazioni per una visualizzazione è simile alla richiesta di autorizzazioni per un&#39;area di lavoro, un tipo di record o <span class="preview">un record</span>.
 
-Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una visualizzazione a cui non hai accesso:
+Quando qualcuno condivide con te un collegamento a un&#39;area di lavoro, un tipo di record, un <span class="preview">record</span> o una visualizzazione a cui non hai accesso:
 
 1. Fai clic sul collegamento condiviso con te per la visualizzazione o l’area di lavoro.
 
    Viene visualizzata una pagina di **Accesso negato** per informare che non si dispone dell&#39;accesso alla visualizzazione o all&#39;area di lavoro.
 
    ![Richiedi accesso alla visualizzazione](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >Se non hai accesso a un tipo di record o a <span class="preview">record</span>, la pagina Non hai accesso a mostra che devi avere accesso all&#39;area di lavoro.
+
 
 1. (Condizionale) Se il collegamento condiviso è per una visualizzazione di un&#39;area di lavoro a cui hai accesso, fai clic su **Apri con visualizzazione esistente**. Se si dispone delle autorizzazioni di accesso all&#39;area di lavoro, la pagina del tipo di record viene visualizzata nella visualizzazione predefinita.
 

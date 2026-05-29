@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
       * **Oggetto**: nome della richiesta originale aggiunto nell&#39;area Richieste. Impossibile nascondere o rimuovere il campo **Oggetto** dall&#39;elenco delle richieste. Il nome include un collegamento che apre la pagina della richiesta in Planning.
       * **Oggetto creato**: nome del record creato dalla richiesta visualizzato in Planning. Il nome dell’oggetto creato presenta un collegamento che apre il record creato dalla richiesta.
       * **Tipo di oggetto**: nome dell&#39;area di lavoro e del tipo di record in cui sono stati creati i record dalla richiesta in Planning.
-      * **Stato**: lo stato dell&#39;oggetto della richiesta.
+      * **Stato**: lo stato dell&#39;oggetto della richiesta. Per ulteriori informazioni sugli stati delle richieste, vedere [Visualizza richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Modulo di richiesta**: nome del modulo di richiesta associato al tipo di record in Planning.
       * **Stato oggetto creato**: lo stato del record creato.
 
