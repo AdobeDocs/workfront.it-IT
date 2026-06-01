@@ -92,7 +92,7 @@ Il traffico Microsoft Power BI verso Data Connect non proviene da un singolo ind
 
 ### Fonte ufficiale Microsoft per gli intervalli IP e i codici di matricola di Azure
 
-Microsoft pubblica l&#39;elenco nella [pagina di download degli intervalli IP e dei codici di matricola di Azure ](https://www.microsoft.com/en-us/download/details.aspx?id=56519). Scaricare il file JSON corrente (il nome file è in genere simile a `ServiceTags_Public_YYYYMMDD.json`). Aggiorna il inserisco nell&#39;elenco Consentiti di aggiornamento del file di Microsoft quando questo viene aggiornato o quando si verificano problemi di connettività dopo una modifica di Microsoft.
+Microsoft pubblica l&#39;elenco nella [pagina di download degli intervalli IP e dei codici di matricola di Azure &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=56519). Scaricare il file JSON corrente (il nome file è in genere simile a `ServiceTags_Public_YYYYMMDD.json`). Aggiorna il inserisco nell&#39;elenco Consentiti di aggiornamento del file di Microsoft quando questo viene aggiornato o quando si verificano problemi di connettività dopo una modifica di Microsoft.
 
 >[!NOTE]
 >
