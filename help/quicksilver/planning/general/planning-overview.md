@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 79%
+source-wordcount: '2365'
+ht-degree: 76%
 
 ---
 
@@ -242,13 +242,27 @@ Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/
 
 La Pianificazione di Adobe Workfront contiene i seguenti modelli:
 
+* Iniziativa operativa Studio
+* Communications Planning Studio
 * Base: Gestione del marketing
 * Avanzato: Gestione del marketing
 * Enterprise: Gestione del marketing
 * Gestione vendite
 * Gestione del prodotto
 
-Per ulteriori informazioni, consulta [Elenco dei modelli dell’area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
+Gli amministratori di sistema possono inoltre installare 6 aree di lavoro quando utilizzano il modello multispazio basato sulle best practice. Il modello per più spazi contiene i seguenti modelli che generano contemporaneamente 6 aree di lavoro distinte ma collegate:
+
+* 1.Classificazioni globali e tassonomie
+* 2.Fréscopa Global Marketing
+* 3.Marketing sociale Fréscopa
+* 4.Fréscopa Media e PR
+* 5.Eventi globali di Fréscopa
+* 6.Leadership della società esecutiva Fréscopa
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+
+* [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
+* [Crea aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ### Campi
 

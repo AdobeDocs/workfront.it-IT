@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 2%
+source-wordcount: '958'
+ht-degree: 7%
 
 ---
 
@@ -28,13 +28,19 @@ Questo articolo descrive i modelli di area di lavoro disponibili in Adobe Workfr
 
 ## Considerazioni sui modelli di Adobe Workfront Planning
 
-* Ogni modello include un set di tipi di record. Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* I tipi di record di ogni modello sono organizzati nelle sezioni seguenti:
+* A seconda del numero di aree di lavoro create quando si utilizza un modello di area di lavoro di Planning, è possibile utilizzare i seguenti tipi di modelli:
 
-   * Tipi di record operativi
-   * Tassonomie
+   * Modelli singoli: un modello crea un’unica area di lavoro.
+   * Pacchetto di modelli per più aree di lavoro: il bundle di modelli crea 6 aree di lavoro interconnesse.
+* Ogni modello include un set di tipi di record.
+
+  Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* I tipi di record in ciascun modello sono sezioni organizzate.
 * Ogni tipo di record include un set di campi. Alcuni di questi campi sono connessioni ad altri tipi di record di Workfront Planning.
-* È possibile personalizzare qualsiasi modello e aggiungere altri tipi di record e campi a quelli esistenti.
+* È possibile utilizzare i modelli per creare aree di lavoro e, una volta creati, è possibile personalizzarli e iniziare ad aggiungere tipi di record, campi, record e visualizzazioni, quindi condividerli con altri utenti.
+* I tipi di record in ogni modello contengono record di esempio. È possibile eliminarli dopo aver creato le aree di lavoro dal modello.
+* Dopo aver creato le aree di lavoro dai modelli, i responsabili delle aree di lavoro possono eliminare tipi di record, campi, visualizzazioni e record.
+
 
 <!--
  I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -89,85 +95,159 @@ the above is only for closed beta; when going to GA - activate the following pla
 
 -->
 
-## Modelli di area di lavoro di Workfront Planning
+## Modelli di area di lavoro di Workfront Planning singoli
 
-Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il numero di campi inclusi:
+Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e i tipi di record che contengono:
+
+* **Operations Initiative Studio**: modello di iniziativa operativo completo e pronto per l&#39;esplorazione che mostra come pianificare e distribuire un&#39;iniziativa di integrazione (collegamento SOL automatizzato in Workfront). Include il raggruppamento dell’iniziativa nel flusso di lavoro, i rischi connessi, i problemi e le decisioni, gli elenchi di riferimento di supporto (team, sistemi), nonché le viste timeline, tabella e calendario e una semplice formula di impegno che consente ai team di apprendere rapidamente le funzioni di Planning.
+
+  Il modello Operations Initiative Studio include i tipi di record seguenti e i relativi campi:
+
+   * Iniziative
+   * Flussi di lavoro
+   * Rischi e problemi
+   * Decisioni
+   * Sistemi
+   * Team
+* **Communications Planning Studio**: è consigliabile impostare rapidamente un hub di pianificazione delle comunicazioni. Inizia duplicando il record del modello di piano di comunicazione lungo o breve, quindi crea il rollout aggiungendo tattiche e tenendo traccia dei checkpoint di approvazione. Fai riferimento a tipi di pubblico, mercati e canali per creare rapporti, filtrare e riutilizzare in modo coerente. Include record di esempio e viste di tabella, sequenza temporale e calendario pronte all&#39;uso che consentono ai team di esplorare immediatamente le funzioni di Planning.
+
+  Il modello di Communications Planning Studio include i seguenti tipi di record e i relativi campi:
+
+   * Comunicazioni
+   * Tipi di pubblico
+   * Tattiche
+   * Checkpoint di approvazione
+   * Canali
+   * Mercati
+   * Ruoli delle parti interessate
 
 * **Base: Marketing Management**: ideale per le organizzazioni che gettano le basi di un sistema di marketing di base. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tipi di record operativi:
-
-      * **Campagna**: 15 campi
-   * Tassonomie:
-
-      * **Persone**: 7 campi
-      * **Marchi**: 6 campi
-      * **Prodotti**: 5 campi
+   * Campaign
+   * Persone
+   * Brand
+   * Prodotti
 
 * **Avanzate: Gestione marketing**: adatte ai team pronti per esplorare strategie di marketing con più sfumature. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tipi di record operativi:
-
-      * **Campagne**: 14 campi
-      * **Programmi**: 23 campi
-
-   * Tassonomie:
-      * **Aree geografiche**: 1 campo
-      * **Fasi Percorso clienti**: 4 campi
-      * **Tipi di pubblico**: 8 campi
-      * **Risultati finali**: 12 campi
-      * **Marchi**: 6 campi
+   * Campagne
+   * Programmi
+   * Aree geografiche
+   * Fasi Percorso cliente
+   * Tipi di pubblico
+   * Deliverables
+   * Brand
 
 * **Enterprise: Marketing Management**: progettato per organizzazioni grandi o mature con sistemi di marketing complessi. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tipi di record operativi:
+   * Campagne
+   * Programmi
+   * Tattiche
+   * Attività
+   * Prodotti
+   * Deliverables
+   * Destinatari
+   * Aree geografiche
+   * Sottoregioni
+   * Partner
+   * Casi d’uso
+   * Fasi Percorso cliente
 
-      * **Campagne**: 15 campi
-      * **Programmi**: 15 campi
-      * **Tattiche**: 11 campi
-      * **Attività**: 18 campi
+* Gestione delle vendite: puoi creare un sistema di vendita completo che semplifica il processo di vendita e migliora l’efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tassonomie:
+   * Opportunità
+   * Attività
+   * Campaign
+   * Account
+   * Lead
+   * Contatto
+   * Area geografica
+   * Settore
+   * Centro acquisti
+   * Prodotto/Servizio
+   * Concorrenza
 
-      * **Prodotti**: 10 campi
-      * **Risultati finali**: 18 campi
-      * **Tipi di pubblico di destinazione**: 8 campi
-      * **Aree geografiche**: 8 campi
-      * **Sottoregioni**: 7 campi
-      * **Partner**: 7 campi
-      * **Casi d&#39;uso**: 7 campi
-      * **Fasi Percorso clienti**: 3 campi
 
-* **Gestione vendite**: è possibile creare un sistema di vendita completo che semplifichi il processo di vendita e aumenti l&#39;efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+* Gestione dei prodotti: puoi creare un processo di gestione dei prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tipi di record operativi:
+   * Tema
+   * Iniziativa
+   * Epica
+   * Storia utente
+   * Cliente
+   * Sprint
+   * Team di prodotto
+   * Richieste di funzioni
+   * Settore
 
-      * **Opportunità**: 11 campi
-      * **Attività**: 9 campi
-      * **Campagna**: 8 campi
-   * Tassonomie:
-      * **Account**: 7 campi
-      * **Lead**: 14 campi
-      * **Contatto**: 12 campi
-      * **Area**: 3 campi
-      * **Settore**: campo 2
-      * **Centro acquisti**: 1 campo
-      * **Prodotto/ Servizio**: 1 campo
-      * **Concorrenza**: 1 campo
+## Modelli di area di lavoro di Workfront Planning per più aree di lavoro
 
-* **Gestione prodotti**: è possibile creare un processo di gestione prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+Per creare contemporaneamente 6 aree di lavoro, puoi utilizzare il bundle di modelli con più aree di lavoro basato sulle best practice.
 
-   * Tipi di record operativi:
+Considera i seguenti aspetti:
 
-      * **Tema**: 10 campi
-      * **Iniziativa**: 10 campi
-      * **Epico**: 12 campi
-      * **Storia utente**: 11 campi
+* Non puoi scegliere un solo modello in questo bundle.
+* È necessario creare tutte e 6 le aree di lavoro contemporaneamente, quindi è possibile eliminare quelle che non si utilizzano.
 
-   * Tassonomie:
+Il bundle di modelli per più aree di lavoro contiene i seguenti modelli con i rispettivi tipi di record:
 
-      * **Cliente**: 8 campi
-      * **Sprint**: 9 campi
-      * **Team di prodotto**: 4 campi
-      * **Richieste di funzioni**: 9 campi
-      * **Settore**: 2 campi
+* 1.**Classificazioni e tassonomie globali**: hub per la governance aziendale dei record condivisi e delle tassonomie principali di Fréscopa. Garantisce coerenza, allineamento e standardizzazione tra tutti i sistemi e i team.
+
+  >[!NOTE]
+  >
+  >Usiamo il nome &quot;Fréscopa&quot; solo come esempio generale di un&#39;azienda.
+
+
+   * Percorsi cliente
+   * Paesi
+   * Canali
+   * Aree geografiche
+   * Stati, province o prefetture
+   * Lingue
+   * Piattaforme
+   * Tipi di esperienza
+   * Anni
+   * Trimestri
+   * Strategie messaggi
+   * Destinatari
+   * Persone
+   * Prodotti
+   * Brand
+   * Categorie di prodotti
+   * Valori
+   * Visione e missione
+   * Pilastri
+   * Indicatori chiave di prestazioni
+
+* **2.Fréscopa Global Marketing**: area di lavoro centralizzata per la gestione della strategia di marketing aziendale e dell&#39;esecuzione di Fréscopa. Combina campagne, contenuti e metriche per aumentare l’impatto sul brand.
+
+   * Campagne
+   * Tattiche canale
+   * Esperienze
+   * Eventi
+
+* **3.Marketing social Fréscopa**: area di lavoro dedicata per la gestione della presenza e delle campagne sui social media di Fréscopa. Centralizza la pianificazione, la pubblicazione e il tracciamento delle prestazioni su tutte le piattaforme social.
+
+   * Influencer
+
+* **4.Fréscopa Media &amp; PR**: dove i team di Media &amp; PR coordinano le attività a supporto degli obiettivi di marketing globali.
+
+   * Reporter
+   * Media Outlet
+   * Coinvolgimenti multimediali
+
+* **5.Eventi globali Fréscopa**: un luogo centralizzato per pianificare e tenere traccia degli eventi Fréscopa in tutte le aree geografiche, i paesi e le Business Unit.
+
+   * Tipi di evento
+   * Tipi di flusso di lavoro
+   * Altoparlanti
+   * Posizioni evento
+   * Tipo di pubblico evento
+
+* **6.Leadership aziendale esecutiva Fréscopa**: area di lavoro centralizzata per consentire ai leader strategici di interfacciarsi con dati utilizzabili, quali gli obiettivi e gli obiettivi aziendali.
+
+   * Obiettivi aziendali
+   * Obiettivi del reparto
+   * Obiettivi del team
+   * Risultati chiave
+
