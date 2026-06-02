@@ -6,15 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '3095'
-ht-degree: 4%
+source-wordcount: 3118
+ht-degree: 3%
 
 ---
-
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
@@ -93,7 +98,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -193,7 +198,12 @@ Old:
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della visualizzazione tabella, quindi fai clic sulla scheda **Nuova connessione**.
 
-   ![Nuova scheda di connessione con le opzioni AEM di Workfront](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Nuova scheda di connessione con i marchi Workfront, AEM e GenStudio](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+
+   <!--
+    Old shot:
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+    -->
 
 1. Cercare un tipo di record oppure selezionare una delle opzioni seguenti:
 
@@ -287,9 +297,9 @@ Old:
    >
    >* La selezione di **Crea campo corrispondente nel tipo di record collegato** è un prerequisito per la creazione di gerarchie.
    >
-   >* Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni. Ad esempio, non è stato creato alcun campo per gli oggetti Workfront connessi ai record di Planning.
-   >
-   >   
+   >* Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni. Ad esempio:
+   >   * Non è stato creato alcun campo per gli oggetti Workfront connessi ai record Planning.
+   >   * Nessun campo creato per un tipo di record di Planning quando è connesso a un tipo di record dall&#39;area di lavoro di GenStudio.
 
 1. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
 
@@ -314,7 +324,7 @@ Old:
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi ad Experience Manager, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:

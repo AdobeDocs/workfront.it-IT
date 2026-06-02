@@ -6,9 +6,9 @@ description: A seconda che l’amministratore di Workfront scelga per impostazio
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,17 @@ Quando si lavora con i problemi, tieni presente quanto segue:
 * Puoi rinominare ed eliminare la cartella dei documenti dal problema di archiviazione cloud di Adobe, che comporta anche l’eliminazione dei documenti nella cartella. Dopo aver aggiunto nuovi documenti al problema, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i progetti Adobe Cloud Storage, la cartella dei documenti relativa a un problema viene visualizzata come sottocartella nella cartella dei documenti creata automaticamente per il progetto.
 * Non puoi copiare o spostare un problema da un progetto di archiviazione legacy di Workfront a uno di archiviazione cloud Adobe. Non è inoltre possibile fare l&#39;inverso.
-* Quando si invia una richiesta con un documento allegato a un progetto di archiviazione Workfront legacy, l’area Documenti della richiesta visualizza il documento utilizzando il tipo di archiviazione del progetto, anche quando la preferenza predefinita di archiviazione del sistema è Adobe cloud storage.
 * Durante la conversione di un problema in un progetto sono presenti i seguenti scenari: <!--this info also duplicated in Convert an issue to a project-->
    * Un problema di storage Workfront legacy crea un progetto di storage Workfront legacy.
    * Un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
    * L’utilizzo di un modello di archiviazione Workfront legacy per convertire un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
    * L’utilizzo di un modello di archiviazione cloud Adobe per convertire un problema di archiviazione Workfront legacy crea un progetto di archiviazione Workfront legacy.
 * Non è possibile aggiungere documenti a problemi di archiviazione cloud Adobe nel pannello Riepilogo.
+
+### Gestione documenti per richieste
+
+* Quando invii una richiesta Workfront con un documento allegato a un progetto di archiviazione Workfront legacy che funge da coda di richieste, l’area Documenti della richiesta visualizza il documento utilizzando il tipo di archiviazione del progetto, anche quando la preferenza predefinita per l’archiviazione del sistema è archiviazione cloud Adobe.
+* Quando alleghi un documento a un problema inviato a una coda di richieste associata all’archiviazione di Adobe, viene creata una cartella per ogni problema inviato in cui sono memorizzati i documenti. La cartella viene aggiunta anche come sottocartella alla cartella di progetto creata automaticamente sul progetto della coda richieste.
 
 ### Gestione dei documenti per i modelli di progetto
 
@@ -203,6 +207,8 @@ Quando si lavora con i modelli, considera quanto segue:
 * Puoi utilizzare un modello di archiviazione Workfront legacy per creare progetti di archiviazione Workfront legacy; puoi utilizzare un modello di archiviazione cloud Adobe per creare un progetto di archiviazione cloud Adobe.
 * È possibile allegare un modello di archiviazione Workfront legacy a un progetto di archiviazione cloud Adobe e questo non modifica il percorso di archiviazione dei documenti sul progetto.
 * È possibile allegare un modello di archiviazione cloud Adobe a un progetto di archiviazione Workfront legacy senza modificare il percorso di archiviazione dei documenti nel progetto. I documenti contenuti nella cartella di archiviazione cloud di Adobe per il modello vengono aggiunti direttamente al progetto, senza la cartella, mentre i documenti contenuti nelle cartelle delle attività del modello vengono aggiunti alle cartelle associate alle attività del progetto nella sezione Documenti delle attività.
+* Quando si salva un progetto come modello, il tipo di archiviazione del progetto viene trasferito al modello, indipendentemente da ciò che l&#39;amministratore di Workfront ha impostato per la preferenza di archiviazione del sistema.
+
 
 ### Gestione dei documenti per le attività modello
 
@@ -213,4 +219,4 @@ Quando si lavora con le attività modello, considera quanto segue:
 * È possibile rinominare ed eliminare la cartella documenti dall’attività del modello di archiviazione cloud di Adobe, che elimina anche i documenti presenti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività modello, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i modelli di archiviazione cloud Adobe, la cartella documenti di un’attività modello viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il modello.
 * Non puoi copiare o spostare un’attività modello da un modello di archiviazione Workfront legacy a un modello di archiviazione cloud Adobe. Non è inoltre possibile fare l&#39;inverso.
-* Quando alleghi un documento a un problema inviato a una coda di richieste associata all’archiviazione di Adobe, viene creata una cartella per ogni problema inviato in cui sono memorizzati i documenti. La cartella viene aggiunta anche come sottocartella alla cartella di progetto creata automaticamente nella coda richieste.
+

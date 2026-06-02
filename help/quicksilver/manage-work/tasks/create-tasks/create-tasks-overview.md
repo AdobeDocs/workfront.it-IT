@@ -6,9 +6,15 @@ description: È possibile creare le attività di un progetto solo dopo averlo cr
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/-xOLBxAGitQAXXRxHSr6R9mv-2hfuLOq0VZKB2TzuqI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
@@ -91,3 +97,7 @@ Quando definisci le informazioni predefinite da associare alle attività aggiunt
 * Quando si sposta l&#39;attività in un altro progetto, le impostazioni predefinite dell&#39;attività vengono salvate nelle attività del progetto originale, indipendentemente dalle impostazioni predefinite dell&#39;attività nel nuovo progetto.
 
   Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+* Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile spostare o copiare attività tra progetti che utilizzano tipi di archiviazione diversi.
+
+  Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
