@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 3%
@@ -53,12 +53,7 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 
    * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
    * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema. Questa opzione è disponibile solo per gli amministratori di sistema.
-
-  <div class="preview">
-
-   * **Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere le visualizzazioni con altri utenti.
-
-  </div>
+   * <span class="preview">**Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere visualizzazioni con altri utenti.</span>
 
   >[!NOTE]
   >

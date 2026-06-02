@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 20%
+source-wordcount: '1493'
+ht-degree: 19%
 
 ---
 
@@ -105,17 +105,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
-                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Stampa riepilogo documenti nella nuova area Documenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>È ora possibile aprire un riepilogo stampabile dell'approvazione di un documento direttamente dalla nuova area Documenti. Questa funzione è disponibile per le organizzazioni che utilizzano l’archiviazione cloud Adobe.</p>
             </td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
+            <td><p>2 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Aggiungere un messaggio personalizzato a una fase del flusso di lavoro di approvazione documento</a>

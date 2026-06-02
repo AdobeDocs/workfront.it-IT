@@ -5,11 +5,22 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
+TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: 1503
 ht-degree: 8%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 8%
 
 Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come e-mail o documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
-Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area Richieste Workfront e in Workfront Planning.
+Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area Richieste Workfront, sia per le richieste di Workfront che per quelle di Workfront Planning.
 
 ## Requisiti di accesso
 
@@ -86,7 +97,6 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
 
-
 ## Abilita il riempimento del modulo basato sull’intelligenza artificiale per la tua organizzazione
 
 >[!NOTE]
@@ -95,9 +105,9 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Fare clic su **Sistema**, quindi in Sistema fare clic su **Preferenze**.
-1. Nella sezione delle preferenze di IA, accertati che **Abilita IA** sia attivato.
-1. Attiva **Riempimento modulo AI**.
-1. Per disattivare il riempimento modulo basato sull&#39;intelligenza artificiale, disattivare **Compilazione modulo IA**.
+1. Nella sezione delle preferenze di IA, attiva l&#39;impostazione **Abilita IA**.
+1. Attiva l&#39;impostazione **Riempimento modulo AI**.
+1. Per disattivare il riempimento modulo basato sull&#39;intelligenza artificiale, disattivare **Riempimento modulo IA**.
 
 ## Ottieni suggerimenti da un prompt di testo
 

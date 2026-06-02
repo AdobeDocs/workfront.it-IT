@@ -7,16 +7,23 @@ description: La pagina Dettagli documento consente di visualizzare, comunicare e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: 474
+ht-degree: 4%
 
 ---
 
 # Panoramica dei dettagli dei documenti
+
+{{highlighted-preview}}
 
 La pagina Dettagli documento consente di visualizzare, comunicare e gestire le proprietà di un documento associato a un oggetto Adobe Workfront.
 
@@ -96,9 +103,32 @@ Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi a
 ![Icona del menu Altro per i dettagli del documento](assets/more-menu-new-doc.png)
 
 
+
 ### Aprire il pannello Dettagli documento nella nuova area Documenti
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
-1. Selezionare il documento, quindi fare clic su **Visualizza dettagli**.
+1. Seleziona il documento, quindi fai clic su **Mostra dettagli** nella barra laterale a sinistra.
 
    ![Dettagli documento](assets/doc-details.png)
+
+
+<div class="preview">
+
+### Visualizzare il Riepilogo stampa nella nuova area Documenti
+
+Dopo aver approvato un documento, è possibile aprire la pagina Frame.io Stampa commenti per visualizzare l&#39;anteprima della risorsa, i commenti e le decisioni di approvazione in un formato stampabile.
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+1. Seleziona il documento, quindi fai clic su **Mostra dettagli** nella barra laterale a sinistra.
+
+   ![Dettagli documento](assets/doc-details.png)
+
+1. Nella sezione **Panoramica**, fare clic su **Apri riepilogo stampa**.
+
+
+>[!NOTE]
+>
+>Il collegamento Stampa riepilogo viene visualizzato solo dopo l&#39;aggiunta di un&#39;approvazione al documento.
+
+
+</div>

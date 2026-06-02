@@ -6,11 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2355
 ht-degree: 2%
 
 ---
@@ -375,14 +386,14 @@ Considera quanto segue sui campi del tipo di record di GenStudio:
 
 ### Registrare le connessioni nell’area di lavoro di GenStudio
 
-È possibile creare connessioni tra tipi di record nelle aree di lavoro di GenStudio in cui si dispone delle autorizzazioni di gestione.
+È possibile creare connessioni tra tipi di record nell&#39;area di lavoro di GenStudio se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro.
 
 In Workfront Planning è possibile effettuare le seguenti connessioni tra i tipi di record di GenStudio e altri tipi di record o oggetti:
 
 * Due tipi di record GenStudio
 * Un tipo di record GenStudio e un tipo di record Planning dello stesso workspace
 * Un tipo di record GenStudio e un tipo di record Planning da un&#39;altra area di lavoro, se i tipi di record sono configurati per la connessione da un&#39;altra area di lavoro.
-* Un tipo di record GenStudio e un tipo di oggetto Workfront (progetti, portafogli, programmi, società, gruppi)
+* Un tipo di record GenStudio e un tipo di oggetto Workfront (progetti, portafogli, programmi, società, gruppi).
 * Un tipo di record GenStudio e un tipo di oggetto AEM (Assets o Frammenti di contenuto). È necessario disporre di una licenza per Adobe Experience Manager per accedere agli oggetti di AEM, oltre a una licenza per Workfront Planning e una licenza per Adobe GenStudio for Performance Marketing.
 * Un tipo di record GenStudio e Marchi GenStudio. Per impostazione predefinita, la connessione Marchi viene aggiunta ai tipi di record Prodotti e utenti tipo.
 
@@ -420,7 +431,7 @@ I brand sono disponibili per la connessione manuale a tutti gli altri tipi di re
 * Anche l’area di lavoro GenStudio accessibile dall’ambiente di produzione viene visualizzata nell’ambiente di anteprima della stessa istanza di Workfront.
 * È possibile eseguire tutte le attività descritte in questo articolo nell&#39;area di lavoro di GenStudio in Workfront Planning nell&#39;ambiente di anteprima, ma tali modifiche non saranno visibili da GenStudio.
 
-  Solo le modifiche apportate agli elementi nell&#39;ambiente di produzione vengono sincronizzate tra Workfront Planning e GenStudio.
+  Solo le modifiche apportate agli articoli nell&#39;ambiente di produzione vengono sincronizzate tra Workfront Planning e GenStudio.
 
   GenStudio non dispone di un ambiente di anteprima.
 

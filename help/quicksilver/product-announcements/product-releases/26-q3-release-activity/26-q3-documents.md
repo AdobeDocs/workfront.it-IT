@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,19 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
-## Print summary for documents in the new Documents area
+
+## Stampa riepilogo documenti nella nuova area Documenti
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 2 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+È ora possibile aprire un riepilogo stampabile dell&#39;approvazione di un documento direttamente dalla nuova area Documenti. Questa funzione è disponibile per le organizzazioni che utilizzano l’archiviazione cloud Adobe.
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+Dopo aver approvato un documento, nella sezione Panoramica del pannello Dettagli documento viene visualizzata l&#39;opzione **Stampa riepilogo**. Facendo clic su **Apri riepilogo stampa** viene aperta la pagina Frame.io Stampa commenti, che mostra l&#39;anteprima della risorsa, i commenti e le decisioni di approvazione in un formato stampabile.
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+Per ulteriori informazioni, vedere [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md) e [Riepilogo per la panoramica dei documenti](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+
 
 ## Aggiungere un messaggio personalizzato a una fase del flusso di lavoro di approvazione documento
 

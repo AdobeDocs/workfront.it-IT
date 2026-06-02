@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: 1311
 ht-degree: 2%
 
 ---
 
-
 # Creare aree di lavoro
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 >
 >La creazione di più aree di lavoro alla volta utilizzando il bundle di modelli di best practice è disponibile solo quando sono soddisfatti i seguenti prerequisiti:
 >
->* La tua organizzazione ha acquistato un pacchetto Workfront Planning Prime o Ultimate.
+>* La tua organizzazione ha acquistato un pacchetto Workfront o Workflow Planning Prime o Ultimate
 >* Sei un amministratore di sistema
 
-Puoi utilizzare un bundle di modelli per più aree di lavoro per creare 6 aree di lavoro con un clic.
+Puoi utilizzare il bundle di modelli per più aree di lavoro per creare 6 aree di lavoro con un clic.
 
-I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, visualizzazioni e campi per aiutarti a iniziare con l’implementazione di Planning.
+I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, visualizzazioni e campi per aiutarti a iniziare con l’implementazione di Planning. Per informazioni, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
 
 {{step1-to-planning}}
 
-1. Fai clic su **Crea area di lavoro**
+1. Esegui una delle operazioni seguenti:
 
-   Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
+   * Fai clic su **Crea area di lavoro**, quindi segui la procedura riportata di seguito:
 
-1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
-1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
+      1. Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
 
-   * 1.Classificazioni globali e tassonomie
+      1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
+      1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
 
-     Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
+         * 1.Classificazioni globali e tassonomie
 
-     In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
-   * 2.Fréscopa Global Marketing
-   * 3.Marketing sociale Fréscopa
-   * 4.Fréscopa Media e PR
-   * 5.Eventi globali di Fréscopa
-   * 6.Leadership della società esecutiva Fréscopa
+           Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
 
-1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su **Indietro** per tornare alla casella **Crea area di lavoro** oppure su **Usa modelli** per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
+           In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
+         * 2.Fréscopa Global Marketing
+         * 3.Marketing sociale Fréscopa
+         * 4.Fréscopa Media e PR
+         * 5.Eventi globali di Fréscopa
+         * 6.Leadership della società esecutiva Fréscopa
 
-   Le aree di lavoro vengono create e visualizzate nelle schede **Aree di lavoro** in e **Tutte le aree di lavoro** per gli amministratori di sistema. Tutti gli utenti con licenza Standard visualizzeranno le aree di lavoro nella propria area di lavoro dopo che un amministratore di sistema le avrà create e condivise con loro.
+      1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su **Indietro** per tornare alla casella **Crea area di lavoro** oppure su **Usa modelli** per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
+
+   <div class="preview">
+
+   * Fai clic sulla scheda **Aree di lavoro di esempio**, quindi segui questi passaggi:
+
+      1. Fare clic su uno dei modelli dell&#39;area di lavoro nella scheda per esaminare i tipi di record e i campi di ogni modello. I modelli nelle **aree di lavoro di esempio** sono di sola lettura.
+      1. Fai clic su **Crea da modelli** nell&#39;angolo superiore destro di un modello.
+      1. (Facoltativo) Fai clic su **Anteprima** in uno dei modelli per visualizzare i tipi di record e i relativi campi.
+
+         >[!TIP]
+         >
+         >Facendo clic su una scheda del tipo di record in un modello, nel pannello di destra vengono visualizzati i campi del tipo di record.
+      1. Fai clic su **Usa modelli**.
+
+   </div>
+
+   Le 6 aree di lavoro vengono create e visualizzate nelle schede **Aree di lavoro** in e **Tutte le aree di lavoro** per gli amministratori di sistema. Tutti gli utenti con licenza Standard visualizzeranno le aree di lavoro nella propria area di lavoro dopo che un amministratore di sistema le avrà create e condivise con loro.
 
 1. Inizia a modificare le aree di lavoro create e ad aggiungere tipi di record, record, visualizzazioni e campi pertinenti per la tua organizzazione.
 
