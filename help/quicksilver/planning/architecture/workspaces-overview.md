@@ -6,26 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 4%
+source-wordcount: 516
+ht-degree: 3%
 
 ---
 
 # Panoramica delle aree di lavoro
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità organizzativa che rappresenta il ciclo di vita lavorativa e i processi dell’unità. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![Account amministratore pagina di destinazione aree di lavoro](assets/workspaces-landing-page-admin-account.png)
 
@@ -45,35 +46,36 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 * Le aree di lavoro sono strutture all’interno delle quali lavorano le unità organizzative (un team, un gruppo, un reparto o una divisione). Non possono essere associati a campi. Solo i tipi di record all&#39;interno di un&#39;area di lavoro possono essere associati ai campi.
 
   Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* A seconda della licenza Workfront in uso, le aree di lavoro vengono visualizzate nelle schede seguenti nell&#39;area Planning:
+* Le aree di lavoro vengono visualizzate nelle seguenti schede nell&#39;area Pianificazione:
 
-   * Per gli amministratori di sistema, le aree di lavoro vengono visualizzate nelle seguenti schede:
+   * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
+   * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema. Questa opzione è disponibile solo per gli amministratori di sistema.
 
-      * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
-      * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema.
+  <div class="preview">
 
-     <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
-      -->
+   * **Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere le visualizzazioni con altri utenti.
 
-   * Per tutti gli altri utenti, le aree di lavoro create e quelle condivise con gli altri utenti vengono visualizzate nell&#39;area Workspace.
+  </div>
 
-  <!--
+  >[!NOTE]
+  >
+  ><span class="preview">È consigliabile non modificare le aree di lavoro di esempio, ma utilizzarle come riferimento per crearne di personalizzate. Utilizza il bundle di modelli per più aree di lavoro per creare aree di lavoro identiche a quelle elencate nella scheda Aree di lavoro di esempio. Per informazioni, vedere la sezione &quot;Creare più aree di lavoro utilizzando un bundle di modelli multisfera basato sulle best practice&quot; nell&#39;articolo [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md). </span>
 
-    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+<!--
+No longer the case - they match now: 
 
-   * For all other users:
+* For all other users:
 
-        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
-        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
-    
-    -->
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
 
-  <!--      
-    >[!NOTE]
-    >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
-    -->
+<div class="preview"> 
+
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
+
+</div>
+-->
+
+
 
 * I tipi di record contenuti in un&#39;area di lavoro devono riflettere il ciclo di vita lavorativa e i concetti di un&#39;unità organizzativa.
 

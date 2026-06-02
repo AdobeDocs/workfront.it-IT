@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Nuova scheda di esempio per le aree di lavoro aggiunta alla pagina di destinazione Planning
+
+>[!NOTE]
+>
+>Anteprima: 1 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+
+Nell’area di destinazione di Planning è stata aggiunta la scheda Aree di lavoro di esempio, in cui è possibile visualizzare un esempio di aree di lavoro basate sulle best practice. Le aree di lavoro non sono modificabili. I manager di Workspace possono modificare le viste in aree di lavoro di esempio. La scheda è visibile per gli utenti Standard e Amministratore di sistema.
+
+È consigliabile visualizzare le aree di lavoro di esempio come esempi e utilizzare il bundle di modelli per più aree di lavoro per creare, modificare e condividere le aree di lavoro risultanti dall’utilizzo di tale modello.  Il bundle di modelli contiene le stesse aree di lavoro della scheda Aree di lavoro di esempio.
+
+Per informazioni, vedere [Panoramica delle aree di lavoro](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Workfront Planning API versione 2
 
