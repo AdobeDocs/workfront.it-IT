@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4c98518dfc667ee288e520c2bbe6e550803d5be7
+source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1582'
 ht-degree: 6%
 
 ---
@@ -48,13 +48,17 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Ottieni documenti per progetto | `approvals_get_documents_by_project` | Elenca i documenti all&#39;interno di un progetto Workfront, con l&#39;ID di versione corrente di ciascun documento. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
-| Elencare cartelle collegate ad AEM* | `approvals_list_aem_linked_folders` | Elenca le cartelle di documenti di Workfront collegate a Adobe Experience Manager. | Leggi |
-| Invio di documenti alla cartella AEM* | `approvals_send_documents_to_aem_folder` | Sposta uno o più documenti Workfront in una cartella collegata ad AEM. | Scrittura |
 
-*Per utilizzare questi strumenti, è necessario che nell&#39;istanza Workfront sia configurata un&#39;integrazione nativa di [!DNL Adobe Experience Manager]. Per ulteriori informazioni, vedere [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
+
+*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 
-*L’invio di documenti a una cartella AEM non è ancora supportato per i progetti su Adobe Cloud Storage. Il supporto è previsto in una versione futura.
+*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
+
+-->
 
 ### Approvazione dei flussi di lavoro
 
