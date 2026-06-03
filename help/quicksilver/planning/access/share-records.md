@@ -6,11 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 2%
 
 ---
@@ -125,6 +131,8 @@ maybe use the Share record types as example here and touch on the same points: h
 Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di lavoro o un tipo di record, ricevono le autorizzazioni Manage (Gestione) per i record di quel tipo.
 * Quando rimuovi un’entità da un’area di lavoro, tutte le autorizzazioni di condivisione vengono rimosse dai tipi di record e da tutti i record in essa contenuti.
 * Non è possibile condividere un record con un utente che non dispone di autorizzazioni per l&#39;area di lavoro o il tipo di record.
+
+  Se si condivide un record con un utente che non si trova nell&#39;area di lavoro, questi verranno aggiunti automaticamente all&#39;area di lavoro.
 * L’accesso di un utente al record è determinato dalla combinazione delle tre impostazioni seguenti:
 
    * Le relative autorizzazioni ereditate dal tipo di record e dall’area di lavoro
@@ -149,7 +157,7 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
 
 * È possibile disabilitare le autorizzazioni ereditate per un singolo record, nel qual caso è possibile assegnare a determinati utenti le autorizzazioni per singoli record oppure ottenere le autorizzazioni se appartengono all&#39;area di lavoro, a causa dell&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare**.
 
-* Se più autorizzazioni di condivisione si applicano allo stesso utente, quest&#39;ultimo riceve l&#39;autorizzazione più elevata.
+* Se più autorizzazioni di condivisione si applicano allo stesso utente, quest&#39;ultimo riceve il livello più alto di tali autorizzazioni.
 
   Ad esempio, se un record viene condiviso con un utente con autorizzazioni di visualizzazione e il relativo gruppo con l&#39;accesso Gestisci, questi riceveranno le autorizzazioni di gestione per il record.
 
