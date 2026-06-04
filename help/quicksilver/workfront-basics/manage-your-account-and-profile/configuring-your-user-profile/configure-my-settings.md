@@ -9,25 +9,14 @@ exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: 3264
+source-wordcount: 3263
 ht-degree: 2%
 
 ---
@@ -304,7 +293,7 @@ Queste informazioni devono essere già configurate dall&#39;amministratore [!DNL
         <td> </td>
     </tr>
     <tr>
-        <td><strong>Estensione </strong></td>
+        <td><strong>Estensione [!UICONTROL]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -457,7 +446,7 @@ Queste informazioni vengono in genere configurate dall&#39;amministratore [!DNL 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Gruppo Predefinito]</strong> </td> 
-   <td> <p>Selezionare un gruppo predefinito <strong></strong> dal menu a discesa.</p> <p>Nota: questo campo è obbligatorio. Non è possibile associare un utente a un gruppo.<br></p> <p>Questo campo è visibile agli utenti con livello [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Per ulteriori informazioni su chi può modificare il campo <strong>[!UICONTROL Gruppo Predefinito]</strong>, vedere <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Modificare il profilo di un utente</a>. Il <strong>[!UICONTROL Gruppo Predefinito]</strong> è il gruppo predefinito per tutti i progetti e il <strong>[!UICONTROL Gruppo Predefinito]</strong> per tutti i nuovi utenti creati. Tutti i moduli personalizzati creati vengono condivisi con il <strong>[!UICONTROL Home Group]</strong> per impostazione predefinita.</p> <p>Per ulteriori informazioni sui gruppi, vedere <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Panoramica sui gruppi</a>.</p> </td> 
+   <td> <p>Selezionare un gruppo predefinito <strong>[!UICONTROL]</strong> dal menu a discesa.</p> <p>Nota: questo campo è obbligatorio. Non è possibile associare un utente a un gruppo.<br></p> <p>Questo campo è visibile agli utenti con livello [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Per ulteriori informazioni su chi può modificare il campo <strong>[!UICONTROL Gruppo Predefinito]</strong>, vedere <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Modificare il profilo di un utente</a>. Il <strong>[!UICONTROL Gruppo Predefinito]</strong> è il gruppo predefinito per tutti i progetti e il <strong>[!UICONTROL Gruppo Predefinito]</strong> per tutti i nuovi utenti creati. Tutti i moduli personalizzati creati vengono condivisi con il <strong>[!UICONTROL Home Group]</strong> per impostazione predefinita.</p> <p>Per ulteriori informazioni sui gruppi, vedere <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Panoramica sui gruppi</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Altri Gruppi]</strong> </td> 
@@ -485,7 +474,7 @@ Utilizzare una delle seguenti opzioni in questa sezione:
    <td> <p>Questo è il ruolo principale che puoi svolgere in Workfront. Per impostazione predefinita, a questa mansione vengono assegnate anche tutte le attività e tutti i problemi a cui sei assegnato. I ruoli sono essenziali nella gestione delle risorse. Per ulteriori informazioni sulle mansioni, vedere <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire le mansioni</a>.</p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza [!UICONTROL Standard] o [!UICONTROL Plan] con accesso utente amministratore oppure se si è un amministratore [!DNL Workfront]. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurare l'accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Condizionale) Se hai selezionato un ruolo primario di , viene visualizzato il campo [!UICONTROL Percentuale di disponibilità FTE].</strong></td> 
+   <td role="rowheader"><strong>(Condizionale) Se hai selezionato un ruolo primario di [!UICONTROL], viene visualizzato il campo [!UICONTROL Percentuale di disponibilità FTE].</strong></td> 
    <td>Specifica la percentuale di tempo pianificato allocata a questa mansione. Il valore predefinito per [!UICONTROL Percentuale di disponibilità FTE] per il ruolo primario è 100%.</td> 
   </tr> 
   <tr> 
@@ -497,7 +486,7 @@ Utilizzare una delle seguenti opzioni in questa sezione:
    <td> <p>Specifica la percentuale di tempo pianificato allocata a ogni mansione. Il valore predefinito per [!UICONTROL Percentuale di disponibilità FTE] per [!UICONTROL Altri ruoli] è 0%.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Nota:  
      <ul> 
       <li>Se [!UICONTROL Altri ruoli] hanno una disponibilità FTE dello 0%, non vengono visualizzati in [!UICONTROL Resource Planner], a meno che gli utenti non siano assegnati ad attività in questi ruoli.</li> 
-      <li> <p>La somma di tutte le <strong>[!UICONTROL Percentages of FTE Availability]</strong> per tutti i ruoli deve essere uguale a 100%. Ogni [!UICONTROL Percentuale di disponibilità FTE] calcola [!UICONTROL Ore disponibili] per ogni ruolo per utente nella pianificazione risorse . </p> <p>L'[!UICONTROL Available Hours] per ogni ruolo per utente dipende dal tempo disponibile per l'utente. Il tempo disponibile per l'utente viene calcolato da [!DNL Workfront] in base al metodo selezionato dall'amministratore [!DNL Workfront] per calcolare l'FTE nelle [!UICONTROL Resource Management Preferences]. Per ulteriori informazioni sul calcolo della disponibilità per l'utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per gli utenti e i ruoli nella Programmazione delle risorse</a>. Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
+      <li> <p>La somma di tutte le <strong>[!UICONTROL Percentages of FTE Availability]</strong> per tutti i ruoli deve essere uguale a 100%. Ogni [!UICONTROL Percentuale di disponibilità FTE] calcola [!UICONTROL Ore disponibili] per ogni ruolo per utente nella pianificazione risorse [!UICONTROL]. </p> <p>L'[!UICONTROL Available Hours] per ogni ruolo per utente dipende dal tempo disponibile per l'utente. Il tempo disponibile per l'utente viene calcolato da [!DNL Workfront] in base al metodo selezionato dall'amministratore [!DNL Workfront] per calcolare l'FTE nelle [!UICONTROL Resource Management Preferences]. Per ulteriori informazioni sul calcolo della disponibilità per l'utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per gli utenti e i ruoli nella Programmazione delle risorse</a>. Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +507,7 @@ Utilizzare una delle seguenti opzioni in questa sezione:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>Il numero specificato viene preso in considerazione per calcolare la disponibilità in base alla pianificazione predefinita solo quando [!UICONTROL Resource Management Preferences] a livello di sistema è impostato su <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita di  è 40 ore, puoi lavorare 20 ore alla settimana.</p> <p>Se le [!UICONTROL Resource Management Preferences] a livello di sistema sono impostate su <strong>[!UICONTROL The User's Schedule]</strong>, il valore specificato in questo campo verrà ignorato e sarà possibile lavorare in base a quanto specificato nella pianificazione. In questo caso, l'FTE per [!UICONTROL Resource Planner] viene calcolato con la seguente formula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Per ulteriori informazioni sul calcolo dell'FTE utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella Programmazione delle risorse</a>.</p> <p>Per ulteriori informazioni sulla creazione di pianificazioni in [!DNL Workfront], consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </td> 
+   <td> <p>Il numero specificato viene preso in considerazione per calcolare la disponibilità in base alla pianificazione predefinita solo quando [!UICONTROL Resource Management Preferences] a livello di sistema è impostato su <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita di [!UICONTROL] è 40 ore, puoi lavorare 20 ore alla settimana.</p> <p>Se le [!UICONTROL Resource Management Preferences] a livello di sistema sono impostate su <strong>[!UICONTROL The User's Schedule]</strong>, il valore specificato in questo campo verrà ignorato e sarà possibile lavorare in base a quanto specificato nella pianificazione. In questo caso, l'FTE per [!UICONTROL Resource Planner] viene calcolato con la seguente formula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Per ulteriori informazioni sul calcolo dell'FTE utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella Programmazione delle risorse</a>.</p> <p>Per ulteriori informazioni sulla creazione di pianificazioni in [!DNL Workfront], consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo orario]</strong> </td> 

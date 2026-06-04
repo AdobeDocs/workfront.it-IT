@@ -7,16 +7,11 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 486
@@ -99,7 +94,7 @@ Puoi configurare la ricezione di notifiche e-mail per le richieste di accesso. L
 1. Vai al tuo profilo utente effettuando una delle seguenti operazioni:
 
    * Fai clic sul **menu principale** ![](assets/dots-main-menu.png) nell&#39;angolo superiore destro dello schermo, quindi fai clic sul tuo nome.
-   * Fai clic sull&#39;icona ![&#128279;](assets/adobe-blue-main-menu.png) del **profilo di Adobe** Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
+   * Fai clic sull&#39;icona ](assets/adobe-blue-main-menu.png) del **![profilo di Adobe** Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
 
 1. Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) a destra del tuo nome nell&#39;intestazione, quindi fai clic su **Modifica**.
 1. Fai clic su **Notifiche** e seleziona o deseleziona **Qualcuno richiede a me l&#39;accesso** nella sezione **Azione richiesta**, a seconda che tu desideri ricevere le notifiche e-mail quando un altro utente richiede l&#39;accesso da te o meno.

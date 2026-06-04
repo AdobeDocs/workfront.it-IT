@@ -7,10 +7,8 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
 TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1254
@@ -40,7 +38,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  <tbody> 
   <tr> 
    <td> <p><strong>Un documento è stato aggiunto a un progetto di cui sono sponsor</strong> </p> <p>Lo sponsor del progetto riceve una notifica e-mail quando un documento viene aggiunto al progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current] e se il documento non è [!UICONTROL Private].</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Documento aggiunto a] &lt;Nome progetto&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
-   <td> Nome progetto<br>Nome Portfolio<br>Numero di riferimento documento<br>Nome dell'utente che ha aggiunto il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!UICONTROL Anteprima]</strong> e <strong>[!UICONTROL Download]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti aggiunti<br>*Nome documento<br>*Nome dell'utente che ha aggiunto il documento<br>*Data digest <br></td> 
+   <td> Nome progetto<br>Nome Portfolio<br>Numero di riferimento documento<br>Nome dell'utente che ha aggiunto il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!Anteprima UICONTROL]</strong> e <strong>[!Download UICONTROL]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti aggiunti<br>*Nome documento<br>*Nome dell'utente che ha aggiunto il documento<br>*Data digest <br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 

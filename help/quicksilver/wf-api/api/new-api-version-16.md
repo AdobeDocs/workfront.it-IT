@@ -8,16 +8,11 @@ feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 TQID: https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1256
@@ -525,7 +520,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -549,7 +544,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -590,7 +585,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>

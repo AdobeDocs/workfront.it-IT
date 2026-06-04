@@ -7,18 +7,11 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
 TQID: https://experienceleague.adobe.com/bMOiRpwF4pHtx6CkRp0xVxSkL90a7-czeUXrVlFI6u8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 615
@@ -142,7 +135,7 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del plug-in.
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.
 
-1. Nella sezione *[!UICONTROL *Proof approvals]&#x200B;**, scegli &#x200B;** [!UICONTROL Basic] **&#x200B; o &#x200B;** [!UICONTROL Automated]**.
+1. Nella sezione *[!UICONTROL *Proof approvals]**, scegli **[!UICONTROL Basic]** o **[!UICONTROL Automated]**.
 
 1. Aggiungi **[!UICONTROL Revisori]** o un **[!UICONTROL modello di flusso di lavoro]** in base al tipo di approvazione selezionato al passaggio 7.
 

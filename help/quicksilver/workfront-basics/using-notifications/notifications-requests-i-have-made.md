@@ -7,12 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
 TQID: https://experienceleague.adobe.com/IVweQmtHXCXNs7hC6hIIq4mJ-9XLmuucpmBs2AQQDKo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1348
@@ -43,7 +40,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Un documento è stato modificato o caricato su un problema per il quale sono il contatto principale</strong> </p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l’utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se il progetto è configurato come [!UICONTROL Help Request Queue] (come descritto in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>).</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Documento aggiunto a &lt;Nome problema&gt;</em></p> <p>L'oggetto della notifica del digest giornaliero è: <em>Digest of Your Requests &lt;Data del digest giornaliero&gt;</em></p> </td> 
-   <td> Nome oggetto in cui è stato caricato il documento<br>Nome oggetto padre<br>Numero di riferimento documento<br>Nome dell'utente che ha caricato il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!UICONTROL Anteprima]</strong> e <strong>[!UICONTROL Download]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati<br>*Nome del documento<br>*Oggetto padre Nome<br>*Nome dell'utente che ha aggiunto il documento<br>*Data del riepilogo giornaliero <br></td> 
+   <td> Nome oggetto in cui è stato caricato il documento<br>Nome oggetto padre<br>Numero di riferimento documento<br>Nome dell'utente che ha caricato il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!Anteprima UICONTROL]</strong> e <strong>[!Download UICONTROL]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati<br>*Nome del documento<br>*Oggetto padre Nome<br>*Nome dell'utente che ha aggiunto il documento<br>*Data del riepilogo giornaliero <br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
