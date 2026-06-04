@@ -8,10 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+TQID: https://experienceleague.adobe.com/GrxcFYKSrmJsaITu6twBnTZxfkMcvsnRdfn7-qoSXI4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 1%
+source-wordcount: 335
+ht-degree: 12%
 
 ---
 
@@ -23,7 +28,7 @@ Puoi disattivare una società che non utilizzi più conservando tutti i dati sto
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <tbody> 
@@ -34,7 +39,7 @@ Puoi disattivare una società che non utilizzi più conservando tutti i dati sto
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licenza</p> </td> 
-   <td><p>[!UICONTROL Plan]</p>
+   <td><p>[!UICONTROL Piano]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>

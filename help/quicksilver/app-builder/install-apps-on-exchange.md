@@ -4,10 +4,15 @@ description: Le estensioni dell’interfaccia utente di Workfront, basate su Ado
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 1%
+source-wordcount: 1301
+ht-degree: 3%
 
 ---
 
@@ -61,7 +66,7 @@ Il team WorkFocus invita le organizzazioni a pianificare una dimostrazione perso
 
 In prospettiva, la roadmap include il rilascio del Centro di eccellenza Workfront Core e del Centro di eccellenza Workfront Planning nel 2026. Diventando cliente del centro di eccellenza Fusion, le organizzazioni hanno l&#39;opportunità di influenzare la roadmap di queste soluzioni imminenti e contribuire a definire il futuro della governance aziendale di Workfront.
 
-WorkFocus vuole discutere su come può essere un partner strategico per Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets e la catena di fornitura dei contenuti end-to-end.
+WorkFocus vuole discutere su come può fungere da partner strategico per Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets e Content Supply chain end-to-end.
 
 ## Prerequisiti e autorizzazioni
 

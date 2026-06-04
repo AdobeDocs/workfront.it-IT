@@ -10,10 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/DPZYagVdnJmk541crPr4k5Lgxh-pyY60E2phgZz1z2k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 7%
+source-wordcount: 1663
+ht-degree: 27%
 
 ---
 
@@ -23,7 +29,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui livelli di accesso correnti, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso correnti, consulta [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Ognuno dei sei livelli di accesso incorporati è progettato per un particolare tipo di utente. Questi livelli di accesso consentono di controllare quali utenti possono modificare e visualizzare nel sistema.
@@ -64,19 +70,19 @@ Per informazioni sulla creazione di un livello di accesso personalizzato o sulla
 
 >[!IMPORTANT]
 >
->È consigliabile lasciare invariati i livelli di accesso incorporati in modo da potervi fare riferimento dopo aver configurato gli utenti.
+>È consigliabile lasciare invariati i livelli di accesso predefiniti in modo da potervi fare riferimento dopo aver configurato gli utenti.
 
 Per informazioni generali su questi livelli di accesso, vedere [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Livello di accesso Amministratore di sistema
 
-Collegato alla licenza Pianificazione, il livello di accesso integrato Amministratore di sistema è progettato per un utente responsabile dell&#39;amministrazione del sistema Adobe Workfront. Impossibile modificare questo livello di accesso predefinito.
+Collegato alla licenza Pianificazione, il livello di accesso integrato Amministratore di sistema è progettato per un utente responsabile dell&#39;amministrazione del sistema Adobe Workfront. Questo modello di accesso incorporato non può essere modificato.
 
 Gli utenti con il livello di accesso Amministratore di sistema possono eseguire tutte le operazioni in Workfront. Possono visualizzare e modificare tutti gli oggetti e le informazioni di Workfront immesse in Workfront da tutti gli altri utenti.
 
 Inoltre, hanno accesso completo all&#39;area Setup (Configurazione), in cui è possibile modificare qualsiasi impostazione a livello di sistema. Possono inoltre accedere a tutte le aree dell&#39;icona del menu principale ![Main menu icon](assets/main-menu-icon.png) o del menu principale ![Main menu icon](assets/main-menu-icon.png), se disponibile.
 
-Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Per ulteriori informazioni, consulta [Concedere a un utente l’accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Livello di accesso al planner
 
@@ -92,10 +98,10 @@ In aggiunta alla licenza Pianificazione, il livello di accesso Pianificazione è
 
 Di seguito sono riportate le impostazioni di accesso più elevate disponibili per gli oggetti nel livello di accesso Planner:
 
-| Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
+| Tipi di oggetto Workfront | Nessun accesso | Accesso in visualizzazione | Accesso per la modifica |
 |---|---|---|---|
 | Progetti |   |   | ✓ |
-| Attività |   |   | ✓ |
+| Tasks |   |   | ✓ |
 | Problemi |   |   | ✓ |
 | Portfolio |   |   | ✓ |
 | Programmi |   |   | ✓ |
@@ -107,8 +113,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Modelli |   |   | ✓ |
 | Dati finanziari |   |   | ✓ |
 | Gestione risorse |   |   | ✓ |
-| Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
-| Workfront Goals |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
+| Pianificazione scenario |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
+| Workfront Goals |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
 
 {style="table-layout:auto"}
 
@@ -123,29 +129,29 @@ Utenti con questo livello di accesso:
 * Può accedere e condividere i rapporti
 * Può comunicare con altri utenti nel sistema
 * Impossibile accedere a tutte le aree del menu principale ![icona menu principale](assets/main-menu-icon.png) o ![icona menu principale](assets/main-menu-icon.png), se disponibile, e la relativa area &quot;Utenti&quot; è denominata Team. Nell’area Team, gli utenti con questo livello di accesso possono visualizzare solo i team a cui appartengono, insieme al lavoro assegnato a tali team.
-* Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o report.
+* Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o rapporti.
 
 È possibile creare una versione personalizzata del livello di accesso integrato di Worker e determinare la quantità di accesso consentita per i vari tipi di oggetto Workfront. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Di seguito sono riportate le impostazioni di accesso più elevate disponibili per gli oggetti nel livello di accesso Worker:
 
-| Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
+| Tipi di oggetto Workfront | Nessun accesso | Accesso in visualizzazione | Accesso per la modifica |
 |---|---|---|---|
 | Progetti |   |   | ✓ (limitato: gli utenti possono solo condividere il progetto, crearne attività e problemi e modificare i dati nei moduli personalizzati già allegati al progetto). |
-| Attività |   |   | ✓ |
+| Tasks |   |   | ✓ |
 | Problemi |   |   | ✓ |
-| Portfolio |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |   |
-| Programmi |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |   |
+| Portfolio |   | ✓ (L’impostazione predefinita è Nessun accesso). |   |
+| Programmi |   | ✓ (L’impostazione predefinita è Nessun accesso). |   |
 | Report, dashboard e calendari |   | ✓ |   |
 | Filtri, visualizzazioni e raggruppamenti |   |   | ✓ |
 | Documenti |   |   | ✓ |
 | Utenti |   |   | ✓ |
 | Team |   |   | ✓ (accesso limitato) |
 | Modelli | ✓ |   |   |
-| Dati finanziari |   | ✓ (l&#39;impostazione predefinita è Nessun accesso. L&#39;impostazione Visualizza consente all&#39;utente di visualizzare solo l&#39;area Finanza   in Project Details (Dettagli progetto). |   |
+| Dati finanziari |   | ✓ (l&#39;impostazione predefinita è Nessun accesso. L&#39;impostazione Visualizza consente all&#39;utente di visualizzare solo l&#39;area Finanza in Dettagli progetto.) |   |
 | Gestione risorse |   | ✓ |   |
-| Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
-| Workfront Goals |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
+| Pianificazione scenario |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
+| Workfront Goals |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
 
 {style="table-layout:auto"}
 
@@ -159,7 +165,7 @@ Utenti con il livello di accesso Revisore:
 
 * Impossibile assegnare elementi di lavoro o approvare schede orario
 * Può accedere alle aree Richieste e Documenti nel menu principale ![icona menu principale](assets/main-menu-icon.png) o ![icona menu principale](assets/main-menu-icon.png), se disponibile
-* Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o report.
+* Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o rapporti.
 
 È possibile creare una versione personalizzata del livello di accesso predefinito del revisore e determinare la quantità di accesso consentita per i vari tipi di oggetti di Workfront. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -172,10 +178,10 @@ Più limitate per progetti e attività rispetto al livello di accesso Lavoratore
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo di oggetto Workfront</th> 
+   <th>Tipi di oggetto Workfront</th> 
    <th>Nessun accesso</th> 
-   <th>Visualizza accesso</th> 
-   <th>Modifica accesso</th> 
+   <th>Accesso in visualizzazione</th> 
+   <th>Accesso per la modifica</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -200,13 +206,13 @@ Più limitate per progetti e attività rispetto al livello di accesso Lavoratore
   <tr> 
    <td>Portfolio</td> 
    <td> </td> 
-   <td>✓ (l'impostazione predefinita è Nessun accesso).</td> 
+   <td>✓ (L’impostazione predefinita è Nessun accesso).</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Programmi</td> 
    <td> </td> 
-   <td>✓ (l'impostazione predefinita è Nessun accesso).</td> 
+   <td>✓ (L’impostazione predefinita è Nessun accesso).</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -249,7 +255,7 @@ Più limitate per progetti e attività rispetto al livello di accesso Lavoratore
   <tr> 
    <td>Dati finanziari</td> 
    <td> </td> 
-   <td> <p>✓ (l'impostazione predefinita è Nessun accesso. L'impostazione Visualizza consente all'utente di visualizzare solo l'area Finanza   in Project Details (Dettagli progetto).</p> </td> 
+   <td> <p>✓ (l'impostazione predefinita è Nessun accesso. L'impostazione Visualizza consente all'utente di visualizzare solo l'area Finanza in Dettagli progetto.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -259,16 +265,16 @@ Più limitate per progetti e attività rispetto al livello di accesso Lavoratore
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Pianificazione scenario </td> 
+   <td>Pianificazione scenari </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (l'impostazione predefinita è Nessun accesso).</td> 
+   <td>✓ (L’impostazione predefinita è Nessun accesso).</td> 
   </tr> 
   <tr> 
    <td>Workfront Goals </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (l'impostazione predefinita è Nessun accesso).</td> 
+   <td>✓ (L’impostazione predefinita è Nessun accesso).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -281,17 +287,17 @@ Ad esempio, un utente può segnalare i problemi alla coda di richieste dell’he
 
 Utenti con questo livello di accesso:
 
-* Può effettuare richieste e aggiornarle
-* Può caricare e approvare i documenti
-* Può rivedere lo stato dei problemi che ha inviato
+* Possono effettuare richieste e aggiornarle
+* Possono caricare e approvare documenti
+* Possono rivedere lo stato dei problemi che hanno inviato
 * Impossibile assegnare ad elementi di lavoro
-* È possibile accedere alle richieste solo dall&#39;area Richieste nel menu principale ![icona del menu principale](assets/main-menu-icon.png) o dall&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon.png), se disponibile. Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* È possibile accedere alle richieste solo dall&#39;area Richieste nel menu principale ![icona del menu principale](assets/main-menu-icon.png) o dall&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon.png), se disponibile. Per ulteriori informazioni sulle code delle richieste, consulta [Creare una coda delle richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 È possibile creare una versione personalizzata del livello di accesso predefinito del richiedente e determinare la quantità di accesso consentita per i vari tipi di oggetti di Workfront. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Di seguito sono riportate le impostazioni di accesso più elevate disponibili per gli oggetti nel livello di accesso Richiedente:
 
-| Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
+| Tipi di oggetto Workfront | Nessun accesso | Accesso in visualizzazione | Accesso per la modifica |
 |---|---|---|---|
 | Progetto |   | ✓ (solo la pagina Dettagli progetto) |   |
 | Attività |   | ✓(solo la pagina Dettagli attività) |   |
@@ -307,7 +313,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Dati finanziari | ✓ |   |   |
 | Gestione risorse | ✓ |   |   |
 | Pianificazione scenario | ✓ |   |   |
-| Workfront Goals |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
+| Workfront Goals |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
 
 {style="table-layout:auto"}
 
@@ -317,9 +323,9 @@ Il livello di accesso Utente esterno non è collegato a una licenza Workfront a 
 
 Gli utenti di Workfront possono assegnare attività a utenti esterni anche se questi non possono accedere al sistema. Tuttavia, si sconsiglia di assegnare attività e problemi a utenti esterni, in quanto tale lavoro rimarrebbe irrisolto nel sistema.
 
-Utenti con il livello di accesso Utente esterno:
+Gli utenti con il livello di accesso utente esterno:
 
-* È possibile visualizzare solo i documenti e i report del calendario condivisi con gli altri
+* Possono visualizzare solo i documenti e i rapporti del calendario condivisi con loro
 * Può visualizzare gli utenti che condividono documenti e report calendario con loro
 * Può approvare i documenti condivisi con loro
 
@@ -327,18 +333,18 @@ Non puoi modificare questo livello di accesso.
 
 >[!IMPORTANT]
 >
->L’utente esterno è disponibile solo se l’opzione &quot;Collaborazione con persone senza account Workfront utilizzando il loro indirizzo e-mail&quot; è abilitata nell’area Preferenze di sistema in Configurazione. Per ulteriori informazioni, vedere [Configurare le preferenze di sicurezza del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>L’utente esterno è disponibile solo se l’opzione “Collabora con persone senza un account Workfront utilizzandone indirizzo e-mail” è abilitata nell’area Preferenze di sistema in Configurazione. Per ulteriori informazioni, consulta [Configurare le preferenze di sicurezza del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 Sebbene queste impostazioni non siano visibili nell&#39;area Livelli di accesso per il livello di accesso Utente esterno, un utente con questo livello di accesso dispone del livello di accesso più elevato ai tipi di oggetto Workfront riportato di seguito.
 
-| Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
+| Tipi di oggetto Workfront | Nessun accesso | Accesso in visualizzazione | Accesso per la modifica |
 |---|---|---|---|
 | Progetto | ✓ |   |   |
 | Attività | ✓ | |   |
 | Problema | ✓ |   |   |
 | Portfolio | ✓ |   |   |
 | Programmi | ✓ |   |   |
-| Report, dashboard e calendari |   | ✓ (solo per i report calendario; impossibile condividere i report) |   |
+| Report, dashboard e calendari |   | ✓ (Solo per i rapporti del calendario; nessuna possibilità di condividere i rapporti) |   |
 | Filtri, visualizzazioni e raggruppamenti | ✓ |   |   |
 | Documenti |   | ✓ (senza la possibilità di condividere i documenti) |   |
 | Utenti |   | ✓ |   |

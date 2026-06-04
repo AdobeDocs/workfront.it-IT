@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/6l-BO3BvpYCczzD-rfU5ecXqaInT9OM4OX4vRfrCT0k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: 310
+ht-degree: 12%
 
 ---
 
@@ -28,7 +33,7 @@ Per ulteriori informazioni sugli elementi ripristinati, vedere [Ripristinare gli
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +44,7 @@ Per ulteriori informazioni sugli elementi ripristinati, vedere [Ripristinare gli
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -48,7 +53,7 @@ Per ulteriori informazioni sugli elementi ripristinati, vedere [Ripristinare gli
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
   </tr>
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td>Gli elementi ripristinati devono essere associati al gruppo o a uno qualsiasi dei suoi sottogruppi.</td> 
   </tr> 
  </tbody> 
@@ -69,7 +74,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Aprire una delle seguenti schede in cui si desidera visualizzare e gestire gli elementi ripristinati di recente dal gruppo:
 
    * Progetti
-   * Attività
+   * Tasks
    * Problemi
    * Documenti
    * Modelli

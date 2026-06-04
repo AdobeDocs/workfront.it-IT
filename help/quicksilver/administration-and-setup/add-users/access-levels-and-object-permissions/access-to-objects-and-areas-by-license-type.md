@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/UV5Oh-MjdnrGMJv62onf7uC8sFcbsyyQiAoJsxK9NFk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 23%
+source-wordcount: 482
+ht-degree: 30%
 
 ---
 
@@ -22,7 +28,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui livelli di accesso correnti, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso correnti, consulta [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 
@@ -37,7 +43,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
   >
   >Questo articolo contiene informazioni sull’accesso agli oggetti per i tipi di licenza legacy. Per informazioni sui nuovi tipi di licenza, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) e [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-|   | Piano | Lavoro | Rivedi | Richiesta | Esterno |
+|   | Piano | Work | Review | Richiesta | Esterno |
 |---|---|---|---|---|---|
 | Progetti | Modifica | Modifica (senza autorizzazioni di creazione) | Visualizzazione | Visualizza (solo la pagina Dettagli) | Nessun accesso |
 | Attività | Modifica | Modifica | Visualizzazione | Visualizzazione | Nessun accesso |
@@ -59,7 +65,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
 
 >[!NOTE]
 >
->Gli utenti con una licenza Revisione o Richiesta dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica licenze](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gli utenti con una licenza Revisione o Richiesta dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, consulta [Panoramica delle licenze](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
 

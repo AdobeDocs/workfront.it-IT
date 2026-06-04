@@ -4,16 +4,22 @@ description: Le estensioni dell’interfaccia utente di Workfront, basate su Ado
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: 2329
+ht-degree: 3%
 
 ---
 
 # Creare applicazioni personalizzate per Workfront con Adobe App Builder
 
-Le estensioni dell’interfaccia utente di Workfront, basate su Adobe App Builder, consentono a clienti e partner di creare esperienze utente personalizzate. Questi strumenti migliorano l’efficienza, forniscono esperienze integrate e connesse, migliorano in modo significativo la soddisfazione degli utenti e aiutano le aziende a realizzare la loro visione unica.
+Le estensioni dell’interfaccia utente di Workfront, basate su Adobe App Builder, consentono alla clientela e ai partner di creare esperienze utente personalizzate. Questi strumenti migliorano l’efficienza, forniscono esperienze integrate e connesse, migliorano in modo significativo la soddisfazione degli utenti e aiutano le aziende a realizzare la loro visione unica.
 
 Ad esempio, senza le estensioni dell’interfaccia utente di Workfront, un project manager potrebbe dover passare da Workfront a un sistema di tracciamento del tempo separato per registrare le ore. Con le estensioni dell’interfaccia utente, il tracciamento del tempo può essere integrato direttamente nell’esperienza Workfront, semplificando il flusso di lavoro e risparmiando tempo. Inoltre, puoi aggiungere componenti personalizzati per migliorare l’usabilità, automatizzare attività ripetitive e migliorare la gestione dei contenuti con funzioni quali l’assegnazione di tag dei metadati e le anteprime dei contenuti. Adobe App Builder offre anche scalabilità e gestione affidabile delle identità (IMS), garantendo una personalizzazione sicura ed efficiente su qualsiasi scala.
 
@@ -42,7 +48,7 @@ Devi avere i seguenti:
 
 ## Accedere ad Adobe App Builder
 
-Per creare le estensioni dell’interfaccia utente, devi avere accesso ad Adobe App Builder in Adobe Developer Console.
+Per creare le estensioni interfaccia utente, devi disporre dell’accesso a Adobe App Builder in Adobe Developer Console.
 
 Ulteriori istruzioni sono disponibili nel [sito Adobe Developer](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -181,7 +187,7 @@ Per consentire applicazioni personalizzate nel menu principale di Workfront:
 
 1. Aggiungi il seguente frammento di codice:
 
-   ![frammento di codice &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![frammento di codice ](assets/7-extension-registration-step1-from-sam.png)
 
    Questo esempio mostra una voce del menu principale. È necessario aggiornare ID, etichetta, icona e URL ai nomi corretti per l&#39;applicazione. Quando aggiungi più elementi, accertati che l’ID sia univoco.
 

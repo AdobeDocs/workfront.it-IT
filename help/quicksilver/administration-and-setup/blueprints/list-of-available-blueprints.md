@@ -8,11 +8,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/s0pYi7Ri2GeRmhJv7joFqKnSM5hjzKEIuWL4gtdHQ9M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: 2153
 ht-degree: 0%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 0%
 
 I seguenti [!DNL Adobe Workfront] blueprint sono disponibili per l&#39;installazione per gli amministratori di sistema. Per ulteriori informazioni sui blueprint, consulta [Panoramica sui blueprint](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-**[!UICONTROL Report di analisi utenti attivi]**
+**[!UICONTROL Report analisi utenti attivi]**
 Questo blueprint contiene un dashboard che consente agli amministratori di convalidare la configurazione dell’utente, identificare i disallineamenti e garantire che le configurazioni supportino l’utilizzo previsto dell’applicazione&#x200B;
 
 **[!UICONTROL Aggiungi nuovo elenco di controllo IT dipendente]**
@@ -33,34 +38,34 @@ Questo blueprint contiene un modello che l&#39;organizzazione dei servizi profes
 Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team finanziari per organizzare le attività relative alla pianificazione del budget annuale. Il modello consente di impostare le aspettative con i responsabili delle unità aziendali e li guida attraverso il processo per richiedere e riservare i budget durante il processo di pianificazione annuale.
 
 **[!UICONTROL Dashboard linea di base]**
-Questo blueprint contiene una dashboard che consente di prendere decisioni di progetto più intelligenti e veloci. Le linee di base consentono di confrontare ciò che è stato pianificato e ciò che è accaduto, consentendo di individuare rapidamente le attività problematiche, le fasi di valutazione e le tendenze del progetto. Il dashboard Previsione include i seguenti rapporti: Previsione | Progetti in corso, Previsione | Progetti completati, Previsione | Attività in corso e Previsione | Attività completate.
+Questo blueprint contiene una dashboard che consente di prendere decisioni di progetto più intelligenti e veloci. Le linee di base consentono di confrontare ciò che è stato pianificato e ciò che è accaduto, consentendo di individuare rapidamente le attività problematiche, le fasi di valutazione e le tendenze del progetto. Il dashboard della linea di base include i seguenti rapporti: Linea di base | Progetti in corso, linea di base | Progetti completati, linea di base | Attività in corso e linea di base | Attività completate.
 
-**[!UICONTROL Piano di consegna dei servizi contrattuali]**
+**[!UICONTROL Piano di consegna servizi a contratto]**
 Questo blueprint contiene un modello che organizza il lavoro relativo alla fornitura di servizi rivolti al cliente. Esso è inteso a creare un approccio uniforme per la fornitura di servizi oggetto di contratto.
 
 **[!UICONTROL Piano eventi aziendali]**
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team delle risorse umane per supportare le attività di fidelizzazione dei dipendenti, in particolare eventi aziendali e feste.
 
-**[!UICONTROL Disattiva elenco di controllo IT dipendenti terminato]**
+**[!UICONTROL Disattiva elenco di controllo IT dipendenti terminati]**
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT aziendali per gestire le varie attività che devono avere luogo quando un dipendente termina il proprio rapporto di lavoro. È fondamentale disattivare l&#39;accesso ai dipendenti e apportare modifiche ad altri sistemi per ridurre l&#39;esposizione al rischio e garantire che altri membri del gruppo possano rimanere produttivi in assenza del dipendente in partenza.
 
 **[!UICONTROL Produzione di risorse digitali] (integrata)**
 Il blueprint [!UICONTROL Digital Asset Production] per i processi integrati contiene un modello che organizza il lavoro per un processo di produzione digitale standard. Il modello fornisce un processo snello per la creazione di risorse digitali originali per un team che si basa su procedure operative standard per definire le modalità di esecuzione del lavoro e utilizza il progetto solo per assegnare priorità al lavoro e tenere traccia dell’avanzamento.
 
-**[!UICONTROL Produzione risorse digitali] (gestito)**
+**[!UICONTROL Produzione di risorse digitali] (gestito)**
 Il pacchetto [!UICONTROL Digital Asset Production] contiene un modello che organizza il lavoro per un processo di produzione digitale standard. È concepito come punto di ingresso per la gestione della creazione di risorse digitali in Workfront. Utilizza questo pacchetto per creare una base per la creazione di contenuti digitali e personalizzarlo per soddisfare le esigenze di altri processi creativi per i materiali digitali.
 
 **[!UICONTROL Revisione risorse digitali] (integrata)**
 Il blueprint [!UICONTROL Digital Asset Revision] per un processo integrato contiene un singolo modello per organizzare il processo di lavoro associato alla revisione di una risorsa esistente. Il modello fornisce un processo snello per un team che si basa sulle procedure operative standard per definire le modalità di esecuzione del lavoro e utilizza il progetto solo per assegnare priorità al lavoro e tenere traccia dell&#39;avanzamento.
 
-**[!UICONTROL Revisione risorse digitali] (gestita)**
+**[!UICONTROL Revisione risorse digitali] (gestito)**
 Il pacchetto [!UICONTROL Digital Asset Revision] contiene un singolo modello per organizzare il lavoro associato a una revisione di una risorsa esistente. Il modello semplifica il processo di revisione di una risorsa, offrendo al tempo stesso un’esperienza coerente rispetto a un nuovo progetto di produzione di risorse.
 
 **[!UICONTROL Modifica elenco di controllo IT dipendente in trasferimento]**
-Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT aziendali per gestire le varie attività che devono avere luogo quando un dipendente si trasferisce a un nuovo ruolo. Questo modello riduce i rischi di sicurezza che esistono quando un trasferimento di dipendenti viene completato senza supervisione IT. Inoltre, elimina le ore sprecate di tempo improduttivo quando l&#39;accesso ai sistemi non viene concesso per adempiere ai compiti del nuovo ruolo del dipendente.
+Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT aziendali per gestire le varie attività che devono avere luogo quando un dipendente si trasferisce a un nuovo ruolo. Questo modello riduce i rischi di sicurezza che esistono quando un trasferimento di dipendenti viene completato senza supervisione IT. Inoltre, elimina le ore sprecate di tempo improduttivo quando l&#39;accesso ai sistemi non viene concesso per adempiere ai compiti del nuovo ruolo del dipendente.
 
 **[!UICONTROL Chiusura operativa di fine mese]**
-Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team finanziari per organizzare la chiusura dei libri alla fine del mese. Il modello fornisce un elenco di controllo delle attività comuni che devono essere completate ogni mese per generare report accurati e promuovere lo stato dell’azienda.
+Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team finanziari per organizzare la chiusura dei libri alla fine del mese. Il modello fornisce un elenco di controllo delle attività comuni che devono essere completate ogni mese per generare report accurati e promuovere lo stato dell’azienda.
 
 **[!UICONTROL Configurazione organizzazione finanziaria]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un reparto finanziario.
@@ -74,7 +79,7 @@ Questo blueprint contiene la configurazione delle strutture organizzative da esp
 **[!UICONTROL Configurazione organizzazione IT]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso di utilizzo di Information Technology.
 
-**[!UICONTROL Nozioni di base ereditate dell&#39;istanza | Elenco di controllo]**
+**[!UICONTROL Nozioni di base sull&#39;istanza ereditata | Lista di controllo]**
 Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 
 **[!UICONTROL Esecuzione campagna integrata]**
@@ -86,16 +91,16 @@ Questo blueprint contiene la configurazione delle strutture organizzative da esp
 **[!UICONTROL Nuovo piano di onboarding dipendenti]**
 Questo blueprint contiene un modello che l&#39;organizzazione [!DNL Workfront professional services] ha utilizzato per anni durante gli impegni di implementazione con i team delle Risorse umane per aiutare i nuovi dipendenti a tenere traccia delle loro attività di onboarding.
 
-**[!UICONTROL Preparazione per nuove assunzioni]**
+**[!UICONTROL Preparazione nuove assunzioni]**
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team delle risorse umane per richiedere agli specialisti delle risorse umane e ai responsabili delle assunzioni di completare le attività essenziali per il primo giorno di un dipendente.
 
-**Offboarding | Dashboard utente in partenza**
+**Offboarding | Dashboard utente di partenza**
 Questo blueprint contiene un singolo dashboard con 13 rapporti per trovare, riassegnare o gestire in altro modo gli oggetti e le assegnazioni associati a un utente che esce da Workfront. Puoi inoltre utilizzare questi rapporti per consentire a un utente che si sposta in un nuovo ruolo o gruppo di riassegnare il proprio lavoro.
 
 **Abilitazione partner: pacchetto GenStudio Foundation**
 Il pacchetto Partner Enablement: GenStudio Foundation è progettato per facilitare la promozione diretta dell&#39;ambiente di base GenStudio. Include tutti i componenti necessari per eseguire il bootcamp in modo efficace.
 
-**Dashboard di People Manager**
+Dashboard di **People Manager**
 Questo blueprint contiene un singolo dashboard con 12 rapporti per dare visibilità ai responsabili delle persone nel lavoro dei loro referenti diretti.
 
 **[!UICONTROL Post-implementazione: rollout nuovo caso d&#39;uso]**
@@ -110,10 +115,10 @@ Il pacchetto [!UICONTROL Produzione risorse di stampa] contiene un modello che o
 **[!UICONTROL Stampa: produzione risorse direct mailing]**
 Il blueprint [!UICONTROL Stampa: produzione risorse direct mailing] organizza il lavoro per un processo di produzione materiale promozionale per la stampa. Questo blueprint è inteso come punto di ingresso per la gestione del materiale collaterale per la stampa, in particolare della direct mailing, in Workfront.
 
-**[!UICONTROL Stampa: Creazione di contenuti Direct Mail ed esecuzione di campagne]**
+**[!UICONTROL Stampa: creazione ed esecuzione di contenuti direct mailing]**
 Il blueprint [!UICONTROL Stampa: creazione ed esecuzione di contenuti direct mailing] organizza il lavoro per un processo di produzione di materiale promozionale per la stampa. Questo blueprint è inteso come punto di ingresso per la gestione del materiale collaterale per la stampa, in particolare della direct mailing, in Workfront. Questo modello è univoco perché contiene anche attività per stampare la risorsa ed eseguire la campagna di direct mailing indipendentemente da altre attività della campagna.
 
-**[!UICONTROL Configurazione organizzazione servizi professionali]**
+**[!UICONTROL Configurazione organizzazione Servizi professionali]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso d’uso di Servizi professionali.
 
 **[!UICONTROL Tracciamento processo di selezione]**
@@ -122,25 +127,25 @@ Questo blueprint definisce una checklist per le risorse di selezione interne da 
 **Preparazione gestione risorse**
 Utilizza questo blueprint per assicurarti di disporre delle impostazioni e delle informazioni corrette necessarie per generare dati accurati di Gestione risorse.
 
-**[!UICONTROL Autovalutazione controllo rischi: pianificazione della riduzione dei rischi principali]**
-[!UICONTROL RSCA (Risk Control Self Assessment, Autovalutazione per il controllo dei rischi]) definisce un processo per identificare i rischi e misurare i controlli esistenti per mitigarli. Questo modello formalizza il processo di valutazione dei nuovi rischi, per garantire l&#39;implementazione di controlli appropriati e per assicurarsi di sapere come misurare e documentare l&#39;efficacia del controllo.
+**[!UICONTROL Autovalutazione del controllo dei rischi: pianificazione chiave della riduzione dei rischi]**
+[!UICONTROL RSCA (Risk Control Self Assessment, autovalutazione del controllo dei rischi]) definisce un processo per identificare i rischi e misurare i controlli esistenti per mitigarli. Questo modello formalizza il processo di valutazione dei nuovi rischi, per garantire l&#39;implementazione di controlli appropriati e per assicurarsi di sapere come misurare e documentare l&#39;efficacia del controllo.
 
 **[!UICONTROL Autovalutazione controllo rischi: attestazione trimestrale]**
-[!UICONTROL RSCA (Risk Control Self Assessment, Autovalutazione per il controllo dei rischi]) definisce un processo per identificare i rischi e misurare i controlli predisposti dalla propria organizzazione per mitigarli. Questo modello fornisce una struttura per aiutarti a creare un registro iniziale dei rischi, a stabilire un piano per mitigare ogni rischio e a fornire la documentazione che mostra il funzionamento dei controlli.
+[!UICONTROL RSCA (Risk Control Self Assessment, Autovalutazione per il controllo dei rischi]) definisce un processo per identificare i rischi e misurare i controlli che l&#39;organizzazione ha implementato per mitigarli. Questo modello fornisce una struttura per aiutarti a creare un registro iniziale dei rischi, a stabilire un piano per mitigare ogni rischio e a fornire la documentazione che mostra il funzionamento dei controlli.
 
 **[!UICONTROL Produzione risorse social] (integrata)**
 Il pacchetto [!UICONTROL Produzione risorse social] contiene un modello che organizza il lavoro per creare un artefatto social. Il modello fornisce un processo snello per la creazione di risorse social originali per un team che si basa sulle procedure operative standard per definire come eseguire il lavoro e utilizza il progetto solo per assegnare priorità al lavoro e tenere traccia dell’avanzamento.
 
-**[!UICONTROL Produzione risorse social] (gestita)**
+**[!UICONTROL Produzione risorse social] (gestito)**
 Il pacchetto [!UICONTROL Produzione risorse social] contiene un modello che organizza il lavoro per creare un artefatto social. È concepito come punto di ingresso per la gestione della creazione di risorse social in Workfront. Usa questo pacchetto per creare una base per tutti i processi di creazione di contenuti social personalizzandoli per soddisfare le esigenze di altri processi creativi per contenuti social.
 
 **[!UICONTROL Implementazioni software/Sviluppo app]**
-Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT per organizzare il lavoro durante l&#39;installazione di soluzioni di terze parti o per creare utility e applicazioni interne.
+Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT per organizzare il lavoro durante l&#39;installazione di soluzioni di terze parti o per creare utilità e applicazioni interne.
 
-**[!UICONTROL Dashboard di manutenzione amministratore di sistema]**
+**[!UICONTROL Dashboard manutenzione amministratore di sistema]**
 Questo blueprint contiene un singolo dashboard per aiutare gli amministratori di sistema a mantenere e pulire periodicamente il sistema da vari disagi che potrebbero accumularsi nel tempo.
 
-**Realizzazione valore | Dashboard valore core**
+**Realizzazione valore | Dashboard dei valori core**
 
 Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a misurare il valore di Workfront. Questi rapporti aiutano a tradurre i vantaggi della centralizzazione del lavoro e della gestione dei processi di lavoro in valori misurabili che puoi monitorare nel tempo per ottenere risultati migliori.
 
@@ -148,7 +153,7 @@ Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a mi
 
 Questo blueprint contiene un’unica dashboard con 8 rapporti per aiutarti a sfruttare i vantaggi di Workfront. Questi rapporti sono progettati per aiutarti a tradurre i servizi rivolti ai clienti in un valore misurabile che puoi monitorare nel tempo per ottenere risultati migliori.
 
-**Realizzazione valore | Gestisci flussi di lavoro conformità dashboard**
+**Realizzazione valore | Gestisci dashboard flussi di lavoro di conformità**
 
 Questo blueprint contiene un singolo dashboard con 7 rapporti per aiutarti a realizzare il valore di Workfront. Per l’uso quotidiano o in settori altamente regolamentati, questi rapporti, che consentono di risparmiare tempo, favoriscono la responsabilità e migliorano i risultati nel tempo, aiutando a tenere traccia e gestire i flussi di lavoro e le esigenze di conformità.
 

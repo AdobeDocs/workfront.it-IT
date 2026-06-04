@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/IgFtq0CPnrWvKEs8lLv-dhOHvWo4hJnDABDwkYTnpUk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 0%
+source-wordcount: 1245
+ht-degree: 2%
 
 ---
 
@@ -21,7 +26,7 @@ In qualità di amministratore di Adobe Workfront o di Workfront Proof, puoi pers
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Devi avere i seguenti:
 
@@ -48,7 +53,7 @@ Devi avere i seguenti:
 
 +++
 
-## Configurare le azioni
+## Configurare azioni
 
 Per informazioni sull&#39;utilizzo delle azioni nel visualizzatore di bozze, vedere [Utilizzare azioni sui commenti della bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
@@ -135,7 +140,7 @@ Per aggiungere un dispositivo personalizzato:
       <td>Immettere l'agente utente per il dispositivo per fornire informazioni che consentano l'esecuzione e la visualizzazione del software come previsto per il dispositivo.<p>È possibile ottenere l'agente utente da <a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a> dal dispositivo.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Disabilitato</td> 
+      <td role="rowheader">Disabilitata</td> 
       <td>Se questa opzione è selezionata, il dispositivo non è disponibile per la selezione da parte degli utenti durante la revisione delle bozze interattive.</td> 
      </tr> 
     </tbody> 
@@ -171,7 +176,7 @@ Puoi specificare con chi possono essere condivise le bozze della tua organizzazi
 
 Per informazioni più dettagliate sulle impostazioni di condivisione in Workfront Proof, vedere [Configurare le impostazioni di condivisione per gli utenti](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 
-## Assegna il marchio al sito Workfront Proof
+## Branding del sito Workfront Proof
 
 Se utilizzi Workfront Proof, puoi impostare il branding per le seguenti aree del sito:
 

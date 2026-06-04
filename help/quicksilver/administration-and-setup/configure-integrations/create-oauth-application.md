@@ -8,18 +8,23 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: 1959
+ht-degree: 6%
 
 ---
 
 # Crea applicazioni OAuth2 per [!DNL Workfront] integrazioni
 
-In qualità di amministratore [!DNL Adobe Workfront], puoi creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, puoi integrare   con applicazioni di tua scelta, incluse quelle interne.
+In qualità di amministratore [!DNL Adobe Workfront], puoi creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile eseguire l&#39;integrazione con le applicazioni di propria scelta, incluse quelle interne.
 
 Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID client e un segreto client. Gli utenti possono quindi utilizzare l’ID client nelle chiamate API per l’integrazione con l’applicazione creata.
 
@@ -217,10 +222,10 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Aggiorna rotazione token]</td> 
-      <td>Abilita questa opzione affinché, ogni volta che viene utilizzato il token di aggiornamento, ne venga emesso uno nuovo. L’applicazione deve archiviare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
+      <td>Abilita questa opzione per emettere un nuovo token di aggiornamento ogni volta che viene utilizzato il token di aggiornamento. L’applicazione deve memorizzare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Scadenza token di aggiornamento assoluto di </td> 
+      <td role="rowheader">Scadenza token di aggiornamento assoluto di [!UICONTROL]</td> 
       <td> <p>Seleziona il periodo di tempo per il quale desideri che esista un token di aggiornamento prima della scadenza. Quando scade, gli utenti devono accedere di nuovo all’integrazione. Seleziona "[!UICONTROL Nessuna scadenza]" se non desideri che il token di aggiornamento scada.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -277,7 +282,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Ruota token di aggiornamento ogni volta che viene utilizzato]</td> 
-      <td>Abilita questa opzione affinché, ogni volta che viene utilizzato il token di aggiornamento, ne venga emesso uno nuovo. L’applicazione deve archiviare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
+      <td>Abilita questa opzione per emettere un nuovo token di aggiornamento ogni volta che viene utilizzato il token di aggiornamento. L’applicazione deve memorizzare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL scadenza assoluta]</td> 
@@ -342,10 +347,10 @@ L’ulteriore configurazione e utilizzo dell’applicazione OAuth2 creata richie
 
 ### Autorizzazione con codice di autorizzazione e token di accesso {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp richiede alcune informazioni da [!DNL Workfront], pertanto invia una richiesta all&#39;endpoint [!DNL Workfront] dell&#39;API `/authorize`. La richiesta include [!UICONTROL response_type] `code`, che indica che la richiesta deve restituire un codice di autorizzazione.
+1. ClientApp richiede alcune informazioni da [!DNL Workfront], pertanto invia una richiesta all&#39;endpoint `/authorize` dell&#39;API [!DNL Workfront]. La richiesta include [!UICONTROL response_type] `code`, che indica che la richiesta deve restituire un codice di autorizzazione.
 1. In questo modo [!DNL Workfront] viene attivato per inviare una richiesta di autenticazione all&#39;utente. L&#39;utente può immettere le proprie credenziali nel prompt, che concede a [!DNL Workfront] l&#39;autorizzazione per comunicare con ClientApp. Se l&#39;utente ha già effettuato l&#39;accesso a [!DNL Workfront], questo passaggio potrebbe essere ignorato.
 1. L&#39;API [!DNL Workfront] invia un codice di autorizzazione a ClientApp.
-1. ClientApp invia le seguenti informazioni in una richiesta all&#39;API [!DNL Workfront] di `/token`   endpoint:
+1. ClientApp invia le seguenti informazioni in una richiesta all&#39;endpoint `/token` dell&#39;API [!DNL Workfront]:
 
    * Il codice di autorizzazione inviato a ClientApp nel passaggio 3. Questo identifica l’istanza specifica dell’autorizzazione utente.
    * Segreto client generato durante la configurazione dell&#39;app ClientApp OAuth2 in [!DNL Workfront]. Ciò consente a [!DNL Workfront] di sapere che la richiesta proviene da ClientApp.

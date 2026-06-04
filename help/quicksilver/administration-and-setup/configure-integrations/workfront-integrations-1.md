@@ -9,12 +9,18 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+TQID: https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 100%
+source-wordcount: 1304
+ht-degree: 98%
 
 ---
 
@@ -90,7 +96,7 @@ Sappiamo che le integrazioni incorporate (native) disponibili potrebbero non sod
    <td role="rowheader"> <p>Adobe Express</p> </td> 
    <td> 
     <ul> 
-     <li>Integra l’esperienza di bozza con Adobe Express. Con questa nuova integrazione puoi: 
+     <li>Integra l’esperienza di verifica con Adobe Express. Con questa integrazione, puoi 
      <ul>
      <li>Utilizza i modelli di approvazione di Workfront per definirne i relativi flussi di lavoro. </li>
      <li>Rivedi il contenuto della bozza di Adobe Express nel visualizzatore di bozze. </li>
@@ -105,7 +111,7 @@ Sappiamo che le integrazioni incorporate (native) disponibili potrebbero non sod
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integra l’esperienza di bozza con Genstudio per il marketing delle prestazioni. Con questa nuova integrazione puoi: 
+     <li>Integra l’esperienza di verifica con Genstudio per il marketing delle prestazioni. Con questa integrazione, puoi 
      <ul>
      <li>Utilizza i modelli di approvazione di Workfront per definirne i relativi flussi di lavoro. </li>
      <li>Rivedere il contenuto della bozza di GenStudio nel visualizzatore di bozze. </li>

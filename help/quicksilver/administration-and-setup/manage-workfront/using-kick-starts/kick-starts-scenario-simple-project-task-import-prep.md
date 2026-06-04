@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;projects
-keywords: kick-start, kick-start, kick-start, kick-start
+keywords: kickstart, kick-start, kickstart, kick-start
 navigation-topic: use-kick-starts
 title: 'Scenario di avvio: preparazione semplice per l''importazione di progetti e attività'
 description: Descrive in dettaglio le impostazioni e i controlli disponibili per un'importazione di base di progetti e attività utilizzando il metodo Kick Start.
@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 9%
+source-wordcount: 1402
+ht-degree: 10%
 
 ---
 
@@ -284,7 +289,7 @@ A meno che tu non abbia già creato dei progetti in Workfront, questo campo deve
 
 Impostare i valori per i seguenti campi del progetto:
 
-* **Imposta isNew column**
+* **Imposta è nuova colonna**
 Immettere TRUE nelle righe da 3 a 6 per la colonna isNew.
 * **Imposta ID univoci**
 Immettere un ID univoco in ogni riga per la colonna ID. In genere, i numeri interi a partire da 1 funzionano correttamente durante la creazione di nuovi record.
@@ -300,7 +305,7 @@ Immettere i nomi di ciascun progetto nella colonna setName.
 
 * **Imposta numeri attività**
 Immettere i valori nella colonna setTaskNumber per controllare l&#39;ordine di visualizzazione delle attività nel piano di progetto.
-* **Fornire le date del progetto.**
+* **Fornisci le date del progetto.**
 Immettere la Data inizio pianificata per ogni progetto nella colonna setPlannedStartDate.
 * **Impostare altri dettagli necessari.**
 Compila altri dettagli, ad esempio una descrizione o lo stato corrente, secondo necessità. Cercare gli ID gruppo per ciascun progetto nel foglio Gruppo di gruppi e inserirli nella colonna setGroupID per i rispettivi progetti. Cercare l&#39;ID società per i progetti nel foglio Società della società e inserirlo nella colonna setCompanyID. Cercare l&#39;ID utente per ogni proprietario del progetto nel foglio Utente e inserirlo nella colonna setOwnerID. Cercare l&#39;ID utente di ogni sponsor del progetto nel foglio Utente e inserirlo nella colonna setSponsorID.
@@ -333,22 +338,22 @@ Impostare i valori per i campi delle attività seguenti:
 Inserisci un ID univoco in ogni riga per la colonna ID.
 * **Imposta nomi**
 Immettere i nomi delle attività nella colonna setName.
-* **Conferma ID progetto**
+* **Conferma ID Progetto**
 Immettere l&#39;ID impostato per l&#39;implementazione del progetto Workfront; esaminare il foglio Progetto PROJ per assicurarsi che sia l&#39;ID corretto.
 * **Imposta utenti**
 Andare al foglio Utente per cercare l&#39;ID dell&#39;utente assegnato a ogni attività e immettere questi valori nelle rispettive celle della colonna setAssignedToID.
-* **Identificare le relazioni tra le attività**
+* **Identificare le relazioni tra attività**
 Per le attività da 2 a 5, immettere 1 nella colonna setParentID. Per l&#39;operazione 9, immettere 8 nella colonna setParentID. Nella colonna setPredecessorString immettere il numero di attività per ogni attività predecessore. Se un&#39;attività ha più predecessori, come l&#39;attività 8 in questo scenario, è necessario utilizzare una virgola per separare l&#39;ID di ogni attività predecessore. I Predecessori possono essere definiti con ritardi nelle relazioni non-Fine-Inizio utilizzando la scorciatoia descritta nell’articolo Creazione di relazioni dei Predecessori.
 * **Imposta durata**
 Impostare la durata di ogni attività immettendo il numero di ore, giorni, settimane o mesi per l&#39;attività nel campo setDuration. Immettere quindi l&#39;unità di durata nel campo setDurationUnit.
 
   |   | Valore accettabile |
   |---|---|
-  | Minuti | M |
+  | Minutes | M |
   | Ore | H |
-  | Giorni | Dsbld |
-  | Settimane | M |
-  | Mesi | G |
+  | Days | Dsbld |
+  | Weeks | M |
+  | Months | T |
 
   I minuti possono anche essere rappresentati come frazione di un&#39;ora (p. es., minuti = 5 ore)
 

@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: kick-start, kick-start, kick-start, kick-start
+keywords: kickstart, kick-start, kickstart, kick-start
 navigation-topic: use-kick-starts
 title: Esportare dati da Workfront tramite Kick-Start
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare la funzione di esportazione dati di Kick-Start per esportare dati da Workfront.
@@ -9,10 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/n-fUDmSaLJtcjRr-VGoHW1w5c1Yd60iD-1Eb-Nle7-A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: 980
+ht-degree: 15%
 
 ---
 
@@ -30,7 +36,7 @@ L&#39;esportazione dei dati tramite Kick-Start è utile anche per comprendere qu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,13 +47,13 @@ L&#39;esportazione dei dati tramite Kick-Start è utile anche per comprendere qu
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +127,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>Dashboard di</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Gruppo Parametri<br>Parametro Categoria<br>Categoria<br>Report<br>Sezione Scheda Portale<br>Dashboard<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
@@ -233,7 +239,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hour</td> 
+      <td valign="top">Ora</td> 
       <td valign="top"> Hour<br>Preferenze </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -243,7 +249,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Ruolo</td> 
+      <td valign="top">Mansione</td> 
       <td valign="top"> Ruolo<br>Preferenze </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -283,7 +289,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Tipo Rischio</td> 
+      <td valign="top">Tipo di rischio</td> 
       <td valign="top"> Tipo di rischio<br>Preferenze  </td> 
       <td valign="top">Excel </td> 
      </tr> 
@@ -333,7 +339,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
 
    Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Start non supporta i filtri o i raggruppamenti in modalità testo. Per un’esportazione corretta, i filtri e i raggruppamenti per reporting devono essere commutati in modalità Standard.
+   Kick-Start non supporta filtri o raggruppamenti in modalità testo. Per un’esportazione corretta, i raggruppamenti e i filtri per il reporting devono essere cambiati in modalità standard.
 
    Puoi selezionare fino a 100 dashboard e 100 rapporti in una singola esportazione.
 

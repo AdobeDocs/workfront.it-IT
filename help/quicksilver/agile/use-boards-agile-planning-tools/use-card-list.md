@@ -7,11 +7,16 @@ description: È possibile creare un elenco di schede in un flusso di lavoro e ag
 author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 618
 ht-degree: 8%
 
 ---
@@ -72,7 +77,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Una descrizione del Card.</td> 
      </tr>
      <tr> 
-      <td><strong>Stima </strong></td> 
+      <td><strong>Stima [!UICONTROL]</strong></td> 
       <td>Numero stimato di ore per il completamento della carta. Questa è solo una immissione manuale.</td> 
      </tr>
      <tr> 

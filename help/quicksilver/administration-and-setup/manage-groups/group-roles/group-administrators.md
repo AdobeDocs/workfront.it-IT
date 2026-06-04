@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 1%
+source-wordcount: 1037
+ht-degree: 5%
 
 ---
 
@@ -48,7 +54,7 @@ Se sei un amministratore di Workfront, ti consigliamo di effettuare le seguenti 
 * Per una migliore gestione degli utenti, è consigliabile assegnare gruppi o sottogruppi anziché utenti ai seguenti oggetti:
 
    * Modelli di layout
-   * Schedule
+   * Pianificazioni
    * Profili schede orario
 
 ## Accesso necessario per gli amministratori di gruppi {#access-needed-for-group-administrators}
@@ -66,7 +72,7 @@ Ogni amministratore di gruppo deve disporre di
 >[!IMPORTANT]
 >
 >Gli amministratori dei gruppi devono disporre di un accesso più elevato rispetto a quelli che gestiscono; in caso contrario, non potranno visualizzare o modificare livelli di accesso inferiori.
->&#x200B;>Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Per istruzioni sulla concessione di questo accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Per un amministratore di gruppo che deve assegnare profili della scheda orario agli utenti nei loro gruppi e sottogruppi, consigliamo anche l’accesso Amministrativo alle schede orario e alle ore. Per istruzioni sulla concessione di questo accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -79,11 +85,11 @@ In qualità di amministratore di gruppo, puoi eseguire le attività descritte di
 >Nel nuovo modello di determinazione prezzi e imballaggio è necessario disporre di un piano Prime o superiore per eseguire le operazioni seguenti:
 >
 > * Creare notifiche di eventi di gruppo
-> * Configurare le preferenze di progetto del gruppo
-> * Configurare le preferenze per attività e problemi del gruppo
-> * Sblocca configurazione preferenze sottogruppo
-> * Raggruppa le preferenze di orario e scheda orario
-> * Sblocca le preferenze di ora e scheda orario
+> * Configurare le preferenze di progetto dei gruppi
+> * Configurare le preferenze di attività e problemi dei gruppi
+> * Sbloccare la configurazione delle preferenze del sottogruppo
+> * Preferenze orarie e scheda orario del gruppo
+> * Sbloccare la preferenza oraria e della scheda orario
 
 ### Gestisci membri del gruppo {#manage-group-members}
 
@@ -102,9 +108,9 @@ In qualità di amministratore di gruppo, puoi eseguire le attività descritte di
 * Accedi come utenti membri dei gruppi che gestisci. Per ulteriori informazioni, vedere [Accedere come altro utente](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * Visualizzare il numero di licenze disponibili per il gruppo e i sottogruppi sottostanti. Per ulteriori informazioni, consulta [Gestire le licenze disponibili nel sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-### Gestisci oggetti gruppo {#manage-group-objects}
+### Gestire gli oggetti dei gruppi {#manage-group-objects}
 
-* Creare modelli di layout a livello di gruppo e associarli ai gruppi e ai sottogruppi gestiti. Per ulteriori informazioni, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* Creare modelli di layout a livello di gruppo e associarli ai gruppi e ai sottogruppi gestiti. Per ulteriori informazioni, consulta [Creare e gestire modelli layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 * Crea profili di schede orario a livello di gruppo, associali a utenti e gruppi gestiti e genera manualmente le schede orario. Per ulteriori informazioni, vedere [Creare, modificare e assegnare profili scheda orario](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 * Senza l&#39;accesso amministrativo ai processi di approvazione, creare e modificare i processi di approvazione per i gruppi e i sottogruppi gestiti. Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

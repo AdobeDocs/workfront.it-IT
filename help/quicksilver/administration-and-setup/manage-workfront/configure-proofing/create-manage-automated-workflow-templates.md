@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+TQID: https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 0%
+source-wordcount: 2083
+ht-degree: 3%
 
 ---
 
@@ -35,21 +40,21 @@ Per informazioni sui flussi di lavoro automatizzati, vedere [Panoramica sui flus
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Nuovo: Qualsiasi</p><p>Corrente: Pro o superiore</p><p>Legacy: Premium o Select</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
+   <td> <p>Nuovo: qualsiasi</p><p>Corrente: Pro o superiore</p><p>Legacy: Premium o Select</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p><p>Corrente: Lavoro o Piano</p> <p>Legacy: qualsiasi (gli strumenti di correzione devono essere abilitati per l’utente)</p> </td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Nuovo: standard</p><p>Corrente: Lavoro o Piano</p> <p>Legacy: qualsiasi (gli strumenti di correzione devono essere abilitati per l’utente)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -58,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,7 +139,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td> <p>I responsabili delle decisioni disponibili vengono visualizzati nell’elenco solo dopo l’aggiunta dei revisori all’area di visualizzazione.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Occorre solo una decisione</td> 
+      <td role="rowheader">È richiesta una sola decisione</td> 
       <td>Il processo di riesame per la fase sarà completato non appena uno dei responsabili decisionali presenterà la propria decisione. Per ulteriori informazioni, vedere <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurare le impostazioni di bozza in Workfront Proof</a>.</td> 
      </tr> 
      <tr> 

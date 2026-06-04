@@ -7,11 +7,16 @@ description: Questi video presentano i diversi tipi di bacheche disponibili in A
 author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/clr87KsvGHiQn9DImcaTaadis86OQpy3G4zfvuSYO88
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 345
 ht-degree: 2%
 
 ---
@@ -28,13 +33,13 @@ Questi video presentano i diversi tipi di bacheche disponibili in Adobe Workfron
 
 Una bacheca semplice o di base consente di iniziare rapidamente a utilizzare le bacheche per tenere traccia del lavoro. Le colonne predefinite sono incluse nel modello ed è possibile aggiungere schede e assegnare lavoro.
 
-[Visualizza una dimostrazione video di una bacheca di base.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[Visualizza una dimostrazione video di una scheda base.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Bacheca Kanban
 
 Una bacheca kanban può contenere un backlog, o colonna di acquisizione, configurato con filtri per inserire attività e problemi da Workfront nella bacheca.
 
-[Visualizza una dimostrazione video di una bacheca kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[Visualizza una dimostrazione video di un Kanban Board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
 ### Bacheca dinamica
 
@@ -46,7 +51,7 @@ Una bacheca dinamica consente di popolare automaticamente una bacheca con schede
 
 Le bacheche sono disponibili nell’app mobile di Adobe Workfront. Quando aggiorni le schede nell’app mobile, questi aggiornamenti vengono sincronizzati in Workfront.
 
-[Visualizza una dimostrazione video di una bacheca per dispositivi mobili.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Guarda una dimostrazione video di una bacheca per dispositivi mobili.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Esempi di utilizzo delle schede
 
@@ -54,16 +59,16 @@ Le bacheche sono disponibili nell’app mobile di Adobe Workfront. Quando aggior
 
 È possibile utilizzare la colonna Assunzione per visualizzare le attività assegnate in un&#39;unica posizione. Quando in Workfront vengono assegnate nuove attività, queste vengono aggiunte automaticamente alla colonna Acquisizione.
 
-[Visualizza una dimostrazione video di una bacheca &quot;Le mie attività&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Guarda una dimostrazione video di una bacheca &quot;Le mie attività&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
 ### Bacheca Planning
 
 Le bacheche possono aiutarti a pianificare il tuo lavoro per te stesso o per il tuo team in un periodo di tempo.
 
-[Visualizza una dimostrazione video di una bacheca di pianificazione.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[Visualizzare una dimostrazione video di una bacheca di pianificazione.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
 ### Gestione del lavoro ibrido
 
 Alcuni team preferiscono lavorare su una bacheca, altri preferiscono le viste dei progetti Workfront. Poiché le schede collegate su una bacheca sono sincronizzate con le attività e i problemi di Workfront, puoi sempre visualizzare i dettagli più recenti, indipendentemente dalla visualizzazione utilizzata.
 
-[Visualizza una dimostrazione video di gestione del lavoro ibrido.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[Guarda una dimostrazione video di gestione del lavoro ibrido.](https://video.tv.adobe.com/v/3416381/){target=_blank}

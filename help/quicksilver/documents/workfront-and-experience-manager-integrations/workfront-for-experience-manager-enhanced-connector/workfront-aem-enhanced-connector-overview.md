@@ -7,10 +7,16 @@ description: Adobe Workfront è un’applicazione per la gestione dell’intero 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 0%
+source-wordcount: 563
+ht-degree: 5%
 
 ---
 
@@ -41,18 +47,18 @@ Il connettore avanzato di Workfront per Experience Manager ora consente di:
 ## Prerequisiti e piattaforme supportate
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/it/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets on-premise](https://helpx.adobe.com/it/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/it/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [Adobe Experience Manager 6.5 Assets on-premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets on-premise
 * Adobe Experience Manager Assets as a Managed Service
 
 ## Introduzione
 
-1. **Installare e configurare il connettore**. Utilizzando un partner o un Adobe Professional Services certificato, installa e configura il connettore avanzato Workfront for Experience Manager per organizzare, standardizzare i processi, stabilire la governance e semplificare il ciclo di vita delle risorse, dalla creazione alla distribuzione. [Installa in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/integrations/workfront-integrations) o [installa in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **Installare e configurare il connettore**. Utilizzando un partner o un Adobe Professional Services certificato, installa e configura il connettore avanzato Workfront for Experience Manager per organizzare, standardizzare i processi, stabilire la governance e semplificare il ciclo di vita delle risorse, dalla creazione alla distribuzione. [Installa in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) o [installa in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **Utilizzare il connettore**. Scopri le funzionalità del connettore avanzato in azione con la generazione automatica di cartelle collegate a un progetto in Experience Manager Assets, metadati Workfront mappati su Experience Manager Assets e cartelle, sincronizzazione bidirezionale dei metadati e molto altro. Per ulteriori informazioni, vedere [Connettore avanzato Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Altri argomenti correlati
 
-* Panoramica di [Workfront per Adobe Experience Manager](https://business.adobe.com/it/products/workfront/aem-integration.html)
+* Panoramica di [Workfront per Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)
 * [Adobe Workfront per Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

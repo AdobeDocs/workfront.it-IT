@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: faq
 product-area: system-administration
-keywords: kick-start, kick-start, kick-start, kick-start
+keywords: kickstart, kick-start, kickstart, kick-start
 navigation-topic: use-kick-starts
 title: Domande frequenti sui Kick-Start
 description: Risposte alle domande frequenti sull'importazione e l'esportazione di dati Workfront tramite Kick-Start.
@@ -10,10 +10,15 @@ author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+TQID: https://experienceleague.adobe.com/XpKG-fYAFVRk89b5TjSWyrzqv5z1zzIavWJQNLuKlsc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: 441
+ht-degree: 3%
 
 ---
 
@@ -60,6 +65,6 @@ Quando si importa un avvio utente con il campo **setCountry**, tali dati non ven
 
 ### Risposta
 
-Se l&#39;utente è abilitato per Unified User Management (UUM) o Adobe Identity Management System (IMS), il campo **Paese** accetta solo i valori del codice paese (ad , US, GB, IN). Verificare che il campo **setCountry** nel modello Kick-Start utilizzi i valori del codice paese prima dell&#39;importazione.
+Se l&#39;utente è abilitato per Unified User Management (UUM) o Adobe Identity Management System (IMS), il campo **Paese** accetta solo i valori del codice paese (ad esempio, US, GB, IN). Verificare che il campo **setCountry** nel modello Kick-Start utilizzi i valori del codice paese prima dell&#39;importazione.
 
 Per ulteriori informazioni sulla corretta importazione dei dati in Workfront tramite Kick-Start, vedere [Importare dati in Adobe Workfront utilizzando un modello Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

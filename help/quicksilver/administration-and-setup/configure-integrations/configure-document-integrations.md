@@ -8,9 +8,15 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1111
 ht-degree: 6%
 
 ---
@@ -27,7 +33,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le int
 
 >[!NOTE]
 >
->Per consentire la comunicazione aperta tra [!DNL Workfront Proof] e i server [!DNL Workfront], potrebbe essere necessario aggiungere determinati indirizzi IP al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Per consentire la comunicazione aperta tra [!DNL Workfront Proof] e i server [!DNL Workfront], potrebbe essere necessario aggiungere determinati indirizzi IP al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Requisiti di accesso
 
@@ -76,11 +82,11 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Workfront Proof]
 
-  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront Proof] le bozze create in origine in [!DNL Workfront].
+  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront] le bozze create in origine in [!DNL Workfront Proof].
 
 * [!DNL Microsoft SharePoint]
 
-  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Provider di documenti cloud di terze parti:
 

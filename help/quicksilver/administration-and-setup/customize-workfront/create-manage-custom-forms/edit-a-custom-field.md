@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: 409
+ht-degree: 22%
 
 ---
 
-# Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget
+# Aggiungere o modificare un campo personalizzato, un’interruzione di sezione o un widget
 
 Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo.
 
@@ -25,7 +31,7 @@ Se si imposta un campo personalizzato come inattivo, questo viene escluso dai re
 
 >[!NOTE]
 >
->Se si contrassegna un campo esistente come inattivo, non sarà più possibile utilizzarlo negli elementi di reporting e nei moduli personalizzati. Se il campo inattivo è attualmente utilizzato in un report o in un modulo, il campo e i relativi dati storici rimangono attivi.
+>Contrassegnando un campo esistente come inattivo, lo rende non più disponibile per l&#39;uso negli elementi di reporting e nei moduli personalizzati da quel momento in poi. Se il campo inattivo è attualmente in uso in un rapporto o in un modulo, il campo e i relativi dati storici rimangono invariati.
 
 Se si rimuove un campo personalizzato da un modulo personalizzato, tale campo esiste ancora in tutti gli altri moduli a cui è stato aggiunto ed è possibile modificarlo in un modulo o nell&#39;area Campi. Per informazioni sull&#39;eliminazione di un campo, vedere [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
@@ -44,7 +50,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 

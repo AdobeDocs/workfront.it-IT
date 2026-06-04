@@ -8,14 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/X8pRi3tIYP9R-ZGcSaIKpOn50-K44RNZryjjircaaSY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: 849
+ht-degree: 5%
 
 ---
 
-# Configurare Adobe Workfront con SAML 2.0 utilizzando ADFS
+# Configurare Adobe Workfront con SAML 2.0 tramite ADFS
 
 {{important-admin-console-onboard}}
 
@@ -25,7 +30,7 @@ Questa guida si concentra sulla configurazione di ADFS senza provisioning automa
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Questa guida si concentra sulla configurazione di ADFS senza provisioning automa
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
@@ -78,11 +83,11 @@ Per abilitare l’autenticazione all’applicazione web Workfront e all’applic
 1. Fare clic con il pulsante destro del mouse su **Trust relying party**, quindi selezionare **Aggiungi trust relying party** per avviare l&#39;Aggiunta guidata trust relying party.
 1. Dalla **pagina di benvenuto**, seleziona **Inizio**.
 1. Nella sezione **Seleziona data Source**, incolla l&#39;URL dei metadati da Workfront.
-1. Fai clic su **Avanti**.
+1. Fai clic su **Next** (Avanti).
 1. Fare clic su **OK** per confermare il messaggio di avviso.
 1. Nella sezione **Specifica nome visualizzato**, aggiungi **Nome visualizzato** e **Note** per distinguere il trust, quindi fai clic su **Avanti**.
 1. Selezionare **Consenti a tutti gli utenti di accedere a questo componente** (o **Nessuno** se si desidera configurarlo in un secondo momento).
-1. Fai clic su **Avanti**.
+1. Fai clic su **Next** (Avanti).
 
    Viene visualizzata la sezione **Pronto per aggiungere trust**.
 

@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/9VRJE0WqYMGadYNYbfpsFcNPelO87ka-Gn3OFqtBpaQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 3%
+source-wordcount: 1659
+ht-degree: 5%
 
 ---
 
@@ -22,7 +28,7 @@ ht-degree: 3%
 DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
-In qualità di amministratore di Adobe Workfront, puoi creare gruppi per organizzare utenti e progetti e assegnare diritti di accesso in Workfront. Per ulteriori informazioni, vedere [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+In qualità di amministratore di Adobe Workfront, puoi creare gruppi per organizzare utenti e progetti e assegnare diritti di accesso in Workfront. Per ulteriori informazioni, consulta [Panoramica dei gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 Ogni sottogruppo ha bisogno di almeno un amministratore di gruppo. Gli amministratori di gruppi possono utilizzare la pagina Gruppi per gestire i propri gruppi in un&#39;unica posizione.
 
@@ -30,7 +36,7 @@ Gli amministratori di gruppi e gli amministratori di Workfront possono anche cre
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +47,7 @@ Gli amministratori di gruppi e gli amministratori di Workfront possono anche cre
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>

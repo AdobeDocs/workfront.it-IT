@@ -8,10 +8,15 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/vo2d0t7tVnUsQT6pX0fBdX5JDqkYXtnWpCoAWlUeD1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: 556
+ht-degree: 8%
 
 ---
 
@@ -68,7 +73,7 @@ Quando un utente invia un documento da [!DNL Workfront] a un&#39;applicazione [!
 
 Per configurare più campi [!DNL Workfront] da esportare in un campo di metadati in un&#39;applicazione [!DNL Workfront], creare innanzitutto un campo personalizzato calcolato in [!DNL Workfront] per visualizzare tutti i singoli campi personalizzati di un oggetto. Quindi, mappare il campo [!DNL Workfront] calcolato a un campo di metadati nell&#39;applicazione [!DNL Workfront]. Per ulteriori informazioni sui campi personalizzati calcolati, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Prima di poter mappare i campi per il processo di mappatura dei metadati, è necessario abilitare l&#39;applicazione in [!DNL Workfront]. Per ulteriori informazioni, vedere [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Prima di poter mappare i campi per il processo di mappatura dei metadati, è necessario abilitare l&#39;applicazione in [!DNL Workfront]. Per ulteriori informazioni, consulta [Configura integrazioni di documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Configura [!DNL Workfront] per inviare metadati
 
