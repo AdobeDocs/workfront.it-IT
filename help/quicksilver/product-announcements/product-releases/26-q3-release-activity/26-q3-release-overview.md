@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 19%
 
 ---
@@ -38,6 +38,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti di Financial Management](#financial-management-enhancements)
+* [Miglioramenti alla Home](#home-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
 * [Altri miglioramenti](#other-enhancements)
@@ -164,6 +165,30 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>21 maggio 2026</p></td>
             <td><p>21 maggio 2026</p></td>
             <td><p>21 maggio 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti alla Home
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Utilizzare dati e visualizzazioni personalizzati in Priorità</a><p></p>
+                <p>Priorities ora supporta l’utilizzo di dati personalizzati nelle colonne. Aprire Gestione colonne dall'elenco lavori per aggiungere i campi personalizzati che si desidera visualizzare nei dati delle colonne.</p>
+            </td>
+            <td><p>4 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
         </tr>
     </tbody>
 </table>
