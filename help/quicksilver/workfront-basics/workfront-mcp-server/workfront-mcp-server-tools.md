@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1559'
 ht-degree: 6%
 
 ---
@@ -67,8 +67,11 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ottieni informazioni sul flusso di lavoro di approvazione | `approvals_get_approval_info` | Restituisce il flusso di lavoro di approvazione corrente (fasi, partecipanti, stato) per una versione del documento. | Leggi |
 | Crea o aggiorna flusso di lavoro di approvazione | `approvals_create_or_update_approval_workflow` | Crea o aggiorna le fasi del flusso di lavoro di approvazione per una versione del documento. Supporta le dipendenze degli stadi lineari e paralleli (grafi). | Scrittura |
 | Crea approvazione da modello | `approvals_create_approval_from_template` | Crea un flusso di lavoro di approvazione su un documento utilizzando un modello esistente. | Scrittura |
-| Richiedi approvazione documento | `approvals_request_document_approval` | Apre un modulo guidato per la richiesta di approvazione per una versione del documento (titolo, approvatori/revisori, data di scadenza facoltativa e messaggio). | Scrittura |
 | Elimina fase di approvazione | `approvals_delete_approval_stage` | Elimina una singola fase da un flusso di lavoro di approvazione per nome o posizione. È possibile eliminare solo le fasi non avviate. | Scrittura |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### Promemoria
 
