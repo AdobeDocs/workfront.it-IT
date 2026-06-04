@@ -11,11 +11,18 @@ exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2238
@@ -105,7 +112,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo di entrate]</td> 
-    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong>[!UICONTROL]</strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
+    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong></strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
          <p>Per informazioni sui diversi tipi di ricavi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p></td> 
     </tr> 
     <tr> 
