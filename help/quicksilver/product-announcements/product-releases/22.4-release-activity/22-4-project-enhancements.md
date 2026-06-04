@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 965
@@ -116,7 +119,7 @@ La modalità testo rimane disponibile per la modifica avanzata dei filtri e gli 
 
 ### Vogliamo il tuo feedback!
 
-Con questo Beta pubblico gli utenti possono inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante Feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Con questo Beta pubblico gli utenti possono inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante Feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### Cosa succede dopo?
 

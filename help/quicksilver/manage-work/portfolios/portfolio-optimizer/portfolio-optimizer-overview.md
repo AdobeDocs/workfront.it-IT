@@ -8,11 +8,16 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1648
@@ -88,7 +93,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
   </tr> 
   <tr> 
    <td>[!UICONTROL Nel Budget]</td> 
-   <td> <p>Percentuale di progetti nel portfolio considerati [!UICONTROL On Budget]. Visibile da qualsiasi scheda all'interno di un portfolio [!UICONTROL].</p> <p>I progetti sono <strong>[!UICONTROL Nel Budget]</strong> se non hanno superato il budget predefinito. <br>Per ulteriori informazioni sul budget di un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Gestisci] informazioni nell'area Finanza progetto</a>.</p> <p>La percentuale di [!UICONTROL nel budget] viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL Percentuale su progetti Portfolio nel budget] = Numero di progetti [!UICONTROL nel budget]/ Numero totale di progetti </em><em>in uno stato [!UICONTROL corrente] o [!UICONTROL approvato]</em> </p> </td> 
+   <td> <p>Percentuale di progetti nel portfolio considerati [!UICONTROL On Budget]. Visibile da qualsiasi scheda all'interno di un portfolio .</p> <p>I progetti sono <strong>[!UICONTROL Nel Budget]</strong> se non hanno superato il budget predefinito. <br>Per ulteriori informazioni sul budget di un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Gestisci] informazioni nell'area Finanza progetto</a>.</p> <p>La percentuale di [!UICONTROL nel budget] viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL Percentuale su progetti Portfolio nel budget] = Numero di progetti [!UICONTROL nel budget]/ Numero totale di progetti </em><em>in uno stato [!UICONTROL corrente] o [!UICONTROL approvato]</em> </p> </td> 
   </tr> 
   <tr> 
    <td>ROI (per portfolio)</td> 
@@ -96,7 +101,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
   </tr> 
   <tr> 
    <td>[!UICONTROL Allineato] o [!UICONTROL Punteggio Allineamento] </td> 
-   <td> <p>Media di tutti i valori [!UICONTROL Punteggio allineamento progetto], calcolati dopo il completamento della [!UICONTROL Scorecard] nel business case [!UICONTROL] del progetto. Il punteggio di allineamento di ciascun progetto è elencato nella colonna [!UICONTROL Alignment] di [!UICONTROL Portfolio Optimizer]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Per ulteriori informazioni sulla generazione di un punteggio di allineamento per un progetto, vedere l'articolo <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a>.</p> </td> 
+   <td> <p>Media di tutti i valori [!UICONTROL Punteggio allineamento progetto], calcolati dopo il completamento della [!UICONTROL Scorecard] nel business case  del progetto. Il punteggio di allineamento di ciascun progetto è elencato nella colonna [!UICONTROL Alignment] di [!UICONTROL Portfolio Optimizer]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Per ulteriori informazioni sulla generazione di un punteggio di allineamento per un progetto, vedere l'articolo <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Valore Netto]</td> 
@@ -134,7 +139,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
   </tr> 
   <tr> 
    <td>[!UICONTROL Rimanente]</td> 
-   <td> <p>Il budget rimanente dopo il [!UICONTROL Total Cost] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale [!UICONTROL] di tutti i progetti Portfolio</em> </p> <p>Il campo Budget del portfolio è una voce manuale nel campo Budget di Portfolio Optimizer. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
+   <td> <p>Il budget rimanente dopo il [!UICONTROL Total Cost] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale  di tutti i progetti Portfolio</em> </p> <p>Il campo Budget del portfolio è una voce manuale nel campo Budget di Portfolio Optimizer. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo Totale]</td> 
