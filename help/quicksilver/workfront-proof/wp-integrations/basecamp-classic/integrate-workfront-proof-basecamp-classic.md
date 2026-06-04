@@ -8,12 +8,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
 TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 796
@@ -89,7 +86,7 @@ Dopo aver configurato le [impostazioni account](https://support.workfront.com/hc
 >
 >Completare questi passaggi è più semplice se la sessione [!DNL Basecamp] è aperta in una finestra del browser e la sessione [!DNL Workfront Proof] è aperta in un&#39;altra finestra.
 
-* [Recupero del token API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
+* [Recupero del token API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
 * [Aggiunta del token API  [!DNL Basecamp]  alle impostazioni personali](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Recupero del token API [!DNL Basecamp]
@@ -117,7 +114,7 @@ Per incollare il token API [!DNL Basecamp] nelle [!DNL Workfront Proof] [imposta
    Un amministratore deve prima abilitare l&#39;integrazione di [!DNL Basecamp Classic] per abilitare le impostazioni personali. Per informazioni sulla configurazione dell&#39;integrazione, vedere [Abilitazione dell&#39;integrazione  [!DNL Basecamp] con [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) in questo articolo.
 
 1. Nella casella token API [!DNL Basecamp] (2), incolla nel campo (3) il token appena copiato dalla pagina [!DNL Basecamp] [!UICONTROL Informazioni personali].\
-   Per informazioni sulla copia del token API [!DNL Basecamp], vedere [Recupero del token API [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token) in questo articolo.
+   Per informazioni sulla copia del token API [!DNL Basecamp], vedere [Recupero del token API [!DNL Basecamp] ](#retrieving-your-basecamp-api-token) in questo articolo.
 
 1. Fai clic su **[!UICONTROL Salva]** (4).
 
