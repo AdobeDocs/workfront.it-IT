@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 862
@@ -95,7 +103,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    <tbody> 
     <tr> 
      <td role="rowheader">[!UICONTROL Tipo di richiesta budget]</td> 
-     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Opzioni:</p> 
+     <td> <p>Elenco a discesa </p> <p>Opzioni:</p> 
       <ul> 
        <li> <p>[!UICONTROL Adeguamento al finanziamento]</p> </li> 
        <li> <p>[!UICONTROL - Finanziamento iniziale]</p> </li> 
@@ -149,7 +157,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
     </tr> 
     <tr> 
      <td role="rowheader">[!UICONTROL Target Audience]</td> 
-     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
+     <td> <p>Elenco a discesa </p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
     </tr> 
    </tbody> 
   </table>

@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -200,4 +202,4 @@ Se disponi dei diritti di modifica per eseguire questa operazione, puoi spostare
 1. Esegui una delle operazioni seguenti:
 
    * Per spostare un elemento, fare clic su di esso e tenerlo premuto, trascinandolo nella cartella in cui si desidera inserirlo.
-   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.
+   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**&#x200B;sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.

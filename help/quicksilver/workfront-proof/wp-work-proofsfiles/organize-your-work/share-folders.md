@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 TQID: https://experienceleague.adobe.com/J7dSfuj-8f8m4pNsPGejE-k29Bkk1Rlh-HbpYkwx2xM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 955
@@ -77,7 +79,7 @@ Quando qualcuno condivide una cartella con te, questa viene visualizzata nella b
 
 1. Fai clic sul collegamento nell’e-mail di notifica ricevuta.
 1. Accedi a [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] visualizza la pagina Dettagli cartella. Per ulteriori informazioni, vedere [Gestione cartelle e relativo contenuto in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] visualizza la pagina Dettagli cartella. Per ulteriori informazioni, vedere [Gestione cartelle e relativo contenuto in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Informazioni sulla condivisione delle sottocartelle
 
