@@ -6,9 +6,15 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
+TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: 1416
 ht-degree: 3%
 
 ---
@@ -183,7 +189,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **&#x200B;**&#x200B;per l&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **** per l&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 

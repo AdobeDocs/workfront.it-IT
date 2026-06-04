@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta Final 2017.2
+title: 2017.2 Beta finale
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 28 giugno 2017. Sarà disponibile nell’ambiente di produzione il 26 luglio 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 0%
+source-wordcount: 2332
+ht-degree: 1%
 
 ---
 
-# Beta Final 2017.2
+# 2017.2 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 28 giugno 2017. Sarà disponibile nell’ambiente di produzione il 26 luglio 2017.
 
@@ -28,7 +34,7 @@ La versione finale 2017.2 di Beta contiene miglioramenti sia per gli amministrat
 
 **Per gli amministratori:**
 
-* [Determinare la disponibilità del visualizzatore di verifica video di HTML5 (ProofHQ e Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [Determinare la disponibilità del visualizzatore di bozze video HTML5 (ProofHQ e Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [Supporto dei certificati SHA-256 per SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
 * [Tipo di anticipo per la mappatura degli attributi](#type-ahead-for-mapping-attributes)
 * [Miglioramento API: accedere alle allocazioni utente](#api-enhancement-access-user-allocations)
@@ -117,9 +123,9 @@ Ora puoi accedere all’ombreggiatura dell’allocazione utente tramite l’API 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../../../wf-api/api/access-proj-allocation-info-api.md" class="MCXref xref" xrefformat="{para}">Access Project Allocation Information via the API</a>.</p>
 -->
 
-## Esportare il rapporto Utilizzo in formato TSV e PDF {#export-the-utilization-report-in-tsv-and-pdf-formats}
+## Esportare il rapporto Utilizzo nei formati TSV e PDF {#export-the-utilization-report-in-tsv-and-pdf-formats}
 
-Ora puoi esportare il rapporto Utilizzo su un progetto in formato TSV e PDF, oltre al formato XLSX.
+Ora puoi esportare il rapporto Utilizzo su un progetto in formati TSV e PDF, oltre al formato XLSX.
 
 Prima di questa modifica, era possibile esportare il rapporto Utilizzo solo in formato XLSX.
 
@@ -153,9 +159,9 @@ Prima di questa modifica, non era chiaro a quale pagina secondaria si riferisse 
 
 Per ulteriori informazioni, consulta
 
-## Determinare la disponibilità del visualizzatore di verifica video di HTML5 (ProofHQ e Workfront) {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
+## Determinare la disponibilità del visualizzatore di bozze video HTML5 (ProofHQ e Workfront) {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
-In qualità di amministratore di Workfront in ProofHQ, puoi determinare se gli utenti dell’organizzazione hanno accesso al nuovo visualizzatore di bozze HTML5 per le bozze video.
+In qualità di amministratore di Workfront in ProofHQ, puoi determinare se gli utenti dell’organizzazione hanno accesso al nuovo visualizzatore di bozze di HTML5 per le bozze video.
 
 Per ulteriori informazioni sulla configurazione di questa opzione in Workfront, consulta in .
 
@@ -171,13 +177,13 @@ Per ulteriori informazioni, vedere [Creazione di una visualizzazione personalizz
 
 Per impostazione predefinita, i dati visualizzati nella scheda Rapporti includono tutte le informazioni del sistema ProofHQ. Ora è possibile utilizzare i filtri per mostrare solo le informazioni pertinenti alle proprie esigenze. 
 
-Per ulteriori informazioni, vedere [Filtraggio dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Esegui report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Per ulteriori informazioni, vedere [Filtraggio dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in [Esegui report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Visualizzazione dei valori minimo e massimo nei rapporti (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Ora puoi configurare se i valori minimo e massimo vengono visualizzati nel grafico durante la visualizzazione dei rapporti.
 
-Per ulteriori informazioni, vedere [Visualizzazione dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Esegui report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Per ulteriori informazioni, vedere [Visualizzazione dei report](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in [Esecuzione dei report in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Supporto dei certificati SHA-256 per SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -212,7 +218,7 @@ Nelle app mobili, per le piattaforme Android e iOS verranno visualizzate le segu
 
 Per alcune di queste funzioni della piattaforma Android sarà disponibile un programma beta pubblico.
 
-Per ulteriori informazioni sul prossimo programma beta per dispositivi mobili, consulta la  [&quot;Beta&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) pagina.
+Per ulteriori informazioni sul prossimo programma beta per dispositivi mobili, vedere la pagina [&quot;Beta&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
 
 Per ulteriori informazioni sull&#39;utilizzo dell&#39;app mobile Workfront, consulta .  
 
@@ -221,7 +227,7 @@ Per ulteriori informazioni sull&#39;utilizzo dell&#39;app mobile Workfront, cons
 Quando si crea un filtro in modalità testo e si filtrano i valori di campo che contengono virgole, è necessario aggiungere una barra (&quot;/&quot;) prima delle virgole che separano i valori, per garantire che il valore venga letto come un’unica opzione di filtro. Questo vale solo per i seguenti tipi di campi:
 
 * Elenchi a discesa
-* Bottoni Circolari
+* Pulsanti di scelta
 * Checkboxe
 
 Prima di questa modifica, non era possibile filtrare i campi con opzioni contenenti virgole.

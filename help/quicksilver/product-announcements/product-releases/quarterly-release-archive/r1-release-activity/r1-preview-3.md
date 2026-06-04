@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Anteprima R1 3
+title: Anteprima 3 di R1
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1.3. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 1° febbraio 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/--RlYylhPcyb6lNrf8RuuC-87lrw88NlAms6EfmGRWo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: 1353
 ht-degree: 2%
 
 ---
 
-# Anteprima R1 3
+# Anteprima 3 di R1
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1.3. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 1° febbraio 2017.
 
@@ -28,7 +34,7 @@ Inoltre, l’autorizzazione di un provider di documenti prima di collegare i fil
 
 Prima di queste modifiche, l&#39;opzione per collegare i file da un&#39;origine esterna era disponibile nella finestra di dialogo Aggiungi documenti all&#39;interno dell&#39;area Documenti. Prima di collegare un documento da un’origine esterna per la prima volta, l’utente che lo collegava doveva autorizzare quel provider di documenti nell’area Setup.
 
-Per ulteriori informazioni, consulta  [Collega documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Per ulteriori informazioni, vedere [Collegare documenti da applicazioni esterne](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Calendario di lavoro del team aggiornato
 
@@ -116,8 +122,8 @@ Nelle seguenti aree non viene visualizzato il nome aggiornato degli oggetti:
 * Pianificazione capacità
 * Tabella delle Risorse
 * Assembla Squadra
-* Ottimizzatore Portfolio 
-* App mobili
+* Portfolio Optimizer 
+* App per dispositivi mobili
 * Componente aggiuntivo per Outlook
 
 Per ulteriori informazioni su come personalizzare la terminologia di Workfront utilizzando un modello di layout, vedere la sezione &quot;Personalizzazione della terminologia&quot; in &quot;Creazione e gestione dei modelli di layout&quot; e la sezione &quot;Informazioni sulle implicazioni della personalizzazione dei nomi di oggetto&quot; in [Informazioni sugli oggetti in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -129,7 +135,7 @@ Durante la creazione o la modifica di rapporti è ora possibile includere i camp
 * Data di inizio percorso di approvazione
 * Data di completamento percorso di approvazione
 
-Questi campi ti consentono di sapere quando è stato avviato il percorso di approvazione corrente o più recente e quando è stato contrassegnato come Completo.
+Questi campi ti consentono di impostare insight su quando è stato avviato il percorso di approvazione corrente o più recente e quando è stato contrassegnato come Completo.
 
 Per ulteriori informazioni su questi campi, vedere [Glossario della terminologia di Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

@@ -1,18 +1,24 @@
 ---
-title: Panoramica sulla versione del secondo trimestre 2024
+title: Panoramica sul rilascio del secondo trimestre 2024
 description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/re1xelgCEmdKbtnBBlusotpu2H9lS65ZILW-J-v8oOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 0%
+source-wordcount: 2417
+ht-degree: 9%
 
 ---
 
-# Panoramica sulla versione del secondo trimestre 2024
+# Panoramica sul rilascio del secondo trimestre 2024
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2024. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione per tutti i clienti con la versione 24.4 del 10 e 11 aprile 2024.
 
@@ -33,18 +39,18 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
 >
 >Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
 >
->| Versione mensile | Versione trimestrale |
+>| Rilascio mensile | Rilascio trimestrale |
 >|----|----|
 >| <ul><li>24.2 (15 febbraio 2024)</li><li>24.3 (14 marzo 2024)</li><li>24.4 (11 aprile 2024)</li></ul> | <ul><li>24.4 (11 aprile 2024)</li></ul> |
 >
->Per ulteriori informazioni sul processo di rilascio rapido, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Per ulteriori informazioni sul processo di rilascio rapido, consulta [Abilitare o disabilitare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alla gestione dei documenti](#document-management-enhancements)
-* [Miglioramenti Home](#home-enhancements)
-* [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti alla Home](#home-enhancements)
+* [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Miglioramenti al flusso di aggiornamento e alle notifiche](#update-stream-and-notification-enhancements)
 * [Altri miglioramenti](#other-enhancements)
@@ -57,7 +63,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -67,7 +73,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logica di visualizzazione e la logica di salto sono ora disponibili nella modalità di anteprima di Progettazione moduli</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logica di visualizzazione e la logica di salto sono ora disponibili nella modalità di anteprima di Progettazione moduli</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Il designer di moduli personalizzati beta ora consente di testare la logica di visualizzazione e saltare la logica in modalità anteprima. In precedenza, tutti i campi venivano visualizzati nell’anteprima anche quando veniva applicata la logica.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -83,7 +89,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Le aziende e gli utenti ora supportano i campi modulo personalizzati avanzati</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Le aziende e gli utenti ora supportano i campi modulo personalizzati avanzati</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -99,7 +105,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrazione JumpSeat ora disponibile per i nuovi tipi di pacchetto</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrazione JumpSeat ora disponibile per i nuovi tipi di pacchetto</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>L’integrazione JumpSeat esistente è ora disponibile per gli account che utilizzano uno dei nuovi tipi di pacchetto (ad esempio, Select, Prime o Ultimate). Per abilitare l’integrazione, è ancora necessario disporre di un abbonamento JumpSeat attivo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -118,7 +124,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi nativi di Workfront sono disponibili in progettazione moduli beta</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi nativi di Workfront sono disponibili in progettazione moduli beta</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I campi nativi di Workfront sono ora disponibili per l’aggiunta ai moduli personalizzati. Questo nuovo tipo di campo consente di organizzare e presentare i dati agli utenti in modo logico, senza dover ricreare i dati esistenti nei campi personalizzati.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -138,7 +144,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile la mappatura degli attributi per le organizzazioni che hanno eseguito la migrazione ad Adobe IMS</a></p>
-                        <p>[!BADGE In produzione &#x200B;]{type=Informative}</p><p>Gli amministratori di sistema di Workfront ora possono impostare la mappatura degli attributi utente per l’organizzazione che è stata migrata ad Adobe IMS. Questo consente di passare le informazioni dell’utente in Workfront dal provider SSO (Single Sign-on) dell’organizzazione, in modo che i dati dell’utente non debbano essere immessi sia in Workfront che nel provider SSO.</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p><p>Gli amministratori di sistema di Workfront ora possono impostare la mappatura degli attributi utente per l’organizzazione che è stata migrata ad Adobe IMS. Questo consente di passare le informazioni dell’utente in Workfront dal provider SSO (Single Sign-on) dell’organizzazione, in modo che i dati dell’utente non debbano essere immessi sia in Workfront che nel provider SSO.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -153,7 +159,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logica di salto e la logica di visualizzazione sono ora disponibili in Progettazione moduli beta</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logica di salto e la logica di visualizzazione sono ora disponibili in Progettazione moduli beta</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>È ora possibile modificare la logica di visualizzazione e salto esistente e aggiungere una nuova logica ai moduli personalizzati nella versione beta di progettazione moduli. Un generatore di logica di facile utilizzo consente di definire quali campi visualizzare o saltare in base alle selezioni effettuate nel modulo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -185,7 +191,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -195,7 +201,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere una scadenza alle revisioni e alle approvazioni di un documento</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere una scadenza alle revisioni e alle approvazioni di un documento</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>È ora possibile specificare una scadenza per gli utenti o i team assegnati alla revisione o all'approvazione di un documento. I revisori e gli approvatori ricevono le notifiche e-mail 72 ore e 24 ore prima della scadenza specificata. La scadenza si riflette anche nel widget Approvazioni nella nuova area Home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -211,7 +217,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare e utilizzare modelli di approvazione</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare e utilizzare modelli di approvazione</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>È ora possibile creare modelli di approvazione nell’area Configura per semplificare il processo di revisione e approvazione. I modelli di approvazione consentono di rendere più ripetibile il processo di revisione e approvazione
                         <ul>
                             <li>
@@ -236,7 +242,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizza informazioni su tutte le tue approvazioni in un'unica posizione</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizza informazioni su tutte le tue approvazioni in un'unica posizione</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, abbiamo aggiunto i seguenti indicatori di prestazioni chiave al widget Tutte le approvazioni:
                         <ul>
                             <li>
@@ -268,7 +274,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             </tbody>
 </table>
 
-### Miglioramenti Home
+### Miglioramenti alla Home
 
 <table>
             <col style="width: 50%;" />
@@ -276,7 +282,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -286,7 +292,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opzioni colonna aggiunte ai controlli amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opzioni colonna aggiunte ai controlli amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Gli amministratori possono ora personalizzare le colonne disponibili per gli utenti in nuovi widget Home specifici utilizzando i modelli di layout. Le opzioni includono la possibilità di nascondere o visualizzare le colonne predefinite e di aggiungere campi esistenti come nuove colonne.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -314,7 +320,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -324,7 +330,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell'integrazione di Adobe Experience Manager</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell'integrazione di Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo apportato alcuni aggiornamenti al flusso di lavoro cartelle collegate di Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -341,7 +347,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             </tbody>
         </table>
 
-### Miglioramenti al progetto
+### Miglioramenti ai progetti
 
 <table>
             <col style="width: 50%;" />
@@ -349,7 +355,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -360,7 +366,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
-                        <p>[!BADGE In produzione per rilascio rapido &#x200B;]{type=Positive}</p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -378,7 +384,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
-                        <p>[!BADGE In produzione per rilascio rapido &#x200B;]{type=Positive}</p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -404,7 +410,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -414,7 +420,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicatore per le allocazioni regolate manualmente nel Bilanciatore dei carichi di lavoro</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p><p>Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicatore per le allocazioni regolate manualmente nel Bilanciatore dei carichi di lavoro</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -441,7 +447,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
             <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -451,7 +457,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuove esperienze di commento aggiunte alle iterazioni</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuove esperienze di commento aggiunte alle iterazioni</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per garantire un’esperienza coerente in tutta l’applicazione, abbiamo aggiunto la nuova esperienza di commento alle iterazioni. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -467,7 +473,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>  
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -477,7 +483,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L'accesso all'area dei commenti legacy è stato rimosso</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L'accesso all'area dei commenti legacy è stato rimosso</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>È stato rimosso il pulsante "Nuovo commento" nell’area Aggiornamenti per progetti, attività, problemi e documenti. Il nuovo commento è ora l'opzione predefinita e unica per questi oggetti. Con questa modifica, non sarà più possibile ripristinare l’esperienza di commento precedente. Inoltre, è stata rimossa l’impostazione "Show percent complete on update status" (Mostra percentuale di completamento allo stato di aggiornamento) sul profilo di un utente.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -493,7 +499,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget Home</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget Home</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pulsante di azione rapida "Aggiungi nuovo aggiornamento" nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -512,7 +518,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ulteriori informazioni sui commenti disponibili nella nuova esperienza</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ulteriori informazioni sui commenti disponibili nella nuova esperienza</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:</p>
                         <ul>
                             <li>
@@ -539,7 +545,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I commenti aggiunti ai record delle attività di sistema nell’esperienza di commento precedente ora vengono inseriti nella scheda Attività di sistema nella nuova esperienza di commento in sola lettura. Non è possibile rispondere ai record delle attività di sistema nella nuova esperienza di aggiunta di commenti.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -558,7 +564,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda "All" (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -577,7 +583,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo flusso di commenti ora disponibile nel pannello Riepilogo</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo flusso di commenti ora disponibile nel pannello Riepilogo</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -605,7 +611,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -615,7 +621,7 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’intervallo di tempo del secondo trimestre 2024</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’intervallo di tempo del secondo trimestre 2024</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del secondo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -634,11 +640,11 @@ Al posto di un webinar sulla versione, ti invitiamo a [registrarti ad Adobe Summ
            </tbody>
         </table>
 
-## Notifiche
+## Annunci
 
-### Miglioramenti apportati a Workfront Fusion
+### Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che non rientra nella pianificazione del rilascio del secondo trimestre del 2024. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che non rientra nella pianificazione del rilascio del secondo trimestre del 2024. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -658,13 +664,13 @@ Per API versione 18, abbiamo modificato alcune risorse ed endpoint. Alcune delle
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del secondo trimestre 2024, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
-### Aggiornamenti dei corsi di formazione
+### Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione “Novità” della [pagina dei tutorial di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 

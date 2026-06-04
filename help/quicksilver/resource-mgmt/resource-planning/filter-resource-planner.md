@@ -6,14 +6,20 @@ description: Utilizzando i filtri, puoi modificare le informazioni visualizzate 
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 0%
+source-wordcount: 2369
+ht-degree: 2%
 
 ---
 
-# Filtrare le informazioni nella Programmazione delle risorse
+# Filtrare le informazioni in pianificazione risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(AL:*Iterate on this article: filtering by custom data. Other enhancements? Special characters caveat might change - follow the story to know when. It originally came in Beta 3 17.3.)</p>
@@ -23,7 +29,7 @@ Utilizzando i filtri, puoi modificare le informazioni visualizzate nella Program
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +41,7 @@ Utilizzando i filtri, puoi modificare le informazioni visualizzate nella Program
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Chiaro o superiore</p>
        <p>Revisione o successiva</p></td> 
   </tr> 
@@ -44,7 +50,7 @@ Utilizzando i filtri, puoi modificare le informazioni visualizzate nella Program
    <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti</p></td> 
   </tr> 
  </tbody> 
@@ -311,7 +317,7 @@ Per informazioni sulla duplicazione dei filtri, vedere la sezione [Duplicare un 
 1. Seleziona tra i seguenti livelli di autorizzazione:
 
    * Visualizzazione
-   * Gestisci
+   * Gestione
 
      Per informazioni sulle autorizzazioni in Workfront, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 

@@ -1,19 +1,25 @@
 ---
-title: 23.2 Miglioramenti per gli amministratori
-description: 23.2 Miglioramenti per gli amministratori
+title: 23.2 - Miglioramenti per gli amministratori
+description: 23.2 - Miglioramenti per gli amministratori
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: 415
+ht-degree: 2%
 
 ---
 
-# 23.2 Miglioramenti per gli amministratori
+# 23.2 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
@@ -25,7 +31,7 @@ Ora è possibile categorizzare e trovare rapidamente le risorse in base ai dati 
 
 In precedenza, la mappatura dei dati di Workfront sui tag Experience Manager Assets non era disponibile.
 
-Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, [Configura l&#39;integrazione [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, [Configura l&#39;integrazione di [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 Per ulteriori informazioni su questa funzionalità in Experience Manager Assets Essentials, [Configura l&#39;integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -39,11 +45,11 @@ Con il nuovo form designer è stata aggiunta la possibilità di
 
 * **Utilizza una sezione predefinita**: se il creatore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell&#39;area di lavoro è ora visibile una sezione predefinita, in modo che gli utenti possano modificare le autorizzazioni per i campi a cui non è assegnata alcuna sezione personalizzata.
 
-* **Modifica le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi. <span style="color: #ff0000;"> La modifica delle dimensioni per il testo descrittivo è stata temporaneamente posticipata ma è prevista a breve.</span></li>
+* **Modifica le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi. <span style="color: #ff0000;"> La modifica della dimensione del testo descrittivo è stata temporaneamente ritardata, ma è prevista a breve.</span></li>
 
 Per ulteriori informazioni, vedere [Panoramica moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3416586/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Rinomina pin nel modello di layout
 
@@ -51,4 +57,4 @@ Per ulteriori informazioni, vedere [Panoramica moduli personalizzati](/help/quic
 
 Per ulteriori informazioni, vedere [Personalizzare le pagine bloccate utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Per informazioni dettagliate su come gli utenti possono rinominare le pagine bloccate personali, vedere [Fissa pagine per personalizzare l&#39;area di lavoro](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3414364/){target=_blank}

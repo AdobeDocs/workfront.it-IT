@@ -5,12 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: 387
+ht-degree: 6%
 
 ---
 
@@ -24,9 +28,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Anteprima: venerdì 2 ottobre 2025
->Rilascio rapido in produzione: giovedì 15 ottobre 2025
->Produzione per tutti: venerdì 16 ottobre 2025
+>Anteprima: 2 ottobre 2025>Versione rapida produzione: 15 ottobre 2025>Produzione per tutti: 16 ottobre 2025
 
 Per visualizzare più facilmente le informazioni necessarie, è stata aggiunta la possibilità di creare e salvare viste nell’area Richieste. Ora puoi salvare una vista, inclusi i filtri e le configurazioni di colonna, e passare da una vista all’altra. Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
 
@@ -56,8 +58,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* Anteprima: 21 agosto 2025
->* Rilascio rapido in produzione: venerdì 11 settembre 2025
->* Produzione per tutti i clienti: venerdì 16 ottobre 2025
+>* Versione rapida di produzione: 11 settembre 2025
+>* Produzione per tutti i clienti: 16 ottobre 2025
 
 Per migliorare l’esperienza utente nell’esecuzione delle richieste in Workfront e Workfront Planning, è stata aggiornata la sezione delle richieste.
 

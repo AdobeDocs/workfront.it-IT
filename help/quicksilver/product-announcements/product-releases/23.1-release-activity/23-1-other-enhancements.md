@@ -1,19 +1,24 @@
 ---
-title: 23.1 Altri miglioramenti
-description: 23.1 Altri miglioramenti
+title: 23.1 - Altri miglioramenti
+description: 23.1 - Altri miglioramenti
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 0%
+source-wordcount: 773
+ht-degree: 1%
 
 ---
 
-# 23.1 Altri miglioramenti
+# 23.1 - Altri miglioramenti
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 23.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
@@ -29,7 +34,7 @@ Questo plug-in consente di accedere ai dettagli degli elementi di lavoro, collab
 
 Scarica [Adobe Workfront per progettazione e video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) nel Marketplace oggi stesso.
 
-Gli amministratori possono anche [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) dell&#39;Admin Console e distribuirlo agli utenti in modo gestito o autonomo.
+Gli amministratori possono anche [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) da Admin Console e distribuirlo agli utenti in modo gestito o autogestito.
 
 ## Esperienza di filtro migliorata generalmente disponibile in Adobe Workfront
 
@@ -55,34 +60,34 @@ Abbiamo aggiunto la funzionalità di controllo elenco alle pagine Filtri, Viste 
 
 Per ulteriori informazioni, vedere [Creare, modificare e condividere filtri, visualizzazioni e raggruppamenti predefiniti](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Presentazione di Adobe Workfront per progettazione e video
 
 Siamo entusiasti di annunciare l’espansione del nostro plug-in Adobe Workfront for InDesign per includere Adobe Premiere Pro e After Effects. Il plug-in verrà rinominato Adobe Workfront per progettazione e video.
 
-Il plug-in aggiornato, Adobe Workfront for design and video, ora supporterà InDesign, Premiere Pro e After Effects, e Illustrator sarà disponibile a breve.
+Il plug-in aggiornato, Adobe Workfront for design and video, ora supporterà InDesign, Premiere Pro e After Effects, con Illustrator che sarà presto disponibile.
 
 Questo plug-in consente di accedere ai dettagli degli elementi di lavoro, collaborare con i colleghi nell’area Aggiornamenti e registrare il tempo totale senza uscire dall’applicazione Creative Cloud preferita.
 
 Scarica [Adobe Workfront per progettazione e video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) nel marketplace oggi stesso.
 
-Gli amministratori possono anche [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) dell&#39;Admin Console e distribuirlo agli utenti in modo gestito o autonomo.
+Gli amministratori possono anche [creare un pacchetto con i plug-in](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) da Admin Console e distribuirlo agli utenti in modo gestito o autogestito.
 
-## Come accedere all’Aiuto di Workfront, per i clienti sull’Adobe di Unified Experience
+## Come accedere alla guida di Workfront per i clienti che utilizzano Adobe Unified Experience
 
 >[!NOTE]
 >
 >Questa funzione si applica solo ai clienti che hanno effettuato l’onboarding in Adobe Unified Experience for Workfront.
 
-Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console e nell’Adobe di esperienza unificata per Workfront, la barra di navigazione di Workfront non include più il collegamento &quot;Aiuto&quot;.
+Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console e in Adobe Unified Experience for Workfront, la barra di navigazione di Workfront non include più il collegamento Aiuto.
 
-È possibile accedere alla guida di Workfront su Adobe Experience League in due modi:
+Puoi accedere alla guida di Workfront su Adobe Experience League in due modi:
 
 * Il menu principale a sinistra della barra di navigazione di Workfront contiene un collegamento della guida in basso
 * L’icona del punto interrogativo nell’area di navigazione superiore fornisce collegamenti verso aiuto, supporto e feedback
 
-Per ulteriori informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) o [Accedere alla Guida di Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Per ulteriori informazioni, vedere [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) o [Accedere alla Guida di Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Rinominare i pin e una nuova esperienza durante l’eliminazione dei pin
 
@@ -96,4 +101,4 @@ Le opzioni per rinominare un pin e rimuovere un pin vengono visualizzate in un m
 
 Per ulteriori informazioni, vedere [Fissa pagine per personalizzare l&#39;area di lavoro](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412389/){target=_blank}

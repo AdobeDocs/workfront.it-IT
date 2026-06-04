@@ -6,11 +6,16 @@ description: Un report calendario è un report dinamico che fornisce una rappres
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/U962Q4WRQmKDHHQGHT-yYYK8wmD12cW-3ruf-pr4ZDw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: 593
 ht-degree: 13%
 
 ---
@@ -121,7 +126,7 @@ Fai clic su **[!UICONTROL + Nuovo calendario]**, immetti il nome del progetto, q
 
 Dopo aver impostato la modalità di visualizzazione degli elementi, è necessario aggiungere al raggruppamento gli oggetti che si desidera visualizzare nel calendario.
 
-1. In **[!UICONTROL Cosa aggiungere al calendario?]** sezione, seleziona
+1. In **[!UICONTROL Cosa si desidera aggiungere al calendario?]** sezione, seleziona
 
    * **[!UICONTROL Attività]**
    * **[!UICONTROL Progetti]**
@@ -133,7 +138,7 @@ Dopo aver impostato la modalità di visualizzazione degli elementi, è necessari
 1. Imposta un&#39;istruzione di condizione per il raggruppamento del calendario.
 
 
-   ![Seleziona l&#39;oggetto per il calendario](assets/calendar-field-name.png)
+   ![Seleziona oggetto per calendario](assets/calendar-field-name.png)
 Per informazioni sull&#39;impostazione delle condizioni, vedere [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Facoltativo) Specificare oggetti aggiuntivi per il raggruppamento del calendario ripetendo i passaggi da 1 a 4.

@@ -6,11 +6,16 @@ description: Raccolte di riferimento in un rapporto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2624
 ht-degree: 3%
 
 ---
@@ -268,7 +273,7 @@ Nella tabella seguente vengono descritte le righe di una raccolta in modalità t
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore barra. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori della raccolta sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
+   <td> <p>Delimitatore utilizzato per separare i valori nell'elenco.<br>È consigliabile utilizzare <code>&lt;p&gt;</code>, che aggiunge un'interruzione di riga tra i valori.</p> <p>Puoi inoltre utilizzare quanto segue:</p> <p><code>&amp;zwj;</code> (unificatore a larghezza zero). I valori della raccolta non sono separati.<br><strong>,</strong> =separatore virgola. I valori della raccolta sono separati da una virgola seguita da uno spazio.<br><strong>/</strong> = separatore di barre. I valori della raccolta sono separati da una barra.<br><strong>-</strong> = separatore di trattini. I valori della raccolta sono separati da un trattino.<br>Se si lascia vuota questa riga, per impostazione predefinita viene aggiunta una virgola seguita da uno spazio tra i valori della raccolta.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nome colonna</em> </td> 
@@ -280,7 +285,7 @@ Nella tabella seguente vengono descritte le righe di una raccolta in modalità t
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Questa riga definisce il campo a cui si fa riferimento dall'oggetto insieme.</p> <p>Sostituisci il campo <strong>oggetto raccolta</strong> con il nome del campo dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Puoi sostituire questa riga con:</p> <p><strong>valueexpression</strong>=campi/campi oggetto raccolta calcolati</p> <p>Utilizzando <strong>valueexpression</strong>, puoi  visualizza un’espressione personalizzata calcolata nella colonna.</p> <p>Per ulteriori informazioni su come formattare <strong>righe di espressione di valore</strong>, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>.</p> </td> 
+   <td> <p>Questa riga definisce il campo a cui si fa riferimento dall'oggetto insieme.</p> <p>Sostituisci il campo <strong>oggetto raccolta</strong> con il nome del campo dell'oggetto a cui si fa riferimento nella raccolta, come visualizzato in <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Puoi sostituire questa riga con:</p> <p><strong>valueexpression</strong>=campi/campi oggetto raccolta calcolati</p> <p>Utilizzando <strong>valueexpression</strong>, è possibile visualizzare un'espressione personalizzata calcolata nella colonna.</p> <p>Per ulteriori informazioni su come formattare <strong>righe di espressione di valore</strong>, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -397,7 +402,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 1. Fai clic su **Prompt dei rapporti**.
 1. Fare clic su **Aggiungi prompt**.
 1. Fare clic su **Prompt personalizzato**.
-1. Specifica il nome della richiesta nel campo **Field**&#x200B;**name**.
+1. Specifica il nome della richiesta nel campo **Field****name**.
 
 1. Specificare un&#39;etichetta **per elemento a discesa**.
 1. Specifica quanto segue nel campo **Condizione**:

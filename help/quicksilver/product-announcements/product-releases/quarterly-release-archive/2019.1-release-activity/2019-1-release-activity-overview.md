@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Panoramica sull’attività della versione 2019.1
+title: Panoramica sull’attività sulla versione 2019.1
 description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.1 di.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/VL9oVmCuS86CGggGHYghKLQtDV7r5bi55J6CzIcrWD0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: 2042
 ht-degree: 0%
 
 ---
 
-# Panoramica sull’attività della versione 2019.1
+# Panoramica sull’attività sulla versione 2019.1
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.1 di.
 
@@ -34,7 +40,7 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Gli amministratori di Workfront ora possono scegliere di mostrare o nascondere le marche temporali per le date di scadenza nelle sezioni Work List (Elenco di lavoro) e Calendar (Calendario) utilizzando i modelli di layout.
 
-* [Configura il ruolo di verifica predefinito per i non destinatari che aprono una bozza](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
+* [Configurare il ruolo di bozza predefinito per i non destinatari che aprono una bozza](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
 
   Gli amministratori di Workfront ora possono configurare il ruolo di bozza predefinito per gli utenti che non sono destinatari designati nel flusso di lavoro della bozza, ma che hanno accesso alla bozza tramite il relativo oggetto Workfront (ad esempio progetto, attività o problema).
 
@@ -62,9 +68,9 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Non è più possibile accedere alla finestra di dialogo Assegnazioni avanzate mentre il diagramma di Gantt è in modalità di modifica. È possibile apportare solo modifiche in linea mentre l&#39;elenco delle attività Diagramma di Gantt è in modalità di modifica.
 
-* [Visualizzare le informazioni sulle attività nel diagramma di Gantt dell&#39;elenco dei progetti in un programma o in un Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
+* [Visualizzare le informazioni sulle attività nel Diagramma di Gantt dell&#39;elenco dei progetti in un programma o in un Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
 
-  È ora possibile visualizzare le informazioni sulle attività di un progetto nel Diagramma di Gantt Elenco progetti all&#39;interno di un programma o di un Portfolio.
+  È ora possibile visualizzare le informazioni sulle attività di un progetto nel Diagramma di Gantt dell&#39;elenco dei progetti all&#39;interno di un programma o di un Portfolio.
 
 * [Accedere al Diagramma di Gantt elenco attività nei modelli](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#access)
 
@@ -90,7 +96,7 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Sono state migliorate le prestazioni e l’aspetto degli elenchi di progetti e attività in altre aree.
 
-* [Invia un report consegnato in formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [Inviare un rapporto consegnato in formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   Ora puoi pianificare un rapporto da consegnare in formato MS Excel (.xlsx), oltre a tutti gli altri formati correnti.
 
@@ -98,7 +104,7 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Ora puoi esportare le voci del registro di controllo in un file CSV. Puoi esportare fino a 50.000 voci di registro di controllo in un file CSV alla volta.
 
-* [La visualizzazione WBS in un elenco attività non è più disponibile facendo clic con il pulsante destro del mouse sulla colonna Numero attività](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [La visualizzazione WBS in un elenco di task non è più disponibile facendo clic con il pulsante destro del mouse sulla colonna Numero task](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   Non è più possibile fare clic con il pulsante destro del mouse sulla colonna Numero task in un elenco di task per visualizzare la Work Breakdown Structure (WBS) del progetto.
 
@@ -112,15 +118,15 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   È ora possibile utilizzare i caratteri jolly per creare filtri nella Programmazione delle risorse.
 
-* [Supporto per le variabili filtro con caratteri jolly basate sulla data nella Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [Supporto per le variabili filtro con caratteri jolly basate sulla data nella pianificazione risorse](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   È ora possibile utilizzare qualsiasi versione della variabile di filtro con caratteri jolly $$TODAY quando si crea un filtro in Pianificazione risorse.
 
-* [Opzioni di esportazione per la visualizzazione Ruolo nella Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [Opzioni di esportazione per la vista Ruolo nella Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   Nella visualizzazione Ruolo è ora possibile selezionare i livelli di informazioni da esportare dalla Programmazione delle risorse.
 
-* [Opzioni di formattazione dati per l&#39;esportazione della Programmazione risorse](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* [Opzioni di formattazione dei dati per l&#39;esportazione di Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   È ora possibile selezionare la modalità di visualizzazione delle informazioni nel file Excel quando vengono esportate dalla Programmazione delle risorse.
 
@@ -128,55 +134,55 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Le timeline di pianificazione ora mantengono l’intervallo temporale e il filtro quando aggiorni la timeline o esci dalla pagina.
 
-* [Nuove opzioni di esportazione nella Programmazione risorse](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
+* [Nuove opzioni di esportazione nella Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
 
   È ora possibile selezionare i livelli di informazioni da esportare dalla Programmazione delle risorse.
 
-* [Aggiornamento alla visualizzazione utente nella Programmazione risorse](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [Aggiornamento della Vista utente nella Programmazione delle risorse](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   Quando non si applicano filtri basati sull&#39;utente alla Programmazione delle risorse, tutti gli utenti del sistema vengono ora visualizzati nella Visualizzazione utente della Programmazione delle risorse.
 
 ### Miglioramenti bozza
 
-* [Contenuto interattivo bozza nel visualizzatore di bozze Web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [Contenuto interattivo della bozza nel visualizzatore di bozze web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   Se i criteri di sicurezza dell&#39;organizzazione non consentono l&#39;utilizzo dell&#39;app per il visualizzatore di bozze desktop autonomo, l&#39;amministratore di Workfront può ora abilitare il contenuto interattivo nel visualizzatore di bozze Web.
 
-* [L&#39;ordinamento predefinito per i commenti nel visualizzatore di bozze è ora dal meno recente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [L&#39;ordinamento predefinito per i commenti nel visualizzatore di bozze è ora dal meno recente al più recente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   Nel visualizzatore di bozze, l’ordine predefinito per i commenti su una bozza è ora Dal più vecchio al più recente, come in una conversazione verbale.
 
-* [Revisione avanzata per commenti nel visualizzatore di bozze associato a un intervallo di video](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [È stata migliorata la funzione di revisione per i commenti nel visualizzatore di bozze associato a una serie di video](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   Durante la revisione di un commento associato a un intervallo di metraggio video nel visualizzatore di prove, potete ora fare clic su Riproduci per visualizzare l&#39;intero intervallo di metraggio.
 
-* [Collega a dettagli documento da una notifica di bozza o dal visualizzatore di bozze](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
+* [Collegamento ai dettagli del documento da una notifica di bozza o dal visualizzatore di bozze](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
 
   Quando ricevi un’e-mail che ti invita a rivedere una bozza o stai esaminando una bozza nel visualizzatore di bozze, ora puoi accedere rapidamente alla pagina Dettagli documento per la bozza.
 
-* [Modifica le notifiche e-mail nel visualizzatore di bozze](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [Modificare le notifiche e-mail nel visualizzatore di bozze](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   Ora tutti i revisori di bozze possono specificare quali notifiche di bozze desiderano ricevere per una bozza. Ciò è particolarmente importante quando si collabora con soggetti esterni.
 
-* [Cambia il colore di sfondo nel visualizzatore di bozze per il desktop](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
+* [Modificare il colore di sfondo nel Visualizzatore bozze desktop](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
 
   Ora è possibile modificare il colore di sfondo del Visualizzatore bozze desktop dal colore quasi nero predefinito al bianco.
 
-* [Cancella i dati del browser memorizzati nella cache da una bozza](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [Cancellare i dati del browser memorizzati nella cache da una bozza](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   Ora è possibile cancellare i dati della cache del browser che potrebbero essere salvati con una bozza in modo che tutto il contenuto venga visualizzato nel Visualizzatore bozze desktop e che i revisori possano visualizzarlo e commentare.
 
 ### Miglioramenti per dispositivi mobili
 
-* [Nuova esperienza di ricerca mobile](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
+* [Nuova esperienza di ricerca per dispositivi mobili](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
 
   La ricerca di elementi nell’app mobile di Workfront è ora più semplice e intuitiva.
 
-* [Home è la nuova pagina di destinazione predefinita nelle app Workfront Mobile](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Home È la nuova pagina di destinazione predefinita delle app Workfront Mobile](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   L’area Home è ora la nuova pagina di destinazione predefinita per le app mobili Workfront. Questa funzione è supportata sia per i dispositivi iOS che per quelli Android.
 
-* [Nuove opzioni per l&#39;organizzazione degli elenchi nell&#39;app mobile di Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [Nuove opzioni per l’organizzazione degli elenchi nell’app mobile di Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   Ora puoi filtrare, ordinare e ordinare i tuoi elenchi nell’app mobile di Workfront.
 
@@ -184,32 +190,32 @@ La versione 2019.1 contiene miglioramenti sia per gli amministratori che per alt
 
   Ora puoi iscriverti come beta tester per l’app mobile Workfront da un dispositivo iOS.
 
-* [Creazione attività semplice per Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [Creazione di attività semplici per Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
   Ora è possibile creare attività direttamente da un progetto, un’attività o dalla sezione Home per la versione beta dell’app mobile di Android.
 
-* [Nuovo tutorial per la prima volta sull&#39;app mobile Workfront per dispositivi Android](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [Nuovo tutorial per la prima volta sull’app mobile Workfront per dispositivi Android](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
   L’aspetto dell’esercitazione che mostra il primo accesso all’app mobile Workfront su un dispositivo Android è stato aggiornato.
 
 ### Miglioramenti dell’integrazione di app di terze parti
 
-* [Miglioramenti di Workfront for Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Miglioramenti di Workfront per Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
-  In Workfront sono ora disponibili vari aggiornamenti a scopo di Slack, tra cui la possibilità di pubblicare un commento fatto in Slack come commento su un oggetto in Workfront, di iscriversi per ricevere una notifica in Slack quando qualcuno aggiunge un commento a una delle tue richieste e altro ancora.
+  In Workfront per Slack sono ora disponibili vari aggiornamenti, tra cui la possibilità di pubblicare un commento fatto in Slack come commento su un oggetto in Workfront, di iscriversi per ricevere una notifica in Slack quando qualcuno aggiunge un commento a una delle tue richieste e altro ancora.
 
-* [Workfront per miglioramenti Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Miglioramenti di Workfront per Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   L’integrazione Workfront for Jira ora contiene i vari miglioramenti, tra cui un’indicazione di quando l’integrazione crea automaticamente un utente in Jira, un’opzione per disabilitare la creazione automatica degli utenti Workfront e altro ancora.
 
-## Notifiche
+## Annunci
 
 * [La versione 10 dell&#39;API è ora disponibile in anteprima](#api-version-10-now-available-in-preview)
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 
 ### API versione 4 non più supportata
 
-Il supporto per la versione API 4 termina insieme alla versione 2019.1. Per ulteriori informazioni sulla pianificazione del supporto delle versioni dell’API di Workfront, consulta  [Controllo delle versioni e pianificazione del supporto API](../../../../wf-api/api/api-version-support-schedule.md).
+Il supporto per la versione API 4 termina insieme alla versione 2019.1. Per ulteriori informazioni sulla pianificazione del supporto per le versioni dell&#39;API Workfront, vedere [Gestione delle versioni e pianificazione del supporto API](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti dello strumento Agile
 

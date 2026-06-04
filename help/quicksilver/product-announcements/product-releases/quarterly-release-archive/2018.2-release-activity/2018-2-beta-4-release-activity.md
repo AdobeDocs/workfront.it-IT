@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 di Beta 4
+title: Attività sulla versione 2018.2 Beta 4
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 17 maggio 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 0%
+source-wordcount: 1700
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.2 di Beta 4
+# Attività sulla versione 2018.2 Beta 4
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 17 maggio 2018. Sarà disponibile nell’ambiente di produzione a luglio 2018.
 
@@ -22,7 +28,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta [Panoramica delle attività sulla versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 La versione 2018.2 di Beta 4 contiene i miglioramenti per gli amministratori di Workfront e altri utenti:
 
@@ -51,7 +57,7 @@ Ora è possibile configurare i limiti WIP (Work In Progress) per ogni colonna de
 
 Prima di questa modifica, era possibile configurare un solo limite WIP applicato a tutte le colonne della bacheca Kanban. 
 
-Per ulteriori informazioni, consulta la sezione  [Configurare il limite WIP](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) nell&#39;articolo  [Configura Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Per ulteriori informazioni, vedere la sezione [Configurare il limite WIP](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) nell&#39;articolo [Configurare Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Aggiorna il limite WIP direttamente dal Kanban Board
 
@@ -59,7 +65,7 @@ Ora i membri del team con diritti di modifica per il team possono aggiornare il 
 
 Prima di questa modifica, era possibile aggiornare il limite WIP solo dall&#39;area Impostazioni team.
 
-Per ulteriori informazioni, consulta  nell&#39;articolo .
+Per ulteriori informazioni, consulta l’articolo .
 
 ## È stata migliorata l’interfaccia per la configurazione degli stati per un team agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -71,7 +77,7 @@ L’interfaccia per la configurazione degli stati per un team Agile è stata agg
 Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Configura Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-* [Configura Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+* [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Elenco lavori aggiornato (pannello a sinistra) nell’area Home {#updated-work-list-left-panel-in-the-home-area}
 
@@ -145,7 +151,7 @@ Per risolvere alcuni problemi di prestazioni, è stata temporaneamente disabilit
 
 Per ulteriori informazioni sull&#39;esportazione dei dati di Programmazione delle risorse in Excel, vedere la sezione &quot;Opzione di esportazione&quot; in [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it)
+Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Impostazioni di sistema: Informazioni sulla sessione nelle pagine esterne {#system-setting-session-information-in-external-pages}
 

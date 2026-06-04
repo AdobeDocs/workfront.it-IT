@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2017.2 di Beta 2
+title: Attività sulla versione 2017.2 Beta 2
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 24 maggio 2017. Sarà disponibile nell’ambiente di produzione tra la fine di luglio e l’inizio di agosto 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 0%
+source-wordcount: 746
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2017.2 di Beta 2
+# Attività sulla versione 2017.2 Beta 2
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 24 maggio 2017. Sarà disponibile nell’ambiente di produzione tra la fine di luglio e l’inizio di agosto 2017.
 
@@ -59,7 +64,7 @@ Per ulteriori informazioni sull&#39;annullamento dell&#39;abbonamento alle e-mai
 
 ## Configurare la modalità di visualizzazione delle milestone nel diagramma di Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORREZIONE &#x200B;**: questa funzione non è attualmente disponibile nell&#39;ambiente Sandbox di anteprima. Il rilascio è previsto in una data successiva, nel corso del mese di giugno 2017.*
+***CORREZIONE **: questa funzione non è attualmente disponibile nell&#39;ambiente Sandbox di anteprima. Il rilascio è previsto in una data successiva, nel corso del mese di giugno 2017.*
 
 Sono ora disponibili due opzioni per visualizzare le informazioni sulle milestone in un diagramma di Gantt. Puoi configurare uno o entrambi i seguenti indicatori milestone:
 

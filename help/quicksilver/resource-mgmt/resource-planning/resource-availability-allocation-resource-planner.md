@@ -6,20 +6,26 @@ description: Nella Programmazione risorse è possibile visualizzare la disponibi
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 4%
+source-wordcount: 1200
+ht-degree: 8%
 
 ---
 
-# Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner
+# Rivedere la disponibilità e l’allocazione delle risorse utilizzando pianificazione risorse di Adobe Workfront
 
 Nella Programmazione risorse è possibile visualizzare la disponibilità delle risorse e la quantità di lavoro pianificato o preventivato per i progetti. Questi valori vengono visualizzati in Ore, FTE (Full Time Equivalent) o Importi costi e sono organizzati in colonne.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +36,7 @@ Nella Programmazione risorse è possibile visualizzare la disponibilità delle r
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Chiaro o superiore</p>
        <p>Revisione o successiva</p></td>
   </tr> 
@@ -45,7 +51,7 @@ Nella Programmazione risorse è possibile visualizzare la disponibilità delle r
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti che desideri visualizzare nella Programmazione delle risorse</p> </td> 
   </tr> 
  </tbody> 
@@ -132,7 +138,7 @@ Quando si modifica la visualizzazione in Pianificazione risorse, tenere presente
       <td role="rowheader">Costo</td> 
       <td> <p>Visualizza le informazioni sulla disponibilità e sull'allocazione in base al costo, se si sta visualizzando la Programmazione delle risorse nelle visualizzazioni Progetto o Ruolo. Le informazioni visualizzano i valori nella valuta del sistema. L'amministratore di Workfront definisce la valuta di sistema. Per ulteriori informazioni sull'impostazione della valuta di sistema in Workfront, vedere <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p> <p><b>NOTA</b>
 
-   È necessario associare utenti e mansioni alle tariffe Costo orario per visualizzare le informazioni sul costo nella Programmazione delle risorse.<br style="font-style: italic;">Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con le mansioni, vedere <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire le mansioni</a>.<br style="font-style: italic;">Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con gli utenti, vedere <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.<br style="font-style: italic;">Per ulteriori informazioni sul calcolo del costo nella Programmazione delle risorse, vedere <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcolare i costi nella Programmazione delle risorse </a>.</p> </td>
+   È necessario associare utenti e mansioni alle tariffe Costo orario per visualizzare le informazioni sui costi nella Programmazione risorse.<br style="font-style: italic;">Per ulteriori informazioni sull&#39;associazione delle tariffe Costo orario alle mansioni, vedere <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire le mansioni</a>.<br style="font-style: italic;">Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con gli utenti, vedere <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.<br style="font-style: italic;">Per ulteriori informazioni sul calcolo del costo nella Programmazione delle risorse, vedere <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calcolare i costi nella Programmazione delle risorse </a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Personalizza</td> 
@@ -202,7 +208,7 @@ Per visualizzare l&#39;allocazione degli utenti in un grafico:
    >
    >È possibile visualizzare il grafico di allocazione utente solo nella visualizzazione utente.
 
-1. Fai clic sull&#39;icona **RP_user_allocation_chart.png** del ![Grafico di allocazione utente](assets/rp-user-allocation-chart.png) per visualizzare le seguenti informazioni:
+1. Fai clic sull&#39;icona ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) del **Grafico di allocazione utente** per visualizzare le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 

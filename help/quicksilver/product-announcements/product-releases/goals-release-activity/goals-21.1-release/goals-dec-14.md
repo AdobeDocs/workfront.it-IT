@@ -2,15 +2,18 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Attività di rilascio di Adobe Workfront Goals 21.1: settimana del 14 dicembre 2020"
+title: 'Attività sulla versione di Adobe Workfront Goals 21.1: settimana del 14 dicembre 2020'
 description: Questa pagina descrive tutti i miglioramenti apportati con la versione 21.1 di Obiettivi di Adobe Workfront all’ambiente di anteprima nella settimana del 14 dicembre 2020. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nel primo trimestre del 21.1.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 40074630-92fe-4388-8b4b-bb73d06b1eba
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/wRS-w2UBHqAXS1-TNxh6khIKrqSBuyaoHTFhq74wdvM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 0%
+source-wordcount: 304
+ht-degree: 3%
 
 ---
 

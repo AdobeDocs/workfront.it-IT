@@ -1,19 +1,24 @@
 ---
-title: 22.4 Miglioramenti alla gestione delle risorse
-description: 22.4 Miglioramenti alla gestione delle risorse
+title: 22.4 - Miglioramenti per la gestione delle risorse
+description: 22.4 - Miglioramenti per la gestione delle risorse
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ueBUcnYjQ4xfw-CYYCwOw-3SNsRKK8Da5qOuDjdyBwk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: 409
+ht-degree: 6%
 
 ---
 
-# 22.4 Miglioramenti alla gestione delle risorse
+# 22.4 - Miglioramenti per la gestione delle risorse
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 22.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
 
@@ -25,7 +30,7 @@ Per consentirti di avere visibilità su tutti gli utenti nel sistema e sulla lor
 
 Per ulteriori informazioni, consulta [Assegnare il lavoro nel Bilanciatore dei carichi di lavoro trascinandolo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Mostra tutti gli utenti con una mansione selezionata nel Bilanciatore dei carichi di lavoro durante l’assegnazione del lavoro in blocco
 
@@ -39,7 +44,7 @@ Prima di questo miglioramento, era possibile visualizzare solo l’elenco degli 
 
 Per informazioni sull&#39;assegnazione del lavoro in blocco tramite il Bilanciatore dei carichi di lavoro, vedere [Assegnare il lavoro in blocco tramite il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Miglioramenti al Bilanciatore dei carichi di lavoro per gli utenti con licenza Lavoro e impostazioni dei problemi
 
@@ -55,5 +60,5 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Gestire le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

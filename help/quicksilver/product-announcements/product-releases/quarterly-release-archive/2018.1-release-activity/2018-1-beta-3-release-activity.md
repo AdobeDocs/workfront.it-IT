@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.1 di Beta 3
+title: Attività sulla versione 2018.1 Beta 3
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 7 gennaio 2018. Sarà disponibile nell’ambiente di produzione all’inizio del 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.1 di Beta 3
+# Attività sulla versione 2018.1 Beta 3
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 3. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 7 gennaio 2018. Sarà disponibile nell’ambiente di produzione all’inizio del 2018.
 
@@ -22,7 +28,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.1, consulta  Panoramica dell&#39;attività della versione di [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.1, consulta [Panoramica delle attività sulla versione 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 La versione 2018.1 di Beta 3 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -188,7 +194,7 @@ I problemi ora sono inclusi per impostazione predefinita nel backlog del team Ag
 
 Prima di questa modifica, era possibile aggiungere al backlog solo le attività. Se desideri aggiungere un problema, devi prima convertirlo in un’attività prima di poterlo aggiungere.
 
-Per informazioni sull’utilizzo dei problemi nel backlog, consulta  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Per informazioni sull&#39;utilizzo dei problemi nel backlog, vedere [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Applicare raggruppamenti e filtri al backlog per un team agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +202,7 @@ Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, conse
 
 Prima di questa modifica, era possibile applicare sulle viste il backlog Agile.
 
-Per ulteriori informazioni, consulta  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Per ulteriori informazioni, consulta [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Creare un’iterazione vuota e aggiornarla in un secondo momento {#create-a-blank-iteration-and-update-it-later}
 

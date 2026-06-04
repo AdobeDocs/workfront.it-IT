@@ -5,12 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/s8T1ziXqzEOn8yipB5UdM-nShwJhYbCPNfIycC3GjYw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 23%
+source-wordcount: 335
+ht-degree: 27%
 
 ---
 
@@ -24,9 +29,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Produzione per tutti i clienti: venerdì 6 marzo 2025
+>Produzione per tutti i clienti: 6 marzo 2025
 
-Workfront ora dispone di versioni delle sottoscrizioni agli eventi. La nuova versione non è una modifica all’API Workfront, ma piuttosto una modifica alla funzionalità di abbonamento agli eventi.
+Workfront ora dispone di versioni delle sottoscrizioni agli eventi. Questa nuova versione non cambia l’API Workfront, ma la funzionalità di sottoscrizione eventi.
 
 La possibilità di aggiornare o eseguire il downgrade delle sottoscrizioni eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, le sottoscrizioni esistenti non vengano interrotte, consentendo di testarle e aggiornarle alla nuova versione senza interruzioni nella sottoscrizione eventi.
 

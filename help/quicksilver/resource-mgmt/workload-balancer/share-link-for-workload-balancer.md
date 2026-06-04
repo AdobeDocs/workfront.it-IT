@@ -6,20 +6,26 @@ description: È possibile condividere il Bilanciatore dei carichi di lavoro con 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/MORtojfX-Dbzm-sI-D-zYirqaNrbYwDtBe-LNXh8xYM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 1%
+source-wordcount: 675
+ht-degree: 6%
 
 ---
 
-# Condividere il Bilanciatore dei carichi di lavoro con un collegamento
+# Condividere il bilanciamento dei carichi di lavoro con un collegamento
 
 Puoi condividere il Bilanciatore dei carichi di lavoro con altri utenti che potrebbero non avere l’area Risorse disponibile nel menu principale. Per informazioni sull&#39;utilizzo del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +36,7 @@ Puoi condividere il Bilanciatore dei carichi di lavoro con altri utenti che potr
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -40,13 +46,13 @@ Puoi condividere il Bilanciatore dei carichi di lavoro con altri utenti che potr
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li> 
     </ul>
    </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</td> 
   </tr> 
  </tbody> 

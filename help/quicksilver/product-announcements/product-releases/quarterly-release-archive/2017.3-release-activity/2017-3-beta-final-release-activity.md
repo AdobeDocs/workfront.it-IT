@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione finale 2017.3 di Beta
+title: Attività sulla versione 2017.3 Beta finale
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale 2017.3 di Beta. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 12 settembre 2017. Sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: 3709
 ht-degree: 0%
 
 ---
 
-# Attività sulla versione finale 2017.3 di Beta
+# Attività sulla versione 2017.3 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale 2017.3 di Beta. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 12 settembre 2017. Sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 
@@ -22,7 +28,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2017.3, consulta  Panoramica sull&#39;attività della versione [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2017.3, consulta [Panoramica delle attività sulla versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 La versione finale 2017.3 di Beta contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -139,9 +145,9 @@ Prima di questa modifica, era possibile aggiungere al backlog solo le attività.
 
 Poiché ora è possibile accedere a più attività del backlog, tutte le visualizzazioni delle attività personalizzate disponibili in precedenza nel backlog vengono copiate e aggiunte al backlog come visualizzazioni personalizzate degli elementi di lavoro del backlog.
 
-Per informazioni sull’utilizzo dei problemi nel backlog, consulta  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Per informazioni sull&#39;utilizzo dei problemi nel backlog, vedere [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Per informazioni sull’abilitazione della disponibilità dei problemi nel backlog di un team Scrum di Agile, consulta  [Configurare le modalità di applicazione delle date quando si aggiungono elementi di lavoro a un&#39;iterazione](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Per informazioni sull&#39;attivazione della disponibilità dei problemi nel backlog di un team Scrum Agile, vedere [Configurare le modalità di applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Includi problemi nella bacheca delle storie di Scrum Agile {#include-issues-on-the-scrum-agile-story-board}
 
@@ -163,7 +169,7 @@ Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, conse
 
 Prima di questa modifica, era possibile applicare sulle viste il backlog Agile.
 
-Per ulteriori informazioni, consulta  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Per ulteriori informazioni, consulta [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formattazione Rich Text per aggiornamenti e e-mail {#rich-text-formatting-for-updates-and-emails}
 
@@ -290,7 +296,7 @@ Il visualizzatore HTML include le seguenti nuove funzionalità durante la verifi
 
 * Navigare tra le bozze tramite le miniature delle bozze
 
-   * Identifica facilmente la parte della bozza che viene esaminata. Questo è importante, soprattutto quando gli utenti lavorano con bozze di formato più grandi e pagine web lunghe, o in qualsiasi momento  è necessario un livello di zoom più grande per visualizzare i dettagli.
+   * Identifica facilmente la parte della bozza che viene esaminata. Questo è importante, soprattutto quando gli utenti lavorano con bozze di formato più grandi e pagine web lunghe, o in qualsiasi momento è necessario un livello di zoom più grande per visualizzare i dettagli.
    * Modificare il livello di zoom
    * Sposta il contenuto
 
@@ -448,7 +454,7 @@ Per ulteriori informazioni sull&#39;accesso a Workfront da Slack, vedere [Utiliz
 
 ## Miglioramenti di Outlook 365 {#outlook-365-improvements}
 
-Sono stati apportati i seguenti miglioramenti al componente aggiuntivo Workfront per  Outlook 365:
+Sono stati apportati i seguenti miglioramenti al componente aggiuntivo Workfront per Outlook 365:
 
 * Aggiungere un’attività o un problema a un progetto in Workfront: ora è possibile convertire un’e-mail in un’attività o un problema in Workfront utilizzando il componente aggiuntivo Outlook 365. In questo processo, puoi specificare un progetto a cui desideri aggiungere l’attività o il problema, nonché un assegnatario e una data di scadenza. Prima di questo miglioramento, era possibile inviare una richiesta solo a una coda di richieste o aggiungere un’attività personale all’elenco Lavori in Outlook 365. 
 * Mantenere un collegamento agli oggetti di Workfront nell&#39;e-mail originale convertito in attività, problemi o richieste: quando si converte un messaggio e-mail da Outlook 365 a un&#39;attività, un problema o una richiesta, Outlook 365 mantiene un collegamento all&#39;attività o al problema convertito da tale messaggio e-mail nell&#39;e-mail originale. Prima di questa modifica, in Outlook non era indicato se un messaggio e-mail fosse stato convertito in un’attività o inviato come richiesta. 

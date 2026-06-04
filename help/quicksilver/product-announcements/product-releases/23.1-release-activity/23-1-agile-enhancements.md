@@ -1,19 +1,23 @@
 ---
-title: 23.1 Miglioramenti di Agile
-description: 23.1 Miglioramenti di Agile
+title: 23.1 - Miglioramenti per la metodologia Agile
+description: 23.1 - Miglioramenti per la metodologia Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 899
+ht-degree: 1%
 
 ---
 
-# 23.1 Miglioramenti di Agile
+# 23.1 - Miglioramenti per la metodologia Agile
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 23.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
@@ -43,7 +47,7 @@ La data di scadenza sia sulle schede collegate che su quelle ad hoc ora include 
 
 Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Le voci dell’elenco di controllo della bacheca e le sottoattività di Workfront sono ora collegate
 
@@ -57,7 +61,7 @@ In precedenza, le voci degli elenchi di controllo e le sottoattività non erano 
 
 Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestire gli elementi dell&#39;elenco di controllo nelle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Colonne del contatore della carta sulla bacheca
 
@@ -121,7 +125,7 @@ L’elenco dei filtri su una bacheca ora include l’opzione per filtrare in bas
 
 Per ulteriori informazioni, consulta [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archiviare le schede da una bacheca in base a una pianificazione
 
@@ -135,4 +139,4 @@ Se si desidera visualizzare di nuovo le schede dopo che cadono dalla bacheca, è
 
 Per ulteriori informazioni, vedere [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412323/){target=_blank}

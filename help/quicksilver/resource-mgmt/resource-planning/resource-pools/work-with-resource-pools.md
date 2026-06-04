@@ -6,14 +6,19 @@ description: In qualità di responsabile delle risorse, puoi gestire le tue riso
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+TQID: https://experienceleague.adobe.com/ZQdzgCsLVITuWGbOaXfjbnk90MUGr3KFJ7xXJdrAK30
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 0%
+source-wordcount: 484
+ht-degree: 5%
 
 ---
 
-# Panoramica sui pool di risorse
+# Panoramica pool di risorse
 
 <!--Audited: 10/2024-->
 
@@ -32,7 +37,7 @@ Per informazioni sulla creazione e la gestione dei pool di risorse, vedere gli a
 
 ## Panoramica dei gruppi di risorse
 
-* Un Pool di Risorse è una raccolta di utenti necessari contemporaneamente per il completamento di un progetto.
+* Un pool di risorse è un insieme di utenti necessari contemporaneamente per il completamento di un progetto.
 * Un Pool di Risorse può essere condiviso tra più progetti, programmi o portfolio quando è associato a tutti i progetti inclusi nei programmi e nei portfolio.
 * È possibile creare un Pool di Risorse e popolarlo con utenti esistenti al momento della creazione, oppure creare il Pool di Risorse e associarlo a un utente esistente o a un nuovo utente durante la creazione o la modifica dell&#39;utente.
 * Dopo aver popolato i gruppi di risorse con gli utenti, puoi associarli a progetti e modelli e gestire l’allocazione degli utenti ai progetti in modo più efficiente.

@@ -1,20 +1,24 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Miglioramenti all’elenco 2019.4
+title: Miglioramenti per l’elenco 2019.4
 description: Questa pagina descrive tutti i miglioramenti all’elenco apportati con la versione 2019.4 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana dell’11 novembre 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 4%
+source-wordcount: 541
+ht-degree: 5%
 
 ---
 
-# Miglioramenti all’elenco 2019.4
+# Miglioramenti per l’elenco 2019.4
 
 >[!IMPORTANT]
 >
@@ -37,9 +41,9 @@ Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica su
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Nuova struttura applicata agli elenchi per report, attività modello, Portfoli e altro ancora</strong> <p>Importante: questi miglioramenti sono stati rimossi dall’ambiente di anteprima l’8 novembre 2019 e non saranno inclusi nella versione 2019.4 in Produzione. Questi miglioramenti verranno aggiunti nuovamente all’ambiente di anteprima dopo la versione 2019.4 in Produzione e saranno resi disponibili per la Produzione in una versione futura.</p> <p>Il nuovo progetto di elenco è ora disponibile nei seguenti elenchi:</p> 
+   <td><strong>Nuova struttura applicata agli elenchi per report, attività modello, portafogli e altro ancora</strong> <p>Importante: questi miglioramenti sono stati rimossi dall’ambiente di anteprima l’8 novembre 2019 e non saranno inclusi nella versione 2019.4 in Produzione. Questi miglioramenti verranno aggiunti nuovamente all’ambiente di anteprima dopo la versione 2019.4 in Produzione e saranno resi disponibili per la Produzione in una versione futura.</p> <p>Il nuovo progetto di elenco è ora disponibile nei seguenti elenchi:</p> 
     <ul> 
-     <li>Report </li> 
+     <li>Rapporti </li> 
      <li>Problemi</li> 
      <li>Argomenti Coda </li> 
      <li>Gruppi di argomenti </li> 
@@ -60,7 +64,7 @@ Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica su
      <li> <p>Dashboard </p> </li> 
      <li> <p>Iterazioni </p> </li> 
      <li> <p>Programmi </p> </li> 
-     <li> <p>Gruppi di risorse </p> </li> 
+     <li> <p>Pool di risorse </p> </li> 
      <li> <p>Modelli </p> </li> 
      <li> <p>Schede orario </p> </li> 
      <li> <p>Utenti </p> </li> 

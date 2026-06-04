@@ -6,12 +6,17 @@ description: È possibile aggiungere un quadro comandi Area di lavoro a un model
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9-sg6w3YqcyIcxIyy4L9lt07WgWcACRaX1CmOXQUTqc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 11%
+source-wordcount: 510
+ht-degree: 14%
 
 ---
 
@@ -20,8 +25,8 @@ ht-degree: 11%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Questa versione beta non è disponibile nei seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -92,7 +97,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Nel menu a discesa a destra di **Scegli un dashboard**, seleziona il dashboard Area di lavoro da aggiungere al pannello sinistro.
 
-1. Fare clic su **Aggiungi**. Il quadro comandi viene visualizzato nella sezione sinistra del pannello.
+1. Fai clic su **Aggiungi**. Il quadro comandi viene visualizzato nella sezione sinistra del pannello.
 
 1. Fai clic su **Salva**.
 
@@ -117,7 +122,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Nel menu a discesa a destra di **Scegli un dashboard**, seleziona il dashboard Area di lavoro da aggiungere alla barra superiore.
 
-1. Fare clic su **Aggiungi**. Il quadro comandi viene visualizzato nella barra superiore.
+1. Fai clic su **Aggiungi**. Il quadro comandi viene visualizzato nella barra superiore.
 
 1. Fai clic su **Salva**.
 

@@ -6,14 +6,20 @@ description: Puoi assegnare risorse a più attività e problemi in blocco utiliz
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 1%
+source-wordcount: 1536
+ht-degree: 4%
 
 ---
 
-# Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro
+# Assegnare il lavoro in blocco utilizzando il bilanciamento dei carichi di lavoro
 
 <!--Audited: 07/2024-->
 
@@ -23,7 +29,7 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +40,7 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
    <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
   </tr>
@@ -44,13 +50,13 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
     <ul> 
      <li>Gestione risorse</li> 
      <li>Progetti</li> 
-     <li>Attività</li> 
+     <li>Tasks</li> 
      <li>Problemi</li> 
     </ul>
    </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 

@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2017.3 di Beta 4
+title: Attività sulla versione 2017.3 Beta 4
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.3 di Beta 4. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima la settimana del 25 settembre 2017. Sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: 1625
 ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2017.3 di Beta 4
+# Attività sulla versione 2017.3 Beta 4
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2017.3 di Beta 4. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima la settimana del 25 settembre 2017. Sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 
@@ -22,7 +28,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2017.3, consulta  Panoramica sull&#39;attività della versione [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2017.3, consulta [Panoramica delle attività sulla versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 La versione 2017.3 di Beta 4 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -52,7 +58,7 @@ La versione 2017.3 di Beta 4 contiene miglioramenti sia per gli amministratori d
 
 Prima di questa modifica, è possibile copiare un&#39;attività in un nuovo progetto o nel progetto esistente e modificare alcune informazioni copiate.
 
-Per  per ulteriori informazioni sulla duplicazione delle attività, vedere [Copia e duplica attività](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Per ulteriori informazioni sulla duplicazione delle attività, vedere [Copia e duplica attività](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Automatizzare Le Assegnazioni Durante La Programmazione Delle Risorse {#automate-assignments-when-scheduling-resources}
 
@@ -119,7 +125,7 @@ Per ulteriori informazioni sul salvataggio e la gestione dei filtri nel report U
 
 ## Opzioni di filtro aggiuntive nel rapporto Utilizzo {#additional-filtering-options-in-the-utilization-report}
 
-Ora, quando si esegue il rapporto Utilizzo, sono disponibili nuovi campi di filtro per Portfoli, Programmi e Progetti al momento della creazione del filtro, oltre ai campi Attività, Problemi e Ruoli precedentemente disponibili.
+Ora, quando si esegue il rapporto Utilizzo, sono disponibili nuovi campi di filtro per Portfolio, Programmi e Progetti al momento della creazione del filtro, oltre ai campi Attività, Problemi e Ruoli precedentemente disponibili.
 
 Prima di questa modifica, era possibile filtrare per portfolio, programma e progetto solo aggiungendo una nuova regola di filtro.
 
@@ -133,7 +139,7 @@ Per facilitare questa modifica, la scheda Utilizzo è ora disponibile sia nell�
 
 Prima di questa modifica, era possibile accedere ai rapporti sull’utilizzo solo all’interno di un progetto.
 
-Per ulteriori informazioni, consulta  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+Per ulteriori informazioni, vedere [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
 
 ## Mostra le informazioni originali sulla Issue nei Report di Progetto e Attività {#show-original-issue-information-in-project-and-task-reports}
 

@@ -7,14 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+TQID: https://experienceleague.adobe.com/Uw-GZ6jC47lwEz09WWDrABL5cZfBtE6-PAAs9sgG2oI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: 392
+ht-degree: 14%
 
 ---
 
-# Attività della versione del quarto trimestre 2024 per Adobe Workfront Planning
+# Attività sul rilascio del quarto trimestre 2024 di Pianificazione di Adobe Workfront
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2024.
 
@@ -58,7 +64,7 @@ Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/qui
 >
 >Versione di anteprima: 28 agosto 2024; versione di produzione per tutti i clienti: 28 agosto 2024
 
-Adobe Workfront Planning è una nuova offerta di Adobe Workfront. Lo scopo di Workfront Planning è quello di offrire una visibilità completa dei dettagli operativi di un&#39;organizzazione e di rispondere alle domande aziendali critiche in ogni fase del ciclo di vita della gestione del lavoro.
+Adobe Workfront Planning è una nuova offerta di Adobe Workfront. Lo scopo della Pianificazione di Workfront è quello di offrire una visibilità completa dei dettagli operativi di un’organizzazione e di rispondere alle domande aziendali critiche in ciascuna fase del ciclo di vita della gestione del lavoro.
 
 Di seguito sono riportate alcune delle funzionalità principali di Adobe Workfront Planning:
 
@@ -68,4 +74,4 @@ Di seguito sono riportate alcune delle funzionalità principali di Adobe Workfro
 
 * Connettersi a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
-Per ulteriori informazioni su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Per ulteriori informazioni su Pianificazione di Workfront, consulta [Introduzione a Pianificazione di Workfront di Adobe](/help/quicksilver/planning/general/planning-overview.md).

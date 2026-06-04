@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Miglioramenti alla pianificazione delle risorse 2019.3
+title: Miglioramenti per la pianificazione delle risorse 2019.3
 description: Questa pagina descrive tutte le modifiche apportate ai miglioramenti di Resource Planning con la versione 2019.3. È stato reso disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 181174af-48b6-4b97-838d-f63551748b02
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/jBEBRx-RGLF4Rqrz9IguBu8-c4TSjGAuRB0U91okFlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 0%
+source-wordcount: 357
+ht-degree: 2%
 
 ---
 
-# Miglioramenti alla pianificazione delle risorse 2019.3
+# Miglioramenti per la pianificazione delle risorse 2019.3
 
 Questa pagina descrive tutte le modifiche apportate ai miglioramenti di Resource Planning con la versione 2019.3. È stato reso disponibile nell’ambiente di produzione la settimana del 19 agosto 2019.
 

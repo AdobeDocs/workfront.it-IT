@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2799'
-ht-degree: 8%
+source-wordcount: 2948
+ht-degree: 5%
 
 ---
 
@@ -74,7 +80,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 22 giugno 2023</p>
+                                <p>Versione di anteprima: 22 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione: con la versione 23.3</p>
@@ -90,7 +96,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 4 maggio 2023</p>
+                                <p>Versione di anteprima: 4 maggio 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 18 maggio 2023</span></p>
@@ -106,7 +112,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: sabato 21 luglio 2023</p>
+                                <p>Versione di anteprima: 21 luglio 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione: 21 luglio 2023</p>
@@ -141,7 +147,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 29 giugno 2023</p>
+                                <p>Versione di anteprima: 29 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
@@ -157,7 +163,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 22 giugno 2023</p>
+                                <p>Versione di anteprima: 22 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
@@ -205,7 +211,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 15 giugno 2023</p>
+                                <p>Versione di anteprima: 15 giugno 2023</p>
                             </li>
                             <li>
                                  <p>Versione di produzione per consenso anticipato: 22 giugno 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite consenso anticipato per le schede madri Workfront.</span></p>
@@ -222,7 +228,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: sabato 19 maggio 2023</p>
+                                <p>Versione di anteprima: 19 maggio 2023</p>
                             </li>
                             <li>
                                  <p><span class="preview">Versione di produzione: 19 maggio 2023</span></p>
@@ -238,7 +244,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 10 maggio 2023<br /></p>
+                                <p>Versione di anteprima: 10 maggio 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versione di produzione per il consenso anticipato: 10 maggio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
@@ -255,7 +261,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 27 aprile 2023<br /></p>
+                                <p>Versione di anteprima: 27 aprile 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
@@ -272,7 +278,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 20 aprile 2023<br /></p>
+                                <p>Versione di anteprima: 20 aprile 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
@@ -289,7 +295,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 20 aprile 2023<br /></p>
+                                <p>Versione di anteprima: 20 aprile 2023<br /></p>
                             </li>
                             <li>
                                  <s><p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p></s>
@@ -308,7 +314,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 20 aprile 2023<br /></p>
+                                <p>Versione di anteprima: 20 aprile 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione per tutti i clienti: 27 aprile 2023</span></p>
@@ -324,7 +330,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 13 aprile 2023<br /></p>
+                                <p>Versione di anteprima: 13 aprile 2023<br /></p>
                             </li>
                             <li>
                                  <p>Versione di produzione per il consenso anticipato: 13 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</p>
@@ -360,7 +366,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 29 giugno 2023</p>
+                                <p>Versione di anteprima: 29 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
@@ -463,7 +469,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 11 maggio 2023</p>
+                                <p>Versione di anteprima: 11 maggio 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 24 maggio 2023</span></p>
@@ -479,7 +485,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 10 maggio 2023</p>
+                                <p>Versione di anteprima: 10 maggio 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 10 maggio 2023</span></p>
@@ -495,7 +501,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 10 maggio 2023</p>
+                                <p>Versione di anteprima: 10 maggio 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 10 maggio 2023</span></p>
@@ -511,7 +517,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 27 aprile 2023</p>
+                                <p>Versione di anteprima: 27 aprile 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 27 aprile 2023</span></p>
@@ -563,7 +569,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 22 giugno 2023<br /></p>
+                                <p>Versione di anteprima: 22 giugno 2023<br /></p>
                             </li>
                             <li>
                                 <p>Versione di produzione: con la versione 23.3</p>
@@ -633,7 +639,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: sabato 23 giugno 2023</p>
+                                <p>Versione di anteprima: 23 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Versione di produzione: con la versione 23.3</p>
@@ -715,7 +721,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: martedì 5 giugno 2023<br /></p>
+                                <p>Versione di anteprima: 5 giugno 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 5 giugno 2023</span></p>
@@ -762,11 +768,11 @@ Nuove funzioni in arrivo in Workfront Proof rilasciate entro l’arco temporale 
 
 Nuove funzioni in arrivo per il rilascio di Workfront Goals entro l’arco temporale di rilascio 23.3. Per informazioni su queste nuove funzioni ora disponibili in Anteprima, vedi [Obiettivi di Adobe Workfront con la versione 23.3](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
-### Versione 16 dell’API
+### API versione 16
 
-Nella versione 16 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Per API versione 16, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 16 dell’API](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

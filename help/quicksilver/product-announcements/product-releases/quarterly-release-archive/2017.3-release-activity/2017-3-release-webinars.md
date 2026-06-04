@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 3%
 
 ---
 
@@ -47,7 +52,7 @@ Per comodità, il webinar è suddiviso nei seguenti argomenti:
 
 ## Workfront 2017.3 - Versioni di anteprima di settembre {#workfront-2017-3-september-preview-releases}
 
-Il webinar sulle versioni di anteprima di settembre 2017.3 di Workfront è stato presentato dal team di preparazione alla versione di Workfront il 26 settembre 2017 alle 9:00 MT. Questo webinar si concentra sulla nuova funzionalità che è stata resa disponibile in Anteprima durante il mese di settembre.
+Il webinar sulle versioni di anteprima di settembre di Workfront 2017.3 è stato presentato dal team di preparazione alla versione di Workfront il 26 settembre 2017 alle 9:00 AM MT. Questo webinar si concentra sulla nuova funzionalità che è stata resa disponibile in Anteprima durante il mese di settembre.
 
 ## Webinar Workfront 2017.3 Beta 1 e Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 

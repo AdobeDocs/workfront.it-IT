@@ -2,20 +2,24 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "Pianificazione risorse: indice articolo"
+title: 'Pianificazione delle risorse: indice degli articoli'
 description: Gli articoli in questa sezione contengono informazioni sulle funzionalità nelle sezioni Planner e Pool di Risorse dell’area Risorse di Adobe Workfront.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+TQID: https://experienceleague.adobe.com/cb6LwMjZZtsTQHV68s3iuhld-GK4uWv06KzRLcOwGp0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: 207
+ht-degree: 9%
 
 ---
 
-# Pianificazione risorse: indice articolo
+# Pianificazione delle risorse: indice degli articoli
 
 <!-- Audited: 2/2024 -->
 
@@ -41,7 +45,7 @@ Questa sezione contiene i seguenti articoli:
 * [Filtra le informazioni nella Programmazione delle risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md)
 * [Esporta informazioni dalla Programmazione risorse](../../resource-mgmt/resource-planning/export-resource-planner.md)
 * [Rapporto sulle ore preventivate della Programmazione delle risorse](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
-* [Limitazioni della visualizzazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+* [Limitazioni di visualizzazione di pianificazione risorse](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/track-user-utilization.md" class="MCXref xref" xrefformat="{para}">Track User Utilization information</a> </li>
