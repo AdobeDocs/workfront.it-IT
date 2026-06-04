@@ -21,16 +21,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 1021
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Introduzione a [!DNL Priorities]
-
-{{preview-fast-release-general}}
 
 Priorities è un’esperienza semplice e intuitiva, personalizzata per i titolari delle attività. Le priorità verranno implementate in fasi, a partire dall’elenco di lavoro.
 
@@ -42,7 +40,7 @@ Con Priorities, puoi godere
 
 Nell&#39;elenco di lavoro e nel calendario Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team.
 
-<span class="preview">Un amministratore Workfront può abilitare le priorità per l&#39;utente nel modello di layout. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
+Un amministratore Workfront può abilitare le priorità per l’utente nel modello di layout. Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Trovare e organizzare il lavoro
 

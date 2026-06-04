@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 10%
@@ -76,7 +76,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 {{step1-to-priorities}}
 
 1. Nell&#39;elenco lavori, passa il puntatore del mouse sul nome dell&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
-1. Fai clic su **Progetto** nella parte superiore del pannello Riepilogo. Qui è possibile
+1. Fai clic su **Progetto** nella parte superiore del pannello Riepilogo. Qui è possibile:
    * Visualizzare e modificare i dettagli e la descrizione del progetto
    * Visualizzare e aggiungere commenti al progetto
    * Registra ore
@@ -90,7 +90,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 {{step1-to-priorities}}
 
 1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
-1. Attività selezionata per impostazione predefinita. Qui è possibile
+1. Attività selezionata per impostazione predefinita. Qui è possibile:
    * Visualizzare e modificare i dettagli e la descrizione del progetto e dell&#39;attività
    * Visualizzare e aggiungere commenti al progetto
    * Visualizzare e aggiungere documenti
@@ -127,7 +127,7 @@ Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un�
 
 {{step1-to-priorities}}
 
-1. Nell&#39;elenco lavori fare clic sul nome dell&#39;elemento di lavoro. Nella pagina Dettagli puoi:
+1. Nell&#39;elenco lavori fare clic sul nome dell&#39;elemento di lavoro. Nella pagina Dettagli è possibile:
 
 * Visualizzare e modificare i dettagli e la descrizione del progetto
 * Visualizzare e aggiungere commenti al progetto
