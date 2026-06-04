@@ -3,19 +3,28 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: Domande frequenti - Revisione delle bozze
+title: Domande frequenti - Rivedere le bozze
 description: I revisori ospiti, che non dispongono di propri accessi a ProofHQ, accedono alle proprie bozze utilizzando il collegamento [!UICONTROL Vai alla bozza] nelle e-mail che ricevono. Gli utenti possono accedere alle bozze dalle e-mail e anche utilizzare il dashboard nell’account. Dalla vista della dashboard, puoi dare un'occhiata a un elenco di bozze che richiedono la loro decisione e accedervi con un clic facendo clic sull'icona blu [!UICONTROL Vai alla bozza].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+TQID: https://experienceleague.adobe.com/ugmfko-cMBK-g6po1pPQ4RQKAZ3pEbe4PkRf2EUb2C0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: 1127
 ht-degree: 0%
 
 ---
 
-# Domande frequenti - Revisione delle bozze
+# Domande frequenti - Rivedere le bozze
 
 >[!IMPORTANT]
 >
@@ -59,7 +68,7 @@ Lo strumento per l&#39;annotazione di testo disponibile in [!UICONTROL Proof Vie
 
 * highlight: evidenzia il testo e lo copia nella casella commento
 * replace - copia il testo e aggiunge [[!UICONTROL REPLACE]] e [[!UICONTROL WITH]] nella casella commento, in modo da poter suggerire facilmente il testo sostitutivo
-* delete - consente di barrare il testo e di aggiungere [[!UICONTROL DELETE]] alla casella commento
+* delete - visualizza il testo e aggiunge [[!UICONTROL DELETE]] alla casella commento
 * inserisci dopo: consente di suggerire facilmente il testo da inserire dopo la frase evidenziata
 
 Se il testo che si desidera utilizzare viene salvato in un documento separato, è possibile utilizzare le scelte rapide da tastiera (Ctrl+C e Ctrl+V su un PC, Comando+C e Comando+V su un [!DNL Mac]) per copiarlo e incollarlo nella casella [!UICONTROL Commento].

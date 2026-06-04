@@ -7,10 +7,17 @@ description: È possibile creare visualizzazioni personalizzate dei file e delle
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 0%
+source-wordcount: 2482
+ht-degree: 1%
 
 ---
 
@@ -87,7 +94,7 @@ Per creare una visualizzazione personalizzata:
       <td>Mostra una parte della bozza caricata sul tuo account (devi avere un contatore di bozze abilitato in Impostazioni account).</td>
       </tr>
       <tr>
-      <td><strong>Creazione completata</strong></td>
+      <td><strong>Creato</strong></td>
       <td>Data e ora di creazione dell'elemento.</td>
       </tr>
       <tr>
@@ -280,9 +287,9 @@ Per creare una visualizzazione personalizzata:
    ![Opzioni di visualizzazione](assets/proof-view-options.png)\
    Viene visualizzata la pagina Modifica visualizzazione personalizzata.
 
-1. Fai clic sul menu [!UICONTROL Azioni]. 3)\
+1. Fai clic sul menu [!UICONTROL Azioni]. (3)\
    Questo pulsante è disponibile solo se nella vista è inclusa la colonna Nome bozza.
-1. Selezionare [!UICONTROL Modifica visualizzazione] dal menu. 4) \
+1. Selezionare [!UICONTROL Modifica visualizzazione] dal menu. (4) \
    ![modifica_visualizzazione_personalizzata_2.png](assets/editing-custom-view-2-350x258.png)
 
 1. Viene visualizzata la pagina Modifica vista personalizzata.
@@ -303,12 +310,12 @@ Per copiare una visualizzazione personalizzata:
 1. Vai alla pagina **[!UICONTROL Visualizzazioni]**.\
    Per ulteriori informazioni sulle visualizzazioni, vedere [Gestione elementi nella pagina Visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]**. 1)
-1. Selezionare la visualizzazione personalizzata dall&#39;elenco. 2)
-1. Fare clic sul menu **[!UICONTROL Azioni]**. 3)\
+1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]**. (1)
+1. Selezionare la visualizzazione personalizzata dall&#39;elenco. (2)
+1. Fare clic sul menu **[!UICONTROL Azioni]**. (3)\
    Questo pulsante è disponibile solo se nella vista è inclusa la colonna Nome bozza.
 
-1. Seleziona [!UICONTROL Copia] dal menu. 4)\
+1. Seleziona [!UICONTROL Copia] dal menu. (4)\
    ![copia_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Nella pagina Copia visualizzazione personalizzata vengono inserite tutte le impostazioni originali. Modifica la visualizzazione personalizzata in base alla tua scelta e fai clic sul pulsante **[!UICONTROL Copia visualizzazione]**. Verrà immediatamente visualizzata la nuova visualizzazione.\
@@ -325,7 +332,7 @@ Per condividere una visualizzazione personalizzata con altri utenti:
 
 1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]** (1)
 1. Seleziona la Vista personalizzata dall’elenco (2)
-1. Fare clic sul menu **[!UICONTROL Azioni]**. 3)\
+1. Fare clic sul menu **[!UICONTROL Azioni]**. (3)\
    Questo pulsante è disponibile solo se nella vista è inclusa la colonna Nome bozza.
 
 1. Seleziona [!UICONTROL Condividi visualizzazione] dal menu (4)
@@ -341,12 +348,12 @@ Per esportare i dati da una visualizzazione personalizzata a un file CSV:
 1. Vai alla pagina **[!UICONTROL Visualizzazioni]**.\
    Per ulteriori informazioni sulle visualizzazioni, vedere [Gestione elementi nella pagina Visualizzazioni in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]**. 1)
-1. Selezionare la visualizzazione personalizzata dall&#39;elenco. 2)
-1. Fare clic sul menu **[!UICONTROL Azioni]**. 3)\
+1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]**. (1)
+1. Selezionare la visualizzazione personalizzata dall&#39;elenco. (2)
+1. Fare clic sul menu **[!UICONTROL Azioni]**. (3)\
    Questo pulsante è disponibile solo se nella vista è inclusa la colonna Nome bozza.
 
-1. Seleziona [!UICONTROL Esporta in CSV] dal menu. 4)\
+1. Seleziona [!UICONTROL Esporta in CSV] dal menu. (4)\
    ![export_custom_view.png](assets/exporting-custom-view-350x258.png)\
    In una finestra del browser separata viene visualizzato &quot;Generating report: 100%&quot; (Generazione del rapporto: 100%) più il numero di record (il numero di elementi inclusi nel rapporto dalla vista personalizzata)
 
@@ -363,10 +370,10 @@ Per esportare i dati da una visualizzazione personalizzata a un file CSV:
 
 1. Fai clic sul pulsante **[!UICONTROL Visualizzazioni]**.
 1. Selezionare la visualizzazione personalizzata dall&#39;elenco
-1. Fare clic sul menu **[!UICONTROL Azioni]**. 3)\
+1. Fare clic sul menu **[!UICONTROL Azioni]**. (3)\
    Questo pulsante è disponibile solo se nella vista è inclusa la colonna Nome bozza.
 
-1. Selezionare [!UICONTROL Elimina] dal menu. 4)\
+1. Selezionare [!UICONTROL Elimina] dal menu. (4)\
    ![eliminazione_custom_view.png](assets/deleting-custom-view-350x258.png)
 
 1. Fai clic su **[!UICONTROL Elimina]** (5) per confermare l&#39;eliminazione della visualizzazione personalizzata corrente\

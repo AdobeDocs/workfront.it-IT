@@ -6,9 +6,14 @@ description: Le notifiche seguenti ti avvisano delle attività che si verificano
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: 917
 ht-degree: 0%
 
 ---

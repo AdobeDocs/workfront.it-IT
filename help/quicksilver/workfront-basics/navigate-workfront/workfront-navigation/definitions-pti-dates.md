@@ -6,10 +6,17 @@ description: In questo articolo vengono fornite le definizioni alle date più co
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 3%
+source-wordcount: 2359
+ht-degree: 8%
 
 ---
 
@@ -86,13 +93,13 @@ La data di inizio del percorso di approvazione è visibile negli elenchi e nei r
 
 ## Data di completamento preventivata
 
-Campo obsoleto per i progetti. Tutte le informazioni che questo campo può visualizzare in un elenco o in un report sono correlate a una funzionalità rimossa da Workfront. Impossibile aggiornare questo campo.
+Campo obsoleto per i progetti. Tutte le informazioni che questo campo può visualizzare in un elenco o in un report sono correlate a una funzionalità rimossa da Workfront. Questo campo non può essere aggiornato.
 
 Il campo è visibile nei report e negli elenchi del progetto.
 
 ## Data di Inizio preventivata
 
-Campo obsoleto per i progetti. Qualsiasi informazione visualizzata in questo campo è relativa a una funzione rimossa da Workfront. Impossibile aggiornare questo campo.
+Campo obsoleto per i progetti. Qualsiasi informazione visualizzata in questo campo è relativa a una funzione rimossa da Workfront. Questo campo non può essere aggiornato.
 
 Il campo è visibile nei report e negli elenchi del progetto.
 
@@ -113,7 +120,7 @@ Se si utilizza un vincolo attività associato a una data specifica, tale data di
 I seguenti vincoli di attività aggiornano il campo Data vincolo:
 
 * Deve ininziare al
-* Deve Finire al
+* Deve essere completato il
 * Iniziare non Dopo di
 * Iniziare non Prima di
 
@@ -134,7 +141,7 @@ La Data di inserimento problema convertita è visibile negli elenchi e nei rappo
 
 La data in cui un’attività o un problema deve essere completato. La data di scadenza di un&#39;attività o di un problema corrisponde alla data di completamento pianificata.
 
-La data di scadenza dell’attività e del problema è visibile negli elenchi e nei rapporti delle attività e dei problemi.
+La data di scadenza dell’attività e del problema è visibile nei relativi  elenchi e rapporti.
 
 Per informazioni, consulta la sezione [Data di completamento pianificata](#planned-completion-date) in questo articolo.
 
@@ -198,7 +205,7 @@ La data di inizio fissa di un progetto è visibile nella sezione Caso di busines
 
 ## Data del Handoff
 
-Data in cui un&#39;attività diventa disponibile per il lavoro. Ciò significa che tutti i vincoli, le approvazioni e le dipendenze sono stati completati e che gli utenti possono iniziare a lavorare sull&#39;attività.
+La data in cui un’attività diventa disponibile per il lavoro. Ciò significa che tutti i vincoli, le approvazioni e le dipendenze sono stati completati e che gli utenti possono iniziare a lavorare sull&#39;attività.
 
 La data di handoff è un calcolo e non può essere impostata manualmente.
 
@@ -261,7 +268,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 Questo è un indicatore automatico che Workfront assegna progetti, attività e problemi per mostrare quando un elemento verrà completato in relazione alla sua Data di completamento pianificata.
 
-Di seguito sono riportati i valori possibili per l&#39;indicatore Allineamento data pianificata:
+Di seguito sono riportati i valori possibili per l’indicatore Allineamento data pianificata.
 
 * Verrà eseguito il giorno della data di completamento pianificata
 * Verrà eseguito prima della data di completamento pianificata

@@ -7,14 +7,26 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 0%
+source-wordcount: 2204
+ht-degree: 2%
 
 ---
 
-# Attività della versione del primo trimestre 2025 per Adobe Workfront Planning
+# Attività sul rilascio del primo trimestre 2025 di Pianificazione di Adobe Workfront
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del primo trimestre 2025.
 
@@ -28,7 +40,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >
 >Versione di anteprima: 20 dicembre 2024; versione di produzione per tutti i clienti: 16 gennaio 2025
 
-È ora possibile aggiungere campi di connessione con risorse AEM a un modulo di richiesta di tipo record in Workfront Planning.
+È ora possibile aggiungere campi di connessione con AEM assets a un modulo di richiesta di tipo record in Workfront Planning.
 
 Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta.
 
@@ -65,7 +77,7 @@ Dopo l’invio di una richiesta in Workfront Planning, ora riceverai una notific
 
 Per informazioni sull’invio o l’approvazione delle richieste, consulta i seguenti articoli:
 
-* [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
+* [Inviare richieste di Pianificazione di Adobe Workfront per creare record](/help/quicksilver/planning/requests/submit-requests.md)
 
 * [Approva una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
@@ -168,7 +180,7 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 È ora possibile aggiungere i seguenti tipi di campo a un modulo di richiesta di tipo di record in Workfront Planning:
 
-* Persone
+* People
 * Connessioni Workfront
 
 Prima di questo miglioramento, non era possibile aggiungere questi tipi di campi ai moduli di richiesta in Workfront Planning.
@@ -186,7 +198,7 @@ Non è più possibile condividere un modulo di richiesta pubblicamente se il mod
 * Formula
 * Connessioni Workfront e AEM Assets
 * Campi di ricerca
-* Persone
+* People
 
 Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -201,7 +213,7 @@ Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workf
 
 Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-## Ripristina record eliminati
+## Ripristinare i record eliminati
 
 >[!NOTE]
 >
@@ -215,13 +227,13 @@ Prima di questo miglioramento, non era possibile ripristinare i record eliminati
 
 Per ulteriori informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/records-information.md).
 
-## Assistente AI di Adobe disponibile nelle aree dei dettagli del record
+## Assistente Adobe AI disponibile nelle aree dei dettagli del record
 
 >[!NOTE]
 >
 >Versione di anteprima: 21 novembre 2024; produzione per rilascio rapido: con la versione 24.12 (12 dicembre 2024); produzione per rilascio trimestrale: con la versione 25.1 (gennaio 2025)
 
-Per semplificare l&#39;esecuzione del lavoro, abbiamo aggiunto l&#39;Assistente AI di Adobe alla pagina di anteprima dei dettagli o alla pagina del record. È possibile utilizzare l&#39;Assistente AI all&#39;interno di una pagina di record per aggiornare le informazioni sul record.
+Per semplificare l&#39;esecuzione del lavoro, abbiamo aggiunto l&#39;Assistente Adobe AI alla pagina di anteprima dei dettagli o alla pagina del record. È possibile utilizzare l&#39;Assistente AI all&#39;interno di una pagina di record per aggiornare le informazioni sul record.
 
 Per informazioni, vedere [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
@@ -235,7 +247,7 @@ Quando si apre l&#39;anteprima o la pagina di un record e il record non contiene
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Aggiungere un’immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nuovi tipi di visualizzazione per i campi di tipo percentuale nella visualizzazione Tabella
@@ -254,7 +266,7 @@ Questo tipo di visualizzazione è supportato solo nella vista tabella.
 
 Prima di questo miglioramento, era possibile visualizzare i valori percentuali solo come numeri.
 
-Per ulteriori informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+Per ulteriori informazioni, consulta [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
 ## I campi di connessione sono ora supportati nei moduli di richiesta
 
@@ -308,4 +320,4 @@ La modifica in blocco dei campi di connessione di Planning per gli oggetti Workf
 
 Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3435633/){target=_blank}

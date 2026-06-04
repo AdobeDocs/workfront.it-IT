@@ -2,15 +2,24 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Personalizza il sito  [!DNL Workfront Proof]
+title: 'Personalizza il sito  [!DNL Workfront Proof] '
 description: In qualità di amministratore di  [!DNL Workfront Proof] , puoi aggiungere il tuo account di  [!DNL Workfront Proof]  a un marchio per offrire a te e ai tuoi utenti un'esperienza più personalizzata.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: 576
+ht-degree: 2%
 
 ---
 
@@ -38,7 +47,7 @@ Per abilitare il branding sul tuo account:
    Per ulteriori informazioni sulle varie impostazioni account configurabili, vedere [Impostazioni account.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Fare clic sulla scheda **[!UICONTROL Impostazioni]**.
-1. Nella sezione **[!UICONTROL Branding]**, fai clic su **[!UICONTROL Abilita]**. 1)
+1. Nella sezione **[!UICONTROL Branding]**, fai clic su **[!UICONTROL Abilita]**. (1)
 
    ![Abilita_branding.png](assets/enable-branding-350x177.png)
 
@@ -60,24 +69,24 @@ Per aggiungere la tua immagine di branding alla pagina [!UICONTROL caricamento b
    Per ulteriori informazioni sulle varie impostazioni account configurabili, vedere [Impostazioni account.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Fare clic sulla scheda **[!UICONTROL Impostazioni]**.
-1. Nella sezione **[!UICONTROL Branding]**, fai clic su **[!UICONTROL Configurazione]** accanto a **[!UICONTROL Branding bozza]**. 1)
+1. Nella sezione **[!UICONTROL Branding]**, fai clic su **[!UICONTROL Configurazione]** accanto a **[!UICONTROL Branding bozza]**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
 1. Dal menu a discesa, seleziona **[!UICONTROL Immagine di branding]**.
-Se si seleziona **[!UICONTROL Disattiva]**, il logo [!DNL Workfront Proof] verrà visualizzato nella pagina di caricamento della bozza
+Se selezioni **[!UICONTROL Disattiva]**, il logo [!DNL Workfront Proof] verrà visualizzato nella pagina di caricamento della bozza
 
-1. Fai clic su **[!UICONTROL Salva]**. 3)
+1. Fai clic su **[!UICONTROL Salva]**. (3)
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 
 1. Fai clic su **[!UICONTROL Modifica]** per selezionare l&#39;immagine di branding (4).
 
-   È possibile utilizzare GIF, PNG o JPG. È supportata la trasparenza. Le dimensioni consigliate per l&#39;immagine sono 150x300px. L&#39;immagine nelle pagine di accesso e disconnessione verrà ridimensionata in base a queste dimensioni.
+   È possibile utilizzare JPG, GIF o PNG. È supportata la trasparenza. Le dimensioni consigliate per l&#39;immagine sono 150x300px. L&#39;immagine nelle pagine di accesso e disconnessione verrà ridimensionata in base a queste dimensioni.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 
-1. Seleziona l’immagine da caricare. 5)
+1. Seleziona l’immagine da caricare. (5)
 1. Fai clic su **[!UICONTROL Salva]**.
 
    L’immagine di branding viene ora visualizzata nella pagina di caricamento della bozza di ogni bozza creata nel tuo account.
@@ -99,15 +108,15 @@ Per impostare il branding e-mail:
 1. Nella sezione **[!UICONTROL Branding]**, fai clic su **[!UICONTROL Modifica]** accanto all&#39;immagine dell&#39;applicazione e-mail (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
-1. Seleziona l’immagine da utilizzare per il branding delle e-mail. 2)
+1. Seleziona l’immagine da utilizzare per il branding delle e-mail. (2)
 
-   Se hai già configurato un marchio e-mail e vuoi disabilitarlo, fai clic su **[!UICONTROL Cancella]**. 4)
+   Se hai già configurato un marchio e-mail e vuoi disabilitarlo, fai clic su **[!UICONTROL Cancella]**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   L’immagine ora viene visualizzata in tutte le e-mail di notifica delle bozze. 3)
+   L’immagine ora viene visualizzata in tutte le e-mail di notifica delle bozze. (3)
 
    ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
 

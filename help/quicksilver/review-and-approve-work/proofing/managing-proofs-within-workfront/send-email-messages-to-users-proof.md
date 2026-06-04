@@ -6,10 +6,19 @@ description: Durante il processo di revisione e approvazione, è possibile invia
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: 354
+ht-degree: 16%
 
 ---
 
@@ -21,7 +30,7 @@ Puoi scegliere se inviare un promemoria e-mail generico o un messaggio personali
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +41,7 @@ Puoi scegliere se inviare un promemoria e-mail generico o un messaggio personali
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -48,7 +57,7 @@ Puoi scegliere se inviare un promemoria e-mail generico o un messaggio personali
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +100,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Oggetto</td> 
+      <td role="rowheader">Soggetto</td> 
       <td>Digita un oggetto del messaggio.</td> 
      </tr> 
      <tr> 

@@ -7,9 +7,14 @@ description: Puoi creare sottocartelle in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 0%
 ## Creazione di una nuova cartella di primo livello {#creating-a-new-top-level-folder}
 
 1. Nella barra laterale, fai clic sulla freccia a discesa (1) accanto al pulsante verde **[!UICONTROL Nuova bozza]**.
-1. Seleziona **[!UICONTROL Nuova cartella]**. 2)\
+1. Seleziona **[!UICONTROL Nuova cartella]**. (2)\
    Viene visualizzata la pagina [!UICONTROL Nuova cartella].
 
 1. Continua con [Configurazione della nuova cartella](#configuring-the-new-folder).\
@@ -52,7 +57,7 @@ Per creare una sottocartella dalla pagina [!UICONTROL Dettagli cartella]:
 
 1. Fai clic sul pulsante Nuova sottocartella (2) nella parte superiore della pagina.\
    Nell&#39;elenco degli elementi della cartella viene visualizzata una nuova cartella.
-1. Digitare un nome per la nuova sottocartella. 3)
+1. Digitare un nome per la nuova sottocartella. (3)
 1. Premere **[!UICONTROL Invio]**.\
    Oppure\
    Fare clic all&#39;esterno del campo del nome della cartella.

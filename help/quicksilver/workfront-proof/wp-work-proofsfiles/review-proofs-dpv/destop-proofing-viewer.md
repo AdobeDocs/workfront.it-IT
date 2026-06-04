@@ -8,10 +8,17 @@ description: Il Visualizzatore bozze desktop è progettato per la verifica dei c
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4610f24f-345a-4ebc-8a0c-382e34cac7b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/r1SSgFEIOFSsr17rQxCfDA-bHDDyas8s8nI709bMQZM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: 550
+ht-degree: 1%
 
 ---
 
@@ -47,7 +54,7 @@ Per ulteriori informazioni sulle funzionalità dei vari visualizzatori di bozze,
 
 ### Visualizzatore bozze desktop e visualizzatore bozze legacy {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
-Potresti non avere accesso al visualizzatore di bozze legacy perché è supportato dal Flash, che è stato dichiarato obsoleto nella maggior parte degli ambienti.
+Potresti non avere accesso al visualizzatore di bozze legacy perché è supportato da Flash, che è stato dichiarato obsoleto nella maggior parte degli ambienti.
 
 Il Visualizzatore bozze desktop include i seguenti miglioramenti rispetto al Visualizzatore bozze legacy:
 

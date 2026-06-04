@@ -8,13 +8,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: 263
+ht-degree: 16%
 
 ---
-
 
 # Ottenere i metadati per un file o una cartella
 
@@ -37,7 +43,7 @@ GET /metadata?id=[ID documento o cartella]
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>ID del file o della cartella, come indicato dal provider del webhook. È diverso dall’ID documento di Adobe Workfront. Per ottenere i metadati della directory principale, utilizza il valore "/".
    <p>Nota: la lunghezza massima per l’ID è di 255 caratteri.</p></td> 
   </tr> 
@@ -71,7 +77,7 @@ GET /metadata?id=[ID documento o cartella]
    <td>Specifica se l'elemento è un file o una cartella (file o cartella)</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>Stringa </td> 
    <td>ID del file o della cartella.</td> 
   </tr> 
@@ -103,7 +109,7 @@ GET /metadata?id=[ID documento o cartella]
   <tr> 
    <td>readOnly</td> 
    <td>Booleano</td> 
-   <td> Indica se il file o la cartella è di sola lettura per l'utente autenticato.(opzionale) </td> 
+   <td> Indica se il file o la cartella è di sola lettura per l'utente autenticato (facoltativo). </td> 
   </tr> 
  </tbody> 
 </table>

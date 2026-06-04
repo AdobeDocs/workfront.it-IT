@@ -7,12 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3573'
-ht-degree: 3%
+source-wordcount: 3231
+ht-degree: 4%
 
 ---
 
@@ -491,7 +500,7 @@ Le linee di base sono istantanee delle prestazioni di un progetto in un determin
 
 ### Categoria {#category}
 
-Un oggetto Category è un modulo personalizzato. È possibile creare report per questo oggetto e visualizzarlo anche in altri report oggetto.
+Un oggetto Category è un modulo personalizzato. Puoi generare rapporti per questo oggetto e visualizzarlo anche in altri rapporti dell’oggetto.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

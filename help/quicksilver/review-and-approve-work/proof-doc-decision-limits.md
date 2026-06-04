@@ -1,19 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica 
+title: Panoramica sul documento limitato e sulla decisione di bozza per utenti non pagati 
 description: Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non a pagamento. Limiti reimpostati per ogni utente ogni mese.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+TQID: https://experienceleague.adobe.com/wp4U5LPc-Rrv02-Wz7NL4T5PUK4mvEBeSdWx9-Cg8Uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 8%
+source-wordcount: 292
+ht-degree: 16%
 
 ---
 
-# Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica
+# Panoramica sul documento limitato e sulla decisione di bozza per utenti non pagati
 
 Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Quando si è assegnati come approvatori per un documento o una bozza, è necessario decidere se portare avanti il processo di revisione e approvazione.
 

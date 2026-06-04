@@ -2,19 +2,24 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Accedere a una bozza condivisa con l’utente
+title: Accedere a una bozza condivisa con te
 description: Quando ricevi un’e-mail relativa a una bozza, questa contiene un URL personale per accedervi. Per ulteriori informazioni, consulta Nuovo messaggio e-mail bozza.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 0%
+source-wordcount: 363
+ht-degree: 3%
 
 ---
 
-# Accedere a una bozza condivisa con l’utente
+# Accedere a una bozza condivisa con te
 
 >[!IMPORTANT]
 >

@@ -6,14 +6,27 @@ description: L'integrazione di [!DNL Adobe Workfront] con Slack consente di acce
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 6%
 
 ---
 
-# Configura [!DNL Adobe Workfront for Slack]
+# Configurare [!DNL Adobe Workfront for Slack]
 
 L&#39;integrazione di [!DNL Adobe Workfront] con [!DNL Slack] consente di effettuare le seguenti operazioni:
 
@@ -26,7 +39,7 @@ A seconda della configurazione dell&#39;ambiente [!DNL Slack], è possibile inst
 
 Quando integri l&#39;istanza [!DNL Slack] con [!DNL Workfront], gli utenti possono utilizzare [!DNL Workfront] durante la collaborazione all&#39;interno dei loro canali [!DNL Slack]. L&#39;integrazione può essere utilizzata da qualsiasi ambiente [!DNL Slack], inclusa l&#39;app mobile [!DNL Slack]. ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +50,7 @@ Quando integri l&#39;istanza [!DNL Slack] con [!DNL Workfront], gli utenti posso
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 

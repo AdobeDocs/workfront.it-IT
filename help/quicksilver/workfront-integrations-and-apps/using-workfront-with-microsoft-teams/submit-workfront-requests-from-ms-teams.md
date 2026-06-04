@@ -6,10 +6,23 @@ description: Dopo che il proprietario del team ha installato Adobe Workfront per
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: 607
+ht-degree: 24%
 
 ---
 
@@ -17,9 +30,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Poiché [Microsoft passa al client Nuovi team](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), il client Team classici non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, i clienti devono effettuare la transizione al client Nuovi team prima di tale data.
+>Poiché [Microsoft sta eseguendo la transizione al nuovo client Teams](https://learn.microsoft.com/it-it/microsoftteams/teams-classic-client-end-of-availability), il client Teams classico non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, è necessario effettuare la transizione al nuovo client Teams prima di tale data.
 >
->L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con l’esperienza Nuovi team. Nella maggior parte dei casi, Workfront viene visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione può essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l&#39;integrazione di Workfront nel client New Teams, vedere [Installa [!DNL Adobe Workfront] per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con la nuova esperienza Teams. Nella maggior parte dei casi, Workfront verrà visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione potrà essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l’integrazione di Workfront nel nuovo client Teams, consulta [Installare  [!DNL Adobe Workfront]  per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Dopo che il proprietario del team ha installato [!DNL Adobe Workfront for Microsoft Teams], puoi inviare [!DNL Workfront] richieste dal tuo account [!DNL Microsoft Teams]. A questo scopo, devi disporre di un account Workfront con accesso per inviare le richieste. Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams], vedere [Installazione [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -32,7 +45,7 @@ Dopo che il proprietario del team ha installato [!DNL Adobe Workfront for Micros
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +56,8 @@ Dopo che il proprietario del team ha installato [!DNL Adobe Workfront for Micros
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
    <p>Richiedente o versione successiva</p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +89,7 @@ Il proprietario del team [!DNL Microsoft Teams] deve installare [!DNL Workfront]
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Oggetto</td> 
+      <td role="rowheader">Soggetto</td> 
       <td>Digitare un nome soggetto per la richiesta.</td> 
      </tr> 
      <tr> 

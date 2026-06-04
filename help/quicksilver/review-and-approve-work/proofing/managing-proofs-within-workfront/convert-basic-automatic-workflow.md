@@ -1,25 +1,35 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Convertire un flusso di lavoro di base in un flusso di lavoro automatico su una bozza
+title: Convertire un flusso di lavoro di base in un flusso di lavoro automatizzato su una bozza
 description: Il proprietario della bozza può convertire il flusso di lavoro di base di una bozza esistente in un flusso di lavoro automatizzato.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/nlNOw5CSZl6OwbRtx8qAa6NadtYbFgYfOgTzyf2dR-4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: 250
+ht-degree: 25%
 
 ---
 
-# Convertire un flusso di lavoro di base in un flusso di lavoro automatico su una bozza
+# Convertire un flusso di lavoro di base in un flusso di lavoro automatizzato su una bozza
 
 Il proprietario della bozza può convertire il flusso di lavoro di base di una bozza esistente in un flusso di lavoro automatizzato.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +40,7 @@ Il proprietario della bozza può convertire il flusso di lavoro di base di una b
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -42,7 +52,7 @@ Il proprietario della bozza può convertire il flusso di lavoro di base di una b
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>

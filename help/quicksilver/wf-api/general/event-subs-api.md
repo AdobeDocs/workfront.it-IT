@@ -7,15 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 97%
+source-wordcount: 3146
+ht-degree: 95%
 
 ---
-
 
 # API sottoscrizione a eventi
 
@@ -852,13 +860,13 @@ Questo filtro consente la trasmissione dei messaggi solo se nel campo specificat
 
 #### state
 
-Questo connettore applica il filtro al nuovo stato o allo stato precedente dell’oggetto creato o aggiornato. Questo è utile quando si desidera sapere dove è stata effettuata una modifica da un valore a un altro.
+Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’oggetto creato o aggiornato. Questa funzione è utile quando si desidera sapere dove è stata apportata una modifica da un elemento all’altro.
 `oldState` non è possibile in CREATE `eventTypes`.
 
 >[!NOTE]
 >
->La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell’attività contiene `again` per `oldState`, ovvero come era prima che venisse effettuato un aggiornamento dell’attività.
->Un caso d’uso potrebbe essere quello di trovare i messaggi objCode che sono cambiati da un valore a un altro. Ad esempio, per individuare tutte le attività modificate da “Cerca nome” a “Cerca nome team”
+>La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
+>Un caso d&#39;uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all&#39;altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {

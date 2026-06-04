@@ -7,9 +7,18 @@ description: Se sei un amministratore di  [!DNL Workfront Proof]  e hai uno o pi
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 767
 ht-degree: 0%
 
 ---
@@ -33,7 +42,7 @@ Se sei un amministratore di [!DNL Workfront] Proof e hai uno o più account sate
 1. Selezionare un account di destinazione dall&#39;elenco degli account connessi (2).
 1. Assegna l’autorizzazione profilo (3) che questo utente deve avere sul nuovo account.
 1. Seleziona un utente (4) che dovrebbe diventare proprietario degli elementi che non verranno spostati.
-Ciò include gli elementi che deciderai di lasciare sul vecchio account e quelli che non puoi spostare (vedi [Elementi che non possono essere spostati](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) di seguito).
+Ciò include gli elementi che deciderai di lasciare sul vecchio account e quelli che non puoi spostare (vedi [Elementi che non possono essere spostati](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved) di seguito).
 
 1. Seleziona le caselle di controllo se desideri spostare le bozze (5) e i file (6) insieme all’utente.
 1. Crea un nome per la cartella (7) in cui tutti gli elementi spostati verranno inseriti nel nuovo account.

@@ -1,19 +1,32 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Eliminare i timesheet in Adobe Workfront
+title: Eliminare timesheet in Adobe Workfront
 description: Le modifiche apportate a un profilo di scheda orario non sono immediatamente effettive per le schede orario esistenti, come spiegato in Creare, modificare e assegnare profili di scheda orario. Per rendere visibili le modifiche nelle schede orario esistenti, devi eliminare le schede orario generate e generarne di nuove. Questo si applica solo alle schede orario generate associando profili della scheda orario agli utenti.
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 1%
+source-wordcount: 755
+ht-degree: 7%
 
 ---
 
-# Eliminare i timesheet in Adobe Workfront
+# Eliminare timesheet in Adobe Workfront
 
 Le modifiche apportate a un profilo scheda orario non sono immediatamente valide per le schede orario esistenti, come spiegato in [Creare, modificare e assegnare profili scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Per rendere visibili le modifiche nelle schede orario esistenti, devi eliminare le schede orario generate e generarne di nuove. Questo si applica solo alle schede orario generate associando profili della scheda orario agli utenti.
 
@@ -23,7 +36,7 @@ Le modifiche apportate a un profilo scheda orario non sono immediatamente valide
 
 Gli amministratori di Adobe Workfront o di gruppi possono generare schede orario per tutti gli utenti del sistema. Per ulteriori informazioni sulla generazione manuale delle schede orario, consulta:
 
-* [Genera manualmente i timesheet](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [Generare manualmente schede orario](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
 * [Creare e gestire i profili delle schede orario di un gruppo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 >[!IMPORTANT]
@@ -35,7 +48,7 @@ Gli amministratori di Adobe Workfront o di gruppi possono generare schede orario
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col> 
@@ -46,7 +59,7 @@ Gli amministratori di Adobe Workfront o di gruppi possono generare schede orario
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td>
@@ -64,7 +77,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Eliminare le schede orario in un elenco
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario per le quali si dispone dell&#39;accesso.
 
@@ -118,7 +131,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Eliminare una scheda orario dalla pagina della scheda orario
 
-1. Fai clic sull&#39;icona [!UICONTROL **del**] menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic sulla scheda orario da eliminare per aprirla.
 1. Fai clic sull&#39;icona [!UICONTROL **Altro**] ![](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
 

@@ -6,10 +6,22 @@ description: Un Tipo di Ora è un’etichetta che consente di categorizzare l’
 author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: 1498
+ht-degree: 4%
 
 ---
 
@@ -28,11 +40,11 @@ Quando si registra l’ora in Workfront, i tipi di ora specifici per il progetto
 
 I tipi di ore disponibili per la selezione durante la registrazione del tempo (su progetti, attività e problemi) sono determinati innanzitutto dai tipi di ore disponibili a livello di sistema dall&#39;amministratore di sistema e quindi dai tipi di ore selezionati a livello di progetto e utente.
 
-Una volta configurati i tipi di ora appropriati, è possibile registrare il tempo da più posizioni in Workfront. Per ulteriori informazioni, vedere [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+Una volta configurati i tipi di ora appropriati, è possibile registrare il tempo da più posizioni in Workfront. Per ulteriori informazioni, consulta [Tempo di registrazione](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +55,7 @@ Una volta configurati i tipi di ora appropriati, è possibile registrare il temp
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Piano</p>
    </td> 
@@ -53,7 +65,7 @@ Una volta configurati i tipi di ora appropriati, è possibile registrare il temp
    <td> <p>Accesso amministratore di sistema per definire i tipi di lavoro a livello di sistema e modificare tutti gli utenti</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestire l’accesso al progetto per definire i tipi di ore su un progetto</td> 
   </tr> 
  </tbody> 
@@ -65,7 +77,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Definire la disponibilità a livello di sistema
 
-L’amministratore di sistema determina quali tipi di ore specifiche per il progetto vengono rese disponibili a livello di sistema. Per ulteriori informazioni, vedere [Gestire i tipi di lavoro](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+L’amministratore di sistema determina quali tipi di ore specifiche per il progetto vengono rese disponibili a livello di sistema. Per ulteriori informazioni, consulta [Gestire i tipi di ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definire la disponibilità a livello di progetto {#define-availability-at-the-project-level}
 
@@ -86,7 +98,7 @@ Il proprietario del progetto determina se tutti i tipi di ore definiti a livello
 
    >[!NOTE]
    >
-   >   Considera quanto segue:
+   >   Considera i seguenti aspetti:
    >   
    >   * Se si seleziona **Sì**, solo i tipi di ore selezionati saranno disponibili per la selezione quando si registrano le ore nel progetto (o per attività e problemi all&#39;interno del progetto).
    >   

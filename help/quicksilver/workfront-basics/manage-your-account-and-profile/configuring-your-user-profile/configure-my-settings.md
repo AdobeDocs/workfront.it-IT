@@ -6,11 +6,28 @@ description: Il tuo profilo  [!DNL Adobe Workfront]  contiene informazioni su di
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: 3264
 ht-degree: 2%
 
 ---
@@ -349,7 +366,7 @@ Specificare gli elementi da visualizzare nell&#39;interfaccia [!DNL Workfront] i
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condizionale) Genera automaticamente delle bozze durante il caricamento dei documenti</strong></td> 
-   <td>Selezionare questo campo per iniziare a generare una bozza immediatamente dopo il caricamento del documento in [!DNL Workfront]. Questo campo è disabilitato per impostazione predefinita e può essere aggiornato solo da un amministratore Workfront.<br>Questo campo è disponibile solo se la società ha acquistato il componente Workfront Proof per Workfront e se l'utente è abilitato come utente di bozza. Per ulteriori informazioni su Workfront Proof, vedi <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestione delle bozze in Adobe Workfront</a>.
+   <td>Selezionare questo campo per iniziare a generare una bozza immediatamente dopo il caricamento del documento in [!DNL Workfront]. Questo campo è disabilitato per impostazione predefinita e può essere aggiornato solo da un amministratore di Workfront.<br>Questo campo è disponibile solo se la società ha acquistato il componente Workfront Proof per Workfront e se l'utente è abilitato come utente di bozza. Per ulteriori informazioni su Workfront Proof, consulta <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestire le bozze in Adobe Workfront</a>.
    <p><b>Nota:</b> i documenti caricati in una richiesta non generano automaticamente una bozza. </p></td> 
   </tr> 
  </tbody> 

@@ -7,10 +7,17 @@ description: Workfront Proof consente di creare bozze da documenti o siti Web e 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 2%
+source-wordcount: 1895
+ht-degree: 3%
 
 ---
 
@@ -198,7 +205,7 @@ Puoi generare una bozza statica utilizzando un URL del sito web.
 
    * [Condividi bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Configura una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-   * [Configurare le impostazioni di accesso e abbonamento per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Configurare le impostazioni di accesso e iscrizione per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
@@ -233,7 +240,7 @@ Per informazioni su come aggiungere una bozza URL interattiva, vedere [Generare 
 1. (Facoltativo) Configura le opzioni di verifica avanzate, ad esempio la condivisione della bozza, l’aggiunta di un flusso di lavoro automatizzato o la configurazione delle impostazioni di accesso e abbonamento. Per ulteriori dettagli su queste opzioni, vedi i seguenti articoli:
 
    * [Condividi bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [Configurare le impostazioni di accesso e abbonamento per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Configurare le impostazioni di accesso e iscrizione per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Fare clic su **[!UICONTROL Crea bozza]**. Workfront genera una bozza del file zip.
 

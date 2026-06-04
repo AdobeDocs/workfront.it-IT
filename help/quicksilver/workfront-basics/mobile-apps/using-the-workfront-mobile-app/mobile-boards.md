@@ -1,15 +1,20 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Schede madri Adobe Workfront per dispositivi mobili
+title: Bacheche Adobe Workfront per dispositivi mobili
 description: Nell'app mobile  [!DNL Workfront]  puoi visualizzare tutte le bacheche che hai creato o a cui sei stato aggiunto nella versione desktop di  [!DNL Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 0%
+source-wordcount: 1047
+ht-degree: 1%
 
 ---
 

@@ -6,10 +6,21 @@ description: Un flusso di lavoro automatizzato semplifica la gestione del proces
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 0%
+source-wordcount: 1760
+ht-degree: 4%
 
 ---
 
@@ -21,7 +32,7 @@ Un flusso di lavoro automatizzato semplifica la gestione del processo di revisio
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +43,7 @@ Un flusso di lavoro automatizzato semplifica la gestione del processo di revisio
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> Standard</p>
    <p>Lavoro o piano</p> </td> 
   </tr> 
@@ -42,12 +53,12 @@ Un flusso di lavoro automatizzato semplifica la gestione del processo di revisio
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -160,7 +171,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <tbody>
       <tr>
       <td>Notifica i destinatari relativamente a questa bozza</td>
-      <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base<strong>, al momento della creazione della bozza viene inviata una notifica e-mail. </strong> Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
+      <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base</strong>, al momento della creazione della bozza viene inviata una notifica e-mail. <strong>Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
       </tr>
       <tr>
       <td>Aggiungi messaggio personalizzato</td>

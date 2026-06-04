@@ -1,18 +1,23 @@
 ---
-title: 23.3 Miglioramenti per dispositivi mobili
-description: 23.3 Miglioramenti per dispositivi mobili
+title: 23.3 - Miglioramenti per dispositivi mobili
+description: 23.3 - Miglioramenti per dispositivi mobili
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bc38191c-3cde-4be4-b6b4-43d3fbd58828
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/QuHQ6SOkpiZm3YOJlHNKfVWj--JWLE0W-fk3jYbih5g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 0%
+source-wordcount: 181
+ht-degree: 4%
 
 ---
 
-# 23.3 Miglioramenti per dispositivi mobili
+# 23.3 - Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti i miglioramenti apportati alla versione 23.3 per dispositivi mobili. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 

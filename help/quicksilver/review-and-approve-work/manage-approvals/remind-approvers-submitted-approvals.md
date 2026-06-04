@@ -1,19 +1,32 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Ricordare agli approvatori le approvazioni inviate
+title: Ricordare agli approvatori delle approvazioni inviate
 description: Puoi ricordare agli approvatori le approvazioni in sospeso per gli oggetti in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/YkKaw84vbUyuzPoQUJiFPE49af5-kI2Tcg1n7vYqBe4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 3%
+source-wordcount: 417
+ht-degree: 14%
 
 ---
 
-# Ricordare agli approvatori le approvazioni inviate
+# Ricordare agli approvatori delle approvazioni inviate
 
 Puoi ricordare agli approvatori le approvazioni in sospeso per i seguenti oggetti: 
 
@@ -22,7 +35,7 @@ Puoi ricordare agli approvatori le approvazioni in sospeso per i seguenti oggett
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,10 +46,10 @@ Puoi ricordare agli approvatori le approvazioni in sospeso per i seguenti oggett
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Contribuisci o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -44,7 +57,7 @@ Puoi ricordare agli approvatori le approvazioni in sospeso per i seguenti oggett
    <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard e calendari, documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p></td> 
   </tr> 
  </tbody> 
@@ -59,7 +72,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 È possibile richiedere accesso aggiuntivo per i seguenti oggetti:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Portfolio
 * Programmi

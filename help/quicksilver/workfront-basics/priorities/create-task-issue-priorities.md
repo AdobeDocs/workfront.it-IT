@@ -6,10 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/5NtZhgbXQBRpaEE0TUaArsCPh3dG-ARR68xE3IhHsSA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: 249
+ht-degree: 14%
 
 ---
 
@@ -19,7 +28,7 @@ Puoi creare nuove attività e problemi direttamente da Priorità:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -33,7 +42,7 @@ Puoi creare nuove attività e problemi direttamente da Priorità:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
    <p>Richieste o versione successiva per le richieste; revisione o versione successiva per i problemi; lavoro o versione successiva per le attività</p>
    <p>Collaboratore o versione successiva per richieste; chiaro o versione successiva per problemi e documenti: attività standard o versioni successive</p> 
@@ -44,7 +53,7 @@ Puoi creare nuove attività e problemi direttamente da Priorità:
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
   </tr> 
  </tbody> 

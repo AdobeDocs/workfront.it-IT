@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 6 dell’API
-description: Novità della versione 6 dell’API
+title: Novità nella versione 6 dell’API
+description: Novità nella versione 6 dell’API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 34%
+source-wordcount: 513
+ht-degree: 53%
 
 ---
 
-# Novità della versione 6 dell’API
+# Novità nella versione 6 dell’API
 
 ## Nuovi oggetti
 
@@ -22,12 +27,12 @@ ht-degree: 34%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID | cliente |   |   |   |   | Aggiungi |
-| customerID | progetto |   |   |   |   | Conta |
+| ID | cliente |   |   |   |   | Add |
+| customerID | progetto |   |   |   |   | Conteggio |
 | projectID | resourceManager |   |   |   |   | Elimina |
 | resourceManagerID | modello |   |   |   |   | Ottenere |
-| templateID |   |   |   |   |   | Report  |
-|   |   |   |   |   |   | Ricerca  |
+| templateID |   |   |   |   |   | Rapporto  |
+|   |   |   |   |   |   | Cerca  |
 
 
 ### Ews
@@ -43,8 +48,8 @@ ht-degree: 34%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | customLabels | Aggiungi |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Conta |
+| ID |   |   |   | checkDelete | customLabels | Add |
+|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Conteggio |
 |   |   |   |   | removeCustomLabel |   | Elimina |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
@@ -118,8 +123,8 @@ Attributo hasFilters <sup>2</sup> modificato in true
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| approvalStatus |   |   |   |   |   | Aggiungi |
-| approvalStatusLabel |   |   |   |   |   | Conta |
+| approvalStatus |   |   |   |   |   | Add |
+| approvalStatusLabel |   |   |   |   |   | Conteggio |
 | commento |   |   |   |   |   | Elimina |
 | enteredByID |   |   |   |   |   | Modifica |
 | entryDate |   |   |   |   |   | Ottenere |
@@ -188,7 +193,7 @@ Aggiunta Convalida Data <sup>1</sup>
 
  
 
-### Fatturazione
+### Record della fatturazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -198,7 +203,7 @@ Aggiunta Convalida Data <sup>1</sup>
 
 <sup>1</sup> ha aggiunto il flag del campo NO_TIME
 
-### Evento Burndown 
+### Evento lavoro 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -265,7 +270,7 @@ Tasso di cambio 
 
  
 
-### Voce del diario
+### Voce diario
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|

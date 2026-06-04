@@ -1,19 +1,30 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Gestisci il tuo lavoro con il widget Il mio lavoro
+title: Gestire il lavoro con il widget Il mio lavoro
 description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un'unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/sOTb-WRIEy2h1ncn-CLd-uRUlO3NOSIKYxeCP6GMGmw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: 725
+ht-degree: 12%
 
 ---
 
-# Gestisci il tuo lavoro con il widget Il mio lavoro
+# Gestire il lavoro con il widget Il mio lavoro
 
 Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. In questa finestra è possibile filtrare e organizzare il lavoro, registrare il tempo, apportare aggiornamenti e contrassegnare gli elementi di lavoro come completati.
 
@@ -23,7 +34,7 @@ Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste ass
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +58,7 @@ Il widget Il mio lavoro mostra tutte le attività, i problemi e le richieste ass
    <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti, attività, problemi e documenti</p> </td> 
   </tr>  
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p>  </td> 
   </tr> 
  </tbody> 
@@ -176,7 +187,7 @@ Per ulteriori informazioni sull&#39;utilizzo del pannello Riepilogo, vedere [Pan
 * Registra ore
 * Aggiungi un aggiornamento
 * Aggiornare un modulo personalizzato
-* Carica un file
+* Caricare un file
 
 Per individuare il menu Azioni rapide, passa il puntatore sull&#39;elemento di lavoro. L&#39;elenco delle azioni rapide viene visualizzato accanto al pulsante **Lavoraci** o **Fine**.
 

@@ -2,19 +2,32 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Panoramica schede orario
+title: Panoramica dei timesheet
 description: Puoi utilizzare le schede orario per tenere traccia del tempo trascorso sul lavoro, sia all’interno che all’esterno, di Adobe Workfront.
 author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 515
+ht-degree: 3%
 
 ---
 
-# Panoramica schede orario
+# Panoramica dei timesheet
 
 <!-- Audited: 12/2023 -->
 
@@ -41,13 +54,13 @@ Le schede orario forniscono agli utenti un modo semplice per tenere traccia del 
 
   Inoltre, quando una risorsa registra le ore direttamente sulle attività, i problemi e i progetti vengono visualizzati automaticamente quando l’utente accede alla scheda orario. Ciò presuppone che l’intervallo di date della scheda orario si estenda sulle date in cui sono state registrate le ore.
 
-* **Ora non progetto:** direttamente sulla scheda orario dell&#39;utente. Per ulteriori informazioni su come tenere traccia del tempo in Workfront, consulta   [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Ora non progetto:** direttamente sulla scheda orario dell&#39;utente. Per ulteriori informazioni su come tenere traccia dell&#39;ora in Workfront, vedere [Ora di registro](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   In una scheda orario è possibile registrare le ore di ferie, le ore di malattia, le ore di transito, le ore di riparazione o manutenzione delle apparecchiature o qualsiasi tipo di ore di lavoro generale che si desidera creare.
 
 ## Accedere alle schede orario nell’area Schede orario
 
-L’area delle schede orario è disponibile per impostazione predefinita per tutti gli utenti. Gli amministratori di Workfront possono modificare questo nel modello di layout in base alle esigenze. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+L’area delle schede orario è disponibile per impostazione predefinita per tutti gli utenti. Gli amministratori di Workfront possono modificare questo nel modello di layout in base alle esigenze. Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 Per accedere a una scheda orario:
 

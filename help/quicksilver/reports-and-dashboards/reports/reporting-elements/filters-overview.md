@@ -7,10 +7,25 @@ description: In Adobe Workfront è possibile utilizzare i filtri per ridurre la 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 1%
+source-wordcount: 1794
+ht-degree: 3%
 
 ---
 
@@ -65,7 +80,7 @@ Per ulteriori informazioni sui filtri negli elenchi e nei rapporti, consulta i s
 
 * [Creare o modificare filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Rimuovi filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Condividere un filtro, una vista o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Filtri Workfront per aree speciali {#workfront-filters-for-special-areas}
 
@@ -97,7 +112,7 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
 
 * Pianificazione scenario
 
-  Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  Pianificazione scanari richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -107,11 +122,11 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
 
   È possibile utilizzare filtri incorporati per piani, iniziative o progetti e personalizzare i filtri dei progetti nella Pianificazione scenario.
 
-  Per informazioni, vedere i seguenti articoli:
+  Per ulteriori informazioni, consulta:
 
    * [Crea e modifica piani nella Pianificazione scenario](../../../scenario-planner/create-and-edit-plans.md)
    * [Aggiorna o crea progetti pubblicando iniziative nella Pianificazione scenario](../../../scenario-planner/publish-scenarios-update-projects.md)
-   * [Importare progetti nei piani nella Pianificazione scenario](../../../scenario-planner/import-projects-to-plans.md)
+   * [Importare progetti ai piani nella pianificazione scenari](../../../scenario-planner/import-projects-to-plans.md)
 
 * Obiettivi
 
@@ -223,7 +238,7 @@ Workfront dispone di due operatori di filtro che collegano ogni istruzione di fi
 >[!INFO]
 >
 >**Esempio:**
->&#x200B;>Puoi filtrare per i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
+>Puoi filtrare i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

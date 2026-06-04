@@ -1,25 +1,34 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Creare una bozza con più pagine
+title: Crea una bozza di più pagine
 description: È possibile combinare più file in un’unica bozza multipagina. I revisori possono utilizzare gli strumenti di navigazione nel visualizzatore di bozze per sfogliare le pagine di una bozza multipagina.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: 611
+ht-degree: 9%
 
 ---
 
-# Creare una bozza con più pagine
+# Crea una bozza di più pagine
 
 È possibile combinare più file in un’unica bozza multipagina. I revisori possono utilizzare gli strumenti di navigazione nel visualizzatore di bozze per sfogliare le pagine di una bozza multipagina.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +39,7 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
     <p>Lavoro o piano</p> </td> 
@@ -41,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +59,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creare una bozza con più pagine
+## Crea una bozza di più pagine
 
 Quando questa opzione è abilitata, i file statici e i siti web sono disponibili in un’unica bozza. Quando questa opzione è disattivata, tutti i documenti e i siti web vengono generati come bozze individuali e puoi caricare fino a 100 file alla volta.
 
@@ -89,4 +98,4 @@ Quando combini i file in una singola bozza, tieni presente quanto segue:
 * Non è possibile combinare file AV e clip Web interattive.
 * L&#39;immagine miniatura della bozza viene presa dalla prima pagina della bozza (vedi [Gestione dettagli bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 * Puoi controllare i nomi dei file combinati per creare la bozza nella pagina Dettagli bozza. Per ulteriori informazioni, vedere [Gestire i dettagli della bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-* Se nella bozza è abilitata l’opzione per scaricare i file originali, puoi scaricare tutti i file che sono stati combinati per creare la bozza come file .zip. Per ulteriori informazioni, consulta  [Scarica i file archiviati in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+* Se nella bozza è abilitata l’opzione per scaricare i file originali, puoi scaricare tutti i file che sono stati combinati per creare la bozza come file .zip. Per ulteriori informazioni, vedere [Download dei file archiviati in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).

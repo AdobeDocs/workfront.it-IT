@@ -1,20 +1,29 @@
 ---
 content-type: api;faq
 navigation-topic: general-api
-title: Domande frequenti - Abbonamenti agli eventi
-description: Domande frequenti - Abbonamenti agli eventi
+title: Domande frequenti - Sottoscrizione a eventi
+description: Domande frequenti - Sottoscrizione a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
+TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 0%
+source-wordcount: 987
+ht-degree: 1%
 
 ---
 
-# Domande frequenti - Abbonamenti agli eventi
+# Domande frequenti - Sottoscrizione a eventi
 
 <!--
 {{highlighted-preview}}
@@ -50,7 +59,7 @@ Cerca i seguenti scenari e utilizza la soluzione consigliata:
 * Timeout della richiesta di consegna dell’evento prima del completamento. Assicurati che l’endpoint risponda in modo coerente entro 5 secondi. Timeout predefinito impostato per la richiesta HTTP per la consegna di un messaggio di abbonamento agli eventi. Se l&#39;endpoint non risponde entro 5 secondi, contatta il supporto Workfront o vedi [Requisiti di consegna dell&#39;abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 * Gli eventi potrebbero non generare il modo in cui pensi. Assicurati di non fare supposizioni su come e quando attivare gli eventi. Ad esempio, si potrebbe pensare che l&#39;aggiornamento di un documento su un&#39;attività generi un evento di aggiornamento dell&#39;attività, ma genera invece un evento di creazione o aggiornamento del documento.
 * L’abbonamento potrebbe non essere configurato come previsto. Puoi creare sottoscrizioni di eventi in ambienti diversi e aspettarti che vengano trasferite come fanno gli altri dati di Workfront. Tuttavia, i dati di abbonamento agli eventi non sono configurati per essere copiati o promossi in altri ambienti. Assicurati di inviare richieste API all’ambiente corretto e che gli abbonamenti in tale ambiente siano configurati come previsto.
-* Il payload non è stato ricevuto perché l&#39;indirizzo IP di Workfront necessario non è stato aggiunto al inserisco nell&#39;elenco Consentiti di sul firewall. Gli eventi di abbonamento agli eventi vengono inviati solo da alcuni indirizzi IP. Assicurati che la rete di destinazione disponga di tutte le eccezioni IP necessarie per ricevere payload da Workfront Event Subscriptions.
+* Il payload non è stato ricevuto perché l&#39;indirizzo IP Workfront necessario non è stato aggiunto al inserisco nell&#39;elenco Consentiti di sul firewall. Gli eventi di abbonamento agli eventi vengono inviati solo da alcuni indirizzi IP. Assicurati che la rete di destinazione disponga di tutte le eccezioni IP necessarie per ricevere payload da Workfront Event Subscriptions.
 * Payload non ricevuto perché superiore a 1 MB. I messaggi o l&#39;oggetto di sottoscrizione degli eventi non possono superare 1 MB.
 
 ## Perché i miei messaggi richiedono un tempo eccessivo per raggiungere il mio endpoint?
@@ -94,4 +103,4 @@ In generale, puoi aspettarti di ricevere le richieste di consegna degli eventi d
 
 * **Informazioni sui nuovi tentativi di sottoscrizione eventi**: [Nuovi tentativi di sottoscrizione eventi](../../wf-api/api/event-sub-retries.md)
 
-* **Configurazione del firewall per Workfront**: [Configurazione del inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Configurazione del firewall per Workfront**: [Configurare l&#39;inserisco nell&#39;elenco Consentiti del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

@@ -2,19 +2,28 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Panoramica sui ruoli bozza
+title: Panoramica ruoli bozza
 description: I ruoli di bozza ti consentono di concedere autorizzazioni per singole bozze. I ruoli bozza sono diversi dai profili di autorizzazione bozza. Per ulteriori informazioni sui profili di autorizzazione delle bozze, consulta Panoramica sul profilo di autorizzazione delle bozze.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
+TQID: https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: 340
+ht-degree: 2%
 
 ---
 
-# Panoramica sui ruoli bozza
+# Panoramica ruoli bozza
 
 I ruoli di bozza ti consentono di concedere autorizzazioni per singole bozze. I ruoli bozza sono diversi dai profili di autorizzazione bozza. Per ulteriori informazioni sui profili di autorizzazione delle bozze, vedere [Panoramica del profilo di autorizzazione delle bozze](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 

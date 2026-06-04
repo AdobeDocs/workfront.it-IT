@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web
+title: Configurare la bozza dei contenuti interattivi nel visualizzatore di bozza web
 description: È consigliabile esaminare tutti i contenuti interattivi utilizzando il Visualizzatore bozze desktop. Tuttavia, se i criteri dell'organizzazione lo impediscono, l'amministratore di Workfront può configurare il sistema per l'utilizzo di Web Proofing Viewer per la verifica interattiva. Per informazioni comparative su questi due visualizzatori, vedere Differenze tra Web Proofing Viewer e Desktop Proofing Viewer overview.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 0%
+source-wordcount: 412
+ht-degree: 6%
 
 ---
 
-# Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web
+# Configurare la bozza dei contenuti interattivi nel visualizzatore di bozza web
 
 >[!IMPORTANT]
 >
@@ -36,7 +41,7 @@ Il visualizzatore bozze Web presenta le seguenti limitazioni:
 >
 >È necessario installare il plug-in del browser legacy per aggiungere commenti alle bozze interattive nel visualizzatore bozze web. Questo plug-in è disponibile solo in Firefox nell&#39;[archivio dei componenti aggiuntivi per Firefox](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
-## Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web
+## Configurare la bozza dei contenuti interattivi nel visualizzatore di bozza web
 
 1. Apri una bozza creata da un file ZIP contenente contenuto interattivo.
 

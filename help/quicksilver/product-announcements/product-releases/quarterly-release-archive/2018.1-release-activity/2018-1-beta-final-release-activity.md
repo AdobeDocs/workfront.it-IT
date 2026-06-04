@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione finale 2018.1 di Beta
+title: Attività sulla versione 2018.1 Beta finale
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 0%
+source-wordcount: 895
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione finale 2018.1 di Beta
+# Attività sulla versione 2018.1 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 31 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 
@@ -22,7 +27,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.1, consulta  Panoramica dell&#39;attività della versione di [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.1, consulta [Panoramica delle attività sulla versione 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 La versione finale 2018.1 di Beta contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -63,12 +68,12 @@ Per ulteriori informazioni sul componente aggiuntivo Workfront per Jira, incluso
 
 ## Aggiornamento dei nomi dei visualizzatori di verifica {#update-to-proofing-viewer-names}
 
-I nomi del visualizzatore di bozze basato su HTML5 e dei visualizzatori di bozze basati sul Flash sono stati rinominati in tutto il sistema Workfront. I nomi precedenti e aggiornati sono i seguenti: 
+I nomi dei visualizzatori di bozze basati su HTML5 e su Flash sono stati rinominati in tutto il sistema Workfront. I nomi precedenti e aggiornati sono i seguenti: 
 
 | **Nome precedente** | **Nome aggiornato** |
 |---|---|
 | Visualizzatore di bozze di HTML5 | Nuovo visualizzatore di bozze |
-| Visualizzatore bozze Flash | Visualizzatore di bozze legacy |
+| Visualizzatore di bozze Flash | Visualizzatore di bozze legacy |
 
 {style="table-layout:auto"}
 

@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Finale R1
+title: R1 finale
 description: Attività sulla versione 2018.3
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/FQZ7CAhTWmVPgaSkVIedTDIRaXtt2ekNZq5x7kjTvxc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: 1195
 ht-degree: 0%
 
 ---
 
-# Finale R1
+# R1 finale
 
 Le seguenti funzionalità non sono attualmente disponibili in Anteprima o Beta, ma vengono rilasciate nell’ambiente di produzione in R1:
 
@@ -50,7 +63,7 @@ In precedenza, quando si aggiungeva una nuova versione del documento, la bozza n
 
 Quando si utilizza il menu Altro Documenti per caricare una nuova versione, non viene generata automaticamente una bozza.
 
-Per ulteriori informazioni, vedere  sezione in
+Per ulteriori informazioni, consulta la sezione in
 
 ## Consenti a tutti gli utenti di bozze di accedere a ProofHQ direttamente dall’interfaccia di Workfront (Workfront)
 
@@ -58,7 +71,7 @@ Ora puoi consentire a tutti gli utenti di verifica del sistema di accedere diret
 
 Questa opzione non è attivata per impostazione predefinita. Per abilitare questa opzione, contattare il supporto tecnico Workfront e richiedere l&#39;accesso a tutti gli utenti di verifica del sistema.
 
-Per ulteriori informazioni, vedere [Accedere a Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Accedi a Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Per ulteriori informazioni, vedere [Accesso a Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in [Accesso a Workfront Proof da Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Prima di questa modifica, solo l’amministratore di Workfront poteva accedere direttamente al sito ProofHQ dall’interfaccia di Workfront.
 
@@ -96,7 +109,7 @@ Ora puoi cercare oggetti all’interno dell’app mobile, in modo simile a come 
 
 Per ulteriori informazioni sull’app mobile, consulta la sezione &quot;Ricerca in Mobile&quot; in  
 
-## Guida migliorata nell’app mobile: Tutorials (Workfront)
+## Guida migliorata nell’app mobile: tutorial (Workfront)
 
 A partire dalla versione per dispositivi mobili di aprile, vedrai nuove schermate di esercitazione che ti guideranno attraverso la tua esperienza mobile. Quando accedi all’app mobile per la prima volta e utilizzi una funzione per la prima volta, viene visualizzato un breve tutorial che spiega come funziona questa funzione. Il tutorial viene visualizzato una sola volta, la prima volta che utilizzi una funzione specifica.
 
@@ -104,9 +117,9 @@ Per ulteriori informazioni sull&#39;app mobile, consulta .
 
 ## Cerca nei documenti di PDF (ProofHQ)
 
-È ora possibile eseguire ricerche all’interno di documenti PDF, documenti di Office e pagine web statiche.
+È ora possibile eseguire ricerche all&#39;interno di documenti PDF, documenti di Office e pagine Web statiche.
 
-Per ulteriori informazioni, consulta  [Cerca contenuto in una bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Per ulteriori informazioni, vedere [Ricerca contenuto in una bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Barra di navigazione globale aggiornata (ProofHQ)
 

@@ -7,10 +7,19 @@ description: Gli account satellitari sono account a pagamento che puoi configura
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
-source-git-commit: 5be053a6ee99404673f6f3258a423ef5e5c7f431
+TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: 549
+ht-degree: 1%
 
 ---
 
@@ -35,7 +44,7 @@ Per creare un account Satellite:
 1. Vai alla pagina [!UICONTROL Fatturazione].\
    Per ulteriori informazioni sulla pagina di fatturazione, vedere [La [!DNL Workfront Proof] [!UICONTROL Fatturazione] pagina](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Fare clic sul pulsante **[!UICONTROL Nuovo account Satellite]**. 1)
+1. Fare clic sul pulsante **[!UICONTROL Nuovo account Satellite]**. (1)
 
    Viene visualizzata una finestra popup.
 
@@ -59,9 +68,9 @@ Dopo aver configurato l&#39;account Satellite come descritto in [Creazione di un
 
    ![Cambia_piano_account_satellite](assets/satellite-account-change-plan-350x156.png)
 
-1. Fare clic sul pulsante **[!UICONTROL Cambia piano]** in alto a destra della pagina. 2)\
+1. Fare clic sul pulsante **[!UICONTROL Cambia piano]** in alto a destra della pagina. (2)\
    Oppure\
-   Aprire il popup facendo clic sul nome del piano corrente o successivo. 3)
+   Aprire il popup facendo clic sul nome del piano corrente o successivo. (3)
 
 1. Aggiorna o esegui il downgrade del piano.
 
@@ -71,9 +80,9 @@ Dopo aver aggiornato l&#39;account Satellite al piano scelto, è necessario aggi
 
 1. Accedere a [!DNL Workfront Proof] come amministratore [!DNL Workfront Proof].
 1. Fare clic su **[!UICONTROL Impostazioni account]**.
-1. Nel menu a discesa nella parte superiore della pagina, seleziona l’account Satellite pertinente. 1)\
+1. Nel menu a discesa nella parte superiore della pagina, seleziona l’account Satellite pertinente. (1)\
    Viene visualizzata la pagina delle impostazioni dell&#39;account Satellite.
-1. Fai clic sul pulsante **[!UICONTROL Nuovo utente]** in alto a destra della pagina. 2)\
+1. Fai clic sul pulsante **[!UICONTROL Nuovo utente]** in alto a destra della pagina. (2)\
    Viene visualizzata la pagina [!DNL New User].
 
 1. Immetti i dettagli dell&#39;utente, quindi fai clic su **[!UICONTROL Salva]**.\

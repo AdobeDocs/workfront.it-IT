@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 18 dell’API
+title: Novità nella versione API 18
 description: Adobe Workfront ha rilasciato la versione API 18 il 6 aprile 2022. La versione 18 dell’API presenta le seguenti modifiche rispetto alla versione 17.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 4%
 
 ---
 
-# Novità della versione 18 dell’API
+# Novità nella versione API 18
 
 Adobe Workfront ha rilasciato la versione API 18 l’8 aprile 2024. La versione 18 dell’API presenta le seguenti modifiche rispetto alla versione 17.
 
@@ -259,7 +264,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
 
 ### Approvazione (APPROVAZIONE)
 
-Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un’attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l’elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table>
   <col/>

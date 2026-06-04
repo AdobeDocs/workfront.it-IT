@@ -6,10 +6,20 @@ description: È possibile generare una bozza per un documento nel momento in cui
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: 617
+ht-degree: 11%
 
 ---
 
@@ -27,7 +37,7 @@ If a proof fails to generate after following the steps described in the followin
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +50,7 @@ If a proof fails to generate after following the steps described in the followin
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -52,7 +62,7 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +109,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 Per generare una nuova bozza o una nuova versione della bozza mediante il trascinamento della selezione:
 
 1. Assicurati che le bozze siano configurate per la generazione automatica, come descritto in .
-1. Continua con  [Aggiungi documenti ad Adobe Workfront dal file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), che spiega il metodo di aggiunta di documenti tramite trascinamento della selezione. 
+1. Continua con [Aggiungi documenti ad Adobe Workfront dal file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), che spiega il metodo di aggiunta dei documenti tramite trascinamento della selezione. 
 
 ## Creare una bozza per un documento esistente
 
@@ -122,7 +132,7 @@ Per generare una nuova bozza o una nuova versione della bozza mediante il trasci
      </tr> 
      <tr> 
       <td role="rowheader">Bozza avanzata</td> 
-      <td> <p>Questa opzione consente di configurare un flusso di lavoro di base o avanzato e di modificare le impostazioni della bozza creata. Per ulteriori informazioni, vedi   </p> 
+      <td> <p>Questa opzione consente di configurare un flusso di lavoro di base o avanzato e di modificare le impostazioni della bozza creata. Per ulteriori informazioni, consulta </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Crea una bozza avanzata con un flusso di lavoro di base</a> </p> </li> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Crea una bozza avanzata con un flusso di lavoro automatizzato</a> </p> </li> 

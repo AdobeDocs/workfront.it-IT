@@ -6,11 +6,23 @@ description: È possibile creare piani utilizzando Workfront Scenario Planner qu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: 2407
 ht-degree: 1%
 
 ---
@@ -314,7 +326,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
       <td> <p><span>A seconda che si sia scelto di utilizzare le ore o l'FTE per il piano, esaminare</span> il numero mensile di FTE dei ruoli o le ore richieste per lo scenario nei campi seguenti: </p> 
        <ul> 
         <li> <p><strong>[!UICONTROL Obbligatorio] (max &lt;numero di FTE&gt;)</strong>: il numero tra parentesi indica il numero massimo di ruoli richiesti per uno qualsiasi dei mesi per lo scenario. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Obbligatorio] (totale &lt;numero di ore&gt;)</strong>: il numero tra parentesi indica il numero totale di ore richieste per tutti i mesi dello scenario.</span> </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Richiesto] (totale &lt;numero di ore&gt;)</strong>: il numero tra parentesi indica il numero totale di ore richieste per tutti i mesi dello scenario.</span> </p> </li> 
        </ul> <p>Suggerimento: non è possibile modificare il numero richiesto di FTE <span>o ore</span> per la mansione. Questo numero viene popolato per lo scenario dopo che hai iniziato ad aggiungere iniziative e i relativi requisiti di mansione. </p> </td> 
      </tr> 
      <tr> 

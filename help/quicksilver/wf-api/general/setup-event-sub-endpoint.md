@@ -1,21 +1,25 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Requisiti di consegna dell’abbonamento agli eventi
-description: Requisiti di consegna dell’abbonamento agli eventi
+title: Requisiti di consegna della sottoscrizione a eventi
+description: Requisiti di consegna della sottoscrizione a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: 275
+ht-degree: 4%
 
 ---
 
-
-# Requisiti di consegna dell’abbonamento agli eventi
+# Requisiti di consegna della sottoscrizione a eventi
 
 I messaggi di abbonamento agli eventi sono notifiche che possono essere configurate per avvisare gli utenti quando si verificano determinati eventi. Per ulteriori informazioni sulle sottoscrizioni eventi, vedere [Domande frequenti - Sottoscrizioni eventi](../../wf-api/general/event-subs-faq.md).
 
@@ -29,9 +33,9 @@ Gli endpoint di servizio che utilizzano i messaggi di abbonamento agli eventi di
 
 * Se non viene restituito uno stato di 200 livelli, il sistema di sottoscrizione degli eventi presuppone che il messaggio non sia stato recapitato correttamente e inizia ad applicare il criterio appropriato per i nuovi tentativi. Per ulteriori informazioni sui criteri per i nuovi tentativi di Workfront, vedere [Nuovi tentativi di sottoscrizione evento](../../wf-api/api/event-sub-retries.md).
 
-* Oltre a restituire uno stato di 200 livelli come stato di risposta, la risposta HTTP deve essere ricevuta entro cinque secondi dall’avvio del tentativo di consegna. Questo vincolo assicura che i processi aziendali dei consumatori o le limitazioni dell’infrastruttura non ritardino la consegna di altri messaggi in attesa di consegna.
+* Oltre a restituire lo stato di 200 come stato di risposta, la risposta HTTP deve essere ricevuta entro cinque secondi dall’avvio del tentativo di consegna.Questo vincolo garantisce che i processi aziendali dei consumatori o le limitazioni dell’infrastruttura non ritardino la consegna di altri messaggi in attesa di consegna.
 
-* Se un processo aziendale a esecuzione prolungata viene attivato da un messaggio di abbonamento a un evento, Workfront consiglia  che
+* Se un processo aziendale a esecuzione prolungata viene attivato da un messaggio di abbonamento a un evento, Workfront consiglia di:
 
    1. l’endpoint salva le informazioni sul messaggio al momento della ricezione e risponde immediatamente con uno stato di 200 livelli.
    1. Dopo che un endpoint ha risposto a una richiesta di consegna della sottoscrizione dell’evento, è possibile elaborare i messaggi salvati.

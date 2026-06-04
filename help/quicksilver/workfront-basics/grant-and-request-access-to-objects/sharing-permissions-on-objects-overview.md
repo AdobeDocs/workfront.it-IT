@@ -6,10 +6,24 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
+TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 3%
+source-wordcount: 1355
+ht-degree: 4%
 
 ---
 
@@ -64,11 +78,11 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 
 * **Piani**: per informazioni, vedere [Condividere un piano nella Pianificazione scenario](../../scenario-planner/share-a-plan.md).
 
-  È necessaria una licenza aggiuntiva.
+  È richiesta una licenza aggiuntiva.
 
 * **Obiettivi**: per informazioni, vedere [Condividere un obiettivo in Obiettivi Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-  È necessaria una licenza aggiuntiva.
+  È richiesta una licenza aggiuntiva.
 
 ## Considerazioni sulla condivisione degli oggetti
 

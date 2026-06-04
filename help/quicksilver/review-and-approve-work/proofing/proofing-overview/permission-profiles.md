@@ -3,19 +3,24 @@ content-type: overview
 product-area: documents
 keywords: bozza,autorizzazione
 navigation-topic: proofing-overview
-title: Panoramica del profilo di autorizzazione della bozza
+title: Panoramica Profilo autorizzazione bozza
 description: I profili di autorizzazione delle bozze determinano le autorizzazioni generali di cui dispongono gli utenti su tutte le bozze nel tuo account. I profili di autorizzazione delle bozze vengono assegnati agli utenti nel loro profilo utente. I profili di autorizzazione delle bozze sono diversi dai ruoli delle bozze.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/ZmDKCMhNl-NKjqTsR5JsrJbRerOWzoT4KSdWa5sgsv0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 2%
+source-wordcount: 508
+ht-degree: 4%
 
 ---
 
-# Panoramica del profilo di autorizzazione della bozza
+# Panoramica Profilo autorizzazione bozza
 
 <!--Audited: 12/2023-->
 

@@ -8,9 +8,16 @@ description: La nostra integrazione con il sistema di condivisione di file onlin
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 435
 ht-degree: 0%
 
 ---
@@ -25,7 +32,7 @@ L&#39;integrazione con il sistema di condivisione dei file online e gestione dei
 
 La funzionalità di sincronizzazione delle cartelle consente di sincronizzare una cartella [!DNL Box] con una cartella in [!DNL Workfront Proof]. Quando si aggiunge un file o una nuova versione di un file alla cartella sincronizzata in [!DNL Box], il file viene aggiunto anche alla cartella associata in Workfront Proof. Per ulteriori informazioni, vedere [Sincronizza [!DNL Box] Cartelle con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
 
-## Vantaggi principali
+## Vantaggi chiave
 
 * **Migliora la revisione e l&#39;approvazione collaborativa:** Fornisci al tuo team strumenti avanzati di markup, commenti e discussione per migliorare la collaborazione sulle risorse creative.
 * **Consegna più rapida dei progetti:** Consegna più rapida dei progetti di progettazione del 56% riducendo il ciclo di revisione e il numero di revisioni. La rapidità del consenso e delle decisioni consente di accelerare i tempi di attuazione dei progetti e la loro commercializzazione. Le revisioni di progettazione sono ridotte del 29%.
@@ -34,7 +41,7 @@ La funzionalità di sincronizzazione delle cartelle consente di sincronizzare un
 * **Maggiore visibilità e responsabilità:** è possibile registrare le versioni dei file, i commenti e le decisioni con marca temporale in un audit trail tracciabile. In questo modo è possibile essere pienamente responsabili di ogni fase del processo di revisione e soddisfare i requisiti di conformità.\
    ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
-## Funzioni principali
+## Funzioni chiave
 
 * Invia i tuoi file creativi a [!DNL Workfront Proof] direttamente dal tuo account [!DNL Box].
 * Notifica al team di revisione le nuove bozze tramite e-mail contenente un collegamento al file in [!UICONTROL Box].

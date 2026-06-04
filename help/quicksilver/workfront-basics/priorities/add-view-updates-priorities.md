@@ -6,10 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: 527
+ht-degree: 4%
 
 ---
 
@@ -21,7 +30,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +43,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
    <p>Richiedi o superiore per problemi e documenti; rivedi o superiore per tutti gli altri oggetti</p>
    <p>Collaboratore o versione successiva per problemi e documenti: chiaro o versione successiva per tutti gli altri oggetti</p> 
@@ -45,7 +54,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
   </tr> 
  </tbody> 

@@ -6,13 +6,17 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: 1123
+ht-degree: 6%
 
 ---
-
 
 # Aggiungere, modificare o rimuovere widget nella Home
 
@@ -119,7 +123,7 @@ Per aggiungere un widget:
        Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
    * **Le mie approvazioni**\
-       Visualizza tutte le approvazioni assegnate o delegate in sospeso, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all&#39;interno del widget. Le approvazioni vengono ordinate come segue:
+       Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget. Le approvazioni vengono ordinate come segue:
       * Scadenze
       * Prossime scadenze
       * Articoli senza scadenza
@@ -158,7 +162,7 @@ Per aggiungere un widget:
 
 1. Individua il widget nella home page che desideri rimuovere, quindi fai clic sull&#39;icona **Altro** ![Icona aggiuntiva](assets/more-icon.png) nell&#39;angolo superiore destro del widget.
 
-1. Fare clic su **Rimuovi**.
+1. Fai clic su **Rimuovi**.
 
 
 ## Cambia il colore dello sfondo

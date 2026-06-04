@@ -1,15 +1,20 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Commento sulle bozze in Android
+title: Commentare sulle bozze in Android
 description: È possibile rivedere e risolvere i commenti esistenti su una bozza e aggiungere nuovi commenti e annotazioni al documento della bozza.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 0%
+source-wordcount: 881
+ht-degree: 1%
 
 ---
 
@@ -77,7 +82,7 @@ L&#39;accesso a commentare le bozze è lo stesso di [!DNL Adobe Workfront]. Per 
 1. Per eliminare i commenti selezionati, seleziona il menu **[!UICONTROL Altro]** in alto a destra ![Altro menu](assets/mobile-verticalmoremenu-20x33.png) e scegli **[!UICONTROL Elimina]**. Quindi, seleziona **[!UICONTROL Elimina]** nel messaggio di conferma per eliminare definitivamente il commento.
 1. Selezionare la freccia in alto a sinistra per uscire dalla visualizzazione di selezione e tornare all&#39;elenco dei commenti.
 
-## Commento su una bozza
+## Commentare una bozza
 
 È possibile associare i commenti della bozza a un&#39;area specifica del documento. Utilizzate gli strumenti di disegno per selezionare un&#39;area su cui commentare.
 

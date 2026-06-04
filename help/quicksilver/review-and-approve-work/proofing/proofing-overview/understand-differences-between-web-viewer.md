@@ -7,10 +7,20 @@ description: Scopri le differenze tra i visualizzatori di bozze per desktop e we
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: 872
+ht-degree: 9%
 
 ---
 
@@ -21,7 +31,7 @@ Adobe Workfront fornisce due diversi visualizzatori di bozze:
 * **Web Proofing Viewer:** Progettato principalmente per la verifica di file statici e video. Viene eseguito in Google Chrome, Firefox o Safari.
 * **Visualizzatore bozze desktop:** Progettato per la verifica di file interattivi, video e statici. Funziona come applicazione indipendente sulla workstation. Per ulteriori informazioni, vedere [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Se l&#39;organizzazione non è in grado di utilizzare l&#39;app Visualizzatore bozze desktop per motivi di sicurezza, l&#39;amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per ulteriori informazioni, consulta  [Configura la verifica del contenuto interattivo in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Se l&#39;organizzazione non è in grado di utilizzare l&#39;app Visualizzatore bozze desktop per motivi di sicurezza, l&#39;amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per ulteriori informazioni, vedere [Configurare la verifica del contenuto interattivo in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofing Viewer (Visualizzatore di bozze) per verificare determinati tipi di contenuto:
 
@@ -32,18 +42,18 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Bozze statiche
 
-| **Funzionalità** | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
+| **Funzione** | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Apri bozze statiche | ✓ | ✓&#42; |
 | Visualizzazioni singole, riviste e continue | ✓ | ✓&#42; |
 | Panning | ✓ | ✓&#42; |
 | Zoom | ✓ | ✓&#42; |
-| Ruota | ✓ | ✓&#42; |
+| Rotazione | ✓ | ✓&#42; |
 | Strumento di misurazione | ✓ (impostare un&#39;area di dimensioni personalizzate) | ✓&#42; |
 | Visualizzazione miniature | ✓ | ✓&#42; |
 | Navigatore bozza statica | ✓ | ✓&#42; |
 | Ricerca documenti | ✓ | ✓&#42; |
-| Commento Post su più pagine | ✓ (disponibile su tutte le viste) | ✓&#42; (disponibile su tutte le visualizzazioni) |
+| Pubblica commento su più pagine | ✓ (disponibile su tutte le visualizzazioni) | ✓&#42; (disponibile su tutte le visualizzazioni) |
 | Scelte rapide per bozze statiche avanzate | ✓ (per ulteriori informazioni, vedere [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(per ulteriori informazioni, vedere [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
@@ -52,7 +62,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Bozze video
 
-| **Funzionalità**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
+| **Funzione**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Apri bozze video | ✓ | ✓&#42; |
 | Buffering | ✓ | ✓&#42; |
@@ -71,9 +81,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Bozze interattive
 
-| **Funzionalità**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
+| **Funzione**  | **Visualizzatore bozze Web** | **Visualizzatore bozze desktop** |
 |---|---|---|
-| Aprire le bozze interattive create dal contenuto incluso in un file ZIP | ✓ | ✓ (scelta consigliata) |
+| Aprire le bozze interattive create dal contenuto incluso in un file ZIP | ✓ | ✓ (consigliato) |
 | Aprire una bozza interattiva creata da un URL | Non supportato | ✓ |
 | Visualizzare bozze interattive (create da contenuti inclusi in un file ZIP) in varie dimensioni dello schermo | ✓ | ✓ |
 | Visualizzare bozze interattive (create dal contenuto incluso in un file ZIP) per vari dispositivi | Non supportato | ✓ |
@@ -90,9 +100,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
  <col> 
  <thead> 
   <tr> 
-   <th>Funzionalità</th> 
+   <th>Funzione</th> 
    <th>Visualizzatore bozze web </th> 
-   <th>Visualizzatore bozze desktop </th> 
+   <th>Visualizzatore di bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -123,8 +133,8 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
   </tr> 
   <tr> 
    <td> <p>Strumento markup per selezione testo</p> </td> 
-   <td>✓ Solo bozze statiche di</td> 
-   <td>✓ Solo bozze statiche di</td> 
+   <td>✓ solo bozze statiche</td> 
+   <td>✓ solo bozze statiche</td> 
   </tr> 
   <tr> 
    <td> <p>Cambia colore markup</p> </td> 
@@ -158,7 +168,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
   </tr> 
   <tr> 
    <td>Impostare le azioni sui commenti</td> 
-   <td>✓ (Le azioni sono visibili nei commenti subito dopo l’impostazione dell’azione)</td> 
+   <td>✓ (le azioni sono visibili nei commenti subito dopo l’impostazione dell’azione)</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -226,7 +236,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Decisioni
 
-| Funzionalità | Visualizzatore bozze web | Visualizzatore bozze desktop |
+| Funzione | Visualizzatore bozze web | Visualizzatore di bozze desktop |
 |---|---|---|
 | Prendi decisioni | ✓ | ✓ |
 | Personalizzare le decisioni | ✓ | ✓ |
@@ -241,9 +251,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
  <col> 
  <thead> 
   <tr> 
-   <th>Funzionalità</th> 
+   <th>Funzione</th> 
    <th>Visualizzatore bozze web </th> 
-   <th>Visualizzatore bozze desktop </th> 
+   <th>Visualizzatore di bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -268,9 +278,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
  <col> 
  <thead> 
   <tr> 
-   <th>Funzionalità</th> 
+   <th>Funzione</th> 
    <th>Visualizzatore bozze web </th> 
-   <th>Visualizzatore bozze desktop </th> 
+   <th>Visualizzatore di bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -369,7 +379,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
 
 ## Visualizzatore
 
-| **Funzionalità**  | **Visualizzatore bozze Web**  | **Visualizzatore bozze desktop** |
+| **Funzione**  | **Visualizzatore bozze Web**  | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Codice incorporato | Previste per il futuro per bozze video statiche e native | Non supportato  |
 
@@ -383,7 +393,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofin
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Funzionalità</strong> </th> 
+   <th><strong>Funzione</strong> </th> 
    <th><strong>Visualizzatore bozze Web</strong> </th> 
    <th><strong>Visualizzatore bozze desktop</strong> </th> 
   </tr> 

@@ -6,10 +6,15 @@ description: Puoi monitorare facilmente l’avanzamento di una bozza configurata
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 0%
+source-wordcount: 490
+ht-degree: 9%
 
 ---
 
@@ -21,7 +26,7 @@ Per informazioni sull&#39;aggiunta di fasi e utenti a una bozza con un flusso di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +39,7 @@ Per informazioni sull&#39;aggiunta di fasi e utenti a una bozza con un flusso di
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p >
    <p>Lavoro o piano</p>
@@ -46,7 +51,7 @@ Per informazioni sull&#39;aggiunta di fasi e utenti a una bozza con un flusso di
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +71,13 @@ Per informazioni sull&#39;aggiunta di fasi e utenti a una bozza con un flusso di
    ![dot.png](assets/dot.png) fase attiva
 
    ![gray_dot.png](assets/grey-dot.png) fase inattiva\
-   ![sbw-key-icon.png](assets/sbw-key-icon.png)  Fase privata
+   ![sbw-key-icon.png](assets/sbw-key-icon.png) Fase privata
 
-   ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  Fase bloccata
+   ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) Fase bloccata
 
    Le linee tra le fasi rappresentano le dipendenze tra le fasi. Le linee che conducono agli stadi inattivi vengono tratteggiate fino all&#39;attivazione dello stadio.
 
-   È possibile passare il cursore del mouse su una fase del diagramma per visualizzarne l&#39;avanzamento. Se la fase non è attiva e si dispone dei diritti di modifica sulla fase, è possibile fare clic sul pulsante Attiva fase ![Attiva fase](assets/activate-stage-btn.png) per avviare la fase. Se lo stage è attivo e si dispone dei diritti di modifica sullo stage, è possibile bloccarlo. ![Fase di blocco](assets/lock-stage-btn.png) Per ulteriori informazioni sulla barra di avanzamento (S, O, C, D), vedere  [Visualizzare lo stato e l&#39;avanzamento di una bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   È possibile passare il cursore del mouse su una fase del diagramma per visualizzarne l&#39;avanzamento. Se la fase non è attiva e si dispone dei diritti di modifica sulla fase, è possibile fare clic sul pulsante Attiva fase ![Attiva fase](assets/activate-stage-btn.png) per avviare la fase. Se lo stage è attivo e si dispone dei diritti di modifica sullo stage, è possibile bloccarlo. ![Fase di blocco](assets/lock-stage-btn.png) Per ulteriori informazioni sulla barra di avanzamento (S, O, C, D), vedere [Visualizzare lo stato e l&#39;avanzamento di una bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Visualizzare una fase
 

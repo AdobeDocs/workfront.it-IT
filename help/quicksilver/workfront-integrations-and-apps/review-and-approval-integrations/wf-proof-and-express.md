@@ -2,16 +2,29 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Guida introduttiva alla verifica e a Creative Cloud Express
-description: Guida introduttiva alla verifica e a Creative Cloud Express
+title: Introduzione alla bozza e a Creative Cloud Express
+description: Introduzione alla bozza e a Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
+TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: 520
+ht-degree: 11%
 
 ---
 
@@ -45,7 +58,7 @@ Utilizzare Workfront Proof con Adobe Express per
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard </p> 
   </td> 
@@ -95,11 +108,11 @@ Durante il processo di produzione, revisione e approvazione dei contenuti, gli u
 * Vedere chi ha aperto il file
 * Visualizza lo stato della decisione di tutti i partecipanti
 * Leggi commenti
-* e altro ancora
+* e molto altro
 
 ### Scegli un progetto Workfront quando richiedi l’approvazione
 
-Quando si richiede l’approvazione per un modello Express remixato, gli utenti possono scegliere un progetto Workfront a cui inviare la bozza. In questo modo è possibile mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto.
+Quando si richiede l’approvazione per un modello Express remixato, gli utenti possono scegliere un progetto Workfront a cui inviare la bozza. In questo modo puoi mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto.
 
 Se non è selezionato alcun progetto, la bozza verrà inserita per impostazione predefinita in un progetto specifico di Express.
 

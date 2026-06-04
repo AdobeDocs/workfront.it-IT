@@ -8,9 +8,14 @@ description: È possibile migliorare il flusso di lavoro di verifica per il proj
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
-source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+TQID: https://experienceleague.adobe.com/n2bbDNgKjdExrAzRAGW5I-rTtf1gw-1VNOWZHDeXVSE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 543
 ht-degree: 0%
 
 ---

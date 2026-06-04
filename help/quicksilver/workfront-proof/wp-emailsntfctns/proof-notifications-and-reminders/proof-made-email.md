@@ -3,15 +3,24 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: E-mail Proof Made
+title: E-mail bozza effettuata
 description: Un’e-mail Proof Made (Bozza creata) viene inviata al creatore della bozza solo dopo averla creata. Se una persona ha creato una bozza e ne ha resa Proprietaria un’altra, solo il nuovo Proprietario riceve l’e-mail di creazione della bozza. Il Creatore e/o il Proprietario non ne riceveranno una; riceveranno solo l’e-mail Proof Made (Bozza creata). Per ulteriori informazioni sull’e-mail New Proof, consulta New proof email (Nuova bozza).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
-source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
+TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 0%
+source-wordcount: 441
+ht-degree: 1%
 
 ---
 

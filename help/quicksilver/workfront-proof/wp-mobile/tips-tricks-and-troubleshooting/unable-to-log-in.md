@@ -3,9 +3,16 @@ title: 'Impossibile accedere all''app mobile  [!DNL Workfront Proof] '
 description: Risolvere i problemi di accesso all'app mobile Workfront Proof.
 hide: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/PoLoFtTA-3tZRGMRAH3y37hGJc8T8rU49nW0TCt21Bw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 137
 ht-degree: 0%
 
 ---

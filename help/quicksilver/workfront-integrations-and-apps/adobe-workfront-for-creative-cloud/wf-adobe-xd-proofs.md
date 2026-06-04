@@ -1,15 +1,28 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Carica le tavole da disegno di XD come bozze in Workfront
+title: Caricare le tavole da disegno di XD come bozze in Workfront
 description: Potete caricare le vostre tavole da disegno come bozze direttamente in Adobe Workfront per una revisione e approvazione completa.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 0%
+source-wordcount: 1014
+ht-degree: 4%
 
 ---
 
@@ -19,7 +32,7 @@ Puoi caricare le tue tavole da disegno come bozze direttamente in [!DNL Adobe Wo
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +44,7 @@ Puoi caricare le tue tavole da disegno come bozze direttamente in [!DNL Adobe Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Standard</p> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Standard</p> <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
@@ -42,7 +55,7 @@ Puoi caricare le tue tavole da disegno come bozze direttamente in [!DNL Adobe Wo
    <td>[!UICONTROL Manager] o versione successiva</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Modifica accesso a [!UICONTROL Documents]</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 

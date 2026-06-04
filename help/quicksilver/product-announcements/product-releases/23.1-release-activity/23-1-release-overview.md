@@ -6,10 +6,28 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2462'
-ht-degree: 0%
+source-wordcount: 2558
+ht-degree: 5%
 
 ---
 
@@ -23,7 +41,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
 
 <span class="preview">Le funzioni off-cycle (quelle rilasciate in produzione prima della data di rilascio della versione 23.1) sono evidenziate in giallo.</span>
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti alla gestione dei progetti e delle risorse](#project-and-resource-management-enhancements)
 * [Miglioramenti Agile](#agile-enhancements)
@@ -38,7 +56,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -112,7 +130,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -312,7 +330,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -347,7 +365,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -495,9 +513,9 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
 
 ## Annunci
 
-### Miglioramenti apportati a Workfront Fusion
+### Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 23.1. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 23.1. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -517,17 +535,17 @@ Per API versione 15, abbiamo modificato alcune risorse ed endpoint. Alcune delle
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 15](/help/quicksilver/wf-api/api/new-api-version-15.md) dell&#39;API.
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
-### Aggiornamenti dei corsi di formazione
+### Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione “Novità” della [pagina dei tutorial di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
-### Funzionalità presto rimossa da Workfront
+### Funzionalità che verrà presto rimossa da Workfront
 
 Le seguenti funzionalità verranno presto rimosse da Workfront:
 

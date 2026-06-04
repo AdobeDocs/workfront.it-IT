@@ -1,20 +1,31 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 di Beta 3
+title: Attività sulla versione 2018.3 Beta 3
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 3. La funzionalità sarà disponibile nell’ambiente di anteprima il 16 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/noEIBL6-bxByD8in9x7a2XHTPfU3QQ2YVWp5jaTb5n4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 0%
+source-wordcount: 561
+ht-degree: 2%
 
 ---
 
-# Attività sulla versione 2018.3 di Beta 3
+# Attività sulla versione 2018.3 Beta 3
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 3. La funzionalità sarà disponibile nell’ambiente di anteprima il 16 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
@@ -22,7 +33,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.3, consulta [Panoramica sull&#39;attività di rilascio di 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 La versione 2018.3 di Beta 3 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 

@@ -1,18 +1,28 @@
 ---
 navigation-topic: notifications
-title: Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima
+title: Abilitare la consegna di e-mail dall’ambiente sandbox di anteprima
 description: Se desideri ricevere notifiche e-mail dall’ambiente Sandbox di anteprima, devi abilitare questa funzionalità nelle impostazioni utente mentre sei connesso all’ambiente di anteprima.
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: 465
+ht-degree: 10%
 
 ---
 
-# Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima
+# Abilitare la consegna di e-mail dall’ambiente sandbox di anteprima
 
 [!UICONTROL Adobe Workfront] disabilita tutte le comunicazioni e-mail dagli ambienti Sandbox Anteprima e Aggiornamento personalizzato. Per informazioni sull&#39;ambiente Sandbox di anteprima, vedere [Ambiente Sandbox di anteprima Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md). Per informazioni sull&#39;ambiente Sandbox di aggiornamento personalizzato, vedere [Ambiente Sandbox di aggiornamento personalizzato di Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
@@ -33,7 +43,7 @@ Puoi eseguire questa operazione per te stesso o per qualsiasi utente con accesso
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

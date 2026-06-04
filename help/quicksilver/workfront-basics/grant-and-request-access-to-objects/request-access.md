@@ -6,14 +6,27 @@ description: La visibilità degli oggetti in Adobe Workfront dipende dall’acce
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+TQID: https://experienceleague.adobe.com/PVwnZ-nB7hftkdmH-xs5YmuD4Iv13-EBAUfn-BuS-fw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 1%
+source-wordcount: 1343
+ht-degree: 5%
 
 ---
 
-# Richiedi accesso agli oggetti
+# Richiedere l’accesso agli oggetti
 
 <!-- Audited: 4/2025 -->
 
@@ -23,9 +36,9 @@ La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel ti
 >
 >Questo articolo descrive come richiedere le autorizzazioni per tutti gli oggetti ad eccezione dei seguenti:
 >
->* Pianifica scenario in Adobe Workfront Scenario Planner. Per ulteriori informazioni, vedere [Richiedere le autorizzazioni per un piano in Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È necessaria una licenza aggiuntiva.
+>* Pianifica scenario in Adobe Workfront Scenario Planner. Per ulteriori informazioni, vedere [Richiedere le autorizzazioni per un piano in Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È richiesta una licenza aggiuntiva.
 >
->* Visualizzazioni e aree di lavoro in Workfront Planning. Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). È necessaria una licenza aggiuntiva.
+>* Visualizzazioni e aree di lavoro in Workfront Planning. Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). È richiesta una licenza aggiuntiva.
 
 
 L&#39;amministratore di Workfront configura l&#39;accesso a un tipo di oggetto nel proprio livello di accesso. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -36,7 +49,7 @@ Se hai bisogno di autorizzazioni per oggetti specifici in Workfront, puoi richie
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,9 +60,9 @@ Se hai bisogno di autorizzazioni per oggetti specifici in Workfront, puoi richie
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> 
+   <p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +72,7 @@ Se hai bisogno di autorizzazioni per oggetti specifici in Workfront, puoi richie
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -193,11 +206,11 @@ Il proprietario di un oggetto è definito come segue:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Piani</span> </td> 
-   <td> <p><span>Il proprietario è il creatore del piano.</span> </p> <p>È necessaria una licenza aggiuntiva. </p> <p><span>Per informazioni su Workfront Scenario Planner, vedere</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a>.</p> </td> 
+   <td> <p><span>Il proprietario è il creatore del piano.</span> </p> <p>È richiesta una licenza aggiuntiva. </p> <p><span>Per informazioni su Workfront Scenario Planner, vedere</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Obiettivi</td> 
-   <td> <p>Il proprietario è l'utente designato come Proprietario. Potrebbero non essere la stessa persona del creatore dell'obiettivo. </p> <p>È necessaria una licenza aggiuntiva. </p> <p>Per informazioni sugli obiettivi di Workfront, consulta <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Panoramica sugli obiettivi di Adobe Workfront</a>. </p> </td> 
+   <td> <p>Il proprietario è l'utente designato come Proprietario. Potrebbero non essere la stessa persona del creatore dell'obiettivo. </p> <p>È richiesta una licenza aggiuntiva. </p> <p>Per informazioni sugli obiettivi di Workfront, consulta <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Panoramica sugli obiettivi di Adobe Workfront</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,19 +2,26 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Panoramica del flusso di lavoro automatizzato
+title: Panoramica flusso di lavoro automatizzato
 description: I flussi di lavoro automatizzati consentono di creare una serie di fasi di revisione sequenziale o parallela, stabilire dipendenze tra queste fasi e limitarne la visibilità a determinati utenti. Se nel processo di revisione sono presenti fasi interdipendenti, i flussi di lavoro automatizzati spostano automaticamente la bozza nelle varie fasi, inviando una notifica ai revisori e agli approvatori interessati.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+TQID: https://experienceleague.adobe.com/-BRaaTZcKosdFv6Au4RU0LDMuKffzxtWqprpzJfoh4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: 730
+ht-degree: 1%
 
 ---
 
-# Panoramica del flusso di lavoro automatizzato
+# Panoramica flusso di lavoro automatizzato
 
 <!-- Audited: 01/2024 -->
 

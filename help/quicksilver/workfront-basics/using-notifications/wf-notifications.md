@@ -1,19 +1,30 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Panoramica delle notifiche
+title: Panoramica sulle notifiche
 description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifiche sul dispositivo mobile.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 1%
+source-wordcount: 1398
+ht-degree: 2%
 
 ---
 
-# Panoramica delle notifiche
+# Panoramica sulle notifiche
 
 <!--Audited: 12/2023-->
 
@@ -31,7 +42,7 @@ Per modificare le preferenze per le notifiche e-mail, vedi [Modifica le tue noti
 
 Puoi ricevere le seguenti notifiche e-mail da [!DNL Workfront]:
 
-* [Notifiche degli eventi](#event-notifications)
+* [Notifiche di eventi](#event-notifications)
 * [Notifiche riepilogo giornaliere](#daily-digest-notifications)
 * [Notifica di commenti pubblicati](#notification-of-posted-comments)
 * [Promemoria automatici](#automatic-reminders)
@@ -39,7 +50,7 @@ Puoi ricevere le seguenti notifiche e-mail da [!DNL Workfront]:
 * [Notifiche delle bacheche](#boards-notifications)
 * [Altre [!DNL Workfront] e-mail](#other-workfront-emails)
 
-### Notifiche degli eventi
+### Notifiche di eventi
 
 Le notifiche degli eventi vengono in genere attivate da alcuni eventi predefiniti, ad esempio l&#39;assegnazione di un&#39;attività o la ricezione di una risposta a un commento.
 

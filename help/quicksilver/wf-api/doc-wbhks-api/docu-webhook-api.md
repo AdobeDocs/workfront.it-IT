@@ -2,21 +2,33 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: API dei webhook dei documenti
+title: API webhook documenti
 description: Adobe Workfront Document Webhooks definisce un set di endpoint API attraverso i quali Workfront effettua chiamate API autorizzate a un provider di documenti esterno. Questo consente a chiunque di creare un plug-in middleware per qualsiasi provider di archiviazione dei documenti.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d6f15301-a604-47ff-897b-83a19659dedf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3649'
-ht-degree: 2%
+source-wordcount: 3699
+ht-degree: 4%
 
 ---
 
-
-# API dei webhook dei documenti
+# API webhook documenti
 
 <!-- Audited: 5/2025 -->
 
@@ -47,7 +59,7 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Campo</th> 
+   <th>Nome campo</th> 
    <th>Descrizione</th> 
   </tr> 
  </thead> 
@@ -62,7 +74,7 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
   </tr> 
   <tr> 
    <td>Parametri di richiesta</td> 
-   <td> <p>Valori opzionali da accodare alla stringa di interrogazione di ogni chiamata API. Ad esempio, tipo_di_accesso</p> </td> 
+   <td> <p>Valori opzionali da aggiungere alla stringa di interrogazione di ogni chiamata API. Ad esempio, tipo_di_accesso=offline.</p> </td> 
   </tr> 
   <tr> 
    <td>Tipo di autenticazione</td> 
@@ -242,7 +254,7 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint del 
   </tr> 
   <tr> 
    <td>expires_in </td> 
-   <td>long</td> 
+   <td>lungo</td> 
    <td>  <p>(Facoltativo) Il tempo (in secondi) prima della scadenza del token di accesso, in genere 3.600.</p></td> 
   </tr> 
  </tbody> 
@@ -292,7 +304,7 @@ GET /metadata?id=[ID documento o cartella]
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>  <p>ID di un file o di una cartella, come indicato dal provider del webhook. È diverso dall’ID documento di Workfront. Per ottenere i metadati della directory principale, utilizza il valore "/".</p><p>Nota: la lunghezza massima per l’ID è di 255 caratteri.</p></td> 
   </tr> 
  </tbody> 
@@ -325,7 +337,7 @@ GET /metadata?id=[ID documento o cartella]
    <td>Specifica se l'elemento è un file o una cartella ('file' o 'cartella').</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>Stringa </td> 
    <td>ID del file o della cartella.</td> 
   </tr> 
@@ -490,7 +502,7 @@ Restituisce i byte non elaborati di un documento.
 
 **URL**
 
-GET /download
+OTTIENI/scarica
 
 **Parametri query**
 
@@ -505,7 +517,7 @@ GET /download
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>id</p> </td> 
+   <td> <p>ID</p> </td> 
    <td> ID del documento.</td> 
   </tr> 
  </tbody> 
@@ -531,7 +543,7 @@ GET /thumbnail
 
 | Nome  | Descrizione |
 |---|---|
-| id  | ID del documento. |
+| ID  | ID del documento. |
 | dimensione  | Larghezza della miniatura. |
 
 {style="table-layout:auto"}
@@ -603,13 +615,13 @@ Carica i byte di un documento nel provider del webhook.
 
 **URL**
 
-PUT /upload
+PUT/upload
 
 **Parametri query**
 
 | Nome  | Descrizione |
 |---|---|
-| id  |  ID del documento appena creato. |
+| ID  |  ID del documento appena creato. |
 
 
  
@@ -727,7 +739,7 @@ POST /createFolder
 | Nome  | Descrizione |
 |---|---|
 | parentId  | ID cartella in cui creare la cartella. |
-| nome  | Nome della nuova cartella. |
+| name  | Nome della nuova cartella. |
 
 {style="table-layout:auto"}
 
@@ -768,7 +780,7 @@ restituisce
 
 URL
 
-PUT /delete
+PUT/delete
 
 **Parametri query**
 
@@ -812,8 +824,8 @@ PUT /rename
 
 | Nome  | Descrizione |
 |---|---|
-| id | ID documento o cartella da rinominare. |
-| nome  | Nuovo nome del documento o della cartella. |
+| ID | ID documento o cartella da rinominare. |
+| name  | Nuovo nome del documento o della cartella. |
 
 {style="table-layout:auto"}
 

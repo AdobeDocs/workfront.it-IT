@@ -1,18 +1,31 @@
 ---
-title: 23.3 Miglioramenti dell’integrazione
-description: 23.3 Miglioramenti dell’integrazione
+title: 23.3 - Miglioramenti per le integrazioni
+description: 23.3 - Miglioramenti per le integrazioni
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 0%
+source-wordcount: 700
+ht-degree: 2%
 
 ---
 
-# 23.3 Miglioramenti dell’integrazione
+# 23.3 - Miglioramenti per le integrazioni
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 23.3 di. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
@@ -34,23 +47,23 @@ L’integrazione di Adobe Creative Cloud ora supporta la possibilità di sceglie
 
 In precedenza, l’integrazione consentiva agli utenti di contrassegnare un’attività come completata, senza specificare &quot;Fine con la parte&quot; o &quot;Completo&quot;/&quot;Risolto&quot;.
 
-Per sfruttare questa funzionalità, scarica e installa i plug-in Workfront for Creative Cloud più recenti.
+Per sfruttare questa funzionalità, scarica e installa i plug-in più recenti di Workfront for Creative Cloud.
 
 Per ulteriori informazioni sulla funzionalità, vedere [Contrassegnare gli elementi di lavoro come completati utilizzando il plug-in Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
 
-Per informazioni sull&#39;installazione dei plug-in Workfront for Creative Cloud, vedere [Installare il plug-in Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Per informazioni sull&#39;installazione dei plug-in di Workfront for Creative Cloud, vedere [Installare il plug-in di Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Visualizzare e gestire le notifiche Workfront da Workfront per i plug-in Creative Cloud
+## Visualizzare e gestire le notifiche Workfront dai plug-in di Workfront for Creative Cloud
 
 Per semplificare la ricezione delle notifiche necessarie, è possibile visualizzare e gestire le notifiche di Workfront senza uscire da Adobe Creative Cloud. Ora puoi visualizzare le notifiche, nonché accedere agli elementi di lavoro e ai commenti relativi a tali notifiche direttamente dalla finestra del plug-in Workfront all’interno dell’applicazione Creative Cloud.
 
 In precedenza, le notifiche erano disponibili solo all’interno di Workfront e tramite e-mail.
 
-Per sfruttare questa funzionalità, scarica e installa i plug-in Workfront for Creative Cloud più recenti.
+Per sfruttare questa funzionalità, scarica e installa i plug-in più recenti di Workfront for Creative Cloud.
 
 Per ulteriori informazioni, vedere [Visualizzare e gestire [!DNL Adobe Workfront] le notifiche da Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
 
-Per informazioni sull&#39;installazione dei plug-in Workfront for Creative Cloud, vedere [Installare il plug-in Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Per informazioni sull&#39;installazione dei plug-in di Workfront for Creative Cloud, vedere [Installare il plug-in di Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 <!--
 
@@ -80,19 +93,19 @@ Ora è possibile categorizzare e trovare rapidamente le risorse in base ai dati 
 
 In precedenza, la mappatura dei dati di Workfront sui tag Experience Manager Assets non era disponibile.
 
-Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, vedere [Configurare l&#39;integrazione [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, vedere [Configurare l&#39;integrazione di [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Per ulteriori informazioni su questa funzionalità in Experience Manager Assets Essentials, consulta [Configurare l&#39;integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Mappare i campi Workfront ai campi di metadati Experience Manager Assets personalizzati
 
-Con l’integrazione nativa, ora puoi mappare i campi Workfront nativi e incorporati ai campi dello schema di metadati personalizzati in Experience Manager Assets as a Cloud Service.
+Con l’integrazione nativa, ora è possibile mappare i campi Workfront nativi e incorporati ai campi dello schema di metadati personalizzati in Experience Manager Assets as a Cloud Service.
 
-Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, vedere [Configurare l&#39;integrazione [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Per ulteriori informazioni su questa funzionalità in Experience Manager Assets as a Cloud Service, vedere [Configurare l&#39;integrazione di [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Per ulteriori informazioni su questa funzionalità in Experience Manager Assets Essentials, consulta [Configurare l&#39;integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Regolare le impostazioni del modello di flusso di lavoro per bozza automatizzata con Adobe Workfront for Creative Cloud
 
-È ora possibile modificare le impostazioni del modello di workflow automatizzato esistente direttamente nella Creative Cloud. Dopo aver scelto un modello di workflow automatizzato esistente, è possibile:
+È ora possibile modificare le impostazioni del modello di flusso di lavoro automatico esistente direttamente in Creative Cloud. Dopo aver scelto un modello di workflow automatizzato esistente, è possibile:
 
 * Disattiva fasi
 * Aggiungi altri destinatari

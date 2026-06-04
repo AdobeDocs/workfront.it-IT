@@ -2,17 +2,25 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Impossibile connettersi con la password fornita dallo strumento Power BI
+title: Lo strumento Power BI non può connettersi con la password fornita
 description: Quando tenti di accedere a Data Connect dallo strumento Power BI, ricevi un errore di accesso.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 40050915153af6e1f70024461e193fb536d74e35
+exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
+TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 5%
 
 ---
-
 
 # Lo strumento Power BI non può connettersi con la password fornita
 
@@ -50,4 +58,3 @@ Reimposta la password di connessione in Workfront, quindi crea una nuova passwor
 1. Fai clic su **Accedi**.
 1. Immettere una nuova password, quindi fare clic su **Invia**.
 1. Vai allo strumento Power BI e accedi con la nuova password.
-

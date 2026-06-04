@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1537
 ht-degree: 8%
 
 ---
@@ -91,6 +91,7 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 
 * Il riempimento del modulo AI non sovrascrive i campi già compilati.
 * Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
+* I campi che dipendono dai dati calcolati non sono supportati. Ad esempio, se il campo A è un campo calcolato e le opzioni del campo B sono derivate dal campo A, il riempimento del modulo non può compilare automaticamente il campo B.
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 

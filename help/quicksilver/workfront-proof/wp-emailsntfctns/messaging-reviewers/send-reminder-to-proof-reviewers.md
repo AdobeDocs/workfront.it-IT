@@ -2,19 +2,28 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
-title: Invia un messaggio di promemoria ai revisori su una bozza
+title: Inviare un messaggio di promemoria ai revisori su una bozza
 description: Funzionamento per PiW
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: 437
+ht-degree: 7%
 
 ---
 
-# Invia un messaggio di promemoria ai revisori su una bozza
+# Inviare un messaggio di promemoria ai revisori su una bozza
 
 >[!IMPORTANT]
 >
@@ -50,7 +59,7 @@ Puoi anche segnalare a qualcuno più bozze che sono state condivise con lui. Per
 
      Il messaggio predefinito ricorda ai revisori che sono stati aggiunti alla bozza e include la scadenza della bozza.
 
-   * Se desideri creare un messaggio personalizzato, digita un **[!UICONTROL Oggetto]** e il **[!UICONTROL Messaggio],** quindi fai clic su **[!UICONTROL Invia].**&#x200B;Un promemoria personalizzato contiene le stesse informazioni del promemoria predefinito, ma include anche l&#39;oggetto personalizzato e il messaggio personalizzato nel corpo del messaggio.
+   * Se desideri creare un messaggio personalizzato, digita un **[!UICONTROL Oggetto]** e il **[!UICONTROL Messaggio],**, quindi fai clic su **[!UICONTROL Invia].**&#x200B;Un promemoria personalizzato contiene le stesse informazioni del promemoria predefinito, ma include anche l&#39;oggetto personalizzato e il messaggio personalizzato nel corpo dell&#39;e-mail.
 
 ## Invio di un messaggio ai revisori in uno stage
 
@@ -65,4 +74,4 @@ Puoi anche segnalare a qualcuno più bozze che sono state condivise con lui. Per
 
      Il messaggio predefinito ricorda ai revisori che sono stati aggiunti alla bozza e include la scadenza della bozza.
 
-   * Se desideri creare un messaggio personalizzato, digita un **[!UICONTROL Oggetto]** e il **[!UICONTROL Messaggio],** quindi fai clic su **[!UICONTROL Invia].**&#x200B;Un promemoria personalizzato contiene le stesse informazioni del promemoria predefinito, ma include anche l&#39;oggetto personalizzato e il messaggio personalizzato nel corpo del messaggio.
+   * Se desideri creare un messaggio personalizzato, digita un **[!UICONTROL Oggetto]** e il **[!UICONTROL Messaggio],**, quindi fai clic su **[!UICONTROL Invia].**&#x200B;Un promemoria personalizzato contiene le stesse informazioni del promemoria predefinito, ma include anche l&#39;oggetto personalizzato e il messaggio personalizzato nel corpo dell&#39;e-mail.

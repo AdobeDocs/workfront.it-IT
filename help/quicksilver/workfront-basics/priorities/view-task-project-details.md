@@ -6,14 +6,23 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/0he3DEiya4uyF6tdS-xHqhqnSYiQkXijNxwheJVvDU4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: 409
+ht-degree: 10%
 
 ---
 
-# Visualizzare i dettagli del progetto e dell’elemento di lavoro in Priorità
+# Visualizzare i dettagli degli elementi di lavoro e del progetto in Priorità
 
 Puoi visualizzare i dettagli del progetto, dell’attività e del problema nell’elenco di lavoro delle priorità.
 
@@ -26,7 +35,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +48,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
    <p>Revisore o versione successiva</p>
    <p>Chiaro o superiore</p> 
@@ -50,7 +59,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
   </tr> 
  </tbody> 

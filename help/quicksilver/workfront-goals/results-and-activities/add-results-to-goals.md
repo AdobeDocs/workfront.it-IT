@@ -7,11 +7,22 @@ description: I risultati misurano l’avanzamento di un obiettivo. Senza associa
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/2vFdXqMEGMimAJU3WvlkJ74sNlQLx78vMQqpUL-OHX8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 537
 ht-degree: 18%
 
 ---
@@ -209,7 +220,7 @@ Adding results to goals differs depending on which environment you use.
    >
    >Non è possibile assegnare un team, un gruppo o l&#39;azienda come proprietario dei risultati.
 
-1. In **Come si desidera misurare il risultato?** area, specificare le informazioni seguenti:
+1. In **Come si desidera misurare il risultato?** , specificare le informazioni seguenti:
    * **Tipo di valore**: indica come misurare l&#39;avanzamento del risultato. Puoi misurare l’avanzamento numericamente, con un valore percentuale o utilizzando un importo in valuta.
 
      Selezionare un tipo di valore tra le opzioni elencate nella tabella seguente:

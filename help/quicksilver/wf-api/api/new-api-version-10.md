@@ -1,20 +1,27 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 10
+title: Novità nella versione API 10
 description: Risorse aggiornate
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/7paMh3l4zsoBaafv6U6pp1M-SQjk-kdmSho9GYa15SU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 39%
+source-wordcount: 484
+ht-degree: 58%
 
 ---
 
-# Novità dell’API versione 10
+# Novità nella versione API 10
 
 * [Nuove risorse](#new-resources)
 * [Risorse aggiornate](#updated-resources)
@@ -27,7 +34,7 @@ ht-degree: 39%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | AGGIUNGI |
-|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | CONTEGGIO |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
@@ -38,7 +45,7 @@ ht-degree: 39%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-|   |   |   |   |   |   | COUNT  |
+|   |   |   |   |   |   | CONTEGGIO  |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFICA  |
 |   |   |   |   |   |   | GET  |
@@ -51,10 +58,10 @@ ht-degree: 39%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | COUNT |
+| ID |   |   |   |   |   | CONTEGGIO |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORTO  |
-|   |   |   |   |   |   | RICERCA  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -63,12 +70,12 @@ ht-degree: 39%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | CONTEGGIO |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFICA  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORTO  |
-|   |   |   |   |   |   | RICERCA  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -91,7 +98,7 @@ ht-degree: 39%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | customerID | cliente |   |   |   |   | AGGIUNGI |
-| edTime | utente |   |   |   |   | COUNT |
+| edTime | utente |   |   |   |   | CONTEGGIO |
 | firstDayOfWeek |   |   |   |   |   | ELIMINA |
 | ID |   |   |   |   |   | MODIFICA |
 | showPTO |   |   |   |   |   | GET |
@@ -266,7 +273,7 @@ Tipo <sup>1</sup> cambiato da null a booleano
 
 {style="table-layout:auto"}
 
-### Trfa
+### Tasso
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -369,7 +376,7 @@ Tipo <sup>1</sup> cambiato da null a booleano
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | AGGIUNGI  |
-| BudgetedHours |   |   |   |   |   | COUNT  |
+| BudgetedHours |   |   |   |   |   | CONTEGGIO  |
 | ID |   |   |   |   |   | DELETE  |
 | plannedBudgetedHours |   |   |   |   |   | MODIFICA  |
 | projectID |   |   |   |   |   | GET  |

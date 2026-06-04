@@ -6,11 +6,19 @@ description: I modificatori di filtri e condizioni ti consentono di creare filtr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-zma9k-MyCFD5wrcn9ggAoPnKjwAmunEVgl33yhH-Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: 1600
 ht-degree: 0%
 
 ---
@@ -72,12 +80,12 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p><strong>Contiene</strong> </p> </td> 
    <td> <p><strong>cicontains</strong> </p> </td> 
-   <td> <p>Questa è la versione di <i>contains</i> senza distinzione tra maiuscole e minuscole<strong>. </strong> Ad esempio: <code>cicontains inf</code> acquisisce qualsiasi valore contenente <code>Inf</code> o <code>inf</code>.</p> <p> <p>Nota: Adobe Workfront cerca la parola o la frase esatta specificata per ogni istruzione di filtro. Se ad esempio si cerca un progetto che contiene la frase <code>new project</code> nel nome, in Workfront non verranno visualizzati i progetti che contengono solo <code>new</code> o solo <code>project</code> o <code>new main project</code> nel nome. Il filtro trova solo i progetti il cui nome contiene la frase esatta <code>new project</code>.</p> </p> </td> 
+   <td> <p>Questa è la versione di <strong>contains</strong> senza distinzione tra maiuscole e minuscole</i>. <i>Ad esempio: <code>cicontains inf</code> acquisisce qualsiasi valore contenente <code>Inf</code> o <code>inf</code>.</p> <p> <p>Nota: Adobe Workfront cerca la parola o la frase esatta specificata per ogni istruzione di filtro. Se ad esempio si cerca un progetto che contiene la frase <code>new project</code> nel nome, in Workfront non verranno visualizzati i progetti che contengono solo <code>new</code> o solo <code>project</code> o <code>new main project</code> nel nome. Il filtro trova solo i progetti il cui nome contiene la frase esatta <code>new project</code>.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Does Not Contain</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Versione di <i>notcontains</i> senza distinzione tra maiuscole e minuscole<strong>.</strong></p><p>Questo modificatore filtra gli elementi per i quali manca il valore specificato.</p> <p>Ad esempio, <code>does not contain inf</code> acquisisce qualsiasi elemento senza <code>Inf</code> o <code>inf</code> nel nome.</p> <p>Nota: quando viene applicato a campi che contengono più valori (ad esempio, una raccolta di note all’interno di un progetto), il filtro determina l’esclusione come segue:
+   <td> <p>Versione di <strong>notcontains</strong> senza distinzione tra maiuscole e minuscole</i>.<i></p><p>Questo modificatore filtra gli elementi per i quali manca il valore specificato.</p> <p>Ad esempio, <code>does not contain inf</code> acquisisce qualsiasi elemento senza <code>Inf</code> o <code>inf</code> nel nome.</p> <p>Nota: quando viene applicato a campi che contengono più valori (ad esempio, una raccolta di note all’interno di un progetto), il filtro determina l’esclusione come segue:
 <ul>
     <li>Se tutti gli elementi di una raccolta contengono il testo specificato, l'intero record viene escluso dai risultati.</li>
     <li>Se almeno un elemento della raccolta non contiene il testo specificato, il record rimane nei risultati.</li>
@@ -87,7 +95,7 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>contiene</strong> </p> </td> 
-   <td> <p> Cerca il testo <i>con distinzione tra maiuscole e minuscole</i> specificato in un'intera stringa di testo.</p> <p>Ad esempio, l'utilizzo di <code>contains Inf</code> acquisisce qualsiasi elemento contenente <code>Inf</code>, ad esempio la parola <code>Infinity.</code></p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo.Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro in modalità testo</a>.</p> </td> 
+   <td> <p> Cerca il testo <i>con distinzione tra maiuscole e minuscole</i> specificato in un'intera stringa di testo.</p> <p>Ad esempio, l'utilizzo di <code>contains Inf</code> acquisisce qualsiasi elemento contenente <code>Inf</code>, ad esempio la parola <code>Infinity.</code></p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo.Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notcontains</strong> </p> </td> 
@@ -116,12 +124,12 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cin</strong> </p> </td> 
-   <td> <p> Questa è la versione di <i>in</i> di <strong>senza distinzione tra maiuscole e minuscole</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+   <td> <p> Questa è la versione di <strong>in</strong> di <i>senza distinzione tra maiuscole e minuscole</i>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cinotina</strong> </p> </td> 
-   <td> <p>Versione di <i>notin</i> di <strong>senza distinzione tra maiuscole e minuscole</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+   <td> <p>Versione di <strong>notin</strong> di <i>senza distinzione tra maiuscole e minuscole</i>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>Uguale</strong> </p> </td> 
@@ -141,7 +149,7 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Questa è la versione di <i>like</i> di <strong>senza distinzione tra maiuscole e minuscole</strong>. Ad esempio: <code>cilike %Current% %Dead%</code> restituisce tutte le note che contengono <code>Current to Dead</code> o <code>current to dead</code>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+   <td> <p>Questa è la versione di <strong>like</strong> di <i>senza distinzione tra maiuscole e minuscole</i>. Ad esempio: <code>cilike %Current% %Dead%</code> restituisce tutte le note che contengono <code>Current to Dead</code> o <code>current to dead</code>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, vedere <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Non Esiste</strong> </td> 

@@ -7,9 +7,19 @@ description: Se disponi del piano Select o Premium, puoi fornire la funzionalit�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: 1084
 ht-degree: 0%
 
 ---
@@ -26,7 +36,7 @@ Ciò significa che effettuerai l&#39;autenticazione in base al tuo sistema di ac
 
 >[!NOTE]
 >
->Per abilitare SAML, è necessario che nell&#39;account [!DNL Workfront Proof] sia configurato un sottodominio o un dominio personalizzato. I sottodomini personalizzati sono liberi di impostare. Per ulteriori informazioni, consulta [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Per ulteriori informazioni sui domini completamente personalizzati, consulta il nostro [sito  [!DNL Workfront Proof]  dedicato al marchio - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Per abilitare SAML, è necessario che nell&#39;account [!DNL Workfront Proof] sia configurato un sottodominio o un dominio personalizzato. I sottodomini personalizzati sono liberi di impostare. Per ulteriori informazioni, consulta [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Puoi trovare ulteriori informazioni sui domini completamente personalizzati nel nostro [Brand il [!DNL Workfront Proof] sito - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Abilitazione dell&#39;SSO entro [!DNL Workfront Proof]
 
@@ -47,7 +57,7 @@ In qualità di fornitore di servizi, abbiamo pubblicato il nostro ID entità qui
 * http://axschema.org/contact/email
 * openid.sreg.email
 * mail
-* email
+* e-mail
 * emailAddress
 
 Per configurare l&#39;SSO:

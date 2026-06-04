@@ -1,15 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: use-workfront-view
-title: Introduzione alla visualizzazione Adobe Workfront
+title: Introduzione alla Vista di Adobe Workfront
 description: Puoi tenere traccia dello stato di avanzamento dei tuoi progetti quando sei in movimento utilizzando l'app mobile  [!DNL Adobe Workfront] View.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Xqw2tpo03NCxTwEB5kLopbPnTzLI6Tgp6HYcHGc-Vf0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 2%
+source-wordcount: 289
+ht-degree: 14%
 
 ---
 
@@ -29,7 +41,7 @@ Gli utenti con [!UICONTROL le licenze Requestor] e [!UICONTROL External] non pos
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,9 +54,9 @@ Gli utenti con [!UICONTROL le licenze Requestor] e [!UICONTROL External] non pos
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licenza di Adobe Workfront</strong></td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
  </tbody> 

@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Scelte rapide da tastiera nel visualizzatore di bozze
+title: Scelte rapide da tastiera nel visualizzatore di bozza
 description: Le scelte rapide da tastiera descritte in questo articolo sono disponibili sia in Web Proofing Viewer (Visualizzatore di bozze web) che in Desktop Proofing Viewer (Visualizzatore di bozze desktop).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/KaPjGHbES--UPqcVBW9yiZsne-MTeA6Ykcs--UnozWw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: 348
+ht-degree: 7%
 
 ---
 
-# Scelte rapide da tastiera nel visualizzatore di bozze
+# Scelte rapide da tastiera nel visualizzatore di bozza
 
 Le scelte rapide da tastiera descritte in questo articolo sono disponibili sia in Web Proofing Viewer (Visualizzatore di bozze web) che in Desktop Proofing Viewer (Visualizzatore di bozze desktop). 
 
@@ -139,8 +144,8 @@ Le scelte rapide da tastiera descritte in questo articolo sono disponibili sia i
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd+- <br>O <br>cmd+maiusc+scorrimento verso il basso</p> <p><strong>Windows:</strong> CTRL+-</p> </td> 
-   <td> <p>Zoom indietro </p> </td> 
-   <td> <p>Zoom indietro</p> </td> 
+   <td> <p>Zoom out </p> </td> 
+   <td> <p>Zoom out</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Windows:</strong> tenere la barra spaziatrice durante il trascinamento dell'immagine</p> </td> 

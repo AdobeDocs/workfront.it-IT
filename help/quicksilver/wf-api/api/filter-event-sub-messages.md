@@ -2,20 +2,27 @@
 filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
-title: Filtrare i messaggi di abbonamento agli eventi
-description: Filtrare i messaggi di abbonamento agli eventi
+title: Filtrare i messaggi di sottoscrizione a eventi
+description: Filtrare i messaggi di sottoscrizione a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
 
-# Filtrare i messaggi di abbonamento agli eventi
+# Filtrare i messaggi di sottoscrizione a eventi
 
 Puoi creare componenti di elaborazione intermediari che ti aiutino a filtrare ed elaborare solo i messaggi di abbonamento agli eventi di cui la tua azienda ha bisogno.
 
@@ -25,7 +32,7 @@ Per informazioni sulle sottoscrizioni di eventi, vedere [API sottoscrizione even
 
 Questa sezione contiene snippet di codice di filtro che puoi implementare per ridurre il caricamento dei messaggi di abbonamento agli eventi.  Per illustrare le differenze nella sintassi delle varie lingue, questi snippet illustrano lo stesso set di filtri scritti nelle seguenti lingue:
 
-Puoi visualizzare esempi di filtro in [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), dove puoi vedere le differenze di sintassi per ogni linguaggio e i mezzi di interazione con l&#39;SDK di AWS.Questi esempi sono scritti come AWS Lambdas, un metodo comune per l&#39;utilizzo di componenti di filtro ed elaborazione intermediari.
+Puoi visualizzare esempi di filtro in [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), dove puoi vedere le differenze di sintassi per ogni lingua e i mezzi di interazione con AWS SDK.Questi esempi sono scritti come AWS Lambdas, un metodo comune per l&#39;utilizzo di componenti di filtro ed elaborazione intermediari.
 
 I seguenti snippet di codice sono pronti per la distribuzione e possono essere utilizzati come punto di partenza per aiutarti a scrivere filtri e componenti di elaborazione personalizzati e più complessi.
 
@@ -107,7 +114,7 @@ L&#39;esempio seguente in Java mostra come filtrare i payload del progetto in ba
    }
    ```
 
-   L’SDK di AWS viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.
+   AWS SDK viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.
 
    Lo scopo di trasferire la responsabilità della consegna del messaggio a un altro Lambda è quello di evitare un timeout della richiesta di consegna proveniente dal servizio di abbonamento agli eventi. Attualmente, il timeout consentito per la consegna è impostato su cinque secondi. Se il filtro richiede più tempo di quanto consentito dall’impostazione, puoi elaborare la richiesta, ma il servizio Sottoscrizione eventi si interrompe e rientra in un ciclo di nuovi tentativi fino a quando non riceve una risposta di 200 livelli entro il periodo di timeout.
 
@@ -179,7 +186,7 @@ L&#39;esempio seguente in Python mostra come filtrare i payload del progetto in 
       )
    ```
 
-   L’SDK di AWS viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.
+   AWS SDK viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.
 
    Lo scopo di trasferire la responsabilità della consegna del messaggio a un altro Lambda è quello di evitare un timeout della richiesta di consegna proveniente dal servizio di abbonamento agli eventi. Attualmente, il timeout per la consegna è impostato su cinque secondi. Se il filtro richiede più tempo di quanto consentito dall’impostazione, puoi elaborare la richiesta, ma il servizio Sottoscrizione eventi si interrompe e rientra in un ciclo di nuovi tentativi fino a quando non riceve una risposta di 200 livelli entro il periodo di timeout.
 
@@ -259,7 +266,7 @@ L&#39;esempio seguente in Node.js mostra come filtrare i payload del progetto in
    }
    ```
 
-   L’SDK di AWS viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.\
+   AWS SDK viene utilizzato per richiamare un altro Lambda, responsabile della distribuzione del messaggio filtrato all’endpoint desiderato.\
    Lo scopo di trasferire la responsabilità della consegna del messaggio a un altro Lambda è quello di evitare un timeout della richiesta di consegna proveniente dal servizio di abbonamento agli eventi. Attualmente, il timeout per la consegna è impostato su cinque secondi. Se il filtro richiede più tempo di quanto consentito dall’impostazione, puoi elaborare la richiesta, ma il servizio Sottoscrizione eventi si interrompe e rientra in un ciclo di nuovi tentativi fino a quando non riceve una risposta di 200 livelli entro il periodo di timeout.\
    Per informazioni sulla gestione della consegna dei messaggi, vedere [Miglioramento della consegna dei messaggi durante la gestione dei timeout](#improving-message-delivery-while-accommodating-timeouts).
 
@@ -332,4 +339,4 @@ Ricercando le risorse, assicurati che i sistemi di integrazione dispongano della
 
 Tutti gli esempi nella sezione [Filtro dei messaggi evento](#filtering-event-messages) passano la responsabilità di consegnare i messaggi filtrati a un altro AWS Lambda. Questa operazione viene eseguita per evitare di superare il timeout di cinque secondi nella richiesta di consegna, applicato dal servizio Sottoscrizione eventi che emette la richiesta.
 
-In un’architettura senza cloud, potrebbe essere necessario implementare un meccanismo di elaborazione asincrona simile a quello dell’SDK di AWS per le chiamate asincrone ad altri AWS Lambda. La maggior parte dei linguaggi di programmazione moderni dispone di librerie di terze parti o core che gestiscono l’elaborazione asincrona, consentendo di sfruttare lo stile di elaborazione asincrona implementato nei nostri esempi.
+In un’architettura senza cloud, potrebbe essere necessario implementare un meccanismo di elaborazione asincrona simile a quello di AWS SDK per le chiamate asincrone ad altri AWS Lambda. La maggior parte dei linguaggi di programmazione moderni dispone di librerie di terze parti o core che gestiscono l’elaborazione asincrona, consentendo di sfruttare lo stile di elaborazione asincrona implementato nei nostri esempi.

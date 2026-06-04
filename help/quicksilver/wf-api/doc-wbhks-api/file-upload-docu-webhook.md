@@ -2,21 +2,28 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Caricamento di file tramite webhook di documenti
-description: Caricamento di file tramite webhook di documenti
+title: Caricamento di file tramite webhook dei documenti
+description: Caricamento di file tramite webhook dei documenti
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: 266
+ht-degree: 11%
 
 ---
 
-
-# Caricamento di file tramite webhook di documenti
+# Caricamento di file tramite webhook dei documenti
 
 Il caricamento di un file in un provider di archiviazione documenti è un processo in due fasi che richiede due endpoint API separati. Adobe Workfront avvia il processo di caricamento chiamando /uploadInit. Questo endpoint restituisce un ID documento che viene quindi passato a /upload durante il caricamento dei byte del documento. A seconda del sistema di archiviazione dei documenti sottostante, potrebbe essere necessario creare un documento a lunghezza zero, quindi aggiornare il contenuto del documento in un secondo momento.
 
@@ -77,13 +84,13 @@ Carica i byte di un documento nel provider del webhook.
 
 **URL**
 
-PUT /upload
+PUT/upload
 
 ## Parametri di query
 
 | Nome  | Descrizione |
 |---|---|
-| id  |  ID del documento appena creato. |
+| ID  |  ID del documento appena creato. |
 
 
 **Corpo richiesta**

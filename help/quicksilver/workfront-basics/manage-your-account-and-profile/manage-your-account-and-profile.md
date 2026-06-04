@@ -3,15 +3,20 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Gestire account e profilo
-description: Consulta gli articoli in questa sezione per scoprire come gestire il tuo account e il tuo profilo utente  [!DNL Workfront] .
+description: Rivedi gli articoli in questa sezione per scoprire come gestire il tuo account e il tuo profilo utente  [!DNL Workfront] .
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 14528077-dbb7-41af-889a-18cab5135ae5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+TQID: https://experienceleague.adobe.com/fVgEBpQ9SafQzwfaeYOWdpR7R8xgZ8eOC-3ZepuPct0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 0%
+source-wordcount: 37
+ht-degree: 100%
 
 ---
 
@@ -19,5 +24,5 @@ ht-degree: 0%
 
 Questa sezione contiene le seguenti sottosezioni:
 
-* [Configurare il profilo utente](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [Gestisci il tuo account  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [Configurare il proprio profilo utente](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
+* [Gestire il proprio account di  [!DNL Adobe Workfront] ](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

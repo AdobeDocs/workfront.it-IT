@@ -5,12 +5,30 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 18%
+source-wordcount: 1684
+ht-degree: 16%
 
 ---
 
@@ -61,7 +79,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 13 marzo 2025</li>
+                <li>Versione di anteprima: 13 marzo 2025</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
         </td>
@@ -76,7 +94,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: sabato 31 gennaio 2025</li>
+                <li>Versione di anteprima: 31 gennaio 2025</li>
                 <span class="preview"><li>Versione di produzione per tutti i clienti: 31 gennaio 2025</li></span>
             </ul>
         </td>
@@ -116,7 +134,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 20 marzo 2025</li>
+                <li>Versione di anteprima: 20 marzo 2025</li>
                 <span class="preview"><li>Versione di produzione per tutti i clienti: 20 marzo 2025</li></span>
             </ul>
         </td>
@@ -130,7 +148,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 6 febbraio 2025</li>
+                <li>Versione di anteprima: 6 febbraio 2025</li>
                 <span class="preview"><li>Versione di produzione per tutti i clienti: 13 marzo 2025</li></span>
             </ul>
         </td>
@@ -185,7 +203,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 13 febbraio 2025</li>
+                <li>Versione di anteprima: 13 febbraio 2025</li>
                 <li>Produzione per rilascio rapido: con la versione 25.3 (marzo 2025)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
@@ -209,7 +227,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: mercoledì 25 marzo 2025</li>
+                <li>Versione di anteprima: 25 marzo 2025</li>
                 <li>Versione di produzione per tutti i clienti: 25 marzo 2025</li>
             </ul>
         </td>
@@ -228,7 +246,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 27 febbraio 2025</li>
+                <li>Versione di anteprima: 27 febbraio 2025</li>
                 <li>Questa funzione verrà rilasciata in produzione in tre fasi: a partire dalla versione 25.4 (10 aprile 2025) e fino al completamento del 17 aprile 2024</li>
             </ul>
         </td>
@@ -264,7 +282,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Rilascio in anteprima: venerdì 23 gennaio 2025</li>
+                <li>Versione di anteprima: 23 gennaio 2025</li>
                 <li>Produzione per rilascio rapido: con la versione 25.2 (13 febbraio 2025)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
@@ -346,11 +364,11 @@ A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Qu
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Versione 19 dell’API
+### API versione 19
 
-Nella versione 19 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Per API versione 19, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 19 dell’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Per informazioni sulle versioni API attualmente supportate, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

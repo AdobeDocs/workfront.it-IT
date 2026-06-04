@@ -1,20 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 15 dell’API
+title: Novità nella versione API 15
 description: Adobe Workfront ha rilasciato la versione API 14 il 14 giugno 2022. La versione 15 dell’API presenta le seguenti modifiche rispetto alla versione 14.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 0%
+source-wordcount: 2294
+ht-degree: 2%
 
 ---
 
-# Novità della versione 15 dell’API
+# Novità nella versione API 15
 
 Adobe Workfront ha rilasciato la versione API 15 il 14 giugno 2022. La versione 15 dell’API presenta le seguenti modifiche rispetto alla versione 14.
 
@@ -169,7 +182,7 @@ Per ulteriori informazioni sulle iniziative, vedere [Panoramica delle iniziative
             </p>
           </li>
           <li>
-            <p><b>RICERCA</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -529,7 +542,7 @@ L&#39;oggetto TaskDef rappresenta un insieme di dati relativi al formato delle a
             </p>
           </li>
           <li>
-            <p><b>RICERCA</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -781,7 +794,7 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
 
 ### Approvazione (APPROVAZIONE)
 
-Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un’attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l’elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table>
   <col/>
@@ -1405,7 +1418,7 @@ Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di r
 
 ### ScoreCardQuestion (SCOREQ)
 
-Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager del Portfolio e le loro risposte consentono al manager di capire quanto un progetto sia in linea con gli obiettivi del portfolio.
+Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager Portfolio e le loro risposte consentono al manager di comprendere quanto un progetto sia in linea con gli obiettivi del portfolio.
 
 Per ulteriori informazioni sulle domande relative alle scorecard, vedere [Creare una scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 

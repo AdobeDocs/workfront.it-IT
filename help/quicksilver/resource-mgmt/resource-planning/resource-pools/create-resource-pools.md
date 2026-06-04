@@ -6,10 +6,20 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 15%
+source-wordcount: 515
+ht-degree: 16%
 
 ---
 
@@ -79,7 +89,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr>
      <tr>
       <td role="rowheader"><strong>Membri del gruppo</strong></td>
-      <td><p> Aggiungere singolarmente gli utenti al Pool di Risorse.<br>Oppure <br>Per aggiungere contemporaneamente molti utenti al gruppo di risorse. Puoi aggiungere una delle seguenti entità associate a utenti o a una raccolta di utenti:
+      <td><p> Aggiungere singolarmente gli utenti al Pool di Risorse.<br>Oppure <br>Aggiungere contemporaneamente un numero elevato di utenti al Pool di Risorse. Puoi aggiungere una delle seguenti entità associate a utenti o a una raccolta di utenti:
         <ul>
          <li><strong>Team</strong>: tutti i membri del team vengono aggiunti al Pool di Risorse.</li>
          <li><strong>Gruppi</strong>: tutti i membri del gruppo vengono aggiunti al Pool di Risorse.</li>

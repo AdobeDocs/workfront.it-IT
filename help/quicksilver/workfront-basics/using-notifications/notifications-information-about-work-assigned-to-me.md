@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifiche: informazioni sul lavoro assegnato a me'
+title: 'Notifiche: informazioni sul lavoro assegnatomi'
 description: Le notifiche seguenti ti avvisano delle attività che si verificano su un elemento di lavoro assegnato.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 1%
+source-wordcount: 2016
+ht-degree: 2%
 
 ---
 
-# Notifiche: informazioni sul lavoro assegnato a me
+# Notifiche: informazioni sul lavoro assegnatomi
 
 Le notifiche seguenti ti avvisano delle attività che si verificano su un elemento di lavoro assegnato.
 
@@ -62,7 +69,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><strong>Tutti i predecessori di un'attività assegnata al mio team sono completati</strong> </p> <p>Quando un predecessore di una delle loro attività viene contrassegnato come completato, il team assegnato riceve una notifica e-mail.</p> <p>Gli utenti con una licenza Revisione o Richiedente non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Attività completata: &lt;Nome&gt;</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è: <em> Digest of Work Assigned to You &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Nome attività<br>Progetto attività<br>Numero di riferimento attività<br>Nome dell'utente che ha completato l'attività predecessore<br>Stato dell'attività predecessore<br>Data e ora di completamento del predecessore<br>Stato precedente dell'attività predecessore<br><strong>Ulteriori dettagli</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività completate<br>*Nome attività<br>*Nome dell'utente che ha completato l'attività<br>*Data del riepilogo giornaliero<br> </td>
+   <td> Nome attività<br>Progetto attività<br>Numero di riferimento attività<br>Nome dell'utente che ha completato l'attività predecessore<br>Stato dell'attività predecessore<br>Data e ora di completamento del predecessore<br>Stato precedente dell'attività predecessore<br><strong>Ulteriori dettagli</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività completate<br>*Nome attività<br>*Nome dell'utente che ha completato l'attività<br>*Data del riepilogo giornaliero <br></td>
    <td><strong>Istantanea</strong> </td> 
   </tr>
   <!--

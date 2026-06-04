@@ -1,20 +1,31 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Panoramica sull’attività della versione 2018.1
+title: Panoramica sull’attività sulla versione 2018.1
 description: Questa pagina fornisce informazioni sulle funzionalità disponibili nella versione 2018.1 di.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f972c717-305b-4660-a094-ccfcf563df0f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/JF597GODfzJ6rejUNiUM-17OQwqHbQyFMCawJnO3xf0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 0%
+source-wordcount: 644
+ht-degree: 2%
 
 ---
 
-# Panoramica sull’attività della versione 2018.1
+# Panoramica sull’attività sulla versione 2018.1
 
 Questa pagina fornisce informazioni sulle funzionalità disponibili nella versione 2018.1 di.  
 
@@ -73,7 +84,7 @@ Le sezioni seguenti descrivono i miglioramenti disponibili per gli utenti finali
 * [Attiva modalità di modifica nel diagramma di Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#enable-edit-mode-in-gantt) 
 * [Rimuovi predecessori durante la modifica del diagramma di Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#remove-predecessors-when-editing-the-gantt-chart)
 * [Aggiornamenti al diagramma di Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#gantt-chart-updates) 
-* [Nuovo Ottimizzatore Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#new-portfolio-optimizer) 
+* [Nuovo Portfolio Optimizer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#new-portfolio-optimizer) 
 
 ### Area Home (Il mio lavoro è stato aggiornato)
 
@@ -90,7 +101,7 @@ Le sezioni seguenti descrivono i miglioramenti disponibili per gli utenti finali
 * [Crea un&#39;iterazione vuota e aggiornala in seguito](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#create-a-blank-iteration-and-update-it-later)
 * [I campi &quot;Focus&quot; e &quot;Capacity&quot; sono precompilati durante la creazione di un&#39;iterazione](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#focus-and-capacity-fields-are-prepopulated)
 
-### miglioramenti al visualizzatore di bozze (HTML5)
+### miglioramenti del visualizzatore di verifica (HTML5)
 
 * [Nuovi miglioramenti al visualizzatore di bozze](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md#html5-proofing-viewer-improvements) 
 * [Modalità confronto](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#compare-mode)
@@ -130,5 +141,5 @@ Le sezioni seguenti descrivono i miglioramenti disponibili per gli utenti finali
 
 ## Miglioramenti API {#api-enhancements}
 
-* [Novità dell&#39;API versione 9](../../../../wf-api/api/new-api-version-9.md) 
+* [Novità nella versione 9 dell’API](../../../../wf-api/api/new-api-version-9.md) 
 * [Nuove risorse aggiunte alle sottoscrizioni di eventi](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md#new-resources-added-to-event-subscriptions)

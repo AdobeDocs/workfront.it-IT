@@ -6,10 +6,22 @@ description: Puoi caricare i predefiniti per documenti fotografici come bozze di
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: 625
+ht-degree: 5%
 
 ---
 
@@ -25,7 +37,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +51,7 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> 
    <p>Standard</p>
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
@@ -50,7 +62,7 @@ ht-degree: 0%
    <td>[!UICONTROL Manager] o versione successiva</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Modifica accesso a [!UICONTROL Documents]</p>  </td> 
   </tr> 
  </tbody> 

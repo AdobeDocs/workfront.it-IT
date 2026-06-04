@@ -1,19 +1,28 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Tempo di connessione in Priorità
+title: Registrare le ore in Priorità
 description: È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. L'ora registrata viene visualizzata nella scheda orario.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 513
+ht-degree: 10%
 
 ---
 
-# Tempo di connessione in Priorità
+# Registrare le ore in Priorità
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -21,7 +30,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo e registrare le ore specifiche del progetto, è necessario disporre dei seguenti diritti di accesso:
 
@@ -34,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Spia o superiore per registrare le ore su un'attività o un problema</p>
    <p>Lavoro o superiore per registrare le ore per un'attività o un problema</p> </td> 
   </tr> 
@@ -43,13 +52,13 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
    <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

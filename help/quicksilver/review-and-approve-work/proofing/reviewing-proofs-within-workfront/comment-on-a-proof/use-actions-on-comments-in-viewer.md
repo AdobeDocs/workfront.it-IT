@@ -6,10 +6,19 @@ description: Puoi utilizzare le azioni per tenere traccia di ciò che deve accad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+TQID: https://experienceleague.adobe.com/8b320H4rtb7kYEMgEfRRJ-ZoZv6oS-4t5bW14NO6shA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 2%
+source-wordcount: 368
+ht-degree: 15%
 
 ---
 
@@ -21,7 +30,7 @@ Per informazioni su come l&#39;amministratore di Workfront abilita e configura l
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +41,7 @@ Per informazioni su come l&#39;amministratore di Workfront abilita e configura l
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +54,7 @@ Per informazioni su come l&#39;amministratore di Workfront abilita e configura l
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>

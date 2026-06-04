@@ -6,14 +6,25 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 873
+ht-degree: 4%
 
 ---
 
-# Visualizzare e gestire commenti su una scheda orario
+# Visualizzare e gestire commenti su un timesheet
 
 <!-- Audited: April, 2024-->
 
@@ -27,7 +38,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +49,7 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Chiaro o superiore </p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
@@ -47,7 +58,7 @@ ht-degree: 0%
    <td> <p>Visualizzare o accedere ad altre attività e problemi</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +70,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Visualizzare i commenti delle ore su una scheda orario {#view-hour-entry-comments-on-a-timesheet}
 
-È possibile configurare i commenti inseriti in singole ore da visualizzare nella scheda orario. L&#39;opzione per mostrare e nascondere i commenti non influisce sui commenti inseriti nella scheda attività generale o sui commenti inseriti nei singoli elementi. Per ulteriori informazioni, consulta  [Aggiungere commenti a una scheda orario](#make-comments-on-a-timesheet).
+È possibile configurare i commenti inseriti in singole ore da visualizzare nella scheda orario. L&#39;opzione per mostrare e nascondere i commenti non influisce sui commenti inseriti nella scheda attività generale o sui commenti inseriti nei singoli elementi. Per ulteriori informazioni, vedere [Aggiungere commenti a una scheda orario](#make-comments-on-a-timesheet).
 
 Per impostazione predefinita, i commenti vengono nascosti la prima volta che si accede a una scheda orario.
 

@@ -2,19 +2,27 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: "Domande frequenti: verifica in Adobe Workfront - Migrazione da Stati Uniti a EMEA"
+title: 'Domande frequenti: bozza della migrazione da Adobe Workfront, Stati Uniti a EMEA'
 description: Adobe Workfront contatta direttamente tutte le organizzazioni interessate dalla migrazione da Workfront Proof Stati Uniti all’EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+TQID: https://experienceleague.adobe.com/X-9pECfI-MyNS7FaQhfurFq8P0ytkrknYRlJ6GW6rn8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 4%
 
 ---
 
-# Domande frequenti: verifica della migrazione da Adobe Workfront, Stati Uniti a EMEA
+# Domande frequenti: bozza della migrazione da Adobe Workfront, Stati Uniti a EMEA
 
 ## Come posso sapere se questo cambiamento influisce sulla mia organizzazione? 
 
@@ -22,7 +30,7 @@ Adobe Workfront contatta direttamente tutte le organizzazioni interessate dalla 
 
 ## Devo fare qualcosa per prepararmi alla migrazione?
 
-Sì. Prima della migrazione, accertati di aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di della tua organizzazione:\
+Sì. Prima della migrazione, accertati di aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di dell’organizzazione:\
 **webcapture.proof.eu**
 
 ## Quanto tempo ci vorrà per migrare il mio account?

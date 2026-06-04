@@ -6,9 +6,21 @@ description: Le notifiche seguenti ti informano se è necessario intervenire su 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: 2366
 ht-degree: 0%
 
 ---
@@ -33,7 +45,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  <tbody> 
   <tr> 
    <td> <p><strong>Ricevo una nuova richiesta di lavoro</strong> </p> <p>L’assegnatario dell’elemento di lavoro riceve una notifica e-mail, a meno che l’utente che effettua la richiesta non sia anche l’assegnatario. </p> <p>Non viene inviata una notifica se lo stato dell'attività è [!UICONTROL Complete] o lo stato del problema è [!UICONTROL Closed].</p> <p>Gli utenti con una licenza di [!UICONTROL Review] o [!UICONTROL Requestor] non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL New Work Request]: &lt;nome richiesta&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è: <em>[!UICONTROL Digest of Action Needed] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
-   <td> <p>Nome attività</p> <p>[!UICONTROL Data di completamento Pianificata]</p> <p>Principali</p> <p>Assegnazione di</p> <p>Assegnazione a</p> <p>[!UICONTROL Stato]</p> <p>[!UICONTROL Descrizione]</p> <p>Pulsante [!UICONTROL View]<br>Opzione da aggiungere al riepilogo giornaliero</p> <br> </td> 
+   <td> <p>Nome attività</p> <p>[!UICONTROL Data di completamento pianificata]</p> <p>Principali</p> <p>Assegnazione di</p> <p>Assegnazione a</p> <p>[!UICONTROL Stato]</p> <p>[!UICONTROL Descrizione]</p> <p>Pulsante [!UICONTROL View]<br>Opzione da aggiungere al riepilogo giornaliero</p> <br> </td> 
    <td><strong>Istantanea e</strong> <strong>Giornaliera</strong></td> 
   </tr> 
   <tr> 
@@ -83,7 +95,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Sono impostato come assegnatario principale di un'attività</strong> </p> <p>L'assegnatario dell'attività riceve una notifica e-mail se viene nominato assegnatario principale dell'attività, a meno che l'assegnatario non sia l'utente che ha effettuato l'assegnazione.</p> <p>Viene inviata una notifica se lo stato del progetto è [!UICONTROL Current] e l'attività non è contrassegnata [!UICONTROL Complete].</p> <p>Gli utenti con una licenza di [!UICONTROL Review] o [!UICONTROL Requestor] non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL New Work Request]: &lt;Nome attività&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Action Needed] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
-   <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente<br>Data di scadenza attività ([!UICONTROL Data di completamento pianificata])<br>Nome dell'utente che ha assegnato l'attività all'utente<br><strong>[!UICONTROL Lavoraci]</strong>*Numero totale di attività e problemi assegnati<br>*Collegamento a <br>[!UICONTROL Richieste di lavoro]<strong>*Data del riepilogo giornaliero</strong> </td> 
+   <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente<br>Data di scadenza attività ([!UICONTROL Data di completamento pianificata])<br>Nome dell'utente che ha assegnato l'attività all'utente<br><strong>[!UICONTROL Lavoraci]</strong>*Numero totale di attività e problemi assegnati<br>*Collegamento a <strong>[!UICONTROL Richieste di lavoro]</strong>*Data del riepilogo giornaliero <br></td> 
    <td><strong>Istantanea e giornaliera</strong> </td> 
   </tr> 
   <tr> 

@@ -7,10 +7,15 @@ description: Puoi accedere rapidamente al tuo account Workfront Proof direttamen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+TQID: https://experienceleague.adobe.com/ZA4KKoAVgQfPMGkGGZh-LFYux60-2-IbdrAvsKbW-pA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 0%
+source-wordcount: 261
+ht-degree: 4%
 
 ---
 

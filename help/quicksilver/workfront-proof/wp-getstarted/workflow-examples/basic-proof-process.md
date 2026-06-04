@@ -8,9 +8,14 @@ description: Questo articolo illustra il flusso di lavoro di base tra un designe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+TQID: https://experienceleague.adobe.com/G2va4OSUSSOv3GJNY6AyZxEBz8SH-nb7rlKSkbHup-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 0%
 
 ---

@@ -6,11 +6,22 @@ description: Puoi installare il plug-in Adobe Workfront for XD da Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+TQID: https://experienceleague.adobe.com/OvAyPJDtPvMeFKR38F95MmF3RrfOlMqOMdhscW9ia7I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 502
 ht-degree: 9%
 
 ---
@@ -109,7 +120,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   >* Se l&#39;istanza di Workfront è integrata con Experience Cloud e il dominio inizia con `experience.adobe.com`, chiedi all&#39;amministratore di fornirti il dominio di Workfront che si trova in Prodotto > Workfront in Admin Console.
+   >* Se l&#39;istanza di Workfront è integrata con Experience Cloud e il dominio inizia con `experience.adobe.com`, chiedi all&#39;amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront in Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Adobe], quindi fai clic su **[!DNL Log in]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 

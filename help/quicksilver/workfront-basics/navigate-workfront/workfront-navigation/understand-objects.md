@@ -6,9 +6,25 @@ description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappres
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
+TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: 2393
 ht-degree: 3%
 
 ---
@@ -259,7 +275,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Filtro]
 * [!UICONTROL Obiettivo]
    * Puoi creare un rapporto per gli obiettivi strategici oppure visualizzare informazioni relative all’obiettivo in un rapporto di progetto quando i progetti sono associati a obiettivi come attività obiettivo. Puoi creare obiettivi strategici e collegarli ai progetti solo se la tua organizzazione ha acquistato una licenza [!DNL Workfront Goals]. Per informazioni su [!DNL Workfront Goals], vedere [[!DNL Workfront Goals] panoramica](../../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sulla connessione dei progetti agli obiettivi strategici, consulta [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-*Non è possibile creare rapporti sugli obiettivi del progetto associati a un [!UICONTROL caso di business]. Per informazioni sugli obiettivi del progetto rispetto agli obiettivi strategici, consulta [Glossario di [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+*Non è possibile creare rapporti sugli obiettivi del progetto associati a un [!UICONTROL caso di business]. Per informazioni sugli obiettivi del progetto rispetto agli obiettivi strategici, consulta [Glossario della [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Gruppo]
 * [!UICONTROL Raggruppamento]

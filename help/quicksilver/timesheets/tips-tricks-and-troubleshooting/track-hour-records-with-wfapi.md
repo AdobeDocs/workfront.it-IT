@@ -2,19 +2,26 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Tracciare i record di ore con l’API di Adobe Workfront
+title: Tenere traccia dei record di ore con l’API di Adobe Workfront
 description: Se la tua organizzazione utilizza Adobe Workfront per immettere le ore lavorate, ma utilizza un altro strumento come sistema di registrazione per tali dati, puoi utilizzare l’API Workfront per sincronizzare i dati tra i due sistemi.
 author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 0%
+source-wordcount: 344
+ht-degree: 4%
 
 ---
 
-# Tracciare i record di ore con l’API di Adobe Workfront
+# Tenere traccia dei record di ore con l’API di Adobe Workfront
 
 Se la tua organizzazione utilizza Adobe Workfront per immettere le ore lavorate, ma utilizza un altro strumento come sistema di registrazione per tali dati, puoi utilizzare l’API Workfront per sincronizzare i dati tra i due sistemi.
 

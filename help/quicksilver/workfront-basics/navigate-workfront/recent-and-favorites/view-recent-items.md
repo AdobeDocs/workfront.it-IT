@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: recent-and-favorites
-title: Visualizza elementi recenti
+title: Visualizzare gli elementi recenti
 description: Il menu [!UICONTROL Recenti] si trova sulla barra di navigazione superiore. Questo menu mostra i progetti, i report, le dashboard, le attività, i problemi visualizzati di recente, ecc.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 5a92066372efe8bd5391632556550e6063301114
+TQID: https://experienceleague.adobe.com/4d0RZrZxzslU973OcCK32h-IuwmoARE0CaSc75Zmj2M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: 206
+ht-degree: 24%
 
 ---
 
-# Visualizza elementi recenti
+# Visualizzare gli elementi recenti
 
 Il menu [!UICONTROL Recenti] si trova sulla barra di navigazione superiore. Questo menu mostra i progetti, i report, le dashboard, le attività, i problemi visualizzati di recente, ecc. Sono inclusi solo gli oggetti visualizzati nelle ultime due settimane, fino a venti per tipo di oggetto, e sono elencati in ordine di visualizzazione più recente.
 
@@ -32,19 +41,19 @@ Il menu [!UICONTROL Recenti] si trova sulla barra di navigazione superiore. Ques
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Visualizza elementi recenti
+## Visualizzare gli elementi recenti
 
 1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) nell&#39;angolo superiore destro di qualsiasi pagina.
 

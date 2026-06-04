@@ -1,20 +1,25 @@
 ---
-title: Miglioramenti Home Quarto Trimestre 2025
-description: Miglioramenti Home Quarto Trimestre 2025
+title: Miglioramenti alla Home del quarto trimestre 2025
+description: Miglioramenti alla Home del quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+TQID: https://experienceleague.adobe.com/QSEPhlo-bN-Iotp75LDjt0OgGatHHlj8-ryVyQ6UaK4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: 225
+ht-degree: 12%
 
 ---
 
-# Miglioramenti Home Quarto Trimestre 2025
+# Miglioramenti alla Home del quarto trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 

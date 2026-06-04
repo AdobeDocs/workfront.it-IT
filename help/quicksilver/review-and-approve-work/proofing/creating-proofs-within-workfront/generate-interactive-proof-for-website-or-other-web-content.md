@@ -1,19 +1,28 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Creare una bozza interattiva per un sito web o altro contenuto web
+title: Creare una bozza interattiva per un sito o altro contenuto web
 description: Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito Web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/HrCGRaJ6jTF97KxhLe65Fy6I8ahbMy4hAgPUDJFvr2I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: 462
+ht-degree: 19%
 
 ---
 
-# Creare una bozza interattiva per un sito web o altro contenuto web
+# Creare una bozza interattiva per un sito o altro contenuto web
 
 Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito Web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
 
@@ -25,7 +34,7 @@ In una bozza interattiva, i revisori possono navigare e interagire come di consu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +45,7 @@ In una bozza interattiva, i revisori possono navigare e interagire come di consu
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p></td> 
@@ -47,7 +56,7 @@ In una bozza interattiva, i revisori possono navigare e interagire come di consu
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +65,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creare una bozza interattiva per un sito web o altro contenuto web
+## Creare una bozza interattiva per un sito o altro contenuto web
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza del sito web o una nuova versione di una bozza esistente.
 1. Fai clic su **Documenti** nel pannello a sinistra.

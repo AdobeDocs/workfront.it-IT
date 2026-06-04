@@ -6,9 +6,14 @@ description: Potrebbe essere richiesto di eseguire attività in Workfront anche 
 author: Becky
 feature: Get Started with Workfront
 exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+TQID: https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: 395
 ht-degree: 0%
 
 ---

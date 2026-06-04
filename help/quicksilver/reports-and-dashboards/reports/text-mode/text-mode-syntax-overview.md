@@ -7,12 +7,19 @@ author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 8%
+source-wordcount: 1864
+ht-degree: 10%
 
 ---
 
@@ -229,7 +236,7 @@ Per ulteriori valori `valueformat`, vedere anche i seguenti articoli:
 
 #### `width` panoramica per le visualizzazioni
 
-`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche.
+`width=` è la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ciascun campo, anche se a seconda del tipo di campo e del formato, potresti dover apportare delle modifiche.
 
 Utilizza la riga di codice `usewidths=true` aggiuntiva per applicare la larghezza specificata per la colonna.
 
@@ -241,7 +248,7 @@ Utilizza la riga di codice `usewidths=true` aggiuntiva per applicare la larghezz
 
 #### `stretch` panoramica per le visualizzazioni
 
-`stretch` viene utilizzato per identificare quali colonne occupano spazio aggiuntivo non necessario per la vista. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti ulteriori 250 pixel che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
+`stretch` viene utilizzato per identificare quali colonne occupano spazio aggiuntivo non necessario per la vista. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che una vista con quattro colonne (150 pixel ciascuna) occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti ulteriori 250 pixel che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione.
 
 L’estensione di una colonna viene applicata quando viene utilizzata la riga di codice aggiuntiva `usewidths=true` per almeno una delle colonne della vista.
 

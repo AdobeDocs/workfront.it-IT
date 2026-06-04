@@ -6,9 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 694
 ht-degree: 0%
 
 ---
@@ -69,7 +76,7 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 
 1. Nell&#39;angolo superiore destro di Workfront, fai clic sull&#39;icona **Notifiche** ![Icona Notifiche](assets/bell-icon.png).
 
-1. Nell&#39;angolo superiore destro del pannello **Experience Cloud** fare clic sull&#39;icona **Impostazioni**![Impostazioni](assets/settings-icon.png).
+1. Nell&#39;angolo superiore destro del pannello **Experience Cloud**, fai clic sull&#39;icona **Impostazioni**![Impostazioni](assets/settings-icon.png).
 
 1. Nella sezione **Notifiche**, fai clic sull&#39;icona a forma di freccia ![freccia a forma di riquadro Workfront](assets/arrow-icon.png) nel riquadro **Workfront**.
 
@@ -88,7 +95,7 @@ No. Le notifiche storiche rimarranno accessibili in Workfront, ma le nuove notif
 
 +++ I miei utenti dovranno fare qualcosa?
 
-Non all’inizio. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio ad Experience Cloud. Da lì, dovranno imparare ad accedere alle loro notifiche personali.
+Non all’inizio. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio a Experience Cloud. Da lì, dovranno imparare ad accedere alle loro notifiche personali.
 +++
 
 +++Cosa succede se la mia organizzazione non è pronta a passare ad Experience Cloud?

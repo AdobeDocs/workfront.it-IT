@@ -6,14 +6,27 @@ description: In qualità di responsabile delle risorse, puoi utilizzare il Bilan
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 1%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
-# Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro
+# Panoramica sull’assegnazione del lavoro nel bilanciamento dei carichi di lavoro
 
 <!-- Audited: 5/2025 -->
 
@@ -26,7 +39,7 @@ Per informazioni generali sul Bilanciatore dei carichi di lavoro, consulta [Pano
 Per informazioni sull&#39;assegnazione di elementi di lavoro in altre aree di Workfront, vedere gli articoli seguenti:
 
 * [Assegna attività](../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [Assegna problemi](../../manage-work/issues/manage-issues/assign-issues.md)
+* [Assegnare problemi](../../manage-work/issues/manage-issues/assign-issues.md)
 
 ## Disponibilità utente nel Bilanciatore dei carichi di lavoro
 
@@ -43,7 +56,7 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
      In questo modo viene calcolata la disponibilità giornaliera e settimanale dell’utente. Eventuali eccezioni alla pianificazione selezionate si riflettono nella capacità dell’utente nel Bilanciatore dei carichi di lavoro.
 
-  Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
   Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -72,7 +85,7 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
 * Più elementi alla volta, utilizzando l&#39;opzione Assegnazioni in blocco. È possibile definire regole in base alle quali gli elementi vengono assegnati a più utenti alla volta.
 
-  Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il bilanciamento dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 Per informazioni sulla rimozione dell&#39;assegnazione del lavoro, vedere [Annullamento dell&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 

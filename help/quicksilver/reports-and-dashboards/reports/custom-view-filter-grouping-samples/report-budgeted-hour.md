@@ -7,12 +7,22 @@ description: 'Rapporto: ora preventivata'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 9%
+source-wordcount: 659
+ht-degree: 8%
 
 ---
 
@@ -115,15 +125,15 @@ Per impostazione predefinita, nel rapporto Ore preventivate sono disponibili le 
    <td>Questo è il nome dell'utente associato all'Ora preventivata.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Dat Allc.</td> 
+   <td role="rowheader">Alloc. Data</td> 
    <td> <p>Si tratta della data di allocazione. È il primo giorno (una domenica) della settimana per il quale hai preventivato le ore.</p> <p>Suggerimento  <p>Se una settimana dura due mesi, vengono generate due righe nel rapporto: una corrispondente al primo giorno della settimana (la domenica della settimana che si trova durante il primo mese) e una seconda corrispondente al primo giorno del secondo mese (che potrebbe essere qualsiasi giorno della settimana).</p> <p>Ad esempio, se preventivi 8 ore per un utente per la settimana dal 30 giugno (domenica) al 6 luglio (sabato), le due righe mostrano la data di allocazione 30 giugno e 1 luglio.</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Ore Bdg</td> 
+   <td role="rowheader">Bocciolo. Ore</td> 
    <td>Queste sono le ore preventivate assegnate all'utente nella Programmazione delle risorse.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pian Ore Bdg</td> 
+   <td role="rowheader">Pian Bocciolo. Ore</td> 
    <td>Si tratta delle ore preventivate allocate alla mansione o al progetto nella pianificazione risorse.</td> 
   </tr> 
  </tbody> 

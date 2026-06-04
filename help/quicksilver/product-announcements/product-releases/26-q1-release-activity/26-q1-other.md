@@ -5,12 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 84%
+source-wordcount: 290
+ht-degree: 76%
 
 ---
 
@@ -31,9 +36,7 @@ Per ulteriori informazioni, vedere [Utilizzo di gruppi di filtri](/help/quicksil
 
 >[!NOTE]
 >
->Anteprima: 30 ottobre 2025
->Rilascio rapido in produzione: 13 novembre 2025
->Produzione per tutti: 15 gennaio 2026
+>Anteprima: 30 ottobre 2025>Rilascio rapido produzione: 13 novembre 2025>Produzione per tutti: 15 gennaio 2026
 
 I campi che consentono selezioni multiple, come caselle di controllo e menu a discesa a selezione multipla, ora sono limitati a 5000 selezioni quando l’utente compila il modulo.
 
@@ -46,9 +49,8 @@ Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modul
 
 >[!NOTE]
 >
->Anteprima: 11 dicembre 2025
->Rilascio rapido in produzione: giovedì 11 febbraio 2026\
->Produzione per tutti: giovedì 11 febbraio 2026
+>Anteprima: 11 dicembre 2025>Versione rapida di produzione: 11 febbraio 2026\
+>Produzione per tutti: 11 febbraio 2026
 
 Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, la disponibilità è stata estesa per i clienti esistenti di Workfront.
 

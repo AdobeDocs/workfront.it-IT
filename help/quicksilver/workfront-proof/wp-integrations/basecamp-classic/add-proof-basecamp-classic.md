@@ -7,10 +7,17 @@ description: Dopo aver configurato l'integrazione di [!DNL Basecamp Classic] puo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 0%
+source-wordcount: 667
+ht-degree: 1%
 
 ---
 
@@ -49,7 +56,7 @@ Per ulteriori informazioni, vedere [Rivedere una bozza in [!DNL Basecamp Classic
    I revisori vengono visualizzati nel loro ruolo predefinito/avviso e-mail. I revisori selezionati riceveranno un messaggio in [!DNL Basecamp] per questa bozza e una notifica e-mail da [!DNL Workfront Proof].
 
 1. Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare i dati di [!DNL Basecamp] prima di utilizzare i nuovi valori predefiniti. Per aggiornare i dati di [!DNL Basecamp], fare clic sul collegamento &quot;[!UICONTROL aggiorna]&quot; nel popup [!DNL Basecamp] in [!DNL Workfront Proof]. Includere il proprio nome se si desidera ricevere il messaggio anche in [!DNL Basecamp].
-1. Fare clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]**.
 1. Applica le altre impostazioni necessarie per la bozza (come di consueto) e fai clic su **[!UICONTROL Salva]** per inviare la bozza.
 
 ## Aggiunta di una bozza esistente a un progetto [!DNL Basecamp Classic]
@@ -73,7 +80,7 @@ Per ulteriori informazioni, vedere [Rivedere una bozza in [!DNL Basecamp Classic
       >
       > Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare i dati di [!DNL Basecamp] prima di utilizzare i nuovi valori predefiniti. Per aggiornare i dati di [!DNL Basecamp], fare clic sul collegamento &quot;[!UICONTROL aggiorna]&quot; nel popup [!DNL Basecamp] in [!DNL Workfront Proof]. Includere il proprio nome se si desidera ricevere il messaggio anche in [!DNL Basecamp].
 
-1. Fare clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]**.
 
 Dopo aver aggiunto la bozza al progetto [!DNL Basecamp Classic], verranno visualizzate ulteriori opzioni nella sezione [!UICONTROL Altre opzioni di condivisione] della pagina [!UICONTROL Dettagli bozza] (per informazioni su questa pagina, vedi [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Sarai in grado di:
 

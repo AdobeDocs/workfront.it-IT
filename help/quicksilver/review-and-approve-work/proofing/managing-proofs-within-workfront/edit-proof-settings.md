@@ -1,25 +1,35 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Modifica impostazioni bozza
+title: Modificare le impostazioni delle bozze
 description: Puoi modificare le impostazioni della bozza in qualsiasi momento dopo aver creato una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/8ZOLF6hwAvWlLyMPtt1Ad8ZAfHCjKg-annlGGv5Qz3g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 9%
+source-wordcount: 532
+ht-degree: 15%
 
 ---
 
-# Modifica impostazioni bozza
+# Modificare le impostazioni delle bozze
 
 Puoi modificare le impostazioni della bozza in qualsiasi momento dopo aver creato una bozza.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +40,7 @@ Puoi modificare le impostazioni della bozza in qualsiasi momento dopo aver creat
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -46,7 +56,7 @@ Puoi modificare le impostazioni della bozza in qualsiasi momento dopo aver creat
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +65,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Modifica impostazioni bozza
+## Modificare le impostazioni delle bozze
 
 Alcune impostazioni potrebbero essere bloccate se l’amministratore di Workfront le ha disabilitate a livello di account.
 
@@ -69,7 +79,7 @@ Alcune impostazioni potrebbero essere bloccate se l’amministratore di Workfron
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Login richiesto. Questa bozza non puÚ essere condivisa con utenti guest</td> 
+      <td role="rowheader">Accesso obbligatorio. Questa bozza non può essere condivisa con utenti guest</td> 
       <td> <p>Se hai bisogno di livelli di sicurezza più elevati per il processo di revisione e approvazione, puoi utilizzare l’opzione per richiedere l’accesso alla bozza. Ciò significa che solo gli utenti Workfront possono essere aggiunti alla bozza. Per accedervi, è necessario immettere l'indirizzo e-mail e la password.</p> <p>Nota: <em style="font-style: normal;">Se l'accesso richiesto è abilitato, le sottoscrizioni non possono essere abilitate.</em> </p> </td> 
      </tr> 
      <tr> 
