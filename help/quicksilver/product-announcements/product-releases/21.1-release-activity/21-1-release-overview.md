@@ -356,7 +356,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) dell&#39;API.
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) dell&#39;API.
 
 Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -423,4 +423,4 @@ Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cad
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).

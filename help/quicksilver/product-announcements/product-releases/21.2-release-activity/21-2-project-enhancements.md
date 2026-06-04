@@ -145,7 +145,7 @@ Gli utenti possono ora visualizzare la formattazione del testo, ad esempio grass
 
 In precedenza, in Workfront Classic, la formattazione del testo era visibile solo negli elenchi Progetto, Attività e Ora.
 
-Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 Per informazioni sulla visualizzazione delle informazioni negli elenchi, vedere [Introduzione agli elenchi](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
