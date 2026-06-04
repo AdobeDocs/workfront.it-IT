@@ -1,18 +1,30 @@
 ---
-title: 23.3 Miglioramenti per gli amministratori
-description: 23.3 Miglioramenti per gli amministratori
+title: 23.3 - Miglioramenti per gli amministratori
+description: 23.3 - Miglioramenti per gli amministratori
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: 326
+ht-degree: 2%
 
 ---
 
-# 23.3 Miglioramenti per gli amministratori
+# 23.3 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati alla versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
@@ -32,7 +44,7 @@ L’amministratore di sistema ora può bloccare e sbloccare la scheda orario e l
 
 Per ulteriori informazioni, vedere [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurare le preferenze di orario e scheda orario per un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Visualizza gli indicatori logici e ignora quelli e le regole visualizzati nella versione beta di Progettazione moduli
 

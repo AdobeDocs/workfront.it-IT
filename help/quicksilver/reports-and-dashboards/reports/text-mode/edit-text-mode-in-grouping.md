@@ -6,11 +6,22 @@ description: È possibile modificare un raggruppamento in un elenco o in un repo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/magR86wFgKAZhiyX-s2oJH7ZEXafaaLCOalKJRMwXPg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1545
 ht-degree: 5%
 
 ---
@@ -173,7 +184,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
     </thead> 
     <tbody> 
      <tr> 
-      <td><strong> gruppo.&lt;number&gt;.</strong> </td> 
+      <td><strong>gruppo.&lt;numero&gt;.</strong> </td> 
       <td> <p>Ogni riga di codice è preceduta da questo testo. Le righe di codice che si riferiscono allo stesso campo selezionato nel raggruppamento sono numerate con lo stesso numero, come segue:</p> 
        <ul> 
         <li>Il primo raggruppamento del rapporto ha un numero di gruppo pari a 0. Tutte le righe che fanno riferimento al primo raggruppamento iniziano con <code>group.0</code>.</li> 

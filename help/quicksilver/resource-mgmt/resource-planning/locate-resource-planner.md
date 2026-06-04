@@ -1,19 +1,32 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Individua la Programmazione delle risorse
+title: Individuare la pianificazione risorse
 description: È possibile utilizzare la Programmazione delle risorse per gestire l'allocazione delle risorse ai progetti. È possibile accedere alla pianificazione risorse per più progetti contemporaneamente o per un progetto dall'area Caso di business del progetto.
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: 461
+ht-degree: 9%
 
 ---
 
-# Individua la Programmazione delle risorse
+# Individuare la pianificazione risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)</p>
@@ -23,7 +36,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +47,7 @@ ht-degree: 0%
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Leggero o superiore per un progetto; standard per più progetti</p>
        <p>Revisione o successiva per un progetto; pianificazione per più progetti</p></td>
   </tr> 
@@ -43,7 +56,7 @@ ht-degree: 0%
    <td> <p>Accesso di visualizzazione o superiore a Gestione risorse</p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni per progetti e utenti </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +72,7 @@ Prima di iniziare a utilizzare la pianificazione risorse, assicurati che siano s
 
 Per informazioni sui prerequisiti di Pianificazione risorse, vedere [Introduzione alla pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Individua la Programmazione delle risorse
+## Individuare la pianificazione risorse
 
 È possibile individuare la Programmazione delle risorse in due aree di Workfront, a seconda che si desideri preventivare le risorse per più progetti o per un solo progetto.
 
@@ -79,7 +92,7 @@ Il Planner viene visualizzato per impostazione predefinita.  Per informazioni su
 ![Pianificazione risorse predefinita](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Fai clic su **Pool di Risorse** nel pannello a sinistra.
-Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Per informazioni sulla creazione dei pool di risorse, vedere [Creare i pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utilizzare la Programmazione delle risorse per un progetto {#use-the-resource-planner-for-one-project}
 

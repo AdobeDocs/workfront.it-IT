@@ -6,11 +6,22 @@ description: Pianificare una consegna di rapporto automatica
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/m1XNhxMM29x1vAL-RESTCCF6fK1KIWA1g7ckfA6cyWQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: 1298
 ht-degree: 6%
 
 ---
@@ -97,7 +108,7 @@ Per pianificare un rapporto per la consegna automatica, procedere come segue&#x2
       <td role="rowheader"> <p>Invia a</p> </td> 
       <td> <p>Inizia a digitare il nome dell’utente, del gruppo, del team o del ruolo a cui inviare il rapporto, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.</p> <p>Oppure</p> <p>Immettere l'indirizzo di posta elettronica di una persona esterna al sistema Workfront a cui si desidera accedere al report.</p> <p>Ripeti questa procedura per inviare il rapporto a più utenti, gruppi, team o ruoli.</p> <p>Nota:  <p>Quando aggiungi destinatari di consegna del rapporto, tieni presente quanto segue:</p> 
         <ul> 
-         <li><p>Se l’organizzazione limita le notifiche di Workfront a specifici domini e-mail, potresti essere in grado di inviare rapporti solo agli indirizzi e-mail elencati nel elenco Consentiti e-mail di.</p> <p>Ad esempio, se un utente è impostato come destinatario di un rapporto e dispone di un indirizzo e-mail precedentemente consentito e il inserisco nell'elenco Consentiti di aggiornamento viene aggiornato in modo da non inviare più e-mail a quel dominio, l’utente non riceverà più i rapporti consegnati.</p><p>Per informazioni sul modo in cui un amministratore di Workfront aggiorna il inserisco nell'elenco Consentiti di e-mail, consulta la sezione <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurare il tuo inserisco nell'elenco Consentiti di e-mail di</a>.</p></li> 
+         <li><p>Se l’organizzazione limita le notifiche di Workfront a specifici domini e-mail, potresti essere in grado di inviare rapporti solo agli indirizzi e-mail elencati nel elenco Consentiti di e-mail.</p> <p>Ad esempio, se un utente è impostato come destinatario di un rapporto e dispone di un indirizzo e-mail precedentemente consentito e il inserisco nell'elenco Consentiti di invio dei messaggi viene aggiornato in modo da non inviare più e-mail a quel dominio, l’utente non riceverà più i rapporti consegnati.</p><p>Per informazioni sul modo in cui l'amministratore di Workfront aggiorna il inserisco nell'elenco Consentiti di e-mail, consulta la sezione <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurare il proprio inserisco nell'elenco Consentiti di e-mail</a>.</p></li> 
          <li> <p>L’aggiunta di un numero elevato di utenti come destinatari può causare un errore di consegna. In caso di errori di consegna, puoi pianificare più consegne di rapporti con gruppi di utenti più piccoli.</p> </li> 
         </ul> </td> 
      </tr> 

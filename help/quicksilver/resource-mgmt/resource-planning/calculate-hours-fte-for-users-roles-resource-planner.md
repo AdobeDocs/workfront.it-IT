@@ -7,14 +7,27 @@ description: Panoramica del calcolo delle ore e dell'FTE per gli utenti e i ruol
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 0%
+source-wordcount: 1325
+ht-degree: 2%
 
 ---
 
-# Panoramica del calcolo delle ore e dell&#39;FTE per utenti e ruoli nella pianificazione risorse
+# Panoramica del calcolo di ore ed FTE per utenti e ruoli in pianificazione risorse
 
 <!-- Audited: 5/2025 -->
 
@@ -118,10 +131,10 @@ Per questo esempio, usiamo i seguenti numeri:
 
 | Metodo di calcolo FTE (impostazione di sistema) | **Ore dalla pianificazione utente** | **Ore dalla pianificazione predefinita** | **Campo FTE utente** | **Ore disponibili nella Programmazione delle risorse** | **FTE disponibile nella pianificazione risorse** |
 |---|---|---|---|---|---|
-| **Pianificazione predefinita** | Ignorato | 40 | 0,8 | **32** (calcolato) | **0,8** |
+| **Pianificazione predefinita** | Ignorato | 40 | 0,8 | **32** (calcolato) | **0.8** |
 | **La pianificazione dell&#39;utente** | 20 | 40 | Ignorato | **20** | **0.5** (calcolato) |
 
-Eccezioni alla pianificazione e indisponibilità potrebbero influire sulla quantità di ore pianificate o FTE. Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Eccezioni alla pianificazione e indisponibilità potrebbero influire sulla quantità di ore pianificate o FTE. Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 Esempio di visualizzazione di Programmazione delle risorse per utente e ore:
 

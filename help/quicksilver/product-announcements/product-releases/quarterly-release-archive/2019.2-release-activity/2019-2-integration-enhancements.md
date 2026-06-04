@@ -1,20 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Miglioramenti all’integrazione 2019.2 e a Mobile
+title: Miglioramenti per l’integrazione e per i dispositivi mobili 2019.2
 description: Questa pagina descrive tutti i miglioramenti a livello di integrazione e dispositivi mobili inclusi nella versione 2019.2. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/EzTWdwdTXcFyk1IYUebYtdVqhDZcHzJWVRL55EFloPg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: 243
+ht-degree: 4%
 
 ---
 
-# Miglioramenti all’integrazione 2019.2 e a Mobile
+# Miglioramenti per l’integrazione e per i dispositivi mobili 2019.2
 
 Questa pagina descrive tutti i miglioramenti a livello di integrazione e dispositivi mobili inclusi nella versione 2019.2. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 
@@ -22,15 +29,15 @@ Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica de
 
 ## Miglioramenti di Workfront per Microsoft Teams
 
-Quando si utilizza Workfront per i Microsoft Teams, è ora possibile effettuare le seguenti operazioni:
+Ora quando si utilizza Workfront for Microsoft Teams è possibile effettuare le seguenti operazioni:
 
 * Inviare richieste Workfront
 
   Per informazioni, vedere &quot;Invio di richieste Workfront da Microsoft Teams&quot;.
 
-* Gestione delle impostazioni di notifica Workfront per i Microsoft Teams
+* Gestione delle impostazioni di notifica Workfront per Microsoft Teams
 
-  Prima di questo miglioramento, non era possibile disabilitare alcuna delle notifiche Workfront in Microsoft Teams.
+  Prima di questo miglioramento, non era possibile disattivare nessuna delle notifiche Workfront in Microsoft Teams.
 
   Per informazioni, vedere [Gestione delle notifiche e delle richieste di approvazione di Workfront in Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 

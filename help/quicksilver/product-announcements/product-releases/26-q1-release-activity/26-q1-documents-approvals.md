@@ -5,12 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: 280
+ht-degree: 95%
 
 ---
 
@@ -38,8 +45,7 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->Anteprima: 15 dicembre 2025
->Rilascio rapido in produzione: 15 dicembre 2025\
+>Anteprima: 15 dicembre 2025>Versione rapida di produzione: 15 dicembre 2025\
 >Produzione per tutti: 15 dicembre 2025
 
 Puoi scegliere un progetto Workfront a cui inviare una bozza. In questo modo puoi mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto.
@@ -52,8 +58,7 @@ Per ulteriori informazioni, consulta [Integrazione di Adobe Express e Workfront 
 
 >[!NOTE]
 >
->Anteprima: 13 novembre 2025
->Rilascio rapido in produzione: 13 novembre 2025\
+>Anteprima: 13 novembre 2025>Versione rapida di produzione: 13 novembre 2025\
 >Produzione per tutti: 13 novembre 2025
 
 Sta per essere introdotto il supporto multi-organizzazione per Adobe Express con la bozza di Workfront. Questo miglioramento consente ai clienti che operano su più organizzazioni IMS di utilizzare e gestire senza interruzioni i flussi di lavoro di bozza.
@@ -65,8 +70,7 @@ Per ulteriori informazioni, consulta [Introduzione all’integrazione di Adobe E
 
 >[!NOTE]
 >
->Anteprima: 30 ottobre 2025
->Rilascio rapido in produzione: 30 ottobre 2025\
+>Anteprima: 30 ottobre 2025>Versione rapida di produzione: 30 ottobre 2025\
 >Produzione per tutti: 30 ottobre 2025
 
 Ora puoi utilizzare Experience Manager Assets per gestire e archiviare le risorse digitali che hanno completato il ciclo di revisione e approvazione. Questa integrazione consente di sfruttare le funzionalità di Adobe Experience Manager, Frame.io e Workfront per semplificare la gestione dei contenuti e i processi di collaborazione.

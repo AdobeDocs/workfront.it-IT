@@ -5,9 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ZPt9H-R2eSNNha-gjfwkgnUOQqvU5tzAQPE5fMA-9uA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 385
 ht-degree: 0%
 
 ---
@@ -22,7 +33,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 Abbiamo aggiornato l’integrazione di Experience Manager Assets Essentials per adattarla all’esperienza nell’integrazione di Experience Manager Assets as a Cloud Service. Ora, quando si mappano più campi di testo a riga singola a un singolo campo in Experience Manager Assets, entrambi i servizi utilizzano il campo `xcm:keywords`.
 
-In precedenza, questi campi venivano mappati al campo `dc:subject` in Experience Manager Assets Essentials. La funzionalità di Experience Manager Assets as a Cloud Service è invariata.
+In precedenza, questi campi venivano mappati al campo `dc:subject` in Experience Manager Assets Essentials. La funzionalità as a Cloud Service di Experience Manager Assets è invariata.
 
 Eventuali metadati di Experience Manager Assets Essentials attualmente mappati a `dc:subject` devono essere rimappati a `xcm:keywords`.
 
@@ -40,6 +51,6 @@ Per informazioni e istruzioni sulla mappatura dei metadati nell&#39;integrazione
 
 È stato aggiunto un altro flusso di lavoro all’integrazione Adobe Experience Manager. Ora puoi impostare la pubblicazione automatica delle risorse quando vengono inviate a Adobe Experience Manager. L’integrazione può essere configurata per la pubblicazione nel servizio di pubblicazione Adobe Experience Manager o in un Portale marchio Adobe Experience Manager.
 
-Il flusso di lavoro Publish automatico può essere abilitato e configurato nell’integrazione Adobe Experience Manager. Quando è attivata, il flusso di lavoro può essere modificato a livello di modello di progetto o di progetto.
+Il flusso di lavoro Pubblicazione automatica può essere abilitato e configurato nell’integrazione di Adobe Experience Manager. Quando è attivata, il flusso di lavoro può essere modificato a livello di modello di progetto o di progetto.
 
 Per ulteriori informazioni, consulta [Pubblicazione delle risorse](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Utilizzare i flussi di lavoro nell&#39;integrazione di Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

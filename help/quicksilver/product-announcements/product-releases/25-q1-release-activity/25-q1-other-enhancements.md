@@ -1,24 +1,33 @@
 ---
 title: Altri miglioramenti durante l’arco temporale di rilascio del primo trimestre 2025
-description: Altri miglioramenti durante l’arco temporale di rilascio del primo trimestre 2025
+description: Altri miglioramenti durante il periodo di rilascio del primo trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 23%
+source-wordcount: 378
+ht-degree: 11%
 
 ---
 
 # Altri miglioramenti durante l’arco temporale di rilascio del primo trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con il rilascio del primo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2025. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2025, consulta [Panoramica delle versioni del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2025, consulta [Panoramica sulla versione del primo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Aggiornamento della modalità di gestione delle risorse spostate o eliminate nelle cartelle collegate
 

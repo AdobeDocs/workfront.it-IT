@@ -1,20 +1,41 @@
 ---
-title: Panoramica sul rilascio del quarto trimestre 2023
-description: Panoramica sul rilascio del quarto trimestre 2023
+title: Panoramica sulla versione del quarto trimestre 2023
+description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 10%
+source-wordcount: 2909
+ht-degree: 6%
 
 ---
 
-# Panoramica sul rilascio del quarto trimestre 2023
+# Panoramica sulla versione del quarto trimestre 2023
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del quarto trimestre 2023. Questi miglioramenti saranno disponibili nell’ambiente di produzione per tutti i clienti con la versione 23.10 del 26 e 27 ottobre 2023.
 
@@ -82,10 +103,10 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produzione per tutti i clienti: venerdì 12 ottobre 2023</span></p>
+                                <p><span class="preview">Produzione per tutti i clienti: 12 ottobre 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -98,7 +119,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 5 ottobre 2023</p>
+                                <p>Versione di anteprima: 5 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -118,7 +139,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 14 settembre 2023</p>
+                                <p>Versione di anteprima: 14 settembre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.9</p>
@@ -155,7 +176,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per l'accesso anticipato alle schede madri: N/D</p>
@@ -176,7 +197,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: martedì 21 agosto 2023</p>
+                                <p>Versione di anteprima: 21 agosto 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produzione per tutti i clienti: 24 agosto 2023</span>
@@ -191,7 +212,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: martedì 21 agosto 2023</p>
+                                <p>Versione di anteprima: 21 agosto 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
@@ -212,7 +233,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 3 agosto 2023</p>
+                                <p>Versione di anteprima: 3 agosto 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per l’accesso anticipato alle schede madri: 10 agosto 2023</p>
@@ -233,7 +254,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 3 agosto 2023</p>
+                                <p>Versione di anteprima: 3 agosto 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per l'accesso anticipato alle schede madri: N/D</p>
@@ -274,7 +295,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 29 giugno 2023</p>
+                                <p>Versione di anteprima: 29 giugno 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -312,7 +333,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -331,7 +352,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -350,7 +371,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -370,7 +391,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 13 settembre 2023<br /></p>
+                                <p>Versione di anteprima: 13 settembre 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.9</p>
@@ -390,7 +411,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 13 settembre 2023<br /></p>
+                                <p>Versione di anteprima: 13 settembre 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.9</p>
@@ -410,7 +431,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -429,10 +450,10 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produzione per tutti i clienti: venerdì 31 agosto 2023</span></p>
+                                <p><span class="preview">Produzione per tutti i clienti: 31 agosto 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -446,7 +467,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -466,7 +487,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: 17 agosto 2023</p>
@@ -503,10 +524,10 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 24 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 24 agosto 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produzione per tutti i clienti: venerdì 31 agosto 2023</span></p>
+                                <p><span class="preview">Produzione per tutti i clienti: 31 agosto 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -518,7 +539,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 24 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 24 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produzione per tutti i clienti: dopo la versione 23.10</span></p>
@@ -553,7 +574,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023<br /></p>
+                                <p>Versione di anteprima: 12 ottobre 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -592,7 +613,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: giovedì 26 luglio 2023<br /></p>
+                                <p>Versione di anteprima: 26 luglio 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -612,7 +633,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -632,7 +653,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -670,7 +691,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. Puoi [registrarti al webi
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Rilascio in anteprima: venerdì 12 ottobre 2023</p>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.10</p>
@@ -757,11 +778,11 @@ A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Qu
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Versione 17 dell’API
+### API versione 17
 
-La versione API 17 è stata rilasciata il 12 ottobre 2023. Nella versione 17 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+La versione API 17 è stata rilasciata il 12 ottobre 2023. Per API versione 17, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 17 dell’API](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

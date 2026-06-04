@@ -1,18 +1,33 @@
 ---
-title: Panoramica sulla versione del primo trimestre 2024
-description: Panoramica sulla versione del primo trimestre 2024
+title: Panoramica sul rilascio del primo trimestre 2024
+description: Panoramica sul rilascio del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 0%
+source-wordcount: 1709
+ht-degree: 11%
 
 ---
 
-# Panoramica sulla versione del primo trimestre 2024
+# Panoramica sul rilascio del primo trimestre 2024
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del primo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione per tutti i clienti con la versione 24.1 del 18 e 19 gennaio 2024.
 
@@ -26,22 +41,22 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
 >
 >Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
 >
->| Versione mensile | Versione trimestrale |
+>| Rilascio mensile | Rilascio trimestrale |
 >|----|----|
 >| <ul><li>Nessuna versione (novembre 2024)</li><li>Nessuna versione (dicembre 2024)</li><li>24.1 (gennaio 2024)</li></ul> | <ul><li>24.1 (gennaio 2024)</li></ul> |
 >| <ul><li>24.2 (febbraio 2024)</li><li>24.3 (marzo 2024)</li><li>24.4 (aprile 2024)</li></ul> | <ul><li>24.4 (aprile 2024)</li></ul> |
 >
->Per ulteriori informazioni sul processo di rilascio rapido, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Per ulteriori informazioni sul processo di rilascio rapido, consulta [Abilitare o disabilitare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alle schede madri](#boards-enhancements)
 * [Miglioramenti alla gestione dei documenti](#document-management-enhancements)
-* [Miglioramenti Home](#home-enhancements)
+* [Miglioramenti alla Home](#home-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
-* [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al flusso di aggiornamento e alle notifiche](#update-stream-and-notification-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -52,7 +67,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -89,7 +104,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -123,7 +138,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -192,7 +207,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
            </tbody>
 </table>
 
-### Miglioramenti Home
+### Miglioramenti alla Home
 
 <table>
             <col style="width: 50%;" />
@@ -200,7 +215,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -271,7 +286,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -330,7 +345,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
         </table>
 
 
-### Miglioramenti al progetto
+### Miglioramenti ai progetti
 
 <table>
             <col style="width: 50%;" />
@@ -338,7 +353,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -374,7 +389,7 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -454,11 +469,11 @@ Il webinar sulla versione 24.1 era l’11 gennaio 2024. Puoi [registrarti al web
            </tbody>
 </table>
 
-## Notifiche
+## Annunci
 
-### Miglioramenti apportati a Workfront Fusion
+### Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che esula dalla pianificazione del rilascio del primo trimestre 2023. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che esula dalla pianificazione del rilascio del primo trimestre 2023. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -478,12 +493,12 @@ Per API versione 17, abbiamo modificato alcune risorse ed endpoint. Alcune delle
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2024, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
-### Aggiornamenti dei corsi di formazione
+### Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione “Novità” della [pagina dei tutorial di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).

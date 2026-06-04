@@ -1,24 +1,37 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 di Beta 4
+title: Attività sulla versione 2018.3 Beta 4
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 0%
+source-wordcount: 1134
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.3 di Beta 4
+# Attività sulla versione 2018.3 Beta 4
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 4. La funzionalità sarà disponibile nell’ambiente di anteprima il 30 agosto 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.3, consulta [Panoramica sull&#39;attività di rilascio di 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 La versione 2018.3 di Beta 4 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -136,7 +149,7 @@ Per ulteriori informazioni, consulta .
 
 ## Miglioramenti di Stampa riepilogo {#print-summary-enhancements}
 
-Nella pagina Riepilogo stampa sono ora disponibili i seguenti miglioramenti quando si stampa una bozza o la si salva come file PDF o XLS:
+Nella pagina di riepilogo Stampa sono ora disponibili i seguenti miglioramenti quando si stampa una bozza o la si salva come file PDF o XLS:
 
 * Puoi ordinare i commenti della bozza in base al creatore.
 

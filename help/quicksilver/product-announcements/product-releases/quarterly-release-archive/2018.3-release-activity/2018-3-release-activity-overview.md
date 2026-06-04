@@ -1,20 +1,39 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Panoramica sull’attività della versione 2018.3
+title: Panoramica sull’attività sulla versione 2018.3
 description: 'Nota: la versione 2018.3 è stata resa disponibile nell’ambiente di produzione nelle seguenti date (per date e ore dettagliate, consulta trust.workfront.com)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 0%
+source-wordcount: 1115
+ht-degree: 1%
 
 ---
 
-# Panoramica sull’attività della versione 2018.3
+# Panoramica sull’attività sulla versione 2018.3
 
 >[!NOTE]
 >
@@ -134,7 +153,7 @@ Il supporto per la versione API 3 termina a novembre 2018. Per ulteriori informa
 
 Per garantire una sicurezza ottimale, Workfront richiede che tutte le integrazioni e il traffico web che utilizzano TLS 1.0 o versioni precedenti siano aggiornati per utilizzare TLS 1.1 o versioni successive. Questa modifica è già in vigore nell’ambiente di anteprima.
 
-Per ulteriori informazioni, consulta  [TLS 1.2 richiesto in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Per ulteriori informazioni, vedere [TLS 1.2 richiesto in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
 ### Il supporto JSONP sta per terminare {#jsonp-support-is-ending}
 

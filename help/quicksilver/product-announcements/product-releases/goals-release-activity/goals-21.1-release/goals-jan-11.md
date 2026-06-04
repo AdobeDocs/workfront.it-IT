@@ -1,14 +1,19 @@
 ---
-title: Attività di rilascio Adobe Workfront Goals 21.1:&nbsp;Settimana dell’11 gennaio 2021
-description: Attività di rilascio Adobe Workfront Goals 21.1:&nbsp;Settimana dell’11 gennaio 2021
+title: Attività relativa alla versione 21.1 degli obiettivi di Adobe Workfront:&nbsp;Settimana dell’11 gennaio 2021
+description: Attività relativa alla versione 21.1 degli obiettivi di Adobe Workfront:&nbsp;Settimana dell’11 gennaio 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+TQID: https://experienceleague.adobe.com/22mMyIr-ezmtfD6pkPhmn-0n04x2K6hwMtASaE--zRA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: 607
+ht-degree: 1%
 
 ---
 

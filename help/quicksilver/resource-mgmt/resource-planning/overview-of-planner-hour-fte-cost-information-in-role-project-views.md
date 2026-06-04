@@ -3,18 +3,32 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Panoramica su ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
-description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
+description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della pianificazione risorse
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
+TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3086'
-ht-degree: 0%
+source-wordcount: 3089
+ht-degree: 2%
 
 ---
 
-# Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse
+# Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della pianificazione risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -96,7 +110,7 @@ Le tabelle seguenti mostrano le informazioni relative all&#39;allocazione e alla
 * [Colonna VAR (Varianza)](#the-var-variance-column)
 * [Colonna NET](#the-net-column)
 
-### Colonna AVL (disponibile) {#the-avl-available-column}
+### Colonna AVL (Disponibile) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,7 +126,7 @@ Le tabelle seguenti mostrano le informazioni relative all&#39;allocazione e alla
   </tr> 
   <tr> 
    <td>Ruolo</td> 
-   <td> <p>Il totale di ore, FTE o Costo per cui tutti gli utenti associati a questo ruolo sono disponibili a lavorare in base alla loro pianificazione e alla loro <strong>Percentuale di disponibilità FTE</strong> per quel ruolo specifico, per l'intervallo di tempo selezionato. </p> <p>Considera quanto segue: </p> 
+   <td> <p>Il totale di ore, FTE o Costo per cui tutti gli utenti associati a questo ruolo sono disponibili a lavorare in base alla loro pianificazione e alla loro <strong>Percentuale di disponibilità FTE</strong> per quel ruolo specifico, per l'intervallo di tempo selezionato. </p> <p>Considera i seguenti aspetti: </p> 
     <ul> 
      <li>Se nessun utente è associato a una mansione, il valore di Ore disponibili per la mansione è zero. </li> 
      <li>Se un utente è associato a un Ruolo principale, ma la <strong>Percentuale di disponibilità FTE</strong> per il ruolo è 0%, il valore Ore disponibili per il ruolo è zero.</li> 
@@ -210,7 +224,7 @@ Quando visualizzi le ore pianificate, tieni presente quanto segue:
   </tr> 
   <tr> 
    <td>Utente</td> 
-   <td> <p>Inserimento manuale per stimare il numero di ore preventivate per un utente per un intervallo di tempo selezionato. </p> <p> <p><b>NOTA</b>   È possibile stimare le ore preventivate per gli utenti che non sono assegnati ad attività, ma sono associati a un Pool di Risorse in un progetto perché questi utenti vengono visualizzati anche nella Programmazione risorse. Le ore pianificate devono essere zero, tuttavia, se non sono assegnate ad attività. </p> </p> </td> 
+   <td> <p>Inserimento manuale per stimare il numero di ore preventivate per un utente per un intervallo di tempo selezionato. </p> <p> <p><b>NOTA</b> È possibile stimare le ore preventivate per gli utenti che non sono assegnati ad attività, ma sono associati a un Pool di Risorse in un progetto perché questi utenti vengono visualizzati anche nella Programmazione risorse. Le ore pianificate devono essere zero, tuttavia, se non sono assegnate ad attività. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

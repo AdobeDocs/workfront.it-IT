@@ -1,20 +1,29 @@
 ---
-title: Miglioramenti alla gestione delle risorse nel quarto trimestre 2025
-description: Miglioramenti alla gestione delle risorse nel quarto trimestre 2025
+title: Miglioramenti per la gestione delle risorse del quarto trimestre 2025
+description: Miglioramenti per la gestione delle risorse del quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
-source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
+TQID: https://experienceleague.adobe.com/n6ZlL1kx6xK-JMc8XfvQrlNKFxjMmsGGGL-y41HkLa4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 0%
+source-wordcount: 324
+ht-degree: 9%
 
 ---
 
-# Miglioramenti alla gestione delle risorse nel quarto trimestre 2025
+# Miglioramenti per la gestione delle risorse del quarto trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025 per la gestione delle risorse. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025 per la gestione delle risorse. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 

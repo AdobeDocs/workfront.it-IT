@@ -1,20 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2017.3 di Beta 3
+title: Attività sulla versione 2017.3 Beta 3
 description: La versione 2017.3 sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 6%
+source-wordcount: 572
+ht-degree: 7%
 
 ---
 
-# Attività sulla versione 2017.3 di Beta 3
+# Attività sulla versione 2017.3 Beta 3
 
 La versione 2017.3 sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
 
@@ -22,7 +32,7 @@ La versione 2017.3 sarà disponibile nell’ambiente di produzione all’inizio 
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2017.3, consulta  Panoramica sull&#39;attività della versione [2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2017.3, consulta [Panoramica delle attività sulla versione 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 La versione 2017.3 di Beta 3 contiene miglioramenti per tutti gli utenti:
 
@@ -62,7 +72,7 @@ Con la nuova funzionalità, le opzioni precedenti sono state rimosse e sono stat
 * Cancella autorizzazioni
 * Seleziona tutti
 
-Per ulteriori informazioni sulla nuova funzionalità relativa alla copia dei progetti, consulta la sezione &quot;Copia di un progetto nell’ambiente di anteprima&quot; in   [Copia un progetto](../../../../manage-work/projects/manage-projects/copy-project.md).
+Per ulteriori informazioni sulla nuova funzionalità relativa alla copia dei progetti, vedere la sezione &quot;Copiare un progetto nell&#39;ambiente di anteprima&quot; in [Copiare un progetto](../../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Miglioramento della programmazione delle risorse: filtri {#resource-planner-improvement-filters}
 
@@ -71,7 +81,7 @@ Per ulteriori informazioni sulla nuova funzionalità relativa alla copia dei pro
 * Portfolio
 * Stato Progetto
 * Team
-* Ruolo
+* Mansione
 * Gruppo di risorse
 
 Puoi anche aggiungere un filtro personalizzato basato su questi oggetti.

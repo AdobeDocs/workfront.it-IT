@@ -6,14 +6,24 @@ description: È necessario creare un pool di risorse prima di associarlo agli ut
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: 435
+ht-degree: 10%
 
 ---
 
-# Associa i pool di risorse agli utenti
+# Associare pool di risorse agli utenti
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
@@ -33,7 +43,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +54,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td>
   </tr> 
@@ -53,7 +63,7 @@ Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di riso
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Gestisci gruppi di risorse</p> <p>Modificare l’accesso a progetti, modelli e utenti</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestisci le autorizzazioni per i progetti, i modelli e gli utenti a cui vuoi associare i Pool di Risorse</td> 
   </tr> 
  </tbody> 

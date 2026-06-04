@@ -6,10 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 0%
+source-wordcount: 2914
+ht-degree: 6%
 
 ---
 
@@ -29,7 +45,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
 
 <span class="preview">Le funzioni off-cycle (quelle rilasciate in produzione prima della data di rilascio della versione 23.2) sono evidenziate in giallo.</span>
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Agile](#agile-enhancements)
@@ -47,7 +63,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -79,7 +95,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
                         <ul>
                         <li><strong>Copiare un campo</strong>: è ora possibile copiare i campi esistenti facendo clic sull'icona Copia nei campi direttamente dall'area di lavoro.</li>
                         <li><strong>Utilizza una sezione predefinita</strong>: se il creatore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell'area di lavoro è ora visibile una sezione predefinita, in modo che gli utenti possano modificare le autorizzazioni per i campi a cui non è assegnata alcuna sezione personalizzata. </li>
-                        <li><strong>Modifica le dimensioni per il testo descrittivo</strong>: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi. <span style="color: #ff0000;"> La modifica delle dimensioni per il testo descrittivo è stata temporaneamente posticipata ma è prevista a breve.</span></li> 
+                        <li><strong>Modifica le dimensioni per il testo descrittivo</strong>: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi. <span style="color: #ff0000;"> La modifica della dimensione del testo descrittivo è stata temporaneamente ritardata, ma è prevista a breve.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -122,7 +138,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -330,7 +346,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -397,7 +413,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -435,7 +451,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -470,7 +486,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -506,7 +522,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <p><span class="bold">Funzione</span>
                         </p>
                     </td>
                     <td>
@@ -554,10 +570,10 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi clienti da integrare in Adobe Unified Experience</a></p>
-                        <p>L’esperienza unificata di Adobe include:
+                        <p>Adobe Unified Experience include:
                         <ul>
-                        <li>Un unico accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud</li>
-                        <li>Uno "switcher di organizzazione" per spostarsi tra le organizzazioni e gli ambienti Workfront</li>
+                        <li>un singolo accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud</li>
+                        <li>Uno “selettore di organizzazione” per spostarsi tra le organizzazioni e gli ambienti Workfront</li>
                         <li>Navigazione con opzioni per pagine Workfront, preferenze Adobe Experience Cloud e il tuo profilo Workfront</li>
                         </ul>
                         </p>
@@ -627,9 +643,9 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
 
 ## Annunci
 
-### Miglioramenti apportati a Workfront Fusion
+### Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 23.2. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 23.2. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -649,17 +665,17 @@ La versione 16 dell’API verrà rilasciata con la versione 22.3. Per API versio
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
 Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 23.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
-### Aggiornamenti dei corsi di formazione
+### Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione “Novità” della [pagina dei tutorial di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
-### Funzionalità presto rimossa da Workfront
+### Funzionalità che verrà presto rimossa da Workfront
 
 Le seguenti funzionalità verranno presto rimosse da Workfront:
 

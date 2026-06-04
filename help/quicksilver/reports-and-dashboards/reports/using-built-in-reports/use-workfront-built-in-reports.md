@@ -6,12 +6,24 @@ description: Adobe Workfront dispone di un ampio elenco di rapporti incorporati 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qsWpXq8TLawoDqUFF8yl25rLtPeaCqK1YoI5bKuaviU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2978'
-ht-degree: 12%
+source-wordcount: 2996
+ht-degree: 42%
 
 ---
 
@@ -75,27 +87,27 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
  <tbody> 
   <tr> 
    <td>Costo Reale di Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costo Reale di Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Reddito reale di portfolio per programma</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate effettive portfolio per progetto</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate effettive per Azienda</td> 
-   <td>Un report di progetti che visualizza la Retribuzione effettiva e la Società dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate effettive e Azienda dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate effettive per gruppo</td> 
-   <td>Un report di progetti che visualizza la Retribuzione effettiva e il Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate effettive e Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Tutti i Timesheets Aperti</td> 
@@ -103,7 +115,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Timesheets da Approvare(Suggeriti)</td> 
-   <td>Un report di Timesheet che visualizza i Timesheet inviati o rifiutati con gli approvatori. Il rapporto visualizza i campi seguenti: Intervallo date, Proprietario, Ore totali, Straordinario, Nome approvatore e Stato delle schede orario. Il report viene richiesto da: Data inizio scheda orario, Data fine scheda orario, Nome approvatore scheda orario e Nome utente.</td> 
+   <td>Un report di timesheet che visualizza i Timesheet inviati o rifiutati con gli approvatori. Il rapporto visualizza i campi seguenti: Intervallo date, Proprietario, Ore totali, Straordinario, Nome approvatore e Stato delle schede orario. Il report viene richiesto da: Data inizio scheda orario, Data fine scheda orario, Nome approvatore scheda orario e Nome utente.</td> 
   </tr> 
   <tr> 
    <td>Progetti a Rischio</td> 
@@ -111,15 +123,15 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Entrate fatturazione per azienda</td> 
-   <td>Un report di progetti che visualizza la Società e la Fatturazione retribuzione dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
+   <td>Report per progetti che visualizza Azienda ed Entrate fatturazione dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate fatturazione per gruppo</td> 
-   <td>Un report di progetti che visualizza la Fatturazione retribuzione e il Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate fatturazione e Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate fatturazione per mese</td> 
-   <td>Un report di record fatturazione che visualizza il Nome progetto, il Ricavo fatturazione progetto e la Data fatturazione dei record fatturazione. Il rapporto è raggruppato per il mese della data di fatturazione dei record di fatturazione e include un grafico.</td> 
+   <td>Report per record di fatturazione che visualizza Nome progetto, Entrate fatturazione del progetto e Data fatturazione dei record di fatturazione. Il rapporto è raggruppato per il mese della data di fatturazione dei record di fatturazione e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Issues Completate per Settimana</td> 
@@ -135,23 +147,23 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Costo orario per utente per mese</td> 
-   <td>Un report di ore matrice che visualizza il numero di ore registrate e il relativo costo effettivo. Il rapporto è raggruppato per nome del proprietario e per il mese della data di immissione delle ore.</td> 
+   <td>Un report delle ore matrice che visualizza il numero delle ore registrate e i relativi Costi effettivi. Il rapporto è raggruppato per nome del proprietario e per il mese della data di immissione delle ore.</td> 
   </tr> 
   <tr> 
    <td>Ore per utente</td> 
-   <td>Un report di ore che visualizza il numero di ore registrate. Il rapporto è raggruppato per nome del proprietario e include un grafico.</td> 
+   <td>Un report di ore che visualizza il numero delle ore registrate. Il rapporto è raggruppato per nome del proprietario e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Ore per utente per settimana</td> 
-   <td>Un report di ore matrice che visualizza il numero di ore registrate nelle ultime quattro settimane e la data di immissione delle ore. Il report viene richiesto in base alla Data di immissione delle ore ed è raggruppato per Nome proprietario e per il mese della Data di immissione delle ore.</td> 
+   <td>Un report delle ore matrice che visualizza il numero delle ore registrate nelle ultime quattro settimane e la Data di immissione delle ore. Il report viene richiesto in base alla Data di immissione delle ore ed è raggruppato per Nome proprietario e per il mese della Data di immissione delle ore.</td> 
   </tr> 
   <tr> 
    <td>Problemi per stato</td> 
-   <td>Un report di problemi che visualizza lo Stato dei problemi. Il report è raggruppato per stato dei problemi e include un grafico.</td> 
+   <td>Un report di problemi che visualizza lo stato dei problemi. Il report è raggruppato per stato dei problemi e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Problemi per stato e progetto</td> 
-   <td>Un report di problemi matrice che visualizza lo Stato dei problemi nei progetti correnti e il Nome del progetto. Il report è raggruppato per Nome progetto e Stato dei problemi.</td> 
+   <td>Un report di problemi matrice che visualizza lo Stato dei problemi nei %progetti correnti e il Nome del progetto. Il report è raggruppato per Nome progetto e Stato dei problemi.</td> 
   </tr> 
   <tr> 
    <td>Costi Lavoro vs. Costi Spese per Portfolio</td> 
@@ -163,19 +175,19 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Costo pianificato rispetto al costo effettivo portfolio mensile per Progetto</td> 
-   <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, il Costo pianificato totale, il Costo effettivo totale e la Variazione costo totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
+   <td>Rapporto matrice per progetti (dati finanziari) che visualizza Data di allocazione, Entrate pianificate totali, Entrate effettive totali e Variazione entrate totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
   </tr> 
   <tr> 
    <td>Entrate mensili pianificate ed effettive dei portfolio per progetto</td> 
-   <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, la Retribuzione pianificata totale, la Retribuzione effettiva totale e la Variazione retribuzione totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
+   <td>Rapporto matrice per progetti (dati finanziari) che visualizza Data di allocazione, Entrate pianificate totali, Entrate effettive totali e Variazione entrate totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
   </tr> 
   <tr> 
    <td>Costi pianificati del progetto mensili rispetto ai costi effettivi</td> 
-   <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, il Costo pianificato totale, il Costo effettivo totale e la Variazione costo totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
+   <td>Rapporto matrice per progetti (dati finanziari) che visualizza Data di allocazione, Entrate pianificate totali, Entrate effettive totali e Variazione entrate totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
   </tr> 
   <tr> 
    <td>Entrate mensili pianificate ed effettive dei progetti</td> 
-   <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, la Retribuzione pianificata totale, la Retribuzione effettiva totale e la Variazione retribuzione totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
+   <td>Rapporto matrice per progetti (dati finanziari) che visualizza Data di allocazione, Entrate pianificate totali, Entrate effettive totali e Variazione entrate totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
   </tr> 
   <tr> 
    <td>I Miei Documenti</td> 
@@ -183,7 +195,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>I Miei Preferiti</td> 
-   <td>Un report Preferiti che visualizza un elenco di oggetti contrassegnati come preferiti dall'utente connesso. Il report visualizza i campi seguenti: Tipo di oggetto e Nome dei preferiti.</td> 
+   <td>Un report di Preferiti che visualizza un elenco di oggetti contrassegnati come Preferiti dall'utente connesso. Il report visualizza i campi seguenti: Tipo di oggetto e Nome dei preferiti.</td> 
   </tr> 
   <tr> 
    <td>I miei problemi</td> 
@@ -191,11 +203,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>I Miei Portfolio</td> 
-   <td>Un report di Portfolio che visualizza i portfolio attivi in cui l'utente connesso è Portfolio Manager.</td> 
+   <td>Un report di portafogli che visualizza i portafogli attivi laddove l'utente connesso è il Manager portfolio.</td> 
   </tr> 
   <tr> 
    <td>I Miei Programmi</td> 
-   <td>Un report di programmi che visualizza i programmi e la relativa descrizione, dove l'utente connesso è il responsabile del programma.</td> 
+   <td>Un report di programmi che visualizza i programmi e la relativa descrizione laddove l'utente connesso è il Manager programma.</td> 
   </tr> 
   <tr> 
    <td>Le Mie Issues Aperte nei Progetti</td> 
@@ -219,11 +231,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Issues non Assegnate a Me</td> 
-   <td>Un report di problemi che visualizza i problemi aperti assegnati a una qualsiasi mansione dell'utente connesso e non assegnati all'utente. Il rapporto visualizza i campi seguenti: Nome Source, Tipo di problema, Data inserimento, Stato e Priorità dei problemi.</td> 
+   <td>Rapporto di problemi che visualizza i problemi aperti assegnati a una qualsiasi mansione dell'utente connesso e che non sono assegnati all'utente. Il rapporto visualizza i campi seguenti: Nome Source, Tipo di problema, Data inserimento, Stato e Priorità dei problemi.</td> 
   </tr> 
   <tr> 
    <td>Le Mie Attività non Assegnate</td> 
-   <td>Un report di attività che visualizza le attività incomplete assegnate a una qualsiasi mansione dell'utente connesso e non assegnate all'utente. Il rapporto visualizza i campi seguenti: Durata pianificata, Nome progetto, Assegnatario principale, Data inizio pianificata, Data completamento pianificata, Percentuale completamento e Priorità delle attività.</td> 
+   <td>Rapporto di attività che visualizza le attività incomplete assegnate a una qualsiasi mansione dell'utente connesso e che non sono assegnate all'utente. Il rapporto visualizza i campi seguenti: Durata pianificata, Nome progetto, Assegnatario principale, Data inizio pianificata, Data completamento pianificata, Percentuale completamento e Priorità delle attività.</td> 
   </tr> 
   <tr> 
    <td>Le Mie prossime Attività</td> 
@@ -235,27 +247,27 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti Fuori Budget per Portfolio</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per nome Portfolio.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti. Il report è raggruppato per nome Portfolio.</td> 
   </tr> 
   <tr> 
    <td>Costo Pianifcato Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costo Pianificato Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate pianificate portfolio per programma</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate pianificate portfolio per progetto</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costi Reali vs. Costi Pianificati per Portfolio</td> 
-   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti per Portfolio. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti in base al Portfolio. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costi Reali vs. Costi Pianificati per Programma</td> 
@@ -263,11 +275,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Entrate pianificate ed effettive per portfolio</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate pianificate ed effettive per programma</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma e include un grafico.</td> 
+   <td>Report per progetti che visualizza Entrate pianificate ed Entrate effettive dei progetti. Il report è raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costi portfolio raggruppati per programma e mese</td> 
@@ -279,27 +291,27 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti di Portfolio divisi per condizione e Portfolio</td> 
-   <td>Un report di progetti che visualizza il Nome Portfolio e lo Stato dei progetti. Il report è raggruppato per nome Portfolio e stato dei progetti e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Nome portfolio e lo Stato dei progetti. Il report è raggruppato per nome Portfolio e stato dei progetti e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate dei portfolio per programma</td> 
-   <td>Un report di progetti che visualizza il Nome Portfolio, il Nome programma, la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e nome del programma e include un grafico.</td> 
+   <td>Report per progetti che visualizza Nome portfolio, Nome programma, Entrate pianificate ed Entrate effettive dei progetti. Il report è raggruppato per nome Portfolio e nome del programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Entrate dei portfolio raggruppate per programma e mese</td> 
-   <td>Un report di progetti matrice che visualizza la Retribuzione pianificata, la Retribuzione effettiva, il Nome Portfolio e il Nome programma. Il rapporto è raggruppato per nome Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
+   <td>Report matrice per progetti che visualizza Entrate pianificate, Entrate effettive, Nome portfolio e Nome programma. Il rapporto è raggruppato per nome Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
   </tr> 
   <tr> 
    <td>Costi ed entrate dei progetti per stato attività</td> 
-   <td>Un report di attività matrice che visualizza il Costo pianificato, il Costo effettivo, la Retribuzione pianificata, la Retribuzione effettiva e il Nome progetto delle attività. Il report è raggruppato per Nome progetto e Stato delle attività.</td> 
+   <td>Report matrice per attività che visualizza Costo pianificato, Costo effettivo, Entrate pianificate, Entrate effettive e Nome progetto delle attività. Il report è raggruppato per Nome progetto e Stato delle attività.</td> 
   </tr> 
   <tr> 
    <td>Costi ed entrate dei progetti per portfolio</td> 
-   <td>Un report di progetti che visualizza il Nome Portfolio, il Costo effettivo e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
+   <td>Report per progetti che visualizza Nome portfolio, Costo effettivo ed Entrate effettive dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Spese progetto per mese e trimestre</td> 
-   <td>Un report Spesa matrice che visualizza la Data di inserimento, l'Importo pianificato, l'Importo effettivo e il Progetto delle spese. Il report è raggruppato in base al Nome del progetto, al trimestre e al mese della Data di inserimento delle spese.</td> 
+   <td>Un report di Spesa matrice che visualizza la Data di immissione, l'Importo pianificato, l'Importo effettivo e il progetto delle spese. Il report è raggruppato in base al Nome del progetto, al trimestre e al mese della Data di inserimento delle spese.</td> 
   </tr> 
   <tr> 
    <td>Costo orario progetto per tipo di ore per mese</td> 
@@ -307,7 +319,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Costo spese e manodopera progetto per mese e trimestre</td> 
-   <td>Un report di progetti matrice che visualizza Costo manodopera pianificata, Costo effettivo manodopera, Costo spesa pianificata e Costo spesa effettivo dei progetti. Il report è raggruppato in base al Nome del progetto e al trimestre e al mese della Data di inizio effettiva dei progetti.</td> 
+   <td>Un report di progetti matrice che visualizza il Costo manodopera pianificata, Costo effettivo manodopera, Costo spesa pianificata e Costo spesa effettivo dei progetti. Il report è raggruppato in base al Nome del progetto e al trimestre e al mese della Data di inizio effettiva dei progetti.</td> 
   </tr> 
   <tr> 
    <td>Prestazioni progetto</td> 
@@ -319,7 +331,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti per Condizione</td> 
-   <td>Un report di progetti che visualizza la Condizione dei progetti. Il report è raggruppato per Condizione e include un grafico.</td> 
+   <td>Un report di progetti che visualizza la condizione dei progetti. Il report è raggruppato per Condizione e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Progetti per Condizione per Gruppo</td> 
@@ -343,11 +355,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Timesheets da Revisionare</td> 
-   <td>Un report di timesheet che visualizza i timesheet inviati e rifiutati il cui approvatore è l'utente connesso. Il rapporto visualizza i campi seguenti: Intervallo date, Proprietario, Ore totali, Straordinario, Nome approvatore e Stato delle schede orario.</td> 
+   <td>Un report di timesheet che visualizza tutti i Timesheet inviati e rifiutati il cui approvatore è l'utente connesso. Il rapporto visualizza i campi seguenti: Intervallo date, Proprietario, Ore totali, Straordinario, Nome approvatore e Stato delle schede orario.</td> 
   </tr> 
   <tr> 
    <td>Le attività in pericolo</td> 
-   <td>Un report di attività che visualizza le attività incomplete con uno Stato di avanzamento di In ritardo o In ritardo, una Data di handoff precedente a domani e dove l'utente connesso fa parte del Team di progetto del progetto in cui si trovano le attività. Il rapporto visualizza i campi seguenti: Durata pianificata, Nome progetto, Assegnatario principale, Inizio pianificato, Completamento pianificato, Percentuale completata e Priorità delle attività.</td> 
+   <td>Un report di attività che visualizza le attività incomplete con uno Stato di avanzamento di In ritardo o In ritardo sulla pianificazione, una Data di handoff precedente al giorno successivo e dove l'utente connesso fa parte del Team di progetto del progetto in cui si trovano le attività. Il rapporto visualizza i campi seguenti: Durata pianificata, Nome progetto, Assegnatario principale, Inizio pianificato, Completamento pianificato, Percentuale completata e Priorità delle attività.</td> 
   </tr> 
   <tr> 
    <td>I Login Utente</td> 

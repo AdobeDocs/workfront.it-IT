@@ -5,12 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/zYCMasjdrMzo4es3Pvq7ozeUZ6bEK4ofpIccKe1EB0A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: 219
+ht-degree: 0%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 10%
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2024 alle bacheche. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 24.1.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del primo trimestre 2024, consulta [Panoramica delle versioni del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 Per informazioni dettagliate su come acconsentire alle nuove funzionalità delle bacheche prima del rilascio trimestrale, consulta [Accettazione anticipata delle funzionalità per le bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 

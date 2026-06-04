@@ -6,9 +6,14 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 792
 ht-degree: 1%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 1%
 
 Prende 3 semplici passaggi:
 
-**Passaggio 1**: carica il file in Workfront Proof inviandolo tramite una richiesta Post a  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Ti restituiremo l’hash del file - questo è molto importante! Tieni presente che a questo punto non vedrai nulla nel tuo account, tutto quello che hai fatto finora è inviarci il file ma non ci hai detto cosa farci.
+**Passaggio 1**: carica il file in Workfront Proof inviandolo tramite una richiesta Post a [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Ti restituiremo l’hash del file - questo è molto importante! Tieni presente che a questo punto non vedrai nulla nel tuo account, tutto quello che hai fatto finora è inviarci il file ma non ci hai detto cosa farci.
 
 **Passaggio 2**: se non si dispone ancora dell&#39;ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID(). Utilizza la prima per effettuare l’accesso con l’indirizzo e-mail e la password di un utente oppure, se disponi del token di autenticazione e dell’indirizzo e-mail dell’utente, con il secondo metodo.
 
@@ -59,7 +64,7 @@ Non è necessario ottenere un nuovo ID sessione prima di ogni chiamata all’API
 
 **Team/Public**: ogni versione della bozza ha un URL Team (pubblico) univoco. Se questa opzione è attivata, la bozza verrà aperta in modalità di sola lettura. È possibile ottenere l&#39;URL del team utilizzando il metodo [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html).
 
-**Personali**: un URL personale è univoco per ogni revisore e versione della bozza. Se un set di bozze contiene 3 versioni e un revisore si trova su tutte le versioni, il revisore avrà 3 URL personali univoci. Un URL personale apre la versione della bozza con il revisore già identificato e deve quindi essere mantenuto sicuro e non condiviso. Gli URL personali possono essere ottenuti chiamando il metodo [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) e quindi iterando ogni  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) e recupero del parametro &quot;proof_url&quot;.
+**Personali**: un URL personale è univoco per ogni revisore e versione della bozza. Se un set di bozze contiene 3 versioni e un revisore si trova su tutte le versioni, il revisore avrà 3 URL personali univoci. Un URL personale apre la versione della bozza con il revisore già identificato e deve quindi essere mantenuto sicuro e non condiviso. È possibile ottenere gli URL personali chiamando il metodo [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html), quindi eseguendo un&#39;iterazione su ogni [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) e ottenendo il parametro &quot;proof_url&quot;.
 
 ## >Come includere parametri personalizzati quando si apre la miniproof?
 

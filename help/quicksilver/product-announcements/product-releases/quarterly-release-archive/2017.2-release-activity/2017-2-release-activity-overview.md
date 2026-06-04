@@ -1,20 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Panoramica sull’attività della versione 2017.2
+title: Panoramica sull’attività sulla versione 2017.2
 description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2017.2 di, che ora è disponibile nell’ambiente di produzione per tutti.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6GOzTOO4YYK45YdK1kekik6ZdIfKyeM9j44HbcB-TbQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: 688
+ht-degree: 1%
 
 ---
 
-# Panoramica sull’attività della versione 2017.2
+# Panoramica sull’attività sulla versione 2017.2
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2017.2 di, che ora è disponibile nell’ambiente di produzione per tutti. 
 
@@ -31,7 +38,7 @@ Le sezioni seguenti descrivono i miglioramenti disponibili per gli amministrator
 * [Ripristino di elementi in blocco dal Cestino](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#restoring-items-in-bulk-from-the-recycle-bin)
 * [Ripristina documenti](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#restore-documents)
 * [Supporto dei certificati SHA-256 per SAML 2.0](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#support-sha-256)
-* [Determinare la disponibilità del visualizzatore di verifica video di HTML5 (ProofHQ e Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#determine-the-availability-of-the-html5-video-proofing-viewer)
+* [Determinare la disponibilità del visualizzatore di bozze video HTML5 (ProofHQ e Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#determine-the-availability-of-the-html5-video-proofing-viewer)
 * [Informazioni utente sincronizzate da Workfront a ProofHQ (ProofHQ e Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#user-information-is-synchronized-from-workfront-to-proofhq)
 * [Tipo di anticipo per la mappatura degli attributi](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#type-ahead-for-mapping-attributes)
 * [Disponibilità API 7](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#api-7-is-now-available)

@@ -6,9 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 1%
 
 ---
@@ -52,12 +57,12 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 
 >[!IMPORTANT]
 >
->A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un’attività o un problema.<br>
+>A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
 >Esistono i seguenti scenari:
 >
 >* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
 >* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
-><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+><br>Potrebbe essere necessario aggiornare i report per riflettere il nuovo campo e i relativi valori.
 ><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).

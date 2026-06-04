@@ -6,14 +6,26 @@ description: È possibile esportare le informazioni da qualsiasi visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 5%
+source-wordcount: 582
+ht-degree: 13%
 
 ---
 
-# Esporta informazioni dalla Programmazione risorse
+# Esportare informazioni da pianificazione risorse
 
 È possibile esportare le informazioni da qualsiasi visualizzazione della Programmazione delle risorse in un file Excel (con estensione xlsx) salvato nel computer.
 
@@ -23,7 +35,7 @@ ht-degree: 5%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +47,7 @@ ht-degree: 5%
    <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Chiaro o superiore</p>
        <p>Revisione o successiva</p></td> 
   </tr> 
@@ -44,7 +56,7 @@ ht-degree: 5%
    <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p></td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti</p></td> 
   </tr> 
  </tbody> 
@@ -54,7 +66,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Esporta informazioni dalla Programmazione risorse
+## Esportare informazioni da pianificazione risorse
 
 {{step1-to-resourcing}}
 
@@ -113,7 +125,7 @@ Puoi scegliere di esportare le seguenti informazioni:
 1. Fai clic su **Esporta** per esportare le informazioni dalla Programmazione delle risorse.\
    Vengono esportate solo le informazioni salvate.
 
-1. (Condizionale) Se nelle visualizzazioni Ruolo o Progetto sono presenti ore preventivate non salvate, fare clic su **Salva e continua.**
+1. (Condizionale) Se nelle visualizzazioni Ruolo o Progetto sono presenti ore preventivate non salvate, fai clic su **Salva e continua.**
 Nel computer viene scaricato un file di Excel (.xlsx).\
    L&#39;esportazione dalla Programmazione delle risorse non è disponibile durante la preparazione del file per il download.\
    (Condizionale) Se esporti una grande quantità di dati, ricevi un’e-mail con un collegamento da cui puoi scaricare il file.\

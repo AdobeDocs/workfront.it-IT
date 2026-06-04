@@ -5,9 +5,14 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ Al momento, le sottoattività non sono visibili sulla bacheca come schede separa
 
 Per ulteriori informazioni, vedere [Gestione delle sottoattività nelle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Aggiungi documenti su schede collegate
 
@@ -40,7 +45,7 @@ Al momento, non è possibile eliminare documenti dalla scheda, ma è possibile e
 
 Per ulteriori informazioni, vedere [Aggiungere documenti sulle schede](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Miglioramenti alle assegnazioni utente su bacheche e schede
 
@@ -52,7 +57,7 @@ Sono ora disponibili i seguenti miglioramenti per l’aggiunta di utenti a sched
 
 Per ulteriori informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documenti disponibili sulle schede collegate come sola visualizzazione
 

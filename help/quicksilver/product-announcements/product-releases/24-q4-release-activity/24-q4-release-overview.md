@@ -5,12 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 14%
+source-wordcount: 2308
+ht-degree: 11%
 
 ---
 
@@ -71,7 +86,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 17 ottobre 2024</p>
+                            <p>Versione di anteprima: 17 ottobre 2024</p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -88,7 +103,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: mercoledì 1 ottobre 2024</p>
+                            <p>Versione di anteprima: 1 ottobre 2024</p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -105,7 +120,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 29 agosto 2024</p>
+                            <p>Versione di anteprima: 29 agosto 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 29 agosto 2024</span></p>
@@ -122,7 +137,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 29 agosto 2024</p>
+                            <p>Versione di anteprima: 29 agosto 2024</p>
                         </li>
                         <li>
                             <p>Produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024)</p>
@@ -141,7 +156,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p><s>Rilascio in anteprima: martedì 12 agosto 2024</s></p>
+                            <p><s>Versione di anteprima: 12 agosto 2024</s></p>
                         </li>
                         <li>
                             <p>Produzione per rilascio rapido: N/D</p>
@@ -184,7 +199,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p><s>Rilascio in anteprima: venerdì 3 ottobre 2024</s></p>
+                            <p><s>Versione di anteprima: 3 ottobre 2024</s></p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -201,7 +216,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 3 ottobre 2024</p>
+                            <p>Versione di anteprima: 3 ottobre 2024</p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -242,7 +257,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 10 ottobre 2024</p>
+                            <p>Versione di anteprima: 10 ottobre 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 10 ottobre 2024</span></p>
@@ -265,7 +280,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 3 ottobre 2024</p>
+                            <p>Versione di anteprima: 3 ottobre 2024</p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -301,7 +316,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: mercoledì 6 agosto 2024</p>
+                            <p>Versione di anteprima: 6 agosto 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 6 agosto 2024</span></p>
@@ -337,7 +352,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: mercoledì 13 febbraio 2024</p>
+                            <p>Versione di anteprima: 13 febbraio 2024</p>
                         </li>
                         <li>
                             <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
@@ -355,7 +370,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 21 dicembre 2023</p>
+                            <p>Versione di anteprima: 21 dicembre 2023</p>
                         </li>
                         <li>
                             <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
@@ -393,7 +408,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: giovedì 2 ottobre 2024</p>
+                            <p>Versione di anteprima: 2 ottobre 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 2 ottobre 2024</span></p>
@@ -411,7 +426,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: sabato 30 agosto 2024</p>
+                            <p>Versione di anteprima: 30 agosto 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 30 agosto 2024</span></p>
@@ -428,7 +443,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 29 agosto 2024</p>
+                            <p>Versione di anteprima: 29 agosto 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Versione di produzione per tutti i clienti: 29 agosto 2024</span></p>
@@ -488,7 +503,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: venerdì 3 ottobre 2024</p>
+                            <p>Versione di anteprima: 3 ottobre 2024</p>
                         </li>
                         <li>
                             <p>Versione di produzione per tutti i clienti: con la versione 24.10 (17 ottobre 2024)</p>
@@ -526,7 +541,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 <td><p><b>Disponibile in queste date:</b></p>
                     <ul>
                         <li>
-                            <p>Rilascio in anteprima: giovedì 28 agosto 2024</p>
+                            <p>Versione di anteprima: 28 agosto 2024</p>
                         </li>
                         <li>
                             <p class="preview">Versione di produzione: 28 agosto 2024</p>
@@ -583,11 +598,11 @@ A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Qu
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Versione 19 dell’API
+### API versione 19
 
-Nella versione 19 dell’API sono state modificate alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Per API versione 19, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 19 dell’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

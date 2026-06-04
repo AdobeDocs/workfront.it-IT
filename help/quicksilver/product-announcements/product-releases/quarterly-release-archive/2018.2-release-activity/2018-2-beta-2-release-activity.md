@@ -1,20 +1,31 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 di Beta 2
+title: Attività sulla versione 2018.2 Beta 2
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 0%
+source-wordcount: 865
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.2 di Beta 2
+# Attività sulla versione 2018.2 Beta 2
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 2. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 5 aprile 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 
@@ -22,14 +33,14 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.2, consulta  Panoramica dell&#39;attività di [versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.2, consulta [Panoramica delle attività sulla versione 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 La versione 2018.2 di Beta 2 contiene i seguenti miglioramenti:
 
 * [Modifica campi direttamente dall&#39;area Home](#edit-fields-directly-from-the-home-area)
 * [Tempo di connessione in giorni](#log-time-in-days)
 * [Visualizzare le relazioni tra i predecessori di progetti nel diagramma di Gantt in un elenco di progetti](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [Utilizzare il costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [Utilizzare il costo preventivato in Portfolio Optimizer per calcolare Portfolio Finances](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
 * [Rapporto utilizzo: popola le ore preventivate dalla nuova area budget risorse](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (solo anteprima)
 
 * [Rapporto utilizzo: visualizzazione ore preventivate per utente in un progetto](#utilization-report-view-budgeted-hours-by-user-on-a-project) (solo anteprima)
@@ -43,7 +54,7 @@ Ora, quando si seleziona un oggetto nell’area Home, è possibile modificare i 
 
 Prima di questa modifica, le informazioni potevano essere visualizzate solo nell’area Home, non modificate.
 
-Per ulteriori informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) nell&#39;articolo  [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Per ulteriori informazioni, vedere [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) nell&#39;articolo [Aggiornare o modificare un elemento di lavoro nell&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Tempo di connessione in giorni {#log-time-in-days}
 
@@ -66,19 +77,19 @@ Prima di questa modifica, era possibile visualizzare le relazioni predecessore t
 
 Per ulteriori informazioni, vedere [Configurare la visualizzazione delle informazioni nel Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
-## Utilizzare Costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
+## Utilizzare Costo preventivato in Portfolio Optimizer per calcolare Portfolio Finances {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
-Il nuovo Ottimizzatore Portfolio ora utilizza il Costo preventivato della nuova area Budget risorse del Business Case o del Pianificatore risorse per calcolare i campi riportati di seguito.
+Il nuovo Portfolio Optimizer ora utilizza il Costo preventivato della nuova area Budget risorse del Business Case o del Programmatore risorse per calcolare i campi seguenti:
 
 * Valore Netto
 * Ritorno sull&#39;investimento (ROI)
 * Costo
 
-In precedenza, sia il nuovo che il precedente Ottimizzatore Portfolio utilizzavano il costo preventivato legacy. Legacy Portfolio Optimizer utilizza ancora il costo preventivato legacy per calcolare il valore netto, il ritorno sull’investimento e il costo.
+In precedenza, sia il nuovo che il precedente Portfolio Optimizer utilizzavano il costo preventivato legacy. Portfolio Optimizer legacy utilizza ancora il costo preventivato legacy per calcolare il valore netto, il ritorno sull’investimento e il costo.
 
-Sono stati inoltre aggiunti due nuovi campi ai campi finanziari del Portfolio: ROI legacy e Valore netto legacy per acquisire i nuovi valori dai nuovi strumenti di gestione delle risorse.
+Sono stati inoltre aggiunti due nuovi campi ai campi finanziari di Portfolio: ROI legacy e Valore netto legacy per acquisire i nuovi valori dai nuovi strumenti di gestione delle risorse.
 
-Per ulteriori informazioni, vedere [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) nell&#39;articolo  [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) nell&#39;articolo [Panoramica di Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Rapporto Utilizzo: popola le ore preventivate dalla nuova area di budget risorse {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +101,7 @@ Le ore preventivate nel rapporto Utilizzo ora sono compilate dalle informazioni 
 
 Prima di questa modifica, venivano utilizzate le informazioni provenienti dall’area Stime risorse legacy.
 
-Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 

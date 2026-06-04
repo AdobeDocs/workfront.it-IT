@@ -1,27 +1,40 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Panoramica sull’attività della versione 2018.2
-description: Panoramica sull’attività della versione 2018.2
+title: Panoramica sull’attività sulla versione 2018.2
+description: Panoramica sull’attività sulla versione 2018.2
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 0%
+source-wordcount: 1158
+ht-degree: 1%
 
 ---
 
-# Panoramica sull’attività della versione 2018.2
+# Panoramica sull’attività sulla versione 2018.2
 
 >[!NOTE]
 >
 > La versione 18.2 è stata resa disponibile nell’ambiente di produzione nelle seguenti date:
 >
 >* Ambiente di produzione Workfront Proof - martedì 17 luglio
->* Ambiente di produzione Workfront per i cluster 2 e 4  - Giovedì 19 luglio 
+>* Ambiente di produzione Workfront per cluster 2 e 4 - giovedì 19 luglio 
 >* Ambiente di produzione Workfront per cluster 1, 3 e 5 - venerdì 20 luglio
 >
 
@@ -31,7 +44,7 @@ La versione 2018.2 contiene miglioramenti sia per gli amministratori di Workfron
 
 * [Miglioramenti per gli amministratori](#enhancements-for-administrators)
 * [Miglioramenti per tutti gli utenti](#enhancements-for-all-users)
-* [Notifiche](#announcements)
+* [Annunci](#announcements)
 
 ## Miglioramenti per gli amministratori {#enhancements-for-administrators}
 
@@ -143,7 +156,7 @@ La versione 2018.2 contiene miglioramenti sia per gli amministratori di Workfron
 
 * [L&#39;opzione per convertire un commento in un&#39;attività è stata rimossa](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed) Nuova!
 
-## Notifiche {#announcements}
+## Annunci {#announcements}
 
 * [Il supporto TLS sta per terminare](#tls-support-is-ending)
 * [Rimozione applicazione Flash](#flash-application-removal)
@@ -202,8 +215,8 @@ Questa funzionalità include:
 
   Per ulteriori informazioni, consulta le risorse seguenti:
 
-   * [Verifica delle bozze nel visualizzatore di bozze Web](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Verifica delle bozze nel Visualizzatore bozze desktop](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [Revisione delle bozze nel visualizzatore bozze web](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [Revisione delle bozze nel visualizzatore bozze del desktop](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Il supporto per il componente aggiuntivo di Microsoft Outlook sta per terminare {#microsoft-outlook-add-in-support-is-ending}
 

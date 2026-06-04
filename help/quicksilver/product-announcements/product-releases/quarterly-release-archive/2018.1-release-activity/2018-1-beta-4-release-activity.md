@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.1 di Beta 4
+title: Attività sulla versione 2018.1 Beta 4
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 4. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 24 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 0%
+source-wordcount: 2427
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.1 di Beta 4
+# Attività sulla versione 2018.1 Beta 4
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.1 di Beta 4. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 24 gennaio 2018. Sarà disponibile nell’ambiente di produzione a marzo 2018.
 
@@ -22,7 +35,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate in 2018.1, consulta  Panoramica dell&#39;attività della versione di [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.1, consulta [Panoramica delle attività sulla versione 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 La versione 2018.1 di Beta 4 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -41,7 +54,7 @@ La versione 2018.1 di Beta 4 contiene miglioramenti sia per gli amministratori d
 * [Rimuovi l&#39;oggetto Ora preventivata risorsa da Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [Statistiche utilizzo report](#report-usage-statistics)
 * [Aggiornamenti al diagramma di Gantt](#gantt-chart-updates)
-* [Nuovo Ottimizzatore Portfolio](#new-portfolio-optimizer)
+* [Nuovo Portfolio Optimizer](#new-portfolio-optimizer)
 * [Opzione di adeguamento data budget nella Programmazione delle risorse](#budget-date-adjustment-option-in-the-resource-planner)
 * [Pianificazione risorse: limita le assegnazioni agli utenti in base all&#39;appartenenza al gruppo](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
 * [Pianificazione risorse: consenti assegnazioni agli utenti indipendentemente dal ruolo](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
@@ -80,7 +93,7 @@ Ora, quando si passa il mouse su un documento nell’elenco dei documenti, le op
 
 Prima di questa modifica, queste opzioni erano disponibili come collegamenti sotto il nome del documento.
 
-Per ulteriori informazioni, vedere le sezioni seguenti:
+Per maggiori informazioni, consulta le seguenti sezioni:
 
 * .
 * in .
@@ -106,7 +119,7 @@ Nel menu a discesa accanto al pulsante Apri bozza o Genera bozza sono ora dispon
 * Dettagli Documento
 * Stampa riepilogo
 
-Per ulteriori informazioni, vedere le sezioni seguenti:
+Per maggiori informazioni, consulta le seguenti sezioni:
 
 * .
 * in .
@@ -139,7 +152,7 @@ Oltre a una migliore esperienza utente durante la creazione delle bozze in Workf
 >
 >Questa nuova pagina di creazione delle bozze in Workfront Proof ora corrisponde alla pagina di creazione delle bozze che è stata recentemente resa disponibile durante la creazione di bozze in Workfront. 
 
-Per ulteriori informazioni, consulta  [Genera bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Per ulteriori informazioni, vedere [Generare bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Miglioramenti delle bozze in Workfront e Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
@@ -271,7 +284,7 @@ Prima di questa modifica, era possibile rimuovere solo le relazioni dei predeces
 
 Per ulteriori informazioni sul diagramma di Gantt, vedere [Aggiornare le informazioni nell&#39;elenco delle attività Diagramma di Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
-## Nuovo Ottimizzatore Portfolio {#new-portfolio-optimizer}
+## Nuovo Portfolio Optimizer {#new-portfolio-optimizer}
 
 L’area Portfolio Optimizer di Workfront è ora aggiornata con un nuovo aspetto. La funzionalità non è stata modificata.
 

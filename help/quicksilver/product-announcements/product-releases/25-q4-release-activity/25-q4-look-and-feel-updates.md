@@ -5,10 +5,15 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1acb64b8-b215-408e-93b0-6301b63d7880
-source-git-commit: e62d4cc5f5b00bbf4e99986c52e49d0c6465dca7
+TQID: https://experienceleague.adobe.com/sSpBQ-B-wyf-JM49O00vZz06fGi4slLe0vkrpLFMMHU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 0%
+source-wordcount: 202
+ht-degree: 19%
 
 ---
 
@@ -34,6 +39,6 @@ Abbiamo aggiornato l’aspetto dell’elenco nel widget Richiesta team.  Di segu
 Questa modifica è il risultato di un problema risolto relativo al pulsante Assegna utenti.
 
 
-## Modernizzazione dell&#39;interfaccia
+## Modernizzazione dell’interfaccia
 
-Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe. Queste modifiche vengono rilasciate al di fuori della pianificazione standard. Per un elenco di queste modifiche, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+L’interfaccia di Adobe Workfront è in fase di aggiornamento per migliorare l’esperienza utente e per uniformarla alle altre applicazioni Adobe. Queste modifiche vengono rilasciate al di fuori della pianificazione di rilascio standard. Per un elenco di queste modifiche, consulta [Modernizzazione dell’interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

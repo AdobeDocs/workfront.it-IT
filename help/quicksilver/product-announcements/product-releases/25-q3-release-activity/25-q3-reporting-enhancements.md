@@ -5,12 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XN5rfSeje0azVxpC4uBSDn5mg2C9Oyik2awD5pQy3Jo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: 282
+ht-degree: 4%
 
 ---
 
@@ -27,7 +35,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 Abbiamo migliorato la consegna dei rapporti pianificata per garantire che le notifiche Workfront vengano inviate solo ai domini e-mail approvati nel inserisco nell&#39;elenco Consentiti di.
 
-Precedentemente, se la tua organizzazione avesse definito un limite sui domini e-mail per le notifiche Workfront, effettueremmo un controllo in base al inserisco nell&#39;elenco Consentiti di aggiunta delle e-mail durante la procedura di e-mail.
+In precedenza, se la tua organizzazione avesse definito un limite su quali domini e-mail vengono inviate le notifiche Workfront, effettueremmo un controllo in base al inserisco nell&#39;elenco Consentiti di aggiunta delle e-mail al momento dell’aggiunta delle e-mail all’e-mail.
 
 Ora viene eseguito anche un controllo durante l’invio dell’e-mail per verificare che l’indirizzo e-mail inserito sia conforme al inserisco nell&#39;elenco Consentiti di e-mail di. Questo controllo migliorato si applica sia agli indirizzi e-mail associati agli utenti che alle e-mail ad hoc aggiunte all’elenco dei destinatari del rapporto.
 
@@ -39,7 +47,7 @@ Per ulteriori informazioni, consulta [Pianificare la consegna automatica di un r
 >[!NOTE]
 >
 >* Anteprima: 30 aprile 2025
->* Rilascio rapido in produzione: venerdì 15 maggio 2025
+>* Versione rapida di produzione: 15 maggio 2025
 >* Produzione per tutti i clienti: 17 luglio 2025
 
 Il comportamento dei caratteri jolly utente è stato aggiornato per escludere il valore null durante il filtraggio di un report. Questa modifica consente al filtro di produrre risultati più precisi, anziché restituire risultati che non hanno un utente configurato correttamente (un risultato nullo).

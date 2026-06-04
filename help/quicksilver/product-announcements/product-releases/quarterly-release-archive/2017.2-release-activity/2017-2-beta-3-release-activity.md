@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2017.2 di Beta 3
+title: Attività sulla versione 2017.2 Beta 3
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 24 maggio 2017. Sarà disponibile nell’ambiente di produzione tra la fine di luglio e l’inizio di agosto 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 0%
+source-wordcount: 1379
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2017.2 di Beta 3
+# Attività sulla versione 2017.2 Beta 3
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione 2017.2 di Beta 2. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 24 maggio 2017. Sarà disponibile nell’ambiente di produzione tra la fine di luglio e l’inizio di agosto 2017.
 
@@ -77,7 +89,7 @@ Per ulteriori informazioni sulla configurazione della visualizzazione delle info
 
 ## Includere la legenda del diagramma di Gantt durante l&#39;esportazione in PDF {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
-Quando si esporta il grafico di Gantt in un PDF, è ora possibile scegliere se esportare anche la legenda del grafico insieme al grafico stesso. Gli elementi inclusi nella legenda sono solo le opzioni abilitate per la visualizzazione nel diagramma di Gantt nell’interfaccia utente. Queste opzioni sono incluse nella legenda se sono presenti nelle attività del progetto. Ad esempio, se si abilita la visualizzazione delle attività cardine nel diagramma di Gantt, anche queste verranno visualizzate nella legenda, ma solo se a un&#39;attività cardine è associata almeno un&#39;attività.
+Quando si esporta il grafico Gantt in un PDF, è ora possibile scegliere se esportare anche la legenda del grafico insieme al grafico stesso. Gli elementi inclusi nella legenda sono solo le opzioni abilitate per la visualizzazione nel diagramma di Gantt nell’interfaccia utente. Queste opzioni sono incluse nella legenda se sono presenti nelle attività del progetto. Ad esempio, se si abilita la visualizzazione delle attività cardine nel diagramma di Gantt, anche queste verranno visualizzate nella legenda, ma solo se a un&#39;attività cardine è associata almeno un&#39;attività.
 
 Prima di questa modifica, non era possibile escludere la legenda dal PDF esportato e la legenda includeva tutte le opzioni e i marcatori possibili del Gantt, indipendentemente dal fatto che fossero abilitati o esistessero nell’interfaccia utente.
 
@@ -127,7 +139,7 @@ Per ulteriori informazioni, vedere [Approvazione del lavoro](../../../../review-
 
 ## Visualizzatore di bozze migliorato per le bozze video (ProofHQ e Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
-Il visualizzatore di bozze in Workfront e ProofHQ è stato aggiornato con un nuovo look and feel, architettura HTML5 per prestazioni migliori e supporto per nuove funzionalità.
+Il visualizzatore di bozze di Workfront e ProofHQ viene aggiornato con un nuovo look and feel, l&#39;architettura HTML5 per prestazioni migliori e il supporto per nuove funzionalità.
 
 Il nuovo visualizzatore di bozze contiene i seguenti miglioramenti:
 
@@ -149,7 +161,7 @@ Il nuovo visualizzatore di bozze è disponibile per il test nei seguenti ambient
 
 * Ambiente di anteprima Workfront, quando l’account è abilitato con la verifica
 
-  Per ulteriori informazioni sull’ambiente di anteprima di Workfront, consulta  [Ambiente Sandbox Di Anteprima Di Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Per ulteriori informazioni sull&#39;ambiente di anteprima Workfront, vedere [Ambiente sandbox di anteprima Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 In questa versione, il nuovo visualizzatore di bozze supporta solo la bozza video. Ciò significa che tutte le bozze video sfruttano il nuovo visualizzatore di bozze, mentre tutte le bozze statiche e rich media continuano a sfruttare il visualizzatore di bozze esistente.
 

@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Anteprima R1 1 e 2
+title: Anteprima 1 e 2 di R1
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con le versioni R1.1 e R1.2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 19 gennaio 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: 1024
+ht-degree: 3%
 
 ---
 
-# Anteprima R1 1 e 2
+# Anteprima 1 e 2 di R1
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con le versioni R1.1 e R1.2. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 19 gennaio 2017.
 
@@ -38,7 +50,7 @@ Prima di questa modifica, le informazioni sui passaggi di approvazione erano dis
 
 Nei progetti, le informazioni sull’approvazione vengono visualizzate nell’intestazione accanto al titolo del progetto. Per le attività e i problemi, le informazioni sull’approvazione vengono visualizzate nel pannello di destra.
 
-Per ulteriori informazioni, vedere [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Per ulteriori informazioni, vedere [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approvazione del lavoro](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Configura gli oggetti da aggiornare in attesa di approvazione
 
@@ -95,7 +107,7 @@ Nelle seguenti aree di notifica è stata aggiunta l’opzione &quot;Riepilogo gi
 * Informazioni sul lavoro assegnato a me
 * Comunicazione
 
-Per ulteriori informazioni, vedere [Notifiche Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  Ricordati di aggiornare l’indirizzo e-mail associato al tuo account per poter testare questa funzionalità, poiché la Sandbox di anteprima cancella gli indirizzi e-mail su tutti gli utenti. 
+Per ulteriori informazioni, consulta [Notifiche di Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md). Ricorda di aggiornare l&#39;indirizzo e-mail associato al tuo account per poter testare questa funzionalità, poiché la Sandbox di anteprima cancella gli indirizzi e-mail su tutti gli utenti. 
 
 ## Rendi pubblico un gruppo
 
@@ -108,7 +120,7 @@ Per ulteriori informazioni su come rendere pubblico un gruppo, vedere la sezione
 Ora puoi condividere l’URL sui seguenti oggetti nell’app mobile Workfront:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Schede orario
 * Documenti
@@ -118,7 +130,7 @@ Ora puoi condividere l’URL sui seguenti oggetti nell’app mobile Workfront:
 * SMS
 * E-mail
 * Unità di archiviazione (ad esempio unità iCloud)
-* Un&#39;altra applicazione installata, ad esempio Notes, Facebook
+* Un&#39;altra applicazione installata (ad esempio, Notes, Facebook)
 * È possibile copiare un collegamento all&#39;oggetto negli Appunti e incollarlo successivamente in qualsiasi altra applicazione. 
 
 ## Guida sensibile al contesto nella configurazione

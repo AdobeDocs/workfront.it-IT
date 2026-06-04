@@ -7,9 +7,21 @@ description: La pianificazione delle risorse di Adobe Workfront consente di comp
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: 2411
 ht-degree: 2%
 
 ---
@@ -24,7 +36,7 @@ Adobe Workfront Resource Planner consente di comprendere facilmente la disponibi
 >
 >Non è possibile gestire l&#39;allocazione dei team sulle attività a cui sono assegnati nella Programmazione delle risorse.
 
-Devi soddisfare i prerequisiti necessari per utilizzare completamente la Programmazione delle risorse. Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Devi soddisfare i prerequisiti necessari per utilizzare completamente la Programmazione delle risorse. Per ulteriori informazioni sulla pianificazione risorse, consulta [Panoramica sulla pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ![Pianificazione risorse](assets/resource-planner-overview.png)
 
@@ -60,7 +72,7 @@ Per spostarsi nella timeline, fate clic sulle frecce avanti e indietro per spost
       <td>Visualizza le informazioni per settimana.<br>Il numero della settimana viene visualizzato accanto alle date nell'intestazione della colonna. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mese</td> 
+      <td role="rowheader">Month</td> 
       <td> Visualizza le informazioni per mese.</td> 
      </tr> 
      <tr> 
@@ -184,7 +196,7 @@ Quando selezioni la Vista utente nella Programmazione risorse, tieni presente qu
    * Se non disponi delle autorizzazioni necessarie per visualizzare i progetti, ma puoi accedere per visualizzare le attività o i problemi relativi, i progetti, le attività e i problemi vengono elencati con i nomi degli utenti a essi assegnati.
    * Se disponi delle autorizzazioni necessarie per visualizzare i progetti, ma non le attività o i problemi relativi, viene visualizzato il nome del progetto e le attività e i problemi sono elencati nella sezione Elementi inaccessibili.
 
-     Per ulteriori informazioni, vedere [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Nella vista Utente è possibile visualizzare le seguenti informazioni sull&#39;ora e sull&#39;FTE:

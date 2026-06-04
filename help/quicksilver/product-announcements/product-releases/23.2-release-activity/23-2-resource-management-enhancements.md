@@ -1,19 +1,29 @@
 ---
-title: 23.2 Miglioramenti alla gestione delle risorse
-description: 23.2 Miglioramenti alla gestione delle risorse
+title: 23.2 - Miglioramenti per la gestione delle risorse
+description: 23.2 - Miglioramenti per la gestione delle risorse
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/QzjHfD9RX0nF8Bk84Rq3yFTJvQpKMJPq9YmIXjJ9QJw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 0%
+source-wordcount: 277
+ht-degree: 8%
 
 ---
 
-# 23.2 Miglioramenti alla gestione delle risorse
+# 23.2 - Miglioramenti per la gestione delle risorse
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
@@ -42,4 +52,4 @@ In seguito a questo aggiornamento, Workfront calcola la disponibilità dell&#39;
 
 Per ulteriori informazioni, vedere [Configurare le [!UICONTROL preferenze per la gestione delle risorse]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3415608/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415608/){target=_blank}

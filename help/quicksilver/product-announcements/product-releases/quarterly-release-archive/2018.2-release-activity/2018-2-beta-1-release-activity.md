@@ -1,20 +1,28 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.2 di Beta 1
+title: Attività sulla versione 2018.2 Beta 1
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 0%
+source-wordcount: 1178
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.2 di Beta 1
+# Attività sulla versione 2018.2 Beta 1
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
 
@@ -72,7 +80,7 @@ Le azioni seguenti non vengono reintrodotte come collegamenti nel documento all&
 * Condividi (ancora disponibile come pulsante nel menu)
 * Check-Out/Check-In (disponibile nel menu a discesa Altro del menu)
 
-Per ulteriori informazioni, vedere le sezioni seguenti:
+Per maggiori informazioni, consulta le seguenti sezioni:
 
 *  in 
 

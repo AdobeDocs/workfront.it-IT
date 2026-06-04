@@ -7,14 +7,24 @@ description: È possibile utilizzare gli strumenti di pianificazione delle risor
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 0%
+source-wordcount: 561
+ht-degree: 7%
 
 ---
 
-# Introduzione alla pianificazione delle risorse
+# Introduzione alla pianificazione di risorse
 
 <!--Audited: 5/2025-->
 
@@ -51,7 +61,7 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
   >
   >L&#39;area Budget risorse di un progetto è la Pianificazione risorse a livello di progetto. Quando si preventivano le risorse nel Business Case di un progetto, le informazioni vengono riportate anche nella Programmazione delle risorse a livello di sistema.
 
-* Per gestire le risorse ad alto livello, su più iniziative e allineare il lavoro con la strategia della tua organizzazione, utilizza Adobe Workfront Scenario Planner. Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+* Per gestire le risorse ad alto livello, su più iniziative e allineare il lavoro con la strategia della tua organizzazione, utilizza Adobe Workfront Scenario Planner. Pianificazione scanari richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../scenario-planner/scenario-planner-overview.md).
 
   È possibile utilizzare la pianificazione delle risorse sia a livello di sistema, in più progetti, sia per preventivare le risorse per un singolo progetto nell&#39;area Budget risorse del caso aziendale. Per ulteriori informazioni sulla definizione del budget delle risorse per un progetto nel business case, vedere [Risorse budget nel business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
@@ -67,7 +77,7 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
 
 * Utilizzando Scenario Planner, puoi creare piani a livello aziendale su più iniziative che delineano i risultati strategici generali della tua azienda. Per ulteriori informazioni, vedere [Introduzione a Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+  Pianificazione scanari richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

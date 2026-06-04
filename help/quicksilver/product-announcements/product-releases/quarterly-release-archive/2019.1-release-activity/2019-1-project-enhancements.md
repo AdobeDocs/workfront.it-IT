@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Miglioramenti al progetto 2019.1
+title: Miglioramenti per il progetto 2019.1
 description: Questa pagina descrive tutti i miglioramenti al progetto inclusi nella versione 2019.1. Questa funzionalità è attualmente disponibile nell’ambiente di anteprima. Sarà reso disponibile nell’ambiente di produzione in .
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
 
-# Miglioramenti al progetto 2019.1
+# Miglioramenti per il progetto 2019.1
 
 Questa pagina descrive tutti i miglioramenti al progetto inclusi nella versione 2019.1. Questa funzionalità è attualmente disponibile nell’ambiente di anteprima. Sarà reso disponibile nell’ambiente di produzione in .
 
@@ -36,7 +41,7 @@ Per un elenco di tutte le modifiche apportate in 2019.1, consulta &quot;Panorami
 * [Aggiungere attività e problemi da un elenco a un&#39;iterazione](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [Nuove dimensioni carta per esportazione Diagramma di Gantt](#new-paper-sizes-for-gantt-chart-export)
 * [Accesso alle finestre di dialogo rimosso nel Diagramma di Gantt in modalità di modifica](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Visualizza informazioni attività nel Diagramma di Gantt dell&#39;elenco progetti in un programma o in un Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Visualizza informazioni attività nel Diagramma di Gantt elenco progetti in un programma o in Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
 * [Accedere al diagramma di Gantt dell&#39;elenco attività nei modelli](#access-the-task-list-gantt-chart-on-templates)
 * [Visualizzazione progetto rinominata nel Diagramma di Gantt](#renamed-the-project-view-on-the-gantt-chart)
 * [Scenari What-If nel diagramma di Gantt elenco attività](#what-if-scenarios-in-the-task-list-gantt-chart)
@@ -174,7 +179,7 @@ Per informazioni sulla visualizzazione degli oggetti negli elenchi, vedere &quot
 
 Sono state migliorate le prestazioni e l’aspetto degli elenchi di progetti e attività nelle seguenti aree:
 
-Schede Portfolio e Programmi nell&#39;area Progetti
+Schede Portfolio e Programmi nell’area Progetti
 
 Scheda Attività secondarie a livello di attività
 
@@ -186,9 +191,9 @@ Scheda Attività a livello di progetto
 
 Per informazioni sulla visualizzazione degli oggetti negli elenchi, vedere &quot;Visualizzazione degli elementi in un elenco&quot;.
 
-## Visualizzare le informazioni sulle attività nel diagramma di Gantt dell&#39;elenco dei progetti in un programma o in un Portfolio {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
+## Visualizzare le informazioni sulle attività nel Diagramma di Gantt dell&#39;elenco dei progetti in un programma o in un Portfolio {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
 
-È ora possibile visualizzare le informazioni sulle attività di un progetto nel Diagramma di Gantt Elenco progetti all&#39;interno di un programma o di un Portfolio.
+È ora possibile visualizzare le informazioni sulle attività di un progetto nel Diagramma di Gantt dell&#39;elenco dei progetti all&#39;interno di un programma o di un Portfolio.
 
 In precedenza, era possibile visualizzare le informazioni sulle attività solo nel Diagramma di Gantt Elenco progetti nella scheda Progetti.
 

@@ -1,19 +1,24 @@
 ---
-title: 23.2 Miglioramenti per dispositivi mobili
-description: 23.2 Miglioramenti per dispositivi mobili
+title: 23.2 - Miglioramenti per dispositivi mobili
+description: 23.2 - Miglioramenti per dispositivi mobili
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/Ig2M3eP08MMQiaUYLY8eeYGY-Ua8re5iP2UpJztXx2o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: 206
+ht-degree: 4%
 
 ---
 
-# 23.2 Miglioramenti per dispositivi mobili
+# 23.2 - Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 

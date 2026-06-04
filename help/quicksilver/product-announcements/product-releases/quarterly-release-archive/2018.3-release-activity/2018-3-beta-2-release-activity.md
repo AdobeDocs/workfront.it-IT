@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 di Beta 2
+title: Attività sulla versione 2018.3 Beta 2
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 0%
+source-wordcount: 913
+ht-degree: 1%
 
 ---
 
-# Attività sulla versione 2018.3 di Beta 2
+# Attività sulla versione 2018.3 Beta 2
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 2. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° agosto 2018. I miglioramenti della bozza rilasciati con Beta 2 saranno disponibili nell’ambiente di anteprima mercoledì 18 luglio. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
@@ -22,7 +34,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.3, consulta [Panoramica sull&#39;attività di rilascio di 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 La versione 2018.3 di Beta 2 contiene miglioramenti sia per gli amministratori di Workfront che per altri utenti:
 
@@ -81,7 +93,7 @@ Quando riduci a icona le attività e i problemi nella sequenza temporale della p
 
 In precedenza, quando si riducevano le attività e i problemi, le attività e i problemi rimanevano nella timeline di pianificazione per gli utenti e i ruoli, ma venivano visualizzati in una visualizzazione compressa.
 
-Per ulteriori informazioni su come ridurre al minimo le attività e i problemi nella sequenza temporale di pianificazione, consulta  &quot;Introduzione alla pianificazione delle risorse&quot;.
+Per ulteriori informazioni sulla riduzione delle attività e dei problemi nella programmazione temporale, vedere &quot;Introduzione alla programmazione delle risorse&quot;.
 
 ## Filtrare commenti e risposte per utente nel visualizzatore di bozze {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 
@@ -103,10 +115,10 @@ In precedenza, quando si contrassegnava una bozza per aggiungere un commento, er
 
 ## Rimozione Flash per condivisione report, calendario e documenti {#flash-removal-for-report-calendar-and-document-sharing}
 
-Il Flash è stato rimosso dalle seguenti finestre di dialogo di condivisione in Workfront:
+Flash è stato rimosso dalle seguenti finestre di dialogo di condivisione in Workfront:
 
-* Report
+* Rapporti
 * Calendari
 * Documenti
 
-Puoi comunque condividere questi oggetti come in precedenza, ma ora l’esperienza non si basa più sul Flash.
+Potete comunque condividere questi oggetti come in precedenza, ma ora l&#39;esperienza non si basa più su Flash.

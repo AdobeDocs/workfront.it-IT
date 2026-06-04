@@ -5,10 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/N-bcrKom3F2cHe1QqC-0LFTQsnAG7fRTEqMR8z4lRvg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: 455
+ht-degree: 4%
 
 ---
 
@@ -30,7 +35,7 @@ In questa versione, il processo di approvazione è stato semplificato sia per la
 
 Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni dei documenti, vedere [Panoramica sulle nuove approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Progettazione aggiornata quando si aggiunge un nuovo problema a un progetto
 
@@ -48,15 +53,15 @@ La modalità di calcolo dei campi non è stata modificata.
 
 Un numero limitato di campi modulo non disporrà di un ricalcolo dinamico, su pagine che non sono state modernizzate.
 
-Per ulteriori informazioni, vedere [Modificare le informazioni nei campi modulo personalizzato](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzato](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Imposta ore pianificate per attività ricorrenti figlio con tipo di durata semplice senza assegnazioni
 
 È stato modificato il modo in cui le ore pianificate vengono assegnate ad attività ricorrenti senza assegnazioni e con un tipo di durata semplice. Ora, quando si impostano le ore pianificate su una nuova attività ricorrente con un tipo di durata semplice e nessuna assegnazione, le ore vengono allocate anche alle singole ricorrenze. Prima di questa modifica, le ore non venivano salvate per le singole ricorrenze quando le attività padre non venivano assegnate.
 
-Per informazioni sulla creazione di attività ricorrenti, vedere [Creare attività ricorrenti](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Per informazioni sulla creazione di attività ricorrenti, consulta [Creare attività ricorrenti](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Aggiornamenti in tempo reale nell’elenco delle attività
 
