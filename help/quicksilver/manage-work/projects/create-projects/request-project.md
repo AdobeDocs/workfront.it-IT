@@ -2,15 +2,27 @@
 product-area: projects
 navigation-topic: create-projects
 title: Richiedere un progetto
-description: You can request for a project to be approved before you start working on it. We recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management team your labor and expense budget. La compilazione del Business Case e l'invio del progetto per l'approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l'approvazione, lo stato del progetto diventa Richiesto.
+description: È possibile richiedere l'approvazione di un progetto prima di iniziare a lavorarci. Si consiglia di creare un Business Case per un nuovo progetto, in modo da poter delineare alcuni dei punti chiave che si desidera raggiungere completandolo, nonché di presentare al team di gestione il proprio budget di lavoro e spese. La compilazione del Business Case e l'invio del progetto per l'approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l'approvazione, lo stato del progetto diventa Richiesto.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/NYadZXP7AWcijnvZk057N1uqKFTqUtkNR3Llblf4oys
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 9%
 
 ---
@@ -19,19 +31,19 @@ ht-degree: 9%
 
 <!--Audited: 10/2025-->
 
-You can request for a project to be approved before you start working on it.
+È possibile richiedere l&#39;approvazione di un progetto prima di iniziare a lavorarci.
 
-When you create a blank project, the status of the project is Idea.
+Quando crei un progetto vuoto, lo stato del progetto è Idea.
 
-If you need a formal request for the project to be approved, we recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget.
+Se è necessaria una richiesta formale per l&#39;approvazione del progetto, si consiglia di creare un Business Case per un nuovo progetto, in modo da poter delineare alcuni dei punti chiave che si desidera raggiungere completando il progetto, nonché presentare ai responsabili il budget di lavoro e le spese.
 
-Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested.
+La compilazione del Business Case e l&#39;invio del progetto per l&#39;approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l&#39;approvazione, lo stato del progetto diventa Richiesto.
 
-You can request a project when you add a new project in the following areas of Adobe Workfront:
+Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti aree di Adobe Workfront:
 
-* In the Projects area
-* In the Projects area of a Portfolio
-* In the Projects area of a Program
+* Nell’area Progetti
+* Nell’area Progetti di un Portfolio
+* Nell’area Progetti di un programma
 * Nell’area Gruppi per il gruppo del progetto, se sei un amministratore di gruppo.
 
 ## Requisiti di accesso
@@ -54,8 +66,8 @@ You can request a project when you add a new project in the following areas of A
   </tr> 
   <tr> 
    <td role="rowheader">Configurazione del livello di accesso</td> 
-   <td> <p>Edit access to Projects</p>
-   <p>If you request a project from a portfolio or a program, you must have Edit access to Portfolios and Programs</p>
+   <td> <p>Modifica accesso ai progetti</p>
+   <p>Se si richiede un progetto da un portfolio o da un programma, è necessario disporre dell'accesso di modifica a portafogli e programmi</p>
     </td> 
   </tr> 
   <tr> 
@@ -105,10 +117,10 @@ Old:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Click the **Main Menu** icon![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, click **Projects**, then expand **New Project**.
-   * Go to a portfolio, then expand **New Project**.
-   * Go to a program, then expand **New Project**.
-   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group&#39;s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Fai clic sull&#39;icona **Main Menu**![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo in alto a sinistra, fai clic su **Projects**, quindi espandi **New Project**.
+   * Vai a un portfolio, quindi espandi **Nuovo progetto**.
+   * Vai a un programma, quindi espandi **Nuovo progetto**.
+   * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Fai clic su **Richiedi progetto**.
 
@@ -116,14 +128,14 @@ Old:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Follow the same steps as for creating a project while defining a Business Case. (operazione consigliata)
+   * Durante la definizione di un caso di business, segui gli stessi passaggi della creazione di un progetto. (operazione consigliata)
 
-     For information, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Per informazioni, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * Create a project from scratch or using a template and change the status to **Requested**.
+   * Crea un progetto da zero o utilizzando un modello e cambia lo stato in **Richiesto**.
 
-     For information, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Per informazioni, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio.
+   Lo stato del progetto richiesto è **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di Portfolio, se associato a un Portfolio.
 
-   A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
+   Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.

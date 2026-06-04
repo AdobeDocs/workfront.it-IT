@@ -1,38 +1,47 @@
 ---
-title: 20.4 Miglioramenti per dispositivi mobili e integrazione
-description: 20.4 Miglioramenti per dispositivi mobili e integrazione
+title: 20.4 - Miglioramenti per dispositivi mobili e integrazioni
+description: 20.4 - Miglioramenti per dispositivi mobili e integrazioni
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+TQID: https://experienceleague.adobe.com/E8E3zY1dajNPGM7Kau4qYevs3-BEsq-8WLaRlOUUkYQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 0%
+source-wordcount: 453
+ht-degree: 5%
 
 ---
 
-# 20.4 Miglioramenti per dispositivi mobili e integrazione
+# 20.4 - Miglioramenti per dispositivi mobili e integrazioni
 
 Questa pagina descrive tutti i miglioramenti per dispositivi mobili apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
 Per un elenco di tutte le modifiche disponibili con la versione 20.4, consulta la [panoramica sulla versione 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Funzionalità aggiunta nelle notifiche dei Microsoft Teams
+## È stata aggiunta la funzionalità nelle notifiche di Microsoft Teams
 
 >[!NOTE]
 >
 >Questa funzionalità non è ancora disponibile, ma sarà presto disponibile nell’ambiente di anteprima. Sarà reso disponibile in produzione con la versione 20.4.
 
-Per semplificare l’utilizzo di Workfront nei Microsoft Teams, sono state aggiunte alcune nuove funzionalità alle notifiche dei Microsoft Teams inviate da Workfront.
+Per semplificare l’utilizzo di Workfront tramite Microsoft Teams, sono state aggiunte alcune nuove funzionalità alle notifiche Microsoft Teams inviate da Workfront.
 
 * Abbiamo ampliato i tipi di notifiche che puoi ricevere in Microsoft Teams. Ora è possibile ricevere notifiche su una maggiore varietà di eventi, ad esempio quando un utente aggiunge un commento alla scheda orario o desidera che tu approvi un documento.
 * Ora puoi aggiungere commenti e rispondere direttamente nella notifica. I commenti e le risposte vengono visualizzati in Workfront nel flusso di aggiornamento dell&#39;elemento di lavoro.
 * Abbiamo reso possibile visualizzare i moduli personalizzati di un elemento di lavoro nella notifica ed espandere il modulo personalizzato per visualizzarne i campi.
 * Quando ricevi una notifica su un progetto, un’attività o un problema, ora puoi modificare lo stato dell’elemento di lavoro direttamente nella notifica.
 
-Per ulteriori informazioni, consulta [Gestire le notifiche Adobe Workfront in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Per ulteriori informazioni, vedere [Gestire le notifiche Adobe Workfront in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Workfront per MobileIron
 

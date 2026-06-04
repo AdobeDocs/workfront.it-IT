@@ -6,9 +6,21 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: 1614
 ht-degree: 2%
 
 ---

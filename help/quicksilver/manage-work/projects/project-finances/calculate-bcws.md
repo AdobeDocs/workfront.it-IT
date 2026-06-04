@@ -2,19 +2,31 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola costo preventivato del lavoro programmato (BCWS)
+title: Calcolare il costo preventivato del lavoro pianificato (BCWS)
 description: Anche noto come valore pianificato, il costo preventivato del lavoro programmato (BCWS, Budgeted Cost of Work Scheduled) è una metrica delle prestazioni del progetto che rappresenta la quantità di attività che deve essere completata al momento del calcolo di questa metrica.
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+TQID: https://experienceleague.adobe.com/Nt0HZv7YfcMsAXZr3xRlkGXtCrQPJeJd4IQB0BuhbVM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 2%
+source-wordcount: 600
+ht-degree: 10%
 
 ---
 
-# Calcola costo preventivato del lavoro programmato (BCWS)
+# Calcolare il costo preventivato del lavoro pianificato (BCWS)
 
 ## Panoramica sul costo preventivato del lavoro programmato (BCWS)
 
@@ -36,7 +48,7 @@ Quando si esaminano i valori per il BCWS di un&#39;attività o di un progetto, t
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +59,7 @@ Quando si esaminano i valori per il BCWS di un&#39;attività o di un progetto, t
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -57,7 +69,7 @@ Quando si esaminano i valori per il BCWS di un&#39;attività o di un progetto, t
    <td>Modifica accesso ai progetti</td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td>Gestire le autorizzazioni per il progetto</td> 
   </tr> 
  </tbody> 

@@ -6,12 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 9%
+source-wordcount: 784
+ht-degree: 5%
 
 ---
 
@@ -249,10 +257,10 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Restituisce il numero di settimana in un anno. Facoltativamente, puoi indicare il giorno in cui inizia la settimana (usa 1 per domenica o 2 per lunedì). Se omesso, le settimane iniziano di domenica, per impostazione predefinita.</p> <p>L’espressione è formattata nel modo seguente:
+   <td> <p>Restituisce il numero della settimana in un anno. In alternativa, è possibile indicare il giorno in cui inizia la settimana (utilizzare 1 per la domenica o 2 per il lunedì). Se omesso, per impostazione predefinita le settimane iniziano di domenica.</p> <p>L’espressione è formattata nel modo seguente:
 
 <code>WEEKOFYEAR(date,2)</code>
-o
+oppure
 <code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>

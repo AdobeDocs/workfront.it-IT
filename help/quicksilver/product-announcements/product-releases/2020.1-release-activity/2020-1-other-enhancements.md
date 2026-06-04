@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Altri miglioramenti
+title: 2020.1 - Altri miglioramenti
 description: Questa pagina descrive tutti i miglioramenti apportati alle aree generali di Workfront con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a716590c-c833-458a-a138-9bc0723e5896
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/I5djuVv0ixHspF6afQaa5-jTkl0uXl26VlKf8BXqhO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 0%
+source-wordcount: 433
+ht-degree: 1%
 
 ---
 
-# 2020.1 Altri miglioramenti
+# 2020.1 - Altri miglioramenti
 
 Questa pagina descrive tutti i miglioramenti apportati alle aree generali di Workfront con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 
@@ -28,13 +40,13 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.1, consulta
 
 Il dominio di verifica sta modificando from proofhq.com in workfront.com.
 
-Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti per garantire che gli utenti dell&#39;organizzazione possano visualizzare le bozze in Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a fornitori specifici, è necessario aggiungere il seguente URL aggiuntivo al inserisco nell&#39;elenco Consentiti di verifica per assicurarsi che gli utenti dell&#39;organizzazione possano visualizzare le bozze all&#39;interno di Workfront sia nel visualizzatore di bozze del browser che nel visualizzatore di bozze del desktop:
 
 &#42;.workfront.com
 
 Anche l&#39;URL &#42;proofhq.com è obbligatorio.
 
-Per ulteriori informazioni sull&#39;aggiornamento del inserisco nell&#39;elenco Consentiti di installazione del firewall, vedere [Configurare il inserisco nell&#39;elenco Consentiti di installazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sull&#39;aggiornamento del inserisco nell&#39;elenco Consentiti di aggiornamento del tuo, consulta [Configurare il inserisco nell&#39;elenco Consentiti di aggiornamento del tuo firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
@@ -57,10 +69,10 @@ In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non
 
 Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Ottimizzatore Portfolio di Flash rimosso
+## Flash Portfolio Optimizer è stato rimosso
 
-È stata rimossa la possibilità di passare dall’Ottimizzatore di Portfolio nuovo a quello legacy (basato su Flash) dall’ambiente Workfront Classic per tutti i clienti. Legacy Portfolio Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.
+È stata rimossa la possibilità di passare dall’ambiente Portfolio Optimizer nuovo a quello legacy (basato su Flash) dall’ambiente Workfront Classic per tutti i clienti. La versione precedente di Portfolio Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.
 
 Per informazioni su Ottimizzatore portfolio, consulta https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Per informazioni sulla rimozione degli strumenti basati sul Flash in Workfront, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per informazioni sulla rimozione degli strumenti basati su Flash in Workfront, vedere [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

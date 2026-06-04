@@ -2,19 +2,30 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola il ritorno sull’investimento (ROI)
+title: Calcolare il ritorno sull’investimento (ROI)
 description: Il ROI (Return On Investment) è una metrica di Adobe Workfront che consente ai gestori del portfolio di visualizzare rapidamente le prestazioni del progetto rispetto al beneficio pianificato e al costo preventivato originali del progetto.
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/x7MGrAZbtlDd0oTePPgRdLQfUg8-M4GkkQdeWXUTyh4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: 348
+ht-degree: 4%
 
 ---
 
-# Calcola il ritorno sull’investimento (ROI)
+# Calcolare il ritorno sull’investimento (ROI)
 
 Il ROI (Return On Investment) è una metrica di Adobe Workfront che consente ai gestori del portfolio di visualizzare rapidamente le prestazioni del progetto rispetto al beneficio pianificato e al costo preventivato originali del progetto.
 

@@ -2,20 +2,32 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento,rilascio
 navigation-topic: 2021-2-release-activity
-title: 21.2 Miglioramenti al progetto
+title: 21.2 - Miglioramenti ai progetti
 description: Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/WvKzdm-PGGseRZDvHqDW7TxIeTflgx-XCv-rFaehbps
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: 1698
+ht-degree: 4%
 
 ---
 
-# 21.2 Miglioramenti al progetto
+# 21.2 - Miglioramenti ai progetti
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -81,7 +93,7 @@ Prima di questo miglioramento, questi pulsanti si trovavano nell&#39;angolo supe
 Per informazioni sulla modifica di progetti o attività, vedere i seguenti articoli:
 
 * [Modificare progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
-* [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [Modificare le attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![Modifica esempio di progetto](assets/pasted-image-4-5-2021-0-350x278.png)
 

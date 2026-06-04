@@ -1,15 +1,20 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Nuovo sistema gestito da Adobe Workfront per sostituire POP email for Request Queues con 21.1
+title: Nuovo sistema gestito da Adobe Workfront per sostituire POP Email per le code delle richieste con 21.1
 description: Stiamo sostituendo l’opzione e-mail POP per le code di richieste con un nuovo sistema gestito da Adobe Workfront. Sarà comunque possibile inviare le richieste tramite e-mail, ma sarà necessario impostare un nuovo indirizzo e-mail gestito da Workfront nell’area Coda richieste.
 author: Luke
 feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
-source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
+TQID: https://experienceleague.adobe.com/zzr53eiyA6o-VpZQnFQt-xCXZBKaScZUz8jDmOgX-Ns
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: 332
+ht-degree: 4%
 
 ---
 

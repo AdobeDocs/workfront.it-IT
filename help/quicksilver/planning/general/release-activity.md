@@ -6,15 +6,30 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7392'
-ht-degree: 0%
+source-wordcount: 7679
+ht-degree: 2%
 
 ---
 
-
-# Attività sulla versione di Adobe Workfront Planning per il 2024
+# Attività sulla versione di pianificazione di Adobe Workfront per il 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -32,7 +47,7 @@ Nella tabella seguente viene illustrata la sequenza temporale del rilascio di Wo
 |--------------------|-----------------------------------------|
 | Agosto - dicembre 2023 | Versione beta di Workfront Planning* |
 | Gennaio - agosto 2024 | Rilascio anticipato di Workfront Planning* |
-| 28 agosto 2024 | Disponibilità generale di Workfront Planning |
+| giovedì 28 agosto 2024 | Disponibilità generale di Workfront Planning |
 
 *Le fasi beta e rilascio anticipato erano disponibili per un gruppo limitato di clienti.
 
@@ -116,7 +131,7 @@ Per comprendere quali informazioni vengono modificate da altri utenti quando si 
 
 Il campo modificato da un altro utente verrà ora evidenziato nella vista tabella e gli avatar degli altri utenti saranno visibili nell’angolo superiore destro di tutte le viste.
 
-Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Creare record inviando una richiesta
 
@@ -147,10 +162,10 @@ Anteprima e produzione: 28 agosto 2024
 
 Con il rilascio dell&#39;API pubblica di Workfront Planning, è ora possibile fare riferimento ai record di Planning in campi esterni nei moduli personalizzati di Workfront.
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
 * [Esempi di campo di ricerca esterno in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-* [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Nozioni di base sulle API di pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### Menu Nuove impostazioni nella vista Calendario
 
@@ -188,7 +203,7 @@ Per ulteriori informazioni sull&#39;Assistente di Workfront Planning AI, vedere 
 
 Anteprima e produzione: 28 agosto 2024
 
-È ora possibile visualizzare le informazioni di Workfront Planning in un rapporto utilizzando Workfront Canvas Dashboard. Per informazioni, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+È ora possibile visualizzare le informazioni di Workfront Planning in un rapporto utilizzando Workfront Canvas Dashboard. Per informazioni, consulta [Panoramica delle dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Settimana del 19 agosto 2024
 
@@ -206,7 +221,7 @@ Sono stati apportati i seguenti miglioramenti alla pagina principale dell&#39;ar
 
 * Sono stati aggiunti i collegamenti &quot;Mostra tutto&quot; e &quot;Mostra meno&quot; per controllare il numero di aree di lavoro visualizzate nella pagina principale. Quando nella pagina principale sono elencate più di due righe di schede dell’area di lavoro, il collegamento Mostra tutto viene visualizzato per consentire la visualizzazione di tutte le aree di lavoro, solo se necessario.
 
-Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 ### Collegare i tipi di record in più aree di lavoro
 
@@ -238,7 +253,7 @@ Questa non è una gerarchia effettiva (nessun oggetto è più alto di un altro).
 
 È possibile visualizzare fino a 5 livelli di tipi di record nella stessa sequenza temporale per un record.
 
-Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Nuova scheda Connessioni nell&#39;area dei dettagli del record
 
@@ -266,7 +281,7 @@ Se ad esempio si connettono campagne Workfront Planning a progetti Workfront e s
 
 In questo momento è possibile creare quanto segue durante la connessione dei record:
 
-* Record di Workfront Planning
+* Record Pianificazione di Workfront
 * Progetti Workfront senza modello
 * Portfolio Workfront
 
@@ -324,7 +339,7 @@ Anteprima: da determinare
 
 Ora, quando si apre una visualizzazione timeline e si scorre fino a una data nel passato o nel futuro, la data selezionata viene mantenuta dopo l’aggiornamento della pagina. Prima di questo miglioramento, la pagina mostrava la data odierna.
 
-Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Settimana del 29 luglio 2024
 
@@ -417,7 +432,7 @@ Se il campo di ricerca contiene più valori, considera quanto segue:
 
 Per ulteriori informazioni, consulta i seguenti articoli:
 
-* [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Gestisci la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
@@ -479,11 +494,11 @@ Questo aggiornamento include i seguenti miglioramenti:
 
 * Il modello Gestione marketing è stato rimosso. Abbiamo aggiunto i seguenti modelli per la gestione del marketing e consigliamo di utilizzarne uno appropriato a seconda della complessità dei flussi di lavoro:
 
-   * Base: Marketing Management
-   * Avanzato: Marketing Management
-   * Enterprise: Marketing Management
+   * Base: Gestione del marketing
+   * Avanzato: Gestione del marketing
+   * Enterprise: Gestione del marketing
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
 * [Elenco dei modelli dell&#39;area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md)
 
@@ -735,7 +750,7 @@ Anteprima: da determinare
 
 È stato aggiunto il pulsante &quot;Nuovo record&quot; nell’intestazione di una pagina del tipo di record. È ora possibile creare record da qualsiasi visualizzazione. Prima di questo miglioramento, era possibile creare record solo dalla vista tabella.
 
-Per ulteriori informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 
 ### Nuovo avviso sulla visibilità degli oggetti durante la connessione dei record
@@ -792,7 +807,7 @@ Anteprima: da determinare
 
 * Aggiunta della descrizione del tipo di record
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Abilitare le notifiche di Workfront Planning per i clienti di Adobe Unified Experience
 
@@ -908,7 +923,7 @@ Per risparmiare tempo e mantenere la coerenza, ora puoi duplicare una vista esis
 
 La duplicazione di una vista crea una vista identica, utilizzando gli stessi filtri, criteri di ordinamento e raggruppamenti. La duplicazione di una vista non mantiene le autorizzazioni della vista originale.
 
-Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Rinominata area Maestro nel menu principale come Planning
 
@@ -988,7 +1003,7 @@ Per migliorare la navigazione e la facilità d’uso, abbiamo riprogettato la vi
 
 Le visualizzazioni vengono visualizzate in ordine cronologico per data aggiunta, da sinistra a destra. Anche le viste condivise vengono visualizzate in ordine cronologico in base al momento in cui sono state condivise.
 
-Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Progettazione dinamica di una visualizzazione record
 

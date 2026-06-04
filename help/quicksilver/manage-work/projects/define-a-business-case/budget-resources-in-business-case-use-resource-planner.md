@@ -1,18 +1,33 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Preventivare le risorse nel Business Case utilizzando la Programmazione delle risorse
+title: Risorse di budget nel caso di business utilizzando pianificazione risorse
 description: Come parte della pianificazione delle risorse, è possibile utilizzare la Pianificazione risorse a livello di progetto per preventivare i ruoli necessari per il completamento del lavoro in un progetto quando si crea il caso di business.
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/qCdK5wvSZkx4ROkfy21JK7P5v7YY1hKkJwwIUDKXvNI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 1%
+source-wordcount: 1212
+ht-degree: 8%
 
 ---
 
-# Preventivare le risorse nel Business Case utilizzando la Programmazione delle risorse
+# Risorse di budget nel caso di business utilizzando pianificazione risorse
 
 <!--Audited: 06/2025-->
 
@@ -35,12 +50,12 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Piano Adobe Workfront</p></td> 
    <td> <p>Prime o versione successiva</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p>
 
@@ -58,7 +73,7 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Gestire le autorizzazioni sul progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +87,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
-* Soddisfa tutti i prerequisiti per la pianificazione delle risorse in Adobe Workfront. Per informazioni, vedere [Panoramica di Programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Soddisfa tutti i prerequisiti per la pianificazione delle risorse in Adobe Workfront. Per informazioni, consulta [Panoramica sulla pianificazione risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Associa i gruppi di risorse al progetto.
 
@@ -82,7 +97,7 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
   >[!NOTE]
   >
-  >Non è possibile preventivare le risorse assegnate ai problemi nel Business Case. È possibile preventivarli nella programmazione delle risorse a livello di sistema. Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >Non è possibile preventivare le risorse assegnate ai problemi nel Business Case. È possibile preventivarli nella programmazione delle risorse a livello di sistema. Per ulteriori informazioni sulla pianificazione risorse, consulta [Panoramica sulla pianificazione risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Anche se questo non è un prerequisito, ti consigliamo anche di indicare le Ore pianificate per le attività sul progetto. In questo modo è possibile comprendere la quantità di lavoro che un&#39;attività potrebbe dover completare, il che consente di decidere in merito alla quantità di tempo a cui le risorse devono essere preventivate per completare l&#39;attività. Per informazioni sull&#39;associazione delle attività alle ore pianificate, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -114,7 +129,7 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    In questo modo vengono utilizzate le ore preventivate del progetto per calcolare il costo manodopera preventivato per il progetto.
 
-   La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
@@ -128,13 +143,13 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
    >
    >Se il progetto è già associato ai gruppi di risorse, per impostazione predefinita viene visualizzato Pianificazione risorse. Per aggiungere altri gruppi di risorse al progetto, modifica il progetto. Per informazioni sulla modifica di un progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    Viene visualizzata la Programmazione delle risorse per il progetto selezionato.
 
    Per impostazione predefinita, i primi 20 ruoli associati a questo progetto sono elencati in ordine alfabetico nella sezione Budget risorse.
 
-   Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Per ulteriori informazioni sulla pianificazione risorse, consulta [Panoramica sulla pianificazione risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
    <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 

@@ -1,19 +1,33 @@
 ---
-title: 22.1 Miglioramenti per gli amministratori
-description: 22.1 Miglioramenti per gli amministratori
+title: 22.1 - Miglioramenti per gli amministratori
+description: 22.1 - Miglioramenti per gli amministratori
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/5OkRMNtGZPFq3UTOlmP9rUqvkdkxrB4Eo6Gh-culwZw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 0%
+source-wordcount: 1466
+ht-degree: 1%
 
 ---
 
-# 22.1 Miglioramenti per gli amministratori
+# 22.1 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
@@ -144,7 +158,7 @@ Ora è più semplice creare campi calcolati complessi in un modulo personalizzat
 I moduli personalizzati sono ora supportati per l’oggetto Gruppo. In questo modo i gruppi dell&#39;organizzazione possono acquisire e condividere più facilmente le informazioni che soddisfano le esigenze e i flussi di lavoro specifici. Gli utenti possono eseguire le operazioni seguenti per un gruppo, come per altri oggetti di Workfront:
 
 * Creare un modulo personalizzato
-* Allegare un modulo personalizzato
+* Allega un modulo personalizzato
 * Salvare i dati del modulo personalizzato
 * Rimuovere un modulo personalizzato
 * Modificare i dati personalizzati dagli elenchi e, nella nuova esperienza Workfront, dalla pagina Gruppo

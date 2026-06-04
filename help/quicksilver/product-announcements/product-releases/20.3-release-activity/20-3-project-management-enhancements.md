@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Miglioramenti alla gestione dei progetti
+title: 20.3 - Miglioramenti per la gestione dei progetti
 description: Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/m72HcdqC9ZH3Kzn11Lb1EoL-LZmosFkPVW3FUxa1gq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# 20.3 Miglioramenti alla gestione dei progetti
+# 20.3 - Miglioramenti per la gestione dei progetti
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
@@ -36,7 +49,7 @@ Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Le aree globali di Progetti, Portfoli, Programmi e Modelli dispongono ora di un’intestazione aggiornata che sfrutta al meglio lo spazio sullo schermo. Questo aggiornamento offre più spazio per le informazioni da utilizzare su cui è necessario concentrarsi.
+Le aree globali di Progetti, Portfolio, Programmi e Modelli dispongono ora di un&#39;intestazione aggiornata che sfrutta al meglio lo spazio sullo schermo. Questo aggiornamento offre più spazio per le informazioni da utilizzare su cui è necessario concentrarsi.
 
 Il collegamento Modelli dall’area Progetti è stato rimosso. È comunque possibile accedere all&#39;area Modelli dal menu principale.
 

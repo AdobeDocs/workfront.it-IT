@@ -6,9 +6,21 @@ description: È possibile utilizzare le tariffe di fatturazione per calcolare i 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4653'
+source-wordcount: 4595
 ht-degree: 1%
 
 ---
@@ -144,7 +156,7 @@ Se si dispone di più tariffe di fatturazione sostitutive per una mansione speci
 >[!NOTE]
 >
 >Quando la **Data inizio** o la **Data fine** è vuota per un tasso valido per la data, Workfront presuppone che il primo tasso di sostituzione sia applicato per tutte le ore con una data precedente alla **Data fine** della prima sostituzione e che l&#39;ultimo tasso di sostituzione sia applicato per tutte le ore con una data successiva alla **Data inizio** dell&#39;ultima sostituzione.
->Se viene registrata un’ora prima della data di inizio pianificata del progetto, viene utilizzata la prima tariffa di fatturazione.\
+>Se viene registrata un&#39;ora prima della data di inizio pianificata del progetto, viene utilizzata la prima tariffa di fatturazione.\
 >Se viene registrata un’ora dopo la data di completamento pianificata del progetto, viene utilizzata l’ultima tariffa di fatturazione.
 
 ## Panoramica della sezione Tariffe di fatturazione di un progetto - Tutti gli altri pacchetti Workfront e Workflow
@@ -366,7 +378,7 @@ Per ulteriori informazioni sul ricalcolo dei dati finanziari del progetto, consu
 ## Aggiungere una nuova tariffa di fatturazione utilizzando l’API
 
 Per aggiungere una nuova tariffa di fatturazione per una mansione utilizzando l&#39;API, eseguire un&#39;azione *setRatesForRole* per l&#39;oggetto **Rate** utilizzando il metodo *PUT*.
-L&#39;azione e i campi data nell&#39;oggetto **Rate** sono disponibili nella versione 8.0 dell&#39;API.
+I campi di azione e data nell&#39;oggetto **Rate** sono disponibili nella versione 8.0 dell&#39;API.
 Se hai già definito diverse tariffe di fatturazione per una mansione in un progetto e desideri aggiungerne una nuova con un nuovo intervallo di date, devi includere sia la tariffa esistente che quella da aggiungere nella stessa chiamata API. È simile a come si aggiornano le raccolte sugli oggetti.
 
 La seguente chiamata API è un esempio in cui **attachableID** è l&#39;**ID progetto** del progetto in cui si sta aggiungendo la tariffa e **RoleID** è il **ID ruolo** per il quale si sta aggiungendo la nuova tariffa di fatturazione.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;tariffe&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Per ulteriori informazioni sull&#39;utilizzo dell&#39;API Workfront, vedere l&#39;articolo [Nozioni di base sull&#39;API](https://experience.workfront.com/s/article/API-Basics-638808549).

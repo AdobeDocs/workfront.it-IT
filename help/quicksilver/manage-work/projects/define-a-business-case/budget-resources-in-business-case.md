@@ -1,18 +1,27 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Risorse di budget nel Business Case
+title: Risorse di budget nel caso di business
 description: Come parte della pianificazione delle risorse, è possibile preventivare i ruoli necessari per completare il lavoro in un progetto quando si crea il caso di business. Per ulteriori informazioni sulla creazione di un caso di business, vedere Creare un caso di business per un progetto.
 author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/Kwb3yp8Sqjnch5vlnWHT2rixXbUODjOFG3xs8wIp1Cs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 261
+ht-degree: 9%
 
 ---
 
-# Risorse di budget nel Business Case
+# Risorse di budget nel caso di business
 
 Come parte della pianificazione delle risorse, è possibile preventivare i ruoli necessari per completare il lavoro in un progetto quando si crea il caso di business. Per ulteriori informazioni sulla creazione di un caso aziendale, vedere [Creare un caso aziendale per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -30,7 +39,7 @@ Come parte della pianificazione delle risorse, è possibile preventivare i ruoli
 
   >[!NOTE]
   >
-  >La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  >La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

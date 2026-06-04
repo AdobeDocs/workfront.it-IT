@@ -1,20 +1,29 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Miglioramenti di Analytics
+title: 20.3 - Miglioramenti per le analisi
 description: Questa pagina descrive tutti i miglioramenti apportati all’analisi con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/b6mVT5-NK2lvcm3-S87SjROekfTXCM2RUP92m31cVLM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 0%
+source-wordcount: 202
+ht-degree: 2%
 
 ---
 
-# 20.3 Miglioramenti di Analytics
+# 20.3 - Miglioramenti per le analisi
 
 Questa pagina descrive tutti i miglioramenti apportati all’analisi con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
@@ -32,6 +41,6 @@ Le funzioni di analisi avanzate sono ora disponibili in Workfront. Questa funzio
 
 Puoi concentrarti su progetti diversi o limitare la quantità di progetti che stai esaminando applicando dei filtri o modificando l’intervallo di date.
 
-Oltre alle informazioni che puoi ottenere, puoi anche completare azioni sulle attività, come aggiornare lo stato, richiedere un aggiornamento, assegnare l’attività a qualcuno, ecc.- direttamente dall&#39;area Analisi avanzata (Enhanced Analytics).
+Oltre alle informazioni che puoi ottenere, puoi anche completare azioni sulle attività, come aggiornare lo stato, richiedere un aggiornamento, assegnare l’attività a qualcuno, ecc., direttamente dall’area Analisi avanzate.
 
 

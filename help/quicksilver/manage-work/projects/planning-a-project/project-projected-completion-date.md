@@ -2,19 +2,33 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Panoramica della data di completamento prevista per progetti, attività e problemi
+title: Panoramica sulla data di completamento prevista per progetti, attività e problemi
 description: La Data di completamento prevista è un indicatore calcolato in tempo reale del momento in cui il progetto, l’attività o il problema verrà completato. Quando il progetto, l’attività o il problema è contrassegnato come Completato, la Data di completamento prevista cambia in corrispondenza della Data di completamento effettiva.
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+TQID: https://experienceleague.adobe.com/qpYXoo1C-GZi1B--dhKTGjzvSWdLxrQM3IqX4Q6GZt8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: 869
+ht-degree: 5%
 
 ---
 
-# Panoramica della data di completamento prevista per progetti, attività e problemi
+# Panoramica sulla data di completamento prevista per progetti, attività e problemi
 
 <!-- Audited: 11/2025 -->
 
@@ -24,7 +38,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +50,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <ul><li><p>Collaboratore o versione successiva per visualizzare la data di completamento prevista in un rapporto</p></li> <li><p>Una licenza Standard per creare un rapporto</p></li> </ul>
    Oppure
@@ -49,7 +63,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
    <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per creare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per creare un rapporto o modificare una vista a elenco</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto</p> </td> 
   </tr> 
  </tbody> 

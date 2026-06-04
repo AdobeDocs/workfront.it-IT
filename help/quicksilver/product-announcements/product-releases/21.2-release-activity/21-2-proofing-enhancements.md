@@ -2,20 +2,27 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento,rilascio
 navigation-topic: 2021-2-release-activity
-title: 21.2 Miglioramenti delle bozze
+title: 21.2 Miglioramenti per le bozze
 description: Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
 author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/a2Yn2ZNrG9liEAAUm7rH-occP-HpDiaqdEbAKMx8DeU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: 453
+ht-degree: 5%
 
 ---
 
-# 21.2 Miglioramenti delle bozze
+# 21.2 Miglioramenti per le bozze
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 

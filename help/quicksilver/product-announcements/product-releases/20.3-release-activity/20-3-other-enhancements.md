@@ -1,20 +1,34 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 altri miglioramenti
+title: 20.3 - Altri miglioramenti
 description: Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/dxy0JMlWXuf--uVuidCL40tbPt24-2nUorrFYMmUhmM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 0%
+source-wordcount: 1532
+ht-degree: 3%
 
 ---
 
-# 20.3 altri miglioramenti
+# 20.3 - Altri miglioramenti
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
@@ -48,7 +62,7 @@ Per gestire facilmente le schede orario con diversi elementi, ora puoi espandere
 
 In precedenza era necessario fare clic su ogni elemento singolarmente.
 
-Per ulteriori informazioni, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Per ulteriori informazioni, consulta [Tempo di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ignora date effettive nei calendari Workfront
 
@@ -135,7 +149,7 @@ Per ulteriori informazioni, vedere [Creare un gruppo](../../../administration-an
 
 Per facilitare l’organizzazione dei gruppi Workfront in base alla gerarchia dell’organizzazione, sono stati aumentati da 3 a 14 i livelli dei sottogruppi che è possibile creare all’interno di un gruppo.
 
-Per ulteriori informazioni, vedere [Panoramica sui gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Per ulteriori informazioni, consulta [Panoramica dei gruppi](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Novità per gli amministratori: nuova barra laterale Configura
 
@@ -162,7 +176,7 @@ Per informazioni sull&#39;area Informazioni cliente, vedere [Configurare le info
 
 ## Codifica Base64 per sottoscrizioni eventi
 
-Il campo base64Encoding è un campo facoltativo utilizzato per abilitare la codifica Base64 dei payload di abbonamento agli eventi. Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti newState e oldState nel payload vengono consegnati come stringhe di codifica Base64. Questa funzione può essere utile se la rete è configurata in modo da non consentire l&#39;utilizzo di caratteri speciali nelle sottoscrizioni di eventi.
+Il campo base64Encoding è facoltativo, utilizzato per abilitare la codifica Base64 dei payload di sottoscrizione agli eventi. Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti newState e oldState nel payload vengono consegnati come stringhe di codifica Base64. Questa funzione può essere utile se la rete è configurata in modo da non consentire l&#39;utilizzo di caratteri speciali nelle sottoscrizioni di eventi.
 
 Per ulteriori informazioni, vedere [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md).
 

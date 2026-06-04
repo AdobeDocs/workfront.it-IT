@@ -1,18 +1,31 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Creare obiettivi di business case
+title: Creare obiettivi del caso di business
 description: Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
 author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+TQID: https://experienceleague.adobe.com/emLd-NhUj2Xo5jI9KSoNxI3YJQjxUu-ObKiew1dOJNY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 2%
+source-wordcount: 434
+ht-degree: 11%
 
 ---
 
-# Creare obiettivi di business case
+# Creare obiettivi del caso di business
 
 <!-- Audited: 6/2025 -->
 
@@ -41,7 +54,7 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +67,7 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
    <td> <p>Prime o versione successiva</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td>
    <td> 
    <p>Standard</p> 
    <p>Piano </p> 
@@ -65,7 +78,7 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p> </td> 
   </tr> 
  </tbody> 

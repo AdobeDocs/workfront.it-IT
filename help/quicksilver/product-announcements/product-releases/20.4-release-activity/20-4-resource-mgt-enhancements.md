@@ -1,19 +1,28 @@
 ---
-title: 20.4 Miglioramenti alla gestione delle risorse
-description: 20.4 Miglioramenti alla gestione delle risorse
+title: 20.4 - Miglioramenti per la gestione delle risorse
+description: 20.4 - Miglioramenti per la gestione delle risorse
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0epzoLYAQGEpKRWCTRDE4-aTFISBr6fFsnZSXtuerd0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 0%
+source-wordcount: 1058
+ht-degree: 1%
 
 ---
 
-# 20.4 Miglioramenti alla gestione delle risorse
+# 20.4 - Miglioramenti per la gestione delle risorse
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 

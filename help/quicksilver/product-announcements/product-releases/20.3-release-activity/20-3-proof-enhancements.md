@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Miglioramenti della bozza
+title: 20.3 - Miglioramenti per le bozze
 description: Questa pagina descrive tutti i miglioramenti apportati all’ambiente di produzione con la versione 20.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L8r3oUDq9ykejDv-K-P-mNaKRhHLawstl9VJ8kdui08
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 371
+ht-degree: 1%
 
 ---
 
-# 20.3 Miglioramenti della bozza
+# 20.3 - Miglioramenti per le bozze
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di produzione con la versione 20.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 

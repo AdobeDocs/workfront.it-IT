@@ -2,20 +2,33 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento,rilascio
 navigation-topic: 2021-2-release-activity
-title: 21.2 Miglioramenti per gli amministratori
+title: 21.2 - Miglioramenti per gli amministratori
 description: Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
 author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+TQID: https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 0%
+source-wordcount: 1552
+ht-degree: 2%
 
 ---
 
-# 21.2 Miglioramenti per gli amministratori
+# 21.2 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 

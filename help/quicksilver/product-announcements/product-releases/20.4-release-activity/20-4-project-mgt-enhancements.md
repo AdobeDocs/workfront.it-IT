@@ -1,19 +1,30 @@
 ---
-title: 20.4 Miglioramenti alla gestione dei progetti
-description: 20.4 Miglioramenti alla gestione dei progetti
+title: 20.4 - Miglioramenti per la gestione dei progetti
+description: 20.4 - Miglioramenti per la gestione dei progetti
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/JEZa2a24AG6-bzIRPgp01mn-f7pywb0Dbzi88zCrCYw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: 1376
+ht-degree: 2%
 
 ---
 
-# 20.4 Miglioramenti alla gestione dei progetti
+# 20.4 - Miglioramenti per la gestione dei progetti
 
 Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
@@ -89,13 +100,13 @@ Per ulteriori informazioni, vedere la sezione &quot;Informazioni sull&#39;associ
 
 Un amministratore di gruppo può gestire con facilità una società associata al proprio gruppo in Workfront. L’accesso per gestire l’azienda è disponibile automaticamente quando viene effettuata l’associazione. Ciò è particolarmente importante quando l’amministratore del gruppo non dispone dell’accesso amministrativo alle aziende.
 
-Per ulteriori informazioni, vedere [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Per ulteriori informazioni, consulta [Creare e modificare le aziende](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 Per informazioni sull&#39;accesso amministrativo alle aziende, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
-## Sostituire il pulsante Lavoraci con un pulsante Start
+## Sostituire il pulsante Lavoraci con un pulsante Avvia
 
 Per acquisire la data e l&#39;ora di inizio effettivo del lavoro su un elemento di lavoro, gli utenti possono sostituire il pulsante Lavoraci con un pulsante di inizio che aggiorna automaticamente lo stato e la data di inizio effettivo dell&#39;elemento di lavoro.
 

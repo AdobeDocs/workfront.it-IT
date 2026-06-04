@@ -7,10 +7,22 @@ description: Questo articolo fornisce un esempio di calcolo della stima al compl
 author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/6I01QrqZfJ-rE0nqDlSBxr0HfPSgFpBVvtQT5Q1cQQ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 1%
+source-wordcount: 2306
+ht-degree: 6%
 
 ---
 
@@ -263,25 +275,25 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>5 ore</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>25 ore</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>25 ore</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 3</p> </td> 
    <td> <p>15 ore</p> </td> 
-   <td> <p>1.500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>25 ore</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
  </tbody> 
@@ -306,26 +318,26 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>Task 1 Exp 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>Attività 1 Scad. 2</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>Scad. attività 2</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 3</p> </td> 
    <td> <p>Scad. attività 3</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -346,13 +358,13 @@ Metodo EAC = Calcola a livello di progetto
  <tbody> 
   <tr> 
    <td> <p>Scad. progetto 1</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
-   <td> <p>1.500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 1 Scad. 2</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,27 +387,27 @@ Metodo EAC = Calcola a livello di progetto
  <tbody> 
   <tr> 
    <td> <p>Attività 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Progetto</p> </td> 
-   <td> <p>3.000,00 $</p> </td> 
-   <td> <p>2.300,00 $</p> </td> 
-   <td> <p> 2.700,00 $ <strong></strong></p> </td> 
+   <td> <p>$3,000.00</p> </td> 
+   <td> <p>$2,300.00</p> </td> 
+   <td> <p> $2,700.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,7 +435,7 @@ Metodo EAC = Calcola a livello di progetto
 
    ELSE CPI_Labor = 1\
    **Manodopera IPC** **per l&#39;attività 1** = 100/2500\
-   **Manodopera CPI** **per l&#39;attività 1** = .04&#x200B;**&#x200B;**&#x200B;**Manodopera EAC &#x200B;**&#x200B;**per l&#39;attività 1**=* IF *Manodopera CPI &lt;> 0* THEN *Manodopera EAC = Costo manodopera pianificata/Manodopera CPI
+   **Manodopera CPI** **per l&#39;attività 1** = .04 **&#x200B;**&#x200B;**Manodopera EAC**&#x200B;**per l&#39;attività 1**= *IF* Manodopera CPI &lt;> 0 *THEN* Manodopera EAC = Costo manodopera pianificata/Manodopera CPI
    * ELSE* Manodopera EAC = Costo manodopera pianificato + Costo manodopera effettivo\
      **Manodopera EAC**&#x200B;**per l&#39;attività 1** = 500.00/.04\
      **Manodopera EAC**&#x200B;**per l&#39;attività 1** = $ 12.500,00\
@@ -439,7 +451,7 @@ Metodo EAC = Calcola a livello di progetto
    Attività 3 = 0,44 / 6.950,00 $
 
 1. **CPI per il progetto** = 0,32 calcolato come segue:\
-   **CPI**&#x200B;**per il progetto** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; per il progetto &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
@@ -462,7 +474,7 @@ Metodo EAC = Calcola a livello di progetto
    **Manodopera IPC**&#x200B;**per il progetto** = .13333\
    **Manodopera IPC**&#x200B;**per il progetto** = 0,13
 
-   **Manodopera EAC**&#x200B;**per il progetto** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC**&#x200B;**&#x200B; per il progetto &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -529,15 +541,15 @@ Metodo EAC = Calcola a livello di progetto
    <td> </td> 
    <td> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>5 ore</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
@@ -545,31 +557,31 @@ Metodo EAC = Calcola a livello di progetto
    <td> </td> 
    <td> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 4</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 5</p> </td> 
    <td> <p>15 ore</p> </td> 
-   <td> <p>1.500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 6</p> </td> 
    <td> <p>20 ore</p> </td> 
-   <td> <p>2.000,00 $</p> </td> 
+   <td> <p>$2,000.00</p> </td> 
    <td> <p>10 ore</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>60%</p> </td> 
   </tr> 
  </tbody> 
@@ -595,20 +607,20 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>Task 1 Exp 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>- $ 400,00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>-$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>Attività 1 Scad. 2</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 1</p> </td> 
    <td> <p>Attività 1 Scad. 3</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +631,26 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>Attività 2 Scad. 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>Attività 2 Scad. 2</p> </td> 
-   <td> <p>- $ 400,00</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>Attività 2 Scad. 3</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
+   <td> <p>-$200.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
    <td> <p>Attività 2 Scad. 4</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +661,8 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 3</p> </td> 
    <td> <p>Scad. attività 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +673,20 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 4</p> </td> 
    <td> <p>Attività 4 Scad. 1</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 4</p> </td> 
    <td> <p>Attività 4 Scad. 2</p> </td> 
-   <td> <p>- $ 100,00</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 4 </p> </td> 
    <td> <p>Attività 4 Scad. 3</p> </td> 
    <td> <p>-200,00</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +697,20 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 5</p> </td> 
    <td> <p>Task 5 Exp 1</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 5</p> </td> 
    <td> <p>Attività 5 Scad. 2</p> </td> 
-   <td> <p>- $ 100,00</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 5</p> </td> 
    <td> <p>Attività 5 Scad. 3</p> </td> 
-   <td> <p>- $ 400,00</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,14 +721,14 @@ Metodo EAC = Calcola a livello di progetto
   <tr> 
    <td> <p>Attività 6</p> </td> 
    <td> <p>Attività 6 Scad. 1</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 6</p> </td> 
    <td> <p>Attività 6 Scad. 2</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>- $ 300,0</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>-$300.0</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -737,13 +749,13 @@ Metodo EAC = Calcola a livello di progetto
  <tbody> 
   <tr> 
    <td> <p>Scad. progetto 1</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
-   <td> <p>1.500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 1 Scad. 2</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
-   <td> <p> 0,00 $ <strong></strong></p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p> $0.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -766,45 +778,45 @@ Metodo EAC = Calcola a livello di progetto
  <tbody> 
   <tr> 
    <td> <p>Attività 1</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 2</p> </td> 
-   <td> <p>- $ 400,00</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>1.300,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$1,300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1.000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 4</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>- $ 100,00</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 5</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>1.100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$1,100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività 6</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Progetto</p> </td> 
-   <td> <p>2.500,00 $</p> </td> 
-   <td> <p>1000,00 $</p> </td> 
-   <td> <p>1.500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$1000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -823,7 +835,7 @@ Metodo EAC = Calcola a livello di progetto
    **Manodopera IPC**&#x200B;**Attività 2** = 100/1000\
    **Manodopera IPC**&#x200B;**Attività 2** = 0,1
 
-   **Manodopera EAC**&#x200B;**Attività 2** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC**&#x200B;**&#x200B; Attività 2 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -831,7 +843,7 @@ Metodo EAC = Calcola a livello di progetto
 
    * ELSE* Manodopera EAC = Costo manodopera pianificato + Costo manodopera effettivo\
      **Manodopera EAC**&#x200B;**Attività 2** = 500.00/.1\
-     **Manodopera EAC**&#x200B;**Attività 2** = $5.000,00 **&#x200B;**&#x200B;**&#x200B; Spese EAC &#x200B;**&#x200B;**Attività 2 &#x200B;**= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+     **Manodopera EAC**&#x200B;**Attività 2** = $5.000,00 **&#x200B;**&#x200B;**Spese EAC &#x200B;**&#x200B;**Attività 2** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
      **Spesa EAC &#x200B;**&#x200B;**Attività 2** = $ 1.300,00 + - $ 400,00\
      **Spese EAC**&#x200B;**Attività 2** = $900,00
 
@@ -845,7 +857,7 @@ Metodo EAC = Calcola a livello di progetto
    Attività 6: 1,06 / 2.366,67 $
 
 1. CPI per il task 3 = 0,31 calcolato come segue:\
-   **CPI**&#x200B;**Attività 3** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Attività 3 &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -854,7 +866,7 @@ Metodo EAC = Calcola a livello di progetto
    * ELSE* CPI = CPI_Labor\
      **CPI**&#x200B;**Attività 3** = (1.150 + 500) / (3000 + 2400)\
      **CPI**&#x200B;**Attività 3** = 1650/5400\
-     **CPI**&#x200B;**Attività 3** = .31 **&#x200B;**&#x200B;**&#x200B; EAC per l&#39;Attività 3 &#x200B;**= $9.521,74 calcolato come segue:\
+     **CPI**&#x200B;**Attività 3** = .31 **&#x200B;**&#x200B;**EAC per l&#39;Attività 3** = $9.521,74 calcolato come segue:\
      **Manodopera IPC &#x200B;**&#x200B;**Attività 3** = SE Costo effettivo manodopera &lt;> 0 THEN
 
    ```
@@ -866,7 +878,7 @@ Metodo EAC = Calcola a livello di progetto
    **Manodopera IPC**&#x200B;**Attività 3** = .383333\
    **Manodopera IPC**&#x200B;**Attività 3** = 0,38
 
-   **Manodopera EAC**&#x200B;**Attività 3** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC**&#x200B;**&#x200B; Attività 3 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -885,7 +897,7 @@ Metodo EAC = Calcola a livello di progetto
    **EAC**&#x200B;**Attività 3** = $ 9.521,74
 
 1. CPI per il task 1 = 0,16 calcolato come segue:\
-   **CPI**&#x200B;**Attività 1** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Attività 1 &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -907,7 +919,7 @@ Metodo EAC = Calcola a livello di progetto
    **Manodopera IPC**&#x200B;**Attività 1** = 1250/5000\
    **Manodopera IPC**&#x200B;**Attività 1** = 0,25
 
-   **Manodopera EAC**&#x200B;**Attività 1** = *IF* CPI_Labor &lt;> 0 *THEN* Manodopera EAC = Costo manodopera pianificato / CPI_Labor
+   **Manodopera EAC**&#x200B;**&#x200B; Attività 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN* Manodopera EAC = Costo manodopera pianificato / CPI_Labor
    * ELSE* Manodopera EAC = Costo manodopera pianificato + Costo manodopera effettivo\
      **Manodopera EAC**&#x200B;**Attività 1** = $3.000,00 / .25\
      **Manodopera EAC**&#x200B;**Attività 1** = $ 12.000,00
@@ -921,7 +933,7 @@ Metodo EAC = Calcola a livello di progetto
    **EAC**&#x200B;**Attività 1** = $ 17.100,00
 
 1. CPI per il progetto: 0,25\
-   **CPI**&#x200B;**per il progetto** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; per il progetto &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -930,7 +942,7 @@ Metodo EAC = Calcola a livello di progetto
    * ELSE* CPI = CPI_Labor
 
    **CPI**&#x200B;**per il progetto** = (2450 + 1900) / (11000 + 6700)\
-   **CPI**&#x200B;**per il progetto** =   4350/17700\
+   **CPI**&#x200B;**per il progetto** = 4350 / 17700\
    **CPI**&#x200B;**per il progetto** = 0,25
 
 1. **EAC per il progetto** = $32.248,98 calcolato come segue:\
@@ -945,7 +957,7 @@ Metodo EAC = Calcola a livello di progetto
    **Manodopera IPC**&#x200B;**per il progetto** = .22272\
    **Manodopera IPC**&#x200B;**per il progetto** = 0,22
 
-   **Manodopera EAC**&#x200B;**per il progetto** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC**&#x200B;**&#x200B; per il progetto &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor

@@ -7,14 +7,23 @@ description: Le linee di base sono istantanee delle prestazioni di un progetto i
 author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+TQID: https://experienceleague.adobe.com/13CHb3M69Q-mVLclm79nRZSa8uoyR1HN9du8EfS05QE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 14%
+source-wordcount: 371
+ht-degree: 16%
 
 ---
 
-# Finanziamenti del progetto inclusi nelle linee di base del progetto
+# Finanze del progetto incluse nelle linee di base del progetto
 
 Le linee di base sono istantanee delle prestazioni di un progetto in un determinato momento. Memorizzano informazioni chiave sul progetto, come date chiave, avanzamento, costi e ricavi.
 
@@ -48,8 +57,8 @@ Le seguenti informazioni finanziarie sul progetto sono accessibili dall&#39;ogge
   Il costo manodopera preventivato per la programmazione delle risorse è il costo manodopera del progetto in base alle ore preventivate per il progetto nella programmazione delle risorse al momento della creazione della previsione.
 
 * Costi fissi
-* Reddito Pianificato
-* Reddito Reale
+* Entrate pianificate
+* Entrate effettive
 * Reddito Fisso Progetto
 * Benef Pian
 * EAC
@@ -66,9 +75,9 @@ Le seguenti informazioni finanziarie sull&#39;attività sono accessibili dall&#3
 * Costo manodopera pianificato
 * Costo di Spesa Reale
 * Costo di Lavoro Reale
-* Tipo Cst
-* Reddito Pianificato
-* Reddito Reale
+* Tipo di costo
+* Entrate pianificate
+* Entrate effettive
 * Tipo di retribuzione attività
 * EAC
 * Costo Pianificato

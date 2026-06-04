@@ -6,11 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: 2611
 ht-degree: 1%
 
 ---
@@ -69,7 +82,7 @@ Per supportare questo sforzo, considera quanto segue:
 
 * **Gestisci il debito, non nasconderlo**: è naturale preoccuparsi dello sforzo necessario per ripulire tassonomie divergenti in un secondo momento. Tuttavia, l&#39;alternativa, ovvero l&#39;imposizione di standard rigorosi troppo presto, spesso spinge i team a tornare ai fogli di calcolo dove i processi (e il debito) rimangono nascosti. Consentendo ai team di iniziare a utilizzare Workfront Planning con le classificazioni correnti, si sposta il debito in un ambiente visibile e gestito. Questo rende l&#39;eventuale riconciliazione un&#39;attività iterativa piuttosto che un singolo progetto di migrazione.
 
-## &#x200B;3. Il modello di governance dell’autonomia guidata
+## &#x200B;3. Il modello di governance dell&#39;autonomia guidata
 
 Puoi definire le corsie sulla strada e i parchi giochi locali (o i predefiniti e i modelli gestiti), lasciando ai team la flessibilità di scegliere il proprio percorso al loro interno.
 
@@ -105,7 +118,7 @@ Di seguito sono riportate le caratteristiche dei parchi giochi locali
 
 * **Regola**: i team possono innovare qui. Se un campo locale viene adottato da più di tre team, può essere promosso a una corsia globale.
 
-## &#x200B;4. Considerate il paradosso della governance: seguiranno team e standard
+## &#x200B;4. Considera il paradosso della governance: seguiranno team e standard
 
 Una sfida comune nella scalabilità di Workfront Planning è decidere quale sia il primo: la governance aziendale o l&#39;allineamento operativo del team.
 
@@ -162,7 +175,7 @@ Per ottenere o gestire come servizio, effettua le seguenti operazioni:
 >
 >Ricorda che la governance deve essere una risposta al successo operativo, non un prerequisito per esso.
 
-## &#x200B;5. Meccaniche di scala per la gestione dei campi
+## &#x200B;5. Meccaniche di ridimensionamento per la gestione dei campi
 
 ### Modello di crescita dei campi basato su pattern
 
@@ -216,7 +229,7 @@ Considera i seguenti aspetti:
 
 * **Risultato**: i team possono visualizzare il contesto aziendale più ampio per l&#39;ispirazione e l&#39;allineamento, ma l&#39;area di lavoro locale rimane pulita e incentrata sulle attività specifiche.
 
-## &#x200B;8. Gestire la crescita attraverso workshop
+## &#x200B;8. Gestione della crescita attraverso workshop
 
 Scalare la pianificazione di Workfront è una sfida tecnica e culturale. Organizza workshop mirati per colmare il divario esistente in materia di governance.
 
@@ -267,7 +280,7 @@ Di seguito sono riportate le idee per i workshop che è possibile organizzare:
 
 * **Risultato**: maggiore fiducia degli utenti, risoluzione più rapida degli attriti tecnici e identificazione di nuovi modelli che potrebbero richiedere una standardizzazione globale.
 
-## &#x200B;9. Personale per la scala: ruoli e responsabilità
+## &#x200B;9. Personale per la scalabilità: ruoli e responsabilità
 
 Il successo di un modello di scalabilità gestito richiede più della semplice configurazione dello strumento. Richiede una chiara distribuzione dei ruoli tra i team Globale e Spoke.
 

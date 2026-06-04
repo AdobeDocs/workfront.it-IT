@@ -1,19 +1,28 @@
 ---
-title: 22.4 Miglioramenti per gli amministratori
-description: 22.4 Miglioramenti per gli amministratori
+title: 22.4 - Miglioramenti per gli amministratori
+description: 22.4 - Miglioramenti per gli amministratori
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 881
+ht-degree: 6%
 
 ---
 
-# 22.4 Miglioramenti per gli amministratori
+# 22.4 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
 
@@ -43,7 +52,7 @@ I modelli di layout esistenti includono automaticamente l’icona Blueprint e gl
 
 Per ulteriori informazioni, vedere [Configurare l&#39;accesso ai blueprint](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personalizzazione intestazione problema
 
@@ -65,7 +74,7 @@ Prima di questa versione, era possibile personalizzare solo le intestazioni di p
 
 Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personalizzazione intestazione attività
 
@@ -83,7 +92,7 @@ Prima di questa versione, era possibile personalizzare solo le intestazioni del 
 
 Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Consenso anticipato per le funzioni più recenti delle bacheche
 
@@ -93,7 +102,7 @@ Solo un amministratore di Workfront può dare il consenso alle funzioni prelimin
 
 Per ulteriori informazioni, consulta [Servizio di opt-in anticipato per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## L’editor di calcolo per i campi modulo personalizzati visualizza le informazioni sull’errore
 
@@ -103,22 +112,22 @@ Per ulteriori informazioni, consulta [Servizio di opt-in anticipato per le sched
 
 La modifica dei calcoli per i campi personalizzati è ora più semplice grazie alle utili informazioni sugli errori indicate direttamente nel calcolo. Durante la creazione di un campo calcolato in un modulo personalizzato, gli errori vengono evidenziati in rosa. Quando passi il cursore del mouse sulla parte evidenziata, viene visualizzata una descrizione per descrivere il problema.
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migrazione ad Adobe Unified Experience
 
 NOTA: questa migrazione è stata posticipata al secondo trimestre del 2023. Tutti i clienti interessati riceveranno una notifica in tale momento.
 
-Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, l’istanza di Workfront verrà migrata all’esperienza unificata Adobe con la versione 22.4.
+Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, l’istanza di Workfront verrà migrata ad Adobe Unified Experience con la versione 22.4.
 
-L’esperienza unificata di Adobe include:
+Adobe Unified Experience include:
 
-* Un singolo accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud
+* un singolo accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud
 
-* Uno &quot;switcher di organizzazione&quot; per spostarsi tra le organizzazioni e gli ambienti Workfront
+* Uno “selettore di organizzazione” per spostarsi tra le organizzazioni e gli ambienti Workfront
 
 * Navigazione con opzioni per pagine Workfront, preferenze Adobe Experience Cloud e il tuo profilo Workfront
 
-Per ulteriori informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Per ulteriori informazioni, consulta [Adobe Unified Experience per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412388/){target=_blank}

@@ -6,14 +6,27 @@ description: Puoi associare una gravità ai problemi in Adobe Workfront. Le atti
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+TQID: https://experienceleague.adobe.com/hCdHoVk8zifdqubztSQ7e-q5HLULEeRx7dugBNFqEQs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: 287
+ht-degree: 19%
 
 ---
 
-# Aggiorna gravità problema
+# Aggiornare la gravità del problema
 
 <!--Audited: 08/2025-->
 
@@ -34,7 +47,7 @@ Puoi aggiornare la gravità dei problemi nelle seguenti aree di Workfront:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,26 +58,26 @@ Puoi aggiornare la gravità dei problemi nelle seguenti aree di Workfront:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td><p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per il problema</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aggiorna gravità problema
+## Aggiornare la gravità del problema
 
 Per aggiornare la gravità di un problema nell’area Dettagli problema di un problema:
 

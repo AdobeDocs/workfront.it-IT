@@ -2,14 +2,25 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Panoramica di Portfolio Optimizer
+title: Panoramica di ottimizzatore portfolio
 description: '[!UICONTROL Portfolio Optimizer] è lo strumento utilizzato per la valutazione e il confronto dei progetti. Il processo di revisione e confronto dei valori di Business Case per i progetti assegnati a un portfolio è il modo in cui un gestore di portfolio può dare priorità ai progetti e generare il massimo valore per un''organizzazione.'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: 1648
 ht-degree: 0%
 
 ---
@@ -53,7 +64,7 @@ Quando si lavora con i dati finanziari in [!UICONTROL Portfolio Optimizer], tene
 * **[!UICONTROL Portfolio Finances for Selected Projects]**: in quest&#39;area vengono visualizzate le informazioni finanziarie raccolte dai progetti selezionati in [!UICONTROL Portfolio Optimizer]. È possibile aggiungere o rimuovere progetti e capire in che modo questo influirà sulle finanze del portfolio visualizzando le informazioni in quest’area.
 * **[!UICONTROL Finanza progetti]**: in quest&#39;area vengono visualizzate le informazioni finanziarie di ogni progetto elencato in [!UICONTROL Portfolio Optimizer].
 
-### Campi finanziari in [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
+### Campi finanziari in [!UICONTROL Portfolio Optimizer]  {#the-financial-fields-in-the-portfolio-optimizer}
 
 I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimizer]:
 
@@ -117,7 +128,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
    <td>[!UICONTROL Numero di progetti]</td> 
    <td> <p>Numero totale di progetti attivi nel portfolio. I progetti considerati attivi in un portfolio possono trovarsi in uno dei seguenti stati:</p> 
     <ul> 
-     <li>[!UICONTROL corrente]</li> 
+     <li>[!UICONTROL Corrente]</li> 
      <li>[!UICONTROL Planning]</li> 
      <li>[!UICONTROL approvato]</li> 
     </ul> </td> 
@@ -135,7 +146,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
    <td> <p>Somma dei costi di tutti i progetti visualizzati in [!UICONTROL Portfolio Optimizer]. Il costo di ciascun progetto è uguale al costo preventivato del progetto visualizzato in [!UICONTROL Business Case Summary]. </p> <p>Per ulteriori informazioni sui campi finanziari dei progetti in [!UICONTROL Business Case], vedere la sezione "Informazioni sui campi finanziari nel Business Case" nell'articolo <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Creare un Business Case per un progetto</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Risk] </td> 
+   <td>[!UICONTROL Rischio] </td> 
    <td> <p>La somma di tutti i [!UICONTROL Costi di rischio potenziale] di tutti i progetti inclusi nel portfolio. Il [!UICONTROL Potential Risk Cost] di ciascun progetto è elencato nella colonna [!UICONTROL Risk] del [!UICONTROL Portfolio Optimizer]. </p> <p>Per ulteriori informazioni sul calcolo dei rischi per i progetti, vedere l'articolo <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calcolare il costo del rischio potenziale</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -179,7 +190,7 @@ Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Portfolio Optimi
     <ul>
      <li>[!UICONTROL Costo]</li>
      <li>[!UICONTROL Alignment]</li>
-     <li>Valore </li>
+     <li>[!UICONTROL Valore]</li>
      <li>[!UICONTROL Rischio per il Beneficio]</li>
      <li>[!UICONTROL ROI]</li>
     </ul><p>Per ulteriori informazioni sull'ottimizzazione del portfolio, vedere l'articolo <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Ottimizzare i progetti in [!UICONTROL Portfolio Optimizer]</a>.</p></td> 

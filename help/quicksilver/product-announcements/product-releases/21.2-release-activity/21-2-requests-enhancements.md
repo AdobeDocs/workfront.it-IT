@@ -2,20 +2,27 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento,rilascio
 navigation-topic: 2021-2-release-activity
-title: 21.2 Richieste di miglioramenti
+title: 21.2 - Miglioramenti per le richieste
 description: Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/75UJsTlD3ZTmZV3owwnoIuPTP89VkL-zN2YRm2Vjq1U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 0%
+source-wordcount: 1131
+ht-degree: 8%
 
 ---
 
-# 21.2 Richieste di miglioramenti
+# 21.2 - Miglioramenti per le richieste
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta la [panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -42,7 +49,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 >
 >Disponibile solo nella nuova esperienza Adobe Workfront.
 
-Continuando a integrare il tuo feedback sulla creazione di richieste nella nuova esperienza di Workfront, abbiamo apportato diversi miglioramenti al nuovo flusso di lavoro delle richieste. Tra questi:
+Continuando a integrare il tuo feedback sulla creazione di richieste nella nuova esperienza di Workfront, abbiamo apportato diversi miglioramenti al nuovo flusso di lavoro delle richieste. Comprendono:
 
 * Indicare chiaramente con un&#39;icona Mostra opzioni che i campi per Tipi di richiesta, Gruppi di argomenti e Argomenti coda sono elenchi a discesa dai quali è possibile scegliere un&#39;opzione definita in precedenza.
 * Indica chiaramente con un’icona &quot;x&quot; che una scelta per Tipo di richiesta, Gruppo di argomenti o Argomento coda può essere rimossa dopo la selezione.

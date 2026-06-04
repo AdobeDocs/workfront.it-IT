@@ -1,19 +1,29 @@
 ---
-title: 21.3 Miglioramenti alla gestione delle risorse
-description: 21.3 Miglioramenti alla gestione delle risorse
+title: 21.3 - Miglioramenti per la gestione delle risorse
+description: 21.3 - Miglioramenti per la gestione delle risorse
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d665f71d-3d17-4c5b-93a3-93b11a81af19
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/9B33YWodBDdvOFRHGEwWrteFy5TuRUiveG6B8hDRddM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 0%
+source-wordcount: 196
+ht-degree: 6%
 
 ---
 
-# 21.3 Miglioramenti alla gestione delle risorse
+# 21.3 - Miglioramenti per la gestione delle risorse
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 

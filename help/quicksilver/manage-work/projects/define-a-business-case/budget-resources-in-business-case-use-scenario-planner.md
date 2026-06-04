@@ -5,9 +5,23 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/p-Qe4oRj4T4e6QKtFs9eRWHTrhIMIM7zvJ6SzYI0sXU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: 961
 ht-degree: 7%
 
 ---
@@ -26,7 +40,7 @@ Per ulteriori informazioni sulla creazione di un caso di business, vedere [Crear
 
 È inoltre possibile preventivare le risorse nel business case utilizzando la pianificazione risorse. Per ulteriori informazioni vedi quanto segue:
 
-* [Risorse budget nel Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+* [Risorse budget nel caso di business](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
 
 >[!NOTE]

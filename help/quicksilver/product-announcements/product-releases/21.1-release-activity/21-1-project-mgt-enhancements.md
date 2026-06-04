@@ -2,20 +2,29 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento
 navigation-topic: product-releases
-title: 21.1 Miglioramenti alla gestione dei progetti
+title: 21.1 Miglioramenti per la gestione dei progetti
 description: Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/jOE1oLgVpzfmYDzfK4rCJTbjD-dl1RGcn9suthS5N-E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: 998
+ht-degree: 6%
 
 ---
 
-# 21.1 Miglioramenti alla gestione dei progetti
+# 21.1 Miglioramenti per la gestione dei progetti
 
 Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
@@ -60,7 +69,7 @@ I campi Nuovi problemi seguenti vengono visualizzati solo quando si crea un prob
 * Data di inizio pianificata
 * URL
 * Assegnato a
-* Ruolo
+* Mansione
 * Team
 
 I campi Assegnato a, Mansione e Team sono stati sostituiti con il nuovo campo Assegnazioni nella pagina Nuova richiesta, per designare in modo efficiente un utente, una mansione o un team in un campo comune durante l’invio di una nuova richiesta.
@@ -115,4 +124,4 @@ In precedenza, le informazioni per le deleghe di approvazione di attività, prob
 * Quale utente ha delegato queste approvazioni
 * La data di inizio e di fine di tali deleghe
 
-Per ulteriori informazioni, vedere [Creare un report di delega utenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+Per ulteriori informazioni, consulta [Creare un rapporto di delega utenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

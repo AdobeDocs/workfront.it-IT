@@ -7,14 +7,23 @@ description: Il tipo di aggiornamento di un progetto indica il modo in cui Adobe
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+TQID: https://experienceleague.adobe.com/bLY-ljw7HxR2kXRpi9jzMkSKbGSKhDrvzogvK5-wZ90
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 520
 ht-degree: 0%
 
 ---
 
-# Panoramica del tipo di aggiornamento del progetto
+# Panoramica sul tipo di aggiornamento del progetto
 
 Il tipo di aggiornamento di un progetto indica il modo in cui Adobe Workfront calcola la timeline di un progetto. Le modifiche apportate al piano di progetto potrebbero determinare modifiche nella sequenza temporale del progetto. La timeline del progetto deve essere ricalcolata automaticamente o manualmente per garantire che sia aggiornata con queste modifiche.
 

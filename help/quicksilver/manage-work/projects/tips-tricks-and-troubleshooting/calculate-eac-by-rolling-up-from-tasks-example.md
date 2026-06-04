@@ -7,10 +7,22 @@ description: Questo articolo fornisce un esempio di calcolo della stima al compl
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 2%
+source-wordcount: 1155
+ht-degree: 5%
 
 ---
 
@@ -294,25 +306,25 @@ Metodo EAC = Rollup da attività/sottoattività
    <tr> 
       <td> <p>Attività 1</p> </td> 
       <td> <p>5 ore</p> </td> 
-      <td> <p>500,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
       <td> <p>25 ore</p> </td> 
-      <td> <p>2.500,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>20%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 2</p> </td> 
       <td> <p>10 ore</p> </td> 
-      <td> <p>1.000,00 $</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
       <td> <p>25 ore</p> </td> 
-      <td> <p>2.500,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>30%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 3</p> </td> 
       <td> <p>15 ore</p> </td> 
-      <td> <p>1.500,00 $</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
       <td> <p>25 ore</p> </td> 
-      <td> <p>2.500,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>40%</p> </td> 
    </tr> 
    </tbody> 
@@ -337,26 +349,26 @@ Metodo EAC = Rollup da attività/sottoattività
    <tr> 
       <td> <p>Attività 1</p> </td> 
       <td> <p>Task 1 Exp 1</p> </td> 
-      <td> <p>300,00 $</p> </td> 
-      <td> <p>400,00 $</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 1</p> </td> 
       <td> <p>Attività 1 Scad. 2</p> </td> 
-      <td> <p>500,00 $</p> </td> 
-      <td> <p>0,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 2</p> </td> 
       <td> <p>Scad. attività 2</p> </td> 
-      <td> <p>200,00 $</p> </td> 
-      <td> <p>100,00 $</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 3</p> </td> 
       <td> <p>Scad. attività 3</p> </td> 
-      <td> <p>800,00 $</p> </td> 
-      <td> <p>700,00 $</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -377,13 +389,13 @@ Metodo EAC = Rollup da attività/sottoattività
    <tbody> 
    <tr> 
       <td> <p>Scad. progetto 1</p> </td> 
-      <td> <p>1.000,00 $</p> </td> 
-      <td> <p>1.500,00 $</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 1 Scad. 2</p> </td> 
-      <td> <p>2.500,00 $</p> </td> 
-      <td> <p>0,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -406,34 +418,34 @@ Metodo EAC = Rollup da attività/sottoattività
    <tbody> 
    <tr> 
       <td> <p>Attività 1</p> </td> 
-      <td> <p>500,00 $</p> </td> 
-      <td> <p>300,00 $</p> </td> 
-      <td> <p>400,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 2</p> </td> 
-      <td> <p>0,00 $</p> </td> 
-      <td> <p>200,00 $</p> </td> 
-      <td> <p>100,00 $</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Attività 3</p> </td> 
-      <td> <p>0,00 $</p> </td> 
-      <td> <p>800,00 $</p> </td> 
-      <td> <p>700,00 $</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Progetto</p> </td> 
-      <td> <p>3.000,00 $</p> </td> 
-      <td> <p>2.300,00 $</p> </td> 
-      <td> <p>2.700,00 $</p> </td> 
+      <td> <p>$3,000.00</p> </td> 
+      <td> <p>$2,300.00</p> </td> 
+      <td> <p>$2,700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 1. Da Azioni progetto, eseguire Ricalcola dati finanziari
 1. **CPI**&#x200B;**per l&#39;attività 1** = 0,14 calcolato come segue:\
-   **CPI**&#x200B;**per l&#39;attività 1** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; per l&#39;attività 1 &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -455,7 +467,7 @@ Metodo EAC = Rollup da attività/sottoattività
    **Manodopera IPC**&#x200B;**per l&#39;attività 1** = 100/2500\
    **Manodopera IPC**&#x200B;**per l&#39;attività 1** = 0,04
 
-   **Manodopera EAC**&#x200B;**per l&#39;attività 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC**&#x200B;**&#x200B; per l&#39;attività 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -478,7 +490,7 @@ Metodo EAC = Rollup da attività/sottoattività
    Attività 3 = 0,44 / 6.950,00 $**&#x200B;**
 
 1. CPI per il progetto = 0,32\
-   **CPI**&#x200B;**per il progetto** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; per il progetto &#x200B;** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)

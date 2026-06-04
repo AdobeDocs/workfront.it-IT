@@ -1,19 +1,24 @@
 ---
-title: 21.3 Altri miglioramenti
-description: 21.3 Altri miglioramenti
+title: 21.3 - Altri miglioramenti
+description: 21.3 - Altri miglioramenti
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/W7A3QX4u4LTn5u24dqi9lUt7PoSbr3X67QF5fowdCMc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: 274
+ht-degree: 16%
 
 ---
 
-# 21.3 Altri miglioramenti
+# 21.3 - Altri miglioramenti
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
@@ -42,6 +47,6 @@ I seguenti articoli verranno aggiornati al rilascio dell’app negli app store:
 >
 >Questa funzione è stata rilasciata nell’ambiente di anteprima il 20 maggio 2021. Verrà rilasciato nell’ambiente di produzione il 3 giugno 2021.
 
-I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per gli abbonamenti può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare.
+I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro della sottoscrizione a eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per le sottoscrizioni può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare.
 
 Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md) e [Domande frequenti - Sottoscrizioni eventi](../../../wf-api/general/event-subs-faq.md).

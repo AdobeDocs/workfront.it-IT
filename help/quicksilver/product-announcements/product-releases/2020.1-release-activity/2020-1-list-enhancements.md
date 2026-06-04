@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Miglioramenti all’elenco 2020.1
+title: 2020.1 - Miglioramenti per gli elenchi
 description: Questa pagina descrive tutti i miglioramenti apportati agli Elenchi con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efe05da7-ec25-4fbd-a7f9-645364d3e2a8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/z0JBeUHKkpRiFG4QCOD9zpV0Y1WK7y5SBUcl6BLBRKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 882
 ht-degree: 0%
 
 ---
 
-# Miglioramenti all’elenco 2020.1
+# 2020.1 - Miglioramenti per gli elenchi
 
 Questa pagina descrive tutti i miglioramenti apportati agli Elenchi con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 

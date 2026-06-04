@@ -1,19 +1,26 @@
 ---
-title: 21.4 Richieste di miglioramenti
-description: 21.4 Richieste di miglioramenti
+title: 21.4 - Miglioramenti per le richieste
+description: 21.4 - Miglioramenti per le richieste
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/MK-VCsd-2iw8fkjOnEZyqbGrDGhqzwzVAG4DLpA9oEk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: 209
+ht-degree: 4%
 
 ---
 
-# 21.4 Richieste di miglioramenti
+# 21.4 - Miglioramenti per le richieste
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 

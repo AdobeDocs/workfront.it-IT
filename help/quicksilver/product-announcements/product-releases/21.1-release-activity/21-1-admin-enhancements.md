@@ -8,12 +8,25 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 2%
+source-wordcount: 1397
+ht-degree: 4%
 
 ---
 
@@ -91,16 +104,16 @@ Questa opzione viene visualizzata solo se il campo contiene più di 2 caselle di
 
 Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modulo personalizzato](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-## Configurare il Workfront di e-mail di inserire nell&#39;elenco Consentiti
+## Configurare l’Workfront di e-mail di inserire nell&#39;elenco Consentiti
 
-Per una migliore protezione dei dati, ora puoi utilizzare un dominio e-mail in modo che si inserisca nell&#39;elenco Consentiti a:
+Per una migliore protezione dei dati, ora puoi utilizzare un elenco Consentiti di dominio e-mail per eseguire le seguenti operazioni:
 
 * Controlla dove possono andare le e-mail di Workfront se contengono rapporti o documenti memorizzati in Workfront
 * I domini e-mail di controllo possono trovarsi nell’indirizzo e-mail che gli utenti possono specificare nel loro profilo utente
 
-Ad esempio, se desideri proteggere i dati sensibili, ad esempio un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell&#39;elenco Consentiti di gestione delle e-mail solo il dominio o i domini e-mail interni. In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.
+Ad esempio, se desideri proteggere i dati sensibili, come un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell&#39;elenco Consentiti di selezione dell’e-mail solo il dominio o i domini e-mail interni In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.
 
-Per ulteriori informazioni, vedere la sezione [Configurare il inserisco nell&#39;elenco Consentiti di  del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di  del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere la sezione [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Assegnare un amministratore di gruppo a un sottogruppo
 

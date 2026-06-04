@@ -7,10 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3695'
-ht-degree: 0%
+source-wordcount: 3852
+ht-degree: 1%
 
 ---
 
@@ -51,7 +70,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -100,7 +119,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -153,7 +172,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -199,7 +218,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -216,7 +235,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -241,7 +260,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -266,7 +285,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -296,7 +315,7 @@ La maggior parte delle nuove funzioni viene fornita in Workfront Scenario Planne
 
 La maggior parte delle nuove funzioni arriva alla versione degli Obiettivi di Workfront con la versione 20.4. Per informazioni su queste nuove funzioni ora disponibili in Anteprima, vedi [Obiettivi di Workfront con la versione 20.4](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md).
 
-## Miglioramenti apportati a Workfront Fusion
+## Miglioramenti di Workfront Fusion
 
 Le nuove funzioni di Workfront Fusion sono disponibili in produzione ad una cadenza al di fuori della pianificazione della versione 20.4. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
@@ -324,12 +343,12 @@ Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni 
 
 Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 20.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Notifiche
+## Annunci
 
 * [Obsolescenza Flash](#flash-deprecation)
 * Webinar sulla versione di [20.4](#20-4-release-webinar)
 * [Modifica nella cadenza di rilascio dell&#39;anteprima](#change-in-preview-release-cadence)
-* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi necessari per accedere a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi richiesto per l&#39;accesso a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 
 ### Obsolescenza Flash {#flash-deprecation}
@@ -342,7 +361,7 @@ Tutti gli strumenti basati su Flash verranno rimossi da tutti i prodotti il 19 n
 
 ### Webinar sulla versione 20.4 {#20-4-release-webinar}
 
-Il webinar sulla versione di Workfront 20.4 verrà presentato mercoledì 28 ottobre 2020 alle 11:00 EDT. Registrati al webinar [qui](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+Il webinar sulla versione di Workfront 20.4 verrà presentato mercoledì 28 ottobre 2020 alle 11:00 AM EDT. Registrati al webinar [qui](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Modifica della frequenza di rilascio dell’anteprima {#change-in-preview-release-cadence}
 
@@ -350,14 +369,14 @@ A partire dal 20 maggio 2020, Workfront ha iniziato a rendere disponibili funzio
 
 Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home)
 
-### È richiesto il Elenco Consentiti di domini aggiuntivi per accedere a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### È richiesta la Inserisce nell&#39;elenco Consentiti di domini aggiuntivi per l’accesso a Workfront da parte di un’istanza di {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di gestione dei:
+Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso:
 
 * event.split.io
 * sdk.split.io
 
-Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 

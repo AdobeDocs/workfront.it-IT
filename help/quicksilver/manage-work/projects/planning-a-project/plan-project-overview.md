@@ -7,14 +7,23 @@ description: Gli articoli seguenti contengono informazioni sui progetti, sul Tea
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+TQID: https://experienceleague.adobe.com/-9LnyWSk5gBuuWAYDL2lmghIBpEx52Ry13-4sC3MMOg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 12%
 
 ---
 
-# Pianificare un progetto: indice articolo
+# Pianificare un progetto: indice degli articoli
 
 <!-- Audited: 4/2025 -->
 
@@ -38,4 +47,4 @@ Per informazioni sul progetto, sul team del progetto e su come pianificare un pr
 * [Panoramica sullo stato di avanzamento del progetto](../../../manage-work/projects/planning-a-project/project-progress-status.md)
 * [Imposta la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Panoramica della data di inizio prevista del progetto](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)
-* [Panoramica della data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* [Panoramica sulla data di completamento prevista per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
