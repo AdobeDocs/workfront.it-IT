@@ -1,20 +1,25 @@
 ---
-title: Miglioramenti al documento e alla bozza nel quarto trimestre 2025
-description: Miglioramenti al documento e alla bozza nel quarto trimestre 2025
+title: Miglioramenti a documenti e bozze del quarto trimestre 2025
+description: Miglioramenti a documenti e bozze del quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+TQID: https://experienceleague.adobe.com/VN4tRX-3cRp4tw2AGMalQndJtum3FJStsuV6oT-CxGk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 0%
+source-wordcount: 401
+ht-degree: 12%
 
 ---
 
-# Miglioramenti al documento e alla bozza nel quarto trimestre 2025
+# Miglioramenti a documenti e bozze del quarto trimestre 2025
 
-Questa pagina descrive i miglioramenti relativi a documenti e bozze apportati con la versione del quarto trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti relativi a documenti e bozze apportati con la versione del quarto trimestre 2025 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
@@ -63,7 +68,7 @@ Questa funzione è attualmente in versione beta.
 
 Siamo entusiasti di annunciare una nuova integrazione tra Adobe Express e Workfront Proof.
 
-Con questa integrazione, puoi
+Con questa nuova integrazione puoi:
 
 * Semplificazione della collaborazione tra team creativi, legali e di conformità per ridurre i tempi di pubblicazione, mantenendo al contempo la supervisione
 
@@ -77,4 +82,4 @@ Con questa integrazione, puoi
 
 Nota: il team di prodotto Adobe deve abilitare l’integrazione per i tuoi account.
 
-Per ulteriori informazioni, vedere [Introduzione all&#39;integrazione di Adobe Express e Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Per ulteriori informazioni, consulta [Introduzione all’integrazione di Adobe Express e Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).

@@ -7,14 +7,17 @@ description: Questa pagina descrive tutti i miglioramenti apportati con la versi
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 2397339a-7a78-41ee-8882-0606309e356c
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+TQID: https://experienceleague.adobe.com/i-U6B9h7BqNT-I8ZvUlwTltW3i1J1olWb6-fqv1eKJc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 0%
+source-wordcount: 190
+ht-degree: 5%
 
 ---
 
-# Attività di rilascio Adobe Workfront Goals 23.2: settimana del 20 marzo 2023
+# Attività sulla versione 23.2 di Obiettivi di Adobe Workfront: settimana del 20 marzo 2023
 
 Questa pagina descrive tutti i miglioramenti apportati con la versione 23.2 di Obiettivi di Adobe Workfront all’ambiente di anteprima il 20 marzo 2023.
 

@@ -8,10 +8,14 @@ description: Basecamp è uno dei principali strumenti di collaborazione e gestio
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8794a76a-c782-4038-9680-73e72697b21d
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: 317
+ht-degree: 1%
 
 ---
 
@@ -25,14 +29,14 @@ ht-degree: 0%
 
 L&#39;integrazione di [!DNL Workfront Proof] con [!DNL Basecamp] consente di migliorare significativamente la revisione e l&#39;approvazione delle risorse creative in [!DNL Basecamp] abilitando la funzionalità di verifica online direttamente nell&#39;account [!DNL Basecamp]. Quando si creano le bozze nell&#39;account [!DNL Workfront Proof] è possibile collegarle a un progetto in [!DNL Basecamp]. I revisori potranno utilizzare gli strumenti avanzati di commento e markup di [!DNL Workfront Proof] e prendere decisioni direttamente all&#39;interno di [!DNL Basecamp]. [!DNL Workfront Proof] consente di velocizzare la consegna dei progetti creativi, ridurre il tempo dedicato alla gestione delle approvazioni e ridurre il numero di revisioni di progettazione.
 
-## Vantaggi principali
+## Vantaggi chiave
 
 * **Risparmio di tempo:** tieni traccia facilmente dello stato di commenti, feedback e decisioni.
 * **Velocità di commercializzazione più rapida:** distribuire i progetti di progettazione più rapidamente con cicli di revisione più brevi e meno revisioni.
 * **Riduci costi:** Riduci il tempo dedicato alla gestione delle revisioni e alla rielaborazione delle progettazioni.
 * **Responsabilità completa:** Conserva un record completo di tutti i commenti e le decisioni con marca temporale, archiviati e organizzati in un audit trail tracciabile.
 
-## Funzioni principali
+## Funzioni chiave
 
 * Accedere e rivedere la bozza tramite il messaggio [!DNL Basecamp].
 * Collega le bozze in [!DNL Workfront Proof] direttamente ai tuoi progetti [!DNL Basecamp].

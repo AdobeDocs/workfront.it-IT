@@ -6,10 +6,14 @@ description: Le notifiche seguenti ti avvisano delle attività che si verificano
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 0%
+source-wordcount: 1516
+ht-degree: 1%
 
 ---
 
@@ -35,7 +39,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  <tbody> 
   <tr> 
    <td> <p><strong>Un documento è stato aggiunto a un progetto al quale collaboro</strong> </p> <p>I membri di un team di progetto ricevono una notifica e-mail quando un documento viene aggiunto al progetto, ad eccezione dell’utente che lo ha aggiunto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current] e il documento non è Private.</p> <p>L'oggetto dell'e-mail di notifica immediata è <em>[!UICONTROL Documento aggiunto a] &lt;Nome progetto&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è <em>[!UICONTROL Digest of Projects You're On] &lt;Data di riepilogo giornaliero&gt;</em></p> </td> 
-   <td> Nome progetto<br>Nome Portfolio<br>Numero di riferimento documento<br>Nome dell'utente che ha aggiunto il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!UICONTROL Anteprima]</strong> e <strong>[!UICONTROL Download]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti aggiunti<br>*Nome documento<br>*Nome dell'utente che ha caricato il documento<br>*Data digest<br> </td> 
+   <td> Nome progetto<br>Nome Portfolio<br>Numero di riferimento documento<br>Nome dell'utente che ha aggiunto il documento<br>Nome documento<br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!Anteprima UICONTROL]</strong> e <strong>[!Download UICONTROL]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti aggiunti<br>*Nome documento<br>*Nome dell'utente che ha caricato il documento<br>*Data digest <br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
@@ -45,7 +49,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Un progetto a cui partecipo diventa attivo</strong> </p> <p>I membri di un team di progetto ricevono una notifica e-mail quando lo stato del progetto è impostato su [!UICONTROL Current].</p> <p>Nota: gli utenti devono essere elencati nella scheda Gestione del personale di un progetto per ricevere una notifica quando lo stato di un progetto è impostato su [!UICONTROL Current]. Per informazioni sull'aggiunta di utenti a un team di progetto, vedere <a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gestione del team di progetto</a>.</p> <p>L'oggetto dell'e-mail di notifica immediata è <em>&lt;Nome progetto&gt; [!UICONTROL è Corrente - Accedi al progetto e visualizza le attività!]</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è <em> [!UICONTROL Digest of Projects You're On] &lt;Data di riepilogo giornaliero&gt; </em></p> </td> 
-   <td> <p>Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Stato progetto<br>Progetto [!UICONTROL Data di completamento pianificata]<br>Proprietario progetto<br>Elenco di attività assegnate a te, a una delle tue mansioni o a uno dei tuoi team<br><strong>[!UICONTROL Vedi ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data riepilogo giornaliera</p> </td> 
+   <td> <p>Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Stato progetto<br>Progetto [!UICONTROL Data di completamento pianificata]<br>Proprietario progetto<br>Elenco di attività assegnate a te, a una delle tue mansioni o a uno dei tuoi team<br><strong>[!UICONTROL Vedi ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data riepilogo giornaliera</p> </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -55,7 +59,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Un progetto al quale collaboro è stato completato</strong> </p> <p>I membri di un team di progetto ricevono una notifica e-mail quando lo stato del progetto è [!UICONTROL Complete].</p> <p>Suggerimento: se i progetti vengono completati regolarmente, l’abilitazione di questa opzione può creare molti messaggi e-mail per gli utenti che hanno un numero limitato di attività su molti progetti.</p> <p>L'oggetto dell'e-mail di notifica immediata è <em>[!UICONTROL Project Status Change]: &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è <em> [!UICONTROL Digest of Projects You're On] &lt;Data di riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ha completato il progetto<br>Stato progetto<br>Data e ora di completamento del progetto<br>Stato progetto precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data del riepilogo giornaliero<br></td> 
+   <td> Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ha completato il progetto<br>Stato progetto<br>Data e ora di completamento del progetto<br>Stato progetto precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data del riepilogo giornaliero<br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
@@ -80,12 +84,12 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Sono stato aggiunto a un progetto</strong> </p> <p>L’utente che è stato aggiunto al progetto riceve una notifica e-mail quando viene aggiunto, a meno che non si sia aggiunto al progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current].</p> <p>L'oggetto dell'e-mail di notifica immediata è <em>[!UICONTROL Sei stato aggiunto al progetto] &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è <em> [!UICONTROL Digest of Projects You're On] &lt;Data di riepilogo giornaliero&gt; </em></p> </td> 
-   <td> <p>Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ti ha aggiunto al progetto<br>Progetto [!UICONTROL Data inizio pianificata]<br>Progetto [!UICONTROL Data completamento pianificata]<br>Percentuale progetto completata<br>Nomi di altri utenti nel progetto <br>Proprietario progetto<br><strong>Ulteriori dettagli</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Data riepilogo giornaliera</p> </td> 
+   <td> <p>Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ti ha aggiunto al progetto<br>Progetto [!UICONTROL Data inizio pianificata]<br>Progetto [!UICONTROL Data completamento pianificata]<br>Percentuale progetto completata<br>Nomi di altri utenti nel progetto <br>Proprietario progetto<br><strong>Ulteriori dettagli</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Data riepilogo giornaliera</p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Le modifiche di stato su un progetto al quale collaboro</strong> </p> <p>I membri di un team di progetto ricevono una notifica e-mail quando lo stato del progetto cambia. <br>Per ulteriori informazioni sul team del progetto, vedere <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Panoramica del team del progetto</a>.</p> <p>L'oggetto dell'e-mail di notifica immediata è <em>[!UICONTROL Project Status Change]: &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è <em> [!UICONTROL Digest of Projects You're On] &lt;Data di riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ha modificato lo stato del progetto<br>Nuovo stato progetto<br>Data e ora di modifica dello stato del progetto<br>Stato progetto precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data riepilogo giornaliero </td> 
+   <td> Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Nome dell'utente che ha modificato lo stato del progetto<br>Nuovo stato progetto<br>Data e ora di modifica dello stato del progetto<br>Stato progetto precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato progetto<br>*Data riepilogo giornaliero </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
  </tbody> 

@@ -3,15 +3,19 @@ filename: api-changes-search
 content-type: api
 keywords: oggetto,stato,ricerca,best,procedure,risposta
 navigation-topic: api-navigation-topic
-title: "Modifiche API di base: risposte alla ricerca di stato"
+title: 'Modifiche API di base: risposte alla ricerca di stato'
 description: Modifiche nel modo in cui Workfront memorizza gli oggetti di stato.
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 452
+ht-degree: 4%
 
 ---
 

@@ -7,9 +7,13 @@ description: Puoi tenere traccia dell’avanzamento delle bozze del flusso di la
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
@@ -79,15 +83,15 @@ Le fasi del diagramma sono contrassegnate come segue:
 ![dot.png](assets/dot.png)- una fase attiva
 
 ![gray_dot.png](assets/grey-dot.png)- fase inattiva\
-![sbw-key-icon.png](assets/sbw-key-icon.png)  - una fase privata
+![sbw-key-icon.png](assets/sbw-key-icon.png) - una fase privata
 
-![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - una fase bloccata
+![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) - una fase bloccata
 
 Le linee tra le fasi rappresentano le dipendenze tra le fasi. Le linee che conducono agli stadi inattivi vengono tratteggiate fino all&#39;attivazione dello stadio.
 
 Passando il puntatore del mouse su una fase del diagramma verrà visualizzato lo stato di avanzamento della fase. Se la fase non è attiva e si dispone dei diritti di modifica sulla fase, sarà possibile avviare la fase dalla finestra popup utilizzando il pulsante [!UICONTROL Avvia fase]. Analogamente, viene visualizzata l&#39;opzione Blocca una fase attiva.
 
-Per ulteriori informazioni sulla barra di avanzamento, vedere  [Visualizza stato e avanzamento di una bozza in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Per ulteriori informazioni sulla barra di avanzamento, vedere [Visualizzare l&#39;avanzamento e lo stato di una bozza in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![Diagramma_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 

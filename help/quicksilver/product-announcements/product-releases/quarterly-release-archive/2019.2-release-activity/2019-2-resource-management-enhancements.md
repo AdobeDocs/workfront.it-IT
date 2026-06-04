@@ -1,26 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Miglioramenti alla gestione delle risorse 2019.2
+title: Miglioramenti per la gestione delle risorse 2019.2
 description: Questa pagina descrive tutti i miglioramenti alla gestione delle risorse inclusi nella versione 2019.2 di. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/GCxuDsSmsYlbavqYqQz-rSiADL2bKfwfA55BU1fCiD4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: 518
+ht-degree: 3%
 
 ---
 
-# Miglioramenti alla gestione delle risorse 2019.2
+# Miglioramenti per la gestione delle risorse 2019.2
 
 Questa pagina descrive tutti i miglioramenti alla gestione delle risorse inclusi nella versione 2019.2 di. La funzionalità sarà disponibile nell’ambiente di produzione la settimana del 20 maggio 2019.
 
 Per un elenco di tutte le modifiche apportate in 2019.2, consulta [Panoramica delle attività sulla versione 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Visualizzare la priorità del Portfolio nella programmazione delle risorse
+## Visualizzare la priorità di Portfolio nella Programmazione delle risorse
 
 Ora nella Programmazione delle risorse puoi abilitare un&#39;impostazione che ti consenta di visualizzare la priorità del progetto in base al portfolio a cui è assegnato. La priorità del portfolio viene visualizzata accanto alla priorità Pianificazione risorse del progetto.
 
@@ -40,7 +46,7 @@ Per informazioni sul filtro in Pianificazione risorse, vedere [Filtro del conten
 
 Stiamo introducendo un nuovo livello di accesso per la gestione delle risorse. Gli utenti con una licenza Pianificazione potranno ricevere l&#39;accesso Modifica a Gestione risorse che consentirà loro di effettuare le seguenti operazioni:
 
-* Assegna priorità ai progetti nella Programmazione delle risorse
+* Assegnare priorità ai progetti in pianificazione risorse
 * Risorse preventivate negli strumenti di pianificazione risorse
 * Gestisci gruppi di risorse
 
@@ -54,7 +60,7 @@ Per informazioni sul nuovo accesso necessario per le risorse di definizione del 
 
 Per informazioni sul nuovo livello di accesso di Gestione risorse, vedere [Informazioni sull&#39;accesso di Gestione risorse](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Ordinare i progetti in base alle priorità del Portfolio nella programmazione delle risorse
+## Ordinare i progetti in base alle priorità di Portfolio nella Programmazione delle risorse
 
 È ora possibile ordinare i progetti in base alla priorità del portfolio nella Programmazione delle risorse.
 

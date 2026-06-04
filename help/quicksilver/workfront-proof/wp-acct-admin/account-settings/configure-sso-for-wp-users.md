@@ -7,9 +7,14 @@ description: Se disponi del piano Select o Premium, puoi fornire la funzionalit�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: 1084
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Ciò significa che effettuerai l&#39;autenticazione in base al tuo sistema di ac
 
 >[!NOTE]
 >
->Per abilitare SAML, è necessario che nell&#39;account [!DNL Workfront Proof] sia configurato un sottodominio o un dominio personalizzato. I sottodomini personalizzati sono liberi di impostare. Per ulteriori informazioni, consulta [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Per ulteriori informazioni sui domini completamente personalizzati, consulta il nostro [sito  [!DNL Workfront Proof]  dedicato al marchio - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Per abilitare SAML, è necessario che nell&#39;account [!DNL Workfront Proof] sia configurato un sottodominio o un dominio personalizzato. I sottodomini personalizzati sono liberi di impostare. Per ulteriori informazioni, consulta [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Puoi trovare ulteriori informazioni sui domini completamente personalizzati nel nostro [Brand il [!DNL Workfront Proof] sito - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Abilitazione dell&#39;SSO entro [!DNL Workfront Proof]
 
@@ -47,7 +52,7 @@ In qualità di fornitore di servizi, abbiamo pubblicato il nostro ID entità qui
 * http://axschema.org/contact/email
 * openid.sreg.email
 * mail
-* email
+* e-mail
 * emailAddress
 
 Per configurare l&#39;SSO:
@@ -94,7 +99,7 @@ Single Sign-On è una funzionalità Select e Premium, pertanto è possibile abil
 Qui sono disponibili due metodi (5) di configurazione:
 
 1. **Ereditato:** SSO con la configurazione prelevata dall&#39;account hub.
-Se un utente accede a [!DNL Workfront Proof] tramite la **pagina di accesso predefinita** ([https://business.adobe.com/it/products/workfront/proofing-approvals.html](https://business.adobe.com/it/products/workfront/proofing-approvals.html)) saranno disponibili **due livelli di autorizzazione**: prima viene richiesto a un utente di accedere utilizzando i dati di accesso [!DNL Workfront Proof] (e-mail e password), quindi l&#39;utente viene trasferito tramite una finestra SSO alla pagina di accesso SSO.
+Se un utente accede a [!DNL Workfront Proof] tramite la **pagina di accesso predefinita** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) saranno disponibili **due livelli di autorizzazione**: prima viene richiesto a un utente di accedere utilizzando i dati di accesso [!DNL Workfront Proof] (e-mail e password), quindi l&#39;utente viene trasferito tramite una finestra SSO alla pagina di accesso SSO.
 Pertanto, con il servizio SSO abilitato, è consigliabile accedere tramite il proprio sottodominio/dominio [!DNL Workfront Proof].
 
    >[!NOTE]
@@ -143,7 +148,7 @@ Se è stata scelta la configurazione SSO manuale per un account satellite (1), �
 Con il Single Sign-On abilitato, l&#39;URL di accesso del sottodominio (ad esempio, yourcompany.proofhq.com/login) visualizza una schermata di trasferimento (2) che porta direttamente alla pagina di accesso SSO.
    ![Pagina_accesso_SSO.png](assets/sso-login-page-350x164.png)
 
-1. Se un utente accede a [!DNL Workfront Proof] tramite il **accesso predefinito alla pagina** ([https://business.adobe.com/it/products/workfront/proofing-approvals.html](https://business.adobe.com/it/products/workfront/proofing-approvals.html)) saranno disponibili **due livelli di autorizzazione**. Innanzitutto, a un utente viene richiesto di effettuare l&#39;accesso utilizzando i dati di accesso [!DNL Workfront Proof] (e-mail e password). L&#39;utente viene quindi trasferito tramite una finestra SSO (2) alla pagina di accesso SSO.\
+1. Se un utente accede a [!DNL Workfront Proof] tramite il **accesso predefinito alla pagina** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) saranno disponibili **due livelli di autorizzazione**. Innanzitutto, a un utente viene richiesto di effettuare l&#39;accesso utilizzando i dati di accesso [!DNL Workfront Proof] (e-mail e password). L&#39;utente viene quindi trasferito tramite una finestra SSO (2) alla pagina di accesso SSO.\
    Pertanto, con il servizio SSO abilitato, è consigliabile accedere tramite il proprio sottodominio/dominio [!DNL Workfront Proof].
 
 1. Al momento, quando l’accesso Single Sign-On è abilitato sul tuo account Workfront Proof, non potrai accedere all’app iPhone con tali credenziali.

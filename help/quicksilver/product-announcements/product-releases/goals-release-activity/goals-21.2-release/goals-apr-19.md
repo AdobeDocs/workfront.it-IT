@@ -2,15 +2,18 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Attività di rilascio di Adobe Workfront Goals 21.2: settimana del 19 aprile 2021"
+title: 'Attività sulla versione 21.2 di Obiettivi di Adobe Workfront: settimana del 19 aprile 2021'
 description: Questa pagina descrive tutti i miglioramenti apportati con la versione 21.2 di Obiettivi di Adobe Workfront all’ambiente di anteprima nella settimana del 19 aprile 2021. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nel primo trimestre del 21.2.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/FbFBrZr59FqzuRuk3DAAl01F3S-5Me-PBKquIK95ygc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 0%
+source-wordcount: 488
+ht-degree: 4%
 
 ---
 
@@ -33,7 +36,7 @@ Per aiutarti a gestire gli obiettivi in modo più efficiente, abbiamo introdotto
 Per informazioni sulla modifica e la creazione di obiettivi, consulta:
 
 * [Modifica obiettivi in Obiettivi Adobe Workfront](../../../../workfront-goals/goal-management/edit-goals.md)
-* [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../../../workfront-goals/goal-management/create-goals.md)
+* [Creare gli obiettivi in Obiettivi Adobe Workfront](../../../../workfront-goals/goal-management/create-goals.md)
 
 ## Elenco di obiettivi aggiornato per gli obiettivi Workfront
 

@@ -6,20 +6,26 @@ description: Per impostazione predefinita, le informazioni visualizzate nell'app
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 4%
+source-wordcount: 635
+ht-degree: 8%
 
 ---
 
-# Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area Workfront
+# Aggiungere una dashboard nel pannello a sinistra di un oggetto o di un’area Workfront
 
 ## [!DNL Adobe Workfront] sezioni
 
 Per impostazione predefinita, le informazioni visualizzate nell&#39;applicazione Web [!DNL Workfront] vengono spesso visualizzate nelle sezioni del pannello sinistro. Ogni sezione contiene informazioni diverse su un&#39;area o un oggetto [!DNL Workfront].
 
-Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Oltre alle sezioni fornite con [!DNL Workfront] per impostazione predefinita, è possibile aggiungere una dashboard in cui visualizzare informazioni rilevanti per il flusso di lavoro. Non è possibile aggiungere un dashboard a tutte le aree e a tutti gli oggetti.
 
@@ -55,13 +61,13 @@ Nella tabella seguente sono elencate tutte le aree e gli oggetti [!DNL Workfront
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p></td>
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td><p>Accesso di visualizzazione al tipo di oggetto</p> </td> 
   </tr> 
  </tbody> 

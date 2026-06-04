@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 8 dell’API
+title: Novità nella versione API 8
 description: Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli aggiornamenti apportati alle risorse della versione 8, visita Aggiornamenti all’API versione 8
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 29%
+source-wordcount: 269
+ht-degree: 44%
 
 ---
 
-# Novità della versione 8 dell’API
+# Novità nella versione API 8
 
 ## Nuove risorse
 
@@ -25,7 +29,7 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | backlogOrder | cliente |   |   | bulkCopy  |   | COPIA |
-| colore | iterazione  |   |   |   |   | COUNT |
+| colore | iterazione  |   |   |   |   | CONTEGGIO |
 | customerID | lastUpdatedBy |   |   |   |   | ELIMINA |
 | stima | opTask |   |   |   |   | MODIFICA |
 | ID | progetto |   |   |   |   | GET  |
@@ -51,7 +55,7 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | COUNT  |
+| deprecationRelease |   |   |   |   |   | CONTEGGIO  |
 | removeRelease |   |   |   |   |   | GET |
 | versionName |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
@@ -63,8 +67,8 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-| name |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | ELIMINA |
+| name |   |   |   |   |   | CONTEGGIO |
+|   |   |   |   |   |   | DELETE |
 |   |   |   |   |   |   | MODIFICA |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
@@ -99,7 +103,7 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | AGGIUNGI |
-| BudgetedHours |   |   |   |   |   | COUNT |
+| BudgetedHours |   |   |   |   |   | CONTEGGIO |
 | plannedBudgetedHours |   |   |   |   |   | ELIMINA |
 | projectID |   |   |   |   |   | MODIFICA |
 | roleID |   |   |   |   |   | GET |
@@ -113,8 +117,8 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-| name |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | ELIMINA |
+| name |   |   |   |   |   | CONTEGGIO |
+|   |   |   |   |   |   | DELETE |
 |   |   |   |   |   |   | MODIFICA |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
@@ -126,7 +130,7 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | COUNT |
+| ID |   |   |   |   |   | CONTEGGIO |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
@@ -138,8 +142,8 @@ Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | abbonati | AGGIUNGI |
-|   |   |   |   | removeSubscribers |   | COUNT  |
-|   |   |   |   | abbonamenti |   | ELIMINA |
+|   |   |   |   | removeSubscribers |   | CONTEGGIO  |
+|   |   |   |   | abbonamenti |   | DELETE |
 |   |   |   |   | annulla abbonamenti |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |

@@ -6,11 +6,16 @@ description: È possibile visualizzare l'utilizzo delle risorse nel rapporto Uti
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7120'
+source-wordcount: 6542
 ht-degree: 1%
 
 ---
@@ -66,7 +71,7 @@ ht-degree: 1%
    <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
-     <li> <p>Gestione delle risorse </p> </li> 
+     <li> <p>Gestione risorse </p> </li> 
      <li> <p>Progetti</p> </li> 
      <li> <p>Portfolio</p> </li> 
      <li> <p>Programmi</p> </li> 
@@ -184,7 +189,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
 
 <li><strong>Utente singolo</strong>: le ore pianificate vengono riepilogate per ogni utente nel report sull'utilizzo. Queste ore pianificate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.
 
-<li><strong>Mansione</strong>: le ore pianificate sono riepilogate per mansione nel report sull'utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
+<li><strong>Mansione</strong>: le ore pianificate vengono riepilogate per mansione nel report sull'utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
 <ul>
 
 <li>Il ruolo è definito come il ruolo principale dell'utente assegnato all'attività o al problema a cui sono associate le ore pianificate.
@@ -218,7 +223,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
    <td><strong>Ore effettive</strong> </td> 
    <td> <p> Le ore totali registrate per le attività, i problemi, <span>e sul progetto</span> per i progetti inclusi. È possibile visualizzare le ore effettive totali per la durata complessiva dei progetti inclusi oppure le ore effettive totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p><strong>Avviso:</strong> il report sull'utilizzo include le ore registrate nel progetto, le attività figlio, i problemi e le attività padre con almeno un'assegnazione. Non include le ore registrate per le attività padre senza assegnazioni. È consigliabile non utilizzare le attività padre come attività di lavoro e assegnare solo le attività figlio alle risorse. </p> <p>Le ore effettive vengono visualizzate nel rapporto sull'utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. (È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.)<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel report sull'utilizzo nella riga del ruolo corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
+     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. (È possibile espandere la riga della mansione corrispondente per visualizzare un elenco di utenti con tale mansione che hanno registrato ore.)<br><strong>Mansione:</strong> Le ore effettive registrate dagli utenti associati a tali mansioni sono riepilogate nel report sull'utilizzo nella riga della mansione corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
       <ul> 
        <li>Il ruolo è definito come il ruolo principale dell’utente che ha registrato le ore</li> 
        <li>Nessuna assegnazione per l’attività o il problema</li> 
@@ -458,7 +463,7 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
      {{step1-to-utilization-report}}
 
       1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.
-È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
+È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Filtrare le informazioni sull&#39;utilizzo](#filter-utilization-information) in questo articolo.\
          Le informazioni sull’utilizzo vengono visualizzate per singoli ruoli e progetti (i ruoli sono raggruppati all’interno del progetto associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo di un programma:

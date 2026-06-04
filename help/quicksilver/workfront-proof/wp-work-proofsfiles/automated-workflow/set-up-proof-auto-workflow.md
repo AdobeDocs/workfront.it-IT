@@ -7,9 +7,13 @@ description: Questo ripete le informazioni trovate in Configurazione delle bozze
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -79,7 +83,7 @@ La bozza viene creata e quindi spostata da un punto all’altro dell’applicazi
 
    * Un revisore può essere aggiunto a una bozza una sola volta. (Non è possibile aggiungere la stessa persona a più di una fase della bozza.)
    * I revisori che vengono aggiunti a una fase privata possono vedere solo la fase a cui vengono aggiunti sulla bozza e i commenti fatti in quella fase.
-   * Per impostazione predefinita, l’aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata.\
+   * Per impostazione predefinita, l&#39;aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata.\
 
      L’amministratore di sistema può configurare il sistema di verifica in modo da impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto. Per ulteriori informazioni, consulta
 

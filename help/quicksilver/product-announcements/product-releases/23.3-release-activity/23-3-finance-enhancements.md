@@ -5,10 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+TQID: https://experienceleague.adobe.com/CrFWO4QcYrsw-L92PM9hys3eAAQPVU-JiqY60xj4lc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 5%
+source-wordcount: 284
+ht-degree: 4%
 
 ---
 
@@ -25,7 +30,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >
 >Questa funzione sarà disponibile nelle seguenti date:
 >
->* Rilascio in anteprima: venerdì 29 giugno 2023
+>* Versione di anteprima: 29 giugno 2023
 >
 >* Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
 >

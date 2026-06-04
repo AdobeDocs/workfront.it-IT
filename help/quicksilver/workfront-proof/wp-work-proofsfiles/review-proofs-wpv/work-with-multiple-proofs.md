@@ -7,10 +7,13 @@ description: In [!DNL Workfront] Bozza è possibile utilizzare le cartelle per r
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 0%
+source-wordcount: 508
+ht-degree: 3%
 
 ---
 

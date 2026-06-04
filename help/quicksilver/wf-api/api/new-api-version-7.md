@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 7 dell’API
+title: Novità nella versione API 7
 description: Raccolte
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 43%
+source-wordcount: 488
+ht-degree: 63%
 
 ---
 
-# Novità della versione 7 dell’API
+# Novità nella versione API 7
 
 ## Nuovi oggetti
 
@@ -93,7 +97,7 @@ ht-degree: 43%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Report </td> 
+   <td>Rapporto </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,7 +106,7 @@ ht-degree: 43%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Ricerca </td> 
+   <td>Cerca </td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,7 +116,7 @@ ht-degree: 43%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Aggiungi |
-|   |   |   |   |   |   | Conta |
+|   |   |   |   |   |   | Conteggio |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
@@ -124,10 +128,10 @@ ht-degree: 43%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Conta |
+| ID |   |   |   |   |   | Conteggio |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
-|   |   |   |   |   |   | Ricerca |
+|   |   |   |   |   |   | Cerca |
 
 {style="table-layout:auto"}
 
@@ -138,12 +142,12 @@ ht-degree: 43%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Aggiungi |
-|   |   |   |   |   |   | Conta |
+|   |   |   |   |   |   | Conteggio |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
-|   |   |   |   |   |   | Ricerca |
+|   |   |   |   |   |   | Cerca |
 
 {style="table-layout:auto"}
 
@@ -165,14 +169,14 @@ ht-degree: 43%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | Aggiungi |
+| ID |   |  hourTypes |   |   |   | Add |
 | name |   |   |   |   |   | Copia |
-|   |   |   |   |   |   | Conta |
+|   |   |   |   |   |   | Conteggio |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
 |   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
-|   |   |   |   |   |   | Ricerca |
+|   |   |   |   |   |   | Cerca |
 |   |   |   |   |   |   | Sostituisci |
 
 {style="table-layout:auto"}
@@ -183,8 +187,8 @@ ht-degree: 43%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID | cliente | utenti |   |   |   | Aggiungi |
-| customerID  | enteredBy  |   |   |   |   | Conta |
+| ID | cliente | utenti |   |   |   | Add |
+| customerID  | enteredBy  |   |   |   |   | Conteggio |
 | descrizione  | lastUpdatedBy  |   |   |   |   | Elimina |
 | enteredByID  |   |   |   |   |   | Modifica |
 | entryDate  |   |   |   |   |   | Ottenere |
@@ -201,7 +205,7 @@ ht-degree: 43%
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Conta |
+| ID |   |   |   |   |   | Conteggio |
 | articleName  |   |   |   |   |   | Ottenere |
 | pageID  |   |   |   |   |   | Rapporto |
 | url  |   |   |   |   |   | Ricerca |
@@ -371,7 +375,7 @@ Aggiunta Convalida Data <sup>1</sup>
 
  
 
-### Voce del diario
+### Voce diario
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -429,7 +433,7 @@ Aggiunta Convalida Data <sup>1</sup>
 
  
 
-### Recente
+### Recenti
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -491,7 +495,7 @@ Tipo <sup>1</sup> cambiato da Int a Double 
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td> ruoli</td> 
+   <td> mansioni</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
@@ -562,7 +566,7 @@ Tipo <sup>1</sup> cambiato da Int a Double 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  nome |   |   |   |   |   |   |
+|  name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

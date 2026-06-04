@@ -7,11 +7,16 @@ description: È possibile utilizzare operatori di condizione o modificatori per 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/EFPOvBUiZ8UCCwXvIbVI7Q1GTJSxMueFvHSKgqtr0YI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 731
 ht-degree: 5%
 
 ---
@@ -75,12 +80,12 @@ In Workfront puoi utilizzare i seguenti modificatori di condizioni:
   <tr> 
    <td>Minore di </td> 
    <td>&lt; </td> 
-   <td>Utilizza questo operatore per indicare che la condizione è soddisfatta quando  il primo campo dell'istruzione è minore del secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Utilizzare questo operatore per indicare che la condizione viene soddisfatta quando il primo campo dell'istruzione è minore del secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Minore o uguale a </td> 
    <td>&lt;= </td> 
-   <td>Utilizza questo operatore per indicare che la condizione è soddisfatta quando  il primo campo dell'istruzione è minore o uguale al secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Utilizzare questo operatore per indicare che la condizione viene soddisfatta quando il primo campo dell'istruzione è minore o uguale al secondo campo. <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Non </td> 
@@ -100,12 +105,12 @@ In Workfront puoi utilizzare i seguenti modificatori di condizioni:
   <tr> 
    <td>Oppure </td> 
    <td>|| </td> 
-   <td> <p>Utilizza questo operatore per indicare che la condizione è soddisfatta quando l’espressione  trova il primo o il secondo valore dell'istruzione. </p> <p>Ad esempio, utilizza l’istruzione seguente in un campo personalizzato calcolato per creare un’istruzione "IF" che contrassegna i progetti con lo stato Corrente o Pianificazione come "Attivo": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Utilizzare questo operatore per indicare che la condizione viene soddisfatta quando l'espressione trova il primo o il secondo valore dell'istruzione. </p> <p>Ad esempio, utilizza l’istruzione seguente in un campo personalizzato calcolato per creare un’istruzione "IF" che contrassegna i progetti con lo stato Corrente o Pianificazione come "Attivo": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> E </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Utilizza questo operatore per indicare che la condizione è soddisfatta quando l’espressione  trova un elemento che soddisfa due condizioni contemporaneamente. </p> <p>Ad esempio, utilizza l’istruzione seguente in un campo personalizzato calcolato per generare un’istruzione "IF" che trova i progetti nello stato Corrente con una condizione A rischio e li contrassegna come "Mediazione necessaria". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Utilizzare questo operatore per indicare che la condizione è soddisfatta quando l'espressione trova un elemento che soddisfa due condizioni contemporaneamente. </p> <p>Ad esempio, utilizza l’istruzione seguente in un campo personalizzato calcolato per generare un’istruzione "IF" che trova i progetti nello stato Corrente con una condizione A rischio e li contrassegna come "Mediazione necessaria". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

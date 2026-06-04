@@ -2,19 +2,22 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Incorporare una bozza Mini
+title: Incorporare una bozza mini
 description: La Miniproof è un widget che consente di incorporare una bozza in una pagina web, un blog o un wiki. La Miniproof mostra la bozza e tutti i commenti e le annotazioni esistenti. Puoi utilizzarlo per lavorare sulla bozza come se fossi in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 13227944-2bf8-49d9-8ff3-18ecb706d5d4
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/K2OPbEZPNZ5Ww5E2b1FuBi0YhlU1Uk6qb76gagyRbz8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 3%
 
 ---
 
-# Incorporare una bozza Mini
+# Incorporare una bozza mini
 
 >[!IMPORTANT]
 >

@@ -2,19 +2,22 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Comprendere lo stato della bozza in Workfront Proof
+title: Informazioni sullo stato di bozza in Workfront Proof
 description: In [!DNL Workfront Proof] le bozze esistono in stati diversi. Questi stati determinano le azioni che puoi intraprendere sulla bozza, ad esempio commentare o prendere decisioni.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 0%
+source-wordcount: 435
+ht-degree: 3%
 
 ---
 
-# Comprendere lo stato della bozza in Workfront Proof
+# Informazioni sullo stato di bozza in Workfront Proof
 
 >[!IMPORTANT]
 >
@@ -26,12 +29,12 @@ In [!DNL Workfront Proof] le bozze esistono in stati diversi. Questi stati deter
 
 I quattro stati sono i seguenti:
 
-* [Attiva](#active)
+* [Attivo](#active)
 * [Bloccato](#locked)
 * [Bozza (solo Dropzone)](#draft-dropzone-only)
 * [Inviato (solo Dropzone)](#submitted-dropzone-only)
 
-### Attiva {#active}
+### Attivo {#active}
 
 Le bozze caricate in [!DNL Workfront Proof] tramite la pagina New Proof (Nuova bozza) o Dropzone vengono visualizzate come attive dopo l&#39;elaborazione. Quando una bozza è attiva, gli utenti possono esaminarla, aggiungervi commenti e prendere decisioni al riguardo.
 

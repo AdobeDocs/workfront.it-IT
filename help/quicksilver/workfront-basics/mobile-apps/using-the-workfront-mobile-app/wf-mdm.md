@@ -7,9 +7,13 @@ description: Adobe [!DNL Workfront] ha collaborato con alcune piattaforme Mobile
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+TQID: https://experienceleague.adobe.com/S3gpFnGwPy1SEaFAlN-fs7eXPGkG8NX63hQNzUTlalU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: 118
 ht-degree: 9%
 
 ---

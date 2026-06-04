@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Gestire le notifiche per i commenti e le decisioni relativi alle bozze
+title: Gestire le notifiche per le decisioni e i commenti alle bozze
 description: Quando lavori su una bozza, che tu sia un utente di Adobe Workfront o un collaboratore esterno, puoi specificare quali notifiche e-mail desideri ricevere in merito ai commenti e alle decisioni prese sulla bozza. Per ulteriori informazioni, consulta Notifiche per commenti e decisioni relativi alla bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/2zcWEp77u5Eds1eB9r5UDdIAtNxSv9DdxGDIAd8b4Yw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 2%
+source-wordcount: 731
+ht-degree: 12%
 
 ---
 
-# Gestire le notifiche per i commenti e le decisioni relativi alle bozze
+# Gestire le notifiche per le decisioni e i commenti alle bozze
 
 <!-- Audited: 4/2025 -->
 
@@ -25,7 +30,7 @@ Quando lavori su una bozza, che tu sia un utente di Adobe Workfront o un collabo
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Quando lavori su una bozza, che tu sia un utente di Adobe Workfront o un collabo
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +54,7 @@ Quando lavori su una bozza, che tu sia un utente di Adobe Workfront o un collabo
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +63,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Gestire le notifiche per i commenti e le decisioni relativi alle bozze
+## Gestire le notifiche per le decisioni e i commenti alle bozze
 
 1. Apri la bozza per la quale desideri configurare le notifiche.
 1. Se la barra degli strumenti sinistra non è visualizzata, fare clic sull&#39;icona **Menu** nell&#39;angolo superiore sinistro del visualizzatore bozze Web.
@@ -104,8 +109,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
         <ul>
          <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">E-mail nuova bozza</a></li>
          <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">E-mail nuova versione</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">E-mail per bozza tardiva</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">E-mail Proof Made</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">E-mail bozza di ritardo</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">E-mail bozza effettuata</a></li>
         </ul></p></td> 
      </tr> 
     </tbody> 

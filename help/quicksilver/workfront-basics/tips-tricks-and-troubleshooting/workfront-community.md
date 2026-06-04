@@ -6,10 +6,14 @@ description: La community Adobe [!DNL Workfront] è un gruppo online di oltre 10
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: 403
+ht-degree: 1%
 
 ---
 
@@ -54,7 +58,7 @@ Se non ricordi la password per il sito community, contatta [!DNL Workfront Custo
 
 ### Qual è l&#39;URL per la community [!DNL Workfront]?
 
-La community [!DNL Workfront] è disponibile nel sito Web [!DNL Adobe Experience League] al seguente URL: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it).
+La community [!DNL Workfront] è disponibile nel sito Web [!DNL Adobe Experience League] al seguente URL: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Qual è il mio sottodominio? {#what-s-my-subdomain}
 

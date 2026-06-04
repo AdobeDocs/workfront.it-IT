@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Campi Rich Text nell’API di Adobe Workfront
-description: Campi Rich Text nell’API di Adobe Workfront
+title: Campi formattati nell’API di Adobe Workfront
+description: Campi formattati nell’API di Adobe Workfront
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 0%
+source-wordcount: 769
+ht-degree: 3%
 
 ---
 
-
-# Campi Rich Text nell’API di Adobe Workfront
+# Campi formattati nell’API di Adobe Workfront
 
 <!-- Audited: 5/2025 -->
 
@@ -123,4 +125,4 @@ Per salvare i seguenti valori di un campo in formato Rich Text utilizzando l’A
 1. Utilizza il metodo stringify sul JSON descritto sopra per effettuare una richiesta PUT e inviare aggiornamenti.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

@@ -8,14 +8,18 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+TQID: https://experienceleague.adobe.com/LI7TgU-LLWu08plGLZ-VsrBIzzdNIGZdRhthb-rYOvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 0%
+source-wordcount: 130
+ht-degree: 15%
 
 ---
 
-# Gestione risorse: indice articolo
+# Gestione risorse: indice degli articoli
 
 <!--Audited: 01/2024-->
 
@@ -26,10 +30,10 @@ Anche se può iniziare a livello di mansione, alla fine Gestione risorse si preo
 Questa sezione contiene i seguenti articoli e sottosezioni:
 
 * [Introduzione alla gestione delle risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-* [Pianificazione risorse: indice articolo](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
-* [L’indice del Bilanciatore dei carichi di lavoro: articolo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
+* [Pianificazione delle risorse: indice degli articoli](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
+* [Bilanciamento dei carichi di lavoro: indice degli articoli](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Utilizzo delle risorse](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
-* [[!DNL Adobe Workfront Scenario Planner]: indice articolo](/help/quicksilver/scenario-planner/scenario-planning.md)
+* [[!DNL Adobe Workfront Scenario Planner]: indice degli articoli](/help/quicksilver/scenario-planner/scenario-planning.md)
 
 
 

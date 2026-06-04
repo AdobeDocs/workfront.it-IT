@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Creare o modificare un flusso di lavoro automatico per una bozza esistente
+title: Creare o modificare un flusso di lavoro automatizzato per una bozza esistente
 description: I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, questa si sposta da una fase all’altra fino all’approvazione finale. I partecipanti vengono informati quando è il loro turno di rivedere il documento.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 1%
+source-wordcount: 1149
+ht-degree: 6%
 
 ---
 
-# Creare o modificare un flusso di lavoro automatico per una bozza esistente
+# Creare o modificare un flusso di lavoro automatizzato per una bozza esistente
 
 I flussi di lavoro automatizzati semplificano la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi gruppi di persone. Quando crei una bozza con un flusso di lavoro automatizzato, questa si sposta da una fase all’altra fino all’approvazione finale. I partecipanti vengono informati quando è il loro turno di rivedere il documento.
 
@@ -21,7 +26,7 @@ Per informazioni sulla creazione di un flusso di lavoro automatico per una nuova
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ Per informazioni sulla creazione di un flusso di lavoro automatico per una nuova
    <td> <p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -44,7 +49,7 @@ Per informazioni sulla creazione di un flusso di lavoro automatico per una nuova
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -178,4 +183,4 @@ Quando si aggiungono revisori a una fase, tenere presente quanto segue:
 * I revisori che non vengono aggiunti a una fase privata non possono vedere tale fase sulla bozza o sui commenti fatti in quella fase.
 * Per impostazione predefinita, l’aggiunta di un utente a una fase consente a tale utente di accedere alla visualizzazione della bozza dal momento in cui viene creata.
 
-  L’amministratore di Workfront può impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto. Per ulteriori informazioni, consulta  in .
+  L’amministratore di Workfront può impedire agli utenti di accedere alla bozza fino a quando il flusso di lavoro non entra nella fase in cui l’utente è stato aggiunto. Per ulteriori informazioni, consulta in .

@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Commento su una bozza
+title: Commentare una bozza
 description: I commenti consentono di fornire feedback sul contenuto e collaborare con altri utenti nel visualizzatore di bozze.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
+TQID: https://experienceleague.adobe.com/cHRJGV-Yp5CzLS-Wb0BZlj5VAnAAItQqej1aGbpfdEY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 0%
+source-wordcount: 704
+ht-degree: 7%
 
 ---
 
-# Commento su una bozza
+# Commentare una bozza
 
 <!-- Audited: 5/2025 -->
 
@@ -26,7 +31,7 @@ Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +42,7 @@ Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Qualsiasi</p>
    </td> 
@@ -52,7 +57,7 @@ Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +66,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Commento su una bozza
+## Commentare una bozza
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Passa il puntatore del mouse sulla bozza necessaria, quindi fai clic su **Apri bozza**.

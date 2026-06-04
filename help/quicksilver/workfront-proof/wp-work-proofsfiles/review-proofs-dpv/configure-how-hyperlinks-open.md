@@ -7,10 +7,13 @@ description: Alcuni collegamenti nel contenuto web interattivo sono impostati pe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1133c5a6-896f-40f3-92c9-0d350fd24b09
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/SMG4Prg4Cg-AhhpbnlxMB35wTL-UQ-8Vh-MwDDQc254
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 0%
+source-wordcount: 125
+ht-degree: 14%
 
 ---
 

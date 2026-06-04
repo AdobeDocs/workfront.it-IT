@@ -6,12 +6,15 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QenYRRNaW0mkZ4oszgmrvs2XBRx7RQ1rKkuJffP2qV0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 4%
+source-wordcount: 1003
+ht-degree: 7%
 
 ---
 
@@ -46,7 +49,7 @@ Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39
 Di seguito sono riportati gli 11 widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
 
 * **Il mio lavoro**\
-    Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
+    Questo widget, un ottimo punto di partenza per la gestione di diversi lavori, mostra tutte le attività, i problemi e le richieste assegnati a te in un unico posto. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
 
 * **Bacheche**\
     Visualizza tutte le bacheche create o che sono state invitate a utilizzare. Puoi anche creare una nuova bacheca basata sui seguenti modelli: Bacheca di base, Bacheca Kanban, Bacheca retrospettiva, Bacheca dinamica

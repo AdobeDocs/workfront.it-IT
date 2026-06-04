@@ -7,11 +7,17 @@ description: Quando si pianifica la strategia a lungo termine dell'azienda, è p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xf-c8wX5aGmp5p9O58Zsz6zFHyoPw-om6SvzlU9wqdI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 936
 ht-degree: 4%
 
 ---
@@ -187,7 +193,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
      </tr> 
      <tr> 
       <td>Utilizzo</td> 
-      <td>La percentuale di utilizzo del budget  per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di , vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>La percentuale di utilizzo del budget [!UICONTROL] per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di [!UICONTROL], vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Valore Netto</td> 

@@ -1,19 +1,22 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Panoramica delle bozze dei contenuti interattivi
+title: Panoramica bozze contenuto interattivo
 description: Il contenuto interattivo fornisce diversi metodi per coinvolgere i visualizzatori. Le agenzie possono misurare il successo delle loro campagne utilizzando le analisi raccolte dalle risposte a questo contenuto.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+TQID: https://experienceleague.adobe.com/y8EiNqvee6b7TAcYVxDMudQgy0njwI0EKG3EvKE-OSQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: 604
+ht-degree: 1%
 
 ---
 
-# Panoramica delle bozze dei contenuti interattivi
+# Panoramica bozze contenuto interattivo
 
 <!-- Audited: 01/2024 -->
 

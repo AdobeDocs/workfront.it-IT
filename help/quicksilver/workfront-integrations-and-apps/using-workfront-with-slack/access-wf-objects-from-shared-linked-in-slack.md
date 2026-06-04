@@ -6,10 +6,16 @@ description: Quando i collegamenti a  [!DNL Adobe Workfront] oggetti vengono con
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+TQID: https://experienceleague.adobe.com/WNdO8mqix-JYM1OJmPS7NsP5yHlMuYIsJHw7cg6KVxM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 0%
+source-wordcount: 1100
+ht-degree: 3%
 
 ---
 
@@ -25,7 +31,7 @@ Quando un utente condivide con te un collegamento a un oggetto in [!DNL Workfron
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +42,7 @@ Quando un utente condivide con te un collegamento a un oggetto in [!DNL Workfron
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
@@ -50,7 +56,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Prima di poter accedere ai preferiti e agli elementi recenti di [!DNL Slack], è necessario
 
-* Configura [!DNL Workfront for Slack]\
+* Configurare [!DNL Workfront for Slack]\
    Per istruzioni sulla configurazione di [!DNL Workfront for Slack], vedere [Configura [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Accedi ai progetti da [!DNL Slack]

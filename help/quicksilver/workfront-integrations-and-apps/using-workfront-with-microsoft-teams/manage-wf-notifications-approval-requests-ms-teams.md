@@ -6,10 +6,16 @@ description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
+TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 5%
+source-wordcount: 1422
+ht-degree: 11%
 
 ---
 
@@ -17,9 +23,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Poiché [Microsoft passa al client Nuovi team](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), il client Team classici non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, i clienti devono effettuare la transizione al client Nuovi team prima di tale data.
+>Poiché [Microsoft sta eseguendo la transizione al nuovo client Teams](https://learn.microsoft.com/it-it/microsoftteams/teams-classic-client-end-of-availability), il client Teams classico non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, è necessario effettuare la transizione al nuovo client Teams prima di tale data.
 >
->L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con l’esperienza Nuovi team. Nella maggior parte dei casi, Workfront viene visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione può essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l&#39;integrazione di Workfront nel client New Teams, vedere [Installa [!DNL Adobe Workfront] per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con la nuova esperienza Teams. Nella maggior parte dei casi, Workfront verrà visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione potrà essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l’integrazione di Workfront nel nuovo client Teams, consulta [Installare  [!DNL Adobe Workfront]  per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 
@@ -42,10 +48,10 @@ Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Work o successiva</p> </td> 
   </tr> 
@@ -68,7 +74,7 @@ Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams] 
 
 ## Gestione di [!DNL Workfront] notifiche in [!DNL Microsoft Teams]
 
-Quando l&#39;app [!DNL Workfront for Microsoft Teams] è installata, viene creato un canale di chat [!DNL Workfront] in [!DNL Microsoft Teams] per ogni membro del team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nel canale di chat di [!DNL Workfront] di [!DNL Microsoft Teams].
+Quando l&#39;app [!DNL Workfront for Microsoft Teams] è installata, viene creato un canale di chat [!DNL Workfront] in [!DNL Microsoft Teams] per ogni membro del team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nel canale di chat di [!DNL Microsoft Teams] di [!DNL Workfront].
 
 Quando si lavora con [!DNL Workfront] notifiche da [!DNL Microsoft Teams], considera quanto segue:
 
@@ -116,7 +122,7 @@ Per gestire le notifiche [!DNL Workfront] che è possibile ricevere in [!DNL Mic
 
 ### Notifiche di approvazione {#approval-notifications}
 
-Si ricevono notifiche di approvazione quando viene richiesto di approvare un oggetto, ad esempio un&#39;attività, una scheda orario o una bozza. È comunque possibile aggiungere un commento alla notifica.Dalla notifica di approvazione, è possibile eseguire le azioni seguenti:
+Si ricevono notifiche di approvazione quando viene richiesto di approvare un oggetto, ad esempio un&#39;attività, una scheda orario o una bozza. Puoi comunque aggiungere un commento alla notifica.Dalla notifica di approvazione, puoi eseguire le azioni seguenti:
 
 * **[!UICONTROL Approva]**: fare clic per approvare l&#39;elemento.
 * **[!UICONTROL Modifica]**: fare clic per approvare l&#39;elemento con le modifiche.
@@ -408,7 +414,7 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di </td> 
+   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di [!UICONTROL]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

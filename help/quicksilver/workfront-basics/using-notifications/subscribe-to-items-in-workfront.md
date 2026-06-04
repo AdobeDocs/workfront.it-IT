@@ -1,14 +1,19 @@
 ---
 navigation-topic: notifications
-title: Iscriviti agli elementi in Adobe Workfront
+title: Iscriversi agli elementi in Adobe Workfront
 description: Adobe Workfront invia notifiche sugli elementi che ti sono stati assegnati o di cui sei proprietario. Se desideri seguire la comunicazione su elementi che non ti sono assegnati ma che potrebbero influire sul tuo lavoro, puoi abbonarti.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 0%
+source-wordcount: 1563
+ht-degree: 2%
 
 ---
 
@@ -34,7 +39,7 @@ Per ulteriori informazioni sull&#39;utilizzo delle sottoscrizioni, vedere [Infor
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,8 +54,8 @@ Per ulteriori informazioni sull&#39;utilizzo delle sottoscrizioni, vedere [Infor
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 

@@ -7,9 +7,13 @@ description: In qualità di business manager, puoi utilizzare Adobe Workfront Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
+TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: 1167
 ht-degree: 0%
 
 ---
@@ -91,7 +95,7 @@ Puoi visualizzare quanto segue nelle caselle [!UICONTROL Dati finanziari] e [!UI
    <td>Si tratta dell'importo monetario che la società decide di rendere disponibile per l'esecuzione del piano. Workfront distribuisce il budget in modo uniforme per ogni mese entro la durata del piano. I budget sono in genere impostati per un anno, ma possono anche essere impostati per un periodo di 3 o 5 anni. La valuta tra parentesi a sinistra del titolo della casella Finanziario indica la valuta del sistema. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Costs]</td> 
+   <td role="rowheader">[!UICONTROL Costi]</td> 
    <td> <p>Si tratta dell'importo totale dei costi derivanti da tutte le iniziative del piano. Workfront calcola i costi del piano utilizzando la formula seguente:</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>Per informazioni sul calcolo dei costi delle iniziative, vedere <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Creare e modificare le iniziative in [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 

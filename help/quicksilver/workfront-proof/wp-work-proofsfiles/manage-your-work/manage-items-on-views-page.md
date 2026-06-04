@@ -7,9 +7,12 @@ description: La pagina [!UICONTROL Visualizzazioni] ti consente di visualizzare 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: 1544
 ht-degree: 0%
 
 ---
@@ -104,7 +107,7 @@ Per visualizzare l&#39;elenco con un ordinamento diverso:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fare clic su una delle intestazioni di colonna dell&#39;elenco: Tipo, Nome, Stato, Decisioni o Proprietario.\
+   * Fare clic su una delle intestazioni di colonna nell&#39;elenco: Tipo, Nome, Stato, Decisioni o Proprietario.\
 
      Ad esempio, per visualizzare le bozze/i file in ordine alfabetico, fai clic sull’intestazione Nome una volta (1) per ordinare l’elenco in base al nome in ordine crescente (A - Z).\
       Puoi fare nuovamente clic sull’intestazione Nome bozza (2) per invertire l’ordine e visualizzare le bozze in ordine decrescente (Z - A).
@@ -197,4 +200,4 @@ Se disponi dei diritti di modifica per eseguire questa operazione, puoi spostare
 1. Esegui una delle operazioni seguenti:
 
    * Per spostare un elemento, fare clic su di esso e tenerlo premuto, trascinandolo nella cartella in cui si desidera inserirlo.
-   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**&#x200B;sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.
+   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.

@@ -2,25 +2,30 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
-title: Imposta una scadenza per una bozza di base esistente
+title: Impostare una scadenza per una bozza di base esistente
 description: Puoi impostare una singola scadenza per una bozza di base dopo la sua creazione.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/I7lYnylbdqdy-L--BGteJq-u4hmKxWqsZgnJE8lM5aQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: 157
+ht-degree: 41%
 
 ---
 
-# Imposta una scadenza per una bozza di base esistente
+# Impostare una scadenza per una bozza di base esistente
 
 Puoi impostare una singola scadenza per una bozza di base dopo la sua creazione.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +36,7 @@ Puoi impostare una singola scadenza per una bozza di base dopo la sua creazione.
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p>
@@ -47,7 +52,7 @@ Puoi impostare una singola scadenza per una bozza di base dopo la sua creazione.
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +61,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Imposta una scadenza per una bozza di base esistente
+## Impostare una scadenza per una bozza di base esistente
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trova la bozza necessaria.

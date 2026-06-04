@@ -6,10 +6,16 @@ description: L'integrazione di  [!DNL Adobe Workfront] con [!DNL Slack] ti conse
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 5%
 
 ---
 
@@ -17,11 +23,11 @@ ht-degree: 1%
 
 L&#39;integrazione di [!DNL Adobe Workfront] con [!DNL Slack] consente di accedere a [!DNL Workfront] da [!DNL Slack] o di eseguire determinate azioni in [!DNL Workfront] utilizzando un comando barra. L&#39;integrazione può essere utilizzata da qualsiasi ambiente [!DNL Slack], inclusa l&#39;app mobile [!DNL Slack].
 
-Prima di poter utilizzare [!DNL Slack] da [!DNL Workfront], l&#39;utente o l&#39;amministratore di [!DNL Slack] deve installare l&#39;app [!DNL Workfront] nell&#39;istanza [!DNL Slack]. Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Prima di poter utilizzare [!DNL Workfront] da [!DNL Slack], l&#39;utente o l&#39;amministratore di [!DNL Slack] deve installare l&#39;app [!DNL Workfront] nell&#39;istanza [!DNL Slack]. Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +38,7 @@ Prima di poter utilizzare [!DNL Slack] da [!DNL Workfront], l&#39;utente o l&#39
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
@@ -80,7 +86,7 @@ Per accedere a [!DNL Workfront] da [!DNL Slack]:
 
    >[!NOTE]
    >
-   >* Quando viene richiesto di immettere l&#39;host dell&#39;account [!DNL Workfront], digitarlo in questo formato: *yourCompany&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
+   >* Quando viene richiesto di immettere l&#39;host dell&#39;account [!DNL Workfront], digitarlo in questo formato: *yourCompany&#39;sDomain.my.workfront.com*. Il dominio della tua azienda di solito corrisponde al nome.
    >* L&#39;autenticazione avanzata non è disponibile finché non viene abilitata da un amministratore [!DNL Workfront] per questa integrazione.
 
 
@@ -179,7 +185,7 @@ Per accedere a [!DNL Workfront] da [!DNL Slack]:
       * Documento
       * Portfolio
       * Programma
-      * Dashboard di
+      * Dashboard
       * Azienda
       * Nota \
 

@@ -2,14 +2,17 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Esegui backup dei dati  [!DNL Workfront Proof]
+title: 'Esegui backup dei dati  [!DNL Workfront Proof] '
 description: Puoi richiedere un backup di tutti i tuoi dati in [!DNL Workfront Proof] utilizzando la funzione di backup.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/GLlV0VddtRk0rbow8cD4FLPbneOrWOpUAT97c13WYoA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: 1056
 ht-degree: 0%
 
 ---
@@ -56,8 +59,8 @@ La funzione [!UICONTROL Backup] consente di decidere come utilizzare le risorse:
 
 ## Backup dei dati
 
-1. Fare clic su **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro dell&#39;interfaccia [!DNL Workfront Proof]. 1)
-1. Fare clic sulla scheda **[!UICONTROL Backup]**. 2)
+1. Fare clic su **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro dell&#39;interfaccia [!DNL Workfront Proof]. (1)
+1. Fare clic sulla scheda **[!UICONTROL Backup]**. (2)
 1. Fai clic sul collegamento **[!UICONTROL Richiedi nuovo backup]** (3)
 
 Quando il backup è pronto, si verifica quanto segue:
@@ -87,11 +90,11 @@ Per scaricare il file .zip di backup dall’e-mail:
 
 Quando il file .zip di backup è pronto per il download, la scheda [!UICONTROL Backup] lo indica visualizzando un collegamento per il download. Inoltre, viene nuovamente visualizzato il collegamento [!UICONTROL Richiedi nuovo backup].
 
-1. Fare clic su **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro dell&#39;interfaccia [!DNL Workfront Proof]. 1)
-1. Fare clic sulla scheda **[!UICONTROL Backup]**. 2)\
+1. Fare clic su **[!UICONTROL Impostazioni account]** nell&#39;angolo superiore destro dell&#39;interfaccia [!DNL Workfront Proof]. (1)
+1. Fare clic sulla scheda **[!UICONTROL Backup]**. (2)\
    Se nessun utente dell&#39;account ha richiesto backup, la scheda [!UICONTROL Backup] indica che non sono presenti backup. Se un utente ha richiesto un backup, nella scheda viene visualizzata la data di creazione e il collegamento per il download dell’ultimo backup.
 
-1. Fai clic sul collegamento **[!UICONTROL Scarica backup]**. 3)\
+1. Fai clic sul collegamento **[!UICONTROL Scarica backup]**. (3)\
    ![Download_Backup.png](assets/download-backup-350x167.png) Viene visualizzata una schermata di download dei file in cui viene richiesto se si desidera aprire o salvare il file di download.
 
 1. Fai clic su **[!UICONTROL Salva]**, quindi seleziona il percorso nel computer in cui desideri salvare il file .zip di backup.\

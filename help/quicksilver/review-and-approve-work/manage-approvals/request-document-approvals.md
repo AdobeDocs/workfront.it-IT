@@ -6,9 +6,15 @@ description: Puoi richiedere l’approvazione dei manager o di altri utenti per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+TQID: https://experienceleague.adobe.com/NQgXFcbc-4DiObeNE2nRgaW9iKeCKRD5v7J1PRfHkHU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: 530
 ht-degree: 6%
 
 ---
@@ -78,26 +84,26 @@ Le decisioni di approvazione dei documenti non vengono reimpostate automaticamen
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
+1. Scorri verso il basso fino alla sezione **Approvazioni** nel riepilogo, fai clic sull&#39;icona Altro, quindi fai clic su Invia di nuovo.
 
-   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
+   ![Invia di nuovo l&#39;approvazione](assets/nwe-resubmit-approval-350x149.png)
 
-## Delete a document approval request
-
-1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Trovare il documento necessario.
-
-1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver&#39;s name and select **Delete**.
-
-   The approval request is removed and the approver receives a notification that their approval is no longer needed. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
-
-## Send a reminder to an approver
-
-You can send a message to remind document an approver that you&#39;re waiting for their feedback.
+## Eliminare una richiesta di approvazione documento
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver&#39;s name and select **Remind**.
+1. Scorri verso il basso fino alla sezione **Approvazioni** nel riepilogo, quindi fai clic sul menu **Altro** in linea con il nome dell&#39;approvatore e seleziona **Elimina**.
 
-   The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
+   La richiesta di approvazione viene rimossa e l’approvatore riceve una notifica che indica che la sua approvazione non è più necessaria. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
+
+## Invia un promemoria a un approvatore
+
+È possibile inviare un messaggio per ricordare a un approvatore di essere in attesa del suo feedback.
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Trovare il documento necessario.
+
+1. Scorri verso il basso fino alla sezione **Approvazioni** nel riepilogo, quindi fai clic sul menu **Altro** in linea con il nome dell&#39;approvatore e seleziona **Ricorda**.
+
+   L&#39;approvatore riceve una notifica che informa che l&#39;approvazione è ancora in sospeso. Se attivato, può anche ricevere un promemoria e-mail.

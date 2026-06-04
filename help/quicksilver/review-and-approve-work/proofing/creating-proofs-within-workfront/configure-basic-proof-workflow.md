@@ -6,10 +6,15 @@ description: Con un flusso di lavoro di base, è possibile inviare più revisori
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 4%
+source-wordcount: 1725
+ht-degree: 5%
 
 ---
 
@@ -21,7 +26,7 @@ Con un flusso di lavoro di base, è possibile inviare più revisori a una bozza,
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +39,7 @@ Con un flusso di lavoro di base, è possibile inviare più revisori a una bozza,
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
     <p>Lavoro o piano</p> </td> 
@@ -45,7 +50,7 @@ Con un flusso di lavoro di base, è possibile inviare più revisori a una bozza,
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -275,7 +280,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    <tbody>
    <tr>
    <td>Notifica i destinatari relativamente a questa bozza</td>
-   <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base<strong>, al momento della creazione della bozza viene inviata una notifica e-mail. </strong> Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
+   <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base</strong>, al momento della creazione della bozza viene inviata una notifica e-mail. <strong>Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
    </tr>
    <tr>
    <td>Aggiungi messaggio personalizzato</td>
@@ -333,7 +338,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
        </ul><p>
         <ul>
          <li><strong>Accesso alla bozza tramite collegamento e-mail richiesto per:</strong> Configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica di convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è verificare che l'utente abbia immesso un indirizzo e-mail corretto al quale ha accesso).</li>
-        </ul><p>Nota:  Se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
+        </ul><p>Nota: se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

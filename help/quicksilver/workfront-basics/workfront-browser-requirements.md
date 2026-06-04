@@ -6,10 +6,14 @@ description: Sia Adobe Workfront che Workfront Proof richiedono l’utilizzo di 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 1%
+source-wordcount: 245
+ht-degree: 4%
 
 ---
 

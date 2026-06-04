@@ -5,16 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+TQID: https://experienceleague.adobe.com/cE9falXH8dG-XSkNTfbJVxBtup8AUliJAJchYhwstDE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: 497
+ht-degree: 2%
 
 ---
 
 # Miglioramenti al progetto del terzo trimestre 2024
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
@@ -32,7 +35,7 @@ Per informazioni sull&#39;aggiornamento della data e della condizione di commit,
 * [Aggiorna condizione per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Aggiorna data conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività
 

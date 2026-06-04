@@ -7,10 +7,14 @@ description: Puoi creare bozze statiche dalle pagine web. Inoltre, è possibile 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 0%
+source-wordcount: 493
+ht-degree: 1%
 
 ---
 
@@ -50,7 +54,7 @@ Per creare bozze da pagine che richiedono un’autorizzazione, il team IT deve a
 
 >[!NOTE]
 >
->Consigliamo di eseguire prove interattive anziché statiche per le pagine interne che richiedono autorizzazioni e siti web protetti da password. Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>Consigliamo di eseguire prove interattive anziché statiche per le pagine interne che richiedono autorizzazioni e siti web protetti da password. Per ulteriori informazioni, consulta [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## Informazioni sull’elaborazione di bozze statiche per siti web
 
@@ -61,5 +65,5 @@ Per creare bozze da pagine che richiedono un’autorizzazione, il team IT deve a
 * [!DNL Workfront Proof] acquisisce le pagine Web fino a 195 pollici dopo la rasterizzazione. Se la pagina web è più lunga di questa, la bozza non riesce.
 * L’estrazione del testo è disponibile su tutti gli elementi di testo, ma il testo inserito come immagine non viene estratto.
 * È possibile fare clic sui collegamenti ipertestuali nelle bozze e aprire le pagine collegate nelle nuove schede del browser.
-* I collegamenti ipertestuali sulle immagini non sono cliccabili se gli elementi style=&quot;display:block&quot; sono utilizzati all&#39;interno dei tag `<a>`. È consigliabile regolare queste parti della progettazione della pagina.
+* I collegamenti ipertestuali nelle immagini non sono cliccabili se gli elementi style=&quot;display:block&quot; sono utilizzati nei tag `<a>`. È consigliabile regolare queste parti della progettazione della pagina.
 * Per ottenere risultati ottimali, consigliamo di creare le pagine utilizzando le best practice di codifica e gli standard riconosciuti.

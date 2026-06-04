@@ -7,13 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4461'
-ht-degree: 96%
+source-wordcount: 4436
+ht-degree: 95%
 
 ---
-
 
 # Nozioni di base sulle API
 
@@ -300,7 +305,7 @@ quindi utilizza la seguente chiamata API con le relative istruzioni OR multiple:
 
 #### Utilizzo dei parametri del filtro
 
-Un potenziale problema nell’utilizzo dei parametri URL per i filtri di ricerca è che Workfront analizza alcuni parametri prima di verificare la presenza di diversi metodi di autenticazione (ad esempio nome utente, password, apiKey, cookie). In questo caso, i parametri non vengono utilizzati come filtri nella chiamata. 
+Un potenziale problema nell’utilizzo dei parametri URL per i filtri di ricerca è che Workfront analizza alcuni parametri prima di verificare la presenza di diversi metodi di autenticazione (ad esempio nome utente, password, apiKey, cookie). In questo caso, i parametri non vengono utilizzati come filtri nella chiamata di. 
 
 Per evitare questo problema, puoi inserire questi valori nei parametri del filtro con formattazione JSON. Ad esempio, se desideri filtrare in base al nome utente testuser, anziché utilizzare 
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>passa il parametro URL in un filtro, come illustrato nell’esempio seguente:
@@ -436,7 +441,7 @@ Per garantire prestazioni ottimali, la tabella seguente mostra le limitazioni im
 Per ignorare il limite predefinito di query per il numero di risultati e consentirne 200, puoi includere il filtro `$$LIMIT=200` nella query, come illustrato nell’esempio seguente:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Per garantire affidabilità e prestazioni per altri tenant nel sistema, il limite massimo di risultati consentito per query è di 2.000 oggetti. Se tenti di specificare un limite maggiore, verrà visualizzato un messaggio di errore `IllegalArgumentException`. 
+Per garantire affidabilità e prestazioni per altri tenant nel sistema, il limite massimo di risultati consentito per query è di 2.000 oggetti. Se si tenta di specificare un limite maggiore, verrà visualizzato un messaggio di errore `IllegalArgumentException`. 
 
 Pertanto, è consigliabile considerare l’utilizzo di risposte paginate per set di dati di grandi dimensioni. Per specificare il primo risultato da restituire, aggiungi il filtro `$$FIRST`. Ad esempio, la seguente richiesta restituisce i risultati 201-250 per una query:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -487,24 +492,24 @@ La risposta per una richiesta PUT è identica a una richiesta GET. In entrambi i
 ### Modifica di oggetti
 
 Gli aggiornamenti agli oggetti vengono sempre eseguiti per ID utilizzando l’URI univoco dell’oggetto. I campi da aggiornare vengono specificati come parametri di richiesta. Ad esempio, per modificare il nome di un progetto puoi inviare una richiesta simile alla seguente:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=Nome nuovo progetto <br>PUT /attask/api/v15.0/project?id=4c7..&amp;name=Nuovo nome progetto</pre>Poiché l’aggiornamento richiede un ID, questa operazione non riuscirà (senza inserimento) se l’oggetto non esiste sul server.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Nome nuovo progetto <br>PUT /attask/api/v15.0/project?id=4c7..&amp;name=Nome nuovo progetto</pre>Poiché l’aggiornamento richiede un ID, questa operazione non riuscirà (senza inserimento) se l’oggetto non esiste sul server.
 
 ### Specificare le modifiche JSON
 
 Come mostrato nell’esempio seguente, puoi utilizzare il parametro della richiesta degli aggiornamenti per specificare i campi da aggiornare utilizzando la sintassi JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br> name: "Nuovo nome progetto", <br> status: "CUR", <br> ... <br>}</pre>
 
 ### Esecuzione di aggiornamenti nidificati
 
 Alcuni oggetti dispongono di raccolte private che possono essere aggiornate. Nell’esempio seguente viene illustrato come sovrascrivere le assegnazioni esistenti per una determinata attività:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br> assegnazioni: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
 >Mentre gli aggiornamenti apportati al livello superiore sono parziali, gli aggiornamenti a una raccolta o a un oggetto nidificato sostituiscono completamente la raccolta esistente. Per modificare una singola assegnazione su un’attività senza interessare gli oggetti, utilizza una richiesta PUT sull’assegnazione anziché sull’attività.
 
 Nell’esempio seguente un progetto diventa una coda pubblica dell’help-desk. Le proprietà della coda esistenti vengono sostituite.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Utilizzo del parametro della richiesta di azione
 

@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Creare una nuova versione di una bozza
+title: Caricare una nuova versione di una bozza
 description: Gestire il feedback tra più versioni o revisioni di un lavoro può essere una sfida enorme. Workfront semplifica questo processo consentendo la creazione e il confronto di più versioni di una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ZqIOiAuptaPBQBAMkiLZeLa3rBZUW3UuZOTwhlvJWBw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 0%
+source-wordcount: 1460
+ht-degree: 4%
 
 ---
 
-# Creare una nuova versione di una bozza
+# Caricare una nuova versione di una bozza
 
 <!-- Audited: 4/2025 -->
 
@@ -26,7 +31,7 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
 
   Per ulteriori informazioni, vedere [Gestione dei ruoli di bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Profili di autorizzazioni di bozza in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-  Per informazioni sulla condivisione delle versioni delle bozze, consulta  [Condividi bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Per informazioni sulla condivisione delle versioni delle bozze, vedere [Condividi bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
@@ -34,7 +39,7 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +50,7 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Lavoro o piano</p>
    </td> 
@@ -56,7 +61,7 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>

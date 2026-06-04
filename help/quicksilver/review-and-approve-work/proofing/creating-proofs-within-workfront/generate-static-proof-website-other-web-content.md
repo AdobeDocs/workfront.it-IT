@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Creare una bozza statica per un sito web o altro contenuto web
+title: Creare una bozza statica per un sito o altro contenuto web
 description: Puoi generare una nuova bozza statica o una nuova versione di una bozza statica esistente per il contenuto web. Il contenuto web può includere annunci con video in streaming, animazioni HTML o banner interattivi, ma verrà tagliato in più schermate per consentire una verifica statica.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 1%
+source-wordcount: 678
+ht-degree: 14%
 
 ---
 
-# Creare una bozza statica per un sito web o altro contenuto web
+# Creare una bozza statica per un sito o altro contenuto web
 
 Puoi generare una nuova bozza statica o una nuova versione di una bozza statica esistente per il contenuto web. Il contenuto web può includere annunci con video in streaming, animazioni HTML o banner interattivi, ma verrà tagliato in più schermate per consentire una verifica statica.
 
@@ -21,7 +26,7 @@ Quando crei bozze statiche per un sito web o per altri contenuti web, considera 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +48,7 @@ Quando crei bozze statiche per un sito web o per altri contenuti web, considera 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,13 +57,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creare una bozza statica per un sito web o altro contenuto web
+## Creare una bozza statica per un sito o altro contenuto web
 
-Per creare una bozza statica, il sito web deve essere accessibile al pubblico (non dietro un firewall), oppure il inserisco nell&#39;elenco Consentiti di gestione dell’organizzazione deve includere il dominio Workfront. Workfront non può acquisire un sito web protetto da password come bozza statica.
+Per creare una bozza statica, il sito web deve essere accessibile al pubblico (non dietro un firewall), oppure il dominio Workfront deve essere incluso nel inserisco nell&#39;elenco Consentiti di dell’organizzazione. Workfront non può acquisire un sito web protetto da password come bozza statica.
 
 >[!TIP]
 >
->È consigliabile utilizzare la verifica interattiva anziché la verifica statica per le pagine interne che richiedono autorizzazioni e le pagine protette da password. Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>È consigliabile utilizzare la verifica interattiva anziché la verifica statica per le pagine interne che richiedono autorizzazioni e le pagine protette da password. Per ulteriori informazioni, consulta [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza del sito web o una nuova versione di una bozza esistente.
 1. Fai clic su **Documenti** nel pannello a sinistra.
@@ -107,7 +112,7 @@ Per creare una bozza statica, il sito web deve essere accessibile al pubblico (n
 
 1. Fai clic su **Fine**.
 
-   Se hai selezionato più risoluzioni di screenshot al passaggio 8, l’elenco include una serie di screenshot per ogni risoluzione. Puoi generare queste schermate come bozze separate o combinarle in un’unica bozza (vedi  in .). È consigliabile combinarle, soprattutto se si sta creando una bozza statica del sito Web.
+   Se hai selezionato più risoluzioni di screenshot al passaggio 8, l’elenco include una serie di screenshot per ogni risoluzione. Puoi generare queste schermate come bozze separate o combinarle in un’unica bozza (vedi in .). È consigliabile combinarle, soprattutto se si sta creando una bozza statica del sito Web.
 
    >[!NOTE]
    >

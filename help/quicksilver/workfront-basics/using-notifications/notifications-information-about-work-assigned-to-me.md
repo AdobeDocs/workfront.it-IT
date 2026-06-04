@@ -1,19 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notifiche: informazioni sul lavoro assegnato a me'
+title: 'Notifiche: informazioni sul lavoro assegnatomi'
 description: Le notifiche seguenti ti avvisano delle attività che si verificano su un elemento di lavoro assegnato.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 1%
+source-wordcount: 2016
+ht-degree: 2%
 
 ---
 
-# Notifiche: informazioni sul lavoro assegnato a me
+# Notifiche: informazioni sul lavoro assegnatomi
 
 Le notifiche seguenti ti avvisano delle attività che si verificano su un elemento di lavoro assegnato.
 
@@ -62,7 +66,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><strong>Tutti i predecessori di un'attività assegnata al mio team sono completati</strong> </p> <p>Quando un predecessore di una delle loro attività viene contrassegnato come completato, il team assegnato riceve una notifica e-mail.</p> <p>Gli utenti con una licenza Revisione o Richiedente non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Attività completata: &lt;Nome&gt;</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è: <em> Digest of Work Assigned to You &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Nome attività<br>Progetto attività<br>Numero di riferimento attività<br>Nome dell'utente che ha completato l'attività predecessore<br>Stato dell'attività predecessore<br>Data e ora di completamento del predecessore<br>Stato precedente dell'attività predecessore<br><strong>Ulteriori dettagli</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività completate<br>*Nome attività<br>*Nome dell'utente che ha completato l'attività<br>*Data del riepilogo giornaliero<br> </td>
+   <td> Nome attività<br>Progetto attività<br>Numero di riferimento attività<br>Nome dell'utente che ha completato l'attività predecessore<br>Stato dell'attività predecessore<br>Data e ora di completamento del predecessore<br>Stato precedente dell'attività predecessore<br><strong>Ulteriori dettagli</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività completate<br>*Nome attività<br>*Nome dell'utente che ha completato l'attività<br>*Data del riepilogo giornaliero <br></td>
    <td><strong>Istantanea</strong> </td> 
   </tr>
   <!--
@@ -101,7 +105,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>I documenti vengono caricati o modificati nelle richieste alle quali sono assegnato</strong> </p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o i dettagli del documento vengono modificati in relazione a un problema che ha aggiunto.</p> <p>Una notifica e-mail non viene inviata se l’utente che ha attivato il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current] e se il progetto è configurato come Help Request Queue (come descritto in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>).</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Documento aggiunto a] &lt;Nome richiesta&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> <p>Nome richiesta<br>Nome progetto (Nome coda richieste)<br>Numero di riferimento documento <br>Nome dell'utente che ha caricato il documento<br>Nome documento <br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!UICONTROL Anteprima]</strong> e <strong>[!UICONTROL Download]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati o modificati<br>*Nome documento<br>*Oggetto Nome<br>*Nome dell'utente che ha caricato il documento<br>*Data del riepilogo giornaliero<br></p> </td> 
+   <td> <p>Nome richiesta<br>Nome progetto (Nome coda richieste)<br>Numero di riferimento documento <br>Nome dell'utente che ha caricato il documento<br>Nome documento <br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!Anteprima UICONTROL]</strong> e <strong>[!Download UICONTROL]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati o modificati<br>*Nome documento<br>*Oggetto Nome<br>*Nome dell'utente che ha caricato il documento<br>*Data del riepilogo giornaliero<br></p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 

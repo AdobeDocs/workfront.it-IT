@@ -6,10 +6,16 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+TQID: https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: 346
+ht-degree: 6%
 
 ---
 
@@ -48,8 +54,8 @@ Per informazioni sulla condivisione di oggetti in Workfront, vedere gli articoli
 * Per rapporti, dashboard e calendari, vedi i seguenti articoli:
 
    * [Condividere un rapporto in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Condividere un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Condivisione di un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Condividere una dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Condividere un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
   Inoltre, vedere [Condividere report, dashboard e calendari](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) per informazioni generali sulla condivisione di report, dashboard e calendari.
 

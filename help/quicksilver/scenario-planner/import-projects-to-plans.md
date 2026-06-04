@@ -6,11 +6,17 @@ description: Puoi importare progetti esistenti in un piano. I progetti importati
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: 1679
 ht-degree: 2%
 
 ---
@@ -185,7 +191,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 >
 >Si verificano le seguenti situazioni:
 >
->* Le modifiche apportate al progetto non influiscono mai sull&#39;iniziativa dopo l&#39;importazione del progetto nel piano. Tali modifiche includono modifiche alle allocazioni dei ruoli.
+>* Le modifiche apportate al progetto non influiscono mai sull&#39;iniziativa dopo l&#39;importazione del progetto nel piano.Queste modifiche includono modifiche alle allocazioni dei ruoli.
 >* Le modifiche apportate all&#39;iniziativa hanno effetto sulle informazioni nell&#39;area [!DNL Scenario Planner] del progetto solo quando si pubblica l&#39;iniziativa nel progetto corrispondente. In caso contrario, non influiscono sulle informazioni relative alle [!UICONTROL ore pianificate] per le attività e i problemi del progetto.
 >
 >  Per informazioni su come la pubblicazione delle iniziative influisce sui progetti collegati, vedere [Aggiornare o creare progetti pubblicando iniziative nella Pianificazione scenario](../scenario-planner/publish-scenarios-update-projects.md).
@@ -249,7 +255,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Progetto]</td> 
-      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto , il progetto è stato eliminato.</p> </td> 
+      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto [!UICONTROL], il progetto è stato eliminato.</p> </td> 
      </tr> 
     </tbody> 
    </table>

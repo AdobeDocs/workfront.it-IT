@@ -8,13 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 11%
+source-wordcount: 346
+ht-degree: 13%
 
 ---
-
 
 # Registrare un’integrazione webhook
 
@@ -33,7 +37,7 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Campo</th> 
+   <th>Nome campo</th> 
    <th>Descrizione</th> 
   </tr> 
  </thead> 

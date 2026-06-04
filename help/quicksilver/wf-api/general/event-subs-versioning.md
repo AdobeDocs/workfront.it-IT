@@ -2,28 +2,32 @@
 content-type: api
 navigation-topic: general-api
 title: Controllo delle versioni delle sottoscrizioni agli eventi
-description: API di abbonamento agli eventi
+description: API sottoscrizione a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
-# Controllo delle versioni delle sottoscrizioni agli eventi
+# Controllo delle versioni di sottoscrizione eventi
 
-In Workfront sono disponibili due versioni delle sottoscrizioni di eventi. Questo articolo descrive le differenze tra di essi.
+Workfront dispone di due versioni di sottoscrizioni eventi. Questo articolo descrive le differenze tra di essi.
 
-La nuova versione non è una modifica all’API Workfront, ma piuttosto una modifica alla funzionalità di abbonamento agli eventi.
+Questa nuova versione non cambia l’API Workfront, ma la funzionalità di sottoscrizione eventi.
 
-La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, gli abbonamenti esistenti non si interrompano, consentendo di testare e aggiornare alla nuova versione senza interruzioni nell’abbonamento agli eventi.
+La possibilità di aggiornare o eseguire il downgrade delle sottoscrizioni eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, le sottoscrizioni esistenti non vengano interrotte, consentendo di testarle e aggiornarle alla nuova versione senza interruzioni nella sottoscrizione eventi.
 
 
-Quando aggiorni o esegui il downgrade dell’abbonamento a un’altra versione, ricevi eventi duplicati per ogni consegna di eventi per una finestra di cinque minuti dopo la modifica della versione. I duplicati includono uno per ogni abbonamento all’evento versione 1 e versione 2. In questo modo non si perde nessun evento a causa della modifica della versione dell’abbonamento all’evento.
+Quando aggiorni o esegui il downgrade della sottoscrizione eventi a un’altra versione, ricevi eventi duplicati per ogni consegna di eventi per una finestra di cinque minuti dopo la modifica della versione. I duplicati includono una versione 1 e versione 2 per ogni iscrizione eventi. Ciò garantisce che non si perdano eventi a causa della modifica della versione dell’iscrizione eventi.
 
 Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrade delle sottoscrizioni di eventi, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) nell&#39;articolo API delle sottoscrizioni di eventi.
 
@@ -90,7 +94,7 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
  </thead> 
  <tbody> 
   <tr> 
-   <th rowspan="1">ASSEGNA</th> 
+   <th rowspan="1">ASSGN</th> 
    <td>
     <ul>
      <li><code>projectID</code></li>
@@ -161,7 +165,7 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
    </td> 
    <td>Quando un oggetto Expense è stato eliminato, è stato inviato un evento <code>UPDATE</code> modificando i campi interessati in null prima dell'invio dell'evento <code>DELETE</code>.    </td> 
    <td>L'evento <code>UPDATE</code> aggiuntivo non viene inviato. L'evento <code>DELETE</code> contiene valori corretti per i campi interessati nello stato prima. </td> 
-   <td>Se si dispone di un filtro per i campi interessati sugli eventi <code>UPDATE</code> e si prevede di riceverlo quando l'oggetto viene eliminato, l'evento <code>UPDATE</code> non verrà più ricevuto. Se si desidera visualizzare questi campi quando l'oggetto viene eliminato, è necessario creare una sottoscrizione <code>DELETE</code> aggiuntiva.
+   <td>Se si dispone di un filtro per i campi interessati sugli eventi <code>UPDATE</code> e si prevede di riceverlo quando l'oggetto viene eliminato, l'evento <code>UPDATE</code> non verrà più ricevuto. Se si desidera visualizzare questi campi quando l'oggetto viene eliminato, è necessario creare un abbonamento <code>DELETE</code> aggiuntivo.
 </td> 
   </tr> 
   <tr> 
@@ -255,6 +259,6 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
 
 Workfront Fusion utilizza gli abbonamenti agli eventi per controllare le modifiche in Workfront per attivare gli scenari. Puoi aggiornare la versione della sottoscrizione dell’evento utilizzata direttamente da Fusion in uno scenario, utilizzando il modulo Workfront > Aggiorna versione payload eventi.
 
-Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
+Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
 
-Per le risorse sulla conservazione degli scenari di Workfront Fusion durante l&#39;aggiornamento dell&#39;abbonamento agli eventi, inclusa la registrazione di un webinar, consulta [Conservazione degli scenari di Fusion durante l&#39;aggiornamento V2 degli abbonamenti agli eventi](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=it).
+Per le risorse sulla conservazione degli scenari di Workfront Fusion durante l’aggiornamento di sottoscrizione eventi, inclusa la registrazione di un webinar, consulta [Conservazione degli scenari di Fusion durante l’aggiornamento alla versione 2 di sottoscrizione eventi](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

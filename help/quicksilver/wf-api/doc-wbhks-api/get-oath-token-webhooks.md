@@ -2,21 +2,24 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Ottieni token OAuth2
-description: Ottieni token OAuth2
+title: Ottenere token OAuth2
+description: Ottenere token OAuth2
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/dspQLWwqjYdo3y9Trqv70ylGd1hFE-ynJaBU7-xLyxg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 3%
+source-wordcount: 254
+ht-degree: 10%
 
 ---
 
-
-# Ottieni token OAuth2
+# Ottenere token OAuth2
 
 ## Recupero token OAuth2
 
@@ -98,7 +101,7 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint del 
   </tr>
   <tr>
    <td>expires_in </td>
-   <td>long</td>
+   <td>lungo</td>
    <td><p>(facoltativo) Tempo (in secondi) prima della scadenza del token di accesso, in genere 3.600.</p></td>
   </tr>
  </tbody>

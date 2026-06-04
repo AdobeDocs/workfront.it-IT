@@ -2,19 +2,24 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configurare le impostazioni di posta indesiderata per i client e-mail più comuni
+title: Configurare le impostazioni dello spam per i client e-mail più comuni
 description: Puoi configurare il tuo client di posta elettronica in modo che [!DNL Workfront Proof] le e-mail non vengano inviate alla cartella di posta indesiderata.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 0%
+source-wordcount: 1499
+ht-degree: 1%
 
 ---
 
-# Configurare le impostazioni di posta indesiderata per i client e-mail più comuni
+# Configurare le impostazioni dello spam per i client e-mail più comuni
 
 >[!IMPORTANT]
 >
@@ -95,7 +100,7 @@ Per aggiungere i due indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&qu
 1. Fai clic su **[!UICONTROL Aggiungi]** nella scheda **[!UICONTROL Mittenti attendibili]**.
 
 1. Copiare e incollare il primo indirizzo &quot;[!UICONTROL da]&quot; o solo il nome di dominio (il resto del nome dopo il simbolo @) nella casella **[!UICONTROL Aggiungi indirizzo o dominio]**.
-1. Fare clic su **[!UICONTROL OK]**. L’indirizzo viene aggiunto all’elenco.
+1. Fai clic su **[!UICONTROL OK]**. L’indirizzo viene aggiunto all’elenco.
 1. Per il secondo indirizzo &quot;[!UICONTROL from]&quot;, ripetere i passaggi 3-5.
 
 ### Per [!DNL Workfront Proof] e-mail esistenti

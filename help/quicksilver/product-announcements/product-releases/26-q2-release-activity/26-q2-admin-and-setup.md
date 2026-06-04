@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: 512
+ht-degree: 2%
 
 ---
 
@@ -24,9 +30,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Per semplificare l’utilizzo dell’intelligenza artificiale nelle attività quotidiane, abbiamo creato il Collaboratore IA per la revisione dei contenuti. Collaborator è un modo per integrare gli agenti di intelligenza artificiale nei progetti e nelle attività. Puoi configurare un collaboratore AI con le linee guida del brand, quindi assegnarlo a un’attività come faresti con un utente.
 
@@ -38,9 +42,7 @@ Per ulteriori informazioni, vedere [Configurare i collaboratori IA](/help/quicks
 
 >[!NOTE]
 >
->Anteprima: 5 marzo 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 5 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 L’area Trimestre personalizzato è stata spostata dalla sezione Preferenze progetto. Ora è una sezione indipendente in Configurazione. 
 Questo aggiornamento include:
@@ -55,9 +57,7 @@ Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilve
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
 
 Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.
 
@@ -67,9 +67,7 @@ Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/he
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026
->Rilascio rapido in produzione: venerdì 12 febbraio 2026
->Produzione per tutti: da definire
+>Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: da definire
 >
 >Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.
 
@@ -81,7 +79,7 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 ## Nuovi indirizzi IP per le notifiche e-mail di Workfront
 
-Stiamo aggiornando gli indirizzi IP utilizzati per inviare notifiche e-mail da Workfront. Se l’organizzazione mantiene un elenco Consentiti di e-mail o di firewall, è necessario aggiungere i nuovi indirizzi IP riportati di seguito per garantire la continuità nella consegna delle notifiche di Workfront.
+Stiamo aggiornando gli indirizzi IP utilizzati per inviare notifiche e-mail da Workfront. Se l’organizzazione mantiene un inserisco nell&#39;elenco Consentiti di e-mail o firewall, è necessario aggiungere i nuovi indirizzi IP riportati di seguito per garantire la continuità nella consegna delle notifiche Workfront.
 
 Questi aggiornamenti si applicano a tutte le e-mail in uscita generate dall’applicazione Workfront, incluse approvazioni, promemoria, notifiche di bozze e altri messaggi di sistema.
 
@@ -98,4 +96,4 @@ UE:
 * 24.110.76.224
 * 24.110.76.223
 
-Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

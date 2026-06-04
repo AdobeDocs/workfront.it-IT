@@ -2,19 +2,22 @@
 content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: Domande frequenti - Visualizzatore bozze desktop
+title: Domande frequenti - Visualizzatore di bozza desktop
 description: No. Il visualizzatore di bozze desktop è progettato appositamente per la verifica in tempo reale dei siti Web e per la verifica dei contenuti web interattivi, ad esempio gli annunci sui banner.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 3%
 
 ---
 
-# Domande frequenti - Visualizzatore bozze desktop
+# Domande frequenti - Visualizzatore di bozza desktop
 
 ## La mia organizzazione non verifica i contenuti interattivi. È ancora necessario installare il Visualizzatore bozze desktop?
 

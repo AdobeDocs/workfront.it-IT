@@ -7,11 +7,15 @@ description: Query di esempio che è possibile utilizzare per acquisire familiar
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 921
 ht-degree: 1%
 
 ---
@@ -163,7 +167,7 @@ La query precedente restituisce i dati seguenti:
 
 ### Spiegazione
 
-La query utilizza le funzionalità di rilevamento degli eventi di modifica di Data Connect.  Determina la data di attivazione di un evento con un nuovo valore di stato diverso da quello dell’evento precedente. 
+La query utilizza le funzionalità di rilevamento degli eventi di modifica di Data Connect e determina la data in cui è stato attivato un evento con un nuovo valore di stato diverso da quello dell&#39;evento precedente. 
 
 Esame della query dall’interno verso l’esterno: 
 
@@ -172,7 +176,7 @@ Esame della query dall’interno verso l’esterno: 
 
 2. Filtrare solo i record modificati: 
 
-   * Selezionare i record dal calcolo nel passaggio 1 in cui lo stato precedente.= stato corrente. 
+   * Selezionare i record dal calcolo nel passaggio 1 in cui lo stato precedente != lo stato corrente. 
 
 3. Calcola la marca temporale effettiva di inizio/fine e la durata in giorni: 
 
@@ -183,11 +187,9 @@ Esame della query dall’interno verso l’esterno: 
 
 >[!NOTE]
 >
->Si consiglia di utilizzare questa query come proprio &quot;View&quot; in PowerBI o Tableau.  Se si desidera importare altri campi da `<object>_event view`, unire l&#39;output di questa query di nuovo a `<object>_event view`.  I campi di join sono i seguenti: <br>
->Per projects_event: 
->`From projects_event p`
->`Join <above query> c on c.projectid = p.projectid  `
->`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>Si consiglia di utilizzare questa query come proprio &quot;View&quot; in PowerBI o Tableau. Se si desidera inserire altri campi da `<object>_event view`, unire di nuovo l&#39;output di questa query a `<object>_event view`. I campi di join sono i seguenti: <br>
+>Per eventi_progetti: 
+>`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

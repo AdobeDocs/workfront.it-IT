@@ -7,9 +7,14 @@ description: Gli amministratori e gli amministratori di fatturazione possono cre
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: 994
 ht-degree: 0%
 
 ---
@@ -46,7 +51,7 @@ Per ulteriori informazioni, vedere [Informazioni sulle autorizzazioni per le car
 * Cartelle private
 Per ulteriori informazioni, vedere [Informazioni sulle autorizzazioni per le cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
-* Contatti
+* Conttati
 Per ulteriori informazioni, vedere [Contatti](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
 
 * Gruppi
@@ -55,7 +60,7 @@ Per ulteriori informazioni, vedere [Gruppi](https://support.workfront.com/hc/en-
 * Tag
 Per ulteriori informazioni, vedere [Creare e gestire i tag in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
-* Visualizzazioni personalizzate
+* Viste personalizzate
 Per ulteriori informazioni, vedere [Creare e gestire visualizzazioni personalizzate in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ![Schermata_2018-04-06_12-20-27.png](assets/screenshot-2018-04-06-12-20-27-350x223.png)

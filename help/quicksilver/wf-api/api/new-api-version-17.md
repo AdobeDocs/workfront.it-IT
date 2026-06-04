@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 17 dell’API
+title: Novità nella versione API 17
 description: Adobe Workfront ha rilasciato la versione API 17 il 6 aprile 2022. La versione 17 dell’API presenta le seguenti modifiche rispetto alla versione 16.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/6cMTHhlWM6xf4Y7w4HRIdqV-w0aOOj0cq21fp1fDa2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 1%
+source-wordcount: 1358
+ht-degree: 6%
 
 ---
 
-# Novità della versione 17 dell’API
+# Novità nella versione API 17
 
 Adobe Workfront ha rilasciato la versione API 17 il 12 ottobre 2023. La versione 17 dell’API presenta le seguenti modifiche rispetto alla versione 16.
 
@@ -74,7 +78,7 @@ Un oggetto ExternalDocument è un documento o un&#39;altra risorsa digitale che 
           <li><p><b>readOnly</b></p></li>
           <li><p><b>dimensione</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
-          <li><p><b>valore</b></p></li>
+          <li><p><b>value</b></p></li>
         </ul>
       </td>
     </tr>
@@ -395,7 +399,7 @@ L&#39;oggetto JournalEntry può essere impostato per registrare informazioni su 
               <li>Revisore modificato (ARC)</li>
               <li>Revisione completata (RDC)</li>
               <li>Revisione revocata (RDR)</li>
-              <li>Publish (PUB)</li>
+              <li>Pubblicazione (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -812,7 +816,7 @@ Un oggetto UserNote è una notifica.
               <li>Il documento richiede la tua approvazione ora anziché una revisione (ADN)</li>
               <li>Documento revisionato (RDC)</li>
               <li>Documento revisionato (TRC)</li>
-              <li>(Utente) ha rivisto (documento) come completato. La tua recensione non è più necessaria. (TRN)</li>
+              <li>(Utente) ha rivisto (documento) come completato. La tua revisione non è più necessaria. (TRN)</li>
             </ul>
           </li>
         </ul>

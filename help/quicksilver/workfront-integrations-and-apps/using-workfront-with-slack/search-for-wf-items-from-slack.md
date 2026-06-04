@@ -6,10 +6,16 @@ description: Puoi cercare  [!DNL Adobe Workfront] elementi da [!DNL Slack], if y
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/JulYq173XQa6mG93qzUwfBDn4TPVEafD2OVpcIAXxi8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: 208
+ht-degree: 20%
 
 ---
 
@@ -21,7 +27,7 @@ Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con [!DNL Sl
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +38,7 @@ Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con [!DNL Sl
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
@@ -77,7 +83,7 @@ Prima di poter cercare [!DNL Workfront] elementi da [!DNL Slack], è necessario
    * Documento
    * Portfolio
    * Programma
-   * Dashboard di
+   * Dashboard
    * Azienda
    * Nota
 

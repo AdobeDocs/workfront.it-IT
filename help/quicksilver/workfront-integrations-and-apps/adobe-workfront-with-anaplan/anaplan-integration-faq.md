@@ -6,9 +6,14 @@ description: Devo utilizzare  [!DNL Adobe Workfront Fusion?]
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+TQID: https://experienceleague.adobe.com/e-IZiEvF2GkA5uS3QA-J8LQYCeV9dU698hPcSnCqR3Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: 515
 ht-degree: 0%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 0%
 * [Questa integrazione richiederà servizi di implementazione?](#will-this-integration-require-implementation-services)
 * [Esiste un modo specifico con cui devo configurare  [!DNL Workfront]  affinché questo funzioni?](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
 * [Esiste un modo specifico con cui devo configurare  [!DNL Anaplan]  affinché questo funzioni?](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [&#x200B; [!DNL Workfront professional services] Mi aiuterà a configurare la mia [!DNL Anaplan] area di lavoro?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [ [!DNL Workfront professional services] Mi aiuterà a configurare la mia [!DNL Anaplan] area di lavoro?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## Devo utilizzare [!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
 

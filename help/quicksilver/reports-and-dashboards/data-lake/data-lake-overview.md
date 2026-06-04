@@ -8,12 +8,16 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mZDdIAnoxjbsCZ2FO0Y4FDF2c-2c-5oXR-S-o-7vQ5Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 32%
+source-wordcount: 182
+ht-degree: 31%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 32%
 
 Workfront Data Connect consente di accedere ai dati Workfront utilizzando la tecnologia Snowflake, consentendo di rispondere a domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di analizzare i propri dati utilizzando strumenti di visualizzazione dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
 
-Gli abbonati saranno in grado di collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) a Data Connect per creare visualizzazioni di dati con i seguenti tipi di dati:
+Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) a Connessione dati per creare visualizzazioni dati con i seguenti tipi di dati:
 
 * Bassa latenza, dati dello stato corrente
 * Modificare i record di eventi per i confronti point-in-time

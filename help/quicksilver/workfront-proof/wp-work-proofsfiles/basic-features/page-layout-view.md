@@ -8,10 +8,13 @@ description: È possibile modificare il layout della pagina nella scheda Viste.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/e8RxYM5I6q6tUSGMbVcqgfNv6hkj6jhh7qhUYVEeSXk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: 218
+ht-degree: 5%
 
 ---
 
@@ -30,7 +33,7 @@ Puoi modificare il layout della pagina nella scheda [!UICONTROL Visualizzazioni]
 
   ![Visualizzazioni_pagine_-_list_view.png](assets/page-views---list-view-350x164.png)
 
-## Lista Thumbnail
+## Elenco miniature
 
 * Mostra l’icona dell’immagine o del file della bozza, la bozza o il nome del file più le colonne della vista standard
 * Il menu [!UICONTROL azioni bozza] si trova sul lato destro della riga (1)

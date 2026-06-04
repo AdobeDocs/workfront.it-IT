@@ -1,24 +1,30 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Richiama approvazioni inviate
+title: Richiamare le approvazioni inviate
 description: È possibile richiamare i seguenti oggetti inviati per l'approvazione.
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/ItAwwM5EdjZeV5LRwfkSnEYB6GCfpuLzOCfANanm-hE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 1%
+source-wordcount: 1202
+ht-degree: 4%
 
 ---
 
-# Richiama approvazioni inviate
+# Richiamare le approvazioni inviate
 
 È possibile richiamare i seguenti oggetti inviati per l&#39;approvazione:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Schede orario
 * Documenti
@@ -26,7 +32,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,10 +43,10 @@ ht-degree: 1%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Contribuisci o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -48,7 +54,7 @@ ht-degree: 1%
    <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, schede orario, documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato all’approvazione </p></td> 
   </tr> 
  </tbody> 
@@ -66,7 +72,7 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale del progetto, il
 
 >[!NOTE]
 >
->È possibile associare il primo stato di un progetto o di un&#39;attività a un processo di approvazione utilizzando un modello. Per ulteriori informazioni sull’aggiunta di approvazioni a un modello, consulta  [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>È possibile associare il primo stato di un progetto o di un&#39;attività a un processo di approvazione utilizzando un modello. Per ulteriori informazioni sull&#39;aggiunta di approvazioni a un modello, vedere [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Per richiamare l&#39;approvazione di un progetto inviata:
 

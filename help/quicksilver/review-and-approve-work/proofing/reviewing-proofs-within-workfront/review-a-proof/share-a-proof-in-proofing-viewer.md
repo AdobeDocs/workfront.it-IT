@@ -1,19 +1,25 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Condividere una bozza dal visualizzatore di bozze
+title: Condividere una bozza dal visualizzatore di bozza
 description: Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abilitata dal proprietario o dal creatore della bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 0%
+source-wordcount: 1446
+ht-degree: 4%
 
 ---
 
-# Condividere una bozza dal visualizzatore di bozze
+# Condividere una bozza dal visualizzatore di bozza
 
 Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abilitata dal proprietario o dal creatore della bozza.
 
@@ -23,7 +29,7 @@ Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +40,7 @@ Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +53,7 @@ Puoi condividere una bozza dal visualizzatore di bozze se la condivisione è abi
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,7 +159,7 @@ Per condividere una bozza con i singoli utenti:
 
    * **Ruolo bozza**: per ulteriori informazioni, vedere [Gestione dei ruoli bozza in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   * **Fase**: (disponibile solo se la bozza dispone di un flusso di lavoro automatizzato). Per ulteriori informazioni, consulta  [Panoramica delle fasi del flusso di lavoro automatizzato](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Fase**: (disponibile solo se la bozza dispone di un flusso di lavoro automatizzato). Per ulteriori informazioni, vedere [Panoramica delle fasi automatizzate del flusso di lavoro](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
    * **Avvisi e-mail**: seleziona una delle opzioni seguenti per specificare in che modo la persona riceverà le notifiche sull&#39;attività nella bozza.
 

@@ -6,11 +6,17 @@ description: La delega delle richieste di approvazione ti consente di assegnare 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -76,7 +82,7 @@ Durante il periodo di approvazione designato, l’utente a cui deleghi una richi
   > L’amministratore Adobe Workfront può impedire agli utenti di accedere a determinati tipi di oggetti. Quando un utente non ha accesso a un tipo di oggetto e all’utente viene delegata un’approvazione di tale tipo, l’utente non ha accesso alla visualizzazione dell’oggetto. Tuttavia, l&#39;utente può ancora approvare o rifiutare le richieste di approvazione dalla **Home** pagina, come descritto in [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).\
   >Ad esempio, l&#39;utente A appartiene al gruppo A. L&#39;amministratore di Workfront ha limitato i diritti di accesso del Gruppo A in modo che gli utenti di questo gruppo non possano visualizzare le attività all&#39;interno di Workfront. Se una richiesta di approvazione di un’attività è delegata all’Utente A, quest’ultimo non può visualizzare l’attività a cui è associata l’approvazione. Tuttavia, l’utente A può approvare o rifiutare la richiesta di approvazione dalla home page.
 
-  Per informazioni su come l&#39;amministratore di Workfront può limitare l&#39;accesso ai tipi di oggetto in Configurazione, vedere  [Crea o modifica livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Per informazioni su come l&#39;amministratore di Workfront può limitare l&#39;accesso ai tipi di oggetto all&#39;interno del programma di installazione, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Dopo l&#39;interruzione o l&#39;annullamento della delega di approvazione, l&#39;utente designato come approvatore:
 

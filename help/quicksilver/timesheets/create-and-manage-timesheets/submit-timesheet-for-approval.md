@@ -6,14 +6,20 @@ description: L'invio della scheda orario per l'approvazione fornisce al tuo resp
 author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: 845
+ht-degree: 6%
 
 ---
 
-# Invia una scheda orario per l&#39;approvazione
+# Inviare un timesheet per l’approvazione
 
 <!--Audited: 8/2024-->
 
@@ -21,7 +27,7 @@ L&#39;invio della scheda orario per l&#39;approvazione fornisce al tuo responsab
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +38,7 @@ L&#39;invio della scheda orario per l&#39;approvazione fornisce al tuo responsab
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> <p>Chiaro o superiore </p>
    <p>Revisione o successiva </p>
   </tr> 
@@ -41,7 +47,7 @@ L&#39;invio della scheda orario per l&#39;approvazione fornisce al tuo responsab
    <td> <p>Visualizzare o accedere più facilmente ad attività e problemi </p> </td> 
   </tr> 
   <tr> 
-   <td>Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per la scheda orario</p> </td> 
   </tr> 
  </tbody> 
@@ -51,12 +57,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Invia una scheda orario per l&#39;approvazione
+## Inviare un timesheet per l’approvazione
 
 * [Invia una scheda orario per l&#39;approvazione](#submit-a-timesheet-for-approval)
 * [Visualizzare lo stato di una scheda orario inviata](#view-the-status-of-a-submitted-timesheet)
 
-### Invia una scheda orario per l&#39;approvazione
+### Inviare un timesheet per l’approvazione
 
 Dopo aver impostato un approvatore della scheda orario (come descritto nella sezione [Designare gli approvatori della scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) nell&#39;articolo [Approvare una scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), il pulsante **Chiudi** nella parte inferiore della scheda orario diventa un pulsante **Invia per approvazione**.
 
@@ -87,7 +93,7 @@ Senza queste notifiche, puoi scoprire lo stato delle schede orario inviate nell�
 
 Per visualizzare lo stato di una scheda orario:
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -153,7 +159,7 @@ Per visualizzare lo stato di una scheda orario:
 
 Per richiamare una scheda orario:
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Schede orario**.
 1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtra** ![](assets/filter-nwepng.png).

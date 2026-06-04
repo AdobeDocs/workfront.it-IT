@@ -2,15 +2,20 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Aggiungi un ospite a Workfront Proof
+title: Aggiungere un ospite a Workfront Proof
 description: I contatti sono condivisi in un'organizzazione per impostazione predefinita. Se si aggiunge un ospite, i colleghi visualizzeranno anche tale persona nell'elenco dei contatti. Per informazioni su Ospiti e Colleghi, vedere Informazioni su utenti, membri e ospiti in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 0%
+source-wordcount: 220
+ht-degree: 2%
 
 ---
 

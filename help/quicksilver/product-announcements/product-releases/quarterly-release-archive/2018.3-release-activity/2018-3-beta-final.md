@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta Final 2018.3
+title: 2018.3 Beta finale
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 0%
+source-wordcount: 862
+ht-degree: 1%
 
 ---
 
-# Beta Final 2018.3
+# 2018.3 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
@@ -22,7 +28,7 @@ Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambien
 >
 > La funzionalità descritta in questa pagina è soggetta a modifiche prima della disponibilità nell’ambiente di produzione.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.3, consulta [Panoramica sull&#39;attività di rilascio di 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 La versione finale 2018.3 di Beta contiene i seguenti miglioramenti:
 
@@ -30,7 +36,7 @@ La versione finale 2018.3 di Beta contiene i seguenti miglioramenti:
 * [Aggiornamenti per l&#39;aggiunta di nuove attività nella Home](#updates-for-adding-new-tasks-in-home)
 * [Strumenti di correzione per markup espansi per impostazione predefinita](#proofing-markup-tools-now-expanded-by-default)
 * [Integrazione documento Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* Integrazione di [Workfront for Microsoft Teams](#workfront-for-microsoft-teams-integration)
+* [Integrazione di Workfront per Microsoft Teams](#workfront-for-microsoft-teams-integration)
 * [Aggiornamento di Workfront per l&#39;integrazione con Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Miglioramenti dell’app mobile di Workfront](#workfront-mobile-app-improvements)
 
@@ -45,7 +51,7 @@ In precedenza era possibile sincronizzare gli elementi solo dal Calendario di Ou
 * Ora puoi aggiornare la data di completamento pianificata su un’attività personale.
 * Ora puoi assegnare team e ruoli alle richieste e alle attività di progetto create nella Home.
 
-Per ulteriori informazioni sugli aggiornamenti di cui sopra, vedi  [Crea elementi di lavoro dall&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per ulteriori informazioni sugli aggiornamenti precedenti, vedere [Creare elementi di lavoro dall&#39;area Home](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Strumenti di markup bozza ora espansi per impostazione predefinita {#proofing-markup-tools-now-expanded-by-default}
 
@@ -53,7 +59,7 @@ Ora, quando apri una bozza nel visualizzatore di bozze, gli strumenti di markup 
 
 In precedenza, era necessario fare clic su per espandere questi strumenti in un menu verticale.
 
-Per ulteriori informazioni, consulta  [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Per ulteriori informazioni, vedere [Configurare le impostazioni del visualizzatore di verifica](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Integrazione dei documenti di Microsoft OneDrive {#microsoft-onedrive-document-integration}
 
@@ -75,7 +81,7 @@ Per informazioni sulle integrazioni dei documenti, vedere [Configurare le integr
 L’integrazione offre le seguenti funzionalità:
 
 * Crea nuove attività personali
-* Prendi decisioni di approvazione
+* Prendere decisioni di approvazione
 * Cercare e allegare elementi Workfront a un messaggio
 * Commento sugli elementi di Workfront e risposta alle notifiche
 * Accetta nuovo lavoro
@@ -84,7 +90,7 @@ L&#39;integrazione è disponibile senza alcun costo aggiuntivo per tutti i clien
 
 >[!NOTE]
 >
-> Alcune aree dell’integrazione descritte nel video seguente sono state modificate. Per informazioni aggiornate su Workfront per i Microsoft Teams, vedere la sezione [[!DNL Adobe Workfront for Microsoft Teams]: article index](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
+> Alcune aree dell’integrazione descritte nel video seguente sono state modificate. Per informazioni più recenti su Workfront for Microsoft Teams, vedere la sezione [[!DNL Adobe Workfront for Microsoft Teams]: article index](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Aggiornamento dell&#39;integrazione di Workfront per Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -93,7 +99,7 @@ Oltre a funzionalità riprogettate e migliorate, l&#39;integrazione di Workfront
 * Accedi utilizzando le credenziali Workfront o SAML
 * Caricare risorse in Workfront
 * Aggiungere commenti e versioni ai documenti caricati
-* Passare agli elementi di lavoro e ai documenti direttamente dalle applicazioni Adobe
+* Passa agli elementi di lavoro e ai documenti direttamente dalle applicazioni Adobe
 * Accedere al proprio elenco di lavoro
 * Richiedi approvazione documento
 * Eseguire una ricerca generale per qualsiasi progetto, attività o problema a cui si ha accesso

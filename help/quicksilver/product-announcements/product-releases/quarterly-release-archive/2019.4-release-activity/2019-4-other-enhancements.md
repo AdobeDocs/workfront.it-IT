@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: 2019.4 altri miglioramenti
+title: Altri miglioramenti 2019.4
 description: Questa pagina descrive vari miglioramenti apportati alla versione 2019.4 di. Sarà reso disponibile nell’ambiente di produzione la settimana dell’11 novembre 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/YIrC0bPIlY8yLTVQ5VlsYctwXFu-fV5syuqmmh7i5ek
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
-# 2019.4 altri miglioramenti
+# Altri miglioramenti 2019.4
 
 Questa pagina descrive vari miglioramenti apportati alla versione 2019.4 di. Sarà reso disponibile nell’ambiente di produzione la settimana dell’11 novembre 2019.
 
@@ -24,7 +29,7 @@ Per un elenco di tutte le modifiche apportate in 2019.4, consulta [Panoramica su
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Avvia un flusso di lavoro di verifica automatizzata da un Adobe documento CC</strong> <p>Senza uscire da Adobe CC, è possibile avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato. Per ulteriori informazioni, vedere la sezione <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generare una bozza da Illustrator o InDesign</a> nell'articolo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utilizzare l'estensione Workfront per Illustrator e InDesign</a>.</p> </td> 
+   <td> <strong>Avvia un flusso di lavoro di verifica automatizzata da un documento Adobe CC</strong> <p>Senza uscire da Adobe CC, puoi avviare un flusso di lavoro di verifica automatizzato per un documento Adobe CC creato. Per ulteriori informazioni, vedere la sezione <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generare una bozza da Illustrator o InDesign</a> nell'articolo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utilizzare l'estensione Workfront per Illustrator e InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

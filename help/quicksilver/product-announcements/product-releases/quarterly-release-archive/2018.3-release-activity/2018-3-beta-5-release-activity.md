@@ -1,29 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Attività sulla versione 2018.3 di Beta 5
+title: Attività sulla versione 2018.3 Beta 5
 description: Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: 2151
 ht-degree: 0%
 
 ---
 
-# Attività sulla versione 2018.3 di Beta 5
+# Attività sulla versione 2018.3 Beta 5
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.3 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 21 settembre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
 
-Per un elenco di tutte le modifiche apportate nel 2018.3, consulta  Panoramica sull&#39;attività della versione di [2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Per un elenco di tutte le modifiche apportate in 2018.3, consulta [Panoramica sull&#39;attività di rilascio di 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 La versione 2018.3 di Beta 5 contiene miglioramenti per tutti gli utenti:
 
 * [Tracciare le approvazioni inviate nell&#39;area Home](#track-approvals-you-ve-submitted-in-the-home-area)
-* [Sostituzione degli strumenti basati sul Flash in Workfront](#replacement-of-flash-based-tools-in-workfront)
+* [Sostituzione degli strumenti basati su Flash in Workfront](#replacement-of-flash-based-tools-in-workfront)
 * [Consentire agli utenti con licenza Lavoro di accedere alla scheda secondaria Pianificazione di un progetto](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
 * [Filtri migliorati nella pianificazione risorse](#improved-filters-in-the-resource-planner)
 * [Visualizza le ore effettive nella Programmazione delle risorse](#view-actual-hours-in-the-resource-planner)
@@ -63,9 +67,9 @@ Per ulteriori informazioni, vedere [Gestione approvazioni](../../../../review-an
 
 ## Sostituzione degli strumenti basati su Flash in Workfront {#replacement-of-flash-based-tools-in-workfront}
 
-Tutte le funzionalità basate sulla tecnologia di Flash verranno rimosse da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash verranno rimosse da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
 
-Per ulteriori informazioni su tutte le aree interessate dalla rimozione di queste funzionalità e per capire quali strumenti le sostituiranno, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per ulteriori informazioni su tutte le aree interessate dalla rimozione di queste funzionalità e per capire quali strumenti le sostituiranno, vedere [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## Consentire agli utenti con licenza Lavoro di accedere alla scheda secondaria Pianificazione di un progetto {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -97,7 +101,7 @@ Per informazioni sulla visualizzazione delle informazioni sulle ore nella Progra
 
 ## Dati di programmazione delle risorse nell&#39;esportazione del Business Case {#resource-planner-data-in-the-business-case-export}
 
-Quando si esporta il Business Case in un PDF, le informazioni finanziarie nel file esportato ora riflettono le informazioni nell&#39;area Budget risorse e nella Programmazione risorse. 
+Quando si esporta il Business Case in un PDF, le informazioni finanziarie nel file esportato ora riflettono le informazioni presenti nell&#39;area Budget risorse e nella Programmazione risorse. 
 
 In precedenza, il file esportato rifletteva le informazioni nell&#39;area Stime risorse legacy e nel Capacity Planner. 
 
@@ -131,7 +135,7 @@ Le ore preventivate nel rapporto Utilizzo ora sono compilate dalle informazioni 
 
 Prima di questa modifica, venivano utilizzate le informazioni provenienti dall’area Stime risorse legacy.
 
-Per ulteriori informazioni, consulta  [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Rapporto Utilizzo: visualizzazione delle ore preventivate per utente in un progetto {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,11 +147,11 @@ Il rapporto Utilizzo di un progetto ora visualizza Ore preventivate per utente.
 
 Prima di questa modifica, il rapporto Utilizzo mostrava Ore preventivate solo per mansione. 
 
-Per ulteriori informazioni, consulta  [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo  [Panoramica del report Utilizzo risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Per ulteriori informazioni, vedere [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) nell&#39;articolo [Panoramica del report sull&#39;utilizzo delle risorse](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## File SWF non più supportati nel visualizzatore di bozze {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
-A causa di problemi di sicurezza associati al Flash Adobe, il visualizzatore di bozze non supporta più le bozze create da file SWF. Se apri una bozza creata in precedenza per un file SWF, viene visualizzato un messaggio in cui il contenuto della bozza visualizzato in precedenza era nel visualizzatore di bozze. È possibile visualizzare qualsiasi commento sulla bozza. È inoltre possibile scaricare i commenti e il file SWF originale.
+A causa di problemi di sicurezza associati ad Adobe Flash, il visualizzatore di bozze non supporta più le bozze create da file SWF. Se apri una bozza creata in precedenza per un file SWF, viene visualizzato un messaggio in cui il contenuto della bozza visualizzato in precedenza era nel visualizzatore di bozze. È possibile visualizzare qualsiasi commento sulla bozza. È inoltre possibile scaricare i commenti e il file SWF originale.
 
 Per ulteriori informazioni, vedere [Panoramica sui tipi di file di verifica e sui limiti di dimensione supportati](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) nell&#39;articolo [Panoramica sui tipi di file di verifica e sui limiti di dimensione supportati](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
@@ -165,7 +169,7 @@ Quando si invia un URL dal visualizzatore di bozze, le opzioni visualizzate veng
 
 In precedenza, queste opzioni fornivano le stesse funzionalità attuali, ma la loro organizzazione non era coerente con le opzioni corrispondenti nell&#39;elenco Documenti.
 
-Per ulteriori informazioni, consulta la sezione  [Condividi l&#39;URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) nell&#39;articolo  [Condividi una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Per ulteriori informazioni, vedere la sezione [Condividi l&#39;URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) nell&#39;articolo [Condividi una bozza dal visualizzatore di bozze](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Miglioramenti all’elenco dei commenti nel visualizzatore di bozze {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -254,4 +258,4 @@ Per informazioni sull’apertura delle bozze, consulta .
 
 L’aspetto della scheda Aggiornamenti nell’app mobile è stato aggiornato. Questo miglioramento è attualmente disponibile solo nell’app beta di Workfront per Android.
 
-Per informazioni sulla gestione di aggiornamenti e commenti nell’app mobile Workfront, consulta la sezione  in .
+Per informazioni sulla gestione di aggiornamenti e commenti nell’app mobile Workfront, consulta la sezione in .

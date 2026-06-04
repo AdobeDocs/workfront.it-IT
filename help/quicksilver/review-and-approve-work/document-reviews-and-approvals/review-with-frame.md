@@ -7,12 +7,16 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 8%
+source-wordcount: 540
+ht-degree: 9%
 
 ---
 
@@ -71,7 +75,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 In qualità di revisore, puoi aggiungere commenti e contrassegnare le risorse. Al termine, puoi contrassegnare la recensione come completata in Workfront. Per far avanzare la risorsa nel processo di approvazione, non è necessario contrassegnare la revisione come completata.
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-oppure
+o
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]
@@ -93,7 +97,7 @@ Il documento non passa a uno stato approvato finché tutti gli approvatori asseg
 Per prendere una decisione su un documento:
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-oppure
+o
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]

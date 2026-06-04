@@ -8,9 +8,13 @@ description: Se la tua organizzazione lavora con i freelance, puoi includerli an
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 931
 ht-degree: 0%
 
 ---
@@ -66,7 +70,7 @@ Per informazioni sulla configurazione di un account satellite per i freelance, c
 
 Questa opzione è utile se non si desidera che client e freelance si vedano in [!DNL Workfront Proof]. Puoi consentire ai tuoi freelance di accedere alla [!UICONTROL Dropzone] (disponibile solo nei piani [!UICONTROL Enterprise] e [!UICONTROL Unlimited]). Per ulteriori informazioni, vedere [La [!UICONTROL Dropzone]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
+![freelancers _-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. Il freelance accede alla tua pagina pubblica [!UICONTROL Dropzone].
 1. Usano [!UICONTROL Dropzone] per creare una nuova bozza nel tuo account.

@@ -6,10 +6,15 @@ description: Quando un amministratore  [!DNL Workfront]  crea un nuovo utente, i
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+TQID: https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: 319
+ht-degree: 10%
 
 ---
 
@@ -28,7 +33,7 @@ Per ulteriori informazioni su come un amministratore di Workfront aggiunge nuovi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,10 +44,10 @@ Per ulteriori informazioni su come un amministratore di Workfront aggiunge nuovi
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>

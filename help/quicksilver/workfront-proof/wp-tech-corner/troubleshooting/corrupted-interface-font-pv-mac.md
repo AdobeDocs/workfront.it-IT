@@ -3,19 +3,23 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Risoluzione dei problemi - font di interfaccia danneggiato nel visualizzatore di bozze su Mac
+title: Risoluzione dei problemi - Font dell’interfaccia danneggiato nel visualizzatore di bozze su Mac
 description: Risoluzione dei problemi relativi al font dell’interfaccia danneggiato nel visualizzatore di bozze su Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/t6MNg6tX6QJ2v3SCwu7NhiXcMaYq8CYQrvSi-ng-HWY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 0%
+source-wordcount: 660
+ht-degree: 2%
 
 ---
 
-# Risoluzione dei problemi - font di interfaccia danneggiato nel visualizzatore di bozze su Mac
+# Risoluzione dei problemi - Font dell’interfaccia danneggiato nel visualizzatore di bozze su Mac
 
 >[!IMPORTANT]
 >
@@ -66,7 +70,7 @@ Per risolvere il problema, cancellare la cache dei caratteri del server di tipo 
 Il visualizzatore di bozze legacy è basato su [!DNL Flash Player] e talvolta, quando il testo non è presente nel visualizzatore di bozze, è possibile che si verifichi un conflitto di font tra OS X e [!DNL Flash Player]. Provare a eseguire le operazioni seguenti:
 
 1. Apri il Finder e apri la scheda **[!UICONTROL Vai]**.
-1. Premere il tasto Opzione ( Alt) per aprire la cartella [!UICONTROL Library] nell&#39;elenco a discesa.
+1. Premere il tasto Option (⌥ Alt) per aprire la cartella [!UICONTROL Library] nell&#39;elenco a discesa.
 1. Tenendo premuto il tasto Option, fare clic sulla cartella [!UICONTROL Library].
 1. Una volta aperta la cartella [!UICONTROL Library], passa alla cartella [!UICONTROL Fonts] all&#39;interno di.
 1. Spostare tutti i tipi di carattere presenti nella cartella [!UICONTROL Caratteri] in un&#39;altra cartella, ad esempio sul desktop. Non creare un&#39;altra cartella all&#39;interno della cartella Caratteri.

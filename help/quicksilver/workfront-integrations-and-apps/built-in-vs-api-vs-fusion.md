@@ -7,16 +7,22 @@ title: Metodi di integrazione di Adobe Workfront
 description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di  [!DNL Workfront]  e personalizzarla in base alle esigenze della tua organizzazione. Puoi utilizzare una o tutte queste integrazioni, a seconda di quale sia più utile per una determinata attività.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/uYKhcVyG4-ktNtWp9kz4CX8GIhMunU5UJhMfwcoLcM0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 0%
+source-wordcount: 977
+ht-degree: 2%
 
 ---
 
 # Metodi di integrazione di Adobe Workfront
 
-È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti e altri prodotti [!DNL Adobe]. Queste integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e adattarla alle esigenze della tua organizzazione. Puoi utilizzare una o tutte queste integrazioni, a seconda di quale sia più utile per una determinata attività.
+Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze parti e altri prodotti [!DNL Adobe]. Queste integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e adattarla alle esigenze della tua organizzazione. Puoi utilizzare una o tutte queste integrazioni, a seconda di quale sia più utile per una determinata attività.
 
 ## Integrazioni incorporate
 
@@ -40,7 +46,7 @@ Per ulteriori informazioni sulle integrazioni incorporate, incluso un elenco del
 
 ## Applicazioni OAuth2 personalizzate
 
-Adobe Gli amministratori di [!DNL Workfront] possono creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile integrare Workfront con le applicazioni di propria scelta, incluse quelle interne.
+Gli amministratori di Adobe [!DNL Workfront] possono creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile integrare Workfront con le applicazioni di propria scelta, incluse quelle interne.
 
 >[!NOTE]
 >
@@ -97,4 +103,4 @@ I vantaggi di [!DNL Workfront Fusion] possono includere i seguenti:
 >
 >![Esempio: aggiunta di un commento in Fusion](assets/fusion-example-comment-350x416.png)
 
-Per ulteriori informazioni su [!DNL Workfront Fusion], vedere [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home).
+Per ulteriori informazioni su [!DNL Workfront Fusion], vedere [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

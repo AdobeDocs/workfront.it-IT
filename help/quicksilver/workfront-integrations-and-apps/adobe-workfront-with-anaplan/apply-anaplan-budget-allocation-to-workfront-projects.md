@@ -6,9 +6,14 @@ description: Questo scenario di integrazione sincronizza tutte le allocazioni di
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 743
 ht-degree: 16%
 
 ---
@@ -55,7 +60,7 @@ Questo scenario di integrazione sincronizza tutte le allocazioni di budget effet
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -105,7 +110,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 
    6. [!UICONTROL Marchio]
 
-  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID [!UICONTROL [!DNL Workfront] del progetto &#x200B;] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
+  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID ] del progetto [!UICONTROL [!DNL Workfront] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
 
 Per istruzioni su una di queste azioni, vedere la documentazione di [!DNL Anaplan].
 

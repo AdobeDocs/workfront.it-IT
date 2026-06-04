@@ -7,10 +7,15 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 0%
+source-wordcount: 1233
+ht-degree: 2%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront offre due modelli per il rilascio di nuove funzioni e aggiornamenti. La tua organizzazione può scegliere se ricevere nuove funzionalità su base trimestrale o secondo una pianificazione più rapida. Il processo di preparazione per una versione è simile, indipendentemente dal modello utilizzato dalla tua organizzazione.
+>Workfront offre due modelli per il rilascio di nuove funzioni e aggiornamenti. La tua organizzazione può scegliere se ricevere nuove funzionalità su base trimestrale o secondo una pianificazione di rilascio più rapida. Il processo di preparazione per una versione è simile, indipendentemente dal modello utilizzato dalla tua organizzazione.
 >
 >Per una spiegazione dettagliata dei due modelli di rilascio, vedere [Abilitare o disabilitare le versioni rapide per la propria organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -85,7 +90,7 @@ In qualità di amministratore [!DNL Workfront], riceverai un messaggio del Centr
 
 ### Esplora l&#39;ambiente [!UICONTROL Anteprima sandbox]
 
-L&#39;ambiente [!UICONTROL Anteprima sandbox], noto anche come ambiente [!UICONTROL Anteprima], funge da ambiente in cui gli utenti dell&#39;organizzazione possono testare e lavorare in modo sicuro con una copia separata dei dati dall&#39;ambiente di produzione. [!UICONTROL Workfront] rilascia in genere nuove funzionalità nell&#39;ambiente di anteprima per almeno due settimane     prima che vengano rilasciate nell’ambiente di produzione. Hai l’opportunità di acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se gli utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
+L&#39;ambiente [!UICONTROL Anteprima sandbox], noto anche come ambiente [!UICONTROL Anteprima], funge da ambiente in cui gli utenti dell&#39;organizzazione possono testare e lavorare in modo sicuro con una copia separata dei dati dall&#39;ambiente di produzione. [!UICONTROL Workfront] rilascia in genere nuove funzionalità nell&#39;ambiente di anteprima almeno due settimane prima che vengano rilasciate nell&#39;ambiente di produzione. Hai l’opportunità di acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se gli utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
 
 >[!TIP]
 >
@@ -107,7 +112,7 @@ Per i collegamenti alle panoramiche delle versioni, vedi [Versioni dei prodotti]
 
 Alcune nuove funzioni potrebbero includere un pulsante &quot;Provide Feedback&quot; (Invia feedback). Teniamo conto di questo feedback durante la preparazione del rilascio della funzione in produzione.
 
-Inoltre, in caso di bug o problemi con le nuove funzioni, contattare il supporto tecnico Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Inoltre, in caso di bug o problemi con le nuove funzioni, contattare il supporto tecnico Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Condividere report, dashboard e calendari
+title: Condividere rapporti, dashboard e calendari
 content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
@@ -7,14 +7,19 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: 573
+ht-degree: 2%
 
 ---
 
-# Condividere report, dashboard e calendari
+# Condividere rapporti, dashboard e calendari
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare rapporti, dashboard e calendari quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso a report, dashboard e calendari, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -41,7 +46,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
    * [Condividi un report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Condividi dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Condivisione di un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Condividere un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * È possibile condividere report e dashboard singolarmente oppure in blocco.
 

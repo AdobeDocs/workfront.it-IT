@@ -6,10 +6,15 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 10%
+source-wordcount: 1172
+ht-degree: 6%
 
 ---
 
@@ -69,12 +74,12 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Gestione
    * Contribuisci
 * Quando si condivide un&#39;attività, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati all&#39;attività. Ad esempio, ereditano le stesse autorizzazioni per le attività, i problemi e i documenti secondari allegati all’attività.\
-  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta   [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * È possibile rimuovere le autorizzazioni ereditate da un&#39;attività.\
-  Per ulteriori informazioni sulla rimozione delle autorizzazioni ereditate dagli oggetti, vedere   [Rimuovi le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Per ulteriori informazioni sulla rimozione delle autorizzazioni ereditate dagli oggetti, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Modalità di condivisione di un&#39;attività
 
@@ -87,7 +92,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Specificare le autorizzazioni per uno qualsiasi degli oggetti padre dell&#39;attività: progetto, programma o portfolio. Le attività ereditano le autorizzazioni dagli oggetti padre. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova l&#39;attività. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi.  Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi.  Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >

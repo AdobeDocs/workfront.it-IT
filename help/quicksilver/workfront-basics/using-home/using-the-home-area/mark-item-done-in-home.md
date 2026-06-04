@@ -1,15 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Contrassegna un elemento come completato nell’area Home
+title: Contrassegnare un elemento come completato nell’area Home
 description: È possibile contrassegnare un’attività o un problema come completato se si è l’assegnatario dell’attività o del problema. Quando contrassegni un’attività o un problema come completato, lo stato dell’attività o del problema diventa Completo.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/KIxSnxmDRCIYGQ9Dn-sTJ-LyYQSJQqYloDbyqG9TCOs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 2%
+source-wordcount: 784
+ht-degree: 5%
 
 ---
 
@@ -46,7 +52,7 @@ ht-degree: 2%
    <td> <p>Accesso a [!UICONTROL Edit] per attività e problemi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p></td> 
   </tr> 
  </tbody> 

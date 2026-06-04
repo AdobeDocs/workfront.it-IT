@@ -1,18 +1,23 @@
 ---
-title: Riepiloga utilizzando l’Assistente AI
+title: Riepilogare utilizzando l’Assistente IA
 content-type: reference
 description: È possibile riepilogare rapidamente gli elementi di lavoro e i documenti utilizzando la funzionalità Riepiloga.
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
+TQID: https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: 398
+ht-degree: 12%
 
 ---
 
-# Riepiloga utilizzando l’Assistente AI
+# Riepilogare utilizzando l’Assistente IA
 
 L&#39;Assistente AI di Workfront può riepilogare alcuni oggetti, fornendo una visualizzazione di alto livello dell&#39;intento o dei dettagli dell&#39;oggetto.
 
@@ -21,7 +26,7 @@ Ad esempio, se si richiede all&#39;Assistente AI di riepilogare un progetto, que
 L&#39;Assistente IA può riepilogare i seguenti oggetti:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Documenti
 
@@ -35,7 +40,7 @@ L&#39;Assistente IA può riepilogare i seguenti oggetti:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +51,7 @@ L&#39;Assistente IA può riepilogare i seguenti oggetti:
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
   </tr> 
  </tbody> 
@@ -63,7 +68,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   Per ulteriori informazioni, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) nell&#39;articolo Panoramica dell&#39;Assistente IA.
 * L&#39;amministratore di Workfront deve aver abilitato l&#39;Assistente AI per il proprio livello di accesso.
 
-  Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Per ulteriori informazioni, consulta [Abilitare o disabilitare l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Riepiloga utilizzando i pulsanti Riepiloga
 

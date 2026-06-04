@@ -1,25 +1,29 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Panoramica sulla rielaborazione dei documenti per la verifica
+title: Panoramica sulla rielaborazione dei documenti per la bozza
 description: Quando si invia un documento (DOCX, PDF, XLSX, AI) per la verifica, Adobe Workfront lo rielabora in modo che possa essere visualizzato nel visualizzatore di prove senza l'applicazione software utilizzata per la creazione.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 0%
+source-wordcount: 632
+ht-degree: 1%
 
 ---
 
-# Panoramica sulla rielaborazione dei documenti per la verifica
+# Panoramica sulla rielaborazione dei documenti per la bozza
 
 Quando si invia un documento (DOCX, PDF, XLSX, AI) per la verifica, Adobe Workfront lo rielabora in modo che possa essere visualizzato nel visualizzatore di prove senza l&#39;applicazione software utilizzata per la creazione. 
 
 Ogni pagina del documento viene visualizzata nel visualizzatore di bozze come miniatura. Quando si fa clic su una miniatura, è possibile eseguire lo zoom di una versione bitmap della pagina al 100%, 200% e 400%. Per bozze che superano gli 800 mm in altezza o larghezza, il livello di zoom massimo è 200%.
 
-I colori del documento vengono visualizzati in sRGB con la conversione dei colori dalla libreria di Adobi più recente. Il visualizzatore di bozze supporta qualsiasi profilo International Color Consortium (ICC) incorporato nel documento.
+I colori nel documento vengono visualizzati in sRGB con la conversione dei colori dalla libreria Adobe più recente. Il visualizzatore di bozze supporta qualsiasi profilo International Color Consortium (ICC) incorporato nel documento.
 
 Tutto il testo del font viene estratto nel relativo livello, a condizione di includere la corretta estensione del file durante il caricamento del documento nel sistema. Il testo incluso come immagini o curve non viene visualizzato.
 

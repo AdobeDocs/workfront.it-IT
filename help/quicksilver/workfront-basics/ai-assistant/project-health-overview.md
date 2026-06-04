@@ -5,9 +5,14 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: 2065
 ht-degree: 4%
 
 ---
@@ -246,7 +251,7 @@ Nel sistema possono essere presenti più configurazioni di Project Health.
 1. Nella sezione **Quali fattori si desidera includere nell&#39;integrità del progetto** deselezionare i fattori che non si desidera includere nella determinazione dei criteri di integrità del progetto:
    * **Scorrimento ambito**: quanto è stato espanso l&#39;ambito del progetto dall&#39;avvio.
 
-   * **Campi obbligatori**: se mancano campi obbligatori (ad esempio, la descrizione del progetto). Questi campi obbligatori determinano la completezza del progetto e sono specificati in **Quali campi si desidera verificare?** sezione di configurazione di seguito.
+   * **Campi obbligatori**: se mancano campi obbligatori (ad esempio, la descrizione del progetto). Questi campi obbligatori determinano la completezza del progetto e sono specificati in **Quali campi si desidera verificare la completezza?** nella sezione di configurazione riportata di seguito.
 
 
    * **Modifiche alla pianificazione**: quante modifiche alla pianificazione si sono verificate dall&#39;avvio del progetto.
@@ -259,11 +264,11 @@ Nel sistema possono essere presenti più configurazioni di Project Health.
 
    * **Costo**: se il progetto ha superato il preventivo.
 
-1. In **Quando inizia ufficialmente il progetto?**, seleziona dall&#39;elenco a discesa l&#39;evento che segnala l&#39;inizio del progetto.
+1. In **Quando inizia ufficialmente il progetto?** , seleziona dall’elenco a discesa l’evento che segnala l’inizio del progetto.
 
-1. In **Come si stima l&#39;ambito del lavoro su un progetto?** sezione, selezionare il fattore di progetto che aumenterà con l&#39;aumento dell&#39;ambito del progetto.
+1. In **Come si stima l&#39;ambito del lavoro su un progetto?** sezione, selezionare il fattore di progetto che verrà incrementato con l&#39;aumento dell&#39;ambito del progetto.
 
-1. In **Specificare quali campi si desidera verificare per i campi obbligatori.** sezione, selezionare uno o più campi che devono contenere un valore per il progetto.
+1. In **Specificare quali campi obbligatori si desidera controllare?** , selezionare uno o più campi che devono contenere un valore per il progetto.
 
    ![Campi obbligatori del progetto per l&#39;integrità del progetto](assets/project-completeness-fields.png)
 
@@ -318,7 +323,7 @@ Per generare una valutazione dello stato del progetto per un progetto o un progr
 
    >[!NOTE]
    >
-   >Se si accede all&#39;Assistente IA da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* o *Qual è l&#39;integrità del programma [NOME PROGRAMMA]?* <br>
+   >Se si accede all&#39;Assistente di intelligenza artificiale da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* o *Stato del programma [NOME PROGRAMMA]?* <br>
    >Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list) in questo articolo.
 
 1. Fai clic sull&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello. Nella parte superiore di ogni valutazione dello stato del progetto viene visualizzato un badge che riflette le condizioni correnti del progetto.

@@ -1,25 +1,30 @@
 ---
 product-area: documents;system-administration;setup
 navigation-topic: manage-proofs-within-workfront
-title: Configurare le impostazioni di accesso e abbonamento per una bozza
+title: Configurare le impostazioni di accesso e iscrizione per una bozza
 description: Puoi configurare alcune impostazioni di accesso e abbonamento per le singole bozze, ad esempio se richiedere agli utenti di accedere e se consentire agli utenti di abbonarsi alla bozza. È possibile impostare le impostazioni di accesso e abbonamento per una bozza durante la sua creazione oppure impostarle per una bozza già esistente in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 0%
+source-wordcount: 823
+ht-degree: 7%
 
 ---
 
-# Configurare le impostazioni di accesso e abbonamento per una bozza
+# Configurare le impostazioni di accesso e iscrizione per una bozza
 
 Puoi configurare alcune impostazioni di accesso e abbonamento per le singole bozze, ad esempio se richiedere agli utenti di accedere e se consentire agli utenti di abbonarsi alla bozza. È possibile impostare le impostazioni di accesso e abbonamento per una bozza durante la sua creazione oppure impostarle per una bozza già esistente in Workfront.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +35,7 @@ Puoi configurare alcune impostazioni di accesso e abbonamento per le singole boz
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard</p>
    <p>Lavoro o piano</p> 
@@ -42,7 +47,7 @@ Puoi configurare alcune impostazioni di accesso e abbonamento per le singole boz
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +83,7 @@ Per impostare le impostazioni di accesso e abbonamento per una bozza durante la 
        </ul><p>
         <ul>
          <li><strong>Accesso alla bozza tramite collegamento e-mail richiesto per:</strong> Configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica di convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è verificare che l'utente abbia immesso un indirizzo e-mail corretto al quale ha accesso).</li>
-        </ul><p>Nota:  Se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
+        </ul><p>Nota: se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,7 +115,7 @@ Per impostare le impostazioni di accesso e abbonamento per una bozza già esiste
        </ul><p>
         <ul>
          <li><strong>Accesso alla bozza tramite collegamento e-mail richiesto per:</strong> Configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica di convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è verificare che l'utente abbia immesso un indirizzo e-mail corretto al quale ha accesso).</li>
-        </ul><p>Nota:  Se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
+        </ul><p>Nota: se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma ai proprietari delle bozze, in modo che possano decidere a quale fase aggiungere la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

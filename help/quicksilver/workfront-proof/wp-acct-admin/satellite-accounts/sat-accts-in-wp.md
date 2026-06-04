@@ -8,9 +8,14 @@ description: Gli account satellitari sono account a pagamento configurati e gest
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
-source-git-commit: 5be053a6ee99404673f6f3258a423ef5e5c7f431
+TQID: https://experienceleague.adobe.com/wpNboE2kWsutfFCy23Cm9gqzGSbHGTPMe9ZRe542biw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: 444
 ht-degree: 0%
 
 ---
@@ -51,7 +56,7 @@ Creando account satellite per i clienti.
 
 ## Principali caratteristiche e vantaggi dei conti satellite
 
-| **Funzionalità** | **Beneficio** |
+| **Funzione** | **Beneficio** |
 |---|---|
 | Gestito da te dal tuo account &quot;[!UICONTROL Hub]&quot; | Gestire in modo semplice più account Satellite da un&#39;unica posizione |
 | Accesso personale per ogni utente nell&#39;account Satellite | Offre una protezione aggiuntiva sulle bozze (le bozze possono essere protette da password). Per ulteriori informazioni, vedere [Protezione delle bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |

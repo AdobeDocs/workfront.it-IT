@@ -7,10 +7,14 @@ description: Dopo aver configurato l'integrazione di [!DNL Basecamp] , puoi iniz
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/9I0B1LPJmHz77brClrBv91-PyJ59w8ri-Foq6VRV3mc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 0%
+source-wordcount: 674
+ht-degree: 2%
 
 ---
 
@@ -42,7 +46,7 @@ Dopo aver aggiunto una bozza a un progetto [!DNL Basecamp], i revisori riceveran
 1. In **[!UICONTROL Persone nel progetto]**, seleziona le caselle di controllo per i revisori nell&#39;account [!DNL Basecamp] Classic che desideri aggiungere alla bozza.\
    I revisori selezionati riceveranno un messaggio in [!DNL Basecamp] per questa bozza e una notifica e-mail da [!DNL Workfront Proof].
 
-1. Fare clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]**.
 1. Applica le altre impostazioni necessarie per la bozza (come di consueto) e fai clic su **[!UICONTROL Salva]** per inviare la bozza.
 
 >[!NOTE]
@@ -69,7 +73,7 @@ Dopo aver aggiunto una bozza a un progetto [!DNL Basecamp], i revisori riceveran
    1. I revisori vengono visualizzati nel loro ruolo predefinito/avviso e-mail. I revisori selezionati ricevono un messaggio in Basecamp per questa bozza e una notifica e-mail da [!DNL Workfront Proof].
    1. Se i valori predefiniti del revisore sono stati modificati, è necessario aggiornare i dati di Basecamp prima di utilizzare i nuovi valori predefiniti. Per aggiornare i dati Basecamp, fare clic sul collegamento &quot;aggiorna&quot; nella finestra a comparsa Basecamp in Workfront Proof. Includi il tuo nome se desideri ricevere anche il messaggio in Basecamp
 
-1. Fare clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]**.
 
 Dopo aver aggiunto la bozza al progetto [!DNL Basecamp Classic], nella sezione [!UICONTROL Altre opzioni di condivisione] della pagina Dettagli bozza verranno visualizzate altre opzioni (per informazioni su questa pagina, vedi [Gestione dei dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)). Sarai in grado di:
 

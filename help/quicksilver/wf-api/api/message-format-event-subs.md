@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Formato dei messaggi in uscita per le sottoscrizioni di eventi
-description: Formato dei messaggi in uscita per le sottoscrizioni di eventi
+title: Formato dei messaggi in uscita per le sottoscrizioni a eventi
+description: Formato dei messaggi in uscita per le sottoscrizioni a eventi
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: 254
+ht-degree: 7%
 
 ---
 
-# Formato dei messaggi in uscita per le sottoscrizioni di eventi
+# Formato dei messaggi in uscita per le sottoscrizioni a eventi
 
 Con il rilascio di Adobe Workfront 2017.3, il formato dei messaggi in uscita per gli abbonamenti agli eventi verrà modificato per consentire prestazioni migliori e un utilizzo migliore degli abbonamenti agli eventi per le integrazioni.
 
@@ -30,7 +35,7 @@ Le seguenti modifiche verranno apportate al formato dei messaggi in uscita:
 
   Questo campo indica, in Nanosecondi ed EpochSeconds, il momento in cui si è verificato un evento. Utilizza eventTime per ordinare gli eventi elaborati dall’integrazione.
 
-* Il campo proprietario:companyID a cui si fa riferimento nella risorsa NOTE verrà rimosso.
+* Il campo di riferimento proprietario:companyID nella risorsa NOTE verrà rimosso.
 * L&#39;oggetto a cui si fa riferimento currentVersionNella risorsa DOCU (Document) verrà rimosso.
 
 Se al momento utilizzi gli abbonamenti agli eventi di Workfront, dovrai aggiornare le integrazioni Workfront prima della versione 2017.3 per tenere conto di queste modifiche.

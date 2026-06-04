@@ -4,16 +4,21 @@ description: Miglioramenti alle dashboard del quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f754b0e5d3aeee2bdff52ca4e672a1d8c2a0fa5f
+exl-id: cbeb123d-6735-42c8-b293-f9aa25c33a5d
+TQID: https://experienceleague.adobe.com/x-K8p72uY2vPrjBaqwLpbC4jz47m-DGW6VYfexNg7R4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 0%
+source-wordcount: 160
+ht-degree: 16%
 
 ---
 
 # Miglioramenti alle dashboard del quarto trimestre 2025
 
-Questa pagina descrive i miglioramenti apportati alle dashboard con la versione del quarto trimestre 2025 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti apportati alle dashboard con la versione del quarto trimestre 2025 nell’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 

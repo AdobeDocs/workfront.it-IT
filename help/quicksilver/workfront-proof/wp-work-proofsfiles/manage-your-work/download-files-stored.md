@@ -7,9 +7,12 @@ description: Puoi scaricare i file originali dalle bozze attive, bloccate e arch
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -36,7 +39,7 @@ Puoi scaricare i file originali dalle bozze attive, bloccate e archiviate nel co
    Puoi anche selezionare la bozza nell&#39;elenco, fare clic sul pulsante **[!UICONTROL Altro]** sopra l&#39;elenco, quindi fare clic su **[!UICONTROL Scarica]**.\
    È inoltre possibile scaricare i file:
 
-   * Visualizzazione della pagina Dettagli bozza della bozza.\
+   * Durante la visualizzazione della pagina Dettagli bozza per la bozza.\
 
      ![Scarica_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
 

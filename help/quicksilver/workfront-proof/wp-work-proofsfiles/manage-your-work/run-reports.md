@@ -7,9 +7,13 @@ description: Workfront Proof consente di visualizzare i rapporti in modo da pote
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
+TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: 694
 ht-degree: 0%
 
 ---
@@ -92,7 +96,7 @@ Per filtrare le informazioni di reporting:
    **[!UICONTROL Creatori bozze]:** Seleziona i singoli utenti per visualizzare le informazioni relative alle bozze create dagli utenti selezionati.\
    **[!UICONTROL Account]:** Selezionare gli account da includere nel report.
 
-1. Fare clic su **[!UICONTROL Applica]**.
+1. Fai clic su **[!UICONTROL Applica]**.
 1. (Facoltativo) Seleziona o deseleziona l&#39;opzione **[!UICONTROL Mostra intervallo min-max]** per determinare se i valori minimo e massimo sono visualizzati nel grafico.\
    Quando questa opzione è selezionata, viene visualizzata un&#39;ombreggiatura blu tra i valori minimo e massimo registrati.
 

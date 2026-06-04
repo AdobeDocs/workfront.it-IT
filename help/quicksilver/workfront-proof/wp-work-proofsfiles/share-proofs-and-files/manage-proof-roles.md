@@ -7,10 +7,15 @@ description: I ruoli di bozza ti consentono di concedere autorizzazioni agli ute
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 0%
+source-wordcount: 1317
+ht-degree: 2%
 
 ---
 
@@ -234,7 +239,7 @@ Per impostazione predefinita, il creatore è anche il proprietario della bozza; 
 Per cambiare il proprietario nella pagina Nuova bozza:
 
 1. Fare clic sul collegamento di modifica visualizzato accanto al nome del creatore.
-1. Seleziona il nuovo Proprietario dal menu a discesa. 2)
+1. Seleziona il nuovo Proprietario dal menu a discesa. (2)
 
 ![Ruoli_bozza_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 

@@ -1,20 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità della versione 16 dell’API
+title: Novità nella versione API 16
 description: Adobe Workfront ha rilasciato la versione API 16 il 6 aprile 2022. La versione 16 dell’API presenta le seguenti modifiche rispetto alla versione 15.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: acd1fe5500776b8f16c67b05048a88d0c8107079
+TQID: https://experienceleague.adobe.com/jAxE1NwlHqJRkJg8blCWgkAZI9KDBysb6MMFqFzCu-c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 0%
+source-wordcount: 1256
+ht-degree: 3%
 
 ---
 
-# Novità della versione 16 dell’API
+# Novità nella versione API 16
 
 Adobe Workfront ha rilasciato la versione API 16 il 6 aprile 2023. La versione 16 dell’API presenta le seguenti modifiche rispetto alla versione 15.
 
@@ -82,7 +88,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 ### Approvazione (APPROVAZIONE)
 
-Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un’attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l’elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table>
   <col/>
@@ -514,7 +520,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +544,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +585,7 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
+            <p>Queste azioni supportano la possibilità di condividere filtri, visualizzazioni e raggruppamenti a livello di sistema.</p><p>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Rendere disponibili filtri, visualizzazioni o raggruppamenti per tutti gli utenti</a>.</p>
          </li>
         </ul>
       </td>

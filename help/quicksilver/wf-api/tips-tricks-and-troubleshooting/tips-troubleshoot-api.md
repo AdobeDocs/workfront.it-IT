@@ -9,10 +9,15 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+TQID: https://experienceleague.adobe.com/BVJB9WV2ReiSjKo70jefLAQjWF0C2K-bv-ZUmR6RT2Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 0%
+source-wordcount: 116
+ht-degree: 66%
 
 ---
 
@@ -25,9 +30,9 @@ Questa sezione contiene i seguenti articoli:
 * [Sono stati restituiti duplicati durante una ricerca impaginata di grandi dimensioni](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [Ordinamento dei risultati della query nell&#39;API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [L&#39;aggiornamento a emailAddr non aggiorna il nome utente](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-* [Aggiungere opzioni di verifica avanzate durante la creazione di una bozza tramite l’API Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+* [Aggiungere opzioni di bozza avanzate durante la creazione di una bozza tramite l’API Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [Configurazione opzioni per OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [Recuperare le informazioni sulla valuta per un progetto quando la valuta è Null (non assegnata)](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
 * [L’utilizzo dell’API per aggiungere una cartella collegata non è supportato](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
-* [L&#39;azione MoveToFolder del documento non funziona](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
+* [L’azione MoveToFolder del documento non funziona](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 

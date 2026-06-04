@@ -7,9 +7,14 @@ description: Puoi configurare le opzioni di decisione di approvazione per tutte 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -68,20 +73,20 @@ A seconda delle tue esigenze, puoi consentire la selezione di più motivi o impo
 1. Digitare un titolo per la sezione relativa ai motivi nella casella visualizzata in **[!UICONTROL Motivo]**.
 1. Per includere una casella di testo, selezionare **[!UICONTROL Includi casella di testo]**.
 1. Fai clic su **[!UICONTROL Salva]**.
-   ![motivi_impostazione_2.png](assets/reasons-setup-2-350x146.png)
+   ![reason_setup_2.png](assets/reasons-setup-2-350x146.png)
 Il passaggio più importante è selezionare le decisioni sulle quali devono essere visualizzate le motivazioni. Se dimentichi di farlo, i motivi non saranno mostrati sulle tue bozze.
 
 1. Selezionare le caselle nella colonna **[!UICONTROL Motivi visualizzazione]** nell&#39;elenco delle decisioni nella parte superiore della pagina. Puoi selezionare una o più decisioni per i tuoi motivi.
    ![motivi_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
-## Creazione di un messaggio di decisione Post
+## Creazione di un messaggio di post decisione
 
 Puoi creare un messaggio di post decisione da visualizzare dopo che un revisore ha salvato la sua decisione sulla bozza.
 
 1. Fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]**.
 
 1. Apri la scheda **[!UICONTROL Decisioni]**.
-1. Nella sezione **[!UICONTROL Messaggio di decisione Post]**, fai clic su **[!UICONTROL Modifica]** alla fine della riga **[!UICONTROL Messaggio]**.
+1. Nella sezione **[!UICONTROL Messaggio di post decisione]**, fai clic su **[!UICONTROL Modifica]** alla fine della riga **[!UICONTROL Messaggio]**.
 Puoi anche decidere se desideri che il messaggio venga visualizzato a tutti i decision maker o se desideri limitarlo al principale decision maker.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 

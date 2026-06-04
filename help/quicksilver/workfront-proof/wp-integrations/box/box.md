@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/0NRhzVI1MkdHB-TQeFxn6Afb82U3G2yQ1cMIVRSGv5w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: 45
+ht-degree: 17%
 
 ---
 
@@ -24,7 +28,7 @@ ht-degree: 4%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione all&#39;integrazione  [!DNL Workfront Proof] e [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Crea una bozza tramite l&#39;account  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Introduzione all&#39;integrazione  [!DNL Workfront Proof] e [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Crea una bozza tramite l&#39;account  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [Sincronizza [!DNL Box] Cartelle Con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [Visualizza il file originale di una bozza in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

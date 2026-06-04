@@ -7,10 +7,14 @@ description: L'app  [!DNL Adobe Workfront]  ti consente di accedere al tuo lavor
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 2%
+source-wordcount: 539
+ht-degree: 4%
 
 ---
 
@@ -113,9 +117,9 @@ L&#39;area [!UICONTROL Approvazioni] consente di visualizzare e approvare le app
  </tbody>
 </table>
 
-Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Elenco approvazioni nell&#39;app mobile](assets/mobile-approvals-adobe-350x574.png)
 

@@ -2,15 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Verifica una bozza in Basecamp Classic
+title: Rivedere una bozza in Basecamp Classic
 description: Basecamp è uno strumento online per la gestione di progetti sviluppato da 37signals. Se utilizzi Basecamp per la gestione dei progetti, puoi offrire al team di progetto strumenti di revisione e approvazione più completi utilizzando  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: 864
+ht-degree: 1%
 
 ---
 
@@ -62,7 +66,7 @@ Per aprire la bozza dalla notifica e-mail:
 1. In [!DNL Basecamp], vai alla pagina del tuo progetto (1).\
    ![Basecamp_Classic_messages_1.png](assets/basecamp-classic-messages-1-350x120.png)
 
-1. Fare clic sul messaggio relativo alla bozza che si desidera aprire. 2)\
+1. Fare clic sul messaggio relativo alla bozza che si desidera aprire. (2)\
    Viene visualizzato il messaggio relativo alla bozza, con una mini bozza. Il nome della bozza viene visualizzato nella parte superiore della finestra del messaggio (3).\
    È possibile visualizzare la bozza delle miniature in [!DNL Basecamp Classic] o in [!DNL Workfront Proof].\
    ![Basecamp_Classic_messages_2.png](assets/basecamp-classic-messages-2-350x501.png)
@@ -71,10 +75,10 @@ Per aprire la bozza dalla notifica e-mail:
 1. (Condizionale) Se non hai effettuato l&#39;accesso all&#39;account [!DNL Workfront Proof] in una delle finestre del browser, effettua l&#39;accesso per rivedere la bozza:
 
    1. Fai clic su **[!UICONTROL Accedi]** (5) sopra la bozza.
-   1. Digita il tuo indirizzo email (6).\
+   1. Digita il tuo indirizzo e-mail (6).\
 
       Utilizza lo stesso indirizzo e-mail utilizzato al momento dell’aggiunta della bozza.
-   1. Fai clic su **[!UICONTROL Avanti]**.
+   1. Fai clic su **[!UICONTROL Next]** (Avanti).
    1. Digitare la password [!DNL Workfront Proof] (7).\
 
       Oppure\

@@ -3,13 +3,18 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configura  [!DNL Workfront Proof]  e-mail per evitare filtri anti-spam
-description: "Il filtro spam del client di posta elettronica ha uno scopo importante: proteggerti da e-mail spam fastidiose e potenzialmente dannose. Tuttavia, se non disponi delle impostazioni corrette nel filtro anti-spam, puoi evitare di visualizzare le seguenti [!DNL Workfront Proof] e-mail importanti: notifiche e-mail relative alla bozza, newsletter e comunicazioni speciali."
+description: 'Il filtro anti-spam del client di posta elettronica ha uno scopo importante: proteggerti da e-mail spam fastidiose e potenzialmente dannose. Tuttavia, se non disponi delle impostazioni corrette nel filtro anti-spam, puoi evitare di visualizzare le seguenti [!DNL Workfront Proof] e-mail importanti: notifiche e-mail delle bozze, newsletter e comunicazioni speciali.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -22,12 +27,12 @@ ht-degree: 0%
 
 Il filtro anti-spam del client di posta elettronica ha uno scopo importante: proteggerti da e-mail spam fastidiose e potenzialmente dannose. Tuttavia, se non disponi delle impostazioni corrette nel filtro anti-spam, puoi evitare di visualizzare le [!DNL Workfront Proof] e-mail importanti seguenti: notifiche e-mail relative alle bozze, newsletter e comunicazioni speciali.
 
-Per assicurarsi che le e-mail di [!DNL Workfront Proof] siano sempre instradate alla cartella Posta in arrivo anziché alla cartella di posta indesiderata, è necessario aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di:
+Per assicurarsi che le e-mail di [!DNL Workfront Proof] siano sempre indirizzate alla cartella Posta in arrivo anziché alla cartella di posta indesiderata, è necessario aggiungere quanto segue al inserisco nell&#39;elenco Consentiti di:
 
 * Server di posta [!DNL Workfront Proof]: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail (ad esempio, notification@proofhq.com)
 
-Per ulteriori informazioni sugli URL da aggiungere al inserisco nell&#39;elenco Consentiti di URL, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni sugli URL da aggiungere al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il inserisco nell&#39;elenco Consentiti di  del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] &quot;[!UICONTROL da]&quot; indirizzi e-mail
 
