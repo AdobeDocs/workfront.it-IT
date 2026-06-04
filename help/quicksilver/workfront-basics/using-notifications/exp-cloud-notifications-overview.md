@@ -76,7 +76,7 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 
 1. Nell&#39;angolo superiore destro di Workfront, fai clic sull&#39;icona **Notifiche** ![Icona Notifiche](assets/bell-icon.png).
 
-1. Nell&#39;angolo superiore destro del pannello **Experience Cloud**, fai clic sull&#39;icona **Impostazioni**![Impostazioni](assets/settings-icon.png).
+1. Nell&#39;angolo superiore destro del pannello **Experience Cloud** fare clic sull&#39;icona **Impostazioni**![Impostazioni](assets/settings-icon.png).
 
 1. Nella sezione **Notifiche**, fai clic sull&#39;icona a forma di freccia ![freccia a forma di riquadro Workfront](assets/arrow-icon.png) nel riquadro **Workfront**.
 
@@ -95,7 +95,7 @@ No. Le notifiche storiche rimarranno accessibili in Workfront, ma le nuove notif
 
 +++ I miei utenti dovranno fare qualcosa?
 
-Non all’inizio. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio a Experience Cloud. Da lì, dovranno imparare ad accedere alle loro notifiche personali.
+Non all’inizio. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio ad Experience Cloud. Da lì, dovranno imparare ad accedere alle loro notifiche personali.
 +++
 
 +++Cosa succede se la mia organizzazione non è pronta a passare ad Experience Cloud?

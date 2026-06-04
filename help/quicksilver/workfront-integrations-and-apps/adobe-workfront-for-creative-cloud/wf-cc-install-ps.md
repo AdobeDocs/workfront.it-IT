@@ -111,7 +111,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   >* Se l&#39;istanza di Workfront è integrata con Experience Cloud e il dominio inizia con `experience.adobe.com`, chiedi all&#39;amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront in Admin Console.
+   >* Se l&#39;istanza di Workfront è integrata con Experience Cloud e il dominio inizia con `experience.adobe.com`, chiedi all&#39;amministratore di fornirti il dominio di Workfront che si trova in Prodotto > Workfront in Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Adobe], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
