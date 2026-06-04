@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 2020
+source-wordcount: 1990
 ht-degree: 1%
 
 ---
@@ -92,13 +92,6 @@ Oppure
    <td>  <p>Gestire le autorizzazioni per una visualizzazione</p> 
    <p><b>IMPORTANTE</b></p> 
    <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
-   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
-
-</td>
   </tr>
 
 </tbody> 

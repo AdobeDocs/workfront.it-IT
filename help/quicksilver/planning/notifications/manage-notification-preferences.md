@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 516
 ht-degree: 10%
 
 ---
@@ -81,12 +81,6 @@ In Workfront Planning è possibile ricevere una notifica in-app o e-mail quando 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
-   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -180,7 +174,7 @@ Per ulteriori informazioni sulle notifiche di Workfront Planning, vedere anche i
 >
 >È possibile gestire le notifiche di Workfront Planning utilizzando l&#39;area Preferenze di Adobe e non l&#39;area Notifiche di Workfront nella pagina del profilo utente.
 
-1. Accedi a Workfront con le credenziali Adobe Experience Cloud.
+1. Accedi a Workfront con le tue credenziali Adobe Experience Cloud.
 1. Fai clic sull&#39;icona del menu **account** ![icona del menu Account in Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) in alto a destra dello schermo, quindi fai clic su **Preferenze**.
 1. Nella sezione **Notifiche** fare clic su **Workfront**.
 1. Seleziona le notifiche che desideri ricevere.

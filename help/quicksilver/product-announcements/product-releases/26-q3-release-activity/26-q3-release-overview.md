@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 19%
 
 ---
@@ -276,9 +276,9 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Visualizzazione aggiornata delle e-mail di notifica dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Le notifiche e-mail per i commenti nella sezione Aggiornamenti hanno un nuovo aspetto che si allinea alla progettazione e-mail più ampia di Adobe. Il thread dei commenti precedenti non è più incluso nel corpo dell’e-mail.</p>
             </td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
+            <td><p>N/D</p></td>
+            <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
         </tr>
         <tr>
             <td>

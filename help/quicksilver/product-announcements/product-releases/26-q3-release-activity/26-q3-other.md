@@ -4,9 +4,9 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di produzione per i clienti: rollout graduale, data di inizio non ancora annunciata
+>Versione di produzione per i clienti: rollout graduale a partire dal 16 luglio 2026
 
 Le notifiche e-mail per i commenti nella sezione Aggiornamenti hanno un nuovo aspetto che si allinea alla progettazione e-mail più ampia di Adobe.
 
