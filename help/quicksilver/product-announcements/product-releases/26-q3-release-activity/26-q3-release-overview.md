@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 19%
 
 ---
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -276,9 +276,9 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Visualizzazione aggiornata delle e-mail di notifica dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Le notifiche e-mail per i commenti nella sezione Aggiornamenti hanno un nuovo aspetto che si allinea alla progettazione e-mail più ampia di Adobe. Il thread dei commenti precedenti non è più incluso nel corpo dell’e-mail.</p>
             </td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
-            <td><p>Rollout graduale, data di inizio non ancora annunciata</p></td>
+            <td><p>N/D</p></td>
+            <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -373,7 +373,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
