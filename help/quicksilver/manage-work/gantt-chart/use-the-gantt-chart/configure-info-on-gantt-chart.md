@@ -7,12 +7,26 @@ description: È possibile configurare le informazioni visualizzate sia nel Diagr
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/k9q-K34EL3-iU9mmqH4nWFHPQhLeJ-85fk-AKOprHJI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 5%
+source-wordcount: 845
+ht-degree: 6%
 
 ---
 
@@ -134,7 +148,7 @@ La tabella seguente descrive le opzioni di visualizzazione per il [!UICONTROL Di
   <tr> 
    <td role="rowheader">Righe [!UICONTROL Milestone]</td> 
    <td> <img src="assets/milestone-line-more-info-in-gantt-270x209.png" alt="milestone_line_more_info_in_gantt.png" style="width: 270;height: 209;"> </td> 
-   <td> <p>Dopo l'attività associata a un'attività cardine viene visualizzata una linea. Passa il cursore del mouse su un'attività cardine per visualizzarne il nome e la data. L'amministratore [!DNL Workfront] determina il colore di ogni linea milestone.</p> <p> Per ulteriori informazioni sulle milestone, vedi  <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Crea un percorso milestone</a></p> </td> 
+   <td> <p>Dopo l'attività associata a un'attività cardine viene visualizzata una linea. Passa il cursore del mouse su un'attività cardine per visualizzarne il nome e la data. L'amministratore [!DNL Workfront] determina il colore di ogni linea milestone.</p> <p> Per ulteriori informazioni sulle milestone, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso milestone</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Predecessors]</td> 
@@ -143,7 +157,7 @@ La tabella seguente descrive le opzioni di visualizzazione per il [!UICONTROL Di
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Stato di avanzamento]</td> 
-   <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__Oct._2017.png"></p> <p>[!UICONTROL Dietro]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind__ott._2017.png"></p> <p>[!UICONTROL A Rischio]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>In Ritardo        <img src="assets/task-late-oct.2017.png" alt="task_late_ott.2017.png"></p> </td> 
+   <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__ott._2017.png"></p> <p>[!UICONTROL Dietro]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind__ott._2017.png"></p> <p>[!UICONTROL A rischio]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>In Ritardo        <img src="assets/task-late-oct.2017.png" alt="task_late_ott.2017.png"></p> </td> 
    <td> <p> </p> <p>Stato dell'avanzamento corrente di una determinata attività. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell'attività </a>.</p> </td> 
   </tr> 
   <tr> 

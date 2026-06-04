@@ -6,11 +6,20 @@ description: La Vista di amministrazione delle bacheche contiene un elenco di tu
 author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 604
 ht-degree: 8%
 
 ---
@@ -75,7 +84,7 @@ Per ulteriori informazioni, vedere [Creare o modificare una bacheca](/help/quick
    1. (Facoltativo) Fai clic sull&#39;icona **Calendario** ![Icona Calendario](assets/calendar-icon.png), quindi seleziona un intervallo di date per filtrare in base alle Bacheche che sono state modificate per ultime in tale arco temporale.
 
    1. (Facoltativo) Nella sezione **Modello**, seleziona il tipo di modello della bacheca in base al quale verrà filtrato l&#39;elenco. È possibile selezionare più tipi di modello.
-Per ulteriori informazioni sui tipi di modello della bacheca, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Per ulteriori informazioni sui tipi di modelli di bacheca, vedere [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
    1. (Facoltativo) Nella sezione **E&#39; archiviato**, seleziona se verranno visualizzate le bacheche archiviate o non archiviate. È possibile selezionare più opzioni.
 

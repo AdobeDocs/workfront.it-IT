@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GL1yGKWO2xOV-qfFHBNEJrMEmyi8a9-EKshCaYU1Cd4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 1%
+source-wordcount: 1267
+ht-degree: 4%
 
 ---
 
@@ -23,7 +33,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +44,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -43,7 +53,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
   </tr>
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td>Accesso di visualizzazione o versione successiva sui modelli che si desidera visualizzare e utilizzare</td> 
   </tr>
  </tbody> 

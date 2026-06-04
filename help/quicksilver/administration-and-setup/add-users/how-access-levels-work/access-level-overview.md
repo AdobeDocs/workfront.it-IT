@@ -10,9 +10,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: 1748
 ht-degree: 96%
 
 ---
@@ -21,7 +36,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
-> Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso precedenti, consulta [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso precedenti, consulta [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso a un utente per 2 scopi:
 
@@ -106,8 +121,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Team |   |   | ✓ |
 | Modelli |   |   | ✓ |
 | Dati finanziari |   |   | ✓ |
-| Gestione delle risorse |   |   | ✓ |
-| Pianificazione scenari |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
+| Gestione risorse |   |   | ✓ |
+| Pianificazione scenario |   |   | ✓ (L’impostazione predefinita è Nessun accesso). |
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -231,7 +246,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Gestione delle risorse</td> 
+   <td>Gestione risorse</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -298,8 +313,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Team |   | ✓ |   |
 | Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |
-| Gestione delle risorse | ✓ |   |   |
-| Pianificazione scenari | ✓ |   |   |
+| Gestione risorse | ✓ |   |   |
+| Pianificazione scenario | ✓ |   |   |
 | Obiettivi |   |   | ✓ (L’impostazione predefinita è Nessun accesso) |
 
 {style="table-layout:auto"}
@@ -308,8 +323,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 >
 >A partire dalla versione 24.7, per impostazione predefinita, i collaboratori hanno accesso in visualizzazione a programmi e portfolio.
 >
-> 
->Per impostazione predefinita, i collaboratori che hanno eseguito l’onboarding prima della versione 24.7 continueranno a non avere accesso a programmi e portfolio. Puoi aggiornarne l’accesso per la visualizzazione manualmente, se necessario.
+> Per impostazione predefinita, >I collaboratori che hanno effettuato l’onboarding prima della versione 24.7 continueranno a non avere accesso a programmi e portafogli. Se necessario, puoi aggiornarne l’accesso per la visualizzazione manuale.
 
 ### Livello di accesso utente esterno
 
@@ -348,8 +362,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Team | ✓ |   |   |
 | Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |
-| Gestione delle risorse | ✓ |   |   |
-| Pianificazione scenari | ✓ |   |   |
+| Gestione risorse | ✓ |   |   |
+| Pianificazione scenario | ✓ |   |   |
 | Obiettivi | ✓ |   |   |
 
 

@@ -6,10 +6,20 @@ description: Puoi utilizzare l’API per migrare cartelle e documenti collegati 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
+TQID: https://experienceleague.adobe.com/W2Y50cEqsMIxHpG5-8uwVtR4OKd4TfdCLET9oYpycSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 0%
+source-wordcount: 926
+ht-degree: 1%
 
 ---
 
@@ -45,7 +55,7 @@ Puoi utilizzare l’API per migrare cartelle e documenti collegati in Adobe Expe
 
 ## Informazioni API
 
-Per ulteriori informazioni sulle API di Workfront in questa sezione, consulta [Documentazione per sviluppatori:Documenti](https://developer.workfront.com/documents.html).
+Per ulteriori informazioni sulle API di Workfront in questa sezione, consulta la [documentazione per gli sviluppatori:Documents](https://developer.workfront.com/documents.html).
 
 ### Trova tutti i documenti
 
@@ -57,7 +67,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[Riferimento documenti API](https://developer.workfront.com/documents.html#get-/docu/search)
+[Documentazione di riferimento API](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Trova tutte le cartelle
 
@@ -160,7 +170,7 @@ DOCUMENTAZIONE API: (gli endpoint per collegamenti interni non sono attualmente 
 
   >[!NOTE]
   >
-  > Workfront non dispone ancora di uno standard per gli identificatori di documenti esterni. È in uso una nuova specifica per gli ID AEM, ma per altri ID, l’ID documento esterno può assumere forme diverse a seconda del tipo di provider.
+  > Workfront non dispone ancora di uno standard per gli identificatori di documenti esterni. Una nuova specifica viene utilizzata per gli ID di AEM, ma per altri ID l’ID documento esterno può assumere forme diverse a seconda del tipo di provider.
 
 
 * **Tipo di oggetto**: è un termine solo API ai fini del presente documento. Si tratta di un tipo di oggetto generico all’interno di Workfront con cui desideri interagire. In questi casi, si interagirà con documenti e cartelle di tipo &quot;DOCU&quot; e &quot;DOCFDR&quot; rispettivamente.

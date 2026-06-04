@@ -6,20 +6,27 @@ description: È necessario disinstallare il connettore avanzato Workfront con Ad
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 260
+ht-degree: 3%
 
 ---
 
-# Disinstallare il Workfront con il connettore avanzato Adobe Experience Manager
+# Disinstallare Workfront con il connettore avanzato di Adobe Experience Manager
 
 È necessario disinstallare il connettore avanzato Workfront con Adobe Experience Manager all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
 
 ## Prerequisiti
 
-* (Facoltativo) Se necessario, ripristina le modifiche apportate alla configurazione del firewall di Workfront e alle impostazioni del dispatcher AEM.
+* (Facoltativo) Se necessario, ripristina le modifiche apportate alla configurazione del firewall Workfront e alle impostazioni del dispatcher AEM.
 
 ## Disinstallare il connettore avanzato
 
@@ -86,7 +93,7 @@ ht-degree: 0%
    </repository>
    ```
 
-1. (Condizionale) Rimuovi la configurazione del server da settings.xml, presente nel seguente percorso./cloudmanager/maven/settings.xml nella directory principale del progetto.&#39;
+1. (Condizionale) Rimuovi la configurazione del server da settings.xml, presente nel seguente percorso ./cloudmanager/maven/settings.xml nella directory principale del progetto.&#39;
 
    ```
            <server>
@@ -104,4 +111,4 @@ ht-degree: 0%
 
 1. Eseguire il commit delle modifiche e inviare il codice all&#39;archivio Cloud Manager
 
-1. Esegui la pipeline Cloud Manager per distribuire le modifiche nell’istanza dei Cloud Service
+1. Esegui la pipeline Cloud Manager per distribuire le modifiche nell’istanza di Cloud Services

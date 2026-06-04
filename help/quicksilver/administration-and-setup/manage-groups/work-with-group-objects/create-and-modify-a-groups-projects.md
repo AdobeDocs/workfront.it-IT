@@ -9,10 +9,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2nEtaLEkclEFtv5PvFP9hFfsmR2rReriYC0-uDgATc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 445
+ht-degree: 8%
 
 ---
 
@@ -27,7 +37,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +48,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -47,7 +57,7 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
   </tr>
   <tr> 
-   <td>Autorizzazioni oggetto</td>
+   <td>Autorizzazioni sugli oggetti</td>
    <td> 
     <ul> 
      <li> <p>Il progetto deve essere associato al gruppo o a uno qualsiasi dei suoi sottogruppi. </p> <p>Per informazioni sull'assegnazione di un gruppo a un progetto, vedere <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Gestire le informazioni nell'area Panoramica progetto</a>.</p> </li> 

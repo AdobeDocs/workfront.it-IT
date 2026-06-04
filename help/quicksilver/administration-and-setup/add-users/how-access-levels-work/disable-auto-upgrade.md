@@ -3,17 +3,26 @@ title: Disattiva l'opzione di aggiornamento automatico per gli utenti non pagati
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: accesso,livello,sistema,amministratore,standard,luce,collaboratore
+keywords: accesso,livello,sistema,amministratore,standard,light,collaboratore
 navigation-topic: access-levels
-description: Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso. Il livello di accesso consente di controllare cosa un utente può vedere e cosa può fare con determinati oggetti e aree di Workfront.
+description: Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso. Il livello di accesso ti consente di controllare cosa un utente può visualizzare e fare con determinati oggetti e aree di Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/NNGzz1vNdy07htr8QPY-m-pTpWinPkHG11xWeH5RX5s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 10%
+source-wordcount: 206
+ht-degree: 33%
 
 ---
 
@@ -40,7 +49,7 @@ Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront n
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>Standard
    <p>Piano</p></td> 
   </tr> 

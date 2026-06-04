@@ -5,12 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 94%
+source-wordcount: 1559
+ht-degree: 88%
 
 ---
 
@@ -26,9 +35,9 @@ In qualità di amministratore Adobe, puoi creare amministratori di sistema di Ad
 
 >[!NOTE]
 >
->* **Gli amministratori di Workfront devono essere configurati in Adobe Admin Console.** Per informazioni e istruzioni, consulta [Creare amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in questo articolo.
->* **Se l’organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni ad Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
->   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
+>* **Gli amministratori di Workfront devono essere configurati in Adobe Admin Console.** Per informazioni e istruzioni, vedere [Creare amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in questo articolo.
+>* **Se l&#39;organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni a Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
+>   Dopo aver creato l&#39;utente in Adobe Admin Console, è possibile configurare le informazioni dell&#39;utente in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
 >* **Se l’organizzazione non utilizza il Single Sign-On (SSO)**, puoi aggiungere utenti non amministratori di sistema direttamente in Workfront. Anche se è possibile aggiungere utenti in Adobe Admin Console, aggiungerli in Workfront consente di configurarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
 Quando si apportano modifiche ai profili degli utenti da Admin Console, viene aggiunto un aggiornamento alla scheda Attività del sistema dell’utente in Workfront. L’aggiornamento viene visualizzato come effettuato dal “Sistema”. Questo si riferisce all’amministratore di Adobe Admin Console e non all’amministratore principale di Workfront.
@@ -234,8 +243,8 @@ In Adobe Admin Console, puoi modificare i seguenti dettagli utente:
 
 Per informazioni sulla modifica di un singolo utente in Adobe Admin Console, consulta [Modificare i dettagli dell’utente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#edit-user-details) nell’articolo Gestire gli utenti singolarmente nella documentazione di Adobe.
 
-Per informazioni sulla modifica in blocco degli utenti in Adobe Admin Console, consulta
-[Modificare i dettagli dell’utente](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html#edit-user-details) nell’articolo Gestire più utenti nella documentazione di Adobe.
+Per informazioni sugli utenti che eseguono modifiche in blocco in Adobe Admin Console, consulta
+[Modifica dettagli utente](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html#edit-user-details) nell&#39;articolo Gestire più utenti nella documentazione di Adobe.
 
 ## Eliminare un utente
 

@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+TQID: https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: 714
 ht-degree: 1%
 
 ---
@@ -20,18 +32,18 @@ ht-degree: 1%
 
 Poiché Adobe Workfront comunica con la rete della tua organizzazione, il firewall di quest’ultima deve essere configurato in modo da consentire tale comunicazione. I firewall sono misure di sicurezza altamente efficaci che funzionano separando la rete di un&#39;organizzazione da Internet. Garantiscono che solo i dati e il traffico di rete selezionati possano essere spostati all’interno o all’esterno della rete dell’organizzazione. Il firewall consente o blocca i dati in base al sito che invia o riceve i dati. In qualità di amministratore di Adobe Workfront, devi assicurarti che i dati inviati a o da Workfront possano passare attraverso il firewall dell’organizzazione.
 
-Ciò viene realizzato attraverso un inserisco nell&#39;elenco Consentiti di, che è essenzialmente un &quot;elenco&quot; di siti che sono &quot;autorizzati&quot; a inviare o ricevere dati attraverso il firewall. I siti possono essere identificati in due modi:
+Ciò viene realizzato attraverso un inserisco nell&#39;elenco Consentiti di, che è essenzialmente un &quot;elenco&quot; di siti che sono &quot;autorizzati&quot; a inviare o ricevere dati tramite il firewall. I siti possono essere identificati in due modi:
 
 * **Indirizzo IP**: una serie di numeri come 52.31.132.175
 * **Dominio**: parte di un URL, ad esempio `thisdomain` in `www.thisdomain.com`.
 
 Workfront utilizza indirizzi IP e domini specifici per la comunicazione web. Per poter utilizzare Workfront nell’organizzazione, è necessario aggiungerle al inserisco nell&#39;elenco Consentiti di dell’organizzazione.
 
-In genere, un amministratore di rete configura un inserisco nell&#39;elenco Consentiti di rete. Rivolgiti all’amministratore di rete della tua organizzazione per assicurarti che il firewall consenta tali indirizzi IP. Se non si conosce il nome dell&#39;amministratore di rete, il reparto IT dell&#39;organizzazione può indirizzare l&#39;utente nella giusta direzione.
+In genere, un amministratore di rete configura un inserisco nell&#39;elenco Consentiti di accesso a un sistema di gestione di rete. Rivolgiti all’amministratore di rete della tua organizzazione per assicurarti che il firewall consenta tali indirizzi IP. Se non si conosce il nome dell&#39;amministratore di rete, il reparto IT dell&#39;organizzazione può indirizzare l&#39;utente nella giusta direzione.
 
 >[!IMPORTANT]
 >
->In qualità di amministratore di Workfront, devi assicurarti che tali indirizzi IP e domini vengano aggiunti al inserisco nell&#39;elenco Consentiti di gestione dei della tua organizzazione. Questo vale anche se non li aggiungi tu stesso. Workfront non è in grado di configurare il inserisco nell&#39;elenco Consentiti di della tua organizzazione.
+>In qualità di amministratore di Workfront, devi assicurarti che tali indirizzi IP e domini siano aggiunti al inserisco nell&#39;elenco Consentiti di della tua organizzazione. Questo vale anche se non li aggiungi tu stesso. Workfront non può configurare il inserisco nell&#39;elenco Consentiti di della tua organizzazione.
 
 ## Raccolta di informazioni per la configurazione del firewall
 
@@ -49,7 +61,7 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
  <tbody> 
   <tr> 
    <td role="rowheader">Indirizzi IP e domini specifici da consentire</td> 
-   <td> <p>L'articolo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configurare il inserisco nell'elenco Consentiti di del firewall</a> contiene l'elenco degli indirizzi IP e dei domini che l'organizzazione deve aggiungere al proprio inserisco nell'elenco Consentiti di. </p> <p>È possibile che l'amministratore di rete non abbia accesso all'articolo "Configurare il inserisco nell'elenco Consentiti di configurazione del firewall" per il sistema di protezione. In tal caso, devi fornirlo a loro. Si sconsiglia di stampare una copia cartacea. Una copia digitale consente all'amministratore di rete di copiare e incollare gli indirizzi, in modo più rapido e preciso rispetto alla digitazione da una copia cartacea.</p> </td> 
+   <td> <p>L'articolo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configurare il inserisco nell'elenco Consentiti di del firewall</a> contiene l'elenco degli indirizzi IP e dei domini che l'organizzazione deve aggiungere al proprio inserisco nell'elenco Consentiti di. </p> <p>È possibile che l'amministratore di rete non abbia accesso all'articolo "Configurare il inserisco nell'elenco Consentiti di configurazione del firewall" per l'accesso a un'istanza di protezione del firewall. In tal caso, devi fornirlo a loro. Si sconsiglia di stampare una copia cartacea. Una copia digitale consente all'amministratore di rete di copiare e incollare gli indirizzi, in modo più rapido e preciso rispetto alla digitazione da una copia cartacea.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Il cluster</td> 

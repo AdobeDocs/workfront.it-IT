@@ -5,14 +5,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: 610
+ht-degree: 8%
 
 ---
 
-# Concedere l’accesso a Scenario Planner
+# Concedere l’accesso a Pianificazione scenari
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di accesso per definire l&#39;accesso di un utente a Scenario Planner, come spiegato in [Panoramica sui livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -20,7 +32,7 @@ Oltre all&#39;accesso a Scenario Planner, un utente con un livello di accesso di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +43,7 @@ Oltre all&#39;accesso a Scenario Planner, un utente con un livello di accesso di
    <td>Business o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p> </td> 
@@ -45,13 +57,13 @@ Oltre all&#39;accesso a Scenario Planner, un utente con un livello di accesso di
    <td> <p>Accesso di visualizzazione o superiore alla Pianificazione scenario</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Autorizzazioni oggetto</p> </td> 
+   <td role="rowheader"> <p>Autorizzazioni sugli oggetti</p> </td> 
    <td> <p>Visualizza autorizzazioni o versioni successive per un piano</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,13 +89,13 @@ Di seguito sono riportate alcune informazioni utili per comprendere come utilizz
 
 * [Nessun accesso](#no-access)
 * [Accesso visualizzazione](#view-access)
-* [Modifica accesso](#edit-access)
+* [Accesso per la modifica](#edit-access)
 
 ### Nessun accesso {#no-access}
 
 Un utente che non ha accesso a Scenario Planner non può visualizzare l’icona Scenari nel menu principale quando viene aggiunta al proprio modello di layout, né visualizzare i piani e le iniziative condivisi con lui. Se il collegamento a un piano è condiviso con un utente che non ha accesso alla Pianificazione scenario, l&#39;utente non può visualizzare o modificare il piano.
 
-### Visualizza accesso {#view-access}
+### Accesso in visualizzazione {#view-access}
 
 Gli utenti con accesso in visualizzazione a Scenario Planner possono effettuare le seguenti operazioni:
 
@@ -94,7 +106,7 @@ Gli utenti con accesso in visualizzazione a Scenario Planner possono effettuare 
 
   Sono inoltre incluse le tariffe per le mansioni e le informazioni sui costi del piano se l&#39;utente destinatario ha accesso anche ai dati finanziari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-### Modifica accesso {#edit-access}
+### Accesso per la modifica {#edit-access}
 
 Gli utenti con l’accesso in Modifica a Scenario Planner possono effettuare le seguenti operazioni:
 

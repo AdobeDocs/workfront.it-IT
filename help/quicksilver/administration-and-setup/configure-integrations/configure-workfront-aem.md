@@ -8,10 +8,24 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: 1869
+ht-degree: 2%
 
 ---
 
@@ -23,7 +37,7 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi integrare [!DNL Wo
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -62,7 +76,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 * Integrare con l&#39;archivio [!DNL AEM Digital Asset Managemen]t (DAM), consentendo di utilizzare [!DNL Workfront] per gestire e condividere le risorse digitali archiviate in DAM.
 
-  Per ulteriori informazioni sul collegamento di documenti e cartelle di risorse, consulta   [Collega documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  Per ulteriori informazioni sul collegamento di documenti e cartelle di risorse, vedere [Collegare documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Combina e applica metadati da entrambe le applicazioni a una risorsa.
 * Visualizzare un flusso di comunicazione completo per una risorsa. Gli aggiornamenti e i commenti aggiunti a una risorsa in [!DNL Workfront] o [!UICONTROL AEM Assets] sono sincronizzati con l&#39;altra applicazione, creando una cronologia completa delle comunicazioni effettuate alla risorsa.
@@ -74,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 Prima di installare il connettore [!DNL Workfront] per [!UICONTROL AEM Assets], verifica che siano soddisfatti i seguenti prerequisiti:
 
 * [!UICONTROL AEM Assets] è installato e configurato, versione 6.5 o successiva. Per informazioni sull&#39;installazione di [!UICONTROL AEM Assets], vedere la [[!DNL Adobe Experience Manager] documentazione](https://experienceleague.adobe.com/it/docs/experience-manager).
-* (Condizionale) Se le regole del firewall non consentono il traffico come previsto, aggiungi l&#39;indirizzo IP e/o il dominio del cluster al elenco Consentiti di gestione del sistema di gestione del traffico. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+* (Condizionale) Se le regole del firewall non consentono il traffico come previsto, aggiungi l&#39;indirizzo IP e/o il dominio del cluster al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installa il pacchetto del connettore [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
 
@@ -177,7 +191,7 @@ Prima di iniziare, è necessario abilitare le autorizzazioni per workfront-servi
 
       **[!UICONTROL Ignora dominio e-mail]:** Seleziona questa opzione se gli utenti AEM non utilizzano il nome di dominio nel loro ID utente.
 
-      **[!UICONTROL Limita l&#39;accesso]:** Selezionare questa opzione per specificare gli indirizzi IP [!DNL Workfront] appropriati da aggiungere al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+      **[!UICONTROL Limita l&#39;accesso]:** Selezionare questa opzione per specificare gli indirizzi IP [!DNL Workfront] appropriati da aggiungere al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    1. Nell&#39;angolo superiore sinistro della pagina Configurazione integrazione Workfront fare clic sulla scheda **[!UICONTROL Base]** e quindi su **[!UICONTROL Connetti]**.
 
@@ -228,7 +242,7 @@ Prima di iniziare, è necessario abilitare le autorizzazioni per workfront-servi
 
 1. Fai clic su **[!UICONTROL OSGI]**, quindi fai clic su **[!UICONTROL Configurazione]** nel menu a discesa.
 
-1. Nell&#39;elenco di configurazione, selezionare&#x200B;**[!UICONTROL Day CQ Link Externalizer].** Viene visualizzata la pagina **[!UICONTROL Externalizer]**.
+1. Nell&#39;elenco di configurazione, seleziona&#x200B;**[!UICONTROL Day CQ Link Externalizer].** Viene visualizzata la pagina **[!UICONTROL Externalizer]**.
 
 1. Nella sezione **[!UICONTROL Domini]**, assicurati che il dominio elencato nel campo **[!UICONTROL Autore]** sia il nome di dominio accessibile esternamente agli utenti di AEM.
 

@@ -10,10 +10,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 2%
+source-wordcount: 908
+ht-degree: 48%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui livelli di accesso correnti, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso correnti, consulta [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 L’amministratore Adobe Workfront determina il livello di accesso di ogni utente. Tale livello di accesso definisce cosa gli utenti possono vedere e fare con i tipi di oggetto e le aree del sistema.
 
@@ -52,7 +66,7 @@ La licenza Workfront per ogni livello di accesso predefinito determina ciò che 
 Per gli utenti che sono assegnati a esso, un livello di accesso definisce cosa possono vedere e cosa fare con i seguenti tipi di oggetti e aree in Workfront:
 
 * Progetti
-* Attività
+* Tasks
 * Problemi
 * Portfolio
 * Report, dashboard e calendari
@@ -69,7 +83,7 @@ In un livello di accesso personalizzato, è possibile configurare le impostazion
 
 >[!IMPORTANT]
 >
->È consigliabile lasciare invariati i livelli di accesso incorporati in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. Questa operazione può essere eseguita per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
+>È consigliabile lasciare invariati i livelli di accesso predefiniti in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. Questa operazione può essere eseguita per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
 
 Per una spiegazione dettagliata di ciascuno dei livelli di accesso predefiniti, vedere [Livelli di accesso incorporati](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
@@ -79,22 +93,22 @@ Per istruzioni sull&#39;assegnazione di un livello di accesso a un utente, veder
 
 Quando si condivide un oggetto con un utente del sistema, l&#39;utente può concedere al destinatario le seguenti autorizzazioni.
 
-* **Visualizzazione**: questo livello di autorizzazione consente al destinatario di condividere l&#39;oggetto in uno dei modi seguenti:
+* **Visualizzazione**: questo livello di autorizzazione consente al destinatario di condividere l’oggetto in uno dei modi seguenti:
 
    * A livello di sistema, in modo che tutti gli utenti possano visualizzarlo (non disponibile per tutti gli oggetti)
    * Con utenti esterni che non dispongono di una licenza Workfront (non disponibile per tutti gli oggetti)
    * Con un indirizzo e-mail (disponibile solo per i documenti)
 
-* **Contribute**: (non disponibile per tutti gli oggetti)
-* **Gestisci**: quando qualcuno condivide un oggetto, i diritti del destinatario sull&#39;oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l&#39;oggetto concesse dal condivisore. Il livello di accesso più basso disponibile in tale combinazione è quello che determina il comportamento del destinatario con l’oggetto.
+* **Contributi**: (non disponibile per tutti gli oggetti)
+* **Gestione**: quando qualcuno condivide un oggetto, i diritti del destinatario sull’oggetto sono determinati da una combinazione del livello di accesso del destinatario e delle autorizzazioni per l’oggetto assegnate dalla persona che condivide. Il livello di accesso più basso disponibile in tale combinazione è quello che determina ciò che il destinatario può fare con l’oggetto.
 
   >[!INFO]
   >
   >**Esempio:** se il livello di accesso del destinatario non consente la modifica del progetto, l&#39;utente non può modificare o eliminare un progetto anche se il condivisore ha concesso le autorizzazioni per gestirlo.
   >
-  >In alternativa, se il livello di accesso del destinatario consente la modifica del progetto, ma il condivisore concede autorizzazioni di sola visualizzazione a un progetto, l’utente non può modificare o eliminare il progetto.
+  >In alternativa, se il livello di accesso del destinatario consente la modifica del progetto, ma la persona che condivide ha assegnato autorizzazioni di sola visualizzazione a un progetto, l’utente non può modificare o eliminare il progetto.
 
-Nella tabella seguente viene confrontato l&#39;accesso generale di un utente agli oggetti (definito dal livello di accesso dell&#39;utente) con le autorizzazioni per un oggetto condiviso specifico:
+Nella tabella seguente viene confrontato l’accesso generale di un utente agli oggetti (definito dal livello di accesso dell’utente) con le autorizzazioni per un oggetto condiviso specifico:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,17 +123,17 @@ Nella tabella seguente viene confrontato l&#39;accesso generale di un utente agl
  </thead> 
  <tbody> 
   <tr> 
-   <td>Concessi da un amministratore Workfront nel livello di accesso di un utente</td> 
+   <td>Assegnate da un amministratore Workfront nel livello di accesso di un utente</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Concesso da un utente che condivide un oggetto a livello di oggetto</td> 
+   <td>Assegnate da un utente che condivide un oggetto a livello di oggetto</td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Ereditato da un oggetto condiviso di livello superiore 
+   <td> <p>Ereditate da un oggetto condiviso con ranking più alto 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -129,7 +143,7 @@ Nella tabella seguente viene confrontato l&#39;accesso generale di un utente agl
 
 >[!NOTE]
 >
->* Se un utente condivide un oggetto con determinate autorizzazioni e tale oggetto ha oggetti figlio al di sotto di esso, il destinatario eredita le stesse autorizzazioni per tali oggetti figlio.
+>* Se un utente condivide un oggetto con determinate autorizzazioni e tale oggetto ha oggetti secondari al suo interno, il destinatario eredita le stesse autorizzazioni per tali oggetti secondari.
 >* Se un livello di accesso impedisce agli utenti di eliminare determinati oggetti, ciò non impedisce loro di eliminare gli oggetti secondari contenuti in tali oggetti.
 >
 
@@ -140,7 +154,7 @@ Quando Olivia condivide un progetto Workfront con Tony, l’accesso di quest’u
 * Livello di accesso di Tony assegnato dall’amministratore Workfront
 * Autorizzazioni di Tony per il progetto, specificate da Olivia
 
-Le azioni di Tony sul progetto possono essere ulteriormente limitate sul progetto, ma non possono essere illimitate al di là di ciò che è consentito sul suo livello di accesso:
+Le azioni di Tony sul progetto possono essere ulteriormente limitate all’interno del progetto stesso, ma non possono essere estese oltre quanto consentito dal suo livello di accesso:
 
-* Se il livello di accesso di Tony non gli consente di creare attività, non può aggiungere attività al progetto , anche se Olivia gli ha dato le autorizzazioni per aggiungervi attività.
-* Se il livello di accesso di Tony non gli consente di creare attività, ma Olivia non concede le autorizzazioni per aggiungere attività al progetto, non può aggiungere attività a tale progetto, ma può aggiungere attività ad altri progetti per i quali dispone delle autorizzazioni necessarie.
+* Se il livello di accesso di Tony non gli consente di creare attività, non può aggiungere attività al progetto, anche se Olivia gli ha concesso le autorizzazioni per aggiungervi attività.
+* Se il livello di accesso di Tony non gli consente di creare attività, ma Olivia non assegna le autorizzazioni per aggiungere attività al progetto, Tony non può aggiungere attività a tale progetto, ma può aggiungere attività ad altri progetti per i quali dispone delle autorizzazioni necessarie.

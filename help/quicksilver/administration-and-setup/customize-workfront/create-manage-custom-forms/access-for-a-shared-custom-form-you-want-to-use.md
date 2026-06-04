@@ -9,14 +9,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: 402
+ht-degree: 2%
 
 ---
 
-# Accesso a un campo personalizzato condiviso
+# Accedere a un campo personalizzato condiviso
 
 Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
 
@@ -35,7 +46,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
   <tr> 
    <td> 
     <ul> 
-     <li>Visualizza</li> 
+     <li>Visualizzazione</li> 
      <li>Aggiungi a Forms personalizzato: non selezionato</li> 
     </ul> </td> 
    <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, è possibile visualizzare il campo, ma il pulsante Modifica non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
@@ -43,7 +54,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
   <tr> 
    <td> 
     <ul> 
-     <li>Visualizza</li> 
+     <li>Visualizzazione</li> 
      <li>Aggiungi a Forms personalizzato: selezionato</li> 
     </ul> </td> 
    <td> <p>Se si aggiunge il campo a un modulo personalizzato:</p> 
@@ -55,7 +66,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
   <tr> 
    <td> 
     <ul> 
-     <li>Gestire</li> 
+     <li>Gestione</li> 
      <li>Modificabile a livello di sistema</li> 
     </ul> </td> 
    <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni, ad esempio l'etichetta, il nome e il tipo.</td> 
@@ -63,7 +74,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
   <tr> 
    <td> 
     <ul> 
-     <li>Gestire</li> 
+     <li>Gestione</li> 
     </ul> </td> 
    <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, il pulsante Modifica è disponibile sulla barra degli strumenti quando si seleziona il campo.</p> </td> 
   </tr> 

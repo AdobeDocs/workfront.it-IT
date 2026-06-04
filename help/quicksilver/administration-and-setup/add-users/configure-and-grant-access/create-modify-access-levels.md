@@ -8,12 +8,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 9%
+source-wordcount: 1424
+ht-degree: 11%
 
 ---
 
@@ -30,7 +43,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso
 
 >[!IMPORTANT]
 >
->È consigliabile lasciare invariati i livelli di accesso incorporati in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. È possibile eseguire questa operazione per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
+>È consigliabile lasciare invariati i livelli di accesso predefiniti in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copiare il livello di accesso predefinito e modificare la copia. È possibile eseguire questa operazione per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
 
 ## Requisiti di accesso
 
@@ -183,7 +196,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td>Impedisce agli utenti di eliminare gli annunci nel Centro notifiche. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Inviare annunci</a>.</td> 
      </tr> 
      <tr>
-      <td role="rowheader">Consenti agli utenti di accedere ai marchi</td> 
+      <td role="rowheader">Consenti agli utenti di accedere a Brand</td> 
       <td>Consente agli utenti di accedere e gestire i Marchi GenStudio in Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Concedere l'accesso alle autorizzazioni del brand</a>.</td> 
      </tr>
     </tbody> 

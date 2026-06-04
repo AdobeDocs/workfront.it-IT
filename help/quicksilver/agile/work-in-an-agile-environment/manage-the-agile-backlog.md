@@ -6,11 +6,23 @@ description: Attività e problemi possono essere assegnati a un team Agile e agg
 author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: 1285
 ht-degree: 3%
 
 ---
@@ -196,7 +208,7 @@ L’attività o il problema è ora disponibile nel backlog del team.
 
 1. Vai al backlog del team Agile.
 1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.
-Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Move Story to the Kanban].
+Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Sposta storia in Kanban].
 Se si sposta il brano in un&#39;iterazione, viene visualizzata la finestra di dialogo [!UICONTROL Sposta brano in un&#39;iterazione].
    ![Finestra di dialogo Sposta storia](assets/agile-backlog-addtoiteration.png)
 

@@ -8,10 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 1%
+source-wordcount: 1359
+ht-degree: 5%
 
 ---
 
@@ -36,7 +48,7 @@ Per ulteriori informazioni sull&#39;aggiunta di un campo di ricerca esterna a un
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -92,7 +104,7 @@ Questo esempio illustra come chiamare l’API Workfront e compilare un elenco di
    >
    >**Informazioni sull&#39;intestazione** non necessarie per una chiamata alla stessa istanza di Workfront.
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    ![Impostazione della chiamata API a Workfront in formato personalizzato](assets/external-lookup-to-workfront.png)
 
@@ -135,7 +147,7 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati da un ca
    >
    >**Informazioni sull&#39;intestazione** non necessarie per una chiamata alla stessa istanza di Workfront.
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    Quando il modulo personalizzato viene aggiunto a un oggetto Workfront, tutti i valori nel campo &quot;Colori combinati&quot; vengono visualizzati nel menu a discesa del campo di ricerca Esterno.
 
@@ -187,7 +199,7 @@ Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
 
 1. Immetti il **percorso JSON** per ottenere i risultati dalla chiamata API.
 
-   Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.
+   Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.
 
    **Esempio**
    `$.data[*].country`
@@ -200,7 +212,7 @@ Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
 
 1. (Facoltativo) Seleziona **Elenco a discesa a selezione multipla** per consentire all&#39;utente di selezionare più di un valore nel menu a discesa.
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    ![Impostazione della chiamata API all&#39;API pubblica nel modulo personalizzato](assets/external-lookup-to-api-for-countries.png)
 
@@ -221,10 +233,10 @@ Esempio di URL API di base per i modelli, per sostituire un campo typeahead:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
 **Caso d&#39;uso:** crea campi a discesa con altre funzionalità (ad esempio, il campo di ricerca Esterna contiene il ritorno a capo automatico).
-**Soluzione:** utilizzare una chiamata API a oggetti esistenti nel sistema oppure creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
+**Soluzione:** Utilizzare una chiamata API a oggetti esistenti nel sistema oppure creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
 
 **Caso d&#39;uso:** Definisci un modo per gli utenti di mantenere i propri campi al di fuori dell&#39;area dei moduli personalizzati. Imposta il campo di ricerca Esterna e puoi assegnare agli utenti gli oggetti che lo compongono. Questa opzione è adatta per i campi e i team di manutenzione elevati.
-**Soluzione:** creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
+**Soluzione:** Creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
 
 **Caso d&#39;uso:** integrazione con oggetti esterni a Workfront. Ad esempio, accedere a un altro sistema per ottenere il nome di ogni utente, anziché essere limitati in un campo typeahead.
 **Soluzione:** automazione webhook/Fusion per la connessione ad altri sistemi.

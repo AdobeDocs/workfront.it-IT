@@ -6,11 +6,20 @@ description: Adobe Workfront consente ai team Agile di completare il lavoro in m
 author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: 944
 ht-degree: 5%
 
 ---
@@ -71,7 +80,7 @@ La metodologia Agile [!DNL Kanban] in [!DNL Workfront] consente di spostare più
 Le funzionalità seguenti supportano questa metodologia:
 
 * Visualizza il backlog nella bacheca delle storie di Agile [!DNL Kanban].
-Per ulteriori informazioni, vedere [Aggiungere il backlog alla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+Per ulteriori informazioni, vedere [Aggiungere il backlog alla [!UICONTROL bacheca Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Configura gli elementi nel backlog da aggiungere automaticamente allo storyboard Agile [!UICONTROL Kanban] quando gli altri elementi vengono spostati in uno stato che equivale a Complete.
 Per ulteriori informazioni, vedere la sezione [Configurare i brani da aggiungere automaticamente dal backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) nell&#39;articolo [Configurare Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).

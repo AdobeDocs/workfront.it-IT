@@ -2,20 +2,25 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Gestione documenti
+title: Gestire i documenti
 description: È possibile organizzare e gestire i documenti in Workfront nell'area Documenti.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+TQID: https://experienceleague.adobe.com/zckPUXUuAo9IQhmsUUbphg-ZGHJIcP04Y0HAFLDwo1w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: 106
+ht-degree: 20%
 
 ---
 
-# Gestione documenti
+# Gestire i documenti
 
 È possibile organizzare e gestire i documenti in Workfront nell&#39;area Documenti.
 
@@ -36,5 +41,5 @@ Questa sezione contiene i seguenti articoli:&#x200B;
 * [Sposta documenti](../../documents/managing-documents/move-documents.md)
 * [Verifica limiti di archiviazione documenti](../../documents/managing-documents/check-document-storage.md)
 * [Elimina documenti](../../documents/managing-documents/delete-documents.md)
-* [Incolla immagini dagli Appunti](../../documents/managing-documents/paste-image-clipboard.md)
-* [Modifica documenti in blocco](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
+* [Incollare immagini dagli Appunti](../../documents/managing-documents/paste-image-clipboard.md)
+* [Modificare documenti in blocco](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)

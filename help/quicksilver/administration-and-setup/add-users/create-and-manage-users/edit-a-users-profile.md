@@ -8,9 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
+TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: 3451
 ht-degree: 3%
 
 ---
@@ -77,7 +90,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
   Selezionare l&#39;impostazione **Non sono un robot** prima di procedere.
 
-  Se utilizzi il elenco Consentiti di gestione delle e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di gestione dei messaggi di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+  Se utilizzi l’e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di e-mail di accesso all&#39;e](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
   Poiché la tua organizzazione è stata migrata a Adobe Admin Console, non puoi modificare l’indirizzo e-mail di un utente in Workfront. L’indirizzo e-mail dell’utente è impostato in Adobe Admin Console.
 
@@ -94,7 +107,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   Non è possibile reimpostare la password di un amministratore Workfront.
 
 * **&lt;Configurazione SSO> Nome utente**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il nome utente SSO viene visualizzato in questo campo. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
-* **Consenti solo autenticazione &lt;SSO Configuration>**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront e ha aggiornato tutti gli utenti per l&#39;SSO, questo campo è selezionato per impostazione predefinita. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
+* **Consenti solo autenticazione &lt;Configurazione SSO>**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront e ha aggiornato tutti gli utenti per l&#39;autenticazione SSO, questo campo è selezionato per impostazione predefinita. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
 
   Quando questo campo è selezionato, l’utente deve accedere a Workfront con le proprie credenziali SSO. Deselezionando questa opzione, gli utenti potranno accedere a Workfront con le credenziali Workfront.
 
@@ -108,12 +121,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   >
   >Se sei un amministratore gruppo e nel tuo livello di accesso hai abilitato l&#39;autorizzazione Amministratore utenti (tutti gli utenti), puoi modificare i campi &lt;Configurazione SSO> per tutti gli utenti.
 
-* **Foto profilo**: fare clic su **Carica nuovo** per caricare l&#39;immagine profilo dell&#39;utente. Puoi caricare un file JPG, GIF o PNG. La dimensione massima del file è di 4 MB.
+* **Foto profilo**: fare clic su **Carica nuovo** per caricare l&#39;immagine profilo dell&#39;utente. È possibile caricare un file JPG, GIF o PNG. La dimensione massima del file è di 4 MB.
 
   L&#39;immagine del profilo diventa l&#39;avatar dell&#39;utente ed è visibile ovunque venga visualizzato il nome dell&#39;utente Workfront.
 
 * **Informazioni processo**: informazioni sul processo, come il titolo del processo (nel campo **Titolo**) e l&#39;area di competenza di cui è responsabile l&#39;utente (nel campo **Informazioni su**).
-* **Informazioni di contatto**: numero di telefono dell&#39;utente (in **Numero di telefono**, **Est.** e **Campi Numero cellulare**) e indirizzo (nei campi **Indirizzo**, **Città**, **Stato**, **Codice postale** e **Paese**).
+* **Informazioni di contatto**: numero di telefono dell&#39;utente (nei campi **Numero di telefono**, **Est.** e **Numero cellulare**) e indirizzo (nei campi **Indirizzo**, **Città**, **Stato**, **Codice postale** e **Paese**).
 
   Il campo **Paese** nella sezione Informazioni di contatto accetta solo valori di codice paese (ad esempio, US, GB, IN).
 
@@ -190,7 +203,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 * **Altri team**: gli utenti possono appartenere a più team. Un utente può visualizzare gli elementi di lavoro assegnati a qualsiasi team nella propria area Home.
 * **Gruppo predefinito corrente**: selezionare un gruppo appropriato per assegnare l&#39;utente. In questo modo l&#39;utente può accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con il Gruppo predefinito dell&#39;utente.
 
-  Questo campo è obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il Gruppo predefinito viene assegnato come Gruppo predefinito del nuovo utente.
+  Questo è un campo obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il Gruppo predefinito viene assegnato come Gruppo predefinito del nuovo utente.
 
   È possibile assegnare un gruppo a un utente solo se si verifica una delle condizioni seguenti:
 

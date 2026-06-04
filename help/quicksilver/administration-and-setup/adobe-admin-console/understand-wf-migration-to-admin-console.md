@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+TQID: https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1115
 ht-degree: 0%
 
 ---
@@ -32,7 +44,7 @@ Come parte della migrazione, la gestione degli utenti passerà dall’applicazio
 
 * **Amministratori del profilo di prodotto (amministratori di sistema di Workfront)** gestiscono quali utenti dell&#39;organizzazione hanno accesso a Workfront.
 
-* **Gli utenti accederanno con Adobe Identity.Adobe** Dopo la migrazione degli utenti esistenti a Adobe Admin Console, gli utenti effettueranno l&#39;accesso alle proprie istanze di Workfront utilizzando la nuova identità Adobe, Adobe ID o Adobe Federated ID (SSO).
+* **Gli utenti effettueranno l&#39;accesso con Adobe Identity.** Dopo che Adobe migra gli utenti esistenti a Adobe Admin Console, gli utenti accederanno alle loro istanze Workfront utilizzando la nuova identità Adobe, un Adobe ID o un Federated ID (SSO) Adobe.
 
 * **Non è stata modificata la modalità di gestione di tutte le altre funzionalità** all&#39;interno dell&#39;applicazione Workfront stessa, inclusa la gestione di funzionalità, ruoli utente, aree di lavoro, funzionalità e comportamento.
 
@@ -77,7 +89,7 @@ In qualità di amministratore del profilo di prodotto di Workfront (amministrato
 
 * **La migrazione degli utenti inizierà alla mezzanotte del centro dati Workfront del cliente che ospita.**
 
-* **Adobe eseguirà prima automaticamente la migrazione degli amministratori di Workfront.** Quando gli amministratori di Workfront verranno trasferiti ad Adobe Identity, avranno il ruolo di amministratore del profilo di prodotto di Adobe (amministratore di sistema di Workfront). Eventuali ruoli esistenti di un utente prima della migrazione non saranno interessati.
+* **Adobe eseguirà prima automaticamente la migrazione degli amministratori di Workfront.** Quando gli amministratori di Workfront vengono trasferiti ad Adobe Identity, ad essi verrà assegnato il ruolo di amministratore del profilo di prodotto di Adobe (amministratore di sistema di Workfront). Eventuali ruoli esistenti di un utente prima della migrazione non saranno interessati.
 
   >[!NOTE]
   >
@@ -85,9 +97,9 @@ In qualità di amministratore del profilo di prodotto di Workfront (amministrato
 
 
 
-* **Durante la migrazione, gli utenti riceveranno un&#39;e-mail da Adobe per informarli della modifica della modalità di accesso a Workfront.** Gli utenti saranno invitati ad accettare un invito ad accedere con Adobe Identity per la prima volta, effettuando l&#39;accesso con un Adobe ID esistente o configurando un nuovo Adobe ID utilizzando lo stesso indirizzo e-mail.
+* **Durante la migrazione, gli utenti riceveranno un&#39;e-mail da Adobe per informarli della modifica della modalità di accesso a Workfront.** Gli utenti saranno invitati ad accettare un invito ad accedere utilizzando Adobe Identity per la prima volta, effettuando l’accesso con un Adobe ID esistente o configurando un nuovo Adobe ID utilizzando lo stesso indirizzo e-mail.
 
-  Per informazioni su come accedere a Workfront con un Adobe ID, vedere [Accedere a Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Per informazioni su come accedere a Workfront con un Adobe ID, consulta [Accedere ad Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 
 ### Migrazione utente completata
 

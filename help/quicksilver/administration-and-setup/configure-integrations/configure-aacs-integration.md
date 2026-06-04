@@ -6,11 +6,24 @@ description: Puoi collegare il tuo lavoro al contenuto in [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: 1733
 ht-degree: 2%
 
 ---
@@ -281,7 +294,7 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Per aggiungere una cartella nidificata all&#39;albero delle cartelle, fare clic sul menu a tre punti accanto alla cartella in cui si desidera creare una cartella nidificata e selezionare **Aggiungi cartella**. Compila i campi come descritto nel passaggio precedente.
-   1. Per collegare una cartella a Workfront, selezionarla e fare clic su **Crea cartella collegata**   icona ![Collega cartella](assets/link-folder.png).
+   1. Per collegare una cartella a Workfront, selezionarla e fare clic sull&#39;icona ![Collega cartella](assets/link-folder.png) **Crea cartella collegata**.
    1. (Facoltativo) Per modificare una cartella, selezionarla e fare clic sull&#39;icona **Modifica cartella** ![Modifica icona](assets/edit-icon.png).
    1. (Facoltativo) Per eliminare una cartella, selezionarla e fare clic sull&#39;icona **Elimina cartella** ![Elimina cartella](assets/delete-folder.png).
 1. (Condizionale) Per aggiungere un&#39;altra struttura di cartelle, fare clic su **+ Aggiungi struttura di cartelle** e seguire la procedura descritta nel passaggio 5.

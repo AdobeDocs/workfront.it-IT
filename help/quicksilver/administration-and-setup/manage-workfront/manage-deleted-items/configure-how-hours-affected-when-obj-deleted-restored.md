@@ -7,10 +7,21 @@ description: Puoi configurare cosa succede alle ore quando qualcuno elimina un p
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/-qjytcjOGAEltoclAl6xXJ-EuvW9hD0CrwMy8T3c-5g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 1%
+source-wordcount: 360
+ht-degree: 10%
 
 ---
 
@@ -20,7 +31,7 @@ Puoi configurare cosa succede alle ore quando qualcuno elimina un progetto, un‚Ä
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalit√† in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalit√† descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,13 +42,13 @@ Puoi configurare cosa succede alle ore quando qualcuno elimina un progetto, un‚Ä
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>

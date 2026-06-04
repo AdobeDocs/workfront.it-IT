@@ -7,11 +7,23 @@ description: Il grafico burndown fornisce una rappresentazione visiva dell'avanz
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 976
 ht-degree: 0%
 
 ---
@@ -60,7 +72,7 @@ Il grafico a burn-down contiene i seguenti indicatori visivi:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Un punto verde per il lavoro bruciato"> </td> 
    <td> <p>Un punto verde o rosso viene visualizzato sulla frequenza di masterizzazione effettiva ogni volta che il lavoro viene masterizzato. (Quando il tasso di burn-down effettivo in quel giorno è rosso, il punto è rosso; quando il tasso di burndown effettivo in quel giorno è verde, il punto è verde.)</p> <p>Il lavoro viene masterizzato quando si verifica una delle seguenti situazioni:</p> 
     <ul> 
-     <li> Il [!UICONTROL Percent Complete] viene aumentato nella storia.<br>[!UICONTROL Percent Complete] viene aumentato quando: 
+     <li> Il [!UICONTROL Percent Complete] è aumentato nella storia.<br>[!UICONTROL Percent Complete] è aumentato quando: 
       <ul> 
        <li> <p>Modificato manualmente</p> </li> 
        <li> <p>Il numero di punti o ore viene aggiornato sulla storia</p> </li> 
@@ -73,7 +85,7 @@ Il grafico a burn-down contiene i seguenti indicatori visivi:
 
 ## Effetti dei giorni liberi sul grafico a dispersione {#how-days-off-affect-the-burndown-chart}
 
-La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in  [Crea una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La pianificazione predefinita definita in [!DNL Workfront] influisce sul grafico burndown escludendo i giorni liberi (fine settimana e festivi) dal burndown. Il grafico burndown utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
 I team Agile possono incorporare giorni non lavorativi specifici del team definendo una pianificazione alternativa (come descritto nell&#39;articolo [Utilizzare una pianificazione alternativa del team per i grafici a dispersione](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Questa pianificazione alternativa viene quindi riportata nel grafico a discesa di qualsiasi iterazione assegnata al team. La pianificazione alternativa influisce solo sul grafico a dispersione.
 

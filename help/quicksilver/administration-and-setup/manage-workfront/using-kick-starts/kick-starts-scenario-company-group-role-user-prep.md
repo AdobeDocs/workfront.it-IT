@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: kick-start, kick-start, kick-start, kick-start
+keywords: kickstart, kick-start, kickstart, kick-start
 navigation-topic: use-kick-starts
 title: 'Scenario di avvio: società, gruppo, ruolo e preparazione di avvio utente'
 description: Quando si inizia a implementare Adobe Workfront, anziché inserire manualmente i dati, è possibile importare l’elenco dei clienti, i reparti interni, le mansioni e le informazioni utente.
@@ -9,10 +9,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 4%
+source-wordcount: 1214
+ht-degree: 9%
 
 ---
 
@@ -22,7 +31,7 @@ Quando si inizia a implementare Adobe Workfront, anziché inserire manualmente i
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,13 +42,13 @@ Quando si inizia a implementare Adobe Workfront, anziché inserire manualmente i
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,4 +312,4 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 > 
 >Se la tua organizzazione è stata migrata a Adobe Admin Console e un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, consulta [Gestire più utenti   Caricamento in blocco di CSV](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.

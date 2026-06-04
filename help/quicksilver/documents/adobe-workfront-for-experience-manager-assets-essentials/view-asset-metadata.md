@@ -7,10 +7,21 @@ description: Nel pannello Dettagli documento e Riepilogo per documenti è possib
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/qLz7SnubnOZKoh1J66yIHui8fessEmy80fdrGKq2t4k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 0%
+source-wordcount: 328
+ht-degree: 18%
 
 ---
 
@@ -20,7 +31,7 @@ Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizz
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -33,8 +44,8 @@ Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizz
    <td><strong>Licenze Adobe Workfront</strong>
    </td>
    <td>
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
    </td>
   </tr>
   <tr>
@@ -46,7 +57,7 @@ Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizz
   <tr>
    <td><strong>Configurazioni del livello di accesso</strong>
    </td>
-   <td><p>Modifica accesso ai documenti</p>
+   <td><p>Accesso in modifica ai documenti</p>
    </td>
   </tr>
   <tr>
@@ -58,7 +69,7 @@ Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizz
 </table>
 
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

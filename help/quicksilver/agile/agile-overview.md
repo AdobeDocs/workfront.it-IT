@@ -3,15 +3,20 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Panoramica di Agile
-description: Agile è una metodologia di lavoro che consente ai team di completare piccole quantità di lavoro gestibili con una cadenza coerente. In agile, i team gestiscono le storie in un backlog o in uno storyboard e non le attività in un progetto. [!DNL Adobe Workfront] fornisce strumenti che consentono ai team di lavorare in modo agile.
+description: Agile è una metodologia di lavoro che consente ai team di completare piccole quantità di lavoro gestibili con una cadenza coerente. In Agile, i team gestiscono i brani in un backlog o in uno storyboard e non le attività in un progetto. [!DNL Adobe Workfront] fornisce strumenti che consentono ai team di lavorare in modo agile.
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
