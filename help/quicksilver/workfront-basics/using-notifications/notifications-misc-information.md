@@ -7,8 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 917
@@ -41,7 +43,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Messaggio inviato al Centro notifiche [!UICONTROL]</strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
+   <td> <p><strong>Messaggio inviato al Centro notifiche </strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
    <td> Oggetto della notifica<br>Testo del messaggio incluso nella notifica<br>Documenti allegati<br>Nome dell'utente che ha inviato la notifica<br>Data e ora di invio della notifica </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 

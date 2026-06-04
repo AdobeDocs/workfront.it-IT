@@ -7,10 +7,14 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2561
@@ -111,7 +115,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
 
    1. Digitare _Scaduto_ nel campo **Nome**.
-   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
+   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**&#x200B;nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
 
@@ -274,7 +278,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Stato**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Stato**.
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
@@ -309,7 +313,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Versione**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Documento** > **Nome**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
