@@ -8,11 +8,23 @@ exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1684
@@ -61,7 +73,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti alla logica dei moduli personalizzati</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
+            Miglioramenti alla logica dei moduli personalizzati</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
             <p>Il generatore di logica dei moduli personalizzati dispone di un’interfaccia aggiornata che offre più spazio per la creazione di regole logiche. Questo nuovo design può accogliere più facilmente ulteriori tipi di logica che potrebbero essere aggiunti in futuro.</p><p>Oltre alle opzioni di visualizzazione e salta logica correnti, è disponibile anche la logica di convalida.</p>
         </td>
         <td>
@@ -76,7 +88,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Espressioni aggiunte ai campi personalizzati calcolati</a></p>
-            [!BADGE In produzione ]{type=Informative}
+            [!BADGE In produzione &#x200B;]{type=Informative}
             <p>Nei campi personalizzati calcolati di Workfront sono ora disponibili le seguenti espressioni: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT e ADDHOUR. Le definizioni e gli esempi di ciascuna espressione sono disponibili nell’editor di calcolo e in Experience League.</p>
         </td>
         <td>
@@ -115,7 +127,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiornamento visualizzatore bozze desktop </a></p>[!BADGE In produzione ]{type=Informative}
+            Aggiornamento visualizzatore bozze desktop </a></p>[!BADGE In produzione &#x200B;]{type=Informative}
             <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.45. Questo aggiornamento consente di utilizzare
             <ul><li>Electron versione 35</li><li>Cromo versione 134</li><ul></p>
         </td>
@@ -130,7 +142,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modificare più documenti contemporaneamente in un report di documenti </a></p>[!BADGE In produzione ]{type=Informative}
+            Modificare più documenti contemporaneamente in un report di documenti </a></p>[!BADGE In produzione &#x200B;]{type=Informative}
             <p>È ora possibile modificare più documenti contemporaneamente in un rapporto di documento. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.</p>
         </td>
         <td>
@@ -153,7 +165,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti alle bozze nell’app mobile (solo iOS)</a><p>[!BADGE In produzione ]{type=Informative}</p></p>
+            Miglioramenti alle bozze nell’app mobile (solo iOS)</a><p>[!BADGE In produzione &#x200B;]{type=Informative}</p></p>
             <p>Sono disponibili diversi miglioramenti per la funzionalità di bozza nell’app mobile di Adobe Workfront:
             <ul>
             <li>Ora puoi aprire un file di bozza dalla tua app e-mail mobile, da un collegamento condiviso con te. In precedenza, i collegamenti dalle e-mail non erano supportati e si doveva accedere alle bozze dall’app mobile di Workfront.</li>
@@ -185,7 +197,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a><p>[!BADGE In produzione ]{type=Informative}</p>
+            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
             <p>È ora possibile aggiungere un commento a un progetto mentre lo si modifica nella casella Modifica progetto. Puoi anche aggiungere un commento a più progetti contemporaneamente quando li modifichi in blocco. Prima di questo aggiornamento, questa funzionalità non esisteva durante la modifica dei progetti.</p>
         </td>
         <td>
@@ -209,7 +221,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            I dati relativi all’approvazione dei documenti e alle decisioni sono ora disponibili in Data Connect</a><p>[!BADGE In produzione ]{type=Informative}</p>
+            I dati relativi all’approvazione dei documenti e alle decisioni sono ora disponibili in Data Connect</a><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
             <p>È ora possibile accedere ai dati per le approvazioni dei documenti e le decisioni in Data Connect. Questo set di dati collega le approvazioni dei documenti dalle funzionalità di verifica di Workfront e le approvazioni Frame.io che si verificano sui documenti di Workfront. Ora puoi illustrare l’impatto della durata del ciclo, del numero di cicli e della timeline per le approvazioni in ritardo tramite visualizzazioni di BI.</p>
         </td>
         <td>
@@ -222,7 +234,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p>
             <p>Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno coerente con altre aree di Workfront. Esistono piccole differenze di funzionalità rispetto al calendario Workfront corrente, tra cui:
             <ul>
             <li>Come aggiungere elementi ad hoc al calendario</li>
@@ -252,7 +264,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Effettua l’aggiornamento alla nuova versione dell’abbonamento agli eventi con gli endpoint di aggiornamento della versione</a></p>
-            [!BADGE In produzione ]{type=Informative}
+            [!BADGE In produzione &#x200B;]{type=Informative}
             <p>Workfront ora dispone di versioni delle sottoscrizioni agli eventi. Questa nuova versione non cambia l’API Workfront, ma la funzionalità di sottoscrizione eventi. È possibile cambiare gli abbonamenti agli eventi alla nuova versione senza creare uno spazio vuoto nell’abbonamento agli eventi</p>
         </td>
         <td>
@@ -265,7 +277,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
+            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p><p>[!BADGE In produzione &#x200B;]{type=Informative}</p><p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>

@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
 TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 264
@@ -40,7 +42,7 @@ Puoi gestire le approvazioni assegnate o delegate dall&#39;area [!UICONTROL Appr
  </tbody> 
 </table>
 
-Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Rivedere un’approvazione
 
