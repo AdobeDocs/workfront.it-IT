@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1101
 ht-degree: 2%
 
 ---
-
 
 <!--keep the global record type reference in yellow till January 2026-->
 
@@ -257,6 +262,6 @@ Per eliminare un tipo di record globale da un&#39;area di lavoro secondaria:
    * Il tipo di record creato da un tipo di record globale viene rimosso dall&#39;area di lavoro secondaria selezionata.
    * Il tipo di record originale con i relativi campi rimane nell&#39;area di lavoro originale.
    * Il tipo di record rimane in tutte le altre aree di lavoro in cui è stato aggiunto.
-   * I record <!--and fields--> aggiunti al tipo di record dall&#39;area di lavoro secondaria vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati nelle rispettive aree di lavoro e nell&#39;area di lavoro originale. &lt;!- I campi vengono conservati nelle aree di lavoro in cui sono stati aggiunti.
+   * I record <!--and fields--> aggiunti al tipo di record dall&#39;area di lavoro secondaria vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati nelle rispettive aree di lavoro e nell&#39;area di lavoro originale. &lt;!—! - I campi vengono conservati nelle aree di lavoro in cui sono stati aggiunti.
 
 

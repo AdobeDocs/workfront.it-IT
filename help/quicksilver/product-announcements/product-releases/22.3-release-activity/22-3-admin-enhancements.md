@@ -1,19 +1,25 @@
 ---
-title: 22.3 Miglioramenti per gli amministratori
-description: 22.3 Miglioramenti per gli amministratori
+title: 22.3 - Miglioramenti per gli amministratori
+description: 22.3 - Miglioramenti per gli amministratori
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/WCt-16lnZP57hwfKa2ejmA8-QyjQoFOEldI4TtjIdJk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 1%
+source-wordcount: 781
+ht-degree: 4%
 
 ---
 
-# 22.3 Miglioramenti per gli amministratori
+# 22.3 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
@@ -52,7 +58,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 ## Aggiungere un file PDF a un modulo personalizzato
 
-Stiamo continuando a aiutarti a rendere i moduli personalizzati più visivi e informativi con nuovi widget di risorse che puoi aggiungere, come immagini e video. Ora è possibile aggiungere un collegamento a un file PDF a un modulo personalizzato. Quando il modulo viene allegato a un oggetto, gli utenti che lavorano con l’oggetto possono visualizzare e interagire con il PDF dall’interno del modulo.
+Stiamo continuando a aiutarti a rendere i moduli personalizzati più visivi e informativi con nuovi widget di risorse che puoi aggiungere, come immagini e video. Ora è possibile aggiungere a un modulo personalizzato un collegamento a un file PDF. Quando il modulo viene allegato a un oggetto, gli utenti che lo utilizzano possono visualizzare e interagire con PDF dall&#39;interno del modulo.
 
 ## L’editor di calcolo per i campi modulo personalizzati visualizza le informazioni sull’errore
 

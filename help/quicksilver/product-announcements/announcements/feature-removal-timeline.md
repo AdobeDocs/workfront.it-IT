@@ -7,11 +7,15 @@ description: Diverse funzioni sono state eliminate gradualmente dal prodotto Ado
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/UWIgItczhaLrXRwcE39PHyx7-SD3QmBhs2-JfmURLa8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 282
 ht-degree: 6%
 
 ---
@@ -43,10 +47,10 @@ Diverse funzioni sono state eliminate gradualmente dal prodotto Adobe Workfront.
   <tr> 
    <td> <p>Pianificazione risorse</p> <p>Il Bilanciatore dei carichi di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul Bilanciatore dei carichi di lavoro, consulta <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica sul Bilanciatore dei carichi di lavoro</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>—</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
+   <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>--</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un’esperienza migliore rispetto alla versione precedente di Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un’esperienza migliore rispetto alla versione precedente di Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Rimosso dalla piattaforma Workfront il 31 marzo 2021</td> 
   </tr> 

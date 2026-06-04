@@ -2,19 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola costo rischio potenziale
+title: Calcolare il costo del rischio potenziale
 description: Il costo potenziale del rischio di un progetto tiene conto dei costi potenziali dei rischi del progetto e della loro probabilità di verificarsi.
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/32kwPUhdtWhFeqQ34oReoU8xl2JlaWQeZlq7MI1jqtc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: 302
+ht-degree: 2%
 
 ---
 
-# Calcola costo rischio potenziale
+# Calcolare il costo del rischio potenziale
 
 Il costo potenziale del rischio di un progetto tiene conto dei costi potenziali dei rischi del progetto e della loro probabilità di verificarsi.
 

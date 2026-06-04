@@ -2,19 +2,24 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola indice prestazioni programma costi (CSI)
+title: Calcola l’Indice prestazioni pianificazione costi (CSI)
 description: Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l'IPC (Cost Performance Index) e l'IPP (Schedule Performance Index) in un'unica metrica generale che bilancia i costi e la programmazione.
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+TQID: https://experienceleague.adobe.com/USODdaQOyE-D76BVmLLVUS1WxUMrK6Q05xZU1Xg9Gjc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: 332
+ht-degree: 16%
 
 ---
 
-# Calcola indice prestazioni programma costi (CSI)
+# Calcola l’Indice prestazioni pianificazione costi (CSI)
 
 <!-- Audited: 6/2025 -->
 
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 ## Panoramica dell&#39;indice delle prestazioni del programma di costo (CSI)
 
-Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l&#39;IPC (Cost Performance Index) e l&#39;IPP (Schedule Performance Index) in un&#39;unica metrica generale che bilancia i costi e la programmazione. Moltiplicando insieme questi valori, una singola metrica può rappresentare una programmazione prolungata con un budget inferiore o viceversa. I project manager possono utilizzare questa proprietà per determinare lo stato generale del progetto o dell&#39;attività quando il costo viene sacrificato per la programmazione di metà progetto.
+Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l&#39;IPC (Cost Performance Index) e l&#39;IPP (Schedule Performance Index) in un&#39;unica metrica generale che bilancia i costi e la programmazione. Moltiplicando insieme questi valori, una singola metrica può rappresentare una pianificazione prolungata con un budget inferiore o viceversa. I project manager possono utilizzarla per determinare lo stato generale del progetto o dell’attività quando il costo viene sacrificato per prouovere alla pianificazione di metà progetto.
 
 >[!TIP]
 >

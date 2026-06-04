@@ -1,5 +1,5 @@
 ---
-title: Panoramica della condizione e del tipo di condizione del progetto
+title: Panoramica della condizione del progetto e del tipo di condizione
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
@@ -7,14 +7,20 @@ description: La condizione del progetto è una rappresentazione visiva dell’av
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/wj01GJqYRaeo-Dfq66v9-3qrRWxt9lQo6nDPaM1hsKc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 1%
+source-wordcount: 706
+ht-degree: 6%
 
 ---
 
-# Panoramica della condizione e del tipo di condizione del progetto
+# Panoramica della condizione del progetto e del tipo di condizione
 
 <!-- Audited: 12/2023 -->
 
@@ -114,6 +120,6 @@ Nella visualizzazione di un report di progetto, è possibile visualizzare i camp
   I commenti aggiunti agli aggiornamenti delle condizioni non vengono visualizzati nella colonna **Aggiornamento condizione**; viene visualizzato solo l&#39;aggiornamento principale.
 
 * **Nota ultima condizione**: visualizza l&#39;ultimo aggiornamento immesso su un oggetto dal proprietario dell&#39;oggetto. Questo campo è utile per visualizzare l’attività o l’interazione più recente del proprietario su un oggetto.\
-  La colonna **Nota ultima condizione** è vuota se il testo della nota dell&#39;ultima nota di un oggetto è stato eliminato. Una nuova nota immessa sull&#39;oggetto diventa l&#39;ultima nota e viene nuovamente visualizzata nella colonna.
+  La colonna **Nota ultima condizione** è vuota se il testo della nota dell&#39;ultima nota di un oggetto è stato eliminato. Quando una nuova nota inserita sull’oggetto diventa l’ultima nota e viene nuovamente visualizzata nella colonna.
 
 Per informazioni su come creare un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

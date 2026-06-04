@@ -7,14 +7,19 @@ description: È possibile utilizzare il vincolo dell'attività Date fisse per sp
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rVMjo1IgPBQpLatO8jufxGPYTn2W0qghce2v5O-zPRo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 0%
+source-wordcount: 437
+ht-degree: 1%
 
 ---
 
-# Panoramica sui vincoli delle attività: date fisse
+# Panoramica sui vincoli attività: date fisse
 
 È possibile utilizzare il vincolo dell&#39;attività Date fisse per specificare la data di inizio e di fine esatte delle attività. Per ulteriori informazioni sui vincoli delle attività, vedere [Panoramica sui vincoli delle attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 

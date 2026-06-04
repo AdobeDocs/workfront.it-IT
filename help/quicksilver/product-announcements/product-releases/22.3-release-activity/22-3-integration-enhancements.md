@@ -1,33 +1,39 @@
 ---
-title: 22.3 Miglioramenti all’integrazione
-description: 22.3 Miglioramenti all’integrazione
+title: 22.3 - Miglioramenti per le integrazioni
+description: 22.3 - Miglioramenti per le integrazioni
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d1807669-3cb9-4c7d-8433-600aa390c92f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 0%
+source-wordcount: 378
+ht-degree: 7%
 
 ---
 
-# 22.3 Miglioramenti all’integrazione
+# 22.3 - Miglioramenti per le integrazioni
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 22.3 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione a gennaio 2022, l’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrazione con Adobe Workfront per Experience Manager Assets
 
-Siamo lieti di annunciare che l’integrazione con Adobe Workfront Experience Manager Assets è ora disponibile per il Cloud Service.
+Siamo lieti di annunciare che l’integrazione con Adobe Workfront Experience Manager Assets è ora disponibile per Cloud Service.
 
-Sono state inoltre introdotte nuove funzionalità per Cloud Service e Assets Essentials: questa integrazione consente agli utenti di
+Abbiamo inoltre introdotto nuove funzionalità per Cloud Service e Assets Essentials: questa integrazione consente agli utenti di
 
 * Creazione automatica di cartelle AEM collegate da Workfront
 
-* Invio di aggiornamenti dei metadati da Workfront all’AEM per le risorse già collegate
+* Invio di aggiornamenti dei metadati da Workfront ad AEM per le risorse già collegate
 
-* Visualizzazione in tempo reale dei più recenti metadati AEM in Workfront
+* Visualizzazione in tempo reale dei metadati più recenti di AEM in Workfront
 
 
 Per utilizzare questa integrazione, devi avere Workfront e Adobe Experience Manager Assets o Assets Essentials associati al tuo ID organizzazione in Adobe Admin Console. Per ulteriori informazioni, rivolgiti al tuo rappresentante commerciale Adobe.
@@ -59,4 +65,4 @@ Per ulteriori informazioni, consulta
 
 * [Caricare bozze da Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
 
-* [Carica le bacheche grafiche dell’XD come prove in Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Carica XD art board come bozze in Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)

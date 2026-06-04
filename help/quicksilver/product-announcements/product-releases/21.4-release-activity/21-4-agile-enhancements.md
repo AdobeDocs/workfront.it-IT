@@ -1,18 +1,21 @@
 ---
-title: 21.4 Miglioramenti Agile
-description: 21.4 Miglioramenti Agile
+title: 21.4 - Miglioramenti per la metodologia Agile
+description: 21.4 - Miglioramenti per la metodologia Agile
 author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Y-y7BSMD-4NVL4G5hleSgZZmXKRjir4voenmbggO-AU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: 412
+ht-degree: 5%
 
 ---
 
-# 21.4 Miglioramenti Agile
+# 21.4 - Miglioramenti per la metodologia Agile
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
@@ -22,10 +25,10 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta l
 
 Abbiamo aggiornato le schede delle storie sulle bacheche Kanban e Scrum per facilitare l’assegnazione di un utente alla storia. Ora puoi fare clic su un avatar del team o dell’utente per aggiungere un’assegnazione quando la scheda delle storie viene espansa. In precedenza, era necessario individuare e fare clic su un&#39;icona separata con il segno più.
 
-Per ulteriori informazioni, consulta  
+Per ulteriori informazioni, consulta
 
 * [Assegna utenti a una storia sul Kanban Board](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Assegnare utenti a un brano sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Assegnare utenti a una storia sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configurare la modalità di applicazione delle date quando si aggiungono elementi di lavoro a un’iterazione Scrum
 

@@ -7,9 +7,15 @@ description: Puoi tenere traccia dei costi per progetti, attività e problemi in
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/QlZHaPhBX1e8VKXlVCAc-vB1D-BDS4-LDq3dZrBuPXI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: 2756
 ht-degree: 1%
 
 ---
@@ -214,7 +220,7 @@ Nella tabella seguente vengono descritti i tipi di costo dei task disponibili in
      <ul> 
       <li>Se si assegnano più risorse a un'attività, Workfront adegua i calcoli per il Costo pianificato in base alla percentuale dell'attività assegnata a ciascuna risorsa.</li>
       <li>Per i tassi di costo effettivi per data, il costo manodopera pianificata è la somma dei costi pianificati di ogni periodo di tempo coperto dall'attività.</li>
-      <li>Il valore del campo Costo pianificato può variare a seconda che il Costo pianificato venga visualizzato dall'attività stessa o dal rapporto Utilizzo.<br><strong>Quando si visualizza il Costo pianificato dall'attività stessa:</strong> Il campo Costo pianificato prende in considerazione il campo Costo orario impostato a livello di mansione (quando il campo Costo orario non è stato impostato a livello di utente).<br><strong>Quando si visualizza Costo pianificato dal report Utilizzo del progetto:</strong> Il campo Costo pianificato non tiene conto del campo Costo orario impostato a livello di mansione. Se invece si desidera che il rapporto Utilizzo prenda in considerazione il campo Costo/Ora impostato a livello Mansione, è necessario impostare il tipo di costo dell'attività su Ore mansione. </li> 
+      <li>Il valore del campo Costo pianificato può variare a seconda che il Costo pianificato venga visualizzato dall'attività stessa o dal rapporto Utilizzo.<br><strong>Quando si visualizza il Costo pianificato dall'attività stessa:</strong> Il campo Costo pianificato prende in considerazione il campo Costo orario impostato a livello di mansione (quando il campo Costo orario non è stato impostato a livello di utente).<br><strong>Quando si visualizza il Costo pianificato dal report Utilizzo del progetto:</strong> Il campo Costo pianificato non prende in considerazione il campo Costo orario impostato a livello di mansione. Se invece si desidera che il rapporto Utilizzo prenda in considerazione il campo Costo/Ora impostato a livello Mansione, è necessario impostare il tipo di costo dell'attività su Ore mansione. </li> 
      </ul> </p> <p><strong>Il costo effettivo</strong> è calcolato con la formula seguente: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Se il costo effettivo della manodopera è calcolato in base a:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Ad esempio, un utente nel suo profilo ha una tariffa Costo orario di 20 $. Quando si registrano 5 ore per un'attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente non è associata una tariffa Costo orario, il Costo effettivo viene calcolato in base alla tariffa Costo orario della mansione principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: i costi effettivi vengono calcolati in base alla tariffa Costo orario per l'utente che registra l'ora, indipendentemente da chi è assegnato all'attività. Inoltre, la tariffa oraria di costo nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> </td> 
   </tr> 
   <tr> 

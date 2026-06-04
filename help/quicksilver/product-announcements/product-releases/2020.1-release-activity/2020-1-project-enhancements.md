@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Miglioramenti al progetto 2020.1
+title: Miglioramenti per il progetto 2020.1
 description: Questa pagina descrive tutti i miglioramenti apportati ai progetti con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13b6dd9e-52b9-4c5f-b727-bf32fbb94e8c
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/uaajPvdZOKhI6HDmwIRnvevVny9weroPYO4nxy5DwZ0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 0%
+source-wordcount: 543
+ht-degree: 1%
 
 ---
 
-# Miglioramenti al progetto 2020.1
+# Miglioramenti per il progetto 2020.1
 
 Questa pagina descrive tutti i miglioramenti apportati ai progetti con la versione 2020.1. Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno disponibili nell’ambiente di produzione a fine marzo o all’inizio di aprile 2020.
 
@@ -32,7 +37,7 @@ Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di agg
 
 ## Includere e identificare il testo citato in un commento o in una risposta di aggiornamento
 
-Quando si digita un commento, è possibile contrassegnarne una parte come testo citato per distinguerlo dal proprio commento. Utilizza il pulsante Citazione nell’editor di HTML.
+Quando si digita un commento, è possibile contrassegnarne una parte come testo citato per distinguerlo dal proprio commento. Utilizza il pulsante Blocca preventivo nell’editor di HTML.
 
 Per ulteriori informazioni, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

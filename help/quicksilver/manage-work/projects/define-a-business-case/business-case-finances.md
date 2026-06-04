@@ -1,19 +1,25 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: Panoramica dei campi finanziari del Business Case
+title: Panoramica dei campi finanziari del caso di business
 description: La scheda secondaria Caso di business include i campi finanziari per il progetto. Affinché alcuni campi finanziari abbiano valori, è necessario completare le aree corrispondenti del Business Case.
 author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rtNmXiZoe-NqCa8neuASw1BDMl8OBBbsN6Jm0a6Z-90
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 2%
+source-wordcount: 746
+ht-degree: 3%
 
 ---
 
-# Panoramica dei campi finanziari del Business Case
+# Panoramica dei campi finanziari del caso di business
 
 La scheda secondaria Caso di business include i campi finanziari per il progetto. Affinché alcuni campi finanziari abbiano valori, è necessario completare le aree corrispondenti del Business Case.
 
@@ -35,7 +41,7 @@ Nel Business Case vengono visualizzati i seguenti campi finanziari del progetto:
   </tr> 
   <tr> 
    <td>Bdg prv</td> 
-   <td> <p>Costo totale stimato da associare al progetto all'avvio del progetto.</p> <p>Il costo preventivato per il progetto viene calcolato con la seguente formula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront utilizza le ore preventivate della Programmazione risorse per calcolare il Costo manodopera preventivato.<br>Per ulteriori informazioni sul calcolo del costo preventivato, vedere <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcolare il costo preventivato</a>. </p> <p>Questo campo viene visualizzato nell'area Riepilogo caso di business.</p> </td> 
+   <td> <p>Costo totale stimato da associare al progetto all'avvio del progetto.</p> <p>Il costo preventivato per il progetto viene calcolato con la seguente formula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront utilizza le ore preventivate della Programmazione delle risorse per calcolare il costo preventivato della manodopera.<br>Per ulteriori informazioni sul calcolo del costo preventivato, vedere <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcolare il costo preventivato</a>. </p> <p>Questo campo viene visualizzato nell'area Riepilogo caso di business.</p> </td> 
   </tr> 
   <tr> 
    <td>Costo spesa preventivato</td> 
@@ -43,7 +49,7 @@ Nel Business Case vengono visualizzati i seguenti campi finanziari del progetto:
   </tr> 
   <tr> 
    <td>Lav Bdg prv</td> 
-   <td> <p>Il costo associato alle risorse assegnate per completare il lavoro sul progetto.</p> <p>Il costo manodopera preventivato per il progetto viene calcolato con la seguente formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront utilizza le ore preventivate della Programmazione risorse per calcolare il Costo manodopera preventivato.<br>Per ulteriori informazioni sul calcolo del costo manodopera preventivato, vedere <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprendere il costo manodopera preventivato e le ore preventivate per i progetti</a>.</p> <p>Questo campo viene visualizzato nell'area Budget risorse del Business Case. </p> </td> 
+   <td> <p>Il costo associato alle risorse assegnate per completare il lavoro sul progetto.</p> <p>Il costo manodopera preventivato per il progetto viene calcolato con la seguente formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront utilizza le ore preventivate della programmazione delle risorse per calcolare il costo della manodopera preventivato.<br>Per ulteriori informazioni sul calcolo del costo della manodopera preventivato, vedere <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprendere il costo della manodopera preventivato e le ore preventivate per i progetti</a>.</p> <p>Questo campo viene visualizzato nell'area Budget risorse del Business Case. </p> </td> 
   </tr> 
   <tr> 
    <td>Costo pianificato spese</td> 

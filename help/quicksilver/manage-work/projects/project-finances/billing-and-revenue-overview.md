@@ -7,11 +7,17 @@ description: In qualità di project manager, puoi utilizzare le tariffe di fattu
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/yyAlbvsYdc94k3yDGUB5fi6-ZMM9zfG04dlRzHhuBsk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4540'
+source-wordcount: 4494
 ht-degree: 1%
 
 ---
@@ -311,7 +317,7 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
-     <td>0,00 $</td> 
+     <td>$0.00</td> 
      <td> Se un utente ha una tariffa di fatturazione nel suo profilo, questa viene utilizzata per calcolare la Retribuzione Pianificata. In caso contrario, viene utilizzata la tariffa di fatturazione del sistema per la mansione principale. <br><p><b>NOTA</b> L'utente può essere assegnato all'attività con una delle sue mansioni secondarie, ma in questo caso viene utilizzata la frequenza della mansione principale.</p><p>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicati i tassi corretti.</p></td> 
      <td>La tariffa di fatturazione di sistema della mansione assegnata all'attività viene utilizzata per calcolare la Retribuzione pianificata. Le tariffe di fatturazione possono essere sostituite a livello di progetto.</td> 
     </tr> 
@@ -349,7 +355,7 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
-     <td>0,00 $</td> 
+     <td>$0.00</td> 
      <td><p>Workfront esamina il ruolo che l’utente svolge nell’attività per calcolare la Retribuzione Pianificata. <br>Se l'utente non è associato ad alcun ruolo nell'attività, il ricavo è $0,00.</p> <p><strong>NOTA</strong><br>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicate le tariffe corrette.</p> </td> 
      <td>La tariffa di fatturazione della mansione assegnata all'attività viene utilizzata per calcolare la Retribuzione pianificata. Le tariffe di fatturazione possono essere sostituite a livello di progetto.</td> 
     </tr> 
@@ -366,7 +372,7 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
 
 | Tariffa di fatturazione oraria | Nessuna assegnazione | Assegnazione utente | Assegnazione ruolo |
 | --- | --- | --- | --- |
-| Tariffa oraria di fatturazione per la retribuzione pianificata | 0,00 $ | Quando un utente viene assegnato, il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportati un tasso di cambio bloccato, un tasso inserito manualmente sull&#39;assegnazione, il Ruolo per fatturazione sull&#39;assegnazione, la sostituzione della tariffa di fatturazione dell&#39;utente a livello di progetto, il Ruolo per fatturazione a livello di progetto, la tariffa del sistema utente e la tariffa del ruolo principale dell&#39;utente. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando viene assegnata una mansione, il sistema cerca prima una tariffa di fatturazione mantenuta, quindi una tariffa a schede bloccata per la mansione nell&#39;assegnazione. Quindi cerca una percentuale di mansioni aggiunta manualmente sull’assegnazione. Se tale tariffa non viene trovata, cerca una tariffa per mansioni a livello di progetto, prima da una scheda tariffa e quindi dalla tariffa di sistema. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Tariffa oraria di fatturazione per la retribuzione pianificata | $0.00 | Quando un utente viene assegnato, il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportati un tasso di cambio bloccato, un tasso inserito manualmente sull&#39;assegnazione, il Ruolo per fatturazione sull&#39;assegnazione, la sostituzione della tariffa di fatturazione dell&#39;utente a livello di progetto, il Ruolo per fatturazione a livello di progetto, la tariffa del sistema utente e la tariffa del ruolo principale dell&#39;utente. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando viene assegnata una mansione, il sistema cerca prima una tariffa di fatturazione mantenuta, quindi una tariffa a schede bloccata per la mansione nell&#39;assegnazione. Quindi cerca una percentuale di mansioni aggiunta manualmente sull’assegnazione. Se tale tariffa non viene trovata, cerca una tariffa per mansioni a livello di progetto, prima da una scheda tariffa e quindi dalla tariffa di sistema. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Tariffa oraria fatturazione per retribuzione effettiva | Ai fini del calcolo, vengono prese in considerazione solo le tariffe associate all&#39;utente che registra l&#39;ora, anche quando un altro utente è assegnato all&#39;attività. <p> Il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportate una tariffa bloccata, una sostituzione della tariffa di fatturazione sul progetto, la mansione per la fatturazione, la tariffa a livello di sistema sul profilo utente del proprietario e la tariffa di fatturazione della mansione principale del proprietario. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando un utente viene assegnato, il sistema cerca la tariffa in un ordine specificato, a partire da una tariffa di fatturazione mantenuta. Di seguito sono riportati un tasso di cambio bloccato, un tasso inserito manualmente sull&#39;assegnazione, il Ruolo per fatturazione sull&#39;assegnazione, la sostituzione della tariffa di fatturazione dell&#39;utente a livello di progetto, il Ruolo per fatturazione a livello di progetto, la tariffa del sistema utente e la tariffa del ruolo principale dell&#39;utente. <p> Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando viene assegnata una mansione, il sistema cerca prima una tariffa di fatturazione mantenuta, quindi una tariffa a schede bloccata per la mansione nell&#39;assegnazione. Quindi cerca una percentuale di mansioni aggiunta manualmente sull’assegnazione. Se tale tariffa non viene trovata, cerca una tariffa per mansioni a livello di progetto, prima da una scheda tariffa e quindi dalla tariffa di sistema. Per ulteriori informazioni, vedere [Panoramica sulla gerarchia dei ricavi e dei costi](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 
 ### Calcolo ricavi per progetti

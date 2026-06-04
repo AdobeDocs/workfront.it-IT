@@ -1,19 +1,23 @@
 ---
-title: 22.2 Miglioramenti al progetto
-description: 22.2 Miglioramenti al progetto
+title: 22.2 - Miglioramenti ai progetti
+description: 22.2 - Miglioramenti ai progetti
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+TQID: https://experienceleague.adobe.com/hREqbBqRZmf8J3FS6PUwtgkfb3ZTyfcdeWZCZUvBRyY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: 1099
+ht-degree: 3%
 
 ---
 
-# 22.2 Miglioramenti al progetto
+# 22.2 - Miglioramenti ai progetti
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 22.2 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
@@ -116,7 +120,7 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 * [Modifica informazioni nei campi modulo personalizzati](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Allega un modello a un progetto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Esporta un progetto in Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Iscriviti agli elementi in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Iscriversi agli elementi in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Mantieni gli utenti sul dashboard, elenco o rapporto dopo la conversione del problema in progetto
 

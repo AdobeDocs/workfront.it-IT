@@ -2,19 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Panoramica della data di inizio prevista del progetto
+title: Panoramica sulla data di inizio prevista del progetto
 description: La data di inizio prevista è una data in tempo reale di inizio del progetto basata sulla data di inizio prevista della prima attività del progetto.
 author: Alina
 feature: Work Management
 exl-id: 6277e6cf-0a73-4ba8-a3fd-c0da473dc5d4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+TQID: https://experienceleague.adobe.com/2rcx201EGt4cqRpqfXws6P-NbRnXyVlFoTbJrQJBipg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: 430
+ht-degree: 6%
 
 ---
 
-# Panoramica della data di inizio prevista del progetto
+# Panoramica sulla data di inizio prevista del progetto
 
 ## Panoramica della data di inizio prevista per progetti e attività
 
@@ -43,6 +49,6 @@ Se una di queste attività è la prima attività di un progetto, la data di iniz
 
 * È possibile aggiungerlo a un progetto, a una relazione attività o a una visualizzazione.
 
-  Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per ulteriori informazioni sulla creazione di un rapporto, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Nella sezione Project Details (Dettagli progetto) di un progetto o nella sezione Task Details (Dettagli attività) di un&#39;attività.

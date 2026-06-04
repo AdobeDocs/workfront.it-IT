@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 2020.2 altri miglioramenti
+title: 2020.2 - Altri miglioramenti
 description: Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 2020.2 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 maggio 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/CyxuVyCzox2CvvIzhfEGqvnHAxM16Lr9VOXjEqgp4q4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: 637
+ht-degree: 3%
 
 ---
 
-# 2020.2 altri miglioramenti
+# 2020.2 - Altri miglioramenti
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 2020.2 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 maggio 2020.
 
@@ -42,7 +48,7 @@ Per informazioni sull’aggiunta di processi di approvazione a progetti, attivit
 * [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+* [Creare argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 ## Creare processi di approvazione per gruppi utilizzando stati personalizzati
 

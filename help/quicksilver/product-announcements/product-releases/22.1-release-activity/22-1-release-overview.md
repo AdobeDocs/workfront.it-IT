@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4758'
-ht-degree: 0%
+source-wordcount: 4991
+ht-degree: 3%
 
 ---
 
@@ -48,14 +54,14 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/it-it/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/it-it/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
 .
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
@@ -72,7 +78,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -157,14 +163,14 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Miglioramenti al progetto {#project-enhancements}
+### Miglioramenti ai progetti {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -221,7 +227,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -243,14 +249,14 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Richieste di miglioramenti {#requests-enhancements}
+### Miglioramenti alle richieste {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -275,7 +281,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -305,7 +311,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -348,7 +354,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -363,9 +369,9 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-## Miglioramenti apportati a Workfront Fusion
+## Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.1. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.1. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Miglioramenti di Workfront Scenario Planner
 
@@ -393,7 +399,7 @@ Per API versione 14, abbiamo modificato alcune risorse ed endpoint. Alcune delle
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 14](../../../wf-api/api/new-api-version-14.md) dell&#39;API.
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Aggiornamenti di manutenzione per Workfront
 
@@ -415,9 +421,9 @@ Il webinar sulla versione di Workfront 22.1 è stato presentato il 12 gennaio 20
 </div>
 -->
 
-## Aggiornamenti dei corsi di formazione
+## Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funzionalità non più supportata
 

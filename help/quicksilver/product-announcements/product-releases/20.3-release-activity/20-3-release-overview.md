@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d83a421c-ecb9-4757-b609-c531392f90ebid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 0%
+source-wordcount: 3985
+ht-degree: 2%
 
 ---
 
@@ -42,7 +48,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -118,21 +124,21 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
 >
 >Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
 >
->* Un piano Pro o superiore [Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
+>* Un piano Pro o superiore [Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >* Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 >
 >  Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 >
 >  Workfront Goals è disponibile solo nella nuova esperienza Adobe Workfront.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -151,32 +157,32 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
 >Devi avere i seguenti:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/it/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</p> </td> 
->&gt;   <td>Business o superiore</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Tipo di licenza*</p> </td> 
->&gt;   <td> <p>Rivedi o superiore. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Prodotto</td> 
->&gt;   <td>Pianificazione scenario in Workfront <p>Per informazioni su Workfront Scenario Planner, vedere <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Livello di accesso*</strong> </td> 
->&gt;   <td> <p>Accesso di visualizzazione o superiore alla Pianificazione scenario</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
->&gt;   <td> <p>Visualizza autorizzazioni o versioni successive per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere l'accesso a un piano in Pianificazione scenario</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Per conoscere il piano, il tipo di licenza o l'accesso di cui si dispone, contattare l'amministratore Workfront.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</p> </td> 
+&gt;   <td>Business o superiore</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Tipo di licenza*</p> </td> 
+&gt;   <td> <p>Rivedi o superiore. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe Workfront</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Prodotto</td> 
+&gt;   <td>Pianificazione scenario in Workfront <p>Per informazioni su Pianificazione scenari di Workfront, consulta <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica su Pianificazione scenari</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Livello di accesso*</strong> </td> 
+&gt;   <td> <p>Accesso di visualizzazione o superiore alla Pianificazione scenario</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
+&gt;   <td> <p>Visualizza autorizzazioni o versioni successive per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere l'accesso a un piano in Pianificazione scenario</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Per conoscere il piano, il tipo di licenza o l'accesso di cui si dispone, contattare l'amministratore Workfront.
 
  
 
@@ -185,7 +191,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -202,7 +208,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -219,7 +225,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -240,7 +246,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -277,7 +283,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +316,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -339,7 +345,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -364,7 +370,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -396,7 +402,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
    <td><strong>Disponibile in queste date:</strong> <p>Anteprima Beta: 29 luglio 2020</p> <p>Versione di produzione: a partire dalla versione 20.3 in un rollout graduale e disponibile per tutti i clienti entro il 1° settembre 2020.</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Codifica Base64 per sottoscrizioni eventi</a> </p> <p>Il campo base64Encoding è un campo facoltativo utilizzato per abilitare la codifica Base64 dei payload di abbonamento agli eventi. Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti newState e oldState nel payload vengono consegnati come stringhe di codifica Base64. Questa funzione può essere utile se la rete è configurata in modo da non consentire l'utilizzo di caratteri speciali nelle sottoscrizioni di eventi.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Codifica Base64 per sottoscrizioni eventi</a> </p> <p>Il campo base64Encoding è facoltativo, utilizzato per abilitare la codifica Base64 dei payload di sottoscrizione agli eventi. Se viene effettuata una richiesta utilizzando il campo base64Encoding impostato su true, gli oggetti newState e oldState nel payload vengono consegnati come stringhe di codifica Base64. Questa funzione può essere utile se la rete è configurata in modo da non consentire l'utilizzo di caratteri speciali nelle sottoscrizioni di eventi.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Anteprima Beta: 8 luglio 2020</p> <p>Versione di produzione: 10 luglio 2020</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -427,7 +433,7 @@ Per informazioni sugli aggiornamenti di manutenzione apportati durante la versio
 ## Annunci
 
 * [Modifica nella cadenza di rilascio dell&#39;anteprima](#change-in-preview-release-cadence)
-* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi necessari per accedere a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi richiesto per l&#39;accesso a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar sulla versione di [20.3](#20-3-release-webinar)
 * [Webinar Q1 sulla roadmap dei prodotti](#q1-product-roadmap-webinar)
@@ -438,20 +444,20 @@ A partire dal 20 maggio 2020, Workfront ha iniziato a rendere disponibili funzio
 
 Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home)
 
-### È richiesto il Elenco Consentiti di domini aggiuntivi per accedere a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### È richiesta la Inserisce nell&#39;elenco Consentiti di domini aggiuntivi per l’accesso a Workfront da parte di un’istanza di {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di gestione dei:
+Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso:
 
 * event.split.io
 * sdk.split.io
 
-Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar sulla versione 20.3 {#20-3-release-webinar}
 

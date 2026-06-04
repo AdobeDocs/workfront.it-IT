@@ -8,10 +8,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: b8ea32d4-f1fe-4c71-8871-afe5a702a009id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: c10f2e93-7a58-4212-aa24-684c265ebe76id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 0%
+source-wordcount: 2403
+ht-degree: 4%
 
 ---
 
@@ -62,7 +68,7 @@ For specific release dates and times for each cluster, see the
 </MadCap:conditionalText>
 -->
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
@@ -78,7 +84,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -96,14 +102,14 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Miglioramenti al progetto {#project-enhancements}
+### Miglioramenti ai progetti {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -164,7 +170,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -174,14 +180,14 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Richieste di miglioramenti {#requests-enhancements}
+### Miglioramenti alle richieste {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -202,7 +208,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -223,7 +229,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -231,7 +237,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Disponibile in queste date:</strong> </p> <p>Anteprima versione: N/D<br></p> <p>Versione di produzione: con la versione 21.3</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filtri sottoscrizione eventi</a> </p> <p>I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per gli abbonamenti può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filtri sottoscrizione eventi</a> </p> <p>I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro della sottoscrizione a eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per le sottoscrizioni può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare. </p> </td> 
    <td><strong>Disponibile nelle date seguenti: Anteprima versione: 20 maggio 2021 Produzione versione: 3 giugno 2021 Disponibile in questi ambienti: La nuova esperienza Adobe Workfront</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
@@ -247,9 +253,9 @@ For specific release dates and times for each cluster, see the
 
 Con la versione 21.3 vengono introdotte nuove funzioni in Workfront Scenario Planner. Per informazioni su queste nuove funzioni ora disponibili in Anteprima, consulta [Adobe Workfront Scenario Planner con versione 21.3](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
 
-## Miglioramenti apportati a Workfront Fusion
+## Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 21.3. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 21.3. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Miglioramenti di Workfront Proof
 
@@ -263,16 +269,16 @@ A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Wo
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals with the 21.2 release</a>.</p>
 -->
 
-## Notifiche
+## Annunci
 
 ### Aggiornamento del inserisco nell&#39;elenco Consentiti IP richiesto per l’utilizzo dell’integrazione Workfront for Jira
 
-Abbiamo apportato alcuni aggiornamenti di back-end all’integrazione di Workfront for Jira. Verifica che i seguenti indirizzi IP elencati nell&#39;articolo [Configurare il inserire nell&#39;elenco Consentiti inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) siano stati aggiunti al tuo di connessioni in entrata e in uscita:
+Abbiamo apportato alcuni aggiornamenti di back-end all’integrazione di Workfront for Jira. Verifica che i seguenti indirizzi IP elencati nell&#39;articolo [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) siano stati aggiunti al tuo inserisco nell&#39;elenco Consentiti di accesso in entrata e in uscita all&#39;interno del tuo sistema di gestione delle connessioni in entrata e in uscita:
 
-* 34 213 36 118
-* 35 160 0 242
-* 3 209 27 146
-* 18 205 251,4
+* 34.213.36.118
+* 35.160.0.242
+* 3.209.27.146
+* 18.205.251.4
 
 Questi indirizzi erano precedentemente elencati come necessari per altre aree di Workfront, ma ora sono anche necessari per l’integrazione Jira.
 

@@ -1,19 +1,23 @@
 ---
-title: 22.4 Miglioramenti al progetto
-description: 22.4 Miglioramenti al progetto
+title: 22.4 - Miglioramenti ai progetti
+description: 22.4 - Miglioramenti ai progetti
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 2%
+source-wordcount: 965
+ht-degree: 3%
 
 ---
 
-# 22.4 Miglioramenti al progetto
+# 22.4 - Miglioramenti ai progetti
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 22.4 di Project. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
 
@@ -51,7 +55,7 @@ Per ulteriori informazioni, vedere [Modifica progetti](/help/quicksilver/manage-
 
 NOTA: ulteriori campi utente per progetti, attività e problemi saranno aggiornati con questa funzionalità nelle versioni future.
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## I campi data calcolati vengono sempre salvati in base al Coordinated Universal Time (UTC)
 
@@ -71,14 +75,14 @@ Per ulteriori informazioni, vedere [Utilizzo dei fusi orari](/help/quicksilver/w
 
 In base al tuo feedback, abbiamo introdotto i seguenti miglioramenti per migliorare la tua esperienza nella gestione dei moduli personalizzati:
 
-* Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che utilizzano l&#39;oggetto possono visualizzare e interagire con il file XD dall&#39;interno del modulo.
+* Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che lo utilizzano possono visualizzare e interagire con il file XD dall&#39;interno del modulo.
 
 
 * Utilizza il filtro rapido per individuare facilmente gli elementi nell’elenco dei campi e dei moduli personalizzati modernizzati. Inoltre, è possibile ottenere un aspetto migliore durante la gestione di moduli e campi.
 
   Per ulteriori informazioni sul filtro rapido, vedere [Applicare il filtro rapido a un elenco](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Beta pubblico: nuova esperienza di filtro per progetti, attività e problemi
 
@@ -112,7 +116,7 @@ La modalità testo rimane disponibile per la modifica avanzata dei filtri e gli 
 
 ### Vogliamo il tuo feedback!
 
-Con questo Beta pubblico gli utenti possono inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante Feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+Con questo Beta pubblico gli utenti possono inviare feedback direttamente al team che lavora sull’esperienza dei filtri, facendo clic sul pulsante Feedback. Saremo lieti di ricevere informazioni da te e dai tuoi utenti sulla nuova esperienza di filtro nella versione beta pubblica. Se il tuo team desidera incontrare direttamente il prodotto per fornire un feedback, pianifica un incontro qui: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Cosa succede dopo?
 
@@ -129,4 +133,4 @@ Desideriamo fornire valore iterativo, in modo da continuare a fornire man mano c
 
 Per ulteriori informazioni, vedere [Panoramica dei filtri](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Creare o modificare filtri in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412391/)
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412391/)

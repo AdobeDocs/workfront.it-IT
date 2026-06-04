@@ -1,19 +1,22 @@
 ---
-title: 21.4 Miglioramenti per dispositivi mobili
-description: 21.4 Miglioramenti per dispositivi mobili
+title: 21.4 - Miglioramenti per dispositivi mobili
+description: 21.4 - Miglioramenti per dispositivi mobili
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbc013eb-aecc-405b-91b8-ce45f2ea10dc
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/Ze4C1aNFqXc-gIj3CxTyFD3nPQe40WqJB2w-YDbHwXk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: 245
+ht-degree: 6%
 
 ---
 
-# 21.4 Miglioramenti per dispositivi mobili
+# 21.4 - Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 21.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 

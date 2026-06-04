@@ -7,10 +7,16 @@ description: Comprendere il costo manodopera preventivato e le ore preventivate 
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 6%
 
 ---
 
@@ -129,7 +135,7 @@ Il Costo manodopera preventivato riportato nell&#39;area Budget risorse del Busi
 
 >[!NOTE]
 >
->Se si utilizza Adobe Workfront Scenario Planner per preventivare le risorse del progetto, il Costo manodopera preventivato nell&#39;area Budget risorse del Business Case corrisponde ai Costi persone dell&#39;iniziativa collegata al progetto. La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Per informazioni sull&#39;impostazione del budget delle risorse tramite Scenario Planner, vedere [Risorse budget nel Business Case mediante Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>Se si utilizza Adobe Workfront Scenario Planner per preventivare le risorse del progetto, il Costo manodopera preventivato nell&#39;area Budget risorse del Business Case corrisponde ai Costi persone dell&#39;iniziativa collegata al progetto. La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../../scenario-planner/scenario-planner-overview.md). Per informazioni sull&#39;impostazione del budget delle risorse tramite Scenario Planner, vedere [Risorse budget nel Business Case mediante Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Individuare le ore preventivate di un progetto
 
@@ -145,19 +151,19 @@ Puoi visualizzare le Ore preventivate in Workfront nei campi elencati nella tabe
 
 >[!NOTE]
 >
->Qualsiasi altra menzione di &quot;Ore preventivate&quot; in Workfront si riferisce alle ore preventivate utilizzando funzioni obsolete che sono state rimosse da Workfront. Si tratta di campi di sola visualizzazione che non vengono aggiornati con le informazioni correnti quando si utilizzano gli strumenti di budgeting delle risorse correnti.
+>Qualsiasi altra menzione di &quot;Ore preventivate&quot; in Workfront si riferisce alle ore preventivate utilizzando funzioni obsolete che sono state rimosse da Workfront. Si tratta di campi di sola visualizzazione che non vengono aggiornati con le informazioni correnti durante l’utilizzo degli strumenti di budget delle risorse correnti.
 
 Le ore preventivate nell&#39;area Budget risorse del Business Case o della Programmazione risorse vengono visualizzate nelle seguenti aree di Workfront e sotto i seguenti nomi:
 
 * **Ore**: area Budget risorse del Business Case
-* **BDG**:Pianificazione risorse visualizzata per ore
+* **BDG**:Resource Planner visualizzato per ore
 * **Ore preventivate**: visualizzazione ore report di utilizzo
 Per informazioni, vedere [Visualizzare le informazioni sull&#39;utilizzo delle risorse](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 * **Bud Ore**: rapporto Ore preventivate
 
   L&#39;oggetto Ora preventivata nel rapporto Ore preventivate fa riferimento a informazioni relative a uno strumento di gestione delle risorse obsoleto. Solo il &quot;Bud. Il campo &quot;Ore&quot; in questo rapporto si riferisce alle ore preventivate nella Programmazione delle risorse o nell&#39;area Budget risorse del Business Case del progetto.
 
-  Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo **Creare un report personalizzato**.
+  Per ulteriori informazioni sulla creazione di un rapporto, consulta l’articolo **Creare un rapporto personalizzato**.
 * **Ore preventivate programmazione risorse**: nei seguenti rapporti:
 
    * Report del progetto

@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MlMOUocVtOKfZ2QF2LS3MbdihhOHIs-TErVOoeP-jeg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 0%
+source-wordcount: 2706
+ht-degree: 1%
 
 ---
 
@@ -55,7 +61,7 @@ To download this page in PDF&nbsp;format, go
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -102,7 +108,7 @@ Presentazione di un&#39;esperienza di pianificazione riprogettata che consente d
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -152,14 +158,14 @@ Presentazione di un&#39;esperienza di pianificazione riprogettata che consente d
  </tbody> 
 </table>
 
-### Miglioramenti al progetto {#project-enhancements}
+### Miglioramenti ai progetti {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -184,7 +190,7 @@ Presentazione di un&#39;esperienza di pianificazione riprogettata che consente d
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -205,7 +211,7 @@ Presentazione di un&#39;esperienza di pianificazione riprogettata che consente d
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -222,7 +228,7 @@ Presentazione di un&#39;esperienza di pianificazione riprogettata che consente d
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -254,11 +260,11 @@ Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni 
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione 2020.1, vedi [Aggiornamenti di manutenzione di Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Notifiche
+## Annunci
 
 * [Modifica nella cadenza di rilascio dell&#39;anteprima](#change-in-preview-release-cadence) Nuovo!
 
-* [Per accedere a Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) è necessario aggiungere altri domini al inserisco nell&#39;elenco Consentiti di accesso ai
+* [Per accedere a Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) è necessario aggiungere altri domini al inserisco nell&#39;elenco Consentiti di accesso a
 * [Workfront One](#workfront-one)
 * Webinar sulla versione di [2020.1](#2020-1-release-webinar)
 * [Webinar Q1 sulla roadmap dei prodotti](#q1-product-roadmap-webinar)
@@ -269,20 +275,20 @@ A partire dal 20 maggio 2020, Workfront inizierà a rendere disponibili le funzi
 
 Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home)
 
-### Aggiunta di domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso a Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
+### Aggiunta di domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso a Workfront richiesta per l’accesso a {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
-Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di gestione dei:
+Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso:
 
 * event.split.io
 * sdk.split.io
 
-Per ulteriori informazioni, vedere la sezione [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) in [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere la sezione [Configurare l&#39;inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) in [Configurare l&#39;inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar sulla versione 2020.1 {#2020-1-release-webinar}
 

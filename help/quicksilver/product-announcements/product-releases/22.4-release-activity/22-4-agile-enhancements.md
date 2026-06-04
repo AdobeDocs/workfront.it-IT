@@ -1,19 +1,23 @@
 ---
-title: 22.4 Miglioramenti di Agile
-description: 22.4 Miglioramenti di Agile
+title: 22.4 - Miglioramenti per la metodologia Agile
+description: 22.4 - Miglioramenti per la metodologia Agile
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 0%
+source-wordcount: 750
+ht-degree: 1%
 
 ---
 
-# 22.4 Miglioramenti di Agile
+# 22.4 - Miglioramenti per la metodologia Agile
 
 Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 22.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
 
@@ -31,7 +35,7 @@ La colonna Acquisizione può fungere da colonna di backlog per un team Kanban, d
 
 Per ulteriori informazioni, vedere [Aggiungere una colonna di acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Aggiornamento del pannello dei filtri nelle bacheche
 
@@ -41,7 +45,7 @@ Le icone di filtro e di ricerca su una bacheca sono state spostate a sinistra de
 
 Per ulteriori informazioni, consulta [Filtrare e cercare in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Utilizzare i gruppi su una bacheca per creare corsie
 
@@ -53,7 +57,7 @@ Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo.
 
 Per ulteriori informazioni, vedere [Utilizzare i gruppi su una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Miglioramenti alle voci dell’elenco di controllo nelle bacheche
 
@@ -77,7 +81,7 @@ Dopo aver aggiunto il team alla bacheca, puoi assegnarlo alle schede. Sulle sche
 
 Per ulteriori informazioni, vedere [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## Il limite Work In Progress è ora disponibile nelle colonne della bacheca
 
@@ -89,7 +93,7 @@ Per ulteriori informazioni, vedere [Aggiungere o rimuovere membri da una bacheca
 
 Per ulteriori informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Campo di stima aggiunto alle schede
 
@@ -99,4 +103,4 @@ Per ulteriori informazioni, consulta [Gestire le colonne della bacheca](/help/qu
 
 Un nuovo campo Stima, disponibile sia sulle schede ad hoc che su quelle connesse, consente di immettere il numero stimato di ore per il completamento della scheda. Si tratta di una immissione manuale, non di un valore calcolato, e il valore non può essere superiore a 99. La stima viene visualizzata sulla scheda sulla bacheca e nei dettagli della scheda.
 
-[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412872/){target=_blank}

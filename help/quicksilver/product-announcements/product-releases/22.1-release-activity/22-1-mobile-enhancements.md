@@ -1,19 +1,22 @@
 ---
-title: 22.1 Miglioramenti per dispositivi mobili
-description: 22.1 Miglioramenti per dispositivi mobili
+title: 22.1 - Miglioramenti per dispositivi mobili
+description: 22.1 - Miglioramenti per dispositivi mobili
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc7dc0c2-768b-4331-acea-b9978574d948
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/gcJ073f4xbnhrIdfzBq1OF9I--JobcA-0GSdkwAP1zU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: 129
+ht-degree: 16%
 
 ---
 
-# 22.1 Miglioramenti per dispositivi mobili
+# 22.1 - Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti i miglioramenti apportati a Mobile con la versione 22.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
@@ -41,4 +44,4 @@ Nell’app mobile di Adobe Workfront, ora puoi:
 
 Il seguente articolo verrà aggiornato al rilascio dell’app negli app store:
 
-[Rivedi e prendi decisioni sulle bozze nell’app mobile di Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[Rivedere e prendere decisioni sulle bozze nell’app per dispositivi mobili di Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

@@ -1,18 +1,24 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Creare un Business Case per un progetto
+title: Creare un caso di business per un progetto
 description: È possibile utilizzare il Business Case per richiedere un progetto e definirne lo scopo, il budget e il vantaggio potenziale. Portfolio Manager o lo sponsor del progetto utilizza le informazioni del Business Case per analizzare e assegnare la priorità al progetto prima che venga approvato.
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/LqbRptv6SejiN1K5SsAHDKzXDbKCwFeFT9W1rPjRafo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 2%
+source-wordcount: 783
+ht-degree: 6%
 
 ---
 
-# Creare un Business Case per un progetto
+# Creare un caso di business per un progetto
 
 <!--Audited: 6/2025-->
 
@@ -27,13 +33,13 @@ ht-degree: 2%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Piano Adobe Workfront</p></td> 
    <td> 
    <p>Prime o versione successiva</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
    <p>Standard </p> 
    <p>Piano </p> </td> 
@@ -43,7 +49,7 @@ ht-degree: 2%
    <td> <p>Modifica accesso a progetti, dati finanziari e gestione risorse</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Gestisci o autorizzazioni superiori per il progetto</p> </td> 
   </tr> 
  </tbody> 

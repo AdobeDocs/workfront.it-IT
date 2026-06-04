@@ -3,15 +3,21 @@ content-type: release-notes
 keywords: note,trimestrale,aggiornamento
 navigation-topic: 2021-4-release-activity
 title: Panoramica sulla versione 21.4
-description: Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront Classic che per la nuova esperienza Adobe Workfront inclusa nella versione 21.4. per aumentare la produttività e la collaborazione.[Una riga di marketing per la versione]
+description: Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront Classic che per la nuova esperienza Adobe Workfront inclusa nella versione 21.4. per aiutarti a migliorare la produttività e la collaborazione.[Marketing one-line per la versione]
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4718'
-ht-degree: 0%
+source-wordcount: 4862
+ht-degree: 2%
 
 ---
 
@@ -56,11 +62,11 @@ unless otherwise specifiedthe week of May 10, 2021.
 </MadCap:conditionalText>
 
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/it-it/products/5943) on [status.adobe.com](http://status.adobe.com/it-it/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 -->
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Agile](#agile-enhancements)
@@ -80,7 +86,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -146,14 +152,14 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Miglioramenti al progetto {#project-enhancements}
+### Miglioramenti ai progetti {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -209,7 +215,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -217,7 +223,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 9 settembre 2021<br></p> <p>Versione di produzione: con la versione 21.4</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-resource-management-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nuova opzione predefinita per il Bilanciatore dei carichi di lavoro</a> </p> <p>Come parte del nostro sforzo per rendere obsoleta la programmazione e lo strumento di assegnazione delle risorse principale del Bilanciatore dei carichi di lavoro Workfront Workfront, abbiamo reso il Bilanciatore dei carichi di lavoro l’opzione predefinita per tutti i nuovi utenti. Attualmente, l'opzione predefinita è Pianificazione. Questa modifica si applica a tutte le aree da cui è possibile accedere alla pianificazione, inclusa l’area Risorse (nella nuova esperienza Adobe Workfront) o l’area Persone (in Adobe Workfront Classic), nonché a livello di progetto e team.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-resource-management-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nuova opzione predefinita per il Bilanciatore dei carichi di lavoro</a> </p> <p>Come parte del nostro sforzo per rendere obsoleta la programmazione e lo strumento di assegnazione delle risorse principale del Bilanciatore dei carichi di lavoro Workfront, abbiamo reso il Bilanciatore dei carichi di lavoro l’opzione predefinita per tutti i nuovi utenti. Attualmente, l'opzione predefinita è Pianificazione. Questa modifica si applica a tutte le aree da cui è possibile accedere alla pianificazione, inclusa l’area Risorse (nella nuova esperienza Adobe Workfront) o l’area Persone (in Adobe Workfront Classic), nonché a livello di progetto e team.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 9 settembre 2021<br></p> <p>Versione di produzione: con la versione 21.4</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -240,7 +246,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -275,7 +281,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -289,14 +295,14 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-### Richieste di miglioramenti {#requests-enhancements}
+### Miglioramenti alle richieste {#requests-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -317,7 +323,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -339,7 +345,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -368,7 +374,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -397,7 +403,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -411,9 +417,9 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  </tbody> 
 </table>
 
-## Miglioramenti apportati a Workfront Fusion
+## Miglioramenti di Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 21.4. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 21.4. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Miglioramenti di Workfront Scenario Planner
 
@@ -445,7 +451,7 @@ Per API versione 14, abbiamo modificato alcune risorse ed endpoint. Alcune delle
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 14](../../../wf-api/api/new-api-version-14.md) dell&#39;API.
 
-Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Webinar sulla versione 21.4
 
@@ -463,9 +469,9 @@ Il webinar sulla versione di Workfront 21.4 è stato presentato il 23 settembre 
 </div>
 -->
 
-## Aggiornamenti dei corsi di formazione
+## Aggiornamenti della formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Esplora gli ultimi aggiornamenti apportati a programmi e percorsi di apprendimento, video e guide per ciascuna versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funzionalità non più supportata
 

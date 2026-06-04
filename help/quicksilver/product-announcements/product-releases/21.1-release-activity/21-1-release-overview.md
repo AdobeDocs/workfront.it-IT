@@ -8,10 +8,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 0%
+source-wordcount: 3831
+ht-degree: 1%
 
 ---
 
@@ -60,7 +66,7 @@ For specific release dates and times for each cluster, see the
 </MadCap:conditionalText>
 -->
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
@@ -77,7 +83,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -105,11 +111,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponibile in queste date:</strong> <p>Anteprima Beta: 2 dicembre 2020</p> <p>Versione di produzione: con la versione 21.1 <span style="color: #dc143c; font-weight: bold;">(non attualmente disponibile quando si invia una richiesta)</span></p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Configura il tuo Workfront di posta elettronica inserire nell'elenco Consentiti</a> </p> <p>Per una migliore protezione dei dati, ora puoi utilizzare un dominio e-mail in modo che si inserisca nell'elenco Consentiti a:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Configura il tuo Workfront di e-mail per inserire nell'elenco Consentiti</a> </p> <p>Per una migliore protezione dei dati, ora puoi utilizzare un elenco Consentiti di dominio e-mail per eseguire le seguenti operazioni:</p> 
     <ul> 
      <li> <p>Controlla dove possono andare le e-mail di Workfront se contengono rapporti o documenti memorizzati in Workfront</p> </li> 
      <li> <p>I domini e-mail di controllo possono trovarsi nell’indirizzo e-mail che gli utenti possono specificare nel loro profilo utente</p> </li> 
-    </ul> <p>Ad esempio, se desideri proteggere i dati sensibili, ad esempio un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell'elenco Consentiti di gestione delle e-mail solo il dominio o i domini e-mail interni. In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.</p> </td> 
+    </ul> <p>Ad esempio, se desideri proteggere i dati sensibili, come un rapporto che elenca i clienti a rischio, puoi includere nel inserisco nell'elenco Consentiti di selezione dell’e-mail solo il dominio o i domini e-mail interni In questo modo, gli utenti non possono inviare tale rapporto (o qualsiasi altro rapporto di Workfront) a un indirizzo e-mail esterno.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Anteprima Beta: 20 novembre 2020</p> <p>Versione di produzione: con la versione 21.1 </p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -138,7 +144,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -159,7 +165,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -209,7 +215,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -234,7 +240,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -251,7 +257,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -277,7 +283,7 @@ For specific release dates and times for each cluster, see the
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -323,7 +329,7 @@ La maggior parte delle nuove funzioni arriva alla versione degli Obiettivi di Wo
 
 Nuove funzioni in arrivo in Workfront Scenario Planner versione con la versione 21.1. Per informazioni su queste nuove funzioni ora disponibili in Anteprima, consulta [Adobe Workfront Scenario Planner con versione 21.1](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md).
 
-## Miglioramenti apportati a Workfront Fusion
+## Miglioramenti di Workfront Fusion
 
 Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 21.1. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
@@ -337,7 +343,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) dell&#39;API.
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) dell&#39;API.
 
 Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -351,11 +357,11 @@ Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni 
 
 Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 21.1, vedi [Aggiornamenti di manutenzione di Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Notifiche
+## Annunci
 
 * [Nuovi indirizzi IP per l&#39;e-mail di Workfront con versione 21.1](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
-* [Inserisco nell&#39;elenco Consentiti di indirizzi IP aggiuntivi per le sottoscrizioni di eventi](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
-* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi necessari per accedere a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Elenco Consentiti di indirizzi IP aggiuntivi per le sottoscrizioni di eventi](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
+* [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi richiesto per l&#39;accesso a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Obsolescenza Flash](#flash-deprecation)
 * Webinar sulla versione di [21.1](#21-1-release-webinar)
 * [Modifica nella cadenza di rilascio dell&#39;anteprima](#change-in-preview-release-cadence)
@@ -369,20 +375,20 @@ Per informazioni dettagliate sugli indirizzi IP da aggiungere per il cluster, ve
 
 Per individuare il cluster su cui si sta eseguendo l&#39;istanza, passare a Configurazione > Sistema > Informazioni cliente.
 
-### Inserisco nell&#39;elenco Consentiti di indirizzi IP aggiuntivi per gli abbonamenti agli eventi {#allowlist-of-additional-ip-addresses-for-event-subscriptions}
+### Inserisce nell&#39;elenco Consentiti di indirizzi IP aggiuntivi per gli abbonamenti agli eventi {#allowlist-of-additional-ip-addresses-for-event-subscriptions}
 
-Nel tentativo di aumentare il successo della consegna degli abbonamenti agli eventi, stiamo aggiungendo 4 nuovi indirizzi IP con la versione di produzione 21.1 nel primo trimestre del 2021. Devi aggiungere questi indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di prima di febbraio 2021 per garantire che gli utenti continuino a ricevere gli abbonamenti agli eventi.
+Nel tentativo di aumentare il successo della consegna degli abbonamenti agli eventi, stiamo aggiungendo 4 nuovi indirizzi IP con la versione di produzione 21.1 nel primo trimestre del 2021. Per garantire che gli utenti continuino a ricevere gli abbonamenti agli eventi, è necessario aggiungere questi indirizzi IP al inserisco nell&#39;elenco Consentiti di prima di febbraio 2021.
 
 Contatta il reparto IT e/o di sicurezza interno per assistenza nell&#39;aggiunta dei nuovi IP presenti nell&#39;articolo [API per abbonamento evento](../../../wf-api/general/event-subs-api.md).
 
-### È richiesto il Elenco Consentiti di domini aggiuntivi per accedere a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### È richiesta la Inserisce nell&#39;elenco Consentiti di domini aggiuntivi per l’accesso a Workfront da parte di un’istanza di {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di gestione dei:
+Se la tua organizzazione utilizza un firewall, per garantire un accesso ininterrotto a Workfront devi aggiungere i seguenti domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso:
 
 * event.split.io
 * sdk.split.io
 
-Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Obsolescenza Flash {#flash-deprecation}
 
@@ -392,7 +398,7 @@ Per ulteriori informazioni sulle soluzioni sostitutive per ogni specifico strume
 
 ### Webinar sulla versione 21.1 {#21-1-release-webinar}
 
-Il webinar sulla versione di Workfront 21.1 verrà presentato il 3 febbraio alle 11:00 EDT / 16:00 BST. Registrati al webinar [qui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
+Il webinar sulla versione di Workfront 21.1 verrà presentato il 3 febbraio alle 11:00 EDT / 16:00 BST. :00Registrati al webinar [qui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Modifica della frequenza di rilascio dell’anteprima {#change-in-preview-release-cadence}
 
@@ -404,4 +410,4 @@ Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cad
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).

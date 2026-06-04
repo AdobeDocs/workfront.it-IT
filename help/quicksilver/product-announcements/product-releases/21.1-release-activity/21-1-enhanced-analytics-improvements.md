@@ -2,20 +2,23 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento
 navigation-topic: product-releases
-title: 21.1 Miglioramenti delle funzioni di analisi
+title: 21.1 Miglioramenti per le funzionalità di analisi avanzate
 description: Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/1FJvcMWpKrjeSiDZlX9N9Bkl4VC4aDy7QmNg17CKYvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: 273
+ht-degree: 5%
 
 ---
 
-# 21.1 Miglioramenti delle funzioni di analisi
+# 21.1 Miglioramenti per le funzionalità di analisi avanzate
 
 Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 

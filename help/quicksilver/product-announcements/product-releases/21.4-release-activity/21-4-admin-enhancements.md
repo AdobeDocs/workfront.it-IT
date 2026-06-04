@@ -1,19 +1,25 @@
 ---
-title: 21.4 Miglioramenti per gli amministratori
-description: 21.4 Miglioramenti per gli amministratori
+title: 21.4 - Miglioramenti per gli amministratori
+description: 21.4 - Miglioramenti per gli amministratori
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/K-UQvRju78bEQ99DvfIdJff9Hfvl-XbwCGQt0pXtUhQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1893'
-ht-degree: 0%
+source-wordcount: 1912
+ht-degree: 1%
 
 ---
 
-# 21.4 Miglioramenti per gli amministratori
+# 21.4 - Miglioramenti per gli amministratori
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 21.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
@@ -95,8 +101,8 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire gli elementi eliminat
 Quando si crea una nuova attività modello all&#39;interno di un modello di progetto associato a un gruppo, l&#39;attività modello eredita le impostazioni seguenti dalle preferenze attività del gruppo:
 
 * Tipo di Durata
-* Tipo di Reddito
-* Tipo Cst
+* Tipo di entrate
+* Tipo di costo
 
 In precedenza, i modelli di progetto e le attività dei modelli di progetto ereditavano queste impostazioni dalle preferenze di progetto e attività impostate a livello di sistema.
 

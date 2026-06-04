@@ -6,14 +6,17 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/Jpejykie-a-HHOubt7htXKkBAaVGbbluPlPsErM3AWE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 0%
+source-wordcount: 160
+ht-degree: 1%
 
 ---
 
-# 22.3 Miglioramenti per dispositivi mobili
+# 22.3 - Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima da Mobile con la versione 22.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana dell’11 luglio 2022. Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Panoramica sulla versione 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 

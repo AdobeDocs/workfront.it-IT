@@ -6,14 +6,20 @@ description: Sia le date di completamento pianificate che le date di conferma in
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+TQID: https://experienceleague.adobe.com/iy-L6-ZnhDgVTJjhEBlqwdRH3TRA5OqT3Gj-LIoEgDA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: 422
+ht-degree: 9%
 
 ---
 
-# Interazioni tra la data di conferma e la data di completamento pianificata
+# Interazioni tra la data impegno e la data di completamento pianificata
 
 <!--
 this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
@@ -42,7 +48,7 @@ La tabella seguente contiene informazioni sulla differenza tra le date di confer
  </tbody> 
 </table>
 
-## Interazioni tra la data di conferma e la data di completamento pianificata
+## Interazioni tra la data impegno e la data di completamento pianificata
 
 Quando il proprietario del progetto crea e assegna un’attività o un problema, l’attività o il problema avrà i seguenti elementi:
 
@@ -64,4 +70,4 @@ Se la Data impegno offerta dall&#39;assegnatario è accettabile per il proprieta
 Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [Aggiorna le date di conferma per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+* [Aggiornare le date impegno per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

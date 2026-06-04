@@ -7,10 +7,16 @@ description: Quando si aggiungono relazioni predecessori ad attività, è possib
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+TQID: https://experienceleague.adobe.com/cQbPOUES-tmSgZTpXrft8lQby-ubPmI-TZ1PjdGURMc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: 263
+ht-degree: 1%
 
 ---
 

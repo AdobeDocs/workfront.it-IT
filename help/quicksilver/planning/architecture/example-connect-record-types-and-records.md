@@ -6,9 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: 2061
 ht-degree: 1%
 
 ---
@@ -25,7 +28,7 @@ Questo articolo descrive un esempio di quanto segue:
 
 Per ulteriori informazioni, consulta anche i seguenti articoli:
 
-* [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 
 ## Collegare due tipi di record e record di Workfront Planning (esempio)
