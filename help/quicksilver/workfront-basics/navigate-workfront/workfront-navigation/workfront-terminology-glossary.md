@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21553
+source-wordcount: 21587
 ht-degree: 96%
 
 ---
@@ -98,7 +98,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Ore effettive]</td> 
-   <td> <p>In un rapporto di progetto, attività o problema, [!UICONTROL Ore effettive] corrispondono alla somma di tutte le ore registrate sul progetto, sull’attività o sul problema dopo maggio 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span> se dalla scheda [!UICONTROL Aggiornamenti] per l’attività 1, fai clic su “Registra ore” e inserisci 25 ore, le ore effettive dell’attività 1 = 25 ore. </p> <p>[!DNL Workfront] Calcola le [!UICONTROL Ore effettive] per le attività o i progetti principali utilizzando le formule seguenti:</p> 
+   <td> <p>In un rapporto di progetto, attività o problema, [!UICONTROL Ore effettive] corrispondono alla somma di tutte le ore registrate sul progetto, sull’attività o sul problema dopo maggio 2021. Si consiglia vivamente di utilizzare le ore effettive in tutti i rapporti e di non utilizzare le ore effettive precedenti.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span> se dalla scheda [!UICONTROL Aggiornamenti] per l’attività 1, fai clic su “Registra ore” e inserisci 25 ore, le ore effettive dell’attività 1 = 25 ore. </p> <p>[!DNL Workfront] Calcola le [!UICONTROL Ore effettive] per le attività o i progetti principali utilizzando le formule seguenti:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Ore effettive precedenti]</td> 
-   <td> <p>In un rapporto di progetto, attività o problema, le [!UICONTROL Ore effettive precedenti] rappresentano la somma di tutte le ore registrate sul progetto, attività o problema in qualsiasi momento, anche prima di maggio 2021.</p>  
+   <td> <p>In un rapporto di progetto, attività o problema, le [!UICONTROL Ore effettive precedenti] rappresentano la somma di tutte le ore registrate sul progetto, attività o problema in qualsiasi momento, anche prima di maggio 2021. Si consiglia vivamente di utilizzare le ore effettive in tutti i rapporti e di non utilizzare le ore effettive precedenti.</p>  
    <p>Le ore effettive precedenti vengono visualizzate come Ore effettive nell’area Dettagli del progetto, dell’attività o del problema. </p>
    <p>Consulta anche <strong>Ore effettive</strong>.
     <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visualizzare le ore effettive</a>.</p>

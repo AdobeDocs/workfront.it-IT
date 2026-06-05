@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1377
 ht-degree: 3%
 
 ---
@@ -133,7 +133,9 @@ A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fa
 
 >[!NOTE]
 >
->Si consiglia di utilizzare il campo Ore effettive quando possibile, perché il campo Ore effettive legacy potrebbe visualizzare ore non accurate a causa del modo in cui gli incrementi vengono arrotondati quando le ore sono memorizzate in minuti.
+>Si consiglia vivamente di utilizzare il campo Ore effettive quando possibile, perché il campo Ore effettive legacy potrebbe visualizzare ore non accurate a causa del modo in cui gli incrementi vengono arrotondati quando le ore sono memorizzate in minuti. Inoltre, le ore effettive legacy non vengono visualizzate correttamente nei grafici dei rapporti.
+> 
+>Tutte le formule personalizzate che utilizzano le ore effettive legacy sono state migrate alle ore effettive. Le ore effettive legacy non possono più essere utilizzate nei calcoli e nelle formule.
 
 ## Ore effettive per attività e problemi rispetto alle ore effettive per i progetti
 
@@ -183,9 +185,15 @@ Per individuare le ore effettive nella sezione Ore di un&#39;attività:
 
 ### Ore effettive e ore effettive legacy nei rapporti
 
-Quando si creano rapporti su attività, problemi o progetti, è possibile visualizzare le ore effettive e i valori delle ore effettive legacy per ogni attività, problema o progetto nel rapporto.
+Quando si creano rapporti su attività, problemi o progetti, è possibile visualizzare i valori Ore effettive e Ore effettive legacy per ogni attività, problema o progetto nel rapporto.
 
 Per informazioni sulla differenza tra le ore effettive e le ore effettive precedenti, vedere la sezione [Ore effettive rispetto alle ore effettive precedenti](#actual-hours-vs-legacy-actual-hours) in questo articolo.
+
+>[!NOTE]
+>
+>Si consiglia vivamente di utilizzare il campo Ore effettive in tutti i rapporti. Le ore effettive legacy non vengono visualizzate correttamente nei grafici dei rapporti.
+> 
+>Quando sostituisci il campo, tieni presente che le ore effettive precedenti memorizzano i valori in minuti, mentre le ore effettive memorizzano i valori in ore con precisione decimale.
 
 Per visualizzare le ore effettive e le ore effettive legacy in un rapporto attività:
 
@@ -205,7 +213,8 @@ Per visualizzare le ore effettive e le ore effettive legacy in un rapporto attiv
 
 Se si desidera visualizzare l&#39;avanzamento del lavoro svolto dagli utenti sulle attività e sui problemi assegnati, è possibile utilizzare i seguenti strumenti di gestione delle risorse:
 
-* Il Rapporto Utilizzo.\
+* Il Rapporto Utilizzo.
+
   Per informazioni, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * La Programmazione delle risorse.
@@ -219,7 +228,7 @@ Se si desidera visualizzare l&#39;avanzamento del lavoro svolto dagli utenti sul
 
 La maggior parte dei campi di Workfront in cui sono memorizzate le ore viene salvata nel database di Workfront in pochi minuti. Il nome del campo Ore pianificate di un&#39;attività, ad esempio, è `workRequired` nel database di Workfront ed è memorizzato in minuti.
 
-Devi tenere conto della conversione da minuti a ore quando accedi a questi campi nelle chiamate API o nei campi o nelle colonne personalizzati calcolati.
+È necessario tenere conto della conversione da minuti a ore quando si accede a questi campi nelle chiamate API.<!-- or in calculated custom fields or columns.-->
 
 Le ore effettive registrate per progetti, attività o problemi sono attualmente memorizzate nel database di Workfront in minuti e il valore del campo è `actualWorkRequired`.
 
@@ -229,6 +238,10 @@ Da ottobre 2025, con l’API versione 21, le ore effettive vengono memorizzate n
 
 * **Ore effettive**: ore registrate per progetto, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
 * **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
+
+>[!NOTE]
+>
+>Tutte le formule personalizzate che utilizzano le ore effettive legacy sono state migrate alle ore effettive. Le ore effettive legacy o `actualWorkRequired` non possono più essere utilizzate nei calcoli e nelle formule.
 
 Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

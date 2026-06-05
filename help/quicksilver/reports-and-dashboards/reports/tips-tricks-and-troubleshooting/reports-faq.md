@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1528
 ht-degree: 3%
 
 ---
@@ -95,13 +95,19 @@ Le ore pianificate vengono memorizzate in minuti.
 
 A seconda del campo Ore effettive che si desidera utilizzare per il calcolo, le formule corrette sono:
 
-* Per le ore effettive legacy memorizzate in minuti:
+* Per le ore effettive, memorizzate in ore con precisione decimale:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+* Per le ore effettive legacy, memorizzate in minuti:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* Per le ore effettive memorizzate in ore:
-
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>Si consiglia vivamente di utilizzare `actualWorkRequiredDouble` in tutti i report.
+>
+>`actualWorkRequired` non viene visualizzato correttamente nei grafici nei report.
 
 Per ulteriori informazioni, consulta [Visualizzare le ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
