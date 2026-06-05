@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1588'
 ht-degree: 19%
 
 ---
@@ -205,6 +205,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Modifiche alle ore effettive nelle formule personalizzate</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Le formule personalizzate esistenti che utilizzano <b>actualWorkRequired</b> (ore effettive legacy) sono state migrate per utilizzare <b>actualWorkRequiredDouble</b> (ore effettive). <b>actualWorkRequired</b> non può più essere utilizzato nei calcoli e nelle formule.</p>
+            </td>
+            <td><p>1 giugno 2026</p></td>
+            <td><p>1 giugno 2026</p></td>
+            <td><p>1 giugno 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Campi dati valuta personalizzati nei report del dashboard Canvas</a>

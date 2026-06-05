@@ -4,10 +4,10 @@ description: Miglioramenti al reporting per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del terzo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Modifiche alle ore effettive nelle formule personalizzate
+
+>[!NOTE]
+>
+>Anteprima: 1 giugno 2026>Versione rapida produzione: 1 giugno 2026>Produzione per tutti: 1 giugno 2026
+
+Nel 2025 è stato aggiunto al database di Workfront un nuovo campo Ore effettive come `actualWorkRequiredDouble` e il campo Ore effettive esistente (`actualWorkRequired` nel database) è stato rinominato Ore effettive legacy. Per ulteriori informazioni, consulta la [nota sulla versione](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md).
+
+A giugno 2026, è stata effettuata la migrazione delle formule personalizzate esistenti che utilizzano `actualWorkRequired` (ore effettive legacy) per utilizzare `actualWorkRequiredDouble` (ore effettive). Impossibile utilizzare `actualWorkRequired` nei calcoli e nelle formule.
+
+Inoltre, si consiglia vivamente di utilizzare `actualWorkRequiredDouble` in tutti i report.
+
+Durante la sostituzione del campo, si noti che `actualWorkRequired` memorizza i valori in minuti, mentre `actualWorkRequiredDouble` memorizza i valori in ore con precisione decimale.
+
+Per ulteriori informazioni sulle ore effettive, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Campi di dati valuta personalizzati nei rapporti del dashboard Area di lavoro
 
