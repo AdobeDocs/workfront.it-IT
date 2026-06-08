@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 1%
 
 ---
@@ -212,7 +206,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
-   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Campi di ricerca delle connessioni creati mediante la connessione di tipi di record e campi di ricerca aggiunti. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
 1. (Facoltativo e condizionale) Quando modifichi un campo di tipo Paragrafo, utilizza le seguenti **opzioni di formattazione Rich Text**:
@@ -229,22 +223,24 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 1. Premi **Invio** sulla tastiera o fai clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. Un indicatore **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della visualizzazione tabella per indicare che le modifiche sono state salvate.
 
-
 1. (Facoltativo) Per copiare e incollare informazioni da un campo all&#39;altro, effettuare una delle seguenti operazioni:
 
    * Copiare uno o più valori esistenti di un campo, quindi incollarli in un campo dello stesso tipo in un altro record
    * Fare clic sull&#39;intestazione di una colonna per selezionarla e copiarla, quindi fare clic sull&#39;intestazione di un&#39;altra colonna e incollare il contenuto della colonna copiata. Le colonne devono contenere tipi di campo simili.
-   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive.
+   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
    * Selezionare l&#39;angolo inferiore destro di una cella esistente contenente le informazioni da copiare, quindi trascinarlo e rilasciarlo nelle celle adiacenti in cui si desidera incollare le stesse informazioni. Tutte le celle devono contenere lo stesso tipo di informazioni.
 
      ![Angolo inferiore destro trascinabile per copia e incolla nella vista tabella](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
 
-      * Campi di connessione di Workfront Planning.
+      * Campi di connessione di Workfront Planning.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * Campi Persone. Sono supportati solo i campi con un valore.
+      * Campi di testo.
+      * Selezionare i campi.
+      * Campi numerici, percentuali e valuta.
 
      Non è possibile copiare informazioni da un&#39;origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione di Workfront o di altre applicazioni.
 
@@ -256,11 +252,12 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    >   * Copia: CTRL + C (⌘ + C per Mac)
    >   * Incolla: CTRL + V (⌘ + V per Mac)
    >
-   >* Non è possibile copiare e incollare i valori dei campi nella pagina record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
+   >* Non è possibile copiare e incollare i valori dei campi nella pagina dei dettagli del record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    >
    >    * Campi di ricerca creati durante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
+   >* Quando si copiano e incollano campi di connessione o si selezionano valori di campo, i valori copiati devono prima esistere in Workfront Planning.
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere la modifica o la copia e l&#39;incollamento delle informazioni del record:
 
@@ -269,9 +266,17 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    >[!TIP]
    >
-   >    È possibile utilizzare più volte le scelte rapide da tastiera in una riga per annullare più modifiche.
+   >È possibile utilizzare più volte le scelte rapide da tastiera in una riga per annullare più modifiche.
 
-1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record e scegli tra le seguenti opzioni:
+
+   * **Visualizza** <!--or <span class="preview"Open in new tab</span>-->: apre la pagina record.
+   * **Copia collegamento**: per copiare un collegamento nella pagina del record.
+   * **Modifica miniatura**: per aggiungere una miniatura a un record.
+Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Duplicato**: crea un duplicato identico del record.
+   * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Elimina**: per eliminare il record. I record eliminati vengono salvati nella casella Eliminati di recente per un massimo di 30 giorni.
 
 
 ### Modificare un record nella visualizzazione timeline di un tipo di record
