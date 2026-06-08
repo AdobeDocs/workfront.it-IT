@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Prima di poter collegare Workfront a una piattaforma di intelligenza artificiale
 * Disporre di un account [!DNL Adobe Workfront] attivo con l&#39;autorizzazione per accedere ai dati che si desidera utilizzare
 * Avere accesso a una piattaforma agente di IA come [!DNL Claude]
 * L’istanza di Workfront deve essere abilitata su Adobe Identity Management System (IMS).
+* Per utilizzare MCP con Workfront Planning, l&#39;organizzazione deve essere inclusa in un pacchetto Workfront che includa Adobe Workfront Planning.
+
 
 ### Prerequisiti per l’amministrazione
 
@@ -210,7 +212,7 @@ What happens next
 +++ Espandere per visualizzare suggerimenti per la risoluzione dei problemi relativi alla configurazione e all&#39;autenticazione del server Workfront MCP.
 
 | Problema | Probabile causa | Correggi |
-|---|---|---|
+| --- | --- | --- |
 | Impossibile trovare il connettore [!DNL Adobe Workfront] in [!DNL Claude]. | L&#39;amministratore [!DNL Claude] non l&#39;ha abilitato. | Contattare l&#39;amministratore [!DNL Claude] (non l&#39;amministratore Workfront) e richiedere l&#39;attivazione del connettore [!DNL Adobe Workfront]. |
 | Ti sei connesso, ma non puoi vedere i tuoi dati. | Hai eseguito l’autenticazione nell’istanza di Workfront errata. | Scollegare il connettore, riconnettersi e autenticarsi nell&#39;istanza corretta. |
 | Autenticazione non riuscita o connessione interrotta. | La sessione di autenticazione è scaduta o si è verificato un errore di connessione. | Scollegare e ricollegare il connettore. |
@@ -239,4 +241,4 @@ Sia l’amministratore di Workfront che l’amministratore della piattaforma di 
 
 No. Per utilizzare il server MCP di Workfront, l’istanza di Workfront deve essere abilitata su Adobe Identity Management System (IMS). Se non sei sicuro se la tua istanza è abilitata su IMS, contatta il tuo amministratore Workfront.
 
-+++
++++ 

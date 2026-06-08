@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1578'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Documenti
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Trova versione documento per nome | `approvals_find_document_version_by_name` | Cerca l&#39;ID versione corrente di un documento in base al nome file. Supporta le corrispondenze parziali. | Leggi |
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Ottieni documenti per progetto | `approvals_get_documents_by_project` | Elenca i documenti all&#39;interno di un progetto Workfront, con l&#39;ID di versione corrente di ciascun documento. | Leggi |
@@ -63,7 +63,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Approvazione dei flussi di lavoro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni informazioni sul flusso di lavoro di approvazione | `approvals_get_approval_info` | Restituisce il flusso di lavoro di approvazione corrente (fasi, partecipanti, stato) per una versione del documento. | Leggi |
 | Crea o aggiorna flusso di lavoro di approvazione | `approvals_create_or_update_approval_workflow` | Crea o aggiorna le fasi del flusso di lavoro di approvazione per una versione del documento. Supporta le dipendenze degli stadi lineari e paralleli (grafi). | Scrittura |
 | Crea approvazione da modello | `approvals_create_approval_from_template` | Crea un flusso di lavoro di approvazione su un documento utilizzando un modello esistente. | Scrittura |
@@ -76,14 +76,14 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Promemoria
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Invia promemoria ai partecipanti | `approvals_send_reminder_to_participants` | Invia e-mail di promemoria a partecipanti specifici in una fase di approvazione. Funziona solo per le fasi avviate, non completate, non bloccate. | Scrittura |
 | Invia promemoria ai partecipanti indecisi | `approvals_send_reminder_to_undecided` | Invia e-mail di promemoria a tutti i partecipanti indecisi (notificati, aperti o commentati) in una fase di approvazione. | Scrittura |
 
 ### Modelli di approvazione
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Elencare modelli di approvazione | `approvals_list_templates` | Elenca i modelli di approvazione disponibili in questa istanza di Workfront. Supporta il filtraggio per creatore, partecipante e l&#39;ordinamento per utilizzo. | Leggi |
 | Cerca modello per nome | `approvals_search_template_by_name` | Trova i modelli di approvazione per nome (corrispondenza parziale senza distinzione tra maiuscole e minuscole). | Leggi |
 | Crea modello di approvazione | `approvals_create_template` | Crea un nuovo modello di approvazione con dipendenze di fase lineari o basate su grafici. | Scrittura |
@@ -92,7 +92,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Ricerche e utenti
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni utente corrente | `approvals_get_current_user` | Restituisce l&#39;identità Workfront dell&#39;utente chiamante, inclusi il nome, l&#39;ID utente, il nome del team principale e l&#39;ID del team principale. | Leggi |
 | Trova utente per nome | `approvals_find_user_by_name` | Cerca l&#39;ID di un utente di Workfront per nome (corrispondenza parziale o fuzzy). Restituisce nome, ID, e-mail, titolo e URL avatar. | Leggi |
 | Trova team per nome | `approvals_find_team_by_name` | Cerca l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
@@ -102,10 +102,14 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 ## Strumenti di pianificazione
 
+>[!IMPORTANT]
+>
+>* Per utilizzare MCP con Workfront Planning, l&#39;organizzazione deve essere inclusa in un pacchetto Workfront che includa Adobe Workfront Planning.
+
 ### Aree di lavoro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni area di lavoro | `planning_get_workspace` | Recupera i dettagli completi di un’area di lavoro per ID o alias. | Leggi |
 | Ottieni elenco aree di lavoro | `planning_get_workspace_list` | Elenca tutte le aree di lavoro disponibili con impaginazione basata su cursore. | Leggi |
 | Crea area di lavoro | `planning_create_workspace` | Crea una nuova area di lavoro vuota per organizzare tipi di record, campi e dati. | Scrittura |
@@ -119,7 +123,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Tipi di record
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni tipo di record | `planning_get_record_type` | Recupera tutti i dettagli di un tipo di record, inclusi i campi e le visualizzazioni. | Leggi |
 | Creare tipi di record | `planning_create_record_types` | Crea uno o più tipi di record all&#39;interno di una sezione dell&#39;area di lavoro. | Scrittura |
 | Aggiorna il tipo di record | `planning_update_record_type` | Aggiorna parzialmente il nome, la descrizione, l&#39;icona o il colore di un tipo di record. | Scrittura |
@@ -135,7 +139,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Record
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni record | `planning_get_record` | Recupera i dettagli completi di un singolo record per ID. | Leggi |
 | Cerca record | `planning_search_records` | Cerca e filtra i record di un tipo di record. | Leggi |
 | Azioni record in blocco | `planning_bulk_record_actions` | Crea, aggiorna, elimina o ripristina più record in una singola richiesta. | Scrittura |
@@ -148,7 +152,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Campi
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni campo | `planning_get_field` | Recupera i dettagli completi e lo schema del valore di un campo in base all’ID. | Leggi |
 | Creare campi | `planning_create_fields` | Aggiunge uno o più campi (colonne) a un tipo di record. | Scrittura |
 | Aggiorna campo | `planning_update_field` | Aggiorna parzialmente il nome, la descrizione, le opzioni o la configurazione di un campo. | Scrittura |
@@ -157,7 +161,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Viste
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni visualizzazione | `planning_get_view` | Restituisce i dettagli completi di una visualizzazione per ID. | Leggi |
 | Crea vista | `planning_create_view` | Crea una nuova vista tabella, timeline o calendario per un tipo di record. | Scrittura |
 | Aggiorna vista | `planning_update_view` | Aggiorna parzialmente la configurazione, i filtri o l&#39;ordinamento di una vista esistente. | Scrittura |
@@ -168,14 +172,14 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 ### Modelli
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ottieni elenco modelli | `planning_get_template_list` | Elenca tutti i modelli di area di lavoro disponibili con informazioni di riepilogo. | Leggi |
 | Ottieni modello | `planning_get_template` | Recupera i dettagli completi di un modello specifico per ID. | Leggi |
 
 ### Ricerca e utility
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cercare risorse | `planning_search_resources` | Esegue ricerche in aree di lavoro, tipi di record e visualizzazioni per nome. | Leggi |
 | Ricerca e condivisione dei dati | `planning_search_sharing_data` | Trova utenti, gruppi, team, ruoli e società per nome per la condivisione e le autorizzazioni. | Leggi |
 | Cerca utenti | `planning_search_users` | Cerca gli utenti con supporto di impaginazione. | Leggi |
@@ -185,7 +189,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma dell’agente di intelligenza artificiale utilizza per lavorare con qualsiasi oggetto Workfront: progetti, attività, problemi, ore, assegnazioni, programmi, portfolio e così via.
 
 | Titolo | Nome strumento | Funzionamento | Azione |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cerca oggetti | `workflow_search_any_object` | Cerca oggetti Workfront con parametri di filtro flessibili, ordinamento e impaginazione. | Leggi |
 | Crea oggetto | `workflow_create_any_object` | Crea un nuovo oggetto Workfront, ad esempio un progetto, un&#39;attività, un problema, un&#39;ora, un&#39;assegnazione, un programma o un portfolio. | Scrittura |
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi su un oggetto Workfront esistente. | Scrittura |
