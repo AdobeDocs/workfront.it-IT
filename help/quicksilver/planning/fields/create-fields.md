@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
-source-wordcount: 5153
+source-wordcount: 5239
 ht-degree: 2%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -449,6 +442,44 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
       * **24hr**: ad esempio: 18:00
       * **12hr**: ad esempio: 6:00 PM
 
+
+     A seconda dell’ambiente in cui accedi ai campi, effettua le seguenti operazioni:
+
+      * Nell’ambiente di produzione:
+
+         * Selezionare uno dei formati seguenti:
+            * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
+            * **Standard**: 05/16/2023
+            * **Lungo**: 16 maggio 2023
+            * **Europeo**: 16/05/2023
+            * **ISO**: 16/05/2023
+      * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
+
+        Selezionare una delle opzioni seguenti:
+
+         * **24hr**: ad esempio: 18:00
+         * **12hr**: ad esempio: 6:00 PM
+
+     <!--
+        <div class="preview">
+
+        * In the Preview environment: 
+
+            * Select from the following formats:
+                * **Short**: 6/9/26
+                * **Medium**: Jun 9, 2026
+                * **Long** June 9, 2026
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+    
+            Select from the following options:
+        
+            * **24hr**: For example: 18:00
+            * **12hr**: For example: 6:00 PM
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+
+        </div>
+        -->
+
 1. Fai clic su **Crea**.
 
    Il nuovo campo data viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -607,7 +638,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.
