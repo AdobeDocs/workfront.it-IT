@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 1%
@@ -282,8 +282,8 @@ I record del tipo selezionato vengono visualizzati nella vista.
      >
      >Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
 
-   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
-   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
+   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
 

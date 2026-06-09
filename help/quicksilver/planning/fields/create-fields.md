@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
-source-wordcount: 5153
+source-wordcount: 5239
 ht-degree: 2%
 
 ---
@@ -448,6 +448,44 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
       * **24hr**: ad esempio: 18:00
       * **12hr**: ad esempio: 6:00 PM
+
+
+     A seconda dell’ambiente in cui accedi ai campi, effettua le seguenti operazioni:
+
+      * Nell’ambiente di produzione:
+
+         * Selezionare uno dei formati seguenti:
+            * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
+            * **Standard**: 05/16/2023
+            * **Lungo**: 16 maggio 2023
+            * **Europeo**: 16/05/2023
+            * **ISO**: 16/05/2023
+      * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
+
+        Selezionare una delle opzioni seguenti:
+
+         * **24hr**: ad esempio: 18:00
+         * **12hr**: ad esempio: 6:00 PM
+
+     <!--
+        <div class="preview">
+
+        * In the Preview environment: 
+
+            * Select from the following formats:
+                * **Short**: 6/9/26
+                * **Medium**: Jun 9, 2026
+                * **Long** June 9, 2026
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+    
+            Select from the following options:
+        
+            * **24hr**: For example: 18:00
+            * **12hr**: For example: 6:00 PM
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+
+        </div>
+        -->
 
 1. Fai clic su **Crea**.
 
