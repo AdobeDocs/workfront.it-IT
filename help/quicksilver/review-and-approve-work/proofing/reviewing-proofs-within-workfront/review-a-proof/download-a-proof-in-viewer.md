@@ -7,18 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 35%
+source-wordcount: 244
+ht-degree: 24%
 
 ---
 
@@ -70,3 +66,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Individua nel file system il percorso in cui desideri scaricare la bozza, quindi fai clic su **Salva**.
+
+   >[!NOTE]
+   >
+   >Quando una bozza contiene più file, Workfront genera un file .zip. Se due o più file nella bozza condividono lo stesso nome file, il file .zip include solo una copia di tale file. Di conseguenza, il numero di file nel file .zip può essere inferiore al numero di file mostrati nel visualizzatore di bozze. Ad esempio, una bozza con 5 file in cui 2 sono denominati `document.pdf` genera un file .zip contenente 4 file.
