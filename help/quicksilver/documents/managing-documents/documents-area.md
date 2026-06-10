@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 850
 ht-degree: 1%
 
 ---
@@ -85,9 +85,13 @@ La pagina Dettagli documento fornisce una versione in scala più completa dei De
 
 La nuova area Documenti è disponibile solo per se l’organizzazione si trova nell’archiviazione cloud di Adobe. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![area nuovi documenti](assets/new-doc-area.png)
+
 ### Utilizzare il pannello di riepilogo
 
 Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzare il pannello Riepilogo a destra per visualizzare i dettagli sul documento, aggiungere e modificare moduli personalizzati allegati, creare e gestire flussi di lavoro di approvazione, visualizzare le versioni del documento e altro ancora.
+
+![Pannello di riepilogo con dettagli documento aperti](assets/new-doc-details.png)
 
 #### Revisione e approvazione con Frame.io
 
@@ -95,11 +99,15 @@ Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzar
 
 Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![pannello di riepilogo aperto per revisioni e approvazioni](assets/new-doc-approvals.png)
+
 #### Gestione versioni
 
 È possibile caricare nuove versioni di un documento nella nuova area Documenti. Quando carichi una nuova versione, questa viene mantenuta e vi si può accedere dal pannello Riepilogo. Le versioni vengono automaticamente denominate con la data e l’ora del caricamento, ma possono essere rinominate in base alle esigenze.
 
 È inoltre possibile avviare un nuovo flusso di lavoro di approvazione per una versione specifica di un documento.
+
+![pannello di riepilogo aperto alla scheda versioni](assets/new-doc-versions.png)
 
 #### Visualizza cronologia documenti
 
@@ -109,6 +117,8 @@ Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approv
 * Quando sono state caricate nuove versioni
 * Quando sono stati avviati i flussi di lavoro di approvazione per il documento
 * E altro ancora
+
+![pannello di riepilogo aperto nella scheda della cronologia](assets/new-doc-history.png)
 
 ### Cartelle a livello di sistema per le autorizzazioni dei documenti
 
