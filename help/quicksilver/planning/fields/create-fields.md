@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 5239
 ht-degree: 2%
@@ -355,6 +355,9 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
    Fai clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
 1. Fate clic all&#39;esterno della casella del colore per chiuderla.
+   <!--
+    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Fai clic su **Crea**.
 
    Il nuovo campo a selezione multipla viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
@@ -401,7 +404,9 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
    Oppure
 
    Fai clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
-
+<!--
+    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 1. Fate clic all&#39;esterno della casella del colore per chiuderla.
 1. Fai clic su **Crea**.
 
@@ -482,7 +487,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
         
             * **24hr**: For example: 18:00
             * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
 
         </div>
         -->
@@ -705,6 +710,10 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >[!NOTE]
    >
    >    Se si seleziona Consenti più valori e più utenti vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro durante la modifica del campo.
+
+   <!--
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    -->
 
 1. Fai clic su **Crea**.
 

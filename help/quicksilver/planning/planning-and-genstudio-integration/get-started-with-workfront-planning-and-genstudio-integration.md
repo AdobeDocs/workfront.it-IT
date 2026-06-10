@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 2%
 
 ---
@@ -408,7 +408,7 @@ Quando i tipi di oggetto di AEM (risorse e frammenti di contenuto) sono collegat
 
 ### Moduli di richiesta e automazioni nel tipo di record GenStudio
 
-* È possibile aggiungere moduli di richiesta a un tipo di record GenStudio in Workfront Planning.
+* È possibile aggiungere moduli di richiesta a un tipo di record GenStudio in Workfront Planning. È possibile aggiungere campi di connessione di Planning in un modulo di richiesta associato a un tipo di record dell&#39;area di lavoro di GenStudio.
 
   Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * In Workfront Planning è possibile configurare le automazioni per un tipo di record GenStudio.
@@ -419,12 +419,16 @@ Quando i tipi di oggetto di AEM (risorse e frammenti di contenuto) sono collegat
 
 Quando l&#39;organizzazione dispone di un&#39;integrazione tra Workfront Planning e Adobe GenStudio, è possibile collegare i tipi di record Planning ai Marchi GenStudio da qualsiasi tipo di record in qualsiasi area di lavoro in Workfront Planning.
 
-Per impostazione predefinita, i brand sono connessi ai seguenti tipi di record dell’area di lavoro di GenStudio:
+Considera i seguenti aspetti:
 
-* Prodotti
-* Persone
+* Per impostazione predefinita, i brand sono connessi ai seguenti tipi di record dell’area di lavoro di GenStudio:
 
-I brand sono disponibili per la connessione manuale a tutti gli altri tipi di record dell’area di lavoro di GenStudio o ai tipi di record di tutte le altre aree di lavoro per le quali disponi delle autorizzazioni di gestione.
+   * Prodotti
+   * Persone
+
+* I brand sono disponibili per la connessione manuale a tutti gli altri tipi di record dell’area di lavoro di GenStudio o a tutti gli altri tipi di record di tutte le altre aree di lavoro per le quali disponi delle autorizzazioni di gestione.
+
+* Dopo aver collegato Brands a un tipo di record Planning o GenStudio, è possibile aggiungere il campo di connessione Brands a un modulo di richiesta associato al tipo di record.
 
 ## Ambiente di anteprima
 

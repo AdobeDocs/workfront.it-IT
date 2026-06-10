@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1484
 ht-degree: 2%
 
 ---
@@ -192,6 +192,13 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       > L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
       >
       >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+
+      Per il rilascio in anteprima/produzione: il terzo punto della NOTA precedente dovrà essere riscritto:
+
+      >* Quando si creano progetti utilizzando modelli di un portfolio o di un programma, si verificano i seguenti scenari:
+      >  * Non puoi utilizzare un modello di archiviazione cloud Adobe da un portfolio o programma di archiviazione Workfront legacy per creare un progetto.
+      >  * Puoi creare un progetto di archiviazione cloud Adobe per un portfolio o un programma di archiviazione Adobe utilizzando un modello di archiviazione legacy. Tutti i documenti modello e le cartelle non sono allegati al nuovo progetto.
 
    1. Rivedi i seguenti dettagli del modello a destra:
 

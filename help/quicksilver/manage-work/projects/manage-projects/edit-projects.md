@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 2%
 
 ---
@@ -303,7 +303,9 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       <p><b>NOTE</b></p>
       <ul>
       <li>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</li>
-      <li>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di archiviazione diversi. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
+      <li>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di archiviazione diversi. </li>
+      <li>Non puoi spostare un progetto di archiviazione legacy in un portfolio o programma di archiviazione cloud Adobe o un progetto di archiviazione cloud Adobe in un portfolio o programma legacy.</li>
+      </ul> <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</p>
       Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>. 
       </td> 
       </tr> 
