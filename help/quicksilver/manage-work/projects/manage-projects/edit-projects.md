@@ -10,24 +10,14 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 2%
 
 ---
@@ -303,7 +293,9 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       <p><b>NOTE</b></p>
       <ul>
       <li>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</li>
-      <li>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di archiviazione diversi. L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</li></ul> 
+      <li>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe, non è possibile copiare attività tra progetti che utilizzano tipi di archiviazione diversi. </li>
+      <li>Non puoi spostare un progetto di archiviazione legacy in un portfolio o programma di archiviazione cloud Adobe o un progetto di archiviazione cloud Adobe in un portfolio o programma legacy.</li>
+      </ul> <p>L'istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.</p>
       Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Panoramica sulla gestione dei documenti per progetti e oggetti correlati</a>. 
       </td> 
       </tr> 
