@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -30,41 +30,34 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--
-
-## Interface improvements in the table view
+## Miglioramenti dell’interfaccia nella vista a tabella
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 11 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
-We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+È stato aggiornato l&#39;aspetto della vista tabella per le seguenti aree in Workfront Planning:
 
-* All record type pages 
+* Tutte le pagine del tipo di record
 
-* All connected record type pages, except for Projects 
+* Tutte le pagine dei tipi di record collegate, ad eccezione di Progetti
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+Oltre ad alcune modifiche di navigazione e a miglioramenti della progettazione, questo aggiornamento include alcuni miglioramenti:
 
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+* Un formato data più semplice con un numero inferiore di tipi di formato quando si aggiunge un campo Data.
 
-* A simpler date format with fewer format types when adding a Date field. 
+* Possibilità di selezionare un fuso orario visibile a tutti gli utenti, indipendentemente dal fuso orario del loro profilo, quando si aggiunge un campo Data.
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* Rimozione della numerazione delle righe per un aspetto più pulito
 
-* Removal of row numbering for a cleaner look 
+* Casella di selezione riga persistente, anziché visibile solo quando si passa il puntatore del mouse sulla riga
 
-* Persistent row selection box, instead of visible only when hovering on the row 
+* Righe separatori di colonna persistenti per una migliore leggibilità
 
-* Persistent column separator lines for better readability 
+* Un’esperienza di ordinamento più semplice quando si effettua un ordinamento da un’intestazione di colonna
 
-* A simpler sorting experience when sorting from a column header  
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
-
--->
 
 ## È ora possibile aggiungere Marchi GenStudio for Performance Marketing ai moduli di richiesta Planning
 
