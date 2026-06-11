@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,12 @@ Questo articolo illustra i passaggi di connessione per:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Se utilizzi una piattaforma agente di IA compatibile con MCP diversa (ad esempio, [!DNL Gemini] o [!DNL Microsoft Copilot]), segui i passaggi descritti nella documentazione di tale piattaforma per aggiungere un server MCP personalizzato. Quando viene richiesto l&#39;URL del server MCP, immettere: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+Se utilizzi una piattaforma agente di IA compatibile con MCP diversa (ad esempio, [!DNL Gemini] o [!DNL Microsoft Copilot]), segui i passaggi descritti nella documentazione di tale piattaforma per aggiungere un server MCP personalizzato. Quando viene richiesto l&#39;URL del server MCP, immetti l&#39;URL della tua area geografica:
 
+| Area geografica | URL |
+| --- | --- |
+| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 ## Prerequisiti
 
@@ -66,38 +70,36 @@ La connessione a Workfront viene eseguita una volta per ogni account [!DNL Claud
 
 ### Connettersi a Claude Desktop dalla directory dei connettori
 
-In arrivo.
+>[!IMPORTANT]
+>
+>Attualmente, il connettore Claude supporta solo la connessione al server Workfront MCP nell’area degli Stati Uniti.  Per connettersi a un&#39;istanza di Workfront nell&#39;area UE, vedere [Connessione a Claude Desktop con un URL](#connect-to-claude-desktop-with-a-url) in questo articolo.
 
-<!--
++++ Espandere per visualizzare istruzioni dettagliate per la connessione di Workfront a [!DNL Claude].
 
-+++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
+Per connettere Workfront a [!DNL Claude]:
 
-To connect Workfront to [!DNL Claude]:
+1. Apri [!DNL Claude].
 
-1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
-1. Find **[!DNL Adobe Workfront]** in the connector list.
-
-   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
-1. Click **Connect**.
+1. Passare all&#39;area connettori.
 
 
 
-1. When prompted, log in to your Workfront instance.
+1. Trovare **[!DNL Adobe Workfront]** nell&#39;elenco dei connettori.
+
+   Se non lo vedi, vedi [Prerequisiti di amministratore](#admin-prerequisites) in questo articolo.
+
+1. Fai clic su **Connetti**.
 
 
-1. After authentication completes, you're connected.
+
+1. Quando richiesto, accedi all’istanza di Workfront.
+
+
+1. Al termine dell’autenticazione, sei connesso.
 
 
 
 +++
-
--->
 
 ### Connettersi al desktop Claude con un URL
 
@@ -109,9 +111,22 @@ Per connettere Workfront a [!DNL Claude] con un URL:
 1. Nel menu a sinistra, seleziona l&#39;icona **Personalizza**.
 1. Seleziona **Connettori**, quindi seleziona l&#39;icona **+** per aggiungere un connettore.
 1. Seleziona il pulsante **Crea app**.
-1. Assegnare al connettore un nome desiderato (ad esempio &quot;Workfront&quot;) e immettere l&#39;URL del server MCP desiderato: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Assegna al connettore un nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP desiderato:
+
+   | Area geografica | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 1. Una volta creato il connettore, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.
+
+   >NOTA:
+   >
+   >L’istanza di Workfront deve connettersi al server MCP della regione per tale istanza. Ad esempio, un’istanza EU deve connettersi al server MCP dell’UE.
+   >
+   >Quando selezioni un’istanza, le istanze non compatibili con l’area geografica del server MCP vengono visualizzate in grigio e non è possibile connettersi ad esse.
+   >
+   >Per connettersi a un&#39;istanza non compatibile con l&#39;area geografica del server MCP, impostare una nuova connessione MCP con l&#39;URL corretto per tale area.
 
 +++
 
@@ -127,9 +142,24 @@ Per ulteriori informazioni sulle [!DNL Claude] abilità, consulta la [documentaz
 1. In basso a sinistra, seleziona **il tuo nome** → **Impostazioni**.
 1. Seleziona **App**, quindi abilita **Modalità sviluppatore**.
 1. Seleziona il pulsante **Crea app**.
-1. Assegnare all&#39;app il nome desiderato (ad esempio &quot;Workfront&quot;) e immettere l&#39;URL del server MCP desiderato: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Assegna all’app il nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP desiderato:
+
+   | Area geografica | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
 1. Verificare che l&#39;autenticazione sia impostata su **OAuth** (impostazione predefinita) e selezionare la casella di controllo Accettazione per continuare.
 1. Una volta creata l’app, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.
+
+   >NOTA:
+   >
+   >L’istanza di Workfront deve connettersi al server MCP della regione per tale istanza. Ad esempio, un’istanza EU deve connettersi al server MCP dell’UE.
+   >
+   >Quando selezioni un’istanza, le istanze non compatibili con l’area geografica del server MCP vengono visualizzate in grigio e non è possibile connettersi ad esse.
+   >
+   >Per connettersi a un&#39;istanza non compatibile con l&#39;area geografica del server MCP, impostare una nuova connessione MCP con l&#39;URL corretto per tale area.
+
 
 ### Personalizzare il comportamento di ChatGPT con GPT personalizzati
 
@@ -162,7 +192,14 @@ Per connettersi a un&#39;altra istanza di Workfront:
 
 >[!NOTE]
 >
->La disconnessione da sola non cambia l’istanza di Workfront. È necessario disconnettere e ricollegare il connettore.
+>* La disconnessione da sola non cambia l’istanza di Workfront. È necessario disconnettere e ricollegare il connettore.
+>
+>* L’istanza di Workfront deve connettersi al server MCP della regione per tale istanza. Ad esempio, un’istanza EU deve connettersi al server MCP dell’UE.
+>
+>   Quando selezioni un’istanza, le istanze non compatibili con l’area geografica del server MCP vengono visualizzate in grigio e non è possibile connettersi ad esse.
+>
+>   Per connettersi a un&#39;istanza non compatibile con l&#39;area geografica del server MCP, impostare una nuova connessione MCP con l&#39;URL corretto per tale area.
+
 
 <!--
 
@@ -175,7 +212,13 @@ Per connettersi a un&#39;altra istanza di Workfront:
 
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
-When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   
 -->
 
 <!--
@@ -218,6 +261,7 @@ What happens next
 | Autenticazione non riuscita o connessione interrotta. | La sessione di autenticazione è scaduta o si è verificato un errore di connessione. | Scollegare e ricollegare il connettore. |
 | Desideri passare a un’istanza di Workfront diversa. | Una singola connessione ti collega a un’istanza. | Disconnetti, riconnetti e autentica la nuova istanza. |
 | Non è possibile connettersi a Workfront oppure viene visualizzato un messaggio che indica che l&#39;accesso al server MCP è disabilitato. | L&#39;amministratore di Workfront ha disattivato l&#39;accesso al server MCP per l&#39;istanza. | Contattare l&#39;amministratore di Workfront e chiedere di abilitare l&#39;accesso al server MCP in Preferenze di sistema. |
+| L’istanza di Workfront a cui desideri connetterti è disattivata e viene visualizzato un messaggio che informa che non è disponibile per la connessione nella tua area geografica | Il server MCP è configurato per un’area geografica diversa (UE o USA) rispetto all’istanza. | Configura il server MCP con l’URL dell’area a cui è assegnata l’istanza di Workfront. |
 | La piattaforma dell’agente di intelligenza artificiale può trovare i tuoi elementi Workfront, ma non può crearli, aggiornarli o eliminarli. | L&#39;amministratore di Workfront ha disabilitato le azioni di scrittura per il server Workfront MCP. | Contatta l’amministratore di Workfront e chiedi di abilitare le azioni di scrittura nelle Preferenze di sistema. |
 
 Per la risoluzione dei problemi quotidiani dopo la connessione (ad esempio, risultati non aggiornati o comportamenti imprevisti), vedere [Utilizzare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
