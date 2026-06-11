@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Prima di poter collegare una piattaforma di agenti di intelligenza artificiale a
 
 >[!IMPORTANT]
 >
->Attualmente, il server MCP di Workfront è disponibile solo per i clienti della regione degli Stati Uniti che utilizzano AWS.
+>Attualmente, il server MCP di Workfront è disponibile solo per i clienti che utilizzano AWS. I clienti che utilizzano GCP o Azure potranno utilizzare questa funzionalità nel prossimo futuro.
 
 ## Piattaforme di IA agente supportate
 
