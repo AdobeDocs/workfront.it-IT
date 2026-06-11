@@ -4,10 +4,10 @@ description: Miglioramenti al reporting per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 1%
 
 ---
 
@@ -16,6 +16,31 @@ ht-degree: 3%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del terzo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Aggiungere più intervalli di indirizzi IP di Power BI al inserisco nell&#39;elenco Consentiti di connessione dati di un&#39;istanza di Windows (Data Connect) per volta
+
+>[!NOTE]
+>
+>Anteprima: N/A>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+
+Gli amministratori di Workfront che collegano Microsoft Power BI a Workfront Data Connect ora possono aggiungere al inserisco nell&#39;elenco Consentiti di un intero set di intervalli di indirizzi IP di Azure in un unico passaggio. Nella scheda **Inserisco nell&#39;elenco Consentiti di IP** in **Connessione dati**, il pulsante **Nuovo indirizzo IP** ora include l&#39;opzione **Aggiungi blocchi di indirizzi IP Power BI** che consente di aprire una finestra di dialogo in cui è possibile incollare le voci dei tag di servizio Power BI dal file JSON degli intervalli IP e dei tag di servizio di Microsoft Azure pubblicati.
+
+Questo sostituisce il flusso di lavoro precedente che prevedeva l’aggiunta di ogni blocco CIDR di Power BI uno alla volta, operazione che ha richiesto molto tempo per le aree in cui sono stati pubblicati decine di prefissi di indirizzi.
+
+Per ulteriori informazioni, vedere [Stabilire una connessione a Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+
+
+## Ordinare l’elenco delle dashboard dell’area di lavoro
+
+>[!NOTE]
+>
+>Anteprima: 11 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>
+>Canvas Dashboards è attualmente in versione beta.
+
+È ora possibile ordinare l&#39;elenco dei dashboard di Canvas in base alle colonne seguenti: **Nome**, **Descrizione**, **Creato da** o **Data creazione**. Fare clic su un&#39;intestazione di colonna per ordinare l&#39;elenco in base a tale colonna, quindi fare di nuovo clic sulla stessa intestazione per invertire la direzione di ordinamento. Per impostazione predefinita, l&#39;elenco è ordinato per **Nome** dalla A alla Z. L’ordinamento viene mantenuto quando si passa da una scheda all’altra nell’elenco Dashboard di Canvas.
+
+Per ulteriori informazioni, vedere [Utilizzare i dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Modifiche alle ore effettive nelle formule personalizzate
 

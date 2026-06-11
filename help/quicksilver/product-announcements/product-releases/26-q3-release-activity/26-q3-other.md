@@ -4,9 +4,9 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 1%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Aggiornamenti al connettore MCP di Workfront
+
+Sono stati apportati i seguenti aggiornamenti al connettore MCP di Workfront:
+
+* Abbiamo ampliato il server MCP per consentirne l’utilizzo con istanze di paesi dell’UE e degli Stati Uniti che non si trovano su AWS. Ogni server MCP può connettersi a una sola istanza, ma non è più limitato alle istanze USA su AWS.
+* Per espandere la flessibilità del connettore MCP di Workfront, abbiamo aggiunto la possibilità di collegare Claude. Ora puoi trovare Workfront nell’elenco dei connettori di Claude, oppure connetterti direttamente tramite un URL.
+
+Per ulteriori informazioni e istruzioni, vedere [Configurare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Aspetto aggiornato per le e-mail di notifica dei commenti

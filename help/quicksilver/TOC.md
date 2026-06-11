@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
 workflow-type: tm+mt
-source-wordcount: '14175'
+source-wordcount: '14180'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 94%
          * [Miglioramenti ai documenti del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Miglioramenti di Financial Management per il terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [Miglioramenti Home Terzo Trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
+         * [Miglioramenti al progetto del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
          * [Miglioramenti al reporting per il terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Terzo trimestre 2026 Richiesta di miglioramenti](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
          * [Terzo trimestre 2026 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
