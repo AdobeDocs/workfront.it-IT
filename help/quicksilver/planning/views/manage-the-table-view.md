@@ -9,17 +9,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95a7c37830873c89189b8dae2dc3e8fd1b62f15f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 6148
 ht-degree: 2%
@@ -658,7 +653,7 @@ Per gestire una vista tabella:
    * [Indicatore di presenza in tempo reale](#enable-the-real-time-presence-indicator)
 
 
-### Aggiungi colonne (o campi) {#add-columns}
+### Aggiungi colonne (o campi) {#add-columns-1}
 
 Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. I campi visualizzati nella vista a tabella vengono visualizzati anche nella sezione Dettagli di un record.
 
@@ -756,7 +751,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 -->
 
-### Aggiungi righe (o record) {#add-rows}
+### Aggiungi righe (o record) {#add-rows-1}
 
 Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato.
 
@@ -790,7 +785,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 ******************** NOT POSSIBLE ABOVE **************
 -->
 
-### Aggiungere filtri {#add-filters}
+### Aggiungere filtri {#add-filters-1}
 
 I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 
@@ -801,7 +796,7 @@ Per informazioni, vedere la sezione [Aggiungere filtri](#add-filters) in questo 
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
 
-### Aggiungi un ordinamento {#sort-information}
+### Aggiungi un ordinamento {#sort-information-1}
 
 Applicando un ordinamento, è possibile organizzare le informazioni in un determinato ordine.
 
@@ -878,7 +873,7 @@ Per ordinare i record, eseguire le operazioni seguenti:
 
    I campi selezionati per l’ordinamento visualizzano un’icona di ordinamento seguita da un numero che indica l’ordine in cui viene applicato l’ordinamento.
 
-### Aggiungi raggruppamenti {#add-groupings}
+### Aggiungi raggruppamenti {#add-groupings-1}
 
 <!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
@@ -890,7 +885,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —per il momento, controlla questo &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —per il momento, controlla questo ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
