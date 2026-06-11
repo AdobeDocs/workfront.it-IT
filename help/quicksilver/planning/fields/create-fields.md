@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 5239
+source-wordcount: 5409
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -472,25 +472,24 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
          * **24hr**: ad esempio: 18:00
          * **12hr**: ad esempio: 6:00 PM
 
-     <!--
-        <div class="preview">
+     <div class="preview">
 
-        * In the Preview environment: 
+      * Nell’ambiente di anteprima:
 
-            * Select from the following formats:
-                * **Short**: 6/9/26
-                * **Medium**: Jun 9, 2026
-                * **Long** June 9, 2026
-        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
-    
-            Select from the following options:
-        
-            * **24hr**: For example: 18:00
-            * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
+         * Selezionare uno dei formati seguenti:
+            * **Breve**: 6/9/26
+            * **Medium**: 9 giugno 2026
+            * **Lungo** 9 giugno 2026
+      * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
 
-        </div>
-        -->
+        Selezionare una delle opzioni seguenti:
+
+         * **24hr**: ad esempio: 18:00
+         * **12hr**: ad esempio: 6:00 PM
+      * **Usa lo stesso fuso orario per tutti i collaboratori**, quindi seleziona un **fuso orario** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->: seleziona questa opzione se desideri mostrare lo stesso timestamp per tutte le persone che visualizzano il campo, indipendentemente dal fuso orario dell&#39;utente. Il fuso orario selezionato viene aggiunto all’intestazione della colonna per questo campo.
+
+     </div>
+
 
 1. Fai clic su **Crea**.
 

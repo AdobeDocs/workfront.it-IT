@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 19%
+source-wordcount: '1848'
+ht-degree: 17%
 
 ---
 
@@ -39,6 +39,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti di Financial Management](#financial-management-enhancements)
 * [Miglioramenti alla Home](#home-enhancements)
+* [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
 * [Altri miglioramenti](#other-enhancements)
@@ -55,6 +56,26 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Visualizza cronologia modifiche per oggetti di Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Per semplificare la visualizzazione delle modifiche apportate in un elenco centrale, è stato creato l'elenco Cronologia modifiche. In questo elenco vengono visualizzate informazioni quali l'oggetto, l'operazione e l'origine della modifica, ad esempio un utente o il sistema Workfront.</p>
+            </td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Testo formattato che sostituisce testo con tipo di campo Formattazione</a>
@@ -193,6 +214,43 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### Miglioramenti al reporting
 
 <table>
@@ -205,6 +263,24 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Aggiungere più intervalli di indirizzi IP di Power BI all'elenco Consentiti di connessione dati alla volta</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Gli amministratori di Workfront che collegano Microsoft Power BI a Workfront Data Connect ora possono aggiungere al inserisco nell'elenco Consentiti di un intero set di intervalli di indirizzi IP di Azure in un unico passaggio.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Ordinare l'elenco dei dashboard di Canvas</a> 
+                <p>Ora puoi ordinare l’elenco delle dashboard di Canvas in base alle colonne Nome, Descrizione, Creato da o Crea data. Fare clic su un'intestazione di colonna per ordinare l'elenco in base a tale colonna, quindi fare di nuovo clic sulla stessa intestazione per invertire la direzione di ordinamento. Per impostazione predefinita, l’elenco è ordinato per Nome da A a Z. L’ordinamento viene mantenuto quando si passa da una scheda all’altra nell’elenco Dashboard di Canvas.</p>
+            </td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>15 luglio 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Modifiche alle ore effettive nelle formule personalizzate</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -280,6 +356,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al connettore MCP di Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Il connettore MCP di Workfront è stato aggiornato:<ul><li>Claude può ora collegarsi al connettore MCP.</li><li>Ora puoi utilizzare il connettore MCP da istanze nell’UE o da istanze che non utilizzano AWS.</p>
+            </td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Visualizzazione aggiornata delle e-mail di notifica dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>

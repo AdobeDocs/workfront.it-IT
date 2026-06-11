@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 1%
@@ -244,8 +244,12 @@ this is not yet true, but it might come later:
 Per aggiungere una nuova scelta a un campo di selezione esistente durante la modifica di un record:
 
 1. Passare a una pagina del tipo di record e aprire la visualizzazione tabella.
-1. Aggiungere come nuova colonna il campo a selezione singola o multipla a cui si desidera aggiungere una scelta nella vista a tabella. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+1. Aggiungere come nuova colonna il campo a selezione singola o multipla a cui si desidera aggiungere una scelta nella vista a tabella.
+
+   Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+
 1. Inizia a modificare il campo in linea facendo doppio clic sulla cella del campo.
+
 1. Digitare il nome della scelta che si desidera aggiungere, quindi fare clic su **Aggiungi scelta**.
 
    ![Aggiungi la scelta nel campo a selezione singola nella vista tabella](assets/add-choice-in-table-view-for-single-select-field.png)

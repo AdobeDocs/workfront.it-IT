@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3129
+source-wordcount: 3158
 ht-degree: 1%
 
 ---
@@ -233,7 +233,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * Copiare uno o più valori esistenti di un campo, quindi incollarli in un campo dello stesso tipo in un altro record
    * Fare clic sull&#39;intestazione di una colonna per selezionarla e copiarla, quindi fare clic sull&#39;intestazione di un&#39;altra colonna e incollare il contenuto della colonna copiata. Le colonne devono contenere tipi di campo simili.
-   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive. <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
    * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
    * Selezionare l&#39;angolo inferiore destro di una cella esistente contenente le informazioni da copiare, quindi trascinarlo e rilasciarlo nelle celle adiacenti in cui si desidera incollare le stesse informazioni. Tutte le celle devono contenere lo stesso tipo di informazioni.
 
@@ -241,8 +241,9 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
 
-      * Campi di connessione di Workfront Planning.\
-        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+      * Campi di connessione di Workfront Planning.
+
+        <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
       * Campi Persone. Sono supportati solo i campi con un valore.
       * Campi di testo.
       * Selezionare i campi.
@@ -276,12 +277,12 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record e scegli tra le seguenti opzioni:
 
-   * **Visualizza** <!--or <span class="preview"Open in new tab</span>-->: apre la pagina record.
+   * **Visualizza** o <span class="preview">**Apri in una nuova scheda**</span>: verrà aperta la pagina record.
    * **Copia collegamento**: per copiare un collegamento nella pagina del record.
    * **Modifica miniatura**: per aggiungere una miniatura a un record.
 Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicato**: crea un duplicato identico del record.
-   * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
    * **Elimina**: per eliminare il record. I record eliminati vengono salvati nella casella Eliminati di recente per un massimo di 30 giorni.
 
 
@@ -475,4 +476,5 @@ Per aggiungere una nuova scelta a un campo di selezione esistente durante la mod
    La nuova scelta viene aggiunta immediatamente al campo a selezione singola.
 
    A ogni scelta viene aggiunto anche un nuovo valore. Puoi utilizzare i valori di scelta nelle chiamate API o in altre integrazioni. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+
 
