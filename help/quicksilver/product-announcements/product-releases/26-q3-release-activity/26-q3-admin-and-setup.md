@@ -4,10 +4,10 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
+source-git-commit: 34ec779f648db8c3f1a1fe2a76f5b7fda83679a6
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 2%
+source-wordcount: '654'
+ht-degree: 1%
 
 ---
 
@@ -27,35 +27,26 @@ Per semplificare la visualizzazione delle modifiche apportate in un elenco centr
 
 In precedenza, i registri di audit erano disponibili ma non coprivano gli oggetti.
 
-<!--
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
-For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
-
-## New system preference to convert legacy storage portfolios to Adobe cloud storage
+## Nuova preferenza di sistema per convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>Anteprima: 11 giugno 2026>Produzione per tutti: 11 giugno 2026
 
-Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
-When a portfolio is converted to Adobe cloud storage:
+Quando un portfolio viene convertito nell’archiviazione cloud Adobe:
 
-* You can no longer move projects that use legacy Workfront storage to this portfolio
-* All new projects created in this portfolio use Adobe cloud storage
-* Frame.io is the viewer for documents using Adobe cloud storage
-* Child objects using legacy Workfront storage stay on legacy storage
+* Non è più possibile spostare in questo portfolio i progetti che utilizzano lo storage legacy Workfront
+* Tutti i nuovi progetti creati in questo portfolio utilizzano l’archiviazione cloud Adobe
+* Frame.io è il visualizzatore per i documenti che utilizzano l’archiviazione cloud Adobe
+* Gli oggetti secondari che utilizzano lo storage legacy Workfront rimangono sullo storage legacy
 
-Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+In precedenza, l’aggiunta di un progetto di archiviazione cloud Adobe a un portfolio di archiviazione legacy convertiva automaticamente il portfolio in archiviazione cloud Adobe.
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
+Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Testo formattato sostituzione testo con tipo di campo Formattazione
 
