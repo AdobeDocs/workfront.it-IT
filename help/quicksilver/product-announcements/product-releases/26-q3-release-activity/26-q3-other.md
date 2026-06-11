@@ -4,9 +4,9 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 ## Aggiornamenti al connettore MCP di Workfront
 
-Sono stati apportati i seguenti aggiornamenti al connettore MCP di Workfront:
+Abbiamo effettuato il seguente aggiornamento al connettore MCP di Workfront:
 
-* Abbiamo ampliato il server MCP per consentirne l’utilizzo con istanze di paesi dell’UE e degli Stati Uniti che non si trovano su AWS. Ogni server MCP può connettersi a una sola istanza, ma non è più limitato alle istanze USA su AWS.
+* Il server MCP è stato ampliato per funzionare con istanze nell&#39;UE<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
 * Per espandere la flessibilità del connettore MCP di Workfront, abbiamo aggiunto la possibilità di collegare Claude. Ora puoi trovare Workfront nell’elenco dei connettori di Claude, oppure connetterti direttamente tramite un URL.
 
 Per ulteriori informazioni e istruzioni, vedere [Configurare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
