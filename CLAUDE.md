@@ -22,9 +22,9 @@ Quando Courtney introduce nuovi contenuti da incorporare: un documento di accett
 
 Anche se il contenuto &quot;ovviamente&quot; appartiene a un articolo noto, emergono comunque 2-3 alternative in modo che Courtney possa confermare il posizionamento. Questo rileva i quasi duplicati e i luoghi in cui il contenuto era già parzialmente coperto.
 
----
+&#x200B;---
 
-# Proponi modifiche prima di modificare gli articoli della guida
+&#x200B;# Proponi modifiche prima di modificare gli articoli della guida
 
 Quando si sta per modificare un articolo della Guida di `.md` in `help/`, **non modificare il file**. Innanzitutto, mostra cosa intendi modificare e attendi l’approvazione esplicita.
 
@@ -43,9 +43,9 @@ Per le modifiche che si estendono su più articoli: raggruppa le differenze prop
 
 **not** blocca la ricerca di sola lettura (grep, read) o la creazione/esplorazione in chat (nessuna scrittura di file).
 
----
+&#x200B;---
 
-# Messaggi di commit Git
+&#x200B;# Messaggi di commit Git
 
 Quando redigi o generi un messaggio di commit Git, segui questo formato.
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# Richieste pull (PR)
+&#x200B;# Richieste pull (PR)
 
 ## Derivazione del problema Jira
 
