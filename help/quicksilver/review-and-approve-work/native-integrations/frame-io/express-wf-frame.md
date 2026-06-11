@@ -83,7 +83,7 @@ Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di 
 [È necessario un collegamento all&#39;articolo della Guida in linea per richiedere l&#39;approvazione]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
@@ -106,7 +106,7 @@ Se non è selezionato alcun progetto, la risorsa verrà inserita per impostazion
 [È necessario un collegamento all&#39;articolo della Guida in linea per richiedere l&#39;approvazione]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/it/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## Rivedere e approvare i file Express remixati con Frame.io
