@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '14170'
+source-wordcount: '14175'
 ht-degree: 94%
 
 ---
@@ -807,6 +807,7 @@ ht-degree: 94%
       * [Importare le schede tariffa da un modello](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [Modifiche della velocità push nei progetti](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
       * [Condividi scheda](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [Visualizzare e gestire la cronologia delle modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
    * Configurare le integrazioni {#configure-integrations}
       * [Configurare le integrazioni](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Integrazioni di Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)

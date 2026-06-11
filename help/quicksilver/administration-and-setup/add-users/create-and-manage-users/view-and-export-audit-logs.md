@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 422
 ht-degree: 12%
 
 ---
@@ -101,7 +101,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Sistema > Registri di controllo**.
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche > Registri di controllo**.
 1. Nel menu a discesa **Tipo azione**, seleziona il tipo di controllo che desideri visualizzare.
 
    >[!NOTE]
@@ -129,7 +129,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Sistema** > **Registri di controllo**.
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche** > **Registri di controllo**.
 
 1. Nel menu a discesa **Log Type**, selezionare un log di controllo.
 
