@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: '14180'
+source-wordcount: '14184'
 ht-degree: 94%
 
 ---
@@ -1067,6 +1067,7 @@ ht-degree: 94%
       * [Il filtro Progetti a cui partecipo include risultati imprevisti](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Più schede del browser causano la disconnessione di Workfront](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [Come condividere gli oggetti senza generare notifiche](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+      * [Nomi di fuso orario aggiornati](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Panoramica delle bacheche](agile/boards-overview.md)
