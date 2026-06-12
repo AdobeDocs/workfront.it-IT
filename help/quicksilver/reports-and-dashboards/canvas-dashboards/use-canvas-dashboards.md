@@ -16,14 +16,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 4%
 
 ---
 
 # Utilizzare le dashboard dell’area di lavoro
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +50,33 @@ Per accedere alle dashboard di Canvas, passa alla sezione Dashboard di Adobe Wor
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 1. Fate clic sul nome di un dashboard esistente per aprirlo.
    ![Apri un dashboard](assets/open-dashboard.png)
+
+<div class="preview">
+
+## Ordinare l’elenco delle dashboard di Canvas in Anteprima
+
+È possibile ordinare l&#39;elenco delle dashboard di Canvas in base a una delle colonne seguenti:
+
+* Nome
+* Descrizione
+* Creato da
+* Data di creazione
+
+Per ordinare l&#39;elenco:
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Fare clic su un&#39;intestazione di colonna per ordinare l&#39;elenco in base a tale colonna. Fare di nuovo clic sulla stessa intestazione per invertire la direzione di ordinamento.
+
+   Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna **Name** dalla A alla Z.
+
+   ![Ordinare l&#39;elenco dei dashboard di Canvas](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* L’ordinamento viene mantenuto quando si passa da una scheda all’altra nell’elenco Dashboard di Canvas.
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
