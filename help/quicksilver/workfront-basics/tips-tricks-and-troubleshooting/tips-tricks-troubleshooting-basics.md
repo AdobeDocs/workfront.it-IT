@@ -12,10 +12,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: 105
-ht-degree: 35%
+source-wordcount: 109
+ht-degree: 33%
 
 ---
 
@@ -37,3 +37,4 @@ Scopri suggerimenti per la risoluzione dei problemi e risposte alle domande freq
 * [Il filtro Progetti a cui partecipo include risultati imprevisti](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Più schede del browser causano la disconnessione di Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [Come condividere gli oggetti senza generare notifiche](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Nomi di fuso orario aggiornati](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
