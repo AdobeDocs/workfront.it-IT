@@ -5,7 +5,7 @@ title: Panoramica del server Adobe Workfront MCP
 description: Scopri cosa fa il server MCP di Adobe Workfront e come consente di lavorare con Workfront attraverso una conversazione in linguaggio naturale in una piattaforma di intelligenza artificiale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 
 
 # Panoramica del server Adobe Workfront MCP
-
-{{highlighted-preview-article-level}}
 
 Il server MCP [!DNL Adobe Workfront] connette l&#39;istanza di Workfront a una piattaforma AI agente come [!DNL Claude] o [!DNL ChatGPT]. Dalla piattaforma dell’agente di intelligenza artificiale, puoi trovare, creare, aggiornare e gestire gli elementi di Workfront effettuando richieste in linguaggio naturale.
 

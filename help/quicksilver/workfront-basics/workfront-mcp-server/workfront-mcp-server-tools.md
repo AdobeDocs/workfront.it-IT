@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1624'
 ht-degree: 6%
 
 ---
@@ -68,6 +68,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Crea o aggiorna flusso di lavoro di approvazione | `approvals_create_or_update_approval_workflow` | Crea o aggiorna le fasi del flusso di lavoro di approvazione per una versione del documento. Supporta le dipendenze degli stadi lineari e paralleli (grafi). | Scrittura |
 | Crea approvazione da modello | `approvals_create_approval_from_template` | Crea un flusso di lavoro di approvazione su un documento utilizzando un modello esistente. | Scrittura |
 | Elimina fase di approvazione | `approvals_delete_approval_stage` | Elimina una singola fase da un flusso di lavoro di approvazione per nome o posizione. È possibile eliminare solo le fasi non avviate. | Scrittura |
+| Aggiunta e rimozione in blocco di partecipanti per un&#39;approvazione | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Aggiunge o rimuove partecipanti da o verso più approvazioni contemporaneamente. Attualmente, gli aggiornamenti in blocco possono essere applicati solo a un singolo progetto. Aggiornamenti in blocco su più progetti saranno disponibili a breve. | Scrittura |
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |

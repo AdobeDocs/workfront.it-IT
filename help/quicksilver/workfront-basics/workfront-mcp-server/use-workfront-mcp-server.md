@@ -5,17 +5,15 @@ title: Utilizzare il server MCP di Adobe Workfront
 description: Utilizza il server MCP di Adobe Workfront per cercare, creare, aggiornare e gestire elementi Workfront tramite conversazioni in linguaggio naturale in una piattaforma di intelligenza artificiale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
 
 
 # Utilizzare il server MCP di Adobe Workfront
-
-{{highlighted-preview-article-level}}
 
 Il server MCP [!DNL Adobe Workfront] ti consente di trovare, creare, aggiornare e gestire elementi Workfront chiedendo a una piattaforma di agenti di intelligenza artificiale in linguaggio naturale. La piattaforma decide quali azioni Workfront chiamare e gestisce la conversazione con Workfront per te.
 
@@ -97,6 +95,7 @@ Per gestire le approvazioni di documenti e risorse, chiedi:
 * *Aggiungere Sarah Chen e Miguel Alvarez come approvatori nel documento corrente.*
 * *Invia un promemoria agli approvatori della risorsa &quot;Video campagna di primavera&quot; che non hanno risposto.*
 * *Applica il modello di approvazione &quot;Lancio di marketing&quot; alla risorsa &quot;Video della campagna primaverile.&quot;*
+* *Rimuovi Anna Jones da tutte le approvazioni di questo progetto e sostituiscilo con Sione Carter.*
 
 
 ### Utilizzare i record di Planning
