@@ -8,23 +8,14 @@ exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2586
+source-wordcount: 2626
 ht-degree: 20%
 
 ---
@@ -35,7 +26,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione del secondo trimestre 2026 si avvicina alla versione di produzione pianificata.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -80,6 +71,14 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <td><p>2 aprile 2026</p></td>
         <td><p>15 aprile 2026</p></td>
         <td><p>16 aprile 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nomi di fuso orario aggiornati</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>Abbiamo aggiornato i fusi orari disponibili in Workfront in base agli standard IANA. Ciò garantisce la compatibilità con altri sistemi e l'accuratezza nel tempo.</p>
+        </td>
+        <td><p>27 marzo 2026</p></td>
+        <td><p>27 marzo 2026</p></td>
+        <td><p>27 marzo 2026</p></td>
     </tr>
     <tr>
         <td>
