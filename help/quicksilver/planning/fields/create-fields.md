@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 2%
 
 ---
@@ -440,20 +440,6 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
    * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: tipo di formato data che si desidera visualizzare in questo campo. <!--update this casing - submitted bug for it-->
-
-     Selezionare uno dei formati seguenti:
-      * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
-      * **Standard**: 05/16/2023
-      * **Lungo**: 16 maggio 2023
-      * **Europeo**: 16/05/2023
-      * **ISO**: 16/05/2023
-   * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
-
-     Selezionare una delle opzioni seguenti:
-
-      * **24hr**: ad esempio: 18:00
-      * **12hr**: ad esempio: 6:00 PM
-
 
      A seconda dell’ambiente in cui accedi ai campi, effettua le seguenti operazioni:
 

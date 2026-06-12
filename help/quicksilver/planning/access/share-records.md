@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * Puoi condividere i record con le seguenti entità: persone, gruppi, team, aziende o mansioni.
+* Esistono le seguenti limitazioni:
+
+   * Impossibile condividere più di 100 record alla volta.
+   * Impossibile condividere record con più di 100 entità.
 * Se si limitano le autorizzazioni a un record, gli utenti non visualizzano più il record e i valori dei relativi campi di ricerca in qualsiasi punto del sistema in cui viene visualizzato il record.
 * Workfront controlla le autorizzazioni dei record nelle connessioni fino a 5 record in profondità, garantendo agli utenti di visualizzare solo i record condivisi con loro.
 * È possibile concedere a un record i livelli di autorizzazione seguenti:
