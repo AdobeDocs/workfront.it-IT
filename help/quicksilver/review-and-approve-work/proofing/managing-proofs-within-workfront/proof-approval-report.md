@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 18%
+source-wordcount: 310
+ht-degree: 14%
 
 ---
 
@@ -85,5 +85,9 @@ Puoi aggiungere i seguenti campi al rapporto di approvazione della bozza:
    * La bozza è in attesa di approvazione
 
 * **Scadenza bozza**: visualizza la scadenza della bozza. A ogni fase deve essere assegnata una scadenza affinché questo campo possa essere compilato. Nel campo viene visualizzata la scadenza per la fase attivata più di recente.
+
+## Informazioni sul campo Decisione approvatore
+
+Il campo Decisione approvatore mostra la decisione presa da un destinatario sulla bozza. In alcuni casi, questo campo visualizza un trattino (-) invece di un valore di decisione, che indica che il destinatario non è più in un ruolo decisionale sulla bozza. Per ulteriori informazioni, vedere [La decisione dell&#39;approvatore mostra un trattino nel report Approvazione bozza](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
  
