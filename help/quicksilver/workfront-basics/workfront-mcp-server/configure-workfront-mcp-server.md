@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,15 @@ Per connettere Workfront a [!DNL Claude]:
 
 +++
 
-### Connettersi al desktop Claude con un URL
+### Connettersi a Claude con un URL
 
 +++ Espandere per visualizzare istruzioni dettagliate per la connessione di Workfront a [!DNL Claude] con un URL.
+
+>[!NOTE]
+>
+>Per eseguire questa procedura, è necessario essere un proprietario in un ambiente aziendale Claude.
+>
+>Per l&#39;affermazione di Claude sul requisito del proprietario, vedere [Aggiungere un connettore personalizzato](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) nella documentazione di Claude.
 
 Per connettere Workfront a [!DNL Claude] con un URL:
 
@@ -118,7 +124,7 @@ Per connettere Workfront a [!DNL Claude] con un URL:
 
 1. Una volta creato il connettore, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.
 
-   >NOTA:
+   >[!NOTE]
    >
    >L’istanza di Workfront deve connettersi al server MCP della regione per tale istanza. Ad esempio, un’istanza EU deve connettersi al server MCP dell’UE.
    >
@@ -150,7 +156,7 @@ Per ulteriori informazioni sulle [!DNL Claude] abilità, consulta la [documentaz
 1. Verificare che l&#39;autenticazione sia impostata su **OAuth** (impostazione predefinita) e selezionare la casella di controllo Accettazione per continuare.
 1. Una volta creata l’app, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.
 
-   >NOTA:
+   >[!NOTE]
    >
    >L’istanza di Workfront deve connettersi al server MCP della regione per tale istanza. Ad esempio, un’istanza EU deve connettersi al server MCP dell’UE.
    >
