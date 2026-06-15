@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
+source-git-commit: 9c6e8d04c1faa2902cab870a03a68f0cb14da3aa
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,3 +39,5 @@ Il trattino è intenzionale. Indica che il sistema non attende l’approvazione 
 Il campo Data decisione mostra ancora la data dell’attività di decisione più recente del destinatario, ma la decisione del destinatario non viene più conteggiata nel rapporto.
 
 Per informazioni sulla creazione e l&#39;utilizzo del report Approvazione bozza, vedere [Utilizzare il report Approvazione bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
+
+
