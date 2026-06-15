@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 377568941333b399585a70ee023f30a23618b624
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Applica solo quando **tutti** sono true:
 1. L&#39;utente ha richiamato questo flusso di lavoro (ad esempio, dice **&quot;rimuovi evidenziazione anteprima&quot;** o chiaramente lo stesso intento).
 2. Il percorso del file Markdown **non** contiene **`product-announcements`** (esclude l&#39;intera struttura di cartelle, ad esempio note sulla versione, beta, annunci in `help/quicksilver/product-announcements/`).
 3. Il file Markdown è **non** elencato in **[Percorsi esclusi](#excluded-paths)**.
-4. Il frontmatter del file Markdown include **`Courtney`** nella riga `author:` (autore unico o co-autore).
+4. Il file Markdown viene visualizzato in `git log` come confermato da Courtney all&#39;interno dell&#39;intervallo di date specificato dall&#39;utente (vedere il passaggio Inventario).
 5. L&#39;articolo contiene **almeno uno** di:
    - Anteprima-ambiente **lingua nella prosa del corpo o frammento reale paragrafi** (pattern tipici: &quot;informazioni evidenziate&quot;, &quot;ambiente di anteprima&quot;, &quot;non ancora disponibile a livello generale&quot;, note sulla versione rapida)—**non** una corrispondenza da **testo di collegamento** in una pagina sommario/indice (vedi sotto); o
    - Qualsiasi elemento di HTML con **`class="preview"`** (ad esempio `<span class="preview">`, `<div class="preview">`); o
@@ -40,7 +40,24 @@ Non aggiungerli mai all’inventario o modificarli in questo flusso di lavoro, a
 **not** modifica in blocco l&#39;archivio senza approvazione.
 
 1. **Inventario**\
-   Crea un elenco ordinato di percorsi che soddisfano le regole di ambito di cui sopra (cerca nell&#39;archivio; preferisci `help/` strutture). **Ometti** qualsiasi percorso in **`product-announcements`**, qualsiasi percorso in **[Percorsi esclusi](#excluded-paths)** e qualsiasi **TOC/index** pagina corrispondente a **TOC/pagine indice** nell&#39;ambito. Se l’utente dice che un file elencato non presenta evidenziazioni in anteprima, rimuovilo dall’esecuzione e stringi i criteri invece di forzare le modifiche.
+   a. **Chiedi all&#39;utente per quale versione trimestrale** sta rimuovendo l&#39;evidenziazione di anteprima (ad esempio, &quot;Q3 2026&quot; o &quot;2026.07&quot;).\
+   b. **Recupera il calendario della versione** da `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar` utilizzando lo strumento MCP di adobe-wiki. Trova:
+   - La **data di rilascio produzione** della versione trimestrale **precedente** → `--since`.
+   - La **data di rilascio produzione** della versione trimestrale **target** → `--until`.
+   - I rilasci trimestrali sono identificati dalla colonna &quot;Nome della versione trimestrale&quot; (ad esempio 2026.01, 2026.04, 2026.07, 2026.10).
+   - **Se la data corrente è nel quarto trimestre (ottobre-dicembre):** dopo aver recuperato il calendario dell&#39;anno corrente, chiedere all&#39;utente di fornire l&#39;URL per il calendario di rilascio dell&#39;anno successivo, quindi recuperare anche questo dato in modo che tutte le date di produzione trimestrali necessarie siano disponibili.
+c. Eseguire quanto segue, utilizzando le date di rilascio di produzione della fase b:
+
+   ```
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="Courtney" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u
+   ```
+
+
+   d. Da questi risultati, **filtra in file che contengono** almeno uno dei seguenti: `class="preview"`, `{{highlighted-preview`, o anteprima boilerplate prose — grep per `highlighted information\|Preview environment\|not yet generally available`.\
+   e. **Ometti** qualsiasi percorso in **`product-announcements`**, qualsiasi **[percorso escluso](#excluded-paths)** e qualsiasi pagina **TOC/index** per la regola del sommario precedente.\
+   f. Presenta l’elenco ordinato risultante. Se l’utente dice che un file elencato non presenta evidenziazioni in anteprima, rimuovilo dall’esecuzione e stringi i criteri invece di forzare le modifiche.
 
 2. **Inizio**\
    Chiedi se iniziare con l&#39;articolo **first** nell&#39;elenco (o un percorso con i nomi utente).
@@ -92,7 +109,7 @@ Se la struttura è ambigua (nessun chiaro parallelo), **arresta** e mostra entra
 - Non eseguire questo flusso di lavoro sui percorsi in **`product-announcements`** (note sulla versione e correlate). L&#39;inventario deve escluderli.
 - Non inventariare o modificare i percorsi elencati in **[Percorsi esclusi](#excluded-paths)** a meno che l&#39;utente non chieda esplicitamente di includerne uno.
 - **Non** rimuovere o modificare automaticamente **blocchi esclusi** (`<!-- … -->`); segui **sezioni esclusi** sopra.
-- Non rimuovere &quot;Anteprima&quot; quando è **not** su questo pattern di disponibilità delle funzionalità (ad esempio [Anteprima ambiente sandbox] (·) come **nome prodotto** in un contesto non correlato); utilizza il giudizio e chiedi se non sei sicuro.
+- Non rimuovere &quot;Anteprima&quot; quando è **not** su questo pattern di disponibilità delle funzionalità (ad esempio [Anteprima ambiente sandbox](·) come **nome prodotto** in un contesto non correlato); utilizza il giudizio e chiedi se non sei sicuro.
 - Non modificare `author:` o elementi di primo piano non correlati a meno che l&#39;utente non lo richieda.
 - Non saltare il passaggio **mostra → approva**.
 
@@ -104,4 +121,4 @@ Se la struttura è ambigua (nessun chiaro parallelo), **arresta** e mostra entra
 
 ## Riferimenti
 
-- Abbina **[Stile documentazione Workfront](https://experienceleague.adobe.com/it?lang=it)** e convenzioni archivio (regole commit/PR se l&#39;utente esegue il commit).
+- Abbina **[Stile documentazione Workfront](https://experienceleague.adobe.com/?lang=it)** e convenzioni archivio (regole commit/PR se l&#39;utente esegue il commit).
