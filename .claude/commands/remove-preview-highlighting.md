@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 377568941333b399585a70ee023f30a23618b624
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Applica solo quando **tutti** sono true:
 1. L&#39;utente ha richiamato questo flusso di lavoro (ad esempio, dice **&quot;rimuovi evidenziazione anteprima&quot;** o chiaramente lo stesso intento).
 2. Il percorso del file Markdown **non** contiene **`product-announcements`** (esclude l&#39;intera struttura di cartelle, ad esempio note sulla versione, beta, annunci in `help/quicksilver/product-announcements/`).
 3. Il file Markdown è **non** elencato in **[Percorsi esclusi](#excluded-paths)**.
-4. Il file Markdown viene visualizzato in `git log` come confermato da Courtney all&#39;interno dell&#39;intervallo di date specificato dall&#39;utente (vedere il passaggio Inventario).
+4. Il file Markdown viene visualizzato in `git log` perché il contenuto dell&#39;anteprima **è stato aggiunto o modificato** dall&#39;utente Git corrente all&#39;interno dell&#39;intervallo di date specificato dall&#39;utente (vedere il passaggio Inventario).
 5. L&#39;articolo contiene **almeno uno** di:
    - Anteprima-ambiente **lingua nella prosa del corpo o frammento reale paragrafi** (pattern tipici: &quot;informazioni evidenziate&quot;, &quot;ambiente di anteprima&quot;, &quot;non ancora disponibile a livello generale&quot;, note sulla versione rapida)—**non** una corrispondenza da **testo di collegamento** in una pagina sommario/indice (vedi sotto); o
    - Qualsiasi elemento di HTML con **`class="preview"`** (ad esempio `<span class="preview">`, `<div class="preview">`); o
@@ -46,16 +46,25 @@ Non aggiungerli mai all’inventario o modificarli in questo flusso di lavoro, a
    - La **data di rilascio produzione** della versione trimestrale **target** → `--until`.
    - I rilasci trimestrali sono identificati dalla colonna &quot;Nome della versione trimestrale&quot; (ad esempio 2026.01, 2026.04, 2026.07, 2026.10).
    - **Se la data corrente è nel quarto trimestre (ottobre-dicembre):** dopo aver recuperato il calendario dell&#39;anno corrente, chiedere all&#39;utente di fornire l&#39;URL per il calendario di rilascio dell&#39;anno successivo, quindi recuperare anche questo dato in modo che tutte le date di produzione trimestrali necessarie siano disponibili.
-c. Eseguire quanto segue, utilizzando le date di rilascio di produzione della fase b:
+c. Determina l’utente Git corrente, quindi esegui quanto segue utilizzando le date di rilascio di produzione della fase b:
 
-   ```
+   ```bash
+   GIT_USER=$(git config user.name)
    git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
-     --author="Courtney" --name-only --pretty=format: \
-     -- "help/quicksilver/**/*.md" | sort -u
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
    ```
 
+   d. Da questi risultati, **filtra i file in cui il commit dell&#39;utente corrente nell&#39;intervallo di date ha effettivamente aggiunto o modificato il contenuto dell&#39;anteprima**. Per ciascun file candidato, verifica se i commit dell’utente hanno introdotto i marcatori di anteprima:
 
-   d. Da questi risultati, **filtra in file che contengono** almeno uno dei seguenti: `class="preview"`, `{{highlighted-preview`, o anteprima boilerplate prose — grep per `highlighted information\|Preview environment\|not yet generally available`.\
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   Includi il file solo se questo grep corrisponde (codice di uscita 0). In questo modo si evitano falsi positivi quando un utente apporta una modifica non correlata a un file la cui evidenziazione di anteprima è stata aggiunta da un altro utente.
+
    e. **Ometti** qualsiasi percorso in **`product-announcements`**, qualsiasi **[percorso escluso](#excluded-paths)** e qualsiasi pagina **TOC/index** per la regola del sommario precedente.\
    f. Presenta l’elenco ordinato risultante. Se l’utente dice che un file elencato non presenta evidenziazioni in anteprima, rimuovilo dall’esecuzione e stringi i criteri invece di forzare le modifiche.
 
@@ -109,7 +118,7 @@ Se la struttura è ambigua (nessun chiaro parallelo), **arresta** e mostra entra
 - Non eseguire questo flusso di lavoro sui percorsi in **`product-announcements`** (note sulla versione e correlate). L&#39;inventario deve escluderli.
 - Non inventariare o modificare i percorsi elencati in **[Percorsi esclusi](#excluded-paths)** a meno che l&#39;utente non chieda esplicitamente di includerne uno.
 - **Non** rimuovere o modificare automaticamente **blocchi esclusi** (`<!-- … -->`); segui **sezioni esclusi** sopra.
-- Non rimuovere &quot;Anteprima&quot; quando è **not** su questo pattern di disponibilità delle funzionalità (ad esempio [Anteprima ambiente sandbox] (·) come **nome prodotto** in un contesto non correlato); utilizza il giudizio e chiedi se non sei sicuro.
+- Non rimuovere &quot;Anteprima&quot; quando è **not** su questo pattern di disponibilità delle funzionalità (ad esempio [Anteprima ambiente sandbox](·) come **nome prodotto** in un contesto non correlato); utilizza il giudizio e chiedi se non sei sicuro.
 - Non modificare `author:` o elementi di primo piano non correlati a meno che l&#39;utente non lo richieda.
 - Non saltare il passaggio **mostra → approva**.
 
@@ -121,4 +130,4 @@ Se la struttura è ambigua (nessun chiaro parallelo), **arresta** e mostra entra
 
 ## Riferimenti
 
-- Abbina **[Stile documentazione Workfront](https://experienceleague.adobe.com/it?lang=it)** e convenzioni archivio (regole commit/PR se l&#39;utente esegue il commit).
+- Abbina **[Stile documentazione Workfront](https://experienceleague.adobe.com/?lang=it)** e convenzioni archivio (regole commit/PR se l&#39;utente esegue il commit).
