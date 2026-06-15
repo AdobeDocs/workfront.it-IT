@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Presentare l&#39;elenco candidati all&#39;utente. Chiedi quali aggiornare e qual
 Leggi `help/_includes/snippets.md` e scegli in base alla disponibilità:
 
 | Disponibilità | Frammento |
-|---|---|
+| --- | --- |
 | Solo anteprima: il contenuto evidenziato è una novità in un articolo altrimenti in versione GA | `{{highlighted-preview}}` |
 | Solo anteprima: l&#39;intero articolo è nuovo | `{{highlighted-preview-article-level}}` |
 | Anteprima + rilascio rapido clienti, generale | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ Per ogni articolo nell’elenco confermato dall’utente:
 ### &#x200B;5. Dopo ogni articolo
 
 Chiedi se passare all’articolo successivo, interrompere, saltare o rivedere quello corrente.
+
+### &#x200B;6. Fine della sessione — nota sulla versione di copia/incolla
+
+Quando l’utente si conclude per la sessione (dice &quot;completato&quot;, &quot;basta&quot;, &quot;stop&quot; o rifiuta di continuare con l’articolo successivo), chiedi:
+
+> &quot;Desideri una voce di nota sulla versione di copia/incolla per la pagina di miglioramento?&quot;
+
+In caso affermativo, generate una bozza utilizzando il contesto della feature del passaggio 1 e l&#39;articolo della guida principale aggiornato in questa sessione. **Non scriverlo in alcun file**. Fornirlo solo come testo da copiare o incollare.
+
+Formattare la voce in modo che corrisponda alla struttura della pagina dell&#39;area di prodotto dall&#39;abilità **release-notes-formatter**:
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+Regole:
+
+- Utilizza `TBD` per qualsiasi data non ancora nota; chiedi all&#39;utente se ha le date.
+- Il nome della funzione è una frase maiuscola (solo la prima parola e i sostantivi corretti).
+- La descrizione deve concentrarsi su ciò che gli utenti possono ora fare, non sui dettagli di implementazione.
+- È stato aggiornato il collegamento all’articolo tutorial più specifico, non una pagina di panoramica.
+- Non includere un blocco di data `>[!NOTE]` se tutte le date sono sconosciute e l&#39;utente non desidera utilizzare segnaposto. Ometterlo e notare che sarà necessario aggiungerlo in un secondo momento.
 
 ## Regole di contenuto
 
