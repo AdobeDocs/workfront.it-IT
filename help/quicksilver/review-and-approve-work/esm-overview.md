@@ -10,18 +10,13 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: 1004
 ht-degree: 0%
 
 ---
@@ -93,15 +88,23 @@ La tabella seguente confronta le funzioni dell’archiviazione cloud Adobe e del
 
 Gli oggetti di Workfront includono portfolio, programmi, progetti, modelli, attività e problemi.
 
-| Archiviazione cloud Adobe | Storage Workfront legacy |
+| Archiviazione cloud Adobe | Archiviazione legacy di Workfront |
 |---|---|
 | <ul><li>Utilizza l’archiviazione cloud di Adobe</li><li>Integrato con Frame.io</li><li>Utilizza la nuova esperienza Documenti</li><li>Applica convenzioni di denominazione severe</li><li>La condivisione diretta dei documenti non è disponibile</li><li>I documenti sono disponibili in altri prodotti Adobe come Frame.io e Creative Cloud</li></ul> | <ul><li>Utilizza l’archiviazione Workfront</li><li>Utilizza il visualizzatore di bozze</li><li>Supporta la condivisione di singoli documenti</li></ul> |
 
 ### Spostare, copiare e convertire gli oggetti
 
-È possibile spostare, copiare e convertire oggetti Workfront tra modelli di memorizzazione simili. Ad esempio, puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un altro progetto di archiviazione cloud Adobe. Non puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un progetto di archiviazione Workfront legacy.
+Nella maggior parte degli scenari è possibile spostare, copiare e convertire oggetti Workfront tra modelli di memorizzazione simili. Ad esempio, puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un altro progetto di archiviazione cloud Adobe.
 
-Queste azioni sono disponibili nel menu Altro relativo a un’attività o a un problema. Ogni azione rispetta l’integrità del documento, l’ereditarietà delle autorizzazioni e le regole di archiviazione cloud di Adobe.
+In tre casi specifici, puoi convertire un oggetto di archiviazione Workfront legacy in archiviazione cloud Adobe:
+
+* Converti un’attività di archiviazione Workfront legacy in un progetto di archiviazione cloud Adobe.
+* Converti un portfolio di archiviazione Workfront legacy in un portfolio di archiviazione cloud Adobe.
+* Crea un progetto di archiviazione cloud Adobe da un modello di archiviazione Workfront legacy.
+
+Durante queste conversioni, i documenti e le cartelle di documenti non vengono spostati dall’archiviazione legacy di Workfront all’archiviazione cloud di Adobe.
+
+Per ulteriori informazioni, vedere [Portabilità dell&#39;oggetto](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) in [Passare a Workfront nell&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Abilita archiviazione cloud Adobe
 
@@ -119,7 +122,7 @@ Per informazioni sull&#39;abilitazione dell&#39;archiviazione cloud Adobe nel tu
 
 L&#39;archiviazione cloud di Adobe è disponibile in [!DNL Workfront] ambienti sandbox, quindi puoi testarla prima di abilitarla in produzione. Tuttavia, il visualizzatore Frame.io non è disponibile in sandbox, pertanto l’esperienza completa di revisione e approvazione unificata deve essere convalidata in produzione.
 
-Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe per accedere alle funzionalità di archiviazione cloud di Adobe nella sandbox. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe per accedere alle funzionalità di archiviazione cloud di Adobe nella sandbox. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considerazioni
 

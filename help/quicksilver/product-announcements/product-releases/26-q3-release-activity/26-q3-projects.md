@@ -4,10 +4,10 @@ description: Miglioramenti al progetto del terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 84810b21d5dfa6183f0e3e63450623a4163f0b54
+source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
@@ -17,43 +17,41 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
-## Convert a legacy storage task to an Adobe cloud storage project
 
->[!NOTE]
->
->Preview: June 11, 2026
->Production for everyone: June 12, 2026
-
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
-When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
-
-Previously, tasks could only be converted to projects using the same storage type.
-
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-## Use a legacy storage template to create an Adobe cloud storage project
-
--->
-
-<!--
+## Convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>Anteprima: 11 giugno 2026>Produzione per tutti: 12 giugno 2026
 
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in the following scenarios:
+Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe.
+In questo caso, i documenti e le approvazioni dei documenti rimangono sull&#39;oggetto padre anziché essere trasferiti al progetto appena creato.
 
-* Creating a project outside of a portfolio with a legacy template: You can choose to create the project on Adobe cloud storage instead. Legacy storage documents and folders from the template are not carried over to the new project.
-* Creating a project inside an Adobe cloud storage portfolio: The project is automatically created on Adobe cloud storage, regardless of the template's storage type. Projects must use the same storage as their parent portfolio.
+In precedenza, le attività potevano essere convertite solo in progetti che utilizzavano lo stesso tipo di archiviazione.
 
-Previously, Legacy storage templates could only be used to create Legacy storage projects.
+Per ulteriori informazioni, vedere [Convertire un&#39;attività in un progetto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
-For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+## Utilizzare un modello di archiviazione legacy per creare un progetto di archiviazione cloud Adobe
 
--->
+
+
+
+
+>[!NOTE]
+>
+>Anteprima: 11 giugno 2026>Produzione per tutti: 11 giugno 2026
+
+Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi utilizzare un modello di archiviazione legacy per creare un progetto di archiviazione cloud Adobe nei seguenti scenari:
+
+* Creazione di un progetto al di fuori di un portfolio con un modello legacy: puoi invece scegliere di creare il progetto sull’archiviazione cloud di Adobe. I documenti e le cartelle di archiviazione legacy del modello non vengono trasferiti al nuovo progetto.
+* Creazione di un progetto all’interno di un portfolio di archiviazione cloud Adobe: il progetto viene creato automaticamente nell’archiviazione cloud Adobe, indipendentemente dal tipo di archiviazione del modello. I progetti devono utilizzare lo stesso spazio di archiviazione del portfolio principale.
+
+In precedenza, i modelli di archiviazione legacy potevano essere utilizzati solo per creare progetti di archiviazione legacy.
+
+Per ulteriori informazioni, vedere [Creare progetti](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+
+
 
 
 
