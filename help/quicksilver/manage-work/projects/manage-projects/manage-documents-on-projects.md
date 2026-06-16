@@ -6,9 +6,9 @@ description: A seconda che l’amministratore di Workfront scelga per impostazio
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: acd6989db41fad0a24015aac641c9821db1811f1
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2037'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,12 @@ Quando si lavora con i portfolio, considera quanto segue:
 
 * Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy e al portfolio non è allegato alcun documento, il portfolio viene convertito in un portfolio di archiviazione cloud Adobe.
 * Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy a cui sono allegati dei documenti, il portfolio di archiviazione dei documenti rimane nello storage Workfront. Tuttavia, l&#39;icona di archiviazione legacy di Workfront per il portfolio ![Icona di archiviazione legacy](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
-* Non puoi aggiungere un progetto di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe.
+* Non puoi aggiungere un progetto di archiviazione cloud Adobe a un portfolio di archiviazione legacy o un progetto di archiviazione legacy a un portfolio di archiviazione Adobe.
+* L’amministratore può convertire un portfolio di archiviazione legacy in archiviazione cloud Adobe nell’area Preferenze di sistema di Configura. Tutti gli oggetti figlio (programmi, progetti e documenti) rimangono nell&#39;archiviazione legacy. I nuovi progetti utilizzeranno l’archiviazione cloud di Adobe. I nuovi documenti aggiunti al portfolio continueranno a essere memorizzati nello storage legacy.
+Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Quando si creano i portfolio utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il portfolio. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
 
-<!--
-For preview/ Prod release: the third bullet above will need replacing with this:
-* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
-* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
-  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
--->
 
 ### Gestione documenti per programmi
 
@@ -163,24 +159,12 @@ Quando si lavora con i programmi, considera quanto segue:
 
 * Quando si crea un programma di archiviazione cloud Adobe, Workfront crea una cartella nella sezione Documenti del programma in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del programma, la cartella viene rinominata in base al nuovo nome del programma.
 
-* Quando aggiungi un progetto di archiviazione cloud Adobe a un programma di archiviazione Workfront legacy e al programma non è allegato alcun documento, il programma viene convertito in un programma di archiviazione cloud Adobe. Anche il portfolio del programma viene convertito.
-* Quando aggiungi un progetto di archiviazione cloud Adobe a un programma di archiviazione Workfront legacy a cui sono allegati dei documenti, l’archiviazione dei documenti del programma rimane nell’archiviazione Workfront. Se il portfolio dispone anche di documenti, anche l’archiviazione dei documenti rimane nell’archiviazione Workfront; in caso contrario, il portfolio viene convertito nell’archiviazione cloud Adobe.
-
-  L&#39;icona dell&#39;archivio legacy di Workfront per il programma ![Icona dell&#39;archivio legacy di portfolio](assets/legacy-storage-project-icon.png) è stata rimossa dal programma.
 * Non puoi aggiungere un progetto di archiviazione Workfront legacy a un programma di archiviazione cloud Adobe.
 
+* Non puoi aggiungere un programma di archiviazione cloud Adobe a un portfolio di archiviazione cloud legacy o un programma legacy a un portfolio di archiviazione cloud Adobe.
+* Non puoi creare un progetto da un modello di archiviazione cloud Adobe in un programma di archiviazione legacy.
+* Puoi creare un progetto da un modello di archiviazione legacy in un programma di archiviazione cloud Adobe, ma i documenti e le cartelle presenti nel modello non vengono aggiunti al nuovo progetto. Il progetto riceve l’archiviazione cloud di Adobe.
 * Quando si creano programmi utilizzando un&#39;automazione di Workfront Planning, Workfront utilizza la preferenza di archiviazione predefinita del sistema per il programma. È necessario acquistare il pacchetto Planning per accedere a Workfront Planning.
-
-<!--
-For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
-
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
-* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
-* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
--->
 
 ### Gestione dei documenti per le attività
 
@@ -226,12 +210,10 @@ Quando si lavora con i modelli, considera quanto segue:
 * Quando si crea un modello di Adobe Cloud Storage, Workfront crea una cartella nella sezione Documenti del modello in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del modello, la cartella viene rinominata in base al nuovo nome del modello.
 * Puoi utilizzare un modello di archiviazione Workfront legacy per creare progetti di archiviazione Workfront legacy; puoi utilizzare un modello di archiviazione cloud Adobe per creare un progetto di archiviazione cloud Adobe.
 
-<!--
-for preview/prod release: 
-* When creating projects using templates from a portfolio or program, the following scenarios exist: 
-  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
-  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
--->
+* Quando si creano progetti utilizzando modelli di un portfolio o di un programma, si verificano i seguenti scenari:
+   * Non puoi utilizzare un modello di archiviazione cloud Adobe da un portfolio o programma di archiviazione Workfront legacy per creare un progetto.
+   * Puoi creare un progetto di archiviazione cloud Adobe per un portfolio o un programma di archiviazione Adobe utilizzando un modello di archiviazione legacy. Tutti i documenti modello e le cartelle non sono allegati al nuovo progetto.
+
 * È possibile allegare un modello di archiviazione Workfront legacy a un progetto di archiviazione cloud Adobe e questo non modifica il percorso di archiviazione dei documenti sul progetto.
 * È possibile allegare un modello di archiviazione cloud Adobe a un progetto di archiviazione Workfront legacy senza modificare il percorso di archiviazione dei documenti nel progetto. I documenti contenuti nella cartella di archiviazione cloud di Adobe per il modello vengono aggiunti direttamente al progetto, senza la cartella, mentre i documenti contenuti nelle cartelle delle attività del modello vengono aggiunti alle cartelle associate alle attività del progetto nella sezione Documenti delle attività.
 * Quando si salva un progetto come modello, il tipo di archiviazione del progetto viene trasferito al modello, indipendentemente da ciò che l&#39;amministratore di Workfront ha impostato per la preferenza di archiviazione del sistema.
