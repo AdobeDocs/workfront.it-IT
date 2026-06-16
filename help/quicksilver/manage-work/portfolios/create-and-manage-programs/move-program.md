@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 9%
+source-wordcount: 289
+ht-degree: 12%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe per i documenti, esistono i seguenti scenari:
->
->
->* Quando aggiungi un programma di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy e al portfolio non è allegato alcun documento, il portfolio viene convertito in archiviazione cloud Adobe.
->* Quando aggiungi un programma di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy a cui sono allegati dei documenti, il portfolio di archiviazione dei documenti rimane nello storage Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront ![Icona dell&#39;archiviazione legacy di Workfront](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
->* Non puoi aggiungere un programma di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe.
->
+>Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe per i documenti, non è possibile aggiungere un programma di archiviazione cloud di Adobe a un portfolio di archiviazione cloud legacy o un programma legacy a un portfolio di archiviazione cloud di Adobe.
+>L&#39;istanza di Workfront potrebbe non disporre di entrambi i tipi di archiviazione dei documenti.
 >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->Non tutte le istanze di Workfront dispongono di entrambi i tipi di archiviazione dei documenti.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 Per aggiungere un programma esistente a un altro portfolio:
 

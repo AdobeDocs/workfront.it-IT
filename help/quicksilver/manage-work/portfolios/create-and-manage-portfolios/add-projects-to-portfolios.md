@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 674
 ht-degree: 3%
 
 ---
@@ -189,20 +189,14 @@ Old:
    >Quando l’organizzazione utilizza sia l’archiviazione cloud legacy di Workfront che Adobe per i documenti, esistono i seguenti scenari:
    >
    >
-   >* Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy e al portfolio non è allegato alcun documento, il portfolio viene convertito in un portfolio di archiviazione cloud Adobe.
-   >* Quando aggiungi un progetto di archiviazione cloud Adobe a un portfolio di archiviazione Workfront legacy a cui sono allegati dei documenti, il portfolio di archiviazione dei documenti rimane nello storage Workfront. Tuttavia, l&#39;icona dell&#39;archiviazione legacy di Workfront ![Icona dell&#39;archiviazione legacy di Workfront](assets/legacy-storage-project-icon.png) è stata rimossa dal portfolio.
-   >* Non puoi aggiungere un progetto di archiviazione Workfront legacy a un portfolio di archiviazione cloud Adobe.
+   >* Non puoi aggiungere un progetto di archiviazione legacy a un portfolio di archiviazione cloud Adobe o un progetto di archiviazione cloud Adobe a un portfolio di archiviazione legacy.
+   >* Non puoi creare un progetto da un modello di archiviazione cloud Adobe in un portfolio di archiviazione legacy.
+   >* Puoi creare un progetto da un modello di archiviazione legacy in un portfolio di archiviazione cloud Adobe, ma i documenti e le cartelle presenti nel modello non vengono aggiunti al nuovo progetto. Il progetto riceve l’archiviazione cloud di Adobe.
    >
    >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
    >Non tutte le istanze di Workfront dispongono di entrambi i tipi di archiviazione dei documenti.
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. (Facoltativo) Se decidi di non aggiungerlo al portfolio, fai clic sull&#39;icona **X** a destra del nome del progetto per rimuoverlo dall&#39;elenco.
 
