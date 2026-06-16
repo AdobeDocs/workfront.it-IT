@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
-ht-degree: 11%
+source-wordcount: 964
+ht-degree: 10%
 
 ---
 
@@ -152,6 +152,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader">Abilita archiviazione cloud Adobe </td> 
       <td>Consente di abilitare o disabilitare l’archiviazione cloud di Adobe per l’intera organizzazione o per gruppi specifici. Per ulteriori informazioni sull'archiviazione cloud Adobe, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Abilitare l'archiviazione cloud Adobe per la tua organizzazione</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Seleziona i portfolio da convertire in Adobe Cloud Storage </td> 
+      <td>Consente di convertire i portfolio di archiviazione Workfront legacy esistenti in archiviazione cloud Adobe. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convertire i portfolio legacy in Adobe Cloud Storage</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Abilita IA </td> 

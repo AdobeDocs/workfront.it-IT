@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: 1004
 ht-degree: 0%
 
 ---
@@ -93,15 +93,23 @@ La tabella seguente confronta le funzioni dell’archiviazione cloud Adobe e del
 
 Gli oggetti di Workfront includono portfolio, programmi, progetti, modelli, attività e problemi.
 
-| Archiviazione cloud Adobe | Storage Workfront legacy |
+| Archiviazione cloud Adobe | Archiviazione legacy di Workfront |
 |---|---|
 | <ul><li>Utilizza l’archiviazione cloud di Adobe</li><li>Integrato con Frame.io</li><li>Utilizza la nuova esperienza Documenti</li><li>Applica convenzioni di denominazione severe</li><li>La condivisione diretta dei documenti non è disponibile</li><li>I documenti sono disponibili in altri prodotti Adobe come Frame.io e Creative Cloud</li></ul> | <ul><li>Utilizza l’archiviazione Workfront</li><li>Utilizza il visualizzatore di bozze</li><li>Supporta la condivisione di singoli documenti</li></ul> |
 
 ### Spostare, copiare e convertire gli oggetti
 
-È possibile spostare, copiare e convertire oggetti Workfront tra modelli di memorizzazione simili. Ad esempio, puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un altro progetto di archiviazione cloud Adobe. Non puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un progetto di archiviazione Workfront legacy.
+Nella maggior parte degli scenari è possibile spostare, copiare e convertire oggetti Workfront tra modelli di memorizzazione simili. Ad esempio, puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un altro progetto di archiviazione cloud Adobe.
 
-Queste azioni sono disponibili nel menu Altro relativo a un’attività o a un problema. Ogni azione rispetta l’integrità del documento, l’ereditarietà delle autorizzazioni e le regole di archiviazione cloud di Adobe.
+In tre casi specifici, puoi convertire un oggetto di archiviazione Workfront legacy in archiviazione cloud Adobe:
+
+* Converti un’attività di archiviazione Workfront legacy in un progetto di archiviazione cloud Adobe.
+* Converti un portfolio di archiviazione Workfront legacy in un portfolio di archiviazione cloud Adobe.
+* Crea un progetto di archiviazione cloud Adobe da un modello di archiviazione Workfront legacy.
+
+Durante queste conversioni, i documenti e le cartelle di documenti non vengono spostati dall’archiviazione legacy di Workfront all’archiviazione cloud di Adobe.
+
+Per ulteriori informazioni, vedere [Portabilità dell&#39;oggetto](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) in [Passare a Workfront nell&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Abilita archiviazione cloud Adobe
 
