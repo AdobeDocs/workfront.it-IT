@@ -7,9 +7,9 @@ description: Guida introduttiva all’integrazione con Adobe Express e Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 0545810c13045444e7ac38eeda4ed439d74e405b
+source-git-commit: 3b94bbc6141556e081cb6057c49375b21bd61b53
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '523'
 ht-degree: 8%
 
 ---
@@ -80,11 +80,8 @@ Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo 
 
 Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
 
-[È necessario un collegamento all&#39;articolo della Guida in linea per richiedere l&#39;approvazione]
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
-<!--
-Learn how to [get approval on designs](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
--->
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
 
@@ -103,11 +100,8 @@ Quando si richiede l’approvazione per un modello Express remixato, gli utenti 
 
 Se non è selezionato alcun progetto, la risorsa verrà inserita per impostazione predefinita in un progetto specifico di Express.
 
-[È necessario un collegamento all&#39;articolo della Guida in linea per richiedere l&#39;approvazione]
+Per ulteriori informazioni, vedere [Inviare modelli per la revisione e l&#39;approvazione](https://helpx.adobe.com/it/express/web/invite-collaborate/request-approval.html).
 
-<!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/it/express/web/invite-collaborate/request-approval.html).
--->
 
 ## Rivedere e approvare i file Express remixati con Frame.io
 
