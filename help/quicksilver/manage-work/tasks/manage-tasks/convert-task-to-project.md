@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 5%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
    * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
    * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.
-   * L’utilizzo di un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy crea un progetto di archiviazione Workfront legacy.
+   * Quando si utilizza un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy, viene creato un progetto di archiviazione cloud Adobe. I documenti e le relative approvazioni rimangono nel progetto corrente.
 
      Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +122,7 @@ Old:
      >
      >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.
 * Gli assegnatari delle attività e l’utente che converte l’attività nel progetto diventano utenti condivisi nel progetto.
 * La data di inizio del progetto viene impostata sulla data di inizio dell&#39;attività.
