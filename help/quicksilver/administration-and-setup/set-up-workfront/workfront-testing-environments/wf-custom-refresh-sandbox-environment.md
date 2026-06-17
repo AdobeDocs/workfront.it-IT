@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1828
 ht-degree: 2%
 
 ---
@@ -77,6 +77,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Aggiornamento della sandbox di aggiornamento personalizzata
 
 La sandbox di aggiornamento personalizzata contiene i dati di produzione effettivi e non viene aggiornata finché non li pianifichi. È possibile pianificare un aggiornamento in qualsiasi momento e con una frequenza settimanale.
+
+>[!IMPORTANT]
+>
+>Gli ambienti sandbox di aggiornamento personalizzati vengono aggiornati solo dall’ambiente di produzione. Non esiste un processo per eseguire un ripristino point-in-time per gli ambienti sandbox. Per aggiornare i dati sandbox, pianifica un aggiornamento standard da Produzione.
 
 >[!NOTE]
 >
