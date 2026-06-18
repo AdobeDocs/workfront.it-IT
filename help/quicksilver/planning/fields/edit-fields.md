@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1098
 ht-degree: 1%
 
 ---
@@ -152,8 +152,8 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 * Dopo aver salvato il campo, puoi modificare la configurazione dei seguenti elementi di campo:
 
    * Nome o descrizione di un campo
-   * Opzioni di un campo a selezione singola o a selezione multipla <!--<span class="preview">and their default choices</span>-->.
-     <!--* <span class="preview">The default choices of a People field.</span>-->
+   * Opzioni di un campo a selezione singola o multipla <span class="preview"> e relative scelte predefinite</span>.
+   * <span class="preview">Le scelte predefinite di un campo Persone.</span>
    * Espressione di un campo Formula.
 
   >[!WARNING]
