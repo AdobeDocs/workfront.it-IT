@@ -9,23 +9,14 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: 790
 ht-degree: 9%
 
 ---
@@ -160,11 +151,11 @@ Old:
 
    Fai clic su **Nuova attività modello** per iniziare ad aggiungere attività al modello nella casella **Nuova attività modello**.
 
-   La casella **Crea attività modello** si apre nella nuova esperienza quando si fa clic su **Nuova attività modello**.
+   La casella **Crea attività modello** si apre quando si fa clic su **Nuova attività modello**.
 
    ![Nuova esperienza per la nuova attività modello](assets/new-template-task-box-unshimmed.png)
 
-1. (Condizionale) Utilizzando la nuova esperienza, aggiorna le informazioni nelle seguenti aree nella casella **Crea attività modello**:
+1. (Facoltativo) Aggiorna le informazioni nelle seguenti aree nella casella **Crea attività modello**:
 
    * Nome Attività Modello
    * Panoramica
@@ -174,53 +165,29 @@ Old:
    * Documenti
    * Impostazioni
 
-1. Fai clic su **Crea attività modello**
+   L&#39;aggiornamento delle informazioni per un&#39;attività modello è simile alla modifica delle attività modello.
 
-   Oppure
-
-   Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Crea attività modello**.
-
-   La **nuova attività modello** si apre nella vecchia esperienza.
-
-   ![Casella Attività nuovo modello](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >In Produzione, per impostazione predefinita viene aperta la vecchia esperienza.
-
-1. Aggiorna le informazioni nelle seguenti aree nella casella **Nuova attività modello**:
-
-   * Panoramica
-   * Finanz
-   * Impostazioni
-   * Assegnazioni
-   * Moduli personalizzati
-   * Allega documento
-
-     L&#39;aggiornamento delle informazioni per un&#39;attività modello è simile alla modifica delle attività in un progetto. Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   Per ulteriori informazioni, vedere [Modifica attività modello](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >Impossibile aggiungere attività ricorrenti a un modello.
 
-1. Fare clic su una delle seguenti opzioni:
+1. Fai clic su **Crea attività modello**.
 
-   * **Salva attività modello** per salvare l&#39;attività modello corrente e chiude la casella Nuova attività modello.
-   * **Salva attività modello e avviane un&#39;altra** per salvare l&#39;attività modello corrente e aprire un&#39;altra **nuova attività modello** per aggiungere un&#39;altra attività.
-   * **Annulla** per chiudere la casella senza salvare l&#39;attività modello.
-1. (Facoltativo) Dopo aver aggiunto le attività modello, nella sezione Attività modello, fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco delle attività del modello.
+1. (Facoltativo) Dopo aver aggiunto le attività modello, nella sezione **Attività modello** fai clic sull&#39;icona **Grafico di Gantt** ![Icona di Gantt](assets/gantt-icon.png) nell&#39;angolo superiore destro dell&#39;elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco attività del modello.
 
    >[!TIP]
    >
-   >Non è possibile modificare le attività direttamente da questo diagramma di Gantt.
+   >Non è possibile modificare le attività direttamente da un diagramma di Gantt delle attività modello.
 
-1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a sinistra del nome del modello nell&#39;intestazione, quindi fai clic su **Modifica**.
+1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del modello nell&#39;intestazione, quindi fai clic su **Modifica**.
 
    Per informazioni sulla modifica di un modello, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello.
+   >L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello.
    >
    >Per ulteriori informazioni, vedere la sezione &quot;Applicazione delle preferenze ai modelli e alle attività dei modelli&quot; nell&#39;articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 

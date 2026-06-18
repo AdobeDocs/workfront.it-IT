@@ -11,24 +11,14 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 1155
 ht-degree: 10%
 
 ---
@@ -121,7 +111,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
         <li>Richiesta documento<br></li>
         <li>Approvazione documento</li>
         <li>Calendario</li>
-       </ul><p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>Importante</b>: se questa opzione è disabilitata, il livello di accesso per gli utenti esterni non è disponibile nell'istanza di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Livelli di accesso incorporati</a>.</p> </td> 
+       </ul><p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>IMPORTANTE</b>: se questa opzione è disabilitata, il livello di accesso per gli utenti esterni non è disponibile nell'istanza di Workfront. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Livelli di accesso incorporati</a>.</p> </td> 
      </tr> 
      <!--
      <tr> 
@@ -141,6 +131,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td role="rowheader">Help URL</td> 
       <td>Consente di definire un sito di assistenza personalizzato interno in cui l’icona Help (Guida) del Main Menu (Menu principale) può essere visualizzata. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurare un URL della Guida personalizzato</a>.</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">Disabilita l’aggiornamento automatico nei Livelli di accesso</td> 
+      <td>È possibile disattivare il processo di aggiornamento automatico per i livelli di accesso Collaboratore. Quando questa impostazione è selezionata, l’amministratore deve aggiornare manualmente a una nuova licenza gli utenti con licenza Collaboratore che hanno superato il limite di decisioni di approvazione.</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
       <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
@@ -150,20 +144,33 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td><span class="preview"><p>Consente di scegliere se obbligare gli utenti a immettere le informazioni nei campi obbligatori durante la modifica in blocco di oggetti.</p> <p>Quando questa opzione è selezionata, i campi obbligatori devono avere dei valori prima di essere salvati in modalità di modifica collettiva. Se nel campo obbligatorio manca un valore per almeno un oggetto selezionato in blocco, il salvataggio non è consentito.</p> <p>Se questa opzione non è selezionata, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">Abilita archiviazione cloud Adobe </td> 
-      <td>Consente di abilitare o disabilitare l’archiviazione cloud di Adobe per l’intera organizzazione o per gruppi specifici. Per ulteriori informazioni sull'archiviazione cloud Adobe, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Abilitare l'archiviazione cloud Adobe per la tua organizzazione</a>.</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">Preferenze archiviazione </td> 
+      <td>In questa sezione puoi abilitare le preferenze cloud di Adobe. Consente di abilitare o disabilitare l’archiviazione cloud di Adobe per l’intera organizzazione o per gruppi specifici. 
+      <p>Aggiorna le seguenti informazioni:</p>
+      <ul><li><b>Predefinito</b>: scegli l'archiviazione legacy Workfront o l'archiviazione cloud Adobe</li>
+      <li><b>Consenti agli utenti di selezionare il provider di archiviazione</b>: consente agli utenti di scegliere tra i due tipi di archiviazione durante la creazione di oggetti Workfront.</li>
+      <li><b>Si applica a</b>: scegliere se le impostazioni predefinite si applicano all'intera organizzazione o a gruppi specifici</li>
+      <li><b>Seleziona i portfolio da convertire nell'archiviazione cloud Adobe</b>: seleziona i portfolio che desideri convertire automaticamente dall'archiviazione legacy di Workfront all'archiviazione cloud Adobe. I portfolio vengono convertiti quando si salvano le preferenze di sistema.</li></ul>     
+    Per ulteriori informazioni sull'archiviazione cloud Adobe, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Abilitare l'archiviazione cloud Adobe per la tua organizzazione</a>.</td></tr>
+    <tr> 
       <td role="rowheader">Seleziona i portfolio da convertire in Adobe Cloud Storage </td> 
       <td>Consente di convertire i portfolio di archiviazione Workfront legacy esistenti in archiviazione cloud Adobe. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Convertire i portfolio legacy in Adobe Cloud Storage</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Abilita IA </td> 
-      <td>Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></td> 
+      <td>Attivando le impostazioni nell’area Preferenze AI, puoi abilitare AI, incluso AI Assistant. <p><b>NOTA</b>: l'organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Compilazione modulo IA </td> 
+      <td>Consenti agli utenti di utilizzare Compilazione modulo con IA per compilare automaticamente un modulo di richiesta. Per ulteriori informazioni, consulta <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Completamento automatico modulo </td> 
+      <td role="rowheader">Completamento automatico intelligente nei moduli di richiesta </td> 
       <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Designer pianificazione</td> 
+      <td>Questa opzione è disponibile solo per i clienti che hanno acquistato un pacchetto Workfront Planning. L'attivazione di questa impostazione consente agli utenti di creare e modificare le aree di lavoro utilizzando Planning Designer. Per informazioni, vedere <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introduzione ad Adobe Workfront Planning Designer</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 

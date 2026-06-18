@@ -9,24 +9,16 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 1%
 
 ---
@@ -63,17 +55,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività e dei problemi. Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-## Aree di Adobe Workfront in cui è possibile effettuare assegnazioni avanzate
-
-Questo articolo descrive come accedere alle assegnazioni avanzate nell’intestazione dell’attività o del problema.
-
-Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
-
-* Negli elenchi e nei report quando il campo Assegnazioni viene visualizzato nella visualizzazione.
-* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* Nell’intestazione dell’attività o del problema, nell’area Assegnazioni.
-* Nel Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
@@ -107,14 +88,27 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creazione di assegnazioni avanzate - Pacchetto Workflow Ultimate
+## Aree di Adobe Workfront in cui è possibile effettuare assegnazioni avanzate
 
-Questo layout di Assegnazioni avanzate si applica solo alle attività. Per i problemi, vedi [Crea assegnazioni avanzate - tutti gli altri pacchetti](#create-advanced-assignments--all-other-packages).
+Questo articolo descrive come accedere alle assegnazioni avanzate nell’intestazione dell’attività o del problema.
+
+Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
+
+* Negli elenchi e nei report quando il campo Assegnazioni viene visualizzato nella visualizzazione.
+* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* Nell’intestazione dell’attività o del problema, nell’area Assegnazioni.
+* Nel Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+La creazione di assegnazioni avanzate varia a seconda del pacchetto Workfront acquistato dall&#39;organizzazione.
+
+## Creazione di assegnazioni avanzate per i pacchetti Workflow Ultimate
+
+Questo layout di Assegnazioni avanzate si applica solo alle attività. Per i problemi, vedere la sezione [Creare assegnazioni avanzate per tutti gli altri pacchetti](#create-advanced-assignments-for-all-other-packages) in questo articolo.
 
 >[!NOTE]
 >
 >La vecchia esperienza Assegnazioni avanzate è quella predefinita. Devi attivare manualmente la nuova esperienza con il pulsante in alto a destra della finestra Assegnazioni avanzate.
->Per informazioni sull&#39;esperienza precedente, vedere [Creare assegnazioni avanzate - tutti gli altri pacchetti](#create-advanced-assignments--all-other-packages), di seguito.
+>Per informazioni sull&#39;esperienza precedente, vedere la sezione [Creare assegnazioni avanzate per tutti gli altri pacchetti](#create-advanced-assignments-for-all-other-packages) in questo articolo.
 
 1. Vai al progetto a cui desideri assegnare un&#39;attività.
 1. Fai clic su **Attività** o **Problemi** nel pannello a sinistra, quindi sul nome di un&#39;attività nell&#39;elenco.
@@ -330,7 +324,7 @@ Si noti che non si tratta di un elenco completo e che il campo modificato non vi
 
    Dopo aver esaminato i dati, fare clic sulla freccia in alto a sinistra per tornare alla finestra Assegnazioni avanzate.
 
-## Crea assegnazioni avanzate - tutti gli altri pacchetti
+## Crea assegnazioni avanzate per tutti gli altri pacchetti
 
 Questo layout di Assegnazioni avanzate si applica sia alle attività che ai problemi.
 

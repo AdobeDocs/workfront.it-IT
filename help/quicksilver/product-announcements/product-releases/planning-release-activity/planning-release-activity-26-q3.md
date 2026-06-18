@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Aggiungi scelte predefinite per i campi di selezione e di tipo persone
+## Aggiungere le scelte predefinite per i campi di selezione e di tipo Persone
 
 >[!NOTE]
 >
