@@ -11,9 +11,9 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Qualsiasi utente che ha accesso alla condivisione di oggetti può condividerli c
 
 >[!BEGINSHADEBOX]
 
-Sam ha bisogno di un accesso diverso ai progetti per l&#39;Agenzia A e l&#39;Agenzia B. Entrambe le agenzie sono configurate come gruppi in Workfront. (Per informazioni sui gruppi, consulta Panoramica sui gruppi).
+Sam ha bisogno di un accesso diverso ai progetti per l&#39;Agenzia A e l&#39;Agenzia B. Entrambe le agenzie sono configurate come gruppi in Workfront. Per informazioni sui gruppi, vedere [Panoramica sui gruppi](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).
 
 Per l&#39;Agenzia A, Sam svolge il ruolo di controllore finanziario e ha bisogno dell&#39;accesso per visualizzare tutti i campi finanziari dei suoi progetti. Per l&#39;Agenzia B, Sam svolge il ruolo di project manager e deve gestire le attività e i problemi, ma non deve essere in grado di visualizzare le informazioni finanziarie.
 
@@ -111,6 +111,7 @@ Per informazioni sulla collaborazione tra i livelli di accesso e le autorizzazio
 
 ## Considerazioni sui profili aziendali
 
+* I profili aziendali sono disponibili solo per le organizzazioni che dispongono di un piano di Workflow Ultimate.
 * Non è necessario che un utente sia membro di un gruppo per ottenere un profilo di business per tale gruppo.
 * Il livello di accesso nel profilo aziendale può solo aggiornare il livello di accesso &quot;base&quot; di un utente. Il profilo business non può rimuovere le autorizzazioni del livello di accesso di base.
 * Negli elenchi di oggetti e nei report, l’utente dispone di tutte le autorizzazioni disponibili in tutti i profili aziendali assegnati ai vari gruppi, uniti al relativo livello di accesso di base. Nelle altre pagine, l’utente dispone delle autorizzazioni del livello di accesso di base.
