@@ -7,7 +7,7 @@ description: Converti i portfolio di archiviazione legacy di Workfront in Adobe 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 9%
@@ -52,6 +52,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 Prima di convertire un portafoglio di storage Workfront legacy, considera quanto segue:
 
 * La conversione influisce solo sul portfolio stesso. I progetti e i programmi secondari che utilizzano lo storage Workfront legacy rimangono sullo storage legacy.
+
   >[!NOTE]
   >
   >Un programma legacy secondario viene convertito automaticamente in Adobe Cloud Storage solo quando qualcuno vi aggiunge manualmente un progetto Adobe Cloud Storage.

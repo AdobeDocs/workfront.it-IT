@@ -18,10 +18,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 1537
-ht-degree: 8%
+source-wordcount: 1493
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,7 @@ Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area R
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront o Workflow</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 -->
-* L’organizzazione deve disporre di un piano Workfront Ultimate, Prime o Select
+* La tua organizzazione deve disporre di un pacchetto Select, Prime o Ultimate Workfront o Workflow
 * Adobe deve disporre di un accordo Adobe Gen AI firmato registrato
 
   Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Panoramica dell&#39;Assistente AI.
@@ -104,11 +104,19 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 >
 >Il riempimento dei moduli basato su IA è abilitato a livello di organizzazione e non può essere abilitato o disabilitato per utenti o livelli di accesso specifici.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
-1. Fare clic su **Sistema**, quindi in Sistema fare clic su **Preferenze**.
-1. Nella sezione delle preferenze di IA, attiva l&#39;impostazione **Abilita IA**.
-1. Attiva l&#39;impostazione **Riempimento modulo AI**.
-1. Per disattivare il riempimento modulo basato sull&#39;intelligenza artificiale, disattivare **Riempimento modulo IA**.
+Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+<!--
+
+This should point to the System Preferences article, since it's not a user function: 
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, turn on the **Enable AI** setting.
+1. Turn on the **AI Form Fill** setting.
+1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
+
+-->
 
 ## Ottieni suggerimenti da un prompt di testo
 
