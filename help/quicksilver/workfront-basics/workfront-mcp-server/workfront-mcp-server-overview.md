@@ -5,9 +5,9 @@ title: Panoramica del server Adobe Workfront MCP
 description: Scopri cosa fa il server MCP di Adobe Workfront e come consente di lavorare con Workfront attraverso una conversazione in linguaggio naturale in una piattaforma di intelligenza artificiale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Non è necessario conoscere l’API Workfront o il funzionamento dei server MCP 
 
 >[!IMPORTANT]
 >
->Attualmente, il server MCP di Workfront è disponibile solo per i clienti della regione degli Stati Uniti che utilizzano AWS.
+>Attualmente, il server MCP di Workfront è disponibile solo per i clienti che utilizzano AWS.
 
 ## Che cos&#39;è un server MCP
 
