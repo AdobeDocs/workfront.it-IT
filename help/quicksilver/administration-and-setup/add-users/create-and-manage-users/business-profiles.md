@@ -11,7 +11,7 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
+source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Per informazioni sulla collaborazione tra i livelli di accesso e le autorizzazio
 
 ## Considerazioni sui profili aziendali
 
-* I profili aziendali sono disponibili solo per le organizzazioni che dispongono di un piano di Workflow Ultimate.
+* I profili aziendali sono disponibili solo per le organizzazioni che dispongono di un pacchetto Workflow Ultimate.
 * Non è necessario che un utente sia membro di un gruppo per ottenere un profilo di business per tale gruppo.
 * Il livello di accesso nel profilo aziendale può solo aggiornare il livello di accesso &quot;base&quot; di un utente. Il profilo business non può rimuovere le autorizzazioni del livello di accesso di base.
 * Negli elenchi di oggetti e nei report, l’utente dispone di tutte le autorizzazioni disponibili in tutti i profili aziendali assegnati ai vari gruppi, uniti al relativo livello di accesso di base. Nelle altre pagine, l’utente dispone delle autorizzazioni del livello di accesso di base.
