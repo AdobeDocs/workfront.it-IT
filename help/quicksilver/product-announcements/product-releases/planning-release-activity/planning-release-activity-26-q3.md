@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,21 @@ Per le specifiche API di Workfront Planning, vedere la documentazione per gli sv
 >
 >Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
+
 È ora possibile modificare le autorizzazioni dei singoli record per controllare chi può gestirle all’interno di un tipo di record.
 
-Per impostazione predefinita, gli utenti ereditano le autorizzazioni dei record dall’area di lavoro e dal tipo di record. Per assegnare solo a determinati record determinati utenti con autorizzazioni di tipo record le autorizzazioni di gestione, è possibile disabilitare le autorizzazioni ereditate per determinati record e concedere solo a tali utenti l&#39;accesso di gestione a tali record. È possibile modificare in blocco le autorizzazioni per un record o per più record contemporaneamente.
+Per impostazione predefinita, gli utenti ereditano le autorizzazioni dei record dall&#39;area di lavoro e dal tipo di record. È ora possibile sovrascrivere le autorizzazioni ereditate su record specifici per concedere l’accesso Visualizza o Gestisci a un sottoinsieme di utenti. Le sostituzioni delle autorizzazioni possono essere applicate a singoli record o aggiornate in blocco in più record.
 
-Puoi assegnare agli utenti i seguenti livelli di autorizzazione:
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* Visualizzazione
-* Gestione
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
