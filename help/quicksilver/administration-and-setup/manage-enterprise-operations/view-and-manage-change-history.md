@@ -7,21 +7,27 @@ description: La cronologia modifiche consente di visualizzare un registro delle 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 10%
+source-wordcount: '403'
+ht-degree: 7%
 
 ---
 
 # Visualizzare e gestire la cronologia delle modifiche
 
-La cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
+Puoi visualizzare la cronologia delle modifiche, inclusi i registri di audit, nell’area Tracciamento delle modifiche di Configurazione.
 
-* Oggetto
-* Tipo di oggetto
-* Tipo di modifica (operazione)
-* Source della modifica, ad esempio utenti specifici, API, Workfront Fusion, AI LLM o Workfront
+* **I registri di controllo** sono modifiche attivate dagli utenti.
+Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.
+La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+* Elenco cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
+
+   * Oggetto
+   * Tipo di oggetto
+   * Tipo di modifica (operazione)
+   * Source della modifica, ad esempio utenti specifici, API, Workfront Fusion, AI LLM o Workfront
 
 ## Requisiti di accesso
 
@@ -41,7 +47,7 @@ La cronologia modifiche consente di visualizzare un registro delle modifiche app
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Modifica accesso a [!UICONTROL Rate Cards]</td> 
+   <td>Per visualizzare la Cronologia modifiche è necessario essere un amministratore di Workfront</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +56,28 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
+## Visualizzare e gestire i registri di audit
 
+Per visualizzare e gestire i registri di controllo, vedere [Visualizzare ed esportare i registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
-## Visualizza cronologia modifiche
+## Visualizza l&#39;area di configurazione per il rilevamento delle modifiche
+
+>[!NOTE]
+>
+>La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+
+Per visualizzare i tipi di modifiche tracciate:
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Tracciamento delle revisioni** ![Icona Cronologia modifiche](assets/change-history-icon.png).
+1. Fare clic su **Configurazione**.
+
+   I campi vengono visualizzati raggruppati per tipo di oggetto.
+
+1. Per visualizzare i campi sotto un oggetto specifico, fare clic sulla freccia a discesa accanto al tipo di oggetto.
+
+## Visualizzare l&#39;elenco Cronologia modifiche
 
 Gli amministratori di Workfront possono visualizzare la cronologia delle modifiche nell’area Configurazione.
 
@@ -74,16 +99,6 @@ L&#39;elenco Cronologia modifiche è un elenco avanzato e include filtri, colonn
 1. Per aggiungere o rimuovere colonne, vedere [Aggiungere e rimuovere colonne con Gestione colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) nell&#39;articolo Utilizzare elenchi di miglioramento.
 1. Per modificare l&#39;altezza delle righe, vedere [Modificare l&#39;altezza delle righe in una visualizzazione](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) nell&#39;articolo Utilizzare elenchi di miglioramento.
 
-## Visualizza tipi di modifica disponibili
-
-Per visualizzare i tipi di modifiche tracciate:
-
-{{step-1-to-setup}}
-
-1. Nel pannello a sinistra, fai clic su **Tracciamento delle revisioni** ![Icona Cronologia modifiche](assets/change-history-icon.png).
-1. Fare clic su **Configurazione**.
-
-   I campi vengono visualizzati raggruppati per oggetto.
 
 
 
