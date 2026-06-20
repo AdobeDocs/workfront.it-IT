@@ -4,10 +4,10 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 1%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
-
-## Aggiornamenti al connettore MCP di Workfront
-
-Abbiamo effettuato il seguente aggiornamento al connettore MCP di Workfront:
-* Il server MCP è stato ampliato per funzionare con istanze nell&#39;UE<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
-* Per espandere la flessibilità del connettore MCP di Workfront, abbiamo aggiunto la possibilità di collegare Claude. Ora puoi trovare Workfront nell’elenco dei connettori di Claude, oppure connetterti direttamente tramite un URL.
-
-Per ulteriori informazioni e istruzioni, vedere [Configurare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Aspetto aggiornato per le e-mail di notifica dei commenti
@@ -45,26 +37,6 @@ Il thread dei commenti precedenti non è più incluso nel corpo dell’e-mail. P
 Questa modifica verrà implementata gradualmente per i clienti. Questa pagina verrà aggiornata quando verrà confermata la pianificazione di rollout.
 
 ![messaggio e-mail di notifica commento aggiornato.png](assets/email-look-and-feel-update.png)
-
-## Collegare Workfront agli strumenti AI con Workfront MCP Server
-
->[!NOTE]
->
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
-
-Il contesto operativo del tuo team è Workfront. Ora, con Workfront MCP Server, tale contesto diventa utilizzabile dall’interno degli strumenti di intelligenza artificiale già utilizzati dal team.
-
-Collega Workfront a qualsiasi piattaforma di intelligenza artificiale compatibile con MCP, tra cui Claude, ChatGPT, Copilot, Gemini e altro ancora, e utilizza il linguaggio naturale per trovare, creare, aggiornare e gestire elementi Workfront senza lasciare lo strumento di intelligenza artificiale desiderato. Richiedi le attività scadute, invia la data di fine di un progetto, invia un promemoria agli approvatori, aggiorna il budget di una campagna e la piattaforma AI esegue automaticamente il lavoro in Workfront.
-
-Inoltre, con le competenze di Claude in materia di intelligenza artificiale e le attività pianificate, puoi andare anche oltre, automatizzando flussi di lavoro ricorrenti che vengono eseguiti in modo proattivo rispetto ai dati live di Workfront. Ad esempio, un briefing sul progetto del lunedì mattina, un rapporto settimanale sulla capacità, un controllo mensile dello stato della campagna, impostandolo una volta e AI lo gestisce automaticamente, in base al contesto completo dell’operazione.
-
-Questa è la base di un sistema di gestione del lavoro per gli agenti, in cui l’intelligenza artificiale si basa sui dati operativi più ricchi e gli esseri umani e l’intelligenza artificiale collaborano per mantenere il lavoro in movimento a piena velocità.
-
->[!IMPORTANT]
->
->Attualmente, il server MCP di Workfront è disponibile solo per i clienti della regione degli Stati Uniti che utilizzano AWS.
-
-Per ulteriori informazioni, vedere [Panoramica del server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Aggiornamenti elenco avanzati
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2104'
 ht-degree: 17%
 
 ---
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -35,6 +35,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 
 ## Miglioramenti in Adobe Workfront
 
+* [Miglioramenti ai](#ai-enhancements)
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti di Financial Management](#financial-management-enhancements)
@@ -43,6 +44,40 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
 * [Altri miglioramenti](#other-enhancements)
+
+### Miglioramenti ai
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al connettore MCP di Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Il connettore MCP di Workfront è stato aggiornato:<ul><li>Claude può ora collegarsi al connettore MCP.</li><li>È ora possibile utilizzare il connettore MCP dalle istanze nell'UE <!--or from instances that do not use AWS-->.</p>
+            </td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Connetti la tua piattaforma di gestione dell'intelligenza artificiale a Workfront con il server Workfront MCP</a>
+                <p>Il nuovo server MCP di Workfront collega Workfront a una piattaforma di intelligenza artificiale supportata, ad esempio Claude o ChatGPT, per trovare, creare, aggiornare e gestire gli elementi di Workfront attraverso una conversazione in lingua naturale. Attualmente disponibile solo per i clienti negli Stati Uniti che utilizzano AWS.</p>
+            </td>
+            <td><p>28 maggio 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Miglioramenti per gli amministratori
 
@@ -362,14 +397,6 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al connettore MCP di Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Il connettore MCP di Workfront è stato aggiornato:<ul><li>Claude può ora collegarsi al connettore MCP.</li><li>È ora possibile utilizzare il connettore MCP dalle istanze nell'UE <!--or from instances that do not use AWS-->.</p>
-            </td>
-            <td><p>11 giugno 2026</p></td>
-            <td><p>11 giugno 2026</p></td>
-            <td><p>11 giugno 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -379,15 +406,6 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>N/D</p></td>
             <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
             <td><p>Rollout graduale a partire dal 16 luglio 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connetti la tua piattaforma di gestione dell'intelligenza artificiale a Workfront con il server Workfront MCP</a>
-                <p>Il nuovo server MCP di Workfront collega Workfront a una piattaforma di intelligenza artificiale supportata, ad esempio Claude o ChatGPT, per trovare, creare, aggiornare e gestire gli elementi di Workfront attraverso una conversazione in lingua naturale. Attualmente disponibile solo per i clienti negli Stati Uniti che utilizzano AWS.</p>
-            </td>
-            <td><p>28 maggio 2026</p></td>
-            <td><p>11 giugno 2026</p></td>
-            <td><p>16 luglio 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -473,7 +491,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
