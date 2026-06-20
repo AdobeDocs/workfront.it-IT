@@ -23,7 +23,7 @@ Gli scenari con ambito di progetti Workfront legacy continuano a funzionare come
 >
 >Il connettore Adobe Workfront Unified Review and Approvals è ora disponibile in Workfront Fusion. Si consiglia di utilizzare questo connettore per scenari più semplici e affidabili quando si utilizza Fusion con l’archiviazione cloud Adobe.
 >
->Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
+>Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
 
 Utilizza questo articolo per fare l’inventario e classificare gli scenari in modo da comprendere il modo migliore per aggiornare gli scenari Fusion in modo da tenere conto dell’archiviazione cloud di Adobe.
 
