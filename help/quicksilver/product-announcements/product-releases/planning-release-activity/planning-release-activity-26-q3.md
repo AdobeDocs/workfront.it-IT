@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 * Tutte le pagine dei tipi di record collegate, ad eccezione di Progetti
 
 Oltre ad alcune modifiche di navigazione e a miglioramenti della progettazione, questo aggiornamento include alcuni miglioramenti:
+
+* L&#39;aggiunta di una riga di aggregazione nella parte inferiore della tabella che riepiloga i campi numero, valuta, percentuale e alcuni campi formula utilizzando i seguenti aggregatori: SUM, AVG, MAX, MIN.
 
 * Un formato data più semplice con un numero inferiore di tipi di formato quando si aggiunge un campo Data.
 
