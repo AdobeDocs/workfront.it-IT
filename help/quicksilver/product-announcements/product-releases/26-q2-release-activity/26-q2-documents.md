@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 >[!NOTE]
 >
->Anteprima: 16 aprile 2026>Versione rapida di produzione: 16 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 16 aprile 2026>Rilascio rapido produzione: 16 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Content Advisor è ora disponibile in Workfront con l&#39;integrazione Adobe Experience Manager Assets, semplificando l&#39;individuazione e il riutilizzo dei contenuti di alto valore esistenti.
 
@@ -39,11 +39,11 @@ Questa integrazione consente ai team di ridurre la creazione di contenuti duplic
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## Provisioning di GenStudio Foundations abilitato per supportare i collaboratori IA
+## Provisioning di GenStudio Foundation abilitato per supportare i collaboratori IA
 
 >[!NOTE]
 >
->Anteprima: 31 marzo 2026>Versione rapida di produzione: 31 marzo 2026>Produzione per tutti: 31 marzo 2026
+>Anteprima: 31 marzo 2026>Rilascio rapido produzione: 31 marzo 2026>Produzione per tutti: 31 marzo 2026
 
 Il 31 marzo 2026 è stato effettuato il provisioning di tutti i clienti Workfront per GenStudio Foundation e gli amministratori di sistema di Admin Console avranno ricevuto un’e-mail per informarli di questa aggiunta. Il provisioning di questo prodotto viene eseguito solo in modo che i clienti Workfront possano dare ai marchi l’accesso ai clienti Workfront in base alle esigenze per il rilascio dei collaboratori IA. Il prodotto è solo un meccanismo di accesso ai Marchi e non sono disponibili funzionalità aggiuntive.
 
@@ -53,7 +53,7 @@ Ai clienti non verrà addebitato alcun costo per questo nuovo prodotto.
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Sono stati aggiunti i seguenti miglioramenti al widget Le mie approvazioni nella Home:
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni, consulta [Gestire le approvazioni con il widget Appr
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 12 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 
 Siamo entusiasti di presentare la revisione e l&#39;approvazione unificate basate su Workfront e Frame.io, un&#39;esperienza di revisione e approvazione semplificata.
@@ -105,7 +105,7 @@ Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Ad
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 12 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 I flussi di lavoro di approvazione in più fasi sono ora disponibili nelle approvazioni unificate, consentendo alle organizzazioni di applicare processi di approvazione strutturati e ripetibili che riflettono il modo in cui il lavoro viene rivisto nel mondo reale. Con le approvazioni in più fasi, puoi:
 
@@ -121,7 +121,7 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026>Versione rapida di produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 12 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
 
 Ora puoi configurare e riutilizzare modelli di flusso di lavoro di approvazione in più fasi, semplificando l’applicazione di una governance coerente ai diversi flussi di lavoro di approvazione ripetibili.
 
