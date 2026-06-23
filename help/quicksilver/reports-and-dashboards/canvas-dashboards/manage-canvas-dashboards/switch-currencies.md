@@ -5,25 +5,31 @@ title: Utilizzare i campi di valuta nei dashboard di Canvas
 description: È possibile utilizzare i campi della valuta in un dashboard Area di lavoro.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 4%
+source-wordcount: '548'
+ht-degree: 9%
 
 ---
-
 
 # Utilizzare i campi di valuta nei dashboard di Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Questa versione beta non è disponibile nei seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
 >* Piattaforma Google Cloud
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisiti di accesso
 
@@ -42,7 +48,7 @@ ht-degree: 4%
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td> 
 <p>Standard</p> 
 <p>Piano</p> 
@@ -57,14 +63,14 @@ ht-degree: 4%
   </tr> 
     </tr>  
         <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td><p>Gestire le autorizzazioni per il dashboard</p>
   </td> 
   </tr> 
 </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Prerequisiti
@@ -146,7 +152,7 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 <li>Assegna una valuta predefinita al dashboard (al momento della creazione o della modifica del dashboard)</li>
 <li>Visualizzare e utilizzare l’interruttore della valuta a livello di dashboard</li>
 <li>Blocca una valuta specifica per la visualizzazione in un grafico a quadro, in un indicatore KPI o in un rapporto di tabella</li>
-<li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella</li>
+<li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 </td>
 <td><ul>
   <li>Utilizzare campi di valuta dei dati personalizzati nei rapporti di grafico, KPI e tabella dell’area di lavoro</li>
-  <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella</li>
+  <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

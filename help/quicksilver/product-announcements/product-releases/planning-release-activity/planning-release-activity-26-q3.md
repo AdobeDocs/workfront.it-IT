@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del terzo trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Miglioramento dell’interfaccia per i controlli del colore delle righe
+
+>[!NOTE]
+>
+>Anteprima: 22 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+
+È stato aggiornato l&#39;aspetto del controllo Colori riga nella visualizzazione per tabella.
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Aggiungere le scelte predefinite per i campi di selezione e di tipo Persone
 

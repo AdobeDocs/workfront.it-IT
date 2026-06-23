@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +617,7 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
 <div class="preview">
 
-## Gestire la vista a elenco nell’ambiente di anteprima
+## Gestire la vista tabella nell’ambiente di anteprima
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -894,7 +889,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —per il momento, controlla questo &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —per il momento, controlla questo ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -946,17 +941,15 @@ Per aggiungere un raggruppamento:
 
 ### Aggiungi colori riga
 
-1. (Facoltativo) Fai clic su **Colori riga** per definire le condizioni e scegliere di configurare colori diversi per le righe della tabella.
+1. (Facoltativo) Fai clic su **Colori riga** per definire le condizioni e configurare colori diversi per le righe della tabella.
 
-1. Fai clic su **Aggiungi colore**, quindi cerca un campo e selezionalo quando viene visualizzato nell&#39;elenco. Campo di cui si desidera definire il colore di una riga.
+1. Fai clic su **Aggiungi colore**, quindi cerca un campo e selezionalo quando viene visualizzato nell&#39;elenco. Questo è il campo di cui si desidera definire il colore di una riga o del campo primario.
 
    Ad esempio, per visualizzare le campagne con lo stato Attivo in verde, seleziona **Stato**, quindi scegli un modificatore e un valore per il campo.
 
-   ![Casella colori riga con stato Attivo selezionato e scelta colore predefinita](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Fare clic sul menu a discesa del selettore colore nell&#39;angolo superiore sinistro della condizione selezionata per scegliere il colore della condizione, quindi fare clic all&#39;esterno della casella del selettore colore per chiuderlo.
 
-   ![Menu selettore colore a discesa nella casella Colori riga evidenziata](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Casella colori riga con stato Attivo selezionato e scelta colore predefinita](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altri campi e valori al primo set di condizioni
 
@@ -966,16 +959,27 @@ Per aggiungere un raggruppamento:
 
    Ad esempio, è possibile visualizzare le campagne con lo stato Pianificazione in giallo definendo un nuovo set di condizioni.
 
-   ![Casella colori riga con colori personalizzati dello stato Attivo e Pianificazione](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Casella colori riga con colori personalizzati dello stato Attivo e Pianificazione](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Quando sono selezionati due campi diversi, l’ultima regola si applica prima per determinare quali colori verranno applicati alle righe.
+
 
 1. (Facoltativo) Attiva l&#39;impostazione **Applica all&#39;intera riga** nell&#39;angolo superiore destro della casella **Colori riga**. L’intera riga in cui viene soddisfatta la condizione viene visualizzata automaticamente nel colore selezionato.
 
    >[!NOTE]
    >
-   >Se l&#39;impostazione **Applica all&#39;intera riga** è disattivata, nel colore selezionato verrà visualizzato solo lo sfondo della cella del campo principale. L&#39;impostazione è disattivata per impostazione predefinita.
+   >* Se l&#39;impostazione **Applica all&#39;intera riga** è disattivata, nel colore selezionato verrà visualizzato solo lo sfondo della cella del campo principale. L&#39;impostazione è disattivata per impostazione predefinita.
    >
+   >* L&#39;impostazione Applica all&#39;intera riga viene disattivata quando si applicano i raggruppamenti alla tabella.
 
 1. Fare clic all&#39;esterno della casella **Colori riga** per chiuderla. I colori vengono applicati automaticamente.
+
+   >[!TIP]
+   >
+   >Se si sceglie di applicare il colore solo a una cella, viene evidenziato solo il campo Principale.
+
 
 ### Abilita indicatore di presenza in tempo reale
 

@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 6%
 
 ---
@@ -36,6 +31,12 @@ ht-degree: 6%
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
 >* Piattaforma Google Cloud
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt funziona da modificatore di filtro che applica criteri di filtro aggiuntivi in modo da poter limitare ulteriormente i risultati. Questi prompt possono essere modificati ogni volta che si applica il filtro, consentendo di regolare i risultati visualizzati senza dover modificare i criteri di filtro principali del dashboard o di ogni singolo rapporto.
@@ -117,7 +118,7 @@ Con un filtro dashboard, puoi applicare un filtro comune a tutti i rapporti disp
 
 1. Nell&#39;angolo superiore sinistro della pagina dei dettagli del dashboard, fare clic su **Filtri**. Viene visualizzato il pannello laterale dei filtri.
 
-1. Selezionare **Modifica filtri**. Viene visualizzata la finestra di dialogo **Dashboard filters**.
+1. Fai clic su <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Modifica filtri**. Viene visualizzata la finestra di dialogo **Dashboard filters**.
 
 1. (Facoltativo) Per aggiungere una regola, effettua le seguenti operazioni:
 
@@ -126,7 +127,7 @@ Con un filtro dashboard, puoi applicare un filtro comune a tutti i rapporti disp
       ![Icona Modifica](assets/edit-icon.png)
 
    1. Fare clic su **Aggiungi condizione** e quindi aggiungere le seguenti informazioni:
-      * Seleziona un campo in base al quale filtrare.
+      * Fare clic su **Scegli campo** per selezionare un campo in base al quale si desidera filtrare.
       * Seleziona un’opzione (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare.
 
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
@@ -144,7 +145,7 @@ Un prompt del dashboard consente agli utenti di applicare filtri personalizzati 
 
 1. Per aggiungere una richiesta, effettua le seguenti operazioni:
 
-   1. Seleziona **Aggiungi prompt**. I nuovi campi vengono visualizzati sul lato destro dello schermo.
+   1. Fare clic su **Aggiungi prompt**. I nuovi campi vengono visualizzati sul lato destro dello schermo.
 
    1. Immettere un&#39;etichetta nel campo **Personalizza etichetta**.
 
@@ -170,6 +171,19 @@ Un prompt del dashboard consente agli utenti di applicare filtri personalizzati 
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
 
 1. Fai clic su **Salva** per applicare il filtro al dashboard.
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. Procedi a [Parte 3: Applica un prompt del dashboard](#step-3-apply-a-dashboard-prompt).
 
