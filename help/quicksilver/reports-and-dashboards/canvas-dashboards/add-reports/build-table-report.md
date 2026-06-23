@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1236
 ht-degree: 12%
 
 ---
@@ -238,8 +238,8 @@ Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente poss
 
 L&#39;elenco a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
 
-* **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
-* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
+* **Tutte le sezioni**: tutti i tipi di oggetto in Workfront e Workfront Planning.
+* **Oggetti Workfront**: oggetti Workfront nativi.
 * **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
 
 ![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
