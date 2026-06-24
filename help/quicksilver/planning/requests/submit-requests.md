@@ -9,19 +9,12 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7ee1863adccffcd651a92f92c9faf5b4500c93f7
 workflow-type: tm+mt
 source-wordcount: 2603
 ht-degree: 1%
@@ -219,27 +212,27 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
    Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   <!-- 
-   Removing this as this is covered at a higher level in the Use enhanced lists article: 
-   1. (Optional) From the requests list, do any of the following:
-      * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-         ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-         You can filter by the following fields:  
-         * **Workspace**: The workspace the request form is associated with.
-         * **Object type**: The record type the request form is associated with.
-         * **Entry date**: The date when the request was submitted.
-         * **Request form**: The name of the request form used to submit the request.
-         * **Status**: The status of the request.
-         * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-        You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions.  
-      * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-         >[!TIP]
-         >
-         >You cannot add any more columns. 
-         ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-      * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
-   -->
+<!-- 
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 1. Fai clic sul nome di una richiesta nell’elenco.
 
@@ -271,7 +264,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
    >  Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
