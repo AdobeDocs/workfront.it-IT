@@ -6,9 +6,9 @@ description: È possibile utilizzare i campi della valuta in un dashboard Area d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '551'
 ht-degree: 9%
 
 ---
@@ -154,6 +154,11 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 <li>Blocca una valuta specifica per la visualizzazione in un grafico a quadro, in un indicatore KPI o in un rapporto di tabella</li>
 <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -172,5 +177,10 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
   <li>Utilizzare campi di valuta dei dati personalizzati nei rapporti di grafico, KPI e tabella dell’area di lavoro</li>
   <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>
