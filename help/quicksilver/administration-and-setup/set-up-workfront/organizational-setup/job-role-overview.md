@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 8%
+source-wordcount: 440
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,4 @@ Per ulteriori informazioni sulla gestione delle mansioni, consulta i seguenti ar
   >Se agli utenti viene assegnato un modello di layout al profilo utente, tale modello ha la precedenza su quello assegnato alla mansione principale. Per ulteriori informazioni, vedere [Assegnare gli utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * È possibile assegnare mansioni a piani e iniziative per gestire la disponibilità delle risorse quando si utilizza [!DNL Adobe Workfront Scenario Planner]. È necessaria una licenza aggiuntiva per [!DNL Scenario Planner]. Per ulteriori informazioni, vedere [Introduzione a  [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* È possibile modificare la valuta in base ai tassi di ruolo con data di validità quando si lavora con risorse di paesi diversi. In questo modo è possibile ottenere importi più precisi di costi e ricavi per gli elementi di lavoro.
 
-  Per ulteriori informazioni, consulta [Creare e gestire mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
