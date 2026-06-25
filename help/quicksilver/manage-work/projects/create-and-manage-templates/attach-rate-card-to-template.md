@@ -6,7 +6,7 @@ title: Allegare una scheda tariffa a un modello
 description: Quando si assegna una scheda tariffaria a un modello, questa viene quindi allegata a tutti i progetti creati dal modello.
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 8%
@@ -117,7 +117,6 @@ Per limitare l’elenco dei risultati, puoi iniziare a digitare il nome di una s
 
    Nella sezione Opzioni della casella Salva come modello, è possibile selezionare l&#39;elemento **Scheda tariffa** per aggiungere la scheda tariffa al modello. Deselezionare la casella di controllo per escludere la scheda del tasso dal trasferimento al modello.
 
-   Per ulteriori informazioni, vedere [Salvare un progetto come modello](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   Per ulteriori informazioni, vedere [Salvare un progetto come modello](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
