@@ -6,10 +6,10 @@ description: È possibile utilizzare i campi della valuta in un dashboard Area d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 9%
 >* Azure
 >* Piattaforma Google Cloud
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Requisiti di accesso
 
@@ -152,13 +150,12 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 <li>Assegna una valuta predefinita al dashboard (al momento della creazione o della modifica del dashboard)</li>
 <li>Visualizzare e utilizzare l’interruttore della valuta a livello di dashboard</li>
 <li>Blocca una valuta specifica per la visualizzazione in un grafico a quadro, in un indicatore KPI o in un rapporto di tabella</li>
-<li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+<li>Utilizzare i campi della valuta di Planning in un grafico a canvas, in un indicatore KPI e nei rapporti di tabella <span class="preview"> nell'ambiente di produzione. Disponibile nell'ambiente di anteprima.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+<p><b>NOTA</b></p>
+<span class="preview">Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che nel dashboard di Canvas venga visualizzato un messaggio di errore quando.</span>
+
 </td> 
 </tr>
 </td> 
@@ -175,12 +172,12 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 </td>
 <td><ul>
   <li>Utilizzare campi di valuta dei dati personalizzati nei rapporti di grafico, KPI e tabella dell’area di lavoro</li>
-  <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+  <li>Utilizzare i campi della valuta di Planning in un grafico a canvas, in un indicatore KPI e nei rapporti di tabella <span class="preview"> nell'ambiente di produzione. Disponibile nell'ambiente di anteprima.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+
+<p><b>NOTA</b></p>
+<span class="preview">Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che nel dashboard di Canvas venga visualizzato un messaggio di errore quando.</span>
+
 </td>
 </tr></table>
