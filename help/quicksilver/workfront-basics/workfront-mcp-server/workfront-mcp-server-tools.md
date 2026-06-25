@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 96159bd33d9b81cdd8ed50c0085400086494013e
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1713'
 ht-degree: 6%
 
 ---
@@ -104,6 +104,21 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
 | Ottieni area geografica Adobe | `approvals_get_adobe_region` | Restituisce il nome Adobe di un’area del provider di cloud. | Leggi |
 
+## Strumenti Approfondimenti
+
+Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| Leggi documenti | `insights_read_docs` | Carica la documentazione del playbook o del dominio Workfront, ad esempio condizioni, stato, date o percorsi dei campi. Questo è il primo passaggio richiesto prima di eseguire una query sui dati. | Leggi |
+| Ottieni utente corrente | `insights_get_current_user` | Recupera la tua identità Workfront, compreso nome, ID e URL. | Leggi |
+| Cerca campi | `insights_search_fields` | Cerca i campi disponibili (standard e personalizzati) su progetti, attività, problemi, utenti, portfolio, team e così via. | Leggi |
+| Ottieni percorsi campo | `insights_get_field_paths` | Risolvere i percorsi dei campi con notazione a punti per le entità, richiesti dallo strumento di query dei dati. | Leggi |
+| Trova ID per nome | `insights_find_id_by_name` | Cerca l’ID di qualsiasi oggetto Workfront per nome, ad esempio progetti, attività, utenti, portfolio e così via. | Leggi |
+| Trovare dati Workfront | `insights_find_workfront_data` | Trova, filtra, conta, ordina e aggrega dati Workfront. Questo è lo strumento principale per query e rapporti. | Leggi |
+| Riepiloga oggetto | `insights_summarize_object` | Recupera e riepiloga un singolo oggetto Workfront per ID. | Leggi |
+| Entità elenco | `insights_list_entities` | Elenca tutti i tipi di oggetto Workfront disponibili per la query. | Leggi |
+
 ## Strumenti di pianificazione
 
 >[!IMPORTANT]
@@ -194,11 +209,11 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Cerca oggetti | `workflow_search_any_object` | Cerca oggetti Workfront con parametri di filtro flessibili, ordinamento e impaginazione. | Leggi |
+| Cerca oggetti | `workflow_search_any_object` | Obsoleto. Utilizza `insights_find_id_by_name` o `insights_find_workfront_data` | Leggi |
 | Crea oggetto | `workflow_create_any_object` | Crea un nuovo oggetto Workfront, ad esempio un progetto, un&#39;attività, un problema, un&#39;ora, un&#39;assegnazione, un programma o un portfolio. | Scrittura |
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi su un oggetto Workfront esistente. | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
-| Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Converte i nomi o le etichette dei campi forniti dall’utente nei nomi dei campi API di Workfront sottostanti in modo che la piattaforma dell’agente di IA possa creare richieste precise. | Leggi |
+| Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Obsoleto. Utilizza invece `insights_search_fields`. | Leggi |
 
 ## Come vengono aggiornati gli strumenti
 
