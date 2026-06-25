@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,18 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## Supporto per i campi di pianificazione della valuta nei dashboard di Canvas
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 25 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+È ora possibile includere i campi di pianificazione della valuta nei rapporti di tabella, indicatore KPI e grafico nei dashboard di Canvas.
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+Prima di questo miglioramento, i campi di valuta non erano supportati nei dashboard di Canvas.
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+Per informazioni, vedere [Utilizzare i campi di valuta nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
 
 ## Miglioramento dell’interfaccia per i controlli del colore delle righe
 
