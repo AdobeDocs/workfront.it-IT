@@ -4,9 +4,9 @@ description: Miglioramenti al reporting per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del terzo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Impostazioni predefinite del prompt del dashboard di Canvas e persistenza delle preferenze utente
+
+>[!NOTE]
+>
+>Anteprima: 25 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+
+Per migliorare l’efficienza degli utenti che si spostano tra dashboard e record mantenendo il proprio stato di filtro funzionante, i responsabili dei dashboard possono ora definire valori di prompt predefiniti per i dashboard di Canvas. Queste impostazioni predefinite vengono applicate automaticamente a tutti i visualizzatori del dashboard.
+
+Quando un utente aggiorna un messaggio di richiesta, le selezioni vengono salvate e ripristinate al momento dell’aggiornamento, della riapertura o dopo essere passato e tornato a un record.
+
+I responsabili possono reimpostare lo stato predefinito del dashboard in qualsiasi momento. Gli utenti possono anche ripristinare rapidamente le impostazioni predefinite tramite il menu a tre punti.
+
+Prima di questo miglioramento, i prompt del dashboard non disponevano di un valore predefinito configurabile o di una preferenza utente salvata per lo stato del prompt.
+
+Per informazioni, vedere [Filtrare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
 
 ## Aggiungere più intervalli di indirizzi IP di Power BI al inserisco nell&#39;elenco Consentiti di connessione dati di un&#39;istanza di Windows (Data Connect) per volta
 
