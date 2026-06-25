@@ -1,6 +1,6 @@
 ---
 title: Allegare una scheda tariffa a un progetto
-description: Quando alleghi una scheda tariffaria a un progetto, tutti i ruoli per ubicazione e le relative tariffe di fatturazione vengono aggiunti al progetto.
+description: Quando alleghi una scheda tariffaria a un progetto, tutti i ruoli e le relative tariffe di fatturazione vengono aggiunti al progetto.
 author: Lisa
 feature: Work Management
 role: User
@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 565
 ht-degree: 8%
 
 ---

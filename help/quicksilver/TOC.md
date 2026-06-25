@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 94%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 94%
          * [Condividere modelli di progetto](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [Eliminare i modelli di progetto](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [Rimuovere informazioni sul modello da un progetto](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [Allegare una scheda tariffa a un modello](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [Panoramica dei giorni di inizio e completamento in un modello](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Panoramica del collegamento di un modello a un progetto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definire un caso di business {#define-business-case}
