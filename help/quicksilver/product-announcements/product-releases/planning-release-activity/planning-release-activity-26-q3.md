@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 0%
@@ -375,3 +375,4 @@ Per informazioni, vedere [Gestire la pagina record](/help/quicksilver/planning/r
 È ora possibile raggruppare le informazioni nella pagina dei record connessi ai progetti di un record in Workfront Planning. Questa funzionalità non esisteva in quest’area prima di questo miglioramento.
 
 Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
+
