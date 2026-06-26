@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 15%
+source-wordcount: '2369'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -44,6 +44,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
+* [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti ai
@@ -404,6 +405,28 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>23 aprile 2026</p></td>
             <td><p>23 aprile 2026</p></td>
             <td><p>23 aprile 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti alla gestione delle risorse
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Azioni di assegnazione in blocco semplificate nel Bilanciatore dei carichi di lavoro</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Le assegnazioni in blocco sono state semplificate nel Bilanciatore dei carichi di lavoro, con le azioni di assegnazione di utenti e sostituzione di utenti combinate nell'azione <strong>Sostituisci risorsa</strong>.</p>
+            </td>
+            <td><p>19 giugno 2026</p></td>
+            <td><p>19 giugno 2026</p></td>
+            <td><p>19 giugno 2026</p></td>
         </tr>
     </tbody>
 </table>
