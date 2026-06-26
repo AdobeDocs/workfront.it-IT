@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 19 giugno 2026Versione rapida di produzione: 19 giugno 2026Produzione per tutti: 19 giugno 2026Fuori pianificazione]{type=Neutral}
+>Anteprima: 19 giugno 2026Versione rapida di produzione: 19 giugno 2026Produzione per tutti: 19 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Le assegnazioni in blocco sono state semplificate nel Bilanciatore dei carichi di lavoro, con le azioni di assegnazione di utenti e sostituzione di utenti combinate nell&#39;azione **Sostituisci risorsa**.
 
