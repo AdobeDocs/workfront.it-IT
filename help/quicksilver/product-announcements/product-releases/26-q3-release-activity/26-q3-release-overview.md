@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 15%
+source-wordcount: '2369'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti alle richieste](#requesting-enhancements)
+* [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti ai
@@ -408,6 +409,28 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     </tbody>
 </table>
 
+### Miglioramenti alla gestione delle risorse
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Azioni di assegnazione in blocco semplificate nel Bilanciatore dei carichi di lavoro</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Le assegnazioni in blocco sono state semplificate nel Bilanciatore dei carichi di lavoro, con le azioni di assegnazione di utenti e sostituzione di utenti combinate nell'azione <strong>Sostituisci risorsa</strong>.</p>
+            </td>
+            <td><p>19 giugno 2026</p></td>
+            <td><p>19 giugno 2026</p></td>
+            <td><p>19 giugno 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Altri miglioramenti
 
 <table>
@@ -512,7 +535,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
