@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 5%
+source-wordcount: 1194
+ht-degree: 6%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Questa versione beta non è disponibile nei seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -186,6 +184,11 @@ Un prompt del dashboard consente agli utenti di applicare filtri personalizzati 
    1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Salva come prompt predefiniti**.
 
       Il filtro della richiesta viene applicato ogni volta che il dashboard viene caricato per qualsiasi utente con autorizzazioni di visualizzazione o superiori.
+
+      >[!TIP]
+      >
+      >Se non hai creato la richiesta e non hai accesso ai relativi campi, i nomi dei campi non verranno visualizzati. Modifica il prompt per compilare il report.
+
    1. (Condizionale) Se accedi a un dashboard in cui viene applicato un prompt predefinito, puoi modificare il filtro e le modifiche vengono salvate come preferenza personale. Esistono i seguenti scenari:
 
       * Se disponi delle autorizzazioni di gestione per il dashboard, fai clic su **Salva come prompt predefiniti** per salvare le modifiche come filtro predefinito. Questo sostituisce i valori predefiniti originali.
@@ -211,8 +214,7 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
 
 1. Nell&#39;angolo superiore sinistro della pagina dei dettagli del dashboard, fare clic su **Filtri**. Viene visualizzato il pannello laterale dei filtri.
 
-1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Il prompt viene applicato e un tag **Dashboard prompt applicati** viene visualizzato nell&#39;angolo del widget del report.
-   ![Seleziona condizione](assets/prompts-list.png)
+1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Il prompt viene applicato e un tag **Dashboard prompt applicati** viene visualizzato nell&#39;angolo del widget del report.   ![Seleziona condizione](assets/prompts-list.png)
 
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
 
