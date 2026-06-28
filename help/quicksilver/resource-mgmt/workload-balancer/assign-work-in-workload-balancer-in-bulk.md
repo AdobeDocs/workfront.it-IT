@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 5%
@@ -248,6 +248,7 @@ Per annullare l’assegnazione di un utente agli elementi di lavoro nei progetti
 
 1. Fare clic su **Annulla assegnazione**.\
    Si riceve una conferma del numero di elementi di lavoro in cui è stato rimosso l&#39;utente specificato.
+
 
 
 

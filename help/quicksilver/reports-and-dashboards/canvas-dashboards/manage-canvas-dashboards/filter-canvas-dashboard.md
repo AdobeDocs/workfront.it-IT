@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1194
 ht-degree: 6%
@@ -217,6 +217,7 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
 1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Il prompt viene applicato e un tag **Dashboard prompt applicati** viene visualizzato nell&#39;angolo del widget del report.   ![Seleziona condizione](assets/prompts-list.png)
 
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
+
 
 
 

@@ -4,7 +4,7 @@ description: Miglioramenti alla gestione delle risorse nel terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -33,5 +33,6 @@ Con **Sostituisci risorsa**, puoi sostituire:
 * Ruolo con utente
 
 Per informazioni, vedere [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
 
 
