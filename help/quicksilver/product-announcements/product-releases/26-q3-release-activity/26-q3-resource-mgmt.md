@@ -4,7 +4,7 @@ description: Miglioramenti alla gestione delle risorse nel terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 19 giugno 2026Versione rapida di produzione: 19 giugno 2026Produzione per tutti: 19 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: 19 giugno 2026Versione rapida di produzione: 19 giugno 2026Produzione per tutti: 19 giugno 2026Fuori pianificazione]{type=Neutral}
 
 Le assegnazioni in blocco sono state semplificate nel Bilanciatore dei carichi di lavoro, con le azioni di assegnazione di utenti e sostituzione di utenti combinate nell&#39;azione **Sostituisci risorsa**.
 
@@ -33,5 +33,6 @@ Con **Sostituisci risorsa**, puoi sostituire:
 * Ruolo con utente
 
 Per informazioni, vedere [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+
 
 

@@ -5,11 +5,9 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Decisione approvatore mostra un trattino nel rapporto Proof Approval (Approvazione bozza)
 description: Un trattino nel campo Decisione approvatore del rapporto Approvazione bozza indica che un destinatario non è più in un ruolo decisionale sulla bozza.
 author: Courtney
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,6 +37,7 @@ Il trattino è intenzionale. Indica che il sistema non attende l’approvazione 
 Il campo Data decisione mostra ancora la data dell’attività di decisione più recente del destinatario, ma la decisione del destinatario non viene più conteggiata nel rapporto.
 
 Per informazioni sulla creazione e l&#39;utilizzo del report Approvazione bozza, vedere [Utilizzare il report Approvazione bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
+
 
 
 
