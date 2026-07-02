@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Anteprima R1 5
+title: Anteprima 5 di R1
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1 Preview 5. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 16 marzo 2017.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1301'
 ht-degree: 13%
 
 ---
 
-# Anteprima R1 5
+# Anteprima 5 di R1
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1 Preview 5. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 16 marzo 2017.
 
@@ -68,7 +68,7 @@ Sono ora disponibili i seguenti miglioramenti quando si visualizza un elenco di 
 
 Sono stati aggiornati l’aspetto delle seguenti pagine del menu Sistema dell’area Configura (la funzionalità rimane la stessa):
 
-* Diagnostiche
+* Diagnostica
 * Single Sign-On (SSO) che include:
 
    * Active Directory
@@ -82,7 +82,7 @@ Sono stati aggiornati l’aspetto delle seguenti pagine del menu Sistema dell’
 
 Le intestazioni organizzative delle Notifiche eventi nell’area Configurazione e-mail ora corrispondono alle intestazioni di sezione utilizzate nell’area delle impostazioni del profilo utente.
 
-Per ulteriori informazioni sulle notifiche degli eventi, consulta  [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Per ulteriori informazioni sulle notifiche degli eventi, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Rinuncia a notifiche istantanee: configurazione riepilogo in contesto
 

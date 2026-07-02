@@ -8,7 +8,7 @@ description: Il processo di creazione della bozza include sia l’importazione c
 author: Courtney
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Il processo di creazione della bozza include sia l’importazione che la generaz
 * La struttura del file non è standard per il tipo di file.
 * Il file è protetto da password o la copia del contenuto è disabilitata.
 
-  A differenza di altri tipi di file, i file PDF possono essere generati in bozze se l’impostazione di sicurezza per la copia del contenuto è impostata su Consentita in PDF.
+  A differenza di altri tipi di file, i file PDF possono essere generati in bozze se l’impostazione di sicurezza per la copia del contenuto è Consentita in PDF.
 
 * La lunghezza della pagina o il numero di pagine supera il limite consentito.
 
@@ -45,13 +45,13 @@ Il processo di creazione della bozza include sia l’importazione che la generaz
 
   Ciò si verifica quando si crea una nuova versione della bozza utilizzando un metodo di bozza rapido e si seleziona **Genera automaticamente bozze durante il caricamento dei documenti**. La nuova versione della bozza tenta di recuperare le scadenze del flusso di lavoro dalla bozza generata in precedenza. La generazione della bozza non riesce se queste scadenze sono passate. Per ovviare a questo problema, puoi impostare le scadenze del flusso di lavoro sulla versione precedente in futuro o generare una nuova versione di bozza. Se si genera una nuova versione, utilizzare **Altro > Nuova versione > Bozza** e selezionare **Scadenze del flusso di lavoro future**.
 
-* Quando si esegue la verifica dei file PDF, i motivi degli errori di generazione della bozza includono:
+* Quando si esegue la verifica dei file PDF, i motivi dell&#39;errore di generazione della bozza includono:
 
    * I font e le immagini sono collegati da fonti esterne (ad esempio dal file system locale)
 
-     Per poter essere visualizzati su un altro computer o in Workfront Proof, i tipi di carattere e le immagini devono essere incorporati nel file PDF.
+     Per poter essere visualizzati in un altro computer o in Workfront Proof, i tipi di carattere e le immagini devono essere incorporati nel file PDF.
 
    * Il file PDF contiene livelli vuoti o campi trasparenti o sovrapposti.
 
-     Se non siete in grado di determinare quale livello o oggetto causa questo problema, esportate la progettazione o il documento come PDF ottimizzato (rimuovendo tutti gli elementi indesiderati).
+     Se non siete in grado di determinare quale livello o oggetto causa questo problema, esportate la progettazione o il documento come un PDF ottimizzato (questo rimuove tutti gli elementi indesiderati).
 
