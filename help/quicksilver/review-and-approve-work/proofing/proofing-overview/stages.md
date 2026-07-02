@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 1%
 
 ---
 
@@ -49,8 +49,8 @@ Quando si assegnano scadenze di bozza diverse ai revisori su una bozza, il siste
 
 **Esempio:** Ad esempio, se crei una bozza con quattro revisori:
 
-* Per i revisori Olivia e Tony, specificate una scadenza per le 14:00 tra qualche giorno.
-* Per Aaron e Amy, specificate una scadenza per le 17:00 qualche giorno dopo.
+* Per i revisori Olivia e Tony, specifichi una scadenza per il 14:00 tra qualche giorno.
+* Per Aaron e Amy, specifica una scadenza per il 17:00 alcuni giorni dopo.
 * Non hai specificato una scadenza.
 
 Il sistema crea una fase per ciascuno di questi tre &quot;gruppi&quot; di revisori:

@@ -23,5 +23,4 @@ ht-degree: 0%
 In qualità di amministratore di [!DNL Workfront Proof], puoi visualizzare le informazioni di utilizzo per ogni utente che ha effettuato l&#39;accesso a [!DNL Workfront Proof].
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Attività]**.
-1. Nel menu a discesa **[!UICONTROL Proofs and media logs]**, fare clic su **[!UICONTROL Authentication logs]**.
-Viene visualizzata la cronologia degli accessi per ogni utente del sistema.
+1. Nel menu a discesa **[!UICONTROL Proofs and media logs]**, fare clic su **[!UICONTROL Authentication logs]**.Viene visualizzata la cronologia degli accessi per ogni utente del sistema.
