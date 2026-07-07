@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: '14243'
+source-wordcount: '14248'
 ht-degree: 94%
 
 ---
@@ -2213,6 +2213,7 @@ ht-degree: 94%
       * [Condividere i tipi di record](planning/access/share-record-types.md)
       * [Condividere le visualizzazioni](planning/access/share-views.md)
       * [Condividere i record](planning/access/share-records.md)
+      * [Impostare le autorizzazioni predefinite per i record](planning/access/set-default-record-permissions.md)
       * [Richiedere le autorizzazioni per una vista o un’area di lavoro](planning/access/request-permissions.md)
    * Record di Pianificazione di Adobe Workfront {#adobe-workfront-planning-records}
       * [Record: indice degli articoli](planning/records/records-information.md)
