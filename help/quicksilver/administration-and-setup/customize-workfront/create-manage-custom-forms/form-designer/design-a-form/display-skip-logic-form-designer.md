@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
+source-wordcount: 3610
 ht-degree: 2%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
+
+{{highlighted-preview}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -95,8 +97,7 @@ Solo per visualizzare e saltare la logica, seleziona un campo per visualizzare l
 
 ## Considerazioni per l’utilizzo della logica di visualizzazione e della logica di salto
 
-* Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
 * Non è possibile applicare la logica di visualizzazione o di salto per mostrare o nascondere le scelte di un campo con più opzioni. Ad esempio, non è possibile limitare le scelte visualizzate per un campo a discesa, un gruppo di caselle di controllo o un campo Pulsante di scelta in base alla logica di visualizzazione o salto di un altro campo.
 * È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
@@ -238,7 +239,7 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
 La logica dei valori predefiniti consente di configurare i valori predefiniti per i campi modulo personalizzati utilizzando le formule. Il valore predefinito viene visualizzato quando vengono soddisfatte le condizioni definite. Un valore predefinito può essere un valore statico o dinamico che fa riferimento ad altri campi all&#39;interno dell&#39;oggetto. Anche se il valore predefinito può fare riferimento ad altri campi, non verrà modificato con la modifica di altri campi del modulo.
 
-Puoi applicare la logica avanzata del valore predefinito ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla. riferimento campo nativo, typeahead, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica avanzata dei valori predefiniti ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, <span class="preview">riferimento campo nativo</span>, typeahead, gruppo di caselle di controllo e pulsanti di scelta.
 
 >[!TIP]
 >
@@ -247,6 +248,8 @@ Puoi applicare la logica avanzata del valore predefinito ai seguenti tipi di cam
 >[!NOTE]
 >
 >La logica dei valori standard predefiniti nel progettista di moduli esiste ancora. Se entrambi i tipi vengono applicati allo stesso campo, la logica avanzata ha la precedenza. Per informazioni sulla logica standard dei valori predefiniti, vedere [Aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">Per i campi di riferimento nativi, la logica del valore predefinito è disponibile solo nell&#39;interfaccia utente e non nell&#39;API Workfront.</span>
 
 ### Esempio
 
