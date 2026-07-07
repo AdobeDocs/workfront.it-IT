@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
 workflow-type: tm+mt
-source-wordcount: 7342
-ht-degree: 91%
+source-wordcount: 8296
+ht-degree: 86%
 
 ---
 
@@ -155,40 +147,41 @@ I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinis
 
    Fai clic su **Salva e chiudi**.
 
-### Note sui nomi e sulle etichette dei campi {#notes-on-field-names-and-labels}
+### Note sui nomi e sulle etichette API dei campi {#notes-on-field-names-and-labels}
 
-Le etichette sono disponibili per la maggior parte dei campi. Si tratta di etichette descrittive che vengono visualizzate sopra il campo o il widget nel modulo personalizzato. Puoi modificare le etichette in qualsiasi momento.
+* Le etichette sono disponibili per la maggior parte dei campi. Si tratta di etichette descrittive che vengono visualizzate sopra il campo o il widget nel modulo personalizzato. Puoi modificare le etichette in qualsiasi momento.
 
->[!NOTE]
->
->Evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti.
+  >[!NOTE]
+  >
+  >Evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti.
 
-Per ciascun campo è richiesto un nome. Questo nome indica il modo in cui il sistema identifica il campo personalizzato quando viene aggiunto a varie aree di Workfront, ad esempio nei rapporti, nella Home e nelle interazioni API. Quando configuri il campo o il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. I campi Etichetta e Nome non sono sincronizzati. Questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.
+* È necessario un nome API per ogni campo. Questo nome indica il modo in cui il sistema identifica il campo personalizzato quando viene aggiunto a varie aree di Workfront, ad esempio nei rapporti, nella Home e nelle interazioni API. Quando si configura il campo o il widget per la prima volta e si digita l&#39;etichetta, il campo Nome / <span class="preview">Nome API</span> viene popolato automaticamente in modo che corrisponda ad esso. I campi Etichetta e Nome / <span class="preview">Nome API</span> non sono sincronizzati. Questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.
 
-Ciascun nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, puoi riutilizzarne uno che è già stato creato per un altro modulo personalizzato.
+* Ogni nome API per campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, puoi riutilizzarne uno che è già stato creato per un altro modulo personalizzato.
 
->[!NOTE]
->
->Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->Ad esempio, se si aggiunge il campo personalizzato a un report e successivamente si modifica il nome, Workfront non lo riconosce nel report e non funzionerà più correttamente se non viene nuovamente aggiunto al report utilizzando il nuovo nome.
->
->È consigliabile non digitare un nome già utilizzato per i campi incorporati di Workfront.
->
->È consigliabile non utilizzare il punto nel nome del campo personalizzato per evitare errori durante l’utilizzo del campo in aree diverse di Workfront.
+* Anche se è possibile farlo, ti consigliamo di non modificare questo nome API dopo che tu o altri utenti avete iniziato a utilizzare il modulo personalizzato in Workfront. Se lo facessi, il sistema non riconoscerebbe più il campo personalizzato nei punti di riferimento in altre aree di Workfront.
 
-Nelle etichette e nei nomi dei campi personalizzati non sono supportati i caratteri speciali seguenti.
+  Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome API, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* Per impostazione predefinita, i nomi API <span class="preview"> sono di sola lettura. Per rendere modificabile il nome API, fai clic sull&#39;icona **Modifica** accanto al **Nome API**. Digitare quindi **confirm** nella casella di conferma e fare clic su **Rinomina campo**. </span>
+
+* È consigliabile non digitare un nome API già utilizzato per i campi Workfront incorporati.
+
+* È consigliabile non utilizzare il carattere punto/punto nel nome API del campo personalizzato per evitare errori quando si utilizza il campo in aree diverse di Workfront.
+
+* I seguenti caratteri speciali non sono supportati nelle etichette di campo personalizzate e nei nomi API.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Aggiungere campi di testo
 
@@ -274,9 +267,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Istruzioni</td>
-    <td>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
-    <img src="assets/instructions-form-designer.png">
-    </td>
+    <td>Digita eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</td>
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
@@ -638,7 +629,8 @@ Per aggiungere campi di digitazione e campi di date:
        <ul> 
         <li>Se stai modificando un modulo personalizzato esistente, l’aggiunta di un filtro a un campo di digitazione non rimuove gli oggetti (al di fuori dell’ambito del filtro) che gli utenti hanno già aggiunto utilizzando quel campo.</li> 
         <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo di digitazione, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Campo di digitazione</li>
@@ -702,7 +694,7 @@ Per aggiungere una ricerca esterna:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. Tuttavia, i campi Etichetta e Nome non sono sincronizzati; questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.</p>
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il campo per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. Tuttavia, i campi Etichetta e Nome non sono sincronizzati; questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.</p>
       <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note su etichette e nomi dei campi</a>.</p> </td>
      </tr> 
       <td role="rowheader">Istruzioni</td> 
@@ -748,15 +740,14 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
+      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:
       <pre>
-      &lbrace;
-       dati: &lbrace;
-         { name: “USA”},
-         { name: “Canada”}
-       &rbrace;
-      &rbrace;
-      </pre>
+      {
+       dati: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }</pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,6 +785,95 @@ Per aggiungere una ricerca esterna:
 >* Numero di nuovi tentativi: 3
 >* Durata dell’attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
+
+<div class="preview">
+
+### Aggiungere campi di ricerca interni
+
+Un campo di ricerca interno consente agli utenti di digitare il nome di un oggetto esistente in Workfront. Quando l’utente inizia a digitare, viene visualizzato un elenco di suggerimenti. Ad esempio, se l’utente digita un nome utente, viene visualizzato un elenco di nomi corrispondenti. Il tipo di campo di ricerca interno è supportato nei seguenti oggetti:
+
+* Utente
+* Gruppo
+* Mansione
+* Portfolio
+* Programma
+* Progetto
+* Team
+* Modello
+* Azienda
+* Attività
+* Problema
+* Documento
+* Posizione
+
+Per aggiungere una ricerca interna:
+
+1. Nella scheda **Nuovo campo** sul lato sinistro dello schermo, individua **Ricerca interna** o **Ricerca interna a selezione multipla** e trascinala in una sezione dell&#39;area di lavoro.
+1. Sul lato a destra dello schermo, configura le opzioni per il campo personalizzato:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etichetta</td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali nelle etichette in quanto non vengono visualizzati correttamente nei rapporti. Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome</td> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il campo per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda ad essa. Tuttavia, i campi Etichetta e Nome non sono sincronizzati; questo ti permette di modificare l’etichetta visualizzata dagli utenti senza dover cambiare il nome riconosciuto dal sistema.</p>
+      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note su etichette e nomi dei campi</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Istruzioni</td> 
+      <td> <p>Inserisci eventuali informazioni aggiuntive sul campo personalizzato. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tipo di oggetto di riferimento</td>
+      <td><p>Seleziona il tipo di oggetto da associare al campo.</p> <p>Non puoi modificare il tipo di oggetto per il campo dopo aver fatto clic su <strong>Applica</strong> o <strong>Salva e chiudi</strong>.</p>
+      <p><strong>Nota:</strong></p>
+      <ul><li>Se l’amministratore Workfront ha personalizzato il nome di Portfolio, Programmi o Progetti nell’interfaccia utente di Workfront, in questo elenco a discesa viene visualizzato il nome predefinito di Workfront per l’oggetto e non il nome personalizzato. Se hai bisogno di assistenza, rivolgiti al tuo amministratore Workfront.</li>
+      <li>Nelle app Workfront per dispositivi mobili iOS e Android sono supportati i seguenti tipi di oggetti: Utente, Azienda, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Aggiungi filtro</td>
+      <td><p>Aggiungi un filtro per un tipo di oggetto per limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. </p> <p>Ad esempio, puoi limitare un campo in modo che i nomi utente possano essere selezionati solo se soddisfano i seguenti criteri:</p> 
+       <ul> 
+        <li>Appartengono a uno o più gruppi specificati.</li> 
+        <li>Sono associati a un ruolo o a una mansione specifica.</li> 
+        <li>Appartengono allo stesso gruppo della persona che utilizza il campo.</li> 
+       </ul>
+       <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro utilizzando la modalità testo, consulta <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifica un filtro in modalità testo</a>.</p>
+       <p><b>Suggerimento:</b> è possibile creare un report per testare il filtro prima di aggiungerlo direttamente al campo di ricerca interno. Questo ti consentirà di verificare che il filtro restituisca gli oggetti corretti. Quindi puoi passare alla modalità testo nel rapporto, copiare l’istruzione della modalità testo e aggiungerla al filtro di ricerca interno.</p>
+       <p><b>Nota</b>:
+       <ul> 
+        <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo di ricerca interno non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo (al di fuori dell'ambito del filtro).</li> 
+        <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo di ricerca interno, il campo verrà visualizzato sui dispositivi mobili degli utenti che non sono interessati dal filtro.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Elenco a discesa a selezione multipla</td>
+      <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
+     </tr>
+     <tr>
+      <td>Attivo</td>
+      <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Rendi il campo obbligatorio</td>
+      <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un’altra sezione per continuare a creare il modulo.
+
+   Oppure
+
+   Fai clic su **Salva e chiudi**.
+
+</div>
 
 ### Aggiungere immagini, PDF e video
 
@@ -1019,7 +1099,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Sono associati a un ruolo o a una mansione specifica.</li> 
         <li>Appartengono allo stesso gruppo della persona che utilizza il campo.</li> 
        </ul>
+       <p><span class="preview">Se nel campo è presente un filtro di sistema, viene applicato per impostazione predefinita se non si aggiunge un filtro personalizzato. Un filtro personalizzato sostituisce il filtro di sistema.</span></p>
        <p>È necessario definire il filtro per il campo di riferimento selezionato utilizzando la sintassi della modalità testo. Per informazioni, consulta <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro utilizzando la modalità testo</a>.</p>
+       <p><span class="preview">Utilizza la sintassi del filtro dinamico per restringere l’elenco di elementi in questo campo in base al valore di un altro campo. Se, ad esempio, si utilizza <code>?portfolioID={portfolio}.{ID}</code> in un filtro di campi di Project e un campo nativo di Portfolio si trova nel modulo personalizzato, nel campo Project vengono visualizzati solo i progetti inclusi nel portfolio selezionato. Se il campo Portfolio viene lasciato vuoto, tutti i progetti saranno disponibili nel campo Progetto.</span></p>
        <p><b>Nota</b>:
        <ul> 
         <li>L’opzione di filtro è disponibile solo quando fai riferimento a un campo di digitazione nativo, ad esempio Portfolio, Azienda o Proprietario.</li>
@@ -1077,8 +1159,7 @@ Per aggiungere un file Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo XD.</p> 
-      <p><b>Nota</b>: l'impostazione Accesso collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
-   </td> 
+      <p><b>Nota</b>: l’impostazione Accesso al collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Istruzioni</td> 
