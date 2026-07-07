@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5c41388d904b9d9bb7fba7302e9356fe8771fd06
 workflow-type: tm+mt
 source-wordcount: 1047
 ht-degree: 7%
@@ -190,6 +190,20 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
       >`OR:1:assignedToID_Mod=in`
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
+
+<!--
+
+If this text is needed for July 7 release, add the snippet at the top of the article!
+
+1. (Optional) Use a dynamic filter to narrow the list of items in this field based on the value of another field.
+
+   >[!NOTE]
+   >
+   >The `?` prefix for dynamic filtering is only available for native reference field filters.
+
+   For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
+
+-->
 
 1. Fai clic su **Applica** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
 1. Fai clic su **Salva + Chiudi** per salvare il rapporto oppure su **Salva filtro** per salvare il filtro nell&#39;elenco.
