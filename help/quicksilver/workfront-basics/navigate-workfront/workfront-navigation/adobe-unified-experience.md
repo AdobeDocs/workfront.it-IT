@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 711
 ht-degree: 4%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 4%
 # [!DNL Adobe Unified Experience] per [!DNL Workfront]
 
 <!--Audited: 10/2024-->
+
+{{highlighted-preview}}
 
 L&#39;accesso a [!DNL Workfront] tramite [!DNL Adobe CX Enterprise] offre un&#39;esperienza unificata per la gestione di tutte le applicazioni di [!DNL Adobe]. La gestione delle singole identità consente di accedere da un’unica posizione, senza più URL o ID di accesso.
 
@@ -98,6 +100,10 @@ Utilizza l&#39;icona [!UICONTROL Main Menu] ![Main Menu icon](assets/main-menu-i
 * **Configurazioni del modello di layout**: per informazioni su come un amministratore di [!DNL Workfront] può modificare il [!UICONTROL menu principale] da un modello di layout, vedere [Personalizzare il [!UICONTROL menu principale] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Tipo di licenza**: per informazioni sulle configurazioni predefinite per i diversi tipi di licenza, vedere [Comprendere la navigazione per un utente con licenza [!UICONTROL Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprendere la navigazione per un utente con licenza [!UICONTROL Work]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
+<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+![Menu principale](assets/main-menu-options-2026.png)
+
+Immagine di esempio nell’ambiente di produzione:
 ![Menu principale](assets/main-menu-options-left-nav.png)
 
 ## Accedere al profilo e alle preferenze
