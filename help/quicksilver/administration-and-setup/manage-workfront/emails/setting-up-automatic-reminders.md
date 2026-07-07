@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 8%
+source-wordcount: 836
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,11 @@ ht-degree: 8%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-In qualità di amministratore di Adobe Workfront, puoi impostare promemoria automatici per attivare le notifiche e-mail quando tutte le attività o i problemi sono in scadenza, in ritardo o in prossimità della data di completamento pianificata. Dopo aver configurato queste impostazioni, gli utenti non possono disattivare i promemoria automatici.
+In qualità di amministratore di Adobe Workfront, puoi impostare promemoria automatici per attivare le notifiche e-mail quando tutte le attività, i problemi o altri elementi di lavoro assegnati sono in scadenza, in ritardo o in prossimità della data di completamento pianificata.
 
-Per le notifiche in ritardo, l’e-mail viene inviata ogni notte fino al completamento dell’attività o del problema.
+Dopo aver configurato queste impostazioni, gli utenti non possono disattivare i promemoria automatici. I promemoria automatici verranno inviati indipendentemente dalle impostazioni di notifica di un utente nella relativa area Impostazioni personali.
+
+Per le notifiche in ritardo, l’e-mail viene inviata ogni notte fino al completamento dell’attività o del problema. Ciò significa che l’utente riceverà una notifica ogni giorno mentre l’attività o il problema non è completato.
 
 Un promemoria automatico può essere inviato a uno o più dei seguenti:
 
@@ -72,6 +74,25 @@ Un promemoria automatico può essere inviato a uno o più dei seguenti:
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Dettagli della funzionalità di promemoria automatico
+
+### Distinzione da altri tipi di promemoria
+
+I promemoria automatici sono la funzione di promemoria a livello di configurazione per le attività e i problemi di Workfront e sono separati dalla funzione di notifica dei promemoria a livello di oggetto. Per informazioni sulla differenza tra promemoria automatici e notifiche di promemoria, vedere [Promemoria automatici e notifiche di promemoria](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+Le decisioni relative a bozze e bozze non vengono inoltre gestite da promemoria automatici e seguono un processo di promemoria separato. Per informazioni dettagliate sui promemoria di decisione per bozze e bozze, vedere gli articoli in [Notifiche e promemoria per bozze](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Considerazioni durante l’utilizzo dei promemoria automatici
+
+Quando si utilizzano i promemoria automatici, considera quanto segue:
+
+* Le e-mail scadute vengono inviate come un digest e-mail per destinatario al giorno, non come e-mail separate per elemento.
+* L&#39;attivazione dei promemoria automatici può causare la visualizzazione di problemi o attività già scaduti nella successiva e-mail di riepilogo Scaduto, indipendentemente da quanto tempo l&#39;elemento sia scaduto.
+* I promemoria sono validi solo per i progetti in stato Corrente/Attivo.
+* Per &quot;giorni&quot; nell&#39;impostazione automatica del promemoria si intendono i giorni lavorativi in base alla pianificazione, non i giorni trascorsi o l&#39;ora del calendario.
+
+
 
 ## Impostare promemoria automatici
 
