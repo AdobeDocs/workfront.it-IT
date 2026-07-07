@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.
-I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
+La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
 
 ![Diagramma che mostra il flusso di lavoro unificato di revisione e approvazione, con i coordinatori del progetto che gestiscono il lavoro in Workfront e i revisori e gli approvatori che forniscono feedback e prendono decisioni nel visualizzatore Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -286,6 +285,14 @@ Sì. Un utente può essere assegnato a più fasi all’interno dello stesso flus
 **Posso aggiungere fasi per creare un flusso di lavoro di approvazione con più fasi?**
 
 Sì. Sono supportati flussi di lavoro di approvazione in più fasi, che consentono di indirizzare le risorse attraverso cicli sequenziali di revisione e approvazione con partecipanti diversi in ogni fase.
+
+<div class="preview">
+
+**È possibile configurare percorsi di revisione paralleli in un flusso di lavoro di approvazione?**
+
+Sì. In Anteprima, i flussi di lavoro di approvazione supportano percorsi paralleli oltre alle fasi sequenziali. Ogni percorso viene eseguito in modo indipendente e contiene uno o più stadi sequenziali, pertanto le revisioni su percorsi diversi possono avvenire contemporaneamente. Puoi configurare fino a 30 percorsi e 100 stadi in una singola approvazione. Le stesse opzioni sono disponibili nei modelli di approvazione. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**

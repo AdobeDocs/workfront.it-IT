@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5e9318366f0dff85591a5d5a752920027f5c9b0e
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 13%
+source-wordcount: 895
+ht-degree: 5%
 
 ---
 
 # Creare un modello di flusso di lavoro di approvazione per i documenti
+
+{{highlighted-preview}}
 
 Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un oggetto.
 >[!IMPORTANT]
@@ -59,9 +61,8 @@ Nell’area Configurazione di Workfront, gli utenti con una licenza Standard pos
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-ß
 
-## Creare un modello di approvazione
+## Creare un modello di approvazione in produzione
 
 {{step-1-to-setup}}
 
@@ -104,6 +105,65 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 1. Fai clic su **Salva**.
 
 Una volta creato, il modello può essere applicato ai documenti nell&#39;area Documenti di un oggetto per avviare il processo formale di revisione e approvazione in Workfront.
+
+<div class="preview">
+
+## Creare un modello di approvazione in Anteprima
+
+La finestra di dialogo del modello di approvazione si apre sempre in modalità Avanzata. Non esiste una modalità di base per i modelli. Puoi configurare fino a 30 percorsi paralleli in un modello, per un totale di 100 stadi. Ogni percorso viene eseguito in modo indipendente e può contenere uno o più stadi sequenziali.
+
+Per creare un modello di approvazione:
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Revisione e approvazione** > **Modelli di approvazione**.
+
+1. Fai clic su **Nuovo modello** sul lato destro della pagina.
+
+1. Aggiungi un **nome modello**.
+
+1. Inserire i dettagli per la fase 1 del percorso 1:
+
+   <table>
+   <tr>
+   <td><strong>Nome fase</strong></td>
+   <td>Le fasi sono denominate <em>Fase 1</em>, <em>Fase 2</em> e così via per impostazione predefinita. Rinomina la fase in modo che sia più descrittiva, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi nomi o e-mail (facoltativo)</strong></td>
+   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. I partecipanti sono facoltativi nei modelli. È possibile aggiungerli quando il modello viene applicato a un documento.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
+   </tr>
+   <tr>
+   <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
+   <td>La prima persona che prende una decisione completa la fase.</td>
+   </tr>
+   <tr>
+   <td><strong>Giorni lavorativi fino alla data di scadenza (facoltativo)</strong></td>
+   <td>Scegliere il numero di giorni lavorativi necessari per il completamento della fase dopo l'apertura. La prima fase di ogni percorso supporta anche una data di scadenza assoluta. Ogni fase successiva del percorso supporta solo una data di scadenza relativa.</td>
+   </tr>
+   <tr>
+   <td><strong>Aggiungi messaggio personalizzato (facoltativo)</strong></td>
+   <td>Digitare un messaggio nella casella di testo <strong>Aggiungi messaggio personalizzato</strong>. Quando il modello viene applicato a un documento, il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni di Workfront.<p>Quando si aggiunge una seconda fase, <strong>Mostra questo messaggio in tutte le fasi</strong> è selezionato per impostazione predefinita. Lascia selezionata questa opzione per utilizzare lo stesso messaggio in ogni fase. Per utilizzare un messaggio diverso per ogni fase, deselezionare <strong>Mostra il messaggio in tutte le fasi</strong>, quindi digitare il messaggio specifico per la fase nella casella di testo <strong>Aggiungi messaggio personalizzato</strong> di ogni fase.</p></td>
+   </tr>
+   </table>
+
+   ![aggiungi una fase](assets/add-stage.png)
+
+1. (Facoltativo) Fai clic su **Aggiungi fase** per aggiungere un&#39;altra fase al percorso. Le fasi di un percorso vengono eseguite in sequenza nell&#39;ordine in cui sono elencate. Quando vengono prese tutte le decisioni necessarie in una fase, inizia la fase successiva di quel percorso e la fase precedente viene bloccata. È possibile riordinare gli stadi all&#39;interno di un tracciato, ma non è possibile spostare uno stadio da un tracciato all&#39;altro. Ogni percorso può avere un numero diverso di stadi.
+
+1. (Facoltativo) In **Percorsi paralleli**, fai clic su **Aggiungi percorso** per aggiungere un altro percorso. Il nuovo percorso inizia con una fase vuota e diventa il percorso selezionato. Impossibile riordinare i percorsi.
+
+   ![aggiungi percorsi paralleli](assets/add-path.png)
+
+1. (Facoltativo) Per rinominare un percorso, passa il cursore sull’etichetta del percorso, fai clic sull’icona della matita, quindi digita un nuovo nome. Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. **Il percorso 1** non può essere rimosso e gli altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.
+
+1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare da capo, fai clic su **Reimposta** in alto a destra.
+
+1. Fai clic su **Salva**.
+
+Una volta creato, il modello può essere applicato ai documenti nell&#39;area Documenti di un oggetto per avviare il processo formale di revisione e approvazione in Workfront.
+
+</div>
 
 
 
