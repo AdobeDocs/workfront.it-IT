@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
 workflow-type: tm+mt
 source-wordcount: 711
 ht-degree: 4%
@@ -139,5 +139,3 @@ Se la password è gestita da [!DNL Adobe], è possibile modificarla nell&#39;acc
 [Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/it/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Per ulteriori informazioni sulla modifica della password, contattare l&#39;amministratore.
-
-
