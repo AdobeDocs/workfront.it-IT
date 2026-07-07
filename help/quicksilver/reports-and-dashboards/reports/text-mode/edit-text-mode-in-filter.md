@@ -9,17 +9,11 @@ exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/WQpqpUKMkGJRmYkVUhVP4SP2NfTfJMvgMFG-r97CmoM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5c41388d904b9d9bb7fba7302e9356fe8771fd06
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7340868a00ca643c5eb537d242eaf9f805efe927
 workflow-type: tm+mt
 source-wordcount: 1047
 ht-degree: 7%
@@ -191,6 +185,11 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
+
+
+1. Fai clic su **Applica** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
+1. Fai clic su **Salva + Chiudi** per salvare il rapporto oppure su **Salva filtro** per salvare il filtro nell&#39;elenco.
+
 <!--
 
 If this text is needed for July 7 release, add the snippet at the top of the article!
@@ -204,8 +203,3 @@ If this text is needed for July 7 release, add the snippet at the top of the art
    For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
 
 -->
-
-1. Fai clic su **Applica** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il report o il filtro.
-1. Fai clic su **Salva + Chiudi** per salvare il rapporto oppure su **Salva filtro** per salvare il filtro nell&#39;elenco.
-
-
