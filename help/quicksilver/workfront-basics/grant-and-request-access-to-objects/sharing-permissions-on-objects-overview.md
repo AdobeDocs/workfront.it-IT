@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 4%
 
 ---
@@ -165,7 +165,7 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Rendi visibile a livello di sistema</strong></td> 
-   <td> <p>L’oggetto si trova nelle ricerche e viene visualizzato dagli utenti con un account Workfront.</p><p><b>Nota</b>: gli utenti con licenze Collaboratore o Richiedente non possono visualizzare i progetti, anche se questa impostazione è abilitata. </td> 
+   <td> <p>L’oggetto si trova nelle ricerche e viene visualizzato dagli utenti con un account Workfront.</p><p><b>NOTA</b>: gli utenti con licenze Collaboratore o Richiedente non possono visualizzare progetti, filtri, visualizzazioni, raggruppamenti o oggetti condivisi a livello di sistema, anche se questa impostazione è abilitata. È possibile condividere questi oggetti con i collaboratori o i richiedenti singolarmente per consentire loro di visualizzarli. </td> 
   </tr> 
  </tbody> 
 </table>

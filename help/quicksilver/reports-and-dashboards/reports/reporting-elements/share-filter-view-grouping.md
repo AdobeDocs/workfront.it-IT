@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 8%
+source-wordcount: 1245
+ht-degree: 7%
 
 ---
 
@@ -123,7 +123,12 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
    </tr>
    <tr>
    <td role="rowheader"><strong>Condivisi con me</strong></td>
-   <td>Filtri creati e condivisi da altri utenti con te o condivisi a livello di sistema.</td>
+   <td>Filtri creati e condivisi da altri utenti con te o condivisi a livello di sistema.
+   <p><b>NOTA</b></p>
+   <p>Gli utenti con una licenza Collaboratore, Richiedente o Esterno non possono visualizzare filtri, visualizzazioni o raggruppamenti condivisi a livello di sistema. Per renderne disponibile uno a questi utenti, condividerlo direttamente con loro tramite l’utente, la mansione, il team, il gruppo o l’azienda, anziché affidarsi alla visibilità a livello di sistema. Ciò si applica anche quando il filtro, la visualizzazione o il raggruppamento è incluso nel modello di layout.</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>
