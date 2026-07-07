@@ -7,21 +7,25 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: 362
 ht-degree: 1%
 
 ---
 
 # Panoramica dei breadcrumb
 
+{{highlighted-preview}}
+
 Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto. Ogni oggetto nel percorso della breadcrumb ha un’etichetta che visualizza il tipo di oggetto. La pagina su cui ti trovi attualmente viene visualizzata sia nell’intestazione della pagina che alla fine del percorso della breadcrumb in corsivo. Nell&#39;esempio seguente, questa è l&#39;attività &quot;[!UICONTROL Condividi con Brand Team]&quot;.
 
+<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+![Breadcrumb compresso](assets/collapsed-breadcrumb-2026.png)
+
+Immagine di esempio nell’ambiente di produzione:
 ![Breadcrumb compresso](assets/NWE-collapsed-breadcrumb.png)
 
 Se nel percorso delle breadcrumb sono presenti troppi oggetti o la larghezza dello schermo non consente la visualizzazione dell&#39;intera gerarchia di navigazione, il percorso comprime alcuni dei breadcrumb e raggruppa tali oggetti all&#39;inizio del percorso delle breadcrumb. Sia il progetto che la pagina oggetto corrente sono sempre visibili nel percorso della breadcrumb.
@@ -30,6 +34,10 @@ Ad esempio, &quot;3 more&quot; nell’immagine precedente indica che 3 oggetti n
 
 Facendo clic su &quot;[!UICONTROL altro]&quot; è possibile espandere la gerarchia completa. Puoi fare clic su &quot;[!UICONTROL Meno]&quot; per comprimere nuovamente il percorso delle breadcrumb.
 
+<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+![Breadcrumb compresso](assets/expanded-breadcrumb-2026.png)
+
+Immagine di esempio nell’ambiente di produzione:
 ![Breadcrumb espanso](assets/NWE-expanded-breadcrumb.png)
 
 Per spostarsi tra le breadcrumb, è inoltre possibile utilizzare i tasti seguenti:
@@ -82,3 +90,5 @@ Per informazioni sugli oggetti padre in [!DNL Workfront], vedere [Informazioni s
 1. Fai clic su un oggetto nel percorso della breadcrumb per accedervi.
 
    Viene visualizzata la pagina oggetto.
+
+   Se si sta esaminando un progetto connesso a un oggetto in Workfront Planning, ad esempio una campagna, è possibile passare dal tipo di oggetto Planning a quello di Workfront dalla breadcrumb. Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).

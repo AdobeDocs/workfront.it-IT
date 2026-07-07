@@ -6,22 +6,20 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 9%
+source-wordcount: 531
+ht-degree: 7%
 
 ---
 
 # Fissare le pagine per personalizzare l’area di lavoro
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +60,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nell&#39;angolo superiore sinistro della pagina fare clic su **[!UICONTROL Aggiungi pagina corrente]**. La pagina bloccata è ora accessibile dalla parte superiore di qualsiasi pagina in [!DNL Workfront].
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:
+   ![Inserisci puntina alla pagina corrente](assets/pin-current-page-button-2026.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Inserisci puntina alla pagina corrente](assets/pin-current-page-button.png)
 
 ## Accedere a una pagina bloccata
@@ -76,9 +78,32 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Se hai fissato molte pagine, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Fai clic sull&#39;icona Altro](assets/more-icon.png) per visualizzare altre pagine fissate.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:
+   ![Inserisci puntina alla pagina corrente](assets/display-pinned-pages-2026.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Visualizza altre pagine bloccate](assets/display-pinned-pages.png)
 
    Viene visualizzata la pagina bloccata.
+
+<div class="preview">
+
+## Gestisci pin
+
+È possibile rinominare, riordinare e rimuovere le pagine bloccate in un&#39;unica posizione.
+
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Fai clic sull&#39;icona Altro](assets/more-icon.png) nella riga dei pin e seleziona **Gestisci pin**.
+1. Nella casella **Gestisci pin** eseguire una o più delle operazioni seguenti:
+
+   * Fai clic sull&#39;icona **Modifica** per rinominare una pagina bloccata. Digita il nuovo nome e fai clic sull’icona del segno di spunta per confermare.
+   * Trascinare e rilasciare le pagine bloccate nell&#39;ordine in cui si desidera visualizzarle.
+   * Fai clic sull&#39;icona **Elimina** per rimuovere una pagina bloccata dall&#39;elenco.
+
+   ![Gestione casella pin](assets/manage-pins.png)
+
+1. Fai clic su **Chiudi** al termine della modifica dei pin.
+
+</div>
 
 ## Rinominare una pagina bloccata
 
@@ -90,7 +115,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Digita il nuovo nome del pin, quindi fai clic su **Salva**.
 
    ![Fare clic sul segno di spunta per rinominare il pin](assets/rename-pin-dialog-box.png)
-
 
 ## Riordinare le pagine bloccate
 

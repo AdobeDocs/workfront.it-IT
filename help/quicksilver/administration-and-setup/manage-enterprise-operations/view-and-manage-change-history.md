@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Modifica cronologia
-description: La cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront
-author: Becky
+description: La cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 7%
+source-wordcount: '452'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 7%
 
 Puoi visualizzare la cronologia delle modifiche, inclusi i registri di audit, nell’area Tracciamento delle modifiche di Configurazione.
 
-* **I registri di controllo** sono modifiche attivate dagli utenti.
-Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.
-La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+* **I registri di controllo** sono modifiche attivate dagli utenti.Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
 * Elenco cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
 
    * Oggetto
@@ -39,7 +37,7 @@ La configurazione è attualmente disponibile solo come informazione e non può e
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] pacchetto</td> 
-   <td>Flusso di lavoro Ultimate</td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licenza</td> 

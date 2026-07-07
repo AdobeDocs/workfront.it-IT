@@ -7,24 +7,22 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
 TQID: https://experienceleague.adobe.com/JSuh2kxo-6XXc9DZVH15O6S4gOB8oPUKhRP7O9MYqeA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 381
 ht-degree: 0%
 
 ---
 
 # Comprendere la navigazione per un utente con licenza [!UICONTROL Light]
 
-Il [!UICONTROL menu principale] cambia con il livello di accesso che ti è stato assegnato dall&#39;amministratore [!DNL Adobe Workfront]. Per impostazione predefinita, puoi accedere solo alle aree che includono le funzionalità consentite dal tuo livello di accesso. Per informazioni sui componenti del layout predefinito di ogni livello di accesso, vedere [Informazioni sul layout predefinito [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+{{highlighted-preview}}
+
+Il [!UICONTROL menu principale] cambia con il livello di accesso che ti è stato assegnato dall&#39;amministratore [!DNL Adobe Workfront]. Per impostazione predefinita, puoi accedere solo alle aree che includono le funzionalità consentite dal tuo livello di accesso. Per informazioni sui componenti del layout predefinito di ogni livello di accesso, vedere [Informazioni sul layout predefinito [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprendere il [!UICONTROL menu principale] predefinito di un [!UICONTROL utente Light]
 
@@ -43,6 +41,10 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL utente Li
 * **[!UICONTROL Bacheche]**: puoi lavorare con flessibilità e collaborazione con i membri del tuo team utilizzando bacheche condivise contenenti colonne e schede che riflettono il lavoro che desideri eseguire. Per informazioni, vedere [Introduzione alle bacheche: indice articolo](../../../agile/get-started-with-boards/get-started-with-boards.md).
 * **[!UICONTROL Priorità]**: puoi gestire e assegnare priorità al lavoro rapidamente. Per informazioni, vedere [Introduzione alle priorità](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
+<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+![Menu principale predefinito dell&#39;utente Light](assets/light-user-main-menu-2026.png)
+
+Immagine di esempio nell’ambiente di produzione:
 ![Menu principale predefinito dell&#39;utente Light](assets/light-user-main-menu.png)
 
 ## Personalizza il [!UICONTROL menu principale] predefinito
