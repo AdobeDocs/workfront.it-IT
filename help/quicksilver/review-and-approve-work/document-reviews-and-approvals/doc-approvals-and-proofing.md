@@ -9,20 +9,19 @@ exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 955
-ht-degree: 2%
+source-wordcount: 1236
+ht-degree: 1%
 
 ---
 
 # Utilizzare insieme approvazioni unificate e bozze
+
+{{highlighted-preview}}
 
 Approvazioni unificate in Workfront introduce una nuova serie di funzioni per facilitare la revisione e l’approvazione dei documenti. È possibile utilizzare un flusso di lavoro Approvazioni unificate con il visualizzatore di bozze esistente per aggiungere commenti e markup ai documenti in revisione.
 
@@ -35,8 +34,7 @@ Esistono alcune differenze chiave nel flusso di lavoro quando si utilizzano insi
 ## Caricare un documento e creare una bozza
 
 1. Passare al progetto, all&#39;attività o al problema in cui si desidera aggiungere un nuovo documento.
-1. Fai clic sulla scheda **Documenti**, quindi sul menu a discesa **Aggiungi nuovo**.
-Oppure
+1. Fai clic sulla scheda **Documenti**, quindi sul menu a discesa **Aggiungi nuovo**.Oppure
 Trascinare il documento nell&#39;elenco dei documenti.
 
    >[!NOTE]
@@ -47,7 +45,7 @@ Trascinare il documento nell&#39;elenco dei documenti.
 
 Gli utenti assegnati come partecipanti possono utilizzare il visualizzatore di bozze per aggiungere commenti e markup al documento. Passare alla sezione successiva per scoprire come aggiungere partecipanti di revisione.
 
-## Aprire il documento Riepilogo e assegnare i partecipanti
+## Apri il documento Riepilogo e assegna i partecipanti in produzione
 
 È possibile assegnare revisori, approvatori o una combinazione di entrambi:
 
@@ -93,8 +91,27 @@ Per assegnare i partecipanti:
 
 1. Dopo aver aggiunto tutti i revisori e gli approvatori, fai clic su **Richiedi approvazioni**. I partecipanti vengono informati via e-mail.
 
+<div class="preview">
 
-## Crea una nuova versione in base alle esigenze
+## Aprire il documento Riepilogo e assegnare i partecipanti in Anteprima
+
+Per impostazione predefinita, la finestra di dialogo Richiedi approvazione si apre in modalità Base per l’approvazione in una sola fase. Passa alla modalità avanzata per configurare approvazioni in più fasi o percorsi paralleli.
+
+Per assegnare i partecipanti:
+
+1. Seleziona il documento caricato e apri il Riepilogo del documento.
+
+   ![Apri riepilogo documenti](assets/open-doc-summary.png)
+
+1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
+
+1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Fai clic su **Richiedi approvazione**. I partecipanti vengono informati via e-mail.
+
+</div>
+
+## Crea una nuova versione in base alle esigenze in Produzione
 
 Se hai bisogno di un altro ciclo di revisione e approvazione, puoi creare una nuova versione della bozza e aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nel Riepilogo del documento.
 
@@ -141,7 +158,31 @@ Per aggiungere una nuova versione:
 
 1. Dopo aver aggiunto tutti i revisori e gli approvatori, fai clic su **Richiedi approvazioni**. I partecipanti vengono informati via e-mail.
 
+<div class="preview">
 
+## Crea una nuova versione in base alle esigenze in Anteprima
+
+Se hai bisogno di un altro ciclo di revisione e approvazione, puoi creare una nuova versione della bozza e aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nel Riepilogo del documento.
+
+Per impostazione predefinita, la finestra di dialogo Richiedi approvazione si apre in modalità Base per l’approvazione in una sola fase. Passa alla modalità avanzata per configurare approvazioni in più fasi o percorsi paralleli.
+
+Per aggiungere una nuova versione:
+
+1. Trascinare e rilasciare il nuovo file sopra il documento precedente in Workfront. Workfront crea automaticamente una nuova versione.
+
+1. Al termine del caricamento del documento, selezionarlo e fare clic su **Crea bozza** > **Bozza semplice**.
+
+1. Selezionare nuovamente il documento, quindi aprire il documento Riepilogo.
+
+   ![Apri riepilogo documenti](assets/open-doc-summary.png)
+
+1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
+
+1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Fai clic su **Richiedi approvazione**. I partecipanti vengono informati via e-mail.
+
+</div>
 
 ## Verifica la bozza e prendi una decisione
 

@@ -9,25 +9,21 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 9%
+source-wordcount: 1196
+ht-degree: 5%
 
 ---
 
 # Caricare una nuova versione del documento e richiedere un’approvazione
+
+{{highlighted-preview}}
 
 Se un documento è contrassegnato come &quot;Da lavorare&quot; in una revisione precedente, è possibile caricare una nuova versione nel documento originale e avviare un altro ciclo di approvazioni. Dopo aver caricato una nuova versione del documento, le versioni precedenti vengono bloccate.
 
@@ -76,7 +72,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 
 
-## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy
+## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy in Produzione
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -95,7 +91,6 @@ Per aggiungere una nuova versione:
 1. Trascinare il nuovo file sopra il documento precedente. Viene creata automaticamente una nuova versione.
 
 1. Al termine del caricamento del documento, selezionare il documento per aprire il pannello Riepilogo documento. Qui puoi vedere il numero di versione nella parte superiore del pannello.
-   ![Aprire la pagina dei dettagli del documento](assets/open-doc-details.png)
 
 
 1. Scorri verso il basso fino alla sezione **Approvazioni**.
@@ -141,5 +136,69 @@ Per aggiungere una nuova versione:
 
    Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
 
-   ![richiede l&#39;approvazione](assets/request-approval.png)
+   ![richiedi approvazione
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy in Anteprima
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Il trascinamento della selezione non funziona con Internet Explorer.
+
+Se è necessario eseguire un altro ciclo di revisione e approvazione su un documento, è possibile creare una nuova versione del documento in Workfront. È possibile aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nella pagina Dettagli documento.
+
+Per impostazione predefinita, la finestra di dialogo Richiedi approvazione si apre in modalità Base per l’approvazione in una sola fase. Passa alla modalità avanzata per configurare approvazioni in più fasi o percorsi paralleli.
+
+Per aggiungere una nuova versione e richiedere l’approvazione:
+
+1. Passare al documento in Workfront.
+
+1. Trascinare il nuovo file sopra il documento precedente. Workfront crea automaticamente una nuova versione.
+
+1. Al termine del caricamento del documento, selezionare il documento per aprire il pannello Riepilogo documento. Il numero di versione viene visualizzato nella parte superiore del pannello.
+
+1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
+
+1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Fai clic su **Richiedi approvazione**.
+
+   Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
+
+## Trascinare la selezione per aggiungere una nuova versione nell&#39;area Nuovi documenti di Anteprima
+
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Il trascinamento della selezione non funziona con Internet Explorer.
+
+Se è necessario eseguire un altro ciclo di revisione e approvazione su un documento, è possibile creare una nuova versione del documento in Workfront. È possibile aggiungere un flusso di lavoro di approvazione alla nuova versione del documento.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+Per impostazione predefinita, la finestra di dialogo Richiedi approvazione si apre in modalità Base per l’approvazione in una sola fase. Passa alla modalità avanzata per configurare approvazioni in più fasi o percorsi paralleli.
+
+Per aggiungere una nuova versione e richiedere l’approvazione:
+
+1. Passare al documento in Workfront.
+
+1. Trascinare il nuovo file sopra il documento precedente. Workfront crea automaticamente una nuova versione.
+
+1. Al termine del caricamento del documento, selezionare il documento per aprire il pannello Riepilogo. La versione più recente del documento è selezionata per impostazione predefinita.
+
+1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
+
+1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Fai clic su **Richiedi approvazione**.
+
+   Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
+
+</div>
