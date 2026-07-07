@@ -10,21 +10,14 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 25%
+source-wordcount: 566
+ht-degree: 23%
 
 ---
 
@@ -108,7 +101,7 @@ Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati ne
 * Rapporti di Workfront Planning
 * FILTRO AND/OR
 * Formattazione condizionale di righe e colonne di tabella
-* Configurazione del drill-down per i rapporti KPI (Key Performance Indicator) e Grafico
+* Configurazione del drill-down per i rapporti KPI e Grafico
 * Raggruppamento dei risultati della tabella
 * Filtri a livello di dashboard e filtri di sovrapposizione applicati dall’utente
 * Configurazione Esegui come utente per i rapporti
@@ -116,12 +109,16 @@ Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati ne
 
 ### Funzioni in fase di sviluppo
 
+Attualmente, in un approccio iterativo, stiamo rendendo disponibili le seguenti funzioni in Canvas Dashboard:
+
 * Tipi di oggetto Workfront aggiuntivi
 * Miglioramenti a livello di usabilità
 * Includere le visualizzazioni di Workfront Planning come blocco di report in un dashboard
 * Utilizzo di un dashboard come vista di Workfront Planning
 * Supporto esteso ai clienti Azure e GCP
 * Ottimizzazione delle prestazioni
+
+Per informazioni sulle funzionalità aggiunte al dashboard di Canvas, vedere [Versioni dei prodotti](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ### Funzioni future della roadmap
 

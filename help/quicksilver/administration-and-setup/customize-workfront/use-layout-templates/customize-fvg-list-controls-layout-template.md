@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 822
 ht-degree: 4%
 
 ---
@@ -69,6 +63,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 ## Personalizzare i controlli Filtro, Visualizza e Raggruppamento
+
+
+>[!NOTE]
+>
+>L&#39;aggiunta di una visualizzazione, di un filtro o di un raggruppamento a un modello di layout controlla solo il layout e non consente l&#39;accesso. Gli utenti devono comunque poter accedere alla visualizzazione di ogni elemento.
+>
+>Gli utenti con licenza Collaboratore, Richiedente ed Esterno non possono visualizzare gli elementi condivisi a livello di sistema, pertanto le visualizzazioni ad essi destinate devono essere condivise in modo esplicito. Per informazioni, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Fai clic sulla freccia giù ![freccia giù](assets/down-arrow-blue.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Elenchi** nel menu a discesa visualizzato.

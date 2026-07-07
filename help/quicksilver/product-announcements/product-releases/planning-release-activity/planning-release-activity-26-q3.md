@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2848'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del terzo trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Controllo automatico dell&#39;accesso per Workfront Planning in Snowflake
+
+>[!IMPORTANT]
+>
+>Anteprima e produzione per tutti i clienti: 16 luglio 2026Fuori pianificazione]{type=Neutral}
+
+
+Questa versione introduce la gestione degli accessi automatizzata e basata sui diritti per i dati di Workfront Planning in Snowflake come parte di Workfront Data Connect.
+
+Si inizia estendendo la generazione di viste sicure alle tabelle di Planning che stabiliscono le basi necessarie per il controllo degli accessi a valle e rendendo possibili le sovvenzioni basate sui diritti.
+
+Sulla base di questo, il provisioning dell’account di lettura ora controlla i diritti TMS al momento della creazione e applica automaticamente o trattiene le sovvenzioni al database Planning, garantendo la correttezza.
+
+Prima di questo miglioramento, questo era disponibile solo per Workfront.
+
+L’aggiornamento include le seguenti funzionalità:
+
+* Un processo giornaliero automatizzato rileva le modifiche di adesione per i clienti esistenti
+* I nuovi job concedono, revocano o conservano l&#39;accesso in base ai diritti
+* Copertura completa del ciclo di vita per provisioning, creazione di account e modifiche continue dei diritti.
+
+L&#39;articolo del dizionario dati [Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) verrà aggiornato dopo la data di rilascio.
 
 
 ## Impostare le autorizzazioni predefinite per i record
@@ -132,7 +155,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 5 giugno 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing.Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 5 giugno 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing.Fuori pianificazione]{type=Neutral}
 
 
 Per consentire l’aggiunta di brand alle campagne a partire dall’invio di una richiesta, ora puoi aggiungere il campo record Brands connected a un modulo di richiesta Planning.
@@ -158,7 +181,7 @@ Per informazioni, vedere [Panoramica delle aree di lavoro](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Disponibile per tutti i clienti: 28 maggio 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Disponibile per tutti i clienti: 28 maggio 2026Fuori pianificazione]{type=Neutral}
 
 È ora disponibile la versione 2 dell&#39;API di pianificazione di Workfront, che estende in modo significativo le funzionalità della versione 1.
 
@@ -228,7 +251,7 @@ Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra ar
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026In Beta&rbrack;{type=Neutral}
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026In Beta]{type=Neutral}
 
 Ora puoi utilizzare Adobe Planning Designer basato sull’intelligenza artificiale per configurare facilmente le aree di lavoro e le strutture di dati. Il Designer di Planning supporta tutte le operazioni, dalla creazione e configurazione delle aree di lavoro alla definizione di campi e formule, alla gestione dei record, alla revisione della cronologia delle modifiche e alla creazione di viste personalizzate.
 
@@ -243,7 +266,7 @@ Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/he
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione]{type=Neutral}
 
 Per migliorare l’integrità dei dati, è stata rilasciata una sincronizzazione perfetta dei metadati tra i tipi di record di GenStudio for Performance Marketing e AEM Assets quando AEM Assets è collegato ai tipi di record di GenStudio in Workfront Planning.
 
@@ -259,7 +282,7 @@ Per informazioni, vedere [Gestire l&#39;area di lavoro di GenStudio in Adobe Wor
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione]{type=Neutral}
 
 Per migliorare l’integrità dei dati, è stata rilasciata una sincronizzazione perfetta dei metadati tra i tipi di record di Planning nell’area di lavoro GenStudio e i frammenti di contenuto di AEM quando questi sono collegati alle campagne GenStudio for Performance Marketing.
 
@@ -353,7 +376,7 @@ Per ulteriori informazioni, vedere [Inviare le richieste di Adobe Workfront Plan
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 14 maggio 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 14 maggio 2026Fuori pianificazione]{type=Neutral}
 
 Per una migliore visibilità durante l’utilizzo dei frammenti di contenuto di AEM connessi ai record di Workfront Planning, è stata aggiunta una finestra di anteprima che visualizza informazioni sui frammenti in Workfront Planning.
 
@@ -365,7 +388,7 @@ Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/co
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 14 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 14 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe Experience Manager.Fuori pianificazione]{type=Neutral}
 
 Ora è possibile aggiungere i seguenti campi di ricerca quando si collega un tipo di record Planning a un frammento di contenuto di AEM:
 
