@@ -56,7 +56,7 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione]{type=Neutral}
+>Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.
 

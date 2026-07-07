@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 16 luglio 2026Fuori pianificazione]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 16 luglio 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Questa versione introduce la gestione degli accessi automatizzata e basata sui diritti per i dati di Workfront Planning in Snowflake come parte di Workfront Data Connect.
 Si inizia estendendo la generazione di viste sicure alle tabelle di Planning che stabiliscono le basi necessarie per il controllo degli accessi a valle e rendendo possibili le sovvenzioni basate sui diritti.Sulla base di questo, il provisioning dell’account di lettura ora controlla i diritti TMS al momento della creazione e applica automaticamente o trattiene le sovvenzioni al database Planning, garantendo la correttezza.
@@ -38,7 +38,7 @@ L&#39;articolo del dizionario dati [Workfront Data Connect](/help/quicksilver/re
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 7 luglio 2026Fuori pianificazione]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 7 luglio 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Durante il secondo trimestre del 2026 sono stati aggiunti nuovi oggetti per supportare i miglioramenti delle operazioni aziendali in Workfront.Con la versione corrente, verrà aggiunto anche il supporto per dati personalizzati per diversi nuovi oggetti nel dashboard di Canvas.
 
