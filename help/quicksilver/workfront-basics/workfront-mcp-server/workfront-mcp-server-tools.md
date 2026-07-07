@@ -5,7 +5,7 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
+source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 5%
@@ -95,6 +95,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ricordare alle parti interessate le approvazioni in blocco | `approvals_send_approval_reminder` | Invia e-mail di promemoria per l’approvazione a tutti gli approvatori in sospeso in un intero progetto, cartella, campagna o finestra di scadenza. | Scrittura |
 | Aggiornare i modelli di approvazione in blocco | `approvals_update_template` | Eseguire aggiornamenti dei modelli a più modelli, ad esempio applicare modelli alle risorse, creare nuovi modelli da zero o da flussi di approvazione esistenti, modificare modelli ed eseguire operazioni in blocco tra modelli e risorse. | Scrittura |
 | Aggiungere o rimuovere in blocco i partecipanti all&#39;approvazione. | `approvals_update_approval_participants` e `approvals__submit_update_approval_participants` | Aggiungere, rimuovere o sostituire i partecipanti in un intero portfolio, programma o ambito di progetto in un&#39;unica operazione. | Scrittura |
+
 
 ### Ricerche e utenti
 

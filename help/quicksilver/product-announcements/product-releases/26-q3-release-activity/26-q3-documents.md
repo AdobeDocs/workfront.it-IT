@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,30 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## I percorsi di approvazione paralleli sono ora disponibili per le approvazioni unificate
+
+>[!NOTE]
+>
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+
+I flussi di lavoro di approvazione per i documenti ora supportano percorsi paralleli, consentendo ai team di eseguire più tracce di revisione indipendenti contemporaneamente. Con i percorsi paralleli, puoi:
+
+* Configurare fino a 30 percorsi paralleli e 100 fasi in un’unica approvazione
+* Esecuzione di analisi delle tracce in modo indipendente e in parallelo, con fasi sequenziali all&#39;interno di ogni percorso
+* Passare da una modalità semplificata di base per le approvazioni a fase singola a una modalità avanzata per i flussi di lavoro a più fasi e a percorsi multipli
+* Applica la stessa configurazione a percorso parallelo ai modelli di approvazione riutilizzabili da Installazione di Workfront
+
+Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: June 26, 2026
->Production for everyone: June 26, 2026
+>Production fast release: July 7, 2026
+>Production for everyone: July 7, 2026
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -33,13 +49,14 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 -->
 
 ## Richiedere l’approvazione per i modelli Adobe Express con Workfront e Frame.io
 
 >[!NOTE]
 >
->Anteprima: N/A>Rilascio rapido produzione: 15 giugno 2026>Produzione per tutti: 15 giugno 2026>[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione]{type=Neutral}
 
 L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.
 
@@ -54,11 +71,11 @@ Con questa integrazione, puoi:
 
 Per ulteriori informazioni, vedere [Introduzione ad Adobe Express e Workfront con l&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
-## Stampa riepilogo documenti nella nuova area Documenti
+## Stampa del riepilogo dei documenti nella nuova area Documenti
 
 >[!NOTE]
 >
->Anteprima: 2 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 2 giugno 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile aprire un riepilogo stampabile dell&#39;approvazione di un documento direttamente dalla nuova area Documenti. Questa funzione è disponibile per le organizzazioni che utilizzano l’archiviazione cloud Adobe.
 
@@ -71,7 +88,7 @@ Per ulteriori informazioni, vedere [Panoramica dei dettagli del documento](/help
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile aggiungere un messaggio personalizzato a ogni fase del flusso di lavoro di approvazione di un documento. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront.
 
@@ -87,7 +104,7 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: 14 maggio 2026>Versione rapida di produzione: 14 maggio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 14 maggio 2026Versione rapida di produzione: 14 maggio 2026Produzione per tutti: 16 luglio 2026
 
 Le risorse collegate nell’area Documenti ora visualizzano i badge di stato che forniscono ai team visibilità immediata sulla posizione di ogni risorsa senza uscire da Workfront. Assets può mostrare:
 
@@ -102,7 +119,7 @@ Per ulteriori informazioni sugli stati di approvazione, vedere [Introduzione a r
 
 >[!NOTE]
 >
->Anteprima: 30 aprile 2026>Rilascio rapido produzione: 14 maggio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 30 aprile 2026Versione rapida di produzione: 14 maggio 2026Produzione per tutti: 16 luglio 2026
 
 La pagina Informazioni cliente in Configurazione ora include una nuova sezione Panoramica archiviazione con contatori di utilizzo per l’archiviazione cloud Adobe.
 
