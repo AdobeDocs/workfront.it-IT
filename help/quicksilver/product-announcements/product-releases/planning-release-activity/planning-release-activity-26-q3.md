@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 0%
+source-wordcount: '2681'
+ht-degree: 4%
 
 ---
 
@@ -30,11 +30,44 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Impostare le autorizzazioni predefinite per i record
+
+>[!NOTE]
+>
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+
+I responsabili di Workspace possono ora impostare una regola di autorizzazione predefinita, aperta o limitata, per ogni tipo di record, in modo che i record appena creati vengano automaticamente protetti senza passaggi manuali.
+
+Quando si seleziona Limitato, solo il creatore del record e tutti gli utenti, i gruppi, i team, i ruoli o le aziende specificamente selezionati possono modificare il record, mentre tutti gli altri utenti mantengono l&#39;accesso in sola visualizzazione.
+
+Questa regola si applica automaticamente ai nuovi record, indipendentemente dalla modalità di creazione del record (pulsante Nuovo record, moduli di richiesta, API, utilizzo di un’automazione Fusion o Assistente IA). Le modifiche apportate alla regola interessano solo i record creati in futuro, mai quelli esistenti.
+
+Una volta creato un record, le relative autorizzazioni possono ancora essere aggiornate in modo indipendente senza influire sulla regola predefinita per i record futuri.
+
+Per informazioni, vedere [Impostare le autorizzazioni predefinite per i record](/help/quicksilver/planning/access/set-default-record-permissions.md).
+
+## Layout di raggruppamento corsia per la visualizzazione della timeline
+
+>[!NOTE]
+>
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+
+Le visualizzazioni della timeline che sono raggruppate ora supportano un layout a corsia scorrevole, con i gruppi visualizzati come colonna di intestazione sinistra bloccata invece che come bande orizzontali scorrevoli. Questo tipo di raggruppamento è aggiuntivo rispetto al raggruppamento in pila corrente.
+
+I livelli di raggruppamento nidificati vengono visualizzati come colonne secondarie rientrate e i record all&#39;interno di ogni corsia rimangono sottoimpilati e ordinati.
+
+È possibile trascinare i record nella visualizzazione raggruppata per aggiornare in modo ottimale le informazioni e le date.
+
+Tutti gli utenti che visualizzano la vista possono vedere i raggruppamenti applicati.
+
+Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+
 ## Supporto per i campi di pianificazione della valuta nei dashboard di Canvas
 
 >[!NOTE]
 >
->Anteprima: 25 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 25 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile includere i campi di pianificazione della valuta nei rapporti di tabella, indicatore KPI e grafico nei dashboard di Canvas.
 
@@ -46,7 +79,7 @@ Per informazioni, vedere [Utilizzare i campi di valuta nei dashboard di Canvas](
 
 >[!NOTE]
 >
->Anteprima: 22 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 22 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
 È stato aggiornato l&#39;aspetto del controllo Colori riga nella visualizzazione per tabella.
 
@@ -56,7 +89,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 >[!NOTE]
 >
->Anteprima: 18 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 18 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
 Quando si crea un campo a selezione singola o multipla o un campo di tipo Persone, è ora possibile indicare un valore predefinito per questi campi. I valori predefiniti verranno sempre applicati quando il campo è visibile su un record.
 
@@ -68,7 +101,7 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 11 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
 È stato aggiornato l&#39;aspetto della vista tabella per le seguenti aree in Workfront Planning:
 
@@ -99,8 +132,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 5 giugno 2026>Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing.
->[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 5 giugno 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing.Fuori pianificazione&rbrack;{type=Neutral}
 
 
 Per consentire l’aggiunta di brand alle campagne a partire dall’invio di una richiesta, ora puoi aggiungere il campo record Brands connected a un modulo di richiesta Planning.
@@ -114,7 +146,7 @@ Per informazioni, vedere [Introduzione all&#39;integrazione di Adobe Workfront P
 
 >[!NOTE]
 >
->Anteprima: 1 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 1 giugno 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Nell’area di destinazione di Planning è stata aggiunta la scheda Aree di lavoro di esempio, in cui è possibile visualizzare un esempio di aree di lavoro basate sulle best practice. Le aree di lavoro non sono modificabili. I manager di Workspace possono modificare le viste in aree di lavoro di esempio. La scheda è visibile per gli utenti Standard e Amministratore di sistema.
 
@@ -126,7 +158,7 @@ Per informazioni, vedere [Panoramica delle aree di lavoro](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Disponibile per tutti i clienti: 28 maggio 2026>[!BADGE Sconto pianificato]{type=Neutral}
+>Disponibile per tutti i clienti: 28 maggio 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 È ora disponibile la versione 2 dell&#39;API di pianificazione di Workfront, che estende in modo significativo le funzionalità della versione 1.
 
@@ -153,7 +185,7 @@ Per le specifiche API di Workfront Planning, vedere la documentazione per gli sv
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 
 È ora possibile modificare le autorizzazioni dei singoli record per controllare chi può gestirle all’interno di un tipo di record.
@@ -182,7 +214,7 @@ Per informazioni, vedere [Condividi record](/help/quicksilver/planning/access/sh
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Per ridurre i clic e trovare rapidamente i tipi di record necessari, è stata migliorata l&#39;esperienza per l&#39;aggiunta di record in modo da renderla più rapida e intuitiva quando si aggiungono tipi di record globali a un&#39;altra area di lavoro.
 
@@ -196,7 +228,7 @@ Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra ar
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026>[!BADGE In Beta]{type=Neutral}
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026In Beta&rbrack;{type=Neutral}
 
 Ora puoi utilizzare Adobe Planning Designer basato sull’intelligenza artificiale per configurare facilmente le aree di lavoro e le strutture di dati. Il Designer di Planning supporta tutte le operazioni, dalla creazione e configurazione delle aree di lavoro alla definizione di campi e formule, alla gestione dei record, alla revisione della cronologia delle modifiche e alla creazione di viste personalizzate.
 
@@ -211,8 +243,7 @@ Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/he
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti: 28 maggio 2026>Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.
->[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
 
 Per migliorare l’integrità dei dati, è stata rilasciata una sincronizzazione perfetta dei metadati tra i tipi di record di GenStudio for Performance Marketing e AEM Assets quando AEM Assets è collegato ai tipi di record di GenStudio in Workfront Planning.
 
@@ -228,8 +259,7 @@ Per informazioni, vedere [Gestire l&#39;area di lavoro di GenStudio in Adobe Wor
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti: 28 maggio 2026>Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.
->[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima e produzione per tutti: 28 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe GenStudio for Performance Marketing e Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
 
 Per migliorare l’integrità dei dati, è stata rilasciata una sincronizzazione perfetta dei metadati tra i tipi di record di Planning nell’area di lavoro GenStudio e i frammenti di contenuto di AEM quando questi sono collegati alle campagne GenStudio for Performance Marketing.
 
@@ -244,7 +274,7 @@ Per informazioni, vedere [Gestire l&#39;area di lavoro di GenStudio in Adobe Wor
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Sono stati aggiornati diversi tipi di campo nella vista a elenco per includere la navigazione da tastiera e altri miglioramenti.
 
@@ -270,7 +300,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco in Adobe W
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Versione rapida di produzione: 11 giugno 2026\
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026\
 >Produzione per tutti: 16 luglio 2026
 
 È ora possibile aggiungere campi di riferimento Workfront come campi di ricerca quando si collega un tipo di record Planning a un tipo di oggetto Workfront.
@@ -283,7 +313,7 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile filtrare le informazioni nella vista timeline in base a criteri che corrispondono agli oggetti inclusi nella suddivisione dei record.
 
@@ -295,7 +325,7 @@ Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/plannin
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È stato aggiunto un promemoria per ricordarti che i campi record modificati o eliminati potrebbero influire sui moduli di richiesta che li contengono. Ora potrai rivedere i moduli interessati e assicurarti che le modifiche che desideri apportare ai campi non influiscano sulle informazioni esistenti.
 
@@ -305,7 +335,7 @@ Per informazioni, vedere [Modifica impostazioni campo](/help/quicksilver/plannin
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile modificare le richieste di Planning dopo averle inviate, prima di creare un record dalla richiesta.
 
@@ -323,7 +353,7 @@ Per ulteriori informazioni, vedere [Inviare le richieste di Adobe Workfront Plan
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 14 maggio 2026>[!BADGE Fuori pianificazione]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 14 maggio 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Per una migliore visibilità durante l’utilizzo dei frammenti di contenuto di AEM connessi ai record di Workfront Planning, è stata aggiunta una finestra di anteprima che visualizza informazioni sui frammenti in Workfront Planning.
 
@@ -335,8 +365,7 @@ Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/co
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: 14 maggio 2026>Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe Experience Manager.
->[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 14 maggio 2026Disponibile solo per i clienti Adobe Workfront Planning che dispongono anche di Adobe Experience Manager.Fuori pianificazione&rbrack;{type=Neutral}
 
 Ora è possibile aggiungere i seguenti campi di ricerca quando si collega un tipo di record Planning a un frammento di contenuto di AEM:
 
@@ -355,7 +384,7 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
 >[!NOTE]
 >
->Anteprima: 14 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 14 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Per consentire una migliore flessibilità nella visualizzazione delle informazioni nella pagina dei dettagli di un record, è stata introdotta la possibilità di creare visualizzazioni personalizzate per questa pagina.
 
@@ -370,7 +399,7 @@ Per informazioni, vedere [Gestire la pagina record](/help/quicksilver/planning/r
 >[!NOTE]
 >
 >Anteprima: 14 maggio 2026\
->Velocità di produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Velocità di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 È ora possibile raggruppare le informazioni nella pagina dei record connessi ai progetti di un record in Workfront Planning. Questa funzionalità non esisteva in quest’area prima di questo miglioramento.
 

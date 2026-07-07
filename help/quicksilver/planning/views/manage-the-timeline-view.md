@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 4179
+source-wordcount: 4341
 ht-degree: 3%
 
 ---
@@ -268,7 +268,7 @@ Per gestire una vista timeline:
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)
    * [Raggruppamento](#add-grouping)
-   * [Impostazioni](#edit-the-timeline-view-settings)
+   * &lbrack;Impostazioni
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Aggiungere filtri
@@ -378,12 +378,11 @@ Per aggiungere un filtro a una vista timeline:
 1. Fare clic sugli operatori seguenti a sinistra per indicare come vengono unite e devono essere applicate le condizioni del filtro:
 
    * **AND**: tutte le condizioni specificate devono essere soddisfatte.
-   * **OR**: è necessario soddisfare una delle condizioni specificate.
-Questa è l&#39;opzione predefinita.
+   * **OR**: è necessario soddisfare una delle condizioni specificate.Questa è l&#39;opzione predefinita.
 
 1. (Facoltativo) Aggiungi altri raggruppamenti di filtri e aggiungili da **AND** o da **OR** operatori.
 
-   L’elenco dei record viene filtrato automaticamente in base ai criteri di filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   L’elenco dei record viene filtrato automaticamente in base ai criteri di filtro.  
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
@@ -406,8 +405,7 @@ Questa è l&#39;opzione predefinita.
 Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quanto segue:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
-* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.&lt;!—!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -445,6 +443,17 @@ Per aggiungere un raggruppamento nella vista timeline:
 
 1. Nella casella **Raggruppa record per** trascinare i raggruppamenti nell&#39;ordine corretto.
 
+1. <span class="preview"> Nell&#39;area **Layout** della casella **Raggruppa record per** selezionare una delle opzioni seguenti:</span>
+
+   <div class="preview">
+
+   * **In pila**: i raggruppamenti vengono visualizzati senza una colonna sinistra bloccata e rientrano nella larghezza delle timeline dei relativi elementi.
+
+     ![Raggruppamento in pila nella visualizzazione timeline](assets/stacked-grouping-in-timeline-view.png)
+   * **Corsia**: i raggruppamenti vengono visualizzati con una colonna di intestazione sinistra bloccata che elenca gli elementi raggruppati e i raggruppamenti rientrano nella larghezza della visualizzazione della sequenza temporale.
+
+     ![Raggruppamento corsie nella visualizzazione timeline](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure
@@ -452,6 +461,11 @@ Per aggiungere un raggruppamento nella vista timeline:
    Fare clic su **Cancella tutto** per rimuovere tutti i campi.
 
 1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
+1. (Facoltativo) Trascina gli elementi nella vista timeline per modificarne le date.
+
+   >[!TIP]
+   >
+   >Quando si trascinano record da un raggruppamento all&#39;altro, i campi selezionati nel raggruppamento aggiornano automaticamente i valori dei record spostati.
 1. (Facoltativo) Fai clic su **Impostazioni**, quindi su **Colore** per impostare i raggruppamenti del codice colore. Per ulteriori informazioni, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
 <!-- 
@@ -595,8 +609,7 @@ Quando si suddivide la sequenza temporale dei record in base ai tipi di record c
   Le attività, ad esempio, sono collegate ai progetti in Workfront. La funzione Raggruppamento consente di visualizzare i progetti connessi alle campagne in Planning, ma non i task collegati ai progetti in Workfront.
 
   Se si desidera visualizzare sia i portafogli che i progetti nella visualizzazione della sequenza temporale di un tipo di record di Workfront Planning, è necessario che entrambi siano collegati al record di Planning o a un record connesso al record di Planning di cui si sta gestendo la visualizzazione della sequenza temporale.
-* Non è possibile visualizzare i Marchi Adobe GenStudio connessi ai tipi di record di Planning.
-Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Non è possibile visualizzare i Marchi Adobe GenStudio connessi ai tipi di record di Planning.Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 * È possibile visualizzare solo i tipi di record associati ad almeno due campi data.
 * I campi data per i tipi di record che si desidera visualizzare nella visualizzazione timeline devono essere visibili nella visualizzazione per tabella del tipo di record selezionato, come campi di ricerca.
 * Le date di inizio e di fine dei tipi di record che si desidera visualizzare nella visualizzazione timeline devono essere in ordine cronologico. Ad esempio, se un record ha una data di inizio 31 gennaio e una data di fine 1 gennaio, non viene visualizzato nella visualizzazione della sequenza temporale. Per ulteriori informazioni, vedere la sezione [Gestire una visualizzazione della sequenza temporale](#manage-a-timeline-view) in questo articolo.
