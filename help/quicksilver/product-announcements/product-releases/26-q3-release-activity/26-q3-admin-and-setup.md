@@ -4,10 +4,10 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d83d823426b42202e83cb4db64f85d27d4dca0bb
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 8%
+source-wordcount: '1328'
+ht-degree: 5%
 
 ---
 
@@ -17,111 +17,93 @@ Questa pagina descrive i miglioramenti per gli amministratori apportati con la v
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Rilevamento delle modifiche per revisione e approvazione unificate
+<!--
+
+## Change tracking for unified review and approval
+
+>[!NOTE]
+>
+>Preview: July 7, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+
+Approval, stage, and participant actions are now tracked. These actions may include:
+
+* Making an approval decision in the Frame.io viewer
+* Creating or deleting an approval
+* Updating a document such as renaming, moving, or deleting it
+
+Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+
+This phase of change tracking does not include MCP events. Those will be part of a future release.
+
+For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+-->
+
+## Campo di ricerca interno che sostituisce il tipo di campo automatico
 
 >[!NOTE]
 >
 >Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
-La pagina Cronologia modifiche in Workfront ora acquisisce l’attività tra i flussi di lavoro unificati di revisione e approvazione, fornendo agli amministratori un percorso di governance completo per la revisione e la documentazione degli eventi del ciclo di vita.
+Il nuovo tipo di campo **Ricerca interna** nei moduli personalizzati fornisce un filtro dinamico. È simile al tipo di campo Automatico e consente agli utenti di cercare e selezionare oggetti Workfront esistenti digitando parte del nome. Il filtro della ricerca interna può fare riferimento al valore in un altro campo del modulo, il che non è possibile con Typeaheads.
 
-Ora vengono tracciate le azioni di approvazione, staging e partecipante. Tali azioni possono includere:
+La selezione multipla è supportata nelle ricerche interne e questo tipo di campo offre anche prestazioni migliorate per set di dati di grandi dimensioni. Nelle ricerche interne sono supportati i seguenti oggetti Workfront nativi: Progetto, Società, Gruppo, Ruolo, Portfolio, Programma, Team, Modello, Utente, Attività, Problema, Documento e Posizione.
 
-* Come prendere una decisione di approvazione nel visualizzatore Frame.io
-* Creazione o eliminazione di un’approvazione
-* Aggiornare un documento, ad esempio rinominarlo, spostarlo o eliminarlo
-
-Ogni voce include i campi tracciati standard: data e ora, operazione, nome utente (o &quot;generato dal sistema&quot;) e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi.
-
-Questa fase del rilevamento delle modifiche non include gli eventi MCP. Questi elementi faranno parte di una versione futura.
-
-Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
-<!--
-
-## Internal lookup field replacing Typeahead field type
-
->[!NOTE]
->
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
-
-The new **Internal lookup** field type in custom forms provides dynamic filtering. It is similar to the Typeahead field type and allows users to search and select existing Workfront objects by typing part of the name. The filter on the internal lookup can reference the value in another field on the form, which is not possible with Typeaheads.
-
-Multi-select is supported on internal lookups, and this field type also provides improved performance for large datasets. The following native Workfront objects are supported in internal lookups: Project, Company, Group, Job Role, Portfolio, Program, Team, Template, User, Task, Issue, Document, and Location.
-
-The Internal lookup field type is replacing the Typeahead field type. You can quickly convert existing Typeahead fields to Internal lookups by clicking the button in the field options on the right. When you convert, historical data remains on the field and it is used the same way in reports.
+Il tipo di campo di ricerca interna sta sostituendo il tipo di campo Automatico. Puoi convertire rapidamente i campi Typeahead esistenti in ricerche interne facendo clic sul pulsante nelle opzioni di campo a destra. Quando esegui la conversione, i dati storici rimangono nel campo e vengono utilizzati allo stesso modo nei rapporti.
 
 >[!IMPORTANT]
 >
->External integrations such as Workfront Fusion scenarios or API-based automations may reference legacy field structures and require updates after the conversion. You should verify any integrations before converting Typeahead fields to Internal lookup fields.
+>Le integrazioni esterne, come scenari di Workfront Fusion o automazioni basate su API, possono fare riferimento a strutture di campo legacy e richiedere aggiornamenti dopo la conversione. Prima di convertire i campi Typeahead in campi di ricerca interni, è necessario verificare le integrazioni.
 
-For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
--->
-
-<!--
-
-## Default value logic supported on native reference fields
+## Logica del valore predefinita supportata nei campi di riferimento nativi
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 >
->This feature is only available for organizations on the Workflow Prime or Ultimate packages.
+>Questa funzione è disponibile solo per le organizzazioni nei pacchetti Workflow Prime o Ultimate.
 
-In custom forms, native reference fields now allow you to add default value logic.
+Nei moduli personalizzati, i campi di riferimento nativi ora consentono di aggiungere la logica del valore predefinita.
 
-This logic type on native reference fields is available only in the user interface and not in the Workfront API.
+Questo tipo di logica sui campi di riferimento nativi è disponibile solo nell’interfaccia utente e non nell’API Workfront.
 
-For information, see [Add default value logic to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form) in the article [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Per informazioni, vedere [Aggiungere la logica del valore predefinito a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form) nell&#39;articolo [Aggiungere regole di logica a moduli e campi personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
--->
-
-<!--
-
-## Updates to native field filtering in custom forms
+## Aggiornamenti al filtro dei campi nativo nei moduli personalizzati
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
-System filters that exist on native fields are now applied to the fields in custom forms and are visible to administrators.
+I filtri di sistema esistenti nei campi nativi vengono ora applicati ai campi nei moduli personalizzati e sono visibili agli amministratori.
 
-When you add a native reference field that has a system filter applied, you can apply the same filter to the field in the custom form and modify the filter if needed in the Text Mode box.
+Quando aggiungi un campo di riferimento nativo a cui è applicato un filtro di sistema, puoi applicare lo stesso filtro al campo nel modulo personalizzato e modificarlo, se necessario, nella casella Modalità testo.
 
-Adding your own custom filter to the field overrides the system filter for the field. If you do not enter a custom filter, the system filter is applied by default.
+L’aggiunta di un filtro personalizzato al campo sostituisce il filtro di sistema del campo. Se non si immette un filtro personalizzato, il filtro di sistema viene applicato per impostazione predefinita.
 
-Also, dynamic filtering is now available on native reference fields. A dynamic filter allows you to narrow the list of items based on the value of another field.
+Inoltre, il filtro dinamico è ora disponibile sui campi di riferimento nativi. Un filtro dinamico consente di restringere l’elenco degli elementi in base al valore di un altro campo.
 
-For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
+Se, ad esempio, si utilizza `?portfolioID={portfolio}.{ID}` in un filtro di campi di Project e un campo nativo di Portfolio si trova nel modulo personalizzato, nel campo Project vengono visualizzati solo i progetti inclusi nel portfolio selezionato. Se il campo Portfolio viene lasciato vuoto, tutti i progetti saranno disponibili nel campo Progetto.
 
-For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
--->
-
-<!--
-
-## Protect field names from accidental renaming
+## Proteggere i nomi dei campi dalla ridenominazione accidentale
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
-To protect integrations and data integrity, we've updated how field names can be edited in the field settings panel of a custom form.
+Per proteggere le integrazioni e l’integrità dei dati, è stato aggiornato il modo in cui i nomi dei campi possono essere modificati nel pannello delle impostazioni dei campi di un modulo personalizzato.
 
-Field names in the field settings panel are now read-only by default. You can still edit the field name, but renaming requires an explicit confirmation step. The field previously called **Name** has also been updated to **API Name** to better reflect its technical significance. The **Label** field remains editable.
+I nomi dei campi nel pannello delle impostazioni dei campi ora sono di sola lettura per impostazione predefinita. Puoi comunque modificare il nome del campo, ma la ridenominazione richiede un passaggio di conferma esplicito. Anche il campo precedentemente denominato **Name** è stato aggiornato a **API Name** per rispecchiare meglio il suo significato tecnico. Il campo **Label** rimane modificabile.
 
-For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels).
-
--->
+Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels).
 
 ## Visualizzare la cronologia delle modifiche per gli oggetti Workfront
 
