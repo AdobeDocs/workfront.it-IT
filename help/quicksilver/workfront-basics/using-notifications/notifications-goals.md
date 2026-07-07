@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 12%
+source-wordcount: 425
+ht-degree: 11%
 
 ---
 
@@ -81,7 +81,8 @@ Le notifiche elencate nella tabella seguente ti avvisano di eventi che si verifi
 
 >[!NOTE]
 >
->Le notifiche istantanee per [!DNL Goals] sono disabilitate per impostazione predefinita. Non puoi abilitare o disabilitare le notifiche giornaliere e non ricevi e-mail di riepilogo giornaliero per gli eventi in questa categoria. È possibile abilitare o disabilitare singole notifiche istantanee per la categoria [!DNL Goals].
+>* Le notifiche istantanee per [!DNL Goals] sono disabilitate per impostazione predefinita. Non puoi abilitare o disabilitare le notifiche giornaliere e non ricevi e-mail di riepilogo giornaliero per gli eventi in questa categoria. È possibile abilitare o disabilitare singole notifiche istantanee per la categoria [!DNL Goals].
+>* Puoi comunque ricevere e-mail sugli aggiornamenti degli obiettivi, anche quando non hai accesso agli Obiettivi nel tuo livello di accesso, ma qualcuno ti assegna un obiettivo, un risultato o un’attività o commenti su un obiettivo assegnato a te.
 
 Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-notifications.md).
 

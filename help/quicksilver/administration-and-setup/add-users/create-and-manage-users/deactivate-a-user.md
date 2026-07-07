@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: 1090
 ht-degree: 6%
 
 ---
@@ -132,17 +132,15 @@ Per pianificare la disattivazione di un utente:
 1. Nel pannello a sinistra della casella **Modifica utente**, fare clic su **Pianificazione risorse**.
 1. Fare clic su **Imposta data di disattivazione**.
 
-1. Selezionare la data e l&#39;ora per la **Data disattivazione**.
+1. Selezionare la data per la **Data disattivazione**.
 
    >[!NOTE]
    >
-   >* Nella casella ora è possibile selezionare solo incrementi di un&#39;ora intera, non di minuti.
-   >* Se si seleziona un orario per il giorno corrente che è passato, Workfront pianificherà la disattivazione per il giorno successivo alle ore 00:00.:00
-   >* L&#39;ora selezionata corrisponde al fuso orario del computer dell&#39;utente che sta pianificando la disattivazione.
+   >* La data selezionata corrisponde al fuso orario del computer dell&#39;utente che sta pianificando la disattivazione.
 
 1. Fai clic su **Salva**.
 
-L’utente viene disattivato nel giorno selezionato qualche volta dopo l’ora selezionata. Se hai selezionato più utenti da disattivare in blocco, tutti gli utenti selezionati vengono disattivati nel giorno selezionato qualche volta dopo l’ora selezionata.
+L&#39;utente viene disattivato alle ore 00:00 del mattino della data selezionata. :00Se hai selezionato più utenti da disattivare in blocco, tutti gli utenti selezionati verranno disattivati alle ore 00:00 del mattino nella data selezionata.:00
 
 È consigliabile creare un rapporto per gli utenti per i quali è stata pianificata la disattivazione, in modo da tenere informati i prossimi utenti da disattivare. Non c’è conferma che la disattivazione sia avvenuta dopo la disattivazione degli utenti.
 
