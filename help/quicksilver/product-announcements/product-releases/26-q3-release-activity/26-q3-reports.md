@@ -4,9 +4,9 @@ description: Miglioramenti al reporting per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,38 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nel
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Controllo automatico dell&#39;accesso per Workfront Planning in Snowflake
+
+>[!NOTE]
+>
+>Anteprima e produzione per tutti i clienti: 16 luglio 2026Fuori pianificazione&rbrack;{type=Neutral}
+
+Questa versione introduce la gestione degli accessi automatizzata e basata sui diritti per i dati di Workfront Planning in Snowflake come parte di Workfront Data Connect.
+Si inizia estendendo la generazione di viste sicure alle tabelle di Planning che stabiliscono le basi necessarie per il controllo degli accessi a valle e rendendo possibili le sovvenzioni basate sui diritti.Sulla base di questo, il provisioning dell’account di lettura ora controlla i diritti TMS al momento della creazione e applica automaticamente o trattiene le sovvenzioni al database Planning, garantendo la correttezza.
+Prima di questo miglioramento, questo era disponibile solo per Workfront.
+L’aggiornamento include le seguenti funzionalità: 
+
+* Un processo giornaliero automatizzato rileva le modifiche di adesione per i clienti esistenti
+* I nuovi job concedono, revocano o conservano l&#39;accesso in base ai diritti
+* Copertura completa del ciclo di vita per provisioning, creazione di account e modifiche continue dei diritti.
+
+L&#39;articolo del dizionario dati [Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) verrà aggiornato dopo la data di rilascio.
+
+## Aggiunta del supporto per dati personalizzati per nuovi oggetti
+
+>[!NOTE]
+>
+>Anteprima e produzione per tutti i clienti: 7 luglio 2026Fuori pianificazione&rbrack;{type=Neutral}
+
+Durante il secondo trimestre del 2026 sono stati aggiunti nuovi oggetti per supportare i miglioramenti delle operazioni aziendali in Workfront.Con la versione corrente, verrà aggiunto anche il supporto per dati personalizzati per diversi nuovi oggetti nel dashboard di Canvas.
+
+Per informazioni, vedere [Panoramica del dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Impostazioni predefinite del prompt del dashboard di Canvas e persistenza delle preferenze utente
 
 >[!NOTE]
 >
->Anteprima: 25 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 25 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 
 Per migliorare l’efficienza degli utenti che si spostano tra dashboard e record mantenendo il proprio stato di filtro funzionante, i responsabili dei dashboard possono ora definire valori di prompt predefiniti per i dashboard di Canvas. Queste impostazioni predefinite vengono applicate automaticamente a tutti i visualizzatori del dashboard.
 
@@ -37,7 +64,7 @@ Per informazioni, vedere [Filtrare un dashboard Canvas](/help/quicksilver/report
 
 >[!NOTE]
 >
->Anteprima: N/A>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: N/DVersione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Gli amministratori di Workfront che collegano Microsoft Power BI a Workfront Data Connect ora possono aggiungere al inserisco nell&#39;elenco Consentiti di un intero set di intervalli di indirizzi IP di Azure in un unico passaggio. Nella scheda **Inserisco nell&#39;elenco Consentiti di IP** in **Connessione dati**, il pulsante **Nuovo indirizzo IP** ora include l&#39;opzione **Aggiungi blocchi di indirizzi IP Power BI** che consente di aprire una finestra di dialogo in cui è possibile incollare le voci dei tag di servizio Power BI dal file JSON degli intervalli IP e dei tag di servizio di Microsoft Azure pubblicati.
 
@@ -50,7 +77,7 @@ Per ulteriori informazioni, vedere [Stabilire una connessione a Workfront Data C
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Rilascio rapido produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 11 giugno 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
 >
 >Canvas Dashboards è attualmente in versione beta.
 
@@ -62,7 +89,7 @@ Per ulteriori informazioni, vedere [Utilizzare i dashboard di Canvas](/help/quic
 
 >[!NOTE]
 >
->Anteprima: 1 giugno 2026>Versione rapida produzione: 1 giugno 2026>Produzione per tutti: 1 giugno 2026
+>Anteprima: 1 giugno 2026Versione rapida di produzione: 1 giugno 2026Produzione per tutti: 1 giugno 2026
 
 Nel 2025 è stato aggiunto al database di Workfront un nuovo campo Ore effettive come `actualWorkRequiredDouble` e il campo Ore effettive esistente (`actualWorkRequired` nel database) è stato rinominato Ore effettive legacy. Per ulteriori informazioni, consulta la [nota sulla versione](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md).
 
@@ -78,7 +105,7 @@ Per ulteriori informazioni sulle ore effettive, vedere [Visualizza ore effettive
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 I rapporti del dashboard Canvas ora supportano campi di dati valuta personalizzati come colonne, filtri, raggruppamenti e aggregazioni, anche quando nella configurazione del sistema sono configurati più tassi di cambio. Quando un campo dati valuta personalizzato viene visualizzato come colonna o aggregazione, i valori vengono convertiti nella valuta selezionata nell’interruttore del tasso di cambio del dashboard, a meno che il campo non sia bloccato a livello di report.
 
@@ -90,7 +117,7 @@ Per ulteriori informazioni, vedere [Utilizzare i campi di valuta nei dashboard d
 
 >[!NOTE]
 >
->Anteprima: 14 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 14 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 >
 >Canvas Dashboards è attualmente in versione beta.
 

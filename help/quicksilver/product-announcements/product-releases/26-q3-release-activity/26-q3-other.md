@@ -4,10 +4,10 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 3%
+source-wordcount: '481'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +17,15 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Aggiornamento dell’interfaccia per le icone di navigazione globali
+
+>[!NOTE]
+>
+>Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+
+Abbiamo aggiornato l’aspetto delle icone di navigazione generali in Workfront, incluse le icone del menu principale e della barra di navigazione, per fornire un design moderno e un’esperienza coerente con altre applicazioni Adobe. Inoltre, l’esperienza di aggiunta e rimozione delle pagine bloccate è stata semplificata per richiedere meno clic.
+
+Per ulteriori informazioni, vedere [Panoramica superiore della barra di navigazione](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) e [Pagine pin](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Aspetto aggiornato per le e-mail di notifica dei commenti
 
@@ -42,7 +51,7 @@ Questa modifica verrà implementata gradualmente per i clienti. Questa pagina ve
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
 Sono stati aggiornati diversi tipi di campo negli elenchi avanzati per includere la navigazione da tastiera e altri miglioramenti.
 
