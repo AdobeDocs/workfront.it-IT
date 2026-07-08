@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 15%
@@ -233,7 +233,6 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Richiedi l'approvazione per i modelli di Adobe Express con Workfront e Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.</p>

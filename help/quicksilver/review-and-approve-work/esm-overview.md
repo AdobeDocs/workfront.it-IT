@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
@@ -86,6 +86,10 @@ Per ulteriori informazioni sul nuovo modello di autorizzazione dei documenti, ve
 A livello di progetto, le cartelle generate dal sistema visualizzano un oggetto collegato. La cartella viene automaticamente denominata come l’attività o il problema a cui appartiene. Per cartelle collegate si intende il modo in cui il sistema riconosce l’attività o il problema su cui la cartella deve essere visualizzata.
 
 Per ulteriori informazioni, vedere [Funzionamento delle autorizzazioni per i documenti](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive è un’applicazione desktop che consente di montare i progetti di archiviazione cloud di Adobe come un’unità nel computer Mac o Windows. Puoi aprire, modificare e salvare i file in qualsiasi applicazione mentre Adobe Cloud Drive mantiene il tuo lavoro sincronizzato con l’archiviazione cloud di Adobe. Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Oggetti Workfront
 

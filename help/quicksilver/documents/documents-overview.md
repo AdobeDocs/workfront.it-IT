@@ -15,10 +15,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 72
-ht-degree: 100%
+source-wordcount: 85
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,8 @@ Per supportare il tuo lavoro, puoi aggiungere, visualizzare, organizzare, gestir
 
 Per informazioni sull’utilizzo dei documenti, consulta gli articoli nelle sottosezioni seguenti:
 
-* [Aggiungere nuovi documenti ad Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [Gestire i documenti](../documents/managing-documents/manage-documents.md)
-* [Organizzare i documenti](../documents/organizing-documents/organize-documents.md)
-* [Integrazioni per Workfront ed Experience Manager Assets](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Aggiungi nuovi documenti ad Adobe Workfront: indice articolo](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [Gestisci documenti: indice articolo](../documents/managing-documents/manage-documents.md)
+* [Organizza documenti: indice articolo](../documents/organizing-documents/organize-documents.md)
+* [Adobe Cloud Drive: indice degli articoli](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
+* [Integrazioni Workfront e Experience Manager Assets: indice degli articoli](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

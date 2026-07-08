@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Organizzare i documenti
+title: 'Organizza documenti: indice articolo'
 description: È possibile organizzare i documenti con le cartelle. Puoi creare cartelle tradizionali o cartelle avanzate.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,14 +13,14 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 507718ad95931f2d2a7698620dd7b5e79c3c0105
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 32%
+source-wordcount: 50
+ht-degree: 22%
 
 ---
 
-# Organizzare i documenti
+# Organizza documenti: indice articolo
 
 È possibile organizzare i documenti con le cartelle. Puoi creare cartelle tradizionali o cartelle avanzate.
 
