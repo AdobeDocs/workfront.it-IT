@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2824'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -121,7 +121,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Logica del valore predefinito supportata nei campi di riferimento nativi</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Logica del valore predefinito supportata nei campi di riferimento nativi</a><p>[!BADGE Workflow Prime o versione successiva]{type=Informative}</p>
                 <p>Nei moduli personalizzati, i campi di riferimento nativi ora consentono di aggiungere la logica del valore predefinita. Questo tipo di logica è disponibile solo nell’interfaccia utente e non nell’API Workfront.</p>
             </td>
             <td><p>7 luglio 2026</p></td>
@@ -625,7 +625,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
