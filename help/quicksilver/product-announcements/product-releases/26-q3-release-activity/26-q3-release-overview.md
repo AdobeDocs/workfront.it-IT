@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2824'
 ht-degree: 15%
 
 ---
@@ -121,7 +121,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Logica del valore predefinito supportata nei campi di riferimento nativi</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Logica del valore predefinito supportata nei campi di riferimento nativi</a><p>[!BADGE Workflow Prime o versione successiva]{type=Informative}</p>
                 <p>Nei moduli personalizzati, i campi di riferimento nativi ora consentono di aggiungere la logica del valore predefinita. Questo tipo di logica è disponibile solo nell’interfaccia utente e non nell’API Workfront.</p>
             </td>
             <td><p>7 luglio 2026</p></td>
