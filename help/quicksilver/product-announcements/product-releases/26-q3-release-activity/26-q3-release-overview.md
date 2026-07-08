@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2822'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -222,17 +222,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>15 luglio 2026</p></td>
             <td><p>16 luglio 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
-                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+                <p>Adobe Cloud Drive è un'applicazione desktop che consente di montare i progetti di archiviazione cloud Adobe come un'unità nel computer Mac o Windows, in modo da poter aprire, modificare e salvare file in qualsiasi applicazione direttamente da Finder o Esplora file.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>N/D</p></td>
+            <td><p>8 luglio 2026</p></td>
+            <td><p>8 luglio 2026</p></td>
         </tr>
-        -->
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Richiedi l'approvazione per i modelli di Adobe Express con Workfront e Frame.io</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.</p>
@@ -627,7 +625,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
