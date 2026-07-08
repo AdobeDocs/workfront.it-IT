@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -52,11 +52,9 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 -->
 
-## Richiedere l’approvazione per i modelli Adobe Express con Workfront e Frame.io
-
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione]{type=Neutral}
 
 L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.
 

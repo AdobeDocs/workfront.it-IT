@@ -9,19 +9,13 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uM4y--i0xyZtRuB-PCZQLnLb8mNwc6YOW6jk4o6LAw0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1383
 ht-degree: 5%
 
 ---
@@ -30,7 +24,7 @@ ht-degree: 5%
 
 Adobe Workfront attualmente dispone dei seguenti due tipi di archiviazione dei documenti:
 
-* Storage Workfront legacy
+* Archiviazione legacy di Workfront
 * Archiviazione cloud Adobe
 
 Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -184,6 +178,10 @@ Per aggiungere un documento:
 Se hai bisogno di informazioni sul caricamento di nuove versioni di un documento in Workfront, consulta [Caricare una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 Una cartella con lo stesso nome dell&#39;oggetto in cui si sta caricando il documento viene creata automaticamente nella sezione Documenti e il documento viene aggiunto alla cartella.
+
+### Aggiungere documenti con Adobe Cloud Drive
+
+Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi anche aggiungere documenti dal desktop utilizzando Adobe Cloud Drive. Adobe Cloud Drive monta i progetti di archiviazione cloud Adobe come un&#39;unità nel computer Mac o Windows. Tutti i file salvati all&#39;interno di una cartella di progetto nell&#39;unità vengono automaticamente sincronizzati con Workfront. Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Sicurezza dei documenti per l’archiviazione cloud di Adobe
 

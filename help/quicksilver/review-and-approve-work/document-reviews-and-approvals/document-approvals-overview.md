@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: 4114
+source-wordcount: 4173
 ht-degree: 0%
 
 ---
@@ -146,6 +142,8 @@ Nella tabella seguente viene illustrato il mapping delle autorizzazioni di Workf
 ### Gestione dei documenti in Workfront
 
 I documenti caricati su Workfront vengono memorizzati nell’archiviazione cloud di Adobe e sono accessibili sia in Workfront che in Frame.io. Quando carichi un documento su un’attività o un problema in Workfront, viene creata in Adobe Cloud Storage una cartella generata dal sistema che eredita le autorizzazioni dall’attività o dal problema. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Per ulteriori informazioni sui documenti in Workfront, vedere [Panoramica sulla nuova area Documenti](/help/quicksilver/documents/managing-documents/documents-area.md) e [Autorizzazioni oggetto e panoramica del livello di accesso per il modello di archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+Puoi accedere agli stessi documenti anche dal desktop di Mac o Windows utilizzando Adobe Cloud Drive. Adobe Cloud Drive monta i progetti di archiviazione cloud Adobe come un&#39;unità nel computer, in modo da poter aprire e modificare i file in qualsiasi applicazione mantenendo le modifiche sincronizzate con Workfront e Frame.io. Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ### Limitazioni dell’esperienza documentale
 

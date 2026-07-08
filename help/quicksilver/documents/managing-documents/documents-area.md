@@ -10,17 +10,13 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: 918
 ht-degree: 1%
 
 ---
@@ -123,6 +119,10 @@ Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approv
 ### Cartelle a livello di sistema per le autorizzazioni dei documenti
 
 Workfront crea automaticamente una cartella a livello di sistema quando il primo documento viene caricato su un’attività o un problema. Queste cartelle ereditano le autorizzazioni dall’attività o dal problema e sono visibili nell’area documenti a livello di progetto. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Questa è la modalità principale di gestione delle autorizzazioni per i documenti nella nuova area Documenti. Per ulteriori informazioni, consulta [Autorizzazioni oggetto e panoramica del livello di accesso per il modello di archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Accedere ai documenti dal desktop
+
+Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi anche accedere ai documenti dal desktop di Mac o Windows utilizzando Adobe Cloud Drive. Adobe Cloud Drive monta i progetti di archiviazione cloud Adobe come un&#39;unità nel computer, in modo da poter aprire e modificare i file in qualsiasi applicazione mantenendo le modifiche sincronizzate con Workfront. Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Considerazioni
 
