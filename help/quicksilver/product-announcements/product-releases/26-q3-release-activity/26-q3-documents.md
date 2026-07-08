@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 8 luglio 2026Produzione per tutti: 8 luglio 2026Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate, con l’archiviazione cloud Adobe abilitata.
+>Anteprima: N/DVersione rapida di produzione: 8 luglio 2026Produzione per tutti: 8 luglio 2026Fuori programmaQuesta funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate, con l’archiviazione cloud Adobe abilitata.
 
 Adobe Cloud Drive è ora disponibile per le organizzazioni che utilizzano una versione di Workfront che supporta l’archiviazione cloud di Adobe. Adobe Cloud Drive è un&#39;applicazione desktop che consente di montare i progetti di archiviazione cloud Adobe come un&#39;unità nel computer Mac o Windows, in modo da poter aprire, modificare e salvare file in qualsiasi applicazione direttamente da Finder o Esplora file. Le modifiche vengono sincronizzate automaticamente con l&#39;archiviazione cloud Adobe e sono disponibili per il team in Workfront e Frame.io.
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](/help/qui
 
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione]{type=Neutral}
 
 L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.
 

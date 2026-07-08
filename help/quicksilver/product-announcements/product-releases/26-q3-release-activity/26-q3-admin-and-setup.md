@@ -4,7 +4,7 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 5%
