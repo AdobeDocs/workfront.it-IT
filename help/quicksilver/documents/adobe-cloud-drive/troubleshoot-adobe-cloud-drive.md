@@ -162,7 +162,7 @@ Per informazioni sull&#39;utilizzo di Adobe Cloud Drive, vedi [Utilizzare Adobe 
 
 Per domande sulla licenza, problemi di accesso al progetto o configurazione specifica dell’organizzazione, contatta l’amministratore Workfront.
 
-Per condividere i registri con il supporto di Adobe, segui i passaggi descritti in [Eseguire lo strumento Raccolta registri di Adobe](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
+Per condividere i registri con il supporto di Adobe, segui i passaggi descritti in [Eseguire lo strumento Raccolta registri di Adobe](https://helpx.adobe.com/it/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
 
 ## Best practice
 
