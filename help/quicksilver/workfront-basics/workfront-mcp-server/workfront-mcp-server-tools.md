@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 6%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## Strumenti per flussi di lavoro
 
 Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma dell’agente di intelligenza artificiale utilizza per lavorare con qualsiasi oggetto Workfront: progetti, attività, problemi, ore, assegnazioni, programmi, portfolio e così via.
+
+### Oggetti e campi
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
