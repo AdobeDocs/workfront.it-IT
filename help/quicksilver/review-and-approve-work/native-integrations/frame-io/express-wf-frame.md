@@ -7,7 +7,7 @@ description: Guida introduttiva all’integrazione con Adobe Express e Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
@@ -112,3 +112,4 @@ Sono anche responsabili di prendere decisioni finali per approvare il contenuto 
 Gli utenti devono disporre almeno della licenza Collaborator Workfront per rivedere e prendere una decisione.
 
 Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere [Commenti sul supporto](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
