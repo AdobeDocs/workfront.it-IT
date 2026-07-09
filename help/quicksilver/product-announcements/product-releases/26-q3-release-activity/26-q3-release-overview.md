@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -525,6 +525,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Ottimizzazione dell'archiviazione dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Al momento, stiamo ottimizzando l’archiviazione dei commenti per i commenti più vecchi di 1 anno per tutti gli oggetti Workfront che visualizzano un’area Aggiornamenti. Si tratta di un’iniziativa interna che non dovrebbe influenzare l’esperienza con l’area Aggiornamenti. Non vi sono modifiche visive all'area Aggiornamenti per nessun tipo di oggetto e non vi sono modifiche alla funzionalità con questo aggiornamento. Tutti i commenti rimangono visibili per tutti i tipi di oggetto.</p>
+            </td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamento dell'interfaccia per le icone di navigazione globali</a>
                 <p>Abbiamo aggiornato l’aspetto delle icone di navigazione generali in Workfront, incluse le icone del menu principale e della barra di navigazione, per fornire un design moderno coerente con le altre applicazioni Adobe.</p>
             </td>
@@ -625,7 +634,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
