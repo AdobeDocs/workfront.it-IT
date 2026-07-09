@@ -5,10 +5,10 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
+source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 5%
+source-wordcount: '1765'
+ht-degree: 6%
 
 ---
 
@@ -107,6 +107,21 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
 | Ottieni area geografica Adobe | `approvals_get_adobe_region` | Restituisce il nome Adobe di un’area del provider di cloud. | Leggi |
+
+### Commenti
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| Commenti query | `comment-stream_query_comments` | Query di commenti per ID oggetto, con impaginazione. | Leggi |
+| Ottieni commento | `comment-stream_get_comment` | Ottieni un singolo commento per ID. | Leggi |
+| Ottieni conteggio commenti | `comment-stream_get_comments_count` | Ottiene il conteggio totale dei commenti di primo livello per un oggetto. | Leggi |
+| Crea commento | `comment-stream_create_comment` | Crea un nuovo commento su un oggetto. | Scrittura |
+| Crea risposta | `comment-stream_create_reply` | Crea una risposta a un commento esistente. | Scrittura |
+| Aggiorna commento | `comment-stream_update_comment` | Aggiorna un commento o una risposta esistente. | Scrittura |
+| Elimina commento | `comment-stream_delete_comment` | Elimina un commento in base al relativo ID. | Scrittura |
+| Aggiungi reazione | `comment-stream_add_reaction` | Aggiungi una reazione (come) a un commento. | Scrittura |
+| Rimuovi reazione | `comment-stream_remove_reaction` | Rimuovi una reazione (simile) da un commento. | Scrittura |
+
 
 <!--
 
