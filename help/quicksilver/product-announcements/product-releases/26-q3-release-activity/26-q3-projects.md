@@ -4,10 +4,10 @@ description: Miglioramenti al progetto del terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
@@ -23,10 +23,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Produzione per tutti: 12 giugno 2026
+>Anteprima: 9 luglio 2026Produzione per rilascio rapido: 13 agosto 2026Produzione per la versione trimestrale: 15 ottobre 2026Fuori pianificazione]{type=Neutral}
 
-Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe.
-In questo caso, i documenti e le approvazioni dei documenti rimangono sull&#39;oggetto padre anziché essere trasferiti al progetto appena creato.
+Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe.In questo caso, i documenti e le approvazioni dei documenti rimangono sull&#39;oggetto padre anziché essere trasferiti al progetto appena creato.
 
 In precedenza, le attività potevano essere convertite solo in progetti che utilizzavano lo stesso tipo di archiviazione.
 
@@ -40,7 +39,7 @@ Per ulteriori informazioni, vedere [Convertire un&#39;attività in un progetto](
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Produzione per tutti: 11 giugno 2026
+>Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026
 
 Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi utilizzare un modello di archiviazione legacy per creare un progetto di archiviazione cloud Adobe nei seguenti scenari:
 
