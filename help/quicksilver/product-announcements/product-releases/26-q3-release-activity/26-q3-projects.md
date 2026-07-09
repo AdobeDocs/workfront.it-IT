@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 9 luglio 2026Produzione per rilascio rapido: 13 agosto 2026Produzione per la versione trimestrale: 15 ottobre 2026Fuori pianificazione]{type=Neutral}
+>Anteprima: 9 luglio 2026Produzione per rilascio rapido: 13 agosto 2026Produzione per la versione trimestrale: 15 ottobre 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe.In questo caso, i documenti e le approvazioni dei documenti rimangono sull&#39;oggetto padre anziché essere trasferiti al progetto appena creato.
 
