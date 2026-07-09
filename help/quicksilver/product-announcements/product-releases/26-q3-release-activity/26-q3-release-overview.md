@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -522,6 +522,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Ottimizzazione dell'archiviazione dei commenti</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Al momento, stiamo ottimizzando l’archiviazione dei commenti per i commenti più vecchi di 1 anno per tutti gli oggetti Workfront che visualizzano un’area Aggiornamenti. Si tratta di un’iniziativa interna che non dovrebbe influenzare l’esperienza con l’area Aggiornamenti. Non vi sono modifiche visive all'area Aggiornamenti per nessun tipo di oggetto e non vi sono modifiche alla funzionalità con questo aggiornamento. Tutti i commenti rimangono visibili per tutti i tipi di oggetto.</p>
+            </td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
+            <td><p>Rollout graduale a partire dal 7 luglio 2026</p></td>
         </tr>
         <tr>
             <td>
