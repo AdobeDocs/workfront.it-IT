@@ -5,7 +5,7 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -107,21 +107,6 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
 | Ottieni area geografica Adobe | `approvals_get_adobe_region` | Restituisce il nome Adobe di un’area del provider di cloud. | Leggi |
-
-### Commenti
-
-| Titolo | Nome strumento | Funzionamento | Azione |
-| --- | --- | --- | --- |
-| Commenti query | `comment-stream_query_comments` | Query di commenti per ID oggetto, con impaginazione. | Leggi |
-| Ottieni commento | `comment-stream_get_comment` | Ottieni un singolo commento per ID. | Leggi |
-| Ottieni conteggio commenti | `comment-stream_get_comments_count` | Ottiene il conteggio totale dei commenti di primo livello per un oggetto. | Leggi |
-| Crea commento | `comment-stream_create_comment` | Crea un nuovo commento su un oggetto. | Scrittura |
-| Crea risposta | `comment-stream_create_reply` | Crea una risposta a un commento esistente. | Scrittura |
-| Aggiorna commento | `comment-stream_update_comment` | Aggiorna un commento o una risposta esistente. | Scrittura |
-| Elimina commento | `comment-stream_delete_comment` | Elimina un commento in base al relativo ID. | Scrittura |
-| Aggiungi reazione | `comment-stream_add_reaction` | Aggiungi una reazione (come) a un commento. | Scrittura |
-| Rimuovi reazione | `comment-stream_remove_reaction` | Rimuovi una reazione (simile) da un commento. | Scrittura |
-
 
 <!--
 
@@ -237,6 +222,22 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi su un oggetto Workfront esistente. | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
 | Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Converte i nomi o le etichette dei campi forniti dall’utente nei nomi dei campi API di Workfront sottostanti in modo che la piattaforma dell’agente di IA possa creare richieste precise. | Leggi |
+
+### Commenti
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| Commenti query | `comment-stream_query_comments` | Query di commenti per ID oggetto, con impaginazione. | Leggi |
+| Ottieni commento | `comment-stream_get_comment` | Ottieni un singolo commento per ID. | Leggi |
+| Ottieni conteggio commenti | `comment-stream_get_comments_count` | Ottiene il conteggio totale dei commenti di primo livello per un oggetto. | Leggi |
+| Crea commento | `comment-stream_create_comment` | Crea un nuovo commento su un oggetto. | Scrittura |
+| Crea risposta | `comment-stream_create_reply` | Crea una risposta a un commento esistente. | Scrittura |
+| Aggiorna commento | `comment-stream_update_comment` | Aggiorna un commento o una risposta esistente. | Scrittura |
+| Elimina commento | `comment-stream_delete_comment` | Elimina un commento in base al relativo ID. | Scrittura |
+| Aggiungi reazione | `comment-stream_add_reaction` | Aggiungi una reazione (come) a un commento. | Scrittura |
+| Rimuovi reazione | `comment-stream_remove_reaction` | Rimuovi una reazione (simile) da un commento. | Scrittura |
+
+
 
 ## Come vengono aggiornati gli strumenti
 
