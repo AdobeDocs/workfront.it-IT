@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima e produzione per tutti i clienti: a partire dal 7 luglio 2026Fuori pianificazione]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: a partire dal 7 luglio 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Al momento, stiamo ottimizzando l’archiviazione dei commenti per i commenti più vecchi di 1 anno per tutti gli oggetti Workfront che visualizzano un’area Aggiornamenti. Si tratta di un’iniziativa interna che non dovrebbe influenzare l’esperienza con l’area Aggiornamenti. Non vi sono modifiche visive all&#39;area Aggiornamenti per nessun tipo di oggetto e non vi sono modifiche alla funzionalità con questo aggiornamento. Tutti i commenti rimangono visibili per tutti i tipi di oggetto.
 
