@@ -10,22 +10,14 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 2%
 
 ---
@@ -189,11 +181,15 @@ Quando si cambia lo stato dell&#39;attività o del progetto in uno stato persona
 
 * Lo stato personalizzato del progetto o dell’attività ha lo stesso codice di tre lettere dello stato personalizzato del problema.
 
-Puoi creare stati personalizzati con la stessa chiave per problemi e progetti o attività. Quando il progetto o l’attività (come oggetto risolutivo) viene riportato allo stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave dello stato deve essere la stessa per lo stato del problema e per quello del progetto o dell’attività.
+Considera i seguenti aspetti:
 
-Ad esempio, immagina di creare uno stato personalizzato del progetto denominato Avviato con l’LCD con codice di tre lettere, che equivale a Corrente. Successivamente, viene creato un problema con lo stato personalizzato Progetto avviato, anche con il codice di lettera LCD, che equivale a In corso. Quando contrassegni il progetto come Avviato, il problema cambia automaticamente lo stato in Progetto avviato. Se lo stato Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;impostazione delle modifiche all&#39;oggetto risolutivo non era abilitato, lo stato del problema passerebbe a In corso.
+* Puoi creare stati personalizzati con la stessa chiave per problemi e progetti o attività. Quando il progetto o l’attività (come oggetto risolutivo) viene riportato allo stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave dello stato deve essere la stessa per lo stato del problema e per quello del progetto o dell’attività.
 
-Per ulteriori informazioni sulla creazione di uno stato personalizzato, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Ad esempio, puoi creare uno stato personalizzato del progetto denominato Avviato con l’LCD con codice di tre lettere, che equivale a Corrente. Successivamente, viene creato un problema con lo stato personalizzato Progetto avviato, anche con il codice di lettera LCD, che equivale a In corso. Quando contrassegni il progetto come Avviato, il problema cambia automaticamente lo stato in Progetto avviato. Se lo stato Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;impostazione delle modifiche all&#39;oggetto risolutivo non era abilitato, lo stato del problema passerebbe a In corso.
+
+* Quando un oggetto risolutivo è impostato su uno stato di sistema associato a uno stato Completo, il problema risolvibile viene impostato sullo stato predefinito del proprio gruppo per tale stato. La corrispondenza della chiave di stato di tre lettere si applica solo al percorso di stato personalizzato e non agli stati di sistema configurati da Workfront.
+
+  Per ulteriori informazioni sulla creazione di uno stato personalizzato, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Sincronizzare la percentuale di completamento di un oggetto risolutivo con quella dell&#39;oggetto risolvibile
 
