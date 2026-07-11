@@ -5,15 +5,17 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
 
 
 # Configurare il server MCP di Adobe Workfront
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il server MCP [!DNL Adobe Workfront] ti consente di lavorare con i tuoi dati Workfront attraverso una conversazione in linguaggio naturale in una piattaforma di intelligenza artificiale supportata.
 
