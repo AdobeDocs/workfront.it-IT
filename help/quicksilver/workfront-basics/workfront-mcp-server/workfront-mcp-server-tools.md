@@ -5,10 +5,10 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: f9074a40de57db0ddeb357d7122d1a622b8d9651
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 5%
+source-wordcount: '1949'
+ht-degree: 6%
 
 ---
 
@@ -110,24 +110,21 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
 | Ottieni area geografica Adobe | `approvals_get_adobe_region` | Restituisce il nome Adobe di un’area del provider di cloud. | Leggi |
 
-<!--
 
-## Insights tools
+## Strumenti Approfondimenti
 
-Insights tools retrieve information about Workfront objects.
+Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
 
-| Title | Tool name | What it does | Action |
+| Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
-| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
-| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
-| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
-| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
-| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
-| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
-| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
-
--->
+| Leggi documenti | `insights_read_docs` | Carica la documentazione del playbook o del dominio Workfront, ad esempio condizioni, stato, date o percorsi dei campi. Questo è il primo passaggio richiesto prima di eseguire una query sui dati. | Leggi |
+| Ottieni utente corrente | `insights_get_current_user` | Recupera la tua identità Workfront, compreso nome, ID e URL. | Leggi |
+| Cerca campi | `insights_search_fields` | Cerca i campi disponibili (standard e personalizzati) su progetti, attività, problemi, utenti, portfolio, team e così via. | Leggi |
+| Ottieni percorsi campo | `insights_get_field_paths` | Risolvere i percorsi dei campi con notazione a punti per le entità, richiesti dallo strumento di query dei dati. | Leggi |
+| Trova ID per nome | `insights_find_id_by_name` | Cerca l’ID di qualsiasi oggetto Workfront per nome, ad esempio progetti, attività, utenti, portfolio e così via. | Leggi |
+| Trovare dati Workfront | `insights_find_workfront_data` | Trova, filtra, conta, ordina e aggrega dati Workfront. Questo è lo strumento principale per query e rapporti. | Leggi |
+| Riepiloga oggetto | `insights_summarize_object` | Recupera e riepiloga un singolo oggetto Workfront per ID. | Leggi |
+| Entità elenco | `insights_list_entities` | Elenca tutti i tipi di oggetto Workfront disponibili per la query. | Leggi |
 
 ## Strumenti di pianificazione
 
