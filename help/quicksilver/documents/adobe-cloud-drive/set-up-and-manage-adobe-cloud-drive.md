@@ -6,7 +6,7 @@ description: In qualità di amministratore, puoi configurare Adobe Cloud Drive p
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: 56dca343c919db3bb09a232ada2b4700c59f5147
+source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 1%
@@ -86,10 +86,11 @@ Nella tabella seguente viene illustrato l&#39;interazione di questi controlli:
 | Switch a livello di organizzazione | Utente nel ruolo utente ACD | Licenza flusso di lavoro Ultimate | Risultato di accesso |
 | --- | --- | --- | --- |
 | Attivato | Non obbligatorio | Sì | Concesso |
-<!-- | On | Not required | No | Denied | -->
-| Disattivato | Sì | Sì | Concessi |
+| Disattivato | Sì | Sì | Concesso |
 | Disattivato | No | Sì | Negato |
-| Oppure | Oppure | No | Negato |
+| o | o | No | Negato |
+
+<!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->
 
 ## Prerequisiti
 
