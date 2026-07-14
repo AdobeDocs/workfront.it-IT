@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
 workflow-type: tm+mt
-source-wordcount: '14283'
-ht-degree: 94%
+source-wordcount: '14290'
+ht-degree: 93%
 
 ---
 
@@ -1203,6 +1203,7 @@ ht-degree: 94%
       * [Panoramica di Adobe Cloud Drive](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
       * [Installare Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
       * [Usa Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Configurazione e gestione di Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
       * [Risolvere i problemi relativi a Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Integrazioni per Workfront ed Experience Manager Assets {#wf-aem-integrations}
       * [Integrazioni per Workfront ed Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
