@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 1%
 
 ---
@@ -202,7 +202,19 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 1. (Condizionale) Fare clic sulla scheda di una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per creare una visualizzazione tabella. La vista tabella deve essere quella predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di vista all&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
+
 1. (Facoltativo) Fare clic sulla casella di ricerca e aggiungere una parola chiave per trovare il record da modificare.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
@@ -279,8 +291,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * **Visualizza** o <span class="preview">**Apri in una nuova scheda**</span>: verrà aperta la pagina record.
    * **Copia collegamento**: per copiare un collegamento nella pagina del record.
-   * **Modifica miniatura**: per aggiungere una miniatura a un record.
-Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Modifica miniatura**: per aggiungere una miniatura a un record.Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicato**: crea un duplicato identico del record.
    * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
    * **Elimina**: per eliminare il record. I record eliminati vengono salvati nella casella Eliminati di recente per un massimo di 30 giorni.

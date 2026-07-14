@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1591
 ht-degree: 4%
 
 ---
@@ -113,8 +113,7 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 >[!NOTE]
 >
->* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco.
->     Il **tipo di oggetto** di una richiesta di Planning è denominato seguendo questo modello: `< Name of workspace > > < Name of record type >`. Ad esempio, il tipo di oggetto di una richiesta Planning potrebbe essere denominato `Marketing workspace > Campaigns`.\
+>* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco.Il **tipo di oggetto** di una richiesta Planning è denominato seguendo questo pattern: `< Name of workspace > > < Name of record type >`. Ad esempio, il tipo di oggetto di una richiesta Planning potrebbe essere denominato `Marketing workspace > Campaigns`.\
 >     Il **tipo di oggetto** di una richiesta Workfront è `Issue`.
 >* Per impostazione predefinita, nell’elenco dell’area Richieste vengono visualizzate fino a 50 richieste. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
@@ -166,9 +165,12 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
    * **In corso**:
       * Richieste Workfront: la richiesta è stata convertita e i lavori sono in corso.
       * Richieste di Workfront Planning: il completamento della richiesta viene mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
-   * **In sospeso**: disponibile per le richieste Workfront e impostata manualmente dagli utenti.
-   * <span class="preview">**Annullato**: per le richieste Workfront.</span> <!--checking with Khach)-->
+   * **In attesa**: disponibile per le richieste Workfront. Può essere impostato manualmente dagli utenti.
    * <span class="preview">**Completo**: è stato creato il record di Planning che completa la richiesta. (Solo Planning)</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### Visualizzare le richieste inviate nell’esperienza di richiesta legacy
 

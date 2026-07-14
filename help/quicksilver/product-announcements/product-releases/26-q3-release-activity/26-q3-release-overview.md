@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertire un'attività di archiviazione legacy in un progetto di archiviazione cloud Adobe</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>Se la tua organizzazione utilizza sia l’archiviazione Workfront legacy che l’archiviazione cloud Adobe, ora puoi convertire un’attività di archiviazione legacy in un progetto di archiviazione cloud Adobe.</p>
             </td>
-            <td><p>9 luglio 2026</p></td>
-            <td><p>13 agosto 2026</p></td>
-            <td><p>15 ottobre 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
+            <td><p>11 giugno 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Trimestrale</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introduzione di nuovi stati di richiesta</a>
-                <p>Per ottenere più contesto sullo stato delle richieste, vengono introdotti nuovi stati per le richieste: Nuovo, In sospeso e Annullato. Lo stato "Completato" è stato rinominato "Completato".</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Stati di richiesta corrispondenti tra la versione precedente e la nuova esperienza</a>
+                <p>Per ottenere più contesto sullo stato corretto in cui si trovano le richieste, stiamo aggiornando gli stati delle richieste nella nuova esperienza di richiesta.</p>
             </td>
             <td><p>27 maggio 2026</p></td>
             <td><p>11 giugno 2026</p></td>

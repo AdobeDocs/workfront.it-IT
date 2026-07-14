@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 7%
 
 ---
 
@@ -18,19 +18,22 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima all
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Introduzione di nuovi stati di richiesta
+## Corrispondenza degli stati della richiesta tra l’esperienza legacy e la nuova esperienza di richiesta
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
 
-Per ottenere più contesto sullo stato delle richieste, stiamo introducendo nuovi stati per le richieste. Sono ora disponibili i seguenti nuovi stati di richiesta:
+Per ottenere più contesto sullo stato corretto in cui si trovano le richieste, stiamo aggiornando gli stati delle richieste nella nuova esperienza di richiesta.
+
+Le richieste visualizzeranno lo stesso stato nella nuova esperienza di richiesta e in quella legacy per i seguenti stati:
 
 * Nuovo
 * In sospeso
-* Annullato
 
-Lo stato &quot;Completato&quot; è stato rinominato &quot;Completato&quot;.
+Prima di questo aggiornamento, se una richiesta si trovava nello stato Nuovo o In sospeso nell’elenco delle esperienze di richiesta legacy, veniva visualizzata come In corso nel nuovo elenco delle esperienze di richiesta. Ora gli stati corrispondono per i due elenchi.
+
+Come parte di questo aggiornamento, anche lo stato &quot;Completato&quot; è stato rinominato &quot;Completato&quot;.
 
 Per ulteriori informazioni, vedere [Visualizzare le richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -38,7 +41,7 @@ Per ulteriori informazioni, vedere [Visualizzare le richieste inviate](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 23 aprile 2026>Rilascio rapido produzione: 23 aprile 2026>Produzione per tutti: 23 aprile 2026>[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima: 23 aprile 2026Versione rapida di produzione: 23 aprile 2026Produzione per tutti: 23 aprile 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le seguenti viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home:
 

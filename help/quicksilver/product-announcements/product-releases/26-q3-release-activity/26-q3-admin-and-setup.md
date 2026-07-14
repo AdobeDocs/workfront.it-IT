@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026
+>Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
