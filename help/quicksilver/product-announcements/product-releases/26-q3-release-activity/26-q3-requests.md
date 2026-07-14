@@ -41,7 +41,7 @@ Per ulteriori informazioni, vedere [Visualizzare le richieste inviate](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 23 aprile 2026Versione rapida di produzione: 23 aprile 2026Produzione per tutti: 23 aprile 2026Fuori pianificazione]{type=Neutral}
+>Anteprima: 23 aprile 2026Versione rapida di produzione: 23 aprile 2026Produzione per tutti: 23 aprile 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le seguenti viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home:
 
