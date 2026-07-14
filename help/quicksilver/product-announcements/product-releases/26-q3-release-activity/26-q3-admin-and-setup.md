@@ -121,7 +121,7 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026Fuori pianificazione]{type=Neutral}
+>Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
 
 Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
