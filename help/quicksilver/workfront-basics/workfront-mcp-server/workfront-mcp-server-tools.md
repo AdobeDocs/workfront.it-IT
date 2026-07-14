@@ -5,7 +5,7 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 6%
@@ -223,7 +223,7 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 | Aggiungi reazione | `comment-stream_add_reaction` | Aggiungi una reazione (come) a un commento. | Scrittura |
 | Rimuovi reazione | `comment-stream_remove_reaction` | Rimuovi una reazione (simile) da un commento. | Scrittura |
 
-## Strumenti Approfondimenti
+### Strumenti Approfondimenti
 
 Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
 
