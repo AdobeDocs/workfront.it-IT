@@ -7,14 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 608
 ht-degree: 3%
 
 ---
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Il numero di oggetti del workspace che è possibile creare nell&#39;istanza di Workfront Planning è limitato. Per informazioni, vedere [Panoramica delle limitazioni degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Panoramica sulla ricerca globale
+
+Nella pagina di destinazione di Planning è possibile utilizzare la casella di ricerca globale per cercare i seguenti oggetti di Planning:
+
+* Aree di lavoro
+* Tipi di record
+* Viste
+
+![Casella di ricerca globale](assets/global-search-box.png)
+
+Considera quanto segue sull’utilizzo della ricerca globale:
+
+* È possibile accedere alla ricerca dalla pagina di destinazione di Planning o da qualsiasi pagina di Planning premendo la seguente combinazione di tastiera:
+
+   * CTRL+K per Windows
+   * ⌘+K per Mac
+* Gli ultimi 7 risultati di ogni oggetto vengono visualizzati nella casella di ricerca.
+* È possibile eseguire una ricerca generale oppure selezionare un oggetto e cercare singoli elenchi.
+
+
