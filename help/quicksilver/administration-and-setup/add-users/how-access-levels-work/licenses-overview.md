@@ -11,18 +11,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 TQID: https://experienceleague.adobe.com/3C7cVwQbr8imqQsl3lQGT9u1XCiYAXGwZ3ruPFDqdu0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 99%
+source-wordcount: 381
+ht-degree: 86%
 
 ---
 
@@ -44,7 +40,7 @@ Invece di assegnare una licenza a un utente, puoi assegnare il livello di access
 
 La tabella e il diagramma seguenti mostrano i principali livelli di accesso a Workfront:
 
-| Licenza | Livello di accesso associato |
+| Licenza flusso di lavoro | Livello di accesso associato |
 |--- |--- |
 | Standard | Amministratore di sistema, Standard |
 | Light | Light |
@@ -65,9 +61,9 @@ Per ulteriori informazioni, consulta [Panoramica dei livelli di accesso](/help/q
 
 ## Numero di licenze
 
-Quando assegni un livello di accesso a un utente, il numero di licenze disponibili viene ridotto di 1.
+Quando si assegna a un utente un livello di accesso associato a una licenza, il numero di licenze disponibili viene ridotto di 1.
 
-Ad esempio, se assegni il livello di accesso Standard a un utente, il numero di licenze Standard disponibili viene ridotto di 1.
+Ad esempio, se si assegna a un utente il livello di accesso Standard associato a una licenza Workflow di Standard, il numero di licenze Standard disponibili viene ridotto di 1.
 
 Puoi visualizzare le licenze e i livelli di accesso assegnati ai tuoi utenti. Per ulteriori informazioni, consulta [Elencare licenze e livelli di accesso degli utenti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
