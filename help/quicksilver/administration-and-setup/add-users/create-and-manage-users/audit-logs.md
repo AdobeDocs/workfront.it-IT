@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1485
 ht-degree: 3%
 
 ---
@@ -177,14 +177,14 @@ Il sistema genera una voce del registro di controllo del campo personalizzato qu
 * Crea un campo personalizzato
 * Modifica un campo personalizzato:
 
-   * Modifica il nome, l&#39;etichetta, le istruzioni o il formato
+   * Modifica il nome API, l’etichetta, le istruzioni o il formato
    * Modifica il tipo di visualizzazione
 
      Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, elenco a discesa, casella di controllo, pulsante di opzione
 
    * Modifica le dimensioni del campo
 
-     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo con formattazione
+     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo RTF
 
    * Aggiunge, rimuove o nasconde una scelta di campo.
    * Modifica un&#39;etichetta o un valore di scelta del campo
@@ -211,7 +211,7 @@ Il sistema genera una voce del registro di controllo di Forms personalizzato qua
    * Modifica un calcolo in un campo personalizzato
    * Nasconde o visualizza la formula associata a un campo calcolato nel testo delle istruzioni al passaggio del mouse
    * Attiva o disattiva Aggiorna calcoli precedenti
-   * Aggiunge o modifica la logica di salto o di visualizzazione.
+   * Aggiunge o modifica la logica del campo
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   

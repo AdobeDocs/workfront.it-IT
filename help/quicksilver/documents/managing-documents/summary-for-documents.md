@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 12%
@@ -29,8 +29,6 @@ ht-degree: 12%
 ---
 
 # Panoramica del riepilogo dei documenti
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi a
 
 ### Dettagli
 
-Utilizzare la sezione Dettagli per visualizzare informazioni generali di alto livello, interagire con moduli personalizzati e <span class="preview">aprire il Riepilogo stampa</span>.
+Utilizzare la sezione Dettagli per visualizzare informazioni generali di alto livello, interagire con moduli personalizzati e aprire Stampa riepilogo.
 
 ![Dettagli di riepilogo dei documenti nella nuova esperienza documenti](assets/summary-details.png)
 

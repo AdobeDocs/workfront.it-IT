@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9256ea961c44ef3822da14868ac6909eb3809394
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 11%
+source-wordcount: 1568
+ht-degree: 12%
 
 ---
 
@@ -97,13 +97,45 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      <tr> 
       <td role="rowheader">Descrizione </td> 
       <td>Digitare una descrizione per il livello di accesso. È utile elencare qui ciò a cui un utente con questo livello di accesso potrà accedere.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tipo di licenza</td> 
-      <td>Assicurarsi che la licenza selezionata sia quella più strettamente associata al tipo di livello di accesso che si sta creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Panoramica nuove licenze</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Panoramica licenze</a>.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Tipo di licenza pianificazione</td> 
+      <td><p>Questo campo è visibile solo per i clienti che hanno acquistato anche un pacchetto Workfront Planning, oltre a un pacchetto Workflow.</p>
+      <p>La licenza selezionata determina le impostazioni disponibili per gli utenti con questo livello di accesso. </p>
+      <p>Scegli una tra le opzioni seguenti:</p>
+      <ul><li>Standard</li>
+      <li>Collaboratore</li>
+      <li>Nessuno</li>
+     </ul> 
+      Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso ad Adobe Workfront Planning</a> 
+      <p><b>IMPORTANTE</b></p>
+      <p>Le licenze Planning e le licenze Workflow collaborano per consentire agli utenti di accedere a Workfront. </p>
+      <p>È possibile assegnare a un utente diversi livelli di tipi di licenza tra i tipi di licenza Workflow e Planning, ma la licenza Workflow non può essere inferiore alla licenza Planning. </p>
+      <p>Ad esempio, è possibile assegnare a un utente una licenza Workflow Standard e una licenza Planning Contributor, ma non una licenza Workflow Contributor e una licenza Planning Standard.</p>
+
+   </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Tipo di licenza del flusso di lavoro</td> 
+      <td>Assicurarsi che la licenza selezionata sia quella più strettamente associata al tipo di livello di accesso che si sta creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso.
+
+   <p>Scegli una tra le opzioni seguenti:</p>
+      <ul><li>Standard</li>
+      <li>Collaboratore</li>
+      <li>Light</li>
+     </ul>
+
+   Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Panoramica nuove licenze</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Panoramica licenze</a>.
+
+
+
+   </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Condizionale) Se nella casella **Tipo di licenza** è selezionato **Standard** o **Piano**, scorrere fino alla sezione **Consenti accesso amministrativo per** e selezionare le autorizzazioni di accesso amministrativo per coloro che avranno questo livello di accesso.
 

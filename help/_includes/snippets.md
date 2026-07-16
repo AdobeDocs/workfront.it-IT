@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 3%
+source-wordcount: '2292'
+ht-degree: 2%
 
 ---
 # Frammenti
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Passaggio 1: passare alla configurazione {#step-1-to-setup}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Progettazione moduli in GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Per assicurarsi di associare il gruppo corretto al team, posizionare il puntator
 
 ## Passaggio 1 - Accesso agli utenti {#step-1-to-users}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **[!UICONTROL Users]** ![Users](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **[!UICONTROL Users]** ![Users](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Per impostare le cartelle collegate:
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono alla Pianificazione di Adobe Workfront, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning che la tua organizzazione può acquistare come pacchetto Adobe Workfront o come prodotto standalone.
 >
->Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Non tutte le funzionalità incluse nel pacchetto Planning sono disponibili per Workfront Planning quando viene acquistato come prodotto standalone.
+>
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Per informazioni su Workfront Planning come prodotto autonomo, vedere [Introduzione ad Adobe Workfront Planning come prodotto autonomo](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 <!--
 Old - before Oct. 15, 2025:

@@ -6,16 +6,14 @@ title: Allegare una scheda tariffa a un modello
 description: Quando si assegna una scheda tariffaria a un modello, questa viene quindi allegata a tutti i progetti creati dal modello.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 8%
 
 ---
 
 # Allegare una scheda tariffa a un modello
-
-{{highlighted-preview-article-level}}
 
 Quando si assegna una scheda tariffaria a un modello, questa viene quindi allegata a tutti i progetti creati dal modello. La scheda tariffe diventa l’impostazione predefinita nel progetto, ma può essere sostituita se necessario.
 

@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 18%
@@ -78,7 +78,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    | **Normale** | Normale è per gli elementi di lavoro di routine su cui lavorerai dopo il completamento degli elementi Urgenti e ad alta priorità. Questa è l&#39;impostazione predefinita per le attività e i problemi. |
    | **Basso** | Basso è per gli elementi di lavoro che non richiedono attenzione immediata e che possono essere differiti fino al completamento di tutti gli elementi di lavoro con priorità più alta. |
 
-   ![Stato attivo](assets/my-focus-new.png)
+   ![Stato attivo](assets/my-focus-060226.png)
 
    >[!TIP]
    >

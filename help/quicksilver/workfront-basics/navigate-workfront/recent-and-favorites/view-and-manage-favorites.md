@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 13%
@@ -72,7 +72,7 @@ Puoi aggiungere elementi recenti o la pagina corrente al menu [!UICONTROL Prefer
 
 ### Aggiungi elementi recenti come preferiti
 
-1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![Recenti](assets/recents-icon-40x43.png) nell&#39;angolo superiore destro di qualsiasi pagina nella nuova esperienza [!DNL Adobe Workfront].
+1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![Recenti](assets/recents-icon.png) nell&#39;angolo superiore destro di qualsiasi pagina nella nuova esperienza [!DNL Adobe Workfront].
 1. Fare clic sulla stella in linea con l&#39;elemento che si desidera salvare come preferito. L&#39;elemento recente viene visualizzato nel menu **Preferiti**.
 
    ![Preferito un elemento recente](assets/recents-section.png)
@@ -86,7 +86,7 @@ Puoi aggiungere elementi recenti o la pagina corrente al menu [!UICONTROL Prefer
 
    >[!NOTE]
    >
-   >Se si fa clic sull&#39;icona **[!UICONTROL Preferiti]** su un oggetto già aggiunto come preferito, l&#39;oggetto verrà rimosso dal menu [!UICONTROL Preferiti].\
+   >Se si fa clic sull&#39;icona **[!UICONTROL Preferiti]** su un oggetto già aggiunto come preferito, l&#39;oggetto verrà rimosso dal menu [!UICONTROL Preferiti].
    >![Rimuovi dai preferiti](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Rimuovi un elemento dal menu [!UICONTROL Preferiti]

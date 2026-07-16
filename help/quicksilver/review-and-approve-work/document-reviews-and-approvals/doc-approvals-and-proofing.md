@@ -15,16 +15,14 @@ feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # Utilizzare insieme approvazioni unificate e bozze
-
-{{highlighted-preview}}
 
 Approvazioni unificate in Workfront introduce una nuova serie di funzioni per facilitare la revisione e l’approvazione dei documenti. È possibile utilizzare un flusso di lavoro Approvazioni unificate con il visualizzatore di bozze esistente per aggiungere commenti e markup ai documenti in revisione.
 
@@ -37,7 +35,8 @@ Esistono alcune differenze chiave nel flusso di lavoro quando si utilizzano insi
 ## Caricare un documento e creare una bozza
 
 1. Passare al progetto, all&#39;attività o al problema in cui si desidera aggiungere un nuovo documento.
-1. Fai clic sulla scheda **Documenti**, quindi sul menu a discesa **Aggiungi nuovo**.Oppure
+1. Fai clic sulla scheda **Documenti**, quindi sul menu a discesa **Aggiungi nuovo**.
+Oppure
 Trascinare il documento nell&#39;elenco dei documenti.
 
    >[!NOTE]
@@ -48,55 +47,55 @@ Trascinare il documento nell&#39;elenco dei documenti.
 
 Gli utenti assegnati come partecipanti possono utilizzare il visualizzatore di bozze per aggiungere commenti e markup al documento. Passare alla sezione successiva per scoprire come aggiungere partecipanti di revisione.
 
-## Apri il documento Riepilogo e assegna i partecipanti in produzione
+<!--
+## Open the document Summary and assign participants in Production
 
-È possibile assegnare revisori, approvatori o una combinazione di entrambi:
+You have the option to assign reviewers, approvers, or a mix of both:
 
-* **I revisori** possono aggiungere commenti e contrassegnare le risorse. Una volta terminata, la recensione può essere contrassegnata come completata. Non è necessario contrassegnare la revisione come completata per far avanzare il documento nel processo di approvazione.
-* **Gli approvatori** possono aggiungere commenti e contrassegnare le risorse. Devono prendere la decisione di portare avanti il processo di approvazione.
+* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the document to move forward in the approval process.
+* **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
-Per assegnare i partecipanti:
+To assign participants:
 
-1. Seleziona il documento caricato e apri il Riepilogo del documento.
-   ![Apri riepilogo documenti](assets/open-doc-summary.png)
+1. Select the document you uploaded and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Compila i seguenti dettagli:
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nome fase</strong></td>
-   <td>Aggiungete un nome di fase. È possibile modificare il nome in modo che sia più descrittivo, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>È necessaria una sola decisione (opzionale)</strong></td>
-   <td>La prima persona che prende una decisione completa la fase.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Data di scadenza (facoltativo)</strong></td>
-   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altre fasi in base alle esigenze.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![nuova fase](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Dopo aver aggiunto tutti i revisori e gli approvatori, fai clic su **Richiedi approvazioni**. I partecipanti vengono informati via e-mail.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Aprire il documento Riepilogo e assegnare i partecipanti in Anteprima
+## Aprire il documento Riepilogo e assegnare i partecipanti
 
 Per impostazione predefinita, la finestra di dialogo Richiedi approvazione si apre in modalità Base per l’approvazione in una sola fase. Passa alla modalità avanzata per configurare approvazioni in più fasi o percorsi paralleli.
 
@@ -112,58 +111,56 @@ Per assegnare i partecipanti:
 
 1. Fai clic su **Richiedi approvazione**. I partecipanti vengono informati via e-mail.
 
-</div>
+<!--
+## Create a new version as needed in Production
 
-## Crea una nuova versione in base alle esigenze in Produzione
+If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
-Se hai bisogno di un altro ciclo di revisione e approvazione, puoi creare una nuova versione della bozza e aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nel Riepilogo del documento.
+To add a new version:
 
-Per aggiungere una nuova versione:
+1. Drag and drop the new file on top of the previous document in Workfront. This automatically creates a new version. 
 
-1. Trascinare e rilasciare il nuovo file sopra il documento precedente in Workfront. Viene creata automaticamente una nuova versione.
+1. Once the document finishes uploading, select the document, then click **Create proof** > **Simple proof**. 
 
-1. Al termine del caricamento del documento, selezionarlo e fare clic su **Crea bozza** > **Bozza semplice**.
+1. Select the document again, and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Selezionare nuovamente il documento e aprire il Riepilogo del documento.
-   ![Apri riepilogo documenti](assets/open-doc-summary.png)
-
-1. Scorri fino alla sezione **Approvazioni**, quindi fai clic su **Crea flusso di lavoro**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Compila i seguenti dettagli:
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nome fase</strong></td>
-   <td>Aggiungete un nome di fase. È possibile modificare il nome in modo che sia più descrittivo, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>È necessaria una sola decisione (opzionale)</strong></td>
-   <td>La prima persona che prende una decisione completa la fase.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Data di scadenza (facoltativo)</strong></td>
-   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altre fasi in base alle esigenze.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![nuova fase](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Dopo aver aggiunto tutti i revisori e gli approvatori, fai clic su **Richiedi approvazioni**. I partecipanti vengono informati via e-mail.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Crea una nuova versione in base alle esigenze in Anteprima
+## Crea una nuova versione in base alle esigenze
 
 Se hai bisogno di un altro ciclo di revisione e approvazione, puoi creare una nuova versione della bozza e aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nel Riepilogo del documento.
 
@@ -184,8 +181,6 @@ Per aggiungere una nuova versione:
 1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 1. Fai clic su **Richiedi approvazione**. I partecipanti vengono informati via e-mail.
-
-</div>
 
 ## Verifica la bozza e prendi una decisione
 

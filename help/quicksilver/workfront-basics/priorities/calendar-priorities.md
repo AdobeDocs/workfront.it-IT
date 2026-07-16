@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 12%
+source-wordcount: 523
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,9 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 {{step1-to-priorities}}
 
 1. Fai clic sull&#39;icona **Calendario** nella parte superiore dell&#39;elenco lavori.
+
    ![icona calendario](assets/calendar-tab.png)
+
 1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
 
    +++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
@@ -162,7 +164,9 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 {{step1-to-priorities}}
 
 1. Fai clic sull&#39;icona **Calendario** nella parte superiore dell&#39;elenco lavori.
+
    ![icona calendario](assets/calendar-tab.png)
+
 1. Fai clic sull&#39;icona **Impostazioni** nell&#39;angolo destro del calendario.
 
 1. Nella scheda **Stile barra**, scegliere fino a 5 campi da visualizzare sulla barra degli elementi di lavoro nel calendario.

@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -68,7 +68,7 @@ La logica di convalida viene creata utilizzando le formule e può essere resa se
 
 Se il campo con la logica applicata soddisfa le condizioni di convalida definite quando un utente compila il modulo personalizzato, il campo viene evidenziato e viene visualizzato il messaggio di errore.
 
-È possibile applicare la logica di convalida ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, completamento automatico, data, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica di convalida ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca interna, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 ### Consenti solo al proprietario del progetto di selezionare &quot;Rush&quot; SLA
 
@@ -134,9 +134,9 @@ Se un utente che non è il proprietario del progetto tenta di digitare nel campo
 
 ![Solo Claire Stevens può modificare questo campo](assets/only-project-owner-can-edit.png)
 
-### Automatico consente o rifiuta valori basati su altri valori di campo
+### La ricerca interna consente o rifiuta valori basati su altri valori di campo
 
-In questo esempio, un campo typeahead consente o rifiuta dinamicamente i valori in base al valore immesso in un altro campo del modulo.
+In questo esempio, un campo di ricerca interno consente o rifiuta in modo dinamico i valori basati sul valore immesso in un altro campo del modulo.
 
 Espressione di convalida:
 
@@ -146,7 +146,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-Se il valore nel campo del budget è superiore a $ 10.000, è possibile selezionare dal typeahead solo gli utenti con un ruolo Director, anche se non è abilitato alcun filtro di ruolo nella configurazione typeahead.
+Se il valore nel campo del budget è superiore a $ 10.000, solo gli utenti con un ruolo Director possono essere selezionati dalla ricerca interna, anche se non è abilitato alcun filtro ruoli nella configurazione della ricerca interna.
 
 ![L&#39;importo del budget richiede l&#39;approvazione del direttore](assets/budget-director.png)
 

@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: 177
 ht-degree: 27%
 
 ---
@@ -58,8 +58,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 {{step1-to-priorities}}
 
-1. Nella parte superiore della pagina, fai clic su **Recuperami**.
+1. Nella parte superiore della pagina fare clic sul pulsante **Recupera**.
+
    ![pulsante Recuperami](assets/catch-me-up-button.png)
+
 1. Seleziona l’intervallo temporale desiderato:
    * **Riepiloga le ultime 24 ore**
    * **Riepiloga gli ultimi 3 giorni**

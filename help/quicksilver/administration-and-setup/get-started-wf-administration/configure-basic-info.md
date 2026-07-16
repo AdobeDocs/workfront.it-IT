@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 6%
@@ -31,8 +31,6 @@ ht-degree: 6%
 ---
 
 # Configurare le informazioni di base per il sistema
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ Per accedere alla pagina Informazioni cliente:
    | Sezione | Ulteriori informazioni |
    |---------|-----------------|
    | **Informazioni di base** | Per informazioni sulla configurazione delle informazioni di base in Workfront, vedere [Configurare le informazioni di base](#configure-basic-info). |
-   | <span class="preview">**Panoramica archiviazione**</span> | <span class="preview">Per informazioni sulla verifica dell&#39;utilizzo e della quota di archiviazione dei documenti, vedere [Controllare i limiti di archiviazione dei documenti](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Panoramica archiviazione** | Per informazioni sulla verifica dell&#39;utilizzo e della quota di archiviazione dei documenti, vedere [Controllare i limiti di archiviazione dei documenti](../../documents/managing-documents/check-document-storage.md). |
    | **Impostazioni chiave API** | Per informazioni sulle impostazioni delle chiavi API, vedere [Gestione chiavi API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **Inserisco nell&#39;elenco Consentiti IP** | Per informazioni sull&#39;aggiunta degli indirizzi IP al elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso ai sistemi di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **Inserisco nell&#39;elenco Consentiti di invio e-mail per l&#39;indirizzo di posta elettronica** | Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al tuo inserisco nell&#39;elenco Consentiti di posta elettronica, consulta [Configurare il tuo inserisco nell&#39;elenco Consentiti di posta elettronica per l&#39;accesso ai messaggi di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

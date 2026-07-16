@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 361
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
    <td> <p>Se si aggiunge il campo a un modulo personalizzato:</p> 
     <ul> 
      <li>È possibile modificare le impostazioni relative al modulo per il campo, ad esempio la logica di visualizzazione, l'ordine tra gli altri campi del modulo, se si tratta di un campo obbligatorio del modulo e la possibilità di rimuoverlo dal modulo.</li> 
-     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l'etichetta, il nome e il tipo.</li> 
+     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l’etichetta, il nome API e il tipo.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
      <li>Gestione</li> 
      <li>Modificabile a livello di sistema</li> 
     </ul> </td> 
-   <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni, ad esempio l'etichetta, il nome e il tipo.</td> 
+   <td>Puoi aggiungere il campo ai moduli personalizzati e modificarne le relative impostazioni relative a qualsiasi campo, ad esempio l’etichetta, il nome API e il tipo.</td> 
   </tr> 
   <tr> 
    <td> 

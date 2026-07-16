@@ -5,26 +5,20 @@ description: La barra di navigazione superiore, visualizzata nella parte superio
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---
 
 # Panoramica della barra di navigazione superiore
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 La barra di navigazione superiore, visualizzata nella parte superiore dello schermo in [!DNL Adobe Workfront], consente di trovare e navigare facilmente in altre aree della piattaforma.
 
-<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
 ![Barra di navigazione superiore](assets/wf-top-navigation-070626.png)
-
-Immagine di esempio nell’ambiente di produzione:
-![Barra di navigazione superiore](assets/wf-top-navigation-2026.png)
 
 ## Icona [!UICONTROL Home]
 
@@ -132,13 +126,13 @@ Per ulteriori informazioni su notifiche e annunci, vedere [Visualizzare e gestir
 
 ## Menu [!UICONTROL Preferiti]
 
-L&#39;icona **[!UICONTROL Preferiti]** ![Preferiti](assets/favorites-icon-62x55.png) apre un elenco di pagine del sistema contrassegnate come preferite. Da questo menu puoi aggiungere la pagina alla quale sei attualmente iscritto.
+L&#39;icona **[!UICONTROL Preferiti]** ![Preferiti](assets/favorites-icon.png) apre un elenco di pagine del sistema contrassegnate come preferite. Da questo menu puoi aggiungere la pagina alla quale sei attualmente iscritto.
 
 Per ulteriori informazioni sui preferiti, vedere [Visualizzare e gestire i preferiti](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## Menu [!UICONTROL Recenti]
 
-L&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) apre un elenco di pagine visitate di recente.
+L&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon.png) apre un elenco di pagine visitate di recente.
 
 Per ulteriori informazioni sugli ultimi, vedere [Visualizza elementi recenti](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 

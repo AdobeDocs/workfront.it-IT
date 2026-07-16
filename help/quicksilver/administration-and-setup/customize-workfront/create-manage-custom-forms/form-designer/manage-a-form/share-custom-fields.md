@@ -3,7 +3,7 @@ title: Configurare la condivisione per campi e widget personalizzati
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
+description: Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome API. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -19,16 +19,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 746
 ht-degree: 5%
 
 ---
 
 # Configurare la condivisione per campi e widget personalizzati
 
-Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
+Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome API. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
 
 Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

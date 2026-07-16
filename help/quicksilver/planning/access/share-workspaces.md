@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1022
 ht-degree: 3%
 
 ---
@@ -63,9 +63,9 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> 
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
-<p>Qualsiasi pacchetto di Workflow e Planning</p> 
+<p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
  </tr>
 <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 

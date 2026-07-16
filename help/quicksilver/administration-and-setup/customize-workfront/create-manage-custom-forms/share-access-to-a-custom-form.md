@@ -19,16 +19,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # Condividere un modulo personalizzato
-
-{{preview-fast-release-general}}
 
 È possibile configurare l&#39;accesso per un modulo personalizzato in modo da controllare chi può visualizzarlo, condividerlo e modificarlo, ovvero la persona, il ruolo, il gruppo, il team, la società e il profilo aziendale.
 
@@ -64,9 +62,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per impostazione predefinita, quando si crea un nuovo modulo personalizzato e qualcuno lo allega a un oggetto, qualsiasi utente assegnato all’oggetto può visualizzare e compilare il modulo. Sono inclusi gli utenti con licenze Collaboratore o Richiesta e gli utenti esterni.
 
-Tuttavia, in un oggetto in cui il modulo personalizzato non è già allegato, un utente (anche se dispone di un livello di accesso Planner) non può allegarlo dal menu a discesa Forms personalizzato a meno che non si verifichi una delle seguenti condizioni:
+Tuttavia, in un oggetto in cui il modulo personalizzato non è già allegato, un utente (anche se dispone di un livello di accesso Standard o Planner) non può allegarlo dal menu a discesa Forms personalizzato a meno che non si verifichi una delle seguenti condizioni:
 
-* <span class="preview">Qualcuno ha condiviso il modulo personalizzato come &quot;Tutti nel sistema possono visualizzare e allegare&quot;</span>
+* Qualcuno ha condiviso il modulo personalizzato come &quot;Tutti nel sistema possono visualizzare e allegare&quot;
 * Qualcuno ha condiviso il modulo personalizzato con l’utente o con il suo team, mansione, gruppo, azienda o profilo aziendale concedendo almeno l’autorizzazione Visualizzazione con l’opzione Allega a dati personalizzati selezionata
 * L’utente dispone di una licenza Standard o Plan e il loro livello di accesso consente l’accesso amministrativo ai moduli personalizzati
 
@@ -171,22 +169,18 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
     </tbody> 
    </table>
 
-1. (Facoltativo) Ripeti i passaggi 5-6 per aggiungere altri nomi all’elenco e configurarne le opzioni.
+1. (Facoltativo) Ripeti i passaggi 4-5 per aggiungere altri nomi all’elenco e configurarne le opzioni.
 1. (Facoltativo) Se desideri limitare l&#39;accesso al modulo personalizzato (sugli oggetti a cui è allegato) a quelli specificati nei passaggi precedenti, fai clic sulla freccia a discesa sotto **Chi ha accesso**, quindi seleziona **Solo gli invitati possono accedere**.
 
    Se cambi idea, puoi selezionare **Tutti nel sistema possono visualizzare**.
 
    >[!NOTE]
    >
-   >* Quando si rende visibile un modulo personalizzato a livello di sistema, è possibile consentire agli utenti di visualizzarlo e compilarlo solo sugli oggetti a cui sono assegnati, non di allegarlo ad altri oggetti. È possibile concedere la possibilità di allegare il modulo personalizzato agli oggetti utilizzando l&#39;opzione &quot;Allega a dati personalizzati&quot; descritta nel passaggio 6.
+   >* Quando si rende visibile un modulo personalizzato a livello di sistema, è possibile consentire agli utenti di visualizzarlo e compilarlo solo sugli oggetti a cui sono assegnati, non di allegarlo ad altri oggetti. È possibile concedere la possibilità di allegare il modulo personalizzato agli oggetti utilizzando l&#39;opzione &quot;Allega a dati personalizzati&quot; descritta nel passaggio 5.
    >* La maggior parte delle organizzazioni desidera assicurarsi che tutti gli utenti del sistema possano compilare un modulo personalizzato quando è allegato agli oggetti su cui lavorano e visualizzarne i dati nei rapporti. Se questo è vero per la tua organizzazione, ti consigliamo di utilizzare **Tutti nel sistema possono visualizzare**.
-   >* <span class="preview">Se si seleziona **Tutti gli utenti del sistema possono visualizzare e allegare**, tutti gli utenti possono allegare il modulo ad altri oggetti.</span>
+   >* Se si seleziona **Tutti nel sistema possono visualizzare e allegare**, tutti gli utenti possono allegare il modulo ad altri oggetti.
    >
-   ><span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    >![Condividi modulo personalizzato](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Immagine di esempio nell’ambiente di produzione:
-   >![Condividi modulo personalizzato](assets/share-custom-form-in-designer.png)
    >   
    >Se si teme un modulo personalizzato in cui gli utenti potrebbero immettere dati sensibili quando è allegato a determinati oggetti, limitare la condivisione per questi *oggetti* potrebbe essere più efficace rispetto a limitare l&#39;accesso al modulo stesso.
 

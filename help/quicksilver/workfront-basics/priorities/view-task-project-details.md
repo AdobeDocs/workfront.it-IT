@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
+source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 10%
@@ -83,7 +83,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    * Aggiungi un file
    * Vai direttamente al progetto
 
-   ![dettagli progetto](assets/project-details-new.png)
+   ![dettagli progetto](assets/project-details-060226.png)
 
 ### Visualizza dettagli attività
 
@@ -99,8 +99,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    * Aggiungi un file
    * Aggiungi collegamenti rapidi
 
-
-   ![dettagli attività](assets/task-details-new.png)
+   ![dettagli attività](assets/task-details-060226.png)
 
 ### Visualizza dettagli problema
 
@@ -117,7 +116,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       * Aggiungi un file
       * Aggiungi collegamenti rapidi
 
-   ![dettagli problema](assets/issue-details.png)
+   ![dettagli problema](assets/issue-details-060226.png)
 
 ## Visualizzare i dettagli nella pagina Dettagli
 

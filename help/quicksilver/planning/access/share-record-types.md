@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1498'
 ht-degree: 2%
 
 ---
@@ -56,9 +56,9 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> 
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
-<p>Qualsiasi pacchetto di Workflow e Planning</p> 
+<p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
  </tr>
 
 <tr> 

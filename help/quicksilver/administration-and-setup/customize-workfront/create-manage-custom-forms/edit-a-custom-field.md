@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Aggiungere o modificare un campo personalizzato, un'interruzione di sezione o un widget
-description: Puoi modificare le proprietà di un campo personalizzato, di un’interruzione di sezione o di un widget utilizzato nel modulo personalizzato nella tua istanza di Adobe Workfront. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
+description: Puoi modificare le proprietà di un campo personalizzato, di un’interruzione di sezione o di un widget utilizzato nel modulo personalizzato nella tua istanza di Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 22%
+source-wordcount: 400
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo.
 
-È inoltre possibile modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget utilizzato nei moduli personalizzati. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
+È inoltre possibile modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget utilizzato nei moduli personalizzati. Questi includono l’etichetta dell’elemento, il nome API, le istruzioni e così via.
 
 Se si imposta un campo personalizzato come inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati. Tutti i nuovi campi sono impostati su Attivo per impostazione predefinita.
 
