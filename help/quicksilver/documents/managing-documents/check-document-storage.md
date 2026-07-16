@@ -9,24 +9,18 @@ exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vOjgBLxX5rFIGHBCHB2a6Q3Bs3KE5x-opXUMvANjI1E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Verificare i limiti di archiviazione dei documenti
-
-{{highlighted-preview}}
 
 Anche se non esistono restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront include una quota di archiviazione totale. In qualità di amministratore di Workfront, puoi monitorare l’utilizzo e la quota dall’area Configurazione della pagina Informazioni cliente.
 
@@ -62,7 +56,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-## Storage Workfront legacy
+## Archiviazione legacy di Workfront
 
 Se l&#39;organizzazione utilizza un sistema di storage Workfront legacy, nella pagina Informazioni cliente viene visualizzata una quota singola per i documenti caricati direttamente in Workfront.
 
@@ -78,8 +72,6 @@ La quota di archiviazione viene aggiornata quotidianamente per mostrare il conte
 >[!NOTE]
 >
 >Questo limite non si applica ai documenti collegati a Workfront da altri provider di servizi di terze parti (SharePoint, Google Drive, Webdam, Box, Dropbox o qualsiasi altro provider di gestione di risorse di documenti).
-
-<div class="preview">
 
 ## Archiviazione cloud Adobe
 
@@ -107,5 +99,3 @@ I dati di utilizzo vengono aggiornati regolarmente in modo da visualizzare un co
 ### Notifiche e-mail per gli amministratori
 
 Quando l&#39;utilizzo supera il 75%, 90% o 100% della quota di storage, Workfront invia una notifica e-mail agli amministratori di sistema.
-
-</div>
