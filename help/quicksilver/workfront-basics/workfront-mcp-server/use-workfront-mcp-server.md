@@ -5,17 +5,15 @@ title: Utilizzare il server MCP di Adobe Workfront
 description: Utilizza il server MCP di Adobe Workfront per cercare, creare, aggiornare e gestire elementi Workfront tramite conversazioni in linguaggio naturale in una piattaforma di intelligenza artificiale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: e009d9d52ddb478759c11a20967d48049f797d97
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
 
 
 # Utilizzare il server MCP di Adobe Workfront
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il server MCP [!DNL Adobe Workfront] ti consente di trovare, creare, aggiornare e gestire elementi Workfront chiedendo a una piattaforma di agenti di intelligenza artificiale in linguaggio naturale. La piattaforma decide quali azioni Workfront chiamare e gestisce la conversazione con Workfront per te.
 
@@ -211,7 +209,8 @@ stai lavorando con.
 ### La piattaforma per agenti di intelligenza artificiale mi chiederà prima di modificare o eliminare i dati di Workfront?
 
 Questo dipende dalla piattaforma dell’agente di intelligenza artificiale, non da Workfront. La maggior parte delle piattaforme
-chiedi conferma prima di eseguire un’azione, in particolare per le eliminazioni.Prima di approvare una richiesta, leggi cosa dice la piattaforma che sta per fare —
+chiedi conferma prima di eseguire un’azione, in particolare per le eliminazioni.
+Prima di approvare una richiesta, leggi cosa dice la piattaforma che sta per fare —
 le modifiche vengono apportate in Workfront nello stesso modo in cui accadrebbero se fossero apportate
 nell’interfaccia.
 
@@ -243,7 +242,8 @@ approvazioni, record di Planning e altro ancora.
 
 ### Altre persone possono vedere le mie conversazioni con la piattaforma di agenti di intelligenza artificiale?
 
-Workfront non memorizza le richieste o le risposte della piattaforma di agente di intelligenza artificiale.Chiunque fornisca la piattaforma di agenti di intelligenza artificiale controlla in che modo le conversazioni
+Workfront non memorizza le richieste o le risposte della piattaforma di agente di intelligenza artificiale.
+Chiunque fornisca la piattaforma di agenti di intelligenza artificiale controlla in che modo le conversazioni
 sono archiviati o condivisi. Rivolgiti al provider di piattaforme AI per sapere
 dettagli.
 
