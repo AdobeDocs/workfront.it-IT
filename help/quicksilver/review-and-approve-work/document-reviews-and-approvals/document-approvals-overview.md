@@ -10,26 +10,21 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 4173
+source-wordcount: 4149
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla revisione e sull’approvazione unificata
 
-{{highlighted-preview}}
-
-La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
+La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.
+I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
 
 ![Diagramma che mostra il flusso di lavoro unificato di revisione e approvazione, con i coordinatori del progetto che gestiscono il lavoro in Workfront e i revisori e gli approvatori che forniscono feedback e prendono decisioni nel visualizzatore Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -288,13 +283,9 @@ Sì. Un utente può essere assegnato a più fasi all’interno dello stesso flus
 
 Sì. Sono supportati flussi di lavoro di approvazione in più fasi, che consentono di indirizzare le risorse attraverso cicli sequenziali di revisione e approvazione con partecipanti diversi in ogni fase.
 
-<div class="preview">
-
 **È possibile configurare percorsi di revisione paralleli in un flusso di lavoro di approvazione?**
 
-Sì. In Anteprima, i flussi di lavoro di approvazione supportano percorsi paralleli oltre alle fasi sequenziali. Ogni percorso viene eseguito in modo indipendente e contiene uno o più stadi sequenziali, pertanto le revisioni su percorsi diversi possono avvenire contemporaneamente. Puoi configurare fino a 30 percorsi e 100 stadi in una singola approvazione. Le stesse opzioni sono disponibili nei modelli di approvazione. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-</div>
+Sì. I flussi di lavoro di approvazione supportano percorsi paralleli oltre alle fasi sequenziali. Ogni percorso viene eseguito in modo indipendente e contiene uno o più stadi sequenziali, pertanto le revisioni su percorsi diversi possono avvenire contemporaneamente. Puoi configurare fino a 30 percorsi e 100 stadi in una singola approvazione. Le stesse opzioni sono disponibili nei modelli di approvazione. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) e [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -322,9 +313,7 @@ Attualmente, i modelli di approvazione supportano singoli utenti e team.
 
 Sì. Gli approvatori e i revisori ricevono notifiche e-mail quando vengono assegnati a una revisione o approvazione. Anche le e-mail di promemoria automatizzati vengono inviate 72 ore prima della scadenza, 24 ore prima e alla scadenza stessa.
 
-In Produzione, la possibilità di personalizzare i messaggi di notifica e-mail non è attualmente disponibile, ma si trova nella roadmap del prodotto.
-
-<span class="preview">In Anteprima è possibile aggiungere un messaggio personalizzato a ogni fase di un flusso di lavoro di approvazione. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront. È possibile utilizzare lo stesso messaggio per ogni fase o un messaggio diverso per ogni fase e il messaggio può contenere fino a 500 caratteri. Se modifichi un messaggio personalizzato dopo la creazione del flusso di lavoro di approvazione, a tutti i partecipanti esistenti viene inviata una notifica e-mail aggiornata. Se aggiungi un partecipante in un secondo momento, il messaggio personalizzato viene incluso nella notifica e-mail. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+Puoi aggiungere un messaggio personalizzato a ogni fase di un flusso di lavoro di approvazione. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront. È possibile utilizzare lo stesso messaggio per ogni fase o un messaggio diverso per ogni fase e il messaggio può contenere fino a 500 caratteri. Se modifichi un messaggio personalizzato dopo la creazione del flusso di lavoro di approvazione, a tutti i partecipanti esistenti viene inviata una notifica e-mail aggiornata. Se aggiungi un partecipante in un secondo momento, il messaggio personalizzato viene incluso nella notifica e-mail. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

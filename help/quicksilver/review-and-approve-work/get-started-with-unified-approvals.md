@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
 
 # Introduzione a revisione e approvazione unificate
-
-{{highlighted-preview}}
 
 La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza con connessioni avanzate, che consente di colmare il divario tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti. I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
 
@@ -64,11 +62,11 @@ I coordinatori dei progetti possono creare modelli di approvazione riutilizzabil
 
 Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvazione a utente singolo o a un modello di approvazione riutilizzabile:
 
-* **Approvazioni per singolo utilizzo**: nel progetto o nell&#39;attività in cui risiede la risorsa, il coordinatore del progetto può assegnare revisori e approvatori e impostare una scadenza di completamento. Ai revisori e agli approvatori viene inviato un promemoria tramite e-mail 72 ore prima della scadenza, 24 ore prima della scadenza e quindi sulla scadenza stessa. <span class="preview">In Anteprima è inoltre possibile configurare approvazioni in più fasi e percorsi paralleli in modo che più tracce di revisione vengano eseguite contemporaneamente.</span>
+* **Approvazioni per singolo utilizzo**: nel progetto o nell&#39;attività in cui risiede la risorsa, il coordinatore del progetto può assegnare revisori e approvatori e impostare una scadenza di completamento. Ai revisori e agli approvatori viene inviato un promemoria tramite e-mail 72 ore prima della scadenza, 24 ore prima della scadenza e quindi sulla scadenza stessa. È inoltre possibile configurare approvazioni in più fasi e percorsi paralleli in modo che più tracce di revisione vengano eseguite contemporaneamente.
 
   Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Modelli di approvazione**: nell&#39;area Configurazione di Workfront i coordinatori del progetto possono creare modelli di approvazione riutilizzabili. All’interno di un modello, gli utenti possono aggiungere revisori e approvatori e specificare un arco temporale di completamento. Quando il modello di approvazione viene applicato a una risorsa, la scadenza viene calcolata a partire dall’intervallo di tempo specificato. <span class="preview">In Anteprima, i modelli di approvazione supportano approvazioni in più fasi e percorsi paralleli, che corrispondono alle opzioni di configurazione disponibili nelle approvazioni a uso singolo.</span>
+* **Modelli di approvazione**: nell&#39;area Configurazione di Workfront i coordinatori del progetto possono creare modelli di approvazione riutilizzabili. All’interno di un modello, gli utenti possono aggiungere revisori e approvatori e specificare un arco temporale di completamento. Quando il modello di approvazione viene applicato a una risorsa, la scadenza viene calcolata a partire dall’intervallo di tempo specificato. I modelli di approvazione supportano le approvazioni in più fasi e i percorsi paralleli, in linea con le opzioni di configurazione disponibili nelle approvazioni per singolo utilizzo.
 
   Una volta creato, un modello può essere applicato a una risorsa per iniziare il processo formale di revisione e approvazione in Workfront.
 

@@ -9,27 +9,19 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
 workflow-type: tm+mt
-source-wordcount: 1196
-ht-degree: 5%
+source-wordcount: 798
+ht-degree: 7%
 
 ---
 
 # Caricare una nuova versione del documento e richiedere un’approvazione
-
-{{highlighted-preview}}
 
 Se un documento è contrassegnato come &quot;Da lavorare&quot; in una revisione precedente, è possibile caricare una nuova versione nel documento originale e avviare un altro ciclo di approvazioni. Dopo aver caricato una nuova versione del documento, le versioni precedenti vengono bloccate.
 
@@ -78,76 +70,77 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 
 
-## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy in Produzione
+<!--
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
-Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
->Il trascinamento della selezione non funziona con Internet Explorer.
+>Drag-and-drop does not work with Internet Explorer.
 
 
-Se è necessario eseguire un altro ciclo di revisione e approvazione su un documento, è possibile creare una nuova versione del documento in Workfront.
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
-È possibile aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nella pagina Dettagli documento.
+You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
 
-Per aggiungere una nuova versione:
+To add a new version:
 
-1. Passare al documento in Workfront.
-1. Trascinare il nuovo file sopra il documento precedente. Viene creata automaticamente una nuova versione.
+1. Navigate to the document in Workfront.
+1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. Al termine del caricamento del documento, selezionare il documento per aprire il pannello Riepilogo documento. Qui puoi vedere il numero di versione nella parte superiore del pannello.
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
-1. Scorri verso il basso fino alla sezione **Approvazioni**.
+1. Scroll down to the **Approvals** section.
 
-1. Fai clic su **Crea flusso di lavoro**, quindi compila i seguenti dettagli:
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nome fase</strong></td>
-   <td>Aggiungete un nome di fase. È possibile modificare il nome in modo che sia più descrittivo, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>È necessaria una sola decisione (opzionale)</strong></td>
-   <td>La prima persona che prende una decisione completa la fase.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Data di scadenza (facoltativo)</strong></td>
-   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altre fasi in base alle esigenze.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Se aggiungi più fasi, il flusso di lavoro di approvazione procede nell’ordine in cui sono elencate. Quando tutte le decisioni necessarie vengono prese, inizia la fase successiva e la fase precedente viene bloccata.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
 
 
-1. (Facoltativo) Per aggiungere un modello di approvazione esistente, seleziona un modello dalla parte sinistra della finestra di dialogo.
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
-   >   Gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili dall’area Configurazione. Per ulteriori informazioni, vedere [Creare un modello di workflow di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. Dopo aver aggiunto tutte le fasi e i partecipanti necessari, fai clic su **Richiedi approvazione**.
+1. Once you have added all the stages and participants you need, click **Request approval**.
 
-   Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-   !&lbrack;richiedi approvazione
-   <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+    ![request approval](assets/request-approval.png)
+-->
 
-<div class="preview">
+<!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
-## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy in Anteprima
+## Usa il trascinamento della selezione per aggiungere una nuova versione nell’area dei documenti legacy
 
 Se l&#39;organizzazione utilizza l&#39;archiviazione Workfront, quando si accede ai documenti in Workfront verrà visualizzata l&#39;area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione cloud Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -171,11 +164,12 @@ Per aggiungere una nuova versione e richiedere l’approvazione:
 
 1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+1. Per copiare gli stessi revisori e approvatori dalla versione precedente del documento, fare clic su **Copia**.
 1. Fai clic su **Richiedi approvazione**.
 
    Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
 
-## Trascinare la selezione per aggiungere una nuova versione nell&#39;area Nuovi documenti di Anteprima
+## Usa il trascinamento della selezione per aggiungere una nuova versione nella nuova area Documenti
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -203,8 +197,7 @@ Per aggiungere una nuova versione e richiedere l’approvazione:
 
 1. Configura il flusso di lavoro di approvazione. Per le descrizioni dei campi, l&#39;attivazione della modalità avanzata e il flusso dei percorsi paralleli, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+1. Per copiare gli stessi revisori e approvatori dalla versione precedente del documento, fare clic su **Copia**.
 1. Fai clic su **Richiedi approvazione**.
 
    Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
-
-</div>
