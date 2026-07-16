@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
 TQID: https://experienceleague.adobe.com/4d0RZrZxzslU973OcCK32h-IuwmoARE0CaSc75Zmj2M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 206
 ht-degree: 24%
@@ -55,7 +51,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Visualizzare gli elementi recenti
 
-1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) nell&#39;angolo superiore destro di qualsiasi pagina.
+1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon.png) nell&#39;angolo superiore destro di qualsiasi pagina.
 
    ![Elenco recenti](assets/recents-list.png)
 

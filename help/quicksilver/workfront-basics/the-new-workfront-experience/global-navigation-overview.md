@@ -5,26 +5,20 @@ description: La barra di navigazione superiore, visualizzata nella parte superio
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---
 
 # Panoramica della barra di navigazione superiore
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 La barra di navigazione superiore, visualizzata nella parte superiore dello schermo in [!DNL Adobe Workfront], consente di trovare e navigare facilmente in altre aree della piattaforma.
 
-<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
 ![Barra di navigazione superiore](assets/wf-top-navigation-070626.png)
-
-Immagine di esempio nell’ambiente di produzione:
-![Barra di navigazione superiore](assets/wf-top-navigation-2026.png)
 
 ## Icona [!UICONTROL Home]
 
@@ -59,7 +53,7 @@ Per ulteriori informazioni su ciascuna area, consulta:
      <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gestione Portfolio</a></li> 
      <li>[!UICONTROL Programs]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Crea e gestisci programmi </a></li> 
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Progetti: indice articolo</a></li> 
-     <li>Rapporti di : <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
+     <li>Rapporti di [!UICONTROL]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendari: indice articolo</a></li> 
      <li>[!UICONTROL Assorbimento Risorse]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gestione Risorse </a></li> 
@@ -94,7 +88,7 @@ Nella parte inferiore del menu principale è possibile accedere ai seguenti elem
    <td> <p>Facendo clic su <b>[!UICONTROL Setup]</b> si accede all'area [!UICONTROL Setup] in cui è possibile configurare diversi aspetti dell'account [!DNL Workfront]. A seconda delle impostazioni di accesso, ciò che puoi configurare potrebbe essere limitato.</p> <p>Per ulteriori informazioni sull'area [!UICONTROL Setup], vedere <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Amministrazione e configurazione: indice articolo</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p class="bold">Guida di </p> </td> 
+   <td> <p class="bold">Guida di [!UICONTROL]</p> </td> 
    <td> <p>Facendo clic su <b>[!UICONTROL Help]</b> ci si reca a [!DNL Adobe Experience League] dove è possibile accedere agli articoli della guida, trovare corsi di formazione, inviare un ticket all'assistenza clienti e così via.</p> <p>Per ulteriori informazioni su [!DNL Experience League] o altri metodi per ottenere assistenza, vedere <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">La guida rapida alla ricerca di informazioni in Adobe Workfront</a>.</p> </td> 
   </tr>
   <!--
@@ -132,13 +126,13 @@ Per ulteriori informazioni su notifiche e annunci, vedere [Visualizzare e gestir
 
 ## Menu [!UICONTROL Preferiti]
 
-L&#39;icona **[!UICONTROL Preferiti]** ![Preferiti](assets/favorites-icon-62x55.png) apre un elenco di pagine del sistema contrassegnate come preferite. Da questo menu puoi aggiungere la pagina alla quale sei attualmente iscritto.
+L&#39;icona **[!UICONTROL Preferiti]** ![Preferiti](assets/favorites-icon.png) apre un elenco di pagine del sistema contrassegnate come preferite. Da questo menu puoi aggiungere la pagina alla quale sei attualmente iscritto.
 
 Per ulteriori informazioni sui preferiti, vedere [Visualizzare e gestire i preferiti](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## Menu [!UICONTROL Recenti]
 
-L&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) apre un elenco di pagine visitate di recente.
+L&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon.png) apre un elenco di pagine visitate di recente.
 
 Per ulteriori informazioni sugli ultimi, vedere [Visualizza elementi recenti](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 

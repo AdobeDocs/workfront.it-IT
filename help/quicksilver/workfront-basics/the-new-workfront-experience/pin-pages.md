@@ -6,24 +6,18 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 7%
+source-wordcount: 348
+ht-degree: 11%
 
 ---
 
 # Fissare le pagine per personalizzare l’area di lavoro
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +58,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nell&#39;angolo superiore sinistro della pagina fare clic su **[!UICONTROL Aggiungi pagina corrente]**. La pagina bloccata è ora accessibile dalla parte superiore di qualsiasi pagina in [!DNL Workfront].
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:
    ![Inserisci puntina alla pagina corrente](assets/pin-current-page-button-2026.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Inserisci puntina alla pagina corrente](assets/pin-current-page-button.png)
 
 ## Accedere a una pagina bloccata
 
@@ -82,15 +72,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Se hai fissato molte pagine, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Fai clic sull&#39;icona Altro](assets/more-icon.png) per visualizzare altre pagine fissate.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:
    ![Inserisci puntina alla pagina corrente](assets/display-pinned-pages-2026.png)
 
-   Immagine di esempio nell’ambiente di produzione:
-   ![Visualizza altre pagine bloccate](assets/display-pinned-pages.png)
-
    Viene visualizzata la pagina bloccata.
-
-<div class="preview">
 
 ## Gestisci pin
 
@@ -107,36 +91,35 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **Chiudi** al termine della modifica dei pin.
 
-</div>
+<!--
+## Rename a pinned page
 
-## Rinominare una pagina bloccata
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. Passa il puntatore del mouse sulla pagina bloccata nella navigazione superiore.
-1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) visualizzata accanto al nome del pin e seleziona **[!UICONTROL Rinomina pin]**.
+   ![Rename pin](assets/pin-menu.png)
 
-   ![Rinomina pin](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. Digita il nuovo nome del pin, quindi fai clic su **Salva**.
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![Fare clic sul segno di spunta per rinominare il pin](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## Riordinare le pagine bloccate
+You can rearrange the order that pinned pages appear.
 
-È possibile modificare l&#39;ordine di visualizzazione delle pagine bloccate.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. Passa il puntatore del mouse sulla pagina bloccata da spostare, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png).
-1. Scegli **Sposta a sinistra** o **Sposta a destra** per spostare il pin.
-1. (Facoltativo) Scegli **Sposta in primo piano** per spostare il pin nella posizione più a sinistra della barra del pin.
+   ![move pins](assets/pin-menu.png)
 
-   ![sposta pin](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   Le modifiche vengono salvate automaticamente e memorizzate al successivo accesso a Workfront.
+## Remove a pinned page
 
-## Rimuovere una pagina bloccata
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) accanto al pin che desideri rimuovere.
-1. Fare clic su **Rimuovi pin**. La pagina non è più accessibile dalla parte superiore di alcuna pagina in [!DNL Workfront].
-
-   ![Rimuovi pin](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 
