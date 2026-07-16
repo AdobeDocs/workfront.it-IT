@@ -7,17 +7,12 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 11%
@@ -76,67 +71,68 @@ Puoi filtrare le attività e i problemi assegnati.
 
 1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
 1. Nella sezione **Filtri standard**, seleziona uno o più filtri per limitare gli elementi di lavoro.
-   ![Filtro](assets/filter-new.png)
+   ![Filtro](assets/filter-060226.png)
 
-+++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
-<table>
-  <tbody>
-   <tr>
-   <th>Filtro</th>
-   <th>Descrizione</th>
-   </tr>
-    <tr>
-      <td>Ci sto lavorando</td>
-      <td>Visualizza gli elementi su cui si sta lavorando</td>
-    </tr>
-    <tr>
-      <td>È il momento di iniziare?</td>
-      <td>Visualizza gli elementi con 
-      <ul>
-      <li>Nessun predecessore o vincolo di attività incompleto</li>
-      <p>e</p>
-      <li>La data di inizio pianificata è nel passato o è prevista entro due settimane</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Non pronto</td>
-      <td>Visualizza gli elementi con
-       <ul>
-      <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li></ul>
-      <p>oppure</p>
-      <ul>
-      <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Richiesto il</td>
-      <td>Visualizza i problemi per i quali non hai iniziato a lavorare</td>
-    </tr>
-      <td>Terminato</td>
-      <td>Visualizza il lavoro completato nelle ultime due settimane. Questa opzione di filtro non include le approvazioni.</td>
-    </tr>
-    <tr>
-    <td>Progetto</td>
-    <td>Visualizza i progetti che contengono le attività o i problemi assegnati</td>
-    </tr>
-    <tr>
-    <td>Data di scadenza</td>
-    <td>Visualizza il lavoro per data di completamento pianificata</td>
-    </tr>
-    <tr>
-    <td>Il mio focus</td>
-    <td>Visualizza le attività o i problemi a cui sono stati assegnati livelli di attivazione. I livelli di attivazione vengono assegnati e gestiti dal singolo utente.</td>
-    </tr>
-    <tr>
-    <td>Stato</td>
-    <td>Visualizza le attività o i problemi in stato Nuovo, In corso e Completato.</td>
-    </tr>
-  </tbody>
-</table>
+   +++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
+   <table>
+     <tbody>
+      <tr>
+      <th>Filtro</th>
+      <th>Descrizione</th>
+      </tr>
+       <tr>
+         <td>Ci sto lavorando</td>
+         <td>Visualizza gli elementi su cui si sta lavorando</td>
+       </tr>
+       <tr>
+         <td>È il momento di iniziare?</td>
+         <td>Visualizza gli elementi con 
+         <ul>
+         <li>Nessun predecessore o vincolo di attività incompleto</li>
+         <p>e</p>
+         <li>La data di inizio pianificata è nel passato o è prevista entro due settimane</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>Non pronto</td>
+         <td>Visualizza gli elementi con
+          <ul>
+         <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li></ul>
+         <p>oppure</p>
+         <ul>
+         <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>Richiesto il</td>
+         <td>Visualizza i problemi per i quali non hai iniziato a lavorare</td>
+       </tr>
+       <tr>
+         <td>Terminato</td>
+         <td>Visualizza il lavoro completato nelle ultime due settimane. Questa opzione di filtro non include le approvazioni.</td>
+       </tr>
+       <tr>
+          <td>Progetto</td>
+          <td>Visualizza i progetti che contengono le attività o i problemi assegnati</td>
+       </tr>
+       <tr>
+          <td>Data di scadenza</td>
+          <td>Visualizza il lavoro per data di completamento pianificata</td>
+       </tr>
+       <tr>
+          <td>Il mio focus</td>
+          <td>Visualizza le attività o i problemi a cui sono stati assegnati livelli di attivazione. I livelli di attivazione vengono assegnati e gestiti dal singolo utente.</td>
+       </tr>
+       <tr>
+          <td>Stato</td>
+          <td>Visualizza le attività o i problemi in stato Nuovo, In corso e Completato.</td>
+       </tr>
+     </tbody>
+   </table>
 
-+++
+   +++
 
 1. (Facoltativo) Fai clic su **Torna al valore predefinito** per ripristinare la selezione.
 
@@ -167,9 +163,9 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 1. Fai clic su **Raggruppamento** in alto a sinistra nell&#39;elenco lavori.
 1. Selezionare un raggruppamento per organizzare l&#39;elenco lavori.
 
-![Gruppi](assets/groups-new.png)
+![Gruppi](assets/groupings-060226.png)
 
-+++Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
++++ Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
 
 | Gruppo | Descrizione |
 |-----------|-------------|

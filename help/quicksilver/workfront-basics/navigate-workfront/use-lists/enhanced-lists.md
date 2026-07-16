@@ -8,26 +8,19 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3142
 ht-degree: 2%
 
 ---
 
 # Utilizzare gli elenchi avanzati
-
-{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -101,21 +94,17 @@ A seconda dell’elenco avanzato che stai visualizzando, effettua una delle segu
    * Divisa: è necessario immettere le informazioni in un formato numerico preceduto da un simbolo di divisa.
    * Data: utilizza il calendario per selezionare una data.
    * Data e ora: utilizza il calendario per selezionare una data e un’ora.
-   * Menu a discesa a selezione singola o multipla: selezionare una o più opzioni da un menu a discesa. <span class="preview">Se sono supportate in un elenco, è possibile creare nuove opzioni direttamente dal menu a discesa quando non viene trovato alcun risultato.</span>
+   * Menu a discesa a selezione singola o multipla: selezionare una o più opzioni da un menu a discesa. Se supportate in un elenco, puoi creare nuove opzioni direttamente dal menu a discesa quando non viene trovato alcun risultato.
    * Automatico: digitare il nome di un oggetto esistente (ad esempio, il nome di un gruppo o di un progetto) e sceglierlo dall&#39;elenco dei suggerimenti.
    * Paragrafo: è possibile inserire più righe di informazioni alfanumeriche.
    * Assegnatario (uno o più): selezionare uno o più utenti come assegnatari della voce di elenco.
    * Selettore colore: scegli un colore dal selettore oppure digita un codice come Esadecimale o RGB.
-
-   <div class="preview">
 
    I campi a discesa Assegnatario, Selezione singola e Selezione multipla supportano i seguenti comandi da tastiera:
 
    * Utilizzare le frecce su e giù della tastiera per spostarsi nell&#39;elenco degli elementi.
    * Premere la barra spaziatrice per selezionare un elemento.
    * Premere il tasto Canc per rimuovere un elemento selezionato.
-
-   </div>
 
    >[!NOTE]
    >

@@ -7,24 +7,18 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 10%
+source-wordcount: 431
+ht-degree: 11%
 
 ---
 
 # Personalizzare le colonne dell’elenco di lavoro Priorità
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +83,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. Fai clic su **Colonne** nella parte sinistra della schermata.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Colonne](assets/columns-new-060226.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Colonne](assets/columns-new.png)
 
 1. Utilizzare gli interruttori per visualizzare o nascondere le colonne nell&#39;elenco lavori.
 
@@ -109,8 +99,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 >
 >La colonna Nome è fissa e non può essere spostata.
 
-<div class="preview">
-
 ### Aggiungere e rimuovere colonne con Gestione colonne
 
 {{step1-to-priorities}}
@@ -123,8 +111,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    >È possibile aggiungere solo campi esistenti alla visualizzazione elenco. Sono disponibili campi nativi e personalizzati per attività e problemi da aggiungere come colonne.
 
 Per ulteriori informazioni sul gestore colonne, vedere la sezione [Aggiungere e rimuovere colonne con il gestore colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
 
 ### Modificare l&#39;altezza della riga nell&#39;elenco delle priorità
 
@@ -141,8 +127,6 @@ Per ulteriori informazioni sul gestore colonne, vedere la sezione [Aggiungere e 
 
    L’elenco viene aggiornato immediatamente.
 
-<div class="preview">
-
 ## Gestire le visualizzazioni per l&#39;elenco delle priorità
 
 Una vista definisce le colonne, i filtri e i raggruppamenti nell’elenco con le impostazioni predefinite.
@@ -157,5 +141,3 @@ All&#39;elenco delle priorità viene assegnata una vista predefinita. Puoi anche
    Le modifiche alle viste vengono salvate automaticamente. Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
 
 Per ulteriori informazioni sulle visualizzazioni, vedere la sezione [Aggiornare gli elementi dell&#39;elenco avanzato](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
