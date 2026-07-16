@@ -9,14 +9,11 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1287
 ht-degree: 5%
 
 ---
@@ -27,9 +24,11 @@ ht-degree: 5%
 
 # Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 * Record
 
    * Puoi condividere i documenti con le persone all’interno della tua organizzazione.
@@ -71,7 +68,7 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi record](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 
 * Viste
 
@@ -190,19 +187,19 @@ Esistono i seguenti scenari:
 
 Per impostazione predefinita, le autorizzazioni dei record vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
-Nell’ambiente di produzione, i livelli di autorizzazione per i record sono i seguenti:
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | Gestione | Contribuisci | Visualizzazione |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Crea | ✓ | ✓ |       |
-| Elimina | ✓ | ✓ |       |
-| Modifica | ✓ | ✓ |       |
-| Visualizzazione | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-Nell&#39;ambiente di anteprima i livelli di autorizzazione per i record sono i seguenti:
+Di seguito sono riportati i livelli di autorizzazione per i record:
 
 |        | Gestione | Visualizzazione |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ Esistono i seguenti scenari:
 >[!NOTE]
 >
 >*Quando si rimuovono le autorizzazioni da un record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
-
-</div>
 
 ### Autorizzazioni per registrare i campi
 

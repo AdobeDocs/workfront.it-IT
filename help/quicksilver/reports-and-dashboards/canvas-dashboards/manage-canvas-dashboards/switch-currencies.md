@@ -6,10 +6,10 @@ description: È possibile utilizzare i campi della valuta in un dashboard Area d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 7%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Questa versione beta non è disponibile nei seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.<br>
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
 >* Piattaforma Google Cloud
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Requisiti di accesso
 
@@ -143,19 +145,18 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
 <ul>
 <li>Utilizzare i campi della valuta nativa nei report di grafici, indicatori KPI e tabelle dell'area di lavoro</li>
 <li>Utilizzare campi di valuta personalizzati nei report grafico, KPI e grafico dell’area di lavoro</li>
+<li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella </li>
 </ul>
+<p><b>NOTA</b></p>
+Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che venga visualizzato un messaggio di errore quando.
 </td>
 <td>
 <ul>
 <li>Assegna una valuta predefinita al dashboard (al momento della creazione o della modifica del dashboard)</li>
 <li>Visualizzare e utilizzare l’interruttore della valuta a livello di dashboard</li>
 <li>Blocca una valuta specifica per la visualizzazione in un grafico a quadro, in un indicatore KPI o in un rapporto di tabella</li>
-<li>Utilizzare i campi della valuta di Planning in un grafico a canvas, in un indicatore KPI e nei rapporti di tabella <span class="preview"> nell'ambiente di produzione. Disponibile nell'ambiente di anteprima.</span></li>
+
 </ul>
-
-<p><b>NOTA</b></p>
-<span class="preview">Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che nel dashboard di Canvas venga visualizzato un messaggio di errore quando.</span>
-
 </td> 
 </tr>
 </td> 
@@ -168,17 +169,19 @@ La tabella seguente illustra le limitazioni relative alle valute definite nell&#
   <li>Imposta una valuta predefinita per il dashboard (durante la creazione o la modifica del dashboard)</li>
   <li>Visualizzare e utilizzare l’interruttore della valuta a livello di dashboard</li>
   <li>Blocca una valuta specifica per la visualizzazione in un rapporto di grafico, indicatore KPI o tabella per ignorare la preferenza di attivazione/disattivazione della valuta nel dashboard</li>
+  <li>Utilizzare i campi della valuta di Planning in un grafico a quadro, in un indicatore KPI e in rapporti di tabella </li>
 </ul>
+<p><b>NOTA</b></p>
+
+<p>Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che venga visualizzato un messaggio di errore quando.</p>
 </td>
 <td><ul>
   <li>Utilizzare campi di valuta dei dati personalizzati nei rapporti di grafico, KPI e tabella dell’area di lavoro</li>
-  <li>Utilizzare i campi della valuta di Planning in un grafico a canvas, in un indicatore KPI e nei rapporti di tabella <span class="preview"> nell'ambiente di produzione. Disponibile nell'ambiente di anteprima.</span></li>
+
 </ul>
 
 
-<p><b>NOTA</b></p>
 
-<p><span class="preview">Se in un campo Valuta di Planning viene utilizzata una valuta senza un tasso di cambio definito, è possibile che venga visualizzato un messaggio di errore quando.</span></p>
 
 </td>
 </tr></table>

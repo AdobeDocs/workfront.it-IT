@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 2603
+source-wordcount: 2551
 ht-degree: 1%
 
 ---
@@ -32,10 +25,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -113,9 +107,7 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 ## Considerazioni sull&#39;invio di richieste a Workfront Planning
 
-* Nell’ambiente di produzione non è possibile modificare una richiesta in Workfront dopo averla inviata.
-
-  <span class="preview">Nell&#39;ambiente di anteprima è possibile modificare una richiesta inviata solo prima che venga creato un record. Una volta creato il record, non è più possibile modificare la richiesta inviata. </span>
+* è possibile modificare una richiesta inviata solo prima di creare un record da essa. Una volta creato il record, non è più possibile modificare la richiesta inviata.
 * Ogni richiesta sottomessa crea un record per il tipo di record associato al modulo utilizzato, se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.
 * I record creati mediante l&#39;invio di moduli di richiesta sono identici ai record aggiunti tramite qualsiasi altro metodo in Workfront Planning.
 
@@ -226,18 +218,16 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
 
 1. (Facoltativo) Immetti un commento nell&#39;area **Commenti**.
-1. <span class="preview">(Facoltativo e condizionale) Se la richiesta è in attesa di approvazione e hai aperto la richiesta, fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della richiesta, quindi fai clic su **Modifica** o fai doppio clic sui campi nella richiesta per modificarli. </span>
+1. (Facoltativo e condizionale) Se la richiesta è in attesa di approvazione e hai aperto la richiesta, fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della richiesta, quindi fai clic su **Modifica** o fai doppio clic sui campi nella richiesta per modificarli.
 
    >[!NOTE]
    >
-   >  <div class="preview">
    >
    >* La modifica di una richiesta è possibile solo quando un record non è ancora stato creato e la richiesta è in attesa di approvazione.
    >* Alcuni campi sono di sola lettura e non è possibile modificarli.
    >* Non è più possibile modificare una richiesta dopo la creazione di un record.
-   >
-   >  </div>
-1. <span class="preview">(Facoltativo) Dopo aver modificato la richiesta, fai clic su **Invia modifiche**.</span>
+
+1. (Facoltativo) Dopo aver modificato la richiesta, fai clic su **Invia modifiche**.
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.
 
    La pagina del record viene visualizzata in Workfront Planning.
@@ -249,7 +239,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
    >  Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

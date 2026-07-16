@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
+source-wordcount: 765
 ht-degree: 2%
 
 ---
@@ -31,11 +25,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 In qualità di responsabile dell&#39;area di lavoro, è possibile aggiungere un tipo di record esistente in un&#39;altra area di lavoro a un&#39;area di lavoro gestita in Adobe Workfront Planning.
 
@@ -149,25 +143,25 @@ And
 1. Fai clic su **Continue** (Continua).
 1. (Condizionale) Nella casella **Scegli il tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
 
-   <span class="preview">Se si utilizza l&#39;ambiente di anteprima, è possibile fare clic per selezionare più tipi di record, quindi fare clic su **Aggiungi**. Tutti i tipi di record globali di tutte le aree di lavoro in cui sono disponibili vengono visualizzati nell&#39;elenco.</span>
+Se si utilizza l&#39;ambiente di anteprima, è possibile fare clic per selezionare più tipi di record, quindi fare clic su **Aggiungi**. Tutti i tipi di record globali di tutte le aree di lavoro in cui sono disponibili vengono visualizzati nell&#39;elenco.
 
-   Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **tipo di record globale** ![icona Record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) viene visualizzata nella scheda del tipo di record.
+Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **tipo di record globale** ![icona Record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) viene visualizzata nella scheda del tipo di record.
 L&#39;icona del tipo di record globale include una freccia quando viene visualizzata su un tipo di record nell&#39;area di lavoro secondaria, per indicare che il tipo di record è stato aggiunto da un tipo di record esistente.
 
-   Si verificano le seguenti situazioni:
+Si verificano le seguenti situazioni:
 
-   * Vengono aggiunte anche le seguenti informazioni dal tipo di record globale esistente:
+* Vengono aggiunte anche le seguenti informazioni dal tipo di record globale esistente:
 
-      * Tutti i campi originali
-      * Tutte le connessioni record
-   * Non è possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record dall&#39;area di lavoro secondaria.
-   * È possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record in tale area di lavoro, solo nell&#39;area di lavoro originale, se si dispone almeno delle autorizzazioni di visualizzazione per tale area di lavoro.
-   * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.
+   * Tutti i campi originali
+   * Tutte le connessioni record
+* Non è possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record dall&#39;area di lavoro secondaria.
+* È possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record in tale area di lavoro, solo nell&#39;area di lavoro originale, se si dispone almeno delle autorizzazioni di visualizzazione per tale area di lavoro.
+* Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.
 
-     >[!NOTE]
-     >
-     >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
-     >
+  >[!NOTE]
+  >
+  >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
+  >
 
 1. (Facoltativo) Passa il puntatore sull&#39;icona del tipo di record globale ![Icona del record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) per visualizzare il nome dell&#39;area di lavoro originale da cui è stato aggiunto il tipo di record.
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.

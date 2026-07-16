@@ -9,30 +9,25 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 1%
 
 ---
 
 # Modificare i record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +67,7 @@ Per informazioni sulla creazione di record, Consulta [Creare record](/help/quick
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro, un tipo di record e <span class="preview">le autorizzazioni di gestione per un record</span> </p>  
+   <td>   <p>Contribuire o concedere autorizzazioni superiori a un'area di lavoro, a un tipo di record e a gestire le autorizzazioni per un record</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +240,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * Copiare uno o più valori esistenti di un campo, quindi incollarli in un campo dello stesso tipo in un altro record
    * Fare clic sull&#39;intestazione di una colonna per selezionarla e copiarla, quindi fare clic sull&#39;intestazione di un&#39;altra colonna e incollare il contenuto della colonna copiata. Le colonne devono contenere tipi di campo simili.
-   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive. <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
+   * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive. Ciò non è possibile nell’ambiente di anteprima.
    * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
    * Selezionare l&#39;angolo inferiore destro di una cella esistente contenente le informazioni da copiare, quindi trascinarlo e rilasciarlo nelle celle adiacenti in cui si desidera incollare le stesse informazioni. Tutte le celle devono contenere lo stesso tipo di informazioni.
 
@@ -253,15 +248,18 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
 
-      * Campi di connessione di Workfront Planning.
-
-        <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
       * Campi Persone. Sono supportati solo i campi con un valore.
       * Campi di testo.
       * Selezionare i campi.
       * Campi numerici, percentuali e valuta.
 
-     Non è possibile copiare informazioni da un&#39;origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione di Workfront o di altre applicazioni.
+   Non è possibile copiare informazioni da un&#39;origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione di Workfront o di altre applicazioni.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +287,12 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record e scegli tra le seguenti opzioni:
 
-   * **Visualizza** o <span class="preview">**Apri in una nuova scheda**</span>: verrà aperta la pagina record.
+   * **Visualizza** o **Apri in una nuova scheda**: verrà aperta la pagina record.
    * **Copia collegamento**: per copiare un collegamento nella pagina del record.
-   * **Modifica miniatura**: per aggiungere una miniatura a un record.Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Modifica miniatura**: per aggiungere una miniatura a un record.
+Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicato**: crea un duplicato identico del record.
-   * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. <span class="preview">Impossibile eseguire questa operazione nell&#39;ambiente di anteprima.</span>
+   * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. Ciò non è possibile nell’ambiente di anteprima.
    * **Elimina**: per eliminare il record. I record eliminati vengono salvati nella casella Eliminati di recente per un massimo di 30 giorni.
 
 
@@ -352,8 +351,6 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
 
-   <!--update screenshot for new details views preview-->
-
    ![Casella Dettagli](assets/details-box.png)
 
 1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
@@ -408,8 +405,6 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
      ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
 
      Viene visualizzata la pagina del record.
-
-     <!--update screenshot for new details views preview-->
 
      ![Pagina dettagli](assets/details-page.png)
 

@@ -11,18 +11,13 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 4%
 
 ---
@@ -33,11 +28,13 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
 
@@ -113,7 +110,8 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 >[!NOTE]
 >
->* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco.Il **tipo di oggetto** di una richiesta Planning è denominato seguendo questo pattern: `< Name of workspace > > < Name of record type >`. Ad esempio, il tipo di oggetto di una richiesta Planning potrebbe essere denominato `Marketing workspace > Campaigns`.\
+>* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco.
+>     Il **tipo di oggetto** di una richiesta Planning è denominato seguendo questo pattern: `< Name of workspace > > < Name of record type >`. Ad esempio, il tipo di oggetto di una richiesta Planning potrebbe essere denominato `Marketing workspace > Campaigns`.\
 >     Il **tipo di oggetto** di una richiesta Workfront è `Issue`.
 >* Per impostazione predefinita, nell’elenco dell’area Richieste vengono visualizzate fino a 50 richieste. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
@@ -157,7 +155,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
 
    Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
-   * <span class="preview">**Nuovo**: la richiesta è nuova e nessuno ha iniziato a lavorarci. </span>
+   * **Nuovo**: la richiesta è nuova e nessuno ha iniziato a lavorarci.
    * **Bozza**: questa richiesta non è ancora stata inviata. Questo stato è hardcoded.
    * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta. Questo stato è hardcoded.
    * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione. Questo stato è hardcoded.
@@ -166,7 +164,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperi
       * Richieste Workfront: la richiesta è stata convertita e i lavori sono in corso.
       * Richieste di Workfront Planning: il completamento della richiesta viene mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
    * **In attesa**: disponibile per le richieste Workfront. Può essere impostato manualmente dagli utenti.
-   * <span class="preview">**Completo**: è stato creato il record di Planning che completa la richiesta. (Solo Planning)</span>
+   * **Completo**: è stato creato il record di Planning che completa la richiesta. (Solo Planning)
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
