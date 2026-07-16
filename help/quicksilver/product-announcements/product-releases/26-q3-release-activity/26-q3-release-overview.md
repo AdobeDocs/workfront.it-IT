@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 15%
+source-wordcount: '3150'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del terzo trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -110,6 +110,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuovi campi del tipo di licenza per i livelli di accesso<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>Sono state apportate le seguenti modifiche al campo nella casella Livello di accesso: <ul><li>Il campo Tipo di licenza nella casella Livello di accesso è stato rinominato Tipo di licenza flusso di lavoro. Non vi sono modifiche di funzionalità con questa rietichettatura.  </li><li>Per i clienti che hanno acquistato anche un pacchetto Workfront Planning, è stato aggiunto un nuovo campo Tipo di licenza Planning per illustrare la licenza di un utente in Workfront Planning. </li><ul></p>
+            </td>
+            <td><p>16 luglio 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+            <td><p>16 luglio 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Campo di ricerca interno che sostituisce il tipo di campo automatico</a>
@@ -598,6 +607,31 @@ Questo aggiornamento è valido sia per Mac che per Windows.
 
 ## Annunci
 
+### Adobe Workfront Planning come prodotto standalone
+
+>[!NOTE]
+>
+>Anteprima e produzione per tutti i clienti: a partire dal 16 luglio 2026
+>
+>[!BADGE Solo nuovi clienti]{type=Neutral}
+
+È ora possibile acquistare Adobe Workfront Planning in modo indipendente, senza richiedere una licenza del flusso di lavoro Workfront.
+
+Adobe Workfront Planning come prodotto standalone è progettato per i nuovi clienti e per i team che necessitano di funzionalità di pianificazione delle campagne e gestione dei metadati senza la suite completa di funzioni di Workflow.
+
+>[!IMPORTANT]
+>
+>Questa opzione è disponibile solo per i nuovi clienti. Per ulteriori informazioni, contatta il rappresentante del tuo account.
+
+Alcune delle funzionalità incluse in Adobe Workfront Planning come prodotto standalone sono:
+
+* Funzionalità Workfront Planning completa, con la possibilità di creare e gestire aree di lavoro, tipi di record, record, campi e visualizzazioni.
+* Possibilità di collegare record, incluse connessioni tra aree di lavoro diverse, per i pacchetti Prime e Ultimate.
+* Automazioni per la creazione di record di Planning.
+* Processo di acquisizione tramite moduli di richiesta Planning.
+
+Per informazioni, vedere [Introduzione ad Adobe Workfront Planning come prodotto autonomo](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
 ### API versione 22
 
 La versione 22 dell’API di Workfront è stata rilasciata l’8 maggio 2026. Per API versione 22, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
@@ -634,7 +668,7 @@ Per ulteriori informazioni, vedere [Introduzione alla versione di prova gratuita
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

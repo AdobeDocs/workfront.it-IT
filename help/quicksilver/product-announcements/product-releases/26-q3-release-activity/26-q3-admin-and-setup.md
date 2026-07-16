@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1553'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,43 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 -->
 
+## Nuovi campi del tipo di licenza per i livelli di accesso
+
+>[!NOTE]
+>
+>Anteprima e produzione per tutti i clienti: 16 luglio 2026
+>
+>[!BADGE Pianificazione disattivata]{type=Neutral}
+
+Sono state apportate le seguenti modifiche al campo nella casella Livello di accesso:
+
+* Il campo Tipo di licenza nella casella Livello di accesso è stato rinominato Tipo di licenza flusso di lavoro. Non vi sono modifiche di funzionalità con questa rietichettatura.\
+  Per informazioni,[vedere Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Per i clienti che hanno acquistato anche un pacchetto Workfront Planning, è stato aggiunto un nuovo campo Tipo di licenza Planning per illustrare la licenza di un utente in Workfront Planning.
+I clienti che hanno acquistato un numero uguale di licenze Workflow e Planning dispongono dei seguenti tipi di licenza disponibili:
+
+   * Standard di pianificazione
+   * Collaboratore pianificazione
+   * Nessuno
+
+  >[!NOTE]
+  >
+  >È possibile assegnare agli utenti una combinazione mista di licenze tra Workflow e Planning, ma il tipo di licenza Planning non può essere superiore al tipo di licenza Workflow.
+  >
+  >Ad esempio, non è possibile assegnare una licenza di Planning Standard a un utente di Workflow Contributor. A un utente con una licenza Workflow Light è ora possibile concedere una licenza Standard a Planning, gestendo così le aree di lavoro e il relativo contenuto. In precedenza, era possibile accedere ai dati di Planning solo in visualizzazione.
+  >
+  >I nuovi clienti possono acquistare licenze Planning e Workflow in quantità diverse e utilizzarle con qualsiasi combinazione. In questo scenario il tipo di licenza Collaboratore di Planning non è disponibile.
+  >
+  >Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
 ## Campo di ricerca interno che sostituisce il tipo di campo automatico
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Ricerca interna** nei moduli personalizzati fornisce un filtro dinamico. È simile al tipo di campo Automatico e consente agli utenti di cercare e selezionare oggetti Workfront esistenti digitando parte del nome. Il filtro della ricerca interna può fare riferimento al valore in un altro campo del modulo, il che non è possibile con Typeaheads.
 
@@ -65,7 +97,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 >
 >Questa funzione è disponibile solo per le organizzazioni nei pacchetti Workflow Prime o Ultimate.
 
@@ -79,7 +113,9 @@ Per informazioni, vedere [Aggiungere la logica del valore predefinito a un modul
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 I filtri di sistema esistenti nei campi nativi vengono ora applicati ai campi nei moduli personalizzati e sono visibili agli amministratori.
 
@@ -97,7 +133,9 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 Per proteggere le integrazioni e l’integrità dei dati, è stato aggiornato il modo in cui i nomi dei campi possono essere modificati nel pannello delle impostazioni dei campi di un modulo personalizzato.
 
@@ -109,7 +147,9 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 11 giugno 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Per semplificare la visualizzazione delle modifiche apportate in un elenco centrale, è stato creato l&#39;elenco Cronologia modifiche. In questo elenco vengono visualizzate informazioni quali l&#39;oggetto, l&#39;operazione e l&#39;origine della modifica, ad esempio un utente o il sistema Workfront.
 
@@ -121,7 +161,9 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026Produzione per tutti: 11 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: 11 giugno 2026
+>Produzione per tutti: 11 giugno 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
@@ -140,7 +182,9 @@ Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
 
@@ -156,7 +200,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Ora puoi includere i campi finanziari nativi di Workfront nei moduli personalizzati. In precedenza, i campi finanziari non erano supportati.
 
@@ -168,7 +214,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Ai moduli personalizzati è stata aggiunta la nuova opzione di condivisione &quot;Tutti nel sistema possono visualizzare e allegare&quot;. Quando si seleziona questa opzione, tutti gli utenti a livello di sistema possono allegare il modulo ad altri oggetti.
 
@@ -180,7 +228,9 @@ Per ulteriori informazioni, vedere [Condividi modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Attualmente, quando si modificano oggetti in blocco, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.
 
