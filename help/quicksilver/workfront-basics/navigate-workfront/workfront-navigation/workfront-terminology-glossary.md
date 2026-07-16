@@ -9,11 +9,35 @@ exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560id: eb361af2-3e4f-4a79-b5f3-7a344ac5794cid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
 source-wordcount: 22016
@@ -1664,7 +1688,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li> <p>Per i problemi, puoi aggiornare manualmente questo campo. Le ore pianificate del problema non vengono aggiunte alle ore pianificate del progetto. </p> <p><b>SUGGERIMENTO</b></p> <p>In un rapporto sui problemi, uno dei campi [!UICONTROL Ore pianificate] viene sostituito dal campo [!UICONTROL Lavoro]. Nel campo viene visualizzato il numero di ore pianificate per il problema. Per ulteriori informazioni, consulta i campi “lavoro” o “[!UICONTROL Lavoro]” in questa tabella. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata [!UICONTROL] dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
+     <li> <p>Per le attività, puoi aggiornare manualmente questo campo quando il [!UICONTROL Tipo di durata] dell’attività è [!UICONTROL Assegnazione calcolata] o [!UICONTROL Semplice]. Questo campo viene calcolato da [!DNL Workfront] quando il tipo di durata  dell'attività è [!UICONTROL Lavoro calcolato] o [!UICONTROL Impegno guidato].<br>Per informazioni su [!UICONTROL Durata attività], vedere l'articolo <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sull'attività [!UICONTROL Durata] e [!UICONTROL Tipo di durata]</a>.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Per i progetti, [!DNL Workfront] calcola le ore pianificate aggiungendo tutte le ore pianificate da tutte le attività del progetto. </p> </li> 
