@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
+source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
 workflow-type: tm+mt
 source-wordcount: '14340'
 ht-degree: 93%
@@ -2048,7 +2048,7 @@ ht-degree: 93%
          * [Nome del documento modificato dopo il caricamento e contiene un carattere non valido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Bozza di PowerPoint con un video incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Non è possibile scaricare o visualizzare in anteprima le versioni di una bozza quando viene aggiunta una bozza interattiva come nuova versione](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
-      * [Decisione approvatore mostra un trattino nel rapporto Proof Approval (Approvazione bozza)](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
+         * [Decisione approvatore mostra un trattino nel rapporto Proof Approval (Approvazione bozza)](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * Integrazioni native {#native-integrations}
       * [Revisione e approvazione delle integrazioni native: indice degli articoli](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[Introduzione all&#39;integrazione di GenStudio for Performance Marketing e Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)

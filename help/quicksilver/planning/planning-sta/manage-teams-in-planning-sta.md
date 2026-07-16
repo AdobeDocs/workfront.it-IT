@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 2%
@@ -78,4 +78,3 @@ Per ulteriori informazioni sull&#39;accesso necessario per Workfront come pacche
    * Passa il puntatore del mouse sul nome del team nell&#39;elenco, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) > **Elimina team**
    * Seleziona il team nell&#39;elenco, quindi fai clic su **Elimina team** nella barra degli strumenti blu nella parte inferiore della pagina
 1. Fai clic su **Sì, elimina** per confermare.
-
