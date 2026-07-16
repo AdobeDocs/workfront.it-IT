@@ -5,17 +5,15 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
 
 
 # Configurare il server MCP di Adobe Workfront
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Il server MCP [!DNL Adobe Workfront] ti consente di lavorare con i tuoi dati Workfront attraverso una conversazione in linguaggio naturale in una piattaforma di intelligenza artificiale supportata.
 
@@ -34,12 +32,11 @@ Questo articolo illustra i passaggi di connessione per:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Se utilizzi una piattaforma agente di IA compatibile con MCP diversa (ad esempio, [!DNL Gemini] o [!DNL Microsoft Copilot]), segui i passaggi descritti nella documentazione di tale piattaforma per aggiungere un server MCP personalizzato. Quando viene richiesto l&#39;URL del server MCP, immetti l&#39;URL della tua area geografica:
+Se utilizzi una piattaforma agente di IA compatibile con MCP diversa (ad esempio, [!DNL Gemini] o [!DNL Microsoft Copilot]), segui i passaggi descritti nella documentazione di tale piattaforma per aggiungere un server MCP personalizzato. Quando viene richiesto l&#39;URL del server MCP, immetti:
 
-| Area geografica | URL |
-| --- | --- |
-| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Prerequisiti
 
@@ -117,12 +114,11 @@ Per connettere Workfront a [!DNL Claude] con un URL:
 1. Nel menu a sinistra, seleziona l&#39;icona **Personalizza**.
 1. Seleziona **Connettori**, quindi seleziona l&#39;icona **+** per aggiungere un connettore.
 1. Seleziona il pulsante **Crea app**.
-1. Assegna al connettore un nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP desiderato:
+1. Assegna al connettore un nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP:
 
-   | Area geografica | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Una volta creato il connettore, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.
 
@@ -148,12 +144,11 @@ Per ulteriori informazioni sulle [!DNL Claude] abilità, consulta la [documentaz
 1. In basso a sinistra, seleziona **il tuo nome** → **Impostazioni**.
 1. Seleziona **App**, quindi abilita **Modalità sviluppatore**.
 1. Seleziona il pulsante **Crea app**.
-1. Assegna all’app il nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP desiderato:
+1. Assegna all’app il nome desiderato (ad esempio &quot;Workfront&quot;) e immetti l’URL del server MCP:
 
-   | Area geografica | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Verificare che l&#39;autenticazione sia impostata su **OAuth** (impostazione predefinita) e selezionare la casella di controllo Accettazione per continuare.
 1. Una volta creata l’app, viene visualizzata una finestra di accesso. Esegui l’autenticazione utilizzando le credenziali di Adobe ID. Se appartieni a più istanze, assicurati di selezionare l’istanza Workfront desiderata.

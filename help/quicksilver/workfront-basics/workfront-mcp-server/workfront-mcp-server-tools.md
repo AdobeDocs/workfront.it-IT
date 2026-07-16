@@ -5,17 +5,15 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
 
 
 # Strumenti server Adobe Workfront MCP
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 In questo articolo sono elencati gli strumenti esposti dal server MCP [!DNL Adobe Workfront] a una piattaforma agente di IA connessa. La piattaforma chiama questi strumenti per tuo conto quando gli chiedi di trovare, creare, aggiornare o eliminare elementi Workfront.
 
@@ -50,6 +48,8 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Ottieni documenti per progetto | `approvals_get_documents_by_project` | Elenca i documenti all&#39;interno di un progetto Workfront, con l&#39;ID di versione corrente di ciascun documento. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
+| Trovare un documento | `approvals_find_document` | Cercare un documento per nome file o ID versione documento | Leggi |
+| Ottieni documenti per ambito | approvals_get_documents_by_scope | Elencare un documento all&#39;interno di un progetto o di una cartella. | Leggi |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Trova team per nome | `approvals_find_team_by_name` | Cerca l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
 | Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
-| Ottieni area geografica Adobe | `approvals_get_adobe_region` | Restituisce il nome Adobe di un’area del provider di cloud. | Leggi |
+| Trovare i progetti | approvals_find_projects | Cerca i progetti Workfront, facoltativamente filtrati per nome e/o limitati ai progetti di proprietà dell’utente chiamante. | Leggi |
 
 
 ## Strumenti di pianificazione
@@ -142,7 +142,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Elenca tipi di record globali | `planning_list_global_record_types` | Elenca tutti i tipi di record definiti a livello centrale (globali) visibili all&#39;utente corrente. | Leggi |
 | Elenca i tipi di record globali che è possibile aggiungere | `planning_list_addable_global_record_types` | Elenca i tipi di record globali che possono essere aggiunti a un&#39;area di lavoro specifica. | Leggi |
 | Aggiungi tipo di record globale all&#39;area di lavoro | `planning_add_global_record_type_to_workspace` | Collega un tipo di record globale a un&#39;area di lavoro specificata. | Scrittura |
-| Rimuovi tipo di record globale dall&#39;area di lavoro | `planning_remove_global_record_type_from_workspace` | Scollega un tipo di record globale da un&#39;area di lavoro ed elimina tutti i relativi record. | Scrittura |
+| Rimuovi tipo di record globale dall&#39;area di lavoro | `planning_remove_global_record_type_from_ws` | Scollega un tipo di record globale da un&#39;area di lavoro ed elimina tutti i relativi record. | Scrittura |
 | Ottieni aree di lavoro record esterne | `planning_get_external_record_workspaces` | Trova le aree di lavoro e i tipi di record collegati a un record esterno specifico. | Leggi |
 | Ottieni condivisione tipo di record | `planning_get_record_type_sharing` | Restituisce la condivisione e le autorizzazioni per un tipo di record specifico. | Leggi |
 | Modifica condivisione tipo di record | `planning_modify_record_type_sharing` | Aggiorna chi può accedere a un tipo di record e a quale livello di autorizzazione. | Scrittura |
