@@ -9,21 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2711
 ht-degree: 9%
 
 ---
@@ -162,7 +155,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti vedranno quando utilizzano il modulo personalizzato. Nei report, Workfront fa riferimento al campo <b>Name</b>, che viene compilato automaticamente.</td> 
+      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti vedranno quando utilizzano il modulo personalizzato. Nei rapporti, Workfront fa riferimento al campo <b>Nome API</b>, che viene compilato automaticamente.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Istruzioni</td> 

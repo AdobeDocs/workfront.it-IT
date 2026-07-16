@@ -10,19 +10,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 361
 ht-degree: 2%
 
 ---
@@ -60,7 +55,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
    <td> <p>Se si aggiunge il campo a un modulo personalizzato:</p> 
     <ul> 
      <li>È possibile modificare le impostazioni relative al modulo per il campo, ad esempio la logica di visualizzazione, l'ordine tra gli altri campi del modulo, se si tratta di un campo obbligatorio del modulo e la possibilità di rimuoverlo dal modulo.</li> 
-     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l'etichetta, il nome e il tipo.</li> 
+     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l’etichetta, il nome API e il tipo.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +64,7 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
      <li>Gestione</li> 
      <li>Modificabile a livello di sistema</li> 
     </ul> </td> 
-   <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni, ad esempio l'etichetta, il nome e il tipo.</td> 
+   <td>Puoi aggiungere il campo ai moduli personalizzati e modificarne le relative impostazioni relative a qualsiasi campo, ad esempio l’etichetta, il nome API e il tipo.</td> 
   </tr> 
   <tr> 
    <td> 

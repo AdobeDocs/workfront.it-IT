@@ -9,19 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 3%
 
 ---
@@ -184,7 +179,7 @@ Il sistema genera una voce del registro di controllo del campo personalizzato qu
 
    * Modifica le dimensioni del campo
 
-     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo con formattazione
+     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo RTF
 
    * Aggiunge, rimuove o nasconde una scelta di campo.
    * Modifica un&#39;etichetta o un valore di scelta del campo

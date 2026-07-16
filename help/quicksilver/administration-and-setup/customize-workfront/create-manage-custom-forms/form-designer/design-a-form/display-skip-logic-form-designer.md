@@ -9,27 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 2%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
-
-{{highlighted-preview}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -97,7 +89,8 @@ Solo per visualizzare e saltare la logica, seleziona un campo per visualizzare l
 
 ## Considerazioni per l’utilizzo della logica di visualizzazione e della logica di salto
 
-* Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Per aggiungere la logica di visualizzazione a un campo personalizzato, a un widget o a un&#39;interruzione di sezione, è necessario posizionare almeno un campo a scelta multipla (pulsanti di scelta, elenco a discesa o caselle di controllo) prima di inserirlo nel modulo.
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
 * Non è possibile applicare la logica di visualizzazione o di salto per mostrare o nascondere le scelte di un campo con più opzioni. Ad esempio, non è possibile limitare le scelte visualizzate per un campo a discesa, un gruppo di caselle di controllo o un campo Pulsante di scelta in base alla logica di visualizzazione o salto di un altro campo.
 * È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
@@ -150,7 +143,7 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
 ## Aggiungere una logica di visualizzazione avanzata a un modulo personalizzato
 
-La logica di visualizzazione avanzata per i campi modulo personalizzati consente di creare una logica complessa utilizzando le formule. È possibile applicare questa logica ai seguenti tipi di campo: testo a riga singola, paragrafo, testo con formattazione, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, riferimento al campo nativo, typeahead, calcolato, data, gruppo di caselle di controllo e pulsanti di scelta.
+La logica di visualizzazione avanzata per i campi modulo personalizzati consente di creare una logica complessa utilizzando le formule. È possibile applicare questa logica ai seguenti tipi di campo: testo a riga singola, paragrafo, testo RTF, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, riferimento a campo nativo, ricerca interna, calcolo, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 >[!NOTE]
 >
@@ -239,7 +232,7 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
 La logica dei valori predefiniti consente di configurare i valori predefiniti per i campi modulo personalizzati utilizzando le formule. Il valore predefinito viene visualizzato quando vengono soddisfatte le condizioni definite. Un valore predefinito può essere un valore statico o dinamico che fa riferimento ad altri campi all&#39;interno dell&#39;oggetto. Anche se il valore predefinito può fare riferimento ad altri campi, non verrà modificato con la modifica di altri campi del modulo.
 
-È possibile applicare la logica avanzata dei valori predefiniti ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, <span class="preview">riferimento campo nativo</span>, typeahead, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica avanzata dei valori predefiniti ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, riferimento a campo nativo, ricerca interna, gruppo di caselle di controllo e pulsanti di scelta.
 
 >[!TIP]
 >
@@ -249,7 +242,7 @@ La logica dei valori predefiniti consente di configurare i valori predefiniti pe
 >
 >La logica dei valori standard predefiniti nel progettista di moduli esiste ancora. Se entrambi i tipi vengono applicati allo stesso campo, la logica avanzata ha la precedenza. Per informazioni sulla logica standard dei valori predefiniti, vedere [Aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
-><span class="preview">Per i campi di riferimento nativi, la logica del valore predefinito è disponibile solo nell&#39;interfaccia utente e non nell&#39;API Workfront.</span>
+>Per i campi di riferimento nativi, la logica del valore predefinito è disponibile solo nell’interfaccia utente e non nell’API Workfront.
 
 ### Esempio
 
@@ -289,7 +282,7 @@ La logica di convalida viene creata utilizzando le formule e può essere resa se
 
 Se il campo con la logica applicata soddisfa le condizioni di convalida definite quando un utente compila il modulo personalizzato, il campo viene evidenziato e viene visualizzato il messaggio di errore.
 
-È possibile applicare la logica di convalida ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, ricerca esterna a selezione multipla, completamento automatico, data, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica di convalida ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, ricerca interna, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 ### Esempi
 
@@ -336,7 +329,7 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 
 La logica di formattazione evidenzia un valore di campo quando soddisfa le condizioni definite. La formattazione applicata funzionerà su più campi contemporaneamente.
 
-È possibile applicare la logica di formattazione ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, ricerca esterna a selezione multipla, completamento automatico, calcolo, data, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica di formattazione ai seguenti tipi di campo: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna a selezione multipla, ricerca interna, calcolata, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 La formattazione applicata ai moduli personalizzati è distinta dalla formattazione applicata agli elenchi e ai report. Per informazioni sulla formattazione dei report, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -399,7 +392,7 @@ IF(
 
 La logica di modificabilità determina se un campo modulo personalizzato può essere modificato o se è di sola lettura. Questa logica viene creata utilizzando formule e, quando il campo soddisfa le condizioni definite, può essere impostata come modificabile o di sola lettura.
 
-È possibile applicare la logica di modificabilità ai seguenti tipi di campo: testo a riga singola, paragrafo, testo con formattazione, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, typeahead, data, gruppo di caselle di controllo e pulsanti di scelta.
+È possibile applicare la logica di modificabilità ai seguenti tipi di campo: testo a riga singola, paragrafo, testo RTF, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, ricerca esterna a selezione multipla, ricerca interna, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 ### Esempio
 
