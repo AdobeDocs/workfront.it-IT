@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 2%
@@ -20,6 +20,7 @@ ht-degree: 2%
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, se acquistato come prodotto standalone. Fare riferimento a questo articolo quando la società ha acquistato un pacchetto solo Adobe Workfront Planning e non ha acquistato un pacchetto flusso di lavoro Workfront.
 >
 >Per informazioni su Adobe Workfront Planning acquistato insieme a un pacchetto Workfront, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Puoi gestire i team in Adobe Workfront Planning come prodotto standalone in modo analogo a come li gestisci in Adobe Workfront, ma con alcune limitazioni.
 

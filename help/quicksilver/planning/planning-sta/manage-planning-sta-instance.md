@@ -4,7 +4,7 @@ description: Questo articolo descrive come gestire le preferenze e le informazio
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: 6aefd5ceb0e650275ae959ce8f31d4e2aea24f63
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -15,7 +15,9 @@ ht-degree: 3%
 # Gestione dell&#39;istanza di Adobe Workfront Planning come prodotto standalone
 
 <!--
+
 Add to this article the  "Administrator experience" section in this document, after Lilit proof it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true
+
 -->
 
 >[!IMPORTANT]
