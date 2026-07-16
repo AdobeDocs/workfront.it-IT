@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Gestire le schede tariffa
-
-{{highlighted-preview}}
 
 Una scheda tariffa rappresenta l’accordo contrattuale con il cliente in cui vengono definite le tariffe orarie per le mansioni che completeranno il lavoro. In una scheda tariffa è possibile definire più tariffe di fatturazione per mansione, in base ad attributi quali agenzia, ubicazione o centro di costo. Gli attributi univoci della tariffa sono configurati nell’area Configura. Per ulteriori informazioni, vedere [Definire gli attributi del tasso](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
@@ -142,13 +140,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >Poiché ogni tasso è associato alla combinazione di ruolo e attributi per creare un tasso univoco, il ruolo e gli attributi non possono essere modificati quando si modifica un tasso.
 
-<div class="preview">
-
 1. Per aggiungere un tasso in un punto specifico dell&#39;elenco dei tassi con data di validità, posizionare il puntatore del mouse sul tasso e selezionare il menu **Altro** a destra del nome del tasso. Quindi, scegli **Inserisci riga sopra** o **Inserisci riga sotto**.
 
    Viene visualizzata la casella Modifica tariffa di fatturazione con la riga della nuova tariffa di fatturazione aggiunta nel punto in cui è stata inserita. La velocità selezionata per l&#39;aggiunta di una riga al di sopra o al di sotto viene evidenziata con una linea blu. Aggiungi la nuova tariffa di fatturazione, regola le date di validità sulle tariffe di fatturazione esistenti in base alle esigenze e fai clic su **Salva**.
-
-</div>
 
 1. Per eliminare una tariffa di fatturazione dalla scheda tariffe, selezionare la casella di controllo accanto alla tariffa e fare clic su [!UICONTROL **Elimina**] sulla barra delle azioni.
 1. Per bloccare una tariffa, selezionare la casella di controllo accanto alla tariffa e fare clic su [!UICONTROL **Blocca**] sulla barra delle azioni.
