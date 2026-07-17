@@ -1,5 +1,5 @@
 ---
-source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 2%
@@ -302,6 +302,7 @@ Per impostare le cartelle collegate:
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >Per informazioni su Workfront Planning come prodotto autonomo, vedere [Introduzione ad Adobe Workfront Planning come prodotto autonomo](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+>
 
 <!--
 Old - before Oct. 15, 2025:

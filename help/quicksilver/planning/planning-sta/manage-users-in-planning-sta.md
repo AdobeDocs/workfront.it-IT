@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, se acquistato come prodotto standalone. Fare riferimento a questo articolo quando la società ha acquistato un pacchetto solo Adobe Workfront Planning e non ha acquistato un pacchetto flusso di lavoro Workfront.
 >
 >Per informazioni su Adobe Workfront Planning acquistato insieme a un pacchetto Workfront, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Puoi gestire gli utenti in Adobe Workfront Planning come prodotto standalone in modo analogo a come li gestisci in Adobe Workfront.
 
@@ -131,6 +132,4 @@ Quando si utilizzano i livelli di accesso in Workfront Planning come prodotto st
 1. Fai clic su **Disattiva** per confermare.
 
    Per conservare i record cronologici del tuo lavoro, ti consigliamo di disattivare gli utenti, invece di eliminarli.
-
-
 

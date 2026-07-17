@@ -12,18 +12,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: 566
 ht-degree: 3%
 
 ---
 
 # Panoramica delle aree di lavoro
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +55,14 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 
    * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
    * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema. Questa opzione è disponibile solo per gli amministratori di sistema.
-   * <span class="preview">**Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere visualizzazioni con altri utenti.</span>
+   * **Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere le visualizzazioni con altri utenti.
 
   >[!NOTE]
   >
-  ><span class="preview">È consigliabile non modificare le aree di lavoro di esempio, ma utilizzarle come riferimento per crearne di personalizzate. Utilizza il bundle di modelli per più aree di lavoro per creare aree di lavoro identiche a quelle elencate nella scheda Aree di lavoro di esempio. Per informazioni, vedere la sezione &quot;Creare più aree di lavoro utilizzando un bundle di modelli multisfera basato sulle best practice&quot; nell&#39;articolo [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md). </span>
+  >È consigliabile non modificare le aree di lavoro di esempio, ma utilizzarle come riferimento per crearne di personalizzate. Utilizza il bundle di modelli per più aree di lavoro per creare aree di lavoro identiche a quelle elencate nella scheda Aree di lavoro di esempio.
+  >
+  >Solo i clienti che hanno acquistato un pacchetto Prime o Ultimate Planning possono visualizzare la scheda Aree di lavoro di esempio.
+  >Per ulteriori informazioni, vedere la sezione &quot;Creare più aree di lavoro utilizzando un bundle di modelli multworkspace basato sulle best practice&quot; nell&#39;articolo [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 <!--
 No longer the case - they match now: 

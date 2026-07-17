@@ -22,20 +22,21 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3665
+source-wordcount: 3723
 ht-degree: 2%
 
 ---
 
 # Connetti record
 
+<!--
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -128,8 +129,8 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per la connessione dei record.</p>
-   <p><span class="preview">Gestisci le autorizzazioni per il record da cui ti stai connettendo</span></p>
-   <p><span class="preview">Visualizza o autorizzazioni superiori per il record a cui ti connetti</span></p>
+   <p>Gestisci le autorizzazioni per il record da cui ti stai connettendo</p>
+   <p>Visualizza o autorizzazioni superiori per il record a cui ti connetti</p>
    <p>Visualizzare o autorizzazioni superiori per un'area di lavoro e un tipo di record per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
    <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 

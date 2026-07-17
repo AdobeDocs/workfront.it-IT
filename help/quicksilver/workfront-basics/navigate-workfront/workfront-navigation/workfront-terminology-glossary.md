@@ -38,10 +38,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
-source-wordcount: 21587
-ht-degree: 96%
+source-wordcount: 22016
+ht-degree: 97%
 
 ---
 
@@ -166,7 +166,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
       <!--
       Resource Estimates or a
       -->
-     Creare un report (Dati finanziari) del progetto e aggiungere un raggruppamento di matrici per [!UICONTROL Allocation Date], quindi raggruppare i risultati settimanalmente, mensilmente, trimestralmente o annualmente per ottenere i dati più accurati.<br>Per informazioni sulla creazione di un raggruppamento di matrici, vedere l'articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Creare un report di matrici</a>.</p> </li>
+     Crea un report (Dati finanziari) per il progetto e aggiungi un raggruppamento di matrici per [!UICONTROL Allocation Date], quindi raggruppa i risultati settimanalmente, mensilmente, trimestralmente o annualmente per ottenere i dati più accurati.<br>Per informazioni sulla creazione di un raggruppamento con matrice, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Creare un rapporto con matrice</a>.</p> </li>
     </ul> <p>Le informazioni finanziarie vengono popolate nei rapporti del [!UICONTROL Progetto (Dati finanziari)] solo quando i dati a esse associati hanno meno di 5 anni. Ad esempio, se una mansione è stata allocata a un’attività nel gennaio 2015 e oggi è settembre 2021, un campo finanziario come la [!UICONTROL Data di assegnazione] relativo alla mansione non viene popolato nel rapporto [!UICONTROL Progetto (Dati finanziari)]. </p> 
     <div> 
      <p>Per un rapporto di [!UICONTROL Ora preventivata]:</p> 
@@ -994,7 +994,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
    <td>Le cartelle vengono utilizzate per organizzare documenti o rapporti associati a un oggetto.</td> </tr>
   <tr>
   <td>[!UICONTROL FTE] (Equivalente a tempo pieno)</td> 
-   <td>Equivalente tempo pieno che indica il tempo di disponibilità di una risorsa per il lavoro. 
+   <td>Si tratta dell’Equivalente a tempo pieno, che indica la quantità di tempo che una risorsa ha a disposizione per il lavoro. 
    Il campo [!UICONTROL FTE] viene visualizzato nelle seguenti aree: 
   <ul>
    <li> Profilo dell’utente, durante la modifica o la creazione dell’utente </li>
@@ -1233,7 +1233,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Mota ultima condizione]</td> 
-   <td> <p>In questo campo viene visualizzato l’ultimo aggiornamento immesso su un oggetto dal relativo proprietario. Si tratta dell’attività o dell’interazione più recente del proprietario su un oggetto.</p> <p>La colonna [!DNL Last Condition Note] è vuota se il testo della nota dell'ultima nota di un oggetto è stato eliminato. Una nuova nota immessa sull'oggetto diventa l'ultima nota e viene nuovamente visualizzata nella colonna. </p> </td> 
+   <td> <p>In questo campo viene visualizzato l’ultimo aggiornamento immesso su un oggetto dal relativo proprietario. Si tratta dell’attività o dell’interazione più recente del proprietario su un oggetto.</p> <p>La colonna [!DNL Last Condition Note] è vuota se il testo della nota dell’ultima nota di un oggetto è stato eliminato. Quando una nuova nota inserita sull’oggetto diventa l’ultima nota e viene nuovamente visualizzata nella colonna. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data ultimo aggiornamento finanza]</td> 
@@ -1396,8 +1396,8 @@ The designated full time equivalency for users. A full-time user should have 100
  </tr> 
   <tr> 
    <td>[!UICONTROL Nuovo valore numerico]</td> 
-   <td>In un report [!UICONTROL Voce diario] viene visualizzato il valore aggiornato di un campo che sostituisce il [!UICONTROL Vecchio valore numerico].
-   Per ulteriori informazioni, consulta "[!UICONTROL Old Number Value]" in questo articolo.</td> 
+   <td>In un rapporto [!UICONTROL Voce diario] viene visualizzato il valore aggiornato di un campo che sostituisce il [!UICONTROL Valore numerico precedente].
+   Per ulteriori informazioni, consulta “[!UICONTROL Valore numerico precedente]” in questo articolo.</td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Spesa non fatturabile]</td> 
@@ -1574,7 +1574,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Parametro]</td> 
-   <td> <p>Un parametro  è un campo personalizzato. Puoi creare un rapporto per tutti i parametri o campi personalizzati nel tuo sistema. </p> </td> 
+   <td> <p>Un [!UICONTROL Parametro] è un campo personalizzato. Puoi creare un rapporto per tutti i parametri o campi personalizzati nel tuo sistema. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Padre]</td> 
@@ -1651,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo pianificato]</td> 
-   <td> <p>Un totale di [!UICONTROL Planned Labor Cost] e [!UICONTROL Planned Expense Cost] del progetto. Questo valore non include [!UICONTROL Planned Risk Cost] nel progetto.  </p> </td> 
+   <td> <p>Un totale di [!UICONTROL Costo manodopera pianificato] e [!UICONTROL Costo spese pianificate] del progetto. Questo non include il [!UICONTROL Costo del rischio pianificato] nel progetto.  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Allineamento date pianificate]</td> 
@@ -1665,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Durata pianificata]</td> 
-   <td> <p>La [!UICONTROL Planned Duration] di un'attività corrisponde in genere alla [!UICONTROL Planned Duration] dell'attività. Rappresenta la differenza in giorni tra il [!UICONTROL Planned Start] (Inizio pianificato) e il [!UICONTROL Planned Completion Dates] (Date di completamento pianificate) dell'attività. </p> <p>Quando l’attività ha un tipo [!UICONTROL Durata] [!UICONTROL In base all’impegno], la [!UICONTROL Durata pianificata] può differire dalla [!UICONTROL Durata] dell’attività, in base al numero di risorse assegnate all’attività. </p> <p>Ad esempio, se un'attività con un tipo [!UICONTROL Duration] di [!UICONTROL Effort Driven] ha una [!UICONTROL Duration] di 3 giorni e si assegna all'attività una risorsa con una pianificazione a tempo pieno, anche la [!UICONTROL Planned Duration] sarà di 3 giorni. Se si assegnano tre risorse con una pianificazione a tempo pieno alla stessa attività, la [!UICONTROL Durata] rimane 3 giorni, ma la [!UICONTROL Durata pianificata] diventa 1 giorno. Con [!UICONTROL Planned Duration] (Durata pianificata) vengono modificate anche le date di [!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Planned Completion] (Completamento pianificato) dell'attività, in modo da riflettere la nuova [!UICONTROL Planned Duration] (Durata pianificata). Di conseguenza, anche la timeline del progetto ne risente. </p> <p>Per ulteriori informazioni sulla differenza tra [!UICONTROL Durata] e [!UICONTROL Durata pianificata] per le attività, consulta l’articolo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Differenza tra [!UICONTROL Durata pianificata] e [!UICONTROL Durata] per le attività</a>.</p> <p>I progetti e i problemi non hanno una [!UICONTROL Durata pianificata]. </p> </td> 
+   <td> <p>La [!UICONTROL Durata pianificata] di un’attività corrisponde in genere alla relativa [!UICONTROL Durata]. Rappresenta la differenza in giorni tra [!UICONTROL Inizio pianificato] e  [!UICONTROL Date di completamento pianificate] dell’attività. </p> <p>Quando l’attività ha un tipo [!UICONTROL Durata] [!UICONTROL In base all’impegno], la [!UICONTROL Durata pianificata] può differire dalla [!UICONTROL Durata] dell’attività, in base al numero di risorse assegnate all’attività. </p> <p>Ad esempio, se un’attività con un tipo di [!UICONTROL Durata] [!UICONTROL In base all’impegno] ha una [!UICONTROL Durata] di 3 giorni e assegni all’attività una risorsa con una pianificazione a tempo pieno, anche la [!UICONTROL Durata pianificata] sarà di 3 giorni. Se assegni tre risorse con una pianificazione a tempo pieno alla stessa attività, la [!UICONTROL Durata] rimane 3 giorni, ma la [!UICONTROL Durata pianificata] diventa 1 giorno. Con la [!UICONTROL Durata pianificata] vengono modificate anche le date di [!UICONTROL Inizio pianificato] e [!UICONTROL Completamento pianificato] dell’attività, in modo da riflettere la nuova [!UICONTROL Durata pianificata]. Di conseguenza, viene interessata anche la timeline del progetto. </p> <p>Per ulteriori informazioni sulla differenza tra [!UICONTROL Durata] e [!UICONTROL Durata pianificata] per le attività, consulta l’articolo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Differenza tra [!UICONTROL Durata pianificata] e [!UICONTROL Durata] per le attività</a>.</p> <p>I progetti e i problemi non hanno una [!UICONTROL Durata pianificata]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Minuti durata pianificata]</td> 
@@ -1903,11 +1903,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Ranking]</td> 
-   <td> <p>In un report [!UICONTROL Livello di accesso] è possibile indicare manualmente un [!UICONTROL Livello di accesso] di [!UICONTROL Livello di accesso]. Questo consente all'amministratore [!DNL Workfront] di identificare visivamente il livello di complessità associato a ciascun livello di accesso. Ad esempio, è possibile assegnare numeri più bassi per livelli di accesso più complessi ([!UICONTROL Plan]) e numeri più alti per livelli di accesso meno complessi ([!UICONTROL Requester]). Impossibile classificare i livelli di accesso standard. </p> </td> 
+   <td> <p>In un rapporto [!UICONTROL Livello di accesso] puoi indicare manualmente un [!UICONTROL Ranking] del [!UICONTROL Livello di accesso]. Questo ti consente, in qualità di amministratore di [!DNL Workfront], di identificare visivamente il livello di complessità associato a ciascun livello di accesso. Ad esempio, puoi assegnare numeri più bassi per livelli di accesso più complessi ([!UICONTROL Piano]) e numeri più alti per livelli di accesso meno complessi ([!UICONTROL Richiedente]). Non puoi seguire il ranking dei livelli di accesso standard. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pronto]</td> 
-   <td> <p>Questo campo in un report attività indica se un'attività [!UICONTROL Agile] è stata contrassegnata come [!UICONTROL Ready] nel backlog. Questo flag si applica solo alle attività [!UICONTROL Agile], che sono attività assegnate a un team [!UICONTROL Agile]. </p> </td> 
+   <td> <p>Questo campo in un rapporto attività indica se un’attività [!UICONTROL Agile] è stata contrassegnata come [!UICONTROL Pronta] nel backlog. Questo contrassegno si applica solo alle attività [!UICONTROL Agile], che sono assegnate a un team [!UICONTROL Agile]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record]</td> 
@@ -2127,7 +2127,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rapporto pianificato]</td> 
-   <td> <p>Quando si genera un rapporto dei rapporti, puoi visualizzare informazioni sulle pianificazioni del rapporto, se questo è pianificato per la consegna utilizzando il campo [!UICONTROL Rapporto pianificato]. Questo campo mostra più valori, uno per ogni pianificazione di ciascun rapporto, in un elenco puntato. Per ulteriori informazioni sulla pianificazione dei rapporti, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Panoramica sulla consegna del rapporto</a>.</p> <p>Poiché questo campo mostra più valori, non può essere utilizzato in un raggruppamento. È possibile accedervi solo in un filtro o in una visualizzazione. </p> </td> 
+   <td> <p>Quando si genera un rapporto dei rapporti, puoi visualizzare informazioni sulle pianificazioni del rapporto, se questo è pianificato per la consegna utilizzando il campo [!UICONTROL Rapporto pianificato]. Questo campo mostra più valori, uno per ogni pianificazione di ciascun rapporto, in un elenco puntato. Per ulteriori informazioni sulla pianificazione dei rapporti, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Panoramica sulla consegna del rapporto</a>.</p> <p>Poiché questo campo mostra più valori, non può essere utilizzato in un raggruppamento. Puoi accedervi solo in un filtro o in una vista. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modifica ambito]</td> 
@@ -2171,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Origine]</td> 
-   <td> <p>Indica l'oggetto padre di un altro oggetto. Un documento allegato a un'attività, ad esempio, ha il nome dell'attività nel campo [!UICONTROL Source] di un report o di una visualizzazione [!UICONTROL Document]; un problema registrato in un progetto ha il nome del progetto nel campo [!UICONTROL Source] di un report o di una visualizzazione Problema. </p> 
+   <td> <p>Indica l’oggetto padre di un altro oggetto. Ad esempio, un documento allegato a un’attività ha il nome dell’attività nel campo [!UICONTROL Origine] di un rapporto o di una vista [!UICONTROL Documento]; un problema registrato in un progetto ha il nome del progetto nel campo [!UICONTROL Origine] di una vista o di un rapporto del problema. </p> 
    <p>Nei seguenti rapporti viene visualizzata una colonna Origine in cui puoi visualizzare informazioni sull’oggetto padre:</p>
   <ul><li>Rapporti problema</li>
     <li>Rapporti ora</li>
@@ -2516,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> In un report, quando si utilizza l'interfaccia [!UICONTROL Text Mode], la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche. Utilizzare la riga di codice <code>[!UICONTROL usewidths=true]</code> aggiuntiva per applicare la larghezza specificata per la colonna. 
+  <td> In un rapporto, quando si utilizza l’interfaccia [!UICONTROL Modalità testo], la riga di codice in cui puoi specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ciascun campo, anche se a seconda del tipo di campo e del formato, potresti dover apportare delle modifiche. Utilizza la riga di codice <code>[!UICONTROL usewidths=true]</code> aggiuntiva per applicare la larghezza specificata per la colonna. 
   </td>
   </tr>
   <tr> 
@@ -2598,7 +2598,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>Il sistema utilizza questo numero per calcolare la disponibilità dell’utente per il lavoro effettivo correlato al progetto. </p>
    <p> Anche le eccezioni di pianificazione e le indisponibilità possono influire sulla capacità dell’utente. </p>
    <p>Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creare una pianificazione</a>. </p>
-    <p>Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area [!UICONTROL Configurazione]. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurare le preferenze di gestione delle risorse</a>. </p> 
+    <p>Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area [!UICONTROL Configurazione]. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di gestione delle risorse</a>. </p> 
    <p>Puoi aggiornare il [!UICONTROL Tempo di lavoro] di un utente durante la rispettiva creazione o modifica. Per informazioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modificare un profilo utente</a></p> 
    <b>SUGGERIMENTO</b> 
    <p>Imposta il valore [!UICONTROL Tempo di lavoro] su 1 per indicare che l’utente è disponibile per il lavoro correlato al progetto per l’intero equivalente tempo pieno.</p> 

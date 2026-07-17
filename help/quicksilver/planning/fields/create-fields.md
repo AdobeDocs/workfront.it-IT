@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -356,7 +356,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
    Fai clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
 1. Fate clic all&#39;esterno della casella del colore per chiuderla.
 
-1. <span class="preview">Nel campo **Opzioni predefinite**, selezionare le opzioni che si desidera visualizzare in questo campo per impostazione predefinita. Puoi scegliere più di una scelta. Gli utenti possono rimuovere le scelte predefinite durante l&#39;aggiornamento del campo.</span>
+1. Nel campo **Opzioni predefinite**, selezionare le opzioni che si desidera visualizzare in questo campo per impostazione predefinita. Puoi scegliere più di una scelta. Gli utenti possono rimuovere le scelte predefinite mentre aggiornano questo campo.
 
 1. Fai clic su **Crea**.
 
@@ -405,7 +405,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
    Fai clic su **Personalizzato** per selezionare un colore personalizzato utilizzando un selettore di colori o un codice esadecimale.
 
-1. <span class="preview">Nel campo **Scelta predefinita**, selezionare la scelta che si desidera visualizzare in questo campo per impostazione predefinita. Puoi scegliere solo una scelta. Gli utenti possono rimuovere la scelta predefinita mentre aggiornano questo campo. </span>
+1. Nel campo **Scelta predefinita**, selezionare la scelta che si desidera visualizzare in questo campo per impostazione predefinita. Puoi scegliere solo una scelta. Gli utenti possono rimuovere la scelta predefinita mentre aggiornano questo campo.
 
 1. Fate clic all&#39;esterno della casella del colore per chiuderla.
 1. Fai clic su **Crea**.
@@ -437,45 +437,21 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
+
    * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: tipo di formato data che si desidera visualizzare in questo campo. <!--update this casing - submitted bug for it-->
-
-     A seconda dell’ambiente in cui accedi ai campi, effettua le seguenti operazioni:
-
-      * Nell’ambiente di produzione:
-
-         * Selezionare uno dei formati seguenti:
-            * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
-            * **Standard**: 05/16/2023
-            * **Lungo**: 16 maggio 2023
-            * **Europeo**: 16/05/2023
-            * **ISO**: 16/05/2023
+   * Selezionare uno dei formati seguenti:
+      * **Breve**: 6/9/26
+      * **Medium**: 9 giugno 2026
+      * **Lungo** 9 giugno 2026
       * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
 
-        Selezionare una delle opzioni seguenti:
+   * Selezionare una delle opzioni seguenti:
 
-         * **24hr**: ad esempio: 18:00
-         * **12hr**: ad esempio: 6:00 PM
-
-     <div class="preview">
-
-      * Nell’ambiente di anteprima:
-
-         * Selezionare uno dei formati seguenti:
-            * **Breve**: 6/9/26
-            * **Medium**: 9 giugno 2026
-            * **Lungo** 9 giugno 2026
-      * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
-
-        Selezionare una delle opzioni seguenti:
-
-         * **24hr**: ad esempio: 18:00
-         * **12hr**: ad esempio: 6:00 PM
-      * **Usa lo stesso fuso orario per tutti i collaboratori**, quindi seleziona un **fuso orario** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->: seleziona questa opzione se desideri mostrare lo stesso timestamp per tutte le persone che visualizzano il campo, indipendentemente dal fuso orario dell&#39;utente. Il fuso orario selezionato viene aggiunto all’intestazione della colonna per questo campo.
-
-     </div>
-
+      * **24hr**: ad esempio: 18:00
+      * **12hr**: ad esempio: 6:00 PM
+      * **Mostra lo stesso fuso orario a tutti gli utenti**, quindi seleziona un **fuso orario**: seleziona questa opzione se desideri mostrare lo stesso timestamp per tutte le persone che visualizzano il campo, indipendentemente dal fuso orario dell&#39;utente. Il fuso orario selezionato viene aggiunto all’intestazione della colonna per questo campo.
 
 1. Fai clic su **Crea**.
 
@@ -696,15 +672,15 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >    Se si seleziona Consenti più valori e più utenti vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro durante la modifica del campo.
 
-1. <span class="preview">Nel campo **Utente predefinito** o **Utenti predefiniti**, selezionare gli utenti che si desidera visualizzare in questo campo per impostazione predefinita. </span>
+1. Nel campo **Utente predefinito** o **Utenti predefiniti**, selezionare gli utenti che si desidera visualizzare in questo campo per impostazione predefinita.
 
-   <span class="preview">È possibile scegliere più utenti se è stata selezionata anche l&#39;impostazione **Consenti più valori**. </span>
+   È possibile scegliere più utenti se è stata selezionata anche l&#39;impostazione **Consenti più valori**.
 
-   <span class="preview">Gli utenti possono rimuovere gli utenti predefiniti mentre aggiornano questo campo.</span>
+   Gli utenti possono rimuovere gli utenti predefiniti quando aggiornano questo campo.
 
    >[!TIP]
    >
-   ><span class="preview">La disattivazione degli utenti scelti come utenti predefiniti in questa impostazione mantiene i nomi degli utenti come predefiniti. L&#39;utente disattivato non viene rimosso dal valore del campo e non vi è alcuna indicazione per altri utenti che l&#39;utente sia stato disattivato.</span>
+   >La disattivazione degli utenti scelti come utenti predefiniti in questa impostazione mantiene i nomi degli utenti come predefiniti. Non rimuove l’utente disattivato dal valore del campo e non vi è alcuna indicazione per altri utenti che l’utente sia stato disattivato.
 
 1. Fai clic su **Crea**.
 

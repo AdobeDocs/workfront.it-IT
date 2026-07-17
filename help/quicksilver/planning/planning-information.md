@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 74%
+source-wordcount: 675
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 74%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
    * Condividere le visualizzazioni
    * Condividere le aree di lavoro (record e campi)
    * Condividere tipi di record (record e campi)
-   * <span class="preview">Condividi record</span>
+   * Condividere i record
 
 * [Architettura: indice degli articoli](/help/quicksilver/planning/architecture/architecture-information.md) contiene le seguenti informazioni:
 
@@ -127,3 +128,7 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 Le nuove funzioni vengono rilasciate regolarmente nella Pianificazione di Workfront.
 
 Per un elenco aggiornato delle funzionalità rilasciate, consulta [Attività sulla versione della Pianificazione di Workfriont: indice articoli](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Workfront Planning come prodotto standalone
+
+I clienti possono acquistare Workfront Planning senza una licenza Workflow. Per informazioni, vedere [Introduzione ad Adobe Workfront Planning come prodotto autonomo](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

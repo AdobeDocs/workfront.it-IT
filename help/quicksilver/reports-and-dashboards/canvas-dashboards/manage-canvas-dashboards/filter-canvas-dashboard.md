@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 6%
+source-wordcount: 1107
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.<br>
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -39,9 +41,11 @@ ht-degree: 6%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt funziona da modificatore di filtro che applica criteri di filtro aggiuntivi in modo da poter limitare ulteriormente i risultati. Questi prompt possono essere modificati ogni volta che si applica il filtro, consentendo di regolare i risultati visualizzati senza dover modificare i criteri di filtro principali del dashboard o di ogni singolo rapporto.
 
@@ -122,7 +126,7 @@ Con un filtro dashboard, puoi applicare un filtro comune a tutti i rapporti disp
 
 1. Nell&#39;angolo superiore sinistro della pagina dei dettagli del dashboard, fare clic su **Filtri**. Viene visualizzato il pannello laterale dei filtri.
 
-1. (Conditionalt) Nell&#39;ambiente di produzione, fai clic su **Modifica filtri** o <span class="preview">nell&#39;ambiente di anteprima, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su</span> **Modifica filtri**. Viene visualizzata la finestra di dialogo **Dashboard filters**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Modifica filtri**. Viene visualizzata la finestra di dialogo **Dashboard filters**.
 
 1. (Facoltativo) Per aggiungere una regola, effettua le seguenti operazioni:
 
@@ -177,9 +181,7 @@ Un prompt del dashboard consente agli utenti di applicare filtri personalizzati 
 1. Fai clic su **Salva** per applicare il filtro al dashboard.
 
 
-1. <span class="preview">Per salvare le richieste come predefinite, effettuare le seguenti operazioni dopo aver salvato la richiesta: </span>
-
-   <div class="preview">
+1. Per salvare i prompt come predefiniti, dopo aver salvato il prompt, effettuate le seguenti operazioni:
 
    1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Salva come prompt predefiniti**.
 
@@ -197,8 +199,6 @@ Un prompt del dashboard consente agli utenti di applicare filtri personalizzati 
    1. (Condizionale) Se hai modificato le impostazioni del prompt predefinito, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Applica valori predefiniti dashboard** per tornare ai risultati del filtro predefinito.
    1. (Facoltativo) Fai clic su **Reimposta impostazioni predefinite** per sostituire le impostazioni predefinite originali con le modifiche apportate. Questa opzione è disponibile solo per i responsabili dashboard.
 
-   </div>
-
 
 1. Procedi a [Parte 3: Applica un prompt del dashboard](#step-3-apply-a-dashboard-prompt).
 
@@ -214,7 +214,8 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
 
 1. Nell&#39;angolo superiore sinistro della pagina dei dettagli del dashboard, fare clic su **Filtri**. Viene visualizzato il pannello laterale dei filtri.
 
-1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Il prompt viene applicato e un tag **Dashboard prompt applicati** viene visualizzato nell&#39;angolo del widget del report.   ![Seleziona condizione](assets/prompts-list.png)
+1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Il prompt viene applicato e un tag **Dashboard prompt applicati** viene visualizzato nell&#39;angolo del widget del report.
+   ![Seleziona condizione](assets/prompts-list.png)
 
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
 

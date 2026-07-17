@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3118
-ht-degree: 3%
+source-wordcount: 3058
+ht-degree: 4%
 
 ---
 
@@ -33,10 +33,12 @@ ht-degree: 3%
 
 # Collegare tipi di record
 
+<!--
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -359,7 +361,7 @@ Old:
    >
    >* Oltre ai campi di sistema come Nome e Descrizione, è possibile aggiungere i seguenti tipi di campi come campi di ricerca da tipi di oggetto di un&#39;altra applicazione:
    >   * Campi utente, come Proprietario progetto o Sponsor, dei progetti Workfront.
-   >   * <span class="preview">Campi di riferimento, ad esempio Gruppo di progetti o Società di progetti da progetti Workfront. </span>
+   >   * Campi di riferimento, come Gruppo di progetti o Società di progetti da progetti Workfront.
    >* Per i frammenti di contenuto AEM sono supportati solo i campi seguenti: <!--this information is also in "Connect record types overview"-->
    >   * Creato da e Creato in
    >   * Modificato da e modificato in

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1777
 ht-degree: 2%
 
 ---
@@ -30,10 +30,11 @@ ht-degree: 2%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,7 +81,7 @@ ht-degree: 2%
    <p>In Workfront Planning:</p>
    <ul><li>Visualizzare le autorizzazioni per un'area di lavoro e un tipo di record per visualizzare tutti i record collegati </li>
    Oppure
-   <li> Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record e <span class="preview">Gestione delle autorizzazioni per un record</span> per connettere o disconnettere i record</a></li></ul> 
+   <li> Contribuire o concedere autorizzazioni superiori a un'area di lavoro e a un tipo di record e gestire le autorizzazioni a un record per connettersi o disconnettere i record</a></li></ul> 
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p> 
   </td>
   </tr>   

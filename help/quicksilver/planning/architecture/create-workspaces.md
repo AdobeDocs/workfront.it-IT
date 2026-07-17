@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 2%
+source-wordcount: 1252
+ht-degree: 3%
 
 ---
 
 # Creare aree di lavoro
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
 
       1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su **Indietro** per tornare alla casella **Crea area di lavoro** oppure su **Usa modelli** per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
 
-   <div class="preview">
 
    * Fai clic sulla scheda **Aree di lavoro di esempio**, quindi segui questi passaggi:
 
@@ -289,8 +290,6 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
          >
          >Facendo clic su una scheda del tipo di record in un modello, nel pannello di destra vengono visualizzati i campi del tipo di record.
       1. Fai clic su **Usa modelli**.
-
-   </div>
 
    Le 6 aree di lavoro vengono create e visualizzate nelle schede **Aree di lavoro** in e **Tutte le aree di lavoro** per gli amministratori di sistema. Tutti gli utenti con licenza Standard visualizzeranno le aree di lavoro nella propria area di lavoro dopo che un amministratore di sistema le avrà create e condivise con loro.
 

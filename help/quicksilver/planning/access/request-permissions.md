@@ -18,20 +18,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 6%
+source-wordcount: 514
+ht-degree: 7%
 
 ---
 
 # Richiedere le autorizzazioni per una vista o un’area di lavoro
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +89,7 @@ Oppure
    <ul><li><p>Visualizzare o gestire una visualizzazione</p></li>
    <li><p>Visualizzare, contribuire o gestire per un'area di lavoro</p></li>
    <li><p>Visualizzare, contribuire o gestire per un tipo di record</p></li>
-   <li><p><span class="preview">Visualizzare o gestire un record</span></p></li>
+   <li><p>Visualizzare o gestire un record</p></li>
    </ul>  
    <p>Solo gli utenti con le autorizzazioni di gestione per un’area di lavoro e una visualizzazione possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
@@ -175,9 +175,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Richiedi autorizzazioni
 
-La richiesta di autorizzazioni per una visualizzazione è simile alla richiesta di autorizzazioni per un&#39;area di lavoro, un tipo di record o <span class="preview">un record</span>.
+La richiesta di autorizzazioni per una visualizzazione è simile alla richiesta di autorizzazioni per un&#39;area di lavoro, un tipo di record o un record.
 
-Quando qualcuno condivide con te un collegamento a un&#39;area di lavoro, un tipo di record, un <span class="preview">record</span> o una visualizzazione a cui non hai accesso:
+Quando qualcuno condivide con te un collegamento a un’area di lavoro, un tipo di record, un record o una vista a cui non hai accesso:
 
 1. Fai clic sul collegamento condiviso con te per la visualizzazione o l’area di lavoro.
 
@@ -187,7 +187,7 @@ Quando qualcuno condivide con te un collegamento a un&#39;area di lavoro, un tip
 
    >[!NOTE]
    >
-   >Se non hai accesso a un tipo di record o a <span class="preview">record</span>, la pagina Non hai accesso a mostra che devi avere accesso all&#39;area di lavoro.
+   >Se non si dispone dell&#39;accesso a un tipo di record o a un record, la pagina Non si dispone dell&#39;accesso a mostra che è necessario avere accesso all&#39;area di lavoro.
 
 
 1. (Condizionale) Se il collegamento condiviso è per una visualizzazione di un&#39;area di lavoro a cui hai accesso, fai clic su **Apri con visualizzazione esistente**. Se si dispone delle autorizzazioni di accesso all&#39;area di lavoro, la pagina del tipo di record viene visualizzata nella visualizzazione predefinita.
