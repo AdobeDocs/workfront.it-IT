@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 6%
 
 ---
@@ -208,6 +208,7 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi su un oggetto Workfront esistente. | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
 | Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Converte i nomi o le etichette dei campi forniti dall’utente nei nomi dei campi API di Workfront sottostanti in modo che la piattaforma dell’agente di IA possa creare richieste precise. | Leggi |
+| Leggi documenti flusso di lavoro | `workflow_read_workflow_docs` | Carica la documentazione di Workfront Workflow, incluse le guide di utilizzo degli strumenti e i playbook operativi specifici per gli oggetti. Questo è il primo passaggio richiesto prima di eseguire le azioni del flusso di lavoro. | Leggi |
 
 ### Commenti
 
