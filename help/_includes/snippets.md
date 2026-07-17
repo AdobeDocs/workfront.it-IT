@@ -1,7 +1,7 @@
 ---
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2293'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
