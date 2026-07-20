@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
+source-git-commit: 269019dd8af4cda11e377164de83f0a7e9d7a458
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,39 @@ Per ulteriori informazioni sulle [!DNL Claude] abilità, consulta la [documentaz
 ChatGPT supporta gli assistenti creati dall’utente denominati GPT personalizzati. Puoi utilizzare un GPT personalizzato per personalizzare il comportamento di ChatGPT con il connettore. Ad esempio, puoi creare un GPT personalizzato che comunichi a ChatGPT di recuperare sempre dati aggiornati dal servizio connesso, invece di fare affidamento sui risultati precedenti.
 
 Per ulteriori informazioni sugli GPT personalizzati, consulta la [documentazione utente di ChatGPT](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) o chiedi a ChatGPT di fornire assistenza sugli GPT personalizzati.
+
+## Connetti Workfront a Copilot
+
+Per creare un agente Copilot personalizzato a cui Workfront MCP può connettersi, utilizzare Copilot Studio.
+
+1. In Copilot Studio fare clic su **Crea agente vuoto**.
+1. Assegna un nome all&#39;agente e fai clic su **Crea**.
+Viene visualizzata la finestra dell&#39;agente.
+
+1. Nel campo **Istruzioni**, descrivi le operazioni che desideri eseguire l&#39;agente. Includi informazioni quali i processi e il modo in cui utilizzi Workfront. Si consiglia di fornire una grande quantità di dettagli.
+1. Nella navigazione in alto, fai clic su **Strumenti**, quindi su **Aggiungi uno strumento**.
+1. Selezionare il riquadro **Protocollo di contesto modello**.
+1. Nel pannello visualizzato, immetti un nome e una descrizione per la connessione.
+1. Nel campo URL server, immetti l’URL desiderato:
+
+   | Area geografica | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
+1. Per Autorizzazione, seleziona **OAuth 2.0**, quindi seleziona **Individuazione dinamica**.
+1. Fai clic su **Crea** nella parte inferiore del pannello.
+
+   L&#39;app è registrata.
+
+1. Dopo la registrazione dell&#39;app, nel pannello visualizzato fare clic su **Non connesso**, quindi su **Crea una nuova connessione** e infine su **Crea**.
+1. Nel pannello di accesso visualizzato, accedi a Workfront, quindi seleziona **Continua** quando viene visualizzata l&#39;istanza di Workfront che desideri utilizzare.
+1. Nel pannello che visualizza il server, fai clic su **Aggiungi e configura**.
+
+   Ora puoi iniziare a utilizzare e configurare gli strumenti per il server MCP.
+1. Quando uno strumento viene configurato e testato, fare clic su **Pubblica**.
+
+   Potresti non disporre delle autorizzazioni necessarie per pubblicare. In questo caso, contattare l&#39;amministratore Copilot.
 
 ## Verifica la connessione
 
