@@ -7,13 +7,11 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 176
 ht-degree: 3%
 
 ---
@@ -38,12 +36,12 @@ Le seguenti funzioni sono attualmente disponibili in versione beta:
 
 * Revisore contenuto Workfront
 
-   * Le linee guida per le immagini sono attualmente in versione beta. Il revisore dei contenuti utilizza le linee guida del brand impostate in Workfront per rivedere i contenuti e fornire feedback ai creatori di contenuti durante il processo di revisione e approvazione.
-   * Le linee guida per la voce del marchio sono disponibili per la disponibilità generale.
+  * Le linee guida per le immagini sono attualmente in versione beta. Il revisore dei contenuti utilizza le linee guida del brand impostate in Workfront per rivedere i contenuti e fornire feedback ai creatori di contenuti durante il processo di revisione e approvazione.
+  * Le linee guida per la voce del marchio sono disponibili per la disponibilità generale.
 
   Per informazioni, vedere [Introduzione a Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Adobe Workfront Planning Designer è disponibile in Closed Beta.
+* Adobe Workfront Planning Designer è disponibile in versione beta per tutti i clienti.
 
   Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
