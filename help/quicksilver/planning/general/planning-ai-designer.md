@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
-ht-degree: 6%
+source-wordcount: 1496
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,16 @@ In qualità di amministratore di sistema, è possibile attivare Planning Designe
    >
    >Per utilizzare Planning Designer in versione beta non è necessario accettare il contratto di intelligenza artificiale.
 
-1. Attiva l&#39;impostazione **Consenso a Beta** di IA.
-1. Attivare l&#39;impostazione **Planning Designer**.
+1. Se non è abilitata, attiva l&#39;impostazione **Consenso ad AI Beta**.
+1. Attivare l&#39;impostazione **Planning Designer**, se non è abilitata.
 
-   ![Impostazione di Planning Designer nelle preferenze di sistema](assets/ai-preferences-with-planning-designer-beta.png)
+   ![Impostazione di Planning Designer nelle preferenze di sistema](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >Le opzioni **Consenso a IA Beta** e **Planning Designer** sono attivate per impostazione predefinita, ma è necessario accettare il contratto Beta per poter utilizzare Planning Designer.
+
+1. (Condizionale e obbligatorio) Se non hai accettato il contratto Beta, fai clic su **Rivedi il contratto Beta** e leggi il contratto, quindi fai clic su **Accetta**.
 
 1. Fai clic su **Salva**.
 
