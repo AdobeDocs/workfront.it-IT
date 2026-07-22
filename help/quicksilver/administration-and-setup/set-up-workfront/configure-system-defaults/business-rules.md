@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 4%
 
 ---
@@ -159,6 +159,10 @@ Il messaggio viene visualizzato nella lingua localizzata.
 >[!ENDSHADEBOX]
 
 Per informazioni sulla localizzazione personalizzata, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+>[!NOTE]
+>
+>Le regole business vengono eseguite al termine del processo principale. In altre parole, le regole di business hanno lo scopo di impedire azioni che non sono già gestite dal processo principale. Non sovrascrivono o sostituiscono le eccezioni generate durante l’esecuzione principale, in quanto vengono eseguite alla fine del processo.
 
 ## Scenari di automazione delle regole di business
 
@@ -307,3 +311,4 @@ Per attivare una regola business:
 1. Selezionare la regola business nell&#39;elenco di regole e fare clic sull&#39;icona Modifica.
 1. Selezionare **Sì** per **È attivo** nella finestra di dialogo della regola business.
 1. Fai clic su **Salva**.
+
