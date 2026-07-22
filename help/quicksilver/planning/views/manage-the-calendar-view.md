@@ -9,17 +9,12 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 6%
@@ -157,9 +152,9 @@ Considera i seguenti aspetti:
   È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati.
 * Esistono i seguenti scenari:
 
-   * Se le date di inizio e di fine non contengono valori, i record non vengono visualizzati nel calendario
-   * Quando le date di inizio o fine non hanno un valore, il record viene visualizzato come evento di un giorno
-   * Se la data di inizio è successiva alla data di fine, il record non viene visualizzato nel calendario.
+  * Se le date di inizio e di fine non contengono valori, i record non vengono visualizzati nel calendario
+  * Quando le date di inizio o fine non hanno un valore, il record viene visualizzato come evento di un giorno
+  * Se la data di inizio è successiva alla data di fine, il record non viene visualizzato nel calendario.
 
 Per gestire una vista calendario:
 
@@ -176,12 +171,12 @@ Per gestire una vista calendario:
    * Fai clic su **Oggi** nell&#39;angolo superiore destro per centrare il calendario alla data odierna.
    * Per aggiornare gli incrementi di tempo, seleziona una delle seguenti opzioni dal menu a discesa dell’intervallo di tempo:
 
-      * **Mese**: record visualizzati in un calendario mensile.
+     * **Mese**: record visualizzati in un calendario mensile.
 
-      * **Settimana**: i record vengono visualizzati nelle seguenti aree:
+     * **Settimana**: i record vengono visualizzati nelle seguenti aree:
 
-         * I record che si estendono su più giorni vengono visualizzati nella parte superiore del calendario.
-         * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
+       * I record che si estendono su più giorni vengono visualizzati nella parte superiore del calendario.
+       * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
 
@@ -449,6 +444,15 @@ Aggiorna le impostazioni della vista calendario per indicare cosa e come vengono
    Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Fai clic su **Salva**.

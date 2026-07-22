@@ -7,10 +7,10 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: '8699'
-ht-degree: 10%
+source-wordcount: '11896'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,8 @@ I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono un
 
 >[!IMPORTANT]
 >
->I diagrammi sono centrati su singoli oggetti e non rappresentano un diagramma di relazione entità completo per l&#39;intera applicazione Workfront. Questi diagrammi hanno lo scopo di fornire esempi di come le relazioni possono essere utilizzate per unire i dati a oggetti adiacenti.
+>I diagrammi sono centrati su singoli oggetti e non rappresentano un diagramma di relazione entità completo per l&#39;intera applicazione Workfront. <br>
+>Questi diagrammi forniscono esempi di come le relazioni possono essere utilizzate per unire i dati a oggetti adiacenti.
 
 ### Esempio di diagrammi di relazioni tra entità
 
@@ -98,9 +99,9 @@ I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono un
 Esistono diversi oggetti data che forniscono informazioni su quando si verificano eventi specifici.
 
 * `DL_LOAD_TIMESTAMP`: questa data viene aggiornata dopo il completamento di un aggiornamento dei dati riuscito e include la marca temporale dell&#39;inizio del processo di aggiornamento che ha fornito la versione più recente di un record.
-* `CALENDAR_DATE`: data presente solo nella visualizzazione Cronologia giornaliera. La visualizzazione Cronologia giornaliera fornisce un record dell&#39;aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
+* `CALENDAR_DATE`: data presente solo nella visualizzazione Cronologia giornaliera. La visualizzazione Cronologia giornaliera consente di registrare l&#39;aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: questa data è presente nelle visualizzazioni Evento e Cronologia giornaliera e rappresenta il momento in cui un record diventa il valore corrente nell&#39;applicazione.
-* `END_EFFECTIVE_TIMESTAMP`: questa data è presente sia nelle visualizzazioni Evento che Cronologia giornaliera e registra esattamente quando un record ha cambiato _da_ il valore nella riga corrente a un valore in una riga diversa. Per consentire l&#39;esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, questo valore non è mai nullo, anche se non è presente un nuovo valore. Se un record è ancora valido (ovvero se il valore non è stato modificato), `END_EFFECTIVE_TIMESTAMP` avrà il valore 2300-01-01.
+* `END_EFFECTIVE_TIMESTAMP`: questa data è presente sia nelle visualizzazioni Evento che Cronologia giornaliera e registra esattamente quando un record ha cambiato _da_ il valore nella riga corrente a un valore in una riga diversa. Per consentire l&#39;esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, questo valore non è mai nullo, anche se non è presente un nuovo valore. Nel caso in cui un record sia ancora valido, ovvero il valore non sia stato modificato, `END_EFFECTIVE_TIMESTAMP` avrà il valore 2300-01-01.
 
 ## Tabella terminologica e descrizioni di Workfront
 
@@ -108,7 +109,8 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 
 >[!NOTE]
 >
->È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati a valle non è preparato a gestire colonne aggiuntive durante l’aggiunta.Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
+>È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
+>Se è necessario rinominare o rimuovere una colonna, avviseremo in anticipo di queste modifiche.
 
 ### Livello di accesso
 
@@ -1706,15 +1708,15 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >
 >Tipo di record identificato tramite la proprietà `enumClass`. I tipi previsti sono:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>TASK_PRIORITARIO</li>
->&gt;<li>GRAVITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>TASK_STATO</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>TASK_PRIORITARIO</li>
+&gt;<li>GRAVITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>TASK_STATO</li></ul>
 
 
 ### Documento
@@ -6649,7 +6651,8 @@ Disponibilità limitata dei clienti
 
 >[!NOTE]
 >
->Nelle tabelle degli oggetti Team sono memorizzati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. Ciascuno di questi tipi di team è rappresentato insieme nelle visualizzazioni del data lake di Data Connect. Per isolare il tipo specifico di team da restituire, è necessario filtrare in base alla colonna `teamtype`. Ad esempio, se desideri solo i team tradizionali che fanno parte delle strutture organizzative, configurate nell’area Team dell’applicazione, potresti avere una query simile alla seguente: <code>seleziona * da teams_current dove teamtype = &quot;ADHOC&quot;;</code>
+>Nelle tabelle degli oggetti Team sono archiviati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
+>Ciascuno di questi tipi di team è rappresentato insieme nelle visualizzazioni del data lake di Data Connect. Per isolare il tipo specifico di team da restituire, è necessario filtrare in base alla colonna `teamtype`. Ad esempio, se desideri solo i team tradizionali che fanno parte delle strutture organizzative, configurate nell’area Team dell’applicazione, potresti avere una query simile alla seguente: <code>seleziona * da teams_current dove teamtype = &quot;ADHOC&quot;;</code>
 
 ### Membro team
 
@@ -8849,240 +8852,237 @@ Disponibilità limitata dei clienti
     </tbody>
 </table>
 
-<!--
-for July 2026 release to Production, this does not go to Preview: 
+## Descrizioni e relazioni della vista Pianificazione
 
-## Planning view descriptions and relationships
+Le tabelle seguenti descrivono le visualizzazioni dati disponibili nello schema Planning in Data Connect. A differenza delle visualizzazioni dati del flusso di lavoro, le visualizzazioni dati di Planning includono una descrizione completa colonna per colonna per ogni visualizzazione.
 
-The following tables describe the data views available in the Planning schema in Data Connect. Unlike the Workflow data views, the Planning data views include a full column-by-column description for each view.
+I dati di Planning sono disponibili nelle seguenti viste:
 
-Planning data is available in the following views:
-
-* **FIELD\_CURRENT** — The current definitions of all fields configured on Planning record types.
-* **FIELD\_DAILY\_HISTORY** — A daily snapshot of field definitions, useful for tracking field configuration changes over time.
-* **FIELD\_EVENT** — A change log of every event that modifies a field definition.
-* **PLANNINGRECORD\_CURRENT** — The current state of all Planning records across all workspaces and record types.
-* **PLANNINGRECORD\_DAILY\_HISTORY** — A daily snapshot of Planning record state, useful for trend analysis.
-* **PLANNINGRECORD\_EVENT** — A change log of every event that modifies a Planning record, useful for point-in-time comparisons.
-* **RECORDTYPE\_CURRENT** — The current definitions of all record types configured in Planning workspaces.
-* **RECORDTYPE\_DAILY\_HISTORY** — A daily snapshot of record type definitions, useful for tracking record type configuration changes over time.
-* **RECORDTYPE\_EVENT** — A change log of every event that modifies a record type definition.
-* **REFERENCE\_CURRENT** — The current state of all cross-object reference connections between Planning records and Workfront (or other external) objects.
-* **WORKSPACE\_CURRENT** — The current definitions of all Planning workspaces.
-* **WORKSPACE\_DAILY\_HISTORY** — A daily snapshot of workspace definitions, useful for tracking workspace configuration changes over time.
-* **WORKSPACE\_EVENT** — A change log of every event that modifies a workspace definition.
+* **FIELD\_CURRENT**: le definizioni correnti di tutti i campi configurati nei tipi di record di Planning.
+* **FIELD\_DAILY\_HISTORY** — Istantanea giornaliera delle definizioni dei campi, utile per tenere traccia delle modifiche alla configurazione dei campi nel tempo.
+* **FIELD\_EVENT** — Registro delle modifiche di ogni evento che modifica la definizione di un campo.
+* **PLANNINGRECORD\_CURRENT**: lo stato corrente di tutti i record di Planning in tutte le aree di lavoro e i tipi di record.
+* **PLANNINGRECORD\_DAILY\_HISTORY**: snapshot giornaliero dello stato del record di Planning, utile per l&#39;analisi delle tendenze.
+* **PLANNINGRECORD\_EVENT** — Un registro delle modifiche di ogni evento che modifica un record di Planning, utile per confronti point-in-time.
+* **RECORDTYPE\_CURRENT**: le definizioni correnti di tutti i tipi di record configurati nelle aree di lavoro di Planning.
+* **RECORDTYPE\_DAILY\_HISTORY**: snapshot giornaliero delle definizioni dei tipi di record, utile per tenere traccia delle modifiche di configurazione dei tipi di record nel tempo.
+* **RECORDTYPE\_EVENT**: registro delle modifiche di ogni evento che modifica una definizione di tipo di record.
+* **REFERENCE\_CURRENT** — Lo stato corrente di tutte le connessioni di riferimento tra oggetti diversi tra i record di Planning e gli oggetti Workfront (o altri oggetti esterni).
+* **WORKSPACE\_CURRENT**: le definizioni correnti di tutte le aree di lavoro di Planning.
+* **WORKSPACE\_DAILY\_HISTORY**: snapshot giornaliero delle definizioni dell&#39;area di lavoro, utile per tenere traccia delle modifiche alla configurazione dell&#39;area di lavoro nel tempo.
+* **WORKSPACE\_EVENT**: registro delle modifiche di ogni evento che modifica una definizione dell&#39;area di lavoro.
 
 
 
 >[!NOTE]
 >
->The following views are available in the Planning schema but are not described in detail here. They follow the same column patterns as their corresponding CURRENT views, with the addition of standard history and event audit fields.
+>Le viste seguenti sono disponibili nello schema di Planning, ma non sono descritte in dettaglio. Seguono gli stessi pattern di colonne delle visualizzazioni CORRENTI corrispondenti, con l’aggiunta di campi di audit degli eventi e della cronologia standard.
 >
->The views are:
+>Le visualizzazioni sono:
 >
->* DAILY\_HISTORY views
+>* VISTE DAILY\_HISTORY
 >
->* EVENT views (FIELD\_DAILY\_HISTORY, FIELD\_EVENT, PLANNINGRECORD\_DAILY\_HISTORY, PLANNINGRECORD\_EVENT, RECORDTYPE\_DAILY\_HISTORY, RECORDTYPE\_EVENT, WORKSPACE\_DAILY\_HISTORY, and WORKSPACE\_EVENT)
+>* VISUALIZZAZIONI EVENTO (CAMPO\_DAILY\_HISTORY, CAMPO\_EVENT, PLANNINGRECORD\_DAILY\_HISTORY, PLANNINGRECORD\_EVENT, RECORDTYPE\_DAILY\_HISTORY, RECORDTYPE\_EVENT, WORKSPACE\_DAILY\_HISTORY e WORKSPACE\_EVENT)
 
 
-### FIELD\_CURRENT
+### CAMPO\_CURRENT
 
-Contains the current definitions of all fields configured on Workfront Planning record types. Each row represents one field, including its display name, type, and type-specific configuration stored in structured Variant (JSON) columns. Use this view to resolve field IDs from PLANNINGRECORD\_CURRENT into human-readable field names and metadata.
+Contiene le definizioni correnti di tutti i campi configurati nei tipi di record di Workfront Planning. Ogni riga rappresenta un campo, inclusi il nome visualizzato, il tipo e la configurazione specifica per il tipo, memorizzati in colonne Variante strutturata (JSON). Utilizzare questa visualizzazione per risolvere gli ID di campo da PLANNINGRECORD\_CURRENT in nomi di campo e metadati leggibili dall&#39;utente.
 
 <table>
     <tr>
-        <td>Column Name</td>
-        <td>Type</td>
-        <td>Description</td>
-        <td>Related Table</td>
-        <td>Related Field</td>
+        <td>Nome colonna</td>
+        <td>Tipo</td>
+        <td>Descrizione</td>
+        <td>Tabella correlata</td>
+        <td>Campo correlato</td>
     </tr>
     <tr>
-        <td>`ID`</td>
+        <td>"ID"</td>
         <td>Varchar</td>
-        <td>The unique identifier for the field definition. Primary key for this view.</td>
+        <td>Identificatore univoco per la definizione del campo. Chiave primaria per questa visualizzazione.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`RECORDTYPEID`</td>
+        <td>'RECORDTYPEID'</td>
         <td>Varchar</td>
-        <td>The unique identifier of the record type this field belongs to. Use with RECORDTYPE\_CURRENT to look up record type details.</td>
+        <td>Identificatore univoco del tipo di record a cui appartiene questo campo. Utilizzare con RECORDTYPE\_CURRENT per cercare i dettagli del tipo di record.</td>
         <td>RECORDTYPE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`DISPLAYNAME`</td>
+        <td>"DISPLAYNAME"</td>
         <td>Varchar</td>
-        <td>The display name of the field as shown in the Planning interface.</td>
+        <td>Il nome visualizzato del campo come mostrato nell'interfaccia di Planning.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`ALIASNAME`</td>
+        <td>"ALIASNAME"</td>
         <td>Varchar</td>
-        <td>A URL-safe, lowercase version of the field&#39;s display name, used for system-level identification and API access (e.g., &quot;End Date&quot; becomes `end_date`, &quot;Percent Complete&quot; becomes `percent_complete`).</td>
+        <td>Una versione URL-safe, in minuscolo, del nome visualizzato del campo, utilizzata per l’identificazione a livello di sistema e l’accesso API (ad esempio, "End Date" diventa "end_date", "Percent Complete" diventa "percent_complete").</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DESCRIPTION`</td>
+        <td>"DESCRIPTION"</td>
         <td>Varchar</td>
-        <td>A user-provided description of the field&#39;s purpose.</td>
+        <td>Descrizione fornita dall'utente dello scopo del campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELDTYPE`</td>
+        <td>"FIELDTYPE"</td>
         <td>Varchar</td>
-        <td>The data type or field category. Possible values include: `text`, `long-text`, `number`, `percentage`, `currency`, `date`, `boolean`, `single-select`, `multi-select`, `reference`, `lookup`, `formula`, `user`, `created-at`, and `created-by`.</td>
+        <td>Tipo di dati o categoria di campi. I valori possibili includono: "text", "long-text", "number", "percentage", "currency", "date", "boolean", "single-select", "multi-select", "reference", "lookup", "formula", "user", "created-at" e "created-by".</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`HASERROR`</td>
+        <td>"HASERROR"</td>
         <td>Varchar</td>
-        <td>Indicates whether the field currently has a configuration or sync error. Values are the strings `true` or `false`. A value of `true` means the field is in an error state and may not be returning data correctly.</td>
+        <td>Indica se il campo presenta attualmente un errore di configurazione o sincronizzazione. I valori sono le stringhe "true" o "false". Il valore "true" indica che il campo si trova in uno stato di errore e potrebbe non restituire correttamente i dati.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`LINKEDFIELD`</td>
-        <td>Variant</td>
-        <td>A JSON object containing the full field definition of the source field that this field is linked to. Present for `reference` and `lookup` field types; includes properties such as `alias`, `displayName`, `fieldType`, and `createdAt`. Null for non-linked fields.</td>
-        <td>FIELD\_CURRENT</td>
+        <td>'LINKEDFIELD'</td>
+        <td>Variante</td>
+        <td>Oggetto JSON contenente la definizione completa del campo di origine a cui è collegato questo campo. Presente per tipi di campo "reference" e "lookup"; include proprietà come "alias", "displayName", "fieldType" e "createdAt". Null per i campi non collegati.</td>
+        <td>CAMPO\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`OPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON array of choice objects for `single-select` and `multi-select` fields. Each choice object contains `color` (a named color label), `displayName` (the label shown in the UI), and `name` (the internal API name). Null for non-select field types.</td>
+        <td>"OPTIONS"</td>
+        <td>Variante</td>
+        <td>Un array JSON di oggetti di scelta per i campi "single-select" e "multi-select". Ogni oggetto di scelta contiene "color" (un’etichetta di colore denominata), "displayName" (l’etichetta mostrata nell’interfaccia utente) e "name" (il nome API interno). Null per i tipi di campo non selezionati.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DATEOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing date-specific display configuration for `date` fields. Includes `dateFormat` (e.g., `locale`) and `timeFormat` (null if time is not shown). Null for non-date field types.</td>
+        <td>"DATEOPTIONS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON contenente la configurazione di visualizzazione specifica per data per i campi "date". Include "dateFormat" (ad es., "locale") e "timeFormat" (null se non viene visualizzata l’ora). Null per i tipi di campo non di data.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FORMULAOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing formula configuration for `formula` fields. Includes `formula` (the human-readable formula expression), `returnType` (e.g., `PERCENTAGE`, `NUMBER`), `numberOptions` (precision, visualization), and `dateOptions`. Null for non-formula fields.</td>
+        <td>"FORMULAOPTIONS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON contenente la configurazione della formula per i campi "formula". Include "formula" (l’espressione della formula leggibile dall’uomo), "returnType" (ad esempio, "PERCENTAGE", "NUMBER"), "numberOptions" (precisione, visualizzazione) e "dateOptions". Nullo per i campi non formula.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`REFERENCEOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing connection configuration for `reference` fields that link to other Planning record types. Includes `backField` (the definition of the reverse reference field on the connected record type) and `linkedRecordTypeId`. Null for non-reference fields.</td>
+        <td>"REFERENCEOPTIONS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON contenente la configurazione della connessione per i campi "reference" che si collegano ad altri tipi di record di Planning. Include "backField" (la definizione del campo di riferimento inverso sul tipo di record connesso) e "linkedRecordTypeId". Null per i campi non di riferimento.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`LOOKUPOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing lookup configuration for `lookup` fields that pull values from a connected record type. Includes `referenceFieldId` (the ID of the reference field driving the lookup), `rollup` (aggregation method, or null for no rollup), and `sourceField` (an object with the `id` of the field being looked up). Null for non-lookup fields.</td>
+        <td>"LOOKUPOPTIONS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON contenente la configurazione di ricerca per campi "lookup" che richiamano valori da un tipo di record connesso. Include "referenceFieldId" (l’ID del campo di riferimento che guida la ricerca), "rollup" (metodo di aggregazione o null per nessuna aggregazione) e "sourceField" (un oggetto con il "id" del campo che viene cercato). Null per i campi non di ricerca.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`NUMBEROPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing numeric formatting options for `number`, `percentage`, and `currency` fields. Includes `allowNegatives` (boolean), `currency` (currency code or null), `precision` (decimal places), and `visualizationType` (display style, or null for plain text). Null for non-numeric field types.</td>
+        <td>"NUMBEROPTIONS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON contenente opzioni di formattazione numerica per i campi "number", "percentage" e "currency". Include "allowNegatives" (booleano), "currency" (codice valuta o nullo), "precision" (posizioni decimali) e "visualizationType" (stile di visualizzazione o null per il testo normale). Null per i tipi di campo non numerici.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`EXTERNALOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing configuration for fields connected to external systems outside of Planning. Typically null for natively created fields; populated for fields on externally connected record types.</td>
+        <td>Variante</td>
+        <td>Oggetto JSON contenente la configurazione dei campi collegati a sistemi esterni al di fuori di Planning. In genere null per i campi creati in modo nativo; popolato per i campi su tipi di record connessi esternamente.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>"CREATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this field was created.</td>
+        <td>La marca temporale (nessun fuso orario) di quando è stato creato questo campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>"CREATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who created this field.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente che ha creato il campo.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>"UPDATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this field was last updated.</td>
+        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>"UPDATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who last updated this field.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'ultimo utente che ha aggiornato questo campo.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>'USERID'</td>
         <td>Varchar</td>
-        <td>The identifier of the user associated with this field, typically the field owner.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>L’identificatore dell’utente associato a questo campo, in genere il proprietario del campo.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this field record. A value of 1 indicates the record was created in the most recent data refresh cycle; 0 indicates it was not. See CREATEDAT for the actual creation timestamp.</td>
+        <td>"CREATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di campo. Il valore 1 indica che il record è stato creato nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo è stato. Consulta CREATEDAT per la marca temporale della creazione effettiva.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this field record. A value of 1 indicates the record was updated in the most recent data refresh cycle; 0 indicates it was not. See UPDATEDAT for the actual last-updated timestamp.</td>
+        <td>"UPDATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di campo. Il valore 1 indica che il record è stato aggiornato nel ciclo di aggiornamento dei dati più recente; 0 indica che non lo era. Per la marca temporale effettiva dell’ultimo aggiornamento, consulta UPDATEDAT.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this field has been soft-deleted. A value of 1 indicates deleted; 0 indicates active.</td>
+        <td>"DELETED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se il campo è stato eliminato temporaneamente. Il valore 1 indica eliminato, 0 indica attivo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`RESTORED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this field was restored after being soft-deleted.</td>
+        <td>"RESTORED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se il campo è stato ripristinato dopo l’eliminazione temporanea.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>"TRIGGEREDBYSERVICE"</td>
         <td>Varchar</td>
-        <td>The name of the service or integration that triggered the last modification to this field record. A value of `Unknown` indicates the originating service could not be determined.</td>
+        <td>Il nome del servizio o dell’integrazione che ha attivato l’ultima modifica a questo record di campo. Il valore "Unknown" indica che non è stato possibile determinare il servizio di origine.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`ISFUSION`</td>
-        <td>Boolean</td>
-        <td>A flag indicating whether this field was created or managed through a Workfront Fusion integration. A value of `true` indicates Fusion management; `false` or an empty value indicates it is a natively created field.</td>
+        <td>Booleano</td>
+        <td>Flag che indica se il campo è stato creato o gestito tramite un’integrazione di Workfront Fusion. Il valore "true" indica la gestione di Fusion; "false" o un valore vuoto indica che si tratta di un campo creato in modo nativo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>"DL_LOAD_TIMESTAMP"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this field record into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record di campo nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9090,160 +9090,160 @@ Contains the current definitions of all fields configured on Workfront Planning 
 
 ### PLANNINGRECORD\_CURRENT
 
-Contains the current state of all records created in Workfront Planning, across all workspaces and record types. Each row represents one Planning record, with field values stored in structured Variant (JSON) columns that reflect the dynamic, schema-flexible nature of Planning data.
+Contiene lo stato corrente di tutti i record creati in Workfront Planning, in tutte le aree di lavoro e in tutti i tipi di record. Ogni riga rappresenta un record Planning, con valori di campo memorizzati in colonne Variante strutturata (JSON) che riflettono la natura dinamica e flessibile dello schema dei dati Planning.
 
 <table>
     <tr>
-        <td>Column Name</td>
-        <td>Type</td>
-        <td>Description</td>
-        <td>Related Table</td>
-        <td>Related Field</td>
+        <td>Nome colonna</td>
+        <td>Tipo</td>
+        <td>Descrizione</td>
+        <td>Tabella correlata</td>
+        <td>Campo correlato</td>
     </tr>
     <tr>
         <td>`RECORDID`</td>
         <td>Varchar</td>
-        <td>The unique identifier for the Planning record. Primary key for this view.</td>
-        <td>WF.PLANNINGRECORDS\_CURRENT</td>
+        <td>Identificatore univoco del record di Planning. Chiave primaria per questa visualizzazione.</td>
+        <td>WF.PLANNINGRECORDS\_CORRENTE</td>
         <td>RECORDID</td>
     </tr>
     <tr>
-        <td>`WORKSPACEID`</td>
+        <td>"WORKSPACEID"</td>
         <td>Varchar</td>
-        <td>The unique identifier for the Planning workspace that contains this record.</td>
+        <td>Identificatore univoco dell'area di lavoro di Planning che contiene il record.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`WORKSPACENAME`</td>
+        <td>"WORKSPACENAME"</td>
         <td>Varchar</td>
-        <td>The display name of the Planning workspace that contains this record.</td>
+        <td>Nome visualizzato dell'area di lavoro di Planning che contiene questo record.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`RECORDTYPEID`</td>
+        <td>'RECORDTYPEID'</td>
         <td>Varchar</td>
-        <td>The unique identifier for the record type (e.g., Campaign, Initiative) that this record belongs to.</td>
+        <td>Identificatore univoco del tipo di record (ad esempio, Campagna, Iniziativa) a cui appartiene il record.</td>
         <td>RECORDTYPE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`RECORDTYPENAME`</td>
+        <td>'RECORDTYPENAME'</td>
         <td>Varchar</td>
-        <td>The display name of the record type that this record belongs to.</td>
+        <td>Nome visualizzato del tipo di record a cui appartiene il record.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELD_IDS`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field&#39;s display name to its field ID (e.g., `{&quot;Status&quot;: &quot;F69bc...&quot;, &quot;End Date&quot;: &quot;F69bc...&quot;}`). Use this to map human-readable field names to the IDs used in FIELDID\_VALUES and FIELDID\_VALUES\_RAW.</td>
+        <td>"FIELD_IDS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON che mappa il nome visualizzato di ciascun campo al relativo ID campo (ad esempio, `{"Status": "F69bc...", "End Date": "F69bc..."}`). Usate questa funzione per mappare i nomi dei campi leggibili dall'utente agli ID utilizzati in FIELDID\_VALUES e FIELDID\_VALUES\_RAW.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELD_VALUES_RAW`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field&#39;s display name to its raw (unformatted) value. For reference fields, the value is an array of connected record objects; for number and formula fields, it is a plain numeric value; for long-text fields, it is a rich-text content object. Keyed by field display name, matching FIELD\_IDS.</td>
+        <td>"FIELD_VALUES_RAW"</td>
+        <td>Variante</td>
+        <td>Oggetto JSON che mappa il nome visualizzato di ciascun campo sul relativo valore non formattato. Per i campi di riferimento, il valore è una matrice di oggetti record connessi; per i campi numerici e per i campi formula, è un valore numerico semplice; per i campi di testo lungo, è un oggetto contenuto in formato Rich Text. Chiave in base al nome visualizzato del campo, campo corrispondente\_IDS.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELD_VALUES`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field&#39;s display name to its display-formatted string value. Keyed by field display name, matching FIELD\_IDS.</td>
+        <td>"FIELD_VALUES"</td>
+        <td>Variante</td>
+        <td>Oggetto JSON che mappa il nome visualizzato di ciascun campo al relativo valore stringa in formato di visualizzazione. Chiave in base al nome visualizzato del campo, campo corrispondente\_IDS.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`FIELD_TYPES`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field&#39;s display name to its field type string (e.g., `text`, `number`, `date`, `single-select`, `reference`, `formula`). Keyed by field display name, matching FIELD\_IDS.</td>
+        <td>"FIELD_TYPES"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON che mappa il nome visualizzato di ciascun campo alla relativa stringa del tipo di campo (ad esempio, "text", "number", "date", "single-select", "reference", "formula"). Chiave in base al nome visualizzato del campo, campo corrispondente\_IDS.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`FIELDID_VALUES`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field ID to its display-formatted value. For simple field types the value is a string or number; for long-text fields it is an object containing both `content` (plain text) and `contentHTML` (HTML-formatted) properties. Use FIELD\_IDS to look up the display name for each field ID.</td>
+        <td>Variante</td>
+        <td>Oggetto JSON che mappa ogni ID campo sul relativo valore in formato di visualizzazione. Per i tipi di campo semplici il valore è una stringa o un numero; per i campi di testo lungo è un oggetto contenente sia le proprietà "content" (testo normale) che le proprietà "contentHTML" (formattato in HTML). Utilizzare FIELD\_IDS per cercare il nome visualizzato per ciascun ID campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`FIELDID_VALUES_RAW`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each field ID to its raw (unformatted) value. For most field types, values are plain strings, numbers, or epoch millisecond timestamps. Long-text fields return the plain text content as a string. Use FIELD\_IDS to look up the display name for each field ID.</td>
+        <td>Variante</td>
+        <td>Oggetto JSON che mappa ogni ID campo al relativo valore non formattato. Per la maggior parte dei tipi di campo, i valori sono stringhe semplici, numeri o marche temporali millisecondi epoca. I campi a testo lungo restituiscono il contenuto di testo normale come stringa. Utilizzare FIELD\_IDS per cercare il nome visualizzato per ciascun ID campo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`FIELDID_FIELDID`</td>
-        <td>Variant</td>
-        <td>A JSON object that lists all field IDs present on this record as a self-mapping (each field ID maps to itself). Use this to enumerate which fields are populated on a given record, or to cross-reference with FIELD\_CURRENT.</td>
+        <td>Variante</td>
+        <td>Oggetto JSON che elenca tutti gli ID di campo presenti in questo record come mappatura automatica (ogni ID di campo viene mappato su se stesso). Usare questa funzione per enumerare i campi compilati in un determinato record o per fare riferimento incrociato con FIELD\_CURRENT.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`REFERENCE_IDS`</td>
-        <td>Variant</td>
-        <td>A JSON object mapping each reference field&#39;s display name to the ID of the connection record (e.g., `{&quot;Project&quot;: &quot;Ref8b471aa...&quot;}`). Use in conjunction with REFERENCE\_CURRENT to resolve connected external objects for this record.</td>
+        <td>"REFERENCE_IDS"</td>
+        <td>Variante</td>
+        <td>Un oggetto JSON che mappa il nome visualizzato di ciascun campo di riferimento all’ID del record di connessione (ad esempio, `{"Project": "Ref8b471aa..."}`). Utilizzare in combinazione con REFERENCE\_CURRENT per risolvere gli oggetti esterni collegati per questo record.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this record. A value of 1 indicates the record was created in the most recent data refresh cycle; 0 indicates it was not. See CREATEDAT for the actual creation timestamp.</td>
+        <td>"CREATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record. Il valore 1 indica che il record è stato creato nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo è stato. Consulta CREATEDAT per la marca temporale della creazione effettiva.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this record. A value of 1 indicates the record was updated in the most recent data refresh cycle; 0 indicates it was not. See UPDATEDAT for the actual last-updated timestamp.</td>
+        <td>"UPDATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record. Il valore 1 indica che il record è stato aggiornato nel ciclo di aggiornamento dei dati più recente; 0 indica che non lo era. Per la marca temporale effettiva dell’ultimo aggiornamento, consulta UPDATEDAT.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this record has been soft-deleted. A value of 1 indicates the record is deleted; 0 indicates it is active.</td>
+        <td>"DELETED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se il record è stato eliminato in modo non permanente. Il valore 1 indica che il record è stato eliminato, mentre il valore 0 indica che è attivo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>"CREATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record was created.</td>
+        <td>La marca temporale (nessun fuso orario) di quando è stato creato questo record.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>"CREATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who created this record.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente che ha creato il record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>"UPDATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record was last updated.</td>
+        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo record.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>"UPDATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who last updated this record.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'ultimo utente che ha aggiornato il record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>"DL_LOAD_TIMESTAMP"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this record into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9251,15 +9251,15 @@ Contains the current state of all records created in Workfront Planning, across 
 
 ### RECORDTYPE\_CURRENT
 
-Contains the current definitions of all record types configured in Workfront Planning workspaces. Each row represents one record type, including its display name, workspace association, primary field, and configuration metadata. Use this view to resolve record type IDs from PLANNINGRECORD\_CURRENT and FIELD\_CURRENT into human-readable names.
+Contiene le definizioni correnti di tutti i tipi di record configurati nelle aree di lavoro di Workfront Planning. Ogni riga rappresenta un tipo di record, inclusi il nome visualizzato, l&#39;associazione all&#39;area di lavoro, il campo primario e i metadati di configurazione. Utilizzare questa visualizzazione per risolvere gli ID dei tipi di record da PLANNINGRECORD\_CURRENT e FIELD\_CURRENT in nomi leggibili dall&#39;utente.
 
 <table>
     <tr>
-        <td>Column Name</td>
-        <td>Type</td>
-        <td>Description</td>
-        <td>Related Table</td>
-        <td>Related Field</td>
+        <td>Nome colonna</td>
+        <td>Tipo</td>
+        <td>Descrizione</td>
+        <td>Tabella correlata</td>
+        <td>Campo correlato</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9268,9 +9268,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`ID`</td>
+        <td>"ID"</td>
         <td>Varchar</td>
-        <td>The unique identifier for the record type. Primary key for this view.</td>
+        <td>Identificatore univoco per il tipo di record. Chiave primaria per questa visualizzazione.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9281,9 +9281,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this record type. A value of 1 indicates the record type was created in the most recent data refresh cycle; 0 indicates it was not. See CREATEDAT for the actual creation timestamp.</td>
+        <td>"CREATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato questo tipo di record. Il valore 1 indica che il tipo di record è stato creato nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo è stato. Consulta CREATEDAT per la marca temporale della creazione effettiva.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9294,9 +9294,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this record type. A value of 1 indicates the record type was updated in the most recent data refresh cycle; 0 indicates it was not. See UPDATEDAT for the actual last-updated timestamp.</td>
+        <td>"UPDATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato questo tipo di record. Il valore 1 indica che il tipo di record è stato aggiornato nel ciclo di aggiornamento dei dati più recente, mentre il valore 0 indica che non lo era. Per la marca temporale effettiva dell’ultimo aggiornamento, consulta UPDATEDAT.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9307,9 +9307,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this record type has been soft-deleted. A value of 1 indicates deleted; 0 indicates active.</td>
+        <td>"DELETED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se il tipo di record è stato eliminato in modo non permanente. Il valore 1 indica eliminato, 0 indica attivo.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9320,9 +9320,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>"DL_LOAD_TIMESTAMP"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this record type into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo tipo di record nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9333,10 +9333,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>"CREATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who created this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente che ha creato questo tipo di record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9346,9 +9346,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>"CREATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was created.</td>
+        <td>La marca temporale (senza fuso orario) di quando è stato creato questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9359,10 +9359,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>"UPDATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who last updated this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'ultimo utente che ha aggiornato questo tipo di record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9372,9 +9372,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>"UPDATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was last updated.</td>
+        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9385,10 +9385,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>'USERID'</td>
         <td>Varchar</td>
-        <td>The identifier of the user associated with this record type, typically the owner.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente associato a questo tipo di record, in genere il proprietario.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9398,9 +9398,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`WORKSPACEID`</td>
+        <td>"WORKSPACEID"</td>
         <td>Varchar</td>
-        <td>The unique identifier of the workspace this record type belongs to. Use with WORKSPACE\_CURRENT to look up workspace details.</td>
+        <td>Identificatore univoco dell'area di lavoro a cui appartiene questo tipo di record. Usare con WORKSPACE\_CURRENT per cercare i dettagli del workspace.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
         <td></td>
@@ -9411,9 +9411,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DISPLAYNAME`</td>
+        <td>"DISPLAYNAME"</td>
         <td>Varchar</td>
-        <td>The display name of the record type as shown in the Planning interface (e.g., &quot;Campaign&quot;, &quot;Initiative&quot;).</td>
+        <td>Il nome visualizzato del tipo di record come mostrato nell'interfaccia di Planning (ad esempio, "Campaign", "Initiative").</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9424,9 +9424,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DESCRIPTION`</td>
+        <td>"DESCRIPTION"</td>
         <td>Varchar</td>
-        <td>A user-provided description of the record type&#39;s purpose.</td>
+        <td>Descrizione fornita dall'utente dello scopo del tipo di record.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9437,9 +9437,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`COLOR`</td>
+        <td>"COLOR"</td>
         <td>Varchar</td>
-        <td>A named color label associated with this record type in the Planning interface (e.g., `blue`, `green`, `purple`, `magenta`, `chartreuse`, `dark-gray`). Not a hex code.</td>
+        <td>Un’etichetta a colori con nome associata a questo tipo di record nell’interfaccia di Planning (ad esempio, "blue", "green", "purple", "magenta", "chartreuse", "dark-gray"). Non è un codice esadecimale.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9450,9 +9450,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`PERMISSION`</td>
+        <td>"PERMISSION"</td>
         <td>Varchar</td>
-        <td>The permission level configured for access to this record type (e.g., `VIEW`, `CONTRIBUTE`, `MANAGE`). May be empty if no custom permission is set.</td>
+        <td>Il livello di autorizzazione configurato per l’accesso a questo tipo di record (ad esempio, "VIEW", "CONTRIBUTE", "MANAGE"). Può essere vuoto se non è impostata alcuna autorizzazione personalizzata.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9465,8 +9465,8 @@ Contains the current definitions of all record types configured in Workfront Pla
     <tr>
         <td>`PRIMARYFIELDID`</td>
         <td>Varchar</td>
-        <td>The identifier of the field designated as the primary (title) field for this record type. Foreign key to FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
+        <td>Identificatore del campo designato come campo principale (titolo) per questo tipo di record. Chiave esterna a FIELD\_CURRENT.ID.</td>
+        <td>CAMPO\_CURRENT</td>
         <td>ID</td>
         <td></td>
         <td></td>
@@ -9476,9 +9476,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`ISTAXONOMY`</td>
+        <td>"ISTAXONOMY"</td>
         <td>Varchar</td>
-        <td>Indicates whether this record type is classified as a taxonomy type, used to organize and categorize other records. A value of `true` indicates a taxonomy type. May be empty for non-taxonomy record types.</td>
+        <td>Indica se questo tipo di record è classificato come tipo di tassonomia, utilizzato per organizzare e classificare altri record. Il valore "true" indica un tipo di tassonomia. Può essere vuoto per i tipi di record non di tassonomia.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9489,22 +9489,22 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`PERMISSION`</td>
+        <td>"PERMISSION"</td>
         <td>Varchar</td>
-        <td>The permission level configured for access to this record type (e.g., `VIEW`, `CONTRIBUTE`, `MANAGE`). May be empty if no custom permission is set.</td>
+        <td>Il livello di autorizzazione configurato per l’accesso a questo tipo di record (ad esempio, "VIEW", "CONTRIBUTE", "MANAGE"). Può essere vuoto se non è impostata alcuna autorizzazione personalizzata.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
         <td>`PRIMARYFIELDID`</td>
         <td>Varchar</td>
-        <td>The identifier of the field designated as the primary (title) field for this record type. Foreign key to FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
+        <td>Identificatore del campo designato come campo principale (titolo) per questo tipo di record. Chiave esterna a FIELD\_CURRENT.ID.</td>
+        <td>CAMPO\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`ISTAXONOMY`</td>
+        <td>"ISTAXONOMY"</td>
         <td>Varchar</td>
-        <td>Indicates whether this record type is classified as a taxonomy type, used to organize and categorize other records. A value of `true` indicates a taxonomy type. May be empty for non-taxonomy record types.</td>
+        <td>Indica se questo tipo di record è classificato come tipo di tassonomia, utilizzato per organizzare e classificare altri record. Il valore "true" indica un tipo di tassonomia. Può essere vuoto per i tipi di record non di tassonomia.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9515,9 +9515,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`ISEXTERNAL`</td>
-        <td>Boolean</td>
-        <td>A flag indicating whether this record type represents an externally connected object type rather than a native Planning record.</td>
+        <td>`INTERNO`</td>
+        <td>Booleano</td>
+        <td>Flag che indica se questo tipo di record rappresenta un tipo di oggetto connesso esternamente anziché un record di Planning nativo.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9529,8 +9529,8 @@ Contains the current definitions of all record types configured in Workfront Pla
     </tr>
     <tr>
         <td>`EXTERNALOPTIONS`</td>
-        <td>Variant</td>
-        <td>A JSON object containing configuration details for record types connected to external systems. Includes `connectionName` (e.g., `workfront`), `objectName` (the Workfront API object code, e.g., `PROJ`), and `fields` (a map of standard field aliases to Planning field IDs for the synced fields). Null for natively created record types.</td>
+        <td>Variante</td>
+        <td>Oggetto JSON contenente i dettagli di configurazione per i tipi di record connessi a sistemi esterni. Include "connectionName" (ad esempio, "workfront"), "objectName" (il codice oggetto API di Workfront, ad esempio, "PROJ") e "fields" (una mappa degli alias di campo standard sugli ID campo di Planning per i campi sincronizzati). Null per i tipi di record creati in modo nativo.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9541,9 +9541,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`RESTORED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this record type was restored after being soft-deleted.</td>
+        <td>"RESTORED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se il tipo di record è stato ripristinato dopo l'eliminazione temporanea.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9554,9 +9554,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`ALIAS`</td>
+        <td>"ALIAS"</td>
         <td>Varchar</td>
-        <td>An internal alias for the record type, used for system-level identification and API access. May be empty for record types that have not been assigned an alias.</td>
+        <td>Alias interno per il tipo di record, utilizzato per l’identificazione a livello di sistema e l’accesso API. Può essere vuoto per i tipi di record a cui non è stato assegnato un alias.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9567,9 +9567,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>"TRIGGEREDBYSERVICE"</td>
         <td>Varchar</td>
-        <td>The name of the service or integration that triggered the last modification to this record type. A value of `Unknown` indicates the originating service could not be determined.</td>
+        <td>Nome del servizio o dell'integrazione che ha attivato l'ultima modifica a questo tipo di record. Il valore "Unknown" indica che non è stato possibile determinare il servizio di origine.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9581,8 +9581,8 @@ Contains the current definitions of all record types configured in Workfront Pla
     </tr>
     <tr>
         <td>`ISFUSION`</td>
-        <td>Boolean</td>
-        <td>A flag indicating whether this record type was created or managed through a Workfront Fusion integration. A value of `true` indicates Fusion management; `false` or an empty value indicates it is a natively created record type.</td>
+        <td>Booleano</td>
+        <td>Flag che indica se questo tipo di record è stato creato o gestito tramite un’integrazione di Workfront Fusion. Il valore "true" indica la gestione di Fusion; "false" o un valore vuoto indica che si tratta di un tipo di record creato in modo nativo.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9593,9 +9593,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>"CREATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was created.</td>
+        <td>La marca temporale (senza fuso orario) di quando è stato creato questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9606,10 +9606,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>"CREATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who created this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente che ha creato questo tipo di record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9619,9 +9619,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>"UPDATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this record type was last updated.</td>
+        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9632,10 +9632,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>"UPDATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who last updated this record type.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'ultimo utente che ha aggiornato questo tipo di record.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9645,10 +9645,10 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>'USERID'</td>
         <td>Varchar</td>
-        <td>The identifier of the user associated with this record type, typically the owner.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente associato a questo tipo di record, in genere il proprietario.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
         <td></td>
         <td></td>
@@ -9660,7 +9660,7 @@ Contains the current definitions of all record types configured in Workfront Pla
     <tr>
         <td>`TO_RECORDID`</td>
         <td>Varchar</td>
-        <td>The unique identifier of the Planning record that owns this reference connection. Foreign key to PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>Identificatore univoco del record di Planning a cui appartiene questa connessione di riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDID.</td>
         <td>PLANNINGRECORD\_CURRENT</td>
         <td>RECORDID</td>
         <td></td>
@@ -9671,9 +9671,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`TO_EXTERNALID`</td>
+        <td>'TO_EXTERNALID'</td>
         <td>Varchar</td>
-        <td>The unique identifier of the external object being referenced (e.g., a Workfront project ID, task ID, or other connected object ID).</td>
+        <td>Identificatore univoco dell'oggetto esterno a cui si fa riferimento (ad esempio, un ID progetto Workfront, un ID attività o un altro ID oggetto connesso).</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9684,9 +9684,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`TO_EXTERNALCONNECTIONNAME`</td>
+        <td>'TO_EXTERNALCONNECTIONNAME'</td>
         <td>Varchar</td>
-        <td>The name of the external connection through which the referenced object is connected (e.g., the name of the Workfront connection configured in Planning).</td>
+        <td>Il nome della connessione esterna attraverso la quale è connesso l'oggetto di riferimento (ad esempio, il nome della connessione Workfront configurata in Planning).</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9697,9 +9697,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`TO_EXTERNALOBJECTNAME`</td>
+        <td>'TO_EXTERNALOBJECTNAME'</td>
         <td>Varchar</td>
-        <td>The Workfront API object code for the type of external object being referenced (e.g., `PROJ` for Project, `TASK` for Task, `PORT` for Portfolio). Use this to determine which Workfront table to join when looking up the referenced object.</td>
+        <td>Il codice oggetto API di Workfront per il tipo di oggetto esterno a cui si fa riferimento (ad esempio, "PROJ" per Progetto, "TASK" per Attività, "PORT" per Portfolio). Utilizzare questa opzione per determinare quale tabella Workfront unire quando si cerca l'oggetto di riferimento.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9710,9 +9710,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`RECORDTYPEID`</td>
+        <td>'RECORDTYPEID'</td>
         <td>Varchar</td>
-        <td>The unique identifier of the Planning record type associated with the record that owns this reference. Foreign key to PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>Identificatore univoco del tipo di record di Planning associato al record a cui appartiene questo riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
         <td>RECORDTYPE\_CURRENT</td>
         <td>ID</td>
         <td></td>
@@ -9723,9 +9723,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`REFERENCEVALUE`</td>
+        <td>"REFERENCEVALUE"</td>
         <td>Varchar</td>
-        <td>The display name of the referenced external object as of the last data refresh (e.g., a Workfront project name like &quot;Beta&quot; or &quot;Canvas Dashboards Project&quot;). This value reflects the object&#39;s name at refresh time and may become stale if the object is renamed.</td>
+        <td>Il nome visualizzato dell’oggetto esterno di riferimento all’ultimo aggiornamento dei dati (ad esempio, un nome di progetto Workfront come "Beta" o "Progetto dashboard Canvas"). Questo valore riflette il nome dell'oggetto al momento dell'aggiornamento e può diventare obsoleto se l'oggetto viene rinominato.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9736,9 +9736,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was created in the most recent data refresh cycle; 0 indicates it was not.</td>
+        <td>"CREATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato creato nel ciclo di aggiornamento dei dati più recente, mentre il valore 0 indica che non lo era.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9749,9 +9749,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this reference record. A value of 1 indicates the reference was updated in the most recent data refresh cycle; 0 indicates it was not.</td>
+        <td>"UPDATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato aggiornato nel ciclo di aggiornamento dei dati più recente; 0 indica che non lo era.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9762,9 +9762,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this reference connection has been soft-deleted. A value of 1 indicates the reference is deleted; 0 indicates it is active.</td>
+        <td>"DELETED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se la connessione di riferimento è stata eliminata temporaneamente. Il valore 1 indica che il riferimento è stato eliminato, mentre 0 indica che è attivo.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9775,9 +9775,9 @@ Contains the current definitions of all record types configured in Workfront Pla
         <td></td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>"DL_LOAD_TIMESTAMP"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this reference record into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record di riferimento nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9791,121 +9791,119 @@ Contains the current definitions of all record types configured in Workfront Pla
 
 ### WORKSPACE\_CURRENT
 
-Contains the current definitions of all Workfront Planning workspaces. Each row represents one workspace, including its name, hierarchy, and ownership metadata. Use this view to resolve workspace IDs from PLANNINGRECORD\_CURRENT and RECORDTYPE\_CURRENT into human-readable workspace names.
+Contiene le definizioni correnti di tutte le aree di lavoro di Workfront Planning. Ogni riga rappresenta un&#39;area di lavoro, inclusi il nome, la gerarchia e i metadati di proprietà. Utilizzare questa visualizzazione per risolvere gli ID del workspace da PLANNINGRECORD\_CURRENT e RECORDTYPE\_CURRENT in nomi di workspace leggibili dall&#39;utente.
 
 <table>
     <tr>
-        <td>Column Name</td>
-        <td>Type</td>
-        <td>Description</td>
-        <td>Related Table</td>
-        <td>Related Field</td>
+        <td>Nome colonna</td>
+        <td>Tipo</td>
+        <td>Descrizione</td>
+        <td>Tabella correlata</td>
+        <td>Campo correlato</td>
     </tr>
     <tr>
-        <td>`ID`</td>
+        <td>"ID"</td>
         <td>Varchar</td>
-        <td>The unique identifier for the Planning workspace. Primary key for this view.</td>
+        <td>Identificatore univoco per l'area di lavoro di Planning. Chiave primaria per questa visualizzazione.</td>
         <td>WF.WORKSPACES\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`CREATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this workspace record. A value of 1 indicates the workspace was created in the most recent data refresh cycle; 0 indicates it was not. See CREATEDAT for the actual creation timestamp.</td>
+        <td>"CREATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record dell'area di lavoro. Il valore 1 indica che l'area di lavoro è stata creata nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo è stata. Consulta CREATEDAT per la marca temporale della creazione effettiva.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATED`</td>
-        <td>Number</td>
-        <td>A flag indicating the last operation type that affected this workspace record. A value of 1 indicates the workspace was updated in the most recent data refresh cycle; 0 indicates it was not. See UPDATEDAT for the actual last-updated timestamp.</td>
+        <td>"UPDATED"</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record dell'area di lavoro. Il valore 1 indica che l'area di lavoro è stata aggiornata nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo era. Per la marca temporale effettiva dell’ultimo aggiornamento, consulta UPDATEDAT.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this workspace has been soft-deleted. A value of 1 indicates deleted; 0 indicates active.</td>
+        <td>"DELETED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se l'area di lavoro è stata eliminata temporaneamente. Il valore 1 indica eliminato, 0 indica attivo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>"DL_LOAD_TIMESTAMP"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp of the data refresh job that last loaded this workspace record into the data lake. Updated after each successful data refresh cycle.</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record dell’area di lavoro nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>"CREATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who created this workspace.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente che ha creato l'area di lavoro.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
+        <td>"CREATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this workspace was created.</td>
+        <td>La marca temporale (nessun fuso orario) di quando è stata creata l’area di lavoro.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>"UPDATEDBY"</td>
         <td>Varchar</td>
-        <td>The identifier of the user who last updated this workspace.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'ultimo utente che ha aggiornato l'area di lavoro.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>"UPDATEDAT"</td>
         <td>Timestamp\_NTZ</td>
-        <td>The timestamp (no timezone) of when this workspace was last updated.</td>
+        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questa area di lavoro.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>'USERID'</td>
         <td>Varchar</td>
-        <td>The identifier of the user associated with this workspace, typically the workspace owner.</td>
-        <td>WF.USERS\_CURRENT</td>
+        <td>Identificatore dell'utente associato a questa area di lavoro, in genere il proprietario dell'area di lavoro.</td>
+        <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`NAME`</td>
+        <td>"NAME"</td>
         <td>Varchar</td>
-        <td>The display name of the workspace as shown in the Planning interface.</td>
+        <td>Il nome visualizzato dell'area di lavoro, come mostrato nell'interfaccia di Planning.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`PARENTID`</td>
+        <td>'PARENTID'</td>
         <td>Varchar</td>
-        <td>The identifier of the parent workspace if this workspace is nested within a workspace hierarchy. Empty if this workspace has no parent (i.e., it is a top-level workspace).</td>
+        <td>Identificatore dell'area di lavoro padre se quest'ultima è nidificata all'interno di una gerarchia di aree di lavoro. Vuoto se l'area di lavoro non ha un elemento padre (ad esempio, è un'area di lavoro di livello superiore).</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`RESTORED`</td>
-        <td>Number</td>
-        <td>A flag indicating whether this workspace was restored after being soft-deleted.</td>
+        <td>"RESTORED"</td>
+        <td>Numero</td>
+        <td>Flag che indica se l'area di lavoro è stata ripristinata dopo l'eliminazione temporanea.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>"TRIGGEREDBYSERVICE"</td>
         <td>Varchar</td>
-        <td>The name of the service or integration that triggered the last modification to this workspace record. A value of `Unknown` indicates the originating service could not be determined.</td>
+        <td>Il nome del servizio o dell’integrazione che ha attivato l’ultima modifica a questo record dell’area di lavoro. Il valore "Unknown" indica che non è stato possibile determinare il servizio di origine.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
         <td>`ISFUSION`</td>
-        <td>Boolean</td>
-        <td>A flag indicating whether this workspace was created or managed through a Workfront Fusion integration. A value of `true` indicates Fusion management; `false` or an empty value indicates it is a natively created workspace.</td>
+        <td>Booleano</td>
+        <td>Flag che indica se l'area di lavoro è stata creata o gestita tramite un'integrazione di Workfront Fusion. Il valore "true" indica la gestione di Fusion; "false" o un valore vuoto indica che si tratta di un’area di lavoro creata in modo nativo.</td>
         <td>—</td>
         <td>—</td>
     </tr>
 </table>
-
--->

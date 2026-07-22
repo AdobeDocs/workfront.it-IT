@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 3%
 
 ---
@@ -154,14 +149,14 @@ Considera i seguenti aspetti:
 
   Durante la creazione di una vista timeline, puoi scegliere uno dei seguenti campi di data:
 
-   * Registra date
-   * Registra campi generati dal sistema: Data di creazione, Data ultima modifica
-   * Ricercare le date dai tipi di oggetto o record connessi (solo quando è stato aggiunto un aggregatore per tali date quando sono stati collegati i tipi di oggetto o record)
+  * Registra date
+  * Registra campi generati dal sistema: Data di creazione, Data ultima modifica
+  * Ricercare le date dai tipi di oggetto o record connessi (solo quando è stato aggiunto un aggregatore per tali date quando sono stati collegati i tipi di oggetto o record)
 * A seconda delle date associate ai record, alcuni record potrebbero non essere visualizzati nella visualizzazione della sequenza temporale nei seguenti scenari:
 
-   * Quando le date di inizio e fine non hanno valori
-   * Quando le date di inizio o fine non hanno valore
-   * Quando la data di inizio è successiva alla data di fine
+  * Quando le date di inizio e fine non hanno valori
+  * Quando le date di inizio o fine non hanno valore
+  * Quando la data di inizio è successiva alla data di fine
 
 Per gestire una vista timeline:
 
@@ -214,9 +209,9 @@ Per gestire una vista timeline:
    * Fai clic su **Oggi** nell&#39;angolo superiore destro per centrare la timeline fino alla data odierna.
    * Per aggiornare gli incrementi di tempo e aggiornare la vista, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
 
-      * **Anno**: visualizza trimestri e mesi con indicazione dell&#39;anno.
-      * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
-      * **Mese**: visualizza settimane e giorni.
+     * **Anno**: visualizza trimestri e mesi con indicazione dell&#39;anno.
+     * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
+     * **Mese**: visualizza settimane e giorni.
 
      >[!TIP]
      >
@@ -379,7 +374,7 @@ Per aggiungere un filtro a una vista timeline:
 
    * **AND**: tutte le condizioni specificate devono essere soddisfatte.
    * **OR**: è necessario soddisfare una delle condizioni specificate.
-Questa è l&#39;opzione predefinita.
+     Questa è l&#39;opzione predefinita.
 
 1. (Facoltativo) Aggiungi altri raggruppamenti di filtri e aggiungili da **AND** o da **OR** operatori.
 
@@ -407,7 +402,7 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -553,8 +548,16 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
      >
      >    * È possibile far corrispondere il colore solo ai campi con opzioni codificate per colore. Ad esempio, è possibile associare il colore ai campi Stato oppure ai campi con opzioni associate ai colori.
      >    
-     >    * Non è possibile associare il colore ai campi di ricerca da tipi di record o oggetti collegati.
+     >    * Impossibile associare il colore ai record connessi e ai relativi campi di ricerca.
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 
@@ -570,6 +573,10 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    * **Valori campo**: il colore dei record corrisponde al colore di un campo specificato. Continuare con il passaggio 10. <!--ensure this stays accurate-->
    * **Raggruppamento**: il colore dei record corrisponde a quello indicato per i raggruppamenti. Questa opzione è disattivata se non avete applicato raggruppamenti alla vista timeline.
    * **Nessuno**: i record vengono visualizzati in una barra bianca.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Condizionale) Se hai selezionato **Valori campo** per i colori del record, seleziona un campo dal menu a discesa **Corrispondenza colore del record con**.
 
@@ -598,11 +605,11 @@ Quando si suddivide la sequenza temporale dei record in base ai tipi di record c
 * È possibile visualizzare i record o gli oggetti connessi sotto i record del tipo di record selezionato nella vista timeline.
 * È possibile visualizzare i record connessi nella visualizzazione timeline solo quando si visualizzano i record in modalità Standard. Non potete utilizzare l&#39;opzione Raggruppamento (Breakdown) nella modalità Compatta della vista timeline.
 * Utilizzando la funzione Raggruppamento (Breakdown), potete visualizzare quanto segue nella vista timeline:
-   * Record di Workfront Planning connessi al tipo di record selezionato.
-   * Tipi di oggetto Workfront o Experience Manager connessi al tipo di record selezionato.
-   * Record o oggetti di Workfront Planning provenienti da altre applicazioni connesse a record connessi al tipo di record selezionato.
+  * Record di Workfront Planning connessi al tipo di record selezionato.
+  * Tipi di oggetto Workfront o Experience Manager connessi al tipo di record selezionato.
+  * Record o oggetti di Workfront Planning provenienti da altre applicazioni connesse a record connessi al tipo di record selezionato.
 
-     Ad esempio, puoi collegare le campagne ai portfolio. Inoltre, è possibile collegare un altro tipo di record, prodotti, con progetti e con campagne. Quando crei la visualizzazione timeline della campagna, puoi suddividere le campagne per portfolio, prodotti e progetti.
+    Ad esempio, puoi collegare le campagne ai portfolio. Inoltre, è possibile collegare un altro tipo di record, prodotti, con progetti e con campagne. Quando crei la visualizzazione timeline della campagna, puoi suddividere le campagne per portfolio, prodotti e progetti.
 
 * Non è possibile visualizzare tipi di oggetto connessi solo a oggetti di Workfront in Workfront, ma non connessi a un tipo di record di Workfront Planning. È possibile visualizzare solo gli oggetti o i tipi di record connessi in Workfront Planning.
 
