@@ -9,20 +9,14 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 2%
 
 ---
@@ -42,8 +36,8 @@ ht-degree: 2%
 * Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
-* Qualcuno richiede l&#39;autorizzazione per accedere a una visualizzazione, a un&#39;area di lavoro o al tipo di record <!--or <span class="preview">or a record</span>-->
-* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione, un&#39;area di lavoro o un tipo di record <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Qualcuno richiede l&#39;autorizzazione per accedere a una vista, un&#39;area di lavoro, un tipo di record o un record
+* Qualcuno conferma che l’accesso è stato concesso per una vista, un’area di lavoro, un tipo di record o un record
 * Inviare una richiesta di Workfront Planning. Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Qualcuno approva o rifiuta una richiesta di Workfront Planning inviata dall&#39;utente. Per informazioni, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Lo stato viene modificato in una richiesta di Workfront Planning sottomessa.

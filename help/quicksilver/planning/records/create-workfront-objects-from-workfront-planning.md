@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +62,20 @@ Durante la connessione e la creazione di oggetti Workfront ai record di Workfron
 
 * È possibile collegare progetti, portfolio, programmi, gruppi e società Workfront da un campo di connessione dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Pagina Dettagli o casella di anteprima di un record
-   * Scheda Connessioni di un record
+  * Visualizzazione tabella di un tipo di record
+  * Pagina Dettagli o casella di anteprima di un record
+  * Scheda Connessioni di un record
 
 * È possibile creare progetti dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Area Dettagli di un record nel campo connessione
-   * Pagina Record connesso di un record
+  * Visualizzazione tabella di un tipo di record
+  * Area Dettagli di un record nel campo connessione
+  * Pagina Record connesso di un record
 
 * È possibile creare portfolio e programmi dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Area Dettagli di un record nel campo connessione
+  * Visualizzazione tabella di un tipo di record
+  * Area Dettagli di un record nel campo connessione
 
 Per informazioni sulla connessione dei record di Planning con gli oggetti di Workfront, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +114,7 @@ Per informazioni sulla connessione dei record di Planning con gli oggetti di Wor
 <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record. </p>  
-   <p><span class="preview">Consente di gestire le autorizzazioni per il record da cui si sta creando l'oggetto Workfront.</span></p>
+   <p>Consente di gestire le autorizzazioni per il record da cui si sta creando l'oggetto Workfront.</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 

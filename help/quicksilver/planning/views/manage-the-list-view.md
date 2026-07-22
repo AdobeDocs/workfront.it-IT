@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 È possibile visualizzare gli oggetti nella vista a elenco nelle seguenti aree di Workfront Planning:
 
-* Pagina record connessi per progetti nell&#39;area dei dettagli di un record <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* Pagina record connessi per i progetti nell&#39;area dei dettagli di un record
 
   ![Progetti nella pagina dei record connessi nella vista a elenco](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * Considerare quanto segue per la visualizzazione elenco delle pagine dei record connessi:
 
-   * È possibile visualizzare i progetti solo nella vista a elenco della pagina record connessi di un record. La visualizzazione elenco non è disponibile per altri tipi di oggetto o record in una pagina di record connessi.
+  * È possibile visualizzare i progetti solo nella vista a elenco della pagina record connessi di un record. La visualizzazione elenco non è disponibile per altri tipi di oggetto o record in una pagina di record connessi.
 
   Per informazioni sulla creazione di una pagina di record connessi, vedere [Aggiungere una pagina di record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-   * Prima di poter visualizzare una vista elenco in una pagina di record connessi di un record, è necessario collegare i progetti Workfront con i tipi di record di Planning. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
-   * È possibile creare più visualizzazioni elenco per i progetti nella pagina record connessi di un record.
+  * Prima di poter visualizzare una vista elenco in una pagina di record connessi di un record, è necessario collegare i progetti Workfront con i tipi di record di Planning. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * È possibile creare più visualizzazioni elenco per i progetti nella pagina record connessi di un record.
 
 * Considera quanto segue per la visualizzazione elenco dei moduli di richiesta:
 
-   * Non è possibile creare o modificare visualizzazioni elenco aggiuntive per i moduli di richiesta di Planning. Workfront crea una vista elenco per i moduli di richiesta. <!--this will change-->
+  * Non è possibile creare o modificare visualizzazioni elenco aggiuntive per i moduli di richiesta di Planning. Workfront crea una vista elenco per i moduli di richiesta. <!--this will change-->
 
-     Per informazioni sui moduli di richiesta, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Per informazioni sui moduli di richiesta, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * A seconda della posizione in cui viene visualizzata, non tutte le visualizzazioni elenco dispongono di tutti gli elementi descritti in questo articolo.
 
 ## Gestire una vista a elenco {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       Verrà aperto **Gestione colonne**.
 
       È possibile aggiungere solo campi esistenti alla visualizzazione elenco.
-Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
+      Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
 
    1. Fare clic sull&#39;icona **Formatta celle** ![Formatta celle icona](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**. <!--change the name of the box when they update it-->
-Effettua le seguenti operazioni:
+      Effettua le seguenti operazioni:
 
       1. Fai clic su **Aggiungi condizione**.
       1. Nella riga **If**, selezionare un campo, scegliere un valore di campo e aggiungere un modificatore. I modificatori cambiano a seconda del tipo di campo scelto.
@@ -223,8 +224,8 @@ Effettua le seguenti operazioni:
       1. Fare clic all&#39;esterno della casella **Formato** per chiuderla.
 
          In questo modo si ritorna alla vista elenco.
-La formattazione viene applicata immediatamente alla visualizzazione elenco.
-Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
+         La formattazione viene applicata immediatamente alla visualizzazione elenco.
+         Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
    1. (Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) per raggruppare gli elementi nell&#39;elenco in base a un campo comune. Seleziona una delle opzioni oppure utilizza la barra di ricerca per trovare un campo.
 
@@ -254,9 +255,9 @@ Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare c
 
 1. (Condizionale) Per i campi di tipo seleziona, utilizza le frecce della tastiera per spostarti nell’elenco delle opzioni, quindi premi la barra spaziatrice per selezionare la scelta corretta.
 
-   <span class="preview">Utilizza la riga **Cerca** in tipi di campo selezionati per trovare l&#39;opzione giusta.</span>
+   Utilizza la riga **Ricerca** in Seleziona tipi di campi per trovare l&#39;opzione giusta.
 
-   <span class="preview">Se non viene trovato alcun risultato, è possibile aggiungere nuove opzioni direttamente dalla cella del campo. Questa funzionalità potrebbe non essere disponibile in tutti gli elenchi.</span>
+   Se non viene trovato alcun risultato, puoi aggiungere nuove opzioni direttamente dalla cella del campo. Questa funzione potrebbe non essere disponibile in tutti gli elenchi.
 
 1. Passa il puntatore del mouse sul nome di un elemento nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png) e fai clic su **Visualizza** per aprire l&#39;elemento in un&#39;altra scheda
 

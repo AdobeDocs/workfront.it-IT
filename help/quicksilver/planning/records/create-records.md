@@ -1,6 +1,6 @@
 ---
 title: Crea record
-description: Quando si utilizza Adobe Workfront Planning, un record è un'istanza di un tipo di record. È possibile creare record univoci per ogni tipo di record in Workfront Planning aggiungendoli manualmente alla vista tabella, importandoli da un elenco, duplicandoli o creandoli durante la connessione ad altri record.
+description: Quando si utilizza Adobe Workfront Planning, un record è un'istanza di un tipo di record. È possibile creare record univoci per ogni tipo di record in Workfront Planning aggiungendoli manualmente alla vista tabella, importandoli da un elenco, duplicandoli o creandoli durante la connessione ad altri record. Ogni record può essere associato a una miniatura, un'immagine di copertina e un colore univoco.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,20 +9,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 1%
 
 ---
@@ -165,19 +159,30 @@ Old:
 
 * A seconda dell&#39;area di lavoro da cui vengono aggiunti, i record aggiunti ai tipi di record globali sono visibili dai seguenti tipi di utenti:
 
-   * I record aggiunti all&#39;area di lavoro originale di un tipo di record globale sono visibili dall&#39;area di lavoro originale.
-   * I record aggiunti a un&#39;area di lavoro secondaria di un tipo di record globale sono visibili solo dall&#39;area di lavoro in cui sono stati creati e dall&#39;area di lavoro originale del tipo di record globale.
-Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  * I record aggiunti all&#39;area di lavoro originale di un tipo di record globale sono visibili dall&#39;area di lavoro originale.
+  * I record aggiunti a un&#39;area di lavoro secondaria di un tipo di record globale sono visibili solo dall&#39;area di lavoro in cui sono stati creati e dall&#39;area di lavoro originale del tipo di record globale.
+    Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * A seconda delle autorizzazioni di cui dispongono per l&#39;area di lavoro e i tipi di record, gli utenti possono creare i record nei modi seguenti:
 
-   * Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
-   * Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro e il tipo di record possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
+  * Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
+  * Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro e il tipo di record possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
 
   >[!IMPORTANT]
   >
   >Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
@@ -190,7 +195,7 @@ Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di la
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
-Tutti i record del tipo selezionato vengono visualizzati nella vista.
+   Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
 1. (Condizionale) Da qualsiasi vista, fai clic su quanto segue nell’angolo superiore destro dello schermo, a seconda dell’area di lavoro e delle autorizzazioni per il tipo di record:
 
@@ -207,9 +212,9 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
       * **Aggiungi manualmente**. Viene visualizzata la casella di anteprima del record.\
         Aggiungere informazioni sul record come descritto in [Creare i record aggiungendoli in linea dalla sezione della tabella dei tipi di record](#create-records-by-adding-them-inline-from-the-record-type-table-view) in questo articolo, a partire dal passaggio 6. <!--insure this stays accurate-->
       * **Carica da file**
-Aggiungere record come descritto nell&#39;articolo [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partire dal passaggio 6. <!--ensure this stays accurate-->
+        Aggiungere record come descritto nell&#39;articolo [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partire dal passaggio 6. <!--ensure this stays accurate-->
       * **Invia una richiesta**
-Viene aperto il modulo di richiesta del tipo di record.
+        Viene aperto il modulo di richiesta del tipo di record.
 
         Per poter aggiungere un record utilizzando un modulo di richiesta, il manager dell’area di lavoro deve creare un modulo di richiesta.
 
@@ -272,7 +277,7 @@ Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica 
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
-I record del tipo selezionato vengono visualizzati nella vista.
+   I record del tipo selezionato vengono visualizzati nella vista.
 
 1. (Condizionale) Nella vista a tabella, effettuate una delle seguenti operazioni:
 
@@ -374,9 +379,9 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
 
      Per impostazione predefinita, i valori di data vengono preselezionati a seconda della modalità di visualizzazione della timeline. Esistono i seguenti scenari:
 
-      * Entro **Anno**: le date di inizio e fine del record si estendono su un mese.
-      * Entro **Trimestre**: le date di inizio e fine del record si estendono su una settimana.
-      * Entro **Mese**: le date di inizio e di fine del record sono di tre giorni.
+     * Entro **Anno**: le date di inizio e fine del record si estendono su un mese.
+     * Entro **Trimestre**: le date di inizio e fine del record si estendono su una settimana.
+     * Entro **Mese**: le date di inizio e di fine del record sono di tre giorni.
 
 1. (Facoltativo) Fai clic su una delle icone seguenti:
 
@@ -441,8 +446,8 @@ Per informazioni sulla creazione di una visualizzazione calendario, vedere [Gest
 
      Per impostazione predefinita, i valori di data vengono preselezionati a seconda della modalità di visualizzazione del calendario. Esistono i seguenti scenari:
 
-      * Entro **Mese**: le date di inizio e fine del record si estendono su un giorno.
-      * Entro **Settimana**: le date di inizio e di fine del record sono di due giorni.
+     * Entro **Mese**: le date di inizio e fine del record si estendono su un giorno.
+     * Entro **Settimana**: le date di inizio e di fine del record sono di due giorni.
 
 1. (Facoltativo) Fai clic su una delle icone seguenti:
 
@@ -524,8 +529,8 @@ Per creare i record durante la connessione da altri record:
 
    * Un campo di connessione nelle seguenti aree di Workfront Planning:
 
-      * Vista tabella
-      * Pagina dei dettagli o casella di anteprima di un record
+     * Vista tabella
+     * Pagina dei dettagli o casella di anteprima di un record
 
    * Campo di connessione nella sezione Pianificazione di un progetto, portfolio o programma in Workfront.
 
@@ -534,7 +539,7 @@ Per creare i record durante la connessione da altri record:
 1. (Condizionale) Se non riesci a trovare un record durante il tentativo di connessione, fai clic su **+ Aggiungi**
 
    Oppure
-Inizia a digitare un nome, quindi fai clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente. Il nome digitato segue anche il pulsante Aggiungi.
+   Inizia a digitare un nome, quindi fai clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente. Il nome digitato segue anche il pulsante Aggiungi.
 
    ![Pulsante Aggiungi per creare record nel contesto evidenziato](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +589,53 @@ In Workfront Planning è possibile configurare automazioni che, se attivate, cre
 
 Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->
