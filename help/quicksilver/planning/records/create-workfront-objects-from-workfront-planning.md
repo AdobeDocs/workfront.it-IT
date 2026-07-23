@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +69,20 @@ Durante la connessione e la creazione di oggetti Workfront ai record di Workfron
 
 * È possibile collegare progetti, portfolio, programmi, gruppi e società Workfront da un campo di connessione dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Pagina Dettagli o casella di anteprima di un record
-   * Scheda Connessioni di un record
+  * Visualizzazione tabella di un tipo di record
+  * Pagina Dettagli o casella di anteprima di un record
+  * Scheda Connessioni di un record
 
 * È possibile creare progetti dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Area Dettagli di un record nel campo connessione
-   * Pagina Record connesso di un record
+  * Visualizzazione tabella di un tipo di record
+  * Area Dettagli di un record nel campo connessione
+  * Pagina Record connesso di un record
 
 * È possibile creare portfolio e programmi dalle seguenti aree di Workfront Planning:
 
-   * Visualizzazione tabella di un tipo di record
-   * Area Dettagli di un record nel campo connessione
+  * Visualizzazione tabella di un tipo di record
+  * Area Dettagli di un record nel campo connessione
 
 Per informazioni sulla connessione dei record di Planning con gli oggetti di Workfront, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +121,7 @@ Per informazioni sulla connessione dei record di Planning con gli oggetti di Wor
 <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record. </p>  
-   <p><span class="preview">Consente di gestire le autorizzazioni per il record da cui si sta creando l'oggetto Workfront.</span></p>
+   <p>Consente di gestire le autorizzazioni per il record da cui si sta creando l'oggetto Workfront.</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 

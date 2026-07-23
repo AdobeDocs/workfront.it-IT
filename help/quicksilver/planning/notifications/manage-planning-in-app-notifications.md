@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 4%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 4%
 * Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
-* Qualcuno richiede l&#39;autorizzazione per accedere a una visualizzazione o a un&#39;area di lavoro <!--<span class="preview">or record</span>-->
-* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione o un&#39;area di lavoro <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
+* Qualcuno richiede l&#39;autorizzazione per accedere a una vista, un&#39;area di lavoro o un record
+* Qualcuno conferma che l’accesso è stato concesso per una visualizzazione, un’area di lavoro o un record
 
 ## Requisiti di accesso
 

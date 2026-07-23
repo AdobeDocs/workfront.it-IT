@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1365
 ht-degree: 0%
 
 ---
@@ -203,7 +203,5 @@ Per l’ambiente di anteprima, il ricalcolo notturno è disattivato e le timelin
 * Qualsiasi interruzione in un ambiente di anteprima [!DNL Workfront] durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione.
 
 * Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.
-
-* La bozza non è disponibile nell’ambiente di anteprima.
 
 * Il visualizzatore Frame.io non è disponibile nell&#39;ambiente di anteprima. L’archiviazione cloud Adobe è disponibile per testarla nella sandbox, ma l’esperienza completa di revisione e approvazione unificata deve essere convalidata in produzione. Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).

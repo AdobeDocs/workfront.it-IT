@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 2%
 * Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
-* Qualcuno richiede l&#39;autorizzazione per accedere a una visualizzazione, a un&#39;area di lavoro o al tipo di record <!--or <span class="preview">or a record</span>-->
-* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione, un&#39;area di lavoro o un tipo di record <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Qualcuno richiede l&#39;autorizzazione per accedere a una vista, un&#39;area di lavoro, un tipo di record o un record
+* Qualcuno conferma che l’accesso è stato concesso per una vista, un’area di lavoro, un tipo di record o un record
 * Inviare una richiesta di Workfront Planning. Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Qualcuno approva o rifiuta una richiesta di Workfront Planning inviata dall&#39;utente. Per informazioni, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Lo stato viene modificato in una richiesta di Workfront Planning sottomessa.

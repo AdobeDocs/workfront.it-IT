@@ -20,18 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: 1741
 ht-degree: 2%
 
 ---
 
 # Gestire il layout della pagina dei record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -79,7 +81,7 @@ Per ulteriori informazioni, consulta:
   <tr>
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
    <td>
-   <p>Autorizzazioni di Contribute o superiori per un'area di lavoro e un tipo di record e <span class="preview">Gestione delle autorizzazioni per un record</span> </p>  
+   <p>Contribuire o concedere autorizzazioni superiori a un'area di lavoro e a un tipo di record e gestire le autorizzazioni a un record </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
   </td>
   </tr>   
@@ -166,9 +168,9 @@ Old:
 
 * Le modifiche seguenti hanno effetto su tutti i record dello stesso tipo e sono visibili a tutti gli utenti che accedono a tali record:
 
-   * Ridisposizione dei campi
-   * Aggiunta o rimozione di sezioni
-   * Aggiunta o rimozione di pagine di record connessi
+  * Ridisposizione dei campi
+  * Aggiunta o rimozione di sezioni
+  * Aggiunta o rimozione di pagine di record connessi
 
 * Le modifiche apportate all&#39;anteprima del record sono immediatamente visibili nella pagina dei dettagli del record. Le modifiche apportate nella pagina record sono visibili anche nella casella di anteprima del record.
 
@@ -176,9 +178,9 @@ Old:
 
 * È possibile aggiungere ulteriori pagine dei tipi seguenti alla pagina di un record:
 
-   * Pagina dei record connessi
+  * Pagina dei record connessi
 
-     Per informazioni, vedere la sezione [Aggiungere una pagina Record connessi a un record](#add-a-connected-records-page-to-a-record).
+    Per informazioni, vedere la sezione [Aggiungere una pagina Record connessi a un record](#add-a-connected-records-page-to-a-record).
 
 ## Aggiungere sezioni a una pagina o anteprima record
 
@@ -208,13 +210,13 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
+   L&#39;anteprima del record viene visualizzata nella vista.
 
    ![Casella Dettagli](assets/details-box.png)
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   <span class="preview"> Viene aperta la pagina del record. Per impostazione predefinita viene aperta la scheda Dettagli.</span>
+   Viene visualizzata la pagina del record. Per impostazione predefinita, viene visualizzata la scheda Dettagli (Details).
 
    ![Pagina dettagli](assets/details-page.png)
 
@@ -238,7 +240,7 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
      Oppure
 
      Fare clic su **Sposta in basso** per spostare la sezione in basso di una posizione.
-Tutti i campi della sezione vengono spostati insieme alla sezione.
+     Tutti i campi della sezione vengono spostati insieme alla sezione.
 
    * Fai clic su **Elimina** per eliminare la sezione. La sezione viene eliminata e non può essere recuperata. Tutti gli utenti che accedono ai record di questo tipo non visualizzeranno più la sezione eliminata.
 
@@ -287,54 +289,46 @@ Si verificano le seguenti situazioni:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
+   L&#39;anteprima del record viene visualizzata nella vista.
 
    ![Casella Dettagli](assets/details-box.png)
 
-1. (Facoltativo e condizionale) Se utilizzi l’ambiente Produzione, a seconda dei campi che desideri visualizzare nella pagina Dettagli, effettua una delle seguenti operazioni:
-
-
-   * Selezionare l&#39;impostazione **Mostra tutti i campi** per includere tutti i campi del record nella pagina **Dettagli**. Questa è l&#39;impostazione predefinita.
-   * Deselezionare l&#39;impostazione **Mostra tutti i campi** per escludere dalla pagina **Dettagli** i campi del record nascosti nella vista tabella del record.
-
-     >[!TIP]
-     >
-     >* L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile quando si apre la pagina Dettagli del record in una finestra del browser.
-     >* Non è possibile aggiungere sezioni alla pagina di un record quando si escludono i campi nascosti nella casella Anteprima dettagli.
-
-
-1. <span class="preview">(Facoltativo e condizionale) Se si utilizza l&#39;ambiente Anteprima, l&#39;area dei dettagli viene aperta per impostazione predefinita nella visualizzazione **Campi della visualizzazione Tabella selezionati**. In questo modo vengono visualizzati solo i campi visibili nella vista tabella. </span>
-
-   >[!TIP]
-   >
-   > <span class="preview">La visualizzazione **Campi di visualizzazione tabella selezionati** è disponibile solo quando si visualizzano i record nella visualizzazione tabella nella pagina di anteprima dei dettagli del record.
-   >**I campi della visualizzazione tabella selezionati** non sono disponibili per altre visualizzazioni del tipo di record o per la pagina dei dettagli del record che viene visualizzata in una finestra del browser. </span>
-
-1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, continuare con:</span>
-
-   <div class="preview">
-
-   1. Per visualizzare tutti i campi, espandi il menu a discesa della visualizzazione della pagina, quindi seleziona **Tutti i campi**.
-   1. (Facoltativo) Fai clic su **Nuovi dettagli** per aggiungere una nuova pagina e personalizzarla, quindi effettua le seguenti operazioni:
-
-      1. Nella casella **Crea visualizzazione**, aggiungi un nome per la nuova visualizzazione della pagina dei dettagli, quindi fai clic su **Crea**.
-      1. Passa il puntatore del mouse sui campi nella visualizzazione e fai clic sull&#39;icona **Nascondi campo** ![Nascondi icona campo](assets/hide-field-in-details-page-icon.png) a sinistra dei campi, per nascondere il campo.
-
+   <!--
+   1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
          >[!TIP]
          >
-         >* Le pagine personalizzate sono visibili da tutti gli utenti che accedono al record.
-         >* L&#39;ultima visualizzazione di pagina scelta sarà quella che viene aperta per impostazione predefinita quando si apre un altro record dello stesso tipo.
+         >* The **Show all fields** setting is available only in the record's Details preview box. It is not available when the record's Details page opens in a browser window.
+         >* You cannot add sections to a record's page when you exclude hidden fields in the Details preview box. 
+   1. (Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. 
+      >[!TIP]
+      >
+      >The **Selected table view fields** view is only available when you view records in the table view in the record's details preview page. 
+      >The **Selected table view fields** is not available for any other record type view or for the record's details page that opens in a browser window. 
+   -->
 
-      1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Campi](assets/fields-icon.png) nella parte superiore della pagina dei dettagli, quindi nascondi o mostra i campi nella pagina Dettagli.
 
-         >[!TIP]
-         >
-         >L&#39;icona **Campi** non è disponibile quando si visualizza la pagina dei dettagli nella **visualizzazione Tabella selezionata** o nelle **visualizzazioni Tutti i campi**.
 
-      1. (Facoltativo) Per modificare il nome della visualizzazione di una pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-menu.png) , quindi fai clic su **Modifica**.
-      1. (Facoltativo) Per eliminare una visualizzazione di pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Altro](assets/more-menu.png), quindi fai clic su **Elimina**, quindi su **Elimina** per confermare. Non è possibile recuperare le visualizzazioni pagina dei dettagli eliminate.
+1. Per visualizzare tutti i campi, espandi il menu a discesa della visualizzazione della pagina, quindi seleziona **Tutti i campi**.
+1. (Facoltativo) Fai clic su **Nuovi dettagli** per aggiungere una nuova pagina e personalizzarla, quindi effettua le seguenti operazioni:
 
-   </div>
+   1. Nella casella **Crea visualizzazione**, aggiungi un nome per la nuova visualizzazione della pagina dei dettagli, quindi fai clic su **Crea**.
+   1. Passa il puntatore del mouse sui campi nella visualizzazione e fai clic sull&#39;icona **Nascondi campo** ![Nascondi icona campo](assets/hide-field-in-details-page-icon.png) a sinistra dei campi, per nascondere il campo.
+
+      >[!TIP]
+      >
+      >* Le pagine personalizzate sono visibili da tutti gli utenti che accedono al record.
+      >* L&#39;ultima visualizzazione di pagina scelta sarà quella che viene aperta per impostazione predefinita quando si apre un altro record dello stesso tipo.
+
+   1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Campi](assets/fields-icon.png) nella parte superiore della pagina dei dettagli, quindi nascondi o mostra i campi nella pagina Dettagli.
+
+      >[!TIP]
+      >
+      >L&#39;icona **Campi** non è disponibile quando si visualizza la pagina dei dettagli nella **visualizzazione Tabella selezionata** o nelle **visualizzazioni Tutti i campi**.
+
+   1. (Facoltativo) Per modificare il nome della visualizzazione di una pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-menu.png) , quindi fai clic su **Modifica**.
+   1. (Facoltativo) Per eliminare una visualizzazione di pagina dei dettagli personalizzata, passa il puntatore del mouse sul nome della visualizzazione e fai clic sull&#39;icona **Altro** ![Altro](assets/more-menu.png), quindi fai clic su **Elimina**, quindi su **Elimina** per confermare. Non è possibile recuperare le visualizzazioni pagina dei dettagli eliminate.
 
 1. (Facoltativo) Se desideri passare a un record connesso, fai clic sul nome del record nella breadcrumb nella parte superiore della pagina dei dettagli.
 
@@ -346,7 +340,7 @@ Si verificano le seguenti situazioni:
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   <span class="preview">La pagina record **Dettagli** viene aperta in una nuova scheda.</span>
+   La pagina record **Dettagli** si apre in una nuova scheda.
 
    ![Pagina dettagli](assets/details-page.png)
 

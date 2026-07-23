@@ -18,21 +18,22 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 362
 ht-degree: 4%
 
 ---
 
 # Esportare i dettagli di un record
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-Per collaborare in modo più efficiente con altri utenti che potrebbero non disporre di un account Workfront, è possibile esportare la pagina dei dettagli di un record in un file di Microsoft Word e condividerlo con loro.
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## Requisiti di accesso
 
@@ -60,7 +61,7 @@ Per collaborare in modo più efficiente con altri utenti che potrebbero non disp
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro, tipo di record e <span class="preview">record</span> </p>  
+   <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro, un tipo di record e un record</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +140,8 @@ Old:
 
 * È possibile esportare i dettagli di un record nei seguenti formati di file:
 
-   * .docx Word
-   * .pdf
+  * .docx Word
+  * .pdf
 
 * È possibile esportare solo la scheda Dettagli della pagina o dell&#39;area di anteprima di un record.
 

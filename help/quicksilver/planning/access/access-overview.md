@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: 1002
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
    <ul>
    <li><p>Visualizzare o modificare le autorizzazioni per le aree di lavoro, i tipi di record e le visualizzazioni che non sono stati creati per accedervi e i relativi oggetti.</p></li>
    <li><p>Autorizzazioni di Contribute o superiori per aree di lavoro e tipi di record non creati per modificarli e creare, modificare o eliminare tipi di record.</p></li>
-   <li><p><span class="preview">Consente di gestire le autorizzazioni per i record per modificarli, condividerli o eliminarli.</p>
+   <li><p>Consente di gestire le autorizzazioni per i record per modificarli, condividerli o eliminarli.</p>
    <li><p>Autorizzazioni Contribute (Contribute) o superiori per le visualizzazioni non create, per modificarle, eliminarle e condividerle</p>
    </li>
     <li><p>Gli amministratori di Planning possono gestire le aree di lavoro che non hanno creato. </p></li>
