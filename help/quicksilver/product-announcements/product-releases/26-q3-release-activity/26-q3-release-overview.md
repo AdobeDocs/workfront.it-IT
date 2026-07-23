@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 13%
 
 ---
 
@@ -609,6 +609,16 @@ Il Visualizzatore bozze desktop è stato aggiornato a da 2.1.54 a 2.1.55. Questo
 Questo aggiornamento è valido sia per Mac che per Windows.
 
 ## Annunci
+
+### Fine dell’autenticazione tramite sola password per gli utenti del lettore Data Connect: 8 agosto 2026
+
+A partire dall’8 agosto 2026, gli utenti di Workfront Data Connect/lettore Snowflake che effettuano l’autenticazione con un accesso in sola password non funzioneranno più se non è stata abilitata l’autenticazione a più fattori (MFA). Non è possibile aggiungere MFA retroattivamente dopo questa data: se un utente lettore può decadere senza di essa, l’accesso può essere ripristinato solo creando un nuovo profilo utente.
+
+Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect non hanno ancora abilitato MFA, informa immediatamente gli utenti di questa modifica.
+
+Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
+
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning come prodotto standalone
 
