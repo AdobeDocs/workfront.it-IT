@@ -5,9 +5,9 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ L&#39;accesso al server MCP è gestito da due amministratori distinti.
 
 La connessione a Workfront viene eseguita una volta per ogni account [!DNL Claude]. La connessione consente di eseguire l&#39;autenticazione a una specifica istanza di Workfront e si rimane connessi fino a quando non si sceglie di disconnettersi.
 
-
+* [Connettersi a Claude Desktop dalla directory dei connettori](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Connettersi a Claude con un URL](#connect-to-claude-with-a-url)
+* [Personalizzare il comportamento di Claude con le abilità](#customize-claude-behavior-with-skills)
 
 ### Connettersi a Claude Desktop dalla directory dei connettori
 
@@ -125,6 +127,10 @@ Per ulteriori informazioni sulle [!DNL Claude] abilità, consulta la [documentaz
 ## Connetti a ChatGPT
 
 La procedura per connettere il server Workfront MCP con ChatGPT varia a seconda che si utilizzi ChatGPT Desktop o Codex o ChatGPT sul web.
+
+* [Connessione al codex ChatGPT Desktop o ChatGPT](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Connettersi a ChatGPT sul web](#connect-to-chatgpt-on-the-web)
+* [Personalizzare il comportamento di ChatGPT con GPT personalizzati](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### Connessione al codex ChatGPT Desktop o ChatGPT
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. Quando uno strumento viene configurato e testato, fare clic su **Pubblica**.
 
    Potresti non disporre delle autorizzazioni necessarie per pubblicare. In questo caso, contattare l&#39;amministratore Copilot.
+
+## Collegare Workfront a una soluzione MCP personalizzata
+
+Se si sta creando un&#39;applicazione o un agente personalizzato, è possibile connettersi direttamente al server MCP di Workfront.
+
+Esistono due modi per connettersi:
+
+* [Connettersi con un token di servizio](#connect-with-a-service-to-service-token)
+* [Connessione con OAuth](#connect-with-oauth)
+
+### Connettersi con un token di servizio
+
+1. Crea una credenziale di servizio utilizzando Adobe Developer Console. Per informazioni, vedere [Autenticazione da server a server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Connettersi al server Workfront MCP utilizzando le informazioni seguenti:
+
+   * **URL**: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **Intestazioni**:
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` (obbligatorio se le credenziali hanno accesso a più istanze di Workfront, ad esempio Anteprima e Produzione).
+
+### Connessione con OAuth
+
+Il supporto self-service per le integrazioni OAuth personalizzate non è ancora disponibile per Workfront.
 
 ## Verifica la connessione
 
@@ -298,6 +328,10 @@ Per la risoluzione dei problemi quotidiani dopo la connessione (ad esempio, risu
 ## Domande frequenti sulla configurazione
 
 +++ Espandere per visualizzare le domande frequenti sulla configurazione del server Workfront MCP.
+
+* [È possibile connettersi a più istanze di Workfront contemporaneamente?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [Quale amministratore abilita questa impostazione?](#which-administrator-enables-this)
+* [Posso utilizzare il server Workfront MCP se la mia istanza Workfront non è abilitata su Adobe Identity Management System (IMS)?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### È possibile connettersi a più istanze di Workfront contemporaneamente?
 
