@@ -9,11 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
 TQID: https://experienceleague.adobe.com/n2bbDNgKjdExrAzRAGW5I-rTtf1gw-1VNOWZHDeXVSE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 0%
@@ -63,5 +61,6 @@ Quando non è necessario che la finestra di progettazione sia coinvolta nel proc
 1. Il project manager riceve un&#39;e-mail con un riepilogo della revisione del cliente e la sua decisione. Per ulteriori informazioni, vedere [Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 1. Il project manager informa il designer sulle richieste di modifica utilizzando [!UICONTROL Stampa commenti]. Per ulteriori informazioni, vedere [Stampa ed esporta commenti in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 1. Se necessario, la finestra di progettazione modifica il file e lo carica in [!DNL Workfront Proof], dove il project manager può creare una nuova versione per un altro ciclo di verifica.
+
 
 
