@@ -26,16 +26,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
 workflow-type: tm+mt
-source-wordcount: 1218
+source-wordcount: 1155
 ht-degree: 10%
 
 ---
 
 # Configurare le preferenze di sistema
-
-{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
