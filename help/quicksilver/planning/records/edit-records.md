@@ -9,31 +9,25 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 1%
 
 ---
 
 # Modificare i record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +139,17 @@ Old:
 * Se si dispone delle autorizzazioni necessarie per l&#39;area di lavoro, è possibile modificare i record creati o quelli creati da altri utenti.
 * È possibile modificare i campi record dalle seguenti aree:
 
-   * Anteprima del record in una visualizzazione record
-   * Pagina dettagli record
-   * In linea, in una vista a tabella.
-   * La vista calendario e la vista timeline quando si ridimensionano o si trascinano i record. In questo modo vengono aggiornate le date dei record.
+  * Anteprima del record in una visualizzazione record
+  * Pagina dettagli record
+  * In linea, in una vista a tabella.
+  * La vista calendario e la vista timeline quando si ridimensionano o si trascinano i record. In questo modo vengono aggiornate le date dei record.
 
 * Quando un utente modifica un record in una visualizzazione, le modifiche sono immediatamente visibili in tutte le visualizzazioni e le pagine dei record a tutti gli altri utenti.
 
 * I seguenti tipi di campi vengono aggiornati automaticamente e non è possibile modificarne i valori manualmente:
-   * Campi collegati da altri record
-   * Campi di tipo formula
-   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da, ID record)
+  * Campi collegati da altri record
+  * Campi di tipo formula
+  * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da, ID record)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
@@ -167,8 +161,8 @@ Old:
 
   Per modificare le date dei record, vedere una delle sezioni seguenti in questo articolo:
 
-   * [Modificare un record nella vista calendario di un tipo di record](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [Modificare un record nella visualizzazione timeline di un tipo di record](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [Modificare un record nella vista calendario di un tipo di record](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [Modificare un record nella visualizzazione timeline di un tipo di record](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## Modificare i record
@@ -254,10 +248,10 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
 
-      * Campi Persone. Sono supportati solo i campi con un valore.
-      * Campi di testo.
-      * Selezionare i campi.
-      * Campi numerici, percentuali e valuta.
+     * Campi Persone. Sono supportati solo i campi con un valore.
+     * Campi di testo.
+     * Selezionare i campi.
+     * Campi numerici, percentuali e valuta.
 
    Non è possibile copiare informazioni da un&#39;origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione di Workfront o di altre applicazioni.
 
@@ -296,7 +290,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    * **Visualizza** o **Apri in una nuova scheda**: verrà aperta la pagina record.
    * **Copia collegamento**: per copiare un collegamento nella pagina del record.
    * **Modifica miniatura**: per aggiungere una miniatura a un record.
-Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+     Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplicato**: crea un duplicato identico del record.
    * **Inserisci record in alto/ Inserisci record in basso**: aggiunge una nuova riga per poter aggiungere un nuovo record. Ciò non è possibile nell’ambiente di anteprima.
    * **Elimina**: per eliminare il record. I record eliminati vengono salvati nella casella Eliminati di recente per un massimo di 30 giorni.
@@ -372,6 +366,9 @@ Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilve
    >  * Ricercare campi da altri record creati tramite la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
+1. <span class="preview">(Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record. </span>
+   <span class="preview">I record vengono assegnati automaticamente ai colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.</span>
+
 1. (Facoltativo) Fare clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 1. (Facoltativo) Passa il puntatore sull&#39;icona della miniatura, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) > **Modifica miniatura** per aggiungere un&#39;immagine di miniatura. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -428,6 +425,11 @@ Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilve
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
 1. (Facoltativo) Per visualizzare la descrizione di un campo, fai clic sull’icona delle informazioni a destra di qualsiasi campo visualizzato.
+1. <span class="preview">(Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record. </span>
+   <span class="preview">I record vengono assegnati automaticamente ai colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.</span>
+
+   ![Casella di selezione colori per la casella dei dettagli del record](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record
 
    Oppure
