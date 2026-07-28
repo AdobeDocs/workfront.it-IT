@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 348
 ht-degree: 2%
@@ -80,3 +80,4 @@ Se si dispone di account Satellite, è necessario aggiornare i dati della carta 
 1. Scegliere l&#39;account satellite (2) associato alla carta di credito che si desidera aggiornare.
 1. Continua con [Modifica del metodo di pagamento e dei dettagli della carta di credito](#changing-your-payment-method-and-credit-card-details).\
    ![Pagina_fatturazione_account_satellite](assets/satellite-account-billing-page-350x167.png)
+

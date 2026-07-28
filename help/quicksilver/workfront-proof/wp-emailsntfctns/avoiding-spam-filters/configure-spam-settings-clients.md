@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1499
 ht-degree: 1%
@@ -235,3 +235,4 @@ Per verificare se gli indirizzi [!DNL Workfront Proof] &quot;[!UICONTROL from]&q
 1. Se **[!UICONTROL Blocca posta da indirizzi specificati]** è selezionato nel campo **[!UICONTROL Filtro mittente]** e qualsiasi indirizzo o nome di dominio [!DNL Workfront Proof] è incluso nell&#39;elenco degli indirizzi bloccati, eliminare ciascuno di questi indirizzi dall&#39;elenco.
 
 1. Fai clic su **[!UICONTROL Salva]**.
+

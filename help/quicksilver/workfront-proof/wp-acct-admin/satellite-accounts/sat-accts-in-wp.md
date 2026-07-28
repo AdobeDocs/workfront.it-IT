@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 0%
@@ -69,3 +69,4 @@ Creando account satellite per i clienti.
 | Flusso di lavoro migliorato per il cliente | È possibile personalizzare il processo di verifica per soddisfare le esigenze del client specifico |
 | Il cliente può caricare le bozze dall’account Satellite e condividerle con te | Il cliente può avviare le proprie bozze |
 | Tutte le bozze che sono state precedentemente condivise con il cliente verranno visualizzate automaticamente nel suo account | Non è necessario condividere nuovamente le bozze precedenti |
+

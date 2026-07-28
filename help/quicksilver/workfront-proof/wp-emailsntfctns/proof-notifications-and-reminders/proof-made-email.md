@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 1%
@@ -66,3 +66,4 @@ Se non vuoi che questo collegamento venga visualizzato nell&#39;e-mail del desti
 
 1. Per istruzioni più dettagliate, vedere [Configurare le impostazioni delle notifiche e-mail in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 1. Se le notifiche e-mail sono disabilitate come predefinite nelle [!UICONTROL Impostazioni account], il creatore o il proprietario della bozza non riceverà alcuna e-mail [!UICONTROL Bozza creata] o [!UICONTROL Nuova bozza], anche se questa opzione è abilitata nelle impostazioni personali e la casella [!UICONTROL Notifica agli utenti tramite e-mail] è selezionata nella pagina [!UICONTROL Nuova bozza].
+

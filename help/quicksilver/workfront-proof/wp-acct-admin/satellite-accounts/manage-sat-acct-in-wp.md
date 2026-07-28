@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 153
 ht-degree: 1%
@@ -52,3 +52,4 @@ Per visualizzare e gestire le impostazioni dell&#39;account Satellite:
 1. Fare clic sulla scheda corrispondente per gestire l&#39;impostazione dell&#39;account per l&#39;account Satellite.
 
 ![Impostazioni_account_SA.png](assets/sa-account-settings-350x151.png)
+

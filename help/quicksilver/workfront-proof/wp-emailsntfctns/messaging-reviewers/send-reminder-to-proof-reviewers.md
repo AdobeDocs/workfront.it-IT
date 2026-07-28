@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 7%
@@ -41,10 +41,10 @@ L’e-mail di promemoria predefinita include le seguenti informazioni:
 * Miniatura dell’immagine della bozza
 * I seguenti dettagli della bozza:
 
-   * Nome bozza
-   * Numero di versione
-   * Nome cartella (se applicabile)
-   * Elenco dei revisori e progressi sulla bozza
+  * Nome bozza
+  * Numero di versione
+  * Nome cartella (se applicabile)
+  * Elenco dei revisori e progressi sulla bozza
 
 Puoi anche segnalare a qualcuno più bozze che sono state condivise con lui. Per ulteriori informazioni, vedere [Ricordare a un revisore le assegnazioni in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
@@ -75,3 +75,4 @@ Puoi anche segnalare a qualcuno più bozze che sono state condivise con lui. Per
      Il messaggio predefinito ricorda ai revisori che sono stati aggiunti alla bozza e include la scadenza della bozza.
 
    * Se desideri creare un messaggio personalizzato, digita un **[!UICONTROL Oggetto]** e il **[!UICONTROL Messaggio],**, quindi fai clic su **[!UICONTROL Invia].**&#x200B;Un promemoria personalizzato contiene le stesse informazioni del promemoria predefinito, ma include anche l&#39;oggetto personalizzato e il messaggio personalizzato nel corpo dell&#39;e-mail.
+

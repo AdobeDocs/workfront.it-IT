@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 0%
@@ -59,3 +59,4 @@ Per le notifiche delle bozze, considera quanto segue:
   >Il creatore delle bozze riceve un&#39;e-mail [!UICONTROL Proof made] separata per ciascuna delle bozze create. Per ulteriori informazioni, vedere [L&#39;e-mail [!UICONTROL Proof Made]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * Se tu o i tuoi revisori non ricevete una notifica e-mail prevista, vedi [Configurare [!DNL Workfront Proof] le e-mail per evitare filtri anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+

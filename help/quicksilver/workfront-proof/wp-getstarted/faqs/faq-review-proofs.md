@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +90,4 @@ Se si sta inviando una bozza a un gruppo di revisori, ma è sufficiente un solo 
 ## Posso generare un elenco di tutti i commenti aggiunti su una bozza?
 
 Sì, puoi generare un *[!UICONTROL Riepilogo stampa]* dei commenti lasciati sulla bozza. Questo documento può essere generato per una singola versione o per tutte le versioni condivise con questo revisore. Viene visualizzato un elenco di tutti i commenti, le revisioni e le decisioni eseguite sulla bozza. Per ulteriori informazioni su questa funzionalità, visitare [Stampa ed esporta commenti in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+

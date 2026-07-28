@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 1%
@@ -50,18 +50,18 @@ L’e-mail Nuova bozza contiene:
 * Miniatura dell’immagine della bozza
 * I seguenti dettagli della bozza:
 
-   * Nome bozza
-   * Numero di versione
-   * Elenco dei revisori e progressi sulla bozza
-   * Un collegamento per condividere la bozza con un altro utente
+  * Nome bozza
+  * Numero di versione
+  * Elenco dei revisori e progressi sulla bozza
+  * Un collegamento per condividere la bozza con un altro utente
 
-     Questo consente di condividere l’URL della bozza e/o il collegamento per il download del file originale. Ciò non consente di aggiungere in modo esplicito i revisori alla bozza, ma di condividere solo l’URL della bozza pubblica e il destinatario riceverà l’accesso in sola lettura alla bozza.
+    Questo consente di condividere l’URL della bozza e/o il collegamento per il download del file originale. Ciò non consente di aggiungere in modo esplicito i revisori alla bozza, ma di condividere solo l’URL della bozza pubblica e il destinatario riceverà l’accesso in sola lettura alla bozza.
 
-     Per ulteriori informazioni, vedere [Condividi bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+    Per ulteriori informazioni, vedere [Condividi bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-     Se non vuoi che questo collegamento venga visualizzato nell&#39;e-mail del destinatario, puoi disabilitare le impostazioni [!UICONTROL Condivisione pubblica] nella bozza
+    Se non vuoi che questo collegamento venga visualizzato nell&#39;e-mail del destinatario, puoi disabilitare le impostazioni [!UICONTROL Condivisione pubblica] nella bozza
 
-     (Scarica il file originale e l’URL pubblico). Per ulteriori informazioni, consulta [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+    (Scarica il file originale e l’URL pubblico). Per ulteriori informazioni, consulta [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Registro attività
 
@@ -116,3 +116,4 @@ Puoi selezionare se la bozza verrà notificata a un nuovo revisore aggiunto a un
 * Se scegli di aggiungere un messaggio personalizzato, la casella si espande e potrai inserire un oggetto personalizzato (4) e un testo personalizzato nel corpo dell’e-mail (5). Puoi anche ignorare il messaggio personalizzato facendo clic sul collegamento (6).
 
 ![Dettagli_bozza_pagina_3.png](assets/proof-details-page-3-350x258.png)
+

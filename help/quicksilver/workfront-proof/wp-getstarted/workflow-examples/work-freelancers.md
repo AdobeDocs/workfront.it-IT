@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 931
 ht-degree: 0%
@@ -85,3 +85,4 @@ Questa opzione è utile se non si desidera che client e freelance si vedano in [
 * Puoi anche gestire il ruolo che gli viene assegnato sulla bozza, ad esempio [!UICONTROL Sola lettura], nonché le comunicazioni e-mail relative alla bozza. Per ulteriori informazioni, vedere [Gestione dei ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Se non vuoi che il tuo freelance partecipi al processo di revisione ma desideri che venga loro notificata la decisione finale, puoi impostare il ruolo della bozza predefinito nelle impostazioni di [!UICONTROL Dropzone] e un avviso e-mail per tutti i [!UICONTROL submitter di Dropzone] su [Gestisci ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Configura le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) rispettivamente. Per ulteriori informazioni, vedere [Avvisi e-mail,](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [Gestione ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Configurazione delle impostazioni delle notifiche e-mail in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Se desideri che il tuo freelance partecipi attivamente al processo di revisione, puoi modificare il ruolo della bozza e l’impostazione dell’avviso e-mail in base alle esigenze, modificando questi dettagli in linea nella pagina Dettagli bozza. Per ulteriori informazioni su questa pagina, consulta [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+
