@@ -9,22 +9,12 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 4%
@@ -116,36 +106,36 @@ Quando si modificano attività in un elenco, tenere presente quanto segue:
 
 * Diversamente dalla necessità di gestire le autorizzazioni per l&#39;attività quando la si modifica nella casella di modifica, è possibile modificare un&#39;attività in un elenco solo con le autorizzazioni Contribute per l&#39;attività. Questo consente di modificare le seguenti informazioni limitate per l&#39;attività:
 
-   * Descrizione
-   * Stato
-   * Percentuale completato
-   * Informazioni modulo personalizzato
+  * Descrizione
+  * Stato
+  * Percentuale completato
+  * Informazioni modulo personalizzato
 
-     >[!NOTE]
-     >
-     >È possibile modificare un campo personalizzato dell&#39;attività in un elenco solo se si dispone delle autorizzazioni necessarie per aggiornare il campo.
+    >[!NOTE]
+    >
+    >È possibile modificare un campo personalizzato dell&#39;attività in un elenco solo se si dispone delle autorizzazioni necessarie per aggiornare il campo.
 
-   * Registra ore
-   * Modifica assegnazioni
-   * Visualizza informazioni finanziarie
-   * Aggiungi spese, attività o problemi
+  * Registra ore
+  * Modifica assegnazioni
+  * Visualizza informazioni finanziarie
+  * Aggiungi spese, attività o problemi
 
 * È possibile modificare un&#39;attività nei seguenti elenchi:
 
-   * La sezione Attività del progetto
-   * La sezione Sottoattività del progetto
-   * Un rapporto di attività
+  * La sezione Attività del progetto
+  * La sezione Sottoattività del progetto
+  * Un rapporto di attività
 
-     >[!NOTE]
-     >
-     >Per impostazione predefinita, Workfront salva automaticamente le modifiche apportate alle attività nella sezione Attività secondarie o in un report attività.
+    >[!NOTE]
+    >
+    >Per impostazione predefinita, Workfront salva automaticamente le modifiche apportate alle attività nella sezione Attività secondarie o in un report attività.
 
 * È possibile controllare quando Workfront salva le modifiche apportate alle attività in un elenco definendo la Modalità pianificazione prima di iniziare a modificare le attività.
 
   Puoi scegliere se salvare le modifiche apportate da Workfront nel modo seguente:
 
-   * Automaticamente, dopo ogni modifica
-   * Manualmente, solo dopo aver fatto clic su Salva.
+  * Automaticamente, dopo ogni modifica
+  * Manualmente, solo dopo aver fatto clic su Salva.
 
   Per informazioni su come configurare quando Workfront salva le modifiche apportate alle attività in un elenco, vedere la sezione [Modifica modalità pianificazione prima di modificare le attività in un elenco](#modify-plan-mode-before-editing-tasks-in-a-list) in questo articolo.
 
@@ -269,9 +259,9 @@ Quando si salvano manualmente le modifiche in un elenco di attività, tenere pre
 * Non è possibile modificare il progetto. L’opzione per modificare il progetto è disabilitata.
 * Non è possibile aggiornare le informazioni nell’intestazione del progetto. È possibile eseguire le operazioni seguenti solo quando si salvano manualmente le modifiche nell&#39;elenco delle attività:
 
-   * Abbonati al progetto.
-   * Aggiungi il progetto all’elenco dei preferiti.
-   * Aprire un&#39;attività facendo clic sul nome corrispondente nell&#39;elenco.
+  * Abbonati al progetto.
+  * Aggiungi il progetto all’elenco dei preferiti.
+  * Aprire un&#39;attività facendo clic sul nome corrispondente nell&#39;elenco.
 
 * Modificare le attività in blocco. L&#39;icona Modifica è disattivata quando si selezionano più attività.
 * Workfront attiva le notifiche sulle modifiche apportate alle attività solo dopo il salvataggio delle modifiche.
@@ -308,7 +298,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
 1. Fai clic su **Applica**. Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
 
-   ![Barra degli strumenti di salvataggio manuale](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Barra degli strumenti di salvataggio manuale](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Fai clic all’interno di qualsiasi campo per il quale disponi delle autorizzazioni necessarie per aggiornare manualmente. Il campo diventa modificabile e puoi apportare le modifiche.
 
@@ -408,21 +398,21 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 
    * I menu a discesa Visualizza, Raggruppamento e Filtro vengono rimossi e la visualizzazione viene sostituita dai campi seguenti:
 
-      * Numero Attività
-      * Nome attività
-      * Tipo di Vinconlo
-      * Durata
-      * Data di inizio pianificata
-      * Data di completamento Pianificata
-      * Predecessori
-      * Assegnazioni
-      * Stato
-      * Percentuale completato
+     * Numero Attività
+     * Nome attività
+     * Tipo di Vinconlo
+     * Durata
+     * Data di inizio pianificata
+     * Data di completamento Pianificata
+     * Predecessori
+     * Assegnazioni
+     * Stato
+     * Percentuale completato
 
    * L’icona della vista Agile viene rimossa.
    * Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
 
-     ![Barra degli strumenti di salvataggio manuale](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barra degli strumenti di salvataggio manuale](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Modifica qualsiasi campo per il quale disponi delle autorizzazioni necessarie per eseguire manualmente l’aggiornamento.
 
