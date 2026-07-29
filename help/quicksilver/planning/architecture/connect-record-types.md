@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3058
+source-wordcount: 3068
 ht-degree: 4%
 
 ---
@@ -279,7 +279,7 @@ Old:
 
      Viene visualizzata una nuova scheda di connessione per il record o il tipo di oggetto selezionato.
 
-   * **Marchi** da Adobe GenStudio for Performance Marketing dalla sezione **Adobe GenStudio**
+   * **Marchi** da Adobe GenStudio for Performance Marketing dalla sezione **Applicazioni Adobe**
 
      ![Selezione connessione marchio GenStudio](assets/brand-genstudio-connection-selection.png)
 
@@ -337,13 +337,18 @@ Old:
    >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Condizionale) Quando si sceglie di connettersi ad Experience Manager, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
+1. (Facoltativo) Scegli una delle seguenti opzioni nell&#39;area **Aspetto record**:
 
    * **Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita.
    * **Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.
    * **Immagine**: nel campo del record connesso verrà visualizzata solo la miniatura o l&#39;icona dei record connessi.
+   <div class="preview">
 
-   Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record. Nell&#39;area **Aspetto del record** viene visualizzato un esempio di visualizzazione dei record connessi.
+   * **Colore e nome**: quando si connettono i record di Planning, il colore di ogni record connesso viene visualizzato come in un cerchio a sinistra del nome del record. Questa opzione non è disponibile quando si collegano tipi di record a tipi di oggetto di altre applicazioni.
+
+   </div>
+
+   Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record.
 
    >[!NOTE]
    >
@@ -351,9 +356,9 @@ Old:
    >
    >* Il nome di un record è il campo principale del record. Per ulteriori informazioni, vedere [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >* La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto di Workfront.
+   >* La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto da Workfront.
    >
-   >* L&#39;opzione selezionata nell&#39;area Aspetto record determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine dei dettagli.
+   >* La selezione effettuata nell&#39;area **Aspetto record** determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine dei dettagli.
 
 1. Selezionare **Seleziona campi di ricerca** per aggiungere campi dal tipo di record a cui ci si connette. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
@@ -368,7 +373,7 @@ Old:
    >
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
-   >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+   >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
 1. Fai clic su **Crea**.
 
@@ -429,9 +434,9 @@ Old:
    * **SOMMA**: visualizza il totale di tutti i valori provenienti da più record selezionati nel campo record collegato.
    * **MEDIA**: visualizza la media di tutti i valori provenienti da più record selezionati nel campo record collegato.
    * **UNIQUE**: rimuove i duplicati dai valori dei campi di ricerca e mostra solo i valori univoci. Questa opzione non è disponibile per i tipi di campo seguenti:
-      * Paragrafo
-      * Casella di controllo
-      * People
+     * Paragrafo
+     * Casella di controllo
+     * People
 
    >[!NOTE]
    >

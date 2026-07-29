@@ -20,21 +20,19 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 1%
 
 ---
 
 # Creare record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -178,17 +176,14 @@ Old:
   >
   >Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* Tutti i record vengono automaticamente codificati con colori al momento della creazione, indipendentemente dal metodo utilizzato per crearli.
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  Per ulteriori informazioni, vedere la sezione [Record di codifica colore](#color-coding-records) in questo articolo.
 
 </div>
--->
+
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
@@ -293,8 +288,8 @@ Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica 
      >
      >Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
 
-   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
+   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
 
    ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,52 +591,50 @@ In Workfront Planning è possibile configurare automazioni che, se attivate, cre
 Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## Record di codifica colore
 
-All records are automatically associated with a color when they are created. 
+Tutti i record vengono associati automaticamente a un colore al momento della creazione.
 
-1. Create a record using one of the methods described in this article. 
+1. Creare un record utilizzando uno dei metodi descritti in questo articolo.
 
-    The color is immediately applied to the new record in the following areas:
+   Il colore viene immediatamente applicato al nuovo record nelle seguenti aree:
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * Come barra, a sinistra del nome del record o del campo principale nelle visualizzazioni Tabella, Timeline e Calendario.
+   * Cerchiandolo, a sinistra del nome del record nella pagina **Dettagli** del record.
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Condizionale) Per visualizzare il colore di un record, effettuare una delle seguenti operazioni:
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * Dalla vista tabella, fai clic sull&#39;icona **Campi** nella barra degli strumenti nella parte superiore di un elenco di record, quindi attiva l&#39;impostazione **Colore**. A sinistra del campo primario del record viene aggiunta una barra.
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![Barra colori record visualizzazione tabella](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * Nella visualizzazione della timeline, fai clic su **Impostazioni** > **Stile barra**, quindi attiva l&#39;impostazione **Colore**. Una barra viene aggiunta al margine sinistro della barra del record quando si sceglie di colorare la barra di **Record**.
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![Barra colori record visualizzazione sequenza temporale](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * Nella vista Calendario, fai clic su **Impostazioni** > **Stile barra**, quindi attiva l&#39;impostazione **Colore**. Il colore della barra dei record corrisponde al colore del record e una tonalità più scura dello stesso colore viene aggiunta al margine sinistro della barra del record quando si seleziona di colorare la barra di **Record**.
 
-    The Color setting is turned off by default.
+     ![Barra colori record visualizzazione calendario](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   L&#39;impostazione Colore è disattivata per impostazione predefinita.
 
-        Once selected, the new color is applied immediately. 
+1. Per modificare il colore associato a un record, eseguire le operazioni seguenti:
+
+   1. Nella vista tabella fare clic sulla barra dei colori del record
+      Oppure
+      Nell&#39;anteprima o nella pagina dei dettagli del record fare clic sul cerchio del colore del record.
+   1. Fai clic sulla scheda **Campioni** o **Personalizzati** per selezionare un nuovo colore.
+
+      Una volta selezionato, il nuovo colore viene applicato immediatamente.
 
 </div>
-
--->
