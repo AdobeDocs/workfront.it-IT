@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 93%
     * [Panoramica delle versioni di prodotto](product-announcements/product-releases/product-releases.md)
     * [Procedura e pianificazione del rilascio di Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
     * [Preparazione per un rilascio trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+    * Versione Q4 2026 {#release-26-q4}
+      * [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [Miglioramenti dell’intelligenza artificiale nel quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [Miglioramenti per gli amministratori del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [Miglioramenti ai documenti del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Miglioramenti al progetto del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [Miglioramenti alla comunicazione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Miglioramenti alla gestione delle risorse nel quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [Quarto trimestre 2026 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * Versione Q3 2026 {#release-26-q3}
       * [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [Miglioramenti dell’intelligenza artificiale nel terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
