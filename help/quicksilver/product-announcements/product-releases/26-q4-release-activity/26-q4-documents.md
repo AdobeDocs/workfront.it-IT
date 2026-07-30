@@ -4,9 +4,9 @@ description: Miglioramenti ai documenti del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
+source-git-commit: a5fa7c7649932463fc8693f787c02de7d88c111c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '282'
 ht-degree: 4%
 
 ---
@@ -39,4 +39,4 @@ Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collega
 
 Il collegamento è basato su Contenuto verificato, in modo da ottenere anche Ricerche IA, suggerimenti avanzati, analisi di riepilogo della campagna e altro ancora durante la selezione del contenuto.
 
-<!-- For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md). -->
+Per ulteriori informazioni, consulta [Collegare contenuto e cartelle da Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
