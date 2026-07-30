@@ -3,17 +3,19 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navigazione a sinistra in [!DNL Adobe Workfront]
 description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica la navigazione nel sistema.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1436'
 ht-degree: 3%
 
 ---
 
 # Navigazione a sinistra in [!DNL Adobe Workfront]
+
+{{preview-fast-release-general}}
 
 La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannello di navigazione sul lato sinistro dello schermo. Di seguito sono riportati i vantaggi della navigazione nel pannello sinistro:
 
@@ -89,7 +91,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 
@@ -262,6 +264,10 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
    Prima di poter modificare le informazioni, è necessario disporre delle autorizzazioni necessarie per modificare l&#39;oggetto.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Sezioni del pannello sinistro](assets/left-navigation-panel-072326.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Sezioni del pannello sinistro](assets/left-navigation-panel.png)
 
 1. (Facoltativo) Per aggiungere un collegamento rapido al dashboard, fai clic su **[!UICONTROL Aggiungi dashboard]** nella parte inferiore del pannello sinistro, quindi effettua le seguenti operazioni:
@@ -272,12 +278,22 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
       >[!TIP]
       >
       >È necessario creare il dashboard prima che venga visualizzato nell&#39;elenco.
+      >
+      >Non tutti gli oggetti consentono l&#39;uso di un dashboard nel pannello sinistro. Per informazioni sugli oggetti che supportano i dashboard, vedere [Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area di Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 1. (Facoltativo) Per rimuovere un collegamento rapido a un dashboard, passa il cursore del mouse sul dashboard nell&#39;area di navigazione a sinistra, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-dashboard-from-left.png) quando viene visualizzata.
 
-1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello di sinistra, fai clic sull&#39;icona **[!UICONTROL Trascina]** ![](assets/drag-icon.png) accanto a una sezione e trascinala verso l&#39;alto o il basso.
+1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello a sinistra nell&#39;ambiente di produzione, fai clic sull&#39;icona **[!UICONTROL Trascina]** ![Trascina icona](assets/drag-icon.png) accanto a una sezione e trascinala verso l&#39;alto o il basso.
 
    ![Trascina una sezione](assets/drag-section.png)
+
+   <div class="preview">
+
+   Per modificare l’ordine di una sezione nel pannello di sinistra nell’ambiente di anteprima, fai clic su e trascina la sezione verso l’alto o il basso nella posizione corretta.
+
+   ![Trascina una sezione](assets/click-drag-left-nav-section.png)
+
+   </div>
 
 1. (Facoltativo) Per chiudere il pannello sinistro, fare clic sull&#39;icona **[!UICONTROL Comprimi]** ![](assets/left-panel-collapse-icon.png).
 
