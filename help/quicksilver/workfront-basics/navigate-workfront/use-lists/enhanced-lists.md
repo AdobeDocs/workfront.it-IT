@@ -8,24 +8,21 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 2%
 
 ---
 
 # Utilizzare gli elenchi avanzati
+
+{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -203,17 +200,20 @@ Per aggiungere e rimuovere colonne:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Facoltativo) Per riordinare le colonne, passa il puntatore del mouse sul nome di una colonna nella sezione **Selected** e fai clic sull&#39;icona **Drag** ![Drag icon](assets/drag-icon.png). Spostare le colonne verticalmente in modo da riordinarle.</span>
 1. Fai clic su **Salva**.
 
    ![Gestione colonne](assets/glist-column-manager.png)
 
    L’elenco aggiorna le colonne in base alle scelte effettuate.
 
-### Modificare l&#39;altezza della riga in una visualizzazione
+## Personalizzare le righe
 
 >[!NOTE]
 >
 >Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Per modificare l&#39;altezza della riga in una vista:
 
 1. Fare clic sull&#39;icona **Altezza riga** ![Icona Altezza riga](assets/row-height-icon.png) in un elenco avanzato.
 
@@ -222,6 +222,14 @@ Per aggiungere e rimuovere colonne:
    * Standard. Questa è la scelta predefinita.
    * Canale
    * Alta
+
+Per modificare l&#39;ordine delle righe:
+
+1. Trascina e rilascia le righe nell’ordine desiderato.
+
+   >[!NOTE]
+   >
+   >Se è stato applicato un ordinamento, non è possibile modificare manualmente l&#39;ordine delle righe.
 
 ## Aggiornare gli elementi dell’elenco avanzati
 
@@ -366,8 +374,8 @@ La formattazione condizionale consente di evidenziare informazioni importanti ne
 1. Fare clic all&#39;esterno della casella **Formato** per chiuderla.
 
    In questo modo si ritorna alla vista elenco.
-La formattazione viene applicata immediatamente alla visualizzazione elenco.
-Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
+   La formattazione viene applicata immediatamente alla visualizzazione elenco.
+   Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
 
 ### Filtrare gli elementi in un elenco avanzato
 
