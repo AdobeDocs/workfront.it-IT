@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
+source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -17,29 +17,26 @@ Questa pagina descrive i miglioramenti per gli amministratori apportati con la v
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2026, consulta [Panoramica sulla versione del terzo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
-## Change tracking for unified review and approval
+## Rilevamento delle modifiche per revisione e approvazione unificate
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Anteprima: 10 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
-The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+La pagina Cronologia modifiche in Workfront ora acquisisce l’attività tra i flussi di lavoro unificati di revisione e approvazione, fornendo agli amministratori un percorso di governance completo per la revisione e la documentazione degli eventi del ciclo di vita.
 
-Approval, stage, and participant actions are now tracked. These actions may include:
+Ora vengono tracciate le azioni di approvazione, staging e partecipante. Tali azioni possono includere:
 
-* Making an approval decision in the Frame.io viewer
-* Creating or deleting an approval
-* Updating a document such as renaming, moving, or deleting it
+* Come prendere una decisione di approvazione nel visualizzatore Frame.io
+* Creazione o eliminazione di un’approvazione
+* Aggiornare un documento, ad esempio rinominarlo, spostarlo o eliminarlo
 
-Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+Ogni voce include i campi tracciati standard: data e ora, operazione, nome utente (o &quot;generato dal sistema&quot;) e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi.
 
-This phase of change tracking does not include MCP events. Those will be part of a future release.
+Questa fase del rilevamento delle modifiche non include gli eventi MCP. Questi elementi faranno parte di una versione futura.
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 -->
 
@@ -59,9 +56,9 @@ Sono state apportate le seguenti modifiche al campo nella casella Livello di acc
 * Per i clienti che hanno acquistato anche un pacchetto Workfront Planning, è stato aggiunto un nuovo campo Tipo di licenza Planning per illustrare la licenza di un utente in Workfront Planning.
 I clienti che hanno acquistato un numero uguale di licenze Workflow e Planning dispongono dei seguenti tipi di licenza disponibili:
 
-   * Standard di pianificazione
-   * Collaboratore pianificazione
-   * Nessuno
+  * Standard di pianificazione
+  * Collaboratore pianificazione
+  * Nessuno
 
   >[!NOTE]
   >
@@ -77,9 +74,7 @@ I clienti che hanno acquistato un numero uguale di licenze Workflow e Planning d
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026
->Versione rapida di produzione: 15 luglio 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Ricerca interna** nei moduli personalizzati fornisce un filtro dinamico. È simile al tipo di campo Automatico e consente agli utenti di cercare e selezionare oggetti Workfront esistenti digitando parte del nome. Il filtro della ricerca interna può fare riferimento al valore in un altro campo del modulo, il che non è possibile con Typeaheads.
 
@@ -97,9 +92,7 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026
->Versione rapida di produzione: 15 luglio 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 >
 >Questa funzione è disponibile solo per le organizzazioni nei pacchetti Workflow Prime o Ultimate.
 
@@ -113,9 +106,7 @@ Per informazioni, vedere [Aggiungere la logica del valore predefinito a un modul
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026
->Versione rapida di produzione: 15 luglio 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
 I filtri di sistema esistenti nei campi nativi vengono ora applicati ai campi nei moduli personalizzati e sono visibili agli amministratori.
 
@@ -133,9 +124,7 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026
->Versione rapida di produzione: 15 luglio 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
 
 Per proteggere le integrazioni e l’integrità dei dati, è stato aggiornato il modo in cui i nomi dei campi possono essere modificati nel pannello delle impostazioni dei campi di un modulo personalizzato.
 
@@ -147,9 +136,7 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026
->Versione rapida di produzione: 11 giugno 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 11 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
 Per semplificare la visualizzazione delle modifiche apportate in un elenco centrale, è stato creato l&#39;elenco Cronologia modifiche. In questo elenco vengono visualizzate informazioni quali l&#39;oggetto, l&#39;operazione e l&#39;origine della modifica, ad esempio un utente o il sistema Workfront.
 
@@ -161,9 +148,7 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026
->Produzione per tutti: 11 giugno 2026
->[!BADGE Fuori pianificazione]{type=Neutral}
+>Anteprima: 11 giugno 2026>Produzione per tutti: 11 giugno 2026>[!BADGE Sconto pianificato]{type=Neutral}
 
 Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
@@ -182,9 +167,7 @@ Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026
->Versione rapida di produzione: 11 giugno 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
 
@@ -200,9 +183,7 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026
->Versione rapida di produzione: 11 giugno 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
 Ora puoi includere i campi finanziari nativi di Workfront nei moduli personalizzati. In precedenza, i campi finanziari non erano supportati.
 
@@ -214,9 +195,7 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026
->Versione rapida di produzione: 11 giugno 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
 Ai moduli personalizzati è stata aggiunta la nuova opzione di condivisione &quot;Tutti nel sistema possono visualizzare e allegare&quot;. Quando si seleziona questa opzione, tutti gli utenti a livello di sistema possono allegare il modulo ad altri oggetti.
 
@@ -228,9 +207,7 @@ Per ulteriori informazioni, vedere [Condividi modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026
->Versione rapida di produzione: 11 giugno 2026
->Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
 
 Attualmente, quando si modificano oggetti in blocco, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.
 

@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: Modifica cronologia
-description: La cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront.
-author: Lisa and Becky
+title: Cronologia modifiche
+description: La cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront
+author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: ba1843cf6be446a809f9526608a3ae3bef69c494
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '472'
 ht-degree: 6%
 
 ---
@@ -18,14 +18,18 @@ ht-degree: 6%
 
 Puoi visualizzare la cronologia delle modifiche, inclusi i registri di audit, nell’area Tracciamento delle modifiche di Configurazione.
 
-* **I registri di controllo** sono modifiche attivate dagli utenti.Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
-* Elenco cronologia modifiche consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
+* **I registri di controllo** sono modifiche attivate dagli utenti.
+Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.
+La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+* **Elenco cronologia modifiche** consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
 
-   * Oggetto
-   * Tipo di oggetto
-   * Tipo di modifica (operazione)
-   * Source della modifica, ad esempio utenti specifici, API, Workfront Fusion, AI LLM o Workfront
+  * Oggetto
+  * Tipo di oggetto
+  * Tipo di modifica (operazione)
+  * Source della modifica, ad esempio utenti specifici, API, Workfront Fusion, AI LLM o Workfront
+
+  <span class="preview">L&#39;attività del flusso di lavoro di revisione e approvazione unificata viene registrata nella Cronologia modifiche, inclusi i partecipanti e le decisioni.</span>
 
 ## Requisiti di accesso
 
@@ -45,7 +49,7 @@ Puoi visualizzare la cronologia delle modifiche, inclusi i registri di audit, ne
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Per visualizzare la Cronologia modifiche è necessario essere un amministratore di Workfront</td> 
+   <td>Amministratore di sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,13 +95,23 @@ L&#39;elenco Cronologia modifiche è un elenco avanzato e include filtri, colonn
 1. Per modificare le date per le quali vengono visualizzate le modifiche, fai clic sul selettore di date e seleziona le nuove date.
 
    Le modifiche sono disponibili per gli ultimi 90 giorni.
-1. Per cercare un termine specifico, fare clic sulla barra di ricerca e immettere il termine desiderato. I risultati vengono filtrati durante la digitazione.
-1. (Facoltativo) Per filtrare in base a una colonna, vedere [Filtrare gli elementi in un elenco avanzato](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) nell&#39;articolo Utilizzare elenchi ottimizzati.
-1. (Facoltativo) Per nascondere, visualizzare o riordinare le colonne, vedere [Personalizzare le colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) nell&#39;articolo Utilizzare elenchi di miglioramento.
-1. Per aggiungere o rimuovere colonne, vedere [Aggiungere e rimuovere colonne con Gestione colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) nell&#39;articolo Utilizzare elenchi di miglioramento.
-1. Per modificare l&#39;altezza delle righe, vedere [Modificare l&#39;altezza delle righe in una visualizzazione](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) nell&#39;articolo Utilizzare elenchi di miglioramento.
 
+1. Per cercare un termine specifico, fare clic sulla barra di ricerca e immettere il termine desiderato. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+1. (Facoltativo) Per filtrare in base a una colonna, vedi [Filtrare gli elementi in un elenco avanzato](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Facoltativo) Per nascondere, visualizzare o riordinare le colonne, vedere [Personalizzare le colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Facoltativo)Per aggiungere o rimuovere colonne, vedere [Aggiungere e rimuovere colonne con Gestione colonne](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Facoltativo)Per regolare l&#39;altezza delle righe, vedere [Modificare l&#39;altezza delle righe in una visualizzazione](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) nell&#39;articolo [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
+## Esporta cronologia modifiche
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche > Elenco cronologia modifiche**.
+1. Filtrare l&#39;elenco per visualizzare gli elementi da esportare.
+1. Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png) e seleziona se desideri salvare in formato XLSX o CSV.
+
+   Viene visualizzata la casella Salva file (Save file), che consente di salvare il file esportato sul computer.
+   Completate il salvataggio del file esportato. Ora è possibile trovarlo nel computer e condividerlo con altri utenti.
 
 
 
