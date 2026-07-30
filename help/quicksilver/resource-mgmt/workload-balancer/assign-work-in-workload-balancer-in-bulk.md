@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 5%
 
 ---
@@ -79,13 +72,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 * Non è possibile assegnare risorse ad elementi di lavoro completati o ad elementi di un progetto completato.
 * Quando si assegnano mansioni e utenti in blocco, è possibile effettuare le seguenti operazioni:
 
-   * Sostituisci le assegnazioni tra utenti e ruoli in tutte le combinazioni valide.
-   * Annulla l’assegnazione di un utente da tutti i suoi elementi di lavoro.
+  * Assegnare utenti e ruoli in tutte le combinazioni valide.
+  * Annulla l’assegnazione di un utente da tutti i suoi elementi di lavoro.
 
 **ESEMPI**
 
-* L&#39;utente è responsabile dell&#39;esecuzione delle assegnazioni utente per diversi nuovi progetti. I progetti sono stati creati originariamente da modelli e le mansioni sono già assegnate alle varie attività all’interno dei progetti. Si desidera assegnare un utente specifico, Jackie Simms, a tutte le attività attualmente assegnate a una mansione. È possibile utilizzare la funzione Sostituisci per assegnare queste attività a Jackie Simms.
-* A Jackie Simms vengono assegnate 45 attività in 3 progetti diversi. Jackie lascia l&#39;organizzazione e ora devi riassegnare le sue attività a un altro utente. È possibile utilizzare la funzione Sostituisci per assegnare queste attività alla nuova persona.
+* L&#39;utente è responsabile dell&#39;esecuzione delle assegnazioni utente per diversi nuovi progetti. I progetti sono stati creati originariamente da modelli e le mansioni sono già assegnate alle varie attività all’interno dei progetti. Si desidera assegnare un utente specifico, Jackie Simms, a tutte le attività attualmente assegnate a una mansione. È possibile utilizzare la funzione Assegna per assegnare queste attività a Jackie Simms.
+* A Jackie Simms vengono assegnate 45 attività in 3 progetti diversi. Jackie lascia l&#39;organizzazione e ora devi riassegnare le sue attività a un altro utente. È possibile utilizzare la funzione Assegna per assegnare queste attività alla nuova persona.
 * A un altro utente, Rick Kuvec, vengono assegnate 10 attività per 2 progetti diversi. Ti rendi conto che Rick è stato assegnato a queste attività per errore, ma non sai a chi devono essere assegnate in questo momento. È necessario annullare l&#39;assegnazione di Rick a tutte le attività contemporaneamente. È possibile utilizzare la funzione Annulla assegnazione per rimuovere Rick da queste attività.
 
 ## Assegnare il lavoro in blocco nel Bilanciatore dei carichi di lavoro
@@ -131,7 +124,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Seleziona una delle seguenti opzioni e continua con i passaggi descritti di seguito:
 
-   * [Sostituisci risorsa](#replace-user)
+   * [Assegna risorsa](#replace-user)
    * [Annulla assegnazione risorsa](#unassign-user)
 
    >[!TIP]
@@ -189,26 +182,26 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### Sostituisci risorsa {#replace-user}
+### Assegna risorsa {#replace-user}
 
-È possibile sostituire una risorsa già assegnata agli elementi di lavoro con un&#39;altra risorsa nei progetti selezionati.
+Puoi assegnare o sostituire le risorse nei progetti selezionati.
 
-La risorsa può essere:
+L&#39;assegnazione della risorsa può essere:
 
-* Ruolo con ruolo
-* Utente con utente
-* Utente con ruolo
-* Ruolo con utente
+* Ruolo da ruolo
+* Da utente a utente
+* Utente a ruolo
+* Ruolo per utente
 
-Quando sostituisci una risorsa con un’altra risorsa utilizzando Bulk Assignments (Assegnazioni in blocco) nel Bilanciatore dei carichi di lavoro, si verificano gli eventi seguenti:
+Quando si assegna o si sostituisce una risorsa utilizzando Assegnazioni in blocco nel Bilanciatore dei carichi di lavoro, si verificano gli eventi seguenti:
 
-* La risorsa sostitutiva viene assegnata a tutti gli elementi di lavoro attualmente assegnati alla risorsa originale nei progetti selezionati.
+* La nuova risorsa viene assegnata a tutti gli elementi di lavoro attualmente assegnati alla risorsa originale nei progetti selezionati.
 * La nuova risorsa non è assegnata ad alcun elemento di lavoro già contrassegnato come Completato.
 * Per la sostituzione da utente a utente, se il ruolo associato al primo utente non corrisponde a nessuno dei ruoli del secondo utente, al secondo utente viene assegnato il ruolo principale.
 
-Per sostituire una risorsa con un’altra risorsa:
+Per assegnare una risorsa in blocco:
 
-1. Selezionare gli elementi di lavoro nell&#39;area delle assegnazioni in blocco del Bilanciatore dei carichi di lavoro come descritto in precedenza e selezionare **Sostituisci risorsa**.
+1. Selezionare gli elementi di lavoro nell&#39;area delle assegnazioni in blocco del Bilanciatore dei carichi di lavoro come descritto in precedenza e selezionare **Assegna risorsa**.
 1. Nel campo **Risorsa attualmente assegnata**, fare clic sulla freccia dell&#39;elenco a discesa per scegliere da un elenco di risorse. Vengono visualizzate solo le risorse attualmente assegnate ad elementi di lavoro incompleti all&#39;interno dei progetti specificati. Questo è un campo obbligatorio.
 
    ![Sostituisci risorsa](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -217,11 +210,11 @@ Per sostituire una risorsa con un’altra risorsa:
 
    In Workfront viene visualizzata una nota sul numero di elementi in cui la risorsa attualmente assegnata sostituirà la seconda risorsa.
 
-1. Fare clic su **Sostituisci**.
+1. Fai clic su **Assegna**.
 
    La prima risorsa viene sostituita dalla seconda risorsa in tutti gli elementi di lavoro del progetto o dell&#39;attività selezionata.
 
-   Viene visualizzata una conferma del numero di elementi di lavoro per i quali l&#39;assegnazione originale è stata sostituita con la seconda risorsa selezionata.
+   Una conferma indica il numero di elementi di lavoro per i quali l&#39;assegnazione originale è stata sostituita con la seconda risorsa selezionata.
 
 ### Annulla assegnazione risorsa {#unassign-user}
 
@@ -247,7 +240,7 @@ Per annullare l’assegnazione di un utente agli elementi di lavoro nei progetti
    In Workfront viene visualizzata una nota relativa al numero di elementi a cui l&#39;utente attualmente assegnato verrà revocato.
 
 1. Fare clic su **Annulla assegnazione**.\
-   Si riceve una conferma del numero di elementi di lavoro in cui è stato rimosso l&#39;utente specificato.
+   Una conferma visualizza il numero di elementi di lavoro in cui l&#39;utente specificato è stato rimosso.
 
 
 
