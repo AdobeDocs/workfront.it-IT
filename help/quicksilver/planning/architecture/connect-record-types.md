@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 4%
 
 ---
@@ -90,14 +90,19 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <td> 
 <p>Per connettere i tipi di record dalla stessa area di lavoro: </p>
 <ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</li></ul>
+<li><p>Qualsiasi pacchetto Workfront o Workflow con qualsiasi pacchetto Planning</p></li>
+<p>Oppure</p>
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li>
+</ul>
 
 <p>Per connettere tipi di record da aree di lavoro diverse:</p>
 
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
+<ul>
+
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li>
+<p>Oppure</p>
+<li><p>Qualsiasi pacchetto Planning Prime o Ultimate acquistato come prodotto standalone</p></li>
+</ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
 <tr> 
@@ -299,7 +304,15 @@ Old:
    * **Selezione multipla**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a più record del tipo di record connessione.
    * **Selezione singola**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a un record del tipo di record connessione.
 
-1. Selezionare **Crea campo corrispondente nel tipo di record collegato**. Se questa opzione è selezionata, viene creato un campo connessione nel tipo di record a cui ci si connette, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
+1. Selezionare **Crea campo corrispondente nel tipo di record collegato** nella sezione <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> del **tipo di connessione**.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Se questa opzione è selezionata, viene creato un campo connessione nel tipo di record a cui ci si connette, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Non è stato creato alcun campo per gli oggetti Workfront connessi ai record Planning.
    >   * Nessun campo creato per un tipo di record di Planning quando è connesso a un tipo di record dall&#39;area di lavoro di GenStudio.
 
-1. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
+1. (Condizionale) Se nella sezione **Tipo di connessione** hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
 
    * Da molti a molti
    * Da uno a molti

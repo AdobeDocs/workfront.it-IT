@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -166,8 +166,8 @@ Old:
 
 * È possibile aggiungere un aggiornamento ai record ed esaminare la cronologia delle modifiche dalle seguenti aree di Workfront Planning:
 
-   * Dalla pagina dei dettagli del record.
-   * Da una visualizzazione, nella casella dei dettagli del record.
+  * Dalla pagina dei dettagli del record.
+  * Da una visualizzazione, nella casella dei dettagli del record.
 
 ### Gestire i commenti sui record
 
@@ -206,11 +206,23 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
    >
    >Non è possibile aggiungere immagini a un commento di record.
 
-
 1. Continuare ad aggiungere commenti al record.
 
    Per ulteriori informazioni sull&#39;aggiornamento degli oggetti, inclusi i record di Workfront Planning, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+1. Fai clic su **Invia** per registrare il commento.
+
+   Gli utenti a cui hai applicato il tag nel messaggio ricevono notifiche sull’esistenza di un nuovo messaggio.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
 1. (Facoltativo) Fai clic sull&#39;icona **Nascondi commenti** ![Nascondi commenti](assets/hide-comments-icon.png) per chiudere il pannello di destra.
 
