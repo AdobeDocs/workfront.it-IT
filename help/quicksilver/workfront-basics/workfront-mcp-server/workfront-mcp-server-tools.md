@@ -5,15 +5,17 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 6%
+source-wordcount: '2140'
+ht-degree: 5%
 
 ---
 
 
 # Strumenti server Adobe Workfront MCP
+
+{{preview-fast-release-general}}
 
 In questo articolo sono elencati gli strumenti esposti dal server MCP [!DNL Adobe Workfront] a una piattaforma agente di IA connessa. La piattaforma chiama questi strumenti per tuo conto quando gli chiedi di trovare, creare, aggiornare o eliminare elementi Workfront.
 
@@ -66,10 +68,15 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Ottieni informazioni sul flusso di lavoro di approvazione | `approvals_get_approval_info` | Restituisce il flusso di lavoro di approvazione corrente (fasi, partecipanti, stato) per una versione del documento. | Leggi |
-| Crea o aggiorna flusso di lavoro di approvazione | `approvals_create_or_update_approval_workflow` | Crea o aggiorna le fasi del flusso di lavoro di approvazione per una versione del documento. Supporta le dipendenze degli stadi lineari e paralleli (grafi). | Scrittura |
-| Crea approvazione da modello | `approvals_create_approval_from_template` | Crea un flusso di lavoro di approvazione su un documento utilizzando un modello esistente. | Scrittura |
+| Ottieni informazioni sul flusso di lavoro di approvazione | `approvals_get_approval_info` | Restituisce il flusso di lavoro di approvazione corrente (fasi, partecipanti, stato) per una versione del documento. <span class="preview">Per le approvazioni con più percorsi, vengono visualizzati ogni percorso e i relativi stadi.</span> | Leggi |
+| Crea o aggiorna flusso di lavoro di approvazione | `approvals_create_or_update_approval_workflow` | Crea o aggiorna le fasi del flusso di lavoro di approvazione per una versione del documento. <span class="preview">Supporta un singolo brano di stadi o più percorsi di revisione paralleli.</span> | Scrittura |
+| Crea approvazione da modello | `approvals_create_approval_from_template` | Crea un flusso di lavoro di approvazione in un documento utilizzando un modello esistente, <span class="preview">inclusi i modelli che definiscono più percorsi paralleli.</span> | Scrittura |
 | Elimina fase di approvazione | `approvals_delete_approval_stage` | Elimina una singola fase da un flusso di lavoro di approvazione per nome o posizione. È possibile eliminare solo le fasi non avviate. | Scrittura |
+| <span class="preview">Aggiungi percorso all&#39;approvazione</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Aggiunge un nuovo percorso di revisione parallelo a un flusso di lavoro di approvazione esistente, in modo che più tracce di revisione vengano eseguite contemporaneamente in una versione del documento.</span> | <span class="preview">Scrittura</span> |
+| <span class="preview">Rimuovi percorso da approvazione</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Rimuove un percorso parallelo da un flusso di lavoro di approvazione. Impossibile rimuovere il primo percorso e i percorsi che contengono stadi completati o bloccati sono protetti.</span> | <span class="preview">Scrittura</span> |
+| <span class="preview">Aggiungi fase al percorso</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Aggiunge una fase di revisione alla fine di un percorso specifico all&#39;interno di un flusso di lavoro di approvazione parallelo.</span> | <span class="preview">Scrittura</span> |
+| <span class="preview">Rimuovi fase dal percorso</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Rimuove una fase non avviata da un percorso specifico in un flusso di lavoro di approvazione parallelo. Ogni percorso deve contenere almeno una fase.</span> | <span class="preview">Scrittura</span> |
+| <span class="preview">Riordina le fasi nel percorso</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Modifica l&#39;ordine delle fasi all&#39;interno di un singolo percorso di un flusso di lavoro di approvazione parallelo.</span> | <span class="preview">Scrittura</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |

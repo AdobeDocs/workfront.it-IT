@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 4%
 
 ---
 
 # Organizzare un modulo e visualizzarne l’anteprima
+
+{{preview-fast-release-general}}
 
 È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
@@ -191,6 +193,8 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
    >[!NOTE]
    >
-   >La logica avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 

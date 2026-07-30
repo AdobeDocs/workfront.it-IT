@@ -11,14 +11,16 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
 # Panoramica dei profili aziendali
+
+{{highlighted-preview}}
 
 I profili aziendali sono un modello di autorizzazioni avanzato che consente a clienti come le agenzie di gestire in modo efficiente l’accesso degli utenti e garantire un controllo preciso sulle autorizzazioni a livello di gruppo. In un profilo di business, gli utenti dispongono di autorizzazioni distinte per gli oggetti specifici del gruppo. È inoltre possibile condividere oggetti aggiuntivi direttamente con il profilo aziendale.
 
@@ -30,6 +32,8 @@ L&#39;amministratore di sistema di Workfront:
 * Aggiorna il profilo utente con il gruppo e il livello di accesso per tale gruppo (questo è il profilo aziendale)
 * Definisce le date di validità per il profilo di business in base alle esigenze
 * Assegna modelli di layout ai livelli di accesso
+
+<span class="preview">Gli amministratori di gruppi possono anche creare, modificare ed eliminare profili aziendali, ma solo per i gruppi che amministrano.</span>
 
 Qualsiasi utente che ha accesso alla condivisione di oggetti può condividerli con il profilo aziendale e tutti gli utenti con il profilo visualizzeranno l’oggetto.
 

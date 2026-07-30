@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Se il valore del campo di origine cambia, il campo dipendente viene cancellato automaticamente anziché lasciato in uno stato non valido, impedendo la persistenza di combinazioni non corrispondenti.
 
   Ricevi un messaggio in linea o un avviso popup che spiega perché il campo dipendente è stato cancellato.
+
+* Ogni campo dipendente può avere fino a 3 campi di controllo diretto.
+
+* I livelli di dipendenza sono limitati a 6 connessioni. Ciò significa che è possibile collegare fino a 7 tipi di record.
+
+* Affinché la catena di dipendenze funzioni, tutti i campi dipendenti devono esistere contemporaneamente sullo stesso tipo di record.
 
 ## Creare una connessione dipendente
 

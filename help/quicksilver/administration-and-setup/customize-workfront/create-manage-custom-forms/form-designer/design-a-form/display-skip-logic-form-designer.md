@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3659
 ht-degree: 2%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
+
+{{preview-fast-release-general}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -101,17 +103,17 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
 * Non è possibile applicare la logica di visualizzazione o di salto per mostrare o nascondere le scelte di un campo con più opzioni. Ad esempio, non è possibile limitare le scelte visualizzate per un campo a discesa, un gruppo di caselle di controllo o un campo Pulsante di scelta in base alla logica di visualizzazione o salto di un altro campo.
 * È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
 
-   * È un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo)
-   * È preceduto da un campo a scelta multipla
-   * È seguito da un altro campo personalizzato
+  * È un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo)
+  * È preceduto da un campo a scelta multipla
+  * È seguito da un altro campo personalizzato
 
 * Quando si copiano i moduli con la logica di visualizzazione o salta, la logica viene copiata nel nuovo modulo personalizzato.
 * Durante la modifica di oggetti in blocco, tutti i campi personalizzati vengono visualizzati nella casella Modifica oggetti, inclusi i campi ignorati o nascosti.
 * Quando crei una regola di logica di visualizzazione per un modulo personalizzato, tieni presente quanto segue:
 
-   * Per impostazione predefinita, i campi personalizzati non inclusi in un’istruzione di logica di visualizzazione vengono visualizzati in un modulo personalizzato.
-   * Puoi creare istruzioni logiche di visualizzazione a più campi.
-   * Se a tutti i campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato.
+  * Per impostazione predefinita, i campi personalizzati non inclusi in un’istruzione di logica di visualizzazione vengono visualizzati in un modulo personalizzato.
+  * Puoi creare istruzioni logiche di visualizzazione a più campi.
+  * Se a tutti i campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato.
 
 ## Aggiungere logica di visualizzazione a un modulo personalizzato
 
@@ -202,7 +204,9 @@ Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo a
 
    >[!NOTE]
    >
-   >La logica di visualizzazione avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica di visualizzazione avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 ## Aggiungere la logica di salto a un modulo personalizzato
 
@@ -280,7 +284,9 @@ Quando il modulo personalizzato viene allegato a un progetto e lo stato del prog
 
    >[!NOTE]
    >
-   >La logica dei valori predefiniti non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica dei valori predefinita non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 ## Aggiungere una logica di convalida a un modulo personalizzato
 
@@ -329,7 +335,9 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 
    >[!NOTE]
    >
-   >La logica di convalida non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica di convalida non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 ## Aggiungere logica di formattazione a un modulo personalizzato
 
@@ -392,7 +400,9 @@ IF(
 
    >[!NOTE]
    >
-   >La logica di formattazione non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica di formattazione non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 ## Aggiungere una logica di modificabilità a un modulo personalizzato
 
@@ -442,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >La logica di modificabilità non è supportata nella modalità di anteprima di Progettazione moduli.
+   >Nell’ambiente di produzione, la logica di modificabilità non è supportata nella modalità di anteprima di Progettazione moduli.
+   >
+   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
+

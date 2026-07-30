@@ -17,9 +17,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: 333
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **[!UICONTROL Aziende]** ![Aziende](assets/companies-icon-left-panel.png).
+1. Nel pannello a sinistra, fai clic su **[!UICONTROL Aziende]**.
 
 1. Seleziona una o più società da disattivare o riattivare.
 1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->

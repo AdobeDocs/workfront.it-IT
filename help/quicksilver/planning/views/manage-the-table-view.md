@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -308,13 +308,11 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
    Al nuovo record vengono aggiunti anche un&#39;immagine miniatura predefinita <span class="preview">e un colore</span>.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo primario del record viene visualizzato un indicatore **Nuovo commento**.</span>
+   >
+   >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (Facoltativo) Seleziona uno o più record o righe, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
