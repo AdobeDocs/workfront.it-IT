@@ -9,24 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 4%
 
 ---
 
 # Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare quali controlli elenco visualizzare nei menu a discesa Filtro, Visualizza e Raggruppamento. Questi menu vengono visualizzati sopra gli elenchi in Workfront, ad esempio l’elenco delle attività di un progetto:
 
@@ -97,6 +93,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >* Nell’intestazione dell’area Progetti:
    >   
    >  ![Disabilita pulsante filtri](assets/disable-filter-pills.png)
+
+   <span class="preview">Sono disponibili alcuni elenchi avanzati tra cui scegliere. Questi elenchi hanno un’etichetta &quot;Nuova esperienza&quot; accanto ai controlli elenco. Per informazioni sugli elenchi avanzati, vedere [Utilizzare gli elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Facoltativo) Se desideri modificare il filtro, la visualizzazione o il raggruppamento predefiniti per il modello di layout, passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento, quindi fai clic su **Imposta come predefinito**.
 

@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
-ht-degree: 78%
+source-wordcount: 7922
+ht-degree: 77%
 
 ---
 
@@ -177,17 +169,17 @@ I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinis
 
 * I seguenti caratteri speciali non sono supportati nelle etichette di campo personalizzate e nei nomi API.
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * :
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * :
+  * `{`
+  * `}`
 
 ### Aggiungere campi di testo
 
@@ -272,7 +264,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Istruzioni</td>
-    <td>Digita eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
+    <td>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,14 +797,14 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
+      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
-       &rbrace;
-      &rbrace;
+      {
+       dati: {
+         { name: “USA”},
+         { name: “Canada”}
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1050,7 +1042,7 @@ Per aggiungere immagini, PDF o video:
 
 ### Aggiungere campi nativi Workfront
 
-Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il modulo personalizzato viene associato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, il campo Descrizione in un modulo personalizzato associato a un progetto acquisirà direttamente la descrizione del progetto. Il campo può mostrare “N/D” se non sono disponibili dati.
+Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il modulo personalizzato viene associato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, se il campo personalizzato fa riferimento al campo Descrizione e si trova in un modulo personalizzato allegato a un progetto, estrae la descrizione del progetto. Il campo può mostrare “N/D” se non sono disponibili dati.
 
 +++ Espandi per visualizzare l’elenco dei campi nativi supportati.
 
@@ -1218,7 +1210,7 @@ Per aggiungere un file Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo XD.</p> 
-      <p><b>Nota</b>: l’impostazione Accesso al collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
+      <p><b>Nota</b>: l'impostazione Accesso collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
    </td> 
      </tr> 
      <tr> 
