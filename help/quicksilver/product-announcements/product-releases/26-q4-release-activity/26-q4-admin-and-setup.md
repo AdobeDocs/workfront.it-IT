@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -84,3 +84,39 @@ Ora vengono tracciate le azioni di approvazione, staging e partecipante. Tali az
 Ogni voce include i campi tracciati standard: data e ora, operazione, nome utente (o &quot;generato dal sistema&quot;) e nome oggetto. Vengono acquisite le attività MCP, tra cui LLM (come Claude) che ha effettuato l’aggiornamento. I commenti del visualizzatore Frame.io non sono inclusi.
 
 Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Definire un’applicazione personalizzata come pagina di destinazione nel modello di layout
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+Ora è possibile impostare un’applicazione personalizzata come pagina di destinazione in un modello di layout. Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l’utilizzo come pagina di destinazione.
+
+Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale o della pagina di destinazione.
+
+Per ulteriori informazioni, vedere [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) e [Creare applicazioni personalizzate per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
+## Configurare i campi tracciati nella cronologia delle modifiche
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+È possibile aggiungere campi di cui tenere traccia per un particolare tipo di oggetto in Workfront. Quando gli utenti modificano le informazioni in tale campo, il sistema registra le informazioni sulla modifica come voce nella cronologia modifiche.
+
+In precedenza, la schermata Configuration per la definizione dei campi tracciati era di sola visualizzazione.
+
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Accesso amministrativo alla cronologia modifiche aggiunta ai livelli di accesso
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+Nel livello di accesso Standard è ora possibile definire se gli utenti con tale livello devono avere accesso all&#39;elenco Cronologia modifiche. L&#39;opzione **Cambia cronologia** è disponibile nella sezione **Consenti accesso amministrativo per** nel livello di accesso.
+
+Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+

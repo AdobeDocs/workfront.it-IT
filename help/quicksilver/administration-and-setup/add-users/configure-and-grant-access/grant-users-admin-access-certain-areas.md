@@ -6,26 +6,21 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 TQID: https://experienceleague.adobe.com/1nXA0NxLQW3tiIrhCKAd5EMfqBjQW68GHNN42dQmptQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 714
 ht-degree: 11%
 
 ---
 
 # Concedere agli utenti l&#39;accesso amministrativo a determinate aree
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +79,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      <tr> 
       <td role="rowheader">Processi di approvazione</td> 
       <td><p>Crea e gestisci i processi di approvazione per l’utilizzo in tutto il sistema e per gruppi specifici.</p><p>Senza questo accesso, gli utenti possono creare solo processi di approvazione ad hoc sugli elementi che hanno accesso da gestire.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Cronologia modifiche</span></td> 
+      <td><p><span class="preview">Visualizzare i registri della cronologia delle modifiche di Workfront in Configurazione &gt; Tracciamento delle modifiche &gt; Elenco cronologia modifiche.</span></p>
+      <p><span class="preview">Senza questo accesso, gli utenti non dispongono di questa opzione nell’area Configura.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aziende</td> 

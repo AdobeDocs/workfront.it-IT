@@ -9,27 +9,21 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 TQID: https://experienceleague.adobe.com/mZG3AgBJta1RtzQAIrXv-3jfkxS67SY-l-jhgeLZFVM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 17%
+source-wordcount: 446
+ht-degree: 15%
 
 ---
 
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
 
@@ -104,6 +98,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Utenti
    * Blueprint
    * In Pianificazione
+   * <span class="preview">Applicazione personalizzata</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l&#39;utilizzo come pagina di destinazione. Devono essere create separatamente prima di diventare disponibili come opzioni del menu principale o della pagina di destinazione. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >

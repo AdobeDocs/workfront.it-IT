@@ -7,21 +7,24 @@ description: La cronologia modifiche consente di visualizzare un registro delle 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ba1843cf6be446a809f9526608a3ae3bef69c494
+source-git-commit: de1f426630b8c99cfaca07dafb9c2de0f16f263f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '737'
+ht-degree: 4%
 
 ---
 
 # Visualizzare e gestire la cronologia delle modifiche
 
+{{preview-fast-release-general}}
+
 Puoi visualizzare la cronologia delle modifiche, inclusi i registri di audit, nell’area Tracciamento delle modifiche di Configurazione.
 
 * **I registri di controllo** sono modifiche attivate dagli utenti.
-Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica sui registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configurazione** visualizza il campo che viene tracciato per l&#39;elenco della cronologia delle modifiche.
-La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+Per ulteriori informazioni sui registri di controllo e sull&#39;area Registri di controllo, vedere [Panoramica dei registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md) e [Visualizzare ed esportare i registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+* **Configurazione** visualizza i campi tracciati per l&#39;elenco della cronologia delle modifiche.
+  <span class="preview">In qualità di amministratore di Workfront, puoi configurare i campi oggetto e le azioni di cui Workfront tiene traccia. Workfront, ad esempio, può tenere traccia di tutte le modifiche apportate dagli utenti ai nomi dei problemi all&#39;interno del sistema. Qualsiasi modifica al nome del problema viene quindi visualizzata come una voce nel registro della cronologia modifiche.</span>
+
 * **Elenco cronologia modifiche** consente di visualizzare un registro delle modifiche apportate agli oggetti di Workfront, inclusi attributi quali:
 
   * Oggetto
@@ -49,7 +52,9 @@ La configurazione è attualmente disponibile solo come informazione e non può e
   </tr> 
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td>Amministratore di sistema</td> 
+   <td><p>Amministratore di sistema</p>
+       <p><span class="preview">Per visualizzare la cronologia modifiche: accesso amministrativo alla cronologia modifiche</span></p>
+       <p><span class="preview">Per configurare i campi tracciati: amministratore di sistema</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,22 +63,55 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Visualizzare e gestire i registri di audit
+<div class="preview">
 
-Per visualizzare e gestire i registri di controllo, vedere [Visualizzare ed esportare i registri di controllo](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+## Aggiungi i campi di cui vuoi tenere traccia
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche > Configurazione**.
+1. Nella schermata Configurazione, fare clic su **Aggiungi campo**.
+1. Nella casella **Aggiungi campi** selezionare un oggetto. È possibile iniziare a digitare il nome dell&#39;oggetto, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Quindi, selezionare i nomi dei campi di cui si desidera tenere traccia per l&#39;oggetto. È possibile digitare il nome del campo e selezionarlo quando viene visualizzato nell&#39;elenco.
+
+   Per l’oggetto sono disponibili sia campi personalizzati che campi nativi.
+   I campi già tracciati vengono visualizzati come selezionati nell’elenco.
+
+   ![Aggiungi campi per rilevamento modifiche](assets/change-history-config-add-fields.png)
+
+1. Dopo aver selezionato tutti i campi da monitorare, fai clic su **Aggiungi**.
+
+   I campi vengono aggiunti all&#39;elenco Campi tracciati.
+
+## Rimuovi i campi che non desideri più tracciare
+
+È possibile rimuovere i campi di cui non si desidera tenere traccia per un particolare tipo di oggetto nell&#39;interfaccia di Workfront.
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche > Configurazione**.
+1. Nella schermata Configuration, seleziona il campo o i campi che desideri interrompere il tracciamento.
+
+   È possibile che lo stesso nome di campo venga visualizzato più volte. I campi sono raggruppati per oggetto, in modo da poter individuare il campo corretto. Puoi anche utilizzare la casella di ricerca nella parte superiore dello schermo.
+
+1. Seleziona **Elimina** nella barra delle azioni nella parte inferiore dello schermo.
+1. Fai clic su **Rimuovi** nel messaggio di conferma.
+
+   I campi vengono rimossi dall&#39;elenco Campi tracciati.
+
+</div>
 
 ## Visualizza l&#39;area di configurazione per il rilevamento delle modifiche
 
 >[!NOTE]
 >
->La configurazione è attualmente disponibile solo come informazione e non può essere modificata. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
+>Nell’ambiente di produzione, Configuration è attualmente disponibile solo come informazione e non può essere modificato. La possibilità di modificare i campi tracciati sarà disponibile nel prossimo futuro.
 
 Per visualizzare i tipi di modifiche tracciate:
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Tracciamento delle revisioni** ![Icona Cronologia modifiche](assets/change-history-icon.png).
-1. Fare clic su **Configurazione**.
+1. Nel pannello a sinistra, fai clic su **Traccia delle revisioni >** Configurazione**.
 
    I campi vengono visualizzati raggruppati per tipo di oggetto.
 
@@ -87,8 +125,7 @@ L&#39;elenco Cronologia modifiche è un elenco avanzato e include filtri, colonn
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Tracciamento delle revisioni** ![Icona Cronologia modifiche](assets/change-history-icon.png).
-1. Fare clic su **Cambia elenco cronologia**.
+1. Nel pannello a sinistra, fai clic su **Tracciamento modifiche > Elenco cronologia modifiche**.
 
    Viene visualizzato l&#39;elenco Cronologia modifiche (Change History List).
 
