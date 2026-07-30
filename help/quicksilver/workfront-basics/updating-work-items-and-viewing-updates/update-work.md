@@ -9,22 +9,15 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
-ht-degree: 3%
+source-wordcount: 3225
+ht-degree: 2%
 
 ---
 
@@ -179,21 +172,21 @@ Old:
 
 * Puoi aggiungere un aggiornamento a progetti, attività e problemi dalle seguenti aree di Workfront:
 
-   * Da un oggetto Workfront, nella sezione Aggiornamenti (per progetti, attività e problemi)
-   * Dall’area Home (per attività e problemi)
+  * Da un oggetto Workfront, nella sezione Aggiornamenti (per progetti, attività e problemi)
+  * Dall’area Home (per attività e problemi)
 
-     Per informazioni, consulta [Gestire il lavoro con il widget Il mio lavoro](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
-   * Dal pannello Riepilogo nelle seguenti aree (per attività, problemi e documenti):
+    Per informazioni, consulta [Gestire il lavoro con il widget Il mio lavoro](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+  * Dal pannello Riepilogo nelle seguenti aree (per attività, problemi e documenti):
 
-      * Un elenco di oggetti
-      * Una scheda orario
-      * Pagina Home
-      * Bilanciamento dei carichi di lavoro
+    * Un elenco di oggetti
+    * Una scheda orario
+    * Pagina Home
+    * Bilanciamento dei carichi di lavoro
 
-     Per ulteriori informazioni, consulta i seguenti articoli:
+    Per ulteriori informazioni, consulta i seguenti articoli:
 
-      * [Panoramica del riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Aggiornare gli elementi di lavoro nel bilanciamento dei carichi di lavoro utilizzando il riepilogo](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [Panoramica del riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Aggiornare gli elementi di lavoro nel bilanciamento dei carichi di lavoro utilizzando il riepilogo](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -451,7 +444,6 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
 
    >[!IMPORTANT]
    >
-   >
    >* Non è possibile aggiungere immagini a obiettivi o schede ad hoc su bacheche.
    >
    >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l&#39;amministratore di Workfront deve abilitare l&#39;aggiunta di immagini nella sezione Preferenze feed di aggiornamento dell&#39;area Interfaccia Workfront. Per informazioni, vedere [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
@@ -462,6 +454,8 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
    >* È possibile inviare un aggiornamento con un’immagine e senza testo.
    >* Quando si elimina un commento che contiene un&#39;immagine, questa viene rimossa sia dalla sezione Aggiornamenti che dall&#39;area Documenti. L&#39;immagine viene eliminata anche dall&#39;area Documenti quando modificate un commento ed eliminate l&#39;immagine.
    >* Quando qualcuno elimina un’immagine allegata a un commento dall’area Documenti, questa viene rimossa anche dal commento.
+   >* Se la tua organizzazione utilizza l’archiviazione cloud di Adobe come parte della revisione e dell’approvazione unificate, l’amministratore di Workfront può abilitare la stessa preferenza per consentire di allegare immagini ai commenti. Sono supportati tutti i formati immagine standard e le immagini associate vengono memorizzate nell’archiviazione cloud Adobe.
+   >* Le immagini allegate ai commenti sugli oggetti che utilizzano l’archiviazione cloud di Adobe non sono accessibili nel visualizzatore Frame.io.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +651,10 @@ Nella sezione Aggiornamenti di un oggetto Workfront vengono visualizzati due tip
 
   I seguenti oggetti non dispongono di aggiornamenti generati dal sistema:
 
-   * Team
-   * Modello
-   * Attività modello
-   * Scheda ad hoc su una bacheca
+  * Team
+  * Modello
+  * Attività modello
+  * Scheda ad hoc su una bacheca
 
 Per ulteriori informazioni sugli aggiornamenti di utenti e sistemi e sulla relativa visualizzazione nella sezione Aggiornamenti degli oggetti di Workfront, vedere [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

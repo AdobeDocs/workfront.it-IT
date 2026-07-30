@@ -11,18 +11,14 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 12%
+source-wordcount: 291
+ht-degree: 11%
 
 ---
 
@@ -96,13 +92,13 @@ Per impostazione predefinita, gli utenti non possono aggiungere immagini negli a
 >
 >* Le immagini salvate negli aggiornamenti vengono conteggiate in base al limite di archiviazione dei documenti. Per informazioni, vedere [Controllare i limiti di archiviazione dei documenti](../../../documents/managing-documents/check-document-storage.md).
 >* Le immagini sono accessibili tramite la scheda [!UICONTROL Aggiornamenti] su un oggetto e sono disponibili anche nell&#39;area [!UICONTROL Documenti] del [!UICONTROL Menu principale].
->
+>* Questa preferenza determina anche se gli utenti possono allegare immagini ai commenti sugli oggetti utilizzando l’archiviazione cloud di Adobe. Le immagini allegate vengono memorizzate nell’archiviazione cloud di Adobe.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Interfaccia]** > **[!UICONTROL Aggiorna feed]**.
 1. Selezionare la scheda **[!UICONTROL Preferenze]**.
 
-   ![Preferenze utente per feed di aggiornamento](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. Selezionare la casella di controllo **[!UICONTROL Consenti agli utenti di aggiungere immagini negli aggiornamenti]**.
 1. Seleziona **[!UICONTROL Salva]**.
