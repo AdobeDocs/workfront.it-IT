@@ -48,7 +48,7 @@ Per ogni riga di dati, verificare se l&#39;URL contiene la sottostringa letteral
 
 Per ogni riga superstite, trovare `/using` nell&#39;URL e mantenere solo la parte da `/` che la segue (inclusa), ignorando tutto ciò che precede e include `/using`.
 
-Esempio: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+Esempio: `https://experienceleague.adobe.com/it/docs/workfront/using/home` → `/home`
 
 Se `/using` non viene trovato nell&#39;URL di una riga Workfront, lasciare invariato tale URL e contrassegnarlo per l&#39;utente anziché indovinarlo.
 
