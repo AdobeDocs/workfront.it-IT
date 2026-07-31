@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Assegna le Attività
-description: È possibile assegnare attività a utenti, ruoli o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un'attività a più risorse contemporaneamente.
+description: È possibile assegnare task a utenti, ruoli, team o collaboratori task per indicare chi è responsabile del completamento dei task. È possibile assegnare un'attività a più risorse contemporaneamente.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
+È possibile assegnare task a utenti, mansioni, team o collaboratori task per indicare chi è responsabile del completamento dei task. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
 >[!TIP]
 >
@@ -65,6 +65,7 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
 * [Panoramica assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Utilizza collaboratori attività](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Modificare più assegnazioni utente in un elenco attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Pianifica una panoramica del progetto](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Esegui una delle operazioni seguenti:
 
-   * Inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+   * Iniziare a digitare il nome di un utente, una mansione, un team o un collaboratore di task che si desidera assegnare, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
      >[!TIP]
      >
@@ -202,7 +203,7 @@ A seconda del campo visibile nella visualizzazione, è possibile assegnare le se
 |---|---|
 | **Assegna a** | Assegna un utente |
 | **Assegnato** | Assegna un utente |
-| **Assegnazioni** | Assegnare utenti, mansioni o team |
+| **Assegnazioni** | Assegnare utenti, mansioni, team o collaboratori attività |
 
 Per assegnare le attività in un elenco:
 
@@ -220,7 +221,7 @@ Per assegnare le attività in un elenco:
 1. Per assegnare le attività, effettuare una delle seguenti operazioni:
 
    * Fai clic all&#39;interno dei campi **Assegnato a** o **Assegnato** e inizia a digitare il nome di un utente attivo che desideri assegnare all&#39;attività, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
-   * Fai clic all&#39;interno del campo **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+   * Fare clic all&#39;interno del campo **Assegnazioni** e iniziare a digitare il nome di un utente attivo, una mansione, un team o un collaboratore di attività che si desidera assegnare all&#39;attività, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
      >[!TIP]
      >
@@ -255,7 +256,7 @@ Per assegnare le attività in un elenco:
 
    Viene visualizzata la casella **Modifica attività**.
 
-1. Nell&#39;area **Assegnazioni**, inizia a digitare il nome di utenti, team o ruoli nel campo **Cerca persone, ruoli o team** fornito, quindi fai clic su di essi quando vengono visualizzati nell&#39;elenco
+1. Nell&#39;area **Assegnazioni**, inizia a digitare il nome di utenti, team, ruoli o collaboratori attività nel campo **Cerca persone, ruoli o team** fornito, quindi fai clic su di essi quando vengono visualizzati nell&#39;elenco
 
    >[!IMPORTANT]
    >
