@@ -1,34 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Collegamento di contenuto e cartelle con Contenuto verificato basato su Experience Manager Assets
-description: È possibile utilizzare Contenuto verificato per collegare contenuto o cartelle da Experience Manager Assets a qualsiasi oggetto di Adobe Workfront che supporti i documenti. Contenuto verificato consente l'individuazione intelligente e basata sul contesto direttamente in Workfront, consentendo di trovare rapidamente contenuti pertinenti e approvati.
+navigation-topic: native-integrations
+title: Collegare contenuti e cartelle da Experience Manager Assets con l’archiviazione cloud Adobe
+description: Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare contenuti e cartelle da Experience Manager Assets a qualsiasi oggetto Adobe Workfront che supporti i documenti.
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: '913'
+ht-degree: 7%
 
 ---
 
-# Collegare contenuto e cartelle con Contenuto verificato di Experience Manager Assets
+# Collegare contenuti e cartelle da Experience Manager Assets con l’archiviazione cloud Adobe
 
-Contenuto verificato consente di eseguire il rilevamento intelligente e in base al contesto direttamente in Workfront, consentendo di trovare rapidamente contenuti pertinenti e approvati in base al contesto. Grazie a funzioni quali suggerimenti avanzati, rappresentazioni Dynamic Media e metadati di risorse dettagliati, consente di valutare e riutilizzare in modo efficiente i contenuti senza uscire da Workfront, accelerando la creazione dei contenuti e mantenendo al contempo la coerenza del marchio.
-
-È possibile utilizzare Contenuto verificato per collegare contenuto e cartelle da Experience Manager Assets a Workfront. Una volta effettuato il collegamento, puoi visualizzare e gestire il contenuto in Workfront; eventuali modifiche apportate al contenuto in Experience Manager Assets verranno applicate anche in Workfront.
+Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare contenuti e cartelle da Experience Manager Assets a Workfront. Una volta effettuato il collegamento, puoi visualizzare e gestire il contenuto in Workfront; eventuali modifiche apportate al contenuto in Experience Manager Assets verranno applicate anche in Workfront.
 
 >[!IMPORTANT]
 >
@@ -54,7 +39,7 @@ Contenuto verificato consente di eseguire il rilevamento intelligente e in base 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
-   <td>Devi disporre di Experience Manager as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente in Admin Console.</td> 
+   <td>Devi disporre di Experience Manager as a Cloud Service e devi essere aggiunto al prodotto come utente in Admin Console.</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Autorizzazioni Experience Manager</td> 
@@ -79,27 +64,20 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 Prima di iniziare:
 
-* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, vedere [Configurare l&#39;integrazione Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * Per utilizzare i suggerimenti avanzati o la funzionalità Brief campagna, è necessario firmare un Rider GenAI. Per ulteriori informazioni, vedere [Utilizzare Contenuto verificato per accedere al contenuto di AEM nelle applicazioni Adobe](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-
-
-## Collegare il contenuto da Experience Manager Assets con Contenuto verificato
-
-È ora possibile utilizzare Contenuto verificato per collegare il contenuto da Experience Manager Assets direttamente in Workfront. Contenuto verificato non è disponibile per Assets Essentials.
+## Collega contenuto da Experience Manager Assets
 
 Per collegare il contenuto:
 
-1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
-1. Seleziona **Aggiungi nuovo**, quindi seleziona l&#39;integrazione Experience Manager configurata dall&#39;amministratore.
-
-   >[!NOTE]
-   >
-   >L’amministratore di Workfront può scegliere qualsiasi nome per questa integrazione, pertanto potrebbe non menzionare specificamente Experience Manager Assets.
+1. Vai all’oggetto Workfront in cui desideri collegare il contenuto.
+1. Fai clic sulla sezione **Documenti** nel pannello a sinistra.
+1. Fai clic su **Nuovo** sul lato destro della pagina, quindi fai clic su **File AEM** per collegare una singola risorsa.
+   ![Aggiungi file AEM all&#39;area documenti](assets/aem-files.png)
 
 1. Contenuto verificato consente di:
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -123,10 +101,12 @@ Per collegare il contenuto:
          <td><strong>Applica modificatori Dynamic Media alle rappresentazioni.</strong> Aggiungi modificatori per trasformare le rappresentazioni delle risorse in tempo reale e visualizzare in anteprima i risultati prima di selezionare una rappresentazione per l’applicazione host.</td>
          <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendering delle risorse Dynamic Media disponibili per l'uso</a>.</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>Individuare e sfogliare i frammenti di contenuto.</strong> Effettua ricerche nei frammenti di contenuto, visualizza anteprime in tempo reale delle miniature, controlla lo stato (Bozza, Modificato o Pubblicato) e controlla proprietà dettagliate, riferimenti e varianti.</td>
-         <td>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Individuazione di frammenti di contenuto</a>.</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>Accedere ai metadati delle risorse.</strong> Rivedi le proprietà della risorsa come titolo, descrizione, formato, dimensione e altre schede di metadati (Prodotto, Campagna, Tag) coerenti con la vista Assets.</td>
          <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Accedere ai metadati delle risorse coerenti con la vista Assets</a>.</td>
@@ -146,56 +126,42 @@ Per collegare il contenuto:
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### Collegare una nuova versione di Experience Manager Assets con Contenuto verificato
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-Puoi richiamare nuovi contenuti da Experience Manager Assets o Assets Essentials e aggiungerli a una risorsa esistente come nuova versione. Se il documento è già collegato e viene aggiunta una nuova versione in Experience Manager Assets o Assets Essentials, la nuova versione viene visualizzata automaticamente in Workfront.
+To link a new version:
 
-Per collegare una nuova versione:
-
-1. Vai all&#39;area **Documenti** in Workfront in cui desideri aggiungere il documento.
-1. Seleziona la risorsa da sostituire con una nuova versione. Non puoi creare una nuova versione di una risorsa in una cartella collegata.
-1. Seleziona **Aggiungi nuovo** > **Versione**, quindi seleziona l&#39;integrazione Experience Manager configurata dall&#39;amministratore.
-
-   >[!NOTE]
-   >
-   >L’amministratore di Workfront può scegliere qualsiasi nome per questa integrazione, pertanto potrebbe non menzionare specificamente Experience Manager Assets.
-
-1. Seleziona il contenuto da collegare:
-
-   * Seleziona la scheda Assets per sfogliare risorse, cartelle o raccolte in Experience Manager Assets o Assets Essentials.
-
-     ![Consulente contenuti](assets/content-advisor-full.png)
-
-   * I frammenti di contenuto non supportano le versioni. Se selezioni un frammento di contenuto, la nuova versione sostituirà il frammento di contenuto esistente invece di creare una nuova versione.
-
-1. Fai clic su **Seleziona**.
-
-## Collegare una cartella da Experience Manager Assets con Contenuto verificato
-
-Le autorizzazioni per visualizzare singole risorse all’interno di una cartella si basano sulle autorizzazioni di Experience Manager Assets.
-
-Per collegare una cartella:
-
-1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire la cartella.
-1. Seleziona **Aggiungi nuovo**, quindi seleziona l&#39;integrazione Experience Manager configurata dall&#39;amministratore.
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >L’amministratore di Workfront può scegliere qualsiasi nome per questa integrazione, pertanto potrebbe non menzionare specificamente Experience Manager Assets.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. Fai clic su **Assets** > **File e cartelle**.
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. Fai clic sull&#39;icona **Filtro**, quindi nella sezione **Tipo risorsa** scegli **Cartelle**.
+<!--
+## Link a folder from Experience Manager Assets
 
-1. Seleziona la cartella da collegare.
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. Fai clic su **Seleziona**.
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## Considerazioni
 
-* La funzionalità Contenuto verificato non è disponibile per gli oggetti che utilizzano l&#39;archiviazione cloud Adobe. Se l’organizzazione utilizza l’archiviazione cloud Adobe, è comunque possibile collegare risorse e cartelle da Experience Manager Assets o Assets Essentials, ma non sarà possibile accedere alle funzioni di Contenuto verificato, ad esempio Ricerche IA, suggerimenti avanzati o rappresentazioni Dynamic Media. Per ulteriori informazioni, consulta [Collegare contenuto e cartelle da Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
-* La funzionalità Contenuto verificato non è disponibile per Assets Essentials. Per collegare risorse e cartelle da Assets Essentials, consulta [Collegare risorse e cartelle da Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
-
+* I flussi di lavoro di revisione e approvazione non sono supportati per le risorse AEM collegate.
 * I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets. Se l&#39;amministratore di Workfront ha attivato la sincronizzazione dei metadati dell&#39;oggetto, i campi rimangono aggiornati se vengono modificati in una delle applicazioni.

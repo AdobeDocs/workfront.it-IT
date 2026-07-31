@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 17%
+source-wordcount: 446
+ht-degree: 15%
 
 ---
 
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
 
@@ -104,6 +106,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Utenti
    * Blueprint
    * In Pianificazione
+   * <span class="preview">Applicazione personalizzata</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l&#39;utilizzo come pagina di destinazione. Devono essere create separatamente prima di diventare disponibili come opzioni del menu principale o della pagina di destinazione. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >

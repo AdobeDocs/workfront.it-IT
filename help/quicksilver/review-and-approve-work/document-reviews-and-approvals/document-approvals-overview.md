@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ Il visualizzatore Frame.io è il visualizzatore predefinito per tutti i flussi d
 Se la tua organizzazione desidera sfruttare le funzionalità Frame.io aggiuntive disponibili con questa integrazione, ad esempio per caricare le risorse direttamente nei progetti in Frame.io, puoi acquistare una licenza Frame.io Enterprise. Contatta il rappresentante del tuo account Adobe per pianificare una demo ed esplorare i vantaggi della soluzione Frame.io completa.
 
 La funzionalità Workfront Proofing non è disponibile con questa integrazione.
+
+## Audit trail completo
+
+<span class="preview">La revisione e l&#39;approvazione unificate includono la registrazione completa dei controlli di audit che crea un percorso di governance completo in Workfront e Frame.io. I registri di tracciamento delle modifiche acquisiscono le decisioni di approvazione prese nel visualizzatore Frame.io e nel ciclo di vita del documento. Ogni voce di registro include l&#39;attribuzione del sistema di origine (Workfront o Frame.io) insieme ai campi di controllo standard di Workfront: data e ora, tipo di registro, nome utente, azione e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi nei registri di controllo.</span>
+
+<span class="preview">I registri di rilevamento delle modifiche vengono visualizzati nell&#39;area Configurazione di Workfront e sono disponibili per l&#39;esportazione. Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia delle modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Potente gestione dei progetti in Workfront
 
@@ -212,7 +218,7 @@ Per accedere alla revisione e all’approvazione unificate, devi utilizzare una 
 
 * Quando ti trovi in una versione di Workfront che supporta l’archiviazione cloud di Adobe, Adobe Professional Services configurerà l’integrazione per la tua organizzazione.
 
-   * Se non sai chi sia il rappresentante del tuo account Adobe, puoi contattare il portale di assistenza Adobe o visitare Experience League per informazioni sulle opzioni di contatto.
+  * Se non sai chi sia il rappresentante del tuo account Adobe, puoi contattare il portale di assistenza Adobe o visitare Experience League per informazioni sulle opzioni di contatto.
 
 +++
 
@@ -360,6 +366,14 @@ Per un elenco completo dei tipi di file supportati, consulta la documentazione s
 **Posso condividere risorse esternamente con soggetti interessati che non hanno accesso a Workfront?**
 
 Sì. Assets può essere condiviso esternamente. Agli utenti esterni viene inviata una notifica tramite e-mail e viene richiesto di creare un accesso Frame.io per accedere al visualizzatore e partecipare alla revisione.
+
+**È possibile allegare immagini ai commenti di un documento in Workfront?**
+
+Se la tua organizzazione utilizza l’archiviazione cloud di Adobe come parte della revisione e dell’approvazione unificate, puoi allegare file di immagine direttamente ai commenti su un documento. Le immagini allegate vengono memorizzate nell’archiviazione cloud di Adobe e sono supportati tutti i formati di file immagine di tipo multimediale.
+
+Questi commenti sono nativi per Workfront e sono distinti dai commenti nel visualizzatore Frame.io. Le immagini allegate a un commento non sono accessibili in Frame.io e il collegamento di un&#39;immagine non aggiunge markup alla risorsa né la indirizza per l&#39;approvazione. I tipi di file non di immagine non possono essere allegati a un commento.
+
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

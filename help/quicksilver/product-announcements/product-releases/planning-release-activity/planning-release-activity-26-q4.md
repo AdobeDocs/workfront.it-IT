@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,48 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Trascinare le righe nella vista tabella
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+L’esperienza di trascinamento e rilascio di righe nella vista tabella è stata migliorata visivamente.
+
+Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Campi record connessi dipendenti
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+Workspace Manager ora può definire le dipendenze tra i tipi di record collegati. Ad esempio, quando si verifica un campo Regione, vengono visualizzati solo i valori associati all’area geografica selezionata. Questa impostazione viene configurata direttamente nella configurazione del campo connessione: quando si aggiunge una connessione da un tipo di record Geo a un tipo di record dipendente (come Area), una nuova impostazione consente ai manager dell’area di lavoro di contrassegnarla come dipendente dal tipo di record Geo, utilizzando le relazioni già stabilite tra tali tipi di record.
+
+Una volta configurato, qualsiasi tipo di record che fa riferimento a entrambi i campi (ad esempio una campagna) vedrà immediatamente l’effetto: la selezione di un valore Geo restringe il selettore Regione solo alle aree effettivamente collegate a tale Geo. In questo modo la struttura dei record viene applicata automaticamente, eliminando combinazioni non corrispondenti e riducendo la pulizia manuale.
+
+Questo aggiornamento include le seguenti funzionalità:
+
+* È stata aggiunta la nuova sezione Impostazioni connessione nella scheda Nuova connessione, durante la connessione dei tipi di record
+* Nella nuova sezione è stata aggiunta l’impostazione Rendi la connessione dipendente
+
+
+Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
+
+
+## Mostra nuovo indicatore di commento per un record nella vista tabella
+
+>[!NOTE]
+>
+>Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+
+È stato aggiunto un nuovo indicatore che indica quando in un record sono presenti commenti non letti. L&#39;indicatore viene visualizzato nell&#39;angolo superiore destro del campo principale del record nella visualizzazione tabella.
+
+Per ulteriori informazioni, vedere [Gestire i commenti dei record](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Personalizzazione del colore del record e codifica a colori basata sulla connessione
 
