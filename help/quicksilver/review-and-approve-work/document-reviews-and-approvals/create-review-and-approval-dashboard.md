@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2563
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
 
-   1. Selezionare **Fase approvazione** > **Scadenza**.
+   1. Seleziona **Fasi di approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**.
    1. Attiva **Imposta data relativa** su **ON**, quindi digita _$$TODAY_ nella casella di testo.
       ![esempio di filtro kpi scaduto](assets/overdue-kpi-filter.png)
@@ -321,13 +321,13 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
 
-   1. Seleziona **Fase di approvazione** > **Partecipanti alla fase di approvazione** > **Data decisione**.
+   1. Seleziona **Fasi di approvazione** > **Partecipanti alla fase di approvazione** > **Data decisione**.
 
    1. Cambia l&#39;operatore in **Is Null**.
       ![esempio filtro grafico revisioni](assets/revision-chart-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
-   1. Seleziona **Fase di approvazione** > **Scadenza**.
+   1. Seleziona **Fasi di approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di o uguale a**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAYem_ nella casella di testo.
       ![Esempio di filtro grafico revisioni](assets/revision-chart-filter-2.png)
@@ -359,7 +359,7 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
 
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella** ![Colonne tabella](assets/drilldown-column.png).
    1. Fare clic su **Aggiungi colonna**.
-   1. Scorri verso il basso e seleziona **Approvazioni documenti** > **Stato**.
+   1. Scorri verso il basso e seleziona **Approvazione documento** > **Stato**.
    1. Aggiungi le seguenti colonne:
 
    <table>
@@ -373,23 +373,23 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
     </tr>
     <tr>
     <td><strong>Versione documento</strong></td>
-    <td>Versione documento &gt; Documento &gt; Versione</td>
+    <td>Versione documento &gt; Documento &gt; Versione corrente &gt; Versione</td>
     </tr>
     <tr>
     <td><strong>Scadenza</strong></td>
-    <td>Approvazione documento &gt; Fase approvazione &gt; Scadenza</td>
+    <td>Approvazione documento &gt; Fasi di approvazione &gt; Scadenza</td>
     </tr>
     <tr>
     <td><strong>Richiesta di</strong></td>
-    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+    <td>Documento Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     <tr>
     <td><strong>Data richiesta</strong></td>
-    <td>Documento Approvazione &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+    <td>Documento Approvazione &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
     </tr>
     <tr>
     <td><strong>Approvatore</strong></td>
-    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
+    <td>Document Approval &gt; Approval Stages &gt; Approval Stage Participants* &gt; Participant User &gt; type <em>Name</em> nella casella di ricerca.</td>
     </tr>
     </table>
 
@@ -427,7 +427,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
-   1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digitare _Nome_ nella casella di ricerca.
+   1. Seleziona **Fasi approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Me (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -473,19 +473,19 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
         </tr>
         <tr>
         <td><strong>Scadenza</strong></td>
-        <td>Documento &gt; Fase di approvazione &gt; Scadenza</td>
+        <td>Documento &gt; Fasi di approvazione &gt; Scadenza</td>
         </tr>
         <tr>
         <td><strong>Richiesta di</strong></td>
-        <td>Documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+        <td>Documento &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
         </tr>
         <tr>
         <td><strong>Data richiesta</strong></td>
-        <td>Documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+        <td>Documento &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
         </tr>
         <tr>
         <td><strong>Approvatore</strong></td>
-        <td>Documento &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Utente partecipante &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+        <td>Documento &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digita <em>Nome</em> nella casella di ricerca.</td>
         </tr>
         </table>
 
@@ -495,7 +495,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
    1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
-   1. Selezionare **Fase approvazione** > **Scadenza**.
+   1. Seleziona **Fasi di approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAY_ nel campo di testo.
       ![esempio di filtro della tabella di approvazione scaduto](assets/overdue-approval.png)
@@ -523,7 +523,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
-   1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digitare _Nome_ nella casella di ricerca.
+   1. Seleziona **Fasi approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -532,7 +532,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
-   1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digitare _Nome_ nella casella di ricerca.
+   1. Seleziona **Fasi approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **I miei altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team a cui sei connesso.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.

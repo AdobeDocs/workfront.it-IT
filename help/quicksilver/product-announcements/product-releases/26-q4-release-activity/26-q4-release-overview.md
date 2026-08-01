@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1305'
 ht-degree: 15%
 
 ---
@@ -53,6 +53,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assegna collaboratori attività IA alle attività in Workfront</a>
+                <p>I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività per completare il lavoro a livello di attività.</p>
+            </td>
+            <td><p>31 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
