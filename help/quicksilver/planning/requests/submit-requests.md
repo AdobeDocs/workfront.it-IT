@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -65,17 +58,26 @@ Per informazioni su come un manager area di lavoro può creare un modulo di rich
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront o flusso di lavoro</p>
-<p>Qualsiasi pacchetto di Workfront Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.</p>
-   </td> </tr>
-  </tr> 
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi programma Workfront Planning acquistato come prodotto standalone</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Qualsiasi</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -94,21 +96,21 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 * In Workfront Planning devono esistere gli elementi seguenti:
 
-   * Un’area di lavoro
-   * Un tipo di record
-   * Modulo di richiesta associato a un tipo di record.
+  * Un’area di lavoro
+  * Un tipo di record
+  * Modulo di richiesta associato a un tipo di record.
 
-     Per informazioni, vedere [Creare un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Per informazioni, vedere [Creare un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 * Il modulo di richiesta deve essere condiviso in modo da potervi accedere. Esistono i seguenti scenari:
 
-   * Internamente, il modulo deve essere condiviso con utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
+  * Internamente, il modulo deve essere condiviso con utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-     Gli utenti di Workfront possono accedere al modulo da un collegamento o trovare il modulo di richiesta nell’area Richieste di Workfront.
+    Gli utenti di Workfront possono accedere al modulo da un collegamento o trovare il modulo di richiesta nell’area Richieste di Workfront.
 
-   * Esternamente, condividendo un collegamento al modulo record con utenti esterni che non dispongono di un account Workfront.
+  * Esternamente, condividendo un collegamento al modulo record con utenti esterni che non dispongono di un account Workfront.
 
-     Gli utenti di Workfront possono anche accedere al collegamento condiviso con persone esterne.
+    Gli utenti di Workfront possono anche accedere al collegamento condiviso con persone esterne.
 
 * Se condiviso con un collegamento, il collegamento al modulo non deve essere scaduto.
 
@@ -121,9 +123,9 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
   Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * I record creati mediante l’invio di moduli di richiesta sono collegati alla richiesta originale. Impossibile rimuovere la connessione.
 * Puoi visualizzare sia i record creati che le richieste utilizzate per crearli nelle seguenti aree:
-   * Area Richieste in Workfront.
-   * In un campo connesso di una pagina del tipo di record in Workfront Planning quando si aggiunge la richiesta come record connesso.
-   * In un campo connesso dell&#39;area Dettagli di un record in Workfront Planning quando si aggiunge la richiesta come record connesso.
+  * Area Richieste in Workfront.
+  * In un campo connesso di una pagina del tipo di record in Workfront Planning quando si aggiunge la richiesta come record connesso.
+  * In un campo connesso dell&#39;area Dettagli di un record in Workfront Planning quando si aggiunge la richiesta come record connesso.
 
   >[!TIP]
   >
@@ -188,12 +190,12 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
      I campi seguenti visualizzano le informazioni sulle richieste e sui record nell&#39;area Richieste e nel widget Richieste personali nella Home:
 
-      * **Oggetto**: nome della richiesta originale aggiunto nell&#39;area Richieste. Impossibile nascondere o rimuovere il campo **Oggetto** dall&#39;elenco delle richieste. Il nome include un collegamento che apre la pagina della richiesta in Planning.
-      * **Oggetto creato**: nome del record creato dalla richiesta visualizzato in Planning. Il nome dell’oggetto creato presenta un collegamento che apre il record creato dalla richiesta.
-      * **Tipo di oggetto**: nome dell&#39;area di lavoro e del tipo di record in cui sono stati creati i record dalla richiesta in Planning.
-      * **Stato**: lo stato dell&#39;oggetto della richiesta. Per ulteriori informazioni sugli stati delle richieste, vedere [Visualizza richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-      * **Modulo di richiesta**: nome del modulo di richiesta associato al tipo di record in Planning.
-      * **Stato oggetto creato**: lo stato del record creato.
+     * **Oggetto**: nome della richiesta originale aggiunto nell&#39;area Richieste. Impossibile nascondere o rimuovere il campo **Oggetto** dall&#39;elenco delle richieste. Il nome include un collegamento che apre la pagina della richiesta in Planning.
+     * **Oggetto creato**: nome del record creato dalla richiesta visualizzato in Planning. Il nome dell’oggetto creato presenta un collegamento che apre il record creato dalla richiesta.
+     * **Tipo di oggetto**: nome dell&#39;area di lavoro e del tipo di record in cui sono stati creati i record dalla richiesta in Planning.
+     * **Stato**: lo stato dell&#39;oggetto della richiesta. Per ulteriori informazioni sugli stati delle richieste, vedere [Visualizza richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+     * **Modulo di richiesta**: nome del modulo di richiesta associato al tipo di record in Planning.
+     * **Stato oggetto creato**: lo stato del record creato.
 
    * Se il modulo di richiesta è stato associato a un&#39;approvazione, la richiesta viene aggiunta all&#39;elenco Richieste nell&#39;area Richieste Workfront e al widget Richieste personali con stato **Revisione in sospeso**. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo che è stato approvato dagli approvatori.
 
@@ -246,7 +248,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
    >  Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

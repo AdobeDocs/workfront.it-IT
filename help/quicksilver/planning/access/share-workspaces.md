@@ -9,20 +9,14 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/joK7ucGML7TB2coCslIa-T2EIocaeCJD5wQMRXRNQ9s
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1055
 ht-degree: 3%
 
 ---
@@ -66,11 +60,21 @@ This article describes how you can share a view with others. For information abo
 <p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
 <p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
- </tr>
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Standard flusso di lavoro</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr>
 
 <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -133,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -174,13 +178,13 @@ Per condividere un’area di lavoro con altri utenti:
 
    * Per gli amministratori di sistema, selezionare una delle opzioni seguenti:
 
-      * **L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita.
-      * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.
+     * **L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita.
+     * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.
 
    * (Condizionale) Se si è un manager dell&#39;area di lavoro con una licenza Standard, è possibile visualizzare una delle selezioni seguenti, ma non è possibile modificarle:
 
-      * **L&#39;accesso è consentito solo agli invitati**. Questa è l&#39;impostazione predefinita.
-      * **Tutti nel sistema possono visualizzare**
+     * **L&#39;accesso è consentito solo agli invitati**. Questa è l&#39;impostazione predefinita.
+     * **Tutti nel sistema possono visualizzare**
 
      È necessario chiedere a un amministratore di sistema di modificare un&#39;autorizzazione globale per un&#39;area di lavoro.
 

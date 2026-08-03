@@ -9,21 +9,14 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 3%
 
 ---
@@ -60,16 +53,28 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront o flusso di lavoro</p> 
-<p>Qualsiasi pacchetto di Workfront Planning</p>
+<p>Qualsiasi pacchetto Workfront o Workflow con un pacchetto Planning</p> 
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
+
+<p><b>NOTA</b></p>
 <p>Un pacchetto Workfront Planning Prime o versione successiva per la creazione di più aree di lavoro alla volta</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
    <p>L’amministratore di sistema può creare più aree di lavoro contemporaneamente utilizzando il bundle di modelli basato su best practice</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -131,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,7 +164,7 @@ Per ulteriori informazioni sulla modifica di un&#39;area di lavoro, vedere [Modi
 
 * Creare più aree di lavoro utilizzando un bundle di modelli per più aree di lavoro basato sulle best practice
 
-  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera &#x200B;](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
+  Per informazioni, vedere la sezione [Creare più aree di lavoro utilizzando un bundle di modelli multisfera ](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) basato su best practice in questo articolo
 
   >[!TIP]
   >
@@ -261,35 +266,35 @@ I modelli inclusi nel bundle contengono aree di lavoro, tipi di record, record, 
 
    * Fai clic su **Crea area di lavoro**, quindi segui la procedura riportata di seguito:
 
-      1. Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
+     1. Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
 
-      1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
-      1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
+     1. Fare clic su **Rivedi configurazione area di lavoro** nell&#39;area **Inizia qui (scelta consigliata)**.
+     1. (Facoltativo) Fai clic su **Anteprima** in uno dei seguenti modelli di area di lavoro predefiniti per aprire la casella Anteprima per ciascun modello:
 
-         * 1.Classificazioni globali e tassonomie
+        * 1.Classificazioni globali e tassonomie
 
-           Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
+          Il modello Classificazioni globali e tassonomie include tutti i tipi di record e i campi che si consiglia di creare nell&#39;ambiente per una corretta implementazione di Workfront Planning.
 
-           In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
-         * 2.Fréscopa Global Marketing
-         * 3.Marketing sociale Fréscopa
-         * 4.Fréscopa Media e PR
-         * 5.Eventi globali di Fréscopa
-         * 6.Leadership della società esecutiva Fréscopa
+          In seguito sarà possibile collegare o importare i tipi di record contenuti in questo modello in altre aree di lavoro create.
+        * 2.Fréscopa Global Marketing
+        * 3.Marketing sociale Fréscopa
+        * 4.Fréscopa Media e PR
+        * 5.Eventi globali di Fréscopa
+        * 6.Leadership della società esecutiva Fréscopa
 
-      1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su **Indietro** per tornare alla casella **Crea area di lavoro** oppure su **Usa modelli** per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
+     1. Dopo aver aperto la casella **Anteprima** per ogni modello di area di lavoro, fare clic su **Indietro** per tornare alla casella **Crea area di lavoro** oppure su **Usa modelli** per utilizzare i modelli inclusi nel bundle e creare aree di lavoro.
 
 
    * Fai clic sulla scheda **Aree di lavoro di esempio**, quindi segui questi passaggi:
 
-      1. Fare clic su uno dei modelli dell&#39;area di lavoro nella scheda per esaminare i tipi di record e i campi di ogni modello. I modelli nelle **aree di lavoro di esempio** sono di sola lettura.
-      1. Fai clic su **Crea da modelli** nell&#39;angolo superiore destro di un modello.
-      1. (Facoltativo) Fai clic su **Anteprima** in uno dei modelli per visualizzare i tipi di record e i relativi campi.
+     1. Fare clic su uno dei modelli dell&#39;area di lavoro nella scheda per esaminare i tipi di record e i campi di ogni modello. I modelli nelle **aree di lavoro di esempio** sono di sola lettura.
+     1. Fai clic su **Crea da modelli** nell&#39;angolo superiore destro di un modello.
+     1. (Facoltativo) Fai clic su **Anteprima** in uno dei modelli per visualizzare i tipi di record e i relativi campi.
 
-         >[!TIP]
-         >
-         >Facendo clic su una scheda del tipo di record in un modello, nel pannello di destra vengono visualizzati i campi del tipo di record.
-      1. Fai clic su **Usa modelli**.
+        >[!TIP]
+        >
+        >Facendo clic su una scheda del tipo di record in un modello, nel pannello di destra vengono visualizzati i campi del tipo di record.
+     1. Fai clic su **Usa modelli**.
 
    Le 6 aree di lavoro vengono create e visualizzate nelle schede **Aree di lavoro** in e **Tutte le aree di lavoro** per gli amministratori di sistema. Tutti gli utenti con licenza Standard visualizzeranno le aree di lavoro nella propria area di lavoro dopo che un amministratore di sistema le avrà create e condivise con loro.
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1847'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,7 @@ In questo articolo viene descritto come spostarsi, creare o modificare una vista
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -60,15 +61,29 @@ In questo articolo viene descritto come spostarsi, creare o modificare una vista
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
+Oppure
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p> Standard per creare ed eliminare viste</p>
-   <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
+   <td><p>Luce flusso di lavoro o superiore</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p> Planning Standard per creare ed eliminare viste</p>
+   <p>Collaboratore Planning o versione successiva per aggiornare gli elementi della vista</p>
+   <p><b>NOTA</b><p>
+   <p>Non tutti i clienti dispongono di licenze di Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 

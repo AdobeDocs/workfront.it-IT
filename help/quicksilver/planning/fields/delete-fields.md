@@ -9,20 +9,14 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: 708
 ht-degree: 2%
 
 ---
@@ -60,23 +54,33 @@ Per informazioni sulla creazione di campi personalizzati in Workfront Planning, 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<li><p>Qualsiasi pacchetto Planning acquistato come pacchetto autonomo</p></li></ul>
 
 <p>Per eliminare campi dai tipi di record globali:</p>
 <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
 Oppure
-<li><p>Tutti i pacchetti Workflow e Planning Prime e Ultimate</p></li></ul>
-
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+<li><p>Tutti i pacchetti Workflow e Planning Prime e Ultimate</p></li>
+Oppure
+<li>Qualsiasi pacchetto Planning Primar e Ultimate acquistato come prodotto standalone</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
@@ -136,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +161,9 @@ Old:
 
   Ad esempio, quando si connettono Campagne a un altro tipo di record denominato Prodotto e si eliminano dalla campagna il campo Collegato al prodotto e il campo di ricerca Stato del prodotto, vengono eliminati i seguenti elementi:
 
-   * Il campo Prodotto connesso dalla campagna
-   * Il campo di ricerca Stato prodotto dalla campagna
-   * Il campo Campaign connesso dal prodotto
+  * Il campo Prodotto connesso dalla campagna
+  * Il campo di ricerca Stato prodotto dalla campagna
+  * Il campo Campaign connesso dal prodotto
 
   Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 

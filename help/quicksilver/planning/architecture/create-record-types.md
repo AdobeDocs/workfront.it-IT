@@ -9,20 +9,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 4%
 
 ---
@@ -61,29 +55,37 @@ Per ulteriori informazioni sui tipi di record, vedere [Panoramica sui tipi di re
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi pacchetto di Workflow e Planning</p>
+<p>Qualsiasi Workfront o flusso di lavoro e un pacchetto Planning</p>
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
 <p><b>NOTA</b></p>
 <p>Per configurare i tipi di record collegabili: </p>
 <ul> 
-<li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
+<li>Un pacchetto Planning Prime o Ultimate acquistato come prodotto standalone</li>
+</ul>
 
 <p>Per configurare i tipi di record globali:</p>
 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
-
-</td> </tr>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li>
+Oppure 
+<li>Un pacchetto Planning Prime o Ultimate acquistato come prodotto standalone</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
@@ -143,7 +145,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +161,27 @@ Old:
 
 * È possibile creare tipi di record in un&#39;area di lavoro nei modi seguenti:
 
-   * Automaticamente:
-      * Quando crei un’area di lavoro utilizzando un modello.
+  * Automaticamente:
+    * Quando crei un’area di lavoro utilizzando un modello.
 
-        Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Quando li importi utilizzando un file CSV o Excel.
+    * Quando li importi utilizzando un file CSV o Excel.
 
-        Per ulteriori informazioni, vedere la sezione [Creare tipi di record importando informazioni da un file CSV o Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) in questo articolo.
+      Per ulteriori informazioni, vedere la sezione [Creare tipi di record importando informazioni da un file CSV o Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) in questo articolo.
 
-     >[!TIP]
-     >
-     >Quando si importa un tipo di record da un file CSV o Excel, è anche possibile importare record e campi.
+    >[!TIP]
+    >
+    >Quando si importa un tipo di record da un file CSV o Excel, è anche possibile importare record e campi.
 
-   * Manualmente:
+  * Manualmente:
 
-      * Da zero.
+    * Da zero.
 
-        Questo articolo descrive come creare tipi di record da zero.
+      Questo articolo descrive come creare tipi di record da zero.
 
-      * Aggiungendoli da un&#39;altra area di lavoro
-Per informazioni, vedere la sezione [Creare tipi di record aggiungendo quelli esistenti da un&#39;altra area di lavoro](#create-record-types-by-adding-existing-ones-from-another-workspace) in questo articolo.
+    * Aggiungendoli da un&#39;altra area di lavoro
+      Per informazioni, vedere la sezione [Creare tipi di record aggiungendo quelli esistenti da un&#39;altra area di lavoro](#create-record-types-by-adding-existing-ones-from-another-workspace) in questo articolo.
 
 
 * È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.
@@ -230,8 +232,8 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
    * Sostituire &quot;Tipo di record senza titolo&quot; con il nome del tipo di record futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descrizione**: aggiungere ulteriori informazioni sul tipo di record.
    * Selezionare un colore e una forma per l&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
-      * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
-      * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona nel campo di ricerca per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
+     * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
+     * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona nel campo di ricerca per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
 1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni per più aree di lavoro** e aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
 
@@ -242,7 +244,7 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 1. Fai clic su **Salva**.
 
    La scheda del tipo di record viene aggiunta alla sezione e all&#39;area di lavoro selezionate.
-Sulla scheda viene visualizzata la descrizione del tipo di record.
+   Sulla scheda viene visualizzata la descrizione del tipo di record.
 
    ![Scheda tipo record con descrizione](assets/record-type-card-with-description.png)
 
