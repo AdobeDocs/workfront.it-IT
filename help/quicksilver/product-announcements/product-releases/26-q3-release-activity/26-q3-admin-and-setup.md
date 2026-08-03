@@ -4,7 +4,7 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Ogni voce include i campi tracciati standard: data e ora, operazione, nome utent
 
 Questa fase del rilevamento delle modifiche non include gli eventi MCP. Questi elementi faranno parte di una versione futura.
 
-Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -142,7 +142,7 @@ Per semplificare la visualizzazione delle modifiche apportate in un elenco centr
 
 In precedenza, i registri di audit erano disponibili ma non coprivano gli oggetti.
 
-Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Nuova preferenza di sistema per convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe
 
