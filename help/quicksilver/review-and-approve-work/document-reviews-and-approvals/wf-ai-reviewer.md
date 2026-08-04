@@ -10,20 +10,14 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +37,7 @@ Qualsiasi utente può aggiungere il revisore dei contenuti a una richiesta di re
 
 * L&#39;istanza di Workfront deve avere le approvazioni unificate abilitate.
 * La tua organizzazione deve disporre di GenStudio Foundation.
-   * Il Visualizzatore contenuti di Workfront fornisce le funzionalità disponibili in GenStudio Foundation per i flussi di lavoro di revisione e approvazione delle risorse. Non è necessario accedere direttamente a GenStudio Foundation per completare il lavoro. L’accesso alle funzionalità di GenStudio Foundation tramite Content Reviewer rientra nei termini del contratto Workfront.
+  * Il Visualizzatore contenuti di Workfront fornisce le funzionalità disponibili in GenStudio Foundation per i flussi di lavoro di revisione e approvazione delle risorse. Non è necessario accedere direttamente a GenStudio Foundation per completare il lavoro. L’accesso alle funzionalità di GenStudio Foundation tramite Content Reviewer rientra nei termini del contratto Workfront.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * Il revisore dei contenuti non è disponibile negli ambienti sandbox.
@@ -83,12 +77,46 @@ Per impostare le linee guida per il marchio, gli amministratori di sistema devon
 Una volta configurato almeno un marchio, gli amministratori di Workfront possono iniziare a creare i revisori dei contenuti nell’area Configurazione. Puoi creare più revisori dei contenuti incentrati su linee guida diverse:
 
 * **Immagine**: questo revisore dei contenuti esaminerà la risorsa in base alle linee guida per il marchio delle immagini impostate in Workfront. [!BADGE Beta]{type=Positive tooltip="Questa funzione è attualmente in versione beta."}
-   * Per abilitare questa funzione, gli amministratori di sistema devono firmare il contratto beta.
+  * Per abilitare questa funzione, gli amministratori di sistema devono firmare il contratto beta.
 * **Voce marchio**: il revisore dei contenuti esaminerà la risorsa in base alle linee guida per la voce marchio impostate in Workfront.
 
 I revisori dei contenuti possono quindi essere assegnati a modelli di approvazione e a singole richieste di revisione e approvazione.
 
 Per ulteriori informazioni, vedere [Configurare i collaboratori IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Cosa valuta il revisore dei contenuti {#what-content-reviewer-evaluates}
+
+Il revisore dei contenuti valuta i contenuti in modo diverso a seconda del tipo di linea guida: Immagine o Voce del marchio.
+
+### Immagine
+
+Il revisore dei contenuti valuta:
+
+* **Composizione**: punto focale, sfondo, ritaglio, cornice creativa
+* **Illuminazione e umore**: uso della luce, della vibrazione, dell&#39;ottimismo
+* **Diversità e inclusione**: rappresentanza delle persone (razza, genere, età, abilità)
+
+Il revisore dei contenuti non valuta:
+
+* **Utilizzo logo**: posizionamento, spazio vuoto, dimensioni, versione corretta del logo
+* **Tavolozza colori**: conformità dei colori del marchio, prevenzione di colori non approvati
+* **Tipografia**: famiglia di caratteri, peso, spaziatura, allineamento
+* **Stile illustrazione**: coerenza con l&#39;approccio illustrativo del brand
+* **Accessibilità**: conformità al contrasto, leggibilità
+
+### Brand Voice
+
+Il revisore dei contenuti valuta:
+
+* **Tono di voce**: conversazionale, chiaro, umano, allineato con la personalità del brand
+* **Linguaggio/formalità**: evitare parole d&#39;ordine, elitismo o formalità eccessive
+* **Messaggistica**: incoraggiamento, onestà, posizionamento responsabile (ad esempio, per argomenti AI)
+
+Il revisore dei contenuti non valuta:
+
+* **Legale/conformità**: utilizzo del marchio, clausole di esclusione di responsabilità, regole di localizzazione
+
+Per istruzioni sulla scrittura di linee guida per il marchio in linea con le valutazioni del revisore dei contenuti, consulta [Creare e gestire marchi per il revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Aggiungi revisori di contenuti per rivedere e approvare le richieste
 
