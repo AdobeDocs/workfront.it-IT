@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale,
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale,
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
+<p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td><p>Standard flusso di lavoro</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
@@ -158,8 +168,8 @@ Si verificano le seguenti situazioni:
 
 * Vengono aggiunte anche le seguenti informazioni dal tipo di record globale esistente:
 
-   * Tutti i campi originali
-   * Tutte le connessioni record
+  * Tutti i campi originali
+  * Tutte le connessioni record
 * Non è possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record dall&#39;area di lavoro secondaria.
 * È possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record in tale area di lavoro, solo nell&#39;area di lavoro originale, se si dispone almeno delle autorizzazioni di visualizzazione per tale area di lavoro.
 * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.

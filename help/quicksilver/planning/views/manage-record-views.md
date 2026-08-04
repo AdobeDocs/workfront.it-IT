@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1394
 ht-degree: 5%
 
 ---
@@ -67,8 +67,8 @@ Dopo aver selezionato un tipo di record nell&#39;area Adobe Workfront Planning, 
 
   Per ulteriori informazioni, consulta i seguenti articoli:
 
-   * [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [Gestire la vista a elenco](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [Gestire la vista a elenco](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
@@ -99,15 +99,29 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
+Oppure
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p> Standard per creare ed eliminare viste</p>
-   <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
+   <td><p>Luce flusso di lavoro o superiore</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p> Planning Standard per creare ed eliminare viste</p>
+   <p>Collaboratore Planning o versione successiva per aggiornare gli elementi della vista</p>
+   <p><b>NOTA</b><p>
+   <p>Non tutti i clienti dispongono di licenze di Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -171,7 +185,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +211,14 @@ Old:
 * Ogni utente può creare un massimo di 100 visualizzazioni. È possibile visualizzare più di 100 visualizzazioni per un tipo di record, ma un utente può creare solo 100 visualizzazioni.
 * Anche se alcuni elementi di visualizzazione possono essere applicati a più viste per lo stesso record, essi sono univoci per ciascuna vista record:
 
-   * Filtro
-   * Ordina (per la vista tabella)
-   * Colori riga (per la vista tabella)
-   * Campi (per la vista tabella)
-   * Raggruppamento (per la vista timeline)
-   * Raggruppamento (per le viste tabella e timeline)
-   * Aspetto della barra (per le visualizzazioni Timeline e Calendario)
-   * Altezza riga (per la tabella e la visualizzazione calendario mensile)
+  * Filtro
+  * Ordina (per la vista tabella)
+  * Colori riga (per la vista tabella)
+  * Campi (per la vista tabella)
+  * Raggruppamento (per la vista timeline)
+  * Raggruppamento (per le viste tabella e timeline)
+  * Aspetto della barra (per le visualizzazioni Timeline e Calendario)
+  * Altezza riga (per la tabella e la visualizzazione calendario mensile)
 
   Ad esempio, quando si crea un filtro in una vista tabella, i risultati del filtro sono visibili solo nella vista selezionata (vista tabella) e non in tutte le viste associate al tipo di record.
 

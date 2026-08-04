@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ La funzionalità Workfront Proofing non è disponibile con questa integrazione.
 
 <span class="preview">La revisione e l&#39;approvazione unificate includono la registrazione completa dei controlli di audit che crea un percorso di governance completo in Workfront e Frame.io. I registri di tracciamento delle modifiche acquisiscono le decisioni di approvazione prese nel visualizzatore Frame.io e nel ciclo di vita del documento. Ogni voce di registro include l&#39;attribuzione del sistema di origine (Workfront o Frame.io) insieme ai campi di controllo standard di Workfront: data e ora, tipo di registro, nome utente, azione e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi nei registri di controllo.</span>
 
-<span class="preview">I registri di rilevamento delle modifiche vengono visualizzati nell&#39;area Configurazione di Workfront e sono disponibili per l&#39;esportazione. Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia delle modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+<span class="preview">I registri di rilevamento delle modifiche vengono visualizzati nell&#39;area Configurazione di Workfront e sono disponibili per l&#39;esportazione. Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia delle modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
 
 ## Potente gestione dei progetti in Workfront
 

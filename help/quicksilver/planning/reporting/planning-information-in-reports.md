@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 23%
+source-wordcount: '255'
+ht-degree: 22%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase.La versione beta non è disponibile nei seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase.
+>La versione beta non è disponibile nei seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
->* Piattaforma Google CloudPer ulteriori informazioni, vedere [Gestione dashboard Canvas: indice articolo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud Platform> Per ulteriori informazioni, consulta [Gestire i dashboard di Canvas: indice articolo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Requisiti di accesso
 
@@ -38,24 +39,33 @@ ht-degree: 23%
 <tr> 
    <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront o flusso di lavoro</p>
-<p>Qualsiasi pacchetto Planning</p>
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p>
+<p><b>NOTA</b></p>
+<p>I report non sono disponibili per i clienti che hanno acquistato Workfront Planning come prodotto standalone</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Standard flusso di lavoro</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
    <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td><p>Visualizza autorizzazioni per un'area di lavoro</a> </p>  
+   <td>
+   <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+   <p>Visualizza autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  
    </td> 
   </tr>  

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1764
 ht-degree: 2%
 
 ---
@@ -69,14 +69,25 @@ Per ulteriori informazioni, consulta:
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
+Oppure
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td>
@@ -144,7 +155,7 @@ Old:
   </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
 </td>
   </tr>
 <tr>

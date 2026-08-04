@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1794
 ht-degree: 4%
 
 ---
@@ -78,10 +78,11 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
+<p>Qualsiasi Workfront o flusso di lavoro e qualsiasi pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
+
+</td> 
    <tr> 
 <td> 
    <p> Prodotti aggiuntivi</p> </td> 
@@ -90,10 +91,21 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
   </tr>
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso di Adobe Workfront</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso a Workfront quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
@@ -122,7 +134,66 @@ Per informazioni sull&#39;accesso ad Adobe Workfront Planning, vedere [Panoramic
 
 Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consulta [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home).
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -309,18 +380,18 @@ Si apre la pagina principale della Pianificazione di Workfront.
 1. Per condividere una visualizzazione o il tipo di record, eseguire le operazioni seguenti:
 
    * Fai clic su **Condividi** nell&#39;angolo superiore destro della pagina del tipo di record, quindi fai clic su una delle seguenti opzioni:
-      * **Condividi il tipo di record**
-Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
-      * **Condividi la visualizzazione corrente**
-Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
-      * **Copia il collegamento di visualizzazione**
-Un collegamento alla visualizzazione viene copiato negli Appunti.
-      * **Esporta la visualizzazione corrente**
-Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+     * **Condividi il tipo di record**
+       Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
+     * **Condividi la visualizzazione corrente**
+       Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+     * **Copia il collegamento di visualizzazione**
+       Un collegamento alla visualizzazione viene copiato negli Appunti.
+     * **Esporta la visualizzazione corrente**
+       Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
-        >[!NOTE]
-        >
-        >Non è possibile rimuovere gli utenti di GenStudio dai tipi di record nell&#39;area di lavoro di GenStudio dopo averli condivisi con tale area di lavoro o con i tipi di record.
+       >[!NOTE]
+       >
+       >Non è possibile rimuovere gli utenti di GenStudio dai tipi di record nell&#39;area di lavoro di GenStudio dopo averli condivisi con tale area di lavoro o con i tipi di record.
 
 1. Per gestire le visualizzazioni del tipo di record, effettuare le seguenti operazioni:
 
@@ -386,9 +457,9 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
      I campi creati dall’area di lavoro di GenStudio sono visibili nelle seguenti aree:
 
-      * Visualizzazioni di Workfront Planning in Workfront Planning
-      * Dettagli dei record di Workfront Planning in Workfront Planning
-      * Dettagli del record GenStudio in GenStudio for Performance Marketing
+     * Visualizzazioni di Workfront Planning in Workfront Planning
+     * Dettagli dei record di Workfront Planning in Workfront Planning
+     * Dettagli del record GenStudio in GenStudio for Performance Marketing
 
      >[!NOTE]
      >
@@ -407,13 +478,13 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
    1. Fai clic sulla scheda **Campaign** nel pannello di destra.
 
       Il nome della campagna connessa alla risorsa viene visualizzato nel campo **Campaign**. Questo campo è di sola lettura.
-Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Campagna** della risorsa in modalità di sola lettura.
+      Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Campagna** della risorsa in modalità di sola lettura.
    1. (Condizionale) Da un frammento di contenuto di AEM connesso nell&#39;area di lavoro di GenStudio in Planning, fai clic sul nome del frammento di contenuto, quindi fai clic sull&#39;icona **Apri in AEM** ![Apri in AEM icona](assets/open-in-aem-icon.png) per aprire il frammento di contenuto in AEM.
    1. Fai clic sull&#39;icona **Home** ![Home in AEM](assets/home-icon-in-aem.png) per passare a un elenco di frammenti di contenuto, quindi fai clic sull&#39;icona **informazioni** ![Informazioni in AEM](assets/info-icon-in-aem.png) a destra del nome del frammento di contenuto.
    1. Fai clic sulla scheda **Metadati** nel pannello di destra.
 
       Il nome della campagna connessa al frammento di contenuto viene visualizzato nel campo **xdm: campaignName**. Questo campo è di sola lettura. <!--tried to log a bug to rename this field-->
-Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Metadati** del frammento di contenuto in modalità di sola lettura.
+      Se la risorsa è anche connessa a una **Area**, **Persona**, **Prodotto** o **Canale** nell&#39;area di lavoro di GenStudio in Planning, i rispettivi campi per questi tipi di record visualizzano i relativi nomi nella scheda **Metadati** del frammento di contenuto in modalità di sola lettura.
 
 1. Passa il puntatore del mouse su un campo nella vista a tabella, quindi fai clic sul menu a discesa per effettuare una delle seguenti operazioni:
 

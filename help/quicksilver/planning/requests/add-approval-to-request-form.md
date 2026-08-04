@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 930
+source-wordcount: 950
 ht-degree: 3%
 
 ---
@@ -60,21 +60,28 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p>
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
-<p>Qualsiasi pacchetto del flusso di lavoro e qualsiasi pacchetto Planning</p>
-
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.</p>
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Standard flusso di lavoro</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e tipo di record</a> </p>  

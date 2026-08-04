@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 2%
+source-wordcount: 931
+ht-degree: 1%
 
 ---
 
@@ -57,13 +57,28 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> <p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Collaboratore o successiva</p>
+   <td><p>Luce flusso di lavoro o superiore</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Planning</p></td> 
+   <td><p>Collaboratore Planning o versione successiva</p>
+
+<p><b>NOTA</b></p>
+   <p> Non tutti i clienti dispongono della licenza Collaboratore di Planning</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -125,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 648
 ht-degree: 4%
 
 ---
@@ -55,29 +55,37 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p>
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
 <p><b>NOTA</b></p>
 <p>Per configurare i tipi di record collegabili: </p>
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
-
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li>
+Oppure
+<li>Qualsiasi pacchetto Planning Prime e Ultimate</li>
+</ul>
 
 <p>Per configurare i tipi di record globali:</p>
 
 <ul> 
-<li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
+<li><p>Qualsiasi pacchetto Workfront con un pacchetto Planning Plus</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
-
-</td> </tr>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li>
+Oppure
+<li>Qualsiasi pacchetto Planning acquistato come prodotto standalone</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Licenze Adobe Workfront e Planning</p></td> 
+   <td><p>Qualsiasi</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -138,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,7 +170,7 @@ Old:
 1. Esegui una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica** o **Impostazioni**
-Oppure
+     Oppure
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Modifica** o **Impostazioni**.
 
    ![Altre opzioni di menu dalla scheda del tipo di record con Impostazioni](assets/more-menu-options-from-record-type-card-with-settings-link.png)
@@ -176,8 +184,8 @@ Oppure
    * Se necessario, modificare il nome del tipo di record. <!--did they add a field label for this?-->
    * **Descrizione**: modificare o aggiungere una descrizione per il tipo di record con ulteriori informazioni.
    * Modificare il colore e la forma dell&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
-      * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record.
-      * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
+     * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record.
+     * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
 1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni per più aree di lavoro** e aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
 

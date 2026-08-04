@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 2%
 
 ---
@@ -84,16 +84,25 @@ Per ulteriori informazioni sui campi di Workfront Planning, vedere [Panoramica c
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
@@ -154,7 +163,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +451,16 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: tipo di formato data che si desidera visualizzare in questo campo. <!--update this casing - submitted bug for it-->
    * Selezionare uno dei formati seguenti:
-      * **Breve**: 6/9/26
-      * **Medium**: 9 giugno 2026
-      * **Lungo** 9 giugno 2026
-      * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
+     * **Breve**: 6/9/26
+     * **Medium**: 9 giugno 2026
+     * **Lungo** 9 giugno 2026
+     * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
 
    * Selezionare una delle opzioni seguenti:
 
-      * **24hr**: ad esempio: 18:00
-      * **12hr**: ad esempio: 6:00 PM
-      * **Mostra lo stesso fuso orario a tutti gli utenti**, quindi seleziona un **fuso orario**: seleziona questa opzione se desideri mostrare lo stesso timestamp per tutte le persone che visualizzano il campo, indipendentemente dal fuso orario dell&#39;utente. Il fuso orario selezionato viene aggiunto all’intestazione della colonna per questo campo.
+     * **24ore**: ad esempio: 18:00
+     * **12hr**: ad esempio: 18:00
+     * **Mostra lo stesso fuso orario a tutti gli utenti**, quindi seleziona un **fuso orario**: seleziona questa opzione se desideri mostrare lo stesso timestamp per tutte le persone che visualizzano il campo, indipendentemente dal fuso orario dell&#39;utente. Il fuso orario selezionato viene aggiunto all’intestazione della colonna per questo campo.
 
 1. Fai clic su **Crea**.
 
@@ -514,9 +523,9 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
      >Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
 
    * **Mostra come**: dal menu a discesa, scegliere come visualizzare i valori percentuali nella vista tabella. Selezionare una delle opzioni seguenti:
-      * **Numero**: il valore percentuale viene visualizzato come numero seguito dal segno percentuale.
-      * **Barra**: il valore percentuale viene visualizzato come una barra accanto al numero percentuale. Il colore di riempimento della barra indica il valore percentuale. Questa è la selezione predefinita.
-      * **Cerchio**: il valore percentuale viene visualizzato come contorno di un cerchio accanto al numero percentuale. Il colore di riempimento del contorno del cerchio indica il valore percentuale.
+     * **Numero**: il valore percentuale viene visualizzato come numero seguito dal segno percentuale.
+     * **Barra**: il valore percentuale viene visualizzato come una barra accanto al numero percentuale. Il colore di riempimento della barra indica il valore percentuale. Questa è la selezione predefinita.
+     * **Cerchio**: il valore percentuale viene visualizzato come contorno di un cerchio accanto al numero percentuale. Il colore di riempimento del contorno del cerchio indica il valore percentuale.
 
    >[!NOTE]
    >
@@ -720,17 +729,17 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: selezionare uno dei formati seguenti:
 
-      * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
-      * **Standard**: 05/16/2023
-      * **Lungo**: 16 maggio 2023
-      * **Europeo**: 16/05/2023
-      * **ISO**: 16/05/2023
+     * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
+     * **Standard**: 05/16/2023
+     * **Lungo**: 16 maggio 2023
+     * **Europeo**: 16/05/2023
+     * **ISO**: 16/05/2023
    * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
 
      Selezionare una delle opzioni seguenti:
 
-      * **24hr**: ad esempio: 18:00
-      * **12hr**: ad esempio: 6:00 PM
+     * **24ore**: ad esempio: 18:00
+     * **12hr**: ad esempio: 18:00
 
 1. Fai clic su **Crea**.
 
@@ -769,17 +778,17 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: selezionare uno dei formati seguenti:
 
-      * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
-      * **Standard**: 05/16/2023
-      * **Lungo**: 16 maggio 2023
-      * **Europeo**: 16/05/2023
-      * **ISO**: 16/05/2023
+     * **Impostazioni locali**: corrisponde alle impostazioni locali del browser.
+     * **Standard**: 05/16/2023
+     * **Lungo**: 16 maggio 2023
+     * **Europeo**: 16/05/2023
+     * **ISO**: 16/05/2023
    * **Ora di inclusione**: selezionare questa opzione se si desidera includere un indicatore orario. Questa opzione è deselezionata per impostazione predefinita. Non è possibile includere un&#39;ora dopo il salvataggio del campo.
 
      Selezionare una delle opzioni seguenti:
 
-      * **24hr**: ad esempio: 18:00
-      * **12hr**: ad esempio: 6:00 PM
+     * **24ore**: ad esempio: 18:00
+     * **12hr**: ad esempio: 18:00
 
 1. Fai clic su **Crea**.
 

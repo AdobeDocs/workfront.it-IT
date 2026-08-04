@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 7%
+source-wordcount: 533
+ht-degree: 6%
 
 ---
 
@@ -41,6 +41,8 @@ no longer needed:
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 -->
+
+{{planning-important-intro}}
 
 È possibile richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro quando qualcuno condivide con te un collegamento alla visualizzazione o all&#39;area di lavoro a cui non hai accesso.
 
@@ -63,26 +65,32 @@ Per informazioni sulla concessione di autorizzazioni per visualizzazioni e aree 
 </col> 
 <col> 
 </col> 
-<tbody> 
-    <tr> 
+<tbody>
+
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
-<p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
- </tr>
-
-<tr> 
+<p>Qualsiasi programma Workfront Planning acquistato come prodotto standalone</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Qualsiasi</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>
+
+
 <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  <p>Dopo aver concesso la richiesta di autorizzazione, puoi ottenere le seguenti autorizzazioni:</p>
@@ -150,7 +158,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

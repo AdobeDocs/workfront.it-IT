@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 5%
@@ -129,7 +129,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +153,21 @@ Old:
 * È possibile fare riferimento solo ai campi visualizzati nella visualizzazione tabella di un tipo di record o nella pagina dei dettagli del record.
 * È possibile definire il formato per il valore di un calcolo di formula scegliendo tra le opzioni di formato riportate di seguito.
 
-   * Testo
-   * Numero
-   * Percentuale
-   * Valuta
-   * Tag
-   * Data
+  * Testo
+  * Numero
+  * Percentuale
+  * Valuta
+  * Tag
+  * Data
 
   Per ulteriori informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 * È possibile fare riferimento ai campi formula nelle nuove formule. Una volta aggiornato il valore in un campo a cui si fa riferimento in un campo formula, tutti i campi successivi che fanno riferimento a tale campo o ai campi formula che contengono tale campo verranno aggiornati automaticamente.
 
 * Quando si aggiorna un campo formula o un campo che potrebbe influire su di esso, un avviso notifica l&#39;impatto della modifica. L’avviso viene visualizzato nei seguenti casi:
 
-   * Quando si aggiorna un campo formula (escluse le modifiche di nome e descrizione) quando tale campo include una formula dipendente o campi di ricerca. L&#39;avviso elenca i campi dipendenti e richiede se si desidera continuare.
+  * Quando si aggiorna un campo formula (escluse le modifiche di nome e descrizione) quando tale campo include una formula dipendente o campi di ricerca. L&#39;avviso elenca i campi dipendenti e richiede se si desidera continuare.
 
-   * Quando si elimina un campo utilizzato in un&#39;espressione di formula o come campo di ricerca. L&#39;avviso elenca la formula dipendente e i campi di ricerca e richiede se si desidera continuare con l&#39;eliminazione.
+  * Quando si elimina un campo utilizzato in un&#39;espressione di formula o come campo di ricerca. L&#39;avviso elenca la formula dipendente e i campi di ricerca e richiede se si desidera continuare con l&#39;eliminazione.
 
 ## Limitazioni dei campi formula
 
@@ -178,13 +178,13 @@ Old:
 * L&#39;espressione della formula non può superare i 50.000 caratteri.
 
 * I campi formula potrebbero essere visualizzati come `#ERROR!` nei casi seguenti:
-   * Quando un campo utilizzato in una formula viene eliminato.
-   * Quando un campo utilizzato in un campo di ricerca aggregato viene visualizzato come `#ERROR!`.
+  * Quando un campo utilizzato in una formula viene eliminato.
+  * Quando un campo utilizzato in un campo di ricerca aggregato viene visualizzato come `#ERROR!`.
 
-     Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
-   * Quando non è possibile visualizzare un valore di formula nel formato selezionato.
+    Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
+  * Quando non è possibile visualizzare un valore di formula nel formato selezionato.
 
-     Se ad esempio si seleziona Numero per il formato di un campo formula e i campi utilizzati nella formula sono campi di testo che visualizzano solo valori di testo non numerici, il risultato della formula verrà visualizzato come `#ERROR!`, perché non è possibile analizzare il testo in un numero.
+    Se ad esempio si seleziona Numero per il formato di un campo formula e i campi utilizzati nella formula sono campi di testo che visualizzano solo valori di testo non numerici, il risultato della formula verrà visualizzato come `#ERROR!`, perché non è possibile analizzare il testo in un numero.
 
 
 ## Formule supportate

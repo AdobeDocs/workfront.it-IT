@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +50,9 @@ In Adobe Workfront Planning è possibile modificare le autorizzazioni delle pers
 
   Per ulteriori informazioni, consulta i seguenti articoli:
 
-   * [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Condividere un tipo di record](/help/quicksilver/planning/access/share-record-types.md)
+  * [Condividere un tipo di record](/help/quicksilver/planning/access/share-record-types.md)
 
 * Condividi un singolo record o condividi più record in blocco utilizzando l&#39;opzione **Condividi**.
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p> 
 Oppure
 <p>Qualsiasi pacchetto di prodotti Workfront Planning come unità autonoma</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
-   <p><b>NOTA</b></p>
-   <p>Solo le persone con una licenza Standard possono ottenere le autorizzazioni di gestione per i record. Tutte le altre licenze possono disporre solo delle autorizzazioni di visualizzazione e l’opzione Gestisci non è attiva.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Qualsiasi</p> 
+<p><b>NOTA</b></p>
+   <p>Solo gli utenti con una licenza Planning Standard possono disporre delle autorizzazioni di gestione per i record. Tutte le altre licenze possono disporre solo delle autorizzazioni di visualizzazione e l’opzione Gestisci non è attiva.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * Puoi condividere i record con le seguenti entità: persone, gruppi, team, aziende o mansioni.
 * Esistono le seguenti limitazioni:
 
-   * Impossibile condividere più di 100 record alla volta.
-   * Impossibile condividere record con più di 100 entità.
+  * Impossibile condividere più di 100 record alla volta.
+  * Impossibile condividere record con più di 100 entità.
 * Se si limitano le autorizzazioni a un record, gli utenti non visualizzano più il record e i valori dei relativi campi di ricerca in qualsiasi punto del sistema in cui viene visualizzato il record.
 * Workfront controlla le autorizzazioni dei record nelle connessioni fino a 5 record in profondità, garantendo agli utenti di visualizzare solo i record condivisi con loro.
 * È possibile concedere a un record i livelli di autorizzazione seguenti:
 
-   * Visualizzazione
-   * Gestione
+  * Visualizzazione
+  * Gestione
 * Per impostazione predefinita, quando si condivide un&#39;area di lavoro e un tipo di record con gli utenti, questi ultimi ricevono anche le stesse autorizzazioni per i record nell&#39;area di lavoro.
 Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di lavoro o un tipo di record, ricevono le autorizzazioni Manage (Gestione) per i record di quel tipo.
 * Quando rimuovi un’entità da un’area di lavoro, tutte le autorizzazioni di condivisione vengono rimosse dai tipi di record e da tutti i record in essa contenuti.
@@ -135,13 +145,13 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
   Se si condivide un record con un utente che non si trova nell&#39;area di lavoro, questi verranno aggiunti automaticamente all&#39;area di lavoro.
 * L’accesso di un utente al record è determinato dalla combinazione delle tre impostazioni seguenti:
 
-   * Le relative autorizzazioni ereditate dal tipo di record e dall’area di lavoro
-   * Autorizzazioni aggiunte singolarmente nella casella di condivisione dei record
-   * L&#39;impostazione **Everyone nell&#39;area di lavoro può visualizzare**.
+  * Le relative autorizzazioni ereditate dal tipo di record e dall’area di lavoro
+  * Autorizzazioni aggiunte singolarmente nella casella di condivisione dei record
+  * L&#39;impostazione **Everyone nell&#39;area di lavoro può visualizzare**.
 
-     In questo modo il record sarà visibile a tutti gli utenti dell&#39;area di lavoro
+    In questo modo il record sarà visibile a tutti gli utenti dell&#39;area di lavoro
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
 
   Ad esempio:
 
-   * Se dispongono delle autorizzazioni di visualizzazione per il tipo di record, ottengono le autorizzazioni di visualizzazione per il record
-   * Se dispongono delle autorizzazioni Contribuisci o Gestisci per il tipo di record, ottengono le autorizzazioni Gestione per il record
+  * Se dispongono delle autorizzazioni di visualizzazione per il tipo di record, ottengono le autorizzazioni di visualizzazione per il record
+  * Se dispongono delle autorizzazioni Contribuisci o Gestisci per il tipo di record, ottengono le autorizzazioni Gestione per il record
 
 * Quando un utente dispone delle autorizzazioni Gestisci o Contribuisci per l’area di lavoro e il tipo di record e li aggiungi alle autorizzazioni del record, le autorizzazioni Visualizza vengono disattivate. Mantengono le stesse autorizzazioni del record di quelle del tipo di record e non è possibile concedere loro autorizzazioni inferiori.
 

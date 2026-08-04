@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 2%
 
 ---
@@ -60,20 +60,28 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p>
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
-<p>Qualsiasi pacchetto del flusso di lavoro e qualsiasi pacchetto Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.</p>
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Standard flusso di lavoro</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro o un tipo di record</a> </p>  
@@ -94,27 +102,27 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 * Di seguito sono riportate le limitazioni relative alla visualizzazione di determinati campi nei moduli di richiesta, nei record creati da un modulo di richiesta o nella pagina dei dettagli della richiesta:
 
-   * Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
+  * Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
 
-      * Creato da, Ultima modifica da, Approvato da
-      * Data di creazione, Data ultima modifica, Data approvazione
-      * ID record
-      * Campi di ricerca di oggetti Workfront
-      * Campi di ricerca dei record connessi di Workfront Planning
+    * Creato da, Ultima modifica da, Approvato da
+    * Data di creazione, Data ultima modifica, Data approvazione
+    * ID record
+    * Campi di ricerca di oggetti Workfront
+    * Campi di ricerca dei record connessi di Workfront Planning
 
 * Di seguito sono riportate le differenze tra la visualizzazione dei formati dei campi nel generatore di moduli di richiesta e la formattazione dei valori dei campi nel record o nella pagina dei dettagli della richiesta:
 
-   * I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola nel generatore di moduli.
+  * I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola nel generatore di moduli.
 
-     Tuttavia, il formato del campo viene mantenuto e i valori del campo vengono visualizzati come valuta, numeri e percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
+    Tuttavia, il formato del campo viene mantenuto e i valori del campo vengono visualizzati come valuta, numeri e percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
 
 * Di seguito viene descritto come alcuni valori di campo vengono visualizzati nei moduli di richiesta e nelle pagine dei dettagli della richiesta:
 
-   * La formattazione speciale per i campi Valuta, Numero e Percentuale non viene mantenuta. Ad esempio, la precisione decimale non viene mantenuta per i valori di questi campi in queste aree.
-   * I valori dei campi Persone vengono visualizzati come ID.
-   * I campi formula che non fanno riferimento ad altri campi o calcoli non visualizzano alcun valore. Ad esempio, un campo con una formula `STRING` visualizza un valore &quot;N/D&quot;.
-   * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
-   * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
+  * La formattazione speciale per i campi Valuta, Numero e Percentuale non viene mantenuta. Ad esempio, la precisione decimale non viene mantenuta per i valori di questi campi in queste aree.
+  * I valori dei campi Persone vengono visualizzati come ID.
+  * I campi formula che non fanno riferimento ad altri campi o calcoli non visualizzano alcun valore. Ad esempio, un campo con una formula `STRING` visualizza un valore &quot;N/D&quot;.
+  * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
+  * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
 
 ## Creare un modulo di richiesta
 
@@ -124,7 +132,7 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
 * Configura le impostazioni del modulo per aggiungere approvazioni e opzioni di completamento per le richieste future
 * Pubblica modulo
 
-### Aggiungi un nuovo modulo
+### Aggiungere un nuovo modulo
 
 {{step1-to-planning}}
 

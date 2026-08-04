@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 7%
+source-wordcount: 588
+ht-degree: 6%
 
 ---
 
@@ -59,13 +59,26 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> <p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+<p>Qualsiasi Workfront o flusso di lavoro e un pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Collaboratore o successiva</p>
+   <td><p>Luce flusso di lavoro o superiore</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Collaboratore Planning o versione successiva</p>
+   <p><b>NOTA</b></p>
+   <p>Non tutti i clienti dispongono di una licenza Collaboratore Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
 * Workfront Planning registra le seguenti informazioni nella sezione Cronologia:
 
-   * Qualsiasi modifica apportata ai campi
+  * Qualsiasi modifica apportata ai campi
 
-   * I vecchi e i nuovi valori dei campi, quando i valori cambiano. I vecchi valori vengono visualizzati in formato barrato.
+  * I vecchi e i nuovi valori dei campi, quando i valori cambiano. I vecchi valori vengono visualizzati in formato barrato.
 
-   * Nome completo dell&#39;utente che ha apportato la modifica
+  * Nome completo dell&#39;utente che ha apportato la modifica
 
-   * Indicatore di data e ora in cui è avvenuta la modifica.
+  * Indicatore di data e ora in cui è avvenuta la modifica.
 
 * I campi dei tipi seguenti visualizzano sempre il valore precedente (in formato barrato) e il nuovo valore:
 
-   * Testo
-   * Paragrafo
-   * Valuta
-   * Data
-   * Numero
-   * Percentuale
-   * Selezione singola
+  * Testo
+  * Paragrafo
+  * Valuta
+  * Data
+  * Numero
+  * Percentuale
+  * Selezione singola
 
 * I campi dei tipi seguenti mostrano il valore precedente in formato barrato solo se è stato rimosso almeno uno dei valori multipli:
 
-   * Selezione multipla
-   * Campi record collegati
-   * People
+  * Selezione multipla
+  * Campi record collegati
+  * People
 
   Se la modifica ha aggiunto solo valori al campo, il valore precedente non viene visualizzato e viene visualizzato solo il nuovo valore del campo.
 
@@ -204,11 +217,11 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
 * Le modifiche ai campi dei tipi seguenti non vengono visualizzate nella sezione Cronologia:
 
-   * Campi collegati (ricerca)
-   * Formula
-   * Creato da
-   * Data creazione
-   * Ultima modifica eseguita da
-   * Data ultima modifica
+  * Campi collegati (ricerca)
+  * Formula
+  * Creato da
+  * Data creazione
+  * Ultima modifica eseguita da
+  * Data ultima modifica
 
 * Se un campo viene rimosso dal sistema, gli aggiornamenti apportati a tale campo rimangono nella sezione Cronologia. Non vi è alcuna indicazione che il campo sia stato rimosso nella sezione Cronologia di un record.

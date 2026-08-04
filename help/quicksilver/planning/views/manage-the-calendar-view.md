@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: 1917
 ht-degree: 5%
 
 ---
@@ -54,15 +54,29 @@ Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come ges
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
+Oppure
+<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p> Standard per creare ed eliminare viste</p>
-   <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
+   <td><p>Luce flusso di lavoro o superiore</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p> Planning Standard per creare ed eliminare viste</p>
+   <p>Collaboratore Planning o versione successiva per aggiornare gli elementi della vista</p>
+   <p><b>NOTA</b><p>
+   <p>Non tutti i clienti dispongono di licenze di Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
@@ -71,9 +85,8 @@ Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come ges
   </tr>
 
 </tbody> 
-</table>
-
-Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table> 
+Per ulteriori informazioni sui requisiti di accesso per Workfront, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -124,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

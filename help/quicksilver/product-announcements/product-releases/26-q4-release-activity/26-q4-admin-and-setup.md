@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Ora vengono tracciate le azioni di approvazione, staging e partecipante. Tali az
 
 Ogni voce include i campi tracciati standard: data e ora, operazione, nome utente (o &quot;generato dal sistema&quot;) e nome oggetto. Vengono acquisite le attività MCP, tra cui LLM (come Claude) che ha effettuato l’aggiornamento. I commenti del visualizzatore Frame.io non sono inclusi.
 
-Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definire un’applicazione personalizzata come pagina di destinazione nel modello di layout
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, vedere [Personalizzare la pagina di destinazione uti
 
 In precedenza, la schermata Configuration per la definizione dei campi tracciati era di sola visualizzazione.
 
-Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Configurare i campi per tenere traccia della cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Accesso amministrativo alla cronologia modifiche aggiunta ai livelli di accesso
 
@@ -117,6 +117,6 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 Nel livello di accesso Standard è ora possibile definire se gli utenti con tale livello devono avere accesso all&#39;elenco Cronologia modifiche. L&#39;opzione **Cambia cronologia** è disponibile nella sezione **Consenti accesso amministrativo per** nel livello di accesso.
 
-Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 

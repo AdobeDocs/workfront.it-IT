@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 3%
 
 ---
@@ -57,16 +57,26 @@ Per ulteriori informazioni sulla creazione di record, vedere [Crea record](/help
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto Workfront e Planning</p> <p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+<p>Qualsiasi Workfront o flusso di lavoro e un pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Standard flusso di lavoro</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si importano i record. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * Ogni riga di ogni foglio diventa un record univoco associato.
 * Se il file di Excel contiene più fogli, vengono importate solo le informazioni di un foglio selezionate durante il processo di importazione.
 * Il file non deve superare i seguenti valori:
-   * 25.000 righe
-   * 500 colonne
+  * 25.000 righe
+  * 500 colonne
 * Il file non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * Campi di connessione ai tipi di oggetto Workfront e Adobe Experience Manager. È possibile eseguire il mapping solo dei campi di connessione ai tipi di record di Planning.
-   * Campi di ricerca da record di Planning o oggetti Workfront e Adobe Experience Manager connessi
-   * Campi formula
-   * Data di creazione, Creato da
-   * Data ultima modifica, Autore ultima modifica
-   * Data di approvazione, Approvato da
-   * People
-   * ID record
-   * Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione. Solo gli utenti con le autorizzazioni di gestione per l&#39;area di lavoro possono importare nuove scelte.
+  * Campi di connessione ai tipi di oggetto Workfront e Adobe Experience Manager. È possibile eseguire il mapping solo dei campi di connessione ai tipi di record di Planning.
+  * Campi di ricerca da record di Planning o oggetti Workfront e Adobe Experience Manager connessi
+  * Campi formula
+  * Data di creazione, Creato da
+  * Data ultima modifica, Autore ultima modifica
+  * Data di approvazione, Approvato da
+  * People
+  * ID record
+  * Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione. Solo gli utenti con le autorizzazioni di gestione per l&#39;area di lavoro possono importare nuove scelte.
 
 ## Creare record importando un file CSV o Excel
 
