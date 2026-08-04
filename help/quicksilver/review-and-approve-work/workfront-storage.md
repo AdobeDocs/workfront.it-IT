@@ -6,9 +6,9 @@ description: Pianifica il rollout di Workfront sull’archiviazione cloud Adobe.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,20 @@ La nuova area Documenti, il visualizzatore Frame.io e altri comportamenti di arc
 
 Questo articolo è destinato agli amministratori di Workfront che si preparano a eseguire il rollout di Workfront sull’archiviazione cloud Adobe. Vengono illustrate le principali differenze sugli oggetti di archiviazione cloud di Adobe, come scegliere il tipo di rollout e cosa pensare prima di abilitare l’archiviazione cloud di Adobe per i tuoi utenti.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* È necessaria una versione di Workfront che supporti l’archiviazione cloud di Adobe. Se la tua organizzazione non utilizza già una versione supportata, contatta il rappresentante del tuo account Adobe.
->* Se si passa a una versione di Workfront che supporta l&#39;archiviazione cloud di Adobe, *tutti* i flussi di lavoro di approvazione esistenti verranno spostati da Approvazioni documenti precedenti a Approvazioni unificate. Per ulteriori informazioni, vedere [Approvazioni unificate valide indipendentemente dal modello di archiviazione](#unified-approvals-applies-regardless-of-storage-model).
 
 ## Le approvazioni unificate si applicano indipendentemente dal modello di storage
 
-Se si passa a una versione di Workfront che supporta l’archiviazione cloud di Adobe, vengono spostati *tutti* i flussi di lavoro di approvazione esistenti dalle approvazioni dei documenti precedenti alle approvazioni unificate per ogni oggetto, indipendentemente dal fatto che si trovi nell’archiviazione Workfront legacy o si passi all’archiviazione cloud di Adobe. Questa opzione è diversa dalle scelte di rollout dell&#39;archiviazione descritte in [Scegliere la modalità di rollout dell&#39;archiviazione cloud di Adobe](#choose-how-adobe-cloud-storage-rolls-out): tali scelte controllano il modello di archiviazione utilizzato dai nuovi oggetti e non se i flussi di lavoro di approvazione passano alle approvazioni unificate. Non esiste un gruppo pilota o un&#39;opzione graduale per questa modifica, che viene applicata a livello di organizzazione non appena si utilizza una versione supportata.
+Se si passa a una versione di Workfront che supporta l’archiviazione cloud di Adobe, vengono spostati *tutti* i flussi di lavoro di approvazione esistenti dalle approvazioni dei documenti precedenti alle approvazioni unificate per ogni oggetto, indipendentemente dal fatto che si trovi nell’archiviazione Workfront legacy o si passi all’archiviazione cloud di Adobe.
+
+
+>[!IMPORTANT]
+>
+>Questa opzione è diversa dalle scelte di rollout dell&#39;archiviazione descritte in [Scegliere la modalità di rollout dell&#39;archiviazione cloud di Adobe](#choose-how-adobe-cloud-storage-rolls-out): tali scelte controllano il modello di archiviazione utilizzato dai nuovi oggetti e non se i flussi di lavoro di approvazione passano alle approvazioni unificate.<br>
+>Non esiste un gruppo pilota o un&#39;opzione graduale per questa modifica, che viene applicata a livello di organizzazione non appena si utilizza una versione supportata.
+
 
 Prima di implementare l’archiviazione cloud di Adobe, assicurati che gli utenti che gestiscono le approvazioni sappiano cosa aspettarsi:
 
@@ -242,11 +248,13 @@ Decidi in che modo l’archiviazione cloud di Adobe viene visualizzata dagli ute
 
 Per istruzioni dettagliate, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Opzioni di configurazione
+
 * **Solo archiviazione cloud Adobe**: per impostazione predefinita, i nuovi progetti utilizzano l&#39;archiviazione cloud Adobe. Gli utenti non possono creare progetti legacy.
 * **Archiviazione cloud Adobe e archiviazione Workfront legacy**: quando gli utenti creano un progetto, scelgono tra l&#39;archiviazione cloud Adobe (con etichetta &quot;Nuovo progetto&quot;) e l&#39;archiviazione Workfront legacy (con etichetta &quot;Archiviazione legacy&quot;).
 
   ![scegli un tipo di progetto](assets/choose-project-type.png)
-
 
 
 >[!TIP]
