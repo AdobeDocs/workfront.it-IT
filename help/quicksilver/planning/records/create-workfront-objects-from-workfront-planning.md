@@ -9,21 +9,14 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 4%
 
 ---
@@ -106,8 +99,16 @@ Per informazioni sulla connessione dei record di Planning con gli oggetti di Wor
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
 <li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>Prodotto</p></td> 
+   <td><p>Se l'organizzazione ha acquistato Workfront Planning come prodotto standalone, è necessario acquistare anche un pacchetto Workflow per creare oggetti Workfront da Planning.</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard flusso di lavoro</p>
    </td> 

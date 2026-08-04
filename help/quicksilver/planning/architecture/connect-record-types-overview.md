@@ -7,21 +7,13 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 2304
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -36,11 +28,18 @@ ht-degree: 2%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
 
+{{planning-important-intro}}
+
 È possibile indicare che i singoli tipi di record sono correlati tra loro o a oggetti di altre applicazioni collegandoli.
 
 Questo articolo offre una panoramica delle connessioni dei tipi di record e descrive i tipi di connessioni che è possibile stabilire tra tipi di record e tipi di oggetto.
 
 Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+>[!IMPORTANT]
+>
+>Quando si collegano tipi di record di Planning a tipi di oggetto di altre applicazioni, è necessario disporre di una licenza e di un account per tali applicazioni.
+
 
 ## Considerazioni sulla connessione dei tipi di record
 
@@ -48,8 +47,8 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
   È possibile collegare tra loro tipi di record e tipi di oggetto nei modi seguenti:
 
-   * Manualmente
-   * Automaticamente
+  * Manualmente
+  * Automaticamente
 
   >[!NOTE]
   >
@@ -57,133 +56,134 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
 * È possibile aggiungere manualmente un campo Nuova connessione da un tipo di record per connettere le seguenti entità in Workfront Planning:
 
-   * Due tipi di record
+  * Due tipi di record
 
-     Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare i tipi di record per la connessione con i tipi di record di altre aree di lavoro, se l&#39;organizzazione ha acquistato un pacchetto Workfront o Planning di livello superiore. Per ulteriori informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Un tipo di record e i tipi di oggetto seguenti di queste applicazioni:
+    Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare i tipi di record per la connessione con i tipi di record di altre aree di lavoro, se l&#39;organizzazione ha acquistato un pacchetto Workfront o Planning di livello superiore. Per ulteriori informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+  * Un tipo di record e i tipi di oggetto seguenti di queste applicazioni:
 
-      * Adobe Workfront:
+    * Adobe Workfront:
 
-         * Progetti
-         * Portfolio
-         * Programmi
-         * Aziende
-         * Gruppo
-         * Richiesta originale
+      * Progetti
+      * Portfolio
+      * Programmi
+      * Aziende
+      * Gruppo
+      * Richiesta originale
 
-           Nel campo Connessione richiesta originale viene visualizzato il nome della richiesta originale che crea un record dopo l&#39;invio di un modulo di richiesta per Workfront Planning. Il nome della richiesta è visibile nel campo Oggetto della richiesta in Workfront.
-
-      * Adobe Experience Manager:
-
-         * Risorse
-
-           È possibile collegare i seguenti oggetti da Adobe Experience Manager Assets:
-
-            * Immagini
-            * Cartelle
-
-         * Frammenti di contenuto
-
-      * Adobe GenStudio for Performance Marketing
-
-         * Brand
-
-        >[!IMPORTANT]
-        >
-        >Per connettersi con oggetti Adobe Experience Manager e marchi GenStudio, è necessario disporre dei seguenti elementi:
-        >* Una licenza Adobe Experience Manager
-        >* Una licenza di Adobe GenStudio for Performance Marketing.
-
-   * Un tipo di record di GenStudio for Performance Marketing dall&#39;area di lavoro di GenStudio e le entità seguenti:
-
-      * Un tipo di record di Workfront Planning
-      * Un oggetto Workfront
-      * Un oggetto AEM (risorsa o frammento di contenuto)
-      * Un marchio GenStudio for Performance Marketing
-
-        >[!NOTE]
-        >
-        >* Non è possibile collegare un tipo di record dell&#39;area di lavoro di Adobe GenStudio a un altro tipo di record di GenStudio in Planning.
-        >* Non è possibile collegare un tipo di record Planning a un tipo di record dall&#39;area di lavoro di GenStudio.
+        Nel campo Connessione richiesta originale viene visualizzato il nome della richiesta originale che crea un record dopo l&#39;invio di un modulo di richiesta per Workfront Planning. Il nome della richiesta è visibile nel campo Oggetto della richiesta in Workfront.
 
 
-     Dopo aver collegato manualmente i tipi di record con altri tipi di record o oggetti, è possibile collegare singoli record e oggetti.
+    * Adobe Experience Manager:
 
-     Per informazioni su come connettere tipi di record e tipi di oggetti, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+      * Risorse
 
-     Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+        È possibile collegare i seguenti oggetti da Adobe Experience Manager Assets:
+
+        * Immagini
+        * Cartelle
+
+      * Frammenti di contenuto
+
+    * Adobe GenStudio for Performance Marketing
+
+      * Brand
+
+      >[!IMPORTANT]
+      >
+      >Per connettersi con oggetti Adobe Experience Manager e marchi GenStudio, è necessario disporre dei seguenti elementi:
+      >* Una licenza Adobe Experience Manager
+      >* Una licenza di Adobe GenStudio for Performance Marketing.
+
+  * Un tipo di record di GenStudio for Performance Marketing dall&#39;area di lavoro di GenStudio e le entità seguenti:
+
+    * Un tipo di record di Workfront Planning
+    * Un oggetto Workfront
+    * Un oggetto AEM (risorsa o frammento di contenuto)
+    * Un marchio GenStudio for Performance Marketing
+
+      >[!NOTE]
+      >
+      >* Non è possibile collegare un tipo di record dell&#39;area di lavoro di Adobe GenStudio a un altro tipo di record di GenStudio in Planning.
+      >* Non è possibile collegare un tipo di record Planning a un tipo di record dall&#39;area di lavoro di GenStudio.
+
+
+    Dopo aver collegato manualmente i tipi di record con altri tipi di record o oggetti, è possibile collegare singoli record e oggetti.
+
+    Per informazioni su come connettere tipi di record e tipi di oggetti, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+    Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 * Una connessione tra entità viene stabilita automaticamente nei seguenti scenari:
 
-   * Quando si utilizza un&#39;automazione per creare record dalla pagina di un tipo di record.
+  * Quando si utilizza un&#39;automazione per creare record dalla pagina di un tipo di record.
 
-     La connessione tra i tipi di record o il tipo di record e il tipo di oggetto di un&#39;altra applicazione viene creata automaticamente quando l&#39;automazione crea il record o l&#39;oggetto connesso.
+    La connessione tra i tipi di record o il tipo di record e il tipo di oggetto di un&#39;altra applicazione viene creata automaticamente quando l&#39;automazione crea il record o l&#39;oggetto connesso.
 
-     Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+    Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-   * Quando si configurano i moduli di richiesta per un tipo di record per creare un record o un oggetto.
+  * Quando si configurano i moduli di richiesta per un tipo di record per creare un record o un oggetto.
 
-     La connessione tra il tipo di record e il tipo di oggetto richiesta viene creata automaticamente quando si invia e si approva una richiesta di Planning che crea un record.
+    La connessione tra il tipo di record e il tipo di oggetto richiesta viene creata automaticamente quando si invia e si approva una richiesta di Planning che crea un record.
 
-     Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-     È possibile visualizzare la richiesta originale nel campo **Oggetto** nell&#39;area Richieste di Workfront oppure nel campo Richiesta originale di connessione in Workfront Planning.
+    È possibile visualizzare la richiesta originale nel campo **Oggetto** nell&#39;area Richieste di Workfront oppure nel campo Richiesta originale di connessione in Workfront Planning.
 
 
 * Quando sono connessi due tipi di record o un tipo di record e un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
 
-   * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato nella scheda Nuova connessione.
+  * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato nella scheda Nuova connessione.
 
-     Ad esempio, se colleghi il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo record collegato (campo connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
+    Ad esempio, se colleghi il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo record collegato (campo connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
 
-     Esistono, ad esempio, i seguenti scenari:
+    Esistono, ad esempio, i seguenti scenari:
 
-      * Quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
-      * Quando si disattiva l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto non viene creato un tipo di record collegato denominato automaticamente &quot;Campaign&quot;.
+    * Quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
+    * Quando si disattiva l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto non viene creato un tipo di record collegato denominato automaticamente &quot;Campaign&quot;.
 
-     Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+    Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * **Quando si connette un tipo di record con un tipo di oggetto di un&#39;altra applicazione**:
+  * **Quando si connette un tipo di record con un tipo di oggetto di un&#39;altra applicazione**:
 
-      * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
-      * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
-      * I record di Planning sono visibili dalla sezione Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-      * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
-      * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
+    * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
+    * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
+    * I record di Planning sono visibili dalla sezione Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+    * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+    * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
 
-   * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
+  * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
 
-     Quando si aggiungono campi di ricerca, considera quanto segue:
+    Quando si aggiungono campi di ricerca, considera quanto segue:
 
-      * È possibile collegare campi di altri tipi di record o oggetti di un&#39;altra applicazione al tipo di record di Workfront Planning.
+    * È possibile collegare campi di altri tipi di record o oggetti di un&#39;altra applicazione al tipo di record di Workfront Planning.
 
-      * I campi di ricerca sono di sola lettura e visualizzano automaticamente le informazioni dei record connessi.
+    * I campi di ricerca sono di sola lettura e visualizzano automaticamente le informazioni dei record connessi.
 
-      * Non tutti i campi sono supportati per essere collegati da Workfront Planning. Ad esempio, per i frammenti di contenuto AEM sono supportati solo i campi seguenti: <!--this information is also in "Connect record types"-->
+    * Non tutti i campi sono supportati per essere collegati da Workfront Planning. Ad esempio, per i frammenti di contenuto AEM sono supportati solo i campi seguenti: <!--this information is also in "Connect record types"-->
 
-         * Creato da e Creato in
-         * Modificato da e modificato in
+      * Creato da e Creato in
+      * Modificato da e modificato in
 
-      * È possibile fare riferimento a campi di ricerca di altri tipi di record o oggetti in formule, filtri o raggruppamenti.
+    * È possibile fare riferimento a campi di ricerca di altri tipi di record o oggetti in formule, filtri o raggruppamenti.
 
-        Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si sceglie di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati, come stabilito in Workfront.
+      Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si sceglie di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati, come stabilito in Workfront.
 
-     >[!IMPORTANT]
-     >
-     >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati o dalle autorizzazioni in altre aree di lavoro.
+    >[!IMPORTANT]
+    >
+    >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati o dalle autorizzazioni in altre aree di lavoro.
 
-      * I campi record collegati sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
+    * I campi record collegati sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
 
-      * I campi di ricerca collegati sono preceduti da un’icona che identifica il tipo di campo. I campi di ricerca sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
+    * I campi di ricerca collegati sono preceduti da un’icona che identifica il tipo di campo. I campi di ricerca sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
-        >[!TIP]
-        >
-        >Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
-        >
-        >Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+      >[!TIP]
+      >
+      >Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
+      >
+      >Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
-   * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+  * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
 
 ## Tipi di connessione
@@ -206,15 +206,15 @@ Di seguito sono riportati i tipi di connessione che è possibile scegliere per l
 
 * Quando l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** è disabilitata, è possibile scegliere tra:
 
-   * [Selezione multipla](#multi-select-connection-type)
-   * [Selezione singola](#single-select-connection-type)
+  * [Selezione multipla](#multi-select-connection-type)
+  * [Selezione singola](#single-select-connection-type)
 
 * Quando l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** è abilitata, è possibile scegliere tra:
 
-   * [Da molti a molti](#many-to-many-connection-type)
-   * [Da uno a molti](#one-to-many-connection-type)
-   * [Da molti a uno](#many-to-one-connection-type)
-   * [Uno a uno](#many-to-one-connection-type)
+  * [Da molti a molti](#many-to-many-connection-type)
+  * [Da uno a molti](#one-to-many-connection-type)
+  * [Da molti a uno](#many-to-one-connection-type)
+  * [Uno a uno](#many-to-one-connection-type)
 
 ### Tipo di connessione a selezione multipla
 
