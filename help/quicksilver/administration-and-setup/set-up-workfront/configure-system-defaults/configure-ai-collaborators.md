@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1420'
 ht-degree: 2%
 
 ---
@@ -178,6 +178,10 @@ Le procedure consigliate riportate di seguito sono utili per la creazione di un 
 +++
 -->
 +++ Autore
+
+>[!NOTE]
+>
+> È possibile utilizzare un agente Writer come Collaboratore attività, ma i playbook Writer non possono essere utilizzati come Collaboratori attività.
 
 Quando si crea un agente da utilizzare come collaboratore attività in Writer, si consiglia di eseguire il seguente flusso di lavoro.
 
