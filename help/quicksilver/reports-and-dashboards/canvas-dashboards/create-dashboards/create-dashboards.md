@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 17%
+source-wordcount: 542
+ht-degree: 14%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Questa versione beta non è disponibile nei seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.<br>
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -88,9 +88,7 @@ I dashboard di Canvas offrono un’ampia varietà di opzioni e configurazioni da
 
 1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
 
-1. Nella casella **Crea dashboard**,
-
-1. Specifica quanto segue:
+1. Nella casella **Crea dashboard** specificare quanto segue:
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +104,9 @@ I dashboard di Canvas offrono un’ampia varietà di opzioni e configurazioni da
      </tr>
       <tr>
       <td role="rowheader"><strong>Valuta</strong></td>
-      <td>Scegliere il tipo di valuta predefinito per il dashboard. <br>
-      <br>Gli utenti possono passare da un tipo di valuta all'altro quando filtrano il dashboard. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</td>
+      <td><p>Scegliere il tipo di valuta predefinito per il dashboard.</p>
+      <p>Quando si filtra il dashboard, è possibile passare da un tipo di valuta all’altro. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</p>
+      <p><strong>Nota:</strong> se nell'istanza di Workfront è definita una sola valuta, il campo Valuta non verrà visualizzato durante la creazione di un dashboard.</p></td>
      </tr>
     </tbody>
    </table>
@@ -121,10 +120,10 @@ Una volta creata una dashboard, il passaggio successivo consiste nell’aggiunge
 È possibile creare 3 tipi di rapporti nei dashboard di Canvas:
 
 * **KPI**: questo report visualizza i dati dell&#39;indicatore di prestazioni chiave sotto forma di numero.
-Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
+Per ulteriori informazioni, vedere [Generare un report KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
 
 * **Grafico**: questo report visualizza i dati come grafico a barre, a colonne, a linee o a torta.
-Per ulteriori informazioni, vedere [Creare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+Per ulteriori informazioni, vedere [Generare un report grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
 * **Tabella**: questo report visualizza i dati in un formato tabella.
 Per ulteriori informazioni, vedere [Generare un report tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).

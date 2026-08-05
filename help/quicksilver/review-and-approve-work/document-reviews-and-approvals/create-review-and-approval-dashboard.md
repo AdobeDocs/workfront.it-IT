@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,8 +41,9 @@ Puoi creare una dashboard di rapporti nell’area Dashboard Canvas per visualizz
 1. Fai clic su **Nuovo dashboard**.
 1. Denomina il dashboard.
 1. Aggiungi una descrizione (facoltativo).
+1. (Facoltativo) Se nell’istanza di Workfront sono definite più valute, puoi anche selezionare una valuta predefinita per il dashboard.
 1. Fai clic su **Crea**.
-   ![aggiungi nome e descrizione dashboard](assets/create-a-dashboard.png)
+   ![Aggiungi nome e descrizione dashboard](assets/create-a-dashboard.png)
 
 Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KPI, grafici e tabelle. Per ulteriori informazioni, consulta le sezioni seguenti:
 

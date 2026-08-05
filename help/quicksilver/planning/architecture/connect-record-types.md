@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
+source-wordcount: 3121
 ht-degree: 4%
 
 ---
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 È possibile connettere tipi di record tra loro o collegare tipi di record con tipi di oggetti di altre applicazioni.
+
+>[!IMPORTANT]
+>
+>Quando si collegano tipi di record di Planning a tipi di oggetto di altre applicazioni, è necessario disporre di una licenza e di un account per tali applicazioni.
 
 La connessione dei tipi di record è utile quando disponi di diversi tipi di oggetti di lavoro che si influenzano a vicenda. Ad esempio, potresti utilizzare le campagne e ciascuna campagna potrebbe gestire più brand. Per indicare questa relazione, puoi collegare le campagne ai brand. In questo modo viene creato un campo di connessione per i marchi nel record Campaign.
 

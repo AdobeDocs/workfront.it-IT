@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: 1467
+ht-degree: 3%
 
 ---
 
@@ -145,6 +145,14 @@ Per collegare il contenuto:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Contenuto consigliato in Contenuto verificato utilizza i dati riportati di seguito per determinare il contenuto suggerito in Workfront:
+   >
+   >* Campi del nome e della descrizione dell’oggetto Workfront
+   >* Campi modulo personalizzato contrassegnati come obbligatori
+   >* Dati da documenti allegati
 
 
 ### Collegare una nuova versione di Experience Manager Assets con Contenuto verificato

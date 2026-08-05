@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 407
 ht-degree: 4%
 
 ---
@@ -64,7 +64,7 @@ Oppure
    <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
    <td><p>Collaboratore Planning o versione successiva</p>
    <p><b>NOTA</b></p>
-   <p>Non tutti i clienti dispongono di una licenza Collaboratore Planning</p>
+   <p>Non tutti i clienti dispongono di licenze di Planning Contributor</p>
    </td> 
   </tr> 
   <tr> 

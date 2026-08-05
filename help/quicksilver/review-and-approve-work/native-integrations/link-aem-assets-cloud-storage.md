@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Collegare contenuti e cartelle da Experience Manager Assets con l’archiviazione cloud Adobe
 description: Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare contenuti e cartelle da Experience Manager Assets a qualsiasi oggetto Adobe Workfront che supporti i documenti.
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 7%
 
 ---
@@ -125,6 +125,14 @@ Per collegare il contenuto:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Contenuto consigliato in Contenuto verificato utilizza i dati riportati di seguito per determinare il contenuto suggerito in Workfront:
+   >
+   >* Campi del nome e della descrizione dell’oggetto Workfront
+   >* Campi modulo personalizzato contrassegnati come obbligatori
+   >* Dati da documenti allegati
 
 <!--
 ### Link a new version from Experience Manager Assets

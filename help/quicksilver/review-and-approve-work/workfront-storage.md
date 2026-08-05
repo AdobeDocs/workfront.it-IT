@@ -6,9 +6,9 @@ description: Pianifica il rollout di Workfront sull’archiviazione cloud Adobe.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 Workfront sull’archiviazione cloud di Adobe offre l’esperienza completa di revisione e approvazione unificata: recensioni nel visualizzatore Frame.io, potenti flussi di lavoro di approvazione, visibilità delle risorse tra i prodotti e altro ancora.
 
-Gli oggetti esistenti continuano a funzionare come fanno attualmente. La nuova area Documenti, il visualizzatore Frame.io e altri comportamenti di archiviazione cloud Adobe si applicano solo agli oggetti che utilizzano l’archiviazione cloud Adobe.
+La nuova area Documenti, il visualizzatore Frame.io e altri comportamenti di archiviazione cloud Adobe descritti in questo articolo si applicano solo agli oggetti che utilizzano l’archiviazione cloud Adobe.
 
 Questo articolo è destinato agli amministratori di Workfront che si preparano a eseguire il rollout di Workfront sull’archiviazione cloud Adobe. Vengono illustrate le principali differenze sugli oggetti di archiviazione cloud di Adobe, come scegliere il tipo di rollout e cosa pensare prima di abilitare l’archiviazione cloud di Adobe per i tuoi utenti.
 
+>[!NOTE]
+>
+>* È necessaria una versione di Workfront che supporti l’archiviazione cloud di Adobe. Se la tua organizzazione non utilizza già una versione supportata, contatta il rappresentante del tuo account Adobe.
+
+## Le approvazioni unificate si applicano indipendentemente dal modello di storage
+
+Se si passa a una versione di Workfront che supporta l’archiviazione cloud di Adobe, vengono spostati *tutti* i flussi di lavoro di approvazione esistenti dalle approvazioni dei documenti precedenti alle approvazioni unificate per ogni oggetto, indipendentemente dal fatto che si trovi nell’archiviazione Workfront legacy o si passi all’archiviazione cloud di Adobe.
+
+
 >[!IMPORTANT]
 >
->È necessaria una versione di Workfront che supporti l’archiviazione cloud di Adobe. Se la tua organizzazione non utilizza già una versione supportata, contatta il rappresentante del tuo account Adobe.
+>Questa opzione è diversa dalle scelte di rollout dell&#39;archiviazione descritte in [Scegliere la modalità di rollout dell&#39;archiviazione cloud di Adobe](#choose-how-adobe-cloud-storage-rolls-out): tali scelte controllano il modello di archiviazione utilizzato dai nuovi oggetti e non se i flussi di lavoro di approvazione passano alle approvazioni unificate.<br>
+>Non esiste un gruppo pilota o un&#39;opzione graduale per questa modifica, che viene applicata a livello di organizzazione non appena si utilizza una versione supportata.
 
 
+Prima di implementare l’archiviazione cloud di Adobe, assicurati che gli utenti che gestiscono le approvazioni sappiano cosa aspettarsi:
+
+* **Una nuova esperienza di approvazione** I revisori e gli approvatori passano dall&#39;esperienza di approvazione dei documenti legacy alle approvazioni unificate, che aggiungono approvazioni in più fasi, percorsi di revisione paralleli e altro ancora. Per ulteriori informazioni, consulta i seguenti articoli:
+
+  * [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [Funzionalità disponibile per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **Un nuovo percorso per la generazione di rapporti** I dati del flusso di lavoro di approvazione unificata e la generazione di rapporti vengono spostati nei dashboard di Canvas. I rapporti di approvazione legacy esistenti non vengono trasferiti automaticamente. Per ulteriori informazioni, vedere [Creare un dashboard report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Possibili aggiornamenti dello scenario Fusion** Gli scenari Fusion esistenti creati sulle approvazioni di documenti legacy potrebbero dover essere modificati, ricostruiti o ritirati per funzionare con le approvazioni unificate. Per ulteriori informazioni, vedere [Aggiornare gli scenari di Workfront Fusion per la revisione e l&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Comprendere lo storage legacy Workfront e lo storage cloud Adobe
 
@@ -230,11 +248,13 @@ Decidi in che modo l’archiviazione cloud di Adobe viene visualizzata dagli ute
 
 Per istruzioni dettagliate, consulta [Abilitare l&#39;archiviazione cloud Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Opzioni di configurazione
+
 * **Solo archiviazione cloud Adobe**: per impostazione predefinita, i nuovi progetti utilizzano l&#39;archiviazione cloud Adobe. Gli utenti non possono creare progetti legacy.
 * **Archiviazione cloud Adobe e archiviazione Workfront legacy**: quando gli utenti creano un progetto, scelgono tra l&#39;archiviazione cloud Adobe (con etichetta &quot;Nuovo progetto&quot;) e l&#39;archiviazione Workfront legacy (con etichetta &quot;Archiviazione legacy&quot;).
 
   ![scegli un tipo di progetto](assets/choose-project-type.png)
-
 
 
 >[!TIP]

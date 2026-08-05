@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 7%
 
 ---
@@ -74,11 +74,15 @@ Per abilitare l’archiviazione cloud Adobe per la tua organizzazione:
    - **Intera organizzazione**: questa opzione applica il provider di archiviazione predefinito all&#39;intero ambiente Workfront. Ogni volta che un utente crea un nuovo progetto, viene utilizzato il provider di archiviazione predefinito.
    - **Gruppi specifici**: questa opzione applica il provider di archiviazione predefinito solo a gruppi specifici all&#39;interno dell&#39;organizzazione. Ogni volta che un utente nei gruppi specificati crea un nuovo progetto, verrà utilizzato il provider di archiviazione predefinito
 
+   ![gruppi di preferenze di archiviazione](assets/configure-storage-preference.png)
+
 1. Fai clic su **Salva**.
 
    >[!NOTE]
    >
    >I progetti esistenti mantengono il modello di archiviazione con cui sono stati creati. Ad esempio, i progetti che utilizzano l’archiviazione cloud di Adobe continuano a utilizzare l’archiviazione cloud di Adobe dopo aver modificato la preferenza di archiviazione predefinita.
+
+
 
 ## Archiviazione cloud Adobe in ambienti sandbox
 
