@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1438'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ I collaboratori di IA per l’analisi dei revisori possono essere configurati pe
 
 ## Configurare un collaboratore di attività
 
-I collaboratori attività sono agenti MCP che possono essere assegnati ad attività in Workfront. È possibile configurare Collaboratore task con un nome, un livello di accesso e altri dettagli e assegnarlo come si fa per assegnare un utente.
+I collaboratori attività sono agenti MCP che possono essere assegnati ad attività in Workfront. È possibile configurare Collaboratore task con un nome, un livello di accesso e altri dettagli e assegnarlo a un task come si farebbe con un utente.
 
 Poiché i collaboratori attività sono agenti MCP, le loro azioni e capacità vengono configurate nel punto in cui vengono configurati gli agenti. Attualmente, gli agenti utilizzati come collaboratori task possono essere creati in Copilot Studio, Claude o Writer.
+
+I collaboratori attività possono essere assegnati solo ad attività e non possono essere attualmente assegnati a problemi.
 
 Per un elenco delle procedure consigliate per la creazione di un agente da utilizzare come Collaboratore attività, vedere [Procedure consigliate per la creazione di un agente per un Collaboratore attività](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
@@ -178,6 +180,10 @@ Le procedure consigliate riportate di seguito sono utili per la creazione di un 
 +++
 -->
 +++ Autore
+
+>[!NOTE]
+>
+> È possibile utilizzare un agente Writer come Collaboratore attività, ma i playbook Writer non possono essere utilizzati come Collaboratori attività.
 
 Quando si crea un agente da utilizzare come collaboratore attività in Writer, si consiglia di eseguire il seguente flusso di lavoro.
 
