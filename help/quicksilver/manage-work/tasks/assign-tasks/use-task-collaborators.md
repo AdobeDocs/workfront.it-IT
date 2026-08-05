@@ -4,7 +4,7 @@ content-type: reference
 description: Scopri come utilizzare i collaboratori attività, i collaboratori IA che possono essere assegnati alle attività di Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Per informazioni e istruzioni sulla creazione di un collaboratore attività in W
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] pacchetto</td> 
-   <td><p>Standard, Prime o Ultimate</p></td> 
+   <td><p>Seleziona, Prime o Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licenza</td> 
