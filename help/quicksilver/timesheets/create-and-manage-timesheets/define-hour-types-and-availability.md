@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 67bbd465c6bc489602a63ab6d24421d614c704c7
 workflow-type: tm+mt
-source-wordcount: 1498
+source-wordcount: 1506
 ht-degree: 4%
 
 ---
@@ -118,30 +118,30 @@ Se si rende disponibile un tipo di ora a livello di utente come descritto in que
 
 Per definire i tipi di ore disponibili per un utente:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul tuo avatar utente nell&#39;angolo superiore sinistro.
+{{step-1-to-users}}
 
-   Oppure
+1. Seleziona l&#39;utente, quindi fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 
-   Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/adobe-main-menu.png) nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Workfront Profile**.
-
-1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) accanto al nome utente, quindi fai clic su **Modifica**. Viene visualizzata la casella **Modifica persona**.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) accanto al nome utente, quindi fai clic su **Modifica**. Viene visualizzata la casella Modifica utente (Edit User).
 
    >[!IMPORTANT]
    >
-   >Solo un amministratore di sistema può modificare altri utenti. Se si dispone di una licenza Pianificazione, è possibile modificare i tipi di ore nel proprio profilo.
+   >Solo un amministratore di sistema può modificare altri utenti.
+   >Se si dispone di una licenza Standard o Plan, è possibile modificare i tipi di ore nel proprio profilo. Fai clic sull&#39;immagine del tuo profilo nell&#39;area di navigazione superiore di Adobe Workfront, quindi fai clic su **Profilo Workfront**. Fai clic sul menu **Altro** accanto al tuo nome e poi su **Modifica**.
 
-
-1. Nella sezione **Pianificazione risorse**, nel menu a discesa **Tipi di ore disponibili**, eseguire una delle operazioni seguenti, a seconda dei tipi di ore che si desidera rendere disponibili quando si registra l&#39;ora in un progetto, un&#39;attività o un problema:
+1. Nella sezione **Pianificazione risorse** della casella Modifica utente, nel menu a discesa **Tipi di ore disponibili**, eseguire una delle operazioni seguenti, a seconda dei tipi di ore che si desidera rendere disponibili quando si registra l&#39;ora in un progetto, un&#39;attività o un problema:
 
    * **Per rendere disponibili tutti i tipi di lavoro per l&#39;utente:** Selezionare tutti i tipi di lavoro.\
      Se si lascia deselezionati tutti i tipi di ore, ciò equivale tecnicamente a selezionare tutti i tipi di ore. Tuttavia, in questo caso, tutti i tipi di lavoro sono disponibili per l&#39;utente solo per i progetti, le attività e i problemi in cui **No** è selezionato nell&#39;opzione **Filtra tipi di lavoro** durante la modifica del progetto, come descritto in [Definire la disponibilità a livello di progetto](#define-availability-at-the-project-level).
-   * **Per rendere disponibile per l&#39;utente solo un sottoinsieme dei tipi di ore:** Selezionare solo i tipi di ore che si desidera rendere disponibili.
 
+   * **Per rendere disponibile per l&#39;utente solo un sottoinsieme dei tipi di ore:** Selezionare solo i tipi di ore che si desidera rendere disponibili.
      Affinché i tipi di lavoro selezionati a livello utente siano disponibili per progetti, attività e problemi, è necessario selezionare questi stessi tipi di lavoro anche nell&#39;opzione **Filtra tipi di lavoro** durante la modifica del progetto, come descritto in [Definire la disponibilità a livello di progetto](#define-availability-at-the-project-level).
 
 1. (Facoltativo) Nel menu a discesa **Tipo di ora predefinito**, seleziona un tipo di ora. Quando il Tipo di Ora Predefinito dell’Utente e un Tipo di Ora Filtrato del Progetto corrispondono, quel tipo di Ora è selezionato per impostazione predefinita durante la registrazione dell’Ora.
 
-1. Fai clic su **Salva modifiche**. Ora, quando si registrano le ore per un progetto, un&#39;attività o un problema, i tipi di ore selezionati sono disponibili se tali tipi di ore sono stati resi disponibili a livello di progetto.
+1. Fai clic su **Salva modifiche**.
+
+   Adesso, quando l’utente registra le ore per un progetto, un’attività o un problema, i tipi di ore selezionati sono disponibili se tali tipi di ore sono stati resi disponibili a livello di progetto.
 
 ## Collaborazione tra i tipi di lavoro a livello di utente e di progetto
 
@@ -149,22 +149,22 @@ Nell&#39;elenco seguente vengono descritti i tipi di ore visualizzati in un ogge
 
 * Dopo aver personalizzato il Tipo di Ora predefinito per l&#39;utente e i Tipi di Ora progetto filtrati, il menu a discesa Tipo di Ora visualizza uno dei seguenti tipi di ora:
 
-   * Quando l’utente ha un Tipo di Ora Predefinito sul proprio profilo e il progetto ha lo stesso Tipo di Ora Filtrato, questo Tipo di Ora viene visualizzato come impostazione predefinita selezionata durante la registrazione dell’ora; il Progetto, l’Attività o l’Ora del Problema vengono visualizzati come opzioni aggiuntive.
+  * Quando l’utente ha un Tipo di Ora Predefinito sul proprio profilo e il progetto ha lo stesso Tipo di Ora Filtrato, questo Tipo di Ora viene visualizzato come impostazione predefinita selezionata durante la registrazione dell’ora; il Progetto, l’Attività o l’Ora del Problema vengono visualizzati come opzioni aggiuntive.
 
-   * Se l’utente non dispone di un Tipo di Ora predefinito e il progetto dispone di Tipi di Ora filtrati, il Tipo di Ora predefinito per la registrazione è Progetto, Attività o Ora problema, ma vengono visualizzati anche i Tipi di Ora filtrati del progetto come opzioni aggiuntive.
+  * Se l’utente non dispone di un Tipo di Ora predefinito e il progetto dispone di Tipi di Ora filtrati, il Tipo di Ora predefinito per la registrazione è Progetto, Attività o Ora problema, ma vengono visualizzati anche i Tipi di Ora filtrati del progetto come opzioni aggiuntive.
 
-   * Se l&#39;utente non ha un Tipo di Ora Predefinito e il progetto non ha Tipi di Ora Filtrati, vengono visualizzati come valori predefiniti solo i tipi di Ora Progetto, Attività o Ora problema, a seconda dell&#39;oggetto a cui stai effettuando l&#39;accesso.
+  * Se l&#39;utente non ha un Tipo di Ora Predefinito e il progetto non ha Tipi di Ora Filtrati, vengono visualizzati come valori predefiniti solo i tipi di Ora Progetto, Attività o Ora problema, a seconda dell&#39;oggetto a cui stai effettuando l&#39;accesso.
 
-   * Se l&#39;utente dispone di un Tipo di Ora Predefinito e il progetto non dispone di Tipi di Ora Filtrati, il Progetto, l&#39;Attività o il Tempo del Problema vengono visualizzati come valori predefiniti quando si registra il tempo sugli oggetti e non sono disponibili altri Tipi di Ora come opzioni, incluso il Tipo di Ora Predefinito dell&#39;utente.
+  * Se l&#39;utente dispone di un Tipo di Ora Predefinito e il progetto non dispone di Tipi di Ora Filtrati, il Progetto, l&#39;Attività o il Tempo del Problema vengono visualizzati come valori predefiniti quando si registra il tempo sugli oggetti e non sono disponibili altri Tipi di Ora come opzioni, incluso il Tipo di Ora Predefinito dell&#39;utente.
 
 * Dopo aver personalizzato i Tipi di lavoro e definito i Tipi di lavoro disponibili per l&#39;utente o aver filtrato i Tipi di lavoro per un progetto, si possono verificare i seguenti scenari:
 
-   * Quando hai selezionato tutti i tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto non sono filtrati, vedrai tutti i tipi di ora disponibili quando registri l&#39;ora.
-   * Quando hai selezionato solo un sottoinsieme di tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto non sono filtrati, vedrai solo i tipi di ora dell&#39;utente quando registri l&#39;ora.
-   * Quando hai selezionato tutti i tipi di ora per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora del progetto e i tipi di ora predefiniti come Ora del progetto, Ora dell&#39;attività, Ora del problema a seconda dell&#39;oggetto.
-   * Quando hai selezionato solo un sottoinsieme di tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora comuni all&#39;utente e al progetto. Se nessun tipo di ora è comune all&#39;utente e al progetto, vengono visualizzati solo i tipi di ora predefiniti (Ora progetto, Ora attività, Ora problema).
+  * Se hai selezionato tutti i tipi di ora per il campo Tipo di ora disponibile nel profilo dell’utente e i Tipi di ora del progetto non sono filtrati, l’utente visualizza tutti i tipi di ora disponibili al momento della registrazione.
+  * Se hai selezionato solo un sottoinsieme di tipi di ora per il campo Tipo di ora disponibile nel profilo dell’utente e i Tipi di ora del progetto non sono filtrati, l’utente visualizza solo i relativi tipi di ora durante la registrazione.
+  * Se hai selezionato tutti i tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, l&#39;utente visualizza solo i tipi di ora del progetto e i tipi di ora predefiniti come Ora del progetto, Ora dell&#39;attività o Ora del problema, a seconda dell&#39;oggetto.
+  * Se hai selezionato solo un sottoinsieme di tipi di ora per il campo Tipo di ora disponibile nel profilo dell’utente e i Tipi di ora del progetto sono filtrati, l’utente visualizza solo i tipi di ora comuni all’utente e al progetto. Se nessun tipo di ora è comune all&#39;utente e al progetto, vengono visualizzati solo i tipi di ora predefiniti (Ora progetto, Ora attività, Ora problema).
 
 >[!TIP]
 >
->   Se selezioni un Tipo di Ora diverso da quello predefinito per un oggetto, il tipo di Ora diventa permanente. La prossima volta che accedi allo stesso oggetto, per impostazione predefinita il Tipo di Ora viene impostato automaticamente sull&#39;ultimo oggetto selezionato.
+>Se selezioni un Tipo di Ora diverso da quello predefinito per un oggetto, il tipo di Ora diventa permanente. Al successivo accesso allo stesso oggetto, per impostazione predefinita il Tipo di Ora verrà impostato automaticamente sull&#39;ultimo oggetto selezionato.
 

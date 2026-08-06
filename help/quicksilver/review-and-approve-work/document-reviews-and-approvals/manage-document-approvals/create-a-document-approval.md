@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 2231
+source-wordcount: 2227
 ht-degree: 2%
 
 ---
@@ -71,53 +71,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## Creare un flusso di lavoro di approvazione nell’area documenti legacy
 
@@ -226,51 +179,6 @@ Per creare un flusso di lavoro di approvazione avanzato:
 1. Fai clic su **Richiedi approvazione**.
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## Creare un flusso di lavoro di approvazione nella nuova area Documenti
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -298,7 +206,7 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    </tr>
    <tr>
    <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
+   <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -306,7 +214,7 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    </tr>
    <tr>
    <td><strong>Scadenza il (facoltativo)</strong></td>
-   <td>Imposta una data di scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
+   <td>Imposta una data di scadenza per l’approvazione. Gli utenti ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza specificata.</td>
    </tr>
    <tr>
    <td><strong>Aggiungi messaggio personalizzato (facoltativo)</strong></td>
@@ -355,7 +263,7 @@ Per creare un flusso di lavoro di approvazione avanzato:
    </tr>
    <tr>
    <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
+   <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -363,7 +271,7 @@ Per creare un flusso di lavoro di approvazione avanzato:
    </tr>
    <tr>
    <td><strong>Scadenza il (facoltativo)</strong></td>
-   <td>La prima fase di ogni percorso supporta una data di scadenza assoluta. Ogni fase successiva del percorso supporta una data di scadenza relativa, ovvero il numero di giorni a partire dal momento in cui si apre la fase. Gli utenti e i team ricevono una notifica via e-mail 72 ore e quindi 24 ore prima della data di scadenza.</td>
+   <td>La prima fase di ogni percorso supporta una data di scadenza assoluta. Ogni fase successiva del percorso supporta una data di scadenza relativa, ovvero il numero di giorni a partire dal momento in cui si apre la fase. Gli utenti ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della data di scadenza.</td>
    </tr>
    <tr>
    <td><strong>Aggiungi messaggio personalizzato (facoltativo)</strong></td>

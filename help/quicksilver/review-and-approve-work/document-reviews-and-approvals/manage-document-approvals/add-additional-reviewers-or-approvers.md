@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 5%
 
 ---
@@ -166,7 +166,7 @@ Per aggiungere altri approvatori o revisori dal Riepilogo documento:
 
 1. Fare clic su **Modifica flusso di lavoro**. La finestra di dialogo Richiedi approvazione si apre nella modalità in cui è stata salvata l’ultima approvazione: Base per le approvazioni in una sola fase o Avanzate per le approvazioni in più fasi e le approvazioni con percorsi paralleli.
 
-1. Aggiungi l’utente, il team o l’e-mail:
+1. Aggiungi l’utente o l’e-mail:
 
    * In modalità Base, digita il nome o l&#39;e-mail nel campo **Aggiungi nomi o e-mail**.
    * In modalità avanzata, seleziona il percorso che contiene la fase da aggiornare, quindi digita il nome o l&#39;e-mail nel campo **Aggiungi nomi o e-mail** della fase.
