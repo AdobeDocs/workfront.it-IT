@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 8%
 
 ---
 
 # Modifiche della velocità push nei progetti
 
-Quando una scheda tariffe è allegata a un progetto <!--or a staffing plan-->, è comunque possibile regolare le tariffe sulla scheda tariffe. Quindi, puoi facoltativamente inviare tali tassi ai progetti a cui è allegata la scheda dei tassi. Se non premi i nuovi tassi, quelli originali rimangono sul progetto.
+Quando una scheda tariffe è collegata a un progetto<!--or a staffing plan-->, le tariffe sulla scheda tariffe possono ancora essere regolate. Quindi, puoi facoltativamente inviare tali tassi ai progetti a cui è allegata la scheda dei tassi. Se non premi i nuovi tassi, quelli originali rimangono sul progetto.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>Se una mansione o una tariffa di fatturazione dell’utente viene sostituita manualmente a livello di progetto, tale tariffa rimane nel progetto quando le modifiche della scheda della tariffa vengono inviate al progetto. Vengono aggiornate solo le tariffe associate alla scheda tariffe.
 
 Per informazioni su come allegare una scheda tariffe a un progetto, vedere [Allegare una scheda tariffe a un progetto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
