@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
+source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11542'
 ht-degree: 8%
 
 ---
@@ -49,7 +49,7 @@ I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono un
 >[!IMPORTANT]
 >
 >I diagrammi sono centrati su singoli oggetti e non rappresentano un diagramma di relazione entità completo per l&#39;intera applicazione Workfront. <br>
->Questi diagrammi forniscono esempi di come le relazioni possono essere utilizzate per unire i dati a oggetti adiacenti.
+>Questi diagrammi hanno lo scopo di fornire esempi di come le relazioni possono essere utilizzate per unire i dati a oggetti adiacenti.
 
 ### Esempio di diagrammi di relazioni tra entità
 
@@ -109,8 +109,8 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 
 >[!NOTE]
 >
->È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
->Se è necessario rinominare o rimuovere una colonna, avviseremo in anticipo di queste modifiche.
+>È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati a valle non è preparato a gestire colonne aggiuntive durante l’aggiunta.<br>
+>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
 
@@ -6651,7 +6651,7 @@ Disponibilità limitata dei clienti
 
 >[!NOTE]
 >
->Nelle tabelle degli oggetti Team sono archiviati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
+>Nelle tabelle degli oggetti Team sono memorizzati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
 >Ciascuno di questi tipi di team è rappresentato insieme nelle visualizzazioni del data lake di Data Connect. Per isolare il tipo specifico di team da restituire, è necessario filtrare in base alla colonna `teamtype`. Ad esempio, se desideri solo i team tradizionali che fanno parte delle strutture organizzative, configurate nell’area Team dell’applicazione, potresti avere una query simile alla seguente: <code>seleziona * da teams_current dove teamtype = &quot;ADHOC&quot;;</code>
 
 ### Membro team
@@ -9180,12 +9180,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Descrizione</td>
         <td>Tabella correlata</td>
         <td>Campo correlato</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ALIAS</td>
@@ -9193,12 +9187,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Alias interno per il tipo di record, utilizzato per l’identificazione a livello di sistema e l’accesso API. Può essere vuoto per i tipi di record a cui non è stato assegnato un alias.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>COLORE</td>
@@ -9206,12 +9194,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Un’etichetta a colori con nome associata a questo tipo di record nell’interfaccia di Planning (ad esempio, "blue", "green", "purple", "magenta", "chartreuse", "dark-gray"). Non è un codice esadecimale.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATO</td>
@@ -9219,25 +9201,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica l'ultimo tipo di operazione che ha interessato questo tipo di record. Il valore 1 indica che il tipo di record è stato creato nel ciclo di aggiornamento dati più recente, mentre il valore 0 indica che non lo è stato. Consulta CREATEDAT per la marca temporale della creazione effettiva.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATO</td>
-        <td>Numero</td>
-        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato creato nel ciclo di aggiornamento dei dati più recente, mentre il valore 0 indica che non lo era.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
@@ -9245,25 +9208,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>La marca temporale (senza fuso orario) di quando è stato creato questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATEDAT</td>
-        <td>Timestamp\_NTZ</td>
-        <td>La marca temporale (senza fuso orario) di quando è stato creato questo tipo di record.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATO DA</td>
@@ -9271,25 +9215,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore dell'utente che ha creato questo tipo di record.</td>
         <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATO DA</td>
-        <td>Varchar</td>
-        <td>Identificatore dell'utente che ha creato questo tipo di record.</td>
-        <td>WF.USERS\_CORRENTE</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ELIMINATO</td>
@@ -9297,25 +9222,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica se il tipo di record è stato eliminato in modo non permanente. Il valore 1 indica eliminato, 0 indica attivo.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ELIMINATO</td>
-        <td>Numero</td>
-        <td>Flag che indica se la connessione di riferimento è stata eliminata temporaneamente. Il valore 1 indica che il riferimento è stato eliminato, mentre 0 indica che è attivo.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DESCRIZIONE</td>
@@ -9323,12 +9229,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Descrizione fornita dall'utente dello scopo del tipo di record.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
@@ -9336,12 +9236,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Il nome visualizzato del tipo di record come mostrato nell'interfaccia di Planning (ad esempio, "Campaign", "Initiative").</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
@@ -9349,25 +9243,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo tipo di record nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DL_LOAD_TIMESTAMP</td>
-        <td>Timestamp\_NTZ</td>
-        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record di riferimento nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
@@ -9375,12 +9250,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Oggetto JSON contenente i dettagli di configurazione per i tipi di record connessi a sistemi esterni. Include "connectionName" (ad esempio, "workfront"), "objectName" (il codice oggetto API di Workfront, ad esempio, "PROJ") e "fields" (una mappa degli alias di campo standard sugli ID campo di Planning per i campi sincronizzati). Null per i tipi di record creati in modo nativo.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9388,12 +9257,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore univoco per il tipo di record. Chiave primaria per questa visualizzazione.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ESTERNA</td>
@@ -9401,12 +9264,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica se questo tipo di record rappresenta un tipo di oggetto connesso esternamente anziché un record di Planning nativo.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISFUSIONE</td>
@@ -9414,12 +9271,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica se questo tipo di record è stato creato o gestito tramite un’integrazione di Workfront Fusion. Il valore "true" indica la gestione di Fusion; "false" o un valore vuoto indica che si tratta di un tipo di record creato in modo nativo.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISTASSONOMIA</td>
@@ -9427,25 +9278,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Indica se questo tipo di record è classificato come tipo di tassonomia, utilizzato per organizzare e classificare altri record. Il valore "true" indica un tipo di tassonomia. Può essere vuoto per i tipi di record non di tassonomia.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ISTASSONOMIA</td>
-        <td>Varchar</td>
-        <td>Indica se questo tipo di record è classificato come tipo di tassonomia, utilizzato per organizzare e classificare altri record. Il valore "true" indica un tipo di tassonomia. Può essere vuoto per i tipi di record non di tassonomia.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>AUTORIZZAZIONE</td>
@@ -9453,25 +9285,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Il livello di autorizzazione configurato per l’accesso a questo tipo di record (ad esempio, "VIEW", "CONTRIBUTE", "MANAGE"). Può essere vuoto se non è impostata alcuna autorizzazione personalizzata.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AUTORIZZAZIONE</td>
-        <td>Varchar</td>
-        <td>Il livello di autorizzazione configurato per l’accesso a questo tipo di record (ad esempio, "VIEW", "CONTRIBUTE", "MANAGE"). Può essere vuoto se non è impostata alcuna autorizzazione personalizzata.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>PRIMARYFIELDID</td>
-        <td>Varchar</td>
-        <td>Identificatore del campo designato come campo principale (titolo) per questo tipo di record. Chiave esterna a FIELD\_CURRENT.ID.</td>
-        <td>CAMPO\_CURRENT</td>
-        <td>ID</td>
     </tr>
     <tr>
         <td>PRIMARYFIELDID</td>
@@ -9479,38 +9292,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore del campo designato come campo principale (titolo) per questo tipo di record. Chiave esterna a FIELD\_CURRENT.ID.</td>
         <td>CAMPO\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>Identificatore univoco del tipo di record di Planning associato al record a cui appartiene questo riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>REFERENCEVALUE</td>
-        <td>Varchar</td>
-        <td>Il nome visualizzato dell’oggetto esterno di riferimento all’ultimo aggiornamento dei dati (ad esempio, un nome di progetto Workfront come "Beta" o "Progetto dashboard Canvas"). Questo valore riflette il nome dell'oggetto al momento dell'aggiornamento e può diventare obsoleto se l'oggetto viene rinominato.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>RIPRISTINATO</td>
@@ -9518,64 +9299,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica se il tipo di record è stato ripristinato dopo l'eliminazione temporanea.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALCONNECTIONNAME</td>
-        <td>Varchar</td>
-        <td>Il nome della connessione esterna attraverso la quale è connesso l'oggetto di riferimento (ad esempio, il nome della connessione Workfront configurata in Planning).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALID</td>
-        <td>Varchar</td>
-        <td>Identificatore univoco dell'oggetto esterno a cui si fa riferimento (ad esempio, un ID progetto Workfront, un ID attività o un altro ID oggetto connesso).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALOBJECTNAME</td>
-        <td>Varchar</td>
-        <td>Il codice oggetto API di Workfront per il tipo di oggetto esterno a cui si fa riferimento (ad esempio, "PROJ" per Progetto, "TASK" per Attività, "PORT" per Portfolio). Utilizzare questa opzione per determinare quale tabella Workfront unire quando si cerca l'oggetto di riferimento.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_RECORDID</td>
-        <td>Varchar</td>
-        <td>Identificatore univoco del record di Planning a cui appartiene questa connessione di riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
@@ -9583,12 +9306,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Nome del servizio o dell'integrazione che ha attivato l'ultima modifica a questo tipo di record. Il valore "Unknown" indica che non è stato possibile determinare il servizio di origine.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>AGGIORNATO</td>
@@ -9596,25 +9313,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Flag che indica l'ultimo tipo di operazione che ha interessato questo tipo di record. Il valore 1 indica che il tipo di record è stato aggiornato nel ciclo di aggiornamento dei dati più recente, mentre il valore 0 indica che non lo era. Per la marca temporale effettiva dell’ultimo aggiornamento, consulta UPDATEDAT.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AGGIORNATO</td>
-        <td>Numero</td>
-        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato aggiornato nel ciclo di aggiornamento dei dati più recente; 0 indica che non lo era.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>AGGIORNATO</td>
@@ -9622,25 +9320,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo tipo di record.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AGGIORNATO</td>
-        <td>Timestamp\_NTZ</td>
-        <td>La marca temporale (nessun fuso orario) dell’ultimo aggiornamento di questo tipo di record.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>AGGIORNATO DA</td>
@@ -9648,25 +9327,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore dell'ultimo utente che ha aggiornato questo tipo di record.</td>
         <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AGGIORNATO DA</td>
-        <td>Varchar</td>
-        <td>Identificatore dell'ultimo utente che ha aggiornato questo tipo di record.</td>
-        <td>WF.USERS\_CORRENTE</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>USERID</td>
@@ -9674,25 +9334,6 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore dell'utente associato a questo tipo di record, in genere il proprietario.</td>
         <td>WF.USERS\_CORRENTE</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>USERID</td>
-        <td>Varchar</td>
-        <td>Identificatore dell'utente associato a questo tipo di record, in genere il proprietario.</td>
-        <td>WF.USERS\_CORRENTE</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>WORKSPACEID</td>
@@ -9700,12 +9341,90 @@ Contiene le definizioni correnti di tutti i tipi di record configurati nelle are
         <td>Identificatore univoco dell'area di lavoro a cui appartiene questo tipo di record. Usare con WORKSPACE\_CURRENT per cercare i dettagli del workspace.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    </tr>
+</table>
+
+### REFERENCE\_CURRENT
+
+Contiene lo stato corrente di tutte le connessioni di riferimento tra più oggetti tra i record di Workfront Planning e gli oggetti Workfront (o altri oggetti esterni). Ogni riga rappresenta una connessione di riferimento. Utilizzare questa visualizzazione con PLANNINGRECORD\_CURRENT.REFERENCE\_IDS per risolvere gli oggetti esterni connessi.
+
+<table>
+    <tr>
+        <td>Nome colonna</td>
+        <td>Tipo</td>
+        <td>Descrizione</td>
+        <td>Tabella correlata</td>
+        <td>Campo correlato</td>
+    </tr>
+    <tr>
+        <td>CREATO</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato creato nel ciclo di aggiornamento dei dati più recente, mentre il valore 0 indica che non lo era.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ELIMINATO</td>
+        <td>Numero</td>
+        <td>Flag che indica se la connessione di riferimento è stata eliminata temporaneamente. Il valore 1 indica che il riferimento è stato eliminato, mentre 0 indica che è attivo.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>La marca temporale del processo di aggiornamento dati che ha caricato per ultimo questo record di riferimento nel data lake. Aggiornato dopo ogni ciclo di aggiornamento dei dati riuscito.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>Identificatore univoco del tipo di record di Planning associato al record a cui appartiene questo riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>Il nome visualizzato dell’oggetto esterno di riferimento all’ultimo aggiornamento dei dati (ad esempio, un nome di progetto Workfront come "Beta" o "Progetto dashboard Canvas"). Questo valore riflette il nome dell'oggetto al momento dell'aggiornamento e può diventare obsoleto se l'oggetto viene rinominato.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>Il nome della connessione esterna attraverso la quale è connesso l'oggetto di riferimento (ad esempio, il nome della connessione Workfront configurata in Planning).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>Identificatore univoco dell'oggetto esterno a cui si fa riferimento (ad esempio, un ID progetto Workfront, un ID attività o un altro ID oggetto connesso).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>Il codice oggetto API di Workfront per il tipo di oggetto esterno a cui si fa riferimento (ad esempio, "PROJ" per Progetto, "TASK" per Attività, "PORT" per Portfolio). Utilizzare questa opzione per determinare quale tabella Workfront unire quando si cerca l'oggetto di riferimento.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>Identificatore univoco del record di Planning a cui appartiene questa connessione di riferimento. Chiave esterna di PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>AGGIORNATO</td>
+        <td>Numero</td>
+        <td>Flag che indica l'ultimo tipo di operazione che ha interessato il record di riferimento. Il valore 1 indica che il riferimento è stato aggiornato nel ciclo di aggiornamento dei dati più recente; 0 indica che non lo era.</td>
+        <td>—</td>
+        <td>—</td>
     </tr>
 </table>
 
