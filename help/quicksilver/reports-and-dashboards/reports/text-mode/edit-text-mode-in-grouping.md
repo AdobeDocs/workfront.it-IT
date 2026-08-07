@@ -9,19 +9,13 @@ exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/magR86wFgKAZhiyX-s2oJH7ZEXafaaLCOalKJRMwXPg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4e6b06769d4001c4e08b4530289cfec7f8edd29e
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1571
 ht-degree: 5%
 
 ---
@@ -211,7 +205,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
       <td> <p>È possibile aggiungere questa riga per sostituire <code>valuefield</code>, se si desidera raggruppare l'elenco in base a un calcolo tra più campi.</p> <p>È necessario racchiudere <code>valuefield</code> degli oggetti tra parentesi graffe ogni volta che lo si utilizza in un <code>valueexpression</code>.</p> <p>Esistono i seguenti scenari:</p> 
        <ol> 
         <li value="1"> <p>Per visualizzare il nome di un raggruppamento in maiuscolo, utilizza:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>Il <code>valuefield</code> dell'oggetto viene digitato nel modo in cui viene visualizzato in API Explorer.</p> </li> 
-        <li value="2">Se si desidera aggiungere più <code>valuefields</code> raggruppandoli in una riga <code>valueexpression </code>, è necessario separarli per un punto.<p>Ad esempio, se si desidera visualizzare il nome del portfolio in maiuscolo in un elenco di attività, è necessario utilizzare il codice seguente nella riga <code>valueexpression</code>:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Se si desidera utilizzare un campo personalizzato in una riga <code>valueexpression</code>, è necessario anteporre <code>DE:</code> al nome del campo per indicare che si tratta di un campo personalizzato. Il nome del campo viene digitato nel modo in cui viene visualizzato nell’interfaccia.</p><p>Importante: <span>Quando si utilizza un campo personalizzato inserito in una sezione di un modulo personalizzato con autorizzazioni limitate per alcuni utenti, il calcolo di <code>valueexpression </code> è vuoto quando tali utenti visualizzano questo calcolo in un report. Per informazioni sulla modifica delle autorizzazioni per le sezioni dei moduli personalizzati, vedere</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a></span>.</p><p>Ad esempio, se hai un campo personalizzato con l'etichetta "Nome sviluppatore" e desideri raggrupparlo per questo campo e visualizzarlo in maiuscolo, puoi utilizzare il seguente <code>valueexpression</code> per indicare questo:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Quando si fa riferimento a un campo personalizzato di tipo Typeahead, utilizzare l'espressione seguente per fare riferimento al nome dell'oggetto selezionato in un campo con etichetta "Nome sviluppatore":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">Se si desidera aggiungere più <code>valuefields</code> raggruppandoli in una riga <code>valueexpression </code>, è necessario separarli per un punto.<p>Ad esempio, se si desidera visualizzare il nome del portfolio in maiuscolo in un elenco di attività, è necessario utilizzare il codice seguente nella riga <code>valueexpression</code>:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Se si desidera utilizzare un campo personalizzato in una riga <code>valueexpression</code>, è necessario anteporre <code>DE:</code> al nome del campo per indicare che si tratta di un campo personalizzato. Il nome del campo viene digitato nel modo in cui viene visualizzato nell’interfaccia.</p><p>Importante: <span>Quando si utilizza un campo personalizzato inserito in una sezione di un modulo personalizzato con autorizzazioni limitate per alcuni utenti, il calcolo di <code>valueexpression </code> è vuoto quando tali utenti visualizzano questo calcolo in un report. Per informazioni sulla modifica delle autorizzazioni per le sezioni dei moduli personalizzati, vedere</span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a></span>.</p><p>Ad esempio, se hai un campo personalizzato con l'etichetta "Nome sviluppatore" e desideri raggrupparlo per questo campo e visualizzarlo in maiuscolo, puoi utilizzare il seguente <code>valueexpression</code> per indicare questo:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Quando si fa riferimento a un campo personalizzato di tipo Ricerca interna, utilizzare l'espressione seguente per fare riferimento al nome dell'oggetto selezionato in un campo con etichetta "Nome sviluppatore":</p><p><code>valueexpression=UPPER({DE:Developer Name}.{name})</code></p><p>Quando si fa riferimento a un campo personalizzato di tipo Typeahead, utilizzare l'espressione seguente per fare riferimento al nome dell'oggetto selezionato in un campo con etichetta "Nome sviluppatore":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

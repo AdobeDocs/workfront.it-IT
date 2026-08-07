@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 644
 ht-degree: 6%
 
 ---
@@ -34,8 +26,6 @@ ht-degree: 6%
 In qualità di amministratore [!DNL Adobe Workfront] o di utente con accesso amministrativo ai Ruoli, puoi disattivare i Ruoli che diventano obsoleti nel tuo sistema. Quando si disattiva una mansione invece di eliminarla, è possibile conservare tutte le informazioni storiche ad essa associate.
 
 È inoltre possibile riattivare i ruoli precedentemente disattivati.
-
-## Requisiti di accesso
 
 ## Requisiti di accesso
 
@@ -78,7 +68,7 @@ Se si disattiva una mansione, questa non verrà più visualizzata nelle seguenti
   >Quando si aggiunge un nuovo ruolo a un utente, non viene visualizzato alcun ruolo disattivato. Ma continua a essere visualizzato nei campi [!UICONTROL Ruolo principale] e [!UICONTROL Altri ruoli] se l&#39;utente era associato alla mansione prima che fosse disattivato.
 
 * Finestra di dialogo [!UICONTROL Condivisione] per gli oggetti, inclusa l&#39;assegnazione del modello di layout
-* Campi typeahead nei moduli personalizzati
+* Campi di ricerca interna e Typeahead nei moduli personalizzati
 * Il campo [!UICONTROL Membri del pool] in [!UICONTROL Pool di risorse]
 * Il campo [!UICONTROL Mansione] di una schermata di modifica [!UICONTROL Tariffa di fatturazione] quando un utente sta sostituendo le tariffe di fatturazione per i progetti
 * Finestra di dialogo [!UICONTROL Aggiungi assegnazione a bacheca Kanban] in un progetto
@@ -114,8 +104,8 @@ Prima di disattivare una mansione non utilizzata, è consigliabile effettuare le
 
   Per informazioni sulla creazione di processi di approvazione e regole di instradamento, vedere gli articoli seguenti:
 
-   * [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Creare regole di indirizzamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [Creare regole di indirizzamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Disattivare una mansione
 

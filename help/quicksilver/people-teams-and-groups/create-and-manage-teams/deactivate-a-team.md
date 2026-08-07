@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '450'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Campi typeahead nei moduli personalizzati</p> </li> 
+     <li> <p>Campi di ricerca interna o Typeahead nei moduli personalizzati</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Finestra di dialogo Condivisione per gli oggetti</p> </li> 
@@ -35,7 +35,7 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
    <td> 
     <ul> 
      <li> <p>Menu a discesa di selezione principale nell'area [!UICONTROL Teams]</p> </li> 
-     <li> <p>[!UICONTROL Assegnazioni] completamento automatico</p> </li> 
+     <li> <p>[Assegnazioni UICONTROL] completamento automatico</p> </li> 
      <li> <p>Finestra di dialogo [!UICONTROL Aggiungi a Kanban] in un progetto</p> </li> 
     </ul> </td> 
   </tr> 
