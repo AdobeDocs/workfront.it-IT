@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 5%
+source-wordcount: 1467
+ht-degree: 4%
 
 ---
 
@@ -178,7 +178,7 @@ Questo esempio mostra come chiamare un&#39;API di paesi (ad esempio <https://api
    * È possibile aggiungere $$QUERY per implementare il filtro delle query per gli utenti finali.
 
    **Esempi**
-Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
+   Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
 
    Consente all&#39;utente di cercare qualsiasi paese nel campo a discesa: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -232,7 +232,7 @@ Esistono molti altri casi d’uso per la creazione di una ricerca esterna.
 Esempio di URL API di base per i modelli, per sostituire un campo typeahead:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso d&#39;uso:** crea campi a discesa con altre funzionalità (ad esempio, il campo di ricerca Esterna contiene il ritorno a capo automatico).
+**Caso d&#39;uso:** crea campi a discesa con più funzionalità (ad esempio, il ritorno a capo automatico è presente nel campo di ricerca esterno).
 **Soluzione:** utilizzare una chiamata API a oggetti esistenti nel sistema oppure creare un nuovo oggetto e utilizzare una chiamata API a questo oggetto.
 
 **Caso d&#39;uso:** Definisci un modo per gli utenti di mantenere i propri campi al di fuori dell&#39;area dei moduli personalizzati. Imposta il campo di ricerca Esterna e puoi assegnare agli utenti gli oggetti che lo compongono. Questa opzione è adatta per i campi e i team di manutenzione elevati.

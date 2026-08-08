@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2711
+source-wordcount: 2734
 ht-degree: 9%
 
 ---
@@ -203,7 +203,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Nella casella **Calcolo**, inizia a generare il calcolo:
    1. Fai clic su **Ingrandisci** per aprire l&#39;editor di calcolo e generare il calcolo.
-Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto.
+      Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto.
 
       Ogni campo deve essere racchiuso tra parentesi graffe. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.
 
@@ -231,7 +231,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere quando si digita `DE:`.
 
-         * Se si desidera che il calcolo faccia riferimento a un campo che estrae dati dall&#39;oggetto *parent* quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, anche tra parentesi graffe.
+        * Se si desidera che il calcolo faccia riferimento a un campo che estrae dati dall&#39;oggetto *parent* quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, anche tra parentesi graffe.
 
         Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `Project` come tipo di oggetto del campo:
 
@@ -261,9 +261,13 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         >[!NOTE]
         >
-        >La sintassi di un campo typeahead è leggermente diversa da quella di altri tipi di campi perché è necessario aggiungere `:name` alla fine.
+        >La sintassi di un campo di ricerca interno è leggermente diversa da quella di altri tipi di campi, poiché è necessario aggiungere `:name` alla fine.
         >
-        >Ad esempio, per fare riferimento all’opzione selezionata in un campo typeahead personalizzato denominato &quot;Executive sponsor&quot;, digita:
+        >Ad esempio, per fare riferimento all’opzione selezionata in un campo di ricerca interno personalizzato denominato &quot;Executive sponsor&quot;, digita:
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >Per lo stesso esempio che utilizza un campo typeahead, è necessario digitare:
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +303,13 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         I campi personalizzati calcolati su un oggetto vengono ricalcolati automaticamente quando si verificano le seguenti condizioni:
 
-         * Un elemento nell’oggetto cambia, ad esempio un calcolo della sequenza temporale giornaliera.
-         * Qualcuno modifica un altro campo a cui fa riferimento un campo personalizzato calcolato sull’oggetto.
-         * L&#39;espressione calcolata è vuota e il campo contiene un valore, che imposta il valore su null.
+        * Un elemento nell’oggetto cambia, ad esempio un calcolo della sequenza temporale giornaliera.
+        * Qualcuno modifica un altro campo a cui fa riferimento un campo personalizzato calcolato sull’oggetto.
+        * L&#39;espressione calcolata è vuota e il campo contiene un valore, che imposta il valore su null.
 
-           >[!NOTE]
-           >
-           ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
+          >[!NOTE]
+          >
+          ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
 
         +++
 

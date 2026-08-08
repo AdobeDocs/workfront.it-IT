@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: 2783
 ht-degree: 6%
 
 ---
@@ -430,7 +430,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nuovo valore testo</p> </td> 
-      <td> <p>Il valore del testo corrente nel campo personalizzato.</p> <p>Se il campo personalizzato è un campo typeahead, la colonna <strong>New Text Value</strong> visualizza l'ID dell'oggetto.</p> </td> 
+      <td> <p>Il valore del testo corrente nel campo personalizzato.</p> <p>Se il campo personalizzato è un campo di ricerca interno, nella colonna <strong>Nuovo valore di testo</strong> viene visualizzato l'ID dell'oggetto.</p> </td> 
      </tr> 
     </tbody> 
    </table>

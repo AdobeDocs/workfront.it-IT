@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 77%
 
 ---
@@ -272,7 +272,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Istruzioni</td>
-    <td>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
+    <td>Digita eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -283,7 +283,7 @@ Per aggiungere un campo di testo:
     </tr>
     <tr>
     <td>Formato</td>
-    <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Nota</b>:   
+    <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Note</b>:   
     <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se intendi utilizzare il campo in calcoli matematici, assicurati di selezionare il formato Numero o Valuta.</li> 
     <li>Quando selezioni Numero o Valuta, il sistema tronca automaticamente i numeri che iniziano con 0.</li>
@@ -435,7 +435,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </tr> 
     <tr> 
     <td role="rowheader">Formato</td> 
-    <td> <p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Nota</b>:   
+    <td> <p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p> <p><b>Note</b>:   
      <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se intendi utilizzare il campo in calcoli matematici, assicurati di selezionare il formato Numero o Valuta.<br></li> 
     <li>Quando selezioni Numero o Valuta, il sistema tronca automaticamente i numeri che iniziano con 0.</li>
@@ -760,7 +760,7 @@ Per aggiungere una ricerca esterna:
      <tr> 
       <td role="rowheader">Nome API</td> 
       <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il campo per la prima volta e digiti l’etichetta, il campo Nome API si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome API non sono sincronizzati: ciò ti offre la possibilità di modificare l’etichetta visualizzata dagli utenti senza dover modificare il nome visualizzato dal sistema.</p>
-      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note su etichette e nomi dei campi</a>.</p> </td>
+      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td>
      </tr> 
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Inserisci eventuali informazioni aggiuntive sul campo personalizzato. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
@@ -805,12 +805,12 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL dell’API restituisce un JSON nel formato seguente, puoi utilizzare “$.data[*].name” per selezionare USA e Canada come opzioni del menu a discesa:</br>
+      <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
       &lbrace;
        dati: &lbrace;
-         { name: “USA”},
-         { name: “Canada”}
+         { name: "USA"},
+         { name: "Canada"}
        &rbrace;
       &rbrace;
       </pre>
@@ -888,7 +888,7 @@ Per aggiungere una ricerca interna:
      <tr> 
       <td role="rowheader">Nome API</td> 
       <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo. Quando configuri il campo per la prima volta e digiti l’etichetta, il campo Nome API si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome API non sono sincronizzati: ciò ti offre la possibilità di modificare l’etichetta visualizzata dagli utenti senza dover modificare il nome visualizzato dal sistema.</p>
-      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note su etichette e nomi dei campi</a>.</p> </td>
+      <p>Per ulteriori informazioni, consulta <a href="design-a-form.md#notes-on-field-names-and-labels">Note sulle etichette e sui nomi dei campi</a>.</p> </td>
      </tr> 
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Inserisci eventuali informazioni aggiuntive sul campo personalizzato. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Utilizza la sintassi del filtro dinamico per restringere l’elenco di elementi in questo campo in base al valore di un altro campo. Se, ad esempio, si utilizza <code>?portfolioID={portfolio}.{ID}</code> in un filtro di campi di Project e un campo nativo di Portfolio si trova nel modulo personalizzato, nel campo Project vengono visualizzati solo i progetti inclusi nel portfolio selezionato. Se il campo Portfolio viene lasciato vuoto, tutti i progetti saranno disponibili nel campo Progetto.</p>
        <p><b>Nota</b>:
        <ul> 
-        <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo di ricerca nativo typeahead o interno, ad esempio Portfolio, Company o Owner.</li>
+        <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo di ricerca interno nativo o typeahead, ad esempio Portfolio, Company o Owner.</li>
         <li>Se stai modificando un modulo personalizzato esistente, l’aggiunta di un filtro a un campo nativo non rimuove gli oggetti (al di fuori dell’ambito del filtro) che gli utenti hanno già aggiunto utilizzando quel campo.</li> 
         <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo nativo, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
         </ul></p></td> 
@@ -1218,7 +1218,7 @@ Per aggiungere un file Adobe XD:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo XD.</p> 
-      <p><b>Nota</b>: l'impostazione Accesso collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
+      <p><b>Nota</b>: l’impostazione Accesso al collegamento nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il collegamento. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
    </td> 
      </tr> 
      <tr> 
