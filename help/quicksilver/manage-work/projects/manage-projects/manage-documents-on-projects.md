@@ -152,7 +152,7 @@ This is not possible anymore:
 * Non puoi aggiungere un progetto di archiviazione cloud Adobe a un portfolio di archiviazione legacy o un progetto di archiviazione legacy a un portfolio di archiviazione Adobe.
 * L’amministratore può convertire un portfolio di archiviazione legacy in archiviazione cloud Adobe nell’area Preferenze di sistema di Configura. Tutti gli oggetti figlio (programmi, progetti e documenti) rimangono nell&#39;archiviazione legacy. I nuovi progetti utilizzeranno l’archiviazione cloud di Adobe. I nuovi documenti aggiunti al portfolio continueranno a essere memorizzati nello storage legacy.
 Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* <!-- this point also repeats for programs below-->Se un portfolio viene convertito dall’archiviazione cloud legacy ad Adobe e il programma dispone di archiviazione legacy, un progetto del programma utilizza anche l’archiviazione legacy.
+* &#x200B;<!-- this point also repeats for programs below-->Se un portfolio viene convertito dall’archiviazione cloud legacy ad Adobe e il programma dispone di archiviazione legacy, un progetto del programma utilizza anche l’archiviazione legacy.
 
   Non è più possibile aggiungere progetti di storage legacy esistenti a questo portfolio.
 
@@ -171,7 +171,7 @@ Quando si lavora con i programmi, considera quanto segue:
 * Non puoi aggiungere un programma di archiviazione cloud Adobe a un portfolio di archiviazione cloud legacy o un programma legacy a un portfolio di archiviazione cloud Adobe.
 * Non puoi creare un progetto da un modello di archiviazione cloud Adobe in un programma di archiviazione legacy.
 * Puoi creare un progetto da un modello di archiviazione legacy in un programma di archiviazione cloud Adobe, ma i documenti e le cartelle presenti nel modello non vengono aggiunti al nuovo progetto. Il progetto riceve l’archiviazione cloud di Adobe.
-* <!-- this point also repeats for portfolios above-->Se un portfolio viene convertito dall’archiviazione cloud legacy ad Adobe e il programma dispone di archiviazione legacy, un progetto del programma utilizza anche l’archiviazione legacy.
+* &#x200B;<!-- this point also repeats for portfolios above-->Se un portfolio viene convertito dall’archiviazione cloud legacy ad Adobe e il programma dispone di archiviazione legacy, un progetto del programma utilizza anche l’archiviazione legacy.
 
   Non è più possibile aggiungere progetti di storage legacy esistenti a questo portfolio.
 
