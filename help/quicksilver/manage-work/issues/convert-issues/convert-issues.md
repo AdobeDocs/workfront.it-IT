@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Panoramica sulla conversione dei problemi in Adobe Workfront
 description: Se è necessario svolgere più lavoro per completare un problema dopo l’invio del problema, puoi convertire il problema in un progetto o in un’attività.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -11,23 +12,14 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
+source-wordcount: 1547
 ht-degree: 4%
 
 ---
@@ -50,8 +42,8 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
 * Workfront sovrascrive l’oggetto risolutivo del problema quando lo si converte in un’attività o in un progetto. La nuova attività o il nuovo problema diventa il nuovo oggetto risolutivo del problema dopo la conversione.
 * Considera i seguenti aspetti:
 
-   * Durante la conversione, potrebbe essere richiesto se si desidera mantenere il problema e la sua risoluzione legati al progetto o all&#39;attività che si sta creando.
-   * Se si mantiene il problema, lo stato e la percentuale di completamento del progetto o dell&#39;attività aggiornano automaticamente lo stato e la percentuale di completamento del problema quando si verificano modifiche al progetto, all&#39;attività o al problema oppure quando Workfront ricalcola la timeline.
+  * Durante la conversione, potrebbe essere richiesto se si desidera mantenere il problema e la sua risoluzione legati al progetto o all&#39;attività che si sta creando.
+  * Se si mantiene il problema, lo stato e la percentuale di completamento del progetto o dell&#39;attività aggiornano automaticamente lo stato e la percentuale di completamento del problema quando si verificano modifiche al progetto, all&#39;attività o al problema oppure quando Workfront ricalcola la timeline.
 
   >[!NOTE]
   >
@@ -65,11 +57,11 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
 * Quando si converte un problema in un progetto utilizzando un modello, la maggior parte delle informazioni contenute nel modello viene trasferita al nuovo progetto. Tuttavia, alcune informazioni del problema possono anche essere trasferite al nuovo progetto. Per ulteriori informazioni, consulta la sezione [Panoramica dei campi del progetto quando si converte un problema in un progetto utilizzando un modello](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in questo articolo.
 * Durante la conversione di un problema, non tutti i documenti o le relative informazioni vengono spostati nel nuovo oggetto in cui viene convertito il problema. Quando si converte un problema a cui sono allegati documenti o collegamenti a documenti, vengono inclusi i seguenti elementi:
 
-   * Documento
-   * Documentare i collegamenti a servizi di terze parti, ad esempio Google Drive o SharePoint.
-   * Versioni
-   * Le bozze sono incluse solo quando l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questa attività** non è selezionata.
-   * Le approvazioni dei documenti non vengono incluse quando si converte un problema a cui sono allegati documenti e collegamenti ai documenti.
+  * Documento
+  * Documentare i collegamenti a servizi di terze parti, ad esempio Google Drive o SharePoint.
+  * Versioni
+  * Le bozze sono incluse solo quando l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questa attività** non è selezionata.
+  * Le approvazioni dei documenti non vengono incluse quando si converte un problema a cui sono allegati documenti e collegamenti ai documenti.
 * Durante la conversione di un problema, è previsto un limite di elaborazione di 5 minuti. Se al problema è allegato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Se si è deciso di mantenere il problema nella conversione e sono allegati dei documenti, il documento e le relative versioni vengono copiati nel progetto o nell&#39;attività. Le bozze e le approvazioni del documento non vengono copiate nel progetto o nell&#39;attività.
 * Se si è deciso di non mantenere il problema nella conversione e sono allegati documenti, il documento, le relative versioni e le bozze vengono trasferiti al progetto o all&#39;attività. Le approvazioni dei documenti non verranno trasferite al progetto o all&#39;attività.

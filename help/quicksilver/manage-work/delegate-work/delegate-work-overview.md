@@ -4,28 +4,19 @@ content-type: overview
 navigation-topic: delegate-work
 title: Panoramica sul lavoro dei delegati
 description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo, puoi delegare temporaneamente il tuo lavoro ad altri utenti per evitare che la tua assenza diventi un ostacolo al completamento del lavoro.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 2%
@@ -70,9 +61,9 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
 * Puoi delegare attività e problemi solo dall&#39;area [!UICONTROL Home].
 * Quando si delega un lavoro, sono presenti eccezioni per i seguenti tipi di licenza:
 
-   * Puoi delegare il lavoro a revisori o richiedenti, anche se [!DNL Workfront] non lo consiglia.
-   * I revisori possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]. Possono visualizzare solo le approvazioni.
-   * I richiedenti non possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]
+  * Puoi delegare il lavoro a revisori o richiedenti, anche se [!DNL Workfront] non lo consiglia.
+  * I revisori possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]. Possono visualizzare solo le approvazioni.
+  * I richiedenti non possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]
 * Puoi delegare solo le attività e i problemi assegnati a te. Non puoi delegare attività e problemi assegnati ad altri utenti, team o mansioni.
 * Puoi delegare solo attività e problemi non completati prima della data di inizio della delega.
 * Se un elemento di lavoro viene completato durante il periodo di delega, l&#39;elemento rimane nell&#39;area Home del delegato e dell&#39;assegnatario per 2 settimane prima che [!DNL Workfront] lo rimuova automaticamente.
