@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: Esportare il grafico di Gantt in PDF
 description: Puoi esportare il grafico Gantt in una PDF. In seguito, puoi stamparlo o allegarlo a un messaggio e-mail per condividerlo con altri utenti.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,10 +21,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
-ht-degree: 5%
+source-wordcount: 983
+ht-degree: 6%
 
 ---
 
@@ -119,18 +120,18 @@ Old:
 
      Selezionare una delle opzioni seguenti:
 
-      * Date effettive
-      * Assegnazioni
-      * Linea di base
-      * Conferma data
-      * % completamento
-      * Percorso critico
-      * Diamanti milestone
-      * Linee milestone
-      * Predecessori
-      * Stato di avanzamento
-      * (Condizionale) Date Pianificate
-      * (Condizionale) Date Previste
+     * Date effettive
+     * Assegnazioni
+     * Linea di base
+     * Conferma data
+     * % completamento
+     * Percorso critico
+     * Diamanti milestone
+     * Linee milestone
+     * Predecessori
+     * Stato di avanzamento
+     * (Condizionale) Date Pianificate
+     * (Condizionale) Date Previste
 
      Per ulteriori informazioni, vedere [Configurare la visualizzazione delle informazioni nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
@@ -149,7 +150,7 @@ Old:
    Ad esempio, se visualizzi il [!UICONTROL Grafico di Gantt] per un progetto che contiene 50 attività, ma desideri visualizzare solo 10 attività nel [!UICONTROL Grafico di Gantt] esportato, seleziona le 10 attività che desideri visualizzare.
 
 1. Fare clic sull&#39;icona della stampante ![Icona della stampante](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
-Viene visualizzata la finestra di dialogo **[!UICONTROL Esporta in PDF]**.
+Viene visualizzata la finestra di dialogo Esporta in PDF&#x200B;**.**
 
    ![Finestra di dialogo Esporta in PDF](assets/exported-gantt-ui-350x225.png)
 
@@ -178,7 +179,7 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Esporta in PDF]**.
 
 
 1. Se il PDF verrà stampato dopo l&#39;esportazione in PDF, selezionare le dimensioni della carta da stampare nel menu a discesa **[!UICONTROL Dimensioni pagina]**.
-Puoi scegliere tra le seguenti opzioni:
+Puoi scegliere una delle opzioni seguenti:
 
    * **[!UICONTROL Lettera]**
    * **[!UICONTROL Note legali]**

@@ -3,7 +3,8 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delega attività e problemi
 description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z
@@ -24,7 +25,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1556
 ht-degree: 3%
@@ -152,7 +153,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
      >
      >Se si lascia vuoto il campo Data di fine e l&#39;opzione Nessuna data di fine non è selezionata, la delega viene impostata solo per il giorno corrente.
 
-     ![Casella dei delegati espansa](assets/delegate-box-expanded-in-home.png)
+     ![Casella Delegate espansa](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Fai clic su [!UICONTROL **Salva**].

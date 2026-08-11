@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Convertire una Issue in un Progetto
 description: Se è necessario fare di più per completare un problema dopo l’invio del problema, puoi convertire il problema in un progetto in Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 4%
@@ -108,12 +109,12 @@ Old:
 
 * Quando si converte un problema in un progetto, è previsto un limite di elaborazione di 5 minuti. Se al problema è allegato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Quando l&#39;organizzazione utilizza l&#39;archiviazione cloud legacy di Workfront e Adobe per i documenti, esistono i seguenti scenari quando si converte un problema in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Un problema di storage Workfront legacy crea un progetto di storage Workfront legacy.
-   * Un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
-   * L’utilizzo di un modello di archiviazione Workfront legacy per convertire un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
-   * L’utilizzo di un modello di archiviazione cloud Adobe per convertire un problema di archiviazione Workfront legacy crea un progetto di archiviazione Workfront legacy.
+  * Un problema di storage Workfront legacy crea un progetto di storage Workfront legacy.
+  * Un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
+  * L’utilizzo di un modello di archiviazione Workfront legacy per convertire un problema di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
+  * L’utilizzo di un modello di archiviazione cloud Adobe per convertire un problema di archiviazione Workfront legacy crea un progetto di archiviazione Workfront legacy.
 
-     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convertire un problema in un progetto
 

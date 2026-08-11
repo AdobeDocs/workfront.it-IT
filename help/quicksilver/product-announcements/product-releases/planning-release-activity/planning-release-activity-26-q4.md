@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,29 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Presentazione delle competenze di Workfront Planning Solution Architect
+
+>[!NOTE]
+>
+>Anteprima: 10 agosto 2026
+>Produzione: 10 agosto 2026
+
+Stiamo mettendo a disposizione una nuova competenza, Workfront Planning Solution Architect, che fornisce a Claude le best practice e la guida agentica per Workfront Planning. Nell’interfaccia di Claude, ora puoi effettuare le seguenti operazioni:
+
+* Configurare una nuova area di lavoro di Planning in base ai requisiti aziendali, con il server MCP Workfront che esegue la configurazione nell&#39;ambiente.
+* Controlla una configurazione esistente per gli antipasti su larga scala.
+* Verifica l’utilizzo rispetto ai limiti consigliati.
+* Poni le tue domande su Planning.
+
+Per informazioni, consulta [Abilità disponibili per l&#39;installazione diretta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
+
 ## Trascinare le righe nella vista tabella
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 L’esperienza di trascinamento e rilascio di righe nella vista tabella è stata migliorata visivamente.
 
@@ -34,7 +52,9 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Workspace Manager ora può definire le dipendenze tra i tipi di record collegati. Ad esempio, quando si verifica un campo Regione, vengono visualizzati solo i valori associati all’area geografica selezionata. Questa impostazione viene configurata direttamente nella configurazione del campo connessione: quando si aggiunge una connessione da un tipo di record Geo a un tipo di record dipendente (come Area), una nuova impostazione consente ai manager dell’area di lavoro di contrassegnarla come dipendente dal tipo di record Geo, utilizzando le relazioni già stabilite tra tali tipi di record.
 
@@ -55,7 +75,9 @@ Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/p
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 È stato aggiunto un nuovo indicatore che indica quando in un record sono presenti commenti non letti. L&#39;indicatore viene visualizzato nell&#39;angolo superiore destro del campo principale del record nella visualizzazione tabella.
 
@@ -65,7 +87,9 @@ Per ulteriori informazioni, vedere [Gestire i commenti dei record](/help/quicksi
 
 >[!NOTE]
 > 
->Anteprima: 23 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 23 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 I record ora supportano palette di colori personalizzabili che consentono di aggiornare i colori assegnati automaticamente ai nuovi record a colori standard o personalizzati.
 
@@ -87,7 +111,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 ## Planning Designer ora richiede l&#39;accettazione del contratto Beta
 
 >[!NOTE]
->Anteprima e produzione per tutti i clienti: 20 luglio 2026>[!BADGE Fuori pianificazione]{type=Neutral}
+>Anteprima e produzione per tutti i clienti: 20 luglio 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Planning Designer ora richiede un contratto Beta accettato da utilizzare. La tua azienda non è tenuta a firmare un contratto di intelligenza artificiale. Questo è disponibile per tutti i clienti.
 

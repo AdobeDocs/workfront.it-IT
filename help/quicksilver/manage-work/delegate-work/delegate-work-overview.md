@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: Panoramica sul lavoro dei delegati
 description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo, puoi delegare temporaneamente il tuo lavoro ad altri utenti per evitare che la tua assenza diventi un ostacolo al completamento del lavoro.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 2%
@@ -70,9 +71,9 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
 * Puoi delegare attività e problemi solo dall&#39;area [!UICONTROL Home].
 * Quando si delega un lavoro, sono presenti eccezioni per i seguenti tipi di licenza:
 
-   * Puoi delegare il lavoro a revisori o richiedenti, anche se [!DNL Workfront] non lo consiglia.
-   * I revisori possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]. Possono visualizzare solo le approvazioni.
-   * I richiedenti non possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]
+  * Puoi delegare il lavoro a revisori o richiedenti, anche se [!DNL Workfront] non lo consiglia.
+  * I revisori possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]. Possono visualizzare solo le approvazioni.
+  * I richiedenti non possono delegare il lavoro ad altri. Non possono visualizzare gli elementi di lavoro nella loro area [!UICONTROL Home]
 * Puoi delegare solo le attività e i problemi assegnati a te. Non puoi delegare attività e problemi assegnati ad altri utenti, team o mansioni.
 * Puoi delegare solo attività e problemi non completati prima della data di inizio della delega.
 * Se un elemento di lavoro viene completato durante il periodo di delega, l&#39;elemento rimane nell&#39;area Home del delegato e dell&#39;assegnatario per 2 settimane prima che [!DNL Workfront] lo rimuova automaticamente.

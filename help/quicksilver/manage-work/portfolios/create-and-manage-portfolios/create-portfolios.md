@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 3%
 
 ---
@@ -112,10 +112,10 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
 * Aggiungere i portfolio da Workfront Planning nei modi seguenti:
 
-   * Collegandoli da un tipo di record in Workfront Planning.
+  * Collegandoli da un tipo di record in Workfront Planning.
 
   Per informazioni sulla creazione di portafogli tramite l&#39;aggiunta di tali portafogli ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
-   * Utilizzo delle automazioni di Workfront Planning.
+  * Utilizzo delle automazioni di Workfront Planning.
 
   Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +145,19 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
      Viene creato un portfolio il cui nome predefinito segue i seguenti pattern, a seconda del Workfront di archiviazione utilizzato per i documenti:
 
-      * `Untitled Portfolio` per un portfolio di archiviazione Workfront legacy.
+     * `Untitled Portfolio` per un portfolio di archiviazione Workfront legacy.
 
-        Un portfolio di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona portfolio di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+       Un portfolio di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona portfolio di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` per un portfolio di archiviazione cloud Adobe
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` per un portfolio di archiviazione cloud Adobe
 
-        >[!IMPORTANT]
-        >
-        >I portfolio che utilizzano l’archiviazione cloud di Adobe devono avere nomi univoci.
+       >[!IMPORTANT]
+       >
+       >I portfolio che utilizzano l’archiviazione cloud di Adobe devono avere nomi univoci.
 
      Per i portfolio di archiviazione cloud Adobe, nell’area Documenti viene creata automaticamente una nuova cartella di documenti con lo stesso nome del portfolio.
+
+     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Sostituisci il nome del portfolio con un nuovo nome nell’intestazione del portfolio.
 
