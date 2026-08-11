@@ -9,20 +9,14 @@ exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 2%
 
 ---
@@ -105,6 +99,7 @@ Le informazioni possono essere esportate nei seguenti formati:
 * PDF (orizzontale o verticale)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Delimitato in tabella
 
 >[!NOTE]
@@ -122,9 +117,9 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
 * **50.000 celle:** il numero massimo di celle consentito in un&#39;esportazione di report per file Excel.
 * **50.000 righe:** il numero di righe di dati consentite in un&#39;esportazione di report per file PDF e delimitati da tabulazioni.
 
-   * Per i file di Excel, questo limite è **65.000 righe**.
-   * Per i file Excel(.xlsx), questo limite è **100.000 righe**.
-   * Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe di dati, il file esportato avrà 50.000 righe.
+  * Per i file di Excel, questo limite è **65.000 righe**.
+  * Per i file Excel(.xlsx), questo limite è **100.000 righe**.
+  * Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe di dati, il file esportato avrà 50.000 righe.
 
   >[!IMPORTANT]
   >
@@ -142,20 +137,20 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
 
 * Questi limiti si applicano a:
 
-   * Esportazione manuale di un report.
-   * Un rapporto pianificato.
-   * Un’esportazione tramite un’integrazione API.
-   * Dati esportati tramite kick-start.
+  * Esportazione manuale di un report.
+  * Un rapporto pianificato.
+  * Un’esportazione tramite un’integrazione API.
+  * Dati esportati tramite kick-start.
 
-     Per ulteriori informazioni sull&#39;esportazione di dati tramite Kick-Start, vedere [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Per ulteriori informazioni sull&#39;esportazione di dati tramite Kick-Start, vedere [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >È possibile esportare 50.000 righe in un file di avvio, anche se è possibile esportare i dati solo in un file in formato Excel.
+    >[!NOTE]
+    >
+    >È possibile esportare 50.000 righe in un file di avvio, anche se è possibile esportare i dati solo in un file in formato Excel.
 
-   * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
+  * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
 
-     Per ulteriori informazioni sull&#39;esportazione delle informazioni sull&#39;utilizzo per un progetto, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+    Per ulteriori informazioni sull&#39;esportazione delle informazioni sull&#39;utilizzo per un progetto, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Dimensione file 10 MB:** Limite dimensione file per qualsiasi report esportato pianificato per la consegna. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato un collegamento tramite e-mail in cui è possibile scaricare il file, anziché il report esportato allegato.
 * **65.530 collegamenti ipertestuali:** Si tratta di un limite imposto da Excel ai documenti che contengono più di 65.530 collegamenti ipertestuali. Non è possibile aprire questi documenti quando vengono esportati manualmente o inviati in un report consegnato. Si noti che un documento di Excel può contenere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.
@@ -240,13 +235,13 @@ Quando si esporta un elenco di attività o problemi, **Nome file** può essere u
 
 * Quando si esportano gli elenchi di attività e problemi in un progetto:
 
-   * *Le attività nome_progetto_esportato*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
-   * *Il_nome_progetto_Problemi_esportati*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
+  * *Le attività nome_progetto_esportato*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
+  * *Il_nome_progetto_Problemi_esportati*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
 
 * Quando si esportano elenchi di attività e problemi in un’attività (sottoattività):
 
-   * **Il_nome_progetto_l_nome_attività_Attività_esportate**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
-   * **Il_nome_progetto_l_nome_attività_Problemi_esportati**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
+  * **Il_nome_progetto_l_nome_attività_Attività_esportate**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
+  * **Il_nome_progetto_l_nome_attività_Problemi_esportati**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
 
 Quando esportate un elenco di qualsiasi altro oggetto da un progetto a un file PDF, il nome del file del documento esportato indica il tipo di oggetto esportato.\
 Ad esempio, il nome del file può essere:
