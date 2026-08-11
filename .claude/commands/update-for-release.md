@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
+source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Questa abilità spiega come aggiornare gli articoli della guida di Workfront per una prossima versione di funzioni. Il flusso di lavoro è l&#39;inverso di `remove-preview-highlighting`: è in corso l&#39;aggiunta di un nuovo comportamento agli articoli, contrassegnati come Anteprima e (in seguito, in GA) eliminati dall&#39;altra abilità.
 
-## Limite
+## Ambito
 
 Applica quando **tutti** sono true:
 
@@ -79,27 +79,29 @@ Per ogni articolo nell’elenco confermato dall’utente:
 4. **Nuovi dettagli bucket in &quot;includi sempre&quot; rispetto a &quot;in revisione&quot;.** Questo è il passaggio più importante.
 
    - **Includi sempre** (applica automaticamente, nessun prompt): comportamenti invisibili che l&#39;utente non può osservare durante l&#39;interazione con l&#39;interfaccia utente. Esempi:
-      - Effetti indesiderati (ad esempio, &quot;la modifica invia nuovamente l’e-mail a tutti i partecipanti&quot;)
-      - Comportamento tra altri oggetti o eventi successivi
-      - Prerequisiti e autorizzazioni
-      - Limiti non visualizzati nell’interfaccia utente
-      - Tutto ciò che l’utente può imparare solo dal PRD, dai documenti o dal team di prodotto
+     - Effetti indesiderati (ad esempio, &quot;la modifica invia nuovamente l’e-mail a tutti i partecipanti&quot;)
+     - Comportamento tra altri oggetti o eventi successivi
+     - Prerequisiti e autorizzazioni
+     - Limiti non visualizzati nell’interfaccia utente
+     - Tutto ciò che l’utente può imparare solo dal PRD, dai documenti o dal team di prodotto
    - **In attesa di revisione** (presente all&#39;utente con `AskQuestion` come selezione multipla): fatti che l&#39;utente può visualizzare sullo schermo durante l&#39;utilizzo della funzione. Esempi:
-      - Contatore di caratteri già visualizzato nell&#39;interfaccia utente (esempio: `0 / 500`)
-      - Stato predefinito di un campo espanso/compresso
-      - Stato selezionato predefinito di una casella di controllo visibile
-      - Etichette dei pulsanti accanto al campo
-      - Messaggi di convalida visualizzati in linea
+     - Contatore di caratteri già visualizzato nell&#39;interfaccia utente (esempio: `0 / 500`)
+     - Stato predefinito di un campo espanso/compresso
+     - Stato selezionato predefinito di una casella di controllo visibile
+     - Etichette dei pulsanti accanto al campo
+     - Messaggi di convalida visualizzati in linea
 
    Per ogni elemento &quot;in revisione&quot;, fornisci una motivazione di una frase (&quot;Aiuta i principianti a pianificare un messaggio più lungo&quot;, &quot;Aiuta gli utenti che non lo vedono in fasi successive a saperlo espandere&quot;). Includi solo gli elementi scelti dall&#39;utente. Il principio predefinito è &quot;se l’utente può visualizzarlo sullo schermo mentre sta eseguendo l’attività, non ripeterla&quot;, ma l’utente riceve la chiamata finale.
 
-5. **Modifiche proposte.** Mostra gli estratti prima/dopo (o una descrizione mirata in stile diff) dell&#39;articolo, inclusi: posizionamento degli snippet, ridenominazioni delle intestazioni, nuovo contenuto in-Preview e dove si trova, riferimento della schermata ed eventuali wrapping in linea di `class="preview"`.
+   **Quando si redigono le frasi effettive** per uno dei bucket, applicare `~/.cursor/skills/writing-quality/SKILL.md` regole di voce e tono durante la scrittura, ovvero una descrizione di un campo o di un comportamento normale, non una voce del registro delle modifiche (&quot;è stata rimossa&quot;, &quot;è stata aggiunta&quot;) e non aggiornare un&#39;istruzione invariata solo per allegarvi una nota di anteprima. Sformarlo correttamente la prima volta invece di fissare il tono in un passaggio successivo.
 
-6. **Attendere l&#39;approvazione esplicita** (&quot;ok&quot;, &quot;apply&quot;, &quot;yes&quot;) prima di scrivere il file.
+5. **Eseguire un passaggio finale di qualità di scrittura** sul testo scritto prima di visualizzarlo. Questa è una rete di sicurezza, non è la prima volta che queste regole si applicano — prendere qualsiasi cosa di passaggio 4 mancato (ridondanza, tono, la voce non combacia con le righe circostanti).
 
-7. **Convalida.** Dopo aver scritto, esegui `ReadLints` sul file e segnala eventuali problemi. Leggi nuovamente la sezione modificata per confermare la struttura.
+6. **Modifiche proposte.** Mostra gli estratti prima/dopo (o una descrizione mirata in stile diff) dell&#39;articolo, inclusi: posizionamento degli snippet, ridenominazioni delle intestazioni, nuovo contenuto in-Preview e dove si trova, riferimento della schermata ed eventuali wrapping in linea di `class="preview"`.
 
-8. **Differire le modifiche a livello di prosa** all&#39;abilità **qualità di scrittura**. Non ripristinare la voce, le iniziali maiuscole, le regole in grassetto o i pattern di collegamento qui. Leggere `~/.cursor/skills/writing-quality/SKILL.md` se è richiesto un passaggio in prosa.
+7. **Attendere l&#39;approvazione esplicita** (&quot;ok&quot;, &quot;apply&quot;, &quot;yes&quot;) prima di scrivere il file.
+
+8. **Convalida.** Dopo aver scritto, esegui `ReadLints` sul file e segnala eventuali problemi. Leggi nuovamente la sezione modificata per confermare la struttura.
 
 ### &#x200B;5. Dopo ogni articolo
 
@@ -177,10 +179,13 @@ Regole:
 
 ## Controlli di qualità prima di presentare modifiche
 
+Esegui questa lista di controllo completa per **ogni** articolo nella sessione, inclusi gli articoli secondari in cui stai &quot;aggiungendo solo un punto elenco&quot;, non solo il primo/principale.
+
 - Lo snippet viene visualizzato una volta, sulla propria linea, dopo la H1, con righe vuote sopra e sotto.
 - I titoli di sezione esistenti terminano con `in Production`.
 - Le nuove intestazioni di sezione terminano con `in Preview` e la sezione si trova all&#39;interno di `<div class="preview">`.
 - Le aggiunte in linea si trovano in `<span class="preview">`.
+- La nuova prosa contrassegnata da anteprima è simile a una descrizione di campo o comportamento semplice, non a una voce del registro delle modifiche e non aggiorna in modo ridondante un&#39;istruzione invariata.
 - `ReadLints` è pulito nel file modificato.
 - L’articolo viene letto correttamente in entrambi gli stati (con il contenuto di anteprima mostrato e nascosto).
 
