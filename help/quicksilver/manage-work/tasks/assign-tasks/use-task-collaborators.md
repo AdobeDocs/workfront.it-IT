@@ -4,9 +4,9 @@ content-type: reference
 description: Scopri come utilizzare i collaboratori attività, i collaboratori IA che possono essere assegnati alle attività di Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 3%
 
 ---
@@ -75,8 +75,8 @@ Quando un collaboratore di task viene assegnato a un task, inizia a lavorare qua
 
 * Il Collaboratore attività è assegnato a un&#39;attività pronta per l&#39;avvio. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
 * Il Collaboratore task e un utente vengono assegnati a un task e il Collaboratore task viene assegnato per primo.
-* Un&#39;attività a cui è già assegnato un Collaboratore attività diventa pronta per l&#39;avvio. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
-* Un task a cui sono già assegnati un collaboratore e un utente diventa pronto per iniziare. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
+* Un task a cui è già assegnato un Collaboratore task come diventa pronto per l&#39;avvio e il Collaboratore task è l&#39;unico o principale assegnatario. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
+* Un task a cui sono già assegnati un collaboratore task e un utente diventa pronto per l&#39;avvio e il collaboratore task è stato assegnato per primo o è l&#39;assegnatario principale. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
 * Un utente e un Collaboratore attività vengono assegnati a un&#39;attività e l&#39;utente viene rimosso.
 * A un task vengono assegnati un utente e un collaboratore task e il collaboratore task viene impostato come assegnatario principale del task.
 
@@ -84,7 +84,7 @@ Le situazioni seguenti non determinano l&#39;inizio del lavoro del task da parte
 
 * Un Collaboratore attività viene assegnato a un&#39;attività a cui è già stato assegnato un utente.
 * Un Collaboratore attività è @mentioned in un&#39;attività.
-* Un Collaboratore attività viene assegnato a un&#39;attività a cui è già stato assegnato un Collaboratore attività. In questo caso, solo il primo Collaboratore attività assegnato inizia a lavorare sull&#39;attività.
+* Un Collaboratore attività viene assegnato a un&#39;attività a cui è già stato assegnato un Collaboratore attività. In questo caso, il primo Collaboratore attività assegnato avrà già iniziato il lavoro e il secondo Collaboratore attività non farà nulla.
 * Un Collaboratore attività viene assegnato a un&#39;attività che non è pronta per l&#39;avvio. Ad esempio, se l&#39;attività ha predecessori, questi non sono ancora completi.
 
 ## Assegnare un collaboratore a un task

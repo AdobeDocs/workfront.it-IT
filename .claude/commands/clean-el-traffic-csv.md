@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: Pulisce un file CSV non elaborato relativo al traffico Experience League/Adobe Analytics da esportare in pagine solo Workfront, ordinate in base alle visualizzazioni di pagina. Da utilizzare quando l’utente fornisce un CSV del traffico pagina di Experience League (colonne come "URL della pagina generico", "Visitatori univoci", "Visite", "Visualizzazioni pagina") e chiede di pulirlo, filtrarlo o elaborarlo, oppure cita i fogli di calcolo di "tracciamento della documentazione"/"articoli più visualizzati".
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Pulisci CSV traffico Experience League
 
-Trasforma un’esportazione non elaborata della tabella a forma libera Adobe Analytics del traffico di pagina di Experience League in un file CSV deduplicato, pulito e solo per Workfront, ordinato in base alle visualizzazioni di pagina, sovrascrivendo il file originale.
+Trasforma un’esportazione non elaborata della tabella a forma libera Adobe Analytics del traffico di pagina di Experience League in un file CSV deduplicato, pulito e solo per Workfront, ordinato in base alle visualizzazioni di pagina, sovrascrivendo il file originale e salvando una copia datata sul desktop.
 
 ## Forme di input
 
@@ -79,6 +79,18 @@ Ordine righe finale: riga intervallo di date → riga di intestazione → righe 
 ### Passaggio 8: salvare
 
 Sovrascrivi il file di input originale con il risultato pulito.
+
+### Passaggio 9: salva una copia datata sul desktop (solo esportazione raw, se è stato acquisito un intervallo di date nel passaggio 0)
+
+Creare una versione non crittografata dell&#39;intervallo di date: rimuovere le virgole e sostituire `\ / : * ? " < > |` con `-` (questi caratteri non sono validi nei nomi di file di Windows e potrebbero essere visualizzati in un intervallo di date a seconda delle impostazioni locali/del formato di esportazione).
+
+Salva una copia aggiuntiva del file CSV pulito (lo stesso contenuto del passaggio 8) sul desktop dell’utente corrente, denominata:
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Esempio: un intervallo acquisito di `Apr 1, 2026 - Apr 30, 2026` diventa `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Ignorare questo passaggio per un file CSV già pulito (forma 2) a meno che l&#39;utente non fornisca separatamente un intervallo di date.
 
 ## Fuori ambito
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-Per un CSV già pulito (forma di input 2), ignora la logica di trasferimento dell’intestazione e dell’intervallo di date; esegui semplicemente i passaggi 2-6 e 8 sull’intestazione/righe esistente così com’è.
+Per un CSV già pulito (forma di input 2), ignora la logica di trasferimento dell’intestazione, dell’intervallo di date e il passaggio 9: esegui i passaggi 2-6 e 8 sull’intestazione o sulle righe esistenti così come sono.
