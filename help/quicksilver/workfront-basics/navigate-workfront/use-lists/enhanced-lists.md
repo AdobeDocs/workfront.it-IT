@@ -8,19 +8,14 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: 3202
 ht-degree: 2%
 
 ---
@@ -83,6 +78,10 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## Aggiungere elementi a un elenco avanzato
 

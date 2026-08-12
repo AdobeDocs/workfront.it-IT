@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
+source-wordcount: 4418
 ht-degree: 3%
 
 ---
@@ -420,7 +415,7 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+&lt;!—!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -442,6 +437,7 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegliere un campo diverso** e cercare un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere fino a tre campi in base ai quali eseguire il raggruppamento.
 1. (Facoltativo e condizionale) A seconda del tipo di campo selezionato per il raggruppamento, selezionare una delle seguenti opzioni di ordinamento per ordinare i raggruppamenti in ordine crescente o decrescente:
 
    * **A -> Z** o **Z -> A** per campi Select, campi Text, campi Paragraph, record o oggetti connessi, campi People
@@ -458,6 +454,7 @@ Per aggiungere un raggruppamento nella vista timeline:
 
 1. Nella casella **Raggruppa record per** trascinare i raggruppamenti nell&#39;ordine corretto.
 
+
 1. Nell&#39;area **Layout** della casella **Raggruppa record per** selezionare una delle opzioni seguenti:
 
    * **In pila**: i raggruppamenti vengono visualizzati senza una colonna sinistra bloccata e rientrano nella larghezza delle timeline dei relativi elementi.
@@ -466,7 +463,9 @@ Per aggiungere un raggruppamento nella vista timeline:
    * **Corsia**: i raggruppamenti vengono visualizzati con una colonna di intestazione sinistra bloccata che elenca gli elementi raggruppati e i raggruppamenti rientrano nella larghezza della visualizzazione della sequenza temporale.
 
      ![Raggruppamento corsie nella visualizzazione timeline](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure

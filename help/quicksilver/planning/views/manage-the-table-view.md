@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3973
+source-wordcount: 4011
 ht-degree: 2%
 
 ---
@@ -336,6 +331,8 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    >Non è possibile riordinare le righe se si applica almeno un ordinamento o un raggruppamento alla vista tabella.
    >
    >Le modifiche apportate all&#39;ordine delle righe sono visibili a tutti gli utenti che accedono al tipo di record nella stessa visualizzazione.
+   >
+   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del record, quindi fai clic su **Modifica miniatura** per modificare la miniatura.
 1. Fai clic su **Campi** nella parte superiore della tabella, quindi seleziona l&#39;interruttore per il campo **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
@@ -567,7 +564,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —per il momento, controlla questo &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.

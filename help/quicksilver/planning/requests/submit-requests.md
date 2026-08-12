@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 1%
 
 ---
@@ -146,6 +139,28 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
   Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
+
+<!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
 
@@ -255,7 +270,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
    >  Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -281,6 +296,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
       ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
+
+## Sottomettere una richiesta Planning da una pagina di tipo record
+
+È possibile inviare una richiesta quando si aggiungono nuovi record da una pagina del tipo di record.
+
+{{step1-to-planning}}
+
+1. Fare clic sulla scheda per un&#39;area di lavoro, quindi sulla scheda per un tipo di record a cui si ha accesso per creare i record.
+1. In qualsiasi visualizzazione della pagina del tipo di record, fare clic su Nuovo record, quindi su **Invia una richiesta**.
+
+   >[!TIP]
+   >
+   >I moduli di richiesta devono essere creati e pubblicati prima che l&#39;opzione **Invia una richiesta** venga aggiunta alla funzionalità **Nuovo record**.
+
+1. Fai clic su **Continue** (Continua).
+
+1. (Condizionale) Se il tipo di record include più moduli di richiesta, fare clic sul modulo di richiesta che si desidera utilizzare nella casella **Nuova richiesta**.
+
+   Viene aperto il modulo di richiesta.
+1. Inizia a immettere tutte le informazioni in tutti i campi disponibili
+
+   Oppure fai clic su **Compila modulo** per fare in modo che AI compili il modulo.
+1. Fai clic su **Invia richiesta**.
+
+   La richiesta viene inviata.
+
+1. (Facoltativo) Fai clic su una delle seguenti opzioni:
+
+   * **Invia un&#39;altra richiesta** per aprire un nuovo modulo.
+   * **Visualizza la richiesta** per aprire la nuova richiesta.
+   * L&#39;icona **X** nell&#39;angolo superiore destro della casella per tornare alla pagina del tipo di record.
+
+   Se alla richiesta non è associata alcuna approvazione, è stato aggiunto un record al tipo di record selezionato al passaggio 2. <!--accurate??-->
+
 
 ## Inviare una richiesta a Workfront Planning da un collegamento condiviso a un modulo di richiesta
 
@@ -323,13 +372,13 @@ Gli utenti esterni non possono accedere alle aree interne di Workfront, ad esemp
 
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.
 
-Oppure
+   Oppure
 
-Fai clic su [Invia un&#39;altra richiesta](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) per aprire il modulo di richiesta e aggiungere una nuova richiesta.
+   Fai clic su [Invia un&#39;altra richiesta](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) per aprire il modulo di richiesta e aggiungere una nuova richiesta.
 
-Viene visualizzata la pagina dei dettagli della richiesta.
+   Viene visualizzata la pagina dei dettagli della richiesta.
 
-![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
+   ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
 
 1. (Facoltativo) Immetti un commento nell&#39;area **Commenti**.
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.
@@ -382,7 +431,7 @@ Per eliminare una richiesta di Planning dopo l&#39;apertura della richiesta:
 
 1. Aprire una richiesta di Planning facendo clic sul relativo nome nell&#39;elenco Richieste.
 1. Fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della richiesta, quindi fai clic su **Elimina**.
-1. Fai clic su D **e** lete nella casella **Elimina definitivamente** per confermare.
+1. Fai clic su **Elimina** nella casella **Elimina definitivamente** per confermare.
 
    La richiesta viene eliminata e non può essere recuperata.
 

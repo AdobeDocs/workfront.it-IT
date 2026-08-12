@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 11%
+source-wordcount: 956
+ht-degree: 10%
 
 ---
 
@@ -190,6 +185,8 @@ Ad esempio, [!DNL Workfront] può registrare un aggiornamento ogni volta che un 
 
 La modifica viene quindi visualizzata come aggiornamento del sistema nell&#39;area [!UICONTROL Aggiornamenti] per l&#39;attività o il problema.
 
+Quando disattivi un&#39;azione, qualsiasi aggiornamento registrato in precedenza su tale azione viene mantenuto nell&#39;area [!UICONTROL Aggiornamenti] in cui è stato registrato. [!DNL Workfront] interrompe la registrazione di nuovi aggiornamenti per l&#39;azione disabilitata.
+
 Nella tabella seguente sono descritte le azioni che è possibile tenere traccia degli oggetti in [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
@@ -199,7 +196,7 @@ Nella tabella seguente sono descritte le azioni che è possibile tenere traccia 
  <thead> 
   <tr> 
    <th><strong>Azione</strong> </th> 
-   <th><strong>Oggetti</strong> </th> 
+   <th><strong>Oggetti a cui si applica l'azione</strong> </th> 
    <th><strong>Stato predefinito</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +265,6 @@ Per configurare le azioni di cui tenere traccia [!DNL Workfront]:
 1. Seleziona la casella di controllo di un’azione per abilitarla o deselezionala per disabilitarla.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Quando disattivi un&#39;azione, qualsiasi aggiornamento registrato in precedenza su tale azione viene mantenuto nell&#39;area [!UICONTROL Aggiornamenti] in cui è stato registrato. [!DNL Workfront] interrompe la registrazione di nuovi aggiornamenti per l&#39;azione disabilitata.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+
