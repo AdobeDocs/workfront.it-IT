@@ -4,16 +4,16 @@ content-type: reference
 description: Scopri come utilizzare i collaboratori attività, i collaboratori IA che possono essere assegnati alle attività di Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
+source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
 
 # Utilizza collaboratori attività
 
-{{highlighted-preview-article-level}}
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
 I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività di Workfront, oltre al collaboratore IA di tipo revisore esistente utilizzato per le revisioni di documenti e risorse. Come altri collaboratori AI, i collaboratori attività sono configurati nell’area Configura e assegnati alle attività proprio come un utente.
 
