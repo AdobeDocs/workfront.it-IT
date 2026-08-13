@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da78c3043f1b168d3e589fe98f67629c063c2715
+source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 14%
+source-wordcount: '1435'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -159,6 +159,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>13 agosto 2026</p></td>
             <td><p>13 agosto 2026</p></td>
             <td><p>13 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Invia risorse a Adobe Experience Manager e aggiungi messaggi personalizzati per le approvazioni tramite il server MCP di Workfront</a>
+                <p>I nuovi strumenti del connettore MCP ti consentono di inviare documenti a una cartella collegata ad AEM e richiedere l’approvazione dei documenti con un messaggio personalizzato.</p>
+            </td>
+            <td><p>12 agosto 2026</p></td>
+            <td><p>12 agosto 2026</p></td>
+            <td><p>12 agosto 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -375,7 +384,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
