@@ -4,10 +4,10 @@ content-type: reference
 description: Scopri come utilizzare i collaboratori attività, i collaboratori IA che possono essere assegnati alle attività di Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 3%
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
@@ -94,3 +94,23 @@ I collaboratori delle attività vengono assegnati alle attività nello stesso mo
 Quando si cerca un Collaboratore attività nell&#39;elenco degli assegnatari disponibili, il nome del Collaboratore attività è solo un nome.
 
 Per istruzioni, vedere [Assegnare attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>I collaboratori attività non possono essere assegnati per rivedere o approvare un documento.
+
+## Risoluzione dei problemi dei collaboratori attività
+
+Se Collaboratore attività non restituisce una risposta o un output, verificare quanto segue:
+
+* Assicurati che l’agente sia pubblicato sul lato provider della piattaforma di intelligenza artificiale.
+* Assicurati di disporre di crediti di intelligenza artificiale sufficienti con la piattaforma del tuo agente.
+* Verificare che l&#39;azione eseguita sull&#39;attività non richieda un livello di accesso specifico.
+* Se utilizzi Copilot come provider di agenti, assicurati di utilizzare l’impostazione &quot;no authentication&quot; (Nessuna autenticazione).
+* Se utilizzi Copilot, assicurati che l’agente sia configurato in un ambiente globale. La funzionalità Collaboratore attività non supporta attualmente le versioni internazionali di Copilot Studio.
+* Assicurarsi che Collaborator sia l&#39;assegnatario principale dell&#39;attività.
+* Verificare che l&#39;attività assegnata a Collaboratore attività possa iniziare. Ad esempio, verificare che tutti i predecessori dell&#39;attività siano completi.
+
+>[!TIP]
+>
+>Puoi anche passare alla piattaforma del provider di agenti e chiedere all’agente di eseguire l’attività all’interno della piattaforma. Se l&#39;agente non è in grado di eseguire l&#39;operazione all&#39;interno della piattaforma, anche Collaboratore attività verrà sottoposto a problemi in Workfront.

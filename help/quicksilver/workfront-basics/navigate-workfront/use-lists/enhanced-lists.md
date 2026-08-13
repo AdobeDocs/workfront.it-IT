@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: 3202
 ht-degree: 2%
 
 ---
@@ -83,6 +83,10 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## Aggiungere elementi a un elenco avanzato
 
