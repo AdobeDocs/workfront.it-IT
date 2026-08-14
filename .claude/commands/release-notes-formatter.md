@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Formatta e convalida le note sulla versione di Workfront per coerenza, struttura corretta e collegamento corretto. Da utilizzare solo per i file delle note sulla versione nelle directory delle versioni di prodotto o quando l’utente cita note sulla versione, versioni di prodotto o versioni trimestrali. Non applicare ad articoli tutorial o alla documentazione generale.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,24 @@ Applica queste correzioni durante la formattazione:
 | HTML nelle pagine dell’area prodotti | Mantieni come markdown (HTML è solo per tabelle di panoramica) |
 | Manca `exl-id` | Escludilo — non generarne uno |
 
-### Passaggio 6: aggiornare il sommario
+### Passaggio 6: sincronizzare la pagina della panoramica
+
+Ogni volta che aggiungi una **nuova funzionalità** a una pagina dell&#39;area di prodotto, aggiungi o aggiorna una riga corrispondente in `{YY}-q{N}-release-overview.md` di quel trimestre con la stessa modifica. Una funzione presente solo nella pagina dell’area prodotto e non nella tabella della panoramica non sarà visibile dall’indice della panoramica sulla versione.
+
+- Trovare la sezione H3 per l&#39;area di prodotto (ad esempio, `### Reporting enhancements`) e aggiungere una nuova riga `<tr>` nella **parte superiore** della tabella (dopo la riga di intestazione), corrispondente al formato di riga esistente (vedere .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- Le date in questa riga devono corrispondere al blocco `>[!NOTE]` nella pagina dell&#39;area di prodotto per quella funzione (passaggio 4).
+- Se una funzione viene riclassificata in un&#39;area di prodotto diversa (ad esempio, spostata da Reporting to Administrator), spostare la riga corrispondente nella sezione H3 della nuova area, senza lasciare una copia non aggiornata nella precedente.
+- Le funzioni di sola pianificazione non vengono aggiunte alle tabelle di panoramica: Planning dispone di una propria pagina di attività di rilascio, collegata una sola volta in &quot;Note sulla versione per altre aree&quot; (non è necessaria alcuna riga per funzione).
+
+Non toccare la pagina della panoramica quando una funzione presenta già una riga e il suo contenuto/le sue date non sono cambiati.
+
+Errori comuni da evitare:
+
+- Aggiunta di H2 di una caratteristica a una pagina dell&#39;area di prodotto senza aggiunta della riga corrispondente alla tabella della panoramica.
+- Lascia una riga di panoramica non aggiornata nella vecchia sezione dell’area di prodotto dopo lo spostamento del contenuto nella pagina di un’altra area.
+- Le date delle righe della panoramica non corrispondono al blocco `>[!NOTE]` della pagina dell&#39;area di prodotto.
+
+### Passaggio 7: aggiornare il sommario
 
 Ogni volta che crei una pagina delle note sulla versione di **new** (panoramica o area prodotti), aggiungila a `help/quicksilver/TOC.md` con la stessa modifica. Una pagina non inclusa nel sommario non verrà visualizzata nella navigazione pubblicata, anche se i collegamenti presenti nella tabella panoramica vi fanno riferimento.
 
@@ -161,7 +178,7 @@ Errori comuni da evitare:
 - Collegamento alla panoramica di un trimestre diverso dalla nuova pagina dell’area di prodotto (passaggio 3).
 - Inserire le pagine di un nuovo trimestre sotto l&#39;intestazione del trimestre precedente.
 
-### Passaggio 7: aggiornare la home page
+### Passaggio 8: aggiornare la home page
 
 Quando crei una **nuova pagina di panoramica del trimestre** (ovvero, questa è la prima pagina di un nuovo trimestre, non solo una nuova pagina di area di prodotto aggiunta a un trimestre esistente), aggiorna `help/quicksilver/home.md` con la stessa modifica:
 
@@ -175,6 +192,33 @@ Errori comuni da evitare:
 
 - Creazione della pagina di panoramica di un nuovo trimestre senza aggiornamento della scheda &quot;Ultima versione&quot; di `home.md` (continuerà a puntare al trimestre precedente).
 - Dimenticando di aggiungere anche il nuovo trimestre all’elenco di schede dell’anno corrente.
+
+&lt;&lt;&lt;&lt;&lt;&lt; A monte aggiornato
+
+### Passaggio 8: aggiornare la pagina dell’indice delle versioni del prodotto
+=======
+
+### Passaggio 9: aggiornare la pagina dell’indice delle versioni del prodotto
+&#x200B;>>>>>>>>>>Modifiche con stash
+> 
+>Ogni volta che crei una **nuova pagina di panoramica del trimestre**, aggiorna anche `help/quicksilver/product-announcements/product-releases/product-releases.md` con la stessa modifica:
+
+- Trovare il blocco `<p>Releases in {year}</p>` per l&#39;anno corrente nella colonna &quot;Versioni di Workfront&quot;.
+- Aggiungi un nuovo `<li>` nella **parte superiore** dell&#39;elenco di quell&#39;anno, collegandolo alla pagina della panoramica del nuovo trimestre, nello stesso formato delle voci esistenti:
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- Se è presente la pagina dell&#39;attività di rilascio di Planning di un nuovo trimestre (`planning-release-activity-{YY}-q{N}.md`), aggiungere anche un `<li>` corrispondente nella parte superiore della colonna &quot;Altre versioni prodotto&quot; della stessa riga.
+- Se l&#39;anno corrente non ha ancora una riga (primo trimestre di un nuovo anno), aggiungere un nuovo `<tr data-mc-conditions="">` sopra la riga dell&#39;anno precedente, seguendo la struttura di righe esistente.
+
+Non toccare `product-releases.md` quando si aggiunge solo una pagina dell&#39;area di prodotto a un trimestre in cui è già elencata una pagina di panoramica.
+
+Errori comuni da evitare:
+
+- Creazione della pagina di panoramica di un nuovo trimestre senza aggiungerla a `product-releases.md` (la pagina continuerà a mostrare solo i trimestri precedenti).
+- Aggiungendo il collegamento di panoramica, ma dimenticando il collegamento corrispondente dell&#39;attività di rilascio di Planning.
 
 ## Convenzioni di denominazione dei file
 
@@ -247,6 +291,7 @@ Durante la revisione di un file delle note sulla versione, verificare:
 - [ Le funzionalità di ] sono ordinate in ordine di novità (sia nelle pagine dell&#39;area di prodotto che nelle tabelle di panoramica)
 - [ ] Le nuove pagine delle note sulla versione sono elencate in `help/quicksilver/TOC.md` nel trimestre corretto, con la prima panoramica e le aree di prodotto in ordine alfabetico (Altre ultime)
 - [ ] Se è stata creata la pagina della panoramica di un nuovo trimestre, `help/quicksilver/home.md` la scheda &quot;Ultima versione&quot; e la scheda dell&#39;anno corrente vi puntano
+- [ ] Se è stata creata la pagina Panoramica di un nuovo trimestre, `help/quicksilver/product-announcements/product-releases/product-releases.md` la elenca nella parte superiore dell&#39;elenco &quot;Versioni Workfront&quot; dell&#39;anno corrente (più il collegamento Pianificazione, se esiste)
 
 ## Risorse aggiuntive
 

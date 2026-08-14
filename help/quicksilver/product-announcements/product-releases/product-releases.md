@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 2045c2d02d37499800b5d91ad72c71bafd3a821b
 workflow-type: tm+mt
-source-wordcount: 422
-ht-degree: 97%
+source-wordcount: 435
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,7 @@ Per informazioni su come regolare l’organizzazione alle nuove versioni, consul
       <td>
         <p>Rilasci nel 2026</p>
         <ul>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Panoramica sulla versione del quarto trimestre 2026</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Panoramica sulla versione del terzo trimestre 2026</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Panoramica sulla versione del secondo trimestre 2026</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Panoramica del rilascio del primo trimestre 2026</a></li>
@@ -139,6 +140,7 @@ Per informazioni su come regolare l’organizzazione alle nuove versioni, consul
       <td>
         <ul>
           <li><a href="https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Attività sulla versione di Adobe Workfront Fusion</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md" class="MCXref xref" xrefformat="{para}">Attività sulla versione del quarto trimestre 2026 di Adobe Workfront Planning</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Attività sulla versione di Pianificazione di Adobe Workfront: indice articolo</a></li>
         </ul>
       </td>

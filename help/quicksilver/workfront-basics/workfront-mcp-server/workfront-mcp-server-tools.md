@@ -5,10 +5,10 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 5%
+source-wordcount: '2581'
+ht-degree: 4%
 
 ---
 
@@ -48,20 +48,20 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | --- | --- | --- | --- |
 | Trova versione documento per nome | `approvals_find_document_version_by_name` | Cerca l&#39;ID versione corrente di un documento in base al nome file. Supporta le corrispondenze parziali. | Leggi |
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
-| Ottieni documenti per progetto | `approvals_get_documents_by_project` | Elenca i documenti all&#39;interno di un progetto Workfront, con l&#39;ID di versione corrente di ciascun documento. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
+| Ottieni documenti per ambito | `approvals_get_documents_by_scope` | Elencare un documento all&#39;interno di un progetto o di una cartella. | Leggi |
+| Elencare cartelle collegate ad AEM* | `approvals_list_aem_linked_folders` | Elenca le cartelle di documenti di Workfront collegate a Adobe Experience Manager. | Leggi |
 | Trovare un documento | `approvals_find_document` | Cercare un documento per nome file o ID versione documento | Leggi |
-| Ottieni documenti per ambito | approvals_get_documents_by_scope | Elencare un documento all&#39;interno di un progetto o di una cartella. | Leggi |
+| Invio di documenti alla cartella AEM* | `approvals_send_documents_to_aem_folder` | Sposta uno o più documenti Workfront in una cartella collegata ad AEM. | Scrittura |
+
+*Per utilizzare questi strumenti, è necessario che nell&#39;istanza Workfront sia configurata un&#39;integrazione nativa di [!DNL Adobe Experience Manager]. Per ulteriori informazioni, vedere [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+*L’invio di documenti a una cartella AEM non è ancora supportato per i progetti su Adobe Cloud Storage. Il supporto è previsto in una versione futura.
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### Approvazione dei flussi di lavoro
@@ -110,13 +110,8 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Ottieni utente corrente | `approvals_get_current_user` | Restituisce l&#39;identità Workfront dell&#39;utente chiamante, inclusi il nome, l&#39;ID utente, il nome del team principale e l&#39;ID del team principale. | Leggi |
-| Trova utente per nome | `approvals_find_user_by_name` | Cerca l&#39;ID di un utente di Workfront per nome (corrispondenza parziale o fuzzy). Restituisce nome, ID, e-mail, titolo e URL avatar. | Leggi |
-| Trova team per nome | `approvals_find_team_by_name` | Cerca l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
 | Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
-| Trovare i progetti | approvals_find_projects | Cerca i progetti Workfront, facoltativamente filtrati per nome e/o limitati ai progetti di proprietà dell’utente chiamante. | Leggi |
-
 
 ## Strumenti di pianificazione
 
@@ -212,10 +207,64 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 | --- | --- | --- | --- |
 | Cerca oggetti | `workflow_search_any_object` | Cerca oggetti Workfront con parametri di filtro flessibili, ordinamento e impaginazione. | Leggi |
 | Crea oggetto | `workflow_create_any_object` | Crea un nuovo oggetto Workfront, ad esempio un progetto, un&#39;attività, un problema, un&#39;ora, un&#39;assegnazione, un programma o un portfolio. | Scrittura |
-| Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi su un oggetto Workfront esistente. | Scrittura |
+| Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi di un oggetto esistente. È inoltre possibile spostare un’attività o un problema in un altro progetto, convertire un’attività o un problema in un nuovo progetto (o un problema in un’attività) e impostare i predecessori delle attività (dipendenze). | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
 | Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Converte i nomi o le etichette dei campi forniti dall’utente nei nomi dei campi API di Workfront sottostanti in modo che la piattaforma dell’agente di IA possa creare richieste precise. | Leggi |
 | Leggi documenti flusso di lavoro | `workflow_read_workflow_docs` | Carica la documentazione di Workfront Workflow, incluse le guide di utilizzo degli strumenti e i playbook operativi specifici per gli oggetti. Questo è il primo passaggio richiesto prima di eseguire le azioni del flusso di lavoro. | Leggi |
+
+### Aggiornare le capacità dello strumento oggetto
+
+Lo strumento Aggiorna oggetto non solo modifica i valori dei campi. È inoltre possibile spostare il lavoro tra progetti, promuovere elementi di lavoro in nuovi oggetti e creare relazioni tra attività.
+
+#### Spostare un’attività o un problema in un altro progetto
+
+Lo spostamento rigenera un elemento di lavoro nella posizione desiderata. L’oggetto mantiene la sua identità e i suoi collegamenti, vive solo in un progetto diverso o in un’attività principale.
+
+>[!NOTE]
+>
+>L’impostazione di un campo Project in un aggiornamento di campo semplice non sposta un’attività o un problema. Utilizza invece la funzionalità Sposta.
+
+* **Sposta un&#39;attività**: sposta l&#39;attività in un progetto di destinazione e facoltativamente in un&#39;attività padre di destinazione.
+* **Sposta un problema**: sposta il problema (richiesta) in un progetto di destinazione.
+
+Esempio di prompt:
+
+* &quot;Sposta l&#39;attività *Wireframe* nel progetto *Mobile App Redesign*.&quot;
+* &quot;Sposta questa richiesta nel progetto *Q4 Launch*.&quot;
+
+#### Convertire un problema o un’attività in un progetto
+
+>[!NOTE]
+>
+>La conversione genera un nuovo oggetto. L&#39;articolo di origine viene utilizzato nel processo.
+
+* **Converti un&#39;attività in un progetto**: crea un nuovo progetto dall&#39;attività. È possibile copiare i dati personalizzati dell&#39;attività e basare il nuovo progetto su un modello di progetto.
+* **Convertire un problema (richiesta) in un progetto**: crea un nuovo progetto dal problema. Facoltativamente, puoi copiare i dati personalizzati del problema, copiarne i valori dei campi nativi e applicare un modello di progetto.
+* **Convertire un problema (richiesta) in un&#39;attività**: crea un&#39;attività su un progetto esistente a partire dal problema.
+
+Ogni conversione restituisce l’oggetto appena creato, insieme a un collegamento che consente di aprirlo direttamente in Workfront.
+
+Esempio di prompt:
+
+* &quot;Converti l&#39;attività *Aggiornamento sito Web* in un progetto denominato *Aggiornamento sito Web 2026* utilizzando il modello standard.&quot;
+* &quot;Trasforma questa richiesta in un progetto e copiane i campi personalizzati.&quot;
+
+#### Impostare i predecessori delle attività (dipendenze)
+
+È possibile definire i predecessori di un&#39;attività. I predecessori supportano i seguenti tipi di dipendenza, oltre a un tempo di ritardo opzionale:
+
+* **Inizio-Fine (FS)**: l&#39;attività inizia al termine del predecessore. (Predefinito)
+* **Inizio-Inizio (SS)**: l&#39;attività inizia all&#39;avvio del predecessore.
+* **Fine-Fine (FF)**: l&#39;attività termina al termine del predecessore.
+* **Inizio-Fine (SF)**: l&#39;attività termina all&#39;avvio del predecessore.
+
+È possibile aggiungere un ritardo (un ritardo) o un lead (un ritardo negativo) nei giorni lavorativi, concatenare più predecessori su una singola attività e fare riferimento a un&#39;attività in un progetto diverso.
+
+Esempio di prompt:
+
+* &quot;Avviare *Sviluppo* dopo il completamento di *Progettazione*.&quot;
+* &quot;Impostare *QA* in modo che inizi all&#39;avvio di *Sviluppo*, con un ritardo di due giorni.&quot;
+* &quot;Aggiungi #3 attività e #5 attività come predecessori di *Launch*.&quot;
 
 ### Commenti
 
@@ -245,6 +294,7 @@ Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
 | Trovare dati Workfront | `insights_find_workfront_data` | Trova, filtra, conta, ordina e aggrega dati Workfront. Questo è lo strumento principale per query e rapporti. | Leggi |
 | Riepiloga oggetto | `insights_summarize_object` | Recupera e riepiloga un singolo oggetto Workfront per ID. | Leggi |
 | Entità elenco | `insights_list_entities` | Elenca tutti i tipi di oggetto Workfront disponibili per la query. | Leggi |
+| Cerca utenti | `insights_search_users` | Trova le persone nella tua istanza di Workfront per nome. Digita un nome completo o parziale e recupera i principali utenti corrispondenti. Facoltativamente, questo può anche includere &quot;bot&quot; di collaboratori IA insieme agli utenti normali. | Leggi |
 
 
 

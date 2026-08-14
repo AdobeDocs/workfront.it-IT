@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,35 @@ Questa pagina descrive i miglioramenti per gli amministratori apportati con la v
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## Gli amministratori di gruppi possono gestire i profili aziendali
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Gli amministratori dei gruppi ora possono creare, modificare ed eliminare i profili aziendali per i gruppi che amministrano, senza richiedere l’accesso come amministratore di sistema. Ciò offre alle organizzazioni maggiore flessibilità per delegare la gestione dei profili di business a livello di gruppo.
 
@@ -31,7 +55,9 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire i profili aziendali](
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Le visualizzazioni per gli elenchi avanzati sono ora supportate a livello di sistema tramite un modello di layout. È possibile nascondere le viste di sistema esistenti, assegnare una vista specifica come vista predefinita e aggiungere una vista personalizzata all&#39;elenco delle viste di sistema.
 
@@ -43,7 +69,9 @@ Per informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppament
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Le finestre di dialogo per la modifica in blocco ora consentono di modificare i campi di ricerca esterni. In precedenza ciò non era possibile.
 
@@ -57,7 +85,9 @@ Per informazioni sui campi di ricerca esterni, vedere [Creare un modulo personal
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 La modalità di anteprima di progettazione moduli personalizzata ora supporta opzioni di logica avanzate, tra cui logica di visualizzazione avanzata, logica dei valori predefinita, logica di convalida, logica di formattazione e logica di modificabilità. È possibile verificare le formule logiche nell&#39;anteprima del modulo e regolarle in base alle esigenze nel generatore di logica. È inoltre possibile selezionare un oggetto di test (progetto, attività, problema, ecc.) per visualizzare in anteprima il modulo con dati contestuali reali.
 
@@ -71,7 +101,9 @@ Per ulteriori informazioni, vedere [Aggiungere regole di logica ai moduli e ai c
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 La pagina Cronologia modifiche in Workfront ora acquisisce l’attività tra i flussi di lavoro unificati di revisione e approvazione, fornendo agli amministratori un percorso di governance completo per la revisione e la documentazione degli eventi del ciclo di vita.
 
@@ -89,7 +121,9 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Ora è possibile impostare un’applicazione personalizzata come pagina di destinazione in un modello di layout. Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l’utilizzo come pagina di destinazione.
 
@@ -101,7 +135,9 @@ Per ulteriori informazioni, vedere [Personalizzare la pagina di destinazione uti
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 È possibile aggiungere campi di cui tenere traccia per un particolare tipo di oggetto in Workfront. Quando gli utenti modificano le informazioni in tale campo, il sistema registra le informazioni sulla modifica come voce nella cronologia modifiche.
 
@@ -113,7 +149,9 @@ Per ulteriori informazioni, vedere [Configurare i campi per tenere traccia della
 
 >[!NOTE]
 >
->Anteprima: 30 luglio 2026>Rilascio rapido produzione: 13 agosto 2026>Produzione per tutti: 15 ottobre 2026
+>Anteprima: 30 luglio 2026
+>Versione rapida di produzione: 13 agosto 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Nel livello di accesso Standard è ora possibile definire se gli utenti con tale livello devono avere accesso all&#39;elenco Cronologia modifiche. L&#39;opzione **Cambia cronologia** è disponibile nella sezione **Consenti accesso amministrativo per** nel livello di accesso.
 
