@@ -10,21 +10,14 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 5%
 
 ---
@@ -99,7 +92,7 @@ Le sezioni seguenti illustrano dove è possibile accedere al Bilanciatore dei ca
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![Bilanciamento del carico di lavoro](assets/nwe-balancer-global.png)
+   ![Bilanciamento del carico di lavoro](assets/wb-in-res-mgmt.png)
 
    Per impostazione predefinita, il Bilanciatore dei carichi di lavoro visualizza quanto segue per informazioni nell’area Risorse:
 
@@ -118,7 +111,7 @@ Viene visualizzata la pagina del team predefinito.
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![Bilanciatore dei carichi di lavoro per il team](assets/nwe-balancer-team-350x172.png)
+   ![Bilanciatore dei carichi di lavoro di un team](assets/wb-on-team.png)
 
    Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
 
@@ -138,7 +131,7 @@ Viene visualizzata la pagina del team predefinito.
 
    Viene visualizzato il Bilanciatore dei carichi di lavoro per il progetto.
 
-   ![Bilanciatore dei carichi di lavoro per il progetto](assets/nwe-balancer-project-350x152.png)
+   ![Bilanciatore dei carichi di lavoro di un progetto](assets/wb-on-project.png)
 
    Per impostazione predefinita, nel Bilanciatore dei carichi di lavoro di un progetto vengono visualizzate le seguenti informazioni:
 
@@ -161,7 +154,7 @@ Tutte le impostazioni di visualizzazione sono disponibili per il Bilanciatore de
 
    Viene visualizzato il Bilanciatore dei carichi di lavoro per l’utente.
 
-   ![Bilanciatore dei carichi di lavoro per un utente](assets/workload-balancer-user.png)
+   ![Bilanciatore dei carichi di lavoro di un utente](assets/workload-balancer-user.png)
 
    Il Bilanciatore dei carichi di lavoro di un utente visualizza quanto segue per impostazione predefinita:
 
