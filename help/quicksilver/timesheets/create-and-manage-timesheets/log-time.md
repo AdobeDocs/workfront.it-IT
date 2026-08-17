@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -125,8 +120,7 @@ Per registrare l’ora su una scheda orario:
 {{step1-click-main-menu}}
 
 1. Fai clic su [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
-   ![Scheda orario](assets/timesheet-redesigned-nwe.png)
-
+   ![Scheda orario](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Facoltativo) Fai clic sull&#39;icona **a schermo intero** ![](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, quindi fai clic sull&#39;icona **a schermo intero** ![](assets/exit-full-screen.png) per tornare alla scheda orario.
 
@@ -154,8 +148,8 @@ Per registrare l’ora su una scheda orario:
 1. (Facoltativo) Se aggiungi 50 o più elementi contemporaneamente, viene visualizzato un messaggio di conferma con il numero di elementi aggiunti alla scheda orario.
 
    Fai clic su **Aggiungi tutti** per aggiungere tutti gli elementi
-Oppure
-Fai clic su **Annulla** per interrompere l&#39;aggiunta degli elementi selezionati, quindi su **Annulla** per chiudere l&#39;elenco degli elementi.
+   Oppure
+   Fai clic su **Annulla** per interrompere l&#39;aggiunta degli elementi selezionati, quindi su **Annulla** per chiudere l&#39;elenco degli elementi.
 
    Le attività e i problemi sono elencati con il nome del progetto.
 
@@ -288,7 +282,7 @@ Fai clic su **Annulla** per interrompere l&#39;aggiunta degli elementi seleziona
 
 1. (Facoltativo) Fai clic su [!UICONTROL **Aggiornamenti**] nel pannello a sinistra, quindi aggiungi un aggiornamento alla scheda orario. Per ulteriori informazioni sugli aggiornamenti di Workfront, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesign-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Facoltativo) Torna all&#39;area **Scheda orario** per chiudere o inviare la scheda orario.
 
@@ -526,19 +520,19 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
 
 * Quando si modificano le ore specifiche di un progetto:
 
-   * Numero di ore
-   * Il Tipo di Ora. Puoi cambiare il Tipo di Ora solo in tipi specifici per il progetto.
-   * Assegnazione mansione. È possibile modificare l&#39;assegnazione della mansione solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * Descrizione della voce di ore.
+  * Numero di ore
+  * Il Tipo di Ora. Puoi cambiare il Tipo di Ora solo in tipi specifici per il progetto.
+  * Assegnazione mansione. È possibile modificare l&#39;assegnazione della mansione solo se è stata abilitata in Configurazione. Per informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * Descrizione della voce di ore.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Quando si modificano le ore generali:
 
-   * Il numero di ore.
-   * Il Tipo di Ora. È possibile modificare il Tipo di Ora solo in tipi generali.
-   * Descrizione della voce di ore.
+  * Il numero di ore.
+  * Il Tipo di Ora. È possibile modificare il Tipo di Ora solo in tipi generali.
+  * Descrizione della voce di ore.
 
 >[!TIP]
 >
@@ -551,8 +545,8 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
 
 * Quando si modifica una combinazione di ore generali e di ore specifiche per il progetto, in blocco:
 
-   * Il numero di ore.
-   * Descrizione della voce di ore.
+  * Il numero di ore.
+  * Descrizione della voce di ore.
 
 >[!TIP]
 >
@@ -585,6 +579,6 @@ Per modificare i tipi di ore in un report o un elenco di ore:
 1. Fai clic su **Salva modifiche**.
 
    Le informazioni sulle ore vengono aggiornate.
-Se sono state selezionate più ore e si è modificato il campo Ore, la stessa quantità di ore viene allocata a tutte le ore selezionate. Le ore originali vengono sostituite con il nuovo valore per tutte le ore inserite selezionate.
+   Se sono state selezionate più ore e si è modificato il campo Ore, la stessa quantità di ore viene allocata a tutte le ore selezionate. Le ore originali vengono sostituite con il nuovo valore per tutte le ore inserite selezionate.
 
 

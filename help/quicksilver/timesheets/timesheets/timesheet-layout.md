@@ -10,17 +10,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 3%
@@ -45,7 +40,7 @@ Le preferenze delle ore e della scheda orario controllano ciò che viene visuali
 
 Per informazioni su come registrare l&#39;ora in una scheda orario, vedere [Registra ora](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Layout scheda orario](assets/timesheet-layout-unshimmed.png)
+![Layout scheda orario](assets/timesheet-layout-leftnav-updated.png)
 
 Di seguito sono riportate le aree di una scheda orario:
 
@@ -71,8 +66,8 @@ L’intestazione della scheda orario include le seguenti informazioni:
 
 * L’intervallo di tempo della scheda orario.
 * L&#39;area Azioni che include quanto segue:
-   * Un&#39;icona stella per aggiungere le schede orario all&#39;elenco dei preferiti.
-   * L’icona Altro con l’opzione Elimina che consente di eliminare la scheda orario.
+  * Un&#39;icona stella per aggiungere le schede orario all&#39;elenco dei preferiti.
+  * L’icona Altro con l’opzione Elimina che consente di eliminare la scheda orario.
 * Nome del proprietario della scheda orario.
 * Il numero di ore totali per le ore registrate per gli elementi visualizzati nella scheda orario.
 * Il numero di ore di straordinario. Questa voce è manuale ed è visibile solo quando l&#39;impostazione **Straordinari** è abilitata in una scheda orario. Per ulteriori informazioni, vedere [Modifica informazioni scheda orario](../create-and-manage-timesheets/edit-timesheets.md).
