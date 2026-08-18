@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 4433
+source-wordcount: 4457
 ht-degree: 2%
 
 ---
@@ -83,8 +83,8 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
 
 * Il Bilanciatore dei carichi di lavoro visualizza gli elementi di lavoro in due aree separate, a seconda delle assegnazioni. Gli elementi di lavoro e gli utenti vengono visualizzati nelle seguenti aree:
 
-   * **Lavoro non assegnato**: elementi che non hanno assegnazioni o che sono assegnati solo a mansioni o team.
-   * **Lavoro assegnato**: elementi assegnati ad almeno un utente. Gli elementi assegnati vengono visualizzati sotto il nome dell&#39;utente assegnato.
+  * **Lavoro non assegnato**: elementi che non hanno assegnazioni o che sono assegnati solo a mansioni o team.
+  * **Lavoro assegnato**: elementi assegnati ad almeno un utente. Gli elementi assegnati vengono visualizzati sotto il nome dell&#39;utente assegnato.
 
   >[!NOTE]
   >
@@ -139,40 +139,40 @@ Per navigare nel Bilanciatore dei carichi di lavoro per più progetti:
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![Bilanciamento del carico di lavoro](assets/nwe-balancer-global.png)
+   ![Bilanciamento del carico di lavoro](assets/wb-in-res-mgmt.png)
 
    Il Bilanciatore dei carichi di lavoro visualizza le informazioni sull’assegnazione del lavoro a partire dalla settimana corrente nelle due aree seguenti:
 
    * Nell&#39;area **Lavoro non assegnato** sono visualizzati i seguenti elementi di lavoro:
 
-      * Gli elementi di lavoro (attività e problemi) assegnati a ruoli, team o a cui non è stato assegnato vengono visualizzati dopo l’applicazione dei filtri.
-Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavoro per impostazione predefinita. È consigliabile utilizzare i filtri per visualizzare informazioni rilevanti per l&#39;utente in quest&#39;area.
+     * Gli elementi di lavoro (attività e problemi) assegnati a ruoli, team o a cui non è stato assegnato vengono visualizzati dopo l’applicazione dei filtri.
+       Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavoro per impostazione predefinita. È consigliabile utilizzare i filtri per visualizzare informazioni rilevanti per l&#39;utente in quest&#39;area.
 
-        Per informazioni sull&#39;utilizzo dei filtri, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
+       Per informazioni sull&#39;utilizzo dei filtri, vedere [Informazioni sui filtri nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
-      * Le assegnazioni di ruolo in elementi di lavoro vengono visualizzate solo quando si abilita l&#39;impostazione Mostra assegnazioni di ruolo. Per informazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
+     * Le assegnazioni di ruolo in elementi di lavoro vengono visualizzate solo quando si abilita l&#39;impostazione Mostra assegnazioni di ruolo. Per informazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
 
-      * I progetti vengono visualizzati solo se si abilita l&#39;impostazione Raggruppa per progetto. Per informazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
+     * I progetti vengono visualizzati solo se si abilita l&#39;impostazione Raggruppa per progetto. Per informazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
 
    * Nell&#39;area **Lavoro assegnato** sono visualizzati i seguenti elementi di lavoro:
 
-      * Per impostazione predefinita, tutti gli utenti attivi nel sistema vengono visualizzati in quest&#39;area. È consigliabile utilizzare i filtri per limitare la quantità di informazioni in quest’area. Se gli utenti sono assegnati agli elementi, anche gli elementi di lavoro vengono visualizzati sotto il loro nome.
+     * Per impostazione predefinita, tutti gli utenti attivi nel sistema vengono visualizzati in quest&#39;area. È consigliabile utilizzare i filtri per limitare la quantità di informazioni in quest’area. Se gli utenti sono assegnati agli elementi, anche gli elementi di lavoro vengono visualizzati sotto il loro nome.
 
-      * Le attività e i problemi assegnati ad almeno un utente vengono visualizzati sotto il nome dell&#39;utente.
+     * Le attività e i problemi assegnati ad almeno un utente vengono visualizzati sotto il nome dell&#39;utente.
 
-        Gli elementi di lavoro sotto i nomi degli utenti nell’area Lavoro assegnato sono ordinati in base ai seguenti criteri, in questo ordine:
+       Gli elementi di lavoro sotto i nomi degli utenti nell’area Lavoro assegnato sono ordinati in base ai seguenti criteri, in questo ordine:
 
-         1. Data inizio pianificata (prima la meno recente)
-         1. Data di completamento pianificata (prima la meno recente)
-         1. Alfabetico per progetto (solo quando i primi due criteri sono identici per più elementi di lavoro)
+       1. Data inizio pianificata (prima la meno recente)
+       1. Data di completamento pianificata (prima la meno recente)
+       1. Alfabetico per progetto (solo quando i primi due criteri sono identici per più elementi di lavoro)
 
-            >[!TIP]
-            >
-            >* Puoi personalizzare l’ordinamento dei progetti selezionando un’opzione dall’impostazione &quot;Ordina progetti per&quot;.
-            >
-            >* I progetti vengono visualizzati solo quando si abilita l&#39;impostazione &quot;Raggruppa per progetto&quot;.
-            > 
-            >Per informazioni sulla personalizzazione delle impostazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
+          >[!TIP]
+          >
+          >* Puoi personalizzare l’ordinamento dei progetti selezionando un’opzione dall’impostazione &quot;Ordina progetti per&quot;.
+          >
+          >* I progetti vengono visualizzati solo quando si abilita l&#39;impostazione &quot;Raggruppa per progetto&quot;.
+          > 
+          >Per informazioni sulla personalizzazione delle impostazioni, vedere la sezione [Personalizzare la visualizzazione](#customize-the-view) in questo articolo.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) nell&#39;area **Lavoro assegnato**, quindi seleziona il **Filtro predefinito** nell&#39;area **Suggested** della casella del filtro.
 
@@ -260,10 +260,10 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
    * **Includi ore da problemi**: quando questa opzione è selezionata, i problemi assegnati agli utenti vengono visualizzati con il nome dell&#39;utente nell&#39;area Lavoro assegnato e i problemi non assegnati agli utenti vengono visualizzati nell&#39;area Lavoro non assegnato. Le ore pianificate conteggiate dai problemi vengono conteggiate in base alle ore pianificate per il progetto e per l’utente nell’area Lavoro assegnato.
    * **Mostra date previste**: se selezionata, oltre alla sequenza temporale pianificata viene visualizzata la sequenza temporale prevista degli elementi di lavoro. Osserva quanto segue:
-      * La timeline prevista di progetto, attività e problemi viene visualizzata come una linea blu scuro sopra le barre delle attività, dei problemi e dei progetti.
-      * La timeline proiettata che si trova al di fuori della timeline pianificata viene visualizzata in blu chiaro, anche quando si aggiorna il tema colore, come descritto di seguito.
-      * La timeline proiettata per gli elementi ai quali non hai accesso alla visualizzazione viene visualizzata in grigio chiaro con una linea al di sotto.
-      * Quando un&#39;attività o un problema viene completato prima della data di completamento pianificata, i numeri di allocazione per i giorni rimanenti vengono cancellati e non vengono conteggiati per l&#39;allocazione dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l’impostazione Mostra date previste che l’icona Mostra allocazione.
+     * La timeline prevista di progetto, attività e problemi viene visualizzata come una linea blu scuro sopra le barre delle attività, dei problemi e dei progetti.
+     * La timeline proiettata che si trova al di fuori della timeline pianificata viene visualizzata in blu chiaro, anche quando si aggiorna il tema colore, come descritto di seguito.
+     * La timeline proiettata per gli elementi ai quali non hai accesso alla visualizzazione viene visualizzata in grigio chiaro con una linea al di sotto.
+     * Quando un&#39;attività o un problema viene completato prima della data di completamento pianificata, i numeri di allocazione per i giorni rimanenti vengono cancellati e non vengono conteggiati per l&#39;allocazione dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l’impostazione Mostra date previste che l’icona Mostra allocazione.
 
      >[!TIP]
      >
@@ -287,19 +287,19 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
      >L&#39;impostazione per la selezione del tema colore non influisce sul colore delle barre dei problemi. I problemi vengono sempre visualizzati in una barra con colori campione.
 
      Selezionare una delle opzioni seguenti:
-      * **Predefinito**: le barre di tutti i progetti e dei relativi elementi di lavoro vengono visualizzate in blu.
-      * **Progetto**: le barre associate a ciascun progetto e alle relative attività cambiano in base al nome del progetto. Tutte le attività appartenenti al progetto vengono visualizzate in barre di colore corrispondente al progetto. Le barre del progetto vengono visualizzate in una tonalità più chiara per distinguerle dalle attività. Le barre del progetto includono anche l’icona di un progetto quando si sceglie di non visualizzare le allocazioni.
-      * **Stato progetto**: le barre associate a ciascun progetto e ai relativi elementi di lavoro cambiano in base al colore dello stato del progetto.
+     * **Predefinito**: le barre di tutti i progetti e dei relativi elementi di lavoro vengono visualizzate in blu.
+     * **Progetto**: le barre associate a ciascun progetto e alle relative attività cambiano in base al nome del progetto. Tutte le attività appartenenti al progetto vengono visualizzate in barre di colore corrispondente al progetto. Le barre del progetto vengono visualizzate in una tonalità più chiara per distinguerle dalle attività. Le barre del progetto includono anche l’icona di un progetto quando si sceglie di non visualizzare le allocazioni.
+     * **Stato progetto**: le barre associate a ciascun progetto e ai relativi elementi di lavoro cambiano in base al colore dello stato del progetto.
 
-        Lo stato del progetto è quello associato al gruppo del progetto. Se il gruppo non dispone di stati specifici, il colore delle barre degli elementi di lavoro è quello dello stato del progetto a livello di sistema. Vengono visualizzati sia gli stati di sistema che quelli personalizzati. Per informazioni sugli stati dei gruppi, vedere [Creare o modificare lo stato di un gruppo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+       Lo stato del progetto è quello associato al gruppo del progetto. Se il gruppo non dispone di stati specifici, il colore delle barre degli elementi di lavoro è quello dello stato del progetto a livello di sistema. Vengono visualizzati sia gli stati di sistema che quelli personalizzati. Per informazioni sugli stati dei gruppi, vedere [Creare o modificare lo stato di un gruppo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
    * Nella sezione **Visualizzazione dell&#39;allocazione utente in** selezionare una delle opzioni seguenti:
-      * **Ore**: visualizza il tempo allocato come ore. Questa è l&#39;impostazione predefinita.
-      * **Percentuale**: visualizza il tempo allocato come percentuale del tempo totale disponibile
+     * **Ore**: visualizza il tempo allocato come ore. Questa è l&#39;impostazione predefinita.
+     * **Percentuale**: visualizza il tempo allocato come percentuale del tempo totale disponibile
    * Nella sezione **Preferenze di ordinamento**, seleziona la modalità di ordinamento degli elementi nel Bilanciatore dei carichi di lavoro. Selezionare una delle opzioni seguenti:
-      * **Ordina utenti per ruolo principale**: gli utenti vengono visualizzati in ordine alfabetico dei ruoli principali nell&#39;area Lavoro assegnato.
-      * **Ordinare gli utenti in ordine alfabetico**: gli utenti vengono visualizzati in ordine alfabetico in base al nome nell&#39;area Lavoro assegnato.
-      * **Ordina progetti per**: selezionare un campo del progetto dal menu a discesa per ordinare alfabeticamente i progetti in base a tale campo nelle aree Lavoro non assegnato o Assegnato.
+     * **Ordina utenti per ruolo principale**: gli utenti vengono visualizzati in ordine alfabetico dei ruoli principali nell&#39;area Lavoro assegnato.
+     * **Ordinare gli utenti in ordine alfabetico**: gli utenti vengono visualizzati in ordine alfabetico in base al nome nell&#39;area Lavoro assegnato.
+     * **Ordina progetti per**: selezionare un campo del progetto dal menu a discesa per ordinare alfabeticamente i progetti in base a tale campo nelle aree Lavoro non assegnato o Assegnato.
 
    >[!TIP]
    >
@@ -339,8 +339,8 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
      Per assegnare attività o problemi, è inoltre possibile utilizzare le seguenti scelte rapide:
 
-      * In Windows: CTRL+clic sulla barra delle attività o dei problemi.
-      * In Mac: CMD+fai clic sulla barra delle attività o dei problemi.
+     * In Windows: CTRL+clic sulla barra delle attività o dei problemi.
+     * In Mac: CMD+fai clic sulla barra delle attività o dei problemi.
 
      Per ulteriori informazioni sull&#39;assegnazione di elementi di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione di lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -432,7 +432,7 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![Bilanciatore dei carichi di lavoro di un team](assets/nwe-balancer-team-350x172.png)
+   ![Bilanciatore dei carichi di lavoro di un team](assets/wb-on-team.png)
 
    Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
 
@@ -448,7 +448,7 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
 1. Fai clic sul nome di un progetto per aprire la pagina del progetto.
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![Bilanciatore dei carichi di lavoro di un progetto](assets/nwe-balancer-project-350x152.png)
+   ![Bilanciatore dei carichi di lavoro di un progetto](assets/wb-on-project.png)
 
    Il Bilanciatore dei carichi di lavoro per il progetto visualizza le seguenti informazioni, per impostazione predefinita:
 
@@ -503,7 +503,7 @@ Puoi accedere al Bilanciatore dei carichi di lavoro sul tuo profilo utente.
 
    Viene visualizzato il Bilanciatore dei carichi di lavoro per l’utente.
 
-   ![Bilanciatore dei carichi di lavoro per un utente](assets/workload-balancer-user.png)
+   ![Bilanciatore dei carichi di lavoro di un utente](assets/workload-balancer-user.png)
 
    Il Bilanciatore dei carichi di lavoro di un utente visualizza quanto segue per impostazione predefinita:
 

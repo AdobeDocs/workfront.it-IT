@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ Per aggiungere una ricerca esterna:
 >* Durata dell’attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
 
-
-
 ### Aggiungere campi di ricerca interni
 
 Un campo di ricerca interno consente agli utenti di digitare il nome di un oggetto esistente in Workfront. Quando l’utente inizia a digitare, viene visualizzato un elenco di suggerimenti. Ad esempio, se l’utente digita un nome utente, viene visualizzato un elenco di nomi corrispondenti. Il tipo di campo di ricerca interno è supportato nei seguenti oggetti:
@@ -871,6 +869,12 @@ Un campo di ricerca interno consente agli utenti di digitare il nome di un ogget
 * Problema
 * Documento
 * Posizione
+
+>[!NOTE]
+>
+>I campi automatizzati non sono più disponibili per l’aggiunta ai moduli personalizzati. Per convertire un typeahead esistente in una ricerca interna, fai clic sul pulsante nelle opzioni di campo a destra. Quando esegui la conversione, i dati storici rimangono nel campo e vengono utilizzati allo stesso modo nei rapporti.
+> 
+>Inoltre, se un campo typeahead è incluso in un pacchetto di promozione dell’ambiente, al momento della promozione viene convertito automaticamente in una ricerca interna. Per ulteriori informazioni sulla promozione dell&#39;ambiente, vedere [Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Per aggiungere una ricerca interna:
 
