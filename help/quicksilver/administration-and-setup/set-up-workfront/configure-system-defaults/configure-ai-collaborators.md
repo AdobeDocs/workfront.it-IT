@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 2%
 
 ---
@@ -201,5 +201,4 @@ Ulteriori informazioni sulla creazione di agenti sono disponibili nella [documen
 
 1. Nel menu di navigazione a sinistra, fai clic su **Collaboratori IA**.
 1. (Condizionale) Per modificare un collaboratore, fare clic sul nome del collaboratore che si desidera modificare, apportare le modifiche desiderate nella finestra Modifica collaboratore e fare clic su **Salva**.
-1. (Condizionale) Per copiare un collaboratore, fare clic sull&#39;icona Copia ![icona Copia](assets/copy-ai-collaborator.png) nella riga del collaboratore AI che si desidera copiare, fare clic sul nome della copia, apportare le modifiche desiderate nella finestra Modifica collaboratore e fare clic su **Salva**.
 1. (Condizionale) Per eliminare un collaboratore, fare clic sull&#39;icona Elimina ![icona Elimina](assets/delete-collaborator-icon.png) nella riga del collaboratore AI che si desidera eliminare, quindi fare clic su **Elimina**.
