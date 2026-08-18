@@ -4,7 +4,7 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 13%
@@ -176,7 +176,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>31 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>15 ottobre 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
         </tr>
         <tr>
             <td>
