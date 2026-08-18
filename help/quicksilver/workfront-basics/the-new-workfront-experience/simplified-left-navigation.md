@@ -89,7 +89,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 
