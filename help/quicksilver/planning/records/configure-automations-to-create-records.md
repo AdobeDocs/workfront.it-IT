@@ -9,18 +9,13 @@ exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -215,11 +210,11 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
       >[!IMPORTANT]
       >
       >* Il modificatore in ogni condizione cambia con il tipo di campi selezionati.
-      >* Ogni condizione può contribuire a più di un filtro quando un campo ha più valori selezionati. Il numero totale di filtri nelle condizioni non può superare 5 e i gruppi di filtri non possono essere nidificati. Se la configurazione supera questo limite, viene visualizzato un errore in linea nelle condizioni e non puoi salvare l’automazione finché non riduci il numero di opzioni o condizioni selezionate.
+      >* Ogni condizione può fare riferimento a uno o più valori. In tutte le condizioni, puoi fare riferimento a un massimo di 5 valori totali, indipendentemente dal numero di condizioni create. Ad esempio, una configurazione con 3 condizioni che fanno riferimento collettivamente a 6 valori supera il limite. Impossibile nidificare le condizioni. Se la configurazione supera il limite di 5 valori, viene visualizzato un errore in linea sotto le condizioni e non puoi salvare l’automazione finché non riduci il numero di valori di riferimento.
       >
       >   Se hai bisogno di più condizioni di quelle consentite dal limite, suddividi il lavoro in due automazioni separate.
       >
-      >   Per ulteriori informazioni, vedere [Utilizzo dei gruppi di filtri](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) in *Sottoscrizioni eventi*.
+      >   Per ulteriori informazioni, vedere [Utilizzo di gruppi di filtri](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) nell&#39;articolo Sottoscrizioni eventi.
 
 1. Aggiorna i campi seguenti nella sezione **Azioni**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo è un campo obbligatorio.
