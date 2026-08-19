@@ -6,7 +6,7 @@ description: Informazioni sui flussi di lavoro di approvazione dei documenti esi
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
@@ -34,8 +34,6 @@ Il passaggio a una versione di Workfront che supporta l’archiviazione cloud di
 | Revisione e markup | Visualizzatore bozze | [Visualizzatore bozze](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) sugli oggetti di archiviazione Workfront legacy o [Visualizzatore Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) sugli oggetti di archiviazione cloud Adobe |
 | Revisione assistita da IA | Non disponibile | Controlli automatici di conformità al brand con [Revisore contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Generazione dei rapporti | Reportistica legacy | Widget per KPI predefinito e [Dashboard canvas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### Cosa succederà alle approvazioni già in corso
 
