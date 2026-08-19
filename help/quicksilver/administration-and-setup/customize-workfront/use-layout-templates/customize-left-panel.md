@@ -23,16 +23,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: 1247
+source-wordcount: 1230
 ht-degree: 5%
 
 ---
 
 # Personalizzare il pannello sinistro utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -40,11 +38,7 @@ In un modello di layout è possibile personalizzare gli elementi visualizzati da
 
 Ad esempio, puoi determinare quali dei seguenti elementi vengono visualizzati dagli utenti nel pannello a sinistra durante la visualizzazione di un progetto:
 
-<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
 ![Pannello sinistro di un progetto](assets/left-panel-in-project-072326.png)
-
-Immagine di esempio nell’ambiente di produzione:
-![Pannello sinistro di un progetto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >

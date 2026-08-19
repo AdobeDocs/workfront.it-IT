@@ -6,16 +6,14 @@ description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1419'
 ht-degree: 3%
 
 ---
 
 # Navigazione a sinistra in [!DNL Adobe Workfront]
-
-{{preview-fast-release-general}}
 
 La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannello di navigazione sul lato sinistro dello schermo. Di seguito sono riportati i vantaggi della navigazione nel pannello sinistro:
 
@@ -264,11 +262,7 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
    Prima di poter modificare le informazioni, è necessario disporre delle autorizzazioni necessarie per modificare l&#39;oggetto.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Sezioni del pannello sinistro](assets/left-navigation-panel-072326.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Sezioni del pannello sinistro](assets/left-navigation-panel.png)
 
 1. (Facoltativo) Per aggiungere un collegamento rapido al dashboard, fai clic su **[!UICONTROL Aggiungi dashboard]** nella parte inferiore del pannello sinistro, quindi effettua le seguenti operazioni:
 
@@ -283,17 +277,9 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
 1. (Facoltativo) Per rimuovere un collegamento rapido a un dashboard, passa il cursore del mouse sul dashboard nell&#39;area di navigazione a sinistra, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-dashboard-from-left.png) quando viene visualizzata.
 
-1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello a sinistra nell&#39;ambiente di produzione, fai clic sull&#39;icona **[!UICONTROL Trascina]** ![Trascina icona](assets/drag-icon.png) accanto a una sezione e trascinala verso l&#39;alto o il basso.
-
-   ![Trascina una sezione](assets/drag-section.png)
-
-   <div class="preview">
-
-   Per modificare l’ordine di una sezione nel pannello di sinistra nell’ambiente di anteprima, fai clic su e trascina la sezione verso l’alto o il basso nella posizione corretta.
+1. (Facoltativo) Per modificare l’ordine di una sezione nel pannello di sinistra, fai clic su e trascina la sezione verso l’alto o il basso nella posizione corretta.
 
    ![Trascina una sezione](assets/click-drag-left-nav-section.png)
-
-   </div>
 
 1. (Facoltativo) Per chiudere il pannello sinistro, fare clic sull&#39;icona **[!UICONTROL Comprimi]** ![](assets/left-panel-collapse-icon.png).
 

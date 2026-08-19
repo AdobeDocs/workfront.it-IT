@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 76%
 
 ---
@@ -165,11 +165,11 @@ I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinis
 
 * Ogni nome API per campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, puoi riutilizzarne uno che è già stato creato per un altro modulo personalizzato.
 
-* Anche se è possibile farlo, ti consigliamo di non modificare questo nome API dopo che tu o altri utenti avete iniziato a utilizzare il modulo personalizzato in Workfront. Se lo facessi, il sistema non riconoscerebbe più il campo personalizzato nei punti di riferimento in altre aree di Workfront.
+* Per impostazione predefinita, i nomi API sono di sola lettura. Anche se è possibile farlo, ti consigliamo di non modificare questo nome API dopo che il modulo personalizzato è stato utilizzato in Workfront. Se lo facessi, il sistema non riconoscerebbe più il campo personalizzato nei punti di riferimento in altre aree di Workfront.
 
   Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome API, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 
-* Per impostazione predefinita, i nomi API sono di sola lettura. Per rendere modificabile il nome API, fai clic sull&#39;icona **Modifica** accanto al **Nome API**. Digitare quindi **confirm** nella casella di conferma e fare clic su **Rinomina campo**.
+  Puoi anche interrompere integrazioni e calcoli esistenti che dipendono dal nome API del campo.
 
 * È consigliabile non digitare un nome API già utilizzato per i campi Workfront incorporati.
 
