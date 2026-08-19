@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -47,12 +44,12 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 * Puoi creare fino a 5 gerarchie per un’area di lavoro.
 * In una gerarchia è possibile connettere fino a 4 tipi di record e di oggetti.
 * In una gerarchia di workspace è possibile connettere solo i seguenti tipi di oggetto:
-   * Tipi di record che appartengono all&#39;area di lavoro in cui si stanno creando le gerarchie.
-   * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo tipo di oggetto in una gerarchia.
+  * Tipi di record che appartengono all&#39;area di lavoro in cui si stanno creando le gerarchie.
+  * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo tipo di oggetto in una gerarchia.
 * Non è possibile aggiungere i seguenti tipi di oggetto in una gerarchia:
-   * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
-   * Tutti gli altri oggetti di Workfront.
-   * Adobe Experience Manager Assets o Frammenti di contenuto.
+  * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
+  * Tutti gli altri oggetti di Workfront.
+  * Adobe Experience Manager Assets o Frammenti di contenuto.
 * Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
 
   È possibile, ad esempio, disporre di un tipo di record Campaign con Tattiche di pianificazione e Progetti Workfront come elementi figlio nella stessa gerarchia dell&#39;area di lavoro.
@@ -64,25 +61,25 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 * Non è possibile eliminare un campo di connessione se il tipo di record a cui si fa riferimento nel campo fa parte di una gerarchia. Prima di eliminare il tipo di record, è necessario rimuovere il tipo di record dalla gerarchia o eliminare la gerarchia.
 * È possibile eliminare un campo di ricerca da un tipo di record connesso. Impossibile recuperare le informazioni nel campo.
 * Di seguito sono riportate le regole per l&#39;impostazione della gerarchia:
-   * Un tipo di record può avere un solo tipo di record padre in una determinata area di lavoro.
+  * Un tipo di record può avere un solo tipo di record padre in una determinata area di lavoro.
 
-     Ad esempio, un tipo di record Tattico non può avere come padre sia un tipo di record Campagna che un tipo di record Obiettivo nella stessa area di lavoro.
-   * Un tipo di record può essere il padre in più gerarchie.
+    Ad esempio, un tipo di record Tattico non può avere come padre sia un tipo di record Campagna che un tipo di record Obiettivo nella stessa area di lavoro.
+  * Un tipo di record può essere il padre in più gerarchie.
 
-     Ad esempio, puoi avere tre gerarchie diverse in un’area di lavoro e ciascuna di esse può avere Campagne come tipo di record principale.
-   * Un record può essere connesso a più record padre dello stesso tipo quando si connette uno a molti o molti a molti tipi di record.
+    Ad esempio, puoi avere tre gerarchie diverse in un’area di lavoro e ciascuna di esse può avere Campagne come tipo di record principale.
+  * Un record può essere connesso a più record padre dello stesso tipo quando si connette uno a molti o molti a molti tipi di record.
 
-     Ad esempio, la tattica A può appartenere sia alla campagna X che alla campagna Y.
-   * Un tipo di record può connettersi a un solo tipo di record figlio alla volta. Un tipo di record figlio può anche essere padre di un altro tipo di record.
+    Ad esempio, la tattica A può appartenere sia alla campagna X che alla campagna Y.
+  * Un tipo di record può connettersi a un solo tipo di record figlio alla volta. Un tipo di record figlio può anche essere padre di un altro tipo di record.
 
-     Ad esempio, un tipo di record Campaign può essere padre di un solo altro tipo di record nella stessa gerarchia (Tactics) e Tactics può essere a sua volta padre di Programmi che possono essere padre di Progetti.
-   * Un tipo di record non può essere il padre in una gerarchia e il figlio in un&#39;altra gerarchia nello stesso workspace.
-   * I tipi di record globali possono essere visualizzati in più aree di lavoro all&#39;interno di più gerarchie, dopo essere stati aggiunti a tali aree.
+    Ad esempio, un tipo di record Campaign può essere padre di un solo altro tipo di record nella stessa gerarchia (Tactics) e Tactics può essere a sua volta padre di Programmi che possono essere padre di Progetti.
+  * Un tipo di record non può essere il padre in una gerarchia e il figlio in un&#39;altra gerarchia nello stesso workspace.
+  * I tipi di record globali possono essere visualizzati in più aree di lavoro all&#39;interno di più gerarchie, dopo essere stati aggiunti a tali aree.
 
-     Ad esempio, se una campagna è un tipo di record globale e fa parte di una gerarchia in Workspace 1, può essere aggiunta come tipo di record esistente a Workspace 2 e può far parte di una gerarchia. Tuttavia, non può far parte di una gerarchia in Workspace 2 solo se designato come tipo di record globale in Workspace 1, ma non aggiunto a Workspace 2.
-   * Quando i tipi di record connessi fanno parte di gerarchie, è possibile collegare un record da un tipo di record figlio a un massimo di 10 record da un tipo di record padre.
+    Ad esempio, se una campagna è un tipo di record globale e fa parte di una gerarchia in Workspace 1, può essere aggiunta come tipo di record esistente a Workspace 2 e può far parte di una gerarchia. Tuttavia, non può far parte di una gerarchia in Workspace 2 solo se designato come tipo di record globale in Workspace 1, ma non aggiunto a Workspace 2.
+  * Quando i tipi di record connessi fanno parte di gerarchie, è possibile collegare un record da un tipo di record figlio a un massimo di 10 record da un tipo di record padre.
 
-     Ad esempio, se crei una gerarchia tra Campagne come record principale e Persona come record secondario, puoi collegare la stessa persona a un massimo di 10 campagne.
+    Ad esempio, se crei una gerarchia tra Campagne come record principale e Persona come record secondario, puoi collegare la stessa persona a un massimo di 10 campagne.
 
 ## Considerazioni durante la visualizzazione delle breadcrumb
 
@@ -97,7 +94,7 @@ Considera i seguenti aspetti:
 * Le breadcrumb vengono visualizzate nell’area di anteprima di un record e nella pagina dei dettagli dei record.
 * Se un tipo di record fa parte di più gerarchie, è possibile passare da una gerarchia all&#39;altra dalla breadcrumb del record nella pagina del record.
 * Se il tipo di record in una gerarchia dispone di più record, è possibile selezionare i record dalla breadcrumb.
-* Le breadcrumb funzionano in Workfront e Planning.
+* Le breadcrumb funzionano in Workfront e Planning, se la tua azienda ha acquistato pacchetti Workfront e Planning.
 
   Ad esempio, quando si esamina un progetto connesso alle campagne e alle tattiche di Planning, nonché ai portfolio e ai programmi di Workfront, è possibile passare sia dal tipo di oggetto Planning che da quello di Workfront dalla breadcrumb.
 
