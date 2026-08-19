@@ -6,9 +6,9 @@ description: Pianifica il rollout di Workfront sull’archiviazione cloud Adobe.
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Se si passa a una versione di Workfront che supporta l’archiviazione cloud di 
 
 Prima di implementare l’archiviazione cloud di Adobe, assicurati che gli utenti che gestiscono le approvazioni sappiano cosa aspettarsi:
 
+* **Cosa succederà alle approvazioni esistenti** I flussi di lavoro di approvazione legacy esistenti sono interessati da questa modifica, sia in corso che completati. Per ulteriori informazioni, vedere [Passare dalle approvazioni dei documenti legacy alle approvazioni unificate](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **Una nuova esperienza di approvazione** I revisori e gli approvatori passano dall&#39;esperienza di approvazione dei documenti legacy alle approvazioni unificate, che aggiungono approvazioni in più fasi, percorsi di revisione paralleli e altro ancora. Per ulteriori informazioni, consulta i seguenti articoli:
 
   * [Introduzione a revisione e approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
