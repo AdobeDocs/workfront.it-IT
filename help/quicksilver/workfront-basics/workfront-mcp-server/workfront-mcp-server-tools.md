@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
+source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2705'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | Trova versione documento per nome | `approvals_find_document_version_by_name` | Cerca l&#39;ID versione corrente di un documento in base al nome file. Supporta le corrispondenze parziali. | Leggi |
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
-| Ottieni documenti per ambito | `approvals_get_documents_by_scope` | Elencare un documento all&#39;interno di un progetto o di una cartella. | Leggi |
+| Ottieni documenti per ambito | `approvals_get_documents_by_scope` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento elencava i documenti all’interno di un progetto o di una cartella. | Leggi |
 | Elencare cartelle collegate ad AEM* | `approvals_list_aem_linked_folders` | Elenca le cartelle di documenti di Workfront collegate a Adobe Experience Manager. | Leggi |
-| Trovare un documento | `approvals_find_document` | Cercare un documento per nome file o ID versione documento | Leggi |
+| Trovare un documento | `approvals_find_document` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento ha cercato un documento in base al nome file o all&#39;ID versione documento. | Leggi |
 | Invio di documenti alla cartella AEM* | `approvals_send_documents_to_aem_folder` | Sposta uno o più documenti Workfront in una cartella collegata ad AEM. | Scrittura |
 
 *Per utilizzare questi strumenti, è necessario che nell&#39;istanza Workfront sia configurata un&#39;integrazione nativa di [!DNL Adobe Experience Manager]. Per ulteriori informazioni, vedere [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -112,6 +112,10 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 | --- | --- | --- | --- |
 | Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
+| Ottieni utente corrente | `approvals_get_current_user` | Rimosso il 13 agosto 2026. Questo strumento ha restituito l&#39;identità Workfront dell&#39;utente chiamante, inclusi nome, ID utente, nome team predefinito e ID team predefinito. Per funzionalità simili, vedere [Ottieni utente corrente](#insights-tools) in Strumenti di approfondimento. | Leggi |
+| Trova utente per nome | `approvals_find_user_by_name` | Obsoleto. Utilizza invece `insights_search_users`. Questo strumento ha cercato l’ID di un utente Workfront per nome (corrispondenza parziale o parziale), restituendo nome, ID, e-mail, titolo e URL avatar. | Leggi |
+| Trova team per nome | `approvals_find_team_by_name` | Obsoleto. Utilizza invece `insights_find_id_by_name`. Questo strumento ha cercato l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
+| Trovare i progetti | `approvals_find_projects` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento cercava progetti Workfront, facoltativamente filtrati per nome e/o limitati ai progetti di proprietà dell’utente chiamante. | Leggi |
 
 ## Strumenti di pianificazione
 
