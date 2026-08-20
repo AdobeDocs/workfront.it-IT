@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4030
+source-wordcount: 4047
 ht-degree: 2%
 
 ---
@@ -181,7 +181,21 @@ Per ulteriori informazioni sulla modifica dei record nella vista tabella, vedere
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-Durante la creazione di una vista tabella, tutti i record del tipo selezionato vengono visualizzati in una tabella. Ogni riga è un record univoco e ogni colonna è un campo record. Tutti i campi e tutti i record vengono visualizzati per impostazione predefinita.
+In una vista tabella, tutti i record del tipo di record selezionato vengono visualizzati in formato tabella. Ogni riga è un record univoco e ogni colonna è un campo record.
+
+Per impostazione predefinita, in una vista tabella vengono visualizzati i seguenti elementi:
+
+* Tutti i campi e tutti i record per il tipo di record selezionato.
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+500 record visualizzati per impostazione predefinita
 
 Per gestire una vista tabella:
 
@@ -288,6 +302,12 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. Premi **Invio** sulla tastiera per passare al successivo campo trovato.
 
@@ -578,7 +598,12 @@ Considera i seguenti aspetti:
 * Quando si esegue il raggruppamento per campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), i record vengono raggruppati per ogni combinazione univoca di valori di campo.
 * È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
 * I raggruppamenti sono elencati in ordine alfabetico dei relativi valori.
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 Per aggiungere un raggruppamento:
 

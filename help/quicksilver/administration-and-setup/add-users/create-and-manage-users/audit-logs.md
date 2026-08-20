@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 3%
@@ -102,14 +102,14 @@ Il sistema genera una voce di registro del livello di accesso quando un utente e
 * Elimina un livello di accesso
 * Modifica un livello di accesso:
 
-   * Modifica il tipo di licenza
-   * Modifica le autorizzazioni per progetti, attività, problemi, portafogli, programmi, report, documenti, utenti o modelli
+  * Modifica il tipo di licenza
+  * Modifica le autorizzazioni per progetti, attività, problemi, portafogli, programmi, report, documenti, utenti o modelli
 
-     >[!NOTE]
-     >
-     >Il sistema non registra alcuna modifica delle autorizzazioni per Financial Data o all&#39;interno dei seguenti tipi di accesso: Visualizza e Modifica.
-     >
-     >Ad esempio, se un utente modifica il tipo di accesso Planner da Vista a Modifica, il sistema non visualizza le informazioni contenute nel menu a discesa Ottimizza impostazioni.
+    >[!NOTE]
+    >
+    >Il sistema non registra alcuna modifica delle autorizzazioni per Financial Data o all&#39;interno dei seguenti tipi di accesso: Visualizza e Modifica.
+    >
+    >Ad esempio, se un utente modifica il tipo di accesso Planner da Vista a Modifica, il sistema non visualizza le informazioni contenute nel menu a discesa Ottimizza impostazioni.
 
 ### Profili aziendali
 
@@ -121,16 +121,16 @@ Il sistema genera una voce del registro di controllo Profilo aziendale quando un
 
 ### Regole di business
 
-Le regole business sono disponibili solo per i clienti che hanno acquistato un piano Workfront di Ultimate. Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Le regole business sono disponibili solo per i clienti che hanno acquistato un pacchetto Ultimate Workfront. Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Il sistema genera una voce del registro di controllo Regola aziendale quando un utente esegue una delle operazioni seguenti:
 
 * Crea una regola business
 * Modifica una regola business:
 
-   * Rinomina
-   * Aggiunge o rimuove espressioni
-   * Modifica un trigger
+  * Rinomina
+  * Aggiunge o rimuove espressioni
+  * Modifica un trigger
 
 * Elimina una regola business
 
@@ -141,13 +141,13 @@ Il sistema genera una voce del registro di audit aziendale quando un utente effe
 * Crea una società
 * Cambia una società:
 
-   * Rinomina
-   * Aggiunge o rimuove membri
-   * Aggiunge, modifica o elimina il valore nel relativo campo Gruppo
-   * Aggiunge o modifica una tariffa di fatturazione della società per una mansione
-   * Rimuove una tariffa di fatturazione della società per una mansione
-   * Imposta la società come società principale per l&#39;organizzazione
-   * Allega o rimuove un modulo personalizzato
+  * Rinomina
+  * Aggiunge o rimuove membri
+  * Aggiunge, modifica o elimina il valore nel relativo campo Gruppo
+  * Aggiunge o modifica una tariffa di fatturazione della società per una mansione
+  * Rimuove una tariffa di fatturazione della società per una mansione
+  * Imposta la società come società principale per l&#39;organizzazione
+  * Allega o rimuove un modulo personalizzato
 
 * Elimina una società
 
@@ -160,11 +160,11 @@ Il sistema genera una voce del registro di controllo Condizione quando un utente
 * Crea una condizione
 * Modifica una condizione:
 
-   * Modifica il nome
-   * Cambia il colore
-   * Imposta come predefinito
-   * Modifica o rimuove la descrizione della condizione
-   * Nasconde o mostra la condizione
+  * Modifica il nome
+  * Cambia il colore
+  * Imposta come predefinito
+  * Modifica o rimuove la descrizione della condizione
+  * Nasconde o mostra la condizione
 
 * Elimina una condizione
 
@@ -177,21 +177,21 @@ Il sistema genera una voce del registro di controllo del campo personalizzato qu
 * Crea un campo personalizzato
 * Modifica un campo personalizzato:
 
-   * Modifica il nome API, l’etichetta, le istruzioni o il formato
-   * Modifica il tipo di visualizzazione
+  * Modifica il nome API, l’etichetta, le istruzioni o il formato
+  * Modifica il tipo di visualizzazione
 
-     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, elenco a discesa, casella di controllo, pulsante di opzione
+    Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, elenco a discesa, casella di controllo, pulsante di opzione
 
-   * Modifica le dimensioni del campo
+  * Modifica le dimensioni del campo
 
-     Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo RTF
+    Questa opzione è disponibile solo se il campo è di uno dei tipi seguenti: riga singola, paragrafo, testo RTF
 
-   * Aggiunge, rimuove o nasconde una scelta di campo.
-   * Modifica un&#39;etichetta o un valore di scelta del campo
-   * Configura la scelta del campo da selezionare o meno per impostazione predefinita
-   * Configura un campo a discesa per consentire più selezioni o una singola selezione
-   * Configura un campo data per visualizzare o meno l’ora del giorno
-   * Modifica il collegamento ipertestuale o modifica il valore in un campo di testo descrittivo
+  * Aggiunge, rimuove o nasconde una scelta di campo.
+  * Modifica un&#39;etichetta o un valore di scelta del campo
+  * Configura la scelta del campo da selezionare o meno per impostazione predefinita
+  * Configura un campo a discesa per consentire più selezioni o una singola selezione
+  * Configura un campo data per visualizzare o meno l’ora del giorno
+  * Modifica il collegamento ipertestuale o modifica il valore in un campo di testo descrittivo
 
 * Elimina un campo personalizzato
 * Condivide un campo personalizzato
@@ -203,17 +203,17 @@ Il sistema genera una voce del registro di controllo di Forms personalizzato qua
 * Crea un modulo personalizzato
 * Modifica un modulo personalizzato:
 
-   * Modifica il nome o la descrizione
-   * Abilita o disabilita è attivo
-   * Aggiunge o rimuove un campo o una sezione
-   * Per una sezione personalizzata, modifica un’impostazione in Impostazioni aggiuntive
-   * Modifica un campo in obbligatorio o non obbligatorio
-   * Modifica un calcolo in un campo personalizzato
-   * Nasconde o visualizza la formula associata a un campo calcolato nel testo delle istruzioni al passaggio del mouse
-   * Attiva o disattiva Aggiorna calcoli precedenti
-   * Aggiunge o modifica la logica del campo
+  * Modifica il nome o la descrizione
+  * Abilita o disabilita è attivo
+  * Aggiunge o rimuove un campo o una sezione
+  * Per una sezione personalizzata, modifica un’impostazione in Impostazioni aggiuntive
+  * Modifica un campo in obbligatorio o non obbligatorio
+  * Modifica un calcolo in un campo personalizzato
+  * Nasconde o visualizza la formula associata a un campo calcolato nel testo delle istruzioni al passaggio del mouse
+  * Attiva o disattiva Aggiorna calcoli precedenti
+  * Aggiunge o modifica la logica del campo
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +237,9 @@ Il sistema genera una voce del registro di controllo Tasso di cambio quando un u
 * Crea un tasso di cambio
 * Modifica un tasso di cambio:
 
-   * Aggiunge una valuta
-   * Modifica il tasso di cambio per la valuta
-   * Imposta la valuta come valuta di base (predefinita) per tutti i progetti e i report nel sistema
+  * Aggiunge una valuta
+  * Modifica il tasso di cambio per la valuta
+  * Imposta la valuta come valuta di base (predefinita) per tutti i progetti e i report nel sistema
 
 * Elimina un tasso di cambio
 
@@ -253,8 +253,8 @@ Il sistema genera una voce del registro di controllo Gruppo quando un utente ese
 * Elimina un gruppo
 * Modifica un gruppo:
 
-   * Aggiunge o rimuove utenti
-   * Aggiunge o rimuove sottogruppi
+  * Aggiunge o rimuove utenti
+  * Aggiunge o rimuove sottogruppi
 
 ### Ruoli {#job-role}
 
@@ -263,10 +263,10 @@ Il sistema genera una voce del registro di controllo Ruoli processo quando un ut
 * Crea una mansione
 * Cambia una mansione:
 
-   * Modifica il nome
-   * Aggiunge, modifica o rimuove la descrizione.
-   * Aggiunge, modifica o rimuove il costo orario (Costo orario).
-   * Aggiunge, modifica o rimuove la tariffa di fatturazione (Fatturazione oraria).
+  * Modifica il nome
+  * Aggiunge, modifica o rimuove la descrizione.
+  * Aggiunge, modifica o rimuove il costo orario (Costo orario).
+  * Aggiunge, modifica o rimuove la tariffa di fatturazione (Fatturazione oraria).
 
 * Elimina una mansione
 
@@ -299,11 +299,11 @@ Il sistema genera una voce del registro di controllo Priority quando un utente e
 * Crea una priorità
 * Modifica una priorità:
 
-   * Modifica il nome
-   * Cambia il colore
-   * Imposta come predefinito
-   * Aggiunge, modifica o rimuove la descrizione della priorità
-   * Nasconde o mostra la priorità
+  * Modifica il nome
+  * Cambia il colore
+  * Imposta come predefinito
+  * Aggiunge, modifica o rimuove la descrizione della priorità
+  * Nasconde o mostra la priorità
 
 * Elimina una priorità
 
@@ -316,10 +316,10 @@ Il sistema genera una voce del registro di controllo Preferenze progetto quando 
 * Crea un trimestre personalizzato
 * Modifica le preferenze di un progetto:
 
-   * Blocca o sblocca
-   * Modifica una delle impostazioni
-   * Abilita, disabilita o modifica l&#39;elemento
-   * Modifica un calcolo della sequenza temporale
+  * Blocca o sblocca
+  * Modifica una delle impostazioni
+  * Abilita, disabilita o modifica l&#39;elemento
+  * Modifica un calcolo della sequenza temporale
 
 * Elimina un trimestre personalizzato
 
@@ -332,11 +332,11 @@ Il sistema genera una voce del registro di controllo Gravità quando un utente e
 * Crea una gravità del problema
 * Modifica la gravità di un problema:
 
-   * Modifica il nome
-   * Cambia il colore
-   * Imposta come predefinito
-   * Modifica o rimuove la descrizione della gravità
-   * Nasconde o mostra la gravità
+  * Modifica il nome
+  * Cambia il colore
+  * Imposta come predefinito
+  * Modifica o rimuove la descrizione della gravità
+  * Nasconde o mostra la gravità
 
 * Elimina la gravità di un problema
 
@@ -349,11 +349,11 @@ Il sistema genera una voce del registro di controllo dello stato quando un utent
 * Crea uno stato a livello di sistema o di gruppo
 * Modifica uno stato a livello di sistema o di gruppo:
 
-   * Rinomina
-   * Imposta lo stato predefinito
-   * Blocca o sblocca
-   * Nasconde o rivela
-   * Modifica il colore o la descrizione
+  * Rinomina
+  * Imposta lo stato predefinito
+  * Blocca o sblocca
+  * Nasconde o rivela
+  * Modifica il colore o la descrizione
 
 * Elimina uno stato a livello di sistema o di gruppo
 

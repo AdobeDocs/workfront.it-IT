@@ -4,9 +4,9 @@ content-type: reference
 description: Scopri come utilizzare i collaboratori attività, i collaboratori IA che possono essere assegnati alle attività di Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività di Workfront, oltre al collaboratore IA di tipo revisore esistente utilizzato per le revisioni di documenti e risorse. Come altri collaboratori AI, i collaboratori attività sono configurati nell’area Configura e assegnati alle attività proprio come un utente.
 
-I collaboratori attività si connettono agli agenti configurati, come in un server MCP.
+I collaboratori attività si connettono agli agenti configurati in Copilot Studio, Claude o Writer.
 
 Per informazioni e istruzioni sulla creazione di un collaboratore attività in Workfront, vedere [Configurare un collaboratore attività](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) nell&#39;articolo Configurare i collaboratori IA.
 
@@ -63,9 +63,28 @@ Alcuni flussi di lavoro di esempio possono includere:
 >[!NOTE]
 >
 >* Dettagli specifici sulle responsabilità e sulle capacità di un agente sono configurati nell’applicazione in cui viene creato l’agente, non in Workfront.
+>* Non è necessario aggiungere il server MCP di Workfront all&#39;agente utilizzato come collaboratore di task e non è necessario connettersi affinché il collaboratore di task funzioni.
 >* I collaboratori attività supportano attualmente gli agenti creati in Copilot Studio, Claude e Writer.ai.
 >* Durante la configurazione di un agente in Copilot Studio, è necessario impostare la protezione su **Nessuna autenticazione**.
 >* Per informazioni e istruzioni sulla creazione di un collaboratore attività in Workfront, vedere [Configurare un collaboratore attività](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) nell&#39;articolo Configurare i collaboratori IA.
+
+## Informazioni lette da un collaboratore attività
+
+Quando un Collaboratore attività inizia a lavorare su un&#39;attività, legge automaticamente come contesto le seguenti informazioni sull&#39;attività:
+
+* Titolo attività
+* Descrizione attività
+* Commenti nel flusso di aggiornamento dell&#39;attività
+* Informazioni in qualsiasi modulo personalizzato allegato all’attività
+
+Queste informazioni vengono sempre lette e non sono configurabili come impostazioni di Workfront.
+
+>[!TIP]
+>
+>Per ottenere risultati ottimali, consigliamo di:
+>
+>* Includere tutte le informazioni di sfondo che si desidera vengano utilizzate direttamente dall&#39;agente nella descrizione dell&#39;attività o in un campo modulo personalizzato appropriato.
+>* Assicurati che l’attività corrisponda a quanto il tuo agente è istruito a fare. Ad esempio, se il tuo agente è istruito a tradurre il testo dall’inglese al francese, includi il testo che desideri tradurre nella descrizione dell’attività.
 
 ## Trigger di avvio di Collaborator attività
 
