@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -110,8 +110,8 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Trova progetto per nome | `approvals_find_project_by_name` | Cerca i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
-| Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Elenca i progetti Workfront di cui l&#39;utente chiamante è il proprietario. | Leggi |
+| Trova progetto per nome | `approvals_find_project_by_name` | Rimosso il 13 agosto 2026. Utilizza invece `insights_find_id_by_name`. Questo strumento cercava i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
+| Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Rimosso il 13 agosto 2026. Utilizza invece `insights_find_workfront_data`. Questo strumento elencava i progetti Workfront di cui era proprietario l’utente chiamante. | Leggi |
 | Ottieni utente corrente | `approvals_get_current_user` | Rimosso il 13 agosto 2026. Questo strumento ha restituito l&#39;identità Workfront dell&#39;utente chiamante, inclusi nome, ID utente, nome team predefinito e ID team predefinito. Per funzionalità simili, vedere [Ottieni utente corrente](#insights-tools) in Strumenti di approfondimento. | Leggi |
 | Trova utente per nome | `approvals_find_user_by_name` | Obsoleto. Utilizza invece `insights_search_users`. Questo strumento ha cercato l’ID di un utente Workfront per nome (corrispondenza parziale o parziale), restituendo nome, ID, e-mail, titolo e URL avatar. | Leggi |
 | Trova team per nome | `approvals_find_team_by_name` | Obsoleto. Utilizza invece `insights_find_id_by_name`. Questo strumento ha cercato l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
