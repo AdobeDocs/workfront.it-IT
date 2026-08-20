@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 16%
+source-wordcount: 544
+ht-degree: 15%
 
 ---
 
@@ -89,7 +89,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr>
      <tr>
       <td role="rowheader"><strong>Membri del gruppo</strong></td>
-      <td><p> Aggiungere singolarmente gli utenti al Pool di Risorse.<br>Oppure <br>Aggiungere contemporaneamente un numero elevato di utenti al Pool di Risorse. Puoi aggiungere una delle seguenti entità associate a utenti o a una raccolta di utenti:
+      <td><p> Aggiungere singolarmente gli utenti al Pool di Risorse.<br>Oppure <br>Aggiungere contemporaneamente un numero elevato di utenti al gruppo di risorse. Puoi aggiungere una delle seguenti entità associate a utenti o a una raccolta di utenti:
         <ul>
          <li><strong>Team</strong>: tutti i membri del team vengono aggiunti al Pool di Risorse.</li>
          <li><strong>Gruppi</strong>: tutti i membri del gruppo vengono aggiunti al Pool di Risorse.</li>

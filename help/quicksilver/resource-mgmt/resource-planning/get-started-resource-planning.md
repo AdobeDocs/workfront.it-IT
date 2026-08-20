@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 È possibile utilizzare gli strumenti di pianificazione delle risorse per gestire le mansioni, la loro disponibilità e l&#39;allocazione generale ai progetti in base a tale disponibilità.
 
-L&#39;allocazione generale degli utenti budget ai progetti non li assegna al lavoro effettivo (attività e problemi). È necessario assegnare le risorse al lavoro utilizzando il Bilanciatore dei carichi di lavoro.
+L&#39;allocazione generale degli utenti budget ai progetti non li assegna al lavoro effettivo (attività e problemi). È necessario assegnare le risorse per lavorare utilizzando il Bilanciatore dei carichi di lavoro.
 
 Per ulteriori informazioni sulla pianificazione delle risorse in Workfront tramite il Bilanciatore dei carichi di lavoro, consulta [Panoramica sul Bilanciatore dei carichi di lavoro](../workload-balancer/overview-workload-balancer.md).
 
@@ -55,7 +55,7 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
 
 * Per allocazioni budget per un singolo progetto: utilizzare la pianificazione risorse a livello di progetto nell&#39;area Budget risorse del caso aziendale di un progetto. Per informazioni sulla definizione del budget delle risorse per un progetto, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Per gestire gli utenti e organizzarli in pool in base alle competenze comuni o alla struttura di reparto e quindi gestire le allocazioni per i progetti a cui sono assegnati, è necessario creare pool di risorse. Per ulteriori informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Per gestire gli utenti, organizzarli in pool in base alle competenze comuni o alla struttura di reparto e quindi gestire le allocazioni per i progetti a cui sono assegnati, è necessario creare pool di risorse. Per ulteriori informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -69,9 +69,9 @@ Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende 
 
 * Utilizzando la Programmazione delle risorse puoi effettuare le seguenti operazioni:
 
-   * Dai priorità ai tuoi progetti per decidere quali progetti devono ricevere prima le risorse. (Solo nella pianificazione risorse)
-   * Comprendi la disponibilità delle risorse in base alla pianificazione degli utenti.
-   * Preventivare le allocazioni di ore, FTE o costi per le risorse (utenti e mansioni) per i progetti a cui sono assegnate.
+  * Dai priorità ai tuoi progetti per decidere quali progetti devono ricevere prima le risorse. (Solo nella pianificazione risorse)
+  * Comprendi la disponibilità delle risorse in base alla pianificazione degli utenti.
+  * Preventivare le allocazioni di ore, FTE o costi per le risorse (utenti e mansioni) per i progetti a cui sono assegnate.
 
   Per informazioni sull&#39;utilizzo di Pianificazione risorse, vedere l&#39;articolo [Panoramica di Pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 

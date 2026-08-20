@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 10%
 
 ---
@@ -77,11 +77,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step-1-to-users}}
 
-1. Seleziona la casella accanto al nome di un utente dall&#39;elenco, quindi fai clic su **Modifica**.
+1. Selezionare la casella di controllo accanto al nome di un utente nell&#39;elenco, quindi fare clic su **Modifica**.
 1. Fare clic su **Pianificazione risorse**.
 1. Inizia a digitare il nome di un pool di risorse che desideri associare all&#39;utente nel campo **Pool di risorse**, quindi selezionalo dall&#39;elenco, quando viene visualizzato.\
    È possibile associare più pool di risorse a un utente.\
-   ![aggiungi_pool_risorse_a_utente.png](assets/add-resource-pool-to-user-350x307.png)
+   ![Aggiungi pool di risorse all&#39;utente](assets/add-resource-pool-to-user.png)
 
 1. Fai clic su **Salva modifiche**.
 

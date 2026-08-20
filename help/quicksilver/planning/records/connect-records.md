@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 2%
 
 ---
@@ -596,13 +596,17 @@ I record e gli oggetti vengono aggiunti immediatamente.
    >
    >È necessario aggiungere record connessi al record corrente per visualizzarli nella pagina dei record connessi.
 
-1. Fare clic su **Connetti** in un elenco di record o su **Connetti record** in un elenco di progetti per aggiungere o rimuovere record o progetti esistenti.
+1. Fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per aggiungere o rimuovere record o progetti esistenti.
 
-   ![Pulsante Connetti evidenziato nella scheda dei dettagli del record connesso](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Fare clic su **Nuova riga** in un elenco di progetti per creare un progetto senza modello. I nuovi progetti vengono automaticamente connessi al record corrente.
 1. (Facoltativo) Se non riesci a trovare un record connesso, fai clic su **+ Aggiungi** per crearlo e connetterlo.
+1. Fai clic su **Nuova riga** per creare un record. I nuovi record vengono collegati automaticamente al record corrente.
+
 
 ## Connetti record da oggetti Workfront
 
