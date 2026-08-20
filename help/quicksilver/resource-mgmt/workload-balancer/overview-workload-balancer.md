@@ -8,24 +8,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 92%
 
 ---
 
@@ -44,7 +35,7 @@ Dopo che i project manager hanno pianificato il lavoro sui progetti creando atti
 
 >[!IMPORTANT]
 >
->Puoi utilizzare il bilanciamento dei carichi di lavoro per assegnare il lavoro effettivo (attività e problemi) agli utenti.
+>È possibile utilizzare il Bilanciatore dei carichi di lavoro per assegnare il lavoro effettivo (attività e problemi) a utenti e collaboratori attività.
 >
 >Devi utilizzare la pianificazione risorse e non il bilanciamento dei carichi di lavoro per stimare le allocazioni delle mansioni per i progetti, a un alto livello. Per ulteriori informazioni sulla pianificazione risorse, consulta [Panoramica sulla pianificazione risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -114,28 +105,25 @@ Per informazioni sulla creazione e l’utilizzo dei filtri nel bilanciamento dei
 
 * Gli utenti di cui desideri gestire il carico di lavoro devono soddisfare i seguenti criteri in modo che le informazioni sulla loro disponibilità e sulle loro competenze siano accurate:
 
-   * Disporre di pianificazioni e mansioni associate al loro profilo.
+  * Disporre di pianificazioni e mansioni associate al loro profilo.
 
-     Per ulteriori informazioni sull’associazione di pianificazioni e mansioni agli utenti, consulta [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * Se un utente non è associato a una pianificazione, la pianificazione predefinita del sistema Workfront viene associata all’utente per impostazione predefinita, ai fini della gestione delle risorse.
-   * Avere le eccezioni di pianificazione aggiornate nelle loro pianificazioni.
+    Per ulteriori informazioni sull’associazione di pianificazioni e mansioni agli utenti, consulta [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * Se un utente non è associato a una pianificazione, la pianificazione predefinita del sistema Workfront viene associata all’utente per impostazione predefinita, ai fini della gestione delle risorse.
+  * Avere le eccezioni di pianificazione aggiornate nelle loro pianificazioni.
 
-     Per ulteriori informazioni sulla creazione di pianificazioni, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    Per ulteriori informazioni sulla creazione di pianificazioni, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Avere il calendario delle indisponibilità aggiornato nel loro profilo.
+  * Avere il calendario delle indisponibilità aggiornato nel loro profilo.
 
-     Per informazioni sull’aggiornamento del calendario delle indisponibilità di un utente, consulta [Configurare l’indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    Per informazioni sull’aggiornamento del calendario delle indisponibilità di un utente, consulta [Configurare l’indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * L’amministratore di Workfront deve determinare il modo in cui Workfront calcola la disponibilità degli utenti. Può decidere se Workfront utilizza la pianificazione predefinita del sistema o la pianificazione dell’utente per calcolare il tempo in cui l’utente è disponibile a lavorare modificando le preferenze di Gestione risorse nell’area Configurazione di Workfront.
 
   Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* È possibile assegnare il lavoro a un collaboratore alle attività in tutti gli stessi modi in cui il lavoro viene assegnato a un utente. Il Collaboratore attività deve esistere in Workfront prima di poter essere assegnato alle attività.
+
+  Per informazioni sulla creazione di collaboratori attività, vedere [Configurare un collaboratore attività](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) nell&#39;articolo [Configurare i collaboratori IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Best practice per la configurazione di attività e problemi {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -143,20 +131,19 @@ Prima di iniziare ad assegnare il lavoro agli utenti nel Bilanciatore dei carich
 
 * Le attività principali non sono assegnate a utenti o ruoli. Le attività principali non vengono visualizzate nel Bilanciatore dei carichi di lavoro.
 * Le attività e i problemi hanno un valore per Ore pianificate maggiore di zero.
-
-* Le attività e i problemi hanno un valore per Durata maggiore di zero.
+* Per le attività e i problemi il valore Durata è maggiore di zero.
 * Le Date pianificate dei problemi rientrano nella timeline del progetto.
 
 ## Prima di iniziare a utilizzare il Bilanciatore dei carichi di lavoro
 
 * Rivedi i seguenti articoli prima di iniziare a utilizzare il Bilanciatore dei carichi di lavoro:
 
-   * Questo articolo illustra come navigare nel Bilanciatore dei carichi di lavoro per eseguire le seguenti azioni: [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
+  * Questo articolo illustra come navigare nel Bilanciatore dei carichi di lavoro per eseguire le seguenti azioni: [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * I seguenti articoli descrivono come assegnare lavoro e gestire le allocazioni utente:
+  * I seguenti articoli descrivono come assegnare lavoro e gestire le allocazioni utente:
 
-      * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Gestire le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Gestire le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * Il Bilanciatore dei carichi di lavoro è disponibile in diverse aree di Workfront. Per informazioni su dove trovare il Bilanciatore dei carichi di lavoro, consulta [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

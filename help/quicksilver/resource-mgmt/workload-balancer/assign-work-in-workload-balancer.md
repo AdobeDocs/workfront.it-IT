@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1104
 ht-degree: 3%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 3%
 
 <!-- Audited: 5/2025 -->
 
-In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei carichi di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati agli utenti e assegnare loro tali elementi.
+In qualità di responsabile delle risorse, è possibile utilizzare il Bilanciatore dei carichi di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati a utenti e collaboratori attività, nonché assegnare tali elementi a essi.
 
 Per informazioni generali sul Bilanciatore dei carichi di lavoro, consulta [Panoramica sul Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
@@ -51,10 +44,10 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
 * Le Preferenze Di Gestione Risorse. L&#39;amministratore di Workfront determina il modo in cui viene calcolato il tempo disponibile per il sistema selezionando l&#39;opzione per utilizzare una delle opzioni seguenti nell&#39;area Gestione risorse in Configurazione:
 
-   * La pianificazione predefinita del sistema Workfront e l&#39;FTE dell&#39;utente.
-   * La pianificazione dell’utente, come indicato nell’area Profilo utente.
+  * La pianificazione predefinita del sistema Workfront e l&#39;FTE dell&#39;utente.
+  * La pianificazione dell’utente, come indicato nell’area Profilo utente.
 
-     In questo modo viene calcolata la disponibilità giornaliera e settimanale dell’utente. Eventuali eccezioni alla pianificazione selezionate si riflettono nella capacità dell’utente nel Bilanciatore dei carichi di lavoro.
+    In questo modo viene calcolata la disponibilità giornaliera e settimanale dell’utente. Eventuali eccezioni alla pianificazione selezionate si riflettono nella capacità dell’utente nel Bilanciatore dei carichi di lavoro.
 
   Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -172,9 +165,9 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 * Le attività o i problemi vengono in genere prima assegnati a una o più mansioni o a un team. Quando i progetti sono pronti per essere avviati, potrebbe essere necessario assegnarli anche agli utenti.\
   Se un’attività o un problema è assegnato a uno o più ruoli e successivamente si assegna anche un utente, Adobe Workfront decide quale ruolo associare all’utente aggiuntivo (se presente) in base alle seguenti regole:
 
-   * Se è stata assegnata una sola mansione e questa corrisponde alla mansione principale dell’utente, l’attività o il problema viene assegnato solo all’utente che svolge la sua mansione principale.
-   * Se sono stati assegnati più ruoli e almeno uno dei ruoli corrisponde ai ruoli secondari dell’utente, l’attività o il problema viene assegnato all’utente che svolge uno dei suoi Altri ruoli, che Workfront seleziona in modo casuale in caso di più corrispondenze, nonché a eventuali ruoli aggiuntivi assegnati.
-   * Se sono state assegnate una o più mansioni e non vi sono corrispondenze ai ruoli dell’utente, l’attività o il problema viene assegnato sia al ruolo o alle mansioni che all’utente.
+  * Se è stata assegnata una sola mansione e questa corrisponde alla mansione principale dell’utente, l’attività o il problema viene assegnato solo all’utente che svolge la sua mansione principale.
+  * Se sono stati assegnati più ruoli e almeno uno dei ruoli corrisponde ai ruoli secondari dell’utente, l’attività o il problema viene assegnato all’utente che svolge uno dei suoi Altri ruoli, che Workfront seleziona in modo casuale in caso di più corrispondenze, nonché a eventuali ruoli aggiuntivi assegnati.
+  * Se sono state assegnate una o più mansioni e non vi sono corrispondenze ai ruoli dell’utente, l’attività o il problema viene assegnato sia al ruolo o alle mansioni che all’utente.
 
 * Se un’attività o un problema è assegnato a un team e si assegna anche un utente, l’attività o il problema rimane assegnato sia al team che all’utente.
 

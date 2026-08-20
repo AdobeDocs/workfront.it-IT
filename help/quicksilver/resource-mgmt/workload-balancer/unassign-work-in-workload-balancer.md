@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 TQID: https://experienceleague.adobe.com/AREKzNODjF60azs3tXIndVE9QuXXw-14Qlv2nUl9Po4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 13%
+source-wordcount: 387
+ht-degree: 12%
 
 ---
 
 # Annullare l’assegnazione del lavoro nel bilanciamento dei carichi di lavoro
 
-È possibile annullare l’assegnazione degli utenti agli elementi di lavoro nell’area Lavoro assegnato del Bilanciatore dei carichi di lavoro di Adobe Workfront o riassegnarli ad altri utenti, ruoli o team.
+È possibile annullare l’assegnazione degli utenti agli elementi di lavoro nell’area Lavoro assegnato del Bilanciatore dei carichi di lavoro di Adobe Workfront o riassegnarli ad altri utenti, collaboratori attività, ruoli o team.
 
 È possibile annullare l’assegnazione degli utenti agli elementi di lavoro manualmente, trascinandoli o in blocco. Questo articolo descrive come annullare l’assegnazione manuale degli utenti.
 
@@ -75,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Annullare l’assegnazione degli elementi di lavoro nel Bilanciatore dei carichi di lavoro
 
-È possibile annullare l&#39;assegnazione degli elementi agli utenti e spostarli nell&#39;area Lavoro non assegnato oppure riassegnarli ad altri utenti.
+È possibile annullare l&#39;assegnazione degli elementi agli utenti e spostarli nell&#39;area Lavoro non assegnato oppure riassegnarli ad altri utenti o collaboratori attività.
 
 Per annullare l&#39;assegnazione degli elementi di lavoro agli utenti:
 

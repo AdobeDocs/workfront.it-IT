@@ -8,24 +8,14 @@ author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: 1227
 ht-degree: 3%
 
 ---
@@ -50,23 +40,23 @@ Workfront dispone di diversi set di strumenti utilizzati per gestire le risorse.
 
 * Per pianificare il modo in cui le risorse vengono allocate a un livello superiore, prima dell&#39;inizio del lavoro effettivo sui progetti, utilizzare i seguenti strumenti:
 
-   * **Pianificazione risorse**: è possibile utilizzare la Pianificazione risorse nella prima fase della gestione delle risorse per pianificare il tempo del progetto per le risorse in base alla disponibilità pianificata. Durante la fase di pianificazione delle risorse, è possibile organizzare gli utenti in pool di risorse e assegnare più pool di risorse a un progetto.
+  * **Pianificazione risorse**: è possibile utilizzare la Pianificazione risorse nella prima fase della gestione delle risorse per pianificare il tempo del progetto per le risorse in base alla disponibilità pianificata. Durante la fase di pianificazione delle risorse, è possibile organizzare gli utenti in pool di risorse e assegnare più pool di risorse a un progetto.
 
-     Per ulteriori informazioni sulla pianificazione delle risorse, vedere [Pianificazione risorse: indice articolo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+    Per ulteriori informazioni sulla pianificazione delle risorse, vedere [Pianificazione risorse: indice articolo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **Pianificazione scenario**: si tratta di una pianificazione di livello superiore delle risorse che consente di gestirle in più iniziative che possono estendersi su un piano di uno, tre o cinque anni e includere più progetti. È possibile utilizzare lo scenario migliore per sfruttare al massimo la disponibilità e il budget.
+  * **Pianificazione scenario**: si tratta di una pianificazione di livello superiore delle risorse che consente di gestirle in più iniziative che possono estendersi su un piano di uno, tre o cinque anni e includere più progetti. È possibile utilizzare lo scenario migliore per sfruttare al massimo la disponibilità e il budget.
 
-     La Pianificazione scenario richiede una licenza separata, oltre alla licenza Workfront. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../scenario-planner/scenario-planner-overview.md).
+    La Pianificazione scenario richiede una licenza separata, oltre alla licenza Workfront. Per informazioni su Pianificazione scenari di Workfront, consulta [Panoramica su Pianificazione scenari](../../scenario-planner/scenario-planner-overview.md).
 
-     <!--   
+    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * Per programmare o assegnare risorse al lavoro effettivo (attività e problemi), utilizzare lo strumento seguente:
 
-   * **Bilanciatore dei carichi di lavoro**: appartiene a una fase di livello inferiore della gestione delle risorse, in cui è possibile assegnare le risorse al lavoro effettivo (attività e problemi) che devono completare, in base alla quantità di ore necessarie per completarle e alla loro disponibilità. Utilizzando il Bilanciatore dei carichi di lavoro è possibile assegnare gli utenti al lavoro effettivo attualmente non assegnato o assegnato a mansioni.
+  * **Bilanciatore dei carichi di lavoro**: appartiene a una fase di livello inferiore della gestione delle risorse, in cui è possibile assegnare le risorse al lavoro effettivo (attività e problemi) che devono completare, in base alla quantità di ore necessarie per completarle e alla loro disponibilità. Utilizzando il Bilanciatore dei carichi di lavoro è possibile assegnare utenti o collaboratori alle attività al lavoro effettivo attualmente non assegnato o assegnato a mansioni.
 
-     Per informazioni sul Bilanciatore dei carichi di lavoro di Workfront, vedere [Bilanciatore dei carichi di lavoro: indice articolo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+    Per informazioni sul Bilanciatore dei carichi di lavoro di Workfront, vedere [Bilanciatore dei carichi di lavoro: indice articolo](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -88,9 +78,9 @@ Workfront dispone di diversi set di strumenti utilizzati per gestire le risorse.
 -->
 * Per analizzare le allocazioni preventivate, pianificate ed effettive per più progetti, utilizzare lo strumento seguente:
 
-   * **Report utilizzo**: utilizzare questo report per visualizzare l&#39;utilizzo delle risorse per i progetti. È possibile confrontare le allocazioni preventivate, pianificate ed effettive per i progetti e il relativo impatto sui costi e sui ricavi dei progetti.
+  * **Report utilizzo**: utilizzare questo report per visualizzare l&#39;utilizzo delle risorse per i progetti. È possibile confrontare le allocazioni preventivate, pianificate ed effettive per i progetti e il relativo impatto sui costi e sui ricavi dei progetti.
 
-     Per informazioni sul report Utilizzo, vedere [Visualizzare le informazioni sull&#39;utilizzo delle risorse](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+    Per informazioni sul report Utilizzo, vedere [Visualizzare le informazioni sull&#39;utilizzo delle risorse](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Componenti del processo Gestione risorse
 
@@ -103,40 +93,43 @@ Il processo di gestione delle risorse in Workfront prevede le seguenti fasi:
 * **Configurazione**: in qualità di amministratore di sistema, manager delle risorse o proprietario del progetto, è necessario configurare alcuni campi e oggetti nell&#39;istanza di Workfront prima di gestire le risorse. Per ulteriori informazioni sui prerequisiti necessari per iniziare a gestire le risorse in Workfront, vedere la sezione [Prerequisiti per una gestione accurata delle risorse](#prerequisites-for-accurate-resource-management) in questo articolo.\
   Oltre a disporre di progetti con elementi di lavoro, è necessario configurare i seguenti elementi in Workfront:
 
-   * Utenti\
-     Per ulteriori informazioni sulla creazione di utenti, vedere l&#39;articolo [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  * Utenti\
+    Per ulteriori informazioni sulla creazione di utenti, vedere l&#39;articolo [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-   * Ruoli\
-     Per ulteriori informazioni sulla creazione di ruoli, vedere l&#39;articolo [Creare e gestire ruoli](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  * Ruoli\
+    Per ulteriori informazioni sulla creazione di ruoli, vedere l&#39;articolo [Creare e gestire ruoli](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-   * Pianificazioni\
-     Per ulteriori informazioni sulla creazione di pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  * Collaboratori attività
+    Per ulteriori informazioni sulla creazione di collaboratori attività, vedere [Configurare un collaboratore attività](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) nell&#39;articolo [Configurare i collaboratori IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
-   * Preferenze progetto
+  * Pianificazioni\
+    Per ulteriori informazioni sulla creazione di pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     >[!TIP]
-     >
-     >Solo un amministratore di sistema o di gruppo può modificare le preferenze di progetto per il sistema o per il gruppo.
+  * Preferenze progetto
 
-     Per ulteriori informazioni sulla definizione delle preferenze di progetto, vedere l&#39;articolo [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    >[!TIP]
+    >
+    >Solo un amministratore di sistema o di gruppo può modificare le preferenze di progetto per il sistema o per il gruppo.
 
-   * Gruppi di risorse
+    Per ulteriori informazioni sulla definizione delle preferenze di progetto, vedere l&#39;articolo [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-     Per ulteriori informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  * Gruppi di risorse
 
-   * Preferenze di gestione delle risorse
+    Per ulteriori informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-     In qualità di sistema, è necessario decidere in che modo Workfront calcola la disponibilità dell&#39;utente a livello di sistema, utilizzando la pianificazione dell&#39;utente o la pianificazione predefinita del sistema.
+  * Preferenze di gestione delle risorse
 
-     Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+    In qualità di sistema, è necessario decidere in che modo Workfront calcola la disponibilità dell&#39;utente a livello di sistema, utilizzando la pianificazione dell&#39;utente o la pianificazione predefinita del sistema.
+
+    Per ulteriori informazioni, consulta [Configurare le preferenze di gestione delle risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Allocazione risorse**: in qualità di responsabile risorse o di proprietario di un progetto, puoi definire l&#39;allocazione delle risorse per i tuoi progetti e assegnare lavoro. Per questo passaggio è possibile gestire la stima dell&#39;allocazione delle risorse utilizzando la Programmazione delle risorse o la Pianificazione scenario e assegnare il lavoro effettivo agli utenti nel Bilanciatore dei carichi di lavoro.
 
   Per ulteriori informazioni sulla pianificazione delle risorse e sull&#39;assegnazione del lavoro, vedere le sezioni seguenti:
 
-   * [Pianificazione delle risorse: indice degli articoli](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: indice degli articoli](../../scenario-planner/scenario-planning.md)
-   * [Bilanciamento dei carichi di lavoro: indice degli articoli](../../resource-mgmt/workload-balancer/workload-balancer.md)
+  * [Pianificazione delle risorse: indice degli articoli](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  * [[!DNL Adobe Workfront Scenario Planner]: indice degli articoli](../../scenario-planner/scenario-planning.md)
+  * [Bilanciamento dei carichi di lavoro: indice degli articoli](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -159,9 +152,9 @@ Devi essere uno dei seguenti utenti e disporre dei seguenti diritti di accesso e
 
   Oltre a disporre di una licenza Lavoro o superiore (o di una licenza Standard), per utilizzare strumenti specifici di gestione delle risorse è necessario disporre dei seguenti elementi:
 
-   * Accesso di modifica alla gestione delle risorse (non necessario per effettuare assegnazioni nel Bilanciatore dei carichi di lavoro)
-   * Modifica l&#39;accesso ai dati finanziari, incluso l&#39;accesso a Visualizza o Modifica tassi di costo e Visualizza o Modifica contabilità generale, per visualizzare le informazioni sui costi nella Programmazione risorse
-   * Visualizzazione dell&#39;accesso ai dati finanziari, incluso l&#39;accesso a Visualizza o Modifica tassi di costo e Visualizza contabilità generale, per visualizzare le informazioni su costi e ricavi nel rapporto Utilizzo (solo utenti con una licenza Pianificazione o Standard)
+  * Accesso di modifica alla gestione delle risorse (non necessario per effettuare assegnazioni nel Bilanciatore dei carichi di lavoro)
+  * Modifica l&#39;accesso ai dati finanziari, incluso l&#39;accesso a Visualizza o Modifica tassi di costo e Visualizza o Modifica contabilità generale, per visualizzare le informazioni sui costi nella Programmazione risorse
+  * Visualizzazione dell&#39;accesso ai dati finanziari, incluso l&#39;accesso a Visualizza o Modifica tassi di costo e Visualizza contabilità generale, per visualizzare le informazioni su costi e ricavi nel rapporto Utilizzo (solo utenti con una licenza Pianificazione o Standard)
 
 * Autorizzazioni di Contribute o superiori che includono Make Assignments (Crea assegnazioni) per i progetti per i quali si desidera gestire le risorse.
 
