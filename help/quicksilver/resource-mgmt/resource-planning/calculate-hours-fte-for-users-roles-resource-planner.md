@@ -8,19 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 2%
@@ -60,7 +53,7 @@ L’amministratore di Workfront determina il modo in cui viene calcolato il temp
 * La pianificazione predefinita del sistema e l&#39;FTE dell&#39;utente.
 * La pianificazione dell’utente.
 
-![Impostazione di sistema per le pianificazioni utente](assets/setup-resource-mgmt.png)
+![Impostazione di sistema per le pianificazioni utente](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +63,31 @@ In base alla configurazione di questa impostazione, la disponibilità degli uten
 
 * **Pianificazione predefinita**: la pianificazione predefinita del sistema e l&#39;FTE dell&#39;utente vengono utilizzati per determinare le ore disponibili e il valore FTE dell&#39;utente nella pianificazione risorse. La pianificazione dell’utente viene ignorata. In questo caso:
 
-   * Le ore disponibili nella Programmazione delle risorse vengono calcolate utilizzando la formula seguente:
+  * Le ore disponibili nella Programmazione delle risorse vengono calcolate utilizzando la formula seguente:
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Ad esempio, se la programmazione predefinita prevede 40 ore settimanali disponibili per il lavoro e l&#39;FTE dell&#39;utente è 0,5, l&#39;utente è disponibile a lavorare 20 ore settimanali nella Programmazione delle risorse.
+    Ad esempio, se la programmazione predefinita prevede 40 ore settimanali disponibili per il lavoro e l&#39;FTE dell&#39;utente è 0,5, l&#39;utente è disponibile a lavorare 20 ore settimanali nella Programmazione delle risorse.
 
-     Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * L&#39;FTE disponibile per l&#39;utente nella Programmazione delle risorse corrisponde all&#39;FTE utente specificato nelle impostazioni utente.
+  * L&#39;FTE disponibile per l&#39;utente nella Programmazione delle risorse corrisponde all&#39;FTE utente specificato nelle impostazioni utente.
 
-     Ad esempio, se l’FTE dell’utente è 0,5 nelle impostazioni utente, l’FTE disponibile dell’utente è 0,5 nella Programmazione delle risorse. Per ulteriori informazioni sul valore dell&#39;FTE utente visualizzato nelle impostazioni utente, vedere [Modifica del profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Ad esempio, se l’FTE dell’utente è 0,5 nelle impostazioni utente, l’FTE disponibile dell’utente è 0,5 nella Programmazione delle risorse. Per ulteriori informazioni sul valore dell&#39;FTE utente visualizzato nelle impostazioni utente, vedere [Modifica del profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Pianificazione dell&#39;utente**: la pianificazione dell&#39;utente viene utilizzata per determinare la disponibilità dell&#39;utente nella Programmazione delle risorse. Il valore dell&#39;FTE utente viene ignorato. In questo caso:
 
-   * Le ore disponibili nella Programmazione delle risorse sono le stesse della programmazione dell&#39;utente.
+  * Le ore disponibili nella Programmazione delle risorse sono le stesse della programmazione dell&#39;utente.
 
-     Ad esempio, se la programmazione dell&#39;utente prevede 40 ore settimanali disponibili per il lavoro, l&#39;utente è disponibile a lavorare per 40 ore settimanali nella Programmazione delle risorse.
+    Ad esempio, se la programmazione dell&#39;utente prevede 40 ore settimanali disponibili per il lavoro, l&#39;utente è disponibile a lavorare per 40 ore settimanali nella Programmazione delle risorse.
 
-   * L&#39;FTE disponibile nella programmazione delle risorse viene calcolato con la formula seguente:
+  * L&#39;FTE disponibile nella programmazione delle risorse viene calcolato con la formula seguente:
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Ad esempio, se la pianificazione dell’utente ha 20 ore disponibili per lavorare e la pianificazione predefinita in Workfront ha 40 ore disponibili per lavorare, l’FTE dell’utente è 0,5.
+    Ad esempio, se la pianificazione dell’utente ha 20 ore disponibili per lavorare e la pianificazione predefinita in Workfront ha 40 ore disponibili per lavorare, l’FTE dell’utente è 0,5.
 
-     Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -104,8 +97,9 @@ In base alla configurazione di questa impostazione, la disponibilità degli uten
 
 Prima di tutto è necessario calcolare la disponibilità dell&#39;utente, quindi è possibile calcolare la disponibilità di ciascuna mansione.
 
-La disponibilità dei ruoli nella pianificazione risorse tiene conto della disponibilità totale dell&#39;utente e della percentuale di disponibilità FTE associata a ciascun ruolo dell&#39;utente.\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+La disponibilità dei ruoli nella pianificazione risorse tiene conto della disponibilità totale dell&#39;utente e della percentuale di disponibilità FTE associata a ciascun ruolo dell&#39;utente.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 Per ulteriori informazioni sull&#39;associazione di un valore Percentuale di disponibilità FTE a una mansione per un utente, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

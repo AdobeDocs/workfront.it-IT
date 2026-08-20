@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 6%
 
 ---
@@ -120,12 +112,12 @@ Prima di disattivare una mansione non utilizzata, è consigliabile effettuare le
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su&#x200B; **[!UICONTROL Ruoli].**
-1. (Facoltativo) Nel menu a discesa **[!UICONTROL Filtro]**, seleziona **[!UICONTROL Attivo]** per visualizzare solo i ruoli attivi.
-1. Fare clic sul nome della mansione che si desidera disattivare.
-1. Nel menu a discesa **[!UICONTROL È attivo]**, selezionare **[!UICONTROL No]**.
+1. (Facoltativo) Nell&#39;elenco **[!UICONTROL Filtri]**, selezionare **[!UICONTROL Attivo]** per visualizzare solo i ruoli attivi.
+1. Selezionare la casella di controllo accanto alla mansione che si desidera disattivare e fare clic sull&#39;icona [!UICONTROL **Modifica**] [Modifica icona](assets/edit-icon.png).
+1. Per il campo **[!UICONTROL È attivo]**, selezionare **[!UICONTROL No]**.
 
-   ![Disattiva mansione](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Disattiva mansione](assets/edit-job-role.png)
 
-1. Fai clic su **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    Il ruolo è disattivato e non può più essere assegnato al lavoro, associato ai modelli di layout e così via. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedere [Panoramica sulle mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
