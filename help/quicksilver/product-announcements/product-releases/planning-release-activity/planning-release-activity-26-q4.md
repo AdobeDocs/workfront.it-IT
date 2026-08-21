@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Intestazioni di colonna aggiornate per i campi record collegati dipendenti
+
+>[!NOTE]
+>
+>Anteprima: 20 agosto 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Sono stati apportati miglioramenti visivi alle intestazioni di colonna per un campo record connesso dipendente nella visualizzazione per tabella.
+
+Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Miglioramenti alla vista tabella quando si trascinano e rilasciano più righe
 
@@ -63,22 +75,6 @@ Se il modulo di assegnazione include un campo Workspace e l’utente seleziona u
 
 Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Presentazione delle competenze di Workfront Planning Solution Architect
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >Anteprima: 10 agosto 2026
 >Produzione: 10 agosto 2026
 
-Stiamo mettendo a disposizione una nuova competenza, Workfront Planning Solution Architect, che fornisce a Claude le best practice e la guida agentica per Workfront Planning. Nell’interfaccia di Claude, ora puoi effettuare le seguenti operazioni:
+Stiamo rilasciando una nuova competenza, Workfront Planning Solution Architect, che porta a Claude una guida agentica e basata su best practice per Workfront Planning:
 
-* Configurare una nuova area di lavoro di Planning in base ai requisiti aziendali, con il server MCP Workfront che esegue la configurazione nell&#39;ambiente.
-* Controlla una configurazione esistente per gli antipasti su larga scala.
-* Verifica l’utilizzo rispetto ai limiti consigliati.
-* Poni le tue domande su Planning.
+* **Configurare** nuove aree di lavoro di Planning da specificare, con il server Workfront MCP che esegue l&#39;installazione nell&#39;ambiente.
+* **Controlla** le configurazioni esistenti per gli antipasti su larga scala.
+* **Controllare l&#39;utilizzo** in base ai limiti consigliati (record, connessioni, profondità gerarchia).
+* **Fai domande** su Planning in qualsiasi momento.
+
+Oltre alla configurazione iniziale, l’abilità supporta la governance in corso rilevando la deriva della configurazione prima che causi attrito, segnalando i limiti in avvicinamento prima che diventino bloccanti, imponendo standard coerenti in ogni area di lavoro indipendentemente da chi la configura e fornendo risposte precise a chiunque nel team senza attendere uno specialista. Questo insieme copre l’intero ciclo di vita della corretta configurazione di un’area di lavoro e del suo mantenimento in questo modo con la crescita dell’utilizzo.
 
 Per informazioni, consulta [Abilità disponibili per l&#39;installazione diretta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
 

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 6%
 
 ---
@@ -81,7 +81,7 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
 1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
 
-   ![Area finanza nella visualizzazione dettagli](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Area finanza nella visualizzazione dettagli](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +147,15 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
 
 ## Modificare le informazioni finanziarie su un progetto
 
-In qualità di proprietario del progetto, è possibile modificare le informazioni nella scheda secondaria Finanza di un progetto.
+In qualità di proprietario del progetto, puoi modificare le informazioni nell’area Finanza di un progetto.
 
-Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
+Per modificare le informazioni nell&#39;area Finanza progetto:
 
-1. Vai a un progetto di cui sei il proprietario.
+1. Vai a un progetto di tua proprietà.
 
    >[!NOTE]
    >
-   >Per eseguire i passaggi seguenti, è necessario disporre delle autorizzazioni di gestione per il progetto. È inoltre consigliabile che solo il proprietario del progetto apporti modifiche alla scheda secondaria Finanza del progetto.
+   >Per eseguire i passaggi seguenti, è necessario disporre delle autorizzazioni di gestione per il progetto. È inoltre consigliabile che solo il proprietario del progetto apporti modifiche all&#39;area Finanza del progetto.
 
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
 1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**. Verrà aperta l&#39;area Finanza per la modifica.
@@ -165,13 +165,11 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
    >
    >I campi non sono disponibili per la modifica se vengono calcolati automaticamente da Workfront o se non si dispone di autorizzazioni di modifica su di essi.
 
-   ![Modifica area contabilità](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. Aggiorna uno dei campi seguenti.
+1. Aggiorna uno dei campi elencati di seguito.
 
    >[!NOTE]
    >
-   >A seconda di come l’amministratore di Workfront configura il modello di layout, i campi nella sezione Dettagli progetto potrebbero essere diversi nel tuo ambiente. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >A seconda della configurazione del modello di layout da parte dell’amministratore di Workfront, i campi nella sezione Dettagli progetto potrebbero essere diversi nell’ambiente in uso. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

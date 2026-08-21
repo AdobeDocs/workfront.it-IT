@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 455
+ht-degree: 10%
 
 ---
 
@@ -89,10 +89,10 @@ Per accedere alla sezione Planner nell&#39;area Risorse:
 
 Il Planner viene visualizzato per impostazione predefinita.  Per informazioni sulla definizione del budget delle risorse nella Programmazione delle risorse, vedere l&#39;articolo [Risorse preventivo nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![Pianificazione risorse predefinita](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Pianificazione risorse predefinita](assets/default-resource-planner.png)
 
 1. Fai clic su **Pool di Risorse** nel pannello a sinistra.
-Per informazioni sulla creazione dei pool di risorse, vedere [Creare i pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utilizzare la Programmazione delle risorse per un progetto {#use-the-resource-planner-for-one-project}
 
@@ -105,8 +105,8 @@ Quando si utilizza la pianificazione risorse per un progetto, i numeri di alloca
 
    >[!TIP]
    >
-   >È possibile aggiungere un gruppo di risorse nell&#39;area Budget risorse del Business Case solo se al progetto non è associato alcun gruppo di risorse. Quando il progetto ha già un Pool di Risorse, gli utenti nel pool e le loro mansioni vengono visualizzati nell&#39;area Budget risorse per impostazione predefinita.
+   >È possibile aggiungere un gruppo di risorse nell&#39;area Budget risorse del Business Case solo se al progetto non è associato alcun gruppo di risorse. <!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![Impostazione budget risorse](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Impostazione budget risorse](assets/resource-budgeting-area-on-project.png)
 
    Per informazioni sulla definizione del budget delle risorse per un progetto, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

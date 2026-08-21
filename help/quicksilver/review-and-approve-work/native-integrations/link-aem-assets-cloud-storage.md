@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Collegare contenuti e cartelle da Experience Manager Assets con l’archiviazione cloud Adobe
-description: Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare contenuti e cartelle da Experience Manager Assets a qualsiasi oggetto Adobe Workfront che supporti i documenti.
+title: Collegare le risorse da Experience Manager Assets con l’archiviazione cloud Adobe
+description: Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare le risorse da Experience Manager Assets a qualsiasi oggetto Adobe Workfront che supporta i documenti.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 7%
 
 ---
 
-# Collegare contenuti e cartelle da Experience Manager Assets con l’archiviazione cloud Adobe
+# Collegare le risorse da Experience Manager Assets con l’archiviazione cloud Adobe
 
-Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare contenuti e cartelle da Experience Manager Assets a Workfront. Una volta effettuato il collegamento, puoi visualizzare e gestire il contenuto in Workfront; eventuali modifiche apportate al contenuto in Experience Manager Assets verranno applicate anche in Workfront.
+Se la tua organizzazione utilizza l’archiviazione cloud di Adobe, puoi collegare le risorse da Experience Manager Assets a Workfront. Una volta effettuato il collegamento, puoi visualizzare e gestire le risorse in Workfront; eventuali modifiche apportate alle risorse in Experience Manager Assets verranno applicate anche in Workfront.
 
 >[!IMPORTANT]
 >
->Se l&#39;organizzazione rifiuta di firmare l&#39;accordo GenAI Rider, è comunque possibile utilizzare Contenuto verificato per scegliere risorse e cartelle in Experience Manager Assets, ma non sarà possibile accedere alle funzioni basate sull&#39;intelligenza artificiale, ad esempio Ricerca IA, suggerimenti avanzati o analisi delle descrizioni delle campagne.
+>Se l&#39;organizzazione rifiuta di firmare l&#39;accordo GenAI Rider, è comunque possibile utilizzare Contenuto verificato per scegliere le risorse in Experience Manager Assets, ma non sarà possibile accedere alle funzioni basate sull&#39;intelligenza artificiale, ad esempio Ricerca IA, suggerimenti avanzati o analisi dei resoconti delle campagne.
 
 ## Requisiti di accesso
 

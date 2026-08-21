@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14435'
 ht-degree: 93%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 93%
     * [Introduzione a Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Panoramica dell’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Autorizzazioni di oggetto e panoramica del livello di accesso per il modello di archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [Passa dalle approvazioni di documenti legacy alle approvazioni unificate](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Configurare e gestire le approvazioni di risorse e documenti {#manage-asset-review-and-approval}
       * [Configurare e gestire approvazioni unificate: indice degli articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Creare e gestire i brand per il revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
@@ -2069,6 +2070,7 @@ ht-degree: 93%
     * [Introduzione alla bozza e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introduzione all’integrazione della bozza e di GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Collegare le risorse da Experience Manager Assets con l’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Guida introduttiva ad Adobe Express e Workfront con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
     * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
