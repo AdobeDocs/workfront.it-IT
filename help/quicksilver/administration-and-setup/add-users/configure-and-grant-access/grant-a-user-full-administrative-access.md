@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 7%
 
 ---
@@ -358,6 +358,14 @@ Gli utenti con una licenza Standard o Plan che possono modificare le funzionalit
    <td>Sistema: Preferenze</td> 
    <td>Accesso completo</td> 
    <td>Nessun accesso</td> 
+  <tr> 
+   <td>Tracciamento delle modifiche: configurazione</td> 
+   <td>Accesso completo</td> 
+   <td>Nessun accesso</td> 
+  <tr> 
+   <td>Tracciamento delle modifiche: elenco Cronologia modifiche</td> 
+   <td>Accesso completo</td> 
+   <td>Accesso completo</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Gli utenti con una licenza Standard o Plan che possono modificare le funzionalit
   <tr> 
    <th>Area/oggetto</th> 
    <th>Amministratore Workfront </th> 
-   <th>Utente con una licenza Pianificazione e alcuni diritti amministrativi</th> 
+   <th>Utente con una licenza Standard o Plan e alcuni diritti di amministratore</th> 
   </tr> 
  </thead> 
  <tbody> 
