@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/p
 >Anteprima: 13 agosto 2026
 >Versione rapida di produzione: 13 agosto 2026
 >Produzione per tutti: 15 ottobre 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Sono disponibili nuovi indicatori visivi quando si trascinano e rilasciano più righe nella vista tabella. Un segno più e un indicatore numerico più evidenti ora mostrano quante righe sono selezionate per l’azione di trascinamento della selezione.
 
