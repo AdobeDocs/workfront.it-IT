@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 757
 ht-degree: 7%
 
 ---
@@ -68,13 +68,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Modifica schede orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Schede orario**.
+{{step1-to-timesheets}}
 
-   Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
+Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![](assets/search-icon.png), digita una parola chiave e cerca una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
+1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png), digita una parola chiave e cerca una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -86,21 +86,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
-   >
-   >   
-   >   
-   >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facoltativo) Fai clic sulle icone **Visualizza** ![](assets/view-icon.png) o **Raggruppamento** ![](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o per crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona ![&#128279;](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) dell&#39;icona **Visualizza** Visualizza per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 
@@ -108,7 +102,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [Creare o modificare le visualizzazioni in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Creare raggruppamenti in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Seleziona una o più schede orario, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle schede orario.
+1. Seleziona una o più schede orario, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle schede orario.
 1. Visualizza o specifica le informazioni seguenti:
 
    <table style="table-layout:auto"> 
@@ -146,7 +140,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td> <p>Selezionare questa opzione se si desidera consentire agli approvatori di modificare le ore nella scheda orario.</p> <p>Questa opzione non è disponibile quando si selezionano più schede orario. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Straordinari</span> </td> 
+      <td role="rowheader"><strong>Straordinari</strong> </td> 
       <td> <p>È possibile scegliere di nascondere la casella Straordinari nella scheda attività.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
      </tr> 
     </tbody> 

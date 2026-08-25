@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 755
-ht-degree: 7%
+source-wordcount: 742
+ht-degree: 8%
 
 ---
 
@@ -77,11 +77,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Eliminare le schede orario in un elenco
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario per le quali si dispone dell&#39;accesso.
+Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario per le quali si dispone dell&#39;accesso.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -93,21 +93,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
-   >
-   >   
-   >   
-   >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facoltativo) Fai clic sulle icone **Visualizza** ![](assets/view-icon.png) o **Raggruppamento** ![](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o per crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona **Visualizza** ![Visualizza](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 
@@ -115,7 +109,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [Creare o modificare le visualizzazioni in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Creare raggruppamenti in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Seleziona una o più schede orario da eliminare e fai clic sull&#39;icona **Elimina** ![](assets/delete.png) nella parte superiore dell&#39;elenco delle schede orario.
+1. Seleziona una o più schede orario da eliminare e fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete.png) nella parte superiore dell&#39;elenco delle schede orario.
 
 1. Fai clic su **Elimina**.
 
@@ -131,9 +125,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Eliminare una scheda orario dalla pagina della scheda orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
+
 1. Fai clic sulla scheda orario da eliminare per aprirla.
-1. Fai clic sull&#39;icona [!UICONTROL **Altro**] ![](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
+1. Fai clic sull&#39;icona [!UICONTROL **Altro**] ![Icona Altro](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
 
    ![Elimina scheda orario dalla pagina della scheda orario](assets/delete-timesheet-from-timesheet-page.png)
 1. Fai clic su [!UICONTROL **Elimina**] per confermare.

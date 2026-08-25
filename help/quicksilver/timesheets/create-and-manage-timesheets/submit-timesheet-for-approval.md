@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 828
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ Per inviare una scheda orario per l&#39;approvazione:
 1. Tempo di connessione, come descritto in [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Fai clic su **Invia per approvazione** per avviare il processo di approvazione della scheda orario.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Pulsante Invia per approvazione](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    Il pulsante **Invia per approvazione** è sostituito dai pulsanti **Approva**, **Rifiuta** e **Richiama**. Lo stato della scheda orario diventa **Inviato**.
 
@@ -101,10 +101,11 @@ Senza queste notifiche, puoi scoprire lo stato delle schede orario inviate nell�
 
 Per visualizzare lo stato di una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
-1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+Il filtro **All** è selezionato per impostazione predefinita.
+
+![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -116,19 +117,13 @@ Per visualizzare lo stato di una scheda orario:
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
-   >
-   >   
-   >   
-   >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Condizionale) Se hai selezionato **Le mie schede orario**, accertati che sia applicata la visualizzazione **Standard** e osserva la colonna **Stato**.
 
@@ -167,10 +162,9 @@ Per visualizzare lo stato di una scheda orario:
 
 Per richiamare una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**.
-1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtra** ![](assets/filter-nwepng.png).
+1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtro** ![Icona filtro](assets/filter-nwepng.png).
 1. Fare clic sull&#39;intervallo di tempo per una scheda orario con stato **Inviato**.
 1. Fare clic su **Richiama**.
 

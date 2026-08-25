@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 434
 ht-degree: 12%
 
 ---
@@ -62,6 +62,8 @@ In qualità di utente con una licenza Standard o Plan, puoi configurare se effet
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Configurare la registrazione dell’ora
 
 1. Effettua una delle seguenti operazioni, a seconda dell’obiettivo e del livello di accesso nel sistema:
 

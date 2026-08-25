@@ -6,10 +6,10 @@ description: La cronologia modifiche consente di visualizzare un registro delle 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '523'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-La cronologia delle modifiche consente di configurare e tenere traccia delle modifiche apportate a oggetti e campi specifici in Adobe Workfront. La configurazione flessibile ti consente di impostare esattamente quali oggetti e campi desideri monitorare.
+La cronologia delle modifiche consente all’amministratore di sistema di configurare e tenere traccia delle modifiche apportate a oggetti e campi specifici in Adobe Workfront. La configurazione flessibile consente all’amministratore di impostare esattamente quali oggetti e campi vengono tracciati.
 
-La cronologia modifiche consente di tenere traccia dei seguenti tipi di dati definiti:
+La cronologia delle modifiche consente di tenere traccia dei seguenti tipi di dati definiti:
 
 * Attività nell’area Configura, ad esempio creazione o eliminazione di un livello di accesso o di una mansione
 * Aggiornamenti a livello di campo, ad esempio la modifica della descrizione di un progetto o del modello di layout di un utente
@@ -35,6 +35,11 @@ Nell&#39;elenco Cronologia modifiche è possibile visualizzare il registro delle
 * Tipo di modifica (operazione)
 * Data e ora della modifica
 * Source della modifica, ad esempio utenti specifici, API, Workfront Fusion, AI LLM o Workfront
+
+>[!NOTE]
+>
+>Quando si accede a Cronologia modifiche, le revisioni vengono visualizzate solo per i campi per i quali si dispone delle autorizzazioni di visualizzazione.
+>Se ad esempio si tiene traccia dei dati finanziari nei progetti e non si ha accesso ai dati finanziari, i campi finanziari non verranno visualizzati nell&#39;elenco Cronologia modifiche.
 
 ## Requisiti di accesso
 
@@ -62,25 +67,6 @@ Nell&#39;elenco Cronologia modifiche è possibile visualizzare il registro delle
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## Visualizzare l&#39;elenco Cronologia modifiche
 
