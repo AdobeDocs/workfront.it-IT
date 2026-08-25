@@ -6,10 +6,10 @@ description: Puoi eliminare un profilo di scheda orario che potrebbe non essere 
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 17%
+source-wordcount: '259'
+ht-degree: 18%
 
 ---
 
@@ -56,20 +56,22 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step-1-to-setup}}
 
-1. Se stai eliminando un profilo di scheda orario a livello di sistema, fai clic su **Scheda orario e ore**.
+1. Se si elimina un profilo di scheda orario a livello di sistema, fare clic su **Schede orario e ore > Profili scheda orario**.
 
    Oppure
 
-   Se elimini un profilo di scheda orario per un gruppo, fai clic su **Gruppi** > fai clic sul nome del gruppo, quindi fai clic su **Profili scheda orario**.
-1. Seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png) > **Elimina** per il profilo di scheda orario a livello di sistema
+   Se si sta eliminando un profilo di scheda orario per un gruppo, fare clic su **Gruppi** > fare clic sul nome del gruppo, quindi fare clic su **Profili scheda orario**.
 
-1. Fare clic su **Profili scheda orario**.
-1. Seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic sull&#39;icona Altro ![icona Altro](assets/more-icon.png) > **Elimina**.
-Oppure
-Fai clic su **Altro** > **Elimina** per il profilo della scheda orario a livello di gruppo.
+1. Per il livello di sistema, seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png) > **Elimina**.
+
+   Oppure
+
+   Fai clic su **Altro** > **Elimina** per il profilo della scheda orario a livello di gruppo.
+
 1. (Condizionale) Se il profilo scheda orario è già assegnato agli utenti, viene visualizzata la casella **Profilo scheda orario sostitutivo**. Effettua le seguenti operazioni:
    1. Seleziona un altro profilo di scheda orario dall’elenco a discesa. Il profilo della scheda orario che stai eliminando verrà sostituito dal profilo della scheda orario con cui lo sostituisci per tutti gli utenti assegnati. Le schede orario verranno generate in base al nuovo profilo assegnato nel seguente ciclo di generazione della scheda orario.
    1. Fai clic su **Elimina** per confermare l&#39;eliminazione.
+
 1. (Condizionale) Se il profilo della scheda orario non è assegnato agli utenti, viene visualizzata la casella **Elimina scheda orario**.
 
    Fai clic su **Elimina** per confermare l&#39;eliminazione.
