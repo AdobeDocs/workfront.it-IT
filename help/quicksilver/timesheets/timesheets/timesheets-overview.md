@@ -8,21 +8,14 @@ author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: 525
 ht-degree: 3%
 
 ---
@@ -68,17 +61,17 @@ Per accedere a una scheda orario:
 
 Per impostazione predefinita, vengono visualizzate tutte le schede orario e le schede orario a cui hai accesso. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Panoramica del layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
 
-![](assets/all-timesheets-list-nwe-350x68.png)
+![Elenco di tutte le schede orario](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Fai clic su una delle seguenti opzioni nell’angolo superiore destro per visualizzare le schede orario:
 
    * **Le mie schede orario** per visualizzare solo le tue schede orario.
 
-   ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   ![Elenco Timesheets personali](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
    * **Le mie approvazioni schede orario** per visualizzare solo le schede orario che hai approvato.
 
-     ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![Elenco schede orario approvate](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. (Facoltativo) Aggiorna la visualizzazione, il filtro e il raggruppamento nella parte superiore dell’elenco delle schede orario. Per ulteriori informazioni, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).

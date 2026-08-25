@@ -7,20 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 4%
+source-wordcount: 831
+ht-degree: 5%
 
 ---
 
@@ -97,9 +92,8 @@ I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati 
 
 Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività complessiva è simile a commentare altri oggetti.
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu Linee](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro o su Workfront, se disponibile.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento.
 1. Fai clic su **Aggiornamenti** nel pannello a sinistra, quindi fai clic sulla scheda **Commenti**.
 1. Inizia ad aggiungere nuovi commenti o rispondi a quelli esistenti, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -129,9 +123,8 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 ### Commento su una singola immissione di ore in una scheda orario {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su **Scheda orario** nel pannello a sinistra.
 1. Fai clic nel campo di immissione ore in cui desideri inserire un commento e fai clic su **Commento** per aggiungere un commento per la voce ore.
 
@@ -168,8 +161,8 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 È possibile aggiungere commenti solo alle attività e ai problemi di una scheda orario. Non è possibile aggiungere commenti ai progetti o all&#39;ora generale.
 
-1. Fai clic sull&#39;icona [!UICONTROL **Main Menu**] ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
-1. Fai clic su [!UICONTROL **Schede orario**].
+{{step1-to-timesheets}}
+
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su [!UICONTROL **Scheda orario**] nel pannello a sinistra.
 1. Fai clic sulla riga di un&#39;attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].
 1. Inizia a digitare un aggiornamento nell&#39;area [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].

@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
+source-wordcount: 4292
 ht-degree: 1%
 
 ---
@@ -122,12 +117,12 @@ Puoi registrare il tempo ai seguenti elementi nella scheda orario:
 
 Per registrare l’ora su una scheda orario:
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Fai clic su [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
-   ![Scheda orario](assets/timesheet-layout-leftnav-updated.png)
+La scheda orario corrente viene visualizzata per impostazione predefinita.
+![Scheda orario](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **a schermo intero** ![](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, quindi fai clic sull&#39;icona **a schermo intero** ![](assets/exit-full-screen.png) per tornare alla scheda orario.
+1. (Facoltativo) Fai clic sull&#39;icona **schermo intero** ![icona a schermo intero](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, quindi fai clic sull&#39;icona **esci da schermo intero** ![esci da schermo intero](assets/exit-full-screen.png) per tornare alla scheda orario.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +159,7 @@ Per registrare l’ora su una scheda orario:
 
    <!--(ensure this stays accurate)-->
 
-1. (Facoltativo) Fai clic sulle icone **Comprimi** ![](assets/collapse-icon.png) o **Espandi** ![](assets/expand-icon.png) accanto al nome del progetto per visualizzare o nascondere l&#39;elenco delle attività e dei problemi del progetto.
+1. (Facoltativo) Fai clic sull&#39;icona **Comprimi** ![Comprimi](assets/collapse-icon.png) o **Espandi** ![Espandi icona](assets/expand-icon.png) accanto al nome del progetto per visualizzare o nascondere l&#39;elenco delle attività e dei problemi del progetto.
 
 
    >[!TIP]
@@ -178,7 +173,7 @@ Per registrare l’ora su una scheda orario:
    >     * Maiusc + Opzione + freccia Giù per computer Mac.
 
 
-1. (Facoltativo) Per fissare manualmente un elemento da visualizzare automaticamente sulla scheda orario, passa il puntatore del mouse sul nome dell&#39;elemento e fai clic sull&#39;icona **pin** ![](assets/empty-pin-icon.png).
+1. (Facoltativo) Per fissare manualmente un elemento da visualizzare automaticamente sulla scheda orario, passa il puntatore del mouse sul nome dell&#39;elemento e fai clic sull&#39;icona **pin** ![pin icona](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -186,7 +181,7 @@ Per registrare l’ora su una scheda orario:
    >   * Opzione + P per computer Windows e Mac.
 
 
-1. (Facoltativo) Fare clic sull&#39;icona di ricerca ![](assets/search-icon.png) e iniziare a digitare una parola chiave per trovare un progetto, un&#39;attività o un problema nella scheda attività.
+1. (Facoltativo) Fai clic sull&#39;icona di ricerca ![Icona di ricerca](assets/search-icon.png) e inizia a digitare una parola chiave per trovare un progetto, un&#39;attività o un problema nella scheda orario.
 
 1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegnare manualmente le mansioni alle ore**, selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -214,7 +209,7 @@ Per registrare l’ora su una scheda orario:
    >
    >Se si desidera mantenere il tipo di ora disattivato associato all&#39;ora registrata in precedenza, è consigliabile aggiungere una nuova riga per l&#39;elemento di lavoro per il quale si desidera registrare ulteriore tempo e selezionare un nuovo tipo di ora.
 
-1. Fai clic sull&#39;icona **elimina** ![](assets/delete.png) accanto alla mansione per rimuoverla. Viene rimosso anche qualsiasi orario registrato per il ruolo.
+1. Fai clic sull&#39;icona **elimina** ![Elimina](assets/delete.png) accanto alla mansione per rimuoverla. Viene rimosso anche qualsiasi orario registrato per il ruolo.
 
    >[!TIP]
    >
@@ -249,7 +244,7 @@ Per registrare l’ora su una scheda orario:
 
 1. (Facoltativo) Fai clic su **Commento** per aggiungere un commento alla tua immissione di ore.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Pulsante Commento nel registro ore della scheda orario riprogettata](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +347,7 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 1. Vai alla **Home**.
 1. Aggiungi il widget **Il mio lavoro** alla Home.
 1. (Facoltativo) Seleziona un&#39;attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**.
-1. Passa il puntatore del mouse sull&#39;attività o sul problema per cui desideri registrare l&#39;ora, quindi fai clic sull&#39;icona **Registra ora** ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
+1. Passa il puntatore del mouse sull&#39;attività o sul problema per cui desideri registrare l&#39;ora, quindi fai clic sull&#39;icona **Ora di registro** ![Icona Ora di registro](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
 
    Viene visualizzata la casella **Log time** (Tempo di registrazione).
 
@@ -487,7 +482,7 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 Nel pannello Riepilogo potete registrare il tempo per le attività e i problemi.
 Per ulteriori informazioni, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Pannello di riepilogo](assets/summary-hour-log.png)
 
 ### Bacheche {#boards}
 
@@ -531,7 +526,7 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
   * Descrizione della voce di ore.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![Casella di modifica ore progetto](assets/edit-hour-box-project-hour-type.png)
 
 * Quando si modificano le ore generali:
 
@@ -545,7 +540,7 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![Casella di modifica ore generale](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Quando si modifica una combinazione di ore generali e di ore specifiche per il progetto, in blocco:
@@ -561,13 +556,13 @@ A seconda del tipo di voci orarie modificate, i campi seguenti sono disponibili 
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Casella di modifica ore miste](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 Per modificare i tipi di ore in un report o un elenco di ore:
 
 1. Passa a un elenco di ore o a un report.
 1. Fare clic sulla casella a sinistra di una o più ore per selezionarle.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella **Modifica ore** o **Modifica ore**.
 1. Aggiorna uno dei seguenti campi disponibili:

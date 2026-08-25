@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 767
 ht-degree: 7%
 
 ---
@@ -68,13 +60,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Modifica schede orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Schede orario**.
+{{step1-to-timesheets}}
 
-   Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
+Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![](assets/search-icon.png), digita una parola chiave e cerca una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
+1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png), digita una parola chiave e cerca una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -86,9 +78,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >   
    >
 
-1. (Facoltativo) Fai clic sulle icone **Visualizza** ![](assets/view-icon.png) o **Raggruppamento** ![](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o per crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona ](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) dell&#39;icona **Visualizza** ![Visualizza per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 
@@ -108,7 +100,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [Creare o modificare le visualizzazioni in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Creare raggruppamenti in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Seleziona una o più schede orario, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle schede orario.
+1. Seleziona una o più schede orario, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle schede orario.
 1. Visualizza o specifica le informazioni seguenti:
 
    <table style="table-layout:auto"> 

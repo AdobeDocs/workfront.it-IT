@@ -7,20 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 6%
 
 ---
@@ -95,17 +89,13 @@ Verrà aperta l&#39;area **Schede orario**.
 
    Seleziona il filtro **Le mie approvazioni scheda orario** nella parte superiore dell&#39;elenco delle schede orario.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >L&#39;opzione Approvazioni schede attività personali non viene visualizzata nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso il filtro Approvazioni schede attività personali dai controlli elenco nell&#39;area Configura o dal modello di layout.
-   >
-   >Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![](assets/search-icon.png) nella parte superiore dell&#39;elenco delle schede orario e digita una parola chiave per individuare una scheda orario specifica. È possibile cercare un intervallo di tempo o il nome di un proprietario o di un approvatore.
+1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png) nella parte superiore dell&#39;elenco delle schede orario e digita una parola chiave per individuare una scheda orario specifica. È possibile cercare un intervallo di tempo o il nome di un proprietario o di un approvatore.
 1. Fai clic sull’intervallo di tempo per la scheda orario da approvare. Viene visualizzata la scheda orario.
 
    >[!TIP]

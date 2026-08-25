@@ -7,19 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
 TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 405
 ht-degree: 9%
 
 ---
@@ -70,7 +65,7 @@ Quando generi manualmente le schede orario:
 
 Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’area Schede orario e ore in Configurazione.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Se stai generando le schede orario in uso in tutto il sistema, fai clic su **Schede orario e ore.**
 
@@ -79,7 +74,7 @@ Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’
    Se stai generando schede orario utilizzate da un gruppo specifico, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
 1. Fare clic su **Profili scheda orario**.
-1. Fai clic sull&#39;icona Altro ![icona Altro](assets/more-icon.png), quindi **Genera schede orario**.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png), quindi **Genera schede orario**.
 
 1. Nella parte superiore dell&#39;elenco dei profili della scheda orario, fare clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) per i profili della scheda orario a livello di sistema oppure **Altro** per i profili della scheda orario di gruppo, quindi fare clic su **Genera schede orario**.
 
@@ -89,9 +84,8 @@ Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’
 
 È possibile generare manualmente schede orario a livello di sistema dall&#39;area Diagnostica in Configurazione.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Espandere **Sistema**, quindi fare clic su **Diagnostica**.
-
 1. Fare clic su **Esegui diagnostica**.
 1. Fai clic su **Genera schede orario**.
