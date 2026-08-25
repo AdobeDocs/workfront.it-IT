@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14443'
+source-wordcount: '14452'
 ht-degree: 92%
 
 ---
@@ -2210,6 +2210,7 @@ ht-degree: 92%
     * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Panoramica sui tipi di record per più aree di lavoro](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
     * [Configurare l’area Impostazioni di un tipo di record](planning/architecture/configure-record-type-settings.md)
     * [Aggiungere tipi di record esistenti da un’altra area di lavoro](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Panoramica dei tipi di record di connessione](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 92%
     * [Condividere i tipi di record](planning/access/share-record-types.md)
     * [Condividere le visualizzazioni](planning/access/share-views.md)
     * [Condividere i record](planning/access/share-records.md)
+    * {hide-from-toc}[Condividi campi di Workfront Planning](planning/access/share-fields.md)
     * [Impostare le autorizzazioni predefinite per i record](planning/access/set-default-record-permissions.md)
     * [Richiedere le autorizzazioni per una vista o un’area di lavoro](planning/access/request-permissions.md)
   * Record di Pianificazione di Adobe Workfront {#adobe-workfront-planning-records}
