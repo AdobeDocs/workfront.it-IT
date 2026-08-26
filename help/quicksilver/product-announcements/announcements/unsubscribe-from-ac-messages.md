@@ -7,17 +7,13 @@ author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 TQID: https://experienceleague.adobe.com/2bKYtYhiGw8dEAx07-yHofb-jxx-dLlP6IjuHsukRQA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: 240
 ht-degree: 0%
 
 ---
@@ -34,16 +30,19 @@ I messaggi del Centro notifiche sono messaggi inviati da Adobe Workfront alla ba
 
 Per annullare l&#39;iscrizione alla ricezione dei messaggi del Centro notifiche:
 
-1. Fai clic sull&#39;icona numerata ![Icona Notifiche](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di Workfront per aprire l&#39;elenco delle notifiche.
-1. Fare clic su **Tutti gli annunci** nella parte inferiore dell&#39;elenco.
+1. Fai clic sull&#39;icona numerata nell&#39;angolo superiore destro di Workfront per aprire l&#39;elenco delle notifiche, quindi fai clic su **Tutti gli annunci** nella parte inferiore dell&#39;elenco.
 
-   Viene visualizzata la pagina **Annunci** in cui sono elencati tutti gli annunci.
+   ![Icona Notifiche](assets/notifications-icon-jewel.png)
 
-   ![Pagina Annunci](assets/announcements-page-qs-350x210.png)
 
-1. Fai clic su **Impostazioni** nell&#39;angolo superiore destro della pagina Annunci, quindi seleziona **Nuove versioni** o **Formazione**, a seconda del tipo di annunci che non desideri più ricevere.
+1. Fai clic su **Impostazioni** nell&#39;angolo superiore destro della pagina Annunci,
 
-   ![Impostazioni del centro notifiche](assets/announcementcenter-settings-350x187.png)
+   ![Pagina Annunci](assets/ac-page.png)
+
+
+1. Nella finestra di dialogo **Impostazioni Centro notifiche** deselezionare la casella di controllo relativa al tipo di messaggi del Centro notifiche da cui si desidera annullare l&#39;abbonamento.
+
+   ![Impostazioni del centro notifiche](assets/ac-settings.png)
 
 1. Fare clic su **Salva impostazioni**.
 
