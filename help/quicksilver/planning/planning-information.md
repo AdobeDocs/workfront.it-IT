@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 77%
+source-wordcount: 722
+ht-degree: 72%
 
 ---
 
@@ -58,52 +58,52 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 
 * [Informazioni sull’accesso e sulle autorizzazioni: indice degli artricolo](/help/quicksilver/planning/access/access-information.md) contiene le seguenti informazioni:
 
-   * Licenze Workfront e autorizzazioni di pianificazione
-   * Pianificazione delle autorizzazioni di condivisione
-   * Condividere le visualizzazioni
-   * Condividere le aree di lavoro (record e campi)
-   * Condividere tipi di record (record e campi)
-   * Condividere i record
+  * Licenze Workfront e autorizzazioni di pianificazione
+  * Pianificazione delle autorizzazioni di condivisione
+  * Condividere le visualizzazioni
+  * Condividere le aree di lavoro (record e campi)
+  * Condividere tipi di record (record e campi)
+  * Condividere i record
 
 * [Architettura: indice degli articoli](/help/quicksilver/planning/architecture/architecture-information.md) contiene le seguenti informazioni:
 
-   * Creare, modificare ed eliminare le aree di lavoro
-   * Creare, modificare, eliminare i tipi di record
-   * Creare tipi di record globali
-   * Collegare i tipi di record ed esempi di collegamento dei tipi di record
-   * Modelli dell’area di lavoro
+  * Creare, modificare ed eliminare le aree di lavoro
+  * Creare, modificare, eliminare i tipi di record
+  * Creare tipi di record globali
+  * Collegare i tipi di record ed esempi di collegamento dei tipi di record
+  * Modelli dell’area di lavoro
 
 * [Campi: indice degli articoli](/help/quicksilver/planning/fields/fields-information.md) contiene le seguenti informazioni:
 
-   * Creare, modificare ed eliminare i campi
-   * Campi formula
-   * Campi principali
+  * Creare, modificare ed eliminare i campi
+  * Campi formula
+  * Campi principali
 
 * [Record: indice degli articoli](/help/quicksilver/planning/records/records-information.md) contiene le seguenti informazioni:
 
-   * Creare, modificare ed eliminare i record
-   * Collegare i record
-   * Aggiungere un’immagine di copertina o una miniatura a un record
-   * Gestire il layout di una pagina dei record
-   * Commenti sui record e sezione cronologia
-   * Condividere i record
-   * Gestire i record della Pianificazione di Workfront da Workfront
+  * Creare, modificare ed eliminare i record
+  * Collegare i record
+  * Aggiungere un’immagine di copertina o una miniatura a un record
+  * Gestire il layout di una pagina dei record
+  * Commenti sui record e sezione cronologia
+  * Condividere i record
+  * Gestire i record della Pianificazione di Workfront da Workfront
 
 * [Richieste della Pianificazione di Adobe Workfront: indice degli articoli](/help/quicksilver/planning/requests/requests-article-index.md) contiene le seguenti informazioni:
 
-   * Come creare un modulo di richiesta per un tipo di record.
-   * Come gli utenti possono inviare una richiesta a un modulo di richiesta di tipo di record e creare record.
+  * Come creare un modulo di richiesta per un tipo di record.
+  * Come gli utenti possono inviare una richiesta a un modulo di richiesta di tipo di record e creare record.
 
 * [Viste: indice degli articoli](/help/quicksilver/planning/views/views-information.md) contiene le seguenti informazioni:
 
-   * Creare viste di record
-   * Gestire le viste tabella, timeline e calendario
+  * Creare viste di record
+  * Gestire le viste tabella, timeline e calendario
 
 * [Notifiche: indice degli articoli](/help/quicksilver/planning/notifications/notifications-information.md) contiene le seguenti informazioni:
 
-   * Gestire le preferenze di notifica
-   * Pianificare le notifiche in-app
-   * Pianificare le notifiche e-mail
+  * Gestire le preferenze di notifica
+  * Pianificare le notifiche in-app
+  * Pianificare le notifiche e-mail
 
 ## Funzionalità aggiuntive disponibili per Workfront Planning
 
@@ -112,6 +112,8 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 * [Moduli di Pianificazione di Adobe Workfront per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli di Pianificazione di Adobe Workfront puoi attivare uno scenario quando si verificano eventi nella Pianificazione di Workfront. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata al tuo account Pianificazione di Adobe Workfront.
 
 * [Panoramica dell’Assistente IA della Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l’Assistente IA di Workfront per la pianificazione puoi cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all’assistente di eseguire il lavoro al tuo posto.
+
+* [Usa il server MCP di Workfront per gli oggetti Planning](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): il server MCP di Adobe Workfront ti consente di trovare, creare, aggiornare e gestire gli elementi di Workfront chiedendo a una piattaforma agente di IA in linguaggio naturale. La piattaforma decide quali azioni Workfront chiamare e gestisce la conversazione con Workfront per te.
 
 * [Configurare le automazioni della Pianificazione di Adobe Workfront](/help/quicksilver/planning/records/configure-automations-to-create-records.md): puoi configurare le automazioni in Pianificazione di Adobe Workfront, che, se attivate, creano oggetti in Workfront o record in Pianificazione di Workfront quando attivate da un record di Pianificazione.
 

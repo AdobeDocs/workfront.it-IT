@@ -14,7 +14,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 133
 ht-degree: 30%
@@ -42,12 +42,13 @@ Gli articoli seguenti contengono informazioni sull&#39;accesso necessario per l&
 * [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 * [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 * [Condividere i tipi di record](/help/quicksilver/planning/access/share-record-types.md)
-
-<div class="preview">
-
 * [Condividere i record](/help/quicksilver/planning/access/share-records.md)
 * [Impostare le autorizzazioni predefinite per i record](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
+<!--
+<div class="preview">
+
+* [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
+
 </div>
-
-
+-->

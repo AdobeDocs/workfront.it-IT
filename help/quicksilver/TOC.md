@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Panoramica sui tipi di record per più aree di lavoro](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
     * [Configurare l’area Impostazioni di un tipo di record](planning/architecture/configure-record-type-settings.md)
     * [Aggiungere tipi di record esistenti da un’altra area di lavoro](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Panoramica dei tipi di record di connessione](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [Condividere i tipi di record](planning/access/share-record-types.md)
     * [Condividere le visualizzazioni](planning/access/share-views.md)
     * [Condividere i record](planning/access/share-records.md)
+    * {hide-from-toc}[Condividi campi di Workfront Planning](planning/access/share-fields.md)
     * [Impostare le autorizzazioni predefinite per i record](planning/access/set-default-record-permissions.md)
     * [Richiedere le autorizzazioni per una vista o un’area di lavoro](planning/access/request-permissions.md)
   * Record di Pianificazione di Adobe Workfront {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 93%
   * [App Builder: indice degli articoli](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Acquisire e installare app da Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Creare applicazioni personalizzate per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Creare app App Builder con Claude Code skill](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Documento di prova nascosto](hidden-test.md)
 * {hide-from-toc}[Nascondi 2](hidden-test-2.md)
 

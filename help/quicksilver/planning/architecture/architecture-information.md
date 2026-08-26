@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 238
 ht-degree: 42%
@@ -46,6 +46,17 @@ Gli articoli nelle sezioni seguenti descrivono come configurare le aree di lavor
 * [Eliminare i tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
 * [Panoramica sui tipi di record per più aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+<!--
+
+<div class="preview">
+
+* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+</div>
+
+-->
+
 * [Aggiungere tipi di record esistenti da un’altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configurare l’area Impostazioni di un tipo di record](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
