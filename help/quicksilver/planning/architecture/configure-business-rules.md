@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '298'
+ht-degree: 5%
 
 ---
 
@@ -75,7 +75,10 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni durante la configurazione delle regole aziendali
 
-* È possibile configurare le regole per la modifica o l&#39;eliminazione dei record.
+* È possibile configurare le regole per la modifica o l&#39;eliminazione dei record, a seconda delle condizioni definite.
+
+  Ad esempio, puoi creare le condizioni per richiedere che alcuni campi abbiano un valore. Se il valore non è presente in tali campi, gli utenti non possono modificare o eliminare tale record.
+* Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
 * Non è possibile configurare regole per la creazione dei record. Tutti coloro che dispongono delle autorizzazioni Gestione per il tipo di record possono creare record.
 * È possibile creare una condizione per la regola business che faccia riferimento a tutti i tipi di campo ad eccezione dei seguenti:
   * Campi formula
