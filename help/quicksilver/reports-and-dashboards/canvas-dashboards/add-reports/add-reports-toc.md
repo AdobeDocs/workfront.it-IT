@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 52
-ht-degree: 88%
+source-wordcount: 61
+ht-degree: 75%
 
 ---
 
@@ -30,3 +30,5 @@ Questa sezione contiene i seguenti articoli:
 * [Generare un rapporto KPI in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Generare un rapporto del grafico in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
 * [Generare un rapporto della tabella in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* [Creare un rapporto di tabella pivot in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
+

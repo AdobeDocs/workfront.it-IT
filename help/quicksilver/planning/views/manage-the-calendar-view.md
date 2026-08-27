@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
+source-wordcount: 2002
 ht-degree: 5%
 
 ---
@@ -192,6 +192,10 @@ Per gestire una vista calendario:
 
        * I record che si estendono su più giorni vengono visualizzati nella parte superiore del calendario.
        * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
+
+         <span class="preview">Il calendario visualizza fino a 1.000 record nelle settimane precedente, corrente e successiva per entrambe le aree nella visualizzazione settimanale.</span>
+
+1. <span class="preview">(Facoltativo e condizionale) Fare clic su **Carica altri** nella parte inferiore del calendario se sono presenti più di 1.000 record e alcuni di essi non vengono visualizzati per impostazione predefinita durante la visualizzazione del calendario per settimana.</span>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
 
@@ -448,7 +452,7 @@ Aggiorna le impostazioni della vista calendario per indicare cosa e come vengono
 
    * **Tipo di record**: il colore delle barre dei record nel calendario corrisponde al colore del tipo di record selezionato. Questa è l&#39;opzione predefinita.
    * **Valori campo**: il colore dei record corrisponde al colore di un campo specificato.
-   * **Nessuno**: i record vengono visualizzati in una barra bianca. <span class="preview">L&#39;opzione Nessuno è stata rimossa dall&#39;ambiente di anteprima.</span>
+   * **Nessuno**: i record vengono visualizzati in una barra bianca. <span class="preview">L&#39;opzione **None** è stata rimossa dall&#39;ambiente di anteprima.</span>
 
 
 

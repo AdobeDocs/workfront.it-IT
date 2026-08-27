@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
-ht-degree: 3%
+source-wordcount: 4518
+ht-degree: 2%
 
 ---
 
@@ -465,12 +465,16 @@ Per aggiungere un raggruppamento nella vista timeline:
    * **In pila**: i raggruppamenti vengono visualizzati senza una colonna sinistra bloccata e rientrano nella larghezza delle timeline dei relativi elementi.
 
      ![Raggruppamento in pila nella visualizzazione timeline](assets/stacked-grouping-in-timeline-view.png)
-   * **Corsia**: i raggruppamenti vengono visualizzati con una colonna di intestazione sinistra bloccata che elenca gli elementi raggruppati e i raggruppamenti rientrano nella larghezza della visualizzazione della sequenza temporale.
+   * **Corsia**: i raggruppamenti vengono visualizzati con un pannello bloccato a sinistra in cui sono elencati gli elementi raggruppati e i raggruppamenti rientrano nella larghezza della visualizzazione della sequenza temporale.
 
      ![Raggruppamento corsie nella visualizzazione timeline](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   I raggruppamenti vengono applicati immediatamente.
+
+1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) nella barra degli strumenti per aprire la casella **Raggruppa record per**, quindi fare clic su **Espandi tutto** per espandere tutti i raggruppamenti oppure su **Comprimi tutto** per comprimere tutti i raggruppamenti e comprimere manualmente solo quelli necessari. </span>
+1. <span class="preview"> (Facoltativo e condizionale) Nella visualizzazione della corsia, trascinare e rilasciare il separatore del pannello sinistro per regolarne la larghezza. La larghezza del pannello di ogni utente viene salvata nelle sessioni, con una larghezza predefinita per i nuovi utenti.</span>
+1. <span class="preview">(Facoltativo) Per i nomi di raggruppamento lunghi, posizionare il cursore del mouse sulla riga di un raggruppamento per visualizzare il nome completo del raggruppamento in una descrizione comando.</span>
+
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure

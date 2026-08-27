@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 4%
 
 ---
@@ -106,6 +106,24 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
    >
    >Queste modifiche si applicano solo alla sessione corrente e non influiscono sulla configurazione del rapporto originale. Per rendere permanenti queste modifiche, devi modificare il rapporto.
 
+<div class="preview">
+
+### Espandere i dati della tabella pivot in Anteprima
+
+È possibile fare clic su un valore in un rapporto di tabella pivot per eseguire un drill-down e visualizzare i singoli record che compongono tale valore aggregato.
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Fate clic sul nome di un dashboard esistente per aprirlo.
+   ![Apri un dashboard](assets/open-dashboard.png)
+1. Individuare il rapporto della tabella pivot che si desidera esaminare.
+1. Fare clic su un valore nella tabella pivot per aprire la tabella di espansione.
+
+   Nella tabella di espansione vengono visualizzate le colonne configurate dal creatore del report in Impostazioni colonna di espansione. Per ulteriori informazioni, vedere [Creare un report di tabella pivot in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ Per impostazione predefinita, i raggruppamenti stessi sono ordinati alfabeticame
 Puoi fare clic su un’intestazione di colonna per ordinare i dati all’interno di ciascun gruppo. Quando si ordina in base a un campo diverso dal campo di raggruppamento, l&#39;ordine dei gruppi non cambia.
 
 Tuttavia, quando si ordina in base allo stesso campo in cui è raggruppato il report, l&#39;ordine del gruppo può cambiare. Ad esempio, un raggruppamento basato su testo che esegue normalmente A-Z può passare a Z-A.
+
