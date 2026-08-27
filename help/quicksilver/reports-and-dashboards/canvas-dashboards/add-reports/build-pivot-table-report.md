@@ -5,7 +5,7 @@ title: Creare un rapporto di tabella pivot in un dashboard Canvas
 description: È possibile aggiungere un rapporto di tabella pivot a un dashboard di Canvas per visualizzare i totali aggregati per i dati in formato tabella.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 8%
@@ -239,3 +239,4 @@ Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Se
 Limitiamo l’accesso alla scelta di oggetti secondari come segmenti di una tabella pivot. Le opzioni del segmento possono essere attributi del record stesso o altri record correlati che non rappresentano una relazione 1:many o molti:many.
 
 Inoltre, limitiamo l’accesso al riferimento a qualsiasi attributo principale o secondario come metrica per ridurre il potenziale di doppio conteggio o di doppio riepilogo dei valori, con conseguente rappresentazione errata dei dati effettivi.
+
