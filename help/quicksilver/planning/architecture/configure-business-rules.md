@@ -91,7 +91,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su Regole aziendali.
 
 
-*********** DA CLAUDE - SOTTO - DEVE MODIFICARE *******************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** DA CLAUDE - SOTTO - DEVE MODIFICARE &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
 ## Impostazione delle regole business in Workfront Planning: Guida dettagliata
 
@@ -155,9 +155,9 @@ In altre parole: &quot;Quando lo stato di un record Materiali viene modificato i
 È possibile aggiungere più regole per lo stesso stato. Ad esempio, potrebbe essere necessario compilare tutti i campi Marchio, Area terapeutica, Indicazione e Data di lancio stimata prima che un record possa essere spostato in &quot;Pronto per l’esecuzione&quot;, ognuno secondo la propria regola, e tutti devono essere controllati insieme.
 
 **Quali campi è possibile richiedere?**
-- Campi record collegati (ad esempio, un record Marchio o Indicazione collegato): la regola viene superata non appena viene collegato almeno un record.
-- Campi di testo standard (riga singola o paragrafo): la regola viene passata una volta che è presente un valore.
-- Campi data: la regola viene superata una volta impostata una data.
+&#x200B;- Campi record collegati (ad esempio, un record Marchio o Indicazione collegato): la regola viene superata non appena viene collegato almeno un record.
+&#x200B;- Campi di testo standard (riga singola o paragrafo): la regola viene passata una volta che è presente un valore.
+&#x200B;- Campi data: la regola viene superata una volta impostata una data.
 
 **Cosa non è ancora possibile utilizzare:** i campi formula e i campi di ricerca non sono supportati come destinazioni delle regole in questa versione, in quanto vengono calcolati in background anziché essere compilati direttamente da una persona.
 
