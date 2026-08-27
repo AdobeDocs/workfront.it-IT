@@ -8,18 +8,13 @@ author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
 TQID: https://experienceleague.adobe.com/qo-JdIbfFijhpa7-kI22hYe7gZ6DvJb8e2ycBiKTU7I
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 477
 ht-degree: 1%
 
 ---
@@ -41,19 +36,23 @@ Quando si pianifica un&#39;attività con un vincolo Deve finire al, tenere prese
 * Le relazioni con i predecessori non forzano la riprogrammazione dell&#39;attività. Adobe Workfront essenzialmente ignora le relazioni predecessore.
 * L&#39;attività viene visualizzata come **A rischio** se i predecessori iniziano a essere in ritardo o sono in ritardo.
 
+* Il vincolo Deve finire al non ha effetto su un&#39;attività con sottoattività. Un&#39;attività con sottoattività ha sempre le proprie date di inizio pianificato, completamento pianificato e durata riportate a partire dalle date di inizio della prima sottoattività e di completamento della sottoattività più recente, indipendentemente dal vincolo applicato. È necessario associare il vincolo Deve finire direttamente alla sottoattività che richiede la data fissa. Il padre continuerà a eseguire il rollup automaticamente.
+
+Per ulteriori informazioni, vedere anche [Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Quando si sposta o si copia un&#39;attività con un vincolo MFO in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato dall’inizio:
+  * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
-      * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
+    * Quando la data di vincolo dell&#39;attività è precedente alla data di inizio pianificata del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+    * Quando la data vincolo dell&#39;attività è successiva alla data completamento pianificato del progetto, la data completamento pianificato del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-      * Quando il progetto di destinazione è programmato dal completamento:
+    * Quando il progetto di destinazione è programmato dal completamento:
 
-         * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
-         * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
+      * Quando la data vincolo dell&#39;attività è successiva alla data di completamento del progetto, il vincolo attività diventa il più tardi possibile.
+      * Quando la data vincolo dell&#39;attività è precedente alla data inizio pianificata del progetto, la data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-      * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
+    * Indipendentemente dalla programmazione del progetto, se la data vincolo dell&#39;attività è compresa tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
 
   Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

@@ -8,23 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +30,8 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
 
 Durante la creazione del piano di progetto, è possibile prendere decisioni sulla sequenza e sull&#39;intervallo di tempo delle attività del progetto. Le attività possono funzionare indipendentemente da qualsiasi sequenza di attività, ma potrebbero influire sulla sequenza temporale del progetto. I vincoli di attività consentono a un project manager di pianificare quando determinate attività possono essere avviate o completate in un progetto.
 
+I vincoli di attività si applicano in modo identico alle attività di progetto e alle attività modello.
+
 A seconda del vincolo utilizzato, potrebbe essere necessario specificare una Data inizio pianificata, una Data completamento pianificata o entrambe per l&#39;attività.
 
 I tipi di vincolo che richiedono date definite influiscono sulle relazioni dei predecessori.
@@ -46,7 +40,9 @@ I tipi di vincolo che richiedono date definite influiscono sulle relazioni dei p
 >
 >Si consiglia di utilizzare un tipo di vincolo che non richieda date specifiche se si utilizzano relazioni predecessori tra attività.
 
-Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazioni. Le abbreviazioni vengono utilizzate negli elenchi delle attività e durante la creazione di file di importazione Kick-Start. Fare clic sul titolo collegato di ogni vincolo attività per ulteriori informazioni su tale tipo di vincolo.
+Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazioni.
+
+Le abbreviazioni vengono utilizzate negli elenchi delle attività e durante la creazione di file di importazione Kick-Start. Fare clic sul titolo collegato di ogni vincolo attività per ulteriori informazioni su tale tipo di vincolo.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
