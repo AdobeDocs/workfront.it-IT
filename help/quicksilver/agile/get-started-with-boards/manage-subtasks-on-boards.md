@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 49f8e36099d38093210fe1caab88a478e3b5609b
 workflow-type: tm+mt
 source-wordcount: 368
 ht-degree: 10%
@@ -28,7 +28,6 @@ ht-degree: 10%
 
 L&#39;utilizzo delle sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro. All’attività nel progetto Workfront viene aggiunta anche un’attività secondaria che aggiungi a una scheda di una bacheca Workfront. Per ulteriori informazioni sulle sottoattività e sulle attività a livello di progetto, vedere [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Le sottoattività sono disponibili solo sulle schede collegate e non sui problemi. Per informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle schede](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisiti di accesso
 
@@ -57,6 +56,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 ## Aggiungere un’attività secondaria a una scheda
+
+>[!IMPORTANT]
+>
+>Le sottoattività sono disponibili solo sulle schede collegate e non sui problemi. Per informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle schede](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 
 {{step1-to-boards}}
 

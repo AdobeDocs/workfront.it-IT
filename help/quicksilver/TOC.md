@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '14452'
+source-wordcount: '14457'
 ht-degree: 92%
 
 ---
@@ -1249,6 +1249,7 @@ ht-degree: 92%
     * [Disinstallare Workfront con il connettore legacy di Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Disinstallare Workfront con il connettore avanzato di Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [Eseguire la migrazione di cartelle e documenti collegati](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
+  * [Metadati C2PA in Adobe Workfront](documents/c2pa-metadata-overview.md)
 * Gestire il lavoro {#manage-work}
   * [Gestire il lavoro](manage-work/manage-work.md)
   * Progetti {#projects}

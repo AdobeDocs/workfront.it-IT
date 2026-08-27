@@ -13,9 +13,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
 workflow-type: tm+mt
-source-wordcount: 2016
+source-wordcount: 2012
 ht-degree: 2%
 
 ---
@@ -68,18 +68,18 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Giornaliera</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Tutti i predecessori di un'attività assegnata al mio team sono completati</strong> </p> <p>Quando un predecessore di una delle loro attività viene contrassegnato come completato, il team assegnato riceve una notifica e-mail.</p> <p>Gli utenti con una licenza Revisione o Richiedente non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Attività completata: &lt;Nome&gt;</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è: <em> Digest of Work Assigned to You &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
+   <td> <p><strong>Tutti i predecessori di un'attività assegnata al mio team sono completati</strong> </p> <p>Quando un predecessore di una delle loro attività viene contrassegnato come completato, il team assegnato riceve una notifica e-mail.</p> <p>Gli utenti con una licenza esterna non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Attività completata: &lt;Nome&gt;</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è: <em> Digest of Work Assigned to You &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
    <td> Nome attività<br>Progetto attività<br>Numero di riferimento attività<br>Nome dell'utente che ha completato l'attività predecessore<br>Stato dell'attività predecessore<br>Data e ora di completamento del predecessore<br>Stato precedente dell'attività predecessore<br><strong>Ulteriori dettagli</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività completate<br>*Nome attività<br>*Nome dell'utente che ha completato l'attività<br>*Data del riepilogo giornaliero <br></td>
    <td><strong>Istantanea</strong> </td> 
   </tr>
   <!--
   <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -91,7 +91,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -112,7 +112,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Le modifiche della data di scadenza su un'attività a cui sono assegnato</strong> </p> <p>L'assegnatario dell'attività riceve una notifica e-mail quando cambia la [!UICONTROL Planned Completion Date] dell'attività, a meno che l'utente che ha modificato la Planned Completion Date non sia anche l'assegnatario dell'attività.</p> <p>Viene inviata una notifica solo se lo stato del progetto è diverso da [!UICONTROL Planning].</p> <p>Non viene inviata alcuna notifica relativa alle attività personali.</p> <p> Gli utenti con una licenza Revisione o Richiedente non ricevono una notifica. </p> <p> L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL La data di scadenza è stata modificata.]</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
+   <td> <p><strong>Le modifiche della data di scadenza su un'attività a cui sono assegnato</strong> </p> <p>L'assegnatario dell'attività riceve una notifica e-mail quando cambia la [!UICONTROL Planned Completion Date] dell'attività, a meno che l'utente che ha modificato la Planned Completion Date non sia anche l'assegnatario dell'attività.</p> <p>Viene inviata una notifica solo se lo stato del progetto è diverso da [!UICONTROL Planning].</p> <p>Non viene inviata alcuna notifica relativa alle attività personali.</p> <p> Gli utenti con una licenza esterna non ricevono una notifica. </p> <p> L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL La data di scadenza è stata modificata.]</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
    <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nuova data di scadenza ([!UICONTROL Data di completamento pianificata])<br>Data e ora di modifica della data di scadenza<br>Nome dell'utente che ha modificato la data di scadenza<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività in cui la data di scadenza (data di completamento pianificata) è cambiata<br>*Nome attività<br>*Nuova data di completamento pianificata<br>*Nome dell'utente che ha modificato la data di scadenza<br>*Data di riepilogo giornaliera </td> 
    <td> <p><strong>Istantanea</strong> </p> <p><strong>e Giornaliero</strong> </p> </td> 
   </tr> 

@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 7c4ce7371666033fbb5c86193e75e7f79f46654c
+source-git-commit: 388af1150be6381f613fb69eb1cbef9c0872138e
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1184
 ht-degree: 20%
 
 ---
@@ -227,6 +227,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>realRequesterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> realUserID </td> 
   </tr> 
   <tr> 
@@ -405,6 +410,46 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td>workRequired</td> 
   </tr> 
+  <tr> 
+   <td>Prenotazione</td> 
+   <td>PRENOTAZIONE</td> 
+   <td>accessoriIDs</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>actualCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>actualCost</td></tr> 
+  <tr><td> </td><td> </td><td>actualHours</td></tr> 
+  <tr><td> </td><td> </td><td>actualRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>actualStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descrizione</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isBillable</td></tr> 
+  <tr><td> </td><td> </td><td>isClosed</td></tr> 
+  <tr><td> </td><td> </td><td>isOvertime</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>nonLaborResourceID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>overtimeRatio</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCost</td></tr> 
+  <tr><td> </td><td> </td><td>plannedHours</td></tr> 
+  <tr><td> </td><td> </td><td>plannedRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>plannedStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>projectID</td></tr> 
+  <tr><td> </td><td> </td><td>referenceObjectName</td></tr> 
+  <tr><td> </td><td> </td><td>resourceAliasName</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootID</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootObjCode</td></tr> 
+  <tr><td> </td><td> </td><td>seriesID</td></tr> 
+  <tr><td> </td><td> </td><td>stato</td></tr> 
+  <tr><td> </td><td> </td><td>statusEquatesWith</td></tr> 
+  <tr><td> </td><td> </td><td>taskID</td></tr> 
   <tr> 
    <td>Azienda</td> 
    <td>CMPY</td> 
@@ -818,6 +863,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>progetto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto:stato</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1572,6 +1622,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>plannedStartDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>priorità</td> 
   </tr> 
   <tr> 
@@ -1582,7 +1637,27 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>progetto:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto:stato</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>queueDefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueTopicBreadcrumb</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1669,6 +1744,49 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Categoria non manodopera</td> 
+   <td>NLBRCY</td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descrizione</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>isBookable</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
+  <tr> 
+   <td>Risorsa non di manodopera</td> 
+   <td>NLBR</td> 
+   <td>avatarDate</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>avatarDownloadURL</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>descrizione</td></tr> 
+  <tr><td> </td><td> </td><td>enteredByID</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>homeGroupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>uniqueIdentifier</td></tr> 
   <tr> 
    <td>Nota</td> 
    <td>NOTA</td> 
@@ -1823,6 +1941,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>oggetto</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>tag</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2157,7 +2280,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>lastUpatedByID</td> 
+   <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2188,6 +2311,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3149,6 +3277,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>numberOfChildren</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>objCode</td> 
   </tr> 
   <tr> 
@@ -3165,6 +3298,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3246,6 +3384,21 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td>workflowAutomationID</td> 
   </tr> 
+  <tr> 
+   <td>Team</td> 
+   <td>TEAMOB</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>descrizione</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>groupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>name</td></tr> 
+  <tr><td> </td><td> </td><td>objCode</td></tr> 
+  <tr><td> </td><td> </td><td>ownerID</td></tr> 
+  <tr><td> </td><td> </td><td>parameterValues</td></tr> 
   <tr> 
    <td>Modello</td> 
    <td>TMPL</td> 

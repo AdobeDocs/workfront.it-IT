@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 13%
+source-wordcount: '1464'
+ht-degree: 14%
 
 ---
 
@@ -327,6 +327,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">I metadati C2PA sono conservati nei tuoi file</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe Workfront conserva i metadati C2PA sui documenti che carichi, archivi e scarichi, senza modificarli.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>26 agosto 2026</p></td>
         </tr>
         <tr>
             <td>
