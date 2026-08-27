@@ -9,19 +9,14 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1864
-ht-degree: 7%
+source-wordcount: 1971
+ht-degree: 8%
 
 ---
 
@@ -29,9 +24,9 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->Per ricevere commenti e suggerimenti su un possibile bug o problema tecnico, inviare un ticket all&#39;assistenza Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Questa versione beta non è disponibile nei seguenti provider cloud:
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.<br>
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -78,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-È necessario creare un dashboard prima di creare un report grafico.
+È necessario creare un dashboard prima di creare un report grafico. Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Generare un rapporto del grafico in una dashboard dell’area di lavoro
 
@@ -86,13 +81,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 {{step1-to-dashboards}}
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Nel pannello a sinistra, fai clic su **Dashboard canvas**, quindi fai clic sul nome del dashboard a cui aggiungere il report.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
-
-1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
-
-1. Fai clic su **Crea**.
+1. Fai clic su **Aggiungi report** nell&#39;angolo superiore destro della pagina.
 
 1. Nella casella **Aggiungi report** selezionare **Crea report**.
 
@@ -181,7 +172,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 Segui i passaggi seguenti per configurare la sezione **Filtro**:
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selezionare **Modifica filtro**.
 1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
 1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
@@ -212,13 +203,9 @@ In questa sezione verranno descritti i passaggi necessari per creare un istogram
 
 {{step1-to-dashboards}}
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Nel pannello a sinistra, fai clic su **Dashboard canvas**, quindi fai clic sul nome del dashboard a cui aggiungere il report.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
-
-1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
-
-1. Fai clic su **Crea**.
+1. Fai clic su **Aggiungi report** nell&#39;angolo superiore destro della pagina.
 
 1. Nella casella **Aggiungi report** selezionare **Crea report**.
 
@@ -310,7 +297,7 @@ Gli utenti con l’accesso Visualizzazione o Modifica dei dati finanziari nel lo
 * Gli utenti che possono vedere i dati finanziari, li vedono solo per i record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non potranno vedere i valori finanziari per i record a cui non possono accedere.
 * Per evitare che persone non autorizzate possano accedere a dati finanziari, chi crea i rapporti deve valutare attentamente se includere dati finanziari nelle dashboard e con chi condividere le dashboard stesse.
 
-Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente possibile.
+Si tratta di un limite noto e prevediamo di affrontarlo in futuro.
 
 ### Utilizzo del selettore di campo
 

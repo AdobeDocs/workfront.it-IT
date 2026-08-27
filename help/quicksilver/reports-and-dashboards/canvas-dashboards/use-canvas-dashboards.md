@@ -10,15 +10,12 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 4%
 
 ---
@@ -105,6 +102,24 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
    >[!IMPORTANT]
    >
    >Queste modifiche si applicano solo alla sessione corrente e non influiscono sulla configurazione del rapporto originale. Per rendere permanenti queste modifiche, devi modificare il rapporto.
+
+<div class="preview">
+
+### Espandere i dati della tabella pivot in Anteprima
+
+È possibile fare clic su un valore in un rapporto di tabella pivot per eseguire un drill-down e visualizzare i singoli record che compongono tale valore aggregato.
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Fate clic sul nome di un dashboard esistente per aprirlo.
+   ![Apri un dashboard](assets/open-dashboard.png)
+1. Individuare il rapporto della tabella pivot che si desidera esaminare.
+1. Fare clic su un valore nella tabella pivot per aprire la tabella di espansione.
+
+   Nella tabella di espansione vengono visualizzate le colonne configurate dal creatore del report in Impostazioni colonna di espansione. Per ulteriori informazioni, vedere [Creare un report di tabella pivot in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
 
 
 <!--

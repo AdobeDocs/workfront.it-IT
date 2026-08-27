@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
 workflow-type: tm+mt
-source-wordcount: '14457'
+source-wordcount: '14466'
 ht-degree: 92%
 
 ---
@@ -1624,6 +1624,7 @@ ht-degree: 92%
       * [Generare un rapporto KPI in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Generare un rapporto del grafico in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Generare un rapporto della tabella in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Creare un rapporto di tabella pivot in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * Gestire dashboard dell’area di lavoro {#manage-canvas-dashboards}
       * [Gestire dashboard dell’area di lavoro: indice degli articoli](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Condividere una dashboard dell’area di lavoro](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
