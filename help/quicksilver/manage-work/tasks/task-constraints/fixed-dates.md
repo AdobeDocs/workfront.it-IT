@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 1%
+source-wordcount: 517
+ht-degree: 0%
 
 ---
 
@@ -35,19 +35,23 @@ Quando utilizzate il vincolo Date fisse, tenete presente quanto segue:
 * Quando si seleziona il vincolo attività Date fisse, è necessario specificare la Data inizio pianificata e la Data completamento pianificata dell&#39;attività. In questo caso, la relazione predecessore dell&#39;attività viene ignorata.
 * Il campo Durata dell&#39;attività non è modificabile quando si utilizza il vincolo FIXT. La durata viene calcolata come differenza tra le date di inizio pianificata e di completamento pianificata dell&#39;attività.
 * Se il tipo di durata dell&#39;attività è Basato sull&#39;impegno, il numero di assegnatari influisce anche sulla durata dell&#39;attività.
+* Il vincolo Date fisse non ha effetto su un&#39;attività con sottoattività. Un&#39;attività con sottoattività ha sempre le proprie date di inizio pianificato, completamento pianificato e durata riportate a partire dalle date di inizio della prima sottoattività e di completamento della sottoattività più recente, indipendentemente dal vincolo applicato. È necessario associare il vincolo Date fisse direttamente alla sottoattività che necessita della data fissa. Il padre continuerà a eseguire il rollup automaticamente.
+
+Per ulteriori informazioni, vedere anche [Task Duration and Duration Type](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Quando si sposta o si copia un&#39;attività con un vincolo FIXT in un altro progetto, il vincolo dell&#39;attività o delle date del progetto può variare a seconda delle date del vincolo e delle date di inizio e di completamento del progetto. Esistono i seguenti scenari:
 
-   * Quando il progetto di destinazione è programmato dall’inizio:
+  * Quando il progetto di destinazione è programmato dall’inizio:
 
-      * Quando le date di vincolo dell&#39;attività sono precedenti alla data di inizio del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
-      * Se una o entrambe le date vincolo dell&#39;attività sono successive alla Data completamento pianificata del progetto, la Data completamento pianificata del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
+    * Quando le date di vincolo dell&#39;attività sono precedenti alla data di inizio del progetto, il vincolo dell&#39;attività viene impostato su Il più presto possibile.
+    * Se una o entrambe le date vincolo dell&#39;attività sono successive alla Data completamento pianificata del progetto, la Data completamento pianificata del progetto viene modificata in modo da corrispondere alla data vincolo completamento dell&#39;attività.
 
-   * Quando il progetto di destinazione è programmato dal completamento:
+  * Quando il progetto di destinazione è programmato dal completamento:
 
-      * Quando le date di vincolo dell&#39;attività sono successive alla Data di completamento del progetto, il vincolo dell&#39;attività diventa Il più tardi possibile.
-      * Se una o entrambe le date vincolo dell&#39;attività sono precedenti alla Data inizio pianificata del progetto, la Data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
+    * Quando le date di vincolo dell&#39;attività sono successive alla Data di completamento del progetto, il vincolo dell&#39;attività diventa Il più tardi possibile.
+    * Se una o entrambe le date vincolo dell&#39;attività sono precedenti alla Data inizio pianificata del progetto, la Data inizio pianificata del progetto viene modificata in modo da corrispondere alla data vincolo inizio dell&#39;attività.
 
-   * Indipendentemente dalla programmazione del progetto, se le date vincolo dell&#39;attività sono comprese tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
+  * Indipendentemente dalla programmazione del progetto, se le date vincolo dell&#39;attività sono comprese tra le date di inizio e di completamento del progetto, non verranno apportate modifiche al vincolo attività o alle date del progetto.
 
   Per informazioni sullo spostamento delle attività, vedere [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md). Per informazioni sulla copia delle attività, vedere [Copia e duplica attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

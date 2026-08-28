@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
+source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,44 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Comprimi ed espandi tutti i raggruppamenti nella vista timeline
+
+>[!NOTE]
+>
+>Anteprima: 27 agosto 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Le viste Timeline ora includono Comprimi tutto ed Espandi tutte le opzioni per le timeline raggruppate. In questo modo è più semplice spostarsi tra le viste della roadmap di grandi dimensioni: è possibile ridurre rapidamente la vista raggruppando le intestazioni, quindi espandere solo le sezioni che si desidera esaminare.
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Visualizzare i nomi dei gruppi completi e ridimensionare il pannello di raggruppamento nella vista Timeline
+
+>[!NOTE]
+>
+>Anteprima: 27 agosto 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Nella vista timeline, passando il cursore su un&#39;etichetta di gruppo troncata, ora viene visualizzato il testo completo in una descrizione comando, sia nella visualizzazione Corsia che in quella Raggruppamento in pila. Le etichette non troncate non mostrano descrizioni comandi.
+
+Il pannello di raggruppamento a sinistra nella visualizzazione Corsia può essere ridimensionato trascinandone il divisore. La vista viene aggiornata in tempo reale, in linea con la vista tabella. La larghezza del pannello di ogni utente viene salvata nelle sessioni, con una larghezza predefinita per i nuovi utenti.
+
+Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Sono state migliorate le prestazioni del calendario per set di record di grandi dimensioni nella visualizzazione settimana
+
+>[!NOTE]
+>
+>Anteprima: 27 agosto 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Nella visualizzazione per settimana del calendario vengono ora visualizzati solo i primi 1.000 record del periodo di settimana visibile. Se sono presenti più record, nella parte inferiore del calendario viene visualizzato il seguente messaggio che indica che sono disponibili record aggiuntivi: &quot;Sono presenti più record. Carica di più.&quot;
+
+Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Intestazioni di colonna aggiornate per i campi record collegati dipendenti
 
@@ -43,22 +81,6 @@ Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/p
 Sono disponibili nuovi indicatori visivi quando si trascinano e rilasciano più righe nella vista tabella. Un segno più e un indicatore numerico più evidenti ora mostrano quante righe sono selezionate per l’azione di trascinamento della selezione.
 
 Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## Indirizza l&#39;oggetto richiesta inviato all&#39;area di lavoro corretta quando si utilizzano i tipi di record globali
 

@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 14%
+source-wordcount: '1501'
+ht-degree: 13%
 
 ---
 
@@ -264,6 +264,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Rapporti di tabella pivot nei dashboard di Canvas</a>
+                <p>Il nuovo tipo di rapporto per tabella pivot nei dashboard di Canvas aggrega i dati con aggregazioni precise e complete, con un drill-down nei record sottostanti.</p>
+            </td>
+            <td><p>27 agosto 2026</p></td>
+            <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>

@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +38,8 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
 
 Durante la creazione del piano di progetto, è possibile prendere decisioni sulla sequenza e sull&#39;intervallo di tempo delle attività del progetto. Le attività possono funzionare indipendentemente da qualsiasi sequenza di attività, ma potrebbero influire sulla sequenza temporale del progetto. I vincoli di attività consentono a un project manager di pianificare quando determinate attività possono essere avviate o completate in un progetto.
 
+I vincoli di attività si applicano in modo identico alle attività di progetto e alle attività modello.
+
 A seconda del vincolo utilizzato, potrebbe essere necessario specificare una Data inizio pianificata, una Data completamento pianificata o entrambe per l&#39;attività.
 
 I tipi di vincolo che richiedono date definite influiscono sulle relazioni dei predecessori.
@@ -46,7 +48,9 @@ I tipi di vincolo che richiedono date definite influiscono sulle relazioni dei p
 >
 >Si consiglia di utilizzare un tipo di vincolo che non richieda date specifiche se si utilizzano relazioni predecessori tra attività.
 
-Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazioni. Le abbreviazioni vengono utilizzate negli elenchi delle attività e durante la creazione di file di importazione Kick-Start. Fare clic sul titolo collegato di ogni vincolo attività per ulteriori informazioni su tale tipo di vincolo.
+Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazioni.
+
+Le abbreviazioni vengono utilizzate negli elenchi delle attività e durante la creazione di file di importazione Kick-Start. Fare clic sul titolo collegato di ogni vincolo attività per ulteriori informazioni su tale tipo di vincolo.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
