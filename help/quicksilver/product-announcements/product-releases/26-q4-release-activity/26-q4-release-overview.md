@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 13%
+source-wordcount: '1579'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -267,6 +267,24 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Campo Tipo di approvazione nei dashboard di Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>L’entità Approvazione ora include un campo Tipo di approvazione che consente agli utenti di distinguere tra approvazioni di bozze, approvazioni di versioni di documenti, approvazioni di accettazione e altri tipi di approvazione.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Aggiornamento della terminologia di approvazione nei dashboard di Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Diversi nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Rapporti di tabella pivot nei dashboard di Canvas</a>
                 <p>Il nuovo tipo di rapporto per tabella pivot nei dashboard di Canvas aggrega i dati con aggregazioni precise e complete, con un drill-down nei record sottostanti.</p>
             </td>
@@ -391,7 +409,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
