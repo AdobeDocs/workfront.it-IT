@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 1%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-È possibile configurare regole business di tipo record che definiscono il modo in cui i record di quel tipo vengono gestiti in Adobe Workfront Planning.
+È possibile configurare regole business per i tipi di record di Adobe Workfront Planning che definiscono la modalità di gestione dei record di quel tipo.
+
+È possibile consentire le azioni seguenti sui record se vengono soddisfatte le regole aziendali definite:
+
+* Modificare un record
+* Elimina una decisione
 
 ## Requisiti di accesso
 
@@ -75,7 +80,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni durante la configurazione delle regole aziendali
 
-* È possibile configurare le regole per la modifica o l&#39;eliminazione dei record, a seconda delle condizioni definite.
+* È possibile configurare regole che indichino quando i record possono essere modificati o eliminati.
 
   Ad esempio, puoi creare le condizioni per richiedere che alcuni campi abbiano un valore. Se il valore non è presente in tali campi, gli utenti non possono modificare o eliminare tale record.
 * Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
@@ -88,139 +93,141 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 ## Configurare le regole business
 
 1. Passare a un tipo di record.
-1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su Regole aziendali.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Regole aziendali**.
+
+   Vengono visualizzate le pagine Regole business.
+1. Fare clic su **Nuova regola business**.
+1. Nella casella Nuova regola business aggiungere un nome per la regola business nel primo campo disponibile. Questo campo è obbligatorio
+1. (Facoltativo) Aggiungi una descrizione per definire la regola business.
+
+<!--
+
+***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** DA CLAUDE - SOTTO - DEVE MODIFICARE &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+### What business rules actually do
 
-## Impostazione delle regole business in Workfront Planning: Guida dettagliata
+Business rules attach a condition to a **status change**. Instead of enforcing complete data the moment someone creates a record (which would slow everyone down), the rule only kicks in at one specific, deliberate moment: when a status is about to change to a status you've configured.
 
-Hai mai registrato il passaggio a &quot;Pronto per l’esecuzione&quot; solo per scoprire in seguito che metà dei campi richiesti — Marchio, Indicazione, Date di lancio — non sono mai stati compilati? Quando qualcuno se ne accorge, c&#39;è già un progetto a valle con dati mancanti, e qualcuno deve rintracciare i dettagli e compilarli a mano.
+A rule looks like this in plain language:
 
-Le regole business correggono questo problema. Consentono di impostare un punto di controllo semplice: **prima che un record possa passare a uno stato specifico, è necessario compilare alcuni campi.** In caso contrario, la persona che apporta la modifica vedrà esattamente ciò che manca e non potrà procedere finché non sarà stato risolto.
+> "Before a record can move to **Ready for Execution**, the field **Brand** must have a value."
 
-Questa guida illustra le funzioni delle regole aziendali, come configurarne una e cosa sperimenterà il team una volta live.
+If the field is empty, the status change is blocked and the person gets a clear message telling them what to fix. Once they fill it in and try again, the change goes through.
 
-### Quali sono le operazioni effettive delle regole aziendali?
+A few important things this is *not*:
 
-Le regole business associano una condizione a una **modifica stato**. Invece di imporre dati completi nel momento in cui qualcuno crea un record (che rallenterebbe tutti), la regola viene attivata solo in un momento specifico e deliberato: quando uno stato sta per cambiare in uno stato configurato.
-
-Una regola si presenta così in un linguaggio semplice:
-
-> &quot;Prima che un record possa essere spostato in **Pronto per l&#39;esecuzione**, il campo **Marchio** deve avere un valore.&quot;
-
-Se il campo è vuoto, la modifica dello stato viene bloccata e la persona riceve un messaggio chiaro che indica cosa correggere. Una volta compilato e riprovato, la modifica viene completata.
-
-Alcuni aspetti importanti sono *non*:
-
-* **Non blocca la creazione del record.** Le persone possono ancora creare un nuovo record all&#39;istante e compilarlo nel tempo, esattamente come oggi.
-* **Non compila automaticamente nulla né cambia automaticamente lo stato.** Una persona deve sempre effettuare il cambiamento di stato autonomamente.
-* **Non contrassegna retroattivamente i record precedenti.** I record già presenti nello stato di destinazione non vengono interessati. Il controllo viene eseguito solo alla successiva esecuzione di un tentativo di spostamento di un record *in* tale stato.
-
-
-
-### Prima di iniziare
-
-Un paio di cose devono essere vere prima di poter configurare le regole:
-
-1. **La funzionalità deve essere attivata per la tua organizzazione.** Questa operazione viene eseguita dal lato di Adobe (tramite un flag di funzione), non da te stesso abilitato. Se non vedi la sezione delle regole business descritta di seguito, verifica con il tuo contatto Adobe che sia stato abilitato per il tenant.
-2. **Sono necessarie autorizzazioni di amministratore o configuratore area di lavoro.** I pianificatori regolari non possono creare o modificare regole, ma solo le persone che gestiscono la configurazione dell&#39;area di lavoro.
-
-### Passaggio 1: aprire l&#39;area di configurazione delle regole business
-
-Le regole business vivono insieme alle altre impostazioni dell&#39;amministratore, non sarà necessario ricercare un pannello &quot;Pianificazione&quot; separato. Dall’area di configurazione del flusso di lavoro:
-
-1. Vai all&#39;area principale **configurazione flusso di lavoro / configurazione amministratore** per il tuo workspace.
-2. Cercare nella sezione **regole business** il tipo di record che si desidera configurare, ad esempio &quot;Materiali&quot; o &quot;Campagne&quot;.
-
-
-### Passaggio 2: scegliere il tipo di record
-
-Le regole sono configurate per tipo di record, quindi scegliere quello a cui si desidera aggiungere una regola. Ad esempio, se si desidera assicurarsi che in ogni record Materiali siano presenti campi chiave compilati prima dell&#39;esecuzione, selezionare **Materiali**.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
+* **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
 
 
 
-### Passaggio 3: creare una nuova regola
+### Before you start
 
-Per ogni regola, puoi specificare tre elementi:
+A couple of things need to be true before you can configure rules:
 
-| Impostazioni | Esempio |
+1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
+2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
+
+### Step 1: Open the business rules configuration area
+
+Business rules live alongside your other admin setup — you won't need to hunt for a separate "Planning" panel. From your workflow setup area:
+
+1. Go to the main **workflow setup / admin configuration** area for your workspace.
+2. Look for the **business rules** section for the record type you want to configure (for example, "Materials" or "Campaigns").
+
+
+### Step 2: Choose the record type
+
+Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
+
+
+
+### Step 3: Create a new rule
+
+For each rule, you'll specify three things:
+
+| What you set | Example |
 |---|---|
-| **Tipo di record** | Materiali |
-| **Stato destinazione** | Pronto per l’esecuzione |
-| **Campo obbligatorio** | Brand |
+| **Record type** | Materials |
+| **Target status** | Ready for Execution |
+| **Required field** | Brand |
 
-In altre parole: &quot;Quando lo stato di un record Materiali viene modificato in **Pronto per l&#39;esecuzione**, il campo **Marchio** deve avere un valore.&quot;
+In other words: "When a Materials record's status is changed to **Ready for Execution**, the field **Brand** must have a value."
 
-È possibile aggiungere più regole per lo stesso stato. Ad esempio, potrebbe essere necessario compilare tutti i campi Marchio, Area terapeutica, Indicazione e Data di lancio stimata prima che un record possa essere spostato in &quot;Pronto per l’esecuzione&quot;, ognuno secondo la propria regola, e tutti devono essere controllati insieme.
+You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
-**Quali campi è possibile richiedere?**
-&#x200B;- Campi record collegati (ad esempio, un record Marchio o Indicazione collegato): la regola viene superata non appena viene collegato almeno un record.
-&#x200B;- Campi di testo standard (riga singola o paragrafo): la regola viene passata una volta che è presente un valore.
-&#x200B;- Campi data: la regola viene superata una volta impostata una data.
+**What fields can you require?**
 
-**Cosa non è ancora possibile utilizzare:** i campi formula e i campi di ricerca non sono supportati come destinazioni delle regole in questa versione, in quanto vengono calcolati in background anziché essere compilati direttamente da una persona.
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
-### Passaggio 4: scrivi il messaggio che verrà visualizzato dagli utenti
+**What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
-Quando crei una regola, fornisci anche il messaggio che compare se qualcuno tenta di apportare la modifica senza compilare il campo. Mantieni il messaggio specifico e actionable, ad esempio:
+### Step 4: Write the message people will see
 
-> &quot;Il marchio è obbligatorio&quot;.
+When you create a rule, you'll also provide the message that shows up if someone tries to make the change without the field filled in. Keep it specific and actionable — something like:
 
-Non devi preoccuparti di formattare un intero banner di errore: il sistema gestisce la combinazione di messaggi se vengono violate più regole contemporaneamente (vedi sotto).
+> "Brand is required."
 
-### Passaggio 5: salvare la regola
+You don't need to worry about formatting a whole error banner — the system handles combining messages if multiple rules are violated at once (see below).
 
-Una volta salvata, la regola entra in vigore **immediatamente** per tutti gli utenti dell&#39;area di lavoro, senza dover disconnettersi, aggiornare o attendere una distribuzione. La volta successiva in cui si tenta di spostare un record in tale stato, la regola viene controllata.
+### Step 5: Save the rule
 
-### Esperienza effettiva del team
+Once saved, the rule takes effect **immediately** for everyone in the workspace — no need to log out, refresh, or wait for a deployment. The very next time anyone tries to move a record into that status, the rule is checked.
 
-Ecco cosa cambia per le persone che usano Planning giorno per giorno, una volta che una regola è attiva.
+### What your team will actually experience
 
-#### Se un campo obbligatorio è vuoto
+Here's what changes for the people using Planning day to day, once a rule is live.
 
-1. Un planner apre un record e modifica lo stato in &quot;Gated&quot; (ad esempio, &quot;Pronto per l’esecuzione&quot;).
-2. Il sistema controlla tutte le regole associate a tale stato.
-3. Se un campo obbligatorio è vuoto, la modifica è **rifiutata**. Lo stato torna allo stato originale.
-4. Viene visualizzato un messaggio con i nomi dei campi mancanti:
-   > *&quot;Modifica dello stato bloccata: è necessario popolare &#39;Brand&#39; e &#39;Estimated Launch Date&#39; prima di passare a &#39;Ready for Execution&#39;.&quot;*
-5. Il planner compila i campi mancanti e prova a cambiare di nuovo lo stato.
-6. Questa volta, la regola viene superata e lo stato viene aggiornato normalmente.
+#### If a required field is empty
 
-#### Se è già stato compilato tutto
+1. A planner opens a record and changes the status to the gated status (say, "Ready for Execution").
+2. The system checks all rules tied to that status.
+3. If a required field is empty, the change is **rejected** — the status reverts back to what it was.
+4. A toast message appears, naming exactly which field(s) are missing:
+   > *"Status change blocked: 'Brand' and 'Estimated Launch Date' must be populated before moving to 'Ready for Execution.'"*
+5. The planner fills in the missing field(s) and tries the status change again.
+6. This time, the rule passes, and the status updates normally.
 
-Non cambia nulla. Lo stato viene aggiornato immediatamente, senza passaggi o pop-up aggiuntivi. Le regole di business sono invisibili finché non sono effettivamente necessarie.
+#### If everything is already filled in
 
-#### Se mancano più campi contemporaneamente
+Nothing changes. The status updates instantly, with no extra steps or popups. Business rules are invisible until they're actually needed.
 
-Tutte le regole violate vengono verificate insieme e il messaggio elenca tutti i campi mancanti in una sola volta: i responsabili della pianificazione non devono correggere un campo, riprovare, ricevere informazioni sul successivo e ripetere.
+#### If several fields are missing at once
 
-### Passaggio 6: modificare o rimuovere una regola in un secondo momento
+All the violated rules are checked together, and the message lists every missing field in one go — planners don't have to fix one field, try again, get told about the next one, and repeat.
 
-Le regole non sono fissate sulla pietra. Per apportare modifiche:
+### Step 6: Edit or remove a rule later
 
-1. Tornare all&#39;area di configurazione delle regole business per il tipo di record.
-2. Individuare la regola che si desidera modificare.
-3. Modificare il campo, lo stato di destinazione o il messaggio richiesto oppure eliminare completamente la regola.
-4. Salva. La modifica viene applicata immediatamente alle modifiche di stato future.
+Rules aren't set in stone. To make changes:
 
-Nota: la modifica o l&#39;eliminazione di una regola **influisce solo sulle transizioni future.** I record che hanno già raggiunto lo stato target prima della modifica non vengono rivalutati.
-3## Alcune informazioni utili
+1. Go back to the business rules configuration area for the record type.
+2. Find the rule you want to change.
+3. Edit the required field, target status, or message — or delete the rule entirely.
+4. Save. The change applies immediately to future status changes.
 
-* **I record vengono bloccati separatamente dopo un cambiamento di stato.** Le regole business (come descritto qui) controllano solo la completezza del campo *prima* che venga eseguita una modifica dello stato. Un&#39;altra caratteristica correlata determina se un record viene completamente bloccato dalle modifiche o dall&#39;eliminazione una volta raggiunto un determinato stato. Questa caratteristica non è inclusa in questa sezione.
-* **Le modifiche di stato in blocco** (modifica dello stato di molti record contemporaneamente) non sono ancora completamente definite per il modo in cui interagiscono con le regole aziendali. Se il team si basa in larga misura su azioni in blocco, verifica il comportamento corrente con il contatto Adobe.
-* **Se una regola non può essere valutata** a causa di un errore di sistema, la transizione viene bloccata anziché essere consentita in modo invisibile all&#39;utente. Un record incompleto non verrà mai superato a causa di un problema di back-end.
-* **La disattivazione della funzionalità** non comporta l&#39;eliminazione delle regole configurate, ma solo la loro sospensione. Riattivandole, le ripristina esattamente come erano, senza bisogno di riconfigurazione.
+Keep in mind: editing or deleting a rule **only affects transitions going forward.** Records that already made it into the target status before the change aren't reevaluated.
+3## A few things worth knowing
 
-### Riferimento rapido: impostazione della prima regola
+* **This is separate from locking records after a status change.** Business rules (as described here) only check field completeness *before* a status change goes through. A different, related feature governs whether a record becomes fully locked from edits/deletion once it reaches a certain status — that's not what's covered here.
+* **Bulk status changes** (changing status on many records at once) aren't fully defined yet for how they interact with business rules — if your team relies heavily on bulk actions, check with your Adobe contact on current behavior.
+* **If a rule can't be evaluated** due to a system error, the transition is blocked rather than silently allowed through — you'll never end up with an incomplete record slipping past a rule because of a backend hiccup.
+* **Turning the feature off** doesn't delete your configured rules — they're just paused. Turning it back on restores them exactly as they were, no reconfiguration needed.
 
-1. Conferma che la funzione sia abilitata per il tenant.
-2. Passare alla configurazione del flusso di lavoro → regole business per il tipo di record.
-3. Scegliere il tipo di record, ad esempio Materiali.
-4. Crea una regola: stato target + campo obbligatorio.
-5. Scrivi un messaggio di errore chiaro e specifico.
-6. Salva — è subito in diretta.
-7. Ripetere l&#39;operazione per ogni campo desiderato.
-8. Verifica da solo: prova a modificare lo stato di un record con il campo vuoto, conferma che venga visualizzato il messaggio previsto, compila il campo e conferma che la modifica dello stato sia stata completata.
+### Quick reference: setting up your first rule
 
-Tutto qui. Da qui in poi, chiunque converta un documento in avanti riceverà un chiaro segnale se qualcosa manca, invece di un progetto a valle che appare incompleto.
+1. Confirm the feature is enabled for your tenant.
+2. Go to workflow setup → business rules for your record type.
+3. Choose the record type (e.g., Materials).
+4. Create a rule: target status + required field.
+5. Write a clear, specific error message.
+6. Save — it's live immediately.
+7. Repeat for each field you want to require.
+8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
+
+That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
