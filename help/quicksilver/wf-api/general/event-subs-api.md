@@ -10,18 +10,13 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
-ht-degree: 94%
+source-wordcount: 3545
+ht-degree: 88%
 
 ---
 
@@ -67,7 +62,10 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni a eventi.
 * Fase di approvazione
 * Fase di approvazione del partecipante
 * Assegnazione
+* Prenotazione
 * Azienda
+* Campo personalizzato
+* Modulo personalizzato
 * Dashboard
 * Documento
 * Versione documento
@@ -75,6 +73,8 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni a eventi.
 * Campo
 * Ora
 * Problema
+* Categoria non manodopera
+* Risorsa non di manodopera
 * Nota
 * Portfolio
 * Programma
@@ -90,6 +90,8 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni a eventi.
 * Impostazione valore attributo risorsa del piano per gestione del personale
 * Valore parametro risorsa del piano per gestione del personale
 * Attività
+* Team
+* Membro team
 * Modello
 * Scheda orario
 * Utente
@@ -151,8 +153,20 @@ La risorsa di sottoscrizione contiene i campi seguenti.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">Prenotazione</td> 
+        <td scope="col"><p>PRENOTAZIONE</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">Azienda </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Campo personalizzato</td> 
+        <td scope="col"><p>PARAM</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Modulo personalizzato</td> 
+        <td scope="col"><p>CITTÀ</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Dashboard</td> 
@@ -181,6 +195,14 @@ La risorsa di sottoscrizione contiene i campi seguenti.
        <tr> 
         <td scope="col">Problema</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Categoria non manodopera</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Risorsa non di manodopera</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Nota</td> 
@@ -241,6 +263,14 @@ La risorsa di sottoscrizione contiene i campi seguenti.
        <tr> 
         <td scope="col"><p>Attività</p></td> 
         <td scope="col"><p>ATTIVITÀ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Team</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Membro team</td> 
+        <td scope="col"><p>TEAM</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Modello</p></td> 
@@ -768,6 +798,8 @@ Questo filtro consente la trasmissione dei messaggi se l’aggiornamento per `fi
 
 Questo filtro consente la trasmissione dei messaggi se la modifica avvenuta contiene il `fieldValue` nel filtro. Il valore `fieldValue` fa distinzione tra maiuscole e minuscole.
 
+Se `fieldName` fa riferimento a un array di oggetti (ad esempio, `tags`), `fieldValue` può essere un oggetto; il filtro corrisponde se qualsiasi elemento nell&#39;array ha valori corrispondenti per le chiavi specificate. Altri campi di quell’elemento non vengono considerati, si tratta di una corrispondenza parziale, non di una corrispondenza completa sull’intero oggetto.
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +815,33 @@ Questo filtro consente la trasmissione dei messaggi se la modifica avvenuta cont
     ]
 }
 ```
+
+**Esempio: filtro di un campo array-of-objects**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+Questo filtro corrisponde agli eventi NOTE in cui l&#39;array `tags` contiene almeno un tag con `objID` uguale a `6229be410016986cfc6eb4b37c618a17`, indipendentemente dal tag `objCode` o da altri campi.
+
+>[!NOTE]
+>
+>Quando si filtra un campo array di oggetti (ad esempio `tags`) con `contains` o `notContains`, `fieldValue` deve includere solo le chiavi desiderate, ad esempio `{"objID": "abc123"}` corrisponde a qualsiasi tag con tale ID, indipendentemente dagli altri campi (ad esempio `objCode`). Questa non è una verifica di uguaglianza completa degli oggetti. `containsOnly` non supporta attualmente i campi matrice di oggetti.
 
 #### containsOnly
 
@@ -817,6 +876,8 @@ Questo filtro consente la trasmissione dei messaggi solo quando l’intero set d
 
 Questo filtro consente la trasmissione dei messaggi solo quando il campo specificato (`fieldName`) non contiene il valore specificato (`fieldValue`).
 
+Se utilizzato con una matrice di oggetti, restituisce true solo se nessun elemento corrisponde alle chiavi specificate.
+
 >[!NOTE]
 >
 >È utilizzato per campi di tipo array (a selezione multipla) o stringa. Se il campo è una stringa, verrà controllato che il valore specificato non sia contenuto nella stringa (ad esempio, “Nuovo” non è nella stringa “Progetto - Aggiornato”). Se il campo è un array e il valore di campo specificato è una stringa o un numero intero, verrà controllato che l’array non contenga il valore specificato (ad esempio, “Scelta 1” non in [“Scelta 2”, “Scelta 3”]). L’esempio di sottoscrizione seguente consente la trasmissione dei messaggi solo quando i campi `groups` non contengono la stringa “Gruppo 2”.
@@ -837,6 +898,10 @@ Questo filtro consente la trasmissione dei messaggi solo quando il campo specifi
     ]
 }
 ```
+
+>[!NOTE]
+>
+>Quando si filtra un campo array di oggetti (ad esempio `tags`) con `contains` o `notContains`, `fieldValue` deve includere solo le chiavi desiderate, ad esempio `{"objID": "abc123"}` corrisponde a qualsiasi tag con tale ID, indipendentemente dagli altri campi (ad esempio `objCode`). Questa non è una verifica di uguaglianza completa degli oggetti. `containsOnly` non supporta attualmente i campi matrice di oggetti.
 
 #### change
 
