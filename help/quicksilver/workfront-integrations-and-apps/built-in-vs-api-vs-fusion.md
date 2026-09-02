@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
 workflow-type: tm+mt
-source-wordcount: 977
-ht-degree: 2%
+source-wordcount: 1031
+ht-degree: 3%
 
 ---
 
@@ -55,9 +55,16 @@ Per ulteriori informazioni sulle integrazioni incorporate, incluso un elenco del
 
 Gli amministratori di Adobe [!DNL Workfront] possono creare applicazioni OAuth2 per l&#39;istanza di [!DNL Workfront], che consentono ad altre applicazioni di accedere a [!DNL Workfront]. Gli utenti potranno quindi concedere a queste altre applicazioni l&#39;autorizzazione di accesso ai propri dati di [!DNL Workfront]. In questo modo, è possibile integrare Workfront con le applicazioni di propria scelta, incluse quelle interne.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Nel contesto di OAuth2, &quot;creazione di un&#39;app&quot; si riferisce al processo di creazione di questo tipo di collegamento di accesso tra un&#39;app e un server come Workfront.
+>* Le applicazioni OAuth2 personalizzate stanno per essere dichiarate obsolete. Tieni presente le seguenti date:
+>
+>   * 1 novembre 2026: non sarà più possibile creare nuove applicazioni OAuth2 personalizzate.
+>   * 1 febbraio 2027: le applicazioni OAuth2 personalizzate esistenti non funzioneranno più.
+>
+>   Per ulteriori informazioni, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* Nel contesto di OAuth2, &quot;creazione di un&#39;app&quot; si riferisce al processo di creazione di questo tipo di collegamento di accesso tra un&#39;app e un server come Workfront.
 
 I vantaggi della creazione di un&#39;applicazione [!UICONTROL OAuth2] includono:
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: '14466'
+source-wordcount: '14474'
 ht-degree: 92%
 
 ---
@@ -839,6 +839,7 @@ ht-degree: 92%
     * [Creare pacchetti Adobe Workfront Creative Cloud per gli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
     * [Creare applicazioni OAuth2 per le integrazioni Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [Visualizzare e gestire applicazioni OAuth2 personalizzate](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+    * [Migrazione da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)
     * [Configurare l’integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
   * Blueprint {#blueprints}
     * [Blueprint](administration-and-setup/blueprints/blueprints.md)

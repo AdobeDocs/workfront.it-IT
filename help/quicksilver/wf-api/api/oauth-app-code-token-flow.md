@@ -17,14 +17,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 783
 ht-degree: 2%
 
 ---
 
 # Configurare e utilizzare le applicazioni OAuth 2 personalizzate dell’organizzazione utilizzando il flusso del codice di autorizzazione
+
+>[!IMPORTANT]
+>
+>Le applicazioni OAuth2 personalizzate stanno per essere dichiarate obsolete. Tieni presente le seguenti date:
+>
+>* 1 novembre 2026: non sarà più possibile creare nuove applicazioni OAuth2 personalizzate.
+>* 1 febbraio 2027: le applicazioni OAuth2 personalizzate esistenti non funzioneranno più.
+>
+>Per ulteriori informazioni, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Per eseguire l’integrazione con Workfront e consentire all’app client di comunicare con Workfront per conto dell’utente, è necessario:
 

@@ -17,14 +17,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 817
+source-wordcount: 870
 ht-degree: 2%
 
 ---
 
 # Configurare e utilizzare le applicazioni OAuth 2 personalizzate dell’organizzazione utilizzando il flusso PKCE
+
+>[!IMPORTANT]
+>
+>Le applicazioni OAuth2 personalizzate stanno per essere dichiarate obsolete. Tieni presente le seguenti date:
+>
+>* 1 novembre 2026: non sarà più possibile creare nuove applicazioni OAuth2 personalizzate.
+>* 1 febbraio 2027: le applicazioni OAuth2 personalizzate esistenti non funzioneranno più.
+>
+>Per ulteriori informazioni, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 PKCE è un flusso di autorizzazione sicuro che funziona bene con le applicazioni di aggiornamento dinamico come le app mobili, ma è prezioso per tutti i client OAuth2. Invece di un segreto client statico, PKCE utilizza una stringa generata dinamicamente, eliminando il rischio di perdita di un segreto client.
 

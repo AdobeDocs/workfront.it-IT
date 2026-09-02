@@ -1,14 +1,14 @@
 ---
 title: Configura regole business di tipo record
-description: È possibile configurare regole business di tipo record che definiscono il modo in cui i record di quel tipo vengono gestiti in Adobe Workfront Planning.
+description: È possibile configurare regole business di tipo record che possono applicare determinate azioni ai record in base ai valori dei campi.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 6%
+source-wordcount: '1038'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 6%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-È possibile configurare regole business per i tipi di record di Adobe Workfront Planning che definiscono la modalità di gestione dei record di quel tipo.
+È possibile configurare le regole business per i tipi di record di Adobe Workfront Planning per indicare che alcuni campi sono obbligatori prima che un&#39;azione su un record di quel tipo sia consentita o impedita.
 
-È possibile consentire le azioni seguenti sui record se vengono soddisfatte le regole aziendali definite:
+A seconda della modalità di formulazione della regola, è possibile consentire le azioni seguenti sui record se vengono soddisfatte le regole aziendali definite:
 
-* Modificare un record
-* Elimina una decisione
+* Modificare o meno un record
+* Eliminare o non eliminare un record
 
 ## Requisiti di accesso
 
@@ -80,25 +80,87 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni durante la configurazione delle regole aziendali
 
-* È possibile configurare regole che indichino quando i record possono essere modificati o eliminati.
+* Le regole business associano una condizione a una modifica di campo o all&#39;eliminazione di un record. La regola entra in gioco solo in un momento specifico e intenzionale: quando un campo sta per diventare un valore di campo configurato nella regola.
 
-  Ad esempio, puoi creare le condizioni per richiedere che alcuni campi abbiano un valore. Se il valore non è presente in tali campi, gli utenti non possono modificare o eliminare tale record.
+* Una regola si presenta così in un linguaggio semplice: &quot;Prima di poter modificare questo record, il campo di riepilogo della campagna deve avere un valore&quot;.
+
+  Se il campo è vuoto, la modifica del record viene bloccata e l’utente riceve un messaggio chiaro che spiega cosa deve risolvere prima di procedere. La modifica è consentita dopo aver aggiornato il campo richiesto e riprovato.
+
+* Le regole non bloccano la creazione dei record. Gli utenti possono comunque creare record, ma devono assicurarsi che i campi obbligatori non siano vuoti o contengano il valore specificato.
+* Le regole non modificano o eliminano automaticamente i record. La modifica deve essere intenzionale e attivata da un utente.
+* Le regole non vengono applicate retroattivamente: i record precedenti non vengono interessati. Il controllo delle regole viene eseguito solo al successivo tentativo di modifica o eliminazione di un record.
 * Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
-* Non è possibile configurare regole per la creazione dei record. Tutti coloro che dispongono delle autorizzazioni Gestione per il tipo di record possono creare record.
 * È possibile creare una condizione per la regola business che faccia riferimento a tutti i tipi di campo ad eccezione dei seguenti:
   * Campi formula
   * Campi di ricerca
   * Campi di riferimento
+* Le regole si applicano a tutti coloro che possono modificare o eliminare record.
+* È possibile avere più regole business per un tipo di record.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  Tutte le regole vengono controllate contemporaneamente e il messaggio di errore visualizza tutti i campi mancanti in un&#39;unica istruzione.
 
 ## Configurare le regole business
 
-1. Passare a un tipo di record.
-1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Regole aziendali**.
+1. Passare a una pagina del tipo di record.
+1. Da qualsiasi visualizzazione, fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Regole aziendali**.
 
    Vengono visualizzate le pagine Regole business.
 1. Fare clic su **Nuova regola business**.
-1. Nella casella Nuova regola business aggiungere un nome per la regola business nel primo campo disponibile. Questo campo è obbligatorio
-1. (Facoltativo) Aggiungi una descrizione per definire la regola business.
+1. Nella casella della regola **Nuova attività** aggiungere un nome per la regola business nel primo campo disponibile. Questo campo è obbligatorio
+1. (Facoltativo) Aggiungi una descrizione per definire la regola business, quindi fai clic su **Salva**.
+1. Nella sezione **If** del modulo di configurazione della regola business, scegliere le azioni da limitare o consentire in base a una regola specifica. Scegli tra i seguenti: <!--check UI text-->
+   * **Modifica record**: gli utenti potranno modificare o meno il record, se viene soddisfatta la condizione definita in questa regola.
+   * **Eliminazione record**: gli utenti potranno eliminare o non eliminare il record se viene soddisfatta la condizione definita in questa regola.
+     <!--add screen shot when UI text is final-->
+1. Nel campo **Formula**, aggiungere la regola business. Scegli un operatore per la regola dalla sezione **Espressioni formula** nel pannello di destra.
+
+   Ad esempio, puoi scegliere **IF** dalla sezione dei campi **Other** oppure iniziare a digitare &quot;IF&quot;, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco dei suggerimenti.
+
+   >[!TIP]
+   >
+   >Si consiglia di selezionare i campi e gli operatori dall’elenco dei suggerimenti, per mantenere corretta la sintassi della regola.
+1. Scegliere e il campo da rendere obbligatorio per consentire la modifica o l&#39;eliminazione dei record di questo tipo di record.
+
+   Ad esempio, puoi digitare l&#39;istruzione seguente per rendere obbligatorio il campo **Riepilogo campagna**:
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Si consiglia vivamente di includere nella formula della regola le seguenti informazioni per facilitare agli utenti la comprensione di quando un&#39;azione che stanno tentando di eseguire su un record non è consentita:
+   >
+   >* I campi esatti per i quali è impostata la regola.
+   >* La conseguenza esatta se la regola non viene soddisfatta.
+
+   Nel campo **Formula** sono presenti indicatori quando un campo o un&#39;espressione non sono corretti.  <!--add screen shot?-->
+
+   Nella sezione **Then** della regola business, puoi visualizzare una spiegazione delle funzioni della regola.
+
+1. Fai clic su **Attiva** per attivare la regola per questo tipo di record, quindi fai clic su **Salva**.
+
+   Le regole vengono applicate subito dopo l&#39;attivazione e tutti gli utenti che dispongono delle autorizzazioni per modificare o eliminare record nel tipo di record selezionato devono seguirle.
+1. (Facoltativo e consigliato) Fare clic sulla freccia indietro a sinistra delle **Regole aziendali** nell&#39;intestazione della pagina per visualizzare la pagina del tipo di record e passare alla visualizzazione tabella o aprire la pagina di un record, quindi provare a modificare o eliminare un record per verificare la regola appena creata.
+
+## Gestire le regole business
+
+È possibile modificare, eliminare o disattivare le regole business esistenti.
+
+La modifica di una regola esistente non modifica i record esistenti. La regola modificata si applica solo ai record esistenti quando un utente tenta di modificarli o eliminarli.
+
+1. Torna alla pagina di configurazione **Regole aziendali** per il tipo di record.
+1. Individuare la regola che si desidera modificare.
+1. Passa il puntatore del mouse sul nome della regola, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi su una delle seguenti opzioni:
+
+   * **Modifica**: consente di aprire la pagina di impostazione della regola business e di modificare le informazioni sulla regola business.
+   * **Disattiva**: <!--check this in the UI: right now, it says Disable--> Questa regola non verrà più attivata ma verrà mantenuta per il futuro, necessario.
+   * **Elimina**: tutte le informazioni sulla regola vengono eliminate. Non è possibile recuperare le regole eliminate.
+
+   Le regole modificate o la disattivazione delle regole si applicano solo ai record futuri e non vengono applicate retroattivamente.
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 
