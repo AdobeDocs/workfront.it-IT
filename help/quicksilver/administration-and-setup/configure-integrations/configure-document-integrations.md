@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 6%
 
 ---
 
 # Configurare le integrazioni di documenti
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -93,18 +88,18 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Microsoft SharePoint]
 
-  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Provider di documenti cloud di terze parti:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Unità Google]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Unità Google]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +201,8 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
 
    [!DNL Workfront] utilizza questa chiave API per effettuare chiamate API autorizzate al provider di documenti.
 
+1. <span class="preview">(Facoltativo) Per abilitare il supporto per file di grandi dimensioni, selezionare **[!UICONTROL Abilita caricamento a blocchi per file di grandi dimensioni]** nella sezione **[!UICONTROL Supporto file di grandi dimensioni]**, quindi immettere la dimensione massima del blocco, in MB, nel campo **[!UICONTROL Soglia caricamento a blocchi (MB)]**. Questo campo accetta valori fino a 100 MB. Se questa opzione è abilitata, i file di dimensioni superiori a 25 MB vengono caricati in blocchi di questa dimensione anziché in una singola richiesta.</span>
+
 1. Fai clic su **[!UICONTROL Salva]** per creare l&#39;integrazione.
 
 ## Utilizzare le integrazioni dei documenti
@@ -266,9 +263,9 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
 ### Integrazione di Google Drive
 
 * Quando una cartella collegata viene aggiunta a Workfront, i file in essa contenuti non vengono più aggiunti automaticamente.
-   * Puoi aggiungere la cartella Google a Workfront senza i file, quindi aggiungere i singoli file a Workfront. I file vengono aggiunti automaticamente alla cartella Google in Workfront.
-Oppure
-   * È possibile creare una cartella Documenti in Workfront, quindi selezionare tutti i file nella cartella Google e aggiungerli alla cartella Workfront.
+  * Puoi aggiungere la cartella Google a Workfront senza i file, quindi aggiungere i singoli file a Workfront. I file vengono aggiunti automaticamente alla cartella Google in Workfront.
+    Oppure
+  * È possibile creare una cartella Documenti in Workfront, quindi selezionare tutti i file nella cartella Google e aggiungerli alla cartella Workfront.
 
 
 * L&#39;integrazione dei documenti di Google Drive supporta l&#39;aggiunta di file dall&#39;area My Drive dell&#39;unità Google. Impossibile aggiungere cartelle o immagini da un&#39;unità condivisa. Ulteriori informazioni sulle [unità condivise di Google](https://support.google.com/a/users/answer/7212025?hl=en).
