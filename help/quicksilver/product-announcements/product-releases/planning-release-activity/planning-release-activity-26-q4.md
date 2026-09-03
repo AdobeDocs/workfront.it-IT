@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1770'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,79 @@ ht-degree: 1%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Consente di gestire la visibilità delle miniature e dei colori dei record dalla colonna del campo principale nella vista tabella
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+È ora possibile gestire la visibilità delle miniature e dei colori dei record durante la modifica della colonna del campo principale nella vista tabella.
+
+Con questo aggiornamento, le impostazioni Miniatura e Colore verranno rimosse dall&#39;icona Campi nella barra degli strumenti della vista tabella.
+
+Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Creare regole business per i tipi di record
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+In qualità di responsabile dell&#39;area di lavoro, è ora possibile impostare regole business per i tipi di record che in seguito rifletteranno sulla gestione dei record di quel tipo. È possibile definire regole che consentono agli utenti di modificare o eliminare record solo quando vengono soddisfatte determinate condizioni o quando vengono compilati determinati campi.
+
+È possibile creare una condizione per la regola business che faccia riferimento a tutti i tipi di campo ad eccezione dei seguenti:
+
+* Campi formula
+* Campi di ricerca
+* Campi di riferimento
+
+Non è possibile aggiungere regole business ai tipi di record globali.
+
+Per ulteriori informazioni, vedere [Configurare le regole business dei tipi di record](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+>[!NOTE]
+>
+>Con questo aggiornamento, sono state aggiornate anche le seguenti opzioni di menu nel menu Altro di un tipo di record:
+>
+>* **Crea moduli di richiesta** e **Gestisci moduli di richiesta** è stato modificato in **Moduli di richiesta**
+>* **Gestione automazioni** è stato modificato in **Automazioni**
+
+## Introduzione di settimane personalizzate per la visualizzazione timeline
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+In qualità di amministratore di Workfront, ora puoi configurare settimane personalizzate, oltre ai trimestri personalizzati. Le settimane e i trimestri personalizzati sono visibili dalla vista timeline di Workfront Planning. Workfront genera settimane sequenziali a partire dalla Settimana 1 all’inizio del Trimestre personalizzato 1.
+
+È possibile personalizzare le etichette delle settimane visibili nella visualizzazione timeline. È possibile scegliere un formato predefinito o immetterne uno personalizzato.
+
+Le settimane personalizzate non sono visibili in Workfront. Sono visibili solo nella vista timeline di Workfront Planning.
+
+Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Filtri per i campi record collegati dipendenti
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+È ora possibile filtrare determinati tipi di record che soddisfano un criterio di filtro quando si aggiungono connessioni dipendenti in Planning.
+
+Anziché tutti i tipi di record disponibili nei campi collegati dipendenti, verranno visualizzati solo quelli che soddisfano i criteri di filtro specificati.
+
+Per questa funzione è stata aggiunta una nuova opzione Regole filtro record nella scheda Nuova connessione durante la connessione di tipi di record.
+
+Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Comprimi ed espandi tutti i raggruppamenti nella vista timeline
 

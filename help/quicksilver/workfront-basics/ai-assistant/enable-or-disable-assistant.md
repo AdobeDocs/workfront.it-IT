@@ -16,14 +16,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 15%
+source-wordcount: 353
+ht-degree: 12%
 
 ---
 
 # Abilitare o disabilitare l’Assistente IA
+
+>[!IMPORTANT]
+>
+>A partire da settembre 2026, AI Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 In qualità di amministratore di Workfront, puoi controllare quali utenti dell’organizzazione dispongono di Assistente AI abilitato. Questo viene gestito tramite i livelli di accesso.
 
@@ -70,7 +74,7 @@ Per abilitare l&#39;Assistente IA per la tua organizzazione:
 >[!IMPORTANT]
 >
 >Prima di poter utilizzare l’Assistente AI, devi disporre di un accordo Gen AI firmato su file con Adobe.
->Per ulteriori informazioni sul Contratto di IA per l&#39;analisi dei clienti, vedere [Firmare il Contratto di IA per l&#39;analisi dei clienti di Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Assistente per l&#39;analisi dei clienti di Workfront.
+>Per ulteriori informazioni sul Contratto di intelligenza artificiale di generazione, consulta [Firmare il Contratto di intelligenza artificiale di Adobe di generazione](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Assistente di intelligenza artificiale di Workfront.
 
 ## Attivare o disattivare l&#39;Assistente AI per un livello di accesso
 

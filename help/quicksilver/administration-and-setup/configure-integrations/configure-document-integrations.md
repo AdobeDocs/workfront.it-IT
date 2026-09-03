@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 6%
 
 ---
 
 # Configurare le integrazioni di documenti
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * Provider di documenti cloud di terze parti:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Unità Google]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Unità Google]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
 
    [!DNL Workfront] utilizza questa chiave API per effettuare chiamate API autorizzate al provider di documenti.
 
+1. (Facoltativo) <span class="preview">Per abilitare il supporto per file di grandi dimensioni, selezionare **[!UICONTROL Abilita caricamento a blocchi per file di grandi dimensioni]** nella sezione **[!UICONTROL Supporto file di grandi dimensioni]**, quindi immettere la dimensione massima del blocco, in MB, nel campo **[!UICONTROL Soglia caricamento a blocchi (MB)]**. Questo campo accetta valori fino a 100 MB. Se questa opzione è abilitata, i file di dimensioni superiori a 25 MB vengono caricati in blocchi di questa dimensione anziché in una singola richiesta.</span>
+
 1. Fai clic su **[!UICONTROL Salva]** per creare l&#39;integrazione.
 
 ## Utilizzare le integrazioni dei documenti
@@ -266,9 +270,9 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
 ### Integrazione di Google Drive
 
 * Quando una cartella collegata viene aggiunta a Workfront, i file in essa contenuti non vengono più aggiunti automaticamente.
-   * Puoi aggiungere la cartella Google a Workfront senza i file, quindi aggiungere i singoli file a Workfront. I file vengono aggiunti automaticamente alla cartella Google in Workfront.
-Oppure
-   * È possibile creare una cartella Documenti in Workfront, quindi selezionare tutti i file nella cartella Google e aggiungerli alla cartella Workfront.
+  * Puoi aggiungere la cartella Google a Workfront senza i file, quindi aggiungere i singoli file a Workfront. I file vengono aggiunti automaticamente alla cartella Google in Workfront.
+    Oppure
+  * È possibile creare una cartella Documenti in Workfront, quindi selezionare tutti i file nella cartella Google e aggiungerli alla cartella Workfront.
 
 
 * L&#39;integrazione dei documenti di Google Drive supporta l&#39;aggiunta di file dall&#39;area My Drive dell&#39;unità Google. Impossibile aggiungere cartelle o immagini da un&#39;unità condivisa. Ulteriori informazioni sulle [unità condivise di Google](https://support.google.com/a/users/answer/7212025?hl=en).

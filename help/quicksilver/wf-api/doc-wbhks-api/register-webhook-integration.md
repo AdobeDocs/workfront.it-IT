@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 13%
+source-wordcount: 409
+ht-degree: 8%
 
 ---
 
 # Registrare un’integrazione webhook
+
+{{highlighted-preview}}
 
 Gli amministratori di Adobe Workfront possono aggiungere un’integrazione di webhook personalizzata per la propria società da Configurazione > Documenti > Integrazioni personalizzate in Workfront. Dalla pagina Integrazione personalizzata all’interno di Configurazione, gli amministratori possono visualizzare un elenco delle integrazioni dei webhook dei documenti esistenti. Da questa pagina è possibile aggiungere, modificare, abilitare e disabilitare le integrazioni.
 
@@ -56,7 +58,7 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
   </tr> 
   <tr> 
    <td>Parametri di richiesta</td> 
-   <td> <p>Valori opzionali da accodare alla stringa di interrogazione di ogni chiamata API. Ad esempio, tipo_di_accesso </p> </td> 
+   <td> <p>Valori opzionali da aggiungere alla stringa di interrogazione di ogni chiamata API. Ad esempio, tipo_di_accesso=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>Tipo di autenticazione</td> 
@@ -85,6 +87,14 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(Solo ApiKey) Utilizzato per effettuare chiamate API autorizzate al provider del webhook. Chiave API rilasciata dal provider del webhook.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Abilita caricamento a blocchi per file di grandi dimensioni</td> 
+   <td> <p>Selezionare questa casella di controllo per abilitare i caricamenti in più parti (blocchi) per i file di dimensioni superiori a 25 MB. Se non è selezionata, i file vengono caricati in una singola richiesta indipendentemente dalle dimensioni.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Soglia di caricamento blocchi (MB)</td> 
+   <td> <p>Dimensione massima, in MB, di ogni blocco quando un file di grandi dimensioni viene suddiviso per il caricamento. Accetta valori fino a 100 MB.</p> </td> 
   </tr> 
  </tbody> 
 </table>

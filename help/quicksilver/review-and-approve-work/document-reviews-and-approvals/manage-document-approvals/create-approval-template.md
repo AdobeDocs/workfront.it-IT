@@ -20,16 +20,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: 757
 ht-degree: 5%
 
 ---
 
 # Creare un modello di flusso di lavoro di approvazione per i documenti
 
+{{highlighted-preview}}
+
 Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un oggetto.
+
 >[!IMPORTANT]
 >
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -60,52 +63,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 +++
 
-<!--
-## Create an Approval Template in Production
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Click **New Template** on the right side of the page. 
-
-1. Fill in the following details:
-
-   <table>
-     <tr>
-   <td><strong>Template name</strong></td>
-   <td>Add a template name. </td>
-   </tr>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Workdays until due date</strong></td>
-   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-    
-1. Click **Save**.
-
-Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
--->
-
 ## Creare un modello di approvazione
 
 La finestra di dialogo del modello di approvazione si apre sempre in modalità Avanzata. Non esiste una modalità di base per i modelli. Puoi configurare fino a 30 percorsi paralleli in un modello, per un totale di 100 stadi. Ogni percorso viene eseguito in modo indipendente e può contenere uno o più stadi sequenziali.
@@ -131,6 +88,11 @@ Per creare un modello di approvazione:
    <td><strong>Aggiungi nomi o e-mail (facoltativo)</strong></td>
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. I partecipanti sono facoltativi nei modelli. È possibile aggiungerli quando il modello viene applicato a un documento.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima (facoltativo)</strong></span></td>
+    <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. I partecipanti sono facoltativi nei modelli. È possibile scegliere di aggiungerli quando il modello viene applicato a un documento.<br>
+    Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -147,11 +109,20 @@ Per creare un modello di approvazione:
 
    ![aggiungi una fase](assets/add-stage.png)
 
+<!-- screen for preview
+    ![add a stage](assets/add-stage-v2.png)
+-->
+
+
 1. (Facoltativo) Fai clic su **Aggiungi fase** per aggiungere un&#39;altra fase al percorso. Le fasi di un percorso vengono eseguite in sequenza nell&#39;ordine in cui sono elencate. Quando vengono prese tutte le decisioni necessarie in una fase, inizia la fase successiva di quel percorso e la fase precedente viene bloccata. È possibile riordinare gli stadi all&#39;interno di un tracciato, ma non è possibile spostare uno stadio da un tracciato all&#39;altro. Ogni percorso può avere un numero diverso di stadi.
 
 1. (Facoltativo) In **Percorsi paralleli**, fai clic su **Aggiungi percorso** per aggiungere un altro percorso. Il nuovo percorso inizia con una fase vuota e diventa il percorso selezionato. Impossibile riordinare i percorsi.
 
    ![aggiungi percorsi paralleli](assets/add-path.png)
+
+<!-- screen for preview
+   ![add parallel paths](assets/add-path-v2.png)
+-->
 
 1. (Facoltativo) Per rinominare un percorso, passa il cursore sull’etichetta del percorso, fai clic sull’icona della matita, quindi digita un nuovo nome. Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. **Il percorso 1** non può essere rimosso e gli altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.
 

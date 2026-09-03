@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 4%
@@ -35,13 +35,9 @@ ht-degree: 4%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto. È possibile utilizzare la vista Milestone (Attività cardine) per visualizzare tutte le attività cardine associate alle attività all&#39;interno dei progetti visualizzati.
@@ -123,9 +119,9 @@ Quando si applica la vista Milestone (Attività cardine) a un elenco di progetti
 
   Workfront ordina i progetti nella prima sezione in base ai seguenti criteri, nell’ordine indicato:
 
-   1. ID Percorso Milestone. Puoi visualizzare l’ID del percorso milestone in un rapporto del percorso milestone.
+  1. ID Percorso Milestone. Puoi visualizzare l’ID del percorso milestone in un rapporto del percorso milestone.
 
-   2. Il campo selezionato come primo campo di ordinamento per l’elenco dei progetti nella vista precedentemente applicata all’elenco dei progetti, prima di selezionare la vista Milestone (Attività cardine).
+  2. Il campo selezionato come primo campo di ordinamento per l’elenco dei progetti nella vista precedentemente applicata all’elenco dei progetti, prima di selezionare la vista Milestone (Attività cardine).
 
 * I progetti non associati a un Percorso Milestobe vengono visualizzati accanto, nella sezione Non assegnato. Workfront ordina i progetti nella sezione Non assegnato in base al campo selezionato come primo campo di ordinamento per l’elenco dei progetti nella vista precedentemente applicata all’elenco dei progetti, prima di selezionare la vista Milestone.
 
@@ -140,9 +136,9 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
   Se visualizzi le Date pianificate e hai anche l’accesso Gestisci al progetto, puoi modificare le seguenti date direttamente dalla vista Milestone:
 
-   * **Date inizio progetto:** Se un progetto è programmato a partire dalla data di inizio, è possibile modificare manualmente la Data inizio pianificata del progetto, quindi calcolare la Data completamento pianificata.
-   * **Date di completamento del progetto:** Se un progetto è programmato dalla Data di completamento pianificata, è possibile modificare manualmente la Data di completamento pianificata del progetto, quindi calcolare la Data di inizio pianificata.
-   * **Date di completamento attività:** Puoi aggiornare manualmente la Data di completamento pianificata per le attività direttamente dalla vista Milestone.
+  * **Date inizio progetto:** Se un progetto è programmato a partire dalla data di inizio, è possibile modificare manualmente la Data inizio pianificata del progetto, quindi calcolare la Data completamento pianificata.
+  * **Date di completamento del progetto:** Se un progetto è programmato dalla Data di completamento pianificata, è possibile modificare manualmente la Data di completamento pianificata del progetto, quindi calcolare la Data di inizio pianificata.
+  * **Date di completamento attività:** Puoi aggiornare manualmente la Data di completamento pianificata per le attività direttamente dalla vista Milestone.
 
 * **Percentuale completamento:** Visualizza la percentuale di completamento di ogni attività e progetto.
 
@@ -152,10 +148,10 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
 * **Icone di stato avanzamento attività:** Di seguito sono riportate le icone che indicano lo stato di avanzamento delle attività:
 
-   * Ora di attivazione - verde
-   * Dietro - giallo
-   * A rischio - blu
-   * In ritardo - rosso
+  * Ora di attivazione - verde
+  * Dietro - giallo
+  * A rischio - blu
+  * In ritardo - rosso
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
 * **Ombreggiatura stato attività per attività completate**: dopo aver contrassegnato un&#39;attività come Completa, lo sfondo dell&#39;attività viene ombreggiato nella vista Milestone per indicare se l&#39;attività è stata completata in tempo o in ritardo:
 
-   * **Sfondo rosso per la colonna attività**: lo sfondo di un&#39;attività è rosso quando lo stato di avanzamento è **In ritardo**.
+  * **Sfondo rosso per la colonna attività**: lo sfondo di un&#39;attività è rosso quando lo stato di avanzamento è **In ritardo**.
 
-   * **Ombreggiatura verde per la colonna attività**: lo sfondo di un&#39;attività è verde quando lo stato di avanzamento è **Ora di attivazione**.
+  * **Ombreggiatura verde per la colonna attività**: lo sfondo di un&#39;attività è verde quando lo stato di avanzamento è **Ora di attivazione**.
 
 * **Ombreggiatura stato progetto per le colonne Inizio progetto e Completamento del progetto**:
 
-   * **Colonna inizio progetto**: lo sfondo della colonna Inizio progetto è rosso o verde solo quando la data di inizio effettivo è popolata:
+  * **Colonna inizio progetto**: lo sfondo della colonna Inizio progetto è rosso o verde solo quando la data di inizio effettivo è popolata:
 
-      * **Ombreggiatura rossa per colonna inizio progetto**: lo sfondo della colonna inizio progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
+    * **Ombreggiatura rossa per colonna inizio progetto**: lo sfondo della colonna inizio progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
 
-      * **Ombreggiatura verde per la colonna Inizio progetto**: lo sfondo della colonna Inizio progetto è verde quando lo stato di avanzamento del progetto è **Ora di inizio**.
+    * **Ombreggiatura verde per la colonna Inizio progetto**: lo sfondo della colonna Inizio progetto è verde quando lo stato di avanzamento del progetto è **Ora di inizio**.
 
-     >[!TIP]
-     >
-     >Per visualizzare la data di inizio effettiva del progetto, è necessario passare alla pagina Dettagli progetto.
+    >[!TIP]
+    >
+    >Per visualizzare la data di inizio effettiva del progetto, è necessario passare alla pagina Dettagli progetto.
 
-   * **Colonna completamento progetto**: lo sfondo della colonna Completamento progetto è rosso o verde solo quando viene popolata la data di completamento effettiva:
+  * **Colonna completamento progetto**: lo sfondo della colonna Completamento progetto è rosso o verde solo quando viene popolata la data di completamento effettiva:
 
-      * **Sfondo rosso per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
+    * **Sfondo rosso per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è rosso quando lo stato di avanzamento del progetto è **In ritardo**.
 
-      * **Ombreggiatura verde per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è verde quando lo stato di avanzamento del progetto è **Nei tempi**.
+    * **Ombreggiatura verde per la colonna di completamento del progetto**: lo sfondo della colonna di completamento del progetto è verde quando lo stato di avanzamento del progetto è **Nei tempi**.
 
-     >[!TIP]
-     >
-     >Per visualizzare la data di completamento effettiva del progetto, è necessario passare alla pagina Dettagli progetto.
+    >[!TIP]
+    >
+    >Per visualizzare la data di completamento effettiva del progetto, è necessario passare alla pagina Dettagli progetto.
 
-   * Alle colonne Inizio e Completamento non viene assegnata alcuna ombreggiatura colore quando le attività hanno lo stato Avanzamento A rischio o Indietro.
+  * Alle colonne Inizio e Completamento non viene assegnata alcuna ombreggiatura colore quando le attività hanno lo stato Avanzamento A rischio o Indietro.
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 * **Nome progetto**: il nome del progetto viene visualizzato con un collegamento al progetto.
 * **Icona condizione progetto**: gli indicatori seguenti mostrano la condizione del progetto:
 
-   * In target - verde
-   * A rischio - giallo
-   * In difficoltà - rosso
+  * In target - verde
+  * A rischio - giallo
+  * In difficoltà - rosso
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

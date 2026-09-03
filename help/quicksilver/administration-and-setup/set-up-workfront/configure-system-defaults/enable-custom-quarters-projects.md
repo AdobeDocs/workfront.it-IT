@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 376
-ht-degree: 12%
+source-wordcount: 894
+ht-degree: 5%
 
 ---
 
@@ -31,11 +31,12 @@ ht-degree: 12%
 
 <!--Audited: 03/2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove Production and Preview references at release-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 A scopo di reporting, è possibile creare trimestri personalizzati se i trimestri dell&#39;organizzazione si basano su criteri specifici diversi dalle date del calendario, ad esempio giorni lavorativi o di acquisto.
 
@@ -44,12 +45,11 @@ A seconda dei prodotti acquistati dalla società, è possibile configurare il se
 * I clienti che hanno acquistato solo [!DNL Workfront] possono configurare fino a otto trimestri personalizzati per il sistema [!DNL Adobe Workfront].
 * I clienti che hanno acquistato [!DNL Workfront] e [!DNL Workfront Planning] possono configurare fino a 100 trimestri per il sistema [!DNL Workfront], disponibili anche in [!DNL Planning].
 
-<!--
 <div class="preview">
-* Customers who purchased [!DNL Workfront] and [!DNL Workfront Planning], can configure custom weeks for each custom quarter which are visible in the [!DNL Planning] timeline views. 
-</div>
--->
 
+* I clienti che hanno acquistato [!DNL Workfront] e [!DNL Workfront Planning] possono configurare settimane personalizzate per ogni trimestre personalizzato. Le settimane personalizzate sono visibili nelle visualizzazioni della timeline [!DNL Planning].
+
+</div>
 
 ## Requisiti di accesso
 
@@ -129,11 +129,9 @@ When we release fiscal weeks, replace the table above with this:
 
 ## Imposta trimestri personalizzati per il sistema [!DNL Workfront]
 
-<!--
-Setting up custom quarters differs depending on which environment you use. 
+L’impostazione dei trimestri personalizzati varia a seconda dell’ambiente utilizzato.
 
-### Set up custom quarters for your [!DNL Workfront] system in the Production environment
--->
+### Impostare trimestri personalizzati per il sistema [!DNL Workfront] nell&#39;ambiente di produzione
 
 {{step-1-to-setup}}
 
@@ -168,70 +166,68 @@ Setting up custom quarters differs depending on which environment you use.
 1. (Facoltativo e condizionale) Se la società ha acquistato Workfront Planning e si dispone dell&#39;accesso a [!DNL Workfront Planning], passare a una pagina del tipo di record e aprire una visualizzazione della sequenza temporale. Nella visualizzazione vengono visualizzati i nuovi trimestri personalizzati.
 Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-<!--
 <div class="preview">
 
-### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+### Impostare trimestri personalizzati per il sistema [!DNL Workfront] nell&#39;ambiente di anteprima
 
 >[!NOTE]
 >
->If your organization purchased a Planning package in addition to a Workflow package, or if they purchased  Workfront Planning as a standalone package, you can configure custom weeks, in addition to custom quarters. 
+>Se l&#39;organizzazione ha acquistato un pacchetto Planning in aggiunta a un pacchetto Flusso di lavoro o se ha acquistato Workfront Planning come pacchetto standalone, è possibile configurare le settimane personalizzate, oltre ai trimestri personalizzati.
 > 
->Custom weeks are not available for Workfront reports and lists. 
+>Le settimane personalizzate non sono disponibili per i rapporti e gli elenchi di Workfront.
 
 {{step-1-to-setup}}
 
-1. Click **[!UICONTROL Custom Quarters]**.
+1. Fai clic su **[!UICONTROL Trimestri personalizzati]**.
 
-1. Select **[!UICONTROL Enable Custom Quarters]**.
+1. Selezionare **[!UICONTROL Abilita trimestri personalizzati]**.
 
-1. Type a name for the custom quarter. For example, "Fiscal Q1 2021."
-1. Select start and end dates for the custom quarter.
+1. Digita un nome per il trimestre personalizzato. Ad esempio, &quot;Fiscal Q1 2021&quot;.
+1. Seleziona le date di inizio e fine per il trimestre personalizzato.
 
-1. (Optional) Select the **Starts a new custom week sequence** option. 
+1. (Facoltativo) Seleziona l&#39;opzione **Avvia una nuova sequenza settimanale personalizzata**.
 
-    When selected, this option sets the start of the custom quarter as the start of the first custom week of the quarter in the Planning timeline view. 
-1. (Optional) In the **Custom week label format** area, choose the **Format** for the custom week labels. Choose from the following options:
+   Se selezionata, questa opzione imposta l&#39;inizio del trimestre personalizzato come inizio della prima settimana personalizzata del trimestre nella visualizzazione della sequenza temporale di Planning.
+1. (Facoltativo) Nell&#39;area **Formato etichetta settimana personalizzato**, scegliere il **Formato** per le etichette settimana personalizzate. Scegli una tra le opzioni seguenti:
 
-    * **W1, W2, W3 ...** . This is the default format.
-    * **FW1, FW2, FW3 ...**
-    * **Week1, Week 2, Week 3, ...**
-    * **Custom**
+   * **W1, W2, W3 ...** . Questo è il formato predefinito.
+   * **FW1, FW2, FW3 ...**
+   * **Settimana1, Settimana 2, Settimana 3, ...**
+   * **Personalizzato**
 
-1. (Conditional) If you selected **Custom** for the **Format** field, type a **Custom label** to identify the custom weeks.  
+1. (Condizionale) Se hai selezionato **Personalizzato** per il campo **Formato**, digita una **Etichetta personalizzata** per identificare le settimane personalizzate.
 
-    Custom weeks display in Planning timeline views. 
+   Le settimane personalizzate vengono visualizzate nelle visualizzazioni timeline di Planning.
 
-    >[!TIP]
-    >
-    >When adding a custom label, you can type up to 100 characters. 
-    >
-    >You may indicate the name of the first week, and the following weeks will use the same label followed by a sequential number. 
-    >
-    >For example, a **Custom label** of "Fiscal week" will add the labels of "Fiscal week 1, Fiscal week 2, Fiscal week 3 ..." to the rest of the weeks in the sequence. 
+   >[!TIP]
+   >
+   >Quando aggiungi un’etichetta personalizzata, puoi digitare fino a 100 caratteri.
+   >
+   >È possibile indicare il nome della prima settimana e le settimane successive utilizzeranno la stessa etichetta seguita da un numero sequenziale.
+   >
+   >Ad esempio, una **etichetta personalizzata** di &quot;Settimana fiscale&quot; aggiungerà le etichette &quot;Settimana fiscale 1, Settimana fiscale 2, Settimana fiscale 3 ...&quot; al resto delle settimane nella sequenza.
 
-1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
+1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi trimestre personalizzato]** per aggiungere altri trimestri personalizzati al sistema.
 
-      >[!IMPORTANT]
-      >
-      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
-      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning-red-outline.png)
-      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
+   >[!IMPORTANT]
+   >
+   > Se la tua azienda ha acquistato [!DNL Workfront Planning], non puoi salvare i trimestri personalizzati se ci sono spazi o sovrapposizioni tra i trimestri.
+   >![Trimestri personalizzati con avviso di sovrapposizione](assets/custom-quarters-with-overlap-warning-red-outline.png)
+   >Gli spazi vuoti e le sovrapposizioni tra i trimestri sono consentiti solo per i clienti [!DNL Workfront].
 
-1. (Optional and conditional) To view the custom quarters in Workfront, create a reporting element that refers to the custom quarters.
+1. (Facoltativo e condizionale) Per visualizzare i trimestri personalizzati in Workfront, crea un elemento di reporting che faccia riferimento ai trimestri personalizzati.
 
-   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
+   **Esempio:** Crea un filtro per un elenco di [!UICONTROL progetti] e includi la data di completamento pianificata di un progetto che fa riferimento ai trimestri personalizzati.
 
-   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Filtro progetti con trimestri personalizzati](assets/example-of-project-filter-with-custom-quarters.png)
 
-   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
+   I riferimenti a &quot;Questo trimestre&quot;, &quot;Prossimo trimestre&quot; e &quot;Ultimo trimestre&quot; sono sostituiti da nuovi riferimenti ai trimestri personalizzati.
 
-   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Per informazioni sugli elementi di reporting, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Optional and conditional) To view custom quarters and weeks in Workfront Planning, go to a record type page and open a timeline view. The view displays the new custom quarters and weeks. 
+   Per informazioni sulla creazione di filtri, vedere [Creare o modificare filtri in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Facoltativo e condizionale) Per visualizzare i trimestri e le settimane personalizzati in Workfront Planning, passare a una pagina del tipo di record e aprire una visualizzazione della sequenza temporale. Nella visualizzazione vengono visualizzati i nuovi trimestri e settimane personalizzati.
 
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 </div>
--->

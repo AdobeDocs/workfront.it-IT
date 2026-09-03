@@ -19,10 +19,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
-ht-degree: 2%
+source-wordcount: 2440
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,10 @@ ht-degree: 2%
 
 # Panoramica sui tipi di record collegati
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -193,6 +192,13 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
   * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
+  <div class="preview">
+
+  * È possibile rendere un campo connessione dipendente dal campo connesso corrispondente dal tipo di record connesso. Quando i due campi vengono visualizzati su un terzo tipo di record, le selezioni disponibili per un campo dipendono dalle selezioni dell&#39;altro campo.
+
+    Per ulteriori informazioni e considerazioni aggiuntive, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+  </div>
 
 ## Tipi di connessione
 

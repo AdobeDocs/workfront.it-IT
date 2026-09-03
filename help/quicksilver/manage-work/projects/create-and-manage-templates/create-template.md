@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 9%
@@ -37,13 +37,9 @@ ht-degree: 9%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 È possibile creare ed eliminare modelli dall&#39;area Modelli. Durante la creazione di un nuovo modello, è possibile immettere le informazioni per tutte le attività e per le impostazioni di progetto future. Queste informazioni verranno quindi trasferite a qualsiasi progetto creato dal modello.
@@ -140,15 +136,15 @@ Old:
 
      Un modello viene creato e il suo nome predefinito segue i seguenti modelli, a seconda del Workfront di archiviazione utilizzato per i documenti:
 
-      * **Modello senza titolo** per modello di archiviazione Workfront.
+     * **Modello senza titolo** per modello di archiviazione Workfront.
 
-        Un modello di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
+       Un modello di archiviazione legacy di Workfront visualizza un&#39;icona **Archiviazione legacy di Workfront** ![Icona progetto di archiviazione legacy](assets/legacy-storage-project-icon.png) accanto al nome.
 
-      * **Modello senza titolo - &lt; Mese giorno, anno ora.minuto.secondo >** per un modello di archiviazione cloud Adobe
+     * **Modello senza titolo - &lt; Mese giorno, anno ora.minuto.secondo >** per un modello di archiviazione cloud Adobe
 
-        >[!IMPORTANT]
-        >
-        >I modelli che utilizzano l’archiviazione Adobe devono avere nomi univoci.
+       >[!IMPORTANT]
+       >
+       >I modelli che utilizzano l’archiviazione Adobe devono avere nomi univoci.
 
    ![Nuovo modello](assets/create-template-nwe-2022-350x102.png)
 

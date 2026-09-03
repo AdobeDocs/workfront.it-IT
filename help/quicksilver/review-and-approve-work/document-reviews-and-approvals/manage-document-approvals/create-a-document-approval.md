@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
-ht-degree: 2%
+source-wordcount: 2662
+ht-degree: 1%
 
 ---
 
 # Creare un flusso di lavoro di approvazione documento
+
+{{highlighted-preview}}
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
@@ -99,6 +101,11 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -118,6 +125,10 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
 1. Fai clic su **Richiedi approvazione**.
 
    ![Richiedi l&#39;approvazione in modalità elementare](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Creare un flusso di lavoro di approvazione avanzato
 
@@ -152,6 +163,11 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -173,6 +189,10 @@ Per creare un flusso di lavoro di approvazione avanzato:
 1. (Facoltativo) Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. Impossibile rimuovere **Percorso 1** e riordinare i percorsi. Altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
@@ -208,6 +228,11 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -225,6 +250,12 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
 1. Fai clic su **Richiedi approvazione**.
 
    ![Richiedi l&#39;approvazione in modalità elementare](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -288,9 +324,37 @@ Per creare un flusso di lavoro di approvazione avanzato:
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
 1. Fai clic su **Richiedi approvazione**.
+
+<div class="preview">
+
+## Visualizzare i flussi di lavoro di approvazione per le versioni precedenti nella nuova area Documenti in Anteprima
+
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Nel pannello Approvazioni sono elencate solo le versioni del documento che hanno un flusso di lavoro di approvazione.
+
+Per visualizzare i flussi di lavoro di approvazione per le versioni precedenti:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
+
+   ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
+
+1. Fai clic su una versione per espanderla. È possibile visualizzarne le fasi, la decisione di ogni approvatore, la regola di decisione della fase (ad esempio se è necessaria una sola decisione per completare la fase) e le date di scadenza.
+1. Fai clic su un’altra versione per espandere il flusso di lavoro di approvazione senza uscire dal pannello.
+
+   >[!NOTE]
+   >
+   >Se il flusso di lavoro di approvazione di una versione è stato ritirato perché è stata richiesta l’approvazione di una versione più recente, tale versione rimane nell’elenco, compresso, e puoi quindi rivedere le decisioni precedenti.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

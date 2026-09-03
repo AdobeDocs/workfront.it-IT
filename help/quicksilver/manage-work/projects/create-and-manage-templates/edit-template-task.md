@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
+source-wordcount: 3125
 ht-degree: 7%
 
 ---
@@ -39,13 +39,9 @@ ht-degree: 7%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Dopo aver creato un modello, è possibile modificare le informazioni relative alle attività del modello. Le informazioni aggiornate in un&#39;attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
@@ -150,10 +146,10 @@ Prima di iniziare, è necessario
       * Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
 
 
-         * Panoramica
-         * Moduli personalizzati
-I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli personalizzati allegati all’attività modello.
-         * Finanz
+        * Panoramica
+        * Moduli personalizzati
+          I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli personalizzati allegati all’attività modello.
+        * Finanz
 
         >[!TIP]
         >
@@ -411,7 +407,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
    <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
    <b>NOTA</b>
    <p>
-   Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
+   Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, consulta <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
    </p>
 
    </td> 
@@ -506,12 +502,12 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
 1. Selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività modello.
 
    Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo.
-Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
+   Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
 
    Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività modello.
-I moduli vengono aggiunti automaticamente alle attività create dal modello.
+   I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. (Condizionale e facoltativo) Se si è allegato un modulo personalizzato all&#39;attività modello, modificare tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività modello.
 
    >[!NOTE]

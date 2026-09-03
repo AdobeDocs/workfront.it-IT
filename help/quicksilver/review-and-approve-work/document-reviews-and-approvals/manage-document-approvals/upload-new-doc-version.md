@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 798
 ht-degree: 7%
@@ -28,6 +28,7 @@ ht-degree: 7%
 ---
 
 # Caricare una nuova versione del documento e richiedere un’approvazione
+
 
 Se un documento è contrassegnato come &quot;Da lavorare&quot; in una revisione precedente, è possibile caricare una nuova versione nel documento originale e avviare un altro ciclo di approvazioni. Dopo aver caricato una nuova versione del documento, le versioni precedenti vengono bloccate.
 
@@ -207,3 +208,7 @@ Per aggiungere una nuova versione e richiedere l’approvazione:
 1. Fai clic su **Richiedi approvazione**.
 
    Il flusso di lavoro di approvazione viene avviato e gli approvatori ricevono una notifica che indica che la loro approvazione è necessaria per la nuova versione del documento. La versione precedente del documento è bloccata e tutte le approvazioni in sospeso relative alla versione precedente vengono ritirate.
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

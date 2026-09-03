@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # Modificare i modelli di progetto
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Azienda</strong></td> 
       <td><p>Specifica la società da associare al modello. Nell'elenco vengono visualizzate solo le società attive.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Area di lavoro Frame.io (condizionale)</strong></span></td>
+      <td><span class="preview">
+      <p>In un progetto di archiviazione cloud Adobe, seleziona l’area di lavoro Frame.io che desideri che utilizzi per i progetti creati da questo modello. Se nell'organizzazione sono presenti più aree di lavoro Frame.io, questo determina in quale area di lavoro viene creato il progetto Frame.io collegato.</p>
+      <p>L'elenco include solo le aree di lavoro Frame.io per le quali si dispone dell'autorizzazione per assegnare i progetti. Area di lavoro predefinita utilizzata quando non è selezionata o disponibile alcuna area di lavoro.</p>
+      <p>È possibile modificare questo campo nel modello in qualsiasi momento. Le modifiche vengono applicate solo ai progetti creati dopo la modifica; i progetti già creati dal modello mantengono l'area di lavoro Frame.io esistente.</p>
+      <p>Nota: per utilizzare il campo di lavoro Frame.io è necessario disporre di Frame.io enterprise.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Proprietario del modello</strong></td> 
@@ -772,8 +779,8 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 
   Per informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o a un modello, vedere gli articoli seguenti:
 
-   * [Creare gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Creare gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Puoi aggiungere i seguenti elementi alle attività nel modello:
 

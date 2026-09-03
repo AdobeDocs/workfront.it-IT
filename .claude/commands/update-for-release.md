@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
+source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,10 @@ Per ogni articolo nell’elenco confermato dall’utente:
 
 2. **Determinare il pattern di evidenziazione.** Chiedi all’utente quale rientri in questo articolo (la risposta può differire per articolo):
 
-   - **Duplicazione per sezione**: aggiungi `in Production` all&#39;intestazione di sezione esistente. Aggiungi una nuova sezione con `in Preview` aggiunta, racchiusa in `<div class="preview"> ... </div>`. Da utilizzare quando il nuovo comportamento modifica in modo significativo la procedura: passaggi aggiuntivi, una nuova immagine, nuove righe di tabella o un testo diverso. Tipico per procedure guidate.
-   - **Ritorno a capo per riga**: aggiungi le nuove frasi in linea all&#39;interno della sezione esistente, racchiuse in `<span class="preview"> ... </span>`. Da utilizzare quando l’aggiunta è una frase o due che si adattano naturalmente a un paragrafo, una cella di tabella o una risposta alle domande frequenti esistenti.
-   - **Misto**: alcune sezioni nello stesso articolo utilizzano la duplicazione per sezione, altre il wrapping per riga. Utilizza questa opzione quando l’articolo dispone sia di sezioni procedurali che di sezioni in stile FAQ.
+   - **Duplicazione per sezione**: aggiungi `in Production` all&#39;intestazione di sezione esistente. Aggiungi una nuova sezione con `in Preview` aggiunta, racchiusa in `<div class="preview"> ... </div>`. Utilizzare quando il nuovo comportamento modifica in modo significativo la routine stessa, ovvero passaggi aggiuntivi o riordinati, una nuova immagine o un testo diverso. Tipico per procedure guidate.
+   - **Duplicazione per riga**: per una descrizione di campo basata su tabella in cui viene modificata una sola riga e il resto della tabella/routine rimane invariato, lasciare invariata la riga esistente byte per byte e aggiungere un nuovo `<tr class="preview">` direttamente dopo di essa. Non intrecciare nuove frasi nella riga originale. Per le convenzioni esatte, consulta &quot;Duplicazione per riga&quot; in Regole di contenuto.
+   - **Ritorno a capo per riga**: aggiungi le nuove frasi in linea all&#39;interno della sezione esistente, racchiuse in `<span class="preview"> ... </span>`. Da utilizzare quando l’aggiunta è una frase o due che si adattano naturalmente a un paragrafo esistente o a una risposta FAQ (non a una riga di tabella, utilizza la duplicazione per riga per tali righe).
+   - **Misto**: alcune sezioni nello stesso articolo utilizzano modelli diversi per contenuti diversi. Utilizza questa opzione quando l’articolo combina tabelle procedurali, sezioni in stile FAQ e paragrafi normali.
 
 3. **Posizionare il frammento** sulla propria riga immediatamente dopo l&#39;intestazione H1, con una riga vuota sopra e sotto. Lo snippet si trova **prima** del paragrafo dell&#39;introduzione.
 
@@ -153,6 +154,25 @@ Regole:
 - **In linea (a livello di frase)**: racchiudi `<span class="preview"> ... </span>` all&#39;interno del paragrafo esistente, della cella della tabella o della risposta alle domande frequenti.
 - Non nidificare mai `<span class="preview">` in un `<div class="preview">`.
 
+### Duplicazione per riga
+
+Per una descrizione di campo basata su tabella in cui cambia solo il *comportamento* del campo (non la procedura circostante):
+
+- Lascia `<tr>` esistente completamente invariato: ora corrisponde al comportamento corrente/produzione. Non inserire mai nuove frasi o estendersi in esso.
+- Aggiungi una nuova riga subito dopo:
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Etichetta**: non prendere solo l&#39;etichetta del campo originale e aggiungere `(in Preview)`. Scrivere un&#39;etichetta breve e naturale per la nuova funzionalità (ad esempio, l&#39;etichetta originale &quot;Aggiungi nomi o e-mail&quot; → nuova etichetta &quot;Aggiungi persone o team&quot;), quindi aggiungere `in preview` in minuscolo senza parentesi: &quot;Aggiungi persone o team in anteprima&quot;.
+- **Descrizione**: scrivi una nuova descrizione di 1-3 frasi solo del nuovo comportamento, nella voce esistente dell&#39;articolo. Non riutilizzare le frasi della riga originale come base e inserirvi delle aggiunte; la nuova riga deve essere letta come una descrizione completa e autonoma.
+- **Note aggiuntive**: aggiungere con un&#39;interruzione di riga `<br>` seguita da `Note:` nella riga successiva, all&#39;interno dello stesso `<span class="preview">`. Non nidificare `<p>Note: ...</p>`. Poiché la nuova riga è isolata, ripeti brevemente qui qualsiasi fatto ancora rilevante dalla nota della riga originale, invece di supporre che lo abbia visto anche il lettore (ad esempio, una restrizione in modalità avanzata &quot;uno stadio aperto alla volta&quot; che si applica ugualmente alla nuova riga).
+- **Più varianti**: se lo stesso campo viene aggiornato in più di una procedura nello stesso articolo (Basic vs. Advanced, legacy vs. ESM e così via) e il comportamento sottostante differisce effettivamente tra loro (ad esempio, legacy mantiene un consenso predefinito mentre ESM si espande sempre), scrivi ogni riga per corrispondere al comportamento effettivo della variante. Non copiare il testo di una variante nella riga di un’altra.
+
 ### Posizionamento snippet
 
 - La linea dello snippet va immediatamente dopo la H1, con una linea vuota sopra e sotto.
@@ -164,6 +184,15 @@ Regole:
 - Salvare le nuove schermate nella cartella `assets/` dell&#39;articolo con un nome di file descrittivo con maiuscole/minuscole.
 - Fai riferimento alla nuova schermata dall’interno della nuova sezione in-Preview. Se lo screenshot di una sezione in-produzione non riflette più la funzione con precisione, lasciala in posizione; rappresenta comunque il comportamento di produzione fino a GA.
 - Non creare nomi di file di screenshot; se non è stato ancora fornito uno screenshot, chiedi all&#39;utente.
+- **Segnaposto per uno screenshot che non esiste ancora**: se l&#39;utente desidera procedere senza attendere la risorsa, aggiungi un commento HTML direttamente dopo il riferimento dello screenshot esistente (di produzione), riutilizzando il nome file con il suffisso `-v2`:
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Sostituisci il riferimento reale (e rimuovi il commento) una volta fornita la schermata.
 
 ### Note e suggerimenti
 
@@ -185,6 +214,8 @@ Esegui questa lista di controllo completa per **ogni** articolo nella sessione, 
 - I titoli di sezione esistenti terminano con `in Production`.
 - Le nuove intestazioni di sezione terminano con `in Preview` e la sezione si trova all&#39;interno di `<div class="preview">`.
 - Le aggiunte in linea si trovano in `<span class="preview">`.
+- Duplicazioni per riga: il `<tr>` originale è byte per byte invariato; il nuovo `<tr class="preview">` ha entrambe le celle racchiuse in `<span class="preview">`; l&#39;etichetta è una nuova etichetta breve + minuscola &quot;in anteprima&quot; (non l&#39;etichetta originale + &quot;(in Anteprima)&quot;); qualsiasi nota supplementare utilizza `<br>` + `Note:` in linea, non un `<p>` nidificato.
+- Se lo stesso campo viene visualizzato in più varianti di procedura (Basic/Advanced, legacy/ESM), il testo di ogni nuova riga corrisponde al comportamento effettivo della variante, anziché essere copiato e incollato da un&#39;altra variante.
 - La nuova prosa contrassegnata da anteprima è simile a una descrizione di campo o comportamento semplice, non a una voce del registro delle modifiche e non aggiorna in modo ridondante un&#39;istruzione invariata.
 - `ReadLints` è pulito nel file modificato.
 - L’articolo viene letto correttamente in entrambi gli stati (con il contenuto di anteprima mostrato e nascosto).

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +90,6 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
 | <span class="preview">Elenchi di piani e iniziative dello scenario</span> | <span class="preview">Menu principale > Scenari</span> |
-| <span class="preview">Elenco di obiettivi e indicatori di avanzamento</span> | <ul><li><span class="preview">Menu principale > Obiettivi</span></li><li><span class="preview">Menu principale > Obiettivi > Indicatori di avanzamento</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascond
 
 1. Utilizza i pulsanti per visualizzare o nascondere le colonne nell’elenco.
 
-<span class="preview">È possibile cercare una colonna nella casella di ricerca.</span>
+   <span class="preview">È possibile cercare una colonna nella casella di ricerca.</span>
 
 1. Per riordinare le colonne, fare clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) e spostare una colonna nella posizione desiderata. Lo spostamento delle colonne determina la modifica automatica dell&#39;elenco.
 

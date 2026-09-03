@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 7%
+source-wordcount: 1429
+ht-degree: 6%
 
 ---
 
 # Gestire le informazioni nell’area Panoramica progetto
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | Data ultimo aggiornamento | Data e ora dell’ultimo aggiornamento del progetto. |
    | Ultimo aggiornamento di | Nome dell’ultimo utente che ha aggiornato il progetto. |
    | Modello |  |
+   | Area di lavoro Frame.io | <span class="preview">L&#39;area di lavoro Frame.io viene ereditata dal modello utilizzato per crearla. Impossibile modificare il campo dopo la creazione del progetto.</span> |
 
 
 1. Se la società ha acquistato una licenza aggiuntiva per Adobe Workfront Scenario Planner e il progetto contiene informazioni pubblicate da un&#39;iniziativa collegata, esaminare le seguenti informazioni nell&#39;area Scenario Planner:

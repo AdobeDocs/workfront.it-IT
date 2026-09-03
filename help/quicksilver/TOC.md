@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: '14474'
+source-wordcount: '14501'
 ht-degree: 92%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 92%
       * [Miglioramenti dell’intelligenza artificiale nel quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Miglioramenti per gli amministratori del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
       * [Miglioramenti ai documenti del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Miglioramenti alla gestione finanziaria nel quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Miglioramenti al progetto del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Miglioramenti alla comunicazione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
       * [Miglioramenti alla gestione delle risorse nel quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
@@ -969,6 +970,11 @@ ht-degree: 92%
     * [Utilizzare il server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Strumenti server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Abilità disponibili per l’installazione diretta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+  * CX Coworker in Workfront {#coworker-in-workfront}
+    * [CX Coworker in Workfront: indice articolo](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Competenze dei collaboratori CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Utilizzo di CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Aggiornare elementi di lavoro e visualizzare aggiornamenti {#update-work-items-view-updates}
     * [Aggiornare elementi di lavoro e visualizzare aggiornamenti: indice articoli](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Panoramica sulla sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2213,7 +2219,7 @@ ht-degree: 92%
     * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Panoramica sui tipi di record per più aree di lavoro](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
+    * [Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
     * [Configurare l’area Impostazioni di un tipo di record](planning/architecture/configure-record-type-settings.md)
     * [Aggiungere tipi di record esistenti da un’altra area di lavoro](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Panoramica dei tipi di record di connessione](planning/architecture/connect-record-types-overview.md)

@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
+source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
 workflow-type: tm+mt
-source-wordcount: 2584
+source-wordcount: 2771
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fare clic su **Seleziona campo**.
 
-   1. Individua e seleziona la cartella **Approvazione documento**.
+   1. Individua e seleziona la cartella **Approval**.
 
    1. Seleziona **Stato**.
 
@@ -97,8 +97,16 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Fai clic su **Aggiungi condizione**.
 
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
-   1. Lascia l&#39;operatore come **Uguale**, quindi digita _in attesa di revisione_ nella casella di testo.
-      ![esempio di filtro kpi in sospeso](assets/pending-kpi-filter.png)
+   1. Lascia l&#39;operatore uguale a **Equal**, quindi scegli **Pending Review**.
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
+   ![esempio di filtro kpi in sospeso](assets/pending-kpi-filter.png)
+
+
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 
@@ -124,7 +132,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fare clic su **Seleziona campo**.
 
-   1. Individua e seleziona la cartella **Approvazione documento**.
+   1. Individua e seleziona la cartella **Approval**.
 
    1. Seleziona **Stato**.
 
@@ -147,8 +155,13 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
-   1. Cambia l&#39;operatore in **Non contiene**, quindi digita _approvato_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Non contiene**, quindi scegli **Approvato**.
       ![esempio di filtro kpi scaduto 2](assets/overdue-kpi-filter-2.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 
@@ -175,7 +188,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fare clic su **Seleziona campo**.
 
-   1. Individua e seleziona la cartella **Approvazione documento**.
+   1. Individua e seleziona la cartella **Approval**.
 
    1. Seleziona **Stato**.
 
@@ -193,14 +206,19 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Seleziona **Stato**.
 
-   1. Cambia l&#39;operatore in **Contains** e digita _approve_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Contiene** e scegli **Approvato**.
       ![esempio di filtro kpi completato](assets/completed-kpi-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic su **And** per modificarlo in **Or**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
-   1. Cambia l&#39;operatore in **Uguale**, quindi digita _revisionato_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Rivisto**.
       ![esempio di filtro kpi completato](assets/completed-kpi-filter-2.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 #### Approvazioni abbandonate
@@ -225,7 +243,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fare clic su **Seleziona campo**.
 
-   1. Individuare e selezionare la cartella **Fase di approvazione documento**.
+   1. Individuare e selezionare la cartella **Fase di approvazione**.
 
    1. Seleziona **Scadenza**.
 
@@ -243,7 +261,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Seleziona **Stato**.
 
-   1. Cambia l&#39;operatore in **Non contiene** e digita _approvato_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Non contiene** e scegli **Approvato**.
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
@@ -251,6 +269,11 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Cambia l&#39;operatore in **Minore di**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAY-2w_ nella casella di testo.
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter-2.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fare clic sul filtro delle condizioni vuoto, fare clic su **Scegli un campo**, quindi scegliere la **relazione di approvazione** e quindi **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 ### Grafici
@@ -278,7 +301,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
-   1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Stato**.
+   1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Stato**.
    1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Stato**.
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
@@ -288,6 +311,11 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Selezionare **Versione documento** > **Versione**.
    1. Cambia l&#39;operatore in **Is Not Null**.
       ![esempio filtro](assets/approvals-by-decision-chart-filter.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 
@@ -313,9 +341,9 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
-   1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Versione**.
+   1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Versione documento** > **Versione**.
    1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
-   1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Documento** > **Nome**.
+   1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione** > **Versione documento** > **Documento** > **Nome**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
@@ -332,6 +360,11 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Cambia l&#39;operatore in **Minore di o uguale a**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAYem_ nella casella di testo.
       ![Esempio di filtro grafico revisioni](assets/revision-chart-filter-2.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 ## Aggiungere informazioni dettagliate di revisione e approvazione con le tabelle
@@ -360,7 +393,7 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
 
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella** ![Colonne tabella](assets/drilldown-column.png).
    1. Fare clic su **Aggiungi colonna**.
-   1. Scorri verso il basso e seleziona **Approvazione documento** > **Stato**.
+   1. Scorri verso il basso e seleziona **Approvazione** > **Stato**.
    1. Aggiungi le seguenti colonne:
 
    <table>
@@ -378,19 +411,19 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
     </tr>
     <tr>
     <td><strong>Scadenza</strong></td>
-    <td>Approvazione documento &gt; Fasi di approvazione &gt; Scadenza</td>
+    <td>Approvazione &gt; Fasi di approvazione &gt; Scadenza</td>
     </tr>
     <tr>
     <td><strong>Richiesta di</strong></td>
-    <td>Documento Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+    <td>Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     <tr>
     <td><strong>Data richiesta</strong></td>
-    <td>Documento Approvazione &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+    <td>Approvazione &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato il</td>
     </tr>
     <tr>
     <td><strong>Approvatore</strong></td>
-    <td>Document Approval &gt; Approval Stages &gt; Approval Stage Participants* &gt; Participant User &gt; type <em>Name</em> nella casella di ricerca.</td>
+    <td>Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
     </tr>
     </table>
 
@@ -403,8 +436,14 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
    1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
-   1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_ nella casella di testo.
+   1. Cambia l&#39;operatore in **Uguale**, quindi scegli **In attesa di approvazione**.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
+
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Tipo di approvazione**.
+   1. Lascia l&#39;operatore come **Equal**, quindi seleziona **Document Version**.
+
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -456,7 +495,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella** ![Colonne tabella](assets/drilldown-column.png).
    1. Fare clic su **Aggiungi colonna**.
-   1. Scorri verso il basso e seleziona **Approvazioni documenti** > **Stato**.
+   1. Scorri verso il basso e seleziona **Approvazioni** > **Stato**.
    1. Aggiungi le seguenti colonne:
 
       <table>
@@ -474,19 +513,19 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
         </tr>
         <tr>
         <td><strong>Scadenza</strong></td>
-        <td>Documento &gt; Fasi di approvazione &gt; Scadenza</td>
+        <td>Approvazione &gt; Fasi di approvazione &gt; Scadenza</td>
         </tr>
         <tr>
         <td><strong>Richiesta di</strong></td>
-        <td>Documento &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+        <td>Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
         </tr>
         <tr>
         <td><strong>Data richiesta</strong></td>
-        <td>Documento &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+        <td>Approvazione &gt; Fasi di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato il</td>
         </tr>
         <tr>
         <td><strong>Approvatore</strong></td>
-        <td>Documento &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+        <td>Approvazione &gt; Fasi approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
         </tr>
         </table>
 
@@ -536,5 +575,10 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Seleziona **Fasi approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **I miei altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team a cui sei connesso.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
+
+   1. Fai clic su **Aggiungi condizione**.
+   1. Fare clic sul filtro delle condizioni vuoto, fare clic su **Selezionare un campo**, quindi scegliere la relazione di approvazione e quindi Tipo di approvazione.
+   1. Lascia l&#39;operatore come **Uguale**, quindi seleziona Versione documento.
+
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 +++

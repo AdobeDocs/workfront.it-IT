@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1597
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step-1-to-setup}}
 
-1. Per creare o modificare un profilo di scheda orario da utilizzare in tutto il sistema, fare clic su **Scheda orario e ore > Profili scheda orario**.
+1. Per creare o modificare un profilo di scheda orario da utilizzare nel sistema, fare clic su **Scheda orario e ore > Profili scheda orario**.
 
    Oppure
 

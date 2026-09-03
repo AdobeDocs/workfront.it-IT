@@ -4,10 +4,10 @@ description: Altri miglioramenti durante il periodo di rilascio del quarto trime
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 6%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 6%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Aggiornamenti elenco avanzati
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+In tutti gli elenchi avanzati, sono ora disponibili i seguenti aggiornamenti:
+
+* Il pulsante per aggiungere una nuova riga a una tabella è stato spostato all&#39;interno della griglia anziché al di sotto della griglia.
+* Le opzioni **Colonne** sopra l&#39;elenco ora includono un campo di ricerca.
+
+Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Più schermate aggiornate agli elenchi avanzati
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+I seguenti elenchi di Workfront ora utilizzano il formato elenco avanzato:
+
+* Imposta > Interfaccia > Aggiorna feed > Azioni
+* Imposta > Interfaccia > Aggiorna feed > Campi tracciati
+* Configurazione > Preferenze progetto > Condizioni
+* Configurazione > Posizioni
+* Configurazione > Scorecard
+* Imposta > Tipi di rischio
+* Progetto > Documenti > Dettagli documento > Tutte le versioni
+* Configurazione > Documenti > Integrazione con SharePoint
+* Configurazione > Documenti > Integrazione personalizzata
+* Menu principale > Scenari > elenchi di piani e iniziative di scenario
+
+Gli aggiornamenti includono quanto segue per alcuni o tutti gli elenchi:
+
+* Nuovo aspetto dell&#39;elenco, con aggiornamenti a colori, formattazione e caratteri.
+* L’opzione per creare un nuovo oggetto nell’elenco è stata spostata in alto a destra e viene visualizzata come un pulsante blu.
+* Barra degli strumenti rimossa. Ora, quando selezioni uno o più oggetti nella tabella, la barra delle azioni viene visualizzata in blu nella parte inferiore dell’elenco.
+* Alcune colonne potrebbero essere state riposizionate o rimosse oppure sono state aggiunte nuove colonne.
+* Alcune conferme e avvertenze sono state rimosse o modificate.
+* Il salvataggio in alcuni elenchi è ora automatico e il pulsante Salva potrebbe essere stato rimosso.
+* Alcuni elenchi avanzati consentono di rinominare o ordinare le colonne.
+* Alcuni elenchi avanzati includono il gestore colonne, che consente di aggiungere e disporre le colonne. Puoi selezionare le colonne per campi nativi o personalizzati in Workfront.
+* Le icone all&#39;interno delle celle della tabella sono state sostituite da Altri menu con più opzioni.
+
+NOTA: non tutti gli aggiornamenti sono disponibili in tutti gli elenchi.
+
+Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## I metadati C2PA vengono conservati nei file
 

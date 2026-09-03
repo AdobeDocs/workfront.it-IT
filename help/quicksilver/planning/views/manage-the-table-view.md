@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -190,7 +191,7 @@ Per impostazione predefinita, in una vista tabella vengono visualizzati i seguen
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    * Prendi l’intestazione della colonna e trascinala nella posizione desiderata. La colonna spostata viene visualizzata brevemente con uno sfondo blu finché non vengono apportate altre modifiche alla tabella.
 
    * Fai clic su **Campi** nella barra degli strumenti della tabella, trascina i campi nell&#39;ordine desiderato, quindi fai clic all&#39;esterno della casella **Visibilità campi e ordine** per chiuderla.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![Barra degli strumenti di visualizzazione tabella dei campi espansa](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    ><span class="preview">Nella riga di trascinamento, un indicatore numerico visualizza il numero di record selezionati, se più di uno. </span>
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del record, quindi fai clic su **Modifica miniatura** per modificare la miniatura.
-1. Fai clic su **Campi** nella parte superiore della tabella, quindi seleziona l&#39;interruttore per il campo **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
+1. Fai clic su **Campi** nella parte superiore della tabella nell&#39;ambiente di produzione
+
+   Oppure
+
+   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario</span>, quindi seleziona l&#39;interruttore per il campo **Miniatura** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
    Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Facoltativo) Fare clic su **Campi** nella parte superiore della tabella, quindi fare clic su **Colore** per visualizzare il colore di un record a sinistra del relativo campo principale. Per impostazione predefinita, i colori vengono assegnati in modo casuale a ogni nuovo record. L&#39;impostazione **Colore** è deselezionata per impostazione predefinita.</span>
+1. <span class="preview">Fai clic su **Campi** nella parte superiore della tabella</span>
+
+   Oppure
+   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;interruttore per il campo **Colore** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato. </span>
 
 1. <span class="preview"> (Facoltativo e condizionale) Se hai attivato l&#39;impostazione **Colore**, fai clic sulla barra dei colori a sinistra del campo principale del record e seleziona un colore dalle schede **Campioni** o **Personalizzati**, quindi fai clic all&#39;esterno della casella per chiuderla. Il colore viene applicato immediatamente.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Casella del selettore colore per la codifica dei colori di record](assets/color-picker-for-record-color-coding.png)
+![Casella del selettore colore per la codifica dei colori di record](assets/color-picker-for-record-color-coding.png)
 
-   Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
+Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Aggiungere filtri {#add-filters-1}
-
-I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 
 I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 

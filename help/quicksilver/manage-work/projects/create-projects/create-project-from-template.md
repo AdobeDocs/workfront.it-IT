@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 2%
@@ -239,6 +239,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
    Modifica i valori precompilati per farli corrispondere meglio al progetto.
 
    Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Fare clic su **Crea progetto**.
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
@@ -273,6 +274,7 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
    Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto.
 
    Per informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 
 1. Fare clic su **Crea progetto**.
 

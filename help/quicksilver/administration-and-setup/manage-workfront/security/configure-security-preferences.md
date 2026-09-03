@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1318
 ht-degree: 10%
 
 ---
 
 # Configurare le preferenze di sistema
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -151,6 +153,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Applica sempre i campi obbligatori nella modifica in blocco</td>
       <td><p>Consente di scegliere se obbligare gli utenti a immettere le informazioni nei campi obbligatori durante la modifica in blocco di oggetti.</p> <p>Quando questa opzione è selezionata, i campi obbligatori devono avere dei valori prima di essere salvati in modalità di modifica collettiva. Se nel campo obbligatorio manca un valore per almeno un oggetto selezionato in blocco, il salvataggio non è consentito.</p> <p>Se questa opzione non è selezionata, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Livello di accesso per gli utenti creati in Admin Console</span></td>
+      <td><span class="preview">Consente di scegliere un livello di accesso predefinito da assegnare automaticamente agli utenti creati in Workfront tramite Adobe Admin Console. Se non si imposta un livello predefinito, questi utenti continueranno a ricevere un livello di accesso Collaboratore o Richiedente. I livelli di accesso Amministratore di sistema e Utente esterno non sono disponibili come impostazione predefinita e questa impostazione non è disponibile per le organizzazioni che dispongono di Workfront Planning come prodotto standalone.<p><b>NOTA</b>: non è possibile eliminare un livello di accesso impostato come predefinito. Per eliminare il livello di accesso predefinito, selezionare prima un livello di accesso predefinito diverso.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Preferenze archiviazione </td> 
       <td>In questa sezione puoi abilitare le preferenze cloud di Adobe. Consente di abilitare o disabilitare l’archiviazione cloud di Adobe per l’intera organizzazione o per gruppi specifici. 
@@ -176,17 +182,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td role="rowheader">Completamento automatico intelligente nei moduli di richiesta </td> 
       <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
+      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull’icona delle informazioni accanto a tale funzione
     <tr> 
       <td role="rowheader">Designer pianificazione</td> 
       <td>Questa opzione è disponibile solo per i clienti che hanno acquistato un pacchetto Workfront Planning. L'attivazione di questa impostazione consente agli utenti di creare e modificare le aree di lavoro utilizzando Planning Designer. Per informazioni, vedere <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introduzione ad Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
-      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Strumenti MCP per sola lettura</span></td> 
-      <td><span class="preview">Consente al server MCP di Workfront di eseguire operazioni di lettura sui dati di Workfront, ad esempio la ricerca o l'elenco di progetti, attività o altri elementi. Questa opzione è attivata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
+      <td><span class="preview">Consente al server MCP di Workfront di eseguire azioni di lettura sui dati di Workfront, ad esempio per trovare o elencare progetti, attività o altri elementi. Questa opzione è attivata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Strumenti MCP per scrittura</span></td> 

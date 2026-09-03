@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 6%
@@ -82,7 +82,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    Immagine di esempio nell’ambiente di produzione:
    ![Modifica condizione personalizzata](assets/custom-conditions-0825.png)
 
-   Immagine di esempio nell’ambiente di anteprima:
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Modifica condizione personalizzata](assets/edit-conditions-082526.png)
 
 1. Configura la condizione personalizzata utilizzando le seguenti opzioni:

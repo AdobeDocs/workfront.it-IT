@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 5%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 5%
 # Convertire un’attività in un progetto
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Quando il completamento di un&#39;attività di un progetto richiede una quantità di lavoro maggiore di quella pianificata in origine, è possibile convertirla in un progetto.
@@ -111,16 +107,16 @@ Old:
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
 * Durante la conversione di un’attività in un progetto, è previsto un limite di elaborazione di 5 minuti. Se all&#39;attività è associato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Quando l&#39;organizzazione utilizza l&#39;archiviazione cloud legacy di Workfront e Adobe per i documenti, esistono i seguenti scenari durante la conversione di un&#39;attività in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
-   * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
-   * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.
-   * Quando si utilizza un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy, viene creato un progetto di archiviazione cloud Adobe. I documenti e le relative approvazioni rimangono nel progetto corrente.
+  * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
+  * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
+  * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.
+  * Quando si utilizza un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy, viene creato un progetto di archiviazione cloud Adobe. I documenti e le relative approvazioni rimangono nel progetto corrente.
 
-     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-     >[!TIP]
-     >
-     >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
+    >[!TIP]
+    >
+    >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
 
 
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.

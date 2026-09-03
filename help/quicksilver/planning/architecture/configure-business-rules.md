@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 2%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 È possibile configurare le regole business per i tipi di record di Adobe Workfront Planning per indicare che alcuni campi sono obbligatori prima che un&#39;azione su un record di quel tipo sia consentita o impedita.
 
@@ -95,7 +93,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   * Campi di ricerca
   * Campi di riferimento
 * Le regole si applicano a tutti coloro che possono modificare o eliminare record.
-* È possibile avere più regole business per un tipo di record.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* È possibile avere più regole business per un tipo di record.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   Tutte le regole vengono controllate contemporaneamente e il messaggio di errore visualizza tutti i campi mancanti in un&#39;unica istruzione.
 
@@ -104,10 +102,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Passare a una pagina del tipo di record.
 1. Da qualsiasi visualizzazione, fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Regole aziendali**.
 
-   Vengono visualizzate le pagine Regole business.
+   Viene visualizzata la pagina della tabella Regole business.
 1. Fare clic su **Nuova regola business**.
 1. Nella casella della regola **Nuova attività** aggiungere un nome per la regola business nel primo campo disponibile. Questo campo è obbligatorio
 1. (Facoltativo) Aggiungi una descrizione per definire la regola business, quindi fai clic su **Salva**.
+
+   Verrà aperto il modulo di impostazione della regola business.
+
+   ![Modulo di configurazione regola business](assets/business-rule-setup-form.png)
+
 1. Nella sezione **If** del modulo di configurazione della regola business, scegliere le azioni da limitare o consentire in base a una regola specifica. Scegli tra i seguenti: <!--check UI text-->
    * **Modifica record**: gli utenti potranno modificare o meno il record, se viene soddisfatta la condizione definita in questa regola.
    * **Eliminazione record**: gli utenti potranno eliminare o non eliminare il record se viene soddisfatta la condizione definita in questa regola.
@@ -124,7 +127,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Ad esempio, puoi digitare l&#39;istruzione seguente per rendere obbligatorio il campo **Riepilogo campagna**:
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 La modifica di una regola esistente non modifica i record esistenti. La regola modificata si applica solo ai record esistenti quando un utente tenta di modificarli o eliminarli.
 
-1. Torna alla pagina di configurazione **Regole aziendali** per il tipo di record.
+1. Tornare alla pagina della tabella **Regole business** per il tipo di record.
 1. Individuare la regola che si desidera modificare.
 1. Passa il puntatore del mouse sul nome della regola, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi su una delle seguenti opzioni:
 
@@ -159,8 +162,9 @@ La modifica di una regola esistente non modifica i record esistenti. La regola m
 
    Le regole modificate o la disattivazione delle regole si applicano solo ai record futuri e non vengono applicate retroattivamente.
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 
