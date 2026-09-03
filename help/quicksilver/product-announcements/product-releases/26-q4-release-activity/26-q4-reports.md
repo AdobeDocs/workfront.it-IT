@@ -4,10 +4,10 @@ description: Miglioramenti alla comunicazione del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 4%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 4%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del quarto trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## Campo Tipo di approvazione nei dashboard di Canvas
+
+>[!NOTE]
+>
+>Produzione per tutti: 28 agosto 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
+
+L&#39;entità Approvazione ora include un campo **Tipo di approvazione** che consente agli utenti di distinguere tra approvazioni di bozze, approvazioni di versioni di documenti, approvazioni di assunzioni e altri tipi di approvazione.
+
+## Aggiornamento della terminologia di approvazione nei dashboard di Canvas
+
+>[!NOTE]
+>
+>Produzione per tutti: 28 agosto 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
+
+I seguenti nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza:
+
+| Nome precedente | Nuovo nome |
+| --- | --- |
+| Approvazione documento | Approvazione |
+| Fase di approvazione documento | Fase di approvazione |
+| Partecipante alla fase di approvazione documento | Fase di approvazione del partecipante |
+| Processo di approvazione | Processo di approvazione lavoro |
+| Fase di approvazione | Fase di approvazione lavoro |
+| Stato approvatore | Stato approvatore lavoro |
+| In attesa di Approvazione | In attesa di approvazione lavoro |
+
+Questa modifica non influisce sul funzionamento dei rapporti correnti.
 
 ## Rapporti di tabella pivot nei dashboard di Canvas
 

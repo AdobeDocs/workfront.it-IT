@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Imposta un livello di accesso predefinito per gli utenti con provisioning in Adobe Admin Console
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Ora puoi impostare un livello di accesso predefinito per gli utenti che dispongono del provisioning in Workfront tramite Adobe Admin Console. Un amministratore di Workfront può configurare questa impostazione predefinita in Preferenze di sistema.
+
+In precedenza, Workfront assegnava all’utente un livello di accesso Collaboratore o Richiedente.
+
+Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+## Settimane personalizzate in aggiunta ai trimestri personalizzati per i clienti Workfront Planning
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Se la tua organizzazione ha acquistato un pacchetto Planning, oltre a un pacchetto Flusso di lavoro, ora puoi configurare le settimane personalizzate nello stesso modo in cui configuri i trimestri personalizzati come amministratore Workfront.
+
+Le settimane personalizzate non sono visibili in Workfront. Sono visibili solo nella vista timeline di Workfront Planning.
+
+Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Riordinare le applicazioni personalizzate nel menu principale
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Quando si utilizza un modello di layout, è ora possibile riposizionare le applicazioni personalizzate in qualsiasi ordine con le opzioni di menu predefinite di Workfront. Ciò consente di posizionare ogni applicazione nella posizione più appropriata.
+
+In precedenza, le applicazioni personalizzate erano sempre gli ultimi elementi nelle opzioni del menu principale del modello di layout e non potevano essere riposizionate.
+
+Per ulteriori informazioni sull&#39;aggiunta di applicazioni personalizzate al menu principale, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Supporto di file di grandi dimensioni per le integrazioni di documenti personalizzati
+
+>[!NOTE]
+>
+>Anteprima: 3 settembre 2026
+>Versione rapida di produzione: 17 settembre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Le integrazioni personalizzate dei documenti ora supportano i caricamenti a blocchi per i file di grandi dimensioni. Se questa opzione è abilitata, i file di dimensioni superiori a 25 MB vengono suddivisi in blocchi più piccoli e caricati in parallelo, rendendo i caricamenti di file di grandi dimensioni più veloci e affidabili. Gli amministratori possono attivarlo e impostare la dimensione massima del blocco (fino a 100 MB) per integrazione.
+
+Per ulteriori informazioni, consulta [Configura integrazioni di documenti](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Gli amministratori di gruppi possono gestire i profili aziendali
 
