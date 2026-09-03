@@ -9,30 +9,21 @@ exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # Modificare i modelli di progetto
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -253,6 +244,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Azienda</strong></td> 
       <td><p>Specifica la società da associare al modello. Nell'elenco vengono visualizzate solo le società attive.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Area di lavoro Frame.io (condizionale)</strong></span></td>
+      <td><span class="preview">
+      <p>In un progetto di archiviazione cloud Adobe, seleziona l’area di lavoro Frame.io che desideri che utilizzi per i progetti creati da questo modello. Se nell'organizzazione sono presenti più aree di lavoro Frame.io, questo determina in quale area di lavoro viene creato il progetto Frame.io collegato.</p>
+      <p>L'elenco include solo le aree di lavoro Frame.io per le quali si dispone dell'autorizzazione per assegnare i progetti. Area di lavoro predefinita utilizzata quando non è selezionata o disponibile alcuna area di lavoro.</p>
+      <p>È possibile modificare questo campo nel modello in qualsiasi momento. Le modifiche vengono applicate solo ai progetti creati dopo la modifica; i progetti già creati dal modello mantengono l'area di lavoro Frame.io esistente.</p>
+      <p>Nota: per utilizzare il campo di lavoro Frame.io è necessario disporre di Frame.io enterprise.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Proprietario del modello</strong></td> 
@@ -772,8 +772,8 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 
   Per informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o a un modello, vedere gli articoli seguenti:
 
-   * [Creare gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Creare gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Puoi aggiungere i seguenti elementi alle attività nel modello:
 
