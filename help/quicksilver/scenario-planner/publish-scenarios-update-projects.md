@@ -10,25 +10,23 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comporta le seguenti operazioni:
 
@@ -58,7 +56,7 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
   </tr> 
     <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e </p></td> 
+   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
    <td> <p>Autorizzazioni sugli oggetti </p> </td> 
@@ -195,24 +193,24 @@ Prima di iniziare:
    Per informazioni sulla creazione delle iniziative, vedere [Creare e modificare le iniziative in [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Fare clic su **[!UICONTROL Salva piano]**.
-1. Seleziona lo scenario da pubblicare dal menu a discesa **[!UICONTROL Scenario iniziale]**, quindi fai clic su **[!UICONTROL Vai a pubblicazione]** ![Vai a pubblicazione](assets/go-to-publish-button-icon.png) nell&#39;angolo in alto a destra.
+1. Seleziona lo scenario da pubblicare dal menu a discesa **[!UICONTROL Scenario iniziale]**, quindi fai clic su **[!UICONTROL Vai a pubblicazione]** nell&#39;angolo in alto a destra.
 
    Oppure
 
-   Fai clic su **[!UICONTROL Confronta scenari]**, passa il puntatore del mouse sulla scheda dello scenario da cui desideri pubblicare, quindi fai clic su **[!UICONTROL Vai a pubblicazione]** ![Vai a pubblicazione](assets/go-to-publish-button-icon.png).
+   Fai clic su **[!UICONTROL Confronta scenari]**, passa il puntatore del mouse sulla scheda dello scenario da cui desideri pubblicare, quindi fai clic su **[!UICONTROL Vai a pubblicazione]**.
 
-   Viene visualizzata la pagina [!UICONTROL Pubblica iniziative] in cui è riportato un elenco di tutte le iniziative incluse nello scenario. Se una delle iniziative è stata pubblicata in precedenza, l&#39;icona del progetto ![icona progetto](assets/project-icon-sp.png) viene visualizzata dopo il nome e la data **[!UICONTROL Ultima pubblicazione]** viene inserita nell&#39;elenco.
+   Viene visualizzata la pagina [!UICONTROL **Pubblica iniziative**] in cui è riportato un elenco di tutte le iniziative incluse nello scenario. <span class="preview">Se una delle iniziative è stata pubblicata in precedenza, l&#39;icona del progetto ![icona del progetto](assets/project-icon-sp.png) viene visualizzata dopo il nome e la data **[!UICONTROL Ultima pubblicazione]** viene inserita nell&#39;elenco.</span>
 
    >[!TIP]
    >
-   >Le iniziative create importando progetti visualizzano anche l&#39;icona del progetto ![Icona del progetto](assets/project-icon-sp.png) a destra del nome
+   >Nell&#39;ambiente di produzione, le iniziative create importando progetti visualizzano anche l&#39;icona del progetto ![Icona del progetto](assets/project-icon-sp.png) a destra del nome
 
    ![Icona del progetto e data dell&#39;ultima pubblicazione](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. (Facoltativo e condizionale) Se si desidera pubblicare da un piano esistente, fare clic sull&#39;icona **[!UICONTROL Filtro]** ![Icona Filtro](assets/filter-nwepng.png) nell&#39;angolo superiore destro del piano e selezionare una delle opzioni seguenti:
+
+1. <span class="preview">(Facoltativo) Nella pagina **Pubblica iniziative**, passa il puntatore del mouse sul nome del progetto, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) > **Apri progetto**. Il progetto verrà aperto in una nuova scheda del browser.</span>
+
+1. (Facoltativo e condizionale) Se si desidera eseguire la pubblicazione da un piano esistente, fare clic sull&#39;icona **[!UICONTROL Filtro]** nell&#39;angolo superiore destro del piano <span class="preview"> o sull&#39;icona della tabella nell&#39;angolo superiore sinistro</span> e selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +242,20 @@ Prima di iniziare:
    >
    >I nuovi progetti hanno lo stesso nome delle iniziative pubblicate.
 
-1. (Condizionale) Effettua una delle seguenti operazioni:
+1. (Condizionale) Fai clic su una delle seguenti opzioni nel messaggio di conferma dopo la pubblicazione delle iniziative:
 
    * Se hai pubblicato un&#39;iniziativa, fai clic su **[!UICONTROL Vedi il progetto associato]** per aprire il progetto creato o aggiornato dall&#39;iniziativa.
-   * Se hai pubblicato più di un&#39;iniziativa, fai clic su **[!UICONTROL Visualizza progetti associati]** per aprire un elenco di progetti pubblicati dalle iniziative. [!DNL Workfront] applica il filtro [!DNL Scenario Planner] progetti all&#39;elenco dei progetti per impostazione predefinita. I progetti pubblicati più di recente sono elencati per primi.
+   * Se hai pubblicato più di un&#39;iniziativa, fai clic su **[!UICONTROL Visualizza progetti associati]** per aprire un elenco di progetti pubblicati dalle iniziative.
 
-     ![Pianificazione scenario dopo la pubblicazione delle iniziative](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   Verrà aperta l&#39;area Progetti e il filtro [!DNL Scenario Planner] Progetti verrà applicato all&#39;elenco di progetti per impostazione predefinita.
+
+   I progetti pubblicati più di recente sono elencati per primi.
+
+   ![Pianificazione scenario dopo la pubblicazione delle iniziative](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Vai alle seguenti aree per visualizzare le informazioni sull’iniziativa sul progetto:
 
-   * **Sezione [!UICONTROL Aggiornamenti]**: un aggiornamento viene pubblicato per indicare che il progetto è stato creato o aggiornato dall&#39;iniziativa. L’aggiornamento contiene il nome dell’iniziativa che ha creato o aggiornato il progetto e il nome collegato del piano che contiene l’iniziativa. È possibile fare clic sul nome del piano nell&#39;aggiornamento per aprirlo in [!DNL Scenario Planner].
+   * **Sezione [!UICONTROL Aggiornamenti]**: un aggiornamento viene pubblicato nella scheda **Attività di sistema** per indicare che il progetto è stato creato o aggiornato dall&#39;iniziativa. L’aggiornamento contiene il nome dell’iniziativa che ha creato o aggiornato il progetto e il nome collegato del piano che contiene l’iniziativa. È possibile fare clic sul nome del piano nell&#39;aggiornamento per aprirlo in [!DNL Scenario Planner].
 
      ![Conferma del flusso di aggiornamento della pubblicazione](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -297,6 +299,8 @@ Prima di iniziare:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >

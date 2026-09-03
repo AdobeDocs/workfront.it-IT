@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 7%
 
 ---
@@ -31,6 +25,12 @@ ht-degree: 7%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront dispone di una serie di tipi di rischio predefiniti che è possibile associare ai progetti nella fase di pianificazione per identificare potenziali ostacoli prima dell’approvazione di qualsiasi lavoro.
 
@@ -94,7 +94,7 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 
 1. Fare clic su **[!UICONTROL Tipi di rischio]**.
 1. Seleziona il tipo di rischio da modificare.
-1. Fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica](assets/edit-icon.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
    Viene visualizzata la casella [!UICONTROL **Modifica tipo di rischio**].
 
@@ -110,18 +110,29 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 
 1. Fai clic su **[!UICONTROL Salva modifiche].**
 
-1. (Facoltativo) Per eliminare un tipo di rischio, selezionalo nell&#39;elenco, quindi fai clic sull&#39;icona [!UICONTROL **Elimina**] ![Elimina icona](assets/delete.png), quindi fai clic su [!UICONTROL **Sì, Elimina**]. Il tipo di rischio viene eliminato e non può essere recuperato.
+1. (Facoltativo) Per eliminare un tipo di rischio, selezionalo nell&#39;elenco, quindi fai clic sull&#39;icona [!UICONTROL **Elimina**], quindi fai clic su [!UICONTROL **Sì, Elimina**]. Il tipo di rischio viene eliminato e non può essere recuperato.
 
-1. (Facoltativo) Per esportare un elenco di tipi di rischio, fare clic sull&#39;icona [!UICONTROL **Esporta**] ![Icona Esporta](assets/export-icon.png). Puoi esportare i seguenti tipi di file:
+1. (Facoltativo) Per esportare un elenco di tipi di rischio, fai clic sull&#39;icona [!UICONTROL **Esporta**]. Puoi esportare i seguenti tipi di file:
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * Delimitato in tabella
+   * Nell’ambiente di produzione:
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * Delimitato in tabella
+     * CSV
+
+   <div class="preview">
+
+   * Nell’ambiente di anteprima:
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   È innanzitutto possibile selezionare un numero limitato di tipi di rischio e quindi esportarli per un elenco più piccolo.
+   >   Nell’ambiente di produzione, puoi selezionare prima un numero limitato di tipi di rischio, quindi esportarli per un elenco più piccolo. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Creare tipi di rischio {#create-risk-types}
 

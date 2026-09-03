@@ -9,23 +9,14 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 5%
 
 ---
@@ -33,13 +24,9 @@ ht-degree: 5%
 # Convertire un’attività in un progetto
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Quando il completamento di un&#39;attività di un progetto richiede una quantità di lavoro maggiore di quella pianificata in origine, è possibile convertirla in un progetto.
@@ -111,16 +98,16 @@ Old:
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
 * Durante la conversione di un’attività in un progetto, è previsto un limite di elaborazione di 5 minuti. Se all&#39;attività è associato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Quando l&#39;organizzazione utilizza l&#39;archiviazione cloud legacy di Workfront e Adobe per i documenti, esistono i seguenti scenari durante la conversione di un&#39;attività in un progetto: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
-   * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
-   * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.
-   * Quando si utilizza un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy, viene creato un progetto di archiviazione cloud Adobe. I documenti e le relative approvazioni rimangono nel progetto corrente.
+  * Un&#39;attività di storage Workfront legacy crea un progetto di storage Workfront legacy.
+  * Un’attività di archiviazione cloud Adobe crea un progetto di archiviazione cloud Adobe.
+  * Quando si utilizza un modello di archiviazione Workfront legacy per convertire un’attività di archiviazione cloud di Adobe, viene creato un progetto di archiviazione cloud di Adobe.
+  * Quando si utilizza un modello di archiviazione cloud Adobe per convertire un’attività di archiviazione Workfront legacy, viene creato un progetto di archiviazione cloud Adobe. I documenti e le relative approvazioni rimangono nel progetto corrente.
 
-     Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-     >[!TIP]
-     >
-     >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
+    >[!TIP]
+    >
+    >L&#39;istanza di Workfront potrebbe non avere accesso a entrambi i tipi di archiviazione dei documenti.
 
 
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.
