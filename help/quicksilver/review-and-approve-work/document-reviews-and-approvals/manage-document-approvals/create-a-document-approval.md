@@ -9,21 +9,15 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
-ht-degree: 2%
+source-wordcount: 2662
+ht-degree: 1%
 
 ---
 
@@ -101,6 +95,11 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -120,6 +119,10 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
 1. Fai clic su **Richiedi approvazione**.
 
    ![Richiedi l&#39;approvazione in modalità elementare](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Creare un flusso di lavoro di approvazione avanzato
 
@@ -154,6 +157,11 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -175,6 +183,10 @@ Per creare un flusso di lavoro di approvazione avanzato:
 1. (Facoltativo) Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. Impossibile rimuovere **Percorso 1** e riordinare i percorsi. Altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
@@ -210,6 +222,11 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -227,6 +244,12 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
 1. Fai clic su **Richiedi approvazione**.
 
    ![Richiedi l&#39;approvazione in modalità elementare](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -267,6 +290,11 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td><strong>Aggiungi nomi o e-mail</strong></td>
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Aggiungi persone o team in anteprima</strong></span></td>
+   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente. <br>
+   Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></td>
+   </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
    <td>La prima persona che prende una decisione completa la fase.</td>
@@ -289,6 +317,10 @@ Per creare un flusso di lavoro di approvazione avanzato:
 1. (Facoltativo) Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. Impossibile rimuovere **Percorso 1** e riordinare i percorsi. Altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
