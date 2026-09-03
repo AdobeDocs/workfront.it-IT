@@ -9,25 +9,24 @@ exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # Crea e modifica piani in [!DNL Scenario Planner]
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 È possibile creare piani nell&#39;ambito dell&#39;utilizzo di [!DNL Workfront Scenario Planner], quando si assegna la priorità alla strategia di livello superiore della propria azienda. Per ulteriori informazioni sui piani, vedere [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
@@ -136,7 +135,7 @@ Per creare o modificare un piano:
 
 Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scenario Planner].
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Filtro]** ![Icona Filtro](assets/filter-icon-34x37.png)nell&#39;angolo superiore destro dell&#39;elenco dei piani e seleziona una delle seguenti opzioni:
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Filtro]** ![Icona Filtro](assets/filter-icon-34x37.png), <span class="preview">o sull&#39;icona **Tabella** ![Icona Tabella](assets/table-icon.png)</span> nella parte superiore dell&#39;elenco e seleziona una delle seguenti opzioni:
 
    | Filtro | Descrizione |
    |---|---|
@@ -148,23 +147,13 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Ricerca]** ![Icona Ricerca](assets/search-icon.png) per digitare una parola chiave e individuare rapidamente un piano nell&#39;elenco.
 
-1. Fare clic sul nome di un piano esistente per modificarlo e continuare con il passaggio 7.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Fare clic sul nome di un piano esistente per modificarlo e continuare con il passaggio 7.<!--is the step still accurate)-->
 
    Oppure
 
-   Fare clic su **[!UICONTROL Nuovo piano]** nell&#39;angolo superiore sinistro per creare un piano e continuare con il passaggio 5.
+   Fare clic su **[!UICONTROL Nuovo piano]** nell&#39;angolo superiore sinistro per creare un piano e continuare con il passaggio 5. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![Pulsante Nuovo piano](assets/new-plan-button.png)
-
-   Viene visualizzata la casella [!UICONTROL Nuovo piano].
+   Viene visualizzata la casella [!UICONTROL **Nuovo piano**].
 
    ![Nuova finestra del piano](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +198,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Condizionale) Fai clic su **[!UICONTROL Avanti]**.
 

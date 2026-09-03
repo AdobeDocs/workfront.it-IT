@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: cf7c7dd6276940be9cd49b7c255ab71656740f1f
+source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
 workflow-type: tm+mt
 source-wordcount: '14480'
 ht-degree: 92%
@@ -2214,7 +2214,7 @@ ht-degree: 92%
     * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Panoramica sui tipi di record per più aree di lavoro](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
+    * [Configurare le regole business di tipo record](planning/architecture/configure-business-rules.md)
     * [Configurare l’area Impostazioni di un tipo di record](planning/architecture/configure-record-type-settings.md)
     * [Aggiungere tipi di record esistenti da un’altra area di lavoro](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Panoramica dei tipi di record di connessione](planning/architecture/connect-record-types-overview.md)

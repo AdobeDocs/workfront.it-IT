@@ -9,20 +9,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1271
 ht-degree: 4%
 
 ---
@@ -33,11 +27,11 @@ ht-degree: 4%
 
 # Creare tipi di record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -293,18 +287,18 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 
    Le modifiche vengono salvate automaticamente.
 
-   Per ulteriori informazioni sull&#39;aggiunta di record, l&#39;eliminazione o la modifica di tipi di record, <!--<span class="preview">creating business rules</span>--> o l&#39;aggiornamento della visualizzazione nella pagina del tipo di record, vedere gli articoli seguenti:
+   Per ulteriori informazioni sull&#39;aggiunta di record, l&#39;eliminazione o la modifica di tipi di record, la <span class="preview">creazione di regole business</span> o l&#39;aggiornamento della visualizzazione nella pagina del tipo di record, vedere gli articoli seguenti:
 
    * [Creare record](/help/quicksilver/planning/records/create-records.md)
    * [Eliminare i tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Modificare i tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gestisci visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
 
-   <!--  
-    <div class="preview">
-    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-    </div>
-    -->
+   <div class="preview">
+
+   * [Creare tipi di record regole business](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+   </div>
 
 ## Creare tipi di record importando informazioni da un file CSV o Excel
 

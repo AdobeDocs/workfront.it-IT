@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
 # Elimina piani in [!DNL Scenario Planner]
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 È possibile eliminare i piani creati. Non è possibile eliminare i piani condivisi con l&#39;utente.
 
@@ -126,6 +130,11 @@ Viene visualizzato un elenco di piani.
 
 1. Fare clic sul nome di un piano per aprirlo.
 1. Fai clic sul **[!UICONTROL Altro menu]** ![Altro menu](assets/more-menu.png) a destra del nome del piano, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">È inoltre possibile eliminare un piano in un elenco selezionandolo e facendo clic su **Elimina** in fondo all&#39;elenco per eliminarlo.</span>
+
 
    Il piano viene eliminato e si torna all&#39;elenco dei piani.
 

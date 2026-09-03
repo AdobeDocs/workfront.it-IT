@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Una volta configurato, qualsiasi tipo di record che fa riferimento a entrambi i 
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare tipi di record a oggetti e marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * Nell&#39;intestazione di colonna dei campi del record connesso è presente un&#39;indicazione che indica che il campo si trova in una relazione di connessione dipendente.
 
      ![Descrizione comando icona dipendente nell&#39;intestazione colonna](assets/dependent-icon-tooltip-in-column-header.png)
+1. (Facoltativo) Fai clic su **Regole filtro record** e seleziona i campi dal tipo di record a cui ti stai connettendo per limitare le opzioni per i valori del campo, quindi fai clic su **Fine**.
 
+   Quando i due campi sono presenti in un terzo tipo di record, le opzioni per il tipo di record campo connesso saranno limitate dal filtro selezionato qui.
 1. (Facoltativo e consigliato) Passare a un terzo tipo di record e aggiungere sia il primo che il secondo tipo di record come campi record connessi.
 
    ![Indicatore di campo connesso dipendente su un terzo tipo di record](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

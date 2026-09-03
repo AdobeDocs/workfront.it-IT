@@ -11,18 +11,14 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 5%
+source-wordcount: 846
+ht-degree: 4%
 
 ---
 
@@ -32,11 +28,12 @@ ht-degree: 5%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
@@ -111,7 +108,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Selezionare questa opzione per indicare che [!DNL Workfront] deve sottrarre dal totale dei punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di visualizzazione </td> 
+      <td role="rowheader">Tipo di visualizzazione [!UICONTROL]</td> 
       <td>Selezionare <strong>[!UICONTROL Value(0-100)]</strong> per visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>In alternativa, selezionare <strong>[!UICONTROL elenco a discesa]</strong> o <strong>[!UICONTROL pulsanti di scelta]</strong> per creare una risposta che gli utenti possono specificare utilizzando tale controllo. Fare clic su <strong>[!UICONTROL Add Answer]</strong>, quindi digitare il <strong>[!UICONTROL Value]</strong> in punti percentuali per questa risposta, nel caso che sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
       <p>Selezionare <strong>[!UICONTROL Predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
      </tr> 
@@ -128,6 +125,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    In questo modo viene creata la scorecard e i project manager possono collegarla al proprio caso aziendale di progetto.
 
+
+
+1. <span class="preview">(Facoltativo) Per modificare una scorecard, selezionarla nell&#39;elenco delle scorecard, quindi fare clic su **Modifica** ![Modifica scorecard](assets/edit-scorecard-icon.png) nella parte inferiore dell&#39;elenco. </span>
+
+1. <span class="preview">(Facoltativo) Per eliminare una scorecard, selezionarla nell&#39;elenco delle scorecard, quindi fare clic su **Elimina** ![Elimina scorecard](assets/delete-scorecard-icon.png) nella parte inferiore dell&#39;elenco. </span>
+
 ## Copiare una scorecard esistente
 
 Puoi creare una scorecard copiandone e modificandone una esistente.
@@ -135,11 +138,15 @@ Puoi creare una scorecard copiandone e modificandone una esistente.
 {{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Scorecard]** nel pannello a sinistra.
-1. Seleziona una scorecard nell&#39;elenco, quindi fai clic sull&#39;icona **Copia** ![Copia scorecard](assets/copy-scorecard-icon.png) nella parte superiore dell&#39;elenco delle scorecard.
+1. Seleziona una scorecard nell&#39;elenco, quindi fai clic su **Copia** nella parte superiore dell&#39;elenco delle scorecard <span class="preview"> o su **Copia** ![Copia icona scorecard](assets/copy-scorecard-icon.png) nella parte inferiore dell&#39;elenco</span>.
 
-   Viene visualizzata la casella **Copia scorecard**.
+   Viene visualizzata la casella della scorecard **Copia**.
 
    ![Copia casella scorecard](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >Il nome della scorecard viene visualizzato nel titolo della casella.
 
 1. Specifica le seguenti informazioni:
 
