@@ -222,7 +222,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Assegna collaboratori attività IA alle attività in Workfront&lt;/a>
     &lt;p>I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività per completare il lavoro a livello di attività.&lt;/p>
     &lt;/td>
-    &lt;td>&lt;p>32>{2> 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>32>&lbrace;2> 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -445,7 +445,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Aggiornamento della terminologia di approvazione&lt;/Dashboards pianificazione]{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Aggiornamento della terminologia di approvazione&lt;/Dashboards pianificazione&rbrack;{type=Neutral}&lt;/p>
     &lt;p>Diversi nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
