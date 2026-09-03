@@ -6,18 +6,13 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 4%
 
 ---
@@ -26,7 +21,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->La funzione Integrità del progetto è attualmente disponibile solo per gli utenti che partecipano alla fase beta.
+>* A partire da settembre 2026, AI Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* La funzione Integrità del progetto è attualmente disponibile solo per gli utenti che partecipano alla fase beta.
 
 La funzione Integrità dei progetti di Adobe Workfront utilizza la potenza di AI Assistant per fornire immediatamente una valutazione delle prestazioni dei progetti, delle aree che richiedono la tua attenzione e di come evitare problemi che possono costarti tempo e denaro.
 
@@ -328,7 +324,7 @@ Per generare una valutazione dello stato del progetto per un progetto o un progr
 
    >[!NOTE]
    >
-   >Se si accede all&#39;Assistente di intelligenza artificiale da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* o *Stato del programma [NOME PROGRAMMA]?* <br>
+   >Se si accede all&#39;Assistente IA da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* oppure *Qual è lo stato del programma [NOME PROGRAMMA]?* <br>
    >Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list) in questo articolo.
 
 1. Fai clic sull&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello. Nella parte superiore di ogni valutazione dello stato del progetto viene visualizzato un badge che riflette le condizioni correnti del progetto.

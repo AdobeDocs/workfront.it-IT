@@ -11,22 +11,12 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 10%
@@ -182,17 +172,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td role="rowheader">Completamento automatico intelligente nei moduli di richiesta </td> 
       <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
+      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull’icona delle informazioni accanto a tale funzione
     <tr> 
       <td role="rowheader">Designer pianificazione</td> 
       <td>Questa opzione è disponibile solo per i clienti che hanno acquistato un pacchetto Workfront Planning. L'attivazione di questa impostazione consente agli utenti di creare e modificare le aree di lavoro utilizzando Planning Designer. Per informazioni, vedere <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introduzione ad Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
-      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Strumenti MCP per sola lettura</span></td> 
-      <td><span class="preview">Consente al server MCP di Workfront di eseguire operazioni di lettura sui dati di Workfront, ad esempio la ricerca o l'elenco di progetti, attività o altri elementi. Questa opzione è attivata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
+      <td><span class="preview">Consente al server MCP di Workfront di eseguire azioni di lettura sui dati di Workfront, ad esempio per trovare o elencare progetti, attività o altri elementi. Questa opzione è attivata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Strumenti MCP per scrittura</span></td> 

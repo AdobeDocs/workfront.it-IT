@@ -6,18 +6,20 @@ author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 TQID: https://experienceleague.adobe.com/r7xItuLE1mQdQ8y9m08FrVszLE3CiwWd-ATqWmNO-hU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 142
-ht-degree: 8%
+source-wordcount: 169
+ht-degree: 7%
 
 ---
 
 # Compilazione automatica di una richiesta tramite IA
+
+>[!IMPORTANT]
+>
+>A partire da settembre 2026, AI Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’intelligenza artificiale può aiutarti a compilare automaticamente i campi della richiesta. Può suggerire valori di campo in base a richieste precedenti, o analizzarli da testo come e-mail o documenti caricati.
 
