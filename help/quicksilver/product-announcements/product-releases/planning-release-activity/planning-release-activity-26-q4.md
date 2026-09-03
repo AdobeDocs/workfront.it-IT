@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >Produzione per tutti: 15 ottobre 2026
 
 È ora possibile gestire la visibilità delle miniature e dei colori dei record durante la modifica della colonna del campo principale nella vista tabella.
+
+Con questo aggiornamento, le impostazioni Miniatura e Colore verranno rimosse dall&#39;icona Campi nella barra degli strumenti della vista tabella.
 
 Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
