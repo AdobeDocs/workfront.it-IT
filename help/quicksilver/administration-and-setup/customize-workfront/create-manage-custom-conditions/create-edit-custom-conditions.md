@@ -21,14 +21,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 7%
+source-wordcount: 676
+ht-degree: 6%
 
 ---
 
 # Creare o modificare una condizione personalizzata
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi creare o modificare una condizione personalizzata per progetti, attività e problemi in base alle esigenze della tua organizzazione.
 
@@ -72,9 +74,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Oppure
 
-   Per modificare una condizione esistente, fare clic su **Modifica** accanto al nome della condizione.
+   Per modificare una condizione esistente:
 
+   * Nell&#39;ambiente di produzione, fare clic su **Modifica** accanto al nome della condizione.
+   * <span class="preview">Nell&#39;ambiente di anteprima, selezionare la casella di controllo accanto al nome della condizione che si desidera eliminare e fare clic su **Modifica** nella barra delle azioni nella parte inferiore dello schermo.</span>
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Modifica condizione personalizzata](assets/custom-conditions-0825.png)
+
+   Immagine di esempio nell’ambiente di anteprima:
+   ![Modifica condizione personalizzata](assets/edit-conditions-082526.png)
 
 1. Configura la condizione personalizzata utilizzando le seguenti opzioni:
 

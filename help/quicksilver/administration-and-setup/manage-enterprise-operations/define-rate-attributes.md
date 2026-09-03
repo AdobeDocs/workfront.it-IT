@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 2%
 # Definire gli attributi dei tassi
 
 Gli attributi della tariffa estendono la funzionalità delle schede e delle tariffe di Adobe Workfront consentendoti di aggiungere ulteriori dimensioni alle tariffe oltre il ruolo lavorativo. Ciò è fondamentale per le agenzie e le aziende in cui le tariffe variano non solo in base al ruolo, ma anche in base a fattori quali agenzia, ubicazione, marchio, centro di costo o altri.
+
 Combinando questi attributi, Workfront può selezionare automaticamente la tariffa corretta per le assegnazioni, garantendo l&#39;accuratezza e la coerenza finanziaria tra i progetti.
 
 Gli attributi della tariffa sono destinati a essere un’impostazione di base una tantum.
@@ -34,9 +35,9 @@ Gli attributi dei tassi vengono considerati una configurazione una tantum perch�
 * Tassi, assegnazioni, valori pianificati e valori effettivi dipendono tutti dai valori attributo scelti.
 * La modifica degli attributi in un secondo momento (ridenominazione, rimozione o riordinamento) può causare:
 
-   * Perdita di collegamento tra tassi e attributi
-   * Percentuali non valide o &quot;orfane&quot;
-   * Disallineamento nelle fatturazioni e nei rapporti
+  * Perdita di collegamento tra tassi e attributi
+  * Percentuali non valide o &quot;orfane&quot;
+  * Disallineamento nelle fatturazioni e nei rapporti
 
 Per questi motivi, gli attributi devono essere progettati attentamente durante l’implementazione iniziale di Workfront e lasciati invariati in seguito.
 
@@ -63,8 +64,8 @@ Questo consente alla configurazione di rispecchiare la struttura aziendale mante
 
 * Workfront supporta fino a 5 livelli di attributi. Il sistema segue sempre la gerarchia degli attributi, selezionando la corrispondenza più specifica disponibile.
 
-   * 0 = tasso di base generico
-   * 1 - 5 = aliquote progressivamente più specifiche
+  * 0 = tasso di base generico
+  * 1 - 5 = aliquote progressivamente più specifiche
 
 * È possibile rinominare gli attributi per riflettere la propria attività (agenzia, marchio, mercato, centro di costo, ecc.).
 * La configurazione è una tantum: la modifica degli attributi in un secondo momento rischia di compromettere l&#39;integrità dei dati finanziari.
@@ -187,13 +188,13 @@ I filtri devono essere sempre configurati in entrambe le direzioni. Se l&#39;att
 
    * **Tipo filtro**:
 
-      * Un filtro **Standard** applica una condizione universale all&#39;oggetto attributo. Ad esempio, Posizione > È attivo = True (verranno visualizzate solo le posizioni attive).
+     * Un filtro **Standard** applica una condizione universale all&#39;oggetto attributo. Ad esempio, Posizione > È attivo = True (verranno visualizzate solo le posizioni attive).
 
-        Il filtro Standard viene sempre applicato, indipendentemente dal fatto che siano selezionati altri attributi.
+       Il filtro Standard viene sempre applicato, indipendentemente dal fatto che siano selezionati altri attributi.
 
-      * Un filtro **Attribute** collega un attributo a un altro nella catena. Ad esempio, Posizione > Riferimento = Agenzia (verranno visualizzate solo le sedi associate all&#39;Agenzia selezionata).
+     * Un filtro **Attribute** collega un attributo a un altro nella catena. Ad esempio, Posizione > Riferimento = Agenzia (verranno visualizzate solo le sedi associate all&#39;Agenzia selezionata).
 
-        Il filtro Attributo viene applicato solo se l’attributo di riferimento ha un valore. Ad esempio, se è selezionata l&#39;opzione Agenzia, vengono suggerite solo le sedi valide. Se l’Agenzia è vuota, vengono visualizzate tutte le posizioni (ma è possibile che i filtri standard applicati alla posizione ne limitino comunque il numero).
+       Il filtro Attributo viene applicato solo se l’attributo di riferimento ha un valore. Ad esempio, se è selezionata l&#39;opzione Agenzia, vengono suggerite solo le sedi valide. Se l’Agenzia è vuota, vengono visualizzate tutte le posizioni (ma è possibile che i filtri standard applicati alla posizione ne limitino comunque il numero).
 
    * **Campo**: campo diretto dall&#39;oggetto attributo, ad esempio ID posizione o Flag attivo.
    * **Operatore**: queste opzioni dipendono dal tipo di campo selezionato. Gli esempi includono È uguale a, Non è uguale a, È vuoto, True/False.

@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
-ht-degree: 2%
+source-wordcount: 3318
+ht-degree: 1%
 
 ---
 
@@ -74,18 +74,31 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | --- | --- |
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
-| Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
-| Elenco dei rapporti | I report (**Utilizza cartelle condivisibili** devono essere attivati) |
+| Elenchi di stati, priorità, gravità, <span class="preview">condizioni</span> e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li><span class="preview">Configurazione > Preferenze progetto > Condizioni</span></li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
+| <span class="preview">Elenchi di azioni e campi tracciati nei feed di aggiornamento</span> | <ul><li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Campi tracciati</span></li> <li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Azioni</span></li></ul> |
+| <span class="preview">Elenco di scorecard</span> | <span class="preview">Configurazione > Scorecard</span> |
+| <span class="preview">Elenco dei tipi di rischio</span> | <span class="preview">Configurazione > Tipi di rischio</span> |
 | Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
+| <span class="preview">Elenco dei percorsi</span> | <span class="preview">Configurazione > Percorsi</span> |
 | Elenco delle traduzioni | Configurazione > Localizzazione |
+| <span class="preview">Elenchi di integrazioni </span> | <ul><li><span class="preview">Configurazione > Documenti > Integrazione di SharePoint</span></li><li><span class="preview">Configurazione > Documenti > Integrazione personalizzata</span></li></ul> |
+| Elenco dei rapporti | I report (**Utilizza cartelle condivisibili** devono essere attivati) |
 | Elenco di snapshot | Progetto > Snapshot |
 | Elenco delle risorse per la fatturazione | Progetto > Risorsa per fatturazione |
 | Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
+| <span class="preview">Visualizzazione di un documento per tutte le versioni</span> | <span class="preview">Progetto > Documenti > Dettagli documento > Tutte le versioni</span> |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
+| <span class="preview">Elenchi di piani e iniziative dello scenario</span> | <span class="preview">Menu principale > Scenari</span> |
+| <span class="preview">Elenco di obiettivi e indicatori di avanzamento</span> | <ul><li><span class="preview">Menu principale > Obiettivi</span></li><li><span class="preview">Menu principale > Obiettivi > Indicatori di avanzamento</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## Aggiungere elementi a un elenco avanzato
@@ -164,9 +177,16 @@ A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascond
 
 1. Fai clic su **Colonne** sopra l&#39;elenco.
 
+   Immagine di esempio nell’ambiente di produzione:
    ![Visualizza esempio colonne](assets/glist-display-move-columns.png)
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Visualizza esempio colonne](assets/display-columns-090126.png)
+
 1. Utilizza i pulsanti per visualizzare o nascondere le colonne nell’elenco.
+
+<span class="preview">È possibile cercare una colonna nella casella di ricerca.</span>
+
 1. Per riordinare le colonne, fare clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) e spostare una colonna nella posizione desiderata. Lo spostamento delle colonne determina la modifica automatica dell&#39;elenco.
 
    >[!NOTE]
