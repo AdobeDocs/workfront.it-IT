@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 2%
 
 ---
 
 # Creare un flusso di lavoro di approvazione documento
+
+{{highlighted-preview}}
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
@@ -291,6 +287,30 @@ Per creare un flusso di lavoro di approvazione avanzato:
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
 1. Fai clic su **Richiedi approvazione**.
+
+<div class="preview">
+
+## Visualizzare i flussi di lavoro di approvazione per le versioni precedenti nella nuova area Documenti in Anteprima
+
+Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Nel pannello Approvazioni sono elencate solo le versioni del documento che hanno un flusso di lavoro di approvazione.
+
+Per visualizzare i flussi di lavoro di approvazione per le versioni precedenti:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+1. Fai clic sul documento, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
+
+   ![Aggiungi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
+
+1. Fai clic su una versione per espanderla. È possibile visualizzarne le fasi, la decisione di ogni approvatore, la regola di decisione della fase (ad esempio se è necessaria una sola decisione per completare la fase) e le date di scadenza.
+1. Fai clic su un’altra versione per espandere il flusso di lavoro di approvazione senza uscire dal pannello.
+
+   >[!NOTE]
+   >
+   >Se il flusso di lavoro di approvazione di una versione è stato ritirato perché è stata richiesta l’approvazione di una versione più recente, tale versione rimane nell’elenco, compresso, e puoi quindi rivedere le decisioni precedenti.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
