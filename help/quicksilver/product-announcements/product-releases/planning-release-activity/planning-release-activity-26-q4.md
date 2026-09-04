@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ Questo aggiornamento include le seguenti funzionalità:
 
 * È stata aggiunta la nuova sezione Impostazioni connessione nella scheda Nuova connessione, durante la connessione dei tipi di record
 * Nella nuova sezione è stata aggiunta l’impostazione Rendi la connessione dipendente
+* È stata modificata la modalità di aggiunta dei campi di ricerca alle connessioni.
 
 
 Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
