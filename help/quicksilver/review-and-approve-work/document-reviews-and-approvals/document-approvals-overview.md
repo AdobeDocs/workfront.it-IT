@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla revisione e sull’approvazione unificata
+
+{{highlighted-preview}}
 
 La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.
 I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
@@ -348,6 +346,18 @@ Il visualizzatore Frame.io include un set completo di strumenti di markup visivo
 **I commenti aggiunti nel visualizzatore Frame.io verranno visualizzati nel progetto Workfront?**
 
 I commenti e le annotazioni rimangono all&#39;interno del visualizzatore Frame.io in modo che mantengano il contesto completo, inclusi i timestamp e le marcature visive. Questo comportamento potrebbe evolvere nelle versioni future.
+
+<span class="preview">
+
+In anteprima, nel pannello Commenti di Workfront viene visualizzato un messaggio che informa quando sono disponibili nuovi commenti in Frame.io.</span>
+
+<div class="preview">
+
+**Chi può vedere l&#39;indicatore del commento Frame.io in Workfront?**
+
+L&#39;indicatore è visibile solo agli utenti che erano già in grado di visualizzare tali commenti in Frame.io. Se si dispone di una licenza Frame.io Enterprise, sarà possibile visualizzarla per eventuali commenti sul documento. Se non si dispone di una licenza Frame.io Enterprise, questa verrà visualizzata solo dopo l&#39;approvazione del documento. Le approvazioni consentono di rendere visibili anche tutti i commenti precedenti sul documento.
+
+</div>
 
 **È possibile aggiungere commenti a una versione scaricata di una risorsa (ad esempio, un PDF)?**
 

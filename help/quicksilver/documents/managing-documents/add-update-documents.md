@@ -9,22 +9,20 @@ exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-m3fnVyG4oH9lW-EB-97HFa2amVE1HQu8bHCXF3dR7U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 10%
+source-wordcount: 631
+ht-degree: 8%
 
 ---
 
 # Aggiungere un aggiornamento a un documento
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -77,7 +75,7 @@ Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, 
 
    * Fai clic sul documento nell&#39;elenco, fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/qs-summary-in-new-toolbar-small.png) nell&#39;angolo superiore destro, quindi aggiungi un nuovo commento oppure fai clic su **Rispondi** per aggiungere una risposta a un commento esistente. Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
    * Passa il puntatore del mouse sul documento, fai clic su **Dettagli documento**, quindi su **Aggiornamenti** nel pannello a sinistra.
-Per ulteriori informazioni sull&#39;aggiunta di aggiornamenti agli oggetti, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Per ulteriori informazioni sull&#39;aggiunta di aggiornamenti agli oggetti, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    Gli aggiornamenti e le risposte vengono aggiunti al documento e anche agli oggetti di livello superiore. Per ulteriori informazioni, vedere [Panoramica della sezione aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -101,3 +99,20 @@ Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi a
 1. Individua il documento necessario, quindi fai clic sull&#39;icona del commento ![icona Commento](assets/new-doc-comment-icon.png) per aprire il pannello Commenti.
 1. Digita il commento nella casella di testo, quindi fai clic su **Invia**.
    ![Pannello commenti nuovo documento](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### Indicatore di commento Frame.io in Anteprima
+
+Quando si crea un flusso di lavoro di approvazione per un documento, gli utenti possono lasciare commenti e aggiungere annotazioni nel visualizzatore Frame.io. Questi commenti non vengono visualizzati nel pannello Commenti di Workfront, ma possono essere visualizzati nel visualizzatore Frame.io.
+
+Nel pannello Commenti di Workfront viene visualizzato un messaggio che informa quando sono disponibili nuovi commenti in Frame.io.
+
+1. Fare clic su **Rivedi commenti** per aprire il documento nel visualizzatore Frame.io e visualizzare i commenti.
+
+>[!NOTE]
+>
+>* Se si dispone di una licenza Frame.io Enterprise, è possibile visualizzare i commenti nel visualizzatore Frame.io senza un flusso di lavoro di approvazione.
+
+</div>
