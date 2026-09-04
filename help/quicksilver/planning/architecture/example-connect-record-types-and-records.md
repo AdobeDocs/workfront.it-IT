@@ -7,19 +7,20 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2061
+source-wordcount: 2188
 ht-degree: 1%
 
 ---
 
 # Esempio di connessione di tipi di record e record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -51,25 +52,42 @@ Per eseguire questa operazione:
    * **Tipo di record**: prodotto <!--did they change the casing here?-->
    * **Nome**: assegna un nome al nuovo campo. Ad esempio, &quot;Informazioni sul prodotto&quot;. Questo è il nome del campo record collegato.
    * **Descrizione**: aggiungere una descrizione per il nuovo campo. Ad esempio, &quot;Questi sono i prodotti a cui voglio associare le mie campagne&quot;. La descrizione del campo viene visualizzata quando si passa il cursore sul campo nell’intestazione della colonna.
-   * **Tipo di connessione**: selezionare una delle opzioni seguenti:
-      * **Molti a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a più campagne.
-      * **Uno a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a una campagna.
-      * **Molti a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a più campagne.
-      * **Uno a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a una campagna.
 
-     >[!NOTE]
-     >
-     >L&#39;opzione **Tipo di connessione** non è disponibile per la connessione di record da aree di lavoro diverse o per la connessione di risorse Experience Manager o Marchi GenStudio. Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   <div class="preview">
+
+   * **Rendi la connessione dipendente**: se abilitata e i due record connessi vengono visualizzati contemporaneamente in un terzo record, le scelte per un tipo di record dipendono dalle scelte per l&#39;altro.
+
+     Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   * **Crea campo corrispondente nel tipo di record collegato**: se abilitata, viene creato anche un campo di connessione nel tipo di record a cui si è connessi (Prodotto).
+
+   </div>
+
+   * **Tipo di connessione**: selezionare una delle opzioni seguenti:
+     * **Molti a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a più campagne.
+     * **Uno a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a una campagna.
+     * **Molti a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a più campagne.
+     * **Uno a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a una campagna.
+
+   >[!NOTE]
+   >
+   >L&#39;opzione **Tipo di connessione** non è disponibile per la connessione di record da aree di lavoro diverse o per la connessione di risorse Experience Manager o Marchi GenStudio. Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Aspetto record**: scegliere una delle opzioni seguenti:
-      * **Nome e immagine**: visualizza il nome e la miniatura o l&#39;icona dei record connessi. Questa opzione è selezionata per impostazione predefinita.
-      * **Nome**: visualizza solo il nome dei record connessi.
-      * **Immagine**: visualizza solo la miniatura o l&#39;icona dei record connessi.
-   * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
+     * **Nome e immagine**: visualizza il nome e la miniatura o l&#39;icona dei record connessi. Questa opzione è selezionata per impostazione predefinita.
+     * **Nome**: visualizza solo il nome dei record connessi.
+     * **Immagine**: visualizza solo la miniatura o l&#39;icona dei record connessi.
+
+     <div class="preview">
+
+     * **Colore e nome**: visualizza solo il colore e il nome dei record connessi
+
+     </div>
+
+   * <span class="preview">**Campi di ricerca**: espandere questa opzione per connettere anche i campi di ricerca dai record connessi. </span>Viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
      ![Nuova connessione con tipo di record prodotto](assets/new-connection-with-product-record-type.png)
 
-1. (Condizionale) Se nel passaggio precedente hai selezionato l&#39;opzione **Seleziona campi di ricerca**, dall&#39;elenco dei campi associati al tipo di record **Prodotto** fai clic sull&#39;icona **+** per il campo **Budget**, quindi fai clic su **Aggiungi campi**. In questo modo viene creato un campo denominato **Budget (dalle informazioni sul prodotto)**, che corrisponde al nome del campo collegato. In questo campo vengono visualizzate tutte le informazioni relative al budget prodotti per i record Campagna.
+1. (Condizionale) Se hai aperto la casella **Aggiungi campi di ricerca**, fai clic sull&#39;icona **+** per il campo **Budget**, quindi fai clic su **Aggiungi campi**. In questo modo viene creato un campo denominato **Budget (dalle informazioni sul prodotto)**, che corrisponde al nome del campo collegato. In questo campo vengono visualizzate tutte le informazioni relative al budget prodotti per i record Campagna.
 
    ![Aggiungi campi per il campo del budget per la connessione con tipo di record](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -83,12 +101,12 @@ Per eseguire questa operazione:
 
    * Nella vista Tabella record Campaign e nella pagina Record Campaign di una campagna:
 
-      * **Informazioni sul prodotto** (campo record collegato): questo campo visualizza il nome o i nomi dei prodotti quando vengono aggiunti.
-      * **Budget (da informazioni prodotto)** (campo collegato): verranno visualizzati i Budget dei Prodotti selezionati nel campo Informazioni prodotto.
+     * **Informazioni sul prodotto** (campo record collegato): questo campo visualizza il nome o i nomi dei prodotti quando vengono aggiunti.
+     * **Budget (da informazioni prodotto)** (campo collegato): verranno visualizzati i Budget dei Prodotti selezionati nel campo Informazioni prodotto.
 
    * Nella visualizzazione Tabella record Prodotto e nella pagina Record prodotto di un prodotto:
 
-      * **Campagna**: indica che il tipo di record Prodotto è collegato dal tipo di record Campagna.
+     * **Campagna**: indica che il tipo di record Prodotto è collegato dal tipo di record Campagna.
 
      ![Esempio di campi di relazione delle informazioni sulla campagna dalla tabella dei record di prodotto](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
@@ -158,10 +176,10 @@ Per eseguire questa operazione:
    * **Nome**: assegna un nome al nuovo campo, ad esempio &quot;Informazioni sul progetto&quot;.
    * **Descrizione**: aggiungere una descrizione per il nuovo campo. Ad esempio, &quot;Questi sono i progetti a cui voglio associare le mie campagne&quot;. La descrizione viene visualizzata nella vista tabella quando passi il cursore del mouse sul nome del campo nell’intestazione della colonna.
    * **Tipo di connessione**: selezionare una delle opzioni seguenti:
-      * **Molti a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a più campagne.
-      * **Uno a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a una campagna.
-      * **Molti a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a più campagne.
-      * **Uno a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a una campagna.
+     * **Molti a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a più campagne.
+     * **Uno a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a una campagna.
+     * **Molti a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a più campagne.
+     * **Uno a uno**: gli utenti possono collegare una campagna a un prodotto e un prodotto a una campagna.
    * **Collega solo gli oggetti che corrispondono a questo criterio**: seleziona un modulo personalizzato dal menu a discesa **Modulo personalizzato**. Solo i progetti associati ai moduli specificati sono disponibili per la connessione alle campagne. È possibile selezionare più moduli.
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi di Project con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Progetto in un secondo momento.
 
@@ -181,8 +199,8 @@ Per eseguire questa operazione:
 
    * Nella vista Tabella record Campaign e nella pagina Record Campaign:
 
-      * **Informazioni sul progetto** (campo oggetto collegato): vengono visualizzati il nome o i nomi dei progetti.
-      * **Retribuzione pianificata (da informazioni progetto)** (campo collegato): verranno visualizzate le Retribuzioni pianificate dei progetti selezionati nel campo Informazioni progetto.
+     * **Informazioni sul progetto** (campo oggetto collegato): vengono visualizzati il nome o i nomi dei progetti.
+     * **Retribuzione pianificata (da informazioni progetto)** (campo collegato): verranno visualizzate le Retribuzioni pianificate dei progetti selezionati nel campo Informazioni progetto.
 
    >[!TIP]
    >
@@ -217,8 +235,8 @@ Per eseguire questa operazione:
    Questa operazione aggiunge quanto segue all&#39;area di lavoro selezionata:
 
    * Nella tabella del tipo di record di Campaign:
-      * Il campo **Informazioni progetto** viene compilato per il record Campagna con i progetti selezionati.
-      * Nel campo **Entrate pianificate (da informazioni prodotto)** viene inserito il valore Budget per ciascun prodotto selezionato. Questo campo è di sola lettura.
+     * Il campo **Informazioni progetto** viene compilato per il record Campagna con i progetti selezionati.
+     * Nel campo **Entrate pianificate (da informazioni prodotto)** viene inserito il valore Budget per ciascun prodotto selezionato. Questo campo è di sola lettura.
 
    ![Campo collegato al progetto e retribuzione pianificata nella tabella della campagna evidenziati](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
