@@ -10,16 +10,13 @@ exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/TpPiROUIMs1tDz3BCYNOA-Zr6RkIttxQSmj-dIAKQrY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 76a1cd19239fa701e462f5abcc7f3b0e64136501
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 60%
+source-wordcount: 89
+ht-degree: 57%
 
 ---
 
@@ -36,6 +33,7 @@ Questa sezione contiene i seguenti articoli:
 * [Utilizzare i campi di valuta nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
 * [Filtrare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
 * [Modificare il nome o la descrizione di una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [Duplicare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
 * [Eliminare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
 * [Aggiungere una dashboard dell’area di lavoro a un modello layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
