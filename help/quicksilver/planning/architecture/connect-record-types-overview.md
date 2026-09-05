@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
       >Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
   * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
+  * Se la tua organizzazione ha acquistato un pacchetto Adobe GenStudio for Performance Marketing, esistono i seguenti scenari:
+
+    * Non è possibile connettersi ai tipi di record di GenStudio dai tipi di record di Planning.
+    * È possibile connettere i tipi di record di GenStudio nell&#39;area di lavoro di GenStudio.
+    * È possibile collegare i marchi GenStudio dai tipi di record di GenStudio e dai tipi di record di Planning.
+    * Non è possibile includere Marchi GenStudio in una gerarchia.
 
   <div class="preview">
 

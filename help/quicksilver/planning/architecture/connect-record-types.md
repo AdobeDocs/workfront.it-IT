@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 3273
 ht-degree: 3%
@@ -281,6 +281,8 @@ Old:
      >Per ulteriori informazioni, consulta:
      >* [Crea e gestisci un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
      >* [Inviare le richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md).
+
+     <!--see if they fixed the UI here and update the screen shot-->
 
      ![Selezione connessione richiesta originale](assets/original-request-connection-selection.png)
 

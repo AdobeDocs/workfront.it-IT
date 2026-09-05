@@ -17,14 +17,16 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 9%
+source-wordcount: 626
+ht-degree: 8%
 
 ---
 
 # Revisione e approvazione con il visualizzatore Frame.io
+
+{{highlighted-preview}}
 
 È possibile rivedere e approvare i documenti in Workfront utilizzando il visualizzatore Frame.io.
 
@@ -79,7 +81,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 In qualità di revisore, puoi aggiungere commenti e contrassegnare le risorse. Al termine, puoi contrassegnare la recensione come completata in Workfront. Per far avanzare la risorsa nel processo di approvazione, non è necessario contrassegnare la revisione come completata.
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-o
+oppure
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]
@@ -87,7 +89,7 @@ Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai
    >Potrebbe essere necessario aggiungere il widget Approvazioni personali alla home page. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, usate gli strumenti di commento per lasciare un feedback o porre domande.
-I commenti e il markup delle risorse sono visibili solo nel visualizzatore Frame.io. I commenti non vengono visualizzati in Workfront. Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere [Commenti sul supporto](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+I commenti e il markup delle risorse sono visibili solo nel visualizzatore Frame.io. I commenti non vengono visualizzati in Workfront. <span class="preview">Tuttavia, il pannello commenti per il documento in Workfront mostra un callout con il numero di tali commenti, quando è disponibile un conteggio, e un collegamento per aprire il visualizzatore Frame.io e leggerli.</span> Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere [Commenti sul supporto](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Quando si è soddisfatti del documento, tornare alla pagina Dettagli documento in Workfront e contrassegnare la revisione come completata.
 
    ![Contrassegna revisione completata](assets/mark-review-complete.png)
@@ -101,7 +103,7 @@ Il documento non passa a uno stato approvato finché tutti gli approvatori asseg
 Per prendere una decisione su un documento:
 
 1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
-o
+oppure
 Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
 
    >[!NOTE]
@@ -110,6 +112,12 @@ Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai
 
 
 1. In Frame.io, usate gli strumenti di commento per lasciare un feedback o porre domande. I commenti e il markup delle risorse sono visibili solo nel visualizzatore Frame.io. Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere [Commenti sul supporto](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
+   >[!NOTE]
+   >
+   > <span class="preview">In anteprima, nel pannello Commenti di Workfront viene visualizzato un messaggio che informa quando sono disponibili nuovi commenti in Frame.io.</span>
+
+
 1. Una volta che si è soddisfatti del documento, è possibile scegliere una delle seguenti decisioni nel visualizzatore Frame.io:
 
    * **Approva**: la risorsa non necessita di modifiche ed è pronta per l&#39;uso.

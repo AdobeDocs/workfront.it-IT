@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
 workflow-type: tm+mt
-source-wordcount: '14501'
+source-wordcount: '14505'
 ht-degree: 92%
 
 ---
@@ -1639,6 +1639,7 @@ ht-degree: 92%
       * [Utilizzare i campi di valuta nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [Filtrare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Modificare il nome o la descrizione di una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+      * [Duplicare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [Eliminare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [Aggiungere una dashboard dell’area di lavoro a un modello layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Gestione dei rapporti {#manage-reports}
