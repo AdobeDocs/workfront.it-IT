@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 2%
@@ -195,7 +195,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       >
       >Per ulteriori informazioni, vedere [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-   1. (Condizionale e facoltativo) Se hai selezionato un modello di archiviazione legacy, seleziona l’impostazione Create this project on Adobe Cloud Storage (Crea questo progetto nell’archiviazione cloud di) nell’angolo inferiore destro della casella New project (Nuovo progetto). Verrà creato un progetto di archiviazione cloud Adobe. I documenti e le cartelle di documenti del modello non verranno aggiunti al progetto.
+   1. (Condizionale e facoltativo) Se hai selezionato un modello di archiviazione legacy, seleziona l&#39;impostazione **Crea questo progetto nell&#39;archiviazione cloud Adobe** nell&#39;angolo inferiore destro della casella Nuovo progetto. Verrà creato un progetto di archiviazione cloud Adobe. I documenti e le cartelle di documenti del modello non verranno aggiunti al progetto.
 
    1. Rivedi i seguenti dettagli del modello a destra:
 
