@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +80,12 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
   * Quando i tipi di record connessi fanno parte di gerarchie, è possibile collegare un record da un tipo di record figlio a un massimo di 10 record da un tipo di record padre.
 
     Ad esempio, se crei una gerarchia tra Campagne come record principale e Persona come record secondario, puoi collegare la stessa persona a un massimo di 10 campagne.
+  * Se la tua organizzazione ha acquistato un pacchetto Adobe GenStudio for Performance Marketing, esistono i seguenti scenari:
+
+    * Non è possibile connettersi ai tipi di record di GenStudio dai tipi di record di Planning.
+    * È possibile connettere i tipi di record di GenStudio nell&#39;area di lavoro di GenStudio.
+    * È possibile collegare i marchi GenStudio ai tipi di record GenStudio e ai tipi di record Planning.
+    * Non è possibile includere Marchi GenStudio in una gerarchia.
 
 ## Considerazioni durante la visualizzazione delle breadcrumb
 
