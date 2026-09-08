@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14508'
 ht-degree: 92%
 
 ---
@@ -1949,6 +1949,7 @@ ht-degree: 92%
       * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [Gestire i modelli di approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [Utilizzare insieme approvazioni unificate e bozze](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Caricare una nuova versione del documento e richiedere un’approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Creare una dashboard del rapporto per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2184,7 +2185,7 @@ ht-degree: 92%
     * [Personalizzare la terminologia degli obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Condividere un obiettivo in Obiettivi di Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Abilitare notifiche di obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront Planning {#adobe-workfront-planning}
+* Pianificazione di Adobe Workfront {#adobe-workfront-planning}
   * [Indice articolo e informazioni generali per Adobe Workfront Planning](planning/planning-information.md)
   * Informazioni generali su Pianificazione di Adobe Workfront {#adobe-workfront-planning-general-information}
     * [Informazioni generali su Pianificazione di Adobe Workfront: indice degli articoli](planning/general/planning-general-article-index.md)
@@ -2245,7 +2246,7 @@ ht-degree: 92%
     * [Informazioni di accesso di Pianificazione di Adobe Workfront: indice degli articoli](planning/access/access-information.md)
     * [Panoramica sull’accesso a Pianificazione di Adobe Workfront](planning/access/access-overview.md)
     * [Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront](planning/access/sharing-permissions-overview.md)
-    * [Panoramica del tipo di licenza durante l’utilizzo di Pianficazione di Adobe Workfront](planning/access/license-type-overview.md)
+    * [Panoramica del tipo di licenza per l’utilizzo di Pianificazione di Adobe Workfront](planning/access/license-type-overview.md)
     * [Condividere le aree di lavoro](planning/access/share-workspaces.md)
     * [Condividere i tipi di record](planning/access/share-record-types.md)
     * [Condividere le visualizzazioni](planning/access/share-views.md)
