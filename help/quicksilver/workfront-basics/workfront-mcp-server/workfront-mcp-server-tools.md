@@ -5,9 +5,9 @@ title: Strumenti server Adobe Workfront MCP
 description: Elenco di riferimento degli strumenti disponibili tramite il server Adobe Workfront MCP, raggruppati per area Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
 | Entità elenco | `insights_list_entities` | Elenca tutti i tipi di oggetto Workfront disponibili per la query. | Leggi |
 | Cerca utenti | `insights_search_users` | Trova le persone nella tua istanza di Workfront per nome. Digita un nome completo o parziale e recupera i principali utenti corrispondenti. Facoltativamente, questo può anche includere &quot;bot&quot; di collaboratori IA insieme agli utenti normali. | Leggi |
 
+## Strumenti di feedback
+
+<span class="preview">Gli strumenti di feedback consentono di segnalare la tua esperienza con il server Workfront MCP direttamente dalla piattaforma di intelligenza artificiale.</span>
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| <span class="preview">Condividi feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra il sentiment segnalato e ciò che è accaduto durante la conversazione, in modo da migliorare gli strumenti MCP di Workfront. Utilizzato solo quando viene richiesto esplicitamente di condividere il feedback (ad esempio, &quot;condividi feedback&quot; o &quot;segnala un bug&quot;).</span> | <span class="preview">Scrittura</span> |
 
 
 
