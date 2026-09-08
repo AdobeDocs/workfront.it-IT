@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 2%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Oppure
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
-   <td><p>Standard flusso di lavoro</p>
+   <td><p>Collaboratore flusso di lavoro o versione successiva</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic su **Attiva** per attivare la regola per questo tipo di record, quindi fai clic su **Salva**.
 
    Le regole vengono applicate subito dopo l&#39;attivazione e tutti gli utenti che dispongono delle autorizzazioni per modificare o eliminare record nel tipo di record selezionato devono seguirle.
+1. (Facoltativo) Fare clic sul menu **Altro** ![](assets/more-menu.png) per specificare il nome della regola business nell&#39;intestazione della pagina per aprire la casella **Dettagli regola** e aggiornare le informazioni sulla regola business.
 1. (Facoltativo e consigliato) Fare clic sulla freccia indietro a sinistra delle **Regole aziendali** nell&#39;intestazione della pagina per visualizzare la pagina del tipo di record e passare alla visualizzazione tabella o aprire la pagina di un record, quindi provare a modificare o eliminare un record per verificare la regola appena creata.
 
 ## Gestire le regole business
@@ -153,18 +154,22 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 La modifica di una regola esistente non modifica i record esistenti. La regola modificata si applica solo ai record esistenti quando un utente tenta di modificarli o eliminarli.
 
 1. Tornare alla pagina della tabella **Regole business** per il tipo di record.
-1. Individuare la regola che si desidera modificare.
-1. Passa il puntatore del mouse sul nome della regola, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi su una delle seguenti opzioni:
+1. Trovare la regola che si desidera modificare nella vista tabella.
+1. Passa il puntatore del mouse sul nome di una regola attiva, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi su una delle seguenti opzioni:
 
    * **Modifica**: consente di aprire la pagina di impostazione della regola business e di modificare le informazioni sulla regola business.
-   * **Disattiva**: <!--check this in the UI: right now, it says Disable--> Questa regola non verrà più attivata ma verrà mantenuta per il futuro, necessario.
+   * **Disattiva**: impedisce l&#39;attivazione della regola, ma ne conserva la necessità per il futuro.
    * **Elimina**: tutte le informazioni sulla regola vengono eliminate. Non è possibile recuperare le regole eliminate.
 
+   ![Menu Altro regola business espanso](assets/business-rule-more-menu-in-table-expanded.png)
+
    Le regole modificate o la disattivazione delle regole si applicano solo ai record futuri e non vengono applicate retroattivamente.
+1. (Facoltativo e condizionale) Passa il puntatore del mouse sul nome di una regola business disattivata nella tabella, quindi fai clic su **Altro** > **Attiva** per attivare la regola.
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   La regola viene attivata.
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 
