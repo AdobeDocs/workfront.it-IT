@@ -13,9 +13,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Istantanea</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>La mia scheda orario è approvata</strong> </p> <p>Quando la scheda orario viene approvata, si riceve una notifica e-mail.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Timesheet Approved]: &lt;Data inizio scheda orario&gt; - &lt;Data fine scheda orario&gt;</em></p> <p> <p>Nota: non puoi configurare questa notifica per un messaggio e-mail di riepilogo giornaliero.</p> </p> </td> 
+   <td> <p><strong>La mia scheda orario è approvata</strong> </p> <p>Quando la scheda orario viene approvata, si riceve una notifica e-mail.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Timesheet Approved]: &lt;Data inizio scheda orario&gt; - &lt;Data fine scheda orario&gt;</em></p> <p> <p>Nota: non puoi configurare questa notifica per un messaggio e-mail di riepilogo giornaliero.</p> </p> <p> <p>Nota: per ricevere questa notifica è necessario disporre di una licenza Standard. Gli utenti con una licenza Light o inferiore non ricevono la notifica e-mail di approvazione della scheda orario, anche quando è abilitata.</p> </p> </td> 
    <td> Nome dell'utente che ha approvato la scheda orario<br>Data e ora di approvazione della scheda orario<br>Stato della scheda orario ([!UICONTROL Approvato])<br>Data di inizio e data di fine della scheda orario<br>Ore totali registrate nella scheda orario<br>Ore di straordinario registrate nella scheda orario </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 
