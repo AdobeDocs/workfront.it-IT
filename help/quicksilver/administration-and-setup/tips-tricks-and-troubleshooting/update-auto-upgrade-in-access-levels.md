@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 15cb219fa00c531d53446a8cdcbdd4f36ed0bcb2
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 9%
+source-wordcount: 129
+ht-degree: 10%
 
 ---
 
@@ -36,9 +36,8 @@ Ai collaboratori del nuovo modello di licenza deve essere assegnata un’opzione
 ## Aggiungi a una visualizzazione nella pagina Livello di accesso
 
 Per visualizzare i livelli di accesso assegnati come opzioni di aggiornamento automatico:
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
--->
+
+{{step-1-to-setup}}
 
 1. Nel pannello di destra, fai clic su **Livelli di accesso**.
 
@@ -54,6 +53,6 @@ Per visualizzare i livelli di accesso assegnati come opzioni di aggiornamento au
 
 Per assegnare una nuova opzione di aggiornamento automatico a un livello di accesso:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello di destra, fai clic su **Livelli di accesso**.

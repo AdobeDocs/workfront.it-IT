@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 3%
@@ -202,7 +202,7 @@ Per collegare una cartella:
 
 ## Considerazioni
 
-* La funzionalità Contenuto verificato non è disponibile per gli oggetti che utilizzano l&#39;archiviazione cloud Adobe. Se l’organizzazione utilizza l’archiviazione cloud Adobe, è comunque possibile collegare risorse e cartelle da Experience Manager Assets o Assets Essentials, ma non sarà possibile accedere alle funzioni di Contenuto verificato, ad esempio Ricerche IA, suggerimenti avanzati o rappresentazioni Dynamic Media. Per ulteriori informazioni, consulta [Collegare contenuto e cartelle da Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+* La funzionalità Contenuto verificato non è disponibile per gli oggetti che utilizzano l&#39;archiviazione cloud Adobe. Se l’organizzazione utilizza l’archiviazione cloud Adobe, è comunque possibile collegare risorse e cartelle da Experience Manager Assets o Assets Essentials, ma non sarà possibile accedere alle funzioni di Contenuto verificato, ad esempio Ricerche IA, suggerimenti avanzati o rappresentazioni Dynamic Media. Per ulteriori informazioni, consulta [Collegare contenuto e cartelle da Experience Manager Assets con Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * La funzionalità Contenuto verificato non è disponibile per Assets Essentials. Per collegare risorse e cartelle da Assets Essentials, consulta [Collegare risorse e cartelle da Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

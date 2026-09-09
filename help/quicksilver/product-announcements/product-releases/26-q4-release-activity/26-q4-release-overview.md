@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 8%
+source-wordcount: '2869'
+ht-degree: 7%
 
 ---
 
@@ -243,6 +243,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     &lt;td>&lt;p>13 agosto, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nuovo strumento di feedback delle condivisioni disponibile nel connettore Workfront MCP&lt;/a>
+    &lt;p>Un nuovo strumento di feedback delle condivisioni consente di segnalare il sentiment e Workfront migliorato.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>3 settembre 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>17 settembre 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
 
     
@@ -259,17 +268,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accesso completo agli amministratori di sistema ai modelli di approvazione</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Ora gli amministratori di sistema possono visualizzare, modificare, eliminare ed eliminare in blocco ogni modello di approvazione nell’account, indipendentemente da chi lo ha creato o condiviso.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>8 settembre 2026</p></td>
+            <td><p>8 settembre 2026</p></td>
+            <td><p>8 settembre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilità commento frame in Workfront</a>
@@ -342,6 +349,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Controlla chi può visualizzare e utilizzare i modelli di approvazione</a>
+                <p>I modelli di approvazione ora sono privati per impostazione predefinita e i creatori possono condividerli con utenti specifici o con tutti gli utenti della propria organizzazione.</p>
+            </td>
+            <td><p>30 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
             <td><p>15 ottobre 2026</p></td>
         </tr>
         <tr>
@@ -443,17 +459,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copia dashboard nei dashboard di Canvas</a>
+                <p>Ora puoi copiare un dashboard di Canvas utilizzando la nuova azione del dashboard Copia e scegliere cosa trasferire alla copia.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 settembre 2026</p></td>
+            <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -606,6 +620,19 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 
 * [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Attività sulla versione del quarto trimestre 2026 di Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+
+## Aggiornamenti del visualizzatore di bozza desktop
+
+### Versione 2.1.59
+
+Versione di produzione per tutti i clienti: 9 settembre 2026
+
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.59. Questo aggiornamento include le seguenti modifiche:
+
+* Il Visualizzatore bozze desktop è ora disponibile come build nativa per Mac con silicio Apple.
+* Il framework dell’applicazione sottostante (Electron) è stato aggiornato a una versione più recente, che offre miglioramenti a livello di prestazioni e sicurezza.
+
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Annunci
 

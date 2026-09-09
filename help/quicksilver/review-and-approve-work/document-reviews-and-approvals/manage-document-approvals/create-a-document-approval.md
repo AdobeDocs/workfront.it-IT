@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 2662
+source-wordcount: 2878
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
 {{highlighted-preview}}
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
+
+Per impostazione predefinita, un modello di approvazione è visibile solo al suo creatore. In questo articolo puoi selezionare solo i modelli che hai creato o che sono stati condivisi con te. Per ulteriori informazioni, vedere [Condividere un modello](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Gestire i modelli di approvazione.
 
 >[!IMPORTANT]
 >
@@ -95,7 +97,7 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <table>
    <tr>
    <td><strong>Utilizzare un modello di approvazione (facoltativo)</strong></td>
-   <td>Seleziona un modello dal menu a discesa. Se il modello ha un percorso e una fase, viene applicato in modalità Base. Se il modello ha più di una fase o più percorsi, la finestra di dialogo passa automaticamente alla modalità Avanzata e qualsiasi input immesso in modalità Base viene sostituito dal contenuto del modello.</td>
+   <td>Seleziona un modello dal menu a discesa. Il menu elenca solo i modelli creati o condivisi con te, sia con te in modo specifico che con tutti gli utenti dell’organizzazione. Gli amministratori di sistema visualizzano qui ogni modello dell’account, indipendentemente da chi lo ha creato o condiviso. Se il modello ha un percorso e una fase, viene applicato in modalità Base. Se il modello ha più di una fase o più percorsi, la finestra di dialogo passa automaticamente alla modalità Avanzata e qualsiasi input immesso in modalità Base viene sostituito dal contenuto del modello.</td>
    </tr>
    <tr>
    <td><strong>Aggiungi nomi o e-mail</strong></td>
@@ -151,6 +153,14 @@ Per creare un flusso di lavoro di approvazione avanzato:
    >[!TIP]
    >
    >Durante la creazione dell&#39;approvazione, puoi tornare alla modalità Base facendo clic su **Vai alla modalità Base** in alto a destra. Dopo aver fatto clic su **Richiedi approvazione**, l&#39;opzione **Vai a base** non è più disponibile.
+
+1. (Facoltativo) Per applicare un modello:
+
+   1. Attiva **Modelli**.
+   1. Fai clic sull&#39;icona del filtro, quindi seleziona **Tutti**, **Modelli personali** o **Condivisi con me** per restringere l&#39;elenco.
+   1. Fai clic su un modello per applicarlo all’approvazione.
+
+   Gli amministratori di sistema visualizzano qui ogni modello dell’account, indipendentemente da chi lo ha creato o condiviso.
 
 1. Inserire i dettagli per la fase 1 del percorso 1:
 
@@ -222,7 +232,7 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <table>
    <tr>
    <td><strong>Utilizzare un modello di approvazione (facoltativo)</strong></td>
-   <td>Il campo dei modelli è compresso per impostazione predefinita. Fai clic sul campo per espanderlo, quindi seleziona un modello dal menu a discesa. Se il modello ha un percorso e una fase, viene applicato in modalità Base. Se il modello ha più di una fase o più percorsi, la finestra di dialogo passa automaticamente alla modalità Avanzata e qualsiasi input immesso in modalità Base viene sostituito dal contenuto del modello.</td>
+   <td>Il campo dei modelli è compresso per impostazione predefinita. Fai clic sul campo per espanderlo, quindi seleziona un modello dal menu a discesa. Il menu elenca solo i modelli creati o condivisi con te, sia con te in modo specifico che con tutti gli utenti dell’organizzazione. Gli amministratori di sistema visualizzano qui ogni modello dell’account, indipendentemente da chi lo ha creato o condiviso. Se il modello ha un percorso e una fase, viene applicato in modalità Base. Se il modello ha più di una fase o più percorsi, la finestra di dialogo passa automaticamente alla modalità Avanzata e qualsiasi input immesso in modalità Base viene sostituito dal contenuto del modello.</td>
    </tr>
    <tr>
    <td><strong>Aggiungi nomi o e-mail</strong></td>
@@ -284,6 +294,14 @@ Per creare un flusso di lavoro di approvazione avanzato:
    >[!TIP]
    >
    >Durante la creazione dell&#39;approvazione, puoi tornare alla modalità Base facendo clic su **Vai alla modalità Base** in alto a destra. Dopo aver fatto clic su **Richiedi approvazione**, l&#39;opzione **Vai a base** non è più disponibile.
+
+1. (Facoltativo) Per applicare un modello:
+
+   1. Attiva **Modelli**.
+   1. Fai clic sull&#39;icona del filtro, quindi seleziona **Tutti**, **Modelli personali** o **Condivisi con me** per restringere l&#39;elenco.
+   1. Fai clic su un modello per applicarlo all’approvazione.
+
+   Gli amministratori di sistema visualizzano qui ogni modello dell’account, indipendentemente da chi lo ha creato o condiviso.
 
 1. Inserire i dettagli per la fase 1 del percorso 1:
 

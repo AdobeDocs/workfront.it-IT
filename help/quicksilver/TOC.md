@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 92%
 
 ---
@@ -1949,6 +1949,7 @@ ht-degree: 92%
       * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [Gestire i modelli di approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [Utilizzare insieme approvazioni unificate e bozze](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Caricare una nuova versione del documento e richiedere un’approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Creare una dashboard del rapporto per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 92%
     * {hide-from-toc}[Introduzione all&#39;integrazione di GenStudio for Performance Marketing e Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Introduzione alla bozza e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Introduzione all’integrazione della bozza e di GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Collegare le risorse da Experience Manager Assets con l’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Utilizzare Adobe Experience Manager con Workfront e l’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Guida introduttiva ad Adobe Express e Workfront con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
     * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2184,7 +2184,7 @@ ht-degree: 92%
     * [Personalizzare la terminologia degli obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Condividere un obiettivo in Obiettivi di Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Abilitare notifiche di obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront Planning {#adobe-workfront-planning}
+* Pianificazione di Adobe Workfront {#adobe-workfront-planning}
   * [Indice articolo e informazioni generali per Adobe Workfront Planning](planning/planning-information.md)
   * Informazioni generali su Pianificazione di Adobe Workfront {#adobe-workfront-planning-general-information}
     * [Informazioni generali su Pianificazione di Adobe Workfront: indice degli articoli](planning/general/planning-general-article-index.md)
@@ -2245,7 +2245,7 @@ ht-degree: 92%
     * [Informazioni di accesso di Pianificazione di Adobe Workfront: indice degli articoli](planning/access/access-information.md)
     * [Panoramica sull’accesso a Pianificazione di Adobe Workfront](planning/access/access-overview.md)
     * [Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront](planning/access/sharing-permissions-overview.md)
-    * [Panoramica del tipo di licenza durante l’utilizzo di Pianficazione di Adobe Workfront](planning/access/license-type-overview.md)
+    * [Panoramica del tipo di licenza per l’utilizzo di Pianificazione di Adobe Workfront](planning/access/license-type-overview.md)
     * [Condividere le aree di lavoro](planning/access/share-workspaces.md)
     * [Condividere i tipi di record](planning/access/share-record-types.md)
     * [Condividere le visualizzazioni](planning/access/share-views.md)
