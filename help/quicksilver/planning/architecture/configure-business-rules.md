@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 È possibile configurare le regole business per i tipi di record di Adobe Workfront Planning per indicare che alcuni campi sono obbligatori prima che un&#39;azione su un record di quel tipo sia consentita o impedita.
 
-A seconda della modalità di formulazione della regola, è possibile consentire le azioni seguenti sui record se vengono soddisfatte le regole aziendali definite:
+A seconda del modo in cui la regola viene formulata, è possibile consentire o vietare le azioni seguenti sui record se vengono soddisfatte le regole aziendali definite:
 
 * Modificare o meno un record
 * Eliminare o non eliminare un record

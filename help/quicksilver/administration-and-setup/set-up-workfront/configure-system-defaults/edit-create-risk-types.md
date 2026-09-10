@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 7%
+source-wordcount: 645
+ht-degree: 6%
 
 ---
 
@@ -120,25 +120,30 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 
 1. (Facoltativo) Per esportare un elenco di tipi di rischio, fai clic sull&#39;icona [!UICONTROL **Esporta**]. Puoi esportare i seguenti tipi di file:
 
-   * Nell’ambiente di produzione:
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * Delimitato in tabella
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Delimitato in tabella
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * Nell’ambiente di anteprima:
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   Nell’ambiente di produzione, puoi selezionare prima un numero limitato di tipi di rischio, quindi esportarli per un elenco più piccolo. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   Nell’ambiente di produzione, puoi selezionare prima un numero limitato di tipi di rischio, quindi esportarli per un elenco più piccolo.
+   >
+   > <span class="preview">Questa funzionalità è stata rimossa dall&#39;ambiente di anteprima.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Creare tipi di rischio {#create-risk-types}
 

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 862924a86a71d982098dff8143cb047cdb301806
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: 1751
 ht-degree: 2%
 
 ---
@@ -105,7 +105,7 @@ Prima di iniziare,
 
 {{step-1-to-setup}}
 
-1. Seleziona **[!UICONTROL Documenti]** nel pannello a sinistra, quindi seleziona **[!UICONTROL [!DNL Experience Manager]Integrazione]**.
+1. Seleziona **[!UICONTROL Documenti]** nel pannello a sinistra, quindi seleziona **[!UICONTROL [!DNL Experience Manager]Assets]**.
 
    >[!NOTE]
    >
