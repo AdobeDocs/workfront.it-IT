@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -130,14 +130,19 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >È possibile aggiungere campi collegati alle regole aziendali, ma prestare attenzione all&#39;utilizzo di istruzioni che cercano un array, anziché un valore di campo. Ad esempio, invece di `ISBLANK` utilizza `ARRAYLENGTH(field)=0`.
+
+
+   Nel campo **Formula** sono presenti indicatori quando un campo o un&#39;espressione non sono corretti.  <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >Si consiglia vivamente di includere nella formula della regola le seguenti informazioni per facilitare agli utenti la comprensione di quando un&#39;azione che stanno tentando di eseguire su un record non è consentita:
    >
    >* I campi esatti per i quali è impostata la regola.
    >* La conseguenza esatta se la regola non viene soddisfatta.
-
-   Nel campo **Formula** sono presenti indicatori quando un campo o un&#39;espressione non sono corretti.  <!--add screen shot?-->
 
    Nella sezione **Then** della regola business, puoi visualizzare una spiegazione delle funzioni della regola.
 
