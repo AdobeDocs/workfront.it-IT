@@ -6,7 +6,7 @@ description: Inventariare, classificare e correggere scenari Workfront Fusion ba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -18,12 +18,6 @@ ht-degree: 1%
 Gli scenari Workfront Fusion basati su versioni precedenti di Workfront Proofing non funzionano automaticamente con i progetti Adobe Cloud Storage. I moduli specifici della bozza, i webhook e gli endpoint API hanno equivalenti diretti in alcuni casi e cambiamenti significativi in altri. Questo articolo consente di inventariare gli scenari interessati, classificarli e decidere un percorso di correzione prima di inserire nel rollout dell’archiviazione cloud Adobe i team che dipendono da tali scenari.
 
 Gli scenari con ambito di progetti Workfront legacy continuano a funzionare come fanno attualmente. Il lavoro di monitoraggio e aggiornamento descritto in questo articolo si applica agli scenari che intendi eseguire sui progetti di archiviazione cloud di Adobe.
-
->[!IMPORTANT]
->
->Il connettore Adobe Workfront Unified Review and Approvals è ora disponibile in Workfront Fusion. Si consiglia di utilizzare questo connettore per scenari più semplici e affidabili quando si utilizza Fusion con l’archiviazione cloud Adobe.
->
->Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
 
 Utilizza questo articolo per fare l’inventario e classificare gli scenari in modo da comprendere il modo migliore per aggiornare gli scenari Fusion in modo da tenere conto dell’archiviazione cloud di Adobe.
 
@@ -55,6 +49,12 @@ Il lavoro che ogni scenario richiede dipende da ciò che fa e da ciò che è dis
 Esamina ogni scenario in base alla tua logica di business specifica per deciderne la classificazione.
 
 ## Approccio di risoluzione
+
+>[!IMPORTANT]
+>
+>Il connettore Adobe Workfront Unified Review and Approvals è ora disponibile in Workfront Fusion. Si consiglia di utilizzare questo connettore per scenari più semplici e affidabili quando si utilizza Fusion con l’archiviazione cloud Adobe.
+>
+>Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
 
 Per pianificare ed eseguire la correzione di Fusion, utilizzare il seguente approccio:
 
