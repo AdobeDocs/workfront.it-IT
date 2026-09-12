@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
 workflow-type: tm+mt
 source-wordcount: 800
 ht-degree: 4%
@@ -74,6 +74,9 @@ Per creare un modello di approvazione:
 1. Fai clic su **Nuovo modello** sul lato destro della pagina.
 
 1. Aggiungi un **nome modello**.
+<!--
+This field has a character limit of 255.
+-->
 
 1. Inserire i dettagli per la fase 1 del percorso 1:
 

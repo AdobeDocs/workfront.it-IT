@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 12%
@@ -87,6 +87,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    Quando configuri questa impostazione, tieni presente quanto segue:
 
    * Questa opzione non è disponibile quando si configura per registrare il tempo in ore.
-   * Questa opzione è utilizzata solo per registrare il tempo. Questa opzione non è correlata all&#39;opzione **Pianifica** disponibile anche quando si modifica un utente. L&#39;opzione **Pianifica** viene utilizzata per il calcolo delle sequenze temporali e in altre aree di Workfront. Per ulteriori informazioni sull&#39;utilizzo dell&#39;opzione **Pianifica**, vedere [Crea una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md). 
+   * Questa opzione è utilizzata solo per registrare il tempo. Questa opzione non è correlata all&#39;opzione **Pianifica** disponibile anche quando si modifica un utente. L&#39;opzione **Pianifica** viene utilizzata per il calcolo delle sequenze temporali e in altre aree di Workfront. Per ulteriori informazioni sull&#39;utilizzo dell&#39;opzione **Pianifica**, vedere [Crea una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Fai clic su **Salva modifiche**.

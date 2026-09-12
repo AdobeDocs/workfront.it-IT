@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 7%
 
 ---
@@ -277,10 +277,10 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilità commento frame in Workfront</a>
+                Visibilità di <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io in Workfront</a>
                 <p>Il pannello Commenti di Workfront ora consente di sapere quando sono disponibili nuovi commenti nel visualizzatore Frame.io.</p>
             </td>
-            <td><p>3 settembre 2026</p></td>
+            <td><p>N/D</p></td>
             <td><p>17 settembre 2026</p></td>
             <td><p>15 ottobre 2026</p></td>
         </tr>
