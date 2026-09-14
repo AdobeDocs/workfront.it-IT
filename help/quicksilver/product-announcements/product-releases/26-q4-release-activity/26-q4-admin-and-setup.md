@@ -4,13 +4,11 @@ description: Miglioramenti per gli amministratori del quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # Miglioramenti per gli amministratori del quarto trimestre 2026
 
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -74,6 +72,8 @@ Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilve
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
 >Produzione per tutti: 15 ottobre 2026
+>
+>Questa funzione è stata temporaneamente rimossa dall’ambiente di anteprima il 14 settembre 2026.
 
 Quando si utilizza un modello di layout, è ora possibile riposizionare le applicazioni personalizzate in qualsiasi ordine con le opzioni di menu predefinite di Workfront. Ciò consente di posizionare ogni applicazione nella posizione più appropriata.
 
