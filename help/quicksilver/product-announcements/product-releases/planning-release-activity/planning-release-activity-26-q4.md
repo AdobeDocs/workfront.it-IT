@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 1%
-
 ---
-
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
@@ -76,7 +74,7 @@ Le settimane personalizzate non sono visibili in Workfront. Sono visibili solo n
 
 Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-## Filtri per i campi record collegati dipendenti
+## Filtri per i campi record connessi
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilve
 >Versione rapida di produzione: 17 settembre 2026
 >Produzione per tutti: 15 ottobre 2026
 
-È ora possibile filtrare determinati tipi di record che soddisfano un criterio di filtro quando si aggiungono connessioni dipendenti in Planning.
+È ora possibile filtrare determinati tipi di record che soddisfano un criterio di filtro quando si aggiungono connessioni in Planning.
 
-Anziché tutti i tipi di record disponibili nei campi collegati dipendenti, verranno visualizzati solo quelli che soddisfano i criteri di filtro specificati.
+Solo i record che soddisfano i criteri di filtro specificati verranno visualizzati come opzioni nei campi connessi.
 
 Per questa funzione è stata aggiunta una nuova opzione Regole filtro record nella scheda Nuova connessione durante la connessione di tipi di record.
 
