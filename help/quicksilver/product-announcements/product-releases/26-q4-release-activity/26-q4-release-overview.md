@@ -4,13 +4,11 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 7%
-
 ---
-
 # Panoramica sulla versione del quarto trimestre 2026
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del quarto trimestre 2026 pianificata per ottobre 2026.
@@ -76,6 +74,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Riordinare le applicazioni personalizzate nel menu principale</a>
+                <p><strong>NOTA:</strong> questa funzionalità è stata temporaneamente rimossa dall'ambiente di anteprima il 14 settembre 2026.</p>
                 <p>È ora possibile riposizionare le applicazioni personalizzate nel menu principale di un modello di layout invece di visualizzarle sempre per ultime.</p>
             </td>
             <td><p>3 settembre 2026</p></td>
