@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 4%
-
 ---
-
 # Creare un modello di flusso di lavoro di approvazione per i documenti
 
 Nell’area Configurazione di Workfront, gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili. Un modello è visibile solo all’utente che lo ha creato, a meno che l’autore non lo condivida con utenti specifici o con tutti gli utenti dell’organizzazione. Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un oggetto.
@@ -74,6 +78,7 @@ Per creare un modello di approvazione:
 1. Fai clic su **Nuovo modello** sul lato destro della pagina.
 
 1. Aggiungi un **nome modello**.
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![aggiungi una fase](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![aggiungi percorsi paralleli](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. (Facoltativo) Per rinominare un percorso, passa il cursore sull’etichetta del percorso, fai clic sull’icona della matita, quindi digita un nuovo nome. Per rimuovere un percorso, passa il cursore sull’etichetta del percorso e fai clic sull’icona del cestino. **Il percorso 1** non può essere rimosso e gli altri percorsi possono essere rimossi solo se nessuna fase all&#39;interno del percorso è bloccata o completata.

@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 2878
+source-wordcount: '2878'
 ht-degree: 1%
-
 ---
-
 # Creare un flusso di lavoro di approvazione documento
 
 {{highlighted-preview}}
@@ -200,8 +204,9 @@ Per creare un flusso di lavoro di approvazione avanzato:
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-parallel-paths.jpeg)
 
-<!-- preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+<!-- 
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
 
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
@@ -342,7 +347,8 @@ Per creare un flusso di lavoro di approvazione avanzato:
 
    ![Modalità avanzata con percorsi paralleli](assets/request-approval-advanced.jpeg)
 
-   <!-- preview screen
+   <!-- 
+   preview screen
    ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
    -->
 
