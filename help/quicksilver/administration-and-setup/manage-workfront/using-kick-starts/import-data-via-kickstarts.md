@@ -14,20 +14,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 62d9d350c2b233f657780ab540b709368e3e0bc9
 workflow-type: tm+mt
-source-wordcount: 2877
-ht-degree: 100%
-
+source-wordcount: '2882'
+ht-degree: 97%
 ---
-
 # Importare dati in Workfront utilizzando un modello Kick-Start
 
 <!--Audited: 12/2023-->
@@ -76,7 +79,9 @@ Puoi importare un numero elevato di oggetti in Workfront utilizzando un modello 
 
 * Importando i dati in questo modo non si aggiornano le informazioni sui record già esistenti in Workfront.
 * Puoi importare solo i nuovi record e le relative informazioni.
-* Non importare più di 2.000 record alla volta per evitare il timeout dell’importazione
+* Le importazioni Kick-Start vengono eseguite in background e non esiste alcun limite di record.
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## Esportare un modello di Kick-Start come file di foglio di calcolo
 
@@ -85,10 +90,6 @@ Quando esporti un modello Kick-Start, ricevi una cartella di lavoro vuota del fo
 Per esportare un modello Kick-Start:
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. Fai clic su **Sistema** > **Importa dati (Kick-Start)**.
 
@@ -331,9 +332,9 @@ Ciascuna riga del foglio corrisponde a un oggetto univoco.
    * Se l’oggetto che stai importando è nuovo, digita **TRUE** per importare i dati nella riga. Questo valore fa distinzione tra maiuscole e minuscole e deve essere sempre in lettere maiuscole
    * Se l’oggetto è già in Workfront, digita **FALSE** nella colonna **isNew** per ignorare la riga. Questo valore fa distinzione tra maiuscole e minuscole e deve essere sempre in lettere maiuscole
 
-      * I record già esistenti in Workfront non vengono aggiornati.
-      * Se hai scaricato un modello con dati da Workfront, gli oggetti esistenti sono già contrassegnati con **FALSE**.
-      * Se hai scaricato un modello vuoto, non è necessario aggiungere nuove righe per gli oggetti esistenti.
+     * I record già esistenti in Workfront non vengono aggiornati.
+     * Se hai scaricato un modello con dati da Workfront, gli oggetti esistenti sono già contrassegnati con **FALSE**.
+     * Se hai scaricato un modello vuoto, non è necessario aggiungere nuove righe per gli oggetti esistenti.
 
 1. Aggiungi informazioni nella colonna **ID** in uno dei modi seguenti:
 
@@ -353,13 +354,13 @@ Ciascuna riga del foglio corrisponde a un oggetto univoco.
 
    * Quando importi un progetto, è necessario indicare un ID gruppo.
 
-      * Se il gruppo esiste già in Workfront, è necessario aggiungerne l’ID univoco al campo **setGroupID** per il progetto.
-      * Se il gruppo non esiste in Workfront, puoi aggiungere il foglio **GROUP** al file di importazione, impostare il campo **isNew** su **TRUE** nel foglio Gruppo e indicare un ID numerico per il nuovo gruppo nella colonna **ID**. Il campo **setGroupID** del nuovo progetto deve corrispondere al valore numerico **ID** del nuovo gruppo.
+     * Se il gruppo esiste già in Workfront, è necessario aggiungerne l’ID univoco al campo **setGroupID** per il progetto.
+     * Se il gruppo non esiste in Workfront, puoi aggiungere il foglio **GROUP** al file di importazione, impostare il campo **isNew** su **TRUE** nel foglio Gruppo e indicare un ID numerico per il nuovo gruppo nella colonna **ID**. Il campo **setGroupID** del nuovo progetto deve corrispondere al valore numerico **ID** del nuovo gruppo.
 
      **Esempio:** per un progetto, il valore visualizzato nella colonna **setGroupID** deve essere uno dei seguenti:
 
-      * Il GUID di un gruppo esistente nell’istanza di Workfront
-      * Il valore (numero) nella colonna ID del foglio **GROUP** se stai creando un nuovo gruppo durante l’importazione
+     * Il GUID di un gruppo esistente nell’istanza di Workfront
+     * Il valore (numero) nella colonna ID del foglio **GROUP** se stai creando un nuovo gruppo durante l’importazione
 
 1. I valori di input per i campi obbligatori e per qualsiasi altro campo che desideri compilare durante l’importazione.
 1. (Facoltativo) Per aggiungere dati personalizzati:
@@ -387,11 +388,11 @@ Workfront è in grado di elaborare la maggior parte dei formati di date. Tuttavi
 
 Workfront accetta anche i valori di ora come parte della data.
 
-Ad esempio: 07/10/2022 01:30 o 07/10/2022 13:00.
+Ad esempio: 07/10/2022 01:30 o 07/10/2022 1:00 PM.
 
 Se ometti l’ora nella data, Workfront esegue una delle operazioni seguenti:
 
-* Presuppone che l’ora sia 00:00. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al tuo fuso orario.
+* Presuppone che l’ora sia le 00:00. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al tuo fuso orario.
 * Se si trova su un oggetto associato a una pianificazione, l’ora si riferisce alla prima ora consentita dalla pianificazione.
 
 >[!NOTE]
@@ -461,13 +462,13 @@ Anche se la best prctice consiste nell’utilizzare gli ID quando possibile, a v
 
   Ecco come utilizzare entrambi i metodi sullo stesso file di importazione:
 
-   * Aggiungi una colonna nel foglio di calcolo a sinistra della colonna **setRoleID**.
-   * Denomina la nuova colonna **#setRoleID ROLE name**.
-   * Per le assegnazioni di ruolo a record esistenti, inserisci i nomi dei ruoli nella colonna **#setRoleID ROLE name**.
+  * Aggiungi una colonna nel foglio di calcolo a sinistra della colonna **setRoleID**.
+  * Denomina la nuova colonna **#setRoleID ROLE name**.
+  * Per le assegnazioni di ruolo a record esistenti, inserisci i nomi dei ruoli nella colonna **#setRoleID ROLE name**.
 
-     Per le assegnazioni di ruolo a nuovi record di ruolo, inserisci l’ID assegnato nel foglio di ruolo ROLE in setRoleID.
+    Per le assegnazioni di ruolo a nuovi record di ruolo, inserisci l’ID assegnato nel foglio di ruolo ROLE in setRoleID.
 
-     ![ID ruolo per utenti](assets/set-role-id.png)
+    ![ID ruolo per utenti](assets/set-role-id.png)
 
 ## Importare i dati del foglio di calcolo in Workfront
 
@@ -491,8 +492,6 @@ L’importazione Kick-Start supporta i seguenti tipi di file:
 
 Per importare i dati del foglio di calcolo del modello in Workfront:
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. Fai clic su **Sistema** > **Importa dati (Kick-Start)**.
@@ -501,7 +500,9 @@ Per importare i dati del foglio di calcolo del modello in Workfront:
 
    Il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione.
 
-   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non riesce a caricare il file. Prova a importare i dati in batch di oggetti più piccoli.
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   L’importazione viene eseguita in background, quindi non si verifica un timeout. Attendi il completamento dell’importazione prima di avviarne un’altra o di uscire dalla pagina. Se un’importazione richiede troppo tempo, puoi annullarla.
 
 1. (Condizionale) Se l’importazione non viene completata correttamente, viene visualizzato un messaggio di errore in cui viene indicato il problema. Cerca di identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggi le informazioni nel file di Excel. Prova quindi a importare il file un’altra volta.
 1. (Condizionale) Se utilizzi Workfront Fusion, ora puoi attivare i FLO o gli scenari al termine dell’importazione.
