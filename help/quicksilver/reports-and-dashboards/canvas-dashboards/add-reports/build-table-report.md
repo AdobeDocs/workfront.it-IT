@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 12%
-
+source-wordcount: '1208'
+ht-degree: 13%
 ---
-
 # Generare un rapporto della tabella in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
    1. Ripetere il passaggio precedente per ogni colonna da aggiungere.
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png), quindi configura le condizioni che determinano quali dati visualizzare.
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png).
+   Per ulteriori informazioni, vedere [Filtrare un report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
-   1. Selezionare **Modifica filtro**.
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo** ![Impostazioni gruppo](assets/drilldown-group-icon.png), quindi aggiungi i raggruppamenti per organizzare le righe del rapporto.
 
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare. La colonna viene visualizzata nella sezione di anteprima a destra.
-
-1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
-
-1. Segui i passaggi seguenti per configurare la sezione **Impostazioni gruppo di espansione**:
-
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo** ![Impostazioni gruppo](assets/drilldown-group-icon.png).
-
-   1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento. La colonna di raggruppamento viene visualizzata nella sezione di anteprima a destra.
+   Per ulteriori informazioni, vedere [Raggruppare i dati del report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
 
@@ -248,11 +244,5 @@ Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Se
 
 ### Riferimento a oggetti figlio
 
-Le relazioni disponibili per colonne aggiuntive, opzioni di filtro e attributi di raggruppamento sono in genere limitate agli oggetti più in alto nella gerarchia degli oggetti di Workfront oppure dispongono di una singola selezione sull&#39;oggetto dell&#39;entità di base del report. Esistono alcune eccezioni a questo, tra cui:
-
-* Progetto > Attività
-* Approvazione documento > Fasi di approvazione documento
-* Fasi di approvazione documento > Partecipanti fase di approvazione documento
-
-Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabella viene visualizzata una riga per ogni record figlio connesso all&#39;oggetto padre.
+Alcune relazioni padre-figlio sono disponibili per colonne, filtri e raggruppamenti. Per ulteriori informazioni, vedere [Riferimento a oggetti figlio](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) in [Riferimento filtro report per dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 

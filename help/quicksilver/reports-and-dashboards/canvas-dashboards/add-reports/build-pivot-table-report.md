@@ -5,13 +5,11 @@ title: Creare un rapporto di tabella pivot in un dashboard Canvas
 description: È possibile aggiungere un rapporto di tabella pivot a un dashboard di Canvas per visualizzare i totali aggregati per i dati in formato tabella.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1510'
 ht-degree: 8%
-
 ---
-
 # Creare un rapporto di tabella pivot in un dashboard Canvas
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
    1. Ripeti i due passaggi precedenti per aggiungere fino a 2 segmenti.
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png), quindi configura le condizioni che determinano quali dati visualizzare.
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png).
-
-   1. Selezionare **Modifica filtro**.
-
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
-
-   1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+   Per ulteriori informazioni, vedere [Filtrare un report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
 

@@ -3,7 +3,7 @@ title: Creazione di record di pianificazione dalle descrizioni dello spazio idea
 description: Utilizzando Ideation Space, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning. I resoconti esportati creano nuovi record o aggiornano quelli esistenti. In questo articolo viene descritto come creare o modificare i record di Planning esistenti utilizzando lo spazio ideazione.
 role: User, Admin
 author: Alina
-source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Oppure
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -154,7 +154,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Prompt breve per ideazione vuoto](assets/empty-ideation-prompt.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona !&lbrack;Apri tele precedenti **<!--accurate??--> &lbrace;icona Apri slip esistenti&rbrack;(assets/open-existing-briefs-icon.png) nell&#39;angolo superiore destro della casella del prompt, per aprire gli slip esistenti**
+1. (Facoltativo) Fai clic sull&#39;icona ![Apri tele precedenti **<!--accurate??--> {icona Apri slip esistenti](assets/open-existing-briefs-icon.png) nell&#39;angolo superiore destro della casella del prompt, per aprire gli slip esistenti**
 
 1. In **Su cosa stai lavorando?** , descrivere il tipo di record che si desidera creare.
 
@@ -224,7 +224,7 @@ Non è possibile modificare in blocco i record nello spazio ideazione.
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
