@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '557'
 ht-degree: 2%
-
 ---
-
 
 # Condividere uno spazio delle idee con altri
 
@@ -23,7 +21,9 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--ome of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article-->
+<!--
+Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
+-->
 
 Le autorizzazioni per i record di Workfront Planning vengono trasferite nello spazio di ideazione di un record.
 
@@ -59,18 +59,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
 <li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Prodotti aggiuntivi</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Licenza flusso di lavoro Adobe</p></td> 
    <td><p>Standard</p>
@@ -97,14 +96,16 @@ Oppure
       <p>Autorizzazioni dell’editor per lo spazio ideazione per creare resoconti</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
-   <li>GenStudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
-   </p>
-  </td> 
-  </tr> 
+  <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 

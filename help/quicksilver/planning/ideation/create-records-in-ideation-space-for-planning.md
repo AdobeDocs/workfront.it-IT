@@ -3,13 +3,11 @@ title: Creazione di record di pianificazione dalle descrizioni dello spazio idea
 description: Utilizzando Ideation Space, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning. I resoconti esportati creano nuovi record o aggiornano quelli esistenti. In questo articolo viene descritto come creare o modificare i record di Planning esistenti utilizzando lo spazio ideazione.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 0%
-
 ---
-
 
 # Crea record di Planning dalle descrizioni dello spazio ideazione
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
 Oppure
 <li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Prodotti aggiuntivi</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Licenza flusso di lavoro Adobe</p></td> 
    <td><p>Standard</p>
@@ -98,24 +95,26 @@ Oppure
       <p>Autorizzazioni dell’editor per lo spazio ideazione per creare resoconti</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
-   <li>GenStudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Considerazioni sull’utilizzo dello spazio Ideazione per creare record
 
-* È possibile avviare lo spazio di ideazione solo da Workfront Planning durante la creazione o la modifica di record. Lo spazio di ideazione non esiste al di fuori di Workfront Planning.
+* Durante la creazione o la modifica di record, è possibile avviare lo spazio di ideazione solo da Workfront Planning o dal menu principale di Workfront. Lo spazio ideazione non esiste al di fuori di Workfront.
 * Per accedere allo spazio di ideazione, è necessario disporre di un&#39;area di lavoro e di un tipo di record in Workfront Planning.
 * I nuovi record iniziano sempre con il contenuto segnaposto, indipendentemente dalla modalità di creazione.
 * Quando si elimina un record di Planning collegato a una descrizione breve dell&#39;ideazione, la descrizione rimane nello spazio dell&#39;ideazione e l&#39;area di lavoro associata nello spazio dell&#39;ideazione non viene eliminata.
@@ -151,7 +150,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    Il record viene creato immediatamente con il testo segnaposto.
 
-1. (Facoltativo) Fare clic su **Utilizza descrizione esistente** nella casella di richiesta per sfogliare e aggiungere un documento esistente che verrà utilizzato dallo spazio ideazione per creare la descrizione e il record futuro.
+1. (Facoltativo) Fare clic su **Utilizza descrizione esistente** nella casella di richiesta per sfogliare e aggiungere un documento esistente che verrà utilizzato dallo spazio ideazione per creare la descrizione e il record futuro. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![Prompt breve per ideazione vuoto](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ Non è possibile modificare in blocco i record nello spazio ideazione.
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

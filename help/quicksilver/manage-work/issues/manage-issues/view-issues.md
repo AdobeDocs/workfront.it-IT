@@ -11,25 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/F8JANtG9rzY6b-hLFTPQ28p8CVrsb3-lF-b97G4OnII
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: e793fdc87c17e777ce811b53b5f7bdb19b5cedf3
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: '992'
 ht-degree: 4%
-
 ---
-
 # Visualizzare problemi
 
 <!--Audited: 10/2025-->
@@ -105,11 +112,18 @@ Per visualizzare i problemi relativi a un progetto, un&#39;attività o un&#39;it
 
 1. Apri un progetto, un&#39;attività o un&#39;iterazione che contiene problemi, quindi fai clic su **Problemi** nel pannello a sinistra.
 
-1. Per visualizzare tutti i problemi, aperti o chiusi, fai clic su uno dei filtri elencati di seguito dal menu a discesa **Filtro**.
+   >[!NOTE]
+   >
+   >Il numero accanto al collegamento della sezione Problemi rappresenta il numero di problemi aperti (non risolti) elencati nella sezione.
 
->[!TIP]
->
->L’elenco dei filtri varia a seconda dell’opzione selezionata dall’amministratore di sistema o di gruppo per visualizzarlo.
+
+1. Per visualizzare i problemi aperti o chiusi, fai clic su uno dei filtri elencati di seguito dal menu a discesa **Filtro**.
+
+   >[!TIP]
+   >
+   >L’elenco dei filtri varia a seconda dell’opzione selezionata dall’amministratore di sistema o di gruppo per visualizzarlo.
+   >
+   >Se non si applica alcun filtro all’elenco dei problemi, vengono visualizzati tutti i problemi, indipendentemente dal loro stato.
 
 * **Apri:** visualizza i problemi aperti.
 
@@ -117,8 +131,8 @@ Per visualizzare i problemi relativi a un progetto, un&#39;attività o un&#39;it
 
   Per informazioni sulla risoluzione di oggetti, vedere [Panoramica sulla risoluzione e la risoluzione di oggetti](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-* **Completato:** visualizza tutti i problemi con una data di completamento effettiva.
-* **Tutti** visualizza tutti i problemi.
+* **Completo:** visualizza tutti i problemi con data di completamento effettiva.
+
 
 ## Informazioni sui problemi
 
@@ -143,11 +157,11 @@ Per accedere a un problema e visualizzarne le informazioni:
 
 * **Aggiornamenti**: è possibile eseguire le azioni seguenti:
 
-   * Commenta il problema o rispondi a un commento esistente.
-   * Tempo di connessione.
-   * Modifica lo stato del problema.
+  * Commenta il problema o rispondi a un commento esistente.
+  * Tempo di connessione.
+  * Modifica lo stato del problema.
 
-     Per ulteriori informazioni sull&#39;aggiornamento del lavoro in Workfront, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    Per ulteriori informazioni sull&#39;aggiornamento del lavoro in Workfront, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documenti**: allega documenti al problema. Per ulteriori informazioni sull&#39;aggiunta di documenti a Workfront, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -157,32 +171,32 @@ Per accedere a un problema e visualizzarne le informazioni:
 
   Visualizza o modifica i campi seguenti nell&#39;area **Panoramica**:
 
-   * **Nome**
-   * **Percorso**: il percorso attraverso il quale il problema è stato registrato nel progetto.
+  * **Nome**
+  * **Percorso**: il percorso attraverso il quale il problema è stato registrato nel progetto.
 
-     Se un problema è stato inviato come richiesta in una coda di richieste, qui sono elencati i nomi del progetto, il Gruppo di argomenti e l’Argomento coda. Impossibile modificare questo campo.
+    Se un problema è stato inviato come richiesta in una coda di richieste, qui sono elencati i nomi del progetto, il Gruppo di argomenti e l’Argomento coda. Impossibile modificare questo campo.
 
-     Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+    Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **Descrizione**
-   * **URL**: qualsiasi indirizzo Web relativo al problema.
-   * **Priorità**: un flag visivo che consente di assegnare la priorità ai problemi.
-   * **Gravità**: un flag visivo che indica la gravità del problema descritto nel problema.
-   * **Contatto principale**: il contatto principale predefinito è l&#39;utente che ha creato il problema. Questo campo può essere modificato.
-   * **Ore pianificate**: visualizza la quantità di tempo che un utente impiegherà per completare il problema. Il valore predefinito è 8 ore. Questo campo può essere modificato.
-   * **Ore effettive**: visualizza il tempo necessario per completare il problema. Questa è l&#39;ora effettiva in cui qualcuno registra il problema.
-   * **Data inizio pianificata**: la data in cui è pianificato l&#39;inizio del problema. L’impostazione predefinita è la data e l’ora di creazione del problema.
-   * **Data di inizio effettiva**: la data e l&#39;ora in cui lo stato del problema è stato modificato in In corso.
-   * **Data di completamento pianificata**: la data in cui è pianificato il completamento del problema.
-   * **Data di completamento effettiva**: la data in cui il problema è stato effettivamente completato. Questo campo viene compilato automaticamente quando lo stato del problema diventa Chiuso o Risolto, oppure può essere modificato manualmente.
-   * **Costo effettivo**: il costo basato sulle ore effettive registrate sul problema. Campo non modificabile. Il costo effettivo di un problema viene calcolato in base alla formula seguente, in cui Tasso costo utente è la tariffa di costo associata all&#39;utente che registra il tempo al problema:
+  * **Descrizione**
+  * **URL**: qualsiasi indirizzo Web relativo al problema.
+  * **Priorità**: un flag visivo che consente di assegnare la priorità ai problemi.
+  * **Gravità**: un flag visivo che indica la gravità del problema descritto nel problema.
+  * **Contatto principale**: il contatto principale predefinito è l&#39;utente che ha creato il problema. Questo campo può essere modificato.
+  * **Ore pianificate**: visualizza la quantità di tempo che un utente impiegherà per completare il problema. Il valore predefinito è 8 ore. Questo campo può essere modificato.
+  * **Ore effettive**: visualizza il tempo necessario per completare il problema. Questa è l&#39;ora effettiva in cui qualcuno registra il problema.
+  * **Data inizio pianificata**: la data in cui è pianificato l&#39;inizio del problema. L’impostazione predefinita è la data e l’ora di creazione del problema.
+  * **Data di inizio effettiva**: la data e l&#39;ora in cui lo stato del problema è stato modificato in In corso.
+  * **Data di completamento pianificata**: la data in cui è pianificato il completamento del problema.
+  * **Data di completamento effettiva**: la data in cui il problema è stato effettivamente completato. Questo campo viene compilato automaticamente quando lo stato del problema diventa Chiuso o Risolto, oppure può essere modificato manualmente.
+  * **Costo effettivo**: il costo basato sulle ore effettive registrate sul problema. Campo non modificabile. Il costo effettivo di un problema viene calcolato in base alla formula seguente, in cui Tasso costo utente è la tariffa di costo associata all&#39;utente che registra il tempo al problema:
 
-     Costo effettivo problema = Ore registrate * Tasso costo utente
+    Costo effettivo problema = Ore registrate * Tasso costo utente
 
-   * **Inserito da**: l&#39;utente che ha creato il problema. Campo non modificabile.
-   * **Ultimo aggiornamento eseguito da**: questo è l&#39;utente che ha aggiornato per ultimo qualsiasi campo del problema. Campo non modificabile.
+  * **Inserito da**: l&#39;utente che ha creato il problema. Campo non modificabile.
+  * **Ultimo aggiornamento eseguito da**: questo è l&#39;utente che ha aggiornato per ultimo qualsiasi campo del problema. Campo non modificabile.
 
-     Nell&#39;area **Forms** personalizzato, visualizzazione di uno o più moduli personalizzati da associare al problema.
+    Nell&#39;area **Forms** personalizzato, visualizzazione di uno o più moduli personalizzati da associare al problema.
 
 * **Ore**: mostra un elenco delle ore inserite nel problema.
 * **Approvazioni:** mostra i percorsi di approvazione associati al problema.
