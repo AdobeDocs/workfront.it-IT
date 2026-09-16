@@ -154,7 +154,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Prompt breve per ideazione vuoto](assets/empty-ideation-prompt.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona ![Apri tele precedenti **<!--accurate??--> {icona Apri slip esistenti](assets/open-existing-briefs-icon.png) nell&#39;angolo superiore destro della casella del prompt, per aprire gli slip esistenti**
+1. (Facoltativo) Fai clic sull&#39;icona !&lbrack;Apri tele precedenti **<!--accurate??--> &lbrace;icona Apri slip esistenti&rbrack;(assets/open-existing-briefs-icon.png) nell&#39;angolo superiore destro della casella del prompt, per aprire gli slip esistenti**
 
 1. In **Su cosa stai lavorando?** , descrivere il tipo di record che si desidera creare.
 
