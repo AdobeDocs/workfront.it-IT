@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 34%
+source-wordcount: '1022'
+ht-degree: 40%
 ---
 # Riferimento filtro rapporto per dashboard Canvas
 
@@ -212,26 +212,29 @@ Le relazioni disponibili per colonne aggiuntive, opzioni di filtro e attributi d
 
 Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabella viene visualizzata una riga per ogni record figlio connesso all&#39;oggetto padre.
 
+<!--
 <div class="preview">
 
-## Filtrare le relazioni tra raccolte in Anteprima
+## Filter on collection relationships in Preview
 
-Una raccolta è un campo che si collega a un gruppo di record correlati anziché a un singolo record. Ad esempio, i partecipanti nelle fasi di approvazione di un progetto sono una raccolta. Quando crei un filtro, puoi filtrare direttamente le raccolte senza passare alla modalità testo.
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-Per filtrare in base a una raccolta, apri il pannello Seleziona un campo, quindi seleziona Raccolte. In questa sezione sono elencate solo le relazioni tra insiemi. Le relazioni con record singoli rimangono sotto Relazioni.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![relazioni tra raccolte](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-Dopo aver selezionato una raccolta, puoi effettuare due operazioni:
+After you select a collection, you can do two things:
 
-* Filtra i campi della raccolta. Ad esempio, puoi filtrare lo stato di un progetto dai progetti di un portfolio.
-* Segui una relazione a record singolo dall’insieme. Ad esempio, dai progetti di un portfolio, puoi raggiungere il proprietario del progetto.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-Le raccolte non supportano una navigazione più approfondita. Non puoi aprire una raccolta nidificata all’interno di un’altra raccolta, seguire più di una relazione o selezionare la relazione che porta al punto in cui hai iniziato.
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-La sezione Raccolte viene visualizzata solo quando si crea un filtro. Non viene visualizzato in altri selettori di campi, ad esempio quelli per colonne di tabella, raggruppamenti o campi grafico.
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## Escludi progetti personali, attività e utenti bot
 
