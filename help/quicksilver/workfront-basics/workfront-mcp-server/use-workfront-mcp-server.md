@@ -5,13 +5,12 @@ title: Utilizzare il server MCP di Adobe Workfront
 description: Utilizza il server MCP di Adobe Workfront per cercare, creare, aggiornare e gestire elementi Workfront tramite conversazioni in linguaggio naturale in una piattaforma di intelligenza artificiale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare il server MCP di Adobe Workfront
 
@@ -138,6 +137,12 @@ Per forzare la piattaforma dell’agente di intelligenza artificiale a recuperar
 
 * *Scarica i dati più recenti da Workfront. Non utilizzare i risultati memorizzati nella cache.*
 
+### I dati di Insights sono quasi in tempo reale, non istantanei
+
+Gli strumenti Insights utilizzati per trovare, filtrare e generare rapporti sui dati di Workfront riflettono le modifiche quasi in tempo reale, con un service level agreement (SLA) di circa 15 minuti. Se apporti una modifica in Workfront e chiedi immediatamente informazioni al riguardo, la risposta potrebbe non riflettere tale modifica.
+
+Se devi confermare una modifica molto recente, attendi qualche minuto e chiedi di nuovo, oppure controlla direttamente in Workfront.
+
 ### Verifica la disponibilità di aggiornamenti per il server Workfront MCP
 
 È possibile aggiornare periodicamente la connessione al server Workfront MCP per assicurarsi di disporre degli strumenti e delle funzionalità più recenti.
@@ -167,6 +172,7 @@ Workfront non ha il controllo sul modo in cui il provider della piattaforma di g
 | Problema | Probabile causa | Correggi |
 | --- | --- | --- |
 | La piattaforma dell’agente di intelligenza artificiale fornisce informazioni obsolete. | La piattaforma dell’agente di intelligenza artificiale sta riutilizzando i dati di precedenti momenti della conversazione. | Richiedi nuovi dati da Workfront. |
+| I dati che hai appena modificato in Workfront non vengono ancora visualizzati. | I dati di Insights sono quasi in tempo reale, con un SLA di circa 15 minuti. | Attendi alcuni minuti e chiedi di nuovo, oppure controlla direttamente in Workfront. |
 | La piattaforma dell’agente di intelligenza artificiale ha restituito dati dagli elementi Workfront errati. | La piattaforma dell’agente di intelligenza artificiale ha scelto gli elementi errati in base a una formulazione ambigua. | Chiedi di nuovo con nomi, ID o filtri più specifici. |
 | Un aggiornamento o una cancellazione non ha avuto effetto in Workfront. | L&#39;amministratore di Workfront ha disabilitato le azioni di scrittura per il server Workfront MCP oppure non si dispone dell&#39;autorizzazione per eseguire l&#39;azione sull&#39;elemento specifico. | Conferma con la piattaforma dell’agente di intelligenza artificiale l’esecuzione dell’azione. Verificare quindi che le azioni di scrittura siano abilitate per il server Workfront MCP e di disporre dell&#39;autorizzazione per modificare l&#39;elemento. |
 
