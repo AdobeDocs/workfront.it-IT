@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 11%
-
 ---
-
 # Generare un rapporto KPI in una dashboard dell’area di lavoro
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
    1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output KPI. Le opzioni in questo campo variano a seconda del tipo di campo selezionato nel passaggio precedente.
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png), quindi configura le condizioni che determinano quali dati visualizzare.
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png).
-
-   1. Selezionare **Modifica filtro**.
-
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
-
-   1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
-
-      Per ulteriori informazioni sui filtri, vedere [Modificare i filtri dei report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+   Per ulteriori informazioni, vedere [Filtrare un report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
 
@@ -141,11 +137,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
    1. Fare clic su **Aggiungi colonna** e quindi selezionare il campo che si desidera visualizzare come colonna nella tabella. Ripetere questo processo per ogni colonna che si desidera aggiungere.
 
-1. Segui i passaggi seguenti per configurare la sezione **Impostazioni gruppo di espansione**:
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo di espansione** ![Icona gruppo di espansione](assets/drilldown-group-icon.png), quindi aggiungi i raggruppamenti per la tabella di espansione.
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo** ![Icona gruppo di espansione](assets/drilldown-group-icon.png).
-
-   1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento.
+   Per ulteriori informazioni, vedere [Configurare i raggruppamenti di espansione nei report grafico e KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) in [Raggruppare i dati dei report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
 

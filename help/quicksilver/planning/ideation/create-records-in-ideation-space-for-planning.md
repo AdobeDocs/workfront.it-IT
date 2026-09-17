@@ -3,7 +3,7 @@ title: Creazione di record di pianificazione dalle descrizioni dello spazio idea
 description: Utilizzando Ideation Space, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning. I resoconti esportati creano nuovi record o aggiornano quelli esistenti. In questo articolo viene descritto come creare o modificare i record di Planning esistenti utilizzando lo spazio ideazione.
 role: User, Admin
 author: Alina
-source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -224,7 +224,7 @@ Non è possibile modificare in blocco i record nello spazio ideazione.
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
