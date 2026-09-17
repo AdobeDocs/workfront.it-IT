@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '988'
 ht-degree: 6%
 ---
 # Panoramica dell’Assistente IA di pianificazione di Adobe Workfront
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 6%
 È possibile utilizzare l&#39;Assistente AI per apportare modifiche o aggiornamenti ai record e ad altri oggetti in Adobe Workfront Planning in base al contesto della pagina corrente.
 
 I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA collaborano per garantire che le modifiche apportate dall’IA vengano riflesse accuratamente nell’ambiente.
+
+>[!IMPORTANT]
+>
+><span class="preview">In alcune organizzazioni, l&#39;Assistente AI è stato sostituito da CX Coworker. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Requisiti di accesso
 
@@ -111,7 +115,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
   Per informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-* Dopo che Workfront ha abilitato l’agente per la tua organizzazione, questo sarà disponibile per l’amministratore Workfront principale. Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Dopo che Workfront ha abilitato l’agente per la tua organizzazione, questo sarà disponibile per l’amministratore Workfront principale. Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’amministratore di Workfront deve abilitare l’Assistente AI per tutti gli altri utenti. Per ulteriori informazioni, consulta [Abilitare o disabilitare l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -150,12 +154,17 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 ## Individuare l&#39;Assistente IA in Workfront Planning
 
+>[!NOTE]
+>
+><span class="preview">Se l&#39;organizzazione ha ricevuto l&#39;accesso a CX Coworker, l&#39;individuazione di CX Coworker è simile all&#39;individuazione dell&#39;Assistente AI. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+
+
 È possibile individuare l&#39;Assistente AI nelle seguenti aree di Workfront Planning:
 
 * La barra di navigazione principale, nell’angolo superiore destro dello schermo.
 * All&#39;interno dell&#39;area dei dettagli di un record, dopo aver aperto il record nell&#39;anteprima o dopo aver aperto la pagina del record.
 
-## Accedere all’Assistente AI nell’area Pianificazione
+### Accedere all’Assistente AI nell’area Pianificazione
 
 1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) in alto a sinistra, quindi fai clic su **Planning**.
 
