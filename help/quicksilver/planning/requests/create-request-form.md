@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 2%
@@ -205,12 +205,12 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
-   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto.
+   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
-   >     
+   >Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
+
 1. (Facoltativo) Fare clic con il pulsante lungo del mouse su un campo, trascinarlo e rilasciarlo in un&#39;altra posizione del modulo.
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 
