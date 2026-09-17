@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -15,7 +15,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -219,7 +219,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Assegna collaboratori attività IA alle attività in Workfront&lt;/a>
     &lt;p>I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività per completare il lavoro a livello di attività.&lt;/p>
     &lt;/td>
-    &lt;td>&lt;p>32>&lbrace;2> 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>32>{2> 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -477,7 +477,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Aggiornamento della terminologia di approvazione&lt;/Dashboards pianificazione&rbrack;{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Aggiornamento della terminologia di approvazione&lt;/Dashboards pianificazione]{type=Neutral}&lt;/p>
     &lt;p>Diversi nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -620,14 +620,18 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 
 ## Aggiornamenti del visualizzatore di bozza desktop
 
-### Versione 2.1.59
+### Versione 2.2.1
 
-Versione di produzione per tutti i clienti: 9 settembre 2026
+Versione di produzione per tutti i clienti: 16 settembre 2026
 
-Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.59. Questo aggiornamento include le seguenti modifiche:
+Il Visualizzatore bozze per sistemi desktop è stato aggiornato alla versione 2.2.1. Questo aggiornamento include le seguenti modifiche:
 
-* Il Visualizzatore bozze desktop è ora disponibile come build nativa per Mac con silicio Apple.
-* Il framework dell’applicazione sottostante (Electron) è stato aggiornato a una versione più recente, che offre miglioramenti a livello di prestazioni e sicurezza.
+* Ora è possibile aprire le bozze da qualsiasi ambiente (Produzione, Anteprima, Sandbox e altri) nello stesso visualizzatore, senza reinstallare quando si passa a un altro ambiente.
+* È stato risolto un problema relativo all’apertura delle bozze da un URL in aree geografiche non USA.
+* Il visualizzatore ora conserva le 10 bozze più recenti.
+* Il logo Workfront è stato aggiornato al branding corrente.
+* Sono stati aggiunti ulteriori dettagli alla schermata Informazioni su Workfront Proof per accelerare la risoluzione dei problemi.
+* È stato aggiornato il framework sottostante (Electron) per migliorare le prestazioni e la sicurezza.
 
 Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
@@ -641,7 +645,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
