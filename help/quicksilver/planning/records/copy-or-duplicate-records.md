@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 3%
-
+source-wordcount: '714'
+ht-degree: 2%
 ---
-
 # Duplicare i record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -178,6 +182,11 @@ Old:
      ![Icona duplicata nella barra degli strumenti nella vista tabella](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Sotto il record originale viene creato un record identico con lo stesso nome. Tutti i campi del nuovo record vengono compilati con le stesse informazioni del record originale.
+
+1. (Condizionale) Se il record che si sta duplicando è connesso a un record di un tipo di connessione Da uno a uno o Da uno a molti, fare clic su una delle opzioni seguenti, a seconda dell&#39;ambiente in uso:
+
+   * Nell&#39;ambiente di produzione, fare clic su **Connetti** per rimuovere il record connesso dall&#39;originale e aggiungerlo al record duplicato oppure fare clic su **Annulla** se non si desidera continuare a duplicare il record.
+   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic su **Connetti al nuovo record** se si desidera spostare il record connesso nel nuovo record oppure fare clic su **Mantieni sull&#39;originale** se si desidera che il record connesso rimanga sull&#39;originale. Il record duplicato non avrà un record connesso in quel campo.</span>
 
 1. (Facoltativo) Iniziare ad aggiornare le informazioni sul nuovo record nei campi disponibili nella visualizzazione tabella oppure fare clic sul record e aggiornare le informazioni nell&#39;anteprima o nella pagina del record.
 
