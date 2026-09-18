@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 2%
-
 ---
-
 # Creare e gestire un modulo di richiesta in Pianificazione di Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -199,12 +205,12 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
-   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto.
+   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
-   >     
+   >Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
+
 1. (Facoltativo) Fare clic con il pulsante lungo del mouse su un campo, trascinarlo e rilasciarlo in un&#39;altra posizione del modulo.
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 
@@ -237,6 +243,7 @@ Quando aggiungi regole di approvazione, tieni presente quanto segue:
 * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
 * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
 * Se un team è impostato come approvatore, è necessaria una sola decisione del team.
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -255,11 +262,13 @@ Per configurare le impostazioni del modulo:
 
    ![Area regola di approvazione predefinita](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Facoltativo) Per ogni regola di approvazione aggiuntiva, effettua le seguenti operazioni:
 
-   1. Fai clic su **Aggiungi regola di approvazione**
+   1. Fai clic su **Aggiungi regola di approvazione**.
    1. Fai clic sul titolo del segnaposto &quot;Regola di approvazione senza titolo&quot; e immetti un nome per la regola di approvazione.
    1. Fai clic su **Seleziona un campo** e seleziona il campo che attiva la regola.
    1. Seleziona l’operatore per la regola. Gli operatori variano in base al tipo di campo.
@@ -267,6 +276,8 @@ Per configurare le impostazioni del modulo:
    1. (Facoltativo) Aggiungi altre condizioni utilizzando AND o OR facendo clic su Aggiungi condizione e configurando la condizione aggiuntiva.
    1. Nell&#39;area Azioni della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
    1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (Facoltativo) Per riordinare le regole di routing, fare clic sulla maniglia di trascinamento sul lato sinistro della regola e trascinare la regola nella posizione desiderata.
 

@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 'Documentare una nuova funzione di Workfront per una versione futura: identificare gli articoli interessati dalla guida, scegliere lo snippet di anteprima corretto, contrassegnare i nuovi contenuti con l’evidenziazione di anteprima (per sezione o per riga, a seconda dell’articolo) e rendere visibili i dettagli a livello di interfaccia utente borderline come prompt di approvazione/rifiuto espliciti prima di applicare le modifiche. Da utilizzare quando l’utente aggiorna gli articoli della guida di Workfront relativi a una funzione in fase di spedizione (in genere, prima l’anteprima), menziona un PRD o una versione in arrivo, chiede informazioni sull’evidenziazione dell’anteprima o desidera ricevere aiuto per aggiungere sezioni "in Anteprima"/"in produzione" agli articoli di spiegazione o di panoramica.'---
 
 # Aggiornamento per versione (Workfront)
 
@@ -94,9 +87,9 @@ Per ogni articolo nell’elenco confermato dall’utente:
 
    Per ogni elemento &quot;in revisione&quot;, fornisci una motivazione di una frase (&quot;Aiuta i principianti a pianificare un messaggio più lungo&quot;, &quot;Aiuta gli utenti che non lo vedono in fasi successive a saperlo espandere&quot;). Includi solo gli elementi scelti dall&#39;utente. Il principio predefinito è &quot;se l’utente può visualizzarlo sullo schermo mentre sta eseguendo l’attività, non ripeterla&quot;, ma l’utente riceve la chiamata finale.
 
-   **Quando si redigono le frasi effettive** per uno dei bucket, applicare `~/.cursor/skills/writing-quality/SKILL.md` regole di voce e tono durante la scrittura, ovvero una descrizione di un campo o di un comportamento normale, non una voce del registro delle modifiche (&quot;è stata rimossa&quot;, &quot;è stata aggiunta&quot;) e non aggiornare un&#39;istruzione invariata solo per allegarvi una nota di anteprima. Sformarlo correttamente la prima volta invece di fissare il tono in un passaggio successivo.
+   **Prima di redigere le frasi effettive** per entrambi i bucket, **richiamare l&#39;abilità `writing-quality` (strumento abilità)** e applicarne le regole di voce e tono durante la scrittura, una descrizione di campo e comportamento semplice, non una voce del registro delle modifiche (&quot;è stata rimossa&quot;, &quot;è stata aggiunta&quot;), e non aggiornare un&#39;istruzione invariata solo per allegare una nota di anteprima. Sformarlo correttamente la prima volta invece di fissare il tono in un passaggio successivo.
 
-5. **Eseguire un passaggio finale di qualità di scrittura** sul testo scritto prima di visualizzarlo. Questa è una rete di sicurezza, non è la prima volta che queste regole si applicano — prendere qualsiasi cosa di passaggio 4 mancato (ridondanza, tono, la voce non combacia con le righe circostanti).
+5. **Esegui l&#39;abilità `writing-quality` (strumento abilità) come passaggio finale** sulla bozza di testo prima di visualizzarla, obbligatorio per ogni articolo, non facoltativo. Rileva di nuovo qualsiasi cosa che non sia stata superata al punto 4 (ridondanza, tono, mancata corrispondenza vocale con le righe circostanti).
 
 6. **Modifiche proposte.** Mostra gli estratti prima/dopo (o una descrizione mirata in stile diff) dell&#39;articolo, inclusi: posizionamento degli snippet, ridenominazioni delle intestazioni, nuovo contenuto in-Preview e dove si trova, riferimento della schermata ed eventuali wrapping in linea di `class="preview"`.
 
@@ -217,12 +210,18 @@ Esegui questa lista di controllo completa per **ogni** articolo nella sessione, 
 - Duplicazioni per riga: il `<tr>` originale è byte per byte invariato; il nuovo `<tr class="preview">` ha entrambe le celle racchiuse in `<span class="preview">`; l&#39;etichetta è una nuova etichetta breve + minuscola &quot;in anteprima&quot; (non l&#39;etichetta originale + &quot;(in Anteprima)&quot;); qualsiasi nota supplementare utilizza `<br>` + `Note:` in linea, non un `<p>` nidificato.
 - Se lo stesso campo viene visualizzato in più varianti di procedura (Basic/Advanced, legacy/ESM), il testo di ogni nuova riga corrisponde al comportamento effettivo della variante, anziché essere copiato e incollato da un&#39;altra variante.
 - La nuova prosa contrassegnata da anteprima è simile a una descrizione di campo o comportamento semplice, non a una voce del registro delle modifiche e non aggiorna in modo ridondante un&#39;istruzione invariata.
+- L&#39;abilità `writing-quality` è stata richiamata nella bozza di prosa di questo articolo (entrambi i bucket).
 - `ReadLints` è pulito nel file modificato.
 - L’articolo viene letto correttamente in entrambi gli stati (con il contenuto di anteprima mostrato e nascosto).
 
 ## Riferimenti
 
-- Stile della documentazione di Workfront: vedi l&#39;abilità **write-quality** in `~/.cursor/skills/writing-quality/SKILL.md`.
+- Stile della documentazione di Workfront: **richiama l&#39;abilità `writing-quality`** tramite lo strumento abilità (origine: `.cursor/skills/writing-quality/`).
 - Catalogo snippet: `help/_includes/snippets.md` nell&#39;archivio documenti.
 - Pulizia GA (flusso di lavoro inverso): consulta l&#39;abilità **remove-preview-highlighting** in `.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP per PRD: server `user-Adobe Wiki Confluence`, strumento `get_wiki_content`.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---
