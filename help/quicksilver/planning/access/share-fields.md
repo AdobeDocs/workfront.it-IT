@@ -5,21 +5,20 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 3%
+source-wordcount: '1335'
+ht-degree: 2%
 ---
 
 # Condividere i campi di Workfront Planning
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 È possibile condividere il campo di un record di Workfront Planning con altri utenti per garantire la collaborazione quando si utilizza Adobe Workfront Planning.
 
@@ -87,9 +86,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * L’accesso a un campo proviene dalla combinazione delle seguenti impostazioni:
 
   * **Autorizzazioni ereditate**: per impostazione predefinita, un campo eredita lo stesso accesso di un utente sul tipo di record. È possibile disattivare le autorizzazioni ereditate e concedere agli utenti un accesso al campo inferiore a quello di cui dispongono per il tipo di record.
-  * **Tutti nell&#39;area di lavoro possono visualizzare** o **Solo gli invitati possono accedere alla selezione**. Puoi consentire a tutti coloro che dispongono delle autorizzazioni per l’area di lavoro di visualizzare il campo o concedere le autorizzazioni solo a singole entità.
+  * **Tutti gli utenti con accesso al tipo di record possono visualizzare** o **Solo gli utenti invitati possono accedere alla selezione**. Puoi consentire a tutti coloro che dispongono delle autorizzazioni per l’area di lavoro di visualizzare il campo o concedere le autorizzazioni solo a singole entità.
 
   Se più regole si applicano alla stessa persona, questa riceve l’autorizzazione più elevata disponibile da una delle regole.
+
+* Per rendere un campo di sola visualizzazione per tutti gli utenti di un&#39;area di lavoro, verificare che sia presente la seguente configurazione:
+
+  * Disattiva le autorizzazioni ereditate
+  * Mantieni **Tutti gli utenti con accesso al tipo di record possono visualizzare** impostazione
+  * Non aggiungere singole entità.
 
 * A seconda delle autorizzazioni per il tipo di record, gli utenti possono ricevere le seguenti autorizzazioni per i campi:
 
@@ -158,7 +163,7 @@ In qualità di manager dell&#39;area di lavoro, puoi modificare le autorizzazion
 
    Viene visualizzata la casella **Condividi**.
 
-1. (Facoltativo) Nell&#39;area **Concedi accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita. Tutti gli utenti con autorizzazioni **Visualizza** o superiori per l&#39;area di lavoro e il tipo di record dispongono delle stesse autorizzazioni per il campo.
+1. (Facoltativo) Nell&#39;area **Concedi l&#39;accesso**, l&#39;opzione **Tutti con accesso al tipo di record possono visualizzare** è selezionata per impostazione predefinita. Tutti gli utenti con autorizzazioni **Visualizza** o superiori per l&#39;area di lavoro e il tipo di record dispongono delle stesse autorizzazioni per il campo.
 
 1. (Facoltativo) Fai clic sugli avatar degli utenti nell&#39;opzione **Autorizzazioni ereditate da** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
 
@@ -177,6 +182,13 @@ In qualità di manager dell&#39;area di lavoro, puoi modificare le autorizzazion
       >[!TIP]
       >
       >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il campo.
+
+   1. (Facoltativo) Fai clic sul menu a discesa **Tutti coloro che hanno accesso al tipo di record possono visualizzare** e seleziona **Solo gli utenti invitati possono accedere**.
+
+      >[!IMPORTANT]
+      >
+      >Questa modifica, insieme alla disattivazione di **Autorizzazioni ereditate**, rimuove l&#39;accesso per tutte le persone che possono visualizzare il tipo di record e concedere l&#39;accesso solo alle persone designate. I manager e gli amministratori di Workspace avranno sempre accesso a tutti i campi.
+
 
    1. Nella casella **Concedi l&#39;accesso**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un livello di autorizzazione diverso da quello che hanno per l&#39;area di lavoro o il tipo di record.
 
