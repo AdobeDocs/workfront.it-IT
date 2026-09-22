@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 10%
-
+source-wordcount: '303'
+ht-degree: 9%
 ---
-
 # Configurare le impostazioni predefinite per le notifiche e-mail delle bozze
 
 Gli utenti che utilizzano la bozza in Adobe Workfront possono ricevere notifiche e-mail sia da Workfront che da Workfront Proof quando vengono presi commenti o decisioni sulla bozza. Se gli utenti ricevono già notifiche e-mail da Workfront Proof, ti consigliamo di disabilitare le notifiche inviate da Workfront per evitare di inviare e-mail di notifica duplicate.
@@ -68,9 +71,9 @@ Per configurare le impostazioni delle notifiche e-mail delle bozze inviate da Wo
 
 1. Espandi **E-mail**, quindi fai clic su **Revisione e approvazione**.
 
-1. Nella sezione **Proof Notifications in Workfront** (Notifiche bozze in), decidere se abilitare o disabilitare l&#39;opzione Invia e-mail da Workfront quando viene inserito un commento su una bozza.
+1. Nella sezione **Proof Notifications in Workfront** (Notifiche bozza in), decidere se abilitare o disabilitare l&#39;opzione **Send notifications from Workfront when a comment is made on a proof** (Invia notifiche da quando viene inserito un commento su una bozza).
 
-   * Quando questa impostazione è abilitata, gli utenti ricevono un’e-mail da Workfront quando viene inserito un commento su una bozza.
-   * Quando questa impostazione è disabilitata, gli utenti non ricevono un’e-mail da Workfront quando viene inserito un commento su una bozza.
+   * Quando questa impostazione è abilitata, gli utenti ricevono un’e-mail da Workfront quando viene inserito un commento su una bozza. Viene visualizzata anche una notifica in-app di Workfront.
+   * Quando questa impostazione è disabilitata, gli utenti non ricevono una notifica e-mail o in-app da Workfront quando viene aggiunto un commento alla bozza.
 
 1. Fai clic su **Salva**.
