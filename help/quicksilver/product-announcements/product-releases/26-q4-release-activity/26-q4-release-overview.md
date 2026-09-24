@@ -4,10 +4,10 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
 workflow-type: tm+mt
-source-wordcount: '2853'
-ht-degree: 7%
+source-wordcount: '2715'
+ht-degree: 9%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
 
@@ -15,7 +15,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -39,6 +39,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 * [Miglioramenti di Financial Management](#financial-management-enhancements)
 * [Miglioramenti ai progetti](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
+* [Miglioramenti alle richieste](#requests-enhancements)
 * [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
@@ -52,6 +53,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aggiungere URL di reindirizzamento autorizzati per le integrazioni MCP</a>
+                <p>Gli amministratori di Workfront ora possono mantenere un inserisco nell'elenco Consentiti di degli URL di callback OAuth attendibili, in modo che le piattaforme basate su IA personalizzate possano connettersi ai server MCP di Workfront.</p>
+            </td>
+            <td><p>22 settembre 2026</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -196,63 +206,62 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 15 ottobre 2026</p></td>
         </tr>
-
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nuovo strumento Search Users disponibile nel connettore MCP di Workfront&lt;/a>
-    &lt;p>Un nuovo strumento Search Users consente di trovare più rapidamente le persone nell&#39;istanza Workfront; sei strumenti di ricerca precedenti sono stati dichiarati obsoleti in favore di esso e degli strumenti di ricerca/ricerca esistenti.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>13 agosto, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Invia risorse a Adobe Experience Manager e aggiungi messaggi personalizzati per le approvazioni utilizzando il server MCP di Workfront in una cartella collegata ad AEM e richiedere l’approvazione del documento con un messaggio personalizzato.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>12 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>12 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>12 agosto, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Assegna collaboratori attività IA alle attività in Workfront&lt;/a>
-    &lt;p>I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività per completare il lavoro a livello di attività.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>32>&lbrace;2> 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nuovi strumenti di approvazione disponibili nel connettore MCP di Workfront&lt;/a>
-    &lt;p>Per espandere le funzionalità dei percorsi di supporto Workfront aggiunti e gestire il connettore MCP esteso, abbiamo approvato percorsi di approvazione.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>30 luglio 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Strumenti per schede disponibili nel connettore MCP Workfront&lt;/a>
-    &lt;p>Per espandere le funzionalità del connettore MCP Workfront, sono stati aggiunti strumenti per l&#39;utilizzo di schede, schede, voci di elenchi di controllo e colonne.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>30 luglio 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Nuovo strumento di feedback delle condivisioni disponibile nel connettore Workfront MCP&lt;/a>
-    &lt;p>Un nuovo strumento di feedback delle condivisioni consente di segnalare il sentiment e Workfront migliorato.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>3 settembre 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>17 settembre 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
-
-    
-    </table>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Nuovo strumento per gli utenti di ricerca disponibile nel connettore MCP di Workfront</a>
+                <p>Un nuovo strumento Cerca utenti consente di trovare più rapidamente le persone nell’istanza di Workfront; sei strumenti di ricerca precedenti sono stati dichiarati obsoleti, mentre gli strumenti di ricerca/ricerca esistenti lo sono.</p>
+            </td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Invia risorse a Adobe Experience Manager e aggiungi messaggi personalizzati per le approvazioni tramite il server MCP di Workfront</a>
+                <p>I nuovi strumenti del connettore MCP ti consentono di inviare documenti a una cartella collegata ad AEM e richiedere l’approvazione dei documenti con un messaggio personalizzato.</p>
+            </td>
+            <td><p>12 agosto 2026</p></td>
+            <td><p>12 agosto 2026</p></td>
+            <td><p>12 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assegna collaboratori attività IA alle attività in Workfront</a>
+                <p>I collaboratori attività sono collaboratori IA che possono essere assegnati direttamente alle attività per completare il lavoro a livello di attività.</p>
+            </td>
+            <td><p>31 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Nuovi strumenti di approvazione disponibili nel connettore MCP di Workfront</a>
+                <p>Per espandere le funzionalità del connettore MCP di Workfront, sono stati aggiunti nuovi strumenti per gestire i percorsi di approvazione e sono stati estesi gli strumenti esistenti per supportare i percorsi di approvazione paralleli.</p>
+            </td>
+            <td><p>30 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Strumenti della scheda disponibili nel connettore MCP di Workfront</a>
+                <p>Per espandere le funzionalità del connettore MCP di Workfront, sono stati aggiunti strumenti per l'utilizzo di schede, schede, voci di elenchi di controllo e colonne.</p>
+            </td>
+            <td><p>30 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Nuovo strumento di feedback delle condivisioni disponibile nel connettore MCP di Workfront</a>
+                <p>Un nuovo strumento Share Feedback (Condividi feedback) consente di segnalare il sentiment e ciò che è successo durante la conversazione, in modo da migliorare gli strumenti MCP di Workfront.</p>
+            </td>
+            <td><p>3 settembre 2026</p></td>
+            <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Miglioramenti ai documenti
 
@@ -265,6 +274,17 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>[DATE]</p></td>
+            <td><p>[DATE]</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accesso completo agli amministratori di sistema ai modelli di approvazione</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -456,6 +476,17 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
+                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copia dashboard nei dashboard di Canvas</a>
@@ -465,63 +496,96 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>17 settembre 2026</p></td>
             <td><p>15 ottobre 2026</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Campo Tipo di approvazione nei dashboard di Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>L’entità Approvazione ora include un campo Tipo di approvazione che consente agli utenti di distinguere tra approvazioni di bozze, approvazioni di versioni di documenti, approvazioni di accettazione e altri tipi di approvazione.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Aggiornamento della terminologia di approvazione nei dashboard di Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Diversi nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>N/D</p></td>
+            <td><p>28 agosto 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Rapporti di tabella pivot nei dashboard di Canvas</a>
+                <p>Il nuovo tipo di rapporto per tabella pivot nei dashboard di Canvas aggrega i dati con aggregazioni precise e complete, con un drill-down nei record sottostanti.</p>
+            </td>
+            <td><p>27 agosto 2026</p></td>
+            <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Applicazione delle date di fine per i report pianificati</a>
+                <p>I rapporti pianificati ora richiedono una data di fine per impedire la consegna indefinita, con disattivazione automatica una volta superata la data di fine di una pianificazione.</p>
+            </td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>17 settembre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">I campi di riferimento nativi sono disponibili per elenchi e report</a>
+                <p>È ora possibile aggiungere campi di riferimento nativi a elenchi e rapporti in Workfront.</p>
+            </td>
+            <td><p>30 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Ordinamento coerente per valori di campi a selezione multipla negli elenchi e nei report legacy</a>
+                <p>Le opzioni selezionate per i campi personalizzati a selezione multipla ora vengono visualizzate in un ordine coerente e prevedibile negli elenchi e nei rapporti legacy.</p>
+            </td>
+            <td><p>30 luglio 2026</p></td>
+            <td><p>13 agosto 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Campo Tipo di approvazione nei dashboard di Canvas&lt;/a>&lt;p>[!BADGE Off schedule]{type=Neutral}&lt;/p>
-    &lt;p>L’entità Approvazione ora include un campo Tipo di approvazione, che consente agli utenti di distinguere tra approvazioni di bozze, approvazioni di versioni di documenti, approvazioni di accettazione e altre approvazioni tipi.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>28 agosto 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Aggiornamento della terminologia di approvazione&lt;/Dashboards pianificazione&rbrack;{type=Neutral}&lt;/p>
-    &lt;p>Diversi nomi di campo utilizzati nei dashboard di Canvas per le approvazioni di documenti e lavori sono stati rinominati per maggiore chiarezza.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>28 agosto, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Rapporti di tabella pivot in dashboard di Canvas&lt;/a>
-    &lt;p>Il nuovo tipo di rapporto di tabella pivot in dashboard di Canvas aggrega i dati con aggregazioni precise e complete, con espansione in base ai record sottostanti.&lt;/p>
-    &lt;/td>
-     2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>L’applicazione delle date di fine per i rapporti pianificati&lt;/a>
-    &lt;p>I rapporti pianificati ora richiedono una data di fine per impedire la consegna indefinita, con la pianificazione della data di fine automatica passa.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>17 settembre 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Sono disponibili campi di riferimento nativi per elenchi e report&lt;/a>
-    &lt;p>Ora puoi aggiungere campi di riferimento nativi a elenchi e report in Workfront.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>30 luglio 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Ordinamento coerente per i valori dei campi a selezione multipla negli elenchi e nei report legacy&lt;/a>
-    &lt;p>Le opzioni selezionate per i campi personalizzati a selezione multipla ora vengono visualizzate in un ordine coerente e prevedibile negli elenchi e nei report legacy.&lt;/p>
-    &lt;/td>
-    &lt;td> 30, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13 agosto 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15 ottobre 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
+### Miglioramenti alle richieste
 
-    </table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
+                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">Compilazione modulo AI ora richiama i dati dai record a cui si fa riferimento con un collegamento</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Il riempimento di un modulo AI può ora recuperare i dati dei campi direttamente da un oggetto Workfront a cui fa riferimento il relativo collegamento e utilizzarli come contesto durante la compilazione di un modulo.</p>
+            </td>
+            <td><p>22 settembre 2026</p></td>
+            <td><p>22 settembre 2026</p></td>
+            <td><p>22 settembre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Miglioramenti alla gestione delle risorse
 
@@ -639,6 +703,31 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 ## Annunci
 
+### Obsolescenza dei campi di fatturazione e tariffa di costo legacy
+
+Nel tempo, abbiamo introdotto funzionalità avanzate di gestione dei tassi e esperienze di Ruolo dedicate che forniscono un approccio più completo e scalabile per mantenere le informazioni sui tassi. Di conseguenza, l’amministrazione dei tassi si sta spostando verso queste esperienze dedicate piuttosto che verso flussi di lavoro di gestione basati su elenchi.
+
+Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle viste elenco Utenti e mansioni, incluse le configurazioni Filtro/Vista/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
+
+In sostituzione nei report, è possibile utilizzare il codice della modalità testo consigliato (utilizzare `costRates` o `billingRates` in base alle esigenze):
+
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).LISTS
+    type=iterate
+    valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
+    valueformat=HTML
+
+Per gestire e rivedere i tassi, utilizza le esperienze di gestione dei tassi dedicate:
+
+* Accedere alle tariffe utente direttamente dal profilo utente.
+* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
+* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra utenti e mansioni.
+
+Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Utenti o Ruoli devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
+
+Per informazioni sulle mansioni e sulle percentuali degli utenti, vedere [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
 ### Fine dell’autenticazione tramite sola password per gli utenti del lettore Data Connect: 8 agosto 2026
 
 A partire dall’8 agosto 2026, gli utenti di Workfront Data Connect/lettore Snowflake che effettuano l’autenticazione con un accesso in sola password non funzioneranno più se non è stata abilitata l’autenticazione a più fattori (MFA). Non è possibile aggiungere MFA retroattivamente dopo questa data: se un utente lettore può decadere senza di essa, l’accesso può essere ripristinato solo creando un nuovo profilo utente.
@@ -647,7 +736,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
