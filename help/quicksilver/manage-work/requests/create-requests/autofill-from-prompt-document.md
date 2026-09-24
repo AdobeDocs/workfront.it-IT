@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 7%
-
+source-wordcount: '1764'
+ht-degree: 6%
 ---
-
 # Utilizzare Compilazione modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 
 >[!NOTE]
 >
 >Per utilizzare questa funzionalità, l’organizzazione deve soddisfare i requisiti per utilizzare l’Assistente di intelligenza artificiale di Workfront. Per informazioni dettagliate, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come e-mail o documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
+Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche compilare i campi in base alle seguenti informazioni aggiunte al prompt:
+
+* Un messaggio e-mail
+* Documenti caricati
+* Un collegamento a un progetto, un’attività o un problema.
+
+Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
 Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area Richieste Workfront, sia per le richieste di Workfront che per quelle di Workfront Planning.
 
@@ -155,6 +165,7 @@ Per utilizzare i suggerimenti basati su un prompt di testo incollato:
    >[!NOTE]
    >
    >Eventuali suggerimenti non rivisti verranno accettati automaticamente quando invii la richiesta.
+1. Fai clic su **Invia** per inviare la richiesta.
 
 ### Esempi di prompt di testo
 
@@ -342,6 +353,43 @@ Quando si carica un documento in AI Form Fill (Compila modulo IA), considera qua
    >[!NOTE]
    >
    >Eventuali suggerimenti non rivisti verranno accettati automaticamente quando invii la richiesta.
+1. Fai clic su **Invia** per inviare la richiesta.
+
+### Aggiungere un collegamento a un altro oggetto per compilare automaticamente una richiesta
+
+È possibile aggiungere un collegamento a un progetto, un&#39;attività o un problema esistente alla richiesta di applicazione all&#39;intero modulo o a una singola sezione del modulo.
+
+1. Passare a un progetto, attività o problema di cui si desidera includere le informazioni in una nuova richiesta e copiare negli Appunti il collegamento dell&#39;oggetto dalla riga dell&#39;indirizzo del browser.
+
+   Il progetto, l&#39;attività o il problema deve trovarsi nella stessa istanza di Workfront della richiesta.
+
+1. Inizia a creare una richiesta.
+
+   Per istruzioni, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Per applicare le informazioni di un oggetto collegato all&#39;intero modulo, fare clic sull&#39;icona **IA** ![IA](assets/request-prompt-icon.png) sotto il nome del modulo.
+
+   Oppure
+
+   Per applicare le informazioni dell&#39;oggetto collegato a una singola sezione, fare clic sull&#39;icona **IA** ![IA](assets/request-prompt-icon.png) accanto al nome della sezione.
+
+1. Inizia ad aggiungere il prompt, quindi incolla il collegamento copiato dal progetto, dall&#39;attività o dal problema nella finestra del prompt.
+1. (Condizionale) Fare clic su **Applica al modulo** o **Applica alla sezione**.
+1. Fai clic su **Compila il modulo** o **Compila la sezione**.
+
+   Workfront genera suggerimenti per il modulo.
+1. Per ogni suggerimento di campo, fare clic sulle icone **Accetta suggerimento** o **Rifiuta suggerimento** per il campo.
+
+   ![Accetta o rifiuta suggerimento](assets/accept-reject-suggestion.png)
+
+   Oppure
+
+   Selezionare **Accetta tutti** o **Rifiuta tutti** nella parte superiore della pagina per accettare o rifiutare tutti i suggerimenti.
+
+   >[!NOTE]
+   >
+   >Eventuali suggerimenti non rivisti verranno accettati automaticamente quando invii la richiesta.
+1. Fai clic su **Invia** per inviare la richiesta.
 
 ## Risoluzione dei problemi
 
