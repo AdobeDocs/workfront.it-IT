@@ -13,26 +13,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+    internal-label: Administration
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 10%
-
+source-wordcount: '1533'
+ht-degree: 9%
 ---
-
 # Configurare le preferenze di sistema
 
 {{highlighted-preview}}
@@ -199,6 +207,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td><span class="preview">Consente al server MCP di Workfront di eseguire azioni di creazione, aggiornamento ed eliminazione sui dati di Workfront. Questa opzione è disabilitata per impostazione predefinita.<p>Per ulteriori informazioni sul server Workfront MCP, vedere <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configurare il server Adobe Workfront MCP</a>.</p></span></td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">URL di reindirizzamento autorizzati</span></td> 
+      <td><span class="preview">Controlla quali URL di callback (reindirizzamento) possono completare l’accesso per gli agenti MCP della tua organizzazione che si connettono tramite piattaforme AI agente personalizzate.<p>Per istruzioni sull'aggiunta di URL di reindirizzamento per i server MCP, vedere <a href="#add-or-remove-an-authorized-redirect-url">Aggiungere o rimuovere un URL di reindirizzamento autorizzato</a> in questo articolo.</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Ambienti di prova</td> 
       <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente sandbox di anteprima di Adobe Workfront</a>.</p></td> 
     </tbody> 
@@ -207,3 +219,30 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fai clic su **Salva**.
 
    Le modifiche salvate in questa pagina influiscono sull&#39;esperienza di tutti gli utenti di Workfront e di tutti coloro che interagiscono con il sistema come utenti esterni.
+
+## Aggiungere o rimuovere un URL di reindirizzamento autorizzato
+
+<div class="preview">
+
+Gli URL di reindirizzamento autorizzati consentono di collegare una piattaforma agente di IA personalizzata il cui URL di callback OAuth è univoco per l’organizzazione, ad esempio un URL contenente una connessione o un ID tenant. Per ulteriori informazioni su quando è necessario, vedi [Connessione con OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Configurazione del server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
++++ Espandi per visualizzare istruzioni dettagliate sulla gestione degli URL di reindirizzamento autorizzati per MCP.
+
+Per aggiungere un URL:
+
+1. Se non sei già nella pagina Preferenze di sistema, fai clic sull&#39;icona **Menu principale** nell&#39;angolo superiore sinistro di Workfront, fai clic su **Configurazione**, quindi nel pannello a sinistra fai clic su **Sistema** > **Preferenze**.
+1. Nell&#39;area **Preferenze MCP**, accanto a **URL di reindirizzamento autorizzati**, fare clic su **Gestisci URL**.
+1. Immetti un **Label** per identificare l&#39;integrazione.
+1. Immetti il callback **URL**.
+1. Fai clic su **Aggiungi**.
+1. Fai clic su **Salva**.
+
+>[!IMPORTANT]
+>
+>Gli URL di callback devono corrispondere esattamente. Workfront non supporta la corrispondenza di caratteri jolly o prefissi per gli URL di callback personalizzati.
+
+Per rimuovere un URL, ad esempio se l&#39;integrazione associata è ritirata o compromessa, aprire **Gestisci URL**, rimuovere la voce, quindi fare clic su **Salva**.
+
++++
+
+</div>
