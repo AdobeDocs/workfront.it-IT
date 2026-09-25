@@ -10,26 +10,35 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '289'
 ht-degree: 17%
-
 ---
-
 # Creare revisori IA
 
 >[!NOTE]
@@ -68,7 +77,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in Workfront. Per ulteriori informazioni, consulta [Creare e gestire i brand per il revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in Workfront. Per ulteriori informazioni, consulta [Creare e gestire i brand per il revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Aggiungere un revisore di IA
 
@@ -76,11 +85,11 @@ Prima di iniziare, è necessario impostare le linee guida per il marchio immagin
 >
 >Il revisore di IA non è progettato per essere un decision-maker nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
 
-Per aggiungere un revisore dei contenuti:
+Per aggiungere un revisore di IA:
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, vai a **Revisione e approvazione** > **Revisori AI**.
+1. Nel pannello a sinistra, vai a **Revisione e approvazione** > **Revisore**.
 1. Fare clic su **Aggiungi nuovo**.
 1. Assegna un nome al revisore.
 1. Seleziona un **marchio**.

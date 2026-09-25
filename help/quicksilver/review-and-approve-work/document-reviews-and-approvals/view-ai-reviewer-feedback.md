@@ -1,46 +1,52 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visualizzare il punteggio e il feedback del revisore dei contenuti
-description: Pochi secondi dopo aver inviato la richiesta di approvazione, nel pannello Riepilogo documento è possibile visualizzare il punteggio e il feedback del revisore dei contenuti.
+title: Visualizzare il punteggio e il feedback del revisore IA
+description: Pochi secondi dopo aver inviato la richiesta di approvazione, nel pannello Riepilogo documento puoi visualizzare il punteggio e il feedback del revisore di IA.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-TQID: https://experienceleague.adobe.com/iPlcSTaPI-zhmWvRvO81RKFYnIzUoJqzM70mNcxrVbs
+TQID: 'https://experienceleague.adobe.com/iPlcSTaPI-zhmWvRvO81RKFYnIzUoJqzM70mNcxrVbs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 0%
-
+source-wordcount: '329'
+ht-degree: 3%
 ---
+# Visualizzare il punteggio e il feedback del revisore IA
 
-# Visualizzare il punteggio e il feedback del revisore dei contenuti
+Pochi secondi dopo aver inviato la richiesta di revisione e approvazione, nel pannello Riepilogo documento è possibile visualizzare il punteggio e il feedback del revisore di IA.
 
-Pochi secondi dopo aver inviato la richiesta di revisione e approvazione, nel pannello Riepilogo documento è possibile visualizzare il punteggio e il feedback del revisore dei contenuti.
+Il revisore di IA non è progettato per essere un decision-maker nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
 
-Il revisore dei contenuti non è progettato per essere un responsabile delle decisioni nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
-
-![Feedback revisore contenuto](assets/ai-reviewer-output.png)
+![Feedback revisore IA](assets/ai-reviewer-output.png)
 
 ## Come vengono calcolati i punteggi
 
-Il revisore dei contenuti calcola i punteggi in modo diverso a seconda del tipo di revisione:
+Il revisore IA calcola i punteggi in modo diverso a seconda del tipo di revisione:
 
 * Revisione immagine: questo punteggio riflette il rapporto tra le linee guida approvate e quelle non riuscite.
 * Copia revisione: questo punteggio utilizza una ponderazione bilanciata dei risultati soggettivi e oggettivi. Le linee guida oggettive (visualizzate in &quot;Correggi&quot;) sono ponderate tre volte di più rispetto alle linee guida soggettive (visualizzate in &quot;Considera&quot;).
 
-Poiché le linee guida oggettive hanno più peso nelle revisioni delle copie, consigliamo di scrivere linee guida concrete e misurabili nel tuo marchio. Per ulteriori informazioni, consulta la sezione [Best practice per la scrittura delle linee guida per i marchi](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) nell&#39;articolo Creare e gestire i marchi per il revisore dei contenuti.
+Poiché le linee guida oggettive hanno più peso nelle revisioni delle copie, consigliamo di scrivere linee guida concrete e misurabili nel tuo marchio. Per ulteriori informazioni, consulta la sezione [Best practice per la scrittura delle linee guida per i brand](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) nell&#39;articolo Creare e gestire i brand per il revisore di IA.
 
 ## Visualizza punteggio e feedback
 
-Puoi visualizzare il punteggio e il feedback del revisore dei contenuti dal pannello Riepilogo documento o nella scheda Approvazioni della pagina Dettagli documento.
+Puoi visualizzare il punteggio e il feedback del revisore AI dal pannello Riepilogo documento o nella scheda Approvazioni della pagina Dettagli documento.
 
 1. Nell&#39;e-mail di notifica di Workfront, fai clic su **Vai alla revisione**.
 
@@ -50,11 +56,11 @@ Puoi visualizzare il punteggio e il feedback del revisore dei contenuti dal pann
 1. Fai clic su **Punteggio**.
    ![visualizza punteggio documento](assets/view-score.png)
 
-Nella finestra Punteggio e feedback, il revisore dei contenuti spiega in che modo la risorsa non soddisfa le linee guida specificate.
-![Il feedback del revisore dei contenuti richiede attenzione](assets/ai-reviewer-needs-attention.png)
+Nella finestra Punteggio e feedback, il revisore IA spiega in che modo la risorsa non soddisfa le linee guida specificate.
+![Il feedback del revisore IA richiede attenzione](assets/ai-reviewer-needs-attention.png)
 
-## Carica una nuova versione e aggiungi nuovamente il revisore dei contenuti
+## Carica una nuova versione e aggiungi nuovamente il revisore di IA
 
-Se devi modificare la risorsa in base al feedback del revisore dei contenuti, puoi caricare una nuova versione e iniziare una nuova revisione.
+Se devi regolare la risorsa in base al feedback del revisore di intelligenza artificiale, puoi caricare una nuova versione e avviare una nuova revisione.
 
 Per ulteriori informazioni, vedere [Caricare una nuova versione del documento e richiedere un&#39;approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).

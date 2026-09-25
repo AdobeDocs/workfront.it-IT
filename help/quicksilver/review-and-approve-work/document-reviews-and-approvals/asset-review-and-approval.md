@@ -8,22 +8,29 @@ feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
+TQID: 'https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 1%
-
 ---
-
 # Funzionalità disponibile per le approvazioni dei documenti
 
 Al momento sono disponibili 3 diversi sistemi in Workfront per le approvazioni dei documenti:
@@ -73,7 +80,7 @@ Per ulteriori informazioni sul reporting, vedere [Creare un dashboard di report 
 
 * Accedere alle richieste di revisione e approvazione nel widget Approvazioni personali nell’area Home
 
-* Utilizza il revisore dei contenuti per automatizzare le revisioni di conformità del brand. Per ulteriori informazioni, vedere [Introduzione a Revisore contenuto Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* Utilizza IA Reviewer per automatizzare le revisioni di conformità del brand. Per ulteriori informazioni, consulta [Introduzione a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * Utilizza il visualizzatore Frame.io per rivedere e approvare i documenti. Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 

@@ -8,13 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 2%
-
+source-wordcount: '1371'
+ht-degree: 3%
 ---
-
 # Configurare i collaboratori IA
 
 I collaboratori IA sono un modo per integrare gli agenti IA nei progetti e nelle attività. Puoi configurare un Collaboratore IA, quindi assegnarlo come faresti con un utente.
@@ -23,13 +30,13 @@ Ad esempio, puoi configurare un collaboratore IA di tipo revisore con le linee g
 
 I tipi di Collaboratore IA disponibili includono:
 
-* Revisore: crea un collaboratore utilizzando i brand o Adobe Brand Intelligence, quindi assegna il collaboratore come revisore delle risorse.
+* Revisore IA: crea un collaboratore utilizzando brand o Adobe Brand Intelligence, quindi assegna il collaboratore come revisore delle risorse.
 
-  Per ulteriori informazioni, vedere [Introduzione a Revisore contenuto Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+  Per ulteriori informazioni, consulta [Introduzione a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Collaboratore task: creare un collaboratore utilizzando il copilota o il writer, quindi assegnare il collaboratore a un task per completare il lavoro a livello di task.
+* Agente di lavoro: creare un collaboratore utilizzando Copilot o Writer, quindi assegnare il collaboratore a un&#39;attività per completare il lavoro a livello di attività.
 
-  Per ulteriori informazioni, vedere [Utilizzare i collaboratori attività](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Per ulteriori informazioni, vedere [Utilizzare agenti di lavoro](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Requisiti di accesso
@@ -66,23 +73,23 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 * La tua organizzazione deve disporre di un contratto Adobe Gen AI firmato.
 
   Per ulteriori informazioni, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Assistente IA in Workfront.
-* È necessario aver configurato un marchio in Workfront prima di poterlo utilizzare per un collaboratore di IA di tipo Revisore.
+* Prima di poter utilizzare un marchio per un revisore di intelligenza artificiale, devi averlo configurato in Workfront.
 
-  Per istruzioni, consulta [Creare e gestire i brand per il revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* Per utilizzare Adobe Brand Intelligence per un collaboratore di IA per l’analisi dei revisori, l’organizzazione deve utilizzare l’esperienza di revisione e approvazione unificata in Workfront.
+  Per istruzioni, consulta [Creare e gestire i brand per il revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* Per utilizzare Adobe Brand Intelligence per un revisore di IA, la tua organizzazione deve utilizzare l’esperienza di revisione e approvazione unificata in Workfront.
 
   Per ulteriori informazioni, vedere [Introduzione alla revisione e all&#39;approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-### Per i collaboratori attività
+### Per agenti di lavoro
 
-È necessario configurare un agente in Claude, Copilot Studio o Writer prima di poterlo utilizzare come collaboratore di attività.
+È necessario configurare un agente in Claude, Copilot Studio o Writer prima di poterlo utilizzare come agente di lavoro.
 
-## Crea un nuovo Collaboratore IA di tipo Revisore
+## Crea un nuovo revisore di IA
 
-I collaboratori di IA per l’analisi dei revisori possono essere configurati per utilizzare i marchi Workfront o Adobe Brand Intelligence.
+I revisori AI possono essere configurati per utilizzare i marchi Workfront o Adobe Brand Intelligence.
 
 * **Marchi**: i marchi vengono creati in Workfront. Puoi creare marchi in Workfront caricando file PDF che contengono le linee guida per i marchi o immettendo manualmente gli elementi del marchio.
-* **Adobe Brand Intelligence**: quando un collaboratore AI rivede una risorsa utilizzando Adobe Brand Intelligence, puoi visualizzare i commenti del revisore in Frame.io.
+* **Adobe Brand Intelligence**: quando un collaboratore IA esamina una risorsa utilizzando Adobe Brand Intelligence, puoi visualizzare i commenti del revisore IA in Frame.io.
 
 
 {{step-1-to-setup}}
@@ -91,27 +98,27 @@ I collaboratori di IA per l’analisi dei revisori possono essere configurati pe
 1. Fai clic su **Nuovo collaboratore** nell&#39;angolo superiore destro della schermata.
 1. Fai clic su **Revisore**, quindi su **Continua**.
 1. Nel campo Nome collaboratore immettere un nome per il collaboratore. Questo è il nome visualizzato nell&#39;elenco degli assegnatari disponibili per un&#39;attività.
-1. Seleziona se il collaboratore utilizzerà un marchio o Adobe Brand Intelligence per le sue recensioni.
+1. Seleziona se il collaboratore utilizzerà un marchio o un Adobe Brand Intelligence per le sue recensioni.
 1. (Condizionale) Se il Collaboratore IA utilizza un Brand, seleziona il brand e la linea guida del brand che utilizzerà.
 1. Fai clic su **Salva**.
 
-## Configurare un collaboratore di attività
+## Configurare un agente di lavoro
 
-I collaboratori attività sono agenti MCP che possono essere assegnati ad attività in Workfront. È possibile configurare Collaboratore task con un nome, un livello di accesso e altri dettagli e assegnarlo a un task come si farebbe con un utente.
+Gli agenti di lavoro sono agenti che è possibile assegnare ad attività in Workfront. È possibile configurare l&#39;agente di lavoro con un nome, un livello di accesso e altri dettagli e assegnarlo a un&#39;attività come si farebbe con un utente.
 
-Poiché i collaboratori attività sono agenti MCP, le loro azioni e capacità vengono configurate nel punto in cui vengono configurati gli agenti. Attualmente, gli agenti utilizzati come collaboratori task possono essere creati in Copilot Studio, Claude o Writer.
+Poiché gli agenti di lavoro sono agenti, le loro azioni e capacità vengono configurate nel punto in cui vengono configurati gli agenti. Attualmente, gli agenti utilizzati come agenti di lavoro possono essere creati in Copilot Studio, Claude o Writer.
 
-I collaboratori attività possono essere assegnati solo ad attività e non possono essere attualmente assegnati a problemi.
+Gli agenti di lavoro possono essere assegnati solo ad attività e non possono al momento essere assegnati a problemi.
 
-Per un elenco delle procedure consigliate per la creazione di un agente da utilizzare come Collaboratore attività, vedere [Procedure consigliate per la creazione di un agente per un Collaboratore attività](#best-practices-for-creating-an-agent-for-a-task-collaborator).
+Per un elenco delle best practice per la creazione di un agente che possa funzionare come agente di lavoro, vedere [Best practice per la creazione di un agente per un agente di lavoro](#best-practices-for-creating-an-agent-for-a-work-agent).
 
-### Configurare un collaboratore in Workfront
+### Configurare un agente di lavoro in Workfront
 
 {{step-1-to-setup}}
 
 1. Nel menu di navigazione a sinistra, fai clic su **Collaboratori IA**.
 1. Fai clic su **Nuovo collaboratore** nell&#39;angolo superiore destro della schermata.
-1. Seleziona **Agenti attività**, quindi fai clic su **Continua**.
+1. Seleziona **Agenti di lavoro**, quindi fai clic su **Continua**.
 1. Nel campo Nome collaboratore IA immettere un nome per il collaboratore. Questo è il nome visualizzato nell&#39;elenco degli assegnatari disponibili per un&#39;attività.
 1. Nel campo Descrizione collaboratore AI immettere una descrizione dello scopo del collaboratore o delle azioni eseguite.
 1. Nel campo Livello di accesso selezionare un livello di accesso per il collaboratore. Questo livello di accesso controlla ciò che il collaboratore può fare, allo stesso modo un livello di accesso controlla ciò che un utente può fare.
@@ -128,12 +135,12 @@ Per un elenco delle procedure consigliate per la creazione di un agente da utili
 1. Nell&#39;area **Al termine del lavoro del collaboratore, è possibile** attivare le azioni che si desidera vengano eseguite dal collaboratore.
 1. Fai clic su **Salva**.
 
-Per ulteriori informazioni sui collaboratori attività, tra cui come assegnarli alle attività, vedere [Utilizzare i collaboratori attività](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+Per ulteriori informazioni sugli agenti di lavoro, tra cui come assegnarli alle attività, vedere [Utilizzare agenti di lavoro](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
-### Procedure consigliate per la creazione di un agente per un collaboratore attività
+### Best practice per la creazione di un agente per un agente di lavoro
 
-Le procedure consigliate riportate di seguito sono utili per la creazione di un agente da utilizzare come collaboratore di task in Workfront. Per visualizzare le best practice, fai clic sulla sezione dell’applicazione in cui stai creando l’agente.
+Le seguenti best practice potrebbero essere utili per la creazione di un agente da utilizzare come agente di lavoro in Workfront. Per visualizzare le best practice, fai clic sulla sezione dell’applicazione in cui stai creando l’agente.
 
 +++ Claude
 
@@ -141,7 +148,7 @@ Le procedure consigliate riportate di seguito sono utili per la creazione di un 
 1. Crea una chiave API.
    1. In Chiavi API, fai clic su **Crea chiave** nell&#39;angolo in alto a destra.
    1. Immetti un nome e una data di scadenza.
-   1. Copiare la chiave e salvarla in un luogo sicuro. Questa chiave è necessaria per configurare Task Collaborator in Workfront.
+   1. Copiare la chiave e salvarla in un luogo sicuro. Questa chiave è necessaria per configurare l’agente di lavoro in Workfront.
 
 1. Creare un ambiente.
    1. In **Agenti gestiti** > **Ambienti**, fai clic su **Crea ambiente** nell&#39;angolo superiore destro.
@@ -151,15 +158,15 @@ Le procedure consigliate riportate di seguito sono utili per la creazione di un 
 
 1. Crea un agente.
    1. In Agenti gestiti > Agenti fare clic su **Crea agente** nell&#39;angolo superiore destro.
-   1. Fornisci un nome, un modello, un prompt del sistema, le abilità e gli strumenti necessari. Essere descrittivi, perché i collaboratori attività trasmettono il contesto dell&#39;attività a questo agente, che quindi esegue il lavoro.
+   1. Fornisci un nome, un modello, un prompt del sistema, le abilità e gli strumenti necessari. Essere descrittivi, perché gli agenti di lavoro trasmettono il contesto dell’attività a questo agente, che quindi esegue il lavoro.
       L&#39;ID agente viene visualizzato sotto il nome dell&#39;agente nell&#39;angolo superiore sinistro.
 
-1. Configurare Collaboratore attività in Workfront.
+1. Configurare l’agente di lavoro in Workfront.
    1. Immetti la chiave API, l’ID ambiente e l’ID agente
    1. Fai clic su **Verifica connessione** per verificare.
 
-1. Assegnare il Collaboratore task a un task Workfront.
-   1. Il Collaboratore attività viene attivato dopo il completamento di tutte le attività predecessori.
+1. Assegnare l&#39;agente di lavoro a un&#39;attività di Workfront.
+   1. L&#39;agente di lavoro viene attivato dopo il completamento di tutte le attività predecessore.
 
 +++
 <!--
@@ -173,9 +180,9 @@ Le procedure consigliate riportate di seguito sono utili per la creazione di un 
 
 >[!NOTE]
 >
-> È possibile utilizzare un agente Writer come Collaboratore attività, ma i playbook Writer non possono essere utilizzati come Collaboratori attività.
+> È possibile utilizzare un agente Writer come agente di lavoro, ma i playbook Writer non possono essere utilizzati come agenti di lavoro.
 
-Quando si crea un agente da utilizzare come collaboratore attività in Writer, si consiglia di eseguire il seguente flusso di lavoro.
+Quando si crea un agente da utilizzare come agente di lavoro in Writer, si consiglia di eseguire il seguente flusso di lavoro.
 
 Ulteriori informazioni sulla creazione di agenti sono disponibili nella [documentazione di Writer](https://dev.writer.com/no-code/introduction).
 
@@ -183,13 +190,13 @@ Ulteriori informazioni sulla creazione di agenti sono disponibili nella [documen
 1. Aggiungere un singolo campo di immissione Testo. È possibile utilizzare il nome predefinito &quot;Input testo&quot;.
 1. Aggiungi `@TextInput` alla tua richiesta. Nella sezione Prompts della configurazione di app, accertati che il modello di prompt faccia riferimento alla variabile di input. Senza questo, il modello non vede mai i dati dell’attività.
 1. Regola la richiesta per generare l&#39;output immediatamente. Rimuovi eventuali istruzioni che richiedono all’utente chiarimenti o contesto aggiuntivo prima di rispondere. Ad esempio: &quot;Quando ricevi un input, consideralo come una richiesta di generazione di contenuti e generi immediatamente l’output. Non chiedete chiarimenti.&quot;
-1. Copia la chiave API e l’ID applicazione. È necessario Collaboratore attività per configurare Collaboratore attività in Workfront.
+1. Copia la chiave API e l’ID applicazione. Saranno necessarie per configurare l’agente di lavoro in Workfront.
 
    * Per istruzioni sulla configurazione di una chiave API in Writer, vedi [Quickstart](https://dev.writer.com/home/quickstart) nella documentazione di Writer.
    * Per istruzioni sulla configurazione di un ID applicazione in Writer, vedere [Richiamare agenti senza codice tramite l&#39;API](https://dev.writer.com/home/applications) nella documentazione di Writer.
 
-1. Configurare Collaboratore attività in Workfront. Come parte della configurazione, immetti la chiave API e l&#39;ID applicazione, quindi fai clic su **Verifica connessione** per verificare.
-1. Assegnare il Collaboratore task a un task Workfront. Il collaboratore inizia a lavorare quando tutte le attività predecessore dell&#39;attività sono state completate.
+1. Configurare l’agente di lavoro in Workfront. Come parte della configurazione, immetti la chiave API e l&#39;ID applicazione, quindi fai clic su **Verifica connessione** per verificare.
+1. Assegnare l&#39;agente di lavoro a un&#39;attività di Workfront. L&#39;agente di lavoro inizia a lavorare quando tutte le attività predecessore dell&#39;attività sono state completate.
 
 +++
 

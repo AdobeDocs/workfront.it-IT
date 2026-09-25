@@ -6,13 +6,27 @@ description: Informazioni sui flussi di lavoro di approvazione dei documenti esi
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Passa dalle approvazioni di documenti legacy alle approvazioni unificate
 
 Il passaggio a una versione di Workfront che supporta l’archiviazione cloud di Adobe comporta anche lo spostamento dell’organizzazione dalle approvazioni di documenti legacy alle approvazioni unificate. Questo articolo fornisce informazioni sulle funzionalità che saranno disponibili in Approvazioni unificate e consigli per gli amministratori di Workfront che spostano gli utenti dalle approvazioni dei documenti legacy.
@@ -32,7 +46,7 @@ Il passaggio a una versione di Workfront che supporta l’archiviazione cloud di
 | Fasi e percorsi di approvazione | Una fase di approvazione, nessun percorso parallelo | [Più fasi di approvazione e percorsi di revisione paralleli](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Modelli di approvazione | Ogni approvazione configurata da zero | [Modelli riutilizzabili](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) disponibili in Installazione di Workfront |
 | Revisione e markup | Visualizzatore bozze | [Visualizzatore bozze](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) sugli oggetti di archiviazione Workfront legacy o [Visualizzatore Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) sugli oggetti di archiviazione cloud Adobe |
-| Revisione assistita da IA | Non disponibile | Controlli automatici di conformità al brand con [Revisore contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| Revisione assistita da IA | Non disponibile | Controlli automatici di conformità al brand con [IA Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Generazione dei rapporti | Reportistica legacy | Widget per KPI predefinito e [Dashboard canvas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### Cosa succederà alle approvazioni già in corso
@@ -55,4 +69,4 @@ Le approvazioni in-flight create nelle approvazioni di documenti legacy continue
 * [Revisione e approvazione con il visualizzatore Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Utilizzare insieme approvazioni unificate e bozze](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Introduzione a Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Guida introduttiva a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
