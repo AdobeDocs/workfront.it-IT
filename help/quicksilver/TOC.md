@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '14574'
-ht-degree: 92%
+source-wordcount: '14577'
+ht-degree: 91%
 ---
 # Guida di Workfront {#using}
 
@@ -2283,6 +2283,7 @@ ht-degree: 92%
     * [Richieste di Pianificazione di Adobe Workfront: indice degli articoli](planning/requests/requests-article-index.md)
     * [Creare e gestire un modulo di richiesta in Pianificazione di Adobe Workfront](planning/requests/create-request-form.md)
     * [Inviare richieste di Pianificazione di Adobe Workfront per creare record](planning/requests/submit-requests.md)
+    * [Condividere le richieste Planning](planning/requests/share-requests.md)
     * [Annullare la pubblicazione di un modulo di richiesta in Pianificazione di Adobe Workfront](planning/requests/unpublish-request-form.md)
     * [Aggiungere un’approvazione a un modulo di richiesta in Pianificazione di Adobe Workfront](planning/requests/add-approval-to-request-form.md)
     * [Approvare una richiesta in Pianificazione di Adobe Workfront](planning/requests/approve-request.md)
