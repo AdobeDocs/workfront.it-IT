@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
+source-wordcount: '3098'
 ht-degree: 2%
 ---
 # Creare e gestire un modulo di richiesta in Pianificazione di Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
    <td> 
 <ul> 
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
-Oppure
+   Oppure
 <li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ Oppure
   </tr>  
   <tr> 
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro o un tipo di record</a> </p>  
+   <td>   <p>Gestire le autorizzazioni per un’area di lavoro o un tipo di record</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
    1. Fai clic sull&#39;icona **x** per rimuovere la **sezione predefinita**.
 1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli nel pannello destro del modulo per definirne le dimensioni o una delle seguenti informazioni:
 
+   * **Dimensioni**: controlla lo spazio occupato dal campo nel modulo. Non disponibile per tutti i tipi di campo.
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
-   * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
-   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **Scelte**: disponibile solo per i campi selezionati. Esegui una delle operazioni seguenti:
+
+     * Fare clic su **Ordina scelte dalla A alla Z** per ordinarle automaticamente.
+     * Trascinare e rilasciare le scelte o ordinarle manualmente.
+     * Fai clic sull&#39;icona **Impostazioni** ![Icona Impostazioni](assets/settings-icon.png), quindi **Seleziona per impostazione predefinita** per indicare quale scelta è l&#39;opzione predefinita, oppure **Nascondi scelta** per nasconderla.
+
+   </div>
 
    >[!TIP]
    >
-   >Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
+   ><span class="preview">Impossibile rinominare o rimuovere scelte in un modulo di richiesta Planning. È necessario modificare le scelte dei campi nella vista tabella del tipo di record.</span>
+
+
+1. Nell&#39;area **Impostazioni avanzate**, selezionare una delle opzioni elencate di seguito. Non tutte le opzioni sono disponibili per tutti i tipi di campo.
+
+   * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
+   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. La logica di aggiunta è disponibile solo quando i campi sono o sono preceduti da campi a selezione singola e multipla. <span class="preview">Le regole di convalida e di valore predefinito non sono disponibili per tutti i tipi di campo.</span>
+
+     Nell’ambiente di produzione, seleziona una delle seguenti opzioni:
+
+     * **Logica di visualizzazione**: il campo selezionato deve essere preceduto da un campo a selezione multipla o singola.
+     * **Logica di salto**: aggiungi regole di salto per specificare quando gli utenti devono saltare il campo e lasciarlo vuoto.
+
+     <div class="preview">
+
+     Nell’ambiente di anteprima, seleziona una delle seguenti opzioni:
+
+     * **Visualizzazione**
+     * **Ignora**
+     * **Valore predefinito**
+     * **Convalida**
+     * **Formattazione**
+     * **Modificabilità**
+
+     </div>
+
+     Per ulteriori informazioni, vedere [Aggiungere regole di logica a campi e moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+
+     >[!TIP]
+     >
+     ><span class="preview">Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.</span>
 
 1. (Facoltativo) Fare clic con il pulsante lungo del mouse su un campo, trascinarlo e rilasciarlo in un&#39;altra posizione del modulo.
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
@@ -229,25 +270,19 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
 
 ### Configurare le impostazioni del modulo
 
-Nella scheda Impostazioni, puoi impostare le regole di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
+Nella scheda Impostazioni è possibile impostare le regole di approvazione, configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata e <span class="preview">assegnare le autorizzazioni predefinite agli utenti che interagiscono con richieste future inviate tramite il modulo.</span>
 
 Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi nelle richieste inviate.
 
 Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
 
-Quando aggiungi regole di approvazione, tieni presente quanto segue:
-
-* Le regole sono prioritarie per ordine. Se le prime condizioni della regola sono soddisfatte, tale regola viene applicata anche se sono soddisfatte le condizioni per le regole più in basso nell’elenco.
-* Se non viene soddisfatta alcuna condizione, viene applicata la regola predefinita.
-* È possibile aggiungere uno o più approvatori a una regola di approvazione.
-* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
-* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
-* Se un team è impostato come approvatore, è necessaria una sola decisione del team.
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">Il processo di approvazione supporta più fasi. Quando vengono prese tutte le decisioni necessarie in una fase, inizia la fase successiva e gli approvatori della nuova fase ricevono una notifica e-mail.</span>
 
 Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Le opzioni di completamento consentono di impostare se una richiesta è contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o al momento del completamento dell&#39;oggetto creato. È possibile definire quando l&#39;oggetto viene completato in base a una condizione specificata.
+
+<span class="preview">Utilizzare la sezione Autorizzazioni nell&#39;area Impostazioni di un modulo di richiesta per definire le autorizzazioni predefinite dei richiedenti <!--and non-requestors--> per le richieste create utilizzando il modulo.</span>
 
 Per configurare le impostazioni del modulo:
 
@@ -256,35 +291,12 @@ Per configurare le impostazioni del modulo:
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
 
-1. Per iniziare a configurare le regole di approvazione, fai clic su Approvazioni ![Icona Approvazioni](assets/approvals-icon-on-form.png) nell&#39;area di navigazione a sinistra.
+1. Per iniziare a configurare le regole di approvazione, fai clic su **Approvazioni** ![Icona Approvazioni](assets/approvals-icon-on-form.png) nell&#39;area di navigazione a sinistra.
 
-1. (Facoltativo) Se desideri impostare un processo di approvazione predefinito, aggiungi almeno un utente o un team al campo **Approvatori** dell&#39;area Regola di approvazione predefinita, quindi fai clic sulla casella di controllo **È necessaria una sola decisione** se desideri che il record venga creato dopo che uno qualsiasi degli approvatori predefiniti lo ha approvato.
+   È possibile creare <span class="preview"> o regole di approvazione a più fasi </span> e assegnare utenti o team a un&#39;approvazione.
 
-   ![Area regola di approvazione predefinita](assets/default-approvers.png)
+   Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Facoltativo) Per ogni regola di approvazione aggiuntiva, effettua le seguenti operazioni:
-
-   1. Fai clic su **Aggiungi regola di approvazione**.
-   1. Fai clic sul titolo del segnaposto &quot;Regola di approvazione senza titolo&quot; e immetti un nome per la regola di approvazione.
-   1. Fai clic su **Seleziona un campo** e seleziona il campo che attiva la regola.
-   1. Seleziona l’operatore per la regola. Gli operatori variano in base al tipo di campo.
-   1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
-   1. (Facoltativo) Aggiungi altre condizioni utilizzando AND o OR facendo clic su Aggiungi condizione e configurando la condizione aggiuntiva.
-   1. Nell&#39;area Azioni della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
-   1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. (Facoltativo) Per riordinare le regole di routing, fare clic sulla maniglia di trascinamento sul lato sinistro della regola e trascinare la regola nella posizione desiderata.
-
-   Impossibile riordinare la regola predefinita.
-
-1. (Facoltativo)Per eliminare una regola di routing, fare clic su **X** a destra della regola.
-1. Fai clic su **Salva** per salvare le regole di approvazione.
 1. Fai clic su **Richiedi opzioni di completamento** nel pannello a sinistra.
 1. Selezionare una delle opzioni seguenti:
 
@@ -293,27 +305,34 @@ Per configurare le impostazioni del modulo:
 
 1. (Condizionale) Se hai selezionato che la richiesta venga contrassegnata come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indica quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 
+1. <span class="preview">Fai clic su **Autorizzazioni** nel pannello a sinistra.</span>
+1. <span class="preview">Selezionare il livello di autorizzazione per gli utenti che inviano richieste tramite questo modulo:</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **Visualizza**: tutti i richiedenti possono aggiungere commenti e condividere il modulo.
+   * **Contribuisci**: tutti i richiedenti possono aggiungere commenti, condividere e modificare il modulo.
+   * **Gestisci**: tutti i richiedenti possono aggiungere commenti, condividere, modificare ed eliminare il modulo.
+
+   </div>
+
+1. <span class="preview"> (Facoltativo) Deselezionare le autorizzazioni granulari per ogni livello di autorizzazione per impedire ai richiedenti di eseguire le azioni seguenti:</span>
+
+   <div class="preview">
+
+   * Commento
+   * Condividi
+   * Modifica. Non disponibile per la visualizzazione.
+   * Elimina. Non disponibile per Contribute e View.
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">L&#39;autorizzazione granulare deselezionata qui verrà disabilitata quando si condivide la richiesta con tali utenti dalla pagina della richiesta. </span>
+
+1. <span class="preview">Fai clic su **Salva**.</span>
+
 
 1. Continua con [Pubblica modulo](#publish-form).
 
@@ -361,7 +380,7 @@ Per configurare le impostazioni del modulo:
 
    ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
 
-1. (Facoltativo) Fai clic su **Copia collegamento** per condividere il collegamento al modulo con gli utenti che possono accedere al modulo e inviare richieste. Il collegamento viene copiato negli Appunti e puoi condividerlo con altri utenti.
+1. (Facoltativo) Fai clic su **Copia collegamento** per condividere il collegamento al modulo con gli utenti che hanno accesso al modulo e inviare richieste. Il collegamento viene copiato negli Appunti e puoi condividerlo con altri utenti.
 1. Per condividere il modulo pubblicamente, seleziona la scheda **Condivisione pubblica**, quindi attiva l&#39;impostazione **Crea collegamento pubblico**. È disattivata per impostazione predefinita.
 
    ![Condivisione pubblica per modulo di richiesta](assets/share-request-form-publicly-tab.png)
@@ -438,6 +457,8 @@ Per configurare le impostazioni del modulo:
 1. (Facoltativo) Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 

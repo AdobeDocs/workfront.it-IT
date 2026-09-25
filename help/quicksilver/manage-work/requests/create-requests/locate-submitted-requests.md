@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 4%
 ---
 # Visualizzare le richieste inviate
@@ -36,13 +36,11 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
 
@@ -61,7 +59,7 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
   >* È possibile visualizzare solo le proprie bozze di richieste.
   >* Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco.
   >* Le bozze create nell’esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.
-  >* Nella nuova esperienza di richiesta, puoi visualizzare le vecchie richieste di Workfront solo da luglio 2025 a oggi. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* Nell’ambiente di produzione, nella nuova esperienza di richiesta, è possibile trovare le richieste Workfront inviate solo da luglio 2025 a oggi. <span class="preview">Nell&#39;ambiente di anteprima, nella nuova esperienza di richiesta, è possibile trovare le richieste Workfront inviate solo dal 2023 ad oggi. Puoi visualizzare tutte le richieste Workfront nell&#39;esperienza legacy.</span>
 
 ## Requisiti di accesso
 

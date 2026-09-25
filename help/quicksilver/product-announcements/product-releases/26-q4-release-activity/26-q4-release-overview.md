@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2877'
 ht-degree: 9%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -200,7 +200,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ora disponibile in Workfront</a>
-                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale AI Assistant.</p>
+                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale Assistente AI.</p>
             </td>
             <td><p>Rollout graduale a partire dal 3 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>
@@ -563,17 +563,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
-                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">Visualizza richieste cronologiche da un massimo di 3 anni nella nuova esperienza di richiesta</a>
+                <p>Ora puoi accedere alle richieste di problemi di Workfront inviate fino a 3 anni prima di luglio 2025 dalla nuova esperienza di richiesta.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>24 settembre 2026</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">Compilazione modulo AI ora richiama i dati dai record a cui si fa riferimento con un collegamento</a><p>[!BADGE Off schedule]{type=Neutral}</p>

@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 3%
+source-wordcount: '1171'
+ht-degree: 2%
 ---
 # Aggiungere un’approvazione a un modulo di richiesta in Pianificazione di Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -104,12 +104,81 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni sull’aggiunta di approvazioni a un modulo di richiesta
 
-* È possibile aggiungere uno o più approvatori a un modulo di richiesta. Puoi aggiungere utenti e team come approvatori.
-* È possibile visualizzare le informazioni sull&#39;approvazione in un record creato inviando un modulo di richiesta nei campi Approvato da e Data approvata. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
-* Quando si aggiungono più approvatori a un modulo di richiesta, tutti gli approvatori devono accettare la richiesta prima di creare un record in Workfront Planning.
-* Se tutti gli approvatori approvano la richiesta, viene creato un record per il tipo di record associato al modulo di richiesta.
-* Se almeno un approvatore rifiuta la richiesta e tutti gli altri la approvano, viene creata una richiesta per l&#39;area Richieste di Workfront, ma non viene creato alcun record per il tipo di record associato al modulo di richiesta.
-* L’aggiunta di approvazioni a un modulo di richiesta è facoltativa. Workfront Planning crea immediatamente un record quando viene sottomessa una richiesta, se il modulo di richiesta non è associato a un&#39;approvazione.
+* Puoi aggiungere uno o più approvatori (utenti o team) a un modulo di richiesta o a una regola di approvazione.
+* Le regole di approvazione indirizzano le richieste in base ai valori dei campi nella richiesta inviata (ad esempio, approvatori diversi per valori diversi di un campo &quot;Tipo di campagna&quot;).
+* Puoi visualizzare le informazioni di approvazione sul record creato tramite i campi Data di approvazione e Data di approvazione. Consulta Creare campi.
+* Se tutti gli approvatori approvano, viene creato un record per il tipo di record associato al modulo di richiesta.
+* Se almeno un approvatore rifiuta, non viene creato alcun record per il tipo di record; la richiesta rimane/arriva all’area Richieste di Workfront. (Questo punto è presente in entrambe le sezioni con una formulazione leggermente diversa, qui riunita in un&#39;unica dichiarazione).
+* Quando sono necessari più approvatori, tutti devono prendere una decisione prima che la richiesta venga approvata o rifiutata, a meno che non sia abilitata l’opzione È necessaria una sola decisione.
+* Se un team è impostato come approvatore, è necessaria una sola decisione da parte di un membro di quel team.
+* Le approvazioni sono facoltative: se a un modulo di richiesta non è associata alcuna approvazione, Workfront Planning crea il record immediatamente dopo l&#39;invio.
+* <span class="preview">È possibile aggiungere una o più fasi alle approvazioni.</span>
+
+## Aggiungere regole di approvazione a un modulo di richiesta
+
+Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi nelle richieste inviate.
+
+Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
+
+Per impostare le regole di approvazione per un modulo di richiesta:
+
+1. Iniziare a creare un modulo di richiesta per un tipo di record, come descritto nell&#39;articolo [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. All&#39;apertura del modulo di richiesta, fare clic su **Impostazioni**.
+
+   Viene visualizzata la scheda **Impostazioni**.
+
+1. Per iniziare a configurare le regole di approvazione, fai clic su **Approvazioni** ![Icona Approvazioni](assets/approvals-icon-on-form.png) nel pannello a sinistra.
+
+1. (Facoltativo) Se desideri impostare un processo di approvazione predefinito, aggiungi almeno un utente o un team al campo **Approvatori** dell&#39;area **Regola di approvazione predefinita**, quindi fai clic sulla casella di controllo **È necessaria una sola decisione** se desideri che il record venga creato dopo che uno qualsiasi degli approvatori predefiniti lo ha approvato.
+
+   ![Area regola di approvazione predefinita](assets/default-approvers.png)
+
+1. (Facoltativo) Inizia ad aggiungere le regole di approvazione. Per ogni regola di approvazione personalizzata, effettua le seguenti operazioni:
+
+   1. Fai clic su **Aggiungi regola di approvazione**.
+   1. Fare clic sul titolo del segnaposto **Regola di approvazione senza titolo** e immettere un nome per la regola di approvazione.
+   1. Fai clic su **Seleziona un campo** e seleziona il campo che attiva la regola.
+   1. Seleziona l’operatore per la regola. Gli operatori variano in base al tipo di campo.
+   1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
+   1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altre condizioni e connetterle tramite **And** o **Or** istruzioni configurando le condizioni aggiuntive come nei passaggi C-E.
+   1. Nell&#39;area **Azioni** della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare come approvatore quando viene soddisfatta la condizione.
+   1. (Condizionale e facoltativo) Se desideri che il record venga creato dopo che uno qualsiasi degli approvatori lo ha approvato, seleziona la casella di controllo **È necessaria una sola decisione**. In caso contrario, tutti gli approvatori devono decidere in merito all’approvazione prima che la richiesta venga accettata o rifiutata.
+
+   >[!NOTE]
+   >
+   >   Quando aggiungi regole di approvazione, tieni presente quanto segue:
+   >
+   >   * Se è impostata solo una regola predefinita, questa si applica a ogni richiesta inviata.
+   >   * Se viene soddisfatta una regola personalizzata, l’impostazione predefinita non viene applicata al flusso di lavoro di approvazione delle richieste. Per le approvazioni vengono applicate solo le regole personalizzate corrispondenti e la regola predefinita viene ignorata.
+   >   * Se vengono soddisfatte più regole personalizzate, viene applicata la prima nell’ordine. In questo caso, l’approvazione predefinita non si applica, se presente.
+
+1. <span class="preview">(Facoltativo) Fare clic su **Aggiungi fase** per aggiungere un&#39;altra fase all&#39;approvazione.</span>
+
+1. Fai clic su **Salva** per salvare le regole di approvazione.
+
+1. <span class="preview">(Facoltativo) Per aggiungere altre fasi all&#39;approvazione, eseguire le operazioni seguenti:</span>
+
+   1. <span class="preview">Fare clic su **Aggiungi fase**.</span>
+
+      <span class="preview">Viene visualizzata la casella **Approvazione in più fasi**. Se è già stata creata un&#39;azione di approvazione predefinita, tali approvatori vengono aggiunti automaticamente alla fase 1.</span>
+
+   1. <span class="preview">Nel campo **Aggiungi persone o team**, aggiungi almeno un utente o team da impostare come approvatore per la fase.</span>
+   1. <span class="preview">(Condizionale e facoltativo) Se si desidera che il record passi alla fase successiva dopo l&#39;approvazione di uno qualsiasi degli approvatori, selezionare la casella di controllo **È necessaria una sola decisione**. In caso contrario, tutti gli approvatori devono decidere in merito all&#39;approvazione prima che la richiesta passi alla fase successiva.</span>
+   1. <span class="preview">Fare clic su **Aggiungi fase** e ripetere il passaggio B per aggiungere altre fasi all&#39;approvazione.</span>
+
+      <span class="preview">Quando sono presenti due o più fasi, è possibile fare clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) per trascinarle e rilasciarle in ordine.</span>
+
+      <span class="preview">Fai clic su **Elimina questa fase** per eliminare una fase dall&#39;approvazione, oppure fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete.png) accanto a un approvatore per eliminare l&#39;utente o il team dall&#39;elenco degli approvatori in una fase.</span>
+
+      ![Casella di approvazione in più fasi](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">Al termine della creazione del flusso di lavoro di approvazione, fare clic su **Salva**.</span>
+
+      <span class="preview">È possibile modificare o eliminare l&#39;approvazione in più fasi dalla pagina Approvazioni.</span>
+
+1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza.
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## Aggiungere regole di approvazione a un modulo di richiesta
-
-Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi nelle richieste inviate.
-
-Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
-
-Quando aggiungi regole di approvazione, tieni presente quanto segue:
-
-* È possibile aggiungere uno o più approvatori a una regola di approvazione.
-* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
-* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
-* Se un team è impostato come approvatore, è necessaria una sola decisione da parte di un membro del team.
-
-Per impostare le regole di approvazione per un modulo di richiesta:
-
-1. Iniziare a creare un modulo di richiesta per un tipo di record, come descritto nell&#39;articolo [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. All&#39;apertura del modulo di richiesta, fare clic su **Impostazioni**.
-
-   Viene visualizzata la scheda **Impostazioni**.
-
-1. Per iniziare a configurare le regole di approvazione, fai clic su **Approvazioni** ![Icona Approvazioni](assets/approvals-icon-on-form.png) nel pannello a sinistra.
-
-1. (Facoltativo) Se desideri impostare un processo di approvazione predefinito, aggiungi almeno un utente o un team al campo **Approvatori** dell&#39;area **Regola di approvazione predefinita**, quindi fai clic sulla casella di controllo **È necessaria una sola decisione** se desideri che il record venga creato dopo che uno qualsiasi degli approvatori predefiniti lo ha approvato.
-
-   ![Area regola di approvazione predefinita](assets/default-approvers.png)
-
-1. (Facoltativo) Inizia ad aggiungere le regole di approvazione. Per ogni regola di approvazione personalizzata, effettua le seguenti operazioni:
-
-   1. Fai clic su **Aggiungi regola di approvazione**.
-   1. Fare clic sul titolo del segnaposto **Regola di approvazione senza titolo** e immettere un nome per la regola di approvazione.
-   1. Fai clic su **Seleziona un campo** e seleziona il campo che attiva la regola.
-   1. Seleziona l’operatore per la regola. Gli operatori variano in base al tipo di campo.
-   1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
-   1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altre condizioni e connetterle tramite **And** o **Or** istruzioni configurando le condizioni aggiuntive come nei passaggi C-E.
-   1. Nell&#39;area **Azioni** della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare come approvatore quando viene soddisfatta la condizione.
-   1. (Condizionale e facoltativo) Se desideri che il record venga creato dopo che uno qualsiasi degli approvatori lo ha approvato, seleziona la casella di controllo **È necessaria una sola decisione**. In caso contrario, tutti gli approvatori devono decidere in merito all’approvazione prima che la richiesta venga accettata o rifiutata.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   Quando aggiungi regole di approvazione, tieni presente quanto segue:
-   >
-   >   * Se è impostata solo una regola predefinita, questa si applica a ogni richiesta inviata.
-   >   * Se viene soddisfatta una regola personalizzata, l’impostazione predefinita non viene applicata al flusso di lavoro di approvazione delle richieste. Per le approvazioni vengono applicate solo le regole personalizzate corrispondenti e la regola predefinita viene ignorata.
-   >   * Se vengono soddisfatte più regole personalizzate, viene applicata la prima nell’ordine. In questo caso, l’approvazione predefinita non si applica, se presente.
-
-1. Fai clic su **Salva** per salvare le regole di approvazione.
-1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza.
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->

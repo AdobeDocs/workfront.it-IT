@@ -4,10 +4,10 @@ description: Richieste di miglioramenti per il quarto trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # Richieste di miglioramenti per il quarto trimestre 2026
 
@@ -15,21 +15,17 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima all
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## Visualizza richieste storiche da fino a 3 anni nella nuova esperienza di richiesta
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Anteprima: 24 settembre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+Ora puoi accedere alle richieste di problemi di Workfront inviate fino a 3 anni prima di luglio 2025 dalla nuova esperienza di richiesta. In precedenza, avevi accesso solo alle richieste inviate dopo luglio 2025.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+Per informazioni, vedere [Visualizzare le richieste inviate](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Compilazione modulo AI ora richiama i dati dai record a cui si fa riferimento con un collegamento
 
