@@ -5,13 +5,12 @@ title: Configurare il server MCP di Adobe Workfront
 description: Configura l’istanza di Workfront e la piattaforma di intelligenza artificiale in modo da poter lavorare con Workfront attraverso una conversazione in linguaggio naturale.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
-
 
 # Configurare il server MCP di Adobe Workfront
 
@@ -53,6 +52,8 @@ L&#39;accesso al server MCP è gestito da due amministratori distinti.
   Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Se utilizzi una versione Enterprise di una piattaforma AI agente, l&#39;amministratore di tale piattaforma deve abilitare il connettore [!DNL Adobe Workfront] per la tua organizzazione o concederti l&#39;accesso URL personalizzato per connettersi al server Workfront MCP.
+
+* <span class="preview">Se stai connettendo un&#39;applicazione personalizzata o una piattaforma agente con un URL di callback OAuth univoco per cliente, l&#39;amministratore di Workfront deve aggiungere tale URL all&#39;elenco **URL di reindirizzamento autorizzati** in **Preferenze di sistema > Preferenze MCP**. In caso contrario, l’autenticazione viene rifiutata. Per ulteriori informazioni, vedere [Connessione con OAuth](#connect-with-oauth) in questo articolo.</span>
 
 
 ## Connettere Workfront a Claude
@@ -238,7 +239,33 @@ Esistono due modi per connettersi:
 
 ### Connessione con OAuth
 
-Il supporto self-service per le integrazioni OAuth personalizzate non è ancora disponibile per Workfront.
+<div class="preview">
+
+Se la piattaforma dell’agente di intelligenza artificiale o l’applicazione personalizzata che stai connettendo dispone di un URL di callback (reindirizzamento) OAuth univoco per cliente, ad esempio un URL contenente una connessione o un ID tenant, l’amministratore di Workfront deve aggiungere tale URL all’elenco degli URL di reindirizzamento autorizzati della tua organizzazione prima che tu possa eseguire l’autenticazione.
+
+>[!NOTE]
+>
+>Questo è necessario solo per le integrazioni che non sono una delle piattaforme supportate in modo nativo, come Claude o Copilot. Se utilizzi una piattaforma supportata in modalità nativa, consulta la sezione relativa a tale piattaforma in questo articolo.
+
+L’amministratore di Workfront aggiunge gli URL di reindirizzamento autorizzati in Preferenze di sistema.
+
+Per istruzioni sull&#39;aggiunta di URL di reindirizzamento per i server MCP, vedere [Aggiungere o rimuovere un URL di reindirizzamento autorizzato](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url).
+
+Dopo l’aggiunta dell’URL, puoi collegare l’applicazione personalizzata o la piattaforma agente all’URL del server MCP di Workfront:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+Durante la connessione, ti verrà richiesto di eseguire l’autenticazione utilizzando le credenziali di Adobe ID.
+
+>[!IMPORTANT]
+>
+>Gli URL di callback devono corrispondere esattamente. Workfront non supporta la corrispondenza di caratteri jolly o prefissi per gli URL di callback personalizzati. Solo gli URL inclusi in questo elenco possono completare l&#39;accesso per gli agenti MCP; rimuovi immediatamente un URL se l&#39;agente associato viene ritirato o compromesso.
+
+Se l&#39;URL di callback non è presente nell&#39;elenco, la richiesta di autenticazione viene rifiutata. Chiedi all’amministratore di Workfront di confermare che l’URL sia stato immesso esattamente come previsto dalla tua integrazione.
+
+</div>
 
 ## Verifica la connessione
 
