@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -21,7 +33,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 >[!NOTE]
 >
->Anteprima: 24 settembre 2026
+>Anteprima: 25 settembre 2026
 >Versione rapida di produzione: 14 ottobre 2026
 >Produzione per tutti: 15 ottobre 2026
 
@@ -37,7 +49,7 @@ Per informazioni, vedere [Condividere i campi di Workfront Planning](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 24 settembre 2026
+>Anteprima: 25 settembre 2026
 >Versione rapida di produzione: 14 ottobre 2026
 >Produzione per tutti: 15 ottobre 2026
 
@@ -51,7 +63,7 @@ Per informazioni, vedere [Condividi record di Planning](/help/quicksilver/planni
 
 >[!NOTE]
 >
->Anteprima: 24 settembre 2026
+>Anteprima: 25 settembre 2026
 >Versione rapida di produzione: 14 ottobre 2026
 >Produzione per tutti: 15 ottobre 2026
 
@@ -63,7 +75,7 @@ Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workf
 
 >[!NOTE]
 >
->Anteprima: 24 settembre 2026
+>Anteprima: 25 settembre 2026
 >Versione rapida di produzione: 14 ottobre 2026
 >Produzione per tutti: 15 ottobre 2026
 
@@ -73,11 +85,11 @@ Inoltre, ora è possibile modificare le opzioni di un campo direttamente dal mod
 
 Per informazioni, vedere [Creare il modulo di richiesta](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Configurare le funzionalità per ogni livello di accesso per modulo di richiesta
+## Configurare le autorizzazioni predefinite per i richiedenti nei moduli di richiesta Planning
 
 >[!NOTE]
 >
->Anteprima: 24 settembre 2026
+>Anteprima: 25 settembre 2026
 >Versione rapida di produzione: 14 ottobre 2026
 >Produzione per tutti: 15 ottobre 2026
 
@@ -87,7 +99,7 @@ I richiedenti possono ottenere le seguenti autorizzazioni per una richiesta invi
 
 Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Compilazione modulo AI ora richiama i dati dai record a cui si fa riferimento con un collegamento
+## Il riempimento del modulo AI estrae i dati dai record a cui si fa riferimento con un collegamento
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ Il riempimento di un modulo AI ora può recuperare i dati dei campi direttamente
 
 Per informazioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker è ora disponibile in Workfront Planning
+## CX Coworker disponibile in Workfront Planning
 
 >[!NOTE]
 >
@@ -108,7 +120,7 @@ Per informazioni, consulta [Utilizzare il riempimento del modulo basato su IA pe
 
 CX Coworker è ora disponibile in Workfront Planning. Ora è possibile accedere a CX Coworker in un pannello disponibile in Workfront Planning.
 
-CX Coworker Chat è un&#39;interfaccia di conversazione per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
+CX Collaborator Chat è un&#39;interfaccia conversazionale per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
 
 Coworker rispetta i controlli di accesso esistenti dell’organizzazione, con accesso in sola lettura per impostazione predefinita, e gli amministratori di sistema controllano quando gli utenti ottengono l’accesso in scrittura.
 
@@ -118,9 +130,9 @@ Coworker sta sostituendo l’attuale Assistente AI come metodo più potente per 
 >
 >CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
 
-Per ulteriori informazioni, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Per ulteriori informazioni, vedere [Cenni preliminari su CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## È stata rimossa l’icona Assistente IA nella casella Anteprima dettagli in preparazione all’avvio di CX Coworker.
+## Icona Assistente IA rimossa dalla casella di anteprima Dettagli record in preparazione all’avvio di CX Coworker
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Per ulteriori informazioni, vedere [Configurare le regole business dei tipi di r
 >* **Crea moduli di richiesta** e **Gestisci moduli di richiesta** è stato modificato in **Moduli di richiesta**
 >* **Gestione automazioni** è stato modificato in **Automazioni**
 
-## Introduzione di settimane personalizzate per la visualizzazione timeline
+## Settimane personalizzate per la visualizzazione timeline
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ Le viste Timeline ora includono Comprimi tutto ed Espandi tutte le opzioni per l
 
 Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Visualizzare i nomi dei gruppi completi e ridimensionare il pannello di raggruppamento nella vista Timeline
+## Visualizzare i nomi dei gruppi completi e ridimensionare il pannello di raggruppamento nella vista timeline
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Per informazioni, consulta [Abilità disponibili per l&#39;installazione diretta
 >Versione rapida di produzione: 13 agosto 2026
 >Produzione per tutti: 15 ottobre 2026
 
-L’esperienza di trascinamento e rilascio di righe nella vista tabella è stata migliorata visivamente.
+L’esperienza di trascinamento di singole righe nella vista tabella è stata migliorata visivamente.
 
 Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -356,9 +368,6 @@ Questo aggiornamento include le seguenti funzionalità:
 
 
 Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Mostra nuovo indicatore di commento per un record nella vista tabella
 

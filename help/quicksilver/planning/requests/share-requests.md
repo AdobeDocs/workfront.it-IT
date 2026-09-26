@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 5%
 ---
 # Condividere le richieste Planning
@@ -86,6 +100,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * Persone e team diversi possono disporre di livelli di accesso diversi sulla stessa richiesta.
 * Le autorizzazioni possono essere assegnate tramite più entità. Se un utente dispone delle autorizzazioni Contribute per una richiesta ma il gruppo o il ruolo dispone delle autorizzazioni View (Visualizzazione), mantiene il livello di autorizzazione più alto, ovvero Contribute.
+* Le richieste ereditano le autorizzazioni dall’area di lavoro e dal tipo di record. Non è possibile rimuovere o modificare le autorizzazioni ereditate per le richieste Planning.
 
 ## Condividere una richiesta
 
@@ -110,7 +125,14 @@ Assicurati di utilizzare la nuova esperienza di richiesta.
 1. (Facoltativo) Per ogni livello di autorizzazione, fai clic sull&#39;icona dell&#39;autorizzazione granulare e seleziona o deseleziona le autorizzazioni granulari, ad esempio **Modifica**, **Commento**, **Condividi** o **Elimina**.
 
    ![Autorizzazioni granulari per le richieste](assets/granular-permissions-on-requests.png)
+1. (Facoltativo) Espandi la riga Autorizzazioni ereditate per visualizzare chi ottiene le autorizzazioni dall’area di lavoro e il tipo di record.
+
+   >[!TIP]
+   >
+   >Non è possibile rimuovere o modificare le autorizzazioni ereditate per le richieste Planning.
+
 1. Fai clic su **Salva**.
+
 
    La richiesta viene condivisa con le entità selezionate.
 

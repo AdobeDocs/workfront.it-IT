@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 3%
 ---
 
@@ -138,20 +152,19 @@ Puoi utilizzare CX Coworker per eseguire le seguenti azioni:
 
 ## Accedere a CX Coworker nell&#39;area Planning
 
-
 1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) in alto a sinistra, quindi fai clic su **Planning**.
 
    Verrà visualizzata l&#39;area Pianificazione.
 
-   Individua l&#39;icona **AI** ![AI](assets/ai-icon.png) nell&#39;angolo superiore destro della pagina oppure continua con i passaggi seguenti.
+   Individua l&#39;icona **Collaboratore** ![icona Collaboratore](assets/coworker-icon.png) nell&#39;angolo superiore destro della pagina oppure continua con i passaggi seguenti.
 
 1. Fai clic su una **scheda dell&#39;area di lavoro**.
 
 1. Fare clic su una **scheda del tipo di record**.
 
-1. Fai clic su un **record** per aprire la pagina **Dettagli** del record, quindi fai clic sull&#39;opzione Apri in .
+1. Fai clic su un **record** per aprire la pagina **Dettagli** del record, quindi fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-workspace-on-new-tab-icon.png).
 
-1. Fai clic sull&#39;icona **CX Coworker** nell&#39;angolo superiore destro dello schermo.
+1. Fai clic sull&#39;icona **CX Coworker** ![Coworker](assets/coworker-icon.png) nell&#39;angolo superiore destro dello schermo.
 
 1. Nello spazio disponibile, inizia a digitare i comandi per CX Coworker, quindi al termine fai clic su Invio.
 

@@ -9,30 +9,35 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 5%
-
 ---
-
 # Assegnare il lavoro in blocco utilizzando il bilanciamento dei carichi di lavoro
 
 <!--Audited: 07/2024-->
 
 Puoi assegnare risorse a più attività e problemi in blocco utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
 
-Per informazioni generali sull&#39;assegnazione del lavoro a utenti e collaboratori attività tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per informazioni generali sull&#39;assegnazione del lavoro a utenti e agenti di lavoro tramite il Bilanciatore dei carichi di lavoro, vedere [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisiti di accesso
 

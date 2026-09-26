@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '14577'
-ht-degree: 91%
+source-wordcount: '14588'
+ht-degree: 92%
 ---
 # Guida di Workfront {#using}
 
@@ -268,6 +268,7 @@ ht-degree: 91%
       * {hide-from-toc}[Attività rilascio funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Attività della versione del primo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Attività della versione del secondo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Attività della versione del quarto trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Attività sulla versione pianificazione scenari di Adobe Workfront {#scenario-planner-release}
       * [Attività sulla versione pianificazione scenari di Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Pianificazione scenari di Adobe Workfront con la versione 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1940,13 +1941,13 @@ ht-degree: 91%
     * [Approvazioni dei documenti unificate: indice degli articoli](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Funzionalità disponibile per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Introduzione a Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Introduzione al revisore IA di Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Panoramica dell’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Autorizzazioni di oggetto e panoramica del livello di accesso per il modello di archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [Passa dalle approvazioni di documenti legacy alle approvazioni unificate](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Configurare e gestire le approvazioni di risorse e documenti {#manage-asset-review-and-approval}
       * [Configurare e gestire approvazioni unificate: indice degli articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [Creare e gestire i brand per il revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [Creare e gestire i brand per il revisore IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Creare una richiesta di approvazione o una revisione del documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1957,7 +1958,7 @@ ht-degree: 91%
       * [Creare una dashboard del rapporto per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Rivedere e approvare risorse e documenti {#review-and-approve-documents}
       * [Rivedere e approvare documenti: indice degli articoli](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [Visualizzare il punteggio e il feedback del revisore dei contenuti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [Visualizzare il punteggio e il feedback del revisore IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [Rivedere e approvare un documento nel visualizzatore Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
