@@ -2,28 +2,35 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Aggiungi il backlog al Kanban Board
-description: Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board. La colonna [!UICONTROL Backlog] nella  [!DNL Kanban] bacheca contiene i primi 20 elementi del backlog nella [!DNL Kanban] bacheca. Per poter essere visualizzate nel backlog, le attività e le Issues devono appartenere ad un progetto con uno stato che equivale a Current (Corrente).
+description: Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board. La colonna [!UICONTROL Backlog] nella bacheca [!DNL Kanban] contiene i primi 20 elementi del backlog nella bacheca [!DNL Kanban]. Per poter essere visualizzate nel backlog, le attività e le Issues devono appartenere ad un progetto con uno stato che equivale a Current (Corrente).
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-XXeqTP5uer2lw7mVRazM0C3X8LVDjkUblO1hMfuxWA
+TQID: 'https://experienceleague.adobe.com/-XXeqTP5uer2lw7mVRazM0C3X8LVDjkUblO1hMfuxWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '244'
 ht-degree: 13%
-
 ---
-
 # Aggiungi il backlog alla bacheca [!UICONTROL Kanban]
 
 Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board. La colonna [!UICONTROL Backlog] nella bacheca [!DNL Kanban] contiene i primi 20 elementi del backlog nella bacheca [!DNL Kanban]. Le attività e i problemi devono appartenere a un progetto con uno stato che equivale a [!UICONTROL Corrente] per essere visualizzati nel backlog.

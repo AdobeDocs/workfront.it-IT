@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 3%
-
 ---
-
 # Panoramica delle aree di lavoro
 
 <!--
@@ -41,10 +48,10 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
 * Workfront Planning non include aree di lavoro preconfigurate. Devi crearli in base alle esigenze della tua organizzazione.
 * È possibile creare aree di lavoro nei modi seguenti:
 
-   * Da zero
-   * Utilizzo di un modello. I modelli contengono un numero preconfigurato di tipi di record e i relativi campi.
-   * Utilizzo di Planning Designer basato sull’intelligenza artificiale. Questa funzione è attualmente in Beta.
-   * Utilizzo di un bundle di modelli per più aree di lavoro.
+  * Da zero
+  * Utilizzo di un modello. I modelli contengono un numero preconfigurato di tipi di record e i relativi campi.
+  * Utilizzo di Planning Designer basato sull’intelligenza artificiale. Questa funzione è attualmente in Beta.
+  * Utilizzo di un bundle di modelli per più aree di lavoro.
 
   Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -53,9 +60,9 @@ Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità 
   Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Le aree di lavoro vengono visualizzate nelle seguenti schede nell&#39;area Pianificazione:
 
-   * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
-   * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema. Questa opzione è disponibile solo per gli amministratori di sistema.
-   * **Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere le visualizzazioni con altri utenti.
+  * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
+  * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema. Questa opzione è disponibile solo per gli amministratori di sistema.
+  * **Aree di lavoro di esempio**: visualizza esempi incorporati di aree di lavoro basate su best practice. Non è possibile modificare le aree di lavoro, i tipi di record o aggiungere record o campi, ma è possibile aggiungere, modificare e condividere le visualizzazioni con altri utenti.
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ Considera quanto segue sull’utilizzo della ricerca globale:
 
 * È possibile accedere alla ricerca dalla pagina di destinazione di Planning o da qualsiasi pagina di Planning premendo la seguente combinazione di tastiera:
 
-   * CTRL+K per Windows
-   * ⌘+K per Mac
+  * CTRL+K per Windows
+  * ⌘+K per Mac
 * Gli ultimi 7 risultati di ogni oggetto vengono visualizzati nella casella di ricerca.
 * È possibile eseguire una ricerca generale oppure selezionare un oggetto e cercare singoli elenchi.
 

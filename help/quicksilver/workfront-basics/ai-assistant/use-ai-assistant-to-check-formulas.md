@@ -7,23 +7,26 @@ feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/cElkORWwjUT-4GQXpPXMN0sKfhOloSnxEbS15nt3cpU
+TQID: 'https://experienceleague.adobe.com/cElkORWwjUT-4GQXpPXMN0sKfhOloSnxEbS15nt3cpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 73
+source-wordcount: '73'
 ht-degree: 9%
-
 ---
-
 # Generare o rivedere formule di campi calcolati con Assistente IA
 
 >[!IMPORTANT]
 >
->* A partire da settembre 2026, AI Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* A partire da settembre 2026, IA Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* La funzionalità di generazione di formule tramite l’Assistente IA è stata rimossa da Adobe Workfront.
 
 

@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk
+TQID: 'https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: '968'
 ht-degree: 6%
-
 ---
-
 # Visualizzare utilizzo rapporti
 
 <!--
@@ -97,9 +102,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
    * **Ultimi 10 utenti**: visualizza i nomi degli ultimi 10 utenti che hanno visualizzato il report.
    * **Visualizzazioni**: visualizza il numero di visualizzazioni in uno dei seguenti intervalli di tempo:
 
-      * **Questo Mese, Trimestre, Anno**
-      * **Ultimo mese, trimestre, anno**
-      * **Tutte le visualizzazioni**: visualizza un conteggio complessivo per tutte le visualizzazioni nel report
+     * **Questo Mese, Trimestre, Anno**
+     * **Ultimo mese, trimestre, anno**
+     * **Tutte le visualizzazioni**: visualizza un conteggio complessivo per tutte le visualizzazioni nel report
 
    * **Ultima visualizzazione di**: visualizza informazioni sull&#39;ultimo utente che ha visualizzato il report
    * **Data ultima visualizzazione**: visualizza la data dell&#39;ultima visualizzazione del report
@@ -120,9 +125,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    * **Visualizzazioni**: visualizza il numero di visualizzazioni in uno dei seguenti intervalli di tempo:
 
-      * **Questo Mese, Trimestre, Anno**
-      * **Ultimo mese, trimestre, anno**
-      * **Tutte le visualizzazioni**
+     * **Questo Mese, Trimestre, Anno**
+     * **Ultimo mese, trimestre, anno**
+     * **Tutte le visualizzazioni**
 
    * **Ultima visualizzazione di**: visualizza informazioni sull&#39;ultimo utente che ha visualizzato il report
    * **Data ultima visualizzazione**: visualizza la data dell&#39;ultima visualizzazione del report

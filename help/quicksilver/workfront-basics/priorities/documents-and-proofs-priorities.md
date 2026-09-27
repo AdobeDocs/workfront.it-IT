@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 14%
-
+source-wordcount: '592'
+ht-degree: 19%
 ---
-
 # Caricare documenti e creare bozze in Priorità
 
 È possibile caricare documenti e creare bozze in Priorità.
@@ -77,8 +82,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
 1. Verifica di essere nella scheda **Attività** o **Problemi** nel pannello di riepilogo.
 1. Fare clic sull&#39;icona **Carica file** ![Carica file](assets/upload-file-icon.png).
-1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
-o
+1. Trascina e rilascia il tuo file o usa Cmd/Ctrl + V per incollarlo dagli appunti
+oppure
 Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
    ![Aggiungi file](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).
@@ -96,8 +101,8 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
 1. Nell&#39;elenco lavori fare clic sul nome dell&#39;elemento di lavoro.
 1. Fai clic sulla scheda **Documenti** nella parte superiore della schermata.
 1. Fai clic su **Carica documento** nell&#39;angolo superiore destro, quindi seleziona **Documento**.
-1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
-o
+1. Trascina e rilascia il tuo file o usa Cmd/Ctrl + V per incollarlo dagli appunti
+oppure
 Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
    ![Aggiungi file](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).

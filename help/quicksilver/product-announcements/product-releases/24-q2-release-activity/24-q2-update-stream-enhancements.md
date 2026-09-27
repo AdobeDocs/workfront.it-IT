@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+TQID: 'https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '744'
 ht-degree: 4%
-
 ---
-
 # Miglioramenti al flusso di aggiornamenti e alle notifiche del secondo trimestre 2024
 
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamento e alle notifiche apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -67,7 +73,7 @@ Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti
 
 Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione di questa funzione specifica inizia alle 2:47)
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:47).
 
 ## La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura
 
@@ -79,7 +85,7 @@ I commenti aggiunti ai record delle attività di sistema nell’esperienza di co
 
 Per ulteriori informazioni, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione di questa funzione specifica inizia alle 2:00)
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:00).
 
 ## Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema
 
@@ -93,7 +99,7 @@ La scheda Tutto è una scheda di sola visualizzazione. Non è possibile risponde
 
 Per ulteriori informazioni, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione di questa funzione specifica inizia da 0:31)
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 0:31).
 
 ## È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo
 

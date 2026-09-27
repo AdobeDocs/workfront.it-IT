@@ -1,30 +1,40 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Visualizza e gestisci  [!DNL Adobe Workfront]  notifiche in Adobe Creative Cloud
-description: In Adobe Creative Cloud puoi ricevere da [!DNL Adobe Workfront] notifiche sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o commenti e modifiche agli elementi a cui sei associato.
+title: Visualizza e gestisci le notifiche di [!DNL Adobe Workfront] in Adobe Creative Cloud
+description: Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/q6ycWMAHCLJOlbBwKIuCg--RPrBj8i7b6Ivt2qvFdv8
+TQID: 'https://experienceleague.adobe.com/q6ycWMAHCLJOlbBwKIuCg--RPrBj8i7b6Ivt2qvFdv8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 301
+source-wordcount: '303'
 ht-degree: 7%
-
 ---
-
 # Visualizza e gestisci [!DNL Adobe Workfront] notifiche da [!DNL Adobe Creative Cloud]
 
 Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.

@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 309
-ht-degree: 19%
-
+source-wordcount: '324'
+ht-degree: 22%
 ---
-
 # Caricare file in Priorità
 
 È possibile caricare i file dall&#39;elenco delle priorità o dai singoli elementi di lavoro. I file caricati da Priorità vengono visualizzati nella scheda Documenti dell’elemento di lavoro.
@@ -66,8 +71,8 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic su **Carica**.
    ![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 1. (Facoltativo) Nella casella **Carica file** selezionare una cartella.
-1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
-o
+1. Trascina e rilascia il tuo file o usa Cmd/Ctrl + V per incollarlo dagli appunti
+oppure
 Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
    ![Aggiungi file](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).

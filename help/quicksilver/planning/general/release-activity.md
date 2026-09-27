@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 2%
-
 ---
-
 # Attività sulla versione di pianificazione di Adobe Workfront per il 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Sono state implementate nuove limitazioni per gli oggetti di Workfront Planning,
 
 * Workfront Planning consente di disporre di:
 
-   * Aree di lavoro illimitate
+  * Aree di lavoro illimitate
 
-   * 25.000 record per area di lavoro
+  * 25.000 record per area di lavoro
 
-   * 500.000 record totali per l’istanza
+  * 500.000 record totali per l’istanza
 
 * Workfront Planning Plus consente di:
 
-   * Aree di lavoro illimitate
+  * Aree di lavoro illimitate
 
-   * 500.000 record per workspace
+  * 500.000 record per workspace
 
-   * 2 milioni di record totali per la tua istanza.
+  * 2 milioni di record totali per la tua istanza.
 
 Per ulteriori informazioni, vedere [Panoramica sulla limitazione degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
@@ -149,10 +161,10 @@ In questo aggiornamento sono incluse le seguenti funzionalità:
 
 * A seconda della configurazione, il modulo di richiesta può visualizzare tutti i campi del tipo di record, ad eccezione dei campi dei tipi seguenti:
 
-   * People
-   * Campi connessi (include le connessioni con le risorse Experience Manager)
-   * Campi di ricerca connessi
-   * Formula
+  * People
+  * Campi connessi (include le connessioni con le risorse Experience Manager)
+  * Campi di ricerca connessi
+  * Formula
 
 Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -179,13 +191,13 @@ Anteprima e produzione: 28 agosto 2024
 
 * Modificare il colore delle barre dei record o dei relativi raggruppamenti in modo che corrispondano a una delle seguenti opzioni:
 
-   * Colore del tipo di record
+  * Colore del tipo di record
 
-   * Colore di un campo selezionato
+  * Colore di un campo selezionato
 
-   * Colore del raggruppamento
+  * Colore del raggruppamento
 
-   * Nessun colore (impostazione predefinita)
+  * Nessun colore (impostazione predefinita)
 
 Quando si abbinano i colori a un determinato campo, è possibile selezionare solo i campi con opzioni codificate per colore.
 
@@ -494,9 +506,9 @@ Questo aggiornamento include i seguenti miglioramenti:
 
 * Il modello Gestione marketing è stato rimosso. Abbiamo aggiunto i seguenti modelli per la gestione del marketing e consigliamo di utilizzarne uno appropriato a seconda della complessità dei flussi di lavoro:
 
-   * Base: Gestione del marketing
-   * Avanzato: Gestione del marketing
-   * Enterprise: Gestione del marketing
+  * Base: Gestione del marketing
+  * Avanzato: Gestione del marketing
+  * Enterprise: Gestione del marketing
 
 Per ulteriori informazioni, consulta:
 
@@ -622,9 +634,9 @@ Alcune delle informazioni sulla pagina di destinazione includono:
 
 * Se sei un amministratore di Workfront, vengono visualizzate le seguenti schede:
 
-   * Aree di lavoro personali: visualizza solo le aree di lavoro create.
+  * Aree di lavoro personali: visualizza solo le aree di lavoro create.
 
-   * Altre aree di lavoro: visualizza le aree di lavoro create o condivise con l&#39;utente.
+  * Altre aree di lavoro: visualizza le aree di lavoro create o condivise con l&#39;utente.
 
 * Collegamenti alla documentazione e all&#39;attività di rilascio per Workfront Planning
 

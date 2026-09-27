@@ -10,20 +10,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mZDdIAnoxjbsCZ2FO0Y4FDF2c-2c-5oXR-S-o-7vQ5Q
+TQID: 'https://experienceleague.adobe.com/mZDdIAnoxjbsCZ2FO0Y4FDF2c-2c-5oXR-S-o-7vQ5Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 182
+source-wordcount: '182'
 ht-degree: 31%
-
 ---
-
 # Panoramica di Workfront Data Connect
 
 Workfront Data Connect consente di accedere ai dati Workfront utilizzando la tecnologia Snowflake, consentendo di rispondere a domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di analizzare i propri dati utilizzando strumenti di visualizzazione dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.

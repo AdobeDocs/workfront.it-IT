@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 8%
-
 ---
-
 # Panoramica sui tipi di record
 
 <!--
@@ -51,8 +58,8 @@ Per informazioni sulla creazione di tipi di record, consulta [Creare tipi di rec
 
 * Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono creati nelle sezioni dell&#39;area di lavoro riportate di seguito.
 
-   * **Tipi di record operativi**: tipi di record che rappresentano piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity sono tipi di record operativi.
-   * **Tassonomie**: tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico sono tassonomie.
+  * **Tipi di record operativi**: tipi di record che rappresentano piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity sono tipi di record operativi.
+  * **Tassonomie**: tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico sono tassonomie.
 
   È possibile rinominare o eliminare sezioni e tipi di record oppure crearne altri.
 
@@ -63,8 +70,8 @@ Per informazioni sulla creazione di tipi di record, consulta [Creare tipi di rec
   Per informazioni sui limiti relativi al numero di tipi di record che è possibile avere in un&#39;istanza dell&#39;area di lavoro o di Workfront, vedere [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 * Per utilizzare i tipi di record in più aree di lavoro, è possibile designare i tipi di record come globali o collegabili.
 
-   * I tipi di record globali possono essere aggiunti come tipi di record esistenti ad altre aree di lavoro.
-   * I tipi di record collegabili possono essere collegati ad altre aree di lavoro.
+  * I tipi di record globali possono essere aggiunti come tipi di record esistenti ad altre aree di lavoro.
+  * I tipi di record collegabili possono essere collegati ad altre aree di lavoro.
 
   Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 

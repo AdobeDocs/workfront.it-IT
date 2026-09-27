@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs
+TQID: 'https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 # Panoramica sulla consegna del rapporto
 
 <!-- Audited: 11/2024 -->
@@ -75,20 +81,20 @@ Esistono diversi limiti di dimensione che influiscono sulla visualizzazione dei 
 
   Questi limiti si applicano a:
 
-   * Esportazione manuale di un report.
-   * Un rapporto pianificato.
-   * Un’esportazione tramite un’integrazione API.
-   * Dati esportati tramite kick-start.
+  * Esportazione manuale di un report.
+  * Un rapporto pianificato.
+  * Un’esportazione tramite un’integrazione API.
+  * Dati esportati tramite kick-start.
 
-     Per ulteriori informazioni sull&#39;esportazione di dati tramite Kick-Start, vedere l&#39;articolo [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Per ulteriori informazioni sull&#39;esportazione di dati tramite Kick-Start, vedere l&#39;articolo [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >È possibile esportare 50.000 righe in un file di avvio, ma solo in un file in formato Excel.
+    >[!NOTE]
+    >
+    >È possibile esportare 50.000 righe in un file di avvio, ma solo in un file in formato Excel.
 
-   * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
+  * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
 
-     Per ulteriori informazioni sull&#39;esportazione delle informazioni sull&#39;utilizzo per un progetto, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+    Per ulteriori informazioni sull&#39;esportazione delle informazioni sull&#39;utilizzo per un progetto, vedere [Panoramica del report Utilizzo risorse](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65.530 collegamenti ipertestuali:** Si tratta di un limite imposto da Excel ai documenti che contengono più di 65.530 collegamenti ipertestuali. Non è possibile aprire questi documenti quando vengono esportati manualmente o inviati in un report consegnato. Si noti che un documento di Excel può contenere solo 200 righe di dati, ma se il documento contiene più di 65.530 collegamenti, il documento non si apre. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.
 * **256 colonne**: limite imposto da Excel ai documenti contenenti più di 256 colonne. Questi documenti non possono essere esportati manualmente o inviati in un report consegnato. Questo limite esiste solo per i file Excel e non per gli altri formati supportati.

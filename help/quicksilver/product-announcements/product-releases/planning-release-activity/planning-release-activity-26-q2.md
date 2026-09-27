@@ -9,18 +9,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs
+TQID: 'https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: '2280'
 ht-degree: 1%
-
 ---
-
 # Attività della versione del secondo trimestre 2026 per Adobe Workfront Planning
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del secondo trimestre 2026.
@@ -34,7 +40,10 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 >[!NOTE]
 >
->Anteprima: 16 aprile 2026>Rilascio rapido produzione: 16 aprile 2026>Produzione per tutti: 16 aprile 2026>[!BADGE Pianificazione off]{type=Neutral}
+>Anteprima: 16 aprile 2026
+>Versione rapida di produzione: 16 aprile 2026
+>Produzione per tutti: 16 aprile 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 È ora possibile accedere a Experience Manager Content Advisor in Workfront Planning. Contenuto verificato consente di:
 
@@ -51,7 +60,9 @@ Per ulteriori informazioni su come accedere a Contenuto verificato da Workfront 
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stata aggiunta una nuova impostazione per regolare l’altezza delle righe nella vista a elenco.
 
@@ -63,7 +74,9 @@ Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/p
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per fare in modo che i destinatari comprendano sempre la visualizzazione ricevuta quando aprono un collegamento condiviso pubblicamente a un tipo di record, alla pagina di visualizzazione condivisa è stato aggiunto il nome del tipo di record, oltre all’icona di visualizzazione e al nome della visualizzazione.
 
@@ -73,7 +86,9 @@ Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per una migliore organizzazione delle informazioni, è stata aggiunta la possibilità di raggruppare gli elementi nella pagina Moduli di richiesta di un tipo di record.
 
@@ -85,7 +100,9 @@ Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/p
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile espandere gruppi, team, società e ruoli per visualizzare i relativi membri quando si condivide un&#39;area di lavoro o una visualizzazione con essi. Prima di questo miglioramento, gli elenchi di appartenenze erano disponibili per questi oggetti solo quando si condividevano tipi di record.
 
@@ -95,7 +112,9 @@ Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/a
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Stiamo introducendo un pacchetto modello per semplificare l’implementazione di Workfront Planning all’interno della tua organizzazione. Installando il modello di framework delle best practice, è possibile creare fino a sei aree di lavoro contenenti tutte le informazioni necessarie per iniziare a spostare la pianificazione strategica in Workfront.
 
@@ -111,7 +130,9 @@ Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile cercare aree di lavoro, tipi di record o visualizzazioni da qualsiasi pagina di Workfront Planning utilizzando le combinazioni di tasti seguenti da qualsiasi pagina di Planning:
 
@@ -126,7 +147,9 @@ Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile applicare una formattazione condizionale aggiuntiva a un elenco di progetti nella pagina connessa di un record.
 
@@ -146,7 +169,9 @@ Per informazioni, vedere [Gestire la visualizzazione elenco](/help/quicksilver/p
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Nella vista a elenco sono stati aggiunti i seguenti nomi personalizzati per un filtro team, gruppo, azienda e ruolo:
 
@@ -166,7 +191,9 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 26 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 marzo 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stato riprogettato il modo in cui le breadcrumb vengono visualizzate tra i tipi di record e i record. Ora, quando si fa clic su Altro nella riga delle breadcrumb, i nomi dei record e degli oggetti vengono visualizzati su più righe. Prima di questo miglioramento, facendo clic su Altro venivano visualizzati i nomi dei record e degli oggetti nei menu a discesa.
 
@@ -176,7 +203,9 @@ Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrum
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 12 marzo 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stato aggiunto un nuovo tipo di campo per ID record. Questo è un indicatore alfanumerico generato dal sistema che identifica in modo univoco ogni record. Il campo viene visualizzato in qualsiasi visualizzazione record e nell&#39;area dei dettagli del record.
 
@@ -187,7 +216,9 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 
 >[!NOTE]
 >
->Anteprima: 12 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 12 marzo 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora è possibile consentire agli utenti non amministratori che sono responsabili dell’area di lavoro di rendere collegabile un tipo di record da aree di lavoro specifiche.
 
@@ -199,7 +230,9 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile creare automaticamente record di Planning o oggetti Workfront in base a una modifica del campo record utilizzando le automazioni di Planning.
 
@@ -211,7 +244,9 @@ Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora solo gli amministratori di sistema possono scegliere tra le seguenti opzioni durante la condivisione di un’area di lavoro:
 
@@ -228,7 +263,9 @@ Per informazioni, consulta Condividere le aree di lavoro (help/quicksilver/plann
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora è possibile ordinare i raggruppamenti nella vista timeline. Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
@@ -236,7 +273,9 @@ Ora è possibile ordinare i raggruppamenti nella vista timeline. Per informazion
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile collegare i campi utente di Workfront ai tipi di record di Workfront Planning aggiungendo una nuova connessione tra un oggetto di Workfront e un tipo di record di Workfront Planning.
 
@@ -249,7 +288,9 @@ Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/p
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile visualizzare gli utenti che aggiornano i campi record contemporaneamente facendo clic sull&#39;indicatore di presenza in tempo reale nell&#39;angolo superiore destro di una cella nella visualizzazione tabella. Gli utenti elencati nell&#39;angolo superiore destro della visualizzazione tabella record sono quelli che hanno la stessa visualizzazione aperta.
 
@@ -262,7 +303,9 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Quando si condivide la vista a elenco nella pagina dei record connessi ai progetti di un record con autorizzazioni di visualizzazione, l&#39;utente con cui si condivide la vista può modificare gli elementi di visualizzazione e tali modifiche vengono salvate nelle preferenze personali dell&#39;utente. È ora possibile salvare una copia della visualizzazione che includa le modifiche apportate o ripristinare le impostazioni originali della visualizzazione condivisa. Possono inoltre condividere la vista copiata con altri utenti.
 
@@ -274,7 +317,9 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione elenco](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile applicare la formattazione condizionale ai progetti in una visualizzazione elenco nella pagina Record connessi di un record. Questa funzionalità non esisteva nella vista a elenco prima di questo miglioramento.
 
@@ -284,7 +329,9 @@ Per ulteriori informazioni, vedere [Gestione visualizzazione elenco](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 5 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 5 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stata migliorata la visibilità dei tipi di record globali aggiunti a un’area di lavoro secondaria da un’area di lavoro principale. I miglioramenti includono:
 
@@ -298,7 +345,9 @@ Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra ar
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stata introdotta un&#39;impostazione che consente di visualizzare o nascondere i campi record nella casella di anteprima Dettagli di un record, in base ai campi visualizzati nella visualizzazione tabella. 
 
@@ -310,7 +359,9 @@ Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilv
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora puoi aggiungere il campo di connessione &quot;Richiesta originale&quot; a un tipo di record. Quando si crea un record inviando un modulo di richiesta Planning, il nome della richiesta originale viene inserito nel campo Connessione richiesta originale.
 
@@ -322,7 +373,9 @@ Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/plann
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per rendere le approvazioni delle richieste più dinamiche e flessibili, è stata aggiunta la possibilità di creare regole di approvazione. Queste regole consentono di indirizzare le richieste a diversi approvatori in base ai valori dei campi nella richiesta.
 
@@ -336,7 +389,9 @@ Per informazioni e istruzioni, vedere [Aggiungere regole di approvazione a un mo
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 Sono stati rimossi i tipi di campo Data di approvazione e Approvato da.
 Le informazioni esistenti nei campi Data approvata e Approvato da precedenti sono state spostate nei campi Data approvata richiesta originale e Approvato da.
@@ -347,7 +402,9 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 
 >[!NOTE]
 >
->Anteprima: 22 gennaio 2026>Rilascio rapido produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 22 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 L’e-mail di un utente viene ora visualizzata quando lo si aggiunge alle seguenti aree:
 
@@ -364,7 +421,9 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 
 >[!NOTE]
 >
->Anteprima: 14 gennaio 2026>Rilascio rapido produzione: 12 febbraio 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 14 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile aggiungere campi Persone ai campi di ricerca quando si collegano due tipi di record di Planning.
 

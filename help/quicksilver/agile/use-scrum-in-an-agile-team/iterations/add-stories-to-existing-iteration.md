@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '601'
 ht-degree: 7%
-
 ---
-
 # Aggiungere storie a un’iterazione esistente
 
 È possibile aggiungere brani a un&#39;iterazione in uno dei seguenti modi:
@@ -69,23 +76,23 @@ Per impostazione predefinita, quando si aggiunge un&#39;attività esistente a un
 
 * L&#39;attività utilizza la data di inizio dell&#39;iterazione quando:
 
-   * Il progetto non ha una [!UICONTROL Data inizio pianificata] impostata.
-   * La [!UICONTROL data di inizio pianificata] del progetto è *precedente* o *uguale* alla data di inizio dell&#39;iterazione.
+  * Il progetto non ha una [!UICONTROL Data inizio pianificata] impostata.
+  * La [!UICONTROL data di inizio pianificata] del progetto è *precedente* o *uguale* alla data di inizio dell&#39;iterazione.
 
 * L&#39;attività utilizza la [!UICONTROL Data inizio pianificata] del progetto quando:
 
-   * La [!UICONTROL data di inizio pianificata] del progetto è *successiva* alla data di inizio dell&#39;iterazione.
+  * La [!UICONTROL data di inizio pianificata] del progetto è *successiva* alla data di inizio dell&#39;iterazione.
 
 ### Attività [!UICONTROL Data di completamento Pianificata]
 
 * L&#39;attività utilizza la data di fine dell&#39;iterazione quando:
 
-   * Il progetto non ha una [!UICONTROL Data di completamento Pianificata] impostata.
-   * La [!UICONTROL data inizio pianificata] del progetto è *precedente o uguale a* la data inizio dell&#39;iterazione o la [!UICONTROL data completamento pianificata] del progetto è *precedente o uguale a* la data fine dell&#39;iterazione.
+  * Il progetto non ha una [!UICONTROL Data di completamento Pianificata] impostata.
+  * La [!UICONTROL data inizio pianificata] del progetto è *precedente o uguale a* la data inizio dell&#39;iterazione o la [!UICONTROL data completamento pianificata] del progetto è *precedente o uguale a* la data fine dell&#39;iterazione.
 
 * L&#39;attività utilizza la [!UICONTROL data di completamento pianificata] del progetto quando:
 
-   * La [!UICONTROL data inizio pianificata] del progetto è *successiva* alla data inizio dell&#39;iterazione e la [!UICONTROL data completamento pianificata] del progetto è *successiva* alla data fine dell&#39;iterazione.
+  * La [!UICONTROL data inizio pianificata] del progetto è *successiva* alla data inizio dell&#39;iterazione e la [!UICONTROL data completamento pianificata] del progetto è *successiva* alla data fine dell&#39;iterazione.
 
 È possibile configurare singoli team Scrum in modo che utilizzino le date del progetto per impostazione predefinita, anziché le date di iterazione. Per informazioni, vedere la sezione [Configurare le modalità di applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 

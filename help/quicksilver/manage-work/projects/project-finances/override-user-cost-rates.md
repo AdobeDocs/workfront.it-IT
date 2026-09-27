@@ -7,13 +7,17 @@ description: In questo articolo viene descritto come sostituire i tassi di costo
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 5%
-
 ---
-
 # Sostituisci i tassi di costo utente a livello di progetto
 
 Puoi specificare la tariffa per un utente su un progetto specifico. Questa tariffa a livello di progetto sostituisce la tariffa a livello di sistema per questo utente. Per calcolare il costo, Workfront utilizza la tariffa a livello di progetto della mansione, anziché la tariffa a livello di sistema.

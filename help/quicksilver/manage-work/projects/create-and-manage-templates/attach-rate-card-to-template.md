@@ -6,13 +6,17 @@ title: Allegare una scheda tariffa a un modello
 description: Quando si assegna una scheda tariffaria a un modello, questa viene quindi allegata a tutti i progetti creati dal modello.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Allegare una scheda tariffa a un modello
 
 Quando si assegna una scheda tariffaria a un modello, questa viene quindi allegata a tutti i progetti creati dal modello. La scheda tariffe diventa l’impostazione predefinita nel progetto, ma può essere sostituita se necessario.
@@ -71,7 +75,7 @@ Il campo **Scheda tariffa** deve essere abilitato per i modelli nel modello di l
 1. Nella sezione Dettagli modello > Panoramica > Associazione modello, seleziona una scheda tariffa nel campo **Scheda tariffa**.
 
    Puoi scegliere solo le schede di valutazione per le quali disponi delle autorizzazioni.
-Per limitare l’elenco dei risultati, puoi iniziare a digitare il nome di una scheda delle tariffe.
+   Per limitare l’elenco dei risultati, puoi iniziare a digitare il nome di una scheda delle tariffe.
 
    ![Selezionare una scheda tariffaria nel modello](assets/select-rate-card-on-template.png)
 

@@ -7,27 +7,31 @@ feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h1895B7LDBKIhpJPrMROBoi-85LqrBUS1Rmw-m2n2Bo
+TQID: 'https://experienceleague.adobe.com/h1895B7LDBKIhpJPrMROBoi-85LqrBUS1Rmw-m2n2Bo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 12%
-
 ---
-
 # Abilitare o disabilitare l’Assistente IA
 
 >[!IMPORTANT]
 >
->A partire da settembre 2026, AI Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partire da settembre 2026, IA Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su CX Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 In qualità di amministratore di Workfront, puoi controllare quali utenti dell’organizzazione dispongono di Assistente AI abilitato. Questo viene gestito tramite i livelli di accesso.
 

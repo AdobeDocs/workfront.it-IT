@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-TQID: https://experienceleague.adobe.com/mBMWgWWwrY4CufE8bc9yyV4PnNGdzvaOv8cbcCURp1w
+TQID: 'https://experienceleague.adobe.com/mBMWgWWwrY4CufE8bc9yyV4PnNGdzvaOv8cbcCURp1w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 177
+source-wordcount: '177'
 ht-degree: 27%
-
 ---
-
 # Aggiornarsi sul lavoro in Priorità
 
 Catch me up (recupera informazioni), con tecnologia di Workfront AI Assistant, riassume gli aggiornamenti, i documenti caricati e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni. Questo consente di ridurre il tempo necessario per cercare informazioni sui progetti attivi.

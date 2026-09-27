@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3ffdd2e9-4c9f-412e-8d7c-3a58a832a973
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 9%
-
+source-wordcount: '252'
+ht-degree: 4%
 ---
-
 # Richieste di miglioramenti per il secondo trimestre 2026
 
 Questa pagina descrive la richiesta di miglioramenti apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -26,7 +33,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >
 >Anteprima: 2 aprile 2026
 >Versione rapida di produzione: 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora puoi visualizzare e aprire attività e progetti convertiti dai problemi di Workfront nella nuova esperienza richieste, dal campo Oggetto creato.
 
@@ -39,8 +46,8 @@ Per informazioni, vedere [Visualizzare le richieste inviate](/help/quicksilver/m
 >[!NOTE]
 >
 >Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Nell’area Nuove richieste, quando condividi una vista avanzata con un utente e concedi le autorizzazioni di visualizzazione, l’utente può modificare gli elementi della vista e tali modifiche vengono salvate nelle preferenze personali dell’utente. È ora possibile salvare una copia della visualizzazione che includa le modifiche apportate o ripristinare le impostazioni originali della visualizzazione condivisa. Possono inoltre condividere la vista copiata con altri utenti.
 

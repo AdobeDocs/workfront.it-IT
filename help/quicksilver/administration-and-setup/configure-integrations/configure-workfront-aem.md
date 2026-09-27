@@ -1,34 +1,45 @@
 ---
-title: Configura [!DNL Workfront] con [!DNL Adobe Experience Manager] Connettore legacy
+title: Configura [!DNL Workfront] con il connettore legacy [!DNL Adobe Experience Manager]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: In qualità di  [!DNL Adobe Workfront] amministratore, puoi integrare [!DNL Workfront] con Adobe Experience Manager (AEM) Assets e fornire alla tua organizzazione una soluzione completa per la gestione dei contenuti per la creazione, la condivisione e la manutenzione delle risorse all'interno del flusso di lavoro.
+description: In qualità di amministratore di [!DNL Adobe Workfront], puoi integrare [!DNL Workfront] con Adobe Experience Manager (AEM) Assets e fornire alla tua organizzazione una soluzione completa per la gestione dei contenuti per la creazione, la condivisione e la manutenzione delle risorse all'interno del flusso di lavoro.
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+TQID: 'https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1869
+source-wordcount: '1873'
 ht-degree: 2%
-
 ---
-
 # Configura [!DNL Workfront] con il connettore legacy [!DNL Adobe Experience Manager]
 
 <!-- Audited: 4/2025 -->
@@ -138,7 +149,7 @@ Prima di iniziare, è necessario abilitare le autorizzazioni per workfront-servi
 
 1. In AEM, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Sicurezza]** > **[!UICONTROL Autorizzazioni]**.
 1. Nell&#39;angolo in alto a sinistra, scegli **[!UICONTROL Utenti]**&#x200B; nel menu a discesa e immetti *[!UICONTROL workfront-service]* nel campo **[!UICONTROL Ricerca]**&#x200B;. Selezionare l&#39;utente [!UICONTROL workfront-service].
-1. Sul lato destro della schermata, selezionare **[!UICONTROL Aggiungi ACE]** per creare nuove voci.
+1. Sul lato destro della schermata, seleziona **[!UICONTROL Aggiungi ACE]** per creare nuove voci.
 1. Nella finestra &#x200B;**[!UICONTROL Aggiungi nuova voce]**&#x200B;, seleziona l&#39;icona della casella di controllo nel campo **[!UICONTROL Percorso]**&#x200B; e scegli la cartella: */conf*
 1. Nel campo **Privilegi** immettere: *jcr:read*
 1. Nell&#39;angolo in alto a destra, seleziona **Aggiungi**.

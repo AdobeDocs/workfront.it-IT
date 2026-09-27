@@ -9,22 +9,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+TQID: 'https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '805'
 ht-degree: 4%
-
 ---
-
 # Creare o modificare un pacchetto di promozione dell’ambiente
 
 È necessario creare un pacchetto nell&#39;ambiente da cui copiare gli oggetti **da**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi creare il pacchetto nell’ambiente Sandbox di aggiornamento personalizzato.
@@ -110,7 +114,7 @@ Un pacchetto deve essere nello stato `DRAFT` per essere modificato.
 1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia a discesa accanto al tipo di oggetto nella sezione **Contents**.
 1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione di questo pacchetto, fare clic su **Distribuzioni**.
 1. (Facoltativo) Per modificare il pacchetto, fare clic su **Modifica pacchetto** in alto a destra nella schermata.
-Un pacchetto deve essere in stato `DRAFT` per essere modificato. Per spostare il pacchetto nello stato `DRAFT`, nel campo **Stato** selezionare `Draft`. È quindi possibile continuare a modificare il pacchetto.
+Un pacchetto deve essere nello stato `DRAFT` per essere modificato. Per spostare il pacchetto nello stato `DRAFT`, nel campo **Stato**, selezionare `Draft`. È quindi possibile continuare a modificare il pacchetto.
 1. Per installare il pacchetto, fare clic su **Installa** in alto a destra.
 
    Per istruzioni sull&#39;installazione di un pacchetto, vedere [Installare un pacchetto di promozione dell&#39;ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

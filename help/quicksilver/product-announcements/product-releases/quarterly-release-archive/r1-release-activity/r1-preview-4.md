@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 1%
-
 ---
-
 # Anteprima 4 di R1
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1.4. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 15 febbraio 2017.
@@ -42,8 +47,8 @@ Durante la creazione dei processi di approvazione per le approvazioni di progett
 
 * Sono state rimosse le seguenti limitazioni preesistenti relative alla modifica dei processi di approvazione globali esistenti:
 
-   * Il processo di approvazione modificato si riflette solo sugli oggetti in tutto il sistema in cui il processo di approvazione non è ancora iniziato o in cui non è stato modificato. Gli oggetti in cui il processo di approvazione è già iniziato o in cui è stato modificato non vengono aggiornati con le modifiche apportate.
-   * Non puoi modificare lo stato che determina quando inizia l’approvazione.
+  * Il processo di approvazione modificato si riflette solo sugli oggetti in tutto il sistema in cui il processo di approvazione non è ancora iniziato o in cui non è stato modificato. Gli oggetti in cui il processo di approvazione è già iniziato o in cui è stato modificato non vengono aggiornati con le modifiche apportate.
+  * Non puoi modificare lo stato che determina quando inizia l’approvazione.
 
 * Aspetto aggiornato.
 

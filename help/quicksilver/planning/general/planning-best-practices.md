@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 2%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Consigli per l’implementazione di Adobe Workfront Planning
@@ -59,12 +68,12 @@ Di seguito sono riportate alcune domande frequenti sulla configurazione di Workf
 * ✅ Per iniziare, esplora i nostri modelli di area di lavoro predefiniti per idee su casi d&#39;uso simili esistenti. Puoi utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungerne di personali.
 * ✅ Identificare i principali casi d&#39;uso che si desidera risolvere con Workfront Planning. Ad esempio, la maggior parte delle organizzazioni desidera migliorare la visibilità delle attività strategiche, che può includere la creazione di un &quot;Calendario delle campagne&quot; migliore. Pertanto, per quel caso d’uso, vorresti iniziare rispondendo ad alcune domande:
 
-   * Chi lo sta chiedendo?
-   * Come chiamano le cose che vogliono mettere nel calendario?
-Campagne? Tattiche? Iniziative? Attività? Eventi?
-   * A quali domande si desidera rispondere con questo calendario?
-   * Hanno campagne sovrapposte per lo stesso pubblico?
-   * Qual è il budget per quella campagna, tattica, attività o evento?
+  * Chi lo sta chiedendo?
+  * Come chiamano le cose che vogliono mettere nel calendario?
+    Campagne? Tattiche? Iniziative? Attività? Eventi?
+  * A quali domande si desidera rispondere con questo calendario?
+  * Hanno campagne sovrapposte per lo stesso pubblico?
+  * Qual è il budget per quella campagna, tattica, attività o evento?
 
   Le risposte a queste domande determinano ciò che è necessario creare all&#39;interno di Workfront Planning.
 
@@ -210,9 +219,9 @@ Utilizza la funzione di condivisione per assegnare le autorizzazioni appropriate
 
   Puoi scegliere tra i seguenti livelli di autorizzazione:
 
-   * **Gestisci**: gli utenti possono modificare, eliminare e condividere l&#39;area di lavoro, i tipi di record, nonché modificare, eliminare e creare record.
-   * **Contribute**: gli utenti possono creare, modificare ed eliminare record.
-   * **Visualizza**: gli utenti possono visualizzare i record.
+  * **Gestisci**: gli utenti possono modificare, eliminare e condividere l&#39;area di lavoro, i tipi di record, nonché modificare, eliminare e creare record.
+  * **Contribute**: gli utenti possono creare, modificare ed eliminare record.
+  * **Visualizza**: gli utenti possono visualizzare i record.
 
 * ✅ Anche se molti clienti ritengono che concederebbero le autorizzazioni **Gestisci** alle aree di lavoro alla maggior parte delle persone, limita le autorizzazioni **Gestisci** a un gruppo selezionato di persone attendibili che non elimineranno accidentalmente un tipo di record o creeranno in altro modo tipi di record e campi non necessari. Possono modificare, condividere e persino eliminare l’area di lavoro. Questo livello di autorizzazioni garantisce loro l’accesso amministrativo completo a Workspace.
 
@@ -289,14 +298,14 @@ Utilizza la funzione di condivisione per assegnare le autorizzazioni appropriate
 
   È possibile scegliere tra le seguenti opzioni di condivisione:
 
-   * Per la condivisione interna con persone in Workfront:
+  * Per la condivisione interna con persone in Workfront:
 
-      * **Tutti gli utenti con accesso di visualizzazione o superiore all&#39;area di lavoro:** Consente a tutti gli utenti con autorizzazioni di visualizzazione o superiori all&#39;area di lavoro di inviare una richiesta che crea un record.
-      * **Qualsiasi utente con accesso di tipo Contribute o di livello superiore all&#39;area di lavoro**: limita gli invii agli utenti con autorizzazioni Contribute o di livello superiore all&#39;area di lavoro.
-      * **Accesso consentito solo alle persone invitate**: aggiungere persone, team, ruoli, gruppi o società che possono inviare richieste al modulo.
-   * Per la condivisione esterna con persone che non hanno un account Workfront:
-      * **Crea un collegamento pubblico**, quindi copialo e condividilo con chiunque, anche persone senza un account Workfront: consente a chiunque disponga del collegamento al modulo di inviare una richiesta.
-      * **Data di scadenza collegamento:** Assicurarsi di impostare una data di scadenza per il collegamento pubblico per migliorare la sicurezza.
+    * **Tutti gli utenti con accesso di visualizzazione o superiore all&#39;area di lavoro:** Consente a tutti gli utenti con autorizzazioni di visualizzazione o superiori all&#39;area di lavoro di inviare una richiesta che crea un record.
+    * **Qualsiasi utente con accesso di tipo Contribute o di livello superiore all&#39;area di lavoro**: limita gli invii agli utenti con autorizzazioni Contribute o di livello superiore all&#39;area di lavoro.
+    * **Accesso consentito solo alle persone invitate**: aggiungere persone, team, ruoli, gruppi o società che possono inviare richieste al modulo.
+  * Per la condivisione esterna con persone che non hanno un account Workfront:
+    * **Crea un collegamento pubblico**, quindi copialo e condividilo con chiunque, anche persone senza un account Workfront: consente a chiunque disponga del collegamento al modulo di inviare una richiesta.
+    * **Data di scadenza collegamento:** Assicurarsi di impostare una data di scadenza per il collegamento pubblico per migliorare la sicurezza.
 
 ### Best practice per la gestione dei moduli di richiesta
 

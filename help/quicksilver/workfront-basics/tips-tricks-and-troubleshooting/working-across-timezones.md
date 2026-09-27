@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Lavorare tra diversi fusi orari
-description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
+description: Può essere utile capire in che modo [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # Lavorare tra diversi fusi orari
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ Il fuso orario nel browser deve essere configurato per la posizione in cui lavor
   Se a un oggetto vengono assegnati utenti con più fusi orari, [!DNL Workfront] converte gli orari dell&#39;oggetto per tutti gli utenti interessati, utilizzando il fuso orario configurato nel browser di ciascun utente.
 
   **ESEMPIO**
-Nel fuso orario orientale (EST, Eastern Standard Time) in cui si lavora, è possibile impostare l&#39;inizio di un&#39;attività alle 16:1&rbrace; e assegnarla agli utenti che lavorano nel fuso orario solare del Pacifico (PST, Pacific Standard Time). :00Per questi utenti, l&#39;ora di inizio viene visualizzata come 1:00 PM. Se fosse visualizzato come 4:00 PM, inizierebbero a lavorarci con tre ore di ritardo.
+  Nella zona dell&#39;ora solare fuso orientale in cui si lavora, è possibile impostare l&#39;inizio di un&#39;attività alle 16.00 e assegnarla agli utenti che lavorano nella zona dell&#39;ora solare fuso orientale (PST). Per tali utenti, l’ora di inizio viene visualizzata come 1:00 PM. Se la visualizzasse alle 16:00, inizierebbe a lavorarci con tre ore di ritardo.
 
   Se il creatore dell&#39;oggetto non conosce la differenza tra i fusi orari degli assegnatari e non apporta le modifiche necessarie durante l&#39;impostazione degli orari degli oggetti o se gli assegnatari non conoscono tale differenza, può essere difficile ottenere gli intervalli corretti mentre tutti collaborano all&#39;oggetto.
 
   **ESEMPIO**
 
-  Si configura un&#39;attività di un giorno per iniziare alle 9:00 AM EST, dimenticando che alcuni utenti dell&#39;attività lavorano nella zona PST. Per loro, l&#39;ora di inizio 6:00 AM. Poiché non inizieranno a lavorarci fino alle 9:00 del loro tempo (mezzogiorno del tuo tempo), l&#39;attività inizia e termina con tre ore di ritardo.
+  Si configura un&#39;attività di un giorno per iniziare alle 9:00 EST, dimenticando che alcuni utenti dell&#39;attività lavorano nella zona PST. Per loro, l&#39;ora di inizio 6:00 AM. Poiché non inizieranno a lavorarci fino alle 9:00 (mezzogiorno del tuo orario), l’attività inizia e termina con tre ore di ritardo.
 
 La configurazione del fuso orario varia da browser a browser. Per ulteriori informazioni, consulta la documentazione o la guida di ciascun browser.
 
@@ -126,20 +133,20 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
 
   Se a un&#39;attività sono assegnati più utenti, il sistema utilizza uno dei seguenti elementi, come configurato nelle preferenze di progetto a livello di sistema o di gruppo:
 
-   * Fuso orario per la pianificazione del proprietario principale dell&#39;attività
-   * Il fuso orario per la pianificazione del progetto.
+  * Fuso orario per la pianificazione del proprietario principale dell&#39;attività
+  * Il fuso orario per la pianificazione del progetto.
 
   Se a un&#39;attività è assegnato un utente, il sistema utilizza uno dei seguenti elementi, come configurato nelle preferenze di progetto a livello di sistema o di gruppo:
 
-   * Fuso orario per la pianificazione dell&#39;assegnatario dell&#39;attività
-   * Il fuso orario per la pianificazione del progetto.
+  * Fuso orario per la pianificazione dell&#39;assegnatario dell&#39;attività
+  * Il fuso orario per la pianificazione del progetto.
 
   Questo può causare la modifica delle date delle attività.
 
 >[!BEGINSHADEBOX]
 
 **ESEMPIO:**
-Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 9:1&rbrace; PST, che è mezzogiorno EST. :00Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
+Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 09:00 PST, che è mezzogiorno EST. Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
 
 
 >[!ENDSHADEBOX]

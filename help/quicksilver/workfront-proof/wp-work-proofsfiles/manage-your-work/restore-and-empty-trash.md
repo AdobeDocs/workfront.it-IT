@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Ripristinare e svuotare il cestino in Workfront Proof
-description: In qualità di  [!DNL Workfront Proof] amministratore, puoi elencare e ripristinare le bozze, i file e le cartelle che gli utenti hanno eliminato nel Cestino in [!DNL Workfront] Proof. Puoi anche svuotare il Cestino, che elimina definitivamente tali elementi dal sistema.
+description: In qualità di amministratore [!DNL Workfront Proof], puoi elencare e ripristinare le bozze, i file e le cartelle eliminati dagli utenti nel Cestino in [!DNL Workfront] Proof. Puoi anche svuotare il Cestino, che elimina definitivamente tali elementi dal sistema.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23f2b370-6b9c-46f9-b715-560f6a074715
-TQID: https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk
+TQID: 'https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '207'
 ht-degree: 3%
-
 ---
-
 # Ripristina e svuota il cestino in [!DNL Workfront Proof]
 
 >[!IMPORTANT]

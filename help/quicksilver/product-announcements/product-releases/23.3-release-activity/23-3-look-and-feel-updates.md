@@ -5,18 +5,24 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
-TQID: https://experienceleague.adobe.com/5YQwAWfSpW7jq940-7eTayXIvlMlkcHUjw7gfRy-ais
+TQID: 'https://experienceleague.adobe.com/5YQwAWfSpW7jq940-7eTayXIvlMlkcHUjw7gfRy-ais'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 9%
-
 ---
-
 # Aggiornamenti look and feel nell’arco temporale della versione 23.3
 
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale della versione 23.3. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.

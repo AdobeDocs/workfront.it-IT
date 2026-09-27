@@ -2,13 +2,14 @@
 title: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 description: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 
 È possibile utilizzare le regole avanzate per rendere dinamico un modulo personalizzato e più rilevante per gli utenti che lo compilano. Quando un utente risponde in un determinato modo a un campo a scelta multipla in un modulo, una regola intelligente mostra ciò che si desidera che visualizzi successivamente, in base a tale risposta.
@@ -36,7 +37,7 @@ I tipi di campo a scelta multipla sono Menu a discesa, Caselle di controllo e Pu
   In questo caso, è possibile aggiungere un campo Testo descrittivo che rimanda l&#39;utente al reparto Vendite. Nel primo campo personalizzato in cui viene richiesto di specificare il tipo di contenuto di marketing di cui l&#39;utente ha bisogno, è possibile aggiungere una regola di logica di salto che visualizza solo la riga di testo quando un utente seleziona il pulsante di opzione White Paper nel primo campo.
 
   Questa funzione è particolarmente utile se si aggiungono molti altri campi relativi a logo, aggiornamenti di siti Web e brochure, che l&#39;utente non deve necessariamente visualizzare.
-È possibile applicare una regola di salto della logica solo a un campo personalizzato, non a un widget o a una sezione.
+  È possibile applicare una regola di salto della logica solo a un campo personalizzato, non a un widget o a una sezione.
 
 
 ## Requisiti di accesso
@@ -75,7 +76,7 @@ Il modo migliore per imparare ad aggiungere logica di visualizzazione e salto a 
 
 In questo esempio verrà creato un modulo personalizzato con un campo pulsante di scelta a scelta multipla. Quindi aggiungerai la logica di visualizzazione che collega questo campo a un secondo campo.
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, seleziona **Forms personalizzato** ![](assets/custom-forms-icon.png).
 
@@ -91,7 +92,7 @@ In questo esempio verrà creato un modulo personalizzato con un campo pulsante d
 
       ![](assets/add-a-field-tab-350x237.png)
 
-   1. Seleziona il tipo di campo **Pulsanti di scelta**, quindi digita *Di quale tipo di contenuto di marketing hai bisogno?* come **etichetta** per il campo.
+   1. Seleziona il tipo di campo **Pulsanti di scelta**, quindi digita *Che tipo di contenuto di marketing ti serve?* come **etichetta** per il campo.
 
    1. In **Scelte**, sostituisci **Scelta 1** e **Scelta 2** con il testo seguente per creare due opzioni che gli utenti possono scegliere nel campo:
 
@@ -129,11 +130,11 @@ La logica di salto funziona in modo simile alla logica di visualizzazione, ma ag
 
 Per saperne di più, continua a lavorare sul modulo personalizzato di esempio creato nella sezione [Logica di visualizzazione - esempio pratico](#display-logic-practical-example) in questo articolo.
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Fare clic su **Forms personalizzato**.
 1. Fai clic sul nome del modulo **Modulo personalizzato di esempio - Logica di visualizzazione di apprendimento e logica di salto** creato nei passaggi precedenti, per aprirlo per la modifica.
-1. Selezionare il campo a discesa creato denominato *Quale tipo di sito Web è necessario?*, aggiungi le seguenti scelte per il campo, quindi fai clic su **Applica**:
+1. Seleziona il campo a discesa creato denominato *Quale tipo di sito Web è necessario?*, aggiungi le seguenti scelte per il campo, quindi fai clic su **Applica**:
 
    *E-commerce*
 
@@ -141,7 +142,7 @@ Per saperne di più, continua a lavorare sul modulo personalizzato di esempio cr
 
    *Appartenenza*
 
-1. Apri la scheda **Aggiungi campo**, crea un campo **di testo con formattazione** denominato *Qual è l&#39;obiettivo per il sito Web?*, quindi fare clic su **Applica**.
+1. Apri la scheda **Aggiungi campo**, crea un campo **di testo con formattazione** denominato *Qual è l&#39;obiettivo del sito Web?*, quindi fai clic su **Applica**.
 
    In questa organizzazione, il team di redazione tecnica crea un sito di documentazione della Guida e non il reparto Marketing. Pertanto, non sono necessarie ulteriori informazioni da parte di un utente che seleziona la documentazione di Aiuto nel secondo campo. Creeremo una riga di testo (un campo di testo descrittivo) che comunicherà loro di visualizzare il team di redazione tecnica. E utilizzeremo una regola di logica skip che salta l’utente a quella riga di testo.
 
@@ -167,7 +168,7 @@ Per saperne di più, continua a lavorare sul modulo personalizzato di esempio cr
 
    ![](assets/notice-skip-logic-squares-350x249.png)
 
-1. Fai clic su **Anteprima**  per assicurarti che la logica venga applicata nel modo desiderato.
+1. Fai clic su **Anteprima** per assicurarti che la logica venga applicata nel modo desiderato.
 1. Fai clic su **Salva +Chiudi**.
 
 Per creare un modulo di questo tipo, è possibile aggiungere altri campi di testo per richiedere informazioni agli utenti che selezionano E-commerce o Brochure nel secondo campo. Questi campi possono chiedere chi è il pubblico target del sito web, quale è l’obiettivo per crearlo, qual è il budget e così via.

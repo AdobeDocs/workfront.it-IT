@@ -5,23 +5,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-TQID: https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw
+TQID: 'https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 6%
-
 ---
-
 # Creare e personalizzare le priorità
 
 <!--
@@ -129,10 +134,10 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
 
      La priorità predefinita è indicata da un&#39;icona ![Icona di priorità predefinita](assets/default-icon.png). Per scegliere un nuovo valore predefinito, effettuare una delle seguenti operazioni:
 
-      * Selezionare la casella di controllo accanto al nome della priorità e selezionare **Rendi predefinito** nella barra delle azioni nella parte inferiore dello schermo.
-      * Passa il puntatore del mouse sul nome della priorità e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
+     * Selezionare la casella di controllo accanto al nome della priorità e selezionare **Rendi predefinito** nella barra delle azioni nella parte inferiore dello schermo.
+     * Passa il puntatore del mouse sul nome della priorità e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
 
-        La nuova priorità predefinita è etichettata con l’icona.
+       La nuova priorità predefinita è etichettata con l’icona.
 
    * **Descrizione**: digitare una descrizione della priorità per spiegarne la funzione.
    * **Nascondi scelta**: selezionare **Sì** per nascondere una priorità non più necessaria.

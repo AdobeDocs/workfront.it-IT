@@ -6,20 +6,27 @@ description: Quando si invia un documento (DOCX, PDF, XLSX, AI) per la verifica,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+TQID: 'https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '681'
 ht-degree: 1%
-
 ---
-
 # Panoramica sulla rielaborazione dei documenti per la bozza
 
 Quando si invia un documento (DOCX, PDF, XLSX, AI) per la verifica, Adobe Workfront lo rielabora in modo che possa essere visualizzato nel visualizzatore di prove senza l&#39;applicazione software utilizzata per la creazione. 

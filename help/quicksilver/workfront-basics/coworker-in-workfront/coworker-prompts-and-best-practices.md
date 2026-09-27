@@ -4,13 +4,17 @@ content-type: reference
 description: Scopri le best practice per l’utilizzo di Coworker in Workfront e visualizza un elenco di esempi di prompt.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 2%
-
 ---
-
 # Richieste e best practice per CX Collaborator
 
 &lt;!—DO NOT USE THIS—Collegamento invece all&#39;articolo di richiesta di esempio MCP, assicurarsi che sia aggiornato con le versioni recenti di MCP—>
@@ -159,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Informazioni su progetto, attività e problema
 
-CX Collaborator può fornire informazioni su progetti, attività e problemi, inclusi riepiloghi e stato del progetto.
+CX Coworker può fornire informazioni su progetti, attività e problemi, inclusi riepiloghi e stato del progetto.
 
 Consulta gli esempi di prompt per le approvazioni di documenti e risorse nelle seguenti aree:
 
@@ -262,7 +266,7 @@ Puoi creare progetti da zero o da modelli, aggiornare i progetti ed eliminarli.
 
 ### Contenuto e approvazioni
 
-CX Collaborator consente di gestire le approvazioni di documenti e risorse in Workfront.
+CX Coworker consente di gestire le approvazioni di documenti e risorse in Workfront.
 
 Quando si lavora con le approvazioni di documenti e risorse, considera quanto segue:
 
@@ -309,7 +313,7 @@ Consulta gli esempi di prompt per le approvazioni di documenti e risorse nelle s
 * Aggiorna il modello &quot;Creative Review&quot; rimuovendo Rick Kuvec e aggiungendo Karen Sterling alla fase 2.
 
 
-## Collaboratore CX in Workfront Planning
+## CX Coworker in Workfront Planning
 
 ### Utilizzare i record di Planning
 

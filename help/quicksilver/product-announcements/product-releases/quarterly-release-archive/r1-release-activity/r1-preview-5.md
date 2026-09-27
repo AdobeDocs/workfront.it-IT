@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 13%
-
 ---
-
 # Anteprima 5 di R1
 
 Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1 Preview 5. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 16 marzo 2017.
@@ -71,10 +81,10 @@ Sono stati aggiornati l’aspetto delle seguenti pagine del menu Sistema dell’
 * Diagnostica
 * Single Sign-On (SSO) che include:
 
-   * Active Directory
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * Active Directory
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * Aggiorna utenti per l&#39;SSO
 

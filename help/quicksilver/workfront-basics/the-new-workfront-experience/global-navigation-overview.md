@@ -1,17 +1,24 @@
 ---
 content-type: overview
 title: Panoramica barra di navigazione superiore
-description: La barra di navigazione superiore, visualizzata nella parte superiore dello schermo in [!DNL Adobe Workfront] , consente di trovare e navigare facilmente in altre aree della piattaforma.
+description: La barra di navigazione superiore, visualizzata nella parte superiore dello schermo in [!DNL Adobe Workfront], consente di trovare e navigare facilmente in altre aree della piattaforma.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
-
 ---
-
 # Panoramica della barra di navigazione superiore
 
 <!--Audited: 01/2024-->

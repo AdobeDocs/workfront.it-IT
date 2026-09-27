@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 6%
-
 ---
-
 # Impedire la duplicazione degli utenti
 
 Durante la creazione di un nuovo utente in Adobe Workfront, non è più possibile utilizzare un indirizzo e-mail già utilizzato da un altro utente, anche se l’indirizzo e-mail varia in base al caso (ad esempio, JohnDoe@example.com e johndoe@example.com). Inoltre, per prepararsi ai miglioramenti futuri dell’autenticazione, assicurati che tutti gli utenti abbiano indirizzi e-mail univoci in un’istanza di Workfront.
@@ -107,8 +113,8 @@ Per correggere gli indirizzi e-mail duplicati all’interno di un’istanza di W
 
      Ad esempio, John Doe può avere un account utente per il suo account di utilizzo giornaliero e uno da utilizzare a scopo di test:
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * Modifica il dominio per utilizzare un dominio falso aggiungendo il seguente testo all’indirizzo e-mail:
 
@@ -116,8 +122,8 @@ Per correggere gli indirizzi e-mail duplicati all’interno di un’istanza di W
 
      Ad esempio, John Doe potrebbe avere i seguenti domini: (Questi devono essere univoci).
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      Non puoi più accedere a questi account perché per reimpostare la password è necessario un indirizzo e-mail valido. È possibile accedere a questi account solo utilizzando la funzione Accedi come.
 

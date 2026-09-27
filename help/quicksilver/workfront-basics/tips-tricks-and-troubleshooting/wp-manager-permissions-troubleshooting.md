@@ -8,20 +8,24 @@ description: I profili di autorizzazione disponibili in [!DNL Adobe] Workfront p
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 2%
-
 ---
-
 # Risoluzione dei problemi relativi alle autorizzazioni di [!UICONTROL [!DNL Workfront] Proof Manager]
 
 Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe Workfront] per gli utenti di verifica:
@@ -43,8 +47,8 @@ Quando si concedono a un utente le autorizzazioni [!UICONTROL Manager], sono dis
 * **PROBLEMA:** Gli utenti con autorizzazioni [!UICONTROL Manager] non possono aggiungere versioni delle bozze alle bozze create da altri utenti. Potrebbero inviare una bozza nel set di documenti, ma le versioni NON sarebbero connesse al set originale creato da un altro utente.\
    **SOLUZIONE:** Gli utenti con autorizzazioni [!UICONTROL Manager] possono inviare le versioni alla bozza di un altro utente solo se l&#39;utente con autorizzazioni [!UICONTROL Manager] dispone di entrambe le seguenti autorizzazioni:
 
-   * Aggiunto esplicitamente alle bozze
-   * Imposta come [!UICONTROL Autori] (ruolo bozza) sulle bozze
+  * Aggiunto esplicitamente alle bozze
+  * Imposta come [!UICONTROL Autori] (ruolo bozza) sulle bozze
 
 * **PROBLEMA:** Gli utenti con autorizzazioni [!UICONTROL Manager] non possono modificare i commenti di altri utenti su una bozza di cui non sono proprietari o che non hanno creato.\
    **SOLUZIONE:** Se gli utenti con autorizzazioni [!UICONTROL Manager] non sono proprietari delle bozze, ma devono essere in grado di modificare i commenti, aggiungerli come [!UICONTROL Autori] (o [!UICONTROL Moderatori]).\

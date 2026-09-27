@@ -2,33 +2,43 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: Panoramica degli oggetti di [!DNL Adobe Workfront]
-description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database [!DNL Workfront] . Gli oggetti sono ciò che determina le informazioni in [!DNL Workfront]. Per ulteriori informazioni su questi oggetti, consulta questo articolo.
+description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da oggetti archiviati nel database di [!DNL Workfront]. Gli oggetti sono ciò che guida le informazioni in [!DNL Workfront]. Per ulteriori informazioni su questi oggetti, consulta questo articolo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+TQID: 'https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2393
+source-wordcount: '2463'
 ht-degree: 3%
-
 ---
-
 # Panoramica degli oggetti di [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
@@ -256,8 +266,8 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Attività prevista]
 * [!UICONTROL Fatturazione]
 * [!UICONTROL Ora preventivata]
-   * Queste sono le [!UICONTROL ore preventivate], così come sono visualizzate in strumenti di gestione delle risorse obsoleti e meno recenti.
-   * Il &quot;Bocciolo. Il campo Ore&quot; nel rapporto [!UICONTROL Ore preventivate] fa riferimento alle ore preventivate per le mansioni nel [!UICONTROL Programmazione risorse]. Per ulteriori informazioni, vedere [Comprendere [!UICONTROL Costo manodopera preventivato] e [!UICONTROL Ore preventivate] per i progetti](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  * Queste sono le [!UICONTROL ore preventivate], così come sono visualizzate in strumenti di gestione delle risorse obsoleti e meno recenti.
+  * Il &quot;Bocciolo. Il campo Ore&quot; nel rapporto [!UICONTROL Ore preventivate] fa riferimento alle ore preventivate per le mansioni nel [!UICONTROL Programmazione risorse]. Per ulteriori informazioni, vedere [Comprendere [!UICONTROL Costo manodopera preventivato] e [!UICONTROL Ore preventivate] per i progetti](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Evento calendario]
 * [!UICONTROL Società]
@@ -266,7 +276,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Documento]
 * [!UICONTROL Approvazione documento]
 * [!UICONTROL Versione documento]
-   * È possibile visualizzare informazioni sulla versione del documento, sul documento a cui è associata la versione, su chi ha creato la versione e sull&#39;utente che ha creato la bozza sulla versione del documento, se presente (Creatore bozza).
+  * È possibile visualizzare informazioni sulla versione del documento, sul documento a cui è associata la versione, su chi ha creato la versione e sull&#39;utente che ha creato la bozza sulla versione del documento, se presente (Creatore bozza).
 * [!UICONTROL Modello e-mail]
 * [!UICONTROL Spesa]
 * [!UICONTROL Tipo Spesa]
@@ -274,44 +284,44 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Preferito]
 * [!UICONTROL Filtro]
 * [!UICONTROL Obiettivo]
-   * Puoi creare un rapporto per gli obiettivi strategici oppure visualizzare informazioni relative all’obiettivo in un rapporto di progetto quando i progetti sono associati a obiettivi come attività obiettivo. Puoi creare obiettivi strategici e collegarli ai progetti solo se la tua organizzazione ha acquistato una licenza [!DNL Workfront Goals]. Per informazioni su [!DNL Workfront Goals], vedere [[!DNL Workfront Goals] panoramica](../../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sulla connessione dei progetti agli obiettivi strategici, consulta [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-*Non è possibile creare rapporti sugli obiettivi del progetto associati a un [!UICONTROL caso di business]. Per informazioni sugli obiettivi del progetto rispetto agli obiettivi strategici, consulta [Glossario della [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  * Puoi creare un rapporto per gli obiettivi strategici oppure visualizzare informazioni relative all’obiettivo in un rapporto di progetto quando i progetti sono associati a obiettivi come attività obiettivo. Puoi creare obiettivi strategici e collegarli ai progetti solo se la tua organizzazione ha acquistato una licenza [!DNL Workfront Goals]. Per informazioni su [!DNL Workfront Goals], vedere [[!DNL Workfront Goals] panoramica](../../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sulla connessione dei progetti agli obiettivi strategici, consulta [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+    *Non è possibile creare rapporti sugli obiettivi del progetto associati a un [!UICONTROL caso di business]. Per informazioni sugli obiettivi del progetto rispetto agli obiettivi strategici, consulta [Glossario di [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Gruppo]
 * [!UICONTROL Raggruppamento]
 * [!UICONTROL Tipo di Ora]
 * [!UICONTROL Iniziativa]
-   * È possibile creare un report per le iniziative che sono oggetti figlio di un piano solo se la società ha acquistato una licenza [!DNL Workfront Scenario Planner]. Per informazioni sulle iniziative, vedere [Panoramica delle iniziative in [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  * È possibile creare un report per le iniziative che sono oggetti figlio di un piano solo se la società ha acquistato una licenza [!DNL Workfront Scenario Planner]. Per informazioni sulle iniziative, vedere [Panoramica delle iniziative in [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 * Mansione iniziativa
-   * È possibile generare un report per le mansioni associate alle iniziative in un piano solo se la società ha acquistato una licenza [!DNL Workfront Scenario Planner]. Per informazioni sulla creazione di iniziative e sulla loro associazione a ruoli, vedere [Creare e modificare iniziative in [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+  * È possibile generare un report per le mansioni associate alle iniziative in un piano solo se la società ha acquistato una licenza [!DNL Workfront Scenario Planner]. Per informazioni sulla creazione di iniziative e sulla loro associazione a ruoli, vedere [Creare e modificare iniziative in [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 * [!UICONTROL Iterazione]
 * [!UICONTROL Mansione]
 * [!UICONTROL Voce diario]
-   * Puoi creare rapporti sugli aggiornamenti di sistema tracciati nell&#39;area [!UICONTROL Aggiornamenti] di oggetti come attività, progetti, problemi, ecc. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti con un report sulle voci diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * Puoi creare rapporti sugli aggiornamenti di sistema tracciati nell&#39;area [!UICONTROL Aggiornamenti] di oggetti come attività, progetti, problemi, ecc. Per ulteriori informazioni, vedere [Report sull&#39;area Aggiornamenti con un report sulle voci diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modello di layout]
 * [!UICONTROL Milestone]
 * [!UICONTROL Percorso milestone]
 * [!UICONTROL Nota] o [!UICONTROL Aggiornamenti]
-   * Puoi creare rapporti sui commenti aggiunti dai singoli utenti.
+  * Puoi creare rapporti sui commenti aggiunti dai singoli utenti.
 
 * [!UICONTROL Parametro] (o [!UICONTROL Campo personalizzato])
 * [!UICONTROL Gruppo di parametri] (o [!UICONTROL Interruzione di sezione])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programma]
 * [!UICONTROL Progetto (Dati Finanziari)]
-   * Le informazioni finanziarie vengono inserite nei report di [!UICONTROL Project (Financial Data)] solo quando i dati associati hanno meno di 5 anni. Ad esempio, se una mansione è stata allocata a un&#39;attività nel gennaio 2015 e oggi è settembre 2021, un campo finanziario come [!UICONTROL Data di allocazione] per la mansione non si popola nel report [!UICONTROL Progetto (Dati finanziari)].
+  * Le informazioni finanziarie vengono inserite nei report di [!UICONTROL Project (Financial Data)] solo quando i dati associati hanno meno di 5 anni. Ad esempio, se una mansione è stata allocata a un&#39;attività nel gennaio 2015 e oggi è settembre 2021, un campo finanziario come [!UICONTROL Data di allocazione] per la mansione non si popola nel report [!UICONTROL Progetto (Dati finanziari)].
 
   >[!CAUTION]
   >
   >L&#39;esecuzione di un report Progetto (Dati finanziari) comporta il ricalcolo dei dati finanziari, che può sovrascrivere i dati finanziari precedenti e richiedere molto tempo. Per ulteriori informazioni sulle conseguenze del ricalcolo dei dati finanziari, vedere [Ricalcolare i dati finanziari del progetto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Approvazione bozza]
-   * Consente di visualizzare varie informazioni sull&#39;approvazione della bozza, tra cui: la bozza inviata per l&#39;approvazione, informazioni sull&#39;[!UICONTROL Approvatore], informazioni sul richiedente (se il richiedente è un utente [!DNL Workfront] con licenza), informazioni sulla versione, l&#39;ID bozza e la data di creazione della bozza.\
-      [!UICONTROL I rapporti Approvazione bozza] includono solo le bozze disponibili nelle aree Il mio lavoro degli utenti in cui non sono ancora state prese decisioni.\
-   * Le approvazioni delle bozze sono assegnate in [!DNL Workfront] come descritto [Aggiungere utenti a una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Condividere una bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+  * Consente di visualizzare varie informazioni sull&#39;approvazione della bozza, tra cui: la bozza inviata per l&#39;approvazione, informazioni sull&#39;[!UICONTROL Approvatore], informazioni sul richiedente (se il richiedente è un utente [!DNL Workfront] con licenza), informazioni sulla versione, l&#39;ID bozza e la data di creazione della bozza.\
+     [!UICONTROL I rapporti Approvazione bozza] includono solo le bozze disponibili nelle aree Il mio lavoro degli utenti in cui non sono ancora state prese decisioni.\
+  * Le approvazioni delle bozze sono assegnate in [!DNL Workfront] come descritto [Aggiungere utenti a una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Condividere una bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Coda]
 * [!UICONTROL Argomento coda]
@@ -327,7 +337,7 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Modello]
 * [!UICONTROL Attività modello]
 * [!UICONTROL Indisponibilità]
-   * Puoi generare rapporti sul tempo libero di un utente come indicato dall’utente nel suo profilo.
+  * Puoi generare rapporti sul tempo libero di un utente come indicato dall’utente nel suo profilo.
 
 * [!UICONTROL Scheda orario]
 * [!UICONTROL Profilo scheda orario]
@@ -335,11 +345,11 @@ Per ulteriori informazioni sull&#39;API, vedere [API Explorer](../../../wf-api/g
 * [!UICONTROL Approvazione utente]
 * [!UICONTROL Delega utente]
 
-   * Puoi creare rapporti sugli utenti che sono stati delegati a eseguire attività e problemi di altri utenti mentre sono fuori sede. Questo rapporto mostra l’utente che è fuori sede e l’utente che svolge i propri compiti mentre è fuori sede.
+  * Puoi creare rapporti sugli utenti che sono stati delegati a eseguire attività e problemi di altri utenti mentre sono fuori sede. Questo rapporto mostra l’utente che è fuori sede e l’utente che svolge i propri compiti mentre è fuori sede.
 
 * [!UICONTROL Decisioni utenti]
 
-   * Puoi generare rapporti sul numero di decisioni prese dagli utenti su bozze e documenti nel mese corrente.
+  * Puoi generare rapporti sul numero di decisioni prese dagli utenti su bozze e documenti nel mese corrente.
 
 * [!UICONTROL Visualizza]
 * [!UICONTROL Elemento di lavoro] (genera un report per attività e problemi)

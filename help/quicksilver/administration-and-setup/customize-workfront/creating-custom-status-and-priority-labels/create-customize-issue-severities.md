@@ -8,25 +8,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-TQID: https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg
+TQID: 'https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: '631'
 ht-degree: 9%
-
 ---
-
 # Creare o personalizzare le gravità dei problemi
 
 <!--
@@ -129,10 +135,10 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
 
      La gravità predefinita è indicata da un&#39;icona ![Icona gravità predefinita](assets/default-icon.png). Per scegliere un nuovo valore predefinito, effettuare una delle seguenti operazioni:
 
-      * Selezionare la casella di controllo accanto al nome della gravità e selezionare **Predefinito** nella barra delle azioni nella parte inferiore dello schermo.
-      * Passa il puntatore del mouse sul nome della gravità e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
+     * Selezionare la casella di controllo accanto al nome della gravità e selezionare **Predefinito** nella barra delle azioni nella parte inferiore dello schermo.
+     * Passa il puntatore del mouse sul nome della gravità e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
 
-        La nuova gravità predefinita è etichettata con l&#39;icona.
+       La nuova gravità predefinita è etichettata con l&#39;icona.
 
    * **Descrizione**: digitare una descrizione della gravità per spiegarne la funzione.
    * **Nascondi scelta**: selezionare **Sì** per nascondere una gravità non più necessaria.

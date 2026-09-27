@@ -10,29 +10,39 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-TQID: https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM
+TQID: 'https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1447
-ht-degree: 20%
-
+source-wordcount: '1447'
+ht-degree: 21%
 ---
-
 # Funzionalità disponibile per ogni tipo di oggetto
 
 >[!NOTE]
@@ -107,7 +117,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Accetta un&#39;assegnazione | ✓ |   |   |   |
 | Assegnazione | ✓ | ✓ |   |   |
 | Allega un modulo personalizzato | ✓ |   |   |   |
-| Modifica campi personalizzati | ✓ |   |   |   |
+| Modifica i campi personalizzati | ✓ |   |   |   |
 | Creare un processo di approvazione | ✓ |   |   |   |
 | Approvare un’attività | ✓ | ✓ | ✓ |   |
 | Modifica dati finanziari | ✓ |   |   |   |
@@ -130,7 +140,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
-| Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
+| Modifica i campi personalizzati | ✓ | ✓ | ✓ |   |
 | Approva problemi | ✓ | ✓ | ✓ |   |
 | Aggiungere un processo di approvazione | ✓ |   |   |   |
 | Agguingere documenti | ✓ | ✓ | ✓ |   |
@@ -160,7 +170,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 | Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
-| Modifica campi personalizzati | ✓ |   |   |   |
+| Modifica i campi personalizzati | ✓ |   |   |   |
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
 | Approva progetti | ✓ |   |   |   |
 | Ottimizzazione Portfolio | ✓ |   |   |   |
@@ -184,7 +194,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 | Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
-| Modifica campi personalizzati | ✓ |   |   |   |
+| Modifica i campi personalizzati | ✓ |   |   |   |
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
 | Approva progetti | ✓ |   |   |   |
 | Ottimizzazione Portfolio | ✓ |   |   |   |
@@ -250,7 +260,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Aggiungi approvatori (documenti) | ✓ | ✓ | ✓ |   |
 | Approva documenti | ✓ | ✓ | ✓ | ✓ |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
-| Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
+| Modifica i campi personalizzati | ✓ | ✓ | ✓ |   |
 | Sposta in (oggetto) | ✓ | ✓ | ✓ |   |
 | Invia a (integrazione) | ✓ | ✓ | ✓ |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |
@@ -285,7 +295,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 | Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano | ✓* |   |   |   |
 | Visualizza utenti | ✓ | ✓ | ✓ |   |
 | Visualizza informazioni di contatto | ✓ | ✓ | ✓ |   |
-| Visualizza tariffe di fatturazione | ✓* |   |   |   |
+| Visualizza le tariffe di fatturazione | ✓* |   |   |   |
 | Visualizza tariffe di costo | ✓* |   |   |   |
 | Visualizza dati finanziari generale | ✓* |   |   |   |
 
@@ -306,7 +316,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 | Modifica tariffe di fatturazione | ✓* |   |   |   |
 | Modifica tariffe di costo | ✓* |   |   |   |
 | Modifica dati finanziari generali | ✓* |   |   |   |
-| Visualizza tariffe di fatturazione | ✓* |   |   |   |
+| Visualizza le tariffe di fatturazione | ✓* |   |   |   |
 | Visualizza tariffe di costo | ✓* |   |   |   |
 | Visualizza dati finanziari generale | ✓* |   |   |   |
 
@@ -388,7 +398,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 | Modifica tariffe di fatturazione | ✓&#42; |   |   |   |
 | Modifica tariffe di costo | ✓&#42; |   |   |   |
 | Modifica dati finanziari generali | ✓&#42; |   |   |   |
-| Visualizza tariffe di fatturazione | ✓&#42; | ✓&#42; |   |   |
+| Visualizza le tariffe di fatturazione | ✓&#42; | ✓&#42; |   |   |
 | Visualizza tariffe di costo | ✓&#42; | ✓&#42; |   |   |
 | Visualizza dati finanziari generale | ✓&#42; | ✓&#42; |   |   |
 | Gestire i record di fatturazione | ✓ |   |   |   |

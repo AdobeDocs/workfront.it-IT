@@ -4,38 +4,52 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Puoi integrare Adobe Workfront con applicazioni di terze parti e altri prodotti  [!DNL Adobe] . Le integrazioni possono estendere l’utilità di Workfront e personalizzarla in base alle esigenze dell’organizzazione. Per informazioni dettagliate sui diversi tipi di integrazioni, consulta questo articolo.
+description: È possibile integrare Adobe Workfront con applicazioni di terze parti e altri prodotti [!DNL Adobe]. Le integrazioni possono estendere l’utilità di Workfront e personalizzarla in base alle esigenze dell’organizzazione. Per informazioni dettagliate sui diversi tipi di integrazioni, consulta questo articolo.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4
+TQID: 'https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
+source-wordcount: '1315'
 ht-degree: 98%
-
 ---
-
 # Integrazioni di [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
@@ -108,7 +122,7 @@ Sappiamo che le integrazioni incorporate (native) disponibili potrebbero non sod
    <td role="rowheader"> <p>Adobe Express</p> </td> 
    <td> 
     <ul> 
-     <li>Integra l’esperienza di verifica con Adobe Express. Con questa integrazione, puoi 
+     <li>Integra l’esperienza di bozza con Adobe Express. Con questa nuova integrazione puoi: 
      <ul>
      <li>Utilizza i modelli di approvazione di Workfront per definirne i relativi flussi di lavoro. </li>
      <li>Rivedi il contenuto della bozza di Adobe Express nel visualizzatore di bozze. </li>
@@ -123,7 +137,7 @@ Sappiamo che le integrazioni incorporate (native) disponibili potrebbero non sod
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integra l’esperienza di verifica con Genstudio per il marketing delle prestazioni. Con questa integrazione, puoi 
+     <li>Integra l’esperienza di bozza con Genstudio per il marketing delle prestazioni. Con questa nuova integrazione puoi: 
      <ul>
      <li>Utilizza i modelli di approvazione di Workfront per definirne i relativi flussi di lavoro. </li>
      <li>Rivedere il contenuto della bozza di GenStudio nel visualizzatore di bozze. </li>

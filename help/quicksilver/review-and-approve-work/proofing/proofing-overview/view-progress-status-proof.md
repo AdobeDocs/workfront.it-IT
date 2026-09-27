@@ -6,20 +6,27 @@ description: È possibile visualizzare informazioni sull'avanzamento di una bozz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 5%
-
+source-wordcount: '377'
+ht-degree: 4%
 ---
-
 # Panoramica sullo stato e sull’avanzamento della bozza
 
 È possibile visualizzare informazioni sull&#39;avanzamento di una bozza nel processo di revisione e visualizzare un riepilogo generale dello stato di decisione della bozza dall&#39;area Documenti.
@@ -100,7 +107,7 @@ Le icone di avanzamento possono essere visualizzate nei seguenti colori per indi
 
 ## Panoramica sullo stato della bozza
 
-Lo stato della bozza visualizza lo stato delle decisioni necessarie per la bozza. Lo stato della bozza è determinato dal partecipante che si trova nel &quot;caso peggiore&quot;. Si supponga, ad esempio, di avere tre decisioni sulla bozza: due hanno lo stato **Accettato** e uno ha lo stato **Rifiutato**. La decisione del &quot;caso peggiore&quot; di **Rifiutato** sovrascrive le altre decisioni e lo stato complessivo della bozza viene visualizzato come **Rifiutato**. 
+Lo stato della bozza visualizza lo stato delle decisioni necessarie per la bozza. Lo stato della bozza è determinato dal partecipante che si trova nel &quot;caso peggiore&quot;. Si supponga, ad esempio, di avere tre decisioni sulla bozza: due hanno lo stato **Accettato** e uno ha lo stato **Rifiutato**. La decisione &quot;caso peggiore&quot; di **Rifiutato** sovrascrive le altre decisioni e lo stato complessivo della bozza viene visualizzato come **Rifiutato**. 
 
 ![Stato modifica bozza esistente](assets/proof-edit-existing-progress-350x62.png)
 

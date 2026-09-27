@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: Risoluzione dei problemi di creazione delle bozze
 description: Il processo di creazione della bozza include sia l’importazione che la generazione della bozza. Talvolta, durante la creazione di una bozza, un file potrebbe non essere importato o la bozza potrebbe non essere generata dopo l’importazione.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # Risoluzione dei problemi di creazione delle bozze
 
@@ -47,11 +48,11 @@ Il processo di creazione della bozza include sia l’importazione che la generaz
 
 * Quando si esegue la verifica dei file PDF, i motivi dell&#39;errore di generazione della bozza includono:
 
-   * I font e le immagini sono collegati da fonti esterne (ad esempio dal file system locale)
+  * I font e le immagini sono collegati da fonti esterne (ad esempio dal file system locale)
 
-     Per poter essere visualizzati in un altro computer o in Workfront Proof, i tipi di carattere e le immagini devono essere incorporati nel file PDF.
+    Per poter essere visualizzati in un altro computer o in Workfront Proof, i tipi di carattere e le immagini devono essere incorporati nel file PDF.
 
-   * Il file PDF contiene livelli vuoti o campi trasparenti o sovrapposti.
+  * Il file PDF contiene livelli vuoti o campi trasparenti o sovrapposti.
 
-     Se non siete in grado di determinare quale livello o oggetto causa questo problema, esportate la progettazione o il documento come un PDF ottimizzato (questo rimuove tutti gli elementi indesiderati).
+    Se non siete in grado di determinare quale livello o oggetto causa questo problema, esportate la progettazione o il documento come un PDF ottimizzato (questo rimuove tutti gli elementi indesiderati).
 

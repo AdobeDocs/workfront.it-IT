@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
+source-wordcount: '3822'
 ht-degree: 0%
-
 ---
-
 # Attività sulla versione 2017.3 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale 2017.3 di Beta. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 12 settembre 2017. Sarà disponibile nell’ambiente di produzione all’inizio di novembre 2017.
@@ -304,9 +312,9 @@ Il visualizzatore HTML include le seguenti nuove funzionalità durante la verifi
 
 * Navigare tra le bozze tramite le miniature delle bozze
 
-   * Identifica facilmente la parte della bozza che viene esaminata. Questo è importante, soprattutto quando gli utenti lavorano con bozze di formato più grandi e pagine web lunghe, o in qualsiasi momento è necessario un livello di zoom più grande per visualizzare i dettagli.
-   * Modificare il livello di zoom
-   * Sposta il contenuto
+  * Identifica facilmente la parte della bozza che viene esaminata. Questo è importante, soprattutto quando gli utenti lavorano con bozze di formato più grandi e pagine web lunghe, o in qualsiasi momento è necessario un livello di zoom più grande per visualizzare i dettagli.
+  * Modificare il livello di zoom
+  * Sposta il contenuto
 
 * Specificare valori personalizzati nello strumento di misurazione
 * Quando si annota del testo all’interno di una bozza nel visualizzatore di bozze di Workfront Proof, è possibile includere opzioni per indicare che il testo deve essere in grassetto, in corsivo e sottolineato.

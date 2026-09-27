@@ -9,20 +9,27 @@ feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/UWIgItczhaLrXRwcE39PHyx7-SD3QmBhs2-JfmURLa8
+TQID: 'https://experienceleague.adobe.com/UWIgItczhaLrXRwcE39PHyx7-SD3QmBhs2-JfmURLa8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 282
-ht-degree: 6%
-
+source-wordcount: '282'
+ht-degree: 9%
 ---
-
 # Pianificazione delle funzioni non più supportate
 
 Diverse funzioni sono state eliminate gradualmente dal prodotto Adobe Workfront. Segue una breve descrizione di ciascuna funzione, collegamenti a informazioni aggiuntive e date chiave di cui tenere conto.

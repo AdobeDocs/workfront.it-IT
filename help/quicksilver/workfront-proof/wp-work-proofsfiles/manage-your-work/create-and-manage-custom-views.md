@@ -7,20 +7,29 @@ description: È possibile creare visualizzazioni personalizzate dei file e delle
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 1%
-
 ---
-
 # Crea e gestisci visualizzazioni personalizzate in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -229,34 +238,34 @@ Per creare una visualizzazione personalizzata:
 
      Se desideri visualizzare solo le bozze senza commenti, seleziona i seguenti valori:
 
-      * Campo: Commenti
-      * Operatore: Equals
-      * Campo valore: 0
+     * Campo: Commenti
+     * Operatore: Equals
+     * Campo valore: 0
 
      Per visualizzare solo le bozze con due o più commenti, seleziona i seguenti valori:
 
-      * Campo: Commenti
-      * Operatore: maggiore o uguale a
-      * Campo valore: 2
+     * Campo: Commenti
+     * Operatore: maggiore o uguale a
+     * Campo valore: 2
 
      Per visualizzare solo le bozze con un numero di commenti compreso tra 1 e 4, seleziona i seguenti valori:
 
-      * Campo: Commenti
-      * Operatore: Between
-      * Campo valore (primo campo): 1
-      * Campo valore (secondo campo): 4
+     * Campo: Commenti
+     * Operatore: Between
+     * Campo valore (primo campo): 1
+     * Campo valore (secondo campo): 4
 
-        È possibile modificare un filtro aggiunto alla visualizzazione personalizzata senza problemi oppure rimuoverlo facendo clic sull&#39;icona incrociata accanto al filtro [!UICONTROL setup], se necessario.
+       È possibile modificare un filtro aggiunto alla visualizzazione personalizzata senza problemi oppure rimuoverlo facendo clic sull&#39;icona incrociata accanto al filtro [!UICONTROL setup], se necessario.
 
-        Poiché l&#39;elenco dei campi non è limitato alle colonne selezionate nella scheda [!UICONTROL Colonne], è consigliabile creare un filtro che includa una colonna non selezionata per la visualizzazione personalizzata. Ad esempio, il seguente filtro per la visualizzazione selezionerà tutte le bozze con un valore del contatore Versione pari o superiore a 2:
+       Poiché l&#39;elenco dei campi non è limitato alle colonne selezionate nella scheda [!UICONTROL Colonne], è consigliabile creare un filtro che includa una colonna non selezionata per la visualizzazione personalizzata. Ad esempio, il seguente filtro per la visualizzazione selezionerà tutte le bozze con un valore del contatore Versione pari o superiore a 2:
 
-         * Campo = contatore versione
-         * Operatore = Maggiore o uguale a
-         * Campo valore = 2
+       * Campo = contatore versione
+       * Operatore = Maggiore o uguale a
+       * Campo valore = 2
 
-           >[!NOTE]
-           >
-           >È possibile modificare un filtro aggiunto alla visualizzazione personalizzata senza problemi oppure rimuoverlo facendo clic sull&#39;icona incrociata accanto al filtro [!UICONTROL setup], se necessario.
+         >[!NOTE]
+         >
+         >È possibile modificare un filtro aggiunto alla visualizzazione personalizzata senza problemi oppure rimuoverlo facendo clic sull&#39;icona incrociata accanto al filtro [!UICONTROL setup], se necessario.
 
 
 

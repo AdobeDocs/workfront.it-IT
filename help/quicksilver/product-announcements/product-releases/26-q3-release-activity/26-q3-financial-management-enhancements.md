@@ -4,13 +4,20 @@ description: Miglioramenti di Financial Management per il terzo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 4%
-
+source-wordcount: '344'
+ht-degree: 3%
 ---
-
 # Miglioramenti di Financial Management per il terzo trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2026 di Financial Management. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -21,7 +28,10 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 25 giugno 2026>Versione rapida produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026>Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate.
+>Anteprima: 25 giugno 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
+>Questa funzione è disponibile solo per le organizzazioni incluse nel pacchetto Workflow Ultimate.
 
 Ora puoi selezionare una scheda tariffa da aggiungere a un modello, che viene quindi allegata automaticamente a tutti i progetti creati dal modello. La scheda tariffe diventa l’impostazione predefinita nel progetto, ma può essere sostituita se necessario.
 
@@ -31,7 +41,10 @@ Per informazioni, vedere [Allegare una scheda tariffaria a un modello](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 25 giugno 2026>Versione rapida produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026>Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate.
+>Anteprima: 25 giugno 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
+>Questa funzione è disponibile solo per le organizzazioni incluse nel pacchetto Workflow Ultimate.
 
 Ora è possibile modificare l’elenco delle tariffe di fatturazione con data di validità su una scheda delle tariffe più rapidamente, aggiungendo una nuova tariffa in un punto specifico dell’elenco. Selezionare il menu **Altro** accanto a una tariffa esistente per inserire una riga superiore o inferiore a tale tariffa.
 
@@ -43,7 +56,10 @@ Per informazioni, consulta [Gestire le schede tariffarie](/help/quicksilver/admi
 
 >[!NOTE]
 >
->Anteprima: 21 maggio 2026>Versione rapida produzione: 21 maggio 2026>Produzione per tutti: 21 maggio 2026>Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate.
+>Anteprima: 21 maggio 2026
+>Versione rapida di produzione: 21 maggio 2026
+>Produzione per tutti: 21 maggio 2026
+>Questa funzione è disponibile solo per le organizzazioni incluse nel pacchetto Workflow Ultimate.
 
 Una volta aggiunto un attributo a una frequenza in Workfront, non è più possibile modificarlo e i relativi filtri nell’area Setup (Configura). In questo modo viene preservata l&#39;integrità dei dati e si evita che i tassi vengano modificati accidentalmente quando gli attributi vengono aggiornati.
 

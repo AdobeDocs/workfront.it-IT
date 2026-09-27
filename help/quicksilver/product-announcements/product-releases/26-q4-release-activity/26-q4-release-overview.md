@@ -4,7 +4,16 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 9%
@@ -200,7 +209,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ora disponibile in Workfront</a>
-                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale Assistente AI.</p>
+                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale AI Assistant.</p>
             </td>
             <td><p>Rollout graduale a partire dal 3 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>

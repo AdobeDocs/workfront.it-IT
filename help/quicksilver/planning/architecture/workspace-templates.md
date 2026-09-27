@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 7%
-
 ---
-
 # Elenco dei modelli dell’area di lavoro
 
 {{planning-important-intro}}
@@ -35,8 +42,8 @@ Questo articolo descrive i modelli di area di lavoro disponibili in Adobe Workfr
 
 * A seconda del numero di aree di lavoro create quando si utilizza un modello di area di lavoro di Planning, è possibile utilizzare i seguenti tipi di modelli:
 
-   * Modelli singoli: un modello crea un’unica area di lavoro.
-   * Pacchetto di modelli per più aree di lavoro: il bundle di modelli crea 6 aree di lavoro interconnesse.
+  * Modelli singoli: un modello crea un’unica area di lavoro.
+  * Pacchetto di modelli per più aree di lavoro: il bundle di modelli crea 6 aree di lavoro interconnesse.
 * Ogni modello include un set di tipi di record.
 
   Per informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -108,82 +115,82 @@ Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e i 
 
   Il modello Operations Initiative Studio include i tipi di record seguenti e i relativi campi:
 
-   * Iniziative
-   * Flussi di lavoro
-   * Rischi e problemi
-   * Decisioni
-   * Sistemi
-   * Team
+  * Iniziative
+  * Flussi di lavoro
+  * Rischi e problemi
+  * Decisioni
+  * Sistemi
+  * Team
 * **Communications Planning Studio**: è consigliabile impostare rapidamente un hub di pianificazione delle comunicazioni. Inizia duplicando il record del modello di piano di comunicazione lungo o breve, quindi crea il rollout aggiungendo tattiche e tenendo traccia dei checkpoint di approvazione. Fai riferimento a tipi di pubblico, mercati e canali per creare rapporti, filtrare e riutilizzare in modo coerente. Include record di esempio e viste di tabella, sequenza temporale e calendario pronte all&#39;uso che consentono ai team di esplorare immediatamente le funzioni di Planning.
 
   Il modello di Communications Planning Studio include i seguenti tipi di record e i relativi campi:
 
-   * Comunicazioni
-   * Tipi di pubblico
-   * Tattiche
-   * Checkpoint di approvazione
-   * Canali
-   * Mercati
-   * Ruoli delle parti interessate
+  * Comunicazioni
+  * Tipi di pubblico
+  * Tattiche
+  * Checkpoint di approvazione
+  * Canali
+  * Mercati
+  * Ruoli delle parti interessate
 
 * **Base: Marketing Management**: ideale per le organizzazioni che gettano le basi di un sistema di marketing di base. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Campaign
-   * Persone
-   * Brand
-   * Prodotti
+  * Campaign
+  * Persone
+  * Brand
+  * Prodotti
 
 * **Avanzate: Gestione marketing**: adatte ai team pronti per esplorare strategie di marketing con più sfumature. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Campagne
-   * Programmi
-   * Aree geografiche
-   * Fasi Percorso cliente
-   * Tipi di pubblico
-   * Deliverables
-   * Brand
+  * Campagne
+  * Programmi
+  * Aree geografiche
+  * Fasi Percorso cliente
+  * Tipi di pubblico
+  * Deliverables
+  * Brand
 
 * **Enterprise: Marketing Management**: progettato per organizzazioni grandi o mature con sistemi di marketing complessi. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Campagne
-   * Programmi
-   * Tattiche
-   * Attività
-   * Prodotti
-   * Deliverables
-   * Destinatari
-   * Aree geografiche
-   * Sottoregioni
-   * Partner
-   * Casi d’uso
-   * Fasi Percorso cliente
+  * Campagne
+  * Programmi
+  * Tattiche
+  * Attività
+  * Prodotti
+  * Deliverables
+  * Destinatari
+  * Aree geografiche
+  * Sottoregioni
+  * Partner
+  * Casi d’uso
+  * Fasi Percorso cliente
 
 * Gestione delle vendite: puoi creare un sistema di vendita completo che semplifica il processo di vendita e migliora l’efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Opportunità
-   * Attività
-   * Campaign
-   * Account
-   * Lead
-   * Contatto
-   * Area geografica
-   * Settore
-   * Centro acquisti
-   * Prodotto/Servizio
-   * Concorrenza
+  * Opportunità
+  * Attività
+  * Campaign
+  * Account
+  * Lead
+  * Contatto
+  * Area geografica
+  * Settore
+  * Centro acquisti
+  * Prodotto/Servizio
+  * Concorrenza
 
 
 * Gestione dei prodotti: puoi creare un processo di gestione dei prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
-   * Tema
-   * Iniziativa
-   * Epica
-   * Storia utente
-   * Cliente
-   * Sprint
-   * Team di prodotto
-   * Richieste di funzioni
-   * Settore
+  * Tema
+  * Iniziativa
+  * Epica
+  * Storia utente
+  * Cliente
+  * Sprint
+  * Team di prodotto
+  * Richieste di funzioni
+  * Settore
 
 ## Modelli di area di lavoro di Workfront Planning per più aree di lavoro
 
@@ -203,56 +210,56 @@ Il bundle di modelli per più aree di lavoro contiene i seguenti modelli con i r
   >Usiamo il nome &quot;Fréscopa&quot; solo come esempio generale di un&#39;azienda.
 
 
-   * Percorsi cliente
-   * Paesi
-   * Canali
-   * Aree geografiche
-   * Stati, province o prefetture
-   * Lingue
-   * Piattaforme
-   * Tipi di esperienza
-   * Anni
-   * Trimestri
-   * Strategie messaggi
-   * Destinatari
-   * Persone
-   * Prodotti
-   * Brand
-   * Categorie di prodotti
-   * Valori
-   * Visione e missione
-   * Pilastri
-   * Indicatori chiave di prestazioni
+  * Percorsi cliente
+  * Paesi
+  * Canali
+  * Aree geografiche
+  * Stati, province o prefetture
+  * Lingue
+  * Piattaforme
+  * Tipi di esperienza
+  * Anni
+  * Trimestri
+  * Strategie messaggi
+  * Destinatari
+  * Persone
+  * Prodotti
+  * Brand
+  * Categorie di prodotti
+  * Valori
+  * Visione e missione
+  * Pilastri
+  * Indicatori chiave di prestazioni
 
 * **2.Fréscopa Global Marketing**: area di lavoro centralizzata per la gestione della strategia di marketing aziendale e dell&#39;esecuzione di Fréscopa. Combina campagne, contenuti e metriche per aumentare l’impatto sul brand.
 
-   * Campagne
-   * Tattiche canale
-   * Esperienze
-   * Eventi
+  * Campagne
+  * Tattiche canale
+  * Esperienze
+  * Eventi
 
 * **3.Marketing social Fréscopa**: area di lavoro dedicata per la gestione della presenza e delle campagne sui social media di Fréscopa. Centralizza la pianificazione, la pubblicazione e il tracciamento delle prestazioni su tutte le piattaforme social.
 
-   * Influencer
+  * Influencer
 
 * **4.Fréscopa Media &amp; PR**: dove i team di Media &amp; PR coordinano le attività a supporto degli obiettivi di marketing globali.
 
-   * Reporter
-   * Media Outlet
-   * Coinvolgimenti multimediali
+  * Reporter
+  * Media Outlet
+  * Coinvolgimenti multimediali
 
 * **5.Eventi globali Fréscopa**: un luogo centralizzato per pianificare e tenere traccia degli eventi Fréscopa in tutte le aree geografiche, i paesi e le Business Unit.
 
-   * Tipi di evento
-   * Tipi di flusso di lavoro
-   * Altoparlanti
-   * Posizioni evento
-   * Tipo di pubblico evento
+  * Tipi di evento
+  * Tipi di flusso di lavoro
+  * Altoparlanti
+  * Posizioni evento
+  * Tipo di pubblico evento
 
 * **6.Leadership aziendale esecutiva Fréscopa**: area di lavoro centralizzata per consentire ai leader strategici di interfacciarsi con dati utilizzabili, quali gli obiettivi e gli obiettivi aziendali.
 
-   * Obiettivi aziendali
-   * Obiettivi del reparto
-   * Obiettivi del team
-   * Risultati chiave
+  * Obiettivi aziendali
+  * Obiettivi del reparto
+  * Obiettivi del team
+  * Risultati chiave
 

@@ -8,24 +8,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-TQID: https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY
+TQID: 'https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1221
-ht-degree: 15%
-
+source-wordcount: '1276'
+ht-degree: 20%
 ---
-
 # Aggiungi utenti
 
 <!--Audited 2/2024-->
@@ -40,8 +45,8 @@ ht-degree: 15%
 >
 >   Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, vedi [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
->* **Se l&#39;organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni a Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
->   Dopo aver creato l&#39;utente in Adobe Admin Console, è possibile configurare le informazioni dell&#39;utente in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
+>* **Se l’organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni ad Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
+>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
 >* **Se l’organizzazione non utilizza il Single Sign-On (SSO)**, puoi aggiungere utenti non amministratori di sistema direttamente in Workfront. Anche se è possibile aggiungere utenti in Adobe Admin Console, aggiungerli in Workfront consente di configurarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
 
@@ -93,10 +98,10 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
 
 * Quali sono le informazioni personali dell&#39;utente? Come minimo sono necessari i seguenti elementi:
 
-   * Nome e cognome
-   * Un nome utente
-   * Password predefinita
-   * Indirizzo e-mail
+  * Nome e cognome
+  * Un nome utente
+  * Password predefinita
+  * Indirizzo e-mail
 
   >[!NOTE]
   >

@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: utente,pianificazione
 navigation-topic: configure-timesheets-and-schedules
 title: Panoramica degli Schedules
-description: È possibile definire la settimana lavorativa utilizzando le programmazioni. È possibile associare una pianificazione a un utente o a un progetto. Questo consente a  [!DNL Adobe Workfront]  di calcolare le tempistiche e la disponibilità dell'utente. Per istruzioni, consulta Creare una pianificazione.
+description: È possibile definire la settimana lavorativa utilizzando le programmazioni. È possibile associare una pianificazione a un utente o a un progetto. Questo consente a [!DNL Adobe Workfront] di calcolare le timeline e la disponibilità dell'utente. Per istruzioni, consulta Creare una pianificazione.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # Panoramica delle pianificazioni
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ L&#39;ordine in cui le pianificazioni vengono utilizzate dal sistema quando ne e
 
 * Quando un utente viene assegnato a un&#39;attività, [!DNL Workfront] utilizza una delle pianificazioni seguenti, come definito nell&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione]:
 
-   * Pianificazione dell&#39;utente assegnato all&#39;attività
-   * La pianificazione associata al progetto.
+  * Pianificazione dell&#39;utente assegnato all&#39;attività
+  * La pianificazione associata al progetto.
 
-     Per ulteriori informazioni sull&#39;orario personale, vedere [Configurare l&#39;orario di riposo personale](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+    Per ulteriori informazioni sull&#39;orario personale, vedere [Configurare l&#39;orario di riposo personale](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Quando più utenti vengono assegnati a un&#39;attività e gli utenti hanno pianificazioni diverse durante l&#39;intervallo di tempo dell&#39;attività, [!DNL Workfront] utilizza una delle pianificazioni seguenti, come definito nell&#39;area [!UICONTROL Preferenze progetto] di [!UICONTROL Configurazione]:
 
-   * Pianificazione dell&#39;utente designato come assegnatario principale
-   * La pianificazione associata al progetto.
+  * Pianificazione dell&#39;utente designato come assegnatario principale
+  * La pianificazione associata al progetto.
 
-     Per ulteriori informazioni sulle preferenze del progetto, vedere [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    Per ulteriori informazioni sulle preferenze del progetto, vedere [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Se l&#39;utente assegnato all&#39;attività non ha alcuna pianificazione o l&#39;attività è assegnata solo a una mansione, a un team o non è assegnata, [!DNL Workfront] utilizza la pianificazione del progetto per i calcoli della sequenza temporale.
 * Se l&#39;utente assegnato all&#39;attività non dispone di una pianificazione o l&#39;attività è assegnata solo a una mansione, a un team o non è assegnata e il progetto non dispone di una pianificazione, [!DNL Workfront] utilizza la pianificazione nel sistema designato come pianificazione predefinita per i calcoli della sequenza temporale.

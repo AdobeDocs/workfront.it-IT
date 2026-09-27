@@ -1,49 +1,54 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Accedere a  [!DNL Adobe Workfront]
+title: Accedere a [!DNL Adobe Workfront]
 description: Leggi questo articolo per scoprire come accedere a Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 11%
-
 ---
-
 # Accedere a [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
-Per Workfront e tutte le applicazioni Adobe CX Enterprise viene utilizzato un login.
+Viene utilizzato un login per Workfront e tutte le applicazioni Adobe CX Enterprise.
 
 Per informazioni, vedere [Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).
 
 ## Accedi a [!DNL Workfront]
 
-Dopo aver effettuato l&#39;accesso a CX Enterprise, è possibile visualizzare tutte le [!DNL Workfront] organizzazioni e ambienti a cui si ha accesso facendo clic sul selettore organizzazione nell&#39;area di navigazione superiore. Selezionare l&#39;organizzazione o l&#39;ambiente [!DNL Workfront] in cui si desidera lavorare. Gli ambienti possono includere [!UICONTROL Anteprima] e [!UICONTROL Sandbox], se utilizzati dalla tua organizzazione.
+Dopo aver effettuato l&#39;accesso a CX Enterprise, è possibile visualizzare tutte le organizzazioni e gli ambienti [!DNL Workfront] a cui si ha accesso facendo clic sul selettore organizzazione nell&#39;area di navigazione superiore. Selezionare l&#39;organizzazione o l&#39;ambiente [!DNL Workfront] in cui si desidera lavorare. Gli ambienti possono includere [!UICONTROL Anteprima] e [!UICONTROL Sandbox], se utilizzati dalla tua organizzazione.
 
 ![Visualizza [!DNL Workfront] organizzazioni e ambienti](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
->La prima volta che si accede a CX Enterprise, l&#39;organizzazione utilizza per impostazione predefinita la prima voce dell&#39;elenco alfabetico. Al successivo accesso, l’organizzazione utilizza per impostazione predefinita l’ultima visitata.
+>La prima volta che accedi a CX Enterprise, l’organizzazione utilizza per impostazione predefinita la prima voce dell’elenco alfabetico. Al successivo accesso, l’organizzazione utilizza per impostazione predefinita l’ultima visitata.
 
-[!DNL Workfront] viene visualizzato nell&#39;elenco dei prodotti CX Enterprise a cui si ha accesso. È possibile scegliere [!DNL Workfront] nel menu di accesso rapido della home page di CX Enterprise oppure utilizzare il commutatore di prodotto ![Commutatore di prodotto](assets/main-menu-icon.png) per modificare le applicazioni in qualsiasi momento.
+[!DNL Workfront] viene visualizzato nell&#39;elenco dei prodotti CX Enterprise a cui hai accesso. È possibile scegliere [!DNL Workfront] nel menu di accesso rapido della home page di CX Enterprise oppure utilizzare il commutatore di prodotto ![Commutatore di prodotto](assets/main-menu-icon.png) per modificare le applicazioni in qualsiasi momento.
 
 ![Selezionare [!DNL Workfront] per accedere all&#39;applicazione](assets/cx-enterprise-home-2026.png)
 

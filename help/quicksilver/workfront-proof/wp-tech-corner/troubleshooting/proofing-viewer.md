@@ -3,28 +3,38 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Risoluzione dei problemi -  [!DNL Workfront Proof] visualizzatore di verifica
+title: Risoluzione dei problemi - Visualizzatore di bozze [!DNL Workfront Proof]
 description: Se il contenuto della bozza non viene caricato e puoi visualizzare solo un visualizzatore di bozze vuoto, è probabile che a livello locale sia presente un elemento che blocca l’azione.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # Risoluzione dei problemi - Visualizzatore di bozze [!DNL Workfront Proof]
 
 <!-- Audited: 01/2024 -->
@@ -82,10 +92,10 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Se la bozza non si apre in alcun browser del computer, prova ad aprirla in un altro computer nella tua posizione e/o all’esterno della tua. Questo consente di determinare se un problema si verifica nel computer in uso o se il problema si trova nella rete locale.
 Se il livello di protezione è più elevato, le connessioni a [!DNL Workfront Proof] potrebbero essere bloccate da:
 
-   * Il software AV locale
-   * Soluzione di sicurezza di rete
-   * Configurazione DNS, firewall o proxy
-   * Queste sono le impostazioni che sfuggono al nostro controllo. Sono disponibili diverse soluzioni di sicurezza e non è possibile sapere quali sono implementate nella rete e quali potrebbero bloccare le connessioni a [!DNL Workfront Proof]. Non spetta inoltre a [!DNL Workfront Proof] decidere la configurazione della sicurezza interna. In caso di problemi durante l&#39;apertura delle bozze su più computer della propria posizione/rete, è consigliabile contattare il team IT in modo che possa verificare le impostazioni di rete e autorizzare o aggiungere [!DNL Workfront Proof] al inserisco nell&#39;elenco Consentiti di, se necessario.
+  * Il software AV locale
+  * Soluzione di sicurezza di rete
+  * Configurazione DNS, firewall o proxy
+  * Queste sono le impostazioni che sfuggono al nostro controllo. Sono disponibili diverse soluzioni di sicurezza e non è possibile sapere quali sono implementate nella rete e quali potrebbero bloccare le connessioni a [!DNL Workfront Proof]. Non spetta inoltre a [!DNL Workfront Proof] decidere la configurazione della sicurezza interna. In caso di problemi durante l&#39;apertura delle bozze su più computer della propria posizione/rete, è consigliabile contattare il team IT in modo che possa verificare le impostazioni di rete e autorizzare o aggiungere [!DNL Workfront Proof] al inserisco nell&#39;elenco Consentiti di, se necessario.
 
 * Le connessioni a [!DNL Workfront Proof] sono consentite nella rete?
 All’interno del Visualizzatore bozze vengono caricate le tessere, ovvero i frammenti delle pagine. Se il contenuto non viene caricato correttamente alla fine, è possibile che alcune connessioni a [!DNL Workfront Proof] siano bloccate nella rete. Assicurati che tutte le connessioni e tutti i contenuti di *.proofhq.com siano stati aggiunti al inserisco nell&#39;elenco Consentiti di. Il tuo team IT dovrebbe essere in grado di aiutarti a verificarlo.

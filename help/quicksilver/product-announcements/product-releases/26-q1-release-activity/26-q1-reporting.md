@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
-TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
+TQID: 'https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 94%
-
+source-wordcount: '1000'
+ht-degree: 99%
 ---
-
 # Miglioramenti al reporting per il primo trimestre 2026
 
 Questa pagina descrive i miglioramenti relativi al reporting apportati all’ambiente di anteprima con la versione del primo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -31,7 +38,9 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Sono stati apportati i seguenti aggiornamenti ai campi della valuta nativa:
 
@@ -47,7 +56,9 @@ Sono stati apportati i seguenti aggiornamenti ai campi della valuta nativa:
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 È stata aggiunta una ricerca rapida nella tabella rapporti. Questa ricerca funziona su tutte le pagine, quindi puoi trovare i dati anche se non sono attualmente visibili.
 
@@ -56,7 +67,9 @@ Sono stati apportati i seguenti aggiornamenti ai campi della valuta nativa:
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 È stata introdotta una nuova opzione Mostra totale che converte i grafici a torta in grafici ad anello. Questa funzione consente agli utenti di visualizzare un valore centrale che rappresenta il totale di tutti i segmenti nel grafico.
 
@@ -72,7 +85,9 @@ Per ulteriori informazioni, consulta [Creare un rapporto con grafico in una dash
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Sono state introdotte due nuove opzioni di configurazione per i grafici a torta:
 
@@ -85,7 +100,9 @@ Per ulteriori informazioni, consulta [Creare un rapporto con grafico in una dash
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 La barra di raggruppamento nelle dashboard dell’area di lavoro è stata aggiornata per mostrare il conteggio dei record della pagina corrente e il conteggio complessivo dei record del raggruppamento su tutte le pagine.
 
@@ -97,7 +114,9 @@ In precedenza, la barra di raggruppamento non forniva queste informazioni dettag
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Ora puoi definire una linea di riferimento nei grafici a barre, a colonne e a linee per impostare un target o una soglia nei tuoi rapporti basati su serie.
 
@@ -109,7 +128,9 @@ Per ulteriori informazioni, consulta [Creare un rapporto con grafico in una dash
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Ora puoi personalizzare le etichette degli assi nei rapporti con grafico. Questa nuova funzione consente di inserire un’etichetta dell’asse sostitutiva da mostrare al posto dell’oggetto e del percorso di campo predefiniti. Inoltre, puoi scegliere di nascondere completamente le etichette degli assi.
 
@@ -119,7 +140,9 @@ Per ulteriori informazioni, consulta [Creare un rapporto con grafico in una dash
 
 >[!NOTE]
 >
->Versione di anteprima: 23 ottobre 2025>Produzione per tutti i clienti: 23 ottobre 2025>[!BADGE Pianificazione off]{type=Neutral}
+>Rilascio in anteprima: 23 ottobre 2025
+>Produzione per tutti i clienti: 23 ottobre 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Ora puoi duplicare un rapporto di KPI, tabella o grafico in una dashboard dell’area di lavoro dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.
 
@@ -127,7 +150,9 @@ Ora puoi duplicare un rapporto di KPI, tabella o grafico in una dashboard dell�
 
 >[!NOTE]
 >
->Anteprima: 6 novembre 2025>Versione rapida produzione: 13 novembre 2025>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 6 novembre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Sono state rimosse le seguenti opzioni di campo precedentemente disponibili durante l’applicazione di un filtro a un rapporto:
 
@@ -148,7 +173,9 @@ In alternativa, sono disponibili le seguenti opzioni di campo:
 
 >[!NOTE]
 >
->Anteprima: 6 novembre 2025>Versione rapida produzione: 13 novembre 2025>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 6 novembre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Per evitare ritardi nei tempi di caricamento e migliorare le prestazioni complessive delle dashboard dell’area di lavoro, sono stati applicati dei limiti al numero di componenti che è possibile aggiungere a una dashboard:
 

@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 8%
-
 ---
-
 # Eliminare uno stato del gruppo
 
 In qualità di amministratore di gruppo, puoi eliminare uno stato per un gruppo che gestisci se non è configurato come obbligatorio o bloccato a livello di sistema o per un gruppo più alto nella gerarchia.
@@ -88,10 +94,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * **Se è bloccato**: si verifica una delle seguenti condizioni:
 
-      * Se sono presenti altri stati bloccati e non nascosti, sono disponibili solo quelli.
-      * Se non è presente uno stato bloccato non nascosto, lo stato predefinito di Workfront è disponibile, anche se è nascosto o sbloccato.
+     * Se sono presenti altri stati bloccati e non nascosti, sono disponibili solo quelli.
+     * Se non è presente uno stato bloccato non nascosto, lo stato predefinito di Workfront è disponibile, anche se è nascosto o sbloccato.
 
-        Per informazioni sugli stati predefiniti di Workfront, vedere [Accedere all&#39;elenco degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accedere all&#39;elenco degli stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) e le informazioni sui 4 stati dei problemi richiesti in [Accedere all&#39;elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+       Per informazioni sugli stati predefiniti di Workfront, vedere [Accedere all&#39;elenco degli stati dei progetti di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accedere all&#39;elenco degli stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) e le informazioni sui 4 stati dei problemi richiesti in [Accedere all&#39;elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
 1. Fai clic su **Elimina**.
 

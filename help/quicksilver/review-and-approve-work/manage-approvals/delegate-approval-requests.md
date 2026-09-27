@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: '1203'
 ht-degree: 3%
-
 ---
-
 # Delegare la richiesta di approvazione
 
 Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Puoi delegare le assegnazioni di attività e problemi, oppure puoi delegare le richieste di approvazione. Questo articolo descrive come delegare le richieste di approvazione. Per informazioni sulla delega delle assegnazioni di attività e problemi, vedere [Delegare attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -135,11 +146,11 @@ Per delegare le approvazioni a un altro utente:
 1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
    * **Nome**: inizia a digitare il nome dell&#39;utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L&#39;inoltro inizia alle 12:00 del mattino alla data selezionata.\
+   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L’inoltro inizia alle 00:00 del mattino successivo alla data selezionata.\
      La data di inizio deve essere la data corrente o una data futura.
    * **Data di fine**: eseguire una delle operazioni seguenti:
-      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:00 della data selezionata.:59
-      * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
+     * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:59 della data selezionata.
+     * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
 
 1. Fai clic su **Salva**.
 
@@ -155,11 +166,11 @@ Per delegare le approvazioni a un altro utente:
 1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
    * **Nome**: inizia a digitare il nome dell&#39;utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L&#39;inoltro inizia alle 12:00 del mattino alla data selezionata.\
+   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L’inoltro inizia alle 00:00 del mattino successivo alla data selezionata.\
      La data di inizio deve essere la data corrente o una data futura.
    * **Data di fine**: eseguire una delle operazioni seguenti:
-      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:00 della data selezionata.:59
-      * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
+     * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:59 della data selezionata.
+     * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
 
 ## Aggiornare o interrompere una delega di approvazione {#update-or-stop-an-approval-delegation}
 

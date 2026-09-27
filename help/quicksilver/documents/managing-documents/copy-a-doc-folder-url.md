@@ -8,22 +8,29 @@ feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8
+TQID: 'https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 182
-ht-degree: 37%
-
+source-wordcount: '248'
+ht-degree: 27%
 ---
-
 # Copiare e condividere un collegamento a una cartella di documenti
 
 È possibile copiare un collegamento diretto per qualsiasi cartella documenti contenuta in uno dei seguenti [!DNL Workfront] oggetti: [!UICONTROL Programma], [!UICONTROL Portfolio], [!UICONTROL Progetto], [!UICONTROL Attività] o [!UICONTROL Problema]. Impossibile copiare un collegamento per le cartelle contenute nell&#39;area [!UICONTROL Documenti] dal menu principale, poiché tali cartelle sono collegate direttamente al profilo utente e non possono essere condivise con altri utenti.
@@ -31,7 +38,7 @@ ht-degree: 37%
 >[!NOTE]
 >
 >Questa funzionalità non è disponibile nella nuova area Documenti.<br>
->Se la tua organizzazione utilizza l&#39;archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud di Adobe, consulta [Panoramica sull&#39;archiviazione cloud di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 

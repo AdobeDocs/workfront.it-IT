@@ -6,18 +6,21 @@ description: 'In questo articolo sono elencate le notifiche in-app che puoi rice
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 2%
-
 ---
-
 # Panoramica sulle notifiche in-app
 
 In questo articolo sono elencate le notifiche in-app che puoi ricevere. Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.
@@ -103,9 +106,9 @@ Quando fai clic sull&#39;icona numerata ![Icona Notifiche](assets/notifications-
 * ![Icona problema](assets/issue.png) [!UICONTROL Problema assegnato a] [nome team] - [nome assegnatario]
 * ![Attività assegnata a te](assets/icon-taskassngdtoyou.png) [!UICONTROL Attività assegnata a] [nome team] - [nome assegnatario]
 
-   * Le notifiche di assegnazione vengono inviate solo quando lo stato del progetto è impostato su [!UICONTROL Current] (o su uno stato personalizzato equivalente a [!UICONTROL Current]).
-   * Non è previsto che a richiedenti e revisori venga assegnato un lavoro. Pertanto, non ricevono alcuna notifica se sono assegnati ad attività e problemi.
-   * Se assegni del lavoro a te stesso o a un team a cui appartieni, non riceverai una notifica.
+  * Le notifiche di assegnazione vengono inviate solo quando lo stato del progetto è impostato su [!UICONTROL Current] (o su uno stato personalizzato equivalente a [!UICONTROL Current]).
+  * Non è previsto che a richiedenti e revisori venga assegnato un lavoro. Pertanto, non ricevono alcuna notifica se sono assegnati ad attività e problemi.
+  * Se assegni del lavoro a te stesso o a un team a cui appartieni, non riceverai una notifica.
 
 ### [!UICONTROL Commenti]
 

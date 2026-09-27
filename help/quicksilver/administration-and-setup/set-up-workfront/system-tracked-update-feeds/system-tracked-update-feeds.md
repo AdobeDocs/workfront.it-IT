@@ -11,24 +11,29 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+TQID: 'https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 2%
-
 ---
-
 # Panoramica degli aggiornamenti tracciati dal sistema
 
 <!-- Audited: 08/2025-->
@@ -64,35 +69,35 @@ Gli aggiornamenti tracciati dal sistema non sono disponibili per tutti gli ogget
 
 * L&#39;area [!UICONTROL Aggiornamenti] è disponibile per i seguenti oggetti:
 
-   * [!UICONTROL Progetto]
-   * [!UICONTROL Attività]
-   * [!UICONTROL Problema]
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL Programma]
-   * [!UICONTROL Utente]
-   * [!UICONTROL Modello]
-   * [!UICONTROL Attività modello]
-   * [!UICONTROL Team]
-   * [!UICONTROL Documento]
-   * [!UICONTROL Scheda orario]
-   * [!UICONTROL Storia]
+  * [!UICONTROL Progetto]
+  * [!UICONTROL Attività]
+  * [!UICONTROL Problema]
+  * [!UICONTROL Portfolio]
+  * [!UICONTROL Programma]
+  * [!UICONTROL Utente]
+  * [!UICONTROL Modello]
+  * [!UICONTROL Attività modello]
+  * [!UICONTROL Team]
+  * [!UICONTROL Documento]
+  * [!UICONTROL Scheda orario]
+  * [!UICONTROL Storia]
 
-     In [!DNL Workfront] una storia è un&#39;attività.
-   * [!UICONTROL Iterazione]
-   * [!UICONTROL Obiettivo]
+    In [!DNL Workfront] una storia è un&#39;attività.
+  * [!UICONTROL Iterazione]
+  * [!UICONTROL Obiettivo]
 
-     Non tutti i pacchetti Workfront includono gli obiettivi di Workfront. Per informazioni, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL Scheda] su una bacheca
+    Non tutti i pacchetti Workfront includono gli obiettivi di Workfront. Per informazioni, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * [!UICONTROL Scheda] su una bacheca
 
-     Per ulteriori informazioni sugli aggiornamenti sulle schede, vedere [Utilizzare schede collegate sulle schede](../../../agile/get-started-with-boards/connected-cards.md).
+    Per ulteriori informazioni sugli aggiornamenti sulle schede, vedere [Utilizzare schede collegate sulle schede](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] non tiene traccia degli aggiornamenti di sistema per i seguenti oggetti:
 
-   * [!UICONTROL Team]
-   * [!UICONTROL Modello]
-   * [!UICONTROL Attività modello]
-   * [!UICONTROL Scheda] ad hoc
-   * [!UICONTROL Iterazioni]
+  * [!UICONTROL Team]
+  * [!UICONTROL Modello]
+  * [!UICONTROL Attività modello]
+  * [!UICONTROL Scheda] ad hoc
+  * [!UICONTROL Iterazioni]
 
 
 <!--
@@ -128,9 +133,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Gli amministratori di [!DNL Workfront] possono definire il tipo di modifiche che il sistema deve monitorare nell&#39;area [!UICONTROL Aggiornamenti]. Non tutti gli oggetti con un&#39;area [!UICONTROL Aggiornamenti] hanno anche feed [!UICONTROL aggiornamento] configurabili. I seguenti oggetti hanno un&#39;area [!UICONTROL Aggiornamenti] che acquisisce i feed di aggiornamento tracciati dal sistema, ma non dispongono di feed di aggiornamento configurabili:
 
-   * [!UICONTROL Documento]
-   * [!UICONTROL Scheda orario]
-   * [!UICONTROL Iterazione]
-   * [!UICONTROL Obiettivo]
+  * [!UICONTROL Documento]
+  * [!UICONTROL Scheda orario]
+  * [!UICONTROL Iterazione]
+  * [!UICONTROL Obiettivo]
 
 

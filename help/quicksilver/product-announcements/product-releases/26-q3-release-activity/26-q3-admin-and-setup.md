@@ -4,13 +4,20 @@ description: Miglioramenti per gli amministratori del terzo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 5%
-
+source-wordcount: '1693'
+ht-degree: 4%
 ---
-
 # Miglioramenti per gli amministratori del terzo trimestre 2026
 
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -22,7 +29,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 10 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 10 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 La pagina Cronologia modifiche in Workfront ora acquisisce l’attività tra i flussi di lavoro unificati di revisione e approvazione, fornendo agli amministratori un percorso di governance completo per la revisione e la documentazione degli eventi del ciclo di vita.
 
@@ -74,7 +83,9 @@ I clienti che hanno acquistato un numero uguale di licenze Workflow e Planning d
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Ricerca interna** nei moduli personalizzati fornisce un filtro dinamico. È simile al tipo di campo Automatico e consente agli utenti di cercare e selezionare oggetti Workfront esistenti digitando parte del nome. Il filtro della ricerca interna può fare riferimento al valore in un altro campo del modulo, il che non è possibile con Typeaheads.
 
@@ -92,7 +103,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 >
 >Questa funzione è disponibile solo per le organizzazioni nei pacchetti Workflow Prime o Ultimate.
 
@@ -106,7 +119,9 @@ Per informazioni, vedere [Aggiungere la logica del valore predefinito a un modul
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 I filtri di sistema esistenti nei campi nativi vengono ora applicati ai campi nei moduli personalizzati e sono visibili agli amministratori.
 
@@ -124,7 +139,9 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026>Versione rapida di produzione: 15 luglio 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 Per proteggere le integrazioni e l’integrità dei dati, è stato aggiornato il modo in cui i nomi dei campi possono essere modificati nel pannello delle impostazioni dei campi di un modulo personalizzato.
 
@@ -136,7 +153,9 @@ Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Versione rapida produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 11 giugno 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Per semplificare la visualizzazione delle modifiche apportate in un elenco centrale, è stato creato l&#39;elenco Cronologia modifiche. In questo elenco vengono visualizzate informazioni quali l&#39;oggetto, l&#39;operazione e l&#39;origine della modifica, ad esempio un utente o il sistema Workfront.
 
@@ -148,7 +167,9 @@ Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modific
 
 >[!NOTE]
 >
->Anteprima: 11 giugno 2026>Produzione per tutti: 11 giugno 2026>[!BADGE Sconto pianificato]{type=Neutral}
+>Anteprima: 11 giugno 2026
+>Produzione per tutti: 11 giugno 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Gli amministratori di Workfront ora possono convertire i portfolio di archiviazione legacy in archiviazione cloud Adobe direttamente da Preferenze di sistema. Per convertire i portfolio, selezionarli nel nuovo campo Seleziona i portfolio da convertire in storage aziendale e salvare la pagina.
 
@@ -167,7 +188,9 @@ Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
 
@@ -183,7 +206,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Ora puoi includere i campi finanziari nativi di Workfront nei moduli personalizzati. In precedenza, i campi finanziari non erano supportati.
 
@@ -195,7 +220,9 @@ Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Ai moduli personalizzati è stata aggiunta la nuova opzione di condivisione &quot;Tutti nel sistema possono visualizzare e allegare&quot;. Quando si seleziona questa opzione, tutti gli utenti a livello di sistema possono allegare il modulo ad altri oggetti.
 
@@ -207,7 +234,9 @@ Per ulteriori informazioni, vedere [Condividi modulo personalizzato](/help/quick
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026>Rilascio rapido produzione: 11 giugno 2026>Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Attualmente, quando si modificano oggetti in blocco, i campi obbligatori vengono applicati solo quando un utente modifica il campo. Se un campo non viene modificato, viene considerato facoltativo e non convalidato.
 

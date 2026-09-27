@@ -2,19 +2,26 @@
 content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Utilizza la vista Adobe Workfront
-description: Rivedi questi articoli per scoprire come utilizzare  [!DNL Adobe Workfront] Visualizza.
+title: Utilizzare la Vista di Adobe Workfront
+description: Esaminare questi articoli per scoprire come utilizzare la visualizzazione [!DNL Adobe Workfront].
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 7%
-
+ht-degree: 32%
 ---
-
 # Usa [!DNL Adobe Workfront View]
 
 Questa sezione contiene i seguenti articoli:

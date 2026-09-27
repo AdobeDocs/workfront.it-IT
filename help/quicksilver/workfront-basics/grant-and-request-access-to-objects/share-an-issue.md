@@ -6,22 +6,26 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 6%
-
 ---
-
 # Condividere un problema
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso ai problemi, vedere [Concedere l&#39;accesso ai problemi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
@@ -76,9 +80,9 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * È possibile condividere i problemi singolarmente o più problemi contemporaneamente. I problemi di condivisione sono identici agli altri elementi di Workfront. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un problema:
 
-   * Visualizzazione
-   * Contribuisci
-   * Gestione
+  * Visualizzazione
+  * Contribuisci
+  * Gestione
 
 * Quando condividi un problema, tutti i documenti allegati al problema ereditano le stesse autorizzazioni.
 
@@ -91,27 +95,27 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * Manuale, simile alla condivisione di qualsiasi altro oggetto in Workfront.
 * Automaticamente, effettuando una delle seguenti operazioni:
 
-   * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai loro oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova il problema. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai loro oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova il problema. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutti i problemi in un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso a problemi o richieste sul progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Specifica le autorizzazioni per tutti i problemi in un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso a problemi o richieste sul progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
-     >[!TIP]
-     >
-     >Se non si specifica il problema di autorizzazioni che gli utenti devono avere quando sono assegnati ai problemi del progetto, per impostazione predefinita ricevono le stesse autorizzazioni che hanno sul progetto.
+    >[!TIP]
+    >
+    >Se non si specifica il problema di autorizzazioni che gli utenti devono avere quando sono assegnati ai problemi del progetto, per impostazione predefinita ricevono le stesse autorizzazioni che hanno sul progetto.
 
-   * Specifica le autorizzazioni che gli utenti ricevono in caso di problemi inviati in una coda di richieste durante la creazione di una coda di richieste. Per informazioni, vedere [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  * Specifica le autorizzazioni che gli utenti ricevono in caso di problemi inviati in una coda di richieste durante la creazione di una coda di richieste. Per informazioni, vedere [Creare una coda di richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     >[!IMPORTANT]
-     >
-     >Le autorizzazioni vengono concesse in modo diverso a seconda che il progetto sia pubblicato o meno come coda di richieste:
-     >
-     >   
-     >   
-     >   * Quando un utente invia una richiesta a un progetto pubblicato come coda di richieste, agli utenti Contatto principale e Immesso da viene concessa l’autorizzazione specificata.
-     >   * Quando un utente invia una richiesta a un progetto non pubblicato come coda di richieste, al contatto principale (se diverso dall’utente Inserito da) viene concessa l’autorizzazione specificata e all’utente Inserito da vengono concesse le autorizzazioni Gestione del problema.
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >Le autorizzazioni vengono concesse in modo diverso a seconda che il progetto sia pubblicato o meno come coda di richieste:
+    >
+    >   
+    >   
+    >   * Quando un utente invia una richiesta a un progetto pubblicato come coda di richieste, agli utenti Contatto principale e Immesso da viene concessa l’autorizzazione specificata.
+    >   * Quando un utente invia una richiesta a un progetto non pubblicato come coda di richieste, al contatto principale (se diverso dall’utente Inserito da) viene concessa l’autorizzazione specificata e all’utente Inserito da vengono concesse le autorizzazioni Gestione del problema.
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

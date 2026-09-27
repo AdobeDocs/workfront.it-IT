@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 8%
-
 ---
-
 # Visualizzare i report calendario e i dettagli dell’evento
 
 Puoi visualizzare i rapporti del calendario e i dettagli dell’evento che hai creato o che sono stati condivisi con te in Adobe Workfront.
@@ -85,7 +90,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. (Condizionale) Fai clic sull&#39;elenco a discesa **[!UICONTROL Visualizza]**, quindi seleziona la durata del calendario da visualizzare.
    ![Durata calendario](assets/view-menu-calendar-report-350x189.png)
-È possibile scegliere tra le seguenti visualizzazioni di report calendario:
+   È possibile scegliere tra le seguenti visualizzazioni di report calendario:
 
    * **[!UICONTROL Mese]**: visualizza quattro settimane del calendario
    * **[!UICONTROL Settimana]**: visualizza una settimana del calendario
@@ -110,17 +115,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    * Per modificare rapidamente le date visualizzate:
 
-      1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
+     1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
 
-         ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione **Settimana**, il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
+        Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione **Settimana**, il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
 
-      1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
+     1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
 
 1. (Facoltativo) Per nascondere gli eventi di un progetto o di un raggruppamento del calendario collegato al calendario, deselezionare il raggruppamento del progetto o del calendario nell&#39;elenco dei progetti.
    ![Nascondi eventi](assets/hide-events-for-project-or-cal-grouping.png)
-È possibile rendere nuovamente visibili gli eventi selezionando il [!UICONTROL progetto] o il raggruppamento del calendario nell&#39;elenco dei progetti.
+   È possibile rendere nuovamente visibili gli eventi selezionando il [!UICONTROL progetto] o il raggruppamento del calendario nell&#39;elenco dei progetti.
 
 ## Visualizza dettagli evento report calendario
 

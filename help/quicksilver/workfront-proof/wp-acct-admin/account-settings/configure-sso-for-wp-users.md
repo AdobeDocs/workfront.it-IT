@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Configura Single Sign-On per  [!DNL Workfront Proof]  utenti
-description: Se disponi del piano Select o Premium, puoi fornire la funzionalità Single Sign-On (SSO) che ti consente di utilizzare il nome utente e la password della tua organizzazione esistente per accedere al tuo account [!DNL Workfront Proof] .
+title: Configura Single Sign-On per [!DNL Workfront Proof] utenti
+description: Se si dispone del piano Select o Premium, è possibile fornire la funzionalità Single Sign-On (SSO) che consente di utilizzare il nome utente e la password dell'organizzazione esistente per accedere all'account [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+TQID: 'https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1084
+source-wordcount: '1374'
 ht-degree: 0%
-
 ---
-
 # Configura Single Sign-On per [!DNL Workfront Proof] utenti
 
 >[!IMPORTANT]
@@ -149,7 +159,7 @@ Se è stata scelta la configurazione SSO manuale per un account satellite (1), �
 
 1. Apri la scheda **[!UICONTROL Single Sign-on]**.
 1. Verificare che il dominio/sottodominio [!DNL Workfront Proof] (1) sia configurato e che gli utenti accedano all&#39;account [!DNL Workfront Proof] tramite questo dominio/sottodominio personalizzato.
-   ![Sottodominio_SAML.png](assets/saml-subdomain-350x150.png)
+   ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
 Con il Single Sign-On abilitato, l&#39;URL di accesso del sottodominio (ad esempio, yourcompany.proofhq.com/login) visualizza una schermata di trasferimento (2) che porta direttamente alla pagina di accesso SSO.
    ![Pagina_accesso_SSO.png](assets/sso-login-page-350x164.png)
 

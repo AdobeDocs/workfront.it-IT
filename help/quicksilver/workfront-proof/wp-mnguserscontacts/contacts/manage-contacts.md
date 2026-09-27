@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Gestisci contatti in [!DNL Workfront Proof]
+title: Gestione dei contatti in [!DNL Workfront Proof]
 description: È possibile gestire colleghi, membri e ospiti nella pagina Contatti.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+TQID: 'https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 # Gestione dei contatti in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -76,7 +85,7 @@ Selezionare un&#39;opzione dal menu **[!UICONTROL Ordina]** nell&#39;angolo supe
    * Fare clic su **[!UICONTROL Elimina contatti]** per rimuovere i contatti selezionati dall&#39;elenco.
 
      ![Cestino_pulsante.png](assets/trash-button.png)
-L&#39;eliminazione di un contatto non implica la rimozione di un utente dall&#39;account. Tuttavia, se un amministratore o un amministratore di fatturazione elimina un utente dall&#39;elenco dei contatti, tale persona verrà eliminata completamente dall&#39;account dell&#39;organizzazione.
+     L&#39;eliminazione di un contatto non implica la rimozione di un utente dall&#39;account. Tuttavia, se un amministratore o un amministratore di fatturazione elimina un utente dall&#39;elenco dei contatti, tale persona verrà eliminata completamente dall&#39;account dell&#39;organizzazione.
 
    * Fai clic sull&#39;icona **[!UICONTROL Altro]** alla fine della riga di un contatto e utilizza una delle opzioni del menu a discesa visualizzato.
 

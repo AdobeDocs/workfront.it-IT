@@ -7,25 +7,31 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # Panoramica sulla sezione Aggiornamenti
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Esistono differenze tra le modalità di visualizzazione dei commenti e degli agg
 
 * Gli oggetti seguenti hanno esperienze simili in tutte e tre le schede della sezione Aggiornamenti:
 
-   * Progetti
-   * Tasks
-   * Problemi
-   * Programmi
-   * Portfolio
-   * Utenti
-   * Schede orario
+  * Progetti
+  * Tasks
+  * Problemi
+  * Programmi
+  * Portfolio
+  * Utenti
+  * Schede orario
 
 * I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella di tutti gli altri oggetti:
 
-   * Team
-   * Modello
-   * Attività modello
+  * Team
+  * Modello
+  * Attività modello
 
 * I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti è diversa da quella di tutti gli altri oggetti:
 
-   * Iterazioni
-   * Schede ad hoc nell’area Schede
+  * Iterazioni
+  * Schede ad hoc nell’area Schede
 
-     Per ulteriori informazioni sugli aggiornamenti delle schede, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+    Per ulteriori informazioni sugli aggiornamenti delle schede, vedere [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * I seguenti oggetti hanno una scheda Attività di sistema e non hanno una scheda Tutto:
 
-   * Schede collegate nell&#39;area Schede
+  * Schede collegate nell&#39;area Schede
 
-     Per informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Per informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Gli oggetti seguenti hanno una scheda Cronologia che sostituisce la scheda Attività di sistema:
 
-   * Record in Workfront Planning
+  * Record in Workfront Planning
 
-     Per informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
+    Per informazioni, vedere [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md).
 
 * I seguenti oggetti non dispongono di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella della maggior parte degli oggetti:
 
-   * Obiettivi
+  * Obiettivi
 
-     Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, vedere [Gestire i commenti sugli obiettivi](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, vedere [Gestire i commenti sugli obiettivi](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
 
 * La sezione Aggiornamenti per i team è compilata con i commenti aggiunti ai seguenti oggetti:
 
-   * Utenti
-   * Storie
-   * Schede orario
-   * Iterazioni
+  * Utenti
+  * Storie
+  * Schede orario
+  * Iterazioni
 
 * La scheda Aggiornamenti di sistema dell&#39;area Aggiornamenti per gli utenti viene compilata con aggiornamenti ad altri oggetti. Di seguito sono riportati gli aggiornamenti che vengono visualizzati nella scheda Aggiornamenti di sistema del profilo dell’utente quando tali campi vengono tracciati nell’area Feed aggiornamenti di Configurazione:
 
-   * Aggiunta, rimozione e altri aggiornamenti di documenti
-   * Aggiunta di ore, rimozione, aggiunta per conto di e altri aggiornamenti delle ore
-   * Aggiornamenti ai campi personalizzati
-   * Aggiornamenti del profilo utente (aggiornamenti all’avatar dell’utente, numero di cellulare, informazioni sul campo, titolo)
-   * Aggiunta utente, rimozione, modifica del livello di accesso, modifiche nei campi utente incorporati
-   * Informazioni finanziarie da attività e progetti.
+  * Aggiunta, rimozione e altri aggiornamenti di documenti
+  * Aggiunta di ore, rimozione, aggiunta per conto di e altri aggiornamenti delle ore
+  * Aggiornamenti ai campi personalizzati
+  * Aggiornamenti del profilo utente (aggiornamenti all’avatar dell’utente, numero di cellulare, informazioni sul campo, titolo)
+  * Aggiunta utente, rimozione, modifica del livello di accesso, modifiche nei campi utente incorporati
+  * Informazioni finanziarie da attività e progetti.
 
 ### Limitazioni nell’inserimento di commenti per conto di un altro utente
 

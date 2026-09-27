@@ -9,21 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw
+TQID: 'https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Optimization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
-ht-degree: 0%
-
+source-wordcount: '448'
+ht-degree: 1%
 ---
-
 # Utilizzare la visualizzazione Cronologia processo in Connessione dati
 
 Nella visualizzazione Cronologia job, gli amministratori di Workfront possono accedere ai record dettagliati di ciascun job di aggiornamento dei dati. Questi record forniscono ad insight importanti funzionalità per i processi che consentono di mantenere aggiornati i dati e di stabilire i tempi ideali per l’esecuzione dei processi e l’aggiornamento delle visualizzazioni aziendali.
@@ -58,7 +63,7 @@ A ogni processo di connessione dati viene assegnato uno stato che indica se è s
         <td>Il processo ha elaborato correttamente ogni aggiornamento disponibile e tutti gli aggiornamenti per quel tipo di record ora vengono rispecchiati nel data lake.</td>
     </tr>
     <tr>
-        <td>Ignorato</td>
+        <td>Ignorata</td>
         <td>Il processo è stato ignorato perché non sono presenti aggiornamenti in coda da elaborare per il tipo di record.</td>
     </tr>
     <tr>

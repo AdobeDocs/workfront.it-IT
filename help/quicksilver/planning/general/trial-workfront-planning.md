@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 2%
-
+source-wordcount: '2346'
+ht-degree: 3%
 ---
-
 # Introduzione alla versione di prova gratuita di pianificazione di Adobe Workfront
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ La versione di prova gratuita di Workfront Planning offre le seguenti funzionali
 * Un ambiente Planning curato e con più aree di lavoro
 * Un pacchetto Workfront Planning Prime che include le seguenti funzionalità:
 
-   * Aree di lavoro illimitate
-   * 500.000 record per workspace
-   * 2 milioni di aree di lavoro totali
-   * Tipi di record globali
+  * Aree di lavoro illimitate
+  * 500.000 record per workspace
+  * 2 milioni di aree di lavoro totali
+  * Tipi di record globali
 * Dati di esempio per darti un’idea su dove iniziare
 * L’onboarding guidato dall’intelligenza artificiale, che consente di utilizzare un linguaggio semplice o caricare un artefatto esistente, genera una struttura personalizzata in Planning tramite l’intelligenza artificiale. In questo modo vengono create automaticamente aree di lavoro, tipi di record, campi e visualizzazioni.
 * Formazione e guida interne al prodotto
@@ -75,12 +84,12 @@ Per partecipare alla prova gratuita di Workfront Planning, la società deve sodd
 
 * Disponi di uno dei seguenti nuovi pacchetti Adobe Workfront o Workflow:
 
-   * Seleziona
-   * Prime
-   * Ultimate
+  * Seleziona
+  * Prime
+  * Ultimate
 
   La versione di prova di Workfront Planning non è disponibile per i pacchetti Workfront legacy.
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+  Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Accetta il contratto di prova legale disponibile nell’istanza Workfront della tua organizzazione tra il 26 gennaio e il 1 aprile 2026 . Per accettare il contratto di prova è necessario essere un amministratore Workfront.
 
 ## Panoramica delle date importanti
@@ -88,31 +97,31 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 Di seguito sono riportate le date importanti associate all&#39;offerta di prova gratuita di Adobe Workfront Planning:
 
 * **26 gennaio 2026**: i banner di prova gratuiti di Workfront Planning sono stati rilasciati ai clienti Workfront. I banner includevano quanto segue:
-   * Un collegamento a questo documento.
-   * Finestra di accettazione del contratto di prova. Solo un amministratore Workfront può accettare il contratto. Il contratto di prova può essere accettato in qualsiasi momento a partire da questa data.
+  * Un collegamento a questo documento.
+  * Finestra di accettazione del contratto di prova. Solo un amministratore Workfront può accettare il contratto. Il contratto di prova può essere accettato in qualsiasi momento a partire da questa data.
 * **2 marzo 2026**: prova di Workfront Planning avviata.
 
   Con il lancio della versione di prova, i seguenti elementi vengono aggiunti alla tua istanza di Workfront:
 
-   * I banner di Workfront Planning continuano a essere visualizzati per tutti gli utenti. Nei banner è incluso un collegamento a questo documento.
-   * La preferenza **Verifica contratto di prova** è stata aggiunta all&#39;area **Configurazione**.
+  * I banner di Workfront Planning continuano a essere visualizzati per tutti gli utenti. Nei banner è incluso un collegamento a questo documento.
+  * La preferenza **Verifica contratto di prova** è stata aggiunta all&#39;area **Configurazione**.
 
   Esistono i seguenti scenari:
 
-   * Se l&#39;amministratore di Workfront ha accettato il contratto prima di questa data, è possibile trovare l&#39;area Pianificazione nel menu principale e iniziare a utilizzare Workfront Planning.
+  * Se l&#39;amministratore di Workfront ha accettato il contratto prima di questa data, è possibile trovare l&#39;area Pianificazione nel menu principale e iniziare a utilizzare Workfront Planning.
 
   >[!NOTE]
   >
   >L&#39;area Planning viene visualizzata nel menu principale per tutti gli utenti del sistema, indipendentemente dal tipo di licenza Workfront.
 
-   * Se l&#39;amministratore di Workfront non ha accettato il contratto prima di questa data, i banner che annunciano i programmi di prova di Planning vengono visualizzati per tutti gli utenti, ma Planning non è ancora disponibile nel menu principale. Prima di poter accedere a Workfront Planning, l&#39;amministratore di sistema deve accettare il contratto.
+  * Se l&#39;amministratore di Workfront non ha accettato il contratto prima di questa data, i banner che annunciano i programmi di prova di Planning vengono visualizzati per tutti gli utenti, ma Planning non è ancora disponibile nel menu principale. Prima di poter accedere a Workfront Planning, l&#39;amministratore di sistema deve accettare il contratto.
 
 * **1 aprile 2026**: non è più possibile iscriversi alla versione di valutazione.
 
   I seguenti elementi vengono rimossi dall’istanza di Workfront:
 
-   * Banner di prova di Workfront Planning.
-   * La preferenza **Rivedi contratto di prova** è stata rimossa dall&#39;area **Configurazione**.
+  * Banner di prova di Workfront Planning.
+  * La preferenza **Rivedi contratto di prova** è stata rimossa dall&#39;area **Configurazione**.
 
 * **1 maggio 2026**: la versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso. L’accesso rimarrà attivo fino al 15 maggio 2026.
 
@@ -137,9 +146,9 @@ Tutti gli utenti dell&#39;organizzazione ricevono il pacchetto Workfront Plannin
 
   Durante la prova gratuita, gli utenti del sistema ricevono le seguenti autorizzazioni per le aree di lavoro nell&#39;area Planning:
 
-   * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione per le aree di lavoro in cui si trova e per la scheda Tutte le aree di lavoro.
-   * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione per l’area Workspace, ma l’amministratore di sistema può concedere loro le autorizzazioni di gestione per le aree di lavoro visualizzate.
-   * Tutti gli utenti, incluso l&#39;amministratore di sistema, dispongono delle autorizzazioni di visualizzazione per la scheda Aree di lavoro di esempio nell&#39;area Planning.
+  * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione per le aree di lavoro in cui si trova e per la scheda Tutte le aree di lavoro.
+  * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione per l’area Workspace, ma l’amministratore di sistema può concedere loro le autorizzazioni di gestione per le aree di lavoro visualizzate.
+  * Tutti gli utenti, incluso l&#39;amministratore di sistema, dispongono delle autorizzazioni di visualizzazione per la scheda Aree di lavoro di esempio nell&#39;area Planning.
 
 * **Dopo Il 1° Maggio 2026:**
 
@@ -260,10 +269,10 @@ Per inviare un feedback sulla tua esperienza con Workfront Planning:
      Per informazioni su come utilizzare l&#39;area di lavoro Tassonomie globali, vedere [Trasformare il primo successo in un momento di crescita sostenibile: un playbook per la scalabilità gestita](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Aree di lavoro di esempio aggiuntive: le aree di lavoro seguenti fungono da esempi di ciò di cui un’azienda di esempio (Fréscopa) potrebbe aver bisogno come aree di lavoro specifiche, tipi di record, campi e viste per architettare la propria organizzazione e struttura di lavoro:
 
-      * **Marketing globale Fréscopa**
-      * **Social marketing Fréscopa**
-      * **Fréscopa Media e PR**
-      * **Leadership aziendale esecutiva Fréscopa**
+     * **Marketing globale Fréscopa**
+     * **Social marketing Fréscopa**
+     * **Fréscopa Media e PR**
+     * **Leadership aziendale esecutiva Fréscopa**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ Per inviare un feedback sulla tua esperienza con Workfront Planning:
 
      Per ulteriori informazioni, consulta:
 
-      * [Creare campi](/help/quicksilver/planning/fields/create-fields.md)
-      * [Panoramica dei tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [Creare campi](/help/quicksilver/planning/fields/create-fields.md)
+     * [Panoramica dei tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. Dalle aree di lavoro create, condividete una delle seguenti entità:
 

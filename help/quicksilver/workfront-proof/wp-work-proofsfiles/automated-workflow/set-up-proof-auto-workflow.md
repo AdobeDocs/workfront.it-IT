@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Configura una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]
+title: Configurare una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]
 description: Questo ripete le informazioni trovate in Configurazione delle bozze in Workfront. Consolida qui o là. Forse meglio qui.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # Configurare una bozza con un flusso di lavoro automatico in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ La bozza viene creata e quindi spostata da un punto all’altro dell’applicazi
    * **[!UICONTROL Dall&#39;attivazione della fase]:** Seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
    * **[!UICONTROL Attiva fase]:** Per ogni fase del flusso di lavoro, puoi decidere quando attivarla. Per la prima fase sono disponibili le seguenti opzioni.
 
-      * Alla creazione della bozza
-      * A un’ora e una data specifiche
-      * Manualmente\
+     * Alla creazione della bozza
+     * A un’ora e una data specifiche
+     * Manualmente\
 
-        Sono disponibili opzioni aggiuntive per le fasi successive. Queste opzioni richiedono una fase padre. Sono:
-      * Dopo il raggiungimento della scadenza precedente
-      * Tutte le decisioni vengono approvate o approvate con modifiche
-      * Tutte le decisioni sono approvate
-      * Tutte le decisioni vengono prese
+       Sono disponibili opzioni aggiuntive per le fasi successive. Queste opzioni richiedono una fase padre. Sono:
+     * Dopo il raggiungimento della scadenza precedente
+     * Tutte le decisioni vengono approvate o approvate con modifiche
+     * Tutte le decisioni sono approvate
+     * Tutte le decisioni vengono prese
    * **[!UICONTROL Scadenza calcolata a partire da]:** L&#39;opzione selezionata in questo elenco a discesa influisce sulle opzioni disponibili nel campo **[!UICONTROL Scadenza]**.
 
    * **[!UICONTROL Creazione bozza]:** Nel campo **[!UICONTROL Scadenza]**, seleziona la data di scadenza per la bozza.
@@ -124,26 +133,26 @@ Se non è necessario visualizzare il diagramma, è possibile nasconderlo (1).
 * **[!UICONTROL Nome fase]**: viene visualizzato nel diagramma del flusso di lavoro ed è incluso nelle notifiche e-mail inviate ai revisori.
 * **[!UICONTROL Attiva fase]**: per ogni fase del flusso di lavoro, puoi decidere quando attivarla. Per la prima fase, saranno disponibili le seguenti opzioni:
 
-   * Alla creazione della bozza
-   * A un’ora e una data specifiche
-   * Manualmente
-   * Per la prima fase sono disponibili solo queste tre opzioni. Le altre opzioni diventano disponibili quando si aggiunge una seconda fase; richiedono la selezione di una fase padre.
-   * Dopo il raggiungimento della scadenza precedente (richiede la scelta di una fase padre)
-   * Tutte le decisioni sono approvate o [!UICONTROL approvate con modifiche] (richiede la selezione di una fase padre)
-   * Tutte le decisioni sono approvate (richiede la selezione di una fase padre)
-   * Tutte le decisioni vengono prese (è necessario scegliere una fase padre)
+  * Alla creazione della bozza
+  * A un’ora e una data specifiche
+  * Manualmente
+  * Per la prima fase sono disponibili solo queste tre opzioni. Le altre opzioni diventano disponibili quando si aggiunge una seconda fase; richiedono la selezione di una fase padre.
+  * Dopo il raggiungimento della scadenza precedente (richiede la scelta di una fase padre)
+  * Tutte le decisioni sono approvate o [!UICONTROL approvate con modifiche] (richiede la selezione di una fase padre)
+  * Tutte le decisioni sono approvate (richiede la selezione di una fase padre)
+  * Tutte le decisioni vengono prese (è necessario scegliere una fase padre)
 
 * **[!UICONTROL Scadenza]:** Puoi decidere come calcolare la scadenza in ogni fase di un flusso di lavoro. Le opzioni sono:
 
-   * Dalla creazione della bozza: nel campo [!UICONTROL deadline] (9) puoi selezionare la data di scadenza della bozza.
-   * Attivazione dalla fase: nel menu a discesa [!UICONTROL scadenza] seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
+  * Dalla creazione della bozza: nel campo [!UICONTROL deadline] (9) puoi selezionare la data di scadenza della bozza.
+  * Attivazione dalla fase: nel menu a discesa [!UICONTROL scadenza] seleziona il numero di giorni lavorativi che verranno aggiunti alla data di attivazione della fase per impostare automaticamente una scadenza sulla bozza.
 
 * **[!UICONTROL Blocca]:** Esistono diverse opzioni che determinano quando un&#39;area di visualizzazione può essere bloccata. Le opzioni includono:
 
-   * Blocco manuale
-   * Mai
-   * Quando inizia la fase successiva
-   * Quando tutte le decisioni sono prese
+  * Blocco manuale
+  * Mai
+  * Quando inizia la fase successiva
+  * Quando tutte le decisioni sono prese
 
 **[!UICONTROL Decisore principale]**: è stato impostato il Decisore principale sullo stage. I responsabili delle decisioni disponibili vengono visualizzati nell’elenco solo dopo aver aggiunto i revisori alla fase.
 

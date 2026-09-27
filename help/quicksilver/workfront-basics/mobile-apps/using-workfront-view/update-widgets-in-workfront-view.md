@@ -6,22 +6,26 @@ description: È possibile visualizzare ulteriori informazioni sul [!UICONTROL pr
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 8%
-
 ---
-
 # Aggiorna widget nella visualizzazione [!UICONTROL Dettagli progetto]
 
 È possibile visualizzare ulteriori informazioni sul [!UICONTROL progetto] dopo averne effettuato l&#39;accesso dall&#39;elenco dei progetti aggiungendo widget alla schermata [!UICONTROL Dettagli progetto]. Ogni utente può personalizzare i propri widget.
@@ -78,8 +82,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * **[!UICONTROL Avanzamento attività]**: visualizza tutte le attività nel progetto in base a [!UICONTROL Stato avanzamento] in un grafico a torta.
    * **[!UICONTROL Attività future]**: visualizza fino a 6 attività imminenti. Il widget ordina le attività del progetto nel seguente ordine:
 
-      * in primo luogo, entro la [!UICONTROL data di scadenza stimata]
-      * in secondo luogo, per [!UICONTROL Work Breakdown Structure]
+     * in primo luogo, entro la [!UICONTROL data di scadenza stimata]
+     * in secondo luogo, per [!UICONTROL Work Breakdown Structure]
 
      Vengono visualizzate le ultime due attività completate (se applicabile) e le 4 attività successive. Per capire quali attività verranno visualizzate nell&#39;app mobile [!DNL Workfront] View, puoi creare un report delle attività per il progetto che stai visualizzando e ordinarlo in base alla Data di scadenza stimata e quindi in base alla struttura di raggruppamento [!DNL Workfront]. Le prime 6 attività saranno quelle elencate nell&#39;app mobile Workfront View nel widget Attività [!UICONTROL imminenti].
 
@@ -88,17 +92,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      È possibile aprire i seguenti formati di documento con [!DNL Workfront View]:
 
-      * tutti i file di testo
-      * .pdf
-      * file di immagine (.jpg, .jpeg, .png, ecc.)
-      * .xls
+     * tutti i file di testo
+     * .pdf
+     * file di immagine (.jpg, .jpeg, .png, ecc.)
+     * .xls
    * **[!UICONTROL Dettagli]**: visualizza i seguenti dettagli sul progetto:
 
-      * Nome progetto
-      * Nome dell’autore del progetto
-      * Stato Progetto
-      * Gruppo Progetto
-      * Pianificazione progetto
+     * Nome progetto
+     * Nome dell’autore del progetto
+     * Stato Progetto
+     * Gruppo Progetto
+     * Pianificazione progetto
    * **[!UICONTROL Team]**: visualizza i nomi degli utenti che fanno parte del team del progetto.\
 
      Per ulteriori informazioni sui team di progetto, vedere [Panoramica team di progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).

@@ -6,18 +6,21 @@ description: Le notifiche seguenti ti avvisano delle attività che si verificano
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+TQID: 'https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: '928'
 ht-degree: 0%
-
 ---
-
 # Notifiche: informazioni varie
 
 Le notifiche seguenti ti avvisano delle attività che si verificano su un progetto che stai sponsorizzando.

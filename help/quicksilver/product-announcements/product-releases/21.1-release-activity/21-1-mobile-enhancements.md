@@ -6,18 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-TQID: https://experienceleague.adobe.com/W4871yzdA2IZACrCrBNwVMbpNFT54bpCZaLiW2bJhaY
+TQID: 'https://experienceleague.adobe.com/W4871yzdA2IZACrCrBNwVMbpNFT54bpCZaLiW2bJhaY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: '183'
 ht-degree: 4%
-
 ---
-
 # 21.1 Miglioramenti per dispositivi mobili
 
 Questa pagina descrive tutti i miglioramenti per dispositivi mobili in arrivo con la versione 21.1. Questi miglioramenti saranno resi disponibili nei negozi mobili nella settimana del 15 febbraio 2021.

@@ -5,13 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
-
 ---
-
 # Miglioramenti ai documenti del terzo trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -22,7 +29,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 7 luglio 2026Versione rapida di produzione: 15 luglio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 7 luglio 2026
+>Versione rapida di produzione: 15 luglio 2026
+>Produzione per tutti: 16 luglio 2026
 
 I flussi di lavoro di approvazione per i documenti ora supportano percorsi paralleli, consentendo ai team di eseguire più tracce di revisione indipendenti contemporaneamente. Con i percorsi paralleli, puoi:
 
@@ -37,7 +46,11 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 8 luglio 2026Produzione per tutti: 8 luglio 2026Fuori programmaQuesta funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate, con l’archiviazione cloud Adobe abilitata.
+>Anteprima: N/D
+>Versione rapida di produzione: 8 luglio 2026
+>Produzione per tutti: 8 luglio 2026
+>[!BADGE Fuori programma]{type=Neutral}
+>Questa funzione è disponibile solo per le organizzazioni nel pacchetto Workflow Ultimate, con l’archiviazione cloud Adobe abilitata.
 
 Adobe Cloud Drive è ora disponibile per le organizzazioni che utilizzano una versione di Workfront che supporta l’archiviazione cloud di Adobe. Adobe Cloud Drive è un&#39;applicazione desktop che consente di montare i progetti di archiviazione cloud Adobe come un&#39;unità nel computer Mac o Windows, in modo da poter aprire, modificare e salvare file in qualsiasi applicazione direttamente da Finder o Esplora file. Le modifiche vengono sincronizzate automaticamente con l&#39;archiviazione cloud Adobe e sono disponibili per il team in Workfront e Frame.io.
 
@@ -49,7 +62,10 @@ Per ulteriori informazioni, consulta [Panoramica di Adobe Cloud Drive](/help/qui
 
 >[!NOTE]
 >
->Anteprima: N/DVersione rapida di produzione: 15 giugno 2026Produzione per tutti: 15 giugno 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: N/D
+>Versione rapida di produzione: 15 giugno 2026
+>Produzione per tutti: 15 giugno 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 L’integrazione Adobe Express e Workfront con Frame.io porta una revisione strutturata e l’approvazione dei contenuti creati in Adobe Express. I designer possono mappare un modello di flusso di lavoro di approvazione Workfront a un modello Express in modo che, quando il modello viene modificato, sia automaticamente necessaria un’approvazione prima della pubblicazione, indirizzando la risorsa attraverso il flusso di lavoro Workfront preconfigurato e il visualizzatore Frame.io.
 
@@ -68,7 +84,9 @@ Per ulteriori informazioni, vedere [Introduzione ad Adobe Express e Workfront co
 
 >[!NOTE]
 >
->Anteprima: 2 giugno 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 2 giugno 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 È ora possibile aprire un riepilogo stampabile dell&#39;approvazione di un documento direttamente dalla nuova area Documenti. Questa funzione è disponibile per le organizzazioni che utilizzano l’archiviazione cloud Adobe.
 
@@ -81,7 +99,9 @@ Per ulteriori informazioni, vedere [Panoramica dei dettagli del documento](/help
 
 >[!NOTE]
 >
->Anteprima: 28 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 28 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 È ora possibile aggiungere un messaggio personalizzato a ogni fase del flusso di lavoro di approvazione di un documento. Il messaggio viene visualizzato nella notifica e-mail di approvazione e nella scheda Approvazioni in Workfront.
 
@@ -97,7 +117,9 @@ Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione d
 
 >[!NOTE]
 >
->Anteprima: 14 maggio 2026Versione rapida di produzione: 14 maggio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 14 maggio 2026
+>Versione rapida di produzione: 14 maggio 2026
+>Produzione per tutti: 16 luglio 2026
 
 Le risorse collegate nell’area Documenti ora visualizzano i badge di stato che forniscono ai team visibilità immediata sulla posizione di ogni risorsa senza uscire da Workfront. Assets può mostrare:
 
@@ -112,7 +134,9 @@ Per ulteriori informazioni sugli stati di approvazione, vedere [Introduzione a r
 
 >[!NOTE]
 >
->Anteprima: 30 aprile 2026Versione rapida di produzione: 14 maggio 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 30 aprile 2026
+>Versione rapida di produzione: 14 maggio 2026
+>Produzione per tutti: 16 luglio 2026
 
 La pagina Informazioni cliente in Configurazione ora include una nuova sezione Panoramica archiviazione con contatori di utilizzo per l’archiviazione cloud Adobe.
 

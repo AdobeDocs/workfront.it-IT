@@ -4,13 +4,17 @@ content-type: reference
 description: Scopri le competenze disponibili per Collaboratore in Adobe Workfront.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 6%
-
 ---
-
 # Competenze dei collaboratori CX
 
 {{preview-fast-release-general}}
@@ -19,9 +23,9 @@ ht-degree: 6%
 >
 >CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente AI è disponibile per queste organizzazioni. Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-In questo articolo sono elencate le competenze attualmente disponibili per CX Coworker in Workfront.
+In questo articolo sono elencate le abilità attualmente disponibili per CX Coworker in Workfront.
 
-Le capacità coperte da queste competenze sono disponibili in CX Collaborator tramite l&#39;interfaccia conversazionale e non è necessario chiamare direttamente tali competenze. Tuttavia, se desideri chiamare direttamente le abilità, puoi farlo nel pannello Collaboratore immettendo una barra `/` e digitando il nome dell’abilità.
+Le abilità coperte da queste abilità sono disponibili in CX Coworker tramite l’interfaccia di conversazione e non è necessario chiamare queste abilità direttamente. Tuttavia, se desideri chiamare direttamente le abilità, puoi farlo nel pannello Collaboratore immettendo una barra `/` e digitando il nome dell’abilità.
 
 Ad esempio, i prompt sono riportati nell&#39;articolo [Utilizzare il server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

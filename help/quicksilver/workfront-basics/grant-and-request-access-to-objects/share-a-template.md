@@ -6,22 +6,26 @@ description: In qualità di amministratore di Adobe Workfront, puoi assegnare un
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 15%
-
 ---
-
 # Condividere un modello
 
 In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso agli utenti per autorizzarli a visualizzare o modificare i modelli. Per poter accedere ai modelli di modifica, l&#39;utente deve disporre di una licenza Standard o Plan.
@@ -42,18 +46,18 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 * Per impostazione predefinita, il creatore di un modello e il proprietario del modello dispongono delle autorizzazioni di gestione per il modello. Per informazioni sulla designazione di un utente come proprietario del modello, vedere [Modifica modelli di progetto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Quando condividi un modello, puoi condividere quanto segue:
 
-   * Il modello
+  * Il modello
 
-     Per ulteriori informazioni su come condividere un modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Per ulteriori informazioni su come condividere un modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-     Puoi concedere le seguenti autorizzazioni a un modello:
+    Puoi concedere le seguenti autorizzazioni a un modello:
 
-      * Visualizzazione
-      * Gestione
+    * Visualizzazione
+    * Gestione
 
-   * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto.
+  * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto.
 
-     Per informazioni su come condividere un progetto da un modello a livello di modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Per informazioni su come condividere un progetto da un modello a livello di modello, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * Quando si condivide un modello o un progetto creato dal modello, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati al modello o al progetto.
 

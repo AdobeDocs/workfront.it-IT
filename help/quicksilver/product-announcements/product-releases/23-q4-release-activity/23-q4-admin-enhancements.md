@@ -5,25 +5,31 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
-TQID: https://experienceleague.adobe.com/6-hscCn7M4UgFBhZVCsugo-ulyuFVc4nyBKKVNN3ZiM
+TQID: 'https://experienceleague.adobe.com/6-hscCn7M4UgFBhZVCsugo-ulyuFVc4nyBKKVNN3ZiM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '317'
 ht-degree: 0%
-
 ---
-
 # Miglioramenti per gli amministratori del quarto trimestre 2023
 
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2023 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.

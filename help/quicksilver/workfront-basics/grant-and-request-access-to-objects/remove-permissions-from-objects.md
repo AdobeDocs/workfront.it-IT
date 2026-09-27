@@ -6,22 +6,26 @@ description: È possibile rimuovere le autorizzazioni di altri utenti per gli og
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
+TQID: 'https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: '771'
 ht-degree: 8%
-
 ---
-
 # Rimuovere le autorizzazioni dagli oggetti
 
 <!--Audited: 01/2024-->
@@ -90,8 +94,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
       ![condivisione](assets/new-share-button.png)
    1. Individuare l&#39;utente, la mansione, il team, il gruppo o l&#39;azienda che si desidera rimuovere dall&#39;oggetto.
-   1. Fare clic su **Rimuovi**.
-Nel menu a discesa **Rimuovi &lt; Nome utente > da**, selezionare se si desidera che il relativo accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti figlio associati.
+   1. Fai clic su **Rimuovi**.
+      Nel menu a discesa **Rimuovi &lt; Nome utente > da**, selezionare se si desidera che il relativo accesso venga rimosso solo dall&#39;oggetto selezionato o da tutti gli oggetti secondari ad esso associati.
 
       ![rimuovi](assets/remove-permissions-on-project-nwe-350x479.png)
 

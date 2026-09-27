@@ -8,23 +8,28 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IVsfFJKauKvgOzXMP8rxHos8LDhqWYnThoyZeaiMCv0
+TQID: 'https://experienceleague.adobe.com/IVsfFJKauKvgOzXMP8rxHos8LDhqWYnThoyZeaiMCv0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '542'
 ht-degree: 14%
-
 ---
-
 # Condividere le autorizzazioni finanziarie su un oggetto
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
@@ -172,7 +177,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
    <td>  </td> 
   </tr>
   <tr> 
-   <td>Visualizza tariffe di fatturazione</td> 
+   <td>Visualizza le tariffe di fatturazione</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

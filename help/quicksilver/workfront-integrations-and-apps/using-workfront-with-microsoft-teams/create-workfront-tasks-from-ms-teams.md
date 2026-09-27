@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft] Team
-description: Puoi creare attività personali in Adobe [!DNL Workfront] da Microsoft Teams se un proprietario del team ha installato e configurato [!DNL Workfront] Microsoft Teams per il tuo team e hai effettuato l'accesso a Workfront da Microsoft Teams.
+title: Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft] team
+description: È possibile creare attività personali in Adobe [!DNL Workfront] da Microsoft Teams se un proprietario del team ha installato e configurato [!DNL Workfront] per Microsoft Teams per il team e si è connessi a Workfront da Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+TQID: 'https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '453'
 ht-degree: 31%
-
 ---
-
 # Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]
 
 >[!IMPORTANT]
@@ -83,12 +89,12 @@ Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams] 
    * Se sei nel canale di chat bot [!DNL Workfront], digita **[!UICONTROL Nuova attività]** nel campo [!UICONTROL conversazione] per creare una nuova attività.
    * Se ti trovi in un canale di chat diverso dal canale di chat bot [!DNL Workfront]:
 
-      * Inizia a digitare **[!DNL @workfront]** nel campo [!UICONTROL conversazione], quindi seleziona il canale bot [!DNL Workfront] desiderato.
-      * Continua a digitare **[!UICONTROL Nuova attività]** nel campo [!UICONTROL conversazione] per creare una nuova attività.
+     * Inizia a digitare **[!DNL @workfront]** nel campo [!UICONTROL conversazione], quindi seleziona il canale bot [!DNL Workfront] desiderato.
+     * Continua a digitare **[!UICONTROL Nuova attività]** nel campo [!UICONTROL conversazione] per creare una nuova attività.
 
-        La scheda [!UICONTROL Nuova attività] viene visualizzata nel canale bot [!DNL Workfront].
+       La scheda [!UICONTROL Nuova attività] viene visualizzata nel canale bot [!DNL Workfront].
 
-        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. Nel canale bot [!UICONTROL Workfront], specifica le seguenti informazioni sulla scheda [!UICONTROL Nuova attività]:
 

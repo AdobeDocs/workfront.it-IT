@@ -7,21 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+TQID: 'https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1178
+source-wordcount: '1178'
 ht-degree: 1%
-
 ---
-
 # Attività sulla versione 2018.2 Beta 1
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 1. La funzionalità è stata resa disponibile nell’ambiente di anteprima il 22 marzo 2018. Sarà disponibile nell’ambiente di produzione a giugno 2018.
@@ -93,8 +101,8 @@ La Visualizzazione utente della Programmazione delle risorse contiene ora i segu
 * Modalità a tutto schermo.
 * Le prestazioni sono ora più veloci ed efficienti.
 
-   * Nuovi limiti per il numero di utenti, progetti, ruoli e attività che è possibile visualizzare.
-   * Caricamento lento, per un caricamento più rapido degli utenti.
+  * Nuovi limiti per il numero di utenti, progetti, ruoli e attività che è possibile visualizzare.
+  * Caricamento lento, per un caricamento più rapido degli utenti.
 
 La seguente funzionalità è stata temporaneamente disabilitata in Pianificazione risorse:
 

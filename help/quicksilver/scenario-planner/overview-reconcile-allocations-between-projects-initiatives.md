@@ -6,18 +6,24 @@ description: Panoramica sulla riconciliazione delle allocazioni di risorse tra p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 5%
-
 ---
-
 # Panoramica sulla riconciliazione delle allocazioni di risorse tra progetti e iniziative
 
 <!--
@@ -34,8 +40,8 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 * Allocazioni di ruoli richieste per l’iniziativa.
 * Attività o problemi del progetto che hanno ore pianificate e sono assegnati a uno dei seguenti:
 
-   * Mansioni
-   * Utenti associati a mansioni
+  * Mansioni
+  * Utenti associati a mansioni
 
 ## Collegare progetti e iniziative
 
@@ -69,28 +75,28 @@ Entrambi i processi creano una connessione tra i progetti e le iniziative corris
 
 * Puoi visualizzare l’allocazione dei ruoli dell’iniziativa su un progetto collegato nelle seguenti aree del progetto:
 
-   * [!DNL Scenario Planner] sezione dell&#39;area [!UICONTROL Dettagli progetto] in un progetto. Per ulteriori informazioni, consulta i seguenti articoli:
+  * [!DNL Scenario Planner] sezione dell&#39;area [!UICONTROL Dettagli progetto] in un progetto. Per ulteriori informazioni, consulta i seguenti articoli:
 
-      * [Aggiorna o crea progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-      * [Gestisci informazioni nell&#39;area [!UICONTROL Panoramica] del progetto](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+    * [Aggiorna o crea progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
+    * [Gestisci informazioni nell&#39;area [!UICONTROL Panoramica] del progetto](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-     >[!TIP]
-     >
-     >Non è possibile visualizzare le informazioni sulle mansioni dal progetto e dall&#39;iniziativa affiancate nella sezione [!DNL Scenario Planner] dei [!UICONTROL Dettagli progetto].
+    >[!TIP]
+    >
+    >Non è possibile visualizzare le informazioni sulle mansioni dal progetto e dall&#39;iniziativa affiancate nella sezione [!DNL Scenario Planner] dei [!UICONTROL Dettagli progetto].
 
-   * Il pannello [!UICONTROL Allocazione ruoli] nelle seguenti aree:
+  * Il pannello [!UICONTROL Allocazione ruoli] nelle seguenti aree:
 
-      * [!UICONTROL Bilanciatore dei carichi di lavoro] del progetto
+    * [!UICONTROL Bilanciatore dei carichi di lavoro] del progetto
 
-        Per informazioni su come visualizzare e riconciliare le allocazioni di ruoli tra l&#39;iniziativa e il progetto collegato nel [!UICONTROL Bilanciatore dei carichi di lavoro], vedere [Mostra allocazione ruoli per progetti e iniziative nel [!UICONTROL Bilanciatore dei carichi di lavoro]](../scenario-planner/show-role-allocation-workload-balancer.md).
+      Per informazioni su come visualizzare e riconciliare le allocazioni di ruoli tra l&#39;iniziativa e il progetto collegato nel [!UICONTROL Bilanciatore dei carichi di lavoro], vedere [Mostra allocazione ruoli per progetti e iniziative nel [!UICONTROL Bilanciatore dei carichi di lavoro]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
-      * Sezione [!UICONTROL Attività]
+    * Sezione [!UICONTROL Attività]
 
-        Per informazioni su come riconciliare le allocazioni di ruoli tra l&#39;iniziativa e il progetto collegato nella sezione [!UICONTROL Attività], vedere [Mostra allocazione ruoli per progetti e iniziative nell&#39;elenco attività](../scenario-planner/show-role-allocation-task-list-nwe.md).
+      Per informazioni su come riconciliare le allocazioni di ruoli tra l&#39;iniziativa e il progetto collegato nella sezione [!UICONTROL Attività], vedere [Mostra allocazione ruoli per progetti e iniziative nell&#39;elenco attività](../scenario-planner/show-role-allocation-task-list-nwe.md).
 
-     >[!TIP]
-     >
-     >Puoi visualizzare le informazioni sui ruoli dal progetto e dall&#39;iniziativa nel pannello [!UICONTROL Allocazione ruoli].
+    >[!TIP]
+    >
+    >Puoi visualizzare le informazioni sui ruoli dal progetto e dall&#39;iniziativa nel pannello [!UICONTROL Allocazione ruoli].
 
 * Non puoi visualizzare l’allocazione delle mansioni per un progetto su un’iniziativa collegata. Per ulteriori informazioni, vedere [Importare progetti nei piani in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

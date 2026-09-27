@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 1%
-
 ---
-
 # Nuova esperienza dei commenti
 
 <!--take out legacy, preview, prod references from below-->
@@ -424,26 +430,26 @@ Per informazioni sulle funzioni rilasciate per la nuova esperienza di commento d
 Di seguito è riportata una timeline pianificata per il rilascio della nuova esperienza di commento:
 
 * Con la versione 23.2 (6 aprile 2023):
-   * È stata avviata l&#39;esperienza di commento Beta per i problemi
-   * È stata rilasciata la nuova esperienza di commento per gli obiettivi (come unica esperienza).
+  * È stata avviata l&#39;esperienza di commento Beta per i problemi
+  * È stata rilasciata la nuova esperienza di commento per gli obiettivi (come unica esperienza).
 * Con la versione 23.3 (20 luglio 2023):
-   * Avviato l&#39;esperienza di aggiunta di commenti Beta per progetti, attività e documenti.
-   * È stata rilasciata la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
+  * Avviato l&#39;esperienza di aggiunta di commenti Beta per progetti, attività e documenti.
+  * È stata rilasciata la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
 * Durante il rilascio del quarto trimestre 2023 (rilascio limitato, disponibile solo per i clienti che scelgono il rilascio rapido):
-   * È stata rilasciata la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
-   * È stata aggiornata l&#39;esperienza di aggiunta di commenti in Beta in modo che l&#39;opzione predefinita diventasse progetti, attività, problemi e documenti. L’etichetta &quot;Beta&quot; è stata rimossa.
+  * È stata rilasciata la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
+  * È stata aggiornata l&#39;esperienza di aggiunta di commenti in Beta in modo che l&#39;opzione predefinita diventasse progetti, attività, problemi e documenti. L’etichetta &quot;Beta&quot; è stata rimossa.
 * Con la versione del quarto trimestre 2023 (23.10) (26 ottobre 2023)
-   * È stata rilasciata a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
-   * La nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti è diventata l’opzione predefinita.
+  * È stata rilasciata a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
+  * La nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti è diventata l’opzione predefinita.
 
   >[!IMPORTANT]
   >
   >    In questo modo si è conclusa la fase Beta della nuova esperienza di commento.
 
-   * Sono state rese disponibili tutte le funzioni per la nuova esperienza di commento che inizia con questa data e fa parte delle regolari versioni mensili e trimestrali correnti.
+  * Sono state rese disponibili tutte le funzioni per la nuova esperienza di commento che inizia con questa data e fa parte delle regolari versioni mensili e trimestrali correnti.
 * Fine del 2023:
-   * Mantenere l’esperienza di commento legacy come opzione secondaria per i seguenti oggetti: progetti, attività, problemi e documenti. La nuova esperienza di aggiunta di commenti è l’opzione predefinita per tutti gli utenti di questi oggetti.
-   * La nuova esperienza di commento è diventata l’unica esperienza per tutti gli altri oggetti.
+  * Mantenere l’esperienza di commento legacy come opzione secondaria per i seguenti oggetti: progetti, attività, problemi e documenti. La nuova esperienza di aggiunta di commenti è l’opzione predefinita per tutti gli utenti di questi oggetti.
+  * La nuova esperienza di commento è diventata l’unica esperienza per tutti gli altri oggetti.
 
 * Con la versione del secondo trimestre 2024 (11 aprile 2024):
 

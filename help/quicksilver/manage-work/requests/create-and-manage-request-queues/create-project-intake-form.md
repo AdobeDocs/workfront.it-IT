@@ -7,16 +7,28 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
-hidefromtoc: true
-last-update: 2026-04-01T18:03:50Z
+hidefromtoc: 'yes'
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 4%
-
 ---
-
 # Crea moduli di assegnazione progetto
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
@@ -89,7 +101,7 @@ I seguenti tipi di campo non sono attualmente supportati in Project Intake Forms
 * Formula
 * Rollup
 * Rollup su riga singola
-* Pianificare una connessione
+* Connessione di Pianificazione
 * Riferimenti ai campi nativi che fanno riferimento a campi nativi del progetto, di sola lettura (ad esempio, `workRequiredExpression`)
 
 #### Richiesta esperienza

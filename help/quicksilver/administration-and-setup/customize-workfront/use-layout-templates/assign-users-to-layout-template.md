@@ -10,24 +10,29 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4
+TQID: 'https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '940'
 ht-degree: 4%
-
 ---
-
 # Assegnare utenti a un modello di layout
 
 È possibile assegnare un modello di layout creato a qualsiasi utente, mansione, team o gruppo che deve utilizzarlo.
@@ -133,4 +138,4 @@ Se si dispone di più di 2.000 utenti da assegnare a un modello di layout, è co
 
 * Organizza gli utenti in gruppi o team e assegna il modello di layout a tali gruppi o team. Per ulteriori informazioni, vedere [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Creare e gestire team](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-* Assegna ruoli agli utenti e assegna il modello di layout alla loro mansione principale. Per ulteriori informazioni, consulta [Creare e gestire mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Assegna ruoli agli utenti e assegna il modello di layout alla loro mansione principale. Per ulteriori informazioni, consulta [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
