@@ -96,7 +96,7 @@ Per ulteriori informazioni sulla creazione di modelli di flusso di lavoro di app
 
 Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro di approvazione unificato, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
 
-Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore Frame.io
 

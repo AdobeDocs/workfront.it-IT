@@ -179,7 +179,7 @@ Puoi mappare qualsiasi campo supportato da Workfront a un tag in Experience Mana
 
 Dopo aver creato i tag in Experience Manager Assets, vengono visualizzati nel menu a discesa Tag della sezione Metadati. Per collegare un campo a un tag, selezionare `xcm:keywords` nel menu a discesa del campo Experience Manager Assets nell&#39;area di mappatura dei metadati.
 
-Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
+Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/it/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campi schema metadati personalizzati Experience Manager Assets**
 
@@ -298,7 +298,7 @@ Per collegare il contenuto:
       </tr>
       <tr>
          <td><strong>Visualizza suggerimenti avanzati in base al contesto e all'intento.</strong> Scopri le risorse che sono in linea con le tue esigenze di contenuto utilizzando i consigli in base al contesto forniti dall’applicazione host di Adobe.</td>
-         <td>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Suggerimenti avanzati basati su contesto e intento</a>.</td>
+         <td>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Suggerimenti avanzati basati su contesto e intento</a>.</td>
       </tr>
       <tr>
          <td><strong>Carica una descrizione della campagna per individuare le risorse rilevanti.</strong> Caricare un documento di descrizione di una campagna PDF, DOCX o TXT in modo che Contenuto verificato possa analizzarlo e consigliare le risorse pertinenti.</td>
@@ -306,15 +306,15 @@ Per collegare il contenuto:
       </tr>
       <tr>
          <td><strong>Visualizza e seleziona rappresentazioni risorse Dynamic Media.</strong> Sfoglia le rappresentazioni ottimizzate per il canale, inclusi i predefiniti immagine, ritagli avanzati e tipi di formato, e applica i modificatori Dynamic Media per le regolazioni di anteprima in tempo reale.</td>
-         <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendering delle risorse Dynamic Media disponibili per l'uso</a>.</td>
+         <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendering delle risorse Dynamic Media disponibili per l'uso</a>.</td>
       </tr>
       <tr>
          <td><strong>Applica modificatori Dynamic Media alle rappresentazioni.</strong> Aggiungi modificatori per trasformare le rappresentazioni delle risorse in tempo reale e visualizzare in anteprima i risultati prima di selezionare una rappresentazione per l’applicazione host.</td>
-         <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendering delle risorse Dynamic Media disponibili per l'uso</a>.</td>
+         <td>Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendering delle risorse Dynamic Media disponibili per l'uso</a>.</td>
       </tr>
       <tr>
          <td><strong>Individuare e sfogliare i frammenti di contenuto.</strong> Effettua ricerche nei frammenti di contenuto, visualizza anteprime in tempo reale delle miniature, controlla lo stato (Bozza, Modificato o Pubblicato) e controlla proprietà dettagliate, riferimenti e varianti.</td>
-         <td>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Individuazione di frammenti di contenuto</a>.</td>
+         <td>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Individuazione di frammenti di contenuto</a>.</td>
       </tr>
       <tr>
          <td><strong>Accedere ai metadati delle risorse.</strong> Rivedi le proprietà della risorsa come titolo, descrizione, formato, dimensione e altre schede di metadati (Prodotto, Campagna, Tag) coerenti con la vista Assets.</td>

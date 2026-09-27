@@ -50,7 +50,7 @@ Per i clienti che utilizzano Adobe Experience Manager Assets as a Cloud Service,
 >
 > Per i partner che desiderano certificare sul connettore avanzato, leggere il seguente articolo: [Workfront per la serie Expert del connettore avanzato Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Per implementare il connettore avanzato, vedere [Configurare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Per implementare il connettore avanzato, vedere [Configurare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Spostare le risorse esistenti
