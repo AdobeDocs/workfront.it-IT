@@ -113,7 +113,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    <tbody> 
     <tr> 
      <td role="rowheader">[!UICONTROL Tipo di richiesta budget]</td> 
-     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Opzioni:</p> 
+     <td> <p>Elenco a discesa </p> <p>Opzioni:</p> 
       <ul> 
        <li> <p>[!UICONTROL Adeguamento al finanziamento]</p> </li> 
        <li> <p>[!UICONTROL - Finanziamento iniziale]</p> </li> 
@@ -167,7 +167,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
     </tr> 
     <tr> 
      <td role="rowheader">[!UICONTROL Target Audience]</td> 
-     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
+     <td> <p>Elenco a discesa </p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
     </tr> 
    </tbody> 
   </table>

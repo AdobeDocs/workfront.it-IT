@@ -161,7 +161,7 @@ Sappiamo che le integrazioni incorporate (native) disponibili potrebbero non sod
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Per informazioni e istruzioni, consulta <a href="https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per applicazioni [!DNL Creative Cloud]</a></p> 
      </td>  <td> </td> 
    <td> </td> 

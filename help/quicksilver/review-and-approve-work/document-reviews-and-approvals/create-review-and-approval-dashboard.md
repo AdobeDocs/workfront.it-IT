@@ -131,7 +131,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
 
    1. Digitare _Scaduto_ nel campo **Nome**.
-   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
+   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**&#x200B;nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
 
@@ -309,7 +309,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Stato**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Stato**.
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
@@ -349,7 +349,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Versione documento** > **Versione**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione** > **Versione documento** > **Documento** > **Nome**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:

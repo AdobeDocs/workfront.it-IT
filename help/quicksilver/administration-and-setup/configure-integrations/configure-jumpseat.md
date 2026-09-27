@@ -109,7 +109,7 @@ Per configurare l&#39;integrazione di [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

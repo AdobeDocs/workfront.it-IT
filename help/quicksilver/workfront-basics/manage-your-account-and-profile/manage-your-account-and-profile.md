@@ -28,4 +28,4 @@ ht-degree: 57%
 Questa sezione contiene le seguenti sottosezioni:
 
 * [Configurare il proprio profilo utente](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [Gestire il proprio account di  [!DNL Adobe Workfront] ](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [Gestire il proprio account di  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

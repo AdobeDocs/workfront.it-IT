@@ -47,7 +47,7 @@ Puoi utilizzare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] per
 * Visualizzare progetti e attività
 * e molto altro
 
-[Visualizza una panoramica video delle funzionalità disponibili nel plug-in  [!DNL Adobe Workfront]  per  [!DNL Creative Cloud]  ](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+[Visualizza una panoramica video delle funzionalità disponibili nel plug-in  [!DNL Adobe Workfront]  per  [!DNL Creative Cloud]  &#x200B;](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## Installare e utilizzare il plug-in
 
@@ -57,9 +57,9 @@ Il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] è disponibile nelle
 
 Per informazioni su come utilizzare e installare il plug-in, consulta le risorse seguenti:
 
-* [Installare il plug-in  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [Gestire il lavoro con il plug-in  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [Caricare documenti e bozze con il plugin  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [Installare il plug-in  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [Gestire il lavoro con il plug-in  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [Caricare documenti e bozze con il plugin  [!DNL Adobe Workfront]  per applicazioni  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [Esercitazione video: Usa  [!DNL Adobe Workfront] plug-in per [!DNL Creative Cloud]](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Tutorial video: creazione e gestione di pacchetti, distribuzione di aggiornamenti e risoluzione di errori di installazione](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
