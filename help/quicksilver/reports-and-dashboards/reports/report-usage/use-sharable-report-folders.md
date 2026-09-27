@@ -6,15 +6,19 @@ description: Utilizza cartelle di rapporti condivisibili per organizzare i rappo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 6%
-
 ---
-
 # Utilizzare cartelle di rapporti condivisibili
 
 <!-- This article is linked in the UI -->
@@ -75,7 +79,7 @@ Solo gli amministratori di sistema possono creare cartelle al livello superiore.
 
 1. Attiva le **cartelle di report condivisibili**.
 1. Fare clic su **Crea cartella**.
-1. Immettere un nome per la cartella.
+1. Inserisci un nome per la cartella.
 1. Fai clic su **Crea**.
 
 ![crea una cartella condivisibile](assets/add-sharable-folder.png)

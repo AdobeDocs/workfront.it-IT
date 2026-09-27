@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+TQID: 'https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 4%
-
 ---
-
 # Miglioramenti Home Quarto Trimestre 2024
 
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2024. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -77,9 +83,9 @@ Con questa modifica, saranno interessate le seguenti aree:
 * L&#39;area di lavoro _Home_ verrà rinominata _Home_.
 * L&#39;area _Home e Riepilogo_ verrà rinominata _Summary panel_. Le personalizzazioni in quest’area verranno comunque applicate al pannello Riepilogo nella nuova Home. Per ulteriori informazioni, vedere [Personalizzare la home e il riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Verranno rimosse le seguenti schede dal pannello Home e Riepilogo:
-   * Progetti
-   * Documenti
-   * Versioni dei documenti
+  * Progetti
+  * Documenti
+  * Versioni dei documenti
 
 Nota: le versioni del documento e del documento si applicano solo alla home page legacy. Non ti hanno consentito di personalizzare il Riepilogo nell’area Documenti.
 

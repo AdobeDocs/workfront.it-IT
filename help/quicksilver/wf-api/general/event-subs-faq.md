@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 1%
-
 ---
-
 # Domande frequenti - Sottoscrizione a eventi
 
 <!--
@@ -70,16 +74,16 @@ Alcuni dei seguenti scenari potrebbero essere responsabili:
 * Calcoli a esecuzione prolungata o calcoli della sequenza temporale su progetti di grandi dimensioni potrebbero causare un ritardo nella pubblicazione dei messaggi alle sottoscrizioni di eventi da utilizzare.
 * La sottoscrizione potrebbe essere stata disabilitata.
 
-   * Dopo un periodo di tolleranza di 100 messaggi, se un particolare URL, che potrebbe essere associato a uno o più abbonamenti, genera un errore più del 70% del tempo o se l’URL non riesce a consegnare dopo 2.000 tentativi consecutivi, tutti i messaggi che corrispondono agli abbonamenti allo stesso URL non vengono tentati per la consegna. Al contrario, questi messaggi vengono immediatamente messi in coda per un nuovo tentativo.
+  * Dopo un periodo di tolleranza di 100 messaggi, se un particolare URL, che potrebbe essere associato a uno o più abbonamenti, genera un errore più del 70% del tempo o se l’URL non riesce a consegnare dopo 2.000 tentativi consecutivi, tutti i messaggi che corrispondono agli abbonamenti allo stesso URL non vengono tentati per la consegna. Al contrario, questi messaggi vengono immediatamente messi in coda per un nuovo tentativo.
 
-     Ogni 10 minuti dopo la disabilitazione di un URL, tentiamo di inviare il messaggio successivo che arriva per l’elaborazione. Se il messaggio ha esito positivo, riattiviamo l’URL e successivamente tutti gli abbonamenti corrispondenti. Se l’invio del messaggio non riesce, il timer di 10 minuti viene ripristinato e riproviamo dopo la scadenza.
+    Ogni 10 minuti dopo la disabilitazione di un URL, tentiamo di inviare il messaggio successivo che arriva per l’elaborazione. Se il messaggio ha esito positivo, riattiviamo l’URL e successivamente tutti gli abbonamenti corrispondenti. Se l’invio del messaggio non riesce, il timer di 10 minuti viene ripristinato e riproviamo dopo la scadenza.
 
-     Questo comportamento può essere percepito come una consegna incoerente o ritardata, ma si limita a seguire i nostri criteri per la gestione dei messaggi di abbonamento agli eventi.
+    Questo comportamento può essere percepito come una consegna incoerente o ritardata, ma si limita a seguire i nostri criteri per la gestione dei messaggi di abbonamento agli eventi.
 
-   * Un URL di abbonamento a un evento verrà disabilitato se viene soddisfatta una delle seguenti condizioni:
+  * Un URL di abbonamento a un evento verrà disabilitato se viene soddisfatta una delle seguenti condizioni:
 
-      * L’URL dell’abbonamento non è stato consegnato per 7 giorni e ha avuto esito negativo in almeno 2.000 tentativi di consegna consecutivi nelle ultime 72 ore.
-      * L’URL dell’abbonamento non è riuscito a fornire 50.000 tentativi consecutivi.
+    * L’URL dell’abbonamento non è stato consegnato per 7 giorni e ha avuto esito negativo in almeno 2.000 tentativi di consegna consecutivi nelle ultime 72 ore.
+    * L’URL dell’abbonamento non è riuscito a fornire 50.000 tentativi consecutivi.
 
 ## Cosa devo fare se ricevo uno stato di risposta 500 quando tento di chiamare l’API di abbonamento agli eventi?
 

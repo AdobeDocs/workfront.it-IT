@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 95%
-
+source-wordcount: '948'
+ht-degree: 99%
 ---
-
 # Miglioramenti delle richieste primo trimestre 2026
 
 Questa pagina descrive i miglioramenti relativi alle Richieste apportati all’ambiente di anteprima con la versione del primo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -29,7 +36,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare l’accesso all’oggetto creato da una richiesta specifica, sono stati introdotti i collegamenti nella colonna Oggetto creato. Ora puoi fare clic sul collegamento in questa colonna per passare direttamente alla pagina dell’oggetto creato.
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare e garantire la visualizzazione delle informazioni necessarie, nella nuova esperienza di richiesta è stata introdotta la possibilità di condividere le viste. Ora puoi condividere le viste con altri utenti, team o gruppi.
@@ -74,7 +83,8 @@ Per informazioni sulle viste delle richieste, inclusa la condivisione, consulta 
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare la visualizzazione delle informazioni necessarie, è stata introdotta la possibilità di aggiungere campi personalizzati come colonne nell’elenco Richieste e il widget Le mie richieste nella Home. Ora puoi aggiungere campi dai moduli personalizzati come colonna; le richieste che contengono informazioni in quel campo visualizzeranno tali informazioni nell’elenco o nel widget.
@@ -92,7 +102,8 @@ Per istruzioni sull’aggiunta di colonne, consulta:
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per filtrare più facilmente le richieste che ti riguardano, è stato creato un carattere jolly per l’utente corrente. Ora, quando applichi un filtro, puoi selezionare “Me (utente connesso)”. Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco delle richieste.
@@ -107,7 +118,8 @@ Per ulteriori informazioni sulla configurazione delle viste nell’elenco Richie
 
 >[!NOTE]
 >
->Anteprima: 11 dicembre 2025>Versione rapida di produzione: 11 dicembre 2025\
+>Anteprima: 11 dicembre 2025
+>Rilascio rapido in produzione: 11 dicembre 2025\
 >Produzione per tutti: 11 dicembre 2025
 
 Per semplificare la creazione delle richieste, è stata creata la compilazione moduli basata sull’IA. Ora puoi incollare un prompt o caricare un documento in un modulo di richiesta: l’IA ne estrarrà le informazioni pertinenti e compilerà il modulo.
@@ -121,7 +133,8 @@ Per ulteriori informazioni sulla compilazione dei moduli basata sull’IA, inclu
 
 >[!NOTE]
 >
->Anteprima: 20 novembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 20 novembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per semplificare la creazione e l’invio delle richieste, nella nuova esperienza è stata introdotta la possibilità di salvare le bozze. Ora, se inizi a compilare una richiesta e la chiudi, questa viene salvata con lo stato Bozza ed è disponibile nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.
@@ -134,7 +147,8 @@ Per ulteriori informazioni sulle bozze delle richieste, consulta [Creare richies
 
 >[!NOTE]
 >
->Anteprima: 20 novembre 2025>Versione rapida di produzione: 14 gennaio 2026\
+>Anteprima: 20 novembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare l’organizzazione delle richieste e mantenerle in ordine, nella nuova esperienza è stata introdotta la possibilità di eliminare le richieste. Ora puoi eliminare le richieste inviate. Gli amministratori di Workfront e della pianificazione dell’area di lavoro di Workspace possono eliminare le richieste.
@@ -148,7 +162,8 @@ Per informazioni e istruzioni, consulta [Eliminare una richiesta inviata o una b
 
 >[!NOTE]
 >
->Anteprima: 20 novembre 2025>Rilascio rapido produzione: 11 dicembre 2025\
+>Anteprima: 20 novembre 2025
+>Rilascio rapido in produzione: 11 dicembre 2025\
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare l’invio delle richieste, nella nuova esperienza è stata introdotta la possibilità di copiare le richieste. Ora puoi copiare una richiesta, modificarne tutti i campi e inviarla come nuova.

@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 8%
-
+source-wordcount: '929'
+ht-degree: 1%
 ---
-
 # Miglioramenti al reporting per il secondo trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del secondo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -25,8 +32,8 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >[!NOTE]
 >
 >Anteprima: 2 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stato aggiunto un campo booleano `currentVersion` all&#39;oggetto Document Version per semplificare l&#39;identificazione e la creazione di report sull&#39;ultima versione di un documento.
 Con questo aggiornamento:
@@ -36,8 +43,8 @@ Con questo aggiornamento:
 
 * Quando viene caricata una nuova versione:
 
-   * La nuova versione è contrassegnata come `TRUE`
-   * Le versioni precedenti sono contrassegnate come `FALSE`
+  * La nuova versione è contrassegnata come `TRUE`
+  * Le versioni precedenti sono contrassegnate come `FALSE`
 
 * I rapporti possono identificare in modo coerente le versioni correnti tra le dashboard di Canvas e i rapporti legacy
 
@@ -48,8 +55,8 @@ I filtri esistenti per i report classici che utilizzano `isCurrentVersion` o `is
 >[!NOTE]
 >
 >Anteprima: 3 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Workfront ora include un nuovo tipo di consegna Collegamento per i rapporti pianificati. Anziché generare e allegare un file, questa opzione invia un messaggio e-mail contenente un collegamento diretto al report in Workfront, consentendo ai destinatari di visualizzare `{{$include }}` i dati più aggiornati nell&#39;applicazione.
 
@@ -64,8 +71,8 @@ Per ulteriori informazioni, consulta [Pianificare la consegna automatica di un r
 >[!NOTE]
 >
 >Anteprima: 2 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 >
 >Canvas Dashboards è attualmente in versione beta.
 
@@ -80,8 +87,8 @@ Per ulteriori informazioni, vedere [Generare un report KPI in un dashboard Canva
 >[!NOTE]
 >
 >Anteprima: 12 marzo 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile eseguire l&#39;autenticazione a Data Connect utilizzando le chiavi RSA o le connessioni PAT (Programmatic Access Tokens), aggiungendo alternative più sicure e flessibili alle credenziali tradizionali di nome utente/password.
 
@@ -96,8 +103,8 @@ Queste nuove opzioni consentono alle organizzazioni di mantenere connessioni sta
 >[!NOTE]
 >
 >Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 L’etichetta del campo personalizzato viene ora visualizzata prima del nome del campo e dell’oggetto negli strumenti di creazione dei rapporti, facilitando l’individuazione dei campi. Le etichette dei campi vengono visualizzate anche quando si definiscono filtri, visualizzazioni e raggruppamenti negli elenchi.
 
@@ -110,15 +117,15 @@ Per ulteriori informazioni, vedere [Creare un report personalizzato](/help/quick
 >[!NOTE]
 >
 >Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Ora puoi organizzare e condividere i rapporti utilizzando cartelle di rapporti condivisibili. Questa nuova funzione consente ai team che gestiscono grandi volumi di rapporti di mantenere un controllo degli accessi scalabile e coerente:
 
 * **Creare strutture di cartelle organizzate**: gli amministratori di sistema possono creare cartelle di primo livello e gli utenti con accesso di gestione possono creare sottocartelle fino a 4 livelli di profondità.
 * **Controlli delle autorizzazioni granulari**: condividere cartelle con due livelli di autorizzazione:
-   * Visualizza: gli utenti possono aprire rapporti e condividere cartelle
-   * Gestisci: gli utenti possono modificare i dettagli della cartella, aggiungere/rimuovere elementi e ricevere automaticamente l’accesso di gestione a tutti i rapporti all’interno della cartella
+  * Visualizza: gli utenti possono aprire rapporti e condividere cartelle
+  * Gestisci: gli utenti possono modificare i dettagli della cartella, aggiungere/rimuovere elementi e ricevere automaticamente l’accesso di gestione a tutti i rapporti all’interno della cartella
 * **Autorizzazioni ereditate**: le autorizzazioni si sovrappongono dalle cartelle principali a tutte le sottocartelle e ai report nella struttura delle cartelle
 * **Esperienza elenco avanzata**: quando abiliti le cartelle condivisibili, avrai accesso all&#39;esperienza elenco avanzata. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -130,8 +137,8 @@ Per ulteriori informazioni, vedere [Utilizzare cartelle condivisibili](/help/qui
 >[!NOTE]
 >
 >Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 >[!NOTE]
 >
@@ -139,6 +146,6 @@ Per ulteriori informazioni, vedere [Utilizzare cartelle condivisibili](/help/qui
 
 I grafici che raggruppano i dati per data ora presentano etichette di data più chiare e leggibili. Con questo aggiornamento, le etichette delle date vengono regolate in modo dinamico in base all’opzione Raggruppa per selezionata, ad esempio giorno, settimana, mese o anno, semplificando la lettura e l’interpretazione dei grafici:
 
-<table> <tbody> <tr> <td>Day</td> <td>Visualizza la data completa. Esempio: 3/12/2026</td> </tr> <tr> <td>Settimana</td> <td>Visualizza una data di inizio settimana formattata. Esempio, 8 marzo 2026</td> </tr> <tr> <td>Month</td> <td>Visualizza il mese e l'anno. Esempio Mar 2026</td> </tr> <tr> <td>Year</td> <td>Visualizza solo l'anno. Esempio: 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>Giorno</td> <td>Visualizza la data completa. Esempio: 3/12/2026</td> </tr> <tr> <td>Settimana</td> <td>Visualizza una data di inizio settimana formattata. Esempio, 8 marzo 2026</td> </tr> <tr> <td>Month</td> <td>Visualizza il mese e l'anno. Esempio Mar 2026</td> </tr> <tr> <td>Year</td> <td>Visualizza solo l'anno. Esempio: 2026</td> </tr> </tbody> </table>
 
 In precedenza, i raggruppamenti di grafici mostravano sempre la data di inizio del periodo selezionato in formato numerico.

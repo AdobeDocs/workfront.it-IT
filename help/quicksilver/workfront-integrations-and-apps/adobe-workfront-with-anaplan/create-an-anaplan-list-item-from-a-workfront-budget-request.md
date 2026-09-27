@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Crea una voce di elenco  [!DNL Anaplan]  da una richiesta budget  [!DNL Adobe Workfront] '
-description: Questo scenario di integrazione collega un  [!DNL Adobe Workfront] progetto (campagna) con una [!DNL Anaplan] voce di elenco budget. A tale scopo, aggiungere una richiesta di budget al progetto  [!DNL Workfront]  che deve ricevere finanziamenti. Questo scenario controlla le richieste di budget non elaborate, quindi esegue un processo per creare una voce di elenco budget vuota in [!DNL Anaplan] per avviare i processi di allocazione budget in Anaplan.
+title: Crea una voce di elenco [!DNL Anaplan] da una richiesta budget [!DNL Adobe Workfront]
+description: Questo scenario di integrazione collega un progetto [!DNL Adobe Workfront] (campagna) con una voce dell'elenco di budget [!DNL Anaplan]. A tale scopo, aggiungere una richiesta di budget al progetto [!DNL Workfront] che deve ricevere fondi. Questo scenario controlla le richieste di budget non elaborate, quindi esegue un processo per creare una voce di elenco budget vuota in [!DNL Anaplan] per avviare i processi di allocazione budget in Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+TQID: 'https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '868'
 ht-degree: 15%
-
 ---
-
 # Crea una voce di elenco [!DNL Anaplan] da una richiesta budget [!DNL Adobe Workfront]
 
 Questo scenario di integrazione collega un progetto [!DNL Adobe Workfront] (campagna) con una voce dell&#39;elenco di budget [!DNL Anaplan]. A tale scopo, aggiungere una richiesta di budget al progetto [!DNL Workfront] che deve ricevere fondi. Questo scenario controlla le richieste di budget non elaborate, quindi esegue un processo per creare una voce di elenco budget vuota in [!DNL Anaplan] per avviare i processi di allocazione budget in [!DNL Anaplan].
@@ -69,7 +79,7 @@ Questo scenario di integrazione collega un progetto [!DNL Adobe Workfront] (camp
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -103,7 +113,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
    <tbody> 
     <tr> 
      <td role="rowheader">[!UICONTROL Tipo di richiesta budget]</td> 
-     <td> <p>Elenco a discesa </p> <p>Opzioni:</p> 
+     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Opzioni:</p> 
       <ul> 
        <li> <p>[!UICONTROL Adeguamento al finanziamento]</p> </li> 
        <li> <p>[!UICONTROL - Finanziamento iniziale]</p> </li> 
@@ -157,7 +167,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
     </tr> 
     <tr> 
      <td role="rowheader">[!UICONTROL Target Audience]</td> 
-     <td> <p>Elenco a discesa </p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
+     <td> <p>Elenco a discesa [!UICONTROL]</p> <p>Includi opzioni che si adattano ai tuoi processi.</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -174,12 +184,12 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 
   Il modulo dell’elenco deve supportare la ricezione dei seguenti attributi:
 
-   * [!UICONTROL GUID progetto Workfront]
-   * [!UICONTROL Nome campagna]
-   * [!UICONTROL Fondi manodopera richiesti]
-   * [!UICONTROL Fondi spese richiesti]
-   * [!UICONTROL Tipo di richiesta budget]
-   * [!UICONTROL Motivo dell&#39;adeguamento del finanziamento]
+  * [!UICONTROL GUID progetto Workfront]
+  * [!UICONTROL Nome campagna]
+  * [!UICONTROL Fondi manodopera richiesti]
+  * [!UICONTROL Fondi spese richiesti]
+  * [!UICONTROL Tipo di richiesta budget]
+  * [!UICONTROL Motivo dell&#39;adeguamento del finanziamento]
 
   Questo elenco e modulo devono memorizzare ulteriori dettagli necessari per la normale funzionalità di [!DNL Anaplan], inclusa la possibilità di impostare un budget e comunicare che la voce dell&#39;elenco di budget è pronta per essere sincronizzata nuovamente in [!DNL Workfront].
 

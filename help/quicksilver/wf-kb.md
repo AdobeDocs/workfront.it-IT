@@ -3,13 +3,14 @@ filename: wf-kb
 title: Knowledge base di Workfront
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
-
+ht-degree: 25%
 ---
-
 
 # Knowledge base di Workfront
 
@@ -21,7 +22,7 @@ ht-degree: 12%
 * [Gestisci lavoro](manage-work/manage-work.md)
 * [Rivedi e approva il lavoro](review-and-approve-work/review-and-approve-work.md)
 * [Documenti](documents/documents-overview.md)
-* [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
+* [Generazione dei rapporti](reports-and-dashboards/reports-and-dashboards-overview.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>

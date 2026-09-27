@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 17%
-
+source-wordcount: '1326'
+ht-degree: 14%
 ---
-
 # Controllo delle versioni di sottoscrizione eventi
 
 Workfront dispone di due versioni di sottoscrizioni eventi. Questo articolo descrive le differenze tra di essi.
@@ -168,7 +172,7 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
    </td> 
    <td>Quando un oggetto Expense è stato eliminato, è stato inviato un evento <code>UPDATE</code> modificando i campi interessati in null prima dell'invio dell'evento <code>DELETE</code>.    </td> 
    <td>L'evento <code>UPDATE</code> aggiuntivo non viene inviato. L'evento <code>DELETE</code> contiene valori corretti per i campi interessati nello stato prima. </td> 
-   <td>Se si dispone di un filtro per i campi interessati sugli eventi <code>UPDATE</code> e si prevede di riceverlo quando l'oggetto viene eliminato, l'evento <code>UPDATE</code> non verrà più ricevuto. Se si desidera visualizzare questi campi quando l'oggetto viene eliminato, è necessario creare un abbonamento <code>DELETE</code> aggiuntivo.
+   <td>Se si dispone di un filtro per i campi interessati sugli eventi <code>UPDATE</code> e si prevede di riceverlo quando l'oggetto viene eliminato, l'evento <code>UPDATE</code> non verrà più ricevuto. Se si desidera visualizzare questi campi quando l'oggetto viene eliminato, è necessario creare una sottoscrizione <code>DELETE</code> aggiuntiva.
 </td> 
   </tr> 
   <tr> 
@@ -262,6 +266,6 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
 
 Workfront Fusion utilizza gli abbonamenti agli eventi per controllare le modifiche in Workfront per attivare gli scenari. Puoi aggiornare la versione della sottoscrizione dell’evento utilizzata direttamente da Fusion in uno scenario, utilizzando il modulo Workfront > Aggiorna versione payload eventi.
 
-Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
+Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
 
-Per le risorse sulla conservazione degli scenari di Workfront Fusion durante l’aggiornamento di sottoscrizione eventi, inclusa la registrazione di un webinar, consulta [Conservazione degli scenari di Fusion durante l’aggiornamento alla versione 2 di sottoscrizione eventi](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=it).
+Per le risorse sulla conservazione degli scenari di Workfront Fusion durante l’aggiornamento di sottoscrizione eventi, inclusa la registrazione di un webinar, consulta [Conservazione degli scenari di Fusion durante l’aggiornamento alla versione 2 di sottoscrizione eventi](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

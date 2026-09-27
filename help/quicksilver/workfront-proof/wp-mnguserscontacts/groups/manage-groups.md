@@ -3,27 +3,37 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Gestisci gruppi tramite [!DNL Workfront Proof]
-description: In qualità di amministratore  [!DNL Workfront Proof] , puoi gestire i tuoi gruppi pubblici e privati nella pagina Gruppi.
+description: In qualità di amministratore [!DNL Workfront Proof], puoi gestire i tuoi gruppi pubblici e privati nella pagina Gruppi.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+TQID: 'https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # Gestisci gruppi tramite [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -43,25 +53,25 @@ Nella pagina [!UICONTROL Gruppi] è possibile:
    * Filtrare e ordinare i gruppi.
    * Dopo aver selezionato uno o più gruppi, sono disponibili le seguenti opzioni aggiuntive:
 
-      * Aggiungi persone ai gruppi selezionati.
+     * Aggiungi persone ai gruppi selezionati.
 
-        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+       ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * Rendi i gruppi selezionati privati o pubblici, come descritto in [Rendi i gruppi privati tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-      * I gruppi privati sono visibili solo ai loro creatori.
-      * Elimina i gruppi selezionati.
+     * Rendi i gruppi selezionati privati o pubblici, come descritto in [Rendi i gruppi privati tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+     * I gruppi privati sono visibili solo ai loro creatori.
+     * Elimina i gruppi selezionati.
 
-        ![Icona Elimina](assets/trash-button.png)
+       ![Icona Elimina](assets/trash-button.png)
    * Puoi eseguire azioni sui gruppi anche su ciascun gruppo separatamente dal menu **[!UICONTROL Altro]** (tre punti):
 
      ![Altro menu](assets/more-button-small.png)
 
-      * Visualizza dettagli gruppo.
+     * Visualizza dettagli gruppo.
 
-        È inoltre possibile visualizzare i dettagli del gruppo facendo clic sul nome del gruppo.
-      * Aggiungi persone.
-      * Rendi un gruppo pubblico/privato.
-      * Eliminare un gruppo.
+       È inoltre possibile visualizzare i dettagli del gruppo facendo clic sul nome del gruppo.
+     * Aggiungi persone.
+     * Rendi un gruppo pubblico/privato.
+     * Eliminare un gruppo.
 
 
 ## Ordinamento dei gruppi
@@ -72,7 +82,7 @@ Nella pagina [!UICONTROL Gruppi] è possibile:
 Oppure
 Selezionare un&#39;opzione di ordinamento dal menu Ordina.
    ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-Il triangolo su un&#39;intestazione di colonna indica l&#39;ordinamento. Puntato verso l’alto, indica un ordine crescente; puntato verso il basso indica un ordine decrescente.
+   Il triangolo su un&#39;intestazione di colonna indica l&#39;ordinamento. Puntato verso l’alto, indica un ordine crescente; puntato verso il basso indica un ordine decrescente.
 
 ## Filtraggio dei gruppi
 
@@ -113,7 +123,7 @@ Nella pagina visualizzata è possibile visualizzare tutte le persone attualmente
 1. Selezionare le caselle di controllo accanto al nome o ai nomi dei contatti che si desidera aggiungere a un gruppo.
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi al gruppo]**.
    ![Aggiungi al gruppo](assets/screenshot-2018-04-06-15-27-17.png)
-Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi al gruppo]**.
+   Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi al gruppo]**.
 
 1. Nella sezione **[!UICONTROL Persone]**:
 

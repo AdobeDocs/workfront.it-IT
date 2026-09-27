@@ -6,25 +6,31 @@ description: Le notifiche seguenti ti informano se è necessario intervenire su 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-TQID: https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww
+TQID: 'https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2366
+source-wordcount: '2366'
 ht-degree: 0%
-
 ---
-
 # Notifiche: [!UICONTROL Azione richiesta]
 
 Le notifiche seguenti ti informano se è necessario intervenire su un elemento di lavoro. Per informazioni sulla configurazione delle notifiche ricevute, vedere [Modificare le proprie notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
@@ -65,7 +71,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Devo approvare una scheda orario</strong> </p> <p>L'approvatore della scheda orario riceve una notifica e-mail quando viene inviata una scheda orario da approvare, a meno che l'utente che ha inviato la scheda non sia anche l'approvatore della scheda orario.</p> <p>Viene inviata una notifica solo se lo stato della scheda orario è [!UICONTROL Submitted].</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Timesheet Submitted]: &lt;Proprietario scheda orario&gt;, &lt;Data inizio scheda orario&gt; - &lt;Data fine scheda orario&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Action Needed] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Nome dell'utente che ha inviato la scheda orario per l'approvazione<br>Data e ora di invio<br>Stato della scheda orario<br>Date di inizio e fine della scheda orario<br>Numero di ore registrate sulla scheda orario<br>Numero di ore di straordinario registrate sulla scheda orario<br><strong>[!UICONTROL Revisione]</strong> e <strong>[!UICONTROL Approva]</strong> pulsanti<br>*Numero totale di approvazioni della scheda orario in sospeso<br>*Collegamento a <strong>![!UICONTROL Scheda orario Approvazioni]</strong><br><strong>[!UICONTROL *Visualizza tutte le approvazioni]</strong> pulsante<br>*Data del riepilogo giornaliero </td> 
+   <td> Nome dell'utente che ha inviato la scheda orario per l'approvazione<br>Data e ora di invio<br>Stato della scheda orario<br>Date di inizio e fine della scheda orario<br>Numero di ore registrate sulla scheda orario<br>Numero di ore di straordinario registrate sulla scheda orario<br><strong>[!UICONTROL Revisione]</strong> e <strong>[!UICONTROL Approva]</strong> pulsanti<br>*Numero totale di approvazioni della scheda orario in sospeso<br>*Collegamento a <strong>![ UICONTROL Scheda orario Approvazioni]</strong><br><strong>[!UICONTROL *Visualizza tutte le approvazioni]</strong> pulsante<br>*Data del riepilogo giornaliero </td> 
    <td><strong>Istantanea e</strong> <strong>Giornaliera</strong></td> 
   </tr> 
   <tr> 
@@ -79,7 +85,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Istantanea e giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Devo rivedere l'approvazione di un'attività per la quale ho una delega</strong> </p> <p>È stata delegata l'approvazione di un'attività ed è necessario rivederla.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Delegated Task Approval - Please Review &#x200B;]&lt;Nome attività&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Action Needed] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
+   <td> <p><strong>Devo rivedere l'approvazione di un'attività per la quale ho una delega</strong> </p> <p>È stata delegata l'approvazione di un'attività ed è necessario rivederla.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Delegated Task Approval - Please Review ]&lt;Nome attività&gt;</em></p> <p>L'oggetto della notifica di riepilogo giornaliero è:<em> [!UICONTROL Digest of Action Needed] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
    <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha richiesto l'approvazione<br>Nome dell'utente per conto del quale si sta approvando l'attività<br>Stato approvazione in sospeso<br>Data e ora approvazione richiesta<br>Priorità attività<br>Fase approvazione<br>Nomi approvatori<br>[!UICONTROL Data completamento attività pianificata]<br><strong>[!UICONTROL Decisione approvazione]</strong> pulsante <br>*Numero totale di approvazioni attività in sospeso<br>*Collegamento a <strong>[!UICONTROL Approvazioni attività *Vedi tutte le approvazioni]</strong> pulsante<br>*Data del riepilogo giornaliero </td> 
    <td><strong>Istantanea e giornaliera</strong> </td> 
   </tr> 

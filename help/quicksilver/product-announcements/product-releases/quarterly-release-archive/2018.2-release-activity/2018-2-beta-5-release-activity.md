@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 1%
-
 ---
-
 # Attività sulla versione 2018.2 Beta 5
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione 2018.2 di Beta 5. La funzionalità sarà disponibile nell’ambiente di anteprima il 1° giugno 2018. I miglioramenti della bozza rilasciati con Beta 5 saranno disponibili nell’ambiente di anteprima lunedì 4 giugno. Sarà disponibile nell’ambiente di produzione a luglio 2018.
@@ -136,8 +143,8 @@ Le visualizzazioni Progetto e Ruolo della Programmazione delle risorse contengon
 * Modalità a tutto schermo.
 * Le prestazioni sono ora più veloci ed efficienti.
 
-   * Nuovi limiti per il numero di progetti, ruoli e utenti che è possibile visualizzare.
-   * Caricamento lento, per un caricamento più rapido di progetti e ruoli.
+  * Nuovi limiti per il numero di progetti, ruoli e utenti che è possibile visualizzare.
+  * Caricamento lento, per un caricamento più rapido di progetti e ruoli.
 
 * Accesso rapido a progetti e utenti direttamente da Programmazione risorse.
 * Funzionalità di trascinamento della selezione più rapide nella vista Progetto, per assegnare la priorità ai progetti.
@@ -168,7 +175,7 @@ Prima di questo miglioramento, la colonna adiacente a destra della colonna ridim
 
 Per informazioni sul ridimensionamento delle colonne negli elenchi, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it) (Accesso richiesto)
+Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Accesso richiesto)
 
 ## Icona Supporto per i nuovi elenchi di progetti {#icon-support-for-the-new-project-lists}
 
@@ -266,10 +273,10 @@ I seguenti miglioramenti saranno disponibili nella versione Beta di Android dell
 
   Con questa funzionalità sono state migliorate le seguenti aree:
 
-   * My Work and Home
-   * Notifiche
-   * Conttati
-   * Approvazioni
+  * My Work and Home
+  * Notifiche
+  * Conttati
+  * Approvazioni
 
 * Nuovo aspetto nella scheda Dettagli di un elemento
 

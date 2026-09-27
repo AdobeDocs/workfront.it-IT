@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 4%
-
 ---
-
 # Modificare i profili utente in blocco
 
 È possibile modificare gli account utente in blocco. Quando si modificano gli utenti in blocco, solo i campi selezionati in modo specifico vengono aggiornati con le stesse informazioni per tutti gli utenti selezionati. Tutti gli altri campi non selezionati rimangono invariati per ogni singolo utente, anche se sono diversi per ogni utente.
@@ -123,11 +130,11 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   L’elenco seguente descrive come l’elenco dei modelli disponibili in questo campo dipende dal tuo accesso:
 
-   * In qualità di amministratore di Workfront, puoi visualizzare tutti i modelli di layout a livello di sistema e di gruppo.
-   * In qualità di amministratore di gruppo, puoi visualizzare il modello di layout a livello di sistema e quelli associati ai gruppi gestiti.
-   * In qualità di utente con una licenza Standard o Plan e con accesso per la modifica degli utenti, puoi visualizzare solo i modelli di layout a livello di sistema.
+  * In qualità di amministratore di Workfront, puoi visualizzare tutti i modelli di layout a livello di sistema e di gruppo.
+  * In qualità di amministratore di gruppo, puoi visualizzare il modello di layout a livello di sistema e quelli associati ai gruppi gestiti.
+  * In qualità di utente con una licenza Standard o Plan e con accesso per la modifica degli utenti, puoi visualizzare solo i modelli di layout a livello di sistema.
 
-     Per ulteriori informazioni sui modelli di layout a livello di gruppo, vedere [Creare e modificare i modelli di layout di un gruppo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+    Per ulteriori informazioni sui modelli di layout a livello di gruppo, vedere [Creare e modificare i modelli di layout di un gruppo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organizzazione
 
@@ -140,9 +147,9 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   È possibile assegnare un gruppo a un utente solo se si verifica una delle condizioni seguenti:
 
-   * sei un amministratore di Workfront
-   * sei l’amministratore del gruppo
-   * il gruppo è pubblico
+  * sei un amministratore di Workfront
+  * sei l’amministratore del gruppo
+  * il gruppo è pubblico
 
 * **Altri gruppi**: gli utenti possono appartenere a più gruppi. È possibile assegnare un gruppo a un utente solo se si è un amministratore di Workfront, se si è l&#39;amministratore del gruppo o se il gruppo è pubblico.
 
@@ -211,9 +218,9 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   L’elenco dei profili disponibili in questo campo dipende dal tuo accesso:
 
-   * In qualità di amministratore di Workfront, puoi visualizzare tutti i profili delle schede orario a livello di sistema e di gruppo.
-   * In qualità di amministratore di gruppo, puoi visualizzare i profili delle schede orario a livello di sistema, nonché quelli associati ai gruppi gestiti.
-   * In qualità di utente con una licenza Standard o Plan e con accesso in modifica agli utenti, puoi visualizzare solo i profili delle schede orario a livello di sistema. Per ulteriori informazioni sui profili delle schede orario a livello di gruppo, vedere [Creare, modificare e assegnare profili delle schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+  * In qualità di amministratore di Workfront, puoi visualizzare tutti i profili delle schede orario a livello di sistema e di gruppo.
+  * In qualità di amministratore di gruppo, puoi visualizzare i profili delle schede orario a livello di sistema, nonché quelli associati ai gruppi gestiti.
+  * In qualità di utente con una licenza Standard o Plan e con accesso in modifica agli utenti, puoi visualizzare solo i profili delle schede orario a livello di sistema. Per ulteriori informazioni sui profili delle schede orario a livello di gruppo, vedere [Creare, modificare e assegnare profili delle schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Tipo di Ora Predefinito**: Selezionare il tipo di Ora predefinito per gli utenti. Questo è il tipo di ora utilizzato per impostazione predefinita quando gli utenti registrano l’ora.
 * **Tipi di ore disponibili**: selezionare i tipi di ore che devono essere disponibili per gli utenti. Questi tipi di ore sono visibili ovunque in Workfront, dove gli utenti possono registrare l’ora. Gli utenti possono visualizzare solo i tipi di ore abilitati a livello di progetto e di utente. Per ulteriori informazioni sui tipi di ore disponibili per gli utenti, vedere [Definire i tipi di ore e la disponibilità](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).

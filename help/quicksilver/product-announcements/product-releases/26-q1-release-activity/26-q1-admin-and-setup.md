@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 96%
-
+source-wordcount: '733'
+ht-degree: 100%
 ---
-
 # Miglioramenti per gli amministratori del primo trimestre 2026
 
 Questa pagina descrive i miglioramenti relativi agli Amministratori apportati all’ambiente di anteprima con la versione del primo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -34,7 +40,10 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->Questa funzione non è al momento disponibile nell’ambiente di anteprima>Anteprima: 2 dicembre 2025>Versione rapida di produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Questa funzione è temporaneamente non disponibile nell’ambiente Anteprima
+>Anteprima: 2 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 
 Ora puoi abilitare o disabilitare le Priorità per utenti specifici nel modello layout. Se in precedenza avevi disabilitato le Priorità per la tua organizzazione, con questa modifica tale opzione rimarrà disabilitata nel modello layout.
@@ -48,7 +57,9 @@ Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizza
 
 >[!NOTE]
 >
->Anteprima: 18 dicembre 2025>Rilascio rapido produzione: 14 gennaio 2026>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 18 dicembre 2025
+>Rilascio rapido in produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Lo stesso campo calcolato può avere formule diverse se associato a moduli personalizzati diversi. Se a un oggetto sono associati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. Modificare una formula non è consentito se può causare un conflitto.
 
@@ -61,7 +72,9 @@ Per ulteriori informazioni, consulta [Aggiungere campi calcolati a un modulo](/h
 
 >[!NOTE]
 >
->Anteprima: 13 novembre 2025>Rilascio rapido produzione: 13 novembre 2025>Produzione per tutti: 13 novembre 2025
+>Anteprima: 13 novembre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
+>Produzione per tutti: 13 novembre 2025
 
 La data di inserimento e l’ID dell’autore inserimento sono ora memorizzati nelle sezioni, nei campi e nei moduli personalizzati. Puoi utilizzare queste opzioni dati nei rapporti come filtri, viste o raggruppamenti. Per visualizzarli nell’elenco delle sezioni, dei campi o dei moduli personalizzati in Configurazione, aggiungi Data di inserimento e il nome dell’Autore dell’inserimento come colonne in una vista nuova o esistente.
 
@@ -73,7 +86,9 @@ La data di inserimento e l’ID dell’autore inserimento sono ora memorizzati n
 
 >[!NOTE]
 >
->Anteprima: 30 ottobre 2025>Rilascio rapido produzione: 13 novembre 2025>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 30 ottobre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Per garantire maggiore coerenza con altre aree di configurazione, come il designer dei moduli personalizzati, i pulsanti visualizzati durante la modifica di un modello layout sono stati modificati in **Applica**, **Salva e chiudi** e **Annulla**. La nuova opzione **Applica** ti consente di salvare le modifiche apportate al modello layout e continuare a modificare. In precedenza, le opzioni disponibili erano **Salva** e **Annulla**.
 
@@ -83,7 +98,9 @@ Per ulteriori informazioni, consulta [Creare e gestire modelli layout](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 30 ottobre 2025>Rilascio rapido produzione: 13 novembre 2025>Produzione per tutti: 15 gennaio 2026
+>Anteprima: 30 ottobre 2025
+>Rilascio rapido in produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Quando nel sistema è presente un numero elevato di campi personalizzati, la gestione di tali campi nei rapporti e nei moduli personalizzati può risultare complessa. Ora puoi contrassegnare i campi personalizzati come inattivi con il nuovo flag **Attivo**. Questo flag è disponibile quando utilizzi un campo in un modulo personalizzato o quando aggiungi o modifichi un campo dall’elenco Campi.
 

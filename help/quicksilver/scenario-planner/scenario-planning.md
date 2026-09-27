@@ -8,25 +8,32 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-TQID: https://experienceleague.adobe.com/RB9yZzjEaDZSo1qVutyeIPgo4iDbMw1xB-vxu6TtEfU
+TQID: 'https://experienceleague.adobe.com/RB9yZzjEaDZSo1qVutyeIPgo4iDbMw1xB-vxu6TtEfU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 143
+source-wordcount: '143'
 ht-degree: 5%
-
 ---
-
 # [!DNL Adobe Workfront Scenario Planner]: indice degli articoli
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Panoramica [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Introduzione a  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)

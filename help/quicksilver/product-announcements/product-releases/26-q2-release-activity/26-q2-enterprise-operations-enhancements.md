@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 2%
-
+source-wordcount: '1381'
+ht-degree: 1%
 ---
-
 # Miglioramenti delle operazioni aziendali nel secondo trimestre 2026
 
 Questa pagina descrive i miglioramenti alle operazioni aziendali apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -23,8 +30,8 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >[!NOTE]
 >
 >Anteprima: 2 aprile 2026
->Rilascio rapido in produzione: giovedì 15 aprile 2026
->Produzione per tutti: venerdì 16 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Le funzionalità avanzate di Adobe Workfront per le operazioni aziendali rappresentano un modo unificato e scalabile per gestire finanze, progetti e accesso aziendale. Queste funzionalità forniscono la visibilità e il controllo necessari alle aziende per operare in modo redditizio ed efficiente.
 
@@ -36,7 +43,7 @@ Le funzionalità avanzate di Adobe Workfront per le operazioni aziendali rappres
 
 Prevedi, tieni traccia e ottimizza le tue finanze con gerarchie di costi e tariffe di fatturazione a più livelli.
 
-[Visualizza una dimostrazione video di 13 minuti delle funzionalità avanzate di Financial Management.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[Guarda un video di 13 minuti sulle funzioni avanzate di gestione finanziaria.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 I miglioramenti alla gestione finanziaria includono:
 
@@ -86,7 +93,7 @@ Utilizza **snapshot del progetto** per gestire i progetti in modo più efficace 
 
 Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del progetto](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
-[Visualizza una dimostrazione video delle istantanee del progetto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[Visualizzate una dimostrazione video delle istantanee del progetto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -99,7 +106,7 @@ Per ulteriori informazioni, vedere [Creare e visualizzare gli snapshot del proge
 
 Per ulteriori informazioni, vedere [Panoramica dei profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-[Visualizza una dimostrazione video dei profili aziendali.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[Guarda un video dimostrativo dei profili aziendali.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ Inoltre, le autorizzazioni per visualizzare sia i dati relativi ai costi che que
 
 La logica avanzata nei moduli personalizzati fornisce informazioni più chiare e una gestione più accurata dei progetti e delle finanze.
 
-[Visualizza una dimostrazione video del modulo personalizzato e dei miglioramenti apportati ai campi.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[Guarda una dimostrazione video del modulo personalizzato e dei miglioramenti apportati ai campi.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 I miglioramenti ai moduli personalizzati includono:
 
@@ -128,9 +135,9 @@ I miglioramenti ai moduli personalizzati includono:
   >I nuovi tipi di logica sono disponibili solo per le organizzazioni nei pacchetti Workflow Prime o Ultimate.
 
 * Miglioramenti all’interfaccia di progettazione moduli:
-   * Il nome del modulo viene ora visualizzato nella parte superiore sinistra della finestra di progettazione, consentendo di visualizzarlo in un modulo lungo durante lo scorrimento.
-   * I tipi di oggetto a cui è possibile associare il modulo sono inclusi in un elenco a discesa.
-   * Puoi scegliere di visualizzare o nascondere gli indicatori logici nei campi, per tutti i tipi di logica. I tipi di logica di visualizzazione e salto mostrano gli indicatori per entrambi i campi interessati. Tutti gli altri tipi di logica hanno effetto su un campo.
+  * Il nome del modulo viene ora visualizzato nella parte superiore sinistra della finestra di progettazione, consentendo di visualizzarlo in un modulo lungo durante lo scorrimento.
+  * I tipi di oggetto a cui è possibile associare il modulo sono inclusi in un elenco a discesa.
+  * Puoi scegliere di visualizzare o nascondere gli indicatori logici nei campi, per tutti i tipi di logica. I tipi di logica di visualizzazione e salto mostrano gli indicatori per entrambi i campi interessati. Tutti gli altri tipi di logica hanno effetto su un campo.
 
   Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -165,7 +172,7 @@ Nei modelli di layout, è possibile personalizzare le intestazioni e i menu di n
 
 Per ulteriori informazioni, consulta [Creare e gestire modelli layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-[Visualizza una dimostrazione video dei miglioramenti apportati al modello di layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[Guarda una dimostrazione video dei miglioramenti apportati al modello di layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### Localizzazione personalizzata
 
@@ -179,7 +186,7 @@ Ad esempio, puoi impostare l’etichetta &quot;Target Audience&quot; per tradurr
 
 Per ulteriori informazioni, vedere [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
-[Visualizza una dimostrazione video della localizzazione personalizzata.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+[Guarda un video di dimostrazione della localizzazione personalizzata.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
 ### Automatizzare le azioni con le regole aziendali
 

@@ -6,13 +6,25 @@ description: Inventariare, classificare e correggere scenari Workfront Fusion ba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
-
 ---
-
 # Aggiornare gli scenari di Workfront Fusion per la revisione e l’approvazione unificate
 
 Gli scenari Workfront Fusion basati su versioni precedenti di Workfront Proofing non funzionano automaticamente con i progetti Adobe Cloud Storage. I moduli specifici della bozza, i webhook e gli endpoint API hanno equivalenti diretti in alcuni casi e cambiamenti significativi in altri. Questo articolo consente di inventariare gli scenari interessati, classificarli e decidere un percorso di correzione prima di inserire nel rollout dell’archiviazione cloud Adobe i team che dipendono da tali scenari.
@@ -54,7 +66,7 @@ Esamina ogni scenario in base alla tua logica di business specifica per decidern
 >
 >Il connettore Adobe Workfront Unified Review and Approvals è ora disponibile in Workfront Fusion. Si consiglia di utilizzare questo connettore per scenari più semplici e affidabili quando si utilizza Fusion con l’archiviazione cloud Adobe.
 >
->Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
+>Per informazioni e istruzioni, vedere [Moduli di revisione e approvazione unificate di Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) nella documentazione di Workfront Fusion.
 
 Per pianificare ed eseguire la correzione di Fusion, utilizzare il seguente approccio:
 

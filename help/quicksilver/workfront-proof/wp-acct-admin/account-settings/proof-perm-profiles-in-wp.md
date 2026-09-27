@@ -8,22 +8,31 @@ description: In qualità di amministratore di Workfront o di Workfront Proof, pu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
+TQID: 'https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: '1840'
 ht-degree: 1%
-
 ---
-
 # Profili delle autorizzazioni di bozza in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -87,7 +96,7 @@ Gli amministratori fatturazione hanno accesso alle [impostazioni account in [!DN
 
 ![Segno di spunta](assets/cleaner2.png)Può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![Segno di spunta](assets/cleaner2.png)Può accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Segno di spunta](assets/cleaner2.png)Può accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ![Segno di spunta](assets/cleaner2.png)Consente di accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -141,7 +150,7 @@ Gli amministratori hanno accesso a [Impostazioni account](https://support.workfr
 
 ![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisore {#supervisor}
 
@@ -169,7 +178,7 @@ I supervisori dispongono delle seguenti autorizzazioni:
 
 ![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![Rosso X](assets/no2.png)Impossibile aggiungere, modificare o eliminare utenti.
 
@@ -195,7 +204,7 @@ I manager dispongono delle seguenti autorizzazioni:
 
 ![X](assets/no2.png)Rosso: impossibile eliminare le cartelle pubbliche di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -223,7 +232,7 @@ Gli osservatori dispongono delle seguenti autorizzazioni:
 
 ![Rosso X](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -261,7 +270,7 @@ I visitatori dispongono delle seguenti autorizzazioni:
 
 ![Rosso X](assets/no2.png)Impossibile eliminare gli elementi creati nell&#39;organizzazione.
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o alle impostazioni dell&#39;account. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] e [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![Rosso X](assets/no2.png)Impossibile impostare come proprietario Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 

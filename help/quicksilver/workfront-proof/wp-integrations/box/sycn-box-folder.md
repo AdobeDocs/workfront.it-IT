@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: Cartelle della casella di sincronizzazione con  [!DNL Workfront Proof]
+title: Sincronizza cartelle con [!DNL Workfront Proof]
 description: È possibile sincronizzare una cartella Box con una cartella in Workfront Proof. Ogni modifica apportata ai file nella cartella Box verrà riflessa in Workfront Proof (quindi caricamento di un nuovo file, aggiunta di una nuova versione, ridenominazione di un file e così via).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
-TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+TQID: 'https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 0%
-
 ---
-
 # Sincronizza [!DNL Box] Cartelle Con [!DNL Workfront Proof]
 
 >[!IMPORTANT]

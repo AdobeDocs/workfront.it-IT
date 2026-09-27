@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 5%
-
 ---
-
 # Eliminare gli utenti
 
 <!--Remove me October 2026-->
@@ -48,7 +54,7 @@ Quando un utente lascia l’organizzazione, puoi rimuoverlo da Adobe Workfront.
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -96,17 +102,17 @@ La disattivazione di un utente causa i seguenti eventi:
 * Gli oggetti non possono più essere condivisi con l&#39;utente.
 * L’associazione con i seguenti oggetti rimane intatta:
 
-   * Attività, problemi, progetti, portfolio
-   * Dashboard
+  * Attività, problemi, progetti, portfolio
+  * Dashboard
 
-     >[!NOTE]
-     >
-     >Se si disattiva un utente e non è più possibile visualizzare i report o le dashboard associati a un utente, potrebbe essere necessario aggiornare **Esegui il report con i diritti di accesso di:**.\
-     >Per ulteriori informazioni, vedere [Perché non è possibile accedere a un report di proprietà di un utente disattivato?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) sezione dell&#39;articolo [Domande frequenti sui report](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+    >[!NOTE]
+    >
+    >Se si disattiva un utente e non è più possibile visualizzare i report o le dashboard associati a un utente, potrebbe essere necessario aggiornare **Esegui il report con i diritti di accesso di:**.\
+    >Per ulteriori informazioni, vedere [Perché non è possibile accedere a un report di proprietà di un utente disattivato?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) sezione dell&#39;articolo [Domande frequenti sui report](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-   * Documenti
-   * Aggiornamenti
-   * Ore
+  * Documenti
+  * Aggiornamenti
+  * Ore
 
 * Se l&#39;utente ha estratto i documenti, questi rimarranno estratti anche dopo la loro disattivazione. Solo un amministratore di Workfront può archiviarli di nuovo. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
 
@@ -119,8 +125,8 @@ L’eliminazione di un utente determina le seguenti situazioni:
 * Gli oggetti non possono più essere condivisi con l&#39;utente.
 * Elimina l&#39;associazione dell&#39;utente agli oggetti seguenti:
 
-   * Attività, problemi, progetti, portfolio
-   * Dashboard
+  * Attività, problemi, progetti, portfolio
+  * Dashboard
 
   <!--
 
@@ -132,12 +138,12 @@ L’eliminazione di un utente determina le seguenti situazioni:
 
    -->
 
-   * Aggiornamenti
-   * Ore
+  * Aggiornamenti
+  * Ore
 
-     >[!NOTE]
-     >
-     >Questi oggetti rimangono in Workfront ma il proprietario dell&#39;oggetto è ora vuoto.
+    >[!NOTE]
+    >
+    >Questi oggetti rimangono in Workfront ma il proprietario dell&#39;oggetto è ora vuoto.
 
 * Se l’utente ha caricato dei documenti nell’area Documenti della barra di navigazione globale, anche i documenti vengono eliminati.
 * Se l&#39;utente ha estratto i documenti di sua proprietà e i documenti vengono caricati nell&#39;area Documenti principale (accessibile dal menu principale), i documenti vengono eliminati insieme all&#39;utente. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).

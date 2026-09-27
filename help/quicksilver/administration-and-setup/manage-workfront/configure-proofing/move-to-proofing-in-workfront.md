@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Panoramica di Workfront Proof standalone e Integrated Proofing in Workfront
 description: Se l'organizzazione passa dalla versione autonoma di Workfront Proof al piano Workfront Pro, in cui Workfront Proof Premium è integrato con Workfront, alcune funzionalità di verifica non sono disponibili.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # Panoramica di Workfront Proof standalone e Integrated Proofing in Workfront
 
@@ -45,28 +46,28 @@ Se l&#39;organizzazione passa dalla versione autonoma di Workfront Proof al pian
 * Possibilità di connessione tra il nuovo account integrato e l’account Workfront Proof.
 * Possibilità di eseguire rapporti Workfront Proof:
 
-   * Elementi a cui è stato effettuato l&#39;accesso di recente
-   * Bozze gestite con puntuale, a rischio e in ritardo
-   * Bozze in attesa della mia decisione con Nei tempi, A rischio e In ritardo
-   * Bozze da rivedere
-   * Bozze attive
-   * Bozze archiviate
-   * Bozze bloccate
-   * Vai alla bozza direttamente dal rapporto
-   * Vai ai dettagli bozza direttamente dal rapporto
-   * Condividi bozza direttamente dal rapporto
-   * Verifica messaggi direttamente dal report
-   * Copia bozza da report
-   * Scarica originale da report
-   * Delega proprietà da report
-   * Condividi collegamenti bozza da report
-   * Stampa commenti da report
-   * Esporta Excel da report
-   * Blocca bozze in blocco
-   * Riepilogo dettagliato insieme alla matrice di avanzamento del flusso di lavoro
-   * Attivare le bozze in blocco
-   * Archiviare le bozze in blocco
-   * Annullare l’archiviazione delle bozze in blocco
-   * Cambia proprietario in blocco
-   * Delega proprietà in blocco
+  * Elementi a cui è stato effettuato l&#39;accesso di recente
+  * Bozze gestite con puntuale, a rischio e in ritardo
+  * Bozze in attesa della mia decisione con Nei tempi, A rischio e In ritardo
+  * Bozze da rivedere
+  * Bozze attive
+  * Bozze archiviate
+  * Bozze bloccate
+  * Vai alla bozza direttamente dal rapporto
+  * Vai ai dettagli bozza direttamente dal rapporto
+  * Condividi bozza direttamente dal rapporto
+  * Verifica messaggi direttamente dal report
+  * Copia bozza da report
+  * Scarica originale da report
+  * Delega proprietà da report
+  * Condividi collegamenti bozza da report
+  * Stampa commenti da report
+  * Esporta Excel da report
+  * Blocca bozze in blocco
+  * Riepilogo dettagliato insieme alla matrice di avanzamento del flusso di lavoro
+  * Attivare le bozze in blocco
+  * Archiviare le bozze in blocco
+  * Annullare l’archiviazione delle bozze in blocco
+  * Cambia proprietario in blocco
+  * Delega proprietà in blocco
 

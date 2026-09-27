@@ -1,35 +1,50 @@
 ---
-title: 'Configura l''integrazione  [!DNL SharePoint] '
+title: Configurare l'integrazione di [!DNL SharePoint]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Puoi integrare [!DNL Workfront] con [!DNL SharePoint] Online, consentendo agli utenti di accedere ai documenti di Workfront, collegarli e aggiungerli.  [!DNL SharePoint] La funzionalità fornita è simile a quella di altre [!DNL Workfront] integrazioni di documenti.
+description: È possibile integrare [!DNL Workfront] con [!DNL SharePoint] Online, fornendo agli utenti la possibilità di navigare, collegare e aggiungere [!DNL SharePoint] documenti in Workfront. La funzionalità fornita è simile a quella di altre integrazioni di documenti [!DNL Workfront].
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+TQID: 'https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: '1861'
 ht-degree: 2%
-
 ---
-
 # Configurare l&#39;integrazione di [!DNL SharePoint]
 
 {{highlighted-preview}}
@@ -184,8 +199,8 @@ Se una risorsa è stata caricata per la prima volta in [!DNL Workfront] e quindi
 
 Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite l&#39;integrazione legacy di [!DNL SharePoint], è necessario riconfigurare l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint] e mantenere aggiornato il segreto client di SharePoint.
 
-* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Riconfigura l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint]
 
@@ -198,7 +213,7 @@ La riconfigurazione dell&#39;integrazione legacy di [!DNL SharePoint] consente a
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **[!UICONTROL Documenti]** nell&#39;area di navigazione a sinistra, quindi seleziona **[!UICONTROL Provider di cloud]**.
-1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint] (Graph API)]** siano entrambe abilitate.
+1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint](Graph API)]** siano entrambe abilitate.
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Seleziona **[!UICONTROL Documenti]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL [!DNL SharePoint]Integrazione]**.
 1. Seleziona il segno di spunta a sinistra dell&#39;elenco per tutte le integrazioni esistenti, quindi seleziona **[!UICONTROL Disattiva]**.

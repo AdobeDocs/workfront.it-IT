@@ -6,22 +6,31 @@ description: Il processo seguente illustra le best practice per passare dal conn
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-TQID: https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ
+TQID: 'https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: '356'
 ht-degree: 5%
-
 ---
-
 # Migrare dal connettore legacy al connettore avanzato
 
 Il processo seguente illustra le best practice per passare dal connettore legacy di Adobe Experience Manager al connettore avanzato per l’integrazione di Adobe Workfront con AEM Assets.
@@ -39,9 +48,9 @@ Per i clienti che utilizzano Adobe Experience Manager Assets as a Cloud Service,
 >
 >Per l’implementazione del connettore avanzato sono necessari un partner certificato o i servizi Adobe Consulting.
 >
-> Per i partner che desiderano certificare sul connettore avanzato, leggere il seguente articolo: [Workfront per la serie Expert del connettore avanzato Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Per i partner che desiderano certificare sul connettore avanzato, leggere il seguente articolo: [Workfront per la serie Expert del connettore avanzato Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Per implementare il connettore avanzato, vedere [Configurare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Per implementare il connettore avanzato, vedere [Configurare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Spostare le risorse esistenti

@@ -6,25 +6,31 @@ description: Il widget Approvazioni personali visualizza tutte le approvazioni i
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-TQID: https://experienceleague.adobe.com/wfTP8CMqgTZtTLshO239HNrDAUbyrHNbOhs3ZKlMXGg
+TQID: 'https://experienceleague.adobe.com/wfTP8CMqgTZtTLshO239HNrDAUbyrHNbOhs3ZKlMXGg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 415
-ht-degree: 17%
-
+source-wordcount: '437'
+ht-degree: 16%
 ---
-
 # Gestire le approvazioni con il widget Le mie approvazioni
 
 Il widget Approvazioni personali visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate in un&#39;unica posizione. Qui puoi filtrare e organizzare le approvazioni, prendere decisioni e delegare le approvazioni in base alle esigenze.

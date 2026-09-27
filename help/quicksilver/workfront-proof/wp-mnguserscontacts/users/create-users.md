@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Crea utenti utilizzando  [!DNL Workfront Proof]
-description: In qualità di amministratore  [!DNL Workfront Proof] , puoi creare nuovi utenti.
+title: Crea utenti con [!DNL Workfront Proof]
+description: In qualità di amministratore [!DNL Workfront Proof], puoi creare nuovi utenti.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23a692ba-88d4-487f-beaf-52671259ebaf
-TQID: https://experienceleague.adobe.com/ZDu0dNJxpUI5FFtWy3Pvk8ASv1D0S1Vq1So4x-mmv2U
+TQID: 'https://experienceleague.adobe.com/ZDu0dNJxpUI5FFtWy3Pvk8ASv1D0S1Vq1So4x-mmv2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # Crea utenti con [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -48,7 +57,7 @@ Puoi creare un utente da zero oppure convertire un ospite in un utente con licen
    * Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni account]**, quindi fai clic su **[!UICONTROL +Nuovo utente]**.
 
    * Fai clic su **[!UICONTROL Contatti]** nel menu di navigazione a sinistra, quindi su **[!UICONTROL + Nuovo]**, infine su **[!UICONTROL Nuovo utente]**.
-*Viene visualizzata la finestra di dialogo Nuovo utente.
+     *Viene visualizzata la finestra di dialogo Nuovo utente.
 
 1. Nella casella **[!UICONTROL Nuovo utente]** visualizzata digitare le informazioni della persona e impostare le opzioni di configurazione come descritto in [Configura informazioni utente tramite [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 

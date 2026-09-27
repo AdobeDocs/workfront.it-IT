@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Bacheche Adobe Workfront per dispositivi mobili
-description: Nell'app mobile  [!DNL Workfront]  puoi visualizzare tutte le bacheche che hai creato o a cui sei stato aggiunto nella versione desktop di  [!DNL Workfront].
+description: Nell'app mobile [!DNL Workfront] puoi visualizzare tutte le bacheche create o a cui sono state aggiunte nella versione desktop di [!DNL Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: '1074'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront] [!UICONTROL Bacheche] per dispositivi mobili
 
 [!DNL Adobe Workfront] [!UICONTROL Le bacheche] sono strumenti flessibili che consentono la collaborazione in team fornendo l&#39;accesso a una bacheca condivisa contenente colonne e schede. Per ulteriori informazioni sulle bacheche, consulta [Panoramica delle bacheche](/help/quicksilver/agile/boards-overview.md).
@@ -138,6 +141,6 @@ Quando vengono applicati filtri, nella bacheca ![Filtro applicato alla bacheca](
 1. Digita un termine di ricerca nella casella e seleziona [!UICONTROL **Fine**] o ![Icona Fine](assets/mobile-apply-icon-checkmark.png).
 
    Vengono visualizzate tutte le schede che contengono il termine di ricerca nel titolo.
-Selezionare la X per cancellare la ricerca.
+   Selezionare la X per cancellare la ricerca.
 
    ![Cerca scheda](assets/mobile-search-for-card.png)

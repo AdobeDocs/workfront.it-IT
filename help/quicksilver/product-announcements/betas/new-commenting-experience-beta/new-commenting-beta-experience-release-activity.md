@@ -10,19 +10,26 @@ role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+TQID: 'https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1988
+source-wordcount: '2063'
 ht-degree: 1%
-
 ---
-
 # Nuova attività di rilascio sull’esperienza dei commenti
 
 <!--take the badge out when it comes to production GA for everyone-->
@@ -325,19 +332,19 @@ Disponibile per il commento del problema esperienza Beta e per gli obiettivi Wor
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 ### venerdì 20 aprile 2023
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 ### martedì 17 aprile 2023
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 
 ### Settimana del 6 aprile 2023

@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Condividere collegamenti alle bozze in Workfront Proof
-description: Puoi inviare l'URL di bozza e l'URL di download per una bozza a chiunque, che disponga o meno di un account  [!DNL Workfront Proof] . Per informazioni sull’URL di bozza e l’URL di download, consulta Condividere l’URL pubblico in Workfront Proof e scaricare i file memorizzati in Workfront Proof.
+description: È possibile inviare tramite e-mail l'URL di bozza e l'URL di download per una bozza a chiunque, indipendentemente dal fatto che disponga di un account [!DNL Workfront Proof]. Per informazioni sull’URL di bozza e l’URL di download, consulta Condividere l’URL pubblico in Workfront Proof e scaricare i file memorizzati in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
-TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+TQID: 'https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # Condividi collegamenti bozza in [!DNL Workfront Proof]
 
 >[!IMPORTANT]

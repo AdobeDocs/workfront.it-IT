@@ -1,27 +1,31 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Esperienza unificata Adobe per  [!DNL Workfront]
-description: L'accesso a  [!DNL Workfront]  tramite Adobe CX Enterprise offre un'esperienza unificata e senza soluzione di continuità per la gestione di tutte le applicazioni Adobe.
+title: Esperienza unificata Adobe per [!DNL Workfront]
+description: L'accesso a [!DNL Workfront] tramite Adobe CX Enterprise offre un'esperienza unificata e senza soluzione di continuità per la gestione di tutte le applicazioni Adobe.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
+TQID: 'https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '698'
 ht-degree: 4%
-
 ---
-
 # [!DNL Adobe Unified Experience] per [!DNL Workfront]
 
 <!--Audited: 10/2024-->
@@ -62,7 +66,7 @@ Se hai domande sull&#39;onboarding in [!DNL Adobe Admin Console], consulta le [[
 
 Con il passaggio ad Adobe Unified Experience, la tua organizzazione ora utilizza il sistema Identity Management di Adobe per l’autenticazione degli utenti. Ciò significa che effettui l’accesso a Workfront tramite Adobe, anziché direttamente a Workfront. Adobe IMS richiede inoltre che gli amministratori di Workfront gestiscano la gestione degli utenti in Adobe Admin Console, anziché in Workfront.
 
-Per informazioni sull&#39;accesso a Workfront in Adobe Unified Experience, vedere [Accedere ad Adobe CX Enterprise](#log-in-to-adobe-cx-enterprise) in questo articolo.
+Per informazioni sull&#39;accesso a Workfront in Adobe Unified Experience, vedere [Accedere a Adobe CX Enterprise](#log-in-to-adobe-cx-enterprise) in questo articolo.
 
 Per informazioni sulla gestione degli utenti in Adobe Admin Console, vedere l&#39;articolo [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
@@ -130,6 +134,6 @@ Se l&#39;organizzazione utilizza un&#39;applicazione separata per la gestione de
 
 Se la password è gestita da [!DNL Adobe], è possibile modificarla nell&#39;account Adobe.
 
-[Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/it/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Per ulteriori informazioni sulla modifica della password, contattare l&#39;amministratore.

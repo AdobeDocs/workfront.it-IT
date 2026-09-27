@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # Panoramica sulle istruzioni “IF”
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ Prima di creare un&#39;istruzione &quot;IF&quot;, considera quanto segue:
 
 * Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 
-   * Viste
-   * Raggruppamenti
-   * Configurare campi personalizzati
+  * Viste
+  * Raggruppamenti
+  * Configurare campi personalizzati
 
 * Non è possibile creare istruzioni &quot;IF&quot; per i filtri. Questo genera un errore &quot;Ops&quot; in Workfront.
 * Il team di supporto non è in grado di creare dati personalizzati. Dopo aver generato i campi o le colonne personalizzati, è possibile contattare il team di supporto e i risultati desiderati non vengono visualizzati. Per assistenza nella creazione di un’espressione, contatta il tuo Account Executive per informazioni sulle nostre opzioni di consulenza.
@@ -60,13 +64,13 @@ Puoi creare istruzioni &quot;IF&quot; in Workfront utilizzando il seguente forma
 
 * **Condizione** = Questa è la condizione che la variabile Workfront deve soddisfare ed è la base per questa equazione. Tutto ciò che può essere successivamente specificato nell&#39;equazione dipende dalla condizione. È possibile utilizzare una serie di riferimenti, confronti o espressioni matematiche per avviare un&#39;equazione. Alcuni esempi di condizioni sono:
 
-   * Una data è successiva a un&#39;altra data su un oggetto specificato.
-   * Uno stato è uguale a uno degli stati disponibili su un oggetto specificato.
-   * La percentuale di completamento di un&#39;attività è minore o maggiore di una determinata percentuale.
+  * Una data è successiva a un&#39;altra data su un oggetto specificato.
+  * Uno stato è uguale a uno degli stati disponibili su un oggetto specificato.
+  * La percentuale di completamento di un&#39;attività è minore o maggiore di una determinata percentuale.
 
 * **Operatore condizione** = operatore che consente di creare la condizione dell&#39;istruzione &quot;IF&quot;. Ad esempio, &quot;è uguale a&quot; o &quot;è maggiore di&quot; sono operatori di condizione. Per un elenco degli operatori di condizione utilizzabili nelle istruzioni, vedere [Operatori di condizione nelle espressioni personalizzate calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
+* **True****Expression** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
 
 * **Espressione falsa** = Variabile &quot;False&quot; che indica all&#39;equazione quale indicatore visualizzare quando i criteri della condizione non sono soddisfatti (indicatori falsi).
 

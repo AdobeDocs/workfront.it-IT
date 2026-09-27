@@ -2,29 +2,34 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Domande frequenti su Adobe Unified Experience
-description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Experience Cloud e potresti avere alcune domande durante la migrazione dell'istanza  [!DNL Workfront]  all'esperienza unificata.
+description: Alcune funzionalità sono diverse tra [!DNL Workfront] e Adobe Experience Cloud e potresti avere alcune domande durante la migrazione dell'istanza [!DNL Workfront] all'esperienza unificata.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw
+TQID: 'https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: '1428'
 ht-degree: 1%
-
 ---
-
 # Domande frequenti su [!DNL Adobe Unified Experience]
 
 <!--Remove me October 2026-->
@@ -77,7 +82,7 @@ Per informazioni su [!DNL Admin Console], esaminare gli articoli seguenti:
 
 ### Cosa devo fare in qualità di cliente per facilitare la migrazione?
 
-I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile. Rivedi le [[!DNL Adobe Business Platform] e [!DNL Admin Console] domande frequenti](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/workfront/faq) per ulteriori informazioni.
+I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile. Rivedi le [[!DNL Adobe Business Platform] e [!DNL Admin Console] domande frequenti](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) per ulteriori informazioni.
 
 ### In che modo gestisci [!DNL Adobe Admin Console] per le aziende che hanno già abilitato questo per i Federated ID in modo diverso rispetto a [!DNL Workfront] SSO configurato?
 

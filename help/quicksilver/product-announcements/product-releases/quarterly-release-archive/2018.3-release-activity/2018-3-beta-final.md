@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 1%
-
 ---
-
 # 2018.3 Beta finale
 
 Questa pagina descrive tutte le modifiche più recenti disponibili nell’ambiente di anteprima con la versione finale di Beta 2018.3. La funzionalità sarà disponibile nell’ambiente di anteprima il 10 ottobre 2018. Sarà disponibile nell’ambiente di produzione a novembre 2018.
@@ -128,10 +134,10 @@ Le seguenti nuove funzioni verranno rilasciate negli app store di iOS e Android 
 
   Ora puoi eseguire le seguenti azioni premendo a lungo l’app Workfront nella schermata iniziale:
 
-   * Ricerca
-   * Notifiche di accesso
-   * Accedi al progetto a cui è stato effettuato l’accesso più recente 
-   * Accedere all’attività o al problema più recente
+  * Ricerca
+  * Notifiche di accesso
+  * Accedi al progetto a cui è stato effettuato l’accesso più recente 
+  * Accedere all’attività o al problema più recente
 
 * Nuove notifiche push e introduzione di azioni dalle notifiche push
 
@@ -141,18 +147,18 @@ Le seguenti nuove funzioni verranno rilasciate negli app store di iOS e Android 
 
   Puoi effettuare le seguenti operazioni premendo a lungo una notifica push, senza dover passare all’app o all’elemento che l’ha generata:
 
-   * Commento su un elemento
-   * Accetta per lavorarci
-   * Decidere in merito all&#39;approvazione
+  * Commento su un elemento
+  * Accetta per lavorarci
+  * Decidere in merito all&#39;approvazione
 
 * Supporto per l’orientamento orizzontale per i dispositivi iOS
 
   Sono ora supportati sia gli orientamenti in orizzontale che in verticale per le app mobili iOS e Android, ad eccezione delle seguenti dimensioni di iPhone:
 
-   * IPHONE 5
-   * iPhone 5S
-   * IPHONE SE\
-     Prima di questo miglioramento, l’orientamento orizzontale era supportato solo per i dispositivi Android.
+  * IPHONE 5
+  * iPhone 5S
+  * IPHONE SE\
+    Prima di questo miglioramento, l’orientamento orizzontale era supportato solo per i dispositivi Android.
 
 * Supporto per piattaforme iOS 12 e Android P
 * Supporto per tablet iOS e Android

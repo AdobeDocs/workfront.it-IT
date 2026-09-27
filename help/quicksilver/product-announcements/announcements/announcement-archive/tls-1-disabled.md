@@ -6,22 +6,29 @@ description: Per garantire una sicurezza ottimale, Adobe Workfront richiede che 
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
-TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+TQID: 'https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 4%
-
+source-wordcount: '409'
+ht-degree: 3%
 ---
-
 # TLS 1.2 è obbligatorio in Adobe Workfront
 
 Per garantire una sicurezza ottimale, Adobe Workfront richiede che tutte le connessioni browser e le integrazioni API che si basano su TLS 1.0 o versioni precedenti siano aggiornate per utilizzare TLS 1.2. Nell’ambiente di anteprima, TLS 1.0 è già disabilitato.

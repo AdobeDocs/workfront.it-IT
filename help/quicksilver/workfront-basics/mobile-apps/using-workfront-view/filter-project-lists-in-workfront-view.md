@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Filtra elenchi progetti in  [!DNL Adobe Workfront] Visualizza
+title: Filtra elenchi progetti nella visualizzazione [!DNL Adobe Workfront]
 feature: Get Started with Workfront
-description: Per impostazione predefinita, [!DNL Adobe Workfront] Visualizza visualizza l'elenco [!UICONTROL Tutti i progetti] in [!DNL Workfront], quindi vengono elencati tutti i progetti a cui hai accesso, indipendentemente dal loro stato.
+description: Per impostazione predefinita, la visualizzazione [!DNL Adobe Workfront] visualizza l'elenco [!UICONTROL Tutti i progetti] in [!DNL Workfront], quindi vengono elencati tutti i progetti a cui si ha accesso, indipendentemente dal loro stato.
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '325'
 ht-degree: 11%
-
 ---
-
 # Filtra elenchi progetti in [!DNL Adobe Workfront View]
 
 Per impostazione predefinita, [!DNL Adobe Workfront View] visualizza l&#39;elenco [!UICONTROL Tutti i progetti] in [!DNL Workfront], quindi vengono elencati tutti i progetti a cui hai accesso, indipendentemente dal loro stato.
@@ -71,22 +75,22 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Stato: selezionare questa opzione per visualizzare solo i progetti con [!UICONTROL Stati] specifici.
    * [!UICONTROL Inizio pianificato]: selezionare questa opzione per visualizzare solo i progetti con [!UICONTROL Data inizio pianificata] nei seguenti intervalli di tempo:
 
-      * Ultimi 3 mesi
-      * Ultimi 2 mesi
-      * Mese scorso
-      * Ultime due settimane
+     * Ultimi 3 mesi
+     * Ultimi 2 mesi
+     * Mese scorso
+     * Ultime due settimane
    * [!UICONTROL Pianificato completato]: selezionare questa opzione per visualizzare solo i progetti con [!UICONTROL Pianificato completato] nei seguenti intervalli di tempo:
 
-      * Due settimane
-      * Un mese
-      * Due mesi
-      * Tre mesi
+     * Due settimane
+     * Un mese
+     * Due mesi
+     * Tre mesi
    * [!UICONTROL Progetto completato]: selezionare questa opzione per visualizzare solo i progetti con [!UICONTROL Data di completamento prevista] nei seguenti intervalli di tempo:
 
-      * Due settimane
-      * Un mese
-      * Due mesi
-      * Tre mesi
+     * Due settimane
+     * Un mese
+     * Due mesi
+     * Tre mesi
    * [!UICONTROL Proprietario]: selezionare per visualizzare i progetti assegnati a proprietari specifici.
    * [!UICONTROL Sponsor]: selezionare per visualizzare i progetti assegnati a un [!UICONTROL Sponsor] specifico.
 

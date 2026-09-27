@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 5%
-
 ---
-
 # Condividere un progetto
 
 <!-- Audited: 1/2024 -->
@@ -79,13 +83,13 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * Puoi condividere i progetti singolarmente, oppure puoi condividerne più di uno alla volta. La condivisione di progetti è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un progetto:
 
-   * Visualizzazione
-   * Gestione
-   * Contribuisci
+  * Visualizzazione
+  * Gestione
+  * Contribuisci
 
 * Quando si condivide un progetto, tutte le attività, i problemi e i documenti ereditano le stesse autorizzazioni, se non diversamente specificato.
 
-  Per informazioni sulla gestione dell&#39;accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sulla gestione dell&#39;accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
   L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -104,25 +108,25 @@ Puoi condividere un progetto nei seguenti modi:
 
 * Manualmente, effettuando una delle seguenti operazioni:
 
-   * Aggiunta di utenti al team del progetto. Quando aggiungi utenti al team di progetto, questi ottengono automaticamente le autorizzazioni di visualizzazione per il progetto.\
-     Per ulteriori informazioni sull&#39;aggiunta di utenti a un team di progetto, vedere la sezione Aggiunta di utenti a un team di progetto in [Panoramica team di progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Condivisione singola o in blocco dei progetti quando si utilizza l&#39;opzione **Condivisione**.
+  * Aggiunta di utenti al team del progetto. Quando aggiungi utenti al team di progetto, questi ottengono automaticamente le autorizzazioni di visualizzazione per il progetto.\
+    Per ulteriori informazioni sull&#39;aggiunta di utenti a un team di progetto, vedere la sezione Aggiunta di utenti a un team di progetto in [Panoramica team di progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+  * Condivisione singola o in blocco dei progetti quando si utilizza l&#39;opzione **Condivisione**.
 
 * Automaticamente eseguendo una delle operazioni seguenti:
 
-   * Posiziona un progetto in un **Portfolio** o **Programma** già condiviso con altri. Gli utenti ottengono le stesse autorizzazioni al progetto di cui dispongono per il portfolio o il programma.\
-     Per informazioni sull&#39;aggiunta di un progetto a un **Portfolio**, vedere [Aggiungere progetti a un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Per informazioni sull&#39;aggiunta di un progetto a un **Programma**, vedere [Aggiungere un progetto a un programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un oggetto, vedere [Visualizzare le autorizzazioni ereditate per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Posiziona un progetto in un **Portfolio** o **Programma** già condiviso con altri. Gli utenti ottengono le stesse autorizzazioni al progetto di cui dispongono per il portfolio o il programma.\
+    Per informazioni sull&#39;aggiunta di un progetto a un **Portfolio**, vedere [Aggiungere progetti a un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+    Per informazioni sull&#39;aggiunta di un progetto a un **Programma**, vedere [Aggiungere un progetto a un programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+    Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un oggetto, vedere [Visualizzare le autorizzazioni ereditate per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Aggiungere entità alla condivisione di progetti in un modello utilizzato per creare il progetto. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Definire il modello di accesso al progetto.
+  * Aggiungere entità alla condivisione di progetti in un modello utilizzato per creare il progetto. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Definire il modello di accesso al progetto.
 
-     >[!TIP]
-     >
-     >Quando si allega o si salva un modello, è possibile cancellare le regole di condivisione dei progetti dei modelli.
+    >[!TIP]
+    >
+    >Quando si allega o si salva un modello, è possibile cancellare le regole di condivisione dei progetti dei modelli.
 
-   * Modificare un progetto e definire l&#39;impostazione **Quando a un utente viene concesso l&#39;accesso a questo progetto**.  Per ulteriori informazioni, vedere [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Modificare un progetto e definire l&#39;impostazione **Quando a un utente viene concesso l&#39;accesso a questo progetto**.  Per ulteriori informazioni, vedere [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

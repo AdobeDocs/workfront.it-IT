@@ -1,19 +1,29 @@
 ---
-title: 22.2 Altri miglioramenti
-description: 22.2 Altri miglioramenti
+title: 22.2 - Altri miglioramenti
+description: 22.2 - Altri miglioramenti
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
-
+source-wordcount: '317'
+ht-degree: 2%
 ---
-
-# 22.2 Altri miglioramenti
+# 22.2 - Altri miglioramenti
 
 Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 22.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
@@ -32,7 +42,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Pa
 Sono stati apportati diversi miglioramenti alla barra di navigazione superiore di Adobe Workfront.
 
 * Preferiti e Recenti ora dispongono di icone separate nella barra di navigazione superiore. Ogni pagina visualizza ancora lo stesso contenuto (le pagine contrassegnate come preferite e quelle visitate di recente) e puoi continuare ad aggiungere e rimuovere le pagine preferite nello stesso modo.
-* Il look and feel di entrambi i pin e del menu principale è stato aggiornato agli standard di design Adobi, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.
+* L’aspetto di entrambi i pin e del menu principale è stato aggiornato agli standard di progettazione Adobe, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.
 * Le icone sulla destra della barra di navigazione superiore sono state riordinate per essere più intuitive. L’ordine delle icone è: collegamento della guida, notifiche, preferiti, recenti, ricerca, menu principale.
 
 Per ulteriori informazioni, vedere [Panoramica superiore della barra di navigazione](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).

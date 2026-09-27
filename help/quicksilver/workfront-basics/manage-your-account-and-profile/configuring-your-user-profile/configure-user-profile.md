@@ -3,23 +3,26 @@ content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: Configurare il proprio profilo utente
-description: Consulta gli articoli in questa sezione per scoprire come configurare il tuo profilo utente  [!DNL Workfront] .
+description: Esaminare gli articoli in questa sezione per scoprire come configurare il profilo utente [!DNL Workfront].
 author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-TQID: https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws
+TQID: 'https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: '147'
 ht-degree: 9%
-
 ---
-
 # Configurare il proprio profilo utente
 
 Per accedere alle opzioni di profilo e preferenze, fai clic sul menu dell’account Adobe (immagine del profilo) nell’area di navigazione superiore.
@@ -36,7 +39,7 @@ Questo menu consente di:
   >Le impostazioni della data dipendono dalle impostazioni della lingua principale. Se ad esempio si seleziona **Inglese (Stati Uniti)**, le date verranno visualizzate in formato MM/GG/AAAA, mentre se si seleziona **Inglese (Regno Unito)** le date verranno visualizzate in formato GG/MM/AAAA.
 
 * Accedi al tuo profilo **[!UICONTROL [!DNL Workfront]]**. Una volta nel profilo, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon.png) e selezionare **[!UICONTROL Modifica]**. Per ulteriori informazioni sul profilo, vedere [Configurare le impostazioni personali](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Disconnettiti]** da CX Enterprise.
+* **[!UICONTROL Esci]** da CX Enterprise.
 
 Questa sezione contiene i seguenti articoli:
 

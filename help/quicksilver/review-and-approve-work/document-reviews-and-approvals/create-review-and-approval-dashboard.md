@@ -6,22 +6,29 @@ description: Puoi rivedere le metriche di approvazione nelle dashboard di Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+TQID: 'https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2771
+source-wordcount: '2771'
 ht-degree: 1%
-
 ---
-
 # Creare una dashboard del rapporto per la revisione e le approvazioni
 
 Puoi creare una dashboard di rapporti nell’area Dashboard Canvas per visualizzare informazioni dettagliate e di alto livello su revisioni e approvazioni con la funzionalità Unified Approvals.
@@ -124,7 +131,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
 
    1. Digitare _Scaduto_ nel campo **Nome**.
-   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**&#x200B;nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
+   1. Digitare _Scadenza fase di approvazione nel campo **Descrizione**nel campo_. Questa descrizione viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
 
@@ -302,7 +309,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Stato**.
-   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
+   1. Impostare il tipo di aggregazione **** su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Stato**.
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
@@ -342,7 +349,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione** > **Versione documento** > **Versione**.
-   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
+   1. Impostare il tipo di aggregazione **** su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione** > **Versione documento** > **Documento** > **Nome**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:

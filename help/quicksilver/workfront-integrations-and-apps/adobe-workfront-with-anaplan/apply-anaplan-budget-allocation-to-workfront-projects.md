@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Applica un''allocazione di budget di  [!DNL Anaplan]  a un progetto di  [!DNL Adobe Workfront] '
-description: Questo scenario di integrazione sincronizza tutte le allocazioni di budget che sono state effettuate in [!DNL Anaplan] indietro a [!DNL Workfront]. Lo scenario richiama tutte le voci di budget della campagna collegate, quindi passa il valore preventivato al progetto Workfront collegato se il valore del budget è stato modificato.
+title: Applica un'allocazione budget [!DNL Anaplan] a un progetto [!DNL Adobe Workfront]
+description: Questo scenario di integrazione sincronizza tutte le allocazioni di budget effettuate in [!DNL Anaplan] in [!DNL Workfront]. Lo scenario richiama tutte le voci di budget della campagna collegate, quindi passa il valore preventivato al progetto Workfront collegato se il valore del budget è stato modificato.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-TQID: https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc
+TQID: 'https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '746'
 ht-degree: 16%
-
 ---
-
 # Applica un&#39;allocazione budget [!DNL Anaplan] a un progetto [!DNL Adobe Workfront]
 
 Questo scenario di integrazione sincronizza tutte le allocazioni di budget effettuate in [!DNL Anaplan] in [!DNL Workfront]. Lo scenario richiama tutte le voci di budget della campagna collegate, quindi passa il valore preventivato al progetto [!DNL Workfront] collegato se il valore del budget è stato modificato.
@@ -67,7 +76,7 @@ Questo scenario di integrazione sincronizza tutte le allocazioni di budget effet
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -93,11 +102,11 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 
   Il modulo dell’elenco deve supportare la ricezione dei seguenti attributi:
 
-   * [!UICONTROL GUID progetto Workfront]
-   * [!UICONTROL Nome campagna]
-   * [!UICONTROL Fondi manodopera richiesti]
-   * [!UICONTROL Ricavo stimato]
-   * [!UICONTROL Marchio]
+  * [!UICONTROL GUID progetto Workfront]
+  * [!UICONTROL Nome campagna]
+  * [!UICONTROL Fondi manodopera richiesti]
+  * [!UICONTROL Ricavo stimato]
+  * [!UICONTROL Marchio]
 
   Questo elenco e modulo devono memorizzare ulteriori dettagli necessari per la normale funzionalità di [!DNL Anaplan], inclusa la possibilità di impostare un budget e comunicare che la voce dell&#39;elenco di budget è pronta per essere sincronizzata nuovamente in [!DNL Workfront].
 
@@ -105,19 +114,19 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 
   Questa vista deve contenere le seguenti colonne, nell’ordine indicato:
 
-   1. [!UICONTROL Nome elemento]
+  1. [!UICONTROL Nome elemento]
 
-   2. [!UICONTROL [!DNL Workfront] GUID progetto]
+  2. [!UICONTROL [!DNL Workfront] GUID progetto]
 
-   3. [!UICONTROL Nome campagna]
+  3. [!UICONTROL Nome campagna]
 
-   4. [!UICONTROL Budget]
+  4. [!UICONTROL Budget]
 
-   5. [!UICONTROL Ricavo stimato]
+  5. [!UICONTROL Ricavo stimato]
 
-   6. [!UICONTROL Marchio]
+  6. [!UICONTROL Marchio]
 
-  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID  del progetto [!DNL Workfront] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
+  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID ] del progetto [!UICONTROL [!DNL Workfront] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
 
 Per istruzioni su una di queste azioni, vedere la documentazione di [!DNL Anaplan].
 

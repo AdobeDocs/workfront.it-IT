@@ -3,26 +3,35 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Crea e gestisci campi personalizzati in [!DNL Workfront Proof]
-description: Per utilizzare questa funzione è necessario un Select o Premium [!DNL Workfront] Plan. Per ulteriori informazioni sui vari piani disponibili, vedere Piani Workfront.
+description: Per utilizzare questa funzione è necessario un piano Select o Premium [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere Piani Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+TQID: 'https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 # Crea e gestisci campi personalizzati in [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
@@ -31,7 +40,7 @@ ht-degree: 0%
 >
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Per utilizzare questa funzione è necessario un piano Select o Premium [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
+Per utilizzare questa funzione è necessario un piano Select o Premium [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 I campi personalizzati ti consentono di acquisire dati aggiuntivi durante la creazione di una nuova bozza, utente o ospite. Ad esempio, gli utenti che creano una nuova bozza potrebbero voler includere una sezione aggiuntiva che consenta loro di acquisire un Numero OdL, un Codice reparto o un Riferimento fornitore.
 
@@ -71,7 +80,7 @@ I campi personalizzati ti consentono di acquisire dati aggiuntivi durante la cre
    * **Ricercabile** (Condizionale): seleziona questa casella per rendere ricercabile il campo personalizzato.
    * **Nascosto**: selezionare questa casella per nascondere il campo personalizzato nelle pagine **Nuova bozza**, **Nuovo ospite** e **Nuovo utente**.
 
-1. Specificare il tipo di campo **&#x200B;**&#x200B;e i dettagli:
+1. Specificare il tipo di campo **** e i dettagli:
 
    * **Tipo**: selezionare il tipo di campo personalizzato.
    * **Elementi elenco**: (condizionale) aggiungi gli elementi elenco che verranno visualizzati nel campo personalizzato.

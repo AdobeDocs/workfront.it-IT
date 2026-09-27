@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # Panoramica sul grafico lavoro di Agile
 
 Il grafico a burn-down fornisce una rappresentazione visiva dell&#39;avanzamento delle storie nell&#39;iterazione. Il tasso di burndown effettivo viene misurato rispetto al tasso di burndown ideale per la timeline di iterazione.
@@ -95,9 +103,9 @@ I giorni liberi vengono riportati nel grafico a dispersione solo se:
 
   Quando il lavoro viene registrato in un giorno libero:
 
-   * Qualsiasi lavoro registrato non viene incluso nel calcolo del burn-down ideale perché il team non è programmato per eseguire alcun lavoro.
-   * Le linee di burn-down ideali (la linea blu continua e la linea blu tratteggiata) vengono visualizzate come piatte nel grafico burndown per qualsiasi giorno in cui il lavoro è stato completato o nel giorno in cui si sta visualizzando il grafico burndown (se si sta visualizzando in un giorno libero).
-   * Il lavoro registrato viene incluso nel calcolo di altre statistiche di burndown come il completamento stimato e la media di punti o ore al giorno.
+  * Qualsiasi lavoro registrato non viene incluso nel calcolo del burn-down ideale perché il team non è programmato per eseguire alcun lavoro.
+  * Le linee di burn-down ideali (la linea blu continua e la linea blu tratteggiata) vengono visualizzate come piatte nel grafico burndown per qualsiasi giorno in cui il lavoro è stato completato o nel giorno in cui si sta visualizzando il grafico burndown (se si sta visualizzando in un giorno libero).
+  * Il lavoro registrato viene incluso nel calcolo di altre statistiche di burndown come il completamento stimato e la media di punti o ore al giorno.
 
 * Stai visualizzando il grafico a bruciatura in un giorno libero. Il giorno visualizzato viene visualizzato nel grafico a dispersione.
 * Il lavoro rimanente totale per l&#39;iterazione viene completato in un giorno libero.

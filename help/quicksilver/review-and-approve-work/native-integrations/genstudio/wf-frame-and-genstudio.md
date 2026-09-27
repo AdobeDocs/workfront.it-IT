@@ -9,15 +9,24 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 7%
-
 ---
-
 # Guida introduttiva all’integrazione con GenStudio for Performance Marketing e Frame.io
 
 Grazie all&#39;integrazione tra GenStudio for Performance Marketing e Frame.io, è possibile:
@@ -87,7 +96,7 @@ Per ulteriori informazioni sulla creazione di modelli di flusso di lavoro di app
 
 Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro di approvazione unificato, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
 
-Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore Frame.io
 
@@ -106,4 +115,4 @@ Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere
 
 Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

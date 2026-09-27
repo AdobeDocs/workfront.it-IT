@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Download della fattura  [!DNL Workfront Proof]  in corso
+title: Download della fattura [!DNL Workfront Proof]
 description: Il primo giorno di un nuovo periodo di fatturazione, la fattura di abbonamento viene inviata al contatto principale di fatturazione sul tuo account e all’indirizzo e-mail di Fatturazione CC, se ne hai definito uno.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
-TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
+TQID: 'https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # Download della fattura [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -51,7 +60,7 @@ Nella fattura sono disponibili le seguenti informazioni:
 >
 > Se il pagamento per la fattura è già stato ricevuto (ad esempio, per i pagamenti con carta di credito automatizzata), le condizioni di pagamento e la data di scadenza verranno visualizzate come pagate e nella descrizione verrà visualizzato un numero di riferimento per il pagamento.
 
-Per impostazione predefinita, emettiamo tutte le nostre fatture automatiche per gli abbonamenti in USD, ma per tutte le organizzazioni britanniche includiamo nei documenti l&#39;importo IVA (in USD e in sterline). Se desideri ricevere le fatture di abbonamento interamente in GBP, contatta il nostro team finanziario all&#39;indirizzo [finance@proofhq.com](mailto:finance@proofhq.com).
+Per impostazione predefinita, emettiamo tutte le fatture automatiche per gli abbonamenti in USD, ma per tutte le organizzazioni britanniche includiamo nei documenti l’importo IVA (in USD e in sterline). Se desideri ricevere le fatture di abbonamento interamente in GBP, contatta il nostro team finanziario all&#39;indirizzo [finance@proofhq.com](mailto:finance@proofhq.com).
 
 * [Download della fattura](#downloading-your-invoice)
 * [Collegamenti utili](#useful-links)
@@ -66,7 +75,7 @@ Per impostazione predefinita, emettiamo tutte le nostre fatture automatiche per 
 
 ## Collegamenti utili {#useful-links}
 
-Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto fatturazione e indirizzo della pagina Fatturazione. Vedi [Pagina Fatturazione bozza [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto fatturazione e indirizzo della pagina Fatturazione. Vedi [Pagina Fatturazione bozza [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 Per informazioni su come modificare i dettagli della carta di credito sul tuo account, consulta [Scelta del metodo di pagamento in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 

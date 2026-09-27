@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Utilizzare più bozze nel visualizzatore di bozze
-description: In [!DNL Workfront] Bozza è possibile utilizzare le cartelle per raggruppare le bozze per le quali si desidera collaborare o per le quali si desidera che i revisori collaborino. Quando uno dei revisori apre una delle bozze avviando il visualizzatore di bozze, sono disponibili anche tutte le bozze presenti nella cartella. Senza uscire dal visualizzatore di bozze, puoi visualizzare le altre bozze, ordinarle, cercarle e confrontarle tra loro.
+description: In [!DNL Workfront] Proof è possibile utilizzare le cartelle per raggruppare le bozze su cui si desidera lavorare insieme o su cui si desidera che i revisori lavorino insieme. Quando uno dei revisori apre una delle bozze avviando il visualizzatore di bozze, sono disponibili anche tutte le bozze presenti nella cartella. Senza uscire dal visualizzatore di bozze, puoi visualizzare le altre bozze, ordinarle, cercarle e confrontarle tra loro.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
+TQID: 'https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '509'
 ht-degree: 3%
-
 ---
-
 # Utilizzare più bozze nel visualizzatore di bozze
 
 >[!IMPORTANT]

@@ -3,32 +3,38 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Creare una pianificazione
-description: Puoi definire le settimane lavorative degli utenti con le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Questo consente a  [!DNL Workfront]  di calcolare le tempistiche e la disponibilità dell'utente.
+description: Puoi definire le settimane lavorative degli utenti con le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Questo consente a [!DNL Workfront] di calcolare le timeline e la disponibilità dell'utente.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
+TQID: 'https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 752
-ht-degree: 5%
-
+source-wordcount: '800'
+ht-degree: 4%
 ---
-
 # Creare una nuova pianificazione
 
 <!--Audited: 01/2024-->
@@ -128,7 +134,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <td><p>Selezionare i gruppi con accesso [!UICONTROL View] che possono visualizzare questa pianificazione.</p>
      <p>Solo gli utenti dei gruppi qui specificati possono trovare la pianificazione nel menu a discesa quando la assegnano a utenti o progetti.</p></tr>
     <tr>
-     <td>Fuso orario di </td>
+     <td>Fuso orario di [!UICONTROL]</td>
      <td><p>Seleziona il fuso orario per la pianificazione.</p>
      <p>Se si associa la pianificazione a un utente, è consigliabile che il fuso orario della pianificazione corrisponda a quello dell'utente. Per informazioni sui fusi orari dell'utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente.
      </td>

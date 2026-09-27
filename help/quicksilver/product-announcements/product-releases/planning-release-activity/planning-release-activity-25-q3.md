@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
-ht-degree: 2%
-
+source-wordcount: '2416'
+ht-degree: 3%
 ---
-
 # Attività sul rilascio del terzo trimestre 2025 di Pianificazione di Adobe Workfront
 
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del terzo trimestre 2025.
@@ -38,7 +44,9 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 >[!NOTE]
 >
->Anteprima: 10 luglio 2025>Produzione per tutti: 10 luglio 2025>[!BADGE Fuori programma]{type=Neutral}
+>Anteprima: 10 luglio 2025
+>Produzione per tutti: 10 luglio 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 
 È stata aggiornata la scheda Impostazioni avanzate durante la creazione o la modifica di un tipo di record.
@@ -54,7 +62,9 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 
 >[!NOTE]
 >
->Anteprima: 10 luglio 2025>Produzione per tutti: 10 luglio 2025>[!BADGE Fuori programma]{type=Neutral}
+>Anteprima: 10 luglio 2025
+>Produzione per tutti: 10 luglio 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
 
@@ -64,7 +74,9 @@ Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai rec
 
 >[!NOTE]
 >
->Anteprima: 10 luglio 2025>Rilascio rapido produzione: 14 agosto 2025>Produzione per tutti: 16 ottobre 2025
+>Anteprima: 10 luglio 2025
+>Versione rapida di produzione: 14 agosto 2025
+>Produzione per tutti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
@@ -79,7 +91,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 >[!NOTE]
 >
->Anteprima: 9 luglio 2025>Produzione per tutti: 17 luglio 2025
+>Anteprima: 9 luglio 2025
+>Produzione per tutti: 17 luglio 2025
 
 Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
 
@@ -116,18 +129,18 @@ Per rendere più sicura e semplice la condivisione di un modulo di richiesta in 
 * La finestra di dialogo Condividi modulo è stata suddivisa in condivisione interna (selezione degli utenti con cui condividere) e condivisione pubblica (creazione di un collegamento di condivisione).
 * Ora puoi condividere i moduli di richiesta con:
 
-   * Utenti
-   * Team
-   * Gruppi
-   * Aziende
-   * Mansioni
+  * Utenti
+  * Team
+  * Gruppi
+  * Aziende
+  * Mansioni
 
   In precedenza, era possibile condividere solo in base all’accesso all’area di lavoro o condividendo un collegamento.
 * Sono state rimosse le autorizzazioni ereditate per i moduli di richiesta. Ora il modulo di richiesta viene condiviso solo con quelli selezionati.
 * Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
 * Nella scheda Condivisione pubblica vengono ora visualizzati il campo Collegamento e data di scadenza dopo l’abilitazione dell’opzione Crea collegamento pubblico.
 
-Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
@@ -153,7 +166,8 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 >[!NOTE]
 >
 >* Anteprima: 26 giugno 2025
->* Produzione per tutti: 26 giugno 2025>[!BADGE Fuori programma]{type=Neutral}
+>* Produzione per tutti: 26 giugno 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Ora, quando si collegano tipi di record e si inserisce un campo formula come ricerca, è possibile applicare le funzioni di aggregazione (SUM, AVERAGE, MIN, MAX, ecc.) a seconda del formato del campo formula. Se ad esempio il campo formula è numerico, è possibile utilizzare funzioni quali SOMMA o MEDIA. Se il campo formula è formattato come testo, le funzioni di aggregazione come SOMMA non verranno applicate.
 
@@ -188,7 +202,8 @@ Per ulteriori informazioni, vedere [Abilitare i trimestri personalizzati per i p
 >[!NOTE]
 >
 >* Anteprima: 12 giugno 2025
->* Produzione per tutti: 12 giugno 2025>[!BADGE Fuori programma]{type=Neutral}
+>* Produzione per tutti: 12 giugno 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 È stato introdotto un miglioramento che aggiorna tutti i campi formula dipendenti l’uno dall’altro contemporaneamente dopo che un campo di riferimento è stato aggiornato manualmente. I campi formula che si trovano a 2, 3 o 4 campi distanti dal campo il cui valore viene modificato manualmente e che si riferiscono gli uni agli altri verranno aggiornati automaticamente allo stesso tempo.
 
@@ -201,7 +216,8 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >[!NOTE]
 >
 >* Anteprima: 6 giugno 2025
->* Produzione per tutti i clienti: 6 giugno 2025>[!BADGE Fuori programma]{type=Neutral}
+>* Produzione per tutti i clienti: 6 giugno 2025
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Sono state aggiunte le seguenti espressioni ai campi formula:
 
@@ -228,12 +244,12 @@ Sono state aggiunte le seguenti funzionalità a un elenco di richieste nella sch
 * Nella colonna Inserito da è indicata la persona che ha aggiunto una richiesta
 * Filtri per limitare il numero di richieste visualizzate nella scheda Pianificazione. Puoi filtrare l’elenco in base ai seguenti elementi:
 
-   * Workspace da cui proviene il modulo di richiesta
-   * tipo di record associato al modulo di richiesta
-   * la data di ingresso della richiesta
-   * il nome del modulo di richiesta
-   * lo stato delle richieste
-   * il nome della persona che ha inserito la richiesta.
+  * Workspace da cui proviene il modulo di richiesta
+  * tipo di record associato al modulo di richiesta
+  * la data di ingresso della richiesta
+  * il nome del modulo di richiesta
+  * lo stato delle richieste
+  * il nome della persona che ha inserito la richiesta.
 
 * Le colonne consentono di visualizzare o nascondere i campi o le colonne dell&#39;elenco delle richieste di Planning.
 

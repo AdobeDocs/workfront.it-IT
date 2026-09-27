@@ -10,13 +10,20 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 18%
-
 ---
-
 # Gestisci operazioni aziendali: indice articolo
 
 Le funzionalità avanzate delle operazioni aziendali rappresentano un modo unificato e scalabile per gestire finanze, risorse, progetti e accesso aziendale. Queste funzionalità forniscono la visibilità e il controllo necessari alle aziende per operare in modo redditizio ed efficiente.

@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 4%
-
 ---
-
 # Requisiti di consegna della sottoscrizione a eventi
 
 I messaggi di abbonamento agli eventi sono notifiche che possono essere configurate per avvisare gli utenti quando si verificano determinati eventi. Per ulteriori informazioni sulle sottoscrizioni eventi, vedere [Domande frequenti - Sottoscrizioni eventi](../../wf-api/general/event-subs-faq.md).
@@ -37,7 +40,7 @@ Gli endpoint di servizio che utilizzano i messaggi di abbonamento agli eventi di
 
 * Se un processo aziendale a esecuzione prolungata viene attivato da un messaggio di abbonamento a un evento, Workfront consiglia di:
 
-   1. l’endpoint salva le informazioni sul messaggio al momento della ricezione e risponde immediatamente con uno stato di 200 livelli.
-   1. Dopo che un endpoint ha risposto a una richiesta di consegna della sottoscrizione dell’evento, è possibile elaborare i messaggi salvati.
+  1. l’endpoint salva le informazioni sul messaggio al momento della ricezione e risponde immediatamente con uno stato di 200 livelli.
+  1. Dopo che un endpoint ha risposto a una richiesta di consegna della sottoscrizione dell’evento, è possibile elaborare i messaggi salvati.
 
 * I messaggi o gli oggetti di sottoscrizione degli eventi non possono superare 1 MB.

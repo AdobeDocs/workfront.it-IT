@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 2%
-
+source-wordcount: '663'
+ht-degree: 1%
 ---
-
 # Miglioramenti per gli amministratori del secondo trimestre 2026
 
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -36,7 +42,9 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per semplificare l’utilizzo dell’intelligenza artificiale nelle attività quotidiane, abbiamo creato il Collaboratore IA per la revisione dei contenuti. Collaborator è un modo per integrare gli agenti di intelligenza artificiale nei progetti e nelle attività. Puoi configurare un collaboratore AI con le linee guida del brand, quindi assegnarlo a un’attività come faresti con un utente.
 
@@ -48,7 +56,9 @@ Per ulteriori informazioni, vedere [Configurare i collaboratori IA](/help/quicks
 
 >[!NOTE]
 >
->Anteprima: 27 marzo 2026>Versione rapida di produzione: 27 marzo 2026>Produzione per tutti: 27 marzo 2026
+>Anteprima: 27 marzo 2026
+>Versione rapida di produzione: 27 marzo 2026
+>Produzione per tutti: 27 marzo 2026
 
 Abbiamo aggiornato i fusi orari disponibili in Workfront in base agli standard IANA. Ciò garantisce la compatibilità con altri sistemi e l&#39;accuratezza nel tempo.
 
@@ -60,7 +70,9 @@ Per un elenco delle modifiche, vedere [Nomi di fuso orario aggiornati](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 5 marzo 2026>Rilascio rapido produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 5 marzo 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 L’area Trimestre personalizzato è stata spostata dalla sezione Preferenze progetto. Ora è una sezione indipendente in Configurazione. 
 Questo aggiornamento include:
@@ -75,7 +87,9 @@ Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilve
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026>Rilascio rapido produzione: 12 marzo 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 26 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.
 
@@ -85,7 +99,9 @@ Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/he
 
 >[!NOTE]
 >
->Anteprima: 29 gennaio 2026>Versione rapida di produzione: 12 febbraio 2026>Produzione per tutti: da definire
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026
+>Produzione per tutti: da definire
 >
 >Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.
 

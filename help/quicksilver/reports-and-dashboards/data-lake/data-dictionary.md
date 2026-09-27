@@ -7,13 +7,20 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Dizionario dei dati di Workfront Data Connect
 
 Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
@@ -1708,15 +1715,15 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >
 >Tipo di record identificato tramite la proprietà `enumClass`. I tipi previsti sono:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>TASK_PRIORITARIO</li>
->&gt;<li>GRAVITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>TASK_STATO</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>TASK_PRIORITARIO</li>
+&gt;<li>GRAVITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>TASK_STATO</li></ul>
 
 
 ### Documento
@@ -7146,7 +7153,7 @@ Disponibilità limitata dei clienti
       <tbody>
         <tr>
             <td>Predecessore attività modello</td>
-            <td>Predecessore modello</td>
+            <td>Predecessore del modello</td>
             <td>TPRED</td>
             <td>Predecessore</td>
             <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>

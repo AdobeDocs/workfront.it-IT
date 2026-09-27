@@ -7,23 +7,28 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 2%
-
 ---
-
 # Condividere rapporti, dashboard e calendari
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare rapporti, dashboard e calendari quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso a report, dashboard e calendari, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -49,9 +54,9 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
   Consulta anche i seguenti articoli per scoprire come condividere rapporti, dashboard e calendari:
 
-   * [Condividi un report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Condividi dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Condividere un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Condividi un report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Condividi dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Condividere un report calendario](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * È possibile condividere report e dashboard singolarmente oppure in blocco.
 
@@ -63,8 +68,8 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * Puoi concedere le seguenti autorizzazioni a rapporti, dashboard e calendari:
 
-   * Visualizzazione
-   * Gestione
+  * Visualizzazione
+  * Gestione
 
 * Quando si condivide un dashboard, per impostazione predefinita gli utenti dispongono delle autorizzazioni Visualizzazione per tutti i report, i calendari e le pagine esterne del dashboard.
 * Gli utenti con una licenza Request non possono visualizzare un rapporto a livello di sistema. Un report deve essere condiviso con i Richiedenti singolarmente se devono visualizzarlo.

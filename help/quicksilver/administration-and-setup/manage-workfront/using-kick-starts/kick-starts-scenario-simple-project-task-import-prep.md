@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: '1505'
 ht-degree: 10%
-
 ---
-
 # Scenario di avvio: preparazione semplice per l’importazione di un progetto e un’attività
 
 Descrive in dettaglio le impostazioni e i controlli disponibili per un&#39;importazione di base di progetti e attività utilizzando il metodo Kick-Start.
@@ -310,7 +315,7 @@ Immettere i nomi di ciascun progetto nella colonna setName.
 
 * **Imposta numeri attività**
 Immettere i valori nella colonna setTaskNumber per controllare l&#39;ordine di visualizzazione delle attività nel piano di progetto.
-* **Fornisci le date del progetto.**
+* **Fornire le date del progetto.**
 Immettere la Data inizio pianificata per ogni progetto nella colonna setPlannedStartDate.
 * **Impostare altri dettagli necessari.**
 Compila altri dettagli, ad esempio una descrizione o lo stato corrente, secondo necessità. Cercare gli ID gruppo per ciascun progetto nel foglio Gruppo di gruppi e inserirli nella colonna setGroupID per i rispettivi progetti. Cercare l&#39;ID società per i progetti nel foglio Società della società e inserirlo nella colonna setCompanyID. Cercare l&#39;ID utente per ogni proprietario del progetto nel foglio Utente e inserirlo nella colonna setOwnerID. Cercare l&#39;ID utente di ogni sponsor del progetto nel foglio Utente e inserirlo nella colonna setSponsorID.
@@ -380,11 +385,11 @@ Impostare la durata di ogni attività immettendo il numero di ore, giorni, setti
 
   In questo caso, il modo più semplice per creare le attività per gli altri progetti che si stanno importando consiste nel copiare le attività appena definite e incollarle di seguito, a partire dalla riga 12. In questo modo:
 
-   1. Rinumera i valori nella colonna ID.
-   1. Aggiornare la colonna setProjectID al valore impostato per il progetto successivo.
-   1. Aggiornare i valori setParentID e setPredecessorString per riflettere i nuovi ID assegnati alle attività del progetto.
-   1. Aggiorna assegnazioni attività e percentuale di completamento.
-   1. Ripeti questi passaggi per le attività del progetto successivo.
+  1. Rinumera i valori nella colonna ID.
+  1. Aggiornare la colonna setProjectID al valore impostato per il progetto successivo.
+  1. Aggiornare i valori setParentID e setPredecessorString per riflettere i nuovi ID assegnati alle attività del progetto.
+  1. Aggiorna assegnazioni attività e percentuale di completamento.
+  1. Ripeti questi passaggi per le attività del progetto successivo.
 
 * **Importa il file di Excel**
 

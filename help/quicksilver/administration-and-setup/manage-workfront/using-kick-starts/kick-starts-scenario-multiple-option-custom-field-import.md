@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2179'
 ht-degree: 5%
-
 ---
-
 # Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront
 
 Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
@@ -183,19 +189,19 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
    * **`ID`** = deve essere un numero univoco per ogni riga che rappresenta un nuovo campo. È possibile utilizzare qualsiasi numero che inizia con 1, a condizione che ogni nuovo campo abbia un numero univoco.
    * **`setDataType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di dati supportato dal campo. Il Tipo di dati deve essere immesso così come apparirebbe nel database. Selezionare uno dei tipi di dati seguenti:
 
-      * **`NMBR`** per numero
-      * **`CURC`** per la valuta
-      * **`TEXT`** per testo
+     * **`NMBR`** per numero
+     * **`CURC`** per la valuta
+     * **`TEXT`** per testo
 
    * `**setDisplaySize**`= la dimensione di visualizzazione (&#39;**setDisplaySize**&#39;) per i campi personalizzati con più opzioni è sempre 0.
    * **`setDisplayType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di visualizzazione del campo. Il Tipo di visualizzazione deve essere immesso come apparirebbe nel database.
 
      Per i campi personalizzati con più opzioni, seleziona una delle seguenti opzioni:
 
-      * **`MULT`** per elenco a discesa a selezione multipla
-      * **`SLCT`** per elenco a discesa
-      * **`RDIO`** per pulsanti di scelta
-      * **`CHCK`** per le caselle di controllo
+     * **`MULT`** per elenco a discesa a selezione multipla
+     * **`SLCT`** per elenco a discesa
+     * **`RDIO`** per pulsanti di scelta
+     * **`CHCK`** per le caselle di controllo
 
      >[!TIP]
      >
@@ -230,7 +236,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
      >
      >Per ogni campo è disponibile una sola opzione predefinita.
 
-   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**&#x200B;di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
+   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
    * **`setDisplayOrder`**= la colonna dell&#39;ordine di visualizzazione indica l&#39;ordine di visualizzazione delle opzioni nel campo personalizzato. Puoi iniziare con 1 e continuare in ordine crescente per tutte le opzioni, indipendentemente dai campi a cui apparterranno. La cosa importante qui è avere numeri univoci per ogni opzione.
    * Le colonne **`setLabel`** e `**setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = immetti `TRUE` se vuoi che una delle opzioni sia nascosta.
@@ -246,18 +252,18 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
    Per individuare il `ID` di un gruppo, è possibile creare un report del gruppo e aggiungere il campo `ID` nella visualizzazione oppure passare a un gruppo e trovare l&#39;URL del gruppo. L’ID gruppo si trova nell’URL della pagina del gruppo. Ad esempio, se l&#39;URL del gruppo è `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l&#39;ID gruppo è `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode`**= codice oggetto per il tipo di oggetto per cui si desidera creare il modulo. Immettere un codice dalle seguenti opzioni:
-      * **`CMPY`** per la società
-      * **`TASK`** per l&#39;attività
-      * **`PROJ`** per il progetto
-      * **`PORT`** per Portfolio
-      * **`PRGM`** per il programma
-      * **`USER`** per l&#39;utente
-      * **`DOCU`** per il documento
-      * **`OPTASK`** per il problema
-      * **`EXPNS`** per Spesa
-      * **`ITRN`** per iterazione
-      * **`BILL`** per i record fatturazione
-      * **`GROUP`** per il gruppo
+     * **`CMPY`** per la società
+     * **`TASK`** per l&#39;attività
+     * **`PROJ`** per il progetto
+     * **`PORT`** per Portfolio
+     * **`PRGM`** per il programma
+     * **`USER`** per l&#39;utente
+     * **`DOCU`** per il documento
+     * **`OPTASK`** per il problema
+     * **`EXPNS`** per Spesa
+     * **`ITRN`** per iterazione
+     * **`BILL`** per i record fatturazione
+     * **`GROUP`** per il gruppo
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
    * Elimina le informazioni importate correttamente da Workfront dall’area Forms personalizzato, quindi apporta la correzione indicata dal messaggio di errore.
    * Indica che un campo o un modulo è già presente nel sistema per i campi o i moduli già importati, quindi apporta la correzione.
-Per indicare che un campo o un modulo personalizzato è già in Workfront, è necessario assicurarsi che il campo `inNew` sia contrassegnato come `FALSE` nei fogli che contengono informazioni sul modulo (`CTGY`) o sul campo (`PARAM`) nel foglio di importazione di avvio.
+     Per indicare che un campo o un modulo personalizzato è già in Workfront, è necessario assicurarsi che il campo `inNew` sia contrassegnato come `FALSE` nei fogli che contengono informazioni sul modulo (`CTGY`) o sul campo (`PARAM`) nel foglio di importazione di avvio.

@@ -6,24 +6,29 @@ description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifich
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-TQID: https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY
+TQID: 'https://experienceleague.adobe.com/-sN5x6OFqN9NJN0J8yR8uuV-R3XCNWQ5Q5R-qYrvTzY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1398
+source-wordcount: '1398'
 ht-degree: 2%
-
 ---
-
 # Panoramica sulle notifiche
 
 <!--Audited: 12/2023-->
@@ -193,4 +198,4 @@ Se sul telefono è installata l&#39;app mobile [!DNL Workfront], toccando i coll
 * [!UICONTROL Introduzione]
 * [!UICONTROL Ulteriori dettagli]
 
-Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

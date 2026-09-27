@@ -9,26 +9,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-TQID: https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8
+TQID: 'https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '943'
 ht-degree: 3%
-
 ---
-
 # Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)
 
 La funzionalità di promozione dell&#39;ambiente consente di spostare gli oggetti da un ambiente Workfront a un altro. Ad esempio, puoi creare un modello e configurarlo nel tuo ambiente sandbox, sapendo che eventuali test eseguiti non influiranno sui dati effettivi della tua organizzazione. Dopo aver configurato e testato il modello, puoi spostarlo nell’ambiente di produzione pronto per l’uso.
@@ -39,10 +46,10 @@ Questo processo viene definito &quot;promozione dell&#39;ambiente&quot;.
 
 * Per istruzioni specifiche sull’esecuzione di questo processo in Workfront, consulta:
 
-   * [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+  * [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+  * [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Per istruzioni sull&#39;esecuzione di questo processo tramite l&#39;API Workfront, vedere [Spostare oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API [!DNL Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Per istruzioni sull&#39;esecuzione di questo processo tramite l&#39;API Workfront, vedere [Spostare oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API [!DNL Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -166,7 +173,7 @@ Questi stati includono:
   </tr> 
   <tr> 
    <td>ASSEMBLAGGIO NON RIUSCITO</td> 
-   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto allo stadio ASSEMBLING, è necessario attivare nuovamente il processo di assemblaggio.</p><p>Per informazioni dettagliate sull'assemblaggio di un pacchetto, vedere la sezione <a href="https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modificare o assemblare un pacchetto esistente</a> nell'articolo Creare o modificare un pacchetto di promozione dell'ambiente.</td> 
+   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto allo stadio ASSEMBLING, è necessario attivare nuovamente il processo di assemblaggio.</p><p>Per informazioni dettagliate sull'assemblaggio di un pacchetto, vedere la sezione <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modificare o assemblare un pacchetto esistente</a> nell'articolo Creare o modificare un pacchetto di promozione dell'ambiente.</td> 
   </tr> 
   </tbody> 
 </table>

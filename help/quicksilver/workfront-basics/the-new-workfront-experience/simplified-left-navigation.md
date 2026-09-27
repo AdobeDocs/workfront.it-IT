@@ -6,13 +6,20 @@ description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1420'
 ht-degree: 3%
-
 ---
-
 # Navigazione a sinistra in [!DNL Adobe Workfront]
 
 La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannello di navigazione sul lato sinistro dello schermo. Di seguito sono riportati i vantaggi della navigazione nel pannello sinistro:
@@ -89,7 +96,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 

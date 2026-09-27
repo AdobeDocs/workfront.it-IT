@@ -2,23 +2,26 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Reimpostare la password di un utente con l’autenticazione avanzata
-description: Quando l'autenticazione avanzata (eAuth) è abilitata per l'ambiente  [!DNL Workfront] , un amministratore  [!DNL Workfront]  non può reimpostare le credenziali di accesso per un altro utente. Differisce dagli ambienti  [!DNL Workfront]  senza eAuth o dagli ambienti per i quali è abilitato Single Sign On (SSO).
+description: Quando l'autenticazione avanzata (eAuth) è abilitata per l'ambiente [!DNL Workfront], un amministratore di [!DNL Workfront] non può reimpostare le credenziali di accesso per un altro utente. Differisce dagli ambienti [!DNL Workfront] senza eAuth o dagli ambienti per i quali è abilitato Single Sign On (SSO).
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
+TQID: 'https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '200'
 ht-degree: 16%
-
 ---
-
 # Reimpostare la password di un utente con l’autenticazione avanzata
 
 <!--This article has been hidden by request-->

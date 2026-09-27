@@ -10,27 +10,35 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 8056
+source-wordcount: '8056'
 ht-degree: 76%
-
 ---
-
 # Creare un modulo personalizzato
 
 <!-- Audited: 6/2025 -->
@@ -122,7 +130,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [Aggiungere immagini, PDF e video](#add-images-pdfs-and-videos)
    * [Aggiungere campi nativi Workfront](#add-workfront-native-fields)
    * [Aggiungere file Adobe XD](#add-adobe-xd-files)
-   * [Aggiungere campi per pianificare una connessione](#add-planning-connection-fields)
+   * [Aggiungere campi Pianificazione per una connessione](#add-planning-connection-fields)
 
 ## Aggiungere campi nuovi o esistenti al modulo personalizzato
 
@@ -807,12 +815,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Inserisci o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL dell’API. Serve come metodo per selezionare quali valori dall’interno del JSON appariranno tra le opzioni del menu a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e per assicurarti che la scrittura del percorso JSON sia corretta, visita il sito <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1251,7 +1259,7 @@ Per aggiungere un file Adobe XD:
 
    Fai clic su **Salva e chiudi**.
 
-### Aggiungere campi per pianificare una connessione
+### Aggiungere campi Pianificazione per una connessione
 
 >[!IMPORTANT]
 >
@@ -1287,7 +1295,7 @@ Per aggiungere un campo di tipo Pianificazione connessione:
      <tr> 
       <td role="rowheader">Etichetta</td> 
       <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>Importante</b>: evita di utilizzare caratteri speciali per le etichette.</p> 
-      <p>È consigliabile scegliere un’etichetta che consenta di identificare facilmente la provenienza del record di pianficazione. Aggiungi informazioni quali il nome dell’area di lavoro o il nome del tipo di record. </p>   </td> 
+      <p>È consigliabile scegliere un’etichetta che consenta di identificare facilmente la provenienza del record di Pianificazione. Aggiungi informazioni quali il nome dell’area di lavoro o il nome del tipo di record. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome API</td>
@@ -1318,7 +1326,7 @@ Per aggiungere un campo di tipo Pianificazione connessione:
      </tr>
      <tr> 
       <td role="rowheader">Campo connessione</td> 
-      <td><p>(Obbligatorio) Seleziona il campo di connessione tra il tipo di record Planning selezionato che desideri visualizzare sugli oggetti Workfront e il tipo di oggetto Workfront. </p> <p> <b>Nota</b>: è possibile disporre di più campi di connessione tra lo stesso oggetto e tipi di record, ma è possibile selezionare un solo campo.</p>  </td> 
+      <td><p>(Obbligatorio) Seleziona il campo di connessione tra il tipo di record Pianificazione selezionato che desideri visualizzare sugli oggetti Workfront e il tipo di oggetto Workfront. </p> <p> <b>Nota</b>: è possibile disporre di più campi di connessione tra lo stesso oggetto e tipi di record, ma è possibile selezionare un solo campo.</p>  </td> 
      </tr>
 
 <tr> 

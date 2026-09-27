@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 4%
-
 ---
-
 # Panoramica campo
 
 <!--
@@ -43,8 +50,8 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
   Per informazioni sulla gestione dei campi, vedi anche i seguenti articoli:
 
-   * [Modificare le impostazioni dei campi](/help/quicksilver/planning/fields/edit-fields.md)
-   * [Elimina campi](/help/quicksilver/planning/fields/delete-fields.md)
+  * [Modificare le impostazioni dei campi](/help/quicksilver/planning/fields/edit-fields.md)
+  * [Elimina campi](/help/quicksilver/planning/fields/delete-fields.md)
 
 * I campi associati a un tipo di record sono disponibili per essere associati a tutti i record di quel tipo. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
 * Puoi creare i campi manualmente o automaticamente nei seguenti modi:
 
-   * Manualmente:
+  * Manualmente:
 
-      * Quando si aggiungono colonne nella visualizzazione tabella di una pagina del tipo di record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina di un record.
+    * Quando si aggiungono colonne nella visualizzazione tabella di una pagina del tipo di record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina di un record.
 
-        Impossibile creare campi dalla pagina del record.
+      Impossibile creare campi dalla pagina del record.
 
-      * Quando si collegano tipi di record. È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
+    * Quando si collegano tipi di record. È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
 
-        Per ulteriori informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+      Per ulteriori informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Quando importi campi esistenti da Workfront.
+    * Quando importi campi esistenti da Workfront.
 
-        Per informazioni, vedere [Importare campi da Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+      Per informazioni, vedere [Importare campi da Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
-   * Automaticamente:
+  * Automaticamente:
 
-      * Quando si crea un tipo di record:
+    * Quando si crea un tipo di record:
 
-         * Nome
-         * Descrizione
-         * Data di inizio
-         * Data di fine
-         * Stato. I valori predefiniti per gli stati dei record sono:
-            * Sviluppo
-            * Pianificato
-            * Attivo
-            * Completato
-            * In sospeso
+      * Nome
+      * Descrizione
+      * Data di inizio
+      * Data di fine
+      * Stato. I valori predefiniti per gli stati dei record sono:
+        * Sviluppo
+        * Pianificato
+        * Attivo
+        * Completato
+        * In sospeso
 
-        Puoi aggiungere altri valori o rinominare quelli esistenti.
+      Puoi aggiungere altri valori o rinominare quelli esistenti.
 
-      * Quando crei un’area di lavoro da un modello.
+    * Quando crei un’area di lavoro da un modello.
 
-        Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Quando si importano tipi di record utilizzando un file Excel o CSV.
+    * Quando si importano tipi di record utilizzando un file Excel o CSV.
 
-        Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+      Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * I campi di Workfront Planning non sono accessibili da Workfront.
 

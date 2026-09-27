@@ -7,13 +7,20 @@ description: Converti i portfolio di archiviazione legacy di Workfront in Adobe 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 9%
-
 ---
-
 # Conversione di portfolio legacy in Adobe Cloud Storage
 
 In qualità di amministratore di Workfront, puoi convertire i portfolio di archiviazione Workfront legacy esistenti in archiviazione cloud Adobe dall’area Preferenze di archiviazione in Preferenze di sistema. Una volta convertito, il portfolio si comporta come qualsiasi altro portfolio di archiviazione cloud Adobe.

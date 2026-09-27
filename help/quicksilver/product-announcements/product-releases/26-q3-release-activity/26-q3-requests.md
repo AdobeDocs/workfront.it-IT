@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 7%
-
+ht-degree: 8%
 ---
-
 # Miglioramenti richieste terzo trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima alle richieste con la versione del terzo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -22,7 +29,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Anteprima: 27 maggio 2026Versione rapida di produzione: 11 giugno 2026Produzione per tutti: 16 luglio 2026
+>Anteprima: 27 maggio 2026
+>Versione rapida di produzione: 11 giugno 2026
+>Produzione per tutti: 16 luglio 2026
 
 Per ottenere più contesto sullo stato corretto in cui si trovano le richieste, stiamo aggiornando gli stati delle richieste nella nuova esperienza di richiesta.
 
@@ -41,13 +50,16 @@ Per ulteriori informazioni, vedere [Visualizzare le richieste inviate](/help/qui
 
 >[!NOTE]
 >
->Anteprima: 23 aprile 2026Versione rapida di produzione: 23 aprile 2026Produzione per tutti: 23 aprile 2026Fuori pianificazione&rbrack;{type=Neutral}
+>Anteprima: 23 aprile 2026
+>Versione rapida di produzione: 23 aprile 2026
+>Produzione per tutti: 23 aprile 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 Per una migliore organizzazione dell’elenco delle richieste, sono state aggiunte le seguenti viste predefinite all’elenco delle richieste nell’area Richieste e al widget Richieste personali nella Home:
 
 * Le mie richieste
 * Le mie richieste aperte
-* Le mie bozze
+* Bozze personali
 * Richieste aperte. Non disponibile nel widget Richieste personali.
 
 Un amministratore di Workfront può aggiungere o rimuovere le visualizzazioni da un modello di layout. Non è possibile modificare, eliminare o condividere le viste. Puoi copiarli e aggiornarli o condividerne una copia.

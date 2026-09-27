@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 2%
-
 ---
-
 # Creare un’architettura di successo: modellare la gerarchia delle campagne
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ Di seguito sono riportati i livelli di una corretta implementazione di Planning 
 
 * **Livello 1: Campagne (Workfront Planning)**
 
-   * **Obiettivo:** definire i pilastri strategici a lungo termine e le iniziative annuali. Ad esempio, definisci un&#39;iniziativa per la tua organizzazione denominata &quot;Consapevolezza del marchio globale per l&#39;anno fiscale 2026&quot;. Questo è il tuo punto focale per un determinato intervallo di tempo. Crea campagne per supportare questa iniziativa.
+  * **Obiettivo:** definire i pilastri strategici a lungo termine e le iniziative annuali. Ad esempio, definisci un&#39;iniziativa per la tua organizzazione denominata &quot;Consapevolezza del marchio globale per l&#39;anno fiscale 2026&quot;. Questo è il tuo punto focale per un determinato intervallo di tempo. Crea campagne per supportare questa iniziativa.
 
-   * **Persone:** Le parti interessate per questo livello possono essere Marketing Officer, Vice President Marketing o altri lead strategici.
+  * **Persone:** Le parti interessate per questo livello possono essere Marketing Officer, Vice President Marketing o altri lead strategici.
 
   Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Livello 2: tattiche di canale (Workfront Planning)**
 
-   * **Stato attivo:** Definisci le istruzioni operative che definiscono il &quot;cosa&quot; per canali specifici. Questo è il livello finale dell&#39;intento strategico prima dell&#39;inizio dei lavori. Ad esempio, crea una tattica &quot;Blitz sui social media Q1&quot;. Puoi quindi associarlo alle campagne.
+  * **Stato attivo:** Definisci le istruzioni operative che definiscono il &quot;cosa&quot; per canali specifici. Questo è il livello finale dell&#39;intento strategico prima dell&#39;inizio dei lavori. Ad esempio, crea una tattica &quot;Blitz sui social media Q1&quot;. Puoi quindi associarlo alle campagne.
 
-   * **Persone:** le principali parti interessate sono un leader delle operazioni di marketing, capi canale o responsabili delle campagne.
+  * **Persone:** le principali parti interessate sono un leader delle operazioni di marketing, capi canale o responsabili delle campagne.
 
 * **Livello 3: Progetti (Planning e Workfront)**
 
-   * **Focus:** esegui le esperienze o le attività che alla fine consentiranno di completare l&#39;iniziativa. Alcuni dei risultati finali sono specifici, come post social, e-mail e pagine web.
+  * **Focus:** esegui le esperienze o le attività che alla fine consentiranno di completare l&#39;iniziativa. Alcuni dei risultati finali sono specifici, come post social, e-mail e pagine web.
 
-   * **Implementazione:** è possibile creare le tattiche in Planning e collegarle direttamente ai **progetti** in Workfront, dove i singoli risultati finali vengono gestiti come attività e problemi.
+  * **Implementazione:** è possibile creare le tattiche in Planning e collegarle direttamente ai **progetti** in Workfront, dove i singoli risultati finali vengono gestiti come attività e problemi.
 
-   * **Persona:** Le principali parti interessate sono i creativi, i singoli collaboratori, chiunque sia responsabile del lavoro di supporto all&#39;iniziativa.
+  * **Persona:** Le principali parti interessate sono i creativi, i singoli collaboratori, chiunque sia responsabile del lavoro di supporto all&#39;iniziativa.
 
 ### Espansione strategica: come aggiungere altri livelli
 
@@ -102,7 +114,7 @@ Può essere utile creare i seguenti elementi aggiuntivi:
 >Se la tua organizzazione produce più di 5.000 attività all&#39;anno, devi spostare il tracciamento dei singoli deliverable in Workfront.
 >
 >La gestione di grandi volumi di record di esperienza in Planning può portare all’accumulo di dati che oscura la visibilità strategica.
->Questa linea guida generale è consigliata per la massima efficienza:
+>Per la massima efficienza consigliamo questa linea guida generale:
 >
 >* Utilizza Pianificazione per il &quot;perché&quot; e il &quot;cosa&quot;
 >* Utilizza Workfront per il volume elevato &quot;come&quot;.

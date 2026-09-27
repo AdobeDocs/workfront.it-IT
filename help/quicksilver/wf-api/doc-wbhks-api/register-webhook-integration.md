@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+TQID: 'https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 8%
-
+source-wordcount: '409'
+ht-degree: 10%
 ---
-
 # Registrare un’integrazione webhook
 
 {{highlighted-preview}}
@@ -89,11 +93,11 @@ Quando aggiungi un’integrazione, l’amministratore immetterà i valori per i 
    <td> <p>(Solo ApiKey) Utilizzato per effettuare chiamate API autorizzate al provider del webhook. Chiave API rilasciata dal provider del webhook.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Abilita caricamento a blocchi per file di grandi dimensioni</td> 
+   <td>Abilita caricamento in blocchi per file di grandi dimensioni</td> 
    <td> <p>Selezionare questa casella di controllo per abilitare i caricamenti in più parti (blocchi) per i file di dimensioni superiori a 25 MB. Se non è selezionata, i file vengono caricati in una singola richiesta indipendentemente dalle dimensioni.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Soglia di caricamento blocchi (MB)</td> 
+   <td>Soglia di caricamento in blocchi (MB)</td> 
    <td> <p>Dimensione massima, in MB, di ogni blocco quando un file di grandi dimensioni viene suddiviso per il caricamento. Accetta valori fino a 100 MB.</p> </td> 
   </tr> 
  </tbody> 

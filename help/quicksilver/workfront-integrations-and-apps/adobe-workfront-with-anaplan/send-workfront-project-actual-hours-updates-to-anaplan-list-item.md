@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Invia  [!DNL Adobe Workfront] aggiornamenti ore effettive a una voce di elenco  [!DNL Anaplan] '
-description: Questo scenario di integrazione condivide i dettagli relativi alle ore effettive acquisiti in un progetto  [!DNL Adobe Workfront]  con una voce di elenco  [!DNL Anaplan]  di budget. La condivisione di queste informazioni ti consente di sfruttare al meglio l'ottimizzazione della spesa e l'analisi finanziaria fornite da  [!DNL Anaplan] .
+title: Invia aggiornamenti di [!DNL Adobe Workfront] ore effettive a una voce di elenco [!DNL Anaplan]
+description: Questo scenario di integrazione condivide i dettagli delle ore effettive acquisiti in un progetto [!DNL Adobe Workfront] con una voce di elenco budget [!DNL Anaplan]. La condivisione di queste informazioni consente di sfruttare al meglio l'ottimizzazione delle spese e l'analisi finanziaria fornite da [!DNL Anaplan].
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
+TQID: 'https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '790'
 ht-degree: 15%
-
 ---
-
 # Invia aggiornamenti di [!DNL Adobe Workfront] ore effettive a una voce di elenco [!DNL Anaplan]
 
 Questo scenario di integrazione condivide i dettagli delle ore effettive acquisiti in un progetto [!DNL Adobe Workfront] con una voce di elenco budget [!DNL Anaplan]. La condivisione di queste informazioni consente di sfruttare al meglio l&#39;ottimizzazione delle spese e l&#39;analisi finanziaria fornite da [!DNL Anaplan].
@@ -69,7 +78,7 @@ Questo modello di scenario fornisce un elenco delle ore riepilogate per progetto
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, consulta [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -94,29 +103,29 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 * Elenco all&#39;interno del modello [!DNL Anaplan] che si desidera utilizzare per questo scenario.
 * File in [!DNL Anaplan] denominato **[!UICONTROL Importazione ore effettive Anaplan]** contenente le colonne seguenti, nell&#39;ordine seguente:
 
-   1. [!UICONTROL GUID progetto Workfront]
+  1. [!UICONTROL GUID progetto Workfront]
 
-   2. [!UICONTROL Ore]
+  2. [!UICONTROL Ore]
 
-   3. [!UICONTROL Ore Costo Stimato]
+  3. [!UICONTROL Ore Costo Stimato]
 
-   4. [!UICONTROL Data di ingresso]
+  4. [!UICONTROL Data di ingresso]
 
-   5. [!UICONTROL Nome ruolo]
+  5. [!UICONTROL Nome ruolo]
 
-   6. [!UICONTROL Nome campagna]
+  6. [!UICONTROL Nome campagna]
 
-   7. [!UICONTROL [!DNL Anaplan] ID elemento elenco]
+  7. [!UICONTROL [!DNL Anaplan] ID elemento elenco]
 
   Per preparare il file della nota spese effettiva [!DNL Anaplan]:
 
-   1. Copiare e incollare quanto segue in un editor di testo o [!DNL Excel]
-   1. Salva il file in formato CSV
-   1. Carica il file in [!DNL Anaplan].
+  1. Copiare e incollare quanto segue in un editor di testo o [!DNL Excel]
+  1. Salva il file in formato CSV
+  1. Carica il file in [!DNL Anaplan].
 
-      Per istruzioni, vedere la documentazione di [!DNL Anaplan] sull&#39;importazione di dati nei moduli da un file.
+     Per istruzioni, vedere la documentazione di [!DNL Anaplan] sull&#39;importazione di dati nei moduli da un file.
 
-   1. Prendere nota del nome assegnato al file, che verrà utilizzato durante la distribuzione del modello di scenario [!UICONTROL Fusion].
+  1. Prendere nota del nome assegnato al file, che verrà utilizzato durante la distribuzione del modello di scenario [!UICONTROL Fusion].
 
   Esempio di contenuto CSV
 

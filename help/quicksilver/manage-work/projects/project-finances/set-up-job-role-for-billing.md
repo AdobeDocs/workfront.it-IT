@@ -7,13 +7,17 @@ description: Workfront consente di fatturare un utente con una mansione diversa 
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 5%
-
 ---
-
 # Imposta una mansione per la fatturazione
 
 Workfront consente di fatturare un utente con una mansione diversa da quella principale. Questo è utile quando una persona svolge temporaneamente un lavoro che dovrebbe essere fatturato a una tariffa diversa.

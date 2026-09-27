@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 10%
-
 ---
-
 # Panoramica sulla sintassi della modalità testo
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
 * Utilizza sempre Camel Case quando si fa riferimento a oggetti o attributi nel database di Workfront.
 * Tieni presente la gerarchia di oggetti in Workfront. Esistono le seguenti differenze tra viste, filtri e raggruppamenti:
 
-   * È possibile visualizzare in una visualizzazione un oggetto che si trova a tre oggetti distanti dall&#39;oggetto report o elenco.
-   * Non è possibile fare riferimento a oggetti che si trovano a più di 2 oggetti lontani dall&#39;oggetto principale in un raggruppamento, un filtro o un prompt personalizzato.
+  * È possibile visualizzare in una visualizzazione un oggetto che si trova a tre oggetti distanti dall&#39;oggetto report o elenco.
+  * Non è possibile fare riferimento a oggetti che si trovano a più di 2 oggetti lontani dall&#39;oggetto principale in un raggruppamento, un filtro o un prompt personalizzato.
 
   **Esempio:** È possibile visualizzare il nome o il GUID del proprietario di Portfolio in una visualizzazione delle attività:
 
@@ -63,8 +67,8 @@ Di seguito sono riportate le linee guida comuni per la creazione di elementi di 
 
   Per informazioni sulla gerarchia degli oggetti in Workfront, vedi:
 
-   * [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API Explorer](../../../wf-api/general/api-explorer.md)
+  * [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Se possibile, utilizza i caratteri jolly per rendere più dinamici i rapporti e gli elenchi ed evitare di duplicarli per utenti diversi e con timeline simili.
 
@@ -96,15 +100,15 @@ Esistono le seguenti somiglianze tra la sintassi dei set di elementi di reportin
 
   Per informazioni sulle righe chiave dei codici per le visualizzazioni e i raggruppamenti durante la creazione in modalità testo, vedere:
 
-   * [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modificare un raggruppamento utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [Modificare un raggruppamento utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Le righe di codice e la sintassi sono simili per i filtri e i prompt personalizzati.
 
   Per ulteriori informazioni, consulta:
 
-   * [Modifica un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Aggiungere un prompt a un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [Modifica un filtro in modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [Aggiungere un prompt a un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Sintassi per visualizzazioni e raggruppamenti
 
@@ -197,22 +201,22 @@ Le regole seguenti si applicano quando si fa riferimento a oggetti Workfront uti
 
   **Esempio:** Per visualizzare il nome di un progetto concatenato con il nome dell&#39;attività in un report attività, utilizzare le righe seguenti:
 
-   * In una visualizzazione:
+  * In una visualizzazione:
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * In un raggruppamento:
+  * In un raggruppamento:
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Per informazioni sul modo in cui gli oggetti fanno riferimento l&#39;uno all&#39;altro nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Quando si fa riferimento a un campo personalizzato, utilizza le regole seguenti:
 
-   * Utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
-   * Anteponi al nome del campo &quot;DE:&quot;.
-   * Racchiudere il campo tra parentesi graffe.
-   * Separare i campi correlati all&#39;oggetto in base ai punti.
+  * Utilizza il nome del campo esattamente come viene visualizzato nell’interfaccia.
+  * Anteponi al nome del campo &quot;DE:&quot;.
+  * Racchiudere il campo tra parentesi graffe.
+  * Separare i campi correlati all&#39;oggetto in base ai punti.
 
   **Esempio:** Per visualizzare il campo personalizzato del progetto Dettagli aggiuntivi in una visualizzazione delle attività in una riga di espressione del valore, utilizzare la riga seguente:
 
@@ -284,14 +288,14 @@ Per creare filtri e prompt personalizzati in modalità testo, puoi utilizzare i 
 
 * Connettore di istruzioni che connette più istruzioni di filtro:
 
-   * E
+  * E
 
-     Questo è il connettore predefinito tra le istruzioni di filtro.
+    Questo è il connettore predefinito tra le istruzioni di filtro.
 
-   * O
+  * O
 
-     >[!TIP]
-     >
-     >I connettori delle istruzioni fanno distinzione tra maiuscole e minuscole e sono sempre maiuscoli. &quot;AND&quot; può essere omesso in modalità testo.
+    >[!TIP]
+    >
+    >I connettori delle istruzioni fanno distinzione tra maiuscole e minuscole e sono sempre maiuscoli. &quot;AND&quot; può essere omesso in modalità testo.
 
 * Caratteri jolly per rendere i filtri più dinamici e personalizzarli per l&#39;ora corrente o per l&#39;utente che ha eseguito l&#39;accesso. Per informazioni sui caratteri jolly, vedere [Panoramica delle variabili di filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

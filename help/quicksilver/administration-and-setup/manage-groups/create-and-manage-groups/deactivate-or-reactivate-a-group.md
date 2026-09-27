@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 5%
-
 ---
-
 # Disattivare o riattivare un gruppo
 
 È possibile disattivare un gruppo gestito che non si utilizza più.
@@ -99,16 +106,16 @@ Considera quanto segue in merito a un gruppo che hai disattivato disabilitando l
 
 * La disattivazione di un gruppo non modifica quanto segue:
 
-   * Le associazioni del gruppo agli oggetti. Gli oggetti associati continuano a funzionare come prima, senza alcuna modifica.
+  * Le associazioni del gruppo agli oggetti. Gli oggetti associati continuano a funzionare come prima, senza alcuna modifica.
 
-     Ad esempio, se un progetto è associato a un gruppo disattivato, il progetto continua a utilizzare le preferenze e gli stati del gruppo senza alcuna modifica.
+    Ad esempio, se un progetto è associato a un gruppo disattivato, il progetto continua a utilizzare le preferenze e gli stati del gruppo senza alcuna modifica.
 
-   * Possibilità di creare un nuovo oggetto, ad esempio un&#39;approvazione, un team o un&#39;azienda, dalla pagina del gruppo in configurazione. Per impostazione predefinita, il nuovo oggetto è associato al gruppo inattivo.
-   * La possibilità, in qualità di amministratore, di trovare il gruppo nei filtri e nei rapporti.
+  * Possibilità di creare un nuovo oggetto, ad esempio un&#39;approvazione, un team o un&#39;azienda, dalla pagina del gruppo in configurazione. Per impostazione predefinita, il nuovo oggetto è associato al gruppo inattivo.
+  * La possibilità, in qualità di amministratore, di trovare il gruppo nei filtri e nei rapporti.
 
-     È inoltre possibile trovarlo nei campi di completamento automatico del gruppo, in cui è possibile gestire le impostazioni del gruppo nell&#39;area Configura. Sono incluse le aree Preferenze, Notifiche eventi e Licenze di sistema.
+    È inoltre possibile trovarlo nei campi di completamento automatico del gruppo, in cui è possibile gestire le impostazioni del gruppo nell&#39;area Configura. Sono incluse le aree Preferenze, Notifiche eventi e Licenze di sistema.
 
-     Ad esempio, se scegli Configurazione > Preferenza progetto > Progetti e cancelli il campo di completamento sopra le opzioni, puoi ancora trovare un gruppo inattivo e configurarne le preferenze di progetto.
+    Ad esempio, se scegli Configurazione > Preferenza progetto > Progetti e cancelli il campo di completamento sopra le opzioni, puoi ancora trovare un gruppo inattivo e configurarne le preferenze di progetto.
 
 ## Informazioni sulla riattivazione di un sottogruppo al di sotto di un gruppo padre inattivo {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

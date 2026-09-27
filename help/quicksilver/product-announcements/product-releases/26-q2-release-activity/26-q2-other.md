@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 21%
-
+source-wordcount: '620'
+ht-degree: 20%
 ---
-
 # Altri miglioramenti durante il periodo di rilascio del secondo trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del secondo trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
@@ -27,7 +33,9 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È stata aggiunta una nuova impostazione per regolare l’altezza delle righe negli elenchi avanzati.
 
@@ -37,7 +45,9 @@ Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilv
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Negli elenchi avanzati sono stati aggiunti i seguenti nomi personalizzati per un team, un gruppo, un’azienda e un filtro ruoli:
 
@@ -57,7 +67,9 @@ Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilv
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 È ora possibile applicare la formattazione condizionale agli elenchi di richieste nell’area Richieste e al widget Richieste personali nella Home. Questa funzionalità non esisteva nella vista a elenco prima di questo miglioramento.
 
@@ -73,7 +85,7 @@ Per una migliore organizzazione dell’elenco delle richieste, sono state aggiun
 
 * Le mie richieste
 * Le mie richieste aperte
-* Le mie bozze
+* Bozze personali
 * Richieste aperte. Non disponibile nel widget Richieste personali.
 
 Un amministratore di Workfront può aggiungere o rimuovere le visualizzazioni da un modello di layout. Non è possibile modificare, eliminare o condividere le viste. Puoi copiarli e aggiornarli o condividerne una copia.
@@ -84,7 +96,9 @@ Per informazioni, vedere [Creare e gestire le visualizzazioni nell&#39;area Rich
 
 >[!NOTE]
 >
->Anteprima: 2 aprile 2026>Versione rapida produzione: 15 aprile 2026>Produzione per tutti: 16 aprile 2026
+>Anteprima: 2 aprile 2026
+>Versione rapida di produzione: 15 aprile 2026
+>Produzione per tutti: 16 aprile 2026
 
 Per facilitare la ricerca delle richieste necessarie, sono stati aggiunti dei raggruppamenti all’elenco Richieste e al widget Richieste personali. Ora è possibile raggruppare le richieste per qualsiasi colonna dell’elenco. Questi raggruppamenti diventano parte della vista utilizzata durante la creazione del raggruppamento.
 
@@ -94,7 +108,8 @@ Per ulteriori informazioni sulla creazione di visualizzazioni per l&#39;elenco d
 
 >[!NOTE]
 >
->Anteprima: 11 dicembre 2025>Versione rapida di produzione: 11 febbraio 2026\
+>Anteprima: 11 dicembre 2025
+>Versione rapida di produzione: 11 febbraio 2026\
 >Produzione per tutti: 11 febbraio 2026
 
 Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, la disponibilità è stata estesa per i clienti esistenti di Workfront.

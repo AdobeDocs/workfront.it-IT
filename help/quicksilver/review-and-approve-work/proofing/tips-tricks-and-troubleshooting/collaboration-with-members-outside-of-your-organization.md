@@ -3,13 +3,14 @@ title: Verifica dei limiti di collaborazione con persone esterne all’organizza
 description: Verifica dei limiti di collaborazione con persone esterne all’organizzazione
 author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # Verifica dei limiti di collaborazione con persone esterne all’organizzazione
 
 Esistono alcune limitazioni di cui tenere conto nelle comunicazioni con persone esterne all’organizzazione quando vengono aggiunte a una bozza, in particolare se la persona esterna all’organizzazione dispone dell’accesso alle bozze in un ambiente separato.

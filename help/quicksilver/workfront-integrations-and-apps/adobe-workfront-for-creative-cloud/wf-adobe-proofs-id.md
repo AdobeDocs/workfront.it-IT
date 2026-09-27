@@ -6,26 +6,37 @@ description: Puoi caricare le tue bacheche grafiche come documenti per una revis
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-TQID: https://experienceleague.adobe.com/QijgiCnlMg4macx2aa3UX6yoIJiijEX9n6qmfWVuGeM
+TQID: 'https://experienceleague.adobe.com/QijgiCnlMg4macx2aa3UX6yoIJiijEX9n6qmfWVuGeM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 6%
-
+source-wordcount: '645'
+ht-degree: 5%
 ---
-
 # Carica bozze da [!DNL InDesign]
 
 Puoi caricare le tue bacheche grafiche come bozze direttamente in [!DNL Adobe Workfront] per una revisione e approvazione completa.
@@ -144,7 +155,7 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del plug-in.
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.
 
-1. Nella sezione *[!UICONTROL *Proof approvals]&#x200B;**, scegli &#x200B;** [!UICONTROL Basic] **&#x200B; o &#x200B;** [!UICONTROL Automated]**.
+1. Nella sezione *[!UICONTROL *Proof approvals]**, scegli **[!UICONTROL Basic]** o **[!UICONTROL Automated]**.
 
 1. Aggiungi **[!UICONTROL Revisori]** o un **[!UICONTROL modello di flusso di lavoro]** in base al tipo di approvazione selezionato al passaggio 7.
 

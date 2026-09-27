@@ -8,20 +8,23 @@ description: Modifiche nel modo in cui Workfront memorizza gli oggetti di stato.
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+TQID: 'https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '452'
 ht-degree: 4%
-
 ---
-
 # Modifiche API di base: risposte alla ricerca di stato
 
 Sono state apportate modifiche al modo in cui Workfront memorizza gli oggetti di stato. Queste modifiche non influiscono sul modo in cui vengono effettuate le richieste di ricerca dello stato, ma sulla risposta restituita dalle richieste API che includono una ricerca di oggetti stato restituendo un elenco incompleto di stati del gruppo.

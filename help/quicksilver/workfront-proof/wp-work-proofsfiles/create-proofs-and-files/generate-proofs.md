@@ -7,20 +7,29 @@ description: Workfront Proof consente di creare bozze da documenti o siti Web e 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+TQID: 'https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: '1895'
 ht-degree: 3%
-
 ---
-
 # Genera bozze in [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
@@ -91,7 +100,7 @@ ht-degree: 3%
 
 1. Seleziona se inviare notifiche e-mail e un messaggio personalizzato agli utenti selezionati nel passaggio precedente:
 
-   * **Notifica ai destinatari questa bozza:** Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione **[!UICONTROL Flusso di lavoro]** è selezionata la condivisione di base **, viene inviata una notifica e-mail al momento della creazione della bozza.** Quando **[!UICONTROL Flusso di lavoro automatico]** è selezionato nella sezione **[!UICONTROL Flusso di lavoro]**, una notifica e-mail viene inviata quando la bozza entra nella fase del flusso di lavoro automatico a cui è associato l&#39;utente.
+   * **Notifica ai destinatari questa bozza:** Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione **[!UICONTROL Flusso di lavoro]** è selezionata la condivisione di base ]**, viene inviata una notifica e-mail al momento della creazione della bozza.**[!UICONTROL  Quando **[!UICONTROL Flusso di lavoro automatico]** è selezionato nella sezione **[!UICONTROL Flusso di lavoro]**, una notifica e-mail viene inviata quando la bozza entra nella fase del flusso di lavoro automatico a cui è associato l&#39;utente.
 
    * **Aggiungi messaggio personalizzato:** Selezionare questa opzione per includere un messaggio personalizzato nella notifica. È possibile specificare un oggetto e il corpo del messaggio. Il corpo del messaggio può includere formattazione RTF, ad esempio grassetto, punti elenco e collegamenti ipertestuali.
 

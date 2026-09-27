@@ -6,25 +6,37 @@ description: L’integrazione tra Workfront ed Experience Manager Assets o Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-TQID: https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY
+TQID: 'https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 33%
-
 ---
-
 # Panoramica sulle integrazioni Adobe Experience Manager Assets
 
 <!-- Audited: 12/2023 -->
@@ -45,11 +57,11 @@ Con l’integrazione nativa di Experience Manager, puoi
 * Aggiorna automaticamente i metadati di portfolio, programma, progetto, attività, problema e documento quando vengono modificati in Workfront
 * Collega in modo semplice più archivi di Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets tra gli ID organizzazione
 * Utilizzare la funzione Contenuto verificato di Experience Manager Assets. Contenuto verificato consente di:
-   * Carica contenuto per cercare risorse simili
-   * Visualizzare dettagli rapidi su una risorsa
-   * Accedere ai frammenti di contenuto
-   * Esplora le raccolte
-   * E altro ancora. Per ulteriori informazioni, vedere la [documentazione di Experience Manager Assets Content Advisor].
+  * Carica contenuto per cercare risorse simili
+  * Visualizzare dettagli rapidi su una risorsa
+  * Accedere ai frammenti di contenuto
+  * Esplora le raccolte
+  * E altro ancora. Per ulteriori informazioni, vedere la [documentazione di Experience Manager Assets Content Advisor].
 
 
 ## Prerequisiti
@@ -72,9 +84,9 @@ Con l’integrazione nativa di Experience Manager, puoi
 
 ## Introduzione
 
-1. [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. Impostare l’integrazione:
    1. [Configurare l&#39;integrazione di Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
-Oppure
+      Oppure
    1. [Configurare l’integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. Utilizza l’integrazione: invia risorse, crea cartelle collegate, mappa metadati e altro ancora. Per ulteriori informazioni, consulta [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).

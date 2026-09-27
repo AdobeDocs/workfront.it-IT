@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 10%
-
 ---
-
 # Esempio di campo personalizzato calcolato: visualizzare la cronologia di modifica di un campo
 
 Se gli utenti aggiornano regolarmente i campi personalizzati e desideri acquisire un registro di tutte le modifiche apportate a un campo nonché una data in cui tali modifiche vengono apportate, puoi acquisire queste informazioni in un campo personalizzato calcolato.
@@ -44,8 +50,8 @@ Questa operazione consente di:
 * Limita il campo Cronologia modifica istruzioni ai 2.000 caratteri più recenti, in modo che non superi il limite del database di Workfront.
 * Controlla se il valore corrente del campo Istruzioni corrisponde alla parte anteriore del valore Cronologia di modifica delle istruzioni. Presuppone che sia vuoto e, in caso contrario, esegue le operazioni seguenti:
 
-   * Se corrispondono, lascia invariata la cronologia di modifica delle istruzioni;
-   * Se non corrispondono, sostituisce la cronologia di modifica delle istruzioni con il valore più recente nel campo Istruzioni, seguito dalla data corrente tra parentesi, da una barra verticale e dalla cronologia di modifica delle istruzioni precedenti, che mantiene i valori precedenti e le date in cui sono stati immessi.
+  * Se corrispondono, lascia invariata la cronologia di modifica delle istruzioni;
+  * Se non corrispondono, sostituisce la cronologia di modifica delle istruzioni con il valore più recente nel campo Istruzioni, seguito dalla data corrente tra parentesi, da una barra verticale e dalla cronologia di modifica delle istruzioni precedenti, che mantiene i valori precedenti e le date in cui sono stati immessi.
 
 ## Requisiti di accesso
 

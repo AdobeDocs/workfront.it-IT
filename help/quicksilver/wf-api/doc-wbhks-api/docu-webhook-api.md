@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
+source-wordcount: '3700'
 ht-degree: 4%
-
 ---
-
 # API webhook documenti
 
 <!-- Audited: 5/2025 -->
@@ -905,7 +912,7 @@ GET /customAction
 
 Stringa JSON che indica l’esito positivo o negativo, come specificato nella sezione Gestione degli errori di seguito. In caso di errore (ossia stato = &quot;errore&quot;), Workfront visualizzerà il messaggio di errore fornito all’utente.
 
-**Esempio:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Esempio:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 risposta
 
@@ -922,9 +929,9 @@ Possono verificarsi problemi durante l’elaborazione delle richieste API. Quest
 
 * Includi un codice di errore nell’intestazione della risposta. I codici di errore includono:
 
-   * 403 - Non consentito. Indica che i token di richiesta sono mancanti o non validi oppure che le credenziali associate ai token non hanno accesso alla risorsa specificata. Per i provider di webhook basati su OAuth, Workfront tenterà di recuperare i nuovi token di accesso.
-   * 404 - Non trovato. Indica che il file o la cartella specificata non esiste.
-   * 500 - Errore interno del server. Qualsiasi altro tipo di errore.
+  * 403 - Non consentito. Indica che i token di richiesta sono mancanti o non validi oppure che le credenziali associate ai token non hanno accesso alla risorsa specificata. Per i provider di webhook basati su OAuth, Workfront tenterà di recuperare i nuovi token di accesso.
+  * 404 - Non trovato. Indica che il file o la cartella specificata non esiste.
+  * 500 - Errore interno del server. Qualsiasi altro tipo di errore.
 
 * Descrivi l’errore nel corpo della risposta utilizzando il seguente formato:
 
@@ -1047,13 +1054,13 @@ Verifica i seguenti endpoint: URL endpoint token
 
 * Versione 1.0 (data di rilascio: maggio 2015)
 
-   * Specifiche iniziali
+  * Specifiche iniziali
 
 * Versione 1.1 (data di rilascio: giugno 2015)
 
-   * Aggiornato /uploadInit - Aggiunti documentId e documentVersionId
+  * Aggiornato /uploadInit - Aggiunti documentId e documentVersionId
 
 * Versione 1.2 (data di rilascio: ottobre 2015)
 
-   * Aggiunto /createFolder
+  * Aggiunto /createFolder
 

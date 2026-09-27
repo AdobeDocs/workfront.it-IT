@@ -4,28 +4,39 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-security-workfront-proof
 title: Sicurezza bozza in [!DNL Workfront Proof]
-description: La sicurezza dei dati è fondamentale per  [!DNL Workfront Proof]. EMC investe notevoli risorse per aggiornare e aggiornare l'infrastruttura di sicurezza.
+description: La sicurezza dei dati è fondamentale per [!DNL Workfront Proof]. EMC investe notevoli risorse per aggiornare e aggiornare l'infrastruttura di sicurezza.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-TQID: https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk
+TQID: 'https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # Sicurezza bozza in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -66,4 +77,4 @@ Per impostazione predefinita, i revisori possono scaricare il file originale da 
 
 Le impostazioni salvate nelle impostazioni personali vengono applicate a tutte le bozze create dall&#39;utente, ma possono essere ignorate durante la creazione di una nuova bozza o la modifica di una bozza, come descritto in [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Puoi disattivare i download dei file modificando le impostazioni della bozza personale, come descritto in [Configurare le impostazioni della bozza in[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Puoi disattivare i download dei file modificando le impostazioni della bozza personale, come descritto in [Configurare le impostazioni della bozza in[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

@@ -7,13 +7,20 @@ description: Adobe Workfront consente di inviare in modo rapido e semplice messa
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
-
+source-wordcount: '567'
+ht-degree: 7%
 ---
-
 # Inviare messaggi diretti ad altri utenti
 
 [!DNL Adobe Workfront] consente di inviare in modo rapido e semplice messaggi non correlati ad alcun elemento di lavoro direttamente ad altri utenti di [!DNL Workfront]. I messaggi inviati come descritto in questa sezione vengono visualizzati nella scheda [!UICONTROL Aggiornamenti] nella pagina del profilo dell&#39;utente e sono visibili a tutti gli utenti. Per ulteriori informazioni sugli aggiornamenti, vedere [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
@@ -27,7 +34,7 @@ Quando si invia un messaggio come descritto in questa sezione, l&#39;utente a cu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,14 +45,14 @@ Quando si invia un messaggio come descritto in questa sezione, l&#39;utente a cu
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
    <p>Per inviare un messaggio dalla pagina del profilo dell’utente, è necessario disporre di:</P>
    <p>Chiaro o superiore</p>
    <p>Revisione o successiva</p>
    <p>Per inviare un messaggio dall’elenco Utenti, è necessario disporre di:</p>
    <p>Standard</p>
-   <p>Lavoro o superiore</p></td>
+   <p>Work o successiva</p></td>
   </tr> 
  </tbody> 
 </table>

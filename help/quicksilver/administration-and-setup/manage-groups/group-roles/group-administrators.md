@@ -9,25 +9,33 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+TQID: 'https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1037
-ht-degree: 5%
-
+source-wordcount: '1063'
+ht-degree: 4%
 ---
-
 # Amministratori di gruppi
 
 <!-- Audited: 12/2023 -->
@@ -59,9 +67,9 @@ Se sei un amministratore di Workfront, ti consigliamo di effettuare le seguenti 
 * Determinare se si desidera che gli amministratori di gruppi possano accedere come altri utenti o reimpostare le password per gli utenti dei gruppi amministrati. Per eseguire queste attività è necessario un accesso aggiuntivo, come spiegato di seguito in [Accesso necessario per gli amministratori di gruppi](#access-needed-for-group-administrators).
 * Per una migliore gestione degli utenti, è consigliabile assegnare gruppi o sottogruppi anziché utenti ai seguenti oggetti:
 
-   * Modelli di layout
-   * Pianificazioni
-   * Profili schede orario
+  * Modelli di layout
+  * Pianificazioni
+  * Profili schede orario
 
 ## Accesso necessario per gli amministratori di gruppi {#access-needed-for-group-administrators}
 
@@ -78,7 +86,7 @@ Ogni amministratore di gruppo deve disporre di
 >[!IMPORTANT]
 >
 >Gli amministratori dei gruppi devono disporre di un accesso più elevato rispetto a quelli che gestiscono; in caso contrario, non potranno visualizzare o modificare livelli di accesso inferiori.
->Per istruzioni sulla concessione di questo accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Per un amministratore di gruppo che deve assegnare profili della scheda orario agli utenti nei loro gruppi e sottogruppi, consigliamo anche l’accesso Amministrativo alle schede orario e alle ore. Per istruzioni sulla concessione di questo accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -130,8 +138,8 @@ In qualità di amministratore di gruppo, puoi eseguire le attività descritte di
 
 * Quando una preferenza di progetto, una preferenza di attività o problema oppure una preferenza di schede orario e ore viene sbloccata per i gruppi in tutto il sistema, modificare tale preferenza per i gruppi gestiti. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema. Per ulteriori informazioni vedi quanto segue:
 
-   * [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+  * [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+  * [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * Creare e modificare gli stati dei gruppi per i gruppi gestiti. Per ulteriori informazioni, vedere [Creare o modificare lo stato di un gruppo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Configurare una notifica di evento per i gruppi gestiti. È possibile eseguire questa operazione solo dopo che un amministratore di Workfront ha sbloccato la possibilità di configurare le notifiche degli eventi per i gruppi attraverso il sistema. Per ulteriori informazioni, vedere [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

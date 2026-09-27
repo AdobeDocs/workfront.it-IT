@@ -6,14 +6,23 @@ description: Puoi creare oggetti personali dalla [!UICONTROL Home].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
-
+source-wordcount: '394'
+ht-degree: 9%
 ---
-
-# Crea e gestisci le cose da fare personali
+# Creare e gestire gli elementi attività personali
 
 È possibile creare un elemento attività personale nel widget Attività nell&#39;area [!UICONTROL Home]. Gli elementi da fare sono attività personali che vengono create personalmente.
 
@@ -25,7 +34,7 @@ L&#39;utente e gli altri utenti possono visualizzare le attività personali in u
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,14 +48,14 @@ L&#39;utente e gli altri utenti possono visualizzare le attività personali in u
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td> 
    <p>Standard</p>
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader"><strong>Autorizzazioni sugli oggetti</strong></td> 
    <td> <p>Accesso a [!UICONTROL Edit] o versione successiva per le attività</p> </td> 
   </tr> 
  </tbody> 
