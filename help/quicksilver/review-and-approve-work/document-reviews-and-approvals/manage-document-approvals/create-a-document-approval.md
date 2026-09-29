@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 42b9fa8715c8fdb3936e754289d4102947f2d83b
+source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Per impostazione predefinita, un modello di approvazione è visibile solo al suo
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard e calendari, documenti</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard, calendari e documenti</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni sugli oggetti</td> 
@@ -112,9 +112,9 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</span>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -182,9 +182,9 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</span>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -248,9 +248,9 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</span>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -324,9 +324,9 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</span>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
