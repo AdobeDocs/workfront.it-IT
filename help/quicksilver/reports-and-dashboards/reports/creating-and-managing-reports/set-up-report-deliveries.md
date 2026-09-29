@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 1%
 ---
 # Panoramica sulla consegna del rapporto
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ Quando pianifichi i rapporti per la consegna, tieni presente quanto segue:
 
 * Puoi pianificare fino a 10 consegne ripetute di rapporti per qualsiasi rapporto.
 * È possibile pianificare la consegna di un report solo se l&#39;utente è l&#39;autore del report. Se devi inviare un rapporto che non hai creato, puoi inviarlo manualmente.
+* <span class="preview">In Anteprima, ogni consegna di report pianificata deve avere una data di fine definita. Se in precedenza una consegna era impostata su Mai, Workfront imposta automaticamente la data di fine su 13 mesi dalla data di invio successiva del report.</span>
 
 ## Limiti di esportazione
 
@@ -146,6 +149,7 @@ Quando invii un rapporto da Workfront, l’utente riceve un’e-mail con il rapp
 * [Marchio](#branding)
 * [Formattazione](#formatting)
 * [Collegamenti](#links)
+* [Avvisi di scadenza del rapporto](#report-expiration-notices)
 
 ### Oggetto, nome dell’allegato e titolo del rapporto {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Per ulteriori informazioni sulla selezione della scheda predefinita di un report
 Quando si invia un report da Workfront al formato PDF o Excel, tutti i collegamenti di lavoro presenti nel documento originale rimangono attivi nel file inviato. I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporta il collegamento.
 
 Anche il nome del rapporto nel messaggio e-mail è un collegamento.
+
+<div class="preview">
+
+### Avvisi di scadenza del rapporto {#report-expiration-notices}
+
+In Anteprima, le e-mail del rapporto consegnate includono la data di scadenza del rapporto.
+
+Se la consegna si ripete ogni giorno, l’e-mail include un avviso di scadenza su ogni consegna una volta che la data di scadenza è compresa entro 45 giorni.
+
+Se la consegna si ripete settimanalmente o mensilmente, l’e-mail include un avviso di scadenza durante le ultime quattro consegne pianificate prima della data di scadenza.
+
+</div>
 
 ## Rapporto sui rapporti pianificati
 

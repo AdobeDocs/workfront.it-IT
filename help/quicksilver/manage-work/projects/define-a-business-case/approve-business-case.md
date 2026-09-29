@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 6%
@@ -150,9 +150,9 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
    Lo stato del progetto viene modificato in **Rifiutato** se il caso aziendale viene rifiutato.
 
-   >[!NOTE]
-   >
-   >Non vi sono notifiche che avvisano l’utente che ha inviato l’approvazione del business case se la richiesta di progetto è stata approvata o rifiutata.
+>[!NOTE]
+>
+>Non vi sono notifiche che avvisano l’utente che ha inviato l’approvazione del business case se la richiesta di progetto è stata approvata o rifiutata.
 
 ## Approvare il Business Case accedendo ai progetti richiesti in un portfolio
 
