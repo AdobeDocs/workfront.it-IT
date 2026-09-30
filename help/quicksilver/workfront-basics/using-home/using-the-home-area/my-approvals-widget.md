@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 16%
+source-wordcount: '498'
+ht-degree: 15%
 ---
 # Gestire le approvazioni con il widget Le mie approvazioni
 
@@ -82,7 +82,14 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
-1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Tutti** per visualizzare le approvazioni assegnate e delegate all&#39;utente.
+1. (Facoltativo) Regola le opzioni filtro nel widget Approvazioni personali per scegliere quali approvazioni visualizzare. Sono disponibili le seguenti opzioni di filtro:
+
+   | Opzione filtro | Descrizione |
+   |--------|-------------|
+   | Tutti | Visualizza tutte le approvazioni assegnate all&#39;utente, delegate all&#39;utente da altri utenti e inviate dall&#39;utente. |
+   | Le mie approvazioni | Visualizza le approvazioni assegnate all&#39;utente. Questa è l&#39;opzione predefinita. |
+   | Approvazioni delegate | Visualizza le approvazioni delegate da altri utenti. |
+   | Approvazioni che ho inviato | Visualizza le approvazioni inviate ad altri utenti. |
 
    >[!NOTE]
    >
