@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 2%
 ---
 # Usa agenti di lavoro
@@ -62,7 +62,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Panoramica dell’agente di lavoro
 
-Gli agenti di lavoro sono un modo per assegnare gli agenti MCP ad attività specifiche in Workfront. Puoi configurare l’agente in un’app come Copilot Studio, Claude o Writer.ai, quindi connettere l’agente a Workfront come agente di lavoro. È quindi possibile assegnarla alle attività come se si trattasse di un utente.
+Gli agenti di lavoro sono un modo per assegnare agenti ad attività specifiche in Workfront. Puoi configurare l’agente in un’app come Copilot Studio, Claude o Writer.ai, quindi connettere l’agente a Workfront come agente di lavoro. È quindi possibile assegnarla alle attività come se si trattasse di un utente.
 
 Alcuni flussi di lavoro di esempio possono includere:
 
