@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -209,7 +209,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ora disponibile in Workfront</a>
-                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale AI Assistant.</p>
+                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale Assistente AI.</p>
             </td>
             <td><p>Rollout graduale a partire dal 3 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>
@@ -707,11 +707,11 @@ Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze des
 
 ## Annunci
 
-### Obsolescenza dei campi di fatturazione e tariffa di costo legacy
+### I campi fatturazione e tariffa di costo legacy nelle visualizzazioni elenco mansioni sono obsoleti
 
 Nel tempo, abbiamo introdotto funzionalità avanzate di gestione dei tassi e esperienze di Ruolo dedicate che forniscono un approccio più completo e scalabile per mantenere le informazioni sui tassi. Di conseguenza, l’amministrazione dei tassi si sta spostando verso queste esperienze dedicate piuttosto che verso flussi di lavoro di gestione basati su elenchi.
 
-Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle viste elenco Utenti e mansioni, incluse le configurazioni Filtro/Vista/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
+Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle visualizzazioni elenco Ruoli, incluse le configurazioni Filtro/Visualizzazione/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
 
 In sostituzione nei report, è possibile utilizzare il codice della modalità testo consigliato (utilizzare `costRates` o `billingRates` in base alle esigenze):
 
@@ -724,15 +724,14 @@ In sostituzione nei report, è possibile utilizzare il codice della modalità te
     valueformat=HTML
     &quot;
 
-Per gestire e rivedere i tassi, utilizza le esperienze di gestione dei tassi dedicate:
+Per gestire e rivedere i tassi di ruolo, utilizza le esperienze di gestione dei tassi dedicate:
 
-* Accedere alle tariffe utente direttamente dal profilo utente.
 * Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
-* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra utenti e mansioni.
+* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
 
-Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Utenti o Ruoli devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
+Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
 
-Per informazioni sulle mansioni e sulle percentuali degli utenti, vedere [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) e [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Fine dell’autenticazione tramite sola password per gli utenti del lettore Data Connect: 8 agosto 2026
 

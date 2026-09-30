@@ -11,21 +11,24 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1i5KaduOVN3rVkyK0Ap0HsdbD7W-iFnjFFFyKiYKmpc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '376'
 ht-degree: 20%
-
 ---
-
 # Accedere e aprire gli obiettivi in Obiettivi Adobe Workfront
 
 <!--Audited P&P only: 4/2025-->
@@ -148,10 +151,9 @@ Old:
 
 Viene visualizzato l’elenco Obiettivo.
 
-
 >[!IMPORTANT]
 >
->   Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare gli obiettivi che hai creato o che sono stati creati da altri utenti nell’Elenco obiettivi per impostazione predefinita.
+>Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare gli obiettivi che hai creato o che sono stati creati da altri utenti nell’Elenco obiettivi per impostazione predefinita.
 
 <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
