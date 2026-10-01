@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '14588'
-ht-degree: 92%
+source-wordcount: '14593'
+ht-degree: 91%
 ---
 # Guida di Workfront {#using}
 
@@ -973,8 +973,8 @@ ht-degree: 92%
   * CX Coworker in Workfront {#coworker-in-workfront}
     * [CX Coworker in Workfront: indice articolo](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
     * [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Competenze dei collaboratori CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Utilizzo di CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+    * [Competenze CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Utilizzare CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Aggiornare elementi di lavoro e visualizzare aggiornamenti {#update-work-items-view-updates}
     * [Aggiornare elementi di lavoro e visualizzare aggiornamenti: indice articoli](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Panoramica sulla sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1324,6 +1324,7 @@ ht-degree: 92%
       * [Comprendere la metriche del progetto](manage-work/projects/manage-projects/project-metrics.md)
       * [Panoramica sui limiti dei progetti](manage-work/projects/manage-projects/project-maximums.md)
       * [Riepilogare gli aggiornamenti con l’Assistente IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[Utilizza il collaboratore di Project Coordinator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Creare e gestire modelli di progetto {#create-and-manage-project-templates}
       * [Creare e gestire modelli di progetto: indice degli articoli](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1432,7 @@ ht-degree: 92%
       * [Assegnare attività](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Assegnare attività](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Creare assegnazioni avanzate](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [Utilizza collaboratori attività](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [Usa agenti di lavoro](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Panoramica delle assegnazioni Smart](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Panoramica sulla modifica delle assegnazioni delle attività](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modificare più assegnazioni utente in un elenco di attività](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
