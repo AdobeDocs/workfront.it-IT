@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 9%
 ---
 # Configurare le preferenze di sistema
@@ -244,7 +244,7 @@ Per aggiungere un URL:
 
 >[!IMPORTANT]
 >
->Gli URL di callback devono corrispondere esattamente. Workfront non supporta la corrispondenza di caratteri jolly o prefissi per gli URL di callback personalizzati.
+>Gli URL di callback devono corrispondere esattamente, inclusi eventuali parametri URL. Workfront non supporta la corrispondenza di caratteri jolly o prefissi per gli URL di callback personalizzati.
 
 +++
 
