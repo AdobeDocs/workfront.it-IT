@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 9%
 ---
 # Configurare le preferenze di sistema
@@ -226,7 +226,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 <div class="preview">
 
-Gli URL di reindirizzamento autorizzati consentono di collegare una piattaforma agente di IA personalizzata il cui URL di callback OAuth è univoco per l’organizzazione, ad esempio un URL contenente una connessione o un ID tenant. Per ulteriori informazioni su quando è necessario, vedi [Connessione con OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Configurazione del server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Gli URL di reindirizzamento autorizzati ti consentono di collegare una piattaforma agente di IA personalizzata il cui URL di callback OAuth è univoco per la tua organizzazione, ad esempio un URL che contiene una connessione o un ID tenant.
+
+Per ulteriori informazioni su quando potrebbe essere necessario un URL di reindirizzamento autorizzato, vedi [Connessione con OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Configurazione del server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 +++ Espandi per visualizzare istruzioni dettagliate sulla gestione degli URL di reindirizzamento autorizzati per MCP.
 
@@ -238,12 +240,11 @@ Per aggiungere un URL:
 1. Immetti il callback **URL**.
 1. Fai clic su **Aggiungi**.
 1. Fai clic su **Salva**.
+1. Per rimuovere un URL, apri **Gestisci URL**, rimuovi la voce, quindi fai clic su **Salva**. Ciò può essere necessario quando un’integrazione associata viene ritirata o compromessa.
 
 >[!IMPORTANT]
 >
 >Gli URL di callback devono corrispondere esattamente. Workfront non supporta la corrispondenza di caratteri jolly o prefissi per gli URL di callback personalizzati.
-
-Per rimuovere un URL, ad esempio se l&#39;integrazione associata è ritirata o compromessa, aprire **Gestisci URL**, rimuovere la voce, quindi fare clic su **Salva**.
 
 +++
 
