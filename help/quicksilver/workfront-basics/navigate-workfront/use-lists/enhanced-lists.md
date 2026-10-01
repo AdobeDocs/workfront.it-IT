@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
@@ -78,27 +78,32 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Elenco Workfront | Posizione dell&#39;elenco di oggetti |
 | --- | --- |
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
-| Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
+| Elenco delle richieste | <ul><li>Menu principale > Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità, <span class="preview">condizioni</span> e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li><span class="preview">Configurazione > Preferenze progetto > Condizioni</span></li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
 | <span class="preview">Elenchi di azioni e campi tracciati nei feed di aggiornamento</span> | <ul><li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Campi tracciati</span></li> <li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Azioni</span></li></ul> |
 | <span class="preview">Elenco di scorecard</span> | <span class="preview">Configurazione > Scorecard</span> |
 | <span class="preview">Elenco dei tipi di rischio</span> | <span class="preview">Configurazione > Tipi di rischio</span> |
+| <span class="preview">Elenco delle notifiche degli eventi</span> | <ul><li><span class="preview">Configurazione > E-mail > Notifiche > Notifiche evento</span></li><li><span class="preview">Pagina dettagli gruppo > Notifiche evento</span></li></ul> |
 | Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
 | <span class="preview">Elenco dei percorsi</span> | <span class="preview">Configurazione > Percorsi</span> |
 | Elenco delle traduzioni | Configurazione > Localizzazione |
-| <span class="preview">Elenchi di integrazioni </span> | <ul><li><span class="preview">Configurazione > Documenti > Integrazione di SharePoint</span></li><li><span class="preview">Configurazione > Documenti > Integrazione personalizzata</span></li></ul> |
-| Elenco dei rapporti | I report (**Utilizza cartelle condivisibili** devono essere attivati) |
+| <span class="preview">Elenchi di integrazioni </span> | <ul><li><span class="preview">Configurazione > Documenti > Integrazione di SharePoint</span></li><li><span class="preview">Configurazione > Documenti > Integrazione personalizzata</span></li><li><span class="preview">Configurazione > Documenti > Experience Manager Assets</span></li></ul> |
+| Elenco dei rapporti | Menu principale > Rapporti (**Utilizza cartelle condivisibili** deve essere attivato) |
+| <span class="preview">Elenchi di argomenti della coda, gruppi di argomenti e regole di routing</span> | <ul><li><span class="preview">Progetto o Modello > Argomenti coda</span></li><li><span class="preview">Progetto o Modello > Gruppi di argomenti</span></li><li><span class="preview">Progetto o Modello > Regole di instradamento</span></li></ul> |
 | Elenco di snapshot | Progetto > Snapshot |
 | Elenco delle risorse per la fatturazione | Progetto > Risorsa per fatturazione |
+| <span class="preview">Elenco predecessori</span> | <span class="preview">Configurazione > Attività o Modello > Predecessori</span> |
 | Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
 | <span class="preview">Visualizzazione di un documento per tutte le versioni</span> | <span class="preview">Progetto > Documenti > Dettagli documento > Tutte le versioni</span> |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
 | <span class="preview">Elenchi di piani e iniziative dello scenario</span> | <span class="preview">Menu principale > Scenari</span> |
+| <span class="preview">Elenco di obiettivi e indicatori di avanzamento</span> | <ul><li><span class="preview">Menu principale > Obiettivi</span></li><li><span class="preview">Menu principale > Obiettivi > Indicatori di avanzamento</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 1. Fai clic su **Filtro** sopra l&#39;elenco.
 1. Nella casella Filtro fare clic su **Aggiungi condizione**.
 1. Seleziona un campo in base al quale filtrare.
-1. Seleziona un modificatore di filtro, ad esempio &quot;Ha uno di&quot;, &quot;Non ha nessuno di&quot;, &quot;È prima&quot; o &quot;È dopo&quot;. Le opzioni del modificatore variano a seconda del tipo di campo in base al quale si sta filtrando.
+1. Seleziona un modificatore di filtro, ad esempio &quot;Is any of&quot; (È uno di), &quot;Is none of&quot; (È prima), &quot;Is before&quot; (È prima) o &quot;Is after&quot; (È dopo). Le opzioni del modificatore variano a seconda del tipo di campo in base al quale si sta filtrando.
 1. Seleziona il valore o i valori del campo. A seconda del tipo di campo in base al quale si sta filtrando, è possibile che venga richiesto di selezionare l&#39;elemento da un elenco, cercarlo o utilizzare un calendario per selezionare un intervallo di date.
 
    ![Filtro in elenchi avanzati](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è pos
    ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
 
 1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L’opzione predefinita consiste nel visualizzare l’elenco con tutti i raggruppamenti espansi.
-1. Quando si applica il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppa per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
+1. Quando viene applicato il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppamento per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
 
    ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
 

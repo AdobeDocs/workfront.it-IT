@@ -12,27 +12,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 972
+source-wordcount: '1012'
 ht-degree: 6%
-
 ---
-
 # Creare argomenti coda
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -144,7 +154,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aggiungi al gruppo di argomenti</strong> </td> 
-      <td> Se nel progetto non sono presenti gruppi di argomenti, il nome predefinito del progetto sarà Gruppo di argomenti.<br>Per creare altri gruppi di argomenti da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> Se nel progetto non sono presenti gruppi di argomenti, il nome predefinito del progetto sarà Gruppo di argomenti.<br>Per creare altri gruppi di argomenti da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Moduli personalizzati</strong> </td> 
@@ -197,6 +207,7 @@ Per modificare un argomento della coda esistente:
 1. Passare al progetto o al modello contenente l&#39;argomento coda che si desidera modificare.
 1. Fai clic su **Argomenti coda** nel pannello a sinistra.
 1. Fare clic sull&#39;argomento della coda che si desidera modificare.
+   <span class="preview">Selezionare la casella di controllo accanto all&#39;argomento della coda che si desidera modificare e fare clic su **Modifica** nella barra blu delle azioni nella parte inferiore dello schermo.</span>
 
 Per informazioni sulle opzioni di modifica disponibili, vedere [Creare un argomento coda](#create-a-queue-topic) in questo articolo.
 
@@ -208,4 +219,5 @@ Per informazioni sulle opzioni di modifica disponibili, vedere [Creare un argome
 1. Fai clic su **Argomenti coda** nel pannello a sinistra.
 1. Fare clic sulla casella accanto al nome di ogni Argomento coda che si desidera eliminare. Nella casella viene visualizzato un segno di spunta.
 1. Fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete-icon.png) nella parte superiore della pagina.
+   <span class="preview">Fai clic su **Elimina** nella barra delle azioni nella parte inferiore dello schermo.</span>
 
