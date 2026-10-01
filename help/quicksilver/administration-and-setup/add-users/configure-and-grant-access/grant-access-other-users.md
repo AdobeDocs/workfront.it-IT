@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '912'
 ht-degree: 7%
 ---
 # Concedere l’accesso agli utenti
@@ -158,6 +158,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      <tr> 
       <td role="rowheader"><strong>Visualizza tariffe</strong> </td> 
       <td> Consente agli utenti di visualizzare i tassi di costo nei profili utente.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Visualizza cronologia impiego</strong> </td> 
+      <td> Consente agli utenti di visualizzare la cronologia dell’impiego nei profili utente.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Visualizza contabilità generale</strong> </td> 
