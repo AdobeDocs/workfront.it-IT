@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1259'
 ht-degree: 5%
 ---
 # Personalizzare il pannello sinistro utilizzando un modello di layout
@@ -158,12 +158,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetti nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Progetti nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Resource]</td> 
-      <td>[!UICONTROL Resource] nel menu principale  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Resource] nel menu principale [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planner] (non può essere nascosto), [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
@@ -237,6 +237,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Fai clic sulle icone **Mostra** ![Mostra icona](assets/add-secondary-nav-item.png) o **Nascondi** ![Nascondi icona](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
 
+     Ogni area o tipo di oggetto deve avere almeno una sezione nel pannello a sinistra. Se tutti gli altri elementi sono nascosti, non è possibile nascondere l&#39;ultimo elemento rimanente.
+
    * Trascina gli elementi ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >* [!UICONTROL Home]
    >* [!UICONTROL Marchio]
    > 
-   >Per informazioni su come personalizzare le aree aggiuntive, vedere gli articoli seguenti:
+   >Per informazioni su come personalizzare queste aree aggiuntive, vedere gli articoli seguenti:
    >
    >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizza il [!UICONTROL pannello di riepilogo] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
