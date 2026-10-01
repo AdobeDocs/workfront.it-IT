@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
@@ -374,10 +374,10 @@ Per aggiungere un filtro a una vista timeline:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4037'
-ht-degree: 2%
+source-wordcount: '4045'
+ht-degree: 3%
 ---
 # Gestire la vista tabella
 
@@ -517,10 +517,10 @@ Per aggiungere un filtro a una vista tabella:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -666,7 +666,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
