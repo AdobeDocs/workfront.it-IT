@@ -27,10 +27,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 79%
+source-wordcount: '104'
+ht-degree: 75%
 ---
 # Configurare e gestire approvazioni unificate: indice degli articoli
 
@@ -38,6 +38,11 @@ Questa sezione contiene i seguenti articoli:
 
 * [Creare e gestire i brand per il revisore IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [Creare una richiesta di approvazione o una revisione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [Creare un’approvazione raggruppata](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+<!--
+* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+-->
 * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Rimuovere approvatori o revisori da una risorsa o da un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
