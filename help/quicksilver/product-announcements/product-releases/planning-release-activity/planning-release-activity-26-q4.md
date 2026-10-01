@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -28,6 +28,86 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## Etichette più chiare dell’operatore di filtro per i campi con più valori
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Gli operatori di filtro con più valori in tutte le viste Planning sono stati aggiornati a &quot;È uno di&quot; e &quot;È nessuno di&quot; invece di &quot;Ha uno di&quot; e &quot;Non ha nessuno di&quot;, fornendo un testo più chiaro e coerente nei generatori di filtri di Workfront.
+
+Questo è un aggiornamento solo etichetta. I filtri esistenti vengono migrati automaticamente e continuano a comportarsi esattamente come prima.
+
+Le modifiche sono visibili nei filtri di tutte le visualizzazioni di Planning. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Aggiunta di aggregatori per campi non numerici nella vista tabella
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Nella vista a tabella sono stati introdotti aggregatori per altri tipi di campo. Prima di questo miglioramento, solo i campi relativi al numero mostravano gli aggregatori nella parte inferiore delle colonne.
+
+Gli aggregatori variano a seconda del tipo di campo:
+
+* Campi Testo, Seleziona, Casella di controllo e Persone: NESSUNO, VUOTO, NON VUOTO
+* Campi data: NESSUNO, MAX, MIN
+* Campi formula: aggregatori corrispondenti al relativo formato
+
+Ai tipi di campo relativi al numero è stato aggiunto NONE e per impostazione predefinita NONE è impostato su tutti i tipi di campo.
+
+Gli aggregatori per i seguenti campi di sistema non sono supportati: Creato da, Ultima modifica da e ID record.
+
+Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Modificare il proprietario di un’area di lavoro
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+I creatori di Workspace sono attualmente assegnati come proprietari predefiniti. Con questo aggiornamento, i responsabili dell’area di lavoro possono trasferire la proprietà a un altro utente con licenza Standard dalla finestra di dialogo di condivisione.
+
+Il nuovo proprietario viene evidenziato come proprietario dell&#39;area di lavoro nell&#39;elenco di condivisione e nella home di Planning, mentre il proprietario precedente mantiene l&#39;accesso Gestisci all&#39;area di lavoro.
+
+Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Ordinare record e raggruppamenti nella visualizzazione della sequenza temporale
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+È ora possibile ordinare i record e i raggruppamenti nella visualizzazione timeline. Prima di questo miglioramento, questa funzionalità non era disponibile.
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Condivisione di campi in Workfront Planning
 
@@ -120,7 +200,7 @@ Per informazioni, consulta [Utilizzare il riempimento del modulo basato su IA pe
 
 CX Coworker è ora disponibile in Workfront Planning. Ora è possibile accedere a CX Coworker in un pannello disponibile in Workfront Planning.
 
-CX Collaborator Chat è un&#39;interfaccia conversazionale per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
+CX Coworker Chat è un&#39;interfaccia di conversazione per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
 
 Coworker rispetta i controlli di accesso esistenti dell’organizzazione, con accesso in sola lettura per impostazione predefinita, e gli amministratori di sistema controllano quando gli utenti ottengono l’accesso in scrittura.
 
@@ -130,7 +210,7 @@ Coworker sta sostituendo l’attuale Assistente AI come metodo più potente per 
 >
 >CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
 
-Per ulteriori informazioni, vedere [Cenni preliminari su CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Icona Assistente IA rimossa dalla casella di anteprima Dettagli record in preparazione all’avvio di CX Coworker
 
