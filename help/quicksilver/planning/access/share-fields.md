@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1495'
 ht-degree: 2%
 ---
 
@@ -91,19 +91,22 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 ## Considerazioni sulla condivisione dei campi
 
 * Puoi condividere i campi con utenti, mansioni, gruppi, team o aziende.
+* La condivisione dei campi controlla l&#39;accesso ai valori, non alle impostazioni dei campi. Solo i responsabili del workspace possono modificare la configurazione di un campo.
+* Impossibile rimuovere l&#39;accesso a un campo da un utente con accesso al tipo di record.
 * È possibile condividere i campi solo dalla vista tabella di un tipo di record.
 * Non puoi condividere i seguenti tipi di campi:
 
   * Campi di sistema (ad esempio Creato da, ID record)
   * Campi principali
   * Campi di ricerca. Ereditano sempre le autorizzazioni dei campi oggetto di origine.
+* I campi formula mostrano sempre il valore calcolato correttamente, indipendentemente dall’accesso del visualizzatore ai campi di riferimento. È necessario condividere il campo formula separatamente per limitarne l&#39;output.
 * L’accesso a un campo proviene dalla combinazione delle seguenti impostazioni:
 
   * **Autorizzazioni ereditate**: per impostazione predefinita, un campo eredita lo stesso accesso di un utente sul tipo di record. È possibile disattivare le autorizzazioni ereditate e concedere agli utenti un accesso al campo inferiore a quello di cui dispongono per il tipo di record.
   * **Tutti gli utenti con accesso al tipo di record possono visualizzare** o **Solo gli utenti invitati possono accedere alla selezione**. Puoi consentire a tutti coloro che dispongono delle autorizzazioni per l’area di lavoro di visualizzare il campo o concedere le autorizzazioni solo a singole entità.
 
   Se più regole si applicano alla stessa persona, questa riceve l’autorizzazione più elevata disponibile da una delle regole.
-
+* Per visualizzare i valori di un campo per un record, è necessario disporre di autorizzazioni sia per il record che per il campo.
 * Per rendere un campo di sola visualizzazione per tutti gli utenti di un&#39;area di lavoro, verificare che sia presente la seguente configurazione:
 
   * Disattiva le autorizzazioni ereditate
@@ -116,14 +119,17 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   * Le autorizzazioni Contribute (Contribute) o Manage (Manage) per i tipi di record consentono a un utente di gestire i valori dei campi
 
 * Solo i proprietari e i responsabili dell&#39;area di lavoro possono modificare le autorizzazioni dei campi. I manager di Workspace mantengono sempre l&#39;accesso Gestisci a tutti i campi e questo non può essere ridotto.
-* La condivisione dei campi controlla l&#39;accesso ai valori, non alle impostazioni dei campi. Solo i responsabili del workspace possono modificare la configurazione di un campo.
 * L&#39;aggiunta di un utente all&#39;elenco di condivisione di un campo non consente l&#39;accesso all&#39;area di lavoro o al tipo di record. Se non dispongono di tale accesso, un&#39;icona di avviso indica che l&#39;autorizzazione avrà effetto solo dopo essere state aggiunte al tipo di record.
-* I campi con autorizzazioni limitate vengono applicati ovunque venga visualizzato il campo. Ciò include tutte le visualizzazioni, le pagine dei dettagli dei record, i moduli di richiesta, le connessioni e i campi di ricerca, le dashboard di Canvas, gli strumenti API e MCP.
+* I campi con autorizzazioni limitate vengono applicati ovunque venga visualizzato il campo. Ciò include tutte le visualizzazioni, le pagine dei dettagli dei record, le connessioni e i campi di ricerca, le dashboard di Canvas, l’API e gli strumenti MCP.
+* I campi nei moduli di richiesta sono aperti a tutti gli utenti che inviano il modulo, indipendentemente dalla condivisione dei campi.
+* I campi con restrizioni non sono visibili né nei file esportati né nei file importati.
 * Le visualizzazioni pubbliche rimangono completamente visibili e di sola lettura per chiunque possa accedervi.
   <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * Le modifiche al valore del campo con restrizioni non vengono registrate nella cronologia di un record.
 * Le modifiche delle autorizzazioni per i campi non attivano le notifiche.
 * Per i tipi di record globali, le autorizzazioni del campo si applicano a tutte le aree di lavoro secondarie e non possono essere regolate localmente.
+* Quando qualcuno aggiunge un campo a un tipo di record globale nell’area di lavoro principale, viene creata una visualizzazione privata.  Questa visualizzazione non è accessibile dall&#39;area di lavoro record globale secondaria. È necessario aprire il record globale nell&#39;area di lavoro secondaria con una nuova visualizzazione in cui il campo aggiunto, se le autorizzazioni non sono limitate, viene visualizzato come campo nascosto.
+
 
 <!--
 From Claude: 
@@ -197,7 +203,7 @@ In qualità di manager dell&#39;area di lavoro, puoi modificare le autorizzazion
       >
       >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il campo.
 
-   1. (Facoltativo) Fai clic sul menu a discesa **Tutti coloro che hanno accesso al tipo di record possono visualizzare** e seleziona **Solo gli utenti invitati possono accedere**.
+   1. (Facoltativo) Fai clic sul menu a discesa **Tutti coloro che hanno accesso al tipo di record possono visualizzare** e seleziona **Solo gli utenti invitati possono accedere**. L&#39;opzione **Solo gli invitati possono accedere** non è disponibile per i campi primari.
 
       >[!IMPORTANT]
       >

@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -107,6 +107,16 @@ Nella pagina di destinazione di Planning è possibile utilizzare la casella di r
 * Aree di lavoro
 * Tipi di record
 * Viste
+
+<!--
+<div class="preview">
+
+* Records
+
+</div>
+
+Update screen shot below
+-->
 
 ![Casella di ricerca globale](assets/global-search-box.png)
 

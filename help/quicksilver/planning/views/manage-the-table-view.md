@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4037'
 ht-degree: 2%
 ---
 # Gestire la vista tabella
@@ -198,12 +198,10 @@ Per impostazione predefinita, in una vista tabella vengono visualizzati i seguen
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 record visualizzati per impostazione predefinita
 
 Per gestire una vista tabella:
 
@@ -314,6 +312,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
-1. Per i campi numerici, di valuta, di percentuale e di formula formattati come qualsiasi di questi tipi di campo, espandere il menu a discesa dell&#39;aggregatore nella parte inferiore delle colonne e selezionare una delle opzioni seguenti:
+1. (Condizionale) Per i campi numerici, di valuta, percentuali e formule formattati come qualsiasi di questi tipi di campi, espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
 
    * **SOMMA**: visualizza il totale di tutte le celle della colonna. Questa è la selezione predefinita.
    * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
    * **MAX**: visualizza il valore più alto di tutte le celle della colonna.
    * **MEDIA**: visualizza il valore medio di tutte le celle della colonna.
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    Quando si lavora con gli aggregatori, tenere presente quanto segue:
 
@@ -338,6 +345,61 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    * In qualità di gestore delle viste, puoi scegliere l’aggregatore che verrà condiviso con la vista quando la condividi con altri utenti.
    * In qualità di visualizzatore, puoi modificare l’aggregatore, ma non viene salvato con la visualizzazione.
    * Le visualizzazioni condivise pubbliche vengono condivise con gli aggregatori salvati che non possono essere modificati.
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### Aggiungi righe (o record) {#add-rows-1}
 
@@ -455,10 +517,10 @@ Per aggiungere un filtro a una vista tabella:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p>
+            <td><p>Ha uno qualsiasi di</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p>
+            <p>Non ha nessuno di</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -604,7 +666,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
@@ -615,7 +677,7 @@ Considera i seguenti aspetti:
 * I raggruppamenti sono elencati in ordine alfabetico dei relativi valori.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Per aggiungere un raggruppamento:
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
