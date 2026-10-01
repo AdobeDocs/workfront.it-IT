@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
-ht-degree: 3%
-
+source-wordcount: '1490'
+ht-degree: 4%
 ---
-
 # Panoramica sull’impegno di lavoro
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ In qualità di project manager, è possibile decidere come stimare la quantità 
   </tr> 
   <tr> 
    <td role="rowheader">Impegno di lavoro </td> 
-   <td> <p>Etichetta manuale che definisce se è necessario uno sforzo giornaliero minimo, medio o elevato per completare un'attività.
-   &lt;!—!—
-
-    Il livello di impegno è stimato essere una percentuale della quantità giornaliera di tempo di lavoro. (NOTA: conservare la bozza. Vazgen ha detto che non è necessario, ma in attesa del feedback degli utenti)
-    
-    —>
-    &lt;/p> &lt;p>Considera quanto segue sull&#39;impegno di lavoro:&lt;/p>
-    &lt;ul>
-    &lt;li>Questo campo è disponibile solo per le attività con un tipo di durata semplice. &lt;/li>
-    &lt;li>Puoi abilitare l&#39;uso di questa etichetta e definire la percentuale di tempo di lavoro associata a essa a livello di progetto. &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>Etichetta manuale che definisce se è necessario uno sforzo giornaliero minimo, medio o elevato per completare un'attività.</p> <p>Considera quanto segue su Impegno di lavoro:</p>
+    <ul> 
+     <li>Questo campo è disponibile solo per le attività con tipo di durata semplice. </li> 
+     <li>Puoi abilitare l’uso di questa etichetta e definire la percentuale di orario di lavoro associata a livello di progetto. </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 Questo articolo descrive l&#39;impegno di lavoro e il modo in cui utilizzarlo per stimare la quantità di lavoro per le attività.
 
