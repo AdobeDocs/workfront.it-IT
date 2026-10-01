@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -316,7 +316,22 @@ Gli strumenti Insights recuperano informazioni sugli oggetti Workfront.
 | --- | --- | --- | --- |
 | <span class="preview">Condividi feedback</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Registra il sentiment segnalato e ciò che è accaduto durante la conversazione, in modo da migliorare gli strumenti MCP di Workfront. Utilizzato solo quando viene richiesto esplicitamente di condividere il feedback (ad esempio, &quot;condividi feedback&quot; o &quot;segnala un bug&quot;).</span> | <span class="preview">Scrittura</span> |
 
+## Strumenti di reporting
 
+Gli strumenti di reporting ti consentono di creare e gestire dashboard di Canvas tramite chat. Descrivi il rapporto desiderato in linguaggio semplice e la piattaforma di gestione dell’intelligenza artificiale crea la dashboard e i widget necessari per utilizzare i dati di Workfront.
+
+
+### Dashboard dell’area di lavoro
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| Leggi | `read` | Legge i dati di reporting in tre modalità selezionate dagli ID passati: elenca le dashboard visibili, recupera la struttura di una singola dashboard o recupera la configurazione completa di un widget. | Leggi |
+| Crea dashboard | `create_dashboard` | Crea un nuovo dashboard di reporting vuoto e lo restituisce, con un collegamento per aprirlo. | Scrittura |
+| Aggiorna dashboard | `update_dashboard` | Aggiorna parzialmente il posizionamento di metadati, prompt, filtri e per widget di un dashboard. I campi omessi rimangono invariati. | Scrittura |
+| Crea widget | `create_widget` | Crea un widget e la relativa configurazione di report su un dashboard. Uno strumento gestisce tutti e tre i tipi di widget: grafico, KPI e tabella. | Scrittura |
+| Aggiorna widget | `update_widget` | Aggiorna parzialmente la configurazione di un widget esistente. Il tipo di widget viene dedotto automaticamente, pertanto puoi inviare solo i campi che desideri modificare. | Scrittura |
+| Copia oggetto | `copy_object` | Copia un intero dashboard, inclusi i relativi widget, prompt e filtro, in un nuovo dashboard oppure copia un singolo widget all&#39;interno o tra dashboard. | Scrittura |
+| Elimina oggetto | `delete_object` | Elimina definitivamente un dashboard di reporting e tutti i relativi widget o un singolo widget. Questa azione non può essere annullata. | Scrittura |
 
 ## Come vengono aggiornati gli strumenti
 
@@ -329,5 +344,6 @@ Quando Adobe rilascia una nuova versione del server Workfront MCP, la piattaform
 Stiamo lavorando per aggiungere in futuro i seguenti strumenti al server Workfront MCP:
 
 * Bacheche
+
 
 

@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1210'
+ht-degree: 2%
 ---
 # Condividere le aree di lavoro
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. È necessario condividere le visualizzazioni separatamente.
 * Le autorizzazioni di Workspace vengono visualizzate come autorizzazioni ereditate per i tipi di record.
 
+<div class="preview">
+
+* È possibile cambiare il proprietario di un&#39;area di lavoro in un utente attivo con licenza Standard. Non è possibile impostare un gruppo, un team, una società o una mansione come proprietario di un&#39;area di lavoro.
+
+</div>
+
+
+&lt;!—!—controlla quanto sopra in produzione: devi sostituirlo con un utente ATTIVO?? Oppure inattivo è anche OK — non aveva un ambiente—>
+
 ## Condividere le autorizzazioni per un’area di lavoro
 
 I seguenti utenti possono condividere un’area di lavoro con altri utenti:
@@ -202,7 +211,7 @@ Per condividere un’area di lavoro con altri utenti:
 
      È necessario chiedere a un amministratore di sistema di modificare un&#39;autorizzazione globale per un&#39;area di lavoro.
 
-1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco. <!--update screen shot at production-->
 
    ![Interfaccia utente condivisa con i gruppi](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Per condividere un’area di lavoro con altri utenti:
    >
    >* Quando condividi un’area di lavoro con un utente, nel campo vengono visualizzati anche la mansione principale e l’e-mail. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
 
-1. (Facoltativo) Quando esegui una condivisione con un gruppo, un team, una mansione o una società, passa il puntatore del mouse sul nome dell’entità e fai clic sulla freccia rivolta a destra per espandere un elenco di utenti che ricevono le autorizzazioni.
+1. (Facoltativo) Quando esegui una condivisione con un gruppo, un team, una mansione o una società, passa il puntatore del mouse sul nome dell’entità e fai clic sulla freccia rivolta a destra per espandere un elenco di utenti che ricevono le autorizzazioni. <!--update screen shot at preview-->
 
    ![Condividi area di lavoro con un gruppo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ Per condividere un’area di lavoro con altri utenti:
    * Gestione
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+   <div class="preview">
+
+   * Proprietario
+
+     È possibile impostare come proprietario di un&#39;area di lavoro solo un altro utente attivo con licenza Standard. Il proprietario originale rimane nell&#39;area di lavoro con le autorizzazioni di gestione.
+
+   </div>
+
+1. <span class="preview">(Condizionale) Se si è scelto di modificare il proprietario dell&#39;area di lavoro, fare clic su **Cambia proprietario** per confermare.</span>
+
+
 1. Fai clic su **Copia collegamento** per copiare un collegamento nell&#39;area di lavoro negli Appunti.
 1. Condividi il collegamento copiato con altri utenti. Per poter accedere all’area di lavoro, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 1. Fai clic su **Salva**.
@@ -254,7 +275,6 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 1. Fai clic sulla freccia rivolta a sinistra a sinistra di **Richieste di accesso in sospeso**, quindi fai clic su **Salva**.
 
    Se hai approvato la richiesta, gli utenti vengono aggiunti alla casella di condivisione dell’area di lavoro. L’utente che richiede l’autorizzazione riceve una conferma via e-mail che la sua richiesta è stata approvata. <!--will they also get an in-app notification??-->
-
 
 ## Rimuovere le autorizzazioni per un’area di lavoro
 

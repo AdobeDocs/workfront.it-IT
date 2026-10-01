@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # Creare un modulo personalizzato
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     <li>Elenco a discesa a selezione singola</li>
     <li>Elenco a discesa a selezione multipla</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Scelte </td> 
     <td> 
     <p>Seleziona una delle opzioni seguenti:</p> 
@@ -507,6 +510,36 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Scelte</span></td> 
+    <td>
+    <div class="preview">
+    <p>Fai clic su <strong>Modifica scelte</strong> per aggiungere o modificare le scelte per il campo.</p>
+    <p>Per aggiungere una nuova scelta nella finestra di dialogo Modifica scelte:</p>
+    <ol>
+    <li><p>Fai clic su <strong>Nuova riga</strong> nella parte inferiore della tabella.</p> <p><b>Nota:</b> non esiste alcun limite al numero di scelte che è possibile aggiungere.</p></li>
+    <li>Digitare <strong>Nome scelta</strong> e <strong>Valore scelta</strong>. Queste sono in genere le stesse, proprio come il nome e l’etichetta dell’API del campo.</li>
+    <li>(Facoltativo) Seleziona <strong>Seleziona per impostazione predefinita</strong> per fare in modo che la scelta sia selezionata per impostazione predefinita nel campo.</li> 
+    </ol>
+    <p>Per ulteriori azioni:</p>
+    <ul>
+    <li>Per modificare una scelta esistente, fare doppio clic nell'area che si desidera modificare.</li>
+    <li> Per nascondere una scelta nel campo, selezionarla e fare clic su <strong>Nascondi scelta</strong> nella barra delle azioni nella parte inferiore dello schermo. Le scelte nascoste rimangono accessibili nei rapporti.</li> 
+    <li> <p>Per eliminare una scelta dal campo, selezionarla e fare clic su <strong>Rimuovi scelta</strong> nella barra delle azioni nella parte inferiore dello schermo.</p> <p><b>Avvertenza</b>: se sono presenti oggetti correnti che utilizzano questa scelta, non rimuoverla dal campo. Rimuovendola, i dati storici andranno persi. In alternativa, seleziona l’opzione per nasconderla per impedire agli utenti di selezionarla in futuro.</p> </li> 
+    <li>Utilizza l'icona <strong>Trascina</strong> <img src="assets/drag-icon.png"> per ordinare le scelte manualmente.</li>
+    <li>Fare clic su <strong>Ordina scelte A-Z</strong> per ordinare alfabeticamente le scelte nel campo.</li>
+    </ul>
+    <p>Fai clic su <strong>Salva</strong> al termine della modifica delle scelte.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Pulsanti di scelta</span></li>
+    <li><span class="preview">Gruppo di caselle di controllo</span></li>
+    <li><span class="preview">Elenco a discesa a selezione singola</span></li>
+    <li><span class="preview">Elenco a discesa a selezione multipla</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Attivo</td>
      <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>

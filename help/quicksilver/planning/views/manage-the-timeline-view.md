@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5023'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
@@ -192,11 +192,16 @@ Per gestire una vista timeline:
 
    ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
 
-   Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e ordinati in ordine cronologico rispetto alla data di inizio.
+   Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e vengono ordinati automaticamente in ordine cronologico rispetto alla data di inizio.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    L&#39;ordinamento dei record nella timeline non è visibile nella visualizzazione Compatta.
+   >    L&#39;ordinamento automatico dei record nella timeline non è visibile nella visualizzazione Compatta.
 
 1. (Condizionale) Se l’amministratore ha abilitato i trimestri personalizzati e Workfront rileva problemi nella configurazione dei trimestri personalizzati, potresti ricevere un avviso all’apertura della visualizzazione della timeline.
 
@@ -263,6 +268,14 @@ Per gestire una vista timeline:
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
       Non è possibile utilizzare parole chiave associate a campi che non vengono visualizzati nella visualizzazione timeline.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. Premi Invio sulla tastiera per passare al successivo campo trovato.
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
@@ -361,10 +374,10 @@ Per aggiungere un filtro a una vista timeline:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p>
+            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p>
+            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -486,6 +499,16 @@ Per aggiungere un raggruppamento nella vista timeline:
 
    I raggruppamenti vengono applicati immediatamente.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) nella barra degli strumenti per aprire la casella **Raggruppa record per**, quindi fare clic su **Espandi tutto** per espandere tutti i raggruppamenti oppure su **Comprimi tutto** per comprimere tutti i raggruppamenti e comprimere manualmente solo quelli necessari. </span>
 1. <span class="preview"> (Facoltativo e condizionale) Nella visualizzazione della corsia, trascinare e rilasciare il separatore del pannello sinistro per regolarne la larghezza. La larghezza del pannello di ogni utente viene salvata nelle sessioni, con una larghezza predefinita per i nuovi utenti.</span>
 1. <span class="preview">(Facoltativo) Per i nomi di raggruppamento lunghi, posizionare il cursore del mouse sulla riga di un raggruppamento per visualizzare il nome completo del raggruppamento in una descrizione comando.</span>
@@ -504,50 +527,50 @@ Per aggiungere un raggruppamento nella vista timeline:
    >Quando si trascinano record da un raggruppamento all&#39;altro, i campi selezionati nel raggruppamento aggiornano automaticamente i valori dei record spostati.
 1. (Facoltativo) Fai clic su **Impostazioni**, quindi su **Colore** per impostare i raggruppamenti del codice colore. Per ulteriori informazioni, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### Aggiungi ordinamento
 
-You can sort records and groupings in the timeline view. 
+È possibile ordinare i record e i raggruppamenti nella visualizzazione della sequenza temporale.
 
-Consider the following when working with record sorting in the timeline view: 
+Quando si utilizza l&#39;ordinamento dei record nella visualizzazione timeline, tenere presente quanto segue:
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* Potete applicare l&#39;ordinamento sia nella vista tabella che nella vista timeline. L&#39;ordinamento della vista tabella è indipendente da quello della vista timeline dello stesso tipo di record.
+* È possibile applicare 10 condizioni di ordinamento per i record e un numero di condizioni di ordinamento pari al numero di raggruppamenti presenti nella visualizzazione timeline (è possibile avere fino a 3 condizioni di raggruppamento nella visualizzazione timeline).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* Le ordinazioni sono univoche per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati ordinamenti diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso ordinamento attualmente applicato.
+* Non è possibile denominare l’ordinamento generato per una vista timeline.
+* Se si rimuove l’ordinamento, questo viene rimosso da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 
-* You can sort by connected record fields or lookup fields.  
+* È possibile ordinare in base ai campi record o ai campi di ricerca connessi.
 
-To add a sort in the timeline view:
+Per aggiungere un ordinamento nella vista timeline:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Fare clic su **Ordina** nella barra degli strumenti della visualizzazione.
 
-    The sorting box opens. 
+   Viene visualizzata la casella di ordinamento.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![Ordina nella sequenza temporale con ordinamento di raggruppamento](assets/sort-in-timeline.png)
+1. Dal menu a discesa, selezionare **Ordina record**, quindi fare clic su un campo elencato nell&#39;elenco **Inizia con un campo suggerito** oppure fare clic su **Scegli un campo diverso**, quindi cercare il campo e fare clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Selezionare la direzione in cui applicare l&#39;ordinamento dei record (alfabetico, discendente inverso, ecc.). La direzione di applicazione di un ordinamento dipende dal formato del campo selezionato.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere fino a 10 condizioni.
+1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutte le condizioni.
+1. Dal menu a discesa nell&#39;angolo superiore sinistro della casella di ordinamento, selezionare **Ordina raggruppamenti**.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >Se non sono stati applicati raggruppamenti alla visualizzazione della sequenza temporale, l&#39;opzione **Ordina raggruppamenti** non è disponibile.
+1. (Facoltativo) Seleziona la direzione in cui desideri applicare l’ordinamento del raggruppamento (alfabetico, discendente inverso, ecc.). La direzione di applicazione di un ordinamento dipende dal formato del campo selezionato.
+1. (Condizionale) Fare clic su **Reimposta tutto** per reimpostare la direzione di ordinamento, se è stata modificata dall&#39;impostazione predefinita.
+1. Per riordinare l&#39;ordinamento dei campi, fare clic su **Raggruppamento** nella barra degli strumenti e riordinare i raggruppamenti. L’ordinamento dei campi cambia anche.
+1. (Facoltativo) Per rimuovere l’ordinamento dei raggruppamenti, rimuoveteli dalla vista timeline.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   L’ordinamento viene applicato immediatamente.
+1. Fare clic in un punto qualsiasi della pagina per chiudere la casella di ordinamento.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 

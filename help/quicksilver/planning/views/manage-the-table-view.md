@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4041'
-ht-degree: 2%
+source-wordcount: '3630'
+ht-degree: 3%
 ---
 # Gestire la vista tabella
 
@@ -198,12 +198,10 @@ Per impostazione predefinita, in una vista tabella vengono visualizzati i seguen
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 record visualizzati per impostazione predefinita
 
 Per gestire una vista tabella:
 
@@ -314,6 +312,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
-1. Per i campi numerici, di valuta, di percentuale e di formula formattati come qualsiasi di questi tipi di campo, espandere il menu a discesa dell&#39;aggregatore nella parte inferiore delle colonne e selezionare una delle opzioni seguenti:
+1. (Condizionale) Per i campi numerici, di valuta, percentuali e formule formattati come qualsiasi di questi tipi di campi, espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
 
    * **SOMMA**: visualizza il totale di tutte le celle della colonna. Questa è la selezione predefinita.
    * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
    * **MAX**: visualizza il valore più alto di tutte le celle della colonna.
    * **MEDIA**: visualizza il valore medio di tutte le celle della colonna.
+
+   <!--    
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+    </div> 
+    -->
 
    Quando si lavora con gli aggregatori, tenere presente quanto segue:
 
@@ -339,66 +346,122 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    * In qualità di visualizzatore, puoi modificare l’aggregatore, ma non viene salvato con la visualizzazione.
    * Le visualizzazioni condivise pubbliche vengono condivise con gli aggregatori salvati che non possono essere modificati.
 
-### Aggiungi righe (o record) {#add-rows-1}
+<!--
+At preview release, replace the last procedure step with this:
 
-Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato. L&#39;aggiunta di righe è identica alla creazione di record.
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
 
-È possibile avere fino a 50.000 record o righe per un tipo di record.
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-1. Passare a una pagina del tipo di record e selezionare una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione, quindi scegliere **Tabella**.
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
 
-1. Inizia ad aggiungere record (o righe), come descritto nell&#39;articolo [Crea record](/help/quicksilver/planning/records/create-records.md).
+        <div class="preview">
 
-   I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
 
-   Al nuovo record vengono aggiunti anche un&#39;immagine miniatura predefinita <span class="preview">e un colore</span>.
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-   >[!TIP]
-   >
-   ><span class="preview">Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo primario del record viene visualizzato un indicatore **Nuovo commento**.</span>
-   >
-   >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-1. (Facoltativo) Seleziona uno o più record o righe, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
 
-   >[!NOTE]
-   >
-   >Non è possibile riordinare le righe se si applica almeno un ordinamento o un raggruppamento alla vista tabella.
-   >
-   >Le modifiche apportate all&#39;ordine delle righe sono visibili a tutti gli utenti che accedono al tipo di record nella stessa visualizzazione.
-   >
-   ><span class="preview">Nella riga di trascinamento, un indicatore numerico visualizza il numero di record selezionati, se più di uno. </span>
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del record, quindi fai clic su **Modifica miniatura** per modificare la miniatura.
-1. Fai clic su **Campi** nella parte superiore della tabella nell&#39;ambiente di produzione
+    <div class="preview">
 
-   Oppure
+    * The following field types do not have an aggregator: 
 
-   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario</span>, quindi seleziona l&#39;interruttore per il campo **Miniatura** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-   Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+    </div> 
 
-1. <span class="preview">Fai clic su **Campi** nella parte superiore della tabella</span>
+### Add rows (or records) {#add-rows-1}
 
-   Oppure
-   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;interruttore per il campo **Colore** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato. </span>
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-1. <span class="preview"> (Facoltativo e condizionale) Se hai attivato l&#39;impostazione **Colore**, fai clic sulla barra dei colori a sinistra del campo principale del record e seleziona un colore dalle schede **Campioni** o **Personalizzati**, quindi fai clic all&#39;esterno della casella per chiuderla. Il colore viene applicato immediatamente.</span>
+You can have up to 50,000 records (or rows) for a record type. 
+
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
+
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![Casella del selettore colore per la codifica dei colori di record](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Aggiungere filtri {#add-filters-1}
+### Add filters {#add-filters-1}
 
-I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
+Filters help you reduce the amount of information displayed on the screen.
 
-Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -455,10 +518,10 @@ Per aggiungere un filtro a una vista tabella:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p>
+            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p>
+            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -615,7 +678,7 @@ Considera i seguenti aspetti:
 * I raggruppamenti sono elencati in ordine alfabetico dei relativi valori.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +693,14 @@ Per aggiungere un raggruppamento:
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 

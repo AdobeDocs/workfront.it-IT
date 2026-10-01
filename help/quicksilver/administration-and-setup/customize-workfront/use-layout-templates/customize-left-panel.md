@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1262'
 ht-degree: 5%
 ---
 # Personalizzare il pannello sinistro utilizzando un modello di layout
@@ -199,7 +199,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
        <td>[!UICONTROL Dettagli utente]</td> 
        <td>Nome di un utente</td> 
-       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer], [!UICONTROL Employment History]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Rate Card]</td> 
@@ -237,6 +237,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Fai clic sulle icone **Mostra** ![Mostra icona](assets/add-secondary-nav-item.png) o **Nascondi** ![Nascondi icona](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
 
+     Ogni area o tipo di oggetto deve avere almeno una sezione nel pannello a sinistra. Se tutti gli altri elementi sono nascosti, non è possibile nascondere l&#39;ultimo elemento rimanente.
+
    * Trascina gli elementi ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >* [!UICONTROL Home]
    >* [!UICONTROL Marchio]
    > 
-   >Per informazioni su come personalizzare le aree aggiuntive, vedere gli articoli seguenti:
+   >Per informazioni su come personalizzare queste aree aggiuntive, vedere gli articoli seguenti:
    >
    >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizza il [!UICONTROL pannello di riepilogo] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

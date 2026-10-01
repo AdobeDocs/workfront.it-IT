@@ -13,23 +13,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-YFIx4ZtuC3xkzqJzYxbTh3BrumyMI2-w7NmpiTyKpc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 8%
-
 ---
-
 # Creare regole di indirizzamento
 
 <!-- Audited: 12/2023 -->
@@ -79,6 +84,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fare clic su **Nuova regola di routing** per aggiungere la nuova regola. Viene visualizzata la casella **Nuova regola di routing**.
 
    ![Casella Nuova regola di routing](assets/new-routing-rule-box.png)
+
 1. Inserire le seguenti informazioni per la Regola di instradamento:
 
    <table style="table-layout:auto"> 

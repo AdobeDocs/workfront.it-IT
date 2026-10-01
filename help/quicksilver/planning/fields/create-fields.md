@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 2%
 ---
 <!--
@@ -301,6 +301,17 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
     -->
 
 1. Continua ad aggiungere ogni campo, come descritto nelle sezioni seguenti.
+1. (Facoltativo e condizionale) Dopo aver aggiunto un campo, passa il puntatore del mouse sul nome del campo nell&#39;intestazione della colonna della visualizzazione tabella e fai clic sul menu a discesa **Altro**, quindi **Modifica campo** per modificare il campo.
+
+   Per informazioni, vedere [Modifica campi](/help/quicksilver/planning/fields/edit-fields.md).
+1. (Facoltativo e condizionale) Dopo aver aggiunto un campo, passa il puntatore del mouse sul nome del campo nell&#39;intestazione della colonna della visualizzazione tabella e fai clic sul menu a discesa **Altro**, quindi **Elimina** per eliminare il campo.
+
+   Per informazioni, vedere [Elimina campi](/help/quicksilver/planning/fields/delete-fields.md).
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">(Facoltativo e condizionale) Dopo aver aggiunto un campo, passa il puntatore del mouse sul nome del campo nell&#39;intestazione della colonna della visualizzazione tabella e fai clic sul menu a discesa **Altro**, quindi su **Condividi campo** per condividere il campo. </span>
 

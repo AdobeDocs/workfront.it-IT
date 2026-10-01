@@ -9,24 +9,31 @@ exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 TQID: https://experienceleague.adobe.com/BOZkyUl3TKCzpbjbLnUcMQZjM-1laW-TSsVptvBP-0U
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '446'
 ht-degree: 8%
-
 ---
-
 # Creare una relazione predecessore utilizzando l’area Predecessori
+
+{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -116,5 +123,6 @@ Per creare un&#39;attività predecessore per un&#39;attività di progetto:
 1. Fai clic su **Salva**.
 
 1. (Facoltativo) Per rimuovere un predecessore, selezionalo dall&#39;elenco dei predecessori, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-or-delete-icon.png).
+   <span class="preview">Per rimuovere un predecessore, selezionarlo nell&#39;elenco dei predecessori e fare clic su **Rimuovi** nella barra delle azioni nella parte inferiore della schermata.</span>
 
    Il predecessore viene rimosso dall’elenco. L&#39;attività predecessore non viene eliminata dal relativo progetto.
