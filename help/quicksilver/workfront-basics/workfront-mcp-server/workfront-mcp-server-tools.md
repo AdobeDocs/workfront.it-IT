@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
+| Carica documento in Workfront** | `upload_document_ui` | Ti consente di caricare un file in un progetto, un’attività, un problema, un programma, un portfolio o un modello e, facoltativamente, in una cartella. | Scrittura |
 | Trova versione documento per nome | `approvals_find_document_version_by_name` | Cerca l&#39;ID versione corrente di un documento in base al nome file. Supporta le corrispondenze parziali. | Leggi |
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
@@ -62,7 +63,7 @@ Se la piattaforma di gestione dell’intelligenza artificiale è in grado di tro
 
 
 *L’invio di documenti a una cartella AEM non è ancora supportato per i progetti su Adobe Cloud Storage. Il supporto è previsto in una versione futura.
-
+**Questo strumento apre un pannello di caricamento interattivo nella chat, quindi funziona solo negli strumenti che supportano le app MCP. Attualmente, solo Claude è supportato per questo strumento. Per impostazione predefinita, viene visualizzato in &quot;Strumenti interattivi&quot; nelle autorizzazioni dello strumento e richiede l’approvazione.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
