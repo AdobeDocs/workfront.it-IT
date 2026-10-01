@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # Panoramica sulla revisione e sull’approvazione unificata
@@ -50,16 +50,18 @@ I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi
 
 ## Basato sull’archiviazione cloud di Adobe
 
-La revisione e l’approvazione unificate si basano sull’archiviazione cloud Adobe, una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe, inclusi Workfront e Frame.io. <!--, and Creative Cloud.-->
+La revisione e l’approvazione unificate si basano sull’archiviazione cloud Adobe, una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe, inclusi Workfront, Frame.io e Creative Cloud.
 
 I vantaggi principali dell&#39;archiviazione cloud Adobe includono:
 
 * Livello di storage unificato per risorse creative e di gestione del lavoro
 * Autorizzazioni centralizzate con Adobe Identity Management System (IMS) per il controllo sicuro degli accessi
-* Visibilità completa delle risorse in Workfront e Frame.io <!--, and Creative Cloud apps -->
+* Visibilità completa delle risorse nelle app Workfront, Frame.io e Creative Cloud
 * Storage scalabile e gestione delle quote per le esigenze aziendali
 
 Per ulteriori dettagli, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Anche le app Creative Cloud (Photoshop, Illustrator e InDesign) possono accedere direttamente ai progetti Workfront. Per ulteriori informazioni, vedere [Panoramica dei progetti Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Revisione e approvazione unificate
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3444'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -24,7 +24,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -351,6 +351,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accedi ai progetti Workfront dalle app Creative Cloud</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Ora puoi accedere ai tuoi progetti Workfront direttamente da Adobe Photoshop, Illustrator e InDesign. I progetti Workfront che utilizzano Adobe Cloud Storage vengono visualizzati nel pannello Progetti sul lato sinistro della finestra dell’app, insieme agli altri progetti Creative Cloud.</p>
+            </td>
+            <td><p>N/D</p></td>
+            <td><p>1 ottobre 2026</p></td>
+            <td><p>1 ottobre 2026</p></td>
         </tr>
          <tr>
             <td>
@@ -891,7 +900,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
