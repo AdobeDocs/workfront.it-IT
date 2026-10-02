@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicare un rapporto in una dashboard dell’area di lavoro
-description: Puoi duplicare un rapporto in un dashboard di Canvas.
+title: Copiare e spostare i rapporti nei dashboard di Canvas
+description: Puoi copiare o spostare un rapporto tra dashboard di Canvas.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 24%
+source-wordcount: '693'
+ht-degree: 12%
 ---
-# Duplicare un rapporto in una dashboard dell’area di lavoro
+# Copiare e spostare i rapporti nei dashboard di Canvas
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Per poter essere duplicato, è necessario aggiungere un report a un dashboard.
 
 Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplicare un rapporto
+## Duplicare un rapporto in produzione
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
    >Queste schede variano a seconda che sia stato duplicato un KPI, una tabella o un rapporto grafico.  Per ulteriori informazioni, vedere [Generare un report KPI in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Creare un report grafico in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) e [Creare un report tabella in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Fai clic su **Salva**. Il report duplicato viene visualizzato nel dashboard.
+
+<div class="preview">
+
+## Copiare o spostare un rapporto in Anteprima
+
+È possibile copiare un report nel dashboard corrente, copiarlo in un altro dashboard o spostarlo in un altro dashboard. La copia crea un duplicato del rapporto nella destinazione; lo spostamento lo riposiziona dal dashboard corrente.
+
+>[!IMPORTANT]
+>
+>* Per copiare un rapporto, è necessario disporre delle autorizzazioni di gestione per il dashboard di destinazione.
+>* Per spostare un rapporto, devi gestire l’accesso ai dashboard di origine e di destinazione.
+>* Se nel report è configurato l&#39;utente Esegui come e non si è amministratori di sistema o utente Esegui come, è comunque possibile copiarlo o spostarlo, ma l&#39;utente Esegui come viene rimosso dal report risultante.
+
+
+Per copiare o spostare un report:
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+1. Apri il dashboard contenente il rapporto.
+1. Fai clic sull&#39;icona **Altro** ![Altro pulsante](assets/more-icon.png) nell&#39;angolo superiore destro del report, quindi seleziona **Copia report**.
+
+   ![Copia opzione report](assets/copy-report-button.png)
+
+1. Nella finestra di dialogo **Copia report** scegliere una delle opzioni seguenti:
+
+   <table>
+   <tr>
+   <td><strong>Copia</strong></td>
+   <td>Fai clic su <strong>Copia</strong> nella parte inferiore della schermata per copiare il report. Il dashboard corrente è selezionato per impostazione predefinita. Per copiare un rapporto è necessario gestire l’accesso alla dashboard.</td>
+   </tr>
+   <tr>
+   <td><strong>Copia e sposta</strong></td>
+   <td>Seleziona un dashboard di destinazione diverso per copiare il rapporto e spostarlo in un nuovo dashboard. Il report originale rimane nel dashboard corrente.Per copiare e spostare un rapporto è necessario disporre dell’accesso in gestione al dashboard di destinazione. </td>
+   </tr>
+   <tr>
+   <td><strong>Sposta</strong></td>
+   <td>Seleziona un dashboard di destinazione diverso in cui spostare il rapporto. In questo modo il report viene riposizionato nel dashboard di destinazione e rimosso da quello corrente. Per spostare un rapporto è necessario disporre dell’accesso di gestione ai dashboard di origine e di destinazione.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >Se nel report è configurato l&#39;utente Esegui come e non si è un amministratore di sistema o l&#39;utente impostato come utente Esegui come, è comunque possibile copiare o spostare il report. L&#39;opzione Esegui come utente viene rimossa dal report risultante.
+
+1. Fai clic su **Salva**.
+
+   ![copia e sposta](assets/copy-and-move.png)
+
+</div>
