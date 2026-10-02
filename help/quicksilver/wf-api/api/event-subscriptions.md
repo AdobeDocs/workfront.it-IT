@@ -17,14 +17,18 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '66'
+ht-degree: 77%
 ---
 # Sottoscrizioni a eventi
 
 Di seguito sono riportate diverse risorse  relative alle Sottoscrizioni a eventi in Adobe Workfront:
+
+>[!NOTE]
+>
+>Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 * [API di sottoscrizione a eventi](../../wf-api/general/event-subs-api.md)
 * [Best practice per la sottoscrizione a eventi](../../wf-api/general/event-sub-best-practice.md)

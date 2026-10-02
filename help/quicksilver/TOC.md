@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -694,6 +694,7 @@ ht-degree: 91%
       * [Eliminare una condizione personalizzata](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Gestire Adobe Workfront {#manage-wf}
     * [Gestire Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Configurare le sottoscrizioni di eventi in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * Configurare la funzionalità della bozza {#configure-proofing}
       * [Configurare la bozza](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Impostazioni di bozza](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

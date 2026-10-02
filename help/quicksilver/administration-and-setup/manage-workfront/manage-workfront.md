@@ -27,15 +27,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 100%
+source-wordcount: '50'
+ht-degree: 90%
 ---
 # Gestire Adobe Workfront
 
 Questa sezione contiene le seguenti sottosezioni:
 
+* [Configurare le sottoscrizioni di eventi in Workfront](../../administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
 * [Configurare la funzionalità di bozza](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [Configurare i rapporti](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [E-mail](../../administration-and-setup/manage-workfront/emails/emails.md)
