@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -524,18 +524,16 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle tariffe di fatturazione nei modelli</a>
+                <p>I modelli di progetto ora supportano miglioramenti migliorati degli elenchi e aggiornamenti degli attributi delle tariffe per le tariffe di fatturazione.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>1 ottobre 2026</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle tariffe di fatturazione aziendali</a>
