@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '4228'
 ht-degree: 3%
 ---
 # Gestire la vista tabella
@@ -324,144 +324,140 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
-1. (Condizionale) Per i campi numerici, di valuta, percentuali e formule formattati come qualsiasi di questi tipi di campi, espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
 
-   * **SOMMA**: visualizza il totale di tutte le celle della colonna. Questa è la selezione predefinita.
-   * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
-   * **MAX**: visualizza il valore più alto di tutte le celle della colonna.
-   * **MEDIA**: visualizza il valore medio di tutte le celle della colonna.
+1. (Condizionale) A seconda dei tipi di campi visualizzati, effettua una delle seguenti operazioni:
 
-   <!--    
-    <div class="preview"> 
+   * Per i campi numerici, di valuta, di percentuale e di formula formattati come qualsiasi di questi tipi di campo, espandere il menu a discesa dell&#39;aggregatore nella parte inferiore delle colonne e selezionare una delle opzioni seguenti:
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
+     * **SOMMA**: visualizza il totale di tutte le celle della colonna.
+     * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
+     * **MAX**: visualizza il valore più alto di tutte le celle della colonna.
+     * **MEDIA**: visualizza il valore medio di tutte le celle della colonna.
+     * <span class="preview">**NONE**: i valori della colonna non sono aggregati. Questa è l&#39;opzione predefinita.</span>
+
+   <div class="preview">
+
+   * Per i campi data, espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
+
+     * **NONE**: i valori della colonna non sono aggregati. Questa è l&#39;opzione predefinita.
+     * **EMPTY**: visualizza un conteggio dei campi privi di valori.
+     * **NON VUOTO**: visualizza un conteggio dei campi con valori.
+     * **MIN**: visualizza la data meno recente.
+     * **MAX**: visualizza la data più recente.
+
+   * Per i campi di testo, seleziona, booleano, Persone espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
+
+     * **NONE**: i valori della colonna non sono aggregati. Questa è l&#39;opzione predefinita.
+     * **EMPTY**: visualizza un conteggio dei campi privi di valori.
+     * **NON VUOTO**: visualizza un conteggio dei campi con valori.
+
+   </div>
 
    Quando si lavora con gli aggregatori, tenere presente quanto segue:
 
-   * La riga dell&#39;aggregatore nella colonna è bloccata e fa parte delle impostazioni di visualizzazione.
+   * La riga dell&#39;aggregatore nella colonna viene bloccata quando vengono visualizzati i valori e fa parte delle impostazioni di visualizzazione.
    * In qualità di gestore delle viste, puoi scegliere l’aggregatore che verrà condiviso con la vista quando la condividi con altri utenti.
    * In qualità di visualizzatore, puoi modificare l’aggregatore, ma non viene salvato con la visualizzazione.
    * Le visualizzazioni condivise pubbliche vengono condivise con gli aggregatori salvati che non possono essere modificati.
 
+   <div class="preview">
+
+   * I seguenti tipi di campo non dispongono di un aggregatore:
+
+     * Creato da
+     * Ultima modifica eseguita da
+     * ID record
+   * I campi formula e i campi di ricerca hanno gli aggregatori che corrispondono al loro formato di campo.
+
+   </div>
+
 <!--
-At preview release, replace the last procedure step with this:
 
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+FROM LISA: This is the old section. I commented it out vs deleting.
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
 
-        <div class="preview">
+    <div class="preview"> 
 
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
-        </div> 
-   
-    <div class="preview">
+    </div> 
 
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
+-->
 
-    * The following field types do not have an aggregator: 
+### Aggiungi righe (o record) {#add-rows-1}
 
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato. L&#39;aggiunta di righe è identica alla creazione di record.
 
-    </div> 
+È possibile avere fino a 50.000 record o righe per un tipo di record.
 
-### Add rows (or records) {#add-rows-1}
+1. Passare a una pagina del tipo di record e selezionare una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione, quindi scegliere **Tabella**.
 
-The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
+1. Inizia ad aggiungere record (o righe), come descritto nell&#39;articolo [Crea record](/help/quicksilver/planning/records/create-records.md).
 
-You can have up to 50,000 records (or rows) for a record type. 
+   I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+   Al nuovo record vengono aggiunti anche un&#39;immagine miniatura predefinita <span class="preview">e un colore</span>.
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   >[!TIP]
+   >
+   ><span class="preview">Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo primario del record viene visualizzato un indicatore **Nuovo commento**.</span>
+   >
+   >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+1. (Facoltativo) Seleziona uno o più record o righe, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+   >[!NOTE]
+   >
+   >Non è possibile riordinare le righe se si applica almeno un ordinamento o un raggruppamento alla vista tabella.
+   >
+   >Le modifiche apportate all&#39;ordine delle righe sono visibili a tutti gli utenti che accedono al tipo di record nella stessa visualizzazione.
+   >
+   ><span class="preview">Nella riga di trascinamento, un indicatore numerico visualizza il numero di record selezionati, se più di uno. </span>
 
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    
-1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del record, quindi fai clic su **Modifica miniatura** per modificare la miniatura.
+1. Fai clic su **Campi** nella parte superiore della tabella nell&#39;ambiente di produzione
 
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type in the same view. 
-    >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+   Oppure
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
+   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario</span>, quindi seleziona l&#39;interruttore per il campo **Miniatura** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+   Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. <span class="preview">Fai clic su **Campi** nella parte superiore della tabella</span>
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+   Oppure
+   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;interruttore per il campo **Colore** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato. </span>
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+1. <span class="preview"> (Facoltativo e condizionale) Se hai attivato l&#39;impostazione **Colore**, fai clic sulla barra dei colori a sinistra del campo principale del record e seleziona un colore dalle schede **Campioni** o **Personalizzati**, quindi fai clic all&#39;esterno della casella per chiuderla. Il colore viene applicato immediatamente.</span>
 
 <div class="preview">
 
-![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![Casella del selettore colore per la codifica dei colori di record](assets/color-picker-for-record-color-coding.png)
 
-For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Add filters {#add-filters-1}
+### Aggiungere filtri {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 
-Consider the following when working with filters in the table view: 
+Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
--->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -1266,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

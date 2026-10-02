@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1162'
 ht-degree: 4%
 ---
 # Gestire le versioni dei documenti
@@ -240,3 +240,11 @@ Workfront numera ogni versione nell&#39;ordine in cui è stata caricata (ad esem
    >L&#39;eliminazione di una versione non modifica i numeri delle altre versioni. Se, ad esempio, si elimina la V3 da un documento con versioni da V1 a V5, le versioni rimanenti mantengono i numeri originali e successivamente non vi è alcuna V3. La versione successiva caricata diventa V6.
 
 </div>
+
+### Visualizza il file corrente durante un’approvazione
+
+Se un documento è un file di Creative Cloud (ad esempio, un documento cloud di Photoshop) e qualcuno lo modifica mentre è in corso un&#39;approvazione, Workfront mostra una sezione del **file corrente** con un badge che indica che sono presenti nuovi aggiornamenti sul documento attivo, separati dalla versione in fase di approvazione.
+
+>[!IMPORTANT]
+>
+>**Domanda aperta:** la sezione del file corrente rimane visibile in modo permanente la prima volta che viene visualizzata o solo se sono presenti aggiornamenti non revisionati nel documento attivo? Prima di pubblicare, conferma con il prodotto.

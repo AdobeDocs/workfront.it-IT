@@ -13,16 +13,69 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 3%
+source-wordcount: '1108'
+ht-degree: 2%
 ---
 # Altri miglioramenti durante il periodo di rilascio del quarto trimestre 2026
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Aggiornamenti agli elenchi avanzati
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Sono state apportate le seguenti modifiche ai filtri elenco e ai raggruppamenti migliorati:
+
+* Nei filtri e nei raggruppamenti che utilizzano i gruppi di campi, i gruppi ora sono compressi per impostazione predefinita. Non è più necessario scorrere fino a trovare il gruppo di campi corretto.
+* Gli operatori di filtro &quot;Has any of&quot; (Ha uno di) e &quot;Has none of&quot; (Non ha nessuno di) sono stati modificati in &quot;Is any of&quot; (È uno di) e &quot;Is none of&quot; (Non è nessuno di).
+
+Le seguenti modifiche sono state apportate alle intestazioni di colonna per elenchi avanzati, per fornire coerenza in tutti gli elenchi avanzati in Workfront:
+
+* A ogni intestazione è stata aggiunta un’icona per indicare il tipo di campo rappresentato dalla colonna. Ad esempio, una colonna per Assegnatari o Utenti presenta l&#39;icona di una persona e un campo data mostra un calendario. Queste icone vengono visualizzate anche accanto ai campi nel gestore colonne.
+* Le intestazioni di colonna ora forniscono un’esperienza più fluida e coerente quando si modificano le dimensioni della colonna.
+
+Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Più schermate aggiornate agli elenchi avanzati
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+I seguenti elenchi di Workfront ora utilizzano il formato elenco avanzato:
+
+* Configurazione > E-mail > Notifiche > Notifiche evento e pagina Dettagli gruppo > Notifiche evento
+* Configurazione > Documenti > Experience Manager Assets
+* Progetto o Modello > Argomenti coda
+* Progetto o Modello > Gruppi di argomenti
+* Progetto o Modello > Regole ciclo
+* Task o Template Task > Predecessori
+
+Gli aggiornamenti includono quanto segue per alcuni o tutti gli elenchi:
+
+* Nuovo aspetto dell&#39;elenco, con aggiornamenti a colori, formattazione e caratteri.
+* L’opzione per creare un nuovo oggetto nell’elenco è stata spostata in alto a destra e viene visualizzata come un pulsante blu.
+* Barra degli strumenti rimossa. Ora, quando selezioni uno o più oggetti nella tabella, la barra delle azioni viene visualizzata in blu nella parte inferiore dell’elenco.
+* Alcune colonne potrebbero essere state riposizionate o rimosse oppure sono state aggiunte nuove colonne.
+* Alcune conferme e avvertenze sono state rimosse o modificate.
+* Il salvataggio in alcuni elenchi è ora automatico e il pulsante Salva potrebbe essere stato rimosso.
+* Alcuni elenchi avanzati consentono di rinominare o ordinare le colonne.
+* Alcuni elenchi avanzati includono il gestore colonne, che consente di aggiungere e disporre le colonne. Puoi selezionare le colonne per campi nativi o personalizzati in Workfront.
+* Le icone all&#39;interno delle celle della tabella sono state sostituite da Altri menu con più opzioni.
+
+NOTA: non tutti gli aggiornamenti sono disponibili in tutti gli elenchi.
+
+Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Aggiornamenti elenco avanzati
 

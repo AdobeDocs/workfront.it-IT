@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Panoramica dell’archiviazione cloud Adobe
 
 Adobe Cloud Storage è una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. L&#39;integrazione di Workfront e Frame.io è basata sull&#39;archiviazione cloud Adobe e consente la collaborazione e la gestione delle risorse tra queste piattaforme.
 
-Questa opzione di archiviazione spiana inoltre la strada a future integrazioni di gestione delle risorse con altri prodotti Adobe, come Adobe Creative Cloud.
+Questa opzione di archiviazione consente inoltre integrazioni di gestione delle risorse con altri prodotti Adobe, incluse le app Adobe Creative Cloud. Per ulteriori informazioni, vedere [Panoramica dei progetti Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Funzioni chiave
 
