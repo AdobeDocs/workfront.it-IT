@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 9%
@@ -341,7 +341,6 @@ Per riutilizzare un campo personalizzato calcolato esistente:
       >* Individuare gli errori di calcolo sottolineati in rosso. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
       >  ![Guida per errori](assets/error-help.png)
       >* Nell&#39;area sottostante il calcolo, visualizzare in anteprima i risultati di un oggetto Workfront esistente.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![Anteprima calcolo](assets/preview-calc.png)
       >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
 
