@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # API sottoscrizione a eventi
@@ -42,6 +42,10 @@ ht-degree: 88%
 Quando si verifica un’azione su un oggetto Adobe Workfront supportato dalle sottoscrizioni a eventi, puoi configurare Workfront per inviare una risposta all’endpoint desiderato. Ciò significa che le applicazioni di terze parti possono ricevere aggiornamenti dalle interazioni Workfront tramite l’API Workfront subito dopo che si verificano. In generale, puoi aspettarti di ricevere le notifiche del webhook in meno di 5 secondi dalla registrazione della modifica dei dati. In media, le notifiche dei webhook vengono ricevute in meno di 1 secondo dalla registrazione della modifica dei dati.
 
 Poiché le sottoscrizioni a eventi inviano dati a un altro servizio, vengono gestite tramite comandi anziché tramite l’applicazione Workfront.
+
+>[!NOTE]
+>
+>Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 Per ricevere i payload delle sottoscrizioni a eventi tramite il firewall, devi aggiungere i seguenti indirizzi IP nell’elenco Consentiti:
 

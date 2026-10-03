@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2383'
 ht-degree: 0%
 ---
 
@@ -34,6 +34,8 @@ Questo articolo presuppone che la connessione sia già stata impostata. Per info
 
 Il server MCP di Workfront espone un set di strumenti che la piattaforma dell’agente di intelligenza artificiale chiama per tuo conto. Ad esempio, strumenti per cercare in Workfront, creare elementi, aggiornare campi e gestire le approvazioni. Per l&#39;elenco completo dei riferimenti, vedere [Strumenti server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
+La disponibilità dello strumento dipende dalle adesioni ai prodotti della tua organizzazione, oltre al livello di accesso a Workfront, alle autorizzazioni per gli oggetti e a tutti i controlli di amministrazione MCP.
+
 >[!IMPORTANT]
 >
 >Quando connetti una piattaforma di agenti di intelligenza artificiale a Workfront, agisce in Workfront utilizzando l’account e le autorizzazioni Workfront. Le azioni della piattaforma hanno lo stesso effetto delle azioni eseguite direttamente nell&#39;interfaccia di Workfront.<br>
@@ -42,6 +44,29 @@ Il server MCP di Workfront espone un set di strumenti che la piattaforma dell’
 >
 >Prima di consentire alla piattaforma dell’agente di IA di procedere con una richiesta, conferma di comprendere cosa intende fare, in particolare per le azioni che modificano o eliminano i dati.
 
+## Effetti delle adesioni ai prodotti sugli strumenti disponibili
+
+Il server MCP di Workfront mostra solo gli strumenti che la tua organizzazione è autorizzata a utilizzare.
+
+Si applicano i seguenti scenari:
+
+* Se la tua organizzazione dispone solo di Workfront Planning, la piattaforma dell’agente di IA mostra gli strumenti di Planning, ma non gli strumenti del flusso di lavoro.
+* Se la tua organizzazione dispone solo di Workfront Workflow, la piattaforma dell’agente di IA mostra gli strumenti del flusso di lavoro, ma non gli strumenti di Planning.
+* Se la tua organizzazione dispone sia di Workfront Workflow che di Workfront Planning, la piattaforma dell’agente di IA mostra entrambi i set di strumenti.
+* Approfondimenti e strumenti contestuali sono disponibili per tutti i clienti.
+
+Se uno strumento non è disponibile per i diritti dell’organizzazione, non viene visualizzato nell’elenco degli strumenti per tale connessione. Se una piattaforma di agenti di intelligenza artificiale tenta di chiamare direttamente lo strumento comunque, la richiesta viene bloccata e restituisce un errore relativo all’adesione.
+
+Per i generatori di agenti e gli utenti avanzati, tieni presente quanto segue:
+
+* L’elenco degli strumenti disponibili può variare tra i clienti.
+* L&#39;elenco degli strumenti viene stabilito all&#39;avvio della connessione.
+* Se i diritti di un cliente cambiano, l&#39;elenco degli strumenti aggiornato viene visualizzato alla successiva connessione del cliente al server Workfront MCP.
+
+>[!NOTE]
+>
+>Workfront Workflow è attualmente considerata l’area di prodotto di base per la disponibilità dello strumento MCP. Gli strumenti di pianificazione vengono filtrati in base al diritto. Non vi sono attualmente limitazioni di adesione sugli strumenti di approvazione.
+
 
 ## Esempi di cosa chiedere
 
@@ -49,7 +74,7 @@ Dopo la connessione, digita le richieste in linguaggio naturale nella piattaform
 
 >[!NOTE]
 >
->Alcune azioni potrebbero non essere disponibili a causa di controlli di amministrazione nell’area di configurazione di Workfront. Ad esempio, potrebbe non essere possibile creare elementi se l&#39;amministratore di Workfront ha disabilitato le azioni di scrittura per il server MCP.
+>Alcune azioni potrebbero non essere disponibili a causa di controlli di amministrazione nell’area di configurazione di Workfront o perché la tua organizzazione non dispone dei diritti necessari per l’area di prodotto correlata. Ad esempio, potrebbe non essere possibile creare articoli se l&#39;amministratore di Workfront ha disabilitato le azioni di scrittura per il server MCP oppure gli strumenti di Planning potrebbero non essere disponibili se l&#39;organizzazione non dispone della licenza per Workfront Planning.
 
 
 ### Trovare e visualizzare il lavoro
@@ -180,6 +205,7 @@ Workfront non ha il controllo sul modo in cui il provider della piattaforma di g
 | I dati che hai appena modificato in Workfront non vengono ancora visualizzati. | I dati di Insights sono quasi in tempo reale, con un SLA di circa 15 minuti. | Attendi alcuni minuti e chiedi di nuovo, oppure controlla direttamente in Workfront. |
 | La piattaforma dell’agente di intelligenza artificiale ha restituito dati dagli elementi Workfront errati. | La piattaforma dell’agente di intelligenza artificiale ha scelto gli elementi errati in base a una formulazione ambigua. | Chiedi di nuovo con nomi, ID o filtri più specifici. |
 | Un aggiornamento o una cancellazione non ha avuto effetto in Workfront. | L&#39;amministratore di Workfront ha disabilitato le azioni di scrittura per il server Workfront MCP oppure non si dispone dell&#39;autorizzazione per eseguire l&#39;azione sull&#39;elemento specifico. | Conferma con la piattaforma dell’agente di intelligenza artificiale l’esecuzione dell’azione. Verificare quindi che le azioni di scrittura siano abilitate per il server Workfront MCP e di disporre dell&#39;autorizzazione per modificare l&#39;elemento. |
+| Uno strumento che un altro cliente può utilizzare non viene visualizzato automaticamente. | L&#39;organizzazione non ha diritto a quell&#39;area di prodotto oppure la connessione è stata avviata prima dell&#39;entrata in vigore di una modifica del diritto. | Conferma per quali prodotti Workfront la tua organizzazione dispone della licenza. Se i diritti sono stati modificati di recente, avvia una nuova connessione MCP e controlla nuovamente l’elenco degli strumenti. |
 
 Per ulteriori informazioni sui problemi di installazione e autenticazione, vedere [Risoluzione dei problemi di installazione e autenticazione](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Configurazione del server Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -269,6 +295,12 @@ articolo.
 ### Cosa succede quando viene rilasciata una nuova versione del server Workfront MCP?
 
 Il server MCP in genere si aggiorna automaticamente, ma potrebbe essere necessario aggiornare la connessione al server MCP in alcuni momenti per visualizzare gli strumenti e le funzionalità più recenti.
+
+### Perché non vedo gli stessi strumenti MCP visualizzati da un altro cliente?
+
+Gli strumenti MCP disponibili possono variare a seconda del cliente, in quanto il server MCP di Workfront filtra alcuni strumenti in base alle adesioni dei prodotti. Ad esempio, i clienti con licenza per Workfront Planning possono visualizzare gli strumenti di Planning, mentre i clienti senza tale autorizzazione non possono visualizzarli. I clienti con licenza per Workfront Workflow possono visualizzare gli strumenti del flusso di lavoro.
+
+L&#39;elenco degli strumenti viene impostato all&#39;avvio della connessione. Se i diritti della tua organizzazione cambiano, avvia una nuova connessione per visualizzare l’elenco aggiornato.
 
 ### Posso utilizzare il server Workfront MCP se la mia istanza Workfront non è abilitata su Adobe Identity Management System (IMS)?
 

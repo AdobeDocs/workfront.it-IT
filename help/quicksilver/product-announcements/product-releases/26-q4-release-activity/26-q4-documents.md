@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 2%
 ---
 # Miglioramenti ai documenti del quarto trimestre 2026
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Anteprima: N/D
->Versione rapida di produzione: 17 settembre 2026
 >Produzione per tutti: 15 ottobre 2026
+>Questa funzione non è stata rilasciata nella versione rapida di produzione il 17 settembre 2026, come originariamente pianificato. Ora sarà disponibile in Produzione per tutti il 15 ottobre 2026.
 
 Quando si imposta un messaggio personalizzato per l&#39;approvazione di un documento, tale messaggio viene ora visualizzato anche nella riga dell&#39;oggetto del messaggio di posta elettronica di richiesta di approvazione, guidato dalla data di scadenza impostata. In questo modo i revisori possono vedere cosa richiede attenzione e quando direttamente dalla casella in entrata, senza aprire l’e-mail.
 

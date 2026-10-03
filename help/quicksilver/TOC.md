@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -694,6 +694,7 @@ ht-degree: 91%
       * [Eliminare una condizione personalizzata](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Gestire Adobe Workfront {#manage-wf}
     * [Gestire Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Configurare le sottoscrizioni di eventi in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * Configurare la funzionalità della bozza {#configure-proofing}
       * [Configurare la bozza](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Impostazioni di bozza](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1644,7 +1645,7 @@ ht-degree: 91%
       * [Utilizzare i campi di valuta nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [Filtrare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Modificare il nome o la descrizione di una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-      * [Duplicare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
+      * [Copiare un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [Eliminare una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [Aggiungere una dashboard dell’area di lavoro a un modello layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Gestione dei rapporti {#manage-reports}
@@ -1653,7 +1654,7 @@ ht-degree: 91%
       * [Filtrare un rapporto in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [Riferimento filtro rapporto per dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [Raggruppare i dati dei rapporti in un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [Duplicare un rapporto in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [Copiare e spostare i rapporti nei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Eliminare un rapporto in una dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Rapporti {#reports}
     * [Rapporti](reports-and-dashboards/reports/reports-overview.md)

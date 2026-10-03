@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 9%
 ---
 # Aggiungere campi calcolati a un modulo
@@ -103,8 +103,8 @@ Quando si utilizza un campo personalizzato calcolato esistente, il calcolo non v
 >
 >Le modifiche nelle espressioni calcolate possono causare l’obsolescenza del valore del campo sugli oggetti. Per essere certi di visualizzare sempre il calcolo aggiornato in questi campi, effettuare una delle seguenti operazioni:
 >
->* Dopo aver salvato un oggetto in cui sono stati modificati i dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi Ricalcolare le espressioni personalizzate.
->* Selezionare l&#39;opzione Ricalcola espressioni personalizzate quando si modificano oggetti in blocco.
+>* Dopo aver salvato un oggetto in cui hai modificato i dati in un modulo personalizzato allegato, fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi **Ricalcola espressioni personalizzate**.
+>* Selezionare l&#39;opzione **Ricalcola espressioni personalizzate** quando si modificano oggetti in blocco.
 >* Selezionare l&#39;opzione Aggiorna calcoli precedenti durante la modifica di un campo personalizzato calcolato in un modulo personalizzato.
 
 Per riutilizzare un campo personalizzato calcolato esistente:
@@ -334,18 +334,18 @@ Per riutilizzare un campo personalizzato calcolato esistente:
       >
       >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
       > 
-      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che ne illustra le modalità di utilizzo e un collegamento **Ulteriori informazioni** per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolate](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![Testo della guida dell&#39;espressione](assets/hover-expression-help-text.jpg)
+      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione e un esempio che ne illustri l&#39;utilizzo. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![Testo della guida dell&#39;espressione](assets/hover-expression-help-text.png)
       >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
-      >  ![Colori per espressioni di campo](assets/colors-fields-expressions.jpg)
-      >* Individuare gli errori di calcolo, evidenziati in rosa. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
+      >  ![Colori per espressioni di campo](assets/colors-fields-expressions.png)
+      >* Individuare gli errori di calcolo sottolineati in rosso. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
       >  ![Guida per errori](assets/error-help.png)
       >* Nell&#39;area sottostante il calcolo, visualizzare in anteprima i risultati di un oggetto Workfront esistente.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![Anteprima calcolo](assets/preview-calc.jpg)
+      >  ![Anteprima calcolo](assets/preview-calc.png)
       >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
 
       +++
+
    1. Fare clic su **Riduci a icona** al termine della creazione del calcolo per il campo personalizzato calcolato.
 
    1. (Facoltativo) Utilizza una delle seguenti opzioni per configurare ulteriormente il campo personalizzato calcolato:
@@ -356,7 +356,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
     <tbody> 
      <tr> 
       <td role="rowheader">Aggiungi logica</td> 
-      <td>È possibile aggiungere Logica di visualizzazione per determinare se il campo calcolato viene visualizzato, in base ad almeno una scelta effettuata da un utente in un campo a scelta multipla precedente (a discesa, caselle di controllo o pulsanti di scelta) durante la compilazione del modulo. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Questa opzione è disponibile solo quando almeno una casella di controllo, un pulsante di opzione o un campo a discesa precede il campo personalizzato calcolato nel modulo. </p> <p>La logica di salto non è disponibile per i campi personalizzati calcolati.</p> </td> 
+      <td>È possibile aggiungere la logica di visualizzazione per determinare se visualizzare o meno il campo calcolato in base ad almeno una scelta effettuata da un utente in un campo a scelta multipla precedente (elenco a discesa, caselle di controllo o pulsanti di scelta) durante la compilazione del modulo. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Aggiungere regole di logica a campi e moduli personalizzati</a>. <p>Questa opzione è disponibile solo quando almeno una casella di controllo, un pulsante di opzione o un campo a discesa precede il campo personalizzato calcolato nel modulo. </p> <p>La logica di salto e altri tipi di logica non sono disponibili per i campi personalizzati calcolati.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aggiorna calcoli precedenti</td> 
