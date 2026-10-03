@@ -115,4 +115,4 @@ Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere
 
 Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
