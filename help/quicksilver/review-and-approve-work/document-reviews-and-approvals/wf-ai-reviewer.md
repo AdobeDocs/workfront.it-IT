@@ -33,7 +33,7 @@ role_v2:
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # Guida introduttiva a Workfront AI Reviewer
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contr
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo di file non supportato"
->abstract="Questo revisore IA non supporta il tipo di file selezionato. Carica un tipo di file supportato o rimuovi il revisore IA per inviare la richiesta."
+>abstract="Questo revisore IA non supporta il tipo di file selezionato. Per inviare la richiesta, carica un tipo di file supportato oppure rimuovi il revisore IA."
 
 Il revisore IA può esaminare i seguenti tipi di file:
 
