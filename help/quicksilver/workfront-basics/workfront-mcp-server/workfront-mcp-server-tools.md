@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 4%
 ---
 
@@ -369,11 +369,15 @@ L&#39;elenco degli strumenti viene impostato all&#39;avvio della connessione. Se
 
 
 
+## Telemetria intenzionale
+
+Il server MCP di Workfront tiene traccia delle intenzioni degli utenti per i clienti. I dati Intent raccolti sono generici per scopi di telemetria e vengono raccolti solo per l&#39;intento di un utente in quanto si riferiscono al prodotto Workfront. La telemetria con intento immediato viene utilizzata solo per migliorare gli strumenti MCP esistenti al fine di fornire risposte più precise.
+
+Gli utenti possono disattivare la raccolta di telemetria contattando l’assistenza clienti per inoltrare una richiesta.
+
+
 ## Strumenti aggiuntivi disponibili a breve
 
 Stiamo lavorando per aggiungere in futuro i seguenti strumenti al server Workfront MCP:
 
 * Bacheche
-
-
-
