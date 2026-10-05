@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 1%
 ---
 # Domande frequenti - Sottoscrizione a eventi
@@ -82,7 +82,7 @@ Alcuni dei seguenti scenari potrebbero essere responsabili:
 
   * Un URL di abbonamento a un evento verrà disabilitato se viene soddisfatta una delle seguenti condizioni:
 
-    * L’URL dell’abbonamento non è stato consegnato per 7 giorni e ha avuto esito negativo in almeno 2.000 tentativi di consegna consecutivi nelle ultime 72 ore.
+    * L’URL dell’abbonamento non è stato consegnato per almeno 72 ore e sono stati effettuati più di 2.000 tentativi di consegna consecutivi.
     * L’URL dell’abbonamento non è riuscito a fornire 50.000 tentativi consecutivi.
 
 ## Cosa devo fare se ricevo uno stato di risposta 500 quando tento di chiamare l’API di abbonamento agli eventi?
