@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 51%
+source-wordcount: '94'
+ht-degree: 50%
 ---
 # Assistente IA: indice articolo
 
 >[!IMPORTANT]
 >
->A partire da settembre 2026, IA Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partire da settembre 2026, IA Assistant passerà a CX Enterprise Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Questa sezione contiene i seguenti articoli:
 

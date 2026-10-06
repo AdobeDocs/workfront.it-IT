@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1360'
 ht-degree: 61%
 ---
 # Introduzione alla Pianificazione di Adobe Workfront
@@ -186,7 +186,7 @@ Per individuare la Pianificazione di Workfront:
 
 <div class="preview">
 
-* [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): interfaccia conversazionale in cui viene descritto un obiettivo in linguaggio semplice e quindi pianifica, esegue e convalida il lavoro nei sistemi Workfront Planning e in altri sistemi Adobe connessi prima di riportarlo per l&#39;approvazione. CX Coworker mantiene tutte le attività di AI Assistant e aggiunge funzionalità end-to-end più potenti sia nella nuova esperienza a schermo intero che nella barra laterale destra di Workfront.
+* [Panoramica di Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): interfaccia conversazionale in cui viene descritto un obiettivo in linguaggio semplice e quindi pianifica, esegue e convalida il lavoro nei sistemi Workfront Planning e in altri sistemi Adobe connessi prima di riportarlo per l&#39;approvazione. CX Enterprise Coworker mantiene tutte le attività di AI Assistant e aggiunge funzionalità end-to-end più potenti sia nella nuova esperienza a schermo intero che nella barra laterale destra di Workfront.
 
 </div>
 

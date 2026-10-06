@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3151'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -190,7 +190,7 @@ Il riempimento di un modulo AI ora può recuperare i dati dei campi direttamente
 
 Per informazioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker disponibile in Workfront Planning
+## CX Enterprise Coworker disponibile in Workfront Planning
 
 >[!NOTE]
 >
@@ -198,9 +198,9 @@ Per informazioni, consulta [Utilizzare il riempimento del modulo basato su IA pe
 >Versione rapida di produzione: rollout graduale a partire dal 17 settembre 2026
 >Produzione per tutti: rollout graduale a partire dal 15 ottobre 2026
 
-CX Coworker è ora disponibile in Workfront Planning. Ora è possibile accedere a CX Coworker in un pannello disponibile in Workfront Planning.
+CX Enterprise Coworker è ora disponibile in Workfront Planning. Ora è possibile accedere a CX Enterprise Coworker in un pannello disponibile in Workfront Planning.
 
-CX Coworker Chat è un&#39;interfaccia di conversazione per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
+CX Enterprise Coworker Chat è un&#39;interfaccia di conversazione per il lavoro svolto. Descrivi un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront Planning e nei sistemi Adobe connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione.
 
 Coworker rispetta i controlli di accesso esistenti dell’organizzazione, con accesso in sola lettura per impostazione predefinita, e gli amministratori di sistema controllano quando gli utenti ottengono l’accesso in scrittura.
 
@@ -208,11 +208,11 @@ Coworker sta sostituendo l’attuale Assistente AI come metodo più potente per 
 
 >[!IMPORTANT]
 >
->CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
+>CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
 
-Per ulteriori informazioni, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Icona Assistente IA rimossa dalla casella di anteprima Dettagli record in preparazione all’avvio di CX Coworker
+## Icona Assistente IA rimossa dalla casella di anteprima Dettagli record in preparazione all’avvio di CX Enterprise Coworker
 
 >[!NOTE]
 >
@@ -221,15 +221,15 @@ Per ulteriori informazioni, vedere [Panoramica di CX Coworker](/help/quicksilver
 >Produzione per tutti: rollout graduale a partire dal 15 ottobre 2026
 >[!BADGE Fuori pianificazione]{type=Neutral}
 
-Questa modifica è disponibile per i clienti che dispongono di CX Coworker in Workfront.
+Questa modifica è disponibile per i clienti che dispongono di CX Enterprise Coworker in Workfront.
 
-In preparazione al lancio di Adobe CX Coworker in Workfront, l’icona Assistente IA è stata rimossa dalla pagina di anteprima Dettagli. L’icona è ancora presente nella pagina Dettagli, quando viene aperta a schermo intero. Facendo clic su di esso si aprirà il CX Coworker.
+In preparazione al lancio di Adobe CX Enterprise Coworker in Workfront, l’icona Assistente IA è stata rimossa dalla pagina di anteprima Dettagli. L’icona è ancora presente nella pagina Dettagli, quando viene aperta a schermo intero. Facendo clic su di esso si aprirà il CX Enterprise Coworker.
 
 >[!IMPORTANT]
 >
->CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
+>CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è ancora disponibile per queste organizzazioni.
 
-Per informazioni, vedere [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+Per informazioni, vedere [CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
 ## Esperienza migliorata durante la duplicazione di record con campi collegati con un tipo di connessione Uno-a-uno o Uno-a-molti
 

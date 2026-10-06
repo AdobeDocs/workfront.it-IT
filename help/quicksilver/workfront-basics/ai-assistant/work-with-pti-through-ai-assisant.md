@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 27%
 ---
 # Utilizzare l’Assistente IA per lavorare su progetti, attività e problemi
 
 >[!IMPORTANT]
 >
->A partire da settembre 2026, IA Assistant passerà a CX Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>A partire da settembre 2026, IA Assistant passerà a CX Enterprise Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’Assistente AI può aiutarti a individuare progetti, attività e problemi in Workfront.
 

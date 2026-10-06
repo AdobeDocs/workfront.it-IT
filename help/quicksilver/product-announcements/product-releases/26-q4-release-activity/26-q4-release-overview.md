@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3475'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -24,7 +24,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -277,8 +277,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ora disponibile in Workfront</a>
-                <p>CX Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale Assistente AI.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Enterprise Coworker ora disponibile in Workfront</a>
+                <p>CX Enterprise Coworker è una nuova interfaccia di conversazione per il lavoro svolto nei sistemi Workfront e Adobe connessi, che sostituisce l’attuale Assistente AI.</p>
             </td>
             <td><p>Rollout graduale a partire dal 3 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>
@@ -898,7 +898,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
