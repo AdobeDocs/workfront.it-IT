@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 5%
+source-wordcount: '1639'
+ht-degree: 6%
 ---
 # Introduzione a Adobe Workfront Planning Designer
 
@@ -63,7 +63,7 @@ Per informazioni su Workfront Planning, vedere gli articoli seguenti:
 * [Introduzione alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 * [Panoramica sull’accesso a Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md)
 
-Per informazioni su Assistente IA e CX Coworker in Planning, vedere i seguenti articoli:
+Per informazioni su Assistente AI e Collaboratore in Planning, vedere i seguenti articoli:
 
 * [Panoramica dell’Assistente IA di pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * L&#39;amministratore di Workfront deve attivare il Designer di Planning per l&#39;organizzazione. In seguito, il Designer di Planning sarà disponibile per tutti gli utenti per impostazione predefinita.
-* Se l&#39;organizzazione ha firmato un contratto di intelligenza artificiale, le azioni eseguite dal Designer di Planning possono essere eseguite anche dall&#39;Assistente di intelligenza artificiale o <span class="preview">dal CX Coworker</span>, quando lo si utilizza nell&#39;area Planning.
-* Le azioni eseguite dall&#39;Assistente AI o da <span class="preview">CX Coworker</span> nell&#39;area Planning o quelle eseguite da Planning Designer si trovano nel contesto delle autorizzazioni di Workfront Planning e del livello di accesso a Workfront.
+* Se l&#39;organizzazione ha firmato un contratto di intelligenza artificiale, le azioni eseguite dal Designer di Planning possono essere eseguite anche dall&#39;Assistente di intelligenza artificiale o dal collaboratore <span class="preview"></span>, quando viene utilizzato nell&#39;area Planning.
+* Le azioni eseguite dall&#39;Assistente AI o da <span class="preview">Collaboratore</span> nell&#39;area Planning o quelle eseguite da Planning Designer si trovano nel contesto delle autorizzazioni di Workfront Planning e del livello di accesso a Workfront.
 
   Per ulteriori informazioni, consulta:
 
   * [Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Panoramica del tipo di licenza per l’utilizzo di Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Le modifiche apportate dall&#39;Assistente AI, <span class="preview">CX Coworker</span> o dal Designer di Planning per conto dell&#39;utente vengono registrate nel pannello della cronologia del record.
+* Le modifiche apportate dall&#39;Assistente AI, <span class="preview">Collaboratore,</span> o dal Designer di Planning per conto dell&#39;utente vengono tracciate nel pannello della cronologia del record.
 
 * Le azioni eseguite dal Designer di pianificazione sono permanenti e potrebbero essere irreversibili. L’eliminazione di un campo, ad esempio, non può essere annullata. Rivedi tutte le azioni proposte da Designer prima di accettarle.
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Funzionalità attualmente disponibile per Planning Designer
 
-È possibile utilizzare Planning Designer o l&#39;Assistente AI oppure <span class="preview">CX Coworker</span> per eseguire una delle azioni seguenti:
+È possibile utilizzare Planning Designer oppure l&#39;Assistente AI o <span class="preview">Collaboratore</span> per eseguire una delle azioni seguenti:
 
 * Creare e configurare le aree di lavoro
 
@@ -274,7 +274,7 @@ Sargis and Ashot  said these are not required:
 
 ## Creazione o aggiornamento di oggetti mediante Planning Designer
 
-È possibile creare o aggiornare oggetti in Workfront Planning utilizzando il Designer di Planning o l&#39;Assistente di IA o <span class="preview"> CX Coworker</span>, se non diversamente specificato.
+È possibile creare o aggiornare oggetti in Workfront Planning utilizzando il Designer di Planning oppure l&#39;Assistente AI o il collaboratore <span class="preview"></span>, salvo diversa indicazione.
 
 1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) in alto a sinistra, quindi fai clic su **Planning**.
 
@@ -288,7 +288,7 @@ Sargis and Ashot  said these are not required:
 
    ![Finestra di Planning Designer](assets/planning-designer-window.png)
 
-1. Nello spazio fornito, inizia a digitare i prompt per l&#39;Assistente IA <span class="preview"> di CX Coworker</span>, quindi al termine fai clic su Invio.
+1. Nello spazio fornito, inizia a digitare i prompt per l&#39;Assistente IA <span class="preview"> o Collaboratore</span>, quindi al termine fai clic su Invio.
 
    <!--add screen shot-->
 
