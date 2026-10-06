@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 
 # Introduzione allo spazio ideazione per Adobe Workfront Planning
@@ -200,10 +200,10 @@ Worth noting
 
 ## Risorse aggiuntive
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/it/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Documentazione di Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Panoramica di Adobe GenStudio](https://business.adobe.com/it/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/it/products/adobe-analytics/customer-journey-analytics.html)
+* [Panoramica di Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
