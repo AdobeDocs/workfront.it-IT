@@ -2,10 +2,10 @@
 product-area: documents
 navigation-topic: approvals
 title: Creare un’approvazione raggruppata
-description: Puoi raggruppare più risorse in un unico flusso di lavoro di approvazione in modo che possano passare attraverso le stesse fasi insieme.
+description: È possibile raggruppare più documenti in un unico flusso di lavoro di approvazione in modo che passino attraverso le stesse fasi insieme.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f55042154ac3d93544c152b7b1ad26746a209772
+source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <span class="preview">Le informazioni su questa pagina non sono disponibili nell&#39;ambiente Sandbox di anteprima perché l&#39;integrazione Frame.io non è disponibile. Questa funzionalità sarà disponibile negli ambienti di produzione il 14 e 15 ottobre 2026.</span>
 
-Un’approvazione raggruppata raggruppa più risorse in un unico flusso di lavoro di approvazione. È possibile utilizzare la modalità Base e Avanzate, più fasi e percorsi paralleli con approvazioni raggruppate, proprio come con le approvazioni a risorsa singola.
+Un’approvazione raggruppata raggruppa più documenti in un unico flusso di lavoro di approvazione. È possibile utilizzare la modalità Base e Avanzate, più fasi e percorsi paralleli con approvazioni raggruppate, proprio come con le approvazioni a documento singolo.
 
 Le approvazioni raggruppate sono disponibili solo nella nuova area Documenti, che viene visualizzata quando l’organizzazione utilizza l’archiviazione cloud Adobe. Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -60,9 +60,9 @@ Per creare un’approvazione raggruppata in una sola fase:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene i documenti, quindi seleziona **Documenti** nel pannello a sinistra.
 
-1. Fai clic sulla prima risorsa da includere, quindi Maiusc+fai clic sulle risorse aggiuntive per selezionare più risorse.
+1. Fare clic sul primo documento che si desidera includere, quindi fare clic sui documenti aggiuntivi per selezionare più documenti.
 
-1. Con le risorse selezionate, fai clic su **Richiedi approvazione** nel menu in basso. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
+1. Con i documenti selezionati, fai clic su **Richiedi approvazione** nel menu in basso. La finestra di dialogo **Richiedi approvazione** si apre in modalità Base.
 
    ![crea un&#39;approvazione raggruppata](assets/requeset-grouped-approval.png)
 
@@ -92,7 +92,7 @@ Per creare un’approvazione raggruppata in una sola fase:
    </tr>
    </table>
 
-1. (Facoltativo) Fai clic sulla scheda **Documenti** per esaminare le risorse incluse in questa approvazione.
+1. (Facoltativo) Fai clic sulla scheda **Documenti** per esaminare i documenti inclusi in questa approvazione.
 
 1. Fai clic su **Richiedi approvazione**.
 
@@ -112,9 +112,9 @@ Per creare un’approvazione avanzata raggruppata:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene i documenti, quindi seleziona **Documenti** nel pannello a sinistra.
 
-1. Fai clic sulla prima risorsa da includere, quindi Maiusc+fai clic sulle risorse aggiuntive per selezionare più risorse.
+1. Fare clic sul primo documento che si desidera includere, quindi fare clic sui documenti aggiuntivi per selezionare più documenti.
 
-1. Con le risorse selezionate, fai clic su **Richiedi approvazione** nel menu in basso.
+1. Con i documenti selezionati, fai clic su **Richiedi approvazione** nel menu in basso.
 
    ![crea un&#39;approvazione raggruppata](assets/requeset-grouped-approval.png)
 
@@ -167,7 +167,7 @@ Per creare un’approvazione avanzata raggruppata:
 
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** nell&#39;angolo in alto a destra.
 
-1. (Facoltativo) Fai clic sulla scheda **Documenti** per esaminare le risorse incluse in questa approvazione.
+1. (Facoltativo) Fai clic sulla scheda **Documenti** per esaminare i documenti inclusi in questa approvazione.
 
 1. Fai clic su **Richiedi approvazione**.
 
@@ -194,4 +194,4 @@ To add an additional document to a grouped approval:
 ## Limitazioni note
 
 * Al momento non è possibile aggiungere o rimuovere documenti da un flusso di lavoro di approvazione raggruppato una volta creato. Questa funzionalità è pianificata per una versione futura.
-* Le approvazioni raggruppate sono temporaneamente limitate a 3 percorsi e 25 risorse per gruppo.
+* Le approvazioni raggruppate sono temporaneamente limitate a 3 percorsi e 25 documenti per gruppo.
