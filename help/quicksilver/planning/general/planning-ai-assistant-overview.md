@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 5%
+source-wordcount: '988'
+ht-degree: 6%
 ---
 # Panoramica dell’Assistente IA di pianificazione di Adobe Workfront
 
@@ -55,7 +55,7 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 >[!IMPORTANT]
 >
-><span class="preview">In alcune organizzazioni, l&#39;Assistente IA è stato sostituito da CX Coworker. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">In alcune organizzazioni, l&#39;Assistente IA è stato sostituito da CX Enterprise Coworker. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Requisiti di accesso
 
@@ -160,7 +160,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 >[!NOTE]
 >
-><span class="preview">Se l&#39;organizzazione ha ricevuto l&#39;accesso a CX Coworker, l&#39;individuazione di Coworker è simile all&#39;individuazione dell&#39;Assistente AI. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Se l&#39;organizzazione ha ricevuto l&#39;accesso a CX Enterprise Coworker, l&#39;individuazione di Coworker è simile all&#39;individuazione dell&#39;Assistente AI. Per informazioni, vedere [Panoramica di Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 È possibile individuare l&#39;Assistente AI nelle seguenti aree di Workfront Planning:

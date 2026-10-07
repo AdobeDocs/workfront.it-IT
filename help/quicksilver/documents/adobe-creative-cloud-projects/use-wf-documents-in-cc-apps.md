@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
+source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '648'
 ht-degree: 3%
 ---
 # Utilizzare i documenti Workfront nelle app Creative Cloud
@@ -79,8 +79,14 @@ Per accedere a un progetto Workfront in Photoshop, Illustrator o InDesign:
 
 ## Salvare un nuovo documento in Workfront da un&#39;app Creative Cloud
 
+È possibile salvare un nuovo file in Workfront oppure una nuova copia di un file esistente in Workfront da Photoshop, Illustrator o InDesign.
+
+Per salvare un nuovo documento in Workfront:
+
 1. Apri Photoshop, Illustrator o InDesign e crea un nuovo file.
-1. Nel menu principale, selezionare **File > Salva con nome**.
+1. Se salvi un nuovo file, fai clic su **Salva** nel menu principale.
+Oppure
+Se salvi una nuova copia di un file esistente, fai clic su **Salva con nome** nel menu principale.
 1. Nella finestra di dialogo **Salva con nome**, seleziona **Salva in documenti cloud**, quindi scegli il progetto Workfront necessario.
 
    >[!NOTE]

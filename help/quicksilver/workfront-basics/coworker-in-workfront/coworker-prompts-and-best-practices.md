@@ -1,5 +1,5 @@
 ---
-title: Suggerimenti e best practice per CX Coworker
+title: Suggerimenti e best practice per CX Enterprise Coworker
 content-type: reference
 description: Scopri le best practice per l’utilizzo di Coworker in Workfront e visualizza un elenco di esempi di prompt.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 2%
 ---
-# Suggerimenti e best practice per CX Coworker
+# Suggerimenti e best practice per CX Enterprise Coworker
 
 &lt;!—DO NOT USE THIS—Collegamento invece all&#39;articolo di richiesta di esempio MCP, assicurarsi che sia aggiornato con le versioni recenti di MCP—>
 
 >[!IMPORTANT]
 >
->CX Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente AI è disponibile per queste organizzazioni. Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente AI è disponibile per queste organizzazioni. Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Con CX Coworker, è possibile utilizzare il linguaggio naturale per interagire con Workfront Workflow e Workfront Planning.
+Con CX Enterprise Coworker, è possibile utilizzare il linguaggio naturale per interagire con Workfront Workflow e Workfront Planning.
 
 Collaboratore fa parte di Adobe Experience Cloud Agent Orchestrator.
 
