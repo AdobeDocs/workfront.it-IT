@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # Miglioramenti per gli amministratori del quarto trimestre 2026
@@ -23,6 +23,22 @@ ht-degree: 1%
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Visualizzare la cronologia impiego di un utente
+
+>[!NOTE]
+>
+>Anteprima: 1 ottobre 2026
+>Versione rapida di produzione: 14 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+
+Per aiutarti a tenere traccia delle modifiche apportate nel tempo a mansioni, agenzie, centri di costo e tariffe di fatturazione di un utente, abbiamo aggiunto la cronologia dell’impiego.
+
+La cronologia impiego mostra una visualizzazione cronologica di questi dettagli per uno o più utenti. Ogni riga rappresenta un set specifico di valori e l’intervallo di date durante il quale sono stati applicati.
+
+È possibile visualizzare la cronologia dell&#39;impiego per più utenti o la cronologia completa di un singolo utente. In entrambe le visualizzazioni è possibile filtrare i risultati, personalizzare le colonne visualizzate ed esportare i dati come file CSV o XLSX.
+
+Per ulteriori informazioni, vedere [Visualizzare la cronologia impiego dell&#39;utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Utilizza l’intelligenza artificiale per generare la localizzazione personalizzata
 
@@ -73,7 +89,7 @@ Sono stati apportati diversi miglioramenti ai modelli di layout:
 * È ora possibile riposizionare le applicazioni personalizzate in qualsiasi ordine con le opzioni di menu predefinite di Workfront. Ciò consente di posizionare ogni applicazione nella posizione più appropriata. In precedenza, le applicazioni personalizzate erano sempre gli ultimi elementi nelle opzioni del menu principale del modello di layout e non potevano essere riposizionate.
 * È ora possibile nascondere la pagina Dettagli di un oggetto dal pannello di navigazione a sinistra. Un oggetto deve avere almeno un elemento visualizzato nel pannello a sinistra. Se tutti gli altri elementi sono nascosti, non è possibile nascondere l&#39;ultimo elemento rimanente.
 
-Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e[Personalizzare il pannello sinistro utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Personalizzare il pannello sinistro utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Esperienza migliorata per l’aggiornamento delle scelte dei campi nel designer di moduli personalizzati
 
