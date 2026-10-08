@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 9%
 ---
 # Aggiungere campi calcolati a un modulo
@@ -356,7 +356,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
     <tbody> 
      <tr> 
       <td role="rowheader">Aggiungi logica</td> 
-      <td>È possibile aggiungere la logica di visualizzazione per determinare se visualizzare o meno il campo calcolato in base ad almeno una scelta effettuata da un utente in un campo a scelta multipla precedente (elenco a discesa, caselle di controllo o pulsanti di scelta) durante la compilazione del modulo. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Aggiungere regole di logica a campi e moduli personalizzati</a>. <p>Questa opzione è disponibile solo quando almeno una casella di controllo, un pulsante di opzione o un campo a discesa precede il campo personalizzato calcolato nel modulo. </p> <p>La logica di salto e altri tipi di logica non sono disponibili per i campi personalizzati calcolati.</p> </td> 
+      <td>È possibile aggiungere la logica di visualizzazione per determinare se visualizzare o meno il campo calcolato in base ad almeno una scelta effettuata da un utente in un campo a scelta multipla precedente (elenco a discesa, caselle di controllo o pulsanti di scelta) durante la compilazione del modulo. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Aggiungere regole di logica a campi e moduli personalizzati</a>. <p>Questa opzione è disponibile solo quando almeno una casella di controllo, un pulsante di opzione o un campo a discesa precede il campo personalizzato calcolato nel modulo. </p> <p>La logica di salto e altri tipi di logica non sono disponibili per i campi personalizzati calcolati.</p> <p><b>Nota:</b> i campi personalizzati nascosti dalla logica di visualizzazione mantengono i propri valori e sono ancora inclusi in espressioni quali CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aggiorna calcoli precedenti</td> 
