@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3601'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -24,7 +24,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -65,8 +65,26 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Visualizza la cronologia impiego di un utente</a>
+                <p>Gli amministratori di Workfront possono ora tenere traccia nel tempo delle modifiche apportate a mansioni, agenzie, centri di costo e tariffe di fatturazione di un utente in un'unica visualizzazione filtrabile Cronologia impiego.</p>
+            </td>
+            <td><p>1 ottobre 2026</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Utilizza IA per generare la localizzazione personalizzata</a>
                 <p>Gli amministratori di Workfront ora possono utilizzare l’intelligenza artificiale per generare traduzioni per testo di localizzazione personalizzato e rivedere o modificare i risultati prima di salvarli.</p>
+            </td>
+            <td><p>1 ottobre 2026</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Miglioramenti ai modelli di layout</a>
+                <p>Sono stati apportati diversi miglioramenti ai modelli di layout, tra cui nascondere o visualizzare gli elementi nel menu principale, posizionare l’applicazione personalizzata nel menu principale e nascondere i dettagli nel menu di navigazione a sinistra.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
             <td><p>14 ottobre 2026</p></td>
@@ -134,16 +152,6 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Settimane personalizzate in aggiunta ai trimestri personalizzati per i clienti Workfront Planning</a>
                 <p>Se la tua organizzazione dispone di un pacchetto Planning, ora puoi configurare le settimane personalizzate nello stesso modo in cui configuri i trimestri personalizzati.</p>
-            </td>
-            <td><p>3 settembre 2026</p></td>
-            <td><p>17 settembre 2026</p></td>
-            <td><p>15 ottobre 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Riordinare le applicazioni personalizzate nel menu principale</a>
-                <p><strong>NOTA:</strong> questa funzionalità è stata temporaneamente rimossa dall'ambiente di anteprima il 14 settembre 2026.</p>
-                <p>È ora possibile riposizionare le applicazioni personalizzate nel menu principale di un modello di layout invece di visualizzarle sempre per ultime.</p>
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
@@ -361,6 +369,17 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>1 ottobre 2026</p></td>
             <td><p>1 ottobre 2026</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
+            </td>
+            <td><p>October 8, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Raggruppare più documenti in un unico flusso di lavoro di approvazione</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -370,27 +389,24 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><p>14 ottobre 2026</p></td>
             <td><p>15 ottobre 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
-                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Aggiungere un collegamento Web come documento</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Ora puoi aggiungere un sito web ad Adobe Workfront come collegamento web nella nuova area Documenti e richiedere l’approvazione sulla pagina web live.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>Questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile in tale ambiente.</p></td>
+            <td><p>14 ottobre 2026</p></td>
+            <td><p>15 ottobre 2026</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accedere ai progetti Workfront nelle app Adobe Creative Cloud</a>
+                <p>Ora puoi accedere ai tuoi progetti Workfront direttamente da Adobe Photoshop, Illustrator e InDesign utilizzando il pannello Progetti.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
+            <td><p>N/D</p></td>
+            <td><p>[DATA]</p></td>
+            <td><p>[DATA]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accesso completo agli amministratori di sistema ai modelli di approvazione</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -898,7 +914,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 
