@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # Inviare richieste di Pianificazione di Adobe Workfront per creare record
@@ -220,6 +220,12 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >Il campo **Name** è univoco per la tua organizzazione e potrebbe contenere un&#39;etichetta diversa nella tua istanza di Workfront. Il campo è il campo principale del record.
 
 1. Aggiorna i campi rimanenti nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
+
+   >[!TIP]
+   >
+   >I valori dei campi dei record dipendenti collegati sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Condizionale) Se la tua organizzazione consente il **riempimento modulo** basato su AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
 
 

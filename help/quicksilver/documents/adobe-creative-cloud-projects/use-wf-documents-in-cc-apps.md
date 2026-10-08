@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '662'
 ht-degree: 3%
 ---
 # Utilizzare i documenti Workfront nelle app Creative Cloud
@@ -84,9 +84,9 @@ Per accedere a un progetto Workfront in Photoshop, Illustrator o InDesign:
 Per salvare un nuovo documento in Workfront:
 
 1. Apri Photoshop, Illustrator o InDesign e crea un nuovo file.
-1. Se salvi un nuovo file, fai clic su **Salva** nel menu principale.
-Oppure
-Se salvi una nuova copia di un file esistente, fai clic su **Salva con nome** nel menu principale.
+1. Nel menu principale, effettuate una delle seguenti operazioni:
+   * Per salvare un nuovo file, fare clic su **Salva**.
+   * Per salvare una nuova copia di un file esistente, fare clic su **Salva con nome**.
 1. Nella finestra di dialogo **Salva con nome**, seleziona **Salva in documenti cloud**, quindi scegli il progetto Workfront necessario.
 
    >[!NOTE]
@@ -108,7 +108,7 @@ Se salvi una nuova copia di un file esistente, fai clic su **Salva con nome** ne
 
 ## Gestire le versioni di un documento in Workfront da un’app Creative Cloud
 
-Quando si salva un documento da Photoshop, Illustrator o InDesign a Workfront, le modifiche salvate vengono visualizzate nel file Corrente della scheda Versioni e contrassegnate con il contrassegno &quot;Nuove modifiche&quot;.
+Quando si salva un documento da Photoshop, Illustrator o InDesign a Workfront, le modifiche salvate vengono visualizzate nel file Corrente della scheda Versioni e contrassegnate con il badge &quot;Nuovi aggiornamenti&quot;.
 
 È possibile richiedere un&#39;approvazione sul file corrente anziché caricare una nuova versione del documento. Per ulteriori informazioni, vedere [Richiedere un&#39;approvazione per il file corrente](#request-approval-on-the-current-file).
 

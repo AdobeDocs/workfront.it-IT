@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * I livelli di dipendenza sono limitati a 6 connessioni. Ciò significa che è possibile collegare fino a 7 tipi di record.
 
 * Affinché la catena di dipendenze funzioni, tutti i campi dipendenti devono esistere contemporaneamente sullo stesso tipo di record.
+
+* I campi dipendenti sono supportati per tutte le aree in cui vengono visualizzati i campi dei record connessi, incluse le aree Dettagli dei moduli di richiesta o di record.
 
 ## Creare una connessione dipendente
 
