@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 2%
+source-wordcount: '3711'
+ht-degree: 1%
 ---
 # Aggiungere regole logiche a campi e moduli personalizzati
 
@@ -120,6 +120,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
   * Per impostazione predefinita, i campi personalizzati non inclusi in un’istruzione di logica di visualizzazione vengono visualizzati in un modulo personalizzato.
   * Puoi creare istruzioni logiche di visualizzazione a più campi.
   * Se a tutti i campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato.
+  * I campi nascosti dalla logica di visualizzazione mantengono i propri valori e sono ancora inclusi in espressioni come CONCAT.
 
 ## Aggiungere logica di visualizzazione a un modulo personalizzato
 
