@@ -30,12 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1048'
+ht-degree: 6%
 ---
-# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1&rbrace; nell&#39;area [!UICONTROL Home]]
+# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1} nell&#39;area [!UICONTROL Home]]
 
 <!-- Audited: 1/2024 -->
 
@@ -120,7 +120,8 @@ Per essere visualizzate nel widget Team personali, le richieste del team devono 
 
 >[!NOTE]
 >
->Le opzioni del filtro sono memorizzate nel browser. Se utilizzi sempre lo stesso browser sullo stesso computer (e non cancelli i dati del sito), i filtri selezionati non cambiano. Se si cambia browser o computer, i filtri tornano all&#39;opzione predefinita, che è con tutti i filtri deselezionati.
+>Le opzioni di filtro per la maggior parte dei widget sono memorizzate nel browser. Se utilizzi sempre lo stesso browser sullo stesso computer (e non cancelli i dati del sito), i filtri selezionati non cambiano. Se si cambia browser o computer, i filtri tornano all&#39;opzione predefinita, che è con tutti i filtri deselezionati. <br>
+>Il widget Approvazioni personali non memorizza le opzioni filtro nel browser. Il widget Approvazioni personali utilizza sempre per impostazione predefinita l&#39;opzione Filtro Approvazioni personali, che consente di visualizzare le approvazioni assegnate all&#39;utente.
 
 Per filtrare il lavoro:
 

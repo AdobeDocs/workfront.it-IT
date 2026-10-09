@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 4%
+source-wordcount: '976'
+ht-degree: 3%
 ---
 # Creare un account lettore o una connessione per Snowflake
 
@@ -73,6 +73,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 ## Creare un account di lettura
 
 È necessario creare un nuovo account lettore Snowflake per l&#39;organizzazione prima di iniziare a creare connessioni.
+
+L&#39;account di lettura consente di accedere in sola lettura ai dati di connessione dati, che è possibile interrogare da Snowflake o da uno strumento di visualizzazione o elaborazione dati di terze parti. Data Connect condivide i dati solo tramite le visualizzazioni di Snowflake. Le tabelle di database non sono incluse.
+
+Per ulteriori informazioni, vedere [Creare un account di lettura](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create) nella documentazione di Snowflake.
 
 >[!IMPORTANT]
 >
