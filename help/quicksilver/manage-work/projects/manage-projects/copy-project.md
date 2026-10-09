@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 12%
-
 ---
-
 # Copiare un progetto
 
 <!--
@@ -162,76 +170,76 @@ Per copiare un progetto:
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Seleziona tutto</td> 
       <td> <p>Seleziona tutte le opzioni e cancella tutti i campi e gli oggetti elencati dal nuovo progetto. </p>
 
    <p> Deselezionando questa opzione vengono deselezionati tutti gli elementi. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Assegnazioni</td> 
-      <td>Rimuove tutte le assegnazioni di progetto e attività.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Avanzamento</td> 
-      <td>Rimuove lo stato di avanzamento di tutte le attività, visualizzandole come nuove. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Dati personalizzati</td> 
-      <td> <p>Rimuove le informazioni dal modulo personalizzato sul progetto, nonché le informazioni sui moduli personalizzati associati ai seguenti elementi:</p> 
-       <ul> 
-        <li>Attività</li> 
-        <li>Spese</li> 
-        <li> Documenti</li> 
-       </ul> 
-      <p>I moduli personalizzati rimangono allegati alle attività, alle spese, ai documenti e al progetto, ma le informazioni contenute nei campi personalizzati del modulo non vengono copiate nel nuovo progetto. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documenti</td> 
-      <td> <p>Rimuove tutti gli elementi presenti nella scheda Documenti, incluse le versioni dei documenti, i documenti collegati e le cartelle.</p> <p>Per impostazione predefinita, le bozze e le approvazioni dei documenti non possono essere copiate in un altro progetto. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Assegnazioni</td> 
+        <td>Rimuove tutte le assegnazioni di progetto e attività.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Avanzamento</td> 
+        <td>Rimuove lo stato di avanzamento di tutte le attività, visualizzandole come nuove. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Dati personalizzati</td> 
+        <td> <p>Rimuove le informazioni dal modulo personalizzato sul progetto, nonché le informazioni sui moduli personalizzati associati ai seguenti elementi:</p> 
+        <ul> 
+          <li>Attività</li> 
+          <li>Spese</li> 
+          <li> Documenti</li> 
+        </ul> 
+        <p>I moduli personalizzati rimangono allegati alle attività, alle spese, ai documenti e al progetto, ma le informazioni contenute nei campi personalizzati del modulo non vengono copiate nel nuovo progetto. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Documenti</td> 
+        <td> <p>Rimuove tutti gli elementi presenti nella scheda Documenti, incluse le versioni dei documenti, i documenti collegati e le cartelle.</p> <p>Per impostazione predefinita, le bozze e le approvazioni dei documenti non possono essere copiate in un altro progetto. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">Tutti i predecessori</td> 
       <td> <p>Rimuove tutte le relazioni predecessore tra le attività del progetto. </p> <p>
 
    I predecessori tra progetti non vengono mai trasferiti al nuovo progetto, indipendentemente dal fatto che sia selezionato o meno. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">Ore preventivate</td> 
-      <td> <p>Rimuove le ore preventivate nell'area Pianificazione risorse del Business Case del progetto dal progetto copiato.</p> 
-    <p>
-   Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un'iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse budget nel caso di business utilizzando Scenario Planner</a></p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">Informazioni finanziarie</td> 
-      <td> <p>Rimuove le informazioni nelle seguenti aree: </p> 
-       <ul> 
-        <li>Scheda secondaria Finanza del progetto</li> 
-        <li> Vantaggio pianificato nel Business Case</li> 
-        <li>Informazioni finanziarie da tutte le attività<br></li> 
-       </ul> <p>Per ulteriori informazioni sulla scheda secondaria Finanza progetto, vedere <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestire le informazioni nell'area Finanza progetto</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Processo di approvazione</td> 
-      <td>Rimuove tutte le approvazioni associate alle attività o al progetto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Notifiche promemoria</td> 
-      <td> Rimuove gli Avvisi di Promemoria associati alle attività o al progetto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Spese</td> 
-      <td>Rimuove le spese associate alle attività o al progetto. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Autorizzazioni</td> 
-      <td> Rimuove le autorizzazioni per tutti gli utenti sulle attività o sul progetto.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">Ore preventivate</td> 
+        <td> <p>Rimuove le ore preventivate nell'area Pianificazione risorse del Business Case del progetto dal progetto copiato.</p> 
+      <p>
+    Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un'iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse budget nel caso di business utilizzando Scenario Planner</a></p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Informazioni finanziarie</td> 
+        <td> <p>Rimuove le informazioni nelle seguenti aree: </p> 
+        <ul> 
+          <li>Scheda secondaria Finanza del progetto</li> 
+          <li> Vantaggio pianificato nel Business Case</li> 
+          <li>Informazioni finanziarie da tutte le attività<br></li> 
+        </ul> <p>Per ulteriori informazioni sulla scheda secondaria Finanza progetto, vedere <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestire le informazioni nell'area Finanza progetto</a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Processo di approvazione</td> 
+        <td>Rimuove tutte le approvazioni associate alle attività o al progetto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Notifiche promemoria</td> 
+        <td> Rimuove gli Avvisi di Promemoria associati alle attività o al progetto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Spese</td> 
+        <td>Rimuove le spese associate alle attività o al progetto. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Autorizzazioni</td> 
+        <td> Rimuove le autorizzazioni per tutti gli utenti sulle attività o sul progetto.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Fai clic su **Copia progetto**. Il progetto copiato viene creato.

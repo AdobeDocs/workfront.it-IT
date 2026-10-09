@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
 source-wordcount: '3110'
 ht-degree: 1%
@@ -223,7 +223,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
    >[!TIP]
    >
-   >I valori dei campi dei record dipendenti collegati sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   ><span class="preview">I valori dei campi dei record collegati dipendenti sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 
 
 1. (Condizionale) Se la tua organizzazione consente il **riempimento modulo** basato su AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
@@ -298,7 +298,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta. Il record viene creato solo dopo la concessione dell’approvazione.
    >  Per informazioni sull&#39;approvazione delle richieste, vedere [Approvare una richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
