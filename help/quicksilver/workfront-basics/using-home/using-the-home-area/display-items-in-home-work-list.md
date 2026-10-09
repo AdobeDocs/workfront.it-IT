@@ -35,7 +35,7 @@ workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 6%
 ---
-# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1} nell&#39;area [!UICONTROL Home]]
+# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1&rbrace; nell&#39;area [!UICONTROL Home]]
 
 <!-- Audited: 1/2024 -->
 
