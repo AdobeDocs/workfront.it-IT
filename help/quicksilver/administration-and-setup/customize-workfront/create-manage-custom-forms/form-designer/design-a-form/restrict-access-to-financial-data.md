@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '755'
+ht-degree: 8%
 ---
 # Limitare l’accesso ai dati finanziari nei campi personalizzati
 
@@ -33,7 +33,7 @@ Quando si crea un campo personalizzato, è possibile definire impostazioni facol
 
 Per informazioni sulla creazione di un campo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Per informazioni sui livelli di accesso, vedere [Panoramica sui livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Per informazioni sulla condivisione e sulle autorizzazioni, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Per informazioni sulla definizione dell&#39;accesso ai dati finanziari tramite livelli di accesso e autorizzazioni, vedere [Concedere l&#39;accesso ai dati finanziari](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Requisiti di accesso
 
@@ -89,16 +89,27 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >Per i campi calcolati, è consentito qualsiasi formato. Tutti gli altri tipi di campo devono utilizzare il formato **Valuta**, altrimenti il campo **Tipo di autorizzazione Finanziaria** non sarà disponibile.
 
-1. (Facoltativo) Solo per i campi calcolati, attivare l&#39;opzione **Autorizzazione automatica** per consentire alle autorizzazioni per contabilità di provenire automaticamente dai campi della formula.
+1. (Facoltativo) Solo per i campi calcolati, attivare l&#39;opzione **Autorizzazione automatica** per consentire la creazione automatica delle autorizzazioni per la contabilità dai campi della formula.
 
 1. Selezionare un&#39;opzione per il tipo di autorizzazione **Finanza**.
 
-   Gli utenti devono disporre di questo tipo di autorizzazione per il finanziamento prima di poter visualizzare o modificare il campo personalizzato nel modulo.
+   Questa impostazione definisce il tipo di accesso e le autorizzazioni di cui gli utenti devono disporre prima di poter visualizzare o modificare il campo personalizzato nel modulo.
 
-   * **Nessuna autorizzazione richiesta:** Tutti gli utenti possono visualizzare questo campo
-   * **Generale:** gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le informazioni di contabilità generale
-   * **Fatturazione:** gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe di fatturazione
-   * **Costo:** gli utenti devono disporre delle autorizzazioni per modificare o visualizzare le tariffe
+   * **Nessuna autorizzazione richiesta:** tutti gli utenti possono visualizzare il campo, indipendentemente dal loro livello di accesso e dalle autorizzazioni per gli oggetti.
+   * **Generale:** gli utenti devono disporre di uno di questi per visualizzare il campo:
+
+     * Il loro livello di accesso include l’accesso View (Visualizzazione) o Edit (Modifica) ai dati finanziari, con l’accesso abilitato per General Finance.
+     * Le loro autorizzazioni per l’oggetto a cui è allegato il modulo personalizzato includono la visualizzazione o la modifica di Dati finanziari generali.
+
+   * **Fattura:** Gli utenti devono disporre di uno di questi per visualizzare il campo:
+
+     * Il loro livello di accesso include l’accesso View (Visualizzazione) o Edit (Modifica) ai dati finanziari, con l’accesso abilitato per le tariffe di fatturazione.
+     * Le loro autorizzazioni per l’oggetto a cui è allegato il modulo personalizzato includono la visualizzazione o la modifica delle tariffe di fatturazione.
+
+   * **Costo:** Gli utenti devono disporre di uno di questi per visualizzare il campo:
+
+     * Il loro livello di accesso include l&#39;accesso View (Visualizzazione) o Edit (Modifica) ai dati finanziari, con l&#39;accesso abilitato per Cost Rates (Tassi di costo).
+     * Le loro autorizzazioni per l’oggetto a cui è allegato il modulo personalizzato includono la visualizzazione o la modifica dei tassi di costo.
 
    Per i campi calcolati:
 
