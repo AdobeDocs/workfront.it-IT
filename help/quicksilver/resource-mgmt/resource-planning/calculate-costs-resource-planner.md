@@ -6,25 +6,29 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 3%
-
 ---
-
 # Calcolare i costi in pianificazione risorse
 
 <!--
@@ -145,10 +149,10 @@ Sebbene non sia possibile visualizzare le informazioni sulle attività nella Pro
 * Tipo di assegnazione per l&#39;attività.\
   È possibile lasciare un&#39;attività non assegnata o assegnare le seguenti entità a un&#39;attività:
 
-   * Un utente (con o senza una mansione)
-   * Un Ruolo
-   * Un team\
-     Un&#39;attività assegnata a un team viene considerata non assegnata dal punto di vista della programmazione delle risorse.
+  * Un utente (con o senza una mansione)
+  * Un Ruolo
+  * Un team\
+    Un&#39;attività assegnata a un team viene considerata non assegnata dal punto di vista della programmazione delle risorse.
 
 * Il **Tipo di costo** delle attività nel progetto.\
   Per ulteriori informazioni sul tipo di costo di un&#39;attività, vedere [Tracciare i costi](../../manage-work/projects/project-finances/track-costs.md).
@@ -165,99 +169,99 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
 * Quando il tipo di costo **Tipo di costo** è **Ore utente** e non è presente **alcuna assegnazione** per l&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     I costi pianificati per ruolo e utente sono pari a $ 0,00.
+    I costi pianificati per ruolo e utente sono pari a $ 0,00.
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto è di $0,00.
+    Il costo pianificato del progetto è di $0,00.
 
 * Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione **utente** per l&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     Il costo pianificato dall&#39;utente viene calcolato utilizzando la formula seguente:
+    Il costo pianificato dall&#39;utente viene calcolato utilizzando la formula seguente:
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     Se nel profilo di un utente è presente una tariffa, questa viene utilizzata per calcolare il costo pianificato. In caso contrario, viene utilizzato il tasso di costo orario a livello di sistema per il ruolo principale.
+    Se nel profilo di un utente è presente una tariffa, questa viene utilizzata per calcolare il costo pianificato. In caso contrario, viene utilizzato il tasso di costo orario a livello di sistema per il ruolo principale.
 
-     >[!NOTE]
-     >
-     >L’utente può essere assegnato all’attività con una delle sue mansioni secondarie, ma in questa posizione viene utilizzato il tasso della mansione principale.
+    >[!NOTE]
+    >
+    >L’utente può essere assegnato all’attività con una delle sue mansioni secondarie, ma in questa posizione viene utilizzato il tasso della mansione principale.
 
-     Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
+    Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto è di $0,00.
+    Il costo pianificato del progetto è di $0,00.
 
-* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **&#x200B;**&#x200B;per l&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **** per l&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     Il costo pianificato dell&#39;utente è di $0,00.
+    Il costo pianificato dell&#39;utente è di $0,00.
 
-     Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
+    Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     La tariffa oraria a livello di sistema per la mansione assegnata all&#39;attività viene utilizzata per calcolare il costo pianificato.
+    La tariffa oraria a livello di sistema per la mansione assegnata all&#39;attività viene utilizzata per calcolare il costo pianificato.
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto è di $0,00.
+    Il costo pianificato del progetto è di $0,00.
 
 * Quando il **Tipo di costo** è **Ore ruolo** e non è presente **alcuna assegnazione** sull&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     I costi pianificati per ruolo e utente sono pari a $ 0,00.
+    I costi pianificati per ruolo e utente sono pari a $ 0,00.
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto è di $0,00.
+    Il costo pianificato del progetto è di $0,00.
 
 * Quando il **Tipo di costo** è **Ore ruolo** ed è presente un **assegnazione utente** sull&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     Il costo pianificato dell&#39;utente è di $0,00.
+    Il costo pianificato dell&#39;utente è di $0,00.
 
-     Il costo pianificato del ruolo viene calcolato con la formula seguente:
+    Il costo pianificato del ruolo viene calcolato con la formula seguente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
+    Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
 
-     Se l&#39;utente non è associato ad alcun ruolo nell&#39;attività, il costo pianificato è $0,00.
+    Se l&#39;utente non è associato ad alcun ruolo nell&#39;attività, il costo pianificato è $0,00.
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
+    Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * Quando il **Tipo di costo** è **Ore ruolo** ed è presente un **assegnazione mansione** sull&#39;attività:
 
-   * **Costo pianificato per ruolo e utente**:
+  * **Costo pianificato per ruolo e utente**:
 
-     Il costo pianificato dell&#39;utente è di $0,00.
+    Il costo pianificato dell&#39;utente è di $0,00.
 
-     Il costo pianificato del ruolo viene calcolato con la formula seguente:
+    Il costo pianificato del ruolo viene calcolato con la formula seguente:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
+    Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
 
-   * **Costo pianificato progetto**:
+  * **Costo pianificato progetto**:
 
-     Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
+    Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

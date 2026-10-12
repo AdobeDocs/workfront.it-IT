@@ -7,25 +7,29 @@ description: La pianificazione delle risorse di Adobe Workfront consente di comp
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # Panoramica sulla navigazione di Pianificazione risorse
 
 <!-- Audited: 5/2025 -->
@@ -131,13 +135,13 @@ Quando selezioni la Vista progetto nella Programmazione risorse, tieni presente 
 
 * Nella vista Progetto è possibile visualizzare le seguenti informazioni su ore, FTE o Costo:
 
-   * Disponibile
-   * Pianificato
-   * Preventivato
-   * Varianza
-   * Netto
+  * Disponibile
+  * Pianificato
+  * Preventivato
+  * Varianza
+  * Netto
 
-     Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Visualizza per ruolo {#view-by-role}
 
@@ -152,13 +156,13 @@ Quando si seleziona la Vista ruolo nella Programmazione risorse, tenere presente
 * Quando si applica questa visualizzazione, la somma di Ore progetto, FTE o Costo corrisponde alle ore ruolo, FTE o Costo.
 * Nella vista Ruolo è possibile visualizzare le seguenti informazioni su ore, FTE o Costo:
 
-   * Disponibile
-   * Pianificato
-   * Preventivato
-   * Varianza
-   * Netto
+  * Disponibile
+  * Pianificato
+  * Preventivato
+  * Varianza
+  * Netto
 
-     Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Visualizza per utente {#view-by-user}
 
@@ -191,23 +195,23 @@ Quando selezioni la Vista utente nella Programmazione risorse, tieni presente qu
 
   Esistono i seguenti scenari:
 
-   * Se non disponi delle autorizzazioni necessarie per visualizzare i progetti e le attività o i problemi assegnati agli utenti visualizzati nella Programmazione delle risorse, tali elementi sono elencati nelle sezioni Elementi inaccessibili. In questo caso, queste sezioni sostituiscono le sezioni Progetto o Attività.
+  * Se non disponi delle autorizzazioni necessarie per visualizzare i progetti e le attività o i problemi assegnati agli utenti visualizzati nella Programmazione delle risorse, tali elementi sono elencati nelle sezioni Elementi inaccessibili. In questo caso, queste sezioni sostituiscono le sezioni Progetto o Attività.
 
-   * Se non disponi delle autorizzazioni necessarie per visualizzare i progetti, ma puoi accedere per visualizzare le attività o i problemi relativi, i progetti, le attività e i problemi vengono elencati con i nomi degli utenti a essi assegnati.
-   * Se disponi delle autorizzazioni necessarie per visualizzare i progetti, ma non le attività o i problemi relativi, viene visualizzato il nome del progetto e le attività e i problemi sono elencati nella sezione Elementi inaccessibili.
+  * Se non disponi delle autorizzazioni necessarie per visualizzare i progetti, ma puoi accedere per visualizzare le attività o i problemi relativi, i progetti, le attività e i problemi vengono elencati con i nomi degli utenti a essi assegnati.
+  * Se disponi delle autorizzazioni necessarie per visualizzare i progetti, ma non le attività o i problemi relativi, viene visualizzato il nome del progetto e le attività e i problemi sono elencati nella sezione Elementi inaccessibili.
 
-     Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Nella vista Utente è possibile visualizzare le seguenti informazioni sull&#39;ora e sull&#39;FTE:
 
-   * Disponibile
-   * Pianificato
-   * Effettivo
-   * Differenza tra Pianificato ed Effettivo
-   * Percentuale di allocazione pianificata
+  * Disponibile
+  * Pianificato
+  * Effettivo
+  * Differenza tra Pianificato ed Effettivo
+  * Percentuale di allocazione pianificata
 
-     Per ulteriori informazioni, vedere [Visualizza ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la visualizzazione utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    Per ulteriori informazioni, vedere [Visualizza ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la visualizzazione utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## Nome progetto
 
@@ -259,9 +263,9 @@ Nelle visualizzazioni Progetto e Ruolo, gli utenti possono essere elencati nei s
 * Il loro ruolo principale
 * Il loro ruolo secondario, nei seguenti scenari:
 
-   * Se il ruolo secondario dispone di un numero valido per la percentuale di disponibilità FTE nel profilo utente.
-   * Se l’utente è assegnato ad attività in tali ruoli.
-Per ulteriori informazioni sulla percentuale di disponibilità FTE per una mansione, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  * Se il ruolo secondario dispone di un numero valido per la percentuale di disponibilità FTE nel profilo utente.
+  * Se l’utente è assegnato ad attività in tali ruoli.
+    Per ulteriori informazioni sulla percentuale di disponibilità FTE per una mansione, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Nessuna sezione Ruolo e Nessuna sezione Utente
 
@@ -300,12 +304,12 @@ Da qui, puoi abilitare una o entrambe le seguenti impostazioni:
 
   Quando abiliti questa impostazione, considera quanto segue:
 
-   * Il nome dell’utente assegnato ai problemi viene visualizzato nella mansione ad essi associata sul problema. È possibile specificare le ore preventivate per l&#39;utente e la mansione nelle visualizzazioni Progetto e Ruolo.
-   * I problemi a cui sono assegnati gli utenti sono elencati sotto i nomi delle mansioni nella vista Utente.
+  * Il nome dell’utente assegnato ai problemi viene visualizzato nella mansione ad essi associata sul problema. È possibile specificare le ore preventivate per l&#39;utente e la mansione nelle visualizzazioni Progetto e Ruolo.
+  * I problemi a cui sono assegnati gli utenti sono elencati sotto i nomi delle mansioni nella vista Utente.
 
-     >[!IMPORTANT]
-     >
-     >Quando le date di inizio pianificato e di completamento del problema sono al di fuori della timeline del progetto, le ore pianificate per il problema vengono visualizzate in base alle date del problema. Ad esempio, se la timeline del progetto è compresa tra gennaio e marzo, ma la timeline dei problemi è in agosto, le ore pianificate per i problemi vengono visualizzate nel periodo di agosto.
+    >[!IMPORTANT]
+    >
+    >Quando le date di inizio pianificato e di completamento del problema sono al di fuori della timeline del progetto, le ore pianificate per il problema vengono visualizzate in base alle date del problema. Ad esempio, se la timeline del progetto è compresa tra gennaio e marzo, ma la timeline dei problemi è in agosto, le ore pianificate per i problemi vengono visualizzate nel periodo di agosto.
 
 
 * **Visualizza priorità Portfolio**: visualizza le priorità del progetto in base al Portfolio a cui sono assegnate.

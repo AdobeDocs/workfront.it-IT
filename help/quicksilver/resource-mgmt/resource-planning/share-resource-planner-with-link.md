@@ -6,26 +6,31 @@ description: Adobe Workfront può generare un URL univoco per la Visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 7%
-
 ---
-
 # Condividere la visualizzazione utente di pianificazione risorse con un collegamento
 
 Adobe Workfront può generare un URL univoco per la Visualizzazione utente della Programmazione delle risorse, che puoi incorporare in una dashboard come pagina esterna, oppure aprire separatamente in una nuova scheda del browser. Questa funzione è utile quando si condividono le informazioni sulla Programmazione delle risorse con utenti che potrebbero non avere accesso diretto all&#39;area Risorse.
@@ -72,9 +77,9 @@ Quando generi l’URL univoco per la visualizzazione utente della Programmazione
   Devono avere accesso per visualizzare altri utenti per poter visualizzare le informazioni nella Programmazione delle risorse dall&#39;URL condiviso con loro.
 * Le seguenti informazioni vengono salvate quando condividi l’URL con altri utenti:
 
-   * Il tipo di periodi di tempo (settimana, mese, trimestre).
-   * I filtri applicati.
-   * Tipo di visualizzazione (ore o FTE).
+  * Il tipo di periodi di tempo (settimana, mese, trimestre).
+  * I filtri applicati.
+  * Tipo di visualizzazione (ore o FTE).
 
 Per ottenere un URL univoco nella Vista utente della Programmazione delle risorse e condividerlo con altri utenti:
 
@@ -112,11 +117,11 @@ Per ottenere un URL univoco nella Vista utente della Programmazione delle risors
      </MadCap:conditionalText>   
      -->
 
-      1. Vai a **Reporting**>**Dashboard**>**Nuovo dashboard**>**Aggiungi pagina esterna.**
+     1. Vai a **Reporting**>**Dashboard**>**Nuovo dashboard**>**Aggiungi pagina esterna.**
 
-      1. Incolla il collegamento copiato negli Appunti nel campo **URL**.
-      1. Fai clic su **Salva**, quindi su **Salva + Chiudi**.\
-         L’URL verrà incorporato nel dashboard e la vista Utente della Programmazione delle risorse verrà visualizzata in un dashboard separato.
+     1. Incolla il collegamento copiato negli Appunti nel campo **URL**.
+     1. Fai clic su **Salva**, quindi su **Salva + Chiudi**.\
+        L’URL verrà incorporato nel dashboard e la vista Utente della Programmazione delle risorse verrà visualizzata in un dashboard separato.
 
 1. (Facoltativo) Se hai incorporato l’URL in un dashboard, puoi aggiungerlo a un modello di layout o condividerlo con altri utenti che potrebbero non avere accesso all’area Gestione risorse.\
    Per informazioni sull&#39;aggiunta di dashboard a un modello di layout, vedere [Creare e gestire modelli di layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
