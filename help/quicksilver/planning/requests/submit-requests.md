@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # Inviare richieste di Pianificazione di Adobe Workfront per creare record
@@ -225,8 +225,17 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    ><span class="preview">I valori dei campi dei record collegati dipendenti sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 
+1. (Facoltativo e condizionale) Fai clic su **Compila modulo** per richiedere che AI compili il modulo. Workfront compila i campi del modulo in base alle informazioni contenute nelle richieste precedenti.
 
-1. (Condizionale) Se la tua organizzazione consente il **riempimento modulo** basato su AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
+   >[!TIP]
+   >
+   >Per utilizzare la funzionalità Compila modulo, la tua organizzazione deve consentire **Compilazione modulo AI** nell&#39;area Preferenze di sistema.
+   >
+   >Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
+
+1. (Condizionale) Se la tua organizzazione consente il **riempimento modulo AI**, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
 
 
    Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    Viene aperto il modulo di richiesta.
 1. Inizia a immettere tutte le informazioni in tutti i campi disponibili
 
-   Oppure fai clic su **Compila modulo** per fare in modo che AI compili il modulo.
+   Oppure fai clic su **Compila modulo** per fare in modo che AI compili il modulo. Workfront compila i campi del modulo in base alle informazioni contenute nelle richieste precedenti.
+
+   >[!TIP]
+   >
+   >Se la tua organizzazione consente il **riempimento modulo AI** nell&#39;area Preferenze di sistema, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA prima di inviare la richiesta.
+   >
+   >Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Fai clic su **Invia richiesta**.
 
    La richiesta viene inviata.
