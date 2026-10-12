@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 15%
+source-wordcount: '523'
+ht-degree: 14%
 ---
 # Gestire le approvazioni con il widget Le mie approvazioni
 
@@ -162,3 +162,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    </table>
 
 Dopo aver preso una decisione, l&#39;approvazione viene rimossa dal widget Approvazione personale.
+
+>[!NOTE]
+>
+>Le approvazioni di lavoro possono anche essere rimosse dal widget Approvazioni personali quando il progetto, l&#39;attività o il problema è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
