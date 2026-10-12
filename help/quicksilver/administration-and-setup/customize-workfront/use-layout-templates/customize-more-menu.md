@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 9%
 ---
 # Personalizzare il menu Altro utilizzando un modello di layout
@@ -75,5 +75,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Fai clic sulle icone **Mostra** ![Mostra icona](assets/add-secondary-nav-item.png) o **Nascondi** ![Nascondi icona](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
 
    * Trascina gli elementi ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
+
+   >[!NOTE]
+   >
+   >Se nascondi l&#39;opzione **Condividi** nel menu Altro per progetti, attività o problemi, il pulsante Condividi è nascosto nell&#39;intestazione dell&#39;oggetto.
 
 1. Fai clic su **Fine**.
