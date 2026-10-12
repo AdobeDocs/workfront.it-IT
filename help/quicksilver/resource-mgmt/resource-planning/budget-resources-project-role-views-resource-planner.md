@@ -6,26 +6,31 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 3%
-
 ---
-
 # Risorse di budget in pianificazione risorse utilizzando le viste Progetto e Ruolo
 
 <!--
@@ -130,9 +135,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Nella colonna **BDG** specificare manualmente un numero di ore preventivate, FTE o costo per il progetto. In questo modo il numero di ore preventivate progetto viene distribuito a ogni ruolo del progetto. Esistono i seguenti scenari:
 
-      * Se il numero di ore preventivate progetto specificato è uguale alle ore pianificate per il progetto, le ore preventivate per il ruolo corrispondono alle ore pianificate per il ruolo.
-      * Se il numero di ore preventivate progetto specificato non è uguale alle ore pianificate per il progetto, le ore preventivate per ruolo vengono distribuite in base alla percentuale di ore pianificate necessarie per ciascun ruolo.\
-        Ad esempio, se un progetto ha 20 ore pianificate e queste sono distribuite tra due mansioni (il consulente richiede 12 ore pianificate e il tecnico ne richiede 8) e si preventivano 30 ore per il progetto, le ore vengono distribuite come segue: il ruolo del consulente riceve 18 ore preventivate e il ruolo del tecnico riceve 12 ore preventivate.
+     * Se il numero di ore preventivate progetto specificato è uguale alle ore pianificate per il progetto, le ore preventivate per il ruolo corrispondono alle ore pianificate per il ruolo.
+     * Se il numero di ore preventivate progetto specificato non è uguale alle ore pianificate per il progetto, le ore preventivate per ruolo vengono distribuite in base alla percentuale di ore pianificate necessarie per ciascun ruolo.\
+       Ad esempio, se un progetto ha 20 ore pianificate e queste sono distribuite tra due mansioni (il consulente richiede 12 ore pianificate e il tecnico ne richiede 8) e si preventivano 30 ore per il progetto, le ore vengono distribuite come segue: il ruolo del consulente riceve 18 ore preventivate e il ruolo del tecnico riceve 12 ore preventivate.
 
 1. Per allocare il budget per il progetto, eseguire una delle operazioni seguenti:
 
@@ -225,7 +230,7 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#
 
 1. Fai clic su **Salva**.\
    Dopo aver preventivato le risorse nella Programmazione risorse, le ore preventivate per le risorse ed eventuali costi associati vengono elencati nel Business Case di ogni progetto.
-Per ulteriori informazioni sulla comprensione dell&#39;area Budget risorse del caso aziendale, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Per ulteriori informazioni sulla comprensione dell&#39;area Budget risorse del caso aziendale, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facoltativo) Seleziona la visualizzazione **Visualizza per utente** per notare eventuali sovrassegnazioni o sottoutilizzo dell&#39;utente tra le ore disponibili e quelle pianificate per ogni utente. Le ore preventivate non sono visibili nella vista Visualizza per utente.
 

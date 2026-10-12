@@ -1,7 +1,7 @@
 ---
 title: Usa agenti di lavoro
 content-type: reference
-description: Scopri come utilizzare gli agenti di lavoro, i collaboratori IA che possono essere assegnati alle attività di Workfront.
+description: Scopri come utilizzare agenti di lavoro, collaboratori IA che possono essere assegnati ad attività, problemi e richieste di Workfront.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 2%
 ---
 # Usa agenti di lavoro
 
 {{preview-fast-release-general}}
 
-Gli agenti di lavoro sono collaboratori AI che possono essere assegnati direttamente ad attività e problemi di Workfront. Come altri collaboratori AI, gli agenti di lavoro sono configurati nell’area Configura e assegnati alle attività proprio come un utente.
+Gli agenti di lavoro sono collaboratori AI che possono essere assegnati direttamente ad attività, problemi e richieste di Workfront. Come altri collaboratori AI, gli agenti di lavoro sono configurati nell’area Configura e assegnati agli elementi di lavoro proprio come un utente.
 
 Gli agenti di lavoro si connettono agli agenti configurati in Copilot Studio, Claude, Writer, <span class="preview">OpenAI o IBM. </span>
 
@@ -125,13 +125,13 @@ Le situazioni seguenti non determinano l&#39;inizio del lavoro dell&#39;agente s
 * Un agente di lavoro viene assegnato a un&#39;attività a cui è già stato assegnato un agente di lavoro. In questo caso, il primo agente di lavoro assegnato avrà già avviato il lavoro e il secondo agente di lavoro non farà nulla.
 * Un agente di lavoro viene assegnato a un&#39;attività che non è pronta per l&#39;avvio. Ad esempio, se l&#39;attività ha predecessori, questi non sono ancora completi.
 
-## Assegna un agente di lavoro a un&#39;attività <span class="preview">o a un problema</span>
+## Assegnare un agente di lavoro a un’attività, un problema o una richiesta
 
-Gli agenti di lavoro vengono assegnati alle attività <span class="preview">o ai problemi</span> nello stesso modo in cui vengono assegnati gli utenti.
+Gli agenti di lavoro vengono assegnati ad attività, problemi o richieste nello stesso modo in cui vengono assegnati gli utenti.
 
 Quando si cerca un agente di lavoro nell&#39;elenco degli assegnatari disponibili, il nome dell&#39;agente di lavoro è solo un nome.
 
-Per istruzioni, vedere [Assegnare attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+Per istruzioni, vedere [Assegnare attività](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) e [Gestire le richieste di lavoro e team](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >

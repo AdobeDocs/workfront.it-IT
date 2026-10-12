@@ -7,27 +7,33 @@ description: Panoramica di ore, FTE e informazioni sui costi nelle visualizzazio
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 2%
-
 ---
-
 # Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della pianificazione risorse
 
 <!--
@@ -67,11 +73,11 @@ Quando si definiscono i budget per le risorse utilizzando la Programmazione riso
 
 * Le allocazioni di budget per le risorse nella Programmazione risorse vengono eseguite nei modi seguenti:
 
-   * Manualmente
+  * Manualmente
 
-     Oppure
+    Oppure
 
-   * Automaticamente, utilizzando le opzioni di progetto e ruolo nelle visualizzazioni **Visualizza per progetto** e **Visualizza per ruolo**.
+  * Automaticamente, utilizzando le opzioni di progetto e ruolo nelle visualizzazioni **Visualizza per progetto** e **Visualizza per ruolo**.
 
   Per ulteriori informazioni, vedere [Risorse preventivate nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -190,16 +196,16 @@ Quando visualizzi le ore pianificate, tieni presente quanto segue:
   I giorni di fine settimana, le eccezioni alla programmazione e i giorni di ferie sono esclusi da questa distribuzione.
 * Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ciascuna risorsa:
 
-   * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team nel progetto\
-     Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
+  * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team nel progetto\
+    Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
 
-   * attività non assegnate
+  * attività non assegnate
 
 * Le ore pianificate nella pianificazione risorse non includono le ore pianificate associate ai seguenti elementi:
 
-   * attività padre
-   * attività assegnate a utenti senza gruppi di risorse
-   * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
+  * attività padre
+  * attività assegnate a utenti senza gruppi di risorse
+  * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
 
 * Le ore pianificate non vengono visualizzate nella Programmazione delle risorse se la Durata dell&#39;attività è zero.
 * Le ore pianificate associate agli utenti disattivati non vengono visualizzate.

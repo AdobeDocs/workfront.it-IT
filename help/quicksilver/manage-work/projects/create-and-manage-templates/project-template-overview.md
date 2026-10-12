@@ -6,29 +6,37 @@ description: È possibile utilizzare i modelli di progetto per acquisire la magg
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 5%
-
 ---
-
 # Panoramica sui modelli di progetto
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ Di seguito sono riportati alcuni dei vantaggi dell’utilizzo di modelli per la 
 * È utile quando si riferiscono ai progetti. Ad esempio, puoi generare rapporti sui progetti che condividono lo stesso modello, per confrontarne l’avanzamento e trovare miglioramenti nelle modalità di completamento.
 * Oltre a definire le impostazioni del progetto futuro, è possibile aggiungere a un modello le seguenti informazioni per il progetto futuro:
 
-   * Attività
-   * Documenti
-   * Approvazioni
-   * Dettagli coda
-   * Argomenti Coda
-   * Gruppi di argomenti
-   * Regole di instradamento
-   * Moduli personalizzati
-   * Informazioni sulla società e sul gruppo
+  * Attività
+  * Documenti
+  * Approvazioni
+  * Dettagli coda
+  * Argomenti Coda
+  * Gruppi di argomenti
+  * Regole di instradamento
+  * Moduli personalizzati
+  * Informazioni sulla società e sul gruppo
 
 ## Best practice per la creazione di modelli
 
@@ -71,8 +79,8 @@ Durante la creazione dei modelli, considera quanto segue:
 
   Per informazioni sulla durata, vedere i seguenti articoli:
 
-   * [Panoramica della durata e del tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Panoramica sulla durata del progetto](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [Panoramica della durata e del tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [Panoramica sulla durata del progetto](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   Per informazioni sulle ore pianificate, consulta [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
 
@@ -89,8 +97,8 @@ Durante la creazione dei modelli, considera quanto segue:
 
 * Decidere quale archivio documenti utilizzare per i progetti futuri. Alcune organizzazioni hanno accesso ai seguenti tipi di archiviazione dei documenti:
 
-   * Storage Workfront legacy
-   * Archiviazione cloud Adobe
+  * Archiviazione legacy di Workfront
+  * Archiviazione cloud Adobe
 
   L&#39;aggiunta di documenti varia a seconda del tipo di archiviazione scelto. Il tipo di archiviazione scelto per i modelli influirà sul tipo di archiviazione che erediteranno i progetti futuri.
 
@@ -98,8 +106,8 @@ Durante la creazione dei modelli, considera quanto segue:
 
   Per ulteriori informazioni, consulta anche:
 
-   * [Creare un modello di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [Creare un modello di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Modi per creare i modelli
 

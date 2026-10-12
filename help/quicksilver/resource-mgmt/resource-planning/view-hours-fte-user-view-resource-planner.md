@@ -7,27 +7,33 @@ description: Visualizzare le ore disponibili, pianificate ed effettive o FTE nel
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 2%
-
 ---
-
 # Visualizzare le ore disponibili, pianificate ed effettive o FTE in pianificazione risorse quando si utilizza la vista Utente
 
 <!--
@@ -43,8 +49,8 @@ Quando visualizzi le informazioni sulle ore o sull&#39;FTE nella Programmazione 
 * È possibile visualizzare le ore disponibili e pianificate o le informazioni FTE per gli utenti, le mansioni e i progetti in tutte le visualizzazioni di Programmazione delle risorse.
 * È possibile visualizzare le seguenti informazioni solo nella Vista utente:
 
-   * Differenza tra la quantità di ore pianificate o FTE e la quantità di ore disponibili o FTE. Puoi quindi preventivare l’allocazione degli utenti in base a questa differenza nelle viste Progetto e Ruolo.
-   * Le ore effettive o FTE.
+  * Differenza tra la quantità di ore pianificate o FTE e la quantità di ore disponibili o FTE. Puoi quindi preventivare l’allocazione degli utenti in base a questa differenza nelle viste Progetto e Ruolo.
+  * Le ore effettive o FTE.
 
 * È possibile visualizzare la differenza tra l&#39;utente disponibile e la quantità di ore pianificate o FTE come numero o come valore percentuale nella vista Utente.
 * Non è possibile visualizzare le informazioni nella vista Utente in base al costo.
@@ -56,14 +62,14 @@ Quando visualizzi le informazioni sulle ore o sull&#39;FTE nella Programmazione 
 * Workfront compila le ore effettive con il tempo effettivamente registrato per le attività e i problemi dagli utenti assegnati. Questo include il tempo di connessione a un progetto.
 * Nella vista Utente, è possibile effettuare le seguenti operazioni:
 
-   * Espandi ogni utente per visualizzare un elenco di progetti a cui è assegnato l’utente.
+  * Espandi ogni utente per visualizzare un elenco di progetti a cui è assegnato l’utente.
 
-     >[!NOTE]
-     >
-     >È possibile espandere solo gli utenti associati ai progetti inclusi nei filtri.
+    >[!NOTE]
+    >
+    >È possibile espandere solo gli utenti associati ai progetti inclusi nei filtri.
 
-   * Espandi ogni progetto per visualizzare un elenco di mansioni che l’utente può svolgere su tali progetti.
-   * Espandere ogni ruolo per visualizzare un elenco di attività a cui l&#39;utente in tale ruolo è assegnato.
+  * Espandi ogni progetto per visualizzare un elenco di mansioni che l’utente può svolgere su tali progetti.
+  * Espandere ogni ruolo per visualizzare un elenco di attività a cui l&#39;utente in tale ruolo è assegnato.
 
   Se agli utenti non sono associati ruoli, le ore disponibili, pianificate e effettive o FTE sono elencate nella sezione **Nessun ruolo**.\
   Per informazioni sui campi e sugli elementi visualizzati quando si applica la visualizzazione Utente alla Programmazione delle risorse, vedere la sezione &quot;Selezione progetto/ruolo/visualizzazione utente&quot; nella [Panoramica sulla navigazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
@@ -152,17 +158,17 @@ Quando visualizzi le ore pianificate, tieni presente quanto segue:
 
 * Le seguenti categorie di attività sono incluse nel calcolo delle ore pianificate per ciascuna risorsa:
 
-   * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team del progetto.
+  * le attività assegnate agli utenti nei Pool di Risorse, le mansioni o i team del progetto.
 
-     >[!TIP]
-     >
-     >Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
+    >[!TIP]
+    >
+    >Se le attività sono assegnate ai team, la loro allocazione verrà visualizzata nelle sezioni **Nessun ruolo** e **Nessun utente**. Puoi visualizzare le ore pianificate associate ai team, ma non puoi preventivarle, perché alle attività non sono associati ruoli né utenti.
 
 * Le ore pianificate nella pianificazione risorse non includono le ore pianificate associate ai seguenti elementi:
 
-   * attività padre
-   * attività non assegnate
-   * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
+  * attività padre
+  * attività non assegnate
+  * problemi, quando l&#39;impostazione **Includi ore da problemi** è disabilitata.
 
 * Le ore pianificate non vengono visualizzate nella Programmazione delle risorse se l&#39;attività o la Durata del problema è zero.
 * Le ore pianificate associate agli utenti disattivati non vengono visualizzate.

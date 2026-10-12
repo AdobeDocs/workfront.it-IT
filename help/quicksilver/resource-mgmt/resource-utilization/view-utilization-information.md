@@ -8,25 +8,30 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+TQID: 'https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 6542
+source-wordcount: '7183'
 ht-degree: 1%
-
 ---
-
 # Visualizzare le informazioni sull’utilizzo delle risorse {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
@@ -196,7 +201,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
 
 <li><strong>Utente singolo</strong>: le ore pianificate vengono riepilogate per ogni utente nel report sull'utilizzo. Queste ore pianificate sono associate alle attività e ai problemi che l’utente è assegnato ai progetti inclusi. È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo.
 
-<li><strong>Mansione</strong>: le ore pianificate vengono riepilogate per mansione nel report sull'utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
+<li><strong>Mansione</strong>: le ore pianificate sono riepilogate per mansione nel report sull'utilizzo di un singolo progetto.<br>Le ore pianificate vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari:  
 <ul>
 
 <li>Il ruolo è definito come il ruolo principale dell'utente assegnato all'attività o al problema a cui sono associate le ore pianificate.
@@ -230,7 +235,7 @@ Le ore pianificate vengono visualizzate nel rapporto Utilizzo in una delle segue
    <td><strong>Ore effettive</strong> </td> 
    <td> <p> Le ore totali registrate per le attività, i problemi, <span>e sul progetto</span> per i progetti inclusi. È possibile visualizzare le ore effettive totali per la durata complessiva dei progetti inclusi oppure le ore effettive totali solo per l'intervallo di date specificato (è possibile specificare una singola settimana o mese). </p> <p><strong>Avviso:</strong> il report sull'utilizzo include le ore registrate nel progetto, le attività figlio, i problemi e le attività padre con almeno un'assegnazione. Non include le ore registrate per le attività padre senza assegnazioni. È consigliabile non utilizzare le attività padre come attività di lavoro e assegnare solo le attività figlio alle risorse. </p> <p>Le ore effettive vengono visualizzate nel rapporto sull'utilizzo in una delle seguenti righe:</p> 
     <ul> 
-     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. (È possibile espandere la riga della mansione corrispondente per visualizzare un elenco di utenti con tale mansione che hanno registrato ore.)<br><strong>Mansione:</strong> Le ore effettive registrate dagli utenti associati a tali mansioni sono riepilogate nel report sull'utilizzo nella riga della mansione corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
+     <li> Le ore effettive vengono riepilogate in base alla mansione e al singolo utente nel report sull'utilizzo di un progetto, come segue:<br><strong>Utente singolo:</strong> Le ore effettive vengono visualizzate nel report sull'utilizzo nella riga dell'utente che ha registrato le ore. (È possibile espandere la riga del ruolo corrispondente per visualizzare un elenco di utenti con tale ruolo che hanno registrato ore.)<br><strong>Ruolo:</strong> Le ore effettive registrate dagli utenti associati a tali ruoli vengono riepilogate nel report sull'utilizzo nella riga del ruolo corrispondente.<br>Le ore effettive vengono visualizzate in una particolare mansione come risultato di uno dei seguenti scenari: 
       <ul> 
        <li>Il ruolo è definito come il ruolo principale dell’utente che ha registrato le ore</li> 
        <li>Nessuna assegnazione per l’attività o il problema</li> 
@@ -459,37 +464,37 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
    * Per visualizzare le informazioni sull&#39;utilizzo per un singolo progetto:
 
-      1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull&#39;utilizzo, quindi fai clic su **Utilizzo** nel pannello a sinistra.
-      1. Le informazioni sull’utilizzo vengono visualizzate automaticamente quando si visualizza un singolo progetto e non è necessario applicare un filtro.\
-         Se desideri filtrare il report Utilizzo, puoi applicare un filtro e fare clic su **Esegui**.\
-         Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
-         Le informazioni sull&#39;utilizzo vengono visualizzate per singoli utenti e ruoli (gli utenti sono raggruppati all&#39;interno del ruolo associato).
+     1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull&#39;utilizzo, quindi fai clic su **Utilizzo** nel pannello a sinistra.
+     1. Le informazioni sull’utilizzo vengono visualizzate automaticamente quando si visualizza un singolo progetto e non è necessario applicare un filtro.\
+        Se desideri filtrare il report Utilizzo, puoi applicare un filtro e fare clic su **Esegui**.\
+        Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
+        Le informazioni sull&#39;utilizzo vengono visualizzate per singoli utenti e ruoli (gli utenti sono raggruppati all&#39;interno del ruolo associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo per più progetti:
 
      {{step1-to-utilization-report}}
 
-      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.
-È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Filtrare le informazioni sull&#39;utilizzo](#filter-utilization-information) in questo articolo.\
-         Le informazioni sull’utilizzo vengono visualizzate per singoli ruoli e progetti (i ruoli sono raggruppati all’interno del progetto associato).
+     1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.
+        È necessario specificare uno o più progetti nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
+        Le informazioni sull’utilizzo vengono visualizzate per singoli ruoli e progetti (i ruoli sono raggruppati all’interno del progetto associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo di un programma:
 
      {{step1-to-utilization-report}}
 
-      1. Fai clic su **Mostra** > **Programmi**.
-      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
-         Prima di eseguire il rapporto Utilizzo, è necessario specificare uno o più programmi nel filtro. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
-         Le informazioni sull&#39;utilizzo vengono visualizzate per i singoli progetti e programmi (i progetti sono raggruppati nel relativo programma associato).
+     1. Fai clic su **Mostra** > **Programmi**.
+     1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
+        Prima di eseguire il rapporto Utilizzo, è necessario specificare uno o più programmi nel filtro. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
+        Le informazioni sull&#39;utilizzo vengono visualizzate per i singoli progetti e programmi (i progetti sono raggruppati nel relativo programma associato).
 
    * Per visualizzare le informazioni sull&#39;utilizzo per un portfolio:
 
      {{step1-to-utilization-report}}
 
-      1. Fai clic su **Mostra** > **Portfolio**.
-      1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
-         È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
-         Le informazioni sull&#39;utilizzo vengono visualizzate per singoli progetti, programmi e portafogli (i progetti sono raggruppati all&#39;interno del programma associato e i programmi sono raggruppati all&#39;interno del portfolio associato).
+     1. Fai clic su **Mostra** > **Portfolio**.
+     1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
+        È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
+        Le informazioni sull&#39;utilizzo vengono visualizzate per singoli progetti, programmi e portafogli (i progetti sono raggruppati all&#39;interno del programma associato e i programmi sono raggruppati all&#39;interno del portfolio associato).
 
 1. Nell&#39;angolo superiore destro del report Utilizzo, fare clic su **Visualizza**, quindi selezionare una delle opzioni seguenti nel menu:
 
@@ -553,7 +558,7 @@ Per creare o modificare un filtro:
      Le informazioni sui costi per i problemi non vengono sempre incluse nel rapporto Utilizzo. Per ulteriori informazioni su quando le informazioni sui costi per i problemi vengono incluse nel report Utilizzo, vedere [Tracciare l&#39;avanzamento, i costi e i ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) in questo articolo.
 
    * **Ruoli:** Iniziare a digitare il nome del ruolo che si desidera rappresentare nel report sull&#39;utilizzo, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa. Ripeti questo processo per includere ruoli aggiuntivi.
-Il rapporto Utilizzo contiene informazioni solo per i ruoli specificati. Ad esempio, un&#39;attività contiene 10 ore effettive. Sei di queste ore appartengono a un ruolo Designer e quattro a un ruolo Sviluppatore. Se filtri il rapporto Utilizzo per ruolo per Designer, le quattro ore provenienti dal ruolo Sviluppatore vengono escluse dal rapporto.
+     Il rapporto Utilizzo contiene informazioni solo per i ruoli specificati. Ad esempio, un&#39;attività contiene 10 ore effettive. Sei di queste ore appartengono a un ruolo Designer e quattro a un ruolo Sviluppatore. Se filtri il rapporto Utilizzo per ruolo per Designer, le quattro ore provenienti dal ruolo Sviluppatore vengono escluse dal rapporto.
 
    * **Aggiungi regola filtro:** Fai clic su **Aggiungi regola filtro**, fai clic nel campo di testo e inizia a digitare il nome del campo in base al quale desideri filtrare. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato. Fai clic sul nome del campo per aggiungerlo al filtro.
 
@@ -567,8 +572,8 @@ Il rapporto Utilizzo contiene informazioni solo per i ruoli specificati. Ad esem
 1. Per creare un nuovo filtro, fare clic su **Salva filtro**.\
    Oppure\
    Per modificare un filtro esistente, fare clic sulla freccia accanto al pulsante **Salva filtro**, quindi scegliere **Salva nuovo filtro**.
-Nel campo **Nome filtro** digitare un nome per il filtro e fare clic su **Salva**.
-L&#39;area Utilizzazione viene filtrata in base alle informazioni incluse nel filtro.
+   Nel campo **Nome filtro** digitare un nome per il filtro e fare clic su **Salva**.
+   L&#39;area Utilizzazione viene filtrata in base alle informazioni incluse nel filtro.
 
 ### Applicare un filtro salvato {#apply-a-saved-filter}
 
@@ -658,13 +663,13 @@ Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#
 
    * **PDF:** esporta il report in formato PDF. Questo è il formato consigliato se intendi stampare il rapporto.\
      Selezionare **Lettera - Verticale**, **Lettera - Orizzontale** o **Altre dimensioni** (fornisce le opzioni per l&#39;esportazione in Legal (8,5&quot; x 14&quot;), Ledger (11&quot; x 17&quot;) e A4).
-A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
+     A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
    * **Excel:** esporta il report in formato XLSX. Questo è il formato consigliato se intendi analizzare ulteriormente i dati in Excel.
-A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
+     A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
    * **Delimitato da tabulazioni:** esporta il report in formato TSV. Questo è il formato consigliato se intendi importare i dati in un software di terze parti per ulteriori analisi.
-A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
+     A seconda del sistema operativo utilizzato, è possibile che sia possibile aprire o salvare il file. Aprire il file con l&#39;applicazione associata o salvarlo nel computer.
 
 1. Leggi le informazioni nell&#39;articolo [Esporta dati](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) per capire come utilizzare il file esportato.
 

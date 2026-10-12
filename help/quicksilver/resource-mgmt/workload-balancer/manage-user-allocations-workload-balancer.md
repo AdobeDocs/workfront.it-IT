@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
+source-wordcount: '2870'
 ht-degree: 2%
-
 ---
-
 # Gestire le allocazioni degli utenti nel bilanciamento dei carichi di lavoro
 
 <!-- Audited: 01/2024 -->
@@ -105,7 +109,7 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
 
   >[!INFO]
   >
-  > Ad esempio, un&#39;attività può avere una durata di 2 giorni e 2 ore pianificate e ha un&#39;ora di inizio pianificata di 12:00 PM il primo giorno della durata con un utente e una pianificazione del progetto che termina alle 17. La capacità dell’utente per il primo giorno è di 5 ore. La capacità dell’utente per il secondo giorno è di 8 ore (se la pianificazione inizia alle 9 del mattino).
+  > Ad esempio, un&#39;attività può avere una durata di 2 giorni e 2 ore pianificate e ha un&#39;ora di inizio pianificata di 12:00 PM nel primo giorno della durata con un utente e una pianificazione del progetto che termina alle 17.00. La capacità dell’utente per il primo giorno è di 5 ore. La capacità dell’utente per il secondo giorno è di 8 ore (se la pianificazione inizia alle 9 del mattino).
   >
   >Workfront calcola l’allocazione delle 2 ore nei 2 giorni della durata utilizzando la seguente formula:
   >
@@ -127,15 +131,15 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
   >
   >Se l&#39;indisponibilità è stata contrassegnata dopo che l&#39;utente è stato assegnato a un elemento di lavoro, è necessario ricalcolare la sequenza temporale del progetto per visualizzare l&#39;allocazione spostata. Per informazioni, vedere [Ricalcolare i timeline del progetto](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Quando a un&#39;attività sono assegnati più utenti e l&#39;assegnatario principale ha programmato un&#39;indisponibilità, la sequenza temporale viene spostata (se le date non sono fisse) e le ore pianificate di tutti gli assegnatari vengono ridistribuite nella nuova durata dell&#39;attività. Se l&#39;attività ha date fisse, la sequenza temporale non viene modificata a causa del tempo libero e le ore vengono riallocate tra i giorni rimanenti.
-   * Se le allocazioni vengono effettuate manualmente, le ore pianificate non vengono riallocate dopo il tempo libero.
+  * Quando a un&#39;attività sono assegnati più utenti e l&#39;assegnatario principale ha programmato un&#39;indisponibilità, la sequenza temporale viene spostata (se le date non sono fisse) e le ore pianificate di tutti gli assegnatari vengono ridistribuite nella nuova durata dell&#39;attività. Se l&#39;attività ha date fisse, la sequenza temporale non viene modificata a causa del tempo libero e le ore vengono riallocate tra i giorni rimanenti.
+  * Se le allocazioni vengono effettuate manualmente, le ore pianificate non vengono riallocate dopo il tempo libero.
 
 * Se all&#39;attività sono assegnati più utenti, la quantità di ore pianificate viene distribuita in modo uniforme a ogni utente per primo, quindi in modo uniforme a ogni giorno all&#39;interno della Durata dell&#39;attività. Questa distribuzione diventa l&#39;allocazione di ogni utente all&#39;attività.
 
   Ad esempio, potrebbero esistere i seguenti scenari:
 
-   * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a un utente, l&#39;allocazione giornaliera per l&#39;utente è di 5 ore per ogni giorno per impostazione predefinita.
-   * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a due utenti, l&#39;allocazione giornaliera per ogni utente è di 2,5 ore per ogni giorno per impostazione predefinita.
+  * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a un utente, l&#39;allocazione giornaliera per l&#39;utente è di 5 ore per ogni giorno per impostazione predefinita.
+  * Per un&#39;attività con una durata di 2 giorni e con 10 ore pianificate assegnate a due utenti, l&#39;allocazione giornaliera per ogni utente è di 2,5 ore per ogni giorno per impostazione predefinita.
 
 * Se un&#39;attività o un problema è stato completato prima della Data di completamento pianificata, il numero di ore allocate per i giorni rimanenti viene cancellato e non viene conteggiato per l&#39;allocazione complessiva dell&#39;utente. Questa opzione viene visualizzata solo quando sono abilitate sia l’icona Mostra allocazioni che l’impostazione Mostra date previste. Per ulteriori informazioni sull&#39;abilitazione delle impostazioni nel Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -285,8 +289,8 @@ Ciò è possibile quando esistono le seguenti condizioni:
 
 * Si dispone delle autorizzazioni e dell&#39;accesso corretti per gestire le ore pianificate dal Bilanciatore dei carichi di lavoro. Tra questi:
 
-   * Consente di gestire le autorizzazioni per le attività.
-   * Aggiornare le ore pianificate nell&#39;accesso al Bilanciatore dei carichi di lavoro nell&#39;area Gestione risorse del proprio livello di accesso.
+  * Consente di gestire le autorizzazioni per le attività.
+  * Aggiornare le ore pianificate nell&#39;accesso al Bilanciatore dei carichi di lavoro nell&#39;area Gestione risorse del proprio livello di accesso.
 
   Per ulteriori informazioni sull&#39;accesso necessario per utilizzare il Bilanciatore dei carichi di lavoro, consulta la sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
