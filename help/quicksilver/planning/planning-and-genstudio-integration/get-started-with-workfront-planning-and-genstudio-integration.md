@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2565'
 ht-degree: 2%
 ---
 <!--
@@ -148,7 +148,7 @@ Oppure
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -204,7 +204,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -337,6 +337,58 @@ Le sezioni seguenti descrivono:
 * È possibile modificare le informazioni sui record di tutti i record nell&#39;area di lavoro di GenStudio da Workfront Planning.
 
   Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
+
+#### Panoramica di GenStudio Activations
+
+<!--
+Some commented out information here comes from glean
+-->
+
+Le attivazioni sono tipi di record GenStudio disponibili nell&#39;area di lavoro di GenStudio in Workfront Planning. GenStudio utilizza le attivazioni per tenere traccia e gestire le attivazioni degli annunci (sia che un’aggiunta sia stata creata o pubblicata) come parte dell’esecuzione della campagna.
+
+Quando si lavora con le attivazioni, tieni presente quanto segue:
+
+* Impossibile creare un record di attivazione da Workfront Planning.
+
+
+* Un progetto GenStudio è associato 1:1 a un&#39;area di lavoro di Workfront Planning. Le attivazioni vengono memorizzate in tale area di lavoro e vi viene fatto riferimento da essa.
+
+* La visibilità e le azioni dipendono dall’accesso al progetto e all’area di lavoro di GenStudio.
+
+* GenStudio aggiunge un ulteriore livello di protezione in modo che i record critici (incluse le attivazioni) non possano essere modificati o eliminati al di fuori dei controlli previsti, nemmeno dagli amministratori di sistema.
+
+* Quando si attiva da GenStudio, i dettagli di attivazione vengono registrati e tracciati in Workfront Planning. GenStudio e Planning mantengono allineati i record condivisi (Campagne, Prodotti, Utenti tipo, Attivazioni e altro).
+
+<!--
+
+<div class="preview">
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+</div>
+
+-->
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### Campi del tipo di record nell’area di lavoro di GenStudio
 
