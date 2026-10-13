@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1347'
 ht-degree: 2%
 ---
 # Configurare i collaboratori IA
@@ -36,7 +36,7 @@ I tipi di Collaboratore IA disponibili includono:
 
   Per ulteriori informazioni, consulta [Introduzione a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Agente di lavoro: crea un collaboratore utilizzando una piattaforma di intelligenza artificiale standard come Claude, OpenAI, Copilot o Writer, quindi assegna il collaboratore a un’attività o a un problema per completare gli elementi di lavoro.
+* Agente di lavoro: crea un collaboratore utilizzando una piattaforma di intelligenza artificiale standard come Claude, OpenAI o Copilot, quindi assegna il collaboratore a un’attività o a un problema per completare gli elementi di lavoro.
 
   Per ulteriori informazioni, vedere [Utilizzare agenti di lavoro](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -93,7 +93,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ### Per agenti di lavoro
 
-È necessario configurare un agente in Claude, Copilot Studio, Writer, OpenAI o IBM prima di poterlo utilizzare come agente di lavoro.
+È necessario configurare un agente in Claude, Copilot Studio, OpenAI o IBM prima di poterlo utilizzare come agente di lavoro.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ I revisori AI possono essere configurati per utilizzare i marchi Workfront o Ado
 
 Gli agenti di lavoro sono agenti che puoi assegnare ad attività o problemi in Workfront. È possibile configurare l&#39;agente di lavoro con un nome, un livello di accesso e altri dettagli e assegnarlo a un&#39;attività come si farebbe con un utente.
 
-Poiché gli agenti di lavoro sono agenti, le loro azioni e capacità vengono configurate nel punto in cui vengono configurati gli agenti. Attualmente, gli agenti utilizzati come agenti di lavoro possono essere creati in Copilot Studio, Claude o Writer, OpenAI e IBM.
+Poiché gli agenti di lavoro sono agenti, le loro azioni e capacità vengono configurate nel punto in cui vengono configurati gli agenti. Attualmente, gli agenti utilizzati come agenti di lavoro possono essere creati in Copilot Studio, Claude, OpenAI e IBM.
 
 Gli agenti di lavoro possono essere assegnati ad attività o problemi.
 
@@ -146,14 +146,13 @@ Per un elenco delle best practice per la creazione di un agente che possa funzio
    >
    ><span class="preview">Se si è un amministratore di gruppo, in questo campo vengono visualizzati solo i gruppi per i quali si è un amministratore. Gli amministratori del gruppo devono selezionare almeno un gruppo.</span>
 
-1. Nell&#39;area **Scegli l&#39;origine dell&#39;agente** selezionare se si desidera connettere un agente creato in una piattaforma comune, ad esempio Copilot o Writer, oppure utilizzare un agente personalizzato.
+1. Nell&#39;area **Scegli l&#39;origine dell&#39;agente** selezionare se si desidera connettere un agente creato in una piattaforma comune, ad esempio Copilot, oppure utilizzare un agente personalizzato.
 1. (Condizionale) Se utilizzi un agente di una piattaforma comune, inserisci i dettagli di autenticazione per la piattaforma dell’agente:
 
    | Piattaforma | Autenticazione richiesta |
    |---|---|
    | Copilot Studio | Segreto canale web |
    | Claude Managed Agents | Chiave API antropica<br>ID agente<br>ID ambiente |
-   | Agente di scrittura | Chiave API<br>ID applicazione |
    | <span class="preview">Agenti OpenAI</span> | <span class="preview">Chiave API <br>ID agente</span> |
    | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview">URL servizio<br>Chiave API<br> ID agente</span> |
 
@@ -209,25 +208,38 @@ Le seguenti best practice potrebbero essere utili per la creazione di un agente 
 -->
 +++ Autore
 
+
+
+>[!IMPORTANT]
+>
+>Writer ha dichiarato obsoleto il loro uso di agenti. Gli agenti di lavoro configurati utilizzando gli agenti Writer non funzionano più dopo il 9 ottobre. 2026.
+>
+>Per informazioni sull&#39;elemento deprecato, vedere [Migrazione e deprecazione della libreria agenti](https://support.writer.com/articles/8335689949-migrating-no-code-agents) nella documentazione di Writer.
+
+
+<!--
+
 >[!NOTE]
 >
-> È possibile utilizzare un agente Writer come agente di lavoro, ma i playbook Writer non possono essere utilizzati come agenti di lavoro.
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-Quando si crea un agente da utilizzare come agente di lavoro in Writer, si consiglia di eseguire il seguente flusso di lavoro.
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-Ulteriori informazioni sulla creazione di agenti sono disponibili nella [documentazione di Writer](https://dev.writer.com/no-code/introduction).
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. Crea un’app senza codice in Writer AI Studio.
-1. Aggiungere un singolo campo di immissione Testo. È possibile utilizzare il nome predefinito &quot;Input testo&quot;.
-1. Aggiungi `@TextInput` alla tua richiesta. Nella sezione Prompts della configurazione di app, accertati che il modello di prompt faccia riferimento alla variabile di input. Senza questo, il modello non vede mai i dati dell’attività.
-1. Regola la richiesta per generare l&#39;output immediatamente. Rimuovi eventuali istruzioni che richiedono all’utente chiarimenti o contesto aggiuntivo prima di rispondere. Ad esempio: &quot;Quando ricevi un input, consideralo come una richiesta di generazione di contenuti e generi immediatamente l’output. Non chiedete chiarimenti.&quot;
-1. Copia la chiave API e l’ID applicazione. Saranno necessarie per configurare l’agente di lavoro in Workfront.
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * Per istruzioni sulla configurazione di una chiave API in Writer, vedi [Quickstart](https://dev.writer.com/home/quickstart) nella documentazione di Writer.
-   * Per istruzioni sulla configurazione di un ID applicazione in Writer, vedere [Richiamare agenti senza codice tramite l&#39;API](https://dev.writer.com/home/applications) nella documentazione di Writer.
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. Configurare l’agente di lavoro in Workfront. Come parte della configurazione, immetti la chiave API e l&#39;ID applicazione, quindi fai clic su **Verifica connessione** per verificare.
-1. Assegnare l&#39;agente di lavoro a un&#39;attività di Workfront. L&#39;agente di lavoro inizia a lavorare quando tutte le attività predecessore dell&#39;attività sono state completate.
+-->
 
 +++
 
