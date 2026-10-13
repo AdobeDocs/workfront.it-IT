@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 3%
 ---
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * Il collaboratore deve essere abilitato per la tua organizzazione prima di essere disponibile per gli utenti della tua azienda.
 
-  Per informazioni, vedere [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Per informazioni, vedere [Panoramica di CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Dopo che Workfront ha abilitato l’agente per l’istanza Workfront, questo è disponibile per l’amministratore principale di Workfront e può essere abilitato per la tua organizzazione. Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -128,7 +128,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Funzionalità attualmente disponibile per il collega
 
-Attualmente, Collaboratore è disponibile nell&#39;area Planning di Workfront e utilizza una serie di competenze per accedere e manipolare le informazioni per gli oggetti Planning. Per ulteriori informazioni, vedere [CX Enterprise Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Attualmente, Collaboratore è disponibile nell&#39;area Planning di Workfront e utilizza una serie di competenze per accedere e manipolare le informazioni per gli oggetti Planning. Per ulteriori informazioni, vedere [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Puoi utilizzare Collaboratore per eseguire le seguenti azioni:
 

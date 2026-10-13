@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '77'
 ht-degree: 9%
 ---
 # Generare o rivedere formule di campi calcolati con Assistente IA
 
 >[!IMPORTANT]
 >
->* A partire da settembre 2026, IA Assistant passerà a CX Enterprise Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* A partire da settembre 2026, IA Assistant passerà a CX Enterprise Coworker, un’interfaccia di conversazione per il lavoro svolto. Per informazioni su Coworker, vedere [Panoramica di CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* La funzionalità di generazione di formule tramite l’Assistente IA è stata rimossa da Adobe Workfront.
 
 

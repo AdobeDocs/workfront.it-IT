@@ -1,5 +1,5 @@
 ---
-title: Panoramica di CX Enterprise Coworker
+title: Panoramica di CX Enterprise Coworker in Workfront
 content-type: reference
 description: Scopri di più su Collaboratore in Adobe Workfront.
 author: Becky
@@ -10,12 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '260'
 ht-degree: 0%
 ---
-# Panoramica di CX Enterprise Coworker
+# Panoramica di CX Enterprise Coworker in Workfront
 
 {{preview-fast-release-general}}
 
@@ -23,19 +23,19 @@ ht-degree: 0%
 >
 >CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente AI è disponibile per queste organizzazioni. Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-CX Enterprise Coworker Chat è un&#39;interfaccia di conversazione per il lavoro svolto. L’utente descrive un obiettivo in linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Adobe e nei sistemi connessi, convalida i risultati e restituisce all’utente il lavoro completato per l’approvazione&#x200B;
+CX Enterprise Coworker Chat è un’interfaccia di conversazione per il lavoro svolto, ed è ora integrata con Workfront. L’utente descrive un obiettivo in un linguaggio semplice e Collaboratore pianifica il lavoro, lo esegue in Workfront o nei sistemi Adobe e collegati, convalida i risultati e restituisce il lavoro completato all’utente per l’approvazione&#x200B;
 
-Tutto ciò su cui si basa il tuo team in AI Assistant continua a funzionare, ma ora dispone di funzionalità end-to-end più potenti, disponibili sia in una nuova esperienza a schermo intero che nella barra a destra di Workfront.
+Tutto ciò su cui si basa il team in AI Assistant continua a funzionare, ma ora dispone di funzionalità end-to-end più potenti, disponibili sia nella nuova esperienza a schermo intero che nel pannello destro di Workfront.
 
-Il collaboratore rispetta i controlli di accesso esistenti a livello di prodotto della tua organizzazione. Gli utenti possono intraprendere solo azioni che sono già autorizzati a eseguire in Workfront. Per impostazione predefinita, il collaboratore dispone dell’accesso in sola lettura e gli amministratori di sistema controllano quando gli utenti dispongono dell’accesso in scrittura.
+Il collaboratore rispetta i controlli di accesso esistenti a livello di Workfront della tua organizzazione. Gli utenti possono intraprendere solo azioni che sono già autorizzati a eseguire in Workfront. Per impostazione predefinita, il collaboratore dispone dell’accesso in sola lettura e gli amministratori di sistema controllano quando gli utenti dispongono dell’accesso in scrittura.
 
 Coworker fa parte dell’ecosistema Adobe e non si limita a Workfront.
 
 Per informazioni sull&#39;utilizzo di Coworker in Workfront, vedere [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-Per ulteriori informazioni su Coworker e sulle sue funzionalità, consulta [Panoramica di Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/overview).
+Per ulteriori informazioni su Coworker e sulle sue funzionalità, consulta [Panoramica di Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
-Per informazioni sulle abilità disponibili in Collaboratore in Workfront, consulta [Competenze CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Per le competenze disponibili in Collaboratore in Workfront, vedi [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Ad esempio, i prompt sono riportati nell&#39;articolo [Utilizzare il server MCP di Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

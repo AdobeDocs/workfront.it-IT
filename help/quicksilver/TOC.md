@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '14637'
+source-wordcount: '14654'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -973,8 +973,8 @@ ht-degree: 91%
     * [Abilità disponibili per l’installazione diretta](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * CX Enterprise Coworker in Workfront {#coworker-in-workfront}
     * [CX Enterprise Coworker in Workfront: indice articolo](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [Panoramica di CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Competenze CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Panoramica di CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Aggiornare elementi di lavoro e visualizzare aggiornamenti {#update-work-items-view-updates}
     * [Aggiornare elementi di lavoro e visualizzare aggiornamenti: indice articoli](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
