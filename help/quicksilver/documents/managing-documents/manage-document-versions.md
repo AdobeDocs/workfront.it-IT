@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1077'
 ht-degree: 4%
 ---
 # Gestire le versioni dei documenti
@@ -241,10 +241,10 @@ Workfront numera ogni versione nell&#39;ordine in cui è stata caricata (ad esem
 
 </div>
 
-### Visualizza il file corrente durante un’approvazione
+<!--
 
-Se un documento è un file di Creative Cloud (ad esempio, un documento cloud di Photoshop) e qualcuno lo modifica mentre è in corso un&#39;approvazione, Workfront mostra una sezione del **file corrente** con un badge che indica che sono presenti nuovi aggiornamenti sul documento attivo, separati dalla versione in fase di approvazione.
+### View the current file during an approval
 
->[!IMPORTANT]
->
->**Domanda aperta:** la sezione del file corrente rimane visibile in modo permanente la prima volta che viene visualizzata o solo se sono presenti aggiornamenti non revisionati nel documento attivo? Prima di pubblicare, conferma con il prodotto.
+If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
+
+-->

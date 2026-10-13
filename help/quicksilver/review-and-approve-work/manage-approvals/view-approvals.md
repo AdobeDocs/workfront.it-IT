@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 5%
 ---
 # Visualizzare le approvazioni
@@ -97,7 +97,8 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
   * Tutti i progetti, le attività, i problemi, le schede orario, i documenti, gli accessi e le <span class="preview">richieste di Workfront Planning</span> in attesa della tua approvazione vengono visualizzati nel widget Approvazioni personali nella sezione Home.
   * Le approvazioni inviate personalmente vengono visualizzate anche nel widget Approvazioni personali nell&#39;area Home quando si sceglie l&#39;opzione di filtro Approvazioni inviate. Per ulteriori informazioni, vedere la sezione [Rivedi il lavoro inviato per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
-  * Le approvazioni vengono rimosse dal widget Approvazioni personali nell&#39;area Home quando il progetto, l&#39;attività o il problema associato è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
+  * Le approvazioni di lavoro vengono rimosse dal widget Approvazioni personali quando il progetto, l&#39;attività o il problema è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
+  * Le approvazioni unificate di documenti e bozze vengono rimosse dal widget Approvazioni personali quando il flusso di lavoro di documenti o bozze viene completato o eliminato.
 
   Per informazioni sull&#39;utilizzo della Home, vedere [Introduzione alla Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 

@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 4%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Puoi assegnare i problemi a utenti, ruoli, team o agenti di lavoro per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Puoi assegnare i problemi a utenti, ruoli, team, <span class="preview">o agenti di lavoro</span> per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->È possibile assegnare più utenti, mansioni, team o agenti di lavoro. È possibile assegnare solo utenti attivi, mansioni, team e agenti di lavoro.
+>Puoi assegnare più utenti, mansioni, team, <span class="preview">o agenti di lavoro</span>. È possibile assegnare solo utenti attivi, mansioni, team, <span class="preview">e agenti di lavoro</span>.
 >
->Se un utente, una mansione, un team o un agente di lavoro è stato assegnato prima della disattivazione, questi rimangono assegnati all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
+>Se un utente, una mansione, un team, <span class="preview">o un agente di lavoro</span> è stato assegnato prima della disattivazione, questi rimangono assegnati all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
 >
 >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
 >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
@@ -149,7 +149,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 
 1. Esegui una delle operazioni seguenti:
 
-   * Inizia a digitare il nome di un utente, una mansione, un team o un agente di lavoro che desideri assegnare, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+   * Inizia a digitare il nome di un utente, una mansione, un team, <span class="preview">o un agente di lavoro</span> che desideri assegnare, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
      ![Ricerca assegnazioni](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ Per assegnare i problemi in un elenco:
 
      ![Assegnato al campo](assets/assigned-to-field-task-list-nwe.png)
 
-   * Fai clic all&#39;interno del campo **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione, un team o un agente di lavoro che desideri assegnare al problema, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+   * Fai clic all&#39;interno del campo **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione, un team, <span class="preview">o un agente di lavoro</span> che desideri assegnare al problema, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
      ![Campo assegnazioni](assets/assignments-field-0825.png)
 
