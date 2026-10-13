@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f23ba23479facf21a382314b02a95cf18401f4b8
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 2%
 ---
 # Notifiche: informazioni sui progetti di cui sono proprietario
@@ -49,7 +49,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Un progettodi mia proprietà è in ritardo</strong> </p> <p>Il proprietario del progetto riceve una notifica e-mail quando il progetto è in ritardo rispetto alla pianificazione. Un progetto è in ritardo rispetto alla pianificazione quando lo stato di avanzamento è "[!UICONTROL A rischio]", "[!UICONTROL In ritardo]" o "[!UICONTROL In ritardo]"."</p> <p>La best practice prevede di mantenere attiva questa notifica. </p> <p>Gli utenti con una licenza [!UICONTROL Review] non ricevono una notifica.</p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL Project Progress Change]: &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica del digest giornaliero è: <em> [!UICONTROL Digest of Projects You Own] &lt;Data del digest giornaliero&gt; </em></p> </td> 
+   <td> <p><strong>Un progettodi mia proprietà è in ritardo</strong> </p> <p>Il proprietario del progetto riceve una notifica e-mail quando il progetto è in ritardo rispetto alla pianificazione. Un progetto è in ritardo rispetto alla pianificazione quando lo stato di avanzamento è "[!UICONTROL A rischio]", "[!UICONTROL In ritardo]" o "[!UICONTROL In ritardo]"." Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current] o [!UICONTROL Planning].</p> <p>La best practice prevede di mantenere attiva questa notifica. </p> <p>Gli utenti con una licenza [!UICONTROL Review] non ricevono una notifica.</p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL Project Progress Change]: &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica del digest giornaliero è: <em> [!UICONTROL Digest of Projects You Own] &lt;Data del digest giornaliero&gt; </em></p> </td> 
    <td> <p>Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Stato avanzamento progetto<br>Progetto [!UICONTROL Data inizio pianificata]<br>Progetto [!UICONTROL Data completamento pianificata]<br>Progetto [!UICONTROL Data inizio prevista]<br>Progetto [!UICONTROL Data completamento prevista]<br>Percentuale progetto completata<br>Stato progetto<br>Proprietario progetto<br>*Nome progetto<br>*Numero riferimento progetto<br>*Stato avanzamento progetto<br>*Data riepilogo giornaliero<br></p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
