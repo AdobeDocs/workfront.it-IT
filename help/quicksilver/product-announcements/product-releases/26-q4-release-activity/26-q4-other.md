@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # Altri miglioramenti durante il periodo di rilascio del quarto trimestre 2026
@@ -54,7 +54,7 @@ Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfro
 
 I seguenti elenchi di Workfront ora utilizzano il formato elenco avanzato:
 
-* Configurazione > E-mail > Notifiche > Notifiche evento e pagina Dettagli gruppo > Notifiche evento
+* Configurazione > E-mail > Notifiche > Notifiche evento e pagina Dettagli gruppo > Notifiche evento (questo aggiornamento è stato rimosso dall’ambiente di anteprima il 14 ottobre e non farà parte della versione trimestrale). Tali elenchi verranno aggiornati in un secondo momento.)
 * Configurazione > Documenti > Experience Manager Assets
 * Progetto o Modello > Argomenti coda
 * Progetto o Modello > Gruppi di argomenti
