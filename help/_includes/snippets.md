@@ -1,9 +1,8 @@
 ---
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2294'
 ht-degree: 2%
-
 ---
 # Frammenti
 
@@ -17,7 +16,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -384,8 +383,8 @@ OLD:
 
 **Versione più recente**:
 
-* Mac: 2.1.54 a partire dal 12/11/2025
-* Windows: 2.1.54 del 12/11/2025
+* Mac: 2.2.2 dal 09/17/2026
+* Windows: 2.2.2 dal 09/17/2026
 
 <!-- Release -->
 
