@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 1%
 ---
 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![Descrizione comando icona dipendente nell&#39;intestazione colonna](assets/dependent-icon-tooltip-in-column-header.png)
 1. (Facoltativo) Fai clic su **Regole filtro record** e seleziona i campi dal tipo di record a cui ti stai connettendo per limitare le opzioni per i valori del campo, quindi fai clic su **Fine**.
 
-   Quando i due campi sono presenti in un terzo tipo di record, le opzioni per il tipo di record campo connesso saranno limitate dal filtro selezionato qui.
+   Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 1. (Facoltativo e consigliato) Passare a un terzo tipo di record e aggiungere sia il primo che il secondo tipo di record come campi record connessi.
 
    ![Indicatore di campo connesso dipendente su un terzo tipo di record](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

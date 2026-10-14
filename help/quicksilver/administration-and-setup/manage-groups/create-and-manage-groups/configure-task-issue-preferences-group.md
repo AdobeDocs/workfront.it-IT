@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 4%
 ---
 # Configurare le preferenze per attività e problemi per un gruppo
@@ -165,7 +165,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
        <ul> 
         <li><strong>Mantieni il problema originale e collegane la risoluzione all'attività</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell'attività. Lo stato del problema diventa automaticamente Chiuso al completamento dell’attività.</li> 
-        <li><strong>Consenti al contatto principale di accedere all'attività</strong>: consente al contatto principale (autore del problema) di accedere all'attività per esaminarla, apportare aggiornamenti e rimanere informato sull'avanzamento</li> 
+        <li><strong>Consenti al contatto principale di accedere all'attività</strong>: concede al contatto principale (autore del problema) l'accesso in visualizzazione all'attività per esaminarla, tenerne informato l'avanzamento e aggiungere commenti alla sezione Aggiornamenti dell'attività.</li> 
         <li> <p><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: consente all'utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un'attività.</p>
         <!--
           Screenshot when possible</p>

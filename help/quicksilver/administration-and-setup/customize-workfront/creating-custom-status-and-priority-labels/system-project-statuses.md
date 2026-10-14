@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1635'
 ht-degree: 1%
 ---
 # Panoramica degli stati progetto di sistema
@@ -64,7 +64,7 @@ Con l’istanza di Adobe Workfront, Workfront fornisce i seguenti stati del prog
   <tr> 
    <td>Pianificazione (stato obbligatorio)</td> 
    <td> <p>Il project manager sta pianificando la sequenza temporale del progetto, l'assegnazione delle attività e le approvazioni. Il project manager imposta questo stato manualmente su un progetto.</p> <p><b>SUGGERIMENTO</p> <p> È consigliabile impostare su Planning lo stato predefinito per i nuovi progetti in Workfront. In qualità di amministratore di Workfront, puoi modificare lo stato predefinito di tutti i nuovi progetti nell’area Progetti di Preferenze progetto.</p> <p>Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurare le preferenze di progetto a livello di sistema</a>.</p></td> 
-   <td> <p>Per impostazione predefinita (senza un filtro personalizzato), gli utenti del team di progetto possono visualizzare il progetto nei propri elenchi Progetti nell’area Progetti di Workfront. Le attività e i problemi assegnati a loro nel progetto non popolano il loro Work List (Elenco di lavoro). Nella sezione Elenco lavori dell’area Home vengono visualizzate solo le approvazioni e gli elementi di lavoro accettati.</p> <p>Quando un progetto è in questo stato, non viene inviata alcuna notifica.</p> <p>È consigliabile apportare tutte le modifiche che possono attivare un aggiornamento della sequenza temporale del progetto o qualsiasi modifica alle attività e alle assegnazioni dei problemi mentre il progetto è nello stato Pianificazione. In questo modo si riduce al minimo il numero di notifiche ricevute dagli utenti.</p> <p>La sequenza temporale del progetto non viene calcolata automaticamente dal sistema.</p> </td> 
+   <td> <p>Per impostazione predefinita (senza un filtro personalizzato), gli utenti del team di progetto possono visualizzare il progetto nei propri elenchi Progetti nell’area Progetti di Workfront. Le attività e i problemi assegnati a loro nel progetto non popolano il loro Work List (Elenco di lavoro). Nella sezione Elenco lavori dell’area Home vengono visualizzate solo le approvazioni e gli elementi di lavoro accettati.</p> <p>Quando un progetto è nello stato Pianificazione, alcune notifiche su assegnazioni, approvazioni e attività relative ai problemi vengono inviate agli utenti del team di progetto, mentre molte notifiche relative alla sequenza temporale no.</p> <p>È consigliabile apportare tutte le modifiche che possono attivare un aggiornamento della sequenza temporale del progetto o qualsiasi modifica alle attività e alle assegnazioni dei problemi mentre il progetto è nello stato Pianificazione. In questo modo si riduce al minimo il numero di notifiche ricevute dagli utenti.</p> <p>La sequenza temporale del progetto non viene calcolata automaticamente dal sistema.</p> </td> 
   </tr> 
   <tr> 
    <td>Corrente (stato obbligatorio)</td> 
