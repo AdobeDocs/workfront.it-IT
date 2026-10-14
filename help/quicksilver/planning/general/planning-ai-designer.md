@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 6%
+source-wordcount: '1670'
+ht-degree: 5%
 ---
 # Introduzione a Adobe Workfront Planning Designer
 
@@ -274,7 +274,12 @@ Sargis and Ashot  said these are not required:
 
 ## Creazione o aggiornamento di oggetti mediante Planning Designer
 
-È possibile creare o aggiornare oggetti in Workfront Planning utilizzando il Designer di Planning oppure l&#39;Assistente AI o il collaboratore <span class="preview"></span>, salvo diversa indicazione.
+È possibile creare o aggiornare oggetti in Workfront Planning utilizzando il Designer di Planning, l&#39;Assistente AI o il collaboratore <span class="preview"></span>, salvo diversa indicazione.
+
+>[!TIP]
+>
+>È consigliabile cercare un&#39;area di lavoro esistente prima di iniziare a crearne una. Il Designer di Planning potrebbe visualizzare un messaggio di errore se esiste già un&#39;area di lavoro.
+
 
 1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) in alto a sinistra, quindi fai clic su **Planning**.
 

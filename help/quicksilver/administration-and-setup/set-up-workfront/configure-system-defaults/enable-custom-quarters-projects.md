@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Abilita trimestri personalizzati
-description: A scopo di reporting, è possibile creare trimestri personalizzati se i trimestri dell'organizzazione si basano su criteri specifici diversi dalle date del calendario, ad esempio giorni lavorativi o di acquisto.
+title: Abilita trimestri e settimane personalizzati
+description: A scopo di reporting, è possibile configurare trimestri personalizzati se i trimestri dell'organizzazione si basano su criteri specifici diversi dalle date del calendario, ad esempio giorni lavorativi o di acquisto. Se la tua organizzazione acquista un pacchetto Workfront Planning, puoi anche configurare delle settimane personalizzate.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 5%
+source-wordcount: '912'
+ht-degree: 4%
 ---
-# Abilitare trimestri personalizzati
+# Abilita trimestri e settimane personalizzati
 
 <!--Audited: 03/2026-->
 

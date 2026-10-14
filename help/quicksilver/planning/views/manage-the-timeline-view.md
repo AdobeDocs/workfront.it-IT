@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
@@ -225,7 +225,7 @@ Per gestire una vista timeline:
    >
    >Se il trimestre personalizzato non viene salvato correttamente, nella visualizzazione della timeline vengono visualizzati i trimestri classici.
    >Dopo aver impostato i trimestri personalizzati nell&#39;area Configura, nella vista timeline vengono visualizzati i trimestri personalizzati anziché quelli classici.
-   >Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+   >Per informazioni, vedere [Abilitare trimestri e settimane personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.
 
@@ -593,7 +593,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** nella casella **Utilizza trimestri personalizzati** per passare all&#39;area di installazione e impostare i trimestri personalizzati. Dopo aver impostato i trimestri personalizzati, è possibile visualizzarli nella vista timeline anziché nei trimestri classici. Se non sei un amministratore di Workfront, puoi richiedere a un amministratore di abilitare i trimestri personalizzati per la tua organizzazione.
 
-   Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+   Per informazioni, vedere [Abilitare trimestri e settimane personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
    ![Utilizza l&#39;avviso di trimestri personalizzati nelle impostazioni di visualizzazione della sequenza temporale](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
