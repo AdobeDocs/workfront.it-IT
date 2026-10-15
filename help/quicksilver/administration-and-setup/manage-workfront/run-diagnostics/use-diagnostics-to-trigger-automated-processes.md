@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 20%
+source-wordcount: '307'
+ht-degree: 22%
 ---
 # Utilizzare la diagnostica per attivare processi automatizzati
 
@@ -71,7 +71,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Utilizzare la diagnostica per attivare i processi automatizzati
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Espandere **Sistema**, quindi fare clic su **Diagnostica**.
 1. Selezionare una delle opzioni seguenti:
