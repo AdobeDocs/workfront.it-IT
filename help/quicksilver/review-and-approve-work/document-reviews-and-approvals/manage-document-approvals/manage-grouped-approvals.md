@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: approvals
 title: Gestire le approvazioni raggruppate
-description: Puoi aggiungere o rimuovere partecipanti e risorse in un’approvazione raggruppata senza interrompere il flusso di lavoro per il resto del gruppo.
+description: È possibile aggiungere o rimuovere partecipanti e documenti in un'approvazione raggruppata senza interrompere il flusso di lavoro per il resto del gruppo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 ---
 
 # Gestire le approvazioni raggruppate
 
-{{highlighted-preview-article-level}}
-
-Un’approvazione raggruppata raggruppa più risorse in un unico flusso di lavoro di approvazione, in modo che tutte le risorse passino attraverso le stesse fasi insieme invece di richiedere un’approvazione separata per ogni risorsa. Puoi aggiungere o rimuovere partecipanti e risorse in un’approvazione raggruppata attiva senza ricreare il flusso di lavoro.
+Un’approvazione raggruppata raggruppa più documenti in un unico flusso di lavoro di approvazione, in modo che tutti i documenti passino attraverso le stesse fasi insieme invece di richiedere un’approvazione separata per documento. È possibile aggiungere o rimuovere partecipanti e documenti in un&#39;approvazione raggruppata attiva senza ricreare il flusso di lavoro.
 
 Le approvazioni raggruppate supportano la modalità di base e avanzata, più fasi e percorsi paralleli allo stesso modo delle approvazioni con una singola risorsa. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
->Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Le approvazioni raggruppate sono disponibili solo nella nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti di accesso
 
@@ -90,19 +88,19 @@ Per rimuovere partecipanti da un&#39;approvazione raggruppata attiva:
 
 1. Fai clic su qualsiasi documento del gruppo, quindi fai clic sull&#39;icona **Approvazioni** sul lato destro della pagina.
 
+   ![Rimuovi approvatori nel riepilogo documenti](assets/approvals-icon-new.png)
+
 1. Fare clic su **Modifica flusso di lavoro**.
 
 1. Individua il partecipante che desideri rimuovere dalla fase attiva, quindi fai clic sull&#39;icona **Rimuovi** accanto al nome.
 
 1. Fai clic su **Salva**.
 
-   Lo stato di approvazione degli altri partecipanti viene rivalutato per tenere conto della modifica.
+## Aggiungere documenti a un’approvazione raggruppata
 
-## Aggiungere risorse a un’approvazione raggruppata
+È possibile aggiungere documenti a un’approvazione raggruppata fino a quando la prima fase non viene bloccata. Una volta che la prima fase si blocca, non è più possibile aggiungere documenti.
 
-Puoi aggiungere risorse a un’approvazione raggruppata fino a quando la prima fase non viene bloccata. Una volta che la prima fase si blocca, non è più possibile aggiungere risorse, perché i partecipanti a quella fase non avrebbero avuto la possibilità di rivederle.
-
-Per aggiungere una risorsa a un’approvazione raggruppata:
+Per aggiungere un documento a un’approvazione raggruppata:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene l&#39;approvazione raggruppata, quindi seleziona **Documenti** nel pannello a sinistra.
 
@@ -110,17 +108,17 @@ Per aggiungere una risorsa a un’approvazione raggruppata:
 
 1. Fai clic su **Modifica flusso di lavoro**, quindi sulla scheda **Documenti**.
 
-1. Seleziona la risorsa o le risorse da aggiungere al gruppo.
+1. Selezionare il documento o i documenti da aggiungere al gruppo.
 
 1. Fai clic su **Salva**.
 
-   A tutti i partecipanti al gruppo viene notificata l’aggiunta di una risorsa aggiuntiva da esaminare.
+   A tutti i partecipanti al gruppo viene notificato che è stato aggiunto un documento aggiuntivo da esaminare.
 
-## Rimuovere risorse da un’approvazione raggruppata
+## Rimuovere documenti da un&#39;approvazione raggruppata
 
-È possibile rimuovere una risorsa da un’approvazione raggruppata in qualsiasi punto del flusso di lavoro. La risorsa rimossa diventa una propria approvazione indipendente e mantiene tutte le decisioni, i commenti e la cronologia esistenti senza riavviare. Poiché la risorsa contiene già una decisione di approvazione, non puoi aggiungerla nuovamente a un’approvazione raggruppata in seguito.
+È possibile rimuovere un documento da un&#39;approvazione raggruppata in qualsiasi punto del flusso di lavoro. Il documento rimosso diventa una propria approvazione autonoma e mantiene tutte le decisioni, i commenti e la cronologia esistenti senza riavviare. Poiché il documento contiene già una decisione di approvazione, non è possibile aggiungerlo nuovamente a un’approvazione raggruppata in seguito.
 
-Per rimuovere una risorsa da un’approvazione raggruppata:
+Per rimuovere un documento da un&#39;approvazione raggruppata:
 
 1. Vai al progetto, all&#39;attività o al problema che contiene l&#39;approvazione raggruppata, quindi seleziona **Documenti** nel pannello a sinistra.
 
@@ -132,16 +130,30 @@ Per rimuovere una risorsa da un’approvazione raggruppata:
 
 1. Fai clic su **Salva**.
 
-   Lo stato di approvazione della risorsa rimane visibile e invariato dal momento in cui è stata rimossa. La vista approvazione raggruppata si aggiorna per riflettere le risorse rimanenti nel gruppo.
+   >[!NOTE]
+   >
+   >Lo stato di approvazione del documento rimane visibile e invariato dal momento in cui è stato rimosso. La vista approvazione raggruppata si aggiorna per riflettere i documenti rimanenti nel gruppo.
 
-## Risolvere una decisione di &quot;lavoro necessario&quot; in un&#39;approvazione raggruppata in più fasi
 
-In un’approvazione raggruppata in più fasi, tutte le risorse di una fase devono pervenire a una decisione prima che il gruppo possa passare alla fase successiva. Se una risorsa è contrassegnata come **Da lavorare**, non può essere spostata in avanti con il resto del gruppo, pertanto deve essere rimossa dal gruppo per consentire l&#39;avanzamento della fase.
+## Risolvere una decisione di &quot;lavoro necessario&quot; su un singolo documento in un&#39;approvazione raggruppata in più fasi
+
+In un’approvazione raggruppata in più fasi, tutti i documenti di una fase devono pervenire a una decisione prima che il gruppo possa passare alla fase successiva. Se un documento è contrassegnato come **Richiede lavoro**, non può essere spostato in avanti con il resto del gruppo, pertanto deve essere rimosso manualmente dal gruppo per consentire l&#39;avanzamento della fase.
+
+Quando rimuovi il documento dal gruppo, questo diventa la propria approvazione autonoma e mantiene tutte le decisioni, i commenti e la cronologia esistenti senza riavviarlo. È possibile aggiungere il documento revisionato come nuova versione all&#39;approvazione autonoma o crearne una nuova approvazione raggruppata.
 
 Per risolvere una decisione di tipo &quot;Necessità di lavoro&quot;:
 
-1. Rimuovi dal gruppo la risorsa contrassegnata come **Da lavorare**. Per ulteriori informazioni, consulta [Rimuovere risorse da un&#39;approvazione raggruppata](#remove-assets-from-a-grouped-approval). La risorsa rimossa diventa la propria approvazione indipendente e mantiene le decisioni, i commenti e la cronologia esistenti.
+1. Rimuovi dal gruppo il documento contrassegnato come **Da lavorare**. Per ulteriori informazioni, vedere [Rimuovere documenti da un&#39;approvazione raggruppata](#remove-documents-from-a-grouped-approval). Il documento rimosso diventa una propria approvazione autonoma e mantiene le decisioni, i commenti e la cronologia esistenti.
 
-1. Dopo l’aggiornamento della risorsa, richiedi di nuovo l’approvazione come singola risorsa o come parte di un nuovo gruppo. Poiché la risorsa contiene già una decisione di approvazione, non puoi aggiungerla nuovamente al gruppo originale.
+1. Dopo aver aggiornato il documento, caricalo come nuova versione e richiedi nuovamente l’approvazione oppure aggiungilo come parte di un nuovo gruppo.
 
-   Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](create-a-document-approval.md) e [Creare un&#39;approvazione raggruppata](create-a-grouped-approval.md).
+   Per ulteriori informazioni, consulta
+
+   * [Caricare una nuova versione del documento e richiedere un’approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+   * [Creare un flusso di lavoro di approvazione documento](create-a-document-approval.md)
+   * [Creare un’approvazione raggruppata](create-a-grouped-approval.md)
+
+
+## Limitazioni note
+
+Si è verificato un problema temporaneo di sincronizzazione con Frame.io quando si aggiungono o si rimuovono documenti in un&#39;approvazione raggruppata. Le modifiche verranno applicate a Frame.io solo alla successiva sincronizzazione del documento.
