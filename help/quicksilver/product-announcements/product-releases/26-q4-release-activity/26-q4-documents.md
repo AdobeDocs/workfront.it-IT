@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 2%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Anteprima: questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile.
->Versione rapida di produzione: 22 ottobre 2026
->Produzione per tutti: 22 ottobre 2026
+>Versione rapida di produzione: 15 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
 
 Ora è possibile raggruppare più documenti in un unico flusso di lavoro di approvazione, in modo che possano passare attraverso le stesse fasi insieme.
 
@@ -88,8 +88,8 @@ Per ulteriori informazioni, vedere [Creare un&#39;approvazione raggruppata](/hel
 >[!NOTE]
 >
 >Anteprima: questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile.
->Versione rapida di produzione: 22 ottobre 2026
->Produzione per tutti: 22 ottobre 2026
+>Versione rapida di produzione: 15 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
 >[!BADGE Fuori pianificazione]{type=Neutral}
 
 Ora puoi aggiungere un sito web ad Adobe Workfront come collegamento web nella nuova area Documenti. Dopo averlo aggiunto, puoi richiedere l’approvazione sulla pagina web live nello stesso modo in cui richiedi l’approvazione su un file caricato.
