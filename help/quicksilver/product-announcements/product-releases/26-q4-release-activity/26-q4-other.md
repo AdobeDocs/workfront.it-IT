@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
->Produzione per tutti: 15 ottobre 2026
+>Versione rapida di produzione: 16 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 Sono state apportate le seguenti modifiche ai filtri elenco e ai raggruppamenti migliorati:
 
@@ -49,8 +49,8 @@ Per informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfro
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
->Produzione per tutti: 15 ottobre 2026
+>Versione rapida di produzione: 16 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 I seguenti elenchi di Workfront ora utilizzano il formato elenco avanzato:
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilv
 >
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 15 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 In tutti gli elenchi avanzati, sono ora disponibili i seguenti aggiornamenti:
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilv
 >
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 15 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 I seguenti elenchi di Workfront ora utilizzano il formato elenco avanzato:
 
@@ -159,7 +159,7 @@ Per ulteriori informazioni, vedere [Navigazione a sinistra in Adobe Workfront](/
 >
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
->Produzione per tutti: 15 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 Sono stati apportati diversi aggiornamenti agli elenchi avanzati:
 
@@ -174,7 +174,7 @@ Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilv
 >
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
->Produzione per tutti: 15 ottobre 2026
+>Produzione per tutti: 16 ottobre 2026
 
 Quando passi il cursore del mouse sulla breadcrumb di un oggetto, puoi copiarne il nome e collegarne uno all’altro in un’unica azione. Questo consente di condividere più rapidamente gli oggetti in Slack, e-mail o altri strumenti, senza copiare separatamente il nome e l’URL.
 

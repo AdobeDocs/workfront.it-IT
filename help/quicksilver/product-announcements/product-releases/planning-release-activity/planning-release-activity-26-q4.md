@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3259'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -28,6 +28,36 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+<!--
+
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Creazione e gestione di regole business con Coworker e il server Workfront MCP per Workfront Planning
+
+>[!NOTE]
+>
+>Anteprima: 12 ottobre 2026
+>Produzione per tutti: 15 ottobre 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
+
+Abbiamo aggiunto nuove competenze a Collaboratore e al server Workfront MCP per gestire le regole aziendali di Planning.
+
+È ora possibile creare, elencare, visualizzare, aggiornare ed eliminare regole business per i tipi di record utilizzando Coworker o Workfront MCP. Le nuove competenze consentono inoltre di generare formule delle regole di business accettate dal modulo di gestione delle formule, in modo da ottenere un numero inferiore di formule non valide.
+
+Per informazioni, vedere [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) o [Utilizzare il server Adobe Workfront MCP](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 <!--
 
