@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3561'
 ht-degree: 4%
 ---
 
@@ -353,13 +353,20 @@ Gli strumenti di reporting ti consentono di creare e gestire dashboard di Canvas
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Leggi | `read` | Legge i dati di reporting in tre modalità selezionate dagli ID passati: elenca le dashboard visibili, recupera la struttura di una singola dashboard o recupera la configurazione completa di un widget. | Leggi |
-| Crea dashboard | `create_dashboard` | Crea un nuovo dashboard di reporting vuoto e lo restituisce, con un collegamento per aprirlo. | Scrittura |
-| Aggiorna dashboard | `update_dashboard` | Aggiorna parzialmente il posizionamento di metadati, prompt, filtri e per widget di un dashboard. I campi omessi rimangono invariati. | Scrittura |
-| Crea widget | `create_widget` | Crea un widget e la relativa configurazione di report su un dashboard. Uno strumento gestisce tutti e tre i tipi di widget: grafico, KPI e tabella. | Scrittura |
-| Aggiorna widget | `update_widget` | Aggiorna parzialmente la configurazione di un widget esistente. Il tipo di widget viene dedotto automaticamente, pertanto puoi inviare solo i campi che desideri modificare. | Scrittura |
-| Copia oggetto | `copy_object` | Copia un intero dashboard, inclusi i relativi widget, prompt e filtro, in un nuovo dashboard oppure copia un singolo widget all&#39;interno o tra dashboard. | Scrittura |
-| Elimina oggetto | `delete_object` | Elimina definitivamente un dashboard di reporting e tutti i relativi widget o un singolo widget. Questa azione non può essere annullata. | Scrittura |
+| Elenca dashboard | `reporting_relist_dashboards` | Elenca le dashboard di reporting visibili. Supporta i valori `view` `"my"`, `"shared"`, `"all"` e `"favorites"`. Restituisce solo i metadati del dashboard, incluso un URL per aprire ogni dashboard. | Leggi |
+| Ottieni dashboard | `reporting_get_dashboard` | Recupera un dashboard di Canvas per ID, inclusi metadati, layout, prompt, filtri e ID widget. I dati del widget non sono idratati. | Leggi |
+| Ottieni widget | `reporting_get_widget` | Recupera una shell widget e la relativa configurazione di contenuto appiattito. I riferimenti ai campi vengono restituiti come `{id, label, dataType}` e possono quindi essere riutilizzati direttamente negli strumenti `reporting_update_*_widget`. I tipi di contenuto supportati sono Table, KPI e MultiSeries. | Leggi |
+| Crea dashboard | `reporting_create_dashboard` | Crea un dashboard di reporting vuoto. Restituisce l’intero dashboard creato, compresi l’ID, il titolo, la descrizione, la valuta, l’ID creatore, la data di creazione e le raccolte vuote di widget, prompt e filtri. | Scrittura |
+| Aggiorna dashboard | `reporting_update_dashboard` | Aggiorna parzialmente il titolo, la descrizione, la valuta, il prompt, il filtro e le impostazioni di layout di un dashboard `ignoreDashboardFilters` e. I campi omessi vengono lasciati invariati e, se presenti, i prompt e i filtri vengono sostituiti completamente. | Scrittura |
+| Crea widget tabella | `reporting_create_table_widget` | Crea un widget Tabella e la relativa configurazione di report in un dashboard. Restituisce il widget creato nella forma `get_widget` appiattita. | Scrittura |
+| Aggiorna widget tabella | `reporting_update_table_widget` | Aggiorna un widget Tabella esistente e la relativa configurazione di report. Sostituisce la configurazione della tabella memorizzata, incluse le colonne, i bucket, il limite di righe, la didascalia, la descrizione, la condizione e le impostazioni di esecuzione come utente. | Scrittura |
+| Crea widget KPI | `reporting_create_kpi_widget` | Crea un widget KPI e la relativa configurazione di report in un dashboard. Restituisce il widget creato nella forma `get_widget` appiattita. | Scrittura |
+| Aggiorna widget KPI | `reporting_update_kpi_widget` | Aggiorna un widget KPI esistente e la relativa configurazione di report. `fieldId` e `aggregation` sono obbligatori e il report sottostante è stato completamente sostituito. | Scrittura |
+| Crea widget grafico | `reporting_create_chart_widget` | Crea un widget Grafico e la relativa configurazione di report. I tipi di grafico supportati sono BAR, COLUMN, LINE e PIE, incluse le varianti SIMPLE, MULTI_SERIES e STACKED, se supportate. | Scrittura |
+| Aggiorna widget grafico | `reporting_update_chart_widget` | Aggiorna un widget Grafico esistente e la relativa configurazione di report. `aggregationFieldId`, `aggregationType`, `groupByFields` e `chartType` sono obbligatori e il report sottostante è stato completamente sostituito. | Scrittura |
+| Copia widget | `reporting_copy_widget` | Copia un widget esistente nello stesso dashboard o in un dashboard diverso, duplicando il widget e la relativa configurazione del report. | Scrittura |
+| Copia dashboard | `reporting_copy_dashboard` | Copia un dashboard in un nuovo dashboard, inclusi i widget e le configurazioni di report. Facoltativamente, è possibile copiare solo un sottoinsieme di widget e scegliere se includere il prompt e il filtro. | Scrittura |
+| Elimina oggetto | `reporting_delete_object` | Elimina definitivamente un dashboard di reporting e tutti i relativi widget o un singolo widget. Questa azione non può essere annullata. | Scrittura |
 
 ## Come vengono aggiornati gli strumenti
 

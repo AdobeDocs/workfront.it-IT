@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # Ricalcolare le finanze di progetto
 
 I dati finanziari vengono calcolati su un progetto in base alle modifiche apportate alle ore registrate per il progetto o ai tassi utilizzati per calcolare costi e ricavi.
@@ -125,7 +129,7 @@ Per ulteriori informazioni sulla creazione dei record di fatturazione, vedere [C
 
 #### Preservare i ricavi del progetto utilizzando più sostituzioni delle tariffe di fatturazione {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-Quando le tariffe di fatturazione cambiano per le mansioni a livello di progetto, puoi mantenere i ricavi esistenti che sono già stati calcolati sul progetto utilizzando più sostituzioni di tariffe di fatturazione che sono bloccate entro un intervallo di tempo specificato.
+Quando le tariffe di fatturazione cambiano per le mansioni a livello di progetto, puoi mantenere i ricavi esistenti che sono già stati calcolati sul progetto utilizzando più sostituzioni delle tariffe di fatturazione, che sono bloccate entro un intervallo di tempo specificato.
 
 Per ulteriori informazioni sull&#39;utilizzo di sostituzioni di più tariffe di fatturazione, vedere [Panoramica sulla sostituzione delle tariffe di fatturazione e sul calcolo dei ricavi per un progetto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +150,7 @@ I tassi di costo possono variare ai seguenti livelli:
 * Livello progetto (per utenti)
 Per ulteriori informazioni sulla sostituzione delle tariffe utente, vedere [Sostituire le tariffe utente a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-Quando le tariffe di fatturazione cambiano a qualsiasi livello indicato sopra, puoi mantenere i costi esistenti che sono già stati calcolati sul progetto bloccando il tempo registrato sul progetto e calcolato utilizzando la tariffa precedente in una registrazione di fatturazione con lo stato Fatturato. Per ulteriori informazioni sulla creazione dei record di fatturazione, vedere [Creare i record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
+Quando le tariffe dei costi cambiano a qualsiasi livello indicato sopra, è possibile mantenere i costi esistenti già calcolati sul progetto bloccando il tempo registrato sul progetto e calcolato utilizzando la tariffa precedente in un record di fatturazione con lo stato Fatturato. Per ulteriori informazioni sulla creazione dei record di fatturazione, vedere [Creare i record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 È inoltre possibile evitare di utilizzare l&#39;opzione Ricalcola contabilità manuale se non si desidera creare un record di fatturazione, come descritto nella sezione [Ricalcolare manualmente i dati finanziari per un progetto](#manually-recalculate-finances-for-a-project) in questo articolo.
 
@@ -183,7 +187,7 @@ Se i tassi cambiano durante la durata di un progetto e si desidera che i calcoli
    Tutti i costi e i ricavi pianificati per il progetto vengono ricalcolati con eventuali nuove informazioni.
 
    Nella parte superiore del browser dovresti ricevere una conferma che i dati finanziari del progetto sono stati ricalcolati correttamente.
-I valori dei costi esistenti e alcuni valori dei ricavi che non sono stati bloccati vengono aggiornati per riflettere i nuovi tassi.
+   I valori dei costi esistenti e alcuni valori dei ricavi che non sono stati bloccati vengono aggiornati per riflettere i nuovi tassi.
 
 ## Ricalcolare manualmente i dati finanziari in blocco{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ Le azioni seguenti attivano il ricalcolo finanziario dei progetti in Workfront:
 * Modifica dello stato dell&#39;attività
 * Spostamento di un&#39;attività con ore in un altro progetto
 * Modifica dello stato del progetto da Completo a Attivo
+* Aggiunta di una spesa fatturabile a livello di progetto o di attività
 
 >[!NOTE]
 >
 >Quando si modifica lo stato del progetto, vengono ricalcolati solo i valori pianificati.
 
 È inoltre possibile ricalcolare manualmente i dati finanziari nel menu **Altro** ![Altro menu](assets/qs-more-menu.png) a livello di progetto facendo clic su **Ricalcola dati finanziari**.
+
+### Effetti delle spese sul ricalcolo automatico dei dati finanziari
+
+Questi scenari si verificano quando si aggiungono spese a progetti e attività:
+
+* L&#39;aggiunta di una spesa non fatturabile a un progetto aggiorna i costi del progetto, senza ricalcolare tutti i dati finanziari.
+* Se si aggiunge una spesa non fatturabile a un&#39;attività, vengono ricalcolati i costi dell&#39;attività e i costi del progetto. Non vengono ricalcolate altre attività.
+* L&#39;aggiunta di una spesa fatturabile a livello di progetto o di task attiva un ricalcolo finanziario sul progetto, inclusi i costi della manodopera e i ricavi.
+
+>[!NOTE]
+>
+>Quando un importo pianificato viene salvato sulla spesa, il costo pianificato viene aggiornato. Quando viene salvato un importo effettivo sulla spesa, il costo effettivo viene aggiornato.
+
+Per ulteriori informazioni sulle spese, vedere [Gestione spese progetto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
