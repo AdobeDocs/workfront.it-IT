@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -305,5 +305,3 @@ Per ulteriori informazioni, vedere [Configurare i campi per tenere traccia della
 Nel livello di accesso Standard è ora possibile definire se gli utenti con tale livello devono avere accesso all&#39;elenco Cronologia modifiche. L&#39;opzione **Cambia cronologia** è disponibile nella sezione **Consenti accesso amministrativo per** nel livello di accesso.
 
 Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) e [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
-
-
