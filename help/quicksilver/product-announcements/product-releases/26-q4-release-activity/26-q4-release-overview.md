@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
-source-wordcount: '3601'
+source-wordcount: '3584'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -24,7 +24,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del quarto trimestre 2026 si avvicina al rilascio pianificato in produzione.
 
-I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/it/events?filters=Workfront) e filtra per Workfront.
+I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuove funzioni e forniscono informazioni dettagliate. Per iscriverti, visita la [pagina eventi](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtra per Workfront.
 
 >[!IMPORTANT]
 >
@@ -33,9 +33,9 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 >
 >| Rilascio mensile | Rilascio trimestrale |
 >|----|----|
->| <ul><li>26.8 (13 agosto 2026)</li><li>26.9 (17 settembre 2026)</li><li>26.10 (14 ottobre 2026)</li></ul> | <ul><li>26.10 (16 ottobre 2026)</li></ul> |
+>| <ul><li>26.8 (13 agosto 2026)</li><li>26.9 (17 settembre 2026)</li><li>26.10 (14 ottobre 2026)</li></ul> | <ul><li>26.10 (22 ottobre 2026)</li></ul> |
 >
->* Tieni presente che per la versione finale di ogni trimestre (le 26.10 di questo trimestre), gli utenti che seguono la pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo (14 ottobre 2026).
+>* La versione 26.10 (ottobre 2026) è stata spostata al 22 ottobre 2026.
 >
 >   Per ulteriori informazioni sul processo di rilascio rapido, consulta [Abilitare o disabilitare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 >* Per la versione 26.10 (ottobre 2026), l’ultima data in cui le funzioni potrebbero essere visualizzate nell’ambiente di anteprima è il 1° ottobre.
@@ -69,8 +69,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Gli amministratori di Workfront possono ora tenere traccia nel tempo delle modifiche apportate a mansioni, agenzie, centri di costo e tariffe di fatturazione di un utente in un'unica visualizzazione filtrabile Cronologia impiego.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Gli amministratori di Workfront ora possono utilizzare l’intelligenza artificiale per generare traduzioni per testo di localizzazione personalizzato e rivedere o modificare i risultati prima di salvarli.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Sono stati apportati diversi miglioramenti ai modelli di layout, tra cui nascondere o visualizzare gli elementi nel menu principale, posizionare l’applicazione personalizzata nel menu principale e nascondere i dettagli nel menu di navigazione a sinistra.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Per semplificare la creazione e la gestione degli abbonamenti agli eventi dell’organizzazione, è stata aggiunta l’area Iscrizioni agli eventi a Configurazione.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Quando si utilizzano campi a discesa, pulsanti di scelta e caselle di controllo in Progettazione moduli, è ora possibile aggiungere, modificare ed eliminare le scelte dei campi in un'unica finestra di dialogo.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Gli amministratori di Workfront ora possono mantenere un inserisco nell'elenco Consentiti di degli URL di callback OAuth attendibili, in modo che le piattaforme basate su IA personalizzate possano connettersi ai server MCP di Workfront.</p>
             </td>
             <td><p>22 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>I collaboratori IA possono ora lavorare con gli agenti su attività e problemi, utilizzare il contesto del documento e pubblicare aggiornamenti in tempo reale nell’area Aggiornamenti.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>Rollout graduale a partire dal 3 settembre 2026</p></td>
             <td><p>Rollout graduale a partire dal 17 settembre 2026</p></td>
-            <td><p>Rollout graduale a partire dal 16 ottobre 2026</p></td>
+            <td><p>Rollout graduale a partire dal 22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,8 +386,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora è possibile raggruppare più documenti in un unico flusso di lavoro di approvazione, in modo che possano passare attraverso le stesse fasi insieme.</p>
             </td>
             <td><p>Questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile in tale ambiente.</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora puoi aggiungere un sito web ad Adobe Workfront come collegamento web nella nuova area Documenti e richiedere l’approvazione sulla pagina web live.</p>
             </td>
             <td><p>Questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile in tale ambiente.</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -423,7 +423,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>N/D</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>N/D</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Aggiungi team alle approvazioni per gli oggetti che utilizzano l'archiviazione cloud Adobe</a>
@@ -440,7 +440,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora nella riga dell’oggetto del messaggio e-mail di approvazione-richiesta viene visualizzato anche un messaggio personalizzato impostato sull’approvazione di un documento.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 16, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>I modelli di progetto ora supportano miglioramenti migliorati degli elenchi e aggiornamenti degli attributi delle tariffe per le tariffe di fatturazione.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Le istanze di Workfront su Google Cloud Platform (GCP) e Azure ora possono dare il consenso alla versione open beta delle dashboard di Canvas.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora puoi condividere i dati di Workfront Data Connect direttamente con l’account Snowflake della tua organizzazione registrando un’inserzione privata. Questo metodo di connessione utilizza la funzionalità di inserimento nell’elenco privato di Snowflake per condividere in modo sicuro i dati tra organizzazioni senza esporli pubblicamente e funziona tra aree geografiche e piattaforme di hosting.</p>
             </td>
             <td><p>N/D</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora puoi creare e gestire dashboard di Canvas tramite client MCP come Claude e Cursor utilizzando prompt in linguaggio naturale e azioni dashboard strutturate.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora puoi copiare un widget nello stesso dashboard, in un altro dashboard a cui hai accesso in modifica o in un nuovo dashboard. Potete anche spostare un widget in un'altra dashboard a cui potete accedere per la modifica o in una nuova dashboard. </p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>È ora possibile filtrare in base alle relazioni tra raccolte, ovvero campi che si collegano a un gruppo di record correlati anziché a un singolo record.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>27 agosto 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>13 agosto 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Ora puoi accedere alle richieste di problemi di Workfront inviate fino a 3 anni prima di luglio 2025 dalla nuova esperienza di richiesta.</p>
             </td>
             <td><p>24 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Diversi elenchi in Configurazione, Progetti, Modelli e Attività ora utilizzano il formato elenco avanzato.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
                 <p>Sono stati apportati alcuni miglioramenti ai filtri elenco e ai raggruppamenti migliorati: per impostazione predefinita, i gruppi sono compressi e gli operatori dei filtri sono stati aggiornati per ottenere etichette più chiare.</p>
             </td>
             <td><p>1 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>3 settembre 2026</p></td>
             <td><p>17 settembre 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -851,7 +851,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             </td>
             <td><p>30 luglio 2026</p></td>
             <td><p>13 agosto 2026</p></td>
-            <td><p>16 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -914,7 +914,7 @@ Se sei un amministratore di Workfront e gli utenti del lettore di Data Connect n
 
 Questa modifica è stata annunciata per la prima volta nelle note sulla versione di Workfront di aprile 2026 e questo è l’ultimo promemoria prima della scadenza. Assicurati che tutti gli utenti di lettori interessati abilitino l’MFA prima dell’8 agosto 2026 per evitare interruzioni del loro accesso.
 
-Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Per informazioni, vedere [Creare un account di lettura o una connessione per Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Aggiornamenti della formazione
 

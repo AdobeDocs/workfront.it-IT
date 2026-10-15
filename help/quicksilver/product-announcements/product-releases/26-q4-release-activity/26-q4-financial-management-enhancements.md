@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Sono stati apportati diversi aggiornamenti alla funzionalità delle tariffe di fatturazione in un modello di progetto.
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni, vedere [Modifica modelli di progetto](/help/quicksil
 >
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Sono stati apportati diversi aggiornamenti alla funzionalità delle tariffe di fatturazione della società.
 
@@ -76,7 +76,7 @@ Per ulteriori informazioni, vedere [Sostituire le tariffe di fatturazione dei ru
 >
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 >Questa funzione è disponibile solo per le organizzazioni incluse nel pacchetto Workflow Ultimate.
 
 Quando si utilizzano gli attributi di tasso come filtri in varie aree di Workfront, ad esempio Assegnazioni avanzate, viene ora applicata una convalida aggiuntiva al filtro padre-figlio.

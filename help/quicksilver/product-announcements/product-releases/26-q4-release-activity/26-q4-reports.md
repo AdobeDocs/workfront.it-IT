@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: N/D
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Le istanze di Workfront su Google Cloud Platform (GCP) e Azure ora possono dare il consenso alla versione open beta delle dashboard di Canvas. Per ulteriori informazioni, vedere [Utilizzare i dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -39,8 +39,8 @@ Le istanze di Workfront su Google Cloud Platform (GCP) e Azure ora possono dare 
 >[!NOTE]
 >
 >Anteprima: N/D
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Ora puoi condividere i dati di Workfront Data Connect direttamente con l’account Snowflake della tua organizzazione registrando un’inserzione privata. Questo metodo di connessione utilizza la funzionalità di inserimento nell’elenco privato di Snowflake per condividere in modo sicuro i dati tra organizzazioni senza esporli pubblicamente e funziona tra aree geografiche e piattaforme di hosting.
 
@@ -53,8 +53,8 @@ Per ulteriori informazioni, vedere [Registrare un elenco privato per Workfront D
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Per semplificare l’utilizzo delle dashboard di Canvas, sono stati aggiunti degli strumenti a Workfront MCP. Ora puoi creare e gestire dashboard di Canvas tramite chat, e la dashboard e i widget vengono creati per te utilizzando i dati di Workfront. Questo funziona da client MCP come Claude e Cursor.
 
@@ -97,8 +97,8 @@ Per ulteriori informazioni, vedere [Utilizzare i dashboard di Canvas](/help/quic
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Ora puoi copiare un widget nello stesso dashboard, in un altro dashboard a cui hai accesso in modifica o in un nuovo dashboard. Potete anche spostare un widget in un&#39;altra dashboard a cui potete accedere per la modifica o in una nuova dashboard.
 
@@ -109,8 +109,8 @@ Quando copiate un widget, ora viene visualizzata una finestra di dialogo in cui 
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 16 ottobre 2026
->Produzione per tutti: 16 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Quando si crea un filtro in un dashboard Area di lavoro, è ora possibile filtrare in base alle relazioni di raccolta, ovvero i campi che si collegano a un gruppo di record correlati anziché a un singolo record. Ad esempio, puoi filtrare in base allo stato delle attività appartenenti a un progetto per visualizzare un elenco di progetti con attività nello stato &quot;Nuovo&quot;.
 
@@ -124,7 +124,7 @@ Per ulteriori informazioni, vedere [Riferimento filtro report per dashboard Canv
 >
 >Anteprima: 3 settembre 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 È ora possibile copiare un dashboard Canvas utilizzando la nuova azione **Copia dashboard**. Questa azione è disponibile per tutti gli utenti il cui livello di accesso consente di modificare o creare i diritti per i dashboard, anche se dispongono solo dell’accesso di visualizzazione al dashboard specifico da copiare. Gli utenti che non dispongono dei diritti di modifica o creazione per i dashboard non visualizzano questa azione.
 
@@ -170,7 +170,7 @@ Questa modifica non influisce sul funzionamento dei rapporti correnti.
 >
 >Anteprima: 27 agosto 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Il nuovo tipo di rapporto per tabella pivot nei dashboard di Canvas aggrega i dati con aggregazioni dati precise e complete. Puoi creare metriche quali conteggi, somme e medie direttamente sul dashboard, quindi eseguire il drill-through nei record sottostanti dietro qualsiasi totale.
 
@@ -182,7 +182,7 @@ Per ulteriori informazioni, vedere [Creare un report di tabella pivot in un dash
 >
 >Anteprima: 13 agosto 2026
 >Versione rapida di produzione: 17 settembre 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 I rapporti pianificati ora richiedono una data di fine per impedire la consegna indefinita. Le pianificazioni che superano la data di fine vengono disattivate automaticamente.
 
@@ -196,7 +196,7 @@ Per ulteriori informazioni, consulta [Pianificare la consegna automatica di un r
 >
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 È ora possibile aggiungere campi di riferimento nativi a elenchi e rapporti in Workfront.
 
@@ -211,7 +211,7 @@ Per informazioni sull&#39;aggiunta di campi ai report, vedere [Creare un report 
 >
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
->Produzione per tutti: 16 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Le opzioni selezionate per i campi personalizzati a selezione multipla vengono ora visualizzate in un ordine coerente e prevedibile negli elenchi e nei rapporti precedenti. L’ordine dei campi è determinato dalla disposizione dei campi nel modulo personalizzato.
 
