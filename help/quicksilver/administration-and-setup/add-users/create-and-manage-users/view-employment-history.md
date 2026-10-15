@@ -7,7 +7,7 @@ description: È possibile visualizzare la cronologia dell'impiego di un utente, 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ Karen Sterling è stata direttrice esecutiva da quando è stata assunta il 3 mar
 1. Per filtrare i risultati, fare clic su **Filtra** e immettere il campo, l&#39;operatore e il valore in base ai quali si desidera filtrare. I risultati vengono filtrati automaticamente.
 1. Per aggiungere o rimuovere colonne, fare clic sull&#39;icona Aggiungi ![Icona Aggiungi](assets/add-column.png) a destra della tabella e fare clic sull&#39;icona più accanto a ogni colonna che si desidera aggiungere oppure fare clic sull&#39;icona meno accanto a ogni colonna che si desidera rimuovere dalla visualizzazione.
 1. Per esportare la cronologia impiego, fare clic su **Esporta**. È possibile esportare la cronologia impiego come file CSV o XLSX.
-
-
 
 

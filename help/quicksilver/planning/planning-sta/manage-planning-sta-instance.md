@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 ---
 
@@ -99,7 +99,7 @@ Per informazioni, vedere [Accedere come altro utente](/help/quicksilver/administ
 
 La configurazione dei trimestri personalizzati in Workfront Planning è simile alla configurazione dei trimestri personalizzati in Workfront.
 
-Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Per informazioni, vedere [Abilitare trimestri e settimane personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Configura informazioni cliente
 

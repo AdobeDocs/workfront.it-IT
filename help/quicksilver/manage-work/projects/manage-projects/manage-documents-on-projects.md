@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # Panoramica sulla gestione dei documenti per progetti e oggetti correlati
@@ -138,6 +138,7 @@ Nelle sezioni seguenti viene illustrato il funzionamento dell’archiviazione de
 Quando si lavora con i progetti, considera quanto segue:
 
 * Quando crei un progetto di archiviazione cloud Adobe, Workfront crea una cartella nella sezione Documenti del progetto in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del progetto. Impossibile eliminare o rinominare manualmente la cartella. La cartella viene rinominata se modificate il nome del progetto in modo che corrisponda al nuovo nome del progetto.
+* Quando rinomini un progetto con Adobe Cloud Storage, la cartella dei documenti viene rinominata automaticamente. Tuttavia, se si verifica un problema e l’archiviazione non può essere raggiunta in quel momento, il nuovo nome viene rifiutato sia per il progetto che per la cartella e i vecchi nomi vengono lasciati invariati. Dopo un po’ puoi provare a rinominare di nuovo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Quando si crea o si sposta un progetto di archiviazione cloud Adobe in un portfolio o programma di archiviazione Workfront legacy, il portfolio o il programma viene automaticamente convertito in un oggetto di archiviazione cloud Adobe, se a tale portfolio o programma non sono allegati documenti prima che il progetto venga aggiunto.
 * Non puoi creare un progetto di archiviazione Workfront legacy per un portfolio o programma di archiviazione cloud Adobe.
 * Quando importi un progetto da MS Project, Workfront crea un progetto di archiviazione Workfront legacy, anche quando l’amministratore di Workfront ha impostato l’archiviazione cloud Adobe come predefinita per il sistema.
@@ -150,6 +151,7 @@ Per ulteriori informazioni, vedere anche la sezione [Gestione dei documenti per 
 Quando si lavora con i portfolio, considera quanto segue:
 
 * Quando crei un portfolio di archiviazione cloud Adobe, Workfront crea una cartella nella sezione Documenti del portfolio in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del portfolio. Impossibile eliminare o rinominare manualmente la cartella. La cartella viene rinominata se modifichi il nome del portfolio in modo che corrisponda al nuovo nome del portfolio.
+* Quando rinomini un portfolio con Adobe Cloud Storage, la cartella dei documenti viene rinominata automaticamente. Tuttavia, se si verifica un problema e l’archiviazione non può essere raggiunta in quel momento, il nuovo nome viene rifiutato sia per il portfolio che per la cartella e i vecchi nomi vengono lasciati invariati. Dopo un po’ puoi provare a rinominare di nuovo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -172,6 +174,7 @@ Per informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilve
 Quando si lavora con i programmi, considera quanto segue:
 
 * Quando si crea un programma di archiviazione cloud Adobe, Workfront crea una cartella nella sezione Documenti del programma in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del programma, la cartella viene rinominata in base al nuovo nome del programma.
+* Quando rinomini un programma con Adobe Cloud Storage, la cartella dei documenti viene rinominata automaticamente. Tuttavia, se si verifica un problema e l&#39;archiviazione non può essere raggiunta in quel momento, il nuovo nome viene rifiutato sia per il programma che per la cartella e i vecchi nomi vengono lasciati invariati. Dopo un po’ puoi provare a rinominare di nuovo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * Non puoi aggiungere un progetto di archiviazione Workfront legacy a un programma di archiviazione cloud Adobe.
 
@@ -191,7 +194,8 @@ Quando si lavora con le attività, tenere presente quanto segue:
 
 * Le attività ereditano il tipo di archiviazione dai progetti.
 * Quando carichi un documento in un’attività su un progetto di archiviazione cloud Adobe, Workfront crea automaticamente una cartella nella sezione Documenti dell’attività. Il nome della cartella corrisponde a quello dell&#39;attività.
-* È possibile rinominare ed eliminare la cartella documenti dall’attività di archiviazione cloud di Adobe, che elimina anche i documenti presenti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
+* La ridenominazione dell&#39;attività non viene rinominata cartella documenti.
+* Puoi eliminare la cartella documenti dall’attività di archiviazione cloud di Adobe, che comporta anche l’eliminazione dei documenti presenti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i progetti Adobe Cloud Storage, la cartella documenti di un’attività viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il progetto.
 * Non puoi copiare o spostare un’attività da un progetto di archiviazione Workfront legacy a un progetto di archiviazione cloud Adobe. Non è inoltre possibile fare l&#39;inverso.
 * Durante la conversione di un&#39;attività in un progetto sono presenti i seguenti scenari: <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ Quando si lavora con i problemi, tieni presente quanto segue:
 
 * I problemi ereditano il tipo di archiviazione dai progetti.
 * Quando carichi un documento su un problema relativo a un progetto di archiviazione cloud Adobe, Workfront crea automaticamente una cartella nella sezione Documenti del problema. Il nome della cartella corrisponde al problema.
-* Puoi rinominare ed eliminare la cartella dei documenti dal problema di archiviazione cloud di Adobe, che comporta anche l’eliminazione dei documenti nella cartella. Dopo aver aggiunto nuovi documenti al problema, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
+* La ridenominazione di un problema non comporta la ridenominazione della cartella del documento.
+* Puoi eliminare la cartella dei documenti dal problema di archiviazione cloud di Adobe, che comporta anche l’eliminazione dei documenti nella cartella. Dopo aver aggiunto nuovi documenti al problema, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i progetti Adobe Cloud Storage, la cartella dei documenti relativa a un problema viene visualizzata come sottocartella nella cartella dei documenti creata automaticamente per il progetto.
 * Non puoi copiare o spostare un problema da un progetto di archiviazione legacy di Workfront a uno di archiviazione cloud Adobe. Non è inoltre possibile fare l&#39;inverso.
 * Durante la conversione di un problema in un progetto sono presenti i seguenti scenari: <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ Quando si lavora con i problemi, tieni presente quanto segue:
 Quando si lavora con i modelli, considera quanto segue:
 
 * Quando si crea un modello di Adobe Cloud Storage, Workfront crea una cartella nella sezione Documenti del modello in cui vengono salvati i documenti. Il nome della cartella corrisponde al nome del programma. Impossibile eliminare o rinominare manualmente la cartella. Se si modifica il nome del modello, la cartella viene rinominata in base al nuovo nome del modello.
+* Quando rinomini un modello con Adobe Cloud Storage, la cartella dei documenti viene rinominata automaticamente. Tuttavia, se si verifica un problema e l’archiviazione non può essere raggiunta in quel momento, il nuovo nome viene rifiutato sia per il modello che per la cartella e i vecchi nomi vengono lasciati invariati. Dopo un po’ puoi provare a rinominare di nuovo. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Puoi utilizzare un modello di archiviazione Workfront legacy per creare progetti di archiviazione Workfront legacy; puoi utilizzare un modello di archiviazione cloud Adobe per creare un progetto di archiviazione cloud Adobe.
 
 * Quando si creano progetti utilizzando modelli di un portfolio o di un programma, si verificano i seguenti scenari:
@@ -244,7 +250,8 @@ Quando si lavora con le attività modello, considera quanto segue:
 
 * Le attività modello ereditano il tipo di archiviazione dai modelli.
 * Quando carichi un documento in un’attività modello su un modello di Adobe Cloud Storage, Workfront crea automaticamente una cartella nella sezione Documenti dell’attività modello. Il nome della cartella corrisponde all&#39;attività modello.
-* È possibile rinominare ed eliminare la cartella documenti dall’attività del modello di archiviazione cloud di Adobe, che elimina anche i documenti presenti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività modello, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
+* La ridenominazione dell&#39;attività modello non comporta la ridenominazione della cartella del documento.
+* Puoi eliminare la cartella documenti dall’attività del modello di archiviazione cloud Adobe, che elimina anche i documenti presenti nella cartella. Dopo aver aggiunto nuovi documenti all&#39;attività modello, la cartella viene ricreata automaticamente. I documenti eliminati non vengono inseriti nuovamente nella cartella.
 * Per i modelli di archiviazione cloud Adobe, la cartella documenti di un’attività modello viene visualizzata come sottocartella nella cartella documenti creata automaticamente per il modello.
 * Non puoi copiare o spostare un’attività modello da un modello di archiviazione Workfront legacy a un modello di archiviazione cloud Adobe. Non è inoltre possibile fare l&#39;inverso.
 

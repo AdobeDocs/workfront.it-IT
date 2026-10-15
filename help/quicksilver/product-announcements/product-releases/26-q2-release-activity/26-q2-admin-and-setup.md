@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 # Miglioramenti per gli amministratori del secondo trimestre 2026
@@ -81,7 +81,7 @@ Questo aggiornamento include:
 * La sezione Trimestri personalizzati viene aggiunta al pannello a sinistra Configura. La funzionalità rimane invariata. 
 * La sezione Trimestri personalizzati è stata rimossa dalla sezione Preferenze progetto di un gruppo. Gli amministratori dei gruppi non hanno più visibilità sulla configurazione dei trimestri personalizzati. 
 
-Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Per informazioni, vedere [Abilitare trimestri e settimane personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Comprimi sezione modulo personalizzato per impostazione predefinita
 
