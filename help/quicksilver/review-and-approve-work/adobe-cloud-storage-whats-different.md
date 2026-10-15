@@ -6,16 +6,16 @@ description: Comprendi le principali differenze sugli oggetti di archiviazione c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Differenze nell’archiviazione cloud di Adobe
 
-Dopo aver aggiornato il contratto per includere la nuova esperienza di revisione e approvazione unificata, l’ambiente può contenere due tipi di oggetti: oggetti sullo storage legacy di Workfront (gli oggetti che hai oggi) e oggetti creati utilizzando lo storage cloud Adobe. La nuova area Documenti, il visualizzatore Frame.io e gli altri comportamenti qui descritti si applicano solo agli oggetti che utilizzano l’archiviazione cloud di Adobe.
+Con l’archiviazione cloud di Adobe, l’ambiente può contenere due tipi di oggetti: oggetti nell’archiviazione Workfront legacy (gli oggetti che hai oggi) e oggetti creati utilizzando l’archiviazione cloud di Adobe. La nuova area Documenti, il visualizzatore Frame.io e gli altri comportamenti qui descritti si applicano solo agli oggetti che utilizzano l’archiviazione cloud di Adobe.
 
-Per informazioni sull&#39;orientamento dello spostamento e sulle modalità di attivazione, vedere [Sposta su Workfront nell&#39;archivio cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Per informazioni sull&#39;orientamento dello spostamento, vedere [Sposta in Workfront nell&#39;archivio cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Comprendere lo storage legacy Workfront e lo storage cloud Adobe
 
