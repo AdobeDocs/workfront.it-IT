@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14674'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -486,7 +486,6 @@ ht-degree: 91%
       * [Ricalcoli della timeline di progetto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Abilita trimestri e settimane personalizzati](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Abilitare o disabilitare rilasci rapidi per l’organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Abilitare l’archiviazione cloud Adobe per la tua organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Conversione di portfolio legacy in Adobe Cloud Storage](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Creare e modificare le regole di business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurare la localizzazione personalizzata](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1928,14 @@ ht-degree: 91%
   * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
   * [Panoramica sulla revisione e sull’approvazione unificata](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Introduzione alla revisione e all’approvazione unificate](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Passare a Workfront sull’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Panoramica sul documento limitato e sulla decisione di bozza per utenti non pagati](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[Configura revisori IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Passare a Workfront sull’archiviazione cloud Adobe {#move-to-adobe-cloud-storage}
+    * [Passare a Workfront sull’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Differenze nell’archiviazione cloud di Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Pianifica il rollout dell’archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Abilitare l’archiviazione cloud Adobe per la tua organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Conversione di oggetti legacy in Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Approvazioni lavoro {#work-approvals}
     * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Panoramica sul processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)

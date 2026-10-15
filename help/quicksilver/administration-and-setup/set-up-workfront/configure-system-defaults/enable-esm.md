@@ -7,30 +7,28 @@ description: Puoi abilitare l’archiviazione cloud di Adobe per la tua organizz
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 7%
+source-wordcount: '636'
+ht-degree: 5%
+
 ---
 # Abilitare l’archiviazione cloud Adobe per la tua organizzazione
 
-Adobe Cloud Storage è una soluzione di archiviazione unificata per tutti i prodotti Adobe. Si tratta di una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe.
+Adobe Cloud Storage è una soluzione di archiviazione unificata basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. Questo articolo descrive come abilitare l’archiviazione cloud di Adobe come opzione di archiviazione predefinita per l’intera organizzazione o per gruppi specifici.
 
-L’archiviazione cloud di Adobe è abilitata per impostazione predefinita per i nuovi clienti e può essere abilitata per i clienti esistenti al momento del rinnovo del contratto.
+Questa è la singola azione che attiva la nuova esperienza: una volta abilitata, i nuovi progetti utilizzano l’archiviazione cloud Adobe, che include il visualizzatore Frame.io e le approvazioni unificate. Non cambia nulla finché non scegli di abilitare l’archiviazione cloud Adobe.
 
-Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Poiché controlli la tempistica, puoi testare l’esperienza, aggiornare gli scenari di Workfront Fusion e pianificare le modifiche da apportare ai rapporti prima che qualcuno vi lavori. Per ulteriori informazioni sulle differenze e su come pianificare il rollout, consulta [Passare a Workfront nell&#39;archivio cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+
+## Funzionamento delle approvazioni con l’archiviazione cloud Adobe
+
+L’archiviazione cloud di Adobe determina il servizio di approvazione utilizzato da un progetto. Il passaggio a una versione di Workfront che supporta l’archiviazione cloud di Adobe non comporta il passaggio automatico dell’intera organizzazione alle approvazioni unificate. Il servizio di approvazione dipende invece dal modello di storage di ciascun progetto:
+
+* Per impostazione predefinita, i **progetti Adobe per l&#39;archiviazione cloud** utilizzano le approvazioni unificate, con revisione e approvazione nel visualizzatore Frame.io.
+* **I progetti di archiviazione legacy di Workfront** mantengono il servizio di approvazione già in uso. A seconda dell’organizzazione, potrebbe trattarsi di approvazioni unificate o di approvazioni di documenti legacy.
+
+Per ulteriori informazioni sull&#39;esperienza di revisione e approvazione sull&#39;archiviazione cloud Adobe, consulta [Passare a Workfront sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Requisiti di accesso
 
@@ -78,10 +76,10 @@ Per abilitare l’archiviazione cloud Adobe per la tua organizzazione:
 
 1. Nel menu a discesa Si applica a, scegliere una delle seguenti opzioni:
 
-   - **Intera organizzazione**: questa opzione applica il provider di archiviazione predefinito all&#39;intero ambiente Workfront. Ogni volta che un utente crea un nuovo progetto, viene utilizzato il provider di archiviazione predefinito.
-   - **Gruppi specifici**: questa opzione applica il provider di archiviazione predefinito solo a gruppi specifici all&#39;interno dell&#39;organizzazione. Ogni volta che un utente nei gruppi specificati crea un nuovo progetto, verrà utilizzato il provider di archiviazione predefinito
+   * **Intera organizzazione**: questa opzione applica il provider di archiviazione predefinito all&#39;intero ambiente Workfront. Ogni volta che un utente crea un nuovo progetto, viene utilizzato il provider di archiviazione predefinito.
+   * **Gruppi specifici**: questa opzione applica il provider di archiviazione predefinito solo a gruppi specifici all&#39;interno dell&#39;organizzazione. Ogni volta che un utente nei gruppi specificati crea un nuovo progetto, verrà utilizzato il provider di archiviazione predefinito.
 
-   ![gruppi di preferenze di archiviazione](assets/configure-storage-preference.png)
+     ![gruppi di preferenze di archiviazione](assets/configure-storage-preference.png)
 
 1. Fai clic su **Salva**.
 
@@ -95,4 +93,4 @@ Per abilitare l’archiviazione cloud Adobe per la tua organizzazione:
 
 L&#39;archiviazione cloud di Adobe è disponibile in [!DNL Workfront] ambienti sandbox, che consentono di testare la funzionalità descritta in questo articolo prima di implementarla in produzione. Tuttavia, il visualizzatore Frame.io non è disponibile in sandbox, pertanto l’esperienza completa di revisione e approvazione unificata deve essere convalidata in produzione.
 
-Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe. L’aggiornamento consente alla sandbox di accedere alla funzionalità di archiviazione cloud di Adobe e di iniziare a testarla. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe. L’aggiornamento consente alla sandbox di accedere alla funzionalità di archiviazione cloud di Adobe e di iniziare a testarla. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
