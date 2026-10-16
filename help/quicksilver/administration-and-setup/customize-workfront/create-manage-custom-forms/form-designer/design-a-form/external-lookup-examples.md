@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 4%
@@ -246,4 +246,3 @@ Esempio di URL API di base per i modelli, per sostituire un campo typeahead:
 
 **Caso d&#39;uso:** integrazione con oggetti esterni a Workfront. Ad esempio, accedere a un altro sistema per ottenere il nome di ogni utente, anziché essere limitati in un campo typeahead.
 **Soluzione:** automazione webhook/Fusion per la connessione ad altri sistemi.
-

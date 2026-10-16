@@ -9,24 +9,30 @@ exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
+    internal-label: Administration
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 7%
-
+source-wordcount: '739'
+ht-degree: 9%
 ---
-
 # Modificare le informazioni dei timesheet
 
 In qualità di utente con accesso amministrativo alle schede orario, puoi modificare le informazioni sulle schede orario esistenti in Adobe Workfront. Ad esempio, puoi modificare il Proprietario, gli Approvatori o l’intervallo di tempo della scheda orario.
@@ -70,31 +76,29 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step1-to-timesheets}}
 
-Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
+Tutte le schede orario a cui hai accesso vengono visualizzate per impostazione predefinita.
 
-![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario](assets/list-of-all-timesheets.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png), digita una parola chiave e cerca una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
+1. (Facoltativo) Fai clic sull&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png) e digita una parola chiave per cercare una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario o il nome del proprietario.
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
-   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
+   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato,
 
      Oppure
 
      Seleziona **Le mie schede orario** per visualizzare solo le tue schede orario.
 
-     In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
+     Questa operazione applica i filtri **Le mie approvazioni schede orario** o **Le mie schede orario** all&#39;elenco delle schede orario.
 
-     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) per applicare un filtro o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona ![&#128279;](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) dell&#39;icona **Visualizza** Visualizza per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona **Visualizza** ![Visualizza](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) per applicare una visualizzazione o un raggruppamento o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 
@@ -103,47 +107,16 @@ Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte
    * [Creare raggruppamenti in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Seleziona una o più schede orario, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle schede orario.
-1. Visualizza o specifica le informazioni seguenti:
+1. Visualizzare o immettere le informazioni seguenti:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Proprietario</strong> </td> 
-      <td> <p>Questo è il nome dell'utente per cui è stata creata la scheda orario. Impossibile modificare questo campo. </p> <p>Il campo non viene visualizzato quando si selezionano più schede orario. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Data inizio</strong> </td> 
-      <td>Questa è la data di inizio della scheda orario.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Data di fine</strong> </td> 
-      <td> Questa è la data di fine della scheda orario.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Stato</strong> </td> 
-      <td> Questo è lo stato della scheda orario.
-      Di seguito sono riportate le possibili opzioni di stato della scheda orario: 
-      <ul><li><b>Apri</b>: la scheda orario è aperta e le ore possono essere modificate.</li>
-      <li><b>Inviato</b>: la scheda orario viene inviata per l'approvazione agli approvatori designati.</li>
-      <li><b>Rifiutato</b>: la scheda orario non è stata approvata dagli approvatori ed è ora nuovamente disponibile per consentire all'utente di modificare le voci relative all'ora.</li>
-      <li><b>Chiusa</b>: la scheda orario è stata chiusa dall'utente o approvata dall'approvatore e di conseguenza è ora chiusa. Non è possibile aggiungere un orario a una scheda orario chiusa.</li>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Approvatori</strong> </td> 
-      <td> <p>Gli approvatori sono utenti che approvano la scheda orario per gli utenti associati alla scheda orario. Solo gli utenti con accesso amministrativo alle schede orario possono essere impostati come approvatori. </p> <p>Per ulteriori informazioni sui diritti amministrativi delle schede orario, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p>Inizia a immettere i nomi degli approvatori della scheda orario e selezionali quando vengono visualizzati nell’elenco.</p> <p>In una scheda orario possono essere presenti più approvatori. In questo caso, dopo che uno degli approvatori ha approvato la scheda orario, la scheda viene contrassegnata come <strong>Chiusa</strong> e scompare dall'elenco delle approvazioni della scheda orario di tutti gli approvatori rimanenti.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Modifica ora</strong> </td> 
-      <td> <p>Selezionare questa opzione se si desidera consentire agli approvatori di modificare le ore nella scheda orario.</p> <p>Questa opzione non è disponibile quando si selezionano più schede orario. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Straordinari</strong> </td> 
-      <td> <p>È possibile scegliere di nascondere la casella Straordinari nella scheda attività.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Nome campo | Descrizione |
+   | --------- | ---------- |
+   | Proprietario | <p>Questo è il nome dell&#39;utente per cui è stata creata la scheda orario. Impossibile modificare questo campo.</p><p>Questo campo non viene visualizzato quando si selezionano più schede orario.</p> |
+   | Data di inizio | Questa è la data di inizio della scheda orario. |
+   | Data di fine | Questa è la data di fine della scheda orario. |
+   | Stato | <p>Questo è lo stato della scheda orario. Di seguito sono riportate le possibili opzioni di stato della scheda orario:</p><ul><li>**Apri**: la scheda orario è aperta e le ore possono essere modificate.</li><li>**Inviato**: la scheda orario viene inviata per l&#39;approvazione agli approvatori designati.</li><li>**Rifiutato**: la scheda orario non è stata approvata dagli approvatori ed è ora nuovamente disponibile per consentire all&#39;utente di modificare le voci relative all&#39;ora.</li><li>**Chiusa**: la scheda orario è stata chiusa dall&#39;utente o approvata dall&#39;approvatore e di conseguenza è ora chiusa. Non è possibile aggiungere un orario a una scheda orario chiusa.</li></ul> |
+   | Approvatori | <p>Gli approvatori sono utenti che approvano la scheda orario per gli utenti associati alla scheda orario. Solo gli utenti con diritti di amministrazione della scheda orario possono essere impostati come approvatori. Per ulteriori informazioni sui diritti amministrativi delle schede orario, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).</p> <p>Inizia a immettere i nomi degli approvatori della scheda orario e selezionali quando vengono visualizzati nell’elenco.</p> <p>In una scheda orario possono essere presenti più approvatori. In questo caso, dopo che uno degli approvatori ha approvato la scheda orario, la scheda viene contrassegnata come **Chiusa** e scompare dall&#39;elenco delle approvazioni della scheda orario di tutti gli approvatori rimanenti.</p> |
+   | Può modificare l’ora | <p>Selezionare questa opzione se si desidera consentire agli approvatori di modificare le ore nella scheda orario.</p><p>Questa opzione non è disponibile quando si selezionano più schede orario.</p> |
+   | Straordinari | <p>È possibile scegliere di nascondere la casella Straordinari nella scheda attività.</p><p>Questa opzione è disabilitata per impostazione predefinita.</p> |
 
 1. Fai clic su **Salva**.

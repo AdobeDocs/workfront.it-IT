@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '519'
 ht-degree: 3%
 ---
 # Panoramica dei timesheet
@@ -71,19 +71,19 @@ Per accedere a una scheda orario:
 
 {{step1-to-timesheets}}
 
-Per impostazione predefinita, vengono visualizzate tutte le schede orario e le schede orario a cui hai accesso. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Panoramica del layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
+Tutte le schede orario e le schede orario a cui hai accesso vengono visualizzate per impostazione predefinita. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Panoramica del layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
 
-![Elenco di tutte le schede orario](assets/all-timesheets-list-nwe-350x68.png)
+![Elenco di tutte le schede orario](assets/list-of-all-timesheets.png)
 
 1. Fai clic su una delle seguenti opzioni nell’angolo superiore destro per visualizzare le schede orario:
 
    * **Le mie schede orario** per visualizzare solo le tue schede orario.
 
-   ![Elenco Timesheets personali](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **Le mie approvazioni schede orario** per visualizzare solo le schede orario che hai approvato.
 
-     ![Elenco schede orario approvate](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Facoltativo) Aggiorna la visualizzazione, il filtro e il raggruppamento nella parte superiore dell’elenco delle schede orario. Per ulteriori informazioni, vedere [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
