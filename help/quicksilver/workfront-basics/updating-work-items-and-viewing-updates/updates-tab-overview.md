@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1313'
 ht-degree: 4%
 ---
 # Panoramica sulla sezione Aggiornamenti
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
@@ -149,17 +144,16 @@ La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
 * **Commenti**: visualizza i commenti degli utenti e le risposte a tali commenti. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti.
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **Thread bloccati**: i commenti di primo livello bloccati vengono visualizzati nella sezione Thread bloccati della scheda Commenti.
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    È possibile fissare i thread solo nella scheda Commenti degli oggetti che dispongono di una sezione Aggiornamenti. Non è possibile fissare thread in altre aree di Workfront, come Bacheche o Home.
 
   </div>
-  -->
 
   Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+
 * **Attività di sistema**: visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tutti (sola lettura)**: visualizza i commenti degli utenti e quelli delle attività di sistema in un&#39;unica posizione. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 

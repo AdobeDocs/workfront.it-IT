@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 2%
 ---
 # Aggiornare lavoro
@@ -40,11 +40,11 @@ ht-degree: 2%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Aggiungi commenti
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+È possibile fissare i commenti di primo livello nella parte superiore della scheda Commenti. Non è possibile fissare le risposte che fanno parte di un thread.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Vai a un oggetto che supporta l&#39;aggiunta di commenti e fai clic su Aggiornamenti nel pannello a sinistra, quindi fai clic sulla scheda **Commenti**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Per informazioni, vedere [Panoramica della scheda Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Aggiungi un commento o da uno esistente, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del commento, quindi fai clic su **Fissa thread**. Il commento ed eventuali risposte esistenti vengono bloccati nella parte superiore della scheda Commenti.
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Nella parte superiore della scheda **Commenti** viene creata una nuova sezione **Thread bloccati**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   Il numero di thread bloccati è elencato tra parentesi a destra del nome della sezione.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Thread bloccati nella sezione Commenti](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Facoltativo) Per sbloccare un thread, fai clic sull&#39;icona **Sblocca** ![Sblocca icona](assets/unpin-icon-comments.png) nell&#39;angolo superiore destro del commento fissato.
 
 </div>
 
--->
+
 
 ## Eliminare un commento o una risposta
 

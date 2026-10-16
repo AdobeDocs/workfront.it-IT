@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1621'
 ht-degree: 1%
 ---
 
@@ -34,9 +34,20 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Utilizzando Ideation Space, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning. I resoconti esportati creano nuovi record o aggiornano quelli esistenti.
+Utilizzando lo spazio ideazione, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning o salvarli come file esterno. I resoconti esportati creano nuovi record o aggiornano quelli esistenti.
 
-Questo articolo descrive come sviluppare un brainstorming e definire una strategia nello spazio Ideazione per creare delle descrizioni. Per creare o aggiornare i record, esportare le descrizioni delle idee completate in un file o in Workfront Planning.
+Questo articolo descrive come sviluppare un brainstorming e definire una strategia nello spazio Ideazione per creare delle descrizioni.
+
+È possibile effettuare le seguenti operazioni:
+
+* Per creare o aggiornare i record, esportare le descrizioni ideazione completate in Workfront Planning.
+
+* Per utilizzare le informazioni di un breve documento in un&#39;altra applicazione, esportarlo in uno dei seguenti tipi di file:
+
+  * PDF
+  * Parola
+  * PowerPoint
+  * Modello di PowerPoint
 
 ## Requisiti di accesso
 
@@ -60,8 +71,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
-Oppure
-<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+<!--
+Add this at GA - not available in beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
 <!--
 <tr> 
@@ -82,7 +97,7 @@ Oppure
    <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> 
@@ -95,7 +110,10 @@ Oppure
    <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record </p>
       <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
-      <p>Visualizzare le autorizzazioni per gli oggetti Workfront per aggiungerli alle descrizioni <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>Autorizzazioni dell’editor per lo spazio ideazione per creare resoconti</p>
    </td> 
   </tr>  
@@ -104,7 +122,7 @@ Oppure
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -118,97 +136,97 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Crea descrizione breve spazio ideazione
 
-1. Iniziare in Workfront Planning e creare o modificare un record utilizzando lo spazio ideazione.
+È possibile creare resoconti brevi per creare o modificare record di Planning oppure per creare file che è possibile esportare in altre applicazioni.
 
-   Per ulteriori informazioni, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-1. All&#39;apertura dello **spazio ideazione**, utilizzare il prompt fornito per descrivere il tipo di descrizione da creare.
+1. Accedere a Workfront con Planning in cui è stato attivato Collaboratore ed eseguire una delle operazioni seguenti:
 
-   Ad esempio, digita &quot;Creare una campagna di ritorno a scuola per gli studenti delle scuole medie fino al mese di agosto, per genitori e insegnanti negli Stati Uniti&quot;.  Per rendere il resoconto il più completo possibile, indica quante più informazioni hai a disposizione per quale tipo di campagna, la timeline, le parti interessate e altri dettagli.
+   * Vai al **menu principale** > **spazio ideazione**
+   * Vai a **Menu principale** > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > **Nuovo record** > **Avvia spazio ideazione**
 
-1. Fai clic su **Inizia ideazione**.
+     Per ulteriori informazioni sulla creazione di record utilizzando lo spazio ideazione, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   * Vai a **Menu principale** > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su un record esistente > **Apri in Spazio ideazione**
 
-   Una volta aperto, l’agente spazio ideazione esegue i seguenti passaggi:
+   Viene aperto lo spazio ideazione e per impostazione predefinita viene creata una nuova ideazione con il seguente formato:
 
-   1. **Acquisizione e sintesi dei dati**: richiama le informazioni rilevanti dalle origini connesse. Ad esempio:
+   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-      * Tipi di record esistenti o il tipo di record esistente da cui si è iniziato.
-      * Documenti recenti che potresti aver caricato nello spazio delle ideazioni.
-      * Informazioni Web corrispondenti ai criteri di richiesta.
+   Se si apre un&#39;ideazione da un record esistente, il nome dell&#39;ideazione corrisponde al nome del record.
 
-        >[!TIP]
-        >
-        >Per poter cercare informazioni sul web, è necessario attivare l’impostazione di ricerca Web.\
-        >Per informazioni, vedere la sezione [Configurare lo spazio ideazione](#configure-the-ideation-space)in questo articolo.
-        >
-   1. **Definizione del pubblico**: identifica o consiglia i parametri del pubblico di destinazione in base a modelli cronologici
-   1. **Inquadramento strategico**: struttura il resoconto strategico della campagna
-   1. **Messaggistica e ideazione di concetti**: genera opzioni di messaggio iniziali e indicazioni di concetti creativi
-   1. **Breve generazione e handoff di pianificazione**: produce un resoconto strutturato che viene reindirizzato all&#39;area di lavoro di Workfront Planning
+1. (Consigliato) Fai clic sul nome dell’idea per modificarlo.
 
-      Quando l&#39;agente ideazione termina il processo di raccolta di tutte le informazioni, si verificano le seguenti situazioni:
+1. (Condizionale e facoltativo) Per aprire un altro spazio ideazione esistente, fai clic sul menu a discesa a destra del nome dell’ideazione, cercalo per nome, quindi fai clic sull’ideazione quando viene visualizzata nell’elenco.
 
-      * Vengono create cinque schede organizzate per informazioni pertinenti e simili.
+1. All&#39;apertura dello **spazio ideazione**, il CX Coworker si apre a destra. Utilizza il prompt di Collaborator per descrivere il tipo di resoconto che desideri creare.
 
-        Il titolo delle schede è suddiviso in vari passaggi durante la creazione del record richiesto, per facilitarne il riconoscimento.
+   Ad esempio, digita &quot;Creare una campagna di ritorno a scuola per gli studenti delle scuole medie fino al mese di agosto, per genitori e insegnanti negli Stati Uniti&quot;.  Per rendere il resoconto il più completo possibile, indica quante più informazioni hai a disposizione per quale tipo di campagna, la timeline, le parti interessate, i punti di controllo per le approvazioni e altri dettagli.
 
-        Ad esempio, possono essere denominati:
+1. Fai clic su Invio.
 
-        * Piano
-        * Timeline
-        * Segmenti
-        * Meccanica
-        * Messaggi
+1. Rispondi alle domande di Collaboratore per continuare l&#39;ideazione, quindi fai clic su **Invia**
 
-      I titoli delle schede sono personalizzati per ogni scheda nell’ideazione.
+   Oppure
 
-      * Le schede sono posizionate all&#39;interno dello stesso frame, a indicare che questo è il risultato di un&#39;idea.
+   Fai clic su **Ignora questionario** per saltare ulteriori domande.
 
-      * Viene creata una breve descrizione che viene visualizzata in un&#39;immagine di anteprima nell&#39;angolo inferiore sinistro dello spazio ideazione. <!--add screen shot??-->
+1. (Condizionale) Quando Collaboratore offre di creare schede per l&#39;ideazione, rispondi **Sì**.
 
-      Il documento contiene i campi suggeriti che il sistema considera pertinenti alle idee che state esaminando.
+   Le schede vengono aggiunte allo spazio di ideazione e puoi visualizzare le sorgenti di ogni scheda e decidere quale aggiungere alla descrizione.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Help** ![](assets/more-information-icon.png) nell&#39;angolo superiore destro per visualizzare un elenco di scelte rapide da tastiera che ti aiuteranno a navigare nello spazio delle idee.
+1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare elementi nello spazio delle idee, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale spazio.
 
 1. (Facoltativo) Fai clic su **Origini** nella parte inferiore di ogni scheda per capire da dove sono state raccolte le informazioni.
 
    Le informazioni possono essere importate da Workfront Planning o dal Web.
-1. (Facoltativo) Utilizza le icone miniature in alto o miniature in basso su una scheda per fornire un feedback.<!--is this still available??-->
+
+   È inoltre possibile fare clic sull&#39;icona **Origini** ![Origini](assets/sources-icon.png) nell&#39;angolo superiore destro dello spazio per visualizzare un elenco delle origini per tutte le schede dello spazio.
+1. (Facoltativo) Fai clic su **Commenti** ![Icona Commento](assets/comments-icon.png) nell&#39;angolo superiore destro dello spazio e **@** assegna altri tag per iniziare il brainstorming all&#39;interno dello spazio.
+
+   Gli utenti riceveranno una notifica e-mail relativa al tag.
+1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![](assets/filter-comments-icon.png) all&#39;interno della scheda dei commenti per filtrare i commenti in base ai seguenti criteri:
+
+   * Revisori
+   * Ora di aggiunta del commento
+   * Stato (in cui il commento è stato risolto o è in sospeso)
+   * Non letto (mostra solo i commenti non letti)
+1. (Facoltativo) Utilizza le icone **Miniature in alto** o **Miniature in basso** su una scheda ![Icone in alto o in basso](assets/thumbs-up-and-down-icons.png) per fornire feedback sulla precisione delle informazioni sulla scheda.
 1. Fai clic su una scheda o sulla cornice contenente tutte le schede, quindi fai clic su **Aggiungi alla descrizione** per aggiungere le relative informazioni alla descrizione.
 
    Workfront abbina ogni informazione con il campo in cui è più probabile memorizzarla.
 
    Ad esempio, le timeline vengono aggiunte ai campi di tipo data e alle descrizioni dei campi di tipo paragrafo.
-   1. (Condizionale) Fai clic su una scheda, quindi fai clic su **Chiedi IA a ...** per avere idee sul passaggio successivo, prima di aggiungere le informazioni alla descrizione. Le risposte si trovano nel contesto delle informazioni di ciascuna carta.
-   1. Fai clic sull&#39;icona **Aggiungi documenti** ![Aggiungi documenti](assets/add-documents-in-ideation-space.png) nell&#39;angolo superiore sinistro dello spazio di ideazione per caricare i documenti nello spazio. È possibile aggiungere nuovi documenti o documenti già aggiunti allo spazio in precedenza.
 
-      >[!TIP]
-      >
-      >Per poter accedere ai documenti e caricarli nello spazio, è necessario attivare l&#39;impostazione Documenti.
-      >Per informazioni, vedere la sezione [Configurare lo spazio ideazione](#configure-the-ideation-space) in questo articolo.
-      > 
-   1. Fare clic sull&#39;icona **Aggiungi scheda tassonomia WF** ![Aggiungi da Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--send this tooltip to be revised--> e selezionare un tipo di record connesso, quindi un record di ogni tipo per aggiungere le informazioni del record al tipo di record selezionato.
+1. (Condizionale) Fai clic su una scheda, quindi fai clic su **Chiedi IA a ...** per avere idee sul passaggio successivo, prima di aggiungere le informazioni alla descrizione. Le risposte si trovano nel contesto delle informazioni di ciascuna carta.
+1. Fai clic sull&#39;icona **Aggiungi documenti** ![Aggiungi documenti](assets/add-documents-in-ideation-space.png) nell&#39;angolo superiore sinistro dello spazio di ideazione per caricare i documenti nello spazio. È possibile aggiungere nuovi documenti o documenti già aggiunti allo spazio in precedenza.
 
-      Viene creata una scheda per il record selezionato da aggiungere allo spazio. Il tipo di record viene visualizzato nell&#39;angolo superiore sinistro della scheda del record.
-   1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) e fai clic su **Visualizza in Workfront**.
+   >[!TIP]
+   >
+   >Per poter accedere ai documenti e caricarli nello spazio, è necessario attivare l&#39;impostazione Documenti.
+   >Per informazioni, vedere la sezione [Configurare lo spazio ideazione](#configure-the-ideation-space) in questo articolo.
+   > 
+1. Fare clic sull&#39;icona **Aggiungi scheda tassonomia WF** ![Aggiungi da Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> e selezionare un tipo di record connesso, quindi un record di ogni tipo per aggiungere le informazioni del record al tipo di record selezionato.
 
-      La pagina dei dettagli del record viene visualizzata in un&#39;altra scheda del browser in Workfront Planning.
-   1. (Facoltativo) Seleziona la cornice di ideazione o una scheda, fai clic sull’icona Elimina, quindi fai clic su Elimina per confermare. La scheda viene rimossa dallo spazio ideazione.
+   Viene creata una scheda per il record selezionato da aggiungere allo spazio. Il tipo di record viene visualizzato nell&#39;angolo superiore sinistro della scheda del record.
 
-      Quando si eliminano schede corrispondenti a un documento o a un record memorizzato, gli elementi vengono rimossi dallo spazio Ideazione ma rimangono nelle rispettive applicazioni.
+   >[!TIP]
+   >
+   >L&#39;icona <!--check UI name--> della scheda **Aggiungi tassonomia WF** non è disponibile quando si accede allo spazio di ideazione dal menu principale e la descrizione non è connessa a un record di Planning.
 
-1. (Facoltativo) Usa la casella **Chiedi qualsiasi cosa** nell&#39;angolo in basso a destra in qualsiasi momento per perfezionare la tua idea.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) sulla scheda record connessa e fai clic su **Visualizza in Workfront**.
+
+   La pagina dei dettagli del record viene visualizzata in un&#39;altra scheda del browser in Workfront Planning.
+1. (Facoltativo) Seleziona la cornice di ideazione o una scheda, fai clic sull&#39;icona **Elimina**, quindi fai clic su **Elimina** per confermare. La scheda viene rimossa dallo spazio ideazione.
+
+   Quando si eliminano schede corrispondenti a un documento o a un record memorizzato, gli elementi vengono rimossi dallo spazio Ideazione ma rimangono nelle rispettive applicazioni.
+
+1. (Facoltativo) Utilizza la casella **Chiedi qualsiasi cosa al collega** nell&#39;angolo in basso a destra in qualsiasi momento per perfezionare la tua idea.
 
    Ad esempio, digita `regenerate` per una scheda specifica in modo che AI ripristini la scheda utilizzando il contesto aggiornato. Lo spazio di ideazione esegue nuovamente i passaggi di ragionamento (ricerca, sintesi, citazione) e aggiorna le schede interessate.
 
-1. (Facoltativo) Nella casella **Chiedi a qualsiasi cosa**, fai una nuova domanda per iniziare una nuova idea.
-
-   Viene generato un nuovo set di schede, dopo che lo spazio esegue nuovamente i passaggi di ragionamento.
-
-1. (Facoltativo) Fai clic su uno dei connettori viola da qualsiasi set di schede di ideazione, quindi fai clic sull&#39;icona **Copia nella barra dei prompt** per rieseguire il ragionamento dell&#39;ideazione.
+1. (Facoltativo) Fai clic su uno dei connettori viola da qualsiasi set di schede di ideazione, quindi fai clic sull&#39;icona **Copia prompt completo** per copiare negli Appunti il prompt che ha generato la scheda, quindi incollala nella casella del prompt di Collaborator.
 
    ![Icona Copia nella barra dei prompt](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Facoltativo) Fai clic sulle icone **Annulla** o **Ripristina** ![Annulla e ripristina](assets/undo-redo-icons.png) nella parte superiore della pagina per annullare o annullare un&#39;azione.
+1. (Facoltativo) Fai clic sulle icone **Annulla** o **Ripristina** ![Annulla e ripristina](assets/undo-redo-icons.png) nella parte superiore dello spazio delle ideazioni per annullare o annullare un&#39;azione.
 1. Zoom indietro per visualizzare il quadro completo: l’obiettivo originale della campagna, tutte le schede di concetti generate dall’intelligenza artificiale con citazioni, documenti aggiuntivi, i record reali di Workfront Planning inseriti (prodotti, utenti tipo, ecc.). La scheda di riepilogo **Brief** nell&#39;angolo inferiore sinistro raccoglie tutto.
 
 1. Fai clic sulla breve immagine di anteprima in basso a sinistra e rivedi la descrizione, quindi fai clic su una delle seguenti opzioni:
@@ -218,9 +236,13 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      * PDF
      * Parola
      * PowerPoint (con o senza modello)
-   * **Esporta in Workfront Planning**. L&#39;esportazione sovrascrive tutti i dati di campo esistenti nel record in Workfront Planning.
+   * **Esporta in Workfront Planning**. L&#39;esportazione sovrascrive tutti i dati di campo esistenti nel record Planning corrispondente all&#39;ideazione.
 
-   In questo modo, si completa la creazione del record con le informazioni aggiuntive e lo si aggiunge al tipo di record selezionato in origine.
+   >[!TIP]
+   >
+   >**L&#39;esportazione in Workfront Planning** è disattivata quando si accede allo spazio ideazione dal menu Principale e la descrizione non è connessa a un record di Planning.
+
+   In questo modo si completa la creazione del record o del file con le informazioni aggiuntive. Se si è iniziato da un record esistente, le informazioni contenute nella descrizione vengono aggiunte al record. Se si inizia con un nuovo record, il record viene creato con le informazioni riportate nella descrizione.
 
    Per ulteriori informazioni sull&#39;aggiornamento dei record di Planning mediante le descrizioni, vedere la sezione &quot;Considerazioni sull&#39;utilizzo dello spazio di ideazione per creare record&quot; nell&#39;articolo [Creare record di Planning dalle descrizioni dello spazio di ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
@@ -233,11 +255,12 @@ Sono disponibili controlli per lo spazio di ideazione che consentono di configur
 
    * **Documenti** — documenti caricati nello spazio selezionato
    * **Ricerca sul Web** — ricerca sul Web esterna
-   * **CJA** — Adobe Customer Journey Analytics
-
+   <!--
+     **CJA** — Adobe Customer Journey Analytics
+    -->
 1. Fai clic su **Salva**.
 
-1. Fai clic sull&#39;icona **Aiuto** ![Icona Aiuto](assets/more-information-icon.png) per esaminare le scelte rapide da tastiera che puoi utilizzare per navigare nello spazio di ideazione o selezionare un altro valore di zoom.
+1. Fai clic sull&#39;icona a discesa **livello di zoom** a sinistra dell&#39;icona **Guida** o dell&#39;icona **Guida** ![Guida](assets/more-information-icon.png) per selezionare un&#39;opzione o rivedere le scelte rapide da tastiera che è possibile utilizzare per spostarsi nello spazio delle idee o selezionare un valore di zoom diverso.
 
    Scegli uno dei seguenti livelli di zoom:
 
@@ -248,16 +271,57 @@ Sono disponibili controlli per lo spazio di ideazione che consentono di configur
    In alternativa, per spostarsi nella pagina utilizzare una delle seguenti scelte rapide:
 
    | Azione | Scelta rapida |
-   |---|---|
+   | --- | --- |
    | Zoom in/out | Ctrl/⌘ + / − |
    | Zoom per adattare/adattare la selezione | — |
    | Zoom al cursore | Ctrl/⌘ + scorrimento |
    | Sposta l’area di lavoro | Pressione prolungata di spazio + trascinamento |
-   | Mostra/nascondi griglia punti | G |
-
-1. Fai clic sull’icona Ricerca per cercare gli elementi nello spazio delle idee, quindi fai clic su quando viene visualizzato nell’elenco per individuarlo.
+   | Mostra/nascondi griglia punti | Gig Byt |
 
 
+
+<!--
+
+    Once opened, the Ideation space agent goes through the following steps:
+
+    1. **Data ingestion and synthesis**:  Pulls relevant information from connected sources. For example: 
+    
+        * Existing record types or the existing record type that you started from. 
+        * Recent documents you might have uploaded in the ideation space. 
+        * Web information that matches your prompt criteria.
+
+            >[!TIP]
+            >
+            >The Web search setting must be turned on for AI to be able to look for information on the web.  
+            >For information, see the section [Configure the Ideation space](#configure-the-ideation-space)in this article.
+            >
+    1. **Audience definition**: Identifies or recommends target audience parameters based on historical patterns
+    1. **Strategy framing**: Structures the strategic narrative for the campaign
+    1. **Messaging and concept ideation**: Generates initial message options and creative concept directions
+    1. **Brief generation and planning handoff**: Produces a structured brief that feeds back into the Workfront Planning workspace
+
+        When the Ideation agent finishes the process of collecting all the information, the following things occur: 
+    
+        * Five cards are created and are organized by relevant and like-information. 
+
+            The cards are titled using various steps in the creation of the requested record, for easy recognition. 
+    
+            For example, they could be named:
+
+            * Plan
+            * Timeline
+            * Segments
+            * Mechanics  
+            * Messaging 
+
+        The cards titles are custom to each card in the ideation. 
+
+        * The cards are placed inside the same frame indicating this is the result of one ideation. 
+
+        * A brief is created and displays in a preview image in the lower-left corner of the Ideation space. <!
+    
+        The brief contains suggested fields that the system considers pertinent to the ideas you are exploring. 
+-->
 
 
 

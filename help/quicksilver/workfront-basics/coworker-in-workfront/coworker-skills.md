@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 6%
+source-wordcount: '270'
+ht-degree: 5%
 ---
 # Competenze Workfront in CX Enterprise Coworker
 
@@ -59,6 +59,9 @@ Questa abilità consente di eseguire query e gestire oggetti di Workfront Planni
 * Campi
 * Viste
 * Record
+<!--
+* Business rules
+-->
 
 ### Gestisci oggetti Workfront
 
@@ -75,13 +78,12 @@ Questa abilità crea e aggiorna progetti, attività, problemi, portfolio e progr
 
 Nome: `query-workfront-data`
 
-Questa abilità consente di trovare, elencare e creare report su oggetti di Workfront quali:
+Questa abilità consente di trovare, elencare e creare report sugli oggetti di Workfront. Di seguito sono riportati alcuni esempi di tali oggetti di Workfront, ma l&#39;elenco non è completo:
 
 * Progetti
 * Tasks
 * Problemi
 * Utenti
 * Portfolio
-* e molto altro
 
 
