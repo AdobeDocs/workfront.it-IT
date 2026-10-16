@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 8%
 ---
 # Aggiungere un collegamento web come documento
 
@@ -56,13 +56,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Aggiungere un collegamento web come documento
 
-Puoi caricare una pagina web html in Workfront come collegamento web. Dopo averlo aggiunto, puoi richiedere l’approvazione sulla pagina web live nello stesso modo in cui richiedi l’approvazione su un file caricato. Per ulteriori informazioni sulla gestione dei collegamenti Web da parte di Frame.io, vedere [Collegamenti Web a Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
+Puoi caricare una pagina web html in Workfront come collegamento web. Dopo averlo aggiunto, puoi richiedere l’approvazione sulla pagina web live nello stesso modo in cui richiedi l’approvazione su un file caricato. Per ulteriori informazioni sulla gestione dei collegamenti Web da parte di Frame.io, vedere [Revisione HTML per Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* Gli URL sono supportati se il sito consente incorporamenti iFrame.
+>* Gli URL web privati sono supportati, ma alcuni flussi di autenticazione potrebbero non funzionare a seconda della configurazione del server.
+>* Gli URL di Youtube e Figma non sono attualmente supportati.<br>
+>Per ulteriori informazioni, vedere [Quali tipi di URL sono supportati in Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 Per aggiungere un collegamento Web:
 
