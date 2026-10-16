@@ -1,5 +1,5 @@
 ---
-title: Creazione di record di pianificazione dalle descrizioni dello spazio ideazione
+title: Creazione o modifica di record di pianificazione dalle descrizioni dello spazio di ideazione
 description: Utilizzando Ideation Space, una nuova funzionalità di Adobe Workfront Planning, è possibile trasformare i resoconti in record di Planning. I resoconti esportati creano nuovi record o aggiornano quelli esistenti. In questo articolo viene descritto come creare o modificare i record di Planning esistenti utilizzando lo spazio ideazione.
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# Crea record di Planning dalle descrizioni dello spazio ideazione
+# Creare o modificare record di Planning dalle descrizioni dello spazio ideazione
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
-Oppure
-<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -120,13 +124,13 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-## Considerazioni sull’utilizzo dello spazio Ideazione per creare record
+## Considerazioni sull&#39;utilizzo dello spazio Ideazione per creare o modificare record di Planning
 
-* Durante la creazione o la modifica di record, è possibile avviare lo spazio di ideazione solo da Workfront Planning o dal menu principale di Workfront. Lo spazio ideazione non esiste al di fuori di Workfront.
-* Per accedere allo spazio di ideazione, è necessario disporre di un&#39;area di lavoro e di un tipo di record in Workfront Planning.
+* Per poter creare o modificare un record di Planning, è necessario avviare lo spazio Ideazione da Workfront Planning. L&#39;accesso allo spazio delle ideazioni dal menu principale di Workfront non consente di collegare un&#39;ideazione a un record di Planning.
+* Per utilizzare lo spazio di ideazione per creare o modificare record, è necessario disporre di un&#39;area di lavoro e di un tipo di record in Workfront Planning.
 * I nuovi record iniziano sempre con il contenuto segnaposto, indipendentemente dalla modalità di creazione.
-* Quando si elimina un record di Planning collegato a una descrizione breve dell&#39;ideazione, la descrizione rimane nello spazio dell&#39;ideazione e l&#39;area di lavoro associata nello spazio dell&#39;ideazione non viene eliminata.
-* La sincronizzazione delle informazioni avviene solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record Planning alla descrizione dello spazio ideazione.
+* Quando si elimina un record di Planning collegato a una descrizione breve dell&#39;ideazione, la descrizione rimane nello spazio dell&#39;ideazione e il relativo spazio associato non viene eliminato.
+* La sincronizzazione delle informazioni avviene solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record Planning alla descrizione dello spazio ideazione. <!--this might change?-->
 * Quando si creano, modificano o rimuovono campi in Workfront Planning, si verificano gli scenari seguenti:
 
   * Ogni giorno vengono aggiunti nuovi campi creati in record collegati a descrizioni idee. I nuovi campi vengono visualizzati vuoti nella descrizione ideazione.
@@ -134,7 +138,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   * I campi rinominati aggiornano i nomi nella descrizione.
 * È possibile aggiungere documenti come schede nello spazio Ideazione. Sono incluse anche le immagini.
 
-  Sono supportati i seguenti tipi di file: PDF, Excel, CSV, PNG (e altri formati di immagine), Word, PowerPoint. Video non supportati.
+  È possibile aggiungere i seguenti tipi di file: PDF, Excel, CSV, PNG (e altri formati di immagine), Word, PowerPoint. Video non supportati.
 
   Tutti i documenti caricati vengono convertiti in PDF sul backend per l’elaborazione.
 * È possibile trascinare i record direttamente da Workfront Planning nello spazio e visualizzarli come file caricati manualmente.
@@ -201,7 +205,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    In questo modo, si completa la creazione del record con le informazioni aggiuntive e lo si aggiunge al tipo di record selezionato in origine.
 
-## Modificare i record esistenti nello spazio ideazione
+## Modificare i record esistenti utilizzando lo spazio ideazione
 
 Puoi aprire lo spazio ideazione da record esistenti per aggiornarli.
 

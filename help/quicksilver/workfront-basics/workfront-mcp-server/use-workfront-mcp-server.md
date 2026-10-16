@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Per cercare in Workfront gli elementi che corrispondono a ciò che stai cercando
 * *Ottieni tutte le attività assegnate a Joan Harris.*
 * *Mostra tutti i problemi nel progetto &quot;Riprogettazione sito Web&quot; nella categoria &quot;Tecnico&quot;.*
 
-### Crea nuovi elementi
+### Crea elementi
 
 Per creare progetti, attività o altri elementi di Workfront, chiedi:
 
@@ -134,9 +134,14 @@ Per gestire le approvazioni di documenti e risorse, chiedi:
 
 Per gestire i record di pianificazione, eseguire le operazioni riportate di seguito.
 
-* *Crea un nuovo record di pianificazione denominato &quot;Piano di marketing Q2&quot; per il team di marketing del marchio.*
-* *Aggiungi al record di pianificazione una nuova attività denominata &quot;Audit social media&quot;.*
-* *Aggiorna l&#39;attività &quot;Audit social media&quot; in modo che termini il 18 aprile e assegnala al team creativo.*
+* *Crea un record di pianificazione denominato &quot;Piano di marketing Q2&quot; per il team di marketing del marchio.*
+* *Aggiungi al record di pianificazione un nuovo progetto denominato &quot;Audit social media&quot;.*
+* *Aggiorna il progetto &quot;Audit social media&quot; in modo che termini il 18 aprile e assegna le relative attività al team Creative.*
+<!--
+* *Create / update / fix a business rule*
+* *Add a validation rule to a business rule*
+* *List the business rules on record type "X"*
+-->
 
 ### Utilizzare il flusso di lavoro
 
@@ -261,31 +266,22 @@ you undo an action, you can't undo it through the AI agentic platform either.
 
 ### Perché la piattaforma dell’agente di intelligenza artificiale ha restituito gli elementi Workfront errati?
 
-La piattaforma di gestione dell’intelligenza artificiale seleziona gli elementi in base alle parole utilizzate. Se il
-richiesta ambigua, ad esempio due progetti con nomi simili
-potrebbe scegliere quella sbagliata. Chiedi di nuovo con nomi, ID, date più specifici,
-o filtri per limitare i risultati.
+La piattaforma di gestione dell’intelligenza artificiale seleziona gli elementi in base alle parole utilizzate. Se la richiesta è ambigua, ad esempio se due progetti hanno nomi simili, potrebbe essere selezionato quello sbagliato. Chiedi nuovamente con nomi, ID, date o filtri più specifici per limitare i risultati.
 
 
 ### Con quali elementi di Workfront posso lavorare tramite una piattaforma di agenti di intelligenza artificiale?
 
-Tutti gli elementi a cui hai accesso in Workfront tramite il tuo livello di accesso e
-autorizzazioni oggetto. Ciò include progetti, attività, problemi, documenti,
-approvazioni, record di Planning e altro ancora.
+Tutti gli elementi a cui hai accesso in Workfront tramite il tuo livello di accesso e le autorizzazioni per gli oggetti. Ciò include progetti, attività, problemi, documenti, approvazioni, record di Planning e altro ancora.
 
 ### Altre persone possono vedere le mie conversazioni con la piattaforma di agenti di intelligenza artificiale?
 
 Workfront non memorizza le richieste o le risposte della piattaforma di agente di intelligenza artificiale.
-Chiunque fornisca la piattaforma di agenti di intelligenza artificiale controlla in che modo le conversazioni
-sono archiviati o condivisi. Rivolgiti al provider di piattaforme AI per sapere
-dettagli.
+Chiunque fornisca la piattaforma di agenti di intelligenza artificiale controlla come vengono memorizzate o condivise le conversazioni. Per informazioni dettagliate, rivolgiti al provider di piattaforme basate su AI.
 
 ### Devo conoscere l’API di Workfront o quale strumento MCP utilizzare?
 
-No. La piattaforma AI agentic traduce la richiesta in lingua naturale in
-le azioni giuste di Workfront e seleziona gli strumenti giusti per te. Se sei
-hanno già familiarità con l’API di Workfront, le azioni avranno familiarità con
-ma non è un requisito.
+No. La piattaforma AI agentic traduce la richiesta in linguaggio naturale nelle azioni Workfront giuste e seleziona gli strumenti giusti per te. Se sei
+Conoscendo già l’API di Workfront, le azioni ti saranno familiari, ma non è un requisito.
 
 ### I miei dati Workfront vengono inviati al provider di piattaforme basate su IA o memorizzati da quest’ultimo?
 

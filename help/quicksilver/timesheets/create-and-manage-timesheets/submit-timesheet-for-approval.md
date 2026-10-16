@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '821'
 ht-degree: 6%
-
 ---
-
 # Inviare un timesheet per l’approvazione
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ Per inviare una scheda orario per l&#39;approvazione:
 1. Tempo di connessione, come descritto in [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Fai clic su **Invia per approvazione** per avviare il processo di approvazione della scheda orario.
 
-   ![Pulsante Invia per approvazione](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Pulsante Invia per approvazione](assets/submit-for-approval-button-on-timesheet.png)
 
    Il pulsante **Invia per approvazione** è sostituito dai pulsanti **Approva**, **Rifiuta** e **Richiama**. Lo stato della scheda orario diventa **Inviato**.
 
@@ -103,23 +109,21 @@ Per visualizzare lo stato di una scheda orario:
 
 {{step1-to-timesheets}}
 
-Il filtro **All** è selezionato per impostazione predefinita.
+Tutte le schede orario a cui hai accesso vengono visualizzate per impostazione predefinita.
 
-![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario](assets/list-of-all-timesheets.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
-   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
+   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato,
 
      Oppure
 
      Seleziona **Le mie schede orario** per visualizzare solo le tue schede orario.
 
-     In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
+     Questa operazione applica i filtri **Le mie approvazioni schede orario** o **Le mie schede orario** all&#39;elenco delle schede orario.
 
-     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) per applicare un filtro o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -129,32 +133,12 @@ Il filtro **All** è selezionato per impostazione predefinita.
 
    Le schede orario possono avere i seguenti stati:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Open</td> 
-      <td> <p>La scheda orario è attualmente aperta e si potrebbe registrare l'ora. </p> <p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inviata</td> 
-      <td>La scheda orario è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Chiuso</td> 
-      <td> <p>Esistono i seguenti scenari:</p> 
-       <ul> 
-        <li> <p>Se la scheda orario non ha un approvatore, l'orario è stato salvato e chiuso.</p> </li> 
-        <li> <p>Se la scheda orario dispone di un approvatore, è stata inviata per l'approvazione ed è stata approvata.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rifiutato</td> 
-      <td>La scheda orario è stata inviata per l'approvazione e l'approvatore l'ha rifiutata.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Stato | Descrizione |
+   | --------- | ---------- |
+   | Open | <p>La scheda orario è attualmente aperta e si potrebbe registrare l&#39;ora.</p><p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere la sezione [Richiama una scheda orario](#recall-a-timesheet) in questo articolo.</p> |
+   | Inviata | La scheda orario è stata inviata per l&#39;approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere la sezione [Richiama una scheda orario](#recall-a-timesheet) in questo articolo. |
+   | Chiuso | <p>Esistono i seguenti scenari:</p><ul><li>Se la scheda orario non ha un approvatore, l&#39;orario è stato salvato e chiuso.</li><li>Se la scheda orario dispone di un approvatore, è stata inviata per l&#39;approvazione ed è stata approvata.</li></ul> |
+   | Rifiutato | La scheda orario è stata inviata per l&#39;approvazione e l&#39;approvatore l&#39;ha rifiutata. |
 
 ## Richiama una scheda orario {#recall-a-timesheet}
 
@@ -164,7 +148,7 @@ Per richiamare una scheda orario:
 
 {{step1-to-timesheets}}
 
-1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtro** ![Icona filtro](assets/filter-nwepng.png).
+1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo oppure seleziona **Le mie schede orario** dal menu a discesa **Filtro** ![Icona filtro](assets/filter-nwepng.png).
 1. Fare clic sull&#39;intervallo di tempo per una scheda orario con stato **Inviato**.
 1. Fare clic su **Richiama**.
 

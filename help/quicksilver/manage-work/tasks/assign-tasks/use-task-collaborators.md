@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1143'
 ht-degree: 2%
 ---
 # Usa agenti di lavoro
@@ -74,7 +74,7 @@ Gli agenti di lavoro sono un modo per assegnare agenti ad attività specifiche i
 
 Alcuni flussi di lavoro di esempio possono includere:
 
-* Rileva le immagini caricate su un’attività, genera varianti in base ai criteri forniti all’agente e carica le nuove immagini nell’attività.
+* Generazione della copia dai dettagli dell&#39;attività e dai documenti basati su testo allegati, quindi registrazione dell&#39;output nel flusso di aggiornamento o caricamento come documento basato su testo.
 * Generazione della copia da una descrizione dell&#39;attività, esame della copia in base alle linee guida configurate nell&#39;agente e registrazione della copia nel flusso di aggiornamento.
 * Lettura dei dettagli di un evento, identificazione dei dettagli mancanti e pubblicazione nel flusso di aggiornamento di domande sui dettagli mancanti.
 
@@ -94,7 +94,8 @@ Quando un agente di lavoro inizia a lavorare su un’attività, legge automatica
 * Descrizione attività
 * Commenti nel flusso di aggiornamento dell&#39;attività
 * Informazioni in qualsiasi modulo personalizzato allegato all’attività
-* <span class="preview"> documenti allegati</span>
+* <span class="preview">Documenti basati su testo allegati, ad esempio file DOC e PDF</span>
+* <span class="preview">Campi progetto, se sono configurati nella configurazione dell&#39;agente di lavoro</span>
 
 Queste informazioni vengono sempre lette e non sono configurabili come impostazioni di Workfront.
 
@@ -104,6 +105,14 @@ Queste informazioni vengono sempre lette e non sono configurabili come impostazi
 >
 >* Includere tutte le informazioni di sfondo che si desidera vengano utilizzate direttamente dall&#39;agente nella descrizione dell&#39;attività o in un campo modulo personalizzato appropriato.
 >* Assicurati che l’attività corrisponda a quanto il tuo agente è istruito a fare. Ad esempio, se il tuo agente è istruito a tradurre il testo dall’inglese al francese, includi il testo che desideri tradurre nella descrizione dell’attività.
+
+## Azioni che un agente di lavoro può intraprendere
+
+A seconda della configurazione dell’agente di lavoro in Workfront, dopo il completamento del lavoro può eseguire le azioni seguenti:
+
+* Scrivi campi attività, se configurati
+* Carica documenti basati su testo
+* Contrassegna l&#39;attività come completata
 
 ## Attivatori avvio agente di lavoro
 

@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 83%
+source-wordcount: '4407'
+ht-degree: 79%
 ---
 # Nozioni di base sulle API
 
@@ -150,16 +150,18 @@ L’API utilizza la stessa autenticazione basata su cookie usata dall’interfac
 
 >[!IMPORTANT]
 >
->Workfront non consiglia più di utilizzare l’endpoint `/login` o le chiavi API. Utilizza invece uno dei seguenti metodi di autenticazione:
+>Workfront non consiglia più di utilizzare le chiavi API per le nuove integrazioni. Utilizza invece l’autenticazione Adobe Developer Console:
 >
->* Autenticazione server con JWT
->* Autenticazione utente con OAuth2
+>* Autenticazione server-to-server
+>* Autenticazione utente
 >
->Per istruzioni sulla configurazione di questi metodi di autenticazione, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Le chiavi API continuano a funzionare in questo momento, ma Adobe consiglia di pianificare nuove integrazioni relative all’autenticazione di Adobe Developer Console.
 >
->Per istruzioni sull’utilizzo dell’autenticazione server in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](../../wf-api/api/oauth-app-jwt-flow.md)
+>Il servizio OAuth2 personalizzato legacy di Workfront verrà ritirato. Le nuove applicazioni OAuth2 personalizzate non possono più essere create dopo il 1° novembre 2026 e le applicazioni OAuth2 personalizzate esistenti cessano di funzionare il 1° febbraio 2027.
 >
->Per istruzioni sull’utilizzo dell’autenticazione utente in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](../../wf-api/api/oauth-app-code-token-flow.md)
+>Per informazioni sull&#39;autenticazione, vedere [Panoramica sull&#39;autenticazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>Per informazioni sulla migrazione, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ L’API utilizza la stessa autenticazione basata su cookie usata dall’interfac
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, vedi [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Utilizzando un nome utente e una password validi, puoi utilizzare la seguente richiesta per ottenere un ID sessione:
+Gli esempi precedenti per l&#39;endpoint `/login` e l&#39;accesso basato su chiave API non devono più essere utilizzati per le nuove integrazioni.
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-Questa operazione imposta un cookie per autenticare le richieste future e restituire inoltre una risposta JSON con il sessionID appena creato, l’userID dell’utente connesso e altri attributi di sessione.
-
->[!NOTE]
->
->Se disponi di un utente API designato che è anche un amministratore, Workfront ti consiglia vivamente di utilizzare una chiave API per accedere.
-
-**Generazione di una chiave API**
-
-Puoi generare una chiave API quando accedi al sistema come tale utente, come illustrato nell’esempio seguente:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**Recupero di una chiave API generata in precedenza**
-
-Puoi anche recuperare una chiave API che è stata generata in precedenza per un particolare utente eseguendo getApiKey:
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-Puoi quindi utilizzare questo risultato per autenticare qualsiasi chiamata API aggiungendo “apiKey” come parametro di richiesta, in sostituzione di sessionID o di nome utente e password. Questo è vantaggioso dal punto di vista della sicurezza.
-
-La seguente richiesta è un esempio di recupero di dati da un progetto utilizzando apiKey:
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**Annullamento della validità di una chiave API**
-
-Se il valore apiKey è stato compromesso, puoi eseguire “clearApiKey”, che invalida la chiave API corrente, come illustrato nell’esempio seguente:
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-Una volta annullata, puoi eseguire nuovamente getApiKey per generare una nuova chiave API.
+Per istruzioni sull’autenticazione correnti, utilizza l’autenticazione Adobe Developer Console. Per informazioni dettagliate sulla migrazione dalle applicazioni legacy Workfront OAuth2, consulta [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 ### Disconnessione
 

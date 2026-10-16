@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 6%
 ---
 # Crea applicazioni OAuth2 per [!DNL Workfront] integrazioni
@@ -51,7 +51,7 @@ Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID c
 >   * 1 novembre 2026: non sarà più possibile creare nuove applicazioni OAuth2 personalizzate.
 >   * 1 febbraio 2027: le applicazioni OAuth2 personalizzate esistenti non funzioneranno più.
 >
->   Per ulteriori informazioni, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>   Per ulteriori informazioni, vedere [Migrazione da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md) e [Panoramica sull&#39;autenticazione Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 >
 >* Nel contesto di OAuth2, &quot;creazione di un&#39;app&quot; si riferisce al processo di creazione di questo tipo di collegamento di accesso tra un&#39;app e un server come [!DNL Workfront].
 

@@ -9,23 +9,28 @@ exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: '724'
 ht-degree: 8%
-
 ---
-
 # Eliminare timesheet in Adobe Workfront
 
 Le modifiche apportate a un profilo scheda orario non sono immediatamente valide per le schede orario esistenti, come spiegato in [Creare, modificare e assegnare profili scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Per rendere visibili le modifiche nelle schede orario esistenti, devi eliminare le schede orario generate e generarne di nuove. Questo si applica solo alle schede orario generate associando profili della scheda orario agli utenti.
@@ -79,29 +84,27 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 {{step1-to-timesheets}}
 
-Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario per le quali si dispone dell&#39;accesso.
+Tutte le schede orario a cui hai accesso vengono visualizzate per impostazione predefinita.
 
-![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario](assets/list-of-all-timesheets.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
-   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
+   * Seleziona **Le mie approvazioni schede orario** nell&#39;angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato,
 
      Oppure
 
      Seleziona **Le mie schede orario** per visualizzare solo le tue schede orario.
 
-     In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
+     Questa operazione applica i filtri **Le mie approvazioni schede orario** o **Le mie schede orario** all&#39;elenco delle schede orario.
 
-     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Fai clic sull&#39;icona Filtro ![icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o creane uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) per applicare un filtro o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso tali filtri dai controlli elenco nell&#39;area Configura o dal modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **Visualizza** ![Visualizza](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona **Visualizza** ![Visualizza](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) per applicare una visualizzazione o un raggruppamento o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 
@@ -127,8 +130,8 @@ Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte
 
 {{step1-to-timesheets}}
 
-1. Fai clic sulla scheda orario da eliminare per aprirla.
-1. Fai clic sull&#39;icona [!UICONTROL **Altro**] ![Icona Altro](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
+1. Fai clic sul nome della scheda orario da eliminare.
+1. Nella scheda orario, fai clic sul menu [!UICONTROL **Altro**] ![Altro menu](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
 
    ![Elimina scheda orario dalla pagina della scheda orario](assets/delete-timesheet-from-timesheet-page.png)
 1. Fai clic su [!UICONTROL **Elimina**] per confermare.
