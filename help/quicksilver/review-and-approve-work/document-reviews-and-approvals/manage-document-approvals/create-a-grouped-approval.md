@@ -5,15 +5,15 @@ title: Creare un’approvazione raggruppata
 description: È possibile raggruppare più documenti in un unico flusso di lavoro di approvazione in modo che passino attraverso le stesse fasi insieme.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 3%
 ---
 
 # Creare un’approvazione raggruppata
 
-<span class="preview">Le informazioni su questa pagina non sono disponibili nell&#39;ambiente Sandbox di anteprima perché l&#39;integrazione Frame.io non è disponibile. Questa funzionalità sarà disponibile negli ambienti di produzione il 14 e 15 ottobre 2026.</span>
+<span class="preview">Le informazioni su questa pagina non sono disponibili nell&#39;ambiente Sandbox di anteprima perché l&#39;integrazione Frame.io non è disponibile. Questa funzionalità sarà disponibile negli ambienti di produzione il 22 ottobre 2026.</span>
 
 Un’approvazione raggruppata raggruppa più documenti in un unico flusso di lavoro di approvazione. È possibile utilizzare la modalità Base e Avanzate, più fasi e percorsi paralleli con approvazioni raggruppate, proprio come con le approvazioni a documento singolo.
 

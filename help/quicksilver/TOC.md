@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '14687'
+source-wordcount: '14694'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -1195,6 +1195,7 @@ ht-degree: 91%
   * Aggiungere nuovi documenti ad Adobe Workfront {#add-new-documents-to-workfront}
     * [Aggiungere nuovi documenti ad Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [Aggiungere documenti ad Adobe Workfront dal file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+    * [Aggiungere un collegamento web come documento](documents/adding-documents-to-workfront/add-live-url.md)
     * [Collegare documenti da applicazioni esterne](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [Rimuovere i collegamenti tra Adobe Workfront e i provider di archiviazione documenti esterni](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
     * [Richiedere un documento](documents/adding-documents-to-workfront/request-a-document.md)
