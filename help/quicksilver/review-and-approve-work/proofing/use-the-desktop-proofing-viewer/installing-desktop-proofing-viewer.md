@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 7%
+source-wordcount: '574'
+ht-degree: 8%
 ---
 # Installare il visualizzatore di bozza desktop
 
@@ -79,7 +79,7 @@ In caso contrario, puoi seguire i passaggi seguenti.
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
    * Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione Mac per il Visualizzatore bozze desktop.](https://app.proofhq.com/desktopviewer/mac)
-   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, fare clic su **Continua**, quindi su **Installa**.
