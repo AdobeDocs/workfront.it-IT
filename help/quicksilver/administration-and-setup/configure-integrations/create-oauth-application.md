@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 6%
 ---
 # Crea applicazioni OAuth2 per [!DNL Workfront] integrazioni
@@ -51,7 +51,7 @@ Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID c
 >   * 1 novembre 2026: non sarà più possibile creare nuove applicazioni OAuth2 personalizzate.
 >   * 1 febbraio 2027: le applicazioni OAuth2 personalizzate esistenti non funzioneranno più.
 >
->   Per ulteriori informazioni, vedere [Migrare da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>   Per ulteriori informazioni, vedere [Migrazione da Workfront OAuth2 a Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md) e [Panoramica sull&#39;autenticazione Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 >
 >* Nel contesto di OAuth2, &quot;creazione di un&#39;app&quot; si riferisce al processo di creazione di questo tipo di collegamento di accesso tra un&#39;app e un server come [!DNL Workfront].
 
@@ -248,7 +248,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Abilita questa opzione per emettere un nuovo token di aggiornamento ogni volta che viene utilizzato il token di aggiornamento. L’applicazione deve memorizzare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Scadenza token di aggiornamento assoluto di </td> 
+      <td role="rowheader">Scadenza token di aggiornamento assoluto di [!UICONTROL]</td> 
       <td> <p>Seleziona il periodo di tempo per il quale desideri che esista un token di aggiornamento prima della scadenza. Quando scade, gli utenti devono accedere di nuovo all’integrazione. Seleziona "[!UICONTROL Nessuna scadenza]" se non desideri che il token di aggiornamento scada.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
