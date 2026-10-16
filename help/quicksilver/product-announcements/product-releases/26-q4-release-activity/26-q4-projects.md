@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
->Produzione per tutti: 15 ottobre 2026
+>Produzione per tutti: 22 ottobre 2026
 
 Quando un modello contiene dati finanziari, questi valori di campo vengono mantenuti quando un utente crea un progetto a partire dal modello. L&#39;utente deve avere accesso in visualizzazione ai dati finanziari per visualizzare i campi finanziari nei dettagli del progetto.
 

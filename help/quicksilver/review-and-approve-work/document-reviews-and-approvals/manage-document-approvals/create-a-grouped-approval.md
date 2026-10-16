@@ -5,9 +5,9 @@ title: Creare un’approvazione raggruppata
 description: È possibile raggruppare più documenti in un unico flusso di lavoro di approvazione in modo che passino attraverso le stesse fasi insieme.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 3%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Un’approvazione raggruppata raggruppa più documenti in un unico flusso di lavoro di approvazione. È possibile utilizzare la modalità Base e Avanzate, più fasi e percorsi paralleli con approvazioni raggruppate, proprio come con le approvazioni a documento singolo.
 
-Le approvazioni raggruppate sono disponibili solo nella nuova area Documenti, che viene visualizzata quando l’organizzazione utilizza l’archiviazione cloud Adobe. Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>[!IMPORTANT]
+>
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Le approvazioni raggruppate sono disponibili solo nella nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 ## Requisiti di accesso
 
