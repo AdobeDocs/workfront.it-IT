@@ -1,6 +1,6 @@
 ---
 title: Condividere uno spazio delle idee con altri
-description: Adobe Workfront Planning ora offre una funzionalità aggiuntiva da ideare prima di avviare le campagne. Sfrutta la potenza dell’intelligenza artificiale per creare e collaborare alle idee con altri prima che diventino record di pianificazione.
+description: Adobe Workfront Planning ora offre una funzionalità aggiuntiva da ideare prima di avviare le campagne. Per una migliore collaborazione, puoi condividere lo spazio delle idee e le relative descrizioni con altri utenti.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 2%
 ---
 
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Le autorizzazioni per i record di Workfront Planning vengono trasferite nello spazio di ideazione di un record.
+Puoi utilizzare lo spazio delle idee di Adobe Workfront per creare resoconti per le campagne e altri tipi di record prima di avviarle. In questo modo gli altri utenti vengono invitati a discutere e a raccogliere informazioni per creare in modo collaborativo il documento prima di avviare il lavoro.
 
-Inoltre, puoi assegnare ad altri utenti le autorizzazioni per utilizzare lo spazio delle idee e aggiungervi idee.
+Per una migliore collaborazione, puoi condividere lo spazio delle idee e le relative descrizioni con altri utenti.
 
 Considera i seguenti aspetti:
 
+* Le autorizzazioni per i record di Workfront Planning vengono trasferite nello spazio di ideazione di un record.
+
+* Inoltre, puoi assegnare ad altri utenti le autorizzazioni per utilizzare lo spazio delle idee e aggiungervi idee.
+
 * I creatori di idee hanno sempre i permessi editor per le proprie idee.
 
-* È necessario disporre delle autorizzazioni di editor per uno spazio di ideazione per creare resoconti brevi ed esportarli in altre applicazioni.
+* Per creare o contribuire a una descrizione breve ed esportarla in altre applicazioni, è necessario disporre delle autorizzazioni di editor per uno spazio di ideazione.
 
 ## Requisiti di accesso
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
-Oppure
-<li><p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ Oppure
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record </p>
       <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
       <p>Visualizzare le autorizzazioni per gli oggetti Workfront per aggiungerli alle descrizioni <!--not sure if this is available--></p>
-      <p>Autorizzazioni dell’editor per lo spazio ideazione per creare resoconti</p>
+      <p>Autorizzazioni dell’editor per lo spazio di ideazione di una descrizione per creare descrizioni</p>
    </td> 
   </tr>  
   <!--
@@ -129,15 +137,12 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Condivisione di uno spazio delle idee
 
-1. Accedere allo spazio Ideazione di un record Planning.
+1. Accedi allo spazio Ideazione.
 
-   Per informazioni, vedere uno degli articoli seguenti:
+   Per informazioni, consulta [Creare resoconti nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   * [Crea record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Creare slip nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Fai clic su **Condividi** nell&#39;angolo superiore destro, quindi sull&#39;icona **Impostazioni** ![Impostazioni](assets/setting-icon.png) nell&#39;angolo superiore destro della casella **Condividi documento**.
-1. Nell&#39;elenco Chi dispone dell&#39;accesso, scegliere una delle opzioni seguenti:
+1. Fai clic su **Condividi** nell&#39;angolo superiore destro, quindi sull&#39;icona **Impostazioni** ![Impostazioni](assets/setting-icon.png) nell&#39;angolo superiore destro della casella **Condividi documento**. <!--should this say "document"?-->
+1. Nell&#39;elenco **Persone con accesso**, scegliere una delle opzioni seguenti:
 
    * **Accesso consentito solo agli invitati**
 

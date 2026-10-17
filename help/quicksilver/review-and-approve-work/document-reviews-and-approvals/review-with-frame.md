@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 8%
+source-wordcount: '903'
+ht-degree: 5%
 ---
 # Revisione e approvazione con il visualizzatore Frame.io
 
@@ -82,6 +82,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Prerequisiti
 
 * È necessario che nell’istanza di Workfront siano configurate l’integrazione Workfront e Frame.io. Per ulteriori informazioni, vedere [Panoramica unificata su revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* Per rivedere un documento di collegamento Web, è necessario che sia installata l&#39;estensione [Frame.io Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen). Se non è installato, viene richiesto di scaricarlo la prima volta che si apre il visualizzatore Frame.io per un documento di collegamento Web in Workfront.
+
 
 ## Rivedere un documento
 
@@ -117,7 +119,6 @@ Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai
    > 
    >Potrebbe essere necessario aggiungere il widget Approvazioni personali alla home page. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-
 1. In Frame.io, usate gli strumenti di commento per lasciare un feedback o porre domande. I commenti e il markup delle risorse sono visibili solo nel visualizzatore Frame.io. Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere [Commenti sul supporto](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
    >[!NOTE]
@@ -136,6 +137,27 @@ Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai
 
    ![Visualizzatore frame e decisione](assets/make-decision-frame.png)
 
+## Rivedere un collegamento web
 
+Se il documento è un URL web live, puoi rivedere la pagina nel visualizzatore Frame.io e lasciare un feedback direttamente sulla pagina.
 
-<!--is document owner the correct term?-->
+1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
+oppure
+Vai alla home page di Workfront, trova il widget Le mie approvazioni, quindi fai clic su **Apri revisione**.
+
+   >[!NOTE]
+   > 
+   >Potrebbe essere necessario aggiungere il widget Approvazioni personali alla home page. Per ulteriori informazioni, vedere [Aggiungere, modificare o rimuovere widget nella Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. In Frame.io, apri il documento di collegamento web. Se richiesto, installare l&#39;estensione [Frame.io Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) per visualizzare la pagina e acquisire uno stato corrente dell&#39;URL.
+
+1. Utilizza il visualizzatore per aggiungere commenti, annotazioni e altro ancora direttamente sulla pagina.
+
+1. Una volta terminata la revisione del documento di collegamento Web, potete scegliere una delle seguenti decisioni nel visualizzatore Frame.io:
+
+   * **Approva**: la risorsa non necessita di modifiche ed è pronta per l&#39;uso.
+   * **Lavoro necessario**: la risorsa richiede modifiche e non è pronta per l&#39;uso. Una volta apportate le modifiche specificate, la risorsa deve essere caricata come nuova versione e passare attraverso un altro ciclo di approvazioni. Per ulteriori informazioni, vedere [Caricare una nuova versione del documento e richiedere un&#39;approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   Una volta presa una decisione, il proprietario del documento riceve una notifica tramite e-mail.
+
+Per istruzioni dettagliate sulla visualizzazione e la revisione degli URL Web live, inclusi gli URL supportati, i requisiti di estensione del browser e le opzioni di commento, consulta [Revisione di HTML per Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).

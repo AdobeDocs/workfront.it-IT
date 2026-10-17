@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1791'
 ht-degree: 2%
 ---
 # Gestire il layout della pagina dei record
@@ -273,6 +273,11 @@ Per impostazione predefinita, tutte le sezioni vengono espanse.
    Tutte le modifiche apportate alle sezioni e all&#39;ordine dei campi vengono salvate automaticamente.
 
 1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare la scheda Dettagli in un file Word o PDF. Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+
+   >[!TIP]
+   >
+   >L’esportazione non è disponibile per le pagine di dettagli personalizzate in cui i campi sono nascosti.
+
 
 1. (Facoltativo) Fai clic sulla scheda **Connessioni** accanto alla scheda **Dettagli**. Potrebbe essere necessario fare clic su **Altro** prima di fare clic sulla scheda **Connessioni**.
 

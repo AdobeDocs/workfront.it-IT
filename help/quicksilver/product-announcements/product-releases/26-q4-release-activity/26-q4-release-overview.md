@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -33,7 +33,7 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 >
 >| Rilascio mensile | Rilascio trimestrale |
 >|----|----|
->| <ul><li>26.8 (13 agosto 2026)</li><li>26.9 (17 settembre 2026)</li><li>26.10 (14 ottobre 2026)</li></ul> | <ul><li>26.10 (22 ottobre 2026)</li></ul> |
+>| <ul><li>26.8 (13 agosto 2026)</li><li>26.9 (17 settembre 2026)</li><li>26.10 (22 ottobre 2026)</li></ul> | <ul><li>26.10 (22 ottobre 2026)</li></ul> |
 >
 >* La versione 26.10 (ottobre 2026) è stata spostata al 22 ottobre 2026.
 >
@@ -382,12 +382,12 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Raggruppare più documenti in un unico flusso di lavoro di approvazione</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Raggruppare più documenti in un unico flusso di lavoro di approvazione</a>
                 <p>Ora è possibile raggruppare più documenti in un unico flusso di lavoro di approvazione, in modo che possano passare attraverso le stesse fasi insieme.</p>
             </td>
             <td><p>Questa funzione non è disponibile nell’ambiente Sandbox di anteprima perché l’integrazione Frame.io non è disponibile in tale ambiente.</p></td>
-            <td><p>15 ottobre 2026</p></td>
-            <td><p>15 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
+            <td><p>22 ottobre 2026</p></td>
         </tr>
         <tr>
             <td>

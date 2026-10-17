@@ -5,15 +5,15 @@ title: Rivedere un’approvazione raggruppata
 description: Puoi rivedere e prendere decisioni su tutti i documenti in un'approvazione raggruppata dal widget Approvazioni personali nella Home o nel visualizzatore Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '662'
 ht-degree: 6%
 ---
 
 # Rivedere un’approvazione raggruppata
 
-{{highlighted-preview-article-level}}
+<span class="preview">Le informazioni su questa pagina non sono disponibili nell&#39;ambiente Sandbox di anteprima perché l&#39;integrazione Frame.io non è disponibile. Questa funzionalità sarà disponibile negli ambienti di produzione il 22 ottobre 2026.</span>
 
 Quando ti viene assegnata un’approvazione raggruppata, tutti i documenti del gruppo vengono visualizzati insieme in modo da poter prendere una decisione su ciascuno di essi. Puoi approvare o richiedere modifiche su ogni documento contemporaneamente oppure prendere una decisione su ogni singolo documento.
 

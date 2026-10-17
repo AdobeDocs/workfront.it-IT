@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Per informazioni, vedere [Competenze Workfront in CX Enterprise Coworker](/help/
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 Gli operatori di filtro con più valori in tutte le viste Planning sono stati aggiornati a &quot;È uno di&quot; e &quot;È nessuno di&quot; invece di &quot;Ha uno di&quot; e &quot;Non ha nessuno di&quot;, fornendo un testo più chiaro e coerente nei generatori di filtri di Workfront.
@@ -96,7 +96,7 @@ Le modifiche sono visibili nei filtri di tutte le visualizzazioni di Planning. P
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 Nella vista a tabella sono stati introdotti aggregatori per altri tipi di campo. Prima di questo miglioramento, solo i campi relativi al numero mostravano gli aggregatori nella parte inferiore delle colonne.
@@ -118,7 +118,7 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 I creatori di Workspace sono attualmente assegnati come proprietari predefiniti. Con questo aggiornamento, i responsabili dell’area di lavoro possono trasferire la proprietà a un altro utente con licenza Standard dalla finestra di dialogo di condivisione.
@@ -132,7 +132,7 @@ Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/a
 >[!NOTE]
 >
 >Anteprima: 1 ottobre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 È ora possibile ordinare i record e i raggruppamenti nella visualizzazione timeline. Prima di questo miglioramento, questa funzionalità non era disponibile.
@@ -144,7 +144,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza te
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 I manager Workspace possono ora controllare l’accesso ai singoli campi, consentendo a utenti e team specifici di visualizzare, modificare o essere completamente limitati dai dati sensibili all’interno dello stesso tipo di record.
@@ -160,7 +160,7 @@ Per informazioni, vedere [Condividere i campi di Workfront Planning](/help/quick
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 Nella nuova esperienza di richiesta è ora possibile condividere una richiesta Planning con altri dalla sezione Richieste.
@@ -174,7 +174,7 @@ Per informazioni, vedere [Condividi record di Planning](/help/quicksilver/planni
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 Gli amministratori di Workspace possono ora creare processi di approvazione in una o più fasi per ciascun modulo di richiesta Planning, assegnando uno o più approvatori o team a ogni fase e riutilizzando i modelli di approvazione esistenti per velocizzare la configurazione. Le richieste avanzano automaticamente una volta che tutti gli approvatori richiesti in una fase si approvano e a ogni approvatore viene inviata una notifica quando una richiesta raggiunge la loro fase. I richiedenti e gli approvatori possono tenere traccia della fase in cui si trova una richiesta e vedere quali approvazioni sono ancora in sospeso.
@@ -186,7 +186,7 @@ Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workf
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 È ora possibile creare una logica di visualizzazione avanzata nei moduli di richiesta di Planning in base ai valori dei campi di connessione, in modo che i moduli si adattino a ciò che i richiedenti selezionano. Tutti i campi di Planning, inclusi i campi di connessione, sono supportati durante la creazione di questa logica.
@@ -200,7 +200,7 @@ Per informazioni, vedere [Creare il modulo di richiesta](/help/quicksilver/plann
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 Gli amministratori di Workfront e workspace possono ora indicare il livello di autorizzazioni che un richiedente riceve dalle proprie richieste quando configurano il modulo di richiesta.
@@ -266,7 +266,7 @@ Per informazioni, vedere [CX Enterprise Coworker in Workfront](/help/quicksilver
 >[!NOTE]
 >
 >Anteprima: 17 settembre 2026
->Versione rapida di produzione: 14 ottobre 2026
+>Versione rapida di produzione: 22 ottobre 2026
 >Produzione per tutti: 22 ottobre 2026
 
 I record possono essere duplicati anche quando esistono record connessi uno a uno o uno a molti. Dopo la duplicazione, gli utenti possono scegliere di mantenere il record connesso nel record originale o di collegarlo al nuovo record. La scelta predefinita è Mantieni l&#39;originale.

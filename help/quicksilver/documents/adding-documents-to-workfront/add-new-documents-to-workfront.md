@@ -21,16 +21,17 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '62'
+ht-degree: 14%
 ---
 # Aggiungi nuovi documenti ad Adobe Workfront: indice articolo
 
 Questa sezione contiene i seguenti articoli:
 
 * [Aggiungi documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [Aggiungere un collegamento Web come documento](../../documents/adding-documents-to-workfront/add-live-url.md)
 * [Collega documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [Rimozione dei collegamenti tra Adobe Workfront e i provider di archiviazione documenti esterni](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [Richiedi un documento](../../documents/adding-documents-to-workfront/request-a-document.md)

@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 1%
 ---
 # Creare un flusso di lavoro di approvazione documento
 
 {{highlighted-preview}}
 
-Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
+Puoi richiedere l’approvazione di altri utenti o team per un documento o un sito web live in Adobe Workfront, oppure chiedere loro di rivederlo senza doverlo approvare.
 
 Per impostazione predefinita, un modello di approvazione è visibile solo al suo creatore. In questo articolo puoi selezionare solo i modelli che hai creato o che sono stati condivisi con te. Per ulteriori informazioni, vedere [Condividere un modello](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Gestire i modelli di approvazione.
 
@@ -359,6 +359,7 @@ preview screen
 1. (Facoltativo) Per cancellare tutti i percorsi e gli stadi e ricominciare, fai clic su **Reimposta** in alto a destra.
 
 1. Fai clic su **Richiedi approvazione**.
+
 
 <div class="preview">
 
