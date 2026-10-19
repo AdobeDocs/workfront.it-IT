@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 52%
+source-wordcount: '516'
+ht-degree: 30%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -66,9 +66,41 @@ Al momento, in questa versione non sono presenti aggiornamenti per i seguenti el
 * Bozza
 * Obiettivi
 
-### Aggiornamenti di manutenzione per Workfront
+## Annunci
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2027, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+### I campi fatturazione e tariffa di costo legacy nelle visualizzazioni elenco mansioni sono obsoleti
+
+Nel tempo, abbiamo introdotto funzionalità avanzate di gestione dei tassi e esperienze di Ruolo dedicate che forniscono un approccio più completo e scalabile per mantenere le informazioni sui tassi. Di conseguenza, l’amministrazione dei tassi si sta spostando verso queste esperienze dedicate piuttosto che verso flussi di lavoro di gestione basati su elenchi.
+
+Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle visualizzazioni elenco Ruoli, incluse le configurazioni Filtro/Visualizzazione/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
+
+In sostituzione nei report, è possibile utilizzare il codice della modalità testo consigliato (utilizzare `costRates` o `billingRates` in base alle esigenze):
+
+    &quot;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).LISTS
+    type=iterate
+    valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
+    valueformat=HTML
+    &quot;
+
+Per gestire e rivedere i tassi di ruolo, utilizza le esperienze di gestione dei tassi dedicate:
+
+* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
+* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
+
+Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
+
+Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+-->
 
 ### Aggiornamenti della formazione
 
