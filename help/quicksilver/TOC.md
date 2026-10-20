@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 91%
 ---
 # Guida di Workfront {#using}
@@ -697,7 +697,9 @@ ht-degree: 91%
       * [Eliminare una condizione personalizzata](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Gestire Adobe Workfront {#manage-wf}
     * [Gestire Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Configurare le sottoscrizioni di eventi in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * Gestire gli abbonamenti agli eventi {#manage-event-subscriptions}
+      * [Gestire gli abbonamenti agli eventi](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Configurare le sottoscrizioni di eventi in Workfront](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * Configurare la funzionalità della bozza {#configure-proofing}
       * [Configurare la bozza](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Impostazioni di bozza](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # API sottoscrizione a eventi
 
@@ -45,7 +45,7 @@ Poiché le sottoscrizioni a eventi inviano dati a un altro servizio, vengono ges
 
 >[!NOTE]
 >
->Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) e [Gestire sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Per ricevere i payload delle sottoscrizioni a eventi tramite il firewall, devi aggiungere i seguenti indirizzi IP nell’elenco Consentiti:
 
@@ -118,12 +118,14 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni a eventi.
 
 ## Autenticazione della sottoscrizione a eventi
 
-Per creare, eseguire query o eliminare una sottoscrizione evento, l’utente di Workfront necessita dei seguenti elementi:
+Per creare, eseguire query o eliminare un abbonamento a un evento, l’utente di Workfront deve disporre dell’accesso richiesto alla funzione Sottoscrizioni eventi e delle autorizzazioni appropriate per l’azione in esecuzione.
 
-* Un livello di accesso “Amministratore di sistema” per utilizzare le sottoscrizioni a eventi.
-* Un’intestazione `sessionID` per utilizzare l’API sottoscrizione a eventi
+* Un utente con l’accesso richiesto può gestire gli abbonamenti agli eventi in Workfront, ma solo all’interno dell’ambito consentito dalle proprie autorizzazioni e dalla configurazione del sistema.
+* Per utilizzare l&#39;API sottoscrizioni eventi è necessaria un&#39;intestazione `sessionID`.
 
   Per ulteriori informazioni, consulta [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
+
+Per informazioni sulla gestione delle sottoscrizioni di eventi nell&#39;applicazione Workfront quando non si è amministratori di Workfront, vedere [Gestire le sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Evitare il sovraccarico delle sottoscrizioni a eventi
 
