@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1288'
 ht-degree: 2%
 ---
 # Altri miglioramenti durante il periodo di rilascio del quarto trimestre 2026
@@ -23,6 +23,22 @@ ht-degree: 2%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2026. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2026, consulta [Panoramica sulla versione del quarto trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Gli utenti che non sono amministratori ora possono creare sottoscrizioni di eventi
+
+>[!NOTE]
+>
+>Anteprima e produzione per tutti: 16 ottobre 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
+
+
+Per facilitare la reazione a importanti modifiche agli oggetti di Workfront senza l&#39;accesso dell&#39;amministratore di sistema, sono state aggiunte sottoscrizioni agli eventi utente. Ora puoi ricevere notifiche webhook per gli oggetti Workfront supportati utilizzando un token di accesso utente IMS e una sottoscrizione mirata per ogni combinazione di oggetto ed evento.
+
+Le sottoscrizioni di eventi utente supportano gli oggetti Task, Project, Note o Commento e Assignment con gli eventi CREATE, UPDATE e DELETE. Puoi creare sottoscrizioni separate per ogni combinazione di oggetti ed eventi necessaria e utilizzare gli ID oggetto o i filtri per limitare la consegna ai record esatti desiderati.
+
+Questa versione è particolarmente utile per i team che necessitano di integrazioni leggere e basate su eventi senza concedere autorizzazioni di amministratore ampie, ad esempio quando si utilizza Workfront Fusion.
+
+Per ulteriori informazioni, vedere [Gestire le sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Aggiornamenti agli elenchi avanzati
 
