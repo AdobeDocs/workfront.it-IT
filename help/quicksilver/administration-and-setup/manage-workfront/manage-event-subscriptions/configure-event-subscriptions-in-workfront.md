@@ -4,14 +4,14 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Configurare le sottoscrizioni di eventi in Workfront
-description: In qualità di amministratore di Adobe Workfront, puoi creare, visualizzare ed eliminare sottoscrizioni di eventi dall’area Configurazione per inviare eventi Workfront a un endpoint esterno.
+description: Gli amministratori di Workfront possono creare, visualizzare ed eliminare sottoscrizioni di eventi da Configurazione. Gli utenti con l’accesso richiesto possono anche gestire le sottoscrizioni di eventi all’interno dell’ambito consentito dalle loro autorizzazioni e dalla configurazione del sistema.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '452'
+ht-degree: 8%
 ---
 
 # Configurare le sottoscrizioni di eventi in Workfront
@@ -21,6 +21,8 @@ ht-degree: 9%
 In qualità di amministratore di Adobe Workfront, puoi creare, visualizzare ed eliminare sottoscrizioni di eventi dall’area Configurazione. Le sottoscrizioni di eventi inviano informazioni sull’evento Workfront a un endpoint esterno quando si verificano eventi specifici.
 
 Puoi creare ed eliminare sottoscrizioni di eventi in Workfront, ma non puoi modificare una sottoscrizione esistente. Se devi modificare un abbonamento, eliminalo e creane uno nuovo.
+
+Gli utenti che dispongono dell’accesso richiesto possono anche gestire gli abbonamenti agli eventi in Workfront, ma solo entro l’ambito consentito dalle loro autorizzazioni e dalla configurazione del sistema. Per ulteriori informazioni, vedere [Gestire le sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere gli articoli in [Sottoscrizioni di eventi](/help/quicksilver/wf-api/api/event-subscriptions.md).
 
@@ -45,7 +47,10 @@ Per ulteriori informazioni sulle sottoscrizioni di eventi, vedere gli articoli i
   </tr>
   <tr>
    <td role="rowheader">Configurazioni del livello di accesso</td>
-   <td>Devi essere un amministratore di Workfront.</td>
+   <td>
+    <p>Devi disporre dell’accesso appropriato per gestire gli abbonamenti agli eventi.</p>
+    <p>Gli utenti non amministratori possono accedere solo all’interno dell’ambito consentito dalle loro autorizzazioni e dalla configurazione del sistema.</p>
+   </td>
   </tr>
  </tbody>
 </table>

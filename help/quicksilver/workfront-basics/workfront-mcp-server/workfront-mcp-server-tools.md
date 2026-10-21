@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 4%
 ---
 
@@ -235,11 +235,11 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Cerca oggetti | `workflow_search_any_object` | Cerca oggetti Workfront con parametri di filtro flessibili, ordinamento e impaginazione. | Leggi |
+| Cerca oggetti | `workflow_search_any_object` | Questo strumento è stato dichiarato obsoleto. | Leggi |
 | Crea oggetto | `workflow_create_any_object` | Crea un nuovo oggetto Workfront, ad esempio un progetto, un&#39;attività, un problema, un&#39;ora, un&#39;assegnazione, un programma o un portfolio. | Scrittura |
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi di un oggetto esistente. È inoltre possibile spostare un’attività o un problema in un altro progetto, convertire un’attività o un problema in un nuovo progetto (o un problema in un’attività) e impostare i predecessori delle attività (dipendenze). | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
-| Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Converte i nomi o le etichette dei campi forniti dall’utente nei nomi dei campi API di Workfront sottostanti in modo che la piattaforma dell’agente di IA possa creare richieste precise. | Leggi |
+| Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Questo strumento è stato dichiarato obsoleto. | Leggi |
 | Leggi documenti flusso di lavoro | `workflow_read_workflow_docs` | Carica la documentazione di Workfront Workflow, incluse le guide di utilizzo degli strumenti e i playbook operativi specifici per gli oggetti. Questo è il primo passaggio richiesto prima di eseguire le azioni del flusso di lavoro. | Leggi |
 
 ### Aggiornare le capacità dello strumento oggetto

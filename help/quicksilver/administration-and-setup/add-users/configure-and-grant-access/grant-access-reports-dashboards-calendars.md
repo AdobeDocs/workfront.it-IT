@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 7%
 ---
 # Concedere l’accesso a rapporti, dashboard e calendari
@@ -80,12 +80,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
    * **Creare**
    * **Elimina**
-   * **Visualizza report incorporati**: è necessario selezionarlo per visualizzare i report generati da Workfront.
    * **Condividi**
+
+   Le opzioni non attivate per impostazione predefinita sono:
+
+   * **Visualizza report incorporati**: è necessario selezionarlo per visualizzare i report generati da Workfront.
    * **Condividi report pubblicamente**: i report possono essere condivisi pubblicamente condividendo un collegamento pubblico al report con chiunque non disponga di un account Workfront. Per consentire questo livello di condivisione, è necessario selezionare questa opzione.
    * **Condividi a livello di sistema**: i report possono essere condivisi con tutti gli utenti del sistema che dispongono di una licenza Workfront. Per consentire questo livello di condivisione, è necessario selezionare questa opzione.
 
-     Per informazioni sulla condivisione di report, dashboard e calendari, vedere [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Per informazioni sulla condivisione di report, dashboard e calendari, vedere [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configura l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedi l&#39;accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedi l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Al termine, fare clic su **Salva**.
