@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
@@ -83,7 +83,6 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | <span class="preview">Elenchi di azioni e campi tracciati nei feed di aggiornamento</span> | <ul><li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Campi tracciati</span></li> <li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Azioni</span></li></ul> |
 | <span class="preview">Elenco di scorecard</span> | <span class="preview">Configurazione > Scorecard</span> |
 | <span class="preview">Elenco dei tipi di rischio</span> | <span class="preview">Configurazione > Tipi di rischio</span> |
-| <span class="preview">Elenco delle notifiche degli eventi</span> | <ul><li><span class="preview">Configurazione > E-mail > Notifiche > Notifiche evento</span></li><li><span class="preview">Pagina dettagli gruppo > Notifiche evento</span></li></ul> |
 | Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
 | <span class="preview">Elenco dei percorsi</span> | <span class="preview">Configurazione > Percorsi</span> |
 | Elenco delle traduzioni | Configurazione > Localizzazione |
@@ -104,6 +103,8 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
