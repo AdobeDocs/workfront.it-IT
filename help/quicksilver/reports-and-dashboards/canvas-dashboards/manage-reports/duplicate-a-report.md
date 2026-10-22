@@ -25,22 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 14%
+source-wordcount: '539'
+ht-degree: 11%
 ---
 # Copiare e spostare i rapporti nei dashboard di Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.<br>
->In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
->
->* Porta la tua chiave per Amazon Web Services
->* Azure
->* Piattaforma Google Cloud
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 È possibile duplicare un rapporto di indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.
 
