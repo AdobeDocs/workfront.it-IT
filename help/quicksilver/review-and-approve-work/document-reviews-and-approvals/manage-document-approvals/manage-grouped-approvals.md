@@ -5,15 +5,13 @@ title: Gestire le approvazioni raggruppate
 description: È possibile aggiungere o rimuovere partecipanti e documenti in un'approvazione raggruppata senza interrompere il flusso di lavoro per il resto del gruppo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 5%
 ---
 
 # Gestire le approvazioni raggruppate
-
-<span class="preview">Le informazioni su questa pagina non sono disponibili nell&#39;ambiente Sandbox di anteprima perché l&#39;integrazione Frame.io non è disponibile. Questa funzionalità sarà disponibile negli ambienti di produzione il 22 ottobre 2026.</span>
 
 Un’approvazione raggruppata raggruppa più documenti in un unico flusso di lavoro di approvazione, in modo che tutti i documenti passino attraverso le stesse fasi insieme invece di richiedere un’approvazione separata per documento. È possibile aggiungere o rimuovere partecipanti e documenti in un&#39;approvazione raggruppata attiva senza ricreare il flusso di lavoro.
 
