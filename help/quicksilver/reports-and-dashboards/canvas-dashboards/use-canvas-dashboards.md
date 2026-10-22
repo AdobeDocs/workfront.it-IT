@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 4%
 ---
 # Utilizzare le dashboard dell’area di lavoro
@@ -110,9 +110,9 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
    >
    >Queste modifiche si applicano solo alla sessione corrente e non influiscono sulla configurazione del rapporto originale. Per rendere permanenti queste modifiche, devi modificare il rapporto.
 
-<div class="preview">
 
-### Espandere i dati della tabella pivot in Anteprima
+
+### Espandere i dati della tabella pivot
 
 È possibile fare clic su un valore in un rapporto di tabella pivot per eseguire un drill-down e visualizzare i singoli record che compongono tale valore aggregato.
 
@@ -126,7 +126,7 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
 
    Nella tabella di espansione vengono visualizzate le colonne configurate dal creatore del report in Impostazioni colonna di espansione. Per ulteriori informazioni, vedere [Creare un report di tabella pivot in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

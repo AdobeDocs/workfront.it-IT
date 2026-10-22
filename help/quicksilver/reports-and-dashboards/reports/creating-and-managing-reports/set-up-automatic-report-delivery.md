@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1355'
 ht-degree: 6%
 ---
 # Pianificare una consegna di rapporto automatica
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -152,7 +150,7 @@ Per pianificare un rapporto per la consegna automatica, procedere come segue&#x2
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Si ripete</p> </td> 
-      <td> <p>Seleziona se il rapporto deve essere consegnato giornalmente, settimanalmente, mensilmente o annualmente. <span class="preview">In Anteprima, selezionare se il report deve essere consegnato ogni giorno, ogni settimana o ogni mese.</span></p> </td> 
+      <td> <p>Seleziona se il rapporto deve essere consegnato ogni giorno, ogni settimana o ogni mese.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Si ripete ogni</p> </td> 
@@ -176,15 +174,11 @@ Per pianificare un rapporto per la consegna automatica, procedere come segue&#x2
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Termina il</p> </td> 
-      <td><p>Seleziona una data di fine per la consegna programmata.</p> <p class="preview">In Anteprima, seleziona una data di fine della consegna pianificata.</p> <p class="preview">Nota: la data di fine non può essere superiore a 13 mesi dal giorno in cui viene creata o aggiornata la regola di consegna.</p></td> 
+      <td><p>Seleziona una data di fine per la consegna programmata.</p> <p>Nota: la data di fine non può essere superiore a 13 mesi dal giorno in cui viene creata o aggiornata la regola di consegna.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Mai</p> </td> 
-      <td><p>Seleziona <strong>Mai</strong> se desideri che la consegna pianificata duri a tempo indefinito.</p> <p class="preview">Questa opzione non è più disponibile negli ambienti di anteprima o a rilascio rapido.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><div class="preview"><p>Attiva</p></div></td> 
-      <td><div class="preview"><p>Attiva per mantenere attiva la consegna. Le nuove consegne sono attive per impostazione predefinita.</p> <p>Quando la data <strong>Termina il</strong> è trascorsa, Workfront disattiva e disattiva automaticamente l'impostazione. Per riprendere la consegna, aggiorna la data <strong>Termina il</strong> a una data futura, quindi riattiva l'opzione.</p></div></td> 
+      <td role="rowheader"><p>Attiva</p></td> 
+      <td><p>Attiva per mantenere attiva la consegna. Le nuove consegne sono attive per impostazione predefinita.</p> <p>Quando la data <strong>Termina il</strong> è trascorsa, Workfront disattiva e disattiva automaticamente l'impostazione. Per riprendere la consegna, aggiorna la data <strong>Termina il</strong> a una data futura, quindi riattiva l'opzione.</p></td> 
      </tr> 
     </tbody> 
    </table>

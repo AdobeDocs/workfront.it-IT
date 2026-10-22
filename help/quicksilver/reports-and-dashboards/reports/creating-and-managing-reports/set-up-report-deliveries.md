@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 1%
 ---
 # Panoramica sulla consegna del rapporto
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ Quando si invia un report da Workfront al formato PDF o Excel, tutti i collegame
 
 Anche il nome del rapporto nel messaggio e-mail è un collegamento.
 
-<div class="preview">
-
 ### Avvisi di scadenza del rapporto {#report-expiration-notices}
 
-In Anteprima, le e-mail del rapporto consegnate includono la data di scadenza del rapporto.
+Le e-mail del rapporto consegnate includono la data di scadenza del rapporto.
 
 Se la consegna si ripete ogni giorno, l’e-mail include un avviso di scadenza su ogni consegna una volta che la data di scadenza è compresa entro 45 giorni.
 
 Se la consegna si ripete settimanalmente o mensilmente, l’e-mail include un avviso di scadenza durante le ultime quattro consegne pianificate prima della data di scadenza.
-
-</div>
 
 ## Rapporto sui rapporti pianificati
 

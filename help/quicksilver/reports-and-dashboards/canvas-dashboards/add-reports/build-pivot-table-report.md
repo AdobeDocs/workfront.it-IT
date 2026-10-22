@@ -5,14 +5,12 @@ title: Creare un rapporto di tabella pivot in un dashboard Canvas
 description: È possibile aggiungere un rapporto di tabella pivot a un dashboard di Canvas per visualizzare i totali aggregati per i dati in formato tabella.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 8%
 ---
 # Creare un rapporto di tabella pivot in un dashboard Canvas
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

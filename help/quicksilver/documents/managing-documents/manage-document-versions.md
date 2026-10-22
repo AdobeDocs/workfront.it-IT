@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 4%
 ---
 # Gestire le versioni dei documenti
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 In Workfront è possibile gestire più versioni di un documento.
 
@@ -162,9 +160,7 @@ Per eliminare una versione del documento:
 
    ![Elimina la versione del documento](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Gestire le versioni dei documenti nella nuova area Documenti in Anteprima
+## Gestione delle versioni dei documenti nella nuova area Documenti
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -239,12 +235,6 @@ Workfront numera ogni versione nell&#39;ordine in cui è stata caricata (ad esem
    >
    >L&#39;eliminazione di una versione non modifica i numeri delle altre versioni. Se, ad esempio, si elimina la V3 da un documento con versioni da V1 a V5, le versioni rimanenti mantengono i numeri originali e successivamente non vi è alcuna V3. La versione successiva caricata diventa V6.
 
-</div>
+### Visualizza il file corrente durante un’approvazione
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+Se un documento è un file di Creative Cloud (ad esempio, un documento cloud di Photoshop) e qualcuno lo modifica mentre è in corso un&#39;approvazione, Workfront mostra una sezione del **file corrente** con un badge che indica che sono presenti nuovi aggiornamenti sul documento attivo, separati dalla versione in fase di approvazione.

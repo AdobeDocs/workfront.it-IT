@@ -30,16 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '2881'
+source-wordcount: '2673'
 ht-degree: 1%
 ---
 # Creare un flusso di lavoro di approvazione documento
 
-{{highlighted-preview}}
-
-Puoi richiedere l’approvazione di altri utenti o team per un documento o un sito web live in Adobe Workfront, oppure chiedere loro di rivederlo senza doverlo approvare.
+Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
 Per impostazione predefinita, un modello di approvazione è visibile solo al suo creatore. In questo articolo puoi selezionare solo i modelli che hai creato o che sono stati condivisi con te. Per ulteriori informazioni, vedere [Condividere un modello](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Gestire i modelli di approvazione.
 
@@ -178,13 +176,9 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td>Le fasi sono denominate <em>Fase 1</em>, <em>Fase 2</em> e così via per impostazione predefinita. Rinomina la fase in modo che sia più descrittiva, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare il nome di un utente o team da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><p><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</span></p>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail. Per impostazione predefinita, il team viene aggiunto come singolo approvatore o revisione, ma è possibile scegliere di aggiungere ogni membro del team come singolo partecipante.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -244,13 +238,9 @@ Per creare un flusso di lavoro di approvazione in una sola fase:
    <td>Il campo dei modelli è compresso per impostazione predefinita. Fai clic sul campo per espanderlo, quindi seleziona un modello dal menu a discesa. Il menu elenca solo i modelli creati o condivisi con te, sia con te in modo specifico che con tutti gli utenti dell’organizzazione. Gli amministratori di sistema visualizzano qui ogni modello dell’account, indipendentemente da chi lo ha creato o condiviso. Se il modello ha un percorso e una fase, viene applicato in modalità Base. Se il modello ha più di una fase o più percorsi, la finestra di dialogo passa automaticamente alla modalità Avanzata e qualsiasi input immesso in modalità Base viene sostituito dal contenuto del modello.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><p><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</span></p>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -320,13 +310,9 @@ Per creare un flusso di lavoro di approvazione avanzato:
    <td>Le fasi sono denominate <em>Fase 1</em>, <em>Fase 2</em> e così via per impostazione predefinita. Rinomina la fase in modo che sia più descrittiva, ad esempio <em>Revisione iniziale</em> o <em>Approvazione finale</em>.</td>
    </tr>
    <tr>
-   <td><strong>Aggiungi nomi o e-mail</strong></td>
-   <td>Inizia a digitare un nome utente o un indirizzo e-mail da aggiungere come approvatore o revisore. Se si dispone solo di revisori, questi riceveranno una notifica e avranno la possibilità di completare la revisione, ma non sarà necessaria o presa alcuna decisione.<p>Nota: un revisore o un approvatore può essere assegnato a una sola fase aperta alla volta sulla stessa risorsa. Se più stadi paralleli sono aperti contemporaneamente, la stessa persona non può essere aggiunta a più di uno.</p></td>
-   </tr>
-   <tr>&gt;
-   <td><strong><span class="preview">Aggiungi persone o team in anteprima</span></strong></td>
-   <td><p><span class="preview">Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</span></p>
-   <p><span class="preview">Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</span></p></td>
+   <td><strong>Aggiungi persone o team in anteprima</strong></td>
+   <td><p>Inizia a digitare un nome utente, un team o un indirizzo e-mail, quindi scegli se si tratta di un <strong>Approvatore</strong> o di un <strong>Revisore</strong>. Workfront aggiunge ogni membro attivo di un team singolarmente.</p>
+   <p>Nota: se un utente è già stato aggiunto, o appartiene a più team aggiunti, viene incluso una volta. Inoltre, i partecipanti possono essere assegnati a una sola fase aperta alla volta sulla stessa risorsa.</p></td>
    </tr>
    <tr>
    <td><strong>È necessaria una sola decisione (facoltativo)</strong></td>
@@ -360,10 +346,7 @@ preview screen
 
 1. Fai clic su **Richiedi approvazione**.
 
-
-<div class="preview">
-
-## Visualizzare i flussi di lavoro di approvazione per le versioni precedenti nella nuova area Documenti in Anteprima
+## Visualizza i flussi di lavoro di approvazione per le versioni precedenti nella nuova area Documenti
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -383,7 +366,6 @@ Per visualizzare i flussi di lavoro di approvazione per le versioni precedenti:
    >
    >Se il flusso di lavoro di approvazione di una versione è stato ritirato perché è stata richiesta l’approvazione di una versione più recente, tale versione rimane nell’elenco, compresso, e puoi quindi rivedere le decisioni precedenti.
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version

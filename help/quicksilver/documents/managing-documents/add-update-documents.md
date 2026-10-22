@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 8%
 ---
 # Aggiungere un aggiornamento a un documento
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi a
    ![Pannello commenti nuovo documento](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### Indicatore di commento Frame.io in Anteprima
+### Indicatore di commento Frame.io
 
 Quando si crea un flusso di lavoro di approvazione per un documento, gli utenti possono lasciare commenti e aggiungere annotazioni nel visualizzatore Frame.io. Questi commenti non vengono visualizzati nel pannello Commenti di Workfront, ma possono essere visualizzati nel visualizzatore Frame.io.
 
@@ -125,5 +121,3 @@ Nel pannello Commenti di Workfront viene visualizzato un messaggio che informa q
 >[!NOTE]
 >
 >* Se si dispone di una licenza Frame.io Enterprise, è possibile visualizzare i commenti nel visualizzatore Frame.io senza un flusso di lavoro di approvazione.
-
-</div>

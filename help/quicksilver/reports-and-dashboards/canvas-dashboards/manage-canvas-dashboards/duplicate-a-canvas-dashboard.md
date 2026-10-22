@@ -11,14 +11,12 @@ product_v2:
 feature_v2:
   - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
     internal-label: Reports and dashboards
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 15%
 ---
 # Copiare un dashboard di Canvas
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
