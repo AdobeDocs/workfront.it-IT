@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
+source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3512'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -28,6 +28,20 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del quarto trimestre 2026.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Importare un numero elevato di record utilizzando CX Enterprise Coworker
+
+>[!NOTE]
+>
+>Anteprima e produzione: 22 ottobre 2026
+>[!BADGE Fuori programma]{type=Neutral}
+>Disponibile solo per i clienti che dispongono di un Adobe
+
+CX Coworker ora può importare 10.000 o più record dai fogli di calcolo Excel e utilizzarli per creare o aggiornare i record di Planning, senza richiedere agli amministratori di mappare manualmente ogni colonna.
+
+È possibile utilizzare la funzionalità esistente per allegare i file in Collaborator per visualizzare in anteprima e importare i record utilizzando lo stesso output strutturato, in modo che i risultati rimangano coerenti per i file di qualsiasi dimensione.
+
+Per informazioni, vedere [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 ## Abilitare le aree di lavoro di Planning in GenStudio for Performance Marketing
 
