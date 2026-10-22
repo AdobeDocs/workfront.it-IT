@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 4%
 ---
 # Organizzare un modulo e visualizzarne l’anteprima
-
-{{preview-fast-release-general}}
 
 È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
@@ -197,11 +195,4 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 1. Iniziare a creare o modificare un modulo personalizzato e aggiungere campi, come descritto in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Anteprima** nell&#39;angolo in alto a destra per vedere come si presenterà il modulo durante l&#39;utilizzo, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
-
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
-
 

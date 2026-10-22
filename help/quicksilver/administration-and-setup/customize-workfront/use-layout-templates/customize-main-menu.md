@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 11%
 ---
 # Personalizzare il menu principale utilizzando un modello di layout
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) elementi da visualizzare nel menu principale.
    * Trascina ![icona Trascina](assets/move-icon---dots.png) elementi per modificarne l&#39;ordine di visualizzazione nel menu principale.
 
-     >[!NOTE]
-     >
-     >Impossibile modificare l&#39;ordine degli elementi di sistema. Questi elementi vengono sempre visualizzati nella parte inferiore del menu principale quando sono attivi. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. Effettua una delle seguenti operazioni per gli elementi **System**:
 
    * Nascondi ![Nascondi icona](assets/remove-icon---x-in-circle.png) elementi che non si desidera visualizzare nel menu principale.
    * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) elementi da visualizzare nel menu principale.
-
-</div>
 
 1. Fai clic su **Fine**.
 

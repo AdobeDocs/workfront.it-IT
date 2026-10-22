@@ -32,21 +32,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
 
 Gli utenti possono aprire una delle seguenti posizioni:
 
 * Area Workfront designata
-* Un dashboard personalizzato.
+* Un dashboard personalizzato
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -114,11 +112,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Utenti
    * Blueprint
    * In Pianificazione
-   * <span class="preview">Applicazione personalizzata</span>
+   * Applicazione personalizzata
 
      >[!NOTE]
      >
-     ><span class="preview">Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l&#39;utilizzo come pagina di destinazione. Devono essere create separatamente prima di diventare disponibili come opzioni del menu principale o della pagina di destinazione. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
+     >Le applicazioni personalizzate già aggiunte al menu principale sono disponibili per l’utilizzo come pagina di destinazione. Devono essere create separatamente prima di diventare disponibili come opzioni del menu principale o della pagina di destinazione. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
    >[!IMPORTANT]
    >

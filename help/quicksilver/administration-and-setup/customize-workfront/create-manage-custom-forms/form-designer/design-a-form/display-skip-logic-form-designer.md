@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 1%
+source-wordcount: '3574'
+ht-degree: 2%
 ---
 # Aggiungere regole logiche a campi e moduli personalizzati
-
-{{preview-fast-release-general}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -209,12 +207,6 @@ Utilizzando la condizione seguente, il campo KPI venduto diventa visibile solo a
 
    La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica di visualizzazione avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
-
 ## Aggiungere la logica di salto a un modulo personalizzato
 
 La logica di salto definisce i campi modulo personalizzati che vengono saltati quando l’utente seleziona un valore specifico in un campo a scelta multipla. I campi ignorati sono nascosti nel modulo. La logica viene applicata al campo di definizione in cui viene effettuata la selezione, non ai campi saltati.
@@ -289,12 +281,6 @@ Quando il modulo personalizzato viene allegato a un progetto e lo stato del prog
 
    La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica dei valori predefinita non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
-
 ## Aggiungere una logica di convalida a un modulo personalizzato
 
 La logica di convalida viene creata utilizzando le formule e può essere resa semplice o complessa in base alle esigenze. La convalida può essere basata sui valori di altri campi o sullo stato degli oggetti ed è possibile fornire un messaggio di errore per i casi in cui la convalida non riesce.
@@ -339,12 +325,6 @@ Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata n
 1. Fai clic su **Applica**.
 
    La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
-
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica di convalida non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
 ## Aggiungere logica di formattazione a un modulo personalizzato
 
@@ -405,12 +385,6 @@ IF(
 
    La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
 
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica di formattazione non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
-
 ## Aggiungere una logica di modificabilità a un modulo personalizzato
 
 La logica di modificabilità determina se un campo modulo personalizzato può essere modificato o se è di sola lettura. Questa logica viene creata utilizzando formule e, quando il campo soddisfa le condizioni definite, può essere impostata come modificabile o di sola lettura.
@@ -456,10 +430,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Fai clic su **Applica**.
 
    La logica viene applicata e le icone di logica vengono aggiunte al campo di destinazione e al campo di riferimento nella finestra di progettazione del modulo.
-
-   >[!NOTE]
-   >
-   >Nell’ambiente di produzione, la logica di modificabilità non è supportata nella modalità di anteprima di Progettazione moduli.
-   >
-   ><span class="preview">Nell&#39;ambiente di anteprima, tutti i tipi di logica sono disponibili in modalità anteprima.</span>
 
