@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 3%
@@ -41,10 +41,6 @@ Gli strumenti visualizzati nella piattaforma di intelligenza artificiale dipendo
 Se l’organizzazione non ha diritto a un’area di prodotto, gli strumenti correlati non vengono visualizzati nell’elenco degli strumenti per tale connessione. Se una piattaforma di agenti di intelligenza artificiale tenta di chiamare uno strumento non disponibile per i diritti, la richiesta viene bloccata.
 
 Le tabelle seguenti identificano l&#39;area di prodotto a cui appartiene ogni strumento.
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Set di strumenti nel server Workfront MCP
 
@@ -86,7 +82,6 @@ I set di strumenti non modificano le autorizzazioni. Il livello di accesso e le 
 
 Se desideri che il client AI acceda a un dominio diverso, aggiorna la configurazione della connessione per selezionare il set di strumenti appropriato.
 
-</div>
 
 ## Azioni di lettura e scrittura
 
