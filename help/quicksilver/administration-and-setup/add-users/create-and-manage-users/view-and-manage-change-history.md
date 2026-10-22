@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 5%
 ---
 # Visualizzare e gestire la cronologia delle modifiche
-
-{{preview-fast-release-general}}
 
 La cronologia delle modifiche consente all’amministratore di sistema di configurare e tenere traccia delle modifiche apportate a oggetti e campi specifici in Adobe Workfront. La configurazione flessibile consente all’amministratore di impostare esattamente quali oggetti e campi vengono tracciati.
 
@@ -31,7 +29,7 @@ La cronologia delle modifiche consente di tenere traccia dei seguenti tipi di da
 * Attività nell’area Configura, ad esempio creazione o eliminazione di un livello di accesso o di una mansione
 * Aggiornamenti a livello di campo, ad esempio la modifica della descrizione di un progetto o del modello di layout di un utente
 * Aggiornamenti degli oggetti, ad esempio aggiornamento dello stato di un progetto o aggiunta di un modulo personalizzato a un&#39;attività
-* <span class="preview">Attività del flusso di lavoro di revisione e approvazione unificata, inclusi partecipanti e decisioni</span>
+* Attività del flusso di lavoro di revisione e approvazione unificata, inclusi partecipanti e decisioni
 
 Per informazioni sulla definizione degli oggetti e dei campi tracciati, vedere [Configurare i campi da tracciare nella cronologia delle modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
