@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3425'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 Utilizzando i progetti di archiviazione GenStudio Adobe, è possibile mappare i tipi di record e i campi di Planning ai tipi di record e ai campi dell&#39;area di lavoro GenStudio e quindi accedere alle informazioni dell&#39;area di lavoro Planning in GenStudio dal commutatore del progetto.
 
-Per informazioni, vedere [Trasferire un&#39;area di lavoro di Adobe Workfront Planning a GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md).
+Per informazioni, vedere [Abilitare un&#39;area di lavoro Adobe Workfront Planning in GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
 
 ## Tipi di attivazione di Meta per la creatività dinamica
 
