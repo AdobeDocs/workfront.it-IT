@@ -7,9 +7,9 @@ description: Puoi abilitare l’archiviazione cloud di Adobe per la tua organizz
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 5%
 
 Adobe Cloud Storage è una soluzione di archiviazione unificata basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. Questo articolo descrive come abilitare l’archiviazione cloud di Adobe come opzione di archiviazione predefinita per l’intera organizzazione o per gruppi specifici.
 
-Questa è la singola azione che attiva la nuova esperienza: una volta abilitata, i nuovi progetti utilizzano l’archiviazione cloud Adobe, che include il visualizzatore Frame.io e le approvazioni unificate. Non cambia nulla finché non scegli di abilitare l’archiviazione cloud Adobe.
+>[!IMPORTANT]
+>
+>Nell&#39;ambiente non cambia nulla finché non abiliti l&#39;archiviazione cloud Adobe nell&#39;area di configurazione di workfront.<br>
+>Dopo aver abilitato l’archiviazione cloud Adobe, solo i nuovi progetti utilizzano l’archiviazione cloud Adobe, che include il visualizzatore Frame.io e le approvazioni unificate. I progetti esistenti continuano a utilizzare lo storage corrente e rimangono inalterati.
 
 Poiché controlli la tempistica, puoi testare l’esperienza, aggiornare gli scenari di Workfront Fusion e pianificare le modifiche da apportare ai rapporti prima che qualcuno vi lavori. Per ulteriori informazioni sulle differenze e su come pianificare il rollout, consulta [Passare a Workfront nell&#39;archivio cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 

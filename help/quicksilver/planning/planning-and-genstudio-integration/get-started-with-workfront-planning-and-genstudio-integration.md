@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 2%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 2%
 
 
 # Introduzione a Pianificazione di Adobe Workfront e integrazione di Adobe GenStudio for Performance Marketing
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Quando si lavora con le attivazioni, tieni presente quanto segue:
 * I record di attivazione includono:
 
   * Un campo ID tracciamento che memorizza il valore risolto per ciascun segmento di una formula ID tracciamento, insieme a eventuali errori.
+  * Tipo di attivazione di un&#39;immagine creativa dinamica e di un video creativo dinamico per memorizzare le informazioni sugli oggetti Creative dinamici di Meta.
   * Una scelta di stato &quot;Generazione&quot; che indica che la generazione dell&#39;ID di tracciamento è in corso. Lo stato di attivazione torna a &quot;Bozza&quot; quando la generazione termina o non riesce. Le attivazioni esistenti non subiscono modifiche.
 
 
