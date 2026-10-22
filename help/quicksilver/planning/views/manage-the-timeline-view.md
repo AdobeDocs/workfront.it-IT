@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Per gestire una vista timeline:
      * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
      * **Mese**: visualizza settimane e giorni.
 
-     >[!TIP]
-     >
-     >A seconda dell’ambiente utilizzato per accedere alla vista timeline, si possono verificare i seguenti scenari:
-     >
-     >* Nell’ambiente di produzione, la visualizzazione della timeline mostra solo le settimane personalizzate in base ai trimestri classici. Se l’amministratore di Workfront attiva Trimestri personalizzati nell’area Configura, le informazioni sulla settimana non vengono visualizzate nella vista timeline.
-     >
-     >* <span class="preview">Per impostazione predefinita, nell&#39;ambiente di anteprima la visualizzazione della sequenza temporale mostra le settimane personalizzate in base ai trimestri classici. Se l’amministratore di Workfront attiva Trimestri personalizzati e Settimane personalizzate nell’area Configura, la visualizzazione della timeline mostra i trimestri e le settimane personalizzati nelle visualizzazioni Trimestre e Mese. </span>
-     >
+     Per impostazione predefinita, la visualizzazione della timeline mostra le settimane personalizzate in base ai trimestri classici. Se l’amministratore di Workfront attiva Trimestri personalizzati e Settimane personalizzate nell’area Configura, la visualizzazione della timeline mostra i trimestri e le settimane personalizzati nelle modalità Trimestre e Mese.
+
+     Per informazioni, vedere [Abilitare trimestri e settimane personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
 
 
 1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Per aggiungere un filtro a una vista timeline:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
+            <td><p>È uno qualsiasi di</p>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
+            <p><p>Non è nessuno di</p>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -509,9 +506,9 @@ Per aggiungere un raggruppamento nella vista timeline:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) nella barra degli strumenti per aprire la casella **Raggruppa record per**, quindi fare clic su **Espandi tutto** per espandere tutti i raggruppamenti oppure su **Comprimi tutto** per comprimere tutti i raggruppamenti e comprimere manualmente solo quelli necessari. </span>
-1. <span class="preview"> (Facoltativo e condizionale) Nella visualizzazione della corsia, trascinare e rilasciare il separatore del pannello sinistro per regolarne la larghezza. La larghezza del pannello di ogni utente viene salvata nelle sessioni, con una larghezza predefinita per i nuovi utenti.</span>
-1. <span class="preview">(Facoltativo) Per i nomi di raggruppamento lunghi, posizionare il cursore del mouse sulla riga di un raggruppamento per visualizzare il nome completo del raggruppamento in una descrizione comando.</span>
+1. (Facoltativo) Fai clic sull&#39;icona **Raggruppamento** ![Icona Raggruppamento](assets/grouping-icon.png) nella barra degli strumenti per aprire la casella **Raggruppa record per**, quindi fai clic su **Espandi tutto** per espandere tutti i raggruppamenti, oppure su **Comprimi tutto** per comprimere tutti i raggruppamenti e comprimere manualmente solo quelli necessari.
+1. (Facoltativo e condizionale) Nel display della corsia, trascina e rilascia il separatore del pannello sinistro per regolarne la larghezza. La larghezza del pannello di ogni utente viene salvata nelle sessioni, con una larghezza predefinita per i nuovi utenti.
+1. (Facoltativo) Per i nomi di raggruppamento lunghi, posiziona il cursore del mouse sulla riga di un raggruppamento per visualizzare il nome completo del raggruppamento in una descrizione comando.
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -527,7 +524,6 @@ Per aggiungere un raggruppamento nella vista timeline:
    >Quando si trascinano record da un raggruppamento all&#39;altro, i campi selezionati nel raggruppamento aggiornano automaticamente i valori dei record spostati.
 1. (Facoltativo) Fai clic su **Impostazioni**, quindi su **Colore** per impostare i raggruppamenti del codice colore. Per ulteriori informazioni, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
-<div class="preview">
 
 ### Aggiungi ordinamento
 
@@ -568,12 +564,6 @@ Per aggiungere un ordinamento nella vista timeline:
 
    L’ordinamento viene applicato immediatamente.
 1. Fare clic in un punto qualsiasi della pagina per chiudere la casella di ordinamento.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### Modificare le impostazioni della vista timeline {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >* È possibile far corrispondere il colore solo ai campi con opzioni codificate per colore. Ad esempio, è possibile associare il colore ai campi Stato oppure ai campi con opzioni associate ai colori.
    >    
-   >* Nell’ambiente di produzione non è possibile far corrispondere il colore ai record connessi o ai relativi campi di ricerca. <span class="preview">Nell&#39;ambiente di anteprima è possibile associare il colore ai record connessi, ma non ai relativi campi di ricerca. </span>
+   >* È possibile associare il colore ai record connessi, ma non ai relativi campi di ricerca.
 
-
-   Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 
    Se si raggruppa per campi senza opzioni codificate per colore, il colore di raggruppamento rimane grigio.
 
@@ -667,8 +655,8 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    * **Tipo di record**: il colore dei record corrisponde al colore del tipo di record selezionato. Questa è l&#39;opzione predefinita.
    * **Valori campo**: il colore dei record corrisponde al colore di un campo specificato. Continuare con il passaggio 10. <!--ensure this stays accurate-->
+   * **Record**: il colore corrisponde ai colori dei record.
    * **Raggruppamento**: il colore dei record corrisponde a quello indicato per i raggruppamenti. Questa opzione è disattivata se non avete applicato raggruppamenti alla vista timeline.
-   * **Nessuno**: i record vengono visualizzati in una barra bianca. <span class="preview">L&#39;opzione Nessuno è stata rimossa dall&#39;ambiente di anteprima.</span>
 
 1. (Condizionale) Se hai selezionato **Valori campo** per i colori del record, seleziona un campo dal menu a discesa **Corrispondenza colore del record con**.
 

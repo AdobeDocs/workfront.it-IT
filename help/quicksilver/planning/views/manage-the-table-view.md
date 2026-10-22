@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 3%
+source-wordcount: '4138'
+ht-degree: 2%
 ---
 # Gestire la vista tabella
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Per gestire una vista tabella:
 
 1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Esempio di vista tabella](assets/table-view-example-g-list.png)
+   ![Esempio di vista tabella](assets/table-view-example.png)
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccola
@@ -333,9 +335,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
      * **MAX**: visualizza il valore più alto di tutte le celle della colonna.
      * **MEDIA**: visualizza il valore medio di tutte le celle della colonna.
-     * <span class="preview">**NONE**: i valori della colonna non sono aggregati. Questa è l&#39;opzione predefinita.</span>
-
-   <div class="preview">
+     * **NONE**: i valori della colonna non sono aggregati. Questa è l&#39;opzione predefinita.
 
    * Per i campi data, espandi il menu a discesa dell’aggregatore nella parte inferiore delle colonne e seleziona una delle seguenti opzioni:
 
@@ -351,17 +351,12 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      * **EMPTY**: visualizza un conteggio dei campi privi di valori.
      * **NON VUOTO**: visualizza un conteggio dei campi con valori.
 
-   </div>
-
    Quando si lavora con gli aggregatori, tenere presente quanto segue:
 
    * La riga dell&#39;aggregatore nella colonna viene bloccata quando vengono visualizzati i valori e fa parte delle impostazioni di visualizzazione.
    * In qualità di gestore delle viste, puoi scegliere l’aggregatore che verrà condiviso con la vista quando la condividi con altri utenti.
    * In qualità di visualizzatore, puoi modificare l’aggregatore, ma non viene salvato con la visualizzazione.
    * Le visualizzazioni condivise pubbliche vengono condivise con gli aggregatori salvati che non possono essere modificati.
-
-   <div class="preview">
-
    * I seguenti tipi di campo non dispongono di un aggregatore:
 
      * Creato da
@@ -369,7 +364,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      * ID record
    * I campi formula e i campi di ricerca hanno gli aggregatori che corrispondono al loro formato di campo.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-   Al nuovo record vengono aggiunti anche un&#39;immagine miniatura predefinita <span class="preview">e un colore</span>.
+   Al nuovo record vengono aggiunti anche un&#39;immagine miniatura e un colore predefiniti.
 
    >[!TIP]
    >
-   ><span class="preview">Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo primario del record viene visualizzato un indicatore **Nuovo commento**.</span>
+   >Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo principale del record viene visualizzato un indicatore **Nuovo commento**.
    >
    >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    >
    >Le modifiche apportate all&#39;ordine delle righe sono visibili a tutti gli utenti che accedono al tipo di record nella stessa visualizzazione.
    >
-   ><span class="preview">Nella riga di trascinamento, un indicatore numerico visualizza il numero di record selezionati, se più di uno. </span>
+   >Nella riga di trascinamento, un indicatore numerico visualizza il numero di record selezionati, se più di uno.
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del record, quindi fai clic su **Modifica miniatura** per modificare la miniatura.
-1. Fai clic su **Campi** nella parte superiore della tabella nell&#39;ambiente di produzione
-
-   Oppure
-
-   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario</span>, quindi seleziona l&#39;interruttore per il campo **Miniatura** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
+1. Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;opzione per il campo **Miniatura** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
    Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Fai clic su **Campi** nella parte superiore della tabella</span>
+1. Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;opzione per visualizzare il campo **Colore** a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
-   Oppure
-   <span class="preview">Passa il puntatore del mouse sull&#39;intestazione del campo primario, quindi seleziona l&#39;interruttore per il campo **Colore** in modo da visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato. </span>
-
-1. <span class="preview"> (Facoltativo e condizionale) Se hai attivato l&#39;impostazione **Colore**, fai clic sulla barra dei colori a sinistra del campo principale del record e seleziona un colore dalle schede **Campioni** o **Personalizzati**, quindi fai clic all&#39;esterno della casella per chiuderla. Il colore viene applicato immediatamente.</span>
-
-<div class="preview">
+1. (Facoltativo e condizionale) Se hai attivato l&#39;impostazione **Colore**, fai clic sulla barra dei colori a sinistra del campo principale del record e seleziona un colore dalle schede **Campioni** o **Personalizzati**, quindi fai clic all&#39;esterno della casella per chiuderla. Il colore viene applicato immediatamente.
 
 ![Casella del selettore colore per la codifica dei colori di record](assets/color-picker-for-record-color-coding.png)
 
 Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Aggiungere filtri {#add-filters-1}
 
@@ -514,10 +497,10 @@ Per aggiungere un filtro a una vista tabella:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
+            <td><p>È uno qualsiasi di</p>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p> o <span class="preview"><p>Non è nessuno di</p></span>
+            <p>Non è nessuno di</p>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -663,7 +646,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.

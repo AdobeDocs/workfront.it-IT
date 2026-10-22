@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # Creare e gestire un modulo di richiesta in Pianificazione di Adobe Workfront
@@ -160,7 +160,7 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista a elenco viene visualizzata una pagina del tipo di record.
 
-1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** se stai creando il modulo per la prima volta. Fare clic su **Gestisci moduli di richiesta** o <span class="preview">**Moduli di richiesta**.</span>, se si dispone già di un modulo e si desidera crearne di nuovi.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** se stai creando il modulo per la prima volta. Fai clic su **Moduli di richiesta**.
 
    Viene aperta la pagina **Moduli di richiesta** e le richieste vengono visualizzate nella vista a elenco.
 
@@ -212,49 +212,35 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
    * **Istruzioni**: aggiungere ulteriori informazioni sul campo.
 
-   <div class="preview">
-
    * **Scelte**: disponibile solo per i campi selezionati. Esegui una delle operazioni seguenti:
 
      * Fare clic su **Ordina scelte dalla A alla Z** per ordinarle automaticamente.
      * Trascinare e rilasciare le scelte o ordinarle manualmente.
      * Fai clic sull&#39;icona **Impostazioni** ![Icona Impostazioni](assets/settings-icon.png), quindi **Seleziona per impostazione predefinita** per indicare quale scelta è l&#39;opzione predefinita, oppure **Nascondi scelta** per nasconderla.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">Impossibile rinominare o rimuovere scelte in un modulo di richiesta Planning. È necessario modificare le scelte dei campi nella vista tabella del tipo di record.</span>
-
+   >Non è possibile rinominare o rimuovere scelte in un modulo di richiesta Planning. È necessario modificare le scelte dei campi nella vista a tabella del tipo di record.
 
 1. Nell&#39;area **Impostazioni avanzate**, selezionare una delle opzioni elencate di seguito. Non tutte le opzioni sono disponibili per tutti i tipi di campo.
 
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
-   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. La logica di aggiunta è disponibile solo quando i campi sono o sono preceduti da campi a selezione singola e multipla. <span class="preview">Le regole di convalida e di valore predefinito non sono disponibili per tutti i tipi di campo.</span>
+   * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto. La logica di aggiunta è disponibile solo quando i campi sono o sono preceduti da campi a selezione singola e multipla. Le regole di convalida e di valore predefinito non sono disponibili per tutti i tipi di campo.
 
-     Nell’ambiente di produzione, seleziona una delle seguenti opzioni:
+   Selezionare una delle opzioni seguenti:
 
-     * **Logica di visualizzazione**: il campo selezionato deve essere preceduto da un campo a selezione multipla o singola.
-     * **Logica di salto**: aggiungi regole di salto per specificare quando gli utenti devono saltare il campo e lasciarlo vuoto.
+   * **Visualizzazione**
+   * **Ignora**
+   * **Valore predefinito**
+   * **Convalida**
+   * **Formattazione**
+   * **Modificabilità**
 
-     <div class="preview">
+   Per ulteriori informazioni, vedere [Aggiungere regole di logica a campi e moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
-     Nell’ambiente di anteprima, seleziona una delle seguenti opzioni:
-
-     * **Visualizzazione**
-     * **Ignora**
-     * **Valore predefinito**
-     * **Convalida**
-     * **Formattazione**
-     * **Modificabilità**
-
-     </div>
-
-     Per ulteriori informazioni, vedere [Aggiungere regole di logica a campi e moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-
-     >[!TIP]
-     >
-     ><span class="preview">Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.</span>
+   >[!TIP]
+   >
+   >Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
 
 1. (Facoltativo) Fare clic con il pulsante lungo del mouse su un campo, trascinarlo e rilasciarlo in un&#39;altra posizione del modulo.
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
@@ -269,24 +255,25 @@ Per creare un modulo di richiesta, è necessario completare le operazioni seguen
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare una richiesta.
 1. Continuare con una delle operazioni seguenti:
 
-   * [Configurare le impostazioni del modulo](#configure-form-settings) se si desidera configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione
-   * [Pubblica modulo](#publish-form) se non desideri configurare ulteriori impostazioni.
+   * [Configurare le impostazioni del modulo](#configure-form-settings) per configurare ulteriori dettagli per il modulo
+   * [Pubblica modulo](#publish-form) per pubblicare il modulo in modo che gli utenti possano inviarvi richieste
+   * [Condividi un modulo di richiesta](#share-a-request-form) per condividere il modulo con altri o pubblicamente
 
 ### Configurare le impostazioni del modulo
 
-Nella scheda Impostazioni è possibile impostare le regole di approvazione, configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata e <span class="preview">assegnare le autorizzazioni predefinite agli utenti che interagiscono con richieste future inviate tramite il modulo.</span>
+Nella scheda Impostazioni è possibile impostare le regole di approvazione, configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata e assegnare le autorizzazioni predefinite agli utenti che interagiscono con richieste future inviate tramite il modulo.
 
 Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi nelle richieste inviate.
 
 Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
 
-<span class="preview">Il processo di approvazione supporta più fasi. Quando vengono prese tutte le decisioni necessarie in una fase, inizia la fase successiva e gli approvatori della nuova fase ricevono una notifica e-mail.</span>
+Nel processo di approvazione sono supportate più fasi. Quando vengono prese tutte le decisioni necessarie in una fase, inizia la fase successiva e gli approvatori della nuova fase ricevono una notifica e-mail.
 
 Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Le opzioni di completamento consentono di impostare se una richiesta è contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o al momento del completamento dell&#39;oggetto creato. È possibile definire quando l&#39;oggetto viene completato in base a una condizione specificata.
 
-<span class="preview">Utilizzare la sezione Autorizzazioni nell&#39;area Impostazioni di un modulo di richiesta per definire le autorizzazioni predefinite dei richiedenti <!--and non-requestors--> per le richieste create utilizzando il modulo.</span>
+Utilizzare la sezione Autorizzazioni nell&#39;area Impostazioni di un modulo di richiesta per definire le autorizzazioni predefinite dei richiedenti <!--and non-requestors--> per le richieste create utilizzando il modulo.
 
 Per configurare le impostazioni del modulo:
 
@@ -297,7 +284,7 @@ Per configurare le impostazioni del modulo:
 
 1. Per iniziare a configurare le regole di approvazione, fai clic su **Approvazioni** ![Icona Approvazioni](assets/approvals-icon-on-form.png) nell&#39;area di navigazione a sinistra.
 
-   È possibile creare <span class="preview"> o regole di approvazione a più fasi </span> e assegnare utenti o team a un&#39;approvazione.
+   Puoi creare regole di approvazione in una o più fasi e assegnare utenti o team a un’approvazione.
 
    Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -309,56 +296,41 @@ Per configurare le impostazioni del modulo:
 
 1. (Condizionale) Se hai selezionato che la richiesta venga contrassegnata come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indica quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 
-1. <span class="preview">Fai clic su **Autorizzazioni** nel pannello a sinistra.</span>
-1. <span class="preview">Selezionare il livello di autorizzazione per gli utenti che inviano richieste tramite questo modulo:</span>
-
-   <div class="preview">
+1. Fai clic su **Autorizzazioni** nel pannello a sinistra.
+1. Selezionare il livello di autorizzazione per gli utenti che inviano le richieste tramite questo modulo:
 
    * **Visualizza**: tutti i richiedenti possono aggiungere commenti e condividere il modulo.
    * **Contribuisci**: tutti i richiedenti possono aggiungere commenti, condividere e modificare il modulo.
    * **Gestisci**: tutti i richiedenti possono aggiungere commenti, condividere, modificare ed eliminare il modulo.
 
-   </div>
-
-1. <span class="preview"> (Facoltativo) Deselezionare le autorizzazioni granulari per ogni livello di autorizzazione per impedire ai richiedenti di eseguire le azioni seguenti:</span>
-
-   <div class="preview">
+1. (Facoltativo) Deseleziona una delle autorizzazioni granulari per ogni livello di autorizzazione per impedire ai richiedenti di eseguire le azioni seguenti:
 
    * Commento
    * Condividi
    * Modifica. Non disponibile per la visualizzazione.
    * Elimina. Non disponibile per Contribute e View.
 
-   </div>
+   >[!TIP]
+   >
+   >L’autorizzazione granulare deselezionata qui risulterà inattiva quando condividi la richiesta con tali utenti dalla pagina della richiesta.
+
+1. <span class="preview">Fare clic su **compilazione modulo AI** per configurare un prompt personalizzato quando si utilizza la funzionalità **Compila modulo** durante l&#39;invio delle richieste. </span>
 
    >[!TIP]
    >
-   ><span class="preview">L&#39;autorizzazione granulare deselezionata qui verrà disabilitata quando si condivide la richiesta con tali utenti dalla pagina della richiesta. </span>
+   ><span class="preview">Per rendere effettiva la richiesta, è necessario allegare un file quando si utilizza AI per compilare il modulo di richiesta. </span>
+
+1. <span class="preview">Attiva **Abilita impostazione prompt predefinito**, quindi aggiungi un prompt predefinito. </span>
+
+   <span class="preview">Visualizzare la richiesta nel modo più dettagliato possibile. Ad esempio, se si utilizzano sempre file con date in essi quando si utilizza il modulo di riempimento, è possibile aggiungere al prompt &quot;Memorizza sempre date in formato europeo&quot;. </span>
+
+   <span class="preview">Quando si utilizza la funzionalità **Compila modulo** e si allega un file quando si invia una richiesta utilizzando questo modulo, AI eseguirà le modifiche prescritte in questo prompt predefinito per la nuova richiesta. Dovrai rivedere le modifiche prima di inviarle. </span>
+
+   ![Esempio di prompt predefinito per compilazione modulo IA](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. Continua con [Pubblica modulo](#publish-form).
 
 1. Fai clic su **Salva**.
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### Pubblica modulo
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Gestisci moduli di richiesta** o <span class="preview">**Moduli di richiesta**</span>.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Moduli di richiesta**.
 
    Viene aperta la pagina **Moduli di richiesta** e tutti i moduli di richiesta associati al tipo di record vengono visualizzati in una vista a elenco.
 1. (Facoltativo) Aggiorna i seguenti elementi di visualizzazione nella pagina **Moduli di richiesta** per modificare la modalità di visualizzazione delle informazioni nella tabella:

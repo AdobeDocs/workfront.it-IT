@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 | Visualizzazione | ✓ | ✓ | ✓ |
 
 
-<span class="preview">Oltre alle autorizzazioni descritte nella tabella precedente, è anche possibile modificare il proprietario di un&#39;area di lavoro durante la condivisione. Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).</span>
+Oltre alle autorizzazioni descritte nella tabella precedente, è anche possibile modificare il proprietario di un&#39;area di lavoro durante la condivisione. Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Autorizzazioni per i tipi di record
@@ -263,25 +263,22 @@ Esistono i seguenti scenari:
 
 ### Autorizzazioni per registrare i campi
 
+<!--
 
-#### Autorizzazioni per registrare i campi nell’ambiente di produzione
+#### Permissions to record fields in the Production environment
 
 
-Le autorizzazioni per la modifica delle impostazioni dei campi vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-Le autorizzazioni seguenti fanno riferimento alle impostazioni dei campi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | Gestione | Contribuisci | Visualizzazione |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Crea | ✓ |            |       |
-| Elimina | ✓ |            |       |
-| Modifica | ✓ |            |       |
-| Visualizzazione | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### Autorizzazioni per registrare i campi nell’ambiente di anteprima
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 Le autorizzazioni per le impostazioni dei campi vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
@@ -308,8 +305,6 @@ Puoi gestire le autorizzazioni per i valori dei singoli campi e limitare i campi
 | Visualizzazione | ✓ | ✓ |
 
 Per accedere ai campi, gli utenti devono disporre almeno delle autorizzazioni di visualizzazione per il tipo di record.
-
-</div>
 
 ### Autorizzazioni per le visualizzazioni
 

@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 6%
 ---
 # Gestire la vista calendario
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Per gestire una vista calendario:
        * I record che si estendono su più giorni vengono visualizzati nella parte superiore del calendario.
        * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
 
-         <span class="preview">Il calendario visualizza fino a 1.000 record nelle settimane precedente, corrente e successiva per entrambe le aree nella visualizzazione settimanale.</span>
+         Il calendario visualizza fino a 1.000 record nelle settimane precedente, corrente e successiva per entrambe le aree della visualizzazione settimanale.
 
-1. <span class="preview">(Facoltativo e condizionale) Fare clic su **Carica altri** nella parte inferiore del calendario se sono presenti più di 1.000 record e alcuni di essi non vengono visualizzati per impostazione predefinita durante la visualizzazione del calendario per settimana.</span>
+1. (Facoltativo e condizionale) Fare clic su **Carica altri** nella parte inferiore del calendario se sono presenti più di 1.000 record e alcuni di essi non vengono visualizzati per impostazione predefinita durante la visualizzazione del calendario per settimana.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
 
@@ -287,10 +289,10 @@ Per aggiungere un filtro a una vista calendario:
         </tr>
         <tr>
             <td>Selezione multipla, Persone</td>
-            <td><p>Ha uno qualsiasi di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
+            <td><p>È uno qualsiasi di</p>
             <p>Ha tutti</p>
             <p>È esattamente</p>
-            <p>Non ha nessuno di</p> o <span class="preview"><p>È uno qualsiasi di</p></span>
+            <p>È uno qualsiasi di</p>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>
@@ -459,7 +461,11 @@ Aggiorna le impostazioni della vista calendario per indicare cosa e come vengono
 
    * **Tipo di record**: il colore delle barre dei record nel calendario corrisponde al colore del tipo di record selezionato. Questa è l&#39;opzione predefinita.
    * **Valori campo**: il colore dei record corrisponde al colore di un campo specificato.
-   * **Nessuno**: i record vengono visualizzati in una barra bianca. <span class="preview">L&#39;opzione **None** è stata rimossa dall&#39;ambiente di anteprima.</span>
+   * **Record**: il colore corrisponde ai colori dei record.
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Aggiorna le impostazioni della vista calendario per indicare cosa e come vengono
    >[!NOTE]
    >
    >* È possibile far corrispondere il colore solo ai campi con opzioni codificate per colore. Ad esempio, è possibile associare il colore ai campi Stato oppure ai campi con opzioni associate ai colori.
-   >    
-   >* Nell’ambiente di produzione non è possibile far corrispondere il colore ai record connessi o ai relativi campi di ricerca. <span class="preview">Nell&#39;ambiente di anteprima è possibile associare il colore ai record connessi, ma non ai relativi campi di ricerca. </span>
-
+   >            
 
 1. Fai clic su **Salva**.
 

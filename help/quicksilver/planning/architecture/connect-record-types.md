@@ -34,20 +34,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3172'
 ht-degree: 4%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # Collegare tipi di record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -125,7 +125,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -267,14 +267,18 @@ Old:
 
      Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     >[!TIP]
-     >
-     >È possibile utilizzare la seguente combinazione di tastiera per aprire la casella di ricerca globale da qualsiasi pagina di Workfront Planning e cercare tipi di record:
-     >
-     >* CTRL+K per Windows
-     >* ⌘+K per Mac
-     >
-     >![Casella di ricerca globale](assets/global-search-box.png)
+
+     <!--
+        not needed here??
+        >[!TIP]
+        >
+        >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types:
+        >
+        >* CTRL+K for Windows
+        >* ⌘+K for Mac
+        >
+        >![Global search box](assets/global-search-box.png)
+        -->
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 
@@ -318,15 +322,15 @@ Old:
     1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
         ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     -->
-1. <span class="preview">(Facoltativo) Selezionare **Rendi la connessione dipendente** per aggiungere dipendenze tra il campo della connessione e il campo creato nel tipo di record connesso. </span>
+1. (Facoltativo) Selezionare **Rendi la connessione dipendente** per aggiungere dipendenze tra il campo della connessione e il campo creato nel tipo di record connesso.
 
-   <span class="preview">Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
+   Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-1. <span class="preview">(Facoltativo) Selezionare **Crea campo corrispondente nel tipo di record collegato** nella sezione **Impostazioni connessione**.</span>
+1. (Facoltativo) Selezionare **Crea campo corrispondente nel tipo di record collegato**.
 
    >[!TIP]
    >
-   ><span class="preview">La sezione **Tipo di connessione** è stata sostituita dalla sezione **Impostazioni connessione** durante la connessione dei tipi di record di Planning. </span>
+   >La sezione **Tipo di connessione** è stata sostituita dalla sezione **Impostazioni connessione** durante la connessione dei tipi di record di Planning.
 
    Se questa opzione è selezionata, viene creato un campo connessione nel tipo di record a cui ci si connette, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
 
@@ -339,25 +343,17 @@ Old:
    >* Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni. Ad esempio:
    >   * Non è stato creato alcun campo per gli oggetti Workfront connessi ai record Planning.
    >   * Nessun campo creato per un tipo di record di Planning quando è connesso a un tipo di record dall&#39;area di lavoro di GenStudio.
-1. Seleziona una delle seguenti opzioni:
-
-   <div class="preview">
+1. (Condizionale) Se non è stata attivata l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato**, selezionare una delle opzioni seguenti:
 
    * **Selezione multipla**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a più record del tipo di record connessione.
    * **Selezione singola**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a un record del tipo di record connessione.
 
-   </div>
-
-1. <span class="preview">(Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato** nella sezione **Tipo di connessione**, scegli tra le seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:</span>
-
-   <div class="preview">
+1. (Condizionale) Se è stata attivata l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato**, scegliere una delle opzioni seguenti per indicare il numero di record a cui gli utenti possono connettersi e da:
 
    * Da molti a molti
    * Da uno a molti
    * Da molti a uno
    * Da uno a uno
-
-   </div>
 
    Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -365,28 +361,24 @@ Old:
    >
    >Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e successivamente si desidera connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.
 
-1. (Condizionale e facoltativo) Quando si seleziona di connettere un oggetto Workfront, scegliere un **modulo personalizzato** dalla sezione **Collega solo gli oggetti che soddisfano questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
+1. (Condizionale e facoltativo) Quando si seleziona di connettere un oggetto Workfront diverso da **Richiesta originale**, scegliere un **Modulo personalizzato** dalla sezione **Connetti solo gli oggetti che soddisfano questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
    >[!NOTE]
    >
    > È necessario creare moduli personalizzati in Workfront per gli oggetti selezionati prima che vengano visualizzati in questo elenco.
 
-1. (Condizionale) Quando si seleziona di connettersi ad Experience Manager, scegliere un archivio dal menu a discesa **Archivio Experience Manager** nella sezione **Collega risorse dal seguente archivio**. Questo è un campo obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager.
+1. (Condizionale) Quando si seleziona di connettersi ad Experience Manager, scegliere un archivio dal menu a discesa **Archivio Experience Manager** nella sezione **Connetti risorse dal seguente archivio**. Questo è un campo obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager.
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-1. (Facoltativo) Scegli una delle seguenti opzioni nell&#39;area **Aspetto record**:
+1. (Facoltativo e condizionale) Quando disponibile, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
 
    * **Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita.
    * **Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.
    * **Immagine**: nel campo del record connesso verrà visualizzata solo la miniatura o l&#39;icona dei record connessi.
-   <div class="preview">
-
    * **Colore e nome**: quando si connettono i record di Planning, il colore di ogni record connesso viene visualizzato come in un cerchio a sinistra del nome del record. Questa opzione non è disponibile quando si collegano tipi di record a tipi di oggetto di altre applicazioni.
-
-   </div>
 
    Per i record senza miniatura viene invece visualizzata l&#39;icona del tipo di record.
 
@@ -399,8 +391,8 @@ Old:
    >* La selezione dell&#39;aspetto di un record non è disponibile quando si selezionano i tipi di oggetto da Workfront.
    >
    >* La selezione effettuata nell&#39;area **Aspetto record** determina la modalità di visualizzazione dei record nelle connessioni di tutto il sistema, incluse tutte le visualizzazioni e le pagine dei dettagli.
-1. <span class="preview">(Facoltativo e condizionale) Se disponibile, fare clic su **Regole filtro record** per creare un filtro che limiti le selezioni dei campi connessi in base ai valori definiti. </span>
-1. Seleziona **Seleziona campi di ricerca** o <span class="preview">fai clic sul menu **Campi di ricerca**</span> per aprire la casella Aggiungi campi di ricerca e scegliere e aggiungere campi dal tipo di record a cui ti stai connettendo.
+1. (Facoltativo e condizionale) Se disponibile, fare clic su **Regole filtro record** per creare un filtro che limiti le selezioni dei campi connessi in base ai valori definiti. <!--this is available only for record types, not Workfront objects, etc, but we don't say this because the others will be released soon - 2026-2027-->
+1. Fare clic sul menu **Campi di ricerca** per aprire la casella Aggiungi campi di ricerca e scegliere i campi da aggiungere dal tipo di record a cui ci si connette.
 
    I campi di ricerca sono campi associati al record o al tipo di oggetto a cui ci si connette. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento.
 
@@ -419,14 +411,13 @@ Old:
    >
    >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
-1. <span class="preview">(Facoltativo) Fare clic su **Accesso al campo** per modificare le autorizzazioni per il campo connesso. Scegliere una delle opzioni seguenti: </span>
-
-   <div class="preview">
+1. (Facoltativo) Fai clic su **Accesso al campo** per modificare le autorizzazioni per il campo connesso. Scegli una tra le opzioni seguenti:
 
    * **Tutti gli utenti con accesso al tipo di record possono visualizzare**: solo gli utenti che possono accedere al tipo di record possono visualizzare il campo. Questa è l&#39;impostazione predefinita.
    * **L&#39;accesso è consentito solo alle persone selezionate**: aggiungere utenti, team, gruppi, società o ruoli con cui si desidera condividere il campo.
 
-   </div>
+     Per ulteriori informazioni, vedere [Condividi campi](/help/quicksilver/planning/access/share-fields.md).
+
 1. Fai clic su **Crea**.
 
 1. (Condizionale) Se hai fatto clic su **Campi di ricerca**, viene visualizzata la casella **Aggiungi campi di ricerca**.
@@ -445,7 +436,7 @@ Old:
    >
    >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
 
-1. (Facoltativo) Fai clic su **Ignora** per saltare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il campo Nome o Primario del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del tipo di record da cui ci si connette. <!--take this step out at production-->
+   &lt;!--1. (Facoltativo) Fai clic su **Ignora** per saltare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il campo Nome o Primario del record collegato è l&#39;unico campo visibile nella vista a tabella del tipo di record da cui ci si connette.—interrompere questo passaggio in fase di produzione—>
 
 1. Scegliere un aggregatore per i campi di ricerca aggiunti.
 
@@ -455,6 +446,8 @@ Old:
    >
    >    * Paragrafo
    >    * Casella di controllo
+   >    * People
+   >    * ID record
 
    Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore di riepilogo in base all&#39;aggregatore scelto.
 

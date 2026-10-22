@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 1%
+source-wordcount: '884'
+ht-degree: 2%
 ---
 # Gestire i commenti dei record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -232,13 +234,9 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    Gli utenti a cui hai applicato il tag nel messaggio ricevono notifiche sull’esistenza di un nuovo messaggio.
 
-   <div class="preview">
-
    Tutti coloro che dispongono delle autorizzazioni di visualizzazione per il tipo di record possono visualizzare un indicatore **Nuovo commento** nella vista tabella per il record a cui è stato aggiunto il commento.
 
    ![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
 1. (Facoltativo) Fai clic sull&#39;icona **Nascondi commenti** ![Nascondi commenti](assets/hide-comments-icon.png) per chiudere il pannello di destra.
