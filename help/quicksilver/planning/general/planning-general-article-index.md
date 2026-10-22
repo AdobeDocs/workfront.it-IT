@@ -23,7 +23,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 52%
@@ -39,13 +39,7 @@ Rivedi i seguenti articoli:
 * [Introduzione alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
 * [Panoramica di Workfront Planning termonologi](/help/quicksilver/planning/general/planning-terminology.md)
 * [Panoramica dell’Assistente IA di pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-
-<div class="preview">
-
 * [Panoramica di Adobe Workfront Planning CX Enterprise Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
-
-</div>
-
 * [Nozioni di base sulle API di pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Panoramica sui limiti degli oggetti di pianificazione di Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
 * [Attività sulla versione di pianificazione di Adobe Workfront per il 2024](/help/quicksilver/planning/general/release-activity.md)

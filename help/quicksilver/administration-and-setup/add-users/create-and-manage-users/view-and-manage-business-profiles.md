@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 12%
 ---
 # Visualizzare e gestire i profili aziendali
 
-{{highlighted-preview}}
-
 Per assegnare un profilo aziendale a un utente, è necessario assegnare un gruppo e un livello di accesso associato.
 
-In qualità di amministratore di Workfront, puoi impostare il profilo aziendale di un utente assegnando combinazioni di livelli di accesso e gruppi. Viene gestita dalla pagina Utente dell’utente in Workfront. <span class="preview">Gli amministratori di gruppi possono anche creare, modificare ed eliminare profili aziendali, ma solo per i gruppi che amministrano.</span>
+In qualità di amministratore di Workfront, puoi impostare il profilo aziendale di un utente assegnando combinazioni di livelli di accesso e gruppi. Viene gestita dalla pagina Utente dell’utente in Workfront. Gli amministratori di gruppi possono anche creare, modificare ed eliminare profili aziendali, ma solo per i gruppi che amministrano.
 
 Per ulteriori informazioni sui profili aziendali, vedere [Panoramica sui profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -56,7 +54,7 @@ Per ulteriori informazioni sui profili aziendali, vedere [Panoramica sui profili
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td><p>Amministratore di sistema</p><p><span class="preview">Amministratore di gruppi (per i gruppi da loro amministrati)</span></p></td>
+   <td><p>Amministratore di sistema</p><p>Amministratore di gruppi (per i gruppi da loro amministrati)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 ## Modificare un profilo di business
 
-<div class="preview">
-
 La modifica di un profilo di business apre la stessa finestra utilizzata per crearne uno.
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ La modifica di un profilo di business apre la stessa finestra utilizzata per cre
 >
 >Gli amministratori di gruppi possono modificare i profili aziendali solo per i gruppi che amministrano.
 
-</div>
-
 ## Eliminare un profilo aziendale
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ La modifica di un profilo di business apre la stessa finestra utilizzata per cre
 >[!NOTE]
 >
 >Gli amministratori di gruppi possono eliminare i profili aziendali solo per i gruppi da loro amministrati.
-
-</div>

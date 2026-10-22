@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 7%
@@ -79,6 +79,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    Oppure
 
    Per modificare una condizione esistente, selezionare la casella di controllo accanto al nome della condizione che si desidera eliminare e fare clic su **Modifica** nella barra delle azioni nella parte inferiore dello schermo.
+
 
    ![Modifica condizione personalizzata](assets/edit-conditions-082526.png)
 

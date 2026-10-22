@@ -7,16 +7,14 @@ title: Configurare le sottoscrizioni di eventi in Workfront
 description: Gli amministratori di Workfront possono creare, visualizzare ed eliminare sottoscrizioni di eventi da Configurazione. Gli utenti con l’accesso richiesto possono anche gestire le sottoscrizioni di eventi all’interno dell’ambito consentito dalle loro autorizzazioni e dalla configurazione del sistema.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 8%
 ---
 
 # Configurare le sottoscrizioni di eventi in Workfront
-
-{{highlighted-preview-article-level}}
 
 In qualità di amministratore di Adobe Workfront, puoi creare, visualizzare ed eliminare sottoscrizioni di eventi dall’area Configurazione. Le sottoscrizioni di eventi inviano informazioni sull’evento Workfront a un endpoint esterno quando si verificano eventi specifici.
 

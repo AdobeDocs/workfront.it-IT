@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 61%
+source-wordcount: '74'
+ht-degree: 68%
 ---
 # Sottoscrizioni a eventi
 
@@ -28,10 +28,10 @@ Di seguito sono riportate diverse risorse  relative alle Sottoscrizioni a eventi
 
 >[!NOTE]
 >
->Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) e [Gestire sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+>Per utilizzare sottoscrizioni di eventi all&#39;interno dell&#39;applicazione Workfront, vedere [Configurare sottoscrizioni di eventi in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
 * [API di sottoscrizione a eventi](../../wf-api/general/event-subs-api.md)
-* [Gestire le sottoscrizioni di eventi come utente non amministratore](../../wf-api/general/event-subs-non-admin.md)
+* [Gestire le sottoscrizioni di eventi come utente non amministratore](/help/quicksilver/wf-api/general/event-subs-non-admin.md)
 * [Best practice per la sottoscrizione a eventi](../../wf-api/general/event-sub-best-practice.md)
 * [Requisiti di consegna per la sottoscrizione a eventi](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Campi risorse di sottoscrizione a eventi](../../wf-api/api/event-sub-resource-fields.md)
