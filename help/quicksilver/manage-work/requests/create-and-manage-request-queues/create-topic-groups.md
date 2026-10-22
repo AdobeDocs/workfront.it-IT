@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 9%
 ---
 # Creare gruppi di argomenti
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ Per creare un Topic Group:
    Verrà creato un nuovo Gruppo di argomenti nella coda richieste. Ora puoi selezionare ulteriori categorie dal primo menu a discesa sotto una Coda di richieste.\
    Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Per modificare un Topic Group esistente, seleziona il Topic Group (Gruppo di argomenti) nell&#39;elenco Topic Groups (Gruppi di argomenti), <span class="preview">fai clic su **Edit** (Modifica) nella barra delle azioni nella parte inferiore della schermata,</span> e modifica i dettagli nella finestra visualizzata. Fai clic su **Salva** per salvare le modifiche.
+1. Per modificare un Gruppo di argomenti esistente, seleziona la casella di controllo accanto al Gruppo di argomenti nell&#39;elenco Gruppi di argomenti, fai clic su **Modifica** nella barra delle azioni nella parte inferiore della schermata, quindi modifica i dettagli nella finestra visualizzata. Fai clic su **Salva** per salvare le modifiche.

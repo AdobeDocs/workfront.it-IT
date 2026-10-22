@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
-
-{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -84,20 +82,20 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | <span class="preview">Elenco di scorecard</span> | <span class="preview">Configurazione > Scorecard</span> |
 | <span class="preview">Elenco dei tipi di rischio</span> | <span class="preview">Configurazione > Tipi di rischio</span> |
 | Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
-| <span class="preview">Elenco dei percorsi</span> | <span class="preview">Configurazione > Percorsi</span> |
+| Elenco delle località | Configurazione > Posizioni |
 | Elenco delle traduzioni | Configurazione > Localizzazione |
-| <span class="preview">Elenchi di integrazioni </span> | <ul><li><span class="preview">Configurazione > Documenti > Integrazione di SharePoint</span></li><li><span class="preview">Configurazione > Documenti > Integrazione personalizzata</span></li><li><span class="preview">Configurazione > Documenti > Experience Manager Assets</span></li></ul> |
+| Elenchi di integrazioni | <ul><li>Configurazione > Documenti > Integrazione con SharePoint</li><li>Configurazione > Documenti > Integrazione personalizzata</li><li>Configurazione > Documenti > Experience Manager Assets</li></ul> |
 | Elenco dei rapporti | Menu principale > Rapporti (**Utilizza cartelle condivisibili** deve essere attivato) |
-| <span class="preview">Elenchi di argomenti della coda, gruppi di argomenti e regole di routing</span> | <ul><li><span class="preview">Progetto o Modello > Argomenti coda</span></li><li><span class="preview">Progetto o Modello > Gruppi di argomenti</span></li><li><span class="preview">Progetto o Modello > Regole di instradamento</span></li></ul> |
+| Elenchi di argomenti di coda, gruppi di argomenti e regole di routing | <ul><li>Progetto o Modello > Argomenti coda</li><li>Progetto o Modello > Gruppi di argomenti</li><li>Progetto o Modello > Regole ciclo</li></ul> |
 | Elenco di snapshot | Progetto > Snapshot |
 | Elenco delle risorse per la fatturazione | Progetto > Risorsa per fatturazione |
-| <span class="preview">Elenco predecessori</span> | <span class="preview">Configurazione > Attività o Modello > Predecessori</span> |
+| Elenco dei predecessori | Configurazione > Task o Template Task > Predecessori |
 | Nuove assegnazioni avanzate per un&#39;attività | Task > Assegnazioni > Avanzato |
-| <span class="preview">Visualizzazione di un documento per tutte le versioni</span> | <span class="preview">Progetto > Documenti > Dettagli documento > Tutte le versioni</span> |
+| Visualizzazione di tutte le versioni di un documento | Progetto > Documenti > Dettagli documento > Tutte le versioni |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
-| <span class="preview">Elenchi di piani e iniziative dello scenario</span> | <span class="preview">Menu principale > Scenari</span> |
-| <span class="preview">Elenco di obiettivi e indicatori di avanzamento</span> | <ul><li><span class="preview">Menu principale > Obiettivi</span></li><li><span class="preview">Menu principale > Obiettivi > Indicatori di avanzamento</span></li></ul> |
+| Elenchi di piani e iniziative di scenario | Menu principale > Scenari |
+| Elenchi di obiettivi e indicatori di progresso | <ul><li>Menu principale > Obiettivi</li><li>Menu principale > Obiettivi > Indicatori di avanzamento</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascond
 
 1. Fai clic su **Colonne** sopra l&#39;elenco.
 
-   Immagine di esempio nell’ambiente di produzione:
-   ![Visualizza esempio colonne](assets/glist-display-move-columns.png)
-
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Visualizza esempio colonne](assets/display-columns-090126.png)
 
 1. Utilizza i pulsanti per visualizzare o nascondere le colonne nell’elenco.
 
-   <span class="preview">È possibile cercare una colonna nella casella di ricerca.</span>
+   È possibile cercare una colonna nella casella di ricerca.
 
 1. Per riordinare le colonne, fare clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) e spostare una colonna nella posizione desiderata. Lo spostamento delle colonne determina la modifica automatica dell&#39;elenco.
 
@@ -242,7 +236,7 @@ Per aggiungere e rimuovere colonne:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(Facoltativo) Per riordinare le colonne, passa il puntatore del mouse sul nome di una colonna nella sezione **Selected** e fai clic sull&#39;icona **Drag** ![Drag icon](assets/drag-icon.png). Spostare le colonne verticalmente in modo da riordinarle.</span>
+1. (Facoltativo) Per riordinare le colonne, passa il puntatore del mouse sul nome di una colonna nella sezione **Selected** e fai clic sull&#39;icona **Drag** ![Drag icon](assets/drag-icon.png). Spostare le colonne verticalmente per posizionarle in ordine.
 1. Fai clic su **Salva**.
 
    ![Gestione colonne](assets/glist-column-manager.png)

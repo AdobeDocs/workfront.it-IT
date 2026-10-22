@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 8%
 ---
 # Creare una relazione predecessore utilizzando l’area Predecessori
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -122,7 +120,6 @@ Per creare un&#39;attività predecessore per un&#39;attività di progetto:
 
 1. Fai clic su **Salva**.
 
-1. (Facoltativo) Per rimuovere un predecessore, selezionalo dall&#39;elenco dei predecessori, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-or-delete-icon.png).
-   <span class="preview">Per rimuovere un predecessore, selezionarlo nell&#39;elenco dei predecessori e fare clic su **Rimuovi** nella barra delle azioni nella parte inferiore della schermata.</span>
+1. (Facoltativo) Per rimuovere un predecessore, selezionalo nell&#39;elenco dei predecessori e fai clic su **Rimuovi** nella barra delle azioni nella parte inferiore dello schermo.
 
    Il predecessore viene rimosso dall’elenco. L&#39;attività predecessore non viene eliminata dal relativo progetto.

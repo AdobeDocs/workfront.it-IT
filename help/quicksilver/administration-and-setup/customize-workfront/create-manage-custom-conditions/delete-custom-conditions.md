@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 16%
+source-wordcount: '237'
+ht-degree: 18%
 ---
 # Eliminare una condizione personalizzata
-
-{{preview-fast-release-general}}
 
 Se una condizione personalizzata non è più necessaria, è possibile eliminarla.
 
@@ -67,11 +65,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 {{step-1-to-setup}}
 
 1. Fai clic su **Preferenze progetto** > **Condizioni**.
-
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problema**) in cui si trova la condizione che si desidera eliminare.
-1. Nell&#39;ambiente di produzione, fare clic su **Elimina** accanto al nome della condizione che si desidera eliminare.
-   <span class="preview">Nell&#39;ambiente di anteprima, selezionare la casella di controllo accanto al nome della condizione che si desidera eliminare e fare clic su **Elimina** nella barra delle azioni nella parte inferiore dello schermo.</span>
-
+1. Selezionare la casella di controllo accanto al nome della condizione che si desidera eliminare e fare clic su **Elimina** nella barra delle azioni nella parte inferiore dello schermo.
 1. Nella casella **Elimina condizione** visualizzata, selezionare una nuova condizione nell&#39;elenco a discesa per tutti i progetti, le attività o i problemi che utilizzano la condizione che si sta eliminando.
 
    Le condizioni personalizzate sono disponibili nell’elenco a discesa solo se equivalgono alla stessa condizione incorporata di quella che si sta eliminando. Ad esempio, se elimini una condizione che equivale a A rischio, la selezione sarà possibile solo per le condizioni personalizzate che equivalgono anche a A rischio.

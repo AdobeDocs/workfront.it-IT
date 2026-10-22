@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 8%
 ---
 # Configurare le posizioni
-
-{{preview-fast-release-general}}
 
 Puoi configurare le posizioni predefinite disponibili per assegnare gli attributi ai ruoli nelle schede tariffa. In questo modo le schede dei tassi riflettono accuratamente i tassi di mercato in ogni località.
 
@@ -62,13 +60,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Percorsi**].
-1. Nell&#39;ambiente di produzione, fare clic su [!UICONTROL **Aggiungi altre posizioni**] nella parte inferiore dell&#39;elenco.
-   <span class="preview">Nell&#39;ambiente di anteprima, fare clic su [!UICONTROL **Nuova riga**] nella parte inferiore dell&#39;elenco.</span>
-
+1. Fai clic su [!UICONTROL **Nuova riga**] in fondo all&#39;elenco.
 1. Immettere il nome e la descrizione della posizione.
 1. Fai clic all’esterno della riga per salvare la posizione.
-1. Per eliminare una posizione nell&#39;ambiente di produzione, selezionarla nell&#39;elenco e fare clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete.png).
-   <span class="preview">Per eliminare una posizione nell&#39;ambiente di anteprima, selezionarla nell&#39;elenco e fare clic su [!UICONTROL **Elimina**] nella barra delle azioni nella parte inferiore della schermata.</span>
+1. Per eliminare un percorso, selezionarlo nell&#39;elenco e fare clic su [!UICONTROL **Elimina**] nella barra delle azioni nella parte inferiore della schermata.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ Ogni posizione secondaria può essere aggiunta come attributo in una scheda tari
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Percorsi**].
-1. Nell&#39;ambiente di produzione, selezionare un percorso esistente nell&#39;elenco e fare clic su [!UICONTROL **Aggiungi percorso secondario**].
-   <span class="preview">Nell&#39;ambiente di anteprima, selezionare una posizione esistente nell&#39;elenco e fare clic su [!UICONTROL **Aggiungi posizione secondaria**] nella barra delle azioni nella parte inferiore della schermata.</span>
-
+1. Selezionare una posizione esistente nell&#39;elenco e fare clic su [!UICONTROL **Aggiungi posizione secondaria**] nella barra delle azioni nella parte inferiore della schermata.
 1. Immettere il nome e la descrizione della posizione.
 1. Fare clic all&#39;esterno dell&#39;area di immissione per salvare la posizione.
 
    La posizione secondaria è rientrata sotto la posizione di livello superiore.
 
-   Immagine di esempio nell’ambiente di produzione:
-   ![Percorsi e percorsi secondari](assets/locations-sublocations.png)
-
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Percorsi e percorsi secondari](assets/locations-sublocations-082526.png)
 
 

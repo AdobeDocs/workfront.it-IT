@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c3f012074799cc64a3aa5e1ffd212e1871e61529
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 7%
+source-wordcount: '615'
+ht-degree: 6%
 ---
 # Configurare le notifiche degli eventi per tutti nel sistema
 
@@ -92,17 +92,22 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Area di notifica nelle e-mail di configurazione](assets/notifications-area-under-setup-emails.png)
 
-
 1. Assicurati che la scheda **Notifiche evento** sia aperta.
-1. Attiva o disattiva il pulsante a sinistra del nome dell&#39;evento.
+1. Attiva o disattiva il pulsante a sinistra del nome dell&#39;evento. <!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
 
    Per visualizzare lo stato di notifica predefinito per un evento, vedi [Notifiche evento](../../../workfront-basics/using-notifications/event-notifications.md).
 
-1. (Facoltativo) Fai clic sul nome di una notifica di evento per personalizzare la riga dell’oggetto della notifica e-mail.
+1. (Facoltativo) Per personalizzare la riga dell’oggetto della notifica e-mail, puoi:
+
+   * Fai clic sull&#39;icona del lucchetto ![Icona lucchetto](assets/lock-icon-100626.png) o sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra della notifica e seleziona **Modifica**.
+   * Selezionare la casella di controllo accanto alla notifica e fare clic su **Modifica** nella barra delle azioni nella parte inferiore della schermata.
 
    Per ulteriori informazioni sulla personalizzazione dell&#39;oggetto delle notifiche e-mail, vedere [Personalizzare gli oggetti e-mail per le notifiche degli eventi](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Facoltativo) Se desideri sbloccare la configurazione per una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fai clic sul pulsante ![Blocca/blocca](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![Sblocca/Sblocca](assets/unlock-toggle-button.png).
+1. (Facoltativo) Per sbloccare la configurazione di una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, puoi:
+
+   * Fai clic sull&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-100626.png) a destra della notifica e seleziona **Sblocca accesso gruppo**. L’icona del lucchetto non viene più visualizzata quando la notifica viene sbloccata.
+   * Selezionare la casella di controllo accanto alla notifica e fare clic su **Sblocca accesso gruppo** nella barra delle azioni nella parte inferiore della schermata.
 
    Per ulteriori informazioni, vedere [Sbloccare o bloccare la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 

@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '991'
 ht-degree: 6%
 ---
 # Creare argomenti coda
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ Per modificare un argomento della coda esistente:
 
 1. Passare al progetto o al modello contenente l&#39;argomento coda che si desidera modificare.
 1. Fai clic su **Argomenti coda** nel pannello a sinistra.
-1. Fare clic sull&#39;argomento della coda che si desidera modificare.
-   <span class="preview">Selezionare la casella di controllo accanto all&#39;argomento della coda che si desidera modificare e fare clic su **Modifica** nella barra blu delle azioni nella parte inferiore dello schermo.</span>
+1. Selezionare la casella di controllo accanto all&#39;argomento della coda che si desidera modificare e fare clic su **Modifica** nella barra blu delle azioni nella parte inferiore dello schermo.
 
 Per informazioni sulle opzioni di modifica disponibili, vedere [Creare un argomento coda](#create-a-queue-topic) in questo articolo.
 
@@ -218,6 +215,5 @@ Per informazioni sulle opzioni di modifica disponibili, vedere [Creare un argome
 1. Passare al progetto o al modello contenente l&#39;argomento coda che si desidera eliminare.
 1. Fai clic su **Argomenti coda** nel pannello a sinistra.
 1. Fare clic sulla casella accanto al nome di ogni Argomento coda che si desidera eliminare. Nella casella viene visualizzato un segno di spunta.
-1. Fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete-icon.png) nella parte superiore della pagina.
-   <span class="preview">Fai clic su **Elimina** nella barra delle azioni nella parte inferiore dello schermo.</span>
+1. Fai clic su **Elimina** nella barra delle azioni nella parte inferiore della schermata.
 
