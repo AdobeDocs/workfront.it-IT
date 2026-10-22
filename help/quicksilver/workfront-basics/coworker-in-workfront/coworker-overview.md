@@ -31,7 +31,7 @@ Coworker fa parte dell’ecosistema Adobe e non si limita a Workfront.
 
 Per informazioni sull&#39;utilizzo di Coworker in Workfront, vedere [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-Per ulteriori informazioni su Coworker e sulle sue funzionalità, consulta [Panoramica di Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+Per ulteriori informazioni su Coworker e sulle sue funzionalità, consulta [Panoramica di Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/it/docs/coworker/content/chat/overview).
 
 Per le competenze disponibili in Collaboratore in Workfront, vedi [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
