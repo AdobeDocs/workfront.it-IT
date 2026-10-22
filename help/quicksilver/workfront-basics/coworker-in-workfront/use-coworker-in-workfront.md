@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Utilizzare Coworker in Workfront
 
-1. Nella parte superiore di qualsiasi pagina di Workfront, fai clic sull&#39;icona di Coworker ![AI](assets/ai-icon.png).
+1. Nella parte superiore di qualsiasi pagina di Workfront, fai clic sull&#39;icona Collaboratore ![icona Collaboratore](assets/coworker-icon.png).
 1. Digita la domanda o il prompt nel pannello a destra della schermata.
 
 1. Se Collaboratore non fornisce la risposta necessaria, perfeziona la richiesta e riprova.
