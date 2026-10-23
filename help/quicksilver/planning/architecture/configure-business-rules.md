@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -101,7 +101,19 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Le regole non bloccano la creazione dei record. Gli utenti possono comunque creare record, ma devono assicurarsi che i campi obbligatori non siano vuoti o contengano il valore specificato.
 * Le regole non modificano o eliminano automaticamente i record. La modifica deve essere intenzionale e attivata da un utente.
 * Le regole non vengono applicate retroattivamente: i record precedenti non vengono interessati. Il controllo delle regole viene eseguito solo al successivo tentativo di modifica o eliminazione di un record.
-* Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
+* <!--In the Production environment,--> Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * È possibile creare una condizione per la regola business che faccia riferimento a tutti i tipi di campo ad eccezione dei seguenti:
   * Campi formula
   * Campi di ricerca

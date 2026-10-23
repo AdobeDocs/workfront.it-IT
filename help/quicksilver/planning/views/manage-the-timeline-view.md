@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
@@ -484,7 +484,6 @@ Per aggiungere un raggruppamento nella vista timeline:
 
 1. Nella casella **Raggruppa record per** trascinare i raggruppamenti nell&#39;ordine corretto.
 
-
 1. Nell&#39;area **Layout** della casella **Raggruppa record per** selezionare una delle opzioni seguenti:
 
    * **In pila**: i raggruppamenti vengono visualizzati senza una colonna sinistra bloccata e rientrano nella larghezza delle timeline dei relativi elementi.
@@ -524,6 +523,11 @@ Per aggiungere un raggruppamento nella vista timeline:
    >Quando si trascinano record da un raggruppamento all&#39;altro, i campi selezionati nel raggruppamento aggiornano automaticamente i valori dei record spostati.
 1. (Facoltativo) Fai clic su **Impostazioni**, quindi su **Colore** per impostare i raggruppamenti del codice colore. Per ulteriori informazioni, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Aggiungi ordinamento
 
@@ -549,7 +553,17 @@ Per aggiungere un ordinamento nella vista timeline:
 
    ![Ordina nella sequenza temporale con ordinamento di raggruppamento](assets/sort-in-timeline.png)
 1. Dal menu a discesa, selezionare **Ordina record**, quindi fare clic su un campo elencato nell&#39;elenco **Inizia con un campo suggerito** oppure fare clic su **Scegli un campo diverso**, quindi cercare il campo e fare clic su di esso quando viene visualizzato nell&#39;elenco.
-1. Selezionare la direzione in cui applicare l&#39;ordinamento dei record (alfabetico, discendente inverso, ecc.). La direzione di applicazione di un ordinamento dipende dal formato del campo selezionato.
+1. Selezionare la direzione in cui applicare l&#39;ordinamento dei record (alfabetico, discendente inverso, ecc.).
+
+   Ad esempio, l’ordinamento di un campo di testo potrebbe essere A -> Z o Z -> A.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   La direzione di applicazione di un ordinamento dipende dal formato del campo selezionato.
 1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere fino a 10 condizioni.
 1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutte le condizioni.
 1. Dal menu a discesa nell&#39;angolo superiore sinistro della casella di ordinamento, selezionare **Ordina raggruppamenti**.

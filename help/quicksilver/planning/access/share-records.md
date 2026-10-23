@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 2%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
    >
    >Non è possibile condividere le autorizzazioni con record aggiunti in aree di lavoro diverse. Quando si condividono record in blocco, tutti i record devono essere creati nella stessa area di lavoro.
 
-1. (Facoltativo) Nell&#39;area **Chi ha accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita.  Tutti gli utenti con autorizzazioni **View** o superiori per l&#39;area di lavoro e il tipo di record dispongono delle stesse autorizzazioni per il record.
+1. (Facoltativo) L&#39;opzione **Everyone in the workspace can view** è selezionata per impostazione predefinita.  Tutti gli utenti con autorizzazioni **View** o superiori per l&#39;area di lavoro e il tipo di record dispongono delle stesse autorizzazioni per il record. Non è possibile limitare le autorizzazioni per tutti gli utenti con accesso all&#39;area di lavoro.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (Facoltativo) Fai clic sugli avatar degli utenti nell&#39;opzione **Autorizzazioni ereditate da** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
       >* Non potete concedere agli utenti un&#39;autorizzazione minore per il record se dispongono di Contribute o di una versione successiva per il tipo di record.
       >Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* Non puoi concedere autorizzazioni a utenti che non si trovano nell’area di lavoro. Gli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro e il tipo di record non possono accedere a nessuno dei record.
+      >* Per condividere un record con altri utenti, è necessario disporre delle autorizzazioni di gestione.
 
    <!--   
    Not possible:

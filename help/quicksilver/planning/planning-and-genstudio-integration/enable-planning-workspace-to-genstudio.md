@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!-- add to TOC and mini TOC-->
+<!-- THIS IS HIDDEN FROM TOC-->
 
 <!--
 Better metadata, at publishing:
@@ -45,7 +45,7 @@ Considera i seguenti aspetti:
 * È necessario avere accesso sia a Workfront Planning che a GenStudio for Performance Marketing.
 * Per collegarti all’area di lavoro, devi disporre di un progetto di archiviazione cloud Adobe. L’amministratore dell’organizzazione può crearne una in Adobe Admin Console.
 
-  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/it/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 
 ## Abilitare un&#39;area di lavoro di Workfront Planning in GenStudio

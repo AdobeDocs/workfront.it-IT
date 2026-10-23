@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # Creare e gestire un modulo di richiesta in Pianificazione di Adobe Workfront
@@ -296,14 +296,14 @@ Per configurare le impostazioni del modulo:
 
 1. (Condizionale) Se hai selezionato che la richiesta venga contrassegnata come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indica quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 
-1. Fai clic su **Autorizzazioni** nel pannello a sinistra.
-1. Selezionare il livello di autorizzazione per gli utenti che inviano le richieste tramite questo modulo:
+1. Fai clic su **Autorizzazioni** nel pannello a sinistra per configurare le autorizzazioni di cui disporranno gli utenti per le richieste inviate utilizzando questo modulo per impostazione predefinita. Le autorizzazioni concesse qui avranno effetto immediato per le richieste future e non influiranno sulle richieste esistenti.
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Selezionare il livello di autorizzazione per le richieste inviate a questo modulo per gli utenti che inviano richieste utilizzando questo modulo:
 
    * **Visualizza**: tutti i richiedenti possono aggiungere commenti e condividere il modulo.
    * **Contribuisci**: tutti i richiedenti possono aggiungere commenti, condividere e modificare il modulo.
-   * **Gestisci**: tutti i richiedenti possono aggiungere commenti, condividere, modificare ed eliminare il modulo.
+   * **Gestisci**: tutti i richiedenti possono aggiungere commenti, condividere, modificare ed eliminare il modulo. Questa è l’autorizzazione predefinita.
 
-1. (Facoltativo) Deseleziona una delle autorizzazioni granulari per ogni livello di autorizzazione per impedire ai richiedenti di eseguire le azioni seguenti:
+1. (Facoltativo) <!--<span class="preview">In the **Requestor access** section,</span>--> Deselezionare una delle autorizzazioni granulari per ogni livello di autorizzazione per impedire ai richiedenti di eseguire le azioni seguenti:
 
    * Commento
    * Condividi
@@ -313,6 +313,28 @@ Per configurare le impostazioni del modulo:
    >[!TIP]
    >
    >L’autorizzazione granulare deselezionata qui risulterà inattiva quando condividi la richiesta con tali utenti dalla pagina della richiesta.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Fare clic su **compilazione modulo AI** per configurare un prompt personalizzato quando si utilizza la funzionalità **Compila modulo** durante l&#39;invio delle richieste. </span>
 
