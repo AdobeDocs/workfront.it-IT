@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # Inviare richieste di Pianificazione di Adobe Workfront per creare record
@@ -156,31 +156,25 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 * Quando si sottomette un modulo di richiesta per creare record da un tipo di record globale, i nuovi record vengono salvati nel tipo di record principale o secondario, a seconda della posizione da cui li si sottomette.
 
-  A seconda dell&#39;ambiente utilizzato per inviare richieste e creare record, esistono i seguenti scenari quando si inviano moduli di richiesta associati a tipi di record globali:
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  Quando si inviano moduli per moduli di richiesta associati a tipi di record globali, si verificano gli scenari seguenti:
 
-  * Nell’ambiente di produzione:
+  * Quando si sottomette un modulo di richiesta dalla pagina di un tipo di record globale secondario, il record viene visualizzato nella pagina del tipo di record secondario. Gli utenti visualizzeranno inoltre il nuovo record nella pagina del tipo di record principale, se dispongono dell&#39;accesso per visualizzare l&#39;area di lavoro secondaria.
+  * Quando si invia un modulo di richiesta dalla pagina del tipo di record principale o si utilizza qualsiasi altro metodo descritto in questo articolo, i record vengono visualizzati nella pagina del tipo di record principale.
+  * Se il campo **Workspace** è disponibile nel modulo di richiesta e l&#39;utente sceglie manualmente un&#39;area di lavoro specifica in cui aggiungere il record, il record viene salvato in tale spazio, indipendentemente dal fatto che il modulo sia stato selezionato dalle pagine del tipo di record principale o secondario.
 
-    * Se si sottomette un modulo di richiesta associato a un tipo di record globale utilizzando uno dei metodi descritti in questo articolo, i record verranno visualizzati nella pagina del tipo di record principale.
-
-  * <span class="preview"> Nell&#39;ambiente di anteprima esistono i seguenti scenari: </span>
-
-    <div class="preview">
-
-    * Quando si sottomette un modulo di richiesta dalla pagina di un tipo di record globale secondario, il record viene visualizzato nella pagina del tipo di record secondario. Gli utenti visualizzeranno inoltre il nuovo record nella pagina del tipo di record principale, se dispongono dell&#39;accesso per visualizzare l&#39;area di lavoro secondaria.
-    * Quando si invia un modulo di richiesta dalla pagina del tipo di record principale o si utilizza qualsiasi altro metodo descritto in questo articolo, i record vengono visualizzati nella pagina del tipo di record principale.
-    * Se il campo **Workspace** è disponibile nel modulo di richiesta e l&#39;utente sceglie manualmente un&#39;area di lavoro specifica in cui aggiungere il record, il record viene salvato in tale spazio, indipendentemente dal fatto che il modulo sia stato selezionato dalle pagine del tipo di record principale o secondario.
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
-
-<div class="preview">
 
 * Puoi condividere una richiesta con altri dopo averla inviata.
 
   Per informazioni, vedere [Condividi richieste Planning](/help/quicksilver/planning/requests/share-requests.md).
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
 
    >[!TIP]
    >
-   ><span class="preview">I valori dei campi dei record collegati dipendenti sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   >I valori dei campi dei record dipendenti collegati sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-1. (Facoltativo e condizionale) Fai clic su **Compila modulo** per richiedere che AI compili il modulo. Workfront compila i campi del modulo in base alle informazioni contenute nelle richieste precedenti.
+1. (Facoltativo e condizionale) Fai clic su **Compila modulo** per allegare un file e chiedere ad AI di compilare il modulo con le informazioni all&#39;interno del file. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >Per utilizzare la funzionalità Compila modulo, la tua organizzazione deve consentire **Compilazione modulo AI** nell&#39;area Preferenze di sistema.
+   >* Per utilizzare la funzionalità Compila modulo, la tua organizzazione deve consentire **Compilazione modulo AI** nell&#39;area Preferenze di sistema.
    >
-   >Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >     Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   >
+   >* <span class="preview">Se il gestore dell&#39;area di lavoro ha aggiunto un prompt predefinito al modulo di richiesta, AI compila il modulo con informazioni basate sulle regole stabilite nel prompt predefinito.
+   >
+   >     Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 

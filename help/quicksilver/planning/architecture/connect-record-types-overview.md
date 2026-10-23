@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Panoramica sui tipi di record collegati
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
     * È possibile collegare i marchi GenStudio dai tipi di record di GenStudio e dai tipi di record di Planning.
     * Non è possibile includere Marchi GenStudio in una gerarchia.
 
-  <div class="preview">
-
   * È possibile rendere un campo connessione dipendente dal campo connesso corrispondente dal tipo di record connesso. Quando i due campi vengono visualizzati su un terzo tipo di record, le selezioni disponibili per un campo dipendono dalle selezioni dell&#39;altro campo.
 
     Per ulteriori informazioni e considerazioni aggiuntive, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Esistono gli scenari seguenti quando si duplicano record con un record connesso in un tipo di connessione Uno a uno o Uno a molti:
-
-  * Nell&#39;ambiente di produzione, il record connesso viene spostato sul record duplicato oppure è necessario rimuoverlo manualmente dall&#39;originale prima di duplicare il record e quindi aggiungerlo nuovamente.
-  * <span class="preview">Nell&#39;ambiente di anteprima, è possibile scegliere se il record connesso rimane nell&#39;originale o si sposta nel record duplicato.</span>
+* Quando si duplicano record con un record connesso in un tipo di connessione Uno a uno o Uno a molti, è possibile scegliere se il record connesso rimane sul record originale o si sposta sul record duplicato.
 
   Per ulteriori informazioni, vedere [Record duplicati](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 

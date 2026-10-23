@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 2%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Per eliminare un tipo di record globale da un&#39;area di lavoro secondaria:
    * Il tipo di record creato da un tipo di record globale viene rimosso dall&#39;area di lavoro secondaria selezionata.
    * Il tipo di record originale con i relativi campi rimane nell&#39;area di lavoro originale.
    * Il tipo di record rimane in tutte le altre aree di lavoro in cui è stato aggiunto.
-   * I record <!--and fields--> aggiunti al tipo di record dall&#39;area di lavoro secondaria vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati nelle rispettive aree di lavoro e nell&#39;area di lavoro originale. &lt;!—! - I campi vengono conservati nelle aree di lavoro in cui sono stati aggiunti.
+   * I record <!--and fields--> aggiunti al tipo di record dall&#39;area di lavoro secondaria vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati nelle rispettive aree di lavoro e nell&#39;area di lavoro originale.
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

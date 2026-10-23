@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2129'
 ht-degree: 1%
 ---
 # Esempio di connessione di tipi di record e record
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ Per eseguire questa operazione:
    * **Nome**: assegna un nome al nuovo campo. Ad esempio, &quot;Informazioni sul prodotto&quot;. Questo è il nome del campo record collegato.
    * **Descrizione**: aggiungere una descrizione per il nuovo campo. Ad esempio, &quot;Questi sono i prodotti a cui voglio associare le mie campagne&quot;. La descrizione del campo viene visualizzata quando si passa il cursore sul campo nell’intestazione della colonna.
 
-   <div class="preview">
-
    * **Rendi la connessione dipendente**: se abilitata e i due record connessi vengono visualizzati contemporaneamente in un terzo record, le scelte per un tipo di record dipendono dalle scelte per l&#39;altro.
 
      Per informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    * **Crea campo corrispondente nel tipo di record collegato**: se abilitata, viene creato anche un campo di connessione nel tipo di record a cui si è connessi (Prodotto).
-
-   </div>
 
    * **Tipo di connessione**: selezionare una delle opzioni seguenti:
      * **Molti a molti**: gli utenti possono collegare una campagna a più prodotti e un prodotto a più campagne.
@@ -87,13 +85,11 @@ Per eseguire questa operazione:
      * **Nome**: visualizza solo il nome dei record connessi.
      * **Immagine**: visualizza solo la miniatura o l&#39;icona dei record connessi.
 
-     <div class="preview">
+     * **Colore e nome**: visualizza solo il colore e il nome dei record connessi.
 
-     * **Colore e nome**: visualizza solo il colore e il nome dei record connessi
+   * **Campi di ricerca**: espandere questa opzione per connettere anche i campi di ricerca dai record connessi.
 
-     </div>
-
-   * <span class="preview">**Campi di ricerca**: espandere questa opzione per connettere anche i campi di ricerca dai record connessi. </span>Viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
+     Verrà visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento dei campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
      ![Nuova connessione con tipo di record prodotto](assets/new-connection-with-product-record-type.png)
 

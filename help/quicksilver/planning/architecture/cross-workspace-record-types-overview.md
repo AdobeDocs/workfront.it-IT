@@ -26,16 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1831'
 ht-degree: 0%
 ---
 # Panoramica del tipo di record in più aree di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,8 +208,8 @@ These two capabilities will come later - and edit some of the bullets below afte
   * Creare e gestire le automazioni
   * Creare e gestire i moduli di richiesta
 
-    <span class="preview">È possibile creare record per un tipo di record secondario utilizzando un modulo di richiesta dalla pagina del tipo di record secondario oppure specificando in modo specifico l&#39;area di lavoro in cui deve essere salvato il record durante la compilazione di un modulo di richiesta creato per il tipo di record globale principale e l&#39;aggiornamento del campo Workspace.
-    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).</span>
+    È possibile creare record per un tipo di record secondario utilizzando un modulo di richiesta dalla pagina del tipo di record secondario oppure specificando in quale area di lavoro deve essere salvato il record durante la compilazione di un modulo di richiesta creato per il tipo di record globale principale e l&#39;aggiornamento del campo Workspace.
+    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
 
 * I record aggiunti in un&#39;area di lavoro secondaria sono visibili dalle aree di lavoro seguenti, se si dispone delle autorizzazioni di visualizzazione o di livello superiore per tali aree di lavoro:

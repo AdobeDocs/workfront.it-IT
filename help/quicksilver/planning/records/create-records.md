@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 1%
 ---
 # Creare record
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Connettili da altri record](#create-records-as-you-connect-them)
 * [Inviare un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Importare informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Creare record con CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Utilizzare le automazioni](#create-records-by-using-automations)
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -196,14 +198,9 @@ Old:
   >
   >Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
 
-<div class="preview">
-
 * Tutti i record vengono automaticamente codificati con colori al momento della creazione, indipendentemente dal metodo utilizzato per crearli.
 
   Per ulteriori informazioni, vedere la sezione [Record di codifica colore](#color-coding-records) in questo articolo.
-
-</div>
-
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
@@ -602,6 +599,16 @@ Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/ar
 
 Per informazioni, vedere [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
+## Creazione di record tramite CX Enterprise Coworker
+
+È possibile utilizzare CX Enterprise Coworker per creare i record richiedendo AI per crearli.
+
+È inoltre possibile utilizzare la funzionalità **Allega file** di Workfront CX Enterprise Coworker per caricare un numero elevato di record alla volta. È possibile importare 10.000 o più record utilizzando questo metodo.
+
+CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente AI è disponibile per queste organizzazioni.
+
+Per informazioni, vedere [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 ## Creare record utilizzando le automazioni
 
 In Workfront Planning è possibile configurare automazioni che, se attivate, creano record quando attivate da un record di Planning. I record creati vengono automaticamente connessi ai record da cui si sta attivando l’automazione.
@@ -613,8 +620,6 @@ Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record d
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## Record di codifica colore
 
@@ -657,4 +662,3 @@ Tutti i record vengono associati automaticamente a un colore al momento della cr
 
       Una volta selezionato, il nuovo colore viene applicato immediatamente.
 
-</div>

@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 2%
 ---
 # Configurare l&#39;integrazione di [!DNL SharePoint]
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ Per visualizzare e gestire le integrazioni [!DNL SharePoint] della tua organizza
 
    Viene visualizzato un elenco delle integrazioni [!DNL SharePoint] dell&#39;organizzazione.
 
-1. (Facoltativo) Per modificare un&#39;integrazione [!DNL SharePoint], selezionare la casella di controllo accanto a essa, quindi fare clic su **[!UICONTROL Modifica]** <span class="preview">nella barra blu nella parte inferiore della schermata</span>.
-1. <span class="preview">(Facoltativo) Per disabilitare un&#39;integrazione [!DNL SharePoint], selezionare la casella di controllo accanto a essa, quindi fare clic su **[!UICONTROL Disabilita]** nella barra blu nella parte inferiore dello schermo.</span>
+1. (Facoltativo) Per modificare un&#39;integrazione di [!DNL SharePoint], selezionare la casella di controllo accanto a essa, quindi fare clic su **[!UICONTROL Modifica]** nella barra blu nella parte inferiore dello schermo.
+1. (Facoltativo) Per disabilitare l&#39;integrazione di [!DNL SharePoint], selezionare la casella di controllo accanto a essa, quindi fare clic su **[!UICONTROL Disabilita]** nella barra blu nella parte inferiore dello schermo.
 
 ## Informazioni su sicurezza, accesso e autorizzazione per l&#39;integrazione di [!DNL SharePoint]
 

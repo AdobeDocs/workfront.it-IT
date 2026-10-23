@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3386'
 ht-degree: 2%
 ---
 # Configurare le mie impostazioni
@@ -370,7 +370,7 @@ Specificare gli elementi da visualizzare nell&#39;interfaccia [!DNL Workfront] i
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail Locale]</strong> </td> 
    <td><p>Specificare qui la lingua preferita. Questa controlla la lingua, la data e il formato numerico utilizzati nei messaggi e-mail in uscita.</p>
-   <p><strong>NOTA:</strong> quando la tua organizzazione si trova nell'esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel tuo profilo Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modificare la lingua di Adobe Experience Cloud</a> nell'articolo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Lingue supportate in Adobe Workfront</a>.</p></td> 
+   <p><strong>NOTA:</strong> quando la tua organizzazione si trova nell'esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel tuo profilo Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Modificare la lingua di Adobe CX Enterprise</a> nell'articolo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Lingue supportate in Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Imposta automaticamente lo stato dell'attività su In corso quando le attività vengono assegnate autonomamente]</strong> </td>
   <td>Selezionare questa opzione se si desidera impostare automaticamente lo stato del lavoro assegnato a se stessi su In corso anziché Nuovo.</td>

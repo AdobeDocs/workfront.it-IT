@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 11%
 ---
 # Concedere agli utenti l&#39;accesso amministrativo a determinate aree
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td><p>Crea e gestisci i processi di approvazione per l’utilizzo in tutto il sistema e per gruppi specifici.</p><p>Senza questo accesso, gli utenti possono creare solo processi di approvazione ad hoc sugli elementi che hanno accesso da gestire.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">Cronologia modifiche</span></td> 
-      <td><p><span class="preview">Visualizzare i registri della cronologia delle modifiche di Workfront in Configurazione &gt; Tracciamento delle modifiche &gt; Elenco cronologia modifiche.</span></p>
-      <p><span class="preview">Senza questo accesso, gli utenti non dispongono di questa opzione nell’area Configura.</span></p></td> 
+      <td role="rowheader">Cronologia modifiche</td> 
+      <td><p>Visualizzare i registri della cronologia delle modifiche di Workfront in Configurazione &gt; Tracciamento delle modifiche &gt; Elenco cronologia modifiche.</p>
+      <p>Senza questo accesso, gli utenti non dispongono di questa opzione nell’area Configura.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aziende</td> 

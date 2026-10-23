@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 Un’area di lavoro è una raccolta di tipi di record utilizzati da un’unità organizzativa che rappresenta il ciclo di vita lavorativa e i processi dell’unità. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
-<!--update screenshot with production, it was broken at Preview-->
+<!--update screenshot with production whe we can search for records, it was broken at Preview-->
 
 ![Account amministratore pagina di destinazione aree di lavoro](assets/workspaces-landing-page-admin-account.png)
 

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -142,7 +142,7 @@ In caso di domande o problemi durante l’invio di una richiesta, chiama il team
 
 1. Passa alla pagina **[!UICONTROL Casi personali]**. Questa pagina viene visualizzata quando si invia un caso, oppure è possibile aprirlo facendo clic su **[!UICONTROL Casi personali]** nell&#39;area di navigazione a sinistra.
 
-1. (Facoltativo) Utilizza le opzioni nella parte superiore della pagina per filtrare in base al **prodotto ([!DNL Experience Cloud] soluzione)** o al caso **[!UICONTROL Stato]** ([!UICONTROL Aperto] o Closed). È inoltre possibile utilizzare la casella [!UICONTROL ricerca] per cercare eventuali parole chiave relative ai casi di supporto.
+1. (Facoltativo) Utilizza le opzioni nella parte superiore della pagina per filtrare in base al **prodotto ([!DNL CX Enterprise] soluzione)** o al caso **[!UICONTROL Stato]** ([!UICONTROL Apri] o [!UICONTROL Chiuso]). È inoltre possibile utilizzare la casella [!UICONTROL ricerca] per cercare eventuali parole chiave relative ai casi di supporto.
 
 1. (Facoltativo) Per visualizzare ulteriori dettagli su un caso, fai clic sul **Numero caso** per accedervi.
 

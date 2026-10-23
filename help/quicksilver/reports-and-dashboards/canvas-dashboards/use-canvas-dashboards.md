@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '647'
+ht-degree: 3%
 ---
 # Utilizzare le dashboard dell’area di lavoro
 
@@ -34,12 +34,7 @@ ht-degree: 4%
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica di Canvas Dashboards beta.
 >
 >In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
->
->* Porta la tua chiave per Amazon Web Services
->* Azure
->* Piattaforma Google Cloud
+
 
 I dashboard di Canvas consentono di visualizzare i dati di Adobe Workfront aggiungendo diversi tipi di rapporti a un layout di area di lavoro flessibile. Questo articolo fornisce una panoramica su come utilizzare in modo efficace le dashboard di Canvas.
 
@@ -110,9 +105,9 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
    >
    >Queste modifiche si applicano solo alla sessione corrente e non influiscono sulla configurazione del rapporto originale. Per rendere permanenti queste modifiche, devi modificare il rapporto.
 
-<div class="preview">
 
-### Espandere i dati della tabella pivot in Anteprima
+
+### Espandere i dati della tabella pivot
 
 È possibile fare clic su un valore in un rapporto di tabella pivot per eseguire un drill-down e visualizzare i singoli record che compongono tale valore aggregato.
 
@@ -126,7 +121,7 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
 
    Nella tabella di espansione vengono visualizzate le colonne configurate dal creatore del report in Impostazioni colonna di espansione. Per ulteriori informazioni, vedere [Creare un report di tabella pivot in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

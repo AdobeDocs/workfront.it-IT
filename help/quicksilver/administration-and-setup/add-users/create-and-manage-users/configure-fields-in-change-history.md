@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 8%
 ---
 # Configurare i campi da tenere traccia della cronologia delle modifiche
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront genera aggiornamenti automatici di sistema per registrare i seguenti eventi:
 
@@ -71,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 I limiti per il numero di campi che è possibile monitorare sono definiti dal pacchetto Workfront.
 
 | Pacchetto Workfront | Numero massimo di campi tracciati |
-|---------|----------|
+| --------- | ---------- |
 | Seleziona | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |

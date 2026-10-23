@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 3%
+source-wordcount: '1956'
+ht-degree: 4%
 ---
 <!--
 
@@ -50,11 +50,11 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 L’area di lavoro Adobe GenStudio for Performance Marketing è disponibile in Adobe Workfront Planning quando la tua azienda ha acquistato entrambi i prodotti e l’istanza di Workfront è integrata con l’istanza aziendale di GenStudio.
 
@@ -377,23 +377,20 @@ Si apre la pagina principale della Pianificazione di Workfront.
    * **Modifica**
 
      Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Gestione automazioni** o <span preview="preview">**Automazioni**</span>
+   * **Automazioni**
 
      Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Gestione moduli di richiesta** o <span class="preview">**Moduli di richiesta**</span>
+   * **Moduli di richiesta**
 
      Puoi creare più moduli di richiesta. I moduli di richiesta saranno disponibili nell’area Richieste di Workfront e puoi anche condividerli pubblicamente o con un collegamento.
 
      Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-   <div class="preview">
 
    * **Regole di business**
 
      È possibile configurare le regole business di tipo record per definire le condizioni che devono essere soddisfatte prima che agli utenti sia consentito modificare o eliminare record di quel tipo.
 
      Per informazioni, vedere [Configurare le regole business di tipo record](/help/quicksilver/planning/architecture/configure-business-rules.md).
-   </div>
 
 1. Per condividere una visualizzazione o il tipo di record, eseguire le operazioni seguenti:
 

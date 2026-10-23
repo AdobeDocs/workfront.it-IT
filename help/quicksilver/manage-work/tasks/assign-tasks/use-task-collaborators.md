@@ -16,18 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 2%
 ---
 # Usa agenti di lavoro
 
-{{preview-fast-release-general}}
-
 Gli agenti di lavoro sono collaboratori AI che possono essere assegnati direttamente ad attività, problemi e richieste di Workfront. Come altri collaboratori AI, gli agenti di lavoro sono configurati nell’area Configura e assegnati agli elementi di lavoro proprio come un utente.
 
-Gli agenti di lavoro si connettono agli agenti configurati in Copilot Studio, Claude, <span class="preview">OpenAI o IBM. </span>
+Gli agenti di lavoro si connettono agli agenti configurati in Copilot Studio, Claude, OpenAI o IBM.
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ Alcuni flussi di lavoro di esempio possono includere:
 >
 >* Dettagli specifici sulle responsabilità e sulle capacità di un agente sono configurati nell’applicazione in cui viene creato l’agente, non in Workfront.
 >* Non è necessario aggiungere il server MCP di Workfront all&#39;agente utilizzato come agente di lavoro e non è necessario connettersi affinché l&#39;agente di lavoro funzioni.
->* Gli agenti di lavoro supportano attualmente gli agenti creati in Copilot Studio, Claude, <span class="preview">OpenAI e IBM. </span>
+>* Gli agenti di lavoro supportano attualmente gli agenti creati in Copilot Studio, Claude, OpenAI e IBM.
 >* Durante la configurazione di un agente in Copilot Studio, è necessario impostare la protezione su **Nessuna autenticazione**.
 >* Per informazioni e istruzioni sulla creazione di un agente di lavoro in Workfront, vedere [Configurare un agente di lavoro](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) nell&#39;articolo Configurare i collaboratori di IA.
 
@@ -94,8 +92,8 @@ Quando un agente di lavoro inizia a lavorare su un’attività, legge automatica
 * Descrizione attività
 * Commenti nel flusso di aggiornamento dell&#39;attività
 * Informazioni in qualsiasi modulo personalizzato allegato all’attività
-* <span class="preview">Documenti basati su testo allegati, ad esempio file DOC e PDF</span>
-* <span class="preview">Campi progetto, se sono configurati nella configurazione dell&#39;agente di lavoro</span>
+* Documenti basati su testo allegati, ad esempio file DOC e PDF
+* Campi del progetto, se configurati nella configurazione dell’agente di lavoro
 
 Queste informazioni vengono sempre lette e non sono configurabili come impostazioni di Workfront.
 
@@ -116,7 +114,7 @@ A seconda della configurazione dell’agente di lavoro in Workfront, dopo il com
 
 ## Attivatori avvio agente di lavoro
 
-Quando un agente di lavoro viene assegnato a un&#39;attività <span class="preview">o a un problema</span>, inizia a funzionare quando si verifica una delle seguenti situazioni:
+Quando un agente di lavoro viene assegnato a un’attività o a un problema, inizia a lavorare quando si verifica una delle seguenti situazioni:
 
 <!--update wording to include issues when this goes to production-->
 

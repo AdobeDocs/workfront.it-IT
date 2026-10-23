@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
 source-wordcount: '2357'
 ht-degree: 0%
@@ -40,13 +40,13 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 >[!NOTE]
 >
-><span class="preview">Per ridurre le dimensioni del catalogo MCP per i client che caricano tutti gli strumenti in primo piano, è possibile aggiungere il parametro di query `toolsets` all&#39;URL del server MCP di Workfront. Ad esempio: </span>
+>Per ridurre le dimensioni del catalogo MCP per i client che caricano tutti gli strumenti in primo piano, è possibile aggiungere il parametro di query `toolsets` all&#39;URL del server MCP di Workfront. Ad esempio:
 >
 >```
 >https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
 >```
 >
-><span class="preview">Per ulteriori informazioni sui set di strumenti, vedere [i set di strumenti nel server MCP di Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) nell&#39;articolo Strumenti server MCP di Adobe Workfront.</span>
+>Per ulteriori informazioni sui set di strumenti, vedere [Toolset nel server MCP di Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) nell&#39;articolo Strumenti server MCP di Adobe Workfront.
 
 ## Prerequisiti
 
@@ -68,7 +68,7 @@ L&#39;accesso al server MCP è gestito da due amministratori distinti.
 
 * Se utilizzi una versione Enterprise di una piattaforma AI agente, l&#39;amministratore di tale piattaforma deve abilitare il connettore [!DNL Adobe Workfront] per la tua organizzazione o concederti l&#39;accesso URL personalizzato per connettersi al server Workfront MCP.
 
-* <span class="preview">Se stai connettendo un&#39;applicazione personalizzata o una piattaforma agente con un URL di callback OAuth univoco per cliente, l&#39;amministratore di Workfront deve aggiungere tale URL all&#39;elenco **URL di reindirizzamento autorizzati** in **Preferenze di sistema > Preferenze MCP**. In caso contrario, l’autenticazione viene rifiutata. Per ulteriori informazioni, vedere [Connessione con OAuth](#connect-with-oauth) in questo articolo.</span>
+* Se stai connettendo un&#39;applicazione personalizzata o una piattaforma agente con un URL di callback OAuth univoco per cliente, l&#39;amministratore di Workfront deve aggiungere tale URL all&#39;elenco **URL di reindirizzamento autorizzati** in **Preferenze di sistema > Preferenze MCP**. In caso contrario, l’autenticazione viene rifiutata. Per ulteriori informazioni, consulta [Connettersi con OAuth](#connect-with-oauth) in questo articolo.
 
 
 ## Connettere Workfront a Claude
@@ -254,8 +254,6 @@ Esistono due modi per connettersi:
 
 ### Connessione con OAuth
 
-<div class="preview">
-
 Se la piattaforma dell’agente di intelligenza artificiale o l’applicazione personalizzata che stai connettendo dispone di un URL di callback (reindirizzamento) OAuth univoco per cliente, ad esempio un URL contenente una connessione o un ID tenant, l’amministratore di Workfront deve aggiungere tale URL all’elenco degli URL di reindirizzamento autorizzati della tua organizzazione prima che tu possa eseguire l’autenticazione.
 
 >[!NOTE]
@@ -280,7 +278,6 @@ Durante la connessione, ti verrà richiesto di eseguire l’autenticazione utili
 
 Se l&#39;URL di callback non è presente nell&#39;elenco, la richiesta di autenticazione viene rifiutata. Chiedi all’amministratore di Workfront di confermare che l’URL sia stato immesso esattamente come previsto dalla tua integrazione.
 
-</div>
 
 ## Verifica la connessione
 

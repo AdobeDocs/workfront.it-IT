@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 22%
 ---
 # Panoramica delle dashboard dell’area di lavoro
@@ -43,11 +43,7 @@ ht-degree: 22%
 >
 >In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, consulta [Contattare l’Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
->Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
->
->* Porta la tua chiave per Amazon Web Services
->* Azure
->* Piattaforma Google Cloud
+
 
 I dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Workfront aggiungendo tipi di rapporti a un’area di lavoro che offre diverse opzioni di layout flessibili, tra cui ridimensionamento, trascinamento e rilascio di altri elementi.
 

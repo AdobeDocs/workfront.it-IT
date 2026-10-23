@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
+source-git-commit: beb4990355a7445994309d242bdc195d6d3a847c
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 4%
 ---
 # Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare quali controlli elenco visualizzare nei menu a discesa Filtro, Visualizza e Raggruppamento. Questi menu vengono visualizzati sopra gli elenchi in Workfront, ad esempio l’elenco delle attività di un progetto:
 
@@ -103,7 +101,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >   
    >  ![Disabilita pulsante filtri](assets/disable-filter-pills.png)
 
-   <span class="preview">Sono disponibili alcuni elenchi avanzati tra cui scegliere. Questi elenchi hanno un’etichetta &quot;Nuova esperienza&quot; accanto ai controlli elenco. Per informazioni sugli elenchi avanzati, vedere [Utilizzare gli elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
+   Alcuni elenchi avanzati sono disponibili tra cui scegliere. Questi elenchi hanno un’etichetta &quot;Nuova esperienza&quot; accanto ai controlli elenco. Per informazioni sugli elenchi avanzati, vedere [Utilizzare gli elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Facoltativo) Se desideri modificare il filtro, la visualizzazione o il raggruppamento predefiniti per il modello di layout, passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento, quindi fai clic su **Imposta come predefinito**.
 

@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 4%
+source-wordcount: '1200'
+ht-degree: 5%
 ---
 <!--this is linked to the UI in an empty workspace screen-->
 
@@ -41,11 +41,11 @@ ht-degree: 4%
 
 # Creare tipi di record
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -301,18 +301,14 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 
    Le modifiche vengono salvate automaticamente.
 
-   Per ulteriori informazioni sull&#39;aggiunta di record, l&#39;eliminazione o la modifica di tipi di record, la <span class="preview">creazione di regole business</span> o l&#39;aggiornamento della visualizzazione nella pagina del tipo di record, vedere gli articoli seguenti:
+   Per ulteriori informazioni sull&#39;aggiunta e la gestione di record a un tipo di record, vedere gli articoli seguenti:
 
    * [Creare record](/help/quicksilver/planning/records/create-records.md)
    * [Eliminare i tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Modificare i tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Gestisci visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md)
-
-   <div class="preview">
-
+   * [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md)
    * [Creare tipi di record regole business](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
-   </div>
 
 ## Creare tipi di record importando informazioni da un file CSV o Excel
 

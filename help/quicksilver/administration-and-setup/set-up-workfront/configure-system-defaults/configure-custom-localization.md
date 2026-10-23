@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 5%
 ---
 # Configurare la localizzazione personalizzata
 
-{{highlighted-preview}}
-
-La localizzazione personalizzata consente di <span class="preview"> utilizzare l&#39;intelligenza artificiale</span> per definire termini e frasi personalizzati in lingue diverse. Workfront visualizza questi termini nella lingua impostata nelle impostazioni Adobe Identity Management (IMS) dell’utente.
+La localizzazione personalizzata consente di utilizzare l’intelligenza artificiale per definire termini e frasi personalizzati in lingue diverse. Workfront visualizza questi termini nella lingua impostata nelle impostazioni Adobe Identity Management (IMS) dell’utente.
 
 Ad esempio, l’etichetta &quot;Pubblico di destinazione&quot; può essere localizzata nella parola tedesca &quot;Zielgruppe&quot;. Qualsiasi utente che utilizza come lingua principale del browser il tedesco vede la parola &quot;Zielgruppe&quot; come un’etichetta per qualsiasi campo etichettato &quot;Target Audience&quot; in inglese.
 
@@ -92,8 +90,6 @@ Le traduzioni vengono configurate nell’area Configurazione.
 1. (Facoltativo) Per riordinare le colonne della lingua, fai clic sull’intestazione di una colonna da spostare e trascinala nella posizione desiderata.
 1. (Facoltativo) Per eliminare le traduzioni per un termine, fai clic sulla casella di controllo accanto al termine, quindi fai clic su **Elimina** nella barra blu nella parte inferiore della pagina.
 
-<div class="preview">
-
 ## Localizzare il testo personalizzato non tradotto utilizzando le traduzioni basate su IA
 
 Puoi utilizzare l’intelligenza artificiale per localizzare il testo personalizzato. Seleziona il termine e le lingue e puoi approvare le traduzioni prima che vengano applicate.
@@ -149,5 +145,3 @@ Puoi tradurre un termine localizzato in precedenza in nuove lingue utilizzando l
 1. Fai clic su **Salva**.
 1. (Facoltativo) Per eliminare tutte le traduzioni per un termine, fai clic sulla casella di controllo accanto al termine, quindi fai clic su **Elimina** nella barra blu nella parte inferiore della pagina.
 
-
-</div>

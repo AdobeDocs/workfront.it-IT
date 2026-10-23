@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 88%
 ---
 # Gestire gli utenti in Adobe Admin Console
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Devi aggiungere un utente all’istanza di Produzione di Workfront prima di pote
 
    L’utente viene creato in Workfront con il livello di accesso Richiedente o Collaboratore, a seconda del pacchetto di Workfront della tua organizzazione.
 
-   <span class="preview">Se l&#39;amministratore di Workfront ha impostato un livello di accesso predefinito per gli utenti creati in Admin Console, l&#39;utente viene creato con tale livello di accesso. Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
+   Se l’amministratore di Workfront ha impostato un livello di accesso predefinito per gli utenti creati in Admin Console, l’utente viene creato con tale livello di accesso. Per ulteriori informazioni, vedere [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
    >[!IMPORTANT]
    >

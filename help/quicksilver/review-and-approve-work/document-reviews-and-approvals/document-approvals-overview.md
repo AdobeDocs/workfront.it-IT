@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # Panoramica sulla revisione e sull’approvazione unificata
-
-{{highlighted-preview}}
 
 La revisione e l’approvazione unificate riuniscono Adobe Workfront e Adobe Frame.io in un’unica esperienza profondamente connessa, che colma le lacune esistenti tra la gestione del marketing, la revisione creativa e la distribuzione dei contenuti.
 I coordinatori dei progetti gestiscono il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate esaminano e approvano le risorse nel visualizzatore Frame.io di livello professionale, il tutto senza spostare i file tra strumenti disconnessi.
@@ -110,9 +108,9 @@ La funzionalità Workfront Proofing non è disponibile con questa integrazione.
 
 ## Audit trail completo
 
-<span class="preview">La revisione e l&#39;approvazione unificate includono la registrazione completa dei controlli di audit che crea un percorso di governance completo in Workfront e Frame.io. I registri di tracciamento delle modifiche acquisiscono le decisioni di approvazione prese nel visualizzatore Frame.io e nel ciclo di vita del documento. Ogni voce di registro include l&#39;attribuzione del sistema di origine (Workfront o Frame.io) insieme ai campi di controllo standard di Workfront: data e ora, tipo di registro, nome utente, azione e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi nei registri di controllo.</span>
+La revisione e l&#39;approvazione unificate includono una registrazione di audit completa che crea un percorso di governance completo in Workfront e Frame.io. I registri di tracciamento delle modifiche acquisiscono le decisioni di approvazione prese nel visualizzatore Frame.io e nel ciclo di vita del documento. Ogni voce di registro include l&#39;attribuzione del sistema di origine (Workfront o Frame.io) insieme ai campi di controllo standard di Workfront: data e ora, tipo di registro, nome utente, azione e nome oggetto. I commenti del visualizzatore Frame.io non sono inclusi nei registri di audit.
 
-<span class="preview">I registri di rilevamento delle modifiche vengono visualizzati nell&#39;area Configurazione di Workfront e sono disponibili per l&#39;esportazione. Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia delle modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
+I registri di rilevamento delle modifiche vengono visualizzati nell’area Configurazione di Workfront e sono disponibili per l’esportazione. Per ulteriori informazioni, vedere [Visualizzare e gestire la cronologia modifiche](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Potente gestione dei progetti in Workfront
 
@@ -360,17 +358,11 @@ Il visualizzatore Frame.io include un set completo di strumenti di markup visivo
 
 I commenti e le annotazioni rimangono all&#39;interno del visualizzatore Frame.io in modo che mantengano il contesto completo, inclusi i timestamp e le marcature visive. Questo comportamento potrebbe evolvere nelle versioni future.
 
-<span class="preview">
-
-In anteprima, nel pannello Commenti di Workfront viene visualizzato un messaggio che informa quando sono disponibili nuovi commenti in Frame.io.</span>
-
-<div class="preview">
+Nel pannello Commenti di Workfront viene visualizzato un messaggio che informa quando sono disponibili nuovi commenti in Frame.io.
 
 **Chi può vedere l&#39;indicatore del commento Frame.io in Workfront?**
 
 L&#39;indicatore è visibile solo agli utenti che erano già in grado di visualizzare tali commenti in Frame.io. Se si dispone di una licenza Frame.io Enterprise, sarà possibile visualizzarla per eventuali commenti sul documento. Se non si dispone di una licenza Frame.io Enterprise, questa verrà visualizzata solo dopo l&#39;approvazione del documento. Le approvazioni consentono di rendere visibili anche tutti i commenti precedenti sul documento.
-
-</div>
 
 **È possibile aggiungere commenti a una versione scaricata di una risorsa (ad esempio, un PDF)?**
 
