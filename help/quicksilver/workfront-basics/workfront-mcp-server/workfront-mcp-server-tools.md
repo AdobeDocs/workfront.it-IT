@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 3%
 ---
 
@@ -67,10 +67,11 @@ Questo esempio espone le funzionalità `core` e `comment-stream`. Il gruppo `cor
 
 I set di strumenti disponibili includono:
 
-* `core`: il set di strumenti di base di Workfront incluso automaticamente quando si seleziona un sottoinsieme di set di strumenti.
+* `core`: set di strumenti di base di Workfront incluso automaticamente quando si seleziona un sottoinsieme di set di strumenti.
 * `comment-stream`: strumenti per i flussi di lavoro di commenti e discussioni.
-* `planning`: strumenti per le funzionalità di Workfront Planning.
-* `approvals` — strumenti per flussi di lavoro di approvazione.
+* `planning`: Strumenti per le funzionalità di Workfront Planning.
+* `approvals`: strumenti per i flussi di lavoro di approvazione.
+* `reporting`: strumenti per il reporting.
 
 Per esporre il catalogo autorizzato completo, omettere il parametro o utilizzare `toolsets=all`.
 

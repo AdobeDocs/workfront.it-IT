@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3413'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -43,19 +43,23 @@ CX Coworker ora può importare 10.000 o più record dai fogli di calcolo Excel e
 
 Per informazioni, vedere [Utilizzare CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-## Abilitare le aree di lavoro di Planning in GenStudio for Performance Marketing
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->Anteprima e produzione: 21 ottobre 2026
->[!BADGE Fuori programma]{type=Neutral}
->Disponibile solo per i clienti con una licenza Adobe GenStudio for Performance Marketing
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-È ora possibile abilitare un&#39;area di lavoro Workfront Planning esistente per l&#39;utilizzo in un piano GenStudio for Performance Marketing, in modo da poter riutilizzare campagne, prodotti, utenti tipo e altri record senza ricrearli.
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-Utilizzando i progetti di archiviazione GenStudio Adobe, è possibile mappare i tipi di record e i campi di Planning ai tipi di record e ai campi dell&#39;area di lavoro GenStudio e quindi accedere alle informazioni dell&#39;area di lavoro Planning in GenStudio dal commutatore del progetto.
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-Per informazioni, vedere [Abilitare un&#39;area di lavoro Adobe Workfront Planning in GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Tipi di attivazione di Meta per la creatività dinamica
 
