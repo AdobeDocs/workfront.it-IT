@@ -101,7 +101,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Le regole non bloccano la creazione dei record. Gli utenti possono comunque creare record, ma devono assicurarsi che i campi obbligatori non siano vuoti o contengano il valore specificato.
 * Le regole non modificano o eliminano automaticamente i record. La modifica deve essere intenzionale e attivata da un utente.
 * Le regole non vengono applicate retroattivamente: i record precedenti non vengono interessati. Il controllo delle regole viene eseguito solo al successivo tentativo di modifica o eliminazione di un record.
-* <!--In the Production environment,--> Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
+* &#x200B;<!--In the Production environment,--> Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
 
 <!--
 <div class="preview">
