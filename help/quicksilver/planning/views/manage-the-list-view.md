@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-È possibile visualizzare gli oggetti nella vista a elenco nelle seguenti aree di Workfront Planning:
+È possibile visualizzare gli oggetti nella vista a elenco in Adobe Workfront Planning nelle seguenti aree:
 
 * Pagina record connessi per i progetti nell&#39;area dei dettagli di un record
 
@@ -53,6 +53,8 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
   ![Moduli di richiesta nella vista a elenco](assets/request-forms-in-list-view.png)
 
 In questo articolo viene descritto come spostarsi, creare o modificare una vista elenco in Workfront Planning.
+
+Per informazioni su tutte le altre visualizzazioni disponibili in Workfront Planning, vedere [Gestione visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisiti di accesso
 

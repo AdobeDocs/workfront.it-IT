@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configurare i collaboratori IA
@@ -37,6 +37,8 @@ I tipi di Collaboratore IA disponibili includono:
 * Agente di lavoro: crea un collaboratore utilizzando una piattaforma di intelligenza artificiale standard come Claude, OpenAI o Copilot, quindi assegna il collaboratore a un’attività o a un problema per completare gli elementi di lavoro.
 
   Per ulteriori informazioni, vedere [Utilizzare agenti di lavoro](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Le licenze utilizzate dai collaboratori AI non vengono fatturate. Se la tua organizzazione dispone di 200 licenze Workfront e crea un Collaboratore AI, sono in uso 201 licenze, ma solo 200 vengono fatturate.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,6 +125,8 @@ Poiché gli agenti di lavoro sono agenti, le loro azioni e capacità vengono con
 
 Gli agenti di lavoro possono essere assegnati ad attività o problemi.
 
+Le licenze utilizzate dagli agenti di lavoro non sono fatturate. Se la tua organizzazione dispone di 200 licenze Workfront e crea un agente di lavoro, sono in uso 201 licenze, ma solo 200 vengono fatturate.
+
 Per un elenco delle best practice per la creazione di un agente che possa funzionare come agente di lavoro, vedere [Best practice per la creazione di un agente per un agente di lavoro](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configurare un agente di lavoro in Workfront](#configure-a-work-agent-in-workfront)
@@ -200,7 +204,6 @@ Le seguenti best practice potrebbero essere utili per la creazione di un agente 
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
