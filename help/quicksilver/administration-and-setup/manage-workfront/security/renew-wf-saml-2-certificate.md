@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >Poiché tutte le organizzazioni sono ora state integrate in Adobe Admin Console, questa funzionalità è diventata obsoleta.
 >
->Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consulta la sezione &quot;La firma digitale nella risposta SAML non è stata convalidata...&quot; in [Risoluzione dei problemi di Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
+>Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consulta la sezione &quot;La firma digitale nella risposta SAML non è stata convalidata...&quot; in [Risoluzione dei problemi di Federated ID](https://helpx.adobe.com/it/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
