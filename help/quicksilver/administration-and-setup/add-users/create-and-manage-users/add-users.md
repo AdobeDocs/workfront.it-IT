@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 20%
+source-wordcount: '1246'
+ht-degree: 21%
 ---
 # Aggiungi utenti
 
@@ -42,8 +42,6 @@ ht-degree: 20%
 >   Per istruzioni sulla creazione di amministratori di sistema in Adobe Admin Console, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >   Gli amministratori di gruppi nelle organizzazioni che hanno effettuato l’onboarding in Adobe Admin Console possono utilizzare questa procedura per creare utenti e inviare l’utente per l’approvazione dell’amministratore.
->
->   Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, vedi [Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Se l’organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni ad Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
 >   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
