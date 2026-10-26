@@ -6,7 +6,7 @@ description: Comprendi le principali differenze sugli oggetti di archiviazione c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Se un nome è in conflitto con queste regole, Workfront rinomina automaticamente
 ## Portabilità degli oggetti
 
 Nella maggior parte degli scenari, è possibile spostare, copiare e convertire oggetti Workfront solo tra modelli di memorizzazione simili. Ad esempio, puoi spostare un’attività da un progetto di archiviazione cloud Adobe a un altro progetto di archiviazione cloud Adobe. In tre casi specifici, puoi convertire un oggetto di archiviazione Workfront legacy in archiviazione cloud Adobe.
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 Per ulteriori informazioni, consulta [Convertire oggetti legacy in Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md).
 

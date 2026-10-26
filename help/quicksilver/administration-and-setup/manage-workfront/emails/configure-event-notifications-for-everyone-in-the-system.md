@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c3f012074799cc64a3aa5e1ffd212e1871e61529
+source-git-commit: 86cd7c186c2b27cd8f93b640f8a56223c345959d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 6%
+source-wordcount: '548'
+ht-degree: 7%
 ---
 # Configurare le notifiche degli eventi per tutti nel sistema
 
@@ -78,6 +78,7 @@ Per informazioni sullo sblocco di una notifica evento in modo che gli amministra
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
+
 ## Configurare le notifiche degli eventi per tutti gli utenti
 
 È necessario abilitare le notifiche nell’area Configurazione di Workfront prima che gli utenti possano abilitarle o disabilitarle nei loro profili individuali.
@@ -92,23 +93,62 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Area di notifica nelle e-mail di configurazione](assets/notifications-area-under-setup-emails.png)
 
+
 1. Assicurati che la scheda **Notifiche evento** sia aperta.
-1. Attiva o disattiva il pulsante a sinistra del nome dell&#39;evento. <!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
+1. Attiva o disattiva il pulsante a sinistra del nome dell&#39;evento.
 
    Per visualizzare lo stato di notifica predefinito per un evento, vedi [Notifiche evento](../../../workfront-basics/using-notifications/event-notifications.md).
 
-1. (Facoltativo) Per personalizzare la riga dell’oggetto della notifica e-mail, puoi:
-
-   * Fai clic sull&#39;icona del lucchetto ![Icona lucchetto](assets/lock-icon-100626.png) o sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra della notifica e seleziona **Modifica**.
-   * Selezionare la casella di controllo accanto alla notifica e fare clic su **Modifica** nella barra delle azioni nella parte inferiore della schermata.
+1. (Facoltativo) Fai clic sul nome di una notifica di evento per personalizzare la riga dell’oggetto della notifica e-mail.
 
    Per ulteriori informazioni sulla personalizzazione dell&#39;oggetto delle notifiche e-mail, vedere [Personalizzare gli oggetti e-mail per le notifiche degli eventi](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Facoltativo) Per sbloccare la configurazione di una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, puoi:
-
-   * Fai clic sull&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-100626.png) a destra della notifica e seleziona **Sblocca accesso gruppo**. L’icona del lucchetto non viene più visualizzata quando la notifica viene sbloccata.
-   * Selezionare la casella di controllo accanto alla notifica e fare clic su **Sblocca accesso gruppo** nella barra delle azioni nella parte inferiore della schermata.
+1. (Facoltativo) Se desideri sbloccare la configurazione per una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fai clic sul pulsante ![Blocca/blocca](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![Sblocca/Sblocca](assets/unlock-toggle-button.png).
 
    Per ulteriori informazioni, vedere [Sbloccare o bloccare la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 Gli utenti possono personalizzare la frequenza di queste notifiche nel loro profilo utente.
+
+
+<!--
+<div class="preview">
+## Configure event notifications for all users in Preview
+
+You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
+
+>[!TIP]
+>
+>You cannot activate notifications for Workfront Goals from the Setup area. Users can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+
+{{step-1-to-setup}}
+
+1. Click **Email** > **Notifications**.
+
+    ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
+   
+1. Make sure the **Event Notifications** tab is open.
+1. Toggle the switch to the left of the event name to turn it on or off. 
+
+Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+
+
+   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
+1. (Optional) To customize the subject line of the email notification, you can:
+
+   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) or **More** menu ![More menu](assets/more-icon.png) to the right of the notification and select **Edit**.
+   * Select the check box next to the notification and click **Edit** in the action bar at the bottom of the screen.
+
+   For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+
+1. (Optional) To unlock configuration for an email notification so that group administrators can configure it separately for their groups, you can:
+
+   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) to the right of the notification and select **Unlock Group Access**. The lock icon is no longer displayed when the notification is unlocked.
+   * Select the check box next to the notification and click **Unlock Group Access** in the action bar at the bottom of the screen.
+
+   For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Users can customize the frequency of these notifications in their user profile. 
+</div >
+
+-->
