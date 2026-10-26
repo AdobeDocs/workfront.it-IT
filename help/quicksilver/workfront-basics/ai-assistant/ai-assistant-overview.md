@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '872'
 ht-degree: 93%
 ---
 # Assistente IA in Workfront
@@ -69,10 +69,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per abilitare l&#39;Assistente IA per la tua organizzazione, **tutti** i seguenti elementi devono essere applicati:
 
-<!--Remove me October 2026-->
-
-* L’organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
-* Adobe Unified Experience deve essere abilitata
 * L’organizzazione deve disporre di un piano Workfront Ultimate, Prime o Select
 * Adobe deve disporre di un accordo Adobe Gen AI firmato registrato
 

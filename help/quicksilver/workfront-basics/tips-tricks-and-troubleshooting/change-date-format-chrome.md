@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 0%
 ---
 # Cambia il formato delle date in [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decided to make it more generic and hide the steps. Also see drafted content below-->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
@@ -47,4 +47,3 @@ ht-degree: 0%
 
 La preferenza di data è controllata dalla preferenza di lingua impostata in Adobe Unified Shell. L&#39;impostazione predefinita per la lingua, e quindi per la data, è `en-US`.
 
-Per ulteriori informazioni, vedere [[!DNL Adobe Unified Experience] per [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences).

@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 10%
+ht-degree: 16%
 ---
 # Differenze di amministrazione tra Adobe Workfront e Adobe Business Platform
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 Tutte le organizzazioni Workfront sono ora integrate in Adobe Business Platform. In qualità di amministratore di Adobe Workfront, le tue responsabilità e procedure di amministrazione potrebbero essere diverse ora che la tua organizzazione è stata integrata in Adobe Business Platform. In questo articolo sono elencate le procedure che vengono ora gestite in modo diverso.
 
@@ -75,7 +75,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -86,7 +86,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -110,7 +110,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -121,7 +121,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/it/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -144,7 +144,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ Per istruzioni sulla creazione degli amministratori di sistema di Workfront, ved
 
 ## Rinnovare il certificato SAML
 
-Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consulta la sezione &quot;La firma digitale nella risposta SAML non è stata convalidata...&quot; in [Risoluzione dei problemi di Federated ID](https://helpx.adobe.com/it/enterprise/kb/tshoot-fed-id.html)
+Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consulta la sezione &quot;La firma digitale nella risposta SAML non è stata convalidata...&quot; in [Risoluzione dei problemi di Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -193,7 +193,7 @@ Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consult
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/it/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -206,10 +206,12 @@ Per istruzioni sul rinnovo del certificato SAML sul Adobe Admin Console, consult
 Poiché Adobe Business Platform controlla il Single Sign-On (SSO) per gli utenti, le azioni e le funzionalità seguenti vengono gestite automaticamente tramite Adobe Business Platform. Pertanto, le seguenti azioni non sono più disponibili.
 
 
-* [Configura Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Configurazione di Adobe Workfront con SAML 2.0 tramite ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Disattivare il Single Sign-On in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [Aggiorna metadati SAML 2.0 nel provider di identità](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Aggiorna utenti per Single Sign-On](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configura criteri password per l&#39;autenticazione](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* Configurare Adobe Workfront con SAML 2.0
+* Configurare Adobe Workfront con SAML 2.0 tramite ADFS
+* Disattivare il single sign-on in Adobe Workfront
+* Aggiornamento dei metadati SAML 2.0 nel provider di identità
+* Aggiornare utenti per Single Sign-On
+* Configurare i criteri password per l’autenticazione
+* Configurare le preferenze di sicurezza del sistema
+
+

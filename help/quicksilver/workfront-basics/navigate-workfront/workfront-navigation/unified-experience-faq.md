@@ -25,145 +25,149 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 1%
+source-wordcount: '48'
+ht-degree: 10%
 ---
 # Domande frequenti su [!DNL Adobe Unified Experience]
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!NOTE]
 >
->Tutte le organizzazioni Workfront ora utilizzano Adobe Unified Experience per accedere a Workfront.
+>Poiché tutte le organizzazioni Workfront ora utilizzano Adobe Unified Experience per accedere a Workfront, questo articolo è stato rimosso.
 
-[!DNL Adobe Unified Experience] per [!DNL Workfront] consente di gestire tutte le applicazioni di [!DNL Adobe] in un&#39;unica posizione con un unico accesso. L&#39;area di navigazione [!DNL Adobe] è integrata direttamente con [!DNL Workfront]. Alcune funzionalità sono diverse e potresti avere alcune domande quando la tua istanza di [!DNL Workfront] verrà migrata all&#39;esperienza unificata.
+<!--
 
-Per informazioni su come accedere a [!DNL Adobe Unified Experience], vedere [[!DNL Adobe Unified Experience] per [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+The [!DNL Adobe Unified Experience] for [!DNL Workfront] allows you to manage all of your [!DNL Adobe] applications in one place with a single login. The [!DNL Adobe] navigation area is integrated seamlessly with [!DNL Workfront]. A few features are different, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
 
-## Confronto tra l&#39;esperienza [!DNL Adobe Unified Experience] e [!DNL Workfront only]
+For information about how to log in to the [!DNL Adobe Unified Experience], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Solo i clienti che utilizzano [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console] possono accedere a [!DNL Adobe Unified Experience]. I clienti che non hanno ancora eseguito la migrazione vedranno l&#39;esperienza [!DNL Workfront only], senza la possibilità di passare da un&#39;applicazione all&#39;altra [!DNL Adobe].
+## Comparison of [!DNL Adobe Unified Experience] and [!DNL Workfront only] experience
 
-Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
+Only customers using the [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console] can access the [!DNL Adobe Unified Experience]. Customers who have not yet migrated will see the [!DNL Workfront only] experience, without the ability to switch between [!DNL Adobe] applications.
 
-| [!DNL Adobe Unified Experience] | Solo esperienza [!DNL Workfront] |
+This table describes some features that differ between the two experiences.
+
+| [!DNL Adobe Unified Experience] | [!DNL Workfront] only experience |
 | ---- | ----|
-| [!UICONTROL [!DNL Workfront] Menu principale] a sinistra ![Menu principale](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Menu principale] a destra ![Menu principale](assets/main-menu-icon.png) |
-| Un singolo URL di accesso è disponibile per tutte le applicazioni [!DNL Adobe Experience Cloud] | Accedi a [!DNL Workfront] con un URL [!DNL Workfront] personalizzato |
-| Un &quot;cambio organizzazione&quot; consente di spostarsi tra [!DNL Workfront] organizzazioni e ambienti | Il &quot;selettore organizzazione&quot; non è disponibile |
-| La navigazione include un&#39;area di navigazione di primo livello per i prodotti [!DNL Adobe], le notifiche [!DNL Adobe], la guida e il profilo utente, oltre alla barra di navigazione [!DNL Workfront] | La navigazione include solo la barra di navigazione [!DNL Workfront] |
-| La Guida è accessibile tramite il [!UICONTROL menu principale] e l&#39;area di navigazione superiore | La Guida è accessibile tramite il [!UICONTROL menu principale] e la barra di navigazione [!DNL Workfront] |
-| Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
-| URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.adobe.com` |
-| Il formato della data (ad esempio GG/MM/AAAA) si basa sulle impostazioni della lingua Unified Experience. Se l&#39;utente non ha aggiornato le impostazioni della lingua, verranno utilizzate `en-US` impostazioni. | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle preferenze del browser |
+| [!UICONTROL [!DNL Workfront] Main Menu] is on the left ![Main Menu](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Main Menu] is on the right ![Main Menu](assets/main-menu-icon.png) |
+| A single login URL is available for all [!DNL Adobe Experience Cloud] applications | Log in to [!DNL Workfront] with a custom [!DNL Workfront] URL |
+| An "organization switcher" allows you to move between [!DNL Workfront] organizations and environments | The "organization switcher" is not available |
+| Navigation includes a top level navigation area for [!DNL Adobe] products, [!DNL Adobe] notifications, help, and your user profile, in addition to the [!DNL Workfront] navigation bar | Navigation includes the [!DNL Workfront] navigation bar only |
+| Help is accessible via the [!UICONTROL Main Menu] and top navigation area | Help is accessible via the [!UICONTROL Main Menu] and [!DNL Workfront] navigation bar |
+| The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
+| URL used to access Workfront is `experience.adobe.com` | URL used to access Workfront is `(CompanyName).my.workfront.adobe.com` |
+| Date format (such as MM/DD/YYYY) is based on Unified Experience language settings. If the user has not updated their language settings, `en-US` settings are used. | Date format (such as MM/DD/YYYY) is based on browser preferences |
 
 {style="table-layout:auto"}
 
-## Domande frequenti
+## Frequently asked questions
 
-### Come posso determinare se utilizzo Adobe Unified Experience o Adobe Workfront?
+### How do I determine whether I am using Adobe Unified Experience or Adobe Workfront?
 
-Per determinare se la tua organizzazione utilizza l’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
+To determine whether your organization is on the Adobe Unified Experience, examine the URL that you use to access Workfront.
 
-| URL | Adobe Experience |
+| URL | Adobe Experience|
 |------------|------------|
-| (CompanyName).my.workfront.com | Esperienza Workfront |
-| experience.adobe.com | Esperienza unificata Adobe |
+| (CompanyName).my.workfront.com | Workfront experience |
+| experience.adobe.com | Adobe Unified Experience |
 
-### Come posso saperne di più su [!DNL Adobe Admin Console]?
+### How can I learn more about the [!DNL Adobe Admin Console]?
 
-Per informazioni su [!DNL Admin Console], esaminare gli articoli seguenti:
+For information about the [!DNL Admin Console], review these articles:
 
-* [Prepara per  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-* [Differenze di amministrazione basate su piattaforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [Panoramica di [!DNL Adobe Admin Console]](https://helpx.adobe.com/it/enterprise/using/admin-console.html)
+* [Prepare for the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [[!DNL Adobe Admin Console] overview](https://helpx.adobe.com/enterprise/using/admin-console.html)
 
-### Cosa devo fare in qualità di cliente per facilitare la migrazione?
+### What do I as a customer need to do to facilitate the migration?
 
-I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile. Rivedi le [[!DNL Adobe Business Platform] e [!DNL Admin Console] domande frequenti](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/workfront/faq) per ulteriori informazioni.
+Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible. Review the [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) for more information.
 
-### In che modo gestisci [!DNL Adobe Admin Console] per le aziende che hanno già abilitato questo per i Federated ID in modo diverso rispetto a [!DNL Workfront] SSO configurato?
+### How are you handling [!DNL Adobe Admin Console] for companies that already have this enabled for federated IDs differently than [!DNL Workfront] SSO is set up?
 
-[!DNL Adobe Admin Console] può includere [!DNL Workfront], sostituendo SSO con Adobe Identity Management System (IMS). Tutti i provisioning degli utenti si verificano in [!DNL Admin Console] e gli utenti visualizzeranno la schermata di accesso di [!DNL Adobe] per accedere a [!DNL Experience Cloud], dove vedranno [!DNL Workfront] come opzione (se dispongono dell&#39;accesso consentito).
+[!DNL Adobe Admin Console] has the option to include [!DNL Workfront], replacing SSO with Adobe's Identity Management System (IMS). All user provisioning happens in the [!DNL Admin Console], and users will see the [!DNL Adobe] login screen to get to [!DNL Experience Cloud] where they will see [!DNL Workfront] as an option (if they are granted access to it).
 
-### Che impatto ha questo sui clienti che dispongono già del pannello di amministrazione di AEM per [!DNL Adobe Assets], ma l&#39;SSO è configurato in modo diverso rispetto a [!DNL Workfront?]
+### How does this impact customers that already have the AEM admin panel for [!DNL Adobe Assets] – but the SSO is configured differently than [!DNL Workfront?]
 
-Una volta aggiunto [!DNL Workfront] come applicazione [!DNL Admin Console], non è necessario eseguire altre operazioni per [!DNL Workfront] per sfruttare la configurazione SSO esistente per [!DNL Adobe Assets].
+Once [!DNL Workfront] is added as an [!DNL Admin Console] application, you should not have to do anything else for [!DNL Workfront] to leverage the existing SSO setup you have for [!DNL Adobe Assets].
 
-### In che modo questo influisce su quelli configurati con SSO?
+### How does this affect those that are set up with SSO?
 
-SSO è configurato in [!DNL Admin Console] ed ereditato dall&#39;applicazione [!DNL Workfront].
+SSO is set up in the [!DNL Admin Console] and inherited by the [!DNL Workfront] application.
 
-### SSO con [!DNL Active Directory] interno sarà ancora un&#39;opzione con Adobe Identity Management System (IMS)?
+### Is SSO with our internal [!DNL Active Directory] still going to be an option with Adobe's Identity Management System (IMS)?
 
-IMS sostituisce l’SSO e funziona per lo più allo stesso modo. Tutte le autorizzazioni utente sono concesse e predisposte in [!DNL Adobe Admin Console] e l&#39;utente visualizzerà la schermata di accesso [!DNL Adobe] in cui potrà scegliere &quot;[!UICONTROL Account personale]&quot; o &quot;[!UICONTROL Account società]&quot; per effettuare l&#39;accesso (se si dispone di [!DNL Active Directory], la maggior parte effettuerà l&#39;accesso con un account società).
+IMS is a replacement for SSO and functions mostly the same. All user permissions are granted and provisioned in [!DNL Adobe Admin Console], and the user will see the [!DNL Adobe] login screen where they can choose "[!UICONTROL Personal Account]" or "[!UICONTROL Company Account]" to log in (if you have [!DNL Active Directory], most will log in with a company account).
 
-### Per gli utenti che non utilizzano SSO, l&#39;URL di accesso di [!DNL Workfront] cambia?
+### For those that are not using SSO, does the [!DNL Workfront] login URL change?
 
-L’URL di accesso cambierà; tuttavia, il vecchio URL verrà reindirizzato al nuovo URL di accesso, pertanto devi istruire nuovamente gli utenti su dove andare.
+The login URL will change; however, the old URL will redirect to the new login URL, so you should retrain your users where to go.
 
-### Gli alias configurati funzioneranno ancora o i collegamenti [!DNL Workfront] cambieranno con questa migrazione?
+### Will aliases we have set up still work, or are the [!DNL Workfront] links changing with this migration?
 
-[!DNL Workfront] reindirizzamenti/alias sono disponibili per accedere alla home page.
+[!DNL Workfront] redirects/aliases are available to get to the homepage.
 
-### Può accadere che i reindirizzamenti siano disabilitati? Oppure sarà sempre possibile digitare in my.company.workfront.com?
+### Will there be a time when the redirects are disabled? Or will we always be able to type in my.company.workfront.com?
 
-Puoi sempre utilizzare qualsiasi URL personalizzato. Dopo aver fatto clic su uno di questi collegamenti, verrà indirizzato a [!DNL Workfront] e verrà visualizzato un URL diverso. Tuttavia, è preferibile [!DNL experience] per accedere a experience.adobe.com e aggiungere ai segnalibri i collegamenti dall&#39;interno di [!DNL Experience Cloud]. Un minor reindirizzamento equivale a un minor ritardo/tempo di caricamento.
+You'll always be able to use any custom URLs. After you click any of those links, it will direct you to [!DNL Workfront] and show a different URL. However, it is a better [!DNL experience] to log in to experience.adobe.com, and bookmark links from within [!DNL Experience Cloud]. Less redirecting equals less lag time/loading time.
 
-### I collegamenti diretti alle code di richieste verranno interrotti?
+### Will direct links to request queues be broken?
 
-Tutti i collegamenti diretti devono essere reindirizzati ai nuovi pattern URL. Tuttavia, se hai distribuito i collegamenti alle persone, devi inviare un aggiornamento per sfruttare il collegamento diretto e evitare ritardi nel raggiungere la pagina prevista.
+All direct links should redirect to the new URL patterns. However, if you have distributed links to people, you should send an update to leverage the direct link and prevent delays in getting to the expected page.
 
-### Effettueremo la migrazione a [!DNL Experience Cloud] a livello globale o possiamo selezionare alcuni utenti (non tutti i nostri utenti utilizzano anche altri prodotti Adobe)?
+### Will we migrate to [!DNL Experience Cloud] globally or can we select for certain users (not all our users even use other Adobe products)?
 
-Verrà eseguita la migrazione dell&#39;intero account del cliente [!DNL Workfront]. Non può essere fatto utente per utente.
+The entire [!DNL Workfront] customer account will be migrated. It cannot be done on a user-by-user basis.
 
-### Tutti gli utenti [!DNL Workfront] dovranno accedere tramite [!DNL Experience Cloud]? O solo amministratori?
+### Will all [!DNL Workfront] users have to log in via [!DNL Experience Cloud]? Or just administrators?
 
-Sì, tutti gli utenti accederanno tramite [!DNL Experience Cloud]. L’accesso a Adobe Identity Management System (IMS) sostituirà l’SSO. È un’esperienza molto simile, ma con una schermata di accesso diversa.
+Yes, all users will log in via [!DNL Experience Cloud]. The Adobe Identity Management System (IMS) login will replace SSO. It's a very similar experience, just a different login screen.
 
-### Gli utenti dovranno collegare i loro account [!DNL Adobe] ai loro account [!DNL Workfront] se hanno già entrambi?
+### Will users have to link their [!DNL Adobe] accounts to their [!DNL Workfront] accounts if they already have both?
 
-Sì, esiste una procedura per questo e verranno forniti ulteriori dettagli quando è il momento per la tua organizzazione di passare a IMS.
+Yes, there is a process for this, and more details will be provided when it's time for your organization to move to IMS.
 
-### Cosa succederà agli utenti [!DNL Workfront] che non hanno un account [!DNL Adobe]?
+### What happens to the [!DNL Workfront] users who don't have an [!DNL Adobe] account?
 
-Gli utenti a cui non è stato concesso l&#39;accesso in [!DNL Adobe Admin Console] per accedere a [!DNL Workfront] devono creare un account &quot;[!UICONTROL personal]&quot; o un account ID [!DNL Adobe] per poter accedere. Questo invia un messaggio e-mail all’amministratore per approvare o rifiutare la richiesta, e consente inoltre all’amministratore di configurare il tipo di accesso di cui dispone l’utente. Al momento dell&#39;accesso, l&#39;utente visiterà il sito experience.adobe.com, immetterà il proprio indirizzo e-mail e sceglierà [!UICONTROL Account personale]. Da lì potranno accedere a [!DNL Workfront].
+Users who haven't been granted access in [!DNL Adobe Admin Console] to get into [!DNL Workfront] must create a "[!UICONTROL personal account]" or an [!DNL Adobe] ID account to be able to log in. This sends an email to the administrator to approve or reject their request, and it additionally enables the admin to configure what type of access that user has. When they log in, they will go to experience.adobe.com, enter their email address, and choose [!UICONTROL Personal Account]. From there, they will be able to access [!DNL Workfront].
 
-### Cosa succede se non abbiamo [!DNL Adobe] prodotti diversi da [!DNL Workfront?]
+### What if we don't have any [!DNL Adobe] products other than [!DNL Workfront?]
 
-È comunque consigliabile eseguire la migrazione dell&#39;organizzazione a [!DNL Adobe Unified Experience]. Riceverai un ID [!DNL Adobe] insieme ai vantaggi elencati sopra.
+It is still recommended that your organization migrate to the [!DNL Adobe Unified Experience]. You will receive an [!DNL Adobe] ID along with the benefits listed above.
 
-### Nella nostra istanza [!DNL Workfront] sono inclusi utenti esterni. Non vogliamo che abbiano accesso ad altri prodotti inclusi in [!DNL Adobe]. In che modo limiteremmo il loro accesso all’interno della console?
+### We have external users included in our [!DNL Workfront] instance. We wouldn't want them to have access to any other products included in [!DNL Adobe]. How would we limit their access within the console?
 
-[!DNL Admin Console] offre agli amministratori un notevole controllo su ciò a cui gli utenti possono e non possono accedere. Ogni volta che un utente esterno desidera accedere, deve creare un ID [!DNL Adobe], che invia un&#39;e-mail all&#39;amministratore. L’amministratore può quindi accettare o rifiutare l’accesso a un prodotto e definire a cosa può/non può accedere per i prodotti di proprietà di tale organizzazione. L&#39;amministratore di sistema [!DNL Workfront] può quindi accedere all&#39;area [!UICONTROL Utenti] di [!DNL Workfront] per concedere ulteriori autorizzazioni granulari all&#39;utente esterno.
+[!DNL Admin Console] gives admins a lot of control over what users can and cannot access. Whenever an external user wants access, they need to create an [!DNL Adobe] ID, which sends an email to the administrator. The administrator can then accept or reject access to a product and define what they can/cannot access for products owned by that organization. Then, the [!DNL Workfront] System Administrator can go into the [!UICONTROL Users] area of [!DNL Workfront] to make any more granular permissions for the external user.
 
-### Gli amministratori di gruppi vengono utilizzati per creare persone in [!DNL Workfront]. Con il passaggio a [!DNL Experience Cloud], gli amministratori di gruppo saranno ancora in grado di creare persone?
+### Group Admins are used to create people in [!DNL Workfront]. With the move to [!DNL Experience Cloud], will group admins still be able to create people?
 
-Sì, la creazione dell&#39;utente è ancora possibile tramite [!DNL Workfront]. Questi utenti possono essere aggiunti automaticamente a [!DNL Experience Cloud]. Puoi anche impostare gli amministratori di gruppo come proprietari del prodotto in [!DNL Admin Console] per consentire loro di assegnare [!DNL Workfront] agli utenti.
+Yes, user creation is still possible through [!DNL Workfront]. Those users can be added to [!DNL Experience Cloud] automatically. You can also set up your group admins as product owners in the [!DNL Admin Console] to allow them to assign [!DNL Workfront] to users.
 
-### Qual è la scadenza per passare a [!DNL Experience Cloud]?
+### What is the deadline to switch over to [!DNL Experience Cloud]?
 
-Nessuna scadenza per lo spostamento a [!DNL Adobe Experience Cloud]. Stiamo lavorando con i clienti per consentire loro di scegliere quando sono pronti per la migrazione.
+There is no deadline currently to move to [!DNL Adobe Experience Cloud]. We're working with customers to let them choose when they're ready to make the move.
 
-### Il nostro team di supporto dovrà fare qualcosa per questo cambiamento?
+### Will our support team need to do anything for this change?
 
-Se il team di supporto è responsabile della creazione di nuovi utenti, dovrà familiarizzare con le interfacce [!DNL Admin Console] utilizzate per la creazione degli utenti e assegnare un diritto a Workfront. In caso contrario, è probabile che non vi siano modifiche significative per il team di supporto interno.
+If the support team is responsible for creating new users, then they will need to become familiar with the [!DNL Admin Console] interfaces used to create users and assign an entitlement to Workfront. Otherwise, there is likely no significant change for your internal support team.
 
-### In che modo questo influisce sulle integrazioni disponibili tramite la funzione API?
+### How does this impact integrations we have through the API function?
 
-Il percorso URL esistente continuerà a essere disponibile per il traffico API. Non dovrebbe essere necessario eseguire alcuna operazione per aggiornare gli endpoint nelle integrazioni. Tuttavia, l&#39;accesso diretto tramite nome utente e password non sarà supportato. È necessario utilizzare una chiave API, ad eccezione dei connettori [!DNL Workfront Fusion].
+The existing URL path will continue to be available for API traffic. You should not need to do anything to update the endpoints in your integrations. However, direct login through username and password will not be supported – you must use an API key, with the exception being [!DNL Workfront Fusion] connectors.
 
-### E gli utenti [!DNL Creative Cloud]? Quali sono gli effetti della migrazione su di loro? Ci sono dei vantaggi per loro?
+### What about [!DNL Creative Cloud] users? How does the migration affect them? Are there any advantages for them?
 
-Nessun impatto per [!DNL Creative Cloud] utenti con la migrazione a [!DNL Adobe Unified Experience].
+There is no impact to [!DNL Creative Cloud] users with the migration to [!DNL Adobe Unified Experience].
 
-### Gli accessi cambieranno per [!DNL Workfront] utenti di dispositivi mobili?
+### Will logins change for [!DNL Workfront] mobile users?
 
-[!DNL Workfront] utenti di dispositivi mobili non dovrebbero essere interessati dalla migrazione a [!DNL Adobe Unified Experience].
+[!DNL Workfront] mobile users should not be affected by the migration to [!DNL Adobe Unified Experience].
 
-### JumpSeat non funziona con [!DNL Adobe Unified Experience]. Come posso risolvere il problema?
+### JumpSeat is not working with the [!DNL Adobe Unified Experience], how can I resolve this? 
 
-JumpSeat funziona con [!DNL Adobe Unified Experience], ma richiede un aggiornamento della configurazione. Utilizzando il pannello di amministrazione JumpSeat, modifica l&#39;URL dell&#39;applicazione da `workfront.com` in modo che termini con `.workfront.adobe.com`
+JumpSeat works with the [!DNL Adobe Unified Experience], but requires a configuration update. Using the JumpSeat admin panel, change the application URL from `workfront.com` to end with `.workfront.adobe.com`
+
+-->

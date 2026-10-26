@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 23%
+source-wordcount: '412'
+ht-degree: 20%
 ---
 # Best practice per la sottoscrizione a eventi
 
@@ -63,6 +63,8 @@ Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è nec
 Per creare, eseguire query o eliminare un abbonamento a un evento, è necessario che l’utente di Workfront:
 
 * Livello di accesso di **Amministratore di sistema**
-Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+  Gli amministratori di sistema vengono creati in Adobe Admin Console.
+  Per ulteriori informazioni, vedere la sezione [Creare amministratori di sistema in Workfront con Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). nell’articolo Gestire gli utenti in Adobe Admin Console. o [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Se la tua organizzazione utilizza Adobe IMS (Identity Management System), includi un token utente IMS passato nell&#39;intestazione `X-User-Token`.

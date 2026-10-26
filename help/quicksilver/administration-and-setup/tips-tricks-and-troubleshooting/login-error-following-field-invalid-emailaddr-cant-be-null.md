@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 0%
 ---
 # Errore di accesso: i campi seguenti non sono validi: emailAddr non può essere null
 
-## Problema
+>[!IMPORTANT]
+>
+>Poiché l’accesso viene ora gestito tramite Adobe IMS (Identity Management System), le informazioni contenute in questo articolo sono state rimosse.
 
-Quando si tenta di accedere a [!DNL Adobe Workfront] con il proprio URL (https://customerdomain.my.workfront.com), viene reindirizzato al portale di accesso SAML e quindi viene reindirizzato a [!DNL Workfront] con il seguente errore:
+<!--
 
-“Riproviamo. I campi seguenti non sono validi: emailAddr non può essere null.&quot;
+## Problem
 
-## Causa
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
-Questo errore è causato da un elemento non corretto nell’area Mappa attributi utente della configurazione SAML 2.0. Per ulteriori informazioni sul mapping degli attributi utente per SAML 2.0, vedere [Configurare Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
-## Soluzione
+## Cause
 
-Aggiorna il mapping degli attributi per l&#39;indirizzo e-mail e fai clic su **[!UICONTROL Salva]**.
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+## Solution
+
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

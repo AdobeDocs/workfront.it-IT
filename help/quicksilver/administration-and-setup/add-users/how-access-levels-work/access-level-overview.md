@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 96%
+source-wordcount: '1803'
+ht-degree: 94%
 ---
 # Panoramica dei livelli di accesso
 
@@ -93,7 +93,7 @@ Gli utenti con il livello di accesso Amministratore di sistema possono eseguire 
 
 Inoltre, dispongono dell’accesso all’area Configurazione completa, in cui possono modificare qualsiasi impostazione a livello di sistema e accedere a tutte le aree nel Menu principale.
 
-Per ulteriori informazioni, consulta [Concedere a un utente l’accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+La concessione dell&#39;accesso come amministratore a un utente viene eseguita tramite Adobe Admin Console. Per istruzioni, vedere la sezione [Creare amministratori di sistema in Workfront con Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). nell’articolo Gestire gli utenti in Adobe Admin Console.
 
 ### Livello di accesso standard
 
