@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -67,6 +67,23 @@ Al momento, in questa versione non sono presenti aggiornamenti per i seguenti el
 * Bozza
 * Obiettivi
 
+## Aggiornamenti del visualizzatore di bozza desktop
+
+### Versione 2.3.0
+
+>[!NOTE]
+>
+>Anteprima: 27 ottobre 2026
+>Versione di produzione per tutti i clienti: 28 ottobre 2026
+
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo aggiornamento include le seguenti modifiche:
+
+* È stato risolto un problema relativo alle bozze interattive a causa del quale, facendo clic sul collegamento sotto la schermata durante lo spostamento tra più versioni, la pagina veniva aperta in più schede. Il collegamento ora apre la pagina in una singola scheda.
+
+* Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
+
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+
 ## Annunci
 
 ### I campi fatturazione e tariffa di costo legacy nelle visualizzazioni elenco mansioni sono obsoleti
@@ -99,7 +116,7 @@ Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/h
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
