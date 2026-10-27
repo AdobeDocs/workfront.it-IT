@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 22%
+source-wordcount: '115'
+ht-degree: 20%
 ---
 # attività sulla versione delle funzioni di disponibilità limitata di Adobe Workfront: indice degli articoli
 
@@ -34,7 +34,7 @@ Questo articolo contiene un elenco di articoli sull’attività di rilascio rela
 
 Per informazioni sull’attività corrente di rilascio delle funzioni a disponibilità limitata di Workfront, consulta il seguente articolo:
 
-* [Attività della versione del quarto trimestre 2026 per le funzioni di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+* [Attività della versione del primo trimestre 2027 per le funzioni di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,3 +45,5 @@ Per informazioni sulle versioni precedenti di, consulta i seguenti articoli:
 * 2026
   * [Attività sul rilascio del primo trimestre 2026 delle funzioni con disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
   * [Attività sul rilascio del secondo trimestre 2026 delle funzioni con disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+  * [Attività della versione del quarto trimestre 2026 per le funzioni di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+

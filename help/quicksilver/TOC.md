@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
+source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
 workflow-type: tm+mt
-source-wordcount: '14725'
+source-wordcount: '14736'
 ht-degree: 90%
 ---
 # Guida di Workfront {#using}
@@ -271,9 +271,10 @@ ht-degree: 90%
       * [Attività sul rilascio del quarto trimestre 2024 di Pianificazione di Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Attività sulla versione con disponibilità limitata di Adobe Workfront{#limited-availability-release-activity}
       * {hide-from-toc}[Attività rilascio funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-      * {hide-from-toc}[Attività della versione del primo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-      * {hide-from-toc}[Attività della versione del secondo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Attività della versione del primo trimestre 2027 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
       * {hide-from-toc}[Attività della versione del quarto trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+      * {hide-from-toc}[Attività della versione del secondo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Attività della versione del primo trimestre 2026 per le funzionalità di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
     * Attività sulla versione pianificazione scenari di Adobe Workfront {#scenario-planner-release}
       * [Attività sulla versione pianificazione scenari di Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Pianificazione scenari di Adobe Workfront con la versione 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
