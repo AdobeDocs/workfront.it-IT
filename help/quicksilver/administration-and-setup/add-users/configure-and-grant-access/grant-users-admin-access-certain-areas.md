@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '751'
 ht-degree: 11%
 ---
 # Concedere agli utenti l&#39;accesso amministrativo a determinate aree
@@ -40,7 +40,8 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare un livello di 
 
 >[!NOTE]
 >
->Ciò è diverso dall&#39;assegnare a un utente l&#39;accesso amministrativo completo a Workfront, come illustrato in [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).&#x200B;
+>Questo è diverso da concedere a un utente l’accesso amministrativo completo a Workfront. La concessione dell&#39;accesso come amministratore a un utente viene eseguita tramite Adobe Admin Console. Per istruzioni su come concedere l&#39;accesso completo come amministratore in Adobe Admin Console, vedere la sezione [Creare amministratori di sistema in Workfront con Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). nell’articolo Gestire gli utenti in Adobe Admin Console.
+
 
 ## Requisiti di accesso
 

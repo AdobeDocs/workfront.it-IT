@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -66,6 +66,23 @@ Al momento, in questa versione non sono presenti aggiornamenti per i seguenti el
 * Pianificazione scenari
 * Bozza
 * Obiettivi
+
+## Aggiornamenti del visualizzatore di bozza desktop
+
+### Versione 2.3.0
+
+>[!NOTE]
+>
+>Anteprima: 27 ottobre 2026
+>Versione di produzione per tutti i clienti: 28 ottobre 2026
+
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo aggiornamento include le seguenti modifiche:
+
+* È stato risolto un problema relativo alle bozze interattive a causa del quale, facendo clic sul collegamento sotto la schermata durante lo spostamento tra più versioni, la pagina veniva aperta in più schede. Il collegamento ora apre la pagina in una singola scheda.
+
+* Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
+
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 

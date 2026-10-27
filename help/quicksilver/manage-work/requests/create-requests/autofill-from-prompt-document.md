@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1764'
 ht-degree: 6%
@@ -84,11 +84,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per utilizzare il riempimento modulo basato su IA per compilare una richiesta utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
 
-<!--
-Remove me October 2026
-* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled
--->
 * La tua organizzazione deve disporre di un pacchetto Select, Prime o Ultimate Workfront o Workflow
 * Adobe deve disporre di un accordo Adobe Gen AI firmato registrato
 

@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ Poiché la tua organizzazione si trova nell’esperienza unificata di Adobe, uti
 
 Per Workfront Fusion, aggiungi i seguenti domini:
 
-<!--Remove me October 2026-->
-
-* Per l’organizzazione non inclusa nell’esperienza unificata di Adobe:
-  * app.workfrontfusion.com (US AWS)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (US Azure)
+<!--Remove me January 2027-->
 
 * Per l’organizzazione sull’esperienza unificata di Adobe
 Questi domini sono coperti in `*.adobe.com`, ma possono essere aggiunti se lo si desidera.
@@ -419,6 +414,14 @@ Questi domini sono coperti in `*.adobe.com`, ma possono essere aggiunti se lo si
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >Poiché tutte le organizzazioni si trovano ora nell’esperienza unificata di Adobe, i seguenti domini non sono più necessari.
+  >
+  >* app.workfrontfusion.com (US AWS)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (US Azure)
 
 
 
