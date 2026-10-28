@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 0%
 ---
 
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >Per ridurre le dimensioni del catalogo MCP per i client che caricano tutti gli strumenti in primo piano, è possibile aggiungere il parametro di query `toolsets` all&#39;URL del server MCP di Workfront. Ad esempio:
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->Per ulteriori informazioni sui set di strumenti, vedere [Toolset nel server MCP di Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) nell&#39;articolo Strumenti server MCP di Adobe Workfront.
+>Per ulteriori informazioni sui set di strumenti, vedere [Toolset nel server Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) nell&#39;articolo Strumenti server Adobe Workfront MCP.
 
 ## Prerequisiti
 
@@ -243,6 +243,30 @@ Viene visualizzata la finestra dell&#39;agente.
 
 +++ Espandi per visualizzare le istruzioni dettagliate per la connessione di Workfront a GitHub Copilot.
 
+>[!NOTE]
+>
+>Se il Copilot GitHub indica che la registrazione client dinamica non è supportata o richiede un ID client OAuth, utilizza la soluzione alternativa seguente invece della configurazione HTTP standard. Alcuni client GitHub Copilot MCP non supportano il flusso di individuazione dinamica utilizzato nella configurazione predefinita.
+>
+>Per ovviare a questo problema, configurare GitHub Copilot per avviare il server MCP di Workfront tramite `mcp-remote` e impostare `NODE_OPTIONS=--use-system-ca`:
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. In GitHub Copilot, vai a **Personalizza**.
 1. Fare clic su **Aggiungi** > **Server MCP**.
