@@ -21,7 +21,7 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 0eb975dfed34736eafa57fe9b65a63001ce60e02
+source-git-commit: f140dd0b89df32f7f5e386ad132cf0529e64c3da
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 5%
@@ -141,6 +141,9 @@ Scarica il file ZIP contenente i certificati client di abbonamento agli eventi d
 >[!NOTE]
 >
 >Puoi utilizzare lo stesso certificato client per entrambi gli ambienti Sandbox.
+
+
+
 
 
 
