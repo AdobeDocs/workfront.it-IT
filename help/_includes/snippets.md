@@ -1,5 +1,5 @@
 ---
-source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
+source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -383,8 +383,8 @@ OLD:
 
 **Versione più recente**:
 
-* Mac: 2.2.2 dal 09/17/2026
-* Windows: 2.2.2 dal 09/17/2026
+* Mac: 2.3.0 dal 10/28/2026
+* Windows: 2.3.0 dal 10/28/2026
 
 <!-- Release -->
 
