@@ -297,7 +297,7 @@ Per configurare le impostazioni del modulo:
 1. (Condizionale) Se hai selezionato che la richiesta venga contrassegnata come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indica quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 
 1. Fai clic su **Autorizzazioni** nel pannello a sinistra per configurare le autorizzazioni di cui disporranno gli utenti per le richieste inviate utilizzando questo modulo per impostazione predefinita. Le autorizzazioni concesse qui avranno effetto immediato per le richieste future e non influiranno sulle richieste esistenti.
-1. <!--<span class="preview">In the **Requestor access** section,</span>--> Selezionare il livello di autorizzazione per le richieste inviate a questo modulo per gli utenti che inviano richieste utilizzando questo modulo:
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Selezionare il livello di autorizzazione per le richieste inviate a questo modulo per gli utenti che inviano richieste utilizzando questo modulo:
 
    * **Visualizza**: tutti i richiedenti possono aggiungere commenti e condividere il modulo.
    * **Contribuisci**: tutti i richiedenti possono aggiungere commenti, condividere e modificare il modulo.
