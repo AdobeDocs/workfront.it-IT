@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront]
@@ -45,7 +45,7 @@ Esistono due ambienti di test per [!DNL Workfront] che sono repliche dell&#39;am
 
 * Sandbox di aggiornamento personalizzata
 
-  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,6 +83,10 @@ I dati scorrono in modo unidirezionale, dalla produzione all’anteprima e non v
 L&#39;anteprima della sandbox consente inoltre a [!DNL Workfront] di distribuire nuove funzioni in un ambiente sicuro prima che siano pronte per essere distribuite in produzione. Puoi testare le nuove funzioni e fornire a [!DNL Workfront] feedback sulle loro funzionalità accedendo alla Sandbox di anteprima. Per questo motivo, il codice della sandbox di anteprima è sempre precedente al codice di produzione, anche se i dati vengono aggiornati settimanalmente.
 
 L’ambiente di anteprima è ideale per l’esecuzione di corsi di formazione, il test di nuove funzioni e la determinazione delle funzionalità di configurazione.
+
+>[!IMPORTANT]
+>
+>I dati di pianificazione nei dashboard di Canvas sono visibili solo agli amministratori di [!DNL Workfront] negli ambienti sandbox.
 
 >[!NOTE]
 >
