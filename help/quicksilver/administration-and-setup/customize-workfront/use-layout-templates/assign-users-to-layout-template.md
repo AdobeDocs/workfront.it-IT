@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a62afa30eb4727619e64ea2a98e639891a29af
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 4%
+source-wordcount: '1117'
+ht-degree: 3%
 ---
 # Assegnare utenti a un modello di layout
 
@@ -104,17 +104,28 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Priorità assegnazione modello di layout {#layout-template-assignment-priority}
 
-L’utente e gli altri amministratori di Workfront possono assegnare più modelli di layout diversi allo stesso utente in quattro modi diversi:
+L’utente e gli altri amministratori di Workfront possono assegnare più modelli di layout diversi allo stesso utente nei seguenti modi:
 
 * Per il singolo utente
 * A una particolare mansione l’utente ha
 * Per un determinato team l&#39;utente è attivo
 * A un determinato gruppo l’utente si trova
 * A un determinato livello di accesso all&#39;utente
+* A un profilo aziendale assegnato all&#39;utente
 
 Tuttavia, l&#39;utente può visualizzare un solo modello di layout alla volta. Il modello visibile è determinato dalla seguente gerarchia di priorità:
 
-* **Utente singolo**: il modello di layout assegnato alla persona come singolo utente sostituisce tutti gli altri. È possibile sovrascrivere un&#39;assegnazione precedente assegnata a un singolo utente effettuando una nuova assegnazione; quella più recente ha la precedenza.
+* **Profilo aziendale**: i profili aziendali rappresentano il livello di priorità più alto per un modello di layout. Se l&#39;utente dispone di un profilo aziendale con modelli di layout assegnati ai livelli di accesso e si trova in una pagina specifica del gruppo (ad esempio un progetto associato a un gruppo), tutti i modelli di layout del profilo aziendale per tale gruppo vengono combinati con il modello di layout assegnato all&#39;utente. Quando l’utente non si trova in una pagina specifica del gruppo, tutti i modelli di layout del profilo aziendale vengono combinati con il modello di layout assegnato all’utente.
+
+  Quando si combinano modelli di layout per più profili aziendali e livelli di accesso, vengono visualizzati tutti gli elementi di layout disponibili. Se una voce di menu è visualizzata in un modello ma è nascosta in un altro, verrà visualizzata. Solo gli elementi nascosti in tutti i modelli per il profilo business sono nascosti.
+
+  >[!NOTE]
+  >
+  >I profili aziendali sono disponibili solo per le organizzazioni che dispongono di un pacchetto Workflow Ultimate.
+
+  Per ulteriori informazioni, consulta [Panoramica dei profili aziendali](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Utente singolo**: il modello di layout assegnato alla persona come singolo utente sostituisce tutti gli altri, ad eccezione dei modelli di layout provenienti da un profilo aziendale. È possibile sostituire un&#39;assegnazione precedente effettuata a un singolo utente effettuando una nuova assegnazione; quella più recente ha la precedenza.
 * **Ruolo principale**: se alla persona non viene assegnato un modello di layout come singolo utente, viene visualizzato il modello assegnato per la sua mansione principale.
 
   Solo il modello di layout assegnato alla mansione principale di un utente è visibile all&#39;utente. I modelli assegnati a qualsiasi mansione secondaria in possesso dell’utente non sono visibili.
@@ -127,7 +138,7 @@ Tuttavia, l&#39;utente può visualizzare un solo modello di layout alla volta. I
 
   Solo il modello assegnato al gruppo Predefinito di un utente è visibile all&#39;utente. I modelli assegnati a uno qualsiasi degli altri gruppi non sono visibili.
 
-* Livello di accesso: se alla persona non viene assegnato un modello di layout come singolo utente, né come utente con una mansione principale, né come membro di un team predefinito, né come membro di un gruppo predefinito, viene visualizzato il modello assegnato al proprio livello di accesso.
+* **Livello di accesso**: se alla persona non viene assegnato un modello di layout come singolo utente, utente con una mansione principale, membro di un team predefinito o membro di un gruppo predefinito, il modello verrà assegnato al proprio livello di accesso.
 
 ## Numero elevato di utenti assegnati a un modello di layout
 
