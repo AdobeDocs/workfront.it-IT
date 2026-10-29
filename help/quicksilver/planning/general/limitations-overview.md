@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 5%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -77,6 +77,9 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di gerarchie in un’area di lavoro | 5 |
 | Numero di record di un tipo di record padre connessi a un record di un tipo di record figlio all&#39;interno di una gerarchia | 10 |
 | Numero di record connessi a un record in un tipo di connessione a selezione multipla, senza una gerarchia configurata tra i record | 500 |
+| <span class="preview">Numero di campi di ricerca per tipo di record</span> | 40 |
+| <span class="preview">Numero di campi di ricerca di testo lungo per tipo di record</span> | 5 |
+| <span class="preview">Numero di caratteri nel valore di una singola cella di un campo di ricerca a testo lungo (nella vista tabella)</span> | 50.000 caratteri |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 

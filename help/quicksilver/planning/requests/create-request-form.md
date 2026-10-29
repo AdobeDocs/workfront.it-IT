@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -297,7 +297,7 @@ Per configurare le impostazioni del modulo:
 1. (Condizionale) Se hai selezionato che la richiesta venga contrassegnata come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indica quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 
 1. Fai clic su **Autorizzazioni** nel pannello a sinistra per configurare le autorizzazioni di cui disporranno gli utenti per le richieste inviate utilizzando questo modulo per impostazione predefinita. Le autorizzazioni concesse qui avranno effetto immediato per le richieste future e non influiranno sulle richieste esistenti.
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Selezionare il livello di autorizzazione per le richieste inviate a questo modulo per gli utenti che inviano richieste utilizzando questo modulo:
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> Selezionare il livello di autorizzazione per le richieste inviate a questo modulo per gli utenti che inviano richieste utilizzando questo modulo:
 
    * **Visualizza**: tutti i richiedenti possono aggiungere commenti e condividere il modulo.
    * **Contribuisci**: tutti i richiedenti possono aggiungere commenti, condividere e modificare il modulo.
@@ -329,7 +329,6 @@ Per configurare le impostazioni del modulo:
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

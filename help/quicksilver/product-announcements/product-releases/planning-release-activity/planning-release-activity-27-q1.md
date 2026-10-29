@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Attività della versione del primo trimestre 2027 per Adobe Workfront Planning
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Versione rapida di produzione: 12 novembre 2026
 >Produzione per tutti: 21 gennaio 2027
 
-Quando due tipi di record globali connessi vengono aggiunti a un&#39;area di lavoro secondaria, è ora possibile disattivare la connettività tra aree di lavoro diverse e collegare comunque i record localmente. Ogni area di lavoro secondaria visualizza solo i propri record per entrambi i tipi di record e può collegarli tra loro. I record dell&#39;area di lavoro globale e di altre aree di lavoro secondarie non vengono più visualizzati.
+Quando si aggiungono due tipi di record globali connessi a un&#39;area di lavoro secondaria, è possibile disattivare la connettività tra aree di lavoro diverse e collegare comunque i record localmente.
+
+Ogni tipo di record secondario visualizza solo i propri record per entrambi i tipi di record e può collegarli tra loro. I record dell&#39;area di lavoro globale e di altre aree di lavoro secondarie non vengono più visualizzati.
 
 Prima di questo miglioramento, se la connettività tra aree di lavoro diverse era disattivata per i tipi di record globali connessi, le aree di lavoro secondarie non potevano collegare tra loro i propri record. Se questa opzione è attivata, gli utenti possono visualizzare e collegare i record dall&#39;area di lavoro globale e da tutte le altre aree di lavoro secondarie.
 
 Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## Visualizzare il conteggio totale dei record nelle visualizzazioni tabella
+## Visualizzare il conteggio totale dei record nelle viste tabella, sequenza temporale e elenco
 
 >[!NOTE]
 >
@@ -79,9 +81,11 @@ Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di la
 >Versione rapida di produzione: 12 novembre 2026
 >Produzione per tutti: 21 gennaio 2027
 
-Nella vista tabella viene ora visualizzato il numero totale di record e il conteggio viene aggiornato automaticamente quando si applicano filtri, si esegue una ricerca o si modifica la vista. Il conteggio dei record riflette sempre i risultati filtrati completi e rispetta le autorizzazioni.
+Le viste tabella, timeline ed elenco ora mostrano il numero totale di record e il conteggio viene aggiornato automaticamente quando si applicano filtri, si eseguono ricerche o si modifica la vista. Il conteggio dei record riflette sempre i risultati filtrati completi e rispetta le autorizzazioni.
 
-Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+Il conteggio dei record viene visualizzato a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro della tabella, della timeline o della visualizzazione elenco.
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 <!--
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Prestazioni migliorate con il caricamento di dati incrementali nelle viste tabella e timeline
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Anteprima: 29 ottobre 2026
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 Per migliorare le prestazioni su un gran numero di record, sono stati apportati i seguenti miglioramenti alle viste tabella e timeline:
 
-* La visualizzazione ora carica inizialmente i primi 500 record, con i record aggiuntivi caricati automaticamente mentre si scorre in batch di 500.
-* La ricerca e il raggruppamento rapidi influiscono solo sui record attualmente caricati nella visualizzazione.
+* La vista tabella ora carica inizialmente i primi 500 record, con i record aggiuntivi caricati automaticamente quando si scorre in batch di 500.
+* La vista timeline ha un comportamento simile, ma carica 1000 record contemporaneamente con i successivi 1000 caricati durante lo scorrimento.
+* La ricerca rapida si applica a tutti i record, non solo a quelli visualizzati nella visualizzazione corrente. Vengono caricati più record mentre si scorre sia nella vista timeline che in quella tabella.
+* Quando si applica una ricerca rapida nella visualizzazione della timeline e sono presenti più di 1000 elementi, è possibile fare clic su Carica altro nella parte inferiore della timeline per visualizzare più record che corrispondono alla ricerca.
 
 Per informazioni, vedere [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

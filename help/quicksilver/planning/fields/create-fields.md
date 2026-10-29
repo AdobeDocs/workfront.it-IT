@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '5576'
+source-wordcount: '5673'
 ht-degree: 2%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -51,11 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Creare campi
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -181,6 +181,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## Considerazioni sui campi record
+
+* È possibile creare campi solo dalla vista tabella.
+* Nell’ambiente di produzione, i nuovi campi aggiunti vengono aggiunti e sono visibili da tutte le viste tabella.
+
+  <span class="preview">Nell&#39;ambiente di anteprima i campi appena aggiunti vengono aggiunti come campi nascosti in tutte le visualizzazioni tabella. I nuovi campi sono visibili nella visualizzazione utilizzata per aggiungerli. </span>
 
 ## Creare i campi collegando i tipi di record
 
@@ -641,7 +649,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.

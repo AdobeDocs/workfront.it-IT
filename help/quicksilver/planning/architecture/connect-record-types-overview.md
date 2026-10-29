@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -168,7 +168,7 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
     * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
     * I record di Planning sono visibili dalla sezione Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
     * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-    * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
+    * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
     * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
 
   * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
@@ -201,6 +201,22 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
       >Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
       >
       >Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+
+  <div class="preview">
+
+  * Esistono le seguenti limitazioni quando si aggiungono campi di ricerca:
+
+    * È possibile avere fino a 40 campi di ricerca per tipo di record.
+
+    * È possibile disporre di un massimo di 5 campi di ricerca a testo lungo per tipo di record. I campi di ricerca connessi vengono conteggiati rispetto al limite del campo originale.
+
+    * In una singola cella di ricerca di testo lungo possono essere presenti fino a 50.000 caratteri.
+
+      Se il contenuto combinato dei valori di ricerca supera questo limite, i valori vengono visualizzati in ordine di connessione fino al raggiungimento del limite.
+
+      Vengono omessi il primo valore che lo supererebbe e tutti i valori successivi. Il campo oggetto connesso originale non viene mai modificato.
+
+  </div>
 
   * È necessario connettere i tipi di record per poter creare gerarchie in Workfront Planning. Se le connessioni di tipo record non esistono, vengono create automaticamente quando si crea una gerarchia. Per informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

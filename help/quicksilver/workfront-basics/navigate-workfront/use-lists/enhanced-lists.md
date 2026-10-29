@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
@@ -249,6 +249,25 @@ Per aggiungere e rimuovere colonne:
 >[!NOTE]
 >
 >Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Per visualizzare il numero totale di elementi in un elenco, effettuare una delle seguenti operazioni:
+
+* Nell’ambiente di produzione:
+
+  1. Aprire un elenco avanzato.
+  1. Scorri fino alla parte inferiore dell’elenco.
+
+     Il numero totale di elementi, tenuto conto di eventuali filtri applicati, viene visualizzato nell’angolo inferiore destro dell’elenco.
+
+<div class="preview">
+
+* Nell’ambiente di anteprima:
+
+  1. Aprire un elenco avanzato.
+  1. Se disponibile, visualizzare il numero totale di elementi a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro dell&#39;elenco.
+  1. (Condizionale) Se per impostazione predefinita non sono presenti elementi sullo schermo, scorri la pagina per visualizzarne altri.
+
+</div>
 
 Per modificare l&#39;altezza della riga in una vista:
 
@@ -516,7 +535,11 @@ Per ordinare le singole colonne:
 >
 >Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
 
-1. Digitare la parola chiave in base alla quale si desidera eseguire la ricerca nella casella Cerca nell&#39;angolo superiore destro dell&#39;elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+1. Digitare una parola chiave in base alla quale si desidera eseguire la ricerca nella casella **Ricerca** nell&#39;angolo superiore destro dell&#39;elenco.
+
+   Nell’ambiente di produzione, i risultati vengono evidenziati nell’elenco durante la digitazione.
+
+   <span class="preview">Nell&#39;ambiente di anteprima, l&#39;elenco viene filtrato in modo da visualizzare solo gli elementi che corrispondono ai criteri di ricerca. Il numero totale di record a sinistra della casella di ricerca rapida viene sostituito dal numero di elementi trovati.</span>
 
    ![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
 

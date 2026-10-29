@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1300'
 ht-degree: 1%
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 È possibile configurare le regole business per i tipi di record di Adobe Workfront Planning per indicare che alcuni campi sono obbligatori prima che un&#39;azione su un record di quel tipo sia consentita o impedita.
 
@@ -101,18 +100,18 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Le regole non bloccano la creazione dei record. Gli utenti possono comunque creare record, ma devono assicurarsi che i campi obbligatori non siano vuoti o contengano il valore specificato.
 * Le regole non modificano o eliminano automaticamente i record. La modifica deve essere intenzionale e attivata da un utente.
 * Le regole non vengono applicate retroattivamente: i record precedenti non vengono interessati. Il controllo delle regole viene eseguito solo al successivo tentativo di modifica o eliminazione di un record.
-* &#x200B;<!--In the Production environment,--> Non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
+* Nell’ambiente di produzione non è possibile aggiungere regole business ai tipi di record globali nelle aree di lavoro principali o secondarie.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* Nell’ambiente di anteprima puoi aggiungere le regole business ai seguenti elementi:
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * Tipi di record globali nell&#39;area di lavoro principale. Le regole create per i tipi di record globali sono visibili in modalità di sola lettura dalle aree di lavoro secondarie e vengono applicate a tutti i record dello stesso tipo in tutte le aree di lavoro.
+  * Tipi di record secondari, importati da altre aree di lavoro. Le regole create per i tipi di record secondari sono visibili in modalità di sola lettura dal tipo di record globale e si applicano a tutti i record dello stesso tipo in tutte le aree di lavoro.
+
+* Le regole business in modalità di sola lettura possono essere modificate solo dalle aree di lavoro originali.
+
 </div>
--->
 
 * È possibile creare una condizione per la regola business che faccia riferimento a tutti i tipi di campo ad eccezione dei seguenti:
   * Campi formula
