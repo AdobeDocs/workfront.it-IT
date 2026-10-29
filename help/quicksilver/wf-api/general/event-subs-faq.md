@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1101'
 ht-degree: 1%
 ---
 # Domande frequenti - Sottoscrizione a eventi
@@ -96,6 +96,16 @@ Puoi utilizzare qualsiasi autenticazione che utilizza un token Bearer. Il campo 
 ## Quanto tempo deve trascorrere prima che io riceva il payload dell’evento da Workfront Event Subscriptions?
 
 In generale, puoi aspettarti di ricevere le richieste di consegna degli eventi di abbonamento agli eventi in meno di 5 secondi dalla registrazione della modifica dei dati. In media, le notifiche dei webhook vengono ricevute in meno di 1 secondo dal momento in cui viene apportata la modifica ai dati. Tuttavia, il servizio può ricevere messaggi in quantità talmente elevate da richiedere anche più tempo.
+
+## Posso ricevere lo stesso evento più di una volta?
+
+Sì. Workfront utilizza la deduplicazione per ridurre le consegne di eventi duplicati, ma non garantisce una consegna esatta.
+
+Quando un endpoint restituisce una risposta HTTP corretta (2xx), Workfront registra temporaneamente tale consegna e utilizza questo record per eliminare le consegne successive dello stesso evento per la stessa sottoscrizione. Le consegne per abbonamenti separati vengono tracciate in modo indipendente.
+
+Possono comunque verificarsi duplicati; ad esempio, quando i tentativi di consegna si sovrappongono, un endpoint elabora un evento ma la sua risposta non raggiunge Workfront, oppure il record di consegna scade o non è disponibile.
+
+Progetta l’endpoint per elaborare le consegne ripetute in modo sicuro (idempotente). Utilizza l&#39;intestazione di richiesta `X-Event-ID` insieme al `subscriptionId` del payload per identificare le consegne ripetute per una sottoscrizione.
 
 ## Risorse aggiuntive
 
