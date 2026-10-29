@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 6%
+source-wordcount: '811'
+ht-degree: 4%
 ---
 # Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi
 
@@ -71,7 +71,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Sblocca o riblocca la possibilità di configurare una notifica di evento
+## Sblocca o riblocca la possibilità di configurare una notifica di evento in produzione
 
 >[!IMPORTANT]
 >
@@ -93,3 +93,32 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Elimina **Notifiche eventi di sistema** nella casella di ricerca sopra l&#39;elenco delle notifiche, cerca e seleziona il nome del gruppo di primo livello per elencare le notifiche, quindi attiva o disattiva le notifiche sbloccate nell&#39;elenco visualizzato.
    * Fai clic su **Gruppi** nel menu a sinistra, quindi fai clic sul nome del gruppo di primo livello. Fai clic su **Notifiche evento** nel pannello a sinistra, quindi configura la notifica dell&#39;evento sbloccato, come spiegato in [Visualizza e configura le notifiche dell&#39;evento per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+
+<div class="preview">
+
+## Sblocca o riblocca la possibilità di configurare una notifica di evento in produzione
+
+>[!IMPORTANT]
+>
+>Quando si blocca nuovamente una notifica, tutti i gruppi nel sistema ereditano la notifica esattamente come è stata impostata. In questo modo si ignorano eventuali modifiche apportate dagli amministratori dei gruppi ai propri gruppi. È quindi consigliabile consultarli prima.
+
+{{step-1-to-setup}}
+
+1. Fai clic su **E-mail** > **Notifiche**.
+
+1. Assicurati che la scheda **Notifiche evento** sia aperta.
+
+
+1. Per sbloccare una notifica per un gruppo, fare clic sull&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-100626.png) a destra della notifica e selezionare **Sblocca accesso al gruppo**. L’icona del lucchetto non viene più visualizzata quando la notifica viene sbloccata.
+
+1. Per bloccare una notifica per un gruppo, selezionare Altro menu ![Altro menu](assets/more-icon.png) a destra della notifica e fare clic su **Blocca accesso gruppo** nella barra delle azioni nella parte inferiore della schermata. L&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-100626.png) viene visualizzata quando la notifica è bloccata.
+
+
+
+1. (Facoltativo) Se si desidera configurare la notifica dell&#39;evento per un gruppo di livello superiore invece di lasciare questa attività all&#39;amministratore del gruppo, è possibile effettuare una delle seguenti operazioni:
+
+   * Elimina **Notifiche eventi di sistema** nella casella di ricerca sopra l&#39;elenco delle notifiche, cerca e seleziona il nome del gruppo di primo livello per elencare le notifiche, quindi attiva o disattiva le notifiche sbloccate nell&#39;elenco visualizzato.
+   * Fai clic su **Gruppi** nel menu a sinistra, quindi fai clic sul nome del gruppo di primo livello. Fai clic su **Notifiche evento** nel pannello a sinistra, quindi configura la notifica dell&#39;evento sbloccato, come spiegato in [Visualizza e configura le notifiche dell&#39;evento per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+   </div>
