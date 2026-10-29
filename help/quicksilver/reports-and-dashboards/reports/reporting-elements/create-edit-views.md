@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 9%
 ---
 # Creare o modificare viste in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
    * Modificare il valore di una colonna facendo clic sul titolo della colonna e selezionando un nuovo campo.
    * Aggiungere una colonna facendo clic su **Aggiungi colonna**, digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   ><span class="preview">I campi personalizzati contrassegnati come preferiti vengono visualizzati nella sezione **Suggested** nella parte superiore dei risultati della ricerca.</span>
+
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
    * Nell&#39;area **Impostazioni colonna** fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:

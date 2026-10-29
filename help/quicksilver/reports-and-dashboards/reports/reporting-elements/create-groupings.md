@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 12%
 ---
 # Creare raggruppamenti in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ Il generatore di interfacce per la creazione dei lanci di raggruppamento.
 1. Nell&#39;area **Anteprima raggruppamento** fare clic su **Aggiungi raggruppamento** per definire la modalità di organizzazione delle informazioni nel report. Di seguito è riportata un’anteprima dell’aspetto del raggruppamento nel rapporto.
 
 1. Iniziare a digitare il nome del campo che rappresenta la modalità di organizzazione delle informazioni nel report, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   ><span class="preview">I campi personalizzati contrassegnati come preferiti vengono visualizzati nella sezione **Suggested** nella parte superiore dei risultati della ricerca.</span>
+
 1. (Facoltativo e condizionale) Quando crei un raggruppamento in un elenco aggiornato, seleziona **Comprimi questo raggruppamento per impostazione predefinita** se desideri che i risultati del raggruppamento vengano visualizzati compressi anziché espansi. Questa impostazione è disabilitata per impostazione predefinita e i risultati del raggruppamento vengono sempre visualizzati nell&#39;elenco espanso.
 
    Per informazioni sugli elenchi aggiornati e legacy, vedere la sezione [Differenza tra gli elenchi aggiornati e legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell&#39;articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).

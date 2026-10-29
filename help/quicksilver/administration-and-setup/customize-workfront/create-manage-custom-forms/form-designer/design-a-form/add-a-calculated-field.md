@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2792'
 ht-degree: 9%
 ---
 # Aggiungere campi calcolati a un modulo
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ Per riutilizzare un campo personalizzato calcolato esistente:
       <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo verrà utilizzato nei calcoli matematici, utilizzare sempre un formato <strong>Numero</strong> o <strong>Valuta</strong>. Quando si seleziona <strong>Numero</strong> o <strong>Valuta</strong>, i numeri che iniziano con 0 vengono troncati automaticamente.</p> 
       <p><b>IMPORTANTE</b>: prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p>
       <p><strong>NOTA</strong>: i campi calcolati con formato <strong>Valuta</strong> non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
      <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
