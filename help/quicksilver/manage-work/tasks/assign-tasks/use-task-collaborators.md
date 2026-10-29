@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 2%
 ---
 # Usa agenti di lavoro
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
+
 Gli agenti di lavoro sono collaboratori AI che possono essere assegnati direttamente ad attività, problemi e richieste di Workfront. Come altri collaboratori AI, gli agenti di lavoro sono configurati nell’area Configura e assegnati agli elementi di lavoro proprio come un utente.
 
-Gli agenti di lavoro si connettono agli agenti configurati in Copilot Studio, Claude, OpenAI o IBM.
+<span class="preview">È possibile utilizzare un Adobe Native Work Agent pronto all&#39;uso basato su Adobe CX Coworker,</span> o un Work Agent connesso a una piattaforma esterna. Le funzionalità disponibili e i requisiti di configurazione dipendono dall’origine dell’agente.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -64,7 +68,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Prerequisiti
 
-* È necessario configurare un agente in Copilot, Claude, OpenAI o IBM prima di poterlo utilizzare come agente di lavoro in Workfront.
+* Prima di poter utilizzare l’agente di lavoro in Workfront, l’amministratore deve configurarlo.
+* <span class="preview">Per un Adobe Native Work Agent, l&#39;organizzazione deve avere Adobe CX Coworker abilitato.</span>
+* Per un agente di lavoro connesso a una piattaforma esterna, anche l’agente deve essere configurato in tale piattaforma.
 
 ## Panoramica dell’agente di lavoro
 
@@ -116,21 +122,22 @@ A seconda della configurazione dell’agente di lavoro in Workfront, dopo il com
 
 Quando un agente di lavoro viene assegnato a un’attività o a un problema, inizia a lavorare quando si verifica una delle seguenti situazioni:
 
-<!--update wording to include issues when this goes to production-->
-
 * L&#39;agente di lavoro viene assegnato a un&#39;attività pronta per l&#39;avvio. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
 * L’agente di lavoro e un utente vengono assegnati a un’attività e l’agente di lavoro viene assegnato per primo.
 * Un&#39;attività a cui è già assegnato un agente di lavoro come diventa pronta per l&#39;avvio e l&#39;agente di lavoro è l&#39;unico o principale assegnatario. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
 * Un&#39;attività a cui un agente di lavoro e un utente sono già assegnati diventa pronta per l&#39;avvio e l&#39;agente di lavoro è stato assegnato per primo o è l&#39;assegnatario principale. Se ad esempio l&#39;attività ha predecessori, questi ultimi saranno completati.
 * Un utente e un agente di lavoro vengono assegnati a un’attività e l’utente viene rimosso.
 * Un utente e un agente di lavoro vengono assegnati a un&#39;attività e l&#39;agente di lavoro viene impostato come assegnatario principale per l&#39;attività.
+* <span class="preview">Un agente di lavoro nativo di Workfront è @mentioned in un&#39;attività.
 
 Le situazioni seguenti non determinano l&#39;inizio del lavoro dell&#39;agente sull&#39;attività:
 
 * Un agente di lavoro viene assegnato a un&#39;attività a cui è già stato assegnato un utente.
-* Un agente di lavoro è @mentioned in un&#39;attività.
+* <span class="preview">Un agente di lavoro è @mentioned in un&#39;attività per un provider che non supporta i trigger di avvio.</span>
 * Un agente di lavoro viene assegnato a un&#39;attività a cui è già stato assegnato un agente di lavoro. In questo caso, il primo agente di lavoro assegnato avrà già avviato il lavoro e il secondo agente di lavoro non farà nulla.
 * Un agente di lavoro viene assegnato a un&#39;attività che non è pronta per l&#39;avvio. Ad esempio, se l&#39;attività ha predecessori, questi non sono ancora completi.
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## Assegnare un agente di lavoro a un’attività, un problema o una richiesta
 
