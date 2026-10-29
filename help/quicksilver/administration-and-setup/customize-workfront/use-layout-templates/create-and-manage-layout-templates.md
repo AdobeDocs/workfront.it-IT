@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 9%
+source-wordcount: '559'
+ht-degree: 8%
 ---
 # Creare e gestire modelli di layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Per ulteriori informazioni sui modelli layout, vedere [Modelli layout](../../../
 
 1. Fare clic su **Nuovo modello di layout**.
 
-   Oppure
+   Per modificare un modello di layout:
 
-   Fare clic sul nome del modello di layout che si desidera modificare.
+   * Fare clic sul nome del modello di layout che si desidera modificare oppure
+   * <span class="preview">Selezionare la casella di controllo accanto al modello di layout nell&#39;elenco e fare clic su **Modifica** nella barra delle azioni nella parte inferiore dello schermo.</span>
+
+     Per informazioni sulla barra delle azioni e altre funzionalità degli elenchi avanzati, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Se si sta creando un nuovo modello di layout, digitare un **Nome modello di layout** e (facoltativo) una **Descrizione**.
 

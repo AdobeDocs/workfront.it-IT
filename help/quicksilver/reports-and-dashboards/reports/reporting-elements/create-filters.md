@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 4%
 ---
 # Creare o modificare filtri in Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
 1. Fai clic sul menu a discesa dei campi per visualizzare un elenco degli ultimi campi utilizzati e dei campi consigliati in base ai quali filtrare. I campi suggeriti sono attualmente visualizzati nell’elenco che si sta filtrando.
 
+   >[!TIP]
+   >
+   ><span class="preview">I campi personalizzati contrassegnati come preferiti vengono visualizzati nella sezione **Suggested** nella parte superiore dei risultati della ricerca.</span>
+
    È inoltre possibile selezionare **Sfoglia campi** per visualizzare un elenco di tutti i campi in base ai quali è possibile filtrare. I campi nella ricerca avanzata sono raggruppati per categoria di oggetti.
 
    ![Individua un campo in base al quale filtrare](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
    * Aggiungere una regola di filtro facendo clic su **Aggiungi un&#39;altra regola di filtro**, iniziare a digitare il nome dell&#39;opzione per la quale si desidera aggiungere una regola nella casella **Inizia a digitare il nome del campo**, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
      I campi associati all&#39;oggetto del filtro sono elencati nella casella **Inizia a digitare il nome del campo**.
+
+     >[!TIP]
+     >
+     ><span class="preview">I campi personalizzati contrassegnati come preferiti vengono visualizzati nella sezione **Suggested** nella parte superiore dei risultati della ricerca.</span>
 
    * Fare clic su **AND** o **OR** durante l&#39;aggiunta di una regola di filtro.\
      Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtro, vedere [Modificatori di filtro e condizione](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

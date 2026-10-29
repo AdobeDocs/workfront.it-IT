@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
+
+{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -77,14 +79,16 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | --- | --- |
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Menu principale > Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
-| Elenchi di stati, priorità, gravità, <span class="preview">condizioni</span> e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li><span class="preview">Configurazione > Preferenze progetto > Condizioni</span></li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
-| <span class="preview">Elenchi di azioni e campi tracciati nei feed di aggiornamento</span> | <ul><li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Campi tracciati</span></li> <li><span class="preview">Configurazione > Interfaccia > Aggiorna feed > scheda Azioni</span></li></ul> |
-| <span class="preview">Elenco di scorecard</span> | <span class="preview">Configurazione > Scorecard</span> |
-| <span class="preview">Elenco dei tipi di rischio</span> | <span class="preview">Configurazione > Tipi di rischio</span> |
+| Elenchi di stati, priorità, gravità, condizioni e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Configurazione > Preferenze progetto > Condizioni</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
+| Elenchi di azioni e campi tracciati nei feed di aggiornamento | <ul><li>Configurazione > Interfaccia > Aggiorna feed > scheda Campi tracciati</li> <li>Configurazione > Interfaccia > Aggiorna feed > scheda Azioni</li></ul> |
+| Elenco delle scorecard | Configurazione > Scorecard |
+| Elenco dei tipi di rischio | Imposta > Tipi di rischio |
 | Elenco di mansioni e tariffe su una scheda tariffe | Imposta > Schede tariffa > seleziona una scheda tariffa > Ruoli e tassi mansione |
 | Elenco delle località | Configurazione > Posizioni |
 | Elenco delle traduzioni | Configurazione > Localizzazione |
 | Elenchi di integrazioni | <ul><li>Configurazione > Documenti > Integrazione con SharePoint</li><li>Configurazione > Documenti > Integrazione personalizzata</li><li>Configurazione > Documenti > Experience Manager Assets</li></ul> |
+| <span class="preview">Elenco dei modelli di layout</span> | <span class="preview">Configurazione > Interfaccia > Modelli layout</span> |
+| <span class="preview">Elenco delle notifiche degli eventi</span> | <ul><li><span class="preview">Configurazione > E-mail > Notifiche > Notifiche evento</span></li><li><span class="preview">Pagina dettagli gruppo > Notifiche evento</span></li></ul> |
 | Elenco dei rapporti | Menu principale > Rapporti (**Utilizza cartelle condivisibili** deve essere attivato) |
 | Elenchi di argomenti di coda, gruppi di argomenti e regole di routing | <ul><li>Progetto o Modello > Argomenti coda</li><li>Progetto o Modello > Gruppi di argomenti</li><li>Progetto o Modello > Regole ciclo</li></ul> |
 | Elenco di snapshot | Progetto > Snapshot |
@@ -99,10 +103,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è pos
 
    ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
 
-1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L’opzione predefinita consiste nel visualizzare l’elenco con tutti i raggruppamenti espansi.
+1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L&#39;opzione predefinita consiste nel visualizzare l&#39;elenco con tutti i raggruppamenti espansi.<!--Delete this line at January release-->
 1. Quando viene applicato il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppamento per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
 
-   ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
+   ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Un indicatore viene visualizzato sul pulsante **Raggruppamento** quando viene applicato un raggruppamento all&#39;elenco.
 
    ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">Per comprimere o espandere tutti i raggruppamenti dell&#39;elenco, fare clic sulla freccia accanto all&#39;intestazione della prima colonna.</span>
+
+   <span class="preview">![Comprimi tutti i raggruppamenti](assets/collapse-expand-all-groupings.png)</span>
 
 ### Ordinare in un elenco avanzato
 

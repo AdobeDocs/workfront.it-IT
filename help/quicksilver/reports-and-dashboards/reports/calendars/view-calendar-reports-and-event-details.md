@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f6d452008162409f36883dc93345c5ae0ce69f03
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 8%
+source-wordcount: '648'
+ht-degree: 7%
 ---
 # Visualizzare i report calendario e i dettagli dell’evento
 
@@ -108,20 +108,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
 
 1. (Facoltativo) Se visualizzi il calendario nelle visualizzazioni **Mese** o **Settimana**, puoi modificare la visualizzazione del calendario con le seguenti opzioni:
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * Per modificare rapidamente le date visualizzate:
-
-     1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
-
-        ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione **Settimana**, il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
-
-     1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Escludi fine settimana quando si visualizza il calendario nella visualizzazione Mese</td> 
+      <td>Nell'angolo superiore destro del calendario, attiva o disattiva <b>Mostra fine settimana</b>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Mostra o nasconde le ore del giorno quando si visualizza il calendario nella visualizzazione <b>[!UICONTROL Week]</b></span></td> 
+      <td><span class="preview">Nell'angolo in alto a destra del calendario attivare o disattivare <b>Mostra ore</b>.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Per modificare rapidamente le date visualizzate</td> 
+      <td> <p>Sulla barra degli strumenti <b>[!UICONTROL Calendar]</b>, fare clic sulla freccia sinistra dell'indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Fai clic sulla freccia per modificare la data"></p> <p>Le date visualizzate vengono regolate in base a un intervallo in base alla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione <b>Settimana</b>, il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.</p> <p>(Facoltativo) Per tornare al giorno corrente, fare clic su <b>[!UICONTROL Today]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Facoltativo) Per nascondere gli eventi di un progetto o di un raggruppamento del calendario collegato al calendario, deselezionare il raggruppamento del progetto o del calendario nell&#39;elenco dei progetti.
    ![Nascondi eventi](assets/hide-events-for-project-or-cal-grouping.png)

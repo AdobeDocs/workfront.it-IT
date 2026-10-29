@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 13%
+source-wordcount: '337'
+ht-degree: 12%
 ---
 # Copiare un modello layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,10 +76,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel pannello a sinistra, fai clic su **Interfaccia** > **Modelli di layout**.
 
-1. Fare clic sul nome del modello di layout che si desidera modificare.
-1. Fai clic sull&#39;icona **Copia** ![Copia icona](assets/copy-icon.png).
+1. Selezionare la casella di controllo accanto al modello di layout da modificare.
+1. Fai clic sull&#39;icona **Copia** ![Copia icona](assets/copy-icon.png), <span class="preview">o fai clic su **Copia** nella barra delle azioni nella parte inferiore dello schermo.</span>
 
    Tutte le impostazioni, ad eccezione del nome, della descrizione e delle assegnazioni utente nel modello di layout esistente, vengono copiate nel nuovo modello.
+
+   Per informazioni sulla barra delle azioni e altre funzionalità degli elenchi avanzati, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Nella schermata visualizzata, digitare un nuovo **nome modello di layout** e (facoltativo) una **descrizione**.
 
@@ -92,3 +96,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [Personalizzare la pagina di destinazione utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Fai clic su **Crea**.
+

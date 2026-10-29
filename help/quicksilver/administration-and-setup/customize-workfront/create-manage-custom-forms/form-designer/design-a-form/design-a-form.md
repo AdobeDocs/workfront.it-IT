@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 75%
+source-wordcount: '8508'
+ht-degree: 72%
 ---
 # Creare un modulo personalizzato
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinis
 ### Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
 
 1. Nella parte superiore a sinistra dello schermo, fai clic su **Libreria campi**.
+1. Cercare il campo che si desidera aggiungere al modulo.
+
+   >[!TIP]
+   >
+   ><span class="preview">I campi contrassegnati come preferiti vengono visualizzati nella sezione **Suggested** nella parte superiore della libreria dei campi.</span>
 
 1. Trascina il campo o il widget desiderato nell’area di lavoro. Ripeti questo passaggio per aggiungere altri campi o widget.
 
@@ -332,6 +339,15 @@ Per aggiungere un campo di testo:
     <td><ul><li>Testo descrittivo</li></ul></td>
     </tr>
     <tr>
+     <td>Contrassegna come preferito</td>
+     <td><p><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     <td><ul>
+     <li>Testo su riga singola</li>
+     <li>Paragrafo</li>
+     <li>Testo formattato</li>
+     <li>Testo descrittivo</li></ul></td>
+    </tr>
+    <tr>
      <td>Attivo</td>
      <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     <li>Elenco a discesa a selezione multipla</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Contrassegna come preferito</td>
+     <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     <td><ul>
+     <li>Pulsanti di scelta</li>
+     <li>Gruppo di caselle di controllo</li>
+     <li>Elenco a discesa a selezione singola</li>
+     <li>Elenco a discesa a selezione multipla</li></ul></td>
     </tr> 
     <tr>
      <td>Attivo</td>
@@ -754,6 +779,10 @@ Per aggiungere campi data:
       <td><p>Seleziona questa opzione se desideri visualizzare l’ora del giorno insieme alla data nel campo.</p></td>
      </tr> 
      <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
+     <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
@@ -870,6 +899,10 @@ Per aggiungere una ricerca esterna:
       <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
      </tr>
      <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
+     <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
@@ -971,6 +1004,10 @@ Per aggiungere una ricerca interna:
       <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
      </tr>
      <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
+     <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ Per aggiungere immagini, PDF o video:
      <tr> 
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
      <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
+     </tr>
+     <tr>
       <td>Attivo</td>
       <td><p>Questa opzione è disabilitata per impostazione predefinita.<p><p>Quando imposti un campo come Inattivo, questo viene escluso dai rapporti, dai filtri e dalle viste e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Per aggiungere un file Adobe XD:
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il puntatore sull’icona a forma di punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
      </tr>
      <tr>
       <td>Attivo</td>
@@ -1369,6 +1418,10 @@ Per aggiungere un campo di tipo Pianificazione connessione:
       <td role="rowheader">Campi del tipo di record</td> 
       <td><p>(Facoltativo) Seleziona fino a 7 campi di ricerca dal tipo di record connesso da visualizzare nel modulo personalizzato. Il campo principale è selezionato per impostazione predefinita e non può essere modificato. </p> <p> I campi dei record collegati selezionati vengono visualizzati in una vista tabella sul modulo personalizzato. Quando il modulo viene associato a un oggetto Workfront, la vista tabella è di sola lettura. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Contrassegna come preferito</td>
+      <td><span class="preview">Selezionare questa opzione per visualizzare il campo come campo consigliato durante la creazione di filtri, visualizzazioni e raggruppamenti in elenchi e report e nella parte superiore della raccolta campi nel progettista di moduli.</span></td>
      </tr>
      <tr>
       <td>Attivo</td>
