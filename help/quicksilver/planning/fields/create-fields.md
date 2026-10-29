@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5673'
+source-wordcount: '5676'
 ht-degree: 2%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -188,7 +188,7 @@ Old:
 * È possibile creare campi solo dalla vista tabella.
 * Nell’ambiente di produzione, i nuovi campi aggiunti vengono aggiunti e sono visibili da tutte le viste tabella.
 
-  <span class="preview">Nell&#39;ambiente di anteprima i campi appena aggiunti vengono aggiunti come campi nascosti in tutte le visualizzazioni tabella. I nuovi campi sono visibili nella visualizzazione utilizzata per aggiungerli. </span>
+  <span class="preview">Nell&#39;ambiente di anteprima i campi appena aggiunti vengono aggiunti come campi nascosti in tutte le visualizzazioni tabella che li contengono. I nuovi campi sono visibili nella visualizzazione utilizzata per aggiungerli. </span>
 
 ## Creare i campi collegando i tipi di record
 
@@ -649,7 +649,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.

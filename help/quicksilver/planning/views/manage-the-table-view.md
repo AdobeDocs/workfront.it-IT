@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # Gestire la vista tabella
@@ -395,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato. L&#39;aggiunta di righe è identica alla creazione di record.
 
-È possibile avere fino a 50.000 record o righe per un tipo di record. <span class="preview">Per impostazione predefinita vengono visualizzate solo 500 righe. Caricamento maggiore durante lo scorrimento della pagina.</span>
+È possibile avere fino a 50.000 record o righe per un tipo di record. <span class="preview">Per impostazione predefinita vengono visualizzate solo 500 righe. Più carica mentre scorri la pagina.</span>
+<span class="preview">Il numero totale di record viene visualizzato a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro della tabella.</span>
 
 1. Passare a una pagina del tipo di record e selezionare una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione, quindi scegliere **Tabella**.
 
@@ -411,7 +412,6 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    >
    >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">Il numero totale di record viene visualizzato a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro della tabella.</span>
 
 1. (Facoltativo) Seleziona uno o più record o righe, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
@@ -647,7 +647,7 @@ Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento ******************—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
