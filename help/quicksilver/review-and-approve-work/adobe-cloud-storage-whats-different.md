@@ -6,9 +6,9 @@ description: Comprendi le principali differenze sugli oggetti di archiviazione c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Differenze nell’archiviazione cloud di Adobe
@@ -94,7 +94,7 @@ Il visualizzatore Frame.io fornisce:
 * Strumenti di markup e commento, inclusi disegno a mano libera e forme standard quali cerchi, frecce e quadrati
 * Commenti con precisione del frame per le recensioni video
 * Cronologia delle versioni e confronto delle versioni
-* Accesso mobile per revisioni e approvazioni in movimento
+* Accesso mobile per revisione e approvazione durante gli spostamenti con l&#39;app iOS [Frame.io](https://help.frame.io/en/collections/9679120-ios-app)
 * Supporto per oltre 40 formati di file, inclusi tutti i tipi comuni di video, immagini, audio, PDF e Microsoft Office, con riproduzione nativa per formati video professionali come ProRes, H.265 e DNxHD e supporto per file fino a 500 GB
 
 ## Regole di denominazione degli oggetti
