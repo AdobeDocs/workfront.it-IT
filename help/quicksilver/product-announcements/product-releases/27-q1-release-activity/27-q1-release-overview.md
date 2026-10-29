@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1099'
 ht-degree: 17%
 ---
 
@@ -138,7 +138,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configurare le notifiche e-mail di revisione e approvazione unificate</a></p>
                 <p>Ora puoi configurare le 18 notifiche e-mail di revisione e approvazione unificate, con un leggero cambiamento delle righe dell’oggetto.</p>
             </td>
-            <td><p>29 ottobre 2026</p></td>
+            <td> <p>Questa funzione non è al momento disponibile nell’ambiente di anteprima.</p></td>
             <td><p>12 novembre 2026</p></td>
             <td><p>21 gennaio 2027</p></td>
         </tr>
@@ -291,7 +291,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 
 * Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
 
-Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 
@@ -325,7 +325,7 @@ Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/h
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
