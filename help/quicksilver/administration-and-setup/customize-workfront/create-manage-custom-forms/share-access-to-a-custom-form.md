@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 5%
 ---
 # Condividere un modulo personalizzato
+
+{{preview-fast-release-general}}
 
 È possibile configurare l&#39;accesso per un modulo personalizzato in modo da controllare chi può visualizzarlo, condividerlo e modificarlo, ovvero la persona, il ruolo, il gruppo, il team, la società e il profilo aziendale.
 
@@ -108,7 +110,8 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
       <td> <p>Questa opzione è disponibile solo per gli utenti con una licenza Standard o Plan. </p> <p>Oltre a poter aggiungere il modulo agli oggetti a cui hanno accesso per la modifica, gli utenti possono anche modificare completamente il modulo personalizzato, incluse le operazioni di aggiunta, modifica ed eliminazione dei campi.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
        <ul> 
         <li> <p><strong>Allega a dati personalizzati</strong>: possibilità di allegare il modulo personalizzato a progetti, attività e problemi per i quali dispongono dell'accesso di gestione</p> </li> 
-        <li><strong>Elimina</strong>: elimina il modulo personalizzato dal sistema</li> 
+        <li><strong>Elimina</strong>: elimina il modulo personalizzato dal sistema</li>
+        <li> <p><span class="preview"><strong>Rimuovi dati personalizzati</strong>: possibilità di rimuovere il modulo personalizzato da progetti, attività e problemi per i quali dispongono dell'accesso di gestione</span></p> </li> 
         <li><strong>Condividi</strong>: condividi il modulo personalizzato con altri utenti nel sistema</li> 
        </ul> </td> 
      </tr> 
