@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # Gestire la vista tabella
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ In una vista tabella, tutti i record del tipo di record selezionato vengono visu
 
 Per impostazione predefinita, in una vista tabella vengono visualizzati i seguenti elementi:
 
-* Tutti i campi e tutti i record per il tipo di record selezionato.
+* Nell’ambiente di produzione, tutti i campi e tutti i record per il tipo di record selezionato.
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* Nell’ambiente di anteprima vengono visualizzati 500 record per impostazione predefinita. I record aggiuntivi vengono visualizzati durante lo scorrimento della pagina.
 
 </div>
--->
 
 Per gestire una vista tabella:
 
@@ -244,6 +241,10 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 1. Inizia ad aggiungere campi (o colonne), come descritto nell&#39;articolo [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
+
+   Nell’ambiente di produzione, i nuovi campi aggiunti vengono aggiunti e sono visibili da tutte le visualizzazioni.
+
+   <span class="preview">Nell&#39;ambiente di anteprima i campi appena aggiunti vengono aggiunti come campi nascosti in tutte le visualizzazioni, ad eccezione della visualizzazione in cui vengono aggiunti. </span>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Icona Campi](assets/fields-icon.png) nella barra degli strumenti, cerca un campo, quindi deseleziona l&#39;opzione a destra del nome del campo per nasconderlo.
 
@@ -301,11 +302,11 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >Per impostazione predefinita, i campi nascosti non vengono visualizzati nella casella di anteprima **Dettagli** del record. Tutti i campi vengono visualizzati nella pagina Dettagli del record. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Fai clic sull&#39;icona **Campi** e seleziona l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
+1. Fai clic sull&#39;icona **Campi** e attiva l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Nella casella **Ricerca** ![Icona ricerca](assets/search-icon.png) inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
+   1. Nella casella **Ricerca** ![Icona ricerca](assets/search-icon.png) inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta. <span class="preview">Il numero totale di record visualizzati a sinistra della casella di ricerca viene sostituito dal numero di record trovati nella ricerca. La tabella viene filtrata per visualizzare solo gli elementi che corrispondono alla ricerca. </span>
 
       ![Casella di ricerca con struttura blu dei risultati nella vista tabella](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">La ricerca rapida funziona per tutti i record, non solo per quelli visualizzati nella visualizzazione corrente. Man mano che scorri, vengono caricati più record. </span>
+
 
    1. Premi **Invio** sulla tastiera per passare al successivo campo trovato.
 
@@ -396,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato. L&#39;aggiunta di righe è identica alla creazione di record.
 
-È possibile avere fino a 50.000 record o righe per un tipo di record.
+È possibile avere fino a 50.000 record o righe per un tipo di record. <span class="preview">Per impostazione predefinita vengono visualizzate solo 500 righe. Più carica mentre scorri la pagina.</span>
+<span class="preview">Il numero totale di record viene visualizzato a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro della tabella.</span>
 
 1. Passare a una pagina del tipo di record e selezionare una visualizzazione tabella oppure fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione, quindi scegliere **Tabella**.
 
@@ -411,6 +411,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
    >Quando un record contiene commenti non letti, nell&#39;angolo superiore destro del campo principale del record viene visualizzato un indicatore **Nuovo commento**.
    >
    >![Icona Nuovo commento nella vista tabella](assets/new-comment-icon-in-table-view-highlighted.png)
+
 
 1. (Facoltativo) Seleziona uno o più record o righe, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 

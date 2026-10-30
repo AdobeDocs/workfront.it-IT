@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1948'
 ht-degree: 0%
 ---
 # Panoramica del tipo di record in più aree di lavoro
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### Accesso alle connessioni di un tipo di record globale
 
-I tipi di record connessi al tipo di record globale nell&#39;area di lavoro originale diventano visibili da altre aree di lavoro in cui viene aggiunto il tipo di record globale e sono disponibili per le connessioni dalle aree di lavoro secondarie in cui viene aggiunto il tipo di record globale.
+* I tipi di record connessi al tipo di record globale nell&#39;area di lavoro originale diventano visibili da altre aree di lavoro in cui viene aggiunto il tipo di record globale e sono disponibili per le connessioni dalle aree di lavoro secondarie in cui viene aggiunto il tipo di record globale.
+
+<div class="preview">
+
+* Quando si aggiungono due tipi di record globali connessi a un&#39;area di lavoro secondaria, è possibile disattivare la connettività tra aree di lavoro diverse e collegare comunque i record localmente.
+
+  Ogni tipo di record secondario visualizza solo i propri record per entrambi i tipi di record e può collegarli tra loro. I record dell&#39;area di lavoro globale e di altre aree di lavoro secondarie non vengono più visualizzati.
+
+</div>
 
 ### Accesso API di un tipo di record globale
 

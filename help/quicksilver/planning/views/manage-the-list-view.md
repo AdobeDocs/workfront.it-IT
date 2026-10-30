@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 1%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * Pagina record connessi per i progetti nell&#39;area dei dettagli di un record
    * Pagina Moduli di richiesta di un tipo di record
 
+   >[!TIP]
+   >
+   ><span class="preview">Il numero di elementi nell&#39;elenco viene visualizzato a sinistra della casella di ricerca rapida nell&#39;angolo superiore destro dell&#39;elenco. Il numero riflette il numero di elementi visualizzati con i filtri applicati all’elenco. Gli elementi che non disponi delle autorizzazioni necessarie per visualizzare non vengono conteggiati. </span>
+
+
 1. (Condizionale) Se disponibile, effettuare una delle seguenti operazioni per modificare la vista a elenco:
 
    1. Espandere il menu delle viste a discesa nell&#39;angolo superiore sinistro dell&#39;elenco per selezionare un&#39;altra vista oppure fare clic su **Nuova vista** e crearne un&#39;altra.
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. (Facoltativo) Aggiungi una parola chiave nella casella di ricerca nell’angolo superiore destro dell’elenco per cercare un elemento.
 
    Gli elementi che corrispondono al termine di ricerca sono evidenziati nell&#39;elenco.
+
+   <span class="preview">L&#39;elenco è filtrato in modo da visualizzare solo gli elementi corrispondenti alla ricerca. </span>
 
 1. (Facoltativo e condizionale) Nella pagina Progetti <!--change projects to items here when more items will display in the Glist--> connessi, per aggiungere altri elementi all&#39;elenco e collegarli automaticamente al record selezionato, eseguire una delle operazioni seguenti:
 

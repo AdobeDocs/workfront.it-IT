@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 2%
 ---
 # Gestire la vista timeline
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Per gestire una vista timeline:
 
    Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e vengono ordinati automaticamente in ordine cronologico rispetto alla data di inizio.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">Per impostazione predefinita vengono visualizzati i primi 1000 record. I record aggiuntivi continuano a essere visualizzati durante lo scorrimento della pagina, in batch di 1000.</span>
+
+   <span class="preview">Il numero totale di record viene visualizzato a sinistra della casella di ricerca rapida, nell&#39;angolo superiore destro della tabella.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Per gestire una vista timeline:
 1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
 1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. L&#39;opzione **Standard** è quella predefinita.  <!--check to see if they updated the name of the setting here-->
 
-
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
+   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo.
+
+      Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
+
+      <span class="preview">Il numero totale di record visualizzati a sinistra della casella di ricerca viene sostituito dal numero di record trovati nella ricerca. </span>
 
       ![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Per gestire una vista timeline:
 
       Non è possibile utilizzare parole chiave associate a campi che non vengono visualizzati nella visualizzazione timeline.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">La ricerca rapida funziona per tutti i record e non solo per quelli attualmente visualizzati nella pagina. Vengono visualizzati 1000 record per impostazione predefinita. Fai clic su **Carica altri** per visualizzare altri record trovati nella ricerca rapida. </span>
 
    1. Premi Invio sulla tastiera per passare al successivo campo trovato.
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
    1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
-   1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
+1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
 
 1. (Facoltativo) Fai clic su **Raggruppamento** per visualizzare i record connessi nella timeline.
 
@@ -523,11 +521,9 @@ Per aggiungere un raggruppamento nella vista timeline:
    >Quando si trascinano record da un raggruppamento all&#39;altro, i campi selezionati nel raggruppamento aggiornano automaticamente i valori dei record spostati.
 1. (Facoltativo) Fai clic su **Impostazioni**, quindi su **Colore** per impostare i raggruppamenti del codice colore. Per ulteriori informazioni, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(Facoltativo) Dalla disposizione **Swimlane** o **Stacked**, acquisire un raggruppamento nella visualizzazione della sequenza temporale e rilasciarlo in un&#39;altra posizione.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">L&#39;ordine di raggruppamento cambia e l&#39;ordinamento del raggruppamento diventa **Personalizzato**. Per ulteriori informazioni, vedere la sezione [Aggiungi ordinamento](#add-sort) in questo articolo.</span>
 
 ### Aggiungi ordinamento
 
@@ -557,11 +553,9 @@ Per aggiungere un ordinamento nella vista timeline:
 
    Ad esempio, l’ordinamento di un campo di testo potrebbe essere A -> Z o Z -> A.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Se la visualizzazione della sequenza temporale contiene raggruppamenti e l&#39;ordine dei raggruppamenti è stato riorganizzato manualmente, la direzione dell&#39;ordinamento verrà visualizzata come **Personalizzato**. </span>
 
    La direzione di applicazione di un ordinamento dipende dal formato del campo selezionato.
 1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere fino a 10 condizioni.

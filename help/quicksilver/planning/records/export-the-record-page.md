@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 ---
 # Esportare i dettagli di un record
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * Il file esportato mantiene il layout della pagina di registrazione, incluse le miniature e le immagini di copertina.
 
-* Non è possibile esportare una pagina Dettagli personalizzata, in cui diversi campi sono nascosti.
+* Nell’ambiente di produzione non è possibile esportare una pagina Dettagli personalizzata, in cui diversi campi sono nascosti.
+
+<div class="preview">
+
+* Nell’ambiente di anteprima puoi esportare una pagina Dettagli personalizzata in cui sono nascosti diversi campi.
+
+</div>
 
 ## Esportare i dettagli di un record
 
@@ -206,7 +210,6 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
    >[!NOTE]
    >
    >    Le informazioni aggiuntive non visualizzate nella pagina e visibili solo dopo aver fatto clic su Mostra altro nell&#39;area dei dettagli del record non vengono visualizzate nel file PDF esportato. Nel file esportato vengono visualizzate solo le informazioni visibili nella pagina.
-
 
 1. (Facoltativo) Vai al file scaricato, aprilo e modificalo (se è un file di Word), o condividilo con altri.
 

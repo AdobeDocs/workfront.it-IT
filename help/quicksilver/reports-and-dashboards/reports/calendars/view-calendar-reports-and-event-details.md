@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f6d452008162409f36883dc93345c5ae0ce69f03
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 7%
 ---
 # Visualizzare i report calendario e i dettagli dell’evento
+
+{{highlighted-preview}}
 
 Puoi visualizzare i rapporti del calendario e i dettagli dell’evento che hai creato o che sono stati condivisi con te in Adobe Workfront.
 

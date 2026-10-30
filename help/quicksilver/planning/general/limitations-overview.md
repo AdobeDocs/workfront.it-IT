@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 5%
+source-wordcount: '598'
+ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Panoramica sui limiti degli oggetti di pianificazione di Adobe Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell&#39;ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di gerarchie in un’area di lavoro | 5 |
 | Numero di record di un tipo di record padre connessi a un record di un tipo di record figlio all&#39;interno di una gerarchia | 10 |
 | Numero di record connessi a un record in un tipo di connessione a selezione multipla, senza una gerarchia configurata tra i record | 500 |
+| <span class="preview">Numero di campi di ricerca per tipo di record</span> | 40 |
+| <span class="preview">Numero di campi di ricerca di testo lungo per tipo di record</span> | 5 |
+| <span class="preview">Numero di caratteri nel valore di una singola cella di un campo di ricerca a testo lungo (nella vista tabella)</span> | 50.000 caratteri |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 
