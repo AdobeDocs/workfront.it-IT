@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0cedd58bb89825150b201e3aefd17bee12ff85e6
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1196'
 ht-degree: 20%
 ---
 # Campi delle risorse di sottoscrizione a eventi
@@ -77,18 +77,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -135,12 +132,10 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -151,7 +146,6 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -198,13 +192,10 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> decisionUserID </td> 
   </tr> 
   <tr> 
-  <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -381,7 +372,6 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> securityRootID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td>stato</td> 
@@ -477,18 +467,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> extRefID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> groupID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -509,7 +496,6 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -1866,6 +1852,16 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>isPrivate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>noteObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>noteText</td> 
   </tr> 
   <tr> 
@@ -1931,6 +1927,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>proofID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1977,6 +1978,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>timesheetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topNoteObjCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2192,6 +2198,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>companyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>condizione</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2764,18 +2775,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> companyID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> valuta </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2897,18 +2905,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2955,18 +2960,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> categoryID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> entryDate </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3043,18 +3045,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> rateAttributeID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3091,12 +3090,10 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> systemGenerated </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td>Valore parametro risorsa del piano per gestione del personale <p>(Subs evento v2)</p></td> 
    <td>SRPVAL</td> 
@@ -3118,18 +3115,15 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID</td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3219,11 +3213,6 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
