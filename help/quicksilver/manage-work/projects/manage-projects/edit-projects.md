@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 2%
 ---
 # Modificare progetti
@@ -454,10 +454,10 @@ Per modificare i campi nell&#39;area Finanza:
     <tbody> 
      <tr>
       <td><strong>Utilizza tassi di cambio effettivi in base alla data dal sistema</strong></td>
-      <td><p>Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</p><p>Per ulteriori informazioni sui tassi di cambio, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>. </p></td> 
+      <td><p>Selezionare questa opzione per utilizzare sempre i tassi di cambio effettivi a livello di sistema e impedire le sostituzioni dei tassi di cambio nel progetto.</p><p>Per ulteriori informazioni sui tassi di cambio, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>. </p></td> 
      </tr>
      <tr><td><strong>Data tasso di cambio</strong></td>
-     <td><p>Quando si sceglie di utilizzare i tassi di cambio validi per la data dal sistema, è necessario selezionare una data. Questa data viene utilizzata per definire i tassi di cambio per costi e ricavi pianificati.</p><p>Per costi e ricavi effettivi, viene utilizzato il tasso di cambio per la data di registrazione delle ore.</p></td>
+     <td><p>Quando si seleziona l'opzione che consente di utilizzare i tassi di cambio validi per la data dal sistema, è necessario selezionare anche una data. Questa data viene utilizzata per definire i tassi di cambio per costi e ricavi pianificati.</p><p>Se, ad esempio, la data del tasso di cambio è il 12 febbraio, Workfront utilizza il tasso di cambio a livello di sistema del 12 febbraio per le conversioni nelle divise di ricavi e costi pianificate, anche quando il lavoro pianificato si verifica in altre date.</p><p>Per costi e ricavi effettivi, viene utilizzato il tasso di cambio per la data di registrazione delle ore.</p></td>
      </tr>
      <tr>
       <td><strong>Mantieni informazioni sulle tariffe di fatturazione del progetto</strong></td>
