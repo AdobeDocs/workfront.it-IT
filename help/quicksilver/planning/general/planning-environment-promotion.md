@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 È possibile copiare aree di lavoro, tipi di record, campi e viste di Workfront Planning da un ambiente Workfront a un altro utilizzando le funzionalità di promozione dell&#39;ambiente.
 
@@ -46,7 +46,7 @@ L&#39;utilizzo della promozione dell&#39;ambiente con Planning è simile all&#39
   * Viste
   * Gerarchie
   * Impostazioni di condivisione per tutti gli oggetti
-  * Automazioni
+  * Automazioni <!--this might not be part of it; Lilit is checking-->
   * Moduli di richiesta
   * Regole di business
   * Oggetti connessi

@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 6%
-
 ---
-
 # Aggiornare stato attività
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * Quando si contrassegna un&#39;attività come Completata, la percentuale di completamento dell&#39;attività viene aggiornata al 100%.
 * Esistono i seguenti scenari per le attività padre:
-   * Non è possibile aggiornare lo stato di un&#39;attività padre a Completo quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
-   * È possibile aggiornare lo stato di un&#39;attività padre impostandolo su Completo quando la modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
+  * Non è possibile aggiornare lo stato di un&#39;attività padre a Completo quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
+  * È possibile aggiornare lo stato di un&#39;attività padre impostandolo su Completo quando la modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
 
   Per ulteriori informazioni, vedere [Modifica progetti](../manage-projects/edit-projects.md).
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## Aggiorna manualmente lo stato delle attività
 
@@ -152,6 +159,12 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
    >[!IMPORTANT]
    >
    >  Solo gli assegnatari delle attività possono aggiornare la Data di conferma.
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 
