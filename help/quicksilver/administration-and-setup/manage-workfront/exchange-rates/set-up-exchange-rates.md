@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '938'
 ht-degree: 5%
 ---
 # Impostare i tassi di cambio
@@ -35,6 +35,7 @@ ht-degree: 5%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 In qualità di amministratore di Adobe Workfront, puoi impostare i tassi di cambio in Workfront. Ciò include quanto segue:
 
@@ -109,6 +110,14 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Impostare le date di validità sui tassi di cambio di una divisa
 
 Le date di validità dei tassi di cambio di una valuta sono configurate in modo che un valore di tasso termini in una data specifica e inizi un altro tasso. Il tasso di cambio per la data corretta viene quindi utilizzato nei calcoli finanziari.
+
+>[!NOTE]
+>
+>La configurazione dei tassi di cambio validi per data definisce il tasso di cambio di sistema applicabile per una data specifica. Ciò non significa che tutti i calcoli finanziari del progetto utilizzino un tasso di cambio diverso per ogni giorno.
+>
+>Quando l&#39;impostazione **Usa tassi di cambio validi per data dall&#39;impostazione di sistema** è attivata per un progetto, i costi e i ricavi pianificati utilizzano il tasso di cambio di sistema valido per la **data tasso di cambio** del progetto. Non utilizzano automaticamente il tasso effettivo per ogni giorno di lavoro pianificato.
+>
+>Per informazioni sull&#39;impostazione di un progetto per l&#39;utilizzo dei tassi di cambio validi a livello di sistema, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 

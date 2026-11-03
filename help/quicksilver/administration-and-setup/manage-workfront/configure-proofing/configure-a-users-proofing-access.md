@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 6%
 ---
 # Configurare l’accesso alle bozze di un utente
 
@@ -70,61 +70,65 @@ Per eseguire i passaggi descritti in questo articolo, devi disporre dei seguenti
 
 +++
 
-## Configurare il profilo di autorizzazione di una bozza utente
+<!--
 
-Il profilo di autorizzazione selezionato viene concesso agli utenti per ogni bozza esistente all’interno dell’organizzazione.
+## Configure a user's proof permission profile
+
+The permission profile you select is granted to the users for each proof that exists within your organization.
 
 {{step-1-to-users}}
+ 
+1. Select one or more users, then click **Edit**.  
 
-1. Seleziona uno o più utenti, quindi fai clic su **Modifica**.
-
-1. Nella sezione **Accesso**, fai clic su una delle seguenti opzioni di autorizzazione di Workfront Proof nel menu a discesa **Profilo autorizzazione bozza**:
+1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile** drop-down menu:
 
    >[!NOTE]
    >
-   >Se utilizzi un piano Workfront legacy, accertati che l&#39;opzione **L&#39;utente può generare bozze** sia abilitata, come spiegato in precedenza nella sezione [Abilitare e disabilitare la verifica per un utente (solo piani legacy)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
+   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only). 
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Supervisore</strong> </td> 
-      <td>Gli utenti possono gestire e visualizzare tutte le bozze create sull’account della tua organizzazione. Possono anche modificare i revisori aggiunti a queste bozze. Gli utenti con questo profilo di autorizzazione non possono gestire gli utenti o modificare le impostazioni di Workfront Proof.</td> 
+      <td role="rowheader"><strong>Supervisor</strong> </td> 
+      <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Manager</strong> </td> 
-      <td> <p> Gli utenti possono gestire e visualizzare le bozze create o di proprietà dell’account dell’organizzazione. Possono visualizzare le bozze di altri utenti solo quando vengono aggiunti come revisori. Si tratta di un'impostazione predefinita. </p> </td> 
+      <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Amministratore</strong> </td> 
-      <td> Gli utenti dispongono delle autorizzazioni di amministratore in Workfront Proof e possono modificare le impostazioni dell’account. Gli utenti possono gestire e visualizzare tutte le bozze create sull’account della tua organizzazione. Ciò include l’aggiunta e la rimozione di revisori, bozze e commenti.</td> 
+      <td role="rowheader"><strong>Administrator</strong> </td> 
+      <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Personalizzato</strong> </td> 
-      <td> <p>Disponibile solo se è stato configurato un profilo di autorizzazione personalizzato in Workfront Proof.</p> <p><b>NOTA</b>:  <p>Assicurati che il profilo di autorizzazione qui concesso non fornisca un accesso maggiore rispetto all'impostazione del Livello di accesso dell'utente in Workfront (vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>). Se fornisce un accesso più elevato, l’utente può accedere alle prove all’interno di Workfront Proof a cui non può accedere in Workfront.</p> <p>Ciò è particolarmente importante se si intende consentire a tutti gli utenti di Workfront di accedere a Workfront Proof direttamente da Workfront come descritto in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Accedere a Workfront Proof da Adobe Workfront</a>.</p> <p>Per impostazione predefinita, solo gli amministratori di Workfront hanno accesso a un collegamento diretto al sito Workfront Proof dalla barra di navigazione globale di Workfront.</p> </p> </td> 
+      <td role="rowheader"><strong>Custom</strong> </td> 
+      <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <p><b>NOTE</b>:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's Access Level setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Il profilo di autorizzazione selezionato viene concesso agli utenti per ogni bozza esistente all’interno dell’organizzazione.
+   The permission profile you select is granted to the users for each proof that exists within your organization.
 
-1. Fai clic su **Salva modifiche** per completare l&#39;aggiornamento delle impostazioni utente.
+1. Click **Save Changes** to complete the update to the user settings.
 
    >[!NOTE]
    >
-   >Quando crei o aggiorni un utente in Workfront e l’indirizzo e-mail Workfront dell’utente corrisponde a quello di un utente di Workfront Proof con licenza, il sistema abilita la verifica per l’utente in Workfront. Per ulteriori informazioni, vedere [Sincronizzazione utente tra Adobe Workfront e Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
+   >When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront. For more information, see [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
-### Considerazioni
+### Considerations
 
-Quando si impostano le autorizzazioni, tenere presenti le informazioni seguenti:
+Consider the following information when setting permissions:
 
-* Se modifichi il profilo di autorizzazione di un utente in un profilo con meno autorizzazioni, l’utente potrebbe perdere la visibilità delle bozze esistenti in Workfront. Ciò può verificarsi quando qualcuno condivide un&#39;attività con un utente in Workfront, ma non condivide la bozza allegata all&#39;attività (vedi [Condividi una bozza in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Condividi una bozza in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
-* È possibile impostare le autorizzazioni Workfront Proof da Workfront solo se l&#39;ambiente Workfront è integrato con un account Workfront Proof Premium. Se non è possibile utilizzare gli strumenti di correzione come descritto in questa sezione, contattare l&#39;amministratore di Workfront.
-* Almeno un utente nell’ambiente Workfront deve disporre delle autorizzazioni di amministratore per le verifiche. Se si tenta di rimuovere le autorizzazioni di amministratore per la verifica da tutti gli utenti, viene visualizzato un messaggio di errore.
-* Quando si modifica il livello di accesso Workfront di un utente in un livello diverso da Amministratore di sistema, il profilo di autorizzazione Workfront Proof dell&#39;utente viene impostato automaticamente su Manager.
+* If you change a user's permission profile to a profile with fewer permissions, the user might lose visibility to existing proofs within Workfront. This can occur when someone shares a task with a user within Workfront, but doesn't share the proof attached to the task (see [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* You can set Workfront Proof permissions from Workfront only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed in this section, contact your Workfront administrator.
+* At least one user in your Workfront environment must have Administrator permissions for proofing. An error message appears if you try to attempt to remove Administrator permissions for proofing from all users.
+* When you change a user's Workfront Access level to any level other than System Administrator, the user's Workfront Proof permission profile defaults to Manager.   
 
-* Quando si modifica il livello di accesso di Workfront in Amministratore di sistema, il profilo Autorizzazione bozza diventa Amministratore.
+* When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
+
+-->
 
 ## Configurare l’accesso a Workfront Proof tramite il menu principale di Workfront per tutti gli utenti {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 

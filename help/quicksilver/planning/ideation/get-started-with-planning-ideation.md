@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Gli spazi di ideazione sfruttano Enterprise CX Coworker per generare resoconti c
 La timeline del rilascio pianificato per lo spazio di ideazione, soggetto a modifiche, include le seguenti attività cardine:
 
 * **Beta chiuso:** avviato a luglio 2026, per un numero limitato di clienti.
-* **Apri Beta:** Previsto per novembre 2026. Si tratta di un’offerta di consenso, in cui i clienti devono attivare e configurare attivamente l’opzione, anziché rinunciarvi attivamente.
-* **Disponibilità generale:** Prevista per il 2027.
+* **Apri Beta:** Previsto per il 12 novembre 2026. Si tratta di un’offerta di consenso, in cui devi attivare attivamente l’opzione invece di rinunciarvi attivamente.
+* **Disponibilità generale:** Prevista per il 1° febbraio 2027.
 
 ## Requisiti del prodotto
 

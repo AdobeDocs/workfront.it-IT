@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8244'
 ht-degree: 2%
-
 ---
-
 # Modificare progetti
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Quando modifichi i progetti, tieni presente quanto segue:
 * È possibile allegare documenti o modelli a un progetto con stato Completato, Inattivo o In attesa di approvazione solo se l&#39;amministratore di Workfront o un amministratore di gruppo ha abilitato questa funzionalità nell&#39;area Preferenze progetto. Per informazioni sull&#39;impostazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * È possibile modificare solo le seguenti informazioni su un progetto con stato Dead (Inattivo) o Completato (Completato):
 
-   * Modifica le spese esistenti.
-   * Aggiungere, rimuovere o modificare moduli personalizzati.
+  * Modifica le spese esistenti.
+  * Aggiungere, rimuovere o modificare moduli personalizzati.
 
 ## Modificare un progetto
 
@@ -456,7 +454,10 @@ Per modificare i campi nell&#39;area Finanza:
     <tbody> 
      <tr>
       <td><strong>Utilizza tassi di cambio effettivi in base alla data dal sistema</strong></td>
-      <td><p>Quando questa opzione è selezionata, vengono sempre utilizzati i tassi di cambio effettivi a livello di sistema e le sostituzioni dei tassi di cambio non sono consentite nel progetto.</p> <p>È inoltre necessario selezionare la <strong>Data tasso di cambio</strong> da cui iniziare, quando l'opzione è selezionata.</p></td> 
+      <td><p>Selezionare questa opzione per utilizzare sempre i tassi di cambio effettivi a livello di sistema e impedire le sostituzioni dei tassi di cambio nel progetto.</p><p>Per ulteriori informazioni sui tassi di cambio, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Data tasso di cambio</strong></td>
+     <td><p>Quando si seleziona l'opzione che consente di utilizzare i tassi di cambio validi per la data dal sistema, è necessario selezionare anche una data. Questa data viene utilizzata per definire i tassi di cambio per costi e ricavi pianificati.</p><p>Se, ad esempio, la data del tasso di cambio è il 12 febbraio, Workfront utilizza il tasso di cambio a livello di sistema del 12 febbraio per le conversioni nelle divise di ricavi e costi pianificate, anche quando il lavoro pianificato si verifica in altre date.</p><p>Per costi e ricavi effettivi, viene utilizzato il tasso di cambio per la data di registrazione delle ore.</p></td>
      </tr>
      <tr>
       <td><strong>Mantieni informazioni sulle tariffe di fatturazione del progetto</strong></td>
@@ -813,17 +814,17 @@ Quando modifichi progetti in blocco, tieni presente quanto segue:
 
 * Oltre all’indicatore &quot;Più valori&quot;, quando le opzioni scelte sono diverse in almeno uno dei progetti selezionati, i campi con più opzioni vengono visualizzati in uno dei seguenti modi:
 
-   * I campi della casella di controllo hanno una riga invece di una casella di controllo per l’opzione selezionata per alcuni ma non per tutti i progetti selezionati.
+  * I campi della casella di controllo hanno una riga invece di una casella di controllo per l’opzione selezionata per alcuni ma non per tutti i progetti selezionati.
 
-     ![Caselle di controllo Indicatore di più valori nella casella Modifica in blocco progetti](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![Caselle di controllo Indicatore di più valori nella casella Modifica in blocco progetti](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * I campi di tipo Toggle vengono visualizzati in grigio, con l’opzione al centro attivata per alcuni ma non per tutti i progetti selezionati.
+  * I campi di tipo Toggle vengono visualizzati in grigio, con l’opzione al centro attivata per alcuni ma non per tutti i progetti selezionati.
 
   ![Più valori evidenziati nei progetti di modifica in blocco](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * Nei campi del tipo pulsante di opzione che presentano alcune opzioni selezionate ma non tutte, tutti i pulsanti di scelta vengono visualizzati come vuoti.
+  * Nei campi del tipo pulsante di opzione che presentano alcune opzioni selezionate ma non tutte, tutti i pulsanti di scelta vengono visualizzati come vuoti.
 
-     ![Pulsanti di scelta di più valori per modificare in blocco la casella del progetto](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![Pulsanti di scelta di più valori per modificare in blocco la casella del progetto](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Quando aggiorni un’opzione in un campo con più opzioni (ad esempio un campo che viene visualizzato come un insieme di interruttori o caselle di controllo), tutte le altre opzioni devono corrispondere tra i progetti selezionati.
 
