@@ -4,10 +4,10 @@ description: Miglioramenti per gli amministratori del primo trimestre 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 5%
+source-wordcount: '413'
+ht-degree: 3%
 ---
 
 # Miglioramenti per gli amministratori del primo trimestre 2027
@@ -39,6 +39,20 @@ Per ulteriori informazioni, vedere [Condividi modulo personalizzato](/help/quick
 È ora possibile contrassegnare un campo personalizzato come preferito nell&#39;elenco dei campi o nel progettista di moduli personalizzati. Quando si utilizzano determinati elenchi e rapporti (ad esempio gli elenchi di progetti, attività e problemi) e si creano filtri, visualizzazioni e raggruppamenti, i campi preferiti vengono visualizzati nella parte superiore dell&#39;elenco dei campi disponibili nella sezione Suggeriti.
 
 I campi contrassegnati come preferiti vengono visualizzati anche nella parte superiore della raccolta campi nel progettista del modulo.
+
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Valori verificati sui campi personalizzati durante la modifica del formato
+
+>[!NOTE]
+>
+>Anteprima: 29 ottobre 2026
+>Versione rapida di produzione: 12 novembre 2026
+>Produzione per tutti: 21 gennaio 2027
+
+Il sistema ora verifica la presenza di valori non compatibili quando si modifica un formato di campo personalizzato Testo esistente in Numerico o Valuta.
+
+Se i valori esistenti per il campo sono tutti numerici, il sistema aggiorna semplicemente il formato del campo. Tuttavia, se uno dei valori esistenti non è un valore numerico, il sistema visualizza un messaggio di avvertenza che segnala la cancellazione di valori non compatibili quando si salva il campo.
 
 Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

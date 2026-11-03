@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Contrassegnare un campo personalizzato come preferito</a></p>
                 <p>È ora possibile contrassegnare un campo personalizzato come preferito in modo che venga visualizzato nella parte superiore dei campi disponibili quando si creano filtri, visualizzazioni e raggruppamenti e nella raccolta campi di progettazione moduli.</p>
+            </td>
+            <td><p>29 ottobre 2026</p></td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Valori verificati sui campi personalizzati durante la modifica del formato</a></p>
+                <p>Il sistema ora verifica la presenza di valori non compatibili quando si modifica un formato di campo personalizzato Testo esistente in Numerico o Valuta.</p>
             </td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>12 novembre 2026</p></td>
