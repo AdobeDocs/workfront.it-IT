@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 È possibile creare resoconti brevi per creare o modificare record di Planning oppure per creare file che è possibile esportare in altre applicazioni.
 
-1. Accedere a Workfront con Planning in cui è stato attivato Collaboratore ed eseguire una delle operazioni seguenti:
+1. Accedi a Workfront con Planning dove Collaboratore è stato attivato ed effettua una delle seguenti operazioni per aprire lo spazio Ideazione per la prima volta per creare resoconti:
 
-   * Vai al **menu principale** > **spazio ideazione**
-   * Vai a **Menu principale** > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > **Nuovo record** > **Avvia spazio ideazione**
-
-     Per ulteriori informazioni sulla creazione di record utilizzando lo spazio ideazione, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-   * Vai a **Menu principale** > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su un record esistente > **Apri in Spazio ideazione**
+   * Vai al **menu principale** ![menu principale](assets/main-menu-lines.png) > **spazio ideazione**
+   * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > **Nuovo record** > **Avvia spazio ideazione**
 
    Viene aperto lo spazio ideazione e per impostazione predefinita viene creata una nuova ideazione con il seguente formato:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Se si apre un&#39;ideazione da un record esistente, il nome dell&#39;ideazione corrisponde al nome del record.
+   Per ulteriori informazioni sulla creazione di record utilizzando lo spazio ideazione, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
-1. (Consigliato) Fai clic sul nome dell’idea per modificarlo.
+1. (Condizionale) Per aprire una descrizione esistente in Spazio ideazione, accedi a Workfront con Planning dove Collaboratore è stato attivato ed effettua una delle seguenti operazioni:
+
+   * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su un record esistente > **Apri in Spazio ideazione**
+
+     Il nome dell’idea corrisponde al nome del record.
+
+1. (Opzione consigliata) Fare clic sul nome dell&#39;ideazione per modificarlo, se è stata aperta per la prima volta.
 
 1. (Condizionale e facoltativo) Per aprire un altro spazio ideazione esistente, fai clic sul menu a discesa a destra del nome dell’ideazione, cercalo per nome, quindi fai clic sull’ideazione quando viene visualizzata nell’elenco.
 
-1. All&#39;apertura dello **spazio ideazione**, il CX Coworker si apre a destra. Utilizza il prompt di Collaborator per descrivere il tipo di resoconto che desideri creare.
+   Viene aperto lo **spazio ideazione** e il CX Coworker a destra.
+1. Utilizza il prompt di Collaborator per descrivere il tipo di resoconto che desideri creare.
 
    Ad esempio, digita &quot;Creare una campagna di ritorno a scuola per gli studenti delle scuole medie fino al mese di agosto, per genitori e insegnanti negli Stati Uniti&quot;.  Per rendere il resoconto il più completo possibile, indica quante più informazioni hai a disposizione per quale tipo di campagna, la timeline, le parti interessate, i punti di controllo per le approvazioni e altri dettagli.
+1. (Facoltativo) Fai clic sull&#39;icona **+** nella casella del prompt di Collaborator e allega le informazioni nei seguenti modi:
+
+   * **Comandi**: utilizzare un comando dell&#39;elenco per richiedere il contenuto a Collaboratore.
+   * **Allega file**: allega un file alla casella di richiesta per aggiungerlo o le relative informazioni allo spazio delle idee. Devi chiedere a Collaboratore di creare schede in base al file per inviare successivamente le schede alla descrizione.
+   * **Fai riferimento a un oggetto**: seleziona un oggetto dall&#39;elenco per farvi riferimento nell&#39;ideazione. L&#39;oggetto deve esistere in Workfront.
 
 1. Fai clic su Invio.
 
@@ -171,6 +180,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. (Condizionale) Quando Collaboratore offre di creare schede per l&#39;ideazione, rispondi **Sì**.
 
    Le schede vengono aggiunte allo spazio di ideazione e puoi visualizzare le sorgenti di ogni scheda e decidere quale aggiungere alla descrizione.
+
+   >[!TIP]
+   >
+   >Non è possibile aggiungere file direttamente alla descrizione. Devi prima trasferire le informazioni del file alle schede che puoi inviare alla descrizione.
+
 
 1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare elementi nello spazio delle idee, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale spazio.
 
