@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '757'
+ht-degree: 10%
 ---
 # Gestire le approvazioni con il widget Le mie approvazioni
 
@@ -44,6 +44,10 @@ Il widget Approvazioni personali supporta le approvazioni dai seguenti oggetti W
 * Bozze
 * Pianificazione delle richieste di record
 * Schede orario
+
+>[!NOTE]
+>
+>Se la tua organizzazione utilizza l’archiviazione cloud Adobe, l’approvazione del documento viene visualizzata nel widget solo quando il progetto che contiene il documento è condiviso con te.
 
 ## Requisiti di accesso
 
@@ -79,6 +83,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 ## Approva il lavoro dal widget Le mie approvazioni
+
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
@@ -161,8 +166,25 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    </tr>
    </table>
 
-Dopo aver preso una decisione, l&#39;approvazione viene rimossa dal widget Approvazione personale.
+## Quando le approvazioni vengono rimosse dal widget
 
->[!NOTE]
->
->Le approvazioni di lavoro possono anche essere rimosse dal widget Approvazioni personali quando il progetto, l&#39;attività o il problema è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
+Un&#39;approvazione viene rimossa dal widget Approvazioni personali dopo che hai preso una decisione in merito. Le approvazioni vengono rimosse anche nelle seguenti situazioni:
+
+* **Approvazioni lavoro**: le approvazioni di progetti, attività e problemi vengono rimosse dal widget quando il progetto si trova in uno dei seguenti stati:
+  * Completato
+  * Morto
+  * In sospeso
+
+  >[!NOTE]
+  >
+  >Se un progetto è in attesa di approvazione, l’approvazione del progetto può comunque essere visualizzata per gli approvatori correnti, ma non per le approvazioni relative ad attività e problemi.
+
+
+* **Approvazioni documenti legacy**: le approvazioni di documenti legacy vengono rimosse dal widget in base allo stato dell&#39;oggetto a cui il documento è direttamente collegato, non su un oggetto padre. L&#39;approvazione viene rimossa quando l&#39;oggetto si trova in uno dei seguenti stati:
+  * Progetto: Completo o Inattivo
+  * Attività: Completata
+  * Problema: chiuso o uno stato che equivale a chiuso. Ciò include Resolved, Won&#39;t Resolve, Cannot Duplicate e Verified Complete.
+
+* **Approvazioni unificate**: le approvazioni unificate rimangono nel widget indipendentemente dallo stato del progetto, dell&#39;attività o del problema. La loro visibilità è controllata dal flusso di lavoro di approvazione e dalle responsabilità di approvazione in sospeso, pertanto è possibile rimuovere un’approvazione dal widget prima del completamento dell’intero flusso di lavoro.
+
+Gli stati personalizzati seguono la mappatura Equates With (Equivale a), pertanto uno stato che corrisponde a uno qualsiasi degli stati sopra indicati produce lo stesso risultato. L&#39;approvazione può rimanere in sospeso sull&#39;oggetto anche quando viene rimossa dal widget. Per ulteriori informazioni sugli stati personalizzati, vedere [Creare o modificare uno stato](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

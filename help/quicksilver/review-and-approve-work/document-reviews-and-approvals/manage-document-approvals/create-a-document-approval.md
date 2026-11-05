@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # Creare un flusso di lavoro di approvazione documento
@@ -206,6 +206,10 @@ Per creare un flusso di lavoro di approvazione avanzato:
 ## Creare un flusso di lavoro di approvazione nella nuova area Documenti
 
 Se la tua organizzazione utilizza l’archiviazione cloud Adobe, quando accedi ai documenti in Workfront visualizzerai la nuova area Documenti. Per ulteriori informazioni sull&#39;archiviazione cloud Adobe, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>L&#39;approvatore o il revisore deve avere il progetto che contiene il documento condiviso con loro, altrimenti l&#39;approvazione non verrà visualizzata nel widget Approvazioni personali.
 
 Per impostazione predefinita, la finestra di dialogo **Richiedi approvazione** si apre in modalità **Base**. La modalità di base è una singola fase con un set di approvatori o revisori. Passa alla modalità **Avanzate** per configurare approvazioni in più fasi o percorsi paralleli.
 
