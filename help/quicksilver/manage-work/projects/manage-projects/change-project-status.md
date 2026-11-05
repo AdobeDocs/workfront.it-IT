@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 7%
@@ -129,5 +129,5 @@ Old:
 
 1. (Condizionale) Quando lo stato del progetto è **_Non disponibile_**, fare clic sul segno di avviso per il campo **Stato**, selezionare un nuovo stato dall&#39;elenco, quindi fare clic su **Salva**.
 
-Se non trovi uno stato accettabile, chiedi all’amministratore di crearne uno.
+   Se non trovi uno stato accettabile, chiedi all’amministratore di crearne uno.
 

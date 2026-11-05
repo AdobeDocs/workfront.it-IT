@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 4%
+source-wordcount: '1088'
+ht-degree: 3%
 ---
 
 # Panoramica di Adobe Workfront Planning CX Enterprise Coworker
@@ -42,6 +42,8 @@ CX Enterprise Coworker è un&#39;interfaccia di conversazione in cui si descrive
 Coworker conserva tutte le attività di AI Assistant e aggiunge funzionalità end-to-end più potenti sia nella nuova esperienza a schermo intero che nella barra corretta di Workfront.
 
 Funziona all’interno dei controlli di accesso a livello di prodotto esistenti nella tua organizzazione, consentendo agli utenti di intraprendere solo le azioni a cui sono già autorizzati in Workfront, con accesso in sola lettura per impostazione predefinita e accesso in scrittura controllato dagli amministratori di Workfront.
+
+Collaboratore utilizza le funzionalità del server MCP di Workfront per eseguire azioni per tuo conto. Per informazioni, vedere [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Puoi utilizzare Collaboratore per eseguire le seguenti azioni:
 
    Individua l&#39;icona **Collaboratore** ![icona Collaboratore](assets/coworker-icon.png) nell&#39;angolo superiore destro della pagina oppure continua con i passaggi seguenti.
 
-1. Fai clic su una **scheda dell&#39;area di lavoro**.
+1. Effettua una delle seguenti operazioni:
 
-1. Fare clic su una **scheda del tipo di record**.
-
-1. Fai clic su un **record** per aprire la pagina **Dettagli** del record, quindi fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-workspace-on-new-tab-icon.png).
+* Fai clic su una **scheda dell&#39;area di lavoro**.
+* Fare clic su una **scheda del tipo di record**.
+* Fai clic su un **record** per aprire la pagina **Dettagli** del record, quindi fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-workspace-on-new-tab-icon.png).
 
 1. Fai clic sull&#39;icona **Collaboratore** ![Collaboratore](assets/coworker-icon.png) nell&#39;angolo superiore destro dello schermo.
 
@@ -173,7 +175,9 @@ Puoi utilizzare Collaboratore per eseguire le seguenti azioni:
 
    Ad esempio, è possibile digitare uno dei seguenti elementi:
 
-   * Crea un nuovo record della campagna denominato Summer Sale 2026
+   * Crea un’area di lavoro e chiamala &quot;Team di marketing&quot;.
+   * Crea un tipo di record Campaign e Personas in questa area di lavoro.
+   * Crea un record della campagna denominato Summer Sale 2026
    * Aggiorna il campo del budget nel record Campagna estiva a $75.000
    * Elimina il record della campagna denominato Old Promo
    * Ripristina la campagna che ho eliminato accidentalmente

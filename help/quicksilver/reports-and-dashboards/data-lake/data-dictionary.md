@@ -3,7 +3,7 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Dizionario dei dati di Workfront Data Connect
-description: Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
+description: Questa pagina contiene informazioni sulla struttura e il contenuto dei dati in Workfront Data Connect.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
@@ -16,14 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
 ---
 # Dizionario dei dati di Workfront Data Connect
 
-Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
+Questa pagina contiene informazioni sulla struttura e il contenuto dei dati in Workfront Data Connect.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in 
 
 ## Tipi di visualizzazione
 
-Esistono diversi tipi di visualizzazione che è possibile utilizzare in Data Connect per visualizzare i dati di Workfront in modo da fornire il maggior numero di insight.
+In Data Connect è possibile utilizzare diversi tipi di visualizzazione per visualizzare i dati di Workfront in modo da ottenere il maggior numero possibile di insight.
 
 * **Visualizzazione corrente**
 
@@ -51,7 +51,7 @@ Esistono diversi tipi di visualizzazione che è possibile utilizzare in Data Con
 
 Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti.
 
-I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono una mappatura di alto livello delle relazioni tra oggetti in Data Connect per gli oggetti principali di Workfront.
+I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono una mappatura di alto livello delle relazioni tra oggetti in Data Connect per gli oggetti Workfront di base.
 
 >[!IMPORTANT]
 >
@@ -112,11 +112,11 @@ Esistono diversi oggetti data che forniscono informazioni su quando si verifican
 
 ## Tabella terminologica e descrizioni di Workfront
 
-La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (nonché i relativi nomi nell&#39;interfaccia e nell&#39;API) con i nomi equivalenti in Data Connect e include campi di riferimento per ogni oggetto con altri oggetti Workfront.
+La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (nonché i relativi nomi nell’interfaccia e nell’API) con i nomi equivalenti in Data Connect e include campi di riferimento per ciascun oggetto con altri oggetti Workfront.
 
 >[!NOTE]
 >
->È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati a valle non è preparato a gestire colonne aggiuntive durante l’aggiunta.<br>
+>È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT *&quot; in cui il destinatario dei dati a valle non è preparato a gestire colonne aggiuntive durante l’aggiunta.<br>
 >Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
@@ -4428,7 +4428,7 @@ Autonomo</td>
       </thead>
       <tbody>
         <tr>
-            <td>Sezione portale</td>
+            <td>Sezione del portale</td>
             <td>Rapporto</td>
             <td>PTLSEC</td>
             <td>Rapporto</td>

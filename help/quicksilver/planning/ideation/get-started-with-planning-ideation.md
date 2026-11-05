@@ -1,5 +1,5 @@
 ---
-title: Introduzione a Ideation Space per la pianificazione di Adobe Workfront
+title: Guida introduttiva di Ideation Space per Adobe Workfront Planning
 description: Adobe Workfront Planning ora offre una funzionalità aggiuntiva da ideare prima di avviare le campagne. Sfrutta la potenza dell’intelligenza artificiale per trasformare dati e input diretti in piani tangibili e fornire ai team un punto di partenza informato invece di una pagina vuota.
 author: Alina
 feature: Workfront Planning
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1345'
 ht-degree: 0%
 ---
 
@@ -39,7 +39,30 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambito del programma **Ideation Space Beta**. </span>\
 </span>
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning. Per accedere a Workfront Planning, la società deve acquistare un pacchetto Planning aggiuntivo.
+>
+>La funzionalità qui descritta non è disponibile se l&#39;organizzazione ha acquistato Workfront Planning come prodotto standalone.
+>
+>Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Lo spazio di ideazione strategica di Adobe è la funzionalità di ideazione strategica basata sull’intelligenza artificiale di Adobe, integrata direttamente in Workfront Planning. Offre ai team di marketing un punto di partenza strutturato e informato sui dati per la strategia delle campagne, sostituendo la ricerca manuale e le ipotesi con descrizioni generate dall’intelligenza artificiale basate sulla reale cronologia delle prestazioni di un’organizzazione.
 

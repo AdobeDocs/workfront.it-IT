@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 0%
 ---
 # Attività della versione del primo trimestre 2027 per Adobe Workfront Planning
@@ -28,6 +28,18 @@ ht-degree: 0%
 Questo articolo descrive le funzioni rilasciate per Workfront Planning durante la versione del primo trimestre 2027.
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## È stata migliorata la rilevazione dei conflitti nei campi dipendenti durante l’invio delle richieste
+
+>[!NOTE]
+>
+>Anteprima: 5 novembre 2026
+>Versione rapida di produzione: 17 dicembre 2026
+>Produzione per tutti: 21 gennaio 2027
+
+Quando si sottomette una richiesta in cui un campo connesso dipendente presenta un conflitto di dipendenze, il sistema visualizza un errore e impedisce l&#39;invio della richiesta fino alla risoluzione del conflitto. Le richieste che non sono ancora state approvate visualizzano anche eventuali conflitti causati da modifiche successive ai campi dipendenti nella configurazione della regola, sia durante la visualizzazione che quando si modifica una richiesta.
+
+Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Migliore visibilità dei risultati della ricerca rapida nella vista a tabella
 
