@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '570'
 ht-degree: 8%
 ---
 # Installare il visualizzatore di bozza desktop
@@ -78,8 +78,8 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione Mac per il Visualizzatore bozze desktop.](https://app.proofhq.com/desktopviewer/mac)
-   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima Mac per il visualizzatore di bozze desktop.](https://app.preview.proofhq.com/desktopviewer/mac)
+   * Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione per il Visualizzatore bozze desktop.](https://us.my.workfront.com/proof/desktopviewer)
+   * Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima per il visualizzatore di bozze desktop.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, fare clic su **Continua**, quindi su **Installa**.
@@ -102,8 +102,8 @@ Se l’amministratore di Workfront o Workfront Proof ha scaricato l’app sulla 
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Nell&#39;ambiente di produzione, fare clic su [Download di produzione Windows per il Visualizzatore bozze desktop.](https://app.proofhq.com/desktopviewer/windows)
-   * Nell&#39;ambiente di anteprima, fare clic su [Scarica anteprima Windows per il Visualizzatore bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+* Se si utilizza l&#39;ambiente di produzione, fare clic su [Download di produzione per il Visualizzatore bozze desktop.](https://us.my.workfront.com/proof/desktopviewer)
+* Se si utilizza l&#39;ambiente di anteprima, fare clic su [Download anteprima per il visualizzatore di bozze desktop.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, aprire il file appena scaricato per avviare l&#39;installazione.
