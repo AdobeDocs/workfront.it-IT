@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 6%
+source-wordcount: '728'
+ht-degree: 5%
 ---
 # Aggiornare stato attività
 
@@ -115,14 +115,7 @@ Old:
 
   Per ulteriori informazioni, vedere [Modifica progetti](../manage-projects/edit-projects.md).
 
-<!--
-* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* Se lo stato di un&#39;attività viene eliminato o non è disponibile, lo Stato dell&#39;attività viene visualizzato come Non disponibile.  In qualità di utente con autorizzazioni di gestione per l’attività, puoi aggiornare lo stato a un altro oppure chiedere a un amministratore di Workfront di ricrearlo o di aggiungerne uno nuovo.
 
 ## Aggiorna manualmente lo stato delle attività
 
@@ -160,11 +153,10 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
    >
    >  Solo gli assegnatari delle attività possono aggiornare la Data di conferma.
 
-<!--
-1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Condizionale) Quando lo stato dell&#39;attività è **_Non disponibile_**, fare clic sul segno di avviso accanto al campo **Stato**, selezionare un nuovo stato dall&#39;elenco, quindi fare clic su **Salva**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Se non trovi uno stato accettabile, chiedi all’amministratore di crearne uno.
+
 
 <!--
 old functionality in old commenting: 

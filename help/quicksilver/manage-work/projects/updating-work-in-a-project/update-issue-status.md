@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 9%
+source-wordcount: '732'
+ht-degree: 7%
 ---
 # Aggiornare stato del problema
 
@@ -124,16 +124,9 @@ Per ulteriori informazioni sugli stati personalizzati e sui tipi di problemi, co
 * [Crea o modifica uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [Creare problemi](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>Se lo stato di un problema viene eliminato o diventa non disponibile, lo stato del problema viene visualizzato come Non disponibile.  In qualità di utente con autorizzazioni di gestione del problema, puoi aggiornare lo stato a un altro oppure chiedere a un amministratore di Workfront di ricrearlo o di aggiungerne uno nuovo.
 
 
 Puoi aggiornare manualmente gli stati dei problemi oppure puoi consentire a Workfront di aggiornarli automaticamente quando si verificano determinate azioni.
@@ -174,11 +167,10 @@ Per aggiornare manualmente lo stato del problema nell’intestazione del problem
    >
    >  Solo gli assegnatari dei problemi possono aggiornare la Data di conferma.
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Condizionale) Quando lo stato del problema è **_Non disponibile_**, fai clic sul segno di avviso per il campo **Stato**, seleziona un nuovo stato dall&#39;elenco, quindi fai clic su **Salva**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Se non trovi uno stato accettabile, chiedi all’amministratore di crearne uno.
+
 
 <!--
 Old instructions, in old commenting: 
