@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 1%
 ---
 # Inviare richieste di Pianificazione di Adobe Workfront per creare record
@@ -219,7 +219,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >
    >I valori dei campi dei record dipendenti collegati sono limitati dalle regole di dipendenza tra i record. Per ulteriori informazioni, vedere [Gestire le connessioni dipendenti](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">Quando si verifica un conflitto nei valori selezionati di un campo dipendente nel modulo di richiesta, è necessario risolvere il conflitto prima di salvare il modulo.</span>
 
 1. (Facoltativo e condizionale) Fai clic su **Compila modulo** per allegare un file e chiedere ad AI di compilare il modulo con le informazioni all&#39;interno del file. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ L&#39;attivazione di questa impostazione rende disponibili i moduli di richiesta
    >* La modifica di una richiesta è possibile solo quando un record non è ancora stato creato e la richiesta è in attesa di approvazione.
    >* Alcuni campi sono di sola lettura e non è possibile modificarli.
    >* Non è più possibile modificare una richiesta dopo la creazione di un record.
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">Quando si verifica un conflitto nei valori selezionati di un campo dipendente nella richiesta, è necessario risolvere il conflitto prima di salvare la richiesta.</span>
 
 1. (Facoltativo) Dopo aver modificato la richiesta, fai clic su **Invia modifiche**.
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.

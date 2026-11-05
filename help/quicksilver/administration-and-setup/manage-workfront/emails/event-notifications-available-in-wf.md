@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 8%
+source-wordcount: '5600'
+ht-degree: 9%
 ---
 # Tipi di notifica eventi
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 Le notifiche degli eventi sono e-mail attivate da vari tipi di eventi su oggetti quali progetti, attività e problemi, come spiegato in [Notifiche degli eventi](../../../workfront-basics/using-notifications/event-notifications.md).
+
 
 Queste notifiche possono essere configurate a livello di sistema e di gruppo:
 
@@ -957,3 +960,156 @@ Vedi anche [Notifiche: delega](../../../workfront-basics/using-notifications/not
 | Attività e problemi | Revoca la delega di attività e problemi | Assegnatario | Revoco la delega delle mie attività e dei miei problemi (conferma) | Attivo (solo istantaneo) |
 | Attività e problemi | Delega di attività e problemi | Delega | Qualcuno mi delega le sue attività e i suoi problemi | Attivo (solo istantaneo) |
 | Attività e problemi | Revoca attività e delega problemi | Delega | Qualcuno mi revoca la delega delle sue attività e dei suoi problemi | Attivo (solo istantaneo) |
+
+<div class="preview">
+
+## Approvazioni unificate
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Tipo oggetto</th> 
+   <th>Evento</th> 
+   <th>Destinatario</th> 
+   <th>Descrizione</th> 
+   <th>Stato predefinito</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Aggiunto come approvatore o revisore</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>L'utente viene aggiunto come approvatore o revisore all'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Rimosso come approvatore o revisore</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>L'utente viene rimosso come approvatore o revisore dall'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Ruolo cambiato</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>Il tuo ruolo di approvatore o revisore cambia in seguito all’approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisione presa - Approvata</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>Un approvatore prende la decisione Approvato sull'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisione presa - Approvata con modifiche</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>Un approvatore prende una decisione di Approvato con modifiche all'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Decisione presa - Necessità di lavoro</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>Un approvatore prende la decisione di "Deve lavorare all'approvazione di un documento".</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Approvazione completata - Approvata</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>L'approvazione di un documento termina con una decisione finale di Approvato.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Approvazione completata - Approvata con modifiche</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>L'approvazione di un documento termina con una decisione finale di Approvato con modifiche.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Approvazione completata - Lavori necessari</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>L'approvazione di un documento termina con una decisione finale sul lavoro necessario.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Revisione completata</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>Un revisore completa la revisione dopo l'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Tutte le revisioni completate</p> </td> 
+   <td> <p>Proprietario documento</p> </td> 
+   <td> <p>Ogni revisore completa la revisione relativa all'approvazione di un documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Scadenza imminente</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>Un'approvazione documento di cui fai parte sta per raggiungere la scadenza.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Scadenza superata</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>Un'approvazione di un documento di cui fai parte supera la scadenza senza una decisione finale.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Promemoria - 24 ore</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>Hai 24 ore per rivedere e approvare il documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Promemoria - 72 ore</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>Ti rimangono 72 ore per rivedere e approvare il documento.</p> </td> 
+   <td> <p>Attivo</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Documento</p> </td> 
+   <td> <p>Documenti aggiunti o rimossi da un’approvazione raggruppata</p> </td> 
+   <td> <p>Approvatore o revisore</p> </td> 
+   <td> <p>I documenti vengono aggiunti o rimossi da un'approvazione documento raggruppata di cui fai parte.</p> </td> 
+   <td> <p>Attiva</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Limite di approvazione video vicino all’80%</p> </td> 
+   <td> <p>Amministratore di sistema/gruppo</p> </td> 
+   <td> <p>L'approvazione di un video raggiunge l'80% del limite di approvazione video del piano.</p> </td> 
+   <td> <p>Attiva</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Video</p> </td> 
+   <td> <p>Limite di approvazione video raggiunto</p> </td> 
+   <td> <p>Amministratore di sistema/gruppo</p> </td> 
+   <td> <p>Un'approvazione video raggiunge il limite di approvazione video del piano.</p> </td> 
+   <td> <p>Attiva</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

@@ -5,10 +5,6 @@ title: 'Notifiche: informazioni sull’approvazione'
 description: Le notifiche seguenti ti avvisano delle attività di approvazione che si verificano su un elemento di lavoro a cui sei coinvolto. Per informazioni sulla configurazione delle notifiche ricevute, consulta Modificare le notifiche e-mail.
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 1%
 ---
 # Notifiche: informazioni sull’approvazione
@@ -29,8 +25,7 @@ Le notifiche seguenti ti avvisano delle attività di approvazione che si verific
 
 >[!NOTE]
 >
->Queste notifiche si applicano solo alle approvazioni di documenti legacy. I controlli di notifica per le approvazioni di documenti unificate non sono attualmente disponibili.
-
+>Queste notifiche si applicano solo alle approvazioni di documenti legacy. Per le notifiche di approvazione unificate, vedere [Notifiche: approvazioni unificate](notifications-unified-approvals.md).
 
 Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -78,3 +73,4 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
  </tbody> 
 </table>
+
