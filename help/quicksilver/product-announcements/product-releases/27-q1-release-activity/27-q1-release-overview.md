@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1168'
 ht-degree: 17%
 ---
 
@@ -134,6 +134,28 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 <!--
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->     
+<!--   
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>
+                <p>System Administrators can now turn the "Approved with changes" decision on or off for document approvals.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
             </td>
@@ -147,7 +169,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configurare le notifiche e-mail di revisione e approvazione unificate</a></p>
                 <p>Ora puoi configurare le 18 notifiche e-mail di revisione e approvazione unificate, con un leggero cambiamento delle righe dell’oggetto.</p>
             </td>
-            <td> <p>Questa funzione non è al momento disponibile nell’ambiente di anteprima.</p></td>
+            <td> <p>5 novembre.</p></td>
             <td><p>12 novembre 2026</p></td>
             <td><p>21 gennaio 2027</p></td>
         </tr>
@@ -194,6 +216,16 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Linee guida per lo stato non disponibili</a></p>
+                <p>Quando non è disponibile un problema, un'attività o uno stato di progetto salvato, viene visualizzato un avviso per spiegarne il motivo e il codice di stato salvato.</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
+            </td>
+            <td><p>4 novembre 2026</p></td>
+            <td><p>4 novembre 2026</p></td>
+            <td><p>4 novembre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Aggiungi thread all’inizio degli aggiornamenti</a></p>
                 <p>Ora puoi fissare i thread più importanti nella parte superiore dell’area Aggiornamenti su un progetto, un’attività, un problema o una richiesta in modo che le informazioni chiave rimangano visibili per il team.</p>
             </td>
@@ -215,6 +247,17 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Enhanced list button and icon improvements</a></p>
+                <p>Button text and icons in all enhanced lists now match for a more consistent interface across Workfront.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Visualizzare il conteggio totale dei record negli elenchi avanzati</a></p>
@@ -300,7 +343,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 
 * Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
 
-Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 
@@ -334,7 +377,7 @@ Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/h
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
