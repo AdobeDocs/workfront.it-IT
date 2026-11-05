@@ -18,7 +18,7 @@ Verità, che include i modelli e il calendario di rilascio:
 
 ## Regola critica: determinare prima il trimestre del documento
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > Non assegnare mai una funzione a un trimestre documento utilizzando la matematica del trimestre calendario sulla relativa
 > Data di anteprima o produzione. Il doc-trimestre è basato su quale **rilascio mensile**
 > la funzione viene fornita in, in base al raggruppamento interno del calendario delle versioni di Workfront, che
