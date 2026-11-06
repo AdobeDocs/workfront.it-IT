@@ -1,17 +1,17 @@
 ---
 product-area: betas
-title: Introduzione alla funzionalità Organizzazioni collegate
+title: Programma di funzionalità Beta per organizzazioni collegate
 description:
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1424'
 ht-degree: 0%
 ---
-# Introduzione alla funzionalità Organizzazioni collegate
+# Programma beta per la funzionalità delle organizzazioni collegate
 
 >[!IMPORTANT]
 >

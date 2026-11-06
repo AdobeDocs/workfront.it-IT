@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 1%
 ---
 
@@ -148,7 +148,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -185,7 +185,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. (Condizionale e facoltativo) Per aprire un altro spazio ideazione esistente, fai clic sul menu a discesa a destra del nome dell’ideazione, cercalo per nome, quindi fai clic sull’ideazione quando viene visualizzata nell’elenco.
 
-   Viene aperto lo **spazio ideazione** e il CX Coworker a destra.
+   Viene aperto lo **spazio ideazione** e Collaboratore a destra.
 1. Utilizza il prompt di Collaborator per descrivere il tipo di resoconto che desideri creare.
 
    Ad esempio, digita &quot;Creare una campagna di ritorno a scuola per gli studenti delle scuole medie fino al mese di agosto, per genitori e insegnanti negli Stati Uniti&quot;.  Per rendere il resoconto il più completo possibile, indica quante più informazioni hai a disposizione per quale tipo di campagna, la timeline, le parti interessate, i punti di controllo per le approvazioni e altri dettagli.
