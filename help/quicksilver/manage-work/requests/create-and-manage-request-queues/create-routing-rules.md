@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 8%
+source-wordcount: '553'
+ht-degree: 7%
 ---
 # Creare regole di indirizzamento
 
@@ -132,6 +132,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Questo processo definisce solo la Regola di instradamento. Per assicurarsi che il problema venga instradato quando viene inviato alla coda richieste, è necessario selezionare la regola di instradamento nella scheda **Dettagli coda** in **Percorso predefinito**.
 
+   Per modificare una regola di instradamento esistente, fare clic in una cella qualsiasi per aggiungere o modificare le informazioni. La regola di instradamento viene aggiornata automaticamente.
+   L’elenco delle regole di instradamento è un elenco avanzato e può avere funzionalità diverse da quelle di altri elenchi in Workfront. Per ulteriori informazioni sugli elenchi avanzati, vedere [Utilizzare gli elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    Per informazioni sull&#39;aggiunta di una route predefinita a una coda richieste, vedere [Creare una coda richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Se si desidera associare più regole di instradamento alla coda di richieste, è necessario creare più argomenti della coda e associarli a una regola di instradamento separata. Per ulteriori informazioni sulla creazione di un argomento della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+

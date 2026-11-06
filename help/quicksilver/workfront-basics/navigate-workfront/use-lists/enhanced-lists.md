@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
@@ -149,6 +149,19 @@ A seconda dell’elenco avanzato che stai visualizzando, effettua una delle segu
    >Non tutti gli elenchi supportano tutti i tipi di campo.
 
 ![Esempio di elenco avanzato](assets/glist-exchange-rates.png)
+
+## Modifica elementi in linea
+
+Alcuni elenchi avanzati consentono di modificare gli oggetti in linea. Quando si modificano le informazioni sugli oggetti visualizzati in un elenco, l&#39;oggetto viene aggiornato immediatamente.
+
+Nell&#39;elenco:
+
+1. Individua l’elemento da modificare, quindi fai clic su in qualsiasi campo dell’elenco.
+1. Modificare le informazioni contenute in questa cella, quindi premere Invio.
+1. Premere Tab per passare alla successiva cella modificabile.
+1. Dopo aver modificato tutte le celle, premere Invio per salvare le modifiche.
+
+![Modifica elenco avanzato in linea](assets/edit-enhanced-list-inline.png)
 
 ## Modificare gli elementi utilizzando la barra delle azioni
 
