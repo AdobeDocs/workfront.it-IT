@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # Frammenti
@@ -362,6 +362,12 @@ OLD:
 ## Bozza mobile - Menu Altro {#mobile-proof-more-menu}
 
 1. Apri la bozza del documento e seleziona il menu **[!UICONTROL Altro]** ![Altro menu](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) in alto a destra del documento. Quindi, seleziona **[!UICONTROL Altro]**.
+
+## Mobile - nessun nuovo sviluppo {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>L’app mobile Workfront è in modalità di manutenzione e non è più in fase di sviluppo.
 
 <!-- My Updates -->
 

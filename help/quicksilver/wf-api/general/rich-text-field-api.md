@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 3%
+source-wordcount: '855'
+ht-degree: 2%
 ---
 # Campi formattati nell’API di Adobe Workfront
 
 <!-- Audited: 5/2025 -->
 
 Alcuni oggetti in Adobe Workfront consentono l’archiviazione di testo con formattazione RTF. Nell’API di Workfront, il testo RTF viene memorizzato come JSON utilizzando il framework open source Draft.js.
+
+>[!NOTE]
+>
+>I campi RTF descritti in questo articolo sono i campi &quot;testo con formattazione&quot;. Questo tipo di campo non è più disponibile per l’aggiunta a nuovi campi e i campi esistenti devono essere convertiti nel tipo di campo &quot;RTF&quot;.
+> 
+>I nuovi campi RTF memorizzano il contenuto come HTML, ma non gli stili applicati nell’editor di campi. La rimozione delle informazioni sullo stile dall’archiviazione può aiutare a prevenire problemi imprevisti dell’interfaccia utente e vulnerabilità di sicurezza.
 
 ## Esempio di panoramica
 

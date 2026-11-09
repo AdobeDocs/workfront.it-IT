@@ -24,12 +24,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 20%
 ---
 # Aggiungi aggiornamenti in [!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esaminando nell&#39;app [!DNL Adobe Workfront View].
 
