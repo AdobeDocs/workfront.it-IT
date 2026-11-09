@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '252'
+ht-degree: 2%
 ---
 # Archiviazione di campi formattati nell’API
+
+>[!NOTE]
+>
+>I campi RTF descritti in questo articolo sono i campi &quot;testo con formattazione&quot;. Questo tipo di campo non è più disponibile per l’aggiunta a nuovi campi e i campi esistenti devono essere convertiti nel tipo di campo &quot;RTF&quot;.
+> 
+>I nuovi campi RTF memorizzano il contenuto come HTML, ma non gli stili applicati nell’editor di campi. La rimozione delle informazioni sullo stile dall’archiviazione può aiutare a prevenire problemi imprevisti dell’interfaccia utente e vulnerabilità di sicurezza.
 
 Se un oggetto come un progetto, un problema o un’attività contiene testo formattato, questo viene memorizzato e accessibile come valore di parametro tramite l’API Workfront.
 
