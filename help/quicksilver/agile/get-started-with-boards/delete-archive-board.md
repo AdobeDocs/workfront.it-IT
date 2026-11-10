@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 12%
 ---
 # Eliminare o archiviare una bacheca
+
+{{boards-maintenance-mode}}
 
 È possibile eliminare o archiviare una bacheca in [!DNL Workfront]. Se si elimina una bacheca, questa viene rimossa definitivamente da [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e ne consente il ripristino in un secondo momento.
 

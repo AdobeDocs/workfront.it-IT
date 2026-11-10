@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # Frammenti
@@ -16,7 +16,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -131,6 +131,24 @@ Per assicurarsi di associare il gruppo corretto al team, posizionare il puntator
 ## Passaggio 1 - Come accedere alle bacheche - {#step1-to-boards}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic su **[!UICONTROL Bacheche]**.
+
+## Schede madri - modalità manutenzione {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Le schede madri Workfront non sono attualmente in fase di sviluppo.
+
+## Bacheche: flussi di lavoro non disponibili {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Le schede madri Workfront non sono attualmente in fase di sviluppo.
+> 
+>La funzione dei flussi di lavoro in Bacheche è stata dichiarata obsoleta, ma rimane disponibile per i clienti che la stavano già utilizzando.
+>
+>* Si consiglia di abbandonare l’utilizzo dei flussi di lavoro perché non sono più supportati.
+>* Se nel dashboard delle bacheche non è presente una scheda Flussi di lavoro, non è possibile aggiungere flussi di lavoro.
+>* Se si dispone dell&#39;accesso ai flussi di lavoro, è possibile aggiungere nuovi flussi di lavoro e gestire quelli esistenti. Se si archivia o si elimina un flusso di lavoro, non è possibile ripristinarlo. Se si dispone di un flusso di lavoro rimanente e lo si archivia o lo si elimina, i flussi di lavoro sono completamente obsoleti per l&#39;istanza Workfront e non è possibile aggiungerne di nuovi.
 
 <!-- Blueprints -->
 

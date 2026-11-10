@@ -22,12 +22,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
 ---
 # Panoramica di [!UICONTROL Bacheche]
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL Le bacheche] sono strumenti flessibili che consentono la collaborazione in team fornendo l&#39;accesso a una bacheca condivisa contenente colonne e schede.
 

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 7%
@@ -39,6 +39,8 @@ ht-degree: 7%
 # Aggiungere una colonna Acquisizione a una bacheca
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 Facoltativamente, puoi aggiungere alla bacheca una colonna di acquisizione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunte in [!DNL Workfront] in base ai filtri definiti. La colonna Acquisizione può fungere da colonna di backlog per un team Kanban, da posizione di acquisizione per un team di supporto per visualizzare i problemi man mano che vengono aggiunti a una coda di richieste o per qualsiasi altro scopo.
 

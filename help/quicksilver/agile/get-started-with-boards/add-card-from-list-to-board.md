@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 6%
 ---
 # Aggiungi attività o problemi esistenti a una bacheca [!DNL Workfront]
 
->[!IMPORTANT]
->
->I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
+{{boards-workstreams}}
 
 È possibile aggiungere qualsiasi attività o problema a una bacheca o a un flusso di lavoro in [!DNL Adobe Workfront] da una visualizzazione elenco o report oppure dai dettagli dell&#39;oggetto.
 
