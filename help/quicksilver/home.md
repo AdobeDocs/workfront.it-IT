@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 260299ae364ca925a9b3e95e93dd64ff2a2dc2d1
+source-git-commit: e6e1bd35cc525995ea48509b48640fb9f24a6c23
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 93%
@@ -80,7 +80,7 @@ Benvenuti nella pagina Home della documentazione tecnica e del prodotto Adobe Wo
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -152,10 +152,9 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 ### Esplorare le sezioni di apprendimento e formazione
 
 * **Materiale per la formazione**: vai alla pagina [Formazione Workfront](https://experienceleague.adobe.com/it/browse/workfront) per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali di formazione a pagamento all’indirizzo [learning.adobe.com](https://learning.adobe.com/).
-* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?lang=it&Solution=Workfront#courses) che ti guidano attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
+* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guidano attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
 
 ### Trovare risposte nei forum della community
 
 * **Poni domande**: se non trovi risposte alle domande nella documentazione, prova a pubblicarle nei [forum della community Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it) dove altri utenti ed esperti potranno offrirti assistenza.
-
 
