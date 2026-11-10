@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 4%
 ---
 # Configurare le preferenze di orario e scheda orario per un gruppo
@@ -107,7 +107,7 @@ Considera le seguenti informazioni sulla configurazione di una scheda orario sbl
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fai clic sul nome del gruppo di cui desideri configurare le preferenze per le ore o la scheda orario.
-1. Nel pannello a sinistra, fai clic su **Schede orario e ore**.
+1. Nella pagina visualizzata, a sinistra, fai clic su **Schede orario e ore**.
 
 1. Nella pagina visualizzata, nella sezione **Preferenze generali** configura una delle seguenti opzioni:
 

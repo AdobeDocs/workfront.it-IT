@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 6%
 ---
 # Bloccare o sbloccare una preferenza di progetto, attività o problema per i sottogruppi
@@ -91,7 +91,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Nel pannello a sinistra, fai clic su **Gruppi**.
 1. Fare clic sul nome del gruppo in cui si desidera bloccare o sbloccare una preferenza di progetto.
-1. Nel pannello a sinistra, fai clic su **Preferenze progetto** o **Preferenze attività e problemi**.
+1. A sinistra, fai clic su **Preferenze progetto** o **Preferenze attività e problemi**.
 
 1. Nella pagina visualizzata eseguire una delle operazioni seguenti per una preferenza sbloccata a livello di sistema o per un gruppo al di sopra del gruppo:
 
