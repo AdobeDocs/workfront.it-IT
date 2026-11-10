@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 4%
+source-wordcount: '919'
+ht-degree: 5%
 ---
 # Gestire i flussi di lavoro
 
->[!IMPORTANT]
->
->I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
+{{boards-workstreams}}
 
 Un flusso di lavoro è un gruppo configurabile di schede e schede per la collaborazione sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli e un elenco di schede di elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o sprint.
 

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 13%
+source-wordcount: '483'
+ht-degree: 14%
 ---
 # Riordina gli stati a livello di sistema e di gruppo
 
@@ -145,7 +145,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 
 ## Riordina gli stati per i problemi
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Fare clic su **Preferenze progetto > Stati.**
 1. (Condizionale) Se si stanno riordinando gli stati per un gruppo, iniziare a digitare il nome del gruppo nella casella nell&#39;angolo superiore destro, quindi fare clic sul nome quando viene visualizzato.

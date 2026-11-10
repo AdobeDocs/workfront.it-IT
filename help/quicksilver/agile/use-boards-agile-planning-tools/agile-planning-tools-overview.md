@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 37%
+source-wordcount: '179'
+ht-degree: 40%
 ---
 # Panoramica degli strumenti di pianificazione Agile: indice degli articoli
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione Agile.
 
@@ -44,10 +46,6 @@ Gli strumenti utili per Scrum includono:
 * Flussi di lavoro e bacheche di iterazione
 * Elenco schede o backlog
 * Metriche iterazioni
-
->[!IMPORTANT]
->
->I flussi di lavoro e gli strumenti correlati sono disponibili solo per un gruppo specifico di clienti.
 
 Puoi utilizzare uno o tutti questi strumenti in un modo che funzioni per te e il tuo team, senza dover ricorrere a una metodologia Agile specifica.
 

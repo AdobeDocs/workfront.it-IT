@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 5%
@@ -38,6 +38,8 @@ ht-degree: 5%
 # Utilizzare le schede collegate sulle bacheche
 
 <!-- Audited: 2/2024 -->
+
+{{boards-maintenance-mode}}
 
 È possibile aggiungere alla bacheca una scheda connessa ad attività e problemi esistenti in [!DNL Workfront].
 

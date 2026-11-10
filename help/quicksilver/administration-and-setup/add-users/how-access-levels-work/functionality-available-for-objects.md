@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 21%
@@ -61,7 +61,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 ## Progetti
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Copia | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
@@ -100,7 +100,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 ## Attività
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
@@ -132,7 +132,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 ## Problemi
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-------------------------------|----------|--------|-------------|---------------|
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica | ✓ | ✓ | ✓ |   |
 | Elimina | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -162,7 +162,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 Solo gli utenti con una licenza Standard possono avere accesso completo ai portfolio.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|--------------------------|----------|--------|-------------|---------------|
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
@@ -186,7 +186,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 Solo gli utenti con una licenza Standard possono avere accesso completo ai programmi.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
@@ -210,7 +210,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. Tutti gli altri livelli di accesso dispongono dell&#39;accesso di visualizzazione ai rapporti.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|--------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Visualizzare rapporti incorporati | ✓&#42; |   |   |   |
@@ -232,7 +232,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 ## Filtri, viste e raggruppamenti
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Crea | ✓* | ✓* | ✓* |   |
 | Elimina | ✓* | ✓* | ✓* |   |
 | Condividi | ✓* | ✓* | ✓* |   |
@@ -247,7 +247,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 ## Documenti
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -284,7 +284,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 
 | Azione | Standard | Light | Collaboratore | Utente esterno** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
 | Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica tariffe di fatturazione | ✓* |   |   |   |
@@ -308,7 +308,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 ## Ruoli
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Visualizzazione | ✓ | ✓ | ✓ |   |
 | Modifica | ✓ |   |   |   |
 | Crea | ✓* |   |   |   |
@@ -328,18 +328,18 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -347,10 +347,10 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -361,7 +361,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 ## Team
 
 | Azione | Standard | Light | Collaboratore | Utente esterno* |
-|-----------------------------------------|-----------|------------|-------------|------------------|
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
 | Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica i team a cui appartengono | ✓* |   |   |   |
@@ -376,7 +376,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 ## Modelli
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-----------------------|----------|--------|-------------|---------------|
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
@@ -394,7 +394,7 @@ Le seguenti opzioni sono disponibili nell’ambiente di anteprima:
 Solo gli utenti con una licenza Standard possono avere accesso completo ai dati finanziari.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Modifica tariffe di fatturazione | ✓&#42; |   |   |   |
 | Modifica tariffe di costo | ✓&#42; |   |   |   |
 | Modifica dati finanziari generali | ✓&#42; |   |   |   |
@@ -418,7 +418,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 Solo gli utenti con una licenza Standard possono avere accesso completo alla gestione delle risorse. Altri tipi di licenza possono avere accesso limitato o nullo alla gestione delle risorse in Workfront.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |
 | Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |
 | Aggiorna le ore pianificate nel Bilanciatore dei carichi di lavoro&#42;&#42;&#42; | ✓&#42; |   |   |   |
@@ -439,7 +439,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 ## Area Pianificazione scenario
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
 | Crea/modifica piani e iniziative esistenti | ✓ | ✓ |   |   |
 | Aggiungi o modifica informazioni mansione su piani e iniziative&#42; | ✓ | ✓ |   |   |
 | Aggiungi o modifica informazioni sui costi in piani e iniziative&#42; | ✓ | ✓ |   |   |
@@ -460,7 +460,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 Solo gli utenti con una licenza Standard possono avere accesso completo alle schede di tariffa.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Visualizzazione | ✓ | ✓ |   |   |
 | Modifica | ✓ |   |   |   |
 | Crea | ✓* |   |   |   |
@@ -476,7 +476,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alle sch
 <!-- ask Alina about this section -->
 
 | Azioni | Visualizzazione | Modifica |
-|---|---|---|
+| --- | --- | --- |
 | Crea |   | ✓ |
 | Modifica/elimina tutti gli obiettivi |   | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |

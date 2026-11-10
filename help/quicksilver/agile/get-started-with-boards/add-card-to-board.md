@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 5%
 ---
 # Aggiungere una scheda ad hoc a una bacheca
+
+{{boards-maintenance-mode}}
 
 Puoi aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro della bacheca. La scheda può rappresentare un’attività, un problema, una persona, un gruppo o qualsiasi tipo di elemento che desideri includere nella bacheca.
 

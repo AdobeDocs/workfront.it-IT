@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 17%
 ---
 # Configurare la perdita di dati della scheda
+
+{{boards-maintenance-mode}}
 
 È possibile configurare una bacheca in modo che le schede vengano archiviate, o che &quot;cadano&quot; dalla bacheca, in base a una pianificazione. È possibile impostare le schede in una particolare colonna in modo che cadano dalla bacheca in un determinato numero di giorni o settimane.
 

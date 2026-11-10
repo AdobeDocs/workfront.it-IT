@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 0%
+source-wordcount: '2214'
+ht-degree: 1%
 ---
 # Programma beta per la funzionalità delle organizzazioni collegate
 
@@ -98,37 +98,211 @@ La prima fase del programma beta consente di collegare le due istanze e avviare 
 | **Accettazione richiesta** | Una volta che entrambe le parti sono d’accordo, il fornitore accetta la richiesta e il cliente può vedere che è stata accettata. |
 | **Aggiornamenti dello stato redatti da AI** | Quando un richiedente richiede lo stato in un commento, il provider può utilizzare i comandi AI per generare in modo rapido e coerente una bozza di risposta. <br> La bozza include informazioni provenienti dagli oggetti connessi alla richiesta, ad esempio data di completamento pianificata, condizione e ore registrate rispetto alle ore pianificate. <br> Si tratta di un riepilogo delle informazioni più importanti, non di un’esportazione campo per campo. Una persona lo rivede e lo modifica prima di inviare una risposta al cliente. |
 
+## Partecipare alla versione beta
+
+Parla con il tuo responsabile del programma beta di Adobe per partecipare alla versione beta.
+
+### Cosa chiediamo ai partecipanti
+
+* Partecipa a una chiamata di feedback settimanale.
+
+* Metti da parte circa un’ora alla settimana per il test pratico da solo. Le sessioni di lavoro in tempo reale sulla chiamata sono un’opzione.
+
+* Riunire, ove possibile, i punti di vista dei due partner.
+
+* Identifica gli ambienti Workfront da connettere ed effettua il provisioning degli account amministratore per un numero limitato di tecnici Adobe in modo che possano convalidare la connessione.
+
+### Cosa vogliamo imparare
+
+* Il mirroring di un oggetto e la sincronizzazione solo dei dati selezionati rappresentano il modello di condivisione corretto? È abbastanza flessibile per ogni lato?
+
+* La sequenza di fase è corretta o una funzionalità successiva dovrebbe essere disponibile prima?
+
+* Quali punti di contatto mancano nella collaborazione?
+
+* Come dovrebbero funzionare la denominazione e la mappatura dei campi tra le due istanze?
+
+  Oggi, il modulo e la richiesta sono di proprietà del client e il provider li visualizza in sola lettura con i nomi dei campi del client.
+
+* Di cosa ha bisogno l&#39;IT per approvare e amministrare una connessione?
+
 ## Flusso di lavoro end-to-end
 
-Questa sezione descrive il flusso di lavoro per due parti coinvolte in questa integrazione, dopo che le istanze Workfront delle loro organizzazioni rispettate sono state connesse.
+Questa sezione descrive il flusso di lavoro per due parti coinvolte in questa integrazione.
 
 Ad esempio, utilizziamo un flusso di lavoro client e provider.
 
-### Flusso di lavoro del client
+Il flusso di lavoro include i seguenti passaggi:
 
-In qualità di richiedente nell’organizzazione del cliente, puoi effettuare le seguenti operazioni:
+1. [Creare una connessione di istanza](#1-create-an-instance-connection)
+1. [Riconosci la connessione](#2-acknowledge-the-connection)
+1. [Condividere un modulo di richiesta con l’organizzazione connessa](#3-share-a-request-form-with-the-connected-organization)
+1. [Invia una richiesta](#4-submit-a-request)
+1. [Rivedi la richiesta e crea un progetto](#5-review-the-request-and-create-a-project)
+1. [Collaborare alla conversazione tra aziende](#6-collaborate-in-the-cross-company-conversation)
 
-1. Creare o chiedere a un amministratore di creare un modulo di richiesta, pubblicarlo e condividerlo con l&#39;organizzazione del provider connesso.
+### Prima di iniziare
 
-2. Aprire il modulo pubblicato dall&#39;area Richieste, immettere un prompt e allegare eventuali file.
+* Devi essere un amministratore di sistema con accesso completo all&#39;area **Configurazione** in entrambe le istanze.
+* L&#39;istanza richiedente richiede il cliente univoco **GUID** dell&#39;istanza ricevente.
+* Il modulo che desideri condividere deve essere pubblicato.
 
-3. Rivedi in che modo il contenuto viene mappato sui campi del modulo, accetta e invia.
+### &#x200B;1. Creare una connessione di istanza
 
-### Flusso di lavoro del provider
+Imposta quanto segue nell’istanza richiedente (il client):
 
-In qualità di responsabile del lavoro nell&#39;organizzazione del fornitore, eseguire le operazioni seguenti:
+1. Accedi all&#39;ambiente del client e passa a **Configurazione** > **Connessioni di istanza**. La pagina elenca tutte le connessioni ed è vuota se non ne esiste ancora alcuna.
+1. Fare clic su **Crea connessione**.
+1. Nella casella **Crea connessione** aggiungere il **GUID istanza di ricezione**. È un campo obbligatorio.
+1. (Facoltativo) Imposta una **data di scadenza**. La connessione smette di funzionare dopo questa data.
+1. Fare clic su **Crea connessione**.
 
-1. Ricevi la richiesta nell’area Richieste come copia di sola lettura.
+   La nuova connessione viene visualizzata nell&#39;elenco delle connessioni con stato **In sospeso**.
+1. Seleziona la nuova connessione per visualizzarne i dettagli.
 
-2. Discuti la richiesta attraverso commenti fino a quando entrambi i lati non sono allineati, quindi la accetti.
+   >[!TIP]
+   >
+   >Una connessione in sospeso non condivide nulla. L’istanza ricevente deve prima riconoscerlo.
 
-3. Converti la richiesta in un progetto, scegliendo portfolio, programma e modello, se necessario.
 
-4. Scegli i campi del progetto di cui eseguire il mirroring in base alla richiesta del client.
+### &#x200B;2. Riconosci la connessione
 
-5. Rispondi alle domande sullo stato nei commenti, oppure genera un aggiornamento sullo stato della bozza, rivedilo e pubblicalo nella tua richiesta. Verrà inoltre visualizzato nella richiesta originale del client.
+Imposta quanto segue nell’istanza ricevente (il provider):
 
-   Da quel momento in poi, la richiesta da parte del provider funge da replica della richiesta originale del client, quindi i commenti e i dati concordati rimangono sincronizzati.
+1. Accedi all&#39;istanza del provider e passa a **Main Menu** > **Setup** > **Instance connections**.
+1. Fai clic sul nome per aprire la connessione dall’istanza ricevente. Un banner visualizza il seguente messaggio: **Un&#39;istanza desidera connettersi al tuo. Scegli almeno un destinatario idoneo, quindi conferma la connessione. Non viene condiviso nulla finché non lo fai.**
+1. In **Destinatari idonei**, apri l&#39;elenco **Cerca gruppi e utenti** e scegli chi può ricevere il lavoro dall&#39;istanza richiedente. Puoi scegliere gruppi e singoli utenti. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Fare clic su **Conferma** per accettare la connessione oppure fare clic su una delle opzioni seguenti:
+
+   * **Rifiuta** di rifiutare la connessione.
+   * **Chiudi** per lasciarlo in sospeso.
+
+   Viene visualizzato un messaggio di tipo &quot;Modifiche salvate&quot; e lo stato della connessione cambia in **Attivo**. L’elenco ora mostra i destinatari idonei, la data di creazione e la data di scadenza.
+
+   >[!TIP]
+   >
+   >**Conferma** rimane inattivo finché non scegli almeno un destinatario idoneo.
+
+### &#x200B;3. Condivisione di un modulo di richiesta da parte dell’organizzazione richiedente
+
+Dall’istanza Workfront del client:
+
+1. Vai a **Menu principale** > **Richieste** e fai clic su **Moduli di richiesta**.
+1. Aprire il modulo pubblicato da condividere.
+1. Fai clic su **Condividi**.
+
+   Osserva le seguenti schede all&#39;interno della casella **Condividi**:
+
+   * **Condivisione interna**
+   * **Condivisione pubblica**
+   * **Organizzazioni collegate**
+1. Apri la scheda **Organizzazioni collegate**.
+1. Nel campo **Organizzazione** selezionare l&#39;istanza del provider connesso.
+1. Nel campo **Utenti e gruppi**, scegliere gli utenti dell&#39;organizzazione autorizzati a utilizzare il modulo. Aggiungere utenti e gruppi.
+1. Fai clic su **Salva**.
+
+Un messaggio di **salvataggio delle modifiche completato** conferma la condivisione. <!--need to submit a UI text change - remove "successfully"-->
+
+### &#x200B;4. Invia una richiesta
+
+In qualità di utente nell’istanza del client, invia una richiesta effettuando le seguenti operazioni:
+
+1. Accedi all&#39;istanza Workfront del client e passa a **Main Menu** > **Requests**.
+
+   Nella pagina **Invia una nuova richiesta** sono elencati i moduli recenti, incluso quello appena condiviso.
+
+   Una nota nella parte superiore mostra **Richiesta interaziendale: le richieste inviate con questo modulo sono visibili all&#39;organizzazione connessa.**
+1. Compila il modulo manualmente o utilizza **Compila modulo** per consentire ad AI di farlo per te.
+1. (Facoltativo) Per utilizzare il modulo Riempi, effettuare le seguenti operazioni:
+
+   1. Fai clic su **Compila modulo**.
+   1. Descrivi la tua richiesta, incolla un messaggio e-mail correlato oppure fai clic su **Allega file** per caricare un file. AI trova i dettagli rilevanti e li applica al modulo.
+   1. Fare clic su **Applica al modulo**. Una barra di avanzamento mostra **Compilazione del modulo** durante la generazione dei valori dei campi.
+   1. Per saltare il passaggio di IA, fai clic su **Ignora**.
+1. Esamina i valori generati e modifica qualsiasi elemento che debba essere modificato.
+1. Fai clic su **Invia** per inviare la richiesta.
+
+   Viene visualizzato un messaggio di **richiesta inviata correttamente** con un collegamento **Visualizza la richiesta**.
+
+   La nuova richiesta viene aggiunta all&#39;elenco di richieste con il nome del modulo e lo stato **Nuovo**.
+
+   >[!TIP]
+   >
+   >Le risposte di IA possono essere imprecise. Controllare sempre i valori compilati prima di inviare.
+
+### &#x200B;5. Rivedi la richiesta e crea un progetto
+
+1. Accedi all&#39;istanza Workfront del provider e vai a **Menu principale** > **Richieste**.
+
+La richiesta in ingresso viene visualizzata nell’elenco.
+
+Il **Type** della richiesta è contrassegnato come **External: &lt; nome dell&#39;istanza del client >**, che lo contrassegna come proveniente dall&#39;organizzazione connessa.
+
+1. Apri la richiesta. Accanto al titolo viene visualizzato il badge **Condiviso con: &lt; nome dell&#39;istanza del client >** e nel pannello dei commenti viene visualizzato il seguente **avviso di conversazione interaziendale**: **La discussione è visibile a &lt; nome dell&#39;organizzazione del client >.**
+1. Esaminare le informazioni sulla richiesta e le risposte al modulo.
+1. Fai clic sul menu **Altro** a destra del nome della richiesta, quindi **Crea oggetto**.
+1. Nella finestra di dialogo **Crea oggetto**, aggiorna i campi seguenti:
+   * **Azione**: selezionare un&#39;azione dal menu. Ad esempio, **Crea un singolo progetto**
+   * **Modello di progetto**: selezionare un modello disponibile.
+   * **Proprietario del progetto**: aggiungere un proprietario del progetto.
+   * **Modulo**: scegli un prodotto in cui verrà visualizzato l&#39;oggetto. Se si sceglie **Flusso di lavoro**, verrà creato un progetto nell&#39;istanza di Workfront del provider.
+   * **Moduli personalizzati**: allegare i moduli personalizzati, se necessario.
+   * **Portfolio** e **Programma**: aggiungi portfolio o programmi per il nuovo progetto.
+1. Fai clic su **Crea**.
+
+   La richiesta nell&#39;istanza del provider ora è collegata al nuovo progetto e lo stato della richiesta cambia in **In corso**. L’istanza richiedente del cliente vede la modifica dello stato sulla propria copia della richiesta.
+
+### &#x200B;6. Collaborare alla conversazione tra aziende
+
+Gli utenti di entrambe le organizzazioni possono commentare le rispettive richieste. Il banner **Conversazione interaziendale** ricorda che tutto ciò che è scritto qui è visibile all&#39;altra organizzazione.
+
+Esegui una delle operazioni seguenti:
+
+1. Per richiedere un aggiornamento dall’istanza del client:
+
+   1. Apri la richiesta e passa al pannello **Commenti**.
+   1. Fai clic su **Nuovo commento**, digita il messaggio e fai clic su **Invia**.
+
+1. Per aggiornare la richiesta dall’istanza del provider:
+
+   1. Apri la richiesta. Il nuovo commento viene evidenziato con l&#39;etichetta **Nuovo**.
+   1. Fai clic su **Rispondi**, scrivi la risposta e fai clic su **Invia**.
+
+1. Per eseguire il follow-up dall’istanza del client:
+
+   1. Apri la richiesta. La risposta del fornitore viene visualizzata sotto il commento originale.
+   1. Fai clic su **Mi piace** per confermarne la ricezione oppure **Aggiungi risposta** per continuare la discussione.
+
+
+
+
+<!--
+### Client's workflow
+
+As a requestor in the client's organization, you can do the following:  
+
+1. Create or ask an administrator to create a request form, publish it, and share it with the connected provider's organization.
+
+2. Open the published form from the Requests area, enter a prompt, and attach any files.
+
+3. Review how the content maps to the form fields, accept, and submit.
+
+### Provider's workflow
+
+As a work manager in the provider's organization, do the following: 
+
+1. Receive the request in your Requests area as a read-only copy.
+
+2. Discuss the request through comments until both sides are aligned, then accept it.
+
+3. Convert the request into a project, choosing the portfolio, program, and template, if needed.
+
+4. Choose which project fields are mirrored back to the client's request. 
+
+5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
+
+    From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Sicurezza e governance
 
@@ -193,33 +367,7 @@ Le fasi seguenti descrivono il nostro attuale piano di sviluppo e rilascio. Il s
 </tbody>
 </table>
 
-## Partecipare alla versione beta
 
-Parla con il tuo responsabile del programma beta di Adobe per partecipare alla versione beta.
-
-### Cosa chiediamo ai partecipanti
-
-* Partecipa a una chiamata di feedback settimanale.
-
-* Metti da parte circa un’ora alla settimana per il test pratico da solo. Le sessioni di lavoro in tempo reale sulla chiamata sono un’opzione.
-
-* Riunire, ove possibile, i punti di vista dei due partner.
-
-* Identifica gli ambienti Workfront da connettere ed effettua il provisioning degli account amministratore per un numero limitato di tecnici Adobe in modo che possano convalidare la connessione.
-
-### Cosa vogliamo imparare
-
-* Il mirroring di un oggetto e la sincronizzazione solo dei dati selezionati rappresentano il modello di condivisione corretto? È abbastanza flessibile per ogni lato?
-
-* La sequenza di fase è corretta o una funzionalità successiva dovrebbe essere disponibile prima?
-
-* Quali punti di contatto mancano nella collaborazione?
-
-* Come dovrebbero funzionare la denominazione e la mappatura dei campi tra le due istanze?
-
-  Oggi, il modulo e la richiesta sono di proprietà del client e il provider li visualizza in sola lettura con i nomi dei campi del client.
-
-* Di cosa ha bisogno l&#39;IT per approvare e amministrare una connessione?
 
 
 

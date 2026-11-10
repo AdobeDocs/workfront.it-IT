@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 22%
+source-wordcount: '451'
+ht-degree: 20%
 ---
 # Caricare file in Priorità
 
@@ -97,6 +97,31 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
    Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
 
    ![Aggiungi file](assets/add-files.png)
+
+1. Aggiungi un commento (facoltativo).
+1. Aggiungi altri file (facoltativo).
+
+   >[!NOTE]
+   >
+   >I file aggiuntivi vengono caricati come documenti separati.
+
+1. Fai clic su **Carica**.
+
+## Caricare un file in un progetto di archiviazione cloud Adobe
+
+Non puoi caricare i file direttamente su un’attività o su un problema in un progetto di archiviazione cloud Adobe. Carica il file nel progetto dalla scheda **Progetto** nel pannello Riepilogo.
+
+{{step1-to-priorities}}
+
+1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
+1. Nel pannello di riepilogo, fai clic sulla scheda **Progetto**.
+1. Fare clic sull&#39;icona **Carica file** ![Carica file](assets/upload-file-icon.png).
+1. (Facoltativo) Nella casella **Carica file** selezionare una cartella.
+1. Trascina e rilascia il tuo file o usa Cmd/Ctrl + V per incollarlo dagli appunti
+
+   oppure
+
+   Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
 
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).

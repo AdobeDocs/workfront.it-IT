@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 9%
 ---
 # Gestire le voci dell’elenco di controllo sulle schede
+
+{{boards-maintenance-mode}}
 
 L’utilizzo di un elenco di controllo su una scheda consente di suddividere il lavoro in incrementi più piccoli o di aggiungere note alla scheda. Gli elementi dell’elenco di controllo sono disponibili sia su schede ad hoc che su schede connesse.
 
