@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '169'
 ht-degree: 3%
 ---
 # Programmi Beta
@@ -49,13 +49,13 @@ Le seguenti funzioni sono attualmente disponibili in versione beta:
 
   Per informazioni, vedere [Introduzione a Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Adobe Workfront Planning Designer è disponibile in versione beta per tutti i clienti.
+* Adobe Workfront Planning Designer
 
   Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 <!--
 
-* Ideation space for Adobe Workfront Planning is available in Open beta.
+* Ideation space for Adobe Workfront Planning 
 
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 -->

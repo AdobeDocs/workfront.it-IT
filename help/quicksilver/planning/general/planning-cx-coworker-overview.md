@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 3%
+source-wordcount: '1097'
+ht-degree: 4%
 ---
 
 # Panoramica di Adobe Workfront Planning CX Enterprise Coworker
@@ -129,7 +129,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * Durante la creazione, l’aggiornamento o l’eliminazione di un oggetto tramite Collaboratore, vengono visualizzate le azioni previste e viene richiesta una conferma. Puoi quindi confermare o annullare le azioni.
 
-## Funzionalità attualmente disponibile per il collega
+## Funzionalità attualmente disponibile per il collaboratore in Workfront Planning
 
 Attualmente, Collaboratore è disponibile nell&#39;area Planning di Workfront e utilizza una serie di competenze per accedere e manipolare le informazioni per gli oggetti Planning. Per ulteriori informazioni, vedere [Competenze Workfront in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
@@ -137,14 +137,16 @@ Puoi utilizzare Collaboratore per eseguire le seguenti azioni:
 
 * Cercare i record. È possibile eseguire ricerche in base alle informazioni contenute in qualsiasi campo record.
 * Creare record. Dopo la creazione del record viene visualizzato un ID con un collegamento al nuovo record. Puoi specificare i campi da aggiornare durante il processo di creazione, come date o descrizione.
-* Crea record basati su un documento caricato. Workfront supporta i seguenti formati di documento per Collaboratore:
+* Crea record basati su un documento caricato. Workfront supporta i seguenti formati di documento da allegare a Collaborator:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT e la maggior parte dei formati immagine
 * Aggiorna i campi per i record visualizzati sullo schermo
 * Eliminare, duplicare o ripristinare record
 * Collega record ad altri record
 * Visualizzare la cronologia delle modifiche di un record
-* Importa 10.000 o più record allegando un file Excel a Collaboratore.
+* Importare 10.000 o più record allegando un file Excel a Collaboratore
+* Creare e gestire le regole di business
+
 
 ## Individuare il collaboratore in Workfront Planning
 

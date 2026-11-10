@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1625'
 ht-degree: 12%
 ---
 # Creare e modificare i livelli di accesso personalizzati
@@ -233,11 +233,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
      <tr> 
       <td role="rowheader">Non consentire mai agli utenti di eliminare le notifiche</td> 
       <td>Impedisce agli utenti di eliminare gli annunci nel Centro notifiche. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Inviare annunci</a>.</td> 
-     </tr> 
-     <tr>
+     </tr>
+
+   <tr>
+      <td role="rowheader">Disabilita il pannello CX Coworker in Workfront</td> 
+      <td>
+      <p>Seleziona questa impostazione per consentire agli utenti di accedere al pannello Collaboratore.</p> 
+      <p>Questa opzione è selezionata per impostazione predefinita.</p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Utilizzare CX Enterprise Coworker in Workfront</a>.</p>
+      <p><b>NOTA:</b></p>
+      <p>Non tutti i clienti hanno accesso a Coworkere.</p>
+      </td> 
+     </tr>
+
+   <tr>
       <td role="rowheader">Consenti agli utenti di accedere a Brand</td> 
       <td>Consente agli utenti di accedere e gestire i Marchi GenStudio in Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Concedere l'accesso alle autorizzazioni del brand</a>.</td> 
      </tr>
+    <!--
+    <tr>
+      <td role="rowheader">Disable Ideation space</td> 
+      <td>
+      <p>Select this setting to allow users to access Ideation space.</p> 
+      <p>This is selected by default.</p>
+      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
+      <p><b>NOTE:</b></p>
+      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      </td> 
+     </tr>
+    -->
     </tbody> 
    </table>
 

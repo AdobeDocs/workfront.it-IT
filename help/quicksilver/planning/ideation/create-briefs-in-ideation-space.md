@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 1%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 1%
 
 <span class="preview">Per ulteriori informazioni, vedere [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambito del programma **Ideation Space Beta**. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning. Per accedere a Workfront Planning, la società deve acquistare un pacchetto Planning aggiuntivo.
+>Le informazioni contenute in questo articolo si riferiscono alle funzionalità disponibili solo per i clienti Workfront che dispongono anche di Adobe Workfront Planning. La società deve acquistare un pacchetto di Planning aggiuntivo.
 >
 >La funzionalità qui descritta non è disponibile se l&#39;organizzazione ha acquistato Workfront Planning come prodotto standalone.
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Requisiti del provider cloud</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTA:</b></p>
+   <p>Nessun altro provider cloud supportato</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Qualsiasi Workfront o flusso di lavoro con un pacchetto Planning</p></li>
+<li><p>Qualsiasi flusso di lavoro con un pacchetto Planning</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>Requisiti di sistema</p></td> 
+   <td><p>È necessario attivare le impostazioni delle preferenze di Collaboratore e MCP nelle Preferenze di sistema nell’area Configura</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza flusso di lavoro Adobe</p></td> 
    <td><p>Standard</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> 
    <ul>
-   <li><p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   </li>
+   <li><p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>L’impostazione Disattiva spazio ideazione nel livello di accesso deve essere deselezionata</p></li>
+   <li><p>L’impostazione Disattiva il pannello CX Coworker in Workfront nel livello di accesso deve essere deselezionata</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Sono disponibili controlli per lo spazio di ideazione che consentono di configur
     -->
 1. Fai clic su **Salva**.
 
-1. Fai clic sull&#39;icona a discesa **livello di zoom** a sinistra dell&#39;icona **Guida** o dell&#39;icona **Guida** ![Guida](assets/more-information-icon.png) per selezionare un&#39;opzione o rivedere le scelte rapide da tastiera che è possibile utilizzare per spostarsi nello spazio delle idee o selezionare un valore di zoom diverso.
+1. Fai clic sul menu a discesa **livello di zoom** a sinistra dell&#39;icona **Guida** ![icona Guida](assets/more-information-icon.png) per selezionare un&#39;opzione.
 
-   Scegli uno dei seguenti livelli di zoom:
+   Scegli una tra le opzioni seguenti:
 
-   * Zoom 100%
-   * Zoom 200%
-   * Zoom per adattare
+   * **Adatta**
+   * **Zoom in**
+   * **Zoom indietro**
+   * Zoom su **50**, **100**, **150** o **200%**
+   * **Mostra griglia punti**: attiva la selezione per visualizzare la griglia punti.
+   * **Presentazione del prodotto**: disattiva la selezione per rifiutare gli hint guida durante l&#39;utilizzo dello spazio di ideazione.
 
-   In alternativa, per spostarsi nella pagina utilizzare una delle seguenti scelte rapide:
+1. Fai clic sull&#39;icona **Aiuto** ![Icona Aiuto](assets/more-information-icon.png) per esaminare le scelte rapide da tastiera che puoi utilizzare per navigare nello spazio delle idee o selezionare un altro valore di zoom:
 
-   | Azione | Scelta rapida |
-   | --- | --- |
-   | Zoom in/out | Ctrl/⌘ + / − |
-   | Zoom per adattare/adattare la selezione | — |
-   | Zoom al cursore | Ctrl/⌘ + scorrimento |
-   | Sposta l’area di lavoro | Pressione prolungata di spazio + trascinamento |
-   | Mostra/nascondi griglia punti | Gig Byt |
-
-
+| Azione | Scelta rapida |
+| --- | --- |
+| Zoom in/out | Ctrl/⌘ + / − |
+| Zoom 100% / | CTRL/⌘ 1 / 1 |
+| Zoom 200% / | CTRL/⌘ 2 / 2 |
+| Zoom per adattare | CTRL/⌘ 0 / 0 |
+| Zoom per adattare la selezione | Alt Ctrl 0 |
+| Zoom al cursore | Ctrl/⌘ scorrimento |
+| Panoramica | Trascinamento spazio di attesa |
+| Mostra/nascondi griglia punti | Gig Byt |
 
 <!--
 
