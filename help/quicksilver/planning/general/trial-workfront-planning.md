@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 3%
 ---
 # Introduzione alla versione di prova gratuita di pianificazione di Adobe Workfront
@@ -254,7 +254,7 @@ Per inviare un feedback sulla tua esperienza con Workfront Planning:
 1. (Condizionale e obbligatorio) In qualità di amministratore di Workfront, firma il contratto di prova gratuita.
 
    Per informazioni, vedere la sezione [Iscriviti alla prova gratuita di Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) in questo articolo.
-1. (Condizionale) Dopo che il contratto di prova è stato firmato da un amministratore di Workfront, fare clic sull&#39;icona ![](assets/main-menu-shell.png) del **menu principale**, quindi fare clic su uno dei seguenti elementi per accedere all&#39;area **Planning**:
+1. (Condizionale) Dopo che il contratto di prova è stato firmato da un amministratore di Workfront, fare clic sull&#39;icona **Menu principale** ![Menu principale](assets/main-menu-shell.png), quindi fare clic su uno dei seguenti elementi per accedere all&#39;area **Planning**:
 
    * **Pianificazione**. Accanto all&#39;icona viene visualizzata l&#39;etichetta **Versione di valutazione**.
    * **Progetti**, **Richieste**, **Calendari**, quindi fai clic su **Esplora i calendari delle campagne**

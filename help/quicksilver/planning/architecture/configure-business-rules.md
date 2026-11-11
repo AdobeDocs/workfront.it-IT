@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 1%
 ---
 
@@ -187,7 +187,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic su **Attiva** per attivare la regola per questo tipo di record, quindi fai clic su **Salva**.
 
    Le regole vengono applicate subito dopo l&#39;attivazione e tutti gli utenti che dispongono delle autorizzazioni per modificare o eliminare record nel tipo di record selezionato devono seguirle.
-1. (Facoltativo) Fare clic sul menu **Altro** ![](assets/more-menu.png) per specificare il nome della regola business nell&#39;intestazione della pagina per aprire la casella **Dettagli regola** e aggiornare le informazioni sulla regola business.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) con il nome della regola business nell&#39;intestazione della pagina per aprire la casella **Dettagli regola** e aggiornare le informazioni sulla regola business.
 1. (Facoltativo e consigliato) Fare clic sulla freccia indietro a sinistra delle **Regole aziendali** nell&#39;intestazione della pagina per visualizzare la pagina del tipo di record e passare alla visualizzazione tabella o aprire la pagina di un record, quindi provare a modificare o eliminare un record per verificare la regola appena creata.
 
 ## Gestire le regole business

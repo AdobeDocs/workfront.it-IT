@@ -1,5 +1,5 @@
 ---
-title: Accesso necessario per utilizzare lo spazio ideazioni
+title: Accesso necessario per utilizzare lo spazio delle ideazioni
 description: Adobe Workfront Planning ora offre una funzionalità aggiuntiva da ideare prima di avviare le campagne. Sfrutta la potenza dell’intelligenza artificiale per trasformare dati e input diretti in piani tangibili e fornire ai team un punto di partenza informato invece di una pagina vuota con spazio di ideazione Adobe.
 author: Alina
 feature: Workfront Planning
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 1%
 ---
 
@@ -71,7 +71,7 @@ Per informazioni generali sullo spazio ideazione, vedere [Introduzione allo spaz
 
 >[!NOTE]
 >
->Non è necessario un accesso separato per accedere allo spazio ideazione. È immediatamente disponibile se è possibile accedere a Workfront se si dispone anche di Workfront Planning.
+>Non è necessario un accesso separato per accedere allo spazio ideazione. È immediatamente disponibile se è possibile accedere a Workfront quando si dispone anche di Workfront Planning.
 >
 >Per ulteriori informazioni sull&#39;accesso necessario per utilizzare lo spazio ideazione, vedere [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
@@ -79,9 +79,9 @@ Puoi accedere allo spazio Ideazione se l’organizzazione dispone dei seguenti d
 
 * Provider cloud:
 
-  * AWS
+  * Amazon Web Services (AWS)
 
-    I provider Azure e GCP non sono supportati.
+    I provider Azure e GCP non sono supportati per lo spazio ideazione.
 
 * Prodotti:
 
@@ -92,16 +92,20 @@ Puoi accedere allo spazio Ideazione se l’organizzazione dispone dei seguenti d
     >
     >CX Enterprise Coworker non è attualmente disponibile per le organizzazioni del settore sanitario, finanziario o di altri settori con dati sensibili. L’Assistente IA è disponibile per queste organizzazioni, ma lo spazio Ideazione non è disponibile per i clienti Workfront che non dispongono di Collaboratore.
 
-* Pacchetti Adobe:
+* Pacchetti Adobe: <!--Et wanted the Coworker added to these-->
 
   * Durante il rilascio di Open Beta (a partire dal 12 novembre 2026), è necessario disporre dei seguenti elementi:
 
-    * Un pacchetto Adobe Workfront Workflow con un pacchetto Workfront Planning
+    * Pacchetto del flusso di lavoro di Adobe Workfront con un pacchetto di pianificazione di Workfront con Adobe CX Enterprise Coworker attivato
 
   * Dopo il rilascio della disponibilità generale (previsto per il 1° febbraio 2027), potrebbe verificarsi una delle seguenti situazioni:
 
     * Un pacchetto Adobe Workfront Workflow con un pacchetto Workfront Planning
     * Adobe Workfront Planning come prodotto standalone
+
+    Entrambi i pacchetti devono avere Adobe CX Enterprise Coworker attivato
+
+
 
 
 <!--
@@ -169,9 +173,9 @@ Per accedere a Ideation Space, il livello di accesso a Workfront deve includere 
 
 ## Requisiti delle autorizzazioni di Workfront Planning
 
-Quando si utilizza lo spazio di ideazione da Workfront Planning, ogni record di Planning viene connesso a un breve in spazio di ideazione.
+Quando si utilizza lo spazio di ideazione da Workfront Planning, ogni record di Planning viene connesso a un breve spazio di ideazione.
 
-Le autorizzazioni di descrizione dello spazio ideazione vengono ereditate dalle autorizzazioni dei record di Workfront Planning. <!--not sure if this is right, because now you can share the ideation with others??-->
+Le autorizzazioni di descrizione dello spazio ideazione vengono ereditate dalle autorizzazioni dei record di Workfront Planning.
 
 Per creare o modificare un record nello spazio ideazione, è necessario disporre delle autorizzazioni Contribute o di livello superiore per un tipo di record in Planning.
 
@@ -183,6 +187,8 @@ Nella tabella seguente viene illustrata la connessione tra le autorizzazioni dei
 |---|---|
 | Autorizzazioni di contribuzione o superiori per un record | Può creare un breve nello spazio ideazione del record |
 | Visualizzare le autorizzazioni di un record | È in grado di leggere il resoconto del record nello spazio ideazione, ma non di modificarlo |
+
+Puoi anche condividere un’area di lavoro di ideazione con altri utenti. Per ulteriori informazioni, consulta la sezione seguente di questo articolo.
 
 ## Autorizzazioni per lo spazio ideazioni
 
