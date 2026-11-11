@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1377'
 ht-degree: 2%
 ---
 
@@ -49,7 +49,7 @@ Future - when they make it available in Planning: replace the above with this OR
 >
 -->
 
-È possibile copiare aree di lavoro, tipi di record, campi e viste di Workfront Planning da un ambiente Workfront a un altro utilizzando le funzionalità di promozione dell&#39;ambiente.
+È possibile copiare le aree di lavoro di Workfront Planning e i relativi oggetti aggiuntivi da un ambiente Workfront a un altro utilizzando le funzionalità di promozione dell&#39;ambiente di Adobe Workfront.
 
 Invece di ricostruire tutto manualmente, assembli la configurazione in un pacchetto nell’ambiente sorgente e installala nell’ambiente di destinazione.
 
@@ -58,7 +58,7 @@ L&#39;utilizzo della promozione dell&#39;ambiente con Planning è simile all&#39
 ## Considerazioni sull&#39;utilizzo della promozione dell&#39;ambiente con Planning
 
 * Per utilizzare la promozione dell’ambiente è necessario essere amministratore di Workfront.
-* I seguenti elementi vengono importati tramite la promozione dell’ambiente:
+* Quando copiate un workspace in un altro ambiente, vengono importati anche i seguenti oggetti associati a tale workspace mediante la promozione dell&#39;ambiente:
 
   * Aree di lavoro
   * Sezioni Workspace
@@ -67,22 +67,34 @@ L&#39;utilizzo della promozione dell&#39;ambiente con Planning è simile all&#39
   * Viste
   * Gerarchie
   * Impostazioni di condivisione per tutti gli oggetti
-  * Automazioni <!--this might not be part of it; Lilit is checking-->
   * Moduli di richiesta
   * Regole di business
   * Oggetti connessi
-  * Oggetti da cui dipende il workspace o con cui sono condivisi altri oggetti, ad esempio gruppi, team, ruoli. Esistono i seguenti scenari:
+  * Oggetti da cui dipende il workspace o con cui sono condivisi altri oggetti, ad esempio gruppi, team, mansioni, aziende e utenti.
+
+    Esistono i seguenti scenari:
 
     * Se nell&#39;ambiente di destinazione esiste già un oggetto con lo stesso nome, Workfront contrassegna un conflitto e decidi come gestirlo.
     * Se nell&#39;ambiente di destinazione non esiste un team o un gruppo con cui è condiviso un oggetto, la promozione lo crea.
+  <!--* Automations -- this is not promoted, for now, per Lilit -->
 * Per ogni oggetto, potete effettuare le seguenti operazioni:
 
   * Crea come nuovo oggetto
   * Usa l&#39;oggetto esistente ma crealo con un nuovo nome
   * Sovrascrivi un oggetto esistente. La sovrascrittura sostituisce la configurazione nella destinazione.
+* Non è possibile esportare i seguenti oggetti:
+
+  * Automazioni che appartengono all&#39;area di lavoro da copiare
+  * Record
+  * Campi che non appartengono alle aree di lavoro esportate
+
+* I tipi di record connessi tra aree di lavoro diverse non possono essere promossi, a meno che non esistano già nell’ambiente di destinazione.
+
+  È consigliabile innanzi tutto promuovere le aree di lavoro che contengono i tipi di record collegabili tra più aree di lavoro e solo successivamente promuovere le aree di lavoro che fanno riferimento a tali tipi di record.
 
 * L&#39;installazione può richiedere alcuni minuti. Se necessario, è possibile eseguire il rollback di un&#39;installazione dalla pagina dei risultati.
 * Se possibile, si consiglia di verificare il processo prima di procedere. Puoi installarlo in un ambiente sandbox o di anteprima prima di promuoverlo in produzione.
+
 
 ## Requisiti di accesso
 
@@ -113,8 +125,7 @@ L&#39;utilizzo della promozione dell&#39;ambiente con Planning è simile all&#39
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>  
-   <p>Devi essere un Amministratore di sistema</p> 
+   <td> <p>Devi essere un Amministratore di sistema</p> 
 </td> 
   </tr> 
   <tr> 
@@ -143,7 +154,7 @@ Seguire le istruzioni riportate nelle sezioni seguenti per copiare una configura
 
 ### Creare un pacchetto nell’ambiente di origine
 
-1. Disporre di un ambiente sorgente in cui sia presente la configurazione desiderata.
+1. Vai a un ambiente sorgente in cui è presente la configurazione desiderata.
 1. Nell&#39;ambiente di origine, fare clic sul **menu principale** ![menu principale](assets/main-menu-shell.png), quindi passare a **Configurazione** > **Sistema** > **Promozione ambiente**.
 Nell&#39;elenco **Pacchetti di configurazione** sono visualizzati i pacchetti esistenti con il relativo stato, l&#39;ambiente di origine e la posizione in cui sono stati distribuiti.
 1. Fare clic su **Crea pacchetto**.
@@ -193,16 +204,28 @@ Prima di installare il pacchetto nell’ambiente di destinazione, si consiglia d
 1. Nella pagina del pacchetto, dopo averlo verificato, fai clic su **Installa**.
 1. Nell&#39;elenco **Ambiente di destinazione** selezionare l&#39;ambiente in cui eseguire la distribuzione (ad esempio, l&#39;ambiente di produzione) e fare clic su **Continua**. La destinazione predefinita è l&#39;ambiente corrente.
 1. Nella pagina **Informazioni sul pacchetto**, confermare l&#39;ambiente di origine e l&#39;ambiente in cui si sta distribuendo.
-1. Nella sezione **Mapping oggetto**, espandere ogni raggruppamento di oggetti, ad esempio **Gruppo** e **Area di lavoro di Planning**, per esaminare gli oggetti.
+1. Nella sezione **Mappatura oggetto**, espandere ogni raggruppamento di oggetti, ad esempio un **area di lavoro di Planning**, per esaminare gli oggetti.
+
+   >[!TIP]
+   >
+   >Qui possono essere visualizzati gruppi, team, ruoli, aziende e utenti, se uno qualsiasi degli oggetti del workspace è condiviso con loro.
+
 1. Per ogni oggetto, controlla le colonne **Collisione** e **Stato**, quindi scegli un&#39;azione **Distribuzione** dall&#39;elenco. Scegli una tra le opzioni seguenti:
 
+
    * **Crea nuovo**: aggiunge l&#39;oggetto alla destinazione. Utilizzalo quando non viene rilevata alcuna collisione.
-   * **Usa esistente**: esegue il mapping dell&#39;oggetto a un oggetto già esistente nella destinazione, ad esempio un gruppo con lo stesso nome.
+   * **Usa esistente**: esegue il mapping dell&#39;oggetto a un oggetto già esistente nella destinazione, ad esempio un&#39;area di lavoro con lo stesso nome.
    * **Crea con nuovo nome**: aggiunge l&#39;oggetto con un nome specificato.
    * **Sovrascrivi**: sostituisce l&#39;oggetto esistente nella destinazione con quello del pacchetto.
+
+   >[!TIP]
+   >
+   >Se il sistema non trova un workspace con lo stesso ID, tenta di trovare una corrispondenza in base al nome del workspace.
+
 1. (Facoltativo) Per modificare più oggetti contemporaneamente, selezionare le relative caselle di controllo, scegliere un&#39;azione nell&#39;elenco Azione di distribuzione nella parte superiore del gruppo e fare clic su Applica a selezionati. Utilizza i filtri sopra l’elenco, ad esempio Mostra solo errori, per evidenziare oggetti specifici.
 1. Risolvi eventuali indicatori di errore. Se si seleziona **Usa esistente** per un oggetto, è necessario selezionare anche l&#39;oggetto a cui è associato.  In caso contrario, lo stato mostra un errore e **Distribuzione** rimane non disponibile.
 1. Fai clic su **Distribuisci**, quindi su **Distribuisci** per confermare.
+
 
    Workfront mostra una pagina di installazione con il messaggio **Installazione del pacchetto in corso**. L&#39;operazione potrebbe richiedere alcuni minuti.
 

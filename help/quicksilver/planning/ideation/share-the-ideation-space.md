@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 2%
 ---
 
@@ -63,7 +63,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Puoi utilizzare lo spazio delle idee di Adobe Workfront per creare resoconti per le campagne e altri tipi di record prima di avviarle. In questo modo gli altri utenti vengono invitati a discutere e a raccogliere informazioni per creare in modo collaborativo il documento prima di avviare il lavoro.
+Puoi utilizzare lo spazio Ideazione di Adobe Workfront per creare resoconti per le campagne e altri tipi di record prima di avviarle. In questo modo gli altri utenti vengono invitati a discutere e a raccogliere informazioni per creare in modo collaborativo il documento prima di avviare il lavoro.
 
 Per una migliore collaborazione, puoi condividere lo spazio delle idee e le relative descrizioni con altri utenti.
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisiti del provider cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>Nessun altro provider cloud supportato</p>
+   <p>Non sono supportati altri provider cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -192,7 +192,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      Tutti gli utenti dell&#39;organizzazione che dispongono di un flusso di lavoro e di una licenza Planning nel proprio livello di accesso possono trovare e commentare l&#39;idea.
    * **Chiunque abbia il collegamento può commentare**
 
-     Chiunque condivida un collegamento all’idea può commentare l’idea, incluse le persone esterne alla tua organizzazione.
+     Chiunque condivida un collegamento all’area di lavoro di ideazione con può commentare tale collegamento, incluse le persone esterne alla tua organizzazione.
 
 1. Fai clic su **Copia collegamento** per generare un collegamento all&#39;ideazione e condividerlo con altri utenti. Il collegamento viene aggiunto agli Appunti.
 1. Fare clic sulla freccia indietro nella casella Impostazioni per tornare alla condivisione.
@@ -200,11 +200,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    | Autorizzazione per spazio ideazione | Funzionalità |
    |---|---|
-   | **Editor** | Può modificare, scaricare e condividere lo spazio delle idee |
-   | **Commento** | Può visualizzare e commentare lo spazio delle ideazioni |
-   | **Visualizzatore** | Può visualizzare lo spazio delle ideazioni |
+   | **Editor** | Può modificare, scaricare e condividere l’area di lavoro delle idee |
+   | **Commento** | Può visualizzare e commentare l’area di lavoro di ideazione |
+   | **Visualizzatore** | Può visualizzare l’area di lavoro dell’ideazione |
 
-1. (Facoltativo) Includi un messaggio con l&#39;assegnazione, quindi fai clic su **Invita**.
+1. (Facoltativo) Includi un messaggio con l&#39;invito alla condivisione, quindi fai clic su **Invita**.
 
    Gli utenti invitati ricevono una notifica e-mail relativa all’assegnazione delle autorizzazioni.
 

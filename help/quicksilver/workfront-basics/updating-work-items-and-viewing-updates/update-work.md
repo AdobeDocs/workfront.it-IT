@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3504'
 ht-degree: 2%
 ---
 # Aggiornare lavoro
@@ -625,15 +625,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## Aggiungi commenti
+## Fissa thread di commenti
 
-È possibile fissare i commenti di primo livello nella parte superiore della scheda Commenti. Non è possibile fissare le risposte che fanno parte di un thread.
+Puoi fissare i thread importanti nella parte superiore della scheda Aggiornamenti, per separarli dal flusso di aggiornamento in una sezione Thread bloccati.
 
-1. Vai a un oggetto che supporta l&#39;aggiunta di commenti e fai clic su Aggiornamenti nel pannello a sinistra, quindi fai clic sulla scheda **Commenti**.
+Quando si fissano i thread, considera quanto segue:
+
+* È possibile fissare i commenti di primo livello nella parte superiore della scheda Commenti. Non è possibile fissare le risposte che fanno parte di un thread.
+* In seguito è possibile sbloccare i thread.
+* Chiunque disponga delle autorizzazioni necessarie per visualizzare un oggetto con un&#39;area Aggiornamenti può fissare o sbloccare un thread.
+
+Per fissare un thread di commenti:
+
+1. Vai a un oggetto con un&#39;area di **Aggiornamenti** e fai clic su **Aggiornamenti** nel pannello a sinistra, quindi fai clic sulla scheda **Commenti**.
 
    Per informazioni, vedere [Panoramica della scheda Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Aggiungi un commento o da uno esistente, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del commento, quindi fai clic su **Fissa thread**. Il commento ed eventuali risposte esistenti vengono bloccati nella parte superiore della scheda Commenti.
+1. Aggiungi un commento o da uno esistente, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del commento, quindi fai clic su **Fissa thread**. Il commento e le eventuali risposte esistenti vengono bloccati nella parte superiore della scheda Commenti per l&#39;utente e per tutti coloro che possono visualizzare l&#39;oggetto.
 
    Nella parte superiore della scheda **Commenti** viene creata una nuova sezione **Thread bloccati**.
 
@@ -645,7 +653,41 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## Eliminare un commento o una risposta
 

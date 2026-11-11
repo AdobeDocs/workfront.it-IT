@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 1%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisiti del provider cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>Nessun altro provider cloud supportato</p>
+   <p>Non sono supportati altri provider cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -170,7 +170,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Per utilizzare lo spazio di ideazione per creare o modificare record, è necessario disporre di un&#39;area di lavoro e di un tipo di record in Workfront Planning.
 * I nuovi record iniziano sempre con il contenuto segnaposto, indipendentemente dalla modalità di creazione.
 * Quando si elimina un record di Planning collegato a una descrizione breve dell&#39;ideazione, la descrizione rimane nello spazio dell&#39;ideazione e il relativo spazio associato non viene eliminato.
-* La sincronizzazione delle informazioni avviene solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record Planning alla descrizione dello spazio ideazione. <!--this might change?-->
+* La sincronizzazione delle informazioni avviene solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record Planning alla descrizione dello spazio ideazione. <!--this might change after beta?-->
 * Quando si creano, modificano o rimuovono campi in Workfront Planning, si verificano gli scenari seguenti:
 
   * Ogni giorno vengono aggiunti nuovi campi creati in record collegati a descrizioni idee. I nuovi campi vengono visualizzati vuoti nella descrizione ideazione.
@@ -189,8 +189,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fare clic sulla scheda per un tipo di record a cui è possibile aggiungere record.
 1. Per creare un record, eseguire una delle operazioni seguenti:
 
-   * Da qualsiasi visualizzazione della pagina del tipo di record, fare clic su **Nuovo record** nell&#39;angolo superiore destro della pagina e nella casella **Scegliere un metodo per aggiungere i record**, fare clic su **Apri lo spazio ideazione**, quindi fare clic su **Continua**.
-   * Scorri fino alla parte inferiore della tabella dei record e fai clic su **Nuova riga**, quindi fai clic su **Apri lo spazio ideazione**.
+   * Da qualsiasi visualizzazione della pagina del tipo di record, fare clic su **Nuovo record** nell&#39;angolo superiore destro della pagina e nella casella **Scegliere un metodo per aggiungere i record**, fare clic su **Avvia spazio ideazione**, quindi su **Continua**.
+   * Scorri fino alla parte inferiore della tabella dei record e fai clic su **Nuova riga**, quindi fai clic su **Avvia spazio ideazione**.
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Nuova casella di record con pulsante Apri spazio ideazione](assets/new-record-creation-picker-with-ideation.png)
 
-   Lo spazio ideazione viene aperto in una nuova scheda.
+1. Leggere il contratto beta e fare clic su **Accetto**. È necessario firmare il contratto per utilizzare lo spazio ideazione.
 
-   Nel pannello di destra viene visualizzato il coorker.
+   Si verificano le seguenti situazioni:
 
-   Il record viene creato immediatamente con un nome segnaposto.
+   * L’area di lavoro Spazio ideazione viene visualizzata in una nuova scheda.
+
+   * Nel pannello di destra viene visualizzato il coorker.
+
+   * Il record viene creato immediatamente con un nome segnaposto.
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ Non è possibile modificare in blocco i record nello spazio ideazione.
 
 1. Passare a un record esistente in Workfront Planning e aprire la relativa pagina dei dettagli.
 
-1. Fai clic su **Apri nello spazio ideazioni** ![](assets/open-in-ideation-space.png). Verrà aperto lo spazio Ideazione in una nuova scheda.
+1. Fai clic su **Apri nello spazio ideazione** nell&#39;angolo superiore destro della pagina dei dettagli. Verrà aperto lo spazio Ideazione in una nuova scheda.
 
    Se esiste già un&#39;idea per il record, lo spazio viene aperto.
 

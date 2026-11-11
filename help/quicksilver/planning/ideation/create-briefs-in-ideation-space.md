@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 1%
 ---
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Requisiti del provider cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTA:</b></p>
-   <p>Nessun altro provider cloud supportato</p>
+   <p>Non sono supportati altri provider cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -180,7 +180,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Vai al **menu principale** ![menu principale](assets/main-menu-lines.png) > **spazio ideazione**
    * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > **Nuovo record** > **Avvia spazio ideazione**
 
-   Viene aperto lo spazio ideazione e per impostazione predefinita viene creata una nuova ideazione con il seguente formato:
+1. Leggere il contratto beta e fare clic su **Accetto**. È necessario firmare il contratto per utilizzare lo spazio ideazione.
+
+   Viene aperta l’area di lavoro Spazio ideazione (Ideation space), con il titolo predefinito dopo il formato seguente:
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
@@ -203,7 +205,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. (Facoltativo) Fai clic sull&#39;icona **+** nella casella del prompt di Collaborator e allega le informazioni nei seguenti modi:
 
    * **Comandi**: utilizzare un comando dell&#39;elenco per richiedere il contenuto a Collaboratore.
-   * **Allega file**: allega un file alla casella di richiesta per aggiungerlo o le relative informazioni allo spazio delle idee. Devi chiedere a Collaboratore di creare schede in base al file per inviare successivamente le schede alla descrizione.
+   * **Allega file**: allega un file alla casella di richiesta per aggiungerlo o le relative informazioni all&#39;area di lavoro dell&#39;ideazione. Devi chiedere a Collaboratore di creare schede in base al file per inviare successivamente le schede alla descrizione.
    * **Fai riferimento a un oggetto**: seleziona un oggetto dall&#39;elenco per farvi riferimento nell&#39;ideazione. L&#39;oggetto deve esistere in Workfront.
 
 1. Fai clic su Invio.
@@ -216,14 +218,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. (Condizionale) Quando Collaboratore offre di creare schede per l&#39;ideazione, rispondi **Sì**.
 
-   Le schede vengono aggiunte allo spazio di ideazione e puoi visualizzare le sorgenti di ogni scheda e decidere quale aggiungere alla descrizione.
+   Le schede vengono aggiunte all’area di lavoro di ideazione e puoi visualizzare le sorgenti di ogni scheda e decidere quali aggiungere alla descrizione.
 
    >[!TIP]
    >
    >Non è possibile aggiungere file direttamente alla descrizione. Devi prima trasferire le informazioni del file alle schede che puoi inviare alla descrizione.
 
 
-1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare elementi nello spazio delle idee, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale spazio.
+1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare gli elementi nell&#39;area di lavoro di ideazione, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale area.
 
 1. (Facoltativo) Fai clic su **Origini** nella parte inferiore di ogni scheda per capire da dove sono state raccolte le informazioni.
 
@@ -233,7 +235,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. (Facoltativo) Fai clic su **Commenti** ![Icona Commento](assets/comments-icon.png) nell&#39;angolo superiore destro dello spazio e **@** assegna altri tag per iniziare il brainstorming all&#39;interno dello spazio.
 
    Gli utenti riceveranno una notifica e-mail relativa al tag.
-1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![](assets/filter-comments-icon.png) all&#39;interno della scheda dei commenti per filtrare i commenti in base ai seguenti criteri:
+1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-comments-icon.png) nella scheda Commenti per filtrare i commenti in base ai criteri seguenti:
 
    * Revisori
    * Ora di aggiunta del commento
@@ -247,27 +249,31 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Ad esempio, le timeline vengono aggiunte ai campi di tipo data e alle descrizioni dei campi di tipo paragrafo.
 
 1. (Condizionale) Fai clic su una scheda, quindi fai clic su **Chiedi IA a ...** per avere idee sul passaggio successivo, prima di aggiungere le informazioni alla descrizione. Le risposte si trovano nel contesto delle informazioni di ciascuna carta.
-1. Fai clic sull&#39;icona **Aggiungi documenti** ![Aggiungi documenti](assets/add-documents-in-ideation-space.png) nell&#39;angolo superiore sinistro dello spazio di ideazione per caricare i documenti nello spazio. È possibile aggiungere nuovi documenti o documenti già aggiunti allo spazio in precedenza.
+1. Fai clic sull&#39;icona **Aggiungi documenti** ![Aggiungi documenti](assets/add-documents-in-ideation-space.png) nell&#39;angolo superiore sinistro dell&#39;area di lavoro Ideazione per caricare i documenti nello spazio. È possibile aggiungere nuovi documenti o documenti già aggiunti allo spazio in precedenza.
 
    >[!TIP]
    >
    >Per poter accedere ai documenti e caricarli nello spazio, è necessario attivare l&#39;impostazione Documenti.
-   >Per informazioni, vedere la sezione [Configurare lo spazio ideazione](#configure-the-ideation-space) in questo articolo.
+   >Per informazioni, vedere la sezione [Configurare l&#39;area di lavoro dello spazio ideazioni](#configure-the-ideation-space-canvas) in questo articolo.
    > 
-1. Fare clic sull&#39;icona **Aggiungi scheda tassonomia WF** ![Aggiungi da Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> e selezionare un tipo di record connesso, quindi un record di ogni tipo per aggiungere le informazioni del record al tipo di record selezionato.
+1. Fare clic sull&#39;icona **Aggiungi record Workfront Connected Planning** ![Aggiungi record Workfront Connected Planning](assets/add-from-wf-planning-on-ideations-space.png) e selezionare un tipo di record connesso, quindi un record di ogni tipo per aggiungere le informazioni del record al tipo selezionato.
 
    Viene creata una scheda per il record selezionato da aggiungere allo spazio. Il tipo di record viene visualizzato nell&#39;angolo superiore sinistro della scheda del record.
 
    >[!TIP]
    >
-   >L&#39;icona <!--check UI name--> della scheda **Aggiungi tassonomia WF** non è disponibile quando si accede allo spazio di ideazione dal menu principale e la descrizione non è connessa a un record di Planning.
+   >* L&#39;icona **Aggiungi record di Workfront Connected Planning** non è disponibile quando si accede allo spazio di ideazione dal menu Principale e la descrizione non è connessa a un record di Planning.
+   >
+   >* Solo i record di pianificazione connessi saranno disponibili per l&#39;aggiunta all&#39;area di lavoro dello spazio ideazione come contesto per l&#39;ideazione. Ogni scheda record collegata aggiunta all’area di lavoro influenzerà il tipo di contenuto creato e utilizzerà tale contesto, se applicabile, durante la creazione.
+   >
+   >   Ad esempio, se desideri creare una campagna che deve sfruttare i tipi di record esistenti, aggiungi tali record all’area di lavoro.
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) sulla scheda record connessa e fai clic su **Visualizza in Workfront**.
 
    La pagina dei dettagli del record viene visualizzata in un&#39;altra scheda del browser in Workfront Planning.
-1. (Facoltativo) Seleziona la cornice di ideazione o una scheda, fai clic sull&#39;icona **Elimina**, quindi fai clic su **Elimina** per confermare. La scheda viene rimossa dallo spazio ideazione.
+1. (Facoltativo) Seleziona la cornice di ideazione o una scheda, fai clic sull&#39;icona **Elimina**, quindi fai clic su **Elimina** per confermare. La scheda viene rimossa dall’area di lavoro dello spazio ideazione.
 
-   Quando si eliminano schede corrispondenti a un documento o a un record memorizzato, gli elementi vengono rimossi dallo spazio Ideazione ma rimangono nelle rispettive applicazioni.
+   Quando si eliminano schede corrispondenti a un documento o a un record memorizzato, gli elementi vengono rimossi dall&#39;area di lavoro ma rimangono nelle rispettive applicazioni.
 
 1. (Facoltativo) Utilizza la casella **Chiedi qualsiasi cosa al collega** nell&#39;angolo in basso a destra in qualsiasi momento per perfezionare la tua idea.
 
@@ -277,7 +283,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Icona Copia nella barra dei prompt](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Facoltativo) Fai clic sulle icone **Annulla** o **Ripristina** ![Annulla e ripristina](assets/undo-redo-icons.png) nella parte superiore dello spazio delle ideazioni per annullare o annullare un&#39;azione.
+1. (Facoltativo) Fai clic sulle icone **Annulla** o **Ripristina** ![Annulla e ripristina](assets/undo-redo-icons.png) nella parte superiore dell&#39;area di lavoro per annullare o annullare un&#39;azione.
 1. Zoom indietro per visualizzare il quadro completo: l’obiettivo originale della campagna, tutte le schede di concetti generate dall’intelligenza artificiale con citazioni, documenti aggiuntivi, i record reali di Workfront Planning inseriti (prodotti, utenti tipo, ecc.). La scheda di riepilogo **Brief** nell&#39;angolo inferiore sinistro raccoglie tutto.
 
 1. Fai clic sulla breve immagine di anteprima in basso a sinistra e rivedi la descrizione, quindi fai clic su una delle seguenti opzioni:
@@ -296,11 +302,13 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    In questo modo si completa la creazione del record o del file con le informazioni aggiuntive. Se si è iniziato da un record esistente, le informazioni contenute nella descrizione vengono aggiunte al record. Se si inizia con un nuovo record, il record viene creato con le informazioni riportate nella descrizione.
 
    Per ulteriori informazioni sull&#39;aggiornamento dei record di Planning mediante le descrizioni, vedere la sezione &quot;Considerazioni sull&#39;utilizzo dello spazio di ideazione per creare record&quot; nell&#39;articolo [Creare record di Planning dalle descrizioni dello spazio di ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+1. (Facoltativo) Fai clic su **Condividi** per condividere l&#39;area di lavoro delle idee con altri utenti.
 
+   Per ulteriori informazioni, vedere [Condividere uno spazio ideazione con altri](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-## Configurare lo spazio ideazione
+## Configurare l’area di lavoro dello spazio ideazione
 
-Sono disponibili controlli per lo spazio di ideazione che consentono di configurare gli elementi visualizzati sullo schermo e di spostarsi con facilità nello spazio.
+Sono disponibili controlli per lo spazio di ideazione che consentono di configurare gli elementi visualizzati sullo schermo e di navigare nell’area di lavoro.
 
 1. Fai clic sull&#39;icona **Impostazioni** ![Impostazioni](assets/setting-icon.png) per controllare da dove IA richiama le informazioni, quindi scegli uno dei seguenti **Tipi di Source**:
 
@@ -322,7 +330,7 @@ Sono disponibili controlli per lo spazio di ideazione che consentono di configur
    * **Mostra griglia punti**: attiva la selezione per visualizzare la griglia punti.
    * **Presentazione del prodotto**: disattiva la selezione per rifiutare gli hint guida durante l&#39;utilizzo dello spazio di ideazione.
 
-1. Fai clic sull&#39;icona **Aiuto** ![Icona Aiuto](assets/more-information-icon.png) per esaminare le scelte rapide da tastiera che puoi utilizzare per navigare nello spazio delle idee o selezionare un altro valore di zoom:
+1. Fai clic sull&#39;icona **Aiuto** ![Icona Aiuto](assets/more-information-icon.png) per rivedere le scelte rapide da tastiera che puoi utilizzare per navigare nell&#39;area di lavoro o selezionare un diverso valore di zoom:
 
 | Azione | Scelta rapida |
 | --- | --- |
