@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '660'
 ht-degree: 5%
 ---
 # Utilizzare uno stato personalizzato come stato predefinito per un gruppo
@@ -77,16 +77,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Stati problemi
 
-Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di problema devono essere abilitati (Rapporto bug, Ordine di modifica, Problema e Richiesta). Ad esempio, nello stato del problema mostrato di seguito, lo stato Riaperto non può essere utilizzato come stato predefinito perché il tipo di problema Ordine di modifica non è selezionato:
+Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di problema devono essere abilitati (Rapporto bug, Ordine di modifica, Problema e Richiesta). Ad esempio, nello stato del problema mostrato di seguito, lo stato Idea non può essere utilizzato come stato predefinito perché il tipo di problema Ordine di modifica non è selezionato:
 
-![Tutti i tipi di problemi abilitati](assets/all-4-issue-types-enabled.png)
+![Tutti i tipi di problemi abilitati](assets/new-all-issue-types-enabled.png)
 
 ## Impostazione di uno stato personalizzato come stato predefinito per un gruppo
 
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png), quindi fai clic sul nome del gruppo in cui desideri creare o personalizzare gli stati.
-1. Nel pannello a sinistra, fai clic su **Stati** ![Icona impostazioni ingranaggio](assets/gear-icon-settings.png).
+1. Nel pannello a sinistra, fai clic su **Stati** ![Icona Stato](assets/status-icon.png).
 1. Apri la scheda **Progetto**, **Attività** o **Problemi**, a seconda del tipo di stato che desideri impostare come predefinito.
 1. Fai clic su **Imposta stati predefiniti** nell&#39;angolo superiore destro.
 1. Nell&#39;area a discesa visualizzata, accanto allo stato in cui si desidera impostare lo stato predefinito, selezionare lo stato predefinito che si desidera impostare.
@@ -122,4 +122,3 @@ Se si nasconde uno stato predefinito (attivando l&#39;opzione Nascondi stato), i
 
 Se non è disponibile alcuno stato del tipo equivalente, il tipo di stato viene visualizzato come **Nascosto** e non è disponibile per gli elementi di lavoro.
 
-![Nessuno stato disponibile](assets/when-hide-default-status-no-equivalent.png)

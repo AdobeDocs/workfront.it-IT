@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 9%
@@ -102,26 +102,26 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Abilita processo di rilascio rapido</p> </td> 
-      <td>Consente di abilitare i rilasci mensili di Workfront per la tua organizzazione invece dei rilasci trimestrali.</p><p>Per ulteriori informazioni sul processo di rilascio rapido, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Abilitare o disabilitare i rilasci rapidi per l'organizzazione</a>.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>Consenti l’incorporamento di Workfront in un iframe</p> </td> 
-      <td>Consente di incorporare Workfront in un iframe.<p>Questa opzione è disabilitata per impostazione predefinita.</p><p><b>IMPORTANTE</b>: la visualizzazione di un'applicazione basata sul Web in un iframe rende l'applicazione vulnerabile a una vulnerabilità di sicurezza di tipo click-jacking.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Consenti l'autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365</td> 
-      <td> <p>Consente di incorporare Workfront in un iframe solo per i componenti aggiuntivi di Office 365 quando Workfront è integrato con una soluzione Single Sign-On SAML 2.0. </p> <p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: se abiliti l'opzione precedente, <strong>Consenti incorporamento di Workfront in un iframe</strong>, l'opzione <strong>Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365</strong> è abilitata e disabilitata.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Abilita l’utilizzo delle informazioni della sessione durante la creazione degli URL delle pagine esterne</td> 
-      <td> <p>Consente agli utenti di utilizzare le informazioni ID sessione di un sito quando si aggiunge una pagina esterna a un dashboard.</p> <p>Questa opzione non è sicura e disattivata per impostazione predefinita. Si consiglia invece di utilizzare OAuth per le integrazioni.</p> <p>Per ulteriori informazioni sull'aggiunta di pagine esterne a un dashboard, vedere <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporare una pagina Web esterna in un dashboard</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Consenti l'utilizzo delle applicazioni mobili di Workfront</td> 
-      <td> <p>Consente agli utenti di accedere alle app mobili (Visualizzazione Workfront per iPad e app per telefoni cellulari)</p> <p>Questa opzione è attivata per impostazione predefinita. </p> <p>Per informazioni sulla visualizzazione Workfront, vedere <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilizzare la visualizzazione Adobe Workfront</a>. Per ulteriori informazioni sulle app per dispositivi mobili, vedere <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Utilizzare l'app per dispositivi mobili Adobe Workfront: indice articolo</a>.</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>Abilita processo di rilascio rapido</p> </td> 
+         <td>Consente di abilitare i rilasci mensili di Workfront per la tua organizzazione invece dei rilasci trimestrali.</p><p>Per ulteriori informazioni sul processo di rilascio rapido, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Abilitare o disabilitare i rilasci rapidi per l'organizzazione</a>.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>Consenti l’incorporamento di Workfront in un iframe</p> </td> 
+         <td>Consente di incorporare Workfront in un iframe.<p>Questa opzione è disabilitata per impostazione predefinita.</p><p><b>IMPORTANTE</b>: la visualizzazione di un'applicazione basata sul Web in un iframe rende l'applicazione vulnerabile a una vulnerabilità di sicurezza di tipo click-jacking.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Consenti l'autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365</td> 
+         <td> <p>Consente di incorporare Workfront in un iframe solo per i componenti aggiuntivi di Office 365 quando Workfront è integrato con una soluzione Single Sign-On SAML 2.0. </p> <p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: se abiliti l'opzione precedente, <strong>Consenti incorporamento di Workfront in un iframe</strong>, l'opzione <strong>Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365</strong> è abilitata e disabilitata.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Abilita l’utilizzo delle informazioni della sessione durante la creazione degli URL delle pagine esterne</td> 
+         <td> <p>Consente agli utenti di utilizzare le informazioni ID sessione di un sito quando si aggiunge una pagina esterna a un dashboard.</p> <p>Questa opzione non è sicura e disattivata per impostazione predefinita. Si consiglia invece di utilizzare OAuth per le integrazioni.</p> <p>Per ulteriori informazioni sull'aggiunta di pagine esterne a un dashboard, vedere <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporare una pagina Web esterna in un dashboard</a>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Consenti l'utilizzo delle applicazioni mobili di Workfront</td> 
+         <td> <p>Consente agli utenti di accedere alle app mobili (Visualizzazione Workfront per iPad e app per telefoni cellulari)</p> <p>Questa opzione è attivata per impostazione predefinita. </p> <p>Per informazioni sulla visualizzazione Workfront, vedere <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utilizzare la visualizzazione Adobe Workfront</a>. Per ulteriori informazioni sulle app per dispositivi mobili, vedere <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Utilizzare l'app per dispositivi mobili Adobe Workfront: indice articolo</a>.</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>Collaborare con persone senza account Workfront utilizzando indirizzi e-mail</p> </td> 
       <td>Consente agli utenti di Workfront di condividere alcuni elementi con persone senza un account Workfront includendo il proprio indirizzo e-mail invece del nome. Gli utenti possono condividere i seguenti elementi con utenti esterni utilizzando il proprio indirizzo e-mail:
        <ul>
@@ -196,7 +196,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     <tr> 
       <td role="rowheader">Designer pianificazione</td> 
       <td>Questa opzione è disponibile solo per i clienti che hanno acquistato un pacchetto Workfront Planning. L'attivazione di questa impostazione consente agli utenti di creare e modificare le aree di lavoro utilizzando Planning Designer. Per informazioni, vedere <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Introduzione ad Adobe Workfront Planning Designer</a>.</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Strumenti MCP per sola lettura</td> 

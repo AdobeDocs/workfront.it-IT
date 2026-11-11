@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1064'
 ht-degree: 5%
-
 ---
-
 # Creare e modificare i rischi nei progetti
 
 <!--Audited: 06/2025-->
@@ -131,8 +129,6 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
 1. Passare al progetto per il quale si desidera creare rischi.
 1. Fai clic su **Rischi** nel pannello a sinistra.
-
-   ![Sezione Rischi dell&#39;attività](assets/risks-section-on-project-2022.png)
 
 1. Fai clic su **Aggiungi altri rischi** e crea rischi modificando le informazioni in linea.
 
