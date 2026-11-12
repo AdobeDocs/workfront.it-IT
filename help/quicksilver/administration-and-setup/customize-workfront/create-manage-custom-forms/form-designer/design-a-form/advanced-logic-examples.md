@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
@@ -199,7 +199,7 @@ L’utente visualizza gli errori di convalida se non seleziona il numero corrett
 
 ![Esempi di errore di convalida](assets/min-max-selections.png)
 
-## Formula per attivare la convalida solo quando il campo è visibile
+### Formula per attivare la convalida solo quando il campo è visibile
 
 La logica di convalida viene sempre controllata, anche se il campo non viene visualizzato. Se un utente interagisce con un campo contenente la logica di convalida e il campo viene successivamente nascosto dalla logica di visualizzazione, si verifica l’errore di convalida, anche se il valore del campo è stato cancellato prima che fosse nascosto.
 
