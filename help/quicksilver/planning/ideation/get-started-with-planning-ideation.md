@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1442'
 ht-degree: 0%
 ---
 
@@ -83,7 +83,7 @@ La timeline del rilascio pianificato per lo spazio di ideazione, soggetto a modi
 
 * **Disponibilità generale:** Prevista per il 1° febbraio 2027.
 
-## Requisiti del prodotto
+## Requisiti di idoneità del prodotto
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Puoi accedere allo spazio Ideazione se l’organizzazione dispone dei seguenti d
 
     Entrambi i pacchetti devono avere Adobe CX Enterprise Coworker attivato
 
+* Licenza Adobe Workfront:
 
+  * Amministratori di Workflow e di Planning System o utenti con licenza Standard
 
+Per ulteriori informazioni, vedere [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## Pubblico e casi d’uso
+## Accesso allo spazio ideazione
 
-Lo spazio Ideazione è progettato per gli esperti di marketing di prodotti e marchi responsabili della definizione della strategia delle campagne e della produzione dei resoconti delle campagne.
+Per accedere allo spazio ideazione:
 
-<!--
-Too much: 
+1. Verifica di soddisfare i requisiti del prodotto come descritto nella sezione [Requisiti del prodotto](#product-requirements) in questo articolo.
+1. Contatta il rappresentante del tuo account Adobe per esprimere interesse a partecipare a Closed Beta o a partecipare a Open Beta, quando sarà disponibile.
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   Per impostazione predefinita, gli amministratori di sistema hanno accesso allo spazio ideazione e non possono rimuoverlo quando diventa disponibile in Open Beta. Possono attivarla per tutti gli altri utenti in uno qualsiasi dei seguenti ambienti:
 
-In qualità di responsabile dell&#39;area di lavoro, è possibile utilizzare lo spazio ideazione per creare record in Workfront Planning seguendo la procedura riportata di seguito.
+   * Production
+   * Anteprima
+   * Sandbox personalizzate
 
-* Creare un breve nello spazio Ideazione dopo averlo avviato da Planning, quando si inizia a creare o modificare record.
-* Utilizza i prompt di IA per raccogliere i dettagli da altri record nel sistema o dal web e terminare la creazione delle descrizioni delle idee.
-* Creare i tipi di record di Planning dalle descrizioni.
-* Perfezionare i suggerimenti per le idee e aggiornare i tipi di record esistenti in Planning.
+1. In qualità di amministratore di sistema, eseguire le operazioni seguenti:
 
-Di seguito sono riportati alcuni casi d’uso per l’utilizzo dello spazio ideazione:
+   * Attiva l’impostazione Coworker &amp; MCP Tools nelle preferenze di sistema per consentire l’accesso a Coworker per l’intera azienda.
+   * Disattivare le impostazioni seguenti per gli utenti con licenza Standard nei loro livelli di accesso:
+     * Disabilita il pannello CX Coworker in Workfront
+     * Disabilita spazio di ideazione
 
-* **Aggiorna una campagna precedente utilizzando le prestazioni cronologiche**
+   Per ulteriori informazioni sull’utilizzo dello spazio Ideazione, consulta anche i seguenti articoli:
 
-  * Ad esempio, puoi aggiornare le campagne esistenti per un nuovo trimestre, una nuova stagione o un nuovo momento di prodotto.
-  * Questo produce un &quot;delta brief&quot; basato sulle prestazioni precedenti che delinea cosa rimane, cosa cambia e perché.
+   * [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [Crea record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [Crea slip nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **Crea una nuova campagna utilizzando le prestazioni cronologiche**
+1. (Consigliato) Identifica la tua prima campagna: una recente da aggiornare o una nuova iniziativa da creare da zero.
 
-  * Ad esempio, puoi creare una campagna quando avvii un nuovo prodotto, segmento o iniziativa senza cronologia diretta della campagna.
-  * Questo produce un nuovo resoconto attraverso l&#39;ideazione guidata, un mix di canali consigliato e le direzioni iniziali del concetto o del messaggio.
+## Individuare lo spazio ideazione
+
+Dopo aver verificato di avere accesso ai prodotti, ai pacchetti e al livello di sistema e di accesso configurati, puoi individuare lo spazio Ideation nelle seguenti aree di Workfront:
+
+* Nel menu principale di Workfront, aprendo l&#39;area spazio ideazione
+
+  ![Area spazio ideazione nel menu principale](assets/ideation-space-area-icon-in-main-menu.png)
+
+* In Workfront Planning, quando si aggiunge manualmente un nuovo record
+
+  ![Spazio ideazione nell&#39;aggiunta di un nuovo record](assets/ideation-space-in-planning-new-record.png)
+
+* In Workfront Planning, quando si modifica un record esistente
+
+  ![Spazio ideazione nella pagina Dettagli record](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>Non è possibile rimuovere l&#39;area spazio ideazione dal menu principale utilizzando un modello di layout. Per ulteriori informazioni sul blocco dell&#39;accesso allo spazio ideazione da parte di un utente, vedere [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
 
 ## Spazio delle idee e Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Di seguito sono riportate alcune delle funzionalità di Coworker utilizzate nell
   * **Verifica prima della finalizzazione**. Le risposte generate dall&#39;intelligenza artificiale possono essere imprecise, quindi controlla sempre **Sorgenti** su una scheda e conferma rispetto alle origini collegate prima di finalizzare un record.
   * **Combinazione di schede AI con record reali**. Trascina i record effettivi nello spazio ideazione.
 
-## Accesso allo spazio ideazione
+## Pubblico e casi d’uso
 
-Per accedere allo spazio ideazione:
+Lo spazio Ideazione è progettato per gli esperti di marketing di prodotti e marchi responsabili della definizione della strategia delle campagne e della produzione dei resoconti delle campagne.
 
-1. Verifica di soddisfare i requisiti del prodotto come descritto nella sezione [Requisiti del prodotto](#product-requirements) in questo articolo.
-1. Contatta il rappresentante del tuo account Adobe per esprimere interesse a partecipare a Closed Beta o a partecipare a Open Beta, quando sarà disponibile.
+<!--
+Too much: 
 
-   Per impostazione predefinita, gli amministratori di sistema hanno accesso allo spazio ideazione e non possono rimuoverlo quando diventa disponibile in Open Beta. Possono attivarla per tutti gli altri utenti in uno qualsiasi dei seguenti ambienti:
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * Production
-   * Anteprima
-   * Sandbox personalizzate
+In qualità di responsabile dell&#39;area di lavoro, è possibile utilizzare lo spazio ideazione per creare record in Workfront Planning seguendo la procedura riportata di seguito.
 
-1. (Consigliato) Identifica la tua prima campagna: una recente da aggiornare o una nuova iniziativa da creare da zero.
+* Creare un breve nello spazio Ideazione dopo averlo avviato da Planning, quando si inizia a creare o modificare record.
+* Utilizza i prompt di IA per raccogliere i dettagli da altri record nel sistema o dal web e terminare la creazione delle descrizioni delle idee.
+* Creare i tipi di record di Planning dalle descrizioni.
+* Perfezionare i suggerimenti per le idee e aggiornare i tipi di record esistenti in Planning.
 
-Per ulteriori informazioni sull’utilizzo dello spazio Ideazione, consulta anche i seguenti articoli:
+Di seguito sono riportati alcuni casi d’uso per l’utilizzo dello spazio ideazione:
 
-* [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Crea record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Crea slip nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **Aggiorna una campagna precedente utilizzando le prestazioni cronologiche**
 
-## Individuare lo spazio ideazione
+  * Ad esempio, puoi aggiornare le campagne esistenti per un nuovo trimestre, una nuova stagione o un nuovo momento di prodotto.
+  * Questo produce un &quot;delta brief&quot; basato sulle prestazioni precedenti che delinea cosa rimane, cosa cambia e perché.
 
-Dopo aver verificato di avere accesso ai prodotti, ai pacchetti e al livello di sistema e di accesso configurati, puoi individuare lo spazio Ideation nelle seguenti aree di Workfront:
+* **Crea una nuova campagna utilizzando le prestazioni cronologiche**
 
-* Quando si aggiunge manualmente un nuovo record in Workfront Planning
-
-  ![Spazio ideazione in Planning](assets/ideation-space-in-planning-new-record.png)
-* Nel menu principale di Workfront, aprendo l&#39;area spazio ideazione
-
-  ![Area spazio ideazione nel menu principale](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->Non è possibile rimuovere l&#39;area spazio ideazione dal menu principale utilizzando un modello di layout. Per ulteriori informazioni sul blocco dell&#39;accesso allo spazio ideazione da parte di un utente, vedere [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
+  * Ad esempio, puoi creare una campagna quando avvii un nuovo prodotto, segmento o iniziativa senza cronologia diretta della campagna.
+  * Questo produce un nuovo resoconto attraverso l&#39;ideazione guidata, un mix di canali consigliato e le direzioni iniziali del concetto o del messaggio.
 
 ## Oggetti generati dallo spazio ideazione
 

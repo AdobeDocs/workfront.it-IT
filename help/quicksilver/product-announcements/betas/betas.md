@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 3%
+source-wordcount: '268'
+ht-degree: 2%
 ---
 # Programmi Beta
 
@@ -51,14 +51,16 @@ Le seguenti funzioni sono attualmente disponibili in versione beta:
 
 * Adobe Workfront Planning Designer
 
+  Utilizza Adobe Planning Designer basato sull’intelligenza artificiale per configurare facilmente le aree di lavoro e le strutture di dati. Il Designer di Planning supporta tutte le operazioni, dalla creazione e configurazione delle aree di lavoro alla definizione di campi e formule, alla gestione dei record, alla revisione della cronologia delle modifiche e alla creazione di viste personalizzate.
+
   Per informazioni, vedere [Introduzione ad Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<!--
+* Spazio ideazione per Adobe Workfront Planning
 
-* Ideation space for Adobe Workfront Planning 
+  Funzionalità di ideazione strategica basata sull’intelligenza artificiale di Adobe, integrata direttamente in Workfront Planning. Offre ai team di marketing un punto di partenza strutturato e informato sui dati per la strategia delle campagne, sostituendo la ricerca manuale e le ipotesi con descrizioni generate dall’intelligenza artificiale basate sulla reale cronologia delle prestazioni di un’organizzazione.
 
-    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
--->
+  Per informazioni, vedere [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+
 
 <!--
 

@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 17%
+source-wordcount: '1542'
+ht-degree: 13%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -27,13 +27,19 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 >| <ul><li>2026.11 (12 novembre 2026)</li><li>2026.12 (17 dicembre 2026)</li><li>2027.01 (21 gennaio 2027)</li></ul> | <ul><li>2027.01 (21 gennaio 2027)</li></ul> |
 >
 >Per ulteriori informazioni sul processo di rilascio rapido, consulta [Abilitare o disabilitare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Le funzioni che non seguono questa pianificazione visualizzano uno dei seguenti badge:
+>
+>* [!BADGE Versione simultanea]{type=Neutral}
+>   Queste funzioni vengono rilasciate contemporaneamente negli ambienti di anteprima e produzione a causa di situazioni tecniche, come le pianificazioni di rilascio di altri prodotti Adobe che fanno parte della funzione.
+>* [!BADGE &#x200B; fuori pianificazione]{type=Neutral}
+>   Queste funzioni vengono rilasciate al di fuori della pianificazione standard del rilascio di Workfront.
 
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti ai](#ai-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Miglioramenti ai progetti](#project-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
@@ -50,6 +56,16 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Promozione dell'ambiente disponibile per Workfront Planning</a></p>
+                <p>[!BADGE Versione concorrente]{type=Neutral}</p>
+                <p>Gli amministratori di Workfront possono ora promuovere le aree di lavoro di Workfront Planning e i relativi oggetti da un ambiente all'altro.</p>
+            </td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>12 novembre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Autorizzazioni per la rimozione di un modulo personalizzato allegato</a></p>
                 <p>Quando si condivide un modulo personalizzato, è ora possibile impostare le autorizzazioni per gli utenti con accesso Gestisci per rimuovere il modulo dagli oggetti a cui è associato.</p>
             </td>
@@ -63,7 +79,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
                 <p>È ora possibile contrassegnare un campo personalizzato come preferito in modo che venga visualizzato nella parte superiore dei campi disponibili quando si creano filtri, visualizzazioni e raggruppamenti e nella raccolta campi di progettazione moduli.</p>
             </td>
             <td><p>29 ottobre 2026</p></td>
-            <td><p>12 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
             <td><p>21 gennaio 2027</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Cronologia modifiche ora tiene traccia degli oggetti del dashboard di Canvas</a></p>
-                <p>Cronologia modifiche ora registra chi ha creato, aggiornato o eliminato un dashboard o un report Canvas, quando e cosa è cambiato.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Cronologia modifiche ora registra chi ha creato, aggiornato o eliminato un dashboard o un report Canvas, quando e cosa è cambiato.</p>
             </td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>29 ottobre 2026</p></td>
@@ -216,9 +232,18 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Risolvi thread di commenti</a></p>
+                <p>Ora puoi risolvere un thread di commenti per nasconderlo dal flusso di commenti per tutti gli utenti e risolverlo in un secondo momento per riportarlo indietro.</p>
+            </td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Linee guida per lo stato non disponibili</a></p>
-                <p>Quando non è disponibile un problema, un'attività o uno stato di progetto salvato, viene visualizzato un avviso per spiegarne il motivo e il codice di stato salvato.</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Quando non è disponibile un problema, un'attività o uno stato di progetto salvato, viene visualizzato un avviso per spiegarne il motivo e il codice di stato salvato.</p>
             </td>
             <td><p>4 novembre 2026</p></td>
             <td><p>4 novembre 2026</p></td>
@@ -330,6 +355,18 @@ Al momento, in questa versione non sono presenti aggiornamenti per i seguenti el
 
 ## Aggiornamenti del visualizzatore di bozza desktop
 
+### Versione 2.4.0
+
+>[!NOTE]
+>
+>Versione di produzione per tutti i clienti: 11 novembre 2026
+
+Il Visualizzatore bozze per sistemi desktop è stato aggiornato dalla versione 2.3.0 alla versione 2.4.0. Questo aggiornamento include aggiornamenti interni degli strumenti e non influisce sulle funzionalità dell’utente finale.
+
+Questo aggiornamento è valido sia per Mac che per Windows.
+
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ### Versione 2.3.0
 
 >[!NOTE]
@@ -346,6 +383,31 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
+
+### Spazio per le idee per Workfront Planning disponibile in Open Beta
+
+>[!NOTE]
+>
+>Anteprima: 12 novembre 2026
+>Versione rapida di produzione: 12 novembre 2026
+>Produzione per tutti: 12 novembre 2026
+>[!BADGE Versione simultanea]{type=Neutral}
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile come programma open beta. Lo spazio per le idee è disponibile solo per i clienti che hanno acquistato un pacchetto Workfront Planning oltre a un pacchetto Workflow. Non è disponibile per i clienti che hanno acquistato Workfront Planning come prodotto standalone.
+
+Workfront Planning ora include Ideation space, un’area collaborativa in cui i team possono acquisire, organizzare, perfezionare e valutare le idee prima di trasformarle in lavoro fruibile. Lo spazio delle idee aiuta le parti interessate a centralizzare il brainstorming, ad allinearsi alle priorità e a trasferire facilmente i concetti approvati nei flussi di lavoro di pianificazione.
+
+Utilizzando CX Enterprise Coworker, è ora possibile creare descrizioni delle idee da esportare in file o in record di Workfront Planning.
+
+Con lo spazio ideazione è possibile:
+
+* Acquisisci e collabora alle idee con i tuoi team e le parti interessate.
+* Organizza, valuta e assegna priorità alle idee con visibilità nel processo di acquisizione.
+* Trasforma le idee approvate in record e flussi di lavoro di pianificazione.
+
+Per ulteriori informazioni, vedere [Introduzione allo spazio ideazione per Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ### I campi fatturazione e tariffa di costo legacy nelle visualizzazioni elenco mansioni sono obsoleti
 

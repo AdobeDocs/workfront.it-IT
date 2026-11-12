@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: Formatta e convalida le note sulla versione di Workfront per coerenza, struttura corretta e collegamento corretto. Da utilizzare solo per i file delle note sulla versione nelle directory delle versioni di prodotto o quando l’utente cita note sulla versione, versioni di prodotto o versioni trimestrali. Non applicare ad articoli tutorial o alla documentazione generale.
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # Note sulla versione Formatter
 
@@ -91,7 +89,7 @@ Regole:
 
 2. **Paragrafo introduttivo** con mese di rilascio pianificato
 
-3. **`>[!IMPORTANT]`blocco** con tabella di pianificazione della versione
+3. **`>[!IMPORTANT]`blocco** con tabella di pianificazione del rilascio, seguito dalla legenda del badge che descrive i badge di pianificazione del rilascio simultaneo e del off (vedi il modello della pagina della panoramica nel file di riferimento)
 
 4. **H2`Adobe Workfront enhancements`** con elenco puntato di collegamenti di ancoraggio:
 
@@ -100,8 +98,11 @@ Regole:
 * [Document enhancements](#document-enhancements)
 ```
 
+- Se una sezione dell’area prodotto viene esclusa da un commento, rimuovi completamente il relativo collegamento da questo elenco. Non commentare il collegamento.
+
 &#x200B;5. **H3 per area di prodotto** con tabella delle funzionalità di HTML (vedere .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - All&#39;interno di ogni tabella, **prima le funzionalità più recenti**. La riga più recente viene visualizzata nella parte superiore della tabella (dopo la riga di intestazione)
+     - Se una funzionalità dispone di un distintivo (`[!BADGE Off schedule]{type=Neutral}` o `[!BADGE Concurrent release]{type=Neutral}`), inserirlo nel proprio `<p>` direttamente sotto il paragrafo del collegamento della funzionalità, prima del paragrafo della descrizione.
 
 &#x200B;6. **Sezioni finali** (H2): note sulla versione per altre aree, aggiornamenti del visualizzatore per la verifica del desktop, annunci, versione API, aggiornamenti di manutenzione, aggiornamenti di formazione
 
@@ -134,6 +135,8 @@ Applica queste correzioni durante la formattazione:
 | Spazi aggiuntivi nelle linee del callout | Ritaglia spazio vuoto finale |
 | HTML nelle pagine dell’area prodotti | Mantieni come markdown (HTML è solo per tabelle di panoramica) |
 | Manca `exl-id` | Escludilo — non generarne uno |
+| Badge posizionato dopo la descrizione in una tabella di panoramica | Spostala in un proprio `<p>` direttamente sotto il collegamento della funzione |
+| Collegamento mini sommario a una sezione commentata | Rimuovi il collegamento dall’elenco, non aggiungerlo come commento |
 
 ### Passaggio 6: sincronizzare la pagina della panoramica
 
@@ -193,15 +196,9 @@ Errori comuni da evitare:
 - Creazione della pagina di panoramica di un nuovo trimestre senza aggiornamento della scheda &quot;Ultima versione&quot; di `home.md` (continuerà a puntare al trimestre precedente).
 - Dimenticando di aggiungere anche il nuovo trimestre all’elenco di schede dell’anno corrente.
 
-&lt;&lt;&lt;&lt;&lt;&lt; A monte aggiornato
-
-### Passaggio 8: aggiornare la pagina dell’indice delle versioni del prodotto
-=======
-
 ### Passaggio 9: aggiornare la pagina dell’indice delle versioni del prodotto
-&#x200B;>>>>>>>>>>Modifiche con stash
-> 
->Ogni volta che crei una **nuova pagina di panoramica del trimestre**, aggiorna anche `help/quicksilver/product-announcements/product-releases/product-releases.md` con la stessa modifica:
+
+Ogni volta che crei una **nuova pagina di panoramica del trimestre**, aggiorna anche `help/quicksilver/product-announcements/product-releases/product-releases.md` con la stessa modifica:
 
 - Trovare il blocco `<p>Releases in {year}</p>` per l&#39;anno corrente nella colonna &quot;Versioni di Workfront&quot;.
 - Aggiungi un nuovo `<li>` nella **parte superiore** dell&#39;elenco di quell&#39;anno, collegandolo alla pagina della panoramica del nuovo trimestre, nello stesso formato delle voci esistenti:
@@ -288,6 +285,9 @@ Durante la revisione di un file delle note sulla versione, verificare:
 - [ ] righe della tabella delle funzionalità nella panoramica corrispondono al contenuto della pagina dell&#39;area di prodotto
 - [ ] Nessun collegamento interno interrotto
 - [ ] I collegamenti di ancoraggio nella panoramica corrispondono agli ID sezione H3
+- [ ] Il mini sommario della panoramica non contiene collegamenti alle sezioni di commento e i badge si trovano direttamente sotto il collegamento della funzione
+- [ ] Panoramica Il blocco `>[!IMPORTANT]` include la legenda del badge e ogni badge utilizzato in una tabella è descritto in essa
+- [ ] Ogni tabella dei miglioramenti nella panoramica che non viene commentata ha un collegamento corrispondente nel mini sommario, quindi le sezioni aggiunte nuovamente quando non si aggiungono commenti non vengono perse
 - [ Le funzionalità di ] sono ordinate in ordine di novità (sia nelle pagine dell&#39;area di prodotto che nelle tabelle di panoramica)
 - [ ] Le nuove pagine delle note sulla versione sono elencate in `help/quicksilver/TOC.md` nel trimestre corretto, con la prima panoramica e le aree di prodotto in ordine alfabetico (Altre ultime)
 - [ ] Se è stata creata la pagina della panoramica di un nuovo trimestre, `help/quicksilver/home.md` la scheda &quot;Ultima versione&quot; e la scheda dell&#39;anno corrente vi puntano

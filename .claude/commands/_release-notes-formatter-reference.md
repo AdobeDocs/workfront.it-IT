@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Modelli di riferimento per le note sulla versione
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +150,9 @@ Ogni sezione dell’area di prodotto H3 contiene una tabella HTML. Utilizza ques
 - Cella funzione: `<a>` tag con `class="MCXref xref" xrefformat="{para}"` seguito da `<p>` descrizione
 - I collegamenti `href` alla pagina dell&#39;area di prodotto (non un ancoraggio specifico)
 - Celle data: racchiuse in `<p>` tag
-- Per gli elementi fuori pianificazione, aggiungi `<p>[!BADGE Off schedule]{type=Neutral}</p>` dopo il collegamento
-- Svuota `<p></p>` dopo che il collegamento è accettabile quando non è necessario un badge
-- Mantieni il rientro di HTML coerente con i file esistenti
+- Per gli elementi fuori pianificazione, aggiungi `<p>[!BADGE Off schedule]{type=Neutral}</p>` come proprio paragrafo direttamente sotto il paragrafo del collegamento, prima del paragrafo descrizione
+- Per gli elementi rilasciati contemporaneamente in Anteprima e Produzione, aggiungi `<p>[!BADGE Concurrent release]{type=Neutral}</p>` nella stessa posizione
+- Svuota `<p></p>` dopo che il collegamento è accettabile quando non è necessario alcun badge. Mantenere il rientro di HTML coerente con i file esistenti
 
 ### Sezioni finali della panoramica
 
