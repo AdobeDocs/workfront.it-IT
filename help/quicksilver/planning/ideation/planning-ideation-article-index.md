@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '314'
 ht-degree: 0%
 ---
 
@@ -59,9 +59,11 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront Planning ora offre una funzionalità aggiuntiva da ideare prima di avviare le campagne. Sfrutta la potenza dell’intelligenza artificiale per trasformare dati e input diretti in piani tangibili e fornire ai team un punto di partenza informato invece di una pagina vuota.
 
-* [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Creare slip nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [Crea o modifica record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Condividere uno spazio delle idee con altri](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+I seguenti articoli contengono informazioni su Ideation space e forniscono una guida per le sue funzionalità:
+
+* Inizia qui per scoprire di più sullo spazio ideazione in Workfront: [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* In qualità di amministratore di sistema, assicurati di comprendere come rendere disponibile lo spazio ideazione per la tua organizzazione: [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* Quando sei pronto a creare la tua prima strategia di campagna, scopri come creare resoconti utilizzando lo spazio ideazione: [Crea resoconti nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* Se si utilizza Workfront Planning, scoprire come creare record utilizzando lo spazio ideazione: [Creare o modificare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* Collabora con altri nello spazio ideazione: [Condividi uno spazio ideazione con altri](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 
