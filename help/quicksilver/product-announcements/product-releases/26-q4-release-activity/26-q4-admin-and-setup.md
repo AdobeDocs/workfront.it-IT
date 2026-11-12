@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 1%
 ---
 # Miglioramenti per gli amministratori del quarto trimestre 2026
@@ -194,6 +194,7 @@ Per ulteriori informazioni, consulta [Configura integrazioni di documenti](/help
 >Anteprima: 30 luglio 2026
 >Versione rapida di produzione: 13 agosto 2026
 >Produzione per tutti: 22 ottobre 2026
+>[!BADGE Flusso di lavoro Ultimate]{type=Informative}
 
 Gli amministratori dei gruppi ora possono creare, modificare ed eliminare i profili aziendali per i gruppi che amministrano, senza richiedere l’accesso come amministratore di sistema. Ciò offre alle organizzazioni maggiore flessibilità per delegare la gestione dei profili di business a livello di gruppo.
 
