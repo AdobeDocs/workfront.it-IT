@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -32,7 +32,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 >
 >* [!BADGE Versione simultanea]{type=Neutral}
 >   Queste funzioni vengono rilasciate contemporaneamente negli ambienti di anteprima e produzione a causa di situazioni tecniche, come le pianificazioni di rilascio di altri prodotti Adobe che fanno parte della funzione.
->* [!BADGE &#x200B; fuori pianificazione]{type=Neutral}
+>* [!BADGE  fuori pianificazione]{type=Neutral}
 >   Queste funzioni vengono rilasciate al di fuori della pianificazione standard del rilascio di Workfront.
 
 ## Miglioramenti in Adobe Workfront
@@ -380,7 +380,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 
 * Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
 
-Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 
@@ -415,6 +415,11 @@ Nel tempo, abbiamo introdotto funzionalità avanzate di gestione dei tassi e esp
 
 Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle visualizzazioni elenco Ruoli, incluse le configurazioni Filtro/Visualizzazione/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
 
+Anche se questi campi sono ancora disponibili fino a gennaio, potrebbero non funzionare correttamente. Gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro in modo da utilizzare le esperienze di gestione delle tariffe consigliate per gestire e rivedere le percentuali dei ruoli:
+
+* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
+* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
+
 In sostituzione nei report, è possibile utilizzare il codice della modalità testo consigliato (utilizzare `costRates` o `billingRates` in base alle esigenze):
 
     &quot;
@@ -426,20 +431,13 @@ In sostituzione nei report, è possibile utilizzare il codice della modalità te
     valueformat=HTML
     &quot;
 
-Per gestire e rivedere i tassi di ruolo, utilizza le esperienze di gestione dei tassi dedicate:
-
-* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
-* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
-
-Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
-
 Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
