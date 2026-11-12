@@ -4,10 +4,10 @@ description: Miglioramenti al progetto per il primo trimestre 2027
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 6%
+source-wordcount: '355'
+ht-degree: 4%
 ---
 
 # Miglioramenti al progetto per il primo trimestre 2027
@@ -15,6 +15,22 @@ ht-degree: 6%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2027. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2027, consulta [Panoramica sulla versione del primo trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Risolvi thread di commenti
+
+>[!NOTE]
+>
+>Anteprima: 12 novembre 2026
+>Versione rapida di produzione: 17 dicembre 2026
+>Produzione per tutti: 21 gennaio 2027
+
+È ora possibile risolvere un thread di commenti per un oggetto a cui si ha accesso in visualizzazione dal menu Altro del messaggio superiore nell&#39;area Aggiornamenti. Questo lo nasconde dal flusso di commenti per tutti gli utenti. Puoi risolvere il problema in un secondo momento e riportarlo indietro.
+
+I thread risolti sono di sola lettura, pertanto non è possibile modificarli, eliminarli, rispondervi, reagire o fissarli finché non sono irrisolti.
+
+Puoi utilizzare un filtro per visualizzare i thread risolti nella scheda Aggiornamenti.
+
+Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Linee guida per lo stato non disponibili
 
