@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # Esempi di logica avanzata nei moduli personalizzati
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 L’utente visualizza gli errori di convalida se non seleziona il numero corretto di opzioni.
 
 ![Esempi di errore di convalida](assets/min-max-selections.png)
+
+### Formula per attivare la convalida solo quando il campo è visibile
+
+La logica di convalida viene sempre controllata, anche se il campo non viene visualizzato. Se un utente interagisce con un campo contenente la logica di convalida e il campo viene successivamente nascosto dalla logica di visualizzazione, si verifica l’errore di convalida, anche se il valore del campo è stato cancellato prima che fosse nascosto.
+
+Soluzione alternativa: utilizza la stessa condizione della regola di visualizzazione nella formula di convalida per garantire che la convalida venga attivata solo quando il campo è visibile.
+
+Ad esempio, sono disponibili due campi, A e B.
+Il campo B ha una regola di visualizzazione che lo rende visibile solo quando il valore del campo A è `"show"`.
+
+Il campo B contiene anche la seguente formula di convalida:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+Per convalidare il campo B solo quando è visibile, è possibile includere la condizione di visualizzazione nella formula di convalida:
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+In questo modo, l&#39;errore di convalida verrà visualizzato solo quando il campo A è impostato su `"show"` e le altre condizioni di convalida sono soddisfatte.
+

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1620'
 ht-degree: 0%
 ---
 # Attività della versione del primo trimestre 2027 per Adobe Workfront Planning
@@ -33,10 +33,9 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 >[!NOTE]
 >
->Anteprima: 12 novembre 2026
->Versione rapida di produzione: 12 novembre 2026
->Produzione per tutti: 12 novembre 2026
->[!BADGE Versione simultanea]{type=Neutral}
+>Rilascio rapido di produzione e sandbox: 12 novembre 2026
+>Produzione, Anteprima, Sandbox per tutti: presto disponibili
+>[!BADGE Fuori pianificazione]{type=Neutral}
 
 >[!NOTE]
 >

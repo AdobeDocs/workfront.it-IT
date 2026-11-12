@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 
@@ -57,12 +57,12 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Promozione dell'ambiente disponibile per Workfront Planning</a></p>
-                <p>[!BADGE Versione concorrente]{type=Neutral}</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Gli amministratori di Workfront possono ora promuovere le aree di lavoro di Workfront Planning e i relativi oggetti da un ambiente all'altro.</p>
             </td>
+            <td><p>Prossimamente</p></td>
             <td><p>12 novembre 2026</p></td>
-            <td><p>12 novembre 2026</p></td>
-            <td><p>12 novembre 2026</p></td>
+            <td><p>Prossimamente</p></td>
         </tr>
         <tr>
             <td>
@@ -415,6 +415,11 @@ Nel tempo, abbiamo introdotto funzionalità avanzate di gestione dei tassi e esp
 
 Con la versione di gennaio 2027, i campi legacy **Fatturazione all&#39;ora** e **Costo all&#39;ora** non saranno più disponibili nell&#39;API di Workfront o nelle visualizzazioni elenco Ruoli, incluse le configurazioni Filtro/Visualizzazione/Raggruppamento (sia riferimenti diretti che colonne calcolate in modalità testo).
 
+Anche se questi campi sono ancora disponibili fino a gennaio, potrebbero non funzionare correttamente. Gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro in modo da utilizzare le esperienze di gestione delle tariffe consigliate per gestire e rivedere le percentuali dei ruoli:
+
+* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
+* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
+
 In sostituzione nei report, è possibile utilizzare il codice della modalità testo consigliato (utilizzare `costRates` o `billingRates` in base alle esigenze):
 
     &quot;
@@ -425,13 +430,6 @@ In sostituzione nei report, è possibile utilizzare il codice della modalità te
     valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
     valueformat=HTML
     &quot;
-
-Per gestire e rivedere i tassi di ruolo, utilizza le esperienze di gestione dei tassi dedicate:
-
-* Accedere e gestire le tariffe dei ruoli direttamente dalla pagina Ruolo > Tariffe.
-* Utilizzare i rapporti Tasso per esaminare, analizzare e creare rapporti sulle informazioni relative ai tassi tra le mansioni.
-
-Non è richiesta alcuna azione per prepararsi alla modifica. Tuttavia, gli amministratori che attualmente visualizzano i campi **Fatturazione all&#39;ora** e **Costo all&#39;ora** nelle visualizzazioni elenco Ruolo devono aggiornare i propri flussi di lavoro per utilizzare le esperienze di gestione delle tariffe consigliate descritte in precedenza.
 
 Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
