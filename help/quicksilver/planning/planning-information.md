@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 72%
-
+source-wordcount: '796'
+ht-degree: 66%
 ---
-
 # Indice articolo e informazioni generali per Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
@@ -111,8 +109,8 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 * [Notifiche: indice degli articoli](/help/quicksilver/planning/notifications/notifications-information.md) contiene le seguenti informazioni:
 
   * Gestire le preferenze di notifica
-  * Pianificare le notifiche in-app
-  * Pianificare le notifiche e-mail
+  * Notifiche in-app di Pianificazione
+  * Notifiche e-mail di Pianificazione
 
 ## Funzionalità aggiuntive disponibili per Workfront Planning
 
@@ -128,7 +126,7 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 
 * [Integrazione di Adobe Workfront Planning e Adobe GenStudio for Performance Marketing: indice articolo](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): è possibile gestire i record da GenStudio for Performance Marketing nell&#39;area di lavoro di GenStudio in Workfront Planning.
 
-* **Funzionalità di reporting di Workfront Planning**: è possibile visualizzare le informazioni di Workfront Planning in un report utilizzando il dashboard di Workfront Canvas oppure in Workfront Data Connect che utilizza la tecnologia Snowflake. Per informazioni, vedere [Rapporti di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
+* **Funzionalità di reporting di Workfront Planning**: è possibile visualizzare le informazioni di Workfront Planning in un rapporto utilizzando il dashboard di Workfront Canvas oppure in Workfront Data Connect che utilizza la tecnologia Snowflake. Per informazioni, vedere [Rapporti di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
 * [Best practice di Adobe Workfront Planning: indice dell&#39;articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): scopri suggerimenti su come implementare Adobe Workfront Planning nella tua organizzazione utilizzando una strategia che dia priorità alla sicurezza, riduca al minimo le interruzioni e offra risultati rapidi.
 
@@ -143,3 +141,11 @@ Per un elenco aggiornato delle funzionalità rilasciate, consulta [Attività sul
 ## Workfront Planning come prodotto standalone
 
 I clienti possono acquistare Workfront Planning senza una licenza Workflow. Per informazioni, vedere [Introduzione ad Adobe Workfront Planning come prodotto autonomo](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+
+## Workfront Planning and Ideation space (Beta)
+
+Lo spazio di ideazione strategica di Adobe è la funzionalità di ideazione strategica basata sull’intelligenza artificiale di Adobe, integrata direttamente in Workfront Planning. Offre ai team di marketing un punto di partenza strutturato e informato sui dati per la strategia delle campagne, sostituendo la ricerca manuale e le ipotesi con descrizioni generate dall’intelligenza artificiale basate sulla reale cronologia delle prestazioni di un’organizzazione.
+
+Questa funzionalità è attualmente disponibile come programma beta.
+
+Per ulteriori informazioni, vedere [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).

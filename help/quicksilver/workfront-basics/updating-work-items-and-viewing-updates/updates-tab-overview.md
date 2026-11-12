@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1409'
 ht-degree: 3%
 ---
 # Panoramica sulla sezione Aggiornamenti
@@ -154,7 +154,7 @@ La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
   Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+  <span class="preview">La scheda **Commenti** include un filtro che nasconde o visualizza i commenti risolti. Per ulteriori informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>
 
 * **Attività di sistema**: visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tutti (sola lettura)**: visualizza i commenti degli utenti e quelli delle attività di sistema in un&#39;unica posizione. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
