@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 3%
 ---
 
@@ -387,10 +387,28 @@ Fabbisogno prodotto: Workfront Workflow o Workfront Planning.
 
 Requisito del prodotto: Tutti i clienti
 
-Gli strumenti di reporting ti consentono di creare e gestire dashboard di Canvas tramite chat. Descrivi il rapporto desiderato in linguaggio semplice e la piattaforma di gestione dell’intelligenza artificiale crea la dashboard e i widget necessari per utilizzare i dati di Workfront.
+### Bacheche
+
+| Titolo | Nome strumento | Funzionamento | Azione |
+| --- | --- | --- | --- |
+| Scarica bacheca | `boards_get_board` | Recupera i dati della bacheca a diversi livelli di dettaglio. | Leggi |
+| Ottieni scheda | `boards_get_card` | Recupera una singola scheda per ID bacheca e ID scheda. | Leggi |
+| Crea scheda | `boards_create_card` | Crea una nuova scheda su una bacheca in una determinata colonna. | Scrittura |
+| Aggiorna scheda | `boards_update_card` | Aggiorna una scheda, inclusi campi scalari, spostamenti, stato dell’archivio, tag, membri o disconnessione da Workfront. | Scrittura |
+| Collega scheda | `boards_connect_card` | Crea un&#39;attività o un problema Workfront e lo collega a una scheda. | Scrittura |
+| Crea tag bacheca | `boards_create_board_tag` | Crea un nuovo tag nel catalogo tag di una bacheca. | Scrittura |
+| Crea voce elenco di controllo | `boards_create_checklist_item` | Aggiunge una voce di elenco di controllo o una sottoattività a una scheda. | Scrittura |
+| Aggiorna voce elenco di controllo | `boards_update_checklist_item` | Aggiorna il nome, la descrizione, la data di scadenza, lo stato o la stima di una voce dell&#39;elenco di controllo. | Scrittura |
+| Elimina voce elenco di controllo | `boards_delete_checklist_item` | Elimina una voce dell&#39;elenco di controllo dalla relativa scheda padre. | Scrittura |
+| Crea colonna | `boards_create_column` | Aggiunge una nuova colonna semplice a una bacheca. | Scrittura |
+| Aggiorna colonna | `boards_update_column` | Rinomina una colonna della bacheca. | Scrittura |
+| Elimina colonna | `boards_delete_column` | Elimina una colonna della bacheca, spostando prima le schede se necessario. | Scrittura |
+| Crea bacheca | `boards_create_board` | Crea una nuova scheda di base, facoltativamente all’interno di un’area di lavoro. | Scrittura |
 
 
 ### Dashboard dell’area di lavoro
+
+Gli strumenti delle dashboard di Canvas consentono di creare e gestire dashboard di Canvas tramite chat. Descrivi il rapporto desiderato in linguaggio semplice e la piattaforma di gestione dell’intelligenza artificiale crea la dashboard e i widget necessari per utilizzare i dati di Workfront.
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Il server MCP di Workfront tiene traccia delle intenzioni degli utenti per i cli
 Gli utenti possono disattivare la raccolta di telemetria contattando l’assistenza clienti per inoltrare una richiesta.
 
 
-## Strumenti aggiuntivi disponibili a breve
-
-Stiamo lavorando per aggiungere in futuro i seguenti strumenti al server Workfront MCP:
-
-* Bacheche
