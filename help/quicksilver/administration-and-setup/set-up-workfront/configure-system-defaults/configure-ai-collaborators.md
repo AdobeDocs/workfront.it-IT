@@ -289,7 +289,7 @@ Dopo aver salvato il coordinatore del progetto, aggiungi il campo **Coordinatore
 
 Per istruzioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-Per ulteriori informazioni sul coordinatore del progetto, incluso come assegnarlo ai progetti, vedere [Utilizzare il coordinatore del progetto ](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+Per ulteriori informazioni sul coordinatore del progetto, incluso come assegnarlo ai progetti, vedere [Utilizzare il coordinatore del progetto &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 </div>
 
