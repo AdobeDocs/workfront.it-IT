@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2125'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -233,6 +233,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >
    >Non è possibile aggiungere file direttamente alla descrizione. Devi prima trasferire le informazioni del file alle schede che puoi inviare alla descrizione.
 
+1. (Facoltativo) Fai clic sull&#39;icona **Chat** ![Chat](assets/chats-icon-coworker.png) nell&#39;angolo superiore destro del pannello Collaboratore, quindi fai clic su **Nuova chat** per aprire un nuovo prompt o su una delle chat precedenti nell&#39;elenco per tornare a una precedente.
+
+   Per informazioni dettagliate sulle chat, consulta [Gestire le chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) nella documentazione di Adobe CX Enterprise Coworker.
 
 1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare gli elementi nell&#39;area di lavoro di ideazione, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale area.
 

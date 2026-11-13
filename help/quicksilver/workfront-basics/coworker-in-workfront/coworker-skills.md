@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # Competenze Workfront in CX Enterprise Coworker
 
@@ -59,19 +59,27 @@ Questa abilità consente di eseguire query e gestire oggetti di Workfront Planni
 * Record
 * Regole di business
 
-<!--
+### Abilità per lo spazio delle idee (beta)
 
-### Ideation space skills
+>[!NOTE]
+>
+>Lo spazio per le idee è attualmente disponibile in versione beta come funzionalità aggiuntiva di Workfront Planning.
+>
+>Per ulteriori informazioni sullo spazio ideazione, vedere [Introduzione allo spazio ideazione per Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+Ideation space è la funzionalità di ideazione strategica basata sull’intelligenza artificiale di Adobe, integrata direttamente in Workfront Planning. Offre ai team di marketing un punto di partenza strutturato e informato sui dati per la strategia delle campagne, sostituendo la ricerca manuale e le ipotesi con descrizioni generate dall’intelligenza artificiale basate sulla reale cronologia delle prestazioni di un’organizzazione.
 
-* Thing 1
-* Thing 2
-* Other thing
+Coworker dispone di diverse competenze per lavorare con lo spazio di ideazione di Workfront Planning. Si tratta di azioni quali:
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* Ideazione di una campagna: crea brainstorming e genera schede di idee sull’area di lavoro per campagne e altri argomenti, utilizzando i documenti di origine allegati e altre origini. Questo è il punto di partenza principale per l&#39;ideazione.
+* Conversazione campagna: elaborare le idee della campagna in modo conversazionale nell’app di Ideation Space.
+* Descrizione della campagna: crea e perfeziona un documento di campagna strutturato, con protezioni per mantenerlo completo e sulla buona strada.
+* Domande e risposte sui documenti: domande relative ai documenti allegati alla sessione di ideazione.
+* Ricerca: inserisci la ricerca per informare la tua idea sulle tele.
+* Richieste iniziali: vengono visualizzate richieste suggerite per avviare o espandere l&#39;ideazione.
+* Apri area di lavoro: avvia o salta in un’area di lavoro di Ideation Space (utilizzata quando si inizia da una chat regolare esterna all’app).
 
 ## Competenze Workfront
 
