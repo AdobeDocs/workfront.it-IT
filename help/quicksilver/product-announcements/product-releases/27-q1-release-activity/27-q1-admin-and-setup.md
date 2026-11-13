@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 3%
 ---
 
@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >[!NOTE]
 >
 >Rilascio rapido di produzione e sandbox: 12 novembre 2026
->Produzione, Anteprima, Sandbox per tutti: presto disponibili
+>Produzione, Anteprima, Sandbox per tutti: 17 dicembre 2026
 >[!BADGE Fuori pianificazione]{type=Neutral}
 
 >[!NOTE]
