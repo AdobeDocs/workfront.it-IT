@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 2%
 ---
 # Collaboratori IA
@@ -27,9 +27,7 @@ ht-degree: 2%
 
 I collaboratori IA sono agenti di IA che puoi assegnare alle attività nello stesso modo in cui assegneresti una persona. Puoi inserire i collaboratori IA nei flussi di lavoro esistenti, consentendo al team di concentrarsi su ciò che conta di più.
 
-I tipi di Collaboratore IA disponibili includono Revisore IA e Agenti di lavoro.<!--<span class="preview">and Project Coordinators.</span>-->
-
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+I tipi di Collaboratore IA disponibili includono Revisore IA, Agenti di lavoro<span class="preview"> e Coordinatori progetto</span>.
 
 Per gli agenti di lavoro, è possibile connettere un agente da una piattaforma esterna supportata <span class="preview"> oppure, se nell&#39;organizzazione è abilitato Adobe CX Coworker, selezionare Adobe Native per utilizzare un agente pronto all&#39;uso basato su Adobe CX Coworker. L&#39;opzione nativa di Adobe non richiede credenziali di piattaforma esterna.</span>
 
