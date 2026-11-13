@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 12%
-
+source-wordcount: '729'
+ht-degree: 11%
 ---
-
 # Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ Quando tutti nella tua organizzazione hanno i loro obiettivi allineati agli obie
 
 Esistono due approcci per connettere gli obiettivi in Obiettivi di Adobe Workfront:
 
-* Puoi creare l’allineamento tra gli obiettivi collegandoli tra loro.
+* Puoi creare l’allineamento tra gli obiettivi collegandoli tra loro. Questo articolo descrive questo approccio.
 
-* Puoi allineare manualmente due obiettivi oppure convertire i risultati e le attività di un obiettivo esistente in un altro obiettivo. Il risultato o l’attività convertiti diventano l’obiettivo secondario dell’obiettivo originale.
+* Puoi anche allineare due obiettivi convertendo i risultati e le attività di un obiettivo esistente in un altro obiettivo. Il risultato o l’attività convertiti diventano l’obiettivo secondario dell’obiettivo originale.
+
+  Per informazioni sull&#39;allineamento degli obiettivi tramite la conversione dei risultati e delle attività in obiettivi, vedere [Allineare gli obiettivi tramite la conversione dei risultati e delle attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >Un obiettivo può avere un totale di 1000 indicatori di progresso.
 
-Questo articolo descrive come allineare gli obiettivi collegandoli tra loro. Per informazioni sull&#39;allineamento degli obiettivi tramite la conversione dei risultati e delle attività in obiettivi, vedere [Allineare gli obiettivi tramite la conversione dei risultati e delle attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Requisiti di accesso
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    L’obiettivo con cui hai iniziato (Obiettivo 2) ora è l’obiettivo secondario dell’obiettivo principale con cui l’hai allineato (Obiettivo 1).\
    Gli obiettivi allineati vengono visualizzati connessi nella sezione Allineamento obiettivo con l’Obiettivo 2 secondario all’Obiettivo 1.
-L’obiettivo secondario viene visualizzato nella sezione Indicatori di avanzamento dell’obiettivo principale mentre il suo avanzamento aggiorna l’avanzamento dell’obiettivo principale.
+   L’obiettivo secondario viene visualizzato nella sezione Indicatori di avanzamento dell’obiettivo principale mentre il suo avanzamento aggiorna l’avanzamento dell’obiettivo principale.
 
    ![Schede allineate](assets/goal-1-and-2-aligned-cards-350x427.png)
 
