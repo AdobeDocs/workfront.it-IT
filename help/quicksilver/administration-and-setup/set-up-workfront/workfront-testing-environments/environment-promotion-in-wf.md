@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 3%
 ---
 # Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)
@@ -64,9 +64,8 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 * [Oggetti dati personalizzati](#custom-data-objects)
 * [Oggetti organizzazione](#organization-objects)
 * [Altri oggetti di configurazione](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Oggetti di Workfront Planning](#workfront-planning-objects)
+
 
 ### Oggetti di lavoro
 
@@ -139,25 +138,24 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Oggetti di Workfront Planning
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Gli oggetti di Workfront Planning sono disponibili solo per i clienti che hanno acquistato un pacchetto di Planning oltre a un pacchetto di Workfront.
+>
+>La promozione dell&#39;ambiente non è disponibile per i clienti che hanno acquistato Workfront Planning come prodotto standalone.
 
-| Promotable object | Included promotable linked objects |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Aree di lavoro | Sezioni Workspace |
+| Tipi di record | Tipi di record connessi* <br> Campi <br> Visualizzazioni <br> Gerarchie <br> Moduli di richiesta |
+| Condivisione per tutti gli oggetti | Gruppi <br> Team <br> Ruoli <br> Utenti <br>Aziende |
 
+*Solo i tipi di record collegati che appartengono ai workspace importati verranno trasferiti nell&#39;ambiente di destinazione.
+
+Per informazioni, vedere [Utilizzare la promozione ambiente per Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Stati di promozione dell’ambiente
 

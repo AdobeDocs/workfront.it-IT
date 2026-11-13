@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 27%
+source-wordcount: '145'
+ht-degree: 26%
 ---
 # Ambienti di test di [!DNL Adobe Workfront]
 
@@ -54,3 +54,4 @@ Questa sezione contiene articoli per gli ambienti e le funzionalità seguenti:
 * [Sposta gli oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API di promozione dell&#39;ambiente [!DNL Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [Domande frequenti sulla promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [Risoluzione dei problemi di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* [Utilizzare la promozione dell&#39;ambiente per Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md)

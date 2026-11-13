@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # Suggerimenti e best practice per CX Enterprise Coworker
@@ -355,7 +355,7 @@ Consulta gli esempi di prompt per le approvazioni di documenti e risorse nelle s
 * È possibile visualizzare chi ha modificato questo progetto e cosa è cambiato?
 * Devo visualizzare tutti gli aggiornamenti apportati a questo record nell’ultima settimana
 
-### Utilizzare System Designer in Workfront Planning
+### Utilizzare Planning Designer in Workfront Planning
 
 * [Creare e configurare le aree di lavoro](#create-and-configure-workspaces)
 * [Definire i tipi di record](#define-record-types)
@@ -386,3 +386,15 @@ Consulta gli esempi di prompt per le approvazioni di documenti e risorse nelle s
 * Crea una vista timeline in Planning per visualizzare la pianificazione della campagna in base alle date di inizio e fine
 * Aggiungi una nuova vista tabella alle mie iniziative Planning che filtra solo lo stato attivo
 * Duplicare la vista di Planning Active Campaigns e modificare l&#39;ordinamento.
+
+### Collaboratore nello spazio ideazione per Workfront Planning (beta)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Ideazione di una campagna: crea brainstorming e genera schede di idee sull’area di lavoro per campagne e altri argomenti, utilizzando i documenti di origine allegati e altre origini. Questo è il punto di partenza principale per l&#39;ideazione.
+* Conversazione campagna: elaborare le idee della campagna in modo conversazionale nell’app di Ideation Space.
+* Descrizione della campagna: crea e perfeziona un documento di campagna strutturato, con protezioni per mantenerlo completo e sulla buona strada.
+* Domande e risposte sui documenti: domande relative ai documenti allegati alla sessione di ideazione.
+* Ricerca: inserisci la ricerca per informare la tua idea sulle tele.
+* Richieste iniziali: vengono visualizzate richieste suggerite per avviare o espandere l&#39;ideazione.
+* Apri area di lavoro: avvia o salta in un’area di lavoro di Ideation Space (utilizzata quando si inizia da una chat regolare esterna all’app).
