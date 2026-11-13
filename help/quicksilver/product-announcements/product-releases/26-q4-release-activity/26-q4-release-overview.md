@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3665'
 ht-degree: 7%
 ---
 # Panoramica sulla versione del quarto trimestre 2026
@@ -264,17 +264,15 @@ I webinar live vengono tenuti per ogni versione trimestrale; evidenziano le nuov
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
-<!--        
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
-                <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Nuovo tipo di collaboratore AI: Coordinatori progetto</a>
+                <p>I coordinatori dei progetti possono monitorare lo stato del progetto e inviare aggiornamenti giornalieri o settimanali senza richiedere una configurazione dell’agente personalizzata separata.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>29 ottobre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
         </tr>
--->        
        <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Set di strumenti del server Workfront MCP</a></p>

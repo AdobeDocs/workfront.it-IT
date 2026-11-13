@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 12%
 ---
 # Creare e modificare i livelli di accesso personalizzati
@@ -250,19 +250,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta 
       <td role="rowheader">Consenti agli utenti di accedere a Brand</td> 
       <td>Consente agli utenti di accedere e gestire i Marchi GenStudio in Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Concedere l'accesso alle autorizzazioni del brand</a>.</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">Disabilita spazio di ideazione</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>Seleziona questa impostazione per consentire agli utenti di accedere allo spazio ideazione.</p> 
+      <p>Questa opzione è selezionata per impostazione predefinita.</p>
+      <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Introduzione allo spazio ideazione per Adobe Workfront Planning </a>.</p>
+      <p><b>NOTA:</b></p>
+      <p>Lo spazio per le idee è disponibile in Beta solo per i clienti che dispongono anche di un pacchetto Workfront Planning.</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 

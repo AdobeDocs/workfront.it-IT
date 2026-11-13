@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
 # Programma beta per la funzionalità delle organizzazioni collegate
@@ -224,11 +224,13 @@ In qualità di utente nell’istanza del client, invia una richiesta effettuando
 
    Viene visualizzato un messaggio di **richiesta inviata correttamente** con un collegamento **Visualizza la richiesta**.
 
-   La nuova richiesta viene aggiunta all&#39;elenco di richieste con il nome del modulo e lo stato **Nuovo**.
+   La nuova richiesta viene aggiunta all&#39;elenco di richieste con il nome del modulo e lo stato **Nuovo** sia nell&#39;istanza del client che in quella del provider.
 
    >[!TIP]
    >
    >Le risposte di IA possono essere imprecise. Controllare sempre i valori compilati prima di inviare.
+
+   La richiesta creata è di sola lettura nell’istanza del provider.
 
 ### &#x200B;5. Rivedi la richiesta e crea un progetto
 
@@ -250,7 +252,7 @@ Il **Type** della richiesta è contrassegnato come **External: &lt; nome dell&#3
    * **Portfolio** e **Programma**: aggiungi portfolio o programmi per il nuovo progetto.
 1. Fai clic su **Crea**.
 
-   La richiesta nell&#39;istanza del provider ora è collegata al nuovo progetto e lo stato della richiesta cambia in **In corso**. L’istanza richiedente del cliente vede la modifica dello stato sulla propria copia della richiesta.
+   La richiesta nell&#39;istanza del provider ora è collegata al nuovo progetto e lo stato della richiesta cambia in **In corso**, se lo stato del progetto è Corrente. L’istanza richiedente del cliente vede la modifica dello stato sulla propria copia della richiesta.
 
 ### &#x200B;6. Collaborare alla conversazione tra aziende
 
