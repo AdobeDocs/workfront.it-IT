@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 13%
+source-wordcount: '197'
+ht-degree: 14%
 ---
 # Modelli di layout: indice articolo
 
@@ -40,7 +40,6 @@ Interfaccia Workfront per i tuoi utenti.
 Gli articoli seguenti descrivono come personalizzare l’interfaccia di Workfront utilizzando i modelli di layout:
 
 * [Informazioni sul layout predefinito di Adobe Workfront](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Brand Adobe Workfront utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personalizzare le intestazioni degli oggetti con un modello layout](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Personalizzare il pannello sinistro utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)

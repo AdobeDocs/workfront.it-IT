@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 3%
 ---
 # 20.3 - Altri miglioramenti
@@ -129,7 +129,7 @@ Per rendere più gestibile l’iscrizione degli utenti alla nuova esperienza Wor
 
 Ora è possibile utilizzare un modello di layout per modificare i loghi nell’area di navigazione superiore e nel menu principale per gruppi, team, mansioni e utenti specifici che dispongono di un proprio marchio.
 
-Per ulteriori informazioni, consulta [Personalizza l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Gli amministratori di gruppi possono creare e gestire i processi di approvazione
 
