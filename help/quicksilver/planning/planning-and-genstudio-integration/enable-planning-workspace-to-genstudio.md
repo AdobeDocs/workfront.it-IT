@@ -1,6 +1,6 @@
 ---
 title: Abilitare un Workspace di Workfront Planning in GenStudio for Performance Marketing
-description: Se in Adobe Workfront Planning è già disponibile un'area di lavoro, è possibile abilitarla per GenStudio for Performance Marketing anziché ricreare i dati.
+description: È possibile rendere disponibile un'area di lavoro di Adobe Workfront Planning in GenStudio for Performance Marketing quando si ha accesso a entrambe le applicazioni.
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0747fb80-496f-41c0-b469-1203e1605f05
@@ -13,10 +13,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 9dc53e749a61247529d67ce077856ea6bea8e494
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 2%
+source-wordcount: '743'
+ht-degree: 4%
 ---
 # Abilitare un&#39;area di lavoro di Workfront Planning in GenStudio for Performance Marketing
 
@@ -24,29 +24,113 @@ ht-degree: 2%
 
 <!-- THIS IS HIDDEN FROM TOC-->
 
-<!--
-Better metadata, at publishing:
----
-title: Promote a Workfront Planning workspace to GenStudio
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can promote a Workfront Planning workspace to GenStudio and have its information visible and updated from both systems.
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
--->
-Oltre a Workfront Planning, se la tua azienda ha acquistato anche Adobe GenStudio for Performance Marketing, l’area di lavoro GenStudio è disponibile in Adobe Workfront Planning quando l’istanza di Workfront viene integrata con l’istanza di GenStudio della tua azienda.
+<!--Iskuhi said "ACPC projects" will be renamed when this will be released but not sure if it has been. Follow up with Syuzanna, Gurgen Mosesyan and possibly Himanshi Kumar - see slack threads -->
 
-Se si dispone già di un&#39;area di lavoro in Workfront Planning, è possibile abilitarla per GenStudio anziché ricreare i dati.
+Quando la tua azienda acquista anche Adobe GenStudio for Performance Marketing e sei un cliente Adobe Workfront Planning, l’area di lavoro GenStudio è disponibile anche in Workfront Planning.
 
-L’abilitazione di un’area di lavoro la collega a un progetto di archiviazione Adobe e ne mappa i tipi di record e i campi sullo schema dell’area di lavoro GenStudio. Dopo aver completato la configurazione, puoi aprire i record dell’area di lavoro in GenStudio.
+Se si dispone già di un&#39;area di lavoro Planning in Workfront Planning, è possibile abilitarla per GenStudio for Performance Marketing anziché ricrearne gli stessi dati in GenStudio.
 
-Considera i seguenti aspetti:
+L’abilitazione di un’area di lavoro la collega a un progetto Adobe Could Storage e ne mappa i tipi di record e i campi nell’area di lavoro GenStudio. Dopo aver completato la configurazione, puoi aprire i record dell’area di lavoro in GenStudio.
 
-* È necessario avere accesso sia a Workfront Planning che a GenStudio for Performance Marketing.
-* Per collegarti all’area di lavoro, devi disporre di un progetto di archiviazione cloud Adobe. L’amministratore dell’organizzazione può crearne una in Adobe Admin Console.
+Devi avere i seguenti:
 
-  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/it/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+* Accesso a Workfront Planning e GenStudio for Performance Marketing.
+* Un progetto Adobe Cloud Storage per il collegamento all’area di lavoro. L’amministratore dell’organizzazione può crearne una in Adobe Admin Console.
 
+  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> 
+<p>Qualsiasi Workfront o flusso di lavoro e qualsiasi pacchetto Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto Planning acquistato come prodotto standalone</p>
+
+</td> 
+   <tr> 
+<td> 
+   <p> Prodotti aggiuntivi</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+
+<tr> 
+<td> 
+   <p> Impostazioni Adobe Admin Console</p> </td> 
+   <td> 
+   <p> Devi creare progetti Adobe Storage Cloud in Adobe Admin Console </p>
+
+<p>Per informazioni, vedere <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Gestione progetti</a>
+
+</td> 
+  </tr>
+  <tr>
+
+<tr> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
+   <td><p>Standard flusso di lavoro</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Planning</p></td> 
+   <td><p>Standard di pianificazione</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso di Adobe Workfront</p></td> 
+   <td> <p>È necessario aggiungere sia un flusso di lavoro che un tipo di licenza Planning al livello di accesso a Workfront quando si dispone sia di un flusso di lavoro che di un pacchetto Planning</p>   
+</td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
+   <td><p><ul><li>Qualsiasi ruolo utente di GenStudio se devi accedere a Campagne, Prodotti e Utenti tipo</li>
+   <li>GenSudio System Manager se è necessario accedere ad Activations <!--and Events--></li></ul>
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Gestire le autorizzazioni per l’area di lavoro <!--to add new fields or record types to the GenStudio workspace--></p></li>
+   <!--
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   -->
+   </ul>
+   <!--
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   -->
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <!--
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   -->
+   <li><p> Creare le autorizzazioni in Adobe GenStudio for Performance Marketing per creare elementi</p></li></ul>
+   </td>  
+</tbody> 
+</table>
+
+Per informazioni sull&#39;accesso ad Adobe Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
+Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consulta [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home).
+
++++ 
 
 ## Abilitare un&#39;area di lavoro di Workfront Planning in GenStudio
 
@@ -55,7 +139,7 @@ Considera i seguenti aspetti:
 
    La casella **Imposta come area di lavoro GenStudio** abilitata si apre con i seguenti passaggi:
 
-   1. **Progetto ACPC**: seleziona il **Progetto ACPC** (progetto di archiviazione cloud Adobe) da sincronizzare con questa area di lavoro, quindi fai clic su **Avanti**. Gli utenti accedono all’area di lavoro in GenStudio tramite questo progetto.
+   1. **Progetto ACPC**: seleziona il **Progetto ACPC** (progetto Adobe Cloud Storage) che desideri sincronizzare con questa area di lavoro, quindi fai clic su **Avanti**. Gli utenti accedono all’area di lavoro in GenStudio tramite questo progetto.
 
       ![Abilita il GenStudio dell&#39;area di lavoro - Passaggio del progetto ACPC](assets/make-workspace-genstudio-enabled-box-acpc-step.png)
 
@@ -72,7 +156,7 @@ Considera i seguenti aspetti:
 
       ![Abilita GenStudio area di lavoro - Tipi di record, passaggio](assets/make-workspace-genstudio-enabled-box-record-types-step.png)
 
-   1. **Campi**: mappa i campi per ogni tipo di record. Utilizzare le schede nella parte superiore della finestra di dialogo per spostarsi tra i tipi di record. Per ogni campo, selezionare il campo Planning corrispondente oppure selezionare **Aggiungi nuovo** per crearlo.
+   1. **Campi**: mappa i campi per ogni tipo di record. Utilizzare le schede nella parte superiore della finestra di dialogo per spostarsi tra i tipi di record. Per ogni campo, selezionare il campo Planning corrispondente oppure selezionare **Aggiungi nuovo** per creare un campo.
 
       Ripetere l&#39;impostazione del campo per tutti i tipi di record.
 
@@ -96,4 +180,4 @@ Considera i seguenti aspetti:
 
    >[!TIP]
    >
-   >Puoi visualizzare solo i record consentiti dall’iscrizione al progetto ACPC.
+   >Puoi visualizzare solo i record consentiti dall’iscrizione al progetto Adobe Cloud Storage.
