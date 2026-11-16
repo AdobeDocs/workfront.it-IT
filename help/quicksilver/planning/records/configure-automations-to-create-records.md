@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2454'
 ht-degree: 4%
 ---
 # Configurare le automazioni di Pianificazione di Adobe Workfront
@@ -237,9 +237,10 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
    * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo è un campo obbligatorio.
      Selezionare una delle azioni seguenti:
 
-     * Creazione di più progetti
+     * Creare un progetto con un flusso di lavoro AEM
      * Crea un progetto singolo
-     * Crea progetto
+     * Creazione di più progetti
+     * Creazione di più record
      * Crea record
      * Crea programma
      * Crea portfolio
@@ -250,6 +251,12 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
      >Dopo aver salvato l’automazione, non puoi più modificare l’azione selezionata in questo campo.
 
 1. (Condizionale) A seconda dell’azione selezionata, aggiorna i campi seguenti:
+
+   * **Crea un progetto con un flusso di lavoro AEM**:
+     * **Campo connesso in cui viene creato il progetto**: campo connesso in cui verrà visualizzato il nuovo progetto. Questo è un campo obbligatorio.
+     * **Modello di progetto**: selezionare un modello di progetto che verrà utilizzato da Workfront per creare il progetto.
+     * **Crea cartelle collegate**: abilita questa opzione se desideri creare cartelle collegate per il progetto.
+
 
    * **Crea un singolo progetto**: <!--replace to the left: Create a single project-->
      * **Campo connesso in cui viene creato il progetto**: campo connesso in cui verrà visualizzato il nuovo progetto. Questo è un campo obbligatorio.
@@ -284,9 +291,38 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
 
        * **Campo nel tipo di record connesso in cui verrà visualizzato il record corrente**: questo è il campo connesso nel tipo di record selezionato per l&#39;azione in cui verrà visualizzato il record corrente.
 
-       Ad esempio, se stai creando un’automazione da cui le campagne devono collegare i record di prodotto, questo è il campo connesso nel tipo di record Prodotto da cui verranno visualizzate le campagne, dopo che i prodotti sono stati creati utilizzando l’automazione.
+         Ad esempio, se stai creando un’automazione da cui le campagne devono collegare i record di prodotto, questo è il campo connesso nel tipo di record Prodotto da cui verranno visualizzate le campagne, dopo che i prodotti sono stati creati utilizzando l’automazione.
 
-       Questo è un campo obbligatorio.
+         Questo è un campo obbligatorio.
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Nell&#39;area **Mappa campi**, aggiorna le seguenti informazioni:
+
+       * **Trasferisci da**: seleziona i campi dal tipo di record per il quale viene creata l&#39;automazione per eseguirne il mapping ai campi del tipo di record connesso.
+       * **Trasferisci a**: seleziona dal nuovo record appena creato i campi che verranno compilati con le informazioni del record da cui stai eseguendo l&#39;automazione.
+
+       >[!TIP]
+       >
+       >* I tipi di campo del tipo di record originale devono corrispondere ai tipi di campo del nuovo tipo di record creato.
+       >* Se non si sceglie alcun campo, i nomi dei nuovi record saranno **Record senza titolo**.
+
+
+   * **Crea più record**:
+     * **Tipo di record**: selezionare il tipo di record da creare.
+
+       Viene visualizzata la sottosezione **Settings**. Aggiorna i campi seguenti nella sottosezione **Impostazioni**:
+
+       * **Campo nel tipo di record connesso in cui verrà visualizzato il record corrente**: questo è il campo connesso nel tipo di record selezionato per l&#39;azione in cui verrà visualizzato il record corrente.
+
+         Ad esempio, se stai creando un’automazione da cui le campagne devono collegare i record di prodotto, questo è il campo connesso nel tipo di record Prodotto da cui verranno visualizzate le campagne, dopo che i prodotti sono stati creati utilizzando l’automazione.
+
+         Questo è un campo obbligatorio.
+
+       * **Campo le cui scelte creeranno nuovi record:**
+
+         Campo da cui verranno creati i nuovi record.
+
+         Ad esempio, se un record di pianificazione include un campo che rappresenta tre aree, ad esempio Regno Unito, UE e Stati Uniti, quando si seleziona tale campo vengono creati tre nuovi record, uno per ogni opzione.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  Nell&#39;area **Mappa campi**, aggiorna le seguenti informazioni:
@@ -396,7 +432,7 @@ Per impostazione predefinita, gli utenti che fanno parte dell’area di lavoro n
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
