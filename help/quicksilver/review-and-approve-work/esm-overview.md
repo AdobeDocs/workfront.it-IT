@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 0%
 ---
 # Panoramica dell’archiviazione cloud Adobe
@@ -139,7 +139,13 @@ Per informazioni sull&#39;abilitazione dell&#39;archiviazione cloud Adobe nel tu
 
 L&#39;archiviazione cloud di Adobe è disponibile in [!DNL Workfront] ambienti sandbox, quindi puoi testarla prima di abilitarla in produzione. Tuttavia, il visualizzatore Frame.io non è disponibile in sandbox, pertanto l’esperienza completa di revisione e approvazione unificata deve essere convalidata in produzione.
 
-Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe per accedere alle funzionalità di archiviazione cloud di Adobe nella sandbox. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+>[!IMPORTANT]
+>
+>Quando una sandbox viene aggiornata dalla produzione, nessun dato di archiviazione cloud Adobe viene copiato nella sandbox. I progetti di archiviazione cloud Adobe, i relativi documenti e i dati associati non vengono inclusi nell’aggiornamento. Questo è il comportamento previsto ed è il risultato del modo in cui è progettata l’archiviazione cloud Adobe. I documenti e i progetti di archiviazione Workfront precedenti continuano a essere copiati nella sandbox come di consueto.
+>
+>Per testare l’archiviazione cloud di Adobe in una sandbox, crea nuovi progetti di archiviazione cloud di Adobe e carica i documenti direttamente in tale ambiente.
+
+Se disponi di una sandbox di aggiornamento personalizzata, devi aggiornarla dopo l’aggiornamento a una versione di Workfront che supporta l’archiviazione cloud di Adobe per accedere alle funzionalità di archiviazione cloud di Adobe nella sandbox. Per ulteriori informazioni, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considerazioni
 
