@@ -30,18 +30,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5690922c396a91f0fbf8cfa88e885f1e819aeae0
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 59%
 ---
 # Personalizzare Adobe Workfront
 
 Questa sezione contiene le seguenti sottosezioni:
 
-* [Personalizzazione del brand in Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [Modelli layout](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [Moduli personalizzati: indice degli articoli](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [Stati ed etichette di priorità](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [Processi di approvazione e percorsi milestone](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Condizioni personalizzate](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+Questa sezione sulla personalizzazione di Workfront contiene anche un articolo su come [configurare un URL della Guida personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md).
+
+>[!NOTE]
+>
+>Il branding non è disponibile per Adobe Workfront. Il branding è stato dichiarato obsoleto nell’ambito dell’onboarding di Workfront in Adobe CX Enterprise.

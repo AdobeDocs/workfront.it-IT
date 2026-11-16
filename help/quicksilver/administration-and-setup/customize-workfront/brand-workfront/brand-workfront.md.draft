@@ -1,14 +1,15 @@
 ---
-title: Marchio personalizzato in Adobe Workfront
+title: Custom Branding in Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: In qualità di amministratore di Workfront, puoi creare un URL guida personalizzato.
+description: As a Workfront administrator, you can create a custom help URL.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+hide: true
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
 TQID: 'https://experienceleague.adobe.com/HaZjvpx-gAvX36ofor17ihVVZCawLO2LHk3fnM76mDI'
 product_v2:
@@ -25,14 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
-workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 43%
 ---
-# Personalizzazione del brand in Adobe Workfront
+# Custom branding in Adobe Workfront
 
-Questa sezione contiene i seguenti articoli:
+This section contains the following articles:
 
-* [Personalizza la tua istanza di Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-* [Configurare un URL della guida personalizzato](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+* [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 
+* [Configure a custom help URL](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

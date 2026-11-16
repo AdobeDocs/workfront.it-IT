@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 11%
+source-wordcount: '431'
+ht-degree: 12%
 ---
 # Stampare una dashboard
 
@@ -95,7 +95,7 @@ Le seguenti informazioni sono incluse nel file del dashboard stampato o esportat
 * Titoli dei rapporti
 * Timestamp dell’ultima generazione del rapporto
 * Tutti gli oggetti nel dashboard, incluse le visualizzazioni elenco, le pagine Web esterne, i report e i calendari
-* Logo della società, se personalizzato dall&#39;amministratore di Workfront nella barra di navigazione globale. Per ulteriori informazioni sul branding del sito Workfront, consulta [Personalizza l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### Cosa non viene visualizzato? {#what-is-not-displayed}
 

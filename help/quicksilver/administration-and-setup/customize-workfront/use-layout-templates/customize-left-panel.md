@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 5%
 ---
 # Personalizzare il pannello sinistro utilizzando un modello di layout
@@ -247,14 +247,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >* [!UICONTROL Elenchi]
    >* [!UICONTROL Pannello di riepilogo]
    >* [!UICONTROL Home]
-   >* [!UICONTROL Marchio]
    > 
    >Per informazioni su come personalizzare queste aree aggiuntive, vedere gli articoli seguenti:
    >
    >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizza il [!UICONTROL pannello di riepilogo] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [Personalizza la Home usando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Brand Adobe [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi dashboard]**, digita il **[!UICONTROL Nome collegamento rapido]** per l&#39;elemento, quindi scegli il dashboard.

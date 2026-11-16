@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1856'
 ht-degree: 1%
 ---
 # Attività della versione del primo trimestre 2027 per Adobe Workfront Planning
@@ -29,13 +29,27 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Condivisione di un&#39;automazione Planning
+## Nuovi modelli di Workfront: crea un progetto con il flusso di lavoro di AEM e crea più record
 
 >[!NOTE]
 >
 >Anteprima: 12 novembre 2026
 >Versione rapida di produzione: 12 novembre 2026
 >Produzione per tutti: 12 novembre 2026
+>[!BADGE Fuori pianificazione]{type=Neutral}
+
+In Workfront Fusion sono ora disponibili due nuovi modelli di automazione.
+
+* **Crea progetto con flusso di lavoro AEM:** Crea un progetto da un modello di progetto e, facoltativamente, crea le cartelle collegate AEM configurate per il modello di progetto e le collega al nuovo progetto.
+* **Crea più record:** Crea uno o più record in un tipo di record, con un nuovo record per ogni scelta in un campo a selezione multipla o connesso nel record corrente. Ogni nuovo record viene collegato al record corrente e vengono mappati i campi copiati nei nuovi record.
+
+Per informazioni, vedere [Configurare le automazioni di Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Condivisione di un&#39;automazione Planning
+
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa da tutti gli ambienti e verrà attivata in un momento futuro.
 >[!BADGE Fuori pianificazione]{type=Neutral}
 
 Le nuove automazioni di Workfront Planning sono ora disponibili solo per il proprietario per impostazione predefinita, anziché essere condivise automaticamente con tutti gli utenti dell&#39;area di lavoro. I proprietari possono scegliere chi può accedere condividendo l’automazione con altri utenti. Puoi assegnare ad altri utenti un livello di accesso **Gestisci**, **Modifica** o **Esegui**. Le automazioni esistenti rimangono condivise con gli utenti dell’area di lavoro, pertanto l’accesso corrente non viene influenzato.

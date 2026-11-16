@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # Panoramica sulla revisione e sull’approvazione unificata
@@ -580,6 +580,10 @@ puoi lavorare con il tuo account team Adobe per determinare il numero appropriat
 Parzialmente. I flussi di lavoro di approvazione possono essere testati in un ambiente sandbox Workfront. Tuttavia, l’esperienza di visualizzazione Frame.io non è disponibile in sandbox. Il test della superficie di revisione stessa richiede un ambiente di produzione.
 
 Per limitare l’esposizione durante il rollout, puoi abilitare la revisione e l’approvazione unificate per un gruppo specifico all’interno dell’ambiente di produzione Workfront. Questo consente di eseguire un programma pilota mirato con un set più piccolo di utenti prima di implementarlo in modo più ampio.
+
+**Perché i miei progetti e documenti di archiviazione cloud Adobe non vengono visualizzati nella sandbox dopo un aggiornamento?**
+
+Questo è il comportamento previsto. Quando una sandbox viene aggiornata dalla produzione, nessun dato di archiviazione cloud Adobe viene copiato nella sandbox. I progetti di archiviazione cloud Adobe, i relativi documenti e i dati associati non vengono inclusi nell’aggiornamento. I documenti e i progetti di archiviazione Workfront precedenti continuano a essere copiati nella sandbox come di consueto. Per testare l’archiviazione cloud di Adobe in una sandbox, crea nuovi progetti di archiviazione cloud di Adobe e carica i documenti direttamente in tale ambiente. Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
