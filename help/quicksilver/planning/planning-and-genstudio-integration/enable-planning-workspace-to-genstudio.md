@@ -37,7 +37,7 @@ Devi avere i seguenti:
 * Accesso a Workfront Planning e GenStudio for Performance Marketing.
 * Un progetto Adobe Cloud Storage per il collegamento all’area di lavoro. L’amministratore dell’organizzazione può crearne una in Adobe Admin Console.
 
-  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Per informazioni, consulta [Gestire l&#39;archiviazione Adobe](https://helpx.adobe.com/it/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 ## Requisiti di accesso
 
@@ -73,7 +73,7 @@ Oppure
    <td> 
    <p> Devi creare progetti Adobe Storage Cloud in Adobe Admin Console </p>
 
-<p>Per informazioni, vedere <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Gestione progetti</a>
+<p>Per informazioni, vedere <a href="https://helpx.adobe.com/it/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">Gestione progetti</a>
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ Oppure
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio se devi accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager se è necessario accedere ad Activations <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
