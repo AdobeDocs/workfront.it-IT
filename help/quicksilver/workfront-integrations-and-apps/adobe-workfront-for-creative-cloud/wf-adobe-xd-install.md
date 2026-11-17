@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 9%
 ---
 # Installa e apri [!DNL Adobe Workfront for XD]
+
+{{cc-plugin-legacy-only}}
 
 È possibile installare il plug-in [!DNL Adobe Workfront for XD] da Adobe Marketplace. Il plug-in supporta le seguenti lingue:
 
