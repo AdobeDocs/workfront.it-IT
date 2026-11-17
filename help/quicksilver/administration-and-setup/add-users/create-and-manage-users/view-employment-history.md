@@ -7,9 +7,9 @@ description: È possibile visualizzare la cronologia dell'impiego di un utente, 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # Visualizza cronologia impiego utente
@@ -37,6 +37,10 @@ Karen Sterling è stata direttrice esecutiva da quando è stata assunta il 3 mar
 ## Visualizza cronologia impiego
 
 È possibile visualizzare la cronologia dell&#39;impiego dall&#39;elenco Utenti oppure visualizzare la cronologia totale di un singolo utente nella relativa pagina Utente.
+
+>[!NOTE]
+>
+>Al momento la cronologia dell’impiego dell’utente non tiene conto della data di inizio di un utente.
 
 ### Visualizza cronologia impiego dall&#39;elenco Utenti
 

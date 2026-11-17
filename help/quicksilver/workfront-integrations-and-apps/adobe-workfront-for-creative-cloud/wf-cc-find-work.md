@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 9%
 ---
 # Trovare il lavoro utilizzando il plug-in [!DNL Adobe Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Trovare il lavoro assegnato all&#39;utente in [!DNL Adobe Workfront] senza uscire dalle [!DNL Adobe Creative Cloud] applicazioni seguenti:
 

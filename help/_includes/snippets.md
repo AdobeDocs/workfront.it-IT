@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # Frammenti
@@ -233,6 +233,12 @@ Per impostare le cartelle collegate:
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## Solo archiviazione legacy del plug-in CC {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>Il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] funziona solo con progetti nell&#39;archiviazione legacy di Workfront. Non supporta progetti sull’archiviazione cloud Adobe.
 
 ## Regolare le impostazioni della bozza automatica {#adjust-proof-settings}
 

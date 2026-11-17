@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -114,6 +114,16 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Utilizzare i playbook di scrittura per creare agenti di lavoro</a></p>
+                <p>[!BADGE Versione concorrente]{type=Neutral}</p>
+                <p>È ora possibile utilizzare Writer Playbook per creare agenti di lavoro.</p>
+            </td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>12 novembre 2026</p></td>
+            <td><p>12 novembre 2026</p></td>
         </tr>
         <tr>
             <td>
