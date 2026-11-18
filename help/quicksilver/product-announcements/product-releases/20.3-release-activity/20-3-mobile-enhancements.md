@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '317'
 ht-degree: 6%
 ---
 # 20.3 - Miglioramenti per dispositivi mobili e integrazioni
@@ -52,7 +52,7 @@ Workfront ha stretto una partnership con MobileIron, una piattaforma di gestione
 
 Con Workfront per MobileIron, gli amministratori possono limitare elementi come la funzionalità di copia/incolla e le acquisizioni dello schermo. Puoi scaricare l&#39;app Workfront per MobileIron all&#39;indirizzo [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Per informazioni sulla configurazione dell&#39;app, vedere [Configurare Adobe Workfront per MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## Nuovo Virtual Assistant per dispositivi mobili
 
