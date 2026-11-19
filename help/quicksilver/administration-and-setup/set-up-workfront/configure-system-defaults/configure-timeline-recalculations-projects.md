@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 6%
+source-wordcount: '487'
+ht-degree: 5%
 ---
 # Configurare i ricalcoli della sequenza temporale per i progetti
 
@@ -67,6 +67,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Configurare i ricalcoli automatici
 
 In qualità di amministratore [!DNL Adobe Workfront], puoi configurare quando [!DNL Workfront] ricalcola automaticamente le timeline del progetto. [!DNL Workfront] può ricalcolare le sequenze temporali del progetto ogni notte o quando l&#39;ambito del progetto cambia, o entrambe.
+
+>[!NOTE]
+>
+>Per garantire prestazioni ottimali, le sequenze temporali non vengono ricalcolate automaticamente per i progetti con attività di durata superiore a 1000 giorni. Devi ricalcolare manualmente le timeline su questi progetti.
+
 
 {{step-1-to-setup}}
 

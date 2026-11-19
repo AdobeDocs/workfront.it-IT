@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 6%
-
 ---
-
 # Gestire le informazioni nell’area Panoramica progetto
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Programma</td> 
-      <td>Il programma associato al portfolio del progetto. È necessario creare il programma prima di poterlo aggiungere a un progetto. </td> 
+      <td></p>Il programma associato al portfolio del progetto. È necessario creare il programma prima di poterlo aggiungere a un progetto.</p>
+      <p> Quando un portfolio ha più di 20 programmi attivi, nel campo Programma della Panoramica di un progetto vengono elencati in ordine alfabetico solo i primi 20 programmi. Digitando parte di un nome si trova qualsiasi programma attivo del portfolio. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gruppo</td> 
