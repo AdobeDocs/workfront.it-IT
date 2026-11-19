@@ -4,10 +4,10 @@ description: Altri miglioramenti durante l’intervallo di tempo di rilascio del
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # Altri miglioramenti durante il periodo di rilascio del primo trimestre 2027
@@ -15,6 +15,21 @@ ht-degree: 1%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2027. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2027, consulta [Panoramica sulla versione del primo trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Aspetto aggiornato del pannello di riepilogo per attività, problemi e documenti
+
+>[!NOTE]
+>
+>Anteprima: 19 novembre 2026
+>Versione rapida di produzione: 17 dicembre 2026
+>Produzione per tutti: 21 gennaio 2027
+
+Il pannello Riepilogo per le attività, i problemi e i documenti ha un aspetto aggiornato e si adatta ad altri stili in Workfront. Le informazioni e i campi sono ora organizzati in schede separate all’interno del pannello Riepilogo.
+
+Per ulteriori informazioni, consulta:
+
+* [Panoramica del riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Panoramica del riepilogo dei documenti](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 
@@ -74,7 +89,7 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
-For information, see [Use enhanced lists](https://experienceleague.adobe.com/it/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
 
 -->
 

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -32,12 +32,13 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 >
 >* [!BADGE Versione simultanea]{type=Neutral}
 >   Queste funzioni vengono rilasciate contemporaneamente negli ambienti di anteprima e produzione a causa di situazioni tecniche, come le pianificazioni di rilascio di altri prodotti Adobe che fanno parte della funzione.
->* [!BADGE &#x200B; fuori pianificazione]{type=Neutral}
+>* [!BADGE  fuori pianificazione]{type=Neutral}
 >   Queste funzioni vengono rilasciate al di fuori della pianificazione standard del rilascio di Workfront.
 
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
+* [Miglioramenti Agile](#agile-enhancements)
 * [Miglioramenti ai](#ai-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti ai progetti](#project-enhancements)
@@ -100,6 +101,29 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><p>29 ottobre 2026</p></td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>29 ottobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti Agile
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Aspetto aggiornato per la modifica dei campi su schede agili</a></p>
+                <p>I campi utilizzati per modificare le schede agili hanno un aspetto aggiornato e si adattano ad altri stili di Workfront.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -282,6 +306,15 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
         </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Aspetto aggiornato del pannello di riepilogo per attività, problemi e documenti</a></p>
+                <p>Il pannello Riepilogo ha un aspetto aggiornato, con informazioni e campi organizzati in schede separate.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
+        </tr>
 <!--
         <tr>
             <td>
@@ -390,7 +423,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 
 * Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
 
-Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 
@@ -447,7 +480,7 @@ Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/h
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
