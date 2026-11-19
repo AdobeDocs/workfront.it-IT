@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 2%
 ---
 
@@ -76,6 +76,9 @@ Considera i seguenti aspetti:
 * I creatori di idee hanno sempre i permessi editor per le proprie idee.
 
 * Per creare o contribuire a una descrizione breve ed esportarla in altre applicazioni, è necessario disporre delle autorizzazioni di editor per uno spazio di ideazione.
+
+* &#x200B;
+  * La condivisione controlla solo chi può accedere e collaborare all’area di lavoro di ideazione. Gli aggiornamenti dei record vengono comunque eseguiti solo quando un utente esporta il documento in Workfront Planning.
 
 ## Requisiti di accesso
 

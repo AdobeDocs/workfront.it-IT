@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1119'
 ht-degree: 4%
-
 ---
-
 # Ricalcolare le timeline dei progetti
 
 <!--Audited: 06/2025-->
@@ -115,6 +113,7 @@ Per impostazione predefinita, le sequenze temporali del progetto vengono ricalco
 >[!IMPORTANT]
 >
 >* Se la sequenza temporale di un progetto supera i 15 anni, il ricalcolo automatico viene disattivato per tale progetto ed è possibile selezionare solo un tipo di aggiornamento Manuale. Se si modificano le date del progetto in meno di 15 anni, è necessario ricalcolare manualmente la sequenza temporale una volta prima che venga calcolata automaticamente.
+>* Le sequenze temporali non vengono ricalcolate automaticamente per i progetti con attività di durata superiore a 1000 giorni. Devi ricalcolare manualmente le timeline su questi progetti.
 >* Per gli ambienti Sandbox di anteprima e aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. Devi ricalcolare manualmente la timeline del progetto per gli ambienti Sandbox di anteprima e aggiornamento personalizzati.
 >* Se un progetto è complesso, è possibile che il ricalcolo automatico della sequenza temporale non venga eseguito.
 > Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
@@ -139,7 +138,7 @@ Workfront ricalcola giornalmente le sequenze temporali solo per i progetti in cu
 
 * Hai una data dell’ultimo aggiornamento negli ultimi 3 mesi. Un amministratore di Workfront può modificare questa funzionalità predefinita. Per ulteriori informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* L&#39;ultima data di calcolo della sequenza temporale del progetto non rientra nel giorno di calendario corrente. Ciò significa che la data dell&#39;ultimo calcolo della sequenza temporale del progetto è precedente allo 00:00 del giorno corrente.
+* L&#39;ultima data di calcolo della sequenza temporale del progetto non rientra nel giorno di calendario corrente. Ciò significa che la data dell&#39;ultimo calcolo della sequenza temporale del progetto è precedente alle 00:00 del giorno corrente.
 
 Puoi configurare la frequenza con cui viene aggiornata la timeline per il progetto. Quando la sequenza temporale del progetto viene aggiornata, viene ricalcolata in base alle modifiche apportate al progetto.
 

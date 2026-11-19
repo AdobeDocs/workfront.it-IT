@@ -1,5 +1,5 @@
 ---
-title: Creare slip nello spazio di ideazione
+title: Creare slip nello spazio ideazione
 description: Questo articolo descrive come sviluppare un brainstorming e definire una strategia nello spazio Ideazione per creare delle descrizioni. È possibile esportare i resoconti delle idee finiti in un file o in Workfront Planning per creare o aggiornare i record.
 feature: Workfront Planning
 role: User, Admin
@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -189,6 +189,16 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
      ![Spazio ideazione nei dettagli record](assets/ideation-space-button-in-details-page.png)
 
+     >[!IMPORTANT]
+     >
+     >Il punto da cui viene avviato lo spazio di ideazione determina quale sarà la breve struttura. Esistono i seguenti scenari:
+     >
+     >* Quando viene avviato dal pulsante Nuovo record in Planning, il documento contiene gli stessi campi del tipo di record iniziale.
+     >
+     >* Quando viene avviata da un record esistente di Planning, la descrizione contiene gli stessi campi con gli stessi valori del record.
+     >
+     >* Quando la avvii dal menu principale di Workfront, la descrizione contiene campi e informazioni provenienti dai file caricati nell’area di lavoro.
+
 1. Leggere il contratto beta e fare clic su **Accetto**. È necessario firmare il contratto per utilizzare lo spazio ideazione.
 
    Viene aperta l’area di lavoro Spazio ideazione (Ideation space), con il titolo predefinito dopo il formato seguente:
@@ -244,10 +254,16 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Le informazioni possono essere importate da Workfront Planning o dal Web.
 
    È inoltre possibile fare clic sull&#39;icona **Origini** ![Origini](assets/sources-icon.png) nell&#39;angolo superiore destro dello spazio per visualizzare un elenco delle origini per tutte le schede dello spazio.
-1. (Facoltativo) Fai clic su **Commenti** ![Icona Commento](assets/comments-icon.png) nell&#39;angolo superiore destro dello spazio e **@** assegna altri tag per iniziare il brainstorming all&#39;interno dello spazio.
+1. (Facoltativo) Fai clic su **Commenti** ![Icona Commento](assets/comments-icon.png) nell&#39;angolo superiore destro dell&#39;area di lavoro e **@** assegna altri tag per iniziare il brainstorming all&#39;interno dello spazio.
 
    Gli utenti riceveranno una notifica e-mail relativa al tag.
+
+   >[!TIP]
+   >
+   >È possibile aggiungere commenti per una scheda o un insieme di schede.
+
 1. (Facoltativo) Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-comments-icon.png) nella scheda Commenti per filtrare i commenti in base ai criteri seguenti:
+
 
    * Revisori
    * Ora di aggiunta del commento

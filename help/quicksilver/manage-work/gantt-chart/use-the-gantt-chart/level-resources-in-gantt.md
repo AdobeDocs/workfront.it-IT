@@ -27,13 +27,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: '641'
 ht-degree: 6%
-
 ---
-
 # Livella risorse nel [!UICONTROL Diagramma di Gantt]
 
 <!--Audited: 08/2025-->
@@ -122,6 +120,7 @@ Quando si livellano le risorse in un progetto, considera quanto segue:
   ![Modalità livellamento risorse](assets/resource-leveling-mode-350x177.png)
 
 * In qualità di proprietario del progetto o di assegnatario dell&#39;attività, è possibile introdurre un ritardo di livellamento per un&#39;attività per indicare che è molto probabile che l&#39;attività richieda più tempo. Per informazioni sull&#39;aggiunta di un ritardo di livellamento a un&#39;attività, vedere [Aggiorna ritardo di livellamento attività](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Per garantire prestazioni ottimali, il livellamento delle risorse non funziona per le attività di durata superiore a 1000 giorni.
 
 ## Applica livellamento risorse nel [!UICONTROL Diagramma di Gantt]
 

@@ -11,10 +11,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '1161'
+ht-degree: 0%
 ---
 
 # Creare o modificare record di Planning dalle descrizioni dello spazio ideazione
@@ -167,10 +167,12 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 ## Considerazioni sull&#39;utilizzo dello spazio Ideazione per creare o modificare record di Planning
 
 * Per poter creare o modificare un record di Planning, è necessario avviare lo spazio Ideazione da Workfront Planning. L&#39;accesso allo spazio delle ideazioni dal menu principale di Workfront non consente di collegare un&#39;ideazione a un record di Planning.
+* Quando si avvia Ideation space da un record, Workfront utilizza la struttura e le informazioni del record per creare e aggiornare i campi del documento.
 * Per utilizzare lo spazio di ideazione per creare o modificare record, è necessario disporre di un&#39;area di lavoro e di un tipo di record in Workfront Planning.
 * I nuovi record iniziano sempre con il contenuto segnaposto, indipendentemente dalla modalità di creazione.
 * Quando si elimina un record di Planning collegato a una descrizione breve dell&#39;ideazione, la descrizione rimane nello spazio dell&#39;ideazione e il relativo spazio associato non viene eliminato.
-* La sincronizzazione delle informazioni avviene solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record Planning alla descrizione dello spazio ideazione. <!--this might change after beta?-->
+* La sincronizzazione viene eseguita solo dallo spazio di ideazione a Workfront Planning. Non esiste alcuna sincronizzazione inversa o automatica da un record di Planning a una descrizione ideazione.
+* L&#39;esportazione in Workfront Planning sovrascrive tutti i dati dei campi esistenti nel record Planning connesso.
 * Quando si creano, modificano o rimuovono campi in Workfront Planning, si verificano gli scenari seguenti:
 
   * Ogni giorno vengono aggiunti nuovi campi creati in record collegati a descrizioni idee. I nuovi campi vengono visualizzati vuoti nella descrizione ideazione.
@@ -208,9 +210,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    * Il record viene creato immediatamente con un nome segnaposto.
 
+   * La descrizione viene creata con un nome segnaposto. I campi della descrizione sono identici ai campi del tipo di record da cui si è iniziato.
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (Facoltativo) Passa il puntatore del mouse sul tag **Workfront Planning** nell&#39;angolo superiore destro dell&#39;area di lavoro Spazio ideazione per visualizzare il nome del tipo di record, l&#39;area di lavoro per la quale si sta creando un record e il numero di versione del documento che si sta creando.
+
+   ![Area di lavoro di Workfront Planning e tag di informazioni sul tipo di record all&#39;interno dell&#39;area di lavoro](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. Aggiungere un prompt nella finestra di dialogo **Collaboratore**, quindi premere Invio.
 
@@ -253,9 +261,12 @@ Non è possibile modificare in blocco i record nello spazio ideazione.
 
    Se non esiste alcuna ideazione, viene creato uno spazio di ideazione e un breve.
 
+   La descrizione contiene gli stessi campi del record da cui hai iniziato. I valori dei campi vengono inseriti dal record nel breve.
+
    >[!TIP]
    >
    >Non è possibile modificare in blocco i record utilizzando lo spazio ideazione.
+
 1. Continua a modificare il resoconto come descritto nella sezione [Crea record utilizzando lo spazio di ideazione](#create-records-using-the-ideation-space) in questo articolo.
 
    <!-- 
