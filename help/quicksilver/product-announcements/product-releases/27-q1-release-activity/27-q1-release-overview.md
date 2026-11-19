@@ -32,7 +32,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 >
 >* [!BADGE Versione simultanea]{type=Neutral}
 >   Queste funzioni vengono rilasciate contemporaneamente negli ambienti di anteprima e produzione a causa di situazioni tecniche, come le pianificazioni di rilascio di altri prodotti Adobe che fanno parte della funzione.
->* [!BADGE  fuori pianificazione]{type=Neutral}
+>* [!BADGE &#x200B; fuori pianificazione]{type=Neutral}
 >   Queste funzioni vengono rilasciate al di fuori della pianificazione standard del rilascio di Workfront.
 
 ## Miglioramenti in Adobe Workfront
