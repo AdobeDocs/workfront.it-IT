@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 ## Miglioramenti in Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
+* [Miglioramenti Agile](#agile-enhancements)
 * [Miglioramenti ai](#ai-enhancements)
 * [Miglioramenti ai documenti](#documents-enhancements)
 * [Miglioramenti ai progetti](#project-enhancements)
@@ -100,6 +101,29 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><p>29 ottobre 2026</p></td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>29 ottobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miglioramenti Agile
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funzione</strong>
+            </td>
+            <td><strong>Anteprima</strong></td>
+            <td><strong>Rilascio rapido</strong></td>
+            <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Aspetto aggiornato per la modifica dei campi su schede agili</a></p>
+                <p>I campi utilizzati per modificare le schede agili hanno un aspetto aggiornato e si adattano ad altri stili di Workfront.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
             <td><strong>Anteprima</strong></td>
             <td><strong>Rilascio rapido</strong></td>
             <td><strong>Trimestrale</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Aspetto aggiornato del pannello di riepilogo per attività, problemi e documenti</a></p>
+                <p>Il pannello Riepilogo ha un aspetto aggiornato, con informazioni e campi organizzati in schede separate.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
         </tr>
 <!--
         <tr>

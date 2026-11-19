@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 12%
 ---
 # Aggiornare gli elementi di lavoro nel bilanciamento dei carichi di lavoro utilizzando il riepilogo
@@ -99,6 +99,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    Il pannello Riepilogo si apre a destra.
 
    ![Pannello di riepilogo](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview">In anteprima:
+   ![Pannello di riepilogo](assets/summary-panel.png)
+   </span>
 
 1. Modificare un certo numero di campi per l&#39;elemento di lavoro, immettere un aggiornamento o passare da qui ad altre aree di Workfront per aggiungere documenti o altre informazioni all&#39;elemento di lavoro.
 

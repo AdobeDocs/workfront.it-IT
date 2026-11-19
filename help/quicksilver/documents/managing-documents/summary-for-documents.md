@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 12%
+source-wordcount: '759'
+ht-degree: 11%
 ---
 # Panoramica del riepilogo dei documenti
 
@@ -96,7 +96,11 @@ Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, 
 
    ![Dettagli riepilogo](assets/document-summary-panel.png)
 
-   Dopo aver aperto il Riepilogo, questo rimarrà aperto in questa pagina (anche se si fa clic su altri documenti) fino a quando non viene chiuso manualmente.
+<span class="preview">In anteprima:
+![Dettagli riepilogo](assets/document-details-summary-legacy.png)
+</span>
+
+Dopo aver aperto il Riepilogo, questo rimarrà aperto in questa pagina (anche se si fa clic su altri documenti) fino a quando non viene chiuso manualmente.
 
 
 ### Dettagli
@@ -112,17 +116,29 @@ Espandi la sezione Panoramica per visualizzare o scaricare una miniatura di imma
 
 ![Panoramica riepilogo documenti](assets/details-section.png)
 
+<span class="preview">In anteprima:
+![Dettagli riepilogo](assets/document-details-summary-legacy.png)
+</span>
+
 #### Moduli personalizzati {#custom-forms}
 
 Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, vedere [Aggiungere o modificare un modulo personalizzato in un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![Aggiungere un modulo personalizzato nel riepilogo del documento](assets/custom-forms-section.png)
 
+<span class="preview">In anteprima:
+![Aggiungi un modulo personalizzato nel riepilogo del documento](assets/custom-form-summary-legacy.png)
+</span>
+
 ### Aggiornamenti
 
 Utilizzare la sezione Aggiornamenti per visualizzare un aggiornamento eseguito da un utente sul documento o sulla bozza. Il riepilogo mostra i primi 2 commenti. Per ulteriori informazioni sugli aggiornamenti, vedi [Commento su una bozza](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/updates-section.png)
+
+<span class="preview">In anteprima:
+![Sezione Aggiornamenti nel pannello Riepilogo](assets/updates-summary-legacy.png)
+</span>
 
 ### Approvazioni
 
@@ -135,6 +151,10 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 
 ![Approvazioni riepilogo documenti](assets/approvals-section.png)
 
+<span class="preview">In anteprima:
+![Approvazioni riepilogo documenti](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### Versioni
 
 Utilizzare la sezione Versioni per visualizzare il numero di versioni create per un documento specifico. Fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) per effettuare le seguenti operazioni:
@@ -146,6 +166,10 @@ Utilizzare la sezione Versioni per visualizzare il numero di versioni create per
 * Eliminare una bozza o un documento.
 
 ![Versioni di riepilogo documenti](assets/versions-section.png)
+
+<span class="preview">In anteprima:
+![Versioni di riepilogo documenti](assets/document-versions-summary-legacy.png)
+</span>
 
 ## Riepilogo per i documenti nella nuova esperienza documenti
 

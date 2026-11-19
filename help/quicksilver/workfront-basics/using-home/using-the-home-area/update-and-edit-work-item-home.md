@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 10%
 ---
 # Aggiornare o modificare un elemento di lavoro nell&#39;area [!UICONTROL Home]
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTRO
 1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo**.
    ![Apri riepilogo](assets/open-summary-new-home.png)
 
-1. Nel pannello Riepilogo, posizionate il cursore sul campo da modificare.
-Se si dispone dei diritti per modificare il campo, il campo viene evidenziato quando si passa il puntatore del mouse su di esso.
-1. Fai clic sul campo da modificare, quindi apporta l’aggiornamento desiderato.
+1. Nel pannello Riepilogo, fate clic sul campo da modificare, quindi effettuate l&#39;aggiornamento desiderato.
 1. Fai clic lontano dal campo per salvare le modifiche.

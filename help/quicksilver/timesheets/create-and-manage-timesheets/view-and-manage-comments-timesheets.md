@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 5%
-
 ---
-
 # Visualizzare e gestire commenti su un timesheet
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su [!UICONTROL **Scheda orario**] nel pannello a sinistra.
 1. Fai clic sulla riga di un&#39;attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].
-1. Inizia a digitare un aggiornamento nell&#39;area [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].
+1. Inizia a digitare un aggiornamento nella scheda [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].
 L’aggiornamento viene visualizzato nella sezione Aggiornamenti dell’attività e del problema.
 1. (Facoltativo) Fai clic su [!UICONTROL **Chiudi riepilogo**] per chiudere il pannello Riepilogo.
 
