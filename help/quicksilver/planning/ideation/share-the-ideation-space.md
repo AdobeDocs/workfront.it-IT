@@ -77,7 +77,7 @@ Considera i seguenti aspetti:
 
 * Per creare o contribuire a una descrizione breve ed esportarla in altre applicazioni, è necessario disporre delle autorizzazioni di editor per uno spazio di ideazione.
 
-* 
+* &#x200B;
   * La condivisione controlla solo chi può accedere e collaborare all’area di lavoro di ideazione. Gli aggiornamenti dei record vengono comunque eseguiti solo quando un utente esporta il documento in Workfront Planning.
 
 ## Requisiti di accesso
