@@ -10,14 +10,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 02c20015be69f0f6c2bcd915eccb37ea4fbb50fe
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 34%
 ---
 # Test nascosto
 
 File nascosto utilizzato per testare i tempi di pubblicazione in un archivio più grande.
+
+Novembre 19
 
 Contatta Bob in caso di problemi.
 
@@ -230,7 +232,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta i
    <td> 
 <p>Qualsiasi pacchetto di Adobe Workfront Workflow e qualsiasi pacchetto di Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Piattaforma Adobe Workfront (****richiamarlo o inserirlo nell’articolo collegato in basso???*****)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience per Workfront</a>. </p> 
